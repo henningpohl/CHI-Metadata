@@ -1,0 +1,513 @@
+{
+  "doi": "10.1145/3544548.3581318",
+  "title": "Synthetic Lies: Understanding AI-Generated Misinformation and Evaluating Algorithmic and Human Solutions",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Large language models have abilities in creating high-volume human-like texts and can be used to generate persuasive misinformation. However, the risks remain under-explored. To address the gap, this work first examined characteristics of AI-generated misinformation (AI-misinfo) compared with human creations, and then evaluated the applicability of existing solutions. We compiled human-created COVID-19 misinformation and abstracted it into narrative prompts for a language model to output AI-misinfo. We found significant linguistic differences within human-AI pairs, and patterns of AI-misinfo in enhancing details, communicating uncertainties, drawing conclusions, and simulating personal tones. While existing models remained capable of classifying AI-misinfo, a significant performance drop compared to human-misinfo was observed. Results suggested that existing information assessment guidelines had questionable applicability, as AI-misinfo tended to meet criteria in evidence credibility, source transparency, and limitation acknowledgment. We discuss implications for practitioners, researchers, and journalists, as AI can create new challenges to the societal problem of misinformation.",
+  "authors": [
+    {
+      "name": "Jiawei Zhou",
+      "institution": "School of Interactive Computing, Georgia Institute of Technology, United States",
+      "img": "/do/10.1145/contrib-99660087641/rel-imgonly/zhou_profile.jpg",
+      "acmid": "99660087641",
+      "orcid": "0000-0003-2312-4359"
+    },
+    {
+      "name": "Yixuan Zhang",
+      "institution": "School of Interactive Computing, Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659723371",
+      "orcid": "0000-0002-7412-4669"
+    },
+    {
+      "name": "Qianni Luo",
+      "institution": "Media Arts and Studies, Ohio University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780817",
+      "orcid": "0000-0002-3493-2979"
+    },
+    {
+      "name": "Andrea G Parker",
+      "institution": "School of Interactive Computing, Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81556858356",
+      "orcid": "0000-0002-2362-7717"
+    },
+    {
+      "name": "Munmun De Choudhury",
+      "institution": "School of Interactive Computing, Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81343491309",
+      "orcid": "0000-0002-8939-264X"
+    }
+  ],
+  "references": [
+    {
+      "text": "2019. People + AI Guidebook. https://pair.withgoogle.com/guidebook",
+      "doi": ""
+    },
+    {
+      "text": "2022. OpenAI Documentation. https://beta.openai.com/docs/ Accessed: 2022-09-01.",
+      "doi": ""
+    },
+    {
+      "text": "Malik Almaliki. 2019. Online Misinformation Spread: A Systematic Literature Map. In Proceedings of the 2019 3rd International Conference on Information System and Data Mining (Houston, TX, USA) (ICISDM 2019). Association for Computing Machinery, New York, NY, USA, 171\u2013178. https://doi.org/10.1145/3325917.3325938",
+      "doi": "10.1145/3325917.3325938"
+    },
+    {
+      "text": "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul\u00a0N Bennett, Kori Inkpen, 2019. Guidelines for human-AI interaction. In Proceedings of the 2019 chi conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Chris Bail. 2021. Breaking the social media prism. In Breaking the Social Media Prism. Princeton University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Yejin Bang, Etsuko Ishii, Samuel Cahyawijaya, Ziwei Ji, and Pascale Fung. 2021. Model Generalization on COVID-19 Fake News Detection. In Combating Online Hostile Posts in Regional Languages during Emergency Situation. Springer International Publishing, 128\u2013140.",
+      "doi": ""
+    },
+    {
+      "text": "Md\u00a0Momen Bhuiyan, Hayden Whitley, Michael Horning, Sang\u00a0Won Lee, and Tanushree Mitra. 2021. Designing Transparency Cues in Online News Platforms to Promote Trust: Journalists\u2019 & Consumers\u2019 Perspectives. Proc. ACM Hum.-Comput. Interact. 5, CSCW2 (10 2021). https://doi.org/10.1145/3479539",
+      "doi": "10.1145/3479539"
+    },
+    {
+      "text": "Abeba Birhane and Deborah Raji. 2022. ChatGPT, Galactica, and the Progress Trap. https://www.wired.com/story/large-language-models-critique/",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0M Blei, Andrew\u00a0Y Ng, and Michael\u00a0T. Jordan. 2002. Latent dirichlet allocation. In Advances in Neural Information Processing Systems, Vol.\u00a03. 993\u20131022.",
+      "doi": ""
+    },
+    {
+      "text": "Su\u00a0Lin Blodgett, Q\u00a0Vera Liao, Alexandra Olteanu, Rada Mihalcea, Michael Muller, Morgan\u00a0Klaus Scheuerman, Chenhao Tan, and Qian Yang. 2022. Responsible Language Technologies: Foreseeing and Mitigating Harms. In CHI Conference on Human Factors in Computing Systems Extended Abstracts. 1\u20133.",
+      "doi": ""
+    },
+    {
+      "text": "Rishi Bommasani, Drew\u00a0A Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney von Arx, Michael\u00a0S Bernstein, Jeannette Bohg, Antoine Bosselut, Emma Brunskill, 2021. On the opportunities and risks of foundation models. arXiv preprint arXiv:2108.07258(2021).",
+      "doi": ""
+    },
+    {
+      "text": "J\u00a0Scott Brennen, Felix\u00a0M Simon, Philip\u00a0N Howard, and Rasmus\u00a0Kleis Nielsen. 2020. Types, sources, and claims of COVID-19 misinformation. Ph.D. Dissertation. University of Oxford.",
+      "doi": ""
+    },
+    {
+      "text": "Tom\u00a0B Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel\u00a0M Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam Mccandlish, Alec Radford, Ilya Sutskever, and Dario\u00a0Amodei Openai. 2020. Language Models are Few-Shot Learners. (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Ben Buchanan, Andrew Lohn, Micah Musser, and Katerina Sedova. 2021. Truth, Lies, and Automation: How Language Models Could Change Disinformation. Technical Report. Center for Security and Emerging Technology, Georgetown University. 1\u201354 pages. https://doi.org/10.51593/2021CA003",
+      "doi": ""
+    },
+    {
+      "text": "Monica Bulger and Patrick Davison. 2018. The promises, challenges, and futures of media literacy. Journal of Media Literacy Education 10, 1 (2018), 1\u201321.",
+      "doi": ""
+    },
+    {
+      "text": "Matt Carlson. 2015. The robotic reporter: Automated journalism and the redefinition of labor, compositional forms, and journalistic authority. Digital journalism 3, 3 (2015), 416\u2013431.",
+      "doi": ""
+    },
+    {
+      "text": "Seymour Chatman. 1975. Towards a theory of narrative. New literary history 6, 2 (1975), 295\u2013318.",
+      "doi": ""
+    },
+    {
+      "text": "Mingxi Cheng, Songli Wang, Xiaofeng Yan, Tianqi Yang, Wenshuo Wang, Zehao Huang, Xiongye Xiao, Shahin Nazarian, and Paul Bogdan. 2021. A COVID-19 Rumor Dataset. Frontiers in Psychology 12 (5 2021), 1566. https://doi.org/10.3389/FPSYG.2021.644801/BIBTEX",
+      "doi": ""
+    },
+    {
+      "text": "Katherine Clayton, Spencer Blair, Jonathan\u00a0A Busam, Samuel Forstner, John Glance, Guy Green, Anna Kawata, Akhila Kovvuri, Jonathan Martin, Evan Morgan, 2020. Real solutions for fake news? Measuring the effectiveness of general warnings and fact-check tags in reducing belief in false stories on social media. Political Behavior 42, 4 (2020), 1073\u20131095.",
+      "doi": ""
+    },
+    {
+      "text": "Alistair Coleman. 2020. \u2019Hundreds dead\u2019 because of Covid-19 misinformation. https://www.bbc.com/news/world-53755067",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer Conrad. 2022. How GPT-3 Wrote a Movie About a Cockroach-AI Love Story. https://www.wired.com/story/ai-artist-miao-ying-qanda/",
+      "doi": ""
+    },
+    {
+      "text": "Mark Currie. 2010. Postmodern narrative theory. Bloomsbury Publishing.",
+      "doi": ""
+    },
+    {
+      "text": "Nahla Davies. 2021. AI Is Capable of Generating Misinformation and Fooling Cybersecurity Experts. https://www.cpomagazine.com/cyber-security/ai-is-capable-of-generating-misinformation-and-fooling-cybersecurity-experts/",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Stefano Di\u00a0Sotto and Marco Viviani. 2022. Health Misinformation Detection in the Social Web: An Overview and a Data Science Approach. International Journal of Environmental Research and Public Health 2022, Vol. 19, Page 2173 19, 4 (2 2022), 2173. https://doi.org/10.3390/IJERPH19042173",
+      "doi": ""
+    },
+    {
+      "text": "Renee DiResta. 2020. AI-Generated Text Is the Scariest Deepfake of All. https://www.wired.com/story/ai-generated-text-is-the-scariest-deepfake-of-all/",
+      "doi": ""
+    },
+    {
+      "text": "Christopher Duckworth, Francis\u00a0P Chmiel, Dan\u00a0K Burns, Zlatko\u00a0D Zlatev, Neil\u00a0M White, Thomas\u00a0WV Daniels, Michael Kiuber, and Michael\u00a0J Boniface. 2021. Using explainable machine learning to characterise data drift and detect emergent health risks for emergency department admissions during COVID-19. Scientific reports 11, 1 (2021), 1\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Mohan Dutta-Bergman. 2003. Trusted Online Sources of Health Information: Differences in Demographics, Health Beliefs, and Health-Information Orientation. J Med Internet Res 2003;5(3):e21 https://www.jmir.org/2003/3/e21 5, 3 (9 2003), e893. https://doi.org/10.2196/JMIR.5.3.E21",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Eisenstein, Amr Ahmed, and Eric\u00a0P Xing. 2011. Sparse additive generative models of text. In Proceedings of the 28th international conference on machine learning (ICML-11). 1041\u20131048.",
+      "doi": ""
+    },
+    {
+      "text": "Ziv Epstein, Gordon Pennycook, and David Rand. 2020. Will the Crowd Game the Algorithm? Using Layperson Judgments to Combat Misinformation on Social Media by Downranking Distrusted Sources. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems(CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3313831.3376232",
+      "doi": "10.1145/3313831.3376232"
+    },
+    {
+      "text": "Lutz Finger. 2022. Deepfakes - The Danger Of Artificial Intelligence That We Will Learn To Manage Better. https://www.forbes.com/sites/lutzfinger/2022/09/08/deepfakesthe-danger-of-artificial-intelligence-that-we-will-learn-to-manage-better/?sh=154fbfe8163a. Accessed: 2022-09-09.",
+      "doi": ""
+    },
+    {
+      "text": "Dilrukshi Gamage, Piyush Ghasiya, Vamshi Bonagiri, Mark\u00a0E Whiting, and Kazutoshi Sasahara. 2022. Are Deepfakes Concerning? Analyzing Conversations of Deepfakes on Reddit and Exploring Societal Implications. In CHI Conference on Human Factors in Computing Systems. 1\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "Christine Geeng, Savanna Yee, and Franziska Roesner. 2020. Fake News on Facebook and Twitter: Investigating How People (Don\u2019t) Investigate. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems(CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376784",
+      "doi": "10.1145/3313831.3376784"
+    },
+    {
+      "text": "Samuel Gehman, Suchin Gururangan, Maarten Sap, Yejin Choi, and Noah\u00a0A. Smith. 2020. RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models. Findings of the Association for Computational Linguistics Findings of ACL: EMNLP 2020 (9 2020), 3356\u20133369. https://doi.org/10.48550/arxiv.2009.11462",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0Arch Getty and John\u00a0Archibald Getty. 1987. Origins of the great purges: the Soviet Communist Party reconsidered, 1933-1938. Number\u00a043. Cambridge University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Tarleton Gillespie. 2018. Custodians of the Internet: Platforms, content moderation, and the hidden decisions that shape social media. Yale University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Anna Glazkova, Maksim Glazkov, and Timofey Trifonov. 2021. g2tmn at Constraint@AAAI2021: Exploiting CT-BERT and Ensembling Learning for COVID-19 Fake News Detection. (1 2021). https://link.springer.com/chapter/10.1007/978-3-030-73696-5_12",
+      "doi": ""
+    },
+    {
+      "text": "D Graves. 2018. Understanding the promise and limits of automated fact-checking. (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0M Guess and Benjamin\u00a0A Lyons. 2020. Misinformation, disinformation, and online propaganda. Social media and democracy: The state of the field, prospects for reform 10 (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Alison Hamilton. 2013. Qualitative methods in rapid turn-around health services research. Health services research & development cyberseminar (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Bing He, Caleb Ziems, Sandeep Soni, Naren Ramakrishnan, Diyi Yang, and Srijan Kumar. 2021. Racism is a Virus: Anti-Asian Hate and Counterspeech in Social Media during the COVID-19 Crisis. In Proceedings of the 2021 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining(ASONAM \u201921). Association for Computing Machinery, New York, NY, USA, 90\u201394. https://doi.org/10.1145/3487351.3488324",
+      "doi": "10.1145/3487351.3488324"
+    },
+    {
+      "text": "Xuanli He, Islam Nassar, Jamie Kiros, Gholamreza Haffari, and Mohammad Norouzi. 2022. Generate, annotate, and learn: Nlp with synthetic text. Transactions of the Association for Computational Linguistics 10 (2022), 826\u2013842.",
+      "doi": ""
+    },
+    {
+      "text": "Will\u00a0Douglas Heaven. 2022. Why Meta\u2019s latest large language model only survived three days online. https://www.technologyreview.com/2022/11/18/1063487/meta-large-language-model-ai-only-survived-three-days-gpt-3-science/",
+      "doi": ""
+    },
+    {
+      "text": "Peter Hernon. 1995. Disinformation and misinformation through the internet: Findings of an exploratory study. Government information quarterly 12, 2 (1995), 133\u2013139.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Heverin and Lisl Zach. 2012. Use of microblogging for collective sense-making during violent crises: A study of three campus shootings. Journal of the American Society for Information Science and Technology 63, 1 (2012), 34\u201347.",
+      "doi": "10.1002/asi.21685"
+    },
+    {
+      "text": "Jennifer Hu, Jon Gauthier, Peng Qian, Ethan Wilcox, and Roger Levy. 2020. A Systematic Assessment of Syntactic Generalization in Neural Language Models. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Online, 1725\u20131744. https://doi.org/10.18653/v1/2020.acl-main.158",
+      "doi": ""
+    },
+    {
+      "text": "Tae Hyun\u00a0Baek, Sukki Yoon, and Seeun Kim. 2015. When environmental messages should be assertive: examining the moderating role of effort investment. International Journal of Advertising 34, 1 (1 2015), 135\u2013157. https://doi.org/10.1080/02650487.2014.993513",
+      "doi": ""
+    },
+    {
+      "text": "Md\u00a0Saiful Islam, Tonmoy Sarkar, Sazzad\u00a0Hossain Khan, Abu Hena\u00a0Mostofa Kamal, S.\u00a0M. Murshid\u00a0Hasan, Alamgir Kabir, Dalia Yeasmin, Mohammad\u00a0Ariful Islam, Kamal Ibne\u00a0Amin Chowdhury, Kazi\u00a0Selim Anwar, Abrar\u00a0Ahmad Chughtai, and Holly Seale. 2020. COVID-19\u2013Related Infodemic and Its Impact on Public Health: A Global Social Media Analysis. The American Journal of Tropical Medicine and Hygiene 103, 4 (10 2020), 1621. https://doi.org/10.4269/AJTMH.20-0812",
+      "doi": ""
+    },
+    {
+      "text": "Farnaz Jahanbakhsh, Amy\u00a0X Zhang, Adam\u00a0J Berinsky, Gordon Pennycook, David\u00a0G Rand, and David\u00a0R Karger. 2021. Exploring Lightweight Interventions at Posting Time to Reduce the Sharing of Misinformation on Social Media. Proc. ACM Hum.-Comput. Interact. 5, CSCW1 (4 2021). https://doi.org/10.1145/3449092",
+      "doi": "10.1145/3449092"
+    },
+    {
+      "text": "Shagun Jhaver, Amy Bruckman, and Eric Gilbert. 2019. Does transparency in moderation really matter? User behavior after content removal explanations on reddit. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201327.",
+      "doi": ""
+    },
+    {
+      "text": "Shan Jiang and Christo Wilson. 2018. Linguistic Signals under Misinformation and Fact-Checking: Evidence from User Comments on Social Media. Proc. ACM Hum.-Comput. Interact. 2, CSCW (11 2018). https://doi.org/10.1145/3274351",
+      "doi": "10.1145/3274351"
+    },
+    {
+      "text": "Khari Johnson. 2022. DALL-E 2 Creates Incredible Images\u2014and Biased Ones You Don\u2019t See. https://www.wired.com/story/dall-e-2-ai-text-image-bias-social-media/",
+      "doi": ""
+    },
+    {
+      "text": "S.\u00a0Mo Jones-Jang, Tara Mortensen, and Jingjing Liu. 2021. Does Media Literacy Help Identification of Fake News? Information Literacy Helps, but Other Literacies Don\u2019t. American Behavioral Scientist 65, 2 (2021), 371\u2013388. https://doi.org/10.1177/0002764219869406",
+      "doi": ""
+    },
+    {
+      "text": "Brian\u00a0Felipe Keith\u00a0Norambuena and Tanushree Mitra. 2021. Narrative Maps: An Algorithmic Approach to Represent and Extract Information Narratives. Proc. ACM Hum.-Comput. Interact. 4, CSCW3 (1 2021). https://doi.org/10.1145/3432927",
+      "doi": "10.1145/3432927"
+    },
+    {
+      "text": "Will Knight. 2021. GPT-3 Can Write Disinformation Now\u2014and Dupe Human Readers. https://www.wired.com/story/ai-write-disinformation-dupe-human-readers/",
+      "doi": ""
+    },
+    {
+      "text": "Bill Kovach and Tom Rosenstiel. 2011. Blur: How to know what\u2019s true in the age of information overload. Bloomsbury Publishing USA.",
+      "doi": ""
+    },
+    {
+      "text": "Bill Kovach and Tom Rosenstiel. 2021. The Elements of Journalism, Revised and Updated 4th Edition: What Newspeople Should Know and the Public Should Expect. Crown Publishing Group (NY).",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0M Krafft and Emma\u00a0S Spiro. 2019. Keeping rumors in proportion: managing uncertainty in rumor systems. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201311.",
+      "doi": "10.1145/3290605.3300876"
+    },
+    {
+      "text": "Sarah Kreps, R\u00a0Miles McCain, and Miles Brundage. 2022. All the news that\u2019s fit to fabricate: AI-generated text as a tool of media misinformation. Journal of Experimental Political Science 9, 1 (2022), 104\u2013117.",
+      "doi": ""
+    },
+    {
+      "text": "Kathleen\u00a0M Kuehn and Leon\u00a0A Salter. 2020. Assessing digital threats to democracy, and workable solutions: a review of the recent literature. International Journal of Communication 14 (2020), 22.",
+      "doi": ""
+    },
+    {
+      "text": "Srijan Kumar, Robert West, and Jure Leskovec. 2016. Disinformation on the web: Impact, characteristics, and detection of wikipedia hoaxes. In Proceedings of the 25th international conference on World Wide Web. 591\u2013602.",
+      "doi": "10.1145/2872427.2883085"
+    },
+    {
+      "text": "Samuli Laato, AKM Islam, Muhammad\u00a0Nazrul Islam, and Eoin Whelan. 2020. Why do people share misinformation during the Covid-19 pandemic?arXiv preprint arXiv:2004.09600(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Bruno Latour and Steve Woolgar. 2013. An anthropologist visits the laboratory. In Laboratory Life. Princeton University Press, 43\u2013104.",
+      "doi": ""
+    },
+    {
+      "text": "Stephan Lewandowsky, Ullrich\u00a0KH Ecker, Colleen\u00a0M Seifert, Norbert Schwarz, and John Cook. 2012. Misinformation and its correction: Continued influence and successful debiasing. Psychological science in the public interest 13, 3 (2012), 106\u2013131.",
+      "doi": ""
+    },
+    {
+      "text": "Allison\u00a0A Lewinski, Matthew\u00a0J Crowley, Christopher Miller, Hayden\u00a0B Bosworth, George\u00a0L Jackson, Karen Steinhauser, Courtney White-Clark, Felicia McCant, and Leah\u00a0L Zullig. 2021. Applied rapid qualitative analysis to develop a contextually appropriate intervention and increase the likelihood of uptake. Medical Care 59, 6 Suppl 3 (2021), S242.",
+      "doi": ""
+    },
+    {
+      "text": "Jianfu Li, Yujia Zhou, Xiaoqian Jiang, Karthik Natarajan, Serguei\u00a0Vs Pakhomov, Hongfang Liu, and Hua Xu. 2021. Are synthetic clinical notes useful for real natural language processing tasks: A case study on clinical entity recognition. Journal of the American Medical Informatics Association 28, 10 (9 2021), 2193\u20132201. https://doi.org/10.1093/JAMIA/OCAB112",
+      "doi": ""
+    },
+    {
+      "text": "Q\u00a0Vera Liao and S\u00a0Shyam Sundar. 2022. Designing for responsible trust in AI systems: A communication perspective. In 2022 ACM Conference on Fairness, Accountability, and Transparency. 1257\u20131268.",
+      "doi": "10.1145/3531146.3533182"
+    },
+    {
+      "text": "Brooke\u00a0Fisher Liu, Logen Bartz, and Noreen Duke. 2016. Communicating crisis uncertainty: A review of the knowledge gaps. Public Relations Review 42, 3 (9 2016), 479\u2013487. https://doi.org/10.1016/J.PUBREV.2016.03.003",
+      "doi": ""
+    },
+    {
+      "text": "Bridget Lockyer, Shahid Islam, Aamnah Rahman, Josie Dickerson, Kate Pickett, Trevor Sheldon, John Wright, Rosemary McEachan, Laura Sheard, and Bradford\u00a0Institute for Health Research Covid-19 Scientific Advisory\u00a0Group. 2021. Understanding COVID-19 misinformation and vaccine hesitancy in context: Findings from a qualitative study involving citizens in Bradford, UK. Health Expectations 24, 4 (2021), 1158\u20131167.",
+      "doi": ""
+    },
+    {
+      "text": "Linqi Lu, Jiawei Liu, Y.\u00a0Connie Yuan, Kelli\u00a0S. Burns, Enze Lu, and Dongxiao Li. 2021. Source Trust and COVID-19 Information Sharing: The Mediating Roles of Emotions and Beliefs About Sharing. Health Education and Behavior 48, 2 (4 2021), 132\u2013139. https://doi.org/10.1177/1090198120984760",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas Micallef, Vivienne Armacost, Nasir Memon, and Sameer Patil. 2022. True or False: Studying the Work Practices of Professional Fact-Checkers. Proceedings of the ACM on Human-Computer Interaction 6, CSCW1(2022), 1\u201344.",
+      "doi": "10.1145/3512974"
+    },
+    {
+      "text": "Nicholas Micallef, Bing He, Srijan Kumar, Mustaque Ahamad, and Nasir Memon. 2020. The role of the crowd in countering misinformation: A case study of the COVID-19 infodemic. In 2020 IEEE International Conference on Big Data (Big Data). IEEE, 748\u2013757.",
+      "doi": ""
+    },
+    {
+      "text": "David Mimno, Hanna\u00a0M Wallach, Edmund Talley, Miriam Leenders, and Andrew McCallum. 2011. Optimizing semantic coherence in topic models. In EMNLP 2011 - Conference on Empirical Methods in Natural Language Processing, Proceedings of the Conference. Association for Computational Linguistics, 262\u2013272.",
+      "doi": ""
+    },
+    {
+      "text": "Steve Mollman. 2022. ChatGPT gained 1 million users in under a week. Here\u2019s why the AI chatbot is primed to disrupt search as we know it. https://fortune.com/2022/12/09/ai-chatbot-chatgpt-could-disrupt-google-search-engines-business/",
+      "doi": ""
+    },
+    {
+      "text": "Meredith\u00a0Ringel Morris, Carrie\u00a0Jun Cai, Jess\u00a0Scon Holbrook, Chinmay Kulkarni, and Michael Terry. 2022. The Design Space of Generative Models. (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Mohsen Mosleh, Cameron Martel, Dean Eckles, and David Rand. 2021. Perverse downstream consequences of debunking: Being corrected by another user for posting false political news increases subsequent sharing of low quality, partisan, and toxic content in a Twitter field experiment. In proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Moin Nadeem, Anna Bethke, and Siva Reddy. [n.d.]. StereoSet: Measuring stereotypical bias in pretrained language models. ([n. d.]). https://stereoset.",
+      "doi": ""
+    },
+    {
+      "text": "Ahmadand Najee-Ullah, Luis Landeros, Balytskyi Yaroslavand, and Chang Sang-Yoon. 2022. Towards Detection of\u00a0AI-Generated Texts and\u00a0Misinformation. In Socio-Technical Aspects in Security, Parkin Simonand and Luca Vigan\u00f2 (Eds.). Springer International Publishing, Cham, 194\u2013205.",
+      "doi": ""
+    },
+    {
+      "text": "Taylor Nelson, Nicole Kagan, Claire Critchlow, Alan Hillard, and Albert Hsu. 2020. The Danger of Misinformation in the COVID-19 Crisis. Missouri Medicine 117, 6 (2020), 510\u2013512. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7721433/",
+      "doi": ""
+    },
+    {
+      "text": "Andrea\u00a0L. Nevedal, Caitlin\u00a0M. Reardon, Marilla\u00a0A. Opra\u00a0Widerquist, George\u00a0L. Jackson, Sarah\u00a0L. Cutrona, Brandolyn\u00a0S. White, and Laura\u00a0J. Damschroder. 2021. Rapid versus traditional qualitative analysis using the Consolidated Framework for Implementation Research (CFIR). Implementation Science 16, 1 (12 2021), 1\u201312. https://doi.org/10.1186/S13012-021-01111-5/TABLES/5",
+      "doi": ""
+    },
+    {
+      "text": "Cailin O\u2019Connor and James\u00a0Owen Weatherall. 2019. The misinformation age: How false beliefs spread. Yale University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Jeannette Paschen. 2019. Investigating the emotional appeal of fake news using artificial intelligence and human contributions. Journal of Product & Brand Management(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Parth Patwa, Shivam Sharma, Srinivas PYKL, Vineeth Guptha, Gitanjali Kumari, Md\u00a0Shad Akhtar, Asif Ekbal, Amitava Das, and Tanmoy Chakraborty. 2020. Fighting an Infodemic: COVID-19 Fake News Dataset.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0W. Pennebaker, Cindy\u00a0K. Chung, Joey Frazee, Gary\u00a0M. Lavergne, and David\u00a0I. Beaver. 2014. When Small Words Foretell Academic Success: The Case of College Admissions Essays. PLOS ONE 9, 12 (12 2014), e115844. https://doi.org/10.1371/JOURNAL.PONE.0115844",
+      "doi": ""
+    },
+    {
+      "text": "Gordon Pennycook and David Rand. 2021. Reducing the spread of fake news by shifting attention to accuracy: Meta-analytic evidence of replicability and generalizability. (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Lukas Pohler, Valentin Schrader, Alexander Ladwein, and F\u00a0von Keller. 2018. A Technological Perspective on Misuse of Available AI. Consciouscoders, August(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Alfonso\u00a0J Rodriguez-Morales and Oscar\u00a0H Franco. 2021. Public trust, misinformation and COVID-19 vaccination willingness in Latin America and the Caribbean: today\u2019s key challenges. The Lancet Regional Health\u2013Americas 3 (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Kevin Roose. 2022. AI-Generated Art Won a Prize. Artists Aren\u2019t Happy.https://www.nytimes.com/2022/09/02/technology/ai-artificial-intelligence-artists.html",
+      "doi": ""
+    },
+    {
+      "text": "Kevin Roose. 2022. We Need to Talk About How Good A.I. Is Getting. https://www.nytimes.com/2022/08/24/technology/ai-technology-progress.html",
+      "doi": ""
+    },
+    {
+      "text": "Julio\u00a0A Saenz, Sindhu\u00a0Reddy Kalathur\u00a0Gopal, and Diksha Shukla. 2021. Covid-19 Fake News Infodemic Research Dataset (CoVID19-FNIR Dataset). https://doi.org/10.21227/b5bt-5244",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha and Amit Sharma. 2020. Causal Factors of Effective Psychosocial Outcomes in Online Mental Health Communities. Proceedings of the Fourteenth International AAAI Conference on Web and Social Media (ICWSM 2020)Icwsm (2020). https://www.aaai.org/ojs/index.php/ICWSM/article/view/7326",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha, John Torous, Eric\u00a0D Caine, and Munmun De\u00a0Choudhury. 2020. Psychosocial effects of the COVID-19 pandemic: large-scale quasi-experimental study on social media. Journal of medical internet research 22, 11 (2020), e22600.",
+      "doi": ""
+    },
+    {
+      "text": "Mattia Samory and Tanushree Mitra. 2018. \u2019The Government Spies Using Our Webcams\u2019: The Language of Conspiracy Theories in Online Discussions. Proceedings of the ACM on Human-Computer Interaction 2, CSCW (11 2018), 1\u201324. https://doi.org/10.1145/3274421",
+      "doi": "10.1145/3274421"
+    },
+    {
+      "text": "Dietram\u00a0A Scheufele and Nicole\u00a0M Krause. 2019. Science audiences, misinformation, and fake news. Proceedings of the National Academy of Sciences 116, 16(2019), 7662\u20137669.",
+      "doi": ""
+    },
+    {
+      "text": "Juan Carlos\u00a0Medina Serrano, Orestis Papakyriakopoulos, and Simon Hegelich. 2020. NLP-based feature extraction for the detection of COVID-19 misinformation videos on YouTube. In Proceedings of the 1st Workshop on NLP for COVID-19 at ACL 2020.",
+      "doi": ""
+    },
+    {
+      "text": "Michel Setbon and Jocelyn Raude. 2010. Factors in vaccination intention against the pandemic influenza A/H1N1. European Journal of Public Health 20, 5 (10 2010), 490\u2013494. https://doi.org/10.1093/EURPUB/CKQ054",
+      "doi": ""
+    },
+    {
+      "text": "Kai Shu, Suhang Wang, and Huan Liu. 2019. Beyond news contents: The role of social context for fake news detection. In Proceedings of the twelfth ACM international conference on web search and data mining. 312\u2013320.",
+      "doi": "10.1145/3289600.3290994"
+    },
+    {
+      "text": "Vivek\u00a0K Singh, Isha Ghosh, and Darshan Sonagara. 2021. Detecting fake news stories via multimodal analysis. Journal of the Association for Information Science and Technology 72, 1(2021), 3\u201317.",
+      "doi": "10.1002/asi.24359"
+    },
+    {
+      "text": "Denis Skopin. 2022. Photography and Political Repressions in Stalin\u2019s Russia: Defacing the Enemy. Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Jiao Sun, Tongshuang Wu, Yue Jiang, Ronil Awalegaonkar, Xi\u00a0Victoria Lin, and Diyi Yang. 2022. Pretty Princess vs. Successful Leader: Gender Roles in Greeting Card Messages. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems(CHI \u201922). Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3491102.3502114",
+      "doi": "10.1145/3491102.3502114"
+    },
+    {
+      "text": "Abhijit Suprem and Calton Pu. 2022. Exploring Generalizability of Fine-Tuned Models for Fake News Detection. arXiv preprint arXiv:2205.07154(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Edson\u00a0C. Tandoc. 2019. The facts of fake news: A research review. Sociology Compass 13, 9 (9 2019), e12724. https://doi.org/10.1111/SOC4.12724",
+      "doi": ""
+    },
+    {
+      "text": "Edson\u00a0C Tandoc\u00a0Jr and James Chong\u00a0Boi Lee. 2022. When viruses and misinformation spread: How young Singaporeans navigated uncertainty in the early stages of the COVID-19 outbreak. New Media & Society 24, 3 (2022), 778\u2013796.",
+      "doi": ""
+    },
+    {
+      "text": "Yla\u00a0R Tausczik and James\u00a0W Pennebaker. 2010. The psychological meaning of words: LIWC and computerized text analysis methods. Journal of Language and Social Psychology 29, 1 (2010), 24\u201354. https://doi.org/10.1177/0261927X09351676",
+      "doi": ""
+    },
+    {
+      "text": "The Wall Street Journal. [n.d.]. The Difference Between News & Opinion. https://newsliteracy.wsj.com/news-opinion/",
+      "doi": ""
+    },
+    {
+      "text": "Rob Toews. 2020. Deepfakes Are Going To Wreak Havoc On Society. We Are Not Prepared.https://www.forbes.com/sites/robtoews/2020/05/25/deepfakes-are-going-to-wreak-havoc-on-society-we-are-not-prepared/",
+      "doi": ""
+    },
+    {
+      "text": "Gaurav Verma, Ankur Bhardwaj, Talayeh Aledavood, Munmun De\u00a0Choudhury, and Srijan Kumar. 2022. Examining the impact of sharing COVID-19 misinformation online on mental health. Scientific Reports 12, 1 (2022), 1\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Soroush Vosoughi, Deb Roy, and Sinan Aral. 2018. The spread of true and false news online. Science 359, 6380 (3 2018), 1146\u20131151. https://doi.org/10.1126/SCIENCE.AAP9559/SUPPL_FILE/AAP9559_VOSOUGHI_SM.PDF",
+      "doi": ""
+    },
+    {
+      "text": "Qiaosi Wang, Koustuv Saha, Eric Gregori, David Joyner, and Ashok Goel. 2021. Towards Mutual Theory of Mind in Human-AI Interaction: How Language Reflects What Students Perceive About a Virtual Teaching Assistant. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 384, 14\u00a0pages.",
+      "doi": "10.1145/3411764.3445645"
+    },
+    {
+      "text": "Jevin\u00a0D West and Carl\u00a0T Bergstrom. 2021. Misinformation in and about science. Proceedings of the National Academy of Sciences 118, 15(2021), e1912444117.",
+      "doi": ""
+    },
+    {
+      "text": "Mika Westerlund. 2019. The emergence of deepfake technology: A review. Technology Innovation Management Review 9, 11 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0Ashby Wilson and Molly\u00a0K Land. 2020. Hate speech on social media: Content moderation in context. Conn. L. Rev. 52(2020), 1029.",
+      "doi": ""
+    },
+    {
+      "text": "World Health Organization. 2020. Let\u2019s flatten the infodemic curve. https://www.who.int/news-room/spotlight/let-s-flatten-the-infodemic-curve",
+      "doi": ""
+    },
+    {
+      "text": "Amy\u00a0X. Zhang, Aditya Ranganathan, Sarah\u00a0Emlen Metz, Scott Appling, Connie\u00a0Moon Sehat, Norman Gilmore, Nick\u00a0B. Adams, Emmanuel Vincent, Jennifer Lee, Martin Robbins, Ed Bice, Sandro Hawke, David Karger, and An\u00a0Xiao Mina. 2018. A Structured Response to Misinformation: Defining and Annotating Credibility Indicators in News Articles. The Web Conference 2018 - Companion of the World Wide Web Conference, WWW 2018 (4 2018), 603\u2013612. https://doi.org/10.1145/3184558.3188731",
+      "doi": "10.1145/3184558.3188731"
+    },
+    {
+      "text": "Yixuan Zhang, Nurul Suhaimi, Nutchanon Yongsatianchot, Joseph\u00a0D Gaggiano, Miso Kim, Shivani\u00a0A Patel, Yifan Sun, Stacy Marsella, Jacqueline Griffin, and Andrea\u00a0G Parker. 2022. Shifting Trust: Examining How Trust and Distrust Emerge, Transform, and Collapse in COVID-19 Information Seeking. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 78, 21\u00a0pages. https://doi.org/10.1145/3491102.3501889",
+      "doi": "10.1145/3491102.3501889"
+    },
+    {
+      "text": "Jiawei Zhou, Koustuv Saha, Irene\u00a0Michelle Lopez\u00a0Carron, Dong\u00a0Whi Yoo, Catherine\u00a0R. Deeter, Munmun De\u00a0Choudhury, and Rosa\u00a0I. Arriaga. 2022. Veteran Critical Theory as a Lens to Understand Veterans\u2019 Needs and Support on Social Media. Proc. ACM Hum.-Comput. Interact. 6, CSCW1, Article 133 (apr 2022), 28\u00a0pages. https://doi.org/10.1145/3512980",
+      "doi": "10.1145/3512980"
+    }
+  ]
+}

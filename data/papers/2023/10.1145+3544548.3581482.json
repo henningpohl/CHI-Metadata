@@ -1,0 +1,287 @@
+{
+  "doi": "10.1145/3544548.3581482",
+  "title": "Kaleidoscope: Semantically-grounded, context-specific ML model evaluation",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-13",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Desired model behavior often differs across contexts (e.g., different geographies, communities, or institutions), but there is little infrastructure to facilitate context-specific evaluations key to deployment decisions and building trust. Here, we present Kaleidoscope, a system for evaluating models in terms of user-driven, domain-relevant concepts. Kaleidoscope\u2019s iterative workflow enables generalizing from a few examples into a larger, diverse set representing an important concept. These example sets can be used to test model outputs or shifts in model behavior in semantically-meaningful ways. For instance, we might construct a \u201cxenophobic comments\u201d set and test that its examples are more likely to be flagged by a content moderation model than a \u201ccivil discussion\u201d set. To evaluate Kaleidoscope, we compare it against template- and DSL-based grouping methods, and conduct a usability study with 13 Reddit users testing a content moderation model. We find that Kaleidoscope facilitates iterative, exploratory hypothesis testing across diverse, conceptually-meaningful example sets.",
+  "authors": [
+    {
+      "name": "Harini Suresh",
+      "institution": "CSAIL, MIT, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "87059106057",
+      "orcid": "0000-0002-9769-4947"
+    },
+    {
+      "name": "Divya Shanmugam",
+      "institution": "Clinical and Applied Machine Learning Group, MIT, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660483951",
+      "orcid": "0000-0003-1994-053X"
+    },
+    {
+      "name": "Tiffany Chen",
+      "institution": "CSAIL, MIT, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779743",
+      "orcid": "0000-0002-7483-3596"
+    },
+    {
+      "name": "Annie G Bryan",
+      "institution": "CSAIL, MIT, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782396",
+      "orcid": "0000-0002-1140-8576"
+    },
+    {
+      "name": "Alexander D'Amour",
+      "institution": "Google Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659325141",
+      "orcid": "0000-0001-7984-3366"
+    },
+    {
+      "name": "John Guttag",
+      "institution": "CSAIL, MIT, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100171020",
+      "orcid": "0000-0003-0992-0906"
+    },
+    {
+      "name": "Arvind Satyanarayan",
+      "institution": "CSAIL, MIT, United States",
+      "img": "/do/10.1145/contrib-81500663321/rel-imgonly/arvind-satyanarayan.jpg",
+      "acmid": "81500663321",
+      "orcid": "0000-0001-5564-635X"
+    }
+  ],
+  "references": [
+    {
+      "text": "Daniel Borkan, Lucas Dixon, Jeffrey Sorensen, Nithum Thain, and Lucy Vasserman. 2019. Nuanced metrics for measuring unintended bias with real data for text classification. In Companion proceedings of the 2019 world wide web conference. 491\u2013500.",
+      "doi": "10.1145/3308560.3317593"
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative research in psychology 3, 2 (2006), 77\u2013101.",
+      "doi": ""
+    },
+    {
+      "text": "Joy Buolamwini and Timnit Gebru. 2018. Gender shades: Intersectional accuracy disparities in commercial gender classification. In Conference on fairness, accountability and transparency. PMLR, 77\u201391.",
+      "doi": ""
+    },
+    {
+      "text": "Carrie\u00a0J Cai, Samantha Winter, David Steiner, Lauren Wilcox, and Michael Terry. 2019. \" Hello AI\": uncovering the onboarding needs of medical practitioners for human-AI collaborative decision-making. Proceedings of the ACM on Human-computer Interaction 3, CSCW(2019), 1\u201324.",
+      "doi": "10.1145/3359206"
+    },
+    {
+      "text": "Jose Camacho-Collados, Kiamehr Rezaee, Talayeh Riahi, Asahi Ushio, Daniel Loureiro, Dimosthenis Antypas, Joanne Boisson, Luis Espinosa-Anke, Fangyu Liu, Eugenio Mart\u00ednez-C\u00e1mara, 2022. TweetNLP: Cutting-Edge Natural Language Processing for Social Media. arXiv preprint arXiv:2206.14774(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Cer, Yinfei Yang, Sheng-yi Kong, Nan Hua, Nicole Limtiaco, Rhomni\u00a0St John, Noah Constant, Mario Guajardo-Cespedes, Steve Yuan, Chris Tar, 2018. Universal sentence encoder for English. In Proceedings of the 2018 conference on empirical methods in natural language processing: system demonstrations. 169\u2013174.",
+      "doi": ""
+    },
+    {
+      "text": "Eshwar Chandrasekharan, Mattia Samory, Shagun Jhaver, Hunter Charvat, Amy Bruckman, Cliff Lampe, Jacob Eisenstein, and Eric Gilbert. 2018. The Internet\u2019s hidden rules: An empirical study of Reddit norm violations at micro, meso, and macro scales. Proceedings of the ACM on Human-Computer Interaction 2, CSCW(2018), 1\u201325.",
+      "doi": "10.1145/3274301"
+    },
+    {
+      "text": "Anamaria Crisan, Margaret Drouhard, Jesse Vig, and Nazneen Rajani. 2022. Interactive Model Cards: A Human-Centered Approach to Model Documentation. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 427\u2013439. https://doi.org/10.1145/3531146.3533108",
+      "doi": "10.1145/3531146.3533108"
+    },
+    {
+      "text": "Alexander D\u2019Amour, Katherine Heller, Dan Moldovan, Ben Adlam, Babak Alipanahi, Alex Beutel, Christina Chen, Jonathan Deaton, Jacob Eisenstein, Matthew\u00a0D Hoffman, 2020. Underspecification presents challenges for credibility in modern machine learning. arXiv preprint arXiv:2011.03395(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Emily Denton, Alex Hanna, Razvan Amironesei, Andrew Smart, Hilary Nicole, and Morgan\u00a0Klaus Scheuerman. 2020. Bringing the people back in: Contesting benchmark machine learning datasets. arXiv preprint arXiv:2007.07399(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Mark D\u00edaz, Ian Kivlichan, Rachel Rosen, Dylan Baker, Razvan Amironesei, Vinodkumar Prabhakaran, and Emily Denton. 2022. CrowdWorkSheets: Accounting for Individual and Collective Identities Underlying Crowdsourced Dataset Annotation. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 2342\u20132351. https://doi.org/10.1145/3531146.3534647",
+      "doi": "10.1145/3531146.3534647"
+    },
+    {
+      "text": "Catherine D\u2019ignazio and Lauren\u00a0F Klein. 2020. Data feminism. MIT press.",
+      "doi": ""
+    },
+    {
+      "text": "Finale Doshi-Velez and Been Kim. 2017. Towards a rigorous science of interpretable machine learning. arXiv preprint arXiv:1702.08608(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Ravit Dotan and Smitha Milli. 2020. Value-laden disciplinary shifts in machine learning. FAT*\u201920: Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (Jan. 2020).",
+      "doi": "10.1145/3351095.3373157"
+    },
+    {
+      "text": "Casey Fiesler, Joshua McCann, Kyle Frye, Jed\u00a0R Brubaker, 2018. Reddit rules! characterizing an ecosystem of governance. In Twelfth International AAAI Conference on Web and Social Media.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Geirhos, J\u00f6rn-Henrik Jacobsen, Claudio Michaelis, Richard Zemel, Wieland Brendel, Matthias Bethge, and Felix\u00a0A Wichmann. 2020. Shortcut learning in deep neural networks. Nature Machine Intelligence 2, 11 (2020), 665\u2013673.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Gleicher, Danielle Albers, Rick Walker, Ilir Jusufi, Charles\u00a0D Hansen, and Jonathan\u00a0C Roberts. 2011. Visual comparison for information visualization. Information Visualization 10, 4 (2011), 289\u2013309.",
+      "doi": "10.1177/1473871611416549"
+    },
+    {
+      "text": "Karan Goel, Nazneen Rajani, Jesse Vig, Samson Tan, Jason Wu, Stephan Zheng, Caiming Xiong, Mohit Bansal, and Christopher R\u00e9. 2021. Robustness gym: Unifying the nlp evaluation landscape. arXiv preprint arXiv:2101.04840(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0RG Green. 1989. Cognitive dimensions of notations. People and computers V(1989), 443\u2013460.",
+      "doi": ""
+    },
+    {
+      "text": "Chuan Guo, Geoff Pleiss, Yu Sun, and Kilian\u00a0Q Weinberger. 2017. On calibration of modern neural networks. In International conference on machine learning. PMLR, 1321\u20131330.",
+      "doi": ""
+    },
+    {
+      "text": "Frank Haist, Arthur\u00a0P Shimamura, and Larry\u00a0R Squire. 1992. On the relationship between recall and recognition memory.Journal of Experimental Psychology: Learning, Memory, and Cognition 18, 4(1992), 691.",
+      "doi": ""
+    },
+    {
+      "text": "Laura Hanu and Unitary team. 2020. Detoxify. Github. https://github.com/unitaryai/detoxify.",
+      "doi": ""
+    },
+    {
+      "text": "Donna Haraway. 2020. Situated knowledges: The science question in feminism and the privilege of partial perspective. In Feminist theory reader. Routledge, 303\u2013310.",
+      "doi": ""
+    },
+    {
+      "text": "Dan Hendrycks and Thomas Dietterich. 2019. Benchmarking Neural Network Robustness to Common Corruptions and Perturbations. In International Conference on Learning Representations. https://openreview.net/forum?id=HJz6tiCqYm",
+      "doi": ""
+    },
+    {
+      "text": "Alon Jacovi, Ana Marasovi\u0107, Tim Miller, and Yoav Goldberg. 2021. Formalizing trust in artificial intelligence: Prerequisites, causes and goals of human trust in ai. In Proceedings of the 2021 ACM conference on fairness, accountability, and transparency. 624\u2013635.",
+      "doi": "10.1145/3442188.3445923"
+    },
+    {
+      "text": "Kimmo Karkkainen and Jungseock Joo. 2021. Fairface: Face attribute dataset for balanced race, gender, and age for bias measurement and mitigation. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 1548\u20131558.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0N Kluttz, Nitin Kohli, and Deirdre\u00a0K Mulligan. 2022. Shaping our tools: Contestability as a means to promote responsible algorithmic decision making in the professions. In Ethics of Data and Analytics. Auerbach Publications, 420\u2013428.",
+      "doi": ""
+    },
+    {
+      "text": "Pang\u00a0Wei Koh, Shiori Sagawa, Henrik Marklund, Sang\u00a0Michael Xie, Marvin Zhang, Akshay Balsubramani, Weihua Hu, Michihiro Yasunaga, Richard\u00a0Lanas Phillips, Irena Gao, 2021. Wilds: A benchmark of in-the-wild distribution shifts. In International Conference on Machine Learning. PMLR, 5637\u20135664.",
+      "doi": ""
+    },
+    {
+      "text": "Kostiantyn Kucher and Andreas Kerren. 2015. Text visualization techniques: Taxonomy, visual survey, and community insights. In 2015 IEEE Pacific visualization symposium (pacificVis). IEEE, 117\u2013121.",
+      "doi": ""
+    },
+    {
+      "text": "Deepak Kumar, Patrick\u00a0Gage Kelley, Sunny Consolvo, Joshua Mason, Elie Bursztein, Zakir Durumeric, Kurt Thomas, and Michael Bailey. 2021. Designing toxic content classification for a diversity of perspectives. In Seventeenth Symposium on Usable Privacy and Security (SOUPS 2021). 299\u2013318.",
+      "doi": ""
+    },
+    {
+      "text": "Alyssa Lees, Vinh\u00a0Q Tran, Yi Tay, Jeffrey Sorensen, Jai Gupta, Donald Metzler, and Lucy Vasserman. 2022. A new generation of perspective api: Efficient multilingual character-level transformers. arXiv preprint arXiv:2202.11176(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Yunhui Long, Vincent Bindschaedler, and Carl\u00a0A Gunter. 2017. Towards measuring membership privacy. arXiv preprint arXiv:1712.09136(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Donald Martin\u00a0Jr, Vinodkumar Prabhakaran, Jill Kuhlberg, Andrew Smart, and William\u00a0S Isaac. 2020. Extending the machine learning abstraction boundary: A Complex systems approach to incorporate societal context. arXiv preprint arXiv:2006.09663(2020).",
+      "doi": ""
+    },
+    {
+      "text": "George\u00a0A Miller. 1956. The magical number seven, plus or minus two: Some limits on our capacity for processing information.Psychological review 63, 2 (1956), 81.",
+      "doi": ""
+    },
+    {
+      "text": "Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa\u00a0Deborah Raji, and Timnit Gebru. 2019. Model cards for model reporting. In Proceedings of the conference on fairness, accountability, and transparency. 220\u2013229.",
+      "doi": "10.1145/3287560.3287596"
+    },
+    {
+      "text": "Augustus Odena, Catherine Olsson, David Andersen, and Ian Goodfellow. 2019. Tensorfuzz: Debugging neural networks with coverage-guided fuzzing. In International Conference on Machine Learning. PMLR, 4901\u20134911.",
+      "doi": ""
+    },
+    {
+      "text": "Yaniv Ovadia, Emily Fertig, Jie Ren, Zachary Nado, David Sculley, Sebastian Nowozin, Joshua Dillon, Balaji Lakshminarayanan, and Jasper Snoek. 2019. Can you trust your model\u2019s uncertainty? evaluating predictive uncertainty under dataset shift. Advances in neural information processing systems 32 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Desmond\u00a0U Patton, William\u00a0R Frey, Kyle\u00a0A McGregor, Fei-Tzin Lee, Kathleen McKeown, and Emanuel Moss. 2020. Contextual analysis of social media: The promise and challenge of eliciting context in social media posts with natural language processing. In Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society. 337\u2013342.",
+      "doi": "10.1145/3375627.3375841"
+    },
+    {
+      "text": "Pew Research Center. 2017. Online Harassment 2017. https://www.pewresearch.org/internet/2017/07/11/online-harassment-2017/",
+      "doi": ""
+    },
+    {
+      "text": "Joaquin Quinonero-Candela, Masashi Sugiyama, Anton Schwaighofer, and Neil\u00a0D Lawrence. 2008. Dataset shift in machine learning. Mit Press.",
+      "doi": ""
+    },
+    {
+      "text": "Deborah Raji, Emily Denton, Emily\u00a0M. Bender, Alex Hanna, and Amandalynne Paullada. 2021. AI and the Everything in the Whole Wide World Benchmark. In Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks, J.\u00a0Vanschoren and S.\u00a0Yeung (Eds.). Vol.\u00a01. https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/084b6fbb10729ed4da8c3d3f5a3ae7c9-Paper-round2.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Tongshuang Wu, Carlos Guestrin, and Sameer Singh. 2020. Beyond Accuracy: Behavioral Testing of NLP Models with CheckList. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. 4902\u20134912.",
+      "doi": ""
+    },
+    {
+      "text": "Suchi Saria and Adarsh Subbaswamy. 2019. Tutorial: safe and reliable machine learning. arXiv preprint arXiv:1904.07204(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Mark Sendak, Madeleine\u00a0Clare Elish, Michael Gao, Joseph Futoma, William Ratliff, Marshall Nichols, Armando Bedoya, Suresh Balu, and Cara O\u2019Brien. 2020. \" The human body is a black box\" supporting clinical decision-making with deep learning. In Proceedings of the 2020 conference on fairness, accountability, and transparency. 99\u2013109.",
+      "doi": "10.1145/3351095.3372827"
+    },
+    {
+      "text": "Shreya Shankar, Yoni Halpern, Eric Breck, James Atwood, Jimbo Wilson, and D. Sculley. 2017. No Classification without Representation: Assessing Geodiversity Issues in Open Data Sets for the Developing World. In NIPS 2017 workshop: Machine Learning for the Developing World.",
+      "doi": ""
+    },
+    {
+      "text": "Liwei Song and Prateek Mittal. 2021. Systematic evaluation of privacy risks of machine learning models. In 30th USENIX Security Symposium (USENIX Security 21). 2615\u20132632.",
+      "doi": ""
+    },
+    {
+      "text": "Hendrik Strobelt, Daniela Oelke, Bum\u00a0Chul Kwon, Tobias Schreck, and Hanspeter Pfister. 2015. Guidelines for effective usage of text highlighting techniques. IEEE transactions on visualization and computer graphics 22, 1(2015), 489\u2013498.",
+      "doi": ""
+    },
+    {
+      "text": "Harini Suresh, Steven\u00a0R. Gomez, Kevin\u00a0K. Nam, and Arvind Satyanarayan. 2021. Beyond Expertise and Roles: A Framework to Characterize the Stakeholders of Interpretable Machine Learning and Their Needs. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 74, 16\u00a0pages. https://doi.org/10.1145/3411764.3445088",
+      "doi": "10.1145/3411764.3445088"
+    },
+    {
+      "text": "Harini Suresh, Kathleen\u00a0M Lewis, John Guttag, and Arvind Satyanarayan. 2022. Intuitively assessing ml model reliability through example-based explanations and editing model inputs. In 27th International Conference on Intelligent User Interfaces. 767\u2013781.",
+      "doi": "10.1145/3490099.3511160"
+    },
+    {
+      "text": "Harini Suresh, Rajiv Movva, Amelia\u00a0Lee Dogan, Rahul Bhargava, Isadora Crux\u00ean, \u00c1ngeles\u00a0Martinez Cuba, Guilia Taurino, Wonyoung So, and Catherine D\u2019Ignazio. 2022. Towards Intersectional Feminist and Participatory ML: A Case Study in Supporting Feminicide Counterdata Collection. In 2022 ACM Conference on Fairness, Accountability, and Transparency. 667\u2013678.",
+      "doi": ""
+    },
+    {
+      "text": "Nithum Thain, Lucas Dixon, and Ellery Wulczyn. 2017. Wikipedia Talk Labels: Toxicity. (2 2017). https://doi.org/10.6084/m9.figshare.4563973.v2",
+      "doi": ""
+    },
+    {
+      "text": "Victor Veitch, Alexander D\u2019Amour, Steve Yadlowsky, and Jacob Eisenstein. 2021. Counterfactual invariance to spurious correlations: Why and how to pass stress tests. arXiv preprint arXiv:2106.00545(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Martin Wattenberg and Fernanda\u00a0B Vi\u00e9gas. 2008. The word tree, an interactive visual concordance. IEEE transactions on visualization and computer graphics 14, 6(2008), 1221\u20131228.",
+      "doi": "10.1109/TVCG.2008.172"
+    },
+    {
+      "text": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, R\u00e9mi Louf, Morgan Funtowicz, 2019. Huggingface\u2019s transformers: State-of-the-art natural language processing. arXiv preprint arXiv:1910.03771(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Tongshuang Wu, Marco\u00a0Tulio Ribeiro, Jeffrey Heer, and Daniel\u00a0S Weld. 2019. Errudite: Scalable, reproducible, and testable error analysis. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. 747\u2013763.",
+      "doi": ""
+    },
+    {
+      "text": "Kaiyu Yang, Klint Qinami, Li Fei-Fei, Jia Deng, and Olga Russakovsky. 2020. Towards fairer datasets: Filtering and balancing the distribution of the people subtree in the imagenet hierarchy. In Proceedings of the 2020 conference on fairness, accountability, and transparency. 547\u2013558.",
+      "doi": "10.1145/3351095.3375709"
+    }
+  ]
+}

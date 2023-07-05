@@ -1,0 +1,621 @@
+{
+  "doi": "10.1145/3544548.3580973",
+  "title": "Never Skip Leg Day Again: Training the Lower Body with Vertical Jumps in a Virtual Reality Exergame",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Virtual Reality (VR) exergames can increase engagement in and motivation for physical activities. Most VR exergames focus on the upper body because many VR setups only track the users\u2019 heads and hands. To become a serious alternative to existing exercise programs, VR exergames must provide a balanced workout and train the lower limbs, too. To address this issue, we built a VR exergame focused on vertical jump training to explore full-body exercise applications. To create a safe and effective training, nine domain experts participated in our prototype design. Our mixed-methods study confirms that the jump-centered exercises provided a worthy challenge and positive player experience, indicating long-term retention. Based on our findings, we present five design implications to guide future work: avoid an unintended forward drift, consider technical constraints, address safety concerns in full-body VR exergames, incorporate rhythmic elements with fluent movement patterns, adapt difficulty to players\u2019 fitness progression status.",
+  "authors": [
+    {
+      "name": "Sebastian Cmentowski",
+      "institution": "COVIDAG, University of Duisburg-Essen, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659210449",
+      "orcid": "0000-0003-4555-6187"
+    },
+    {
+      "name": "Sukran Karaosmanoglu",
+      "institution": "Human-Computer Interaction, Universit\u00e4t Hamburg, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659466914",
+      "orcid": "0000-0002-9624-4258"
+    },
+    {
+      "name": "Lennart E. Nacke",
+      "institution": "HCI Games Group, Games Institute, University of Waterloo, Canada and Stratford School of Interaction Design and Business, University of Waterloo, Canada",
+      "img": "/do/10.1145/contrib-81392605076/rel-imgonly/len-acm.png",
+      "acmid": "81392605076",
+      "orcid": "0000-0003-4290-8829"
+    },
+    {
+      "name": "Frank Steinicke",
+      "institution": "Human-Computer Interaction, Universit\u00e4t Hamburg, Germany",
+      "img": "/do/10.1145/contrib-81313483772/rel-imgonly/steinicke-sit2-sm.jpg",
+      "acmid": "81313483772",
+      "orcid": "0000-0001-9879-7414"
+    },
+    {
+      "name": "Jens Harald Kr\u00fcger",
+      "institution": "COVIDAG, University of Duisburg-Essen, Germany and School of Computing, University of Utah, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81503661713",
+      "orcid": "0000-0002-9197-0613"
+    }
+  ],
+  "references": [
+    {
+      "text": "Vero\u00a0Vanden Abeele, Katta Spiel, Lennart Nacke, Daniel Johnson, and Kathrin Gerling. 2020. Development and validation of the player experience inventory: A scale to measure player experiences at the level of functional and psychosocial consequences. International Journal of Human-Computer Studies 135 (2020), 102370. https://doi.org/10.1016/j.ijhcs.2019.102370",
+      "doi": "10.1016/j.ijhcs.2019.102370"
+    },
+    {
+      "text": "Kent Adams, John\u00a0P O\u2019Shea, Katie\u00a0L O\u2019Shea, and Mike Climstein. 1992. The effect of six weeks of squat, plyometric and squat-plyometric training on power production. Journal of applied sport science research 6, 1 (1992), 36\u201341.",
+      "doi": ""
+    },
+    {
+      "text": "Ali Al-Khalifah, Rachel McCrindle, Paul Sharkey, and Vassil Alexandrov. 2006. Using virtual reality for medical diagnosis, training and education. International Journal on Disability and Human Development 5, 2(2006), 187\u2013194.",
+      "doi": ""
+    },
+    {
+      "text": "Iannis Albert, Nicole Burkard, Dirk Queck, and Marc Herrlich. 2022. The Effect of Auditory-Motor Synchronization in Exergames on the Example of the VR Rhythm Game BeatSaber. Proc. ACM Hum.-Comput. Interact. 6, CHI PLAY, Article 253 (oct 2022), 26\u00a0pages. https://doi.org/10.1145/3549516",
+      "doi": "10.1145/3549516"
+    },
+    {
+      "text": "Kenneth Anderson and David\u00a0G Behm. 2005. The impact of instability resistance training on balance and stability. Sports medicine 35, 1 (2005), 43\u201353.",
+      "doi": ""
+    },
+    {
+      "text": "LE Armstrong and CM Maresh. 1998. Effects of training, environment, and host factors on the sweating response to exercise. International journal of sports medicine 19, S 2 (1998), S103\u2013S105.",
+      "doi": ""
+    },
+    {
+      "text": "Timothy\u00a0T Baldwin and J\u00a0Kevin Ford. 1988. Transfer of training: A review and directions for future research. Personnel psychology 41, 1 (1988), 63\u2013105.",
+      "doi": ""
+    },
+    {
+      "text": "Wendy Balster, ELC Xue, and WK Pui. 2016. Effects of a deeper countermovement on vertical jump biomechanics after three weeks of familiarisation\u2013preliminary findings. International Journal of Human Movement and Sports Sciences 4, 4(2016), 51\u201360.",
+      "doi": ""
+    },
+    {
+      "text": "E\u00a0Joan Bassey, Maria\u00a0A Fiatarone, Evelyn\u00a0F O\u2019neill, Margaret Kelly, William\u00a0J Evans, and Lewis\u00a0A Lipsitz. 1992. Leg extensor power and functional performance in very old men and women.Clinical science (London, England: 1979) 82, 3 (1992), 321\u2013327.",
+      "doi": ""
+    },
+    {
+      "text": "Nathaniel\u00a0A Bates, Kevin\u00a0R Ford, Gregory\u00a0D Myer, and Timothy\u00a0E Hewett. 2013. Impact differences in ground reaction force and center of mass between the first and second landing phases of a drop vertical jump and their implications for injury risk assessment. Journal of biomechanics 46, 7 (2013), 1237\u20131241.",
+      "doi": ""
+    },
+    {
+      "text": "B Bideau, R Kulpa, N Vignais, S Brault, F Multon, and C Craig. 2010. Virtual reality, a serious game for understanding performance and training players in sport. IEEE Computer Graphic Applications 30, 2 (2010), 14\u201321.",
+      "doi": "10.1109/MCG.2009.134"
+    },
+    {
+      "text": "Jonathan\u00a0R Blackburn and Matthew\u00a0C Morrissey. 1998. The relationship between open and closed kinetic chain strength of the lower limb and jumping performance. Journal of Orthopaedic & Sports Physical Therapy 27, 6 (1998), 430\u2013435.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0P Bliss, Philip\u00a0D Tidwell, and Michael\u00a0A Guest. 1997. The effectiveness of virtual reality for administering spatial navigation training to firefighters. Presence: Teleoperators & Virtual Environments 6, 1(1997), 73\u201386.",
+      "doi": "10.1162/pres.1997.6.1.73"
+    },
+    {
+      "text": "Maarten\u00a0F Bobbert. 1990. Drop jumping as a training method for jumping ability. Sports medicine 9, 1 (1990), 7\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Felix Born, Sophie Abramowski, and Maic Masuch. 2019. Exergaming in VR: The Impact of Immersive Embodiment on Motivation, Performance, and Perceived Exertion. In 2019 11th International Conference on Virtual Worlds and Games for Serious Applications (VS-Games). IEEE, New York City, NY, USA, 1\u20138. https://doi.org/10.1109/VS-Games.2019.8864579",
+      "doi": ""
+    },
+    {
+      "text": "Felix Born, Adrian Rygula, and Maic Masuch. 2021. Motivating Players to Perform an Optional Strenuous Activity in a Virtual Reality Exergame Using Virtual Performance Augmentation. Proc. ACM Hum.-Comput. Interact. 5, CHI PLAY, Article 225 (oct 2021), 21\u00a0pages. https://doi.org/10.1145/3474652",
+      "doi": "10.1145/3474652"
+    },
+    {
+      "text": "C. Bosco, P.\u00a0V. Komi, J. Tihanyi, G. Fekete, and P. Apor. 1983. Mechanical power test and fiber composition of human leg extensor muscles. European Journal of Applied Physiology and Occupational Physiology 51, 1(1983), 129\u2013135. https://doi.org/10.1007/BF00952545",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2019. Reflecting on reflexive thematic analysis. Qualitative Research in Sport, Exercise and Health 11, 4 (2019), 589\u2013597. https://doi.org/10.1080/2159676X.2019.1628806",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2021. Can I use TA? Should I use TA? Should I not use TA? Comparing reflexive thematic analysis and other pattern-based qualitative analytic approaches. Counselling and Psychotherapy Research 21, 1 (2021), 37\u201347. https://doi.org/10.1002/capr.12360",
+      "doi": ""
+    },
+    {
+      "text": "Eva Buchtelov\u00e1, M Tichy, and Kate\u0159ina Vanikov\u00e1. 2013. Influence of muscular imbalances on pelvic position and lumbar lordosis: a theoretical basis. Journal of Nursing, Social Studies, Public Health and Rehabilitation 1, 2(2013), 25\u201336.",
+      "doi": ""
+    },
+    {
+      "text": "Lee\u00a0N Burkett, Wayne\u00a0T Phillips, and Joana Ziuraitis. 2005. The best warm-up for the vertical jump in college-age athletic men. The Journal of Strength & Conditioning Research 19, 3 (2005), 673\u2013676.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0K Canavan and Jason\u00a0D Vescovi. 2004. Evaluation of power prediction equations: peak vertical jumping power in women. Medicine & Science in Sports & Exercise 36, 9 (2004), 1589\u20131593.",
+      "doi": ""
+    },
+    {
+      "text": "Alberto Cannav\u00f2, Filippo\u00a0Gabriele Prattic\u00f2, Giuseppe Ministeri, and Fabrizio Lamberti. 2018. A Movement Analysis System Based on Immersive Virtual Reality and Wearable Technology for Sport Training. In Proceedings of the 4th International Conference on Virtual Reality (Hong Kong, Hong Kong) (ICVR 2018). Association for Computing Machinery, New York, NY, USA, 26\u201331. https://doi.org/10.1145/3198910.3198917",
+      "doi": "10.1145/3198910.3198917"
+    },
+    {
+      "text": "Kevin Carlson, Marshall Magnusen, and Peter Walters. 2009. Effect of various training modalities on vertical jump. Research in Sports Medicine 17, 2 (2009), 84\u201394.",
+      "doi": ""
+    },
+    {
+      "text": "Patrick Carlson, Anicia Peters, Stephen\u00a0B Gilbert, Judy\u00a0M Vance, and Andy Luse. 2015. Virtual training: Learning transfer of assembly tasks. IEEE transactions on visualization and computer graphics 21, 6(2015), 770\u2013782.",
+      "doi": ""
+    },
+    {
+      "text": "Polona Caserman, Shule Liu, and Stefan G\u00f6bel. 2022. Full-Body Motion Recognition in Immersive- Virtual-Reality-Based Exergame. IEEE Transactions on Games 14, 2 (2022), 243\u2013252. https://doi.org/10.1109/TG.2021.3064749",
+      "doi": ""
+    },
+    {
+      "text": "Guilherme\u00a0M. Cesar, Curtis\u00a0L. Tomasevicz, and Judith\u00a0M. Burnfield. 2016. Frontal plane comparison between drop jump and vertical jump: implications for the assessment of ACL risk of injury. Sports Biomechanics 15, 4 (Oct. 2016), 440\u2013449. https://doi.org/10.1080/14763141.2016.1174286",
+      "doi": ""
+    },
+    {
+      "text": "John S.\u00a0Y. Chan, Guanmin Liu, Danxia Liang, Kanfeng Deng, Jiamin Wu, and Jin\u00a0H. Yan. 2019. Special Issue \u2013 Therapeutic Benefits of Physical Activity for Mood: A Systematic Review on the Effects of Exercise Intensity, Duration, and Modality. The Journal of Psychology 153, 1 (2019), 102\u2013125. https://doi.org/10.1080/00223980.2018.1470487 arXiv:https://doi.org/10.1080/00223980.2018.1470487PMID: 30321106.",
+      "doi": ""
+    },
+    {
+      "text": "A Chardenon, Gilles Montagne, MJ Buekers, and Michel Laurent. 2002. The visual control of ball interception during human locomotion. Neuroscience letters 334, 1 (2002), 13\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Gary Charness and Uri Gneezy. 2009. Incentives to exercise. Econometrica 77, 3 (2009), 909\u2013931.",
+      "doi": ""
+    },
+    {
+      "text": "Yu-Ping Chen, Lin-Ju Kang, Tien-Yow Chuang, Ji-Liang Doong, Shwn-Jan Lee, Mei-Wun Tsai, Suh-Fang Jeng, and Wen-Hsu Sung. 2007. Use of virtual reality to improve upper-extremity control in children with cerebral palsy: a single-subject design. Physical therapy 87, 11 (2007), 1441\u20131457.",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Cmentowski and Jens Krueger. 2021. Exploring the Potential of Vertical Jump Training in Virtual Reality. In Extended Abstracts of the 2021 Annual Symposium on Computer-Human Interaction in Play (Virtual Event, Austria) (CHI PLAY \u201921). Association for Computing Machinery, New York, NY, USA, 179\u2013185. https://doi.org/10.1145/3450337.3483503",
+      "doi": "10.1145/3450337.3483503"
+    },
+    {
+      "text": "Jacob Cohen. 1992. Quantitative methods in psychology: A power primer. Psychological Bulletin 112, 1 (1992), 153\u2013159. https://doi.org/10.1.1.1043.9095",
+      "doi": ""
+    },
+    {
+      "text": "Cathy Craig. 2013. Understanding perception and action in sport: how can virtual reality technology help?Sports Technology 6, 4 (2013), 161\u2013169.",
+      "doi": ""
+    },
+    {
+      "text": "Cathy\u00a0M Craig, Eric Berton, Guillaume Rao, Laure Fernandez, and Reinoud\u00a0J Bootsma. 2006. Judging where a ball will go: the case of curved free kicks in football. Naturwissenschaften 93, 2 (2006), 97\u2013101.",
+      "doi": ""
+    },
+    {
+      "text": "Jean-Louis Croisier. 2004. Muscular imbalance and acute lower extremity muscle injuries in sport. International SportMed Journal 5, 3 (2004), 169\u2013176.",
+      "doi": ""
+    },
+    {
+      "text": "Don Decker and Mike Vinson. 1996. Using periodization to improve vertical jump performance. Strength & Conditioning Journal 18, 1 (1996), 13\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "DeepL SE. 2017. DeepL Translator. DeepL Pro version. Cologne, Germany. https://www.deepl.com/pro?cta=header-pro/.",
+      "doi": ""
+    },
+    {
+      "text": "PAUL Devita and William\u00a0A Skelly. 1992. Effect of landing stiffness on joint kinetics and energetics in the lower extremity. Med Sci Sports Exerc 24, 1 (1992), 108\u2013115.",
+      "doi": ""
+    },
+    {
+      "text": "Dovetail Research PTY. LTD.2016. Dovetail. Surry Hills, Australia. https://dovetailapp.com/.",
+      "doi": ""
+    },
+    {
+      "text": "Peter D\u00fcking, Hans-Christer Holmberg, and Billy Sperlich. 2018. The potential usefulness of virtual reality systems for athletes: a short SWOT analysis. Frontiers in Physiology 9 (2018), 128.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0L Eaves, Gavin Breslin, Paul Van\u00a0Schaik, Emma Robinson, and Iain\u00a0R Spears. 2011. The short-term effects of real-time virtual reality feedback on motor learning in dance. Presence: Teleoperators and Virtual Environments 20, 1(2011), 62\u201377.",
+      "doi": "10.5555/3116694.3116700"
+    },
+    {
+      "text": "Kirk\u00a0I Erickson, Michelle\u00a0W Voss, Ruchika\u00a0Shaurya Prakash, Chandramallika Basak, Amanda Szabo, Laura Chaddock, Jennifer\u00a0S Kim, Susie Heo, Heloisa Alves, Siobhan\u00a0M White, 2011. Exercise training increases size of hippocampus and improves memory. Proceedings of the national academy of sciences 108, 7 (2011), 3017\u20133022.",
+      "doi": ""
+    },
+    {
+      "text": "Philip\u00a0W Fink, Patrick\u00a0S Foo, and William\u00a0H Warren. 2009. Catching fly balls in virtual reality: A critical test of the outfielder problem. Journal of vision 9, 13 (2009), 14\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Samantha Finkelstein, Andrea Nickel, Tiffany Barnes, and Evan\u00a0A. Suma. 2010. Astrojumper: Motivating Children with Autism to Exercise Using a VR Game. In CHI \u201910 Extended Abstracts on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI EA \u201910). Association for Computing Machinery, New York, NY, USA, 4189\u20134194. https://doi.org/10.1145/1753846.1754124",
+      "doi": "10.1145/1753846.1754124"
+    },
+    {
+      "text": "Samantha Finkelstein, Andrea Nickel, Zachary Lipps, Tiffany Barnes, Zachary Wartell, and Evan\u00a0A Suma. 2011. Astrojumper: Motivating exercise with an immersive virtual reality exergame. Presence: Teleoperators and Virtual Environments 20, 1(2011), 78\u201392. https://doi.org/10.1162/pres_a_00036",
+      "doi": ""
+    },
+    {
+      "text": "FitXR. 2019. FitXR. Game [VR]. FitXR, London, United Kingdom..",
+      "doi": ""
+    },
+    {
+      "text": "Steven\u00a0J Fleck and William Kraemer. 2014. Designing resistance training programs, 4E. Human Kinetics, Champaign, Illinois.",
+      "doi": ""
+    },
+    {
+      "text": "Jenny Gabel, Sukran Karaosmanoglu, Celeste Mason, Sebastian Rings, and Frank Steinicke. 2021. Corona Beat - Kicking The Sedentary Habit Induced By Prolonged Social Distancing. In 2021 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW). IEEE, Lisbon, Portugal, 687\u2013688. https://doi.org/10.1109/VRW52623.2021.00226",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0A Gabriel, Gary Kamen, and Gail Frost. 2006. Neural adaptations to resistive exercise. Sports medicine 36, 2 (2006), 133\u2013149.",
+      "doi": ""
+    },
+    {
+      "text": "Mat Gallagher. 2022. 3 reasons why you should buy a VR headset. https://www.t3.com/news/3-reasons-why-you-should-buy-a-vr-headset",
+      "doi": ""
+    },
+    {
+      "text": "Beat Games. 2019. Beat Saber. Game [VR]. Beat Games. Los Angeles, CA, USA. https://beatsaber.com/. Steam Reviews: https://store.steampowered.com/app/620980/Beat_Saber/. Accessed: 30.12.2021.",
+      "doi": ""
+    },
+    {
+      "text": "Rodrigo\u00a0Ghedini Gheller, Juliano Dal\u00a0Pupo, Luis Antonio Pereira\u00a0de Lima, Bruno Monteiro\u00a0de Moura, and Saray Giovana\u00a0dos Santos. 2014. Effect of squat depth on performance and biomechanical parameters of countermovement vertical jump.",
+      "doi": ""
+    },
+    {
+      "text": "Linda Graf, Maximilian Altmeyer, Katharina Emmerich, Marc Herrlich, Andrey Krekhov, and Katta Spiel. 2022. Development and Validation of a German Version of the Player Experience Inventory (PXI). In Proceedings of Mensch Und Computer 2022(Darmstadt, Germany) (MuC \u201922). Association for Computing Machinery, New York, NY, USA, 265\u2013275. https://doi.org/10.1145/3543758.3543763",
+      "doi": "10.1145/3543758.3543763"
+    },
+    {
+      "text": "John Graham. 1994. Guidelines for providing valid testing of athletes\u2019 fitness levels. Strength & Conditioning Journal 16, 6 (1994), 7\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Daigo Hayashi, Kazuyuki Fujita, Kazuki Takashima, Robert\u00a0W. Lindeman, and Yoshifumi Kitamura. 2019. Redirected Jumping: Imperceptibly Manipulating Jump Motions in Virtual Reality. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, New York City, NY, USA, 386\u2013394. https://doi.org/10.1109/VR.2019.8797989",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0T Hays, John\u00a0W Jacobs, Carolyn Prince, and Eduardo Salas. 1992. Flight simulator training effectiveness: A meta-analysis. Military psychology 4, 2 (1992), 63\u201374.",
+      "doi": ""
+    },
+    {
+      "text": "Eric\u00a0J Hegedus, Suzanne McDonough, Chris Bleakley, Chad\u00a0E Cook, and G\u00a0David Baxter. 2015. Clinician-friendly lower extremity physical performance measures in athletes: a systematic review of measurement properties and correlation with injury, part 1. The tests for knee function including the hop tests. British journal of sports medicine 49, 10 (2015), 642\u2013648.",
+      "doi": ""
+    },
+    {
+      "text": "Christian Helland, Jens Bojsen-M\u00f8ller, Truls Raastad, Olivier\u00a0R Seynnes, Marie\u00a0M Moltubakk, Vidar Jakobsen, H\u00e5vard Visnes, and Roald Bahr. 2013. Mechanical properties of the patellar tendon in elite volleyball players with and without patellar tendinopathy. British Journal of Sports Medicine 47, 13 (Sept. 2013), 862\u2013868. https://doi.org/10.1136/bjsports-2013-092275",
+      "doi": ""
+    },
+    {
+      "text": "Timothy\u00a0E Hewett, Gregory\u00a0D Myer, Kevin\u00a0R Ford, Robert\u00a0S Heidt\u00a0Jr, Angelo\u00a0J Colosimo, Scott\u00a0G McLean, Antonie\u00a0J Van\u00a0den Bogert, Mark\u00a0V Paterno, and Paul Succop. 2005. Biomechanical measures of neuromuscular control and valgus loading of the knee predict anterior cruciate ligament injury risk in female athletes: a prospective study. The American journal of sports medicine 33, 4 (2005), 492\u2013501.",
+      "doi": ""
+    },
+    {
+      "text": "Anne H\u00f6sch. 2018. Simulator Sickness in Fahrsimulationsumgebungen-drei Studien zu Human Factors. Ph.\u00a0D. Dissertation. Technische Universit\u00e4t Ilmenau. https://www.db-thueringen.de/receive/dbt_mods_00037865",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0A Hough, Emma\u00a0Z Ross, and Glyn Howatson. 2009. Effects of dynamic and static stretching on vertical jump performance and electromyographic activity. The Journal of Strength & Conditioning Research 23, 2 (2009), 507\u2013512.",
+      "doi": ""
+    },
+    {
+      "text": "HTC Corporation. 2020. HTC Vive Pro. Website. Retrieved October 26, 2020 from https://www.vive.com/eu/product/vive-pro/.",
+      "doi": ""
+    },
+    {
+      "text": "HTC Corporation. 2022. HTC Vive Tracker. Website. Retrieved July 12, 2022 from https://www.vive.com/us/accessory/tracker3/.",
+      "doi": ""
+    },
+    {
+      "text": "Jackie\u00a0L Hudson. 1986. Coordination of segments in the vertical jump.Medicine & Science in Sports & Exercise 18, 2 (1986), 241\u2013252.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph\u00a0P Hunter and Robert\u00a0N Marshall. 2002. Effects of power and flexibility training on vertical jump technique. Medicine and science in sports and exercise 34, 3 (2002), 478\u2013486.",
+      "doi": ""
+    },
+    {
+      "text": "Christos Ioannou, Patrick Archard, Eamonn O\u2019Neill, and Christof Lutteroth. 2019. Virtual Performance Augmentation in an Immersive Jump & Run Exergame. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3290605.3300388",
+      "doi": "10.1145/3290605.3300388"
+    },
+    {
+      "text": "Clayne\u00a0R Jensen and A\u00a0Garth Fisher. 1972. Scientific Basis of Athletic Conditioning: A Unique Book Dealing Exclusively with the Practical Application of Scientific Information to Athletic Conditioning. Journal of Health, Physical Education, Recreation 43, 8(1972), 6\u20137.",
+      "doi": ""
+    },
+    {
+      "text": "Jason Jerald. 2015. The VR Book: Human-Centered Design for Virtual Reality. Association for Computing Machinery and Morgan & Claypool, New York, New York, US.",
+      "doi": "10.1145/2792790"
+    },
+    {
+      "text": "Raine Kajastila, Leo Holsti, and Perttu H\u00e4m\u00e4l\u00e4inen. 2014. Empowering the Exercise: a Body-Controlled Trampoline Training Game. International Journal of Computer Science in Sport 1, 13 (2014), 6\u201323.",
+      "doi": ""
+    },
+    {
+      "text": "Sukran Karaosmanoglu, Lucie Kruse, Sebastian Rings, and Frank Steinicke. 2022. Canoe VR: An Immersive Exergame to Support Cognitive and Physical Exercises of Older Adults. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 342, 7\u00a0pages. https://doi.org/10.1145/3491101.3519736",
+      "doi": "10.1145/3491101.3519736"
+    },
+    {
+      "text": "Sukran Karaosmanoglu, Sebastian Rings, Lucie Kruse, Christian Stein, and Frank Steinicke. 2021. Lessons Learned from a Human-Centered Design of an Immersive Exergame for People with Dementia. Proc. ACM Hum.-Comput. Interact. 5, CHI PLAY, Article 252 (oct 2021), 27\u00a0pages. https://doi.org/10.1145/3474679",
+      "doi": "10.1145/3474679"
+    },
+    {
+      "text": "Philip Kelly, Aoife Healy, Kieran Moran, and Noel\u00a0E. O\u2019Connor. 2010. A Virtual Coaching Environment for Improving Golf Swing Technique. In Proceedings of the 2010 ACM Workshop on Surreal Media and Virtual Cloning (Firenze, Italy) (SMVC \u201910). Association for Computing Machinery, New York, NY, USA, 51\u201356. https://doi.org/10.1145/1878083.1878098",
+      "doi": "10.1145/1878083.1878098"
+    },
+    {
+      "text": "Robert\u00a0S. Kennedy, Norman\u00a0E. Lane, Kevin\u00a0S. Berbaum, and Michael\u00a0G. Lilienthal. 1993. Simulator Sickness Questionnaire: An Enhanced Method for Quantifying Simulator Sickness. The International Journal of Aviation Psychology 3, 3 (1993), 203\u2013220. https://doi.org/10.1207/s15327108ijap0303_3",
+      "doi": ""
+    },
+    {
+      "text": "Ho-Jun Kim, Seokhee Chung, Sungsoo Kim, Hyundae Shin, Jongsoo Lee, Sehyun Kim, and Mi-Yeon Song. 2006. Influences of trunk muscles on lumbar lordosis and sacral angle. European Spine Journal 15, 4 (2006), 409\u2013414.",
+      "doi": ""
+    },
+    {
+      "text": "Jungjin Kim, Jaebum Son, Nayeon Ko, and BumChul Yoon. 2013. Unsupervised virtual reality-based exercise program improves hip muscle strength and balance control in older adults: a pilot study. Archives of physical medicine and rehabilitation 94, 5(2013), 937\u2013943.",
+      "doi": ""
+    },
+    {
+      "text": "Joong\u00a0Hwi Kim, Sung\u00a0Ho Jang, Chung\u00a0Sun Kim, Ji\u00a0Hee Jung, and Joshua\u00a0H You. 2009. Use of virtual reality to enhance balance and ambulation in chronic stroke: a double-blind, randomized controlled study. American Journal of physical medicine & rehabilitation 88, 9(2009), 693\u2013701.",
+      "doi": ""
+    },
+    {
+      "text": "P Klavora 2000. Vertical-jump tests: A critical review. Strength and Conditioning Journal 22, 5 (2000), 70\u201375.",
+      "doi": ""
+    },
+    {
+      "text": "JJ Kozak, Peter\u00a0A Hancock, EJ Arthur, and Susan\u00a0T Chrysler. 1993. Transfer of training from virtual reality. Ergonomics 36, 7 (1993), 777\u2013784.",
+      "doi": ""
+    },
+    {
+      "text": "William\u00a0J Kraemer, Scott\u00a0A Mazzetti, Bradley\u00a0C Nindl, Lincoln\u00a0A Gotshalk, Jeff\u00a0S Volek, Jill\u00a0A Bush, JIM\u00a0O MARX, KEI DOHI, Ana\u00a0L Gomez, MARY MILES, 2001. Effect of resistance training on women\u2019s strength/power and occupational performances. Medicine & Science in Sports & Exercise 33, 6 (2001), 1011\u20131025.",
+      "doi": ""
+    },
+    {
+      "text": "Lucie Kruse, Sukran Karaosmanoglu, Sebastian Rings, Benedikt Ellinger, Daniel Apken, Thandiwe\u00a0Feziwe Mangana, and Frank Steinicke. 2021. A Long-Term User Study of an Immersive Exergame for Older Adults with Mild Dementia during the COVID-19 Pandemic. In ICAT-EGVE 2021 - International Conference on Artificial Reality and Telexistence and Eurographics Symposium on Virtual Environments, Jason Orlosky, Dirk Reiners, and Benjamin Weyers (Eds.). The Eurographics Association, Eindhoven, The Netherlands, 9\u201318. https://doi.org/10.2312/egve.20211322",
+      "doi": ""
+    },
+    {
+      "text": "H Kyr\u00f6l\u00e4inen, J Avela, JM McBride, S Koskinen, JL Andersen, S Sipil\u00e4, TES Takala, and PV Komi. 2004. Effects of power training on mechanical efficiency in jumping. European journal of applied physiology 91, 2 (2004), 155\u2013159.",
+      "doi": ""
+    },
+    {
+      "text": "Odders Lab. 2019. OhShape. Game [VR]. Odders Lab. Seville, Spain. https://ohshapevr.com/. Steam Reviews: https://store.steampowered.com/app/1098100/OhShape/. Accessed: 22.11.2022.",
+      "doi": ""
+    },
+    {
+      "text": "Rotem Lammfromm and Daniel Gopher. 2011. Transfer of skill from a virtual reality trainer to real juggling. BIO web of conferences 1(2011), 00054. https://doi.org/10.1051/bioconf/20110100054",
+      "doi": ""
+    },
+    {
+      "text": "Corinna\u00a0E Lathan, Michael\u00a0R Tracey, Marc\u00a0M Sebrechts, Deborah\u00a0M Clawson, and Gerald\u00a0A Higgins. 2002. Using virtual environments as training simulators: Measuring transfer. In Handbook of Virtual Environments. CRC Press, Boca Raton, Florida, US, 443\u2013454.",
+      "doi": ""
+    },
+    {
+      "text": "Savvas Lazaridis, Eleni Bassa, Dimitrios Patikas, Giannis Giakas, Albert Gollhofer, and Christos Kotzamanidis. 2010. Neuromuscular differences between prepubescents boys and adult men during drop jump. European journal of applied physiology 110, 1 (2010), 67\u201374.",
+      "doi": ""
+    },
+    {
+      "text": "Adrian Lees, Jos Vanrenterghem, and Dirk De\u00a0Clercq. 2004. The maximal and submaximal vertical jump: implications for strength and conditioning. The Journal of Strength & Conditioning Research 18, 4 (2004), 787\u2013791.",
+      "doi": ""
+    },
+    {
+      "text": "Lauri Lehtonen, Maximus\u00a0D. Kaos, Raine Kajastila, Leo Holsti, Janne Karsisto, Sami Pekkola, Joni V\u00e4h\u00e4m\u00e4ki, Lassi Vapaakallio, and Perttu H\u00e4m\u00e4l\u00e4inen. 2019. Movement Empowerment in a Multiplayer Mixed-Reality Trampoline Game. In Proceedings of the Annual Symposium on Computer-Human Interaction in Play (Barcelona, Spain) (CHI PLAY \u201919). Association for Computing Machinery, New York, NY, USA, 19\u201329. https://doi.org/10.1145/3311350.3347181",
+      "doi": "10.1145/3311350.3347181"
+    },
+    {
+      "text": "Matthieu Lenoir, Eliane Musch, and Nancy La\u00a0Grange. 1999. Ecological relevance of stereopsis in one-handed ball-catching. Perceptual and motor skills 89, 2 (1999), 495\u2013508.",
+      "doi": ""
+    },
+    {
+      "text": "Yi-Jun Li, De-Rong Jin, Miao Wang, Jun-Long Chen, Frank Steinicke, Shi-Min Hu, and Qinping Zhao. 2021. Detection Thresholds with Joint Horizontal and Vertical Gains in Redirected Jumping. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR). IEEE, New York City, NY, USA, 95\u2013102. https://doi.org/10.1109/VR50410.2021.00030",
+      "doi": ""
+    },
+    {
+      "text": "Phil Lundin and William Berg. 1991. Plyometrics: a review of plyometric training. Strength & Conditioning Journal 13, 6 (1991), 22\u201334.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0D Lyttle, Greg\u00a0J Wilson, and Karl\u00a0J Ostrowski. 1996. Enhancing performance: Maximal power versus combined weights and plyometrics training. Journal of strength and conditioning research 10 (1996), 173\u2013179.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Macvean and Judy Robertson. 2013. Understanding Exergame Users\u2019 Physical Activity, Motivation and Behavior over Time. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). Association for Computing Machinery, New York, NY, USA, 1251\u20131260. https://doi.org/10.1145/2470654.2466163",
+      "doi": "10.1145/2470654.2466163"
+    },
+    {
+      "text": "Laurent Malisoux, Marc Francaux, Henri Nielens, and Daniel Theisen. 2006. Stretch-shortening cycle exercises: an effective training paradigm to enhance power output of human single muscle fibers. Journal of applied physiology 100, 3 (2006), 771\u2013779.",
+      "doi": ""
+    },
+    {
+      "text": "Fabrizia Mantovani, Gianluca Castelnuovo, Andrea Gaggioli, and Giuseppe Riva. 2003. Virtual reality training for health-care professionals. CyberPsychology & Behavior 6, 4 (2003), 389\u2013395.",
+      "doi": ""
+    },
+    {
+      "text": "Elena M\u00e1rquez\u00a0Segura, Annika Waern, Jin Moen, and Carolina Johansson. 2013. The Design Space of Body Games: Technological, Physical, and Social Design. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). Association for Computing Machinery, New York, NY, USA, 3365\u20133374. https://doi.org/10.1145/2470654.2466461",
+      "doi": "10.1145/2470654.2466461"
+    },
+    {
+      "text": "Anna\u00a0Lisa Martin-Niedecken, Andrea Mahrer, Katja Rogers, Eling\u00a0D. de Bruin, and Alexandra Sch\u00e4ttin. 2020. \u201cHIIT\u201d the ExerCube: Comparing the Effectiveness of Functional High-Intensity Interval Training in Conventional vs. Exergame-Based Training. Frontiers in Computer Science 2 (2020), 15\u00a0pages. https://doi.org/10.3389/fcomp.2020.00033",
+      "doi": ""
+    },
+    {
+      "text": "Anna\u00a0Lisa Martin-Niedecken, Katja Rogers, Laia Turmo\u00a0Vidal, Elisa\u00a0D. Mekler, and Elena M\u00e1rquez\u00a0Segura. 2019. ExerCube vs. Personal Trainer: Evaluating a Holistic, Immersive, and Adaptive Fitness Game Setup. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3290605.3300318",
+      "doi": "10.1145/3290605.3300318"
+    },
+    {
+      "text": "Arnaud Mas, Idriss Isma\u00ebl, and Nicolas Filliard. 2018. Indy: a virtual reality multi-player game for navigation skills training. In 2018 IEEE Fourth VR International Workshop on Collaborative Virtual Environments (3DCVE). IEEE, IEEE, New York City, NY, USA, 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0Travis McMaster, Nicholas Gill, John Cronin, and Michael McGuigan. 2014. A Brief Review of Strength and Ballistic Assessment Methodologies in Sport. Sports Medicine 44, 5 (May 2014), 603\u2013623. https://doi.org/10.1007/s40279-014-0145-2",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0J McNair, Harry Prapavessis, and Karen Callender. 2000. Decreasing landing forces: effect of instruction. British journal of sports medicine 34, 4 (2000), 293\u2013296.",
+      "doi": ""
+    },
+    {
+      "text": "Stefan\u00a0C Michalski, Ancret Szpak, and Tobias Loetscher. 2019. Using virtual environments to improve real-world motor skills in sports: A systematic review. Frontiers in psychology 10 (2019), 2159.",
+      "doi": ""
+    },
+    {
+      "text": "Stefan\u00a0Carlo Michalski, Ancret Szpak, Dimitrios Saredakis, Tyler\u00a0James Ross, Mark Billinghurst, and Tobias Loetscher. 2019. Getting your game on: Using virtual reality to improve real table tennis skills. PloS one 14, 9 (2019), e0222351.",
+      "doi": ""
+    },
+    {
+      "text": "Microsoft Corporation. 2014. Kinect 2 for Windows. Website. Discontinued Product.",
+      "doi": ""
+    },
+    {
+      "text": "Anat Mirelman, Benjamin\u00a0L Patritti, Paolo Bonato, and Judith\u00a0E Deutsch. 2010. Effects of virtual reality training on gait biomechanics of individuals post-stroke. Gait & posture 31, 4 (2010), 433\u2013437.",
+      "doi": ""
+    },
+    {
+      "text": "Florian Mueller and Katherine Isbister. 2014. Movement-Based Game Guidelines. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 2191\u20132200. https://doi.org/10.1145/2556288.2557163",
+      "doi": "10.1145/2556288.2557163"
+    },
+    {
+      "text": "Florian Mueller, Rohit\u00a0Ashok Khot, Kathrin Gerling, and Regan Mandryk. 2016. Exertion Games. Foundations and Trends\u00ae in Human\u2013Computer Interaction 10, 1(2016), 1\u201386. https://doi.org/10.1561/1100000041",
+      "doi": "10.1561/1100000041"
+    },
+    {
+      "text": "Florian\u00a0\u2019Floyd\u2019 Mueller, Darren Edge, Frank Vetere, Martin\u00a0R. Gibbs, Stefan Agamanolis, Bert Bongers, and Jennifer\u00a0G. Sheridan. 2011. Designing Sports: A Framework for Exertion Games. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vancouver, BC, Canada) (CHI \u201911). Association for Computing Machinery, New York, NY, USA, 2651\u20132660. https://doi.org/10.1145/1978942.1979330",
+      "doi": "10.1145/1978942.1979330"
+    },
+    {
+      "text": "Sean\u00a0P Mullen, Erin\u00a0A Olson, Siobhan\u00a0M Phillips, Amanda\u00a0N Szabo, Thomas\u00a0R W\u00f3jcicki, Emily\u00a0L Mailey, Neha\u00a0P Gothe, Jason\u00a0T Fanning, Arthur\u00a0F Kramer, and Edward McAuley. 2011. Measuring enjoyment of physical activity in older adults: invariance of the physical activity enjoyment scale (paces) across groups and time. International Journal of Behavioral Nutrition and Physical Activity 8, 1(2011), 1\u20139. https://doi.org/10.1186/1479-5868-8-103",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0L Neumann, Robyn\u00a0L Moffitt, Patrick\u00a0R Thomas, Kylie Loveday, David\u00a0P Watling, Chantal\u00a0L Lombard, Simona Antonova, and Michael\u00a0A Tremeer. 2018. A systematic review of the application of interactive virtual reality to sport. Virtual Reality 22, 3 (2018), 183\u2013198.",
+      "doi": "10.1007/s10055-017-0320-5"
+    },
+    {
+      "text": "Benjamin\u00a0John Newton, Zuzana Rothlingova, Robin Gutteridge, Karen LeMarchand, and Jon\u00a0Howard Raphael. 2012. No room for reflexivity? Critical reflections following a systematic review of qualitative research. Journal of Health Psychology 17, 6 (2012), 866\u2013885. https://doi.org/10.1177/1359105311427615",
+      "doi": ""
+    },
+    {
+      "text": "Niantic, Nintendo, and The Pok\u00e9mon Company. 2016. Pok\u00e9mon Go. Game [AR]. https://www.pokemongo.com/en-us/.",
+      "doi": ""
+    },
+    {
+      "text": "Niels\u00a0C Nilsson, Stefania Serafin, and Rolf Nordahl. 2013. Unintended positional drift and its potential solutions. In 2013 IEEE Virtual Reality (VR). IEEE, IEEE, New York City, NY, USA, 121\u2013122.",
+      "doi": ""
+    },
+    {
+      "text": "Rui Nouchi, Yasuyuki Taki, Hikaru Takeuchi, Atsushi Sekiguchi, Hiroshi Hashizume, Takayuki Nozawa, Haruka Nouchi, and Ryuta Kawashima. 2014. Four weeks of combination exercise training improved executive functions, episodic memory, and processing speed in healthy elderly people: evidence from a randomized controlled trial. Age 36, 2 (2014), 787\u2013799.",
+      "doi": ""
+    },
+    {
+      "text": "Anderson\u00a0Souza Oliveira, Priscila\u00a0Brito Silva, Morten\u00a0Enemark Lund, Dario Farina, and Uwe\u00a0Gustav Kersting. 2017. Balance training enhances motor coordination during a perturbed sidestep cutting task. journal of orthopaedic & sports physical therapy 47, 11 (2017), 853\u2013862.",
+      "doi": ""
+    },
+    {
+      "text": "Jorge Perez-Gomez and JA Calbet. 2013. Training methods to improve vertical jump performance. The Journal of sports medicine and physical fitness 53, 4 (2013), 339\u2013357.",
+      "doi": ""
+    },
+    {
+      "text": "Dana\u00a0P Piasecki, Kurt\u00a0P Spindler, Todd\u00a0A Warren, Jack\u00a0T Andrish, and Richard\u00a0D Parker. 2003. Intraarticular injuries associated with anterior cruciate ligament tear: findings at ligament reconstruction in high school and recreational athletes: an analysis of sex-based differences. The American journal of sports medicine 31, 4 (2003), 601\u2013605.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0A Potteiger, Robert\u00a0H Lockwood, Mark\u00a0D Haub, Brett\u00a0A Dolezal, Khalid\u00a0S Almuzaini, Jan\u00a0M Schroeder, and Carole\u00a0J Zebas. 1999. Muscle power and fiber characteristics following 8 weeks of plyometric training. Journal of strength and conditioning research 13 (1999), 275\u2013279.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0E Powers. 1996. Vertical jump training for volleyball. Strength and Conditioning 18 (1996), 18\u201323.",
+      "doi": ""
+    },
+    {
+      "text": "Harry Prapavessis and Peter\u00a0J McNair. 1999. Effects of instruction in jumping technique and experience jumping on ground reaction forces. Journal of orthopaedic & sports physical therapy 29, 6 (1999), 352\u2013356.",
+      "doi": ""
+    },
+    {
+      "text": "Judy Robertson, Andrew Macvean, Samantha Fawkner, Graham Baker, and Ruth\u00a0G. Jepson. 2018. Savouring our mistakes: Learning from the FitQuest project. International Journal of Child-Computer Interaction 16 (2018), 55\u201367. https://doi.org/10.1016/j.ijcci.2017.12.003",
+      "doi": ""
+    },
+    {
+      "text": "Sharon Stansfield, Daniel Shawver, Annette Sobel, Monica Prasad, and Lydia Tapia. 2000. Design and implementation of a virtual reality system and its application to training medical first responders. Presence: Teleoperators & Virtual Environments 9, 6(2000), 524\u2013556.",
+      "doi": "10.1162/105474600300040376"
+    },
+    {
+      "text": "Dejan Sto\u0161i\u0107, Slavoljub Uzunovi\u0107, Sa\u0161a Panteli\u0107, Sa\u0161a Veli\u010dkovi\u0107, Marko \u0110urovi\u0107, and Danica Pir\u0161l. 2019. Effects of exercise program on coordination and explosive power in university dance students. Facta Universitatis. Series: Physical Education and Sport 17, 3(2019), 579\u2013589.",
+      "doi": ""
+    },
+    {
+      "text": "Yusaku Sugiura, Tomoyuki Saito, Keishoku Sakuraba, Kazuhiko Sakuma, and Eiichi Suzuki. 2008. Strength deficits identified with concentric action of the hip extensors and eccentric action of the hamstrings predispose to hamstring injury in elite sprinters. Journal of orthopaedic & sports physical therapy 38, 8 (2008), 457\u2013464.",
+      "doi": ""
+    },
+    {
+      "text": "Ancret Szpak, Stefan\u00a0Carlo Michalski, and Tobias Loetscher. 2020. Exergaming With Beat Saber: An Investigation of Virtual Reality Aftereffects. J Med Internet Res 22, 10 (23 Oct 2020), e19840. https://doi.org/10.2196/19840",
+      "doi": ""
+    },
+    {
+      "text": "Kazumoto Tanaka. 2017. 3D action reconstruction using virtual player to assist karate training. In 2017 IEEE Virtual Reality (VR). IEEE, IEEE, New York City, NY, USA, 395\u2013396.",
+      "doi": ""
+    },
+    {
+      "text": "Judith Tirp, Christina Steingr\u00f6ver, Nick Wattie, Joseph Baker, and J\u00f6rg Schorer. 2015. Virtual realities as optimal learning environments in sport-A transfer study of virtual and real dart throwing. Psychological Test and Assessment Modeling 57, 1 (2015), 57.",
+      "doi": ""
+    },
+    {
+      "text": "Emanuel Todorov, Reza Shadmehr, and Emilio Bizzi. 1997. Augmented feedback presented in a virtual environment accelerates learning of a difficult motor task. Journal of motor behavior 29, 2 (1997), 147\u2013158.",
+      "doi": ""
+    },
+    {
+      "text": "Unity Technologies. 2020. Unity. Website. Retrieved October 26, 2020 from https://unity.com/.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Uzor and Lynne Baillie. 2014. Investigating the Long-Term Use of Exergames in the Home with Elderly Fallers. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 2813\u20132822. https://doi.org/10.1145/2556288.2557160",
+      "doi": "10.1145/2556288.2557160"
+    },
+    {
+      "text": "Etienne van Wyk and Ruth de Villiers. 2009. Virtual Reality Training Applications for the Mining Industry. In Proceedings of the 6th International Conference on Computer Graphics, Virtual Reality, Visualisation and Interaction in Africa (Pretoria, South Africa) (AFRIGRAPH \u201909). Association for Computing Machinery, New York, NY, USA, 53\u201363. https://doi.org/10.1145/1503454.1503465",
+      "doi": "10.1145/1503454.1503465"
+    },
+    {
+      "text": "Athanasios Vanezis and Adrian Lees. 2005. A biomechanical analysis of good and poor performers of the vertical jump. Ergonomics 48, 11-14 (2005), 1594\u20131603.",
+      "doi": ""
+    },
+    {
+      "text": "WanadevStudio. 2020. Ragnar\u00f6ck. Game [VR]. WanadevStudio. Lyon, France. https://www.ragnarock-vr.com/home/.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Wilhelm and Dominik Schoebi. 2007. Assessing mood in daily life: Structural validity, sensitivity to change, and reliability of a short-scale to measure three basic dimensions of mood.European Journal of Psychological Assessment 23, 4(2007), 258. https://doi.org/10.1027/1015-5759.23.4.258",
+      "doi": ""
+    },
+    {
+      "text": "Greg\u00a0J Wilson and Aron\u00a0J Murphy. 1996. The use of isometric tests of muscular function in athletic assessment. Sports medicine 22, 1 (1996), 19\u201337.",
+      "doi": ""
+    },
+    {
+      "text": "Greg\u00a0J Wilson, Aron\u00a0J Murphy, and Anthony Giorgi. 1996. Weight and plyometric training: effects on eccentric and concentric force production. Canadian Journal of Applied Physiology 21, 4 (1996), 301\u2013315.",
+      "doi": ""
+    },
+    {
+      "text": "Dennis Wolf, Katja Rogers, Christoph Kunder, and Enrico Rukzio. 2020. JumpVR: Jump-Based Locomotion Augmentation for Virtual Reality. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376243",
+      "doi": "10.1145/3313831.3376243"
+    },
+    {
+      "text": "World Health Organization. 2020. Physical activity. Website. Retrieved September 5, 2022 from https://www.who.int/news-room/fact-sheets/detail/physical-activity.",
+      "doi": ""
+    },
+    {
+      "text": "XRWorkout Inc.2021. VRWorkout. Game [VR]. Michael Gschwandtner, Wien, Austria..",
+      "doi": ""
+    },
+    {
+      "text": "Wenge Xu, Hai-Ning Liang, Qiuyu He, Xiang Li, Kangyou Yu, and Yuzheng Chen. 2020. Results and Guidelines From a Repeated-Measures Design Experiment Comparing Standing and Seated Full-Body Gesture-Based Immersive Virtual Reality Exergames: Within-Subjects Evaluation. JMIR Serious Games 8, 3 (27 Jul 2020), e17972. https://doi.org/10.2196/17972",
+      "doi": ""
+    },
+    {
+      "text": "Yei-Yu Yeh and Louis\u00a0D Silverstein. 1992. Spatial judgments with monoscopic and stereoscopic presentation of perspective displays. Human Factors 34, 5 (1992), 583\u2013600.",
+      "doi": "10.1177/001872089203400506"
+    },
+    {
+      "text": "Soojeong Yoo and Judy Kay. 2016. VRun: Running-in-Place Virtual Reality Exergame. In Proceedings of the 28th Australian Conference on Computer-Human Interaction (Launceston, Tasmania, Australia) (OzCHI \u201916). Association for Computing Machinery, New York, NY, USA, 562\u2013566. https://doi.org/10.1145/3010915.3010987",
+      "doi": "10.1145/3010915.3010987"
+    },
+    {
+      "text": "Frank\u00a0TJM Zaal and Reinoud\u00a0J Bootsma. 2011. Virtual reality as a tool for the study of perception-action: The case of running to catch fly balls. Presence 20, 1 (2011), 93\u2013103.",
+      "doi": "10.5555/3116694.3116702"
+    }
+  ]
+}

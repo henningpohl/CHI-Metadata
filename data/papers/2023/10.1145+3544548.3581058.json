@@ -1,0 +1,491 @@
+{
+  "doi": "10.1145/3544548.3581058",
+  "title": "Who Should I Trust: AI or Myself? Leveraging Human and AI Correctness Likelihood to Promote Appropriate Trust in AI-Assisted Decision-Making",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-19",
+  "year": 2023,
+  "badges": [],
+  "abstract": "In AI-assisted decision-making, it is critical for human decision-makers to know when to trust AI and when to trust themselves. However, prior studies calibrated human trust only based on AI confidence indicating AI\u2019s correctness likelihood (CL) but ignored humans\u2019 CL, hindering optimal team decision-making. To mitigate this gap, we proposed to promote humans\u2019 appropriate trust based on the CL of both sides at a task-instance level. We first modeled humans\u2019 CL by approximating their decision-making models and computing their potential performance in similar instances. We demonstrated the feasibility and effectiveness of our model via two preliminary studies. Then, we proposed three CL exploitation strategies to calibrate users\u2019 trust explicitly/implicitly in the AI-assisted decision-making process. Results from a between-subjects experiment (N=293) showed that our CL exploitation strategies promoted more appropriate human trust in AI, compared with only using AI confidence. We further provided practical implications for more human-compatible AI-assisted decision-making.",
+  "authors": [
+    {
+      "name": "Shuai Ma",
+      "institution": "The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660239312",
+      "orcid": "0000-0002-7658-292X"
+    },
+    {
+      "name": "Ying Lei",
+      "institution": "East China Normal University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779479",
+      "orcid": "0000-0001-8326-1369"
+    },
+    {
+      "name": "Xinru Wang",
+      "institution": "Purdue University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659693789",
+      "orcid": "0000-0002-0213-6425"
+    },
+    {
+      "name": "Chengbo Zheng",
+      "institution": "Hong Kong University of Science and Technology, Hong Kong",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660237913",
+      "orcid": "0000-0003-0226-9399"
+    },
+    {
+      "name": "Chuhan Shi",
+      "institution": "Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659547865",
+      "orcid": "0000-0002-3370-1626"
+    },
+    {
+      "name": "Ming Yin",
+      "institution": "Purdue University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81438595973",
+      "orcid": "0000-0002-7364-139X"
+    },
+    {
+      "name": "Xiaojuan Ma",
+      "institution": "The Hong Kong University of Science and Technology, Hong Kong",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81484654594",
+      "orcid": "0000-0002-9847-7784"
+    }
+  ],
+  "references": [
+    {
+      "text": "Andr\u00e9 Altmann, Laura Tolo\u015fi, Oliver Sander, and Thomas Lengauer. 2010. Permutation importance: a corrected feature importance measure. Bioinformatics 26, 10 (2010), 1340\u20131347.",
+      "doi": "10.1093/bioinformatics/btq134"
+    },
+    {
+      "text": "Alejandro\u00a0Barredo Arrieta, Natalia D\u00edaz-Rodr\u00edguez, Javier Del\u00a0Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garc\u00eda, Sergio Gil-L\u00f3pez, Daniel Molina, Richard Benjamins, 2020. Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI. Information fusion 58(2020), 82\u2013115.",
+      "doi": ""
+    },
+    {
+      "text": "Gagan Bansal, Besmira Nushi, Ece Kamar, Eric Horvitz, and Daniel\u00a0S Weld. 2020. Optimizing ai for teamwork. arXiv preprint arXiv:2004.13102(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Gagan Bansal, Besmira Nushi, Ece Kamar, Walter\u00a0S Lasecki, Daniel\u00a0S Weld, and Eric Horvitz. 2019. Beyond accuracy: The role of mental models in human-AI team performance. In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing, Vol.\u00a07. 2\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Gagan Bansal, Besmira Nushi, Ece Kamar, Daniel\u00a0S Weld, Walter\u00a0S Lasecki, and Eric Horvitz. 2019. Updates in human-ai teams: Understanding and addressing the performance/compatibility tradeoff. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a033. 2429\u20132437.",
+      "doi": "10.1609/aaai.v33i01.33012429"
+    },
+    {
+      "text": "Gagan Bansal, Tongshuang Wu, Joyce Zhou, Raymond Fok, Besmira Nushi, Ece Kamar, Marco\u00a0Tulio Ribeiro, and Daniel Weld. 2021. Does the whole exceed its parts? the effect of ai explanations on complementary team performance. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3411764.3445717"
+    },
+    {
+      "text": "Boris Beizer. 1995. Black-box testing: techniques for functional testing of software and systems. John Wiley & Sons, Inc.",
+      "doi": "10.5555/202699"
+    },
+    {
+      "text": "Astrid Bertrand, Rafik Belloum, James\u00a0R Eagan, and Winston Maxwell. 2022. How Cognitive Biases Affect XAI-assisted Decision-making: A Systematic Review. In Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society. 78\u201391.",
+      "doi": "10.1145/3514094.3534164"
+    },
+    {
+      "text": "Donald\u00a0M Berwick, Harvey\u00a0V Fineberg, and Milton\u00a0C Weinstein. 1981. When doctors meet numbers. The American journal of medicine 71, 6 (1981), 991\u2013998.",
+      "doi": ""
+    },
+    {
+      "text": "Reuben Binns, Max Van\u00a0Kleek, Michael Veale, Ulrik Lyngs, Jun Zhao, and Nigel Shadbolt. 2018. \u2019It\u2019s Reducing a Human Being to a Percentage\u2019 Perceptions of Justice in Algorithmic Decisions. In Proceedings of the 2018 Chi conference on human factors in computing systems. 1\u201314.",
+      "doi": "10.1145/3173574.3173951"
+    },
+    {
+      "text": "Aaron\u00a0M Bornstein, Mel\u00a0W Khaw, Daphna Shohamy, and Nathaniel\u00a0D Daw. 2017. Reminders of past choices bias decisions for reward in humans. Nature Communications 8, 1 (2017), 1\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "John Brooke 1996. SUS-A quick and dirty usability scale. Usability evaluation in industry 189, 194 (1996), 4\u20137.",
+      "doi": ""
+    },
+    {
+      "text": "Zana Bu\u00e7inca, Phoebe Lin, Krzysztof\u00a0Z Gajos, and Elena\u00a0L Glassman. 2020. Proxy tasks and subjective measures can be misleading in evaluating explainable AI systems. In Proceedings of the 25th international conference on intelligent user interfaces. 454\u2013464.",
+      "doi": "10.1145/3377325.3377498"
+    },
+    {
+      "text": "Zana Bu\u00e7inca, Maja\u00a0Barbara Malaya, and Krzysztof\u00a0Z Gajos. 2021. To trust or to think: cognitive forcing functions can reduce overreliance on AI in AI-assisted decision-making. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201321.",
+      "doi": "10.1145/3449287"
+    },
+    {
+      "text": "Adrian Bussone, Simone Stumpf, and Dympna O\u2019Sullivan. 2015. The role of explanations on trust and reliance in clinical decision support systems. In 2015 international conference on healthcare informatics. IEEE, 160\u2013169.",
+      "doi": "10.1109/ICHI.2015.26"
+    },
+    {
+      "text": "Pietro\u00a0Carlo Cacciabue, Fran\u00e7oise Decortis, Bartolome Drozdowicz, Michel Masson, and J-P Nordvik. 1992. COSIMO: a cognitive simulation model of human decision making and behavior in accident management of complex plants. IEEE Transactions on Systems, Man, and Cybernetics 22, 5(1992), 1058\u20131074.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0T Cacioppo and Richard\u00a0E Petty. 1984. The elaboration likelihood model of persuasion. ACR North American Advances(1984).",
+      "doi": ""
+    },
+    {
+      "text": "Carrie\u00a0J Cai, Samantha Winter, David Steiner, Lauren Wilcox, and Michael Terry. 2019. \" Hello AI\": uncovering the onboarding needs of medical practitioners for human-AI collaborative decision-making. Proceedings of the ACM on Human-computer Interaction 3, CSCW(2019), 1\u201324.",
+      "doi": "10.1145/3359206"
+    },
+    {
+      "text": "Leah Chong, Guanglu Zhang, Kosa Goucher-Lambert, Kenneth Kotovsky, and Jonathan Cagan. 2022. Human confidence in artificial intelligence and in themselves: The evolution and impact of confidence on adoption of AI advice. Computers in Human Behavior 127 (2022), 107018.",
+      "doi": "10.1016/j.chb.2021.107018"
+    },
+    {
+      "text": "George\u00a0I Christopoulos, Philippe\u00a0N Tobler, Peter Bossaerts, Raymond\u00a0J Dolan, and Wolfram Schultz. 2009. Neural correlates of value, risk, and risk aversion contributing to decision making under risk. Journal of Neuroscience 29, 40 (2009), 12574\u201312583.",
+      "doi": ""
+    },
+    {
+      "text": "Leda Cosmides and John Tooby. 1996. Are humans good intuitive statisticians after all? Rethinking some conclusions from the literature on judgment under uncertainty. cognition 58, 1 (1996), 1\u201373.",
+      "doi": ""
+    },
+    {
+      "text": "Mary Cummings. 2004. Automation bias in intelligent time critical decision support systems. In AIAA 1st intelligent systems technical conference. 6313.",
+      "doi": ""
+    },
+    {
+      "text": "Marc Damez, Thanh\u00a0Ha Dang, Christophe Marsala, and Bernadette Bouchon-Meunier. 2005. Fuzzy decision tree for user modeling from human-computer interactions. In Proceedings of the 5th International Conference on Human System Learning, ICHSL, Vol.\u00a05. 287\u2013302.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Dastin. 2018. Amazon scraps secret AI recruiting tool that showed bias against women. In Ethics of Data and Analytics. Auerbach Publications, 296\u2013299.",
+      "doi": ""
+    },
+    {
+      "text": "Qi Deng, Jiao Wang, and Dirk Soffker. 2018. Prediction of human driver behaviors based on an improved HMM approach. In 2018 IEEE Intelligent Vehicles Symposium (IV). IEEE, 2066\u20132071.",
+      "doi": "10.1109/IVS.2018.8500717"
+    },
+    {
+      "text": "Bella\u00a0M DePaulo, Kelly Charlton, Harris Cooper, James\u00a0J Lindsay, and Laura Muhlenbruck. 1997. The accuracy-confidence correlation in the detection of deception. Personality and Social Psychology Review 1, 4 (1997), 346\u2013357.",
+      "doi": ""
+    },
+    {
+      "text": "Steven\u00a0E Dilsizian and Eliot\u00a0L Siegel. 2014. Artificial intelligence in medicine and cardiac imaging: harnessing big data and advanced computing to provide personalized medical diagnosis and treatment. Current cardiology reports 16, 1 (2014), 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Jessica\u00a0Maria Echterhoff, Matin Yarmand, and Julian McAuley. 2022. AI-Moderated Decision-Making: Capturing and Balancing Anchoring Bias in Sequential Decision Tasks. In CHI Conference on Human Factors in Computing Systems. 1\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Malin Eiband, Daniel Buschek, Alexander Kremer, and Heinrich Hussmann. 2019. The impact of placebic explanations on trust in intelligent systems. In Extended abstracts of the 2019 CHI conference on human factors in computing systems. 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas Epley and Thomas Gilovich. 2001. Putting adjustment back in the anchoring and adjustment heuristic: Differential processing of self-generated and experimenter-provided anchors. Psychological science 12, 5 (2001), 391\u2013396.",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas Epley and Thomas Gilovich. 2006. The anchoring-and-adjustment heuristic: Why the adjustments are insufficient. Psychological science 17, 4 (2006), 311\u2013318.",
+      "doi": ""
+    },
+    {
+      "text": "Riccardo Fogliato, Shreya Chappidi, Matthew Lungren, Paul Fisher, Diane Wilson, Michael Fitzke, Mark Parkinson, Eric Horvitz, Kori Inkpen, and Besmira Nushi. 2022. Who Goes First? Influences of Human-AI Workflow on Decision Making in Clinical Imaging. In 2022 ACM Conference on Fairness, Accountability, and Transparency. 1362\u20131374.",
+      "doi": ""
+    },
+    {
+      "text": "Adrian Furnham and Hua\u00a0Chu Boo. 2011. A literature review of the anchoring effect. The journal of socio-economics 40, 1 (2011), 35\u201342.",
+      "doi": ""
+    },
+    {
+      "text": "Johannes F\u00fcrnkranz, Dragan Gamberger, and Nada Lavra\u010d. 2012. Foundations of rule learning. Springer Science & Business Media.",
+      "doi": ""
+    },
+    {
+      "text": "Johannes F\u00fcrnkranz, Tom\u00e1\u0161 Kliegr, and Heiko Paulheim. 2020. On cognitive preferences and the plausibility of rule-based models. Machine Learning 109, 4 (2020), 853\u2013898.",
+      "doi": "10.1007/s10994-019-05856-5"
+    },
+    {
+      "text": "Krzysztof\u00a0Z Gajos and Lena Mamykina. 2022. Do People Engage Cognitively with AI? Impact of AI Assistance on Incidental Learning. In 27th International Conference on Intelligent User Interfaces. 794\u2013806.",
+      "doi": ""
+    },
+    {
+      "text": "Efstathios\u00a0D Gennatas, Jerome\u00a0H Friedman, Lyle\u00a0H Ungar, Romain Pirracchio, Eric Eaton, Lara\u00a0G Reichmann, Yannet Interian, Jos\u00e9\u00a0Marcio Luna, Charles\u00a0B Simone, Andrew Auerbach, 2020. Expert-augmented machine learning. Proceedings of the National Academy of Sciences 117, 9 (2020), 4571\u20134577.",
+      "doi": ""
+    },
+    {
+      "text": "Katy\u00a0Ilonka Gero, Zahra Ashktorab, Casey Dugan, Qian Pan, James Johnson, Werner Geyer, Maria Ruiz, Sarah Miller, David\u00a0R Millen, Murray Campbell, 2020. Mental models of ai agents in a cooperative game setting. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3313831.3376316"
+    },
+    {
+      "text": "Bhavya Ghai, Q\u00a0Vera Liao, Yunfeng Zhang, Rachel Bellamy, and Klaus Mueller. 2021. Explainable active learning (xal) toward ai explanations as interfaces for machine teachers. Proceedings of the ACM on Human-Computer Interaction 4, CSCW3(2021), 1\u201328.",
+      "doi": "10.1145/3432934"
+    },
+    {
+      "text": "E\u00a0Bruce Goldstein. 2014. Cognitive psychology: Connecting mind, research and everyday experience. Cengage Learning.",
+      "doi": ""
+    },
+    {
+      "text": "Chuan Guo, Geoff Pleiss, Yu Sun, and Kilian\u00a0Q Weinberger. 2017. On calibration of modern neural networks. In International conference on machine learning. PMLR, 1321\u20131330.",
+      "doi": ""
+    },
+    {
+      "text": "Sandra\u00a0G Hart. 2006. NASA-task load index (NASA-TLX); 20 years later. In Proceedings of the human factors and ergonomics society annual meeting, Vol.\u00a050. Sage publications Sage CA: Los Angeles, CA, 904\u2013908.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Hase and Mohit Bansal. 2020. Evaluating explainable AI: Which algorithmic explanations help users predict model behavior?arXiv preprint arXiv:2005.01831(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Joo-Wha Hong and Dmitri Williams. 2019. Racism, responsibility and autonomy in HCI: Testing perceptions of an AI agent. Computers in Human Behavior 100 (2019), 79\u201384.",
+      "doi": "10.1016/j.chb.2019.06.012"
+    },
+    {
+      "text": "Hsiu-Fang Hsieh and Sarah\u00a0E Shannon. 2005. Three approaches to qualitative content analysis. Qualitative health research 15, 9 (2005), 1277\u20131288.",
+      "doi": ""
+    },
+    {
+      "text": "Philip\u00a0Nicholas Johnson-Laird. 1983. Mental models: Towards a cognitive science of language, inference, and consciousness. Number\u00a06. Harvard University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Kahneman. 2011. Thinking, fast and slow. Macmillan.",
+      "doi": ""
+    },
+    {
+      "text": "Harmanpreet Kaur, Harsha Nori, Samuel Jenkins, Rich Caruana, Hanna Wallach, and Jennifer Wortman\u00a0Vaughan. 2020. Interpreting interpretability: understanding data scientists\u2019 use of interpretability tools for machine learning. In Proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376219"
+    },
+    {
+      "text": "Amir\u00a0E Khandani, Adlar\u00a0J Kim, and Andrew\u00a0W Lo. 2010. Consumer credit-risk models via machine-learning algorithms. Journal of Banking & Finance 34, 11 (2010), 2767\u20132787.",
+      "doi": ""
+    },
+    {
+      "text": "Ronny Kohavi and Barry Becker.1996. Adult Income dataset (UCI Machine Learning Repository). https://archive.ics.uci.edu/ml/datasets/Adult/.",
+      "doi": ""
+    },
+    {
+      "text": "Todd Kulesza, Simone Stumpf, Margaret Burnett, Sherry Yang, Irwin Kwan, and Weng-Keen Wong. 2013. Too much, too little, or just right? Ways explanations impact end users\u2019 mental models. In 2013 IEEE Symposium on visual languages and human centric computing. IEEE, 3\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Vivian Lai, Samuel Carton, Rajat Bhatnagar, Q\u00a0Vera Liao, Yunfeng Zhang, and Chenhao Tan. 2022. Human-AI Collaboration via Conditional Delegation: A Case Study of Content Moderation. In CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3491102.3501999"
+    },
+    {
+      "text": "Vivian Lai, Han Liu, and Chenhao Tan. 2020. \" Why is\u2019 Chicago\u2019deceptive?\" Towards Building Model-Driven Tutorials for Humans. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376873"
+    },
+    {
+      "text": "Vivian Lai and Chenhao Tan. 2019. On human predictions with explanations and predictions of machine learning models: A case study on deception detection. In Proceedings of the conference on fairness, accountability, and transparency. 29\u201338.",
+      "doi": "10.1145/3287560.3287590"
+    },
+    {
+      "text": "Himabindu Lakkaraju, Stephen\u00a0H Bach, and Jure Leskovec. 2016. Interpretable decision sets: A joint framework for description and prediction. In Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. 1675\u20131684.",
+      "doi": "10.1145/2939672.2939874"
+    },
+    {
+      "text": "Bettina Laugwitz, Theo Held, and Martin Schrepp. 2008. Construction and evaluation of a user experience questionnaire. In Symposium of the Austrian HCI and usability engineering group. Springer, 63\u201376.",
+      "doi": "10.1007/978-3-540-89350-9_6"
+    },
+    {
+      "text": "John\u00a0D Lee and Neville Moray. 1994. Trust, self-confidence, and operators\u2019 adaptation to automation. International journal of human-computer studies 40, 1 (1994), 153\u2013184.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0D Lee and Katrina\u00a0A See. 2004. Trust in automation: Designing for appropriate reliance. Human factors 46, 1 (2004), 50\u201380.",
+      "doi": ""
+    },
+    {
+      "text": "Min\u00a0Hun Lee, Daniel\u00a0P Siewiorek, Asim Smailagic, Alexandre Bernardino, and Sergi Berm\u00fadez\u00a0i Badia. 2021. A Human-AI Collaborative Approach for Clinical Decision Making on Rehabilitation Assessment. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445472"
+    },
+    {
+      "text": "Q\u00a0Vera Liao and Kush\u00a0R Varshney. 2021. Human-Centered Explainable AI (XAI): From Algorithms to User Experiences. arXiv preprint arXiv:2110.10790(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Brian\u00a0Y Lim, Anind\u00a0K Dey, and Daniel Avrahami. 2009. Why and why not explanations improve the intelligibility of context-aware intelligent systems. In Proceedings of the SIGCHI conference on human factors in computing systems. 2119\u20132128.",
+      "doi": "10.1145/1518701.1519023"
+    },
+    {
+      "text": "Zhuoran Lu and Ming Yin. 2021. Human Reliance on Machine Learning Models When Performance Feedback is Limited: Heuristics and Risks. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3411764.3445562"
+    },
+    {
+      "text": "Shuai Ma, Mingfei Sun, and Xiaojuan Ma. 2022. Modeling Adaptive Expression of Robot Learning Engagement and Exploring its Effects on Human Teachers. ACM Transactions on Computer-Human Interaction (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Shuai Ma, Zijun Wei, Feng Tian, Xiangmin Fan, Jianming Zhang, Xiaohui Shen, Zhe Lin, Jin Huang, Radom\u00edr M\u011bch, Dimitris Samaras, 2019. SmartEye: assisting instant photo taking via integrating user preference with deep view proposal network. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300701"
+    },
+    {
+      "text": "Shuai Ma, Taichang Zhou, Fei Nie, and Xiaojuan Ma. 2022. Glancee: An Adaptable System for Instructors to Grasp Student Learning Status in Synchronous Online Classes. In CHI Conference on Human Factors in Computing Systems. 1\u201325.",
+      "doi": "10.1145/3491102.3517482"
+    },
+    {
+      "text": "David Madras, Toni Pitassi, and Richard Zemel. 2018. Predict responsibly: improving fairness and accuracy by learning to defer. Advances in Neural Information Processing Systems 31 (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Ashley\u00a0ND Meyer, Velma\u00a0L Payne, Derek\u00a0W Meeks, Radha Rao, and Hardeep Singh. 2013. Physicians\u2019 diagnostic accuracy, confidence, and resource requests: a vignette study. JAMA internal medicine 173, 21 (2013), 1952\u20131958.",
+      "doi": ""
+    },
+    {
+      "text": "Deborah\u00a0J Miller, Elliot\u00a0S Spengler, and Paul\u00a0M Spengler. 2015. A meta-analysis of confidence and judgment accuracy in clinical decision making.Journal of Counseling Psychology 62, 4 (2015), 553.",
+      "doi": ""
+    },
+    {
+      "text": "Don\u00a0A Moore. 2020. Perfectly confident: How to calibrate your decisions wisely. HarperCollins.",
+      "doi": ""
+    },
+    {
+      "text": "Don\u00a0A Moore, Samuel\u00a0A Swift, Angela Minster, Barbara Mellers, Lyle Ungar, Philip Tetlock, Heather\u00a0HJ Yang, and Elizabeth\u00a0R Tenney. 2017. Confidence calibration in a multiyear geopolitical forecasting competition. Management Science 63, 11 (2017), 3552\u20133565.",
+      "doi": "10.1287/mnsc.2016.2525"
+    },
+    {
+      "text": "Robert\u00a0S Moyer and Richard\u00a0H Bayer. 1976. Mental comparison and the symbolic distance effect. Cognitive Psychology 8, 2 (1976), 228\u2013246.",
+      "doi": ""
+    },
+    {
+      "text": "Hussein Mozannar, Arvind Satyanarayan, and David Sontag. 2022. Teaching humans when to defer to a classifier via exemplars. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a036. 5323\u20135331.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0Y Ng, Stuart Russell, 2000. Algorithms for inverse reinforcement learning.. In Icml, Vol.\u00a01. 2.",
+      "doi": ""
+    },
+    {
+      "text": "Raymond\u00a0S Nickerson. 1998. Confirmation bias: A ubiquitous phenomenon in many guises. Review of general psychology 2, 2 (1998), 175\u2013220.",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0A Norman. 2014. Some observations on mental models. Psychology Press.",
+      "doi": ""
+    },
+    {
+      "text": "Mahsan Nourani, Chiradeep Roy, Jeremy\u00a0E Block, Donald\u00a0R Honeycutt, Tahrima Rahman, Eric Ragan, and Vibhav Gogate. 2021. Anchoring Bias Affects Mental Model Formation and User Reliance in Explainable AI Systems. In 26th International Conference on Intelligent User Interfaces. 340\u2013350.",
+      "doi": ""
+    },
+    {
+      "text": "Raja Parasuraman and Victor Riley. 1997. Humans and automation: Use, misuse, disuse, abuse. Human factors 39, 2 (1997), 230\u2013253.",
+      "doi": ""
+    },
+    {
+      "text": "Joon\u00a0Sung Park, Rick Barber, Alex Kirlik, and Karrie Karahalios. 2019. A Slow Algorithm Improves Users\u2019 Assessments of the Algorithm\u2019s Accuracy. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201315.",
+      "doi": "10.1145/3359204"
+    },
+    {
+      "text": "Ellen Peters, Daniel V\u00e4stfj\u00e4ll, Paul Slovic, CK Mertz, Ketti Mazzocco, and Stephan Dickert. 2006. Numeracy and decision making. Psychological science 17, 5 (2006), 407\u2013413.",
+      "doi": ""
+    },
+    {
+      "text": "John Platt 1999. Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods. Advances in large margin classifiers 10, 3 (1999), 61\u201374.",
+      "doi": ""
+    },
+    {
+      "text": "Forough Poursabzi-Sangdeh, Daniel\u00a0G Goldstein, Jake\u00a0M Hofman, Jennifer\u00a0Wortman Wortman\u00a0Vaughan, and Hanna Wallach. 2021. Manipulating and measuring model interpretability. In Proceedings of the 2021 CHI conference on human factors in computing systems. 1\u201352.",
+      "doi": "10.1145/3411764.3445315"
+    },
+    {
+      "text": "Charvi Rastogi, Yunfeng Zhang, Dennis Wei, Kush\u00a0R Varshney, Amit Dhurandhar, and Richard Tomsett. 2020. Deciding Fast and Slow: The Role of Cognitive Biases in AI-assisted Decision-making. arXiv preprint arXiv:2010.07938(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Amy Rechkemmer and Ming Yin. 2022. When Confidence Meets Accuracy: Exploring the Effects of Multiple Performance Indicators on Trust in Machine Learning Models. In CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0M Reyes, William\u00a0C Thompson, and Gordon\u00a0H Bower. 1980. Judgmental biases resulting from differing availabilities of arguments.Journal of Personality and Social Psychology 39, 1(1980), 2.",
+      "doi": ""
+    },
+    {
+      "text": "Valerie\u00a0F Reyna and Charles\u00a0J Brainerd. 2008. Numeracy, ratio bias, and denominator neglect in judgments of risk and probability. Learning and individual differences 18, 1 (2008), 89\u2013107.",
+      "doi": ""
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2016. \" Why should i trust you?\" Explaining the predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. 1135\u20131144.",
+      "doi": "10.1145/2939672.2939778"
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2018. Anchors: High-precision model-agnostic explanations. In Proceedings of the AAAI conference on artificial intelligence, Vol.\u00a032.",
+      "doi": ""
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Tongshuang Wu, Carlos Guestrin, and Sameer Singh. 2020. Beyond accuracy: Behavioral testing of NLP models with CheckList. arXiv preprint arXiv:2005.04118(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Chuhan Shi, Zhihan Jiang, Xiaojuan Ma, and Qiong Luo. 2022. A Personalized Visual Aid for Selections of Appearance Building Products with Long-term Effects. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3491102.3517659"
+    },
+    {
+      "text": "Chuhan Shi, Fei Nie, Yicheng Hu, Yige Xu, Lei Chen, Xiaojuan Ma, and Qiong Luo. 2022. MedChemLens: An Interactive Visual Tool to Support Direction Selection in Interdisciplinary Experimental Research of Medicinal Chemistry. IEEE Transactions on Visualization and Computer Graphics 29, 1(2022), 63\u201373.",
+      "doi": ""
+    },
+    {
+      "text": "Auste Simkute, Ewa Luger, Mike Evans, and Rhianne Jones. 2020. Experts in the shadow of algorithmic systems: Exploring intelligibility in a decision-making context. In Companion Publication of the 2020 ACM Designing Interactive Systems Conference. 263\u2013268.",
+      "doi": "10.1145/3393914.3395862"
+    },
+    {
+      "text": "Paul Slovic and Ellen Peters. 2006. Risk perception and affect. Current directions in psychological science 15, 6 (2006), 322\u2013325.",
+      "doi": ""
+    },
+    {
+      "text": "Yan-Yan Song and LU Ying. 2015. Decision tree methods: applications for classification and prediction. Shanghai archives of psychiatry 27, 2 (2015), 130.",
+      "doi": ""
+    },
+    {
+      "text": "Harini Suresh, Steven\u00a0R Gomez, Kevin\u00a0K Nam, and Arvind Satyanarayan. 2021. Beyond expertise and roles: A framework to characterize the stakeholders of interpretable machine learning and their needs. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3411764.3445088"
+    },
+    {
+      "text": "Amy Turner, Meena Kaushik, Mu-Ti Huang, and Srikar Varanasi. 2022. Calibrating trust in AI-assisted decision making.",
+      "doi": ""
+    },
+    {
+      "text": "Kailas Vodrahalli, Roxana Daneshjou, Tobias Gerstenberg, and James Zou. 2022. Do humans trust advice more if it comes from ai? an analysis of human-ai interactions. In Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society. 763\u2013777.",
+      "doi": "10.1145/3514094.3534150"
+    },
+    {
+      "text": "Danding Wang, Qian Yang, Ashraf Abdul, and Brian\u00a0Y Lim. 2019. Designing theory-driven user-centric explainable AI. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201315.",
+      "doi": "10.1145/3290605.3300831"
+    },
+    {
+      "text": "Xinru Wang, Zhuoran Lu, and Ming Yin. 2022. Will You Accept the AI Recommendation? Predicting Human Behavior in AI-Assisted Decision Making. In Proceedings of the ACM Web Conference 2022. 1697\u20131708.",
+      "doi": "10.1145/3485447.3512240"
+    },
+    {
+      "text": "Xinxi Wang and Ye Wang. 2014. Improving content-based and hybrid music recommendation using deep learning. In Proceedings of the 22nd ACM international conference on Multimedia. 627\u2013636.",
+      "doi": "10.1145/2647868.2654940"
+    },
+    {
+      "text": "Xinru Wang and Ming Yin. 2021. Are explanations helpful? a comparative study of the effects of explanations in ai-assisted decision-making. In 26th International Conference on Intelligent User Interfaces. 318\u2013328.",
+      "doi": "10.1145/3397481.3450650"
+    },
+    {
+      "text": "Peter\u00a0C Wason and J\u00a0St\u00a0BT Evans. 1974. Dual processes in reasoning?Cognition 3, 2 (1974), 141\u2013154.",
+      "doi": ""
+    },
+    {
+      "text": "Nathan Weber and Neil Brewer. 2004. Confidence-accuracy calibration in absolute and relative face recognition judgments.Journal of Experimental Psychology: Applied 10, 3 (2004), 156.",
+      "doi": ""
+    },
+    {
+      "text": "Bryan Wilder, Eric Horvitz, and Ece Kamar. 2020. Learning to complement humans. arXiv preprint arXiv:2005.00582(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Yi Yang, Wei Qian, and Hui Zou. 2018. Insurance premium prediction via gradient tree-boosted Tweedie compound Poisson models. Journal of Business & Economic Statistics 36, 3 (2018), 456\u2013470.",
+      "doi": ""
+    },
+    {
+      "text": "Ming Yin, Jennifer Wortman\u00a0Vaughan, and Hanna Wallach. 2019. Understanding the effect of accuracy on trust in machine learning models. In Proceedings of the 2019 chi conference on human factors in computing systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300509"
+    },
+    {
+      "text": "Yunfeng Zhang, Q\u00a0Vera Liao, and Rachel\u00a0KE Bellamy. 2020. Effect of confidence and explanation on accuracy and trust calibration in AI-assisted decision making. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. 295\u2013305.",
+      "doi": "10.1145/3351095.3372852"
+    },
+    {
+      "text": "Chengbo Zheng, Dakuo Wang, April\u00a0Yi Wang, and Xiaojuan Ma. 2022. Telling stories from computational notebooks: Ai-assisted presentation slides creation for presenting data science work. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems. 1\u201320.",
+      "doi": "10.1145/3491102.3517615"
+    }
+  ]
+}

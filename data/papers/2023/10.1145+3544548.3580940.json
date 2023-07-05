@@ -1,0 +1,434 @@
+{
+  "doi": "10.1145/3544548.3580940",
+  "title": "On the Design of AI-powered Code Assistants for Notebooks",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2023,
+  "badges": [],
+  "abstract": "AI-powered code assistants, such as Copilot, are quickly becoming a ubiquitous component of contemporary coding contexts. Among these environments, computational notebooks, such as Jupyter, are of particular interest as they provide rich interface affordances that interleave code and output in a manner that allows for both exploratory and presentational work. Despite their popularity, little is known about the appropriate design of code assistants in notebooks. We investigate the potential of code assistants in computational notebooks by creating a design space (reified from a survey of extant tools) and through an interview-design study (with 15 practicing data scientists). Through this work, we identify challenges and opportunities for future systems in this space, such as the value of disambiguation for tasks like data visualization, the potential of tightly scoped domain-specific tools (like linters), and the importance of polite assistants.",
+  "authors": [
+    {
+      "name": "Andrew M Mcnutt",
+      "institution": "University of Chicago, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659527152",
+      "orcid": "0000-0001-8255-4258"
+    },
+    {
+      "name": "Chenglong Wang",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783946",
+      "orcid": "0000-0002-5933-6620"
+    },
+    {
+      "name": "Robert A Deline",
+      "institution": "Microsoft Corp, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81350602833",
+      "orcid": "0000-0001-8885-8367"
+    },
+    {
+      "name": "Steven M. Drucker",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100090466",
+      "orcid": "0000-0002-5022-9343"
+    }
+  ],
+  "references": [
+    {
+      "text": "2001. History of code completion. https://web.archive.org/web/20220302082225/https://groups.google.com/g/comp.compilers/c/fJHahKDCNGg?pli=1. Accessed 11/11/22.",
+      "doi": ""
+    },
+    {
+      "text": "Amazon. 2022. Amazon CodeWhisperer Features. https://aws.amazon.com/codewhisperer/features/. Accessed 8/16/22.",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Daniel\u00a0S. Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi\u00a0T. Iqbal, Paul\u00a0N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, and Eric Horvitz. 2019. Guidelines for Human-AI Interaction. In Conference on Human Factors in Computing Systems (CHI). ACM, 3.",
+      "doi": ""
+    },
+    {
+      "text": "Shraddha Barke, Michael\u00a0B James, and Nadia Polikarpova. 2022. Grounded Copilot: How Programmers Interact with Code-Generating Models. arXiv preprint arXiv:2206.15000(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0W Barowy, Emery\u00a0D Berger, and Benjamin Zorn. 2018. ExceLint: automatically finding spreadsheet formula errors. Proceedings of the ACM on Programming Languages 2, OOPSLA(2018), 1\u201326.",
+      "doi": "10.1145/3276518"
+    },
+    {
+      "text": "Rohan Bavishi, Shadaj Laddad, Hiroaki Yoshida, Mukul\u00a0R Prasad, and Koushik Sen. 2021. VizSmith: Automated Visualization Synthesis by Mining Data-Science Notebooks. In IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE, 129\u2013141.",
+      "doi": "10.1109/ASE51524.2021.9678696"
+    },
+    {
+      "text": "Rohan Bavishi, Caroline Lemieux, Koushik Sen, and Ion Stoica. 2021. Gauss: program synthesis by reasoning over graphs. Proceedings of the ACM on Programming Languages 5, OOPSLA(2021), 1\u201329.",
+      "doi": "10.1145/3485511"
+    },
+    {
+      "text": "Michel Beaudouin-Lafon. 2004. Designing interaction, not interfaces. In Proceedings of the Working Conference on Advanced Visual Interfaces (AVI). 15\u201322.",
+      "doi": "10.1145/989863.989865"
+    },
+    {
+      "text": "Emily\u00a0M Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. 2021. On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?. In Proceedings of the ACM Conference on Fairness, Accountability, and Transparency. 610\u2013623.",
+      "doi": "10.1145/3442188.3445922"
+    },
+    {
+      "text": "Alan Blackwell and Thomas Green. 2003. Notational Systems\u2013the Cognitive Dimensions of Notations Framework. HCI Models, Theories, And Frameworks: Toward An Interdisciplinary Science. Morgan Kaufmann (2003).",
+      "doi": ""
+    },
+    {
+      "text": "Joel Brandt, Mira Dontcheva, Marcos Weskamp, and Scott\u00a0R Klemmer. 2010. Example-centric programming: integrating web search into the development environment. In Conference on Human Factors in Computing Systems (CHI). 513\u2013522.",
+      "doi": "10.1145/1753326.1753402"
+    },
+    {
+      "text": "Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique\u00a0Ponde de Oliveira\u00a0Pinto, Jared Kaplan, Harrison Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri, Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan, Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavarian, Clemens Winter, Philippe Tillet, Felipe\u00a0Petroski Such, Dave Cummings, Matthias Plappert, Fotios Chantzis, Elizabeth Barnes, Ariel Herbert-Voss, William\u00a0Hebgen Guss, Alex Nichol, Alex Paino, Nikolas Tezak, Jie Tang, Igor Babuschkin, Suchir Balaji, Shantanu Jain, William Saunders, Christopher Hesse, Andrew\u00a0N. Carr, Jan Leike, Joshua Achiam, Vedant Misra, Evan Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Peter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, and Wojciech Zaremba. 2021. Evaluating Large Language Models Trained on Code. (2021). https://arxiv.org/abs/2107.03374",
+      "doi": ""
+    },
+    {
+      "text": "Qing Chen, Fuling Sun, Xinyue Xu, Zui Chen, Jiazhe Wang, and Nan Cao. 2021. Vizlinter: A linter and fixer framework for data visualization. IEEE Transactions on Visualization and Computer Graphics 28, 1(2021), 206\u2013216.",
+      "doi": "10.1109/TVCG.2021.3114804"
+    },
+    {
+      "text": "Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. 2021. Training Verifiers to Solve Math Word Problems. (2021). https://arxiv.org/abs/2110.14168",
+      "doi": ""
+    },
+    {
+      "text": "Michael Correll. 2021. The Clippy-ization of Human-Computer Design. https://mcorrell.medium.com/the-clippy-ization-of-human-computer-design-c66e8042de88",
+      "doi": ""
+    },
+    {
+      "text": "Anamaria Crisan, Brittany Fiore-Gartland, and Melanie Tory. 2020. Passing the data baton: A retrospective analysis on data science work and workers. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 1860\u20131870.",
+      "doi": ""
+    },
+    {
+      "text": "Fred\u00a0D Davis. 1989. Perceived Usefulness, Perceived Ease of Use, and User Acceptance of Information Technology. MIS Quarterly (1989), 319\u2013340.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0A DeLine. 2021. Glinda: Supporting data science with live programming, GUIs and a Domain-specific Language. In Conference on Human Factors in Computing Systems (CHI). 1\u201311.",
+      "doi": "10.1145/3411764.3445267"
+    },
+    {
+      "text": "Jacob Diamond-Reivich. 2020. Mito: Edit a Spreadsheet. Generate Production Ready Python.. In LIVE: Workshop on Live Programming.",
+      "doi": ""
+    },
+    {
+      "text": "Brendan Dolan-Gavitt. 2022. FauxPilot - an open-source GitHub Copilot server. https://github.com/moyix/fauxpilot. Accessed 9/7/22.",
+      "doi": ""
+    },
+    {
+      "text": "Ian Drosos, Titus Barik, Philip\u00a0J Guo, Robert DeLine, and Sumit Gulwani. 2020. Wrex: A unified programming-by-example interaction for synthesizing readable code for data scientists. In Conference on Human Factors in Computing Systems (CHI). 1\u201312.",
+      "doi": "10.1145/3313831.3376442"
+    },
+    {
+      "text": "Will Epperson, April\u00a0Yi Wang, Robert DeLine, and Steven\u00a0M Drucker. 2022. Strategies for Reuse and Sharing among Data Scientists in Software Teams. International Conference on Software Engineering (ICSE) (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Kasra Ferdowsifard, Allen Ordookhanians, Hila Peleg, Sorin Lerner, and Nadia Polikarpova. 2020. Small-step live programming by example. In ACM Symposium on User Interface Software and Technology (UIST). 614\u2013626.",
+      "doi": "10.1145/3379337.3415869"
+    },
+    {
+      "text": "Daniel Fried, Armen Aghajanyan, Jessy Lin, Sida Wang, Eric Wallace, Freda Shi, Ruiqi Zhong, Wen-tau Yih, Luke Zettlemoyer, and Mike Lewis. 2022. Incoder: A generative model for code infilling and synthesis. arXiv:2204.05999 (2022).",
+      "doi": ""
+    },
+    {
+      "text": "GitHub. 2022. GitHub Copilot. https://github.com/features/copilot. Accessed 6/30/22.",
+      "doi": ""
+    },
+    {
+      "text": "GitHub. 2022. Seeing multiple suggestions in a new tab. https://docs.github.com/en/copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code#seeing-multiple-suggestions-in-a-new-tab. Accessed 9/7/22.",
+      "doi": ""
+    },
+    {
+      "text": "Luca\u00a0Di Grazia and Michael Pradel. 2022. Code search: A survey of techniques for finding code. ACM Computing Surveys (CSUR)(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Sumit Gulwani. 2011. Automating string processing in spreadsheets using input-output examples. ACM SIGPLAN Notices 46, 1 (2011), 317\u2013330.",
+      "doi": "10.1145/1925844.1926423"
+    },
+    {
+      "text": "Sumit Gulwani, Oleksandr Polozov, Rishabh Singh, 2017. Program synthesis. Foundations and Trends\u00ae in Programming Languages 4, 1-2(2017), 1\u2013119.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Head, Fred Hohman, Titus Barik, Steven\u00a0M Drucker, and Robert DeLine. 2019. Managing messes in computational notebooks. In Conference on Human Factors in Computing Systems (CHI). 1\u201312.",
+      "doi": "10.1145/3290605.3300500"
+    },
+    {
+      "text": "Brian Hempel and Ravi Chugh. 2022. Maniposynth: Bimodal Tangible Functional Programming. In European Conference on Object-Oriented Programming (ECOOP 2022). Schloss Dagstuhl-Leibniz-Zentrum f\u00fcr Informatik.",
+      "doi": ""
+    },
+    {
+      "text": "Brian Hempel, Justin Lubin, and Ravi Chugh. 2019. Sketch-n-sketch: Output-directed programming for SVG. In ACM Symposium on User Interface Software and Technology (UIST). 281\u2013292.",
+      "doi": "10.1145/3332165.3347925"
+    },
+    {
+      "text": "Eric Horvitz. 1999. Principles of mixed-initiative user interfaces. In Conference on Human Factors in Computing Systems (CHI). 159\u2013166.",
+      "doi": "10.1145/302979.303030"
+    },
+    {
+      "text": "Nick Hynes, D Sculley, and Michael Terry. 2017. The data linter: Lightweight, automated sanity checking for ml data sets. In NIPS MLSys Workshop, Vol.\u00a01.",
+      "doi": ""
+    },
+    {
+      "text": "Saki Imai. 2022. Is GitHub Copilot a Substitute for Human Pair-programming? An Empirical Study. In International Conference on Software Engineering (ICSE). IEEE, 319\u2013321.",
+      "doi": "10.1145/3510454.3522684"
+    },
+    {
+      "text": "Naman Jain, Skanda Vaidyanath, Arun Iyer, Nagarajan Natarajan, Suresh Parthasarathy, Sriram Rajamani, and Rahul Sharma. 2022. Jigsaw: large language models meet program synthesis. In International Conference on Software Engineering (ICSE). IEEE, 1219\u20131231.",
+      "doi": "10.1145/3510003.3510203"
+    },
+    {
+      "text": "Dhanya Jayagopal, Justin Lubin, and Sarah\u00a0E. Chasins. 2022. Exploring the Learnability of Program Synthesizers by Novice Programmers. In ACM Symposium on User Interface Software and Technology (UIST).",
+      "doi": "10.1145/3526113.3545659"
+    },
+    {
+      "text": "Ellen Jiang, Edwin Toh, Alejandra Molina, Aaron Donsbach, Carrie\u00a0J Cai, and Michael Terry. 2021. Genline and genform: Two tools for interacting with generative language models in a code editor. In ACM Symposium on User Interface Software and Technology (UIST). 145\u2013147.",
+      "doi": "10.1145/3474349.3480209"
+    },
+    {
+      "text": "Ellen Jiang, Edwin Toh, Alejandra Molina, Kristen Olson, Claire Kayacik, Aaron Donsbach, Carrie\u00a0J Cai, and Michael Terry. 2022. Discovering the Syntax and Strategies of Natural Language Programming with Generative Language Models. In Conference on Human Factors in Computing Systems (CHI). 1\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Amber Horvath, and Brad\u00a0A. Myers. 2017. Variolite: Supporting Exploratory Programming by Data Scientists. In CHI Conference on Human Factors in Computing Systems. ACM, 1265\u20131276.",
+      "doi": "10.1145/3025453.3025626"
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Marissa Radensky, Mahima Arya, Bonnie\u00a0E John, and Brad\u00a0A Myers. 2018. The story in the notebook: Exploratory data science using a literate programming tool. In Conference on Human Factors in Computing Systems (CHI). 1\u201311.",
+      "doi": "10.1145/3173574.3173748"
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Donghao Ren, Fred Hohman, Dominik Moritz, Kanit Wongsuphasawat, and Kayur Patel. 2020. mage: Fluid moves between code and graphical work in computational notebooks. In ACM Symposium on User Interface Software and Technology (UIST). 140\u2013151.",
+      "doi": "10.1145/3379337.3415842"
+    },
+    {
+      "text": "Miryung Kim, Thomas Zimmermann, Robert DeLine, and Andrew Begel. 2017. Data scientists in software teams: State of the art and challenges. IEEE Transactions on Software Engineering 44, 11 (2017), 1024\u20131038.",
+      "doi": ""
+    },
+    {
+      "text": "8080 Labs. 2022. bamboolib. https://bamboolib.8080labs.com/. Accessed 7/20/22.",
+      "doi": ""
+    },
+    {
+      "text": "Sam Lau, Ian Drosos, Julia\u00a0M Markel, and Philip\u00a0J Guo. 2020. The design space of computational notebooks: An analysis of 60 systems in academia and industry. In Symposium on Visual Languages and Human-Centric Computing (VL/HCC). 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Tessa Lau. 2008. Why PBD systems fail: Lessons learned for usable AI. In CHI 2008 Workshop on Usable AI. 65\u201367.",
+      "doi": ""
+    },
+    {
+      "text": "Doris Jung\u00a0Lin Lee, Dixin Tang, Kunal Agarwal, Thyne Boonmark, Caitlyn Chen, Jake Kang, Ujjaini Mukhopadhyay, Jerry Song, Micah Yong, Marti\u00a0A. Hearst, and Aditya\u00a0G. Parameswaran. 2021. Lux: Always-on Visualization Recommendations for Exploratory Dataframe Workflows. Proc. VLDB Endow. 15, 3 (2021), 727\u2013738.",
+      "doi": "10.14778/3494124.3494151"
+    },
+    {
+      "text": "Toby Jia-Jun Li, Jingya Chen, Haijun Xia, Tom\u00a0M Mitchell, and Brad\u00a0A Myers. 2020. Multi-modal repairs of conversational breakdowns in task-oriented dialogs. In ACM Symposium on User Interface Software and Technology (UIST). 1094\u20131107.",
+      "doi": ""
+    },
+    {
+      "text": "Xingjun Li, Yuanxin Wang, Hong Wang, Yang Wang, and Jian Zhao. 2021. NBSearch: Semantic Search and Visual Exploration of Computational Notebooks. In Conference on Human Factors in Computing Systems (CHI). 1\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Xingjun Li, Yizhi Zhang, Justin Leung, Chengnian Sun, and Jian Zhao. 2021. EDAssistant: Supporting Exploratory Data Analysis in Computational Notebooks with In-Situ Code Search and Recommendation. arXiv:2112.07858 (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Q.\u00a0Vera Liao and S.\u00a0Shyam Sundar. 2022. Designing for Responsible Trust in AI Systems: A Communication Perspective. In Conference on Fairness, Accountability, and Transparency (FAccT). ACM, 1257\u20131268.",
+      "doi": ""
+    },
+    {
+      "text": "Chao Liu, Xin Xia, David Lo, Cuiyun Gao, Xiaohu Yang, and John Grundy. 2021. Opportunities and challenges in code search tools. ACM Computing Surveys (CSUR) 54, 9 (2021), 1\u201340.",
+      "doi": ""
+    },
+    {
+      "text": "Mika\u00ebl Mayer, Gustavo Soares, Maxim Grechkin, Vu Le, Mark Marron, Oleksandr Polozov, Rishabh Singh, Benjamin Zorn, and Sumit Gulwani. 2015. User interaction models for disambiguation in programming by example. In Proceedings of the ACM Symposium on User Interface Software & Technology. 291\u2013301.",
+      "doi": "10.1145/2807442.2807459"
+    },
+    {
+      "text": "Barry McCardel. 2022. Hex Blog: Introducing: \u201cNo-Code\u201d Cells. https://hex.tech/blog/introducing-no-code-cells. Accessed 8/16/22.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew McNutt and Ravi Chugh. 2021. Integrated Visualization Editing Via Parameterized Declarative Templates. In Conference on Human Factors in Computing Systems (CHI). 1\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew McNutt, Anamaria Crisan, and Michael Correll. 2020. Divining Insights: Visual Analytics Through Cartomancy. In Extended Abstracts of the Conference on Human Factors in Computing Systems (CHI). 1\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew McNutt, Gordon Kindlmann, and Michael Correll. 2020. Surfacing Visualization Mirages. Conference on Human Factors in Computing Systems (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Mauricio\u00a0Verano Merino, Jurgen Vinju, and Tijs van\u00a0der Storm. 2020. Bacat\u00e1: Notebooks for DSLs, Almost for Free. In International Conference on Art, Science, And Engineering. ACM.",
+      "doi": ""
+    },
+    {
+      "text": "Microsoft. 2022. IntelliSense. https://code.visualstudio.com/docs/editor/intellisense. Accessed 11/9/22.",
+      "doi": ""
+    },
+    {
+      "text": "Microsoft. 2022. Use AutoComplete when entering formulas. https://web.archive.org/web/20221005003956/https://support.microsoft.com/en-us/office/use-autocomplete-when-entering-formulas-d51ef125-60ff-438f-ba26-d9bd6b363bbe. Accessed 11/11/22.",
+      "doi": ""
+    },
+    {
+      "text": "Mathew Mooty, Andrew Faulring, Jeffrey Stylos, and Brad\u00a0A. Myers. 2010. Calcite: Completing Code Completion for Constructors Using Crowds. In IEEE Symposium on Visual Languages and Human-Centric Computing, VL/HCC. IEEE Computer Society, 15\u201322. https:///10.1109/VLHCC.2010.12",
+      "doi": ""
+    },
+    {
+      "text": "Tamara Munzner. 2022. Developing Design Spaces for Visualization. (2022). https://hci.stanford.edu/courses/cs547/speaker.php?date=2022-03-04 Stanford Human-Computer Interaction Seminar.",
+      "doi": ""
+    },
+    {
+      "text": "Minori Narita, Nolwenn Maudet, Yi Lu, and Takeo Igarashi. 2021. Data-centric disambiguation for data transformation with programming-by-example. In International Conference on Intelligent User Interfaces (IUI). 454\u2013463.",
+      "doi": "10.1145/3397481.3450680"
+    },
+    {
+      "text": "Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio Savarese, and Caiming Xiong. 2022. A conversational paradigm for program synthesis. arXiv preprint arXiv:2203.13474(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Observable. 2022. Data table cell. https://observablehq.com/@observablehq/data-table-cell. Accessed 7/20/22.",
+      "doi": ""
+    },
+    {
+      "text": "Cyrus Omar, Young\u00a0Seok Yoon, Thomas\u00a0D LaToza, and Brad\u00a0A Myers. 2012. Active Code Completion. In International Conference on Software Engineering (ICSE). IEEE, 859\u2013869.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Oney and Joel Brandt. 2012. Codelets: linking interactive documentation and example code in the editor. In Conference on Human Factors in Computing Systems (CHI). 2697\u20132706.",
+      "doi": "10.1145/2207676.2208664"
+    },
+    {
+      "text": "OpenAI. 2022. GPT-3. https://openai.com/api/. Accessed 6/30/22.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0Quinn Patton. 1990. Qualitative evaluation and research methods. SAGE Publications, inc.",
+      "doi": ""
+    },
+    {
+      "text": "Kylie Peppler and Yasmin Kafai. 2005. Creative coding: Programming for personal expression. Retrieved August 30, 2008 (2005), 314.",
+      "doi": ""
+    },
+    {
+      "text": "Fernando P\u00e9rez and Brian\u00a0E Granger. 2007. IPython: a system for interactive scientific computing. Computing in science & engineering 9, 3 (2007), 21\u201329.",
+      "doi": ""
+    },
+    {
+      "text": "Sruti\u00a0Srinivasa Ragavan, Zhitao Hou, Yun Wang, Andrew\u00a0D. Gordon, Haidong Zhang, and Dongmei Zhang. 2022. GridBook: Natural Language Formulas for the Spreadsheet Grid. In International Conference on Intelligent User Interfaces (IUI). ACM, 345\u2013368.",
+      "doi": ""
+    },
+    {
+      "text": "Deepthi Raghunandan, Zhe Cui, Kartik Krishnan, Segen Tirfe, Shenzhi Shi, Tejaswi\u00a0Darshan Shrestha, Leilani Battle, and Niklas Elmqvist. 2021. Lodestar: Supporting Independent Learning and Rapid Experimentation Through Data-Driven Analysis Recommendations. Visualization in Data Science Workshop(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Steven\u00a0P Reiss. 2014. Seeking the User Interface. In ACM/IEEE International Conference on Automated Software Engineering. 103\u2013114.",
+      "doi": ""
+    },
+    {
+      "text": "Mitchel Resnick, John Maloney, Andr\u00e9s Monroy-Hern\u00e1ndez, Natalie Rusk, Evelyn Eastmond, Karen Brennan, Amon Millner, Eric Rosenbaum, Jay Silver, Brian Silverman, 2009. Scratch: programming for all. Commun. ACM 52, 11 (2009), 60\u201367.",
+      "doi": "10.1145/1592761.1592779"
+    },
+    {
+      "text": "Laria Reynolds and Kyle McDonell. 2021. Prompt programming for large language models: Beyond the few-shot paradigm. In Extended Abstracts of the Conference on Human Factors in Computing Systems (CHI). 1\u20137.",
+      "doi": "10.1145/3411763.3451760"
+    },
+    {
+      "text": "Horst\u00a0W Rittel and Melvin\u00a0M Webber. 1974. Wicked problems. Man-made Futures 26, 1 (1974), 272\u2013280.",
+      "doi": ""
+    },
+    {
+      "text": "Xin Rong, Shiyan Yan, Stephen Oney, Mira Dontcheva, and Eytan Adar. 2016. Codemend: Assisting interactive programming with bimodal embedding. In ACM Symposium on User Interface Software and Technology (UIST). 247\u2013258.",
+      "doi": "10.1145/2984511.2984544"
+    },
+    {
+      "text": "Adam Rule, Amanda Birmingham, Cristal Zuniga, Ilkay Altintas, Shih-Cheng Huang, Rob Knight, Niema Moshiri, Mai\u00a0H. Nguyen, Sara\u00a0Brin Rosenthal, Fernando P\u00e9rez, and Peter\u00a0W. Rose. 2019. Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks. PLoS Computational Biology 15, 7 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Adam Rule, Aur\u00e9lien Tabard, and James\u00a0D Hollan. 2018. Exploration and explanation in computational notebooks. In Conference on Human Factors in Computing Systems (CHI). 1\u201312.",
+      "doi": "10.1145/3173574.3173606"
+    },
+    {
+      "text": "Advait Sarkar, Andrew\u00a0D. Gordon, Carina Negreanu, Christian Poelitz, Sruti\u00a0Srinivasa Ragavan, and Ben Zorn. 2022. What is it like to program with artificial intelligence?. In Psychology of Programming Interest Group (PPIG 2022).",
+      "doi": ""
+    },
+    {
+      "text": "Hendrik Strobelt, Albert Webson, Victor Sanh, Benjamin Hoover, Johanna Beyer, Hanspeter Pfister, and Alexander\u00a0M. Rush. 2023. Interactive and Visual Prompt Engineering for Ad-hoc Task Adaptation with Large Language Models. IEEE Transactions on Visualization and Computer Graphics 29, 1(2023), 1146\u20131156.",
+      "doi": ""
+    },
+    {
+      "text": "Tabnine. 2022. Tabnine. https://www.tabnine.com/. Accessed 6/30/22.",
+      "doi": ""
+    },
+    {
+      "text": "Priyan Vaithilingam, Tianyi Zhang, and Elena\u00a0L Glassman. 2022. Expectation vs. Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models. In ACM SIGCHI Conference on Human Factors in Computing Systems Extended Abstracts. 1\u20137.",
+      "doi": "10.1145/3491101.3519665"
+    },
+    {
+      "text": "April\u00a0Yi Wang, Will Epperson, Robert\u00a0A DeLine, and Steven\u00a0M Drucker. 2022. Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis. In Conference on Human Factors in Computing Systems (CHI). 1\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Caleb Warren, Adam Barsky, and A\u00a0Peter McGraw. 2021. What makes things funny? An integrative review of the antecedents of laughter and amusement. Personality and Social Psychology Review 25, 1 (2021), 41\u201365.",
+      "doi": ""
+    },
+    {
+      "text": "Nathaniel Weinman, Steven\u00a0M Drucker, Titus Barik, and Robert DeLine. 2021. Fork It: Supporting stateful alternatives in computational notebooks. In Conference on Human Factors in Computing Systems (CHI). 1\u201312.",
+      "doi": "10.1145/3411764.3445527"
+    },
+    {
+      "text": "Justin\u00a0D Weisz, Michael Muller, Stephanie Houde, John Richards, Steven\u00a0I Ross, Fernando Martinez, Mayank Agarwal, and Kartik Talamadupula. 2021. Perfection not required? Human-AI partnerships in code translation. In International Conference on Intelligent User Interfaces (IUI). 402\u2013412.",
+      "doi": "10.1145/3397481.3450656"
+    },
+    {
+      "text": "Brian Whitworth. 2005. Polite computing. Behaviour & Information Technology 24, 5 (2005), 353\u2013363.",
+      "doi": ""
+    },
+    {
+      "text": "Jack Williams and Andrew\u00a0D Gordon. 2021. Where-Provenance for Bidirectional Editing in Spreadsheets. In Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, 1\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Jo Wood, Alexander Kachkaev, and Jason Dykes. 2018. Design exposition with literate visualization. IEEE Transactions on Visualization and Computer Graphics 25, 1(2018), 759\u2013768.",
+      "doi": "10.1109/TVCG.2018.2864836"
+    },
+    {
+      "text": "Tongshuang Wu, Michael Terry, and Carrie\u00a0Jun Cai. 2022. Ai chains: Transparent and controllable human-ai interaction by chaining large language model prompts. In Conference on Human Factors in Computing Systems (CHI). 1\u201322.",
+      "doi": "10.1145/3491102.3517582"
+    },
+    {
+      "text": "Yifan Wu, Joseph\u00a0M Hellerstein, and Arvind Satyanarayan. 2020. B2: Bridging code and interactive visualization in computational notebooks. In ACM Symposium on User Interface Software and Technology (UIST). 152\u2013165.",
+      "doi": "10.1145/3379337.3415851"
+    },
+    {
+      "text": "Frank\u00a0F Xu, Bogdan Vasilescu, and Graham Neubig. 2022. In-ide code generation from natural language: Promise and challenges. ACM Transactions on Software Engineering and Methodology (TOSEM) 31, 2(2022), 1\u201347.",
+      "doi": "10.1145/3466642"
+    },
+    {
+      "text": "Yunwen Ye and Gerhard Fischer. 2005. Reuse-conducive development environments. Automated Software Engineering 12, 2 (2005), 199\u2013235.",
+      "doi": "10.1007/s10515-005-6206-x"
+    },
+    {
+      "text": "Nur Yildirim, Alex Kass, Teresa Tung, Connor Upton, Donnacha Costello, Robert Giusti, Sinem Lacin, Sara Lovic, James\u00a0M. O\u2019Neill, Rudi\u00a0O\u2019Reilly Meehan, Eoin\u00a0\u00d3 Loide\u00e1in, Azzurra Pini, Medb Corcoran, Jeremiah Hayes, Diarmuid\u00a0J. Cahalane, Gaurav Shivhare, Luigi Castoro, Giovanni Caruso, Changhoon Oh, James McCann, Jodi Forlizzi, and John Zimmerman. 2022. How Experienced Designers of Enterprise Applications Engage AI as a Design Material. In Conference on Human Factors in Computing Systems (CHI). ACM, 483:1\u2013483:13.",
+      "doi": "10.1145/3491102.3517491"
+    },
+    {
+      "text": "Hongyu Zhang, Anuj Jain, Gaurav Khandelwal, Chandrashekhar Kaushik, Scott Ge, and Wenxiang Hu. 2016. Bing developer assistant: improving developer productivity by recommending sample code. In ACM SIGSOFT International Symposium on Foundations of Software Engineering. 956\u2013961.",
+      "doi": "10.1145/2950290.2983955"
+    },
+    {
+      "text": "Albert Ziegler, Eirini Kalliamvakou, X\u00a0Alice Li, Andrew Rice, Devon Rifkin, Shawn Simister, Ganesh Sittampalam, and Edward Aftandilian. 2022. Productivity assessment of neural code completion. In Proceedings of the SIGPLAN International Symposium on Machine Programming. 21\u201329.",
+      "doi": "10.1145/3520312.3534864"
+    }
+  ]
+}

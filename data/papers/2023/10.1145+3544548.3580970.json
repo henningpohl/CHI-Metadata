@@ -1,0 +1,844 @@
+{
+  "doi": "10.1145/3544548.3580970",
+  "title": "Conceptualizing Algorithmic Stigmatization",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Algorithmic systems have infiltrated many aspects of our society, mundane to high-stakes, and can lead to algorithmic harms known as representational and allocative. In this paper, we consider what stigma theory illuminates about mechanisms leading to algorithmic harms in algorithmic assemblages. We apply the four stigma elements (i.e., labeling, stereotyping, separation, status loss/discrimination) outlined in sociological stigma theories to algorithmic assemblages in two contexts : 1) \"risk prediction\" algorithms in higher education, and 2) suicidal expression and ideation detection on social media. We contribute the novel theoretical conceptualization of algorithmic stigmatization as a sociotechnical mechanism that leads to a unique kind of algorithmic harm: algorithmic stigma. Theorizing algorithmic stigmatization aids in identifying theoretically-driven points of intervention to mitigate and/or repair algorithmic stigma. While prior theorizations reveal how stigma governs socially and spatially, this work illustrates how stigma governs sociotechnically.",
+  "authors": [
+    {
+      "name": "Nazanin Andalibi",
+      "institution": "School of Information, University of Michigan, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "87958798457",
+      "orcid": "0000-0002-3257-2527"
+    },
+    {
+      "name": "Cassidy Pyle",
+      "institution": "School of Information, University of Michigan, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702262",
+      "orcid": "0000-0003-4578-0226"
+    },
+    {
+      "name": "Kristen Barta",
+      "institution": "School of Information, University of Michigan, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659896305",
+      "orcid": "0000-0001-8466-9278"
+    },
+    {
+      "name": "Lu Xian",
+      "institution": "University of Michigan, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660781368",
+      "orcid": "0000-0001-8120-1012"
+    },
+    {
+      "name": "Abigail Z. Jacobs",
+      "institution": "School of Information and Center for the Study of Complex Systems, University of Michigan, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659492535",
+      "orcid": "0000-0002-6452-4386"
+    },
+    {
+      "name": "Mark S. Ackerman",
+      "institution": "School of Information and Department of Computer Science and Engineering, University of Michigan, United States",
+      "img": "/do/10.1145/contrib-81100017207/rel-imgonly/81100017207.jpg",
+      "acmid": "81100017207",
+      "orcid": "0000-0001-9727-1664"
+    }
+  ],
+  "references": [
+    {
+      "text": "2019. New resources to support our community\u2019s well-being. https://newsroom.tiktok.com/en-us/new-resources-to-support-well-being",
+      "doi": ""
+    },
+    {
+      "text": "2022. Mental Illness. https://www.nimh.nih.gov/health/statistics/mental-illness",
+      "doi": ""
+    },
+    {
+      "text": "Adam Mosseri. 2020. Addressing Self-Harm Content on EU Instagram | Instagram Blog. https://about.instagram.com/blog/announcements/an-important-step-towards-better-protecting-our-community-in-europe",
+      "doi": ""
+    },
+    {
+      "text": "Clifford Adelman. 1998. The kiss of death? An alternative view of college remediation. National Crosstalk 6, 3 (1998), 11.",
+      "doi": ""
+    },
+    {
+      "text": "Muhammad Adnan, Asad Habib, Jawad Ashraf, Shafaq Mussadiq, Arsalan\u00a0Ali Raza, Muhammad Abid, Maryam Bashir, and Sana\u00a0Ullah Khan. 2021. Predicting at-Risk Students at Different Percentages of Course Length for Early Intervention Using Machine Learning Models. IEEE Access 9(2021), 7519\u20137539. https://doi.org/10.1109/ACCESS.2021.3049446 Conference Name: IEEE Access.",
+      "doi": ""
+    },
+    {
+      "text": "Nazanin Andalibi. 2020. Disclosure, Privacy, and Stigma on Social Media: Examining Non-Disclosure of Distressing Experiences. ACM Transactions on Computer-Human Interaction 27, 3 (May 2020), 18:1\u201318:43. https://doi.org/10.1145/3386600",
+      "doi": "10.1145/3386600"
+    },
+    {
+      "text": "Nazanin Andalibi and Justin Buss. 2020. The Human in Emotion Recognition on Social Media: Attitudes, Outcomes, Risks. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu HI USA, 1\u201316. https://doi.org/10.1145/3313831.3376680",
+      "doi": "10.1145/3313831.3376680"
+    },
+    {
+      "text": "Nazanin Andalibi and Patricia Garcia. 2021. Sensemaking and Coping After Pregnancy Loss: The Seeking and Disruption of Emotional Validation Online. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1 (April 2021), 1\u201332. https://doi.org/10.1145/3449201",
+      "doi": "10.1145/3449201"
+    },
+    {
+      "text": "Nazanin Andalibi, Oliver\u00a0L. Haimson, Munmun\u00a0De Choudhury, and Andrea Forte. 2018. Social Support, Reciprocity, and Anonymity in Responses to Sexual Abuse Disclosures on Social Media. ACM Transactions on Computer-Human Interaction 25, 5 (Oct. 2018), 1\u201335. https://doi.org/10.1145/3234942",
+      "doi": "10.1145/3234942"
+    },
+    {
+      "text": "Nazanin Andalibi, Pinar Ozturk, and Andrea Forte. 2017. Sensitive Self-disclosures, Responses, and Social Support on Instagram: The Case of #Depression. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing. ACM, Portland Oregon USA, 1485\u20131500. https://doi.org/10.1145/2998181.2998243",
+      "doi": "10.1145/2998181.2998243"
+    },
+    {
+      "text": "Matthias\u00a0C. Angermeyer and Herbert Matschinger. 2005. Labeling\u2014stereotype\u2014discrimination: An investigation of the stigma process. Social Psychiatry and Psychiatric Epidemiology 40, 5 (May 2005), 391\u2013395. https://doi.org/10.1007/s00127-005-0903-4",
+      "doi": ""
+    },
+    {
+      "text": "Matthias\u00a0C. Angermeyer, Herbert Matschinger, Bruce\u00a0G. Link, and Georg Schomerus. 2014. Public attitudes regarding individual and structural discrimination: Two sides of the same coin?Social Science & Medicine 103 (Feb. 2014), 60\u201366. https://doi.org/10.1016/j.socscimed.2013.11.014",
+      "doi": ""
+    },
+    {
+      "text": "Kimberly\u00a0E. Arnold and Matthew\u00a0D. Pistilli. 2012. Course signals at Purdue: using learning analytics to increase student success. In Proceedings of the 2nd International Conference on Learning Analytics and Knowledge. ACM, Vancouver British Columbia Canada, 267\u2013270. https://doi.org/10.1145/2330601.2330666",
+      "doi": "10.1145/2330601.2330666"
+    },
+    {
+      "text": "Jennifer Bard. 2020. Developing a Legal Framework for Regulating Emotion AI. https://doi.org/10.2139/ssrn.3680909",
+      "doi": ""
+    },
+    {
+      "text": "P\u0131nar Barlas, Kyriakos Kyriakou, Styliani Kleanthous, and Jahna Otterbacher. 2021. Person, Human, Neither: The Dehumanization Potential of Automated Image Tagging. In Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society. ACM, Virtual Event USA, 357\u2013367. https://doi.org/10.1145/3461702.3462567",
+      "doi": "10.1145/3461702.3462567"
+    },
+    {
+      "text": "Solon Barocas, Kate Crawford, Aaron Shapiro, and Hanna Wallach. 2017. The Problem with Bias: From Allocative to Representational Harms in Machine Learning.",
+      "doi": ""
+    },
+    {
+      "text": "Solon Barocas and Andrew\u00a0D. Selbst. 2016. Big Data\u2019s Disparate Impact. California Law Review 104 (2016), 671. https://heinonline.org/HOL/Page?handle=hein.journals/calr104&id=695&div=&collection=",
+      "doi": ""
+    },
+    {
+      "text": "Howard\u00a0S. Becker. 1963. Outsiders: Studies in the sociology of deviance. Free Press Glencoe, Oxford, England. Pages: x, 179.",
+      "doi": ""
+    },
+    {
+      "text": "Jeri\u00a0Mullins Beggs, John\u00a0H. Bantham, and Steven Taylor. 2008. Distinguishing the factors influencing college students\u2019 choice of major. College Student Journal 42, 2 (June 2008), 381\u2013395. https://go.gale.com/ps/i.do?p=AONE&sw=w&issn=01463934&v=2.1&it=r&id=GALE%7CA179348418&sid=googleScholar&linkaccess=abs Publisher: Project Innovation Austin LLC.",
+      "doi": ""
+    },
+    {
+      "text": "Ruha Benjamin. 2019. Assessing risk, automating racism. Science 366, 6464 (Oct. 2019), 421\u2013422. https://doi.org/10.1126/science.aaz3873",
+      "doi": ""
+    },
+    {
+      "text": "Ruha Benjamin. 2020. Race After Technology: Abolitionist Tools for the New Jim Code. Social Forces 98, 4 (June 2020), 1\u20133. https://doi.org/10.1093/sf/soz162",
+      "doi": ""
+    },
+    {
+      "text": "Cynthia\u00a0L. Bennett and Os Keyes. 2020. What is the point of fairness? disability, AI and the complexity of justice. ACM SIGACCESS Accessibility and Computing125 (March 2020), 5:1. https://doi.org/10.1145/3386296.3386301",
+      "doi": "10.1145/3386296.3386301"
+    },
+    {
+      "text": "Johannes Berens, Kerstin Schneider, Simon G\u00f6rtz, Simon Oster, and Julian Burghoff. 2019. Early Detection of Students at Risk - Predicting Student Dropouts Using Administrative Student Data from German Universities and Machine Learning Methods. 11, 3 (2019), 41.",
+      "doi": ""
+    },
+    {
+      "text": "Jacqueline Bichsel and EDUCAUSE Center for Applied Research. 2012. Analytics in higher education: benefits, barriers, progress, and recommendations. EDUCAUSE Center for Applied Research, Louisville, Colo.http://net.educause.edu/ir/library/pdf/ERS1207/ers1207.pdf OCLC: 807289562.",
+      "doi": ""
+    },
+    {
+      "text": "Abeba Birhane. 2021. Algorithmic injustice: a relational ethics approach. Patterns 2, 2 (Feb. 2021), 100205. https://doi.org/10.1016/j.patter.2021.100205",
+      "doi": ""
+    },
+    {
+      "text": "Abeba Birhane and Vinay\u00a0Uday Prabhu. 2021. Large image datasets: A pyrrhic win for computer vision?. In 2021 IEEE Winter Conference on Applications of Computer Vision (WACV). 1536\u20131546. https://doi.org/10.1109/WACV48630.2021.00158 ISSN: 2642-9381.",
+      "doi": ""
+    },
+    {
+      "text": "Su\u00a0Lin Blodgett, Solon Barocas, Hal Daum\u00e9\u00a0III, and Hanna Wallach. 2020. Language (Technology) is Power: A Critical Survey of \u201cBias\u201d in NLP. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Online, 5454\u20135476. https://doi.org/10.18653/v1/2020.acl-main.485",
+      "doi": ""
+    },
+    {
+      "text": "Elena Botella. 2019. TikTok admits it suppressed videos by disabled, queer, and fat creators.https://slate.com/technology/2019/12/tiktok-disabled-users-videos-suppressed.html",
+      "doi": ""
+    },
+    {
+      "text": "Martha\u00a0Cecilia Bottia, Roslyn\u00a0Arlin Mickelson, Cayce Jamil, Kyleigh Moniz, and Leanne Barry. 2021. Factors Associated With College STEM Participation of Racially Minoritized Students: A Synthesis of Research. Review of Educational Research 91, 4 (Aug. 2021), 614\u2013648. https://doi.org/10.3102/00346543211012751 Publisher: American Educational Research Association.",
+      "doi": ""
+    },
+    {
+      "text": "Geoffrey\u00a0C. Bowker and Susan\u00a0Leigh Star. 2000. Sorting Things Out: Classification and Its Consequences. MIT Press. Google-Books-ID: xHlP8WqzizYC.",
+      "doi": ""
+    },
+    {
+      "text": "Keffrelyn\u00a0D. Brown. 2006. Mapping risks in education: Conceptions, contexts and complexities. Ph.D. The University of Wisconsin - Madison, United States \u2013 Wisconsin. https://www.proquest.com/docview/304977319/abstract/F5898C2ED3A3430FPQ/1ISBN: 9780542887093.",
+      "doi": ""
+    },
+    {
+      "text": "Taina Bucher. 2012. Want to be on the top? Algorithmic power and the threat of invisibility on Facebook. New Media & Society 14, 7 (Nov. 2012), 1164\u20131180. https://doi.org/10.1177/1461444812440159 Publisher: SAGE Publications.",
+      "doi": ""
+    },
+    {
+      "text": "Taina Bucher. 2018. If...Then: Algorithmic Power and Politics. Oxford University Press. Google-Books-ID: u_pdDwAAQBAJ.",
+      "doi": ""
+    },
+    {
+      "text": "Scott Burris. 2006. Stigma and the law. The Lancet 367, 9509 (Feb. 2006), 529\u2013531. https://doi.org/10.1016/S0140-6736(06)68185-3 Publisher: Elsevier.",
+      "doi": ""
+    },
+    {
+      "text": "Stevie Chancellor, Jessica\u00a0Annette Pater, Trustin Clear, Eric Gilbert, and Munmun De\u00a0Choudhury. 2016. #thyghgapp: Instagram Content Moderation and Lexical Variation in Pro-Eating Disorder Communities. In Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing(CSCW \u201916). Association for Computing Machinery, New York, NY, USA, 1201\u20131213. https://doi.org/10.1145/2818048.2819963",
+      "doi": "10.1145/2818048.2819963"
+    },
+    {
+      "text": "Stevie Chancellor, Steven\u00a0A. Sumner, Corinne David-Ferdon, Tahirah Ahmad, and Munmun\u00a0De Choudhury. 2021. Suicide Risk and Protective Factors in Online Support Forum Posts: Annotation Scheme Development and Validation Study. JMIR Mental Health 8, 11 (Nov. 2021), e24471. https://doi.org/10.2196/24471 Company: JMIR Mental Health Distributor: JMIR Mental Health Institution: JMIR Mental Health Label: JMIR Mental Health Publisher: JMIR Publications Inc., Toronto, Canada.",
+      "doi": ""
+    },
+    {
+      "text": "Pamara\u00a0F. Chang and Rachel\u00a0V. Tucker. 2022. Assistive Communication Technologies and Stigma: How Perceived Visibility of Cochlear Implants Affects Self-Stigma and Social Interaction Anxiety. Proceedings of the ACM on Human-Computer Interaction 6, CSCW1 (April 2022), 77:1\u201377:16. https://doi.org/10.1145/3512924",
+      "doi": "10.1145/3512924"
+    },
+    {
+      "text": "Yan Chen, Qinghua Zheng, Shuguang Ji, Feng Tian, Haiping Zhu, and Min Liu. 2020. Identifying at-risk students based on the phased prediction model. Knowledge and Information Systems 62, 3 (March 2020), 987\u20131003. https://doi.org/10.1007/s10115-019-01374-x",
+      "doi": ""
+    },
+    {
+      "text": "Shaan Chopra, Rachael Zehrung, Tamil\u00a0Arasu Shanmugam, and Eun\u00a0Kyoung Choe. 2021. Living with Uncertainty and Stigma: Self-Experimentation and Support-Seeking around Polycystic Ovary Syndrome. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems(CHI \u201921). Association for Computing Machinery, New York, NY, USA, 1\u201318. https://doi.org/10.1145/3411764.3445706",
+      "doi": "10.1145/3411764.3445706"
+    },
+    {
+      "text": "Munmun\u00a0De Choudhury and Sushovan De. 2014. Mental Health Discourse on reddit: Self-Disclosure, Social Support, and Anonymity. In Eighth International AAAI Conference on Weblogs and Social Media. https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/view/8075",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra Chouldechova and Aaron Roth. 2020. A snapshot of the frontiers of fairness in machine learning. Commun. ACM 63, 5 (April 2020), 82\u201389. https://doi.org/10.1145/3376898",
+      "doi": "10.1145/3376898"
+    },
+    {
+      "text": "Kwok\u00a0Tai Chui, Dennis Chun\u00a0Lok Fung, Miltiadis\u00a0D. Lytras, and Tin\u00a0Miu Lam. 2020. Predicting at-risk university students in a virtual learning environment via a machine learning algorithm. Computers in Human Behavior 107 (June 2020), 105584. https://doi.org/10.1016/j.chb.2018.06.032",
+      "doi": "10.1016/j.chb.2018.06.032"
+    },
+    {
+      "text": "Marika Cifor, Patricia Garcia, TL Cowan, Jasmine Rault, Tonia Sutherland, Anita\u00a0Say Chan, Jennifer Rode, Anna\u00a0Lauren Hoffmann, Niloufar Salehi, and Lisa Nakamura. 2019. Feminist Data Manifest-No. https://www.manifestno.com/home",
+      "doi": ""
+    },
+    {
+      "text": "Giovanni Circo. 2020. PROJECT GREENLIGHT DETROIT: EVALUATION REPORT. (2020), 94.",
+      "doi": ""
+    },
+    {
+      "text": "Danielle\u00a0Keats Citron and Daniel\u00a0J. Solove. 2021. Privacy Harms. https://doi.org/10.2139/ssrn.3782222",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Clair. 2018. Stigma. Core Concepts in Sociology(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Patricia\u00a0Hill Collins and Sirma Bilge. 2020. Intersectionality. John Wiley & Sons. Google-Books-ID: fyrfDwAAQBAJ.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan\u00a0E. Cook, Valerie Purdie-Vaughns, Ilan\u00a0H. Meyer, and Justin T.\u00a0A. Busch. 2014. Intervening within and across levels: A multilevel approach to stigma and public health. Social Science & Medicine 103 (Feb. 2014), 101\u2013109. https://doi.org/10.1016/j.socscimed.2013.09.023",
+      "doi": ""
+    },
+    {
+      "text": "A.\u00a0Feder Cooper, Emanuel Moss, Benjamin Laufer, and Helen Nissenbaum. 2022. Accountability in an Algorithmic Society: Relationality, Responsibility, and Robustness in Machine Learning. In 2022 ACM Conference on Fairness, Accountability, and Transparency. ACM, Seoul Republic of Korea, 864\u2013876. https://doi.org/10.1145/3531146.3533150",
+      "doi": "10.1145/3531146.3533150"
+    },
+    {
+      "text": "Vickie Cooper and David Whyte (Eds.). 2017. The Violence of Austerity. Pluto Press. https://doi.org/10.2307/j.ctt1pv8988",
+      "doi": ""
+    },
+    {
+      "text": "Sam Corbett-Davies and Sharad Goel. 2018. The Measure and Mismeasure of Fairness: A Critical Review of Fair Machine Learning. http://arxiv.org/abs/1808.00023 arXiv:1808.00023 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "Patrick Corrigan. 2004. How stigma interferes with mental health care.American Psychologist 59, 7 (Oct. 2004), 614\u2013625. https://doi.org/10.1037/0003-066X.59.7.614",
+      "doi": ""
+    },
+    {
+      "text": "Patrick\u00a0W. Corrigan, Benjamin\u00a0G. Druss, and Deborah\u00a0A. Perlick. 2014. The Impact of Mental Illness Stigma on Seeking and Participating in Mental Health Care. Psychological Science in the Public Interest 15, 2 (Oct. 2014), 37\u201370. https://doi.org/10.1177/1529100614531398 Publisher: SAGE Publications Inc.",
+      "doi": ""
+    },
+    {
+      "text": "Patrick\u00a0W. Corrigan and Mandy W.\u00a0M. Fong. 2014. Competing perspectives on erasing the stigma of illness: What says the dodo bird?Social Science & Medicine 103 (Feb. 2014), 110\u2013117. https://doi.org/10.1016/j.socscimed.2013.05.027",
+      "doi": ""
+    },
+    {
+      "text": "Patrick\u00a0W. Corrigan, Jonathon\u00a0E. Larson, Patrick\u00a0J. Michaels, Blythe\u00a0A. Buchholz, Rachel\u00a0Del Rossi, Malia\u00a0Javier Fontecchio, David Castro, Michael Gause, Richard Krzy\u017canowski, and Nicolas R\u00fcsch. 2015. Diminishing the self-stigma of mental illness by coming out proud. Psychiatry Research 229, 1 (Sept. 2015), 148\u2013154. https://doi.org/10.1016/j.psychres.2015.07.053",
+      "doi": ""
+    },
+    {
+      "text": "Sasha Costanza-Chock. 2020. Design Justice: Community-Led Practices to Build the Worlds We Need. The MIT Press. https://library.oapen.org/handle/20.500.12657/43542 Accepted: 2020-12-15T13:38:22Z.",
+      "doi": ""
+    },
+    {
+      "text": "Kelley Cotter. 2019. Playing the visibility game: How digital influencers and algorithms negotiate influence on Instagram. New Media & Society 21, 4 (April 2019), 895\u2013913. https://doi.org/10.1177/1461444818815684 Publisher: SAGE Publications.",
+      "doi": ""
+    },
+    {
+      "text": "Kimberle Crenshaw. 1990. Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color. Stanford Law Review 43(1990), 1241. https://heinonline.org/HOL/Page?handle=hein.journals/stflr43&id=1257&div=&collection=",
+      "doi": ""
+    },
+    {
+      "text": "David Danks and Alex\u00a0John London. 2017. Algorithmic Bias in Autonomous Systems. (2017), 7.",
+      "doi": ""
+    },
+    {
+      "text": "Jenny\u00a0L. Davis, Apryl Williams, and Michael\u00a0W. Yang. 2021. Algorithmic reparation. Big Data & Society 8, 2 (July 2021), 20539517211044808. https://doi.org/10.1177/20539517211044808 Publisher: SAGE Publications Ltd.",
+      "doi": ""
+    },
+    {
+      "text": "Emily Denton, Alex Hanna, Razvan Amironesei, Andrew Smart, and Hilary Nicole. 2021. On the genealogy of machine learning datasets: A critical history of ImageNet. Big Data & Society 8, 2 (July 2021), 20539517211035955. https://doi.org/10.1177/20539517211035955 Publisher: SAGE Publications Ltd.",
+      "doi": ""
+    },
+    {
+      "text": "Brooke\u00a0Erin Duffy. 2020. Algorithmic precarity in cultural work. Communication and the Public 5, 3-4 (Sept. 2020), 103\u2013107. https://doi.org/10.1177/2057047320959855 Publisher: SAGE Publications.",
+      "doi": ""
+    },
+    {
+      "text": "Dustin\u00a0T. Duncan and Ichiro Kawachi. 2018. Neighborhoods and Health. Oxford University Press. Google-Books-ID: SZNODwAAQBAJ.",
+      "doi": ""
+    },
+    {
+      "text": "Upol Ehsan, Ranjit Singh, Jacob Metcalf, and Mark Riedl. 2022. The Algorithmic Imprint. In 2022 ACM Conference on Fairness, Accountability, and Transparency. ACM, Seoul Republic of Korea, 1305\u20131317. https://doi.org/10.1145/3531146.3533186",
+      "doi": "10.1145/3531146.3533186"
+    },
+    {
+      "text": "Karin\u00a0van Es, Daniel Everts, and Iris Muis. 2021. Gendered language and employment Web sites: How search algorithms can cause allocative harm. First Monday (July 2021). https://doi.org/10.5210/fm.v26i8.11717",
+      "doi": ""
+    },
+    {
+      "text": "Motahhare Eslami, Kristen Vaccaro, Karrie Karahalios, and Kevin Hamilton. 2017. \u201cBe Careful; Things Can Be Worse than They Appear\u201d: Understanding Biased Algorithms and Users\u2019 Behavior Around Them in Rating Platforms. Proceedings of the International AAAI Conference on Web and Social Media 11, 1 (May 2017), 62\u201371. https://doi.org/10.1609/icwsm.v11i1.14898 Number: 1.",
+      "doi": ""
+    },
+    {
+      "text": "Motahhare Eslami, Kristen Vaccaro, Min\u00a0Kyung Lee, Amit Elazari Bar\u00a0On, Eric Gilbert, and Karrie Karahalios. 2019. User Attitudes towards Algorithmic Opacity and Transparency in Online Reviewing Platforms. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300724",
+      "doi": "10.1145/3290605.3300724"
+    },
+    {
+      "text": "Virginia Eubanks. 2018. Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor. St. Martin\u2019s Publishing Group. Google-Books-ID: pn4pDwAAQBAJ.",
+      "doi": "10.5555/3208509"
+    },
+    {
+      "text": "Sina Fazelpour and David Danks. 2021. Algorithmic bias: Senses, sources, solutions. Philosophy Compass 16, 8 (2021), e12760. https://doi.org/10.1111/phc3.12760 _eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/phc3.12760.",
+      "doi": ""
+    },
+    {
+      "text": "Sina Fazelpour and Zachary\u00a0C. Lipton. 2020. Algorithmic Fairness from a Non-ideal Perspective. http://arxiv.org/abs/2001.09773 arXiv:2001.09773 [cs, stat].",
+      "doi": ""
+    },
+    {
+      "text": "Batya Friedman and David\u00a0G. Hendry. 2019. Value Sensitive Design: Shaping Technology with Moral Imagination. MIT Press. Google-Books-ID: 8ZiWDwAAQBAJ.",
+      "doi": ""
+    },
+    {
+      "text": "Batya Friedman, Peter\u00a0H. Kahn, Alan Borning, and Alina Huldtgren. 2013. Value Sensitive Design and Information Systems. In Early engagement and new technologies: Opening up the laboratory, Neelke Doorn, Daan Schuurbiers, Ibo van\u00a0de Poel, and Michael\u00a0E. Gorman (Eds.). Springer Netherlands, Dordrecht, 55\u201395. https://doi.org/10.1007/978-94-007-7844-3_4",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0James Fuchs. 2018. The Dangers of Human-Like Bias in Machine-Learning Algorithms. 2 (2018), 15.",
+      "doi": ""
+    },
+    {
+      "text": "Liza Gak, Seyi Olojo, and Niloufar Salehi. 2022. The Distressing Ads That Persist: Uncovering The Harms of Targeted Weight-Loss Ads Among Users with Histories of Disordered Eating. Proceedings of the ACM on Human-Computer Interaction 6, CSCW2 (Nov. 2022), 1\u201323. https://doi.org/10.1145/3555102 arXiv:2204.03200 [cs].",
+      "doi": "10.1145/3555102"
+    },
+    {
+      "text": "Oscar\u00a0H. Gandy. 2016. : Engaging Rational Discrimination and Cumulative Disadvantage. Routledge, London. https://doi.org/10.4324/9781315572758",
+      "doi": ""
+    },
+    {
+      "text": "Seeta\u00a0Pe\u00f1a Gangadharan. 2012. Digital inclusion and data profiling. First Monday (April 2012). https://doi.org/10.5210/fm.v17i5.3821",
+      "doi": ""
+    },
+    {
+      "text": "Alex Gano. 2017. Disparate Impact and Mortgage Lending: A Beginner\u2019s Guide. University of Colorado Law Review 88 (2017), 1109. https://heinonline.org/HOL/Page?handle=hein.journals/ucollr88&id=1145&div=&collection=",
+      "doi": ""
+    },
+    {
+      "text": "Patricia Garcia, Tonia Sutherland, Marika Cifor, Anita\u00a0Say Chan, Lauren Klein, Catherine D\u2019Ignazio, and Niloufar Salehi. 2020. No: Critical Refusal as Feminist Data Practice. In Conference Companion Publication of the 2020 on Computer Supported Cooperative Work and Social Computing. ACM, Virtual Event USA, 199\u2013202. https://doi.org/10.1145/3406865.3419014",
+      "doi": "10.1145/3406865.3419014"
+    },
+    {
+      "text": "Tarleton Gillespie. 2016. Algorithm. In 2. Algorithm. Princeton University Press, 18\u201330. https://doi.org/10.1515/9781400880553-004",
+      "doi": ""
+    },
+    {
+      "text": "Erving Goffman. 1986. Stigma: Notes on the management of spoiled identity (1st touchstone ed. ed.). Simon & Schuster, New York.",
+      "doi": ""
+    },
+    {
+      "text": "Norberto\u00a0Nuno Gomes\u00a0de Andrade, Dave Pawson, Dan Muriello, Lizzy Donahue, and Jennifer Guadagno. 2018. Ethics and Artificial Intelligence: Suicide Prevention on Facebook. Philosophy & Technology 31, 4 (Dec. 2018), 669\u2013684. https://doi.org/10.1007/s13347-018-0336-0",
+      "doi": ""
+    },
+    {
+      "text": "Miguel\u00a0Angel Gonz\u00e1lez-Torres, Rodrigo Oraa, Maialen Ar\u00edstegui, Aranzazu Fern\u00e1ndez-Rivas, and Jose Guimon. 2007. Stigma and discrimination towards people with schizophrenia and their family members. Social Psychiatry and Psychiatric Epidemiology 42, 1 (Jan. 2007), 14\u201323. https://doi.org/10.1007/s00127-006-0126-3",
+      "doi": ""
+    },
+    {
+      "text": "Robert Gorwa, Reuben Binns, and Christian Katzenbach. 2020. Algorithmic content moderation: Technical and political challenges in the automation of platform governance. Big Data & Society 7, 1 (Jan. 2020), 2053951719897945. https://doi.org/10.1177/2053951719897945 Publisher: SAGE Publications Ltd.",
+      "doi": ""
+    },
+    {
+      "text": "Louis\u00a0F. Graham, Mark\u00a0B. Padilla, William\u00a0D. Lopez, Alexandra\u00a0M. Stern, Jerry Peterson, and Danya\u00a0E. Keene. 2016. Spatial Stigma and Health in Postindustrial Detroit. International Quarterly of Community Health Education 36, 2 (Jan. 2016), 105\u2013113. https://doi.org/10.1177/0272684X15627800 Publisher: SAGE Publications Inc.",
+      "doi": ""
+    },
+    {
+      "text": "Sylvia\u00a0Sims Gray. 2013. Framing \u201cat risk\u201d students: Struggles at the boundaries of access to higher education. Children and Youth Services Review 35, 8 (Aug. 2013), 1245\u20131251. https://doi.org/10.1016/j.childyouth.2013.04.011",
+      "doi": ""
+    },
+    {
+      "text": "Ben Green. 2021. Escaping the Impossibility of Fairness: From Formal to Substantive Algorithmic Fairness. (2021), 33.",
+      "doi": ""
+    },
+    {
+      "text": "Ben Green and Salom\u00e9 Viljoen. 2020. Algorithmic realism: expanding the boundaries of algorithmic thought. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. ACM, Barcelona Spain, 19\u201331. https://doi.org/10.1145/3351095.3372840",
+      "doi": "10.1145/3351095.3372840"
+    },
+    {
+      "text": "Amanda\u00a0L. Griffith. 2008. Determinants of Grades, Persistence and Major Choice for Low-Income and Minority Students. (May 2008). https://ecommons.cornell.edu/handle/1813/74602 Accepted: 2020-11-17T16:57:44Z.",
+      "doi": ""
+    },
+    {
+      "text": "Rita Guerra, Margarida Rebelo, Maria\u00a0B. Monteiro, and Samuel\u00a0L. Gaertner. 2013. Translating Recategorization Strategies Into an Antibias Educational Intervention. Journal of Applied Social Psychology 43, 1 (2013), 14\u201323. https://doi.org/10.1111/j.1559-1816.2012.00976.x _eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1559-1816.2012.00976.x.",
+      "doi": ""
+    },
+    {
+      "text": "Ian Hacking. 2004. Between Michel Foucault and Erving Goffman: between discourse in the abstract and face-to-face interaction. Economy and Society 33, 3 (Aug. 2004), 277\u2013302. https://doi.org/10.1080/0308514042000225671 Publisher: Routledge _eprint: https://doi.org/10.1080/0308514042000225671.",
+      "doi": ""
+    },
+    {
+      "text": "Oliver\u00a0L. Haimson, Justin Buss, Zu Weinger, Denny\u00a0L. Starks, Dykee Gorrell, and Briar\u00a0Sweetbriar Baron. 2020. Trans Time: Safety, Privacy, and Content Warnings on a Transgender-Specific Social Media Site. Proceedings of the ACM on Human-Computer Interaction 4, CSCW2 (Oct. 2020), 1\u201327. https://doi.org/10.1145/3415195",
+      "doi": "10.1145/3415195"
+    },
+    {
+      "text": "Emma Halliday, Jennie Popay, Rachel Anderson\u00a0de Cuevas, and Paula Wheeler. 2020. The elephant in the room? Why spatial stigma does not receive the public health attention it deserves. Journal of Public Health 42, 1 (Feb. 2020), 38\u201343. https://doi.org/10.1093/pubmed/fdy214",
+      "doi": ""
+    },
+    {
+      "text": "Alex Hanna, Emily Denton, Andrew Smart, and Jamila Smith-Loud. 2020. Towards a critical race methodology in algorithmic fairness. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. ACM, Barcelona Spain, 501\u2013512. https://doi.org/10.1145/3351095.3372826",
+      "doi": "10.1145/3351095.3372826"
+    },
+    {
+      "text": "Stacey Hannem and Chris Bruckert. 2012. Stigma Revisited: Implications of the Mark. University of Ottawa Press. Google-Books-ID: rGykDAAAQBAJ.",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0L. Hatzenbuehler. 2016. Structural Stigma and Health Inequalities: Research Evidence and Implications for Psychological Science. The American psychologist 71, 8 (Nov. 2016), 742\u2013751. https://doi.org/10.1037/amp0000068",
+      "doi": ""
+    },
+    {
+      "text": "Todd\u00a0F. Heatherton. 2003. The Social Psychology of Stigma. Guilford Press.",
+      "doi": ""
+    },
+    {
+      "text": "Anna\u00a0Lauren Hoffmann. 2019. Where fairness fails: data, algorithms, and the limits of antidiscrimination discourse. Information, Communication & Society 22, 7 (June 2019), 900\u2013915. https://doi.org/10.1080/1369118X.2019.1573912 Publisher: Routledge _eprint: https://doi.org/10.1080/1369118X.2019.1573912.",
+      "doi": ""
+    },
+    {
+      "text": "Anna\u00a0Lauren Hoffmann. 2021. Terms of inclusion: Data, discourse, violence. New Media & Society 23, 12 (Dec. 2021), 3539\u20133556. https://doi.org/10.1177/1461444820958725 Publisher: SAGE Publications.",
+      "doi": ""
+    },
+    {
+      "text": "Lily Hu and Issa Kohler-Hausmann. 2020. What\u2019s sex got to do with machine learning?. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency(FAT* \u201920). Association for Computing Machinery, New York, NY, USA, 513. https://doi.org/10.1145/3351095.3375674",
+      "doi": "10.1145/3351095.3375674"
+    },
+    {
+      "text": "Ben Hutchinson, Andrew Smart, Alex Hanna, Emily Denton, Christina Greer, Oddur Kjartansson, Parker Barnes, and Margaret Mitchell. 2021. Towards Accountability for Machine Learning Datasets: Practices from Software Engineering and Infrastructure. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency. ACM, Virtual Event Canada, 560\u2013575. https://doi.org/10.1145/3442188.3445918",
+      "doi": "10.1145/3442188.3445918"
+    },
+    {
+      "text": "Abigail\u00a0Z. Jacobs and Hanna Wallach. 2021. Measurement and Fairness. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency(FAccT \u201921). Association for Computing Machinery, New York, NY, USA, 375\u2013385. https://doi.org/10.1145/3442188.3445901",
+      "doi": "10.1145/3442188.3445901"
+    },
+    {
+      "text": "Eun\u00a0Seo Jo and Timnit Gebru. 2020. Lessons from archives: strategies for collecting sociocultural data in machine learning. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. ACM, Barcelona Spain, 306\u2013316. https://doi.org/10.1145/3351095.3372829",
+      "doi": "10.1145/3351095.3372829"
+    },
+    {
+      "text": "Nadia Karizat, Dan Delmonaco, Motahhare Eslami, and Nazanin Andalibi. 2021. Algorithmic Folk Theories and Identity: How TikTok Users Co-Produce Knowledge of Identity and Engage in Algorithmic Resistance. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2 (Oct. 2021), 305:1\u2013305:44. https://doi.org/10.1145/3476046",
+      "doi": "10.1145/3476046"
+    },
+    {
+      "text": "Atoosa Kasirzadeh and Andrew Smart. 2021. The Use and Misuse of Counterfactuals in Ethical Machine Learning. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency. ACM, Virtual Event Canada, 228\u2013236. https://doi.org/10.1145/3442188.3445886",
+      "doi": "10.1145/3442188.3445886"
+    },
+    {
+      "text": "Kate Crawford. 2017. The trouble with bias.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Katell, Meg Young, Dharma Dailey, Bernease Herman, Vivian Guetler, Aaron Tam, Corinne Bintz, Daniella Raz, and P.\u00a0M. Krafft. 2020. Toward situated interventions for algorithmic equity: lessons from the field. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. ACM, Barcelona Spain, 45\u201355. https://doi.org/10.1145/3351095.3372874",
+      "doi": "10.1145/3351095.3372874"
+    },
+    {
+      "text": "Jared Katzman, Solon Barocas, Su\u00a0Lin Blodgett, Kristen Laird, Morgan\u00a0Klaus Scheuerman, and Hanna Wallach. 2023. Representational Harms in Image Tagging. Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (2023), 5.",
+      "doi": ""
+    },
+    {
+      "text": "David Kay and Professor\u00a0Charles Oppenheim. [n. d.]. Vol.1 No6.: Legal, Risk and Ethical Aspects of Analytics in Higher Education. ([n. d.]), 30.",
+      "doi": ""
+    },
+    {
+      "text": "Gunay Kazimzade and Milagros Miceli. 2020. Biased Priorities, Biased Outcomes: Three Recommendations for Ethics-oriented Data Annotation Practices. In Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society(AIES \u201920). Association for Computing Machinery, New York, NY, USA, 71. https://doi.org/10.1145/3375627.3375809",
+      "doi": "10.1145/3375627.3375809"
+    },
+    {
+      "text": "Os Keyes. 2018. The Misgendering Machines: Trans/HCI Implications of Automatic Gender Recognition. Proceedings of the ACM on Human-Computer Interaction 2, CSCW (Nov. 2018), 88:1\u201388:22. https://doi.org/10.1145/3274357",
+      "doi": "10.1145/3274357"
+    },
+    {
+      "text": "Os Keyes, Zo\u00eb Hitzig, and Mwenza Blell. 2021. Truth from the machine: artificial intelligence and the materialization of identity. Interdisciplinary Science Reviews 46, 1-2 (April 2021), 158\u2013175. https://doi.org/10.1080/03080188.2020.1840224",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0E. Krumm, R.\u00a0Joseph Waddington, Stephanie\u00a0D. Teasley, and Steven Lonn. 2014. A Learning Management System-Based Early Warning System for Academic Advising in Undergraduate Engineering. In Learning Analytics: From Research to Practice, Johann\u00a0Ari Larussonand Brandon White (Eds.). Springer, New York, NY, 103\u2013119. https://doi.org/10.1007/978-1-4614-3305-7_6",
+      "doi": ""
+    },
+    {
+      "text": "Anna Kruse and Rob Pongsajapan. 2012. Student-Centered Learning.",
+      "doi": ""
+    },
+    {
+      "text": "Himabindu Lakkaraju, Everaldo Aguiar, Carl Shan, David Miller, Nasir Bhanpuri, Rayid Ghani, and Kecia\u00a0L. Addison. 2015. A Machine Learning Framework to Identify Students at Risk of Adverse Academic Outcomes. In Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, Sydney NSW Australia, 1909\u20131918. https://doi.org/10.1145/2783258.2788620",
+      "doi": "10.1145/2783258.2788620"
+    },
+    {
+      "text": "Anders Larrabee\u00a0S\u00f8nderlund, Emily Hughes, and Joanne Smith. 2019. The efficacy of learning analytics interventions in higher education: A systematic review. British Journal of Educational Technology 50, 5 (2019), 2594\u20132618. https://doi.org/10.1111/bjet.12720 _eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/bjet.12720.",
+      "doi": ""
+    },
+    {
+      "text": "Celeste Lawson, Colin Beer, Dolene Rossi, Teresa Moore, and Julie Fleming. 2016. Identification of \u2018at risk\u2019 students using learning analytics: the ethical dilemmas of intervention strategies in a higher education institution. Educational Technology Research and Development 64, 5 (Oct. 2016), 957\u2013968. https://doi.org/10.1007/s11423-016-9459-0",
+      "doi": ""
+    },
+    {
+      "text": "Susan Leavy, Barry O\u2019Sullivan, and Eugenia Siapera. 2020. Data, Power and Bias in Artificial Intelligence. http://arxiv.org/abs/2008.07341 arXiv:2008.07341 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "Min\u00a0Kyung Lee, Daniel Kusbit, Anson Kahng, Ji\u00a0Tae Kim, Xinran Yuan, Allissa Chan, Daniel See, Ritesh Noothigattu, Siheon Lee, Alexandros Psomas, and Ariel\u00a0D. Procaccia. 2019. WeBuildAI: Participatory Framework for Algorithmic Governance. Proceedings of the ACM on Human-Computer Interaction 3, CSCW (Nov. 2019), 1\u201335. https://doi.org/10.1145/3359283",
+      "doi": "10.1145/3359283"
+    },
+    {
+      "text": "Mark Levine, Amy Prosser, David Evans, and Stephen Reicher. 2005. Identity and Emergency Intervention: How Social Group Membership and Inclusiveness of Group Boundaries Shape Helping Behavior. Personality and Social Psychology Bulletin 31, 4 (April 2005), 443\u2013453. https://doi.org/10.1177/0146167204271651 Publisher: SAGE Publications Inc.",
+      "doi": ""
+    },
+    {
+      "text": "Bruce\u00a0G. Link and Jo Phelan. 2014. Stigma power. Social Science & Medicine 103 (Feb. 2014), 24\u201332. https://doi.org/10.1016/j.socscimed.2013.07.035",
+      "doi": ""
+    },
+    {
+      "text": "Bruce\u00a0G. Link and Jo\u00a0C. Phelan. 2001. Conceptualizing Stigma. Annual Review of Sociology 27, 1 (Aug. 2001), 363\u2013385. https://doi.org/10.1146/annurev.soc.27.1.363",
+      "doi": ""
+    },
+    {
+      "text": "Bruce\u00a0G. Link, Jo\u00a0C. Phelan, and Mark\u00a0L. Hatzenbuehler. 2014. Stigma and Social Inequality. In Handbook of the Social Psychology of Inequality, Jane\u00a0D. McLeod, Edward\u00a0J. Lawler, and Michael Schwalbe (Eds.). Springer Netherlands, Dordrecht, 49\u201364. https://doi.org/10.1007/978-94-017-9002-4_3",
+      "doi": ""
+    },
+    {
+      "text": "Owen H.\u00a0T. Lu, Jeff C.\u00a0H. Huang, Anna Y.\u00a0Q. Huang, and Stephen J.\u00a0H. Yang. 2017. Applying learning analytics for improving students engagement and learning outcomes in an MOOCs enabled collaborative programming course. Interactive Learning Environments 25, 2 (Feb. 2017), 220\u2013234. https://doi.org/10.1080/10494820.2016.1278391",
+      "doi": ""
+    },
+    {
+      "text": "Juan\u00a0F. Maestre. 2020. Conducting HCI Research on Stigma. In Conference Companion Publication of the 2020 on Computer Supported Cooperative Work and Social Computing(CSCW \u201920 Companion). Association for Computing Machinery, New York, NY, USA, 129\u2013134. https://doi.org/10.1145/3406865.3418364",
+      "doi": "10.1145/3406865.3418364"
+    },
+    {
+      "text": "Alice\u00a0E Marwick and danah boyd. 2014. Networked privacy: How teenagers negotiate context in social media. New Media & Society 16, 7 (Nov. 2014), 1051\u20131067. https://doi.org/10.1177/1461444814543995 Publisher: SAGE Publications.",
+      "doi": ""
+    },
+    {
+      "text": "Ozma Masood. 2009. At risk: the racialized student marked for educational failure.Ph.\u00a0D. Dissertation. Library and Archives Canada = Biblioth??que et Archives Canada, Ottawa. ISBN: 9780494399248 OCLC: 649886910.",
+      "doi": ""
+    },
+    {
+      "text": "Adrienne Massanari. 2017. #Gamergate and The Fappening: How Reddit\u2019s algorithm, governance, and culture support toxic technocultures. New Media & Society 19, 3 (March 2017), 329\u2013346. https://doi.org/10.1177/1461444815608807 Publisher: SAGE Publications.",
+      "doi": ""
+    },
+    {
+      "text": "Martha Maxwell. 1980. Improving student learning skills /. Jossey-Bass,. https://eduq.info/xmlui/handle/11515/9515 Accepted: 2015-11-06T12:21:48Z Artwork Medium: Ressource physique Interview Medium: Ressource physique.",
+      "doi": ""
+    },
+    {
+      "text": "Martha Maxwell. 1997. The Dismal State of Required Developmental Reading Programs: Roots, Causes and Solutions. (June 1997). https://eric.ed.gov/?id=ED415501",
+      "doi": ""
+    },
+    {
+      "text": "Megan McCluskey. 2020. Black TikTok Creators Say Their Content Is Being Suppressed | Time. https://time.com/5863350/tiktok-black-creators/",
+      "doi": ""
+    },
+    {
+      "text": "Samuel Messick. 1996. Validity and washback in language testing. Language Testing 13, 3 (Nov. 1996), 241\u2013256. https://doi.org/10.1177/026553229601300302 Publisher: SAGE Publications Ltd.",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Metcalf, Emanuel Moss, Elizabeth\u00a0Anne Watkins, Ranjit Singh, and Madeleine\u00a0Clare Elish. 2021. Algorithmic Impact Assessments and Accountability: The Co-construction of Impacts. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency(FAccT \u201921). Association for Computing Machinery, New York, NY, USA, 735\u2013746. https://doi.org/10.1145/3442188.3445935",
+      "doi": "10.1145/3442188.3445935"
+    },
+    {
+      "text": "Ilan\u00a0H. Meyer. 2003. Prejudice, social stress, and mental health in lesbian, gay, and bisexual populations: Conceptual issues and research evidence. Psychological Bulletin 129, 5 (2003), 674\u2013697. https://doi.org/10.1037/0033-2909.129.5.674 Place: US Publisher: American Psychological Association.",
+      "doi": ""
+    },
+    {
+      "text": "Milagros Miceli, Martin Schuessler, and Tianling Yang. 2020. Between Subjectivity and Imposition: Power Dynamics in Data Annotation for Computer Vision. Proceedings of the ACM on Human-Computer Interaction 4, CSCW2 (Oct. 2020), 115:1\u2013115:25. https://doi.org/10.1145/3415186",
+      "doi": "10.1145/3415186"
+    },
+    {
+      "text": "Nanlir\u00a0Sallau Mullah and Wan Mohd Nazmee\u00a0Wan Zainon. 2021. Advances in Machine Learning Algorithms for Hate Speech Detection in Social Media: A Review. IEEE Access 9(2021), 88364\u201388376. https://doi.org/10.1109/ACCESS.2021.3089515 Conference Name: IEEE Access.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Muller and Angelika Strohmayer. 2022. Forgetting Practices in the Data Sciences. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems(CHI \u201922). Association for Computing Machinery, New York, NY, USA, 1\u201319. https://doi.org/10.1145/3491102.3517644",
+      "doi": "10.1145/3491102.3517644"
+    },
+    {
+      "text": "Zane Muller. 2019. Algorithmic Harms to Workers in the Platform Economy: The Case of Uber. Columbia Journal of Law and Social Problems 53 (2019), 167. https://heinonline.org/HOL/Page?handle=hein.journals/collsp53&id=179&div=&collection=",
+      "doi": ""
+    },
+    {
+      "text": "Deirdre\u00a0K. Mulligan, Daniel Kluttz, and Nitin Kohli. 2019. Shaping Our Tools: Contestability as a Means to Promote Responsible Algorithmic Decision Making in the Professions. https://doi.org/10.2139/ssrn.3311894",
+      "doi": ""
+    },
+    {
+      "text": "Rob Nixon. 2011. Slow Violence and the Environmentalism of the Poor. Harvard University Press. Google-Books-ID: e3jDDwAAQBAJ.",
+      "doi": ""
+    },
+    {
+      "text": "Mutale Nkonde. 2019. Automated Anti-Blackness: Facial Recognition in Brooklyn, New York. (2019), 7.",
+      "doi": ""
+    },
+    {
+      "text": "Safiya\u00a0Umoja Noble. 2018. Algorithms of Oppression: How Search Engines Reinforce Racism. New York University Press. https://doi.org/10.18574/nyu/9781479833641.001.0001 Publication Title: Algorithms of Oppression.",
+      "doi": ""
+    },
+    {
+      "text": "Devah Pager. 2003. The Mark of a Criminal Record. Amer. J. Sociology 108, 5 (March 2003), 937\u2013975. https://doi.org/10.1086/374403 Publisher: The University of Chicago Press.",
+      "doi": ""
+    },
+    {
+      "text": "Joon\u00a0Sung Park, Karrie Karahalios, Niloufar Salehi, and Motahhare Eslami. 2022. Power Dynamics and Value Conflicts in Designing and Maintaining Socio-Technical Algorithmic Processes. Proceedings of the ACM on Human-Computer Interaction 6, CSCW1 (March 2022), 1\u201321. https://doi.org/10.1145/3512957",
+      "doi": "10.1145/3512957"
+    },
+    {
+      "text": "Richard Parker and Peter Aggleton. 2003. HIV and AIDS-related stigma and discrimination: a conceptual framework and implications for action. Social Science (2003), 12.",
+      "doi": ""
+    },
+    {
+      "text": "Frank Pasquale. 2015. The Black Box Society: The Secret Algorithms That Control Money and Information. Harvard University Press. Google-Books-ID: TumaBQAAQBAJ.",
+      "doi": "10.5555/2717112"
+    },
+    {
+      "text": "Samir Passi and Solon Barocas. 2019. Problem Formulation and Fairness. In Proceedings of the Conference on Fairness, Accountability, and Transparency. ACM, Atlanta GA USA, 39\u201348. https://doi.org/10.1145/3287560.3287567",
+      "doi": "10.1145/3287560.3287567"
+    },
+    {
+      "text": "Kirsteen Paton. 2018. Beyond legacy: Backstage stigmatisation and \u2018trickle-up\u2019 politics of urban regeneration. The Sociological Review 66, 4 (July 2018), 919\u2013934. https://doi.org/10.1177/0038026118777449 Publisher: SAGE Publications Ltd.",
+      "doi": ""
+    },
+    {
+      "text": "Amandalynne Paullada, Inioluwa\u00a0Deborah Raji, Emily\u00a0M. Bender, Emily Denton, and Alex Hanna. 2021. Data and its (dis)contents: A survey of dataset development and use in machine learning research. Patterns 2, 11 (Nov. 2021), 100336. https://doi.org/10.1016/j.patter.2021.100336",
+      "doi": ""
+    },
+    {
+      "text": "Shenira\u00a0A. Perez. 2019. Quantifying the Effects of the \u2018At-risk\u2019 Label: Exploring the Deficit-oriented Labeling Experiences of Low-income, First-generation College Students of Color. Ph.D. Boston College, United States \u2013 Massachusetts. https://www.proquest.com/docview/2289587090/abstract/96398F2C745C44A1PQ/1ISBN: 9781085695701.",
+      "doi": ""
+    },
+    {
+      "text": "Sidney Perkowitz. 2021. The Bias in the Machine: Facial Recognition Technology and Racial Disparities. MIT Case Studies in Social and Ethical Responsibilities of ComputingWinter 2021 (Feb. 2021). https://doi.org/10.21428/2c646de5.62272586 Publisher: MIT Schwarzman College of Computing.",
+      "doi": ""
+    },
+    {
+      "text": "Margaret Placier. 1996. The Cycle of Student Labels in Education: The Cases of Culturally Deprivedl Disadvantaged and at Risk. Educational Administration Quarterly 32, 2 (April 1996), 236\u2013270. https://doi.org/10.1177/0013161X96032002004 Publisher: SAGE Publications Inc.",
+      "doi": ""
+    },
+    {
+      "text": "Devin\u00a0G. Pope and Justin\u00a0R. Sydnor. 2011. Implementing Anti-discrimination Policies in Statistical Profiling Models. American Economic Journal: Economic Policy 3, 3 (Aug. 2011), 206\u2013231. https://doi.org/10.1257/pol.3.3.206",
+      "doi": ""
+    },
+    {
+      "text": "T.\u00a0T.\u00a0A. Putri, S. Sriadhi, R.\u00a0D. Sari, R. Rahmadani, and H.\u00a0D. Hutahaean. 2020. A comparison of classification algorithms for hate speech detection. IOP Conference Series: Materials Science and Engineering 830, 3 (April 2020), 032006. https://doi.org/10.1088/1757-899X/830/3/032006 Publisher: IOP Publishing.",
+      "doi": ""
+    },
+    {
+      "text": "Emily Rauscher and William Elliott\u00a0III. 2014. The Effect of Wealth Inequality on Higher Education Outcomes: A Critical Review. Sociology Mind 04, 04 (2014), 282\u2013297. https://doi.org/10.4236/sm.2014.44029",
+      "doi": ""
+    },
+    {
+      "text": "Lauren Rhue. 2018. Racial Influence on Automated Perceptions of Emotions. https://doi.org/10.2139/ssrn.3281765",
+      "doi": ""
+    },
+    {
+      "text": "Rashida Richardson, Jason Schultz, and Kate Crawford. 2019. Dirty Data, Bad Predictions: How Civil Rights Violations Impact Police Data, Predictive Policing Systems, and Justice. https://papers.ssrn.com/abstract=3333423",
+      "doi": ""
+    },
+    {
+      "text": "Kat Roemmich and Nazanin Andalibi. 2021. Data Subjects\u2019 Conceptualizations of and Attitudes Toward Automatic Emotion Recognition-Enabled Wellbeing Interventions on Social Media. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2 (Oct. 2021), 308:1\u2013308:34. https://doi.org/10.1145/3476049",
+      "doi": "10.1145/3476049"
+    },
+    {
+      "text": "Edward\u00a0G. Rozycki. 2004. At-Risk Students: What Exactly Is the Threat? How Imminent Is It?Educational Horizons 82, 3 (2004), 174\u2013179. https://www.jstor.org/stable/42926497 Publisher: [Sage Publications, Ltd., Phi Delta Kappa International].",
+      "doi": ""
+    },
+    {
+      "text": "Laura Savolainen. 2022. The shadow banning controversy: perceived governance and algorithmic folklore. Media, Culture & Society 44, 6 (Sept. 2022), 1091\u20131109. https://doi.org/10.1177/01634437221077174 Publisher: SAGE Publications Ltd.",
+      "doi": ""
+    },
+    {
+      "text": "Devansh Saxena and Shion Guha. 2022. Algorithms in the Daily Lives of Child-Welfare Caseworkers: Harms to Practice, Agency, and Street-Level Decision-Making. https://doi.org/10.2139/ssrn.4077245",
+      "doi": ""
+    },
+    {
+      "text": "Graham Scambler. 2009. Health-related stigma. Sociology of Health & Illness 31, 3 (2009), 441\u2013455. https://doi.org/10.1111/j.1467-9566.2009.01161.x _eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-9566.2009.01161.x.",
+      "doi": ""
+    },
+    {
+      "text": "Morgan\u00a0Klaus Scheuerman, Madeleine Pape, and Alex Hanna. 2021. Auto-essentialization: Gender in automated facial analysis as extended colonial project. Big Data & Society 8, 2 (July 2021), 20539517211053712. https://doi.org/10.1177/20539517211053712 Publisher: SAGE Publications Ltd.",
+      "doi": ""
+    },
+    {
+      "text": "Toni Schmader, Alyssa Croft, Jessica Whitehead, and Jeff Stone. 2013. A Peek Inside the Targets\u2019 Toolbox: How Stigmatized Targets Deflect Discrimination by Invoking a Common Identity. Basic and Applied Social Psychology 35, 1 (Jan. 2013), 141\u2013149. https://doi.org/10.1080/01973533.2012.746615 Publisher: Routledge _eprint: https://doi.org/10.1080/01973533.2012.746615.",
+      "doi": ""
+    },
+    {
+      "text": "Vanessa Scholes. 2016. The ethics of using learning analytics to categorize students on risk. Educational Technology Research and Development 64, 5 (Oct. 2016), 939\u2013955. https://doi.org/10.1007/s11423-016-9458-1",
+      "doi": ""
+    },
+    {
+      "text": "Nete Schwennesen. 2019. Algorithmic assemblages of care: imaginaries, epistemologies and repair work. Sociology of Health & Illness 41, S1 (2019), 176\u2013192. https://doi.org/10.1111/1467-9566.12900 _eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/1467-9566.12900.",
+      "doi": ""
+    },
+    {
+      "text": "Nick Seaver. 2019. Knowing Algorithms. In DigitalSTS: A Field Guide for Science & Technology Studies. 568.",
+      "doi": ""
+    },
+    {
+      "text": "Ellen Selkie, Victoria Adkins, Ellie Masters, Anita Bajpai, and Daniel Shumer. 2020. Transgender Adolescents\u2019 Uses of Social Media for Social Support. Journal of Adolescent Health 66, 3 (March 2020), 275\u2013280. https://doi.org/10.1016/j.jadohealth.2019.08.011",
+      "doi": ""
+    },
+    {
+      "text": "George Siemens and Phil Long. 2011. Penetrating the Fog: Analytics in Learning and Education. EDUCAUSE Review 46, 5 (2011), 30. Publisher: EDUCAUSE.",
+      "doi": ""
+    },
+    {
+      "text": "Ellen Simpson and Bryan Semaan. 2021. For You, or For\"You\"? Everyday LGBTQ+ Encounters with TikTok. Proceedings of the ACM on Human-Computer Interaction 4, CSCW3 (Jan. 2021), 252:1\u2013252:34. https://doi.org/10.1145/3432951",
+      "doi": "10.1145/3432951"
+    },
+    {
+      "text": "Sharon Slade and Paul Prinsloo. 2013. Learning Analytics: Ethical Issues and Dilemmas. American Behavioral Scientist 57, 10 (Oct. 2013), 1510\u20131529. https://doi.org/10.1177/0002764213479366 Publisher: SAGE Publications Inc.",
+      "doi": ""
+    },
+    {
+      "text": "Tom Slater. 2017. Territorial Stigmatization: Symbolic Defamation and the Contemporary Metropolis. In The SAGE Handbook of New Urban Studies. SAGE Publications Ltd, 1 Oliver\u2019s Yard,\u00a055 City Road\u00a0London\u00a0EC1Y 1SP, 111\u2013125. https://doi.org/10.4135/9781412912655.n8",
+      "doi": ""
+    },
+    {
+      "text": "Todd Spangler. 2020. Instagram to Review Whether Its Practices and Policies \u2018Suppress Black Voices\u2019. https://variety.com/2020/digital/news/instagram-suppress-black-voices-review-algorithmic-bias-1234635850/",
+      "doi": ""
+    },
+    {
+      "text": "Logan Stapleton, Min\u00a0Hun Lee, Diana Qing, Marya Wright, Alexandra Chouldechova, Ken Holstein, Zhiwei\u00a0Steven Wu, and Haiyi Zhu. 2022. Imagining new futures beyond predictive systems in child welfare: A qualitative study with impacted stakeholders. In 2022 ACM Conference on Fairness, Accountability, and Transparency. ACM, Seoul Republic of Korea, 1162\u20131177. https://doi.org/10.1145/3531146.3533177",
+      "doi": "10.1145/3531146.3533177"
+    },
+    {
+      "text": "Terrell\u00a0L. Strayhorn. 2015. Factors Influencing Black Males\u2019 Preparation for College and Success in STEM Majors: A Mixed Methods Study. Western Journal of Black Studies 39, 1 (2015), 45\u201363. https://www.proquest.com/docview/1688657629/abstract/2DD905147AEB4A58PQ/1 Num Pages: 19 Place: Pullman, United States Publisher: Washington State University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Harini Suresh and John Guttag. 2021. A Framework for Understanding Sources of Harm throughout the Machine Learning Life Cycle. In Equity and Access in Algorithms, Mechanisms, and Optimization. ACM, \u2013 NY USA, 1\u20139. https://doi.org/10.1145/3465416.3483305",
+      "doi": "10.1145/3465416.3483305"
+    },
+    {
+      "text": "Latanya Sweeney. 2013. Discrimination in online ad delivery. Commun. ACM 56, 5 (May 2013), 44\u201354. https://doi.org/10.1145/2447976.2447990",
+      "doi": "10.1145/2447976.2447990"
+    },
+    {
+      "text": "Rahel S\u00fc\u00df. 2022. The right to disidentification: Sovereignty in digital democracies. Constellations n/a, n/a (2022). https://doi.org/10.1111/1467-8675.12626 _eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/1467-8675.12626.",
+      "doi": ""
+    },
+    {
+      "text": "Zeynep Tufekci. 2015. Algorithmic Harms beyond Facebook and Google: Emergent Challenges of Computational Agency. Colorado Technology Law Journal 13 (2015), 203. https://heinonline.org/HOL/Page?handle=hein.journals/jtelhtel13&id=227&div=&collection=",
+      "doi": ""
+    },
+    {
+      "text": "Imogen Tyler. 2013. Revolting Subjects: Social Abjection and Resistance in Neoliberal Britain. Bloomsbury Publishing. Google-Books-ID: DQI1EAAAQBAJ.",
+      "doi": ""
+    },
+    {
+      "text": "Imogen Tyler. 2018. Resituating Erving Goffman: From Stigma Power to Black Power. The Sociological Review 66, 4 (July 2018), 744\u2013765. https://doi.org/10.1177/0038026118777450 Publisher: SAGE Publications Ltd.",
+      "doi": ""
+    },
+    {
+      "text": "Imogen Tyler. 2020. Stigma: The Machinery of Inequality. Bloomsbury Publishing. Google-Books-ID: Y_80EAAAQBAJ.",
+      "doi": ""
+    },
+    {
+      "text": "Imogen Tyler and Tom Slater. 2018. Rethinking the sociology of stigma. The Sociological Review 66, 4 (July 2018), 721\u2013743. https://doi.org/10.1177/0038026118777425 Publisher: SAGE Publications Ltd.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0L. Vogel, Rachel\u00a0L. Bitman, Joseph\u00a0H. Hammer, and Nathaniel\u00a0G. Wade. 2013. BRIEF REPORT Is Stigma Internalized? The Longitudinal Impact of Public Stigma on Self-Stigma.",
+      "doi": ""
+    },
+    {
+      "text": "Piper Vornholt and Munmun\u00a0De Choudhury. 2021. Understanding the Role of Social Media\u2013Based Mental Health Support Among College Students: Survey and Semistructured Interviews. JMIR Mental Health 8, 7 (July 2021), e24512. https://doi.org/10.2196/24512 Company: JMIR Mental Health Distributor: JMIR Mental Health Institution: JMIR Mental Health Label: JMIR Mental Health Publisher: JMIR Publications Inc., Toronto, Canada.",
+      "doi": ""
+    },
+    {
+      "text": "Lo\u00efc Wacquant. 2008. Urban Outcasts: A Comparative Sociology of Advanced Marginality. Polity.",
+      "doi": ""
+    },
+    {
+      "text": "Lo\u00efc Wacquant, Tom Slater, and Virg\u00edlio\u00a0Borges Pereira. 2014. Territorial Stigmatization in Action. Environment and Planning A: Economy and Space 46, 6 (June 2014), 1270\u20131280. https://doi.org/10.1068/a4606ge Publisher: SAGE Publications Ltd.",
+      "doi": ""
+    },
+    {
+      "text": "Angelina Wang, Solon Barocas, Kristen Laird, and Hanna Wallach. 2022. Measuring Representational Harms in Image Captioning. In 2022 ACM Conference on Fairness, Accountability, and Transparency. ACM, Seoul Republic of Korea, 324\u2013335. https://doi.org/10.1145/3531146.3533099",
+      "doi": "10.1145/3531146.3533099"
+    },
+    {
+      "text": "Xin Wang, Peng Zhao, and Xi Chen. 2020. Fake news and misinformation detection on headlines of COVID-19 using deep learning algorithms. International Journal of Data Science 5, 4 (Jan. 2020), 316\u2013332. https://doi.org/10.1504/IJDS.2020.115873 Publisher: Inderscience Publishers.",
+      "doi": ""
+    },
+    {
+      "text": "T. Wangsness and J. Franklin. 1966. \u201cAlgorithm\u201d and \u201cformula\u201d. Commun. ACM 9, 4 (April 1966), 243. https://doi.org/10.1145/365278.365286",
+      "doi": "10.1145/365278.365286"
+    },
+    {
+      "text": "Amy\u00a0C. Watson, Patrick Corrigan, Jonathon\u00a0E. Larson, and Molly Sells. 2007. Self-Stigma in People With Mental Illness. Schizophrenia Bulletin 33, 6 (Nov. 2007), 1312\u20131318. https://doi.org/10.1093/schbul/sbl076",
+      "doi": ""
+    },
+    {
+      "text": "Lindsay Weinberg. 2022. Rethinking Fairness: An Interdisciplinary Survey of Critiques of Hegemonic ML Fairness Approaches. Journal of Artificial Intelligence Research 74 (May 2022), 75\u2013109. https://doi.org/10.1613/jair.1.13196",
+      "doi": "10.1613/jair.1.13196"
+    },
+    {
+      "text": "Liang Wu, Fred Morstatter, Kathleen\u00a0M. Carley, and Huan Liu. 2019. Misinformation in Social Media: Definition, Manipulation, and Detection. ACM SIGKDD Explorations Newsletter 21, 2 (Nov. 2019), 80\u201390. https://doi.org/10.1145/3373464.3373475",
+      "doi": "10.1145/3373464.3373475"
+    },
+    {
+      "text": "Daphna Yeshua-Katz and Ylva H\u00e5rd\u00a0af Segerstad. 2020. Catch 22: The Paradox of Social Media Affordances and Stigmatized Online Support Groups. Social Media + Society 6, 4 (Oct. 2020), 2056305120984476. https://doi.org/10.1177/2056305120984476 Publisher: SAGE Publications Ltd.",
+      "doi": ""
+    },
+    {
+      "text": "Felice Yeskel. 2008. Coming to Class: Looking at Education through the Lens of Class Introduction to the Class and Education Special Issue. Equity & Excellence in Education 41, 1 (Feb. 2008), 1\u201311. https://doi.org/10.1080/10665680701793428",
+      "doi": ""
+    },
+    {
+      "text": "Elana Zeide. 2021. The Silicon Ceiling: How Algorithmic Assessments Construct an Invisible Barrier to Opportunity. https://www.elanazeide.com/post/the-silicon-ceiling-how-algorithmic-assessments-construct-an-invisible-barrier-to-opportunity",
+      "doi": ""
+    },
+    {
+      "text": "Haiyi Zhu, Bowen Yu, Aaron Halfaker, and Loren Terveen. 2018. Value-Sensitive Algorithm Design: Method, Case Study, and Lessons. Proceedings of the ACM on Human-Computer Interaction 2, CSCW (Nov. 2018), 194:1\u2013194:23. https://doi.org/10.1145/3274463",
+      "doi": "10.1145/3274463"
+    },
+    {
+      "text": "Shoshana Zuboff. 2018. The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power(1st ed.).",
+      "doi": ""
+    }
+  ]
+}

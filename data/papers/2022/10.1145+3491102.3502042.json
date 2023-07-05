@@ -1,0 +1,174 @@
+{
+  "doi": "10.1145/3491102.3502042",
+  "title": "Learning to Denoise Raw Mobile UI Layouts for Improving Datasets at Scale",
+  "published": "2022-04-28",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-13",
+  "year": 2022,
+  "badges": [],
+  "abstract": "The layout of a mobile screen is a critical data source for UI design research and semantic understanding of the screen. However, UI layouts in existing datasets are often noisy, have mismatches with their visual representation, or consists of generic or app-specific types that are difficult to analyze and model. In this paper, we propose the CLAY pipeline that uses a deep learning approach for denoising UI layouts, allowing us to automatically improve existing mobile UI layout datasets at scale. Our pipeline takes both the screenshot and the raw UI layout, and annotates the raw layout by removing incorrect nodes and assigning a semantically meaningful type to each node. To experiment with our data-cleaning pipeline, we create the CLAY dataset of 59,555 human-annotated screen layouts, based on screenshots and raw layouts from Rico, a public mobile UI corpus. Our deep models achieve high accuracy with F1 scores of 82.7% for detecting layout objects that do not have a valid visual representation and 85.9% for recognizing object types, which significantly outperforms a heuristic baseline. Our work lays a foundation for creating large-scale high quality UI layout datasets for data-driven mobile UI research and reduces the need of manual labeling efforts that are prohibitively expensive.",
+  "authors": [
+    {
+      "name": "Gang Li",
+      "institution": "Google Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701943",
+      "orcid": "0000-0002-9490-2990"
+    },
+    {
+      "name": "Gilles Baechler",
+      "institution": "Google Research, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659146332",
+      "orcid": "missing"
+    },
+    {
+      "name": "Manuel Tragut",
+      "institution": "Google Research, Google, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660240279",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yang Li",
+      "institution": "Google Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81350580013",
+      "orcid": "0000-0001-7808-5524"
+    }
+  ],
+  "references": [
+    {
+      "text": "Chongyang Bai, Xiaoxue Zang, Ying Xu, Srinivas Sunkara, Abhinav Rastogi, Jindong Chen, and Blaise\u00a0Aguera y Arcas. 2021. UIBert: Learning Generic Multimodal Representations for UI Understanding. arxiv:2107.13731\u00a0[cs.CV]",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Burns, Deniz Arsan, Sanjna Agrawal, Ranjitha Kumar, Kate Saenko, and Bryan\u00a0A Plummer. 2021. Mobile App Tasks with Iterative Feedback (MoTIF): Addressing Task Feasibility in Interactive Visual Environments. (April 2021). arxiv:2104.08560\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. 2020. End-to-end object detection with transformers. In European Conference on Computer Vision. Springer, 213\u2013229.",
+      "doi": "10.1007/978-3-030-58452-8_13"
+    },
+    {
+      "text": "Joseph\u00a0Chee Chang, Saleema Amershi, and Ece Kamar. 2017. Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 2334\u20132346.",
+      "doi": "10.1145/3025453.3026044"
+    },
+    {
+      "text": "Jieshan Chen, Mulong Xie, Zhenchang Xing, Chunyang Chen, Xiwei Xu, Liming Zhu, and Guoqiang Li. 2020. Object detection for graphical user interface: old fashioned or deep learning or a combination?. In Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering. 1202\u20131214.",
+      "doi": "10.1145/3368089.3409691"
+    },
+    {
+      "text": "Xu Chu, John Morcos, Ihab\u00a0F Ilyas, Mourad Ouzzani, Paolo Papotti, Nan Tang, and Yin Ye. 2015. KATARA: Reliable data cleaning with knowledge bases and crowdsourcing. Proceedings of the VLDB Endowment 8, 12 (2015), 1952\u20131955.",
+      "doi": "10.14778/2824032.2824109"
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, Chad Franzen, Joshua Hibschman, Daniel Afergan, Yang Li, Jeffrey Nichols, and Ranjitha Kumar. 2017. Rico: A mobile app dataset for building data-driven design applications. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology. 845\u2013854.",
+      "doi": "10.1145/3126594.3126651"
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. (Oct. 2018). arxiv:1810.04805\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Jingwen Fu, Xiaoyi Zhang, Yuwang Wang, Wenjun Zeng, Sam Yang, and Grayson Hilliard. 2021. Understanding Mobile GUI: from Pixel-Words to Screen-Sentences. arXiv preprint arXiv:2105.11941(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Justin Gilmer, Samuel\u00a0S. Schoenholz, Patrick\u00a0F. Riley, Oriol Vinyals, and George\u00a0E. Dahl. 2017. Neural Message Passing for Quantum Chemistry. In Proceedings of the 34th International Conference on Machine Learning - Volume 70 (Sydney, NSW, Australia) (ICML\u201917). JMLR.org, 1263\u20131272.",
+      "doi": ""
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2015. Deep Residual Learning for Image Recognition. arxiv:1512.03385\u00a0[cs.CV]",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Lindsay Popowski, Tom Mitchell, and Brad\u00a0A Myers. 2021. Screen2Vec: Semantic Embedding of GUI Screens and GUI Components. Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3411764.3445049",
+      "doi": "10.1145/3411764.3445049"
+    },
+    {
+      "text": "Toby Jia-Jun Li, Lindsay Popowski, Tom Mitchell, and Brad\u00a0A Myers. 2021. Screen2Vec: Semantic Embedding of GUI Screens and GUI Components. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Yang Li, Jiacong He, Xin Zhou, Yuan Zhang, and Jason Baldridge. 2020. Mapping Natural Language Instructions to Mobile UI Action Sequences. arxiv:2005.03776\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Yang Li, Gang Li, Luheng He, Jingjie Zheng, Hong Li, and Zhiwei Guan. 2020. Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements.",
+      "doi": ""
+    },
+    {
+      "text": "Yang Li, Si Si, Gang Li, Cho-Jui Hsieh, and Samy Bengio. 2021. Learnable Fourier Features for Multi-dimensional Spatial Positional Encoding. In Thirty-Fifth Conference on Neural Information Processing Systems. https://openreview.net/forum?id=R0h3NUMao_U",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0F. Liu, Mark Craft, Jason Situ, Ersin Yumer, Radomir Mech, and Ranjitha Kumar. 2018. Learning Design Semantics for Mobile Apps. In The 31st Annual ACM Symposium on User Interface Software and Technology (Berlin, Germany) (UIST \u201918). ACM, New York, NY, USA, 569\u2013579. https://doi.org/10.1145/3242587.3242650",
+      "doi": "10.1145/3242587.3242650"
+    },
+    {
+      "text": "Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander\u00a0C. Berg. 2016. SSD: Single Shot MultiBox Detector. Lecture Notes in Computer Science(2016), 21\u201337. https://doi.org/10.1007/978-3-319-46448-0_2",
+      "doi": ""
+    },
+    {
+      "text": "Hong-Wei Ng and Stefan Winkler. 2014. A data-driven approach to cleaning large face datasets. In 2014 IEEE International Conference on Image Processing (ICIP). 343\u2013347.",
+      "doi": ""
+    },
+    {
+      "text": "Tuan\u00a0Anh Nguyen and Christoph Csallner. 2015. Reverse engineering mobile application user interfaces with remaui (t). In 2015 30th IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE, 248\u2013259.",
+      "doi": "10.1109/ASE.2015.32"
+    },
+    {
+      "text": "Alec Radford, Jong\u00a0Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever. 2021. Learning Transferable Visual Models From Natural Language Supervision. In Proceedings of the 38th International Conference on Machine Learning(Proceedings of Machine Learning Research, Vol.\u00a0139), Marina Meila and Tong Zhang (Eds.). PMLR, 8748\u20138763. https://proceedings.mlr.press/v139/radford21a.html",
+      "doi": ""
+    },
+    {
+      "text": "Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. 2015. Faster R-CNN: Towards real-time object detection with region proposal networks. Advances in neural information processing systems 28 (2015), 91\u201399.",
+      "doi": ""
+    },
+    {
+      "text": "Fakhitah Ridzuan and Wan Mohd\u00a0Nazmee Wan\u00a0Zainon. 2019. A Review on Data Cleansing Methods for Big Data. Procedia Comput. Sci. 161 (Jan. 2019), 731\u2013738.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaolei Sun, Tongyu Li, and Jianfeng Xu. 2020. UI Components Recognition System Based On Image Understanding. In 2020 IEEE 20th International Conference on Software Quality, Reliability and Security Companion (QRS-C). IEEE, 65\u201371.",
+      "doi": ""
+    },
+    {
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan\u00a0N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. In Advances in neural information processing systems. 5998\u20136008.",
+      "doi": ""
+    },
+    {
+      "text": "Bryan Wang, Gang Li, Xin Zhou, Zhourong Chen, Tovi Grossman, and Yang Li. 2021. Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning. (Aug. 2021). arxiv:2108.03353\u00a0[cs.HC]",
+      "doi": ""
+    },
+    {
+      "text": "Hongzhi Wang, Mingda Li, Yingyi Bu, Jianzhong Li, Hong Gao, and Jiacheng Zhang. 2014. Cleanix: A big data cleaning parfait. In Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management. 2024\u20132026.",
+      "doi": "10.1145/2661829.2661837"
+    },
+    {
+      "text": "Jason Wu, Xiaoyi Zhang, Jeff Nichols, and Jeffrey\u00a0P Bigham. 2021. Screen Parsing: Towards Reverse Engineering of UI Models from Screenshots. In The 34th Annual ACM Symposium on User Interface Software and Technology. Association for Computing Machinery, New York, NY, USA, 470\u2013483.",
+      "doi": "10.1145/3472749.3474763"
+    },
+    {
+      "text": "Mohamed Yakout, Laure Berti-\u00c9quille, and Ahmed\u00a0K Elmagarmid. 2013. Don\u2019t be scared: use scalable automatic repairing with maximal likelihood and bounded changes. In Proceedings of the 2013 ACM SIGMOD International Conference on Management of Data. 553\u2013564.",
+      "doi": "10.1145/2463676.2463706"
+    },
+    {
+      "text": "Xiaoxue Zang, Ying Xu, and Jindong Chen. 2021. Multimodal Icon Annotation For Mobile Applications. arXiv preprint arXiv:2107.04452(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Xiaoyi Zhang, Lilian de Greef, Amanda Swearngin, Samuel White, Kyle Murray, Lisa Yu, Qi Shan, Jeffrey Nichols, Jason Wu, Chris Fleizach, Aaron Everitt, and Jeffrey\u00a0P Bigham. 2021. Screen Recognition: Creating Accessibility Metadata for Mobile Applications from Pixels. (Jan. 2021). arxiv:2101.04893\u00a0[cs.HC]",
+      "doi": ""
+    },
+    {
+      "text": "Xingyi Zhou, Dequan Wang, and Philipp Kr\u00e4henb\u00fchl. 2019. Objects as Points. arxiv:1904.07850\u00a0[cs.CV]",
+      "doi": ""
+    },
+    {
+      "text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. 2021. Deformable DETR: Deformable Transformers for End-to-End Object Detection. In International Conference on Learning Representations.",
+      "doi": ""
+    }
+  ]
+}

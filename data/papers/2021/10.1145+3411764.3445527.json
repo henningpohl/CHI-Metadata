@@ -1,0 +1,146 @@
+{
+  "doi": "10.1145/3411764.3445527",
+  "title": "Fork It: Supporting Stateful Alternatives in Computational Notebooks",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-12",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Computational notebooks, which seamlessly interleave code with results, have become a popular tool for data scientists due to the iterative nature of exploratory tasks. However, notebooks provide a single execution state for users to manipulate through creating and manipulating variables. When exploring alternatives, data scientists must carefully create many-step manipulations in visually distant cells.  We conducted formative interviews with 6 professional data scientists, motivating design principles behind exposing multiple states. We introduce forking \u2014 creating a new interpreter session \u2014 and backtracking \u2014 navigating through previous states. We implement these interactions as an extension to notebooks that help data scientists more directly express and navigate through decision points a single notebook. In a qualitative evaluation, 11 professional data scientists found the tool would be useful for exploring alternatives and debugging code to create a predictive model. Their insights highlight further challenges to scaling this functionality.",
+  "authors": [
+    {
+      "name": "Nathaniel Weinman",
+      "institution": "University of California, Berkeley, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81504688675",
+      "orcid": "missing"
+    },
+    {
+      "name": "Steven M. Drucker",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100090466",
+      "orcid": "0000-0002-5022-9343"
+    },
+    {
+      "name": "Titus Barik",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100279029",
+      "orcid": "missing"
+    },
+    {
+      "name": "Robert DeLine",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81350602833",
+      "orcid": "0000-0001-8885-8367"
+    }
+  ],
+  "references": [
+    {
+      "text": "Sara Alspaugh, Nava Zokaei, Andrea Liu, Cindy Jin, and Marti\u00a0A Hearst. 2018. Futzing and moseying: Interviews with professional data analysts on exploration practices. IEEE transactions on visualization and computer graphics 25, 1(2018), 22\u201331.",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Andrew Begel, Christian Bird, Robert DeLine, Harald Gall, Ece Kamar, Nachiappan Nagappan, Besmira Nushi, and Thomas Zimmermann. 2019. Software Engineering for Machine Learning: A Case Study. In Proceedings of the 41st International Conference on Software Engineering: Software Engineering in Practice(ICSE-SEIP \u201919). IEEE Press, Hoboken, NJ, USA, 291\u2013300. https://doi.org/10.1109/ICSE-SEIP.2019.00042",
+      "doi": "10.1109/ICSE-SEIP.2019.00042"
+    },
+    {
+      "text": "Andrew Bragdon, Robert Zeleznik, Steven\u00a0P. Reiss, Suman Karumuri, William Cheung, Joshua Kaplan, Christopher Coleman, Ferdi Adeputra, and Joseph\u00a0J. LaViola. 2010. Code Bubbles: A Working Set-Based Interface for Code Understanding and Maintenance. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201910). Association for Computing Machinery, New York, NY, USA, 2503\u20132512. https://doi.org/10.1145/1753326.1753706",
+      "doi": "10.1145/1753326.1753706"
+    },
+    {
+      "text": "Erin Cherry and Celine Latulipe. 2014. Quantifying the Creativity Support of Digital Tools through the Creativity Support Index. ACM Transactions on Computer-Human Interaction 21, 4 (Aug. 2014), 1\u201325. https://doi.org/10.1145/2617588",
+      "doi": "10.1145/2617588"
+    },
+    {
+      "text": "Robert DeLine, Andrew Bragdon, Kael Rowan, Jens Jacobsen, and Steven\u00a0P. Reiss. 2012. Debugger Canvas: Industrial experience with the code bubbles paradigm. In 2012 34th International Conference on Software Engineering (ICSE). IEEE, Hoboken, NJ, USA, 1064\u20131073. https://doi.org/10.1109/icse.2012.6227113",
+      "doi": ""
+    },
+    {
+      "text": "Usama Fayyad, Gregory Piatetsky-Shapiro, and Padhraic Smyth. 1996. The KDD process for extracting useful knowledge from volumes of data. Commun. ACM 39, 11 (Nov. 1996), 27\u201334. https://doi.org/10.1145/240455.240464",
+      "doi": "10.1145/240455.240464"
+    },
+    {
+      "text": "Jonathan Goldstein, Ahmed Abdelhamid, Mike Barnett, Sebastian Burckhardt, Badrish Chandramouli, Darren Gehring, Niel Lebeck, Christopher Meiklejohn, Umar\u00a0Farooq Minhas, Ryan Newton, Rahee\u00a0Ghosh Peshawaria, Tal Zaccai, and Irene Zhang. 2020. A.M.B.R.O.S.I.A. Proceedings of the VLDB Endowment 13, 5 (Jan. 2020), 588\u2013601. https://doi.org/10.14778/3377369.3377370",
+      "doi": "10.14778/3377369.3377370"
+    },
+    {
+      "text": "Bj\u00f6rn Hartmann, Loren Yu, Abel Allison, Yeonsoo Yang, and Scott\u00a0R. Klemmer. 2008. Design as Exploration: Creating Interface Alternatives through Parallel Authoring and Runtime Tuning. In Proceedings of the 21st Annual ACM Symposium on User Interface Software and Technology (Monterey, CA, USA) (UIST \u201908). Association for Computing Machinery, New York, NY, USA, 91\u2013100. https://doi.org/10.1145/1449715.1449732",
+      "doi": "10.1145/1449715.1449732"
+    },
+    {
+      "text": "Andrew Head, Fred Hohman, Titus Barik, Steven\u00a0M. Drucker, and Robert DeLine. 2019. Managing Messes in Computational Notebooks. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI '19. ACM Press, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300500",
+      "doi": "10.1145/3290605.3300500"
+    },
+    {
+      "text": "S. Kandel, A. Paepcke, J.\u00a0M. Hellerstein, and J. Heer. 2012. Enterprise Data Analysis and Visualization: An Interview Study. IEEE Transactions on Visualization and Computer Graphics 18, 12(2012), 2917\u20132926. https://doi.org/10.1109/TVCG.2012.219",
+      "doi": "10.1109/TVCG.2012.219"
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Amber Horvath, and Brad Myers. 2017. Variolite: Supporting Exploratory Programming by Data Scientists. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1265\u20131276. https://doi.org/10.1145/3025453.3025626",
+      "doi": "10.1145/3025453.3025626"
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Bonnie\u00a0E. John, Patrick O'Flaherty, Amber Horvath, and Brad\u00a0A. Myers. 2019. Towards Effective Foraging by Data Scientists to Find Past Analysis Choices. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI '19. ACM Press, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300322",
+      "doi": "10.1145/3290605.3300322"
+    },
+    {
+      "text": "Mary\u00a0Beth Kery and Brad\u00a0A. Myers. 2017. Exploring exploratory programming. In 2017 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, Hoboken, NJ, USA, 25\u201329. https://doi.org/10.1109/vlhcc.2017.8103446",
+      "doi": ""
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Marissa Radensky, Mahima Arya, Bonnie\u00a0E. John, and Brad\u00a0A. Myers. 2018. The Story in the Notebook: Exploratory Data Science Using a Literate Programming Tool. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems - CHI '18. ACM Press, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3173574.3173748",
+      "doi": "10.1145/3173574.3173748"
+    },
+    {
+      "text": "Donald\u00a0Ervin Knuth. 1984. Literate programming. Comput. J. 27, 2 (1984), 97\u2013111.",
+      "doi": "10.1093/comjnl/27.2.97"
+    },
+    {
+      "text": "Jiali Liu, Nadia Boukhelifa, and James\u00a0R. Eagan. 2019. Understanding the Role of Alternatives in Data Analysis Practices. IEEE Transactions on Visualization and Computer Graphics 26 (2019), 66\u201376. https://doi.org/10.1109/tvcg.2019.2934593",
+      "doi": ""
+    },
+    {
+      "text": "Hiroaki Mikami, Daisuke Sakamoto, and Takeo Igarashi. 2017. Micro-Versioning Tool to Support Experimentation in Exploratory Programming. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 6208\u20136219. https://doi.org/10.1145/3025453.3025597",
+      "doi": "10.1145/3025453.3025597"
+    },
+    {
+      "text": "Michael Muller, Ingrid Lange, Dakuo Wang, David Piorkowski, Jason Tsay, Q.\u00a0Vera Liao, Casey Dugan, and Thomas Erickson. 2019. How Data Science Workers Work with Data. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI '19. ACM Press, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3290605.3300356",
+      "doi": "10.1145/3290605.3300356"
+    },
+    {
+      "text": "Nicholas Nelson, A. Sarma, and A. Hoek. 2017. Towards an IDE to Support Programming as Problem-Solving. In PPIG. PPIG, Delft, NL, 15.",
+      "doi": ""
+    },
+    {
+      "text": "P. Pirolli and S. Card. 2005. The sensemaking process and leverage points for analyst technology as identified through cognitive task analysis. In Proceedings of International Conference on Intelligence Analysis. ACM Press, New York, NY, USA, 2\u20134. https://phibetaiota.net/wp-content/uploads/2014/12/Sensemaking-Process-Pirolli-and-Card.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Bernadette\u00a0M. Randles, Irene\u00a0V. Pasquetto, Milena\u00a0S. Golshan, and Christine\u00a0L. Borgman. 2017. Using the Jupyter Notebook as a Tool for Open Science: An Empirical Study. In 2017 ACM/IEEE Joint Conference on Digital Libraries (JCDL). IEEE, Hoboken, NJ, USA, 1\u20132. https://doi.org/10.1109/jcdl.2017.7991618",
+      "doi": ""
+    },
+    {
+      "text": "Adam Rule, Ian Drosos, Aur\u00e9lien Tabard, and James\u00a0D. Hollan. 2018. Aiding Collaborative Reuse of Computational Notebooks with Annotated Cell Folding. Proceedings of the ACM on Human-Computer Interaction 2, CSCW (Nov. 2018), 1\u201312. https://doi.org/10.1145/3274419",
+      "doi": "10.1145/3274419"
+    },
+    {
+      "text": "Adam Rule, Aur\u00e9lien Tabard, and James\u00a0D. Hollan. 2018. Exploration and Explanation in Computational Notebooks. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems - CHI '18. ACM Press, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173606",
+      "doi": "10.1145/3173574.3173606"
+    },
+    {
+      "text": "Kluyver Thomas, Ragan-Kelley Benjamin, Perez Fernando, Granger Brian, Bussonnier Matthias, Frederic Jonathan, Kelley Kyle, Hamrick Jessica, Grout Jason, Corlay Sylvain, and et al.2016. Jupyter Notebooks: a publishing format for reproducible computational workflows. Stand Alone 0, Positioning and Power in Academic Publishing: Players, Agents and Agendas (2016), 87\u201390. https://doi.org/10.3233/978-1-61499-649-1-87",
+      "doi": ""
+    },
+    {
+      "text": "Mark Weiser. 1984. Program Slicing. IEEE Transactions on Software Engineering SE-10, 4 (July 1984), 352\u2013357. https://doi.org/10.1109/tse.1984.5010248",
+      "doi": "10.1109/TSE.1984.5010248"
+    },
+    {
+      "text": "Greg Wilson, D.\u00a0A. Aruliah, C.\u00a0Titus Brown, Neil P.\u00a0Chue Hong, Matt Davis, Richard\u00a0T. Guy, Steven H.\u00a0D. Haddock, Kathryn\u00a0D. Huff, Ian\u00a0M. Mitchell, Mark\u00a0D. Plumbley, Ben Waugh, Ethan\u00a0P. White, and Paul Wilson. 2014. Best Practices for Scientific Computing. PLoS Biology 12, 1 (Jan. 2014), e1001745. https://doi.org/10.1371/journal.pbio.1001745",
+      "doi": ""
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "doi": "10.1145/3544548.3580914",
+  "title": "Kerfmeter: Automatic Kerf Calibration for Laser Cutting",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-13",
+  "year": 2023,
+  "badges": [],
+  "abstract": "We present Kerfmeter, a hardware + software device that automatically determines how much material the laser cutter burns off, also known as kerf. Its knowledge about kerf allows Kerfmeter to make the joints of laser cut 3D models fit together with just the right tension, i.e., loose enough to allow for comfortable assembly, yet tight enough to hold parts together without glue\u2014all this without user interaction. Kerfmeter attaches to the head of a laser cutter and works as follows: when users send a model to the laser cutter, Kerfmeter intercepts the job, injects a brief calibration routine that determines kerf, dilates the cutting plan according to this kerf, and then proceeds to fabricate the cutting plan. During the calibration routine, Kerfmeter cuts a 2cm Archimedean spiral and uses a motor to rotate it in place until it jams against the surrounding material; the angle at which the spiral jams allows Kerfmeter to infer kerf. The calibration process takes about 20s, which is >10x faster than traditional, manual kerf calibration, while also eliminating the need for expertise. In our technical evaluation, Kerfmeter produced functioning press fit joints reliably at a precision comparable to traditional manual kerf strips. Kerfmeter makes it easy to sample repeatedly; we demonstrate how this allows boosting precision past any traditional kerf strip.",
+  "authors": [
+    {
+      "name": "Shohei Katakura",
+      "institution": "Hasso Plattner Institute, Germany and Hasso Plattner Institute, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659261057",
+      "orcid": "0000-0002-4511-6619"
+    },
+    {
+      "name": "Martin Taraz",
+      "institution": "Hasso Plattner Institute, Germany and Hasso Plattner Institute, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701759",
+      "orcid": "0000-0002-6655-9427"
+    },
+    {
+      "name": "Muhammad Abdullah",
+      "institution": "Hasso Plattner Institute, Germany and Hasso Plattner Institute, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700531",
+      "orcid": "0000-0002-5057-477X"
+    },
+    {
+      "name": "Paul Methfessel",
+      "institution": "Human Computer Interaction Lab, Hasso Plattner Institute, Germany and Human Computer Interaction Lab, Hasso Plattner Institute, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660630037",
+      "orcid": "0000-0003-0387-171X"
+    },
+    {
+      "name": "Lukas Rambold",
+      "institution": "Human Computer Interaction Lab, Hasso Plattner Institute, Germany and Human Computer Interaction Lab, Hasso Plattner Institute, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659232702",
+      "orcid": "0000-0003-3663-9757"
+    },
+    {
+      "name": "Robert Kovacs",
+      "institution": "Hasso Plattner Institute, Germany and Hasso Plattner Institute, Germany",
+      "img": "/do/10.1145/contrib-99658696163/rel-imgonly/robert_kovacs.jpg",
+      "acmid": "99658696163",
+      "orcid": "0000-0002-9427-2861"
+    },
+    {
+      "name": "Patrick Baudisch",
+      "institution": "Hasso Plattner Institute, Germany and Hasso Plattner Institute, Germany",
+      "img": "/do/10.1145/contrib-81100137268/rel-imgonly/15g9310crop3.jpg",
+      "acmid": "81100137268",
+      "orcid": "0000-0002-5005-6868"
+    }
+  ],
+  "references": [
+    {
+      "text": "Accuracy of mortise and tenon joints https://woodgears.ca/mortise/accuracy.html September 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Alessandro Muntoni, Marco Livesu, Riccardo Scateni, Alla Sheffer, and Daniele Panozzo. 2018. Axis-Aligned Height-Field Block Decomposition of 3D Shapes. ACM Trans. Graph. 37, 5, Article 169 (October 2018), 15 pages. https://doi.org/10.1145/3204458",
+      "doi": "10.1145/3204458"
+    },
+    {
+      "text": "Archimedean spiral https://en.wikipedia.org/wiki/Archimedean_spiral Accessed September 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Arduino-simple-rpc https://github.com/jfjlaros/arduino-simple-rpc Accessed December 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Ben Schilling, Yadunund Vijay, Yuwen Zhang, Minimization of Kerf and Spatial Variation Analysis for Laser Cutting Process, https://www.yadunundvijay.com/laser-kerf-minimization Accessed September 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Boresi, A. P., Schmidt, R. J., and Sidebottom, O. M. Advanced Mechanics of Materials, 1952.",
+      "doi": ""
+    },
+    {
+      "text": "Chi-Wing Fu, Peng Song, Xiaoqi Yan, Lee Wei Yang, Pradeep Kumar Jayaraman, and Daniel Cohen-Or. 2015. Computational interlocking furniture assembly. ACM Trans. Graph. 34, 4, Article 91 (August 2015), 11 pages. https://doi.org/10.1145/2766892",
+      "doi": "10.1145/2766892"
+    },
+    {
+      "text": "Clement Zheng, Ellen Yi-Luen Do, and Jim Budd. 2017. Joinery: Parametric Joint Generation for Laser Cut Assemblies. In Proceedings of the 2017 ACM SIGCHI Conference on Creativity and Cognition (C&C '17). Association for Computing Machinery, New York, NY, USA, 63\u201374. https://doi.org/10.1145/3059454.3059459",
+      "doi": "10.1145/3059454.3059459"
+    },
+    {
+      "text": "CNC & Manual Touch Probe https://www.instructables.com/CNC-Manual-Touch-Probe/Accessed September 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Saakes, Thomas Cambazard, Jun Mitani, and Takeo Igarashi. 2013. PacCAM: material capture and interactive 2D packing for efficient material usage on CNC cutting machines. In Proceedings of the 26th annual ACM symposium on User interface software and technology (UIST '13). Association for Computing Machinery, New York, NY, USA, 441\u2013446. DOI:https://doi.org/10.1145/2501988.2501990",
+      "doi": "10.1145/2501988.2501990"
+    },
+    {
+      "text": "Dustin Beyer, Serafima Gurevich, Stefanie Mueller, Hsiang-Ting Chen, and Patrick Baudisch. 2015. Platener: Low-Fidelity Fabrication of 3D Objects by Substituting 3D Print with Laser-Cut Plates. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). Association for Computing Machinery, New York, NY, USA, 1799\u20131806. DOI:https://doi.org/10.1145/2702123.2702225",
+      "doi": "10.1145/2702123.2702225"
+    },
+    {
+      "text": "FlatFab http://flatfab.com Accessed September 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Florian Heller, Raf Ramakers, and Kris Luyten. 2022. LaserSVG: Responsive Laser-Cutter Templates. arXiv [cs.HC]. Retrieved September 12, 2022 from http://arxiv.org/abs/2209.00116",
+      "doi": ""
+    },
+    {
+      "text": "Genichi Taguchi and Anthony J. Rafanelli. Taguchi on robust technology development: bringing quRality engineering upstream.1994.",
+      "doi": ""
+    },
+    {
+      "text": "Glowforge, https://glowforge.com/latest-improvements/snap-and-store-and-rotate-and-refer Accessed February 2022",
+      "doi": ""
+    },
+    {
+      "text": "H. Horisawa, T. Fushimi, T. Takasaki and S. Yamaguchi, \"Flow characterization in a laser cut kerf,\" Technical Digest. CLEO/Pacific Rim '99. Pacific Rim Conference on Lasers and Electro-Optics (Cat. No.99TH8464), 1999, pp. 358-359 vol.2, doi: 10.1109/CLEOPR.1999.811467.",
+      "doi": ""
+    },
+    {
+      "text": "International Organization for Standardization. (2014). ISO 230-2:2014",
+      "doi": ""
+    },
+    {
+      "text": "ISO system of limits and fits \u2013 Part 1: Bases of tolerances, deviations and fits, JIS B 0401-1:1998.",
+      "doi": ""
+    },
+    {
+      "text": "James McCrae, Nobuyuki Umetani, and Karan Singh. 2014. FlatFitFab: interactive modeling with planar sections. In Proceedings of the 27th annual ACM symposium on User interface software and technology (UIST '14). ACM, New York, NY, USA, 13-22. DOI: https://doi.org/10.1145/2642918.2647388",
+      "doi": "10.1145/2642918.2647388"
+    },
+    {
+      "text": "Jeeeun Kim, Anhong Guo, Tom Yeh, Scott E. Hudson, and Jennifer Mankoff. 2017. Understanding Uncertainty in Measurement and Accommodating its Impact in 3D Modeling and Printing. In Proceedings of the 2017 Conference on Designing Interactive Systems (DIS '17). ACM, New York, NY, USA, 1067-1078. DOI: https://doi.org/10.1145/3064663.3064690",
+      "doi": "10.1145/3064663.3064690"
+    },
+    {
+      "text": "Kerf Correction for Laser Cutting With MakerCase https://www.instructables.com/Kerf-Correction-for-Laser-Cutting-With-MakerCase Accessed December 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Keunwoo Park, Conrad Lempert, Muhammad Abdullah, Shohei Katakura, Jotaro Shigeyama, Thijs Roumen, and Patrick Baudisch. 2022. FoolProofJoint: Reducing Assembly Errors of Laser Cut 3D Models by Means of Custom Joint Patterns. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (CHI '22). Association for Computing Machinery, New York, NY, USA, Article 271, 1\u201312. https://doi.org/10.1145/3491102.3501919",
+      "doi": "10.1145/3491102.3501919"
+    },
+    {
+      "text": "Khoshaim, Ahmed & Elsheikh, Ammar & Moustafa, Essam & Basha, Muhammad & Showaib, Ezzat. (2021). Experimental investigation on laser cutting of PMMA sheets: Effects of process factors on kerf characteristics. Journal of Materials Research and Technology. 11. 10.1016/j.jmrt.2021.01.012.",
+      "doi": ""
+    },
+    {
+      "text": "Laser Cutter Kerf Gauge https://elplatt.com/laser-cutter-kerf-gauge Accessed September 2022",
+      "doi": ""
+    },
+    {
+      "text": "Luke Wallace, A fully lasercut kit 3D printer, on https://hackaday.io/project/164156-lp3d-a-fully-lasercut-kit-3d-printer Accessed September 2022",
+      "doi": ""
+    },
+    {
+      "text": "Maria Larsson, Hironori Yoshida, Nobuyuki Umetani, and Takeo Igarashi. 2020. Tsugite: Interactive Design and Fabrication of Wood Joints. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST '20). Association for Computing Machinery, New York, NY, USA, 317\u2013327. https://doi.org/10.1145/3379337.3415899",
+      "doi": "10.1145/3379337.3415899"
+    },
+    {
+      "text": "Martin Nisser, Christina Chen Liao, Yuchen Chai, Aradhana Adhikari, Steve Hodges, and Stefanie Mueller. 2021. LaserFactory: A Laser Cutter-based Electromechanical Assembly and Fabrication Platform to Make Functional Devices & Robots. Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, Article 663, 1\u201315. DOI:https://doi.org/10.1145/3411764.3445692",
+      "doi": "10.1145/3411764.3445692"
+    },
+    {
+      "text": "Muhammad Abdullah, Romeo Sommerfeld, Laurenz Seidel, Jonas Noack, Ran Zhang, Thijs Roumen, and Patrick Baudisch. 2021. Roadkill: Nesting Laser-Cut Objects for Fast Assembly. In The 34th Annual ACM Symposium on User Interface Software and Technology (UIST '21). Association for Computing Machinery, New York, NY, USA, 972\u2013984. DOI:https://doi.org/10.1145/3472749.3474799",
+      "doi": "10.1145/3472749.3474799"
+    },
+    {
+      "text": "Mustafa Doga Dogan, Steven Vidal Acevedo Colon, Varnika Sinha, Kaan Ak\u015fit, and Stefanie Mueller. 2021. SensiCut: Material-Aware Laser Cutting Using Speckle Sensing and Deep Learning. In The 34th Annual ACM Symposium on User Interface Software and Technology (UIST '21). Association for Computing Machinery, New York, NY, USA, 24\u201338. DOI:https://doi.org/10.1145/3472749.3474733",
+      "doi": "10.1145/3472749.3474733"
+    },
+    {
+      "text": "Nur Yildirim, Matthew Franklin, Daniel Zeng, John Zimmerman, and James Mccann. metaSVG: A Portable Exchange Format for Adaptable Laser Cutting Plans.\u00a0Openreview.net. Retrieved September 12, 2022 from https://openreview.net/pdf?id=rffplK46z9",
+      "doi": ""
+    },
+    {
+      "text": "Ole Sigmund, 2009 Manufacturing tolerant topology optimization. Acta Mechanica Sinica 25, no. 2: 227- 239. DOI: https://doi.org/10.1007/s10409-009-0240-z",
+      "doi": ""
+    },
+    {
+      "text": "Optimize Your Interference/Transition Fit Design https://www.meadinfo.org/2009/07/press-fit-pressure-calculator-optimize.html",
+      "doi": ""
+    },
+    {
+      "text": "Patrick Baudisch and Stefanie Mueller. \"Personal fabrication.\" Foundations and Trends in Human-Computer Interaction 10, no. 3-4 (2016): 165-293.",
+      "doi": ""
+    },
+    {
+      "text": "Patrick Baudisch, Arthur Silber, Yannis Kommana, Milan Gruner, Ludwig Wall, Kevin Reuss, Lukas Heilman, Robert Kovacs, Daniel Rechlitz, and Thijs Roumen. 2019. Kyub: A 3D Editor for Modeling Sturdy Laser-Cut Objects. In\u00a0Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems\u00a0(CHI '19). ACM, New York, NY, USA, Paper 566, 12 pages. DOI: https://doi.org/10.1145/3290605.3300796",
+      "doi": "10.1145/3290605.3300796"
+    },
+    {
+      "text": "Ruei-Che Chang, Chih-An Tsao, Fang-Ying Liao, Seraphina Yong, Tom Yeh, and Bing-Yu Chen. 2021. Daedalus in the Dark: Designing for Non-Visual Accessible Construction of Laser-Cut Architecture. In The 34th Annual ACM Symposium on User Interface Software and Technology (UIST '21). Association for Computing Machinery, New York, NY, USA, 344\u2013358. DOI:https://doi.org/10.1145/3472749.3474754",
+      "doi": "10.1145/3472749.3474754"
+    },
+    {
+      "text": "Rundong Tian, Sarah Sterman, Ethan Chiou, Jeremy Warner, and Eric Paulos. 2018. MatchSticks: Woodworking through Improvisational Digital Fabrication. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). Association for Computing Machinery, New York, NY, USA, Paper 149, 1\u201312. https://doi.org/10.1145/3173574.3173723",
+      "doi": "10.1145/3173574.3173723"
+    },
+    {
+      "text": "Shiran Magrisso, Moran Mizrahi, and Amit Zoran. 2018. Digital Joinery For Hybrid Carpentry. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). Association for Computing Machinery, New York, NY, USA, Paper 167, 1\u201311. https://doi.org/10.1145/3173574.3173741",
+      "doi": "10.1145/3173574.3173741"
+    },
+    {
+      "text": "Special Project: Measuring Laser Kerf https://web.archive.org/web/20130831135948/http://www.brainstormkingston.com/measuring-laser-kerf Accessed December 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Stefanie Mueller, Bastian Kruck, and Patrick Baudisch. 2013. LaserOrigami: laser-cutting 3D objects. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). Association for Computing Machinery, New York, NY, USA, 2585\u20132592. DOI:https://doi.org/10.1145/2470654.2481358",
+      "doi": "10.1145/2470654.2481358"
+    },
+    {
+      "text": "Taylor, J. R. (1997). Introduction to Error Analysis, second edition: The study of uncertainties in physical measurements (2nd ed.). University Science Books.",
+      "doi": ""
+    },
+    {
+      "text": "Thijs Roumen, Ingo Apel, Jotaro Shigeyama, Abdullah Muhammad, and Patrick Baudisch. 2020. Kerf-Canceling Mechanisms: Making Laser-Cut Mechanisms Operate across Different Laser Cutters. Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. Association for Computing Machinery, New York, NY, USA, 293\u2013303. DOI:https://doi.org/10.1145/3379337.3415895",
+      "doi": "10.1145/3379337.3415895"
+    },
+    {
+      "text": "Thijs Roumen, Jotaro Shigeyama, Julius Cosmo Romeo Rudolph, Felix Grzelka, and Patrick Baudisch. SpringFit Joints and Mounts that Fabricate on Any Laser Cutter. In Proceedings of the 32th annual ACM symposium on User interface software and technology (UIST '19). ACM, New York, NY, USA, DOI: https://doi.org/10.1145/3332165.3347930",
+      "doi": "10.1145/3332165.3347930"
+    },
+    {
+      "text": "Thijs Roumen, Yannis Kommana, Ingo Apel, Conrad Lempert, Markus Brand, Erik Brendel, Laurenz Seidel, Lukas Rambold, Carl Goedecken, Pascal Crenzin, Ben Hurdelhey, Muhammad Abdullah, and Patrick Baudisch. 2021. Assembler3: 3D Reconstruction of Laser-Cut Models. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI '21). Association for Computing Machinery, New York, NY, USA, Article 672, 1\u201311. DOI:https://doi.org/10.1145/3411764.3445453",
+      "doi": "10.1145/3411764.3445453"
+    },
+    {
+      "text": "Ticha Sethapakdi, Daniel Anderson, Adrian Reginald Chua Sy, and Stefanie Mueller. 2021. Fabricaide: Fabrication-Aware Design for 2D Cutting Machines. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI '21). Association for Computing Machinery, New York, NY, USA, Article 664, 1\u201312. DOI:https://doi.org/10.1145/3411764.3445345",
+      "doi": "10.1145/3411764.3445345"
+    },
+    {
+      "text": "Trotec Ruby https://www.troteclaser.com/en/laser-machines/laser-software Accessed September 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Trotec Speedy 360 laser cutter, https://www.troteclaser.comhttps://www.troteclaser.com/, Accessed September 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Uslan, I. (2005) 'CO2 laser cutting: Kerf width variation during cutting', Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture, 219(8), pp. 571\u2013577. doi: 10.1243/095440505X32508.",
+      "doi": ""
+    },
+    {
+      "text": "Virgil Mathiowetz, Nancy Kashman, Gloria Volland, Karen Weber, Mary Dowe, and Sandra Rogers. 1985. Grip and pinch strength: normative data for adults. Archives of physical medicine and rehabilitation 66, 2: 69\u201374. Retrieved September 12, 2022 from https://asset-pdf.scinapse.io/prod/1586793705/1586793705.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Yi-Ho Chen, and Chao-Chieh Lan. 2012. Design of a constant-force snap-fit mechanism for minimal mating uncertainty. Mechanism and Machine Theory 55: 34- 50. DOI: https://doi.org/10.1016/j.mechmachtheory.2012.04.006",
+      "doi": ""
+    },
+    {
+      "text": "Ziqi Wang, Peng Song, and Mark Pauly. 2018. DESIA: a general framework for designing interlocking assemblies. ACM Trans. Graph. 37, 6, Article 191 (December 2018), 14 pages. https://doi.org/10.1145/3272127.3275034",
+      "doi": "10.1145/3272127.3275034"
+    }
+  ]
+}

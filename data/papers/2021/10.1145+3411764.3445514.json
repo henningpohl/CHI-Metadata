@@ -1,0 +1,315 @@
+{
+  "doi": "10.1145/3411764.3445514",
+  "title": "A Simulation Model of Intermittently Controlled Point-and-Click Behaviour",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2021,
+  "badges": [],
+  "abstract": "We present a novel simulation model of point-and-click behaviour that is applicable both when a target is stationary or moving. To enable more realistic simulation than existing models, the model proposed in this study takes into account key features of the user and the external environment, such as intermittent motor control, click decision-making, visual perception, upper limb kinematics and the effect of input device. The simulated user\u2019s point-and-click behaviour is formulated as a Markov decision process (MDP), and the user\u2019s policy of action is optimised through deep reinforcement learning. As a result, our model successfully and accurately reproduced the trial completion time, distribution of click endpoints, and cursor trajectories of real users. Through an ablation study, we showed how the simulation results change when the model\u2019s sub-modules are individually removed. The implemented model and dataset are publicly available.",
+  "authors": [
+    {
+      "name": "Seungwon Do",
+      "institution": "KAIST, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528322",
+      "orcid": "missing"
+    },
+    {
+      "name": "Minsuk Chang",
+      "institution": "School of Computing KAIST, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659163123",
+      "orcid": "missing"
+    },
+    {
+      "name": "Byungjoo Lee",
+      "institution": "Yonsei University, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659503945",
+      "orcid": "0000-0003-0341-448X"
+    }
+  ],
+  "references": [
+    {
+      "text": "Pieter Abbeel and Andrew\u00a0Y Ng. 2004. Apprenticeship learning via inverse reinforcement learning. In Proceedings of the twenty-first international conference on Machine learning. 1.",
+      "doi": "10.1145/1015330.1015430"
+    },
+    {
+      "text": "Johnny Accot and Shumin Zhai. 1997. Beyond Fitts\u2019 law: models for trajectory-based HCI tasks. In Proceedings of the ACM SIGCHI Conference on Human factors in computing systems. 295\u2013302.",
+      "doi": "10.1145/258549.258760"
+    },
+    {
+      "text": "John\u00a0Robert Anderson. 1996. The architecture of cognition. Vol.\u00a05. Psychology Press.",
+      "doi": ""
+    },
+    {
+      "text": "Stanislav Aranovskiy, Rosane Ushirobira, Denis Efimov, and G\u00e9ry Casiez. 2020. A switched dynamic model for pointing tasks with a computer mouse. Asian Journal of Control 22, 4 (2020), 1387\u20131400.",
+      "doi": "10.1002/asjc.2063"
+    },
+    {
+      "text": "Myroslav Bachynskyi and J\u00f6rg M\u00fcller. 2020. Dynamics of Aimed Mid-air Movements. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3313831.3376194"
+    },
+    {
+      "text": "Gilles Bailly, Antti Oulasvirta, Timo K\u00f6tzing, and Sabrina Hoppe. 2013. Menuoptimizer: Interactive optimization of menu systems. In Proceedings of the 26th annual ACM symposium on User interface software and technology. 331\u2013342.",
+      "doi": "10.1145/2501988.2502024"
+    },
+    {
+      "text": "Richard Bellman. 1957. A Markovian decision process. Journal of mathematics and mechanics(1957), 679\u2013684.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaojun Bi, Yang Li, and Shumin Zhai. 2013. FFitts law: modeling finger touch with fitts\u2019 law. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1363\u20131372.",
+      "doi": "10.1145/2470654.2466180"
+    },
+    {
+      "text": "Xiaojun Bi and Shumin Zhai. 2016. Predicting finger-touch accuracy based on the dual Gaussian distribution model. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology. 313\u2013319.",
+      "doi": "10.1145/2984511.2984546"
+    },
+    {
+      "text": "Robin\u00a0Trulssen Bye. 2009. The BUMP model of response planning. Ph.D. Dissertation. Sydney, Australia: The University of New South Wales.",
+      "doi": ""
+    },
+    {
+      "text": "Robin\u00a0T Bye and Peter\u00a0D Neilson. 2008. The BUMP model of response planning: Variable horizon predictive control accounts for the speed\u2013accuracy tradeoffs and velocity profiles of aimed movement. Human movement science 27, 5 (2008), 771\u2013798.",
+      "doi": ""
+    },
+    {
+      "text": "Robin\u00a0T Bye and Peter\u00a0D Neilson. 2010. The BUMP model of response planning: intermittent predictive control accounts for 10 Hz physiological tremor. Human movement science 29, 5 (2010), 713\u2013736.",
+      "doi": ""
+    },
+    {
+      "text": "Stuartk Card, THOMASP MORAN, and Allen Newell. 1986. The model human processor- An engineering model of human performance. Handbook of perception and human performance. 2, 45\u20131(1986).",
+      "doi": ""
+    },
+    {
+      "text": "G\u00e9ry Casiez and Nicolas Roussel. 2011. No more bricolage! Methods and tools to characterize, replicate and compare pointing transfer functions. In Proceedings of the 24th annual ACM symposium on User interface software and technology. 603\u2013614.",
+      "doi": "10.1145/2047196.2047276"
+    },
+    {
+      "text": "G\u00e9ry Casiez, Daniel Vogel, Ravin Balakrishnan, and Andy Cockburn. 2008. The impact of control-display gain on user performance in pointing tasks. Human\u2013computer interaction 23, 3 (2008), 215\u2013250.",
+      "doi": ""
+    },
+    {
+      "text": "Noshaba Cheema, Laura\u00a0A Frey-Law, Kourosh Naderi, Jaakko Lehtinen, Philipp Slusallek, and Perttu H\u00e4m\u00e4l\u00e4inen. 2020. Predicting Mid-Air Interaction Movements and Fatigue Using Deep Reinforcement Learning. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376701"
+    },
+    {
+      "text": "Hsieh-Ching Chena, Yu-Wen Chena, Yung-Ping Liub, and Yi-Tsong Pan. 2014. Quantitative Assessment of Computer Inputs and Musculoskeletal Complaints among Three Workgroups. Advances in Physical Ergonomics and Human Factors: Part I 14 (2014), 375.",
+      "doi": ""
+    },
+    {
+      "text": "Carl\u00a0F Craver. 2006. When mechanistic models explain. Synthese 153, 3 (2006), 355\u2013376.",
+      "doi": ""
+    },
+    {
+      "text": "Holk Cruse, Erhard Wischmeyer, Michael Br\u00fcwer, Peter Brockfeld, and A Dress. 1990. On the cost functions for the control of the human arm movement. Biological cybernetics 62, 6 (1990), 519\u2013528.",
+      "doi": ""
+    },
+    {
+      "text": "A Diamond and OE Holland. 2014. Reaching control of a full-torso, modelled musculoskeletal robot using muscle synergies emergent under reinforcement learning. Bioinspiration & biomimetics 9, 1 (2014), 016015.",
+      "doi": ""
+    },
+    {
+      "text": "Marc\u00a0O Ernst and Martin\u00a0S Banks. 2002. Humans integrate visual and haptic information in a statistically optimal fashion. Nature 415, 6870 (2002), 429\u2013433.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0H Fagg, Andrew\u00a0G Barto, and James\u00a0C Houk. 1998. Learning to reach via corrective movements. In Proceedings of the Tenth Yale Workshop on Adaptive and Learning Systems. 179\u2013185.",
+      "doi": ""
+    },
+    {
+      "text": "Brett\u00a0R Fajen and William\u00a0H Warren. 2007. Behavioral dynamics of intercepting a moving target. Experimental Brain Research 180, 2 (2007), 303\u2013319.",
+      "doi": ""
+    },
+    {
+      "text": "Florian Fischer, Arthur Fleig, Markus Klar, Lars Gr\u00fcne, and Joerg Mueller. 2020. An Optimal Control Model of Mouse Pointing Using the LQR. (2020). arXiv:2002.11596",
+      "doi": ""
+    },
+    {
+      "text": "Luc Florack. 2007. Modeling foveal vision. In International Conference on Scale Space and Variational Methods in Computer Vision. Springer, 919\u2013928.",
+      "doi": "10.5555/1767926.1768016"
+    },
+    {
+      "text": "John Gibbon, Russell\u00a0M Church, Warren\u00a0H Meck, 1984. Scalar timing in memory. Annals of the New York Academy of sciences 423, 1 (1984), 52\u201377.",
+      "doi": ""
+    },
+    {
+      "text": "Jin Huang, Feng Tian, Nianlong Li, and Xiangmin Fan. 2019. Modeling the Uncertainty in 2D Moving Target Selection. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology. 1031\u20131043.",
+      "doi": "10.1145/3332165.3347880"
+    },
+    {
+      "text": "Jun Izawa, Toshiyuki Kondo, and Koji Ito. 2004. Biological arm motion through reinforcement learning. Biological cybernetics 91, 1 (2004), 10\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Wolfgang Jaschinski. 2002. The proximity-fixation-disparity curve and the preferred viewing distance at a visual display as an indicator of near vision fatigue. Optometry and Vision Science 79, 3 (2002), 158\u2013169.",
+      "doi": ""
+    },
+    {
+      "text": "Bonnie\u00a0E John and David\u00a0E Kieras. 1996. The GOMS family of user interface analysis techniques: Comparison and contrast. ACM Transactions on Computer-Human Interaction (TOCHI) 3, 4(1996), 320\u2013351.",
+      "doi": "10.1145/235833.236054"
+    },
+    {
+      "text": "Jussi\u00a0PP Jokinen, Sayan Sarcar, Antti Oulasvirta, Chaklam Silpasuwanchai, Zhenxin Wang, and Xiangshi Ren. 2017. Modelling learning of new keyboard layouts. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 4203\u20134215.",
+      "doi": "10.1145/3025453.3025580"
+    },
+    {
+      "text": "Jussi\u00a0PP Jokinen, Zhenxin Wang, Sayan Sarcar, Antti Oulasvirta, and Xiangshi Ren. 2020. Adaptive feature guidance: Modelling visual search with graphical layouts. International Journal of Human-Computer Studies 136 (2020), 102376.",
+      "doi": "10.1016/j.ijhcs.2019.102376"
+    },
+    {
+      "text": "Hiroyuki Kambara, Kyoungsik Kim, Duk Shin, Makoto Sato, and Yasuharu Koike. 2009. Learning and generation of goal-directed arm reaching from scratch. Neural Networks 22, 4 (2009), 348\u2013361.",
+      "doi": "10.1016/j.neunet.2008.11.004"
+    },
+    {
+      "text": "Andreas Karrenbauer and Antti Oulasvirta. 2014. Improvements to keyboard optimization with integer programming. In Proceedings of the 27th annual ACM symposium on User interface software and technology. 621\u2013626.",
+      "doi": "10.1145/2642918.2647382"
+    },
+    {
+      "text": "David Kieras 2001. Using the keystroke-level model to estimate execution times. University of Michigan 555 (2001).",
+      "doi": ""
+    },
+    {
+      "text": "Sunjun Kim, Byungjoo Lee, Thomas van Gemert, and Antti Oulasvirta. 2020. Optimal Sensor Position for a Computer Mouse. (2020). arXiv:2001.03352",
+      "doi": ""
+    },
+    {
+      "text": "Diederik\u00a0P Kingma and Jimmy Ba. 2014. Adam: A method for stochastic optimization. (2014). arXiv:1412.6980",
+      "doi": ""
+    },
+    {
+      "text": "Konrad\u00a0P K\u00f6rding and Daniel\u00a0M Wolpert. 2006. Bayesian decision theory in sensorimotor control. Trends in cognitive sciences 10, 7 (2006), 319\u2013326.",
+      "doi": ""
+    },
+    {
+      "text": "Ian Krajbich and Antonio Rangel. 2011. Multialternative drift-diffusion model predicts the relationship between visual fixations and choice in value-based decisions. Proceedings of the National Academy of Sciences 108, 33(2011), 13852\u201313857.",
+      "doi": ""
+    },
+    {
+      "text": "Byungjoo Lee and Hyunwoo Bang. 2015. A mouse with two optical sensors that eliminates coordinate disturbance during skilled strokes. Human\u2013Computer Interaction 30, 2 (2015), 122\u2013155.",
+      "doi": ""
+    },
+    {
+      "text": "Byungjoo Lee, Sunjun Kim, Antti Oulasvirta, Jong-In Lee, and Eunji Park. 2018. Moving target selection: A cue integration model. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3173574.3173804"
+    },
+    {
+      "text": "Byungjoo Lee, Mathieu Nancel, Sunjun Kim, and Antti Oulasvirta. 2020. AutoGain: Gain Function Adaptation with Submovement Efficiency Optimization. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI\u201920). ACM, New York, NY, USA. DOI: http://dx. doi. org/10.1145/3313831.3376244.",
+      "doi": "10.1145/3313831.3376244"
+    },
+    {
+      "text": "Byungjoo Lee and Antti Oulasvirta. 2016. Modelling error rates in temporal pointing. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 1857\u20131868.",
+      "doi": "10.1145/2858036.2858143"
+    },
+    {
+      "text": "Ray\u00a0F Lin and Yi-Chien Tsai. 2015. The use of ballistic movement as an additional method to assess performance of computer mice. International Journal of Industrial Ergonomics 45 (2015), 71\u201381.",
+      "doi": ""
+    },
+    {
+      "text": "Duane\u00a0T McRuer and Ezra\u00a0S Krendel. 1974. Mathematical models of human pilot behavior. Technical Report. ADVISORY GROUP FOR AEROSPACE RESEARCH AND DEVELOPMENT NEUILLY-SUR-SEINE (FRANCE).",
+      "doi": ""
+    },
+    {
+      "text": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, and Martin Riedmiller. 2013. Playing atari with deep reinforcement learning. (2013). arXiv:1312.5602",
+      "doi": ""
+    },
+    {
+      "text": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei\u00a0A Rusu, Joel Veness, Marc\u00a0G Bellemare, Alex Graves, Martin Riedmiller, Andreas\u00a0K Fidjeland, Georg Ostrovski, 2015. Human-level control through deep reinforcement learning. Nature 518, 7540 (2015), 529\u2013533.",
+      "doi": ""
+    },
+    {
+      "text": "J\u00f6rg M\u00fcller, Antti Oulasvirta, and Roderick Murray-Smith. 2017. Control theoretic models of pointing. ACM Transactions on Computer-Human Interaction (TOCHI) 24, 4(2017), 1\u201336.",
+      "doi": "10.1145/3121431"
+    },
+    {
+      "text": "Robert\u00a0M Nosofsky. 2011. The generalized context model: An exemplar model of classification. Formal approaches in categorization(2011), 18\u201339.",
+      "doi": ""
+    },
+    {
+      "text": "Antti Oulasvirta, Niraj\u00a0Ramesh Dayama, Morteza Shiripour, Maximilian John, and Andreas Karrenbauer. 2020. Combinatorial optimization of graphical user interface designs. Proc. IEEE 108, 3 (2020), 434\u2013464.",
+      "doi": ""
+    },
+    {
+      "text": "Antti Oulasvirta, Sunjun Kim, and Byungjoo Lee. 2018. Neuromechanics of a button press. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3173574.3174082"
+    },
+    {
+      "text": "Antti Oulasvirta, Anna Reichel, Wenbin Li, Yan Zhang, Myroslav Bachynskyi, Keith Vertanen, and Per\u00a0Ola Kristensson. 2013. Improving two-thumb text entry on touchscreen devices. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2765\u20132774.",
+      "doi": "10.1145/2470654.2481383"
+    },
+    {
+      "text": "Eunji Park and Byungjoo Lee. 2020. An Intermittent Click Planning Model. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI\u201920). ACM, New York, NY, USA. DOI: http://dx. doi. org/10.1145/3313831.3376725.",
+      "doi": "10.1145/3313831.3376725"
+    },
+    {
+      "text": "Ashutosh\u00a0B Potdar, Pratapsingh Rathod, Pallavi\u00a0A Potdar, and Manjiri\u00a0M Desai. 2019. A Study of Estimation of Stature from Forearm Length. Indian Journal of Forensic Medicine & Toxicology 13, 2(2019), 219\u2013221.",
+      "doi": ""
+    },
+    {
+      "text": "Dario\u00a0D Salvucci. 2001. An integrated model of eye movements and visual encoding. Cognitive Systems Research 1, 4 (2001), 201\u2013220.",
+      "doi": "10.1016/S1389-0417%2800%2900015-2"
+    },
+    {
+      "text": "Richard\u00a0A Schmidt, Howard Zelaznik, Brian Hawkins, James\u00a0S Frank, and John\u00a0T Quinn\u00a0Jr. 1979. Motor-output variability: a theory for the accuracy of rapid motor acts.Psychological review 86, 5 (1979), 415.",
+      "doi": ""
+    },
+    {
+      "text": "Marilyn\u00a0C Smith. 1967. Theories of the psychological refractory period.Psychological bulletin 67, 3 (1967), 202.",
+      "doi": ""
+    },
+    {
+      "text": "R\u00a0William Soukoreff and I\u00a0Scott MacKenzie. 2004. Towards a standard for pointing device evaluation, perspectives on 27 years of Fitts\u2019 law research in HCI. International journal of human-computer studies 61, 6 (2004), 751\u2013789.",
+      "doi": "10.1016/j.ijhcs.2004.09.001"
+    },
+    {
+      "text": "Josef Spjut, Ben Boudaoud, Kamran Binaee, Jonghyun Kim, Alexander Majercik, Morgan McGuire, David Luebke, and Joohwan Kim. 2019. Latency of 30 ms Benefits First Person Targeting Tasks More Than Refresh Rate Above 60 Hz. In SIGGRAPH Asia 2019 Technical Briefs. 110\u2013113.",
+      "doi": ""
+    },
+    {
+      "text": "Alan\u00a0A Stocker and Eero\u00a0P Simoncelli. 2006. Noise characteristics and prior expectations in human visual speed perception. Nature neuroscience 9, 4 (2006), 578\u2013585.",
+      "doi": ""
+    },
+    {
+      "text": "Kashyap Todi, Jussi Jokinen, Kris Luyten, and Antti Oulasvirta. 2018. Familiarisation: Restructuring layouts with visual learning models. In 23rd International Conference on Intelligent User Interfaces. 547\u2013558.",
+      "doi": "10.1145/3172944.3172949"
+    },
+    {
+      "text": "Kashyap Todi, Daryl Weir, and Antti Oulasvirta. 2016. Sketchplore: Sketch and explore with a layout optimiser. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems. 543\u2013555.",
+      "doi": "10.1145/2901790.2901817"
+    },
+    {
+      "text": "Emanuel Todorov and Michael\u00a0I Jordan. 2002. Optimal feedback control as a theory of motor coordination. Nature neuroscience 5, 11 (2002), 1226\u20131235.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0R Tresilian. 2005. Hitting a moving target: perception and action in the timing of rapid interceptions. Perception & Psychophysics 67, 1 (2005), 129\u2013149.",
+      "doi": ""
+    },
+    {
+      "text": "Julia Trommershauser, Konrad Kording, and Michael\u00a0S Landy. 2011. Sensory cue integration. Oxford University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Zhou Wang and Qiang Li. 2007. Video quality assessment using a statistical model of human visual speed perception. JOSA A 24, 12 (2007), B61\u2013B69.",
+      "doi": ""
+    },
+    {
+      "text": "Jacob\u00a0O Wobbrock, Edward Cutrell, Susumu Harada, and I\u00a0Scott MacKenzie. 2008. An error model for pointing based on Fitts\u2019 law. In Proceedings of the SIGCHI conference on human factors in computing systems. 1613\u20131622.",
+      "doi": "10.1145/1357054.1357306"
+    },
+    {
+      "text": "Charles\u00a0J Worringham and Dennis\u00a0B Beringer. 1998. Directional stimulus-response compatibility: A test of three alternative principles. Ergonomics 41, 6 (1998), 864\u2013880.",
+      "doi": ""
+    },
+    {
+      "text": "Shumin Zhai. 2004. Characterizing computer input with Fitts\u2019 law parameters\u2014the information and non-information aspects of pointing. International Journal of Human-Computer Studies 61, 6 (2004), 791\u2013809.",
+      "doi": "10.1016/j.ijhcs.2004.09.006"
+    },
+    {
+      "text": "Shumin Zhai, Michael Hunter, and Barton\u00a0A Smith. 2002. Performance optimization of virtual keyboards. Human\u2013Computer Interaction 17, 2-3 (2002), 229\u2013269.",
+      "doi": ""
+    }
+  ]
+}

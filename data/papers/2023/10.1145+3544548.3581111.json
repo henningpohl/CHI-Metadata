@@ -1,0 +1,533 @@
+{
+  "doi": "10.1145/3544548.3581111",
+  "title": "How Can Deep Neural Networks Aid Visualization Perception Research? Three Studies on Correlation Judgments in Scatterplots",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2023,
+  "badges": [],
+  "abstract": "How deep neural networks can aid visualization perception research is a wide-open question. This paper provides insights from three perspectives\u2014prediction, generalization, and interpretation\u2014via training and analyzing deep convolutional neural networks on human correlation judgments in scatterplots across three studies. The first study assesses the accuracy of twenty-nine neural network architectures in predicting human judgments, finding that a subset of the architectures (e.g., VGG-19) has comparable accuracy to the best-performing regression analyses in prior research. The second study shows that the resulting models from the first study display better generalizability than prior models on two other judgment datasets for different scatterplot designs. The third study interprets visual features learned by a convolutional neural network model, providing insights about how the model makes predictions, and identifies potential features that could be investigated in human correlation perception studies. Together, this paper suggests that deep neural networks can serve as a tool for visualization perception researchers in devising potential empirical study designs and hypothesizing about perpetual judgments. The preprint, data, code, and training logs are available at https://doi.org/10.17605/osf.io/exa8m.",
+  "authors": [
+    {
+      "name": "Fumeng Yang",
+      "institution": "Department of Computer Science, Northwestern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659508812",
+      "orcid": "0000-0002-8401-2580"
+    },
+    {
+      "name": "Yuxin Ma",
+      "institution": "Department of Computer Science and Engineering, Southern University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659829109",
+      "orcid": "0000-0003-0484-668X"
+    },
+    {
+      "name": "Lane Harrison",
+      "institution": "Department of Computer Science, Worcester Polytechnic Institute, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81435599709",
+      "orcid": "0000-0003-3029-2799"
+    },
+    {
+      "name": "James Tompkin",
+      "institution": "Department of Computer Science, Brown University, United States",
+      "img": "/do/10.1145/contrib-81453653111/rel-imgonly/img_1286_crop.jpg",
+      "acmid": "81453653111",
+      "orcid": "0000-0003-2218-2899"
+    },
+    {
+      "name": "David H. Laidlaw",
+      "institution": "Department of Computer Science, Brown University, United States",
+      "img": "/do/10.1145/contrib-81100589961/rel-imgonly/statement_dec2015copy2.jpg",
+      "acmid": "81100589961",
+      "orcid": "0000-0002-3411-7376"
+    }
+  ],
+  "references": [
+    {
+      "text": "2017. Colaboratory - Google Research. https://colab.research.google.com/ Online; accessed 15 Feb 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Md\u00a0Zahangir Alom, Tarek\u00a0M. Taha, Christopher Yakopcic, Stefan Westberg, Paheding Sidike, Mst\u00a0Shamima Nasrin, Brian\u00a0C. Van\u00a0Esesn, Abdul A.\u00a0S. Awwal, and Vijayan\u00a0K. Asari. 2018. The history began from AlexNet: A comprehensive survey on deep learning approaches. arXiv preprint arXiv:1803.01164(2018). http://arxiv.org/abs/1803.01164",
+      "doi": ""
+    },
+    {
+      "text": "Aharon Azulay and Yair Weiss. 2019. Why do deep convolutional networks generalize so poorly to small image transformations?Journal of Machine Learning Research 20, 184 (2019), 1\u201325. http://jmlr.org/papers/v20/19-519.html",
+      "doi": ""
+    },
+    {
+      "text": "Douglas Bates, Martin M\u00e4chler, Ben Bolker, and Steve Walker. 2015. Fitting Linear Mixed-Effects Models Using lme4. Journal of Statistical Software 67, 1 (2015), 1\u201348. https://doi.org/10.18637/jss.v067.i01",
+      "doi": ""
+    },
+    {
+      "text": "Moshe Ben-Akiva and Denis Bolduc. 1987. Approaches to model transferability and updating: the combined transfer estimator. D\u00e9partement d\u2019\u00e9conomique, Universit\u00e9 Laval.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0S. Bowers, Gaurav Malhotra, Marin Dujmovi\u0107, Milton\u00a0Llera Montero, Christian Tsvetkov, Valerio Biscione, Guillermo Puebla, Federico Adolfi, John\u00a0E. Hummel, Rachel\u00a0F. Heaton, and et al.2022. Deep Problems with Neural Network Models of Human Vision. Behavioral and Brain Sciences(2022), 1\u201374. https://doi.org/10.1017/S0140525X22002813",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0M. Boynton. 2000. The psychophysics of informal covariation assessment: Perceiving relatedness against a background of dispersion. Journal of Experimental Psychology: Human Perception and Performance 26, 3(2000), 867\u2013876. https://doi.org/10.1037/0096-1523.26.3.867",
+      "doi": ""
+    },
+    {
+      "text": "Eli\u00a0T. Brown, Alvitta Ottley, Helen Zhao, Quan Lin, Richard Souvenir, Alex Endert, and Remco Chang. 2014. Finding Waldo: Learning about Users from their Interactions. IEEE TVCG 20, 12 (2014), 1663\u20131672. https://doi.org/10.1109/TVCG.2014.2346575",
+      "doi": ""
+    },
+    {
+      "text": "Paul-Christian B\u00fcrkner 2017. brms: An R package for Bayesian multilevel models using Stan. Journal of Statistical Software 80, 1 (2017), 1\u201328. https://doi.org/10.18637/jss.v080.i01",
+      "doi": ""
+    },
+    {
+      "text": "Zoya Bylinskii, Nam\u00a0Wook Kim, Peter O\u2019Donovan, Sami Alsheikh, Spandan Madan, Hanspeter Pfister, Fredo Durand, Bryan Russell, and Aaron Hertzmann. 2017. Learning Visual Importance for Graphic Designs and Data Visualizations. In ACM UIST. 57\u201369. https://doi.org/10.1145/3126594.3126653",
+      "doi": "10.1145/3126594.3126653"
+    },
+    {
+      "text": "Zhutian Chen, Yun Wang, Qianwen Wang, Yong Wang, and Huamin Qu. 2020. Towards Automated Infographic Design: Deep Learning-based Auto-Extraction of Extensible Timeline. IEEE TVCG 26, 1 (2020), 917\u2013926. https://doi.org/10.1109/TVCG.2019.2934810",
+      "doi": ""
+    },
+    {
+      "text": "Radoslaw\u00a0M. Cichy and Daniel Kaiser. 2019. Deep Neural Networks as Scientific Models. Trends in Cognitive Sciences 23, 4 (2019), 305\u2013317. https://doi.org/10.1016/j.tics.2019.01.009",
+      "doi": ""
+    },
+    {
+      "text": "Michael Correll and Jeffrey Heer. 2017. Regression by Eye: Estimating Trends in Bivariate Visualizations. In ACM CHI. 1387\u20131396. https://doi.org/10.1145/3025453.3025922",
+      "doi": "10.1145/3025453.3025922"
+    },
+    {
+      "text": "Victor Dibia and Cagatay Demiralp. 2019. Data2Vis: Automatic Generation of Data Visualizations Using Sequence-to-Sequence Recurrent Neural Networks. IEEE CGA 39, 5 (2019), 33\u201346. https://doi.org/10.1109/MCG.2019.2924636",
+      "doi": "10.1109/MCG.2019.2924636"
+    },
+    {
+      "text": "Thomas\u00a0J. Diciccio and Joseph\u00a0P. Romano. 1988. A Review of Bootstrap Confidence Intervals. Journal of the Royal Statistical Society: Series B (Methodological) 50, 3(1988), 338\u2013354. https://doi.org/10.1111/j.2517-6161.1988.tb01732.x",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0E. Doherty, Richard\u00a0B. Anderson, Andrea\u00a0M. Angott, and Dale\u00a0S. Klopfer. 2007. The perception of scatterplots. Perception & Psychophysics 69, 7 (2007), 1261\u20131272. https://doi.org/10.3758/BF03193961",
+      "doi": ""
+    },
+    {
+      "text": "Pierre Dragicevic. 2016. Fair Statistical Communication in HCI. In Modern Statistical Methods for HCI, Judy Robertson and Maurits Kaptein (Eds.). Springer International Publishing, Cham, 291\u2013330. https://doi.org/10.1007/978-3-319-26633-6_13",
+      "doi": ""
+    },
+    {
+      "text": "Marin Dujmovi\u0107, Gaurav Malhotra, and Jeffrey Bowers. 2020. What do adversarial images tell us about human vision?bioRxiv (2020). 10.7554/eLife.55978.",
+      "doi": ""
+    },
+    {
+      "text": "Xin Fu, Yun Wang, Haoyu Dong, Weiwei Cui, and Haidong Zhang. 2019. Visualization Assessment: A Machine Learning Approach. In IEEE VIS short paper. 126\u2013130. https://doi.org/10.1109/VISUAL.2019.8933570",
+      "doi": ""
+    },
+    {
+      "text": "Jonah Gabry and Rok \u010ce\u0161novar. 2020. CmdStanR: the R interface to CmdStan. https://mc-stan.org/users/interfaces/cmdstan",
+      "doi": ""
+    },
+    {
+      "text": "Loann Giovannangeli, Romain Bourqui, Romain Giot, and David Auber. 2020. Toward automatic comparison of visualization techniques: Application to graph visualization. Visual Informatics 4, 2 (2020), 86\u201398. https://doi.org/10.1016/j.visinf.2020.04.002 Visualization Meets AI workshop at PacificVis.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Gleicher, Michael Correll, Christine Nothelfer, and Steven Franconeri. 2013. Perception of average value in multiclass scatterplots. IEEE TVCG 19, 12 (2013), 2316\u20132325.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Haehn, James Tompkin, and Hanspeter Pfister. 2019. Evaluating \u2018Graphical Perception\u2019 with CNNs. IEEE TVCG 25, 1 (2019), 641\u2013650. https://doi.org/10.1109/TVCG.2018.2865138",
+      "doi": "10.1109/TVCG.2018.2865138"
+    },
+    {
+      "text": "Kai Han, Yunhe Wang, Hanting Chen, Xinghao Chen, Jianyuan Guo, Zhenhua Liu, Yehui Tang, An Xiao, Chunjing Xu, Yixing Xu, 2020. A survey on visual transformer. arXiv preprint (2020). arXiv:2012.12556",
+      "doi": ""
+    },
+    {
+      "text": "Steve Haroz and Kwan-Liu Ma. 2006. Natural visualizations. (2006).",
+      "doi": ""
+    },
+    {
+      "text": "Lane Harrison, Fumeng Yang, Steven Franconeri, and Remco Chang. 2014. Ranking Visualizations of Correlation Using Weber\u2019s Law. IEEE TVCG 20, 12 (2014), 1943\u20131952. https://doi.org/10.1109/TVCG.2014.2346979",
+      "doi": ""
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2015. Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification. In IEEE ICCV. 1026\u20131034. https://doi.org/10.1109/ICCV.2015.123",
+      "doi": "10.1109/ICCV.2015.123"
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016. Deep residual learning for image recognition. In IEEE CVPR. 770\u2013778. https://doi.org/10.1109/CVPR.2016.90",
+      "doi": ""
+    },
+    {
+      "text": "Irina Higgins, Loic Matthey, Arka Pal, Christopher Burgess, Xavier Glorot, Matthew Botvinick, Shakir Mohamed, and Alexander Lerchner. 2016. beta-VAE: Learning basic visual concepts with a constrained variational framework. In ICLR. https://openreview.net/forum?id=Sy2fzU9gl",
+      "doi": ""
+    },
+    {
+      "text": "Fred Hohman, Minsuk Kahng, Robert Pienta, and Duen\u00a0Horng Chau. 2019. Visual Analytics in Deep Learning: An Interrogative Survey for the Next Frontiers. IEEE TVCG 25, 8 (2019), 2674\u20132693. https://doi.org/10.1109/TVCG.2018.2843369",
+      "doi": "10.1109/TVCG.2018.2843369"
+    },
+    {
+      "text": "Fred Hohman, Haekyu Park, Caleb Robinson, and Duen\u00a0Horng Polo\u00a0Chau. 2020. Summit: Scaling Deep Learning Interpretability by Visualizing Activation and Attribution Summarizations. IEEE TVCG 26, 1 (2020), 1096\u20131106. https://doi.org/10.1109/TVCG.2019.2934659",
+      "doi": "10.1109/TVCG.2019.2934659"
+    },
+    {
+      "text": "Kevin Hu, Michiel\u00a0A. Bakker, Stephen Li, Tim Kraska, and C\u00e9sar Hidalgo. 2019. VizML: A Machine Learning Approach to Visualization Recommendation. In ACM CHI. 1\u201312. https://doi.org/10.1145/3290605.3300358",
+      "doi": "10.1145/3290605.3300358"
+    },
+    {
+      "text": "Gao Huang, Zhuang Liu, Laurens Van Der\u00a0Maaten, and Kilian\u00a0Q Weinberger. 2017. Densely Connected Convolutional Networks. In IEEE CVPR. 2261\u20132269. https://doi.org/10.1109/CVPR.2017.243",
+      "doi": ""
+    },
+    {
+      "text": "Laurent Itti and Christof Koch. 2001. Computational modelling of visual attention. Nature reviews neuroscience 2, 3 (2001), 194\u2013203. https://doi.org/10.1038/35058500",
+      "doi": ""
+    },
+    {
+      "text": "Nicole Jardine, Brian\u00a0D. Ondov, Niklas Elmqvist, and Steven Franconeri. 2020. The Perceptual Proxies of Visual Comparison. IEEE TVCG 26, 1 (2020), 1012\u20131021. https://doi.org/10.1109/TVCG.2019.2934786",
+      "doi": ""
+    },
+    {
+      "text": "Jaemin Jo and Jinwook Seo. 2019. Disentangled Representation of Data Distributions in Scatterplots. In IEEE VIS short paper. 136\u2013140. https://doi.org/10.1109/VISUAL.2019.8933670",
+      "doi": ""
+    },
+    {
+      "text": "Kamila Jozwik, Nikolaus Kriegeskorte, Radoslaw\u00a0Martin Cichy, and Marieke Mur. 2019. Deep convolutional neural networks, features, and categories perform similarly at explaining primate high-level visual representations. (2019). https://doi.org/10.32470/CCN.2018.1232-0",
+      "doi": ""
+    },
+    {
+      "text": "Daekyoung Jung, Wonjae Kim, Hyunjoo Song, Jeong-in Hwang, Bongshin Lee, Bohyoung Kim, and Jinwook Seo. 2017. ChartSense: Interactive Data Extraction from Chart Images. In ACM CHI. 6706\u20136717. https://doi.org/10.1145/3025453.3025957",
+      "doi": "10.1145/3025453.3025957"
+    },
+    {
+      "text": "Kushal Kafle, Brian Price, Scott Cohen, and Christopher Kanan. 2018. DVQA: Understanding Data Visualizations via Question Answering. In IEEE/CVF CVPR. 5648\u20135656. https://doi.org/10.1109/CVPR.2018.00592",
+      "doi": ""
+    },
+    {
+      "text": "Samira\u00a0Ebrahimi Kahou, Vincent Michalski, Adam Atkinson, \u00c1kos K\u00e1d\u00e1r, Adam Trischler, and Yoshua Bengio. 2017. Figureqa: An annotated figure dataset for visual reasoning. arXiv preprint (2017). arXiv:1710.07300",
+      "doi": ""
+    },
+    {
+      "text": "Alex Kale and Jessica Hullman. 2019. Adaptation and learning priors in visual inference. In VisxVision workshop at IEEE VIS.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Kay. 2021. tidybayes: Tidy Data and Geoms for Bayesian Models. https://doi.org/10.5281/zenodo.1308151",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Kay and Jeffrey Heer. 2016. Beyond Weber\u2019s Law: A Second Look at Ranking Visualizations of Correlation. IEEE TVCG 22, 1 (2016), 469\u2013478. https://doi.org/10.1109/TVCG.2015.2467671",
+      "doi": "10.1109/TVCG.2015.2467671"
+    },
+    {
+      "text": "Matthew Kay, Gregory\u00a0L. Nelson, and Eric\u00a0B. Hekler. 2016. Researcher-Centered Design of Statistics: Why Bayesian Statistics Better Fit the Culture and Incentives of HCI. In ACM CHI. 4521\u20134532. https://doi.org/10.1145/2858036.2858465",
+      "doi": "10.1145/2858036.2858465"
+    },
+    {
+      "text": "Been Kim, Emily Reif, Martin Wattenberg, and Samy Bengio. 2019. Do neural networks show gestalt phenomena? an exploration of the law of closure. arXiv preprint 2, 8 (2019). arXiv:1903.01069.",
+      "doi": ""
+    },
+    {
+      "text": "Diederik\u00a0P. Kingma and Jimmy Ba. 2015. Adam: A Method for Stochastic Optimization. In ICLR. http://arxiv.org/abs/1412.6980",
+      "doi": ""
+    },
+    {
+      "text": "Diederik\u00a0P Kingma and Max Welling. 2014. Auto-encoding variational bayes. ICLR. http://arxiv.org/abs/1312.6114",
+      "doi": ""
+    },
+    {
+      "text": "Nikolaus Kriegeskorte. 2015. Deep neural networks: a new framework for modeling biological vision and brain information processing. Annual review of vision science 1 (2015), 417\u2013446. https://doi.org/10.1146/annurev-vision-082114-035447",
+      "doi": ""
+    },
+    {
+      "text": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey\u00a0E. Hinton. 2017. ImageNet Classification with Deep Convolutional Neural Networks. Commun. ACM 60, 6 (May 2017), 84\u201390. https://doi.org/10.1145/3065386",
+      "doi": "10.1145/3065386"
+    },
+    {
+      "text": "Jonas Kubilius, Stefania Bracci, and Hans\u00a0P. Op\u00a0de Beeck. 2016. Deep Neural Networks as a Computational Model for Human Shape Sensitivity. PLOS Computational Biology 12, 4 (04 2016), 1\u201326. https://doi.org/10.1371/journal.pcbi.1004896",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0W. Lauer and Gerald\u00a0V. Post. 1989. Density in scatterplots and the estimation of correlation. Behaviour & Information Technology 8, 3 (1989), 235\u2013244. https://doi.org/10.1080/01449298908914554",
+      "doi": ""
+    },
+    {
+      "text": "Yann Lecun, Leon Bottou, Yoshua Bengio, and Patrick Haffner. 1998. Gradient-based learning applied to document recognition. Proc. IEEE 86, 11 (1998), 2278\u20132324. https://doi.org/10.1109/5.726791",
+      "doi": ""
+    },
+    {
+      "text": "Tali Leibovich, Naama Katzin, Maayan Harel, and Avishai Henik. 2017. From \u201csense of number\u201d to \u201csense of magnitude\u201d: The role of continuous magnitudes in numerical cognition. Behavioral and Brain Sciences 40 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Fritz Lekschas, Brant Peterson, Daniel Haehn, Eric Ma, Nils Gehlenborg, and Hanspeter Pfister. 2020. Peax: Interactive Visual Pattern Search in Sequential Data Using Unsupervised Deep Representation Learning. CGF 39, 3 (2020), 167\u2013179. https://doi.org/10.1111/cgf.13971",
+      "doi": ""
+    },
+    {
+      "text": "Jing Li, Jean-Bernard Martens, and Jarke\u00a0J van Wijk. 2010. Judging Correlation from Scatterplots and Parallel Coordinate Plots. Information Visualization 9, 1 (2010), 13\u201330. https://doi.org/10.1057/ivs.2008.13",
+      "doi": "10.1057/ivs.2008.13"
+    },
+    {
+      "text": "Grace\u00a0W. Lindsay. 2020. Convolutional Neural Networks as a Model of the Visual System: Past, Present, and Future. Journal of cognitive neuroscience (February 2020), 1\u201315. https://doi.org/10.1162/jocn_a_01544",
+      "doi": ""
+    },
+    {
+      "text": "Drew Linsley, Sven Eberhardt, Tarun Sharma, Gupta Gupta, and Thomas Serre. 2017. What are the Visual Features Underlying Human Versus Machine Vision?. In IEEE ICCV Workshops. 2706\u20132714. https://doi.org/10.1109/ICCVW.2017.331",
+      "doi": ""
+    },
+    {
+      "text": "Tingting Liu, Xiaotong Li, Chen Bao, Michael Correll, Changehe Tu, Oliver Deussen, and Yunhai Wang. 2021. Data-Driven Mark Orientation for Trend Estimation in Scatterplots. In ACM CHI. Article 473, 16\u00a0pages. https://doi.org/10.1145/3411764.3445751",
+      "doi": "10.1145/3411764.3445751"
+    },
+    {
+      "text": "Min Lu, Chufeng Wang, Joel Lanir, Nanxuan Zhao, Hanspeter Pfister, Daniel Cohen-Or, and Hui Huang. 2020. Exploring Visual Information Flows in Infographics. 1\u201312. https://doi.org/10.1145/3313831.3376263",
+      "doi": "10.1145/3313831.3376263"
+    },
+    {
+      "text": "Thomas\u00a0Viehmann Luca Pietro Giovanni\u00a0Antiga, Eli\u00a0Stevens. 2020. Deep Learning with PyTorch. Manning Publications Co.",
+      "doi": ""
+    },
+    {
+      "text": "Yuyu Luo, Xuedi Qin, Nan Tang, and Guoliang Li. 2018. DeepEye: Towards Automatic Data Visualization. In International Conference on Data Engineering. 101\u2013112. https://doi.org/10.1109/ICDE.2018.00019",
+      "doi": ""
+    },
+    {
+      "text": "Yuxin Ma, Anthony K.\u00a0H. Tung, Wei Wang, Xiang Gao, Zhigeng Pan, and Wei Chen. 2020. ScatterNet: A Deep Subjective Similarity Model for Visual Analysis of Scatterplots. IEEE TVCG 26, 3 (2020), 1562\u20131576. https://doi.org/10.1109/TVCG.2018.2875702",
+      "doi": "10.1109/TVCG.2018.2875702"
+    },
+    {
+      "text": "Najib\u00a0J. Majaj and Denis\u00a0G. Pelli. 2018. Deep learning\u2014Using machine learning to study biological vision. Journal of Vision 18, 13 (12 2018), 2\u20132. https://doi.org/10.1167/18.13.2 arXiv:https://arvojournals.org/arvo/content_public/journal/jov/937687/i1534-7362-18-13-2.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Justin Matejka, Fraser Anderson, and George Fitzmaurice. 2015. Dynamic Opacity Optimization for Scatter Plots. In ACM CHI. 2707\u20132710. https://doi.org/10.1145/2702123.2702585",
+      "doi": "10.1145/2702123.2702585"
+    },
+    {
+      "text": "Masakazu Matsugu, Katsuhiko Mori, Yusuke Mitari, and Yuji Kaneda. 2003. Subject independent facial expression recognition with robust face detection using a convolutional neural network. Neural Networks 16, 5 (2003), 555\u2013559. https://doi.org/10.1016/S0893-6080(03)00115-1",
+      "doi": "10.1016/S0893-6080%2803%2900115-1"
+    },
+    {
+      "text": "Angela Mayhua, Erick Gomez-Nieto, Jeffrey Heer, and Jorge Poco. 2018. Extracting Visual Encodings from Map Chart Images with Color-Encoded Scalar Values. In SIBGRAPI. 142\u2013149. https://doi.org/10.1109/SIBGRAPI.2018.00025",
+      "doi": ""
+    },
+    {
+      "text": "Richard McElreath. 2016. Statistical rethinking: A Bayesian course with examples in R and Stan. CRC press. https://doi.org/10.1201/9781315372495",
+      "doi": ""
+    },
+    {
+      "text": "Luke Melas-Kyriazi. 2019. EfficientNet PyTorch. https://github.com/lukemelas/EfficientNet-PyTorch",
+      "doi": ""
+    },
+    {
+      "text": "Joachim Meyer and David Shinar. 1991. Perceiving Correlations from Scatterplots. Proceedings of the Human Factors Society Annual Meeting 35, 20, 1537\u20131540. https://doi.org/10.1177/154193129103502025",
+      "doi": ""
+    },
+    {
+      "text": "Luana Micallef, Gregorio Palmas, Antti Oulasvirta, and Tino Weinkauf. 2017. Towards Perceptual Optimization of the Visual Design of Scatterplots. IEEE TVCG 23, 6 (2017), 1588\u20131599. https://doi.org/10.1109/TVCG.2017.2674978",
+      "doi": "10.1109/TVCG.2017.2674978"
+    },
+    {
+      "text": "Reiichiro Nakano. 2019. A Discussion of \u2019Adversarial Examples Are Not Bugs, They Are Features\u2019: Adversarially Robust Neural Style Transfer. Distill (2019). https://doi.org/10.23915/distill.00019.4 https://distill.pub/2019/advex-bugs-discussion/response-4.",
+      "doi": ""
+    },
+    {
+      "text": "Anh Nguyen, Jason Yosinski, and Jeff Clune. 2016. Multifaceted feature visualization: Uncovering the different types of features learned by each neuron in deep neural networks. Visualization for Deep Learning workshop at ICML (2016). arXiv preprint arXiv:1602.03616",
+      "doi": ""
+    },
+    {
+      "text": "Chris Olah, Alexander Mordvintsev, and Ludwig Schubert. 2017. Feature Visualization. Distill (2017). https://doi.org/10.23915/distill.00007 https://distill.pub/2017/feature-visualization.",
+      "doi": ""
+    },
+    {
+      "text": "Brian\u00a0D. Ondov, Fumeng Yang, Matthew Kay, Niklas Elmqvist, and Steven Franconeri. 2020. Revealing Perceptual Proxies with Adversarial Examples. IEEE TVCG 25, 1 (2020). https://doi.org/10.1109/TVCG.2020.3030429",
+      "doi": ""
+    },
+    {
+      "text": "Jorge\u00a0Piazentin Ono, Ray\u00a0Sungsoo Hong, Claudio\u00a0T Silva, and Juliana Freire. 2018. Why should we teach machines to read charts made for humans?https://vgc.poly.edu/\u00a0jhenrique/files/chi2019_workshop_ML_Evaluate_Vis.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Alvitta Ottley, Roman Garnett, and Ran Wan. 2019. Follow The Clicks: Learning and Anticipating Mouse Interactions During Exploratory Data Analysis. CGF 38, 3 (2019), 41\u201352. https://doi.org/10.1111/cgf.13670",
+      "doi": ""
+    },
+    {
+      "text": "Ethan Perez, Florian Strub, Harm de Vries, Vincent Dumoulin, and Aaron Courville. 2018. FiLM: Visual Reasoning with a General Conditioning Layer. AAAI 32, 1 (Apr. 2018). https://ojs.aaai.org/index.php/AAAI/article/view/11671",
+      "doi": ""
+    },
+    {
+      "text": "Joshua\u00a0C. Peterson, Joshua\u00a0T. Abbott, and Thomas\u00a0L. Griffiths. 2018. Evaluating (and Improving) the Correspondence Between Deep Neural Networks and Human Representations. Cognitive Science 42, 8 (2018), 2648\u20132669. https://doi.org/10.1111/cogs.12670 arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.12670",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Pineo and Colin Ware. 2008. Neural Modeling of Flow Rendering Effectiveness. ACM Transactions on Applied Perception 7, 3, Article 20 (June 2008), 15\u00a0pages. https://doi.org/10.1145/1773965.1773971",
+      "doi": "10.1145/1773965.1773971"
+    },
+    {
+      "text": "Daniel Pineo and Colin Ware. 2012. Data Visualization Optimization via Computational Modeling of Perception. IEEE TVCG 18, 2 (2012), 309\u2013320. https://doi.org/10.1109/TVCG.2011.52",
+      "doi": "10.1109/TVCG.2011.52"
+    },
+    {
+      "text": "Jose Pinheiro, Douglas Bates, Saikat DebRoy, Deepayan Sarkar, and R Core Team. 2021. nlme: Linear and Nonlinear Mixed Effects Models. https://CRAN.R-project.org/package=nlme R package version 3.1-152.",
+      "doi": ""
+    },
+    {
+      "text": "Jorge Poco and Jeffrey Heer. 2017. Reverse-Engineering Visualizations: Recovering Visual Encodings from Chart Images. CGF 36, 3 (2017), 353\u2013363. https://doi.org/10.1111/cgf.13193",
+      "doi": "10.1111/cgf.13193"
+    },
+    {
+      "text": "Revanth Reddy, Rahul Ramesh, Ameet Deshpande, and Mitesh\u00a0M. Khapra. 2019. FigureNet : A Deep Learning model for Question-Answering on Scientific Plots. In The International Joint Conference on Neural Networks. 1\u20138. https://doi.org/10.1109/IJCNN.2019.8851830",
+      "doi": ""
+    },
+    {
+      "text": "Revanth Reddy, Rahul Ramesh, Ameet Deshpande, and Mitesh\u00a0M Khapra. 2019. FigureNet: A Deep Learning model for Question-Answering on Scientific Plots. In IJCNN. 1\u20138. http://arxiv.org/abs/1806.04655",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Reimann, Christine Blech, and Robert Gaschler. 2020. Visual model fit estimation in scatterplots and distribution of attention: Influence of slope and noise level. Experimental Psychology 67, 5 (2020), 292\u2013302. https://doi.org/10.1027/1618-3169/a000499",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Reimann, Christine Blech, Nilam Ram, and Robert Gaschler. 2021. Visual Model Fit Estimation in Scatterplots: Influence of Amount and Decentering of Noise. IEEE TVCG 27, 9 (2021), 3834\u20133838. https://doi.org/10.1109/TVCG.2021.3051853",
+      "doi": "10.1109/TVCG.2021.3051853"
+    },
+    {
+      "text": "Ronald\u00a0A. Rensink. 2017. The nature of correlation perception in scatterplots. Psychonomic Bulletin & Review 24 (2017), 776\u2013797. Issue 3. https://doi.org/10.3758/s13423-016-1174-7",
+      "doi": ""
+    },
+    {
+      "text": "Ronald\u00a0A Rensink. 2022. Visual features as carriers of abstract quantitative information.Journal of Experimental Psychology: General(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Ronald\u00a0A. Rensink and Gideon Baldridge. 2010. The Perception of Correlation in Scatterplots. CGF 29, 3, 1203\u20131210. https://doi.org/10.1111/j.1467-8659.2009.01694.x",
+      "doi": "10.1111/j.1467-8659.2009.01694.x"
+    },
+    {
+      "text": "Sara Sabour, Nicholas Frosst, and Geoffrey\u00a0E. Hinton. 2017. Dynamic Routing between Capsules. In NeurIPS. Curran Associates Inc., 3859\u20133869.",
+      "doi": ""
+    },
+    {
+      "text": "Manolis Savva, Nicholas Kong, Arti Chhajta, Li Fei-Fei, Maneesh Agrawala, and Jeffrey Heer. 2011. ReVision: Automated Classification, Analysis and Redesign of Chart Images. In ACM UIST. 393\u2013402. https://doi.org/10.1145/2047196.2047247",
+      "doi": "10.1145/2047196.2047247"
+    },
+    {
+      "text": "M. Sedlmair and M. Aupetit. 2015. Data-driven Evaluation of Visual Quality Measures. CGF 34, 3 (2015), 201\u2013210. https://doi.org/10.1111/cgf.12632",
+      "doi": ""
+    },
+    {
+      "text": "Michael Sedlmair, Andrada Tatu, Tamara Munzner, and Melanie Tory. 2012. A Taxonomy of Visual Cluster Separation Factors. CGF 31, 3pt4 (2012), 1335\u20131344. https://doi.org/10.1111/j.1467-8659.2012.03125.x",
+      "doi": "10.1111/j.1467-8659.2012.03125.x"
+    },
+    {
+      "text": "Thomas Serre, Lior Wolf, and Tomaso Poggio. 2005. Object recognition with features inspired by visual cortex. In IEEE CVPR, Vol.\u00a02. 994\u20131000 vol. 2. https://doi.org/10.1109/CVPR.2005.254",
+      "doi": "10.1109/CVPR.2005.254"
+    },
+    {
+      "text": "Varshita Sher, Karen\u00a0G. Bemis, Ilaria Liccardi, and Min Chen. 2017. An Empirical Study on the Reliability of Perceiving Correlation Indices using Scatterplots. CGF 36, 61\u201372. https://doi.org/10.1111/cgf.13168",
+      "doi": "10.1111/cgf.13168"
+    },
+    {
+      "text": "Kumar Shridhar, Felix Laumann, and Marcus Liwicki. 2019. A comprehensive guide to bayesian convolutional neural network with variational inference. arXiv preprint (2019). arXiv:1901.02731",
+      "doi": ""
+    },
+    {
+      "text": "Noah Siegel, Zachary Horvitz, Roie Levin, Santosh Divvala, and Ali Farhadi. 2016. FigureSeer: Parsing Result-Figures in Research Papers. In ECCV. Springer International Publishing, Cham, 664\u2013680.",
+      "doi": ""
+    },
+    {
+      "text": "Karen Simonyan and Andrew Zisserman. 2015. Very Deep Convolutional Networks for Large-Scale Image Recognition. (2015). http://arxiv.org/abs/1409.1556",
+      "doi": ""
+    },
+    {
+      "text": "Tom\u00a0AB Snijders and Roel\u00a0J Bosker. 2011. Multilevel analysis: An introduction to basic and advanced multilevel modeling. sage.",
+      "doi": ""
+    },
+    {
+      "text": "Stan Development Team. 2020. RStan: the R interface to Stan. http://mc-stan.org/ R package version 2.21.2.",
+      "doi": ""
+    },
+    {
+      "text": "Lim Swee\u00a0Kiat, Nolan Dey, Mehdi Cherti, and et al.2021. lucent: Lucid library adapted for pytorch. https://github.com/greentfrapp/lucent",
+      "doi": ""
+    },
+    {
+      "text": "Mingxing Tan and Quoc Le. 2019. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. In ICML, Kamalika Chaudhuri and Ruslan Salakhutdinov (Eds.). Vol.\u00a097. PMLR, 6105\u20136114. https://proceedings.mlr.press/v97/tan19a.html",
+      "doi": ""
+    },
+    {
+      "text": "Alberto Testolin, Serena Dolfi, Mathijs Rochus, and Marco Zorzi. 2020. Visual sense of number vs. sense of magnitude in humans and machines. Scientific reports 10, 1 (2020), 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Andy Thomas and Christian Kaltschmidt. 2014. Bio-inspired Neural Networks. In Memristor Networks. Springer International Publishing, 151\u2013172. https://doi.org/10.1007/978-3-319-02630-5_9",
+      "doi": ""
+    },
+    {
+      "text": "Melanie Tory, David Sprague, Fuqu Wu, Wing\u00a0Yan So, and Tamara Munzner. 2007. Spatialization Design: Comparing Points and Landscapes. IEEE TVCG 13, 6 (2007), 1262\u20131269. https://doi.org/10.1109/TVCG.2007.70596",
+      "doi": "10.1109/TVCG.2007.70596"
+    },
+    {
+      "text": "Jiachen Wang, Xiwen Cai, Jiajie Su, Yu Liao, and Yingcai Wu. 2021. What makes a scatterplot hard to comprehend: data size and pattern salience matter. Journal of Visualization(2021), 1\u201317. https://doi.org/10.1007/s12650-021-00778-8",
+      "doi": "10.1007/s12650-021-00778-8"
+    },
+    {
+      "text": "Pei Wang, Yijun Li, and Nuno Vasconcelos. 2021. Rethinking and improving the robustness of image style transfer. In IEEE/CVF CVPR. 124\u2013133. https://arxiv.org/abs/2104.05623",
+      "doi": ""
+    },
+    {
+      "text": "Qianwen Wang, Zhutian Chen, Yong Wang, and Huamin Qu. 2021. A Survey on ML4VIS: Applying MachineLearning Advances to Data Visualization. IEEE TVCG (2021). https://doi.org/10.1109/TVCG.2021.3106142",
+      "doi": "10.1109/TVCG.2021.3106142"
+    },
+    {
+      "text": "Yunhai Wang, Xin Chen, Tong Ge, Chen Bao, Michael Sedlmair, Chi-Wing Fu, Oliver Deussen, and Baoquan Chen. 2019. Optimizing Color Assignment for Perception of Class Separability in Multiclass Scatterplots. IEEE TVCG 25, 1 (2019), 820\u2013829. https://doi.org/10.1109/TVCG.2018.2864912",
+      "doi": "10.1109/TVCG.2018.2864912"
+    },
+    {
+      "text": "Zijie\u00a0J. Wang, Robert Turko, Omar Shaikh, Haekyu Park, Nilaksh Das, Fred Hohman, Minsuk Kahng, and Duen\u00a0Horng Polo\u00a0Chau. 2021. CNN explainer: Learning convolutional neural networks with interactive visualization. IEEE TVCG 27, 2 (2021), 1396\u20131406. https://doi.org/10.1109/TVCG.2020.3030418",
+      "doi": ""
+    },
+    {
+      "text": "P.D. Wasserman and T. Schwartz. 1988. Neural networks. II. What are they and why is everybody so interested in them now?IEEE Expert 3, 1 (1988), 10\u201315. https://doi.org/10.1109/64.2091",
+      "doi": "10.1109/64.2091"
+    },
+    {
+      "text": "G.\u00a0N. Wilkinson and C.\u00a0E. Rogers. 1973. Symbolic description of factorial models for analysis of variance. Journal of the Royal Statistical Society: Series C (Applied Statistics) 22, 3(1973), 392\u2013399. https://doi.org/10.2307/2346786",
+      "doi": ""
+    },
+    {
+      "text": "Leland Wilkinson, Anushka Anand, and Robert Grossman. 2005. Graph-Theoretic Scagnostics. In IEEE Information Visualization. 21. https://doi.org/10.1109/INFOVIS.2005.14",
+      "doi": "10.1109/INFOVIS.2005.14"
+    },
+    {
+      "text": "Leslie W\u00f6hler, Yuxin Zou, Moritz M\u00fchlhausen, Georgia Albuquerque, and Marcus Magnor. 2019. Learning a Perceptual Quality Metric for Correlation in Scatterplots. In Vision, Modeling and Visualization. https://doi.org/10.2312/vmv.20191318",
+      "doi": ""
+    },
+    {
+      "text": "Cindy Xiong, Ali Sarvghad, \u00c7a\u011fatay Demiralp, Jake\u00a0M Hofman, and Daniel\u00a0G Goldstein. 2022. Investigating Perceptual Biases in Icon Arrays. In ACM CHI.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel L.\u00a0K. Yamins, Ha Hong, Charles\u00a0F. Cadieu, Ethan\u00a0A. Solomon, Darren Seibert, and James\u00a0J. DiCarlo. 2014. Performance-optimized hierarchical models predict neural responses in higher visual cortex. Proceedings of the National Academy of Sciences 111, 23(2014), 8619\u20138624. https://doi.org/10.1073/pnas.1403112111 arXiv:https://www.pnas.org/content/111/23/8619.full.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Fumeng Yang, Lane Harrison, Ronald\u00a0A. Rensink, Steven Franconeri, and Remco Chang. 2019. Correlation Judgment and Visualization Features: A Comparative Study. IEEE TVCG 25, 3 (2019), 1474\u20131488. https://doi.org/10.1109/TVCG.2018.2810918",
+      "doi": ""
+    },
+    {
+      "text": "Linping Yuan, Ziqi Zhou, Jian Zhao, Yiqiu Guo, Fan Du, and Huamin Qu. 2021. InfoColorizer: Interactive Recommendation of Color Palettes for Infographics. IEEE TVCG (2021), 1\u20131. https://doi.org/10.1109/TVCG.2021.3085327",
+      "doi": "10.1109/TVCG.2021.3085327"
+    },
+    {
+      "text": "Sergey Zagoruyko and Nikos Komodakis. 2016. Wide Residual Networks. In Proceedings of the British Machine Vision Conference, Edwin R.\u00a0Hancock Richard C.\u00a0Wilson and William A.\u00a0P. Smith (Eds.). Article 87, 12\u00a0pages. https://doi.org/10.5244/C.30.87",
+      "doi": ""
+    },
+    {
+      "text": "Richard Zhang. 2019. Making Convolutional Networks Shift-Invariant Again. CoRR abs/1904.11486. arxiv:1904.11486http://arxiv.org/abs/1904.11486",
+      "doi": ""
+    },
+    {
+      "text": "Jian Zhao, Mingming Fan, and Mi Feng. 2020. ChartSeer: Interactive Steering Exploratory Visual Analysis with Machine Intelligence. IEEE TVCG (2020), 1\u20131. https://doi.org/10.1109/TVCG.2020.3018724",
+      "doi": ""
+    }
+  ]
+}

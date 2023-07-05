@@ -1,0 +1,286 @@
+{
+  "doi": "10.1145/3544548.3581373",
+  "title": "ESCAPE: Countering Systematic Errors from Machine\u2019s Blind Spots via Interactive Visual Analysis",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Classification models learn to generalize the associations between data samples and their target classes. However, researchers have increasingly observed that machine learning practice easily leads to systematic errors in AI applications, a phenomenon referred to as \u201cAI blindspots.\u201d Such blindspots arise when a model is trained with training samples (e.g., cat/dog classification) where important patterns (e.g., black cats) are missing or periphery/undesirable patterns (e.g., dogs with grass background) are misleading towards a certain class. Even more sophisticated techniques cannot guarantee to capture, reason about, and prevent the spurious associations. In this work, we propose ESCAPE, a visual analytic system that promotes a human-in-the-loop workflow for countering systematic errors. By allowing human users to easily inspect spurious associations, the system facilitates users to spontaneously recognize concepts associated misclassifications and evaluate mitigation strategies that can reduce biased associations. We also propose two statistical approaches, relative concept association to better quantify the associations between a concept and instances, and debias method to mitigate spurious associations. We demonstrate the utility of our proposed ESCAPE system and statistical measures through extensive evaluation including quantitative experiments, usage scenarios, expert interviews, and controlled user experiments.",
+  "authors": [
+    {
+      "name": "Yongsu Ahn",
+      "institution": "School of Computing and Information, University of Pittsburgh, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659541725",
+      "orcid": "0000-0002-5797-5445"
+    },
+    {
+      "name": "Yu-Ru Lin",
+      "institution": "School of Computing and Information, University of Pittsburgh, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "87358607257",
+      "orcid": "0000-0002-8497-3015"
+    },
+    {
+      "name": "Panpan Xu",
+      "institution": "Amazon AWS, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81487645560",
+      "orcid": "0000-0001-7966-2389"
+    },
+    {
+      "name": "Zeng Dai",
+      "institution": "Meta, United States",
+      "img": "",
+      "acmid": "81500645454",
+      "orcid": "0000-0001-9613-9434"
+    }
+  ],
+  "references": [
+    {
+      "text": "Yongsu Ahn and Yu-Ru Lin. 2019. FairSight: Visual Analytics for Fairness in Decision Making. IEEE Transactions on Visualization and Computer Graphics (2019), 1\u20131. https://doi.org/10.1109/TVCG.2019.2934262 arXiv:1908.00176.",
+      "doi": ""
+    },
+    {
+      "text": "Bilal Alsallakh, Allan Hanbury, Helwig Hauser, Silvia Miksch, and Andreas Rauber. 2014. Visual Methods for Analyzing Probabilistic Classification Data. IEEE Transactions on Visualization and Computer Graphics 20, 12 (Dec. 2014), 1703\u20131712. https://doi.org/10.1109/TVCG.2014.2346660",
+      "doi": ""
+    },
+    {
+      "text": "Joshua Attenberg, Panos Ipeirotis, and Foster Provost. 2015. Beat the Machine: Challenging Humans to Find a Predictive Model\u2019s \u201cUnknown Unknowns\u201d. Journal of Data and Information Quality 6, 1 (March 2015), 1\u201317. https://doi.org/10.1145/2700832",
+      "doi": "10.1145/2700832"
+    },
+    {
+      "text": "Gagan Bansal and Daniel Weld. 2018. A coverage-based utility model for identifying unknown unknowns. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a032.",
+      "doi": ""
+    },
+    {
+      "text": "Rick Barraza, Russell Eames, Yan\u00a0Esteve Balducci, Josh Hinds, Scott Hoogerwerf, Eric Horvitz, Ece Kamar, Jacquelyn Krones, Josh Lovejoy, Parham Mohadjer, 2019. Error terrain analysis for machine learning: Tool and visualizations. In ICLR workshop on debugging machine learning models.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Bischof and Edoardo\u00a0M Airoldi. 2012. Summarizing topical content with word frequency and exclusivity. In Proceedings of the 29th International Conference on Machine Learning (ICML-12). 201\u2013208.",
+      "doi": ""
+    },
+    {
+      "text": "Tolga Bolukbasi, Kai-Wei Chang, James\u00a0Y Zou, Venkatesh Saligrama, and Adam\u00a0T Kalai. 2016. Man is to computer programmer as woman is to homemaker? debiasing word embeddings. Advances in neural information processing systems 29 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Glenn\u00a0W Brier 1950. Verification of forecasts expressed in terms of probability. Monthly weather review 78, 1 (1950), 1\u20133.",
+      "doi": ""
+    },
+    {
+      "text": "\u00c1ngel\u00a0Alexander Cabrera, Abraham\u00a0J. Druck, Jason\u00a0I. Hong, and Adam Perer. 2021. Discovering and Validating AI Errors With Crowdsourced Failure Reports. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2 (Oct. 2021), 1\u201322. https://doi.org/10.1145/3479569",
+      "doi": "10.1145/3479569"
+    },
+    {
+      "text": "\u00c1ngel\u00a0Alexander Cabrera, Will Epperson, Fred Hohman, Minsuk Kahng, Jamie Morgenstern, and Duen\u00a0Horng Chau. 2019. FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning. arXiv:1904.05419 [cs, stat] (April 2019). http://arxiv.org/abs/1904.05419 arXiv:1904.05419.",
+      "doi": ""
+    },
+    {
+      "text": "\u00c1ngel\u00a0Alexander Cabrera, Marco\u00a0Tulio Ribeiro, Bongshin Lee, Rob DeLine, Adam Perer, and Steven\u00a0M. Drucker. 2022. What Did My AI Learn? How Data Scientists Make Sense of Model Behavior. ACM Transactions on Computer-Human Interaction (June 2022), 3542921. https://doi.org/10.1145/3542921",
+      "doi": "10.1145/3542921"
+    },
+    {
+      "text": "Changjian Chen, Jun Yuan, Yafeng Lu, Yang Liu, Hang Su, Songtao Yuan, and Shixia Liu. 2020. OoDAnalyzer: Interactive Analysis of Out-of-Distribution Samples. arXiv:2002.03103 [cs] (Feb. 2020). http://arxiv.org/abs/2002.03103 arXiv:2002.03103.",
+      "doi": ""
+    },
+    {
+      "text": "Zhi Chen, Yijie Bei, and Cynthia Rudin. 2020. Concept Whitening for Interpretable Image Recognition. Nature Machine Intelligence 2, 12 (Dec. 2020), 772\u2013782. https://doi.org/10.1038/s42256-020-00265-z arxiv:2002.01650",
+      "doi": ""
+    },
+    {
+      "text": "Yeounoh Chung, Peter\u00a0J Haas, Eli Upfal, and Tim Kraska. 2018. Unknown examples & machine learning model generalization. arXiv preprint arXiv:1808.08294(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Dennis Collaris and Jarke\u00a0J. van Wijk. 2020. ExplainExplore: Visual Exploration of Machine Learning Explanations. In 2020 IEEE Pacific Visualization Symposium (PacificVis). IEEE, Tianjin, China, 26\u201335. https://doi.org/10.1109/PacificVis48177.2020.7090",
+      "doi": ""
+    },
+    {
+      "text": "Kate Crawford and Ryan Calo. 2016. There is a blind spot in AI research. Nature 538, 7625 (2016), 311\u2013313.",
+      "doi": ""
+    },
+    {
+      "text": "Greg d\u2019Eon, Jason d\u2019Eon, James\u00a0R. Wright, and Kevin Leyton-Brown. 2021. The Spotlight: A General Method for Discovering Systematic Errors in Deep Learning Models. http://arxiv.org/abs/2107.00758 arXiv:2107.00758 [cs, stat].",
+      "doi": ""
+    },
+    {
+      "text": "M. Everingham, L. Van\u00a0Gool, C.\u00a0K.\u00a0I. Williams, J. Winn, and A. Zisserman. 2010. The Pascal Visual Object Classes (VOC) Challenge. International Journal of Computer Vision 88, 2 (June 2010), 303\u2013338.",
+      "doi": "10.1007/s11263-009-0275-4"
+    },
+    {
+      "text": "Sabri Eyuboglu, Maya Varma, Khaled Saab, Jean-Benoit Delbrouck, Christopher Lee-Messer, Jared Dunnmon, James Zou, and Christopher R\u00e9. 2022. Domino: Discovering Systematic Errors with Cross-Modal Embeddings. http://arxiv.org/abs/2203.14960 arXiv:2203.14960 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "Amirata Ghorbani, James Wexler, James Zou, and Been Kim. 2019. Towards Automatic Concept-based Explanations. arXiv:1902.03129 [cs, stat] (Oct. 2019). http://arxiv.org/abs/1902.03129 arXiv:1902.03129.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel Gratzl, Nils Gehlenborg, Alexander Lex, Hanspeter Pfister, and Marc Streit. 2014. Domino: Extracting, Comparing, and Manipulating Subsets Across Multiple Tabular Datasets. IEEE Transactions on Visualization and Computer Graphics 20, 12 (Dec. 2014), 2023\u20132032. https://doi.org/10.1109/TVCG.2014.2346260 Conference Name: IEEE Transactions on Visualization and Computer Graphics.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel Gratzl, Nils Gehlenborg, Alexander Lex, Hanspeter Pfister, and Marc Streit. 2014. Domino: Extracting, Comparing, and Manipulating Subsets Across Multiple Tabular Datasets. IEEE Transactions on Visualization and Computer Graphics 20, 12 (Dec. 2014), 2023\u20132032. https://doi.org/10.1109/TVCG.2014.2346260",
+      "doi": ""
+    },
+    {
+      "text": "Lei Han, Xiao Dong, and Gianluca Demartini. 2021. Iterative Human-in-the-Loop Discovery of Unknown Unknowns in Image Datasets. In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing, Vol.\u00a09. 72\u201383.",
+      "doi": ""
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition. 770\u2013778.",
+      "doi": ""
+    },
+    {
+      "text": "Fred Hohman, Nathan Hodas, and Duen\u00a0Horng Chau. 2017. ShapeShop: Towards Understanding Deep Learning Representations via Interactive Experimentation. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems - CHI EA \u201917. ACM Press, Denver, Colorado, USA, 1694\u20131699. https://doi.org/10.1145/3027063.3053103",
+      "doi": "10.1145/3027063.3053103"
+    },
+    {
+      "text": "Md\u00a0Naimul Hoque, Wenbin He, Arvind\u00a0Kumar Shekar, Liang Gou, and Liu Ren. 2022. Visual Concept Programming: A Visual Analytics Approach to Injecting Human Intelligence At Scale. IEEE Transactions on Visualization and Computer Graphics (2022), 1\u201310. https://doi.org/10.1109/TVCG.2022.3209466 Conference Name: IEEE Transactions on Visualization and Computer Graphics.",
+      "doi": ""
+    },
+    {
+      "text": "Jinbin Huang, Aditi Mishra, Bum-Chul Kwon, and Chris Bryan. 2022. ConceptExplainer: Understanding the Mental Model of Deep Learning Algorithms via Interactive Concept-based Explanations. http://arxiv.org/abs/2204.01888 arXiv:2204.01888 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "Shichao Jia, Peiwen Lin, Zeyu Li, Jiawan Zhang, and Shixia Liu. 2019. Visualizing surrogate decision trees of convolutional neural networks. Journal of Visualization (Nov. 2019). https://doi.org/10.1007/s12650-019-00607-z",
+      "doi": "10.1007/s12650-019-00607-z"
+    },
+    {
+      "text": "Kaggle. 2014. Dogs vs. Cats. https://www.kaggle.com/c/dogs-vs-cats",
+      "doi": ""
+    },
+    {
+      "text": "Smiti Kaul, David Borland, Nan Cao, and David Gotz. 2021. Improving Visualization Interpretation Using Counterfactuals. IEEE Transactions on Visualization and Computer Graphics 28, 1(2021), 998\u20131008.",
+      "doi": "10.1109/TVCG.2021.3114779"
+    },
+    {
+      "text": "Been Kim, Cynthia Rudin, and Julie\u00a0A Shah. 2014. The Bayesian Case Model: A Generative Approach for Case-Based Reasoning and Prototype Classification. In Advances in Neural Information Processing Systems 27, Z.\u00a0Ghahramani, M.\u00a0Welling, C.\u00a0Cortes, N.\u00a0D. Lawrence, and K.\u00a0Q. Weinberger (Eds.). Curran Associates, Inc., 1952\u20131960. http://papers.nips.cc/paper/5313-the-bayesian-case-model-a-generative-approach-for-case-based-reasoning-and-prototype-classification.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, and Rory Sayres. 2018. Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV). arXiv:1711.11279 [stat] (June 2018). http://arxiv.org/abs/1711.11279 arXiv:1711.11279.",
+      "doi": ""
+    },
+    {
+      "text": "Josua Krause, Aritra Dasgupta, Jordan Swartz, Yindalon Aphinyanaphongs, and Enrico Bertini. 2017. A workflow for visual diagnostics of binary classifiers using instance-level explanations. In 2017 IEEE Conference on Visual Analytics Science and Technology (VAST). IEEE, 162\u2013172.",
+      "doi": ""
+    },
+    {
+      "text": "Bum\u00a0Chul Kwon, Jungsoo Lee, Chaeyeon Chung, Nyoungwoo Lee, Ho-Jin Choi, and Jaegul Choo. 2022. DASH: Visual Analytics for Debiasing Image Classification via User-Driven Synthetic Data Augmentation. In Eurographics Conference on Visualization.",
+      "doi": ""
+    },
+    {
+      "text": "Bum\u00a0Chul Kwon, Jungsoo Lee, Chaeyeon Chung, Nyoungwoo Lee, Ho-Jin Choi, and Jaegul Choo. 2022. DASH: Visual Analytics for Debiasing Image Classification via User-Driven Synthetic Data Augmentation. https://doi.org/10.2312/evs.20221099",
+      "doi": ""
+    },
+    {
+      "text": "Himabindu Lakkaraju, Ece Kamar, Rich Caruana, and Eric Horvitz. 2017. Identifying unknown unknowns in the open world: Representations and policies for guided exploration. In Thirty-first aaai conference on artificial intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "Cheng-Han Lee, Ziwei Liu, Lingyun Wu, and Ping Luo. 2020. MaskGAN: Towards Diverse and Interactive Facial Image Manipulation. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR).",
+      "doi": ""
+    },
+    {
+      "text": "Anthony Liu, Santiago Guerra, Isaac Fung, Gabriel Matute, Ece Kamar, and Walter Lasecki. 2020. Towards Hybrid Human-AI Workflows for Unknown Unknown Detection. In Proceedings of The Web Conference 2020. ACM, Taipei Taiwan, 2432\u20132442. https://doi.org/10.1145/3366423.3380306",
+      "doi": "10.1145/3366423.3380306"
+    },
+    {
+      "text": "Mengchen Liu, Jiaxin Shi, Kelei Cao, Jun Zhu, and Shixia Liu. 2017. Analyzing the training processes of deep generative models. IEEE transactions on visualization and computer graphics 24, 1(2017), 77\u201387.",
+      "doi": ""
+    },
+    {
+      "text": "Leland McInnes, John Healy, and James Melville. 2018. Umap: Uniform manifold approximation and projection for dimension reduction. arXiv preprint arXiv:1802.03426(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Yao Ming, Panpan Xu, Furui Cheng, Huamin Qu, and Liu Ren. 2019. ProtoSteer: Steering Deep Sequence Model with Prototypes. IEEE Transactions on Visualization and Computer Graphics (2019), 1\u20131. https://doi.org/10.1109/TVCG.2019.2934267",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0L Olson, Thuy-Vy Nguyen, Gaurav Dixit, Neale Ratzlaff, Weng-Keen Wong, and Minsuk Kahng. 2021. Contrastive identification of covariate shift in image data. In 2021 IEEE Visualization Conference (VIS). IEEE, 36\u201340.",
+      "doi": ""
+    },
+    {
+      "text": "Deokgun Park, Seungyeon Kim, Jurim Lee, Jaegul Choo, Nicholas Diakopoulos, and Niklas Elmqvist. 2018. ConceptVector: Text Visual Analytics via Interactive Lexicon Building Using Word Embedding. IEEE Transactions on Visualization and Computer Graphics 24, 1 (Jan. 2018), 361\u2013370. https://doi.org/10.1109/TVCG.2017.2744478",
+      "doi": ""
+    },
+    {
+      "text": "Haekyu Park, Nilaksh Das, Rahul Duggal, Austin\u00a0P. Wright, Omar Shaikh, Fred Hohman, and Duen\u00a0Horng Chau. 2021. NeuroCartography: Scalable Automatic Visual Summarization of Concepts in Deep Neural Networks. arXiv:2108.12931 [cs] (Aug. 2021). http://arxiv.org/abs/2108.12931 arXiv:2108.12931.",
+      "doi": ""
+    },
+    {
+      "text": "Gregory Plumb, Nari Johnson, \u00c1ngel\u00a0Alexander Cabrera, Marco\u00a0Tulio Ribeiro, and Ameet Talwalkar. 2022. Evaluating Systemic Error Detection Methods using Synthetic Images. http://arxiv.org/abs/2207.04104 arXiv:2207.04104 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "Nazneen Rajani, Weixin Liang, Lingjiao Chen, Meg Mitchell, and James Zou. 2022. SEAL : Interactive Tool for Systematic Error Analysis and Labeling. http://arxiv.org/abs/2210.05839 arXiv:2210.05839 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "Archit Rathore, Nithin Chalapathi, Sourabh Palande, and Bei Wang. 2020. TopoAct: Visually Exploring the Shape of Activations in Deep Learning. arXiv:1912.06332 [cs] (July 2020). http://arxiv.org/abs/1912.06332 arXiv:1912.06332.",
+      "doi": ""
+    },
+    {
+      "text": "Donghao Ren, Saleema Amershi, Bongshin Lee, Jina Suh, and Jason\u00a0D. Williams. 2017. Squares: Supporting Interactive Performance Analysis for Multiclass Classifiers. IEEE Transactions on Visualization and Computer Graphics 23, 1 (Jan. 2017), 61\u201370. https://doi.org/10.1109/TVCG.2016.2598828",
+      "doi": "10.1109/TVCG.2016.2598828"
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2016. \"Why Should I Trust You?\": Explaining the Predictions of Any Classifier. arXiv:1602.04938 [cs, stat] (Feb. 2016). http://arxiv.org/abs/1602.04938 arXiv:1602.04938.",
+      "doi": ""
+    },
+    {
+      "text": "Hong Shen, Haojian Jin, \u00c1ngel\u00a0Alexander Cabrera, Adam Perer, Haiyi Zhu, and Jason\u00a0I Hong. 2020. Designing alternative representations of confusion matrices to support non-expert public understanding of algorithm performance. Proceedings of the ACM on Human-Computer Interaction 4, CSCW2(2020), 1\u201322.",
+      "doi": "10.1145/3415224"
+    },
+    {
+      "text": "Jina Suh, Soroush Ghorashi, Gonzalo Ramos, Nan-Chen Chen, Steven Drucker, Johan Verwey, and Patrice Simard. 2019. AnchorViz: Facilitating Semantic Data Exploration and Concept Discovery for Interactive Machine Learning. ACM Transactions on Interactive Intelligent Systems 10, 1 (Aug. 2019), 1\u201338. https://doi.org/10.1145/3241379",
+      "doi": "10.1145/3241379"
+    },
+    {
+      "text": "Adam Sutton, Thomas Lansdall-Welfare, and Nello Cristianini. 2018. Biased embeddings from wild data: Measuring, understanding and removing. In International Symposium on Intelligent Data Analysis. Springer, 328\u2013339.",
+      "doi": ""
+    },
+    {
+      "text": "Sarah Tan, Julius Adebayo, Kori Inkpen, and Ece Kamar. 2018. Investigating Human + Machine Complementarity for Recidivism Predictions. arXiv:1808.09123 [cs, stat] (Dec. 2018). http://arxiv.org/abs/1808.09123 arXiv:1808.09123.",
+      "doi": ""
+    },
+    {
+      "text": "Colin Vandenhof and Edith Law. 2019. Contradict the Machine: A Hybrid Approach to Identifying Unknown Unknowns. (2019), 3.",
+      "doi": ""
+    },
+    {
+      "text": "Junpeng Wang, Liang Gou, Wei Zhang, Hao Yang, and Han-Wei Shen. 2019. DeepVID: Deep Visual Interpretation and Diagnosis for Image Classifiers via Knowledge Distillation. IEEE Transactions on Visualization and Computer Graphics 25, 6 (June 2019), 2168\u20132180. https://doi.org/10.1109/TVCG.2019.2903943 Conference Name: IEEE Transactions on Visualization and Computer Graphics.",
+      "doi": ""
+    },
+    {
+      "text": "X. Wang, W. Chen, J. Xia, Z. Chen, D. Xu, X. Wu, M. Xu, and T. Schreck. 2020. ConceptExplorer: Visual Analysis of Concept Drifts in Multi-source Time-series Data. In 2020 IEEE Conference on Visual Analytics Science and Technology (VAST). 1\u201311. https://doi.org/10.1109/VAST50239.2020.00006",
+      "doi": ""
+    },
+    {
+      "text": "James Wexler, Mahima Pushkarna, Tolga Bolukbasi, Martin Wattenberg, Fernanda Viegas, and Jimbo Wilson. 2019. The What-If Tool: Interactive Probing of Machine Learning Models. IEEE Transactions on Visualization and Computer Graphics (2019), 1\u20131. https://doi.org/10.1109/TVCG.2019.2934619",
+      "doi": ""
+    },
+    {
+      "text": "Weikai Yang, Zhen Li, Mengchen Liu, Yafeng Lu, Kelei Cao, Ross Maciejewski, and Shixia Liu. 2020. Diagnosing Concept Drift with Visual Analytics. arXiv:2007.14372 [cs, stat] (Sept. 2020). http://arxiv.org/abs/2007.14372 arXiv:2007.14372.",
+      "doi": ""
+    },
+    {
+      "text": "Jiawei Zhang, Yang Wang, Piero Molino, Lezhi Li, and David\u00a0S. Ebert. 2019. Manifold: A Model-Agnostic Framework for Interpretation and Diagnosis of Machine Learning Models. IEEE Transactions on Visualization and Computer Graphics 25, 1 (Jan. 2019), 364\u2013373. https://doi.org/10.1109/TVCG.2018.2864499 arXiv:1808.00196.",
+      "doi": "10.1109/TVCG.2018.2864499"
+    },
+    {
+      "text": "Jieyu Zhao, Yichao Zhou, Zeyu Li, Wei Wang, and Kai-Wei Chang. 2018. Learning gender-neutral word embeddings. arXiv preprint arXiv:1809.01496(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Zhenge Zhao, Panpan Xu, Carlos Scheidegger, and Liu Ren. 2021. Human-in-the-loop extraction of interpretable concepts in deep learning models. IEEE Transactions on Visualization and Computer Graphics 28, 1(2021), 780\u2013790.",
+      "doi": "10.1109/TVCG.2021.3114837"
+    }
+  ]
+}

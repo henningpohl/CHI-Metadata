@@ -1,0 +1,366 @@
+{
+  "doi": "10.1145/3544548.3581358",
+  "title": "Effective 2D Stroke-based Gesture Augmentation for RNNs",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-13",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Recurrent neural networks (RNN) require large training datasets from which they learn new class models. This limitation prohibits their use in custom gesture applications where only one or two end user samples are given per gesture class. One common way to enhance sparse datasets is to use data augmentation to synthesize new samples. Although there are numerous known techniques, they are often treated as standalone approaches when in reality they are often complementary. We show that by intelligently chaining augmentation techniques together that simulate different gesture production variability types, such as those affecting the temporal and spatial qualities of a gesture, we can significantly increase RNN accuracy without sacrificing training time. Through experimentation on four public stroke-based 2D gesture datasets, we show that RNNs trained with our data augmentation chaining technique achieves state-of-the-art recognition accuracy in both writer-dependent and writer-independent test scenarios.",
+  "authors": [
+    {
+      "name": "Mykola Maslych",
+      "institution": "Interactive Systems and User Experience Lab, University of Central Florida, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659529625",
+      "orcid": "0000-0001-7037-3513"
+    },
+    {
+      "name": "Eugene Matthew Taranta",
+      "institution": "Interactive Systems and User Experience Lab, University of Central Florida, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "89558635157",
+      "orcid": "0000-0001-5615-2597"
+    },
+    {
+      "name": "Mostafa Aldilati",
+      "institution": "University of Central Florida, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660781548",
+      "orcid": "0000-0002-4357-1650"
+    },
+    {
+      "name": "Joseph J. Laviola",
+      "institution": "University of Central Florida, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100283513",
+      "orcid": "0000-0003-1186-4130"
+    }
+  ],
+  "references": [
+    {
+      "text": "Lisa Anthony and Jacob\u00a0O. Wobbrock. 2010. A lightweight multistroke recognizer for user interface prototypes. In Proceedings of Graphics Interface 2010(GI \u201910). Canadian Information Processing Society, CAN, 245\u2013252.",
+      "doi": "10.5555/1839214.1839258"
+    },
+    {
+      "text": "Lisa Anthony and Jacob\u00a0O Wobbrock. 2012. $ n-protractor: A fast and accurate multistroke recognizer. In Proceedings of Graphics Interface 2012(GI \u201912). Graphics Interface Conference 2012, Toronto, Ontario, Canada, 117\u2013120.",
+      "doi": ""
+    },
+    {
+      "text": "Ahmed\u00a0Sabbir Arif and Wolfgang Stuerzlinger. 2014. User adaptation to a faulty unistroke-based text entry technique by switching to an alternative gesture set. In Proceedings of Graphics Interface 2014(GI \u201914). Canadian Information Processing Society, CAN, 183\u2013192.",
+      "doi": "10.5555/2619648.2619679"
+    },
+    {
+      "text": "Ujjwal Bhattacharya, R\u00e9jean Plamondon, Souvik Dutta\u00a0Chowdhury, Pankaj Goyal, and Swapan\u00a0K. Parui. 2017. A Sigma-Lognormal Model-Based Approach to Generating Large Synthetic Online Handwriting Sample Databases. International Journal on Document Analysis and Recognition (IJDAR) 20, 3 (Sept. 2017), 155\u2013171. https://doi.org/10.1007/s10032-017-0287-5",
+      "doi": "10.1007/s10032-017-0287-5"
+    },
+    {
+      "text": "Rachel Blagojevic, Samuel Hsiao-Heng Chang, and Beryl Plimmer. 2010. The Power of Automatic Feature Selection: Rubine on Steroids.SBIM 10(2010), 79\u201386.",
+      "doi": ""
+    },
+    {
+      "text": "Ariel Caputo, Andrea Giachetti, Simone Soso, Deborah Pintani, Andrea D\u2019Eusanio, Stefano Pini, Guido Borghi, Alessandro Simoni, Roberto Vezzani, Rita Cucchiara, Andrea Ranieri, Franca Giannini, Katia Lupinetti, Marina Monti, Mehran Maghoumi, Joseph\u00a0J. LaViola\u00a0Jr, Minh-Quan Le, Hai-Dang Nguyen, and Minh-Triet Tran. 2021. SHREC 2021: Skeleton-based Hand Gesture Recognition in the Wild. Computers & Graphics 99 (Oct. 2021), 201\u2013211. https://doi.org/10.1016/j.cag.2021.07.007",
+      "doi": "10.1016/j.cag.2021.07.007"
+    },
+    {
+      "text": "F.\u00a0M. Caputo, S. Burato, G. Pavan, T. Voillemin, H. Wannous, J.\u00a0P. Vandeborre, M. Maghoumi, E.\u00a0M. Taranta\u00a0II, A. Razmjoo, J.\u00a0J. LaViola\u00a0Jr., F. Manganaro, S. Pini, G. Borghi, R. Vezzani, R. Cucchiara, H. Nguyen, M.\u00a0T. Tran, and A. Giachetti. 2019. Online Gesture Recognition. In Eurographics Workshop on 3D Object Retrieval. The Eurographics Association, Department of Computer Science, University of Verona, Italy, 10\u00a0pages. https://doi.org/10.2312/3dor.20191067",
+      "doi": ""
+    },
+    {
+      "text": "Yineng Chen, Xiaojun Su, Feng Tian, Jin Huang, Xiaolong\u00a0(Luke) Zhang, Guozhong Dai, and Hongan Wang. 2016. Pactolus: A Method for Mid-Air Gesture Segmentation within EMG. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems(CHI EA \u201916). Association for Computing Machinery, New York, NY, USA, 1760\u20131765. https://doi.org/10.1145/2851581.2892492",
+      "doi": "10.1145/2851581.2892492"
+    },
+    {
+      "text": "Kyunghyun Cho, Bart van Merrienboer, \u00c7aglar G\u00fcl\u00e7ehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. 2014. Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation. CoRR abs/1406.1078(2014), 15\u00a0pages. arXiv:1406.1078http://arxiv.org/abs/1406.1078",
+      "doi": ""
+    },
+    {
+      "text": "Sung-Jung Cho, Eunseok Choi, Won-Chul Bang, Jing Yang, Junil Sohn, Dong\u00a0Yoon Kim, Young-Bum Lee, and Sangryong Kim. 2006. Two-stage Recognition of Raw Acceleration Signals for 3-D Gesture-Understanding Cell Phones. In Tenth International Workshop on Frontiers in Handwriting Recognition, Guy Lorette (Ed.). Universit\u00e9 de Rennes 1, Suvisoft, La Baule (France). https://hal.inria.fr/inria-00103854http://www.suvisoft.com.",
+      "doi": ""
+    },
+    {
+      "text": "Ekin\u00a0D. Cubuk, Barret Zoph, Jonathon Shlens, and Quoc\u00a0V. Le. 2019. RandAugment: Practical automated data augmentation with a reduced search space. https://doi.org/10.48550/ARXIV.1909.13719",
+      "doi": ""
+    },
+    {
+      "text": "Kenny Davila, Stephanie Ludi, and Richard Zanibbi. 2014. Using Off-Line Features and Synthetic Data for On-Line Handwritten Math Symbol Recognition. In 2014 14th International Conference on Frontiers in Handwriting Recognition. IEEE, Hersonissos, Greece, 323\u2013328. https://doi.org/10.1109/ICFHR.2014.61",
+      "doi": ""
+    },
+    {
+      "text": "Yousef Elarian, Radwan Abdel-Aal, Irfan Ahmad, Mohammad\u00a0Tanvir Parvez, and Abdelmalek Zidouri. 2014. Handwriting Synthesis: Classifications and Techniques. International Journal on Document Analysis and Recognition (IJDAR) 17, 4 (Dec. 2014), 455\u2013469. https://doi.org/10.1007/s10032-014-0231-x",
+      "doi": "10.1007/s10032-014-0231-x"
+    },
+    {
+      "text": "Raul Fernandez, Andrew Rosenberg, Alexander Sorin, Bhuvana Ramabhadran, and Ron Hoory. 2017. Voice-Transformation-Based Data Augmentation for Prosodic Classification. In 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 5530\u20135534. https://doi.org/10.1109/ICASSP.2017.7953214",
+      "doi": "10.1109/ICASSP.2017.7953214"
+    },
+    {
+      "text": "Germain Forestier, Fran\u00e7ois Petitjean, Hoang\u00a0Anh Dau, Geoffrey\u00a0I. Webb, and Eamonn Keogh. 2017. Generating Synthetic Time Series to Augment Sparse Datasets. In 2017 IEEE International Conference on Data Mining (ICDM). 865\u2013870. https://doi.org/10.1109/ICDM.2017.106 ISSN: 2374-8486.",
+      "doi": ""
+    },
+    {
+      "text": "Donatien Grolaux, Jean Vanderdonckt, Thanh-Diane Nguyen, and Iyad Khaddam. 2020. SketchADoodle: Touch-surface Multi-stroke Gesture Handling by B\u00e9zier Curves. Proceedings of the ACM on Human-Computer Interaction 4, EICS (June 2020), 1\u201330. https://doi.org/10.1145/3397875",
+      "doi": "10.1145/3397875"
+    },
+    {
+      "text": "T.M. Ha and H. Bunke. 1997. Off-Line, Handwritten Numeral Recognition by Perturbation Method. IEEE Transactions on Pattern Analysis and Machine Intelligence 19, 5 (May 1997), 535\u2013539. https://doi.org/10.1109/34.589216",
+      "doi": "10.1109/34.589216"
+    },
+    {
+      "text": "Shangchen Han, Beibei Liu, Randi Cabezas, Christopher\u00a0D. Twigg, Peizhao Zhang, Jeff Petkau, Tsz-Ho Yu, Chun-Jung Tai, Muzaffer Akbay, Zheng Wang, Asaf Nitzan, Gang Dong, Yuting Ye, Lingling Tao, Chengde Wan, and Robert Wang. 2020. MEgATrack: Monochrome Egocentric Articulated Hand-Tracking for Virtual Reality. ACM Transactions on Graphics 39, 4 (July 2020), 87:87:1\u201387:87:13. https://doi.org/10.1145/3386569.3392452",
+      "doi": "10.1145/3386569.3392452"
+    },
+    {
+      "text": "Taihei Hayashi, Keiji Gyohten, Hidehiro Ohki, and Toshiya Takami. 2018. A Study of Data Augmentation for Handwritten Character Recognition Using Deep Learning. In 2018 16th International Conference on Frontiers in Handwriting Recognition (ICFHR). 552\u2013557. https://doi.org/10.1109/ICFHR-2018.2018.00102",
+      "doi": ""
+    },
+    {
+      "text": "Samitha Herath, Mehrtash Harandi, and Fatih Porikli. 2017. Going deeper into action recognition: A survey. Image and Vision Computing 60 (April 2017), 4\u201321. https://doi.org/10.1016/j.imavis.2017.01.010",
+      "doi": "10.1016/j.imavis.2017.01.010"
+    },
+    {
+      "text": "Geoffrey\u00a0E. Hinton, Nitish Srivastava, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. 2012. Improving neural networks by preventing co-adaptation of feature detectors. CoRR abs/1207.0580(2012), 18\u00a0pages. arXiv:1207.0580http://arxiv.org/abs/1207.0580",
+      "doi": ""
+    },
+    {
+      "text": "Alexander Hoelzemann, Nimish Sorathiya, and Kristof\u00a0Van Laerhoven. 2021. Data Augmentation Strategies for Human Activity Data Using Generative Adversarial Neural Networks. 2021 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops) (2021). https://doi.org/10.1109/PerComWorkshops51409.2021.9431046",
+      "doi": ""
+    },
+    {
+      "text": "Sergey Ioffe and Christian Szegedy. 2015. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift, In ICML\u201915: Proceedings of the 32nd International Conference on International Conference on Machine Learning. CoRR 37, 448\u2013456. arXiv:1502.03167http://arxiv.org/abs/1502.03167",
+      "doi": ""
+    },
+    {
+      "text": "Brian\u00a0Kenji Iwana and Seiichi Uchida. 2021. An Empirical Survey of Data Augmentation for Time Series Classification with Neural Networks. PLoS ONE 16, 7 (July 2021), e0254841. https://doi.org/10.1371/journal.pone.0254841",
+      "doi": ""
+    },
+    {
+      "text": "Maria Karam and m.\u00a0c. schraefel. 2006. Investigating user tolerance for errors in vision-enabled gesture-based interactions. In Proceedings of the working conference on Advanced visual interfaces(AVI \u201906). Association for Computing Machinery, New York, NY, USA, 225\u2013232. https://doi.org/10.1145/1133265.1133309",
+      "doi": "10.1145/1133265.1133309"
+    },
+    {
+      "text": "Jungsoo Kim, Jiasheng He, Kent Lyons, and Thad Starner. 2007. The Gesture Watch: A Wireless Contact-free Gesture based Wrist Interface. In 2007 11th IEEE International Symposium on Wearable Computers. IEEE, Boston, MA, USA, 15\u201322. https://doi.org/10.1109/ISWC.2007.4373770 ISSN: 2376-8541.",
+      "doi": "10.1109/ISWC.2007.4373770"
+    },
+    {
+      "text": "Diederik\u00a0P. Kingma and Jimmy Ba. 2015. Adam: A Method for Stochastic Optimization, In 3rd International Conference on Learning Representations, ICLR, San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings. arXiv preprint arXiv:1412.6980 3, 1, 15\u00a0pages. http://arxiv.org/abs/1412.6980",
+      "doi": ""
+    },
+    {
+      "text": "Emanuele Ledda and Lucio\u00a0Davide Spano. 2021. Applying Long-Short Term Memory Recurrent Neural Networks for Real-Time Stroke Recognition. In Companion of the 2021 ACM SIGCHI Symposium on Engineering Interactive Computing Systems(EICS \u201921). Association for Computing Machinery, New York, NY, USA, 50\u201355. https://doi.org/10.1145/3459926.3464754",
+      "doi": "10.1145/3459926.3464754"
+    },
+    {
+      "text": "Hyeon-Kyu Lee and J.H. Kim. 1999. An HMM-based threshold model approach for gesture recognition. IEEE Transactions on Pattern Analysis and Machine Intelligence 21, 10 (Oct. 1999), 961\u2013973. https://doi.org/10.1109/34.799904 Conference Name: IEEE Transactions on Pattern Analysis and Machine Intelligence.",
+      "doi": "10.1109/34.799904"
+    },
+    {
+      "text": "Luis\u00a0A. Leiva, Daniel Mart\u00edn-Albo, and R\u00e9jean Plamondon. 2016. Gestures \u00e0 Go Go: Authoring Synthetic Human-Like Stroke Gestures Using the Kinematic Theory of Rapid Movements. ACM Transactions on Intelligent Systems and Technology 7, 2 (Jan. 2016), 1\u201329. https://doi.org/10.1145/2799648",
+      "doi": "10.1145/2799648"
+    },
+    {
+      "text": "Jiajun Li, Jianguo Tao, Liang Ding, Haibo Gao, Zongquan Deng, Yang Luo, and Zhandong Li. 2018. A New Iterative Synthetic Data Generation Method for CNN Based Stroke Gesture Recognition. Multimedia Tools and Applications 77, 13 (July 2018), 17181\u201317205. https://doi.org/10.1007/s11042-017-5285-6",
+      "doi": "10.1007/s11042-017-5285-6"
+    },
+    {
+      "text": "Yang Li. 2010. Protractor: A Fast and Accurate Gesture Recognizer. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201910). Association for Computing Machinery, New York, NY, USA, 2169\u20132172. https://doi.org/10.1145/1753326.1753654",
+      "doi": "10.1145/1753326.1753654"
+    },
+    {
+      "text": "Jun Liu, Amir Shahroudy, Dong Xu, and Gang Wang. 2016. Spatio-Temporal LSTM with Trust Gates for 3D Human Action Recognition. In Computer Vision \u2013 ECCV 2016(Lecture Notes in Computer Science), Bastian Leibe, Jiri Matas, Nicu Sebe, and Max Welling (Eds.). Springer International Publishing, Cham, 816\u2013833. https://doi.org/10.1007/978-3-319-46487-9_50 REVIEW FOR SURE.",
+      "doi": ""
+    },
+    {
+      "text": "Xiao-Hui Liu and Chin-Seng Chua. 2010. Rejection of non-meaningful activities for HMM-based activity recognition system. Image and Vision Computing 28, 6 (June 2010), 865\u2013871. https://doi.org/10.1016/j.imavis.2009.11.001",
+      "doi": "10.1016/j.imavis.2009.11.001"
+    },
+    {
+      "text": "Mehran Maghoumi and Joseph\u00a0J. LaViola. 2019. DeepGRU: Deep Gesture Recognition Utility. In Advances in Visual Computing. Vol.\u00a011844. Springer International Publishing, Cham, 16\u201331. https://doi.org/10.1007/978-3-030-33720-9_2",
+      "doi": "10.1007/978-3-030-33720-9_2"
+    },
+    {
+      "text": "Mehran Maghoumi, Eugene\u00a0Matthew Taranta, and Joseph LaViola. 2021. DeepNAG: Deep Non-Adversarial Gesture Generation. In 26th International Conference on Intelligent User Interfaces. ACM, College Station TX USA, 213\u2013223. https://doi.org/10.1145/3397481.3450675",
+      "doi": "10.1145/3397481.3450675"
+    },
+    {
+      "text": "Nathan Magrofuoco, Paolo Roselli, and Jean Vanderdonckt. 2022. Two-dimensional Stroke Gesture Recognition: A Survey. Comput. Surveys 54, 7 (Sept. 2022), 1\u201336. https://doi.org/10.1145/3465400",
+      "doi": "10.1145/3465400"
+    },
+    {
+      "text": "Ross Messing, Chris Pal, and Henry Kautz. 2009. Activity Recognition Using the Velocity Histories of Tracked Keypoints. In 2009 IEEE 12th International Conference on Computer Vision. 104\u2013111. https://doi.org/10.1109/ICCV.2009.5459154",
+      "doi": ""
+    },
+    {
+      "text": "Agnieszka Miko\u0142ajczyk and Micha\u0142 Grochowski. 2018. Data augmentation for improving deep learning in image classification problem. In 2018 International Interdisciplinary PhD Workshop (IIPhDW). 117\u2013122. https://doi.org/10.1109/IIPHDW.2018.8388338",
+      "doi": ""
+    },
+    {
+      "text": "Francisco\u00a0J. Moreno-Barea, Jos\u00e9\u00a0M. Jerez, and Leonardo Franco. 2020. Improving Classification Accuracy Using Data Augmentation on Small Data Sets. Expert Systems with Applications 161 (Dec. 2020), 113696. https://doi.org/10.1016/j.eswa.2020.113696",
+      "doi": ""
+    },
+    {
+      "text": "Miguel\u00a0A. Nacenta, Yemliha Kamber, Yizhou Qiang, and Per\u00a0Ola Kristensson. 2013. Memorability of pre-designed and user-defined gesture sets. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201913). Association for Computing Machinery, New York, NY, USA, 1099\u20131108. https://doi.org/10.1145/2470654.2466142",
+      "doi": "10.1145/2470654.2466142"
+    },
+    {
+      "text": "Vinod Nair and Geoffrey\u00a0E. Hinton. 2010. Rectified Linear Units Improve Restricted Boltzmann Machines. In Proceedings of the 27th International Conference on Machine Learning (ICML-10). Omnipress, Haifa, Israel, 807\u2013814. https://icml.cc/Conferences/2010/papers/432.pdf",
+      "doi": "10.5555/3104322.3104425"
+    },
+    {
+      "text": "Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, Alban Desmaison, Andreas Kopf, Edward Yang, Zachary DeVito, Martin Raison, Alykhan Tejani, Sasank Chilamkurthy, Benoit Steiner, Lu Fang, Junjie Bai, and Soumith Chintala. 2019. PyTorch: An Imperative Style, High-Performance Deep Learning Library. In Advances in Neural Information Processing Systems 32, H.\u00a0Wallach, H.\u00a0Larochelle, A.\u00a0Beygelzimer, F.\u00a0d'Alch\u00e9-Buc, E.\u00a0Fox, and R.\u00a0Garnett (Eds.). Curran Associates, Inc., Vancouver, Canada, 8024\u20138035. http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf",
+      "doi": "10.5555/3454287.3455008"
+    },
+    {
+      "text": "R\u00e9jean Plamondon. 1995. A kinematic theory of rapid human movements: Part I. Movement representation and generation. Biological cybernetics 72, 4 (1995), 295\u2013307.",
+      "doi": "10.1007/BF00199060"
+    },
+    {
+      "text": "R\u00e9jean Plamondon and Moussa Djioua. 2006. A multi-level representation paradigm for handwriting stroke generation. Human movement science 25, 4-5 (2006), 586\u2013607.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Powalka. 1993. Experiments With Applying Slant Counteraction to Script Recognition.",
+      "doi": ""
+    },
+    {
+      "text": "Hossein Rahmani and Ajmal Mian. 2016. 3D Action Recognition from Novel Viewpoints. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, Las Vegas, NV, USA, 1506\u20131515. https://doi.org/10.1109/CVPR.2016.167",
+      "doi": ""
+    },
+    {
+      "text": "Dean Rubine. 1991. Specifying Gestures by Example. ACM SIGGRAPH Computer Graphics 25, 4 (July 1991), 329\u2013337. https://doi.org/10.1145/127719.122753",
+      "doi": "10.1145/127719.122753"
+    },
+    {
+      "text": "Yasushi Sakurai, Christos Faloutsos, and Masashi Yamamuro. 2007. Stream Monitoring under the Time Warping Distance. In 2007 IEEE 23rd International Conference on Data Engineering. IEEE, Istanbul, 1046\u20131055. https://doi.org/10.1109/ICDE.2007.368963",
+      "doi": ""
+    },
+    {
+      "text": "Jan Schl\u00fcter and Thomas Grill. 2015. Exploring Data Augmentation for Improved Singing Voice Detection with Neural Networks.. In ISMIR. 121\u2013126.",
+      "doi": ""
+    },
+    {
+      "text": "Jia Sheng. 2003. A study of adaboost in 3d gesture recognition. Department of Computer Science, University of Toronto 1 (2003), 7\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Arash Shilandari, H. Marvi, and H. Khosravi. 2021. Speech Emotion Recognition Using Data Augmentation Method by Cycle-Generative Adversarial Networks. https://doi.org/10.20944/PREPRINTS202104.0651.V1",
+      "doi": ""
+    },
+    {
+      "text": "Connor Shorten and Taghi\u00a0M. Khoshgoftaar. 2019. A Survey on Image Data Augmentation for Deep Learning. Journal of Big Data 6, 1 (July 2019), 60. https://doi.org/10.1186/s40537-019-0197-0",
+      "doi": ""
+    },
+    {
+      "text": "Clifford K.\u00a0F. So and George Baciu. 2006. Hypercube sweeping algorithm for subsequence motion matching in large motion databases. In Proceedings of the 2006 ACM international conference on Virtual reality continuum and its applications(VRCIA \u201906). Association for Computing Machinery, New York, NY, USA, 221\u2013228. https://doi.org/10.1145/1128923.1128960",
+      "doi": "10.1145/1128923.1128960"
+    },
+    {
+      "text": "Sijie Song, Cuiling Lan, Junliang Xing, Wenjun Zeng, and Jiaying Liu. 2016. An End-to-End Spatio-Temporal Attention Model for Human Action Recognition from Skeleton Data. arXiv:1611.06067 [cs] (Nov. 2016). http://arxiv.org/abs/1611.06067 arXiv:1611.06067.",
+      "doi": ""
+    },
+    {
+      "text": "Odongo Steven\u00a0Eyobu and Dong\u00a0Seog Han. 2018. Feature Representation and Data Augmentation for Human Activity Classification Based on Wearable IMU Sensor Data Using a Deep LSTM Neural Network. Sensors 18, 9 (Sept. 2018), 2892. https://doi.org/10.3390/s18092892",
+      "doi": ""
+    },
+    {
+      "text": "Jingren Tang, Hong Cheng, Yang Zhao, and Hongliang Guo. 2018. Structured dynamic time warping for continuous hand trajectory gesture recognition. Pattern Recognition 80 (Aug. 2018), 21\u201331. https://doi.org/10.1016/j.patcog.2018.02.011",
+      "doi": ""
+    },
+    {
+      "text": "Eugene\u00a0M. Taranta and Joseph\u00a0J. LaViola. 2015. Penny pincher: a blazing fast, highly accurate $-family recognizer. In Proceedings of the 41st Graphics Interface Conference(GI \u201915). Canadian Information Processing Society, CAN, 195\u2013202.",
+      "doi": ""
+    },
+    {
+      "text": "Eugene\u00a0M. Taranta, Mehran Maghoumi, Corey\u00a0R. Pittman, and Joseph\u00a0J. LaViola. 2016. A Rapid Prototyping Approach to Synthetic Data Generation for Improved 2D Gesture Recognition. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology(UIST \u201916). Association for Computing Machinery, New York, NY, USA, 873\u2013885. https://doi.org/10.1145/2984511.2984525",
+      "doi": "10.1145/2984511.2984525"
+    },
+    {
+      "text": "Eugene\u00a0M. Taranta, Andr\u00e9s\u00a0N. Vargas, and Joseph\u00a0J. LaViola. 2016. Streamlined and accurate gesture recognition with Penny Pincher. Computers & Graphics 55 (April 2016), 130\u2013142. https://doi.org/10.1016/j.cag.2015.10.011",
+      "doi": "10.1016/j.cag.2015.10.011"
+    },
+    {
+      "text": "Eugene\u00a0M. Taranta\u00a0II, Corey\u00a0R. Pittman, Mehran Maghoumi, Mykola Maslych, Yasmine\u00a0M. Moolenaar, and Joseph\u00a0J. Laviola\u00a0Jr. 2021. Machete: Easy, Efficient, and Precise Continuous Custom Gesture Segmentation. ACM Transactions on Computer-Human Interaction 28, 1 (Jan. 2021), 5:1\u20135:46. https://doi.org/10.1145/3428068",
+      "doi": "10.1145/3428068"
+    },
+    {
+      "text": "Eugene\u00a0M. Taranta\u00a0II, Amirreza Samiei, Mehran Maghoumi, Pooya Khaloo, Corey\u00a0R. Pittman, and Joseph\u00a0J. LaViola\u00a0Jr.2017. Jackknife: A Reliable Recognizer with Few Samples and Many Modalities. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). Association for Computing Machinery, New York, NY, USA, 5850\u20135861. https://doi.org/10.1145/3025453.3026002",
+      "doi": "10.1145/3025453.3026002"
+    },
+    {
+      "text": "Eugene\u00a0M. Taranta\u00a0II, Thaddeus\u00a0K. Simons, Rahul Sukthankar, and Joseph\u00a0J. Laviola\u00a0Jr.2015. Exploring the Benefits of Context in 3D Gesture Recognition for Game-Based Virtual Environments. ACM Transactions on Interactive Intelligent Systems 5, 1 (March 2015), 1:1\u20131:34. https://doi.org/10.1145/2656345",
+      "doi": "10.1145/2656345"
+    },
+    {
+      "text": "Jean Vanderdonckt, Paolo Roselli, and Jorge\u00a0Luis P\u00e9rez-Medina. 2018. !FTL, an Articulation-Invariant Stroke Gesture Recognizer with Controllable Position, Scale, and Rotation Invariances. In Proceedings of the 20th ACM International Conference on Multimodal Interaction(ICMI \u201918). Association for Computing Machinery, New York, NY, USA, 125\u2013134. https://doi.org/10.1145/3242969.3243032",
+      "doi": "10.1145/3242969.3243032"
+    },
+    {
+      "text": "Radu-Daniel Vatavu. 2017. Improving Gesture Recognition Accuracy on Touch Screens for Users with Low Vision. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 4667\u20134679. https://doi.org/10.1145/3025453.3025941",
+      "doi": "10.1145/3025453.3025941"
+    },
+    {
+      "text": "Radu-Daniel Vatavu, Lisa Anthony, and Jacob\u00a0O. Wobbrock. 2012. Gestures as Point Clouds: A $P Recognizer for User Interface Prototypes. In Proceedings of the 14th ACM International Conference on Multimodal Interaction(ICMI \u201912). Association for Computing Machinery, New York, NY, USA, 273\u2013280. https://doi.org/10.1145/2388676.2388732",
+      "doi": "10.1145/2388676.2388732"
+    },
+    {
+      "text": "Radu-Daniel Vatavu, Lisa Anthony, and Jacob\u00a0O. Wobbrock. 2013. Relative accuracy measures for stroke gestures. In Proceedings of the 15th ACM on International conference on multimodal interaction(ICMI \u201913). Association for Computing Machinery, New York, NY, USA, 279\u2013286. https://doi.org/10.1145/2522848.2522875",
+      "doi": "10.1145/2522848.2522875"
+    },
+    {
+      "text": "Radu-Daniel Vatavu, Lisa Anthony, and Jacob\u00a0O. Wobbrock. 2018. $Q: A Super-Quick, Articulation-Invariant Stroke-Gesture Recognizer for Low-Resource Devices. In Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services(MobileHCI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3229434.3229465",
+      "doi": "10.1145/3229434.3229465"
+    },
+    {
+      "text": "R.\u00a0D. Vatavu, S.\u00a0G. Pentiuc, L. Grisoni, and C. Chaillou. 2008. Modeling Shapes for Pattern Recognition: A Simple Low-Cost Spline-based Approach. Advances in Electrical and Computer Engineering 8, 1(2008), 67\u201371. https://doi.org/10.4316/aece.2008.01012",
+      "doi": ""
+    },
+    {
+      "text": "Radu-Daniel Vatavu, Daniel Vogel, G\u00e9ry Casiez, and Laurent Grisoni. 2011. Estimating the Perceived Difficulty of Pen Gestures. In Human-Computer Interaction \u2013 INTERACT 2011(Lecture Notes in Computer Science), Pedro Campos, Nicholas Graham, Joaquim Jorge, Nuno Nunes, Philippe Palanque, and Marco Winckler (Eds.). Springer, Berlin, Heidelberg, 89\u2013106. https://doi.org/10.1007/978-3-642-23771-3_9",
+      "doi": ""
+    },
+    {
+      "text": "Raviteja Vemulapalli, Felipe Arrate, and Rama Chellappa. 2014. Human Action Recognition by Representing 3D Skeletons as Points in a Lie Group. In 2014 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, Columbus, OH, USA, 588\u2013595. https://doi.org/10.1109/CVPR.2014.82",
+      "doi": "10.1109/CVPR.2014.82"
+    },
+    {
+      "text": "Qingsong Wen, Liang Sun, Xiaomin Song, Jing Gao, Xue Wang, and Huan Xu. 2021. Time Series Data Augmentation for Deep Learning: A Survey. In IJCAI. https://doi.org/10.24963/ijcai.2021/631 Augmentation, Time Series.",
+      "doi": ""
+    },
+    {
+      "text": "Jacob\u00a0O. Wobbrock, Andrew\u00a0D. Wilson, and Yang Li. 2007. Gestures without Libraries, Toolkits or Training: A $1 Recognizer for User Interface Prototypes. In Proceedings of the 20th Annual ACM Symposium on User Interface Software and Technology(UIST \u201907). Association for Computing Machinery, New York, NY, USA, 159\u2013168. https://doi.org/10.1145/1294211.1294238",
+      "doi": "10.1145/1294211.1294238"
+    },
+    {
+      "text": "Sebastien\u00a0C Wong, Adam Gatt, Victor Stamatescu, and Mark\u00a0D McDonnell. 2016. Understanding data augmentation for classification: when to warp?. In 2016 international conference on digital image computing: techniques and applications (DICTA). IEEE, 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Xinyu Yang, Zhenguo Zhang, Xu Cui, and Rong-yi Cui. 2021. A Time Series Data Augmentation Method Based on Dynamic Time Warping. 2021 International Conference on Computer Communication and Artificial Intelligence (CCAI) (2021). https://doi.org/10.1109/CCAI50917.2021.9447507",
+      "doi": ""
+    },
+    {
+      "text": "Yong Du, Wei Wang, and Liang Wang. 2015. Hierarchical recurrent neural network for skeleton based action recognition. In 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, Boston, MA, USA, 1110\u20131118. https://doi.org/10.1109/CVPR.2015.7298714",
+      "doi": ""
+    },
+    {
+      "text": "Qian Yu, Yongxin Yang, Feng Liu, Yi-Zhe Song, Tao Xiang, and Timothy\u00a0M. Hospedales. 2017. Sketch-a-Net: A Deep Neural Network that Beats Humans. International Journal of Computer Vision 122, 3 (May 2017), 411\u2013425. https://doi.org/10.1007/s11263-016-0932-3",
+      "doi": "10.1007/s11263-016-0932-3"
+    },
+    {
+      "text": "Pengfei Zhang, Cuiling Lan, Junliang Xing, Wenjun Zeng, Jianru Xue, and Nanning Zheng. 2017. View Adaptive Recurrent Neural Networks for High Performance Human Action Recognition from Skeleton Data. In 2017 IEEE International Conference on Computer Vision (ICCV). IEEE, Venice, 2136\u20132145. https://doi.org/10.1109/ICCV.2017.233",
+      "doi": ""
+    },
+    {
+      "text": "Ying Zheng, Hongxun Yao, Xiaoshuai Sun, Shengping Zhang, Sicheng Zhao, and Fatih Porikli. 2021. Sketch-Specific Data Augmentation for Freehand Sketch Recognition. Neurocomputing 456 (Oct. 2021), 528\u2013539. https://doi.org/10.1016/j.neucom.2020.05.124",
+      "doi": "10.1016/j.neucom.2020.05.124"
+    },
+    {
+      "text": "Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, and Yi Yang. 2020. Random Erasing Data Augmentation. Proceedings of the AAAI Conference on Artificial Intelligence 34, 07 (April 2020), 13001\u201313008. https://doi.org/10.1609/aaai.v34i07.7000 Number: 07.",
+      "doi": ""
+    },
+    {
+      "text": "Guangming Zhu, Liang Zhang, Peiyi Shen, and Juan Song. 2017. Multimodal Gesture Recognition Using 3-D Convolution and Convolutional LSTM. IEEE Access 5(2017), 4517\u20134524. https://doi.org/10.1109/ACCESS.2017.2684186",
+      "doi": ""
+    }
+  ]
+}

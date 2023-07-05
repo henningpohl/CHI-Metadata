@@ -1,0 +1,316 @@
+{
+  "doi": "10.1145/3491102.3517472",
+  "title": "Select or Suggest? Reinforcement Learning-based Method for High-Accuracy Target Selection on Touchscreens",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Suggesting multiple target candidates based on touch input is a possible option for high-accuracy target selection on small touchscreen devices. But it can become overwhelming if suggestions are triggered too often. To address this, we propose SATS, a Suggestion-based Accurate Target Selection method, where target selection is formulated as a sequential decision problem. The objective is to maximize the utility: the negative time cost for the entire target selection procedure. The SATS decision process is dictated by a policy generated using reinforcement learning. It automatically decides when to provide suggestions and when to directly select the target. Our user studies show that SATS reduced error rate and selection time over Shift\u00a0[51], a magnification-based method, and MUCS, a suggestion-based alternative that optimizes the utility for the current selection. SATS also significantly reduced error rate over BayesianCommand\u00a0[58], which directly selects targets based on posteriors, with only a minor increase in selection time.",
+  "authors": [
+    {
+      "name": "Zhi Li",
+      "institution": "Department of Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700941",
+      "orcid": "0000-0001-8298-2279"
+    },
+    {
+      "name": "Maozheng Zhao",
+      "institution": "Department of Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659891993",
+      "orcid": "missing"
+    },
+    {
+      "name": "Dibyendu Das",
+      "institution": "Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660236055",
+      "orcid": "missing"
+    },
+    {
+      "name": "HANG ZHAO",
+      "institution": "Department of Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659587647",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yan Ma",
+      "institution": "Computer Science Department, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659891600",
+      "orcid": "0000-0001-8264-3103"
+    },
+    {
+      "name": "Wanyu Liu",
+      "institution": "IRCAM Centre Pompidou, France",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660240711",
+      "orcid": "missing"
+    },
+    {
+      "name": "Michel Beaudouin-Lafon",
+      "institution": "Universit\u00e9 Paris-Saclay, France and LISN, Universit\u00e9 Paris-Saclay, CNRS, Inria, France",
+      "img": "/do/10.1145/contrib-81100644686/rel-imgonly/mbl-120x120.jpg",
+      "acmid": "81100644686",
+      "orcid": "0000-0002-2905-9810"
+    },
+    {
+      "name": "Fusheng Wang",
+      "institution": "Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100213103",
+      "orcid": "0000-0002-9369-9361"
+    },
+    {
+      "name": "IV Ramakrishnan",
+      "institution": "Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81452611166",
+      "orcid": "0000-0002-1768-7043"
+    },
+    {
+      "name": "Xiaojun Bi",
+      "institution": "Department of Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81309485662",
+      "orcid": "0000-0002-9716-7709"
+    }
+  ],
+  "references": [
+    {
+      "text": "Caroline Appert and Shumin Zhai. 2009. Using strokes as command shortcuts: cognitive benefits and toolkit support. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Boston, MA, USA, 2289\u20132298.",
+      "doi": "10.1145/1518701.1519052"
+    },
+    {
+      "text": "Richard\u00a0E Bellman and Lotfi\u00a0Asker Zadeh. 1970. Decision-making in a fuzzy environment. Management science 17, 4 (1970), B\u2013141.",
+      "doi": ""
+    },
+    {
+      "text": "Hrvoje Benko, Andrew\u00a0D Wilson, and Patrick Baudisch. 2006. Precise selection techniques for multi-touch screens. In Proceedings of the SIGCHI conference on Human Factors in computing systems. ACM, Montr\u00e9al, Qu\u00e9bec, Canada, 1263\u20131272.",
+      "doi": "10.1145/1124772.1124963"
+    },
+    {
+      "text": "Xiaojun Bi, Yang Li, and Shumin Zhai. 2013. FFitts law: modeling finger touch with fitts\u2019 law. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Paris, France, 1363\u20131372.",
+      "doi": "10.1145/2470654.2466180"
+    },
+    {
+      "text": "Xiaojun Bi and Shumin Zhai. 2013. Bayesian touch: a statistical criterion of target selection with finger touch. In Proceedings of the 26th annual ACM symposium on User interface software and technology. ACM, St. Andrews Scotland, United Kingdom, 51\u201360.",
+      "doi": "10.1145/2501988.2502058"
+    },
+    {
+      "text": "Xiaojun Bi and Shumin Zhai. 2016. Predicting finger-touch accuracy based on the dual Gaussian distribution model. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology. ACM, Tokyo, Japan, 313\u2013319.",
+      "doi": "10.1145/2984511.2984546"
+    },
+    {
+      "text": "Rafal Bogacz. 2007. Optimal decision-making theories: linking neurobiology with behaviour. Trends in cognitive sciences 11, 3 (2007), 118\u2013125.",
+      "doi": ""
+    },
+    {
+      "text": "Greg Brockman, Vicki Cheung, Ludwig Pettersson, Jonas Schneider, John Schulman, Jie Tang, and Wojciech Zaremba. 2016. Openai gym. arXiv preprint arXiv:1606.01540(2016), 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Buschek and Florian Alt. 2015. TouchML: A machine learning toolkit for modelling spatial touch targeting behaviour. In Proceedings of the 20th International Conference on Intelligent User Interfaces. ACM, Atlanta, Georgia, USA, 110\u2013114.",
+      "doi": "10.1145/2678025.2701381"
+    },
+    {
+      "text": "Daniel Buschek and Florian Alt. 2017. ProbUI: Generalising touch target representations to enable declarative gesture definition for probabilistic GUIs. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, Denver, Colorado, USA, 4640\u20134653.",
+      "doi": "10.1145/3025453.3025502"
+    },
+    {
+      "text": "Noshaba Cheema, Laura\u00a0A Frey-Law, Kourosh Naderi, Jaakko Lehtinen, Philipp Slusallek, and Perttu H\u00e4m\u00e4l\u00e4inen. 2020. Predicting mid-air interaction movements and fatigue using deep reinforcement learning. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu, HI, USA, 1\u201313.",
+      "doi": "10.1145/3313831.3376701"
+    },
+    {
+      "text": "Xiuli Chen, Aditya Acharya, Antti Oulasvirta, and Andrew Howes. 2021. An Adaptive Model of Gaze-based Selection. In CHI 2021: ACM Conference on Human Factors in Computing Systems. ACM, Online virtual, 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Xiuli Chen, Gilles Bailly, Duncan\u00a0P Brumby, Antti Oulasvirta, and Andrew Howes. 2015. The emergence of interactive behavior: A model of rational menu search. In Proceedings of the 33rd annual ACM conference on human factors in computing systems. ACM, Seoul, Republic of Korea, 4217\u20134226.",
+      "doi": "10.1145/2702123.2702483"
+    },
+    {
+      "text": "Andy Cockburn, Carl Gutwin, and Saul Greenberg. 2007. A predictive model of menu performance. In Proceedings of the SIGCHI conference on Human factors in computing systems. ACM, San Jose, California, USA, 627\u2013636.",
+      "doi": "10.1145/1240624.1240723"
+    },
+    {
+      "text": "Jacob Cohen. 2013. Statistical power analysis for the behavioral sciences. Academic press.",
+      "doi": ""
+    },
+    {
+      "text": "Wenzhe Cui, Suwen Zhu, Zhi Li, Zheer Xu, Xing-Dong Yang, IV Ramakrishnan, and Xiaojun Bi. 2021. BackSwipe: Back-of-device Word-Gesture Interaction on Smartphones. In Proceedings of CHI 2021 - the SIGCHI Conference on Human Factors in Computing Systems. ACM, Online virtual, 1\u201319.",
+      "doi": "10.1145/3411764.3445081"
+    },
+    {
+      "text": "Seungwon Do, Minsuk Chang, and Byungjoo Lee. 2021. A Simulation Model of Intermittently Controlled Point-and-Click Behaviour. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Online virtual, 1\u201317.",
+      "doi": "10.1145/3411764.3445514"
+    },
+    {
+      "text": "Stephen\u00a0R Ellis and Robert\u00a0J Hitchcock. 1986. The emergence of Zipf\u2019s law: Spontaneous encoding optimization by users of a command language. IEEE transactions on systems, man, and cybernetics 16, 3(1986), 423\u2013427.",
+      "doi": ""
+    },
+    {
+      "text": "Christoph Gebhardt, Brian Hecox, Bas van Opheusden, Daniel Wigdor, James Hillis, Otmar Hilliges, and Hrvoje Benko. 2019. Learning cooperative personalized policies from gaze data. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology. ACM, New Orleans, LA, USA, 197\u2013208.",
+      "doi": "10.1145/3332165.3347933"
+    },
+    {
+      "text": "Mayank Goel, Leah Findlater, and Jacob Wobbrock. 2012. WalkType: using accelerometer data to accomodate situational impairments in mobile touch screen text entry. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Austin, Texas, USA, 2687\u20132696.",
+      "doi": "10.1145/2207676.2208662"
+    },
+    {
+      "text": "Mayank Goel, Jacob Wobbrock, and Shwetak Patel. 2012. Gripsense: using built-in sensors to detect hand posture and pressure on commodity mobile phones. In Proceedings of the 25th annual ACM symposium on User interface software and technology. ACM, Cambridge, Massachusetts, USA, 545\u2013554.",
+      "doi": "10.1145/2380116.2380184"
+    },
+    {
+      "text": "Joshua Goodman, Gina Venolia, Keith Steury, and Chauncey Parker. 2002. Language modeling for soft keyboards. In Proceedings of the 7th international conference on Intelligent user interfaces. ACM, San Francisco, California, USA, 194\u2013195.",
+      "doi": "10.1145/502716.502753"
+    },
+    {
+      "text": "Tovi Grossman, Pierre Dragicevic, and Ravin Balakrishnan. 2007. Strategies for accelerating on-line learning of hotkeys. In Proceedings of the SIGCHI conference on Human factors in computing systems. ACM, San Jose, California, USA, 1591\u20131600.",
+      "doi": "10.1145/1240624.1240865"
+    },
+    {
+      "text": "Niels Henze, Enrico Rukzio, and Susanne Boll. 2011. 100,000,000 taps: analysis and improvement of touch performance in the large. In Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services. ACM, Stockholm, Sweden, 133\u2013142.",
+      "doi": "10.1145/2037373.2037395"
+    },
+    {
+      "text": "Christian Holz and Patrick Baudisch. 2010. The generalized perceived input point model and how to double touch accuracy by extracting fingerprints. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Atlanta, Georgia, USA, 581\u2013590.",
+      "doi": "10.1145/1753326.1753413"
+    },
+    {
+      "text": "Christian Holz and Patrick Baudisch. 2011. Understanding touch. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Vancouver, BC, Canada, 2501\u20132510.",
+      "doi": "10.1145/1978942.1979308"
+    },
+    {
+      "text": "Kasper Hornb\u00e6k and Antti Oulasvirta. 2017. What is interaction?. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, Denver, Colorado, USA, 5040\u20135052.",
+      "doi": "10.1145/3025453.3025765"
+    },
+    {
+      "text": "Eric Horvitz. 1999. Principles of mixed-initiative user interfaces. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems. ACM, Pittsburgh, Pennsylvania, USA, 159\u2013166.",
+      "doi": "10.1145/302979.303030"
+    },
+    {
+      "text": "Andrew Howes, Geoffrey\u00a0B Duggan, Kiran Kalidindi, Yuan-Chi Tseng, and Richard\u00a0L Lewis. 2016. Predicting short-term remembering as boundedly optimal strategy choice. Cognitive Science 40, 5 (2016), 1192\u20131223.",
+      "doi": ""
+    },
+    {
+      "text": "Jussi\u00a0PP Jokinen, Sayan Sarcar, Antti Oulasvirta, Chaklam Silpasuwanchai, Zhenxin Wang, and Xiangshi Ren. 2017. Modelling learning of new keyboard layouts. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, Denver, Colorado, USA, 4203\u20134215.",
+      "doi": "10.1145/3025453.3025580"
+    },
+    {
+      "text": "Katri Leino, Kashyap Todi, Antti Oulasvirta, and Mikko Kurimo. 2019. Computer-supported form design using keystroke-level modeling with reinforcement learning. In Proceedings of the 24th International Conference on Intelligent User Interfaces: Companion. ACM, Marina del Ray, California, USA, 85\u201386.",
+      "doi": "10.1145/3308557.3308704"
+    },
+    {
+      "text": "Zhi Li, Maozheng Zhao, Yifan Wang, Sina Rashidian, Furqan Baig, Rui Liu, Wanyu Liu, Michel Beaudouin-Lafon, Brooke Ellison, Fusheng Wang, 2021. BayesGaze: A Bayesian Approach to Eye-Gaze Based Target Selection. In Graphics Interface 2021. Online virtual, 231\u2013240.",
+      "doi": ""
+    },
+    {
+      "text": "Timothy\u00a0P Lillicrap, Jonathan\u00a0J Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, and Daan Wierstra. 2015. Continuous control with deep reinforcement learning. arXiv preprint arXiv:1509.02971(2015), 1\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Wanyu Liu, Gilles Bailly, and Andrew Howes. 2017. Effects of frequency distribution on linear menu performance. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, Denver, Colorado, USA, 1307\u20131312.",
+      "doi": "10.1145/3025453.3025707"
+    },
+    {
+      "text": "J\u00a0Derek Lomas, Jodi Forlizzi, Nikhil Poonwala, Nirmal Patel, Sharan Shodhan, Kishan Patel, Ken Koedinger, and Emma Brunskill. 2016. Interface design optimization as a multi-armed bandit problem. In Proceedings of the 2016 CHI conference on human factors in computing systems. ACM, San Jose, California, USA, 4142\u20134153.",
+      "doi": "10.1145/2858036.2858425"
+    },
+    {
+      "text": "Yuexing Luo and Daniel Vogel. 2015. Pin-and-cross: A unimanual multitouch technique combining static touches with crossing selection. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. ACM, Charlotte, NC, USA, 323\u2013332.",
+      "doi": "10.1145/2807442.2807444"
+    },
+    {
+      "text": "Jennifer Mankoff, Scott\u00a0E Hudson, and Gregory\u00a0D Abowd. 2006. Interaction techniques for ambiguity resolution in recognition-based interfaces. In ACM SIGGRAPH 2006 Courses. ACM, Boston, Massachusetts, USA, 6\u2013es.",
+      "doi": "10.1145/1185657.1185767"
+    },
+    {
+      "text": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, and Martin Riedmiller. 2013. Playing atari with deep reinforcement learning. arXiv preprint arXiv:1312.5602(2013), 1\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Alistair Morrison, Xiaoyu Xiong, Matthew Higgs, Marek Bell, and Matthew Chalmers. 2018. A Large-Scale Study of iPhone App Launch Behaviour. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, Montreal, QC, Canada, 1\u201313.",
+      "doi": "10.1145/3173574.3173918"
+    },
+    {
+      "text": "Tomer Moscovich. 2009. Contact area interaction with sliding widgets. In Proceedings of the 22nd annual ACM symposium on User interface software and technology. ACM, Victoria, BC, Canada, 13\u201322.",
+      "doi": "10.1145/1622176.1622181"
+    },
+    {
+      "text": "Josip Musi\u0107 and Roderick Murray-Smith. 2016. Nomadic input on mobile devices: the influence of touch input technique and walking speed on performance and offset modeling. Human\u2013Computer Interaction 31, 5 (2016), 420\u2013471.",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0EJ Newman. 2005. Power laws, Pareto distributions and Zipf\u2019s law. Contemporary physics 46, 5 (2005), 323\u2013351.",
+      "doi": ""
+    },
+    {
+      "text": "Alex Olwal, Steven Feiner, and Susanna Heyman. 2008. Rubbing and tapping for precise and rapid selection on touch-screen displays. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Florence, Italy, 295\u2013304.",
+      "doi": "10.1145/1357054.1357105"
+    },
+    {
+      "text": "Julia Schwarz, Scott Hudson, Jennifer Mankoff, and Andrew\u00a0D Wilson. 2010. A framework for robust and flexible handling of inputs with uncertainty. In Proceedings of the 23nd annual ACM symposium on User interface software and technology. ACM, New York, New York, USA, 47\u201356.",
+      "doi": "10.1145/1866029.1866039"
+    },
+    {
+      "text": "Julia Schwarz, Jennifer Mankoff, and Scott Hudson. 2011. Monte carlo methods for managing interactive state, action and feedback under uncertainty. In Proceedings of the 24th annual ACM symposium on User interface software and technology. ACM, Santa Barbara, California, USA, 235\u2013244.",
+      "doi": "10.1145/2047196.2047227"
+    },
+    {
+      "text": "Katie Steele and H.\u00a0Orri Stef\u00e1nsson. 2020. Decision Theory. In The Stanford Encyclopedia of Philosophy (Winter 2020 ed.), Edward\u00a0N. Zalta (Ed.). Metaphysics Research Lab, Stanford University.",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0S Sutton and Andrew\u00a0G Barto. 2018. Reinforcement learning: An introduction. MIT press.",
+      "doi": "10.5555/551283"
+    },
+    {
+      "text": "Kashyap Todi, Gilles Bailly, Luis\u00a0A Leiva, and Antti Oulasvirta. 2021. Adapting user interfaces with model-based reinforcement learning. In CHI 2021: ACM Conference on Human Factors in Computing Systems. ACM, Online virtual, 1\u201313.",
+      "doi": "10.1145/3411764.3445497"
+    },
+    {
+      "text": "Michael Toomim, Travis Kriplean, Claus P\u00f6rtner, and James Landay. 2011. Utility of human-computer interactions: Toward a science of preference measurement. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Vancouver, BC, Canada, 2275\u20132284.",
+      "doi": "10.1145/1978942.1979277"
+    },
+    {
+      "text": "Yuan-Chi Tseng and Andrew Howes. 2015. The adaptation of visual search to utility, ecology and design. International Journal of Human-Computer Studies 80 (2015), 45\u201355.",
+      "doi": "10.1016/j.ijhcs.2015.03.005"
+    },
+    {
+      "text": "Daniel Vogel and Patrick Baudisch. 2007. Shift: a technique for operating pen-based interfaces using touch. In Proceedings of the SIGCHI conference on Human factors in computing systems. ACM, San Jose, California, USA, 657\u2013666.",
+      "doi": "10.1145/1240624.1240727"
+    },
+    {
+      "text": "Daniel Vogel and G\u00e9ry Casiez. 2012. Hand occlusion on a multi-touch tabletop. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Austin, Texas, USA, 2307\u20132316.",
+      "doi": "10.1145/2207676.2208390"
+    },
+    {
+      "text": "David\u00a0J Ward, Alan\u00a0F Blackwell, and David\u00a0JC MacKay. 2000. Dasher\u2014a data entry interface using continuous gestures and language models. In Proceedings of the 13th annual ACM symposium on User interface software and technology. ACM, San Diego, California, USA, 129\u2013137.",
+      "doi": "10.1145/354401.354427"
+    },
+    {
+      "text": "Christopher\u00a0JCH Watkins and Peter Dayan. 1992. Q-learning. Machine learning 8, 3-4 (1992), 279\u2013292.",
+      "doi": ""
+    },
+    {
+      "text": "Daryl Weir, Simon Rogers, Roderick Murray-Smith, and Markus L\u00f6chtefeld. 2012. A user-specific machine learning approach for improving touch accuracy on mobile devices. In Proceedings of the 25th annual ACM symposium on User interface software and technology. ACM, Cambridge, Massachusetts, USA, 465\u2013476.",
+      "doi": "10.1145/2380116.2380175"
+    },
+    {
+      "text": "Daniel Wigdor, Clifton Forlines, Patrick Baudisch, John Barnwell, and Chia Shen. 2007. Lucid touch: a see-through mobile device. In Proceedings of the 20th annual ACM symposium on User interface software and technology. ACM, Newport, Rhode Island, USA, 269\u2013278.",
+      "doi": "10.1145/1294211.1294259"
+    },
+    {
+      "text": "Koji Yatani, Kurt Partridge, Marshall Bern, and Mark\u00a0W Newman. 2008. Escape: a target selection technique using visually-cued gestures. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems. ACM, Florence, Italy, 285\u2013294.",
+      "doi": "10.1145/1357054.1357104"
+    },
+    {
+      "text": "Suwen Zhu, Yoonsang Kim, Jingjie Zheng, Jennifer\u00a0Yi Luo, Ryan Qin, Liuping Wang, Xiangmin Fan, Feng Tian, and Xiaojun Bi. 2020. Using Bayes\u2019 Theorem for Command Input: Principle, Models, and Applications. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu, HI, USA, 1\u201315.",
+      "doi": "10.1145/3313831.3376771"
+    }
+  ]
+}

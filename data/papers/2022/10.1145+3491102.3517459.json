@@ -1,0 +1,328 @@
+{
+  "doi": "10.1145/3491102.3517459",
+  "title": "Automatically Generating and Improving Voice Command Interface from Operation Sequences on Smartphones",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-21",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Using voice commands to automate smartphone tasks (e.g., making a video call) can effectively augment the interactivity of numerous mobile apps. However, creating voice command interfaces requires a tremendous amount of effort in labeling and compiling the graphical user interface (GUI) and the utterance data. In this paper, we propose AutoVCI, a novel approach to automatically generate voice command interface (VCI) from smartphone operation sequences. The generated voice command interface has two distinct features. First, it automatically maps a voice command to GUI operations and fills in parameters accordingly, leveraging the GUI data instead of corpus or hand-written rules. Second, it launches a complementary Q&A dialogue to confirm the intention in case of ambiguity. In addition, the generated voice command interface can learn and evolve from user interactions. It accumulates the history command understanding results to annotate the user\u2019s input and improve its semantic understanding ability. We implemented this approach on Android devices and conducted a two-phase user study with 16 and 67 participants in each phase. Experimental results of the study demonstrated the practical feasibility of AutoVCI.",
+  "authors": [
+    {
+      "name": "Lihang Pan",
+      "institution": "Department of Computer science and Technology, Tsinghua University, China and Department of Computer science and Technology, Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660238614",
+      "orcid": "0000-0001-8856-0309"
+    },
+    {
+      "name": "Chun Yu",
+      "institution": "Department of Computer science and Technology, Tsinghua University, China and Department of Computer science and Technology, Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81467660483",
+      "orcid": "0000-0003-2591-7993"
+    },
+    {
+      "name": "JiaHui Li",
+      "institution": "Department of Computer science and Technology, Tsinghua University, China and Department of Computer science and Technology, Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660239748",
+      "orcid": "missing"
+    },
+    {
+      "name": "Tian Huang",
+      "institution": "Department of Computer science and Technology, Tsinghua University, China and Department of Computer science and Technology, Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660239115",
+      "orcid": "missing"
+    },
+    {
+      "name": "Xiaojun Bi",
+      "institution": "Department of Computer Science, Stony Brook University, United States and Department of Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81309485662",
+      "orcid": "0000-0002-9716-7709"
+    },
+    {
+      "name": "Yuanchun Shi",
+      "institution": "Department of Computer science and Technology, Tsinghua University, China and Department of Computer science and Technology, Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100647319",
+      "orcid": "0000-0003-2273-6927"
+    }
+  ],
+  "references": [
+    {
+      "text": "James Allen, Nathanael Chambers, George Ferguson, Lucian Galescu, Hyuckchul Jung, Mary Swift, and William Taysom. 2007. Plow: A collaborative task learning agent. In AAAI, Vol.\u00a07. 1514\u20131519.",
+      "doi": ""
+    },
+    {
+      "text": "Android. 2021. AccessibilityService | Android Developers. Retrieved August 27, 2021 from https://developer.android.com/reference/android/accessibilityservice/AccessibilityService",
+      "doi": ""
+    },
+    {
+      "text": "Android. 2021. Make apps more accessible | Android Developers. Retrieved August 27, 2021 from https://developer.android.com/guide/topics/ui/accessibility/apps#describe-ui-element",
+      "doi": ""
+    },
+    {
+      "text": "Android. 2021. MediaProjection | Android Developers. Retrieved August 27, 2021 from https://developer.android.com/reference/android/media/projection/MediaProjection",
+      "doi": ""
+    },
+    {
+      "text": "Android. 2021. MotionEvent | Android Developers. Retrieved August 27, 2021 from https://developer.android.com/reference/android/view/MotionEvent",
+      "doi": ""
+    },
+    {
+      "text": "Android. 2021. Support different languages and cultures | Android Developers. Retrieved August 27, 2021 from https://developer.android.com/training/basics/supporting-devices/languages#CreateDirs",
+      "doi": ""
+    },
+    {
+      "text": "V. Antila, J. Polet, A. L\u00e4ms\u00e4, and J. Liikka. 2012. RoutineMaker: Towards end-user automation of daily routines using smartphones. In 2012 IEEE International Conference on Pervasive Computing and Communications Workshops. 399\u2013402. https://doi.org/10.1109/PerComW.2012.6197519",
+      "doi": ""
+    },
+    {
+      "text": "Vikas Ashok, Yevgen Borodin, Yury Puzis, and I.\u00a0V. Ramakrishnan. 2015. Capti-Speak: A Speech-Enabled Web Screen Reader. In Proceedings of the 12th International Web for All Conference (Florence, Italy) (W4A \u201915). Association for Computing Machinery, New York, NY, USA, Article 22, 10\u00a0pages. https://doi.org/10.1145/2745555.2746660",
+      "doi": "10.1145/2745555.2746660"
+    },
+    {
+      "text": "Vikas Ashok, Yury Puzis, Yevgen Borodin, and I.V. Ramakrishnan. 2017. Web Screen Reading Automation Assistance Using Semantic Abstraction. In Proceedings of the 22nd International Conference on Intelligent User Interfaces (Limassol, Cyprus) (IUI \u201917). Association for Computing Machinery, New York, NY, USA, 407\u2013418. https://doi.org/10.1145/3025171.3025229",
+      "doi": "10.1145/3025171.3025229"
+    },
+    {
+      "text": "Amos Azaria, Jayant Krishnamurthy, and Tom\u00a0M. Mitchell. 2016. Instructable Intelligent Personal Agent. In Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence (Phoenix, Arizona) (AAAI\u201916). AAAI Press, 2681\u20132689.",
+      "doi": "10.5555/3016100.3016277"
+    },
+    {
+      "text": "Marcos Baez, Florian Daniel, and Fabio Casati. 2019. Conversational web interaction: proposal of a dialog-based natural language interaction paradigm for the web. In International Workshop on Chatbot Research and Design. Springer, 94\u2013110.",
+      "doi": ""
+    },
+    {
+      "text": "Erin Beneteau, Olivia\u00a0K. Richards, Mingrui Zhang, Julie\u00a0A. Kientz, Jason Yip, and Alexis Hiniker. 2019. Communication Breakdowns Between Families and Alexa. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300473",
+      "doi": "10.1145/3290605.3300473"
+    },
+    {
+      "text": "Frank Bentley, Chris Luvogt, Max Silverman, Rushani Wirasinghe, Brooke White, and Danielle Lottridge. 2018. Understanding the Long-Term Use of Smart Speaker Assistants. 2, 3, Article 91 (Sept. 2018), 24\u00a0pages. https://doi.org/10.1145/3264901",
+      "doi": "10.1145/3264901"
+    },
+    {
+      "text": "Syed\u00a0Masum Billah, Vikas Ashok, Donald\u00a0E. Porter, and I.V. Ramakrishnan. 2018. SteeringWheel: A Locality-Preserving Magnification Interface for Low Vision Web Browsing. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173594",
+      "doi": "10.1145/3173574.3173594"
+    },
+    {
+      "text": "Dan Bohus and Alexander\u00a0I. Rudnicky. 2005. Error Handling in the RavenClaw Dialog Management Framework. In Proceedings of the Conference on Human Language Technology and Empirical Methods in Natural Language Processing (Vancouver, British Columbia, Canada) (HLT \u201905). Association for Computational Linguistics, USA, 225\u2013232. https://doi.org/10.3115/1220575.1220604",
+      "doi": "10.3115/1220575.1220604"
+    },
+    {
+      "text": "Tom\u00a0B Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, 2020. Language models are few-shot learners. arXiv preprint arXiv:2005.14165(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Yihong Chen, Bei Chen, Xuguang Duan, Jian-Guang Lou, Yue Wang, Wenwu Zhu, and Yong Cao. 2018. Learning-to-ask: Knowledge acquisition via 20 questions. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. 1216\u20131225.",
+      "doi": "10.1145/3219819.3220047"
+    },
+    {
+      "text": "Pietro Chitt\u00f2, Marcos Baez, Florian Daniel, and Boualem Benatallah. 2020. Automatic generation of chatbots for conversational web browsing. In International Conference on Conceptual Modeling. Springer, 239\u2013249.",
+      "doi": "10.1007/978-3-030-62522-1_17"
+    },
+    {
+      "text": "Eric Corbett and Astrid Weber. 2016. What can I say? addressing user experience challenges of a mobile voice user interface for accessibility. In Proceedings of the 18th international conference on human-computer interaction with mobile devices and services. 72\u201382.",
+      "doi": "10.1145/2935334.2935386"
+    },
+    {
+      "text": "Allen Cypher and Daniel\u00a0Conrad Halbert. 1993. Watch what I do: programming by demonstration. MIT press.",
+      "doi": "10.5555/168080"
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Tong Gao, Mira Dontcheva, Eytan Adar, Zhicheng Liu, and Karrie\u00a0G Karahalios. 2015. Datatone: Managing ambiguity in natural language interfaces for data visualization. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. 489\u2013500.",
+      "doi": "10.1145/2807442.2807478"
+    },
+    {
+      "text": "Melinda\u00a0T. Gervasio, Michael\u00a0D. Moffitt, Martha\u00a0E. Pollack, Joseph\u00a0M. Taylor, and Tomas\u00a0E. Uribe. 2005. Active Preference Learning for Personalized Calendar Scheduling Assistance. In Proceedings of the 10th International Conference on Intelligent User Interfaces (San Diego, California, USA) (IUI \u201905). Association for Computing Machinery, New York, NY, USA, 90\u201397. https://doi.org/10.1145/1040830.1040857",
+      "doi": "10.1145/1040830.1040857"
+    },
+    {
+      "text": "Tovi Grossman, George Fitzmaurice, and Ramtin Attar. 2009. A survey of software learnability: metrics, methodologies and guidelines. In Proceedings of the sigchi conference on human factors in computing systems. 649\u2013658.",
+      "doi": "10.1145/1518701.1518803"
+    },
+    {
+      "text": "Jonathan Grudin and Richard Jacques. 2019. Chatbots, Humbots, and the Quest for Artificial General Intelligence. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3290605.3300439",
+      "doi": "10.1145/3290605.3300439"
+    },
+    {
+      "text": "Robert\u00a0M Hirsch, James\u00a0R Slack, and Richard\u00a0A Smith. 1982. Techniques of trend analysis for monthly water quality data. Water resources research 18, 1 (1982), 107\u2013121.",
+      "doi": ""
+    },
+    {
+      "text": "Ting-Hao\u00a0Kenneth Huang, Amos Azaria, and Jeffrey\u00a0P Bigham. 2016. Instructablecrowd: Creating if-then rules via conversations with the crowd. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems. 1555\u20131562.",
+      "doi": "10.1145/2851581.2892502"
+    },
+    {
+      "text": "Mohit Jain, Pratyush Kumar, Ramachandra Kota, and Shwetak\u00a0N Patel. 2018. Evaluating and informing the design of chatbots. In Proceedings of the 2018 Designing Interactive Systems Conference. 895\u2013906.",
+      "doi": "10.1145/3196709.3196735"
+    },
+    {
+      "text": "Jiepu Jiang, Wei Jeng, and Daqing He. 2013. How Do Users Respond to Voice Input Errors? Lexical and Phonetic Query Reformulation in Voice Search. In Proceedings of the 36th International ACM SIGIR Conference on Research and Development in Information Retrieval (Dublin, Ireland) (SIGIR \u201913). Association for Computing Machinery, New York, NY, USA, 143\u2013152. https://doi.org/10.1145/2484028.2484092",
+      "doi": "10.1145/2484028.2484092"
+    },
+    {
+      "text": "Jihyun Kim, Meuel Jeong, and Seul\u00a0Chan Lee. 2019. \u201dWhy Did This Voice Agent Not Understand Me?\u201d: Error Recovery Strategy for in-Vehicle Voice User Interface. In Proceedings of the 11th International Conference on Automotive User Interfaces and Interactive Vehicular Applications: Adjunct Proceedings (Utrecht, Netherlands) (AutomotiveUI \u201919). Association for Computing Machinery, New York, NY, USA, 146\u2013150. https://doi.org/10.1145/3349263.3351513",
+      "doi": ""
+    },
+    {
+      "text": "Yea-Seul Kim, Mira Dontcheva, Eytan Adar, and Jessica Hullman. 2019. Vocal Shortcuts for Creative Experts. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300562",
+      "doi": "10.1145/3290605.3300562"
+    },
+    {
+      "text": "Alfred Krzywicki, Wayne Wobcke, and Anna Wong. 2010. An adaptive calendar assistant using pattern mining for user preference modelling. In Proceedings of the 15th international conference on Intelligent user interfaces. 71\u201380.",
+      "doi": "10.1145/1719970.1719981"
+    },
+    {
+      "text": "Tessa Lau, Julian Cerruti, Guillermo Manzato, Mateo Bengualid, Jeffrey\u00a0P. Bigham, and Jeffrey Nichols. 2010. A Conversational Interface to Web Automation. In Proceedings of the 23nd Annual ACM Symposium on User Interface Software and Technology (New York, New York, USA) (UIST \u201910). Association for Computing Machinery, New York, NY, USA, 229\u2013238. https://doi.org/10.1145/1866029.1866067",
+      "doi": "10.1145/1866029.1866067"
+    },
+    {
+      "text": "Toby Jia-Jun Li, Amos Azaria, and Brad\u00a0A. Myers. 2017. SUGILITE: Creating Multimodal Smartphone Automation by Demonstration(CHI \u201917). Association for Computing Machinery, New York, NY, USA, 6038\u20136049. https://doi.org/10.1145/3025453.3025483",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Jingya Chen, Haijun Xia, Tom\u00a0M Mitchell, and Brad\u00a0A Myers. 2020. Multi-Modal Repairs of Conversational Breakdowns in Task-Oriented Dialogs. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 1094\u20131107.",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Igor Labutov, Xiaohan\u00a0Nancy Li, Xiaoyi Zhang, Wenze Shi, Wanling Ding, Tom\u00a0M Mitchell, and Brad\u00a0A Myers. 2018. APPINITE: A Multi-Modal Interface for Specifying Data Descriptions in Programming by Demonstration Using Natural Language Instructions. In 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, 105\u2013114.",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Marissa Radensky, Justin Jia, Kirielle Singarajah, Tom\u00a0M. Mitchell, and Brad\u00a0A. Myers. 2019. PUMICE: A Multi-Modal Agent That Learns Concepts and Conditionals from Natural Language and Demonstrations. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 577\u2013589. https://doi.org/10.1145/3332165.3347899",
+      "doi": "10.1145/3332165.3347899"
+    },
+    {
+      "text": "Toby Jia-Jun Li and Oriana Riva. 2018. Kite: Building Conversational Bots from Mobile Apps(MobiSys \u201918). Association for Computing Machinery, New York, NY, USA, 96\u2013109. https://doi.org/10.1145/3210240.3210339",
+      "doi": ""
+    },
+    {
+      "text": "H. Lieberman. 2001. Your Wish is My Command: Programming by Example. Morgan Kaufmann Publishers. https://books.google.com.sv/books?id=wM2JYafw11gC",
+      "doi": ""
+    },
+    {
+      "text": "Ewa Luger and Abigail Sellen. 2016. \u201dLike Having a Really Bad PA\u201d: The Gulf between User Expectation and Experience of Conversational Agents. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 5286\u20135297. https://doi.org/10.1145/2858036.2858288",
+      "doi": "10.1145/2858036.2858288"
+    },
+    {
+      "text": "David Massimo, Mehdi Elahi, and Francesco Ricci. 2017. Learning User Preferences by Observing User-Items Interactions in an IoT Augmented Space. In Adjunct Publication of the 25th Conference on User Modeling, Adaptation and Personalization (Bratislava, Slovakia) (UMAP \u201917). Association for Computing Machinery, New York, NY, USA, 35\u201340. https://doi.org/10.1145/3099023.3099070",
+      "doi": "10.1145/3099023.3099070"
+    },
+    {
+      "text": "Tom\u00a0M Mitchell 1997. Machine learning. (1997).",
+      "doi": ""
+    },
+    {
+      "text": "Christine Murad, Cosmin Munteanu, Benjamin\u00a0R Cowan, and Leigh Clark. 2019. Revolution or evolution? Speech interaction and HCI design guidelines. IEEE Pervasive Computing 18, 2 (2019), 33\u201345.",
+      "doi": "10.1109/MPRV.2019.2906991"
+    },
+    {
+      "text": "B.\u00a0A. Myers. 1986. Visual Programming, Programming by Example, and Program Visualization: A Taxonomy. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Boston, Massachusetts, USA) (CHI \u201986). Association for Computing Machinery, New York, NY, USA, 59\u201366. https://doi.org/10.1145/22627.22349",
+      "doi": "10.1145/22627.22349"
+    },
+    {
+      "text": "Chelsea\u00a0M Myers, Anushay Furqan, and Jichen Zhu. 2019. The impact of user characteristics and preferences on performance with an unfamiliar voice user interface. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u20139.",
+      "doi": "10.1145/3290605.3300277"
+    },
+    {
+      "text": "Jun Okamoto, Tomoyuki Kato, and Makoto Shozakai. 2009. Usability Study of VUI consistent with GUI Focusing on Age-Groups. In Tenth Annual Conference of the International Speech Communication Association.",
+      "doi": ""
+    },
+    {
+      "text": "Aasish Pappu and Alexander Rudnicky. 2014. Knowledge acquisition strategies for goal-oriented dialog systems. In Proceedings of the 15th annual meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL). 194\u2013198.",
+      "doi": ""
+    },
+    {
+      "text": "Hannah\u00a0R.M. Pelikan and Mathias Broth. 2016. Why That Nao? How Humans Adapt to a Conventional Humanoid Robot in Taking Turns-at-Talk. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 4921\u20134932. https://doi.org/10.1145/2858036.2858478",
+      "doi": ""
+    },
+    {
+      "text": "Ana-Maria Popescu, Oren Etzioni, and Henry Kautz. 2003. Towards a theory of natural language interfaces to databases. In Proceedings of the 8th international conference on Intelligent user interfaces. 149\u2013157.",
+      "doi": ""
+    },
+    {
+      "text": "Chen Qu, Liu Yang, Minghui Qiu, W\u00a0Bruce Croft, Yongfeng Zhang, and Mohit Iyyer. 2019. BERT with history answer embedding for conversational question answering. In Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval. 1133\u20131136.",
+      "doi": "10.1145/3331184.3331341"
+    },
+    {
+      "text": "Arpit Rana and Derek Bridge. 2020. Navigation-by-Preference: A New Conversational Recommender with Preference-Based Feedback. In Proceedings of the 25th International Conference on Intelligent User Interfaces (Cagliari, Italy) (IUI \u201920). Association for Computing Machinery, New York, NY, USA, 155\u2013165. https://doi.org/10.1145/3377325.3377496",
+      "doi": "10.1145/3377325.3377496"
+    },
+    {
+      "text": "Lenin Ravindranath, Arvind Thiagarajan, Hari Balakrishnan, and Samuel Madden. 2012. ",
+      "doi": "10.1145/2162081.2162087"
+    },
+    {
+      "text": "Minjoon Seo, Jinhyuk Lee, Tom Kwiatkowski, Ankur\u00a0P Parikh, Ali Farhadi, and Hannaneh Hajishirzi. 2019. Real-time open-domain question answering with dense-sparse phrase index. arXiv preprint arXiv:1906.05807(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Alborz\u00a0Rezazadeh Sereshkeh, Gary Leung, Krish Perumal, Caleb Phillips, Minfan Zhang, Afsaneh Fazly, and Iqbal Mohomed. 2020. VASTA: A Vision and Language-Assisted Smartphone Task Automation System. In Proceedings of the 25th International Conference on Intelligent User Interfaces (Cagliari, Italy) (IUI \u201920). Association for Computing Machinery, New York, NY, USA, 22\u201332. https://doi.org/10.1145/3377325.3377515",
+      "doi": "10.1145/3377325.3377515"
+    },
+    {
+      "text": "Jahanzeb Sherwani, Dong Yu, Tim Paek, Mary Czerwinski, Yun-Cheng Ju, and Alex Acero. 2007. Voicepedia: Towards speech-based access to unstructured information. In Eighth Annual Conference of the International Speech Communication Association.",
+      "doi": ""
+    },
+    {
+      "text": "Atsushi Sugiura and Yoshiyuki Koseki. 1996. Simplifying Macro Definition in Programming by Demonstration. In Proceedings of the 9th Annual ACM Symposium on User Interface Software and Technology (Seattle, Washington, USA) (UIST \u201996). Association for Computing Machinery, New York, NY, USA, 173\u2013182. https://doi.org/10.1145/237091.237118",
+      "doi": "10.1145/237091.237118"
+    },
+    {
+      "text": "Ahmad\u00a0Bisher Tarakji, Jian Xu, Juan\u00a0A. Colmenares, and Iqbal Mohomed. 2018. Voice Enabling Mobile Applications with UIVoice. In Proceedings of the 1st International Workshop on Edge Systems, Analytics and Networking (Munich, Germany) (EdgeSys\u201918). Association for Computing Machinery, New York, NY, USA, 49\u201354. https://doi.org/10.1145/3213344.3213353",
+      "doi": "10.1145/3213344.3213353"
+    },
+    {
+      "text": "Jesse Thomason, Shiqi Zhang, Raymond Mooney, and Peter Stone. 2015. Learning to Interpret Natural Language Commands through Human-Robot Dialog. In Proceedings of the 24th International Conference on Artificial Intelligence (Buenos Aires, Argentina) (IJCAI\u201915). AAAI Press, 1923\u20131929.",
+      "doi": "10.5555/2832415.2832516"
+    },
+    {
+      "text": "Zhen Tu, Yali Fan, Yong Li, Xiang Chen, Li Su, and Depeng Jin. 2019. From Fingerprint to Footprint: Cold-Start Location Recommendation by Learning User Interest from App Data. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 3, 1, Article 26 (March 2019), 22\u00a0pages. https://doi.org/10.1145/3314413",
+      "doi": "10.1145/3314413"
+    },
+    {
+      "text": "Wayne Ward and Sunil Issar. 1994. Recent improvements in the CMU spoken language understanding system. Technical Report. CARNEGIE-MELLON UNIV PITTSBURGH PA SCHOOL OF COMPUTER SCIENCE.",
+      "doi": ""
+    },
+    {
+      "text": "Wikipedia. 2021. Cosine similarity - Wikipedia. Retrieved August 27, 2021 from https://en.wikipedia.org/wiki/Cosine_similarity",
+      "doi": ""
+    },
+    {
+      "text": "Linda Wulf, Markus Garschall, Julia Himmelsbach, and Manfred Tscheligi. 2014. Hands Free - Care Free: Elderly People Taking Advantage of Speech-Only Interaction. In Proceedings of the 8th Nordic Conference on Human-Computer Interaction: Fun, Fast, Foundational (Helsinki, Finland) (NordiCHI \u201914). Association for Computing Machinery, New York, NY, USA, 203\u2013206. https://doi.org/10.1145/2639189.2639251",
+      "doi": "10.1145/2639189.2639251"
+    },
+    {
+      "text": "Liang Xu, Hai Hu, Xuanwei Zhang, Lu Li, Chenjie Cao, Yudong Li, Yechen Xu, Kai Sun, Dian Yu, Cong Yu, 2020. Clue: A chinese language understanding evaluation benchmark. arXiv preprint arXiv:2004.05986(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Nicole Yankelovich, Gina-Anne Levow, and Matt Marx. 1995. Designing SpeechActs: Issues in speech user interfaces. In Proceedings of the SIGCHI conference on Human factors in computing systems. 369\u2013376.",
+      "doi": "10.1145/223904.223952"
+    },
+    {
+      "text": "Jennifer Zamora. 2017. I\u2019m Sorry, Dave, I\u2019m Afraid I Can\u2019t Do That: Chatbot Perception and Expectations. In Proceedings of the 5th International Conference on Human Agent Interaction (Bielefeld, Germany) (HAI \u201917). Association for Computing Machinery, New York, NY, USA, 253\u2013260. https://doi.org/10.1145/3125739.3125766",
+      "doi": "10.1145/3125739.3125766"
+    },
+    {
+      "text": "Yin Zhang, Rong Jin, and Zhi-Hua Zhou. 2010. Understanding bag-of-words model: a statistical framework. International Journal of Machine Learning and Cybernetics 1, 1-4(2010), 43\u201352.",
+      "doi": ""
+    },
+    {
+      "text": "Ye Zhang and Byron Wallace. 2015. A sensitivity analysis of (and practitioners\u2019 guide to) convolutional neural networks for sentence classification. arXiv preprint arXiv:1510.03820(2015).",
+      "doi": ""
+    },
+    {
+      "text": "Yu Zhong, T.\u00a0V. Raman, Casey Burkhardt, Fadi Biadsy, and Jeffrey\u00a0P. Bigham. 2014. JustSpeak: Enabling Universal Voice Control on Android. In Proceedings of the 11th Web for All Conference (Seoul, Korea) (W4A \u201914). Association for Computing Machinery, New York, NY, USA, Article 36, 4\u00a0pages. https://doi.org/10.1145/2596695.2596720",
+      "doi": "10.1145/2596695.2596720"
+    }
+  ]
+}

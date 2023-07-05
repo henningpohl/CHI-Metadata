@@ -1,0 +1,656 @@
+{
+  "doi": "10.1145/3544548.3581286",
+  "title": "Community-Driven Information Accessibility: Online Sign Language Content Creation within d/Deaf Communities",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-24",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Information access is one of the most significant challenges faced by d/Deaf signers due to a lack of sign language information. Given the challenges in machine-driven solutions, we seek to understand how d/Deaf communities can support the growth of sign language content. Based on interviews with 12 d/Deaf people in China, we found that d/Deaf videos, i.e., sign language videos created by and for d/Deaf people, can be crucial information sources and educational materials. Combining content analysis of 360 d/Deaf videos to better understand this type of video, we show how d/Deaf communities co-create information accessibility through collaboration in content creation online. We uncover two major challenges that creators need to address, e.g., difficulties in interpretation and inconsistent content qualities. We propose potential design opportunities and future research directions to support d/Deaf people\u2019s needs for sign language content through collaboration within d/Deaf communities.",
+  "authors": [
+    {
+      "name": "Xinru Tang",
+      "institution": "University of California, Irvine, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660644270",
+      "orcid": "0000-0001-6426-1363"
+    },
+    {
+      "name": "Xiang Chang",
+      "institution": "Sichuan University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783559",
+      "orcid": "0000-0003-1450-646X"
+    },
+    {
+      "name": "Nuoran Chen",
+      "institution": "Engineering School, University of California, Berkeley, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783695",
+      "orcid": "0000-0002-2659-659X"
+    },
+    {
+      "name": "Yingjie (MaoMao) Ni",
+      "institution": "Sign Access (Guangzhou) Service Co., Ltd., China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782864",
+      "orcid": "0000-0001-6478-3081"
+    },
+    {
+      "name": "RAY LC",
+      "institution": "School of Creative Media, City University of Hong Kong, Hong Kong",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659502245",
+      "orcid": "0000-0001-7310-8790"
+    },
+    {
+      "name": "Xin Tong",
+      "institution": "Duke Kunshan University, China",
+      "img": "/do/10.1145/contrib-99658689004/rel-imgonly/profile_1.jpeg",
+      "acmid": "99658689004",
+      "orcid": "0000-0002-8037-6301"
+    }
+  ],
+  "references": [
+    {
+      "text": "RCN Almeida, RS Schiaffino, and VM Rumjanek. 2014. Access and comprehension of information by profound deaf youngsters in Brazil. Journal of media and communication studies 6, 11 (2014), 174\u2013178.",
+      "doi": ""
+    },
+    {
+      "text": "Oliver Alonzo, Matthew Seita, Abraham Glasser, and Matt Huenerfauth. 2020. Automatic text simplification tools for deaf and hard of hearing adults: Benefits of lexical simplification and providing users with autonomy. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376563"
+    },
+    {
+      "text": "Kuaishou. Retrieved November, 2022. Kuaishou Technology Announces First Quarter 2022 Financial Results. https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-technology-announces-first-quarter-2022-financial.",
+      "doi": ""
+    },
+    {
+      "text": "Ministry of Education of of the People\u2019s Republic\u00a0of China\u00a0(\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u6559\u80b2\u90e8). Retrieved December, 2022. Lexicon of Common Expressions in Chinese National Sign Language (\u56fd\u5bb6\u901a\u7528\u624b\u8bed\u5e38\u7528\u8bcd\u8868). http://www.moe.gov.cn/jyb_sjzl/ziliao/A19/201807/t20180725_343691.html.",
+      "doi": ""
+    },
+    {
+      "text": "National Bureau\u00a0of Statistics. Retrieved June, 2022. Results of the second national sample survey of people with disabilities were officially released (\u7b2c\u4e8c\u6b21\u5168\u56fd\u6b8b\u75be\u4eba\u62bd\u6837\u8c03\u67e5\u7ed3\u679c\u6b63\u5f0f\u53d1\u5e03 [Note from the authors: In China, people still often use the term \"CanJi\"\u6b8b\u75be, i.e., deficient and having a disease, to refer to disabled people. We maintained the original Chinese word \"CanJi\" in references to ensure that readers can relate to the original text.]). http://www.stats.gov.cn/tjgz/tjdt/200612/t20061205_16908.html.",
+      "doi": ""
+    },
+    {
+      "text": "Statista. Retrieved December, 2022. Number of monthly active users of popular short video apps in China as of July 2022. https://www.statista.com/statistics/910633/china-monthly-active-users-across-leading-short-video-apps/.",
+      "doi": ""
+    },
+    {
+      "text": "Statista. Retrieved November, 2022. Number of monthly active users of Weibo Corporation from 1st quarter of 2018 to 1st quarter of 2022. https://www.statista.com/statistics/795303/china-mau-of-sina-weibo/.",
+      "doi": ""
+    },
+    {
+      "text": "Statista. Retrieved November, 2022. Number of monthly active users of Xiaohongshu app in China from December 2020 to June 2022. https://www.statista.com/statistics/1327421/china-xiaohongshu-monthly-active-users/.",
+      "doi": ""
+    },
+    {
+      "text": "Statista. Retrieved November, 2022. Number of monthly active WeChat users from 2nd quarter 2011 to 1st quarter 2022. https://www.statista.com/statistics/255778/number-of-active-wechat-messenger-accounts/.",
+      "doi": ""
+    },
+    {
+      "text": "Wang Lianzhang. Retrieved August, 2022. China\u2019s Only Sign Language Lawyer. https://www.sixthtone.com/news/1003204/chinas-only-sign-language-lawyer.",
+      "doi": ""
+    },
+    {
+      "text": "Wikipedia. Retrieved August, 2022. Chinese Sign Language. https://en.wikipedia.org/wiki/Chinese_Sign_Language.",
+      "doi": ""
+    },
+    {
+      "text": "XueZhu\u00a0from Guokr (\u96ea\u7af9\u679c\u58f3)\u00a0. Retrieved August, 2022. Strange Sign Language: 90% of d/Deaf people cannot understand the sign language used by sign language interpreters | in-depth report (\u540a\u8be1\u7684\u624b\u8bed\uff1a\u624b\u8bed\u7ffb\u8bd1\u6253\u7684\u624b\u8bed\uff0c\u4e5d\u6210\u804b\u4eba\u770b\u4e0d\u61c2 |\u6df1\u5ea6). https://mp.weixin.qq.com/s/ERI05cuX9QpmpzumXCREaw.",
+      "doi": ""
+    },
+    {
+      "text": "Zheng Xuan. Retrieved August, 2022. Post-Coronavirus, China Should Listen to Its Deaf Community. https://www.sixthtone.com/news/1005865/post-coronavirus%2C-china-should-listen-to-its-deaf-community.",
+      "doi": ""
+    },
+    {
+      "text": "Yufuko Takashima (\u9ad8\u5d8b\u7531\u5e03\u5b50). 2020. Japanese Sign Language as a Endangered Language(\u5371\u6a5f\u8a00\u8a9e\u3068\u3057\u3066\u306e\u65e5\u672c\u624b\u8a71). NINJAL Research Papers (\u56fd\u7acb\u56fd\u8a9e\u7814\u7a76\u6240\u8ad6\u96c6) 18(2020), 121\u2013148.",
+      "doi": ""
+    },
+    {
+      "text": "Seigou Uenou (\u4e0a\u8fb2\u6b63\u525b). 2020. Issues of Japanese Sign Language and Signed Japanese in d/Deaf Education: Real-world Discussion (\u807e\u6559\u80b2\u306b\u304a\u3051\u308b\u624b\u8a71\u3068\u66f8\u8a18\u65e5\u672c\u8a9e\u306e\u554f\u984c\u73fe\u5b9f\u306e\u4e2d\u3067\u8b70\u8ad6\u3059\u308b\u305f\u3081\u306b). Japanese Journal for Sign Language Studies(\u624b\u8a71\u5b66\u7814\u7a76) 29, 2 (2020), 74\u201393.",
+      "doi": ""
+    },
+    {
+      "text": "Ursula Bellugi and Susan Fischer. 1972. A comparison of sign language and spoken language. Cognition 1, 2-3 (1972), 173\u2013200.",
+      "doi": ""
+    },
+    {
+      "text": "Cynthia\u00a0L Bennett, Erin Brady, and Stacy\u00a0M Branham. 2018. Interdependence as a frame for assistive technology research and design. In Proceedings of the 20th international acm sigaccess conference on computers and accessibility. 161\u2013173.",
+      "doi": "10.1145/3234695.3236348"
+    },
+    {
+      "text": "Jeffrey\u00a0P Bigham, Chandrika Jayant, Hanjie Ji, Greg Little, Andrew Miller, Robert\u00a0C Miller, Robin Miller, Aubrey Tatarowicz, Brandyn White, Samual White, and Tom Yeh. 2010. Vizwiz: nearly real-time answers to visual questions. In Proceedings of the 23nd annual ACM symposium on User interface software and technology. 333\u2013342.",
+      "doi": "10.1145/1866029.1866080"
+    },
+    {
+      "text": "Jeffrey\u00a0P Bigham, Richard\u00a0E Ladner, and Yevgen Borodin. 2011. The design of human-powered access technology. In The proceedings of the 13th international ACM SIGACCESS conference on Computers and accessibility. 3\u201310.",
+      "doi": "10.1145/2049536.2049540"
+    },
+    {
+      "text": "Judith Borghouts, Martha Neary, Kristina Palomares, Cinthia De\u00a0Leon, Stephen\u00a0M Schueller, Margaret Schneider, Nicole Stadnick, Dana\u00a0B Mukamel, Dara\u00a0H Sorkin, Dakota Brown, Shannon McCleerey-Hooper, Gloria Moriarty, and Elizabeth\u00a0V Eikey. 2022. Understanding the Potential of Mental Health Apps to Address Mental Health Needs of the Deaf and Hard of Hearing Community: Mixed Methods Study. JMIR human factors 9, 2 (2022), e35641.",
+      "doi": ""
+    },
+    {
+      "text": "Katya Borgos-Rodriguez, Kathryn\u00a0E Ringland, and Anne\u00a0Marie Piper. 2019. Myautsomefamilylife: Analyzing parents of children with developmental disabilities on YouTube. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201326.",
+      "doi": "10.1145/3359196"
+    },
+    {
+      "text": "Ted\u00a0K Bradshaw. 2008. The post-place community: Contributions to the debate about the definition of community. Community Development 39, 1 (2008), 5\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Danielle Bragg, Naomi Caselli, Julie\u00a0A Hochgesang, Matt Huenerfauth, Leah Katz-Hernandez, Oscar Koller, Raja Kushalnagar, Christian Vogler, and Richard\u00a0E Ladner. 2021. The FATE Landscape of Sign Language AI Datasets: An Interdisciplinary Perspective. ACM Transactions on Accessible Computing (TACCESS) 14, 2 (2021), 1\u201345.",
+      "doi": "10.1145/3461700"
+    },
+    {
+      "text": "Danielle Bragg, Abraham Glasser, Fyodor Minakov, Naomi Caselli, and William Thies. 2022. Exploring Collection of Sign Language Videos through Crowdsourcing. 6, CSCW2, Article 514 (2022), 24\u00a0pages. https://doi.org/10.1145/3555627",
+      "doi": "10.1145/3555627"
+    },
+    {
+      "text": "Danielle Bragg, Oscar Koller, Mary Bellard, Larwan Berke, Patrick Boudreault, Annelies Braffort, Naomi Caselli, Matt Huenerfauth, Hernisa Kacorri, Tessa Verhoef, Christian Vogler, and Meredith\u00a0Ringel Morris. 2019. Sign language recognition, generation, and translation: An interdisciplinary perspective. In The 21st international ACM SIGACCESS conference on computers and accessibility. 16\u201331.",
+      "doi": "10.1145/3308561.3353774"
+    },
+    {
+      "text": "Stacy\u00a0M Branham and Shaun\u00a0K Kane. 2015. Collaborative accessibility: How blind and sighted companions co-create accessible home spaces. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 2373\u20132382.",
+      "doi": "10.1145/2702123.2702511"
+    },
+    {
+      "text": "Jan Branson and Don Miller. 2004. The cultural construction of linguistic incompetence through schooling: Deaf education and the transformation of the linguistic environment in Bali, Indonesia. Sign Language Studies 5, 1 (2004), 6\u201338.",
+      "doi": ""
+    },
+    {
+      "text": "Anna Cavender, Shari Trewin, and Vicki Hanson. Retrieved December, 2022. Accessible Writing Guide. https://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/.",
+      "doi": ""
+    },
+    {
+      "text": "Anna\u00a0C Cavender, Daniel\u00a0S Otero, Jeffrey\u00a0P Bigham, and Richard\u00a0E Ladner. 2010. Asl-stem forum: enabling sign language to grow through online collaboration. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2075\u20132078.",
+      "doi": "10.1145/1753326.1753642"
+    },
+    {
+      "text": "Ngai\u00a0Keung Chan. 2019. \"Becoming an expert in driving for Uber\": Uber driver/bloggers\u2019 performance of expertise and self-presentation on YouTube. New Media & Society 21, 9 (2019), 2048\u20132067.",
+      "doi": ""
+    },
+    {
+      "text": "Yaqing Chen and Qunhu Gong. 2020. Dialects or languages: a corpus-based quantitative approach to lexical variation in common signs in Chinese Sign Language (CSL). Lingua 248(2020), 102944.",
+      "doi": ""
+    },
+    {
+      "text": "China Disabled Persons Federation(\u4e2d\u56fd\u6b8b\u75be\u4eba\u8054\u5408\u4f1a\u7f51\u7ad9). Retrieved July, 2022. Practical Evaluation Standards for Disability in China (\u4e2d\u56fd\u6b8b\u75be\u4eba\u5b9e\u7528\u8bc4\u5b9a\u6807\u51c6). http://www.gov.cn/ztzl/gacjr/content_459939.htm.",
+      "doi": ""
+    },
+    {
+      "text": "Lan Ni (\u502a\u5170). 2022. Chinese Sign Language: Intermediate(\u4e2d\u56fd\u624b\u8bed\u6559\u7a0b\uff1a\u4e2d\u7ea7). Fudan University Press (\u590d\u65e6\u5927\u5b66\u51fa\u7248\u793e).",
+      "doi": ""
+    },
+    {
+      "text": "Yamauchi, Kazuhiro-Third Special Investigation Office, House of Councillors of Japan (\u5c71\u5185\u4e00\u5b8f-\u53c2\u8b70\u9662\u3000\u7b2c\u4e09\u7279\u5225\u8abf\u67fb\u5ba4). Retrieved December, 2022. Japanese and Japanese Sign Language \u2013 Toward a History of Conflict and Symbiosis \u2013 (\u65e5\u672c\u8a9e\u3068\u65e5\u672c\u624b\u8a71\u30fc\u76f8\u514b\u306e\u6b74\u53f2\u3068\u5171\u751f\u306b\u5411\u3051\u3066\u30fc). https://www.sangiin.go.jp/japanese/annai/chousa/rippou_chousa/backnumber/2017pdf/20170301101ss.pdf.",
+      "doi": ""
+    },
+    {
+      "text": "Mairian Corker. 1998. Deaf and disabled, or deafness disabled?: towards a human rights perspective. Open University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Crabb, Rhianne Jones, Mike Armstrong, and Chris\u00a0J Hughes. 2015. Online news videos: the UX of subtitle position. In Proceedings of the 17th international ACM SIGACCESS conference on Computers & accessibility. 215\u2013222.",
+      "doi": "10.1145/2700648.2809866"
+    },
+    {
+      "text": "ONNO Crasborn and TONY Bloem. 2009. Linguistic variation as a challenge for sign language interpreters and sign language interpreter education in the Netherlands. International perspectives on sign language interpreter education 4 (2009), 77\u201395.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0W Creswell and Cheryl\u00a0N Poth. 2016. Qualitative inquiry and research design: Choosing among five approaches. Sage publications.",
+      "doi": ""
+    },
+    {
+      "text": "Ruikai Dai and Luanjiao Hu. 2022. Inclusive communications in COVID-19: a virtual ethnographic study of disability support network in China. Disability & Society 37, 1 (2022), 3\u201321.",
+      "doi": ""
+    },
+    {
+      "text": "Maitraye Das, Katya Borgos-Rodriguez, and Anne\u00a0Marie Piper. 2020. Weaving by touch: A case analysis of accessible making. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3313831.3376477"
+    },
+    {
+      "text": "Maitraye Das, Darren Gergle, and Anne\u00a0Marie Piper. 2019. \" It doesn\u2019t win you friends\" Understanding Accessibility in Collaborative Writing for People with Vision Impairments. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201326.",
+      "doi": ""
+    },
+    {
+      "text": "Maitraye Das, Thomas\u00a0Barlow McHugh, Anne\u00a0Marie Piper, and Darren Gergle. 2022. Co11ab: Augmenting Accessibility in Synchronous Collaborative Writing for People with Vision Impairments. In CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3491102.3501918"
+    },
+    {
+      "text": "Maitraye Das, John Tang, Kathryn\u00a0E Ringland, and Anne\u00a0Marie Piper. 2021. Towards accessible remote work: Understanding work-from-home practices of neurodivergent professionals. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201330.",
+      "doi": "10.1145/3449282"
+    },
+    {
+      "text": "Maartje De\u00a0Meulder, Joseph\u00a0J Murray, and Rachel\u00a0L McKee. 2019. The legal recognition of sign languages: Advocacy and outcomes around the world. Multilingual Matters.",
+      "doi": ""
+    },
+    {
+      "text": "Xianghua Ding, Yubo Kou, Yiwen Xu, and Peng Zhang. 2022. \"As Uploaders, We Have the Responsibility\": Individualized Professionalization of Bilibili Uploaders. In CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3491102.3517509"
+    },
+    {
+      "text": "Bryan Dosono and Bryan Semaan. 2019. Moderation practices as emotional labor in sustaining online communities: The case of AAPI identity work on Reddit. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300372"
+    },
+    {
+      "text": "Steven\u00a0C Fedorowicz. 2020. Deaf Bodies: Toward a Holistic Ethnography of Deaf People in Japan. Journal of Inquiry and Research 111 (2020), 269\u2013286.",
+      "doi": ""
+    },
+    {
+      "text": "Johannes Fellinger, Daniel Holzinger, and Robert Pollard. 2012. Mental health of deaf people. The Lancet 379, 9820 (2012), 1037\u20131044.",
+      "doi": ""
+    },
+    {
+      "text": "Emma Ferguson-Coleman, Alice Johnston, Alys Young, Fiona Brown, Ruth de Sainte\u00a0Croix, and Paul Redfern. 2020. How do we know what we don\u2019t know? Exploring Deaf people\u2019s experiences of supporting their Deaf family member living with dementia. Dementia 19, 5 (2020), 1381\u20131396.",
+      "doi": ""
+    },
+    {
+      "text": "Centers for Disease\u00a0Control and Prevention. Retrieved December, 2022. Disability Impacts All of Us. https://www.cdc.gov/ncbddd/disabilityandhealth/infographic-disability-impacts-all.html.",
+      "doi": ""
+    },
+    {
+      "text": "Alexandre G\u00a0Silva, Tiago Batista, Felipe Giraud, Andrea Giraud, Flavio\u00a0Eduardo Pinto-Silva, Julia Barral, Juan Nascimento\u00a0Guimar\u00e3es, and Vivian rumjanek. 2020. Science communication for the Deaf in the pandemic period: absences and pursuit of information. Journal of Science Communication 19, 5 (2020), A05.",
+      "doi": ""
+    },
+    {
+      "text": "Sarah\u00a0A Gilbert. 2020. \"I run the world\u2019s largest historical outreach project and it\u2019s on a cesspool of a website.\" Moderating a Public Scholarship Site on Reddit: A Case Study of r/AskHistorians. Proceedings of the ACM on Human-Computer Interaction 4, CSCW1(2020), 1\u201327.",
+      "doi": "10.1145/3392822"
+    },
+    {
+      "text": "Abraham Glasser, Fyodor Minakov, and Danielle Bragg. 2022. ASL Wiki: An Exploratory Interface for Crowdsourcing ASL Translations. In The 24th International ACM SIGACCESS Conference on Computers and Accessibility. 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Kotaro Hara, Shiri Azenkot, Megan Campbell, Cynthia\u00a0L Bennett, Vicki Le, Sean Pannella, Robert Moore, Kelly Minckler, Rochelle\u00a0H Ng, and Jon\u00a0E Froehlich. 2015. Improving public transit accessibility for blind riders by crowdsourcing bus stop landmark locations with google street view: An extended analysis. ACM Transactions on Accessible Computing (TACCESS) 6, 2 (2015), 1\u201323.",
+      "doi": "10.1145/2717513"
+    },
+    {
+      "text": "Erin\u00a0Moriarty Harrelson. 2019. Deaf people with \"no language\": Mobility and flexible accumulation in languaging practices of deaf people in Cambodia. Applied Linguistics Review 10, 1 (2019), 55\u201372.",
+      "doi": ""
+    },
+    {
+      "text": "Sharon Heung, Mahika Phutane, Shiri Azenkot, Megh Marathe, and Aditya Vashistha. 2022. Nothing Micro About It: Examining Ableist Microaggressions on Social Media. In The 24th International ACM SIGACCESS Conference on Computers and Accessibility. 1\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Haruto Hiraoka Asahi News Digital\u00a0(\u5e73\u5ca1\u6625\u4eba\u671d\u65e5\u65b0\u805e\u30c7\u30b8\u30bf\u30eb). Retrieved December, 2022. A 3rd Grade Boy at d/Deaf School Sues His Teacher to Sapporo District Court for Unable to Use Japanese Sign Language (\u62c5\u4efb\u306b\u300c\u65e5\u672c\u624b\u8a71\u300d\u304c\u901a\u3058\u306a\u3044\u3000\u308d\u3046\u5b66\u6821\u306e\u5c0f3\u7537\u5150\u304c\u5317\u6d77\u9053\u3092\u63d0\u8a34). https://www.asahi.com/articles/ASQ7W6QLFQ7WIIPE01Q.html.",
+      "doi": ""
+    },
+    {
+      "text": "Megan Hofmann, Devva Kasnitz, Jennifer Mankoff, and Cynthia\u00a0L Bennett. 2020. Living disability theory: Reflections on access, research, and design. In The 22nd International ACM SIGACCESS Conference on Computers and Accessibility. 1\u201313.",
+      "doi": "10.1145/3373625.3416996"
+    },
+    {
+      "text": "Rachel\u00a0E Hommes, Amy\u00a0I Borash, Kari Hartwig, and Donna DeGracia. 2018. American Sign Language interpreters perceptions of barriers to healthcare communication in deaf and hard of hearing patients. Journal of community health 43, 5 (2018), 956\u2013961.",
+      "doi": ""
+    },
+    {
+      "text": "Sung-Eun Hong, Hyunhwa Lee, Mi-Hye Lee, and Seung-Il Byun. 2019. The Korean Sign Language Act. Recogninzing Sign Languages: An International Overview of National Campaigns for Sign Language Legislation and their Outcomes. Multilingual Matters (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Hsiu-Fang Hsieh and Sarah\u00a0E Shannon. 2005. Three approaches to qualitative content analysis. Qualitative health research 15, 9 (2005), 1277\u20131288.",
+      "doi": ""
+    },
+    {
+      "text": "Lijiao Huang. 2019. A SURVEY OF DEAF CULTURE AWARENESS IN CHINA. New Dimensions Toward Education, Advocacy and Collaboration for Individuals with Special Needs (2019), 43.",
+      "doi": ""
+    },
+    {
+      "text": "Gabrielle\u00a0A Jones, Dawei Ni, and Wei Wang. 2021. Nothing about us without us: Deaf education and sign language access in China. Deafness & Education International 23, 3 (2021), 179\u2013200.",
+      "doi": ""
+    },
+    {
+      "text": "Jong\u00a0Sup Jun. 2001. Korean \"Standard Sign Language\" Is Not a Sign Language. Journal of cognitive science 2 (2001).",
+      "doi": ""
+    },
+    {
+      "text": "Sushant Kafle and Matt Huenerfauth. 2017. Evaluating the usability of automatically generated captions for people who are deaf or hard of hearing. In Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility. 165\u2013174.",
+      "doi": "10.1145/3132525.3132542"
+    },
+    {
+      "text": "Elizabeth Karras and Lance\u00a0S Rintamaki. 2012. An examination of online health information seeking by deaf people. Health Communication 27, 2 (2012), 194\u2013204.",
+      "doi": ""
+    },
+    {
+      "text": "Saba Kawas, George Karalis, Tzu Wen, and Richard\u00a0E Ladner. 2016. Improving real-time captioning experiences for deaf and hard of hearing students. In Proceedings of the 18th International ACM SIGACCESS Conference on Computers and Accessibility. 15\u201323.",
+      "doi": "10.1145/2982142.2982164"
+    },
+    {
+      "text": "Arjun Kharpal. Retrieved August, 2022. Everything you need to know about WeChat - China\u2019s billion-user messaging app. https://www.cnbc.com/2019/02/04/what-is-wechat-china-biggest-messaging-app.html.",
+      "doi": ""
+    },
+    {
+      "text": "Klaus Krippendorff. 2011. Computing Krippendorff\u2019s alpha-reliability. (2011).",
+      "doi": ""
+    },
+    {
+      "text": "Raja\u00a0S Kushalnagar and Christian Vogler. 2020. Teleconference accessibility and guidelines for deaf and hard of hearing users. In The 22nd International ACM SIGACCESS Conference on Computers and Accessibility. 1\u20136.",
+      "doi": "10.1145/3373625.3417299"
+    },
+    {
+      "text": "Cheuk Yin\u00a0Phipson Lee, Zhuohao Zhang, Jaylin Herskovitz, JooYoung Seo, and Anhong Guo. 2022. CollabAlly: Accessible Collaboration Awareness in Document Editing. In CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "Franklin\u00a0Mingzhe Li, Di\u00a0Laura Chen, Mingming Fan, and Khai\u00a0N Truong. 2021. \"I Choose Assistive Devices That Save My Face\" A Study on Perceptions of Accessibility and Assistive Technology Use Conducted in China. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445321"
+    },
+    {
+      "text": "Dongxiao Li\u00a0(\u674e\u4e1c\u6653). 2013. The current situation of accessibility in China\u2019s TV media, problems and suggestions (\u6211\u56fd\u7535\u89c6\u5a92\u4f53\u7684\u65e0\u969c\u788d\u53d1\u5c55\u73b0\u72b6, \u95ee\u9898\u517c\u53ca\u5efa\u8bae). Modern Communication: Journal of Communication University of China(\u73b0\u4ee3\u4f20\u64ad: \u4e2d\u56fd\u4f20\u5a92\u5927\u5b66\u5b66\u62a5)5(2013), 7\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Zihao Lin. 2021. Writing down our happiness and dreams: essay contest and the statist narratives of deaf identity in China. Disability & Society 36, 1 (2021), 38\u201357.",
+      "doi": ""
+    },
+    {
+      "text": "Yanhong Liu\u00a0(\u5218\u8273\u8679), Dingqian Gu\u00a0(\u987e\u5b9a\u5029), Li Cheng\u00a0(\u7a0b\u9ece), and Dan Wei\u00a0(\u9b4f\u4e39). 2013. A study of the current situation of sign language use in China (\u6211\u56fd\u624b\u8bed\u4f7f\u7528\u72b6\u51b5\u7684\u8c03\u67e5\u7814\u7a76). Applied Linguistics (\u8bed\u8a00\u6587\u5b57\u5e94\u7528)2(2013), 35\u201341.",
+      "doi": ""
+    },
+    {
+      "text": "Yunyi Ma. 2020. A Study of Lexical Variation, Comprehension and Language Attitudes in Deaf Users of Chinese Sign Language (CSL) from Beijing and Shanghai. Ph.\u00a0D. Dissertation. UCL (University College London).",
+      "doi": ""
+    },
+    {
+      "text": "Kelly Mack, Danielle Bragg, Meredith\u00a0Ringel Morris, Maarten\u00a0W Bos, Isabelle Albi, and Andr\u00e9s Monroy-Hern\u00e1ndez. 2020. Social app accessibility for deaf signers. Proceedings of the ACM on Human-Computer Interaction 4, CSCW2(2020), 1\u201331.",
+      "doi": "10.1145/3415196"
+    },
+    {
+      "text": "Kelly Mack, Maitraye Das, Dhruv Jain, Danielle Bragg, John Tang, Andrew Begel, Erin Beneteau, Josh\u00a0Urban Davis, Abraham Glasser, Joon\u00a0Sung Park, and Venkatesh Potluri. 2021. Mixed Abilities and Varied Experiences: a group autoethnography of a virtual summer internship. In The 23rd International ACM SIGACCESS Conference on Computers and Accessibility. 1\u201313.",
+      "doi": "10.1145/3441852.3471199"
+    },
+    {
+      "text": "Kelly Mack, Emma McDonnell, Dhruv Jain, Lucy Lu\u00a0Wang, Jon E.\u00a0Froehlich, and Leah Findlater. 2021. What do we mean by \"accessibility research\"? A literature survey of accessibility papers in CHI and ASSETS from 1994 to 2019. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3411764.3445412"
+    },
+    {
+      "text": "Shruti Mahajan, Khulood Alkhudaidi, Rachel Boll, Jeanne Reis, and Erin Solovey. 2022. Role of Technology in Increasing Representation of Deaf Individuals in Future STEM Workplaces. In 2022 Symposium on Human-Computer Interaction for Work. 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Michella Maiorana-Basas and Claudia\u00a0M Pagliaro. 2014. Technology use among adults who are deaf and hard of hearing: A national survey. Journal of deaf studies and deaf education(2014), 400\u2013410.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0R Mallory, Michael Stinson, Lisa Elliot, and Donna Easton. 2017. Personal perspectives on using automatic speech recognition to facilitate communication between deaf students and hearing customers. In Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility. 419\u2013421.",
+      "doi": "10.1145/3132525.3134779"
+    },
+    {
+      "text": "Helen Margellos-Anast, Melanie Estarziau, and Gary Kaufman. 2006. Cardiovascular disease knowledge among culturally Deaf patients in Chicago. Preventive medicine 42, 3 (2006), 235\u2013239.",
+      "doi": ""
+    },
+    {
+      "text": "Martin\u00a0N Marshall. 1996. Sampling for qualitative research. Family practice 13, 6 (1996), 522\u2013526.",
+      "doi": ""
+    },
+    {
+      "text": "Emma\u00a0J McDonnell, Ping Liu, Steven\u00a0M Goodman, Raja Kushalnagar, Jon\u00a0E Froehlich, and Leah Findlater. 2021. Social, environmental, and technical: Factors at play in the current use and future design of small-group captioning. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201325.",
+      "doi": "10.1145/3479578"
+    },
+    {
+      "text": "Guy McIlroy and Claudine Storbeck. 2011. Development of deaf identity: An ethnographic study. The Journal of Deaf Studies and Deaf Education 16, 4 (2011), 494\u2013511.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0M McKee, Michael\u00a0K Paasche-Orlow, Paul\u00a0C Winters, Kevin Fiscella, Philip Zazove, Ananda Sen, and Thomas Pearson. 2015. Assessing health literacy in deaf American sign language users. Journal of health communication 20, sup2 (2015), 92\u2013100.",
+      "doi": ""
+    },
+    {
+      "text": "Rachel McKee, Josefina Safar, and Sara\u00a0Pivac Alexander. 2021. Form, frequency and sociolinguistic variation in depicting signs in New Zealand Sign Language. Language & Communication 79 (2021), 95\u2013117.",
+      "doi": ""
+    },
+    {
+      "text": "Christopher\u00a0J Moreland, Raylene Paludneviciene, Jung\u00a0Hyun Park, Michael McKee, and Poorna Kushalnagar. 2021. Deaf adults at higher risk for severe illness: COVID-19 information preference and perceived health consequences. Patient Education and Counseling 104, 11 (2021), 2830\u20132833.",
+      "doi": ""
+    },
+    {
+      "text": "Soya Mori and Atsubumi Sugimoto. 2019. Progress and problems in the campaign for Sign language recognition in Japan. The legal recognition of sign languages: Advocacy and outcomes around the world (2019), 104\u2013118.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph\u00a0J Murray. 2019. American Sign Language legislation in the USA. The legal recognition of sign languages: Advocacy and outcomes around the world (2019), 119\u2013128.",
+      "doi": ""
+    },
+    {
+      "text": "Karen Nakamura. 2006. Deaf in Japan: Signing and the politics of identity. Cornell University Press.",
+      "doi": ""
+    },
+    {
+      "text": "United Nations. Retrieved September, 2022. We Sign for Human Rights. https://www.un.org/en/observances/sign-languages-day.",
+      "doi": ""
+    },
+    {
+      "text": "NHK. Retrieved January, 2023. NHK CORPORATE INFORMATION. https://www.nhk.or.jp/corporateinfo/.",
+      "doi": ""
+    },
+    {
+      "text": "Magda Nikolaraizi and Maria Makri. 2004. Deaf and hearing individuals\u2019 beliefs about the capabilities of deaf people. American Annals of the Deaf 149, 5 (2004), 404\u2013414.",
+      "doi": ""
+    },
+    {
+      "text": "World\u00a0Federation of\u00a0the Deaf. Retrieved December, 2022. The Legal Recognition of National Sign Languages. https://wfdeaf.org/news/the-legal-recognition-of-national-sign-languages/.",
+      "doi": ""
+    },
+    {
+      "text": "World\u00a0Federation of\u00a0the Deaf. Retrieved July, 2022. Our Work. https://wfdeaf.org/our-work/.",
+      "doi": ""
+    },
+    {
+      "text": "Mike Oliver. 2013. The social model of disability: Thirty years on. Disability & society 28, 7 (2013), 1024\u20131026.",
+      "doi": ""
+    },
+    {
+      "text": "World\u00a0Health Organization. Retrieved June, 2022. Deafness and hearing loss. https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss.",
+      "doi": ""
+    },
+    {
+      "text": "Carol Padden and Tom Humphries. 1988. Deaf in America: Voices from a culture. Harvard University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Carol Padden and Tom Humphries. 2009. Inside deaf culture. Harvard University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Nick Palfreyman. 2019. Variation in Indonesian sign language. In Variation in Indonesian sign language. De Gruyter Mouton.",
+      "doi": ""
+    },
+    {
+      "text": "Anne\u00a0Marie Piper and James\u00a0D Hollan. 2008. Supporting medical conversations between deaf and hearing individuals with tabletop displays. In Proceedings of the 2008 ACM conference on Computer supported cooperative work. 147\u2013156.",
+      "doi": "10.1145/1460563.1460587"
+    },
+    {
+      "text": "Robert\u00a0Q Pollard\u00a0Jr and Steven Barnett. 2009. Health-related vocabulary knowledge among deaf adults.Rehabilitation Psychology 54, 2 (2009), 182.",
+      "doi": ""
+    },
+    {
+      "text": "Venkatesh Potluri, Maulishree Pandey, Andrew Begel, Michael Barnett, and Scott Reitherman. 2022. CodeWalk: Facilitating Shared Awareness in Mixed-Ability Collaborative Software Development. In The 24th International ACM SIGACCESS Conference on Computers and Accessibility. 1\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Liza Potts and Angela Harrison. 2013. Interfaces as rhetorical constructions: reddit and 4chan during the boston marathon bombings. In Proceedings of the 31st ACM international conference on Design of communication. 143\u2013150.",
+      "doi": "10.1145/2507065.2507079"
+    },
+    {
+      "text": "Ljubica Pribani\u0107. 2006. Sign language and deaf education: A new tradition. Sign Language & Linguistics 9, 1-2 (2006), 233\u2013254.",
+      "doi": ""
+    },
+    {
+      "text": "Ren\u00e9e Punch. 2016. Employment and adults who are deaf or hard of hearing: Current status and experiences of barriers, accommodations, and stress in the workplace. American annals of the deaf 161, 3 (2016), 384\u2013397.",
+      "doi": ""
+    },
+    {
+      "text": "Sen Qi and Ross\u00a0E Mitchell. 2012. Large-scale academic achievement testing of deaf and hard-of-hearing students: Past, present, and future. Journal of deaf studies and deaf education 17, 1 (2012), 1\u201318.",
+      "doi": ""
+    },
+    {
+      "text": "Reddit. Retrieved August, 2022. How do I get user flair?https://reddit.zendesk.com/hc/en-us/articles/205242695-How-do-I-get-user-flair-.",
+      "doi": ""
+    },
+    {
+      "text": "Kathryn\u00a0E Ringland, Christine\u00a0T Wolf, LouAnne\u00a0E Boyd, Mark\u00a0S Baldwin, and Gillian\u00a0R Hayes. 2016. Would you be mine: Appropriating minecraft as an assistive technology for youth with autism. In Proceedings of the 18th International ACM SIGACCESS Conference on Computers and Accessibility. 33\u201341.",
+      "doi": "10.1145/2982142.2982172"
+    },
+    {
+      "text": "Dolors Rodr\u00edguez-Mart\u00edn, Catalina Rodr\u00edguez-Garc\u00eda, and Anna Falc\u00f3-Pegueroles. 2018. Ethnographic analysis of communication and the deaf community\u2019s rights in the clinical context. Contemporary nurse 54, 2 (2018), 126\u2013138.",
+      "doi": ""
+    },
+    {
+      "text": "Jazz Rui Xia\u00a0Ang, Ping Liu, Emma McDonnell, and Sarah Coppola. 2022. \"In this online environment, we\u2019re limited\": Exploring Inclusive Video Conferencing Design for Signers. In CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3491102.3517488"
+    },
+    {
+      "text": "Abir Saha and Anne\u00a0Marie Piper. 2020. Understanding audio production practices of people with vision impairments. In The 22nd International ACM SIGACCESS Conference on Computers and Accessibility. 1\u201313.",
+      "doi": "10.1145/3373625.3416993"
+    },
+    {
+      "text": "Brenda Schick. 2003. The development of American Sign Language and manually coded English systems. Oxford handbook of deaf studies, language, and education (2003), 219\u2013231.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth Schniedewind, Ryan Lindsay, and Steven Snow. 2020. Ask and ye shall not receive: Interpreter-related access barriers reported by Deaf users of American sign language. Disability and Health Journal 13, 4 (2020), 100932.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0A Schwartz and Brent\u00a0C Elder. 2018. Deaf access to justice in Northern Ireland: Rethinking \u2019reasonable adjustment\u2019 in the disability discrimination act. Disability & Society 33, 7 (2018), 1003\u20131024.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Seering. 2020. Reconsidering community self-moderation: the role of research in supporting community-based models for online content moderation. Proceedings of the ACM on Human-Computer Interaction 4 (2020), 107.",
+      "doi": "10.1145/3415178"
+    },
+    {
+      "text": "Joseph Seering, Tony Wang, Jina Yoon, and Geoff Kaufman. 2019. Moderator engagement and community development in the age of algorithms. New Media & Society 21, 7 (2019), 1417\u20131443.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Seita, Sooyeon Lee, Sarah Andrew, Kristen Shinohara, and Matt Huenerfauth. 2022. Remotely Co-Designing Features for Communication Applications using Automatic Captioning with Deaf and Hearing Pairs. In CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3491102.3501843"
+    },
+    {
+      "text": "Brent\u00a0N Shiver and Rosalee\u00a0J Wolfe. 2015. Evaluating alternatives for better deaf accessibility to selected web-based multimedia. In Proceedings of the 17th international ACM SIGACCESS conference on computers & accessibility. 231\u2013238.",
+      "doi": "10.1145/2700648.2809857"
+    },
+    {
+      "text": "Jenny\u00a0L Singleton, Gabrielle Jones, and Shilpa Hanumantha. 2014. Toward ethical research practice with deaf participants. Journal of Empirical Research on Human Research Ethics 9, 3(2014), 59\u201366.",
+      "doi": ""
+    },
+    {
+      "text": "Per\u00a0Koren Solvang and Hilde Haualand. 2014. Accessibility and diversity: Deaf space in action. Scandinavian Journal of Disability Research 16, 1 (2014), 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Abdelhadi Soudi, Kristof Van\u00a0Laerhoven, and Elmostafa Bou-Souf. 2019. AfricaSign\u2013a crowd-sourcing platform for the documentation of STEM vocabulary in African sign languages. In The 21st international ACM SIGACCESS conference on computers and accessibility. 658\u2013660.",
+      "doi": "10.1145/3308561.3354592"
+    },
+    {
+      "text": "Klaas-Jan Stol, Paul Ralph, and Brian Fitzgerald. 2016. Grounded theory in software engineering research: a critical review and guidelines. In Proceedings of the 38th International Conference on Software Engineering. 120\u2013131.",
+      "doi": "10.1145/2884781.2884833"
+    },
+    {
+      "text": "John Tang. 2021. Understanding the telework experience of people with disabilities. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201327.",
+      "doi": "10.1145/3449104"
+    },
+    {
+      "text": "Elena Tomasuolo, Tiziana Gulli, Virginia Volterra, and Sabina Fontana. 2021. The Italian Deaf community at the time of Coronavirus. Frontiers in Sociology(2021), 125.",
+      "doi": ""
+    },
+    {
+      "text": "Filippo Trevisan. 2020. \u201cDo You Want to Be a Well-Informed Citizen, or Do You Want to Be Sane?\u201d Social Media, Disability, Mental Health, and Political Marginality. Social Media+ Society 6, 1 (2020), 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Bonnie\u00a0Poitras Tucker. 1997. The ADA and deaf culture: Contrasting precepts, conflicting results. The Annals of the American Academy of Political and Social Science 549, 1(1997), 24\u201336.",
+      "doi": ""
+    },
+    {
+      "text": "Janet Ubido, Janet Huntington, and Diane Warburton. 2002. Inequalities in access to healthcare faced by women who are deaf. Health & Social Care in the Community 10, 4 (2002), 247\u2013253.",
+      "doi": ""
+    },
+    {
+      "text": "Gill Valentine and Tracey Skelton. 2007. The right to be heard: Citizenship and language. Political Geography 26, 2 (2007), 121\u2013140.",
+      "doi": ""
+    },
+    {
+      "text": "Gill Valentine and Tracey Skelton. 2008. Changing spaces: the role of the internet in shaping Deaf geographies. Social & Cultural Geography 9, 5 (2008), 469\u2013485.",
+      "doi": ""
+    },
+    {
+      "text": "Gill Valentine and Tracey Skelton. 2009. \u2019AN UMBILICAL CORD TO THE WORLD\u2019 The role of the Internet in D/deaf people\u2019s information and communication practices. Information, Communication & Society 12, 1 (2009), 44\u201365.",
+      "doi": ""
+    },
+    {
+      "text": "Clayton Valli and Ceil Lucas. 2000. Linguistics of American sign language: An introduction. Gallaudet University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Emily\u00a0Q Wang and Anne\u00a0Marie Piper. 2018. Accessibility in action: Co-located collaboration among deaf and hearing professionals. Proceedings of the ACM on Human-Computer Interaction 2, CSCW(2018), 1\u201325.",
+      "doi": "10.1145/3274449"
+    },
+    {
+      "text": "Jennifer\u00a0Ella Wehrmeyer. 2013. A critical investigation of Deaf comprehension of signed TV news interpretation. Ph.\u00a0D. Dissertation. University of South Africa.",
+      "doi": ""
+    },
+    {
+      "text": "Etienne Wenger. 1999. Communities of practice: Learning, meaning, and identity. Cambridge university press.",
+      "doi": ""
+    },
+    {
+      "text": "Wikipedia. Retrieved August, 2022. Fa Ziying and Lao Rongzhi. https://en.wikipedia.org/wiki/Fa_Ziying_and_Lao_Rongzhi.",
+      "doi": ""
+    },
+    {
+      "text": "Wikipedia. Retrieved November, 2022. Sina Weibo. https://en.wikipedia.org/wiki/Sina_Weibo.",
+      "doi": ""
+    },
+    {
+      "text": "Wikipedia. Retrieved November, 2022. Xiaohongshu. https://en.wikipedia.org/wiki/Xiaohongshu.",
+      "doi": ""
+    },
+    {
+      "text": "Wikipedia. Retrieved September, 2022. China Central Television. https://en.wikipedia.org/wiki/China_Central_Television.",
+      "doi": ""
+    },
+    {
+      "text": "Wikipedia. Retrieved September, 2022. Chinese city tier system. https://en.wikipedia.org/wiki/Chinese_city_tier_system.",
+      "doi": ""
+    },
+    {
+      "text": "Wikipedia. Retrieved September, 2022. Kuaishou. https://en.wikipedia.org/wiki/Kuaishou.",
+      "doi": ""
+    },
+    {
+      "text": "Wikipedia. Retrieved September, 2022. TikTok. https://en.wikipedia.org/wiki/TikTok.",
+      "doi": ""
+    },
+    {
+      "text": "Yiying Wu, Xianghua Ding, Xuelan Dai, Peng Zhang, Tun Lu, and Ning Gu. 2022. Alignment Work for Urban Accessibility: A Study of How Wheelchair Users Travel in Urban Spaces. Proceedings of the ACM on Human-Computer Interaction 6, CSCW2(2022), 1\u201322.",
+      "doi": "10.1145/3555165"
+    },
+    {
+      "text": "Xiaoyan Xiao and Feiyan Li. 2018. Sign language interpreting on Chinese TV: a survey on user perspectives. In Chinese Translation Studies in the 21st Century. Routledge, 303\u2013319.",
+      "doi": ""
+    },
+    {
+      "text": "Di Xu, Chu Yan, Ziqing Zhao, Jiaying Weng, and Shiwen Ma. 2021. External Communication Barriers among Elderly Deaf and Hard of Hearing People in China during the COVID-19 Pandemic Emergency Isolation: A Qualitative Study. International Journal of Environmental Research and Public Health 18, 21(2021), 11519.",
+      "doi": ""
+    },
+    {
+      "text": "Kayo Yin, Amit Moryossef, Julie Hochgesang, Yoav Goldberg, and Malihe Alikhani. 2021. Including Signed Languages in Natural Language Processing. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). 7347\u20137360.",
+      "doi": ""
+    },
+    {
+      "text": "Alys Young, Emma Ferguson-Coleman, and John Keady. 2016. Understanding dementia: effective information access from the deaf community\u2019s perspective. Health & Social Care in the Community 24, 1 (2016), 39\u201347.",
+      "doi": ""
+    },
+    {
+      "text": "Alys Young and Ros Hunt. 2011. Research with d/Deaf people. (2011).",
+      "doi": ""
+    }
+  ]
+}

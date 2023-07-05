@@ -1,0 +1,347 @@
+{
+  "doi": "10.1145/3544548.3581439",
+  "title": "Amortized Inference with User Simulations",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2023,
+  "badges": [],
+  "abstract": "There have been significant advances in simulation models predicting human behavior across various interactive tasks. One issue remains, however: identifying the parameter values that best describe an individual user. These parameters often express personal cognitive and physiological characteristics, and inferring their exact values has significant effects on individual-level predictions. Still, the high complexity of simulation models usually causes parameter inference to consume prohibitively large amounts of time, as much as days per user. We investigated amortized inference for its potential to reduce inference time dramatically, to mere tens of milliseconds. Its principle is to pre-train a neural proxy model for probabilistic inference, using synthetic data simulated from a range of parameter combinations. From examining the efficiency and prediction performance of amortized inference in three challenging cases that involve real-world data (menu search, point-and-click, and touchscreen typing), the paper demonstrates that an amortized-inference approach permits analyzing large-scale datasets by means of simulation models. It also addresses emerging opportunities and challenges in applying amortized inference in HCI.",
+  "authors": [
+    {
+      "name": "Hee-Seung Moon",
+      "institution": "Yonsei University, Korea, Republic of and Aalto University, Finland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659588221",
+      "orcid": "0000-0003-0882-2335"
+    },
+    {
+      "name": "Antti Oulasvirta",
+      "institution": "Aalto University, Finland",
+      "img": "/do/10.1145/contrib-81100333050/rel-imgonly/antti.png",
+      "acmid": "81100333050",
+      "orcid": "0000-0002-2498-7837"
+    },
+    {
+      "name": "Byungjoo Lee",
+      "institution": "Yonsei University, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659503945",
+      "orcid": "0000-0003-0341-448X"
+    }
+  ],
+  "references": [
+    {
+      "text": "John\u00a0R Anderson. 1996. ACT: A simple theory of complex cognition.American Psychologist 51, 4 (1996), 355\u2013365.",
+      "doi": ""
+    },
+    {
+      "text": "Lynton Ardizzone, Jakob Kruse, Carsten Rother, and Ullrich K\u00f6the. 2018. Analyzing inverse problems with invertible neural networks. In International Conference on Learning Representations.",
+      "doi": ""
+    },
+    {
+      "text": "Gilles Bailly, Antti Oulasvirta, Duncan\u00a0P Brumby, and Andrew Howes. 2014. Model of visual search and selection time in linear menus. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 3865\u20133874.",
+      "doi": "10.1145/2556288.2557093"
+    },
+    {
+      "text": "Mark\u00a0A Beaumont, Wenyang Zhang, and David\u00a0J Balding. 2002. Approximate Bayesian computation in population genetics. Genetics 162, 4 (2002), 2025\u20132035.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0M Blei, Alp Kucukelbir, and Jon\u00a0D McAuliffe. 2017. Variational inference: A review for statisticians. J. Amer. Statist. Assoc. 112, 518 (2017), 859\u2013877.",
+      "doi": ""
+    },
+    {
+      "text": "George\u00a0Erich Brogmus. 1991. Effects of age and sex on speed and accuracy of hand movements: And the refinements they suggest for Fitts\u2019 law. Proceedings of the Human Factors Society Annual Meeting 35, 3(1991), 208\u2013212.",
+      "doi": ""
+    },
+    {
+      "text": "Rachael\u00a0A Burno, Bing Wu, Rina Doherty, Hannah Colett, and Rania Elnaggar. 2015. Applying Fitts\u2019 law to gesture based computer interactions. Procedia Manufacturing 3(2015), 4342\u20134349.",
+      "doi": ""
+    },
+    {
+      "text": "Stuart\u00a0K Card, Thomas\u00a0P Moran, and Allen Newell. 1983. The psychology of human\u2013computer interaction. Lawrence Erlbaum Associates.",
+      "doi": "10.5555/578027"
+    },
+    {
+      "text": "Noshaba Cheema, Laura\u00a0A Frey-Law, Kourosh Naderi, Jaakko Lehtinen, Philipp Slusallek, and Perttu H\u00e4m\u00e4l\u00e4inen. 2020. Predicting mid-air interaction movements and fatigue using deep reinforcement learning. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376701"
+    },
+    {
+      "text": "Xiuli Chen, Gilles Bailly, Duncan\u00a0P Brumby, Antti Oulasvirta, and Andrew Howes. 2015. The emergence of interactive behavior: A model of rational menu search. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 4217\u20134226.",
+      "doi": "10.1145/2702123.2702483"
+    },
+    {
+      "text": "Kyle Cranmer, Johann Brehmer, and Gilles Louppe. 2020. The frontier of simulation-based inference. Proceedings of the National Academy of Sciences 117, 48(2020), 30055\u201330062.",
+      "doi": ""
+    },
+    {
+      "text": "Chris Cremer, Xuechen Li, and David Duvenaud. 2018. Inference suboptimality in variational autoencoders. In International Conference on Machine Learning. PMLR, 1078\u20131086.",
+      "doi": ""
+    },
+    {
+      "text": "Maximilian Dax, Stephen\u00a0R Green, Jonathan Gair, Jakob\u00a0H Macke, Alessandra Buonanno, and Bernhard Sch\u00f6lkopf. 2021. Real-time gravitational wave science with neural posterior estimation. Physical Review Letters 127, 24 (2021), 241103.",
+      "doi": ""
+    },
+    {
+      "text": "Laurent Dinh, Jascha Sohl-Dickstein, and Samy Bengio. 2017. Density estimation using Real NVP. In International Conference on Learning Representations.",
+      "doi": ""
+    },
+    {
+      "text": "Seungwon Do, Minsuk Chang, and Byungjoo Lee. 2021. A simulation model of intermittently controlled point-and-click behaviour. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3411764.3445514"
+    },
+    {
+      "text": "Florian Fischer, Miroslav Bachinski, Markus Klar, Arthur Fleig, and J\u00f6rg M\u00fcller. 2021. Reinforcement learning control of a biomechanical model of the upper extremity. Scientific Reports 11, 1 (2021), 1\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0M Fitts. 1954. The information capacity of the human motor system in controlling the amplitude of movement.Journal of Experimental Psychology 47, 6 (1954), 381\u2013391.",
+      "doi": ""
+    },
+    {
+      "text": "Christoph Gebhardt, Antti Oulasvirta, and Otmar Hilliges. 2021. Hierarchical reinforcement learning explains task interleaving behavior. Computational Brain & Behavior 4, 3 (2021), 284\u2013304.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel Gershman and Noah Goodman. 2014. Amortized inference in probabilistic reasoning. In Proceedings of the Annual Meeting of the Cognitive Science Society, Vol.\u00a036.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel\u00a0J Gershman, Eric\u00a0J Horvitz, and Joshua\u00a0B Tenenbaum. 2015. Computational rationality: A converging paradigm for intelligence in brains, minds, and machines. Science 349, 6245 (2015), 273\u2013278.",
+      "doi": ""
+    },
+    {
+      "text": "Manuel Gl\u00f6ckler, Michael Deistler, and Jakob\u00a0H Macke. 2022. Variational methods for simulation-based inference. In International Conference on Learning Representations.",
+      "doi": ""
+    },
+    {
+      "text": "Pedro\u00a0J Gon\u00e7alves, Jan-Matthis Lueckmann, Michael Deistler, Marcel Nonnenmacher, Kaan \u00d6cal, Giacomo Bassetto, Chaitanya Chintaluri, William\u00a0F Podlaski, Sara\u00a0A Haddad, Tim\u00a0P Vogels, 2020. Training deep neural density estimators to identify mechanistic models of neural dynamics. eLife 9(2020), e56261.",
+      "doi": ""
+    },
+    {
+      "text": "David Greenberg, Marcel Nonnenmacher, and Jakob Macke. 2019. Automatic posterior transformation for likelihood-free inference. In International Conference on Machine Learning. PMLR, 2404\u20132414.",
+      "doi": ""
+    },
+    {
+      "text": "Arthur Gretton, Karsten\u00a0M Borgwardt, Malte\u00a0J Rasch, Bernhard Sch\u00f6lkopf, and Alexander Smola. 2012. A kernel two-sample test. Journal of Machine Learning Research 13, 1 (2012), 723\u2013773.",
+      "doi": "10.5555/2188385.2188410"
+    },
+    {
+      "text": "Yves Guiard and Olivier Rioul. 2015. A mathematical description of the speed/accuracy trade-off of aimed movement. In Proceedings of the 2015 British HCI Conference. 91\u2013100.",
+      "doi": "10.1145/2783446.2783574"
+    },
+    {
+      "text": "Ryan\u00a0N Gutenkunst, Joshua\u00a0J Waterfall, Fergal\u00a0P Casey, Kevin\u00a0S Brown, Christopher\u00a0R Myers, and James\u00a0P Sethna. 2007. Universally sloppy parameter sensitivities in systems biology models. PLoS Computational Biology 3, 10 (2007), e189.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0U Gutmann and Jukka Corander. 2016. Bayesian optimization for likelihood-free inference of simulator-based statistical models. Journal of Machine Learning Research 17 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0C Humphreys, David Raposo, Tobias Pohlen, Gregory Thornton, Rachita Chhaparia, Alistair Muldal, Josh Abramson, Petko Georgiev, Adam Santoro, and Timothy Lillicrap. 2022. A data-driven approach for learning to control computers. In International Conference on Machine Learning. PMLR, 9466\u20139482.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Jaegle, Felix Gimeno, Andy Brock, Oriol Vinyals, Andrew Zisserman, and Joao Carreira. 2021. Perceiver: General perception with iterative attention. In International Conference on Machine Learning. PMLR, 4651\u20134664.",
+      "doi": ""
+    },
+    {
+      "text": "Jussi Jokinen, Aditya Acharya, Mohammad Uzair, Xinhui Jiang, and Antti Oulasvirta. 2021. Touchscreen typing as optimal supervisory control. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445483"
+    },
+    {
+      "text": "Jussi\u00a0PP Jokinen, Tuomo Kujala, and Antti Oulasvirta. 2021. Multitasking in driving as optimal adaptation under uncertainty. Human Factors 63, 8 (2021), 1324\u20131341.",
+      "doi": ""
+    },
+    {
+      "text": "Jussi\u00a0PP Jokinen, Sayan Sarcar, Antti Oulasvirta, Chaklam Silpasuwanchai, Zhenxin Wang, and Xiangshi Ren. 2017. Modelling learning of new keyboard layouts. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 4203\u20134215.",
+      "doi": "10.1145/3025453.3025580"
+    },
+    {
+      "text": "Jussi\u00a0PP Jokinen, Zhenxin Wang, Sayan Sarcar, Antti Oulasvirta, and Xiangshi Ren. 2020. Adaptive feature guidance: Modelling visual search with graphical layouts. International Journal of Human\u2013Computer Studies 136 (2020), 102376.",
+      "doi": "10.1016/j.ijhcs.2019.102376"
+    },
+    {
+      "text": "Antti Kangasr\u00e4\u00e4si\u00f6, Kumaripaba Athukorala, Andrew Howes, Jukka Corander, Samuel Kaski, and Antti Oulasvirta. 2017. Inferring cognitive models from data using approximate Bayesian computation. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 1295\u20131306.",
+      "doi": "10.1145/3025453.3025576"
+    },
+    {
+      "text": "Antti Kangasr\u00e4\u00e4si\u00f6, Jussi\u00a0PP Jokinen, Antti Oulasvirta, Andrew Howes, and Samuel Kaski. 2019. Parameter inference for computational cognitive models with Approximate Bayesian Computation. Cognitive Science 43, 6 (2019), e12738.",
+      "doi": ""
+    },
+    {
+      "text": "Davis\u00a0E Kieras and Davis\u00a0E Meyer. 1997. An overview of the EPIC architecture for cognition and performance with application to human\u2013computer interaction. Human\u2013Computer Interaction 12, 4 (1997), 391\u2013438.",
+      "doi": ""
+    },
+    {
+      "text": "Durk\u00a0P Kingma and Prafulla Dhariwal. 2018. Glow: Generative flow with invertible 1 \u00d7 1 convolutions. Advances in Neural Information Processing Systems 31 (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Diederik\u00a0P Kingma and Max Welling. 2013. Auto-encoding variational Bayes. arXiv preprint arXiv:1312.6114(2013).",
+      "doi": ""
+    },
+    {
+      "text": "Hiroaki Kitano. 2004. Biological robustness. Nature Reviews Genetics 5, 11 (2004), 826\u2013837.",
+      "doi": ""
+    },
+    {
+      "text": "Jakob Kruse, Lynton Ardizzone, Carsten Rother, and Ullrich K\u00f6the. 2021. Benchmarking invertible architectures on inverse problems. arXiv preprint arXiv:2101.10763(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Minhae Kwon, Saurabh Daptardar, Paul\u00a0R Schrater, and Xaq Pitkow. 2020. Inverse rational control with partially observable continuous nonlinear dynamics. Advances in Neural Information Processing Systems 33 (2020), 7898\u20137909.",
+      "doi": ""
+    },
+    {
+      "text": "Gary\u00a0D Langolf, Don\u00a0B Chaffin, and James\u00a0A Foulke. 1976. An investigation of Fitts\u2019 law using a wide range of movement amplitudes. Journal of Motor Behavior 8, 2 (1976), 113\u2013128.",
+      "doi": ""
+    },
+    {
+      "text": "Vladimir\u00a0I Levenshtein. 1966. Binary codes capable of correcting deletions, insertions, and reversals. Soviet Physics \u2013 Doklady 10, 8 (1966), 707\u2013710.",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0L Lewis, Andrew Howes, and Satinder Singh. 2014. Computational rationality: Linking mechanism and behavior through bounded utility maximization. Topics in Cognitive Science 6, 2 (2014), 279\u2013311.",
+      "doi": ""
+    },
+    {
+      "text": "Jan-Matthis Lueckmann, Pedro\u00a0J Goncalves, Giacomo Bassetto, Kaan \u00d6cal, Marcel Nonnenmacher, and Jakob\u00a0H Macke. 2017. Flexible statistical inference for mechanistic models of neural dynamics. Advances in Neural Information Processing Systems 30 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Julieta Martinez, Michael\u00a0J Black, and Javier Romero. 2017. On human motion prediction using recurrent neural networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2891\u20132900.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Millard, Thomas Uchida, Ajay Seth, and Scott\u00a0L Delp. 2013. Flexing computational muscle: Modeling and simulation of musculotendon dynamics. Journal of Biomechanical Engineering 135, 2 (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei\u00a0A Rusu, Joel Veness, Marc\u00a0G Bellemare, Alex Graves, Martin Riedmiller, Andreas\u00a0K Fidjeland, Georg Ostrovski, 2015. Human-level control through deep reinforcement learning. Nature 518, 7540 (2015), 529\u2013533.",
+      "doi": ""
+    },
+    {
+      "text": "Hee-Seung Moon, Seungwon Do, Wonjae Kim, Jiwon Seo, Minsuk Chang, and Byungjoo Lee. 2022. Speeding up inference with user simulators through policy modulation. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems. 1\u201321.",
+      "doi": "10.1145/3491102.3502023"
+    },
+    {
+      "text": "Hee-Seung Moon and Jiwon Seo. 2021. Fast user adaptation for human motion prediction in physical human\u2013robot interaction. IEEE Robotics and Automation Letters 7, 1 (2021), 120\u2013127.",
+      "doi": ""
+    },
+    {
+      "text": "Roderick Murray-Smith, John\u00a0H Williamson, Andrew Ramsay, Francesco Tonolini, Simon Rogers, and Antoine Loriette. 2021. Forward and inverse models in HCI: Physical simulation and deep learning for inferring 3D finger pose. arXiv preprint arXiv:2109.03366(2021).",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0A Nelder and Roger Mead. 1965. A simplex method for function minimization. The Computer\u00a0Journal 7, 4 (1965), 308\u2013313.",
+      "doi": ""
+    },
+    {
+      "text": "Antti Oulasvirta, Jussi\u00a0PP Jokinen, and Andrew Howes. 2022. Computational rationality as a theory of interaction. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3491102.3517739"
+    },
+    {
+      "text": "Antti Oulasvirta, Sunjun Kim, and Byungjoo Lee. 2018. Neuromechanics of a button press. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3173574.3174082"
+    },
+    {
+      "text": "Brooks Paige and Frank Wood. 2016. Inference networks for sequential Monte Carlo in graphical models. In International Conference on Machine Learning. PMLR, 3040\u20133049.",
+      "doi": ""
+    },
+    {
+      "text": "Kseniia Palin, Anna\u00a0Maria Feit, Sunjun Kim, Per\u00a0Ola Kristensson, and Antti Oulasvirta. 2019. How do people type on mobile devices? Observations from a study with 37,000 volunteers. In Proceedings of the 21st International Conference on Human\u2013Computer Interaction with Mobile Devices and Services. 1\u201312.",
+      "doi": "10.1145/3338286.3340120"
+    },
+    {
+      "text": "George Papamakarios and Iain Murray. 2016. Fast \u03b5-free inference of simulation models with Bayesian conditional density estimation. Advances in Neural Information Processing Systems 29 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "George Papamakarios, Eric\u00a0T Nalisnick, Danilo\u00a0Jimenez Rezende, Shakir Mohamed, and Balaji Lakshminarayanan. 2021. Normalizing flows for probabilistic modeling and inference. Journal of Machine Learning Research 22, 57 (2021), 1\u201364.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen\u00a0J Payne and Andrew Howes. 2013. Adaptive interaction: A utility maximization approach to understanding human interaction with technology. Synthesis Lectures on Human-Centered Informatics 6, 1(2013), 1\u2013111.",
+      "doi": "10.5555/2534478"
+    },
+    {
+      "text": "Stefan\u00a0T Radev, Frederik Graw, Simiao Chen, Nico\u00a0T Mutters, Vanessa\u00a0M Eichel, Till B\u00e4rnighausen, and Ullrich K\u00f6the. 2021. OutbreakFlow: Model-based Bayesian inference of disease outbreak dynamics with invertible neural networks and its application to the COVID-19 pandemics in Germany. PLoS Computational Biology 17, 10 (2021), e1009472.",
+      "doi": ""
+    },
+    {
+      "text": "Stefan\u00a0T Radev, Ulf\u00a0K Mertens, Andreas Voss, Lynton Ardizzone, and Ullrich K\u00f6the. 2020. BayesFlow: Learning complex stochastic models with invertible neural networks. IEEE Transactions on Neural Networks and Learning Systems (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Stefan\u00a0T Radev, Ulf\u00a0K Mertens, Andreas Voss, and Ullrich K\u00f6the. 2020. Towards end-to-end likelihood-free inference with convolutional neural networks. British Journal of Mathematical and Statistical\u00a0Psychology 73, 1(2020), 23\u201343.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0G Radwin, Gregg\u00a0C Vanderheiden, and Mei-Li Lin. 1990. A method for evaluating head-controlled computer input devices using Fitts\u2019 law. Human Factors 32, 4 (1990), 423\u2013438.",
+      "doi": "10.1177/001872089003200405"
+    },
+    {
+      "text": "Roger Ratcliff. 1978. A theory of memory retrieval. Psychological Review 85, 2 (1978), 59\u2013108.",
+      "doi": ""
+    },
+    {
+      "text": "Roger Ratcliff and Francis Tuerlinckx. 2002. Estimating parameters of the diffusion model: Approaches to dealing with contaminant reaction times and parameter variability. Psychonomic Bulletin & Review 9, 3 (2002), 438\u2013481.",
+      "doi": ""
+    },
+    {
+      "text": "Danilo Rezende and Shakir Mohamed. 2015. Variational inference with normalizing flows. In International Conference on Machine Learning. PMLR, 1530\u20131538.",
+      "doi": ""
+    },
+    {
+      "text": "Dario\u00a0D Salvucci. 2001. An integrated model of eye movements and visual encoding. Cognitive Systems Research 1, 4 (2001), 201\u2013220.",
+      "doi": "10.1016/S1389-0417%2800%2900015-2"
+    },
+    {
+      "text": "Sayan Sarcar, Jussi\u00a0PP Jokinen, Antti Oulasvirta, Zhenxin Wang, Chaklam Silpasuwanchai, and Xiangshi Ren. 2018. Ability-based optimization of touchscreen interactions. IEEE Pervasive Computing 17, 1 (2018), 15\u201326.",
+      "doi": "10.1109/mprv.2018.011591058"
+    },
+    {
+      "text": "Sayan Sarcar, Jussi Joklnen, Antti Oulasvirta, Chaklam Silpasuwanchai, Zhenxin Wang, and Xiangshi Ren. 2016. Towards ability-based optimization for aging users. In Proceedings of the International Symposium on Interactive Technology and Ageing Populations. 77\u201386.",
+      "doi": "10.1145/2996267.2996275"
+    },
+    {
+      "text": "John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. 2017. Proximal policy optimization algorithms. arXiv preprint arXiv:1707.06347(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Alan\u00a0A Stocker and Eero\u00a0P Simoncelli. 2006. Noise characteristics and prior expectations in human visual speed perception. Nature Neuroscience 9, 4 (2006), 578\u2013585.",
+      "doi": ""
+    },
+    {
+      "text": "Andreas Stuhlm\u00fcller, Jacob Taylor, and Noah Goodman. 2013. Learning stochastic inverses. Advances in Neural Information Processing Systems 26 (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Kashyap Todi, Gilles Bailly, Luis Leiva, and Antti Oulasvirta. 2021. Adapting user interfaces with model-based reinforcement learning. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445497"
+    },
+    {
+      "text": "Kashyap Todi, Jussi Jokinen, Kris Luyten, and Antti Oulasvirta. 2019. Individualising graphical layouts with predictive visual search models. ACM Transactions on Interactive Intelligent Systems 10, 1 (2019), 1\u201324.",
+      "doi": "10.1145/3241381"
+    },
+    {
+      "text": "Jonathan Tremblay, Aayush Prakash, David Acuna, Mark Brophy, Varun Jampani, Cem Anil, Thang To, Eric Cameracci, Shaad Boochoon, and Stan Birchfield. 2018. Training deep networks with synthetic data: Bridging the reality gap by domain randomization. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops. 969\u2013977.",
+      "doi": ""
+    },
+    {
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan\u00a0N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. Advances in Neural Information Processing Systems 30 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Martin\u00a0J Wainwright and Michael\u00a0I Jordan. 2008. Graphical models, exponential families, and variational inference. Foundations and Trends\u00ae in Machine Learning 1, 1\u20132(2008), 1\u2013305.",
+      "doi": ""
+    },
+    {
+      "text": "Jacob\u00a0O Wobbrock, Edward Cutrell, Susumu Harada, and I\u00a0Scott MacKenzie. 2008. An error model for pointing based on Fitts\u2019 law. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1613\u20131622.",
+      "doi": "10.1145/1357054.1357306"
+    }
+  ]
+}

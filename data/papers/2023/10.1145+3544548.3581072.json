@@ -1,0 +1,1744 @@
+{
+  "doi": "10.1145/3544548.3581072",
+  "title": "When XR and AI Meet - A Scoping Review on Extended Reality and Artificial Intelligence",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-45",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Research on Extended Reality (XR) and Artificial Intelligence (AI) is booming, which has led to an emerging body of literature in their intersection. However, the main topics in this intersection are unclear, as are the benefits of combining XR and AI. This paper presents a scoping review that highlights how XR is applied in AI research and vice versa. We screened 2619 publications from 203 international venues published between 2017 and 2021, followed by an in-depth review of 311 papers. Based on our review, we identify five main topics at the intersection of XR and AI, showing how research at the intersection can benefit each other. Furthermore, we present a list of commonly used datasets, software, libraries, and models to help researchers interested in this intersection. Finally, we present 13 research opportunities and recommendations for future work in XR and AI research.",
+  "authors": [
+    {
+      "name": "Teresa Hirzle",
+      "institution": "Department of Computer Science, University of Copenhagen, Denmark",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659260684",
+      "orcid": "0000-0002-7909-7639"
+    },
+    {
+      "name": "Florian M\u00fcller",
+      "institution": "LMU Munich, Germany",
+      "img": "/do/10.1145/contrib-81464642529/rel-imgonly/flo_small.jpg",
+      "acmid": "81464642529",
+      "orcid": "0000-0002-9621-6214"
+    },
+    {
+      "name": "Fiona Draxler",
+      "institution": "LMU Munich, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659468601",
+      "orcid": "0000-0002-3112-6015"
+    },
+    {
+      "name": "Martin Schmitz",
+      "institution": "Saarland Informatics Campus, Saarland University, Germany",
+      "img": "/do/10.1145/contrib-87958634757/rel-imgonly/martin_foto.jpg",
+      "acmid": "87958634757",
+      "orcid": "0000-0002-7332-3287"
+    },
+    {
+      "name": "Pascal Knierim",
+      "institution": "Interactive Graphics and Simulation City, Universit\u00e4t Innsbruck, Austria and CODE, Bundeswehr University Munich, Germany",
+      "img": "/do/10.1145/contrib-81551225556/rel-imgonly/avatar.jpg",
+      "acmid": "81551225556",
+      "orcid": "0000-0001-9578-9953"
+    },
+    {
+      "name": "Kasper Hornb\u00e6k",
+      "institution": "Department of Computer Science, University of Copenhagen, Denmark",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100047223",
+      "orcid": "0000-0001-8742-1198"
+    }
+  ],
+  "references": [
+    {
+      "text": "\u2731\u00a0Lotfi Abdi and Aref Meddeb. 2018. In-vehicle augmented reality system to provide driving safety information. Journal of Visualization 21, 1 (Feb. 2018), 163\u2013184. https://doi.org/10.1007/s12650-017-0442-6",
+      "doi": "10.1007/s12650-017-0442-6"
+    },
+    {
+      "text": "\u2731\u00a0Philipp Agethen, Viswa\u00a0Subramanian Sekar, Felix Gaisbauer, Thies Pfeiffer, Michael Otto, and Enrico Rukzio. 2018. Behavior Analysis of Human Locomotion in the Real World and Virtual Reality for the Manufacturing Industry. ACM Trans. Appl. Percept. 15, 3, Article 20 (jul 2018), 19\u00a0pages. https://doi.org/10.1145/3230648",
+      "doi": "10.1145/3230648"
+    },
+    {
+      "text": "Eirikur Agustsson and Radu Timofte. 2017. NTIRE 2017 Challenge on Single Image Super-Resolution: Dataset and Study. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops. IEEE, New York, NY, USA, \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Imtiaj Ahmed, Ville\u00a0J. Harjunen, Giulio Jacucci, Niklas Ravaja, Tuukka Ruotsalo, and Michiel Spape. 2020. Touching virtual humans: Haptic responses reveal the emotional impact of affective agents. IEEE Transactions on Affective Computing -, - (2020), 1\u20131. https://doi.org/10.1109/TAFFC.2020.3038137",
+      "doi": "10.1109/TAFFC.2020.3038137"
+    },
+    {
+      "text": "\u2731\u00a0Ashwin Ajit, Natasha\u00a0Kholgade Banerjee, and Sean Banerjee. 2019. Combining Pairwise Feature Matches from Device Trajectories for Biometric Authentication in Virtual Reality Environments. In 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 9\u201397. https://doi.org/10.1109/AIVR46125.2019.00012",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Kaan Ak\u015fit, Praneeth Chakravarthula, Kishore Rathinavel, Youngmo Jeong, Rachel Albert, Henry Fuchs, and David Luebke. 2019. Manufacturing Application-Driven Foveated Near-Eye Displays. IEEE Transactions on Visualization and Computer Graphics 25, 5(2019), 1928\u20131939. https://doi.org/10.1109/TVCG.2019.2898781",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 A.\u00a0Deniz Aladagli, Erhan Ekmekcioglu, Dmitri Jarnikov, and Ahmet Kondoz. 2017. Predicting head trajectories in 360\u00b0 virtual reality videos. In 2017 International Conference on 3D Immersion (IC3D), Vol.\u00a01. IEEE, New York, NY, USA, 1\u20136. https://doi.org/10.1109/IC3D.2017.8251913",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Rawan Alghofaili, Yasuhito Sawahata, Haikun Huang, Hsueh-Cheng Wang, Takaaki Shiratori, and Lap-Fai Yu. 2019. Lost in Style: Gaze-Driven Adaptive Aid for VR Navigation. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300578",
+      "doi": "10.1145/3290605.3300578"
+    },
+    {
+      "text": "\u2731\u00a0Rawan Alghofaili, Michael\u00a0S Solah, Haikun Huang, Yasuhito Sawahata, Marc Pomplun, and Lap-Fai Yu. 2019. Optimizing Visual Element Placement via Visual Attention Analysis. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 464\u2013473. https://doi.org/10.1109/VR.2019.8797816",
+      "doi": ""
+    },
+    {
+      "text": "Thiemo Alldieck, Marcus Magnor, Weipeng Xu, Christian Theobalt, and Gerard Pons-Moll. 2018. Video Based Reconstruction of 3D People Models. In 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition, Vol.\u00a01. IEEE, New York, NY, USA, 8387\u20138397. https://doi.org/10.1109/CVPR.2018.00875",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Stev\u00e3o\u00a0A. Andrade, Fatima L.\u00a0S. Nunes, and Marcio\u00a0E. Delamaro. 2019. Towards the Systematic Testing of Virtual Reality Programs. In 2019 21st Symposium on Virtual and Augmented Reality (SVR), Vol.\u00a01. IEEE, New York, NY, USA, 196\u2013205. https://doi.org/10.1109/SVR.2019.00044",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Sean Andrist, Michael Gleicher, and Bilge Mutlu. 2017. Looking Coordinated: Bidirectional Gaze Mechanisms for Collaborative Interaction with Virtual Characters. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 2571\u20132582. https://doi.org/10.1145/3025453.3026033",
+      "doi": "10.1145/3025453.3026033"
+    },
+    {
+      "text": "Deepali Aneja, Alex Colburn, Gary Faigin, Linda Shapiro, and Barbara Mones. 2016. Modeling Stylized Character Expressions via Deep Learning. In Asian Conference on Computer Vision. Springer, -, 136\u2013153.",
+      "doi": ""
+    },
+    {
+      "text": "Ryan Antel, Samira Abbasgholizadeh-Rahimi, Elena Guadagno, Jason\u00a0M. Harley, and Dan Poenaru. 2022. The use of artificial intelligence and virtual reality in doctor-patient risk communication: A scoping review. Patient Education and Counseling -, - (2022), \u2013. https://doi.org/10.1016/j.pec.2022.06.006",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Abdullah\u00a0Al Arafat, Zhishan Guo, and Amro Awad. 2021. VR-Spy: A Side-Channel Attack on Virtual Key-Logging in VR Headsets. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 564\u2013572. https://doi.org/10.1109/VR50410.2021.00081",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Kazuyuki Arimatsu and Hideki Mori. 2020. Evaluation of Machine Learning Techniques for Hand Pose Estimation on Handheld Device with Proximity Sensor. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376712",
+      "doi": "10.1145/3313831.3376712"
+    },
+    {
+      "text": "Hilary Arksey and Lisa O\u2019Malley. 2005. Scoping studies: towards a methodological framework. International Journal of Social Research Methodology 8, 1(2005), 19\u201332. https://doi.org/10.1080/1364557032000119616 arXiv:https://doi.org/10.1080/1364557032000119616",
+      "doi": ""
+    },
+    {
+      "text": "I. Armeni, A. Sax, A.\u00a0R. Zamir, and S. Savarese. 2017. Joint 2D-3D-Semantic Data for Indoor Scene Understanding. ArXiv e-prints -, 1 (Feb. 2017), \u2013. arxiv:1702.01105\u00a0[cs.CV]",
+      "doi": ""
+    },
+    {
+      "text": "Iro Armeni, Ozan Sener, Amir\u00a0R. Zamir, Helen Jiang, Ioannis Brilakis, Martin Fischer, and Silvio Savarese. 2016. 3D Semantic Parsing of Large-Scale Indoor Spaces. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vol.\u00a01. IEEE, New York, NY, USA, 1534\u20131543. https://doi.org/10.1109/CVPR.2016.170",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Alexander Arntz, Agostino Di\u00a0Dia, Tim Riebner, and Sabrina\u00a0C. Eimler. 2021. Machine Learning Concepts for Dual-Arm Robots within Virtual Reality. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 168\u2013172. https://doi.org/10.1109/AIVR52153.2021.00038",
+      "doi": ""
+    },
+    {
+      "text": "Edoardo Aromataris and Zachary Munn. 2020. JBI Manual for Evidence Synthesis. https://doi.org/10.46658/JBIMES-20-01",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Doris Aschenbrenner, Danielle\u00a0van Tol, Zoltan Rusak, and Claudia Werker. 2020. Using Virtual Reality for scenario-based Responsible Research and Innovation approach for Human Robot Co-production. In 2020 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 146\u2013150. https://doi.org/10.1109/AIVR50618.2020.00033",
+      "doi": ""
+    },
+    {
+      "text": "Ronald\u00a0T. Azuma. 1997. A Survey of Augmented Reality. Presence: Teleoperators and Virtual Environments 6, 4 (08 1997), 355\u2013385. https://doi.org/10.1162/pres.1997.6.4.355 arXiv:https://direct.mit.edu/pvar/article-pdf/6/4/355/1623026/pres.1997.6.4.355.pdf",
+      "doi": "10.1162/pres.1997.6.4.355"
+    },
+    {
+      "text": "\u2731\u00a0Timur Bagautdinov, Chenglei Wu, Tomas Simon, Fabi\u00e1n Prada, Takaaki Shiratori, Shih-En Wei, Weipeng Xu, Yaser Sheikh, and Jason Saragih. 2021. Driving-Signal Aware Full-Body Avatars. ACM Trans. Graph. 40, 4, Article 143 (jul 2021), 17\u00a0pages. https://doi.org/10.1145/3450626.3459850",
+      "doi": "10.1145/3450626.3459850"
+    },
+    {
+      "text": "\u2731\u00a0Suprith Balasubramanian and Rajiv Soundararajan. 2019. Prediction of Discomfort due to Egomotion in Immersive Videos for Virtual Reality. In 2019 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 169\u2013177. https://doi.org/10.1109/ISMAR.2019.000-7",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Catherine Ball, Eric Novotny, Sun\u00a0Joo Ahn, Lindsay Hahn, Michael\u00a0D. Schmidt, Stephen L.\u00a0Rathbun, and Kyle Johnsen. 2022. Scaling the Virtual Fitness Buddy Ecosystem as a School-Based Physical Activity Intervention for Children. IEEE Computer Graphics and Applications 42 (2022), 105\u2013115. https://doi.org/10.1109/MCG.2021.3130555",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Giuliana Barrios\u00a0Dell\u2019Olio and Misha Sra. 2021. FaraPy: An Augmented Reality Feedback System for Facial Paralysis Using Action Unit Intensity Estimation. In The 34th Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 1027\u20131038. https://doi.org/10.1145/3472749.3474803",
+      "doi": "10.1145/3472749.3474803"
+    },
+    {
+      "text": "\u2731\u00a0Martin Bellgardt, Christian Scheiderer, and Torsten\u00a0W. Kuhlen. 2020. An Immersive Node-Link Visualization of Artificial Neural Networks for Machine Learning Experts. In 2020 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 33\u201336. https://doi.org/10.1109/AIVR50618.2020.00015",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Aniket Bera, Tanmay Randhavane, Emily Kubin, Husam Shaik, Kurt Gray, and Dinesh Manocha. 2018. Data-Driven Modeling of Group Entitativity in Virtual Environments. In Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology (Tokyo, Japan) (VRST \u201918). Association for Computing Machinery, New York, NY, USA, Article 31, 10\u00a0pages. https://doi.org/10.1145/3281505.3281524",
+      "doi": "10.1145/3281505.3281524"
+    },
+    {
+      "text": "Kirsten Bergmann, Friederike Eyssel, and Stefan Kopp. 2012. A Second Chance to Make a First Impression? How Appearance and Nonverbal Behavior Affect Perceived Warmth and Competence of Virtual Agents over Time. In Intelligent Virtual Agents, Yukiko Nakano, Michael Neff, Ana Paiva, and Marilyn Walker (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 126\u2013138.",
+      "doi": ""
+    },
+    {
+      "text": "Thierry Bertin-Mahieux, Daniel\u00a0PW Ellis, Brian Whitman, and Paul Lamere. 2011. The million song dataset. - -, -(2011), \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Andrew Best, Sahil Narang, and Dinesh Manocha. 2020. SPA: Verbal Interactions between Agents and Avatars in Shared Virtual Environments using Propositional Planning. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 117\u2013126. https://doi.org/10.1109/VR46266.2020.00030",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Uttaran Bhattacharya, Nicholas Rewkowski, Abhishek Banerjee, Pooja Guhan, Aniket Bera, and Dinesh Manocha. 2021. Text2Gestures: A Transformer-Based Network for Generating Emotive Body Gestures for Virtual Agents. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 1\u201310. https://doi.org/10.1109/VR50410.2021.00037",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Uttaran Bhattacharya, Nicholas Rewkowski, Pooja Guhan, Niall\u00a0L. Williams, Trisha Mittal, Aniket Bera, and Dinesh Manocha. 2020. Generating Emotive Gaits for Virtual Agents Using Affect-Based Autoregression. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 24\u201335. https://doi.org/10.1109/ISMAR50242.2020.00020",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Manish Bhattarai, Aura\u00a0Rose Jensen-Curtis, and Manel Mart\u00ednez-Ram\u00f3n. 2020. An embedded deep learning system for augmented reality in firefighting applications. In 2020 19th IEEE International Conference on Machine Learning and Applications (ICMLA), Vol.\u00a01. IEEE, New York, NY, USA, 1224\u20131230. https://doi.org/10.1109/ICMLA51294.2020.00193",
+      "doi": ""
+    },
+    {
+      "text": "Mark Billinghurst. 2021. Grand Challenges for Augmented Reality. Frontiers in Virtual Reality 2 (2021), \u2013. https://doi.org/10.3389/frvir.2021.578080",
+      "doi": ""
+    },
+    {
+      "text": "Mark Billinghurst and Michael Nebeling. 2021. Rapid Prototyping of XR Experiences. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI EA \u201921). Association for Computing Machinery, New York, NY, USA, Article 132, 3\u00a0pages. https://doi.org/10.1145/3411763.3445002",
+      "doi": "10.1145/3411763.3445002"
+    },
+    {
+      "text": "\u2731\u00a0Andrea B\u00f6nsch, Alexander\u00a0R. Bluhm, Jonathan Ehret, and Torsten\u00a0W. Kuhlen. 2020. Inferring a User\u2019s Intent on Joining or Passing by Social Groups. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (Virtual Event, Scotland, UK) (IVA \u201920). Association for Computing Machinery, New York, NY, USA, Article 10, 8\u00a0pages. https://doi.org/10.1145/3383652.3423862",
+      "doi": "10.1145/3383652.3423862"
+    },
+    {
+      "text": "\u2731\u00a0Andrea B\u00f6nsch, David Hashem, Jonathan Ehret, and Torsten\u00a0W. Kuhlen. 2021. Being Guided or Having Exploratory Freedom: User Preferences of a Virtual Agent\u2019s Behavior in a Museum. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (Virtual Event, Japan) (IVA \u201921). Association for Computing Machinery, New York, NY, USA, 33\u201340. https://doi.org/10.1145/3472306.3478339",
+      "doi": "10.1145/3472306.3478339"
+    },
+    {
+      "text": "\u2731\u00a0Andrea B\u00f6nsch, Sina Radke, Jonathan Ehret, Ute Habel, and Torsten\u00a0W. Kuhlen. 2020. The Impact of a Virtual Agent\u2019s Non-Verbal Emotional Expression on a User\u2019s Personal Space Preferences. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (Virtual Event, Scotland, UK) (IVA \u201920). Association for Computing Machinery, New York, NY, USA, Article 12, 8\u00a0pages. https://doi.org/10.1145/3383652.3423888",
+      "doi": "10.1145/3383652.3423888"
+    },
+    {
+      "text": "\u2731\u00a0Andrea B\u00f6nsch, Sina Radke, Heiko Overath, Laura\u00a0M. Asch\u00e9, Jonathan Wendt, Tom Vierjahn, Ute Habel, and Torsten\u00a0W. Kuhlen. 2018. Social VR: How Personal Space is Affected by Virtual Agents\u2019 Emotions. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 199\u2013206. https://doi.org/10.1109/VR.2018.8446480",
+      "doi": ""
+    },
+    {
+      "text": "Kim Bosman, Tibor Bosse, and Daniel Formolo. 2019. Virtual Agents for Professional Social Skills Training: An Overview of the State-of-the-Art. In Intelligent Technologies for Interactive Entertainment, Paulo Cortez, Lu\u00eds Magalh\u00e3es, Pedro Branco, Carlos\u00a0Filipe Portela, and Telmo Ad\u00e3o (Eds.). Springer International Publishing, Cham, 75\u201384.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Tibor Bosse, Tilo Hartmann, Romy\u00a0A.M. Blankendaal, Nienke Dokter, Marco Otte, and Linford Goedschalk. 2018. Virtually Bad: A Study on Virtual Agents That Physically Threaten Human Beings. In Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems (Stockholm, Sweden) (AAMAS \u201918). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 1258\u20131266.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Fabien Boucaud, Catherine Pelachaud, and Indira Thouvenin. 2021. Decision Model for a Virtual Agent that can Touch and be Touched. In 20th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS 2021). HAL open science, Londres (virtual), United Kingdom, \u2013. https://hal.archives-ouvertes.fr/hal-03428918",
+      "doi": "10.5555/3463952.3463985"
+    },
+    {
+      "text": "\u2731\u00a0Efe Bozkir, David Geisler, and Enkelejda Kasneci. 2019. Person Independent, Privacy Preserving, and Real Time Assessment of Cognitive Load using Eye Tracking in a Virtual Reality Setup. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 1834\u20131837. https://doi.org/10.1109/VR.2019.8797758",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Gianni Bremer, Niklas Stein, and Markus Lappe. 2021. Predicting Future Position From Natural Walking and Eye Movements with Machine Learning. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 19\u201328. https://doi.org/10.1109/AIVR52153.2021.00013",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Hugo Brument, Gerd Bruder, Maud Marchal, Anne\u00a0H\u00e9l\u00e8ne Olivier, and Ferran Argelaguet. 2021. Understanding, Modeling and Simulating Unintended Positional Drift during Repetitive Steering Navigation Tasks in Virtual Reality. IEEE Transactions on Visualization and Computer Graphics 27, 11(2021), 4300\u20134310. https://doi.org/10.1109/TVCG.2021.3106504",
+      "doi": "10.1109/TVCG.2021.3106504"
+    },
+    {
+      "text": "\u2731 Lauren\u00a0E. Buck, Sohee Park, and Bobby Bodenheimer. 2020. Determining Peripersonal Space Boundaries and Their Plasticity in Relation to Object and Agent Characteristics in an Immersive Virtual Environment. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 332\u2013342. https://doi.org/10.1109/VR46266.2020.00053",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Domenico Buongiorno, Cristian Camardella, Giacomo\u00a0Donato Cascarano, Luis Pelaez\u00a0Murciego, Michele Barsotti, Irio De\u00a0Feudis, Antonio Frisoli, and Vitoantonio Bevilacqua. 2019. An undercomplete autoencoder to extract muscle synergies for motor intention detection. In 2019 International Joint Conference on Neural Networks (IJCNN), Vol.\u00a01. IEEE, New York, NY, USA, 1\u20138. https://doi.org/10.1109/IJCNN.2019.8851975",
+      "doi": ""
+    },
+    {
+      "text": "Kelly Caine. 2016. Local Standards for Sample Size at CHI. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 981\u2013992. https://doi.org/10.1145/2858036.2858498",
+      "doi": "10.1145/2858036.2858498"
+    },
+    {
+      "text": "Z. Cao, G. Hidalgo Martinez, T. Simon, S. Wei, and Y.\u00a0A. Sheikh. 2019. OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields. IEEE Transactions on Pattern Analysis and Machine Intelligence -, -(2019), \u2013.",
+      "doi": "10.1109/TPAMI.2019.2929257"
+    },
+    {
+      "text": "\u2731 Young-Woon Cha, Husam Shaik, Qian Zhang, Fan Feng, Andrei State, Adrian Ilie, and Henry Fuchs. 2021. Mobile. Egocentric Human Body Motion Reconstruction Using Only Eyeglasses-mounted Cameras and a Few Body-worn Inertial Sensors. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 616\u2013625. https://doi.org/10.1109/VR50410.2021.00087",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Jacob Chakareski. 2019. UAV-IoT for Next Generation Virtual Reality. IEEE Transactions on Image Processing 28, 12 (2019), 5977\u20135990. https://doi.org/10.1109/TIP.2019.2921869",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Praneeth Chakravarthula, Ethan Tseng, Tarun Srivastava, Henry Fuchs, and Felix Heide. 2020. Learned Hardware-in-the-Loop Phase Retrieval for Holographic near-Eye Displays. ACM Trans. Graph. 39, 6, Article 186 (nov 2020), 18\u00a0pages. https://doi.org/10.1145/3414685.3417846",
+      "doi": "10.1145/3414685.3417846"
+    },
+    {
+      "text": "Liwei Chan, Yi-Chi Liao, George\u00a0B Mo, John\u00a0J Dudley, Chun-Lien Cheng, Per\u00a0Ola Kristensson, and Antti Oulasvirta. 2022. Investigating Positive and Negative Qualities of Human-in-the-Loop Optimization for Designing Interaction Techniques. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 112, 14\u00a0pages. https://doi.org/10.1145/3491102.3501850",
+      "doi": "10.1145/3491102.3501850"
+    },
+    {
+      "text": "\u2731\u00a0Minwook Chang, Youngwon\u00a0Ryan Kim, and Gerard\u00a0Jounghyun Kim. 2018. A Perceptual Evaluation of Generative Adversarial Network Real-Time Synthesized Drum Sounds in a Virtual Environment. In 2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 144\u2013148. https://doi.org/10.1109/AIVR.2018.00030",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Taizhou Chen, Lantian Xu, Xianshan Xu, and Kening Zhu. 2021. GestOnHMD: Enabling Gesture-based Interaction on Low-cost VR Head-Mounted Display. IEEE Transactions on Visualization and Computer Graphics 27, 5(2021), 2597\u20132607. https://doi.org/10.1109/TVCG.2021.3067689",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Ze-Yin Chen, Yi-Jun Li, Miao Wang, Frank Steinicke, and Qinping Zhao. 2021. A Reinforcement Learning Approach to Redirected Walking with Passive Haptic Feedback. In 2021 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 184\u2013192. https://doi.org/10.1109/ISMAR52148.2021.00033",
+      "doi": ""
+    },
+    {
+      "text": "Bowen Cheng, Maxwell\u00a0D Collins, Yukun Zhu, Ting Liu, Thomas\u00a0S Huang, Hartwig Adam, and Liang-Chieh Chen. 2020. Panoptic-DeepLab: A Simple, Strong, and Fast Baseline for Bottom-Up Panoptic Segmentation. In CVPR. IEEE, New York, NY, USA, \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Yifei Cheng, Yukang Yan, Xin Yi, Yuanchun Shi, and David Lindlbauer. 2021. SemanticAdapt: Optimization-Based Adaptation of Mixed Reality Layouts Leveraging Virtual-Physical Semantic Connections. In The 34th Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 282\u2013297. https://doi.org/10.1145/3472749.3474750",
+      "doi": "10.1145/3472749.3474750"
+    },
+    {
+      "text": "\u2731 Venkata Rami\u00a0Reddy Chirra, Srinivasulu\u00a0Reddy Uyyala, and Venkata Krishna\u00a0Kishore Kolli. 2021. Virtual facial expression recognition using deep CNN with ensemble learning. Journal of Ambient Intelligence and Humanized Computing 12, 12 (Dec. 2021), 10581\u201310599. https://doi.org/10.1007/s12652-020-02866-3",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Yong-Hun Cho, Dong-Yong Lee, and In-Kwon Lee. 2018. Path Prediction Using LSTM Network for Redirected Walking. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 527\u2013528. https://doi.org/10.1109/VR.2018.8446442",
+      "doi": ""
+    },
+    {
+      "text": "Yunjey Choi, Minje Choi, Munyoung Kim, Jung-Woo Ha, Sunghun Kim, and Jaegul Choo. 2018. StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. IEEE, New York, NY, USA, \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "Yunjey Choi, Youngjung Uh, Jaejun Yoo, and Jung-Woo Ha. 2020. StarGAN v2: Diverse Image Synthesis for Multiple Domains. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. IEEE, New York, NY, USA, \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Athanasios Christopoulos, Marc Conrad, and Mitul Shukla. 2019. What Does the Pedagogical Agent Say?. In 2019 10th International Conference on Information, Intelligence, Systems and Applications (IISA), Vol.\u00a01. IEEE, New York, NY, USA, 1\u20137. https://doi.org/10.1109/IISA.2019.8900767",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Aldrich Clarence, Jarrod Knibbe, Maxime Cordeil, and Michael Wybrow. 2021. Unscripted Retargeting: Reach Prediction for Haptic Retargeting in Virtual Reality. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 150\u2013159. https://doi.org/10.1109/VR50410.2021.00036",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Mark Colley, Benjamin Eder, Jan\u00a0Ole Rixen, and Enrico Rukzio. 2021. Effects of Semantic Segmentation Visualization on Trust, Situation Awareness, and Cognitive Load in Highly Automated Vehicles. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 155, 11\u00a0pages. https://doi.org/10.1145/3411764.3445351",
+      "doi": "10.1145/3411764.3445351"
+    },
+    {
+      "text": "Simon Cooper, Robyn Cant, Michelle Kelly, Tracy Levett-Jones, Lisa McKenna, Philippa Seaton, and Fiona Bogossian. 2021. An Evidence-Based Checklist for Improving Scoping Review Quality. Clinical Nursing Research 30, 3 (March 2021), 230\u2013240. https://doi.org/10.1177/1054773819846024",
+      "doi": ""
+    },
+    {
+      "text": "Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. 2016. The Cityscapes Dataset for Semantic Urban Scene Understanding. CoRR abs/1604.01685(2016), \u2013. arXiv:1604.01685http://arxiv.org/abs/1604.01685",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Edmanuel Cruz, Sergio Orts-Escolano, Francisco Gomez-Donoso, Carlos Rizo, Jose\u00a0Carlos Rangel, Higinio Mora, and Miguel Cazorla. 2019. An augmented reality application for improving shopping experience in large retail stores. Virtual Reality 23, 3 (Sept. 2019), 281\u2013291. https://doi.org/10.1007/s10055-018-0338-3",
+      "doi": "10.1007/s10055-018-0338-3"
+    },
+    {
+      "text": "\u2731\u00a0J\u00e1nos Czentye, Bal\u00e1zs\u00a0P\u00e9ter Ger\u0151, and Bal\u00e1zs Sonkoly. 2021. Managing Localization Delay for Cloud-assisted AR Applications Via LSTM-driven Overload Control. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 92\u2013101. https://doi.org/10.1109/AIVR52153.2021.00023",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Tor-Salve Dalsgaard, Jarrod Knibbe, and Joanna Bergstr\u00f6m. 2021. Modeling Pointing for 3D Target Selection in VR. In Proceedings of the 27th ACM Symposium on Virtual Reality Software and Technology (Osaka, Japan) (VRST \u201921). Association for Computing Machinery, New York, NY, USA, Article 42, 10\u00a0pages. https://doi.org/10.1145/3489849.3489853",
+      "doi": "10.1145/3489849.3489853"
+    },
+    {
+      "text": "Tor-Salve Dalsgaard, Joanna Bergstr\u00f6m, Marianna Obrist, and Kasper Hornb\u00e6k. 2022. A user-derived mapping for mid-air haptic experiences. International Journal of Human-Computer Studies 168 (2022), 102920. https://doi.org/10.1016/j.ijhcs.2022.102920",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Ferdinand de Coninck, Zerrin Yumak, Guntur Sandino, and Remco Veltkamp. 2019. Non-Verbal Behavior Generation for Virtual Characters in Group Conversations. In 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 41\u2013418. https://doi.org/10.1109/AIVR46125.2019.00016",
+      "doi": ""
+    },
+    {
+      "text": "Gilles Degottex, John Kane, Thomas Drugman, Tuomo Raitio, and Stefan Scherer. 2014. COVAREP \u2014 A collaborative voice analysis repository for speech technologies. In 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Vol.\u00a01. IEEE, New York, NY, USA, 960\u2013964. https://doi.org/10.1109/ICASSP.2014.6853739",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Javier Dehesa, Andrew Vidler, Christof Lutteroth, and Julian Padget. 2020. Touch\u00e9: Data-Driven Interactive Sword Fighting in Virtual Reality. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376714",
+      "doi": "10.1145/3313831.3376714"
+    },
+    {
+      "text": "\u2731\u00a0Victor Delvigne, Hazem Wannous, Jean-Philippe Vandeborre, Laurence Ris, and Thierry Dutoit. 2020. Attention Estimation in Virtual Reality with EEG based Image Regression. In 2020 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 10\u201316. https://doi.org/10.1109/AIVR50618.2020.00012",
+      "doi": ""
+    },
+    {
+      "text": "David DeVault, Ron Artstein, Grace Benn, Teresa Dey, Ed Fast, Alesia Gainer, Kallirroi Georgila, Jon Gratch, Arno Hartholt, Margaux Lhommet, Gale Lucas, Stacy Marsella, Fabrizio Morbini, Angela Nazarian, Stefan Scherer, Giota Stratou, Apar Suri, David Traum, Rachel Wood, Yuyu Xu, Albert Rizzo, and Louis-Philippe Morency. 2014. SimSensei Kiosk: A Virtual Human Interviewer for Healthcare Decision Support. In Proceedings of the 2014 International Conference on Autonomous Agents and Multi-Agent Systems(Paris, France) (AAMAS \u201914). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 1061\u20131068.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Patrick Dickinson, Kathrin Gerling, Kieran Hicks, John Murray, John Shearer, and Jacob Greenwood. 2019. Virtual reality crowd simulation: effects of agent density on user experience and behaviour. Virtual Reality 23, 1 (March 2019), 19\u201332. https://doi.org/10.1007/s10055-018-0365-0",
+      "doi": "10.1007/s10055-018-0365-0"
+    },
+    {
+      "text": "\u2731 Zhi-Chao Dong, Xiao-Ming Fu, Chi Zhang, Kang Wu, and Ligang Liu. 2017. Smooth Assembled Mappings for Large-Scale Real Walking. ACM Trans. Graph. 36, 6, Article 211 (nov 2017), 13\u00a0pages. https://doi.org/10.1145/3130800.3130893",
+      "doi": "10.1145/3130800.3130893"
+    },
+    {
+      "text": "\u2731\u00a0Panagiotis Drakopoulos, George-alex Koulieris, and Katerina Mania. 2021. Eye Tracking Interaction on Unmodified Mobile VR Headsets Using the Selfie Camera. ACM Trans. Appl. Percept. 18, 3, Article 11 (may 2021), 20\u00a0pages. https://doi.org/10.1145/3456875",
+      "doi": "10.1145/3456875"
+    },
+    {
+      "text": "\u2731\u00a0Minghan Du, Hui Cui, Yuan Wang, and Henry Duh. 2021. Learning from Deep Stereoscopic Attention for Simulator Sickness Prediction. IEEE Transactions on Visualization and Computer Graphics 1 (2021), 1\u20131. https://doi.org/10.1109/TVCG.2021.3115901",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Tinglin Duan, Parinya Punpongsanon, Daisuke Iwai, and Kosuke Sato. 2018. FlyingHand: Extending the Range of Haptic Feedback on Virtual Hand Using Drone-Based Object Recognition. In SIGGRAPH Asia 2018 Technical Briefs (Tokyo, Japan) (SA \u201918). Association for Computing Machinery, New York, NY, USA, Article 28, 4\u00a0pages. https://doi.org/10.1145/3283254.3283258",
+      "doi": "10.1145/3283254.3283258"
+    },
+    {
+      "text": "\u2731\u00a0Tinglin Duan, Parinya Punpongsanon, Sheng Jia, Daisuke Iwai, Kosuke Sato, and Konstantinos\u00a0N. Plataniotis. 2019. Remote Environment Exploration with Drone Agent and Haptic Force Feedback. In 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 167\u20131673. https://doi.org/10.1109/AIVR46125.2019.00034",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0J. Dudley, Jason\u00a0T. Jacques, and Per\u00a0Ola Kristensson. 2019. Crowdsourcing Interface Feature Design with Bayesian Optimization. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300482",
+      "doi": "10.1145/3290605.3300482"
+    },
+    {
+      "text": "\u2731 Colm\u00a0O Fearghail, Sebastian Knorr, and Aljosa Smolic. 2019. Analysis of Intended Viewing Area vs Estimated Saliency on Narrative Plot Structures in VR Film. In 2019 International Conference on 3D Immersion (IC3D), Vol.\u00a01. IEEE, New York, NY, USA, 1\u20138. https://doi.org/10.1109/IC3D48390.2019.8975990",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Tobias Feigl, Christopher Mutschler, and Michael Philippsen. 2018. Head-to-Body-Pose Classification in No-Pose VR Tracking Systems. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 1\u20132. https://doi.org/10.1109/VR.2018.8446495",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Tobias Feigl, Daniel Roth, Stefan Gradl, Markus Wirth, Marc\u00a0Erich Latoschik, Bjoern\u00a0M. Eskofier, Michael Philippsen, and Christopher Mutschler. 2019. Sick Moves! Motion Parameters as Indicators of Simulator Sickness. IEEE Transactions on Visualization and Computer Graphics 25, 11(2019), 3146\u20133157. https://doi.org/10.1109/TVCG.2019.2932224",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Benjamin Felbrich, Gwyllim Jahn, Cameron Newnham, and Achim Menges. 2018. Self-Organizing Maps for Intuitive Gesture-Based Geometric Modelling in Augmented Reality. In 2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 61\u201367. https://doi.org/10.1109/AIVR.2018.00016",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Xianglong Feng, Zeyang Bao, and Sheng Wei. 2019. Exploring CNN-Based Viewport Prediction for Live Virtual Reality Streaming. In 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 183\u20131833. https://doi.org/10.1109/AIVR46125.2019.00038",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Xianglong Feng, Yao Liu, and Sheng Wei. 2020. LiveDeep: Online Viewport Prediction for Live Virtual Reality Streaming Using Lifelong Deep Learning. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 800\u2013808. https://doi.org/10.1109/VR46266.2020.00104",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0B. Fogel. 2022. Defining Artificial Intelligence. John Wiley & Sons, Ltd, -, Chapter\u00a05, 91\u2013120. https://doi.org/10.1002/9781119815075.ch7 arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119815075.ch7",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Rita Francese, Maria Frasca, Michele Risi, and Genoveffa Tortora. 2021. A mobile augmented reality application for supporting real-time skin lesion analysis based on deep learning. Journal of Real-Time Image Processing 18, 4 (Aug. 2021), 1247\u20131259. https://doi.org/10.1007/s11554-021-01109-8",
+      "doi": "10.1007/s11554-021-01109-8"
+    },
+    {
+      "text": "\u2731\u00a0Valerio Franchi and Evridiki Ntagiou. 2021. Augmentation of a Virtual Reality Environment Using Generative Adversarial Networks. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 219\u2013223. https://doi.org/10.1109/AIVR52153.2021.00050",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Timoth\u00e9e Fr\u00e9ville, Charles Hamesse, Benoit Pairet, Rihab Lahouli, and Rob Haelterman. 2021. From Floor Plans to Virtual Reality. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 129\u2013133. https://doi.org/10.1109/AIVR52153.2021.00030",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Eisuke Fujinawa, Shigeo Yoshida, Yuki Koyama, Takuji Narumi, Tomohiro Tanikawa, and Michitaka Hirose. 2017. Computational Design of Hand-Held VR Controllers Using Haptic Shape Illusion. In Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology (Gothenburg, Sweden) (VRST \u201917). Association for Computing Machinery, New York, NY, USA, Article 28, 10\u00a0pages. https://doi.org/10.1145/3139131.3139160",
+      "doi": "10.1145/3139131.3139160"
+    },
+    {
+      "text": "\u2731 Thomas\u00a0L. Fuller and Amir Sadovnik. 2017. Image level color classification for colorblind assistance. In 2017 IEEE International Conference on Image Processing (ICIP), Vol.\u00a01. IEEE, New York, NY, USA, 1985\u20131989. https://doi.org/10.1109/ICIP.2017.8296629",
+      "doi": "10.1109/ICIP.2017.8296629"
+    },
+    {
+      "text": "\u2731 Nisal\u00a0Menuka Gamage, Deepana Ishtaweera, Martin Weigel, and Anusha Withana. 2021. So Predictable! Continuous 3D Hand Trajectory Prediction in Virtual Reality. In The 34th Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 332\u2013343. https://doi.org/10.1145/3472749.3474753",
+      "doi": "10.1145/3472749.3474753"
+    },
+    {
+      "text": "Narayan\u00a0H. Gandedkar, Matthew\u00a0T. Wong, and M.\u00a0Ali Darendeliler. 2021. Role of virtual reality (VR), augmented reality (AR) and artificial intelligence (AI) in tertiary education and research of orthodontics: An insight. Seminars in Orthodontics 27, 2 (2021), 69\u201377. https://doi.org/10.1053/j.sodo.2021.05.003",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Peizhong Gao, Keigo Matsumoto, Takuji Narumi, and Michitaka Hirose. 2020. Visual-Auditory Redirection: Multimodal Integration of Incongruent Visual and Auditory Cues for Redirected Walking. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 639\u2013648. https://doi.org/10.1109/ISMAR50242.2020.00092",
+      "doi": ""
+    },
+    {
+      "text": "Marc-Andr\u00e9 Gardner, Kalyan Sunkavalli, Ersin Yumer, Xiaohui Shen, Emiliano Gambaretto, Christian Gagn\u00e9, and Jean-Fran\u00e7ois Lalonde. 2017. Learning to Predict Indoor Illumination from a Single Image. CoRR abs/1704.00090(2017), \u2013. arXiv:1704.00090http://arxiv.org/abs/1704.00090",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Pu Ge, Junjun Pan, Fanghong Li, Weiyun Shi, and Hong Qin. 2019. Real-Time Tracking of Corneal Contour in Dalk Surgical Navigation Using Deep Neural Networks. In 2019 IEEE International Conference on Image Processing (ICIP), Vol.\u00a01. IEEE, New York, NY, USA, 1356\u20131360. https://doi.org/10.1109/ICIP.2019.8803779",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Christoph Gebhardt, Brian Hecox, Bas van Opheusden, Daniel Wigdor, James Hillis, Otmar Hilliges, and Hrvoje Benko. 2019. Learning Cooperative Personalized Policies from Gaze Data. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 197\u2013208. https://doi.org/10.1145/3332165.3347933",
+      "doi": "10.1145/3332165.3347933"
+    },
+    {
+      "text": "Andreas Geiger, Philip Lenz, Christoph Stiller, and Raquel Urtasun. 2013. Vision meets robotics: The kitti dataset. The International Journal of Robotics Research 32, 11 (2013), 1231\u20131237.",
+      "doi": "10.1177/0278364913491297"
+    },
+    {
+      "text": "\u2731\u00a0Daniele Giunchi, Stuart James, and Anthony Steed. 2018. 3D Sketching for Interactive Model Retrieval in Virtual Reality. In Proceedings of the Joint Symposium on Computational Aesthetics and Sketch-Based Interfaces and Modeling and Non-Photorealistic Animation and Rendering (Victoria, British Columbia, Canada) (Expressive \u201918). Association for Computing Machinery, New York, NY, USA, Article 1, 12\u00a0pages. https://doi.org/10.1145/3229147.3229166",
+      "doi": "10.1145/3229147.3229166"
+    },
+    {
+      "text": "\u2731\u00a0Gilzamir Gomes, Creto\u00a0A. Vidal, Joaquim\u00a0B. Cavalcante\u00a0Neto, and Yuri L.\u00a0B. Nogueira. 2019. An Emotional Virtual Character: A Deep Learning Approach with Reinforcement Learning. In 2019 21st Symposium on Virtual and Augmented Reality (SVR), Vol.\u00a01. -, -, 223\u2013231. https://doi.org/10.1109/SVR.2019.00047",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Ester Gonz\u00e1lez-Sosa, Pablo Perez-Garcia, Diego Gonzalez-Morin, and Alvaro Villegas. 2021. Subjective Evaluation of Egocentric Human Segmentation for Mixed Reality. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 232\u2013236. https://doi.org/10.1109/AIVR52153.2021.00053",
+      "doi": ""
+    },
+    {
+      "text": "Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. 2020. Generative Adversarial Networks. Commun. ACM 63, 11 (oct 2020), 139\u2013144. https://doi.org/10.1145/3422622",
+      "doi": "10.1145/3422622"
+    },
+    {
+      "text": "\u2731 Jeremy\u00a0Raboff Gordon, Max\u00a0T. Curran, John Chuang, and Coye Cheshire. 2021. Covert Embodied Choice: Decision-Making and the Limits of Privacy Under Biometric Surveillance. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 551, 12\u00a0pages. https://doi.org/10.1145/3411764.3445309",
+      "doi": "10.1145/3411764.3445309"
+    },
+    {
+      "text": "\u2731\u00a0Lysa Gramoli, J\u00e9r\u00e9my Lacoche, Anthony Foulonneau, Val\u00e9rie Gouranton, and Bruno Arnaldi. 2021. Needs Model for an Autonomous Agent during Long-term Simulations. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 134\u2013138. https://doi.org/10.1109/AIVR52153.2021.00031",
+      "doi": ""
+    },
+    {
+      "text": "Jan Gugenheimer, Christian Mai, Mark McGill, Julie Williamson, Frank Steinicke, and Ken Perlin. 2019. Challenges Using Head-Mounted Displays in Shared and Social Spaces. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3290607.3299028",
+      "doi": "10.1145/3290607.3299028"
+    },
+    {
+      "text": "Jan Gugenheimer, Wen-Jie Tseng, Abraham\u00a0Hani Mhaidli, Jan\u00a0Ole Rixen, Mark McGill, Michael Nebeling, Mohamed Khamis, Florian Schaub, and Sanchari Das. 2022. Novel Challenges of Safety, Security and Privacy in Extended Reality. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 108, 5\u00a0pages. https://doi.org/10.1145/3491101.3503741",
+      "doi": "10.1145/3491101.3503741"
+    },
+    {
+      "text": "\u2731\u00a0Manuel Guimar\u00e3es, Rui Prada, Pedro\u00a0A. Santos, Jo\u00e3o Dias, Arnav Jhala, and Samuel Mascarenhas. 2020. The Impact of Virtual Reality in the Social Presence of a Virtual Agent. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (Virtual Event, Scotland, UK) (IVA \u201920). Association for Computing Machinery, New York, NY, USA, Article 23, 8\u00a0pages. https://doi.org/10.1145/3383652.3423879",
+      "doi": "10.1145/3383652.3423879"
+    },
+    {
+      "text": "\u2731\u00a0Kunal Gupta, Ryo Hajika, Yun\u00a0Suen Pai, Andreas Duenser, Martin Lochner, and Mark Billinghurst. 2019. In AI We Trust: Investigating the Relationship between Biosignals, Trust and Cognitive Load in VR. In 25th ACM Symposium on Virtual Reality Software and Technology (Parramatta, NSW, Australia) (VRST \u201919). Association for Computing Machinery, New York, NY, USA, Article 33, 10\u00a0pages. https://doi.org/10.1145/3359996.3364276",
+      "doi": "10.1145/3359996.3364276"
+    },
+    {
+      "text": "\u2731\u00a0Kunal Gupta, Ryo Hajika, Yun\u00a0Suen Pai, Andreas Duenser, Martin Lochner, and Mark Billinghurst. 2020. Measuring Human Trust in a Virtual Assistant using Physiological Sensing in Virtual Reality. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 756\u2013765. https://doi.org/10.1109/VR46266.2020.00099",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Feyza\u00a0Merve Haf\u0131zo\u011flu and Sandip Sen. 2018. The Effects of Past Experience on Trust in Repeated Human-Agent Teamwork. In Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems(Stockholm, Sweden) (AAMAS \u201918). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 514\u2013522.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Lei Han, Tian Zheng, Yinheng Zhu, Lan Xu, and Lu Fang. 2020. Live Semantic 3D Perception for Immersive Augmented Reality. IEEE Transactions on Visualization and Computer Graphics 26, 5(2020), 2012\u20132022. https://doi.org/10.1109/TVCG.2020.2973477",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Sara Hanson, Richard\u00a0A. Paris, Haley\u00a0A. Adams, and Bobby Bodenheimer. 2019. Improving Walking in Place Methods with Individualization and Deep Networks. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 367\u2013376. https://doi.org/10.1109/VR.2019.8797751",
+      "doi": ""
+    },
+    {
+      "text": "Joanne Harmon, Victoria Pitt, Peter Summons, and Kerry\u00a0J. Inder. 2021. Use of artificial intelligence and virtual reality within clinical simulation for nursing pain education: A scoping review. Nurse Education Today 97(2021), 104700. https://doi.org/10.1016/j.nedt.2020.104700",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Arno Hartholt, Ed Fast, Adam Reilly, Wendy Whitcup, Matt Liewer, and Sharon Mozgai. 2019. Ubiquitous Virtual Humans: A Multi-platform Framework for Embodied AI Agents in XR. In 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 308\u20133084. https://doi.org/10.1109/AIVR46125.2019.00072",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Jeremy Hartmann, Aakar Gupta, and Daniel Vogel. 2020. Extend, Push, Pull: Smartphone Mediated Interaction in Spatial Augmented Reality via Intuitive Mode Switching. In Symposium on Spatial User Interaction (Virtual Event, Canada) (SUI \u201920). Association for Computing Machinery, New York, NY, USA, Article 2, 10\u00a0pages. https://doi.org/10.1145/3385959.3418456",
+      "doi": "10.1145/3385959.3418456"
+    },
+    {
+      "text": "\u2731\u00a0Yu He, Yingtian Liu, Yihan Jin, Song-Hai Zhang, Yu-Kun Lai, and Shi-Min Hu. 2021. Context-Consistent Generation of Indoor Virtual Environments based on Geometry Constraints. IEEE Transactions on Visualization and Computer Graphics 1 (2021), 1\u20131. https://doi.org/10.1109/TVCG.2021.3111729",
+      "doi": "10.1109/TVCG.2021.3111729"
+    },
+    {
+      "text": "\u2731\u00a0Lorenz Hetzel, John Dudley, Anna\u00a0Maria Feit, and Per\u00a0Ola Kristensson. 2021. Complex Interaction as Emergent Behaviour: Simulating Mid-Air Virtual Keyboard Typing using Reinforcement Learning. IEEE Transactions on Visualization and Computer Graphics 27, 11(2021), 4140\u20134149. https://doi.org/10.1109/TVCG.2021.3106494",
+      "doi": "10.1109/TVCG.2021.3106494"
+    },
+    {
+      "text": "\u2731\u00a0Joris Heyse, Maria\u00a0Torres Vega, Femke de Backere, and Filip de Turck. 2019. Contextual Bandit Learning-Based Viewport Prediction for 360 Video. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 972\u2013973. https://doi.org/10.1109/VR.2019.8797830",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Clarice Hilton, Nicola Plant, Carlos Gonz\u00e1lez\u00a0D\u00edaz, Phoenix Perry, Ruth Gibson, Bruno Martelli, Michael Zbyszynski, Rebecca Fiebrink, and Marco Gillies. 2021. InteractML: Making Machine Learning Accessible for Creative Practitioners Working with Movement Interaction in Immersive Media. In Proceedings of the 27th ACM Symposium on Virtual Reality Software and Technology (Osaka, Japan) (VRST \u201921). Association for Computing Machinery, New York, NY, USA, Article 23, 10\u00a0pages. https://doi.org/10.1145/3489849.3489879",
+      "doi": "10.1145/3489849.3489879"
+    },
+    {
+      "text": "\u2731\u00a0Koki Hirota and Takashi Komuro. 2019. Situation-Adaptive Object Grasping Recognition in VR Environment. In 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 171\u20131713. https://doi.org/10.1109/AIVR46125.2019.00035",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Simon\u00a0M. Hofmann, Felix Klotzsche, Alberto Mariola, Vadim\u00a0V. Nikulin, Arno Villringer, and Michael Gaebler. 2018. Decoding Subjective Emotional Arousal during a Naturalistic VR Experience from EEG Using LSTMs. In 2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 128\u2013131. https://doi.org/10.1109/AIVR.2018.00026",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Valentin Holzwarth, Johannes Schneider, Joshua Handali, Joy Gisler, Christian Hirt, Andreas Kunz, and Jan vom Brocke. 2021. Towards estimating affective states in Virtual Reality based on behavioral data. Virtual Reality 25, 4 (Dec. 2021), 1139\u20131152. https://doi.org/10.1007/s10055-021-00518-1",
+      "doi": "10.1007/s10055-021-00518-1"
+    },
+    {
+      "text": "\u2731\u00a0Matthias Hoppe, Beat Rossmy, Daniel\u00a0Peter Neumann, Stephan Streuber, Albrecht Schmidt, and Tonja-Katrin Machulla. 2020. A Human Touch: Social Touch Increases the Perceived Human-Likeness of Agents in Virtual Reality. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3313831.3376719",
+      "doi": "10.1145/3313831.3376719"
+    },
+    {
+      "text": "Sebastian Houben, Johannes Stallkamp, Jan Salmen, Marc Schlipsing, and Christian Igel. 2013. Detection of Traffic Signs in Real-World Images: The German Traffic Sign Detection Benchmark. In International Joint Conference on Neural Networks. -, -.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Kai-Wen Hsiao, Jheng-Wei Su, Yu-Chih Hung, Kuo-Wei Chen, Chih-Yuan Yao, and Hung-Kuo Chu. 2021. A Large-Scale Indoor Layout Reconstruction and Localization System for Spatial-Aware Mobile AR Applications. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 237\u2013241. https://doi.org/10.1109/AIVR52153.2021.00054",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Ping Hu, Qi Sun, Piotr Didyk, Li-Yi Wei, and Arie\u00a0E. Kaufman. 2019. Reducing Simulator Sickness with Perceptual Camera Control. ACM Trans. Graph. 38, 6, Article 210 (nov 2019), 12\u00a0pages. https://doi.org/10.1145/3355089.3356490",
+      "doi": "10.1145/3355089.3356490"
+    },
+    {
+      "text": "\u2731\u00a0Zhiming Hu, Andreas Bulling, Sheng Li, and Guoping Wang. 2021. EHTask: Recognizing User Tasks from Eye and Head Movements in Immersive Virtual Reality. IEEE Transactions on Visualization and Computer Graphics 1 (2021), 1\u20131. https://doi.org/10.1109/TVCG.2021.3138902",
+      "doi": "10.1109/TVCG.2021.3138902"
+    },
+    {
+      "text": "\u2731\u00a0Zhiming Hu, Andreas Bulling, Sheng Li, and Guoping Wang. 2021. FixationNet: Forecasting Eye Fixations in Task-Oriented Virtual Environments. IEEE Transactions on Visualization and Computer Graphics 27, 5(2021), 2681\u20132690. https://doi.org/10.1109/TVCG.2021.3067779",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Zhiming Hu, Sheng Li, Congyi Zhang, Kangrui Yi, Guoping Wang, and Dinesh Manocha. 2020. DGaze: CNN-Based Gaze Prediction in Dynamic Scenes. IEEE Transactions on Visualization and Computer Graphics 26, 5(2020), 1902\u20131911. https://doi.org/10.1109/TVCG.2020.2973473",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Zhiming Hu, Congyi Zhang, Sheng Li, Guoping Wang, and Dinesh Manocha. 2019. SGaze: A Data-Driven Eye-Head Coordination Model for Realtime Gaze Prediction. IEEE Transactions on Visualization and Computer Graphics 25, 5(2019), 2002\u20132010. https://doi.org/10.1109/TVCG.2019.2899187",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Bingyao Huang and Haibin Ling. 2021. DeProCams: Simultaneous Relighting, Compensation and Shape Reconstruction for Projector-Camera Systems. IEEE Transactions on Visualization and Computer Graphics 27, 5(2021), 2725\u20132735. https://doi.org/10.1109/TVCG.2021.3067771",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Tobias Huber, Silvan Mertes, Stanislava Rangelova, Simon Flutura, and Elisabeth Andr\u00e9. 2021. Dynamic Difficulty Adjustment in Virtual Reality Exergames through Experience-driven Procedural Content Generation. In 2021 IEEE Symposium Series on Computational Intelligence (SSCI), Vol.\u00a01. IEEE, New York, NY, USA, 1\u20138. https://doi.org/10.1109/SSCI50451.2021.9660086",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Brandon Huynh, Adam Ibrahim, Yun\u00a0Suk Chang, Tobias H\u00f6llerer, and John O\u2019Donovan. 2018. A Study of Situated Product Recommendations in Augmented Reality. In 2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 35\u201343. https://doi.org/10.1109/AIVR.2018.00013",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Brandon Huynh, Jason Orlosky, and Tobias H\u00f6llerer. 2019. In-Situ Labeling for Augmented Reality Language Learning. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 1606\u20131611. https://doi.org/10.1109/VR.2019.8798358",
+      "doi": ""
+    },
+    {
+      "text": "Catalin Ionescu, Dragos Papava, Vlad Olaru, and Cristian Sminchisescu. 2014. Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing in Natural Environments. IEEE Transactions on Pattern Analysis and Machine Intelligence 36, 7 (jul 2014), 1325\u20131339.",
+      "doi": "10.1109/TPAMI.2013.248"
+    },
+    {
+      "text": "\u2731\u00a0Rifatul Islam, Kevin Desai, and John Quarles. 2021. Cybersickness Prediction from Integrated HMD\u2019s Sensors: A Multimodal Deep Fusion Approach using Eye-tracking and Head-tracking Data. In 2021 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 31\u201340. https://doi.org/10.1109/ISMAR52148.2021.00017",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Rifatul Islam, Yonggun Lee, Mehrad Jaloli, Imtiaz Muhammad, Dakai Zhu, Paul Rad, Yufei Huang, and John Quarles. 2020. Automatic Detection and Prediction of Cybersickness Severity using Deep Neural Networks from user\u2019s Physiological Signals. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 400\u2013411. https://doi.org/10.1109/ISMAR50242.2020.00066",
+      "doi": ""
+    },
+    {
+      "text": "Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, and Alexei\u00a0A. Efros. 2016. Image-to-Image Translation with Conditional Adversarial Networks. CoRR abs/1611.07004(2016), \u2013. arXiv:1611.07004http://arxiv.org/abs/1611.07004",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Juan Izquierdo-Domenech, Jordi Linares-Pellicer, and Jorge Orta-Lopez. 2020. Supporting interaction in augmented reality assisted industrial processes using a CNN-based semantic layer. In 2020 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 27\u201332. https://doi.org/10.1109/AIVR50618.2020.00014",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Daekyo Jeong, Sangbong Yoo, and Jang Yun. 2019. Cybersickness Analysis with EEG Using Deep Learning Algorithms. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 827\u2013835. https://doi.org/10.1109/VR.2019.8798334",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Jianqing Jia, Semir Elezovikj, Heng Fan, Shuojin Yang, Jing Liu, Wei Guo, Chiu\u00a0C. Tan, and Haibin Ling. 2021. Semantic-aware label placement for augmented reality in street view. The Visual Computer 37, 7 (July 2021), 1805\u20131819. https://doi.org/10.1007/s00371-020-01939-w",
+      "doi": "10.1007/s00371-020-01939-w"
+    },
+    {
+      "text": "\u2731\u00a0Xianta Jiang, Zhen\u00a0Gang Xiao, and Carlo Menon. 2018. Virtual grasps recognition using fusion of Leap Motion and force myography. Virtual Reality 22, 4 (Nov. 2018), 297\u2013308. https://doi.org/10.1007/s10055-018-0339-2",
+      "doi": "10.1007/s10055-018-0339-2"
+    },
+    {
+      "text": "Yue Jiang, Yuwen Lu, Jeffrey Nichols, Wolfgang Stuerzlinger, Chun Yu, Christof Lutteroth, Yang Li, Ranjitha Kumar, and Toby Jia-Jun Li. 2022. Computational Approaches for Understanding, Generating, and Adapting User Interfaces. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 74, 6\u00a0pages. https://doi.org/10.1145/3491101.3504030",
+      "doi": "10.1145/3491101.3504030"
+    },
+    {
+      "text": "\u2731\u00a0Brendan John, Pallavi Raiturkar, Arunava Banerjee, and Eakta Jain. 2018. An Evaluation of Pupillary Light Response Models for 2D Screens and VR HMDs. In Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology (Tokyo, Japan) (VRST \u201918). Association for Computing Machinery, New York, NY, USA, Article 19, 11\u00a0pages. https://doi.org/10.1145/3281505.3281538",
+      "doi": "10.1145/3281505.3281538"
+    },
+    {
+      "text": "Hanbyul Joo, Tomas Simon, Xulong Li, Hao Liu, Lei Tan, Lin Gui, Sean Banerjee, Timothy\u00a0Scott Godisart, Bart Nabbe, Iain Matthews, Takeo Kanade, Shohei Nobuhara, and Yaser Sheikh. 2017. Panoptic Studio: A Massively Multiview System for Social Interaction Capture. IEEE Transactions on Pattern Analysis and Machine Intelligence 1 (2017), -\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Jinki Jung, Hyeopwoo Lee, Jeehye Choi, Abhilasha Nanda, Uwe Gruenefeld, Tim Stratmann, and Wilko Heuten. 2018. Ensuring Safety in Augmented Reality from Trade-off Between Immersion and Situation Awareness. In 2018 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 70\u201379. https://doi.org/10.1109/ISMAR.2018.00032",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Raehyuk Jung, Aiden Seung\u00a0Joon Lee, Amirsaman Ashtari, and Jean-Charles Bazin. 2019. Deep360Up: A Deep Learning-Based Approach for Automatic VR Image Upright Adjustment. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 1\u20138. https://doi.org/10.1109/VR.2019.8798326",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Apostolos Kalatzis, Laura Stanley, and Vishnunarayan\u00a0Girishan Prabhu. 2021. Affective State Classification in Virtual Reality Environments Using Electrocardiogram and Respiration Signals. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 160\u2013167. https://doi.org/10.1109/AIVR52153.2021.00037",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Seokbin Kang, Ekta Shokeen, Virginia\u00a0L. Byrne, Leyla Norooz, Elizabeth Bonsignore, Caro Williams-Pierce, and Jon\u00a0E. Froehlich. 2020. ARMath: Augmenting Everyday Life with Math Learning. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3313831.3376252",
+      "doi": "10.1145/3313831.3376252"
+    },
+    {
+      "text": "\u2731\u00a0Yuna Kano and Junya Morita. 2020. The Effect of Experience and Embodiment on Empathetic Behavior toward Virtual Agents. In Proceedings of the 8th International Conference on Human-Agent Interaction (Virtual Event, USA) (HAI \u201920). Association for Computing Machinery, New York, NY, USA, 112\u2013120. https://doi.org/10.1145/3406499.3415074",
+      "doi": "10.1145/3406499.3415074"
+    },
+    {
+      "text": "\u2731\u00a0Tam\u00e1s Kar\u00e1csony, John\u00a0Paulin Hansen, Helle\u00a0Klingenberg Iversen, and Sadasivan Puthusserypady. 2019. Brain Computer Interface for Neuro-Rehabilitation With Deep Learning Classification and Virtual Reality Feedback. In Proceedings of the 10th Augmented Human International Conference 2019 (Reims, France) (AH2019). Association for Computing Machinery, New York, NY, USA, Article 22, 8\u00a0pages. https://doi.org/10.1145/3311823.3311864",
+      "doi": "10.1145/3311823.3311864"
+    },
+    {
+      "text": "\u2731\u00a0Pinachuan Ke and Kenina Zhu. 2021. Larger Step Faster Speed: Investigating Gesture-Amplitude-based Locomotion in Place with Different Virtual Walking Speed in Virtual Reality. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 438\u2013447. https://doi.org/10.1109/VR50410.2021.00067",
+      "doi": ""
+    },
+    {
+      "text": "Hanan Khalil, Micah Peters, Christina\u00a0M. Godfrey, Patricia McInerney, Cassia\u00a0Baldini Soares, and Deborah Parker. 2016. An Evidence-Based Approach to Scoping Reviews. Worldviews on Evidence-Based Nursing 13, 2 (2016), 118\u2013123. https://doi.org/10.1111/wvn.12144",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Adil Khokhar, Andrew Yoshimura, and Christoph\u00a0W. Borst. 2019. Pedagogical Agent Responsive to Eye Tracking in Educational VR. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 1018\u20131019. https://doi.org/10.1109/VR.2019.8797896",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Hansung Kim, Luca Remaggi, Aloisio Dourado, Teofilo\u00a0de Campos, Philip J.\u00a0B. Jackson, and Adrian Hilton. 2022. Immersive audio-visual scene reproduction using semantic scene reconstruction from 360 cameras. Virtual Reality 26, 3 (Sept. 2022), 823\u2013838. https://doi.org/10.1007/s10055-021-00594-3",
+      "doi": "10.1007/s10055-021-00594-3"
+    },
+    {
+      "text": "\u2731\u00a0Hansung Kim, Luca Remaggi, Philip\u00a0J.B. Jackson, and Adrian Hilton. 2019. Immersive Spatial Audio Reproduction for VR/AR Using Room Acoustic Modelling from 360\u00b0 Images. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, New York, NY, USA, 120\u2013126. https://doi.org/10.1109/VR.2019.8798247",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Hak\u00a0Gu Kim, Wissam\u00a0J. Baddar, Heoun-taek Lim, Hyunwook Jeong, and Yong\u00a0Man Ro. 2017. Measurement of Exceptional Motion in VR Video Contents for VR Sickness Assessment Using Deep Convolutional Autoencoder. In Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology (Gothenburg, Sweden) (VRST \u201917). Association for Computing Machinery, New York, NY, USA, Article 36, 7\u00a0pages. https://doi.org/10.1145/3139131.3139137",
+      "doi": "10.1145/3139131.3139137"
+    },
+    {
+      "text": "\u2731 Hak\u00a0Gu Kim, Heoun-Taek Lim, Sangmin Lee, and Yong\u00a0Man Ro. 2019. VRSA Net: VR Sickness Assessment Considering Exceptional Motion for 360\u00b0 VR Video. IEEE Transactions on Image Processing 28, 4 (2019), 1646\u20131660. https://doi.org/10.1109/TIP.2018.2880509",
+      "doi": "10.1109/TIP.2018.2880509"
+    },
+    {
+      "text": "\u2731\u00a0Jinwoo Kim, Woojae Kim, Heeseok Oh, Seongmin Lee, and Sanghoon Lee. 2019. A Deep Cybersickness Predictor Based on Brain Signal Analysis for Virtual Reality Contents. In 2019 IEEE/CVF International Conference on Computer Vision (ICCV), Vol.\u00a01. IEEE, New York, NY, USA, 10579\u201310588. https://doi.org/10.1109/ICCV.2019.01068",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Jinwoo Kim, Heeseok Oh, Woojae Kim, Seonghwa Choi, Wookho Son, and Sanghoon Lee. 2022. A Deep Motion Sickness Predictor Induced by Visual Stimuli in Virtual Reality. IEEE Transactions on Neural Networks and Learning Systems 33, 2(2022), 554\u2013566. https://doi.org/10.1109/TNNLS.2020.3028080",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Kangsoo Kim, Luke Boelling, Steffen Haesler, Jeremy Bailenson, Gerd Bruder, and Greg\u00a0F. Welch. 2018. Does a Digital Assistant Need a Body? The Influence of Visual Embodiment and Social Behavior on the Perception of Intelligent Virtual Agents in AR. In 2018 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 105\u2013114. https://doi.org/10.1109/ISMAR.2018.00039",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Kihyun Kim, Sangmin Lee, Hak\u00a0GU Kim, Minho Park, and Yong\u00a0Man Ro. 2019. Deep Objective Assessment Model Based on Spatio-Temporal Perception of 360-Degree Video for VR Sickness Prediction. In 2019 IEEE International Conference on Image Processing (ICIP), Vol.\u00a01. IEEE, New York, NY, USA, 3192\u20133196. https://doi.org/10.1109/ICIP.2019.8803257",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Kangsoo Kim, Nahal Norouzi, Tiffany Losekamp, Gerd Bruder, Mindi Anderson, and Gregory Welch. 2019. Effects of Patient Care Assistant Embodiment and Computer Mediation on User Experience. In 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 17\u2013177. https://doi.org/10.1109/AIVR46125.2019.00013",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Seongyeop Kim, Sangmin Lee, and Yong\u00a0Man Ro. 2020. Estimating VR Sickness Caused By Camera Shake in VR Videography. In 2020 IEEE International Conference on Image Processing (ICIP), Vol.\u00a01. IEEE, New York, NY, USA, 3433\u20133437. https://doi.org/10.1109/ICIP40778.2020.9190721",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Woojae Kim, Sanghoon Lee, and Alan\u00a0Conrad Bovik. 2021. VR Sickness Versus VR Presence: A Statistical Prediction Model. IEEE Transactions on Image Processing 30 (2021), 559\u2013571. https://doi.org/10.1109/TIP.2020.3036782",
+      "doi": "10.1109/TIP.2020.3036782"
+    },
+    {
+      "text": "Hak\u00a0Gu Kim, Heoun-Taek Lim, Sangmin Lee, and Yong\u00a0Man Ro. 2019. VRSA Net: VR Sickness Assessment Considering Exceptional Motion for 360\u00b0 VR Video. IEEE Transactions on Image Processing 28, 4 (2019), 1646\u20131660. https://doi.org/10.1109/TIP.2018.2880509",
+      "doi": "10.1109/TIP.2018.2880509"
+    },
+    {
+      "text": "Kangsoo Kim, Mark Billinghurst, Gerd Bruder, Henry Been-Lirn Duh, and Gregory\u00a0F. Welch. 2018. Revisiting Trends in Augmented Reality Research: A Review of the 2nd Decade of ISMAR (2008\u20132017). IEEE Transactions on Visualization and Computer Graphics 24, 11(2018), 2947\u20132962. https://doi.org/10.1109/TVCG.2018.2868591",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Naoki Kimura and Jun Rekimoto. 2018. ExtVision: Augmentation of Visual Experiences with Generation of Context Images for a Peripheral Vision Using Deep Neural Network. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/3173574.3174001",
+      "doi": "10.1145/3173574.3174001"
+    },
+    {
+      "text": "\u2731\u00a0F. Klotzsche, A. Mariola, S. Hofmann, V.\u00a0V. Nikulin, A. Villringer, and M. Gaebler. 2018. Using EEG to Decode Subjective Levels of Emotional Arousal During an Immersive VR Roller Coaster Ride. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 605\u2013606. https://doi.org/10.1109/VR.2018.8446275",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Benjamin Knopp, Dmytro Velychko, Johannes Dreibrodt, Alexander\u00a0C. Sch\u00fctz, and Dominik Endres. 2020. Evaluating Perceptual Predictions Based on Movement Primitive Models in VR- and Online-Experiments. In ACM Symposium on Applied Perception 2020 (Virtual Event, USA) (SAP \u201920). Association for Computing Machinery, New York, NY, USA, Article 1, 9\u00a0pages. https://doi.org/10.1145/3385955.3407940",
+      "doi": "10.1145/3385955.3407940"
+    },
+    {
+      "text": "Sebastian Knorr, Cagri Ozcinar, Colm\u00a0O Fearghail, and Aljosa Smolic. 2018. Director\u2019s Cut - A Combined Dataset for Visual Attention Analysis in Cinematic VR Content. In The 15th ACM SIGGRAPH European Conference on Visual Media Production. ACM, New York, NY, USA, \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Brooke Krajancich, Petr Kellnhofer, and Gordon Wetzstein. 2021. A Perceptual Model for Eccentricity-Dependent Spatio-Temporal Flicker Fusion and Its Applications to Foveated Graphics. ACM Trans. Graph. 40, 4, Article 47 (jul 2021), 11\u00a0pages. https://doi.org/10.1145/3450626.3459784",
+      "doi": "10.1145/3450626.3459784"
+    },
+    {
+      "text": "\u2731 Po-Chen Kuo, Li-Chung Chuang, Dong-Yi Lin, and Ming-Sui Lee. 2021. VR Sickness Assessment with Perception Prior and Hybrid Temporal Features. In 2020 25th International Conference on Pattern Recognition (ICPR), Vol.\u00a01. IEEE, New York, NY, USA, 5558\u20135564. https://doi.org/10.1109/ICPR48806.2021.9412423",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Peter K\u00e1n and Hannes Kafumann. 2019. DeepLight: light source estimation for augmented reality using deep learning. The Visual Computer 35, 6 (June 2019), 873\u2013883. https://doi.org/10.1007/s00371-019-01666-x",
+      "doi": "10.1007/s00371-019-01666-x"
+    },
+    {
+      "text": "\u2731\u00a0Philipp Ladwig, Alexander Pech, Ralf D\u00f6rner, and Christian Geiger. 2020. Unmasking Communication Partners: A Low-Cost AI Solution for Digitally Removing Head-Mounted Displays in VR-Based Telepresence. In 2020 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 82\u201390. https://doi.org/10.1109/AIVR50618.2020.00025",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Po\u00a0Kong Lai, Shuang Xie, Jochen Lang, and Robert Lagani\u00e8re. 2019. Real-Time Panoramic Depth Maps from Omni-directional Stereo Images for 6 DoF Videos in Virtual Reality. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 405\u2013412. https://doi.org/10.1109/VR.2019.8798016",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Divesh Lala and Toyoaki Nishida. 2015. A data-driven passing interaction model for embodied basketball agents. Journal of Intelligent Information Systems 48 (2015), 27\u201360.",
+      "doi": "10.1007/s10844-015-0386-z"
+    },
+    {
+      "text": "\u2731\u00a0Puneet Lall, Silviu Borac, Dave Richardson, Matt Pharr, and Manfred Ernst. 2018. View-Region Optimized Image-Based Scene Simplification. Proc. ACM Comput. Graph. Interact. Tech. 1, 2, Article 26 (aug 2018), 22\u00a0pages. https://doi.org/10.1145/3233311",
+      "doi": "10.1145/3233311"
+    },
+    {
+      "text": "\u2731\u00a0Maurice Lamb, Tamara Lorenz, Stephen\u00a0J. Harrison, Rachel Kallen, Ali Minai, and Michael\u00a0J. Richardson. 2017. PAPAc: A Pick and Place Agent Based on Human Behavioral Dynamics. In Proceedings of the 5th International Conference on Human Agent Interaction (Bielefeld, Germany) (HAI \u201917). Association for Computing Machinery, New York, NY, USA, 131\u2013141. https://doi.org/10.1145/3125739.3125771",
+      "doi": "10.1145/3125739.3125771"
+    },
+    {
+      "text": "Georgios Lampropoulos, Euclid Keramopoulos, and Konstantinos Diamantaras. 2020. Enhancing the functionality of augmented reality using deep learning, semantic web and knowledge graphs: A review. Visual Informatics 4, 1 (2020), 32\u201342. https://doi.org/10.1016/j.visinf.2020.01.001",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Yining Lang, Wei Liang, and Lap-Fai Yu. 2019. Virtual Agent Positioning Driven by Scene Semantics in Mixed Reality. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 767\u2013775. https://doi.org/10.1109/VR.2019.8798018",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Marc\u00a0Erich Latoschik, Florian Kern, Jan-Philipp Stauffert, Andrea Bartl, Mario Botsch, and Jean-Luc Lugrin. 2019. Not Alone Here?! Scalability and User Experience of Embodied Ambient Crowds in Distributed Social Virtual Reality. IEEE Transactions on Visualization and Computer Graphics 25, 5(2019), 2134\u20132144. https://doi.org/10.1109/TVCG.2019.2899250",
+      "doi": ""
+    },
+    {
+      "text": "Marc\u00a0Erich Latoschik, Daniel Roth, Dominik Gall, Jascha Achenbach, Thomas Waltemate, and Mario Botsch. 2017. The Effect of Avatar Realism in Immersive Social Virtual Realities. In Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology (Gothenburg, Sweden) (VRST \u201917). Association for Computing Machinery, New York, NY, USA, Article 39, 10\u00a0pages. https://doi.org/10.1145/3139131.3139156",
+      "doi": "10.1145/3139131.3139156"
+    },
+    {
+      "text": "Vernon\u00a0J Lawhern, Amelia\u00a0J Solon, Nicholas\u00a0R Waytowich, Stephen\u00a0M Gordon, Chou\u00a0P Hung, and Brent\u00a0J Lance. 2018. EEGNet: a compact convolutional neural network for EEG-based brain\u2013computer interfaces. Journal of Neural Engineering 15, 5 (2018), 056013. http://stacks.iop.org/1741-2552/15/i=5/a=056013",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Dong-Yong Lee, Yong-Hun Cho, and In-Kwon Lee. 2019. Real-time Optimal Planning for Redirected Walking Using Deep Q-Learning. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 63\u201371. https://doi.org/10.1109/VR.2019.8798121",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Dong-Yong Lee, Yong-Hun Cho, Dae-Hong Min, and In-Kwon Lee. 2020. Optimal Planning for Redirected Walking Based on Reinforcement Learning in Multi-user Environment with Irregularly Shaped Physical Space. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 155\u2013163. https://doi.org/10.1109/VR46266.2020.00034",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Juyoung Lee, Myungho Lee, Gerard\u00a0Jounghyun Kim, and Jae-In Hwang. 2020. Effects of Synchronized Leg Motion in Walk-in-Place Utilizing Deep Neural Networks for Enhanced Body Ownership and Sense of Presence in VR. In 26th ACM Symposium on Virtual Reality Software and Technology (Virtual Event, Canada) (VRST \u201920). Association for Computing Machinery, New York, NY, USA, Article 12, 10\u00a0pages. https://doi.org/10.1145/3385956.3418959",
+      "doi": "10.1145/3385956.3418959"
+    },
+    {
+      "text": "\u2731\u00a0Sangmin Lee, Seongyeop Kim, Hak\u00a0Gu Kim, Min Seob\u00a0Kim, Seokho Yun, Bumseok Jeong, and Yong\u00a0Man Ro. 2019. Physiological Fusion Net: Quantifying Individual VR Sickness with Content Stimulus and Physiological Response. In 2019 IEEE International Conference on Image Processing (ICIP), Vol.\u00a01. IEEE, New York, NY, USA, 440\u2013444. https://doi.org/10.1109/ICIP.2019.8802983",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Tae\u00a0Min Lee, Jong-Chul Yoon, and In-Kwon Lee. 2019. Motion Sickness Prediction in Stereoscopic Videos using 3D Convolutional Neural Networks. IEEE Transactions on Visualization and Computer Graphics 25, 5(2019), 1919\u20131927. https://doi.org/10.1109/TVCG.2019.2899186",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Teesid Leelasawassuk, Dima Damen, and Walterio Mayol-Cuevas. 2017. Automated Capture and Delivery of Assistive Task Guidance with an Eyewear Computer: The GlaciAR System. In Proceedings of the 8th Augmented Human International Conference (Silicon Valley, California, USA) (AH \u201917). Association for Computing Machinery, New York, NY, USA, Article 16, 9\u00a0pages. https://doi.org/10.1145/3041164.3041185",
+      "doi": "10.1145/3041164.3041185"
+    },
+    {
+      "text": "Danielle Levac, Heather Colquhoun, and Kelly\u00a0K. O\u2019Brien. 2010. Scoping studies: advancing the methodology. Implementation Science 5, 1 (Sept. 2010), 69. https://doi.org/10.1186/1748-5908-5-69",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Gang Li and Muhammad Adeel\u00a0Khan. 2019. Deep Learning on VR-Induced Attention. In 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 163\u20131633. https://doi.org/10.1109/AIVR46125.2019.00033",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Gang Li, Ogechi Onuoha, Mark McGill, Stephen Brewster, Chao\u00a0Ping Chen, and Frank Pollick. 2021. Comparing Autonomic Physiological and Electroencephalography Features for VR Sickness Detection Using Predictive Models. In 2021 IEEE Symposium Series on Computational Intelligence (SSCI), Vol.\u00a01. IEEE, New York, NY, USA, 01\u201308. https://doi.org/10.1109/SSCI50451.2021.9660126",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Jisheng Li, Yuze He, Yubin Hu, Yuxing Han, and Jiangtao Wen. 2021. Learning To Compose 6-DOF Omnidirectional Videos Using Multi-Sphere Images. In 2021 IEEE International Conference on Image Processing (ICIP), Vol.\u00a01. IEEE, New York, NY, USA, 3298\u20133302. https://doi.org/10.1109/ICIP42928.2021.9506127",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Xiangdong Li, Yifei Shan, Wenqian Chen, Yue Wu, Praben Hansen, and Simon Perrault. 2021. Predicting User Visual Attention in Virtual Reality with a Deep Learning Model. Virtual Real. 25, 4 (dec 2021), 1123\u20131136. https://doi.org/10.1007/s10055-021-00512-7",
+      "doi": "10.1007/s10055-021-00512-7"
+    },
+    {
+      "text": "\u2731\u00a0Xiang Li, Yuan Tian, Fuyao Zhang, Shuxue Quan, and Yi Xu. 2020. Object Detection in the Context of Mobile Augmented Reality. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 156\u2013163. https://doi.org/10.1109/ISMAR50242.2020.00037",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Yuwei Li, Xi Luo, Youyi Zheng, Pengfei Xu, and Hongbo Fu. 2017. SweepCanvas: Sketch-Based 3D Prototyping on an RGB-D Image. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology (Qu\u00e9bec City, QC, Canada) (UIST \u201917). Association for Computing Machinery, New York, NY, USA, 387\u2013399. https://doi.org/10.1145/3126594.3126611",
+      "doi": "10.1145/3126594.3126611"
+    },
+    {
+      "text": "\u2731 Yi-Jun Li, Miao Wang, Frank Steinicke, and Qinping Zhao. 2021. OpenRDW: A Redirected Walking Library and Benchmark with Multi-User, Learning-based Functionalities and State-of-the-art Algorithms. In 2021 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 21\u201330. https://doi.org/10.1109/ISMAR52148.2021.00016",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Zhong Li, Lele Chen, Celong Liu, Yu Gao, Yuanzhou Ha, Chenliang Xu, Shuxue Quan, and Yi Xu. 2019. 3D Human Avatar Digitization from a Single Image. In The 17th International Conference on Virtual-Reality Continuum and Its Applications in Industry (Brisbane, QLD, Australia) (VRCAI \u201919). Association for Computing Machinery, New York, NY, USA, Article 12, 8\u00a0pages. https://doi.org/10.1145/3359997.3365707",
+      "doi": "10.1145/3359997.3365707"
+    },
+    {
+      "text": "\u2731\u00a0Wei Liang, Jingjing Liu, Yining Lang, Bing Ning, and Lap-Fai Yu. 2019. Functional Workspace Optimization via Learning Personal Preferences from Virtual Experiences. IEEE Transactions on Visualization and Computer Graphics 25, 5(2019), 1836\u20131845. https://doi.org/10.1109/TVCG.2019.2898721",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Haodong Liao, Ning Xie, Huiyuan Li, Yuhang Li, Jianping Su, Feng Jiang, Weipeng Huang, and Heng\u00a0Tao Shen. 2020. Data-Driven Spatio-Temporal Analysis via Multi-Modal Zeitgebers and Cognitive Load in VR. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 473\u2013482. https://doi.org/10.1109/VR46266.2020.00068",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Jonathan Liebers, Patrick Horn, Christian Burschik, Uwe Gruenefeld, and Stefan Schneegass. 2021. Using Gaze Behavior and Head Orientation for Implicit Identification in Virtual Reality. In Proceedings of the 27th ACM Symposium on Virtual Reality Software and Technology (Osaka, Japan) (VRST \u201921). Association for Computing Machinery, New York, NY, USA, Article 22, 9\u00a0pages. https://doi.org/10.1145/3489849.3489880",
+      "doi": "10.1145/3489849.3489880"
+    },
+    {
+      "text": "\u2731 Heaun-Taek Lim, Hak\u00a0Gu Kim, and Yang\u00a0Man Ra. 2018. VR IQA NET: Deep Virtual Reality Image Quality Assessment Using Adversarial Learning. In 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Vol.\u00a01. IEEE, New York, NY, USA, 6737\u20136741. https://doi.org/10.1109/ICASSP.2018.8461317",
+      "doi": "10.1109/ICASSP.2018.8461317"
+    },
+    {
+      "text": "\u2731\u00a0Kyungmin Lim, Jaesung Lee, Kwanghyun Won, Nupur Kala, and Tammy Lee. 2021. A novel method for VR sickness reduction based on dynamic field of view processing. Virtual Reality 25, 2 (June 2021), 331\u2013340. https://doi.org/10.1007/s10055-020-00457-3",
+      "doi": "10.1007/s10055-020-00457-3"
+    },
+    {
+      "text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, Lubomir Bourdev, Ross Girshick, James Hays, Pietro Perona, Deva Ramanan, C.\u00a0Lawrence Zitnick, and Piotr Doll\u00e1r. 2014. Microsoft COCO: Common Objects in Context. https://doi.org/10.48550/ARXIV.1405.0312",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Linxen, Christian Sturm, Florian Br\u00fchlmann, Vincent Cassau, Klaus Opwis, and Katharina Reinecke. 2021. How WEIRD is CHI?. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 143, 14\u00a0pages. https://doi.org/10.1145/3411764.3445488",
+      "doi": "10.1145/3411764.3445488"
+    },
+    {
+      "text": "Gwen Littlewort, Jacob Whitehill, Tingfan Wu, Ian Fasel, Mark Frank, Javier Movellan, and Marian Bartlett. 2011. The computer expression recognition toolbox (CERT). In 2011 IEEE International Conference on Automatic Face & Gesture Recognition (FG), Vol.\u00a01. IEEE, New York, NY, USA, 298\u2013305. https://doi.org/10.1109/FG.2011.5771414",
+      "doi": ""
+    },
+    {
+      "text": "Daquan Liu, Chengjiang Long, Hongpan Zhang, Hanning Yu, Xinzhi Dong, and Chunxia Xiao. 2020. ARShadowGAN: Shadow Generative Adversarial Network for Augmented Reality in Single Light Scenes. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, New York, NY, USA, \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Chang Liu, Alexander Plopski, Kiyoshi Kiyokawa, Photchara Ratsamee, and Jason Orlosky. 2018. IntelliPupil: Pupillometric Light Modulation for Optical See-Through Head-Mounted Displays. In 2018 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 98\u2013104. https://doi.org/10.1109/ISMAR.2018.00037",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Daquan Liu, Chengjiang Long, Hongpan Zhang, Hanning Yu, Xinzhi Dong, and Chunxia Xiao. 2020. ARShadowGAN: Shadow Generative Adversarial Network for Augmented Reality in Single Light Scenes. In 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Vol.\u00a01. IEEE, New York, NY, USA, 8136\u20138145. https://doi.org/10.1109/CVPR42600.2020.00816",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Huimin Liu, Zhiquan Wang, Christos Mousas, and Dominic Kao. 2020. Virtual Reality Racket Sports: Virtual Drills for Exercise and Training. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 566\u2013576. https://doi.org/10.1109/ISMAR50242.2020.00084",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Jingjing Liu, Wei Liane, Bing Ning, and Ting Mao. 2021. Work Surface Arrangement Optimization Driven by Human Activity. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 270\u2013278. https://doi.org/10.1109/VR50410.2021.00049",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Zhihao Liu, Fanxing Zhang, and Zhanglin Cheng. 2021. BuildingSketch: Freehand Mid-Air Sketching for Building Modeling. In 2021 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 329\u2013338. https://doi.org/10.1109/ISMAR52148.2021.00049",
+      "doi": ""
+    },
+    {
+      "text": "Ziwei Liu, Ping Luo, Shi Qiu, Xiaogang Wang, and Xiaoou Tang. 2016. DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations. In Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, New York, NY, USA, \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Conny Lu, Praneeth Chakravarthula, Yujie Tao, Steven Chen, and Henry Fuchs. 2020. Improved vergence and accommodation via Purkinje Image tracking with multiple cameras for AR glasses. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 320\u2013331. https://doi.org/10.1109/ISMAR50242.2020.00058",
+      "doi": ""
+    },
+    {
+      "text": "Andr\u00e9s Lucero. 2015. Using Affinity Diagrams to Evaluate Interactive Prototypes. In Human-Computer Interaction \u2013 INTERACT 2015, Julio Abascal, Simone Barbosa, Mirko Fetter, Tom Gross, Philippe Palanque, and Marco Winckler (Eds.). Springer International Publishing, Cham, 231\u2013248.",
+      "doi": "10.1007/978-3-319-22668-2_19"
+    },
+    {
+      "text": "Patrick Lucey, Jeffrey\u00a0F. Cohn, Takeo Kanade, Jason Saragih, Zara Ambadar, and Iain Matthews. 2010. The Extended Cohn-Kanade Dataset (CK+): A complete dataset for action unit and emotion-specified expression. In 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition - Workshops, Vol.\u00a01. IEEE, New York, NY, USA, 94\u2013101. https://doi.org/10.1109/CVPRW.2010.5543262",
+      "doi": ""
+    },
+    {
+      "text": "Michael Luck and Ruth Aylett. 2000. Applying artificial intelligence to virtual reality: Intelligent virtual environments. Applied Artificial Intelligence 14, 1 (2000), 3\u201332. https://doi.org/10.1080/088395100117142",
+      "doi": ""
+    },
+    {
+      "text": "Martin\u00a0H. Luerssen and Tim Hawke. 2018. Virtual Agents as a Service: Applications in Healthcare. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (Sydney, NSW, Australia) (IVA \u201918). Association for Computing Machinery, New York, NY, USA, 107\u2013112. https://doi.org/10.1145/3267851.3267858",
+      "doi": "10.1145/3267851.3267858"
+    },
+    {
+      "text": "\u2731\u00a0Tiffany Luong, Nicolas Martin, Ana\u00efs Raison, Ferran Argelaguet, Jean-Marc Diverrez, and Anatole L\u00e9cuyer. 2020. Towards Real-Time Recognition of Users Mental Workload Using Integrated Physiological Sensors Into a VR HMD. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 425\u2013437. https://doi.org/10.1109/ISMAR50242.2020.00068",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0J. Lyons. 2021. \"Excavating AI\" Re-excavated: Debunking a Fallacious Account of the JAFFE Dataset. CoRR abs/2107.13998(2021). arXiv:2107.13998https://arxiv.org/abs/2107.13998",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Zhuoyue Lyu, Jiannan Li, and Bryan Wang. 2021. AIive: Interactive Visualization and Sonification of Neural Networks in Virtual Reality. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 251\u2013255. https://doi.org/10.1109/AIVR52153.2021.00057",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Shugao Ma, Tomas Simon, Jason Saragih, Dawei Wang, Yuecheng Li, Fernando De\u00a0la Torre, and Yaser Sheikh. 2021. Pixel Codec Avatars. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, New York, NY, USA, 64\u201373.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Ochs Magalie, Jain Sameer, and Blache Philippe. 2018. Toward an Automatic Prediction of the Sense of Presence in Virtual Reality Environment. In Proceedings of the 6th International Conference on Human-Agent Interaction (Southampton, United Kingdom) (HAI \u201918). Association for Computing Machinery, New York, NY, USA, 161\u2013166. https://doi.org/10.1145/3284432.3284452",
+      "doi": "10.1145/3284432.3284452"
+    },
+    {
+      "text": "\u2731\u00a0David Mandl, Kwang\u00a0Moo Yi, Peter Mohr, Peter\u00a0M. Roth, Pascal Fua, Vincent Lepetit, Dieter Schmalstieg, and Denis Kalkofen. 2017. Learning Lightprobes for Mixed Reality Illumination. In 2017 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 82\u201389. https://doi.org/10.1109/ISMAR.2017.25",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Nicolas Martin, Nicolas Mathieu, Nico Pallamin, Martin Ragot, and Jean-Marc Diverrez. 2020. Virtual reality sickness detection: an approach based on physiological signals and machine learning. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 387\u2013399. https://doi.org/10.1109/ISMAR50242.2020.00065",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Pablo Martinez-Gonzalez, Sergiu Oprea, Alberto Garcia-Garcia, Alvaro Jover-Alvarez, Sergio Orts-Escolano, and Jose Garcia-Rodriguez. 2020. UnrealROX: an extremely photorealistic virtual reality environment for robotics simulations and synthetic data generation. Virtual Reality 24, 2 (June 2020), 271\u2013288. https://doi.org/10.1007/s10055-019-00399-5",
+      "doi": "10.1007/s10055-019-00399-5"
+    },
+    {
+      "text": "\u2731\u00a0Katsutoshi Masai, Kai Kunze, Daisuke Sakamoto, Yuta Sugiura, and Maki Sugimoto. 2020. Face Commands - User-Defined Facial Gestures for Smart Glasses. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 374\u2013386. https://doi.org/10.1109/ISMAR50242.2020.00064",
+      "doi": ""
+    },
+    {
+      "text": "Y. Matsuda, H. Hoashi, and K. Yanai. 2012. Recognition of Multiple-Food Images by Detecting Candidate Regions. In Proc. of IEEE International Conference on Multimedia and Expo (ICME). IEEE, New York, NY, USA.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Fabrice Matulic, Aditya Ganeshan, Hiroshi Fujiwara, and Daniel Vogel. 2021. Phonetroller: Visual Representations of Fingers for Precise Touch Input with Mobile Phones in VR. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 129, 13\u00a0pages. https://doi.org/10.1145/3411764.3445583",
+      "doi": "10.1145/3411764.3445583"
+    },
+    {
+      "text": "S.\u00a0Mohammad Mavadati, Mohammad\u00a0H. Mahoor, Kevin Bartlett, Philip Trinh, and Jeffrey\u00a0F. Cohn. 2013. DISFA: A Spontaneous Facial Action Intensity Database. IEEE Transactions on Affective Computing 4, 2 (2013), 151\u2013160. https://doi.org/10.1109/T-AFFC.2013.4",
+      "doi": "10.1109/T-AFFC.2013.4"
+    },
+    {
+      "text": "\u2731\u00a0Sven Mayer, Jens Reinhardt, Robin Schweigert, Brighten Jelke, Valentin Schwind, Katrin Wolf, and Niels Henze. 2020. Improving Humans\u2019 Ability to Interpret Deictic Gestures in Virtual Reality. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376340",
+      "doi": "10.1145/3313831.3376340"
+    },
+    {
+      "text": "\u2731\u00a0Sven Mayer, Valentin Schwind, Robin Schweigert, and Niels Henze. 2018. The Effect of Offset Correction and Cursor on Mid-Air Pointing in Real and Virtual Environments. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3174227",
+      "doi": "10.1145/3173574.3174227"
+    },
+    {
+      "text": "\u2731 Eric\u00a0J. McDermott, Johanna Metsomaa, Paolo Belardinelli, Moritz Grosse-Wentrup, Ulf Ziemann, and Christoph Zrenner. 2021. Predicting motor behavior: an efficient EEG signal processing pipeline to detect brain states with potential therapeutic relevance for VR-based neurorehabilitation. Virtual Reality 1 (Sept. 2021). https://doi.org/10.1007/s10055-021-00538-x",
+      "doi": "10.1007/s10055-021-00538-x"
+    },
+    {
+      "text": "\u2731\u00a0Jess McIntosh, Hubert\u00a0Dariusz Zajac, Andreea\u00a0Nicoleta Stefan, Joanna Bergstr\u00f6m, and Kasper Hornb\u00e6k. 2020. Iteratively Adapting Avatars Using Task-Integrated Optimisation. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201920). Association for Computing Machinery, New York, NY, USA, 709\u2013721. https://doi.org/10.1145/3379337.3415832",
+      "doi": "10.1145/3379337.3415832"
+    },
+    {
+      "text": "Dushyant Mehta, Helge Rhodin, Dan Casas, Pascal Fua, Oleksandr Sotnychenko, Weipeng Xu, and Christian Theobalt. 2017. Monocular 3D Human Pose Estimation In The Wild Using Improved CNN Supervision. In 3D Vision (3DV), 2017 Fifth International Conference on. IEEE, IEEE, New York, NY, USA. https://doi.org/10.1109/3dv.2017.00064",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Nadine Meissler, Annika Wohlan, Nico Hochgeschwender, and Andreas Schreiber. 2019. Using Visualization of Convolutional Neural Networks in Virtual Reality for Machine Learning Newcomers. In 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 152\u20131526. https://doi.org/10.1109/AIVR46125.2019.00031",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Ben Meuleman and David Rudrauf. 2021. Induction and Profiling of Strong Multi-Componential Emotions in Virtual Reality. IEEE Transactions on Affective Computing 12 (2021), 189\u2013202. https://doi.org/10.1109/TAFFC.2018.2864730",
+      "doi": ""
+    },
+    {
+      "text": "Abraham\u00a0Hani Mhaidli and Florian Schaub. 2021. Identifying Manipulative Advertising Techniques in XR Through Scenario Construction. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 296, 18\u00a0pages. https://doi.org/10.1145/3411764.3445253",
+      "doi": "10.1145/3411764.3445253"
+    },
+    {
+      "text": "Paul Milgram and Fumio Kishino. 1994. A Taxonomy of Mixed Reality Visual Displays. IEICE TRANSACTIONS on Information and Systems E77-D, 12(1994), 1321\u20131329. https://search.ieice.org/bin/summary.php?id=e77-d_12_1321",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Robert Miller, Natasha\u00a0Kholgade Banerjee, and Sean Banerjee. 2021. Using Siamese Neural Networks to Perform Cross-System Behavioral Authentication in Virtual Reality. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 140\u2013149. https://doi.org/10.1109/VR50410.2021.00035",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Xin Min, Wenqiao Zhang, Shouqian Sun, Nan Zhao, Siliang Tang, and Yueting Zhuang. 2019. VPModel: High-Fidelity Product Simulation in a Virtual-Physical Environment. IEEE Transactions on Visualization and Computer Graphics 25, 11(2019), 3083\u20133093. https://doi.org/10.1109/TVCG.2019.2932276",
+      "doi": ""
+    },
+    {
+      "text": "Marvin Minsky. 1988. The Society of Mind. Simon & Schuster, -.",
+      "doi": "10.5555/22939"
+    },
+    {
+      "text": "\u2731 George\u00a0B. Mo, John\u00a0J Dudley, and Per\u00a0Ola Kristensson. 2021. Gesture Knitter: A Hand Gesture Design Tool for Head-Mounted Mixed Reality Applications. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 291, 13\u00a0pages. https://doi.org/10.1145/3411764.3445766",
+      "doi": "10.1145/3411764.3445766"
+    },
+    {
+      "text": "\u2731\u00a0Diego Monteiro, Hai-Ning Liang, Xiaohang Tang, and Pourang Irani. 2021. Using Trajectory Compression Rate to Predict Changes in Cybersickness in Virtual Reality Games. In 2021 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 138\u2013146. https://doi.org/10.1109/ISMAR52148.2021.00028",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Alec\u00a0G. Moore, Ryan\u00a0P. McMahan, Hailiang Dong, and Nicholas Ruozzi. 2020. Extracting Velocity-Based User-Tracking Features to Predict Learning Gains in a Virtual Reality Training Application. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 694\u2013703. https://doi.org/10.1109/ISMAR50242.2020.00099",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Fariba Mostajeran, Frank Steinicke, Oscar\u00a0Javier Ariza\u00a0Nunez, Dimitrios Gatsios, and Dimitrios Fotiadis. 2020. Augmented Reality for Older Adults: Exploring Acceptability of Virtual Coaches for Home-Based Balance Training in an Aging Population. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376565",
+      "doi": "10.1145/3313831.3376565"
+    },
+    {
+      "text": "\u2731\u00a0Christos Mousas. 2018. Performance-Driven Dance Motion Control of a Virtual Partner Character. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 57\u201364. https://doi.org/10.1109/VR.2018.8446498",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Moritz M\u00fchlhausen, Moritz Kappel, Marc Kassubeck, Paul\u00a0M. Bittner, Susana Castillo, and Marcus Magnor. 2020. Temporal Consistent Motion Parallax for Omnidirectional Stereo Panorama Video. In 26th ACM Symposium on Virtual Reality Software and Technology (Virtual Event, Canada) (VRST \u201920). Association for Computing Machinery, New York, NY, USA, Article 21, 9\u00a0pages. https://doi.org/10.1145/3385956.3418965",
+      "doi": "10.1145/3385956.3418965"
+    },
+    {
+      "text": "Zachary Munn, Micah D.\u00a0J. Peters, Cindy Stern, Catalin Tufanaru, Alexa McArthur, and Edoardo Aromataris. 2018. Systematic review or scoping review? Guidance for authors when choosing between a systematic or scoping review approach. BMC Medical Research Methodology 18, 1 (Nov. 2018), 143. https://doi.org/10.1186/s12874-018-0611-x",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Kizashi Nakano, Daichi Horita, Nobuchika Sakata, Kiyoshi Kiyokawa, Keiji Yanai, and Takuji Narumi. 2019. DeepTaste: Augmented Reality Gustatory Manipulation with GAN-Based Real-Time Food-to-Food Translation. In 2019 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 212\u2013223. https://doi.org/10.1109/ISMAR.2019.000-1",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Sahil Narang, Andrew Best, and Dinesh Manocha. 2018. Simulating Movement Interactions Between Avatars & Agents in Virtual Worlds Using Human Motion Constraints. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 9\u201316. https://doi.org/10.1109/VR.2018.8446152",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Sahil Narang, Andrew Best, and Dinesh Manocha. 2019. Inferring User Intent using Bayesian Theory of Mind in Shared Avatar-Agent Virtual Environments. IEEE Transactions on Visualization and Computer Graphics 25, 5(2019), 2113\u20132122. https://doi.org/10.1109/TVCG.2019.2898800",
+      "doi": ""
+    },
+    {
+      "text": "Ryota Natsume, Shunsuke Saito, Zeng Huang, Weikai Chen, Chongyang Ma, Hao Li, and Shigeo Morishima. 2019. SiCloPe: Silhouette-Based Clothed People. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, New York, NY, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Allen Newell and Herbert\u00a0A. Simon. 1976. Computer Science as Empirical Inquiry: Symbols and Search. Commun. ACM 19, 3 (mar 1976), 113\u2013126. https://doi.org/10.1145/360018.360022",
+      "doi": "10.1145/360018.360022"
+    },
+    {
+      "text": "Nahal Norouzi, Kangsoo Kim, Gerd Bruder, Austin Erickson, Zubin Choudhary, Yifan Li, and Greg Welch. 2020. A Systematic Literature Review of Embodied Augmented Reality Agents in Head-Mounted Display Environments. In ICAT-EGVE 2020 - International Conference on Artificial Reality and Telexistence and Eurographics Symposium on Virtual Environments, Ferran Argelaguet, Ryan McMahan, and Maki Sugimoto (Eds.). The Eurographics Association, -, \u2013. https://doi.org/10.2312/egve.20201264",
+      "doi": ""
+    },
+    {
+      "text": "Nahal Norouzi, Kangsoo Kim, Jason Hochreiter, Myungho Lee, Salam Daher, Gerd Bruder, and Greg Welch. 2018. A Systematic Survey of 15 Years of User Studies Published in the Intelligent Virtual Agents Conference. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (Sydney, NSW, Australia) (IVA \u201918). Association for Computing Machinery, New York, NY, USA, 17\u201322. https://doi.org/10.1145/3267851.3267901",
+      "doi": "10.1145/3267851.3267901"
+    },
+    {
+      "text": "Ariel Noyman and Kent Larson. 2020. DeepScope: HCI Platform for Generative Cityscape Visualization. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI EA \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20139. https://doi.org/10.1145/3334480.3382809",
+      "doi": "10.1145/3334480.3382809"
+    },
+    {
+      "text": "Miquel\u00a0Mascar\u00f3 Oliver and Esperan\u00e7a Amengual\u00a0Alcover. 2020. UIBVFED: Virtual facial expression dataset. PLOS ONE 15, 4 (04 2020), 1\u201310. https://doi.org/10.1371/journal.pone.0231266",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Jason Orlosky, Brandon Huynh, and Tobias Hollerer. 2019. Using Eye Tracked Virtual Reality to Classify Understanding of Vocabulary in Recall Tasks. In 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 66\u2013667. https://doi.org/10.1109/AIVR46125.2019.00019",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Nitish Padmanaban, Timon Ruban, Vincent Sitzmann, Anthony\u00a0M. Norcia, and Gordon Wetzstein. 2018. Towards a Machine-Learning Approach for Sickness Prediction in 360 Stereoscopic Videos. IEEE Transactions on Visualization and Computer Graphics 24, 4(2018), 1594\u20131603. https://doi.org/10.1109/TVCG.2018.2793560",
+      "doi": "10.1109/TVCG.2018.2793560"
+    },
+    {
+      "text": "\u2731\u00a0Wolfgang Paier, Anna Hilsmann, and Peter Eisert. 2021. Example-Based Facial Animation of Virtual Reality Avatars Using Auto-Regressive Neural Networks. IEEE Computer Graphics and Applications 41, 4 (2021), 52\u201363. https://doi.org/10.1109/MCG.2021.3068035",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Seungwon Paik, Youngseung Jeon, Patrick\u00a0C. Shih, and Kyungsik Han. 2021. I Feel More Engaged When I Move!: Deep Learning-based Backward Movement Detection and its Application. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 483\u2013492. https://doi.org/10.1109/VR50410.2021.00072",
+      "doi": ""
+    },
+    {
+      "text": "Ana Paiva, Iolanda Leite, Hana Boukricha, and Ipke Wachsmuth. 2017. Empathy in Virtual Agents and Robots: A Survey. ACM Trans. Interact. Intell. Syst. 7, 3, Article 11 (sep 2017), 40\u00a0pages. https://doi.org/10.1145/2912150",
+      "doi": "10.1145/2912150"
+    },
+    {
+      "text": "\u2731\u00a0Robin Palmberg, Christopher Peters, and Adam Qureshi. 2017. When facial expressions dominate emotion perception in groups of virtual characters. In 2017 9th International Conference on Virtual Worlds and Games for Serious Applications (VS-Games), Vol.\u00a01. IEEE, New York, NY, USA, 157\u2013160. https://doi.org/10.1109/VS-GAMES.2017.8056588",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Mathias Parger, Chengcheng Tang, Yuanlu Xu, Christopher\u00a0David Twigg, Lingling Tao, Yijing Li, Robert Wang, and Markus Steinberger. 2021. UNOC: Understanding Occlusion for Embodied Presence in Virtual Reality. IEEE Transactions on Visualization and Computer Graphics 1 (2021), 1\u20131. https://doi.org/10.1109/TVCG.2021.3085407",
+      "doi": "10.1109/TVCG.2021.3085407"
+    },
+    {
+      "text": "\u2731\u00a0Sangin Park, Laehyun Kim, Jangho Kwon, Soo\u00a0Ji Choi, and Mincheol Whang. 2022. Evaluation of visual-induced motion sickness from head-mounted display using heartbeat evoked potential: a cognitive load-focused approach. Virtual Reality 26, 3 (Sept. 2022), 979\u20131000. https://doi.org/10.1007/s10055-021-00600-8",
+      "doi": "10.1007/s10055-021-00600-8"
+    },
+    {
+      "text": "Taesung Park, Alexei\u00a0A. Efros, Richard Zhang, and Jun-Yan Zhu. 2020. Contrastive Learning for Unpaired Image-to-Image Translation. In European Conference on Computer Vision. Springer, -.",
+      "doi": ""
+    },
+    {
+      "text": "Mark Paterson. 2006. Feel the presence: technologies of touch and distance. Environment and Planning D: Society and Space 24, 5 (2006), 691\u2013708.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Tabitha\u00a0C. Peck, Jessica\u00a0J. Good, and Katharina Seitz. 2021. Evidence of Racial Bias Using Immersive Virtual Reality: Analysis of Head and Hand Motions During Shooting Decisions. IEEE Transactions on Visualization and Computer Graphics 27, 5(2021), 2502\u20132512. https://doi.org/10.1109/TVCG.2021.3067767",
+      "doi": ""
+    },
+    {
+      "text": "Micah D.\u00a0J. Peters, Christina\u00a0M. Godfrey, Hanan Khalil, Patricia McInerney, Deborah Parker, and Cassia\u00a0Baldini Soares. 2015. Guidance for conducting systematic scoping reviews. JBI Evidence Implementation 13, 3 (2015), 141\u2013146. https://doi.org/10.1097/XEB.0000000000000050",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Gustav\u00a0B\u00f8g Petersen, Aske Mottelson, and Guido Makransky. 2021. Pedagogical Agents in Educational VR: An in the Wild Study. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 482, 12\u00a0pages. https://doi.org/10.1145/3411764.3445760",
+      "doi": "10.1145/3411764.3445760"
+    },
+    {
+      "text": "\u2731\u00a0Stefano Petrangeli, Gwendal Simon, and Viswanathan Swaminathan. 2018. Trajectory-Based Viewport Prediction for 360-Degree Virtual Reality Videos. In 2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 157\u2013160. https://doi.org/10.1109/AIVR.2018.00033",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Ken Pfeuffer, Matthias\u00a0J. Geiger, Sarah Prange, Lukas Mecke, Daniel Buschek, and Florian Alt. 2019. Behavioural Biometrics in VR: Identifying People from Body Motion and Relations in Virtual Reality. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300340",
+      "doi": "10.1145/3290605.3300340"
+    },
+    {
+      "text": "\u2731 Duc-Minh Pham. 2018. Human Identification Using Neural Network-Based Classification of Periodic Behaviors in Virtual Reality. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 657\u2013658. https://doi.org/10.1109/VR.2018.8446529",
+      "doi": ""
+    },
+    {
+      "text": "Mai\u00a0T. Pham, Andrijana Raji\u0107, Judy\u00a0D. Greig, Jan\u00a0M. Sargeant, Andrew Papadopoulos, and Scott\u00a0A. McEwen. 2014. A scoping review of scoping reviews: advancing the approach and enhancing the consistency. Research Synthesis Methods 5, 4 (2014), 371\u2013385. https://doi.org/10.1002/jrsm.1123",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Pierre-Olivier Pigny and Lionel Dominjon. 2019. Using CNNs For Users Segmentation In Video See-Through Augmented Virtuality. In 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 229\u20132295. https://doi.org/10.1109/AIVR46125.2019.00048",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Thibault Porssut, Yawen Hou, Olaf Blanke, Bruno Herbelin, and Ronan Boulic. 2022. Adapting Virtual Embodiment Through Reinforcement Learning. IEEE Transactions on Visualization and Computer Graphics 28, 9(2022), 3193\u20133205. https://doi.org/10.1109/TVCG.2021.3057797",
+      "doi": ""
+    },
+    {
+      "text": "Chen Qian, Xiao Sun, Yichen Wei, Xiaoou Tang, and Jian Sun. 2014. Realtime and Robust Hand Tracking from Depth. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, New York, NY, USA.",
+      "doi": "10.1109/CVPR.2014.145"
+    },
+    {
+      "text": "\u2731\u00a0Muhammad Raees and Sehat Ullah. 2021. RUN: rational ubiquitous navigation, a model for automated navigation and searching in virtual environments. Virtual Reality 25, 2 (June 2021), 511\u2013521. https://doi.org/10.1007/s10055-020-00468-0",
+      "doi": "10.1007/s10055-020-00468-0"
+    },
+    {
+      "text": "\u2731 Pierluigi\u00a0Zama Ramirez, Claudio Paternesi, Luca\u00a0De Luigi, Luigi Lella, Daniele\u00a0De Gregorio, and Luigi\u00a0Di Stefano. 2020. Shooting Labels: 3D Semantic Labeling by Virtual Reality. In 2020 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 99\u2013106. https://doi.org/10.1109/AIVR50618.2020.00027",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Tanmay Randhavane, Aniket Bera, Kyra Kapsaskis, Kurt Gray, and Dinesh Manocha. 2019. FVA: Modeling Perceived Friendliness of Virtual Agents Using Movement Characteristics. IEEE Transactions on Visualization and Computer Graphics 25, 11(2019), 3135\u20133145. https://doi.org/10.1109/TVCG.2019.2932235",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Tanmay Randhavane, Aniket Bera, Kyra Kapsaskis, Rahul Sheth, Kurt Gray, and Dinesh Manocha. 2019. EVA: Generating Emotional Behavior of Virtual Agents Using Expressive Features of Gait and Gaze. In ACM Symposium on Applied Perception 2019(Barcelona, Spain) (SAP \u201919). Association for Computing Machinery, New York, NY, USA, Article 6, 10\u00a0pages. https://doi.org/10.1145/3343036.3343129",
+      "doi": "10.1145/3343036.3343129"
+    },
+    {
+      "text": "\u2731\u00a0Tanmay Randhavane, Aniket Bera, Emily Kubin, Kurt Gray, and Dinesh Manocha. 2021. Modeling Data-Driven Dominance Traits for Virtual Characters Using Gait Analysis. IEEE Transactions on Visualization and Computer Graphics 27, 6(2021), 2967\u20132979. https://doi.org/10.1109/TVCG.2019.2953063",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Hedieh Ranjbartabar, Deborah Richards, Ayse\u00a0Aysin Bilgin, and Cat Kutay. 2021. First Impressions Count! The Role of the Human\u2019s Emotional State on Rapport Established with an Empathic versus Neutral Virtual Therapist. IEEE Transactions on Affective Computing 12, 3 (2021), 788\u2013800. https://doi.org/10.1109/TAFFC.2019.2899305",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Joshua Ratcliff, Alexey Supikov, Santiago Alfaro, and Ronald Azuma. 2020. ThinVR: Heterogeneous microlens arrays for compact, 180 degree FOV VR near-eye displays. IEEE Transactions on Visualization and Computer Graphics 26, 5(2020), 1981\u20131990. https://doi.org/10.1109/TVCG.2020.2973064",
+      "doi": ""
+    },
+    {
+      "text": "Jack Ratcliffe, Francesco Soave, Nick Bryan-Kinns, Laurissa Tokarchuk, and Ildar Farkhatdinov. 2021. Extended Reality (XR) Remote Research: A Survey of Drawbacks and Opportunities. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 527, 13\u00a0pages. https://doi.org/10.1145/3411764.3445170",
+      "doi": "10.1145/3411764.3445170"
+    },
+    {
+      "text": "\u2731\u00a0Lisa Rebenitsch and Charles Owen. 2021. Estimating cybersickness from virtual reality applications. Virtual Reality 25, 1 (March 2021), 165\u2013174. https://doi.org/10.1007/s10055-020-00446-6",
+      "doi": "10.1007/s10055-020-00446-6"
+    },
+    {
+      "text": "\u2731\u00a0Manuel Rebol, Christian G\u00fcti, and Krzysztof Pietroszek. 2021. Passing a Non-verbal Turing Test: Evaluating Gesture Animations Generated from Speech. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 573\u2013581. https://doi.org/10.1109/VR50410.2021.00082",
+      "doi": ""
+    },
+    {
+      "text": "Dirk Reiners, Mohammad\u00a0Reza Davahli, Waldemar Karwowski, and Carolina Cruz-Neira. 2021. The Combination of Artificial Intelligence and Extended Reality: A Systematic Review. Frontiers in Virtual Reality 2 (2021). https://www.frontiersin.org/articles/10.3389/frvir.2021.721933",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Jens Reinhardt, Luca Hillen, and Katrin Wolf. 2020. Embedding Conversational Agents into AR: Invisible or with a Realistic Human Body?. In Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction (Sydney NSW, Australia) (TEI \u201920). Association for Computing Machinery, New York, NY, USA, 299\u2013310. https://doi.org/10.1145/3374920.3374956",
+      "doi": "10.1145/3374920.3374956"
+    },
+    {
+      "text": "Helge Rhodin, Christian Richardt, Dan Casas, Eldar Insafutdinov, Mohammad Shafiei, Hans-Peter Seidel, Bernt Schiele, and Christian Theobalt. 2016. EgoCap: Egocentric Marker-Less Motion Capture with Two Fisheye Cameras. ACM Trans. Graph. 35, 6, Article 162 (nov 2016), 11\u00a0pages. https://doi.org/10.1145/2980179.2980235",
+      "doi": "10.1145/2980179.2980235"
+    },
+    {
+      "text": "Taina Ribeiro\u00a0de Oliveira, Matheus Moura\u00a0da Silva, Rafael\u00a0Antonio Nepomuceno\u00a0Spinasse, Gabriel Giesen\u00a0Ludke, Mateus Ruy Soares\u00a0Gaudio, Guilherme Iglesias Rocha\u00a0Gomes, Luan Guio\u00a0Cotini, Daniel Vargens, MARCELO QUEIROZ\u00a0SCHIMIDT, Rodrigo Varejao\u00a0Andreao, and Mario Mestria. 2021. Systematic Review of Virtual Reality Solutions Employing Artificial Intelligence Methods. In Symposium on Virtual and Augmented Reality(SVR\u201921). Association for Computing Machinery, New York, NY, USA, 42\u201355. https://doi.org/10.1145/3488162.3488209",
+      "doi": "10.1145/3488162.3488209"
+    },
+    {
+      "text": "Jeff Rickel. 2001. Intelligent Virtual Agents for Education and Training: Opportunities and Challenges. In Intelligent Virtual Agents, Ang\u00e9lica de\u00a0Antonio, Ruth Aylett, and Daniel Ballin (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 15\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Andr\u00e9s Ovidio\u00a0Restrepo Rodr\u00edguez, Maddyzeth\u00a0Ariza Ria\u00f1o, Paulo Alonso\u00a0Gaona Garc\u00eda, Carlos Enrique\u00a0Montenegro Mar\u00edn, Rub\u00e9n\u00a0Gonz\u00e1lez Crespo, and Xing Wu. 2020. Emotional characterization of children through a learning environment using learning analytics and AR-Sandbox. Journal of Ambient Intelligence and Humanized Computing 11, 11 (Nov. 2020), 5353\u20135367. https://doi.org/10.1007/s12652-020-01887-2",
+      "doi": ""
+    },
+    {
+      "text": "Katja Rogers, Sukran Karaosmanoglu, Maximilian Altmeyer, Ally Suarez, and Lennart\u00a0E. Nacke. 2022. Much Realistic, Such Wow! A Systematic Literature Review of Realism in Digital Games. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 190, 21\u00a0pages. https://doi.org/10.1145/3491102.3501875",
+      "doi": "10.1145/3491102.3501875"
+    },
+    {
+      "text": "\u2731 Robert\u00a0A. Rolin, Jolande Fooken, Miriam Spering, and Dinesh\u00a0K. Pai. 2019. Perception of Looming Motion in Virtual Reality Egocentric Interception Tasks. IEEE Transactions on Visualization and Computer Graphics 25, 10(2019), 3042\u20133048. https://doi.org/10.1109/TVCG.2018.2859987",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Miguel Fabian\u00a0Romero Rondon, Dario Zanca, Stefano Melacci, Marco Gori, and Lucile Sassatelli. 2021. HeMoG: A White-Box Model to Unveil the Connection between Saliency Information and Human Head Motion in Virtual Reality. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 10\u201318. https://doi.org/10.1109/AIVR52153.2021.00012",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Miguel Fabi\u00e1n\u00a0Romero Rond\u00f3n, Lucile Sassatelli, Ram\u00f3n Aparicio-Pardo, and Fr\u00e9d\u00e9ric Precioso. 2022. TRACK: A New Method From a Re-Examination of Deep Architectures for Head Motion Prediction in 360 Videos. IEEE Transactions on Pattern Analysis and Machine Intelligence 44, 9(2022), 5681\u20135699. https://doi.org/10.1109/TPAMI.2021.3070520",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Daniel Roth, Gary Bente, Peter Kullmann, David Mal, Chris\u00a0Felix Purps, Kai Vogeley, and Marc\u00a0Erich Latoschik. 2019. Technologies for Social Augmentations in User-Embodied Virtual Reality. In 25th ACM Symposium on Virtual Reality Software and Technology (Parramatta, NSW, Australia) (VRST \u201919). Association for Computing Machinery, New York, NY, USA, Article 5, 12\u00a0pages. https://doi.org/10.1145/3359996.3364269",
+      "doi": "10.1145/3359996.3364269"
+    },
+    {
+      "text": "\u2731\u00a0Menandro Roxas, Tomoki Hori, Taiki Fukiage, Yasuhide Okamoto, and Takeshi Oishi. 2018. Occlusion Handling Using Semantic Segmentation and Visibility-Based Rendering for Mixed Reality. In Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology (Tokyo, Japan) (VRST \u201918). Association for Computing Machinery, New York, NY, USA, Article 20, 8\u00a0pages. https://doi.org/10.1145/3281505.3281546",
+      "doi": "10.1145/3281505.3281546"
+    },
+    {
+      "text": "Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander\u00a0C. Berg, and Li Fei-Fei. 2015. ImageNet Large Scale Visual Recognition Challenge. International Journal of Computer Vision (IJCV) 115, 3 (2015), 211\u2013252. https://doi.org/10.1007/s11263-015-0816-y",
+      "doi": "10.1007/s11263-015-0816-y"
+    },
+    {
+      "text": "\u2731\u00a0Pejman Sajjadi, Laura Hoffmann, Philipp Cimiano, and Stefan Kopp. 2018. On the Effect of a Personality-Driven ECA on Perceived Social Presence and Game Experience in VR. In 2018 10th International Conference on Virtual Worlds and Games for Serious Applications (VS-Games), Vol.\u00a01. IEEE, New York, NY, USA, 1\u20138. https://doi.org/10.1109/VS-Games.2018.8493436",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Lucas\u00a0H. Sallaberry, Romero Tori, and Fatima L\u00a0S Nunes. 2021. Comparison of Machine Learning Algorithms for Automatic Assessment of Performance in a Virtual Reality Dental Simulator. In Symposium on Virtual and Augmented Reality(Virtual Event, Brazil) (SVR\u201921). Association for Computing Machinery, New York, NY, USA, 14\u201323. https://doi.org/10.1145/3488162.3488207",
+      "doi": "10.1145/3488162.3488207"
+    },
+    {
+      "text": "\u2731\u00a0Wallas Santos, Isabela Chambers, Emilio Vital\u00a0Brazil, and Marcio Moreno. 2019. Structuring and Inspecting 3D Anchors for Seismic Volume into Hyperknowledge Base in Virtual Reality. In 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 271\u20132713. https://doi.org/10.1109/AIVR46125.2019.00063",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Koya Sato, Yuji Sano, Mai Otsuki, Mizuki Oka, and Kazuhiko Kato. 2019. Augmented Recreational Volleyball Court: Supporting the Beginners\u2019 Landing Position Prediction Skill by Providing Peripheral Visual Feedback. In Proceedings of the 10th Augmented Human International Conference 2019 (Reims, France) (AH2019). Association for Computing Machinery, New York, NY, USA, Article 15, 9\u00a0pages. https://doi.org/10.1145/3311823.3311843",
+      "doi": "10.1145/3311823.3311843"
+    },
+    {
+      "text": "\u2731\u00a0Batuhan Sayis, Ciera Crowell, Juan Benitez, Rafael Ramirez, and Narcis Pares. 2019. Computational Modeling of Psycho-physiological Arousal and Social Initiation of children with Autism in Interventions through Full-Body Interaction. In 2019 8th International Conference on Affective Computing and Intelligent Interaction (ACII), Vol.\u00a01. IEEE, New York, NY, USA, 573\u2013579. https://doi.org/10.1109/ACII.2019.8925474",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0David Scherfgen and Jonas Schild. 2021. Estimating the Pose of a Medical Manikin for Haptic Augmentation of a Virtual Patient in Mixed Reality Training. In Symposium on Virtual and Augmented Reality(Virtual Event, Brazil) (SVR\u201921). Association for Computing Machinery, New York, NY, USA, 33\u201341. https://doi.org/10.1145/3488162.3488166",
+      "doi": "10.1145/3488162.3488166"
+    },
+    {
+      "text": "Jonas Schjerlund, Kasper Hornb\u00e6k, and Joanna Bergstr\u00f6m. 2021. Ninja Hands: Using Many Hands to Improve Target Selection in VR. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 130, 14\u00a0pages. https://doi.org/10.1145/3411764.3445759",
+      "doi": "10.1145/3411764.3445759"
+    },
+    {
+      "text": "Jonas Schjerlund, Kasper Hornb\u00e6k, and Joanna Bergstr\u00f6m. 2022. OVRlap: Perceiving Multiple Locations Simultaneously to Improve Interaction in VR. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 355, 13\u00a0pages. https://doi.org/10.1145/3491102.3501873",
+      "doi": "10.1145/3491102.3501873"
+    },
+    {
+      "text": "\u2731\u00a0Susanne Schmidt, Oscar Javier\u00a0Ariza Nunez, and Frank Steinicke. 2019. Blended Agents: Manipulation of Physical Objects within Mixed Reality Environments and Beyond. In Symposium on Spatial User Interaction (New Orleans, LA, USA) (SUI \u201919). Association for Computing Machinery, New York, NY, USA, Article 6, 10\u00a0pages. https://doi.org/10.1145/3357251.3357591",
+      "doi": "10.1145/3357251.3357591"
+    },
+    {
+      "text": "\u2731\u00a0Anderson Schrader, Isabella Gebhart, Drew Garrison, Andrew Duchowski, Martian Lapadatescu, Weiyu Feng, Mahmoud Thabit, Fang Wang, Krzysztof Krejtz, and Daniel\u00a0D. Petty. 2021. Toward Eye-Tracked Sideline Concussion Assessment in EXtended Reality. In ACM Symposium on Eye Tracking Research and Applications (Virtual Event, Germany) (ETRA \u201921 Full Papers). Association for Computing Machinery, New York, NY, USA, Article 7, 11\u00a0pages. https://doi.org/10.1145/3448017.3457378",
+      "doi": "10.1145/3448017.3457378"
+    },
+    {
+      "text": "\u2731\u00a0Maximilian Schrapel, Thilo Schulz, and Michael Rohs. 2020. Augmenting Public Bookcases to Support Book Sharing. In 22nd International Conference on Human-Computer Interaction with Mobile Devices and Services (Oldenburg, Germany) (MobileHCI \u201920). Association for Computing Machinery, New York, NY, USA, Article 11, 11\u00a0pages. https://doi.org/10.1145/3379503.3403542",
+      "doi": "10.1145/3379503.3403542"
+    },
+    {
+      "text": "\u2731\u00a0Gabriel Schwartz, Shih-En Wei, Te-Li Wang, Stephen Lombardi, Tomas Simon, Jason Saragih, and Yaser Sheikh. 2020. The Eyes Have It: An Integrated Eye and Face Model for Photorealistic Facial Animation. ACM Trans. Graph. 39, 4, Article 91 (aug 2020), 15\u00a0pages. https://doi.org/10.1145/3386569.3392493",
+      "doi": "10.1145/3386569.3392493"
+    },
+    {
+      "text": "\u2731\u00a0Valentin Schwind, David Halbhuber, Jakob Fehle, Jonathan Sasse, Andreas Pfaffelhuber, Christoph T\u00f6gel, Julian Dietz, and Niels Henze. 2020. The Effects of Full-Body Avatar Movement Predictions in Virtual Reality Using Neural Networks. In 26th ACM Symposium on Virtual Reality Software and Technology (Virtual Event, Canada) (VRST \u201920). Association for Computing Machinery, New York, NY, USA, Article 28, 11\u00a0pages. https://doi.org/10.1145/3385956.3418941",
+      "doi": "10.1145/3385956.3418941"
+    },
+    {
+      "text": "\u2731\u00a0Valentin Schwind, Sven Mayer, Alexandre Comeau-Vermeersch, Robin Schweigert, and Niels Henze. 2018. Up to the Finger Tip: The Effect of Avatars on Mid-Air Pointing Accuracy in Virtual Reality. In Proceedings of the 2018 Annual Symposium on Computer-Human Interaction in Play (Melbourne, VIC, Australia) (CHI PLAY \u201918). Association for Computing Machinery, New York, NY, USA, 477\u2013488. https://doi.org/10.1145/3242671.3242675",
+      "doi": "10.1145/3242671.3242675"
+    },
+    {
+      "text": "\u2731\u00a0Sven Seele, Sebastian Misztal, Helmut Buhler, Rainer Herpers, and Jonas Schild. 2017. Here\u2019s Looking At You Anyway! How Important is Realistic Gaze Behavior in Co-Located Social Virtual Reality Games?. In Proceedings of the Annual Symposium on Computer-Human Interaction in Play (Amsterdam, The Netherlands) (CHI PLAY \u201917). Association for Computing Machinery, New York, NY, USA, 531\u2013540. https://doi.org/10.1145/3116595.3116619",
+      "doi": "10.1145/3116595.3116619"
+    },
+    {
+      "text": "\u2731\u00a0Nathan Semertzidis, Michaela Scary, Josh Andres, Brahmi Dwivedi, Yutika\u00a0Chandrashekhar Kulwe, Fabio Zambetta, and Florian\u00a0Floyd Mueller. 2020. Neo-Noumena: Augmenting Emotion Communication. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376599",
+      "doi": "10.1145/3313831.3376599"
+    },
+    {
+      "text": "\u2731\u00a0Xinyu Shi, Junjun Pan, Zeyong Hu, Juncong Lin, Shihui Guo, Minghong Liao, Ye Pan, and Ligang Liu. 2019. Accurate and Fast Classification of Foot Gestures for Virtual Locomotion. In 2019 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 178\u2013189. https://doi.org/10.1109/ISMAR.2019.000-6",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Jotaro Shigeyama, Takeru Hashimoto, Shigeo Yoshida, Takuji Narumi, Tomohiro Tanikawa, and Michitaka Hirose. 2019. Transcalibur: A Weight Shifting Virtual Reality Controller for 2D Shape Rendering Based on Computational Perception Model. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3290605.3300241",
+      "doi": "10.1145/3290605.3300241"
+    },
+    {
+      "text": "\u2731\u00a0Deeksha Shravani, Prajwal\u00a0Y R, Prajwal\u00a0V Atreyas, and Shobha G. 2021. VR Supermarket: a Virtual Reality Online Shopping Platform with a Dynamic Recommendation System. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 119\u2013123. https://doi.org/10.1109/AIVR52153.2021.00028",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Ilia Shumailov and Hatice Gunes. 2017. Computational analysis of valence and arousal in virtual reality gaming using lower arm electromyograms. In 2017 Seventh International Conference on Affective Computing and Intelligent Interaction (ACII), Vol.\u00a01. IEEE, New York, NY, USA, 164\u2013169. https://doi.org/10.1109/ACII.2017.8273595",
+      "doi": ""
+    },
+    {
+      "text": "Mel Slater. 2014. Grand Challenges in Virtual Environments. Frontiers in Robotics and AI 1 (2014), \u2013. https://doi.org/10.3389/frobt.2014.00003",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Agata\u00a0Marta Soccini and Federica Cena. 2021. The Ethics of Rehabilitation in Virtual Reality: the role of Self-Avatars and Deep Learning. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 324\u2013328. https://doi.org/10.1109/AIVR52153.2021.00068",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Gowri Somanath and Daniel Kurz. 2021. HDR Environment Map Estimation for Real-Time Augmented Reality. In 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Vol.\u00a01. IEEE, New York, NY, USA, 11293\u201311301. https://doi.org/10.1109/CVPR46437.2021.01114",
+      "doi": ""
+    },
+    {
+      "text": "Shuran Song, Fisher Yu, Andy Zeng, Angel\u00a0X Chang, Manolis Savva, and Thomas Funkhouser. 2017. Semantic Scene Completion from a Single Depth Image. Proceedings of 30th IEEE Conference on Computer Vision and Pattern Recognition 1(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Maximilian Speicher, Brian\u00a0D. Hall, and Michael Nebeling. 2019. What is Mixed Reality?. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3290605.3300767",
+      "doi": "10.1145/3290605.3300767"
+    },
+    {
+      "text": "\u2731\u00a0Misha Sra, Pattie Maes, Prashanth Vijayaraghavan, and Deb Roy. 2017. Auris: Creating Affective Virtual Spaces from Music. In Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology (Gothenburg, Sweden) (VRST \u201917). Association for Computing Machinery, New York, NY, USA, Article 26, 11\u00a0pages. https://doi.org/10.1145/3139131.3139139",
+      "doi": "10.1145/3139131.3139139"
+    },
+    {
+      "text": "J. Stallkamp, M. Schlipsing, J. Salmen, and C. Igel. 2012. Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition. Neural Networks 32(2012), 323\u2013332. https://doi.org/10.1016/j.neunet.2012.02.016",
+      "doi": "10.1016/j.neunet.2012.02.016"
+    },
+    {
+      "text": "\u2731 Ryan\u00a0R. Strauss, Raghuram Ramanujan, Andrew Becker, and Tabitha\u00a0C. Peck. 2020. A Steering Algorithm for Redirected Walking Using Reinforcement Learning. IEEE Transactions on Visualization and Computer Graphics 26, 5(2020), 1955\u20131963. https://doi.org/10.1109/TVCG.2020.2973060",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Lena Stubbemann, Dominik D\u00fcrrschnabel, and Robert Refflinghaus. 2021. Neural Networks for Semantic Gaze Analysis in XR Settings. In ACM Symposium on Eye Tracking Research and Applications (Virtual Event, Germany) (ETRA \u201921 Full Papers). Association for Computing Machinery, New York, NY, USA, Article 5, 11\u00a0pages. https://doi.org/10.1145/3448017.3457380",
+      "doi": "10.1145/3448017.3457380"
+    },
+    {
+      "text": "\u2731\u00a0Yongbin Sun, Alexandre Armengol-Urpi, Sai\u00a0Nithin Reddy\u00a0Kantareddy, Joshua Siegel, and Sanjay Sarma. 2019. MagicHand: Interact with IoT Devices in Augmented Reality Environment. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 1738\u20131743. https://doi.org/10.1109/VR.2019.8798053",
+      "doi": ""
+    },
+    {
+      "text": "Xiao Sun, Yichen Wei, Shuang Liang, Xiaoou Tang, and Jian Sun. 2015. Cascaded Hand Pose Regression. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, New York, NY, USA, \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "Anthea Sutton, Mark Clowes, Louise Preston, and Andrew Booth. 2019. Meeting the review family: exploring review types and associated information retrieval requirements. Health Information & Libraries Journal 36, 3 (2019), 202\u2013222. https://doi.org/10.1111/hir.12276",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Katsuhiro Suzuki, Fumihiko Nakamura, Jiu Otsuka, Katsutoshi Masai, Yuta Itoh, Yuta Sugiura, and Maki Sugimoto. 2017. Recognition and mapping of facial expressions to avatar by embedded photo reflective sensors in head mounted display. In 2017 IEEE Virtual Reality (VR), Vol.\u00a01. IEEE, New York, NY, USA, 177\u2013185. https://doi.org/10.1109/VR.2017.7892245",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Justyna Swidrak and Grzegorz Pochwatko. 2019. Being Touched by a Virtual Human.: Relationships Between Heart Rate, Gender, Social Status, and Compliance.. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (Paris, France) (IVA \u201919). Association for Computing Machinery, New York, NY, USA, 49\u201355. https://doi.org/10.1145/3308532.3329467",
+      "doi": "10.1145/3308532.3329467"
+    },
+    {
+      "text": "\u2731 S\u0142awomir\u00a0K. Tadeja, Patrick Langdon, and Per\u00a0Ola Kristensson. 2021. Supporting Iterative Virtual Reality Analytics Design and Evaluation by Systematic Generation of Surrogate Clustered Datasets. In 2021 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 376\u2013385. https://doi.org/10.1109/ISMAR52148.2021.00054",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Xiao Tang, Xiaowei Hu, Chi-Wing Fu, and Daniel Cohen-Or. 2020. GrabAR: Occlusion-Aware Grabbing Virtual Objects in AR. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201920). Association for Computing Machinery, New York, NY, USA, 697\u2013708. https://doi.org/10.1145/3379337.3415835",
+      "doi": "10.1145/3379337.3415835"
+    },
+    {
+      "text": "Xiao Tang, Xiaowei Hu, Chi-Wing Fu, and Daniel Cohen-Or. 2020. GrabAR: Occlusion-Aware Grabbing Virtual Objects in AR. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201920). Association for Computing Machinery, New York, NY, USA, 697\u2013708. https://doi.org/10.1145/3379337.3415835",
+      "doi": "10.1145/3379337.3415835"
+    },
+    {
+      "text": "\u2731\u00a0Catherine Taylor, Chris Mullany, Robin McNicholas, and Darren Cosker. 2019. VR Props: An End-to-End Pipeline for Transporting Real Objects Into Virtual and Augmented Environments. In 2019 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 83\u201392. https://doi.org/10.1109/ISMAR.2019.00-22",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Kevin\u00a0Kennard Thiel, Florian Naumann, Eduard Jundt, Stephan Guennemann, and Gudrun\u00a0J. Klinker. 2021. C.DOT - Convolutional Deep Object Tracker for Augmented Reality Based Purely on Synthetic Data. IEEE Transactions on Visualization and Computer Graphics 1 (2021), 1\u20131. https://doi.org/10.1109/TVCG.2021.3089096",
+      "doi": "10.1109/TVCG.2021.3089096"
+    },
+    {
+      "text": "\u2731\u00a0Justus Thies, Michael Zollh\u00f6fer, Marc Stamminger, Christian Theobalt, and Matthias Nie\u00dfner. 2018. FaceVR: Real-Time Gaze-Aware Facial Reenactment in Virtual Reality. ACM Trans. Graph. 37, 2, Article 25 (jun 2018), 15\u00a0pages. https://doi.org/10.1145/3182644",
+      "doi": "10.1145/3182644"
+    },
+    {
+      "text": "\u2731\u00a0Fuhui Tian, Shogo Okada, and Katsumi Nitta. 2019. Analyzing Eye Movements in Interview Communication with Virtual Reality Agents. In Proceedings of the 7th International Conference on Human-Agent Interaction (Kyoto, Japan) (HAI \u201919). Association for Computing Machinery, New York, NY, USA, 3\u201310. https://doi.org/10.1145/3349537.3351889",
+      "doi": "10.1145/3349537.3351889"
+    },
+    {
+      "text": "\u2731\u00a0Hao Tian, Changbo Wang, Dinesh Manocha, and Xinyu Zhang. 2019. Realtime Hand-Object Interaction Using Learned Grasp Space for Virtual Environments. IEEE Transactions on Visualization and Computer Graphics 25, 8(2019), 2623\u20132635. https://doi.org/10.1109/TVCG.2018.2849381",
+      "doi": ""
+    },
+    {
+      "text": "Denis Tome, Patrick Peluse, Lourdes Agapito, and Hernan Badino. 2019. xR-EgoPose: Egocentric 3D Human Pose from an HMD Camera. In Proceedings of the IEEE International Conference on Computer Vision. IEEE, New York, NY, USA, 7728\u20137738.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Denis Tome, Thiemo Alldieck, Patrick Peluse, Gerard Pons-Moll, Lourdes Agapito, Hernan Badino, and Fernando De\u00a0la Torre. 2020. SelfPose: 3D Egocentric Pose Estimation from a Headset Mounted Camera. IEEE Transactions on Pattern Analysis and Machine Intelligence 1 (2020), 1\u20131. https://doi.org/10.1109/TPAMI.2020.3029700",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Daiki Tone, Daisuke Iwai, Shinsaku Hiura, and Kosuke Sato. 2020. FibAR: Embedding Optical Fibers in 3D Printed Objects for Active Markers in Dynamic Projection Mapping. IEEE Transactions on Visualization and Computer Graphics 26, 5(2020), 2030\u20132040. https://doi.org/10.1109/TVCG.2020.2973444",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Miguel Torres-Ruiz, Felix Mata, Roberto Zagal, Giovanni Guzm\u00e1n, Rolando Quintero, and Marco Moreno-Ibarra. 2020. A recommender system to generate museum itineraries applying augmented reality and social-sensor mining techniques. Virtual Reality 24, 1 (March 2020), 175\u2013189. https://doi.org/10.1007/s10055-018-0366-z",
+      "doi": "10.1007/s10055-018-0366-z"
+    },
+    {
+      "text": "\u2731\u00a0Tomas Trescak and Anton Bogdanovych. 2017. Case-Based Planning for Large Virtual Agent Societies. In Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology (Gothenburg, Sweden) (VRST \u201917). Association for Computing Machinery, New York, NY, USA, Article 33, 10\u00a0pages. https://doi.org/10.1145/3139131.3139155",
+      "doi": "10.1145/3139131.3139155"
+    },
+    {
+      "text": "Andrea\u00a0C. Tricco, Erin Lillie, Wasifa Zarin, Kelly\u00a0K. O\u2019Brien, Heather Colquhoun, Danielle Levac, David Moher, Micah\u00a0D.J. Peters, Tanya Horsley, Laura Weeks, Susanne Hempel, Elie\u00a0A. Akl, Christine Chang, Jessie McGowan, Lesley Stewart, Lisa Hartling, Adrian Aldcroft, Michael\u00a0G. Wilson, Chantelle Garritty, Simon Lewin, Christina\u00a0M. Godfrey, Marilyn\u00a0T. Macdonald, Etienne\u00a0V. Langlois, Karla Soares-Weiser, Jo Moriarty, Tammy Clifford, \u00f6zge Tun\u00e7alp, and Sharon\u00a0E. Straus. 2018. PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation. Annals of Internal Medicine 169, 7 (Oct. 2018), 467\u2013473. https://doi.org/10.7326/M18-0850",
+      "doi": ""
+    },
+    {
+      "text": "\u2731 Okan\u00a0Tarhan Tursun, Elena Arabadzhiyska-Koleva, Marek Wernikowski, Rados\u0142aw Mantiuk, Hans-Peter Seidel, Karol Myszkowski, and Piotr Didyk. 2019. Luminance-Contrast-Aware Foveated Rendering. ACM Trans. Graph. 38, 4, Article 98 (jul 2019), 14\u00a0pages. https://doi.org/10.1145/3306346.3322985",
+      "doi": "10.1145/3306346.3322985"
+    },
+    {
+      "text": "\u2731\u00a0Junya Ueda and Katsunori Okajima. 2019. AR Food Changer using Deep Learning And Cross-Modal Effects. In 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 110\u20131107. https://doi.org/10.1109/AIVR46125.2019.00025",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Narumol Vannaprathip, Peter Haddawy, Holger Schultheis, and Siriwan Suebnukarn. 2022. Intelligent Tutoring for Surgical Decision Making: a Planning-Based Approach. International Journal of Artificial Intelligence in Education 32, 2 (June 2022), 350\u2013381. https://doi.org/10.1007/s40593-021-00261-3",
+      "doi": ""
+    },
+    {
+      "text": "Gul Varol, Duygu Ceylan, Bryan Russell, Jimei Yang, Ersin Yumer, Ivan Laptev, and Cordelia Schmid. 2018. BodyNet: Volumetric Inference of 3D Human Body Shapes. In Proceedings of the European Conference on Computer Vision (ECCV). Springer, -, \u2013.",
+      "doi": "10.1007/978-3-030-01234-2_2"
+    },
+    {
+      "text": "\u2731\u00a0Valentin Vasiliu and G\u00e1bor S\u00f6r\u00f6s. 2019. Coherent Rendering of Virtual Smile Previews with Fast Neural Style Transfer. In 2019 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 66\u201373. https://doi.org/10.1109/ISMAR.2019.00-25",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Harshita Ved and Caglar Yildirim. 2021. Detecting Mental Workload in Virtual Reality Using EEG Spectral Data: A Deep Learning Approach. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 173\u2013178. https://doi.org/10.1109/AIVR52153.2021.00039",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Rohith Venkatakrishnan, Roshan Venkatakrishnan, Reza\u00a0Ghaiumy Anaraky, Matias Volonte, Bart Knijnenburg, and Sabarish\u00a0V Babu. 2020. A Structural Equation Modeling Approach to Understand the Relationship between Control, Cybersickness and Presence in Virtual Reality. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 682\u2013691. https://doi.org/10.1109/VR46266.2020.00091",
+      "doi": ""
+    },
+    {
+      "text": "Keith Vertanen and Per\u00a0Ola Kristensson. 2011. A Versatile Dataset for Text Entry Evaluations Based on Genuine Mobile Emails. In Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services (Stockholm, Sweden) (MobileHCI \u201911). Association for Computing Machinery, New York, NY, USA, 295\u2013298. https://doi.org/10.1145/2037373.2037418",
+      "doi": "10.1145/2037373.2037418"
+    },
+    {
+      "text": "\u2731\u00a0Johanna Vielhaben, H\u00fcseyin Camalan, Wojciech Samek, and Markus Wenzel. 2019. Viewport Forecasting in 360\u00b0 Virtual Reality Videos with Machine Learning. 2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR) 1(2019), 74\u2013747.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Adam Viola, Sahil Sharma, Pankaj Bishnoi, Matheus Gadelha, Stefano Petrangeli, Haoliang Wang, and Viswanathan Swaminathan. 2021. Trace Match & Merge: Long-Term Field-Of-View Prediction for AR Applications. In 2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 1\u20139. https://doi.org/10.1109/AIVR52153.2021.00011",
+      "doi": ""
+    },
+    {
+      "text": "Ekaterina Volkova, Stephan de\u00a0la Rosa, Heinrich\u00a0H. B\u00fclthoff, and Betty Mohler. 2014. The MPI Emotional Body Expressions Database for Narrative Scenarios. PLOS ONE 9, 12 (Dec. 2014), 1\u201328. https://doi.org/10.1371/journal.pone.0113647",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Matias Volonte, Yu-Chun Hsu, Kuan-Yu Liu, Joe\u00a0P. Mazer, Sai-Keung Wong, and Sabarish\u00a0V. Babu. 2020. Effects of Interacting with a Crowd of Emotional Virtual Humans on Users\u2019 Affective and Non-Verbal Behaviors. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 293\u2013302. https://doi.org/10.1109/VR46266.2020.00049",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Haoshuo Wang, Colm O\u2019Fearghail, Emin Zerman, Karsten Braungart, Aljosa Smolic, and Sebastian Knorr. 2021. Visual Attention Analysis and User Guidance in Cinematic VR Film. In 2021 International Conference on 3D Immersion (IC3D), Vol.\u00a01. IEEE, New York, NY, USA, 1\u20138. https://doi.org/10.1109/IC3D53758.2021.9687294",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Isaac Wang, Jesse Smith, and Jaime Ruiz. 2019. Exploring Virtual Agents for Augmented Reality. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300511",
+      "doi": "10.1145/3290605.3300511"
+    },
+    {
+      "text": "\u2731 Ker-Jiun Wang, Quanbo Liu, Yifan Zhao, Caroline\u00a0Yan Zheng, Soumya Vhasure, Quanfeng Liu, Prakash Thakur, Mingui Sun, and Zhi-Hong Mao. 2018. Intelligent Wearable Virtual Reality (VR) Gaming Controller for People with Motor Disabilities. In 2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 161\u2013164. https://doi.org/10.1109/AIVR.2018.00034",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Tianyi Wang, Xun Qian, Fengming He, Xiyun Hu, Yuanzhi Cao, and Karthik Ramani. 2021. GesturAR: An Authoring System for Creating Freehand Interactive Augmented Reality Applications. In The 34th Annual ACM Symposium on User Interface Software and Technology(Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 552\u2013567. https://doi.org/10.1145/3472749.3474769",
+      "doi": "10.1145/3472749.3474769"
+    },
+    {
+      "text": "\u2731\u00a0Yuyang Wang, Jean-R\u00e9my Chardonnet, and Fr\u00e9d\u00e9ric Merienne. 2019. VR Sickness Prediction for Navigation in Immersive Virtual Environments using a Deep Long Short Term Memory Model. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 1874\u20131881. https://doi.org/10.1109/VR.2019.8798213",
+      "doi": ""
+    },
+    {
+      "text": "Na Wang, Haoliang Wang, Stefano Petrangeli, Viswanathan Swaminathan, Fei Li, and Songqing Chen. 2020. Towards Field-of-View Prediction for Augmented Reality Applications on Mobile Devices. In Proceedings of the 12th ACM International Workshop on Immersive Mixed and Virtual Environment Systems (Istanbul, Turkey) (MMVE \u201920). Association for Computing Machinery, New York, NY, USA, 13\u201318. https://doi.org/10.1145/3386293.3397114",
+      "doi": "10.1145/3386293.3397114"
+    },
+    {
+      "text": "Pei Wang. 2019. On Defining Artificial Intelligence. Journal of Artificial General Intelligence 10, 2 (2019), 1\u201337. https://doi.org/10.2478/jagi-2019-0002",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Philip Weber, Kevin Krings, Julia Nie\u00dfner, Sabrina Brodesser, and Thomas Ludwig. 2021. FoodChattAR: Exploring the Design Space of Edible Virtual Agents for Human-Food Interaction. In Designing Interactive Systems Conference 2021(Virtual Event, USA) (DIS \u201921). Association for Computing Machinery, New York, NY, USA, 638\u2013650. https://doi.org/10.1145/3461778.3461998",
+      "doi": "10.1145/3461778.3461998"
+    },
+    {
+      "text": "\u2731 Shih-En Wei, Jason Saragih, Tomas Simon, Adam\u00a0W. Harley, Stephen Lombardi, Michal Perdoch, Alexander Hypes, Dawei Wang, Hernan Badino, and Yaser Sheikh. 2019. VR Facial Animation via Multiview Image Translation. ACM Trans. Graph. 38, 4, Article 67 (jul 2019), 16\u00a0pages. https://doi.org/10.1145/3306346.3323030",
+      "doi": "10.1145/3306346.3323030"
+    },
+    {
+      "text": "\u2731\u00a0Wei Wei, Edmond S.\u00a0L. Ho, Kevin\u00a0D. McCay, Robertas Dama\u0161evi\u010dius, Rytis Maskeli\u016bnas, and Anna Esposito. 2022. Assessing Facial Symmetry and Attractiveness using Augmented Reality. Pattern Analysis and Applications 25, 3 (Aug. 2022), 635\u2013651. https://doi.org/10.1007/s10044-021-00975-z",
+      "doi": "10.1007/s10044-021-00975-z"
+    },
+    {
+      "text": "Shih-En Wei, Varun Ramakrishna, Takeo Kanade, and Yaser Sheikh. 2016. Convolutional pose machines. In CVPR. IEEE, address, \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Yueting Weng, Chun Yu, Yingtian Shi, Yuhang Zhao, Yukang Yan, and Yuanchun Shi. 2021. FaceSight: Enabling Hand-to-Face Gesture Interaction on AR Glasses with a Downward-Facing Camera Vision. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 10, 14\u00a0pages. https://doi.org/10.1145/3411764.3445484",
+      "doi": "10.1145/3411764.3445484"
+    },
+    {
+      "text": "\u2731\u00a0Poorni Wickramarathne, Minoli De\u00a0Silva, Chathurangi Weerasinghe, Heshani Nanayakkara, Pradeep Abeygunawardhana, and Suranjini Silva. 2019. TrendiTex: An Intelligent Fashion Designer. In 2019 International Seminar on Research of Information Technology and Intelligent Systems (ISRITI), Vol.\u00a01. IEEE, New York, NY, USA, 505\u2013510. https://doi.org/10.1109/ISRITI48646.2019.9034631",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Carolin Wienrich, Richard Gross, Felix Kretschmer, and Gisela M\u00fcller-Plath. 2018. Developing and Proving a Framework for Reaction Time Experiments in VR to Objectively Measure Social Interaction with Virtual Agents. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 191\u2013198. https://doi.org/10.1109/VR.2018.8446352",
+      "doi": ""
+    },
+    {
+      "text": "Alexander Winkler-Schwartz, Vincent Bissonnette, Nykan Mirchi, Nirros Ponnudurai, Recai Yilmaz, Nicole Ledwos, Samaneh Siyar, Hamed Azarnoush, Bekir Karlik, and Rolando F.\u00a0Del Maestro. 2019. Artificial Intelligence in Medical Education: Best Practices Using Machine Learning to Assess Surgical Expertise in Virtual Reality Simulation. Journal of Surgical Education 76, 6 (2019), 1681\u20131690. https://doi.org/10.1016/j.jsurg.2019.05.015",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Torsten W\u00f6rtwein and Stefan Scherer. 2017. What really matters \u2014 An information gain analysis of questions and reactions in automated PTSD screenings. In 2017 Seventh International Conference on Affective Computing and Intelligent Interaction (ACII), Vol.\u00a01. IEEE, New York, NY, USA, 15\u201320. https://doi.org/10.1109/ACII.2017.8273573",
+      "doi": ""
+    },
+    {
+      "text": "Chenglei Wu, Zhihao Tan, Zhi Wang, and Shiqiang Yang. 2017. A Dataset for Exploring User Behaviors in VR Spherical Video Streaming. In Proceedings of the 8th ACM on Multimedia Systems Conference (Taipei, Taiwan) (MMSys\u201917). Association for Computing Machinery, New York, NY, USA, 193\u2013198. https://doi.org/10.1145/3083187.3083210",
+      "doi": "10.1145/3083187.3083210"
+    },
+    {
+      "text": "\u2731\u00a0Nannan Wu, Qianwen Chao, Yanzhen Chen, Weiwei Xu, Chen Liu, Dinesh Manocha, Wenxin Sun, Yi Han, Xinran Yao, and Xiaogang Jin. 2021. AgentDress: Realtime Clothing Synthesis for Virtual Agents using Plausible Deformations. IEEE Transactions on Visualization and Computer Graphics 27, 11(2021), 4107\u20134118. https://doi.org/10.1109/TVCG.2021.3106429",
+      "doi": "10.1109/TVCG.2021.3106429"
+    },
+    {
+      "text": "\u2731\u00a0Pei Wu, Wenxin Ding, Zhixiang You, and Ping An. 2019. Virtual Reality Video Quality Assessment Based on 3d Convolutional Neural Networks. In 2019 IEEE International Conference on Image Processing (ICIP), Vol.\u00a01. IEEE, New York, NY, USA, 3187\u20133191. https://doi.org/10.1109/ICIP.2019.8803023",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Lei Xiao, Anton Kaplanyan, Alexander Fix, Matthew Chapman, and Douglas Lanman. 2018. DeepFocus: Learned Image Synthesis for Computational Displays. ACM Trans. Graph. 37, 6, Article 200 (dec 2018), 13\u00a0pages. https://doi.org/10.1145/3272127.3275032",
+      "doi": "10.1145/3272127.3275032"
+    },
+    {
+      "text": "\u2731\u00a0Biao Xie, Yongqi Zhang, Haikun Huang, Elisa Ogawa, Tongjian You, and Lap-Fai Yu. 2018. Exercise Intensity-Driven Level Design. IEEE Transactions on Visualization and Computer Graphics 24, 4(2018), 1661\u20131670. https://doi.org/10.1109/TVCG.2018.2793618",
+      "doi": "10.1109/TVCG.2018.2793618"
+    },
+    {
+      "text": "\u2731\u00a0Jun Xing, Koki Nagano, Weikai Chen, Haotian Xu, Li-yi Wei, Yajie Zhao, Jingwan Lu, Byungmoon Kim, and Hao Li. 2019. HairBrush for Immersive Data-Driven Hair Modeling. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 263\u2013279. https://doi.org/10.1145/3332165.3347876",
+      "doi": "10.1145/3332165.3347876"
+    },
+    {
+      "text": "\u2731\u00a0Di Xu, Zhen Li, and Qi Cao. 2021. Object-based illumination transferring and rendering for applications of mixed reality. The Visual Computer 1 (Oct. 2021), \u2013. https://doi.org/10.1007/s00371-021-02292-2",
+      "doi": "10.1007/s00371-021-02292-2"
+    },
+    {
+      "text": "\u2731\u00a0Xuhai Xu, Jiahao Li, Tianyi Yuan, Liang He, Xin Liu, Yukang Yan, Yuntao Wang, Yuanchun Shi, Jennifer Mankoff, and Anind\u00a0K Dey. 2021. HulaMove: Using Commodity IMU for Waist Interaction. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 503, 16\u00a0pages. https://doi.org/10.1145/3411764.3445182",
+      "doi": "10.1145/3411764.3445182"
+    },
+    {
+      "text": "\u2731\u00a0Yanyu Xu, Yanbing Dong, Junru Wu, Zhengzhong Sun, Zhiru Shi, Jingyi Yu, and Shenghua Gao. 2018. Gaze Prediction in Dynamic 360\u00b0 Immersive Videos. In 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition, Vol.\u00a01. IEEE, New York, NY, USA, 5333\u20135342. https://doi.org/10.1109/CVPR.2018.00559",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Megha Yadav, Md\u00a0Nazmus Sakib, Kexin Feng, Theodora Chaspari, and Amir Behzadan. 2019. Virtual reality interfaces and population-specific models to mitigate public speaking anxiety. In 2019 8th International Conference on Affective Computing and Intelligent Interaction (ACII), Vol.\u00a01. IEEE, New York, NY, USA, 1\u20137. https://doi.org/10.1109/ACII.2019.8925509",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Koki Yamashita, Takashi Kikuchi, Katsutoshi Masai, Maki Sugimoto, Bruce\u00a0H. Thomas, and Yuta Sugiura. 2017. CheekInput: Turning Your Cheek into an Input Surface by Embedded Optical Sensors on a Head-Mounted Display. In Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology (Gothenburg, Sweden) (VRST \u201917). Association for Computing Machinery, New York, NY, USA, Article 19, 8\u00a0pages. https://doi.org/10.1145/3139131.3139146",
+      "doi": "10.1145/3139131.3139146"
+    },
+    {
+      "text": "\u2731\u00a0Jacky Yang, Michael Chan, Alvaro Uribe-Quevedo, Bill Kapralos, Norman Jaimes, and Adam Dubrowski. 2020. Prototyping Virtual Reality Interactions in Medical Simulation Employing Speech Recognition. In 2020 22nd Symposium on Virtual and Augmented Reality (SVR), Vol.\u00a01. IEEE, New York, NY, USA, 351\u2013355. https://doi.org/10.1109/SVR51698.2020.00059",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Hui Ye, Kin\u00a0Chung Kwan, Wanchao Su, and Hongbo Fu. 2020. ARAnimator: In-Situ Character Animation in Mobile AR with User-Defined Motion Gestures. ACM Trans. Graph. 39, 4, Article 83 (jul 2020), 12\u00a0pages. https://doi.org/10.1145/3386569.3392404",
+      "doi": "10.1145/3386569.3392404"
+    },
+    {
+      "text": "\u2731 Zi-Ming Ye, Jun-Long Chen, Miao Wang, and Yong-Liang Yang. 2021. PAVAL: Position-Aware Virtual Agent Locomotion for Assisted Virtual Reality Navigation. In 2021 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 239\u2013247. https://doi.org/10.1109/ISMAR52148.2021.00039",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Yan Yixian, Kazuki Takashima, Anthony Tang, Takayuki Tanno, Kazuyuki Fujita, and Yoshifumi Kitamura. 2020. ZoomWalls: Dynamic Walls That Simulate Haptic Infrastructure for Room-Scale VR World. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201920). Association for Computing Machinery, New York, NY, USA, 223\u2013235. https://doi.org/10.1145/3379337.3415859",
+      "doi": "10.1145/3379337.3415859"
+    },
+    {
+      "text": "\u2731\u00a0Hwanmoo Yong, Jisuk Lee, and Jongeun Choi. 2019. Emotion Recognition in Gamers Wearing Head-mounted Display. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 1251\u20131252. https://doi.org/10.1109/VR.2019.8797736",
+      "doi": ""
+    },
+    {
+      "text": "Boram Yoon, Hyung-il Kim, Gun\u00a0A. Lee, Mark Billinghurst, and Woontack Woo. 2019. The Effect of Avatar Appearance on Social Presence in an Augmented Reality Remote Collaboration. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Vol.\u00a01. IEEE, New York, NY, USA, 547\u2013556. https://doi.org/10.1109/VR.2019.8797719",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Leonard Yoon, Dongseok Yang, Jaehyun Kim, ChoongHo Chung, and Sung-Hee Lee. 2022. Placement Retargeting of Virtual Avatars to Dissimilar Indoor Environments. IEEE Transactions on Visualization and Computer Graphics 28, 3(2022), 1619\u20131633. https://doi.org/10.1109/TVCG.2020.3018458",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Emilie Yu, Rahul Arora, Tibor Stanko, J.\u00a0Andreas B\u00e6rentzen, Karan Singh, and Adrien Bousseau. 2021. CASSIE: Curve and Surface Sketching in Immersive Environments. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 190, 14\u00a0pages. https://doi.org/10.1145/3411764.3445158",
+      "doi": "10.1145/3411764.3445158"
+    },
+    {
+      "text": "Shanxin Yuan, Qi Ye, Bjorn Stenger, Siddhant Jain, and Tae-Kyun Kim. 2017. BigHand2.2M Benchmark: Hand Pose Dataset and State of the Art Analysis. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, New York, NY, USA, \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Hong Zeng, Xingxi He, and Honghu Pan. 2021. Implementation of escape room system based on augmented reality involving deep convolutional neural network. Virtual Reality 25, 3 (Sept. 2021), 585\u2013596. https://doi.org/10.1007/s10055-020-00476-0",
+      "doi": "10.1007/s10055-020-00476-0"
+    },
+    {
+      "text": "\u2731\u00a0Xue Zhang, Gene Cheung, Patrick Le\u00a0Callet, and Jack Z.\u00a0G. Tan. 2020. Sparse Directed Graph Learning for Head Movement Prediction in 360 Video Streaming. In ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Vol.\u00a01. IEEE, New York, NY, USA, 2678\u20132682. https://doi.org/10.1109/ICASSP40776.2020.9053598",
+      "doi": ""
+    },
+    {
+      "text": "Enhao Zhang and Nikola Banovic. 2021. Method for Exploring Generative Adversarial Networks (GANs) via Automatically Generated Image Galleries. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 76, 15\u00a0pages. https://doi.org/10.1145/3411764.3445714",
+      "doi": "10.1145/3411764.3445714"
+    },
+    {
+      "text": "Yinda Zhang, Shuran Song, Ping Tan, and Jianxiong Xiao. 2014. PanoContext: A Whole-Room 3D Context Model for Panoramic Scene Understanding. In Computer Vision \u2013 ECCV 2014, David Fleet, Tomas Pajdla, Bernt Schiele, and Tinne Tuytelaars (Eds.). Springer International Publishing, Cham, 668\u2013686.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Junhong Zhao, Andrew Chalmers, and Taehyun Rhee. 2021. Adaptive Light Estimation using Dynamic Filtering for Diverse Lighting Conditions. IEEE Transactions on Visualization and Computer Graphics 27, 11(2021), 4097\u20134106. https://doi.org/10.1109/TVCG.2021.3106497",
+      "doi": "10.1109/TVCG.2021.3106497"
+    },
+    {
+      "text": "\u2731\u00a0Lizhi Zhao, Xuequan Lu, Min Zhao, and Meili Wang. 2021. Classifying In-Place Gestures with End-to-End Point Cloud Learning. In 2021 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 229\u2013238. https://doi.org/10.1109/ISMAR52148.2021.00038",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Lili Zhao, Meng Zhang, Wenyi Wang, Rumin Zhang, Liaoyuan Zeng, and Jianwen Chen. 2018. High Efficient VR Video Coding Based on Auto Projection Selection Using Transferable Features. In 2018 IEEE Visual Communications and Image Processing (VCIP), Vol.\u00a01. IEEE, New York, NY, USA, 1\u20134. https://doi.org/10.1109/VCIP.2018.8698628",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Shang Zhao, Xiao Xiao, Qiyue Wang, Xiaoke Zhang, Wei Li, Lamia Soghier, and James Hahn. 2020. An Intelligent Augmented Reality Training Framework for Neonatal Endotracheal Intubation. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Vol.\u00a01. IEEE, New York, NY, USA, 672\u2013681. https://doi.org/10.1109/ISMAR50242.2020.00097",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Zhenjie Zhao and Xiaojuan Ma. 2018. A Compensation Method of Two-Stage Image Generation for Human-AI Collaborated In-Situ Fashion Design in Augmented Reality Environment. In 2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Vol.\u00a01. IEEE, New York, NY, USA, 76\u201383. https://doi.org/10.1109/AIVR.2018.00018",
+      "doi": ""
+    },
+    {
+      "text": "Hengshuang Zhao, Xiaojuan Qi, Xiaoyong Shen, Jianping Shi, and Jiaya Jia. 2017. ICNet for Real-Time Semantic Segmentation on High-Resolution Images. CoRR abs/1704.08545(2017), \u2013. arXiv:1704.08545http://arxiv.org/abs/1704.08545",
+      "doi": ""
+    },
+    {
+      "text": "Bolei Zhou, Agata Lapedriza, Aditya Khosla, Aude Oliva, and Antonio Torralba. 2017. Places: A 10 million Image Database for Scene Recognition. IEEE Transactions on Pattern Analysis and Machine Intelligence 1 (2017), \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Bing Zhou and Sinem G\u00fcven. 2020. Fine-Grained Visual Recognition in Mobile Augmented Reality for Technical Support. IEEE Transactions on Visualization and Computer Graphics 26, 12(2020), 3514\u20133523. https://doi.org/10.1109/TVCG.2020.3023635",
+      "doi": ""
+    },
+    {
+      "text": "Jun-Yan Zhu, Taesung Park, Phillip Isola, and Alexei\u00a0A Efros. 2017. Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networkss. In Computer Vision (ICCV), 2017 IEEE International Conference on. IEEE, New York, NY, USA, \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "\u2731\u00a0Katja Zibrek, Elena Kokkinara, and Rachel McDonnell. 2017. Don\u2019t Stand so Close to Me: Investigating the Effect of Control on the Appeal of Virtual Humans Using Immersion and a Proximity-Based Behavioral Task. In Proceedings of the ACM Symposium on Applied Perception (Cottbus, Germany) (SAP \u201917). Association for Computing Machinery, New York, NY, USA, Article 3, 11\u00a0pages. https://doi.org/10.1145/3119881.3119887",
+      "doi": "10.1145/3119881.3119887"
+    },
+    {
+      "text": "Katja Zibrek, Elena Kokkinara, and Rachel Mcdonnell. 2018. The Effect of Realistic Appearance of Virtual Characters in Immersive Environments - Does the Character\u2019s Personality Play a Role?IEEE Transactions on Visualization and Computer Graphics 24, 4(2018), 1681\u20131690. https://doi.org/10.1109/TVCG.2018.2794638",
+      "doi": "10.1109/TVCG.2018.2794638"
+    },
+    {
+      "text": "Katja Zibrek, Sean Martin, and Rachel McDonnell. 2019. Is Photorealism Important for Perception of Expressive Virtual Humans in Virtual Reality?ACM Trans. Appl. Percept. 16, 3, Article 14 (sep 2019), 19\u00a0pages. https://doi.org/10.1145/3349609",
+      "doi": "10.1145/3349609"
+    },
+    {
+      "text": "\u2731\u00a0Sahba Zojaji, Christopher Peters, and Catherine Pelachaud. 2020. Influence of Virtual Agent Politeness Behaviors on How Users Join Small Conversational Groups. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (Virtual Event, Scotland, UK) (IVA \u201920). Association for Computing Machinery, New York, NY, USA, Article 59, 8\u00a0pages. https://doi.org/10.1145/3383652.3423917",
+      "doi": "10.1145/3383652.3423917"
+    },
+    {
+      "text": "\u2731\u00a0Yiming Zuo, Weichao Qiu, Lingxi Xie, Fangwei Zhong, Yizhou Wang, and Alan\u00a0L. Yuille. 2019. CRAVES: Controlling Robotic Arm With a Vision-Based Economic System. In 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Vol.\u00a01. IEEE, New York, NY, USA, 4209\u20134218. https://doi.org/10.1109/CVPR.2019.00434",
+      "doi": ""
+    }
+  ]
+}

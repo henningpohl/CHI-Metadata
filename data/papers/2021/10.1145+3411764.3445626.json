@@ -1,0 +1,237 @@
+{
+  "doi": "10.1145/3411764.3445626",
+  "title": "TapNet: The Design, Training, Implementation, and Applications of a Multi-Task Learning CNN for Off-Screen Mobile Input",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-11",
+  "year": 2021,
+  "badges": [],
+  "abstract": "To make off-screen interaction without specialized hardware practical, we investigate using deep learning methods to process the common built-in IMU sensor (accelerometers and gyroscopes) on mobile phones into a useful set of one-handed interaction events. We present the design, training, implementation and applications of TapNet, a multi-task network that detects tapping on the smartphone. With phone form factor as auxiliary information, TapNet can jointly learn from data across devices and simultaneously recognize multiple tap properties, including tap direction and tap location. We developed two datasets consisting of over 135K training samples, 38K testing samples, and 32 participants in total. Experimental evaluation demonstrated the effectiveness of the TapNet design and its significant improvement over the state of the art. Along with the datasets, codebase1, and extensive experiments, TapNet establishes a new technical foundation for off-screen mobile input.",
+  "authors": [
+    {
+      "name": "Michael Xuelin Huang",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659527621",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yang Li",
+      "institution": "Google Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81350580013",
+      "orcid": "0000-0001-7808-5524"
+    },
+    {
+      "name": "Nazneen Nazneen",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81496686963",
+      "orcid": "missing"
+    },
+    {
+      "name": "Alexander Chao",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702607",
+      "orcid": "missing"
+    },
+    {
+      "name": "Shumin Zhai",
+      "institution": "Google, United States",
+      "img": "/do/10.1145/contrib-81408591988/rel-imgonly/81408591988.jpg",
+      "acmid": "81408591988",
+      "orcid": "0000-0003-0752-2090"
+    }
+  ],
+  "references": [
+    {
+      "text": "Mart\u00edn Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Geoffrey Irving, Michael Isard, 2016. Tensorflow: A system for large-scale machine learning. In 12th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 16). USENIX Association, USA, 265\u2013283.",
+      "doi": ""
+    },
+    {
+      "text": "Sara Amini, Vahid Noroozi, Sara Bahaadini, S\u00a0Yu Philip, and Chris Kanich. 2018. DeepFP: A Deep Learning Framework For User Fingerprinting via Mobile Motion Sensors. In 2018 IEEE International Conference on Big Data (Big Data). IEEE, USA, 84\u201391.",
+      "doi": ""
+    },
+    {
+      "text": "Rich Caruana. 1997. Multitask learning. Machine learning 28, 1 (1997), 41\u201375.",
+      "doi": ""
+    },
+    {
+      "text": "Ke-Yu Chen, Shwetak\u00a0N Patel, and Sean Keller. 2016. Finexus: Tracking precise motions of multiple fingertips using magnetic sensing. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, USA, 1504\u20131514.",
+      "doi": "10.1145/2858036.2858125"
+    },
+    {
+      "text": "Christian Corsten, Bjoern Daehlmann, Simon Voelker, and Jan Borchers. 2017. BackXPress: Using back-of-device finger pressure to augment touchscreen input on smartphones. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, USA, 4654\u20134666.",
+      "doi": "10.1145/3025453.3025565"
+    },
+    {
+      "text": "Alexander De\u00a0Luca, Emanuel Von\u00a0Zezschwitz, Ngo Dieu\u00a0Huong Nguyen, Max-Emanuel Maurer, Elisa Rubegni, Marcello\u00a0Paolo Scipioni, and Marc Langheinrich. 2013. Back-of-device authentication on smartphones. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, USA, 2389\u20132398.",
+      "doi": "10.1145/2470654.2481330"
+    },
+    {
+      "text": "David Dobbelstein, Christian Winkler, Gabriel Haas, and Enrico Rukzio. 2017. PocketThumb: a Wearable Dual-Sided Touch Interface for Cursor-based Control of Smart-Eyewear. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 2 (2017), 9.",
+      "doi": "10.1145/3090055"
+    },
+    {
+      "text": "Emilio Granell and Luis\u00a0A Leiva. 2016. Less is more: Efficient back-of-device tap input detection using built-in smartphone sensors. In Proceedings of the 2016 ACM International Conference on Interactive Surfaces and Spaces. ACM, USA, 5\u201311.",
+      "doi": "10.1145/2992154.2992166"
+    },
+    {
+      "text": "Chris Harrison, Julia Schwarz, and Scott\u00a0E Hudson. 2011. TapSense: enhancing finger interaction on touch surfaces. In Proceedings of the 24th annual ACM symposium on User interface software and technology. ACM, USA, 627\u2013636.",
+      "doi": "10.1145/2047196.2047279"
+    },
+    {
+      "text": "David Holman, Andreas Hollatz, Amartya Banerjee, and Roel Vertegaal. 2013. Unifone: designing for auxiliary finger input in one-handed mobile interactions. In Proceedings of the 7th International Conference on Tangible, Embedded and Embodied Interaction. ACM, USA, 177\u2013184.",
+      "doi": "10.1145/2460625.2460653"
+    },
+    {
+      "text": "Steven Hoober. 2013. How do users really hold mobile devices. Uxmatters (http://www.uxmatter.com). Published: Feburary 18 (2013), 2327\u20134662.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0Xuelin Huang, Jiajia Li, Grace Ngai, and Hong\u00a0Va Leong. 2018. Quick Bootstrapping of a Personalized Gaze Model from Real-Use Interactions. ACM Transactions on Intelligent Systems and Technology (TIST) 9, 4(2018), 43.",
+      "doi": ""
+    },
+    {
+      "text": "Lukasz Kaiser, Aidan\u00a0N Gomez, Noam Shazeer, Ashish Vaswani, Niki Parmar, Llion Jones, and Jakob Uszkoreit. 2017. One Model To Learn Them All. arXiv preprint arXiv:1706.05137 0, 0 (2017), 1\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Huy\u00a0Viet Le, Patrick Bader, Thomas Kosch, and Niels Henze. 2016. Investigating Screen Shifting Techniques to Improve One-Handed Smartphone Usage. In Proceedings of the 9th Nordic Conference on Human-Computer Interaction. ACM, USA, 27.",
+      "doi": "10.1145/2971485.2971562"
+    },
+    {
+      "text": "Huy\u00a0Viet Le, Sven Mayer, Patrick Bader, and Niels Henze. 2018. Fingers\u2019 Range and Comfortable Area for One-Handed Smartphone Interaction Beyond the Touchscreen. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, USA, 31.",
+      "doi": "10.1145/3173574.3173605"
+    },
+    {
+      "text": "Huy\u00a0Viet Le, Sven Mayer, and Niels Henze. 2018. InfiniTouch: Finger-aware interaction on fully touch sensitive smartphones. In The 31st Annual ACM Symposium on User Interface Software and Technology. ACM, USA, 779\u2013792.",
+      "doi": "10.1145/3242587.3242605"
+    },
+    {
+      "text": "Yi Liang, Zhipeng Cai, Jiguo Yu, Qilong Han, and Yingshu Li. 2018. Deep learning based inference of private information using embedded sensors in smart devices. IEEE Network 32, 4 (2018), 8\u201314.",
+      "doi": "10.1109/MNET.2018.1700349"
+    },
+    {
+      "text": "Binbing Liao, Jingqing Zhang, Chao Wu, Douglas McIlwraith, Tong Chen, Shengwen Yang, Yike Guo, and Fei Wu. 2018. Deep sequence learning with auxiliary information for traffic prediction. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. ACM, USA, 537\u2013546.",
+      "doi": "10.1145/3219819.3219895"
+    },
+    {
+      "text": "Zhen Ling, Junzhou Luo, Yaowen Liu, Ming Yang, Kui Wu, and Xinwen Fu. 2018. SecTap: Secure Back of Device Input System for Mobile Devices. In IEEE INFOCOM 2018-IEEE Conference on Computer Communications. IEEE, USA, 1520\u20131528.",
+      "doi": ""
+    },
+    {
+      "text": "William McGrath and Yang Li. 2014. Detecting tapping motion on the side of mobile devices by probabilistically combining hand postures. In Proceedings of the 27th annual ACM symposium on User interface software and technology. ACM, USA, 215\u2013219.",
+      "doi": "10.1145/2642918.2647363"
+    },
+    {
+      "text": "Maryam Mehrnezhad, Ehsan Toreini, Siamak\u00a0F Shahandashti, and Feng Hao. 2018. Stealing PINs via mobile sensors: actual risk versus user perception. International Journal of Information Security 17, 3 (2018), 291\u2013313.",
+      "doi": "10.1007/s10207-017-0369-x"
+    },
+    {
+      "text": "Hyeonseob Nam and Bohyung Han. 2016. Learning multi-domain convolutional neural networks for visual tracking. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. IEEE, USA, 4293\u20134302.",
+      "doi": ""
+    },
+    {
+      "text": "Philip Quinn, Seungyon\u00a0Claire Lee, Melissa Barnhart, and Shumin Zhai. 2019. Active Edge: Designing Squeeze Gestures for the Google Pixel 2. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, USA, 274.",
+      "doi": "10.1145/3290605.3300504"
+    },
+    {
+      "text": "Gabriel Reyes, Jason Wu, Nikita Juneja, Maxim Goldshtein, W\u00a0Keith Edwards, Gregory\u00a0D Abowd, and Thad Starner. 2018. SynchroWatch: One-handed synchronous smartwatch gestures using correlation and magnetic sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 4 (2018), 158.",
+      "doi": "10.1145/3161162"
+    },
+    {
+      "text": "Robin\u00a0Tibor Schirrmeister, Jost\u00a0Tobias Springenberg, Lukas Dominique\u00a0Josef Fiederer, Martin Glasstetter, Katharina Eggensperger, Michael Tangermann, Frank Hutter, Wolfram Burgard, and Tonio Ball. 2017. Deep learning with convolutional neural networks for EEG decoding and visualization. Human brain mapping 38, 11 (2017), 5391\u20135420.",
+      "doi": ""
+    },
+    {
+      "text": "Karsten Seipp and Kate Devlin. 2014. BackPat: one-handed off-screen patting gestures. In Proceedings of the 16th international conference on Human-computer interaction with mobile devices & services. ACM, USA, 77\u201380.",
+      "doi": "10.1145/2628363.2628396"
+    },
+    {
+      "text": "Marcos Serrano, Eric Lecolinet, and Yves Guiard. 2013. Bezel-Tap gestures: quick activation of commands from sleep mode on tablets. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, USA, 3027\u20133036.",
+      "doi": "10.1145/2470654.2481421"
+    },
+    {
+      "text": "Todd\u00a0A Stephenson, Mathew\u00a0Magimai Doss, and Herv\u00e9 Bourlard. 2004. Speech recognition with auxiliary information. IEEE transactions on speech and audio processing 12, 3(2004), 189\u2013203.",
+      "doi": ""
+    },
+    {
+      "text": "Ke Sun, Ting Zhao, Wei Wang, and Lei Xie. 2018. Vskin: Sensing touch gestures on surfaces of mobile devices using acoustic signals. In Proceedings of the 24th Annual International Conference on Mobile Computing and Networking. ACM, USA, 591\u2013605.",
+      "doi": "10.1145/3241539.3241568"
+    },
+    {
+      "text": "Apple Support. 2019. Use Siri on all your Apple devices. https://support.apple.com/en-us/HT204389.",
+      "doi": ""
+    },
+    {
+      "text": "TensorFlow. 2020. TensorFlow Lite for Microcontrollers. https://www.tensorflow.org/lite/microcontrollers.",
+      "doi": ""
+    },
+    {
+      "text": "Yu-Chih Tung and Kang\u00a0G Shin. 2016. Expansion of human-phone interface by sensing structure-borne sound propagation. In Proceedings of the 14th Annual International Conference on Mobile Systems, Applications, and Services. ACM, USA, 277\u2013289.",
+      "doi": "10.1145/2906388.2906394"
+    },
+    {
+      "text": "Pui\u00a0Chung Wong, Hongbo Fu, and Kening Zhu. 2016. Back-Mirror: back-of-device one-handed interaction on smartphones. In SIGGRAPH ASIA 2016 Mobile Graphics and Interactive Applications. ACM, USA, 10.",
+      "doi": "10.1145/2999508.2999512"
+    },
+    {
+      "text": "xdadevelopers. 2020. Tap, Tap brings iOS 14/Android 11\u2019s Back Tap gesture to any Android device. https://www.xda-developers.com/tap-tap-brings-ios-14-android-11-back-tap-gesture-any-android-device/.",
+      "doi": ""
+    },
+    {
+      "text": "Hui Xu, Yangfan Zhou, and Michael\u00a0R Lyu. 2014. Towards continuous and passive authentication via touch biometrics: An experimental study on smartphones. In 10th Symposium On Usable Privacy and Security ({SOUPS} 2014). ACM, USA, 187\u2013198.",
+      "doi": ""
+    },
+    {
+      "text": "Jianbo Yang, Minh\u00a0Nhut Nguyen, Phyo\u00a0Phyo San, Xiao\u00a0Li Li, and Shonali Krishnaswamy. 2015. Deep convolutional neural networks on multichannel time series for human activity recognition. In Twenty-Fourth International Joint Conference on Artificial Intelligence. AAAI press, USA, 3995\u20134001.",
+      "doi": ""
+    },
+    {
+      "text": "Hui-Shyong Yeo, Juyoung Lee, Andrea Bianchi, and Aaron Quigley. 2016. Sidetap & slingshot gestures on unmodified smartwatches. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology. ACM, USA, 189\u2013190.",
+      "doi": "10.1145/2984751.2984763"
+    },
+    {
+      "text": "Chun Yu, Xiaoying Wei, Shubh Vachher, Yue Qin, Chen Liang, Yueting Weng, Yizheng Gu, and Yuanchun Shi. 2019. HandSee: Enabling Full Hand Interaction on Smartphone with Front Camera-based Stereo Vision. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, USA, 705.",
+      "doi": "10.1145/3290605.3300935"
+    },
+    {
+      "text": "Cheng Zhang, Anhong Guo, Dingtian Zhang, Yang Li, Caleb Southern, Rosa\u00a0I Arriaga, and Gregory\u00a0D Abowd. 2016. Beyond the touchscreen: an exploration of extending interactions on commodity smartphones. ACM Transactions on Interactive Intelligent Systems (TiiS) 6, 2(2016), 16.",
+      "doi": ""
+    },
+    {
+      "text": "Cheng Zhang, Aman Parnami, Caleb Southern, Edison Thomaz, Gabriel Reyes, Rosa Arriaga, and Gregory\u00a0D Abowd. 2013. BackTap: robust four-point tapping on the back of an off-the-shelf smartphone. In Proceedings of the adjunct publication of the 26th annual ACM symposium on User interface software and technology. ACM, USA, 111\u2013112.",
+      "doi": "10.1145/2508468.2514735"
+    },
+    {
+      "text": "Cheng Zhang, Junrui Yang, Caleb Southern, Thad\u00a0E Starner, and Gregory\u00a0D Abowd. 2016. WatchOut: extending interactions on a smartwatch with inertial sensing. In Proceedings of the 2016 ACM International Symposium on Wearable Computers. ACM, USA, 136\u2013143.",
+      "doi": "10.1145/2971763.2971775"
+    },
+    {
+      "text": "Qilin Zhang, Gang Hua, Wei Liu, Zicheng Liu, and Zhengyou Zhang. 2014. Can visual recognition benefit from auxiliary information in training?. In Asian Conference on Computer Vision. Springer, USA, 65\u201380.",
+      "doi": ""
+    },
+    {
+      "text": "Xucong Zhang, Michael\u00a0Xuelin Huang, Yusuke Sugano, and Andreas Bulling. 2018. Training person-specific gaze estimators from user interactions with multiple devices. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, USA, 624.",
+      "doi": "10.1145/3173574.3174198"
+    },
+    {
+      "text": "Xucong Zhang, Yusuke Sugano, Mario Fritz, and Andreas Bulling. 2017. Mpiigaze: Real-world dataset and deep appearance-based gaze estimation. IEEE Transactions on Pattern Analysis and Machine Intelligence 41, 1(2017), 162\u2013175.",
+      "doi": "10.1109/TPAMI.2017.2778103"
+    },
+    {
+      "text": "Yang Zhang, Gierad Laput, and Chris Harrison. 2017. Electrick: Low-cost touch sensing using electric field tomography. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, USA, 1\u201314.",
+      "doi": "10.1145/3025453.3025842"
+    },
+    {
+      "text": "Nan Zheng, Kun Bai, Hai Huang, and Haining Wang. 2014. You are how you touch: User verification on smartphones via tapping behaviors. In 2014 IEEE 22nd International Conference on Network Protocols. IEEE, USA, 221\u2013232.",
+      "doi": "10.1109/ICNP.2014.43"
+    },
+    {
+      "text": "Junhan Zhou, Yang Zhang, Gierad Laput, and Chris Harrison. 2016. AuraSense: enabling expressive around-smartwatch interactions with electric field sensing. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology. ACM, USA, 81\u201386.",
+      "doi": "10.1145/2984511.2984568"
+    }
+  ]
+}

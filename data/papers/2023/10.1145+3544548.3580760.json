@@ -1,0 +1,628 @@
+{
+  "doi": "10.1145/3544548.3580760",
+  "title": "AutoVis: Enabling Mixed-Immersive Analysis of Automotive User Interface Interaction Studies",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-23",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Automotive user interface (AUI) evaluation becomes increasingly complex due to novel interaction modalities, driving automation, heterogeneous data, and dynamic environmental contexts. Immersive analytics may enable efficient explorations of the resulting multilayered interplay between humans, vehicles, and the environment. However, no such tool exists for the automotive domain. With AutoVis, we address this gap by combining a non-immersive desktop with a virtual reality view enabling mixed-immersive analysis of AUIs. We identify design requirements based on an analysis of AUI research and domain expert interviews (N=5). AutoVis supports analyzing passenger behavior, physiology, spatial interaction, and events in a replicated study environment using avatars, trajectories, and heatmaps. We apply context portals and driving-path events as automotive-specific visualizations. To validate AutoVis against real-world analysis tasks, we implemented a prototype, conducted heuristic walkthroughs using authentic data from a case study and public datasets, and leveraged a real vehicle in the analysis process.",
+  "authors": [
+    {
+      "name": "Pascal Jansen",
+      "institution": "Institute of Media Informatics, Ulm University, Germany",
+      "img": "/do/10.1145/contrib-99659527360/rel-imgonly/uu-jansen_-_copy_-_copy.png",
+      "acmid": "99659527360",
+      "orcid": "0000-0002-9335-5462"
+    },
+    {
+      "name": "Julian Britten",
+      "institution": "Ulm University, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660569297",
+      "orcid": "0000-0002-2646-2727"
+    },
+    {
+      "name": "Alexander H\u00e4usele",
+      "institution": "Institute of Media Informatics, Ulm University, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782848",
+      "orcid": "0000-0001-7005-1485"
+    },
+    {
+      "name": "Thilo Segschneider",
+      "institution": "Institute of Media Informatics, Ulm University, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660233779",
+      "orcid": "0000-0002-9511-9252"
+    },
+    {
+      "name": "Mark Colley",
+      "institution": "Institute of Media Informatics, Ulm University, Germany",
+      "img": "/do/10.1145/contrib-99659260328/rel-imgonly/img_6166.jpg",
+      "acmid": "99659260328",
+      "orcid": "0000-0001-5207-5029"
+    },
+    {
+      "name": "Enrico Rukzio",
+      "institution": "University of Ulm, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100239955",
+      "orcid": "0000-0002-4213-2226"
+    }
+  ],
+  "references": [
+    {
+      "text": "Abdul\u00a0Rafey Aftab. 2019. Multimodal Driver Interaction with Gesture, Gaze and Speech. In 2019 International Conference on Multimodal Interaction(ICMI \u201919). Association for Computing Machinery, New York, NY, USA, 487\u2013492. https://doi.org/10.1145/3340555.3356093",
+      "doi": "10.1145/3340555.3356093"
+    },
+    {
+      "text": "Bashar\u00a0I. Ahmad, Simon\u00a0J. Godsill, Patrick\u00a0M. Langdon, and Lee Skrypchuk. 2018. Predictive Touch: A Novel HMI Technology for Intelligent Displays in Automotive. In You Have a Point There Object Selection Inside an(AutomotiveUI \u201918). Association for Computing Machinery, New York, NY, USA, 259\u2013260. https://doi.org/10.1145/3239092.3267103",
+      "doi": "10.1145/3239092.3267103"
+    },
+    {
+      "text": "Wolfgang Aigner, Silvia Miksch, Wolfgang M\u00fcller, Heidrun Schumann, and Christian Tominski. 2008. Visual Methods for Analyzing Time-Oriented Data. IEEE Transactions on Visualization and Computer Graphics 14, 1(2008), 47\u201360. https://doi.org/10.1109/TVCG.2007.70415",
+      "doi": "10.1109/TVCG.2007.70415"
+    },
+    {
+      "text": "akshaybahadur21. 2022. Drowsiness Detection OpenCV. Drowsiness_Detection. https://github.com/akshaybahadur21/Drowsiness_Detection(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Yaman Albadawi, Maen Takruri, and Mohammed Awad. 2022. A Review of Recent Developments in Driver Drowsiness Detection Systems. Sensors 22, 5 (2022), 41. https://doi.org/10.3390/s22052069",
+      "doi": ""
+    },
+    {
+      "text": "Jackie Ayoub, Feng Zhou, Shan Bao, and X.\u00a0Jessie Yang. 2019. From Manual Driving to Automated Driving: A Review of 10 Years of AutoUI. In Proceedings of the 11th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Utrecht, Netherlands) (AutomotiveUI \u201919). Association for Computing Machinery, New York, NY, USA, 70\u201390. https://doi.org/10.1145/3342197.3344529",
+      "doi": "10.1145/3342197.3344529"
+    },
+    {
+      "text": "P. Bazilinskyy, S.M. Petermeijer, V. Petrovych, D. Dodou, and J.C.F. de Winter. 2018. Take-over requests in highly automated driving: A crowdsourcing survey on auditory, vibrotactile, and visual displays. Transportation Research Part F: Traffic Psychology and Behaviour 56 (2018), 82\u201398. https://doi.org/10.1016/j.trf.2018.04.001",
+      "doi": ""
+    },
+    {
+      "text": "Simone Benedetto, Marco Pedrotti, Luca Minin, Thierry Baccino, Alessandra Re, and Roberto Montanari. 2011. Driver workload and eye blink duration. Transportation Research Part F: Traffic Psychology and Behaviour 14, 3(2011), 199\u2013208. https://doi.org/10.1016/j.trf.2010.12.001",
+      "doi": ""
+    },
+    {
+      "text": "David Bethge, Thomas Kosch, Tobias Grosse-Puppendahl, Lewis\u00a0L. Chuang, Mohamed Kari, Alexander Jagaciak, and Albrecht Schmidt. 2021. VEmotion: Using Driving Context for Indirect Emotion Prediction in Real-Time. In The 34th Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 638\u2013651. https://doi.org/10.1145/3472749.3474775",
+      "doi": "10.1145/3472749.3474775"
+    },
+    {
+      "text": "Mark Billinghurst, Maxime Cordeil, Anastasia Bezerianos, and Todd Margolis. 2018. Collaborative immersive analytics. In Immersive Analytics. Springer, Cham, 221\u2013257.",
+      "doi": ""
+    },
+    {
+      "text": "Blickshift. 2022. Blickshift Analytics. Blickshift GmbH. https://www.blickshift.com/products-services/blickshift-analytics/solutions-sciences-usability/(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Michael Bostock, Vadim Ogievetsky, and Jeffrey Heer. 2011. D\u00b3 Data-Driven Documents. IEEE Transactions on Visualization and Computer Graphics 17, 12(2011), 2301\u20132309. https://doi.org/10.1109/TVCG.2011.185",
+      "doi": "10.1109/TVCG.2011.185"
+    },
+    {
+      "text": "Nora Broy, Florian Alt, Stefan Schneegass, and Bastian Pfleging. 2014. 3D Displays in Cars: Exploring the User Performance for a Stereoscopic Instrument Cluster. In Proceedings of the 6th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Seattle, WA, USA) (AutomotiveUI \u201914). Association for Computing Machinery, New York, NY, USA, 1\u20139. https://doi.org/10.1145/2667317.2667319",
+      "doi": "10.1145/2667317.2667319"
+    },
+    {
+      "text": "Frederik Brudy, Suppachai Suwanwatcharachat, Wenyu Zhang, Steven Houben, and Nicolai Marquardt. 2018. EagleView: A Video Analysis Tool for Visualising and Querying Spatial Interactions of People and Devices. In Proceedings of the 2018 ACM International Conference on Interactive Surfaces and Spaces (Tokyo, Japan) (ISS \u201918). Association for Computing Machinery, New York, NY, USA, 61\u201372. https://doi.org/10.1145/3279778.3279795",
+      "doi": "10.1145/3279778.3279795"
+    },
+    {
+      "text": "Bernhard Br\u00fcning, Christian Schnier, Karola Pitsch, and Sven Wachsmuth. 2012. Integrating PAMOCAT in the Research Cycle: Linking Motion Capturing and Conversation Analysis. In Proceedings of the 14th ACM International Conference on Multimodal Interaction (Santa Monica, California, USA) (ICMI \u201912). Association for Computing Machinery, New York, NY, USA, 201\u2013208. https://doi.org/10.1145/2388676.2388716",
+      "doi": "10.1145/2388676.2388716"
+    },
+    {
+      "text": "Wolfgang B\u00fcschel, Anke Lehmann, and Raimund Dachselt. 2021. MIRIA: A Mixed Reality Toolkit for the In-Situ Visualization and Analysis of Spatio-Temporal Interaction Data. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 470, 15\u00a0pages. https://doi.org/10.1145/3411764.3445651",
+      "doi": "10.1145/3411764.3445651"
+    },
+    {
+      "text": "Wolfgang B\u00fcschel, Patrick Reipschl\u00e4ger, Ricardo Langner, and Raimund Dachselt. 2017. Investigating the Use of Spatial Interaction for 3D Data Visualization on Mobile Devices. In Proceedings of the 2017 ACM International Conference on Interactive Surfaces and Spaces (Brighton, United Kingdom) (ISS \u201917). Association for Computing Machinery, New York, NY, USA, 62\u201371. https://doi.org/10.1145/3132272.3134125",
+      "doi": "10.1145/3132272.3134125"
+    },
+    {
+      "text": "Peter W.\u00a0S. Butcher, Nigel\u00a0W. John, and Panagiotis\u00a0D. Ritsos. 2021. VRIA: A Web-Based Framework for Creating Immersive Analytics Experiences. IEEE Transactions on Visualization and Computer Graphics 27, 7 (jul 2021), 3213\u20133225. https://doi.org/10.1109/TVCG.2020.2965109",
+      "doi": "10.1109/TVCG.2020.2965109"
+    },
+    {
+      "text": "Cesium. 2022. Cesium for Unity. Cesium GS, Inc. https://cesium.com/platform/cesium-for-unity/(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Jackie\u00a0C. Chang, Annie Lien, Brian Lathrop, and Holger Hees. 2009. Usability Evaluation of a Volkswagen Group In-Vehicle Speech System. In Proceedings of the 1st International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Essen, Germany) (AutomotiveUI \u201909). Association for Computing Machinery, New York, NY, USA, 137\u2013144. https://doi.org/10.1145/1620509.1620535",
+      "doi": "10.1145/1620509.1620535"
+    },
+    {
+      "text": "Lei Chen, Hai-Ning Liang, Feiyu Lu, Jialin Wang, Wenjun Chen, and Yong Yue. 2021. Effect of Collaboration Mode and Position Arrangement on Immersive Analytics Tasks in Virtual Reality: A Pilot Study. Applied Sciences 11, 21 (2021), 10473.",
+      "doi": ""
+    },
+    {
+      "text": "Luca Chittaro, Roberto Ranon, and Lucio Ieronutti. 2006. VU-Flow: A Visualization Tool for Analyzing Navigation in Virtual Environments. IEEE Transactions on Visualization and Computer Graphics 12, 6 (nov 2006), 1475\u20131485. https://doi.org/10.1109/TVCG.2006.109",
+      "doi": "10.1109/TVCG.2006.109"
+    },
+    {
+      "text": "CityGen. 2022. CityGen3D. CityGen Technologies Ltd. https://www.citygen3d.com/(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "CodeChefVIT. 2022. An API to detect stress real-time using facial recognition. Stress Detector. https://github.com/CodeChefVIT/Stress-Detector(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Mark Colley, Elvedin Bajrovic, and Enrico Rukzio. 2022. Effects of Pedestrian Behavior, Time Pressure, and Repeated Exposure on Crossing Decisions in Front of Automated Vehicles Equipped with External Communication. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 367, 11\u00a0pages. https://doi.org/10.1145/3491102.3517571",
+      "doi": "10.1145/3491102.3517571"
+    },
+    {
+      "text": "Mark Colley, Jan\u00a0Henry Belz, and Enrico Rukzio. 2021. Investigating the Effects of Feedback Communication of Autonomous Vehicles. In 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications. ACM, Leeds United Kingdom, 263\u2013273. https://doi.org/10.1145/3409118.3475133",
+      "doi": "10.1145/3409118.3475133"
+    },
+    {
+      "text": "Mark Colley, Christian Br\u00e4uner, Mirjam Lanzer, Marcel Walch, Martin Baumann, and Enrico Rukzio. 2020. Effect of Visualization of Pedestrian Intention Recognition on Trust and Cognitive Load. In 12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Virtual Event, DC, USA) (AutomotiveUI \u201920). Association for Computing Machinery, New York, NY, USA, 181\u2013191. https://doi.org/10.1145/3409120.3410648",
+      "doi": "10.1145/3409120.3410648"
+    },
+    {
+      "text": "Mark Colley, Benjamin Eder, Jan\u00a0Ole Rixen, and Enrico Rukzio. 2021. Effects of Semantic Segmentation Visualization on Trust, Situation Awareness, and Cognitive Load in Highly Automated Vehicles. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 155, 11\u00a0pages. https://doi.org/10.1145/3411764.3445351",
+      "doi": "10.1145/3411764.3445351"
+    },
+    {
+      "text": "Mark Colley, Tim Fabian, and Enrico Rukzio. 2022. Investigating the Effects of External Communication and Automation Behavior on Manual Drivers at Intersections. Proc. ACM Hum.-Comput. Interact. 6, MHCI, Article 176 (sep 2022), 16\u00a0pages. https://doi.org/10.1145/3546711",
+      "doi": "10.1145/3546711"
+    },
+    {
+      "text": "Mark Colley, Pascal Jansen, Enrico Rukzio, and Jan Gugenheimer. 2022. SwiVR-Car-Seat: Exploring Vehicle Motion Effects on Interaction Quality in Virtual Reality Automated Driving Using a Motorized Swivel Seat. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 5, 4, Article 150 (dec 2022), 26\u00a0pages. https://doi.org/10.1145/3494968",
+      "doi": "10.1145/3494968"
+    },
+    {
+      "text": "Mark Colley, Surong Li, and Enrico Rukzio. 2021. Increasing Pedestrian Safety Using External Communication of Autonomous Vehicles for Signalling Hazards. In Proceedings of the 23rd International Conference on Mobile Human-Computer Interaction. ACM, Toulouse & Virtual France, 1\u201310. https://doi.org/10.1145/3447526.3472024",
+      "doi": "10.1145/3447526.3472024"
+    },
+    {
+      "text": "Mark Colley, Max R\u00e4dler, Jonas Glimmann, and Enrico Rukzio. 2022. Effects of Scene Detection, Scene Prediction, and Maneuver Planning Visualizations on Trust, Situation Awareness, and Cognitive Load in Highly Automated Vehicles. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 6, 2, Article 49 (jul 2022), 21\u00a0pages. https://doi.org/10.1145/3534609",
+      "doi": "10.1145/3534609"
+    },
+    {
+      "text": "Mark Colley, Marcel Walch, Jan Gugenheimer, Ali Askari, and Enrico Rukzio. 2020. Towards Inclusive External Communication of Autonomous Vehicles for Pedestrians with Vision Impairments. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu HI USA, 1\u201314. https://doi.org/10.1145/3313831.3376472",
+      "doi": "10.1145/3313831.3376472"
+    },
+    {
+      "text": "Mark Colley, Bastian Wankm\u00fcller, Tim Mend, Thomas V\u00e4th, Enrico Rukzio, and Jan Gugenheimer. 2022. User gesticulation inside an automated vehicle with external communication can cause confusion in pedestrians and a lower willingness to cross. Transportation Research Part F: Traffic Psychology and Behaviour 87 (May 2022), 120\u2013137. https://doi.org/10.1016/j.trf.2022.03.011",
+      "doi": ""
+    },
+    {
+      "text": "Koen De\u00a0Clercq, Andre Dietrich, Juan\u00a0Pablo N\u00fa\u00f1ez\u00a0Velasco, Joost De\u00a0Winter, and Riender Happee. 2019. External human-machine interfaces on automated vehicles: effects on pedestrian crossing decisions. Human factors 61, 8 (2019), 1353\u20131370.",
+      "doi": ""
+    },
+    {
+      "text": "Philip DeCamp, George Shaw, Rony Kubat, and Deb Roy. 2010. An Immersive System for Browsing and Visualizing Surveillance Video. In Proceedings of the 18th ACM International Conference on Multimedia (Firenze, Italy) (MM \u201910). Association for Computing Machinery, New York, NY, USA, 371\u2013380. https://doi.org/10.1145/1873951.1874002",
+      "doi": "10.1145/1873951.1874002"
+    },
+    {
+      "text": "Henrik Detjen, Sarah Faltaous, Bastian Pfleging, Stefan Geisler, and Stefan Schneegass. 2021. How to Increase Automated Vehicles\u2019 Acceptance through In-Vehicle Interaction Design: A Review. International Journal of Human\u2013Computer Interaction 37, 4 (Feb. 2021), 308\u2013330. https://doi.org/10.1080/10447318.2020.1860517 Publisher: Taylor & Francis _eprint: https://doi.org/10.1080/10447318.2020.1860517.",
+      "doi": ""
+    },
+    {
+      "text": "Henrik Detjen, Stefan Geisler, and Stefan Schneegass. 2021. Driving as Side Task: Exploring Intuitive Input Modalities for Multitasking in Automated Vehicles. In A Simulation Study Examining Smartphone Destinatio. Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3411763.3451803",
+      "doi": "10.1145/3411763.3451803"
+    },
+    {
+      "text": "Henrik Detjen, Bastian Pfleging, and Stefan Schneegass. 2020. A Wizard of Oz Field Study to Understand Non-Driving-Related Activities, Trust, and Acceptance of Automated Vehicles. In 12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Virtual Event, DC, USA) (AutomotiveUI \u201920). Association for Computing Machinery, New York, NY, USA, 19\u201329. https://doi.org/10.1145/3409120.3410662",
+      "doi": "10.1145/3409120.3410662"
+    },
+    {
+      "text": "Andre Dettmann, Franziska Hartwich, Patrick Ro\u00dfner, Matthias Beggiato, Konstantin Felbel, Josef Krems, and Angelika\u00a0C. Bullinger. 2021. Comfort or Not? Automated Driving Style and User Characteristics Causing Human Discomfort in Automated Driving. International Journal of Human\u2013Computer Interaction 37, 4(2021), 331\u2013339. https://doi.org/10.1080/10447318.2020.1860518 arXiv:https://doi.org/10.1080/10447318.2020.1860518",
+      "doi": ""
+    },
+    {
+      "text": "Debargha Dey, Marieke Martens, Chao Wang, Felix Ros, and Jacques Terken. 2018. Interface Concepts for Intent Communication from Autonomous Vehicles to Vulnerable Road Users. In Adjunct Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Toronto, ON, Canada) (AutomotiveUI \u201918). Association for Computing Machinery, New York, NY, USA, 82\u201386. https://doi.org/10.1145/3239092.3265946",
+      "doi": "10.1145/3239092.3265946"
+    },
+    {
+      "text": "Debargha Dey and Jacques Terken. 2017. Pedestrian Interaction with Vehicles: Roles of Explicit and Implicit Communication. In Proceedings of the 9th International Conference on Automotive User Interfaces and Interactive Vehicular Applications(Oldenburg, Germany) (AutomotiveUI \u201917). Association for Computing Machinery, New York, NY, USA, 109\u2013113. https://doi.org/10.1145/3122986.3123009",
+      "doi": "10.1145/3122986.3123009"
+    },
+    {
+      "text": "Nicole Dillen, Marko Ilievski, Edith Law, Lennart\u00a0E. Nacke, Krzysztof Czarnecki, and Oliver Schneider. 2020. Keep Calm and Ride Along: Passenger Comfort and Anxiety as Physiological Responses to Autonomous Driving Styles. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376247",
+      "doi": "10.1145/3313831.3376247"
+    },
+    {
+      "text": "Dmitrijs Dmitrenko, Emanuela Maggioni, Giada Brianza, Brittany\u00a0E. Holthausen, Bruce\u00a0N. Walker, and Marianna Obrist. 2020. CARoma Therapy: Pleasant Scents Promote Safer Driving, Better Mood, and Improved Well-Being in Angry Drivers. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376176",
+      "doi": "10.1145/3313831.3376176"
+    },
+    {
+      "text": "Dovetail. 2022. Markup. Dovetail Research Pty. Ltd. https://dovetailapp.com/products/markup(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Alain Dumesny, Dylan Weiss, and Pavel Reznikov. 2022. gridstack.js - Build interactive dashboards in minutes. gridstack.js. https://gridstackjs.com/(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "e-candeloro. 2022. Real Time Driver State Detection. Driver-State-Detection. https://github.com/e-candeloro/Driver-State-Detection(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Patrick Ebel, Christoph Lingenfelder, and Andreas Vogelsang. 2021. Visualizing Event Sequence Data for User Behavior Evaluation of In-Vehicle Information Systems. In 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Leeds, United Kingdom) (AutomotiveUI \u201921). Association for Computing Machinery, New York, NY, USA, 219\u2013229. https://doi.org/10.1145/3409118.3475140",
+      "doi": "10.1145/3409118.3475140"
+    },
+    {
+      "text": "Y.\u00a0B. Eisma, S. van Bergen, S.\u00a0M. ter Brake, M.\u00a0T.\u00a0T. Hensen, W.\u00a0J. Tempelaar, and J.\u00a0C.\u00a0F. de Winter. 2020. External Human\u2013Machine Interfaces: The Effect of Display Location on Crossing Intentions and Eye Movements. Information 11, 1 (2020), 18. https://doi.org/10.3390/info11010013",
+      "doi": ""
+    },
+    {
+      "text": "Empatica. 2022. E4 Wristband. Empatica Inc. https://www.empatica.com/research/e4/(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Barrett Ens, Benjamin Bach, Maxime Cordeil, Ulrich Engelke, Marcos Serrano, Wesley Willett, Arnaud Prouzeau, Christoph Anthes, Wolfgang B\u00fcschel, Cody Dunne, Tim Dwyer, Jens Grubert, Jason\u00a0H. Haga, Nurit Kirshenbaum, Dylan Kobayashi, Tica Lin, Monsurat Olaosebikan, Fabian Pointecker, David Saffo, Nazmus Saquib, Dieter Schmalstieg, Danielle\u00a0Albers Szafir, Matt Whitlock, and Yalong Yang. 2021. Grand Challenges in Immersive Analytics. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 459, 17\u00a0pages. https://doi.org/10.1145/3411764.3446866",
+      "doi": "10.1145/3411764.3446866"
+    },
+    {
+      "text": "Jorge A.\u00a0Wagner Filho, Wolfgang Stuerzlinger, and Luciana Nedel. 2020. Evaluating an Immersive Space-Time Cube Geovisualization for Intuitive Trajectory Data Exploration. IEEE Transactions on Visualization and Computer Graphics 26, 1(2020), 514\u2013524. https://doi.org/10.1109/TVCG.2019.2934415",
+      "doi": ""
+    },
+    {
+      "text": "Gwendal Fouch\u00e9, Ferran Argelaguet\u00a0Sanz, Emmanuel Faure, and Charles Kervrann. 2022. Timeline Design Space for Immersive Exploration of Time-Varying Spatial 3D Data. In Proceedings of the 28th ACM Symposium on Virtual Reality Software and Technology (Tsukuba, Japan) (VRST \u201922). Association for Computing Machinery, New York, NY, USA, Article 21, 11\u00a0pages. https://doi.org/10.1145/3562939.3565612",
+      "doi": "10.1145/3562939.3565612"
+    },
+    {
+      "text": "R Foundation. 2022. R: The R Project for Statistical Computing. The R Foundation. https://www.tibco.com/products/tibco-spotfire(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Markus Funk, Vanessa Tobisch, and Adam Emfield. 2020. Non-Verbal Auditory Input for Controlling Binary, Discrete, and Continuous Input in Automotive User Interfaces. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376816",
+      "doi": "10.1145/3313831.3376816"
+    },
+    {
+      "text": "David Goedicke, Jamy Li, Vanessa Evers, and Wendy Ju. 2018. VR-OOM: Virtual Reality On-ROad Driving SiMulation. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3173574.3173739",
+      "doi": "10.1145/3173574.3173739"
+    },
+    {
+      "text": "Amr Gomaa, Guillermo Reyes, Alexandra Alles, Lydia Rupp, and Michael Feld. 2020. Studying Person-Specific Pointing and Gaze Behavior for Multimodal Referencing of Outside Objects from a Moving Vehicle. In Proceedings of the 2020 International Conference on Multimodal Interaction (Virtual Event, Netherlands) (ICMI \u201920). Association for Computing Machinery, New York, NY, USA, 501\u2013509. https://doi.org/10.1145/3382507.3418817",
+      "doi": "10.1145/3382507.3418817"
+    },
+    {
+      "text": "Yuxi Guo, Qinyu Sun, Yanqi Su, Yingshi Guo, and Chang Wang. 2021. Can driving condition prompt systems improve passenger comfort of intelligent vehicles? A driving simulator study. Transportation Research Part F: Traffic Psychology and Behaviour 81 (2021), 240\u2013250. https://doi.org/10.1016/j.trf.2021.06.007",
+      "doi": ""
+    },
+    {
+      "text": "Anchit Gupta, Faizan\u00a0Farooq Khan, Rudrabha Mukhopadhyay, Vinay\u00a0P. Namboodiri, and C.\u00a0V. Jawahar. 2021. Intelligent Video Editing: Incorporating Modern Talking Face Generation Algorithms in a Video Editor. In Proceedings of the Twelfth Indian Conference on Computer Vision, Graphics and Image Processing (Jodhpur, India) (ICVGIP \u201921). Association for Computing Machinery, New York, NY, USA, Article 25, 9\u00a0pages. https://doi.org/10.1145/3490035.3490284",
+      "doi": "10.1145/3490035.3490284"
+    },
+    {
+      "text": "Mathias Haimerl, Mark Colley, and Andreas Riener. 2022. Evaluation of Common External Communication Concepts of Automated Vehicles for People With Intellectual Disabilities. In Proc. ACM Hum.-Comput. Interact.(MobileHCI \u201922). Association for Computing Machinery, New York, NY, USA, 13\u00a0pages. https://doi.org/10.1145/3546717",
+      "doi": "10.1145/3546717"
+    },
+    {
+      "text": "Tobias Hecht, Anna Feldh\u00fctter, Kathrin Draeger, and Klaus Bengler. 2020. What Do You Do? An Analysis of Non-driving Related Activities During a 60\u00a0Minutes Conditionally Automated Highway Drive. In Human Interaction and Emerging Technologies, Tareq Ahram, Redha Taiar, Serge Colson, and Arnaud Choplin (Eds.). Springer International Publishing, Cham, 28\u201334.",
+      "doi": ""
+    },
+    {
+      "text": "Javier Hernandez, Daniel McDuff, Xavier Benavides, Judith Amores, Pattie Maes, and Rosalind Picard. 2014. AutoEmotive: Bringing Empathy to the Driving Experience to Manage Stress. In Proceedings of the 2014 Companion Publication on Designing Interactive Systems (Vancouver, BC, Canada) (DIS Companion \u201914). Association for Computing Machinery, New York, NY, USA, 53\u201356. https://doi.org/10.1145/2598784.2602780",
+      "doi": "10.1145/2598784.2602780"
+    },
+    {
+      "text": "Gin\u00e9s Hidalgo, Zhe Cao, Tomas Simon, Shih-En Wei, Yaadhav Raaj, Hanbyul Joo, and Yaser Sheikh. 2022. OpenPose. CMU-Perceptual-Computing-Lab. https://github.com/CMU-Perceptual-Computing-Lab/openpose(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Philipp Hock, Mark Colley, Ali Askari, Tobias Wagner, Martin Baumann, and Enrico Rukzio. 2022. Introducing VAMPIRE \u2013 Using Kinaesthetic Feedback in Virtual Reality for Automated Driving Experiments. In Proceedings of the 14th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Seoul, Republic of Korea) (AutomotiveUI \u201922). Association for Computing Machinery, New York, NY, USA, 204\u2013214. https://doi.org/10.1145/3543174.3545252",
+      "doi": "10.1145/3543174.3545252"
+    },
+    {
+      "text": "Kai Holl\u00e4nder, Mark Colley, Enrico Rukzio, and Andreas Butz. 2021. A Taxonomy of Vulnerable Road Users for HCI Based On A Systematic Literature Review. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 158, 13\u00a0pages. https://doi.org/10.1145/3411764.3445480",
+      "doi": "10.1145/3411764.3445480"
+    },
+    {
+      "text": "Steven Houben and Nicolai Marquardt. 2015. WatchConnect: A Toolkit for Prototyping Smartwatch-Centric Cross-Device Applications. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 1247\u20131256. https://doi.org/10.1145/2702123.2702215",
+      "doi": "10.1145/2702123.2702215"
+    },
+    {
+      "text": "Sebastian Hubenschmid, Jonathan Wieland, Daniel\u00a0Immanuel Fink, Andrea Batch, Johannes Zagermann, Niklas Elmqvist, and Harald Reiterer. 2022. ReLive: Bridging In-Situ and Ex-Situ Visual Analytics for Analyzing Mixed Reality User Studies. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 24, 20\u00a0pages. https://doi.org/10.1145/3491102.3517550",
+      "doi": "10.1145/3491102.3517550"
+    },
+    {
+      "text": "Sebastian Hubenschmid, Johannes Zagermann, Simon Butscher, and Harald Reiterer. 2021. STREAM: Exploring the Combination of Spatially-Aware Tablets with Augmented Reality Head-Mounted Displays for Immersive Analytics. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 469, 14\u00a0pages. https://doi.org/10.1145/3411764.3445298",
+      "doi": "10.1145/3411764.3445298"
+    },
+    {
+      "text": "Scott\u00a0E. Hudson and Jennifer Mankoff. 2014. Concepts, Values, and Methods for Technical Human\u2013Computer Interaction Research. Springer New York, New York, NY, 69\u201393. https://doi.org/10.1007/978-1-4939-0378-8_4",
+      "doi": ""
+    },
+    {
+      "text": "Petra Isenberg, Niklas Elmqvist, Jean Scholtz, Daniel Cernea, Kwan-Liu Ma, and Hans Hagen. 2011. Collaborative visualization: Definition, challenges, and research agenda. Information Visualization 10, 4 (2011), 310\u2013326.",
+      "doi": "10.1177/1473871611412817"
+    },
+    {
+      "text": "Mikkel\u00a0R. Jakobsen and Kasper Hornb\u00c6k. 2014. Up Close and Personal: Collaborative Work on a High-Resolution Multitouch Wall Display. ACM Trans. Comput.-Hum. Interact. 21, 2, Article 11 (feb 2014), 34\u00a0pages. https://doi.org/10.1145/2576099",
+      "doi": "10.1145/2576099"
+    },
+    {
+      "text": "Pascal Jansen, Mark Colley, and Enrico Rukzio. 2022. A Design Space for Human Sensor and Actuator Focused In-Vehicle Interaction Based on a Systematic Literature Review. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 6, 2, Article 56 (jul 2022), 51\u00a0pages. https://doi.org/10.1145/3534617",
+      "doi": "10.1145/3534617"
+    },
+    {
+      "text": "Imen Jegham, Anouar Ben\u00a0Khalifa, Ihsen Alouani, and Mohamed\u00a0Ali Mahjoub. 2019. MDAD: A Multimodal and Multiview in-Vehicle Driver Action Dataset. In Computer Analysis of Images and Patterns, Mario Vento and Gennaro Percannella (Eds.). Springer International Publishing, Cham, 518\u2013529.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0S. Kennedy, Norman\u00a0E. Lane, Kevin\u00a0S. Berbaum, and Michael\u00a0G. Lilienthal. 1993. Simulator Sickness Questionnaire: An Enhanced Method for Quantifying Simulator Sickness. The International Journal of Aviation Psychology 3, 3 (1993), 203\u2013220. https://doi.org/10.1207/s15327108ijap0303_3",
+      "doi": ""
+    },
+    {
+      "text": "Auk Kim, Woohyeok Choi, Jungmi Park, Kyeyoon Kim, and Uichin Lee. 2019. Predicting Opportune Moments for In-Vehicle Proactive Speech Services. In Adjunct Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers (London, United Kingdom) (UbiComp/ISWC \u201919 Adjunct). Association for Computing Machinery, New York, NY, USA, 101\u2013104. https://doi.org/10.1145/3341162.3343841",
+      "doi": "10.1145/3341162.3343841"
+    },
+    {
+      "text": "Eunyeong Kim, Mohammad Fard, and Kazuhito Kato. 2020. A seated human model for predicting the coupled human-seat transmissibility exposed to fore-aft whole-body vibration. Applied Ergonomics 84 (April 2020), 102929. https://doi.org/10.1016/j.apergo.2019.102929",
+      "doi": ""
+    },
+    {
+      "text": "Kyongho Kim, HyunKyun Choi, and Byungtae Jang. 2018. Design of the Driver-Adaptive Vehicle Interaction System. In 2018 International Conference on Information and Communication Technology Convergence (ICTC). IEEE, 3 Park Ave, New York City, 297\u2013299. https://doi.org/10.1109/ICTC.2018.8539526",
+      "doi": ""
+    },
+    {
+      "text": "Myeongseop Kim, Eunjin Seong, Younkyung Jwa, Jieun Lee, and Seungjun Kim. 2020. A Cascaded Multimodal Natural User Interface to Reduce Driver Distraction. IEEE Access 8(2020), 112969\u2013112984. https://doi.org/10.1109/ACCESS.2020.3002775",
+      "doi": ""
+    },
+    {
+      "text": "Simon Kloiber, Volker Settgast, Christoph Schinko, Martin Weinzerl, Johannes Fritz, Tobias Schreck, and Reinhold Preiner. 2020. Immersive analysis of user motion in VR applications. The Visual Computer 36, 10 (2020), 1937\u20131949.",
+      "doi": "10.1007/s00371-020-01942-1"
+    },
+    {
+      "text": "Matthias Kraus, Katrin Angerbauer, Juri Buchm\u00fcller, Daniel Schweitzer, Daniel\u00a0A. Keim, Michael Sedlmair, and Johannes Fuchs. 2020. Assessing 2D and 3D Heatmaps for Comparative Analysis: An Empirical Study. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376675",
+      "doi": "10.1145/3313831.3376675"
+    },
+    {
+      "text": "M. Kraus, N. Weiler, D. Oelke, J. Kehrer, D.\u00a0A. Keim, and J. Fuchs. 2020. The Impact of Immersion on Cluster Identification Tasks. IEEE Transactions on Visualization and Computer Graphics 26, 1(2020), 525\u2013535. https://doi.org/10.1109/TVCG.2019.2934395",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0L. Kun, Tim Paek, \u017deljko Medenica, Nemanja Memarovi\u0107, and Oskar Palinko. 2009. Glancing at Personal Navigation Devices Can Affect Driving: Experimental Results and Design Implications. In Proceedings of the 1st International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Essen, Germany) (AutomotiveUI \u201909). Association for Computing Machinery, New York, NY, USA, 129\u2013136. https://doi.org/10.1145/1620509.1620534",
+      "doi": "10.1145/1620509.1620534"
+    },
+    {
+      "text": "Thomas Kundinger, Andreas Riener, and Ramyashree Bhat. 2021. Performance and Acceptance Evaluation of a Driver Drowsiness Detection System Based on Smart Wearables. In 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Leeds, United Kingdom) (AutomotiveUI \u201921). Association for Computing Machinery, New York, NY, USA, 49\u201358. https://doi.org/10.1145/3409118.3475141",
+      "doi": "10.1145/3409118.3475141"
+    },
+    {
+      "text": "Ricardo Langner, Marc Satkowski, Wolfgang B\u00fcschel, and Raimund Dachselt. 2021. MARVIS: Combining Mobile Devices and Augmented Reality for Visual Data Analysis. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 468, 17\u00a0pages. https://doi.org/10.1145/3411764.3445593",
+      "doi": "10.1145/3411764.3445593"
+    },
+    {
+      "text": "David Ledo, Steven Houben, Jo Vermeulen, Nicolai Marquardt, Lora Oehlberg, and Saul Greenberg. 2018. Evaluation Strategies for HCI Toolkit Research. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201317. https://doi.org/10.1145/3173574.3173610",
+      "doi": "10.1145/3173574.3173610"
+    },
+    {
+      "text": "Benjamin Lee, Dave Brown, Bongshin Lee, Christophe Hurter, Steven Drucker, and Tim Dwyer. 2021. Data Visceralization: Enabling Deeper Understanding of Data Using Virtual Reality. IEEE Transactions on Visualization and Computer Graphics 27, 2(2021), 1095\u20131105. https://doi.org/10.1109/TVCG.2020.3030435",
+      "doi": ""
+    },
+    {
+      "text": "Yee\u00a0Mun Lee, Ruth Madigan, Jorge Garcia, Andrew Tomlinson, Albert Solernou, Richard Romano, Gustav Markkula, Natasha Merat, and Jim Uttley. 2019. Understanding the Messages Conveyed by Automated Vehicles. In Proceedings of the 11th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Utrecht, Netherlands) (AutomotiveUI \u201919). Association for Computing Machinery, New York, NY, USA, 134\u2013143. https://doi.org/10.1145/3342197.3344546",
+      "doi": "10.1145/3342197.3344546"
+    },
+    {
+      "text": "Klemen Lilija, Henning Pohl, and Kasper Hornb\u00e6k. 2020. Who Put That There? Temporal Navigation of Spatial Recordings by Direct Manipulation. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3313831.3376604",
+      "doi": "10.1145/3313831.3376604"
+    },
+    {
+      "text": "Shih-Chieh Lin, Chang-Hong Hsu, Walter Talamonti, Yunqi Zhang, Steve Oney, Jason Mars, and Lingjia Tang. 2018. Adasa: A Conversational In-Vehicle Digital Assistant for Advanced Driver Assistance Features. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology(UIST \u201918). Association for Computing Machinery, New York, NY, USA, 531\u2013542. https://doi.org/10.1145/3242587.3242593",
+      "doi": "10.1145/3242587.3242593"
+    },
+    {
+      "text": "Shu Liu, Kevin Koch, Zimu Zhou, Simon F\u00f6ll, Xiaoxi He, Tina Menke, Elgar Fleisch, and Felix Wortmann. 2021. The Empathetic Car: Exploring Emotion Inference via Driver Behaviour and Traffic Context. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 5, 3, Article 117 (sep 2021), 34\u00a0pages. https://doi.org/10.1145/3478078",
+      "doi": "10.1145/3478078"
+    },
+    {
+      "text": "Monika Lohani, Brennan\u00a0R Payne, and David\u00a0L Strayer. 2019. A review of psychophysiological measures to assess cognitive states in real-world driving. Frontiers in human neuroscience 13 (2019), 57.",
+      "doi": ""
+    },
+    {
+      "text": "Chen Lv, Huaji Wang, Dongpu Cao, Yifan Zhao, Mark Sullman, Daniel\u00a0J. Auger, James Brighton, Rebecca Matthias, Lee Skrypchuk, and Alexandros Mouzakitis. 2018. A Novel Control Framework of Haptic Take-Over System for Automated Vehicles. In 2018 IEEE Intelligent Vehicles Symposium (IV). IEEE, New York, NY, USA, 1596\u20131601. https://doi.org/10.1109/IVS.2018.8500480",
+      "doi": "10.1109/IVS.2018.8500480"
+    },
+    {
+      "text": "Ruth Madigan, Sina Nordhoff, Charles Fox, Roja Ezzati Amini, Tyron Louw, Marc Wilbrink, Anna Schieben, and Natasha Merat. 2019. Understanding interactions between Automated Road Transport Systems and other road users: A video analysis. Transportation Research Part F: Traffic Psychology and Behaviour 66 (2019), 196\u2013213. https://doi.org/10.1016/j.trf.2019.09.006",
+      "doi": ""
+    },
+    {
+      "text": "Nicolai Marquardt, Frederico Schardong, and Anthony Tang. 2015. EXCITE: Exploring collaborative interaction in tracked environments. In IFIP Conference on Human-Computer Interaction. Springer, Springer, Cham, 89\u201397.",
+      "doi": "10.1007/978-3-319-22668-2_8"
+    },
+    {
+      "text": "Manuel Martin, Alina Roitberg, Monica Haurilet, Matthias Horne, Simon Rei\u00df, Michael Voit, and Rainer Stiefelhagen. 2019. Drive&Act: A Multi-Modal Dataset for Fine-Grained Driver Behavior Recognition in Autonomous Vehicles. In 2019 IEEE/CVF International Conference on Computer Vision (ICCV). IEEE, New York, NY, USA, 2801\u20132810. https://doi.org/10.1109/ICCV.2019.00289",
+      "doi": ""
+    },
+    {
+      "text": "Jan Meskens, Jo Vermeulen, Kris Luyten, and Karin Coninx. 2008. Gummy for Multi-Platform User Interface Designs: Shape Me, Multiply Me, Fix Me, Use Me. In Proceedings of the Working Conference on Advanced Visual Interfaces (Napoli, Italy) (AVI \u201908). Association for Computing Machinery, New York, NY, USA, 233\u2013240. https://doi.org/10.1145/1385569.1385607",
+      "doi": "10.1145/1385569.1385607"
+    },
+    {
+      "text": "Walter Morales-Alvarez, Oscar Sipele, R\u00e9gis L\u00e9beron, Hadj\u00a0Hamma Tadjine, and Cristina Olaverri-Monreal. 2020. Automated Driving: A Literature Review of the Take over Request in Conditional Automation. Electronics 9, 12 (2020), 34. https://doi.org/10.3390/electronics9122087",
+      "doi": ""
+    },
+    {
+      "text": "Michael Nebeling, Maximilian Speicher, Xizi Wang, Shwetha Rajaram, Brian\u00a0D. Hall, Zijian Xie, Alexander R.\u00a0E. Raistrick, Michelle Aebersold, Edward\u00a0G. Happ, Jiayin Wang, Yanan Sun, Lotus Zhang, Leah\u00a0E. Ramsier, and Rhea Kulkarni. 2020. MRAT: The Mixed Reality Analytics Toolkit. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376330",
+      "doi": "10.1145/3313831.3376330"
+    },
+    {
+      "text": "Carl\u00a0J\u00f6rgen Normark. 2015. Design and Evaluation of a Touch-Based Personalizable In-Vehicle User Interface. International Journal of Human\u2013Computer Interaction 31, 11(2015), 731\u2013745. https://doi.org/10.1080/10447318.2015.1045240 arXiv:https://doi.org/10.1080/10447318.2015.1045240",
+      "doi": ""
+    },
+    {
+      "text": "Dan\u00a0R. Olsen. 2007. Evaluating User Interface Systems Research. In Proceedings of the 20th Annual ACM Symposium on User Interface Software and Technology (Newport, Rhode Island, USA) (UIST \u201907). Association for Computing Machinery, New York, NY, USA, 251\u2013258. https://doi.org/10.1145/1294211.1294256",
+      "doi": "10.1145/1294211.1294256"
+    },
+    {
+      "text": "Sebastian Osswald, Daniela Wurhofer, Sandra Tr\u00f6sterer, Elke Beck, and Manfred Tscheligi. 2012. Predicting Information Technology Usage in the Car: Towards a Car Technology Acceptance Model. In Proceedings of the 4th International Conference on Automotive User Interfaces and Interactive Vehicular Applications(Portsmouth, New Hampshire) (AutomotiveUI \u201912). Association for Computing Machinery, New York, NY, USA, 51\u201358. https://doi.org/10.1145/2390256.2390264",
+      "doi": "10.1145/2390256.2390264"
+    },
+    {
+      "text": "Erfan Pakdamanian, Shili Sheng, Sonia Baee, Seongkook Heo, Sarit Kraus, and Lu Feng. 2021. DeepTake: Prediction of Driver Takeover Behavior Using Multimodal Data. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 103, 14\u00a0pages. https://doi.org/10.1145/3411764.3445563",
+      "doi": "10.1145/3411764.3445563"
+    },
+    {
+      "text": "Ioannis Politis, Stephen Brewster, and Frank Pollick. 2015. Language-Based Multimodal Displays for the Handover of Control in Autonomous Cars. In Proceedings of the 7th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Nottingham, United Kingdom) (AutomotiveUI \u201915). Association for Computing Machinery, New York, NY, USA, 3\u201310. https://doi.org/10.1145/2799250.2799262",
+      "doi": "10.1145/2799250.2799262"
+    },
+    {
+      "text": "Michael Prilla and Lisa\u00a0M R\u00fchmann. 2018. An Analysis Tool for Cooperative Mixed Reality Scenarios. In 2018 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct). IEEE, IEEE, New YOrk, NY, USA, 31\u201335.",
+      "doi": ""
+    },
+    {
+      "text": "Jonas Radlmayr, Christian Gold, Lutz Lorenz, Mehdi Farid, and Klaus Bengler. 2014. How Traffic Situations and Non-Driving Related Tasks Affect the Take-Over Quality in Highly Automated Driving. Proceedings of the Human Factors and Ergonomics Society Annual Meeting 58, 1(2014), 2063\u20132067. https://doi.org/10.1177/1541931214581434 arXiv:https://doi.org/10.1177/1541931214581434",
+      "doi": ""
+    },
+    {
+      "text": "Carolin Reichherzer, Andrew Cunningham, Tracey Coleman, Ruochen Cao, Kurt McManus, Dion Sheppard, Mark Kohler, Mark Billinghurst, and Bruce\u00a0H Thomas. 2021. Bringing the Jury to the Scene of the Crime: Memory and Decision-Making in a Simulated Crime Scene. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 709, 12\u00a0pages. https://doi.org/10.1145/3411764.3445464",
+      "doi": "10.1145/3411764.3445464"
+    },
+    {
+      "text": "Patrick Reipschl\u00e4ger, Frederik Brudy, Raimund Dachselt, Justin Matejka, George Fitzmaurice, and Fraser Anderson. 2022. AvatAR: An Immersive Analysis Environment for Human Motion Data Combining Interactive 3D Avatars and Trajectories. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 23, 15\u00a0pages. https://doi.org/10.1145/3491102.3517676",
+      "doi": "10.1145/3491102.3517676"
+    },
+    {
+      "text": "Patrick Reipschlager, Tamara Flemisch, and Raimund Dachselt. 2020. Personal augmented reality for information visualization on large interactive displays. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 1182\u20131192.",
+      "doi": ""
+    },
+    {
+      "text": "Lena Rittger, Doreen Engelhardt, and Robert Schwartz. 2022. Adaptive User Experience in the Car\u2014Levels of Adaptivity and Adaptive HMI Design. IEEE Transactions on Intelligent Transportation Systems 23, 5(2022), 4866\u20134876. https://doi.org/10.1109/TITS.2021.3124990",
+      "doi": "10.1109/TITS.2021.3124990"
+    },
+    {
+      "text": "Florian Roider, Lars Reisig, and Tom Gross. 2018. Just Look: The Benefits of Gaze-Activated Voice Input in the Car. In Adjunct Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications(AutomotiveUI \u201918). Association for Computing Machinery, New York, NY, USA, 210\u2013214. https://doi.org/10.1145/3239092.3265968",
+      "doi": "10.1145/3239092.3265968"
+    },
+    {
+      "text": "Ren\u00e9 Rosenbaum, Jeremy Bottleson, Zhuiguang Liu, and Bernd Hamann. 2011. Involve Me and I Will Understand!\u2013Abstract Data Visualization in Immersive Environments. In International Symposium on Visual Computing. Springer, Springer, Cham, 530\u2013540.",
+      "doi": ""
+    },
+    {
+      "text": "SAE-International. 2021. Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles. https://www.sae.org/standards/content/j3016_202104/. [Online; accessed: 24-August-2021].",
+      "doi": ""
+    },
+    {
+      "text": "Michael Saenz, Ali Baigelenov, Ya-Hsin Hung, and Paul Parsons. 2017. Reexamining the cognitive utility of 3D visualizations using augmented reality holograms. In IEEE VIS Workshop on Immersive Analytics: Exploring Future Interaction and Visualization Technologies for Data Analytics. ACM, New York, NY, USA, 5.",
+      "doi": ""
+    },
+    {
+      "text": "Salesforce. 2022. Tableau: Business Intelligence and Analytics Software. Salesforce Inc. https://www.tableau.com/(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Despoina Salpisti, Matthias de Clerk, Sebastian Hinz, Frank Henkies, and Gudrun Klinker. 2022. A Procedural Building Generator Based on Real-World Data Enabling Designers to Create Context for XR Automotive Design Experiences. In Virtual Reality and Mixed Reality, Gabriel Zachmann, Mariano Alca\u00f1iz\u00a0Raya, Partrick Bourdot, Maud Marchal, Jeanine Stefanucci, and Xubo Yang (Eds.). Springer International Publishing, Cham, 149\u2013170.",
+      "doi": ""
+    },
+    {
+      "text": "Albrecht Schmidt, Wolfgang Spiessl, and Dagmar Kern. 2010. Driving Automotive User Interface Research. IEEE Pervasive Computing 9, 1 (2010), 85\u201388. https://doi.org/10.1109/MPRV.2010.3",
+      "doi": "10.1109/MPRV.2010.3"
+    },
+    {
+      "text": "Lasse Sch\u00f6lkopf, Maria-Magdalena Wolf, Veronika Hutmann, and Frank Diermeyer. 2021. Conception, Development and First Evaluation of a Context-Adaptive User Interface for Commercial Vehicles. In 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Leeds, United Kingdom) (AutomotiveUI \u201921 Adjunct). Association for Computing Machinery, New York, NY, USA, 21\u201325. https://doi.org/10.1145/3473682.3480256",
+      "doi": "10.1145/3473682.3480256"
+    },
+    {
+      "text": "Michael Sedlmair, Miriah Meyer, and Tamara Munzner. 2012. Design Study Methodology: Reflections from the Trenches and the Stacks. IEEE Transactions on Visualization and Computer Graphics 18, 12(2012), 2431\u20132440. https://doi.org/10.1109/TVCG.2012.213",
+      "doi": "10.1109/TVCG.2012.213"
+    },
+    {
+      "text": "Sefik Ilkin Serengil. 2022. DeepFace: A Facial Recognition Library for Python. DeepFace. https://github.com/serengil/deepface(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Mickael Sereno, St\u00e9phane Gosset, Lonni Besan\u00e7on, and Tobias Isenberg. 2022. Hybrid touch/tangible spatial selection in augmented reality. In Computer Graphics Forum. Wiley Online Library, Wiley, Hoboken, New Jersey, USA, 403\u2013415.",
+      "doi": ""
+    },
+    {
+      "text": "Junxiao Shen, John Dudley, George Mo, and Per\u00a0Ola Kristensson. 2022. Gesture Spotter: A Rapid Prototyping Tool for Key Gesture Spotting in Virtual and Augmented Reality Applications. IEEE Transactions on Visualization and Computer Graphics 28, 11(2022), 1\u201311. https://doi.org/10.1109/TVCG.2022.3203004",
+      "doi": ""
+    },
+    {
+      "text": "Anthony Tang, Michel Pahud, Sheelagh Carpendale, and Bill Buxton. 2010. VisTACO: Visualizing Tabletop Collaboration. In ACM International Conference on Interactive Tabletops and Surfaces (Saarbr\u00fccken, Germany) (ITS \u201910). Association for Computing Machinery, New York, NY, USA, 29\u201338. https://doi.org/10.1145/1936652.1936659",
+      "doi": "10.1145/1936652.1936659"
+    },
+    {
+      "text": "Arash Tavakoli, Shashwat Kumar, Xiang Guo, Vahid Balali, Mehdi Boukhechba, and Arsalan Heydarian. 2021. HARMONY: A Human-Centered Multimodal Driving Study in the Wild. IEEE Access 9(2021), 23956\u201323978. https://doi.org/10.1109/ACCESS.2021.3056007",
+      "doi": ""
+    },
+    {
+      "text": "Tianxiaomo. 2022. Pytorch-YOLOv4. YOLOv4. https://github.com/Tianxiaomo/pytorch-YOLOv4(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "TIBCO. 2022. TIBCO Spotfire\u00ae. TIBCO Software Inc. https://www.tibco.com/products/tibco-spotfire(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Francesca Trenta, Sabrina Conoci, Francesco Rundo, and Sebastiano Battiato. 2019. Advanced Motion-Tracking System with Multi-Layers Deep Learning Framework for Innovative Car-Driver Drowsiness Monitoring. In 2019 14th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2019). IEEE, Cham, 1\u20135. https://doi.org/10.1109/FG.2019.8756566",
+      "doi": "10.1109/FG.2019.8756566"
+    },
+    {
+      "text": "Larissa\u00a0T. Triess, Mariella Dreissig, Christoph\u00a0B. Rist, and J. Marius\u00a0Z\u00f6llner. 2021. A Survey on Deep Domain Adaptation for LiDAR Perception. In 2021 IEEE Intelligent Vehicles Symposium Workshops (IV Workshops). IEEE, New York, NY, USA, 350\u2013357. https://doi.org/10.1109/IVWorkshops54471.2021.9669228",
+      "doi": ""
+    },
+    {
+      "text": "Graham Upton and Ian Cook. 1996. Understanding statistics. Oxford University Press, Oxford, United Kingdom.",
+      "doi": ""
+    },
+    {
+      "text": "vis2k. 2022. Mirror. vis2k. https://assetstore.unity.com/packages/tools/network/mirror-129321(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Ulrich von Zadow and Raimund Dachselt. 2017. GIAnT: Visualizing Group Interaction at Large Wall Displays. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 2639\u20132647. https://doi.org/10.1145/3025453.3026006",
+      "doi": "10.1145/3025453.3026006"
+    },
+    {
+      "text": "Vuplex. 2022. 3D WebView for Windows and macOS (Web Browser). Vuplex. https://assetstore.unity.com/packages/tools/gui/3d-webview-for-windows-and-macos-web-browser-154144(Accessed on 08/23/2022).",
+      "doi": ""
+    },
+    {
+      "text": "Jorge\u00a0A Wagner\u00a0Filho, Marina\u00a0F Rey, Carla\u00a0MDS Freitas, and Luciana Nedel. 2018. Immersive visualization of abstract information: An evaluation on dimensionally-reduced data scatterplots. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, IEEE, New YOrk, NY, USA, 483\u2013490.",
+      "doi": ""
+    },
+    {
+      "text": "Manhua Wang, Seul\u00a0Chan Lee, Genevieve Montavon, Jiakang Qin, and Myounghoon Jeon. 2022. Conversational Voice Agents Are Preferred and Lead to Better Driving Performance in Conditionally Automated Vehicles. In Proceedings of the 14th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Seoul, Republic of Korea) (AutomotiveUI \u201922). Association for Computing Machinery, New York, NY, USA, 86\u201395. https://doi.org/10.1145/3543174.3546830",
+      "doi": "10.1145/3543174.3546830"
+    },
+    {
+      "text": "Xiyao Wang, Lonni Besan\u00e7on, David Rousseau, Mickael Sereno, Mehdi Ammi, and Tobias Isenberg. 2020. Towards an understanding of augmented reality extensions for existing 3D data analysis tools. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201313.",
+      "doi": "10.1145/3313831.3376657"
+    },
+    {
+      "text": "Fuliang Weng, Pongtep Angkititrakul, Elizabeth\u00a0E. Shriberg, Larry Heck, Stanley Peters, and John\u00a0H.L. Hansen. 2016. Conversational In-Vehicle Dialog Systems: The past, present, and future. IEEE Signal Processing Magazine 33, 6 (2016), 49\u201360. https://doi.org/10.1109/MSP.2016.2599201",
+      "doi": ""
+    },
+    {
+      "text": "Philipp Wintersberger, Anna-Katharina Frison, and Andreas Riener. 2018. Man vs. Machine: Comparing a Fully Automated Bus Shuttle with a Manually Driven Group Taxi in a Field Study. In Adjunct Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Toronto, ON, Canada) (AutomotiveUI \u201918). Association for Computing Machinery, New York, NY, USA, 215\u2013220. https://doi.org/10.1145/3239092.3265969",
+      "doi": "10.1145/3239092.3265969"
+    },
+    {
+      "text": "Philipp Wintersberger, Anna-Katharina Frison, Andreas Riener, and Tamara\u00a0von Sawitzky. 2018. Fostering User Acceptance and Trust in Fully Automated Vehicles: Evaluating the Potential of Augmented Reality. Presence: Teleoperators and Virtual Environments 27, 1 (Feb. 2018), 46\u201362. https://doi.org/10.1162/pres_a_00320 _eprint: https://direct.mit.edu/pvar/article-pdf/27/1/46/2003540/pres_a_00320.pdf.",
+      "doi": "10.1162/pres_a_00320"
+    },
+    {
+      "text": "Oliver\u00a0M. Winzer, Antonia\u00a0S. Conti-Kufner, and Klaus Bengler. 2018. Intersection Traffic Light Assistant \u2013 An Evaluation of the Suitability of Two Human Machine Interfaces. In 2018 21st International Conference on Intelligent Transportation Systems (ITSC) (Maui, HI, USA). IEEE Press, New York, NY, USA, 261\u2013265. https://doi.org/10.1109/ITSC.2018.8569708",
+      "doi": "10.1109/ITSC.2018.8569708"
+    },
+    {
+      "text": "Zhigang Xu, Zijun Jiang, Guanqun Wang, Runmin Wang, Tingting Li, Jinting Liu, Yijing Zhang, and Peng Liu. 2021. When the automated driving system fails: Dynamics of public responses to automated vehicles. Transportation Research Part C: Emerging Technologies 129 (2021), 103271. https://doi.org/10.1016/j.trc.2021.103271",
+      "doi": ""
+    },
+    {
+      "text": "Yan Yan, Ke Chen, Yu Xie, Yiming Song, and Yonghong Liu. 2019. The Effects of Weight on Comfort of Virtual Reality Devices. In Advances in Ergonomics in Design, Francisco Rebelo and Marcelo\u00a0M. Soares (Eds.). Springer International Publishing, Cham, 239\u2013248.",
+      "doi": ""
+    },
+    {
+      "text": "Ji\u00a0Soo Yi, Youn\u00a0ah Kang, John Stasko, and J.A. Jacko. 2007. Toward a Deeper Understanding of the Role of Interaction in Information Visualization. IEEE Transactions on Visualization and Computer Graphics 13, 6(2007), 1224\u20131231. https://doi.org/10.1109/TVCG.2007.70515",
+      "doi": "10.1109/TVCG.2007.70515"
+    },
+    {
+      "text": "Meng-Jia Zhang, Jie Li, and Kang Zhang. 2015. Using Virtual Reality Technique to Enhance Experience of Exploring 3D Trajectory Visualizations. In Proceedings of the 8th International Symposium on Visual Information Communication and Interaction (Tokyo, AA, Japan) (VINCI \u201915). Association for Computing Machinery, New York, NY, USA, 168\u2013169. https://doi.org/10.1145/2801040.2801072",
+      "doi": "10.1145/2801040.2801072"
+    },
+    {
+      "text": "Qi Zhong, Jinyi Zhi, and Gang Guo. 2022. Dynamic is optimal: Effect of three alternative auto-complete on the usability of in-vehicle dialing displays and driver distraction. Traffic Injury Prevention 23, 1 (2022), 51\u201356. https://doi.org/10.1080/15389588.2021.2010052 arXiv:https://doi.org/10.1080/15389588.2021.2010052PMID: 34937441.",
+      "doi": ""
+    }
+  ]
+}

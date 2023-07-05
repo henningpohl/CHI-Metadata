@@ -1,0 +1,591 @@
+{
+  "doi": "10.1145/3544548.3581407",
+  "title": "From Plane Crashes to Algorithmic Harm: Applicability of Safety Engineering Frameworks for Responsible ML",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Inappropriate design and deployment of machine learning (ML) systems lead to negative downstream social and ethical impacts \u2013 described here as social and ethical risks \u2013 for users, society, and the environment. Despite the growing need to regulate ML systems, current processes for assessing and mitigating risks are disjointed and inconsistent. We interviewed 30 industry practitioners on their current social and ethical risk management practices and collected their first reactions on adapting safety engineering frameworks into their practice \u2013 namely, System Theoretic Process Analysis (STPA) and Failure Mode and Effects Analysis (FMEA). Our findings suggest STPA/FMEA can provide an appropriate structure for social and ethical risk assessment and mitigation processes. However, we also find nontrivial challenges in integrating such frameworks in the fast-paced culture of the ML industry. We call on the CHI community to strengthen existing frameworks and assess their efficacy, ensuring that ML systems are safer for all people.",
+  "authors": [
+    {
+      "name": "Shalaleh Rismani",
+      "institution": "McGill University, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660548131",
+      "orcid": "0000-0002-5281-2428"
+    },
+    {
+      "name": "Renee Shelby",
+      "institution": "Google Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779973",
+      "orcid": "0000-0003-4720-3844"
+    },
+    {
+      "name": "Andrew Smart",
+      "institution": "Google Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659492921",
+      "orcid": "0000-0002-9816-7348"
+    },
+    {
+      "name": "Edgar Jatho",
+      "institution": "Computer Science, Naval Postgraduate School, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780350",
+      "orcid": "0000-0001-6626-2458"
+    },
+    {
+      "name": "Joshua Kroll",
+      "institution": "Department of Computer Science, Naval Postgraduate School, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659446747",
+      "orcid": "0000-0002-4079-2175"
+    },
+    {
+      "name": "AJung Moon",
+      "institution": "RAISE Lab, McGill University, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81484651538",
+      "orcid": "0000-0002-9387-6284"
+    },
+    {
+      "name": "Negar Rostamzadeh",
+      "institution": "Google Research, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "83358914057",
+      "orcid": "0000-0002-9638-4664"
+    }
+  ],
+  "references": [
+    {
+      "text": "Abubakar Abid, Maheen Farooqi, and James Zou. 2021. Persistent Anti-Muslim Bias in Large Language Models. In Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society (Virtual Event, USA) (AIES \u201921). Association for Computing Machinery, New York, NY, USA, 298\u2013306.",
+      "doi": "10.1145/3461702.3462624"
+    },
+    {
+      "text": "McKane Andrus, Elena Spitzer, Jeffrey Brown, and Alice Xiang. 2021. What We Can\u2019t Measure, We Can\u2019t Understand: Challenges to Demographic Data Procurement in the Pursuit of Fairness. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (Virtual Event, Canada) (FAccT \u201921). Association for Computing Machinery, New York, NY, USA, 249\u2013260. https://doi.org/10.1145/3442188.3445888",
+      "doi": "10.1145/3442188.3445888"
+    },
+    {
+      "text": "Julia Angwin and Terry Parris, Jr. 2016. Facebook Lets Advertisers Exclude Users by Race. https://www.propublica.org/article/facebook-lets-advertisers-exclude-users-by-race. Accessed: 2022-9-3.",
+      "doi": ""
+    },
+    {
+      "text": "IEEE\u00a0Standards Association. 2022. IEEE portfolio of AIS technology and impact standards and standards projects. https://standards.ieee.org/initiatives/artificial-intelligence-systems/standards/. Accessed: 2022-9-10.",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas\u00a0J Bahr. 2014. System safety engineering and risk assessment: a practical approach. CRC press.",
+      "doi": ""
+    },
+    {
+      "text": "Stephanie Ballard, Karen\u00a0M. Chappell, and Kristen Kennedy. 2019. Judgment Call the Game: Using Value Sensitive Design and Design Fiction to Surface Ethical Concerns Related to Technology. In Proceedings of the 2019 on Designing Interactive Systems Conference (San Diego, CA, USA) (DIS \u201919). Association for Computing Machinery, New York, NY, USA, 421\u2013433. https://doi.org/10.1145/3322276.3323697",
+      "doi": "10.1145/3322276.3323697"
+    },
+    {
+      "text": "Shaowen Bardzell. 2010. Feminist HCI: taking stock and outlining an agenda for design. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201910). Association for Computing Machinery, New York, NY, USA, 1301\u20131310.",
+      "doi": "10.1145/1753326.1753521"
+    },
+    {
+      "text": "Solon Barocas, Anhong Guo, Ece Kamar, Jacquelyn Krones, Meredith\u00a0Ringel Morris, Jennifer\u00a0Wortman Vaughan, Duncan Wadsworth, and Hanna Wallach. 2021. Designing Disaggregated Evaluations of AI Systems: Choices, Considerations, and Tradeoffs. https://doi.org/10.48550/ARXIV.2103.06076",
+      "doi": ""
+    },
+    {
+      "text": "Solon Barocas, Sophie Hood, and Malte Ziewitz. 2013. Governing algorithms: A provocation piece.",
+      "doi": ""
+    },
+    {
+      "text": "Ruha Benjamin. 2019. Race After Technology: Abolitionist Tools for the New Jim Code (1 ed.). Polity.",
+      "doi": ""
+    },
+    {
+      "text": "Abeba Birhane. 2021. Algorithmic injustice: a relational ethics approach. Patterns (N Y) 2, 2 (Feb. 2021), 100205.",
+      "doi": ""
+    },
+    {
+      "text": "Su\u00a0Lin Blodgett, Q\u00a0Vera Liao, Alexandra Olteanu, Rada Mihalcea, Michael Muller, Morgan\u00a0Klaus Scheuerman, Chenhao Tan, and Qian Yang. 2022. Responsible Language Technologies: Foreseeing and Mitigating Harms. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA \u201922, Article 152). Association for Computing Machinery, New York, NY, USA, 1\u20133.",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2019. Reflecting on reflexive thematic analysis. Qualitative Research in Sport, Exercise and Health 11, 4 (2019), 589\u2013597.",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2020. One Size Fits All? What Counts as Quality Practice in (Reflexive) Thematic Analysis?Qualitative Research in Psychology 18, 3 (Aug. 2020), 1\u201325.",
+      "doi": ""
+    },
+    {
+      "text": "Philip A\u00a0E Brey. 2012. Anticipatory Ethics for Emerging Technologies. Nanoethics 6, 1 (April 2012), 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Shea Brown, Jovana Davidovic, and Ali Hasan. 2021. The algorithm audit: Scoring the algorithms that score us. Big Data & Society 8, 1 (Jan. 2021), 2053951720983865.",
+      "doi": ""
+    },
+    {
+      "text": "Nikhil Bugalia, Surjyatapa\u00a0R Choudhury, Yu Maemura, and K\u00a0E Seetharam. 2022. A systems theoretic process analysis (STPA) approach for analyzing the governance structure of fecal sludge management in Japan. Environment and Planning B: Urban Analytics and City Science 49, 8 (Oct. 2022), 2168\u20132194.",
+      "doi": ""
+    },
+    {
+      "text": "Jenna Burrell. 2016. How the machine \u2018thinks\u2019: Understanding opacity in machine learning algorithms. Big Data & Society 3, 1 (2016), 2053951715622512. https://doi.org/10.1177/2053951715622512 arXiv:https://doi.org/10.1177/2053951715622512",
+      "doi": ""
+    },
+    {
+      "text": "Dallas Card and Noah\u00a0A Smith. 2020. On Consequentialism and Fairness. Frontiers in Artificial Intelligence 3 (2020), 34.",
+      "doi": ""
+    },
+    {
+      "text": "Carl Carlson. 2012. Effective FMEAs: achieving safe, reliable, and economical products and processes using failure mode and effects analysis. Wiley, Hoboken, N.J.",
+      "doi": ""
+    },
+    {
+      "text": "Le Chen, Alan Mislove, and Christo Wilson. 2016. An Empirical Analysis of Algorithmic Pricing on Amazon Marketplace. In Proceedings of the 25th International Conference on World Wide Web (Montr\u00e9al, Qu\u00e9bec, Canada) (WWW \u201916). International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE, 1339\u20131349.",
+      "doi": ""
+    },
+    {
+      "text": "Mayee Chen, Karan Goel, Nimit\u00a0S Sohoni, Fait Poms, Kayvon Fatahalian, and Christopher Re. 2021. Mandoline: Model Evaluation under Distribution Shift. Proceedings of Machine Learning Research 139 (2021), 1617\u20131629.",
+      "doi": ""
+    },
+    {
+      "text": "Alex Chohlas-Wood, Madison Coots, Henry Zhu, Emma Brunskill, and Sharad Goel. 2021. Learning to be Fair: A Consequentialist Approach to Equitable Decision-Making. https://doi.org/10.48550/ARXIV.2109.08792",
+      "doi": ""
+    },
+    {
+      "text": "A\u00a0Feder Cooper, Emanuel Moss, Benjamin Laufer, and Helen Nissenbaum. 2022. Accountability in an Algorithmic Society: Relationality, Responsibility, and Robustness in Machine Learning. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 864\u2013876.",
+      "doi": "10.1145/3531146.3533150"
+    },
+    {
+      "text": "Sam Corbett-Davies and Sharad Goel. 2018. The measure and mismeasure of fairness: A critical review of fair machine learning.",
+      "doi": ""
+    },
+    {
+      "text": "Sam Corbett-Davies, Emma Pierson, Avi Feller, Sharad Goel, and Aziz Huq. 2017. Algorithmic Decision Making and the Cost of Fairness. In Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining(Halifax, NS, Canada) (KDD \u201917). Association for Computing Machinery, New York, NY, USA, 797\u2013806.",
+      "doi": "10.1145/3097983.3098095"
+    },
+    {
+      "text": "Sasha Costanza-Chock, Inioluwa\u00a0Deborah Raji, and Joy Buolamwini. 2022. Who Audits the Auditors? Recommendations from a field scan of the algorithmic auditing ecosystem. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 1571\u20131583.",
+      "doi": "10.1145/3531146.3533213"
+    },
+    {
+      "text": "Henriette Cramer, Jean Garcia-Gathright, Aaron Springer, and Sravana Reddy. 2018. Assessing and Addressing Algorithmic Bias in Practice. Interactions 25, 6 (oct 2018), 58\u201363. https://doi.org/10.1145/3278156",
+      "doi": "10.1145/3278156"
+    },
+    {
+      "text": "Catherine D\u2019Ignazio and Lauren\u00a0F Klein. 2021. Data Feminism. Tantor Audio.",
+      "doi": ""
+    },
+    {
+      "text": "Roel Dobbe. 2022. System Safety and Artificial Intelligence. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 1584.",
+      "doi": ""
+    },
+    {
+      "text": "John Downer. 2011. \u201c737-Cabriolet\u201d: The Limits of Knowledge and the Sociology of Inevitable Failure. Amer. J. Sociology 117, 3 (2011), 725\u2013762.",
+      "doi": ""
+    },
+    {
+      "text": "Upol Ehsan, Q\u00a0Vera Liao, Michael Muller, Mark\u00a0O Riedl, and Justin\u00a0D Weisz. 2021. Expanding Explainability: Towards Social Transparency in AI systems. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921, Article 82). Association for Computing Machinery, New York, NY, USA, 1\u201319.",
+      "doi": "10.1145/3411764.3445188"
+    },
+    {
+      "text": "Upol Ehsan, Ranjit Singh, Jacob Metcalf, and Mark Riedl. 2022. The Algorithmic Imprint. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 1305\u20131317.",
+      "doi": ""
+    },
+    {
+      "text": "Clifton\u00a0A Ericson 2015. Hazard analysis techniques for system safety. John Wiley & Sons.",
+      "doi": ""
+    },
+    {
+      "text": "Allyson Ettinger, Sudha Rao, Hal Daum\u00e9\u00a0III, and Emily\u00a0M. Bender. 2017. Towards Linguistically Generalizable NLP Systems: A Workshop and Shared Task. In Proceedings of the First Workshop on Building Linguistically Generalizable NLP Systems. Association for Computational Linguistics, Copenhagen, Denmark, 1\u201310. https://doi.org/10.18653/v1/W17-5401",
+      "doi": ""
+    },
+    {
+      "text": "European Commission. 2021. Proposal for a Regulation laying down harmonised rules on artificial intelligence. https://digital-strategy.ec.europa.eu/en/library/proposal-regulation-laying-down-harmonised-rules-artificial-intelligence. Accessed: 2022-9-10.",
+      "doi": ""
+    },
+    {
+      "text": "Luciano Floridi and Andrew Strait. 2020. Ethical Foresight Analysis: What it is and Why it is Needed?Minds Mach. 30, 1 (March 2020), 77\u201397.",
+      "doi": ""
+    },
+    {
+      "text": "Jade\u00a0S Franklin, Karan Bhanot, Mohamed Ghalwash, Kristin\u00a0P Bennett, Jamie McCusker, and Deborah\u00a0L McGuinness. 2022. An Ontology for Fairness Metrics. In Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society (Oxford, United Kingdom) (AIES \u201922). Association for Computing Machinery, New York, NY, USA, 265\u2013275.",
+      "doi": "10.1145/3514094.3534137"
+    },
+    {
+      "text": "Batya Friedman and David\u00a0G Hendry. 2019. Value Sensitive Design: Shaping Technology with Moral Imagination. MIT Press.",
+      "doi": ""
+    },
+    {
+      "text": "Batya Friedman, Nancy Levenson, Ben Shneiderman, Lucy Suchman, and Terry Winograd. 1994. Beyond accuracy, reliability, and efficiency: criteria for a good computer system. In Conference Companion on Human Factors in Computing Systems (Boston, Massachusetts, USA) (CHI \u201994). Association for Computing Machinery, New York, NY, USA, 195\u2013198.",
+      "doi": "10.1145/259963.260253"
+    },
+    {
+      "text": "Batya Friedman and Helen Nissenbaum. 1996. Bias in computer systems. ACM Trans. Inf. Syst. Secur. 14, 3 (July 1996), 330\u2013347.",
+      "doi": "10.1145/230538.230561"
+    },
+    {
+      "text": "Sahaj Garg, Vincent Perot, Nicole Limtiaco, Ankur Taly, Ed\u00a0H Chi, and Alex Beutel. 2019. Counterfactual Fairness in Text Classification through Robustness. In Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society (Honolulu, HI, USA) (AIES \u201919). Association for Computing Machinery, New York, NY, USA, 219\u2013226.",
+      "doi": "10.1145/3306618.3317950"
+    },
+    {
+      "text": "Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer\u00a0Wortman Vaughan, Hanna Wallach, Hal\u00a0Daum\u00e9 Iii, and Kate Crawford. 2021. Datasheets for datasets. Commun. ACM 64, 12 (Nov. 2021), 86\u201392.",
+      "doi": "10.1145/3458723"
+    },
+    {
+      "text": "Government of Canada. 2022. Bill C-27 summary: Digital Charter Implementation Act, 2022. https://ised-isde.canada.ca/site/innovation-better-canada/en/canadas-digital-charter/bill-summary-digital-charter-implementation-act-2020. Accessed: 2022-9-10.",
+      "doi": ""
+    },
+    {
+      "text": "Alex Hanna, Emily Denton, Andrew Smart, and Jamila Smith-Loud. 2020. Towards a critical race methodology in algorithmic fairness. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (Barcelona, Spain) (FAT* \u201920). Association for Computing Machinery, New York, NY, USA, 501\u2013512.",
+      "doi": "10.1145/3351095.3372826"
+    },
+    {
+      "text": "Christina\u00a0N. Harrington, Shamika Klassen, and Yolanda\u00a0A. Rankin. 2022. \u201cAll That You Touch, You Change\u201d: Expanding the Canon of Speculative Design Towards Black Futuring. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 450, 10\u00a0pages. https://doi.org/10.1145/3491102.3502118",
+      "doi": "10.1145/3491102.3502118"
+    },
+    {
+      "text": "Kenneth Holstein, Jennifer Wortman\u00a0Vaughan, Hal Daum\u00e9, Miro Dudik, and Hanna Wallach. 2019. Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201316. https://doi.org/10.1145/3290605.3300830",
+      "doi": "10.1145/3290605.3300830"
+    },
+    {
+      "text": "Alexis Hope, Catherine D\u2019Ignazio, Josephine Hoy, Rebecca Michelson, Jennifer Roberts, Kate Krontiris, and Ethan Zuckerman. 2019. Hackathons as Participatory Design: Iterating Feminist Utopias. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300291",
+      "doi": "10.1145/3290605.3300291"
+    },
+    {
+      "text": "Ben Hutchinson, Negar Rostamzadeh, Christina Greer, Katherine Heller, and Vinodkumar Prabhakaran. 2022. Evaluation Gaps in Machine Learning Practice. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 1859\u20131876.",
+      "doi": "10.1145/3531146.3533233"
+    },
+    {
+      "text": "Takuto Ishimatsu, Nancy\u00a0G Leveson, John\u00a0P Thomas, Cody\u00a0H Fleming, Masafumi Katahira, Yuko Miyamoto, Ryo Ujiie, Haruka Nakao, and Nobuyuki Hoshino. 2014. Hazard Analysis of Complex Spacecraft Using Systems-Theoretic Process Analysis. J. Spacecr. Rockets 51, 2 (March 2014), 509\u2013522.",
+      "doi": ""
+    },
+    {
+      "text": "Sheila Jasanoff. 2004. States of Knowledge: The Co-Production of Science and Social Order. Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Kouroush Jenab and Joseph Pineau. 2015. Failure mode and effect analysis on safety critical components of space travel. Manag. Sci. Lett. 5, 7 (2015), 669\u2013678.",
+      "doi": ""
+    },
+    {
+      "text": "Anna Jobin, Marcello Ienca, and Effy Vayena. 2019. The global landscape of AI ethics guidelines. Nature Machine Intelligence 1, 9 (Sept. 2019), 389\u2013399.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Kay, Cynthia Matuszek, and Sean\u00a0A Munson. 2015. Unequal Representation and Gender Stereotypes in Image Search Results for Occupations. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 3819\u20133828.",
+      "doi": "10.1145/2702123.2702520"
+    },
+    {
+      "text": "Os Keyes. 2018. The Misgendering Machines: Trans/HCI Implications of Automatic Gender Recognition. Proc. ACM Hum.-Comput. Interact. 2, CSCW, Article 88 (nov 2018), 22\u00a0pages. https://doi.org/10.1145/3274357",
+      "doi": "10.1145/3274357"
+    },
+    {
+      "text": "Goda Klumbyt\u0117, Claude Draude, and Alex\u00a0S Taylor. 2022. Critical Tools for Machine Learning: Working with Intersectional Critical Concepts in Machine Learning Systems Design. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 1528\u20131541.",
+      "doi": ""
+    },
+    {
+      "text": "Pang\u00a0Wei Koh, Shiori Sagawa, Henrik Marklund, Sang\u00a0Michael Xie, Marvin Zhang, Akshay Balsubramani, Weihua Hu, Michihiro Yasunaga, Richard\u00a0Lanas Phillips, Irena Gao, Tony Lee, Etienne David, Ian Stavness, Wei Guo, Berton Earnshaw, Imran Haque, Sara\u00a0M Beery, Jure Leskovec, Anshul Kundaje, Emma Pierson, Sergey Levine, Chelsea Finn, and Percy Liang. 2021. WILDS: A Benchmark of in-the-Wild Distribution Shifts. In Proceedings of the 38th International Conference on Machine Learning(Proceedings of Machine Learning Research, Vol.\u00a0139), Marina Meila and Tong Zhang (Eds.). PMLR, 5637\u20135664.",
+      "doi": ""
+    },
+    {
+      "text": "P.\u00a0M. Krafft, Meg Young, Michael Katell, Karen Huang, and Ghislain Bugingo. 2020. Defining AI in Policy versus Practice. In Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (New York, NY, USA) (AIES \u201920). Association for Computing Machinery, New York, NY, USA, 72\u201378. https://doi.org/10.1145/3375627.3375835",
+      "doi": "10.1145/3375627.3375835"
+    },
+    {
+      "text": "Joshua\u00a0A Kroll. 2018. The fallacy of inscrutability. Phil. Trans. R. Soc. A 376, 2133 (2018), 14\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Joshua\u00a0A. Kroll, Joanna Huey, Solon Barocas, Edward\u00a0W. Felten, Joel\u00a0R. Reidenberg, David\u00a0G. Robinson, and Harlan Yu.2017. Accountable Algorithms. University of Pennsylvania Law Review 165 (2017), 633\u2013705. Issue 3.",
+      "doi": ""
+    },
+    {
+      "text": "Information\u00a0Technology Laboratory. 2021. AI Risk Management Framework | NIST. https://www.nist.gov/itl/ai-risk-management-framework. Accessed: 2022-9-10.",
+      "doi": ""
+    },
+    {
+      "text": "Mark Latonero and Aaina Agarwal. 2021. Human Rights Impact Assessments for AI: Learning from Facebook\u2019s Failure in Myanmar. Technical Report. Carr Center for Human Rights Policy Harvard Kennedy School, Harvard University.",
+      "doi": ""
+    },
+    {
+      "text": "Min\u00a0Kyung Lee, Anuraag Jain, Hea\u00a0Jin Cha, Shashank Ojha, and Daniel Kusbit. 2019. Procedural Justice in Algorithmic Fairness: Leveraging Transparency and Outcome Control for Fair Algorithmic Mediation. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 182 (nov 2019), 26\u00a0pages. https://doi.org/10.1145/3359284",
+      "doi": "10.1145/3359284"
+    },
+    {
+      "text": "Min\u00a0Kyung Lee, Daniel Kusbit, Anson Kahng, Ji\u00a0Tae Kim, Xinran Yuan, Allissa Chan, Daniel See, Ritesh Noothigattu, Siheon Lee, Alexandros Psomas, and Ariel\u00a0D. Procaccia. 2019. WeBuildAI: Participatory Framework for Algorithmic Governance. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 181 (nov 2019), 35\u00a0pages. https://doi.org/10.1145/3359283",
+      "doi": "10.1145/3359283"
+    },
+    {
+      "text": "Michelle Seng\u00a0Ah Lee and Jat Singh. 2021. The Landscape and Gaps in Open Source Fairness Toolkits. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921, Article 699). Association for Computing Machinery, New York, NY, USA, 1\u201313.",
+      "doi": "10.1145/3411764.3445261"
+    },
+    {
+      "text": "Nancy Leveson and John Thomas. 2018. STPA_Handbook. https://psas.scripts.mit.edu/home/get_file.php?name=STPA_handbook.pdf.",
+      "doi": ""
+    },
+    {
+      "text": "Nancy\u00a0G Leveson. 2016. Engineering a safer world: Systems thinking applied to safety. The MIT Press, Cambridge, MA.",
+      "doi": ""
+    },
+    {
+      "text": "Jamy Li and Mark Chignell. 2022. FMEA-AI: AI fairness impact assessment using failure mode and effects analysis. AI and Ethics 2, 4 (Nov. 2022), 837\u2013850.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0Pu Liang, Irene\u00a0Mengze Li, Emily Zheng, Yao\u00a0Chong Lim, Ruslan Salakhutdinov, and Louis-Philippe Morency. 2020. Towards Debiasing Sentence Representations. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Online, 5502\u20135515.",
+      "doi": ""
+    },
+    {
+      "text": "Q\u00a0Vera Liao, Daniel Gruen, and Sarah Miller. 2020. Questioning the AI: Informing Design Practices for Explainable AI User Experiences. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201315.",
+      "doi": "10.1145/3313831.3376590"
+    },
+    {
+      "text": "Thomas Liao, Rohan Taori, Inioluwa\u00a0Deborah Raji, and Ludwig Schmidt. 2021. Are We Learning Yet? A Meta Review of Evaluation Failures Across Machine Learning. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2). https://openreview.net/forum?id=mPducS1MsEK",
+      "doi": ""
+    },
+    {
+      "text": "Huai-Wei Lo, James J\u00a0H Liou, Jen-Jen Yang, Chun-Nen Huang, Yu-Hsuan Lu, and Alireza Amirteimoori. 2021. An Extended FMEA Model for Exploring the Potential Failure Modes: A Case Study of a Steam Turbine for a Nuclear Power Plant. Complexity 2021 (Jan. 2021).",
+      "doi": ""
+    },
+    {
+      "text": "Michael Madaio, Lisa Egede, Hariharan Subramonyam, Jennifer\u00a0Wortman Vaughan, and Hanna Wallach. 2022. Assessing the Fairness of AI Systems: AI Practitioners\u2019 Processes, Challenges, and Needs for Support., 26\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0A. Madaio, Luke Stark, Jennifer Wortman\u00a0Vaughan, and Hanna Wallach. 2020. Co-Designing Checklists to Understand Organizational Challenges and Opportunities around Fairness in AI. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376445",
+      "doi": "10.1145/3313831.3376445"
+    },
+    {
+      "text": "Monique Mann and Tobias Matzner. 2019. Challenging algorithmic profiling: The limits of data protection and anti-discrimination in responding to emergent discrimination. Big Data & Society 6, 2 (July 2019), 2053951719895805.",
+      "doi": ""
+    },
+    {
+      "text": "Alessandro Mantelero. 2022. Human Rights Impact Assessment and AI. In Beyond Data: Human Rights, Ethical and Social Impact Assessment in AI, Alessandro Mantelero (Ed.). T.M.C. Asser Press, The Hague, 45\u201391.",
+      "doi": ""
+    },
+    {
+      "text": "Nikolas Martelaro, Carol\u00a0J. Smith, and Tamara Zilovic. 2022. Exploring Opportunities in Usable Hazard Analysis Processes for AI Engineering. https://doi.org/10.48550/ARXIV.2203.15628",
+      "doi": ""
+    },
+    {
+      "text": "Donald Martin, Vinodkumar Prabhakaran, Jill Kuhlberg, Andrew Smart, and William\u00a0S. Isaac. 2020. Participatory Problem Formulation for Fairer Machine Learning Through Community Based System Dynamics. https://doi.org/10.48550/ARXIV.2005.07572",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Metcalf, Emanuel Moss, and Danah Boyd. 2019. Owning Ethics: Corporate Logics, Silicon Valley, and the Institutionalization of Ethics. Social Research: An International Quarterly 86, 2 (2019), 449\u2013476.",
+      "doi": ""
+    },
+    {
+      "text": "Jason Millar. 2020. Social Failure Modes in Technology and the Ethics of AI: An Engineering Perspective. In The Oxford Handbook of Ethics of AI. Oxford University Press, Online. https://doi.org/10.1093/oxfordhb/9780190067397.013.28",
+      "doi": ""
+    },
+    {
+      "text": "Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa\u00a0Deborah Raji, and Timnit Gebru. 2019. Model Cards for Model Reporting. In Proceedings of the Conference on Fairness, Accountability, and Transparency (Atlanta, GA, USA) (FAT* \u201919). Association for Computing Machinery, New York, NY, USA, 220\u2013229.",
+      "doi": "10.1145/3287560.3287596"
+    },
+    {
+      "text": "Shakir Mohamed, Marie-Therese Png, and William Isaac. 2020. Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence. Philos. Technol. 33, 4 (Dec. 2020), 659\u2013684.",
+      "doi": ""
+    },
+    {
+      "text": "Christoph Molnar, Giuseppe Casalicchio, and Bernd Bischl. 2020. Quantifying Model Complexity via Functional Decomposition for Better Post-hoc Interpretability. In Machine Learning and Knowledge Discovery in Databases. Springer International Publishing, 193\u2013204.",
+      "doi": ""
+    },
+    {
+      "text": "Emanuel Moss, Elizabeth\u00a0Anne Watkins, Ranjit Singh, Madeleine\u00a0Clare Elish, and Jacob Metcalf. 2021. Assembling Accountability: Algorithmic Impact Assessment for the Public Interest. (June 2021).",
+      "doi": ""
+    },
+    {
+      "text": "Nadia Nahar, Shurui Zhou, Grace Lewis, and Christian K\u00e4stner. 2022. Collaboration Challenges in Building ML-Enabled Systems: Communication, Documentation, Engineering, and Process. In Proceedings of the 44th International Conference on Software Engineering (Pittsburgh, Pennsylvania) (ICSE \u201922). Association for Computing Machinery, New York, NY, USA, 413\u2013425. https://doi.org/10.1145/3510003.3510209",
+      "doi": "10.1145/3510003.3510209"
+    },
+    {
+      "text": "Helen Ngo, Cooper Raterink, Jo\u00e3o G.\u00a0M. Ara\u00fajo, Ivan Zhang, Carol Chen, Adrien Morisot, and Nicholas Frosst. 2021. Mitigating harm in language models with conditional-likelihood filtration. https://doi.org/10.48550/ARXIV.2108.07790",
+      "doi": ""
+    },
+    {
+      "text": "H Nissenbaum. 2001. How computer systems embody values. Computer 34, 3 (March 2001), 120\u2013119.",
+      "doi": "10.1109/2.910905"
+    },
+    {
+      "text": "Safiya\u00a0Umoja Noble. 2018. Algorithms of Oppression: How Search Engines Reinforce Racism. NYU Press, New York, NY.",
+      "doi": ""
+    },
+    {
+      "text": "Brandie Nonnecke and Philip Dawson. 2022. Human rights impact assessments for AI: analysis and recommendations. Technical Report. accessnow.",
+      "doi": ""
+    },
+    {
+      "text": "International\u00a0Standards Organization. 2022. ISO - ISO/IEC JTC 1/SC 42 - Artificial intelligence. https://www.iso.org/committee/6794475/x/catalogue/. Accessed: 2022-9-10.",
+      "doi": ""
+    },
+    {
+      "text": "Wanda\u00a0J Orlikowski. 2000. Using Technology and Constituting Structures: A Practice Lens for Studying Technology in Organizations. Organization Science 11, 4 (2000), 404\u2013428.",
+      "doi": "10.1287/orsc.11.4.404.14600"
+    },
+    {
+      "text": "Riccardo Patriarca, Mikela Chatzimichailidou, Nektarios Karanikas, and Giulio Di\u00a0Gravio. 2022. The past and present of System-Theoretic Accident Model And Processes (STAMP) and its associated techniques: A scoping review. Saf. Sci. 146 (Feb. 2022), 105566.",
+      "doi": ""
+    },
+    {
+      "text": "Todd Pawlicki, Aubrey Samost, Derek\u00a0W Brown, Ryan\u00a0P Manger, Gwe-Ya Kim, and Nancy\u00a0G Leveson. 2016. Application of systems and control theory-based hazard analysis to radiation oncology. Med. Phys. 43, 3 (March 2016), 1514\u20131530.",
+      "doi": ""
+    },
+    {
+      "text": "Charles Perrow. 1984. Normal accidents: Living with high risk technologies. Basic Books, New York.",
+      "doi": ""
+    },
+    {
+      "text": "Forough Poursabzi-Sangdeh, Daniel\u00a0G Goldstein, Jake\u00a0M Hofman, Jennifer\u00a0Wortman Wortman\u00a0Vaughan, and Hanna Wallach. 2021. Manipulating and Measuring Model Interpretability. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921, Article 237). Association for Computing Machinery, New York, NY, USA, 1\u201352.",
+      "doi": "10.1145/3411764.3445315"
+    },
+    {
+      "text": "Vinodkumar Prabhakaran, Margaret Mitchell, Timnit Gebru, and Iason Gabriel. 2022. A Human Rights-Based Approach to Responsible AI. https://doi.org/10.48550/ARXIV.2210.02667",
+      "doi": ""
+    },
+    {
+      "text": "Inioluwa\u00a0Deborah Raji, I\u00a0Elizabeth Kumar, Aaron Horowitz, and Andrew Selbst. 2022. The Fallacy of AI Functionality. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 959\u2013972.",
+      "doi": ""
+    },
+    {
+      "text": "Inioluwa\u00a0Deborah Raji, Andrew Smart, Rebecca\u00a0N White, Margaret Mitchell, Timnit Gebru, Ben Hutchinson, Jamila Smith-Loud, Daniel Theron, and Parker Barnes. 2020. Closing the AI accountability gap: defining an end-to-end framework for internal algorithmic auditing. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (Barcelona, Spain) (FAT* \u201920). Association for Computing Machinery, New York, NY, USA, 33\u201344.",
+      "doi": "10.1145/3351095.3372873"
+    },
+    {
+      "text": "Inioluwa\u00a0Deborah Raji, Andrew Smart, Rebecca\u00a0N. White, Margaret Mitchell, Timnit Gebru, Ben Hutchinson, Jamila Smith-Loud, Daniel Theron, and Parker Barnes. 2020. Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (Barcelona, Spain) (FAT* \u201920). Association for Computing Machinery, New York, NY, USA, 33\u201344. https://doi.org/10.1145/3351095.3372873",
+      "doi": "10.1145/3351095.3372873"
+    },
+    {
+      "text": "Bogdana Rakova, Jingying Yang, Henriette Cramer, and Rumman Chowdhury. 2021. Where Responsible AI Meets Reality: Practitioner Perspectives on Enablers for Shifting Organizational Practices. Proc. ACM Hum.-Comput. Interact. 5, CSCW1, Article 7 (apr 2021), 23\u00a0pages. https://doi.org/10.1145/3449081",
+      "doi": "10.1145/3449081"
+    },
+    {
+      "text": "Bogdana Rakova, Jingying Yang, Henriette Cramer, and Rumman Chowdhury. 2021. Where Responsible AI meets Reality: Practitioner Perspectives on Enablers for Shifting Organizational Practices. Proc. ACM Hum.-Comput. Interact. 5, CSCW1 (April 2021), 1\u201323.",
+      "doi": "10.1145/3449081"
+    },
+    {
+      "text": "Lydia Reader, Pegah Nokhiz, Cathleen Power, Neal Patwari, Suresh Venkatasubramanian, and Sorelle Friedler. 2022. Models for understanding and quantifying feedback in societal systems. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 1765\u20131775.",
+      "doi": "10.1145/3531146.3533230"
+    },
+    {
+      "text": "Shalaleh Rismani and Ajung Moon. 2021. How do AI systems fail socially?: an engineering risk analysis approach. In 2021 IEEE International Symposium on Ethics in Engineering, Science and Technology (ETHICS). Online, 1\u20138. https://doi.org/10.1109/ETHICS53270.2021.9632769",
+      "doi": ""
+    },
+    {
+      "text": "Clarence\u00a0C Rodrigues, Stephen\u00a0K Cusick, 2012. Commercial aviation safety. McGraw-Hill Education.",
+      "doi": ""
+    },
+    {
+      "text": "Negar Rostamzadeh, Ben Hutchinson, Christina Greer, and Vinodkumar Prabhakaran. 2021. Thinking Beyond Distributions in Testing Machine Learned Models. https://doi.org/10.48550/ARXIV.2112.03057",
+      "doi": ""
+    },
+    {
+      "text": "Nataniel Ruiz, Adam Kortylewski, Weichao Qiu, Cihang Xie, Sarah\u00a0Adel Bargal, Alan Yuille, and Stan Sclaroff. 2022. Simulated Adversarial Testing of Face Recognition Models. In 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 4135\u20134145.",
+      "doi": ""
+    },
+    {
+      "text": "Nithya Sambasivan, Erin Arnesen, Ben Hutchinson, Tulsee Doshi, and Vinodkumar Prabhakaran. 2021. Re-Imagining Algorithmic Fairness in India and Beyond. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (Virtual Event, Canada) (FAccT \u201921). Association for Computing Machinery, New York, NY, USA, 315\u2013328. https://doi.org/10.1145/3442188.3445896",
+      "doi": "10.1145/3442188.3445896"
+    },
+    {
+      "text": "Andrew\u00a0D Selbst. 2020. Negligence and AI\u2019s human users. BUL Rev. 100(2020), 1315.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0D Selbst, Danah Boyd, Sorelle\u00a0A Friedler, Suresh Venkatasubramanian, and Janet Vertesi. 2019. Fairness and Abstraction in Sociotechnical Systems. In Proceedings of the Conference on Fairness, Accountability, and Transparency (Atlanta, GA, USA) (FAT* \u201919). Association for Computing Machinery, New York, NY, USA, 59\u201368.",
+      "doi": "10.1145/3287560.3287598"
+    },
+    {
+      "text": "Renee Shelby, Shalaleh Rismani, Kathryn Henne, Ajung Moon, Negar Rostamzadeh, Paul Nicholas, N\u2019mah Yilla, Jess Gallegos, Andrew Smart, Emilio Garcia, and Gurleen Virk. 2022. Identifying Sociotechnical Harms of Algorithmic Systems: Scoping a Taxonomy for Harm Reduction. (Oct. 2022). arxiv:2210.05791\u00a0[cs.HC]",
+      "doi": ""
+    },
+    {
+      "text": "Hong Shen, Alicia DeVos, Motahhare Eslami, and Kenneth Holstein. 2021. Everyday Algorithm Auditing: Understanding the Power of Everyday Users in Surfacing Harmful Algorithmic Behaviors. Proc. ACM Hum.-Comput. Interact. 5, CSCW2 (Oct. 2021), 1\u201329.",
+      "doi": "10.1145/3479577"
+    },
+    {
+      "text": "Katie Shilton. 2013. Values Levers: Building Ethics into Design. Sci. Technol. Human Values 38, 3 (May 2013), 374\u2013397.",
+      "doi": ""
+    },
+    {
+      "text": "Sung-Min Shin, Sang\u00a0Hun Lee, Seung K\u00a0I Shin, Inseok Jang, and Jinkyun Park. 2021. STPA-Based Hazard and Importance Analysis on NPP Safety I&C Systems Focusing on Human\u2013System Interactions. Reliab. Eng. Syst. Saf. 213 (Sept. 2021), 107698.",
+      "doi": ""
+    },
+    {
+      "text": "Kristin\u00a0Sharon Shrader-Frechette. 1991. Risk and rationality: Philosophical foundations for populist reforms. University of California Press, California, U.S.",
+      "doi": ""
+    },
+    {
+      "text": "Mona Sloane and Janina Zakrzewski. 2022. German AI Start-Ups and \u201cAI Ethics\u201d: Using A Social Practice Lens for Assessing and Implementing Socio-Technical Innovation. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 935\u2013947. https://doi.org/10.1145/3531146.3533156",
+      "doi": "10.1145/3531146.3533156"
+    },
+    {
+      "text": "Katta Spiel, Os Keyes, Ashley\u00a0Marie Walker, Michael\u00a0A DeVito, Jeremy Birnholtz, Emeline Brul\u00e9, Ann Light, P\u0131nar Barlas, Jean Hardy, Alex Ahmed, Jennifer\u00a0A Rode, Jed\u00a0R Brubaker, and Gopinaath Kannabiran. 2019. Queer(ing) HCI: Moving Forward in Theory and Practice. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919, Paper SIG11). Association for Computing Machinery, New York, NY, USA, 1\u20134.",
+      "doi": "10.1145/3290607.3311750"
+    },
+    {
+      "text": "Alexander Styhre. 2018. The Unfinished Business of Governance: Monitoring and Regulating Industries and Organizations. Edward Elgar Publishing.",
+      "doi": ""
+    },
+    {
+      "text": "Masashi Sugiyama, Shinichi Nakajima, Hisashi Kashima, Paul Buenau, and Motoaki Kawanabe. 2007. Direct Importance Estimation with Model Selection and Its Application to Covariate Shift Adaptation. In Advances in Neural Information Processing Systems, J.\u00a0Platt, D.\u00a0Koller, Y.\u00a0Singer, and S.\u00a0Roweis (Eds.). Vol.\u00a020. Curran Associates, Inc.https://proceedings.neurips.cc/paper/2007/file/be83ab3ecd0db773eb2dc1b0a17836a1-Paper.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Sardar\u00a0Muhammad Sulaman, Armin Beer, Michael Felderer, and Martin H\u00f6st. 2019. Comparison of the FMEA and STPA safety analysis methods\u2013a case study. Software Quality Journal 27, 1 (March 2019), 349\u2013387.",
+      "doi": "10.1007/s11219-017-9396-0"
+    },
+    {
+      "text": "Harini Suresh and John Guttag. 2021. A Framework for Understanding Sources of Harm throughout the Machine Learning Life Cycle. In Equity and Access in Algorithms, Mechanisms, and Optimization (\u2013, NY, USA) (EAAMO \u201921, Article 17). Association for Computing Machinery, New York, NY, USA, 1\u20139.",
+      "doi": "10.1145/3465416.3483305"
+    },
+    {
+      "text": "Takuto Ishimatsu, Nancy Leveson, John Thomas, Masa Katahira, Yuko Miyamoto, Haruka Nakao. 2010. Proceedings of the 4th IAASS Conference. In Making Safety Matter (Huntsville, Alabama). International Association for the Advancement of Space Safety (IAASS).",
+      "doi": ""
+    },
+    {
+      "text": "Rachael Tatman. 2017. Gender and Dialect Bias in YouTube\u2019s Automatic Captions. In Proceedings of the First ACL Workshop on Ethics in Natural Language Processing. Association for Computational Linguistics, Valencia, Spain, 53\u201359.",
+      "doi": ""
+    },
+    {
+      "text": "Treasury Board of Canada Secretariat. 2019. Directive on Automated Decision-Making. https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592. Accessed: 2022-9-15.",
+      "doi": ""
+    },
+    {
+      "text": "Steven Umbrello. 2019. Beneficial Artificial Intelligence Coordination by Means of a Value Sensitive Design Approach. Big Data and Cognitive Computing 3, 1 (Jan. 2019), 5.",
+      "doi": ""
+    },
+    {
+      "text": "Diane Vaughan. 1996. The Challenger launch decision: Risky technology, culture, and deviance at NASA. University of Chicago press.",
+      "doi": ""
+    },
+    {
+      "text": "Thiemo Wambsganss, Anne H\u00f6ch, Naim Zierau, and Matthias S\u00f6llner. 2021. Ethical Design of Conversational Agents: Towards Principles for a Value-Sensitive Design. In Innovation Through Information Systems, Frederik Ahlemann, Reinhard Sch\u00fctte, and Stefan Stieglitz (Eds.). Springer International Publishing, Cham, 539\u2013557.",
+      "doi": ""
+    },
+    {
+      "text": "Laura Weidinger, Jonathan Uesato, Maribeth Rauh, Conor Griffin, Po-Sen Huang, John Mellor, Amelia Glaese, Myra Cheng, Borja Balle, Atoosa Kasirzadeh, Courtney Biles, Sasha Brown, Zac Kenton, Will Hawkins, Tom Stepleton, Abeba Birhane, Lisa\u00a0Anne Hendricks, Laura Rimell, William Isaac, Julia Haas, Sean Legassick, Geoffrey Irving, and Iason Gabriel. 2022. Taxonomy of Risks posed by Language Models. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 214\u2013229.",
+      "doi": "10.1145/3531146.3533088"
+    },
+    {
+      "text": "Jess Whittlestone, Rune Nyrup, Anna Alexandrova, and Stephen Cave. 2019. The Role and Limits of Principles in AI Ethics: Towards a Focus on Tensions. In Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society (Honolulu, HI, USA) (AIES \u201919). Association for Computing Machinery, New York, NY, USA, 195\u2013200.",
+      "doi": "10.1145/3306618.3314289"
+    },
+    {
+      "text": "Richmond\u00a0Y. Wong, Michael\u00a0A. Madaio, and Nick Merrill. 2022. Seeing Like a Toolkit: How Toolkits Envision the Work of AI Ethics. https://doi.org/10.48550/ARXIV.2202.08792",
+      "doi": ""
+    },
+    {
+      "text": "Guoyang Zeng, Fanchao Qi, Qianrui Zhou, Tingji Zhang, Zixian Ma, Bairu Hou, Yuan Zang, Zhiyuan Liu, and Maosong Sun. 2021. OpenAttack: An Open-source Textual Adversarial Attack Toolkit. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: System Demonstrations. Association for Computational Linguistics, Online, 363\u2013371.",
+      "doi": ""
+    },
+    {
+      "text": "Wei\u00a0Emma Zhang, Quan\u00a0Z Sheng, Ahoud Alhazmi, and Chenliang Li. 2020. Adversarial attacks on deep-learning models in natural language processing: A survey. ACM Transactions on Intelligent Systems and Technology (TIST) 11, 3(2020), 1\u201341.",
+      "doi": "10.1145/3384675"
+    },
+    {
+      "text": "Douglas Zytko, Pamela J.\u00a0Wisniewski, Shion Guha, Eric P.\u00a0S.\u00a0Baumer, and Min\u00a0Kyung Lee. 2022. Participatory Design of AI Systems: Opportunities and Challenges Across Diverse Users, Relationships, and Application Domains. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 154, 4\u00a0pages. https://doi.org/10.1145/3491101.3516506",
+      "doi": "10.1145/3491101.3516506"
+    }
+  ]
+}

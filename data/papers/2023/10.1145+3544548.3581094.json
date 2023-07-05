@@ -1,0 +1,574 @@
+{
+  "doi": "10.1145/3544548.3581094",
+  "title": "Libraries of Things: Understanding the Challenges of Sharing Tangible Collections and the Opportunities for HCI",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2023,
+  "badges": [],
+  "abstract": "\u201cLibraries of Things\u201d are tangible collections of borrowable objects. There are many benefits to Libraries of Things such as making objects and skill-building accessible, reducing waste through the sharing of items, and saving costs associated with purchasing rarely-used items. We introduce the first HCI study of Library of Things by interviewing 23 librarians who run a variety of collections such as handheld tools, gear, and musical instruments \u2013 within public institutions and more grass-roots efforts in the private sector. In our findings, we discuss the challenges these collections experience in changing behavioural patterns from buying to borrowing, helping individuals \u2018try new things\u2019, iterating to find sharable items, training staff, and manual intervention throughout the borrowing cycle. We present 5 opportunities for HCI research to support interactive skill-sharing, self-borrowing, maintenance recognition and cataloguing \u2018things\u2019, organizing non-uniform inventories, and creating public-awareness. Further in-the-wild studies should also consider the tensions between the values of these organizations and low-cost convenient usage.",
+  "authors": [
+    {
+      "name": "Lee Jones",
+      "institution": "Queen's University, Canada",
+      "img": "/do/10.1145/contrib-99659064896/rel-imgonly/lee-jones_copy.jpg",
+      "acmid": "99659064896",
+      "orcid": "0000-0003-1303-4456"
+    },
+    {
+      "name": "Alaa Nousir",
+      "institution": "Queen's University, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660729767",
+      "orcid": "0000-0001-5335-3625"
+    },
+    {
+      "name": "Tom Everrett",
+      "institution": "Ingenium - Canada's Museums of Science and Innovation, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780376",
+      "orcid": "0000-0003-2946-6245"
+    },
+    {
+      "name": "Sara Nabil",
+      "institution": "Queen's University, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659145248",
+      "orcid": "0000-0003-1232-1269"
+    }
+  ],
+  "references": [
+    {
+      "text": "Najine Ameli. 2017. Design for sharing: libraries of things as a product-service system. In PLATE: Product Lifetimes And The Environment. IOS Press, 14\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "Najine Ameli. 2017. Libraries of Things as a new form of sharing. Pushing the Sharing Economy. The Design Journal 20, sup1 (2017), S3294\u2013S3304. https://doi.org/10.1080/14606925.2017.1352833 arXiv:https://doi.org/10.1080/14606925.2017.1352833",
+      "doi": ""
+    },
+    {
+      "text": "Najine Ameli, Devon Fernandes, and Oliver Stengel. 2017. Libraries of Things: Designing an optimal business model. In 4D-Designing Development\u2013Developing Design. International Conference, Interdisciplinary Research Perspectives on the Role of Design in combining Social, Technological and Business Development. 359\u2013369.",
+      "doi": ""
+    },
+    {
+      "text": "Yogesh Angal and Anita Gade. 2017. Development of library management robotic system. In 2017 International Conference on Data Management, Analytics and Innovation (ICDMAI). 254\u2013258. https://doi.org/10.1109/ICDMAI.2017.8073520",
+      "doi": ""
+    },
+    {
+      "text": "Asefeh Asemi, Andrea Ko, and Mohsen Nowkarizi. 2020. Intelligent libraries: a review on expert systems, artificial intelligence, and robot. Library Hi Tech (2020).",
+      "doi": ""
+    },
+    {
+      "text": "A\u00a0Volkan Atli, Oguzhan Urhan, S Ert\u00fcrk, and M S\u00f6nmez. 2006. A computer vision-based fast approach to drilling tool condition monitoring. Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture 220, 9 (2006), 1409\u20131415.",
+      "doi": ""
+    },
+    {
+      "text": "Denise Baden, Ken Peattie, and Adekunle Oke. 2020. Access over ownership: Case studies of libraries of things. Sustainability 12, 17 (2020), 7180.",
+      "doi": ""
+    },
+    {
+      "text": "Bernd Becker. 2014. Circulating laptops in academic libraries. Behavioral & Social Sciences Librarian 33, 2 (2014), 125\u2013129.",
+      "doi": ""
+    },
+    {
+      "text": "Julie Behan and Derek\u00a0T O\u2019Keeffe. 2008. The development of an autonomous service robot. Implementation:\u201cLucas\u201d\u2014The library assistant robot. Intelligent Service Robotics 1, 1 (2008), 73\u201389.",
+      "doi": ""
+    },
+    {
+      "text": "Fiona Bell, Latifa Al\u00a0Naimi, Ella McQuaid, and Mirela Alistar. 2022. Designing with Alganyl. In Sixteenth International Conference on Tangible, Embedded, and Embodied Interaction (Daejeon, Republic of Korea) (TEI \u201922). Association for Computing Machinery, New York, NY, USA, Article 2, 14\u00a0pages. https://doi.org/10.1145/3490149.3501308",
+      "doi": "10.1145/3490149.3501308"
+    },
+    {
+      "text": "Fiona Bell, Netta Ofer, and Mirela Alistar. 2022. ReClaym Our Compost: Biodegradable Clay for Intimate Making. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 454, 15\u00a0pages. https://doi.org/10.1145/3491102.3517711",
+      "doi": "10.1145/3491102.3517711"
+    },
+    {
+      "text": "Gabrielle Benabdallah, Sam Bourgault, Nadya Peek, and Jennifer Jacobs. 2021. Remote Learners, Home Makers: How Digital Fabrication Was Taught Online During a Pandemic. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 350, 14\u00a0pages. https://doi.org/10.1145/3411764.3445450",
+      "doi": "10.1145/3411764.3445450"
+    },
+    {
+      "text": "Scott Bennett. 2009. Libraries and learning: A history of paradigm change. portal: Libraries and the Academy 9, 2 (2009), 181\u2013197.",
+      "doi": ""
+    },
+    {
+      "text": "Alexander Berman, Ketan Thakare, Joshua Howell, Francis Quek, and Jeeeun Kim. 2021. HowDIY: Towards Meta-Design Tools to Support Anyone to 3D Print Anywhere. In 26th International Conference on Intelligent User Interfaces (College Station, TX, USA) (IUI \u201921). Association for Computing Machinery, New York, NY, USA, 491\u2013503. https://doi.org/10.1145/3397481.3450638",
+      "doi": "10.1145/3397481.3450638"
+    },
+    {
+      "text": "Eli Blevis. 2007. Sustainable Interaction Design: Invention & Disposal, Renewal & Reuse. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201907). Association for Computing Machinery, New York, NY, USA, 503\u2013512. https://doi.org/10.1145/1240624.1240705",
+      "doi": "10.1145/1240624.1240705"
+    },
+    {
+      "text": "Rachel Botsman and Rogers Roo. 2010. What\u2019s mine is yours: The rise of collaborative consumption. NY: HarperCollins (2010).",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2013. Successful qualitative research: A practical guide for beginners. sage.",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2021. Thematic Analysis: A Practical Guide. sage.",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun, Victoria Clarke, Nikki Hayfield, and Gareth Terry. 2019. Thematic Analysis. Springer Singapore, Singapore, 843\u2013860. https://doi.org/10.1007/978-981-10-5251-4_103",
+      "doi": ""
+    },
+    {
+      "text": "Christina Bremer, Bran Knowles, and Adrian Friday. 2022. Have We Taken On Too Much?: A Critical Review of the Sustainable HCI Landscape. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 41, 11\u00a0pages. https://doi.org/10.1145/3491102.3517609",
+      "doi": "10.1145/3491102.3517609"
+    },
+    {
+      "text": "Judi Briden and Ann Marshall. 2010. Snapshots of laptop use in an academic library. Library Hi Tech (2010).",
+      "doi": ""
+    },
+    {
+      "text": "Mikayla Buford, Vaishnavi Nattar\u00a0Ranganathan, Asta Roseway, and Teddy Seyed. 2021. Crisis Couture: A Study on Motivations and Practices of Mask Makers During A Crisis. In Designing Interactive Systems Conference 2021(Virtual Event, USA) (DIS \u201921). Association for Computing Machinery, New York, NY, USA, 31\u201347. https://doi.org/10.1145/3461778.3462016",
+      "doi": "10.1145/3461778.3462016"
+    },
+    {
+      "text": "Philip Calvert. 2017. Robots, the Quiet Workers, Are You Ready to Take Over?Public Library Quarterly 36, 2 (2017), 167\u2013172. https://doi.org/10.1080/01616846.2017.1275787 arXiv:https://doi.org/10.1080/01616846.2017.1275787",
+      "doi": ""
+    },
+    {
+      "text": "Nico Castelli, Sebastian Taugerbeck, Martin Stein, Timo Jakobi, Gunnar Stevens, and Volker Wulf. 2020. Eco-InfoVis at Work: Role-Based Eco-Visualizations for the Industrial Context. Proc. ACM Hum.-Comput. Interact. 4, GROUP, Article 02 (jan 2020), 27\u00a0pages. https://doi.org/10.1145/3375182",
+      "doi": "10.1145/3375182"
+    },
+    {
+      "text": "Joyce Chapman and David Woodbury. 2012. Leveraging quantitative data to improve a device-lending program. Library Hi Tech (2012).",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0M. Chen, Sam\u00a0S. Tsai, Bernd Girod, Cheng-Hsin Hsu, Kyu-Han Kim, and Jatinder\u00a0Pal Singh. 2010. Building Book Inventories Using Smartphones. In Proceedings of the 18th ACM International Conference on Multimedia (Firenze, Italy) (MM \u201910). Association for Computing Machinery, New York, NY, USA, 651\u2013654. https://doi.org/10.1145/1873951.1874043",
+      "doi": "10.1145/1873951.1874043"
+    },
+    {
+      "text": "Kyung\u00a0Yun Choi and Hiroshi Ishii. 2021. Therms-Up!: DIY Inflatables and Interactive Materials by Upcycling Wasted Thermoplastic Bags. In Proceedings of the Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction (Salzburg, Austria) (TEI \u201921). Association for Computing Machinery, New York, NY, USA, Article 51, 8\u00a0pages. https://doi.org/10.1145/3430524.3442457",
+      "doi": "10.1145/3430524.3442457"
+    },
+    {
+      "text": "Anna Claudelin, Kaisa Tuominen, and Susanna Vanham\u00e4ki. 2022. Sustainability Perspectives of the Sharing Economy: Process of Creating a Library of Things in Finland. Sustainability 14, 11 (2022), 6627.",
+      "doi": ""
+    },
+    {
+      "text": "Zoom Communications. 2022. Zoom. Retrieved June, 2022 from zoom.us",
+      "doi": ""
+    },
+    {
+      "text": "Maxime Daniel, Guillaume Rivi\u00e8re, and Nadine Couture. 2019. CairnFORM: A Shape-Changing Ring Chart Notifying Renewable Energy Availability in Peripheral Locations. In Proceedings of the Thirteenth International Conference on Tangible, Embedded, and Embodied Interaction (Tempe, Arizona, USA) (TEI \u201919). Association for Computing Machinery, New York, NY, USA, 275\u2013286. https://doi.org/10.1145/3294109.3295634",
+      "doi": "10.1145/3294109.3295634"
+    },
+    {
+      "text": "Karen Detken, Carlos Martinez, and Andreas Schrader. 2009. The Search Wall: Tangible Information Searching for Children in Public Libraries. In Proceedings of the 3rd International Conference on Tangible and Embedded Interaction(Cambridge, United Kingdom) (TEI \u201909). Association for Computing Machinery, New York, NY, USA, 289\u2013296. https://doi.org/10.1145/1517664.1517724",
+      "doi": "10.1145/1517664.1517724"
+    },
+    {
+      "text": "Kristin\u00a0N. Dew and Daniela\u00a0K. Rosner. 2019. Designing with Waste: A Situated Inquiry into the Material Excess of Making. In Proceedings of the 2019 on Designing Interactive Systems Conference (San Diego, CA, USA) (DIS \u201919). Association for Computing Machinery, New York, NY, USA, 1307\u20131319. https://doi.org/10.1145/3322276.3322320",
+      "doi": "10.1145/3322276.3322320"
+    },
+    {
+      "text": "Tawanna\u00a0R. Dillahunt and Amelia\u00a0R. Malone. 2015. The Promise of the Sharing Economy among Disadvantaged Communities. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 2285\u20132294. https://doi.org/10.1145/2702123.2702189",
+      "doi": "10.1145/2702123.2702189"
+    },
+    {
+      "text": "Jesse\u00a0David Dinneen and Charles-Antoine Julien. 2020. The ubiquitous digital file: A review of file management research. Journal of the Association for Information Science and Technology 71, 1(2020), E1\u2013E32.",
+      "doi": "10.1002/asi.24222"
+    },
+    {
+      "text": "Carl DiSalvo, Phoebe Sengers, and Hr\u00f6nn Brynjarsd\u00f3ttir. 2010. Mapping the Landscape of Sustainable HCI. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201910). Association for Computing Machinery, New York, NY, USA, 1975\u20131984. https://doi.org/10.1145/1753326.1753625",
+      "doi": "10.1145/1753326.1753625"
+    },
+    {
+      "text": "Paul Dourish. 2010. HCI and Environmental Sustainability: The Politics of Design and the Design of Politics. In Proceedings of the 8th ACM Conference on Designing Interactive Systems (Aarhus, Denmark) (DIS \u201910). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/1858171.1858173",
+      "doi": "10.1145/1858171.1858173"
+    },
+    {
+      "text": "S Dutta, SK Pal, S Mukhopadhyay, and R Sen. 2013. Application of digital image processing in tool condition monitoring: A review. CIRP Journal of Manufacturing Science and Technology 6, 3 (2013), 212\u2013232.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0K Elmborg. 2011. Libraries as the spaces between us: Recognizing and valuing the third space. Reference & User Services Quarterly(2011), 338\u2013350.",
+      "doi": ""
+    },
+    {
+      "text": "Shreyosi Endow and Cesar Torres. 2021. \u201cI\u2019m Better Off on My Own\u201d: Understanding How a Tutorial\u2019s Medium Affects Physical Skill Development. In Designing Interactive Systems Conference 2021(Virtual Event, USA) (DIS \u201921). Association for Computing Machinery, New York, NY, USA, 1313\u20131323. https://doi.org/10.1145/3461778.3462066",
+      "doi": "10.1145/3461778.3462066"
+    },
+    {
+      "text": "Omid Ettehadi, Fraser Anderson, Adam Tindale, and Sowmya Somanath. 2021. Documented: Embedding Information onto and Retrieving Information from 3D Printed Objects. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 424, 11\u00a0pages. https://doi.org/10.1145/3411764.3445551",
+      "doi": "10.1145/3411764.3445551"
+    },
+    {
+      "text": "Anton Fedosov, Masako Kitazaki, William Odom, and Marc Langheinrich. 2019. Sharing Economy Design Cards. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300375",
+      "doi": "10.1145/3290605.3300375"
+    },
+    {
+      "text": "Anton Fedosov, Airi Lampinen, William Odom, and Elaine\u00a0M. Huang. 2021. A Dozen Stickers on a Mailbox: Physical Encounters and Digital Interactions in a Local Sharing Community. Proc. ACM Hum.-Comput. Interact. 4, CSCW3, Article 240 (jan 2021), 23\u00a0pages. https://doi.org/10.1145/3432939",
+      "doi": "10.1145/3432939"
+    },
+    {
+      "text": "Anton Fedosov, William Odom, Marc Langheinrich, and Ron Wakkary. 2018. Roaming Objects: Encoding Digital Histories of Use into Shared Objects and Tools. In Proceedings of the 2018 Designing Interactive Systems Conference (Hong Kong, China) (DIS \u201918). Association for Computing Machinery, New York, NY, USA, 1141\u20131153. https://doi.org/10.1145/3196709.3196722",
+      "doi": "10.1145/3196709.3196722"
+    },
+    {
+      "text": "Rui Fukui, Takuya Sunakawa, Shuhei Kousaka, Masahiko Watanabe, Tomomasa Sato, and Masamichi Shimosaka. 2013. TansuBot: A drawer-type storage system for supporting object search with contents\u2019 photos and usage histories. In 2013 IEEE/RSJ International Conference on Intelligent Robots and Systems. 2703\u20132709. https://doi.org/10.1109/IROS.2013.6696738",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Gallardo, Nicola Dell, and Mor Naaman. 2019. Challenges and Lessons Deploying a Physical System for Resource Exchange in Local Communities. In Conference Companion Publication of the 2019 on Computer Supported Cooperative Work and Social Computing (Austin, TX, USA) (CSCW \u201919). Association for Computing Machinery, New York, NY, USA, 180\u2013184. https://doi.org/10.1145/3311957.3359497",
+      "doi": "10.1145/3311957.3359497"
+    },
+    {
+      "text": "Radhika Garg and Christopher Moreno. 2019. Understanding Motivators, Constraints, and Practices of Sharing Internet of Things. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 3, 2, Article 44 (jun 2019), 21\u00a0pages. https://doi.org/10.1145/3328915",
+      "doi": "10.1145/3328915"
+    },
+    {
+      "text": "VERBI GmbH. 2022. MAXQDA. Retrieved June, 2022 from maxqda.com",
+      "doi": ""
+    },
+    {
+      "text": "Jun Gong, Fraser Anderson, George Fitzmaurice, and Tovi Grossman. 2019. Instrumenting and Analyzing Fabrication Activities, Users, and Expertise. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300554",
+      "doi": "10.1145/3290605.3300554"
+    },
+    {
+      "text": "Elizabeth Goodman. 2009. Three Environmental Discourses in Human-Computer Interaction. In CHI \u201909 Extended Abstracts on Human Factors in Computing Systems (Boston, MA, USA) (CHI EA \u201909). Association for Computing Machinery, New York, NY, USA, 2535\u20132544. https://doi.org/10.1145/1520340.1520358",
+      "doi": "10.1145/1520340.1520358"
+    },
+    {
+      "text": "Anton Gustafsson and Magnus Gyllensw\u00e4rd. 2005. The Power-Aware Cord: Energy Awareness through Ambient Information Display. In CHI \u201905 Extended Abstracts on Human Factors in Computing Systems (Portland, OR, USA) (CHI EA \u201905). Association for Computing Machinery, New York, NY, USA, 1423\u20131426. https://doi.org/10.1145/1056808.1056932",
+      "doi": "10.1145/1056808.1056932"
+    },
+    {
+      "text": "LuMarie Guth and Patricia Vander\u00a0Meer. 2017. Telepresence robotics in an academic library: A study of exposure and adaptation among patrons and employees. Library Hi Tech 35, 3 (2017), 408\u2013420.",
+      "doi": ""
+    },
+    {
+      "text": "Jim Hahn, Lori Mestre, David Ward, and Susan Avery. 2011. Technology on demand: Implementing loanable technology services at the University of Illinois at Urbana-Champaign. Library Hi Tech (2011).",
+      "doi": ""
+    },
+    {
+      "text": "Nur Al-huda Hamdan, Marcel Lahaye, Christian Corsten, and Jan Borchers. 2016. Presentation Strategies for Micro-Navigation in the Physical World. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (San Jose, California, USA) (CHI EA \u201916). Association for Computing Machinery, New York, NY, USA, 3062\u20133068. https://doi.org/10.1145/2851581.2892543",
+      "doi": "10.1145/2851581.2892543"
+    },
+    {
+      "text": "Lon \u00c5ke Erni\u00a0Johannes Hansson, Teresa Cerratto\u00a0Pargman, and Daniel\u00a0Sapiens Pargman. 2021. A Decade of Sustainable HCI: Connecting SHCI to the Sustainable Development Goals. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 300, 19\u00a0pages. https://doi.org/10.1145/3411764.3445069",
+      "doi": "10.1145/3411764.3445069"
+    },
+    {
+      "text": "Ollie Hanton, Zichao Shen, Mike Fraser, and Anne Roudaut. 2022. FabricatINK: Personal Fabrication of Bespoke Displays Using Electronic Ink from Upcycled E Readers. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 173, 15\u00a0pages. https://doi.org/10.1145/3491102.3501844",
+      "doi": "10.1145/3491102.3501844"
+    },
+    {
+      "text": "John Harvey, David Golightly, and Andrew Smith. 2014. HCI as a Means to Prosociality in the Economy. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 2955\u20132964. https://doi.org/10.1145/2556288.2557367",
+      "doi": "10.1145/2556288.2557367"
+    },
+    {
+      "text": "Megan Hofmann, Gabriella Hann, Scott\u00a0E. Hudson, and Jennifer Mankoff. 2018. Greater than the Sum of Its PARTs: Expressing and Reusing Design Intent in 3D Models. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173875",
+      "doi": "10.1145/3173574.3173875"
+    },
+    {
+      "text": "Ma\u00a0Lei Hsieh and Hugh Holden. 2008. A university library laptop lending service: An analysis using two student surveys. Library Hi Tech (2008).",
+      "doi": ""
+    },
+    {
+      "text": "IDEO. 2022. How Might We. Design Kit (2022). Retrieved July, 2022 from https://www.designkit.org/methods/3",
+      "doi": ""
+    },
+    {
+      "text": "Steven\u00a0J. Jackson and Laewoo Kang. 2014. Breakdown, Obsolescence and Reuse: HCI and the Art of Repair. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 449\u2013458. https://doi.org/10.1145/2556288.2557332",
+      "doi": "10.1145/2556288.2557332"
+    },
+    {
+      "text": "Matthew Jervis and Masood Masoodian. 2013. Visualization of Physical Library Shelves to Facilitate Collection Management and Retrieval. In Proceedings of the 5th ACM SIGCHI Symposium on Engineering Interactive Computing Systems (London, United Kingdom) (EICS \u201913). Association for Computing Machinery, New York, NY, USA, 133\u2013138. https://doi.org/10.1145/2494603.2480321",
+      "doi": "10.1145/2494603.2480321"
+    },
+    {
+      "text": "Matthew\u00a0G. Jervis and Masood Masoodian. 2010. SOPHYA: A System for Digital Management of Ordered Physical Document Collections. In Proceedings of the Fourth International Conference on Tangible, Embedded, and Embodied Interaction (Cambridge, Massachusetts, USA) (TEI \u201910). Association for Computing Machinery, New York, NY, USA, 33\u201340. https://doi.org/10.1145/1709886.1709894",
+      "doi": "10.1145/1709886.1709894"
+    },
+    {
+      "text": "Lauren Johnson and Kelly Lutz. 2022. Understanding our library\u2019s laptop users: Defining \u201cneed\u201d in a needs-based service. The Journal of Academic Librarianship 48, 5 (2022), 102585.",
+      "doi": ""
+    },
+    {
+      "text": "Lee Jones and Audrey Girouard. 2021. Patching Textiles: Insights from Visible Mending Educators on Wearability, Extending the Life of Our Clothes, and Teaching Tangible Crafts. In Creativity and Cognition(Virtual Event, Italy) (C&C \u201921). Association for Computing Machinery, New York, NY, USA, Article 36, 11\u00a0pages. https://doi.org/10.1145/3450741.3465265",
+      "doi": "10.1145/3450741.3465265"
+    },
+    {
+      "text": "Lee Jones and Audrey Girouard. 2022. Learning with Stitch Samplers: Exploring Stitch Samplers as Contextual Instructions for E-Textile Tutorials. In Designing Interactive Systems Conference (Virtual Event, Australia) (DIS \u201922). Association for Computing Machinery, New York, NY, USA, 949\u2013965. https://doi.org/10.1145/3532106.3533488",
+      "doi": "10.1145/3532106.3533488"
+    },
+    {
+      "text": "Lee Jones, Miriam Sturdee, Sara Nabil, and Audrey Girouard. 2021. Punch-Sketching E-Textiles: Exploring Punch Needle as a Technique for Sustainable, Accessible, and Iterative Physical Prototyping with E-Textiles. In Proceedings of the Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction (Salzburg, Austria) (TEI \u201921). Association for Computing Machinery, New York, NY, USA, Article 21, 12\u00a0pages. https://doi.org/10.1145/3430524.3440640",
+      "doi": "10.1145/3430524.3440640"
+    },
+    {
+      "text": "Keisuke Kambara and Koji Tsukada. 2011. DrawerBrowser: Practical Picture Browser for Finding Items in Drawers. In Proceedings of the 13th International Conference on Ubiquitous Computing (Beijing, China) (UbiComp \u201911). Association for Computing Machinery, New York, NY, USA, 601\u2013602. https://doi.org/10.1145/2030112.2030233",
+      "doi": "10.1145/2030112.2030233"
+    },
+    {
+      "text": "Bong\u00a0Keun Kim, Takayuki Sugawara, Kenichi Ohara, Kosei Kitagaki, and Kohtaro Ohba. 2008. Design and control of the librarian robot system in the ubiquitous robot technology space. In RO-MAN 2008 - The 17th IEEE International Symposium on Robot and Human Interactive Communication. 616\u2013621. https://doi.org/10.1109/ROMAN.2008.4600735",
+      "doi": ""
+    },
+    {
+      "text": "Sunyoung Kim and Eric Paulos. 2011. Practices in the Creative Reuse of E-Waste. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vancouver, BC, Canada) (CHI \u201911). Association for Computing Machinery, New York, NY, USA, 2395\u20132404. https://doi.org/10.1145/1978942.1979292",
+      "doi": "10.1145/1978942.1979292"
+    },
+    {
+      "text": "Jarrod Knibbe, Tovi Grossman, and George Fitzmaurice. 2015. Smart Makerspace: An Immersive Instructional Space for Physical Tasks. In Proceedings of the 2015 International Conference on Interactive Tabletops & Surfaces (Madeira, Portugal) (ITS \u201915). Association for Computing Machinery, New York, NY, USA, 83\u201392. https://doi.org/10.1145/2817721.2817741",
+      "doi": "10.1145/2817721.2817741"
+    },
+    {
+      "text": "Marion Koelle, Madalina Nicolae, Aditya\u00a0Shekhar Nittala, Marc Teyssier, and J\u00fcrgen Steimle. 2022. Prototyping Soft Devices with Interactive Bioplastics. In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (Bend, OR, USA) (UIST \u201922). Association for Computing Machinery, New York, NY, USA, Article 19, 16\u00a0pages. https://doi.org/10.1145/3526113.3545623",
+      "doi": "10.1145/3526113.3545623"
+    },
+    {
+      "text": "Kyungwon Koh, June Abbas, and Rebekah Willett. 2018. Makerspaces in libraries: Social roles and community engagement. In Reconceptualizing libraries. Routledge, 17\u201336.",
+      "doi": ""
+    },
+    {
+      "text": "Mizuho Komatsuzaki, Koji Tsukada, and Itiro Siio. 2011. DrawerFinder: Finding Items in Storage Boxes Using Pictures and Visual Markers. In Proceedings of the 16th International Conference on Intelligent User Interfaces (Palo Alto, CA, USA) (IUI \u201911). Association for Computing Machinery, New York, NY, USA, 363\u2013366. https://doi.org/10.1145/1943403.1943466",
+      "doi": "10.1145/1943403.1943466"
+    },
+    {
+      "text": "Stacey Kuznetsov and Eric Paulos. 2010. Rise of the Expert Amateur: DIY Projects, Communities, and Cultures. In Proceedings of the 6th Nordic Conference on Human-Computer Interaction: Extending Boundaries(Reykjavik, Iceland) (NordiCHI \u201910). Association for Computing Machinery, New York, NY, USA, 295\u2013304. https://doi.org/10.1145/1868914.1868950",
+      "doi": "10.1145/1868914.1868950"
+    },
+    {
+      "text": "Airi Lampinen and Coye Cheshire. 2016. Hosting via Airbnb: Motivations and Financial Assurances in Monetized Network Hospitality. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 1669\u20131680. https://doi.org/10.1145/2858036.2858092",
+      "doi": "10.1145/2858036.2858092"
+    },
+    {
+      "text": "Matthew\u00a0V. Law, Mor Naaman, and Nicola Dell. 2018. ShareBox: Designing A Physical System to Support Resource Exchange in Local Communities. In Proceedings of the 2018 Designing Interactive Systems Conference (Hong Kong, China) (DIS \u201918). Association for Computing Machinery, New York, NY, USA, 1155\u20131167. https://doi.org/10.1145/3196709.3196763",
+      "doi": "10.1145/3196709.3196763"
+    },
+    {
+      "text": "Ann Light and Clodagh Miskelly. 2019. Platforms, scales and networks: Meshing a local sustainable sharing economy. Computer Supported Cooperative Work (CSCW) 28, 3 (2019), 591\u2013626.",
+      "doi": "10.1007/s10606-019-09352-1"
+    },
+    {
+      "text": "Weijane Lin and Hsiu-Ping Yueh. 2018. Evaluating Children\u2019s Performance and Perception of Robotic Assistance in Library Book Locating. In 2018 27th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN). 1185\u20131189. https://doi.org/10.1109/ROMAN.2018.8525688",
+      "doi": "10.1109/ROMAN.2018.8525688"
+    },
+    {
+      "text": "Weijane Lin, Hsiu-Ping Yueh, Hsin-Ying Wu, and Li-Chen Fu. 2014. Developing a service robot for a children\u2019s library: A design-based research approach. Journal of the Association for Information Science and Technology 65, 2(2014), 290\u2013301.",
+      "doi": "10.1002/asi.22975"
+    },
+    {
+      "text": "Jia Liu, Feng Zhu, Yanyan Wang, Xia Wang, Qingfeng Pan, and Lijun Chen. 2017. RF-scanner: Shelf scanning with robot-assisted RFID systems. In IEEE INFOCOM 2017 - IEEE Conference on Computer Communications. 1\u20139. https://doi.org/10.1109/INFOCOM.2017.8056985",
+      "doi": ""
+    },
+    {
+      "text": "Leah Maestri and Ron Wakkary. 2011. Understanding Repair as a Creative Process of Everyday Design. In Proceedings of the 8th ACM Conference on Creativity and Cognition (Atlanta, Georgia, USA) (C&C \u201911). Association for Computing Machinery, New York, NY, USA, 81\u201390. https://doi.org/10.1145/2069618.2069633",
+      "doi": "10.1145/2069618.2069633"
+    },
+    {
+      "text": "Jennifer\u00a0C. Mankoff, Eli Blevis, Alan Borning, Batya Friedman, Susan\u00a0R. Fussell, Jay Hasbrouck, Allison Woodruff, and Phoebe Sengers. 2007. Environmental Sustainability and Interaction. In CHI \u201907 Extended Abstracts on Human Factors in Computing Systems (San Jose, CA, USA) (CHI EA \u201907). Association for Computing Machinery, New York, NY, USA, 2121\u20132124. https://doi.org/10.1145/1240866.1240963",
+      "doi": "10.1145/1240866.1240963"
+    },
+    {
+      "text": "Laura\u00a0U. Marks and Radek Przedpe\u0142ski. 2022. The Carbon Footprint of Streaming Media: Problems, Calculations, Solutions. Springer International Publishing, Cham, 207\u2013234. https://doi.org/10.1007/978-3-030-98120-4_10",
+      "doi": ""
+    },
+    {
+      "text": "Bruce Massis. 2018. Artificial intelligence arrives in the library. Information and Learning Science(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Ross McLachlan, Claire Opila, Neha Shah, Emily Sun, and Mor Naaman. 2016. You Can\u2019t Always Get What You Want: Challenges in P2P Resource Sharing. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems(San Jose, California, USA) (CHI EA \u201916). Association for Computing Machinery, New York, NY, USA, 1301\u20131307. https://doi.org/10.1145/2851581.2892358",
+      "doi": "10.1145/2851581.2892358"
+    },
+    {
+      "text": "Michele\u00a0L McNeal and David Newyear. 2013. Introducing chatbots in libraries. Library technology reports 49, 8 (2013), 5\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Tsvetelina Mladenova, Irena Valova, and Nikolay Valov. 2021. Application of Facial Recognition with PCA and Raspberry Pi for Access Control to Luggage Lockers. In 2021 International Conference Automatics and Informatics (ICAI). 141\u2013145. https://doi.org/10.1109/ICAI52893.2021.9639574",
+      "doi": ""
+    },
+    {
+      "text": "Heather Moorefield-Lang. 2015. Change in the making: Makerspaces and the ever-changing landscape of libraries. TechTrends 59, 3 (2015), 107\u2013112.",
+      "doi": ""
+    },
+    {
+      "text": "Carol Moser, Paul Resnick, and Sarita Schoenebeck. 2017. Community Commerce: Facilitating Trust in Mom-to-Mom Sale Groups on Facebook. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 4344\u20134357. https://doi.org/10.1145/3025453.3025550",
+      "doi": "10.1145/3025453.3025550"
+    },
+    {
+      "text": "Martin Murer. 2018. Making Things Apart: Gaining Material Understanding. In Proceedings of the 2018 Designing Interactive Systems Conference (Hong Kong, China) (DIS \u201918). Association for Computing Machinery, New York, NY, USA, 497\u2013509. https://doi.org/10.1145/3196709.3196806",
+      "doi": "10.1145/3196709.3196806"
+    },
+    {
+      "text": "Martin Murer, Mattias Jacobsson, Siri Skillgate, and Petra Sundstr\u00f6m. 2014. Taking Things Apart: Reaching Common Ground and Shared Material Understanding. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 469\u2013472. https://doi.org/10.1145/2556288.2557267",
+      "doi": "10.1145/2556288.2557267"
+    },
+    {
+      "text": "Martin Murer, Anna Vallg\u00e5rda, Mattias Jacobsson, and Manfred Tscheligi. 2015. Un-Crafting: Exploring Tangible Practices for Deconstruction in Interactive System Design. In Proceedings of the Ninth International Conference on Tangible, Embedded, and Embodied Interaction (Stanford, California, USA) (TEI \u201915). Association for Computing Machinery, New York, NY, USA, 469\u2013472. https://doi.org/10.1145/2677199.2683582",
+      "doi": "10.1145/2677199.2683582"
+    },
+    {
+      "text": "M.\u00a0P. Nevetha and A. Baskar. 2015. Automatic Book Spine Extraction and Recognition for Library Inventory Management. In Proceedings of the Third International Symposium on Women in Computing and Informatics(Kochi, India) (WCI \u201915). Association for Computing Machinery, New York, NY, USA, 44\u201348. https://doi.org/10.1145/2791405.2791506",
+      "doi": "10.1145/2791405.2791506"
+    },
+    {
+      "text": "Jens Nickels, Pascal Knierim, Bastian K\u00f6nings, Florian Schaub, Bj\u00f6rn Wiedersheim, Steffen Musiol, and Michael Weber. 2013. Find My Stuff: Supporting Physical Objects Search with Relative Positioning. In Proceedings of the 2013 ACM International Joint Conference on Pervasive and Ubiquitous Computing (Zurich, Switzerland) (UbiComp \u201913). Association for Computing Machinery, New York, NY, USA, 325\u2013334. https://doi.org/10.1145/2493432.2493447",
+      "doi": "10.1145/2493432.2493447"
+    },
+    {
+      "text": "Jingyi Ning, Lei Xie, Chuyu Wang, Yanling Bu, Fu Xiao, Baoliu Ye, and Sanglu Lu. 2022. Revolving Scanning on Tagged Objects: 3D Structure Detection of Logistics Packages via RFID Systems. ACM Trans. Sen. Netw. 18, 2, Article 20 (mar 2022), 29\u00a0pages. https://doi.org/10.1145/3490171",
+      "doi": "10.1145/3490171"
+    },
+    {
+      "text": "William Odom. 2010. \"Mate, We Don\u2019t Need a Chip to Tell Us the Soil\u2019s Dry\": Opportunities for Designing Interactive Systems to Support Urban Food Production. In Proceedings of the 8th ACM Conference on Designing Interactive Systems (Aarhus, Denmark) (DIS \u201910). Association for Computing Machinery, New York, NY, USA, 232\u2013235. https://doi.org/10.1145/1858171.1858211",
+      "doi": "10.1145/1858171.1858211"
+    },
+    {
+      "text": "Lora Oehlberg, Wesley Willett, and Wendy\u00a0E. Mackay. 2015. Patterns of Physical Design Remixing in Online Maker Communities. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 639\u2013648. https://doi.org/10.1145/2702123.2702175",
+      "doi": "10.1145/2702123.2702175"
+    },
+    {
+      "text": "Rifqah\u00a0Olufunmilayo Okunlaya, Norris\u00a0Syed Abdullah, and Rose\u00a0Alinda Alias. 2022. Artificial intelligence (AI) library services innovative conceptual framework for the digital transformation of university education. Library Hi Tech (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Sofia Papavlasopoulou, Michail\u00a0N. Giannakos, and Letizia Jaccheri. 2017. Empirical studies on the Maker Movement, a promising approach to learning: A literature review. Entertainment Computing 18 (2017), 57\u201378. https://doi.org/10.1016/j.entcom.2016.09.002",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer Pearson, Simon Robinson, and Matt Jones. 2017. BookMark: Appropriating existing infrastructure to facilitate scalable indoor navigation. International Journal of Human-Computer Studies 103 (2017), 22\u201334.",
+      "doi": "10.1016/j.ijhcs.2017.02.001"
+    },
+    {
+      "text": "Hanh Pham, Anthony Giordano, Lee Miller, Joseph Giannitti, Mario Mena, and Anthony DiNardi. 2018. A Ubiquitous Approach for Automated Library Book Location Management. In Proceedings of the 2018 International Conference on Computing and Big Data (Charleston, SC, USA) (ICCBD \u201918). Association for Computing Machinery, New York, NY, USA, 78\u201382. https://doi.org/10.1145/3277104.3277115",
+      "doi": "10.1145/3277104.3277115"
+    },
+    {
+      "text": "Narjes Pourjafarian, Marion Koelle, Bruno Fruchard, Sahar Mavali, Konstantin Klamka, Daniel Groeger, Paul Strohmeier, and J\u00fcrgen Steimle. 2021. BodyStylus: Freehand On-Body Design and Fabrication of Epidermal Interfaces. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 504, 15\u00a0pages. https://doi.org/10.1145/3411764.3445475",
+      "doi": "10.1145/3411764.3445475"
+    },
+    {
+      "text": "Andi Pramono, M.\u00a0Aldiki Febriantono, Ira\u00a0Audia Agustina, Ida\u00a0Bagus Ananta\u00a0Wijaya, Tiara\u00a0Ika Widia\u00a0Primadani, and Satrio\u00a0Arif Budiman. 2022. Manufacturing a Smart Locker Security System for Public Spaces using E-KTP as a Primary Access. In 2022 International Conference on ICT for Smart Society (ICISS). 01\u201306. https://doi.org/10.1109/ICISS55894.2022.9915146",
+      "doi": ""
+    },
+    {
+      "text": "Sai Praneeth\u00a0Animireddy, Kanak Prabha\u00a0Singh, Neha, and V. Natarajan. 2018. Robotic Library Assistant. In 2018 Second International Conference on Inventive Communication and Computational Technologies (ICICCT). 1443\u20131447. https://doi.org/10.1109/ICICCT.2018.8473132",
+      "doi": ""
+    },
+    {
+      "text": "Chris Preist, Daniel Schien, and Paul Shabajee. 2019. Evaluating Sustainable Interaction Design of Digital Services: The Case of YouTube. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300627",
+      "doi": "10.1145/3290605.3300627"
+    },
+    {
+      "text": "Tarkesh\u00a0S. Pujari and S.B. Deosarkar. 2017. Design of intelligent and robotic library system. In 2017 2nd IEEE International Conference on Recent Trends in Electronics, Information & Communication Technology (RTEICT). 1903\u20131908. https://doi.org/10.1109/RTEICT.2017.8256928",
+      "doi": ""
+    },
+    {
+      "text": "Qualtrics. 2022. Qualtrics. Retrieved June, 2022 from https://www.qualtrics.com/",
+      "doi": ""
+    },
+    {
+      "text": "Filipe Quintal, Augusto Esteves, F\u00e1bio Caires, V\u00edtor Baptista, and Pedro Mendes. 2019. Wattom: A Consumption and Grid Aware Smart Plug with Mid-Air Controls. In Proceedings of the Thirteenth International Conference on Tangible, Embedded, and Embodied Interaction (Tempe, Arizona, USA) (TEI \u201919). Association for Computing Machinery, New York, NY, USA, 307\u2013313. https://doi.org/10.1145/3294109.3295642",
+      "doi": "10.1145/3294109.3295642"
+    },
+    {
+      "text": "Md.\u00a0Rezaur Rashid, Nahid Uzzaman, Sanzida Hossain, and Neel\u00a0Kanto Das\u00a0Shuvra. 2017. Development of a self-navigating algorithm for library book finder robot. In 2017 3rd International Conference on Electrical Information and Communication Technology (EICT). 1\u20136. https://doi.org/10.1109/EICT.2017.8275140",
+      "doi": ""
+    },
+    {
+      "text": "Mark Robison and Lindley Shedd. 2017. Audio recorders to zucchini seeds: Building a library of things. ABC-CLIO.",
+      "doi": ""
+    },
+    {
+      "text": "Thijs\u00a0Jan Roumen, Willi M\u00fcller, and Patrick Baudisch. 2018. Grafter: Remixing 3D-Printed Machines. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173637",
+      "doi": "10.1145/3173574.3173637"
+    },
+    {
+      "text": "Lura Sanborn and Kelly\u00a0Myer Polacek. 2015. The future of academic librarianship: MOOCs and the robot revolution. Reference and User Services Quarterly 55, 2 (2015), 97\u2013101.",
+      "doi": ""
+    },
+    {
+      "text": "Mana Sasagawa, Kaori Ikematsu, and Itiro Siio. 2016. Simply Tag and Find: Finding Indoor Items by Using Detection History of RFID Tags. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct (Heidelberg, Germany) (UbiComp \u201916). Association for Computing Machinery, New York, NY, USA, 365\u2013368. https://doi.org/10.1145/2968219.2971366",
+      "doi": "10.1145/2968219.2971366"
+    },
+    {
+      "text": "Lalatendu Satpathy and Anijo\u00a0Punnen Mathew. 2006. RFID Assistance System for Faster Book Search in Public Libraries. In CHI \u201906 Extended Abstracts on Human Factors in Computing Systems (Montr\u00e9al, Qu\u00e9bec, Canada) (CHI EA \u201906). Association for Computing Machinery, New York, NY, USA, 1289\u20131294. https://doi.org/10.1145/1125451.1125691",
+      "doi": "10.1145/1125451.1125691"
+    },
+    {
+      "text": "Sabrina Scuri, Marta Ferreira, Nuno Jardim\u00a0Nunes, Valentina Nisi, and Cathy Mulligan. 2022. Hitting the Triple Bottom Line: Widening the HCI Approach to Sustainability. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 332, 19\u00a0pages. https://doi.org/10.1145/3491102.3517518",
+      "doi": "10.1145/3491102.3517518"
+    },
+    {
+      "text": "Thomas Seifried, Matthew Jervis, Michael Haller, Masood Masoodian, and Nicolas Villar. 2008. Integration of Virtual and Real Document Organization. In Proceedings of the 2nd International Conference on Tangible and Embedded Interaction (Bonn, Germany) (TEI \u201908). Association for Computing Machinery, New York, NY, USA, 81\u201388. https://doi.org/10.1145/1347390.1347410",
+      "doi": "10.1145/1347390.1347410"
+    },
+    {
+      "text": "Fei Shang, Panlong Yang, Jie Xiong, Yuanhao Feng, and Xiang-Yang Li. 2022. Tamera: Contactless Commodity Tracking, Material and Shopping Behavior Recognition Using COTS RFIDs. ACM Trans. Sen. Netw. (sep 2022). https://doi.org/10.1145/3563777 Just Accepted.",
+      "doi": "10.1145/3563777"
+    },
+    {
+      "text": "Itiro Siio, Jim Rowan, and Elizabeth Mynatt. 2003. Finding Objects in \"Strata Drawer\". In CHI \u201903 Extended Abstracts on Human Factors in Computing Systems (Ft. Lauderdale, Florida, USA) (CHI EA \u201903). Association for Computing Machinery, New York, NY, USA, 982\u2013983. https://doi.org/10.1145/765891.766106",
+      "doi": "10.1145/765891.766106"
+    },
+    {
+      "text": "Diane Slatter and Zaana Howard. 2013. A place to make, hack, and learn: makerspaces in Australian public libraries. The Australian Library Journal 62, 4 (2013), 272\u2013284.",
+      "doi": ""
+    },
+    {
+      "text": "Jonas S\u00f6derholm. 2016. Borrowing tools from the public library. Journal of Documentation(2016). https://doi.org/10.1108/JD-01-2015-0010",
+      "doi": ""
+    },
+    {
+      "text": "Jessi Stark, Fraser Anderson, George Fitzmaurice, and Sowmya Somanath. 2020. MakeAware: Designing to Support Situation Awareness in Makerspaces. In Proceedings of the 2020 ACM Designing Interactive Systems Conference (Eindhoven, Netherlands) (DIS \u201920). Association for Computing Machinery, New York, NY, USA, 1005\u20131016. https://doi.org/10.1145/3357236.3395472",
+      "doi": "10.1145/3357236.3395472"
+    },
+    {
+      "text": "Emmi Suhonen, Airi Lampinen, Coye Cheshire, and Judd Antin. 2010. Everyday Favors: A Case Study of a Local Online Gift Exchange System. In Proceedings of the 16th ACM International Conference on Supporting Group Work (Sanibel Island, Florida, USA) (GROUP \u201910). Association for Computing Machinery, New York, NY, USA, 11\u201320. https://doi.org/10.1145/1880071.1880074",
+      "doi": "10.1145/1880071.1880074"
+    },
+    {
+      "text": "Terri Summey and Art Gutierrez. 2012. Laptops to go: A student assessment of a library laptop lending service. Journal of Access Services 9, 1 (2012), 28\u201343.",
+      "doi": ""
+    },
+    {
+      "text": "J. Thirumurugan, M. Vinoth, G. Kartheeswaran, and M. Vishwanathan. 2010. Line following robot for library inventory management system. In INTERACT-2010. 1\u20133. https://doi.org/10.1109/INTERACT.2010.5706151",
+      "doi": ""
+    },
+    {
+      "text": "Balasaravanan Thoravi\u00a0Kumaravel, Fraser Anderson, George Fitzmaurice, Bjoern Hartmann, and Tovi Grossman. 2019. Loki: Facilitating Remote Instruction of Physical Tasks Using Bi-Directional Mixed-Reality Telepresence. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 161\u2013174. https://doi.org/10.1145/3332165.3347872",
+      "doi": "10.1145/3332165.3347872"
+    },
+    {
+      "text": "Sam\u00a0S. Tsai, David Chen, Huizhong Chen, Cheng-Hsin Hsu, Kyu-Han Kim, Jatinder\u00a0P. Singh, and Bernd Girod. 2011. Combining Image and Text Features: A Hybrid Approach to Mobile Book Spine Recognition. In Proceedings of the 19th ACM International Conference on Multimedia (Scottsdale, Arizona, USA) (MM \u201911). Association for Computing Machinery, New York, NY, USA, 1029\u20131032. https://doi.org/10.1145/2072298.2071930",
+      "doi": "10.1145/2072298.2071930"
+    },
+    {
+      "text": "Dishita\u00a0G Turakhia, Paulo Blikstein, Nathan\u00a0R Holbert, Marcelo Worsley, Jennifer Jacobs, Fraser Anderson, Jun Gong, Kayla DesPortes, and Stefanie Mueller. 2022. Reimagining Systems for Learning Hands-on Creative and Maker Skills. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 94, 7\u00a0pages. https://doi.org/10.1145/3491101.3503732",
+      "doi": "10.1145/3491101.3503732"
+    },
+    {
+      "text": "Eldy S.\u00a0Lazaro Vasquez and Katia Vega. 2019. Myco-Accessories: Sustainable Wearables with Biodegradable Materials. In Proceedings of the 23rd International Symposium on Wearable Computers (London, United Kingdom) (ISWC \u201919). Association for Computing Machinery, New York, NY, USA, 306\u2013311. https://doi.org/10.1145/3341163.3346938",
+      "doi": "10.1145/3341163.3346938"
+    },
+    {
+      "text": "Evgenios Vlachos, Anne\u00a0Faber Hansen, and Jakob\u00a0Povl Holck. 2020. A Robot in the Library. In Culture and Computing, Matthias Rauterberg (Ed.). Springer International Publishing, Cham, 312\u2013322.",
+      "doi": ""
+    },
+    {
+      "text": "Weina Wang, Kelly Dermody, Colleen Burgess, and Fangmin Wang. 2014. From a knowledge container to a mobile learning platform: What RULA learned from the laptop lending program. Journal of Access Services 11, 4 (2014), 255\u2013281.",
+      "doi": ""
+    },
+    {
+      "text": "Theresa Willingham and Jeroen De\u00a0Boer. 2015. Makerspaces in libraries. Vol.\u00a04. Rowman & Littlefield.",
+      "doi": ""
+    },
+    {
+      "text": "Shanel Wu and Laura Devendorf. 2020. Unfabricate: Designing Smart Textiles for Disassembly. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376227",
+      "doi": "10.1145/3313831.3376227"
+    },
+    {
+      "text": "JungWon Yoon, James\u00a0E Andrews, and Heather\u00a0L Ward. 2021. Perceptions on adopting artificial intelligence and related technologies in libraries: public and academic librarians in North America. Library Hi Tech (2021).",
+      "doi": ""
+    }
+  ]
+}

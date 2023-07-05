@@ -1,0 +1,375 @@
+{
+  "doi": "10.1145/3411764.3445140",
+  "title": "AdaptiFont: Increasing Individuals\u2019 Reading Speed with a Generative Font Model and Bayesian Optimization",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-11",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Digital text has become one of the primary ways of exchanging knowledge, but text needs to be rendered to a screen to be read. We present AdaptiFont, a human-in-the-loop system that is aimed at interactively increasing readability of text displayed on a monitor. To this end, we first learn a generative font space with non-negative matrix factorization from a set of classic fonts. In this space we generate new true-type-fonts through active learning, render texts with the new font, and measure individual users\u2019 reading speed. Bayesian optimization sequentially generates new fonts on the fly to progressively increase individuals\u2019 reading speed. The results of a user study show that this adaptive font generation system finds regions in the font space corresponding to high reading speeds, that these fonts significantly increase participants\u2019 reading speed, and that the found fonts are significantly different across individual readers.",
+  "authors": [
+    {
+      "name": "Florian Kadner",
+      "institution": "Center for Cognitive Science Technical University Darmstadt, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702474",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yannik Keller",
+      "institution": "Center for Cognitive Science Technical University Darmstadt, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701395",
+      "orcid": "missing"
+    },
+    {
+      "name": "Constantin Rothkopf",
+      "institution": "Center for Cognitive Science Technical University of Darmstadt, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81443594915",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Jacques Andr\u00e9 and Bruno Borghi. 1989. Dynamic fonts. In Raster imaging and digital typography. Cambridge University Press, Cambridge, 198\u2013204.",
+      "doi": ""
+    },
+    {
+      "text": "Jacques Andr\u00e9 and Ir\u00e8ne Vatton. 1994. Dynamic optical scaling and variable-sized characters. Electronic Publishing 7, 4 (1994), 231\u2013250.",
+      "doi": ""
+    },
+    {
+      "text": "Mihael Ankerst, Markus\u00a0M. Breunig, Hans-Peter Kriegel, and J\u00f6rg Sander. 1999. OPTICS: Ordering Points to Identify the Clustering Structure. SIGMOD Rec. 28, 2 (June 1999), 49\u201360. https://doi.org/10.1145/304181.304187",
+      "doi": "10.1145/304181.304187"
+    },
+    {
+      "text": "Aries Arditi. 2004. Adjustable typography: an approach to enhancing low vision text accessibility. Ergonomics 47, 5 (April 2004), 469\u2013482. https://doi.org/10.1080/0014013031000085680",
+      "doi": ""
+    },
+    {
+      "text": "Aries Arditi and Jianna Cho. 2005. Serifs and font legibility. Vision Research 45, 23 (Nov. 2005), 2926\u20132933. https://doi.org/10.1016/j.visres.2005.06.013",
+      "doi": ""
+    },
+    {
+      "text": "Samaneh Azadi, Matthew Fisher, Vladimir Kim, Zhaowen Wang, Eli Shechtman, and Trevor Darrell. 2018. Multi-content gan for few-shot font style transfer. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Vol.\u00a011. IEEE, Salt Lake City, 13.",
+      "doi": ""
+    },
+    {
+      "text": "Jean-Baptiste Bernard, Girish Kumar, Jasmine Junge, and Susana\u00a0TL Chung. 2013. The effect of letter-stroke boldness on reading speed in central and peripheral vision. Vision research 84(2013), 33\u201342.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Bernard, Bonnie Lida, Shannon Riley, Telia Hackler, and Karen Janzen. 2002. A comparison of popular online fonts: Which size and type is best. Usability news 4, 1 (2002), 2002.",
+      "doi": ""
+    },
+    {
+      "text": "Charles Bigelow. 2019. Typeface features and legibility research. Vision Research 165 (11 2019). https://doi.org/10.1016/j.visres.2019.05.003",
+      "doi": ""
+    },
+    {
+      "text": "Frans\u00a0JJ Blommaert and Han Timmers. 1987. Letter recognition at low contrast levels: effects of letter size. Perception 16, 4 (1987), 421\u2013432.",
+      "doi": ""
+    },
+    {
+      "text": "Herman Bouma. 1970. Interaction effects in parafoveal letter recognition. Nature 226, 5241 (1970), 177\u2013178.",
+      "doi": ""
+    },
+    {
+      "text": "Dan Boyarski, Christine Neuwirth, Jodi Forlizzi, and Susan\u00a0Harkness Regli. 1998. A Study of Fonts Designed for Screen Display. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Los Angeles, California, USA) (CHI \u201998). ACM Press/Addison-Wesley Publishing Co., USA, 87\u201394. https://doi.org/10.1145/274644.274658",
+      "doi": "10.1145/274644.274658"
+    },
+    {
+      "text": "Danielle Bragg, Shiri Azenkot, and Adam\u00a0Tauman Kalai. 2016. Reading and Learning Smartfonts. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (Tokyo, Japan) (UIST \u201916). Association for Computing Machinery, New York, NY, USA, 391\u2013402. https://doi.org/10.1145/2984511.2984554",
+      "doi": "10.1145/2984511.2984554"
+    },
+    {
+      "text": "Eric Brochu, Vlad\u00a0M. Cora, and Nando de Freitas. 2010. A Tutorial on Bayesian Optimization of Expensive Cost Functions, with Application to Active User Modeling and Hierarchical Reinforcement Learning. CoRR abs/1012.2599(2010). arxiv:1012.2599http://arxiv.org/abs/1012.2599",
+      "doi": ""
+    },
+    {
+      "text": "Barbara Brownie. 2007. One Form, Many Letters: Fluid and transient letterforms in screen-based typographic artefacts. Networking Knowledge: Journal of the MeCCSA Postgraduate Network 1 (12 2007). https://doi.org/10.31165/nk.2007.12.20",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0de Bruijn, Sjaak\u00a0de Mul, and Herre\u00a0van Oostendorp. 1992. The influence of screen size and text layout on the study of text. Behaviour & information technology 11, 2 (1992), 71\u201378.",
+      "doi": ""
+    },
+    {
+      "text": "Neill\u00a0DF Campbell and Jan Kautz. 2014. Learning a manifold of fonts. ACM Transactions on Graphics (TOG) 33, 4 (2014), 1\u201311.",
+      "doi": "10.1145/2601097.2601212"
+    },
+    {
+      "text": "Rob Carter, Philip\u00a0B Meggs, and Ben Day. 2011. Typographic design: Form and communication. John Wiley & Sons, Hoboken, New Jersey.",
+      "doi": ""
+    },
+    {
+      "text": "Junbum Cha, Sanghyuk Chun, Gayoung Lee, Bado Lee, Seonghyeon Kim, and Hwalsuk Lee. 2020. Few-shot Compositional Font Generation with Dual Memory. In European Conference on Computer Vision (ECCV). Springer, Online.",
+      "doi": ""
+    },
+    {
+      "text": "Tianlang Chen, Zhaowen Wang, Ning Xu, Hailin Jin, and Jiebo Luo. 2019. Large-scale Tag-based Font Retrieval with Generative Feature Learning. CoRR abs/1909.02072(2019). arxiv:1909.02072http://arxiv.org/abs/1909.02072",
+      "doi": ""
+    },
+    {
+      "text": "Susana\u00a0TL Chung. 2004. Reading speed benefits from increased vertical word spacing in normal peripheral vision. Optometry and vision science: official publication of the American Academy of Optometry 81, 7 (2004), 525.",
+      "doi": ""
+    },
+    {
+      "text": "Susana\u00a0TL Chung, J\u00a0Stephen Mansfield, and Gordon\u00a0E Legge. 1998. Psychophysics of reading. XVIII. The effect of print size on reading speed in normal peripheral vision. Vision research 38, 19 (1998), 2949\u20132962.",
+      "doi": ""
+    },
+    {
+      "text": "Microsoft corporation. 2018. OpenType\u00ae specification. https://docs.microsoft.com/en-us/typography/opentype/spec/",
+      "doi": ""
+    },
+    {
+      "text": "Edgar Dale and Jeanne\u00a0S Chall. 1949. The concept of readability. Elementary English 26, 1 (1949), 19\u201326.",
+      "doi": ""
+    },
+    {
+      "text": "Iain Darroch, Joy Goodman, Stephen Brewster, and Phil Gray. 2005. The effect of age and font size on reading text on handheld computers. In IFIP conference on human-computer interaction. Springer, Springer Berlin Heidelberg, Berlin, Heidelberg, 253\u2013266.",
+      "doi": "10.1007/11555261_23"
+    },
+    {
+      "text": "Luc Devroye and Michael McDougall. 1995. Random fonts for the simulation of handwriting. Electronic Publishing (EP\u2014ODD) 8 (1995), 281\u2013294.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Dobres, Nadine Chahine, Bryan Reimer, David Gould, Bruce Mehler, and Joseph\u00a0F Coughlin. 2016. Utilising psychophysical techniques to investigate the effects of age, typeface design, size and display polarity on glance legibility. Ergonomics 59, 10 (2016), 1377\u20131391.",
+      "doi": ""
+    },
+    {
+      "text": "Peitong Duan, Casimir Wierzynski, and Lama Nachman. 2020. Optimizing User Interface Layouts via Gradient Descent. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376589",
+      "doi": "10.1145/3313831.3376589"
+    },
+    {
+      "text": "John\u00a0J. Dudley, Jason\u00a0T. Jacques, and Per\u00a0Ola Kristensson. 2019. Crowdsourcing Interface Feature Design with Bayesian Optimization. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300482",
+      "doi": "10.1145/3290605.3300482"
+    },
+    {
+      "text": "Mary\u00a0C Dyson. 2004. How physical text layout affects reading from screen. Behaviour & information technology 23, 6 (2004), 377\u2013393.",
+      "doi": ""
+    },
+    {
+      "text": "Jerry\u00a0Alan Fails and Dan\u00a0R. Olsen. 2003. Interactive Machine Learning. In Proceedings of the 8th International Conference on Intelligent User Interfaces (Miami, Florida, USA) (IUI \u201903). Association for Computing Machinery, New York, NY, USA, 39\u201345. https://doi.org/10.1145/604045.604056",
+      "doi": "10.1145/604045.604056"
+    },
+    {
+      "text": "Paul\u00a0A Fishwick. 2008. Aesthetic computing. Mit Press, Cambridge, Massachusetts.",
+      "doi": "10.5555/1177228"
+    },
+    {
+      "text": "Krzysztof\u00a0Z Gajos, Daniel\u00a0S Weld, and Jacob\u00a0O Wobbrock. 2010. Automatically generating personalized user interfaces with Supple. Artificial Intelligence 174, 12-13 (2010), 910\u2013950.",
+      "doi": "10.1016/j.artint.2010.05.005"
+    },
+    {
+      "text": "Krzysztof\u00a0Z. Gajos, Jacob\u00a0O. Wobbrock, and Daniel\u00a0S. Weld. 2008. Improving the Performance of Motor-Impaired Users with Automatically-Generated, Ability-Based Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Florence, Italy) (CHI \u201908). Association for Computing Machinery, New York, NY, USA, 1257\u20131266. https://doi.org/10.1145/1357054.1357250",
+      "doi": "10.1145/1357054.1357250"
+    },
+    {
+      "text": "Marelys\u00a0L Garcia and Cesar\u00a0I Caldera. 1996. The effect of color and typeface on the readability of on-line text. Computers & industrial engineering 31, 1-2 (1996), 519\u2013524.",
+      "doi": ""
+    },
+    {
+      "text": "Changyuan Hu. 1998. Synthesis of parametrisable fonts by shape components. Technical Report. EPFL.",
+      "doi": ""
+    },
+    {
+      "text": "Changyuan Hu and Roger\u00a0D Hersch. 2001. Parameterizable fonts based on shape components. IEEE Computer Graphics and Applications 21, 3 (2001), 70\u201385.",
+      "doi": "10.1109/38.920629"
+    },
+    {
+      "text": "Nathan Hurst, Wilmot Li, and Kim Marriott. 2009. Review of Automatic Document Formatting. In Proceedings of the 9th ACM Symposium on Document Engineering (Munich, Germany) (DocEng \u201909). Association for Computing Machinery, New York, NY, USA, 99\u2013108. https://doi.org/10.1145/1600193.1600217",
+      "doi": "10.1145/1600193.1600217"
+    },
+    {
+      "text": "Charles Jacobs, Wilmot Li, Evan Schrier, David Bargeron, and David Salesin. 2003. Adaptive grid-based document layout. ACM transactions on graphics (TOG) 22, 3 (2003), 838\u2013847.",
+      "doi": ""
+    },
+    {
+      "text": "Johan J\u00e4rlehed and Adam Jaworski. 2015. Typographic landscaping: Creativity, ideology, movement.",
+      "doi": ""
+    },
+    {
+      "text": "JASP Team. 2020. JASP (Version 0.13.1)[Computer software]. https://jasp-stats.org/",
+      "doi": ""
+    },
+    {
+      "text": "Bhargav Kanagal and Vikas Sindhwani. 2010. Rank Selection in Low-rank Matrix Approximations: A Study of Cross-Validation for NMFs. Proc Conf Adv Neural Inf Process 1 (01 2010).",
+      "doi": ""
+    },
+    {
+      "text": "Mohammad\u00a0M. Khajah, Brett\u00a0D. Roads, Robert\u00a0V. Lindsey, Yun-En Liu, and Michael\u00a0C. Mozer. 2016. Designing Engaging Games Using Bayesian Optimization. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 5571\u20135582. https://doi.org/10.1145/2858036.2858253",
+      "doi": "10.1145/2858036.2858253"
+    },
+    {
+      "text": "Donald\u00a0Ervin Knuth. 1999. Digital typography. Vol.\u00a078. Csli Publications, Stanford, California.",
+      "doi": ""
+    },
+    {
+      "text": "Maja K\u00f6pper, Susanne Mayr, and Axel Buchner. 2016. Reading from computer screen versus reading from paper: does it still make a difference?Ergonomics 59, 5 (2016), 615\u2013632.",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian\u00a0P. Korinth, Kerstin Gerstenberger, and Christian\u00a0J. Fiebach. 2020. Wider Letter-Spacing Facilitates Word Processing but Impairs Reading Rates of Fast Readers. Frontiers in Psychology 11 (2020), 444. https://doi.org/10.3389/fpsyg.2020.00444",
+      "doi": ""
+    },
+    {
+      "text": "Yuki Koyama and Takeo Igarashi. 2018. Computational Design with Crowds. Oxford University Press, Oxford, Chapter\u00a07, 153\u2013184. https://doi.org/10.1093/oso/9780198799603.003.0007",
+      "doi": ""
+    },
+    {
+      "text": "C Landolt. 2019. Visual factors in reading. Vision Research 161(2019), 60\u201362.",
+      "doi": ""
+    },
+    {
+      "text": "Matej Latin. 2019. Better web typography for a better web. BLURB, San Francisco.",
+      "doi": ""
+    },
+    {
+      "text": "Gordon\u00a0E. Legge and Charles\u00a0A. Bigelow. 2011. Does print size matter for reading? A review of findings from vision science and typography. Journal of Vision 11, 5 (08 2011), 8\u20138. https://doi.org/10.1167/11.5.8arXiv:https://arvojournals.org/arvo/content_public/journal/jov/933487/jov-11-5-8.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Gordon\u00a0E Legge, Denis\u00a0G Pelli, Gar\u00a0S Rubin, and Mary\u00a0M Schleske. 1985. Psychophysics of reading\u2014I. Normal vision. Vision research 25, 2 (1985), 239\u2013252.",
+      "doi": ""
+    },
+    {
+      "text": "Romy Lorenz, Ricardo\u00a0Pio Monti, In\u00eas\u00a0R Violante, Christoforos Anagnostopoulos, Aldo\u00a0A Faisal, Giovanni Montana, and Robert Leech. 2016. The Automatic Neuroscientist: A framework for optimizing experimental design with closed-loop real-time fMRI. NeuroImage 129(2016), 320\u2013334.",
+      "doi": ""
+    },
+    {
+      "text": "MATTHEW Luckiesh and FBANK\u00a0K Moss. 1940. Boldness as a factor in type-design and typography.Journal of Applied Psychology 24, 2 (1940), 170.",
+      "doi": ""
+    },
+    {
+      "text": "M.\u00a0M.\u00a0Hassan Mahmud, Benjamin Rosman, Subramanian Ramamoorthy, and Pushmeet Kohli. 2014. Adapting Interaction Environments to Diverse Users through Online Action Set Selection. In Proceedings of the AAAI 2014 Workshop on Machine Learning for Interactive Systems (proceedings of the aaai 2014 workshop on machine learning for interactive systems ed.). Association for the Advancement of ArtificialIntelligence, .https://www.microsoft.com/en-us/research/publication/adapting-interaction-environments-diverse-users-online-action-set-selection/",
+      "doi": ""
+    },
+    {
+      "text": "J\u00a0Stephen Mansfield, Gordon\u00a0E Legge, and Mark\u00a0C Bane. 1996. Psychophysics of reading. XV: Font effects in normal and low vision.Investigative Ophthalmology & Visual Science 37, 8 (1996), 1492\u20131501.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0V McLean. 1965. Brightness contrast, color contrast, and legibility. Human factors 7, 6 (1965), 521\u2013527.",
+      "doi": ""
+    },
+    {
+      "text": "Clyde\u00a0D McQueen\u00a0III and Raymond\u00a0G Beausoleil. 1993. Infinifont: a parametric font generation system. ELECTRONIC PUBLISHING-CHICHESTER- 6 (1993), 117\u2013117.",
+      "doi": ""
+    },
+    {
+      "text": "George\u00a0Armitage Miller. 1991. The science of words. Scientific American Library, .",
+      "doi": ""
+    },
+    {
+      "text": "Frieder Nake. 2009. The semiotic engine: notes on the history of algorithmic images in Europe. Art Journal 68, 1 (2009), 76\u201389.",
+      "doi": ""
+    },
+    {
+      "text": "Fernando Nogueira. 2014\u2013. Bayesian Optimization: Open source constrained global optimization tool for Python. https://github.com/fmfn/BayesianOptimization",
+      "doi": ""
+    },
+    {
+      "text": "Heidrun Osterer and Philipp Stamm. 2014. Adrian Frutiger\u2013Typefaces: The Complete Works. Walter de Gruyter, Basel.",
+      "doi": ""
+    },
+    {
+      "text": "Song Park, Sanghyuk Chun, Junbum Cha, Bado Lee, and Hyunjung Shim. 2020. Few-shot Font Generation with Localized Style Representations and Factorization. arxiv:2009.11042\u00a0[cs.CV]",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0G Paterson and Miles\u00a0A Tinker. 1931. Studies of typographical factors influencing speed of reading.Journal of Applied Psychology 15, 3 (1931), 241.",
+      "doi": ""
+    },
+    {
+      "text": "Denis\u00a0G. Pelli, Katharine\u00a0A. Tillman, Jeremy Freeman, Michael Su, Tracey\u00a0D. Berger, and Najib\u00a0J. Majaj. 2007. Crowding and eccentricity determine reading rate. Journal of Vision 7, 2 (10 2007), 20\u201320. https://doi.org/10.1167/7.2.20",
+      "doi": ""
+    },
+    {
+      "text": "Lisa Purvis, Steven Harrington, Barry O\u2019Sullivan, and Eugene\u00a0C. Freuder. 2003. Creating Personalized Documents: An Optimization Approach. In Proceedings of the 2003 ACM Symposium on Document Engineering (Grenoble, France) (DocEng \u201903). Association for Computing Machinery, New York, NY, USA, 68\u201377. https://doi.org/10.1145/958220.958234",
+      "doi": "10.1145/958220.958234"
+    },
+    {
+      "text": "Anna Raffert, Matei Zaharia, and Thomas Griffiths. 2012. Optimally designing games for cognitive science research. In Proceedings of the Annual Meeting of the Cognitive Science Society. Cognitive Science Society, Sapporo, Japan, 280\u2013287.",
+      "doi": ""
+    },
+    {
+      "text": "Luz Rello, Martin Pielot, and Mari-Carmen Marcos. 2016. Make It Big! The Effect of Font Size and Line Spacing on Online Readability. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 3637\u20133648. https://doi.org/10.1145/2858036.2858204",
+      "doi": "10.1145/2858036.2858204"
+    },
+    {
+      "text": "Prasun Roy, Saumik Bhattacharya, Subhankar Ghosh, and Umapada Pal. 2020. STEFANN: Scene Text Editor using Font Adaptive Neural Network. In The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, Virtual.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth Russell-Minda, Jeffrey\u00a0W Jutai, J\u00a0Graham Strong, Kent\u00a0A Campbell, Deborah Gold, Lisa Pretty, and Lesley Wilmot. 2007. The legibility of typefaces for readers with low vision: A research review. Journal of Visual Impairment & Blindness 101, 7 (2007), 402\u2013415.",
+      "doi": ""
+    },
+    {
+      "text": "Rodolfo\u00a0N Salcedo, Hadley Read, James\u00a0F Evans, and Ana\u00a0C Kong. 1972. A broader look at legibility. Journalism Quarterly 49, 2 (1972), 285\u2013295.",
+      "doi": ""
+    },
+    {
+      "text": "J\u00f6rg Sander, Martin Ester, Hans-Peter Kriegel, and Xiaowei Xu. 1998. Density-Based Clustering in Spatial Databases: The Algorithm GDBSCAN and Its Applications. Data Min. Knowl. Discov. 2, 2 (June 1998), 169\u2013194. https://doi.org/10.1023/A:1009745219419",
+      "doi": "10.1023/A%3A1009745219419"
+    },
+    {
+      "text": "Peter Selinger. 2001\u20132019. Potrace. http://potrace.sourceforge.net/.",
+      "doi": ""
+    },
+    {
+      "text": "Bobak Shahriari, Kevin Swersky, Ziyu Wang, Ryan\u00a0P Adams, and Nando De\u00a0Freitas. 2015. Taking the human out of the loop: A review of Bayesian optimization. Proc. IEEE 104, 1 (2015), 148\u2013175.",
+      "doi": ""
+    },
+    {
+      "text": "Ariel Shamir and Ari Rappoport. 1998. Feature-based design of fonts using constraints. In Electronic Publishing, Artistic Imaging, and Digital Typography, Roger\u00a0D. Hersch, Jacques Andr\u00e9, and Heather Brown(Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 93\u2013108.",
+      "doi": "10.5555/647506.760425"
+    },
+    {
+      "text": "Jim Sheedy, Yu-Chi Tai, Manoj Subbaram, Sowjanya Gowrisankaran, and John Hayes. 2008. ClearType sub-pixel text rendering: Preference, legibility and reading performance. Displays 29, 2 (2008), 138\u2013151.",
+      "doi": ""
+    },
+    {
+      "text": "Jasper Snoek, Hugo Larochelle, and Ryan\u00a0P. Adams. 2012. Practical Bayesian Optimization of Machine Learning Algorithms. In Proceedings of the 25th International Conference on Neural Information Processing Systems - Volume 2 (Lake Tahoe, Nevada) (NIPS\u201912). Curran Associates Inc., Red Hook, NY, USA, 2951\u20132959.",
+      "doi": ""
+    },
+    {
+      "text": "Chris Spooner. 2009. 25 Classic Fonts That Will Last a Whole Design Career. https://blog.spoongraphics.co.uk/articles/25-classic-fonts-that-will-last-a-whole-design-career.",
+      "doi": ""
+    },
+    {
+      "text": "Suvrit Sra and Inderjit\u00a0S. Dhillon. 2006. Generalized Nonnegative Matrix Approximations with Bregman Divergences. In Advances in Neural Information Processing Systems 18, Y.\u00a0Weiss, B.\u00a0Sch\u00f6lkopf, and J.\u00a0C. Platt(Eds.). MIT Press, Cambridge, MA, USA, 283\u2013290. http://papers.nips.cc/paper/2757-generalized-nonnegative-matrix-approximations-with-bregman-divergences.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Niranjan Srinivas, Andreas Krause, Sham\u00a0M. Kakade, and Matthias\u00a0W. Seeger. 2009. Gaussian Process Bandits without Regret: An Experimental Design Approach. CoRR abs/0912.3995(2009). arxiv:0912.3995http://arxiv.org/abs/0912.3995",
+      "doi": ""
+    },
+    {
+      "text": "Just van Rossum. 2017\u2013. FontTools. https://github.com/fonttools/fonttools",
+      "doi": ""
+    },
+    {
+      "text": "George Williams and the FontForge Project\u00a0contributors. 2000\u20132015. FontForge. https://fontforge.org/en-US/.",
+      "doi": ""
+    },
+    {
+      "text": "Jeremy York. 2008. Legibility and Large-Scale Digitization. Hathi Trust Digital Library . (2008).",
+      "doi": ""
+    },
+    {
+      "text": "Hermann Zapf, William Andrews Clark\u00a0Memorial Library, and John Dreyfus. 1991. Classical typography in the computer age. U. of California., California.",
+      "doi": ""
+    },
+    {
+      "text": "Nanxuan Zhao, Ying Cao, and Rynson\u00a0W.H. Lau. 2018. Modeling Fonts in Context: Font Prediction on Web Designs. Computer Graphics Forum (Proc. Pacific Graphics 2018) 37 (2018). Issue 7.",
+      "doi": ""
+    },
+    {
+      "text": "Alexander Zook, Eric Fruchter, and Mark\u00a0O. Riedl. 2014. Automatic playtesting for game parameter tuning via active learning. In Proceedings of the 9th International Conference on the Foundations of Digital Games, FDG 2014, Liberty of the Seas, Caribbean, April 3-7, 2014, Michael Mateas, Tiffany Barnes, and Ian Bogost (Eds.). Society for the Advancement of the Science of Digital Games, Liberty of the Seas, Caribbean. http://www.fdg2014.org/papers/fdg2014_paper_39.pdf",
+      "doi": ""
+    }
+  ]
+}

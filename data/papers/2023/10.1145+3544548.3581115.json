@@ -1,0 +1,320 @@
+{
+  "doi": "10.1145/3544548.3581115",
+  "title": "Escapement: A Tool for Interactive Prototyping with Video via Sensor-Mediated Abstraction of Time",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2023,
+  "badges": [],
+  "abstract": "We present Escapement, a video prototyping tool that introduces a powerful new concept for prototyping screen-based interfaces by flexibly mapping sensor values to dynamic playback control of videos. This recasts the time dimension of video mock-ups as sensor-mediated interaction.  This abstraction of time as interaction, which we dub video-escapement prototyping, empowers designers to rapidly explore and viscerally experience direct touch or sensor-mediated interactions across one or more device displays. Our system affords cross-device and bidirectional remote (tele-present) experiences via cloud-based state sharing across multiple devices. This makes Escapement especially potent for exploring multi-device, dual-screen, or remote-work interactions for screen-based applications.  We introduce the core concept of sensor-mediated abstraction of time for quickly generating video-based interactive prototypes of screen-based applications, share the results of observations of long-term usage of video-escapement techniques with experienced interaction designers, and articulate design choices for supporting a reflective, iterative, and open-ended creative design process.",
+  "authors": [
+    {
+      "name": "Molly Jane Nicholas",
+      "institution": "UC Berkeley, United States",
+      "img": "/do/10.1145/contrib-99659163367/rel-imgonly/0-scarf-glasses-the-future-cropped.jpeg",
+      "acmid": "99659163367",
+      "orcid": "0000-0002-2830-3084"
+    },
+    {
+      "name": "Nicolai Marquardt",
+      "institution": "UCL Interaction Centre, University College London, United Kingdom and Microsoft Research, United States",
+      "img": "/do/10.1145/contrib-81324491951/rel-imgonly/portraitnic3.jpg",
+      "acmid": "81324491951",
+      "orcid": "0000-0002-5473-2448"
+    },
+    {
+      "name": "Michel Pahud",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81456607280",
+      "orcid": "0000-0003-3924-1189"
+    },
+    {
+      "name": "Nathalie Riche",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81313483984",
+      "orcid": "0000-0003-1759-7512"
+    },
+    {
+      "name": "Hugo Romat",
+      "institution": "Microsoft, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658993819",
+      "orcid": "0000-0002-9194-8889"
+    },
+    {
+      "name": "Christopher Collins",
+      "institution": "Ontario Tech University, Canada",
+      "img": "/do/10.1145/contrib-81436596812/rel-imgonly/collins-headshot.jpg",
+      "acmid": "81436596812",
+      "orcid": "0000-0002-4520-7000"
+    },
+    {
+      "name": "David Ledo",
+      "institution": "Autodesk Research, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81490690490",
+      "orcid": "0000-0002-0455-7936"
+    },
+    {
+      "name": "Rohan Kadekodi",
+      "institution": "Computer science, University of Texas, Austin, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659211189",
+      "orcid": "0000-0002-1213-0342"
+    },
+    {
+      "name": "Badrish Chandramouli",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81314493435",
+      "orcid": "0000-0002-8468-4037"
+    },
+    {
+      "name": "Ken Hinckley",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100519448",
+      "orcid": "0000-0002-4733-4927"
+    }
+  ],
+  "references": [
+    {
+      "text": "Ronald\u00a0Michael Baecker. 1969. Interactive computer-mediated animation.Technical Report. MASSACHUSETTS INST OF TECH CAMBRIDGE PROJECT MAC.",
+      "doi": ""
+    },
+    {
+      "text": "Krishna Bharat and Luca Cardelli. 1996. Migratory applications. In International Workshop on Mobile Object Systems. Springer, 131\u2013148.",
+      "doi": ""
+    },
+    {
+      "text": "Frederik Brudy, Christian Holz, Roman R\u00e4dle, Chi-Jui Wu, Steven Houben, Clemens\u00a0Nylandsted Klokmose, and Nicolai Marquardt. 2019. Cross-Device Taxonomy: Survey, Opportunities and Challenges of Interactions Spanning Across Multiple Devices. Association for Computing Machinery, New York, NY, USA, 1\u201328. https://doi.org/10.1145/3290605.3300792",
+      "doi": "10.1145/3290605.3300792"
+    },
+    {
+      "text": "Nestor Burtnyk and Marceli Wein. 1976. Interactive skeleton techniques for enhancing motion dynamics in key frame animation. Commun. ACM 19, 10 (1976), 564\u2013569.",
+      "doi": "10.1145/360349.360357"
+    },
+    {
+      "text": "Bill Buxton. 2010. Sketching user experiences: getting the design right and the right design. Morgan kaufmann.",
+      "doi": ""
+    },
+    {
+      "text": "G\u00e9ry Casiez, Nicolas Roussel, and Daniel Vogel. 2012. 1\u20ac filter: a simple speed-based low-pass filter for noisy input in interactive systems. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2527\u20132530.",
+      "doi": "10.1145/2207676.2208639"
+    },
+    {
+      "text": "Badrish Chandramouli, Guna Prasaad, Donald Kossmann, Justin Levandoski, James Hunter, and Mike Barnett. 2018. Faster: A concurrent key-value store with in-place updates. In Proceedings of the 2018 International Conference on Management of Data. 275\u2013290.",
+      "doi": "10.1145/3183713.3196898"
+    },
+    {
+      "text": "Batyr Charyyev, Engin Arslan, and Mehmet\u00a0Hadi Gunes. 2020. Latency comparison of cloud datacenters and edge servers. In GLOBECOM 2020-2020 IEEE Global Communications Conference. IEEE, 1\u20136.",
+      "doi": "10.1109/GLOBECOM42002.2020.9322406"
+    },
+    {
+      "text": "Alan Cooper, Robert Reimann, David Cronin, and Christopher Noessel. 2014. About face: the essentials of interaction design. John Wiley & Sons.",
+      "doi": "10.5555/2688796"
+    },
+    {
+      "text": "Nigel Cross. 2011. Design thinking: Understanding how designers think and work. Berg.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Dalsgaard. 2014. Pragmatism and design thinking. International Journal of Design 8, 1 (2014), 143\u2013155.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Dalsgaard. 2017. Instruments of inquiry: Understanding the nature and role of tools in design. International Journal of Design 11, 1 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Pierre Dragicevic, Gonzalo Ramos, Jacobo Bibliowitcz, Derek Nowrouzezahrai, Ravin Balakrishnan, and Karan Singh. 2008. Video browsing by direct manipulation. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 237\u2013246.",
+      "doi": "10.1145/1357054.1357096"
+    },
+    {
+      "text": "George Fitzmaurice and William Buxton. 1994. The chameleon: Spatially aware palmtop computers. In Conference companion on Human factors in computing systems. 451\u2013452.",
+      "doi": "10.1145/259963.260460"
+    },
+    {
+      "text": "Saul Greenberg and Bill Buxton. 2008. Usability evaluation considered harmful (some of the time). In Proceedings of the SIGCHI conference on Human factors in computing systems. 111\u2013120.",
+      "doi": "10.1145/1357054.1357074"
+    },
+    {
+      "text": "Saul Greenberg, Sheelagh Carpendale, Nicolai Marquardt, and Bill Buxton. 2011. Sketching user experiences: The workbook. Elsevier.",
+      "doi": "10.5555/2208198"
+    },
+    {
+      "text": "Donatien Grolaux, Peter Van\u00a0Roy, and Jean Vanderdonckt. 2004. Migratable user interfaces: beyond migratory interfaces. In The First Annual International Conference on Mobile and Ubiquitous Systems: Networking and Services, 2004. MOBIQUITOUS 2004. IEEE, IEEE, USA, 422\u2013430.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Hamilton and Daniel\u00a0J. Wigdor. 2014. Conductor: enabling and understanding cross-device interaction. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201914). Association for Computing Machinery, New York, NY, USA, 2773\u20132782. https://doi.org/10.1145/2556288.2557170",
+      "doi": "10.1145/2556288.2557170"
+    },
+    {
+      "text": "Bj\u00f6rn Hartmann. 2009. Gaining design insight through interaction prototyping tools. Stanford University Stanford, CA.",
+      "doi": ""
+    },
+    {
+      "text": "Bj\u00f6rn Hartmann, Leith Abdulla, Manas Mittal, and Scott\u00a0R Klemmer. 2007. Authoring sensor-based interactions by demonstration with direct manipulation and pattern recognition. In Proceedings of the SIGCHI conference on Human factors in computing systems. 145\u2013154.",
+      "doi": "10.1145/1240624.1240646"
+    },
+    {
+      "text": "James Hollan, Edwin Hutchins, and David Kirsh. 2000. Distributed Cognition: Toward a New Foundation for Human-Computer Interaction Research. ACM Transactions on Computer-Human Interaction 7, 2 (jun 2000), 174\u2013196. https://doi.org/10.1145/353485.353487",
+      "doi": "10.1145/353485.353487"
+    },
+    {
+      "text": "Stephanie Houde and Charles Hill. 1997. What do prototypes prototype?In Handbook of human-computer interaction. Elsevier, 367\u2013381.",
+      "doi": ""
+    },
+    {
+      "text": "Scott\u00a0E Hudson and Jennifer Mankoff. 2006. Rapid construction of functioning physical interfaces from cardboard, thumbtacks, tin foil and masking tape. In Proceedings of the 19th annual ACM symposium on User interface software and technology. 289\u2013298.",
+      "doi": "10.1145/1166253.1166299"
+    },
+    {
+      "text": "Edwin Hutchins. 1995. Cognition in the Wild. MIT press.",
+      "doi": ""
+    },
+    {
+      "text": "Tero Jokela, Jarno Ojala, Guido Grassel, Petri Piippo, and Thomas Olsson. 2015. A Comparison of Methods to Move Visual Objects Between Personal Mobile Devices in Different Contexts of Use. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (Copenhagen, Denmark) (MobileHCI \u201915). ACM, New York, NY, USA, 172\u2013181. https://doi.org/10.1145/2785830.2785841",
+      "doi": "10.1145/2785830.2785841"
+    },
+    {
+      "text": "James\u00a0C Kaufman. 2016. Creativity 101. Springer publishing company.",
+      "doi": ""
+    },
+    {
+      "text": "Rubaiat\u00a0Habib Kazi, Fanny Chevalier, Tovi Grossman, and George Fitzmaurice. 2014. Kitty: sketching dynamic and interactive illustrations. In Proceedings of the 27th annual ACM symposium on User interface software and technology. 395\u2013405.",
+      "doi": "10.1145/2642918.2647375"
+    },
+    {
+      "text": "John\u00a0F Kelley. 1983. An empirical methodology for writing user-friendly natural language computer applications. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems. 193\u2013196.",
+      "doi": "10.1145/800045.801609"
+    },
+    {
+      "text": "Iyad Khaddam, Jean Vanderdonckt, Salah Dowaji, and Donatien Grolaux. 2020. Towards Rapid Prototyping of Foldable Graphical User Interfaces with Flecto. Proceedings of the ACM on Human-Computer Interaction 4, ISS(2020), 1\u201333.",
+      "doi": "10.1145/3427322"
+    },
+    {
+      "text": "Scott\u00a0R Klemmer, Bj\u00f6rn Hartmann, and Leila Takayama. 2006. How bodies matter: five themes for interaction design. In Proceedings of the 6th conference on Designing Interactive systems. 140\u2013149.",
+      "doi": "10.1145/1142405.1142429"
+    },
+    {
+      "text": "Clemens\u00a0N Klokmose, James Eagan, Siemen Baader, Wendy Mackay, and Michel Beaudouin-Lafon. 2016. Webstrates: demonstrating the potential of Shareable Dynamic Media. In Proceedings of the 19th ACM Conference on Computer Supported Cooperative Work and Social Computing Companion. Association for Computing Machinery, New York, NY, USA, 61\u201364.",
+      "doi": "10.1145/2818052.2874325"
+    },
+    {
+      "text": "David Ledo, Steven Houben, Jo Vermeulen, Nicolai Marquardt, Lora Oehlberg, and Saul Greenberg. 2018. Evaluation strategies for HCI toolkit research. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3173574.3173610"
+    },
+    {
+      "text": "David Ledo, Jo Vermeulen, Sheelagh Carpendale, Saul Greenberg, Lora Oehlberg, and Sebastian Boring. 2019. Astral: Prototyping Mobile and Smart Object Interactive Behaviours Using Familiar Applications. In Proceedings of the 2019 on Designing Interactive Systems Conference. 711\u2013724.",
+      "doi": "10.1145/3322276.3322329"
+    },
+    {
+      "text": "David Ledo\u00a0Maira. 2020. Designing Interactive Behaviours for Smart Objects. (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Germ\u00e1n Leiva and Michel Beaudouin-Lafon. 2018. Montage: A video prototyping system to reduce re-shooting and increase re-usability. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology. 675\u2013682.",
+      "doi": "10.1145/3242587.3242613"
+    },
+    {
+      "text": "Germ\u00e1n Leiva, Jens\u00a0Emil Gr\u00f8nb\u00e6k, Clemens\u00a0Nylandsted Klokmose, Cuong Nguyen, Rubaiat\u00a0Habib Kazi, and Paul Asente. 2021. Rapido: Prototyping Interactive AR Experiences through Programming by Demonstration. In The 34th Annual ACM Symposium on User Interface Software and Technology. 626\u2013637.",
+      "doi": "10.1145/3472749.3474774"
+    },
+    {
+      "text": "Germ\u00e1n Leiva, Nolwenn Maudet, Wendy Mackay, and Michel Beaudouin-Lafon. 2019. Enact: Reducing designer\u2013developer breakdowns when prototyping custom interactions. ACM Transactions on Computer-Human Interaction (TOCHI) 26, 3(2019), 1\u201348.",
+      "doi": "10.1145/3310276"
+    },
+    {
+      "text": "Yang Li and James\u00a0A Landay. 2005. Informal prototyping of continuous graphical interactions by demonstration. In Proceedings of the 18th annual ACM symposium on User interface software and technology. 221\u2013230.",
+      "doi": "10.1145/1095034.1095071"
+    },
+    {
+      "text": "Youn-Kyung Lim, Erik Stolterman, and Josh Tenenberg. 2008. The anatomy of prototypes: Prototypes as filters, prototypes as manifestations of design ideas. ACM Transactions on Computer-Human Interaction (TOCHI) 15, 2(2008), 1\u201327.",
+      "doi": "10.1145/1375761.1375762"
+    },
+    {
+      "text": "Panagiotis Louridas. 1999. Design as bricolage: anthropology meets design thinking. Design Studies 20, 6 (1999), 517\u2013535.",
+      "doi": ""
+    },
+    {
+      "text": "Wendy\u00a0E Mackay. 1988. Video Prototyping: a technique for developing hypermedia systems. In CHI\u201988 Conference Companion Human Factors in Computing Systems, Vol.\u00a05. Citeseer, 1\u20133.",
+      "doi": ""
+    },
+    {
+      "text": "Wendy\u00a0E Mackay. 2002. Using video to support interaction design. DVD Tutorial, CHI 2, 5 (2002).",
+      "doi": ""
+    },
+    {
+      "text": "Nicolai Marquardt, Nathalie Henry\u00a0Riche, Christian Holz, Hugo Romat, Michel Pahud, Frederik Brudy, David Ledo, Chunjong Park, Molly\u00a0Jane Nicholas, Teddy Seyed, 2021. AirConstellations: In-Air Device Formations for Cross-Device Interaction via Multiple Spatially-Aware Armatures. In The 34th Annual ACM Symposium on User Interface Software and Technology. 1252\u20131268.",
+      "doi": "10.1145/3472749.3474820"
+    },
+    {
+      "text": "Judith Martens, Thomas Franke, Nadine Rauh, and Josef\u00a0F Krems. 2018. Effects of low-range latency on performance and perception in a virtual, unstable second-order control task. Quality and User Experience 3, 1 (2018), 1\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "Michael McCurdy, Christopher Connors, Guy Pyrzak, Bob Kanefsky, and Alonso Vera. 2006. Breaking the fidelity barrier: an examination of our current characterization of prototypes and an example of a mixed-fidelity success. In Proceedings of the SIGCHI conference on Human Factors in computing systems. 1233\u20131242.",
+      "doi": "10.1145/1124772.1124959"
+    },
+    {
+      "text": "Brad Myers, Scott\u00a0E Hudson, and Randy Pausch. 2000. Past, present, and future of user interface software tools. ACM Transactions on Computer-Human Interaction (TOCHI) 7, 1(2000), 3\u201328.",
+      "doi": "10.1145/344949.344959"
+    },
+    {
+      "text": "Dan\u00a0R Olsen\u00a0Jr. 2007. Evaluating user interface systems research. In Proceedings of the 20th annual ACM symposium on User interface software and technology. 251\u2013258.",
+      "doi": "10.1145/1294211.1294256"
+    },
+    {
+      "text": "Srishti Palani, David Ledo, George Fitzmaurice, and Fraser Anderson. 2022. \u201cI don\u2019t want to feel like I\u2019m working in a 1960s factory\u201d: The Practitioner Perspective on Creativity Support Tool Adoption. In ACM CHI Conference on Human Factors in Computing Systems. 275\u2013290.",
+      "doi": ""
+    },
+    {
+      "text": "Taylor Palmer and Jordan\u00a0Bowman of UX\u00a0Tools. [n. d.]. 2020 tools survey results. Retrieved October 26, 2021, from https://uxtools.co/survey-2020.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Penner. 2002. Robert Penner\u2019s Programming Macromedia Flash MX. McGraw-Hill, Inc.",
+      "doi": ""
+    },
+    {
+      "text": "Hugo Romat, Christopher Collins, Nathalie Henry\u00a0Riche, Michel Pahud, Christian Holz, Adam Riddle, Bill Buxton, and Ken Hinckley. 2020. Tilt-Responsive Techniques for Digital Drawing Boards. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology(UIST \u201920). Association for Computing Machinery, New York, NY, USA, 500\u2013515. https://doi.org/10.1145/3379337.3415861",
+      "doi": "10.1145/3379337.3415861"
+    },
+    {
+      "text": "Ibrahim Sabek, Badrish Chandramouli, and Umar\u00a0Farooq Minhas. 2019. CRA: Enabling data-intensive applications in containerized environments. In 2019 IEEE 35th International Conference on Data Engineering (ICDE). IEEE, 1762\u20131765.",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0A Schon. 1979. The reflective practitioner. New York (1979).",
+      "doi": ""
+    },
+    {
+      "text": "Ben Shneiderman. 2007. Creativity Support Tools: Accelerating Discovery and Innovation. Commun. ACM 50, 12 (Dec. 2007), 20\u201332. https://doi.org/10.1145/1323688.1323689",
+      "doi": "10.1145/1323688.1323689"
+    },
+    {
+      "text": "Erik Stolterman. 2008. The nature of design practice and implications for interaction design research. International Journal of Design 2, 1 (2008).",
+      "doi": ""
+    },
+    {
+      "text": "Anna Vallg\u00e5rda and Ylva Fernaeus. 2015. Interaction design as a bricolage practice. In Proceedings of the ninth international conference on tangible, embedded, and embodied interaction. 173\u2013180.",
+      "doi": "10.1145/2677199.2680594"
+    },
+    {
+      "text": "Laurie Vertelney. 1989. Using video to prototype user interfaces. ACM SIGCHI Bulletin 21, 2 (1989), 57\u201361.",
+      "doi": "10.1145/70609.70615"
+    },
+    {
+      "text": "Jishuo Yang and Daniel Wigdor. 2014. Panelrama: enabling easy specification of cross-device web applications. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201914). Association for Computing Machinery, New York, NY, USA, 2783\u20132792. https://doi.org/10.1145/2556288.2557199",
+      "doi": "10.1145/2556288.2557199"
+    },
+    {
+      "text": "John Zimmerman, Jodi Forlizzi, and Shelley Evenson. 2007. Research through design as a method for interaction design research in HCI. In Proceedings of the SIGCHI conference on Human factors in computing systems. 493\u2013502.",
+      "doi": "10.1145/1240624.1240704"
+    }
+  ]
+}

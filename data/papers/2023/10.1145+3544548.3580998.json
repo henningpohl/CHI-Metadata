@@ -1,0 +1,279 @@
+{
+  "doi": "10.1145/3544548.3580998",
+  "title": "Subjective Probability Correction for Uncertainty Representations",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2023,
+  "badges": [],
+  "abstract": "We propose a new approach to uncertainty communication: we keep the uncertainty representation fixed, but adjust the distribution displayed to compensate for biases in people\u2019s subjective probability in decision-making. To do so, we adopt a linear-in-probit model of subjective probability and derive two corrections to a Normal distribution based on the model\u2019s intercept and slope: one correcting all right-tailed probabilities, and the other preserving the mode and one focal probability. We then conduct two experiments on U.S. demographically-representative samples. We show participants hypothetical U.S. Senate election forecasts as text or a histogram and elicit their subjective probabilities using a betting task. The first experiment estimates the linear-in-probit intercepts and slopes, and confirms the biases in participants\u2019 subjective probabilities. The second, preregistered follow-up shows participants the bias-corrected forecast distributions. We find the corrections substantially improve participants\u2019 decision quality by reducing the integrated absolute error of their subjective probabilities compared to the true probabilities. These corrections can be generalized to any univariate probability or confidence distribution, giving them broad applicability. Our preprint, code, data, and preregistration are available at https://doi.org/10.17605/osf.io/kcwxm",
+  "authors": [
+    {
+      "name": "Fumeng Yang",
+      "institution": "Department of Computer Science, Northwestern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659508812",
+      "orcid": "0000-0002-8401-2580"
+    },
+    {
+      "name": "Maryam Hedayati",
+      "institution": "Computer Science, Northwestern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782548",
+      "orcid": "0000-0002-0874-5918"
+    },
+    {
+      "name": "Matthew Kay",
+      "institution": "Computer Science and Communication, Northwestern University, United States and School of Information, University of Michigan, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659510709",
+      "orcid": "0000-0001-9446-0419"
+    }
+  ],
+  "references": [
+    {
+      "text": "Takeshi Amemiya. 1981. Qualitative response models: A survey. Journal of economic literature 19, 4 (1981), 1483\u20131536.",
+      "doi": ""
+    },
+    {
+      "text": "Francis\u00a0J. Anscombe, Robert\u00a0J. Aumann. 1963. A definition of subjective probability. Annals of mathematical statistics 34, 1 (1963), 199\u2013205.",
+      "doi": ""
+    },
+    {
+      "text": "Melanie Bancilhon, Zhengliang Liu, and Alvitta Ottley. 2020. Let\u2019s Gamble: How a Poor Visualization Can Elicit Risky Behavior. In 2020 IEEE Visualization Conference (VIS), short paper. 196\u2013200. https://doi.org/10.1109/VIS47514.2020.00046",
+      "doi": ""
+    },
+    {
+      "text": "Ryan Best 2022. Latest Polls. https://projects.fivethirtyeight.com/polls/",
+      "doi": ""
+    },
+    {
+      "text": "Paul-Christian B\u00fcrkner 2017. brms: An R package for Bayesian multilevel models using Stan. Journal of Statistical Software 80, 1 (2017), 1\u201328. https://doi.org/10.18637/jss.v080.i01",
+      "doi": ""
+    },
+    {
+      "text": "Spencer\u00a0C Castro, P\u00a0Samuel Quinan, Helia Hosseinpour, and Lace Padilla. 2021. Examining effort in 1d uncertainty communication using individual differences in working memory and nasa-tlx. IEEE transactions on visualization and computer graphics 28, 1(2021), 411\u2013421.",
+      "doi": ""
+    },
+    {
+      "text": "Roger Cooke 1991. Experts in uncertainty: opinion and subjective probability in science. Oxford University Press on Demand.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Correll and Michael Gleicher. 2014. Error bars considered harmful: Exploring alternate encodings for mean and error. IEEE transactions on visualization and computer graphics 20, 12(2014), 2142\u20132151.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Correll and Jeffery Heer. 2017. Surprise! Bayesian Weighting for De-Biasing Thematic Maps. IEEE Transactions on Visualization & Computer Graphics 23, 01 (jan 2017), 651\u2013660. https://doi.org/10.1109/TVCG.2016.2598618",
+      "doi": "10.1109/TVCG.2016.2598618"
+    },
+    {
+      "text": "Michael Correll, Dominik Moritz, and Jeffrey Heer. 2018. Value-Suppressing Uncertainty Palettes. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3173574.3174216",
+      "doi": "10.1145/3173574.3174216"
+    },
+    {
+      "text": "Nicholas Diakopoulos. 2022. Predictive Journalism: On the Role of Computational Prospection in News Media. Tow Center for Digital Journalism(2022). https://doi.org/10.2139/ssrn.4092033",
+      "doi": ""
+    },
+    {
+      "text": "Michael Fernandes, Logan Walls, Sean Munson, Jessica Hullman, and Matthew Kay. 2018. Uncertainty Displays Using Quantile Dotplots or CDFs Improve Transit Decision-Making. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). 1\u201312. https://doi.org/10.1145/3173574.3173718",
+      "doi": "10.1145/3173574.3173718"
+    },
+    {
+      "text": "James\u00a0John Flannery. 1971. The relative effectiveness of some common graduated point symbols in the presentation of quantitative data. Cartographica: The International Journal for Geographic Information and Geovisualization 8, 2 (1971), 96\u2013109.",
+      "doi": ""
+    },
+    {
+      "text": "Jonah Gabry and Rok \u010ce\u0161novar. 2020. CmdStanR: the R interface to CmdStan. https://mc-stan.org/users/interfaces/cmdstan",
+      "doi": ""
+    },
+    {
+      "text": "Charles\u00a0R Gallistel, Monika Krishan, Ye Liu, Reilly Miller, and Peter\u00a0E Latham. 2014. The perception of probability. Psychological Review 121, 1 (2014), 96.",
+      "doi": ""
+    },
+    {
+      "text": "Benny Geys. 2006. \u2018Rational\u2019theories of voter turnout: a review. Political Studies Review 4, 1 (2006), 16\u201335.",
+      "doi": ""
+    },
+    {
+      "text": "Gerd Gigerenzer. 1996. The psychology of good judgment: frequency formats and simple algorithms. Medical decision making 16, 3 (1996), 273\u2013280.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0W. Goodell, Richard\u00a0J. McGee, and Frank McGroarty. 2020. Election uncertainty, economic policy uncertainty and financial market uncertainty: A prediction market analysis. Journal of Banking & Finance 110 (2020), 105684. https://doi.org/10.1016/j.jbankfin.2019.105684",
+      "doi": ""
+    },
+    {
+      "text": "J.\u00a0M. Hampton, P.\u00a0G. Moore, and H. Thomas. 1973. Subjective probability and its measurement. Journal of the Royal Statistical Society: Series A (General) 136, 1(1973), 21\u201342.",
+      "doi": ""
+    },
+    {
+      "text": "Merlin Heidemanns, Andrew Gelman, and G.\u00a0Elliott Morris. 2020. An Updated Dynamic Bayesian Forecasting Model for the US Presidential Election. Harvard Data Science Review 2, 4 (oct 27 2020). https://hdsr.mitpress.mit.edu/pub/nw1dzd02.",
+      "doi": ""
+    },
+    {
+      "text": "Jouni Helske, Satu Helske, Matthew Cooper, Anders Ynnerman, and Lonni Besancon. 2021. Can visualization alleviate dichotomous thinking? Effects of visual representations on the cliff effect. IEEE Transactions on Visualization and Computer Graphics 27, 8(2021), 3397\u20133409.",
+      "doi": "10.1109/TVCG.2021.3073466"
+    },
+    {
+      "text": "J.\u00a0G. Hollands and Brian\u00a0P. Dyre. 2000. Bias in proportion judgments: the cyclical power model.Psychological review 107, 3 (2000), 500.",
+      "doi": ""
+    },
+    {
+      "text": "Jessica Hullman, Xiaoli Qiao, Michael Correll, Alex Kale, and Matthew Kay. 2018. In pursuit of error: A survey of uncertainty visualization evaluation. IEEE transactions on visualization and computer graphics 25, 1(2018), 903\u2013913.",
+      "doi": ""
+    },
+    {
+      "text": "Jessica Hullman, Paul Resnick, and Eytan Adar. 2015. Hypothetical outcome plots outperform error bars and violin plots for inferences about reliability of variable ordering. PloS one 10, 11 (2015), e0142444.",
+      "doi": ""
+    },
+    {
+      "text": "Harald Ibrekk and M.\u00a0Granger Morgan. 1987. Graphical Communication of Uncertain Quantities to Nontechnical People. Risk Analysis 7, 4 (1987), 519\u2013529. https://doi.org/10.1111/j.1539-6924.1987.tb00488.x",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Kahneman and Amos Tversky. 1979. Prospect Theory: An Analysis of Decision under Risk. Vol.\u00a047. [Wiley, Econometric Society], 263\u2013291. http://www.jstor.org/stable/1914185",
+      "doi": ""
+    },
+    {
+      "text": "Alex Kale, Matthew Kay, and Jessica Hullman. 2021. Visual Reasoning Strategies for Effect Size Judgments and Decisions. IEEE Transactions on Visualization and Computer Graphics 27, 2(2021), 272\u2013282. https://doi.org/10.1109/TVCG.2020.3030335",
+      "doi": ""
+    },
+    {
+      "text": "Alex Kale, Francis Nguyen, Matthew Kay, and Jessica Hullman. 2018. Hypothetical outcome plots help untrained observers judge trends in ambiguous data. IEEE transactions on visualization and computer graphics 25, 1(2018), 892\u2013902.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Kay. 2021. tidybayes: Tidy Data and Geoms for Bayesian Models. https://doi.org/10.5281/zenodo.1308151",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Kay. 2019. How Much Value Should an Uncertainty Palette Suppress if an Uncertainty Palette Should Suppress Value?. In OSF Preprints. https://doi.org/10.31219/osf.io/6xcnw",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Kay, Tara Kola, Jessica\u00a0R. Hullman, and Sean\u00a0A. Munson. 2016. When (Ish) is My Bus? User-Centered Visualizations of Uncertainty in Everyday, Mobile Predictive Systems. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 5092\u20135103. https://doi.org/10.1145/2858036.2858558",
+      "doi": "10.1145/2858036.2858558"
+    },
+    {
+      "text": "Drew\u00a0A. Linzer. 2013. Dynamic Bayesian Forecasting of Presidential Elections in the States. J. Amer. Statist. Assoc. 108, 501 (2013), 124\u2013134. https://doi.org/10.1080/01621459.2012.737735",
+      "doi": ""
+    },
+    {
+      "text": "Le Liu, Lace Padilla, Sarah\u00a0H Creem-Regehr, and Donald\u00a0H House. 2018. Visualizing uncertain tropical cyclone predictions using representative samples from ensembles of forecast tracks. IEEE transactions on visualization and computer graphics 25, 1(2018), 882\u2013891.",
+      "doi": ""
+    },
+    {
+      "text": "Tingting Liu, Xiaotong Li, Chen Bao, Michael Correll, Changehe Tu, Oliver Deussen, and Yunhai Wang. 2021. Data-Driven Mark Orientation for Trend Estimation in Scatterplots. Article 473, 16\u00a0pages. https://doi.org/10.1145/3411764.3445751",
+      "doi": "10.1145/3411764.3445751"
+    },
+    {
+      "text": "Min Lu, Joel Lanir, Chufeng Wang, Yucong Yao, Wen Zhang, Oliver Deussen, and Hui Huang. 2022. Modeling Just Noticeable Differences in Charts. IEEE Transactions on Visualization and Computer Graphics 28, 1(2022), 718\u2013726. https://doi.org/10.1109/TVCG.2021.3114874",
+      "doi": "10.1109/TVCG.2021.3114874"
+    },
+    {
+      "text": "Mark\u00a0J. Machina and David Schmeidler. 1992. A More Robust Definition of Subjective Probability. Econometrica 60, 4 (1992), 745\u2013780. http://www.jstor.org/stable/2951565",
+      "doi": ""
+    },
+    {
+      "text": "Luana Micallef, Gregorio Palmas, Antti Oulasvirta, and Tino Weinkauf. 2017. Towards Perceptual Optimization of the Visual Design of Scatterplots. IEEE Transactions on Visualization and Computer Graphics 23, 6(2017), 1588\u20131599. https://doi.org/10.1109/TVCG.2017.2674978",
+      "doi": "10.1109/TVCG.2017.2674978"
+    },
+    {
+      "text": "John\u00a0A Nelder and Roger Mead. 1965. A simplex method for function minimization. The computer journal 7, 4 (1965), 308\u2013313.",
+      "doi": ""
+    },
+    {
+      "text": "Jamie\u00a0R. Nu\u00f1ez, Christopher\u00a0R. Anderton, and Ryan\u00a0S. Renslow. 2018. Optimizing colormaps with consideration for color vision deficiency to enable accurate interpretation of scientific data. PLOS ONE 13, 7 (08 2018), 1\u201314. https://doi.org/10.1371/journal.pone.0199239",
+      "doi": ""
+    },
+    {
+      "text": "Anthony O\u2019Hagan, Caitlin\u00a0E Buck, Alireza Daneshkhah, J\u00a0Richard Eiser, Paul\u00a0H Garthwaite, David\u00a0J Jenkinson, Jeremy\u00a0E Oakley, and Tim Rakow. 2006. Uncertain judgements: eliciting experts\u2019 probabilities. (2006).",
+      "doi": ""
+    },
+    {
+      "text": "Lace\u00a0MK Padilla, Sarah\u00a0H Creem-Regehr, and William Thompson. 2020. The powerful influence of marks: Visual and knowledge-driven processing in hurricane track displays.Journal of experimental psychology: applied 26, 1 (2020), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Lace\u00a0MK Padilla, Maia Powell, Matthew Kay, and Jessica Hullman. 2021. Uncertain about uncertainty: How qualitative expressions of forecaster confidence impact decision-making with uncertainty visualizations. Frontiers in Psychology 11 (2021), 579267.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Pineo and Colin Ware. 2012. Data Visualization Optimization via Computational Modeling of Perception. IEEE Transactions on Visualization and Computer Graphics 18, 2(2012), 309\u2013320. https://doi.org/10.1109/TVCG.2011.52",
+      "doi": "10.1109/TVCG.2011.52"
+    },
+    {
+      "text": "Ghulam\u00a0Jilani Quadri, Jennifer\u00a0Adorno Nieves, Brenton\u00a0M. Wiernik, and Paul Rosen. 2022. Automatic Scatterplot Design Optimization for Clustering Identification. IEEE Transactions on Visualization and Computer Graphics (2022), 1\u201316. https://doi.org/10.1109/TVCG.2022.3189883",
+      "doi": ""
+    },
+    {
+      "text": "Howard Rachlin, Andres Raineri, and David Cross. 1991. Subjective probability and delay. Journal of the experimental analysis of behavior 55, 2 (1991), 233\u2013244.",
+      "doi": ""
+    },
+    {
+      "text": "Ian\u00a0T. Ruginski, Alexander\u00a0P. Boone, Lace\u00a0M. Padilla, Le Liu, Nahal Heydari, Heidi\u00a0S. Kramer, Mary Hegarty, William\u00a0B. Thompson, Donald\u00a0H. House, and Sarah\u00a0H. Creem-Regehr. 2016. Non-expert interpretations of hurricane forecast uncertainty visualizations. Spatial Cognition & Computation 16, 2 (2016), 154\u2013172. https://doi.org/10.1080/13875868.2015.1137577",
+      "doi": ""
+    },
+    {
+      "text": "Houshmand Shirani-Mehr, David Rothschild, Sharad Goel, and Andrew Gelman. 2018. Disentangling Bias and Variance in Election Polls. J. Amer. Statist. Assoc. 113, 522 (2018), 607\u2013614. https://doi.org/10.1080/01621459.2018.1448823",
+      "doi": ""
+    },
+    {
+      "text": "Nate Silver. 2012. The weatherman is not a moron. The New York Times 7(2012), 2012.",
+      "doi": ""
+    },
+    {
+      "text": "Nate Silver 2018. 2018 Midterm Election Forecast. https://projects.fivethirtyeight.com/2018-midterm-election-forecast/senate/",
+      "doi": ""
+    },
+    {
+      "text": "Nate Silver 2020. 2020 Election Forecast. https://projects.fivethirtyeight.com/2020-election-forecast/",
+      "doi": ""
+    },
+    {
+      "text": "Nate Silver 2022. 2022 Election Forecast. https://projects.fivethirtyeight.com/2022-election-forecast/senate/",
+      "doi": ""
+    },
+    {
+      "text": "Nathaniel Smith and Stefan van\u00a0der Walt. 2015. A Better Default Colormap for Matplotlib. https://www.youtube.com/watch?v=xAoljeRJ3lU",
+      "doi": ""
+    },
+    {
+      "text": "Stan Development Team. 2020. RStan: the R interface to Stan. http://mc-stan.org/ R package version 2.21.2.",
+      "doi": ""
+    },
+    {
+      "text": "Stanley\u00a0S Stevens. 1957. On the psychophysical law. Psychological Review 64, 3 (1957), 153\u2013181.",
+      "doi": ""
+    },
+    {
+      "text": "Danielle\u00a0Albers Szafir. 2018. Modeling Color Difference for Visualization Design. IEEE Transactions on Visualization and Computer Graphics 24, 1(2018), 392\u2013401. https://doi.org/10.1109/TVCG.2017.2744359",
+      "doi": ""
+    },
+    {
+      "text": "Carl-Axel S\u00a0Sta\u00ebl von Holstein. 1970. Measurement of subjective probability. Acta Psychologica 34(1970), 146\u2013159.",
+      "doi": ""
+    },
+    {
+      "text": "Yunhai Wang, Xin Chen, Tong Ge, Chen Bao, Michael Sedlmair, Chi-Wing Fu, Oliver Deussen, and Baoquan Chen. 2019. Optimizing Color Assignment for Perception of Class Separability in Multiclass Scatterplots. IEEE Transactions on Visualization and Computer Graphics 25, 1(2019), 820\u2013829. https://doi.org/10.1109/TVCG.2018.2864912",
+      "doi": "10.1109/TVCG.2018.2864912"
+    },
+    {
+      "text": "Sean\u00a0Jeremy Westwood, Solomon Messing, and Yphtach Lelkes. 2020. Projecting Confidence: How the Probabilistic Horse Race Confuses and Demobilizes the Public. The Journal of Politics 82, 4 (2020), 1530\u20131544. https://doi.org/10.1086/708682",
+      "doi": ""
+    },
+    {
+      "text": "Marcel Wunderlich, Kathrin Ballweg, Georg Fuchs, and Tatiana von Landesberger. 2017. Visualization of delay uncertainty and its impact on train trip planning: A design study. In Computer Graphics Forum, Vol.\u00a036. Wiley Online Library, 317\u2013328.",
+      "doi": ""
+    },
+    {
+      "text": "Min-ge Xie and Kesar Singh. 2013. Confidence distribution, the frequentist distribution estimator of a parameter: A review. International Statistical Review 81, 1 (2013), 3\u201339.",
+      "doi": ""
+    },
+    {
+      "text": "Hang Zhang and Laurence Maloney. 2012. Ubiquitous Log Odds: A Common Representation of Probability and Frequency Distortion in Perception, Action, and Cognition. Frontiers in Neuroscience 6 (2012). https://doi.org/10.3389/fnins.2012.00001",
+      "doi": ""
+    }
+  ]
+}

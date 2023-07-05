@@ -1,0 +1,302 @@
+{
+  "doi": "10.1145/3290605.3300935",
+  "title": "HandSee: Enabling Full Hand Interaction on Smartphone with Front Camera-based Stereo Vision",
+  "published": "2019-05-02",
+  "proctitle": "CHI '19: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-13",
+  "year": 2019,
+  "badges": [],
+  "abstract": "We present HandSee, a novel sensing technique that can capture the state and movement of the user's hands touching or gripping a smartphone. We place a right angle prism mirror on the front camera to achieve a stereo vision of the scene above the touchscreen surface. We develop a pipeline to extract the depth image of hands from a monocular RGB image, which consists of three components: a stereo matching algorithm to estimate the pixel-wise depth of the scene, a CNN-based online calibration algorithm to detect hand skin, and a merging algorithm that outputs the depth image of the hands. Building on the output, a substantial set of valuable interaction information, such as fingers' 3D location, gripping posture, and finger identity can be recognized concurrently. Due to this unique sensing ability, HandSee enables a variety of novel interaction techniques and expands the design space for full hand interaction on smartphones.",
+  "authors": [
+    {
+      "name": "Chun Yu",
+      "institution": "Global Innovation eXchange Institute & Tsinghua University, Beijing, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81467660483",
+      "orcid": "0000-0003-2591-7993"
+    },
+    {
+      "name": "Xiaoying Wei",
+      "institution": "Tsinghua University, Beijing, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659366410",
+      "orcid": "missing"
+    },
+    {
+      "name": "Shubh Vachher",
+      "institution": "Tsinghua University, Beijing, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659367187",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yue Qin",
+      "institution": "Tsinghua University, Beijing, China",
+      "img": "/do/10.1145/contrib-99659366320/rel-imgonly/__-__-___.jpg",
+      "acmid": "99659366320",
+      "orcid": "0000-0003-1351-5284"
+    },
+    {
+      "name": "Chen Liang",
+      "institution": "Tsinghua University, Beijing, China",
+      "img": "/do/10.1145/contrib-99659365185/rel-imgonly/20250674.png",
+      "acmid": "99659365185",
+      "orcid": "0000-0003-0579-2716"
+    },
+    {
+      "name": "Yueting Weng",
+      "institution": "Tsinghua University, Beijing, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659366113",
+      "orcid": "0000-0003-1649-8221"
+    },
+    {
+      "name": "Yizheng Gu",
+      "institution": "Tsinghua University, Beijing, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659163360",
+      "orcid": "0000-0002-1794-2171"
+    },
+    {
+      "name": "Yuanchun Shi",
+      "institution": "Global Innovation eXchange Institute & Tsinghua University, Beijing, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100647319",
+      "orcid": "0000-0003-2273-6927"
+    }
+  ],
+  "references": [
+    {
+      "text": "ahundt, aurora95, unixnme, and PavlosMelissinos. 2018. Kerastensorflow implementation of Fully Convolutional Networks for Semantic Segmentation. https://github.com/aurora95/Keras-FCN.",
+      "doi": ""
+    },
+    {
+      "text": "Tomas Akenine-M\u00f6ller, Eric Haines, and Naty Hoffman. 2008. RealTime Rendering 3rd Edition. A. K. Peters, Ltd., Natick, MA, USA. 1045 pages. ",
+      "doi": "10.5555/2829183"
+    },
+    {
+      "text": "G. Bradski. 2000. The OpenCV Library. Dr. Dobb's Journal of Software Tools (2000).",
+      "doi": ""
+    },
+    {
+      "text": "Alex Butler, Shahram Izadi, and Steve Hodges. 2008. SideSight: Multi\"Touch\" Interaction Around Small Devices. In Proceedings of the 21st Annual ACM Symposium on User Interface Software and Technology (UIST '08). ACM, New York, NY, USA, 201--204.  ",
+      "doi": "10.1145/1449715.1449746"
+    },
+    {
+      "text": "Liwei Chan, Yi-Ling Chen, Chi-Hao Hsieh, Rong-Hao Liang, and BingYu Chen. 2015. Cyclopsring: Enabling whole-hand and context-aware interactions through a fisheye ring. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. ACM, 549-- 556.  ",
+      "doi": "10.1145/2807442.2807450"
+    },
+    {
+      "text": "Wook Chang, Kee Eung Kim, and Hyunjeong Lee. 2006. Recognition of Grip-Patterns by Using Capacitive Touch Sensors. 4 (2006), 2936--2941.",
+      "doi": ""
+    },
+    {
+      "text": "Xiang 'Anthony' Chen, Julia Schwarz, Chris Harrison, Jennifer Mankoff, and Scott E. Hudson. 2014. Air+Touch: Interweaving Touch & In-air Gestures. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (UIST '14). ACM, New York, NY, USA, 519--525.  ",
+      "doi": "10.1145/2642918.2647392"
+    },
+    {
+      "text": "Lung-Pan Cheng, Meng Han Lee, Che-Yang Wu, Fang-I Hsiao, YenTing Liu, Hsiang-Sheng Liang, Yi-Ching Chiu, Ming-Sui Lee, and Mike Y. Chen. 2013. IrotateGrasp: Automatic Screen Rotation Based on Grasp of Mobile Devices. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). ACM, New York, NY, USA, 3051--3054.  ",
+      "doi": "10.1145/2470654.2481424"
+    },
+    {
+      "text": "Lung-Pan Cheng, Hsiang-Sheng Liang, Che-Yang Wu, and Mike Y. Chen. 2013. iGrasp: Grasp-based Adaptive Keyboard for Mobile Devices. In CHI '13 Extended Abstracts on Human Factors in Computing Systems (CHI EA '13). ACM, New York, NY, USA, 2791--2792.  ",
+      "doi": "10.1145/2468356.2479514"
+    },
+    {
+      "text": "Christian Corsten, Bjoern Daehlmann, Simon Voelker, and Jan Borchers. 2017. BackXPress: Using Back-of-Device Finger Pressure to Augment Touchscreen Input on Smartphones. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, New York, NY, USA, 4654--4666.  ",
+      "doi": "10.1145/3025453.3025565"
+    },
+    {
+      "text": "Martin de La Gorce, Nikos Paragios, and David J Fleet. 2008. Modelbased hand tracking with texture, shading and self-occlusions. In Computer Vision and Pattern Recognition, 2008. CVPR 2008. IEEE Conference On. IEEE, 1--8.",
+      "doi": ""
+    },
+    {
+      "text": "Rachel Eardley, Anne Roudaut, Steve Gill, and Stephen J. Thompson. 2017. Understanding Grip Shifts: How Form Factors Impact Hand Movements on Mobile Phones. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, New York, NY, USA, 4680--4691.  ",
+      "doi": "10.1145/3025453.3025835"
+    },
+    {
+      "text": "Joshua Gluckman and Shree K Nayar. 2002. Rectified catadioptric stereo sensors. IEEE transactions on pattern analysis and machine intelligence 24, 2 (2002), 224--236.  ",
+      "doi": "10.1109/34.982902"
+    },
+    {
+      "text": "Mayank Goel, Alex Jansen, Travis Mandel, Shwetak N Patel, and Jacob O Wobbrock. 2013. ContextType: using hand posture information to improve mobile touch screen text entry. In Proceedings of the SIGCHI conference on human factors in computing systems. ACM, 2795--2798.  ",
+      "doi": "10.1145/2470654.2481386"
+    },
+    {
+      "text": "Mayank Goel, Jacob Wobbrock, and Shwetak Patel. 2012. GripSense: Using Built-in Sensors to Detect Hand Posture and Pressure on Commodity Mobile Phones. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology (UIST '12). ACM, New York, NY, USA, 545--554.  ",
+      "doi": "10.1145/2380116.2380184"
+    },
+    {
+      "text": "Ardeshir Goshtasby and William A Gruver. 1993. Design of a singlelens stereo camera system. Pattern Recognition 26, 6 (1993), 923--937.",
+      "doi": ""
+    },
+    {
+      "text": "Tomasz Grzejszczak, Michal Kawulok, and Adam Galuszka. 2016. Hand landmarks detection and localization in color images. Multimedia Tools and Applications 75, 23 (2016), 16363--16387.  ",
+      "doi": "10.1007/s11042-015-2934-5"
+    },
+    {
+      "text": "Hansong Guo, He Huang, Liusheng Huang, and Yue Sun. 2016. Recognizing the Operating Hand and the Hand-Changing Process for User Interface Adjustment on Smartphones. Sensors 16, 8 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Aakar Gupta and Ravin Balakrishnan. 2016. DualKey: Miniature Screen Text Entry via Finger Identification. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). ACM, New York, NY, USA, 59--70.  ",
+      "doi": "10.1145/2858036.2858052"
+    },
+    {
+      "text": "Jefferson Y Han. 2005. Low-cost multi-touch sensing through frustrated total internal reflection. In Proceedings of the 18th annual ACM symposium on User interface software and technology. ACM, 115--118.  ",
+      "doi": "10.1145/1095034.1095054"
+    },
+    {
+      "text": "Chris Harrison, Julia Schwarz, and Scott E. Hudson. 2011. TapSense: Enhancing Finger Interaction on Touch Surfaces. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology (UIST '11). ACM, New York, NY, USA, 627--636.  ",
+      "doi": "10.1145/2047196.2047279"
+    },
+    {
+      "text": "Khalad Hasan, Junhyeok Kim, David Ahlstr\u00f6m, and Pourang Irani. 2016. Thumbs-Up: 3D Spatial Thumb-Reachable Space for One-Handed Thumb Interaction on Smartphones. In Proceedings of the 2016 Symposium on Spatial User Interaction (SUI '16). ACM, New York, NY, USA, 103--106.  ",
+      "doi": "10.1145/2983310.2985755"
+    },
+    {
+      "text": "Daniel Hernandez-Juarez, Alejandro Chac\u00f3n, Antonio Espinosa, David V\u00e1zquez, Juan Carlos Moure, and Antonio M. L\u00f3pez. 2016. Embedded Real-time Stereo Estimation via Semi-Global Matching on the GPU. In International Conference on Computational Science 2016, ICCS 2016, 6--8 June 2016, San Diego, California, USA. 143--153.  ",
+      "doi": "10.1016/j.procs.2016.05.305"
+    },
+    {
+      "text": "Ken Hinckley, Seongkook Heo, Michel Pahud, Christian Holz, Hrvoje Benko, Abigail Sellen, Richard Banks, Kenton O'Hara, Gavin Smyth, and William Buxton. 2016. Pre-Touch Sensing for Mobile Interaction. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). ACM, New York, NY, USA, 2869--2881.  ",
+      "doi": "10.1145/2858036.2858095"
+    },
+    {
+      "text": "Clemens Holzmann and Matthias Hochgatterer. 2012. Measuring distance with mobile phones using single-camera stereo vision. In Distributed Computing Systems Workshops (ICDCSW), 2012 32nd International Conference on. IEEE, 88--93.  ",
+      "doi": "10.1109/ICDCSW.2012.22"
+    },
+    {
+      "text": "Michal Kawulok, Jolanta Kawulok, Jakub Nalepa, and Bogdan Smolka. 2014. Self-adaptive algorithm for segmenting skin regions. EURASIP Journal on Advances in Signal Processing 2014, 170 (2014), 1--22.",
+      "doi": ""
+    },
+    {
+      "text": "David Kim, Otmar Hilliges, Shahram Izadi, Alex D Butler, Jiawen Chen, Iason Oikonomidis, and Patrick Olivier. 2012. Digits: freehand 3D interactions anywhere using a wrist-worn gloveless sensor. In Proceedings of the 25th annual ACM symposium on User interface software and technology. ACM, 167--176.  ",
+      "doi": "10.1145/2380116.2380139"
+    },
+    {
+      "text": "Sven Kratz and Michael Rohs. 2009. HoverFlow: Expanding the Design Space of Around-device Interaction. In Proceedings of the 11th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI '09). ACM, New York, NY, USA, Article 4, 8 pages.  ",
+      "doi": "10.1145/1613858.1613864"
+    },
+    {
+      "text": "P Krejov and R Bowden. 2013. Multi-touchless: Real-time fingertip detection and tracking using geodesic maxima. In IEEE International Conference and Workshops on Automatic Face and Gesture Recognition. 1--7.",
+      "doi": ""
+    },
+    {
+      "text": "Huy Viet Le, Sven Mayer, Patrick Bader, and Niels Henze. 2018. Fingers' Range and Comfortable Area for One-Handed Smartphone Interaction Beyond the Touchscreen. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, 31.  ",
+      "doi": "10.1145/3173574.3173605"
+    },
+    {
+      "text": "Huy Viet Le, Sven Mayer, and Niels Henze. 2018. InfiniTouch: FingerAware Interaction on Fully Touch Sensitive Smartphones. In Proceedings of the 31th Annual ACM Symposium on User Interface Software and Technology (UIST'18). ACM, New York, NY, USA, Vol. 13.  ",
+      "doi": "10.1145/3242587.3242605"
+    },
+    {
+      "text": "Jaime Lien, Nicholas Gillian, M. Emre Karagozler, Patrick Amihood, Carsten Schwesig, Erik Olson, Hakim Raja, and Ivan Poupyrev. 2016. Soli: Ubiquitous Gesture Sensing with Millimeter Wave Radar. ACM Trans. Graph. 35, 4, Article 142 (July 2016), 19 pages.  ",
+      "doi": "10.1145/2897824.2925953"
+    },
+    {
+      "text": "Hyunchul Lim, Gwangseok An, Yoonkyong Cho, Kyogu Lee, and Bongwon Suh. 2016. WhichHand: Automatic Recognition of a Smartphone's Position in the Hand Using a Smartwatch. In Proceedings of the 18th International Conference on Human-Computer Interaction with Mobile Devices and Services Adjunct (MobileHCI '16). ACM, New York, NY, USA, 675--681.  ",
+      "doi": "10.1145/2957265.2961857"
+    },
+    {
+      "text": "Markus L\u00f6chtefeld, Phillip Schardt, Antonio Kr\u00fcger, and Sebastian Boring. 2015. Detecting Users Handedness for Ergonomic Adaptation of Mobile User Interfaces. In Proceedings of the 14th International Conference on Mobile and Ubiquitous Multimedia (MUM '15). ACM, New York, NY, USA, 245--249.  ",
+      "doi": "10.1145/2836041.2836066"
+    },
+    {
+      "text": "William McGrath and Yang Li. 2014. Detecting Tapping Motion on the Side of Mobile Devices by Probabilistically Combining Hand Postures. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (UIST '14). ACM, New York, NY, USA, 215--219.  ",
+      "doi": "10.1145/2642918.2647363"
+    },
+    {
+      "text": "Pranav Mistry and Pattie Maes. 2009. SixthSense: a wearable gestural interface. In ACM SIGGRAPH ASIA 2009 Sketches. ACM, 11.  ",
+      "doi": "10.1145/1667146.1667160"
+    },
+    {
+      "text": "Franziska Mueller, Florian Bernard, Oleksandr Sotnychenko, Dushyant Mehta, Srinath Sridhar, Dan Casas, and Christian Theobalt. 2018. Ganerated hands for real-time 3d hand tracking from monocular RGB. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 49--59.",
+      "doi": ""
+    },
+    {
+      "text": "Sape Mullender (Ed.). 1993. Distributed systems (2nd Ed.). ACM Press/Addison-Wesley Publishing Co., New York, NY, USA. ",
+      "doi": "10.5555/302430"
+    },
+    {
+      "text": "Jakub Nalepa and Michal Kawulok. 2014. Fast and Accurate Hand Shape Classification. In Beyond Databases, Architectures, and Structures, Stanislaw Kozielski, Dariusz Mrozek, Pawel Kasprowski, Bozena Malysiak-Mrozek, and Daniel Kostrzewa (Eds.). Communications in Computer and Information Science, Vol. 424. Springer, 364--373.",
+      "doi": ""
+    },
+    {
+      "text": "Suranga Nanayakkara, Roy Shilkrot, Kian Peen Yeo, and Pattie Maes. 2013. EyeRing: A Finger-worn Input Device for Seamless Interactions with Our Surroundings. In Proceedings of the 4th Augmented Human International Conference (AH '13). ACM, New York, NY, USA, 13--20.  ",
+      "doi": "10.1145/2459236.2459240"
+    },
+    {
+      "text": "Matei Negulescu and Joanna McGrenere. 2015. Grip Change As an Information Side Channel for Mobile Touch Interaction. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). ACM, New York, NY, USA, 1519--1522.  ",
+      "doi": "10.1145/2702123.2702185"
+    },
+    {
+      "text": "Chanho Park and Takefumi Ogawa. 2015. A Study on Grasp Recognition Independent of Users' Situations Using Built-in Sensors of Smartphones. In Adjunct Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology (UIST '15 Adjunct). ACM, New York, NY, USA, 69--70.  ",
+      "doi": "10.1145/2815585.2815722"
+    },
+    {
+      "text": "S. L. Phung, A. Bouzerdoum, and D. Chai. 2005. Skin segmentation using color pixel classification: analysis and comparison. IEEE Transactions on Pattern Analysis and Machine Intelligence 27, 1 (Jan 2005), 148--154.  ",
+      "doi": "10.1109/TPAMI.2005.17"
+    },
+    {
+      "text": "R. Meena Prakash, T. Deepa, T. Gunasundari, and N. Kasthuri. 2017. Gesture recognition and finger tip detection for human computer interaction. In International Conference on Innovations in Information, Embedded and Communication Systems. 1--4.",
+      "doi": ""
+    },
+    {
+      "text": "Karsten Seipp and Kate Devlin. 2015. One-Touch Pose Detection on Touchscreen Smartphones. In Proceedings of the 2015 International Conference on Interactive Tabletops & Surfaces (ITS '15). ACM, New York, NY, USA, 51--54.  ",
+      "doi": "10.1145/2817721.2817739"
+    },
+    {
+      "text": "Toby Sharp, Cem Keskin, Duncan Robertson, Jonathan Taylor, Jamie Shotton, David Kim, Christoph Rhemann, Ido Leichter, Alon Vinnikov, Yichen Wei, Daniel Freedman, Pushmeet Kohli, Eyal Krupka, Andrew Fitzgibbon, and Shahram Izadi. 2015. Accurate, Robust, and Flexible Real-time Hand Tracking. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). ACM, New York, NY, USA, 3633--3642.  ",
+      "doi": "10.1145/2702123.2702179"
+    },
+    {
+      "text": "A. Sinha, C. Choi, and K. Ramani. 2016. DeepHand: Robust Hand Pose Estimation by Completing a Matrix Imputed with Deep Features. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vol. 00. 4150--4158.",
+      "doi": ""
+    },
+    {
+      "text": "Jie Song, G\u00e1bor S\u00f6r\u00f6s, Fabrizio Pece, Sean Ryan Fanello, Shahram Izadi, Cem Keskin, and Otmar Hilliges. 2014. In-air Gestures Around Unmodified Mobile Devices. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (UIST '14). ACM, New York, NY, USA, 319--329.  ",
+      "doi": "10.1145/2642918.2647373"
+    },
+    {
+      "text": "Srinath Sridhar, Anders Markussen, Antti Oulasvirta, Christian Theobalt, and Sebastian Boring. 2017. WatchSense: On- and AboveSkin Input Sensing Through a Wearable Depth Sensor. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, New York, NY, USA, 3891--3902.  ",
+      "doi": "10.1145/3025453.3026005"
+    },
+    {
+      "text": "George Stockman and Linda G. Shapiro. 2001. Computer Vision (1st ed.). Prentice Hall PTR, Upper Saddle River, NJ, USA. ",
+      "doi": "10.5555/558008"
+    },
+    {
+      "text": "D. Tang, J. Taylor, P. Kohli, C. Keskin, T. Kim, and J. Shotton. 2015. Opening the Black Box: Hierarchical Sampling Optimization for Estimating Human Hand Pose. In 2015 IEEE International Conference on Computer Vision (ICCV). 3325--3333.  ",
+      "doi": "10.1109/ICCV.2015.380"
+    },
+    {
+      "text": "Hsin-Ruey Tsai, Te-Yen Wu, Da-Yuan Huang, Min-Chieh Hsiu, JuiChun Hsiao, Yi-Ping Hung, Mike Y. Chen, and Bing-Yu Chen. 2017. SegTouch: Enhancing Touch Input While Providing Touch Gestures on Screens Using Thumb-To-Index-Finger Gestures. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '17). ACM, New York, NY, USA, 2164--2171.  ",
+      "doi": "10.1145/3027063.3053109"
+    },
+    {
+      "text": "Daniel Vogel and Patrick Baudisch. 2007. Shift: a technique for operating pen-based interfaces using touch. In Proceedings of the SIGCHI conference on Human factors in computing systems. ACM, 657--666.  ",
+      "doi": "10.1145/1240624.1240727"
+    },
+    {
+      "text": "Pui Chung Wong, Hongbo Fu, and Kening Zhu. 2016. Back-Mirror: Back-of-device One-handed Interaction on Smartphones. In SIGGRAPH ASIA 2016 Mobile Graphics and Interactive Applications (SA '16). ACM, New York, NY, USA, Article 10, 5 pages.  ",
+      "doi": "10.1145/2999508.2999522"
+    },
+    {
+      "text": "Robert Xiao, Julia Schwarz, and Chris Harrison. 2015. Estimating 3D Finger Angle on Commodity Touchscreens. In Proceedings of the 2015 International Conference on Interactive Tabletops & Surfaces (ITS '15). ACM, New York, NY, USA, 47--50.  ",
+      "doi": "10.1145/2817721.2817737"
+    },
+    {
+      "text": "Chi Xu, Lakshmi Narasimhan Govindarajan, Yu Zhang, and Li Cheng. 2016. Lie-X: Depth Image Based Articulated Object Pose Estimation, Tracking, and Action Recognition on Lie Groups. CoRR abs/1609.03773 (2016). arXiv:1609.03773 http://arxiv.org/abs/1609.03773",
+      "doi": ""
+    },
+    {
+      "text": "Xing-Dong Yang, Khalad Hasan, Neil Bruce, and Pourang Irani. 2013. Surround-see: Enabling Peripheral Vision on Smartphones During Active Use. In Proceedings of the 26th Annual ACM Symposium on User Interface Software and Technology (UIST '13). ACM, New York, NY, USA, 291--300.  ",
+      "doi": "10.1145/2501988.2502049"
+    },
+    {
+      "text": "Sooyeong Yi and Narendra Ahuja. 2006. An omnidirectional stereo vision system using a single camera. In Pattern Recognition, 2006. ICPR 2006. 18th International Conference on, Vol. 4. IEEE, 861--865.  ",
+      "doi": "10.1109/ICPR.2006.263"
+    }
+  ]
+}

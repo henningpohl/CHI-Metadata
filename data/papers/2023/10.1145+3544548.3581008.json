@@ -1,0 +1,398 @@
+{
+  "doi": "10.1145/3544548.3581008",
+  "title": "Enabling Voice-Accompanying Hand-to-Face Gesture Recognition with Cross-Device Sensing",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Gestures performed accompanying the voice are essential for voice interaction to convey complementary semantics for interaction purposes such as wake-up state and input modality. In this paper, we investigated voice-accompanying hand-to-face (VAHF) gestures for voice interaction. We targeted on hand-to-face gestures because such gestures relate closely to speech and yield significant acoustic features (e.g., impeding voice propagation). We conducted a user study to explore the design space of VAHF gestures, where we first gathered candidate gestures and then applied a structural analysis to them in different dimensions (e.g., contact position and type), outputting a total of 8 VAHF gestures with good usability and least confusion. To facilitate VAHF gesture recognition, we proposed a novel cross-device sensing method that leverages heterogeneous channels (vocal, ultrasound, and IMU) of data from commodity devices (earbuds, watches, and rings). Our recognition model achieved an accuracy of 97.3% for recognizing 3 gestures and 91.5% for recognizing 8 gestures (excluding the \"empty\" gesture), proving the high applicability. Quantitative analysis also shed light on the recognition capability of each sensor channel and their different combinations. In the end, we illustrated the feasible use cases and their design principles to demonstrate the applicability of our system in various scenarios.",
+  "authors": [
+    {
+      "name": "Zisu Li",
+      "institution": "Department of Computer Science and Technology, Tsinghua University, China and IIP (Computational Media and Arts), The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783366",
+      "orcid": "0000-0001-8825-0191"
+    },
+    {
+      "name": "Chen Liang",
+      "institution": "Department of Computer Science and Technology, Tsinghua University, China",
+      "img": "/do/10.1145/contrib-99659365185/rel-imgonly/20250674.png",
+      "acmid": "99659365185",
+      "orcid": "0000-0003-0579-2716"
+    },
+    {
+      "name": "Yuntao Wang",
+      "institution": "Department of Computer Science and Technology, Tsinghua University, China and Global Innovation Exchange (GIX) Insitute, Tsinghua University, China",
+      "img": "/do/10.1145/contrib-81490648565/rel-imgonly/d61c7b4b94334d25b2a55a58d9b700f.jpg",
+      "acmid": "81490648565",
+      "orcid": "0000-0002-4249-8893"
+    },
+    {
+      "name": "Yue Qin",
+      "institution": "Department of Computer Science and Technology, Tsinghua University, China",
+      "img": "/do/10.1145/contrib-99659366320/rel-imgonly/__-__-___.jpg",
+      "acmid": "99659366320",
+      "orcid": "0000-0003-1351-5284"
+    },
+    {
+      "name": "Chun Yu",
+      "institution": "Department of Computer science and Technology, Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81467660483",
+      "orcid": "0000-0003-2591-7993"
+    },
+    {
+      "name": "Yukang Yan",
+      "institution": "Department of Computer Science and Technology, Tsinghua University, China and HCII, CMU, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659161020",
+      "orcid": "0000-0001-7515-3755"
+    },
+    {
+      "name": "Mingming Fan",
+      "institution": "Computational Media and Arts Thrust, The Hong Kong University of Science and Technology (Guangzhou), China and Division of Integrative Systems and Design, The Hong Kong University of Science and Technology, China",
+      "img": "/do/10.1145/contrib-81482645714/rel-imgonly/official-photo-rit-mingming-fan.jpg",
+      "acmid": "81482645714",
+      "orcid": "0000-0002-0356-4712"
+    },
+    {
+      "name": "Yuanchun Shi",
+      "institution": "Department of Computer Science and Technology, Tsinghua University, China and Department of Computer Science and Technology, Qinghai University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100647319",
+      "orcid": "0000-0003-2273-6927"
+    }
+  ],
+  "references": [
+    {
+      "text": "Karan Ahuja, Andy Kong, Mayank Goel, and Chris Harrison. 2020. Direction-of-Voice (DoV) Estimation for Intuitive Speech Interaction with Smart Devices Ecosystems. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201920). Association for Computing Machinery, New York, NY, USA, 1121\u20131131. https://doi.org/10.1145/3379337.3415588",
+      "doi": "10.1145/3379337.3415588"
+    },
+    {
+      "text": "Toshiyuki Ando, Yuki Kubo, Buntarou Shizuki, and Shin Takahashi. 2017. CanalSense: Face-related movement recognition system based on sensing air pressure in ear canals. UIST 2017 - Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology(2017), 679\u2013689. https://doi.org/10.1145/3126594.3126649",
+      "doi": "10.1145/3126594.3126649"
+    },
+    {
+      "text": "Donald\u00a0J Berndt and James Clifford. 1994. Using dynamic time warping to find patterns in time series.. In KDD workshop, Vol.\u00a010. Seattle, WA, USA:, 359\u2013370.",
+      "doi": ""
+    },
+    {
+      "text": "Merwan Birem and Fran\u00e7ois Berry. 2014. DreamCam: A modular FPGA-based smart camera architecture. Journal of Systems Architecture 60, 6 (2014), 519\u2013527. https://doi.org/10.1016/j.sysarc.2014.01.006",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0A Bolt. 1980. \u201cPut-That-There\u201d: Voice and Gesture at the Graphics Interface. SIGGRAPH Comput. Graph. 14, 3 (1980), 262\u2013270. https://doi.org/10.1145/965105.807503",
+      "doi": "10.1145/965105.807503"
+    },
+    {
+      "text": "Marie-Luce Bourguet and Akio Ando. 1998. Synchronization of Speech and Hand Gestures during Multimodal Human-Computer Interaction. In CHI 98 Conference Summary on Human Factors in Computing Systems(CHI \u201998). Association for Computing Machinery, New York, NY, USA, 241\u2013242. https://doi.org/10.1145/286498.286726",
+      "doi": "10.1145/286498.286726"
+    },
+    {
+      "text": "Daniel Buschek, Bianka Roppelt, and Florian Alt. 2018. Extending Keyboard Shortcuts with Arm and Wrist Rotation Gestures. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173595",
+      "doi": "10.1145/3173574.3173595"
+    },
+    {
+      "text": "Alex Butler, Shahram Izadi, and Steve Hodges. 2008. SideSight: Multi-\"touch\" Interaction around Small Devices. In Proceedings of the 21st Annual ACM Symposium on User Interface Software and Technology (Monterey, CA, USA) (UIST \u201908). Association for Computing Machinery, New York, NY, USA, 201\u2013204. https://doi.org/10.1145/1449715.1449746",
+      "doi": "10.1145/1449715.1449746"
+    },
+    {
+      "text": "Enea Ceolini, Charlotte Frenkel, Sumit\u00a0Bam Shrestha, Gemma Taverni, Lyes Khacef, Melika Payvand, and Elisa Donati. 2020. Hand-gesture recognition based on EMG and event-based camera sensor fusion: A benchmark in neuromorphic computing. Frontiers in Neuroscience 14 (2020), 637.",
+      "doi": ""
+    },
+    {
+      "text": "Enea Ceolini, Gemma Taverni, Lyes Khacef, Melika Payvand, and Elisa Donati. 2019. Sensor fusion using EMG and vision for hand gesture classification in mobile applications. In 2019 IEEE Biomedical Circuits and Systems Conference (BioCAS). IEEE, 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "Joon-Hyuk Chang, Nam\u00a0Soo Kim, and Sanjit\u00a0K Mitra. 2006. Voice activity detection based on multiple statistical models. IEEE Transactions on Signal Processing 54, 6 (2006), 1965\u20131976.",
+      "doi": ""
+    },
+    {
+      "text": "Wook Chang, Kee\u00a0Eung Kim, Hyunjeong Lee, Joon\u00a0Kee Cho, Byung\u00a0Seok Soh, Jung\u00a0Hyun Shim, Gyunghye Yang, Sung-Jung Cho, and Joonah Park. 2006. Recognition of grip-patterns by using capacitive touch sensors. In 2006 IEEE International Symposium on Industrial Electronics, Vol.\u00a04. IEEE, 2936\u20132941.",
+      "doi": ""
+    },
+    {
+      "text": "Victor Chen, Xuhai Xu, Richard Li, Yuanchun Shi, Shwetak Patel, and Yuntao Wang. 2021. Understanding the Design Space of Mouth Microgestures. In Designing Interactive Systems Conference 2021 (Virtual Event, USA) (DIS \u201921). Association for Computing Machinery, New York, NY, USA, 1068\u20131081. https://doi.org/10.1145/3461778.3462004",
+      "doi": "10.1145/3461778.3462004"
+    },
+    {
+      "text": "J.\u00a0Guillermo Colli-Alfaro, Anas Ibrahim, and Ana\u00a0Luisa Trejos. 2019. Design of User-Independent Hand Gesture Recognition Using Multilayer Perceptron Networks and Sensor Fusion Techniques. In 2019 IEEE 16th International Conference on Rehabilitation Robotics (ICORR). 1103\u20131108. https://doi.org/10.1109/ICORR.2019.8779533",
+      "doi": "10.1109/ICORR.2019.8779533"
+    },
+    {
+      "text": "Matthieu Courbariaux, Yoshua Bengio, and Jean-Pierre David. 2014. Training deep neural networks with low precision multiplications. arxiv:1412.7024\u00a0[cs.LG]",
+      "doi": ""
+    },
+    {
+      "text": "Tim Dettmers. 2015. 8-Bit Approximations for Parallelism in Deep Learning. arxiv:1511.04561\u00a0[cs.NE]",
+      "doi": ""
+    },
+    {
+      "text": "S. Fujie, Y. Ejiri, K. Nakajima, Y. Matsusaka, and T. Kobayashi. 2004. A conversation robot using head gesture recognition as para-linguistic information. In RO-MAN 2004. 13th IEEE International Workshop on Robot and Human Interactive Communication (IEEE Catalog No.04TH8759). 159\u2013164. https://doi.org/10.1109/ROMAN.2004.1374748",
+      "doi": ""
+    },
+    {
+      "text": "Shinya Fujie, Toshihiko Yamahata, and Tetsunori Kobayashi. 2006. Conversation Robot with the Function of Gaze Recognition. In 2006 6th IEEE-RAS International Conference on Humanoid Robots. 364\u2013369. https://doi.org/10.1109/ICHR.2006.321298",
+      "doi": ""
+    },
+    {
+      "text": "Yang Gao, Yincheng Jin, Jiyang Li, Seokmin Choi, and Zhanpeng Jin. 2020. EchoWhisper: Exploring an Acoustic-Based Silent Speech Interface for Smartphone Users. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 4, 3 (2020). https://doi.org/10.1145/3411830",
+      "doi": "10.1145/3411830"
+    },
+    {
+      "text": "Nicholas Gillian, Sara Pfenninger, Spencer Russell, and Joseph\u00a0A. Paradiso. 2014. Gestures Everywhere: A Multimodal Sensor Fusion and Analysis Framework for Pervasive Displays. In Proceedings of The International Symposium on Pervasive Displays (Copenhagen, Denmark) (PerDis \u201914). Association for Computing Machinery, New York, NY, USA, 98\u2013103. https://doi.org/10.1145/2611009.2611032",
+      "doi": "10.1145/2611009.2611032"
+    },
+    {
+      "text": "Jun Gong, Aakar Gupta, and Hrvoje Benko. 2020. Acustico: Surface Tap Detection and Localization Using Wrist-Based Acoustic TDOA Sensing. Association for Computing Machinery, New York, NY, USA, 406\u2013419. https://doi.org/10.1145/3379337.3415901",
+      "doi": "10.1145/3379337.3415901"
+    },
+    {
+      "text": "Changzhan Gu and Jaime Lien. 2017. A Two-Tone Radar Sensor for Concurrent Detection of Absolute Distance and Relative Movement for Gesture Sensing. IEEE Sensors Letters 1, 3 (2017), 1\u20134. https://doi.org/10.1109/LSENS.2017.2696520",
+      "doi": ""
+    },
+    {
+      "text": "Yizheng Gu, Chun Yu, Zhipeng Li, Weiqi Li, Shuchang Xu, Xiaoying Wei, and Yuanchun Shi. 2019. Accurate and Low-Latency Sensing of Touch Contact on Any Surface with Finger-Worn IMU Sensor. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 1059\u20131070. https://doi.org/10.1145/3332165.3347947",
+      "doi": "10.1145/3332165.3347947"
+    },
+    {
+      "text": "Yizheng Gu, Chun Yu, Zhipeng Li, Zhaoheng Li, Xiaoying Wei, and Yuanchun Shi. 2020. QwertyRing: Text Entry on Physical Surfaces Using a Ring. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 4, 4, Article 128 (Dec. 2020), 29\u00a0pages. https://doi.org/10.1145/3432204",
+      "doi": "10.1145/3432204"
+    },
+    {
+      "text": "Sidhant Gupta, Dan Morris, Shwetak\u00a0N. Patel, and Desney Tan. 2012. SoundWave: Using the Doppler effect to sense gestures. In Conference on Human Factors in Computing Systems - Proceedings. 1911\u20131914. https://doi.org/10.1145/2207676.2208331",
+      "doi": "10.1145/2207676.2208331"
+    },
+    {
+      "text": "Sean Gustafson, Daniel Bierwirth, and Patrick Baudisch. 2010. Imaginary Interfaces: Spatial Interaction with Empty Hands and without Visual Feedback. Association for Computing Machinery, New York, NY, USA, 3\u201312. https://doi.org/10.1145/1866029.1866033",
+      "doi": "10.1145/1866029.1866033"
+    },
+    {
+      "text": "Sean Gustafson, Christian Holz, and Patrick Baudisch. 2011. Imaginary Phone: Learning Imaginary Interfaces by Transferring Spatial Memory from a Familiar Device. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology (Santa Barbara, California, USA) (UIST \u201911). Association for Computing Machinery, New York, NY, USA, 283\u2013292. https://doi.org/10.1145/2047196.2047233",
+      "doi": "10.1145/2047196.2047233"
+    },
+    {
+      "text": "Chris Harrison, Julia Schwarz, and Scott\u00a0E Hudson. 2011. TapSense: Enhancing Finger Interaction on Touch Surfaces. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology(UIST \u201911). Association for Computing Machinery, New York, NY, USA, 627\u2013636. https://doi.org/10.1145/2047196.2047279",
+      "doi": "10.1145/2047196.2047279"
+    },
+    {
+      "text": "Chris Harrison, Robert Xiao, and Scott\u00a0E. Hudson. 2012. Acoustic barcodes: Passive, durable and inexpensive notched identification tags. UIST\u201912 - Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology (2012), 563\u2013567.",
+      "doi": "10.1145/2380116.2380187"
+    },
+    {
+      "text": "Shawn Hershey, Sourish Chaudhuri, Daniel P.\u00a0W. Ellis, Jort\u00a0F. Gemmeke, Aren Jansen, R.\u00a0Channing Moore, Manoj Plakal, Devin Platt, Rif\u00a0A. Saurous, Bryan Seybold, Malcolm Slaney, Ron\u00a0J. Weiss, and Kevin Wilson. 2017. CNN architectures for large-scale audio classification. In 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 131\u2013135. https://doi.org/10.1109/ICASSP.2017.7952132",
+      "doi": "10.1109/ICASSP.2017.7952132"
+    },
+    {
+      "text": "Hossein\u00a0Mousavi Hondori, Maryam Khademi, and Cristina\u00a0V Lopes. 2012. Monitoring intake gestures using sensor fusion (microsoft kinect and inertial sensors) for smart home tele-rehab setting. In 2012 1st Annual IEEE Healthcare Innovation Conference.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc\u00a0V. Le, and Hartwig Adam. 2019. Searching for MobileNetV3. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV).",
+      "doi": ""
+    },
+    {
+      "text": "Naoaki Kashiwagi, Yuta Sugiura, Natsuki Miyata, Mitsunori Tada, Maki Sugimoto, and Hideo Saito. 2017. Measuring Grasp Posture Using an Embedded Camera. In 2017 IEEE Winter Applications of Computer Vision Workshops (WACVW). 42\u201347. https://doi.org/10.1109/WACVW.2017.14",
+      "doi": ""
+    },
+    {
+      "text": "Athanasios Katsamanis, Vassilis Pitsikalis, Stavros Theodorakis, and Petros Maragos. 2017. Multimodal Gesture Recognition. Association for Computing Machinery and Morgan & Claypool, 449\u2013487. https://doi.org/10.1145/3015783.3015796",
+      "doi": "10.1145/3015783.3015796"
+    },
+    {
+      "text": "Takashi Kikuchi, Yuta Sugiura, Katsutoshi Masai, Maki Sugimoto, and Bruce\u00a0H. Thomas. 2017. EarTouch: Turning the Ear into an Input Surface. In Proceedings of the 19th International Conference on Human-Computer Interaction with Mobile Devices and Services (Vienna, Austria) (MobileHCI \u201917). Association for Computing Machinery, New York, NY, USA, Article 27, 6\u00a0pages. https://doi.org/10.1145/3098279.3098538",
+      "doi": "10.1145/3098279.3098538"
+    },
+    {
+      "text": "Han-Jong Kim, Seijin Cha, Richard\u00a0C. Park, Tek-Jin Nam, Woohun Lee, and Geehyuk Lee. 2016. Mo-Bi: Contextual Mobile Interfaces through Bimanual Posture Sensing with Wrist-Worn Devices. In Proceedings of HCI Korea (Jeongseon, Republic of Korea) (HCIK \u201916). Hanbit Media, Inc., Seoul, KOR, 94\u201399. https://doi.org/10.17210/hcik.2016.01.94",
+      "doi": "10.17210/hcik.2016.01.94"
+    },
+    {
+      "text": "Gierad Laput, Karan Ahuja, Mayank Goel, and Chris Harrison. 2018. Ubicoustics: Plug-and-play acoustic activity recognition. UIST 2018 - Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology(2018), 213\u2013224. https://doi.org/10.1145/3242587.3242609",
+      "doi": "10.1145/3242587.3242609"
+    },
+    {
+      "text": "Gierad Laput, Robert Xiao, and Chris Harrison. 2016. ViBand: High-Fidelity Bio-Acoustic Sensing Using Commodity Smartwatch Accelerometers. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (Tokyo, Japan) (UIST \u201916). Association for Computing Machinery, New York, NY, USA, 321\u2013333. https://doi.org/10.1145/2984511.2984582",
+      "doi": "10.1145/2984511.2984582"
+    },
+    {
+      "text": "DoYoung Lee, Youryang Lee, Yonghwan Shin, and Ian Oakley. 2018. Designing Socially Acceptable Hand-to-Face Input. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (Berlin, Germany) (UIST \u201918). Association for Computing Machinery, New York, NY, USA, 711\u2013723. https://doi.org/10.1145/3242587.3242642",
+      "doi": "10.1145/3242587.3242642"
+    },
+    {
+      "text": "Juyoung Lee, Hui-Shyong Yeo, Murtaza Dhuliawala, Jedidiah Akano, Junichi Shimizu, Thad Starner, Aaron Quigley, Woontack Woo, and Kai Kunze. 2017. Itchy Nose: Discreet Gesture Interaction Using EOG Sensors in Smart Eyewear. In Proceedings of the 2017 ACM International Symposium on Wearable Computers (Maui, Hawaii) (ISWC \u201917). Association for Computing Machinery, New York, NY, USA, 94\u201397. https://doi.org/10.1145/3123021.3123060",
+      "doi": "10.1145/3123021.3123060"
+    },
+    {
+      "text": "Haobo Li, Xiangpeng Liang, Aman Shrestha, Yuchi Liu, Hadi Heidari, Julien Le\u00a0Kernec, and Francesco Fioranelli. 2020. Hierarchical Sensor Fusion for Micro-Gesture Recognition With Pressure Sensor Array and Radar. IEEE Journal of Electromagnetics, RF and Microwaves in Medicine and Biology 4, 3(2020), 225\u2013232. https://doi.org/10.1109/JERM.2019.2949456",
+      "doi": ""
+    },
+    {
+      "text": "Chen Liang, Chi Hsia, Chun Yu, Yukang Yan, Yuntao Wang, and Yuanchun Shi. 2022. DRG-Keyboard: Enabling Subtle Gesture Typing on the Fingertip with Dual IMU Rings. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 6, 4, Article 170 (dec 2022), 30\u00a0pages. https://doi.org/10.1145/3569463",
+      "doi": "10.1145/3569463"
+    },
+    {
+      "text": "Chen Liang, Chun Yu, Yue Qin, Yuntao Wang, and Yuanchun Shi. 2021. DualRing: Enabling Subtle and Expressive Hand Interaction with Dual IMU Rings. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 5, 3, Article 115 (sep 2021), 27\u00a0pages. https://doi.org/10.1145/3478114",
+      "doi": "10.1145/3478114"
+    },
+    {
+      "text": "Jaime Lien, Nicholas Gillian, M.\u00a0Emre Karagozler, Patrick Amihood, Carsten Schwesig, Erik Olson, Hakim Raja, and Ivan Poupyrev. 2016. Soli: Ubiquitous Gesture Sensing with Millimeter Wave Radar. ACM Trans. Graph. 35, 4, Article 142 (July 2016), 19\u00a0pages. https://doi.org/10.1145/2897824.2925953",
+      "doi": "10.1145/2897824.2925953"
+    },
+    {
+      "text": "Mingyu Liu, Mathieu Nancel, and Daniel Vogel. 2015. Gunslinger: Subtle arms-down mid-air interaction. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. 63\u201371.",
+      "doi": "10.1145/2807442.2807489"
+    },
+    {
+      "text": "W Liu, W Shen, B Li, and L Wang. 2019. Toward Device-Free Micro-Gesture Tracking via Accurate Acoustic Doppler-Shift Detection. IEEE Access 7(2019), 1084\u20131094. https://doi.org/10.1109/ACCESS.2018.2886279",
+      "doi": ""
+    },
+    {
+      "text": "Yilin Liu, Shijia Zhang, and Mahanth Gowda. 2021. NeuroPose: 3D Hand Pose Tracking using EMG Wearables. In Proceedings of the Web Conference 2021. 1471\u20131482.",
+      "doi": "10.1145/3442381.3449890"
+    },
+    {
+      "text": "Yiqin Lu, Bingjian Huang, Chun Yu, Guahong Liu, and Yuanchun Shi. 2020. Designing and Evaluating Hand-to-Hand Gestures with Dual Commodity Wrist-Worn Devices. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 4, 1, Article 20 (March 2020), 27\u00a0pages. https://doi.org/10.1145/3380984",
+      "doi": "10.1145/3380984"
+    },
+    {
+      "text": "Yanpeng Lv, Shangfei Wang, and Peijia Shen. 2011. A Real-Time Attitude Recognition by Eye-Tracking. In Proceedings of the Third International Conference on Internet Multimedia Computing and Service (Chengdu, China) (ICIMCS \u201911). Association for Computing Machinery, New York, NY, USA, 170\u2013173. https://doi.org/10.1145/2043674.2043723",
+      "doi": "10.1145/2043674.2043723"
+    },
+    {
+      "text": "Marwa Mahmoud and Peter Robinson. 2011. Interpreting Hand-Over-Face Gestures. In Affective Computing and Intelligent Interaction, Sidney D\u2019Mello, Arthur Graesser, Bj\u00f6rn Schuller, and Jean-Claude Martin (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 248\u2013255.",
+      "doi": ""
+    },
+    {
+      "text": "Wenguang Mao, Jian He, and Lili Qiu. 2016. Cat: high-precision acoustic motion tracking. In Proceedings of the 22nd Annual International Conference on Mobile Computing and Networking. 69\u201381.",
+      "doi": "10.1145/2973750.2973755"
+    },
+    {
+      "text": "Sven Mayer, Gierad Laput, and Chris Harrison. 2020. Enhancing Mobile Voice Assistants with WorldGaze. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/3313831.3376479",
+      "doi": "10.1145/3313831.3376479"
+    },
+    {
+      "text": "Jess McIntosh, Charlie McNeill, Mike Fraser, Frederic Kerber, Markus L\u00f6chtefeld, and Antonio Kr\u00fcger. 2016. EMPress: practical hand gesture classification with wrist-mounted EMG and pressure sensing. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 2332\u20132342.",
+      "doi": "10.1145/2858036.2858093"
+    },
+    {
+      "text": "Annamaria Mesaros, Toni Heittola, Antti Eronen, and Tuomas Virtanen. 2010. Acoustic event detection in real life recordings. European Signal Processing Conference(2010), 1267\u20131271.",
+      "doi": ""
+    },
+    {
+      "text": "Gyeongsik Moon, Shoou-I Yu, He Wen, Takaaki Shiratori, and Kyoung\u00a0Mu Lee. 2020. Interhand2. 6m: A dataset and baseline for 3d interacting hand pose estimation from a single rgb image. In European Conference on Computer Vision. Springer, 548\u2013564.",
+      "doi": ""
+    },
+    {
+      "text": "Louis-Philippe Morency, Candace Sidner, Christopher Lee, and Trevor Darrell. 2005. Contextual Recognition of Head Gestures. In Proceedings of the 7th International Conference on Multimodal Interfaces (Torento, Italy) (ICMI \u201905). Association for Computing Machinery, New York, NY, USA, 18\u201324. https://doi.org/10.1145/1088463.1088470",
+      "doi": "10.1145/1088463.1088470"
+    },
+    {
+      "text": "Franziska Mueller, Florian Bernard, Oleksandr Sotnychenko, Dushyant Mehta, Srinath Sridhar, Dan Casas, and Christian Theobalt. 2018. GANerated Hands for Real-Time 3D Hand Tracking From Monocular RGB. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).",
+      "doi": ""
+    },
+    {
+      "text": "Makoto Ono, Buntarou Shizuki, and Jiro Tanaka. 2013. Touch & activate: adding interactivity to existing objects using active acoustic sensing. Proceedings of the 26th annual ACM symposium on User interface software and technology (2013), 31\u201340. https://doi.org/10.1145/2501988.2501989",
+      "doi": "10.1145/2501988.2501989"
+    },
+    {
+      "text": "Yue Qin, Chun Yu, Zhaoheng Li, Mingyuan Zhong, Yukang Yan, and Yuanchun Shi. 2021. ProxiMic: Convenient Voice Activation via Close-to-Mic Speech Detected by a Single Microphone. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 8, 12\u00a0pages. https://doi.org/10.1145/3411764.3445687",
+      "doi": "10.1145/3411764.3445687"
+    },
+    {
+      "text": "Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, 2015. Imagenet large scale visual recognition challenge. International journal of computer vision 115, 3 (2015), 211\u2013252.",
+      "doi": "10.1007/s11263-015-0816-y"
+    },
+    {
+      "text": "Tomasz Sapi\u0144ski, Dorota Kami\u0144ska, Adam Pelikant, Cagri Ozcinar, Egils Avots, and Gholamreza Anbarjafari. 2019. Multimodal Database of Emotional Speech, Video and Gestures. In Pattern Recognition and Information Forensics, Zhaoxiang Zhang, David Suter, Yingli Tian, Alexandra Branzan\u00a0Albu, Nicolas Sid\u00e8re, and Hugo Jair\u00a0Escalante (Eds.). Springer International Publishing, Cham, 153\u2013163.",
+      "doi": ""
+    },
+    {
+      "text": "Pablo Sauras-Perez, Andrea Gil, Jasprit Singh Gill, Pierluigi Pisu, and Joachim Taiber. 2017. VoGe: A Voice and Gesture System for Interacting with Autonomous Cars. In WCX\u2122 17: SAE World Congress Experience. SAE International. https://doi.org/10.4271/2017-01-0068",
+      "doi": ""
+    },
+    {
+      "text": "Marcos Serrano, Barrett\u00a0M. Ens, and Pourang\u00a0P. Irani. 2014. Exploring the Use of Hand-to-Face Input for Interacting with Head-Worn Displays. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 3181\u20133190. https://doi.org/10.1145/2556288.2556984",
+      "doi": "10.1145/2556288.2556984"
+    },
+    {
+      "text": "Ke Sun, Yuntao Wang, Chun Yu, Yukang Yan, Hongyi Wen, and Yuanchun Shi. 2017. Float: One-Handed and Touch-Free Target Selection on Smartwatches. Association for Computing Machinery, New York, NY, USA, 692\u2013704. https://doi.org/10.1145/3025453.3026027",
+      "doi": "10.1145/3025453.3026027"
+    },
+    {
+      "text": "Sanjeev\u00a0Kadagathur Vadiraj, Achuth Rao M\u00a0.V., and Prasanta\u00a0Kumar Ghosh. 2020. Automatic Identification of Speakers From Head Gestures in a Narration. In ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 6314\u20136318. https://doi.org/10.1109/ICASSP40776.2020.9053124",
+      "doi": ""
+    },
+    {
+      "text": "Tran\u00a0Huy Vu, Archan Misra, Quentin Roy, Kenny Choo\u00a0Tsu Wei, and Youngki Lee. 2018. Smartwatch-Based Early Gesture Detection 8 Trajectory Tracking for Interactive Gesture-Driven Applications. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 1, Article 39 (March 2018), 27\u00a0pages. https://doi.org/10.1145/3191771",
+      "doi": "10.1145/3191771"
+    },
+    {
+      "text": "Saiwen Wang, Jie Song, Jaime Lien, Ivan Poupyrev, and Otmar Hilliges. 2016. Interacting with Soli: Exploring Fine-Grained Dynamic Gesture Recognition in the Radio-Frequency Spectrum. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (Tokyo, Japan) (UIST \u201916). Association for Computing Machinery, New York, NY, USA, 851\u2013860. https://doi.org/10.1145/2984511.2984565",
+      "doi": "10.1145/2984511.2984565"
+    },
+    {
+      "text": "Z Wang, Y Hou, K Jiang, W Dou, C Zhang, Z Huang, and Y Guo. 2019. Hand Gesture Recognition Based on Active Ultrasonic Sensing of Smartphone: A Survey. IEEE Access 7(2019), 111897\u2013111922. https://doi.org/10.1109/ACCESS.2019.2933987",
+      "doi": ""
+    },
+    {
+      "text": "Jamie\u00a0A. Ward, Paul Lukowicz, and Gerhard Tr\u00f6ster. 2005. Gesture Spotting Using Wrist Worn Microphone and 3-Axis Accelerometer. In Proceedings of the 2005 Joint Conference on Smart Objects and Ambient Intelligence: Innovative Context-Aware Services: Usages and Technologies (Grenoble, France) (sOc-EUSAI \u201905). Association for Computing Machinery, New York, NY, USA, 99\u2013104. https://doi.org/10.1145/1107548.1107578",
+      "doi": "10.1145/1107548.1107578"
+    },
+    {
+      "text": "Hongyi Wen, Julian Ramos\u00a0Rojas, and Anind\u00a0K. Dey. 2016. Serendipity: Finger Gesture Recognition Using an Off-the-Shelf Smartwatch. Association for Computing Machinery, New York, NY, USA, 3847\u20133851. https://doi.org/10.1145/2858036.2858466",
+      "doi": "10.1145/2858036.2858466"
+    },
+    {
+      "text": "Yueting Weng, Chun Yu, Yingtian Shi, Yuhang Zhao, Yukang Yan, and Yuanchun Shi. 2021. FaceSight: Enabling Hand-to-Face Gesture Interaction on AR Glasses with a Downward-Facing Camera Vision. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445484"
+    },
+    {
+      "text": "Jason Wu, Chris Harrison, Jeffrey\u00a0P. Bigham, and Gierad Laput. 2020. Automated Class Discovery and One-Shot Interactions for Acoustic Activity Recognition. Conference on Human Factors in Computing Systems - Proceedings (2020). https://doi.org/10.1145/3313831.3376875",
+      "doi": "10.1145/3313831.3376875"
+    },
+    {
+      "text": "Robert Xiao, Greg Lew, James Marsanico, Divya Hariharan, Scott Hudson, and Chris Harrison. 2014. Toffee: Enabling Ad Hoc, Around-device Interaction with Acoustic Time-of-arrival Correlation. In Proceedings of the 16th International Conference on Human-computer Interaction with Mobile Devices & Services(MobileHCI \u201914). ACM, New York, NY, USA, 67\u201376. https://doi.org/10.1145/2628363.2628383",
+      "doi": "10.1145/2628363.2628383"
+    },
+    {
+      "text": "Xuhai Xu, Haitian Shi, Xin Yi, WenJia Liu, Yukang Yan, Yuanchun Shi, Alex Mariakakis, Jennifer Mankoff, and Anind\u00a0K. Dey. 2020. EarBuddy: Enabling On-Face Interaction via Wireless Earbuds. Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376836",
+      "doi": "10.1145/3313831.3376836"
+    },
+    {
+      "text": "Koki Yamashita, Takashi Kikuchi, Katsutoshi Masai, Maki Sugimoto, Bruce\u00a0H. Thomas, and Yuta Sugiura. 2017. CheekInput: Turning Your Cheek into an Input Surface by Embedded Optical Sensors on a Head-Mounted Display. In Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology (Gothenburg, Sweden) (VRST \u201917). Association for Computing Machinery, New York, NY, USA, Article 19, 8\u00a0pages. https://doi.org/10.1145/3139131.3139146",
+      "doi": "10.1145/3139131.3139146"
+    },
+    {
+      "text": "Yukang Yan, Chun Yu, Yingtian Shi, and Minxing Xie. 2019. PrivateTalk: Activating voice input with hand-on-mouth gesture detected by bluetooth earphones. In UIST 2019 - Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology. 1013\u20131020. https://doi.org/10.1145/3332165.3347950",
+      "doi": "10.1145/3332165.3347950"
+    },
+    {
+      "text": "Yukang Yan, Chun Yu, Wengrui Zheng, Ruining Tang, Xuhai Xu, and Yuanchun Shi. 2020. FrownOnError: Interrupting Responses from Smart Speakers by Facial Expressions. Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376810",
+      "doi": "10.1145/3313831.3376810"
+    },
+    {
+      "text": "Zhican Yang, Chun Yu, Fengshi Zheng, and Yuanchun Shi. 2019. ProxiTalk: Activate Speech Input by Bringing Smartphone to the Mouth. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 3, 3, Article 118 (sep 2019), 25\u00a0pages. https://doi.org/10.1145/3351276",
+      "doi": "10.1145/3351276"
+    },
+    {
+      "text": "Chun Yu, Xiaoying Wei, Shubh Vachher, Yue Qin, Chen Liang, Yueting Weng, Yizheng Gu, and Yuanchun Shi. 2019. HandSee: Enabling Full Hand Interaction on Smartphone with Front Camera-Based Stereo Vision. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300935",
+      "doi": "10.1145/3290605.3300935"
+    },
+    {
+      "text": "Sangki Yun, Yi\u00a0Chao Chen, Huihunag Zheng, Lili Qiu, and Wenguang Mao. 2017. Strata: Fine-grained acoustic-based device-free tracking. MobiSys 2017 - Proceedings of the 15th Annual International Conference on Mobile Systems, Applications, and Services(2017), 15\u201328. https://doi.org/10.1145/3081333.3081356",
+      "doi": "10.1145/3081333.3081356"
+    },
+    {
+      "text": "Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, and Jian Sun. 2018. Shufflenet: An extremely efficient convolutional neural network for mobile devices. In Proceedings of the IEEE conference on computer vision and pattern recognition. 6848\u20136856.",
+      "doi": ""
+    },
+    {
+      "text": "Yongzhao Zhang, Wei\u00a0Hsiang Huang, Chih\u00a0Yun Yang, Wen\u00a0Ping Wang, Yi\u00a0Chao Chen, Chuang\u00a0Wen You, Da\u00a0Yuan Huang, Guangtao Xue, and Jiadi Yu. 2020. Endophasia: Utilizing acoustic-based imaging for issuing contact-free silent speech commands. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 1 (2020). https://doi.org/10.1145/3381008",
+      "doi": "10.1145/3381008"
+    }
+  ]
+}

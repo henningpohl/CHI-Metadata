@@ -1,0 +1,538 @@
+{
+  "doi": "10.1145/3491102.3517454",
+  "title": "Smooth as Steel Wool: Effects of Visual Stimuli on the Haptic Perception of Roughness in Virtual Reality",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Haptic Feedback is essential for lifelike Virtual Reality (VR) experiences. To provide a wide range of matching sensations of being touched or stroked, current approaches typically need large numbers of different physical textures. However, even advanced devices can only accommodate a limited number of textures to remain wearable. Therefore, a better understanding is necessary of how expectations elicited by different visualizations affect haptic perception, to achieve a balance between physical constraints and great variety of matching physical textures.  In this work, we conducted an experiment (N=31) assessing how the perception of roughness is affected within VR. We designed a prototype for arm stroking and compared the effects of different visualizations on the perception of physical textures with distinct roughnesses. Additionally, we used the visualizations\u2019 real-world materials, no-haptics and vibrotactile feedback as baselines. As one result, we found that two levels of roughness can be sufficient to convey a realistic illusion.",
+  "authors": [
+    {
+      "name": "Sebastian G\u00fcnther",
+      "institution": "Telecooperation Lab, Technical University of Darmstadt, Germany",
+      "img": "/do/10.1145/contrib-99659021644/rel-imgonly/sepp.jpg",
+      "acmid": "99659021644",
+      "orcid": "0000-0003-1281-2180"
+    },
+    {
+      "name": "Julian Rasch",
+      "institution": "LMU Munich, Germany and Telecooperation Lab, Technical University of Darmstadt, Germany",
+      "img": "/do/10.1145/contrib-99660692002/rel-imgonly/jr_round.png",
+      "acmid": "99660692002",
+      "orcid": "0000-0002-9981-6952"
+    },
+    {
+      "name": "Dominik Sch\u00f6n",
+      "institution": "Telecooperation Lab, Technical University of Darmstadt, Germany",
+      "img": "/do/10.1145/contrib-99659260815/rel-imgonly/ich_privat.jpg",
+      "acmid": "99659260815",
+      "orcid": "0000-0003-2704-2852"
+    },
+    {
+      "name": "Florian M\u00fcller",
+      "institution": "LMU Munich, Germany",
+      "img": "/do/10.1145/contrib-81464642529/rel-imgonly/flo_small.jpg",
+      "acmid": "81464642529",
+      "orcid": "0000-0002-9621-6214"
+    },
+    {
+      "name": "Martin Schmitz",
+      "institution": "Telecooperation Lab, Technical University of Darmstadt, Germany",
+      "img": "/do/10.1145/contrib-87958634757/rel-imgonly/martin_foto.jpg",
+      "acmid": "87958634757",
+      "orcid": "0000-0002-7332-3287"
+    },
+    {
+      "name": "Jan Riemann",
+      "institution": "Telecooperation Lab, Technical University of Darmstadt, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81479663203",
+      "orcid": "missing"
+    },
+    {
+      "name": "Andrii Matviienko",
+      "institution": "Technical University of Darmstadt, Germany",
+      "img": "/do/10.1145/contrib-99658734228/rel-imgonly/andrii_2.jpg",
+      "acmid": "99658734228",
+      "orcid": "0000-0002-6571-0623"
+    },
+    {
+      "name": "Max M\u00fchlh\u00e4user",
+      "institution": "Telecooperation Lab, Technical University of Darmstadt, Germany",
+      "img": "/do/10.1145/contrib-81100305085/rel-imgonly/max_2669.jpg",
+      "acmid": "81100305085",
+      "orcid": "0000-0003-4713-5327"
+    }
+  ],
+  "references": [
+    {
+      "text": "Rochelle Ackerley, Ida Carlsson, Henric Wester, H\u00e5kan Olausson, and Helena Backlund Wasling. 2014. Touch perceptions across skin sites: differences between sensitivity, direction discrimination and pleasantness. Frontiers in Behavioral Neuroscience 8, FEB (2014), 1\u201310. https://doi.org/10.3389/fnbeh.2014.00054",
+      "doi": ""
+    },
+    {
+      "text": "David Alles. 1970. Information Transmission by Phantom Sensations. IEEE Transactions on Man Machine Systems 11, 1 (mar 1970), 85\u201391. https://doi.org/10.1109/TMMS.1970.299967",
+      "doi": ""
+    },
+    {
+      "text": "Bruno Araujo, Ricardo Jota, Varun Perumal, Jia\u00a0Xian Yao, Karan Singh, and Daniel Wigdor. 2016. Snake charmer: Physically enabling virtual objects. TEI 2016 - Proceedings of the 10th Anniversary Conference on Tangible Embedded and Embodied Interaction(2016), 218\u2013226. https://doi.org/10.1145/2839462.2839484",
+      "doi": "10.1145/2839462.2839484"
+    },
+    {
+      "text": "K\u00a0M\u00a0Arafat Aziz, Hu Luo, Lehiany Asma, Weiliang Xu, Yuru Zhang, and Dangxiao Wang. 2020. Haptic Handshank \u2013 A Handheld Multimodal Haptic Feedback Controller for Virtual Reality. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE, 239\u2013250. https://doi.org/10.1109/ISMAR50242.2020.00047",
+      "doi": ""
+    },
+    {
+      "text": "Ahmad Barghout, Jongeun Cha, Abdulmotaleb El Saddik, Julius Kammerl, and Eckehard Steinbach. 2009. Spatial resolution of vibrotactile perception on the human forearm when exploiting funneling illusion. In 2009 IEEE International Workshop on Haptic Audio visual Environments and Games. IEEE, 19\u201323. https://doi.org/10.1109/HAVE.2009.5356122",
+      "doi": ""
+    },
+    {
+      "text": "Olivier Bau, Ivan Poupyrev, Ali Israr, and Chris Harrison. 2010. TeslaTouch: electrovibration for touch surfaces. In Proceedings of the 23nd Annual ACM Symposium on User Interface Software and Technology. Association for Computing Machinery, New York, NY, USA, 283\u2013292. https://doi.org/10.1145/1866029.1866074",
+      "doi": "10.1145/1866029.1866074"
+    },
+    {
+      "text": "Hrvoje Benko, Christian Holz, Mike Sinclair, and Eyal Ofek. 2016. NormalTouch and TextureTouchh: High-fidelity 3D Haptic Shape Rendering on Handheld Virtual Reality Controllers. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology. ACM, New York, NY, USA, 717\u2013728. https://doi.org/10.1145/2984511.2984526",
+      "doi": "10.1145/2984511.2984526"
+    },
+    {
+      "text": "Wouter\u00a0M. Bergmann Tiest and Astrid\u00a0M.L. Kappers. 2007. Haptic and visual perception of roughness. Acta Psychologica 124, 2 (2007), 177\u2013189. https://doi.org/10.1016/j.actpsy.2006.03.002",
+      "doi": ""
+    },
+    {
+      "text": "Aaron Bloomfield and Norman\u00a0I Badler. 2003. A Low Cost Tactor Suit for Vibrotactile Feedback A Low Cost Tactor Suit for Vibrotactile Feedback. Technical Reports (CIS)January (2003), 7.",
+      "doi": ""
+    },
+    {
+      "text": "Roger Boldu, Sambhav Jain, Juan Pablo\u00a0Forero Cortes, Haimo Zhang, and Suranga Nanayakkara. 2019. M-Hair: Extended Reality by Stimulating the Body Hair. In SIGGRAPH Asia 2019 XR. ACM, New York, NY, USA, 27\u201328. https://doi.org/10.1145/3355355.3361881",
+      "doi": ""
+    },
+    {
+      "text": "Roger Boldu, Sambhav Jain, Juan\u00a0Pablo Forero Cortes, Haimo Zhang, and Suranga Nanayakkara. 2019. M-Hair: Creating Novel Tactile Feedback by Augmenting the Body Hair to Respond to Magnetic Field. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology. ACM, New York, NY, USA, 323\u2013328. https://doi.org/10.1145/3332165.3347955",
+      "doi": "10.1145/3332165.3347955"
+    },
+    {
+      "text": "Matthew Botvinick and Jonathan Cohen. 1998. Rubber hands \u2018feel\u2019 touch that eyes see. Nature 391, 6669 (feb 1998), 756\u2013756. https://doi.org/10.1038/35784",
+      "doi": ""
+    },
+    {
+      "text": "Jas Brooks, Steven Nagels, and Pedro Lopes. 2020. Trigeminal-based Temperature Illusions. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376806",
+      "doi": "10.1145/3313831.3376806"
+    },
+    {
+      "text": "Simona Casini, Matteo Morvidoni, Matteo Bianchi, Manuel Catalano, Giorgio Grioli, and Antonio Bicchi. 2015. Design and realization of the CUFF - clenching upper-limb force feedback wearable device for distributed mechano-tactile stimulation of normal and tangential skin forces. In 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, Hamburg, Germany, 1186\u20131193. https://doi.org/10.1109/IROS.2015.7353520",
+      "doi": "10.1109/IROS.2015.7353520"
+    },
+    {
+      "text": "C.\u00a0Elaine Chapman. 1994. Active versus passive touch: factors influencing the transmission of somatosensory signals to primary somatosensory cortex. Canadian Journal of Physiology and Pharmacology 72, 5 (may 1994), 558\u2013570. https://doi.org/10.1139/y94-080",
+      "doi": ""
+    },
+    {
+      "text": "Inrak Choi, Eyal Ofek, Hrvoje Benko, Mike Sinclair, and Christian Holz. 2018. CLAW: A Multifunctional Handheld Haptic Controller for Grasping, Touching, and Triggering in Virtual Reality. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3174228",
+      "doi": "10.1145/3173574.3174228"
+    },
+    {
+      "text": "Heather Culbertson and Katherine\u00a0J. Kuchenbecker. 2017. Ungrounded Haptic Augmented Reality System for Displaying Roughness and Friction. IEEE/ASME Transactions on Mechatronics 22, 4 (aug 2017), 1839\u20131849. https://doi.org/10.1109/TMECH.2017.2700467",
+      "doi": ""
+    },
+    {
+      "text": "Heather Culbertson, Juliette Unwin, and Katherine\u00a0J. Kuchenbecker. 2014. Modeling and Rendering Realistic Textures from Unconstrained Tool-Surface Interactions. IEEE Transactions on Haptics 7, 3 (jul 2014), 381\u2013393. https://doi.org/10.1109/TOH.2014.2316797",
+      "doi": ""
+    },
+    {
+      "text": "Donald Degraen, Andr\u00e9 Zenner, and Antonio Kr\u00fcger. 2019. Enhancing Texture Perception in Virtual Reality Using 3D-Printed Hair Structures. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300479",
+      "doi": "10.1145/3290605.3300479"
+    },
+    {
+      "text": "Alexandra Delazio, Ken Nakagaki, Roberta\u00a0L. Klatzky, Scott\u00a0E Hudson, Jill\u00a0Fain Lehman, and Alanson\u00a0P Sample. 2018. Force Jacket: Pneumatically-Actuated Jacket for Embodied Haptic Experiences. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173894",
+      "doi": "10.1145/3173574.3173894"
+    },
+    {
+      "text": "Mohamad\u00a0A. Eid and Hussein Al Osman. 2016. Affective Haptics: Current Research and Future Directions. IEEE Access 4(2016), 26\u201340. https://doi.org/10.1109/ACCESS.2015.2497316",
+      "doi": ""
+    },
+    {
+      "text": "Lisa\u00a0A. Elkin, Matthew Kay, James\u00a0J. Higgins, and Jacob\u00a0O. Wobbrock. 2021. An Aligned Rank Transform Procedure for Multifactor Contrast Tests. Vol.\u00a01. Association for Computing Machinery. https://doi.org/10.1145/3472749.3474784 arxiv:2102.11824",
+      "doi": ""
+    },
+    {
+      "text": "Hesham Elsayed, Mayra\u00a0Donaji Barrera Machuca, Christian Schaarschmidt, Karola Marky, Florian M\u00fcller, Jan Riemann, Andrii Matviienko, Martin Schmitz, Martin Weigel, and Max M\u00fchlh\u00e4user. 2020. VRSketchPen: Unconstrained Haptic Assistance for Sketching in Virtual 3D Environments. Proceedings of the ACM Symposium on Virtual Reality Software and Technology, VRST (2020). https://doi.org/10.1145/3385956.3418953",
+      "doi": "10.1145/3385956.3418953"
+    },
+    {
+      "text": "Hesham Elsayed, Martin Weigel, Florian M\u00fcller, Martin Schmitz, Karola Marky, Sebastian G\u00fcnther, Jan Riemann, and Max M\u00fchlh\u00e4user. 2020. VibroMap: Understanding the spacing of vibrotactile actuators across the body. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 4 (dec 2020), 1\u201316. https://doi.org/10.1145/3432189",
+      "doi": "10.1145/3432189"
+    },
+    {
+      "text": "Marc\u00a0O Ernst and Martin\u00a0S Banks. 2002. Humans integrate visual and haptic information in a statistically optimal fashion. Nature 415, 6870 (jan 2002), 429\u2013433. https://doi.org/10.1038/415429a",
+      "doi": ""
+    },
+    {
+      "text": "Greg\u00a0K. Essick, Francis McGlone, Chris Dancer, David Fabricant, Yancy Ragin, Nicola Phillips, Therese Jones, and Steve Guest. 2010. Quantitative assessment of pleasant touch. Neuroscience & Biobehavioral Reviews 34, 2 (feb 2010), 192\u2013203. https://doi.org/10.1016/j.neubiorev.2009.02.003",
+      "doi": ""
+    },
+    {
+      "text": "Anna Fenko, Hendrik\u00a0N.J. Schifferstein, and Paul Hekkert. 2010. Looking hot or feeling hot: What determines the product experience of warmth?Materials & Design 31, 3 (mar 2010), 1325\u20131331. https://doi.org/10.1016/j.matdes.2009.09.008",
+      "doi": ""
+    },
+    {
+      "text": "Lukas Gehrke, Sezen Akman, Pedro Lopes, Albert Chen, Avinash\u00a0Kumar Singh, Hsiang-ting Chen, Chin-Teng Lin, and Klaus Gramann. 2019. Detecting Visuo-Haptic Mismatches in Virtual Reality using the Prediction Error Negativity of Event-Related Brain Potentials. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3290605.3300657",
+      "doi": "10.1145/3290605.3300657"
+    },
+    {
+      "text": "James\u00a0J. Gibson. 1962. Observations on active touch.Psychological Review 69, 6 (1962), 477\u2013491. https://doi.org/10.1037/h0046962",
+      "doi": ""
+    },
+    {
+      "text": "Steve Guest and Charles Spence. 2003. What role does multisensory integration play in the visuotactile perception of texture?International Journal of Psychophysiology 50, 1-2 (oct 2003), 63\u201380. https://doi.org/10.1016/S0167-8760(03)00125-9",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian G\u00fcnther, Sven Kratz, Daniel Avrahami, and Max M\u00fchlh\u00e4user. 2018. Exploring Audio, Visual, and Tactile Cues for Synchronous Remote Assistance. In Proceedings of the 11th PErvasive Technologies Related to Assistive Environments Conference. ACM, New York, NY, USA, 339\u2013344. https://doi.org/10.1145/3197768.3201568",
+      "doi": "10.1145/3197768.3201568"
+    },
+    {
+      "text": "Sebastian G\u00fcnther, Mohit Makhija, Florian M\u00fcller, Dominik Sch\u00f6n, Max M\u00fchlh\u00e4user, and Markus Funk. 2019. PneumAct: Pneumatic Kinesthetic Actuation of Body Joints in Virtual Reality Environments. In Proceedings of the 2019 on Designing Interactive Systems Conference. ACM, New York, NY, USA, 227\u2013240. https://doi.org/10.1145/3322276.3322302",
+      "doi": "10.1145/3322276.3322302"
+    },
+    {
+      "text": "Sebastian G\u00fcnther, Florian M\u00fcller, Markus Funk, Jan Kirchner, Niloofar Dezfuli, and Max M\u00fchlh\u00e4user. 2018. TactileGlove: Assistive Spatial Guidance in 3D Space through Vibrotactile Navigation. In Proceedings of the 11th PErvasive Technologies Related to Assistive Environments Conference. ACM, New York, NY, USA, 273\u2013280. https://doi.org/10.1145/3197768.3197785",
+      "doi": "10.1145/3197768.3197785"
+    },
+    {
+      "text": "Sebastian G\u00fcnther, Florian M\u00fcller, Felix H\u00fcbner, Max M\u00fchlh\u00e4user, and Andrii Matviienko. 2021. ActuBoard: An Open Rapid Prototyping Platform to integrate Hardware Actuators in Remote Applications. In Companion Proceedings of the 13th ACM SIGCHI Symposium on Engineering Interactive Computing Systems(EICS \u201921 Companion). Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3459926.3464757",
+      "doi": "10.1145/3459926.3464757"
+    },
+    {
+      "text": "Sebastian G\u00fcnther, Florian M\u00fcller, Dominik Sch\u00f6n, Omar Elmoghazy, Max M\u00fchlh\u00e4user, and Martin Schmitz. 2020. Therminator: Understanding the Interdependency of Visual and On-Body Thermal Feedback in Virtual Reality. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376195",
+      "doi": "10.1145/3313831.3376195"
+    },
+    {
+      "text": "Sebastian G\u00fcnther, Dominik Sch\u00f6n, Florian M\u00fcller, Max M\u00fchlh\u00e4user, and Martin Schmitz. 2020. PneumoVolley: Pressure-based Haptic Feedback on the Head through Pneumatic Actuation. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201310. https://doi.org/10.1145/3334480.3382916",
+      "doi": "10.1145/3334480.3382916"
+    },
+    {
+      "text": "Aakar Gupta, Antony Albert\u00a0Raj Irudayaraj, and Ravin Balakrishnan. 2017. HapticClench: Investigating Squeeze Sensations using Memory Alloys. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology. ACM, New York, NY, USA, 109\u2013117. https://doi.org/10.1145/3126594.3126598",
+      "doi": "10.1145/3126594.3126598"
+    },
+    {
+      "text": "Antal Haans, Wijnand\u00a0A. IJsselsteijn, and Yvonne\u00a0A.W. de Kort. 2008. The effect of similarities in skin texture and hand shape on perceived ownership of a fake limb. Body Image 5, 4 (dec 2008), 389\u2013394. https://doi.org/10.1016/j.bodyim.2008.04.003",
+      "doi": ""
+    },
+    {
+      "text": "Heikki\u00a0A. Hamalainen, Susan Warren, and Esther\u00a0P. Gardner. 1985. Differential Sensitivity to Airpuffs on Human Hairy and Glabrous Skin. Somatosensory Research 2, 4 (jan 1985), 281\u2013302. https://doi.org/10.3109/07367228509144569",
+      "doi": ""
+    },
+    {
+      "text": "Liang He, Cheng Xu, Ding Xu, and Ryan Brill. 2015. PneuHaptic: Delivering Haptic Cues with a Pneumatic Armband. Proceedings of the 2015 ACM International Symposium on Wearable Computers - ISWC \u201915 (2015), 47\u201348. https://doi.org/10.1145/2802083.2802091",
+      "doi": "10.1145/2802083.2802091"
+    },
+    {
+      "text": "Morton\u00a0A. Heller. 1982. Visual and tactual texture perception: Intersensory cooperation. Perception & Psychophysics 31, 4 (jul 1982), 339\u2013344. https://doi.org/10.3758/BF03202657",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0J. Hertenstein, Dacher Keltner, Betsy App, Brittany\u00a0A. Bulleit, and Ariane\u00a0R. Jaskolka. 2006. Touch communicates distinct emotions.Emotion 6, 3 (2006), 528\u2013533. https://doi.org/10.1037/1528-3542.6.3.528",
+      "doi": ""
+    },
+    {
+      "text": "Mohamad Hoda, Basim Hafidh, and Abdulmotaleb El Saddik. 2015. Haptic glove for finger rehabilitation. In 2015 IEEE International Conference on Multimedia & Expo Workshops (ICMEW). IEEE, Turin, Italy, 1\u20136. https://doi.org/10.1109/ICMEW.2015.7169803",
+      "doi": ""
+    },
+    {
+      "text": "Mark Holliins, Richard Faldowski, Suman Rao, and Forrest Young. 1993. Perceptual dimensions of tactile surface texture: A multidimensional scaling analysis. Perception & Psychophysics 54, 6 (1993), 697\u2013705. https://doi.org/10.3758/BF03211795",
+      "doi": ""
+    },
+    {
+      "text": "Mark Hollins and S.\u00a0Ryan Risner. 2000. Evidence for the duplex theory of tactile texture perception. Perception and Psychophysics 62, 4 (2000), 695\u2013705. https://doi.org/10.3758/BF03206916",
+      "doi": ""
+    },
+    {
+      "text": "Matthias Hoppe, Pascal Knierim, Thomas Kosch, Markus Funk, Lauren Futami, Stefan Schneegass, Niels Henze, Albrecht Schmidt, and Tonja Machulla. 2018. VRHapticDrones: Providing Haptics in Virtual Reality through Quadcopters. In Proceedings of the 17th International Conference on Mobile and Ubiquitous Multimedia. ACM, New York, NY, USA, 7\u201318. https://doi.org/10.1145/3282894.3282898",
+      "doi": "10.1145/3282894.3282898"
+    },
+    {
+      "text": "Gijs Huisman. 2017. Social Touch Technology: A Survey of Haptic Technology for Social Touch. IEEE Transactions on Haptics 10, 3 (jul 2017), 391\u2013408. https://doi.org/10.1109/TOH.2017.2650221",
+      "doi": "10.1109/TOH.2017.2650221"
+    },
+    {
+      "text": "G. Huisman, Aduen Darriba Frederiks, B. Van Dijk, D. Hevlen, and B. Krose. 2013. The TaSSt: Tactile sleeve for social touch. In 2013 World Haptics Conference (WHC). IEEE, Daejeon, Korea (South), 211\u2013216. https://doi.org/10.1109/WHC.2013.6548410",
+      "doi": ""
+    },
+    {
+      "text": "Wijnand\u00a0A IJsselsteijn, Yvonne A.\u00a0W de Kort, and Antal Haans. 2006. Is This My Hand I See Before Me? The Rubber Hand Illusion in Reality, Virtual Reality, and Mixed Reality. Presence: Teleoperators and Virtual Environments 15, 4 (aug 2006), 455\u2013464. https://doi.org/10.1162/pres.15.4.455",
+      "doi": ""
+    },
+    {
+      "text": "Sima Ipakchian Askari, Antal Haans, and Wijnand\u00a0A. IJsselsteijn. 2019. Is Seeing Believing?: The Effect of Morphological Congruent Visual Feedback on Mediated Touch Experience. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3290607.3312976",
+      "doi": "10.1145/3290607.3312976"
+    },
+    {
+      "text": "Sima Ipakchian Askari, Ville Harjunen, Michiel Spape, Antal Haans, Niklas Ravaja, and Wijnand Ijsselsteijn. 2021. Receiving a mediated touch from your partner vs. a male stranger: How visual feedback of touch and its sender influence touch experience. IEEE Transactions on Affective Computing(2021), 1\u20131. https://doi.org/10.1109/TAFFC.2021.3085185",
+      "doi": ""
+    },
+    {
+      "text": "Ali Israr and Freddy Abnousi. 2018. Towards Pleasant Touch: Vibrotactile Grids for Social Touch Interactions. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3170427.3188546",
+      "doi": "10.1145/3170427.3188546"
+    },
+    {
+      "text": "Ali Israr, Seung-Chan Kim, Jan Stec, and Ivan Poupyrev. 2012. Surround Haptics: Tactile Feedback for Immersive Gaming Experiences. In Proceedings of the 2012 ACM annual conference extended abstracts on Human Factors in Computing Systems Extended Abstracts - CHI EA \u201912. ACM Press, New York, New York, USA, 1087. https://doi.org/10.1145/2212776.2212392",
+      "doi": "10.1145/2212776.2212392"
+    },
+    {
+      "text": "Ali Israr and Ivan Poupyrev. 2011. Tactile brush: drawing on skin with a tactile grid display. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 2019\u20132028. https://doi.org/10.1145/1978942.1979235",
+      "doi": "10.1145/1978942.1979235"
+    },
+    {
+      "text": "Jacob Jacoby and Michael\u00a0S. Matell. 1971. Three-Point Likert Scales Are Good Enough. Journal of Marketing Research 8, 4 (nov 1971), 495\u2013500. https://doi.org/10.1177/002224377100800414",
+      "doi": ""
+    },
+    {
+      "text": "Smita Kanjanapas, Cara\u00a0M. Nunez, Sophia\u00a0R. Williams, Allison\u00a0M. Okamura, and Ming Luo. 2019. Design and Analysis of Pneumatic 2-DoF Soft Haptic Devices for Shear Display. IEEE Robotics and Automation Letters 4, 2 (apr 2019), 1365\u20131371. https://doi.org/10.1109/LRA.2019.2895890",
+      "doi": ""
+    },
+    {
+      "text": "Lawrence\u00a0H. Kim and Sean Follmer. 2019. SwarmHaptics: Haptic Display with Swarm Robots. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300918",
+      "doi": ""
+    },
+    {
+      "text": "Seung-Chan Kim, Chong-Hui Kim, Gi-Hun Yang, Tae-Heon Yang, Byung-Kil Han, Sung-Chul Kang, and Dong-Soo Kwon. 2009. Small and lightweight tactile display(SaLT) and its application. In World Haptics 2009 - Third Joint EuroHaptics conference and Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems. IEEE, Salt Lake City, UT, USA, 69\u201374. https://doi.org/10.1109/WHC.2009.4810820",
+      "doi": "10.1109/WHC.2009.4810820"
+    },
+    {
+      "text": "Roberta\u00a0L. Klatzky and Susan\u00a0J. Lederman. 1999. Tactile roughness perception with a rigid link interposed between skin and surface. Perception & Psychophysics 61, 4 (jan 1999), 591\u2013607. https://doi.org/10.3758/BF03205532",
+      "doi": ""
+    },
+    {
+      "text": "Pascal Knierim, Thomas Kosch, Valentin Schwind, Markus Funk, Francisco Kiss, Stefan Schneegass, and Niels Henze. 2017. Tactile Drones - Providing Immersive Tactile Feedback in Virtual Reality through Quadcopters. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems. ACM, New York, NY, USA, 433\u2013436. https://doi.org/10.1145/3027063.3050426",
+      "doi": "10.1145/3027063.3050426"
+    },
+    {
+      "text": "Espen Knoop and Jonathan Rossiter. 2015. The Tickler: A Compliant Wearable Tactile Display for Stroking and Tickling. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems. ACM, New York, NY, USA, 1133\u20131138. https://doi.org/10.1145/2702613.2732749",
+      "doi": "10.1145/2702613.2732749"
+    },
+    {
+      "text": "Yukari Konishi, Nobuhisa Hanamitsu, Benjamin Outram, Youichi Kamiyama, Kouta Minamizawa, Ayahiko Sato, and Tetsuya Mizuguchi. 2018. Synesthesia Suit: the full body immersive experience. In Lecture Notes in Electrical Engineering. Vol.\u00a0432. 499\u2013503. https://doi.org/10.1007/978-981-10-4157-0_84",
+      "doi": ""
+    },
+    {
+      "text": "Diana Kornbrot, Paul Penn, Helen Petrie, Stephen Furner, and Andrew Hardwick. 2007. Roughness perception in haptic virtual reality for sighted and blind people. Perception & Psychophysics 69, 4 (may 2007), 502\u2013512. https://doi.org/10.3758/BF03193907",
+      "doi": ""
+    },
+    {
+      "text": "Susan\u00a0J. Lederman and Susan\u00a0G. Abbott. 1981. Texture perception: Studies of intersensory organization using a discrepancy paradigm, and visual versus tactual psychophysics.Journal of Experimental Psychology: Human Perception and Performance 7, 4(1981), 902\u2013915. https://doi.org/10.1037/0096-1523.7.4.902",
+      "doi": ""
+    },
+    {
+      "text": "Susan\u00a0J Lederman and Roberta\u00a0L Klatzky. 2004. Multisensory texture perception.In The handbook of multisensory processes.MIT Press, Cambridge, MA, US, 107\u2013122.",
+      "doi": ""
+    },
+    {
+      "text": "Susan\u00a0J. Lederman, Georgie Thorne, and Bill Jones. 1986. Perception of texture by vision and touch: Multidimensionality and intersensory integration.Journal of Experimental Psychology: Human Perception and Performance 12, 2(1986), 169\u2013180. https://doi.org/10.1037//0096-1523.12.2.169",
+      "doi": ""
+    },
+    {
+      "text": "Chi-Jung Lee, Hsin-Ruey Tsai, and Bing-Yu Chen. 2021. HairTouch: Providing Stiffness, Roughness and Surface Height Differences Using Reconfigurable Brush Hairs on a VR Controller. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3411764.3445285",
+      "doi": "10.1145/3411764.3445285"
+    },
+    {
+      "text": "Yuhu Liu, Satoshi Nishikawa, Young ah Seong, Ryuma Niiyama, and Yasuo Kuniyoshi. 2021. ThermoCaress: A Wearable Haptic Device with Illusory Moving Thermal Stimulation. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3411764.3445777",
+      "doi": "10.1145/3411764.3445777"
+    },
+    {
+      "text": "Haiko L\u00fcpsen. 2017. The aligned rank transform and discrete variables: A warning. Communications in Statistics - Simulation and Computation 46, 9 (oct 2017), 6923\u20136936. https://doi.org/10.1080/03610918.2016.1217014",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0H Massie and J\u00a0K Salisbury. 1994. The PHANToM haptic interface: A device for probing virtual objects. In Proceedings of the ASME Dynamic Systems and Control Division. 295\u2013301.",
+      "doi": ""
+    },
+    {
+      "text": "F. McGlone, H. Olausson, J.\u00a0A. Boyle, M. Jones-Gotman, C. Dancer, S. Guest, and G. Essick. 2012. Touching and feeling: Differences in pleasant touch processing between glabrous and hairy skin in humans. European Journal of Neuroscience 35, 11 (2012), 1782\u20131788. https://doi.org/10.1111/j.1460-9568.2012.08092.x",
+      "doi": ""
+    },
+    {
+      "text": "Francis McGlone and David Reilly. 2010. The cutaneous sensory system. Neuroscience & Biobehavioral Reviews 34, 2 (feb 2010), 148\u2013159. https://doi.org/10.1016/J.NEUBIOREV.2009.08.004",
+      "doi": ""
+    },
+    {
+      "text": "Francis McGlone, Johan Wessberg, and H\u00e5kan Olausson. 2014. Discriminative and Affective Touch: Sensing and Feeling. Neuron 82, 4 (may 2014), 737\u2013755. https://doi.org/10.1016/j.neuron.2014.05.001",
+      "doi": ""
+    },
+    {
+      "text": "Abu\u00a0Saleh Md Mahfujur Rahman and Abdulmotaleb El Saddik. 2011. HKiss: Real world based haptic interaction with virtual 3D avatars. In 2011 IEEE International Conference on Multimedia and Expo. IEEE, Barcelona, Spain, 1\u20136. https://doi.org/10.1109/ICME.2011.6012223",
+      "doi": "10.1109/ICME.2011.6012223"
+    },
+    {
+      "text": "Sachith Muthukumarana, Don\u00a0Samitha Elvitigala, Juan\u00a0Pablo Forero Cortes, Denys\u00a0J.C. Matthies, and Suranga Nanayakkara. 2020. Touch me Gently: Recreating the Perception of Touch using a Shape-Memory Alloy Matrix. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376491",
+      "doi": "10.1145/3313831.3376491"
+    },
+    {
+      "text": "Aditya\u00a0Shekhar Nittala, Klaus Kruttwig, Jaeyeon Lee, Roland Bennewitz, Eduard Arzt, and J\u00fcrgen Steimle. 2019. Like A Second Skin: Understanding How Epidermal Devices Affect Human Tactile Perception. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201316. https://doi.org/10.1145/3290605.3300610",
+      "doi": "10.1145/3290605.3300610"
+    },
+    {
+      "text": "Cara\u00a0M. Nunez, Bryce\u00a0N. Huerta, Allison\u00a0M. Okamura, and Heather Culbertson. 2020. Investigating Social Haptic Illusions for Tactile Stroking (SHIFTS). In 2020 IEEE Haptics Symposium (HAPTICS). IEEE, Crystal City, VA, USA, 629\u2013636. https://doi.org/10.1109/HAPTICS45997.2020.ras.HAP20.35.f631355d",
+      "doi": ""
+    },
+    {
+      "text": "Shogo Okamoto, Hikaru Nagano, and Hsin-Ni Ho. 2016. Psychophysical Dimensions of Material Perception and Methods to Specify Textural Space. In Pervasive Haptics. Springer Japan, Tokyo, 3\u201320. https://doi.org/10.1007/978-4-431-55772-2_1",
+      "doi": ""
+    },
+    {
+      "text": "Shogo Okamoto, Hikaru Nagano, and Yoji Yamada. 2013. Psychophysical Dimensions of Tactile Perception of Textures. IEEE Transactions on Haptics 6, 1 (2013), 81\u201393. https://doi.org/10.1109/TOH.2012.32",
+      "doi": "10.1109/ToH.2012.32"
+    },
+    {
+      "text": "H\u00e5kan Olausson, Johan Wessberg, India Morrison, Francis McGlone, and \u00c5ke Vallbo. 2010. The neurophysiology of unmyelinated tactile afferents. Neuroscience and Biobehavioral Reviews 34, 2 (2010), 185\u2013191. https://doi.org/10.1016/j.neubiorev.2008.09.011",
+      "doi": ""
+    },
+    {
+      "text": "Claudio Pacchierotti, Stephen Sinclair, Massimiliano Solazzi, Antonio Frisoli, Vincent Hayward, and Domenico Prattichizzo. 2017. Wearable haptic systems for the fingertip and the hand: Taxonomy, review, and perspectives. IEEE Transactions on Haptics 10, 4 (2017), 580\u2013600. https://doi.org/10.1109/TOH.2017.2689006",
+      "doi": "10.1109/TOH.2017.2689006"
+    },
+    {
+      "text": "Mathias Parger, Dieter Schmalstieg, Joerg\u00a0H. Mueller, and Markus Steinberger. 2018. Human upper-body inverse kinematics for increased embodiment in consumer-grade virtual reality. Proceedings of the ACM Symposium on Virtual Reality Software and Technology, VRST (2018). https://doi.org/10.1145/3281505.3281529",
+      "doi": "10.1145/3281505.3281529"
+    },
+    {
+      "text": "Gunhyuk Park and Seungmoon Choi. 2018. Tactile Information Transmission by 2D Stationary Phantom Sensations. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173832",
+      "doi": "10.1145/3173574.3173832"
+    },
+    {
+      "text": "Young-Woo Park, Chang-Young Lim, and Tek-Jin Nam. 2010. CheekTouch: an affective interaction technique while speaking on the mobile phone. In CHI \u201910 Extended Abstracts on Human Factors in Computing Systems. ACM, New York, NY, USA, 3241\u20133246. https://doi.org/10.1145/1753846.1753965",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Perez-Marcos, Maria\u00a0V. Sanchez-Vives, and Mel Slater. 2012. Is my hand connected to my body? The impact of body continuity and arm alignment on the virtual hand illusion. Cognitive Neurodynamics 6, 4 (aug 2012), 295\u2013305. https://doi.org/10.1007/s11571-011-9178-5",
+      "doi": ""
+    },
+    {
+      "text": "Evan Pezent, Ali Israr, Majed Samad, Shea Robinson, Priyanshu Agarwal, Hrvoje Benko, and Nick Colonnese. 2019. Tasbi: Multisensory Squeeze and Vibrotactile Wrist Haptics for Augmented and Virtual Reality. In 2019 IEEE World Haptics Conference (WHC). IEEE, Tokyo, Japan, 1\u20136. https://doi.org/10.1109/WHC.2019.8816098",
+      "doi": ""
+    },
+    {
+      "text": "Henning Pohl, Peter Brandes, Hung Ngo Quang, and Michael Rohs. 2017. Squeezeback: Pneumatic Compression for Notification. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems - CHI \u201917 (2017), 5318\u20135330. https://doi.org/10.1145/3025453.3025526",
+      "doi": "10.1145/3025453.3025526"
+    },
+    {
+      "text": "Simone Sch\u00fctz-Bosbach, Peggy Tausche, and Carmen Weiss. 2009. Roughness perception during the rubber hand illusion., 136\u2013144\u00a0pages. https://doi.org/10.1016/j.bandc.2009.01.006",
+      "doi": ""
+    },
+    {
+      "text": "Melanie\u00a0F. Simons, Krishna\u00a0Manaswi Digumarti, Nguyen\u00a0Hao Le, Hsing-Yu Chen, Sara\u00a0Correia Carreira, Nouf S.\u00a0S. Zaghloul, Richard\u00a0Suphapol Diteesawat, Martin Garrad, Andrew\u00a0T. Conn, Christopher Kent, and Jonathan Rossiter. 2021. B:Ionic Glove: A Soft Smart Wearable Sensory Feedback Device for Upper Limb Robotic Prostheses. IEEE Robotics and Automation Letters 6, 2 (apr 2021), 3311\u20133316. https://doi.org/10.1109/LRA.2021.3064269",
+      "doi": ""
+    },
+    {
+      "text": "Melanie\u00a0F. Simons, Alice\u00a0C. Haynes, Yan Gao, Yihua Zhu, and Jonathan Rossiter. 2020. In Contact: Pinching, Squeezing and Twisting for Mediated Social Touch. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u20139. https://doi.org/10.1145/3334480.3382798",
+      "doi": ""
+    },
+    {
+      "text": "Mel Slater. 2008. Towards a digital body: The virtual arm illusion. Frontiers in Human Neuroscience 2 (2008). https://doi.org/10.3389/neuro.09.006.2008",
+      "doi": ""
+    },
+    {
+      "text": "Hua\u00a0Chun Sun, Andrew\u00a0E. Welchman, Dorita\u00a0H.F. Chang, and Massimiliano Di Luca. 2016. Look but don\u2019t touch: Visual cues to surface structure drive somatosensory cortex. NeuroImage 128(2016), 353\u2013361. https://doi.org/10.1016/j.neuroimage.2015.12.054",
+      "doi": ""
+    },
+    {
+      "text": "Ivan Sutherland. 1965. The Ultimate Display. In Proceedings of the IFIP Congress. 506\u2013508. http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.136.3720",
+      "doi": ""
+    },
+    {
+      "text": "Shan-Yuan Teng, Pengyu Li, Romain Nith, Joshua Fonseca, and Pedro Lopes. 2021. Touch & Fold: A Foldable Haptic Actuator for Rendering Touch in Mixed Reality. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3411764.3445099",
+      "doi": "10.1145/3411764.3445099"
+    },
+    {
+      "text": "Jonathan Tong, Oliver Mao, and Daniel Goldreich. 2013. Two-point orientation discrimination versus the traditional two-point test for tactile spatial acuity assessment. Frontiers in Human Neuroscience 7, SEP (2013), 1\u201311. https://doi.org/10.3389/fnhum.2013.00579",
+      "doi": ""
+    },
+    {
+      "text": "Chantal Triscoli, Rochelle Ackerley, and Uta Sailer. 2014. Touch satiety: Differential effects of stroking velocity on liking and wanting touch over repetitions. PLoS ONE 9, 11 (2014), 1\u20138. https://doi.org/10.1371/journal.pone.0113425",
+      "doi": ""
+    },
+    {
+      "text": "Manos Tsakiris and Patrick Haggard. 2005. The Rubber Hand Illusion Revisited: Visuotactile Integration and Self-Attribution., 80\u201391\u00a0pages. https://doi.org/10.1037/0096-1523.31.1.80",
+      "doi": ""
+    },
+    {
+      "text": "Dzmitry Tsetserukou. 2010. HaptiHug: A novel haptic display for communication of hug over a distance. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) 6191 LNCS, PART 1(2010), 340\u2013347. https://doi.org/10.1007/978-3-642-14064-8_49",
+      "doi": ""
+    },
+    {
+      "text": "Dzmitry Tsetserukou, Alena Neviarouskaya, Helmut Prendinger, Mitsuru Ishizuka, and Susumu Tachi. 2010. iFeel_IM: innovative real-time communication system with rich emotional and haptic channels. In CHI \u201910 Extended Abstracts on Human Factors in Computing Systems, Vol.\u00a06191 LNCS. ACM, New York, NY, USA, 3031\u20133036. https://doi.org/10.1145/1753846.1753911",
+      "doi": ""
+    },
+    {
+      "text": "Chelsea Tymms, Denis Zorin, and Esther\u00a0P. Gardner. 2018. Tactile perception of the roughness of 3D-printed textures. Journal of Neurophysiology 119, 3 (mar 2018), 862\u2013876. https://doi.org/10.1152/jn.00564.2017",
+      "doi": ""
+    },
+    {
+      "text": "Takafumi Wakita, Natsumi Ueshima, and Hiroyuki Noguchi. 2012. Psychological Distance Between Categories in the Likert Scale. Educational and Psychological Measurement 72, 4 (aug 2012), 533\u2013546. https://doi.org/10.1177/0013164411431162",
+      "doi": ""
+    },
+    {
+      "text": "Dangxiao Wang, Kouhei Ohnishi, and Weiliang Xu. 2020. Multimodal haptic display for virtual reality: A survey. IEEE Transactions on Industrial Electronics 67, 1 (2020), 610\u2013623. https://doi.org/10.1109/TIE.2019.2920602",
+      "doi": ""
+    },
+    {
+      "text": "Jamie Ward, Ajua Mensah, and Kristin J\u00fcnemann. 2015. The rubber hand illusion depends on the tactile congruency of the observed and felt touch. Journal of Experimental Psychology: Human Perception and Performance 41, 5(2015), 1203\u20131208. https://doi.org/10.1037/xhp0000088",
+      "doi": ""
+    },
+    {
+      "text": "Toshio Watanabe and Shigehisa Fukui. 1995. A method for controlling tactile sensation of surface roughness using ultrasonic vibration. In Proceedings of 1995 IEEE International Conference on Robotics and Automation, Vol.\u00a01. IEEE, 1134\u20131139. https://doi.org/10.1109/ROBOT.1995.525433",
+      "doi": ""
+    },
+    {
+      "text": "Chyanna Wee, Kian\u00a0Meng Yap, and Woan\u00a0Ning Lim. 2021. Haptic Interfaces for Virtual Reality: Challenges and Research Directions. IEEE Access 9(2021), 112145\u2013112162. https://doi.org/10.1109/ACCESS.2021.3103598",
+      "doi": ""
+    },
+    {
+      "text": "Eric Whitmire, Hrvoje Benko, Christian Holz, Eyal Ofek, and Mike Sinclair. 2018. Haptic Revolver: Touch, Shear, Texture, and Shape Rendering on a Reconfigurable Virtual Reality Controller. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173660",
+      "doi": "10.1145/3173574.3173660"
+    },
+    {
+      "text": "Graham Wilson, Martin Halvey, Stephen\u00a0A. Brewster, and Stephen\u00a0A. Hughes. 2011. Some like it hot: thermal feedback for mobile devices. In Proceedings of the 2011 annual conference on Human factors in computing systems - CHI \u201911. ACM Press, New York, New York, USA, 2555. https://doi.org/10.1145/1978942.1979316",
+      "doi": "10.1145/1978942.1979316"
+    },
+    {
+      "text": "Anusha Withana, Daniel Groeger, and J\u00fcrgen Steimle. 2018. Tacttoo: A Thin and Feel-Through Tattoo for On-Skin Tactile Output. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology. ACM, New York, NY, USA, 365\u2013378. https://doi.org/10.1145/3242587.3242645",
+      "doi": "10.1145/3242587.3242645"
+    },
+    {
+      "text": "Bob\u00a0G. Witmer and Michael\u00a0J. Singer. 1998. Measuring Presence in Virtual Environments: A Presence Questionnaire. Presence: Teleoperators and Virtual Environments 7, 3 (jun 1998), 225\u2013240. https://doi.org/10.1162/105474698565686",
+      "doi": "10.1162/105474698565686"
+    },
+    {
+      "text": "Jacob\u00a0O. Wobbrock, Leah Findlater, Darren Gergle, and James\u00a0J. Higgins. 2011. The aligned rank transform for nonparametric factorial analyses using only anova procedures. In Proceedings of the 2011 annual conference on Human factors in computing systems - CHI \u201911. ACM Press, New York, New York, USA, 143. https://doi.org/10.1145/1978942.1978963",
+      "doi": "10.1145/1978942.1978963"
+    },
+    {
+      "text": "Hideyoshi Yanagisawa and Kenji Takatsuji. 2015. Effects of visual expectation on perceived tactile perception: An evaluation method of surface texture with expectation effect. International Journal of Design 9, 1 (2015), 39\u201351.",
+      "doi": ""
+    },
+    {
+      "text": "Lining Yao, Ryuma Niiyama, Jifei Ou, Sean Follmer, Clark Della Silva, and Hiroshi Ishii. 2013. PneUI: Pneumatically Actuated Soft Composite Materials for Shape Changing Interfaces. Proceedings of the 26th annual ACM symposium on User interface software and technology - UIST \u201913(2013), 13\u201322. https://doi.org/10.1145/2501988.2502037",
+      "doi": "10.1145/2501988.2502037"
+    },
+    {
+      "text": "Svetlana Yarosh, Kenya Mejia, Baris Unver, Xizi Wang, Yuan Yao, Akin Campbell, and Brad Holschuh. 2017. SqueezeBands: Mediated Social Touch Using Shape Memory Alloy Actuation. Proceedings of the ACM on Human-Computer Interaction 1, CSCW (dec 2017), 1\u201318. https://doi.org/10.1145/3134751",
+      "doi": "10.1145/3134751"
+    },
+    {
+      "text": "Yoshimi Sato, Keiji Sato, Michi Sato, Shogo Fukushima, Yu Okano, Kanako Matsuo, Sayaka Ooshima, Yuichiro Kojima, Rika Matsue, Satsuki Nakata, Yuki Hashimoto, and Hiroyuki Kajimoto. 2008. Ants in the Pants -ticklish tactile display using rotating brushes-. In 2008 SICE Annual Conference. IEEE, 10.1109/SICE.2008.4654699, 461\u2013466. https://doi.org/10.1109/SICE.2008.4654699",
+      "doi": ""
+    },
+    {
+      "text": "Ye Yuan and Anthony Steed. 2010. Is the rubber hand illusion induced by immersive virtual reality?Proceedings - IEEE Virtual Reality(2010), 95\u2013102. https://doi.org/10.1109/VR.2010.5444807",
+      "doi": ""
+    },
+    {
+      "text": "Andre Zenner and Antonio Kr\u00fcger. 2019. Estimating detection thresholds for desktop-scale hand redirection in virtual reality. 26th IEEE Conference on Virtual Reality and 3D User Interfaces, VR 2019 - Proceedings (mar 2019), 47\u201355. https://doi.org/10.1109/VR.2019.8798143",
+      "doi": ""
+    },
+    {
+      "text": "Zhuoming Zhang, Robin H\u00e9ron, Eric Lecolinet, Fran\u00e7oise Detienne, and St\u00e9phane Safin. 2019. VisualTouch: Enhancing Affective Touch Communication with Multi-modality Stimulation. In 2019 International Conference on Multimodal Interaction. ACM, New York, NY, USA, 114\u2013123. https://doi.org/10.1145/3340555.3353733",
+      "doi": ""
+    }
+  ]
+}

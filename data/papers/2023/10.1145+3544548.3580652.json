@@ -1,0 +1,466 @@
+{
+  "doi": "10.1145/3544548.3580652",
+  "title": "Designerly Understanding: Information Needs for Model Transparency to Support Design Ideation for AI-Powered User Experience",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-21",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Despite the widespread use of artificial intelligence (AI), designing user experiences (UX) for AI-powered systems remains challenging. UX designers face hurdles understanding AI technologies, such as pre-trained language models, as design materials. This limits their ability to ideate and make decisions about whether, where, and how to use AI. To address this problem, we bridge the literature on AI design and AI transparency to explore whether and how frameworks for transparent model reporting can support design ideation with pre-trained models. By interviewing 23 UX practitioners, we find that practitioners frequently work with pre-trained models, but lack support for UX-led ideation. Through a scenario-based design task, we identify common goals that designers seek model understanding for and pinpoint their model transparency information needs. Our study highlights the pivotal role that UX designers can play in Responsible AI and calls for supporting their understanding of AI limitations through model transparency and interrogation.",
+  "authors": [
+    {
+      "name": "Q. Vera Liao",
+      "institution": "Microsoft Research, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659248963",
+      "orcid": "0000-0003-4543-7196"
+    },
+    {
+      "name": "Hariharan Subramonyam",
+      "institution": "Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658702532",
+      "orcid": "0000-0002-3450-0447"
+    },
+    {
+      "name": "Jennifer Wang",
+      "institution": "Microsoft, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702658",
+      "orcid": "0000-0002-7165-4285"
+    },
+    {
+      "name": "Jennifer Wortman Vaughan",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660549820",
+      "orcid": "0000-0002-7807-2018"
+    }
+  ],
+  "references": [
+    {
+      "text": "2019. Amazon AWS Machine Learning Services. https://aws.amazon.com/machine-learning/.",
+      "doi": ""
+    },
+    {
+      "text": "2019. Google AI for Developers. https://cloud.google.com/products/ai.",
+      "doi": ""
+    },
+    {
+      "text": "2019. Google People + AI Guidebook.pair.withgoogle.com/guidebook.",
+      "doi": ""
+    },
+    {
+      "text": "2019. Hugging Face Models. https://huggingface.co/models.",
+      "doi": ""
+    },
+    {
+      "text": "2019. IBM Design for AI. https://www.ibm.com/design/ai/.",
+      "doi": ""
+    },
+    {
+      "text": "2019. IBM Watson AI Solutions. https://www.ibm.com/artificial-intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "2019. Microsoft Azure Cognitive Service. https://azure.microsoft.com/en-us/services/cognitive-services/.",
+      "doi": ""
+    },
+    {
+      "text": "2022. Transparency Note for Azure Cognitive Service for language. https://docs.microsoft.com/en-us/legal/cognitive-services/language-service/transparency-note.",
+      "doi": ""
+    },
+    {
+      "text": "Mehdi Allahyari, Seyedamin Pouriyeh, Mehdi Assefi, Saeid Safaei, Elizabeth\u00a0D Trippe, Juan\u00a0B Gutierrez, and Krys Kochut. 2017. Text summarization techniques: a brief survey. arXiv preprint arXiv:1707.02268(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Max Chickering, Steven\u00a0M Drucker, Bongshin Lee, Patrice Simard, and Jina Suh. 2015. Modeltracker: Redesigning performance analysis tools for machine learning. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 337\u2013346.",
+      "doi": "10.1145/2702123.2702509"
+    },
+    {
+      "text": "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul\u00a0N Bennett, Kori Inkpen, 2019. Guidelines for human-AI interaction. In Proceedings of the 2019 chi conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Matthew Arnold, Rachel\u00a0KE Bellamy, Michael Hind, Stephanie Houde, Sameep Mehta, Aleksandra Mojsilovi\u0107, Ravi Nair, K\u00a0Natesan Ramamurthy, Alexandra Olteanu, David Piorkowski, 2019. FactSheets: Increasing trust in AI services through supplier\u2019s declarations of conformity. IBM Journal of Research and Development 63, 4/5 (2019), 6\u20131.",
+      "doi": ""
+    },
+    {
+      "text": "Solon Barocas, Asia\u00a0J Biega, Benjamin Fish, J\u0119drzej Niklas, and Luke Stark. 2020. When not to design, build, or deploy. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. 695\u2013695.",
+      "doi": "10.1145/3351095.3375691"
+    },
+    {
+      "text": "Solon Barocas, Anhong Guo, Ece Kamar, Jacquelyn Krones, Meredith\u00a0Ringel Morris, Jennifer\u00a0Wortman Vaughan, W\u00a0Duncan Wadsworth, and Hanna Wallach. 2021. Designing disaggregated evaluations of ai systems: Choices, considerations, and tradeoffs. In Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society. 368\u2013378.",
+      "doi": "10.1145/3461702.3462610"
+    },
+    {
+      "text": "Emily\u00a0M. Bender and Batya Friedman. 2018. Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science. Transactions of the Association for Computational Linguistics 6 (2018), 587\u2013604.",
+      "doi": ""
+    },
+    {
+      "text": "Jesse\u00a0Josua Benjamin, Arne Berger, Nick Merrill, and James Pierce. 2021. Machine Learning Uncertainty as a Design Material: A Post-Phenomenological Inquiry. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445481"
+    },
+    {
+      "text": "Richard Benjamins, Alberto Barbado, and Daniel Sierra. 2019. Responsible AI by design in practice. arXiv preprint arXiv:1909.12838(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Umang Bhatt, Alice Xiang, Shubham Sharma, Adrian Weller, Ankur Taly, Yunhan Jia, Joydeep Ghosh, Ruchir Puri, Jos\u00e9\u00a0MF Moura, and Peter Eckersley. 2020. Explainable machine learning in deployment. In Proceedings of the 2020 conference on fairness, accountability, and transparency. 648\u2013657.",
+      "doi": "10.1145/3351095.3375624"
+    },
+    {
+      "text": "Su\u00a0Lin Blodgett, Solon Barocas, Hal Daum\u00e9\u00a0III, and Hanna Wallach. 2020. Language (Technology) is Power: A Critical Survey of \u201cBias\u201d in NLP. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. 5454\u20135476.",
+      "doi": ""
+    },
+    {
+      "text": "Karen\u00a0L Boyd. 2021. Datasheets for Datasets help ML Engineers Notice and Understand Ethical Issues in Training Data. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201327.",
+      "doi": "10.1145/3479582"
+    },
+    {
+      "text": "Anna Brown, Alexandra Chouldechova, Emily Putnam-Hornstein, Andrew Tobin, and Rhema Vaithianathan. 2019. Toward algorithmic accountability in public services: A qualitative study of affected community perspectives on algorithmic decision-making in child welfare services. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300271"
+    },
+    {
+      "text": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared\u00a0D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, 2020. Language models are few-shot learners. Advances in neural information processing systems 33 (2020), 1877\u20131901.",
+      "doi": ""
+    },
+    {
+      "text": "Richard Buchanan. 1992. Wicked problems in design thinking. Design issues 8, 2 (1992), 5\u201321.",
+      "doi": ""
+    },
+    {
+      "text": "Bill Buxton. 2010. Sketching user experiences: getting the design right and the right design. Morgan kaufmann.",
+      "doi": ""
+    },
+    {
+      "text": "Carrie\u00a0J Cai, Samantha Winter, David Steiner, Lauren Wilcox, and Michael Terry. 2021. Onboarding Materials as Cross-functional Boundary Objects for Developing AI Assistants. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u20137.",
+      "doi": "10.1145/3411763.3443435"
+    },
+    {
+      "text": "Matthew Chalmers and Areti Galani. 2004. Seamful interweaving: heterogeneity in the theory and design of interactive systems. In Proceedings of the 5th conference on Designing interactive systems: processes, practices, methods, and techniques. 243\u2013252.",
+      "doi": "10.1145/1013115.1013149"
+    },
+    {
+      "text": "Valerie Chen, Jeffrey Li, Joon\u00a0Sik Kim, Gregory Plumb, and Ameet Talwalkar. 2022. Interpretable machine learning: Moving from mythos to diagnostics. Queue 19, 6 (2022), 28\u201356.",
+      "doi": "10.1145/3511299"
+    },
+    {
+      "text": "Yeounoh Chung, Tim Kraska, Neoklis Polyzotis, Ki\u00a0Hyun Tae, and Steven\u00a0Euijong Whang. 2019. Slice finder: Automated data slicing for model validation. In 2019 IEEE 35th International Conference on Data Engineering (ICDE). IEEE, 1550\u20131553.",
+      "doi": ""
+    },
+    {
+      "text": "Juliet Corbin, Anselm\u00a0L Strauss, and Anselm Strauss. 2015. Basics of qualitative research. sage.",
+      "doi": ""
+    },
+    {
+      "text": "Design Council. 2005. The \u2018double diamond\u2019 design process model. Design Counci. (2005).",
+      "doi": ""
+    },
+    {
+      "text": "Henriette Cramer and Juho Kim. 2019. Confronting the tensions where UX meets AI. Interactions 26, 6 (2019), 69\u201371.",
+      "doi": "10.1145/3364625"
+    },
+    {
+      "text": "Anamaria Crisan, Margaret Drouhard, Jesse Vig, and Nazneen Rajani. 2022. Interactive Model Cards: A Human-Centered Approach to Model Documentation. arXiv preprint arXiv:2205.02894(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Fernando Delgado, Stephen Yang, Michael Madaio, and Qian Yang. 2021. Stakeholder Participation in AI: Beyond\" Add Diverse Stakeholders and Stir\". arXiv preprint arXiv:2111.01122(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Dominik Dellermann, Adrian Calma, Nikolaus Lipusch, Thorsten Weber, Sascha Weigel, and Philipp Ebel. 2021. The future of human-AI collaboration: a taxonomy of design knowledge for hybrid intelligence systems. arXiv preprint arXiv:2105.03354(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Wesley\u00a0Hanwen Deng, Manish Nagireddy, Michelle Seng\u00a0Ah Lee, Jatinder Singh, Zhiwei\u00a0Steven Wu, Kenneth Holstein, and Haiyi Zhu. 2022. Exploring How Machine Learning Practitioners (Try To) Use Fairness Toolkits. arXiv preprint arXiv:2205.06922(2022).",
+      "doi": "10.1145/3531146.3533113"
+    },
+    {
+      "text": "Alan Dix. 2007. Designing for appropriation. In Proceedings of HCI 2007 The 21st British HCI Group Annual Conference University of Lancaster, UK 21. 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "Dennis\u00a0P Doordan. 2003. On materials. Design Issues 19, 4 (2003), 3\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Kees Dorst and Nigel Cross. 2001. Creativity in the design process: co-evolution of problem\u2013solution. Design studies 22, 5 (2001), 425\u2013437.",
+      "doi": ""
+    },
+    {
+      "text": "Graham Dove, Kim Halskov, Jodi Forlizzi, and John Zimmerman. 2017. UX design innovation: Challenges for working with machine learning as a design material. In Proceedings of the 2017 chi conference on human factors in computing systems. 278\u2013288.",
+      "doi": "10.1145/3025453.3025739"
+    },
+    {
+      "text": "Malin Eiband, Hanna Schneider, Mark Bilandzic, Julian Fazekas-Con, Mareike Haug, and Heinrich Hussmann. 2018. Bringing transparency design into practice. In 23rd international conference on intelligent user interfaces. 211\u2013223.",
+      "doi": "10.1145/3172944.3172961"
+    },
+    {
+      "text": "Xiachong Feng, Xiaocheng Feng, and Bing Qin. 2021. A survey on dialogue summarization: Recent advances and new frontiers. arXiv preprint arXiv:2107.03175(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Ylva Fernaeus and Petra Sundstr\u00f6m. 2012. The material move how materials matter in interaction design research. In proceedings of the designing interactive systems conference. 486\u2013495.",
+      "doi": "10.1145/2317956.2318029"
+    },
+    {
+      "text": "Raya Fidel. 2012. Human information interaction: An ecological approach to information behavior. Mit Press.",
+      "doi": "10.5555/2207812"
+    },
+    {
+      "text": "Deep Ganguli, Liane Lovitt, Jackson Kernion, Amanda Askell, Yuntao Bai, Saurav Kadavath, Ben Mann, Ethan Perez, Nicholas Schiefer, Kamal Ndousse, 2022. Red teaming language models to reduce harms: Methods, scaling behaviors, and lessons learned. arXiv preprint arXiv:2209.07858(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer\u00a0Wortman Vaughan, Hanna Wallach, Hal\u00a0Daum\u00e9 Iii, and Kate Crawford. 2021. Datasheets for datasets. Commun. ACM 64, 12 (2021), 86\u201392.",
+      "doi": "10.1145/3458723"
+    },
+    {
+      "text": "Elisa Giaccardi and Elvin Karana. 2015. Foundations of materials experience: An approach for HCI. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 2447\u20132456.",
+      "doi": "10.1145/2702123.2702337"
+    },
+    {
+      "text": "Karan Goel, Nazneen Rajani, Jesse Vig, Samson Tan, Jason Wu, Stephan Zheng, Caiming Xiong, Mohit Bansal, and Christopher R\u00e9. 2021. Robustness gym: Unifying the nlp evaluation landscape. arXiv preprint arXiv:2101.04840(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Riccardo Guidotti, Anna Monreale, Salvatore Ruggieri, Franco Turini, Fosca Giannotti, and Dino Pedreschi. 2018. A survey of methods for explaining black box models. ACM computing surveys (CSUR) 51, 5 (2018), 1\u201342.",
+      "doi": ""
+    },
+    {
+      "text": "David Gunning, Mark Stefik, Jaesik Choi, Timothy Miller, Simone Stumpf, and Guang-Zhong Yang. 2019. XAI\u2014Explainable artificial intelligence. Science Robotics 4, 37 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Amy\u00a0K. Heger, Liz\u00a0B. Marquis, Mihaela Vorvoreanu, Hanna Wallach, and Jennifer\u00a0Wortman Vaughan. 2022. Understanding Machine Learning Practitioners\u2019 Data Documentation Perceptions, Needs, Challenges, and Desiderata. Proceedings of the ACM on Human-Computer Interaction 6, CSCW2(2022).",
+      "doi": "10.1145/3555760"
+    },
+    {
+      "text": "Michael Hind, Stephanie Houde, Jacquelyn Martino, Aleksandra Mojsilovic, David Piorkowski, John Richards, and Kush\u00a0R Varshney. 2020. Experiences with improving the transparency of AI models and services. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u20138.",
+      "doi": "10.1145/3334480.3383051"
+    },
+    {
+      "text": "Fred Hohman, Andrew Head, Rich Caruana, Robert DeLine, and Steven\u00a0M Drucker. 2019. Gamut: A design probe to understand how data scientists understand machine learning models. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300809"
+    },
+    {
+      "text": "Sarah Holland, Ahmed Hosny, Sarah Newman, Joshua Joseph, and Kasia Chmielinski. 2020. The dataset nutrition label. Data Protection and Privacy, Volume 12: Data Protection and Democracy 12 (2020), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Lars\u00a0Erik Holmquist. 2017. Intelligence on tap: artificial intelligence as a new design material. interactions 24, 4 (2017), 28\u201333.",
+      "doi": "10.1145/3085571"
+    },
+    {
+      "text": "Kenneth Holstein, Jennifer Wortman\u00a0Vaughan, Hal Daum\u00e9\u00a0III, Miro Dudik, and Hanna Wallach. 2019. Improving fairness in machine learning systems: What do industry practitioners need?. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201316.",
+      "doi": "10.1145/3290605.3300830"
+    },
+    {
+      "text": "Matthew\u00a0K Hong, Adam Fourney, Derek DeBellis, and Saleema Amershi. 2021. Planning for natural language failures with the ai playbook. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201311.",
+      "doi": "10.1145/3411764.3445735"
+    },
+    {
+      "text": "Sungsoo\u00a0Ray Hong, Jessica Hullman, and Enrico Bertini. 2020. Human factors in model interpretability: Industry practices, challenges, and needs. Proceedings of the ACM on Human-Computer Interaction 4, CSCW1(2020), 1\u201326.",
+      "doi": "10.1145/3392878"
+    },
+    {
+      "text": "Hilary Hutchinson, Wendy Mackay, Bo Westerlund, Benjamin\u00a0B Bederson, Allison Druin, Catherine Plaisant, Michel Beaudouin-Lafon, St\u00e9phane Conversy, Helen Evans, Heiko Hansen, 2003. Technology probes: inspiring design for and with families. In Proceedings of the SIGCHI conference on Human factors in computing systems. 17\u201324.",
+      "doi": "10.1145/642611.642616"
+    },
+    {
+      "text": "Sarah Inman and David Ribes. 2019. \" Beautiful Seams\" Strategic Revelations and Concealments. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3290605.3300508"
+    },
+    {
+      "text": "Harmanpreet Kaur, Eytan Adar, Eric Gilbert, and Cliff Lampe. 2022. Sensible AI: Re-imagining Interpretability and Explainability using Sensemaking Theory. arXiv preprint arXiv:2205.05057(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Harmanpreet Kaur, Harsha Nori, Samuel Jenkins, Rich Caruana, Hanna Wallach, and Jennifer Wortman\u00a0Vaughan. 2020. Interpreting Interpretability: Understanding Data Scientists\u2019 Use of Interpretability Tools for Machine Learning. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376219"
+    },
+    {
+      "text": "Claire Kayacik, Sherol Chen, Signe Noerly, Jess Holbrook, Adam Roberts, and Douglas Eck. 2019. Identifying the intersections: User experience+ research scientist collaboration in a generative machine learning interface. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u20138.",
+      "doi": "10.1145/3290607.3299059"
+    },
+    {
+      "text": "Frank\u00a0C Keil. 2006. Explanation and understanding. Annu. Rev. Psychol. 57(2006), 227\u2013254.",
+      "doi": ""
+    },
+    {
+      "text": "Huan\u00a0Yee Koh, Jiaxin Ju, Ming Liu, and Shirui Pan. 2022. An Empirical Survey on Long Document Summarization: Datasets, Models and Metrics. ACM Journal of the ACM (JACM)(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Mina Lee, Percy Liang, and Qian Yang. 2022. Coauthor: Designing a human-ai collaborative writing dataset for exploring language model capabilities. In CHI Conference on Human Factors in Computing Systems. 1\u201319.",
+      "doi": "10.1145/3491102.3502030"
+    },
+    {
+      "text": "Q\u00a0Vera Liao, Daniel Gruen, and Sarah Miller. 2020. Questioning the AI: informing design practices for explainable AI user experiences. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3313831.3376590"
+    },
+    {
+      "text": "Q\u00a0Vera Liao, Milena Pribi\u0107, Jaesik Han, Sarah Miller, and Daby Sow. 2021. Question-driven design process for explainable ai user experiences. arXiv preprint arXiv:2104.03483(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Q\u00a0Vera Liao and Kush\u00a0R Varshney. 2021. Human-Centered Explainable AI (XAI): From Algorithms to User Experiences. arXiv preprint arXiv:2110.10790(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Q\u00a0Vera Liao, Yunfeng Zhang, Ronny Luss, Finale Doshi-Velez, and Amit Dhurandhar. 2022. Connecting Algorithmic Research and Usage Contexts: A Perspective of Contextualized Evaluation for Explainable AI. In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing, Vol.\u00a010. 147\u2013159.",
+      "doi": ""
+    },
+    {
+      "text": "Zachary\u00a0C Lipton. 2018. The Mythos of Model Interpretability: In machine learning, the concept of interpretability is both important and slippery.Queue 16, 3 (2018), 31\u201357.",
+      "doi": "10.1145/3236386.3241340"
+    },
+    {
+      "text": "Tania Lombrozo. 2006. The structure and function of explanations. Trends in cognitive sciences 10, 10 (2006), 464\u2013470.",
+      "doi": ""
+    },
+    {
+      "text": "Tania Lombrozo. 2012. Explanation and abductive inference.(2012).",
+      "doi": ""
+    },
+    {
+      "text": "Jiahao Lu, Alejandra\u00a0Gomez Ortega, Milene Gon\u00e7alves, and Jacky Bourgeois. 2021. The Impact of Data on the Role of Designers and their Process. Proceedings of the Design Society 1 (2021), 3021\u20133030.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Madaio, Lisa Egede, Hariharan Subramonyam, Jennifer Wortman\u00a0Vaughan, and Hanna Wallach. 2022. Assessing the Fairness of AI Systems: AI Practitioners\u2019 Processes, Challenges, and Needs for Support. Proceedings of the ACM on Human-Computer Interaction 6, CSCW1(2022).",
+      "doi": "10.1145/3512899"
+    },
+    {
+      "text": "Michael\u00a0A Madaio, Luke Stark, Jennifer Wortman\u00a0Vaughan, and Hanna Wallach. 2020. Co-designing checklists to understand organizational challenges and opportunities around fairness in AI. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376445"
+    },
+    {
+      "text": "Nirav Malsattar, Tomo Kihara, and Elisa Giaccardi. 2019. Designing and Prototyping from the Perspective of AI in the Wild. In Proceedings of the 2019 on Designing Interactive Systems Conference. 1083\u20131088.",
+      "doi": "10.1145/3322276.3322351"
+    },
+    {
+      "text": "Tim Miller. 2019. Explanation in artificial intelligence: Insights from the social sciences. Artificial intelligence 267 (2019), 1\u201338.",
+      "doi": ""
+    },
+    {
+      "text": "Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa\u00a0Deborah Raji, and Timnit Gebru. 2019. Model cards for model reporting. In Proceedings of the conference on fairness, accountability, and transparency. 220\u2013229.",
+      "doi": "10.1145/3287560.3287596"
+    },
+    {
+      "text": "Hyanghee Park, Daehwan Ahn, Kartik Hosanagar, and Joonhwan Lee. 2022. Designing Fair AI in Human Resource Management: Understanding Tensions Surrounding Algorithmic Evaluation and Envisioning Stakeholder-Centered Solutions. In CHI Conference on Human Factors in Computing Systems. 1\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Partnership on AI. 2021. ABOUT ML Reference Document. Technical Report. https://partnershiponai.org/paper/about-ml-reference-document/.",
+      "doi": ""
+    },
+    {
+      "text": "Inioluwa\u00a0Deborah Raji, Andrew Smart, Rebecca\u00a0N White, Margaret Mitchell, Timnit Gebru, Ben Hutchinson, Jamila Smith-Loud, Daniel Theron, and Parker Barnes. 2020. Closing the AI accountability gap: Defining an end-to-end framework for internal algorithmic auditing. In Proceedings of the 2020 conference on fairness, accountability, and transparency. 33\u201344.",
+      "doi": "10.1145/3351095.3372873"
+    },
+    {
+      "text": "Bogdana Rakova, Jingying Yang, Henriette Cramer, and Rumman Chowdhury. 2021. Where responsible AI meets reality: Practitioner perspectives on enablers for shifting organizational practices. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201323.",
+      "doi": "10.1145/3449081"
+    },
+    {
+      "text": "Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, and Ilya Sutskever. 2021. Zero-shot text-to-image generation. In International Conference on Machine Learning. PMLR, 8821\u20138831.",
+      "doi": ""
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Tongshuang Wu, Carlos Guestrin, and Sameer Singh. 2020. Beyond Accuracy: Behavioral Testing of NLP Models with CheckList. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. 4902\u20134912.",
+      "doi": ""
+    },
+    {
+      "text": "Erica Robles and Mikael Wiberg. 2010. Texturing the\" material turn\" in interaction design. In Proceedings of the fourth international conference on Tangible, embedded, and embodied interaction. 137\u2013144.",
+      "doi": "10.1145/1709886.1709911"
+    },
+    {
+      "text": "Reijo Savolainen. 1993. The sense-making theory: Reviewing the interests of a user-centered approach to information seeking and use. Information processing & management 29, 1 (1993), 13\u201328.",
+      "doi": ""
+    },
+    {
+      "text": "Donald Schon and John Bennett. 1996. Reflective Conversation with Materials in Bringing Design to Software, Winograd T.",
+      "doi": ""
+    },
+    {
+      "text": "Ben Shneiderman. 2021. Responsible AI: Bridging from ethics to practice. Commun. ACM 64, 8 (2021), 32\u201335.",
+      "doi": "10.1145/3445973"
+    },
+    {
+      "text": "Mona Sloane, Emanuel Moss, Olaitan Awomolo, and Laura Forlano. 2020. Participation is not a design fix for machine learning. arXiv preprint arXiv:2007.02423(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Hariharan Subramonyam, Jane Im, Colleen Seifert, and Eytan Adar. 2022. Solving Separation-of-Concerns Problems in Collaborative Design of Human-AI Systems through Leaky Abstractions. In CHI Conference on Human Factors in Computing Systems. 1\u201321.",
+      "doi": "10.1145/3491102.3517537"
+    },
+    {
+      "text": "Hariharan Subramonyam, Colleen Seifert, and Eytan Adar. 2021. ProtoAI: Model-Informed Prototyping for AI-Powered Interfaces. In 26th International Conference on Intelligent User Interfaces. 48\u201358.",
+      "doi": ""
+    },
+    {
+      "text": "Hariharan Subramonyam, Colleen Seifert, and Eytan Adar. 2021. Towards a process model for co-creating AI experiences. In Designing Interactive Systems Conference 2021. 1529\u20131543.",
+      "doi": ""
+    },
+    {
+      "text": "Harini Suresh, Steven\u00a0R Gomez, Kevin\u00a0K Nam, and Arvind Satyanarayan. 2021. Beyond expertise and roles: A framework to characterize the stakeholders of interpretable machine learning and their needs. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3411764.3445088"
+    },
+    {
+      "text": "Laura Weidinger, Jonathan Uesato, Maribeth Rauh, Conor Griffin, Po-Sen Huang, John Mellor, Amelia Glaese, Myra Cheng, Borja Balle, Atoosa Kasirzadeh, 2022. Taxonomy of risks posed by language models. In 2022 ACM Conference on Fairness, Accountability, and Transparency. 214\u2013229.",
+      "doi": "10.1145/3531146.3533088"
+    },
+    {
+      "text": "Maximiliane Windl, Sebastian\u00a0S Feger, Lara Zijlstra, Albrecht Schmidt, and Pawel\u00a0W Wozniak. 2022. \u2018It Is Not Always Discovery Time\u2019: Four Pragmatic Approaches in Designing AI Systems. In CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3491102.3501943"
+    },
+    {
+      "text": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, R\u00e9mi Louf, Morgan Funtowicz, 2019. Huggingface\u2019s transformers: State-of-the-art natural language processing. arXiv preprint arXiv:1910.03771(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer Wortman\u00a0Vaughan and Hanna Wallach. 2021. A Human-Centered Agenda for Intelligible Machine Learning. In Machines We Trust: Perspectives on Dependable AI, Marcello Pelillo and Teresa Scantamburlo (Eds.). MIT Press.",
+      "doi": ""
+    },
+    {
+      "text": "Tongshuang Wu, Marco\u00a0Tulio Ribeiro, Jeffrey Heer, and Daniel\u00a0S Weld. 2019. Errudite: Scalable, reproducible, and testable error analysis. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. 747\u2013763.",
+      "doi": ""
+    },
+    {
+      "text": "Divakar Yadav, Jalpa Desai, and Arun\u00a0Kumar Yadav. 2022. Automatic Text Summarization Methods: A Comprehensive Review. arXiv preprint arXiv:2204.01849(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Qian Yang. 2018. Machine learning as a UX design material: how can we imagine beyond automation, recommenders, and reminders?. In AAAI Spring Symposia.",
+      "doi": ""
+    },
+    {
+      "text": "Qian Yang, Justin Cranshaw, Saleema Amershi, Shamsi\u00a0T Iqbal, and Jaime Teevan. 2019. Sketching nlp: A case study of exploring the right things to design with language intelligence. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300415"
+    },
+    {
+      "text": "Qian Yang, Alex Scuito, John Zimmerman, Jodi Forlizzi, and Aaron Steinfeld. 2018. Investigating how experienced UX designers effectively work with machine learning. In Proceedings of the 2018 designing interactive systems conference. 585\u2013596.",
+      "doi": "10.1145/3196709.3196730"
+    },
+    {
+      "text": "Qian Yang, Aaron Steinfeld, Carolyn Ros\u00e9, and John Zimmerman. 2020. Re-examining whether, why, and how human-AI interaction is uniquely difficult to design. In Proceedings of the 2020 chi conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376301"
+    },
+    {
+      "text": "Nur Yildirim, Alex Kass, Teresa Tung, Connor Upton, Donnacha Costello, Robert Giusti, Sinem Lacin, Sara Lovic, James\u00a0M O\u2019Neill, Rudi\u00a0O\u2019Reilly Meehan, 2022. How Experienced Designers of Enterprise Applications Engage AI as a Design Material. In CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3491102.3517491"
+    },
+    {
+      "text": "Bowen Yu, Ye Yuan, Loren Terveen, Zhiwei\u00a0Steven Wu, Jodi Forlizzi, and Haiyi Zhu. 2020. Keeping designers in the loop: Communicating inherent algorithmic trade-offs across multiple objectives. In Proceedings of the 2020 ACM designing interactive systems conference. 1245\u20131257.",
+      "doi": "10.1145/3357236.3395528"
+    },
+    {
+      "text": "Sabah Zdanowska and Alex\u00a0S Taylor. 2022. A study of UX practitioners roles in designing real-world, enterprise ML systems. In CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3491102.3517607"
+    }
+  ]
+}

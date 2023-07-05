@@ -1,0 +1,463 @@
+{
+  "doi": "10.1145/3491102.3517550",
+  "title": "ReLive: Bridging In-Situ and Ex-Situ Visual Analytics for Analyzing Mixed Reality User Studies",
+  "published": "2022-04-28",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2022,
+  "badges": [],
+  "abstract": "The nascent field of mixed reality is seeing an ever-increasing need for user studies and field evaluation, which are particularly challenging given device heterogeneity, diversity of use, and mobile deployment. Immersive analytics tools have recently emerged to support such analysis in situ, yet the complexity of the data also warrants an ex-situ analysis using more traditional non-immersive visual analytics setups. To bridge the gap between both approaches, we introduce ReLive: a mixed-immersion visual analytics framework for exploring and analyzing mixed reality user studies. ReLive combines an in-situ virtual reality view with a complementary ex-situ desktop view. While the virtual reality view allows users to relive interactive spatial recordings replicating the original study, the synchronized desktop view provides a familiar interface for analyzing aggregated data. We validated our concepts in a two-step evaluation consisting of a design walkthrough and an empirical expert user study.",
+  "authors": [
+    {
+      "name": "Sebastian Hubenschmid",
+      "institution": "HCI Group, University of Konstanz, Germany",
+      "img": "/do/10.1145/contrib-99659261924/rel-imgonly/hubenschmid2021_c2.jpg",
+      "acmid": "99659261924",
+      "orcid": "0000-0002-8704-8503"
+    },
+    {
+      "name": "Jonathan Wieland",
+      "institution": "HCI Group, University of Konstanz, Germany",
+      "img": "/do/10.1145/contrib-99659331997/rel-imgonly/csm_jonathanwieland_01_a294ff6a51__1_.jpg",
+      "acmid": "99659331997",
+      "orcid": "missing"
+    },
+    {
+      "name": "Daniel Immanuel Fink",
+      "institution": "HCI Group, University of Konstanz, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659160167",
+      "orcid": "missing"
+    },
+    {
+      "name": "Andrea Batch",
+      "institution": "College of Information Studies, University of Maryland, College Park, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528248",
+      "orcid": "0000-0002-7450-9542"
+    },
+    {
+      "name": "Johannes Zagermann",
+      "institution": "HCI Group, University of Konstanz, Germany",
+      "img": "/do/10.1145/contrib-99659020601/rel-imgonly/99659020601.jpg",
+      "acmid": "99659020601",
+      "orcid": "0000-0002-6757-9753"
+    },
+    {
+      "name": "Niklas Elmqvist",
+      "institution": "College of Information Studies, University of Maryland, College Park, United States",
+      "img": "/do/10.1145/contrib-81100015408/rel-imgonly/niklas_elmqvist_-_2019.jpg",
+      "acmid": "81100015408",
+      "orcid": "0000-0001-5805-5301"
+    },
+    {
+      "name": "Harald Reiterer",
+      "institution": "HCI Group, University of Konstanz, Germany",
+      "img": "/do/10.1145/contrib-81100236830/rel-imgonly/reiterer_2021.jpeg",
+      "acmid": "81100236830",
+      "orcid": "0000-0001-8528-8928"
+    }
+  ],
+  "references": [
+    {
+      "text": "Marcus F.\u00a0C. Alencar, Alberto\u00a0B. Raposo, and Simone D.\u00a0J. Barbosa. 2011. Composition of HCI Evaluation Methods for Hybrid Virtual Environments. In Proceedings of the ACM Symposium on Applied Computing. ACM, New York, NY, USA, 1237\u20131244. https://doi.org/10.1145/1982185.1982457",
+      "doi": ""
+    },
+    {
+      "text": "Sriram\u00a0Karthik Badam, Andreas Mathisen, Roman R\u00e4dle, Clemens\u00a0N. Klokmose, and Niklas Elmqvist. 2019. Vistrates: A Component Model for Ubiquitous Analytics. IEEE Transactions on Visualization and Computer Graphics 25, 1 (Jan. 2019), 586\u2013596. https://doi.org/10.1109/TVCG.2018.2865144",
+      "doi": "10.1109/TVCG.2018.2865144"
+    },
+    {
+      "text": "Aaron Bangor, Philip Kortum, and James Miller. 2009. Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale. J. Usability Studies 4, 3 (May 2009), 114\u2013123.",
+      "doi": "10.5555/2835587.2835589"
+    },
+    {
+      "text": "Andrea Batch, Andrew Cunningham, Maxime Cordeil, Niklas Elmqvist, Tim Dwyer, Bruce\u00a0H. Thomas, and Kim Marriott. 2020. There Is No Spoon: Evaluating Performance, Space Use, and Presence with Expert Domain Users in Immersive Analytics. IEEE Transactions on Visualization and Computer Graphics 26, 1 (Jan. 2020), 536\u2013546. https://doi.org/10.1109/TVCG.2019.2934803",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Batch, Biswaksen Patnaik, Moses Akazue, and Niklas Elmqvist. 2020. Scents and Sensibility: Evaluating Information Olfactation. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376733",
+      "doi": "10.1145/3313831.3376733"
+    },
+    {
+      "text": "Martin Bellgardt, Sebastian Pick, Daniel Zielasko, Tom Vierjahn, Benjamin Weyers, and Torsten\u00a0W. Kuhlen. 2017. Utilizing Immersive Virtual Reality in Everydaywork. In 2017 IEEE 3rd Workshop on Everyday Virtual Reality (WEVR). 1\u20134. https://doi.org/10.1109/WEVR.2017.7957708",
+      "doi": ""
+    },
+    {
+      "text": "Joanna Bergstr\u00f6m, Tor-Salve Dalsgaard, Jason Alexander, and Kasper Hornb\u00e6k. 2021. How to Evaluate Object Selection and Manipulation in VR? Guidelines from 20 Years of Studies. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems(CHI \u201921). Association for Computing Machinery, New York, NY, USA, 1\u201320. https://doi.org/10.1145/3411764.3445193",
+      "doi": "10.1145/3411764.3445193"
+    },
+    {
+      "text": "Christopher Berns, Grace Chin, Joel Savitz, Jason Kiesling, and Fred Martin. 2019. MYR: A Web-Based Platform for Teaching Coding Using VR. In Proceedings of the ACM Symposium on Computer Science Education. ACM, New York, NY, USA, 77\u201383. https://doi.org/10.1145/3287324.3287482",
+      "doi": "10.1145/3287324.3287482"
+    },
+    {
+      "text": "Verena Biener, Daniel Schneider, Travis Gesslein, Alexander Otte, Bastian Kuth, Per\u00a0Ola Kristensson, Eyal Ofek, Michel Pahud, and Jens Grubert. 2020. Breaking the Screen: Interaction Across Touchscreen Boundaries in Virtual Reality for Mobile Knowledge Workers. IEEE Transactions on Visualization and Computer Graphics PP (Aug. 2020), 14\u00a0pages. https://doi.org/10.1109/TVCG.2020.3023567",
+      "doi": ""
+    },
+    {
+      "text": "M. Billinghurst, H. Kato, and I. Poupyrev. 2001. The MagicBook - Moving Seamlessly between Reality and Virtuality. IEEE Computer Graphics and Applications 21, 3 (May 2001), 6\u20138. https://doi.org/10.1109/38.920621",
+      "doi": "10.5555/616070.618818"
+    },
+    {
+      "text": "Marcel Borowski, Roman R\u00e4dle, and Clemens\u00a0N. Klokmose. 2018. Codestrate Packages: An Alternative to \u201dOne-Size-Fits-All\u201d Software. In Extended Abstracts of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3170427.3188563",
+      "doi": "10.1145/3170427.3188563"
+    },
+    {
+      "text": "Marcel Borowski, Johannes Zagermann, Clemens\u00a0N. Klokmose, Harald Reiterer, and Roman R\u00e4dle. 2020. Exploring the Benefits and Barriers of Using Computational Notebooks for Collaborative Programming Assignments. In Proceedings of the 51st ACM Technical Symposium on Computer Science Education. ACM, Portland OR USA, 468\u2013474. https://doi.org/10.1145/3328778.3366887",
+      "doi": "10.1145/3328778.3366887"
+    },
+    {
+      "text": "Michael Bostock, Vadim Ogievetsky, and Jeffrey Heer. 2011. D3: Data-Driven Documents. IEEE Transactions on Visualization and Computer Graphics 17, 12(2011), 2301\u20132309. https://doi.org/10.1109/TVCG.2011.185",
+      "doi": "10.1109/TVCG.2011.185"
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative Research in Psychology 3, 2 (2006), 77\u2013101. https://doi.org/10.1191/1478088706qp063oa",
+      "doi": "10.1191/1478088706"
+    },
+    {
+      "text": "John Brooke. 1995. SUS: A quick and dirty usability scale. Usability Eval. Ind. 189 (11 1995).",
+      "doi": ""
+    },
+    {
+      "text": "Frederik Brudy, Christian Holz, Roman R\u00e4dle, Chi-Jui Wu, Steven Houben, Clemens\u00a0Nylandsted Klokmose, and Nicolai Marquardt. 2019. Cross-Device Taxonomy: Survey, Opportunities and Challenges of Interactions Spanning Across Multiple Devices. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201328. https://doi.org/10.1145/3290605.3300792",
+      "doi": "10.1145/3290605.3300792"
+    },
+    {
+      "text": "Frederik Brudy, Suppachai Suwanwatcharachat, Wenyu Zhang, Steven Houben, and Nicolai Marquardt. 2018. EagleView: A Video Analysis Tool for Visualising and Querying Spatial Interactions of People and Devices. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 61\u201372. https://doi.org/10.1145/3279778.3279795",
+      "doi": "10.1145/3279778.3279795"
+    },
+    {
+      "text": "Bernhard Br\u00fcning, Christian Schnier, Karola Pitsch, and Sven Wachsmuth. 2012. Integrating PAMOCAT in the Research Cycle: Linking Motion Capturing and Conversation Analysis. In Proceedings of the ACM Conference on Multimodal Interaction. ACM, New York, NY, USA, 201\u2013208. https://doi.org/10.1145/2388676.2388716",
+      "doi": "10.1145/2388676.2388716"
+    },
+    {
+      "text": "Wolfgang B\u00fcschel, Anke Lehmann, and Raimund Dachselt. 2021. MIRIA: A Mixed Reality Toolkit for the In-Situ Visualization and Analysis of Spatio-Temporal Interaction Data. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3411764.3445651",
+      "doi": "10.1145/3411764.3445651"
+    },
+    {
+      "text": "Wolfgang B\u00fcschel, Annett Mitschick, Thomas Meyer, and Raimund Dachselt. 2019. Investigating Smartphone-Based Pan and Zoom in 3D Data Spaces in Augmented Reality. In Proceedings of the ACM Conference on Human-Computer Interaction with Mobile Devices and Services. ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3338286.3340113",
+      "doi": "10.1145/3338286.3340113"
+    },
+    {
+      "text": "Wolfgang B\u00fcschel, Patrick Reipschl\u00e4ger, Ricardo Langner, and Raimund Dachselt. 2017. Investigating the Use of Spatial Interaction for 3D Data Visualization on Mobile Devices. In Proceedings of the ACM Conference on Interactive Surfaces and Spaces. ACM, New York, NY, USA, 62\u201371. https://doi.org/10.1145/3132272.3134125",
+      "doi": "10.1145/3132272.3134125"
+    },
+    {
+      "text": "Simon Butscher, Sebastian Hubenschmid, Jens M\u00fcller, Johannes Fuchs, and Harald Reiterer. 2018. Clusters, Trends, and Outliers: How Immersive Technologies Can Facilitate the Collaborative Analysis of Multidimensional Data. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173664",
+      "doi": "10.1145/3173574.3173664"
+    },
+    {
+      "text": "Felipe\u00a0G. Carvalho, Daniela\u00a0G. Trevisan, and Alberto Raposo. 2012. Toward the Design of Transitional Interfaces: An Exploratory Study on a Semi-Immersive Hybrid User Interface. Virtual Reality 16, 4 (Nov. 2012), 271\u2013288. https://doi.org/10.1007/s10055-011-0205-y",
+      "doi": "10.1007/s10055-011-0205-y"
+    },
+    {
+      "text": "Marco Cavallo, Mishal Dholakia, Matous Havlena, Kenneth Ocheltree, and Mark Podlaseck. 2019. Dataspace: A Reconfigurable Hybrid Reality Environment for Collaborative Information Analysis. In Proceedings of the IEEE Conference on Virtual Reality and 3D User Interfaces. IEEE, Piscataway, NJ, USA, 145\u2013153. https://doi.org/10.1109/VR.2019.8797733",
+      "doi": ""
+    },
+    {
+      "text": "Marco Cavallo, Mishal Dolakia, Matous Havlena, Kenneth Ocheltree, and Mark Podlaseck. 2019. Immersive Insights: A Hybrid Analytics System for Collaborative Exploratory Data Analysis. In Proceedings of the ACM Symposium on Virtual Reality Software and Technology. ACM, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3359996.3364242",
+      "doi": "10.1145/3359996.3364242"
+    },
+    {
+      "text": "Henry Chen, Austin\u00a0S. Lee, Mark Swift, and John\u00a0C. Tang. 2015. 3D Collaboration Method over HoloLens\u2122 and Skype\u2122 End Points. In Proceedings of the International Workshop on Immersive Media Experiences. ACM, New York, NY, USA, 27\u201330. https://doi.org/10.1145/2814347.2814350",
+      "doi": "10.1145/2814347.2814350"
+    },
+    {
+      "text": "L. Chittaro, R. Ranon, and L. Ieronutti. 2006. VU-Flow: A Visualization Tool for Analyzing Navigation in Virtual Environments. IEEE Transactions on Visualization and Computer Graphics 12, 6 (Nov 2006), 1475\u20131485. https://doi.org/10.1109/TVCG.2006.109",
+      "doi": "10.1109/TVCG.2006.109"
+    },
+    {
+      "text": "Philip DeCamp, George Shaw, Rony Kubat, and Deb Roy. 2010. An Immersive System for Browsing and Visualizing Surveillance Video. In Proceedings of the ACM Conference on Multimedia. ACM, New York, NY, USA, 371\u2013380. https://doi.org/10.1145/1873951.1874002",
+      "doi": "10.1145/1873951.1874002"
+    },
+    {
+      "text": "Tobias Drey, Jan Gugenheimer, Julian Karlbauer, Maximilian Milo, and Enrico Rukzio. 2020. VRSketchIn: Exploring the Design Space of Pen and Tablet Interaction for 3D Sketching in Virtual Reality. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376628",
+      "doi": "10.1145/3313831.3376628"
+    },
+    {
+      "text": "Barrett Ens, Benjamin Bach, Maxime Cordeil, Ulrich Engelke, Marcos Serrano, Wesley Willett, Arnaud Prouzeau, Christoph Anthes, Wolfgang B\u00fcschel, Cody Dunne, Tim Dwyer, Jens Grubert, Jason\u00a0H. Haga, Nurit Kirshenbaum, Dylan Kobayashi, Tica Lin, Monsurat Olaosebikan, Fabian Pointecker, David Saffo, Nazmus Saquib, Dieter Schmalstieg, Danielle\u00a0Albers Szafir, Matt Whitlock, and Yalong Yang. 2021. Grand Challenges in Immersive Analytics. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201317. https://doi.org/10.1145/3411764.3446866",
+      "doi": "10.1145/3411764.3446866"
+    },
+    {
+      "text": "Jo\u00e3o\u00a0Marcelo Evangelista\u00a0Belo, Anna\u00a0Maria Feit, Tiare Feuchtner, and Kaj Gr\u00f8nb\u00e6k. 2021. XRgonomics: Facilitating the Creation of Ergonomic 3D Interfaces. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3411764.3445349",
+      "doi": "10.1145/3411764.3445349"
+    },
+    {
+      "text": "Alessandro Febretti, Arthur Nishimoto, Terrance Thigpen, Jonas Talandis, Lance Long, J.\u00a0D. Pirtle, Tom Peterka, Alan Verlo, Maxine Brown, Dana Plepys, Dan Sandin, Luc Renambot, Andrew Johnson, and Jason Leigh. 2013. {CAVE}2: A Hybrid Reality Environment for Immersive Simulation and Information Analysis. In The Engineering Reality of Virtual Reality 2013. SPIE, Bellingham, WA, USA, 864903. https://doi.org/10.1117/12.2005484",
+      "doi": ""
+    },
+    {
+      "text": "Steven Feiner and Ari Shamash. 1991. Hybrid User Interfaces: Breeding Virtually Bigger Interfaces for Physically Smaller Computers. In Proceedings of the ACM Symposium on User Interface Software and Technology. ACM, New York, NY, USA, 9\u201317. https://doi.org/10.1145/120782.120783",
+      "doi": "10.1145/120782.120783"
+    },
+    {
+      "text": "Philipp Fleck, Fernando\u00a0Reyes Aviles, Christian Pirchheim, Clemens Arth, and Dieter Schmalstieg. 2020. MAUI: Tele-Assistance for Maintenance of Cyber-Physical Systems. In Proceedings of the International Conference on Computer Vision Theory and Applications. SciTePress, Set\u00fabal, Portugal. https://doi.org/10.5220/0009093708000812",
+      "doi": ""
+    },
+    {
+      "text": "Florian \u2019Floyd\u2019\u00a0Mueller, Tim Dwyer, Sarah Goodwin, Kim Marriott, Jialin Deng, Han D.\u00a0Phan, Jionghao Lin, Kun-Ting Chen, Yan Wang, and Rohit Ashok\u00a0Khot. 2021. Data as Delight: Eating Data. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, Article 621, 14\u00a0pages. https://doi.org/10.1145/3411764.3445218",
+      "doi": "10.1145/3411764.3445218"
+    },
+    {
+      "text": "R Foundation. 2021. R Project for Statistical Computing. Retrieved August 31, 2021 from https://www.r-project.org/",
+      "doi": ""
+    },
+    {
+      "text": "Epic Games. 2021. Unreal Engine \u2013 The Most Powerful Real-Time 3D Creation Platform. https://www.unrealengine.com/en-US/.",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2021. Colaboratory. Retrieved August 31, 2021 from https://colab.research.google.com",
+      "doi": ""
+    },
+    {
+      "text": "Raphael Grasset, Julian Looser, and Mark Billinghurst. 2006. Transitional Interface: Concept, Issues and Framework. In 2006 IEEE/ACM International Symposium on Mixed and Augmented Reality. 231\u2013232. https://doi.org/10.1109/ISMAR.2006.297819",
+      "doi": ""
+    },
+    {
+      "text": "Jens Grubert, Matthias Kranz, and Aaron Quigley. 2016. Challenges in Mobile Multi-Device Ecosystems. mUX: The Journal of Mobile User Experience 5, 1 (Dec. 2016). https://doi.org/10.1186/s13678-016-0007-y",
+      "doi": ""
+    },
+    {
+      "text": "R. Hartson and P. Pyla. 2018. The UX Book: Agile UX Design for a Quality User Experience. Elsevier Science. https://books.google.de/books?id=Pp5RjgEACAAJ",
+      "doi": ""
+    },
+    {
+      "text": "Juan\u00a0David Hincapi\u00e9-Ramos, Xiang Guo, Paymahn Moghadasian, and Pourang Irani. 2014. Consumed Endurance: A Metric to Quantify Arm Fatigue of Mid-Air Interactions. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201914). Association for Computing Machinery, Toronto, Ontario, Canada, 1063\u20131072. https://doi.org/10.1145/2556288.2557130",
+      "doi": "10.1145/2556288.2557130"
+    },
+    {
+      "text": "Steven Houben, Nicolai Marquardt, Jo Vermeulen, Clemens Klokmose, Johannes Sch\u00f6ning, Harald Reiterer, and Christian Holz. 2017. Opportunities and Challenges for Cross-Device Interactions in the Wild. Interactions 24, 5 (Aug. 2017), 58\u201363. https://doi.org/10.1145/3121348",
+      "doi": "10.1145/3121348"
+    },
+    {
+      "text": "Sebastian Hubenschmid, Johannes Zagermann, Simon Butscher, and Harald Reiterer. 2021. STREAM: Exploring the Combination of Spatially-Aware Tablets with Augmented Reality Head-Mounted Displays for Immersive Analytics. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3411764.3445298",
+      "doi": "10.1145/3411764.3445298"
+    },
+    {
+      "text": "Sebastian Hubenschmid, Johannes Zagermann, Daniel Fink, Jonathan Wieland, Tiare Feuchtner, and Harald Reiterer. 2021. Towards Asynchronous Hybrid User Interfaces for Cross-Reality Interaction. In ISS\u201921 Workshop Proceedings: \u201dTransitional Interfaces in Mixed and Cross-Reality: A New Frontier?\u201d, Hans-Christian Jetter, Jan-Henrik Schr\u00f6der, Jan Gugenheimer, Mark Billinghurst, Christoph Anthes, Mohamed Khamis, and Tiare Feuchtner (Eds.). https://doi.org/10.18148/kops/352-2-84mm0sggczq02",
+      "doi": ""
+    },
+    {
+      "text": "TIBCO\u00a0Software Inc.2021. TIBCO Spotfire\u00ae. https://www.tibco.com/products/tibco-spotfire.",
+      "doi": ""
+    },
+    {
+      "text": "Hans-Christian Jetter, Roman R\u00e4dle, Tiare Feuchtner, Christoph Anthes, Judith Friedl, and Clemens\u00a0Nylandsted Klokmose. 2020. \u201dIn VR, Everything Is Possible!\u201d: Sketching and Simulating Spatially-Aware Interactive Spaces in Virtual Reality. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201316. https://doi.org/10.1145/3313831.3376652",
+      "doi": "10.1145/3313831.3376652"
+    },
+    {
+      "text": "Daniel\u00a0A. Keim. Jan.-March/2002. Information Visualization and Visual Data Mining. IEEE Transactions on Visualization and Computer Graphics 8, 1(Jan.-March/2002), 1\u20138. https://doi.org/10.1109/2945.981847",
+      "doi": "10.1109/2945.981847"
+    },
+    {
+      "text": "Robert\u00a0S. Kennedy, Norman\u00a0E. Lane, Kevin\u00a0S. Berbaum, and Michael\u00a0G. Lilienthal. 1993. Simulator Sickness Questionnaire: An Enhanced Method for Quantifying Simulator Sickness. The International Journal of Aviation Psychology 3, 3 (July 1993), 203\u2013220. https://doi.org/10.1207/s15327108ijap0303_3",
+      "doi": ""
+    },
+    {
+      "text": "Karsten Klein, Michael Aichem, Ying Zhang, Stefan Erk, Bj\u00f6rn Sommer, and Falk Schreiber. 2021. TEAMwISE: Synchronised Immersive Environments for Exploration and Analysis of Animal Behaviour. Journal of Visualization 24, 4 (Aug. 2021), 845\u2013859. https://doi.org/10.1007/s12650-021-00746-2",
+      "doi": "10.1007/s12650-021-00746-2"
+    },
+    {
+      "text": "Simon Kloiber, Volker Settgast, Christoph Schinko, Martin Weinzerl, Johannes Fritz, Tobias Schreck, and Reinhold Preiner. 2020. Immersive Analysis of User Motion in VR Applications. The Visual Computer 36, 10-12 (Oct. 2020), 1937\u20131949. https://doi.org/10.1007/s00371-020-01942-1",
+      "doi": "10.1007/s00371-020-01942-1"
+    },
+    {
+      "text": "Clemens\u00a0N. Klokmose, Christian Remy, Janus\u00a0Bager Kristensen, Rolf Bagge, Michel Beaudouin-Lafon, and Wendy Mackay. 2019. Videostrates: Collaborative, Distributed and Programmable Video Manipulation. In Proceedings of the ACM Symposium on User Interface Software and Technology. ACM, New York, NY, USA, 233\u2013247. https://doi.org/10.1145/3332165.3347912",
+      "doi": "10.1145/3332165.3347912"
+    },
+    {
+      "text": "Pascal Knierim, Dimitri Hein, Albrecht Schmidt, and Thomas Kosch. 2021. The SmARtphone Controller. i-com 20, 1 (2021), 49\u201361. https://doi.org/doi:10.1515/icom-2021-0003",
+      "doi": ""
+    },
+    {
+      "text": "Matthias Kraus, Katrin Angerbauer, Juri Buchm\u00fcller, Daniel Schweitzer, Daniel\u00a0A. Keim, Michael Sedlmair, and Johannes Fuchs. 2020. Assessing 2D and 3D Heatmaps for Comparative Analysis: An Empirical Study. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376675",
+      "doi": "10.1145/3313831.3376675"
+    },
+    {
+      "text": "M. Kraus, N. Weiler, D. Oelke, J. Kehrer, D.\u00a0A. Keim, and J. Fuchs. 2019. The Impact of Immersion on Cluster Identification Tasks. IEEE Transactions on Visualization and Computer Graphics (2019), 1\u20131. https://doi.org/10.1109/TVCG.2019.2934395",
+      "doi": ""
+    },
+    {
+      "text": "Ricardo Langner, Marc Satkowski, Wolfgang B\u00fcschel, and Raimund Dachselt. 2021. MARVIS: Combining Mobile Devices and Augmented Reality for Visual Data Analysis. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201317. https://doi.org/10.1145/3411764.3445593",
+      "doi": "10.1145/3411764.3445593"
+    },
+    {
+      "text": "B. Lee, D. Brown, B. Lee, C. Hurter, S. Drucker, and T. Dwyer. 2020. Data Visceralization: Enabling Deeper Understanding of Data Using Virtual Reality. IEEE Transactions on Visualization and Computer Graphics (2020), 1\u20131. https://doi.org/10.1109/TVCG.2020.3030435",
+      "doi": ""
+    },
+    {
+      "text": "Chi-Jung Lee and Hung-Kuo Chu. 2018. Dual-MR: Interaction with Mixed Reality Using Smartphones. In Proceedings of the ACM Symposium on Virtual Reality Software and Technology. ACM, New York, NY, USA, 1\u20132. https://doi.org/10.1145/3281505.3281618",
+      "doi": "10.1145/3281505.3281618"
+    },
+    {
+      "text": "Klemen Lilija, Henning Pohl, and Kasper Hornb\u00e6k. 2020. Who Put That There? Temporal Navigation of Spatial Recordings by Direct Manipulation. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3313831.3376604",
+      "doi": "10.1145/3313831.3376604"
+    },
+    {
+      "text": "Weizhou Luo, Eva Goebel, Patrick Reipschl\u00e4ger, Mats\u00a0Ole Ellenberg, and Raimund Dachselt. 2021. Exploring and Slicing Volumetric Medical Data in Augmented Reality Using a Spatially-Aware Mobile Device. In Adjunct Proceedings of thje IEEE International Symposium on Mixed and Augmented Reality Adjunct. IEEE, Piscataway, NJ, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Nicolai Marquardt, Frederico Schardong, and Anthony Tang. 2015. EXCITE: EXploring Collaborative Interaction in Tracked Environments. In Proceedings of IFIP Human-Computer Interaction. Springer International Publishing, Cham, Germany, 89\u201397.",
+      "doi": ""
+    },
+    {
+      "text": "Kim Marriott, Falk Schreiber, Tim Dwyer, Karsten Klein, Nathalie\u00a0Henry Riche, Takayuki Itoh, Wolfgang Stuerzlinger, and Bruce\u00a0H. Thomas (Eds.). 2018. Immersive Analytics. Number 11190 in Lecture Notes in Computer Science. Springer, Cham.",
+      "doi": ""
+    },
+    {
+      "text": "L. Merino, M. Schwarzl, M. Kraus, M. Sedlmair, D. Schmalstieg, and D. Weiskopf. 2020. Evaluating Mixed and Augmented Reality: A Systematic Literature Review (2009-2019). In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). 438\u2013451. https://doi.org/10.1109/ISMAR50242.2020.00069",
+      "doi": ""
+    },
+    {
+      "text": "Paul Milgram and Fumio Kishino. 1994. A Taxonomy of Mixed Reality Visual Displays. IEICE Transactions on Information and Systems 77, 12 (1994), 1321\u20131329.",
+      "doi": ""
+    },
+    {
+      "text": "K.Jarrod Millman and Fernando P\u00e9rez. 2018. Developing Open-Source Scientific Practice. In Implementing Reproducible Research(first ed.), Victoria Stodden, Friedrich Leisch, and Roger\u00a0D. Peng (Eds.). Chapman and Hall/CRC, 149\u2013183. https://doi.org/10.1201/9781315373461-6",
+      "doi": ""
+    },
+    {
+      "text": "Florian M\u00fcller, Martin Schmitz, Daniel Schmitt, Sebastian G\u00fcnther, Markus Funk, and Max M\u00fchlh\u00e4user. 2020. Walk The Line: Leveraging Lateral Shifts of the Walking Path as an Input Modality for Head-Mounted Displays. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu HI USA, 1\u201315. https://doi.org/10.1145/3313831.3376852",
+      "doi": "10.1145/3313831.3376852"
+    },
+    {
+      "text": "Jens M\u00fcller, Roman R\u00e4dle, and Harald Reiterer. 2017. Remote Collaboration With Mixed Reality Displays: How Shared Virtual Landmarks Facilitate Spatial Referencing. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 6481\u20136486. https://doi.org/10.1145/3025453.3025717",
+      "doi": "10.1145/3025453.3025717"
+    },
+    {
+      "text": "Jens M\u00fcller, Johannes Zagermann, Jonathan Wieland, Ulrike Pfeil, and Harald Reiterer. 2019. A Qualitative Comparison Between Augmented and Virtual Reality Collaboration with Handheld Devices. In Proceedings of Mensch Und Computer 2019 (Hamburg, Germany) (MuC\u201919). Association for Computing Machinery, New York, NY, USA, 399\u2013410. https://doi.org/10.1145/3340764.3340773",
+      "doi": "10.1145/3340764.3340773"
+    },
+    {
+      "text": "Michael Nebeling, Maximilian Speicher, Xizi Wang, Shwetha Rajaram, Brian\u00a0D Hall, Zijian Xie, Alexander R\u00a0E Raistrick, Michelle Aebersold, Edward\u00a0G Happ, Jiayin Wang, Yanan Sun, Lotus Zhang, Leah\u00a0E Ramsier, and Rhea Kulkarni. 2020. MRAT: The Mixed Reality Analytics Toolkit. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 12. https://doi.org/10.1145/3313831.3376330",
+      "doi": "10.1145/3313831.3376330"
+    },
+    {
+      "text": "Federica Pallavicini and Alessandro Pepe. 2019. Comparing Player Experience in Video Games Played in Virtual Reality or on Desktop Displays: Immersion, Flow, and Positive Emotions. In Extended Abstracts of the ACM Symposium on Computer-Human Interaction in Play. ACM, New York, NY, USA, 195\u2013210. https://doi.org/10.1145/3341215.3355736",
+      "doi": "10.1145/3341215.3355736"
+    },
+    {
+      "text": "Leonardo Pavanatto, Chris North, Doug\u00a0A. Bowman, Carmen Badea, and Richard Stoakley. 2021. Do We Still Need Physical Monitors? An Evaluation of the Usability of AR Virtual Monitors for Productivity Work. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR). IEEE, Lisboa, Portugal, 759\u2013767. https://doi.org/10.1109/VR50410.2021.00103",
+      "doi": ""
+    },
+    {
+      "text": "Fernando Perez and Brian\u00a0E. Granger. 2007. IPython: A System for Interactive Scientific Computing. Computing in Science Engineering 9, 3 (2007), 21\u201329. https://doi.org/10.1109/MCSE.2007.53",
+      "doi": "10.1109/MCSE.2007.53"
+    },
+    {
+      "text": "Michael Prilla and Lisa\u00a0M. R\u00fchmann. 2018. An Analysis Tool for Cooperative Mixed Reality Scenarios. In Adjunct Proceedings of the IEEE International Symposium on Mixed and Augmented Reality. 31\u201335. https://doi.org/10.1109/ISMAR-Adjunct.2018.00026",
+      "doi": ""
+    },
+    {
+      "text": "Roman R\u00e4dle, Midas Nouwens, Kristian Antonsen, James\u00a0R. Eagan, and Clemens\u00a0N. Klokmose. 2017. Codestrates: Literate Computing with Webstrates. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 715\u2013725. https://doi.org/10.1145/3126594.3126642",
+      "doi": "10.1145/3126594.3126642"
+    },
+    {
+      "text": "Umar Rashid, Miguel\u00a0A. Nacenta, and Aaron Quigley. 2012. The Cost of Display Switching: A Comparison of Mobile, Large Display and Hybrid UI Configurations. In Proceedings of the ACM Conference on Advanced Visual Interfaces. ACM, New York, NY, USA, 99\u2013106. https://doi.org/10.1145/2254556.2254577",
+      "doi": "10.1145/2254556.2254577"
+    },
+    {
+      "text": "Carolin Reichherzer, Andrew Cunningham, Tracey Coleman, Ruochen Cao, Kurt McManus, Dion Sheppard, Mark Kohler, Mark Billinghurst, and Bruce\u00a0H Thomas. 2021. Bringing the Jury to the Scene of the Crime: Memory and Decision-Making in a Simulated Crime Scene. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Yokohama Japan, 1\u201312. https://doi.org/10.1145/3411764.3445464",
+      "doi": "10.1145/3411764.3445464"
+    },
+    {
+      "text": "Patrick Reipschl\u00e4ger and Raimund Dachselt. 2019. DesignAR: Immersive 3D-Modeling Combining Augmented Reality with Interactive Displays. In Proceedings of the ACM Conference on Interactive Surfaces and Spaces. ACM, New York, NY, USA, 29\u201341. https://doi.org/10.1145/3343055.3359718",
+      "doi": "10.1145/3343055.3359718"
+    },
+    {
+      "text": "Patrick Reipschl\u00e4ger, Tamara Flemisch, and Raimund Dachselt. 2021. Personal Augmented Reality for Information Visualization on Large Interactive Displays. IEEE Transactions on Visualization and Computer Graphics (Feb. 2021). https://doi.org/10.1109/TVCG.2020.3030460 arxiv:2009.03237",
+      "doi": ""
+    },
+    {
+      "text": "Jun Rekimoto and Masanori Saitoh. 1999. Augmented Surfaces: A Spatially Continuous Work Space for Hybrid Computing Environments. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 378\u2013385. https://doi.org/10.1145/302979.303113",
+      "doi": "10.1145/302979.303113"
+    },
+    {
+      "text": "Yvonne Rogers. 2012. HCI Theory: Classical, Modern, and Contemporary. Synthesis Lectures on Human-Centered Informatics 5, 2 (May 2012), 1\u2013129. https://doi.org/10.2200/S00418ED1V01Y201205HCI014",
+      "doi": "10.5555/3019322"
+    },
+    {
+      "text": "Salesforce. 2021. Tableau: Business Intelligence and Analytics Software. https://www.tableau.com/.",
+      "doi": ""
+    },
+    {
+      "text": "Prasanth Sasikumar, Max Collins, Huidong Bai, and Mark Billinghurst. 2021. XRTB: A Cross Reality Teleconference Bridge to Incorporate 3D Interactivity to 2D Teleconferencing. In Extended Abstracts of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u20134. https://doi.org/10.1145/3411763.3451546",
+      "doi": "10.1145/3411763.3451546"
+    },
+    {
+      "text": "Marc Satkowski, Weizhou Luo, and Raimund Dachselt. 2021. Towards In-situ Authoring of AR Visualizations with Mobile Devices. In Adjunct Proceedings of the IEEE International Symposium on Mixed and Augmented Reality Adjunct. IEEE, Piscataway, NJ, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer. 2017. Vega-Lite: A Grammar of Interactive Graphics. IEEE Transactions on Visualization and Computer Graphics 23, 1 (Jan. 2017), 341\u2013350. https://doi.org/10.1109/TVCG.2016.2599030",
+      "doi": "10.1109/TVCG.2016.2599030"
+    },
+    {
+      "text": "Richard Skarbez, Missie Smith, and Mary\u00a0C. Whitton. 2021. Revisiting Milgram and Kishino\u2019s Reality-Virtuality Continuum. Frontiers in Virtual Reality 2 (March 2021), 647997. https://doi.org/10.3389/frvir.2021.647997",
+      "doi": ""
+    },
+    {
+      "text": "Maur\u00edcio Sousa, Daniel Mendes, Soraia Paulo, Nuno Matela, Joaquim Jorge, and Daniel\u00a0Sim\u00f5es Lopes. 2017. VRRRRoom: Virtual Reality for Radiologists in the Reading Room. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 4057\u20134062. https://doi.org/10.1145/3025453.3025566",
+      "doi": "10.1145/3025453.3025566"
+    },
+    {
+      "text": "Maximilian Speicher, Brian\u00a0D. Hall, and Michael Nebeling. 2019. What Is Mixed Reality?. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3290605.3300767",
+      "doi": "10.1145/3290605.3300767"
+    },
+    {
+      "text": "Seung\u00a0Youb Ssin, James\u00a0A. Walsh, Ross\u00a0T. Smith, Andrew Cunningham, and Bruce\u00a0H. Thomas. 2019. GeoGate: Correlating Geo-Temporal Datasets Using an Augmented Reality Space-Time Cube and Tangible Interactions. In Proceedings of the IEEE Conference on Virtual Reality and 3D User Interfaces. IEEE, Piscataway, NJ, USA, 210\u2013219. https://doi.org/10.1109/VR.2019.8797812",
+      "doi": ""
+    },
+    {
+      "text": "Hemant\u00a0Bhaskar Surale, Aakar Gupta, Mark Hancock, and Daniel Vogel. 2019. TabletInVR: Exploring the Design Space for Using a Multi-Touch Tablet in Virtual Reality. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300243",
+      "doi": "10.1145/3290605.3300243"
+    },
+    {
+      "text": "Z. Szalav\u00e1ri and M. Gervautz. 2008. The Personal Interaction Panel \u2013 a Two-Handed Interface for Augmented Reality. Computer Graphics Forum 16 (June 2008), C335\u2013C346. https://doi.org/10.1111/1467-8659.16.3conferenceissue.35",
+      "doi": ""
+    },
+    {
+      "text": "Anthony Tang, Michel Pahud, Sheelagh Carpendale, and Bill Buxton. 2010. VisTACO: Visualizing Tabletop Collaboration. In Proceedings of the ACM International Conference on Interactive Tabletops and Surfaces. ACM, New York, NY, USA, 29\u201338. https://doi.org/10.1145/1936652.1936659",
+      "doi": "10.1145/1936652.1936659"
+    },
+    {
+      "text": "Katja Vock, Sebastian Hubenschmid, Johannes Zagermann, Simon Butscher, and Harald Reiterer. 2021. IDIAR : Augmented Reality Dashboards to Supervise Mobile Intervention Studies. In Mensch und Computer. ACM, New York, NY, USA. https://doi.org/10.1145/3473856.3473876",
+      "doi": ""
+    },
+    {
+      "text": "Ulrich von Zadow and Raimund Dachselt. 2017. GIAnT: Visualizing Group Interaction at Large Wall Displays. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, Denver Colorado USA, 2639\u20132647. https://doi.org/10.1145/3025453.3026006",
+      "doi": "10.1145/3025453.3026006"
+    },
+    {
+      "text": "Jia Wang and Robert Lindeman. 2014. Coordinated 3D Interaction in Tablet- and HMD-Based Hybrid Virtual Environments. In Proceedings of the ACM Symposium on Spatial User Interaction. ACM, New York, NY, USA, 70\u201379. https://doi.org/10.1145/2659766.2659777",
+      "doi": "10.1145/2659766.2659777"
+    },
+    {
+      "text": "Jia Wang and Robert Lindeman. 2015. Coordinated Hybrid Virtual Environments: Seamless Interaction Contexts for Effective Virtual Reality. Computers & Graphics 48 (May 2015), 71\u201383. https://doi.org/10.1016/j.cag.2015.02.007",
+      "doi": ""
+    },
+    {
+      "text": "Yun Wang, Xiaojuan Ma, Qiong Luo, and Huamin Qu. 2016. Data Edibilization: Representing Data with Food. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 409\u2013422. https://doi.org/10.1145/2851581.2892570",
+      "doi": "10.1145/2851581.2892570"
+    },
+    {
+      "text": "Jonathan Wieland, Johannes Zagermann, Jens M\u00fcller, and Harald Reiterer. 2021. Separation, Composition, or Hybrid? \u2013 Comparing Collaborative 3D Object Manipulation Techniques for Handheld Augmented Reality. In 2021 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE, Bari, Italy, 403\u2013412. https://doi.org/10.1109/ISMAR52148.2021.00057",
+      "doi": ""
+    },
+    {
+      "text": "W. Xie, Y. Liang, J. Johnson, A. Mower, S. Burns, C. Chelini, P. D\u2019Alessandro, N. Weibel, and J.\u00a0P. Schulze. 2020. Interactive Multi-User 3D Visual Analytics in Augmented Reality. Electronic Imaging 2020, 13 (Jan. 2020), 363\u2013363. https://doi.org/10.2352/ISSN.2470-1173.2020.13.ERVR-363",
+      "doi": ""
+    },
+    {
+      "text": "Y. Yan, K. Chen, Y. Xie, Y. Song, and Y. Liu. 2019. The Effects of Weight on Comfort of Virtual Reality Devices. In Advances in Ergonomics in Design, Francisco Rebelo and Marcelo\u00a0M. Soares (Eds.). Vol.\u00a0777. Springer International Publishing, Cham, 239\u2013248. https://doi.org/10.1007/978-3-319-94706-8_27",
+      "doi": ""
+    },
+    {
+      "text": "Fengyuan Zhu and Tovi Grossman. 2020. BISHARE: Exploring Bidirectional Interactions Between Smartphones and Head-Mounted Augmented Reality. In Proceedings of the ACM Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376233",
+      "doi": "10.1145/3313831.3376233"
+    }
+  ]
+}

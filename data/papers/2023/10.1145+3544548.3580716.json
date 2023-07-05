@@ -1,0 +1,344 @@
+{
+  "doi": "10.1145/3544548.3580716",
+  "title": "Haptic Servos: Self-Contained Vibrotactile Rendering System for Creating or Augmenting Material Experiences",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2023,
+  "badges": [],
+  "abstract": "When vibrations are synchronized with our actions, we experience them as material properties. This has been used to create virtual experiences like friction, counter-force, compliance, or torsion. Implementing such experiences is non-trivial, requiring high temporal resolution in sensing, high fidelity tactile output, and low latency. To make this style of haptic feedback more accessible to non-domain experts, we present Haptic Servos: self-contained haptic rendering devices which encapsulate all timing-critical elements. We characterize Haptic Servos\u2019 real-time performance, showing the system latency is <5\u00a0ms. We explore the subjective experiences they can evoke, highlighting that qualitatively distinct experiences can be created based on input mapping, even if stimulation parameters and algorithm remain unchanged. A workshop demonstrated that users new to Haptic Servos require approximately ten minutes to set up a basic haptic rendering system. Haptic Servos are open source, we invite others to copy and modify our design.",
+  "authors": [
+    {
+      "name": "Nihar Sabnis",
+      "institution": "Sensorimotor Interaction, Max Planck Institute for Informatics, Saarland Informatics Campus, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660755357",
+      "orcid": "0000-0002-3160-251X"
+    },
+    {
+      "name": "Dennis Wittchen",
+      "institution": "Sensorimotor Interaction, Max Planck Institute for Informatics, Saarland Informatics Campus, Germany",
+      "img": "/do/10.1145/contrib-99659676232/rel-imgonly/dennis_portrait_bw_square_2_2.jpg",
+      "acmid": "99659676232",
+      "orcid": "0000-0002-6190-1799"
+    },
+    {
+      "name": "Courtney N. Reed",
+      "institution": "Sensorimotor Interaction, Max Planck Institute for Informatics, Saarland Informatics Campus, Germany",
+      "img": "/do/10.1145/contrib-99659676536/rel-imgonly/creed.png",
+      "acmid": "99659676536",
+      "orcid": "0000-0003-0893-9277"
+    },
+    {
+      "name": "Narjes Pourjafarian",
+      "institution": "Saarland University, Saarland Informatics Campus, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659260323",
+      "orcid": "0000-0001-5298-6797"
+    },
+    {
+      "name": "J\u00fcrgen Steimle",
+      "institution": "Saarland University, Saarland Informatics Campus, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81384613099",
+      "orcid": "0000-0003-3493-8745"
+    },
+    {
+      "name": "Paul Strohmeier",
+      "institution": "Sensorimotor Interaction, Max Planck Institute for Informatics, Saarland Informatics Campus, Germany",
+      "img": "/do/10.1145/contrib-81498658319/rel-imgonly/crop.jpg",
+      "acmid": "81498658319",
+      "orcid": "0000-0002-7442-2607"
+    }
+  ],
+  "references": [
+    {
+      "text": "Sliman Bensma\u00efa, Mark Hollins, and Jeffrey Yau. 2005. Vibrotactile intensity and frequency information in the Pacinian system: A psychophysical model. Perception & psychophysics 67, 5 (2005), 828\u2013841.",
+      "doi": ""
+    },
+    {
+      "text": "Sliman Bensma\u00efa and Mark Hollins. 2005. Pacinian representations of fine surface texture. Perception & Psychophysics 67, 5 (July 2005), 842\u2013854. https://doi.org/10.3758/bf03193537",
+      "doi": ""
+    },
+    {
+      "text": "Wouter\u00a0M. Bergmann\u00a0Tiest and Astrid M.\u00a0L. Kappers. 2009. Cues for Haptic Perception of Compliance. IEEE Transactions on Haptics 2, 4 (2009), 189\u2013199. https://doi.org/10.1109/TOH.2009.16",
+      "doi": "10.1109/TOH.2009.16"
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative Research in Psychology 3, 2 (2006), 77\u2013101. https://doi.org/10.1191/1478088706qp063oa",
+      "doi": "10.1191/1478088706QP063OA"
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2012. Thematic Analysis. In PA Handbook of Research Methods in Psychology, H.\u00a0Cooper, P.\u00a0M Camic, D.\u00a0L. Long, A.\u00a0T. Panter, D.\u00a0Rindskopf, and K.\u00a0J. Sher (Eds.). Vol.\u00a02: Research Designs: Quantitative, Qualitative, Neuropsychological, and Biological. American Psychological Association, Washington.",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2019. Reflecting on reflexive thematic analysis. Qualitative Research in Sport, Exercise and Health 11, 4 (June 2019), 589\u2013597. https://doi.org/10.1080/2159676x.2019.1628806",
+      "doi": ""
+    },
+    {
+      "text": "Heather Culbertson, Juliette Unwin, Benjamin\u00a0E Goodman, and Katherine\u00a0J Kuchenbecker. 2013. Generating haptic texture models from unconstrained tool-surface interactions. In 2013 World Haptics Conference (WHC). IEEE, IEEE, 295\u2013300.",
+      "doi": ""
+    },
+    {
+      "text": "Donald Degraen, Bruno Fruchard, Frederik Smolders, Emmanouil Potetsianakis, Seref G\u00fcng\u00f6r, Antonio Kr\u00fcger, and J\u00fcrgen Steimle. 2021. Weirding Haptics: In-Situ Prototyping of Vibrotactile Feedback in Virtual Reality through Vocalization. In The 34th Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 936\u2013953. https://doi.org/10.1145/3472749.3474797",
+      "doi": "10.1145/3472749.3474797"
+    },
+    {
+      "text": "Wang DeLiang and Guy\u00a0J. Brown. 2006. BINAURAL SOUND LOCALIZATION. John Wiley & Sons.",
+      "doi": ""
+    },
+    {
+      "text": "Artem Dementyev, Pascal Getreuer, Dimitri Kanevsky, Malcolm Slaney, and Richard\u00a0F Lyon. 2021. VHP: Vibrotactile Haptics Platform for On-Body Applications. In The 34th Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 598\u2013612. https://doi.org/10.1145/3472749.3474772",
+      "doi": "10.1145/3472749.3474772"
+    },
+    {
+      "text": "Artem Dementyev, Alex Olwal, and Richard\u00a0F Lyon. 2020. Haptics with input: back-EMF in linear resonant actuators to enable touch, pressure and environmental awareness. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. ACM, 420\u2013429.",
+      "doi": "10.1145/3379337.3415823"
+    },
+    {
+      "text": "J\u00e9r\u00e9my Frey, May Grabli, Ronit Slyper, and Jessica\u00a0R. Cauchard. 2018. Breeze: Sharing Biofeedback through Wearable Technologies. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3174219",
+      "doi": "10.1145/3173574.3174219"
+    },
+    {
+      "text": "James\u00a0J Gibson. 1962. Observations on active touch.Psychological review 69, 6 (1962), 477.",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian G\u00fcnther, Florian M\u00fcller, Felix H\u00fcbner, Max M\u00fchlh\u00e4user, and Andrii Matviienko. 2021. ActuBoard: An Open Rapid Prototyping Platform to integrate Hardware Actuators in Remote Applications. In Companion of the 2021 ACM SIGCHI Symposium on Engineering Interactive Computing Systems. ACM, 70\u201376.",
+      "doi": "10.1145/3459926.3464757"
+    },
+    {
+      "text": "Alice\u00a0C. Haynes, Annie Lywood, Emily\u00a0M. Crowe, Jessica\u00a0L. Fielding, Jonathan\u00a0M. Rossiter, and Christopher Kent. 2022. A calming hug: Design and validation of a tactile aid to ease anxiety. PLOS ONE 17, 3 (March 2022), e0259838. https://doi.org/10.1371/journal.pone.0259838",
+      "doi": ""
+    },
+    {
+      "text": "Morton\u00a0A. Heller. 1984. Active and Passive Touch: The Influence of Exploration Time on form Recognition. The Journal of General Psychology 110, 2 (April 1984), 243\u2013249. https://doi.org/10.1080/00221309.1984.9709968",
+      "doi": ""
+    },
+    {
+      "text": "Seongkook Heo and Geehyuk Lee. 2017. Creating Haptic Illusion of Compliance for Tangential Force Input Using Vibrotactile Actuator. In Adjunct Publication of the 30th Annual ACM Symposium on User Interface Software and Technology (Qu\u00e9bec City, QC, Canada) (UIST \u201917). Association for Computing Machinery, New York, NY, USA, 21\u201323. https://doi.org/10.1145/3131785.3131804",
+      "doi": "10.1145/3131785.3131804"
+    },
+    {
+      "text": "Seongkook Heo, Jaeyeon Lee, and Daniel Wigdor. 2019. PseudoBend: Producing Haptic Illusions of Stretching, Bending, and Twisting Using Grain Vibrations. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). ACM, New York, NY, USA, 803\u2013813. https://doi.org/10.1145/3332165.3347941",
+      "doi": "10.1145/3332165.3347941"
+    },
+    {
+      "text": "Ali Israr and Ivan Poupyrev. 2011. Tactile brush: drawing on skin with a tactile grid display. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2019\u20132028.",
+      "doi": "10.1145/1978942.1979235"
+    },
+    {
+      "text": "Ali Israr, Siyan Zhao, Zachary Schwemler, and Adam Fritz. 2019. Stereohaptics toolkit for dynamic tactile experiences. In International Conference on Human-Computer Interaction. Springer, Springer, 217\u2013232.",
+      "doi": "10.1007/978-3-030-30033-3_17"
+    },
+    {
+      "text": "Roland\u00a0S Johansson and J\u00a0Randall Flanagan. 2009. Coding and use of tactile signals from the fingertips in object manipulation tasks. Nature Reviews Neuroscience 10, 5 (2009), 345.",
+      "doi": ""
+    },
+    {
+      "text": "David Katz and Lester\u00a0E Krueger. 2013. The world of touch. Psychology press.",
+      "doi": ""
+    },
+    {
+      "text": "Johan Kildal. 2010. 3D-Press: Haptic Illusion of Compliance When Pressing on a Rigid Surface. In International Conference on Multimodal Interfaces and the Workshop on Machine Learning for Multimodal Interaction (Beijing, China) (ICMI-MLMI \u201910). ACM, New York, NY, USA, Article 21, 8\u00a0pages. https://doi.org/10.1145/1891903.1891931",
+      "doi": "10.1145/1891903.1891931"
+    },
+    {
+      "text": "Johan Kildal. 2012. Kooboh: Variable tangible properties in a handheld haptic-illusion box. In International Conference on Human Haptic Sensing and Touch Enabled Computer Applications. Springer, Springer, 191\u2013194.",
+      "doi": "10.1007/978-3-642-31404-9_33"
+    },
+    {
+      "text": "Sunjun Kim and Geehyuk Lee. 2013. Haptic feedback design for a virtual button along force-displacement curves. In Proceedings of the 26th annual ACM symposium on User interface software and technology. ACM, 91\u201396.",
+      "doi": "10.1145/2501988.2502041"
+    },
+    {
+      "text": "Susan\u00a0J Lederman. 1981. The perception of surface roughness by active and passive touch. Bulletin of the Psychonomic Society 18, 5 (1981), 253\u2013255.",
+      "doi": ""
+    },
+    {
+      "text": "David Ledo, Steven Houben, Jo Vermeulen, Nicolai Marquardt, Lora Oehlberg, and Saul Greenberg. 2018. Evaluation Strategies for HCI Toolkit Research. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201317. https://doi.org/10.1145/3173574.3173610",
+      "doi": "10.1145/3173574.3173610"
+    },
+    {
+      "text": "Jaeyeon Lee, Mike Sinclair, Mar Gonzalez-Franco, Eyal Ofek, and Christian Holz. 2019. TORC: A virtual reality controller for in-hand high-dexterity finger interaction. In Proceedings of the 2019 CHI conference on human factors in computing systems. ACM, 1\u201313.",
+      "doi": "10.1145/3290605.3300301"
+    },
+    {
+      "text": "Yi-Chi Liao, Sunjun Kim, and Antti Oulasvirta. 2018. One button to rule them all: Rendering arbitrary force-displacement curves. In The 31st Annual ACM Symposium on User Interface Software and Technology Adjunct Proceedings. ACM, 111\u2013113.",
+      "doi": "10.1145/3266037.3266118"
+    },
+    {
+      "text": "Yun-Wei Lin, Yi-Bing Lin, Ming-Ta Yang, and Jun-Han Lin. 2017. ArduTalk: An Arduino network application development platform based on IoTtalk. IEEE Systems Journal 13, 1 (2017), 468\u2013476.",
+      "doi": ""
+    },
+    {
+      "text": "Jasmine Lu, Ziwei Liu, Jas Brooks, and Pedro Lopes. 2021. Chemical Haptics: Rendering Haptic Sensations via Topical Stimulants. In The 34th Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 239\u2013257. https://doi.org/10.1145/3472749.3474747",
+      "doi": "10.1145/3472749.3474747"
+    },
+    {
+      "text": "Teemu M\u00e4ki-patola and Perttu H\u00e4m\u00e4l\u00e4inen. 2004. Latency Tolerance for Gesture Controlled Continuous Sound Instrument without Tactile Feedback. Proceedings of the International Computer Music Conference1998 (2004).",
+      "doi": ""
+    },
+    {
+      "text": "Jonatan Mart\u00ednez, Arturo\u00a0S Garc\u00eda, Miguel Oliver, Jos\u00e9\u00a0P Molina, and Pascual Gonz\u00e1lez. 2014. Vitaki: a vibrotactile prototyping toolkit for virtual reality and video games. International Journal of Human-Computer Interaction 30, 11(2014), 855\u2013871.",
+      "doi": ""
+    },
+    {
+      "text": "William McMahan and Katherine\u00a0J Kuchenbecker. 2014. Dynamic modeling and control of voice-coil actuators for high-fidelity display of haptic vibrations. In 2014 IEEE Haptics Symposium (HAPTICS). IEEE, IEEE, 115\u2013122.",
+      "doi": ""
+    },
+    {
+      "text": "Marianna Obrist, Sue\u00a0Ann Seah, and Sriram Subramanian. 2013. Talking about Tactile Experiences. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). Association for Computing Machinery, New York, NY, USA, 1659\u20131668. https://doi.org/10.1145/2470654.2466220",
+      "doi": "10.1145/2470654.2466220"
+    },
+    {
+      "text": "Sabrina Pan\u00ebels, Margarita Anastassova, and Lucie Brunet. 2013. TactiPEd: Easy prototyping of tactile patterns. In IFIP Conference on Human-Computer Interaction. Springer, Springer, 228\u2013245.",
+      "doi": ""
+    },
+    {
+      "text": "Sabrina\u00a0A Pan\u00ebels, Jonathan\u00a0C Roberts, and Peter\u00a0J Rodgers. 2010. HITPROTO: a tool for the rapid prototyping of haptic interactions for haptic data visualization. In 2010 IEEE Haptics Symposium. IEEE, IEEE, 261\u2013268.",
+      "doi": "10.1109/HAPTIC.2010.5444647"
+    },
+    {
+      "text": "Claire Petitmengin. 2006. Describing one\u2019s subjective experience in the second person: An interview method for the science of consciousness. Phenomenology and the Cognitive sciences 5, 3 (2006), 229\u2013269.",
+      "doi": ""
+    },
+    {
+      "text": "C. Petitmengin. 2021. Anchoring in lived experience as an act of resistance. Constructivist Foundations 16, 2 (2021), 172\u2013181.",
+      "doi": ""
+    },
+    {
+      "text": "Claire Petitmengin, Anne Remillieux, and Camila Valenzuela-Moguillansky. 2018. Discovering the structures of lived experience. Phenomenology and the Cognitive Sciences 18, 4 (Dec. 2018), 691\u2013730. https://doi.org/10.1007/s11097-018-9597-4",
+      "doi": ""
+    },
+    {
+      "text": "Claire Petitmengin-Peugeot. 1999. The intuitive experience. Journal of Consciousness studies 6, 2-3 (1999), 43\u201377.",
+      "doi": ""
+    },
+    {
+      "text": "Evan Pezent, Brandon Cambio, and Marcia\u00a0K O\u2019Malley. 2020. Syntacts: Open-source software and hardware for audio-controlled haptics. IEEE Transactions on Haptics 14, 1 (2020), 225\u2013233.",
+      "doi": ""
+    },
+    {
+      "text": "Courtney\u00a0N. Reed and Andrew\u00a0P. McPherson. 2021. Surface Electromyography for Sensing Performance Intention and Musical Imagery in Vocalists. In Proceedings of the Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction (Salzburg, Austria) (TEI \u201921). Association for Computing Machinery, New York, NY, USA, Article 22, 11\u00a0pages. https://doi.org/10.1145/3430524.3440641",
+      "doi": "10.1145/3430524.3440641"
+    },
+    {
+      "text": "Bruno\u00a0H. Repp and Yi-Huang Su. 2013. Sensorimotor synchronization: A review of recent research (2006\u20132012). Psychonomic Bulletin & Review 20, 3 (Feb. 2013), 403\u2013452. https://doi.org/10.3758/s13423-012-0371-2",
+      "doi": ""
+    },
+    {
+      "text": "Joseph\u00a0M. Romano and Katherine\u00a0J. Kuchenbecker. 2012. Creating Realistic Virtual Textures from Contact Acceleration Data. IEEE Transactions on Haptics 5, 2 (2012), 109\u2013119. https://doi.org/10.1109/TOH.2011.38",
+      "doi": "10.1109/TOH.2011.38"
+    },
+    {
+      "text": "Nihar Sabnis, Dennis Wittchen, Gabriela Vega, Courtney\u00a0N Reed, and Paul Strohmeier. 2023. Tactile Symbols with Continuous and Motion-Coupled Vibration: An Exploration of using Embodied Experiences for Hermeneutic Design. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (Hamburg, Germany) (CHI \u201923). Association for Computing Machinery, New York, NY, USA, 19\u00a0pages. https://doi.org/10.1145/3544548.3581356",
+      "doi": "10.1145/3544548.3581356"
+    },
+    {
+      "text": "Richard\u00a0A Schmidt, Timothy\u00a0D Lee, Carolee Winstein, Gabriele Wulf, and Howard\u00a0N Zelaznik. 2018. Motor control and learning: A behavioral emphasis. Human kinetics.",
+      "doi": ""
+    },
+    {
+      "text": "Oliver Schneider, Bruno Fruchard, Dennis Wittchen, Bibhushan\u00a0Raj Joshi, Georg Freitag, Donald Degraen, and Paul Strohmeier. 2022. Sustainable Haptic Design: Improving Collaboration, Sharing, and Reuse in Haptic Design Research. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 79, 5\u00a0pages. https://doi.org/10.1145/3491101.3503734",
+      "doi": "10.1145/3491101.3503734"
+    },
+    {
+      "text": "Oliver Schneider, Karon MacLean, Colin Swindells, and Kellogg Booth. 2017. Haptic experience design: What hapticians do and where they need help. International Journal of Human-Computer Studies 107 (2017), 5\u201321.",
+      "doi": "10.1016/j.ijhcs.2017.04.004"
+    },
+    {
+      "text": "Oliver\u00a0S Schneider, Ali Israr, and Karon\u00a0E MacLean. 2015. Tactile animation by direct manipulation of grid displays. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. ACM, 21\u201330.",
+      "doi": "10.1145/2807442.2807470"
+    },
+    {
+      "text": "Oliver\u00a0S. Schneider, Ali Israr, and Karon\u00a0E. MacLean. 2015. Tactile Animation by Direct Manipulation of Grid Displays. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology (Charlotte, NC, USA) (UIST \u201915). Association for Computing Machinery, New York, NY, USA, 21\u201330. https://doi.org/10.1145/2807442.2807470",
+      "doi": "10.1145/2807442.2807470"
+    },
+    {
+      "text": "Oliver\u00a0S. Schneider and Karon\u00a0E. MacLean. 2016. Studying design process and example use with Macaron, a web-based vibrotactile effect editor. In 2016 IEEE Haptics Symposium (HAPTICS). IEEE, 52\u201358. https://doi.org/10.1109/HAPTICS.2016.7463155",
+      "doi": ""
+    },
+    {
+      "text": "Oliver\u00a0S. Schneider, Hasti Seifi, Salma Kashani, Matthew Chun, and Karon\u00a0E. MacLean. 2016. HapTurk: Crowdsourcing Affective Ratings of Vibrotactile Icons. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 3248\u20133260. https://doi.org/10.1145/2858036.2858279",
+      "doi": "10.1145/2858036.2858279"
+    },
+    {
+      "text": "Hasti Seifi, Matthew Chun, Colin Gallacher, Oliver Schneider, and Karon\u00a0E MacLean. 2020. How do novice hapticians design? A case study in creating haptic learning environments. IEEE Transactions on Haptics 13, 4 (2020), 791\u2013805.",
+      "doi": "10.1109/TOH.2020.2968903"
+    },
+    {
+      "text": "Hasti Seifi, Farimah Fazlollahi, Michael Oppermann, John\u00a0Andrew Sastrillo, Jessica Ip, Ashutosh Agrawal, Gunhyuk Park, Katherine\u00a0J. Kuchenbecker, and Karon\u00a0E. MacLean. 2019. Haptipedia: Accelerating Haptic Device Discovery to Support Interaction & Engineering Design. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300788",
+      "doi": "10.1145/3290605.3300788"
+    },
+    {
+      "text": "Allan\u00a0M Smith, C\u00a0Elaine Chapman, Fran\u00e7ois Donati, Pascal Fortier-Poisson, and Vincent Hayward. 2009. Perception of simulated local shapes using active and passive touch. Journal of neurophysiology 102, 6 (2009), 3519\u20133529.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Strohmeier. 2019. Shaping Material Experiences \u2014 Designing Vibrotactile Feedback for Active Perception. Ph.\u00a0D. Dissertation.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Strohmeier, Sebastian Boring, and Kasper Hornb\u00e6k. 2018. From Pulse Trains to \"Coloring with Vibrations\": Motion Mappings for Mid-Air Haptic Textures. ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173639",
+      "doi": "10.1145/3173574.3173639"
+    },
+    {
+      "text": "Paul Strohmeier, Jesse Burstyn, Juan\u00a0Pablo Carrascal, Vincent Levesque, and Roel Vertegaal. 2016. ReFlex: A Flexible Smartphone with Active Haptic Feedback for Bend Input. In Proceedings of the TEI \u201916: Tenth International Conference on Tangible, Embedded, and Embodied Interaction (Eindhoven, Netherlands) (TEI \u201916). ACM, New York, NY, USA, 185\u2013192. https://doi.org/10.1145/2839462.2839494",
+      "doi": "10.1145/2839462.2839494"
+    },
+    {
+      "text": "Paul Strohmeier, Seref G\u00fcng\u00f6r, Luis Herres, Dennis Gudea, Bruno Fruchard, and J\u00fcrgen Steimle. 2020. bARefoot: Generating Virtual Materials Using Motion Coupled Vibration in Shoes. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology(Virtual Event, USA) (UIST \u201920). ACM, New York, NY, USA, 579\u2013593. https://doi.org/10.1145/3379337.3415828",
+      "doi": "10.1145/3379337.3415828"
+    },
+    {
+      "text": "Paul Strohmeier and Kasper Hornb\u00e6k. 2017. Generating Haptic Textures with a Vibrotactile Actuator. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). ACM, New York, NY, USA, 12\u00a0pages. https://doi.org/10.1145/3025453.3025812",
+      "doi": "10.1145/3025453.3025812"
+    },
+    {
+      "text": "Vasiliki Tsaknaki, Kelsey Cotton, Pavel Karpashevich, and Pedro Sanches. 2021. \u201cFeeling the Sensor Feeling You\u201d: A Soma Design Exploration on Sensing Non-Habitual Breathing. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 266, 16\u00a0pages. https://doi.org/10.1145/3411764.3445628",
+      "doi": "10.1145/3411764.3445628"
+    },
+    {
+      "text": "Camila Valenzuela\u00a0Moguillansky, J\u00a0Kevin O\u2019Regan, and Claire Petitmengin. 2013. Exploring the subjective experience of the \u201crubber hand\u201d illusion. Frontiers in Human Neuroscience 7 (2013), 659.",
+      "doi": ""
+    },
+    {
+      "text": "Camila Valenzuela-Moguillansky and Alejandra V\u00e1squez-Rosati. 2019. An Analysis Procedure for the Micro-phenomenological Interview. Constructivist Foundations 14, 2 (2019), 123\u2013145.",
+      "doi": ""
+    },
+    {
+      "text": "Ronald\u00a0T Verrillo. 1966. Vibrotactile sensitivity and the frequency response of the Pacinian corpuscle. Psychonomic Science 4, 1 (1966), 135\u2013136.",
+      "doi": ""
+    },
+    {
+      "text": "Ingrid\u00a0MLC Vogels. 2004. Detection of temporal delays in visual-haptic interfaces. Human Factors 46, 1 (2004), 118\u2013134.",
+      "doi": ""
+    },
+    {
+      "text": "David Wessel and Matthew Wright. 2002. Problems and Prospects for Intimate Musical Control of Computers. Computer Music Journal 26, 3 (2002), 11\u201314.",
+      "doi": "10.1162/014892602320582945"
+    },
+    {
+      "text": "Anusha Withana, Daniel Groeger, and J\u00fcrgen Steimle. 2018. Tacttoo: A Thin and Feel-Through Tattoo for On-Skin Tactile Output. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (Berlin, Germany) (UIST \u201918). ACM, New York, NY, USA, 365\u2013378. https://doi.org/10.1145/3242587.3242645",
+      "doi": "10.1145/3242587.3242645"
+    },
+    {
+      "text": "Dennis Wittchen, Bruno Fruchard, Paul Strohmeier, and Georg Freitag. 2021. TactJam: A Collaborative Playground for Composing Spatial Tactons. In Proceedings of the Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction(Salzburg, Austria) (TEI \u201921). Association for Computing Machinery, New York, NY, USA, Article 64, 4\u00a0pages. https://doi.org/10.1145/3430524.3442699",
+      "doi": "10.1145/3430524.3442699"
+    },
+    {
+      "text": "Dennis Wittchen, Bruno Fruchard, Paul Strohmeier, and Georg Freitag. 2021. TactJam: A Collaborative Playground for Composing Spatial Tactons. In Proceedings of the Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction(Salzburg, Austria) (TEI \u201921). ACM, New York, NY, USA, Article 64, 4\u00a0pages. https://doi.org/10.1145/3430524.3442699",
+      "doi": "10.1145/3430524.3442699"
+    },
+    {
+      "text": "Dennis Wittchen, Valentin Martinez-Missir, Sina Mavali, Nihar Sabnis, Courtney\u00a0N. Reed, and Paul Strohmeier. 2023. Designing Interactive Shoes for Tactile Augmented Reality(AHs\u201923). Association for Computing Machinery, New York, NY, USA, 14\u00a0pages. https://doi.org/10.1145/3582700.3582728",
+      "doi": "10.1145/3582700.3582728"
+    },
+    {
+      "text": "Siyan Zhao, Oliver Schneider, Roberta Klatzky, Jill Lehman, and Ali Israr. 2014. FeelCraft: Crafting Tactile Experiences for Media Using a Feel Effect Library. In Proceedings of the Adjunct Publication of the 27th Annual ACM Symposium on User Interface Software and Technology (Honolulu, Hawaii, USA) (UIST\u201914 Adjunct). Association for Computing Machinery, New York, NY, USA, 51\u201352. https://doi.org/10.1145/2658779.2659109",
+      "doi": "10.1145/2658779.2659109"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "doi": "10.1145/3544548.3581440",
+  "title": "All-in-One Print: Designing and 3D Printing Dynamic Objects Using Kinematic Mechanism Without Assembly",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2023,
+  "badges": [],
+  "abstract": "The field of Human-Computer-Interaction (HCI) has been consistently utilizing kinematic mechanisms to create tangible dynamic interfaces and objects. However, the design and fabrication of these mechanisms are challenging due to complex spatial structures, step-by-step assembly processes, and unstable joint connections resulting from the inevitable matching errors within separated parts. In this paper, we propose an integrated fabrication method for one-step FDM 3D printing (FDM3DP) kinematic mechanisms to create dynamic objects without additional post-processing. We describe the Arch-printing and Support-bridges method, which we call All-in-One Print, that compiles given arbitrary solid 3D models into printable kinematic models as G-Code for FDM3DP. To expand the design space, we investigate a series of motion structures (e.g., rotate, slide, and screw) with multi-stabilities and develop a design tool to help users quickly design such dynamic objects. We also demonstrate various application cases, including physical interfaces, toys with interactive aesthetics and daily items with internalized functions.",
+  "authors": [
+    {
+      "name": "Jiaji Li",
+      "institution": "Zhejiang University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659529777",
+      "orcid": "0000-0002-8864-2061"
+    },
+    {
+      "name": "Mingming Li",
+      "institution": "Zhejiang University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659891817",
+      "orcid": "0000-0001-8916-6485"
+    },
+    {
+      "name": "Junzhe Ji",
+      "institution": "Zhejiang University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659892145",
+      "orcid": "0000-0003-2569-5542"
+    },
+    {
+      "name": "Deying Pan",
+      "institution": "International Design Institute, Zhejiang University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701645",
+      "orcid": "0000-0001-5159-9744"
+    },
+    {
+      "name": "Yitao Fan",
+      "institution": "International Design Institute, Zhejiang University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702402",
+      "orcid": "0000-0003-2654-9803"
+    },
+    {
+      "name": "Kuangqi Zhu",
+      "institution": "Zhejiang University, China",
+      "img": "/do/10.1145/contrib-99660627490/rel-imgonly/kuangqizhu.jpg",
+      "acmid": "99660627490",
+      "orcid": "0000-0003-4217-8256"
+    },
+    {
+      "name": "Yue Yang",
+      "institution": "Zhejiang University, China",
+      "img": "/do/10.1145/contrib-99659527017/rel-imgonly/___.jpeg",
+      "acmid": "99659527017",
+      "orcid": "0000-0002-1771-8057"
+    },
+    {
+      "name": "Zihan Yan",
+      "institution": "MIT Media Lab, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659948837",
+      "orcid": "0000-0001-5298-4839"
+    },
+    {
+      "name": "Lingyun Sun",
+      "institution": "International Design Institute, Zhejiang University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659025067",
+      "orcid": "0000-0002-5561-0493"
+    },
+    {
+      "name": "Ye Tao",
+      "institution": "Hangzhou City University, China",
+      "img": "/do/10.1145/contrib-87258822957/rel-imgonly/tao_2015.jpg",
+      "acmid": "87258822957",
+      "orcid": "0000-0002-9152-7793"
+    },
+    {
+      "name": "Guanyun Wang",
+      "institution": "Zhejiang University, China",
+      "img": "/do/10.1145/contrib-87258679957/rel-imgonly/20201100____v6.jpg",
+      "acmid": "87258679957",
+      "orcid": "0000-0002-7904-1504"
+    }
+  ],
+  "references": [
+    {
+      "text": "Muhammad Abdullah, Romeo Sommerfeld, Laurenz Seidel, Jonas Noack, Ran Zhang, Thijs Roumen, and Patrick Baudisch. 2021. Roadkill: Nesting Laser-Cut Objects for Fast Assembly. In The 34th Annual ACM Symposium on User Interface Software and Technology, ACM, Virtual Event USA, 972\u2013984. DOI:https://doi.org/10.1145/3472749.3474799",
+      "doi": "10.1145/3472749.3474799"
+    },
+    {
+      "text": "Davide Jose Nogueira Amorim, Troy Nachtigall, and Miguel Bruns Alonso. 2019. Exploring mechanical meta-material structures through personalised shoe sole design. In Proceedings of the ACM Symposium on Computational Fabrication, ACM, Pittsburgh Pennsylvania, 1\u20138. DOI:https://doi.org/10.1145/3328939.3329001",
+      "doi": "10.1145/3328939.3329001"
+    },
+    {
+      "text": "Moritz B\u00e4cher, Bernd Bickel, Doug L. James, and Hanspeter Pfister. 2012. Fabricating articulated characters from skinned meshes. ACM Trans. Graph. 31, 4 (August 2012), 1\u20139. DOI:https://doi.org/10.1145/2185520.2185543",
+      "doi": "10.1145/2185520.2185543"
+    },
+    {
+      "text": "M Beecroft. 2016. 3D printing of weft knitted textile based structures by selective laser sintering of nylon powder. IOP Conf. Ser. Mater. Sci. Eng. 137, (July 2016), 012017. DOI:https://doi.org/10.1088/1757-899X/137/1/012017",
+      "doi": ""
+    },
+    {
+      "text": "Franklin Pezzuti Dyer and Leah Buechley. 2022. Extruder-Turtle: A Library for 3D Printing Delicate, Textured, and Flexible Objects. (2022), 9.",
+      "doi": ""
+    },
+    {
+      "text": "Jack Forman, Mustafa Doga Dogan, Hamilton Forsythe, and Hiroshi Ishii. 2020. DefeXtiles: 3D Printing Quasi-Woven Fabric via Under-Extrusion. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology, ACM, Virtual Event USA, 1222\u20131233. DOI:https://doi.org/10.1145/3379337.3415876",
+      "doi": "10.1145/3379337.3415876"
+    },
+    {
+      "text": "Jun Gong, Olivia Seow, Cedric Honnet, Jack Forman, and Stefanie Mueller. 2021. MetaSense: Integrating Sensing Capabilities into Mechanical Metamaterial. In The 34th Annual ACM Symposium on User Interface Software and Technology, ACM, Virtual Event USA, 1063\u20131073. DOI:https://doi.org/10.1145/3472749.3474806",
+      "doi": "10.1145/3472749.3474806"
+    },
+    {
+      "text": "Jianzhe Gu, Yuyu Lin, Qiang Cui, Xiaoqian Li, Jiaji Li, Lingyun Sun, Cheng Yao, Fangtian Ying, Guanyun Wang, and Lining Yao. 2022. PneuMesh: Pneumatic-driven Truss-based Shape Changing System. In CHI Conference on Human Factors in Computing Systems, ACM, New Orleans LA USA, 1\u201312. DOI:https://doi.org/10.1145/3491102.3502099",
+      "doi": "10.1145/3491102.3502099"
+    },
+    {
+      "text": "Liang He, Huaishu Peng, Michelle Lin, Ravikanth Konjeti, Fran\u00e7ois Guimbreti\u00e8re, and Jon E. Froehlich. 2019. Ondul\u00e9: Designing and Controlling 3D Printable Springs. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology, ACM, New Orleans LA USA, 739\u2013750. DOI:https://doi.org/10.1145/3332165.3347951",
+      "doi": "10.1145/3332165.3347951"
+    },
+    {
+      "text": "Yunwoo Jeong, Han-Jong Kim, and Tek-Jin Nam. 2018. Mechanism Perfboard: An Augmented Reality Environment for Linkage Mechanism Design and Fabrication. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems, ACM, Montreal QC Canada, 1\u201311. DOI:https://doi.org/10.1145/3173574.3173985",
+      "doi": "10.1145/3173574.3173985"
+    },
+    {
+      "text": "Jingchao Jiang, Jonathan Stringer, and Xun Xu. Support Optimization for Flat Features via Path Planning in Additive Manufacturing. 9.",
+      "doi": ""
+    },
+    {
+      "text": "Han-Jong Kim, Yunwoo Jeong, Ju-Whan Kim, and Tek-Jin Nam. 2018. A prototyping tool for kinetic mechanism design and fabrication: Developing and deploying M.Sketch for science, technology, engineering, the arts, and mathematics education. Adv. Mech. Eng. 10, 12 (December 2018), 168781401880410. DOI:https://doi.org/10.1177/1687814018804104",
+      "doi": ""
+    },
+    {
+      "text": "Robert Kovacs, Lukas Rambold, Lukas Fritzsche, Dominik Meier, Jotaro Shigeyama, Shohei Katakura, Ran Zhang, and Patrick Baudisch. 2021. Trusscillator: a System for Fabricating Human-Scale Human-Powered Oscillating Devices. In The 34th Annual ACM Symposium on User Interface Software and Technology, ACM, Virtual Event USA, 1074\u20131088. DOI:https://doi.org/10.1145/3472749.3474807",
+      "doi": "10.1145/3472749.3474807"
+    },
+    {
+      "text": "Nianlong Li, Han-Jong Kim, LuYao Shen, Feng Tian, Teng Han, Xing-Dong Yang, and Tek-Jin Nam. 2020. HapLinkage: Prototyping Haptic Proxies for Virtual Hand Tools Using Linkage Mechanism. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology, ACM, Virtual Event USA, 1261\u20131274. DOI:https://doi.org/10.1145/3379337.3415812",
+      "doi": "10.1145/3379337.3415812"
+    },
+    {
+      "text": "Hongnan Lin, Liang He, Fangli Song, Yifan Li, Tingyu Cheng, Clement Zheng, Wei Wang, and HyunJoo Oh. 2022. FlexHaptics: A Design Method for Passive Haptic Inputs Using Planar Compliant Structures. In CHI Conference on Human Factors in Computing Systems, ACM, New Orleans LA USA, 1\u201313. DOI:https://doi.org/10.1145/3491102.3502113",
+      "doi": "10.1145/3491102.3502113"
+    },
+    {
+      "text": "Vittorio Megaro, Jonas Zehnder, Moritz B\u00e4cher, Stelian Coros, Markus Gross, and Bernhard Thomaszewski. A Computational Design Tool for Compliant Mechanisms. ACM Trans. Graph. 36, 4 , 12.",
+      "doi": ""
+    },
+    {
+      "text": "Ioanna Mitropoulou, Mathias Bernhard, and Benjamin Dillenburger. 2020. Print Paths Key-framing: Design for non-planar layered robotic FDM printing. In Symposium on Computational Fabrication, ACM, Virtual Event USA, 1\u201310. DOI:https://doi.org/10.1145/3424630.3425408",
+      "doi": "10.1145/3424630.3425408"
+    },
+    {
+      "text": "Ken Nakagaki, Artem Dementyev, Sean Follmer, Joseph A. Paradiso, and Hiroshi Ishii. 2016. ChainFORM: A Linear Integrated Modular Hardware System for Shape Changing Interfaces. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology, ACM, Tokyo Japan, 87\u201396. DOI:https://doi.org/10.1145/2984511.2984587",
+      "doi": "10.1145/2984511.2984587"
+    },
+    {
+      "text": "Ken Nakagaki, Joanne Leong, Jordan L. Tappa, Jo\u00e3o Wilbert, and Hiroshi Ishii. 2020. HERMITS: Dynamically Reconfiguring the Interactivity of Self-propelled TUIs with Mechanical Shell Add-ons. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology, ACM, Virtual Event USA, 882\u2013896. DOI:https://doi.org/10.1145/3379337.3415831",
+      "doi": "10.1145/3379337.3415831"
+    },
+    {
+      "text": "Ken Nakagaki, Luke Vink, Jared Counts, Daniel Windham, Daniel Leithinger, Sean Follmer, and Hiroshi Ishii. 2016. Materiable: Rendering Dynamic Material Properties in Response to Direct Physical Touch with Shape Changing Interfaces. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, ACM, San Jose California USA, 2764\u20132772. DOI:https://doi.org/10.1145/2858036.2858104",
+      "doi": "10.1145/2858036.2858104"
+    },
+    {
+      "text": "Martin Nisser, Christina Chen Liao, Yuchen Chai, Aradhana Adhikari, Steve Hodges, and Stefanie Mueller. 2021. LaserFactory: A Laser Cutter-based Electromechanical Assembly and Fabrication Platform to Make Functional Devices & Robots. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems, ACM, Yokohama Japan, 1\u201315. DOI:https://doi.org/10.1145/3411764.3445692",
+      "doi": "10.1145/3411764.3445692"
+    },
+    {
+      "text": "Yuta Noma, Koya Narumi, Fuminori Okuya, and Yoshihiro Kawahara. 2020. Pop-up Print: Rapidly 3D Printing Mechanically Reversible Objects in the Folded State. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology, ACM, Virtual Event USA, 58\u201370. DOI:https://doi.org/10.1145/3379337.3415853",
+      "doi": "10.1145/3379337.3415853"
+    },
+    {
+      "text": "Keunwoo Park, Conrad Lempert, Muhammad Abdullah, Shohei Katakura, Jotaro Shigeyama, Thijs Roumen, and Patrick Baudisch. 2022. FoolProofJoint: Reducing Assembly Errors of Laser Cut 3D Models by Means of Custom Joint Patterns. In CHI Conference on Human Factors in Computing Systems, ACM, New Orleans LA USA, 1\u201312. DOI:https://doi.org/10.1145/3491102.3501919",
+      "doi": "10.1145/3491102.3501919"
+    },
+    {
+      "text": "Amanda J. Parkes, Hayes Solos Raffle, and Hiroshi Ishii. 2008. Topobo in the wild: longitudinal evaluations of educators appropriating a tangible interface. In Proceeding of the twenty-sixth annual CHI conference on Human factors in computing systems - CHI \u201908, ACM Press, Florence, Italy, 1129. DOI:https://doi.org/10.1145/1357054.1357232",
+      "doi": "10.1145/1357054.1357232"
+    },
+    {
+      "text": "Katy Pieri, Bailey M. Felix, Teng Zhang, Pranav Soman, and James H. Henderson. 2021. Printing Parameters of Fused Filament Fabrication Affect Key Properties of Four-Dimensional Printed Shape-Memory Polymers. 3D Print. Addit. Manuf. (October 2021), 3dp.2021.0072. DOI:https://doi.org/10.1089/3dp.2021.0072",
+      "doi": ""
+    },
+    {
+      "text": "Stefan Pillwein, Johanna K\u00fcbert, Florian Rist, and Przemyslaw Musialski. 2020. Design and Fabrication of Elastic Geodesic Grid Structures. In Symposium on Computational Fabrication, 1\u201311. DOI:https://doi.org/10.1145/3424630.3425412",
+      "doi": "10.1145/3424630.3425412"
+    },
+    {
+      "text": "Michael L. Rivera and Scott E. Hudson. 2019. Desktop Electrospinning: A Single Extruder 3D Printer for Producing Rigid Plastic and Electrospun Textiles. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, ACM, Glasgow Scotland Uk, 1\u201312. DOI:https://doi.org/10.1145/3290605.3300434",
+      "doi": "10.1145/3290605.3300434"
+    },
+    {
+      "text": "Thijs Roumen, Yannis Kommana, Ingo Apel, Conrad Lempert, Markus Brand, Erik Brendel, Laurenz Seidel, Lukas Rambold, Carl Goedecken, Pascal Crenzin, Ben Hurdelhey, Muhammad Abdullah, and Patrick Baudisch. 2021. Assembler3: 3D Reconstruction of Laser-Cut Models. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems, ACM, Yokohama Japan, 1\u201311. DOI:https://doi.org/10.1145/3411764.3445453",
+      "doi": "10.1145/3411764.3445453"
+    },
+    {
+      "text": "Thijs Roumen, Conrad Lempert, Ingo Apel, Erik Brendel, Markus Brand, Laurenz Seidel, Lukas Rambold, and Patrick Baudisch. 2021. autoAssembler: Automatic Reconstruction of Laser-Cut 3D Models. In The 34th Annual ACM Symposium on User Interface Software and Technology, ACM, Virtual Event USA, 652\u2013662. DOI:https://doi.org/10.1145/3472749.3474776",
+      "doi": "10.1145/3472749.3474776"
+    },
+    {
+      "text": "Christian Schumacher, Bernd Bickel, Jan Rys, Steve Marschner, Chiara Daraio, and Markus Gross. 2015. Microstructures to control elasticity in 3D printing. ACM Trans. Graph. 34, 4 (July 2015), 1\u201313. DOI:https://doi.org/10.1145/2766926",
+      "doi": "10.1145/2766926"
+    },
+    {
+      "text": "Katherine W Song and Eric Paulos. 2021. Unmaking: Enabling and Celebrating the Creative Material of Failure, Destruction, Decay, and Deformation. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems, ACM, Yokohama Japan, 1\u201312. DOI:https://doi.org/10.1145/3411764.3445529",
+      "doi": "10.1145/3411764.3445529"
+    },
+    {
+      "text": "Lingyun Sun, Jiaji Li, Yu Chen, Yue Yang, Zhi Yu, Danli Luo, Jianzhe Gu, Lining Yao, Ye Tao, and Guanyun Wang. 2021. FlexTruss: A Computational Threading Method for Multi-material, Multi-form and Multi-use Prototyping. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI \u201921), Association for Computing Machinery, New York, NY, USA, 1\u201312. DOI:https://doi.org/10.1145/3411764.3445311",
+      "doi": "10.1145/3411764.3445311"
+    },
+    {
+      "text": "Haruki Takahashi and Jeeeun Kim. 2019. 3D Printed Fabric: Techniques for Design and 3D Weaving Programmable Textiles. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology, ACM, New Orleans LA USA, 43\u201351. DOI:https://doi.org/10.1145/3332165.3347896",
+      "doi": "10.1145/3332165.3347896"
+    },
+    {
+      "text": "Thingiverse.com. 2019. Chainmail - 3D Printable Fabric by flowalistik. Retrieved September 16, 2022 from https://www.thingiverse.com/thing:3096598",
+      "doi": ""
+    },
+    {
+      "text": "Thingiverse.com. Thingiverse - Digital Designs for Physical Objects. Retrieved September 16, 2022 from https://www.thingiverse.com/",
+      "doi": ""
+    },
+    {
+      "text": "Bernhard Thomaszewski, Stelian Coros, Damien Gauge, Vittorio Megaro, Eitan Grinspun, and Markus Gross. 2014. Computational design of linkage-based characters. ACM Trans. Graph. 33, 4 (July 2014), 1\u20139. DOI:https://doi.org/10.1145/2601097.2601143",
+      "doi": "10.1145/2601097.2601143"
+    },
+    {
+      "text": "Thibault Tricard, Vincent Tavernier, C\u00e9dric Zanni, Jon\u00e0s Mart\u00ednez, Pierre-Alexandre Hugron, Fabrice Neyret, and Sylvain Lefebvre. 2020. Freely orientable microstructures for designing deformable 3D prints. ACM Trans. Graph. 39, 6 (December 2020), 1\u201316. DOI:https://doi.org/10.1145/3414685.3417790",
+      "doi": "10.1145/3414685.3417790"
+    },
+    {
+      "text": "Yongqiang Tu, Javier A. Arrieta-Escobar, Alaa Hassan, Uzair Khaleeq uz Zaman, Ali Siadat, and Gongliu Yang. 2021. Optimizing Process Parameters of Direct Ink Writing for Dimensional Accuracy of Printed Layers. 3D Print. Addit. Manuf. (December 2021), 3dp.2021.0208. DOI:https://doi.org/10.1089/3dp.2021.0208",
+      "doi": ""
+    },
+    {
+      "text": "Guanyun Wang, Ye Tao, Ozguc Bertug Capunaman, Humphrey Yang, and Lining Yao. 2019. A-line: 4D Printing Morphing Linear Composite Structures. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, ACM, Glasgow Scotland Uk, 1\u201312. DOI:https://doi.org/10.1145/3290605.3300656",
+      "doi": "10.1145/3290605.3300656"
+    },
+    {
+      "text": "Guanyun Wang, Humphrey Yang, Zeyu Yan, Nurcan Gecer Ulu, Ye Tao, Jianzhe Gu, Levent Burak Kara, and Lining Yao. 2018. 4DMesh: 4D Printing Morphing Non-Developable Mesh Surfaces. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology, ACM, Berlin Germany, 623\u2013635. DOI:https://doi.org/10.1145/3242587.3242625",
+      "doi": "10.1145/3242587.3242625"
+    },
+    {
+      "text": "Christopher Yu, Keenan Crane, and Stelian Coros. 2017. Computational design of telescoping structures. ACM Trans. Graph. 36, 4 (July 2017), 1\u20139. DOI:https://doi.org/10.1145/3072959.3073673",
+      "doi": "10.1145/3072959.3073673"
+    },
+    {
+      "text": "Grasshopper - algorithmic modeling for Rhino. Retrieved September 16, 2022 from https://www.grasshopper3d.com/",
+      "doi": ""
+    },
+    {
+      "text": "Lingyun Sun, Jiaji Li, Junzhe Ji, Deying Pan, Mingming Li, Kuangqi Zhu, Yitao Fan, Yue Yang, Ye Tao, and Guanyun Wang. 2022. X-Bridges: Designing Tunable Bridges to Enrich 3D Printed Objects' Deformation and Stiffness. In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22). Association for Computing Machinery, New York, NY, USA, Article 20, 1\u201312. DOI:https://doi.org/10.1145/3526113.3545710",
+      "doi": "10.1145/3526113.3545710"
+    },
+    {
+      "text": "Blair Subbaraman and Nadya Peek. 2022. P5.fab: Direct Control of Digital Fabrication Machines from a Creative Coding Environment. In Designing Interactive Systems Conference (DIS '22). Association for Computing Machinery, New York, NY, USA, 1148\u20131161. DOI:https://doi.org/10.1145/3532106.3533496",
+      "doi": "10.1145/3532106.3533496"
+    },
+    {
+      "text": "Jacques Cal\u00ec, Dan A. Calian, Cristina Amati, Rebecca Kleinberger, Anthony Steed, Jan Kautz, and Tim Weyrich. 2012. 3D-printing of non-assembly, articulated models. ACM Trans. Graph. 31, 6, Article 130 (November 2012), 8 pages. DOI:https://doi.org/10.1145/2366145.2366149",
+      "doi": "10.1145/2366145.2366149"
+    },
+    {
+      "text": "A. G. Ambekar. 2007. Mechanism and machine theory. PHI Learning Private Limited, Delhi.",
+      "doi": ""
+    },
+    {
+      "text": "Frikk Fossdal, Rogardt Heldal, and Nadya Peek. 2021. Interactive Digital Fabrication Machine Control Directly Within a CAD Environment. In Proceedings of the 6th Annual ACM Symposium on Computational Fabrication (SCF '21). Association for Computing Machinery, New York, NY, USA, Article 8, 1\u201315. DOI:https://doi.org/10.1145/3485114.3485120",
+      "doi": "10.1145/3485114.3485120"
+    },
+    {
+      "text": "Fidget Toggle Switch- Digital Designs by kriswillcode November 20, 2021 from https://www.thingiverse.com/thing:5141239/comments",
+      "doi": ""
+    },
+    {
+      "text": "Stefanie Mueller, Bastian Kruck, and Patrick Baudisch. 2013. LaserOrigami: laser-cutting 3D objects. In CHI '13 Extended Abstracts on Human Factors in Computing Systems (CHI EA '13). Association for Computing Machinery, New York, NY, USA, 2851\u20132852. https://doi.org/10.1145/2468356.2479544",
+      "doi": "10.1145/2468356.2479544"
+    },
+    {
+      "text": "Save the Whales (Kinetic Whales) by erwoong October 26, 2019 from https://www.thingiverse.com/thing:3934354",
+      "doi": ""
+    },
+    {
+      "text": "Articulated armor robot by SebTheis September 09, 2016 from https://www.thingiverse.com/thing:1760622",
+      "doi": ""
+    },
+    {
+      "text": "Lingyun Sun, Jiaji Li, Mingming Li, Yitao Fan, Yu Chen, Deying Pan, Yue Yang, Junzhe Ji, Ye Tao, and Guanyun Wang. 2021. 3DP-Ori: Bridging-Printing Based Origami Fabrication Method with Modifiable Haptic properties. In Adjunct Proceedings of the 34th Annual ACM Symposium on User Interface Software and Technology (UIST '21 Adjunct). Association for Computing Machinery, New York, NY, USA, 74\u201377. https://doi.org/10.1145/3474349.3480233",
+      "doi": "10.1145/3474349.3480233"
+    },
+    {
+      "text": "Lingyun Sun, Yu Chen, Deying Pan, Yue Yang, Yitao Fan, Jiaji Li, Ziqian Shao, Ye Tao, and Guanyun Wang. 2021. FlexCube: 3D Printing Tunable Meta-structures with Triply Periodic Minimal Surfaces. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (CHI EA '21). Association for Computing Machinery, New York, NY, USA, Article 190, 1\u20134. https://doi.org/10.1145/3411763.3451562",
+      "doi": "10.1145/3411763.3451562"
+    },
+    {
+      "text": "Liang He, Xia Su, Huaishu Peng, Jeffrey Ian Lipton, and Jon E. Froehlich. 2022. Kinergy: Creating 3D Printable Motion using Embedded Kinetic Energy. In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22). Association for Computing Machinery, New York, NY, USA, Article 69, 1\u201315. https://doi.org/10.1145/3526113.3545636",
+      "doi": "10.1145/3526113.3545636"
+    },
+    {
+      "text": "Lingyun Sun, Jiaji Li, Yu Chen, Yue Yang, Ye Tao, Guanyun Wang, and Lining Yao. 2020. 4DTexture: A Shape-Changing Fabrication Method for 3D Surfaces with Texture. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA '20). Association for Computing Machinery, New York, NY, USA, 1\u20137. https://doi.org/10.1145/3334480.3383053",
+      "doi": "10.1145/3334480.3383053"
+    },
+    {
+      "text": "Guanyun Wang, Tingyu Cheng, Youngwook Do, Humphrey Yang, Ye Tao, Jianzhe Gu, Byoungkwon An, and Lining Yao. 2018. Printed Paper Actuator: A Low-cost Reversible Actuation and Sensing Method for Shape Changing Interfaces. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). Association for Computing Machinery, New York, NY, USA, Paper 569, 1\u201312. https://doi.org/10.1145/3173574.3174143",
+      "doi": "10.1145/3173574.3174143"
+    }
+  ]
+}

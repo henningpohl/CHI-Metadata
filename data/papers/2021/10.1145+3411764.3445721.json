@@ -1,0 +1,225 @@
+{
+  "doi": "10.1145/3411764.3445721",
+  "title": "Automatic Generation of Two-Level Hierarchical Tutorials from Instructional Makeup Videos",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2021,
+  "badges": [],
+  "abstract": "We present a multi-modal approach for automatically generating hierarchical tutorials from instructional makeup videos. Our approach is inspired by prior research in cognitive psychology, which suggests that people mentally segment procedural tasks into event hierarchies, where coarse-grained events focus on objects while fine-grained events focus on actions. In the instructional makeup domain, we find that objects correspond to facial parts while fine-grained steps correspond to actions on those facial parts. Given an input instructional makeup video, we apply a set of heuristics that combine computer vision techniques with transcript text analysis to automatically identify the fine-level action steps and group these steps by facial part to form the coarse-level events. We provide a voice-enabled, mixed-media UI to visualize the resulting hierarchy and allow users to efficiently navigate the tutorial (e.g., skip ahead, return to previous steps) at their own pace. Users can navigate the hierarchy at both the facial-part and action-step levels using click-based interactions and voice commands. We demonstrate the effectiveness of segmentation algorithms and the resulting mixed-media UI on a variety of input makeup videos. A user study shows that users prefer following instructional makeup videos in our mixed-media format to the standard video UI and that they find our format much easier to navigate.",
+  "authors": [
+    {
+      "name": "Anh Truong",
+      "institution": "Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659081044",
+      "orcid": "missing"
+    },
+    {
+      "name": "Peggy Chi",
+      "institution": "Google Research, United States",
+      "img": "/do/10.1145/contrib-81440599192/rel-imgonly/peggychi_se2.jpg",
+      "acmid": "81440599192",
+      "orcid": "0000-0001-8511-2834"
+    },
+    {
+      "name": "David Salesin",
+      "institution": "Google Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100188207",
+      "orcid": "missing"
+    },
+    {
+      "name": "Irfan Essa",
+      "institution": "Google Research Google, United States",
+      "img": "/do/10.1145/contrib-81100313702/rel-imgonly/121029ar569-cropped.jpeg",
+      "acmid": "81100313702",
+      "orcid": "0000-0002-6236-2969"
+    },
+    {
+      "name": "Maneesh Agrawala",
+      "institution": "Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100346089",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Maneesh Agrawala, Doantam Phan, Julie Heiser, John Haymaker, Jeff Klingner, Pat Hanrahan, and Barbara Tversky. 2003. Designing Effective Step-by-step Assembly Instructions. ACM Trans. Graph. 22, 3 (July 2003), 828\u2013837. https://doi.org/10.1145/882262.882352",
+      "doi": "10.1145/882262.882352"
+    },
+    {
+      "text": "Jean-Baptiste Alayrac, Piotr Bojanowski, Nishant Agrawal, Josef Sivic, Ivan Laptev, and Simon Lacoste-Julien. 2016. Unsupervised learning from narrated instruction videos. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Computer Vision Foundation / IEEE, Las Vegas, NV, USA, 4575\u20134583.",
+      "doi": ""
+    },
+    {
+      "text": "B. Brown. 2008. Bobbi Brown Makeup Manual: For Everyone from Beginner to Pro. Grand Central Publishing, New York, NY, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Huiwen Chang, Jingwan Lu, Fisher Yu, and Adam Finkelstein. 2018. PairedCycleGAN: Asymmetric Style Transfer for Applying and Removing Makeup. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR). Computer Vision Foundation / IEEE, Salt Lake City, UT, USA, 40\u201348.",
+      "doi": ""
+    },
+    {
+      "text": "Minsuk Chang, Anh Truong, Oliver Wang, Maneesh Agrawala, and Juho Kim. 2019. How to Design Voice Based Navigation for How-To Videos. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). ACM, New York, NY, USA, Article 701, 11\u00a0pages. https://doi.org/10.1145/3290605.3300931",
+      "doi": "10.1145/3290605.3300931"
+    },
+    {
+      "text": "Hung-Jen Chen, Ka-Ming Hui, Szu-Yu Wang, Li-Wu Tsao, Hong-Han Shuai, and Wen-Huang Cheng. 2019. BeautyGlow: On-Demand Makeup Transfer Framework With Reversible Generative Network. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR). Computer Vision Foundation / IEEE, Long Beach, CA, USA, 10042\u201310050.",
+      "doi": ""
+    },
+    {
+      "text": "Pei-Yu Chi, Sally Ahn, Amanda Ren, Mira Dontcheva, Wilmot Li, and Bj\u00f6rn Hartmann. 2012. MixT: Automatic Generation of Step-by-Step Mixed Media Tutorials. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology (Cambridge, Massachusetts, USA) (UIST \u201912). Association for Computing Machinery, New York, NY, USA, 93\u2013102. https://doi.org/10.1145/2380116.2380130",
+      "doi": "10.1145/2380116.2380130"
+    },
+    {
+      "text": "Pei-Yu Chi, Joyce Liu, Jason Linder, Mira Dontcheva, Wilmot Li, and Bjoern Hartmann. 2013. DemoCut: Generating Concise Instructional Videos for Physical Demonstrations. In Proceedings of the 26th Annual ACM Symposium on User Interface Software and Technology (St. Andrews, Scotland, United Kingdom) (UIST \u201913). Association for Computing Machinery, New York, NY, USA, 141\u2013\u2013150. https://doi.org/10.1145/2501988.2502052",
+      "doi": "10.1145/2501988.2502052"
+    },
+    {
+      "text": "Jonathan\u00a0D. Denning, William\u00a0B. Kerr, and Fabio Pellacini. 2011. MeshFlow: Interactive Visualization of Mesh Construction Sequences. In ACM SIGGRAPH 2011 Papers (Vancouver, British Columbia, Canada) (SIGGRAPH \u201911). Association for Computing Machinery, New York, NY, USA, Article 66, 8\u00a0pages. https://doi.org/10.1145/1964921.1964961",
+      "doi": "10.1145/1964921.1964961"
+    },
+    {
+      "text": "Logan Fiorella and Richard\u00a0E Mayer. 2018. What works and doesn\u2019t work with instructional video.",
+      "doi": ""
+    },
+    {
+      "text": "C.\u00a0Ailie Fraser, Joy\u00a0O. Kim, Hijung\u00a0Valentina Shin, Joel Brandt, and Mira Dontcheva. 2020. Temporal Segmentation of Creative Live Streams. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376437",
+      "doi": "10.1145/3313831.3376437"
+    },
+    {
+      "text": "Google. 2020. Cloud Natural Language documentation | Cloud Natural Language API. Google Cloud. https://cloud.google.com/natural-language/docs",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2020. Cloud Speech-to-Text - Speech Recognition | Google Cloud. Google Cloud. https://cloud.google.com/speech-to-text",
+      "doi": ""
+    },
+    {
+      "text": "Floraine Grabler, Maneesh Agrawala, Wilmot Li, Mira Dontcheva, and Takeo Igarashi. 2009. Generating Photo Manipulation Tutorials by Demonstration. In ACM SIGGRAPH 2009 Papers (New Orleans, Louisiana) (SIGGRAPH \u201909). Association for Computing Machinery, New York, NY, USA, Article 66, 9\u00a0pages. https://doi.org/10.1145/1576246.1531372",
+      "doi": "10.1145/1576246.1531372"
+    },
+    {
+      "text": "Tovi Grossman, Justin Matejka, and George Fitzmaurice. 2010. Chronicle: Capture, Exploration, and Playback of Document Workflow Histories. In Proceedings of the 23nd Annual ACM Symposium on User Interface Software and Technology (New York, New York, USA) (UIST \u201910). Association for Computing Machinery, New York, NY, USA, 143\u2013152. https://doi.org/10.1145/1866029.1866054",
+      "doi": "10.1145/1866029.1866054"
+    },
+    {
+      "text": "Julie Heiser, Doantam Phan, Maneesh Agrawala, Barbara Tversky, and Pat Hanrahan. 2004. Identification and Validation of Cognitive Design Principles for Automated Generation of Assembly Instructions. In Proceedings of the Working Conference on Advanced Visual Interfaces (Gallipoli, Italy) (AVI \u201904). ACM, New York, NY, USA, 311\u2013319. https://doi.org/10.1145/989863.989917",
+      "doi": "10.1145/989863.989917"
+    },
+    {
+      "text": "D. Huang, J.\u00a0J. Lim, L. Fei-Fei, and J.\u00a0C. Niebles. 2017. Unsupervised Visual-Linguistic Reference Resolution in Instructional Videos. In 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). Computer Vision Foundation / IEEE, Honolulu, HI, USA, 1032\u20131041.",
+      "doi": ""
+    },
+    {
+      "text": "De-An Huang, Shyamal Buch, Lucio Dery, Animesh Garg, Li Fei-Fei, and Juan Carlos\u00a0Niebles. 2018. Finding \u201cIt\u201d: Weakly-Supervised Reference-Aware Visual Grounding in Instructional Videos. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Computer Vision Foundation / IEEE, Salt Lake City, UT, USA, 5948\u20135957.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Huang, Vivek Rathod, Chen Sun, Menglong Zhu, Anoop Korattikara, Alireza Fathi, Ian Fischer, Zbigniew Wojna, Yang Song, Sergio Guadarrama, 2017. Speed/accuracy trade-offs for modern convolutional object detectors. In Proceedings of the IEEE conference on computer vision and pattern recognition. Computer Vision Foundation / IEEE, Honolulu, HI, USA, 7310\u20137311.",
+      "doi": ""
+    },
+    {
+      "text": "R. Jones. 2017. Robert Jones\u2019 Makeup Masterclass: A Complete Course in Makeup for All Levels, Beginner to Advanced. Fair Winds Press, Beverly, MA, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Yoshinari Kameda and Michihiko Minoh. 1996. A human motion estimation method using 3-successive video frames. In International conference on virtual systems and multimedia. VSMM, Gifu, Japan, 135\u2013140.",
+      "doi": ""
+    },
+    {
+      "text": "Archana Kannan. 2020. Shopping for a beauty product? Try it on with Google. https://blog.google/products/shopping/shopping-beauty-product-try-it-google/",
+      "doi": ""
+    },
+    {
+      "text": "Juho Kim, Phu\u00a0Tran Nguyen, Sarah Weir, Philip\u00a0J. Guo, Robert\u00a0C. Miller, and Krzysztof\u00a0Z. Gajos. 2014. Crowdsourcing Step-by-Step Information Extraction to Enhance Existing How-to Videos. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 4017\u20134026. https://doi.org/10.1145/2556288.2556986",
+      "doi": "10.1145/2556288.2556986"
+    },
+    {
+      "text": "Bridjet Lee and Kasia Muldner. 2020. Instructional Video Design: Investigating the Impact of Monologue- and Dialogue-Style Presentations. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376845",
+      "doi": "10.1145/3313831.3376845"
+    },
+    {
+      "text": "Rainer\u00a0W. Lienhart. 1998. Comparison of automatic shot boundary detection algorithms. In Storage and Retrieval for Image and Video Databases VII, Minerva\u00a0M. Yeung, Boon-Lock Yeo, and Charles\u00a0A. Bouman (Eds.), Vol.\u00a03656. International Society for Optics and Photonics, SPIE, San Jose, CA, USA, 290 \u2013 301. https://doi.org/10.1117/12.333848",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Malmaud, Jonathan Huang, Vivek Rathod, Nick Johnston, Andrew Rabinovich, and Kevin Murphy. 2015. What\u2019s Cookin\u2019? Interpreting Cooking Videos using Text, Speech and Vision. CoRR abs/1503.01558(2015), 1\u201310. arxiv:1503.01558http://arxiv.org/abs/1503.01558",
+      "doi": ""
+    },
+    {
+      "text": "Julie\u00a0Bauer Morrison, Barbara Tversky, and Mireille Betrancourt. 2000. Animation: Does it facilitate learning. In AAAI spring symposium on smart graphics, Vol.\u00a05359. The AAAI Press, Menlo Park, CA, USA, 8.",
+      "doi": ""
+    },
+    {
+      "text": "Megha Nawhal, Jacqueline\u00a0B Lang, Greg Mori, and Parmit\u00a0K Chilana. 2019. VideoWhiz: Non-Linear Interactive Overviews for Recipe Videos.. In Graphics Interface. Canadian Information Processing Society, Kingston, Ontario, Canada, 15\u20131.",
+      "doi": ""
+    },
+    {
+      "text": "Celie O\u2019Neil-Hart. 2017. Self-directed learning from YouTube - Think with Google. https://www.thinkwithgoogle.com/advertising-channels/video/self-directed-learning-youtube/",
+      "doi": ""
+    },
+    {
+      "text": "Amy Pavel, Colorado Reed, Bj\u00f6rn Hartmann, and Maneesh Agrawala. 2014. Video Digests: A Browsable, Skimmable Format for Informational Lecture Videos. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology(Honolulu, Hawaii, USA) (UIST \u201914). ACM, New York, NY, USA, 573\u2013582. https://doi.org/10.1145/2642918.2647400",
+      "doi": "10.1145/2642918.2647400"
+    },
+    {
+      "text": "Promise Phan. 2015. \u2019INSIDE OUT\u2019 Makeup Tutorial (Disgust,Sadness,Joy,Anger & Fear). https://www.youtube.com/watch?v=C1DXqkOCBt0",
+      "doi": ""
+    },
+    {
+      "text": "Suporn Pongnumkul, Mira Dontcheva, Wilmot Li, Jue Wang, Lubomir Bourdev, Shai Avidan, and Michael\u00a0F. Cohen. 2011. Pause-and-Play: Automatically Linking Screencast Video Tutorials with Applications. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology(Santa Barbara, California, USA) (UIST \u201911). Association for Computing Machinery, New York, NY, USA, 135\u2013144. https://doi.org/10.1145/2047196.2047213",
+      "doi": "10.1145/2047196.2047213"
+    },
+    {
+      "text": "Ozan Sener, Amir\u00a0R Zamir, Silvio Savarese, and Ashutosh Saxena. 2015. Unsupervised semantic parsing of video collections. In Proceedings of the IEEE International Conference on Computer Vision. Computer Vision Foundation / IEEE, Santiago, Chile, 4480\u20134488.",
+      "doi": "10.1109/ICCV.2015.509"
+    },
+    {
+      "text": "Chen Sun, Austin Myers, Carl Vondrick, Kevin Murphy, and Cordelia Schmid. 2019. Videobert: A joint model for video and language representation learning. In Proceedings of the IEEE International Conference on Computer Vision. Computer Vision Foundation / IEEE, Long Beach, CA, USA, 7464\u20137473.",
+      "doi": ""
+    },
+    {
+      "text": "Anh Truong, Floraine Berthouzoz, Wilmot Li, and Maneesh Agrawala. 2016. QuickCut: An Interactive Tool for Editing Narrated Video. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (Tokyo, Japan) (UIST \u201916). Association for Computing Machinery, New York, NY, USA, 497\u2013507. https://doi.org/10.1145/2984511.2984569",
+      "doi": "10.1145/2984511.2984569"
+    },
+    {
+      "text": "Sylvaine Tuncer, Barry Brown, and Oskar Lindwall. 2020. On Pause: How Online Instructional Videos Are Used to Achieve Practical Tasks. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376759",
+      "doi": "10.1145/3313831.3376759"
+    },
+    {
+      "text": "Sylvaine Tuncer, Barry Brown, and Oskar Lindwall. 2020. On Pause: How Online Instructional Videos Are Used to Achieve Practical Tasks. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376759",
+      "doi": "10.1145/3313831.3376759"
+    },
+    {
+      "text": "Jiang Wang, Yang Song, Thomas Leung, Chuck Rosenberg, Jingbin Wang, James Philbin, Bo Chen, and Ying Wu. 2014. Learning fine-grained image similarity with deep ranking. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Computer Vision Foundation / IEEE, Columbus, OH, USA, 1386\u20131393.",
+      "doi": "10.1109/CVPR.2014.180"
+    },
+    {
+      "text": "Sarah Weir, Juho Kim, Krzysztof\u00a0Z. Gajos, and Robert\u00a0C. Miller. 2015. Learnersourcing Subgoal Labels for How-to Videos. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (Vancouver, BC, Canada) (CSCW \u201915). Association for Computing Machinery, New York, NY, USA, 405\u2013416. https://doi.org/10.1145/2675133.2675219",
+      "doi": "10.1145/2675133.2675219"
+    },
+    {
+      "text": "Wikipedia contributors. 2020. F1 score. https://en.m.wikipedia.org/wiki/F1_score",
+      "doi": ""
+    },
+    {
+      "text": "Ann Yuan and Andrey Vakunov. 2020. Face and hand tracking in the browser with MediaPipe and TensorFlow.js. https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0M Zacks and Barbara Tversky. 2001. Event structure in perception and conception.Psychological bulletin 127, 1 (2001), 3.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0M Zacks, Barbara Tversky, and Gowri Iyer. 2001. Perceiving, remembering, and communicating structure in events.Journal of experimental psychology: General 130, 1 (2001), 29.",
+      "doi": ""
+    },
+    {
+      "text": "Dimitri Zhukov, Jean-Baptiste Alayrac, Ramazan\u00a0Gokberk Cinbis, David Fouhey, Ivan Laptev, and Josef Sivic. 2019. Cross-task weakly supervised learning from instructional videos. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Computer Vision Foundation / IEEE, Long Beach, CA, USA, 3537\u20133545.",
+      "doi": ""
+    }
+  ]
+}

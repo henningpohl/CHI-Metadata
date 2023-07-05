@@ -1,0 +1,422 @@
+{
+  "doi": "10.1145/3411764.3445186",
+  "title": "Screen Recognition: Creating Accessibility Metadata for Mobile Applications from Pixels",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Many accessibility features available on mobile platforms require applications (apps) to provide complete and accurate metadata describing user interface (UI) components. Unfortunately, many apps do not provide sufficient metadata for accessibility features to work as expected. In this paper, we explore inferring accessibility metadata for mobile apps from their pixels, as the visual interfaces often best reflect an app\u2019s full functionality. We trained a robust, fast, memory-efficient, on-device model to detect UI elements using a dataset of 77,637 screens (from 4,068 iPhone apps) that we collected and annotated. To further improve UI detections and add semantic information, we introduced heuristics (e.g., UI grouping and ordering) and additional models (e.g., recognize UI content, state, interactivity). We built Screen Recognition to generate accessibility metadata to augment iOS VoiceOver. In a study with 9 screen reader users, we validated that our approach improves the accessibility of existing mobile apps, enabling even previously inaccessible apps to be used.",
+  "authors": [
+    {
+      "name": "Xiaoyi Zhang",
+      "institution": "Apple Inc, United States",
+      "img": "/do/10.1145/contrib-99658762821/rel-imgonly/img_8197.jpg",
+      "acmid": "99658762821",
+      "orcid": "missing"
+    },
+    {
+      "name": "Lilian de Greef",
+      "institution": "Apple Inc, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81558390756",
+      "orcid": "missing"
+    },
+    {
+      "name": "Amanda Swearngin",
+      "institution": "Apple Inc, United States",
+      "img": "/do/10.1145/contrib-81488669260/rel-imgonly/avatar.jpg",
+      "acmid": "81488669260",
+      "orcid": "missing"
+    },
+    {
+      "name": "Samuel White",
+      "institution": "Apple Inc, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81461650186",
+      "orcid": "missing"
+    },
+    {
+      "name": "Kyle Murray",
+      "institution": "Apple Inc, United States",
+      "img": "/do/10.1145/contrib-81472644403/rel-imgonly/km.jpg",
+      "acmid": "81472644403",
+      "orcid": "missing"
+    },
+    {
+      "name": "Lisa Yu",
+      "institution": "Apple Inc, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700530",
+      "orcid": "missing"
+    },
+    {
+      "name": "Qi Shan",
+      "institution": "Apple Inc, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "84459283357",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jeffrey Nichols",
+      "institution": "Apple Inc, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700706",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jason Wu",
+      "institution": "Apple Inc, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659524635",
+      "orcid": "0000-0001-5101-0557"
+    },
+    {
+      "name": "Chris Fleizach",
+      "institution": "Apple Inc, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701200",
+      "orcid": "missing"
+    },
+    {
+      "name": "Aaron Everitt",
+      "institution": "Apple Inc, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700742",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jeffrey P Bigham",
+      "institution": "Apple Inc, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81338487593",
+      "orcid": "0000-0002-2072-0625"
+    }
+  ],
+  "references": [
+    {
+      "text": "Apple. 2020. About the VoiceOver rotor on iPhone, iPad, and iPod touch. https://support.apple.com/en-us/HT204783/",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2020. Accessibility for Developers. https://developer.apple.com/accessibility/.",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2020. Boosted Trees Classifier. https://apple.github.io/turicreate/docs/userguide/supervised-learning/boosted_trees_classifier.html",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2020. iOS 14 Preview - Features. https://www.apple.com/ios/ios-14-preview/features/.",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2020. Recognizing Text in Images. https://developer.apple.com/documentation/vision/recognizing_text_in_images/",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2020. Turi Create. https://github.com/apple/turicreate/",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2020. UIAccessibility. https://developer.apple.com/documentation/objectivec/vision/nsobject/uiaccessibility/",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2020. Use Switch Control to navigate your iPhone, iPad, or iPod touch. https://support.apple.com/en-us/HT201370.",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2020. Use Voice Control on your iPhone, iPad, or iPod touch. https://support.apple.com/en-us/HT210417.",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2020. Vision Accessibility - iPhone. https://www.apple.com/accessibility/iphone/vision/",
+      "doi": ""
+    },
+    {
+      "text": "Nikola Banovic, Tovi Grossman, Justin Matejka, and George Fitzmaurice. 2012. Waken: Reverse Engineering Usage Information and Interface Structure from Software Videos. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology(UIST \u201912). ACM, New York, NY, USA, 83\u201392.",
+      "doi": "10.1145/2380116.2380129"
+    },
+    {
+      "text": "Tony Beltramelli. 2018. Pix2Code: Generating Code from a Graphical User Interface Screenshot. In Proceedings of the ACM SIGCHI Symposium on Engineering Interactive Computing Systems (Paris, France) (EICS \u201918). ACM, New York, NY, USA, Article 3, 6\u00a0pages.",
+      "doi": "10.1145/3220134.3220135"
+    },
+    {
+      "text": "Pavol Bielik, Marc Fischer, and Martin Vechev. 2018. Robust relational layout synthesis from examples for Android. Proceedings of the ACM on Programming Languages 2, OOPSLA(2018), 1\u201329.",
+      "doi": "10.1145/3276526"
+    },
+    {
+      "text": "Giorgio Brajnik. 2008. A comparative test of web accessibility evaluation methods. In Proceedings of the 10th international ACM SIGACCESS conference on Computers and accessibility. 113\u2013120.",
+      "doi": "10.1145/1414471.1414494"
+    },
+    {
+      "text": "Ben Caldwell, Michael Cooper, Loretta\u00a0Guarino Reid, Gregg Vanderheiden, Wendy Chisholm, John Slatin, and Jason White. 2008. Web content accessibility guidelines (WCAG) 2.0. WWW Consortium (W3C)(2008).",
+      "doi": ""
+    },
+    {
+      "text": "Jim\u00a0A Carter and David\u00a0W Fourney. 2007. Techniques to assist in developing accessibility engineers. In Proceedings of the 9th International ACM SIGACCESS Conference on Computers and accessibility. 123\u2013130.",
+      "doi": "10.1145/1296843.1296865"
+    },
+    {
+      "text": "Tsung-Hsiang Chang, Tom Yeh, and Rob Miller. 2011. Associating the Visual Representation of User Interfaces With Their Internal Structures and Metadata. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology(UIST \u201911). ACM, New York, New York, USA.",
+      "doi": "10.1145/2047196.2047228"
+    },
+    {
+      "text": "Web\u00a0Accessibility Checker. 2011. IDI Web Accessibility Checker: Web Accessibility Checker. Online. Available: http://achecker.ca/checker/index. php. [Last accessed: 28 10 2014](2011).",
+      "doi": ""
+    },
+    {
+      "text": "Chunyang Chen, Sidong Feng, Zhengyang Liu, Zhenchang Xing, and Shengdong Zhao. 2020. From Lost to Found: Discover Missing UI Design Semantics through Recovering Missing Tags. Proceedings of the ACM on Human-Computer InteractionCSCW (2020).",
+      "doi": "10.1145/3415194"
+    },
+    {
+      "text": "Chunyang Chen, Sidong Feng, Zhenchang Xing, Linda Liu, Shengdong Zhao, and Jinshui Wang. 2019. Gallery D.C.: Design Search and Knowledge Discovery Through Auto-created GUI Component Gallery. Proceedings of the ACM on Human-Computer Interaction 3, CSCW (Nov. 2019).",
+      "doi": "10.1145/3359282"
+    },
+    {
+      "text": "Chunyang Chen, Ting Su, Guozhu Meng, Zhenchang Xing, and Yang Liu. 2018. From UI Design Image to GUI Skeleton: A Neural Machine Translator to Bootstrap Mobile GUI Implementation. In Proceedings of the 40th International Conference on Software Engineering(ICSE \u201918). ACM, New York, NY, USA, 665\u2013676.",
+      "doi": "10.1145/3180155.3180240"
+    },
+    {
+      "text": "Jieshan Chen, Chunyang Chen, Zhenchang Xing, Xin Xia, Liming Zhu, John Grundy, and Jinshui Wang. 2020. Wireframe-Based UI Design Search through Image Autoencoder. ACM Trans. Softw. Eng. Methodol. 29, 3, Article 19 (June 2020), 31\u00a0pages. https://doi.org/10.1145/3391613",
+      "doi": "10.1145/3391613"
+    },
+    {
+      "text": "Jieshan Chen, Chunyang Chen, Zhenchang Xing, Xiwei Xu, Liming Zhu, Guoqiang Li, and Jinshui Wang. 2020. Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning. 2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE) (2020).",
+      "doi": "10.1145/3377811.3380327"
+    },
+    {
+      "text": "Jieshan Chen, Mulong Xie, Zhenchang Xing, Chunyang Chen, Xiwei Xu, and Liming Zhu. 2020. Object Detection for Graphical User Interface: Old Fashioned or Deep Learning or a Combination?2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE) (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Sen Chen, Lingling Fan, Chunyang Chen, Minhui Xue, Yang Liu, and Lihua Xu. 2019. GUI-Squatting Attack: Automated Generation of Android Phishing Apps. IEEE Transactions on Dependable and Secure Computing (2019).",
+      "doi": "10.1109/TDSC.2019.2956035"
+    },
+    {
+      "text": "Sen Chen, Lingling Fan, Ting Su, Lei Ma, Yang Liu, and Lihua Xu. 2019. Automated cross-platform GUI code generation for mobile apps. In 2019 IEEE 1st International Workshop on Artificial Intelligence for Mobile (AI4Mobile). IEEE, 13\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, Chad Franzen, Joshua Hibschman, Daniel Afergan, Yang Li, Jeffrey Nichols, and Ranjitha Kumar. 2017. Rico: A mobile app dataset for building data-driven design applications. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology.",
+      "doi": "10.1145/3126594.3126651"
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, and Ranjitha Kumar. 2016. ERICA: Interaction Mining Mobile Apps. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (Tokyo, Japan) (UIST \u201916). Association for Computing Machinery, New York, NY, USA, 767\u2013776. https://doi.org/10.1145/2984511.2984581",
+      "doi": "10.1145/2984511.2984581"
+    },
+    {
+      "text": "Nicola Dell, Vidya Vaidyanathan, Indrani Medhi, Edward Cutrell, and William Thies. 2012. \u201dYours is Better!\u201d Participant Response Bias in HCI. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1321\u20131330.",
+      "doi": "10.1145/2207676.2208589"
+    },
+    {
+      "text": "Morgan Dixon and James Fogarty. 2010. Prefab: Implementing Advanced Behaviors Using Pixel-Based Reverse Engineering of Interface Structure. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201910). Association for Computing Machinery, New York, NY, USA, 1525\u20131534. https://doi.org/10.1145/1753326.1753554",
+      "doi": "10.1145/1753326.1753554"
+    },
+    {
+      "text": "Morgan Dixon, James Fogarty, and Jacob Wobbrock. 2012. A General-Purpose Target-Aware Pointing Enhancement Using Pixel-Level Analysis of Graphical Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Austin, Texas, USA) (CHI \u201912). Association for Computing Machinery, New York, NY, USA, 3167\u20133176. https://doi.org/10.1145/2207676.2208734",
+      "doi": "10.1145/2207676.2208734"
+    },
+    {
+      "text": "James\u00a0R. Eagan, Michel Beaudouin-Lafon, and Wendy\u00a0E. Mackay. 2011. Cracking the Cocoa Nut: User Interface Programming at Runtime. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology(UIST \u201911). ACM, New York, NY, USA.",
+      "doi": "10.1145/2047196.2047226"
+    },
+    {
+      "text": "Mark Everingham, Luc Van\u00a0Gool, Christopher\u00a0KI Williams, John Winn, and Andrew Zisserman. 2010. The Pascal Visual Object Classes (voc) Challenge. International Journal of Computer Vision 88, 2 (2010), 303\u2013338.",
+      "doi": "10.1007/s11263-009-0275-4"
+    },
+    {
+      "text": "MetalPop Games. 2020. UI Accessibility Plugin (UAP): GUI Tools: Unity Asset Store. https://assetstore.unity.com/packages/tools/gui/ui-accessibility-plugin-uap-87935",
+      "doi": ""
+    },
+    {
+      "text": "Cole Gleason, Amy Pavel, Emma McCamey, Christina Low, Patrick Carrington, Kris\u00a0M Kitani, and Jeffrey\u00a0P Bigham. 2020. Twitter A11y: A Browser Extension to Make Twitter Images Accessible. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3313831.3376728"
+    },
+    {
+      "text": "Google. 2020. Android Accessibility Help: Switch Access. https://support.google.com/accessibility/android/topic/6151780.",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2020. Build more accessible apps. https://developer.android.com/guide/topics/ui/accessibility/.",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2020. Get started on Android with TalkBack - Android Accessibility Help. https://support.google.com/accessibility/android/answer/6283677?hl=en",
+      "doi": ""
+    },
+    {
+      "text": "Darren Guinness, Edward Cutrell, and Meredith\u00a0Ringel Morris. 2018. Caption crawler: Enabling reusable alternative text descriptions using reverse image search. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201311.",
+      "doi": "10.1145/3173574.3174092"
+    },
+    {
+      "text": "Danna Gurari, Yinan Zhao, Meng Zhang, and Nilavra Bhattacharya. 2020. Captioning Images Taken by People Who Are Blind. (2020). arXiv:2002.08565",
+      "doi": ""
+    },
+    {
+      "text": "Jaekyu Ha, Robert\u00a0M Haralick, and Ihsin\u00a0T Phillips. 1995. Recursive XY Cut Using Bounding Boxes of Connected Components. In Proceedings of 3rd International Conference on Document Analysis and Recognition(ICDAR \u201995, Vol.\u00a02). IEEE, 952\u2013955.",
+      "doi": ""
+    },
+    {
+      "text": "Vicki\u00a0L Hanson and John\u00a0T Richards. 2013. Progress on website accessibility?ACM Transactions on the Web (TWEB) 7, 1 (2013), 1\u201330.",
+      "doi": ""
+    },
+    {
+      "text": "K He, G Gkioxari, P Dollar, and R Girshick. 2017. Mask R-CNN. In 2017 IEEE International Conference on Computer Vision (ICCV). 2980\u20132988.",
+      "doi": ""
+    },
+    {
+      "text": "MD\u00a0Zakir Hossain, Ferdous Sohel, Mohd\u00a0Fairuz Shiratuddin, and Hamid Laga. 2019. A comprehensive survey of deep learning for image captioning. ACM Computing Surveys (CSUR) 51, 6 (2019), 1\u201336.",
+      "doi": "10.1145/3295748"
+    },
+    {
+      "text": "Forrest Huang, John\u00a0F Canny, and Jeffrey Nichols. 2019. Swire: Sketch-based user interface retrieval. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201310.",
+      "doi": "10.1145/3290605.3300334"
+    },
+    {
+      "text": "Andrej Karpathy and Li Fei-Fei. 2015. Deep visual-semantic alignments for generating image descriptions. In Proceedings of the IEEE conference on computer vision and pattern recognition. 3128\u20133137.",
+      "doi": ""
+    },
+    {
+      "text": "Shachar Kaufman, Saharon Rosset, Claudia Perlich, and Ori Stitelman. 2012. Leakage in data mining: Formulation, detection, and avoidance. ACM Transactions on Knowledge Discovery from Data (TKDD) 6, 4(2012), 1\u201321.",
+      "doi": ""
+    },
+    {
+      "text": "Ranjitha Kumar, Jerry\u00a0O Talton, Salman Ahmad, and Scott\u00a0R Klemmer. 2011. Bricolage: example-based retargeting for web design. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2197\u20132206.",
+      "doi": "10.1145/1978942.1979262"
+    },
+    {
+      "text": "Toby Jia-Jun Li, Amos Azaria, and Brad\u00a0A. Myers. 2017. SUGILITE: Creating Multimodal Smartphone Automation by Demonstration. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 6038\u20136049. https://doi.org/10.1145/3025453.3025483",
+      "doi": "10.1145/3025453.3025483"
+    },
+    {
+      "text": "Thomas\u00a0F. Liu, Mark Craft, Jason Situ, Ersin Yumer, Radomir Mech, and Ranjitha Kumar. 2018. Learning Design Semantics for Mobile Apps. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (Berlin, Germany) (UIST \u201918). Association for Computing Machinery, New York, NY, USA, 569\u2013579. https://doi.org/10.1145/3242587.3242650",
+      "doi": "10.1145/3242587.3242650"
+    },
+    {
+      "text": "Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander\u00a0C Berg. 2016. SSD: Single shot multibox detector. In European conference on computer vision. Springer, 21\u201337.",
+      "doi": ""
+    },
+    {
+      "text": "Atif Memon, Ishan Banerjee, and Adithya Nagarajan. 2003. GUI ripping: Reverse engineering of graphical user interfaces for testing. In Proceedings of the 10th Working Conference on Reverse Engineering(WCRE \u201903). Citeseer, 260\u2013269.",
+      "doi": ""
+    },
+    {
+      "text": "Kevin\u00a0Patrick Moran, Carlos Bernal-C\u00e1rdenas, Michael Curcio, Richard Bonett, and Denys Poshyvanyk. 2018. Machine Learning-Based Prototyping of Graphical User Interfaces for Mobile Apps. IEEE Transactions on Software Engineering(2018).",
+      "doi": ""
+    },
+    {
+      "text": "George Nagy and Sharad\u00a0C. Seth. 1984. Hierarchical Representation of Optically Scanned Documents. Proceedings of the 7th International Conference on Pattern Recognition (1984), 347\u2013349. https://ci.nii.ac.jp/naid/10006753131/en/",
+      "doi": ""
+    },
+    {
+      "text": "Alexander Neubeck and Luc Van\u00a0Gool. 2006. Efficient non-maximum suppression. In 18th International Conference on Pattern Recognition (ICPR\u201906), Vol.\u00a03. IEEE, 850\u2013855.",
+      "doi": "10.1109/ICPR.2006.479"
+    },
+    {
+      "text": "T. Nguyen, P. Vu, H. Pham, and T. Nguyen. 2018. Deep Learning UI Design Patterns of Mobile Apps. In 2018 IEEE/ACM 40th International Conference on Software Engineering: New Ideas and Emerging Technologies Results (ICSE-NIER). 65\u201368.",
+      "doi": ""
+    },
+    {
+      "text": "Tuan\u00a0Anh Nguyen and Christoph Csallner. 2015. Reverse Engineering Mobile Application User Interfaces with REMAUI (T). In IEEE/ACM International Conference on Automated Software Engineering(ASE \u201915). IEEE, 248\u2013259.",
+      "doi": "10.1109/ASE.2015.32"
+    },
+    {
+      "text": "Dan\u00a0R. Olsen, Scott\u00a0E. Hudson, Thom Verratti, Jeremy\u00a0M. Heiner, and Matt Phelps. 1999. Implementing Interface Attachments based on Surface Representations. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201999). ACM, New York, New York, USA.",
+      "doi": "10.1145/302979.303038"
+    },
+    {
+      "text": "Elaine Pearson, Chrstopher Bailey, and Steve Green. 2011. A tool to support the web accessibility evaluation process for novices. In Proceedings of the 16th annual joint conference on Innovation and technology in computer science education. 28\u201332.",
+      "doi": "10.1145/1999747.1999758"
+    },
+    {
+      "text": "Pixelogik. 2020. ColorCube. https://github.com/pixelogik/ColorCube",
+      "doi": ""
+    },
+    {
+      "text": "Suporn Pongnumkul, Mira Dontcheva, Wilmot Li, Jue Wang, Lubomir Bourdev, Shai Avidan, and Michael\u00a0F Cohen. 2011. Pause-and-play: automatically linking screencast video tutorials with applications. In Proceedings of the 24th annual ACM symposium on User interface software and technology. 135\u2013144.",
+      "doi": "10.1145/2047196.2047213"
+    },
+    {
+      "text": "Christopher Power, Andr\u00e9 Freire, Helen Petrie, and David Swallow. 2012. Guidelines are only half of the story: accessibility problems encountered by blind users on the web. In Proceedings of the SIGCHI conference on human factors in computing systems. 433\u2013442.",
+      "doi": "10.1145/2207676.2207736"
+    },
+    {
+      "text": "Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. 2016. You only look once: Unified, real-time object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition. 779\u2013788.",
+      "doi": ""
+    },
+    {
+      "text": "Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. 2015. Faster r-cnn: Towards real-time object detection with region proposal networks. In Advances in neural information processing systems. 91\u201399.",
+      "doi": ""
+    },
+    {
+      "text": "Anne\u00a0Spencer Ross, Xiaoyi Zhang, James Fogarty, and Jacob\u00a0O. Wobbrock. 2017. Epidemiology as a Framework for Large-Scale Mobile Application Accessibility Assessment. In Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility (Baltimore, Maryland, USA) (ASSETS \u201917). Association for Computing Machinery, New York, NY, USA, 2\u201311. https://doi.org/10.1145/3132525.3132547",
+      "doi": "10.1145/3132525.3132547"
+    },
+    {
+      "text": "Anne\u00a0Spencer Ross, Xiaoyi Zhang, James Fogarty, and Jacob\u00a0O. Wobbrock. 2018. Examining Image-Based Button Labeling for Accessibility in Android Apps through Large-Scale Analysis. In Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility (Galway, Ireland) (ASSETS \u201918). Association for Computing Machinery, New York, NY, USA, 119\u2013130. https://doi.org/10.1145/3234695.3236364",
+      "doi": "10.1145/3234695.3236364"
+    },
+    {
+      "text": "Anne\u00a0Spencer Ross, Xiaoyi Zhang, James Fogarty, and Jacob\u00a0O. Wobbrock. 2020. An Epidemiology-Inspired Large-Scale Analysis of Android App Accessibility. ACM Trans. Access. Comput. 13, 1, Article 4 (April 2020), 36\u00a0pages. https://doi.org/10.1145/3348797",
+      "doi": "10.1145/3348797"
+    },
+    {
+      "text": "Santiago. 2018. Confusion Matrix in Object Detection with TensorFlow. https://towardsdatascience.com/confusion-matrix-in-object-detection-with-tensorflow-b9640a927285",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0S. Schwerdtfeger. 1991. Making the GUI Talk. ftp://service.boulder.ibm.com/sns/sr-os2/sr2doc/guitalk.txt.",
+      "doi": ""
+    },
+    {
+      "text": "Amanda Swearngin, Mira Dontcheva, Wilmot Li, Joel Brandt, Morgan Dixon, and Amy\u00a0J. Ko. 2018. Rewire: Interface Design Assistance from Examples. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201918). ACM, New York, NY, USA, 504:1\u2013504:12.",
+      "doi": "10.1145/3173574.3174078"
+    },
+    {
+      "text": "Amanda Swearngin and Yang Li. 2019. Modeling Mobile Interface Tappability Using Crowdsourcing and Deep Learning. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3290605.3300305",
+      "doi": "10.1145/3290605.3300305"
+    },
+    {
+      "text": "Hironobu Takagi, Shinya Kawanaka, Masatomo Kobayashi, Takashi Itoh, and Chieko Asakawa. 2008. Social accessibility: achieving accessibility through collaborative metadata authoring. In Proceedings of the 10th international ACM SIGACCESS conference on Computers and accessibility.",
+      "doi": "10.1145/1414471.1414507"
+    },
+    {
+      "text": "Alibaba Tech. 2019. UI2code: How to Fine-tune Background and Foreground Analysis. https://medium.com/hackernoon/ui2code-how-to-fine-tune-background-and-foreground-analysis-fb269edcd12c",
+      "doi": ""
+    },
+    {
+      "text": "Shari Trewin, Diogo Marques, and Tiago Guerreiro. 2015. Usage of Subjective Scales in Accessibility Research(ASSETS \u201915). Association for Computing Machinery, New York, NY, USA, 59\u201367. https://doi.org/10.1145/2700648.2809867",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0D White, Gordon Fraser, and Guy\u00a0J Brown. 2019. Improving random GUI testing with image-based widget detection. In Proceedings of the 28th ACM SIGSOFT International Symposium on Software Testing and Analysis. 307\u2013317.",
+      "doi": "10.1145/3293882.3330551"
+    },
+    {
+      "text": "Shengqu Xi, Shao Yang, Xusheng Xiao, Yuan Yao, Yayuan Xiong, Fengyuan Xu, Haoyu Wang, Peng Gao, Zhuotao Liu, Feng Xu, and Jian Lu. 2019. DeepIntent: Deep Icon-Behavior Learning for Detecting Intention-Behavior Discrepancy in Mobile Apps. In Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security (London, United Kingdom) (CCS \u201919). Association for Computing Machinery, New York, NY, USA, 2421\u20132436. https://doi.org/10.1145/3319535.3363193",
+      "doi": "10.1145/3319535.3363193"
+    },
+    {
+      "text": "Xusheng Xiao, Xiaoyin Wang, Zhihao Cao, Hanlin Wang, and Peng Gao. 2019. Iconintent: automatic identification of sensitive ui widgets based on icon classification for android apps. In 2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE). IEEE, 257\u2013268.",
+      "doi": "10.1109/ICSE.2019.00041"
+    },
+    {
+      "text": "Tom Yeh, Tsung-Hsiang Chang, and Robert\u00a0C. Miller. 2009. Sikuli: Using GUI Screenshots for Search and Automation. In Proceedings of the 22nd Annual ACM Symposium on User Interface Software and Technology (Victoria, BC, Canada) (UIST \u201909). Association for Computing Machinery, New York, NY, USA, 183\u2013192. https://doi.org/10.1145/1622176.1622213",
+      "doi": "10.1145/1622176.1622213"
+    },
+    {
+      "text": "Luke\u00a0S. Zettlemoyer and Robert St.\u00a0Amant. 1999. A Visual Medium for Programmatic Control of Interactive Applications. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201999). ACM, New York, New York, USA, 199\u2013206.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaoyi Zhang, Anne\u00a0Spencer Ross, Anat Caspi, James Fogarty, and Jacob\u00a0O Wobbrock. 2017. Interaction proxies for runtime repair and enhancement of mobile application accessibility. In Proceedings of the 2017 CHI conference on human factors in computing systems. 6024\u20136037.",
+      "doi": "10.1145/3025453.3025846"
+    },
+    {
+      "text": "Xiaoyi Zhang, Anne\u00a0Spencer Ross, and James Fogarty. 2018. Robust Annotation of Mobile Application Interfaces in Methods for Accessibility Repair and Enhancement. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology. 609\u2013621.",
+      "doi": "10.1145/3242587.3242616"
+    }
+  ]
+}

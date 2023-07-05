@@ -1,0 +1,199 @@
+{
+  "doi": "10.1145/800276.810966",
+  "title": "Designing SENSE (a software environment for social science rEsearch): The role of software tools",
+  "published": "1981-05-21",
+  "proctitle": "CHI '81: Proceedings of the Joint Conference on Easier and More Productive Use of Computer Systems. (Part - II): Human Interface and the User Interface - Volume 1981",
+  "pages": "79-85",
+  "year": 1981,
+  "badges": [],
+  "abstract": "In most general purpose computer systems there is a wide variety\nof software available to users. Such software is usually provided\nin one of three organisational forms - routines in a library;\ncollections of related functions grouped in a package with a common\ninterface; independent programs called through operating system\ncommands. This interdependent tripartite structure creates problems\nfor non-sophisticated users as it involves different levels of user\ninterface complexity.At the routine level a user must write\nprograms in an appropriate host programming language to use the\nsoftware. If he wishes to use a selection of routines written in\nincompatible languages then he may have to familiarise himself with\nmore than one host language. In each language he must be aware of\nthe calling conventions for routines, the possible representations\nof various types of data, the methods of passing parameters and the\nways of inputting and outputting data to and from the external\nenvironment. This type of interface occurs with libraries like NAG\nand IMSL.\nIn the case of packages the imperative user interface is usually\nsomewhat simpler, consisting essentially of a name identifying the\nfunction required and some associated parameters which identify\nvariables, labels, files, options, control and code values, etc as\nappropriate. However, function calls of this form must normally be\npreceded by a non-trivial amount of declarative and other \"red\ntape\" information expressed in the package interface language.\nAlso, package environments can be restrictive in that the user is\nconstrained to the types of data structure and analysis supported\nby the chosen package unless he is prepared to write programs to\ntransform his data for other packages or to analyse it\nindependently. SPSS is typical of this kind of package.\nWhen software facilities are provided at the program level, the\nuser interface often consists simply of one-line program invocation\ncommands written in the local operating system's command language,\nwith program options and data files identified by command\nparameters. Common examples of such facilities are sort and\narchiving programs. A program level interface becomes even simpler,\nand at the same time more powerful, if command sequences can be\nformed into parameterised command procedures and if programs are\nenabled to conmlunicate directly with one another without the need\nfor explicit intermediate files.\nIn the latter type of environment the application software user\ngenerally finds that there are analytic program tools available to\nmeet only some of his requirements. Consequently he has to embrace\neither or both of the other levels in addition in order to increase\nthe analytic power available to him. Transfer between levels is not\neasily accomplished in most systems as facilities do not normally\nexist to help the user move data between levels. This difficulty\ncomes on top of the obvious problem of having to master more than\none interface and more than one level of complexity.\nIn the SENSE project (11), which is funded by the U.K. Social\nScience Research Council, we are creating a prototype computing\nenvironment for social science researchers which can accommodate\nnon-sophisticated users. The aim is to provide an integrated\nenvironment where such users will have a complete range of\napplication software available (packages, routines and programs)\nthrough a single, simple user interface. We believe that this can\nbe achieved by exploiting and extending the concept of software\ntools propounded by Kernighan and Plauger (19), so that as far as\npossible all software can be used through a program level\ninterface, with its attendant advantages. Following Kernighan and\nPlauger we believe that software tools \"can be used to create a\ncomfortable and effective interface to existing programs\", as well\nas providing an ideal model for the structuring of brand new\napplication software. This paper will consider various aspects of\nthe initial design of the SENSE software environment with\nparticular reference to the importance of software tools in that\ndesign.",
+  "authors": [
+    {
+      "name": "N. J. Fiddian",
+      "institution": "missing",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81460646147",
+      "orcid": "missing"
+    },
+    {
+      "name": "W. A. Gray",
+      "institution": "missing",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81460651906",
+      "orcid": "missing"
+    },
+    {
+      "name": "M. W. Read",
+      "institution": "missing",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100573245",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Aho, A.V.,Kernighan, B.W. and Weinberger,P.J. (1979), AWK - A Pattern Scanning and Processing Language, Software Practice and Experience 9, pp. 267-279.",
+      "doi": ""
+    },
+    {
+      "text": "Alty, J.L. (1978), Report from the Working Party on Microprocessors to the U.K. Computer Board for Universities and Research Councils.",
+      "doi": ""
+    },
+    {
+      "text": "Becker, R.A. and Chambers, J.M.(1978), Design and implementation of the S system for interactive data analysis, Proc. IEEE Compsac 78,pp. 626-629.",
+      "doi": ""
+    },
+    {
+      "text": "Bland R., Lewis, J.W., Lippiatt, A.G. and Smith, B. (1978), Report to the SSRC on the potential of micro-processors as tools for the analysis of social science data.",
+      "doi": ""
+    },
+    {
+      "text": "Bottomore, T., and Nisbet, R. (eds.) (1979), A History of Sociological Analysis, Heineman.",
+      "doi": ""
+    },
+    {
+      "text": "Buhler, S.(1978), P-STAT 78 User's Manual, P-STAT Inc., Princeton, N.J. 08540.",
+      "doi": ""
+    },
+    {
+      "text": "Burnard, L., Hockey, S. and Marriott, I. (1979), Oxford Concordance Project, Oxford university Computing Service.",
+      "doi": ""
+    },
+    {
+      "text": "Crawford, T. and Berry-Rogghe, G.L.M. (1973), COCOA Manual. Science Research Council.",
+      "doi": ""
+    },
+    {
+      "text": "Dixon, W.J. (1975), BMDP Biomedical Computer Programs, Berkeley. University of California Press.",
+      "doi": ""
+    },
+    {
+      "text": "Dolotta, T.A., Haight, R.E. and Mashey,J.R. (1978), The Programmer's Workbench, Bell Sys. Tech. Journal, vol. 57, pp. 2177-2200.",
+      "doi": ""
+    },
+    {
+      "text": "Fiddian, N.J., Gray, W.A. and Read, M.W. (1980), A proposed integrated Software ENvironment for Social science rEsearch (SENSE) - rationale and outline, Proc. 2nd Int. Conf. on Databases in the Humanities and Social Sciences, Madrid, June 1980.",
+      "doi": ""
+    },
+    {
+      "text": "Ford, B., Bentley, J., Du Croz, J.J. and Hague, S.J. (1979), The NAG Library \"Machine\", Software Practice and Experience 9, pp. 65-72.",
+      "doi": ""
+    },
+    {
+      "text": "Foster, B.L. and Seidman, S.B. (1978), SONETI: Social network analysis and modelling System. Vol.1 User's Manual; Vol.2 Program listings/technical comment, Report of Center for Social Analysis.",
+      "doi": ""
+    },
+    {
+      "text": "Helwig, J.T. (1978), SAS Introductory Guide, SAS Institute Inc., Raleigh, North Carolina 27605.",
+      "doi": ""
+    },
+    {
+      "text": "Holler, E. (1981), The National Software Works (NSW), in Lampson, B.W., Paul, M. and Siegert, H.J. (1981), Distributed Systems - Architecture and Implementation, Springer-Verlag. ",
+      "doi": "10.5555/647434.723878"
+    },
+    {
+      "text": "Iker, H.P. (1976), WORDS system manual, Rochester, University Medical Center, mimeo.",
+      "doi": ""
+    },
+    {
+      "text": "Ivie, E.L. (1977), The Programmer's Workbench - a machine for software development, Comm. ACM20(10), pp. 746-753.  ",
+      "doi": "10.1145/359842.359856"
+    },
+    {
+      "text": "Kernighan, B.W. and Mashey, J.R. (1979), The UNIXTM Programming Environment, Software Practice and Experience 9, pp.1-15.",
+      "doi": ""
+    },
+    {
+      "text": "Kernighan, B.W. and Plauger, P.J. (1976), Software Tools, Addison-Wesley. ",
+      "doi": "10.5555/578706"
+    },
+    {
+      "text": "Klensin, J.C., Dawson, R. and Yntema, D.B. (1978), The CONSISTENT System: history and status, ACM SIGSOC Bulletin, vol.10.",
+      "doi": ""
+    },
+    {
+      "text": "Lampson, B.W. (1981), Ethernet, Pup and Violet in Lampson et al. (1981), Distributed Systems - Architecture and Implementation, Springer-Verlag. ",
+      "doi": "10.5555/647434.723884"
+    },
+    {
+      "text": "Leece, J. (1976), A survey of the teaching of computing techniques to social scientists, Report to SSRC Computing Committee.",
+      "doi": ""
+    },
+    {
+      "text": "Meyers, E.D. (1979), A perspective on Interactive Survey Analysis, ACM SIGSOC Bulletin, vol.10 (4), pp.9-15.  ",
+      "doi": "10.1145/1103676.1103677"
+    },
+    {
+      "text": "Nie, N.H., Hull, C.H., Jenkins, J.G,, Steinbrenner, K. and Bent, D.H. (1975), SPSS: Statistical Package for the Social Sciences, McGraw-Hill.",
+      "doi": ""
+    },
+    {
+      "text": "Nie, N.H., Hull, C.H., Franklin,M.H., Jenkins, J.G., Sours, K.J., Norusis, M.J. and Beadle, V.(1980), SCSS: A User's Guide to the SCSS TM Conversational system, McGraw-Hill.",
+      "doi": ""
+    },
+    {
+      "text": "Payne, C. (1979), Specification for SNAP - Social Network Analysis Package, Nuffield College, mimeo.",
+      "doi": ""
+    },
+    {
+      "text": "Rin, N.A. and Brown, M., An Overview of a System for Automatic Generation of File Conversion Programs, Software Practice and Experience 5, pp. 193-202.",
+      "doi": ""
+    },
+    {
+      "text": "Ritchie, D.M. and Thompson, K.(1978), The UNIX TM Time-Sharing System, Bell Sys.Tech.Journal, vol.57, pp.1905-1930.",
+      "doi": ""
+    },
+    {
+      "text": "Robinson, B.N., Anderson, G.D., Cohen, E., Gazdzik, W.F., Karpel, L.C., Miller, A.H., and Stein, J.R. (1980), SIR: User's Manual, version 2, SIR Inc., PO Box 1404, Evanston, Illinois 60204.",
+      "doi": ""
+    },
+    {
+      "text": "Rowe, B., Hall, J. and Scheer, M. (1975), Computer Software for Survey Analysis, SSRC Newsletter 29.",
+      "doi": ""
+    },
+    {
+      "text": "Ryan, T.A., Joiner, B.L. and Ryan, B.F. (1976), MINITAB: Student Handbook, Duxbury Press.",
+      "doi": ""
+    },
+    {
+      "text": "SSRC (1973) Computing and the Social Sciences, Report of an SSRC Panel.",
+      "doi": ""
+    },
+    {
+      "text": "SSRC (1975), Research Grant Scheme, SSRC.",
+      "doi": ""
+    },
+    {
+      "text": "Statistics Canada, RAPID Database Management System - General Information, Statistics Canada, 12th floor, R.H.Coates Bldg., Tunney's Pasture, Ottawa, Canada.",
+      "doi": ""
+    },
+    {
+      "text": "Stone, P.J., Dunphy, D.C., Smith, M.S. and Ogilvie, D.M. (1966), The GENERAL INQUIRER: a computer approach to content analysis, Cambridge: Mass, MIT Press.",
+      "doi": ""
+    },
+    {
+      "text": "Tuthill,W. (1981), Literary text processing by computer, Comparative Literature Dept., Univ. of California at Berkeley, Berkeley, California 94720.",
+      "doi": ""
+    },
+    {
+      "text": "Uhlig, R.P., Farber, D.J. and Bair, J.H. (1979), The Office of the Future, North-Holland.",
+      "doi": ""
+    },
+    {
+      "text": "Utting, J. and Hall, J. (1973), The use of computers in University Social Science Departments, SSRC Survey Unit Occasional Paper 3.",
+      "doi": ""
+    },
+    {
+      "text": "Leveque, F.H., Shaw, A. and Turk,P. (1974), INFOL 2 Reference Manual, University College London Computer Centre, London.",
+      "doi": ""
+    },
+    {
+      "text": "Micro Pro (1980), Data Star TM User's Guide, Micro Pro International Corporation, San Rafael, CA 94901.",
+      "doi": ""
+    },
+    {
+      "text": "Micro Pro (1980), Word Star TMUser's Guide, Micro Pro International Corporation, San Rafael, CA 94901.",
+      "doi": ""
+    }
+  ]
+}

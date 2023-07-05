@@ -1,0 +1,138 @@
+{
+  "doi": "10.1145/3173574.3174041",
+  "title": "Bolt: Instantaneous Crowdsourcing via Just-in-Time Training",
+  "published": "2018-04-21",
+  "proctitle": "CHI '18: Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-7",
+  "year": 2018,
+  "badges": [],
+  "abstract": "Real-time crowdsourcing has made it possible to solve problems that are beyond the scope of artificial intelligence (AI) within a matter of seconds, rather than hours or days with traditional crowdsourcing techniques. While this has led to an increase in the potential application domains of crowdsourcing and human computation, problems that require machine-level speeds---on the order of milliseconds, not seconds---have remained out of reach because of the fundamental bounds of human perception and response time. In this paper, we demonstrate that it is possible to exceed these bounds by combining human and machine intelligence. We introduce the look-ahead approach, a hybrid intelligence workflow that enables instantaneous crowdsourcing systems (i.e., those that can return crowd responses within mere milliseconds). The look-ahead approach works by exploring possible future states that may be encountered within a short time horizon (e.g., a few seconds into the future) and prefetching crowd worker responses to these states. We validate the efficacy and explore the limitations of our approach on the Bolt system, which consists of an arcade-style game (Lightning Dodger) that we formally model as a Markov Decision Process (MDP). When the MDP reward function is unspecified---as in many real-world tasks---the look-ahead approach enables just-in-time (JIT) training of the agent's policy function. Through a series of crowd worker experiments, we demonstrate that the look-ahead approach can outperform the fastest individual worker by approximately two orders of magnitude. Our work opens new avenues for hybrid intelligence systems that are as smart as people, but also far faster than humanly possible.",
+  "authors": [
+    {
+      "name": "Alan Lundgard",
+      "institution": "University of Michigan, Ann Arbor, MI, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659249453",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yiwei Yang",
+      "institution": "University of Michigan, Ann Arbor, MI, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659163088",
+      "orcid": "missing"
+    },
+    {
+      "name": "Maya L. Foster",
+      "institution": "Johns Hopkins University, Baltimore, MD, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659260640",
+      "orcid": "missing"
+    },
+    {
+      "name": "Walter S. Lasecki",
+      "institution": "University of Michigan, Ann Arbor, MI, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81490695200",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Pieter Abbeel and Andrew Y. Ng. 2004. Apprenticeship Learning via Inverse Reinforcement Learning. In Proceedings of the Twenty-first International Conference on Machine Learning (ICML '04). ACM, New York, NY, USA.  ",
+      "doi": "10.1145/1015330.1015430"
+    },
+    {
+      "text": "Marc G. Bellemare, Yavar Naddaf, Joel Veness, and Michael Bowling. 2015. The Arcade Learning Environment. In Proceedings of the 24th International Conference on Artificial Intelligence (IJCAI'15). AAAI Press, 4148--4152. http://dl.acm.org/citation.cfm?id=2832747.2832830 ",
+      "doi": "10.5555/2832747.2832830"
+    },
+    {
+      "text": "Michael S. Bernstein, Joel Brandt, Robert C. Miller, and David R. Karger. 2011. Crowds in Two Seconds: Enabling Realtime Crowd-powered Interfaces. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology (UIST '11). ACM, New York, NY, USA, 33--42.  ",
+      "doi": "10.1145/2047196.2047201"
+    },
+    {
+      "text": "Jeffrey P. Bigham, Chandrika Jayant, Hanjie Ji, Greg Little, Andrew Miller, Robert C. Miller, Robin Miller, Aubrey Tatarowicz, Brandyn White, Samual White, and Tom Yeh. 2010. VizWiz: Nearly Real-time Answers to Visual Questions. In Proceedings of the 23rd Annual ACM Symposium on User Interface Software and Technology (UIST '10). ACM, New York, NY, USA, 333--342.  ",
+      "doi": "10.1145/1866029.1866080"
+    },
+    {
+      "text": "Jeffrey P. Bigham, Walter S. Lasecki, and Jake Wobbrock. 2015. Target Acquisition and the Crowd Actor. Human Computation 1 (2015), 101--131.",
+      "doi": ""
+    },
+    {
+      "text": "Aleksey Boyko and Thomas Funkhouser. 2014. Cheaper by the Dozen: Group Annotation of 3D Data. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (UIST '14). ACM, New York, NY, USA, 33--42.  ",
+      "doi": "10.1145/2642918.2647418"
+    },
+    {
+      "text": "J. Costa, C. Silva, M. Antunes, and B. Ribeiro. 2011. On Using Crowdsourcing And Active Learning To Improve Classification Performance. In 2011 11th International Conference on Intelligent Systems Design and Applications. 469--474.",
+      "doi": ""
+    },
+    {
+      "text": "Peng Dai, Mausam, and Daniel S. Weld. 2011. Artificial Intelligence for Artificial Artificial Intelligence. In Proceedings of the Twenty-Fifth AAAI Conference on Artificial Intelligence (AAAI'11). AAAI, 1153--1159. http://dl.acm.org/citation.cfm?id=2900423.2900606 ",
+      "doi": "10.5555/2900423.2900606"
+    },
+    {
+      "text": "Gabriel V. de la Cruz, Bei Peng, Walter S. Lasecki, and Matthew E. Taylor. 2015. Towards Integrating Real-Time Crowd Advice with Reinforcement Learning. In Proceedings of the 20th International Conference on Intelligent User Interfaces Companion (IUI '15). ACM, New York, NY, USA, 17--20.  ",
+      "doi": "10.1145/2732158.2732180"
+    },
+    {
+      "text": "Mitchell Gordon, Jeffrey P. Bigham, and Walter S. Lasecki. 2015. LegionTools: A Toolkit + UI for Recruiting and Routing Crowds to Synchronous Real-Time Tasks. In Adjunct Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology (UIST '15 Adjunct). ACM, New York, NY, USA, 81--82.  ",
+      "doi": "10.1145/2815585.2815729"
+    },
+    {
+      "text": "Shane Griffith, Kaushik Subramanian, Jonathan Scholz, Charles L. Isbell, and Andrea Thomaz. 2013. Policy Shaping: Integrating Human Feedback with Reinforcement Learning. In Proceedings of the 26th International Conference on Neural Information Processing Systems - Volume 2 (NIPS'13). Curran Associates Inc., USA, 2625--2633. http://dl.acm.org/citation.cfm?id=2999792.2999905 ",
+      "doi": "10.5555/2999792.2999905"
+    },
+    {
+      "text": "W. Bradley Knox and Peter Stone. 2009. Interactively Shaping Agents via Human Reinforcement: The TAMER Framework. In Proceedings of the Fifth International Conference on Knowledge Capture (K-CAP '09). ACM, New York, NY, USA, 9--16.  ",
+      "doi": "10.1145/1597735.1597738"
+    },
+    {
+      "text": "Walter Lasecki, Christopher Miller, Adam Sadilek, Andrew Abumoussa, Donato Borrello, Raja Kushalnagar, and Jeffrey Bigham. 2012. Real-time Captioning by Groups of Non-experts. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology (UIST '12). ACM, New York, NY, USA, 23--34.  ",
+      "doi": "10.1145/2380116.2380122"
+    },
+    {
+      "text": "Walter S. Lasecki, Mitchell Gordon, Danai Koutra, Malte F. Jung, Steven P. Dow, and Jeffrey P. Bigham. 2014. Glance: Rapidly Coding Behavioral Video with the Crowd. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (UIST '14). ACM, New York, NY, USA, 551--562.  ",
+      "doi": "10.1145/2642918.2647367"
+    },
+    {
+      "text": "Walter S. Lasecki, Kyle I. Murray, Samuel White, Robert C. Miller, and Jeffrey P. Bigham. 2011. Real-time Crowd Control of Existing Interfaces. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology (UIST '11). ACM, New York, NY, USA, 23--32.  ",
+      "doi": "10.1145/2047196.2047200"
+    },
+    {
+      "text": "Jaekyu Lee, Hyesoon Kim, and Richard Vuduc. 2012. When Prefetching Works, When It Doesn't, and Why. ACM Transactions on Architecture and Code Optimization 9, 1, Article 2 (March 2012), 29 pages.  ",
+      "doi": "10.1145/2133382.2133384"
+    },
+    {
+      "text": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, and Martin A. Riedmiller. 2013. Playing Atari with Deep Reinforcement Learning. Computing Research Repository 1312.5602 (2013). http://arxiv.org/abs/1312.5602",
+      "doi": ""
+    },
+    {
+      "text": "Bei Peng, James MacGlashan, Robert Loftin, Michael L. Littman, David L. Roberts, and Matthew E. Taylor. 2016. A Need for Speed: Adapting Agent Action Speed to Improve Task Learning from Non-Expert Humans. In Proceedings of the 2016 International Conference on Autonomous Agents and Multiagent Systems (AAMAS '16). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 957--965. http://dl.acm.org/citation.cfm?id=2936924.2937065 ",
+      "doi": "10.5555/2936924.2937065"
+    },
+    {
+      "text": "Elliot Salisbury, Sebastian Stein, and Sarvapali Ramchurn. 2015. Real-time Opinion Aggregation Methods for Crowd Robotics. In Proceedings of the 2015 International Conference on Autonomous Agents and Multiagent Systems (AAMAS '15). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 841--849. http://dl.acm.org/citation.cfm?id=2772879.2773261 ",
+      "doi": "10.5555/2772879.2773261"
+    },
+    {
+      "text": "D. Song, A. Pashkevich, and K. Goldberg. 2003. Sharecam Part II: Approximate And Distributed Algorithms For A Collaboratively Controlled Robotic Webcam. In Proceedings 2003 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '03), Vol. 2. 1087--1093.",
+      "doi": ""
+    },
+    {
+      "text": "Richard S. Sutton and Andrew G. Barto. 1998. Introduction to Reinforcement Learning (1st ed.). MIT Press, Cambridge, MA, USA. ",
+      "doi": "10.5555/551283"
+    },
+    {
+      "text": "Saiganesh Swaminathan, Raymond Fok, Fanglin Chen, Ting-Hao (Kenneth) Huang, Irene Lin, Rohan Jadvani, Walter S. Lasecki, and Jeffrey P. Bigham. 2017. WearMail: On-the-Go Access to Information in Your Email with a Privacy-Preserving Human Computation Workflow. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology (UIST '17). ACM, New York, NY, USA, 807--815.  ",
+      "doi": "10.1145/3126594.3126603"
+    },
+    {
+      "text": "Sudheendra Vijayanarasimhan and Kristen Grauman. 2014. Large-Scale Live Active Learning: Training Object Detectors with Crawled Data and Crowds. International Journal of Computer Vision 108, 1--2 (May 2014), 97--114.  ",
+      "doi": "10.1007/s11263-014-0721-9"
+    },
+    {
+      "text": "Yan Yan, Romer Rosales, Glenn Fung, and Jennifer G. Dy. 2011. Active Learning from Crowds. In Proceedings of the 28th International Conference on International Conference on Machine Learning (ICML'11). Omnipress, USA, 1161--1168. http://dl.acm.org/citation.cfm?id=3104482.3104628 ",
+      "doi": "10.5555/3104482.3104628"
+    }
+  ]
+}

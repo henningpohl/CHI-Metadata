@@ -1,0 +1,890 @@
+{
+  "doi": "10.1145/3491102.3517706",
+  "title": "Beyond Being Real: A Sensorimotor Control Perspective on Interactions in Virtual Reality",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2022,
+  "badges": [],
+  "abstract": "We can create Virtual Reality (VR) interactions that have no equivalent in the real world by remapping spacetime or altering users\u2019 body representation, such as stretching the user\u2019s virtual arm for manipulation of distant objects or scaling up the user\u2019s avatar to enable rapid locomotion. Prior research has leveraged such approaches, what we call beyond-real techniques, to make interactions in VR more practical, efficient, ergonomic, and accessible. We present a survey categorizing prior movement-based VR interaction literature as reality-based, illusory, or beyond-real interactions. We survey relevant conferences (CHI, IEEE VR, VRST, UIST, and DIS) while focusing on selection, manipulation, locomotion, and navigation in VR. For beyond-real interactions, we describe the transformations that have been used by prior works to create novel remappings. We discuss open research questions through the lens of the human sensorimotor control system and highlight challenges that need to be addressed for effective utilization of beyond-real interactions in future VR applications, including plausibility, control, long-term adaptation, and individual differences.",
+  "authors": [
+    {
+      "name": "Parastoo Abtahi",
+      "institution": "Computer Science, Stanford University, United States",
+      "img": "/do/10.1145/contrib-99659201541/rel-imgonly/another_try.png",
+      "acmid": "99659201541",
+      "orcid": "missing"
+    },
+    {
+      "name": "Sidney Q. Hough",
+      "institution": "Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660235936",
+      "orcid": "missing"
+    },
+    {
+      "name": "James A. Landay",
+      "institution": "Computer Science Department, Stanford University, United States",
+      "img": "/do/10.1145/contrib-81100103519/rel-imgonly/rsd17_051_0272a-small.jpg",
+      "acmid": "81100103519",
+      "orcid": "0000-0003-1520-8894"
+    },
+    {
+      "name": "Sean Follmer",
+      "institution": "Mechanical Engineering, Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81377593653",
+      "orcid": "0000-0001-5592-5949"
+    }
+  ],
+  "references": [
+    {
+      "text": "Parastoo Abtahi and Sean Follmer. 2018. Visuo-Haptic Illusions for Improving the Perceived Performance of Shape Displays. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, 150.",
+      "doi": "10.1145/3173574.3173724"
+    },
+    {
+      "text": "Parastoo Abtahi, Mar Gonzalez-Franco, Eyal Ofek, and Anthony Steed. 2019. I\u2019m a Giant: Walking in Large Virtual Environments at High Speed Gains. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 522.",
+      "doi": "10.1145/3290605.3300752"
+    },
+    {
+      "text": "Parastoo Abtahi, Mar Gonzalez-Franco, Eyal Ofek, and Anthony Steed. 2019. I\u2019m a Giant: Walking in Large Virtual Environments at High Speed Gains. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300752",
+      "doi": "10.1145/3290605.3300752"
+    },
+    {
+      "text": "Parastoo Abtahi, Benoit Landry, Jackie\u00a0(Junrui) Yang, Marco Pavone, Sean Follmer, and James\u00a0A. Landay. 2019. Beyond The Force: Using Quadcopters to Appropriate Objects and the Environment for Haptics in Virtual Reality. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300589",
+      "doi": "10.1145/3290605.3300589"
+    },
+    {
+      "text": "Sunggeun Ahn, Stephanie Santosa, Mark Parent, Daniel Wigdor, Tovi Grossman, and Marcello Giordano. 2021. StickyPie: A Gaze-Based, Scale-Invariant Marking Menu Optimized for AR/VR. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Number 739. Association for Computing Machinery, New York, NY, USA, 1\u201316. https://doi.org/10.1145/3411764.3445297",
+      "doi": "10.1145/3411764.3445297"
+    },
+    {
+      "text": "Michael\u00a0A Arbib, James\u00a0B Bonaiuto, St\u00e9phane Jacobs, and Scott\u00a0H Frey. 2009. Tool use and the distalization of the end-effector. Psychological Research PRPF 73, 4 (2009), 441\u2013462.",
+      "doi": ""
+    },
+    {
+      "text": "Ferran Argelaguet and Carlos Andujar. 2009. Visual feedback techniques for virtual pointing on stereoscopic displays. In Proceedings of the 16th ACM Symposium on Virtual Reality Software and Technology(VRST \u201909). Association for Computing Machinery, New York, NY, USA, 163\u2013170. https://doi.org/10.1145/1643928.1643966",
+      "doi": "10.1145/1643928.1643966"
+    },
+    {
+      "text": "Ferran Argelaguet, Carlos Andujar, and Ramon Trueba. 2008. Overcoming eye-hand visibility mismatch in 3D pointing selection. In Proceedings of the 2008 ACM symposium on Virtual reality software and technology(VRST \u201908). Association for Computing Machinery, New York, NY, USA, 43\u201346. https://doi.org/10.1145/1450579.1450588",
+      "doi": "10.1145/1450579.1450588"
+    },
+    {
+      "text": "Ferran Argelaguet and Morgant Maignant. 2016. GiAnt: stereoscopic-compliant multi-scale navigation in VEs. In Proceedings of the 22nd ACM Conference on Virtual Reality Software and Technology(VRST \u201916). Association for Computing Machinery, New York, NY, USA, 269\u2013277. https://doi.org/10.1145/2993369.2993391",
+      "doi": "10.1145/2993369.2993391"
+    },
+    {
+      "text": "Rahul Arora, Rubaiat\u00a0Habib Kazi, Danny\u00a0M. Kaufman, Wilmot Li, and Karan Singh. 2019. MagicalHands: Mid-Air Hand Gestures for Animating in VR. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201919). Association for Computing Machinery, New York, NY, USA, 463\u2013477. https://doi.org/10.1145/3332165.3347942",
+      "doi": "10.1145/3332165.3347942"
+    },
+    {
+      "text": "Mahdi Azmandian, Mark Hancock, Hrvoje Benko, Eyal Ofek, and Andrew\u00a0D Wilson. 2016. Haptic retargeting: Dynamic repurposing of passive haptics for enhanced virtual reality experiences. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, 1968\u20131979.",
+      "doi": "10.1145/2858036.2858226"
+    },
+    {
+      "text": "Jeremy Bailenson. 2018. Experience on demand: What virtual reality is, how it works, and what it can do. WW Norton & Company.",
+      "doi": ""
+    },
+    {
+      "text": "Jeremy\u00a0N Bailenson, Andrew\u00a0C Beall, Jack Loomis, Jim Blascovich, and Matthew Turk. 2004. Transformed social interaction: Decoupling representation from behavior and form in collaborative virtual environments. Presence: Teleoperators & Virtual Environments 13, 4(2004), 428\u2013441.",
+      "doi": "10.1162/1054746041944803"
+    },
+    {
+      "text": "Ravin Balakrishnan and Gordon Kurtenbach. 1999. Exploring bimanual camera control and object manipulation in 3D graphics interfaces. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems(CHI \u201999). Association for Computing Machinery, New York, NY, USA, 56\u201362. https://doi.org/10.1145/302979.302991",
+      "doi": "10.1145/302979.302991"
+    },
+    {
+      "text": "Marc Baloup, Thomas Pietrzak, and G\u00e9ry Casiez. 2019. RayCursor: A 3D Pointing Facilitation Technique based on Raycasting. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300331",
+      "doi": "10.1145/3290605.3300331"
+    },
+    {
+      "text": "Domna Banakou, Raphaela Groten, and Mel Slater. 2013. Illusory ownership of a virtual child body causes overestimation of object sizes and implicit attitude changes. Proceedings of the National Academy of Sciences 110, 31 (July 2013), 12846\u201312851. https://doi.org/10.1073/pnas.1306779110",
+      "doi": ""
+    },
+    {
+      "text": "Pierre-Michel Bernier, Romeo Chua, J\u00a0Timothy Inglis, and Ian\u00a0M Franks. 2007. Sensorimotor adaptation in response to proprioceptive bias. Experimental brain research 177, 2 (2007), 147.",
+      "doi": ""
+    },
+    {
+      "text": "Nikhil Bhushan and Reza Shadmehr. 1999. Evidence for a forward dynamics model in human adaptive motor control. In Advances in Neural Information Processing Systems. 3\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Frank Biocca. 1997. The cyborg\u2019s dilemma: Progressive embodiment in virtual environments. Journal of computer-mediated communication 3, 2 (1997), JCMC324.",
+      "doi": ""
+    },
+    {
+      "text": "Frank\u00a0A Biocca and Jannick\u00a0P Rolland. 1998. Virtual eyes can rearrange your body: Adaptation to visual displacement in see-through, head-mounted displays. Presence 7, 3 (1998), 262\u2013277.",
+      "doi": "10.1162/105474698565703"
+    },
+    {
+      "text": "Pierre Bourdin, Itxaso Barberia, Ramon Oliva, and Mel Slater. 2017. A virtual out-of-body experience reduces fear of death. PloS one 12, 1 (2017), e0169343.",
+      "doi": ""
+    },
+    {
+      "text": "Doug Bowman, Ernst Kruijff, Joseph\u00a0J LaViola\u00a0Jr, and Ivan\u00a0P Poupyrev. 2004. 3D User interfaces: theory and practice, CourseSmart eTextbook. Addison-Wesley.",
+      "doi": "10.5555/993837"
+    },
+    {
+      "text": "Doug\u00a0A Bowman and Larry\u00a0F Hodges. 1997. An Evaluation of Techniques for Grabbing and Manipulating Remote Objects in Immersive Virtual Environments.SI3D 97(1997), 35\u201338.",
+      "doi": ""
+    },
+    {
+      "text": "Meredith Bricken. 1991. Virtual Reality Learning Environments: Potentials and Challenges. SIGGRAPH Comput. Graph. 25, 3 (July 1991), 178\u2013184. https://doi.org/10.1145/126640.126657",
+      "doi": ""
+    },
+    {
+      "text": "Fabio\u00a0Marco Caputo, Marco Emporio, and Andrea Giachetti. 2017. The smart pin: a novel object manipulation technique for immersive virtual environments. In Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology(VRST \u201917). Association for Computing Machinery, New York, NY, USA, 1\u20132. https://doi.org/10.1145/3139131.3141784",
+      "doi": "10.1145/3139131.3141784"
+    },
+    {
+      "text": "Lucilla Cardinali, Francesca Frassinetti, Claudio Brozzoli, Christian Urquizar, Alice\u00a0C Roy, and Alessandro Farn\u00e8. 2009. Tool-use induces morphological updating of the body schema. Current biology 19, 12 (2009), R478\u2013R479.",
+      "doi": ""
+    },
+    {
+      "text": "Roberto Casati and Elena Pasquinelli. 2005. Is the subjective feel of \u201cpresence\u201d an uninteresting goal?Journal of Visual Languages & Computing 16, 5 (2005), 428\u2013441.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Cashion, Chadwick Wingrave, and Joseph\u00a0J. LaViola\u00a0Jr.2012. Dense and Dynamic 3D Selection for Game-Based Virtual Environments. IEEE Transactions on Visualization and Computer Graphics 18, 4 (April 2012), 634\u2013642. https://doi.org/10.1109/TVCG.2012.40",
+      "doi": "10.1109/TVCG.2012.40"
+    },
+    {
+      "text": "Tanya\u00a0L Chartrand and John\u00a0A Bargh. 1999. The chameleon effect: the perception\u2013behavior link and social interaction.Journal of personality and social psychology 76, 6(1999), 893.",
+      "doi": ""
+    },
+    {
+      "text": "Lung-Pan Cheng, Eyal Ofek, Christian Holz, Hrvoje Benko, and Andrew\u00a0D Wilson. 2017. Sparse haptic proxy: Touch feedback in virtual environments using a general passive prop. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, 3718\u20133728.",
+      "doi": "10.1145/3025453.3025753"
+    },
+    {
+      "text": "Alice Chirico, David\u00a0B Yaden, Giuseppe Riva, and Andrea Gaggioli. 2016. The potential of virtual reality for the investigation of awe. Frontiers in psychology 7 (2016), 1766.",
+      "doi": ""
+    },
+    {
+      "text": "Luca Chittaro and Subramanian Venkataraman. 2006. Navigation aids for multi-floor virtual buildings: a comparative evaluation of two approaches. In Proceedings of the ACM symposium on Virtual reality software and technology(VRST \u201906). Association for Computing Machinery, New York, NY, USA, 227\u2013235. https://doi.org/10.1145/1180495.1180542",
+      "doi": "10.1145/1180495.1180542"
+    },
+    {
+      "text": "Gabriel Cirio, Maud Marchal, Tony Regia-Corte, and Anatole L\u00e9cuyer. 2009. The magic barrier tape: a novel metaphor for infinite navigation in virtual worlds with a restricted walking workspace. In Proceedings of the 16th ACM Symposium on Virtual Reality Software and Technology(VRST \u201909). Association for Computing Machinery, New York, NY, USA, 155\u2013162. https://doi.org/10.1145/1643928.1643965",
+      "doi": "10.1145/1643928.1643965"
+    },
+    {
+      "text": "Erin Connors, Elizabeth Chrastil, Jaimie S\u00e1nchez, and Lotfi\u00a0B Merabet. 2014. Action video game play and transfer of navigation and spatial cognition skills in adolescents who are blind. Frontiers in human neuroscience 8 (2014), 133.",
+      "doi": ""
+    },
+    {
+      "text": "Holk Cruse, Jeffrey Dean, H Heuer, and RA Schmidt. 1990. Utilization of sensory information for motor control. In Relationships between perception and action. Springer, 43\u201379.",
+      "doi": ""
+    },
+    {
+      "text": "Brian Day, Elham Ebrahimi, Leah\u00a0S Hartman, Christopher\u00a0C Pagano, Andrew\u00a0C Robb, and Sabarish\u00a0V Babu. 2019. Examining the effects of altered avatars on perception-action in virtual reality.Journal of Experimental Psychology: Applied 25, 1 (2019), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Gerwin de Haan, Michal Koutek, and Frits\u00a0H. Post. 2002. Towards intuitive exploration tools for data visualization in VR. In Proceedings of the ACM symposium on Virtual reality software and technology(VRST \u201902). Association for Computing Machinery, New York, NY, USA, 105\u2013112. https://doi.org/10.1145/585740.585758",
+      "doi": "10.1145/585740.585758"
+    },
+    {
+      "text": "Henrique\u00a0G. Debarba, Sami Perrin, Bruno Herbelin, and Ronan Boulic. 2015. Embodied interaction using non-planar projections in immersive virtual reality. In Proceedings of the 21st ACM Symposium on Virtual Reality Software and Technology(VRST \u201915). Association for Computing Machinery, New York, NY, USA, 125\u2013128. https://doi.org/10.1145/2821592.2821603",
+      "doi": "10.1145/2821592.2821603"
+    },
+    {
+      "text": "L. Dominjon, S. Richir, A. Lecuyer, and J.-M. Burkhardt. 2006. Haptic Hybrid Rotations: Overcoming Hardware Angular Limitations of Force-Feedback Devices. In IEEE Virtual Reality Conference (VR 2006). 167\u2013174. https://doi.org/10.1109/VR.2006.68 ISSN: 2375-5334.",
+      "doi": ""
+    },
+    {
+      "text": "Kenji Doya. 2008. Modulators of decision making. Nature neuroscience 11, 4 (2008), 410\u2013416.",
+      "doi": ""
+    },
+    {
+      "text": "Niklas Elmqvist. 2005. BalloonProbe: reducing occlusion in 3D using interactive space distortion. In Proceedings of the ACM symposium on Virtual reality software and technology(VRST \u201905). Association for Computing Machinery, New York, NY, USA, 134\u2013137. https://doi.org/10.1145/1101616.1101643",
+      "doi": "10.1145/1101616.1101643"
+    },
+    {
+      "text": "David Englmeier, Wanja Sajko, and Andreas Butz. 2021. Spherical World in Miniature: Exploring the Tiny Planets Metaphor for Discrete Locomotion in Virtual Reality. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR). 345\u2013352. https://doi.org/10.1109/VR50410.2021.00057 ISSN: 2642-5254.",
+      "doi": ""
+    },
+    {
+      "text": "Sevinc Eroglu, Frederic Stefan, Alain Chevalier, Daniel Roettger, Daniel Zielasko, Torsten\u00a0W. Kuhlen, and Benjamin Weyers. 2021. Design and Evaluation of a Free-Hand VR-based Authoring Environment for Automated Vehicle Testing. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR). 1\u201310. https://doi.org/10.1109/VR50410.2021.00020 ISSN: 2642-5254.",
+      "doi": ""
+    },
+    {
+      "text": "K.M. Fairchild, B.H. Lee, J. Loo, H. Ng, and L. Serra. 1993. The heaven and earth virtual reality: Designing applications for novice users. In Proceedings of IEEE Virtual Reality Annual International Symposium. 47\u201353. https://doi.org/10.1109/VRAIS.1993.380799",
+      "doi": "10.1109/VRAIS.1993.380799"
+    },
+    {
+      "text": "Tiare Feuchtner and J\u00f6rg M\u00fcller. 2017. Extending the body for interaction with reality. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, 5145\u20135157.",
+      "doi": "10.1145/3025453.3025689"
+    },
+    {
+      "text": "J\u00a0Randall Flanagan, Philipp Vetter, Roland\u00a0S Johansson, and Daniel\u00a0M Wolpert. 2003. Prediction precedes control in motor learning. Current Biology 13, 2 (2003), 146\u2013150.",
+      "doi": ""
+    },
+    {
+      "text": "Jesse Fox, Dylan Arena, and Jeremy\u00a0N Bailenson. 2009. Virtual reality: A survival guide for the social scientist. Journal of Media Psychology 21, 3 (2009), 95\u2013113.",
+      "doi": ""
+    },
+    {
+      "text": "S. Frees and G.D. Kessler. 2005. Precise and rapid interaction through scaled manipulation in immersive virtual environments. In IEEE Proceedings. VR 2005. Virtual Reality, 2005.99\u2013106. https://doi.org/10.1109/VR.2005.1492759 ISSN: 2375-5334.",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Freitag, Benjamin Weyers, and Torsten\u00a0W. Kuhlen. 2018. Interactive Exploration Assistance for Immersive Virtual Environments Based on Object Visibility and Viewpoint Quality. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 355\u2013362. https://doi.org/10.1109/VR.2018.8447553",
+      "doi": ""
+    },
+    {
+      "text": "Jann\u00a0Philipp Freiwald, Oscar Ariza, Omar Janeh, and Frank Steinicke. 2020. Walking by Cycling: A Novel In-Place Locomotion User Interface for Seated Virtual Reality Experiences. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376574",
+      "doi": "10.1145/3313831.3376574"
+    },
+    {
+      "text": "Doron Friedman, Rodrigo Pizarro, Keren Or-Berkers, Sol\u00e8ne Neyret, Xueni Pan, and Mel Slater. 2014. A method for generating an illusion of backwards time travel using immersive virtual reality-an exploratory study. Frontiers in psychology 5 (2014), 943.",
+      "doi": ""
+    },
+    {
+      "text": "Shinji Fukatsu, Yoshifumi Kitamura, Toshihiro Masaki, and Fumio Kishino. 1998. Intuitive control of \u201dbird\u2019s eye\u201d; overview images for navigation in an enormous virtual environment. In Proceedings of the ACM symposium on Virtual reality software and technology(VRST \u201998). Association for Computing Machinery, New York, NY, USA, 67\u201376. https://doi.org/10.1145/293701.293710",
+      "doi": "10.1145/293701.293710"
+    },
+    {
+      "text": "Markus Funk, Florian M\u00fcller, Marco Fendrich, Megan Shene, Moritz Kolvenbach, Niclas Dobbertin, Sebastian G\u00fcnther, and Max M\u00fchlh\u00e4user. 2019. Assessing the Accuracy of Point & Teleport Locomotion with Orientation Indication for Virtual Reality using Curved Trajectories. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300377",
+      "doi": "10.1145/3290605.3300377"
+    },
+    {
+      "text": "Andrea Gaggioli, Alois Ferscha, Giuseppe Riva, Stephen Dunne, and Isabell Viaud-Delmon. 2016. Human Computer Confluence: Transforming Human Experience through Symbiotic Technologies. De Gruyter Open Berlin, Germany.",
+      "doi": ""
+    },
+    {
+      "text": "Kathrin Gerling and Katta Spiel. 2021. A Critical Examination of Virtual Reality Technology in the Context of the Minority Body. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445196"
+    },
+    {
+      "text": "Marco Gillies. 2016. What is Movement Interaction in Virtual Reality for?. In Proceedings of the 3rd International Symposium on Movement and Computing. 1\u20134.",
+      "doi": "10.1145/2948910.2948951"
+    },
+    {
+      "text": "Eric\u00a0J Gonzalez, Parastoo Abtahi, and Sean Follmer. 2020. REACH+ Extending the Reachability of Encountered-type Haptics Devices through Dynamic Redirection in VR. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 236\u2013248.",
+      "doi": "10.1145/3379337.3415870"
+    },
+    {
+      "text": "Mar Gonzalez-Franco, Parastoo Abtahi, and Anthony Steed. 2019. Individual Differences in Embodied Distance Estimation in Virtual Reality. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, 941\u2013943.",
+      "doi": ""
+    },
+    {
+      "text": "Mar Gonzalez-Franco and Jaron Lanier. 2017. Model of illusions and virtual reality. Frontiers in psychology 8 (2017), 1125.",
+      "doi": ""
+    },
+    {
+      "text": "Nathan\u00a0Navarro Griffin and Eelke Folmer. 2019. Out-of-body Locomotion: Vectionless Navigation with a Continuous Avatar Representation. In 25th ACM Symposium on Virtual Reality Software and Technology(VRST \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3359996.3364243",
+      "doi": "10.1145/3359996.3364243"
+    },
+    {
+      "text": "Adrian\u00a0M Haith and John\u00a0W Krakauer. 2013. Model-based and model-free mechanisms of human motor learning. In Progress in motor control. Springer, 1\u201321.",
+      "doi": ""
+    },
+    {
+      "text": "Sara Hanson, Richard\u00a0A. Paris, Haley\u00a0A. Adams, and Bobby Bodenheimer. 2019. Improving Walking in Place Methods with Individualization and Deep Networks. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 367\u2013376. https://doi.org/10.1109/VR.2019.8797751 ISSN: 2642-5254.",
+      "doi": ""
+    },
+    {
+      "text": "Devamardeep Hayatpur, Seongkook Heo, Haijun Xia, Wolfgang Stuerzlinger, and Daniel Wigdor. 2019. Plane, Ray, and Point: Enabling Precise Spatial Manipulations with Shape Constraints. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201919). Association for Computing Machinery, New York, NY, USA, 1185\u20131195. https://doi.org/10.1145/3332165.3347916",
+      "doi": "10.1145/3332165.3347916"
+    },
+    {
+      "text": "David Hecht and Miriam Reiner. 2009. Sensory dominance in combinations of audio, visual and haptic stimuli. Experimental brain research 193, 2 (2009), 307\u2013314.",
+      "doi": ""
+    },
+    {
+      "text": "Martin Heidegger. 1996. Being and time: A translation of Sein und Zeit. SUNY press.",
+      "doi": ""
+    },
+    {
+      "text": "Herbert Heuer and Mathias Hegele. 2010. The effects of mechanical transparency on adjustment to a complex visuomotor transformation at early and late working age.Journal of Experimental Psychology: Applied 16, 4 (2010), 399.",
+      "doi": ""
+    },
+    {
+      "text": "Herbert Heuer and Sandra S\u00fclzenbr\u00fcck. 2013. Towards mastery of complex visuo-motor transformations. Frontiers in Human Neuroscience 7 (2013), 32.",
+      "doi": ""
+    },
+    {
+      "text": "Randall\u00a0W Hill\u00a0Jr, Jonathan Gratch, Stacy Marsella, Jeff Rickel, William\u00a0R Swartout, and David\u00a0R Traum. 2003. Virtual Humans in the Mission Rehearsal Exercise System.Ki 17, 4 (2003), 5.",
+      "doi": ""
+    },
+    {
+      "text": "Jim Hollan and Scott Stornetta. 1992. Beyond being there. In Proceedings of the SIGCHI conference on Human factors in computing systems. ACM, 119\u2013125.",
+      "doi": "10.1145/142750.142769"
+    },
+    {
+      "text": "Kasper Hornb\u00e6k and Antti Oulasvirta. 2017. What is interaction?. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, 5040\u20135052.",
+      "doi": "10.1145/3025453.3025765"
+    },
+    {
+      "text": "Bret Jackson, Brighten Jelke, and Gabriel Brown. 2018. Yea Big, Yea High: A 3D User Interface for Surface Selection by Progressive Refinement in Virtual Environments. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 320\u2013326. https://doi.org/10.1109/VR.2018.8447559",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0JK Jacob, Audrey Girouard, Leanne\u00a0M Hirshfield, Michael\u00a0S Horn, Orit Shaer, Erin\u00a0Treacy Solovey, and Jamie Zigelbaum. 2008. Reality-based interaction: a framework for post-WIMP interfaces. In Proceedings of the SIGCHI conference on Human factors in computing systems. ACM, 201\u2013210.",
+      "doi": "10.1145/1357054.1357089"
+    },
+    {
+      "text": "M.\u00a0P. Jacob\u00a0Habgood, David Moore, David Wilson, and Sergio Alapont. 2018. Rapid, Continuous Movement Between Nodes as an Accessible Virtual Reality Locomotion Technique. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 371\u2013378. https://doi.org/10.1109/VR.2018.8446130",
+      "doi": ""
+    },
+    {
+      "text": "Shixin Jiang and Jun Rekimoto. 2020. Mediated-Timescale Learning: Manipulating Timescales in Virtual Reality to Improve Real-World Tennis Forehand Volley. In 26th ACM Symposium on Virtual Reality Software and Technology(VRST \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20132. https://doi.org/10.1145/3385956.3422128",
+      "doi": "10.1145/3385956.3422128"
+    },
+    {
+      "text": "Shixin Jiang and Jun Rekimoto. 2020. Mediated-Timescale Learning: Manipulating Timescales in Virtual Reality to Improve Real-World Tennis Forehand Volley. In 26th ACM Symposium on Virtual Reality Software and Technology (Virtual Event, Canada) (VRST \u201920). Association for Computing Machinery, New York, NY, USA, Article 63, 2\u00a0pages. https://doi.org/10.1145/3385956.3422128",
+      "doi": "10.1145/3385956.3422128"
+    },
+    {
+      "text": "Ying Jiang, Congyi Zhang, Hongbo Fu, Alberto Cannav\u00f2, Fabrizio Lamberti, Henry Y\u00a0K Lau, and Wenping Wang. 2021. HandPainter - 3D Sketching in VR with Hand-based Physical Proxy. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Number 412. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3411764.3445302",
+      "doi": "10.1145/3411764.3445302"
+    },
+    {
+      "text": "Dacher Keltner and Jonathan Haidt. 2003. Approaching awe, a moral, spiritual, and aesthetic emotion. Cognition and emotion 17, 2 (2003), 297\u2013314.",
+      "doi": ""
+    },
+    {
+      "text": "Konstantina Kilteni, Raphaela Groten, and Mel Slater. 2012. The sense of embodiment in virtual reality. Presence: Teleoperators and Virtual Environments 21, 4(2012), 373\u2013387.",
+      "doi": "10.1162/PRES_a_00124"
+    },
+    {
+      "text": "Konstantina Kilteni, Jean-Marie Normand, Maria\u00a0V. Sanchez-Vives, and Mel Slater. 2012. Extending Body Space in Immersive Virtual Reality: A Very Long Arm Illusion. PLOS ONE 7, 7 (July 2012), e40867. https://doi.org/10.1371/journal.pone.0040867",
+      "doi": ""
+    },
+    {
+      "text": "Jarrod Knibbe, Jonas Schjerlund, Mathias Petraeus, and Kasper Hornb\u00e6k. 2018. The Dream is Collapsing: The Experience of Exiting VR. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI\u201918). ACM, New York, NY, USA, Article 483, 13\u00a0pages. https://doi.org/10.1145/3173574.3174057",
+      "doi": "10.1145/3173574.3174057"
+    },
+    {
+      "text": "Luv Kohli. 2010. Redirected touching: Warping space to remap passive haptics. In 2010 IEEE Symposium on 3D User Interfaces (3DUI). IEEE, 129\u2013130.",
+      "doi": ""
+    },
+    {
+      "text": "Elena Kokkinara, Mel Slater, and Joan L\u00f3pez-Moliner. 2015. The effects of visuomotor calibration to the perceived space and body, through embodiment in immersive virtual reality. ACM Transactions on Applied Perception (TAP) 13, 1 (2015), 1\u201322.",
+      "doi": "10.1145/2818998"
+    },
+    {
+      "text": "R. Kopper, Tao Ni, D.A. Bowman, and M. Pinho. 2006. Design and Evaluation of Navigation Techniques for Multiscale Virtual Environments. In IEEE Virtual Reality Conference (VR 2006). 175\u2013182. https://doi.org/10.1109/VR.2006.47 ISSN: 2375-5334.",
+      "doi": ""
+    },
+    {
+      "text": "Jaron Lanier. 2017. Dawn of the new everything: Encounters with reality and virtual reality. Henry Holt and Company.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0N Latta and David\u00a0J Oberg. 1994. A conceptual virtual reality model. IEEE Computer Graphics and Applications 14, 1 (1994), 23\u201329.",
+      "doi": "10.1109/38.250915"
+    },
+    {
+      "text": "Jong-In Lee, Paul Asente, Byungmoon Kim, Yeojin Kim, and Wolfgang Stuerzlinger. 2020. Evaluating Automatic Parameter Control Methods for Locomotion in Multiscale Virtual Environments. In 26th ACM Symposium on Virtual Reality Software and Technology(VRST \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/3385956.3418961",
+      "doi": ""
+    },
+    {
+      "text": "Kwan\u00a0Min Lee. 2004. Presence, explicated. Communication theory 14, 1 (2004), 27\u201350.",
+      "doi": ""
+    },
+    {
+      "text": "Sang\u00a0Wan Lee, Shinsuke Shimojo, and John\u00a0P O\u2019Doherty. 2014. Neural computations underlying arbitration between model-based and model-free learning. Neuron 81, 3 (2014), 687\u2013699.",
+      "doi": ""
+    },
+    {
+      "text": "Nianlong Li, Zhengquan Zhang, Can Liu, Zengyao Yang, Yinan Fu, Feng Tian, Teng Han, and Mingming Fan. 2021. vMirror: Enhancing the Interaction with Occluded or Distant Objects in VR with Virtual Mirrors. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Number 132. Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3411764.3445537",
+      "doi": "10.1145/3411764.3445537"
+    },
+    {
+      "text": "Klemen Lilija, Henning Pohl, and Kasper Hornb\u00e6k. 2020. Who Put That There? Temporal Navigation of Spatial Recordings by Direct Manipulation. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201311.",
+      "doi": "10.1145/3313831.3376604"
+    },
+    {
+      "text": "Jean-Baptiste Louvet and C\u00e9dric Fleury. 2016. Combining bimanual interaction and teleportation for 3D manipulation on multi-touch wall-sized displays. In Proceedings of the 22nd ACM Conference on Virtual Reality Software and Technology(VRST \u201916). Association for Computing Machinery, New York, NY, USA, 283\u2013292. https://doi.org/10.1145/2993369.2993390",
+      "doi": "10.1145/2993369.2993390"
+    },
+    {
+      "text": "Yiqin Lu, Chun Yu, and Yuanchun Shi. 2020. Investigating Bubble Mechanism for Ray-Casting to Improve 3D Target Acquisition in Virtual Reality. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 35\u201343. https://doi.org/10.1109/VR46266.2020.00021 ISSN: 2642-5254.",
+      "doi": ""
+    },
+    {
+      "text": "Diako Mardanbegi, Benedikt Mayer, Ken Pfeuffer, Shahram Jalaliniya, Hans Gellersen, and Alexander Perzl. 2019. EyeSeeThrough: Unifying Tool Selection and Application in Virtual Environments. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 474\u2013483. https://doi.org/10.1109/VR.2019.8797988 ISSN: 2642-5254.",
+      "doi": ""
+    },
+    {
+      "text": "Angela Marotta, Michele Tinazzi, Clelia Cavedini, Massimiliano Zampini, and Mirta Fiorio. 2016. Individual differences in the rubber hand illusion are related to sensory suggestibility. PloS one 11, 12 (2016), e0168489.",
+      "doi": ""
+    },
+    {
+      "text": "Marie Martel, Lucilla Cardinali, Alice\u00a0C Roy, and Alessandro Farn\u00e8. 2016. Tool-use: An open window into body representation and its plasticity. Cognitive neuropsychology 33, 1-2 (2016), 82\u2013101.",
+      "doi": ""
+    },
+    {
+      "text": "Jess McIntosh, Hubert\u00a0Dariusz Zajac, Andreea\u00a0Nicoleta Stefan, Joanna Bergstr\u00f6m, and Kasper Hornb\u00e6k. 2020. Iteratively Adapting Avatars using Task-Integrated Optimisation. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. Association for Computing Machinery, New York, NY, USA, 709\u2013721. https://doi.org/10.1145/3379337.3415832",
+      "doi": "10.1145/3379337.3415832"
+    },
+    {
+      "text": "Vincent Meyrueis, Alexis Paljic, and Philippe Fuchs. 2009. D3: an immersive aided design deformation method. In Proceedings of the 16th ACM Symposium on Virtual Reality Software and Technology(VRST \u201909). Association for Computing Machinery, New York, NY, USA, 179\u2013182. https://doi.org/10.1145/1643928.1643968",
+      "doi": "10.1145/1643928.1643968"
+    },
+    {
+      "text": "Paul Milgram, Haruo Takemura, Akira Utsumi, and Fumio Kishino. 1995. Augmented reality: A class of displays on the reality-virtuality continuum. In Telemanipulator and telepresence technologies, Vol.\u00a02351. International Society for Optics and Photonics, 282\u2013292.",
+      "doi": ""
+    },
+    {
+      "text": "Seyedkoosha Mirhosseini, Parmida Ghahremani, Sushant Ojar, Joseph Marino, and Arie Kaufrnan. 2019. Exploration of Large Omnidirectional Images in Immersive Environments. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 413\u2013422. https://doi.org/10.1109/VR.2019.8797777 ISSN: 2642-5254.",
+      "doi": ""
+    },
+    {
+      "text": "Seyedkoosha Mirhosseini, Ievgeniia Gutenko, Sushant Ojal, Joseph Marino, and Arie\u00a0E. Kaufman. 2017. Automatic speed and direction control along constrained navigation paths. In 2017 IEEE Virtual Reality (VR). 29\u201336. https://doi.org/10.1109/VR.2017.7892228 ISSN: 2375-5334.",
+      "doi": ""
+    },
+    {
+      "text": "Mohammadreza Mirzaei, Peter K\u00e1n, and Hannes Kaufmann. 2021. Head Up Visualization of Spatial Sound Sources in Virtual Reality for Deaf and Hard-of-Hearing People. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR). 582\u2013587. https://doi.org/10.1109/VR50410.2021.00083 ISSN: 2642-5254.",
+      "doi": ""
+    },
+    {
+      "text": "David Moher, Alessandro Liberati, Jennifer Tetzlaff, Douglas\u00a0G Altman, and Prisma Group. 2009. Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement. PLoS medicine 6, 7 (2009), e1000097.",
+      "doi": ""
+    },
+    {
+      "text": "Eva Moncl\u00fas, Jos\u00e9 D\u00edaz, Isabel Navazo, and Pere-Pau V\u00e1zquez. 2009. The virtual magic lantern: an interaction metaphor for enhanced medical data inspection. In Proceedings of the 16th ACM Symposium on Virtual Reality Software and Technology(VRST \u201909). Association for Computing Machinery, New York, NY, USA, 119\u2013122. https://doi.org/10.1145/1643928.1643955",
+      "doi": "10.1145/1643928.1643955"
+    },
+    {
+      "text": "Roberto\u00a0A. Montano-Murillo, Patricia\u00a0I. Cornelio-Martinez, Sriram Subramanian, and Diego Martinez-Plasencia. 2019. Drift-Correction Techniques for Scale-Adaptive VR Navigation. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201919). Association for Computing Machinery, New York, NY, USA, 1123\u20131135. https://doi.org/10.1145/3332165.3347914",
+      "doi": "10.1145/3332165.3347914"
+    },
+    {
+      "text": "Roberto\u00a0A. Montano\u00a0Murillo, Elia Gatti, Miguel Oliver\u00a0Segovia, Marianna Obrist, Jose\u00a0P. Molina\u00a0Masso, and Diego Martinez\u00a0Plasencia. 2017. NaviFields: Relevance fields for adaptive VR navigation. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology(UIST \u201917). Association for Computing Machinery, New York, NY, USA, 747\u2013758. https://doi.org/10.1145/3126594.3126645",
+      "doi": "10.1145/3126594.3126645"
+    },
+    {
+      "text": "Roberto\u00a0A. Montano-Murillo, Cuong Nguyen, Rubaiat\u00a0Habib Kazi, Sriram Subramanian, Stephen DiVerdi, and Diego Martinez-Plasencia. 2020. Slicing-Volume: Hybrid 3D/2D Multi-target Selection Technique for Dense Virtual Environments. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 53\u201362. https://doi.org/10.1109/VR46266.2020.00023 ISSN: 2642-5254.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0R Montello and Corina Sas. 2006. Human factors of wayfinding in navigation. (2006).",
+      "doi": ""
+    },
+    {
+      "text": "Annette Mossel and Christian Koessler. 2016. Large scale cut plane: an occlusion management technique for immersive dense 3D reconstructions. In Proceedings of the 22nd ACM Conference on Virtual Reality Software and Technology(VRST \u201916). Association for Computing Machinery, New York, NY, USA, 201\u2013210. https://doi.org/10.1145/2993369.2993384",
+      "doi": "10.1145/2993369.2993384"
+    },
+    {
+      "text": "Ahmed\u00a0E Mostafa, Ehud Sharlin, and Mario\u00a0Costa Sousa. 2014. Poster: Superhumans: A 3DUI design metaphor. In 2014 IEEE Symposium on 3D User Interfaces (3DUI). IEEE, 143\u2013144.",
+      "doi": ""
+    },
+    {
+      "text": "Martez Mott, Edward Cutrell, Mar\u00a0Gonzalez Franco, Christian Holz, Eyal Ofek, Richard Stoakley, and Meredith\u00a0Ringel Morris. 2019. Accessible by design: An opportunity for virtual reality. In 2019 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct). IEEE, 451\u2013454.",
+      "doi": ""
+    },
+    {
+      "text": "Fumitaka Nakaizumi, Haruo Noma, Kenichi Hosaka, and Yasuyuki Yanagida. 2006. SpotScents: A novel method of natural scent delivery using multiple scent projectors. In IEEE Virtual Reality Conference (VR 2006). IEEE, 207\u2013214.",
+      "doi": "10.1109/VR.2006.122"
+    },
+    {
+      "text": "Jung\u00a0Who Nam, Krista McCullough, Joshua Tveite, Maria\u00a0Molina Espinosa, Charles\u00a0H. Perry, Barry\u00a0T. Wilson, and Daniel\u00a0F. Keefe. 2019. Worlds-in-Wedges: Combining Worlds-in-Miniature and Portals to Support Comparative Immersive Visualization of Forestry Data. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 747\u2013755. https://doi.org/10.1109/VR.2019.8797871 ISSN: 2642-5254.",
+      "doi": ""
+    },
+    {
+      "text": "Jakob Nielsen. 1994. Usability engineering. Elsevier.",
+      "doi": "10.5555/529793"
+    },
+    {
+      "text": "Don Norman. 2013. The design of everyday things: Revised and expanded edition. Basic books.",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0A Norman and Stephen\u00a0W Draper. 1986. User centered system design; new perspectives on human-computer interaction. L. Erlbaum Associates Inc.",
+      "doi": "10.5555/576915"
+    },
+    {
+      "text": "Benjamin Nuernberger, Matthew Turk, and Tobias H\u00f6llerer. 2017. Evaluating snapping-to-photos virtual travel interfaces for 3D reconstructed visual reality. In Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology(VRST \u201917). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3139131.3139138",
+      "doi": "10.1145/3139131.3139138"
+    },
+    {
+      "text": "David\u00a0J Ostry and Paul\u00a0L Gribble. 2016. Sensory plasticity in human motor learning. Trends in neurosciences 39, 2 (2016), 114\u2013123.",
+      "doi": ""
+    },
+    {
+      "text": "Soonchan Park, Seokyeol Kim, and Jinah Park. 2012. Select ahead: efficient object selection technique using the tendency of recent cursor movements. In Proceedings of the 10th asia pacific conference on Computer human interaction(APCHI \u201912). Association for Computing Machinery, New York, NY, USA, 51\u201358. https://doi.org/10.1145/2350046.2350060",
+      "doi": "10.1145/2350046.2350060"
+    },
+    {
+      "text": "Thomas\u00a0D Parsons and Albert\u00a0A Rizzo. 2008. Affective outcomes of virtual reality exposure therapy for anxiety and specific phobias: A meta-analysis. Journal of behavior therapy and experimental psychiatry 39, 3(2008), 250\u2013261.",
+      "doi": ""
+    },
+    {
+      "text": "J.S. Pierce and R. Pausch. 2004. Navigation with place representations and visible landmarks. In IEEE Virtual Reality 2004. 173\u2013288. https://doi.org/10.1109/VR.2004.1310071 ISSN: 1087-8270.",
+      "doi": ""
+    },
+    {
+      "text": "Henning Pohl, Klemen Lilija, Jess McIntosh, and Kasper Hornb\u00e6k. 2021. Poros: Configurable Proxies for Distant Interactions in VR. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Number 532. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3411764.3445685",
+      "doi": "10.1145/3411764.3445685"
+    },
+    {
+      "text": "Ivan Poupyrev, Mark Billinghurst, Suzanne Weghorst, and Tadao Ichikawa. 1996. The go-go interaction technique: non-linear mapping for direct manipulation in VR. In Proceedings of the 9th annual ACM symposium on User interface software and technology(UIST \u201996). Association for Computing Machinery, New York, NY, USA, 79\u201380. https://doi.org/10.1145/237091.237102",
+      "doi": "10.1145/237091.237102"
+    },
+    {
+      "text": "Arnaud Prouzeau, Maxime Cordeil, Clement Robin, Barrett Ens, Bruce\u00a0H. Thomas, and Tim Dwyer. 2019. Scaptics and Highlight-Planes: Immersive Interaction Techniques for Finding Occluded Features in 3D Scatterplots. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300555",
+      "doi": "10.1145/3290605.3300555"
+    },
+    {
+      "text": "Jens Rasmussen. 1983. Skills, rules, and knowledge; signals, signs, and symbols, and other distinctions in human performance models. IEEE transactions on systems, man, and cybernetics3 (1983), 257\u2013266.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Rietzler, Martin Deubzer, Thomas Dreja, and Enrico Rukzio. 2020. Telewalk: Towards Free and Endless Walking in Room-Scale Virtual Reality. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u20139. https://doi.org/10.1145/3313831.3376821",
+      "doi": "10.1145/3313831.3376821"
+    },
+    {
+      "text": "Michael Rietzler, Florian Geiselhart, and Enrico Rukzio. 2017. The matrix has you: realizing slow motion in full-body virtual reality. In Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology(VRST \u201917). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/3139131.3139145",
+      "doi": "10.1145/3139131.3139145"
+    },
+    {
+      "text": "Michael Rietzler, Florian Geiselhart, and Enrico Rukzio. 2017. The Matrix Has You: Realizing Slow Motion in Full-Body Virtual Reality. In Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology (Gothenburg, Sweden) (VRST \u201917). Association for Computing Machinery, New York, NY, USA, Article 2, 10\u00a0pages. https://doi.org/10.1145/3139131.3139145",
+      "doi": "10.1145/3139131.3139145"
+    },
+    {
+      "text": "Yves Rossetti, Gilles Rode, Laure Pisella, Alessandro Farn\u00e9, Ling Li, Dominique Boisson, and Marie-Th\u00e9r\u00e8se Perenin. 1998. Prism adaptation to a rightward optical deviation rehabilitates left hemispatial neglect. Nature 395, 6698 (1998), 166\u2013169.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Roth, Gary Bente, Peter Kullmann, David Mal, Chris\u00a0Felix Purps, Kai Vogeley, and Marc\u00a0Erich Latoschik. 2019. Technologies for Social Augmentations in User-Embodied Virtual Reality. In 25th ACM Symposium on Virtual Reality Software and Technology(VRST \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3359996.3364269",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Roth, Constantin Klelnbeck, Tobias Feigl, Christopher Mutschler, and Marc\u00a0Erich Latoschik. 2018. Beyond Replication: Augmenting Social Behaviors in Multi-User Virtual Realities. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 215\u2013222. https://doi.org/10.1109/VR.2018.8447550",
+      "doi": ""
+    },
+    {
+      "text": "Barbara\u00a0Olasov Rothbaum, Larry Hodges, and Rob Kooper. 1997. Virtual reality exposure therapy.Journal of Psychotherapy Practice & Research (1997).",
+      "doi": ""
+    },
+    {
+      "text": "Barbara\u00a0Olasov Rothbaum, Anna\u00a0Marie Ruef, Brett\u00a0T Litz, Hyemee Han, and Larry Hodges. 2004. Virtual reality exposure therapy of combat-related PTSD: A case study using psychophysiological indicators of outcome. Advances in the treatment of posttraumatic stress disorder: Cognitive-behavioral perspectives (2004), 93\u2013112.",
+      "doi": ""
+    },
+    {
+      "text": "Shadan Sadeghian and Marc Hassenzahl. 2021. From Limitations to \u201cSuperpowers\u201d: A Design Approach to Better Focus on the Possibilities of Virtual Reality to Augment Human Capabilities. In Designing Interactive Systems Conference 2021. Association for Computing Machinery, New York, NY, USA, 180\u2013189. https://doi.org/10.1145/3461778.3462111",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0A Saunders and David\u00a0C Knill. 2005. Humans use continuous visual feedback from the hand to control both the direction and distance of pointing movements. Experimental brain research 162, 4 (2005), 458\u2013473.",
+      "doi": ""
+    },
+    {
+      "text": "Jonas Schjerlund, Kasper Hornb\u00e6k, and Joanna Bergstr\u00f6m. 2021. Ninja Hands: Using Many Hands to Improve Target Selection in VR. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Number 130. Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3411764.3445759",
+      "doi": "10.1145/3411764.3445759"
+    },
+    {
+      "text": "Steven Schkolne, Michael Pruett, and Peter Schr\u00f6der. 2001. Surface drawing: creating organic 3D shapes with the hand and tangible tools. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201901). Association for Computing Machinery, New York, NY, USA, 261\u2013268. https://doi.org/10.1145/365024.365114",
+      "doi": "10.1145/365024.365114"
+    },
+    {
+      "text": "Gregor Sch\u00f6ner. 1994. Dynamic theory of action-perception patterns: The time-before-contact paradigm. Human Movement Science 13, 3-4 (1994), 415\u2013439.",
+      "doi": ""
+    },
+    {
+      "text": "Ephraim Schott, Alexander Kulik, and Bernd Froehlich. 2020. Virtual Projection Planes for the Visual Comparison of Photogrammetric 3D Reconstructions with Photo Footage. In 26th ACM Symposium on Virtual Reality Software and Technology(VRST \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20139. https://doi.org/10.1145/3385956.3418956",
+      "doi": "10.1145/3385956.3418956"
+    },
+    {
+      "text": "Eliane Schreuder, Jan van Erp, Alexander Toet, and Victor\u00a0L Kallen. 2016. Emotional responses to multisensory environmental stimuli: A conceptual framework and literature review. Sage Open 6, 1 (2016), 2158244016630591.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen\u00a0H Scott. 2004. Optimal feedback control and the neural basis of volitional motor control. Nature Reviews Neuroscience 5, 7 (2004), 532\u2013545.",
+      "doi": ""
+    },
+    {
+      "text": "S. Seinfeld, J. Arroyo-Palacios, G. Iruretagoyena, R. Hortensius, L.\u00a0E. Zapata, D. Borland, B. de Gelder, M. Slater, and M.\u00a0V. Sanchez-Vives. 2018. Offenders become the victim in virtual reality: impact of changing perspective in domestic violence. Scientific Reports 8, 1 (Feb. 2018), 2692. https://doi.org/10.1038/s41598-018-19987-7",
+      "doi": ""
+    },
+    {
+      "text": "Sofia Seinfeld, Tiare Feuchtner, Antonella Maselli, and J\u00f6rg M\u00fcller. 2021. User representations in human-computer interaction. Human\u2013Computer Interaction 36, 5-6 (2021), 400\u2013438.",
+      "doi": ""
+    },
+    {
+      "text": "Yoshikazu Seki and Tetsuji Sato. 2010. A training system of orientation and mobility for blind people using acoustic virtual reality. IEEE Transactions on neural systems and rehabilitation engineering 19, 1(2010), 95\u2013104.",
+      "doi": ""
+    },
+    {
+      "text": "Ben Shneiderman. 2003. Why not make interfaces better than 3D reality?IEEE Computer Graphics and Applications 23, 6 (2003), 12\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Ludwig Sidenmark, Christopher Clarke, Xuesong Zhang, Jenny Phu, and Hans Gellersen. 2020. Outline Pursuits: Gaze-assisted Selection of Occluded Objects in Virtual Reality. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376438",
+      "doi": "10.1145/3313831.3376438"
+    },
+    {
+      "text": "Ludwig Sidenmark and Hans Gellersen. 2019. Eye&Head: Synergetic Eye and Head Movement for Gaze Pointing and Selection. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201919). Association for Computing Machinery, New York, NY, USA, 1161\u20131174. https://doi.org/10.1145/3332165.3347921",
+      "doi": "10.1145/3332165.3347921"
+    },
+    {
+      "text": "Ludwig Sidenmark, Dominic Potts, Bill Bapisch, and Hans Gellersen. 2021. Radi-Eye: Hands-Free Radial Interfaces for 3D Interaction using Gaze-Activated Head-Crossing. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Number 740. Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3411764.3445697",
+      "doi": "10.1145/3411764.3445697"
+    },
+    {
+      "text": "Andreas Simon and Christian Stern. 2007. Active guideline: spatiotemporal history as a motion technique and navigation aid for virtual environments. In Proceedings of the 2007 ACM symposium on Virtual reality software and technology(VRST \u201907). Association for Computing Machinery, New York, NY, USA, 199\u2013202. https://doi.org/10.1145/1315184.1315222",
+      "doi": "10.1145/1315184.1315222"
+    },
+    {
+      "text": "Andreas Simon and Christian Stern. 2007. Active Guideline: Spatiotemporal History as a Motion Technique and Navigation Aid for Virtual Environments. In Proceedings of the 2007 ACM Symposium on Virtual Reality Software and Technology (Newport Beach, California) (VRST \u201907). Association for Computing Machinery, New York, NY, USA, 199\u2013202. https://doi.org/10.1145/1315184.1315222",
+      "doi": "10.1145/1315184.1315222"
+    },
+    {
+      "text": "Alexa\u00a0F Siu, Mike Sinclair, Robert Kovacs, Eyal Ofek, Christian Holz, and Edward Cutrell. 2020. Virtual reality without vision: A haptic and auditory white cane to navigate complex virtual worlds. In Proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376353"
+    },
+    {
+      "text": "Dana Slambekova, Reynold Bailey, and Joe Geigel. 2012. Gaze and gesture based object manipulation in virtual worlds. In Proceedings of the 18th ACM symposium on Virtual reality software and technology(VRST \u201912). Association for Computing Machinery, New York, NY, USA, 203\u2013204. https://doi.org/10.1145/2407336.2407380",
+      "doi": "10.1145/2407336.2407380"
+    },
+    {
+      "text": "Mel Slater. 2009. Place illusion and plausibility can lead to realistic behaviour in immersive virtual environments. Philosophical Transactions of the Royal Society B: Biological Sciences 364, 1535 (2009), 3549\u20133557.",
+      "doi": ""
+    },
+    {
+      "text": "Mel Slater, Cristina Gonzalez-Liencres, Patrick Haggard, Charlotte Vinkers, Rebecca Gregory-Clarke, Steve Jelley, Zillah Watson, Graham Breen, Raz Schwarz, William Steptoe, 2020. The ethics of realism in virtual and augmented reality. Frontiers in Virtual Reality 1 (2020), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Mel Slater, Vasilis Linakis, Martin Usoh, and Rob Kooper. 1996. Immersion, presence and performance in virtual environments: An experiment with tri-dimensional chess. In Proceedings of the ACM symposium on virtual reality software and technology. ACM, 163\u2013172.",
+      "doi": "10.1145/3304181.3304216"
+    },
+    {
+      "text": "Mel Slater and Martin Usoh. 1994. Body centred interaction in immersive virtual environments. Artificial life and virtual reality 1, 1994 (1994), 125\u2013148.",
+      "doi": ""
+    },
+    {
+      "text": "Mel Slater and Sylvia Wilbur. 1997. A framework for immersive virtual environments (FIVE): Speculations on the role of presence in virtual environments. Presence: Teleoperators & Virtual Environments 6, 6(1997), 603\u2013616.",
+      "doi": "10.1162/pres.1997.6.6.603"
+    },
+    {
+      "text": "Samuel\u00a0J Sober and Philip\u00a0N Sabes. 2005. Flexible strategies for sensory integration during motor planning. Nature neuroscience 8, 4 (2005), 490\u2013497.",
+      "doi": ""
+    },
+    {
+      "text": "Chang\u00a0Geun Song, No\u00a0Jun Kwak, and Dong\u00a0Hyun Jeong. 2000. Developing an efficient technique of selection and manipulation in immersive V.E.. In Proceedings of the ACM symposium on Virtual reality software and technology(VRST \u201900). Association for Computing Machinery, New York, NY, USA, 142\u2013146. https://doi.org/10.1145/502390.502417",
+      "doi": "10.1145/502390.502417"
+    },
+    {
+      "text": "D. Song and M. Norman. 1993. Nonlinear interactive motion control techniques for virtual space navigation. In Proceedings of IEEE Virtual Reality Annual International Symposium. 111\u2013117. https://doi.org/10.1109/VRAIS.1993.380790",
+      "doi": "10.1109/VRAIS.1993.380790"
+    },
+    {
+      "text": "Peng Song, Wooi\u00a0Boon Goh, William Hutama, Chi-Wing Fu, and Xiaopei Liu. 2012. A handle bar metaphor for virtual object manipulation with mid-air interaction. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201912). Association for Computing Machinery, New York, NY, USA, 1297\u20131306. https://doi.org/10.1145/2207676.2208585",
+      "doi": "10.1145/2207676.2208585"
+    },
+    {
+      "text": "Misha Sra, Aske Mottelson, and Pattie Maes. 2018. Your Place and Mine: Designing a Shared VR Experience for Remotely Located Users. In Proceedings of the 2018 Designing Interactive Systems Conference(DIS \u201918). Association for Computing Machinery, New York, NY, USA, 85\u201397. https://doi.org/10.1145/3196709.3196788",
+      "doi": "10.1145/3196709.3196788"
+    },
+    {
+      "text": "Misha Sra, Xuhai Xu, and Pattie Maes. 2018. BreathVR: Leveraging Breathing as a Directly Controlled Interface for Virtual Reality Games. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173914",
+      "doi": "10.1145/3173574.3173914"
+    },
+    {
+      "text": "Frank Steinicke, Gerd Bruder, Jason Jerald, Harald Frenz, and Markus Lappe. 2009. Estimation of detection thresholds for redirected walking techniques. IEEE transactions on visualization and computer graphics 16, 1(2009), 17\u201327.",
+      "doi": "10.1109/TVCG.2009.62"
+    },
+    {
+      "text": "Rasmus Stenholt. 2012. Efficient selection of multiple objects on a large scale. In Proceedings of the 18th ACM symposium on Virtual reality software and technology(VRST \u201912). Association for Computing Machinery, New York, NY, USA, 105\u2013112. https://doi.org/10.1145/2407336.2407357",
+      "doi": "10.1145/2407336.2407357"
+    },
+    {
+      "text": "Ekaterina\u00a0R Stepanova, Denise Quesnel, and Bernhard\u00a0E Riecke. 2019. Space-A Virtual Frontier: How to Design and Evaluate a Virtual Reality Experience of the Overview Effect. Front. Digital Humanities 2019 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "William Steptoe, Anthony Steed, and Mel Slater. 2013. Human tails: ownership and control of extended humanoid avatars. IEEE transactions on visualization and computer graphics 19, 4(2013), 583\u2013590.",
+      "doi": ""
+    },
+    {
+      "text": "Stanislav\u00a0L. Stoev and Dieter Schmalstieg. 2002. Application and taxonomy of through-the-lens techniques. In Proceedings of the ACM symposium on Virtual reality software and technology(VRST \u201902). Association for Computing Machinery, New York, NY, USA, 57\u201364. https://doi.org/10.1145/585740.585751",
+      "doi": ""
+    },
+    {
+      "text": "W. Stuerzlinger and G. Smith. 2002. Efficient manipulation of object groups in virtual environments. In Proceedings IEEE Virtual Reality 2002. 251\u2013258. https://doi.org/10.1109/VR.2002.996529 ISSN: 1087-8270.",
+      "doi": ""
+    },
+    {
+      "text": "D.\u00a0J. Sturman, D. Zeltzer, and S. Pieper. 1989. Hands-on interaction with virtual environments. In Proceedings of the 2nd annual ACM SIGGRAPH symposium on User interface software and technology(UIST \u201989). Association for Computing Machinery, New York, NY, USA, 19\u201324. https://doi.org/10.1145/73660.73663",
+      "doi": ""
+    },
+    {
+      "text": "Evan\u00a0A. Suma, Zachary Lipps, Samantha Finkelstein, David\u00a0M. Krum, and Mark Bolas. 2012. Impossible Spaces: Maximizing Natural Walking in Virtual Environments with Self-Overlapping Architecture. IEEE Transactions on Visualization and Computer Graphics 18, 4 (April 2012), 555\u2013564. https://doi.org/10.1109/TVCG.2012.47",
+      "doi": "10.1109/TVCG.2012.47"
+    },
+    {
+      "text": "Ivan\u00a0E Sutherland. 1965. The ultimate display. Multimedia: From Wagner to virtual reality(1965), 506\u2013508.",
+      "doi": ""
+    },
+    {
+      "text": "Durk Talsma. 2015. Predictive coding and multisensory integration: an attentional account of the multisensory mind. Frontiers in Integrative Neuroscience 9 (2015), 19.",
+      "doi": ""
+    },
+    {
+      "text": "Vildan Tanriverdi and Robert J.\u00a0K. Jacob. 2000. Interacting with eye movements in virtual environments. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems(CHI \u201900). Association for Computing Machinery, New York, NY, USA, 265\u2013272. https://doi.org/10.1145/332040.332443",
+      "doi": ""
+    },
+    {
+      "text": "Shan-Yuan Teng, Da-Yuan Huang, Chi Wang, Jun Gong, Teddy Seyed, Xing-Dong Yang, and Bing-Yu Chen. 2019. Aarnio: Passive Kinesthetic Force Output for Foreground Interactions on an Interactive Chair. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300902",
+      "doi": "10.1145/3290605.3300902"
+    },
+    {
+      "text": "L\u00e9o Terziman, Maud Marchal, Mathieu Emily, Franck Multon, Bruno Arnaldi, and Anatole L\u00e9cuyer. 2010. Shake-your-head: revisiting walking-in-place for desktop virtual reality. In Proceedings of the 17th ACM Symposium on Virtual Reality Software and Technology(VRST \u201910). Association for Computing Machinery, New York, NY, USA, 27\u201334. https://doi.org/10.1145/1889863.1889867",
+      "doi": "10.1145/1889863.1889867"
+    },
+    {
+      "text": "Richard\u00a0A Thurman and Joseph\u00a0S Mattoon. 1994. Virtual Reality: Toward Fundamental Improvements in Simulation-Based Training.Educational technology 34, 8 (1994), 56\u201364.",
+      "doi": ""
+    },
+    {
+      "text": "Gaetano Tieri, Emmanuele Tidoni, Enea\u00a0Francesco Pavone, and Salvatore\u00a0Maria Aglioti. 2015. Body visual discontinuity affects feeling of ownership and skin conductance responses. Scientific reports 5, 1 (2015), 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Emanuel Todorov. 2004. Optimality principles in sensorimotor control. Nature neuroscience 7, 9 (2004), 907\u2013915.",
+      "doi": ""
+    },
+    {
+      "text": "Sam Tregillus and Eelke Folmer. 2016. VR-STEP: Walking-in-Place using Inertial Sensing for Hands Free Navigation in Mobile VR Environments. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems(CHI \u201916). Association for Computing Machinery, New York, NY, USA, 1250\u20131255. https://doi.org/10.1145/2858036.2858084",
+      "doi": "10.1145/2858036.2858084"
+    },
+    {
+      "text": "Wen-Jie Tseng, Li-Yang Wang, and Liwei Chan. 2019. FaceWidgets: Exploring Tangible Interaction on Face with Head-Mounted Displays. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201919). Association for Computing Machinery, New York, NY, USA, 417\u2013427. https://doi.org/10.1145/3332165.3347946",
+      "doi": "10.1145/3332165.3347946"
+    },
+    {
+      "text": "Huawei Tu, Susu Huang, Jiabin Yuan, Xiangshi Ren, and Feng Tian. 2019. Crossing-Based Selection with Virtual Reality Head-Mounted Displays. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300848",
+      "doi": "10.1145/3290605.3300848"
+    },
+    {
+      "text": "Yuki Ueyama. 2014. Mini-max feedback control as a computational theory of sensorimotor control in the presence of structural uncertainty. Frontiers in computational neuroscience 8 (2014), 119.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0J van Beers, Pierre Baraduc, and Daniel\u00a0M Wolpert. 2002. Role of uncertainty in sensorimotor control. Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences 357, 1424 (2002), 1137\u20131145.",
+      "doi": ""
+    },
+    {
+      "text": "Bj\u00f6rn Van Der\u00a0Hoort, Arvid Guterstam, and H\u00a0Henrik Ehrsson. 2011. Being Barbie: the size of one\u2019s own body determines the perceived size of the world. PloS one 6, 5 (2011), e20195.",
+      "doi": ""
+    },
+    {
+      "text": "Manuel Veit, Antonio Capobianco, and Dominique Bechmann. 2010. Dynamic decomposition and integration of degrees of freedom for 3-D positioning. In Proceedings of the 17th ACM Symposium on Virtual Reality Software and Technology(VRST \u201910). Association for Computing Machinery, New York, NY, USA, 131\u2013134. https://doi.org/10.1145/1889863.1889891",
+      "doi": "10.1145/1889863.1889891"
+    },
+    {
+      "text": "Manuel Veit, Antonio Capobianco, and Dominique Bechmann. 2012. CrOS: a touch screen interaction technique for cursor manipulation on 2-manifolds. In Proceedings of the 18th ACM symposium on Virtual reality software and technology(VRST \u201912). Association for Computing Machinery, New York, NY, USA, 97\u2013100. https://doi.org/10.1145/2407336.2407355",
+      "doi": "10.1145/2407336.2407355"
+    },
+    {
+      "text": "Julius von Willich, Martin Schmitz, Florian M\u00fcller, Daniel Schmitt, and Max M\u00fchlh\u00e4user. 2020. Podoportation: Foot-Based Locomotion in Virtual Reality. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376626",
+      "doi": "10.1145/3313831.3376626"
+    },
+    {
+      "text": "Chiu-Hsuan Wang, Chia-En Tsai, Seraphina Yong, and Liwei Chan. 2020. Slice of Light: Transparent and Integrative Transition Among Realities in a Multi-HMD-User Environment. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. Association for Computing Machinery, New York, NY, USA, 805\u2013817. https://doi.org/10.1145/3379337.3415868",
+      "doi": "10.1145/3379337.3415868"
+    },
+    {
+      "text": "Jia Wang and Robert\u00a0W. Lindeman. 2015. Object impersonation: Towards effective interaction in tablet- and HMD-based hybrid virtual environments. In 2015 IEEE Virtual Reality (VR). 111\u2013118. https://doi.org/10.1109/VR.2015.7223332 ISSN: 2375-5334.",
+      "doi": ""
+    },
+    {
+      "text": "Miao Wang, Zi-Ming Ye, Jin-Chuan Shi, and Yang-Liang Yang. 2021. Scene-Context-Aware Indoor Object Selection and Movement in VR. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR). 235\u2013244. https://doi.org/10.1109/VR50410.2021.00045 ISSN: 2642-5254.",
+      "doi": ""
+    },
+    {
+      "text": "Z. Wartell, W. Ribarsky, and L. Hodges. 1999. Third-person navigation of whole-planet terrain in a head-tracked stereoscopic environment. In Proceedings IEEE Virtual Reality (Cat. No. 99CB36316). 141\u2013148. https://doi.org/10.1109/VR.1999.756945 ISSN: 1087-8270.",
+      "doi": ""
+    },
+    {
+      "text": "Tim Weissker, Alexander Kulik, and Bernd Froehlich. 2019. Multi-Ray Jumping: Comprehensible Group Navigation for Collocated Users in Immersive Virtual Reality. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 136\u2013144. https://doi.org/10.1109/VR.2019.8797807 ISSN: 2642-5254.",
+      "doi": ""
+    },
+    {
+      "text": "Jeremy\u00a0D. Wendt, Mary\u00a0C. Whitton, and Frederick\u00a0P. Brooks. 2010. GUD WIP: Gait-Understanding-Driven Walking-In-Place. In 2010 IEEE Virtual Reality Conference (VR). 51\u201358. https://doi.org/10.1109/VR.2010.5444812 ISSN: 2375-5334.",
+      "doi": ""
+    },
+    {
+      "text": "Frank White. 1998. The overview effect: Space exploration and human evolution. AIAA.",
+      "doi": ""
+    },
+    {
+      "text": "Graham Wilson, Mark McGill, Matthew Jamieson, Julie\u00a0R. Williamson, and Stephen\u00a0A. Brewster. 2018. Object Manipulation in Virtual Reality Under Increasing Levels of Translational Gain. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173673",
+      "doi": "10.1145/3173574.3173673"
+    },
+    {
+      "text": "Terry Winograd, Fernando Flores, and Fernando\u00a0F Flores. 1986. Understanding computers and cognition: A new foundation for design. Intellect Books.",
+      "doi": "10.5555/576359"
+    },
+    {
+      "text": "Bob\u00a0G Witmer and Michael\u00a0J Singer. 1998. Measuring presence in virtual environments: A presence questionnaire. Presence 7, 3 (1998), 225\u2013240.",
+      "doi": "10.1162/105474698565686"
+    },
+    {
+      "text": "Jacob\u00a0O Wobbrock, Shaun\u00a0K Kane, Krzysztof\u00a0Z Gajos, Susumu Harada, and Jon Froehlich. 2011. Ability-based design: Concept, principles and examples. ACM Transactions on Accessible Computing (TACCESS) 3, 3 (2011), 1\u201327.",
+      "doi": "10.1145/1952383.1952384"
+    },
+    {
+      "text": "Dennis Wolf, Katja Rogers, Christoph Kunder, and Enrico Rukzio. 2020. JumpVR: Jump-Based Locomotion Augmentation for Virtual Reality. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376243",
+      "doi": "10.1145/3313831.3376243"
+    },
+    {
+      "text": "Daniel\u00a0M Wolpert and Zoubin Ghahramani. 2000. Computational principles of movement neuroscience. Nature neuroscience 3, 11 (2000), 1212\u20131217.",
+      "doi": ""
+    },
+    {
+      "text": "Andrea\u00a0Stevenson Won, Jeremy Bailenson, Jimmy Lee, and Jaron Lanier. 2015. Homuncular flexibility in virtual reality. Journal of Computer-Mediated Communication 20, 3 (2015), 241\u2013259.",
+      "doi": "10.1111/jcc4.12107"
+    },
+    {
+      "text": "Andrea\u00a0Stevenson Won, Jeremy\u00a0N Bailenson, and Jaron Lanier. 2015. Homuncular flexibility: the human ability to inhabit nonhuman avatars. Emerging Trends in the Social and Behavioral Sciences: An Interdisciplinary, Searchable, and Linkable Resource(2015), 1\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Wonner, J\u00e9r\u00f4me Grosjean, Antonio Capobianco, and Dominique Bechmann. 2012. Starfish: a selection technique for dense virtual environments. In Proceedings of the 18th ACM symposium on Virtual reality software and technology(VRST \u201912). Association for Computing Machinery, New York, NY, USA, 101\u2013104. https://doi.org/10.1145/2407336.2407356",
+      "doi": "10.1145/2407336.2407356"
+    },
+    {
+      "text": "Haijun Xia, Sebastian Herscher, Ken Perlin, and Daniel Wigdor. 2018. Spacetime: Enabling Fluid Individual and Collaborative Editing in Virtual Reality. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology(UIST \u201918). Association for Computing Machinery, New York, NY, USA, 853\u2013866. https://doi.org/10.1145/3242587.3242597",
+      "doi": "10.1145/3242587.3242597"
+    },
+    {
+      "text": "Xuhai Xu, Chun Yu, Anind\u00a0K. Dey, and Jennifer Mankoff. 2019. Clench Interface: Novel Biting Input Techniques. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300505",
+      "doi": "10.1145/3290605.3300505"
+    },
+    {
+      "text": "Difeng Yu, Xueshi Lu, Rongkai Shi, Hai-Ning Liang, Tilman Dingler, Eduardo Velloso, and Jorge Goncalves. 2021. Gaze-Supported 3D Object Manipulation in Virtual Reality. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Number 734. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3411764.3445343",
+      "doi": "10.1145/3411764.3445343"
+    },
+    {
+      "text": "Kevin Yu, Alexander Winkler, Frieder Pankratz, Marc Lazarovici, Dirk Wilhelm, Ulrich Eck, Daniel Roth, and Nassir Navab. 2021. Magnoramas: Magnifying Dioramas for Precise Annotations in Asymmetric 3D Teleconsultation. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR). 392\u2013401. https://doi.org/10.1109/VR50410.2021.00062 ISSN: 2642-5254.",
+      "doi": ""
+    },
+    {
+      "text": "R.C. Zeleznik, J.J. LaViola, D. Acevedo\u00a0Feliz, and D.F. Keefe. 2002. Pop through button devices for VE navigation and interaction. In Proceedings IEEE Virtual Reality 2002. 127\u2013134. https://doi.org/10.1109/VR.2002.996515 ISSN: 1087-8270.",
+      "doi": ""
+    },
+    {
+      "text": "Yiran Zhang, Nicolas Ladeveze, Huyen Nguyen, Cedric Fleury, and Patrick Bourdot. 2020. Virtual Navigation considering User Workspace: Automatic and Manual Positioning before Teleportation. In 26th ACM Symposium on Virtual Reality Software and Technology(VRST \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3385956.3418949",
+      "doi": "10.1145/3385956.3418949"
+    },
+    {
+      "text": "Yaying Zhang, Bernhard\u00a0E. Riecke, Thecla Schiphorst, and Carman Neustaedter. 2019. Perch to Fly: Embodied Virtual Reality Flying Locomotion with a Flexible Perching Stance. In Proceedings of the 2019 on Designing Interactive Systems Conference(DIS \u201919). Association for Computing Machinery, New York, NY, USA, 253\u2013264. https://doi.org/10.1145/3322276.3322357",
+      "doi": "10.1145/3322276.3322357"
+    },
+    {
+      "text": "Yuhang Zhao, Cynthia\u00a0L Bennett, Hrvoje Benko, Edward Cutrell, Christian Holz, Meredith\u00a0Ringel Morris, and Mike Sinclair. 2018. Enabling people with visual impairments to navigate virtual reality with a haptic and auditory cane simulation. In Proceedings of the 2018 CHI conference on human factors in computing systems. 1\u201314.",
+      "doi": "10.1145/3173574.3173690"
+    },
+    {
+      "text": "Yiwei Zhao and Sean Follmer. 2018. A Functional Optimization Based Approach for Continuous 3D Retargeted Touch of Arbitrary, Complex Boundaries in Haptic Virtual Reality. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, 544.",
+      "doi": "10.1145/3173574.3174118"
+    }
+  ]
+}

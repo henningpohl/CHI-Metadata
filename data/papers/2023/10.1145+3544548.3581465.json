@@ -1,0 +1,311 @@
+{
+  "doi": "10.1145/3544548.3581465",
+  "title": "LipLearner: Customizable Silent Speech Interactions on Mobile Devices",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-21",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Silent speech interface is a promising technology that enables private communications in natural language. However, previous approaches only support a small and inflexible vocabulary, which leads to limited expressiveness. We leverage contrastive learning to learn efficient lipreading representations, enabling few-shot command customization with minimal user effort. Our model exhibits high robustness to different lighting, posture, and gesture conditions on an in-the-wild dataset. For 25-command classification, an F1-score of 0.8947 is achievable only using one shot, and its performance can be further boosted by adaptively learning from more data. This generalizability allowed us to develop a mobile silent speech interface empowered with on-device fine-tuning and visual keyword spotting. A user study demonstrated that with LipLearner, users could define their own commands with high reliability guaranteed by an online incremental learning scheme. Subjective feedback indicated that our system provides essential functionalities for customizable silent speech interactions with high usability and learnability.",
+  "authors": [
+    {
+      "name": "Zixiong Su",
+      "institution": "Rekimoto Lab, GSII, The University of Tokyo, Japan",
+      "img": "/do/10.1145/contrib-99659729502/rel-imgonly/profile.jpg",
+      "acmid": "99659729502",
+      "orcid": "0000-0001-6048-3268"
+    },
+    {
+      "name": "Shitao Fang",
+      "institution": "Interactive Intelligent Systems Laboratory, The University of Tokyo, Japan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660628635",
+      "orcid": "0000-0003-1401-8482"
+    },
+    {
+      "name": "Jun Rekimoto",
+      "institution": "The University of Tokyo, Japan and Sony CSL Kyoto, Japan",
+      "img": "/do/10.1145/contrib-81100008564/rel-imgonly/p2.png",
+      "acmid": "81100008564",
+      "orcid": "0000-0002-3629-2514"
+    }
+  ],
+  "references": [
+    {
+      "text": "Miguel Angrick, Christian Herff, Emily Mugler, Matthew\u00a0C Tate, Marc\u00a0W Slutzky, Dean\u00a0J Krusienski, and Tanja Schultz. 2019. Speech synthesis from ECoG using densely connected 3D convolutional neural networks. Journal of neural engineering 16, 3 (2019), 036019.",
+      "doi": ""
+    },
+    {
+      "text": "Relja Arandjelovic and Andrew Zisserman. 2018. Objects that sound. In Proceedings of the European conference on computer vision (ECCV). 435\u2013451.",
+      "doi": "10.1007/978-3-030-01246-5_27"
+    },
+    {
+      "text": "Aaron Bangor, Philip\u00a0T Kortum, and James\u00a0T Miller. 2008. An empirical evaluation of the system usability scale. Intl. Journal of Human\u2013Computer Interaction 24, 6(2008), 574\u2013594.",
+      "doi": ""
+    },
+    {
+      "text": "John Brooke 1996. SUS-A quick and dirty usability scale. Usability evaluation in industry 189, 194 (1996), 4\u20137.",
+      "doi": ""
+    },
+    {
+      "text": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared\u00a0D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language Models are Few-Shot Learners. In Advances in Neural Information Processing Systems, H.\u00a0Larochelle, M.\u00a0Ranzato, R.\u00a0Hadsell, M.F. Balcan, and H.\u00a0Lin (Eds.). Vol.\u00a033. Curran Associates, Inc., 1877\u20131901. https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Tuochao Chen, Benjamin Steeper, Kinan Alsheikh, Songyun Tao, Fran\u00e7ois Guimbreti\u00e8re, and Cheng Zhang. 2020. C-Face: Continuously Reconstructing Facial Expressions by Deep Learning Contours of the Face with Ear-Mounted Miniature Cameras. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201920). Association for Computing Machinery, New York, NY, USA, 112\u2013125. https://doi.org/10.1145/3379337.3415879",
+      "doi": "10.1145/3379337.3415879"
+    },
+    {
+      "text": "Wei-Yu Chen, Yen-Cheng Liu, Zsolt Kira, Yu-Chiang\u00a0Frank Wang, and Jia-Bin Huang. 2019. A Closer Look at Few-shot Classification. CoRR abs/1904.04232(2019). arXiv:1904.04232http://arxiv.org/abs/1904.04232",
+      "doi": ""
+    },
+    {
+      "text": "Xinlei Chen, Saining Xie, and Kaiming He. 2021. An empirical study of training self-supervised vision transformers. In Proceedings of the IEEE/CVF International Conference on Computer Vision. 9640\u20139649.",
+      "doi": ""
+    },
+    {
+      "text": "Joon\u00a0Son Chung and Andrew Zisserman. 2016. Lip reading in the wild. In Asian conference on computer vision. Springer, 87\u2013103.",
+      "doi": ""
+    },
+    {
+      "text": "Statista\u00a0Research Department. 2022. Main devices used with voice assistants in the U.S. 2021, by brand. Retrieved April 28, 2022 from https://www.statista.com/statistics/1274398/voice-assistant-use-by-device-united-states/",
+      "doi": ""
+    },
+    {
+      "text": "Tony Ezzat and Tomaso Poggio. 1998. Miketalk: A talking facial display based on morphing visemes. In Proceedings Computer Animation\u201998 (Cat. No. 98EX169). IEEE, 96\u2013102.",
+      "doi": ""
+    },
+    {
+      "text": "Tony Ezzat and Tomaso Poggio. 2000. Visual speech synthesis by morphing visemes. International Journal of Computer Vision 38, 1 (2000), 45\u201357.",
+      "doi": "10.1023/A%3A1008166717597"
+    },
+    {
+      "text": "Michael\u00a0J Fagan, Stephen\u00a0R Ell, James\u00a0M Gilbert, E Sarrazin, and Peter\u00a0M Chapman. 2008. Development of a (silent) speech recognition system for patients following laryngectomy. Medical engineering & physics 30, 4 (2008), 419\u2013425.",
+      "doi": ""
+    },
+    {
+      "text": "Dalu Feng, Shuang Yang, Shiguang Shan, and Xilin Chen. 2020. Learn an effective lip reading model without pains. arXiv preprint arXiv:2011.07557(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Masaaki Fukumoto. 2018. Silentvoice: Unnoticeable voice input by ingressive speech. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology. 237\u2013246.",
+      "doi": "10.1145/3242587.3242603"
+    },
+    {
+      "text": "Ruohan Gao and Kristen Grauman. 2021. Visualvoice: Audio-visual speech separation with cross-modal consistency. In 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, 15490\u201315500.",
+      "doi": ""
+    },
+    {
+      "text": "Jose\u00a0A Gonzalez, Lam\u00a0A Cheah, James\u00a0M Gilbert, Jie Bai, Stephen\u00a0R Ell, Phil\u00a0D Green, and Roger\u00a0K Moore. 2016. A silent speech system based on permanent magnet articulography and direct synthesis. Computer Speech & Language 39 (2016), 67\u201387.",
+      "doi": "10.1016/j.csl.2016.02.002"
+    },
+    {
+      "text": "Frank\u00a0H Guenther, Jonathan\u00a0S Brumberg, E\u00a0Joseph Wright, Alfonso Nieto-Castanon, Jason\u00a0A Tourville, Mikhail Panko, Robert Law, Steven\u00a0A Siebert, Jess\u00a0L Bartels, Dinal\u00a0S Andreasen, 2009. A wireless brain-machine interface for real-time speech synthesis. PloS one 4, 12 (2009), e8218.",
+      "doi": ""
+    },
+    {
+      "text": "Harish Haresamudram, Irfan Essa, and Thomas Pl\u00f6tz. 2021. Contrastive Predictive Coding for Human Activity Recognition. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 5, 2, Article 65 (jun 2021), 26\u00a0pages. https://doi.org/10.1145/3463506",
+      "doi": "10.1145/3463506"
+    },
+    {
+      "text": "Christian Herff, Dominic Heger, Adriana De\u00a0Pesters, Dominic Telaar, Peter Brunner, Gerwin Schalk, and Tanja Schultz. 2015. Brain-to-text: decoding spoken phrases from phone representations in the brain. Frontiers in neuroscience 9 (2015), 217.",
+      "doi": ""
+    },
+    {
+      "text": "Yiyang Huang, Xuefeng Liang, and Chaowei Fang. 2021. CALLip: Lipreading Using Contrastive and Attribute Learning. In Proceedings of the 29th ACM International Conference on Multimedia (Virtual Event, China) (MM \u201921). Association for Computing Machinery, New York, NY, USA, 2492\u20132500. https://doi.org/10.1145/3474085.3475420",
+      "doi": "10.1145/3474085.3475420"
+    },
+    {
+      "text": "Thomas Hueber, Elie-Laurent Benaroya, G\u00e9rard Chollet, Bruce Denby, G\u00e9rard Dreyfus, and Maureen Stone. 2010. Development of a silent speech interface driven by ultrasound and optical images of the tongue and lips. Speech Communication 52, 4 (2010), 288\u2013300.",
+      "doi": "10.1016/j.specom.2009.11.004"
+    },
+    {
+      "text": "Apple Inc.2022. Core ML | Apple Developer Documentation. Retrieved Feb. 9, 2023 from https://developer.apple.com/documentation/coreml",
+      "doi": ""
+    },
+    {
+      "text": "Apple Inc.2022. Create ML | Apple Developer Documentation. Retrieved Feb. 9, 2023 from https://developer.apple.com/documentation/createml",
+      "doi": ""
+    },
+    {
+      "text": "Apple Inc.2022. SFSpeechRecognizer | Apple Developer Documentation. Retrieved Feb. 9, 2023 from https://developer.apple.com/documentation/speech/sfspeechrecognizer",
+      "doi": ""
+    },
+    {
+      "text": "Apple Inc.2022. Shortcuts User Guide - Apple Support. Retrieved Feb. 9, 2023 from https://support.apple.com/guide/shortcuts/welcome/ios",
+      "doi": ""
+    },
+    {
+      "text": "Apple Inc.2022. Vision | Apple Developer Documentation. Retrieved Feb. 9, 2023 from https://developer.apple.com/documentation/vision",
+      "doi": ""
+    },
+    {
+      "text": "Apple Inc.2022. What can I ask Siri? - Official Apple Support. Retrieved Feb. 9, 2023 from https://support.apple.com/siri",
+      "doi": ""
+    },
+    {
+      "text": "Dhruv Jain, Khoa Huynh Anh\u00a0Nguyen, Steven M.\u00a0Goodman, Rachel Grossman-Kahn, Hung Ngo, Aditya Kusupati, Ruofei Du, Alex Olwal, Leah Findlater, and Jon E.\u00a0Froehlich. 2022. ProtoSound: A Personalized and Scalable Sound Recognition System for Deaf and Hard-of-Hearing Users. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 305, 16\u00a0pages. https://doi.org/10.1145/3491102.3502020",
+      "doi": "10.1145/3491102.3502020"
+    },
+    {
+      "text": "Yan Ji, Licheng Liu, Hongcui Wang, Zhilei Liu, Zhibin Niu, and Bruce Denby. 2018. Updating the silent speech challenge benchmark with deep learning. Speech Communication 98(2018), 42\u201350.",
+      "doi": "10.1016/j.specom.2018.02.002"
+    },
+    {
+      "text": "Arnav Kapur, Shreyas Kapur, and Pattie Maes. 2018. Alterego: A personalized wearable silent speech interface. In 23rd International conference on intelligent user interfaces. 43\u201353.",
+      "doi": "10.1145/3172944.3172977"
+    },
+    {
+      "text": "Vahid Kazemi and Josephine Sullivan. 2014. One Millisecond Face Alignment with an Ensemble of Regression Trees. In CVPR.",
+      "doi": ""
+    },
+    {
+      "text": "Naoki Kimura, Tan Gemicioglu, Jonathan Womack, Richard Li, Yuhui Zhao, Abdelkareem Bedri, Zixiong Su, Alex Olwal, Jun Rekimoto, and Thad Starner. 2022. SilentSpeller: Towards mobile, hands-free, silent speech text entry using electropalatography. In CHI Conference on Human Factors in Computing Systems. 1\u201319.",
+      "doi": "10.1145/3491102.3502015"
+    },
+    {
+      "text": "Naoki Kimura, Kentaro Hayashi, and Jun Rekimoto. 2020. TieLent: A Casual Neck-Mounted Mouth Capturing Device for Silent Speech Interaction. In Proceedings of the International Conference on Advanced Visual Interfaces. 1\u20138.",
+      "doi": "10.1145/3399715.3399852"
+    },
+    {
+      "text": "Naoki Kimura, Michinari Kono, and Jun Rekimoto. 2019. SottoVoce: an ultrasound imaging-based silent speech interaction using deep neural networks. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201311.",
+      "doi": "10.1145/3290605.3300376"
+    },
+    {
+      "text": "Naoki Kimura, Zixiong Su, and Takaaki Saeki. 2020. End-to-End Deep Learning Speech Recognition Model for Silent Speech Challenge.. In INTERSPEECH. 1025\u20131026.",
+      "doi": ""
+    },
+    {
+      "text": "Naoki Kimura, Zixiong Su, Takaaki Saeki, and Jun Rekimoto. 2022. SSR7000: A Synchronized Corpus of Ultrasound Tongue Imaging for End-to-End Silent Speech Recognition. In Proceedings of the Thirteenth Language Resources and Evaluation Conference. 6866\u20136873.",
+      "doi": ""
+    },
+    {
+      "text": "Davis\u00a0E. King. 2009. Dlib-ml: A Machine Learning Toolkit. Journal of Machine Learning Research 10 (2009), 1755\u20131758.",
+      "doi": "10.5555/1577069.1755843"
+    },
+    {
+      "text": "Soonkyu Lee and DongSuk Yook. 2002. Audio-to-visual conversion using hidden markov models. In Pacific Rim International Conference on Artificial Intelligence. Springer, 563\u2013570.",
+      "doi": ""
+    },
+    {
+      "text": "Richard Li, Jason Wu, and Thad Starner. 2019. Tongueboard: An oral interface for subtle input. In Proceedings of the 10th Augmented Human International Conference 2019. 1\u20139.",
+      "doi": "10.1145/3311823.3311831"
+    },
+    {
+      "text": "Camillo Lugaresi, Jiuqiang Tang, Hadon Nash, Chris McClanahan, Esha Uboweja, Michael Hays, Fan Zhang, Chuo-Ling Chang, Ming\u00a0Guang Yong, Juhyun Lee, 2019. Mediapipe: A framework for building perception pipelines. arXiv preprint arXiv:1906.08172(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Brais Martinez, Pingchuan Ma, Stavros Petridis, and Maja Pantic. 2020. Lipreading using temporal convolutional networks. In ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 6319\u20136323.",
+      "doi": ""
+    },
+    {
+      "text": "Geoffrey\u00a0S Meltzner, James\u00a0T Heaton, Yunbin Deng, Gianluca De\u00a0Luca, Serge\u00a0H Roy, and Joshua\u00a0C Kline. 2018. Development of sEMG sensors and algorithms for silent speech recognition. Journal of neural engineering 15, 4 (2018), 046031.",
+      "doi": ""
+    },
+    {
+      "text": "Carolina Milanesi. 2016. Voice Assistant Anyone? Yes please, but not in public. Creative Strategies (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Laxmi Pandey and Ahmed\u00a0Sabbir Arif. 2021. LipType: A Silent Speech Recognizer Augmented with an Independent Repair Model. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201319.",
+      "doi": "10.1145/3411764.3445565"
+    },
+    {
+      "text": "Stavros Petridis, Themos Stafylakis, Pingehuan Ma, Feipeng Cai, Georgios Tzimiropoulos, and Maja Pantic. 2018. End-to-end audiovisual speech recognition. In 2018 IEEE international conference on acoustics, speech and signal processing (ICASSP). IEEE, 6548\u20136552.",
+      "doi": "10.1109/ICASSP.2018.8461326"
+    },
+    {
+      "text": "Anne Porbadnigk, Marek Wester, Jan-P Calliess, and Tanja Schultz. 2009. EEG-based speech recognition.",
+      "doi": ""
+    },
+    {
+      "text": "KR Prajwal, Rudrabha Mukhopadhyay, Vinay\u00a0P Namboodiri, and CV Jawahar. 2020. Learning individual speaking styles for accurate lip to speech synthesis. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 13796\u201313805.",
+      "doi": ""
+    },
+    {
+      "text": "Qinwan Rabbani, Griffin Milsap, and Nathan\u00a0E Crone. 2019. The potential for a speech brain\u2013computer interface using chronic electrocorticography. Neurotherapeutics 16, 1 (2019), 144\u2013165.",
+      "doi": ""
+    },
+    {
+      "text": "Alec Radford, Jong\u00a0Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, 2021. Learning transferable visual models from natural language supervision. In International Conference on Machine Learning. PMLR, 8748\u20138763.",
+      "doi": ""
+    },
+    {
+      "text": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter\u00a0J. Liu. 2020. Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer. Journal of Machine Learning Research 21, 140 (2020), 1\u201367. http://jmlr.org/papers/v21/20-074.html",
+      "doi": ""
+    },
+    {
+      "text": "Takeshi Saitoh and Michiko Kubokawa. 2019. LiP25w: Word-level Lip Reading Web Application for Smart Device. The 15th International Conference on Auditory-Visual Speech Processing (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0W Sch\u00f6nle, Klaus Gr\u00e4be, Peter Wenig, J\u00f6rg H\u00f6hne, J\u00f6rg Schrader, and Bastian Conrad. 1987. Electromagnetic articulography: Use of alternating magnetic fields for tracking movements of multiple points inside and outside the vocal tract. Brain and Language 31, 1 (1987), 26\u201335.",
+      "doi": ""
+    },
+    {
+      "text": "Alex Sciuto, Arnita Saini, Jodi Forlizzi, and Jason\u00a0I Hong. 2018. \" Hey Alexa, What\u2019s Up?\" A Mixed-Methods Studies of In-Home Conversational Agent Usage. In Proceedings of the 2018 designing interactive systems conference. 857\u2013868.",
+      "doi": "10.1145/3196709.3196772"
+    },
+    {
+      "text": "Arda Senocak, Tae-Hyun Oh, Junsik Kim, Ming-Hsuan Yang, and In\u00a0So Kweon. 2018. Learning to localize sound source in visual scenes. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 4358\u20134366.",
+      "doi": ""
+    },
+    {
+      "text": "Changchong Sheng, Matti Pietik\u00e4inen, Qi Tian, and Li Liu. 2021. Cross-Modal Self-Supervised Learning for Lip Reading: When Contrastive Learning Meets Adversarial Training. In Proceedings of the 29th ACM International Conference on Multimedia (Virtual Event, China) (MM \u201921). Association for Computing Machinery, New York, NY, USA, 2456\u20132464. https://doi.org/10.1145/3474085.3475415",
+      "doi": "10.1145/3474085.3475415"
+    },
+    {
+      "text": "Zixiong Su, Xinlei Zhang, Naoki Kimura, and Jun Rekimoto. 2021. Gaze+ Lip: Rapid, Precise and Expressive Interactions Combining Gaze Input and Silent Speech Commands for Hands-free Smart TV Control. In ACM Symposium on Eye Tracking Research and Applications. 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Ke Sun, Chun Yu, Weinan Shi, Lan Liu, and Yuanchun Shi. 2018. Lip-Interact: Improving Mobile Device Interaction with Silent Speech Commands. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology(Berlin, Germany) (UIST \u201918). Association for Computing Machinery, New York, NY, USA, 581\u2013593. https://doi.org/10.1145/3242587.3242599",
+      "doi": "10.1145/3242587.3242599"
+    },
+    {
+      "text": "Tomoki Toda, Mikihiro Nakagiri, and Kiyohiro Shikano. 2012. Statistical voice conversion techniques for body-conducted unvoiced speech enhancement. IEEE Transactions on Audio, Speech, and Language Processing 20, 9(2012), 2505\u20132517.",
+      "doi": "10.1109/TASL.2012.2205241"
+    },
+    {
+      "text": "Tomoki Toda, Keigo Nakamura, Hidehiko Sekimoto, and Kiyohiro Shikano. 2009. Voice conversion for various types of body transmitted speech. In 2009 IEEE International Conference on Acoustics, Speech and Signal Processing. IEEE, 3601\u20133604.",
+      "doi": "10.1109/ICASSP.2009.4960405"
+    },
+    {
+      "text": "Tomoki Toda and Kiyohiro Shikano. 2005. NAM-to-speech conversion with Gaussian mixture models. (2005).",
+      "doi": ""
+    },
+    {
+      "text": "Carnegie\u00a0Mellon University. 2011. The CMU Pronouncing Dictionary. Retrieved Feb. 9, 2023 from http://www.speech.cs.cmu.edu/cgi-bin/cmudict",
+      "doi": ""
+    },
+    {
+      "text": "Aaron Van\u00a0den Oord, Yazhe Li, and Oriol Vinyals. 2018. Representation learning with contrastive predictive coding. arXiv e-prints (2018), arXiv\u20131807.",
+      "doi": ""
+    },
+    {
+      "text": "Michiel Visser, Mannes Poel, and Anton Nijholt. 1999. Classifying visemes for automatic lipreading. In International Workshop on Text, Speech and Dialogue. Springer, 349\u2013352.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Wand and Tanja Schultz. 2011. Session-independent EMG-based Speech Recognition.. In Biosignals. 295\u2013300.",
+      "doi": ""
+    },
+    {
+      "text": "Disong Wang, Shan Yang, Dan Su, Xunying Liu, Dong Yu, and Helen Meng. 2022. VCVTS: Multi-Speaker Video-to-Speech Synthesis Via Cross-Modal Knowledge Transfer from Voice Conversion. In ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 7252\u20137256. https://doi.org/10.1109/ICASSP43922.2022.9747427",
+      "doi": ""
+    },
+    {
+      "text": "Jason Wu, Chris Harrison, Jeffrey\u00a0P. Bigham, and Gierad Laput. 2020. Automated Class Discovery and One-Shot Interactions for Acoustic Activity Recognition. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376875",
+      "doi": "10.1145/3313831.3376875"
+    },
+    {
+      "text": "Xuhai Xu, Jun Gong, Carolina Brum, Lilian Liang, Bongsoo Suh, Shivam\u00a0Kumar Gupta, Yash Agarwal, Laurence Lindsey, Runchang Kang, Behrooz Shahsavari, Tu Nguyen, Heriberto Nieto, Scott\u00a0E Hudson, Charlie Maalouf, Jax\u00a0Seyed Mousavi, and Gierad Laput. 2022. Enabling Hand Gesture Customization on Wrist-Worn Devices. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 496, 19\u00a0pages. https://doi.org/10.1145/3491102.3501904",
+      "doi": "10.1145/3491102.3501904"
+    },
+    {
+      "text": "Ruidong Zhang, Mingyang Chen, Benjamin Steeper, Yaxuan Li, Zihan Yan, Yizhuo Chen, Songyun Tao, Tuochao Chen, Hyunchul Lim, and Cheng Zhang. 2022. SpeeChin: A Smart Necklace for Silent Speech Recognition. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 5, 4, Article 192 (dec 2022), 23\u00a0pages. https://doi.org/10.1145/3494987",
+      "doi": "10.1145/3494987"
+    }
+  ]
+}

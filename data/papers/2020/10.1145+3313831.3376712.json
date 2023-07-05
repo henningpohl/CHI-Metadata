@@ -1,0 +1,264 @@
+{
+  "doi": "10.1145/3313831.3376712",
+  "title": "Evaluation of Machine Learning Techniques for Hand Pose Estimation on Handheld Device with Proximity Sensor",
+  "published": "2020-04-23",
+  "proctitle": "CHI '20: Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-13",
+  "year": 2020,
+  "badges": [],
+  "abstract": "Tracking finger movement for natural interaction using hand is commonly studied. For vision-based implementations of finger tracking in virtual reality (VR) application, finger movement is occluded by a handheld device which is necessary for auxiliary input, thus tracking finger movement using cameras is still challenging. Finger tracking controllers using capacitive proximity sensors on the surface are starting to appear. However, research on estimating articulated hand pose from curved capacitance sensing electrodes is still immature. Therefore, we built a prototype with 62 electrodes and recorded training datasets using an optical tracking system. We have introduced 2.5D representation to apply convolutional neural network methods on a capacitive image of the curved surface, and two types of network architectures based on recent achievements in the computer vision field were evaluated with our dataset. We also implemented real-time interactive applications using the prototype and demonstrated the possibility of intuitive interaction using fingers in VR applications.",
+  "authors": [
+    {
+      "name": "Kazuyuki Arimatsu",
+      "institution": "Sony Interactive Entertainment Inc., Tokyo, Japan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659527533",
+      "orcid": "missing"
+    },
+    {
+      "name": "Hideki Mori",
+      "institution": "Sony Interactive Entertainment Inc., Minato-ku, Japan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528293",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Mart\u00edn Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Man\u00e9, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Vi\u00e9gas, Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng. 2015. TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems. (2015). http://tensorflow.org/ Software available from tensorflow.org.",
+      "doi": ""
+    },
+    {
+      "text": "Mykhaylo Andriluka, Leonid Pishchulin, Peter Gehler, and Bernt Schiele. 2014. 2d human pose estimation: New benchmark and state of the art analysis. In Proceedings of the IEEE Conference on computer Vision and Pattern Recognition. 3686--3693.",
+      "doi": "10.1109/CVPR.2014.471"
+    },
+    {
+      "text": "Joao Carreira, Pulkit Agrawal, Katerina Fragkiadaki, and Jitendra Malik. 2016. Human pose estimation with iterative error feedback. In Proceedings of the IEEE conference on computer vision and pattern recognition. 4733--4742.",
+      "doi": ""
+    },
+    {
+      "text": "Liwei Chan, Yi-Ling Chen, Chi-Hao Hsieh, Rong-Hao Liang, and Bing-Yu Chen. 2015. CyclopsRing: Enabling Whole-Hand and Context-Aware Interactions Through a Fisheye Ring. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology (UIST '15). ACM, NY, NY, USA, 549--556. DOI: http://dx.doi.org/10.1145/2807442.2807450",
+      "doi": "10.1145/2807442.2807450"
+    },
+    {
+      "text": "Daniel K.Y. Chen, Jean-Baptiste Chossat, and Peter B. Shull. 2019. HaptiVec: Presenting Haptic Feedback Vectors in Handheld Controllers Using Embedded Tactile Pin Arrays. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI '19). ACM, NY, NY, USA, Article 171, 11 pages. DOI: http://dx.doi.org/10.1145/3290605.3300401",
+      "doi": ""
+    },
+    {
+      "text": "Ke-Yu Chen, Shwetak N. Patel, and Sean Keller. 2016. Finexus: Tracking Precise Motions of Multiple Fingertips Using Magnetic Sensing. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). ACM, NY, NY, USA, 1504--1514. DOI: http://dx.doi.org/10.1145/2858036.2858125",
+      "doi": "10.1145/2858036.2858125"
+    },
+    {
+      "text": "Inrak Choi, Eyal Ofek, Hrvoje Benko, Mike Sinclair, and Christian Holz. 2018. Claw: A multifunctional handheld haptic controller for grasping, touching, and triggering in virtual reality. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, 654.",
+      "doi": "10.1145/3173574.3174228"
+    },
+    {
+      "text": "Fran\u00e7ois Chollet and others. 2015. Keras. https://keras.io. (2015).",
+      "doi": ""
+    },
+    {
+      "text": "3D Systems Corporation. 2019a. 3D Printers. (2019). https://www.3dsystems.com/3d-printers/plastic.",
+      "doi": ""
+    },
+    {
+      "text": "HTC Corporation. 2019b. VIVE Tracker. (2019). https://www.vive.com/us/vive-tracker/.",
+      "doi": ""
+    },
+    {
+      "text": "Valve Corporation. 2019c. Valve Index Controller. (2019). https://store.steampowered.com/valveindex.",
+      "doi": ""
+    },
+    {
+      "text": "Max Planck Institute for Informatics. 2019. MPII Human Pose Dataset. (2019). http://human-pose.mpi-inf.mpg.de/.",
+      "doi": ""
+    },
+    {
+      "text": "Oliver Glauser, Daniele Panozzo, Otmar Hilliges, and Olga Sorkine-Hornung. 2019a. Deformation Capture via Soft and Stretchable Sensor Arrays. ACM Trans. Graph. 38, 2, Article 16 (March 2019), 16 pages. DOI: http://dx.doi.org/10.1145/3311972",
+      "doi": "10.1145/3311972"
+    },
+    {
+      "text": "Oliver Glauser, Shihao Wu, Daniele Panozzo, Otmar Hilliges, and Olga Sorkine-Hornung. 2019b. Interactive hand pose estimation using a stretch-sensing soft glove. ACM Transactions on Graphics (TOG) 38, 4 (2019), 41.",
+      "doi": "10.1145/3306346.3322957"
+    },
+    {
+      "text": "Xavier Glorot and Yoshua Bengio. 2010. Understanding the difficulty of training deep feedforward neural networks. In Proceedings of the thirteenth international conference on artificial intelligence and statistics. 249--256.",
+      "doi": ""
+    },
+    {
+      "text": "Nan-Wei Gong, J\u00fcrgen Steimle, Simon Olberding, Steve Hodges, Nicholas Edward Gillian, Yoshihiro Kawahara, and Joseph A. Paradiso. 2014. PrintSense: A Versatile Sensing Technique to Support Multimodal Flexible Surface Interaction. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). ACM, NY, NY, USA, 1407--1410. DOI: http://dx.doi.org/10.1145/2556288.2557173",
+      "doi": "10.1145/2556288.2557173"
+    },
+    {
+      "text": "Tobias Grosse-Puppendahl, Christian Holz, Gabe Cohn, Raphael Wimmer, Oskar Bechtold, Steve Hodges, Matthew S. Reynolds, and Joshua R. Smith. 2017. Finding Common Ground: A Survey of Capacitive Sensing in Human-Computer Interaction. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, NY, NY, USA, 3293--3315. DOI: http://dx.doi.org/10.1145/3025453.3025808",
+      "doi": "10.1145/3025453.3025808"
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016a. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition. 770--778.",
+      "doi": ""
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016b. Identity mappings in deep residual networks. In European conference on computer vision. Springer, 630--645.",
+      "doi": ""
+    },
+    {
+      "text": "Sina Honari, Pavlo Molchanov, Stephen Tyree, Pascal Vincent, Christopher Pal, and Jan Kautz. 2018. Improving landmark localization with semi-supervised learning. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 1546--1555.",
+      "doi": ""
+    },
+    {
+      "text": "Sina Honari, Jason Yosinski, Pascal Vincent, and Christopher Pal. 2016. Recombinator networks: Learning coarse-to-fine feature aggregation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 5743--5752.",
+      "doi": ""
+    },
+    {
+      "text": "Epic Games Inc. 2019a. Unreal Engine. (2019). https://www.unrealengine.com/.",
+      "doi": ""
+    },
+    {
+      "text": "Facebook Inc. 2016. Oculus Touch. (2016). https://www.oculus.com/rift/accessories/.",
+      "doi": ""
+    },
+    {
+      "text": "Facebook Inc. 2019b. Oculus Quest. (2019). https://www.oculus.com/quest/.",
+      "doi": ""
+    },
+    {
+      "text": "Leap Motion Inc. 2012. Leap Motion. (2012). https://www.leapmotion.com/.",
+      "doi": ""
+    },
+    {
+      "text": "NaturalPoint Inc. 2019c. OptiTrack. (2019). https://optitrack.com/.",
+      "doi": ""
+    },
+    {
+      "text": "Umar Iqbal, Pavlo Molchanov, Thomas Breuel Juergen Gall, and Jan Kautz. 2018. Hand Pose Estimation via Latent 2.5D Heatmap Regression. In The European Conference on Computer Vision (ECCV).",
+      "doi": "10.1007/978-3-030-01252-6_8"
+    },
+    {
+      "text": "Yasha Iravantchi, Mayank Goel, and Chris Harrison. 2019. BeamBand: Hand Gesture Sensing with Ultrasonic Beamforming. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI '19). ACM, NY, NY, USA, Article 15, 10 pages. DOI: http://dx.doi.org/10.1145/3290605.3300245",
+      "doi": "10.1145/3290605.3300245"
+    },
+    {
+      "text": "David Kim, Otmar Hilliges, Shahram Izadi, Alex D. Butler, Jiawen Chen, Iason Oikonomidis, and Patrick Olivier. 2012. Digits: Freehand 3D Interactions Anywhere Using a Wrist-worn Gloveless Sensor. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology (UIST '12). ACM, NY, NY, USA, 167--176. DOI: http://dx.doi.org/10.1145/2380116.2380139",
+      "doi": "10.1145/2380116.2380139"
+    },
+    {
+      "text": "Wakaba Kuno, Yuta Sugiura, Nao Asano, Wataru Kawai, and Maki Sugimoto. 2017. 3D Reconstruction of Hand Postures by Measuring Skin Deformation on Back Hand. In ICAT-EGVE 2017 - International Conference on Artificial Reality and Telexistence and Eurographics Symposium on Virtual Environments, Robert W. Lindeman, Gerd Bruder, and Daisuke Iwai (Eds.). The Eurographics Association. DOI: http://dx.doi.org/10.2312/egve.20171362",
+      "doi": ""
+    },
+    {
+      "text": "Tactual Labs. 2019. Controller Video. (2019). https://www.tactuallabs.com/.",
+      "doi": ""
+    },
+    {
+      "text": "Huy Viet Le, Sven Mayer, and Niels Henze. 2018. InfiniTouch: Finger-Aware Interaction on Fully Touch Sensitive Smartphones. In The 31st Annual ACM Symposium on User Interface Software and Technology. ACM, 779--792.",
+      "doi": "10.1145/3242587.3242605"
+    },
+    {
+      "text": "Jaeyeon Lee, Mike Sinclair, Mar Gonzalez-Franco, Eyal Ofek, and Christian Holz. 2019. TORC: A Virtual Reality Controller for In-Hand High-Dexterity Finger Interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 71.",
+      "doi": "10.1145/3290605.3300301"
+    },
+    {
+      "text": "Jhe-Wei Lin, Chiuan Wang, Yi Yao Huang, Kuan-Ting Chou, Hsuan-Yu Chen, Wei-Luan Tseng, and Mike Y. Chen. 2015. BackHand: Sensing Hand Gestures via Back of the Hand. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology (UIST '15). ACM, NY, NY, USA, 557--564. DOI: http://dx.doi.org/10.1145/2807442.2807462",
+      "doi": ""
+    },
+    {
+      "text": "Sven Mayer, Huy Viet Le, and Niels Henze. 2017. Estimating the Finger Orientation on Capacitive Touchscreens Using Convolutional Neural Networks. In Proceedings of the 2017 ACM International Conference on Interactive Surfaces and Spaces (ISS '17). ACM, NY, NY, USA, 220--229. DOI: http://dx.doi.org/10.1145/3132272.3134130",
+      "doi": "10.1145/3132272.3134130"
+    },
+    {
+      "text": "Gyeongsik Moon, Ju Yong Chang, and Kyoung Mu Lee. 2018. V2v-posenet: Voxel-to-voxel prediction network for accurate 3d hand and human pose estimation from a single depth map. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 5079--5088.",
+      "doi": ""
+    },
+    {
+      "text": "Alejandro Newell, Kaiyu Yang, and Jia Deng. 2016. Stacked hourglass networks for human pose estimation. In European Conference on Computer Vision. Springer, 483--499.",
+      "doi": ""
+    },
+    {
+      "text": "Sinno Jialin Pan and Qiang Yang. 2010. A Survey on Transfer Learning. IEEE Trans. on Knowl. and Data Eng. 22, 10 (Oct. 2010), 1345--1359. DOI: http://dx.doi.org/10.1109/TKDE.2009.191",
+      "doi": "10.1109/TKDE.2009.191"
+    },
+    {
+      "text": "Chen Qian, Xiao Sun, Yichen Wei, Xiaoou Tang, and Jian Sun. 2014. Realtime and robust hand tracking from depth. In Proceedings of the IEEE conference on computer vision and pattern recognition. 1106--1113.",
+      "doi": "10.1109/CVPR.2014.145"
+    },
+    {
+      "text": "Olaf Ronneberger, Philipp Fischer, and Thomas Brox. 2015. U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention. Springer, 234--241.",
+      "doi": ""
+    },
+    {
+      "text": "K. Simonyan and A. Zisserman. 2014. Very Deep Convolutional Networks for Large-Scale Image Recognition. CoRR abs/1409.1556 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Smilkov, Nikhil Thorat, Been Kim, Fernanda Vi\u00e9gas, and Martin Wattenberg. 2017. Smoothgrad: removing noise by adding noise. arXiv preprint arXiv:1706.03825 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "David J Sturman and David Zeltzer. 1994. A survey of glove-based input. IEEE Computer graphics and Applications 14, 1 (1994), 30--39.",
+      "doi": "10.1109/38.250916"
+    },
+    {
+      "text": "Xiao Sun, Jiaxiang Shang, Shuang Liang, and Yichen Wei. 2017. Compositional human pose regression. In Proceedings of the IEEE International Conference on Computer Vision. 2602--2611.",
+      "doi": ""
+    },
+    {
+      "text": "Xiao Sun, Yichen Wei, Shuang Liang, Xiaoou Tang, and Jian Sun. 2015. Cascaded hand pose regression. In Proceedings of the IEEE conference on computer vision and pattern recognition. 824--832.",
+      "doi": ""
+    },
+    {
+      "text": "Anthony Talvas, Maud Marchal, Christian Duriez, and Miguel A Otaduy. 2015. Aggregate constraints for virtual manipulation with soft fingers. IEEE transactions on visualization and computer graphics 21, 4 (2015), 452--461.",
+      "doi": "10.1109/TVCG.2015.2391863"
+    },
+    {
+      "text": "Jonathan Taylor, Jamie Shotton, Toby Sharp, and Andrew Fitzgibbon. 2012. The vitruvian manifold: Inferring dense correspondences for one-shot human pose estimation. In 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 103--110.",
+      "doi": ""
+    },
+    {
+      "text": "Alvin R Tilley. 2002. The measure of man and woman: human factors in design. John Wiley & Sons.",
+      "doi": ""
+    },
+    {
+      "text": "Anastasia Tkach, Andrea Tagliasacchi, Edoardo Remelli, Mark Pauly, and Andrew Fitzgibbon. 2017. Online Generative Model Personalization for Hand Tracking. ACM Trans. Graph. 36, 6, Article 243 (Nov. 2017), 11 pages. DOI: http://dx.doi.org/10.1145/3130800.3130830",
+      "doi": "10.1145/3130800.3130830"
+    },
+    {
+      "text": "Jonathan Tompson, Ross Goroshin, Arjun Jain, Yann LeCun, and Christoph Bregler. 2015. Efficient object localization using convolutional networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 648--656.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Tompson, Murphy Stein, Yann Lecun, and Ken Perlin. 2014. Real-time continuous pose recovery of human hands using convolutional networks. ACM Transactions on Graphics (ToG) 33, 5 (2014), 169.",
+      "doi": "10.1145/2629500"
+    },
+    {
+      "text": "Alexander Toshev and Christian Szegedy. 2014. DeepPose: Human Pose Estimation via Deep Neural Networks. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).",
+      "doi": "10.1109/CVPR.2014.214"
+    },
+    {
+      "text": "Shih-En Wei, Varun Ramakrishna, Takeo Kanade, and Yaser Sheikh. 2016. Convolutional Pose Machines. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).",
+      "doi": ""
+    },
+    {
+      "text": "Robert Xiao, Julia Schwarz, and Chris Harrison. 2015. Estimating 3D Finger Angle on Commodity Touchscreens. In Proceedings of the 2015 International Conference on Interactive Tabletops & Surfaces (ITS '15). ACM, NY, NY, USA, 47--50. DOI: http://dx.doi.org/10.1145/2817721.2817737",
+      "doi": "10.1145/2817721.2817737"
+    },
+    {
+      "text": "Hui-Shyong Yeo, Erwin Wu, Juyoung Lee, Aaron Quigley, and Hideki Koike. 2019. Opisthenar: Hand Poses and Finger Tapping Recognition by Observing Back of Hand Using Embedded Wrist Camera. In Proceedings of the 32Nd Annual ACM Symposium on User Interface Software and Technology (UIST '19). ACM, NY, NY, USA, 963--971. DOI: http://dx.doi.org/10.1145/3332165.3347867",
+      "doi": "10.1145/3332165.3347867"
+    },
+    {
+      "text": "Shanxin Yuan, Guillermo Garcia-Hernando, Bjorn Stenger, Gyeongsik Moon, Ju Yong Chang, Kyoung Mu Lee, Pavlo Molchanov, Jan Kautz, Sina Honari, Liuhao Ge, Junsong Yuan, Xinghao Chen, Guijin Wang, Fan Yang, Kai Akiyama, Yang Wu, Qingfu Wan, Meysam Madadi, Sergio Escalera, Shile Li, Dongheui Lee, Iason Oikonomidis, Antonis Argyros, and Tae-Kyun Kim. 2018. Depth-Based 3D Hand Pose Estimation: From Current Achievements to Future Goals. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).",
+      "doi": ""
+    },
+    {
+      "text": "Shanxin Yuan, Qi Ye, Bjorn Stenger, Siddhant Jain, and Tae-Kyun Kim. 2017. Bighand2. 2m benchmark: Hand pose dataset and state of the art analysis. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 4866--4874.",
+      "doi": ""
+    },
+    {
+      "text": "Junjian Zhang, Yaohao Chen, Satoshi Hashizume, Naoya Muramatsu, Kotaro Omomo, Riku Iwasaki, Kaji Wataru, and Yoichi Ochiai. 2018. EXController: Enhancing Interaction Capability for VR Handheld Controllers Using Real-time Vision Sensing. In Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology (VRST '18). ACM, NY, NY, USA, Article 87, 2 pages. DOI: http://dx.doi.org/10.1145/3281505.3283385",
+      "doi": "10.1145/3281505.3283385"
+    },
+    {
+      "text": "Xingyi Zhou, Qixing Huang, Xiao Sun, Xiangyang Xue, and Yichen Wei. 2017. Weakly-supervised transfer for 3d human pose estimation in the wild. In IEEE International Conference on Computer Vision, ICCV, Vol. 3. 7.",
+      "doi": ""
+    }
+  ]
+}

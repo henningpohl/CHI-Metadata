@@ -1,0 +1,362 @@
+{
+  "doi": "10.1145/3025453.3025999",
+  "title": "How Do System Administrators Resolve Access-Denied Issues in the Real World?",
+  "published": "2017-05-02",
+  "proctitle": "CHI '17: Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
+  "pages": "348-361",
+  "year": 2017,
+  "badges": [],
+  "abstract": "The efficacy of access control largely depends on how system administrators (sysadmins) resolve access-denied issues. A correct resolution should only permit the expected access, while maintaining the protection against illegal access. However, anecdotal evidence suggests that correct resolutions are occasional---sysadmins often grant too much access (known as security misconfigurations) to allow the denied access, posing severe security risks. This paper presents a quantitative study on real-world practices of resolving access-denied issues, with a particular focus on how and why security misconfigurations are introduced during problem solving. We characterize the real-world security misconfigurations introduced in the field, and show that many of these misconfigurations were the results of trial-and-error practices commonly adopted by sysadmins to work around access denials. We argue that the lack of adequate feedback information is one fundamental reason that prevents sysadmins from developing precise understanding and thus induces trial and error. Our study on access-denied messages shows that many of today's software systems miss the opportunities for providing adequate feedback information, imposing unnecessary obstacles to correct resolutions.",
+  "authors": [
+    {
+      "name": "Tianyin Xu",
+      "institution": "University of California, San Diego, La Jolla, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81453626809",
+      "orcid": "missing"
+    },
+    {
+      "name": "Han Min Naing",
+      "institution": "University of California, San Diego, La Jolla, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659161520",
+      "orcid": "missing"
+    },
+    {
+      "name": "Le Lu",
+      "institution": "University of California, San Diego, La Jolla, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659162437",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yuanyuan Zhou",
+      "institution": "University of California, San Diego, La Jolla, CA, USA",
+      "img": "/do/10.1145/contrib-81451594551/rel-imgonly/81451594551.jpg",
+      "acmid": "81451594551",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Sepehr Amir-Mohammadian, Stephen Chong, and Christian Skalka. 2016. Correct Audit Logging: Theory and Practice. In Proceedings of the 5th International Conference on Principles of Security and Trust (POST'16). Eindhoven, The Netherlands.  ",
+      "doi": "10.5555/3089491.3089501"
+    },
+    {
+      "text": "Apache Users Mailing List. 2016. http://mail-archives.apache.org/mod_mbox/httpd-users/. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Dirk Balfanz. 2003. Usable Access Control for the World Wide Web. In Proceedings of the 19th Annual Computer Security Applications Conference (ACSAC'03). Las Vegas, NV, USA. ",
+      "doi": ""
+    },
+    {
+      "text": "Rob Barrett, Yen-Yang Michael Chen, and Paul Maglio. 2009. System Administrators are Users, Too: Designing Workspaces for Managing Internet-Scale Systems. In Proceedings of the 27th ACM Conference on Human Factors in Computing Systems (CHI'03). Boston, MA, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Rob Barrett, Eser Kandogan, Paul P. Maglio, Eben Haber, Leila A. Takayama, and Madhu Prabaker. 2004. Field Studies of Computer System Administrators: Analysis of System Management Tools and Practices. In Proceedings of the 2004 ACM Conference on Computer Supported Cooperative Work (CSCW'04). Baltimore, MD, USA.  ",
+      "doi": "10.1145/1031607.1031672"
+    },
+    {
+      "text": "Lujo Bauer, Lorrie Faith Cranor, Robert W. Reeder, Michael K. Reiter, and Kami Vaniea. 2008. A User Study of Policy Creation in a Flexible Access-Control System. In Proceedings of the 26th ACM Conference on Human Factors in Computing Systems (CHI'08). Florence, Italy.  ",
+      "doi": "10.1145/1357054.1357143"
+    },
+    {
+      "text": "Lujo Bauer, Lorrie Faith Cranor, Robert W. Reeder, Michael K. Reiter, and Kami Vaniea. 2009. Real Life Challenges in Access Control Management. In Proceedings of the 27th ACM Conference on Human Factors in Computing Systems (CHI'09). Boston, MA, USA.  ",
+      "doi": "10.1145/1518701.1518838"
+    },
+    {
+      "text": "Lujo Bauer, Scott Garriss, and Michael K. Reiter. 2008. Detecting and Resolving Policy Misconfigurations in Access-Control Systems. In Proceedings of the 13th ACM Symposium on Access Control Models and Technologies (SACMAT'08). Estes Park, CO, USA.  ",
+      "doi": "10.1145/1377836.1377866"
+    },
+    {
+      "text": "Lujo Bauer, Scott Garriss, and Michael K. Reiter. 2011. Detecting and Resolving Policy Misconfigurations in Access-Control Systems. ACM Transactions on Information and System Security (TISSEC) 14, 1 (May 2011), 1--28.  ",
+      "doi": "10.1145/1952982.1952984"
+    },
+    {
+      "text": "David Botta, Rodrigo Werlinger, Andr\u00e9 Gagn\u00e9, Konstantin Beznosov, Lee Iverson, Sidney Fels, and Brian Fisher. 2007. Towards Understanding IT Security Professionals and Their Tools. In Proceedings of the 2nd Symposium on Usable Privacy and Security (SOUPS'07). Pittsburgh, PA, USA.  ",
+      "doi": "10.1145/1280680.1280693"
+    },
+    {
+      "text": "Xiang Cao and Lee Iverson. 2006. Intentional access management: making access control usable for end-users. In Proceedings of the 2nd Symposium on Usable Privacy and Security (SOUPS'06). Pittsburgh, PA, USA.  ",
+      "doi": "10.1145/1143120.1143124"
+    },
+    {
+      "text": "CentOS Forums. 2016. https://www.centos.org/forums/. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "CentOS Mailing Lists. 2016. https://lists.centos.org/pipermail/centos/. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Anton Chuvakin and Gunnar Peterson. 2010. How to Do Application Logging Right. IEEE Security & Privacy 8, 4 (Jul. 2010), 82--85.  ",
+      "doi": "10.1109/MSP.2010.127"
+    },
+    {
+      "text": "Tathagata Das, Ranjita Bhagwan, and Prasad Naldurg. 2010. Baaz: A System for Detecting Access Control Misconfigurations. In Proceedings of the 19th USENIX Security Symposium (USENIX Security'10). Washington, DC, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Database Administrators. 2016. http://dba.stackexchange.com. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Database Administrators #127003. 2016. Can't access MySQL database with created user through dll. http://dba.stackexchange.com/questions/127003/cantaccess-mysql-database-with-created-user-through-dll. (Jan. 2016).",
+      "doi": ""
+    },
+    {
+      "text": "Serge Egelman, Andrew Oates, and Shriram Krishnamurthi. 2011. Oops, I Did it Again: Mitigating Repeated Access Control Errors on Facebook. In Proceedings of the 29th ACM International Conference on Human Factors in Computing Systems (CHI'11). Vancouver, BC, Canada.  ",
+      "doi": "10.1145/1978942.1979280"
+    },
+    {
+      "text": "Daniel Farmer and Eugene H. Spafford. 1990. The COPS Security Checker System. Technical Report CSD-TR-993. Purdue University, Dept. of Computer Science.",
+      "doi": ""
+    },
+    {
+      "text": "Adrienne Porter Felt. 2012. Towards Comprehensible and Effective Permission Systems. Ph.D. Dissertation. University of California at Berkeley, Electrical Engineering and Computer Sciences.",
+      "doi": ""
+    },
+    {
+      "text": "Jeff Goldman. 2014. Misconfigured Server Causes Massive Data Breach at MBIA. http://www.esecurityplanet.com/networksecurity/misconfigured-server-causes-massive-databreach-at-mbia.html. (Oct. 2014).",
+      "doi": ""
+    },
+    {
+      "text": "Eben M. Haber and John Bailey. 2007. Design Guidelines for System Administration Tools Developed through Ethnographic Field Study. In Proceedings of the 1st ACM Symposium on Computer Human Interaction for Management of Information Technology (CHIMIT'07). Cambridge, MA, USA.  ",
+      "doi": "10.1145/1234772.1234774"
+    },
+    {
+      "text": "Hadoop User Mailing Lists. 2016. http://mail-archives.apache.org/mod_mbox/hadoop-user/. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Hewlett Packard Enterprise. 2015. HP Cyber Risk Report 2015. http://www8.hp.com/h20195/v2/GetPDF.aspx/4AA50858ENN.pdf. (Feb. 2015).",
+      "doi": ""
+    },
+    {
+      "text": "Adele E. Howe, Indrajit Ray, Mark Roberts, Malgorzata Urbanska, and Zinta Byrne. 2012. The Psychology of Security for the Home Computer User. In Proceeding of the 33rd IEEE Symposium on Security & Privacy (S&P). San Francisco, CA, USA.  ",
+      "doi": "10.1109/SP.2012.23"
+    },
+    {
+      "text": "Weihang Jiang, Chongfeng Hu, Shankar Pasupathy, Arkady Kanevsky, Zhenmin Li, and Yuanyuan Zhou. 2009. Understanding Customer Problem Troubleshooting from Storage System Logs. In Proceedings of the 7th USENIX Conference on File and Storage Technologies (FAST'09). San Francisco, CA, USA.",
+      "doi": "10.5555/1525908.1525912"
+    },
+    {
+      "text": "Maritza L. Johnson. 2012. Toward Usable Access Control for End-users: A Case Study of Facebook Privacy Settings. Ph.D. Dissertation. Columbia University, Computer Science.",
+      "doi": ""
+    },
+    {
+      "text": "Eser Kandogan and Eben M. Haber. 2005. Security Administration Tools and Practices. Security and Usability, O'Reilly Media, Inc. (Aug. 2005).",
+      "doi": ""
+    },
+    {
+      "text": "Apu Kapadia, Geetanjali Sampemane, and Roy H. Campbell. 2004. Know Why Your Access Was Denied: Regulating Feedback for Usable Security. In Proceedings of the 11th ACM Conference on Computer and Communications Security (CCS'04). Washington, DC, USA.  ",
+      "doi": "10.1145/1030083.1030092"
+    },
+    {
+      "text": "Butler Lampson. 2009. Usable Security: How to Get It. Commun. ACM 52, 11 (Nov. 2009), 25--27.  ",
+      "doi": "10.1145/1592761.1592773"
+    },
+    {
+      "text": "Butler Lampson. 2015. Perspectives on Security. SOSP History Day. (Oct. 2015). http://sigops.org/sosp/sosp15/history/.",
+      "doi": ""
+    },
+    {
+      "text": "Butler W. Lampson. 1974. Protection. ACM SIGOPS Operating Systems Review 8, 1 (Jan. 1974), 18--24.  ",
+      "doi": "10.1145/775265.775268"
+    },
+    {
+      "text": "Butler W. Lampson. 2004. Computer Security in the Real World. IEEE Computer 37, 6 (Jun. 2004), 37--46.  ",
+      "doi": "10.1109/MC.2004.17"
+    },
+    {
+      "text": "Paul P. Maglio and Eser Kandogan. 2004. Error Messages: What's the Problem? ACM Queue 2, 8 (Nov. 2004), 50--55.  ",
+      "doi": "10.1145/1036474.1036499"
+    },
+    {
+      "text": "Roy A. Maxion and Robert W. Reeder. 2005. Improving User-Interface Dependability through Mitigation of Human Error. International Journal of Human-Computer Studies 63, 1--2 (Jul. 2005), 25--50.",
+      "doi": "10.1016/j.ijhcs.2005.04.009"
+    },
+    {
+      "text": "Michelle L. Mazurek, J. P. Arsenault, Joanna Bresee, Nitin Gupta, Iulia Ion, Christine Johns, Daniel Lee, Yuan Liang, Jenny Olsen, Brandon Salmon, Richard Shay, Kami Vaniea, Lujo Bauer, Lorrie Faith Cranor, Gregory R. Granger, and Michael K. Reiter. 2010. Access Control for Home Data Sharing: Attitudes, Needs, and Practices. In Proceedings of the 28th ACM International Conference on Human Factors in Computing Systems (CHI'10). Atlanta, GA, USA.  ",
+      "doi": "10.1145/1753326.1753421"
+    },
+    {
+      "text": "Microsoft Baseline Security Analyzer. 2016. http://www. microsoft.com/technet/security/tools/MBSAHome.mspx. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "MySQL Bug #80542. 2016. Should notify users when ignoring their option files. http://bugs.mysql.com/bug.php?id=80542. (Feb. 2016).",
+      "doi": ""
+    },
+    {
+      "text": "MySQL General Discussion Mailing List. 2016. https://lists.mysql.com/mysql. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Peter G. Neumann. 2015. Reminiscences on the 25th SOSP's History Day Workshop. http://sigops.org/sosp/sosp15/history/12-neumann.pdf. (2015).",
+      "doi": ""
+    },
+    {
+      "text": "Eric Steven Raymond and Rick Moen. 2014. How To Ask Questions The Smart Way. http://www.catb.org/~esr/faqs/smart-questions.html. (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Robert W. Reeder, Lujo Bauer, Lorrie Faith Cranor, Michael K. Reiter, Kelli Bacon, Keisha How, and Heather Strong. 2008. Expandable Grids for Visualizing and Authoring Computer Security Policies. In Proceedings of the 26th ACM Conference on Human Factors in Computing Systems (CHI'08). Florence, Italy.  ",
+      "doi": "10.1145/1357054.1357285"
+    },
+    {
+      "text": "Robert W. Reeder, Lujo Bauer, Lorrie Faith Cranor, Michael K. Reiter, and Kami Vaniea. 2011. More than Skin Deep: Measuring Effects of the Underlying Model on Access-Control System Usability. In Proceedings of the 29th ACM International Conference on Human Factors in Computing Systems (CHI'11). Vancouver, BC, Canada.  ",
+      "doi": "10.1145/1978942.1979243"
+    },
+    {
+      "text": "Cindy Rubio-Gonz\u00e1lez, Haryadi S. Gunawi, Ben Liblit, Remzi H. Arpaci-Dusseau, and Andrea C. Arpaci-Dusseau. 2009. Error Propagation Analysis for File Systems. In Proceedings of the 30th Annual ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'09). Dublin, Ireland.  ",
+      "doi": "10.1145/1542476.1542506"
+    },
+    {
+      "text": "Bruce Schneier. 2009. Real-World Access Control. https://www.schneier.com/blog/archives/2009/09/realworld_acce.html. (2009).",
+      "doi": ""
+    },
+    {
+      "text": "ServerFault. 2016. http://serverfault.com. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "ServerFault #235376. 2011. Apache/PHP writing to a user's home folder. http://serverfault.com/questions/235376/apache-phpwriting-to-a-users-home-folder. (Feb. 2011).",
+      "doi": ""
+    },
+    {
+      "text": "ServerFault #287508. 2011. Apache Permission denied problem on OS X. serverfault.com/questions//apachepermission-denied-problem-on-os-x. (Jul. 2011).",
+      "doi": ""
+    },
+    {
+      "text": "ServerFault #396036. 2012. Apache httpd permissions. http://serverfault.com/questions/396036/apache-httpdpermissions. (Jun. 2012).",
+      "doi": ""
+    },
+    {
+      "text": "ServerFault #401115. 2012. Apache Mod SVN Access Forbidden. http://serverfault.com/questions/401115/apache-modsvn-access-forbidden. (Jun. 2012).",
+      "doi": ""
+    },
+    {
+      "text": "ServerFault #402630. 2012. HTTP Error: 413 Request Entity Too Large. http://serverfault.com/questions/402630/http-error413-request-entity-too-large. (Jun. 2012).",
+      "doi": ""
+    },
+    {
+      "text": "ServerFault #418101. 2012. Apache \"Client denied by server con?guration\", despite allowing access to directory (vhost configuration). http://serverfault.com/questions/418101/apache-clientdenied-by-server-configuration-despite-allowingaccess-to-direc. (Aug. 2012).",
+      "doi": ""
+    },
+    {
+      "text": "ServerFault #421633. 2012. Cannot write file with apache despite 777 permissions on Directory. http://serverfault.com/questions/421633/cannot-writefile-with-apache-despite-777-permissions-on-directory. (Aug. 2012).",
+      "doi": ""
+    },
+    {
+      "text": "ServerFault #507914. 2013. Mysql working remotely but not localy. http://serverfault.com/questions/507914/mysql-workingremotely-but-not-localy. (May 2013).",
+      "doi": ""
+    },
+    {
+      "text": "ServerFault #65362. 2009. Is there a work around for the \"Permission denied? error from urllib2.urlopen\" http: //serverfault.com/questions//is-there-a-work-aroundfor-the-permission-denied-error-from-urllib2-urlopen. (Sep. 2009).",
+      "doi": ""
+    },
+    {
+      "text": "Sara Sinclair. 2013. Access Control In and For the Real World. Ph.D. Dissertation. Dartmouth College, Dept. of Computer Science.",
+      "doi": ""
+    },
+    {
+      "text": "Sara Sinclair and Sean W. Smith. 2010. What's Wrong with Access Control in the Real World? IEEE Security & Privacy 8, 4 (Jul. 2010), 74--77.  ",
+      "doi": "10.1109/MSP.2010.139"
+    },
+    {
+      "text": "StackOverflow. 2016. http://stackoverflow.com. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "StackOverflow #13542384. 2012. Setting permissions for cloudera hadoop. http://stackoverflow.com/questions/13542384/settingpermissions-for-cloudera-hadoop. (Nov. 2012).",
+      "doi": ""
+    },
+    {
+      "text": "StackOverflow #22664268. 2014. Error on map reduce example of Hadoop 2.2.0. http://stackoverflow.com/questions/22664268/error-onmap-reduce-example-of-hadoop-2--2-0. (Mar. 2014).",
+      "doi": ""
+    },
+    {
+      "text": "StackOverflow #29438893. 2015. Hadoop jar execution failing on class not found. http://stackoverflow.com/questions/29438893/hadoopjar-execution-failing-on-class-not-found. (Apr. 2015).",
+      "doi": ""
+    },
+    {
+      "text": "StackOverflow #30926357. 2015. Oozie on YARN oozie is not allowed to impersonate hadoop. http://stackoverflow.com/questions/30926357/oozie-onyarn-oozie-is-not-allowed-to-impersonate-hadoop. (Jun. 2015).",
+      "doi": ""
+    },
+    {
+      "text": "StackOverflow #33358339. 2015. Hadoop \"error while writing TokenizerMapper permission denied\". http://stackoverflow.com/questions/33358339/hadooperror-while-writing-tokenizermapper-permission-denied. (Jun. 2015).",
+      "doi": ""
+    },
+    {
+      "text": "StackOverflow #473789. 2013. mysql doesn't start after relocating data dir. http://serverfault.com/questions/473789/mysql-doesntstart-after-relocating-data-dir. (Jan. 2013).",
+      "doi": ""
+    },
+    {
+      "text": "StackOverflow Help Center. 2016. Why is voting important? http://stackoverflow.com/help/why-vote. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Leila Takayama and Eser Kandogan. 2006. Trust as an Underlying Factor of System Administrator Interface Choice. In CHI '06 Extended Abstracts on Human Factors in Computing Systems (CHI EA'06). Montr\u00e9al, Qu\u00e9bec, Canada.  ",
+      "doi": "10.1145/1125451.1125708"
+    },
+    {
+      "text": "The Open Web Application Security Project. 2013. OWASP Top 10: The Ten Most Critical Web Application Security Risks. http://owasptop10.googlecode.com/files/ OWASP%20Top%2010%20-%202013.pdf. (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Dan Walsh. 2013. Audit2allow should be your third option not the first. http://danwalsh.livejournal.com/63137.html. (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Ryan West. 2008. The Psychology of Security. Commun. ACM 51, 4 (Apr. 2008), 34--40.  ",
+      "doi": "10.1145/1330311.1330320"
+    },
+    {
+      "text": "Tianyin Xu, Long Jin, Xuepeng Fan, Yuanyuan Zhou, Shankar Pasupathy, and Rukma Talwadker. 2015. Hey, You Have Given Me Too Many Knobs! Understanding and Dealing with Over-Designed Configuration in System Software. In Proceedings of the 10th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE'15). Bergamo, Italy.  ",
+      "doi": "10.1145/2786805.2786852"
+    },
+    {
+      "text": "Tianyin Xu, Xinxin Jin, Peng Huang, Yuanyuan Zhou, Shan Lu, Long Jin, and Shankar Pasupathy. 2016. Early Detection of Configuration Errors to Reduce Failure Damage. In Proceedings of the 12th USENIX Conference on Operating Systems Design and Implementation (OSDI'16). Savannah, GA, USA.",
+      "doi": "10.5555/3026877.3026925"
+    },
+    {
+      "text": "Tianyin Xu, Jiaqi Zhang, Peng Huang, Jing Zheng, Tianwei Sheng, Ding Yuan, Yuanyuan Zhou, and Shankar Pasupathy. 2013. Do Not Blame Users for Misconfigurations. In Proceedings of the 24th Symposium on Operating System Principles (SOSP'13). Farmington, PA, USA.  ",
+      "doi": "10.1145/2517349.2522727"
+    },
+    {
+      "text": "Tianyin Xu and Yuanyuan Zhou. 2015. Systems Approaches to Tackling Configuration Errors: A Survey. ACM Computing Surveys (CSUR) 47, 4 (Jul. 2015).  ",
+      "doi": "10.1145/2791577"
+    },
+    {
+      "text": "Zuoning Yin, Xiao Ma, Jing Zheng, Yuanyuan Zhou, Lakshmi N. Bairavasundaram, and Shankar Pasupathy. 2011. An Empirical Study on Configuration Errors in Commercial and Open Source Systems. In Proceedings of the 23rd ACM Symposium on Operating Systems Principles (SOSP'11). Cascais, Portugal.  ",
+      "doi": "10.1145/2043556.2043572"
+    },
+    {
+      "text": "Ding Yuan. 2012. Improving Failure Diagnosis with Better Logging Design and Analysis. Ph.D. Dissertation. University of Illinois Urbana-Champaign, Dept. of Computer Science.",
+      "doi": ""
+    },
+    {
+      "text": "Ding Yuan, Soyeon Park, Peng Huang, Yang Liu, Michael M. Lee, Xiaoming Tang, Yuanyuan Zhou, and Stefan Savage. 2012. Be Conservative: Enhancing Failure Diagnosis with Proactive Logging. In Proceedings of the 10th USENIX Conference on Operating Systems Design and Implementation (OSDI'12). Hollywood, CA, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Ding Yuan, Jing Zheng, Soyeon Park, Yuanyuan Zhou, and Stefan Savage. 2011. Improving Software Diagnosability via Log Enhancement. In Proceedings of the 16th International Conference on Architecture Support for Programming Languages and Operating Systems (ASPLOS'11). Newport Beach, CA, USA.  ",
+      "doi": "10.1145/1950365.1950369"
+    },
+    {
+      "text": "Jiaqi Zhang, Lakshmi Renganarayana, Xiaolan Zhang, Niyu Ge, Vasanth Bala, Tianyin Xu, and Yuanyuan Zhou. 2014. EnCore: Exploiting System Environment and Correlation Information for Misconfiguration Detection. In Proceedings of the 19th International Conference on Architecture Support for Programming Languages and Operating Systems (ASPLOS'14). Salt Lake City, UT, USA.  ",
+      "doi": "10.1145/2541940.2541983"
+    },
+    {
+      "text": "Sai Zhang and Michael D. Ernst. 2015. Proactive Detection of Inadequate Diagnostic Messages for Software Configuration Errors. In Proceedings of the 2015 International Symposium on Software Testing and Analysis (ISSTA'15). Baltimore, MD, USA.  ",
+      "doi": "10.1145/2771783.2771817"
+    },
+    {
+      "text": "Mary Ellen Zurko, Rich Simon, and Tom Sanfilippo. 1999. A User-Centered, Modular Authorization Service Built on an RBAC Foundation. In Proceedings of the 20th IEEE Symposium on Security and Privacy (S&P). Oakland, CA, USA.",
+      "doi": ""
+    }
+  ]
+}

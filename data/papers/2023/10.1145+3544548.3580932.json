@@ -1,0 +1,612 @@
+{
+  "doi": "10.1145/3544548.3580932",
+  "title": "CoArgue : Fostering Lurkers\u2019 Contribution to Collective Arguments in Community-based QA Platforms",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2023,
+  "badges": [],
+  "abstract": "In Community-Based Question Answering (CQA) platforms, people can participate in discussions about non-factoid topics by marking their stances, providing premises, or arguing for the opinions they support, which forms \u201ccollective arguments\u201d. The sustainable development of collective arguments relies on a big contributor base, yet most of the frequent CQA users are lurkers who seldom speak out. With a formative study, we identified detailed obstacles preventing lurkers from contributing to collective arguments. We consequently designed a processing pipeline for extracting and summarizing augmentative elements from question threads. Based on this we built CoArgue, a tool with navigation and chatbot features to support CQA lurkers\u2019 motivation and ability in making contributions. Through a within-subject study (N=24), we found that, compared to a Quora-like baseline, participants perceived CoArgue as significantly more useful in enhancing their motivation and ability to join collective arguments and found the experience to be more engaging and productive.",
+  "authors": [
+    {
+      "name": "Chengzhong Liu",
+      "institution": "The Hong Kong University of Science and Technology, Hong Kong",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660481167",
+      "orcid": "0000-0002-4948-8276"
+    },
+    {
+      "name": "Shixu Zhou",
+      "institution": "The Hong Kong University of Science and Technology, Hong Kong",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660481342",
+      "orcid": "0000-0001-7328-1147"
+    },
+    {
+      "name": "Dingdong Liu",
+      "institution": "The Hong Kong University of Science and Technology, Hong Kong",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660481696",
+      "orcid": "0000-0003-0985-0979"
+    },
+    {
+      "name": "Junze Li",
+      "institution": "The Hong Kong University of Science and Technology, Hong Kong",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779531",
+      "orcid": "0000-0003-4768-6495"
+    },
+    {
+      "name": "Zeyu Huang",
+      "institution": "The Hong Kong University of Science and Technology, Hong Kong",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700955",
+      "orcid": "0000-0001-8199-071X"
+    },
+    {
+      "name": "Xiaojuan Ma",
+      "institution": "Hong Kong University of Science and Technology, Hong Kong",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81484654594",
+      "orcid": "0000-0002-9847-7784"
+    }
+  ],
+  "references": [
+    {
+      "text": "Tazin Afrin, Omid Kashefi, Christopher Olshefski, Diane Litman, Rebecca Hwa, and Amanda Godley. 2021. Effective Interfaces for Student-Driven Revision Sessions for Argumentative Writing. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 58, 13\u00a0pages. https://doi.org/10.1145/3411764.3445683",
+      "doi": "10.1145/3411764.3445683"
+    },
+    {
+      "text": "Abeer AlDayel and Walid Magdy. 2021. Stance detection on social media: State of the art and trends. Information Processing & Management 58, 4 (2021), 102597.",
+      "doi": "10.1016/j.ipm.2021.102597"
+    },
+    {
+      "text": "Steven Baker, Jenny Waycott, Romina Carrasco, Ryan\u00a0M. Kelly, Anthony\u00a0John Jones, Jack Lilley, Briony Dow, Frances Batchelor, Thuong Hoang, and Frank Vetere. 2021. Avatar-Mediated Communication in Social VR: An In-Depth Exploration of Older Adult Interaction in an Emerging Communication Platform. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 491, 13\u00a0pages. https://doi.org/10.1145/3411764.3445752",
+      "doi": "10.1145/3411764.3445752"
+    },
+    {
+      "text": "Francesco Barbieri, Luis Espinosa\u00a0Anke, and Jose Camacho-Collados. 2022. XLM-T: Multilingual Language Models in Twitter for Sentiment Analysis and Beyond. In Proceedings of the Language Resources and Evaluation Conference. European Language Resources Association, Marseille, France, 258\u2013266. https://aclanthology.org/2022.lrec-1.27",
+      "doi": ""
+    },
+    {
+      "text": "Prakhar Biyani, Sumit Bhatia, Cornelia Caragea, and Prasenjit Mitra. 2012. Thread specific features are helpful for identifying subjectivity orientation of online forum threads. In Proceedings of COLING 2012. 295\u2013310.",
+      "doi": ""
+    },
+    {
+      "text": "Alexander Bondarenko, Matthias Hagen, Martin Potthast, Henning Wachsmuth, Meriem Beloucif, Chris Biemann, Alexander Panchenko, and Benno Stein. 2020. Touch\u00e9: First Shared Task on Argument Retrieval. In Advances in Information Retrieval: 42nd European Conference on IR Research, ECIR 2020, Lisbon, Portugal, April 14\u201317, 2020, Proceedings, Part II (Lisbon, Portugal). Springer-Verlag, Berlin, Heidelberg, 517\u2013523. https://doi.org/10.1007/978-3-030-45442-5_67",
+      "doi": "10.1007/978-3-030-45442-5_67"
+    },
+    {
+      "text": "Pavel Braslavski, Denis Savenkov, Eugene Agichtein, and Alina Dubatovka. 2017. What do you mean exactly? Analyzing clarification questions in CQA. In Proceedings of the 2017 conference on conference human information interaction and retrieval. 345\u2013348.",
+      "doi": "10.1145/3020165.3022149"
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative Research in Psychology 3, 2 (2006), 77\u2013101. https://doi.org/10.1191/1478088706qp063oa arXiv:https://www.tandfonline.com/doi/pdf/10.1191/1478088706qp063oa",
+      "doi": "10.1191/1478088706"
+    },
+    {
+      "text": "John Brooke. 1996. SUS: A quick and dirty usability scale. Usability evaluation in industry 189 (1996), 4\u20137.",
+      "doi": ""
+    },
+    {
+      "text": "Felix Carros, Johanna Meurer, Diana L\u00f6ffler, David Unbehaun, Sarah Matthies, Inga Koch, Rainer Wieching, Dave Randall, Marc Hassenzahl, and Volker Wulf. 2020. Exploring Human-Robot Interaction with the Elderly: Results from a Ten-Week Case Study in a Care Home. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376402",
+      "doi": "10.1145/3313831.3376402"
+    },
+    {
+      "text": "Jessy Ceha, Ken\u00a0Jen Lee, Elizabeth Nilsen, Joslin Goh, and Edith Law. 2021. Can a Humorous Conversational Agent Enhance Learning Experience and Outcomes?. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 685, 14\u00a0pages. https://doi.org/10.1145/3411764.3445068",
+      "doi": "10.1145/3411764.3445068"
+    },
+    {
+      "text": "Jonathan\u00a0P. Chang, Charlotte Schluger, and Cristian Danescu-Niculescu-Mizil. 2022. Thread With Caution: Proactively Helping Users Assess and Deescalate Tension in Their Online Discussions. Proc. ACM Hum.-Comput. Interact. 6, CSCW2, Article 545 (nov 2022), 37\u00a0pages. https://doi.org/10.1145/3555603",
+      "doi": "10.1145/3555603"
+    },
+    {
+      "text": "Fei-Ching Chen and Hsiu-Mei Chang. 2011. Do Lurking Learners Contribute Less? A Knowledge Co-Construction Perspective. In Proceedings of the 5th International Conference on Communities and Technologies (Brisbane, Australia) (C&T \u201911). Association for Computing Machinery, New York, NY, USA, 169\u2013178. https://doi.org/10.1145/2103354.2103377",
+      "doi": "10.1145/2103354.2103377"
+    },
+    {
+      "text": "Rocio Chongtay, Mark Last, and Bettina Berendt. 2018. Responsive News Summarization for Ubiquitous Consumption on Multiple Mobile Devices. In 23rd International Conference on Intelligent User Interfaces (Tokyo, Japan) (IUI \u201918). Association for Computing Machinery, New York, NY, USA, 433\u2013437. https://doi.org/10.1145/3172944.3172992",
+      "doi": "10.1145/3172944.3172992"
+    },
+    {
+      "text": "Benjamin Collier and Julia Bear. 2012. Conflict, criticism, or confidence: an empirical examination of the gender gap in wikipedia contributions. In Proceedings of the ACM 2012 conference on Computer Supported Cooperative Work (New York, NY, USA, 2012-02-11) (CSCW \u201912). Association for Computing Machinery, 383\u2013392. https://doi.org/10.1145/2145204.2145265",
+      "doi": "10.1145/2145204.2145265"
+    },
+    {
+      "text": "Corinna Cortes and Vladimir Vapnik. 1995. Support-vector networks. Machine learning 20, 3 (1995), 273\u2013297.",
+      "doi": "10.1023/A%3A1022627411411"
+    },
+    {
+      "text": "Mihaly Csikzentmihaly. 1990. Flow: The psychology of optimal experience. Vol.\u00a01990. Harper & Row, New York, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Kushal Dave, Martin Wattenberg, and Michael Muller. 2004. Flash Forums and ForumReader: Navigating a New Kind of Large-Scale Online Discussion. In Proceedings of the 2004 ACM Conference on Computer Supported Cooperative Work (Chicago, Illinois, USA) (CSCW \u201904). Association for Computing Machinery, New York, NY, USA, 232\u2013241. https://doi.org/10.1145/1031607.1031644",
+      "doi": "10.1145/1031607.1031644"
+    },
+    {
+      "text": "Roelof\u00a0A.J. de Vries, Khiet\u00a0P. Truong, Sigrid Kwint, Constance\u00a0H.C. Drossaert, and Vanessa Evers. 2016. Crowd-Designed Motivation: Motivational Messages for Exercise Adherence Based on Behavior Change Theory. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (New York, NY, USA, 2016-05-07) (CHI \u201916). Association for Computing Machinery, 297\u2013308. https://doi.org/10.1145/2858036.2858229",
+      "doi": "10.1145/2858036.2858229"
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina\u00a0N. Toutanova. 2018. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. https://arxiv.org/abs/1810.04805",
+      "doi": ""
+    },
+    {
+      "text": "Berkeley\u00a0J Dietvorst, Joseph\u00a0P Simmons, and Cade Massey. 2015. Algorithm aversion: people erroneously avoid algorithms after seeing them err.Journal of Experimental Psychology: General 144, 1 (2015), 114.",
+      "doi": ""
+    },
+    {
+      "text": "Kevin Doherty and Gavin Doherty. 2018. Engagement in HCI: Conception, Theory and Measurement. ACM Comput. Surv. 51, 5, Article 99 (nov 2018), 39\u00a0pages. https://doi.org/10.1145/3234149",
+      "doi": "10.1145/3234149"
+    },
+    {
+      "text": "Lorik Dumani, Patrick\u00a0J Neumann, and Ralf Schenkel. 2020. A framework for argument retrieval. In European Conference on Information Retrieval. Springer, 431\u2013445.",
+      "doi": "10.1007/978-3-030-45439-5_29"
+    },
+    {
+      "text": "Rosta Farzan, Robert Kraut, Aditya Pal, and Joseph Konstan. 2012. Socializing Volunteers in an Online Community: A Field Experiment. In Proceedings of the ACM 2012 Conference on Computer Supported Cooperative Work (Seattle, Washington, USA) (CSCW \u201912). Association for Computing Machinery, New York, NY, USA, 325\u2013334. https://doi.org/10.1145/2145204.2145256",
+      "doi": "10.1145/2145204.2145256"
+    },
+    {
+      "text": "Haakon Faste and Honray Lin. 2012. The Untapped Promise of Digital Mind Maps. Association for Computing Machinery, New York, NY, USA, 1017\u20131026. https://doi.org/10.1145/2207676.2208548",
+      "doi": "10.1145/2207676.2208548"
+    },
+    {
+      "text": "Franz Faul, Edgar Erdfelder, Axel Buchner, and Albert-Georg Lang. 2009. Statistical power analyses using G* Power 3.1: Tests for correlation and regression analyses. Behavior research methods 41, 4 (2009), 1149\u20131160.",
+      "doi": ""
+    },
+    {
+      "text": "Donghui Feng, Erin Shaw, Jihie Kim, and Eduard Hovy. 2006. An Intelligent Discussion-Bot for Answering Student Queries in Threaded Discussions. In Proceedings of the 11th International Conference on Intelligent User Interfaces (Sydney, Australia) (IUI \u201906). Association for Computing Machinery, New York, NY, USA, 171\u2013177. https://doi.org/10.1145/1111449.1111488",
+      "doi": "10.1145/1111449.1111488"
+    },
+    {
+      "text": "Rudolf Flesch. 1943. Marks of readable style; a study in adult education.Teachers College Contributions to Education(1943).",
+      "doi": ""
+    },
+    {
+      "text": "Rachel\u00a0L. Franz, Jacob\u00a0O. Wobbrock, Yi Cheng, and Leah Findlater. 2019. Perception and Adoption of Mobile Accessibility Features by Older Adults Experiencing Ability Changes. In The 21st International ACM SIGACCESS Conference on Computers and Accessibility (New York, NY, USA, 2019-10-24) (ASSETS \u201919). Association for Computing Machinery, 267\u2013278. https://doi.org/10.1145/3308561.3353780",
+      "doi": "10.1145/3308561.3353780"
+    },
+    {
+      "text": "Brendan\u00a0J Frey and Delbert Dueck. 2007. Clustering by passing messages between data points. science 315, 5814 (2007), 972\u2013976.",
+      "doi": ""
+    },
+    {
+      "text": "Shogo Fujita, Tomohide Shibata, and Manabu Okumura. 2020. Diverse and Non-redundant Answer Set Extraction on Community QA based on DPPs. In Proceedings of the 28th International Conference on Computational Linguistics. 5309\u20135320.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Gambino and S.\u00a0Shyam Sundar. 2019. Acceptance of Self-Driving Cars: Does Their Posthuman Ability Make Them More Eerie or More Desirable?. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3290607.3312870",
+      "doi": "10.1145/3290607.3312870"
+    },
+    {
+      "text": "S Geerthik, S Venkatraman, and K\u00a0Rajiv Gandhi. 2016. Reward rank: A novel approach for positioning user answers in community question answering system. In 2016 International Conference on Information Communication and Embedded Systems (ICICES). IEEE, 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Nancy\u00a0C. Goodwin. 1987. Functionality and Usability. Commun. ACM 30, 3 (March 1987), 229\u2013233. https://doi.org/10.1145/214748.214758",
+      "doi": "10.1145/214748.214758"
+    },
+    {
+      "text": "Theodosis Goudas, Christos Louizos, Georgios Petasis, and Vangelis Karkaletsis. 2014. Argument extraction from news, blogs, and social media. In Hellenic Conference on Artificial Intelligence. Springer, 287\u2013299.",
+      "doi": ""
+    },
+    {
+      "text": "Maarten Grootendorst. 2020. KeyBERT: Minimal keyword extraction with BERT.https://doi.org/10.5281/zenodo.4461265",
+      "doi": ""
+    },
+    {
+      "text": "Ali G\u00fcrkan, Luca Iandoli, Mark Klein, and Giuseppe Zollo. 2010. Mediating debate through on-line large-scale argumentation: Evidence from the field. Information Sciences 180, 19 (2010), 3686\u20133702.",
+      "doi": "10.1016/j.ins.2010.06.011"
+    },
+    {
+      "text": "F\u00a0Maxwell Harper, Daniel Moy, and Joseph\u00a0A Konstan. 2009. Facts or friends? Distinguishing informational and conversational questions in social Q&A sites. In Proceedings of the sigchi conference on human factors in computing systems. 759\u2013768.",
+      "doi": "10.1145/1518701.1518819"
+    },
+    {
+      "text": "Joe\u00a0E Heimlich and Nicole\u00a0M Ardoin. 2008. Understanding behavior to understand behavior change: A literature review. Environmental education research 14, 3 (2008), 215\u2013237.",
+      "doi": ""
+    },
+    {
+      "text": "Christopher Hidey, Elena Musi, Alyssa Hwang, Smaranda Muresan, and Kathleen McKeown. 2017. Analyzing the semantic types of claims and premises in an online persuasive forum. In Proceedings of the 4th Workshop on Argument Mining. 11\u201321.",
+      "doi": ""
+    },
+    {
+      "text": "Enamul Hoque and Giuseppe Carenini. 2015. ConVisIT: Interactive Topic Modeling for Exploring Asynchronous Online Conversations. In Proceedings of the 20th International Conference on Intelligent User Interfaces(Atlanta, Georgia, USA) (IUI \u201915). Association for Computing Machinery, New York, NY, USA, 169\u2013180. https://doi.org/10.1145/2678025.2701370",
+      "doi": "10.1145/2678025.2701370"
+    },
+    {
+      "text": "Enamul Hoque, Shafiq Joty, Luis Marquez, and Giuseppe Carenini. 2017. CQAVis: Visual Text Analytics for Community Question Answering. In Proceedings of the 22nd International Conference on Intelligent User Interfaces (Limassol, Cyprus) (IUI \u201917). Association for Computing Machinery, New York, NY, USA, 161\u2013172. https://doi.org/10.1145/3025171.3025210",
+      "doi": "10.1145/3025171.3025210"
+    },
+    {
+      "text": "Shafiq Joty, Alberto Barr\u00f3n-Cedeno, Giovanni Da\u00a0San Martino, Simone Filice, Llu\u00eds M\u00e0rquez, Alessandro Moschitti, and Preslav Nakov. 2019. Global thread-level inference for comment classification in community question answering. arXiv preprint arXiv:1911.08755(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Youwen Kang, Zhida Sun, Sitong Wang, Zeyu Huang, Ziming Wu, and Xiaojuan Ma. 2021. MetaMap: Supporting Visual Metaphor Ideation through Multi-Dimensional Example-Based Exploration. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 427, 15\u00a0pages. https://doi.org/10.1145/3411764.3445325",
+      "doi": "10.1145/3411764.3445325"
+    },
+    {
+      "text": "Alboukadel Kassambara. 2021. rstatix: Pipe-Friendly Framework for Basic Statistical Tests. https://CRAN.R-project.org/package=rstatix R package version 0.7.0.",
+      "doi": ""
+    },
+    {
+      "text": "Avleen Kaur, C\u00a0Estelle Smith, and Loren Terveen. 2021. Sway Together, Stay Together: Visualizing Spiritual Support Networks Through the SoulGarden Prototype. In Companion Publication of the 2021 Conference on Computer Supported Cooperative Work and Social Computing. 84\u201388.",
+      "doi": "10.1145/3462204.3481774"
+    },
+    {
+      "text": "Imrul Kayes, Nicolas Kourtellis, Francesco Bonchi, and Adriana Iamnitchi. 2015. Privacy Concerns vs. User Behavior in Community Question Answering. In Proceedings of the 2015 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining 2015 (Paris, France) (ASONAM \u201915). Association for Computing Machinery, New York, NY, USA, 681\u2013688. https://doi.org/10.1145/2808797.2809422",
+      "doi": "10.1145/2808797.2809422"
+    },
+    {
+      "text": "Irni\u00a0Eliana Khairuddin and Corina Sas. 2019. An Exploration of Bitcoin Mining Practices: Miners\u2019 Trust Challenges and Motivations. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300859",
+      "doi": "10.1145/3290605.3300859"
+    },
+    {
+      "text": "Dana Khartabil, Christopher Collins, S Wells, Benjamin Bach, and Jessie Kennedy. 2021. Design and Evaluation of Visualization Techniques to Facilitate Argument Exploration. In Computer Graphics Forum, Vol.\u00a040. Wiley Online Library, 447\u2013465.",
+      "doi": ""
+    },
+    {
+      "text": "Dana Khartabil, S Wells, and Jessie Kennedy. 2016. Large-scale Argument Visualization (LSAV).. In EuroVis (Posters). 65\u201367.",
+      "doi": ""
+    },
+    {
+      "text": "Soomin Kim, Jinsu Eun, Joseph Seering, and Joonhwan Lee. 2021. Moderator Chatbot for Deliberative Discussion: Effects of Discussion Structure and Discussant Facilitation. Proc. ACM Hum.-Comput. Interact. 5, CSCW1, Article 87 (apr 2021), 26\u00a0pages. https://doi.org/10.1145/3449161",
+      "doi": "10.1145/3449161"
+    },
+    {
+      "text": "Maximilian Klein, Jinhao Zhao, Jiajun Ni, Isaac Johnson, Benjamin\u00a0Mako Hill, and Haiyi Zhu. 2017. Quality Standards, Service Orientation, and Power in Airbnb and Couchsurfing. Proc. ACM Hum.-Comput. Interact. 1, CSCW, Article 58 (dec 2017), 21\u00a0pages. https://doi.org/10.1145/3134693",
+      "doi": "10.1145/3134693"
+    },
+    {
+      "text": "Yubo Kou and Colin\u00a0M. Gray. 2017. Supporting Distributed Critique through Interpretation and Sense-Making in an Online Creative Community. Proc. ACM Hum.-Comput. Interact. 1, CSCW, Article 60 (dec 2017), 18\u00a0pages. https://doi.org/10.1145/3134695",
+      "doi": "10.1145/3134695"
+    },
+    {
+      "text": "Yubo Kou and Colin\u00a0M. Gray. 2018. Towards Professionalization in an Online Community of Emerging Occupation: Discourses among UX Practitioners. In Proceedings of the 2018 ACM Conference on Supporting Groupwork (Sanibel Island, Florida, USA) (GROUP \u201918). Association for Computing Machinery, New York, NY, USA, 322\u2013334. https://doi.org/10.1145/3148330.3148352",
+      "doi": "10.1145/3148330.3148352"
+    },
+    {
+      "text": "John\u00a0D. Lafferty, Andrew McCallum, and Fernando C.\u00a0N. Pereira. 2001. Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data. In Proceedings of the Eighteenth International Conference on Machine Learning(ICML \u201901). Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 282\u2013289.",
+      "doi": ""
+    },
+    {
+      "text": "Hui-Min Lai and Tsung\u00a0Teng Chen. 2014. Knowledge sharing in interest online communities: A comparison of posters and lurkers. Computers in Human Behavior 35 (2014), 295\u2013306.",
+      "doi": ""
+    },
+    {
+      "text": "Heidi Lam and Patrick Baudisch. 2005. Summary Thumbnails: Readable Overviews for Small Screen Web Browsers. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Portland, Oregon, USA) (CHI \u201905). Association for Computing Machinery, New York, NY, USA, 681\u2013690. https://doi.org/10.1145/1054972.1055066",
+      "doi": "10.1145/1054972.1055066"
+    },
+    {
+      "text": "Cliff Lampe, Rick Wash, Alcides Velasquez, and Elif Ozkaya. 2010. Motivations to Participate in Online Communities. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201910). Association for Computing Machinery, New York, NY, USA, 1927\u20131936. https://doi.org/10.1145/1753326.1753616",
+      "doi": "10.1145/1753326.1753616"
+    },
+    {
+      "text": "Anne Lauscher, Lily Ng, Courtney Napoles, and Joel Tetreault. 2020. Rhetoric, logic, and dialectic: Advancing theory-based argument quality assessment in natural language processing. arXiv preprint arXiv:2006.00843(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Long\u00a0T Le, Chirag Shah, and Erik Choi. 2017. Bad users or bad content? Breaking the vicious cycle by finding struggling students in community question-answering. In Proceedings of the 2017 Conference on Conference Human Information Interaction and Retrieval. 165\u2013174.",
+      "doi": "10.1145/3020165.3020181"
+    },
+    {
+      "text": "Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Veselin Stoyanov, and Luke Zettlemoyer. 2020. BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Online, 7871\u20137880. https://doi.org/10.18653/v1/2020.acl-main.703",
+      "doi": ""
+    },
+    {
+      "text": "Ang Li, Zheng Yao, Diyi Yang, Chinmay Kulkarni, Rosta Farzan, and Robert\u00a0E Kraut. 2020. Successful online socialization: lessons from the Wikipedia education program. Proceedings of the ACM on Human-Computer Interaction 4, CSCW1(2020), 1\u201324.",
+      "doi": "10.1145/3392857"
+    },
+    {
+      "text": "Chin-Yew Lin. 2004. Rouge: A package for automatic evaluation of summaries. In Text summarization branches out. 74\u201381.",
+      "doi": ""
+    },
+    {
+      "text": "Chengzhong Liu, Zeyu Huang, Dingdong Liu, Shixu Zhou, Zhenhui Peng, and Xiaojuan Ma. 2022. PlanHelper: Supporting Activity Plan Construction with Answer Posts in Community-Based QA Platforms. Proc. ACM Hum.-Comput. Interact. 6, CSCW2, Article 454 (nov 2022), 26\u00a0pages. https://doi.org/10.1145/3555555",
+      "doi": "10.1145/3555555"
+    },
+    {
+      "text": "Chengzhong Liu, Shixu Zhou, Yuanhao Zhang, Dingdong Liu, Zhenhui Peng, and Xiaojuan Ma. 2022. Exploring the Effects of Self-Mockery to Improve Task-Oriented Chatbot\u2019s Social Intelligence. In Designing Interactive Systems Conference (Virtual Event, Australia) (DIS \u201922). Association for Computing Machinery, New York, NY, USA, 1315\u20131329. https://doi.org/10.1145/3532106.3533461",
+      "doi": "10.1145/3532106.3533461"
+    },
+    {
+      "text": "Qiaoling Liu, Tomasz Jurczyk, Jinho Choi, and Eugene Agichtein. 2015. Real-Time Community Question Answering: Exploring Content Recommendation and User Notification Strategies. In Proceedings of the 20th International Conference on Intelligent User Interfaces (Atlanta, Georgia, USA) (IUI \u201915). Association for Computing Machinery, New York, NY, USA, 50\u201361. https://doi.org/10.1145/2678025.2701392",
+      "doi": "10.1145/2678025.2701392"
+    },
+    {
+      "text": "Xingyu Liu, Patrick Carrington, Xiang\u00a0\u2019Anthony\u2019 Chen, and Amy Pavel. 2021. What Makes Videos Accessible to Blind and Visually Impaired People?. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 272, 14\u00a0pages. https://doi.org/10.1145/3411764.3445233",
+      "doi": "10.1145/3411764.3445233"
+    },
+    {
+      "text": "Yuanjie Liu, Shasha Li, Yunbo Cao, Chin-Yew Lin, Dingyi Han, and Yong Yu. 2008. Understanding and summarizing answers in community-based question answering services. In Proceedings of the 22nd International Conference on Computational Linguistics (COLING 2008). 497\u2013504.",
+      "doi": "10.5555/1599081.1599144"
+    },
+    {
+      "text": "Shuai Ma, Taichang Zhou, Fei Nie, and Xiaojuan Ma. 2022. Glancee: An Adaptable System for Instructors to Grasp Student Learning Status in Synchronous Online Classes. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 313, 25\u00a0pages. https://doi.org/10.1145/3491102.3517482",
+      "doi": "10.1145/3491102.3517482"
+    },
+    {
+      "text": "Xiaojuan Ma, Emily Yang, and Pascale Fung. 2019. Exploring Perceived Emotional Intelligence of Personality-Driven Virtual Agents in Handling User Challenges. In The World Wide Web Conference (San Francisco, CA, USA) (WWW \u201919). Association for Computing Machinery, New York, NY, USA, 1222\u20131233. https://doi.org/10.1145/3308558.3313400",
+      "doi": "10.1145/3308558.3313400"
+    },
+    {
+      "text": "Jakub Macina, Ivan Srba, Joseph\u00a0Jay Williams, and Maria Bielikova. 2017. Educational question routing in online student communities. In Proceedings of the eleventh ACM conference on recommender systems. 47\u201355.",
+      "doi": "10.1145/3109859.3109886"
+    },
+    {
+      "text": "Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel Analysis of Sociability, Usability, and Community Dynamics in an Online Health Community. ACM Trans. Comput.-Hum. Interact. 12, 2 (jun 2005), 201\u2013232. https://doi.org/10.1145/1067860.1067864",
+      "doi": "10.1145/1067860.1067864"
+    },
+    {
+      "text": "Rob McCarney, James Warner, Steve Iliffe, Robbert Van\u00a0Haselen, Mark Griffin, and Peter Fisher. 2007. The Hawthorne Effect: a randomised, controlled trial. BMC medical research methodology 7, 1 (2007), 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Leland McInnes. 2018. Performance comparison of dimension reduction implementations. https://umap-learn.readthedocs.io/en/latest/performance.html",
+      "doi": ""
+    },
+    {
+      "text": "Leland McInnes. 2018. Using UMAP for clustering. https://umap-learn.readthedocs.io/en/latest/clustering.html",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0W McMillan. 1996. Sense of community. Journal of community psychology 24, 4 (1996), 315\u2013325.",
+      "doi": ""
+    },
+    {
+      "text": "Christian Meurisch, Cristina\u00a0A. Mihale-Wilson, Adrian Hawlitschek, Florian Giger, Florian M\u00fcller, Oliver Hinz, and Max M\u00fchlh\u00e4user. 2020. Exploring User Expectations of Proactive AI Systems. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 4, 4, Article 146 (dec 2020), 22\u00a0pages. https://doi.org/10.1145/3432193",
+      "doi": "10.1145/3432193"
+    },
+    {
+      "text": "Jaya Narain, Tina Quach, Monique Davey, Hae\u00a0Won Park, Cynthia Breazeal, and Rosalind Picard. 2020. Promoting Wellbeing with Sunny, a Chatbot That Facilitates Positive Messages within Social Groups. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI EA \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3334480.3383062",
+      "doi": "10.1145/3334480.3383062"
+    },
+    {
+      "text": "Lily Ng, Anne Lauscher, Joel Tetreault, and Courtney Napoles. 2020. Creating a domain-diverse corpus for theory-based argument quality assessment. arXiv preprint arXiv:2011.01589(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Suphakit Niwattanakul, Jatsada Singthongchai, Ekkachai Naenudorn, and Supachanun Wanapu. 2013. Using of Jaccard coefficient for keywords similarity. In Proceedings of the international multiconference of engineers and computer scientists, Vol.\u00a01. 380\u2013384.",
+      "doi": ""
+    },
+    {
+      "text": "Blair Nonnecke and Jenny Preece. 2000. Lurker Demographics: Counting the Silent. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (The Hague, The Netherlands) (CHI \u201900). Association for Computing Machinery, New York, NY, USA, 73\u201380. https://doi.org/10.1145/332040.332409",
+      "doi": "10.1145/332040.332409"
+    },
+    {
+      "text": "Heather O\u2019Brien. 2016. Theoretical Perspectives on User Engagement. Springer International Publishing, Cham, 1\u201326. https://doi.org/10.1007/978-3-319-27446-1_1",
+      "doi": ""
+    },
+    {
+      "text": "Heather\u00a0L. O\u2019Brien and Elaine\u00a0G. Toms. 2008. What is User Engagement? A Conceptual Framework for Defining User Engagement with Technology. J. Am. Soc. Inf. Sci. Technol. 59, 6 (apr 2008), 938\u2013955.",
+      "doi": "10.5555/1358262.1358271"
+    },
+    {
+      "text": "Harri Oinas-Kukkonen. 2013. A foundation for the study of behavior change support systems. Personal and ubiquitous computing 17, 6 (2013), 1223\u20131235.",
+      "doi": ""
+    },
+    {
+      "text": "Nigini Oliveira, Michael Muller, Nazareno Andrade, and Katharina Reinecke. 2018. The Exchange in StackExchange: Divergences between Stack Overflow and Its Culturally Diverse Participants. Proc. ACM Hum.-Comput. Interact. 2, CSCW, Article 130 (nov 2018), 22\u00a0pages. https://doi.org/10.1145/3274399",
+      "doi": "10.1145/3274399"
+    },
+    {
+      "text": "Thomas Olsson. 2014. Layers of User Expectations of Future Technologies: An Early Framework. In CHI \u201914 Extended Abstracts on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI EA \u201914). Association for Computing Machinery, New York, NY, USA, 1957\u20131962. https://doi.org/10.1145/2559206.2581225",
+      "doi": "10.1145/2559206.2581225"
+    },
+    {
+      "text": "Adi Omari, David Carmel, Oleg Rokhlenko, and Idan Szpektor. 2016. Novelty based ranking of human answers for community questions. In Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval. 215\u2013224.",
+      "doi": "10.1145/2911451.2911506"
+    },
+    {
+      "text": "Ina O\u2019Murchu, John\u00a0G Breslin, and Stefan Decker. 2004. Online Social and Business Networking Communities.. In ECAI Workshop on Application of Semantic Web Technologies to Web Communities, Vol.\u00a0107.",
+      "doi": ""
+    },
+    {
+      "text": "Deokgun Park, Simranjit Sachar, Nicholas Diakopoulos, and Niklas Elmqvist. 2016. Supporting Comment Moderators in Identifying High Quality Online News Comments. Association for Computing Machinery, New York, NY, USA, 1114\u20131125. https://doi.org/10.1145/2858036.2858389",
+      "doi": "10.1145/2858036.2858389"
+    },
+    {
+      "text": "Sunjeong Park and Youn-kyung Lim. 2020. Investigating User Expectations on the Roles of Family-Shared AI Speakers. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376450",
+      "doi": "10.1145/3313831.3376450"
+    },
+    {
+      "text": "Sharoda\u00a0A Paul, Lichan Hong, and Ed\u00a0H Chi. 2012. Who is authoritative? understanding reputation mechanisms in quora. arXiv preprint arXiv:1204.3724(2012).",
+      "doi": ""
+    },
+    {
+      "text": "F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay. 2011. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research 12 (2011), 2825\u20132830.",
+      "doi": "10.5555/1953048.2078195"
+    },
+    {
+      "text": "Zhenhui Peng, Yuzhi Liu, Hanqi Zhou, Zuyu Xu, and Xiaojuan Ma. 2022. CReBot: Exploring interactive question prompts for critical paper reading. 167 (2022), 102898. https://doi.org/10.1016/j.ijhcs.2022.102898",
+      "doi": "10.1016/j.ijhcs.2022.102898"
+    },
+    {
+      "text": "Laura\u00a0R. Pina, Carmen Gonzalez, Carolina Nieto, Wendy Roldan, Edgar Onofre, and Jason\u00a0C. Yip. 2018. How Latino Children in the U.S. Engage in Collaborative Online Information Problem Solving with Their Families. Proc. ACM Hum.-Comput. Interact. 2, CSCW, Article 140 (nov 2018), 26\u00a0pages. https://doi.org/10.1145/3274409",
+      "doi": "10.1145/3274409"
+    },
+    {
+      "text": "Pavlin\u00a0G Poli\u010dar, Martin Stra\u017ear, and Bla\u017e Zupan. 2019. openTSNE: a modular Python library for t-SNE dimensionality reduction and embedding. BioRxiv (2019), 731877.",
+      "doi": ""
+    },
+    {
+      "text": "Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever, 2018. Improving language understanding by generative pre-training. (2018).",
+      "doi": ""
+    },
+    {
+      "text": "S. Rafaeli, G. Ravid, and V. Soroka. 2004. De-lurking in virtual communities: a social communication network approach to measuring the effects of social and cultural capital. In 37th Annual Hawaii International Conference on System Sciences, 2004. Proceedings of the. 10 pp.\u2013. https://doi.org/10.1109/HICSS.2004.1265478",
+      "doi": ""
+    },
+    {
+      "text": "Nils Reimers and Iryna Gurevych. 2019. Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics. https://arxiv.org/abs/1908.10084",
+      "doi": ""
+    },
+    {
+      "text": "Amanda Ross and Victor\u00a0L Willson. 2017. Paired samples T-test. In Basic and advanced statistical tests. Springer, 17\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "Dana Rotman, Jennifer Golbeck, and Jennifer Preece. 2009. The Community is Where the Rapport is \u2013 on Sense and Structure in the Youtube Community. In Proceedings of the Fourth International Conference on Communities and Technologies (University Park, PA, USA) (C&T \u201909). Association for Computing Machinery, New York, NY, USA, 41\u201350. https://doi.org/10.1145/1556460.1556467",
+      "doi": "10.1145/1556460.1556467"
+    },
+    {
+      "text": "Pradeep\u00a0K Roy, Jyoti\u00a0P Singh, Abdullah\u00a0M Baabdullah, Hatice Kizgin, and Nripendra\u00a0P Rana. 2018. Identifying reputation collectors in community question answering (CQA) sites: Exploring the dark side of social media. International Journal of Information Management 42 (2018), 25\u201335.",
+      "doi": ""
+    },
+    {
+      "text": "Sherry Ruan, Liwei Jiang, Justin Xu, Bryce Joe-Kun Tham, Zhengneng Qiu, Yeshuang Zhu, Elizabeth\u00a0L. Murnane, Emma Brunskill, and James\u00a0A. Landay. 2019. QuizBot: A Dialogue-Based Adaptive Learning System for Factual Knowledge. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300587",
+      "doi": "10.1145/3290605.3300587"
+    },
+    {
+      "text": "Tetsuya Sakai. 2017. The probability that your hypothesis is correct, credible intervals, and effect sizes for IR evaluation. In Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval. 25\u201334.",
+      "doi": "10.1145/3077136.3080766"
+    },
+    {
+      "text": "Amit Sarkar and G. Srinivasaraghavan. 2018. Contextual Web Summarization: A Supervised Ranking Approach. In Companion Proceedings of the The Web Conference 2018 (Lyon, France) (WWW \u201918). International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE, 105\u2013106. https://doi.org/10.1145/3184558.3186951",
+      "doi": "10.1145/3184558.3186951"
+    },
+    {
+      "text": "Christian\u00a0Severin Sauer and Thomas Roth-Berghofer. 2012. Solution Mining for Specific Contextualised Problems: Towards an Approach for Experience Mining. In Proceedings of the 21st International Conference on World Wide Web (Lyon, France) (WWW \u201912 Companion). Association for Computing Machinery, New York, NY, USA, 729\u2013738. https://doi.org/10.1145/2187980.2188193",
+      "doi": "10.1145/2187980.2188193"
+    },
+    {
+      "text": "Benjamin Saunders, Julius Sim, Tom Kingstone, Shula Baker, Jackie Waterfield, Bernadette Bartlam, Heather Burroughs, and Clare Jinks. 2018. Saturation in Qualitative Research: Exploring Its Conceptualization and Operationalization. 52, 4 (2018), 1893\u20131907. https://doi.org/10.1007/s11135-017-0574-8 pmid:29937585",
+      "doi": ""
+    },
+    {
+      "text": "Samuel\u00a0Sanford Shapiro and Martin\u00a0B Wilk. 1965. An analysis of variance test for normality (complete samples). Biometrika 52, 3/4 (1965), 591\u2013611.",
+      "doi": ""
+    },
+    {
+      "text": "Donghoon Shin, Subeen Park, Esther\u00a0Hehsun Kim, Soomin Kim, Jinwook Seo, and Hwajung Hong. 2022. Exploring the Effects of AI-Assisted Emotional Support Processes in Online Mental Health Community. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 300, 7\u00a0pages. https://doi.org/10.1145/3491101.3519854",
+      "doi": "10.1145/3491101.3519854"
+    },
+    {
+      "text": "Yoshiyuki Shoji, Sumio Fujita, Akira Tajima, and Katsumi Tanaka. 2015. Who stays longer in community qa media?-user behavior analysis in cqa. In International Conference on Social Informatics. Springer, 33\u201348.",
+      "doi": ""
+    },
+    {
+      "text": "Alison Smith-Renner, Ron Fan, Melissa Birchfield, Tongshuang Wu, Jordan Boyd-Graber, Daniel\u00a0S. Weld, and Leah Findlater. 2020. No Explainability without Accountability: An Empirical Study of Explanations and Feedback in Interactive ML. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376624",
+      "doi": "10.1145/3313831.3376624"
+    },
+    {
+      "text": "Hongya Song, Zhaochun Ren, Shangsong Liang, Piji Li, Jun Ma, and Maarten de Rijke. 2017. Summarizing answers in non-factoid community question-answering. In Proceedings of the Tenth ACM International Conference on Web Search and Data Mining. 405\u2013414.",
+      "doi": "10.1145/3018661.3018704"
+    },
+    {
+      "text": "Ivan Srba and Maria Bielikova. 2015. Askalot: community question answering as a means for knowledge sharing in an educational organization. In Proceedings of the 18th ACM conference companion on computer supported cooperative work & social computing. 179\u2013182.",
+      "doi": "10.1145/2685553.2699001"
+    },
+    {
+      "text": "Ivan Srba and Maria Bielikova. 2016. A comprehensive survey and classification of approaches for community question answering. ACM Transactions on the Web (TWEB) 10, 3 (2016), 1\u201363.",
+      "doi": "10.1145/2934687"
+    },
+    {
+      "text": "Ivan Srba, Marek Grznar, and Maria Bielikova. 2015. Utilizing non-qa data to improve questions routing for users with low qa activity in cqa. In Proceedings of the 2015 IEEE/ACM international conference on advances in social networks analysis and mining 2015. 129\u2013136.",
+      "doi": "10.1145/2808797.2809331"
+    },
+    {
+      "text": "Christian Stab and Iryna Gurevych. 2014. Identifying argumentative discourse structures in persuasive essays. In Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP). 46\u201356.",
+      "doi": ""
+    },
+    {
+      "text": "Victor\u00a0J Strecher, Brenda McEvoy\u00a0DeVellis, Marshall\u00a0H Becker, and Irwin\u00a0M Rosenstock. 1986. The role of self-efficacy in achieving health behavior change. Health education quarterly 13, 1 (1986), 73\u201392.",
+      "doi": ""
+    },
+    {
+      "text": "Gail\u00a0M Sullivan and Richard Feinn. 2012. Using effect size\u2014or why the P value is not enough. Journal of graduate medical education 4, 3 (2012), 279\u2013282.",
+      "doi": ""
+    },
+    {
+      "text": "Na Sun, Patrick Pei-Luen Rau, and Liang Ma. 2014. Understanding lurkers in online communities: A literature review. Computers in Human Behavior 38 (2014), 110\u2013117.",
+      "doi": "10.1016/j.chb.2014.05.022"
+    },
+    {
+      "text": "Shweta Suran, Vishwajeet Pattanaik, and Dirk Draheim. 2020. Frameworks for collective intelligence: A systematic literature review. ACM Computing Surveys (CSUR) 53, 1 (2020), 1\u201336.",
+      "doi": "10.1145/3368986"
+    },
+    {
+      "text": "Idan Szpektor, Yoelle Maarek, and Dan Pelleg. 2013. When relevance is not enough: Promoting diversity and freshness in personalized question recommendation. In Proceedings of the 22nd international conference on World Wide Web. 1249\u20131260.",
+      "doi": "10.1145/2488388.2488497"
+    },
+    {
+      "text": "Feng Tian, Xiangmin Fan, Junjun Fan, Yicheng Zhu, Jing Gao, Dakuo Wang, Xiaojun Bi, and Hongan Wang. 2019. What Can Gestures Tell? Detecting Motor Impairment in Early Parkinson\u2019s from Common Touch Gestural Interactions. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300313",
+      "doi": "10.1145/3290605.3300313"
+    },
+    {
+      "text": "Sunny Tian, Amy\u00a0X. Zhang, and David Karger. 2021. A System for Interleaving Discussion and Summarization in Online Collaboration. Proc. ACM Hum.-Comput. Interact. 4, CSCW3, Article 241 (jan 2021), 27\u00a0pages. https://doi.org/10.1145/3432940",
+      "doi": "10.1145/3432940"
+    },
+    {
+      "text": "Maciej Tomczak and Ewa Tomczak. 2014. The need to report effect size estimates revisited. An overview of some recommended measures of effect size. Trends in sport sciences 1, 21 (2014), 19\u201325.",
+      "doi": ""
+    },
+    {
+      "text": "Thiemo Wambsganss, Tobias Kueng, Matthias Soellner, and Jan\u00a0Marco Leimeister. 2021. ArgueTutor: An adaptive dialog-based learning system for argumentation skills. In Proceedings of the 2021 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445781"
+    },
+    {
+      "text": "Thiemo Wambsganss, Christina Niklaus, Matthias Cetto, Matthias S\u00f6llner, Siegfried Handschuh, and Jan\u00a0Marco Leimeister. 2020. AL: an adaptive learning support system for argumentation skills. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376732"
+    },
+    {
+      "text": "Baoxun Wang, Xiaolong Wang, Cheng-Jie Sun, Bingquan Liu, and Lin Sun. 2010. Modeling semantic relevance for question-answer pairs in web social communities. In Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics. 1230\u20131238.",
+      "doi": ""
+    },
+    {
+      "text": "Gang Wang, Konark Gill, Manish Mohanlal, Haitao Zheng, and Ben\u00a0Y Zhao. 2013. Wisdom in the social crowd: an analysis of quora. In Proceedings of the 22nd international conference on World Wide Web. 1341\u20131352.",
+      "doi": "10.1145/2488388.2488506"
+    },
+    {
+      "text": "Furu Wei, Shixia Liu, Yangqiu Song, Shimei Pan, Michelle\u00a0X. Zhou, Weihong Qian, Lei Shi, Li Tan, and Qiang Zhang. 2010. TIARA: A Visual Exploratory Text Analytic System. In Proceedings of the 16th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (Washington, DC, USA) (KDD \u201910). Association for Computing Machinery, New York, NY, USA, 153\u2013162. https://doi.org/10.1145/1835804.1835827",
+      "doi": "10.1145/1835804.1835827"
+    },
+    {
+      "text": "Stephan Weibelzahl, Alexandros Paramythis, and Judith Masthoff. 2020. Evaluation of Adaptive Systems. In Proceedings of the 28th ACM Conference on User Modeling, Adaptation and Personalization (Genoa, Italy) (UMAP \u201920). Association for Computing Machinery, New York, NY, USA, 394\u2013395. https://doi.org/10.1145/3340631.3398668",
+      "doi": "10.1145/3340631.3398668"
+    },
+    {
+      "text": "Rainer Winkler, Sebastian Hobert, Antti Salovaara, Matthias S\u00f6llner, and Jan\u00a0Marco Leimeister. 2020. Sara, the Lecturer: Improving Learning in Online Education with a Scaffolding-Based Conversational Agent. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376781",
+      "doi": "10.1145/3313831.3376781"
+    },
+    {
+      "text": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, R\u00e9mi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven\u00a0Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest, and Alexander\u00a0M. Rush. 2020. Transformers: State-of-the-Art Natural Language Processing. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations. Association for Computational Linguistics, Online, 38\u201345. https://www.aclweb.org/anthology/2020.emnlp-demos.6",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0F Woolson. 2007. Wilcoxon signed-rank test. Wiley encyclopedia of clinical trials(2007), 1\u20133.",
+      "doi": ""
+    },
+    {
+      "text": "Meng Xia, Mingfei Sun, Huan Wei, Qing Chen, Yong Wang, Lei Shi, Huamin Qu, and Xiaojuan Ma. 2019. PeerLens: Peer-inspired Interactive Learning Path Planning in Online Question Pool. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (New York, NY, USA, 2019-05-02) (CHI \u201919). Association for Computing Machinery, 1\u201312. https://doi.org/10.1145/3290605.3300864",
+      "doi": "10.1145/3290605.3300864"
+    },
+    {
+      "text": "Meng Xia, Qian Zhu, Xingbo Wang, Fei Nie, Huamin Qu, and Xiaojuan Ma. 2022. Persua: A Visual Interactive System to Enhance the Persuasiveness of Arguments in Online Discussion. Proc. ACM Hum.-Comput. Interact. 6, CSCW2, Article 319 (nov 2022), 30\u00a0pages. https://doi.org/10.1145/3555210",
+      "doi": "10.1145/3555210"
+    },
+    {
+      "text": "Kun Yu, Shlomo Berkovsky, Ronnie Taib, Jianlong Zhou, and Fang Chen. 2019. Do I Trust My Machine Teammate? An Investigation from Perception to Decision. In Proceedings of the 24th International Conference on Intelligent User Interfaces (Marina del Ray, California) (IUI \u201919). Association for Computing Machinery, New York, NY, USA, 460\u2013468. https://doi.org/10.1145/3301275.3302277",
+      "doi": "10.1145/3301275.3302277"
+    },
+    {
+      "text": "Sha Yuan, Yu Zhang, Jie Tang, Wendy Hall, and Juan\u00a0Bautista Cabot\u00e0. 2020. Expert finding in community question answering: a review. Artificial Intelligence Review 53, 2 (2020), 843\u2013874.",
+      "doi": "10.1007/s10462-018-09680-6"
+    },
+    {
+      "text": "Amy\u00a0X Zhang, Bryan Culbertson, and Praveen Paritosh. 2017. Characterizing online discussion using coarse discourse sequences. In Eleventh International AAAI Conference on Web and Social Media.",
+      "doi": ""
+    },
+    {
+      "text": "Jingqing Zhang, Yao Zhao, Mohammad Saleh, and Peter Liu. 2020. Pegasus: Pre-training with extracted gap-sentences for abstractive summarization. In International Conference on Machine Learning. PMLR, 11328\u201311339.",
+      "doi": ""
+    },
+    {
+      "text": "Zhi-Min Zhou, Man Lan, Zheng-Yu Niu, and Yue Lu. 2012. Exploiting user profile information for answer ranking in cqa. In Proceedings of the 21st international conference on World Wide Web. 767\u2013774.",
+      "doi": "10.1145/2187980.2188199"
+    }
+  ]
+}

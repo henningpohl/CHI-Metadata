@@ -1,0 +1,453 @@
+{
+  "doi": "10.1145/3411764.3445782",
+  "title": "Directed Diversity: Leveraging Language Embedding Distances for Collective Creativity in Crowd Ideation",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-35",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Crowdsourcing can collect many diverse ideas by prompting ideators individually, but this can generate redundant ideas. Prior methods reduce redundancy by presenting peers\u2019 ideas or peer-proposed prompts, but these require much human coordination. We introduce Directed Diversity, an automatic prompt selection approach that leverages language model embedding distances to maximize diversity. Ideators can be directed towards diverse prompts and away from prior ideas, thus improving their collective creativity. Since there are diverse metrics of diversity, we present a Diversity Prompting Evaluation Framework consolidating metrics from several research disciplines to analyze along the ideation chain \u2014 prompt selection, prompt creativity, prompt-ideation mediation, and ideation creativity. Using this framework, we evaluated Directed Diversity in a series of a simulation study and four user studies for the use case of crowdsourcing motivational messages to encourage physical activity. We show that automated diverse prompting can variously improve collective creativity across many nuanced metrics of diversity.",
+  "authors": [
+    {
+      "name": "Samuel Rhys Cox",
+      "institution": "National University of Singapore, Singapore",
+      "img": "/do/10.1145/contrib-99659281831/rel-imgonly/my-photo.png",
+      "acmid": "99659281831",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yunlong Wang",
+      "institution": "National University of Singapore, Singapore",
+      "img": "/do/10.1145/contrib-99659548282/rel-imgonly/20230403103214.jpg",
+      "acmid": "99659548282",
+      "orcid": "missing"
+    },
+    {
+      "name": "Ashraf Abdul",
+      "institution": "National University of Singapore, Singapore",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659146624",
+      "orcid": "missing"
+    },
+    {
+      "name": "Christian von der Weth",
+      "institution": "National University of Singapore, Singapore",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81453618445",
+      "orcid": "missing"
+    },
+    {
+      "name": "Brian Y. Lim",
+      "institution": "National University of Singapore, Singapore",
+      "img": "/do/10.1145/contrib-81416601689/rel-imgonly/brian_lim_2015_-_square.jpg",
+      "acmid": "81416601689",
+      "orcid": "0000-0002-0543-2414"
+    }
+  ],
+  "references": [
+    {
+      "text": "Leonard Adelman, James Gualtieri, and Suzanne Stanford. 1995. Examining the effect of causal focus on the option generation process: An experiment using protocol analysis. Organizational Behavior and Human Decision Processes. https://doi.org/10.1006/obhd.1995.1005",
+      "doi": ""
+    },
+    {
+      "text": "Elena Agapie, Bonnie Chinh, Laura R Pina, Diana Oviedo, Molly C Welsh, Gary Hsieh, and Sean Munson. 2018. Crowdsourcing Exercise Plans Aligned with Expert Guidelines and Everyday Constraints. In CHI 2018, 324. https://doi.org/10.1145/3173574.3173898",
+      "doi": ""
+    },
+    {
+      "text": "Elena Agapie, Lucas Colusso, Sean A Munson, and Gary Hsieh. 2016. PlanSourcing: Generating Behavior Change Plans with Friends and Crowds. In CSCW 2016, 119\u2013133. https://doi.org/10.1145/2818048.2819943",
+      "doi": ""
+    },
+    {
+      "text": "Faez Ahmed, Sharath Kumar Ramachandran, Mark Fuge, Samuel Hunter, and Scarlett Miller. 2019. Interpreting Idea Maps: Pairwise comparisons reveal what makes ideas novel. Journal of Mechanical Design 141, 2. https://doi.org/10.1115/1.4041856",
+      "doi": ""
+    },
+    {
+      "text": "Baptiste Barbot. 2018. The dynamics of creative ideation: Introducing a new assessment paradigm. Frontiers in Psychology 9, DEC: 1\u20138. https://doi.org/10.3389/fpsyg.2018.02529",
+      "doi": ""
+    },
+    {
+      "text": "Roger E. Beaty and Paul J. Silvia. 2012. Why do ideas get more creative across time? An executive interpretation of the serial order effect in divergent thinking tasks. Psychology of Aesthetics, Creativity, and the Arts 6, 4: 309\u2013319. https://doi.org/10.1037/a0029171",
+      "doi": ""
+    },
+    {
+      "text": "Michael S Bernstein, Greg Little, Robert C Miller, Bj\u00f6rn Hartmann, Mark S Ackerman, David R Karger, David Crowell, and Katrina Panovich. 2010. Soylent: A Word Processor with a Crowd Inside. In Proceedings of the 23nd Annual ACM Symposium on User Interface Software and Technology, 313\u2013322. https://doi.org/10.1145/1866029.1866078",
+      "doi": "10.1145/1866029.1866078"
+    },
+    {
+      "text": "H. Beyer and K Holtzblatt. 1998. Contextual design: defining customer-centered systems. Morgan Kaufmann.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey P. Bigham, Michael S. Bernstein, and Eytan Adar. 2015. Human-Computer Interaction and Collective Intelligence. In Handbook of Collective Intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "Osvald M Bjelland and Robert Chapman Wood. 2008. An Inside View of IBM's \u201cInnovation Jam.\u201d MIT Sloan management review 50, 1: 32.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Bragg, Mausam, and Daniel S. Weld. 2016. Optimal testing for crowd workers. In Proceedings of the International Joint Conference on Autonomous Agents and Multiagent Systems, AAMAS.",
+      "doi": ""
+    },
+    {
+      "text": "Nathan Brown, Stavros Tseranidis, and Caitlin Mueller. 2015. Multi-objective optimization for diversity and performance in conceptual structural design. In Proceedings of IASS Annual Symposia, IASS 2015 Amsterdam Symposium: Future Visions \u2013 Computational Design, 1\u201312.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Carnie. 2010. Constituent structure. Oxford University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Cer, Yinfei Yang, Sheng yi Kong, Nan Hua, Nicole Limtiaco, Rhomni St. John, Noah Constant, Mario Guajardo-C\u00e9spedes, Steve Yuan, Chris Tar, Yun Hsuan Sung, Brian Strope, and Ray Kurzweil. 2018. Universal sentence encoder for English. In Proceedings ofthe 2018 Conference on Empirical Methods in Natural Language Processing (System Demonstrations), 169\u2013174. https://doi.org/10.18653/v1/d18-2029",
+      "doi": ""
+    },
+    {
+      "text": "Joel Chan, Steven Dang, and Steven P Dow. 2016. Comparing Different Sensemaking Approaches for Large-Scale Ideation. In CHI 2016. https://doi.org/10.1145/2858036.2858178",
+      "doi": ""
+    },
+    {
+      "text": "Joel Chan, Steven P. Dow, and Christian D. Schunn. 2018. Do the Best Design Ideas (Really) Come from Conceptually Distant Sources of Inspiration? In Engineering a Better Future. 111\u2013139.",
+      "doi": ""
+    },
+    {
+      "text": "Joel Chan and Christian Schunn. 2015. The impact of analogies on creative concept generation: Lessons from an in vivo study in engineering design. Cognitive Science 39, 1: 126\u2013155. https://doi.org/10.1111/cogs.12127",
+      "doi": ""
+    },
+    {
+      "text": "Joel Chan, Pao Siangliulue, Denisa Qori McDonald, Ruixue Liu, Reza Moradinezhad, Safa Aman, Erin T Solovey, Krzysztof Z Gajos, and Steven P Dow. 2017. Semantically far inspirations considered harmful? accounting for cognitive states in collaborative ideation. In Proceedings of the 2017 ACM SIGCHI Conference on Creativity and Cognition, 93\u2013105. https://doi.org/10.1145/3059454.3059455",
+      "doi": "10.1145/3059454.3059455"
+    },
+    {
+      "text": "Jesse Chandler, Cheskie Rosenzweig, Aaron J. Moss, Jonathan Robinson, and Leib Litman. 2019. Online panels in social science research: Expanding sampling methods beyond Mechanical Turk. Behavior Research Methods 51, 5: 2022\u20132038. https://doi.org/10.3758/s13428-019-01273-7",
+      "doi": ""
+    },
+    {
+      "text": "Barun Chandra and Magn\u00fas M. Halld\u00f3rsson. 2001. Approximation Algorithms for Dispersion Problems. Journal of Algorithms 38, 2: 438\u2013465. https://doi.org/10.1006/jagm.2000.1145",
+      "doi": "10.1006/jagm.2000.1145"
+    },
+    {
+      "text": "Elizabeth Clark, Anne Spencer Ross, Chenhao Tan, Yangfeng Ji, and Noah A Smith. 2018. Creative writing with a machine in the loop: Case studies on slogans and stories. In 23rd International Conference on Intelligent User Interfaces, 329\u2013340. https://doi.org/10.1145/3172944.3172983",
+      "doi": "10.1145/3172944.3172983"
+    },
+    {
+      "text": "Peng Dai, Christopher H. Lin, Mausam, and Daniel S. Weld. 2013. POMDP-based control of workflows for crowdsourcing. Artificial Intelligence 202: 52\u201385. https://doi.org/10.1016/j.artint.2013.06.002",
+      "doi": "10.1016/j.artint.2013.06.002"
+    },
+    {
+      "text": "Jacob Devlin, Ming Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. BERT: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint: arXiv:1810.04805.",
+      "doi": ""
+    },
+    {
+      "text": "Sandra Diazz and Marcelo Cabido. 2001. Vive la diff \u00e9 rence: plant functional diversity matters to ecosystem processes. Trends in Ecology and Evolution 16, 11: 646\u2013655. https://doi.org/10.1016/S0169-5347(01)02283-2",
+      "doi": ""
+    },
+    {
+      "text": "John R. Douceur. 2009. Paper rating vs. paper ranking. Operating Systems Review (ACM) 43, 2: 117\u2013121. https://doi.org/10.1145/1531793.1531816",
+      "doi": "10.1145/1531793.1531816"
+    },
+    {
+      "text": "Michael R.P. Dougherty, Charles F. Gettys, and Eve E. Ogden. 1999. MINERVA-DM: A memory processes model for judgments of likelihood. Psychological Review. https://doi.org/10.1037/0033-295X.106.1.180",
+      "doi": ""
+    },
+    {
+      "text": "Steven P. Dow, Alana Glassco, Jonathan Kass, Melissa Schwarz, Daniel L. Schwartz, and Scott R. Klemmer. 2010. Parallel prototyping leads to better design results, more divergence, and increased self-efficacy. ACM Transactions on Computer-Human Interaction 17, 4. https://doi.org/10.1145/1879831.1879836",
+      "doi": "10.1145/1879831.1879836"
+    },
+    {
+      "text": "Zipei Fan, Xuan Song, and Ryosuke Shibasaki. 2014. CitySpectrum: A non-negative tensor factorization approach. UbiComp 2014 - Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing: 213\u2013233. https://doi.org/10.1145/2632048.2636073",
+      "doi": "10.1145/2632048.2636073"
+    },
+    {
+      "text": "Daniel M. Fleder and Kartik Hosanagar. 2007. Recommender systems and their impact on sales diversity. EC\u201907 - Proceedings of the Eighth Annual Conference on Electronic Commerce: 192\u2013199. https://doi.org/10.1145/1250910.1250939",
+      "doi": ""
+    },
+    {
+      "text": "Nancy A Fontenot. 1993. Effects of training in creativity and creative problem finding upon business people. The Journal of Social Psychology 133, 1: 11\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Jonas Frich, Lindsay MacDonald Vermeulen, Christian Remy, Michael Mose Biskjaer, and Peter Dalsgaard. 2019. Mapping the Landscape of Creativity Support Tools in HCI. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI \u201919, 1\u201318. https://doi.org/10.1145/3290605.3300619",
+      "doi": "10.1145/3290605.3300619"
+    },
+    {
+      "text": "Jonas Frich, Michael Mose Biskjaer, and Peter Dalsgaard. 2018. Twenty Years of Creativity Research in Human-Computer Interaction: Current State and Future Directions. In Proceedings of the 2018 Designing Interactive Systems Conference (DIS \u201918), 1235\u20131257. https://doi.org/10.1145/3196709.3196732",
+      "doi": "10.1145/3196709.3196732"
+    },
+    {
+      "text": "Victor Girotto, Erin Walker, and Winslow Burleson. 2017. The effect of peripheral micro-tasks on crowd ideation. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems, 1843\u20131854. https://doi.org/10.1145/3025453.3025464",
+      "doi": "10.1145/3025453.3025464"
+    },
+    {
+      "text": "Barney G. Glaser and Anselm L. Strauss. 2017. Discovery of grounded theory: strategies for qualitative research. Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Vinod Goel. 2010. Neural basis of thinking: Laboratory problems versus real-world problems. Wiley Interdisciplinary Reviews: Cognitive Science. https://doi.org/10.1002/wcs.71",
+      "doi": ""
+    },
+    {
+      "text": "Adam E. Green, David J.M. Kraemer, Jonathan A. Fugelsang, Jeremy R. Gray, and Kevin N. Dunbar. 2012. Neural correlates of creativity in analogical reasoning. Journal of Experimental Psychology: Learning Memory and Cognition. https://doi.org/10.1037/a0025764",
+      "doi": ""
+    },
+    {
+      "text": "Magn\u00fas M. Halld\u00f3rsson, Kazuo Iwano, Naoki Katoh, and Takeshi Tokuyama. 1999. Finding subsets maximizing minimum structures. SIAM Journal on Discrete Mathematics. https://doi.org/10.1137/S0895480196309791",
+      "doi": ""
+    },
+    {
+      "text": "F He, Y Pan, Q Lin, X Miao, and Z Chen. 2019. Collective Intelligence: A Taxonomy and Survey. IEEE Access 7: 170213\u2013170225. https://doi.org/10.1109/ACCESS.2019.2955677",
+      "doi": ""
+    },
+    {
+      "text": "Seyedmohammadhossein Hosseinian, Dalila B M M Fontes, Sergiy Butenko, Marco Buongiorno Nardelli, Marco Fornari, and Stefano Curtarolo. 2017. The Maximum Edge Weight Clique Problem: Formulations and Solution Approaches. In Optimization Methods and Applications. 217\u2013237.",
+      "doi": ""
+    },
+    {
+      "text": "Gaoping Huang and Alexander J Quinn. 2017. BlueSky: Crowd-Powered Uniform Sampling of Idea Spaces. In Proceedings of the 2017 ACM SIGCHI Conference on Creativity and Cognition (C&C \u201917), 119\u2013130. https://doi.org/10.1145/3059454.3059481",
+      "doi": "10.1145/3059454.3059481"
+    },
+    {
+      "text": "Piotr Indyk, Sepideh Mahabadi, Mohammad Mahdian, and Vahab S. Mirrokni. 2014. Composable core-sets for diversity and coverage maximization. Proceedings of the ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems: 100\u2013108. https://doi.org/10.1145/2594538.2594560",
+      "doi": ""
+    },
+    {
+      "text": "David G. Jansson and Steven M. Smith. 1991. Design fixation. Design Studies. https://doi.org/10.1016/0142-694X(91)90003-F",
+      "doi": ""
+    },
+    {
+      "text": "Mark W. Jones, J. Andreas B\u00e6rentzen, and Milos Sramek. 2006. 3D distance fields: A survey of techniques and applications. IEEE Transactions on Visualization and Computer Graphics 12, 4: 581\u2013599. https://doi.org/10.1109/TVCG.2006.56",
+      "doi": "10.1109/TVCG.2006.56"
+    },
+    {
+      "text": "Marius Kaminskas and Derek Bridge. 2016. Diversity, serendipity, novelty, and coverage: A survey and empirical analysis of beyond-Accuracy objectives in recommender systems. ACM Transactions on Interactive Intelligent Systems 7, 1: 1\u201342. https://doi.org/10.1145/2926720",
+      "doi": "10.1145/2926720"
+    },
+    {
+      "text": "David R. Karger, Sewoong Oh, and Devavrat Shah. 2014. Budget-optimal task allocation for reliable crowdsourcing systems. Operations Research 62, 1: 1\u201324. https://doi.org/10.1287/opre.2013.1235",
+      "doi": "10.1287/opre.2013.1235"
+    },
+    {
+      "text": "L. Robin Keller and Joanna L. Ho. 1988. Decision Problem Structuring: Generating Options. IEEE Transactions on Systems, Man and Cybernetics. https://doi.org/10.1109/21.21599",
+      "doi": ""
+    },
+    {
+      "text": "Aniket Kittur, Jeffrey V. Nickerson, Michael S. Bernstein, Elizabeth M. Gerber, Aaron Shaw, John Zimmerman, Matthew Lease, and John J. Horton. 2013. The future of crowd work. In Proceedings of the ACM Conference on Computer Supported Cooperative Work, CSCW. https://doi.org/10.1145/2441776.2441923",
+      "doi": ""
+    },
+    {
+      "text": "Ana Cristina Bicharra Klein, Mark, and Garcia. 2015. High-speed idea filtering with the bag of lemons. Decision Support Systems 78: 39\u201350. https://doi.org/10.1016/j.dss.2015.06.005",
+      "doi": "10.1016/j.dss.2015.06.005"
+    },
+    {
+      "text": "Janin Koch, Nicolas Taffin, Michel Beaudouin-Lafon, Markku Laine, Andr\u00e9s Lucero, and Wendy E. MacKay. 2020. ImageSense: An Intelligent Collaborative Ideation Tool to Support Diverse Human-Computer Partnerships. Proceedings of the ACM on Human-Computer Interaction 4, CSCW1: 1\u201327. https://doi.org/10.1145/3392850",
+      "doi": ""
+    },
+    {
+      "text": "Rafal Kocielnik and Gary Hsieh. 2017. Send Me a Different Message: Utilizing Cognitive Space to Create Engaging Message Triggers. In CSCW, 2193\u20132207. https://doi.org/10.1145/2998181.2998324",
+      "doi": ""
+    },
+    {
+      "text": "Etienne Lalibert\u00e9 and Pierre Legendre. 2010. A distance-based framework for measuring functional diversity from multiple traits. Ecology 91, 1: 299\u2013305.",
+      "doi": ""
+    },
+    {
+      "text": "Joel Lehman and Kenneth O. Stanley. 2011. Abandoning objectives: Evolution through the search for novelty alone. Evolutionary Computation 19, 2: 189\u2013222. https://doi.org/10.1162/EVCO_a_00025",
+      "doi": "10.1162/EVCO_a_00025"
+    },
+    {
+      "text": "Todd I Lubart. 2001. Models of the creative process: Past, present and future. Creativity research journal 13, 3\u20134: 295\u2013308.",
+      "doi": ""
+    },
+    {
+      "text": "Kurt Luther, Nathan Hahn, Steven P Dow, and Aniket Kittur. 2015. Crowdlines: Supporting synthesis of diverse information sources through crowdsourced outlines. In Third AAAI Conference on Human Computation and Crowdsourcing.",
+      "doi": ""
+    },
+    {
+      "text": "Laurens Van Der Maaten and Kilian Weinberger. 2012. Stochastic triplet embedding. In 2012 IEEE International Workshop on Machine Learning for Signal Processing, 1\u20136. https://doi.org/10.1109/MLSP.2012.6349720",
+      "doi": ""
+    },
+    {
+      "text": "Thomas W. Malone, Robert Laubacher, and Chrysanthos N. Dellarocas. 2009. Harnessing Crowds: Mapping the Genome of Collective Intelligence. https://doi.org/10.2139/ssrn.1381502",
+      "doi": ""
+    },
+    {
+      "text": "Manon Marinussen and Alwin de Rooij. 2019. Being Yourself to Be Creative: How Self-Similar Avatars Can Support the Generation of Original Ideas in Virtual Environments. In Proceedings of the 2019 on Creativity and Cognition (C&C \u201919), 285\u2013293. https://doi.org/10.1145/3325480.3325482",
+      "doi": "10.1145/3325480.3325482"
+    },
+    {
+      "text": "Justin Matejka, Michael Glueck, Erin Bradner, Ali Hashemi, Tovi Grossman, and George Fitzmaurice. 2018. Dream lens: Exploration and visualization of large-scale generative design datasets. Conference on Human Factors in Computing Systems - Proceedings 2018-April: 1\u201312. https://doi.org/10.1145/3173574.3173943",
+      "doi": "10.1145/3173574.3173943"
+    },
+    {
+      "text": "Leland McInnes, John Healy, and James Melville. 2018. UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction. Retrieved from http://arxiv.org/abs/1802.03426",
+      "doi": ""
+    },
+    {
+      "text": "Cai-nicolas Ziegler Sean M Mcnee, Joseph A Konstan, and Georg Lausen. 2005. Improving Recommendation Lists Through Topic Diversification. In Proceedings of the 14th international conference on World Wide Web, 22\u201332.",
+      "doi": ""
+    },
+    {
+      "text": "Joke Meheus. 2000. Analogical Reasoning in Creative Problem Solving Processes: Logico-Philosophical Perspectives. In Metaphor and Analogy in the Sciences. https://doi.org/10.1007/978-94-015-9442-4_2",
+      "doi": ""
+    },
+    {
+      "text": "P. Michelucci and J. L. Dickinson. 2016. The power of crowds. Science 351, 6268: 32\u201333. https://doi.org/10.1126/science.aad6499",
+      "doi": ""
+    },
+    {
+      "text": "Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013. Distributed Representations of Words and Phrases and their Compositionality. In NIPS\u201913: Proceedings of the 26th International Conference on Neural Information Processing Systems, 3111\u20133119. https://doi.org/10.5555/2999792.2999959",
+      "doi": ""
+    },
+    {
+      "text": "Fabio Del Missier, Mim\u00ec Visentini, and Timo M\u00e4ntyl\u00e4. 2015. Option generation in decision making: Ideation beyond memory retrieval. Frontiers in Psychology. https://doi.org/10.3389/fpsyg.2014.01584",
+      "doi": ""
+    },
+    {
+      "text": "Caitlin T. Mueller and John A. Ochsendorf. 2015. Combining structural performance and designer preferences in evolutionary design space exploration. Automation in Construction 52: 70\u201382. https://doi.org/10.1016/j.autcon.2015.02.011",
+      "doi": ""
+    },
+    {
+      "text": "Michael D Mumford, Wayne A Baughman, K Victoria Threlfall, Elizabeth P Supinski, and David P Costanza. 1996. Process-based measures of creative problem-solving skills: I. Problem construction. Creativity Research Journal 9, 1: 63\u201376.",
+      "doi": ""
+    },
+    {
+      "text": "Bernard A. Nijstad and Wolfgang Stroebe. 2006. How the Group Affects the Mind: A Cognitive Model of Idea Generation in Groups. Personality and Social Psychology Review 10, 3: 186\u2013213. https://doi.org/10.1207/s15327957pspr1003_1",
+      "doi": ""
+    },
+    {
+      "text": "Bernard A Nijstad, Wolfgang Stroebe, and Hein F M Lodewijkx. 2002. Cognitive stimulation and interference in groups: Exposure effects in an idea generation task. Journal of Experimental Social Psychology 38, 6: 535\u2013544. https://doi.org/https://doi.org/10.1016/S0022-1031(02)00500-0",
+      "doi": ""
+    },
+    {
+      "text": "Jonas Oppenlaender and Simo Hosio. 2019. Design Recommendations for Augmenting Creative Tasks with Computational Priming. In Proceedings of the 18th International Conference on Mobile and Ubiquitous Multimedia (MUM \u201919). https://doi.org/10.1145/3365610.3365621",
+      "doi": "10.1145/3365610.3365621"
+    },
+    {
+      "text": "Rebecca Passonneau. 2006. Measuring agreement on set-valued items (MASI) for semantic and pragmatic annotation. Proceedings of the 5th International Conference on Language Resources and Evaluation, LREC 2006: 831\u2013836.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. GloVe: Global Vectors for Word Representation Jeffrey. In Proceedings ofthe 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), 1532\u20131543. https://doi.org/10.3115/v1/D14-1162",
+      "doi": ""
+    },
+    {
+      "text": "Owen L. Petchey and Kevin J. Gaston. 2002. Functional diversity (FD), species richness and community composition. Ecology Letters 5, 3: 402\u2013411. https://doi.org/10.1046/j.1461-0248.2002.00339.x",
+      "doi": ""
+    },
+    {
+      "text": "Owen L. Petchey and Kevin J. Gaston. 2002. Extinction and the loss of functional diversity. Proceedings of the Royal Society B: Biological Sciences. https://doi.org/10.1098/rspb.2002.2073",
+      "doi": ""
+    },
+    {
+      "text": "Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, and Luke Zettlemoyer. 2018. Deep contextualized word representations. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2227\u20132237. https://doi.org/10.18653/v1/n18-1202",
+      "doi": ""
+    },
+    {
+      "text": "Carlo Ricotta and Laszlo Szeidl. 2006. Towards a unifying approach to diversity measures: bridging the gap between the Shannon entropy and Rao's quadratic index. Theoretical population biology 70, 3: 237\u2013243.",
+      "doi": ""
+    },
+    {
+      "text": "C. Riedl, I. Blohm, J. M. Leimeister, and H. Krcmar. 2010. Rating scales for collective intelligence in innovation communities: Why quick and easy decision making does not get it right. In Thirty First International Conference on Information Systems.",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Risi, Sandy D. Vanderbleek, Charles E. Hughes, and Kenneth O. Stanley. 2009. How Novelty Search Escapes the Deceptive Trap of Learning to Learn. In GECCO\u201909.",
+      "doi": ""
+    },
+    {
+      "text": "Pararth Shah, Dilek Hakkani-T\u00fcr, Gokhan T\u00fcr, Abhinav Rastogi, Ankur Bapna, Neha Nayak, and Larry Heck. 2018. Building a conversational agent overnight with dialogue self-play. arXiv preprint arXiv:1801.04871.",
+      "doi": ""
+    },
+    {
+      "text": "Pao Siangliulue, Kenneth C Arnold, Krzysztof Z Gajos, and Steven P Dow. 2015. Toward Collaborative Ideation at Scale: Leveraging Ideas from Others to Generate More Creative and Diverse Ideas. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (CSCW \u201915), 937\u2013945. https://doi.org/10.1145/2675133.2675239",
+      "doi": "10.1145/2675133.2675239"
+    },
+    {
+      "text": "Pao Siangliulue, Joel Chan, Steven P Dow, and Krzysztof Z Gajos. 2016. IdeaHound: Improving Large-scale Collaborative Ideation with Crowd-Powered Real-time Semantic Modeling. In UIST 2016 - Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST \u201916), 609\u2013624. https://doi.org/10.1145/2984511.2984578",
+      "doi": ""
+    },
+    {
+      "text": "Pao Siangliulue, Joel Chan, Krzysztof Z Gajos, and Steven P Dow. 2015. Providing timely examples improves the quantity and quality of generated ideas. In Proceedings of the 2015 ACM SIGCHI Conference on Creativity and Cognition, 83\u201392. https://doi.org/10.1145/2757226.2757230",
+      "doi": "10.1145/2757226.2757230"
+    },
+    {
+      "text": "R. Sibson. 1973. Slink: an optimally efficient algorithm for the single-link cluster method. The Computer Journal 16, 1: 30\u201334.",
+      "doi": ""
+    },
+    {
+      "text": "Ut Na Sio, Kenneth Kotovsky, and Jonathan Cagan. 2015. Fixation or inspiration? A meta-analytic review of the role of examples on design processes. Design Studies 39: 70\u201399. https://doi.org/10.1016/j.destud.2015.04.004",
+      "doi": ""
+    },
+    {
+      "text": "Steven M. Smith. 2010. The Constraining Effects of Initial Ideas. In Group Creativity: Innovation through Collaboration. https://doi.org/10.1093/acprof:oso/9780195147308.003.0002",
+      "doi": ""
+    },
+    {
+      "text": "Paul T Sowden, Lucie Clements, Chrishelle Redlich, and Carine Lewis. 2015. Improvisation facilitates divergent thinking and creativity: Realizing a benefit of primary school arts education. Psychology of Aesthetics, Creativity, and the Arts 9, 2: 128. https://doi.org/10.1037/aca0000018",
+      "doi": ""
+    },
+    {
+      "text": "Ian F. Spellerberg and Peter J. Fedor. 2003. A tribute to Claude-Shannon (1916-2001) and a plea for more rigorous use of species richness, species diversity and the \u201cShannon-Wiener\u201d Index. Global Ecology and Biogeography 12, 3: 177\u2013179. https://doi.org/10.1046/j.1466-822X.2003.00015.x",
+      "doi": ""
+    },
+    {
+      "text": "Andy Stirling. 2007. A general framework for analysing diversity in science, technology and society. Journal of the Royal Society Interface 4: 707\u2013719. https://doi.org/10.1098/rsif.2007.0213",
+      "doi": ""
+    },
+    {
+      "text": "Victor J. Strecher, Saul Shiffman, and Robert West. 2005. Randomized controlled trial of a web-based computer-tailored smoking cessation program as a supplement to nicotine patch therapy. Addiction 100, 5: 682\u2013688. https://doi.org/10.1111/j.1360-0443.2005.01093.x",
+      "doi": ""
+    },
+    {
+      "text": "Shweta Suran, Vishwajeet Pattanaik, and Dirk Draheim. 2020. Frameworks for collective intelligence: A systematic literature review. ACM Computing Surveys 53, 1: 1\u201336. https://doi.org/10.1145/3368986",
+      "doi": "10.1145/3368986"
+    },
+    {
+      "text": "Simon Taggar. 2002. INDIVIDUAL CREATIVITY AND GROUP ABILITY TO UTILIZE INDIVIDUAL CREATIVE RESOURCES: A MULTILEVEL MODEL. Academy of Management Journal 45, 2: 315\u2013330.",
+      "doi": ""
+    },
+    {
+      "text": "Omer Tamuz, Ce Liu, Serge Belongie, Ohad Shamir, and Adam Tauman Kalai. 2011. Adaptively learning the crowd kernel. arXiv preprint arXiv:1105.1033.",
+      "doi": ""
+    },
+    {
+      "text": "E Paul Torrance. 2018. Guiding creative talent. Pickle Partners Publishing.",
+      "doi": ""
+    },
+    {
+      "text": "Sa\u00fal Vargas, Linas Baltrunas, Alexandros Karatzoglou, and Pablo Castells. 2014. Coverage, redundancy and size-awareness in genre diversity for recommender systems. RecSys 2014 - Proceedings of the 8th ACM Conference on Recommender Systems: 209\u2013216. https://doi.org/10.1145/2645710.2645743",
+      "doi": "10.1145/2645710.2645743"
+    },
+    {
+      "text": "Sebastien Villeger, Norman W. H. Mason, and David Mouillot. 2008. New Multidimensional Functional Diversity Indices for a Multifaceted Framework in Functional Ecology. Ecology 89, 8: 2290\u20132301. https://doi.org/10.1890/07-1206.1",
+      "doi": ""
+    },
+    {
+      "text": "Roelof A J de Vries, Khiet P Truong, Sigrid Kwint, Constance H C Drossaert, and Vanessa Evers. 2016. Crowd-Designed Motivation: Motivational Messages for Exercise Adherence Based on Behavior Change Theory Roelof. In CHI 2016, 297\u2013308. https://doi.org/10.1145/2858036.2858229",
+      "doi": ""
+    },
+    {
+      "text": "Meijuan Wang, Ning Hao, Yixuan Ku, Roland H. Grabner, and Andreas Fink. 2017. Neural correlates of serial order effect in verbal divergent thinking. Neuropsychologia 99: 92\u2013100. https://doi.org/10.1016/j.neuropsychologia.2017.03.001",
+      "doi": ""
+    },
+    {
+      "text": "Daniel S Weld, Christopher H Lin, and Jonathan Bragg. 2015. Artificial Intelligence and Collective Intelligence. In Handbook of Collective Intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "Tom Young, Devamanyu Hazarika, Soujanya Poria, and Erik Cambria. 2018. Recent trends in deep learning based natural language processing. IEEE Computational Intelligence Magazine 13, 3: 55\u201375. https://doi.org/10.1109/MCI.2018.2840738",
+      "doi": ""
+    },
+    {
+      "text": "Lixiu Yu and Jeffrey V. Nickerson. 2011. Cooks or cobblers? Crowd Creativity through Combination. 1393. https://doi.org/10.1145/1978942.1979147",
+      "doi": ""
+    },
+    {
+      "text": "F Zenasni and T I Lubart. 2009. Perception of emotion, alexithymia and creative potential. Personality and Individual Differences 46, 3: 353\u2013358. https://doi.org/10.1016/j.paid.2008.10.030",
+      "doi": ""
+    },
+    {
+      "text": "Xianda Zhou and William Yang Wang. 2018. MojiTalk: Generating Emotional Responses at Scale. In Proceedings ofthe 56th Annual Meeting ofthe Association for Computational Linguistics, 1128\u20131137. https://doi.org/10.18653/v1/P18-1104",
+      "doi": ""
+    }
+  ]
+}

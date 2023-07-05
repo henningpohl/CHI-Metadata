@@ -1,0 +1,256 @@
+{
+  "doi": "10.1145/3411764.3445762",
+  "title": "VINS: Visual Search for Mobile User Interface Design",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Searching for relative mobile user interface (UI) design examples can aid interface designers in gaining inspiration and comparing design alternatives. However, finding such design examples is challenging, especially as current search systems rely on only text-based queries and do not consider the UI structure and content into account. This paper introduces VINS, a visual search framework, that takes as input a UI image (wireframe, high-fidelity) and retrieves visually similar design examples. We first survey interface designers to better understand their example finding process. We then develop a large-scale UI dataset that provides an accurate specification of the interface\u2019s view hierarchy (i.e., all the UI components and their specific location). By utilizing this dataset, we propose an object-detection based image retrieval framework that models the UI context and hierarchical structure. The framework achieves a mean Average Precision of 76.39% for the UI detection and high performance in querying similar UI designs.",
+  "authors": [
+    {
+      "name": "Sara Bunian",
+      "institution": "Department of Electrical and Computer Engineering Northeastern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81474697256",
+      "orcid": "missing"
+    },
+    {
+      "name": "Kai Li",
+      "institution": "Department of Electrical and Computer Engineering Northeastern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659317496",
+      "orcid": "missing"
+    },
+    {
+      "name": "Chaima Jemmali",
+      "institution": "Khoury College of Computer Science Northeastern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659306043",
+      "orcid": "missing"
+    },
+    {
+      "name": "Casper Harteveld",
+      "institution": "CAMD Northeastern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81460657992",
+      "orcid": "0000-0002-8164-0303"
+    },
+    {
+      "name": "Yun Fu",
+      "institution": "Department of Electrical and Computer Engineering Northeastern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "83358720157",
+      "orcid": "missing"
+    },
+    {
+      "name": "Magy Seif Seif El-Nasr",
+      "institution": "Computational Media University of California at Santa Cruz, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81502694399",
+      "orcid": "0000-0002-7808-1686"
+    }
+  ],
+  "references": [
+    {
+      "text": "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul\u00a0N Bennett, Kori Inkpen, 2019. Guidelines for human-AI interaction. In Proceedings of the 2019 chi conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Farnaz Behrang, Steven\u00a0P Reiss, and Alessandro Orso. 2018. GUIfetch: supporting app design and development through GUI search. In Proceedings of the 5th International Conference on Mobile Software Engineering and Systems. 236\u2013246.",
+      "doi": "10.1145/3197231.3197244"
+    },
+    {
+      "text": "Sean Bell and Kavita Bala. 2015. Learning visual similarity for product design with convolutional neural networks. ACM transactions on graphics (TOG) 34, 4 (2015), 1\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Tony Beltramelli. 2018. pix2code: Generating code from a graphical user interface screenshot. In Proceedings of the ACM SIGCHI Symposium on Engineering Interactive Computing Systems. ACM, 3.",
+      "doi": "10.1145/3220134.3220135"
+    },
+    {
+      "text": "Nathalie Bonnardel. 1999. Creativity in design activities: The role of analogies in a constrained cognitive environment. In Proceedings of the 3rd conference on Creativity & cognition. 158\u2013165.",
+      "doi": "10.1145/317561.317589"
+    },
+    {
+      "text": "Joel Brandt, Mira Dontcheva, Marcos Weskamp, and Scott\u00a0R Klemmer. 2010. Example-centric programming: integrating web search into the development environment. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 513\u2013522.",
+      "doi": "10.1145/1753326.1753402"
+    },
+    {
+      "text": "Bill Buxton. 2010. Sketching user experiences: getting the design right and the right design. Morgan kaufmann.",
+      "doi": ""
+    },
+    {
+      "text": "John Canny. 1986. A computational approach to edge detection. IEEE Transactions on pattern analysis and machine intelligence6 (1986), 679\u2013698.",
+      "doi": "10.1109/TPAMI.1986.4767851"
+    },
+    {
+      "text": "Navneet Dalal and Bill Triggs. 2005. Histograms of oriented gradients for human detection. In 2005 IEEE computer society conference on computer vision and pattern recognition (CVPR\u201905), Vol.\u00a01. IEEE, 886\u2013893.",
+      "doi": ""
+    },
+    {
+      "text": "Shaveta Dargan, Munish Kumar, Maruthi\u00a0Rohit Ayyagari, and Gulshan Kumar. 2019. A survey of deep learning and its applications: A new paradigm to machine learning. Archives of Computational Methods in Engineering (2019), 1\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, Chad Franzen, Joshua Hibschman, Daniel Afergan, Yang Li, Jeffrey Nichols, and Ranjitha Kumar. 2017. Rico: A mobile app dataset for building data-driven design applications. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology. ACM, 845\u2013854.",
+      "doi": "10.1145/3126594.3126651"
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, and Ranjitha Kumar. 2016. ERICA: Interaction mining mobile apps. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology. ACM, 767\u2013776.",
+      "doi": "10.1145/2984511.2984581"
+    },
+    {
+      "text": "Mark Everingham, Luc Van\u00a0Gool, Christopher\u00a0KI Williams, John Winn, and Andrew Zisserman. 2010. The pascal visual object classes (voc) challenge. International journal of computer vision 88, 2 (2010), 303\u2013338.",
+      "doi": "10.1007/s11263-009-0275-4"
+    },
+    {
+      "text": "Pedro\u00a0F Felzenszwalb, Ross\u00a0B Girshick, David McAllester, and Deva Ramanan. 2009. Object detection with discriminatively trained part-based models. IEEE transactions on pattern analysis and machine intelligence 32, 9(2009), 1627\u20131645.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Funkhouser, Patrick Min, Michael Kazhdan, Joyce Chen, Alex Halderman, David Dobkin, and David Jacobs. 2003. A search engine for 3D models. ACM Transactions on Graphics (TOG) 22, 1 (2003), 83\u2013105.",
+      "doi": "10.1145/588272.588279"
+    },
+    {
+      "text": "Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik. 2014. Rich feature hierarchies for accurate object detection and semantic segmentation. In Proceedings of the IEEE conference on computer vision and pattern recognition. 580\u2013587.",
+      "doi": "10.1109/CVPR.2014.81"
+    },
+    {
+      "text": "Yasunari Hashimoto and Takeo Igarashi. 2005. Retrieving Web Page Layouts using Sketches to Support Example-based Web Design.. In SBM. Citeseer, 155\u2013164.",
+      "doi": ""
+    },
+    {
+      "text": "Scarlett\u00a0R Herring, Chia-Chen Chang, Jesse Krantzler, and Brian\u00a0P Bailey. 2009. Getting inspired!: understanding how and why examples are used in creative design practice. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 87\u201396.",
+      "doi": "10.1145/1518701.1518717"
+    },
+    {
+      "text": "Scarlett\u00a0R Herring, Brett\u00a0R Jones, and Brian\u00a0P Bailey. 2009. Idea generation techniques among creative professionals. In 2009 42nd Hawaii International Conference on System Sciences. IEEE, 1\u201310.",
+      "doi": "10.1109/HICSS.2009.241"
+    },
+    {
+      "text": "Clara\u00a0E Hill. 2012. Consensual qualitative research: A practical resource for investigating social science phenomena.American Psychological Association.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0G Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, and Hartwig Adam. 2017. Mobilenets: Efficient convolutional neural networks for mobile vision applications. arXiv preprint arXiv:1704.04861(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Forrest Huang, John\u00a0F Canny, and Jeffrey Nichols. 2019. Swire: Sketch-based User Interface Retrieval. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 104.",
+      "doi": "10.1145/3290605.3300334"
+    },
+    {
+      "text": "Ali Jahanian, Shaiyan Keshvari, SVN Vishwanathan, and Jan\u00a0P Allebach. 2017. Colors\u2013Messengers of Concepts: Visual Design Mining for Learning Color Semantics. ACM Transactions on Computer-Human Interaction (TOCHI) 24, 1(2017), 1\u201339.",
+      "doi": "10.1145/3009924"
+    },
+    {
+      "text": "Alexander Kolesnikov, Alina Kuznetsova, Christoph Lampert, and Vittorio Ferrari. 2019. Detecting visual relationships using box attention. In Proceedings of the IEEE International Conference on Computer Vision Workshops. 0\u20130.",
+      "doi": ""
+    },
+    {
+      "text": "Ranjitha Kumar, Arvind Satyanarayan, Cesar Torres, Maxine Lim, Salman Ahmad, Scott\u00a0R Klemmer, and Jerry\u00a0O Talton. 2013. Webzeitgeist: design mining the web. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 3083\u20133092.",
+      "doi": "10.1145/2470654.2466420"
+    },
+    {
+      "text": "Ranjitha Kumar, Jerry\u00a0O Talton, Salman Ahmad, and Scott\u00a0R Klemmer. 2011. Bricolage: example-based retargeting for web design. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2197\u20132206.",
+      "doi": "10.1145/1978942.1979262"
+    },
+    {
+      "text": "Brian Lee, Savil Srivastava, Ranjitha Kumar, Ronen Brafman, and Scott\u00a0R Klemmer. 2010. Designing with interactive example galleries. In Proceedings of the SIGCHI conference on human factors in computing systems. ACM, 2257\u20132266.",
+      "doi": "10.1145/1753326.1753667"
+    },
+    {
+      "text": "Haotian Li, Kezheng Lin, Jingxuan Bai, Ao Li, and Jiali Yu. 2019. Small Object Detection Algorithm Based on Feature Pyramid-Enhanced Fusion SSD. Complexity 2019(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Jianan Li, Jimei Yang, Aaron Hertzmann, Jianming Zhang, and Tingfa Xu. 2019. Layoutgan: Generating graphic layouts with wireframe discriminators. arXiv preprint arXiv:1901.06767(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Yang Li and Tsung-Hsiang Chang. 2016. Auto-completion for user interface design. US Patent 9,417,760.",
+      "doi": ""
+    },
+    {
+      "text": "Sharon Lin, Daniel Ritchie, Matthew Fisher, and Pat Hanrahan. 2013. Probabilistic color-by-numbers: Suggesting pattern colorizations using factor graphs. ACM Transactions on Graphics (TOG) 32, 4 (2013), 1\u201312.",
+      "doi": "10.1145/2461912.2461969"
+    },
+    {
+      "text": "Thomas\u00a0F Liu, Mark Craft, Jason Situ, Ersin Yumer, Radomir Mech, and Ranjitha Kumar. 2018. Learning design semantics for mobile apps. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology. 569\u2013579.",
+      "doi": "10.1145/3242587.3242650"
+    },
+    {
+      "text": "Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander\u00a0C Berg. 2016. Ssd: Single shot multibox detector. In European conference on computer vision. Springer, 21\u201337.",
+      "doi": ""
+    },
+    {
+      "text": "Julian McAuley, Christopher Targett, Qinfeng Shi, and Anton Van Den\u00a0Hengel. 2015. Image-based recommendations on styles and substitutes. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval. 43\u201352.",
+      "doi": "10.1145/2766462.2767755"
+    },
+    {
+      "text": "Scarlett\u00a0R Miller and Brian\u00a0P Bailey. 2014. Searching for inspiration: An in-depth look at designers example finding practices. In International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, Vol.\u00a046407. American Society of Mechanical Engineers, V007T07A035.",
+      "doi": ""
+    },
+    {
+      "text": "Kevin Moran, Carlos Bernal-C\u00e1rdenas, Michael Curcio, Richard Bonett, and Denys Poshyvanyk. 2018. Machine learning-based prototyping of graphical user interfaces for mobile apps. arXiv preprint arXiv:1802.02312(2018).",
+      "doi": ""
+    },
+    {
+      "text": "George Nagy, Thomas\u00a0A Nartker, and Stephen\u00a0V Rice. 1999. Optical character recognition: An illustrated guide to the frontier. In Document Recognition and Retrieval VII, Vol.\u00a03967. International Society for Optics and Photonics, 58\u201369.",
+      "doi": ""
+    },
+    {
+      "text": "Tuan\u00a0Anh Nguyen and Christoph Csallner. 2015. Reverse engineering mobile application user interfaces with remaui (t). In 2015 30th IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE, 248\u2013259.",
+      "doi": "10.1109/ASE.2015.32"
+    },
+    {
+      "text": "Peter O\u2019Donovan, Aseem Agarwala, and Aaron Hertzmann. 2011. Color compatibility from large datasets. In ACM SIGGRAPH 2011 papers. 1\u201312.",
+      "doi": "10.1145/1964921.1964958"
+    },
+    {
+      "text": "Peter O\u2019Donovan, Aseem Agarwala, and Aaron Hertzmann. 2015. Designscape: Design with interactive layout suggestions. In Proceedings of the 33rd annual ACM conference on human factors in computing systems. 1221\u20131224.",
+      "doi": "10.1145/2702123.2702149"
+    },
+    {
+      "text": "Peter O\u2019Donovan, J\u0101nis L\u012bbeks, Aseem Agarwala, and Aaron Hertzmann. 2014. Exploratory font selection using crowdsourced attributes. ACM Transactions on Graphics (TOG) 33, 4 (2014), 1\u20139.",
+      "doi": "10.1145/2601097.2601110"
+    },
+    {
+      "text": "Peter O\u2019Donovan, Aseem Agarwala, and Aaron Hertzmann. 2014. Learning layouts for single-pagegraphic designs. IEEE transactions on visualization and computer graphics 20, 8(2014), 1200\u20131213.",
+      "doi": "10.1109/TVCG.2014.48"
+    },
+    {
+      "text": "Daniel Ritchie, Ankita\u00a0Arvind Kejriwal, and Scott\u00a0R Klemmer. 2011. d. tour: Style-based exploration of design example galleries. In Proceedings of the 24th annual ACM symposium on User interface software and technology. 165\u2013174.",
+      "doi": "10.1145/2047196.2047216"
+    },
+    {
+      "text": "Moushumi Sharmin, Brian\u00a0P Bailey, Cole Coats, and Kevin Hamilton. 2009. Understanding knowledge management practices for early design activity and its implications for reuse. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2367\u20132376.",
+      "doi": "10.1145/1518701.1519064"
+    },
+    {
+      "text": "Thorvald S\u00f8rensen, TA S\u00f8rensen, TJ S\u00f8rensen, T SORENSEN, T Sorensen, TA Sorensen, and T Biering-S\u00f8rensen. 1948. A method of establishing groups of equal amplitude in plant sociology based on similarity of species content and its application to analyses of the vegetation on Danish commons. (1948).",
+      "doi": ""
+    },
+    {
+      "text": "Hao Su, Jia Deng, and Li Fei-Fei. 2012. Crowdsourcing annotations for visual object detection. In Workshops at the Twenty-Sixth AAAI Conference on Artificial Intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "Amanda Swearngin, Mira Dontcheva, Wilmot Li, Joel Brandt, Morgan Dixon, and Andrew\u00a0J Ko. 2018. Rewire: Interface design assistance from examples. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3173574.3174078"
+    },
+    {
+      "text": "Tom Yeh, Tsung-Hsiang Chang, and Robert\u00a0C Miller. 2009. Sikuli: using GUI screenshots for search and automation. In Proceedings of the 22nd annual ACM symposium on User interface software and technology. ACM, 183\u2013192.",
+      "doi": "10.1145/1622176.1622213"
+    },
+    {
+      "text": "Young-Sun Yun, Jinman Jung, Seongbae Eun, Sun-Sup So, and Junyoung Heo. 2018. Detection of gui elements on sketch images using object detector based on deep neural networks. In International Conference on Green and Human Information Technology. Springer, 86\u201390.",
+      "doi": ""
+    },
+    {
+      "text": "Zhong-Qiu Zhao, Peng Zheng, Shou-tao Xu, and Xindong Wu. 2019. Object detection with deep learning: A review. IEEE transactions on neural networks and learning systems 30, 11(2019), 3212\u20133232.",
+      "doi": ""
+    }
+  ]
+}

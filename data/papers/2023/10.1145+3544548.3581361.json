@@ -1,0 +1,198 @@
+{
+  "doi": "10.1145/3544548.3581361",
+  "title": "MechSense: A Design and Fabrication Pipeline for Integrating Rotary Encoders into 3D Printed Mechanisms",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2023,
+  "badges": [],
+  "abstract": "We introduce MechSense, 3D-printed rotary encoders that can be fabricated in one pass alongside rotational mechanisms, and report on their angular position, direction of rotation, and speed. MechSense encoders utilize capacitive sensing by integrating a floating capacitor into the rotating element and three capacitive sensor patches in the stationary part of the mechanism. Unlike existing rotary encoders, MechSense does not require manual assembly but can be seamlessly integrated during design and fabrication. Our MechSense editor allows users to integrate the encoder with a rotating mechanism and exports files for 3D-printing. We contribute a sensor topology and a computational model that can compensate for print deviations. Our technical evaluation shows that MechSense can detect the angular position (mean error: 1.4\u00b0) across multiple prints and rotations, different spacing between sensor patches, and different sizes of sensors. We demonstrate MechSense through three application examples on 3D-printed tools, tangible UIs, and gearboxes.",
+  "authors": [
+    {
+      "name": "Marwa Alalawi",
+      "institution": "MIT CSAIL, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660625804",
+      "orcid": "0000-0003-3053-6861"
+    },
+    {
+      "name": "Noah Pacik-Nelson",
+      "institution": "Accenture, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660773077",
+      "orcid": "0000-0002-5615-2260"
+    },
+    {
+      "name": "Junyi Zhu",
+      "institution": "MIT CSAIL, United States",
+      "img": "/do/10.1145/contrib-99659201096/rel-imgonly/junyi-zhu_smaller.jpg",
+      "acmid": "99659201096",
+      "orcid": "0000-0001-6166-6138"
+    },
+    {
+      "name": "Ben Greenspan",
+      "institution": "Accenture Labs, United States",
+      "img": "/do/10.1145/contrib-99659589668/rel-imgonly/handshake_image.png",
+      "acmid": "99659589668",
+      "orcid": "0000-0002-6481-9643"
+    },
+    {
+      "name": "Andrew Doan",
+      "institution": "MIT CSAIL, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780133",
+      "orcid": "0000-0002-9096-9530"
+    },
+    {
+      "name": "Brandon M Wong",
+      "institution": "MIT CSAIL, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660625805",
+      "orcid": "0000-0003-3510-8137"
+    },
+    {
+      "name": "Benjamin Owen-Block",
+      "institution": "MIT CSAIL, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783248",
+      "orcid": "0000-0002-9778-1215"
+    },
+    {
+      "name": "Shanti Kaylene Mickens",
+      "institution": "MIT CSAIL, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780361",
+      "orcid": "0000-0003-0944-1833"
+    },
+    {
+      "name": "Wilhelm Jacobus Schoeman",
+      "institution": "MIT CSAIL, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782162",
+      "orcid": "0000-0001-6106-1948"
+    },
+    {
+      "name": "Michael Wessely",
+      "institution": "MIT CSAIL, United States",
+      "img": "/do/10.1145/contrib-99658640074/rel-imgonly/michael_wessely_profile.jpg",
+      "acmid": "99658640074",
+      "orcid": "0000-0003-0597-4659"
+    },
+    {
+      "name": "Andreea Danielescu",
+      "institution": "Accenture Labs, United States",
+      "img": "/do/10.1145/contrib-81444607832/rel-imgonly/81444607832.png",
+      "acmid": "81444607832",
+      "orcid": "0000-0001-7460-2467"
+    },
+    {
+      "name": "Stefanie Mueller",
+      "institution": "MIT CSAIL, United States",
+      "img": "/do/10.1145/contrib-81548921556/rel-imgonly/81548921556.jpg",
+      "acmid": "81548921556",
+      "orcid": "0000-0001-7743-7807"
+    }
+  ],
+  "references": [
+    {
+      "text": "Jesse Burstyn, Nicholas Fellion, Paul Strohmeier, and Roel Vertegaal. 2015. PrintPut: Resistive and Capacitive Input Widgets for Interactive 3D Prints. In Human-Computer Interaction \u2013 INTERACT 2015, Julio Abascal, Simone Barbosa, Mirko Fetter, Tom Gross, Philippe Palanque, and Marco Winckler (Eds.). Springer International Publishing, Cham, 332\u2013339.",
+      "doi": "10.1007/978-3-319-22701-6_25"
+    },
+    {
+      "text": "V. Ferrari, A. Ghisla, D. Marioli, and A. Taroni. 2004. Capacitive angular-position sensor with electrically-floating conductive rotor and measurement redundancy. In Proceedings of the 21st IEEE Instrumentation and Measurement Technology Conference (IEEE Cat. No.04CH37510), Vol.\u00a01. 195\u2013200 Vol.1. https://doi.org/10.1109/IMTC.2004.1351027",
+      "doi": ""
+    },
+    {
+      "text": "P.L. Fulmek, F. Wandling, W. Zdiarsky, G. Brasseur, and S.P. Cermak. 2002. Capacitive sensor for relative angle measurement. IEEE Transactions on Instrumentation and Measurement 51, 6(2002), 1145\u20131149. https://doi.org/10.1109/TIM.2002.808052",
+      "doi": ""
+    },
+    {
+      "text": "M. Gasulla, Xiujun Li, G.C.M. Meijer, L. van\u00a0der Ham, and J.W. Spronck. 2002. A contactless capacitive angular-position sensor. In SENSORS, 2002 IEEE, Vol.\u00a02. 880\u2013884 vol.2. https://doi.org/10.1109/ICSENS.2002.1037224",
+      "doi": ""
+    },
+    {
+      "text": "Jun Gong, Olivia Seow, Cedric Honnet, Jack Forman, and Stefanie Mueller. 2021. MetaSense: Integrating Sensing Capabilities into Mechanical Metamaterial. In The 34th Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 1063\u20131073. https://doi.org/10.1145/3472749.3474806",
+      "doi": "10.1145/3472749.3474806"
+    },
+    {
+      "text": "Ben Greenspan, Eric\u00a0M. Gallo, and Andreea Danielescu. 2022. FlexKeys: Rapidly Customizable 3D Printed Tactile Input Devices with No Assembly Required. In Emilio Rossi and Massimo Di Nicolantonio (eds) Additive Manufacturing, Modeling Systems and 3D Prototyping(AHFE (2022)). AHFE International, USA. https://doi.org/10.54941/ahfe1001587",
+      "doi": ""
+    },
+    {
+      "text": "Liang He, Jarrid\u00a0A. Wittkopf, Ji\u00a0Won Jun, Kris Erickson, and Rafael\u00a0Tico Ballagas. 2022. ModElec: A Design Tool for Prototyping Physical Computing Devices Using Conductive 3D Printing. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 5, 4, Article 159 (dec 2022), 20\u00a0pages. https://doi.org/10.1145/3495000",
+      "doi": "10.1145/3495000"
+    },
+    {
+      "text": "Bo Hou, Zhang Tian, Cao Li, Qi Wei, Bin Zhou, and Rong Zhang. 2017. A capacitive rotary encoder with a novel sensitive electrode. In 2017 IEEE SENSORS. 1\u20133. https://doi.org/10.1109/ICSENS.2017.8234143",
+      "doi": ""
+    },
+    {
+      "text": "Vikram Iyer, Justin Chan, and Shyamnath Gollakota. 2017. 3D Printing Wireless Connected Objects. ACM Trans. Graph. 36, 6, Article 242 (nov 2017), 13\u00a0pages. https://doi.org/10.1145/3130800.3130822",
+      "doi": "10.1145/3130800.3130822"
+    },
+    {
+      "text": "M. Karali, A.\u00a0T. Karasahin, O. Keles, M. Kocak, and M.\u00a0A. Erismis. 2018. A new capacitive rotary encoder based on analog synchronous demodulation. Electrical Engineering 100 (2018), 975\u20131983. https://doi.org/10.1007/s00202-018-0677-9",
+      "doi": ""
+    },
+    {
+      "text": "Kunihiro Kato, Kaori Ikematsu, and Yoshihiro Kawahara. 2020. CAPath: 3D-Printed Interfaces with Conductive Points in Grid Layout to Extend Capacitive Touch Inputs. Proc. ACM Hum.-Comput. Interact. 4, ISS, Article 193 (Nov. 2020), 17\u00a0pages. https://doi.org/10.1145/3427321",
+      "doi": "10.1145/3427321"
+    },
+    {
+      "text": "Danny Leen, Raf Ramakers, and Kris Luyten. 2017. StrutModeling: A Low-Fidelity Construction Kit to Iteratively Model, Test, and Adapt 3D Objects. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology (Qu\u00e9bec City, QC, Canada) (UIST \u201917). Association for Computing Machinery, New York, NY, USA, 471\u2013479. https://doi.org/10.1145/3126594.3126643",
+      "doi": "10.1145/3126594.3126643"
+    },
+    {
+      "text": "Karola Marky, Martin Schmitz, Verena Zimmermann, Martin Herbers, Kai Kunze, and Max M\u00fchlh\u00e4user. 2020. 3D-Auth: Two-Factor Authentication with Personalized 3D-Printed Items. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376189",
+      "doi": "10.1145/3313831.3376189"
+    },
+    {
+      "text": "Karola Marky, Andreas Wei\u00df, Florian M\u00fcller, Martin Schmitz, Max M\u00fchlh\u00e4user, and Thomas Kosch. 2021. Let\u2019s Frets! Mastering Guitar Playing with Capacitive Sensing and Visual Guidance. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI EA \u201921). Association for Computing Machinery, New York, NY, USA, Article 169, 4\u00a0pages. https://doi.org/10.1145/3411763.3451536",
+      "doi": "10.1145/3411763.3451536"
+    },
+    {
+      "text": "Thijs\u00a0Jan Roumen, Willi M\u00fcller, and Patrick Baudisch. 2018. Grafter: Remixing 3D-Printed Machines. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173637",
+      "doi": "10.1145/3173574.3173637"
+    },
+    {
+      "text": "Valkyrie Savage, Andrew Head, Bj\u00f6rn Hartmann, Dan\u00a0B. Goldman, Gautham Mysore, and Wilmot Li. 2015. Lamello: Passive Acoustic Sensing for Tangible Input Components. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 1277\u20131280. https://doi.org/10.1145/2702123.2702207",
+      "doi": "10.1145/2702123.2702207"
+    },
+    {
+      "text": "Martin Schmitz, Martin Herbers, Niloofar Dezfuli, Sebastian G\u00fcnther, and Max M\u00fchlh\u00e4user. 2018. Off-Line Sensing: Memorizing Interactions in Passive 3D-Printed Objects. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3173574.3173756",
+      "doi": "10.1145/3173574.3173756"
+    },
+    {
+      "text": "Martin Schmitz, Mohammadreza Khalilbeigi, Matthias Balwierz, Roman Lissermann, Max M\u00fchlh\u00e4user, and J\u00fcrgen Steimle. 2015. Capricate: A Fabrication Pipeline to Design and 3D Print Capacitive Touch Sensors for Interactive Objects. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology (Charlotte, NC, USA) (UIST \u201915). Association for Computing Machinery, New York, NY, USA, 253\u2013258. https://doi.org/10.1145/2807442.2807503",
+      "doi": "10.1145/2807442.2807503"
+    },
+    {
+      "text": "Martin Schmitz, Florian M\u00fcller, Max M\u00fchlh\u00e4user, Jan Riemann, and Huy Viet\u00a0Viet Le. 2021. Itsy-Bits: Fabrication and Recognition of 3D-Printed Tangibles with Small Footprints on Capacitive Touchscreens. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 419, 12\u00a0pages. https://doi.org/10.1145/3411764.3445502",
+      "doi": "10.1145/3411764.3445502"
+    },
+    {
+      "text": "Martin Schmitz, J\u00fcrgen Steimle, Jochen Huber, Niloofar Dezfuli, and Max M\u00fchlh\u00e4user. 2017. Flexibles: Deformation-Aware 3D-Printed Tangibles for Capacitive Touchscreens. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 1001\u20131014. https://doi.org/10.1145/3025453.3025663",
+      "doi": "10.1145/3025453.3025663"
+    },
+    {
+      "text": "Dishita\u00a0G. Turakhia, Harrison\u00a0Mitchell Allen, Kayla DesPortes, and Stefanie Mueller. 2021. FabO: Integrating Fabrication with a Player\u2019s Gameplay in Existing Digital Games. In Creativity and Cognition (Virtual Event, Italy) (C&C \u201921). Association for Computing Machinery, New York, NY, USA, Article 21, 10\u00a0pages. https://doi.org/10.1145/3450741.3465239",
+      "doi": "10.1145/3450741.3465239"
+    },
+    {
+      "text": "Tatyana Vasilevitsky and Amit Zoran. 2016. Steel-Sense: Integrating Machine Elements with Sensors by Additive Manufacturing. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 5731\u20135742. https://doi.org/10.1145/2858036.2858309",
+      "doi": "10.1145/2858036.2858309"
+    },
+    {
+      "text": "Hewen Wang, Kai Peng, Xiaokang Liu, Zhicheng Yu, and Ziran Chen. 2021. Design and Realization of a Compact High-Precision Capacitive Absolute Angular Position Sensor Based on Time Grating. IEEE Transactions on Industrial Electronics 68, 4 (2021), 3548\u20133557. https://doi.org/10.1109/TIE.2020.2977540",
+      "doi": ""
+    },
+    {
+      "text": "Clement Zheng, Jeeeun Kim, Daniel Leithinger, Mark\u00a0D. Gross, and Ellen Yi-Luen Do. 2019. Mechamagnets: Designing and Fabricating Haptic and Functional Physical Inputs with Embedded Magnets. In Proceedings of the Thirteenth International Conference on Tangible, Embedded, and Embodied Interaction (Tempe, Arizona, USA) (TEI \u201919). Association for Computing Machinery, New York, NY, USA, 325\u2013334. https://doi.org/10.1145/3294109.3295622",
+      "doi": "10.1145/3294109.3295622"
+    },
+    {
+      "text": "Dezhi Zheng, Shaobo Zhang, Shuai Wang, Chun Hu, and Xiaomeng Zhao. 2015. A Capacitive Rotary Encoder Based on Quadrature Modulation and Demodulation. Instrumentation and Measurement, IEEE Transactions on 64 (01 2015), 143\u2013153. https://doi.org/10.1109/TIM.2014.2328456",
+      "doi": ""
+    }
+  ]
+}

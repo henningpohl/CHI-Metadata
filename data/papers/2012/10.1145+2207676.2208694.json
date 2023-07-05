@@ -1,0 +1,218 @@
+{
+  "doi": "10.1145/2207676.2208694",
+  "title": "Proton: multitouch gestures as regular expressions",
+  "published": "2012-05-05",
+  "proctitle": "CHI '12: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+  "pages": "2885-2894",
+  "year": 2012,
+  "badges": [],
+  "abstract": "Current multitouch frameworks require application developers to write recognition code for custom gestures; this code is split across multiple event-handling callbacks. As the number of custom gestures grows it becomes increasingly difficult to 1) know if new gestures will conflict with existing gestures, and 2) know how to extend existing code to reliably recognize the complete gesture set. Proton is a novel framework that addresses both of these problems. Using Proton, the application developer declaratively specifies each gesture as a regular expression over a stream of touch events. Proton statically analyzes the set of gestures to report conflicts, and it automatically creates gesture recognizers for the entire set. To simplify the creation of complex multitouch gestures, Proton introduces gesture tablature, a graphical notation that concisely describes the sequencing of multiple interleaved touch actions over time. Proton contributes a graphical editor for authoring tablatures and automatically compiles tablatures into regular expressions. We present the architecture and implementation of Proton, along with three proof-of-concept applications. These applications demonstrate the expressiveness of the framework and show how Proton simplifies gesture definition and conflict resolution.",
+  "authors": [
+    {
+      "name": "Kenrick Kin",
+      "institution": "University of California, Berkeley & Pixar Animation Studios, Berkeley, California, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81435604849",
+      "orcid": "0000-0002-3956-9793"
+    },
+    {
+      "name": "Bj\u00f6rn Hartmann",
+      "institution": "University of California, Berkeley, Berkeley, California, United States",
+      "img": "/do/10.1145/contrib-81318498266/rel-imgonly/headshot2010_130.jpg",
+      "acmid": "81318498266",
+      "orcid": "0000-0002-0693-0829"
+    },
+    {
+      "name": "Tony DeRose",
+      "institution": "Pixar Animation Studios, Emeryville, California, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100493833",
+      "orcid": "missing"
+    },
+    {
+      "name": "Maneesh Agrawala",
+      "institution": "University of California, Berkeley, Berkeley, California, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100346089",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Adya, A., Howell, J., Theimer, M., Bolosky, W. J., and Douceur, J. R. Cooperative task management without manual stack management. Proc. USENIX 2002 (2002), 289--302. ",
+      "doi": "10.5555/647057.713851"
+    },
+    {
+      "text": "Appert, C., and Beaudouin-Lafon, M. SwingStates: adding state machines to the swing toolkit. Proc. UIST 2006 (2006), 319--322.  ",
+      "doi": "10.1145/1166253.1166302"
+    },
+    {
+      "text": "Apple. iOS. http://developer.apple.com/technologies/ios.",
+      "doi": ""
+    },
+    {
+      "text": "Autodesk. SketchBook Pro. http://usa.autodesk.com/ adsk/servlet/pc/item?siteID=123112&id=15119465.",
+      "doi": ""
+    },
+    {
+      "text": "Blackwell, A. SWYN: A Visual Representation for Regular Expressions. Morgan Kauffman, 2000, 245--270.",
+      "doi": ""
+    },
+    {
+      "text": "Bleser, T., and Foley, J. D. Towards specifying and evaluating the human factors of user-computer interfaces. Proc. CHI 1982 (1982), 309--314.  ",
+      "doi": "10.1145/800049.801801"
+    },
+    {
+      "text": "Brzozowski, J. A. Derivatives of regular expressions. Journal of the ACM 11 (1964), 481--494.  ",
+      "doi": "10.1145/321239.321249"
+    },
+    {
+      "text": "De Nardi, A. Grafiti: Gesture recognition management framework for interactive tapletop interfaces. Master's thesis, University of Pisa, Italy, 2008.",
+      "doi": ""
+    },
+    {
+      "text": "Echtler, F., and Klinker, G. A multitouch software architecture. Proc. NordiCHI 2008 (2008), 463--466.  ",
+      "doi": "10.1145/1463160.1463220"
+    },
+    {
+      "text": "Fraunhofer-Institute for Industrial Engineering. MT4j - Multitouch for Java. http://www.mt4j.org.",
+      "doi": ""
+    },
+    {
+      "text": "Gibbon, D., Gut, U., Hell, B., Looks, K., Thies, A., and Trippel, T. A computational model of arm gestures in conversation. Proc. Eurospeech 2003 (2003), 813--816.",
+      "doi": ""
+    },
+    {
+      "text": "Google. Android. http://www.android.com.",
+      "doi": ""
+    },
+    {
+      "text": "Hansen, T. E., Hourcade, J. P., Virbel, M., Patali, S., and Serra, T. PyMT: a post-WIMP multi-touch user interface toolkit. Proc. ITS 2009 (2009), 17--24.  ",
+      "doi": "10.1145/1731903.1731907"
+    },
+    {
+      "text": "Henry, T. R., Hudson, S. E., and Newell, G. L. Integrating gesture and snapping into a user interface toolkit. Proc. UIST 1990 (1990), 112--122.  ",
+      "doi": "10.1145/97924.97938"
+    },
+    {
+      "text": "Hudson, S. E., Mankoff, J., and Smith, I. Extensible input handling in the subArctic toolkit. Proc. CHI 2005 (2005), 381--390.  ",
+      "doi": "10.1145/1054972.1055025"
+    },
+    {
+      "text": "Jacob, R. J. K. Executable specifications for a human-computer interface. Proc. CHI 1983 (1983), 28--34.  ",
+      "doi": "10.1145/800045.801575"
+    },
+    {
+      "text": "Jacob, R. J. K. A specification language for direct-manipulation user interfaces. TOG 5, 4 (October 1986), 283--317.  ",
+      "doi": "10.1145/27623.27624"
+    },
+    {
+      "text": "Jacob, R. J. K., Deligiannidis, L., and Morrison, S. A software model and specification language for non-WIMP user interfaces. TOCHI 6, 1 (1999), 1--46.  ",
+      "doi": "10.1145/310641.310642"
+    },
+    {
+      "text": "Kammer, D., Freitag, G., Keck, M., and Wacker, M. Taxonomy and overview of multi-touch frameworks: Architecture, scope and features. Workshop on Engineering Patterns for Multitouch Interfaces (2010).",
+      "doi": ""
+    },
+    {
+      "text": "Kammer, D., Wojdziak, J., Keck, M., and Taranko, S. Towards a formalization of multi-touch gestures. Proc. ITS 2010 (2010), 49--58.  ",
+      "doi": "10.1145/1936652.1936662"
+    },
+    {
+      "text": "Khandkar, S. H., and Maurer, F. A domain specific language to define gestures for multi-touch applications. 10th Workshop on Domain-Specific Modeling (2010).  ",
+      "doi": "10.1145/2060329.2060339"
+    },
+    {
+      "text": "Kin, K., Miller, T., Bollensdorff, B., DeRose, T., Hartmann, B., and Agrawala, M. Eden: A professional multitouch tool for constructing virtual organic environments. Proc. CHI 2011 (2011), 1343--1352.  ",
+      "doi": "10.1145/1978942.1979141"
+    },
+    {
+      "text": "Lao, S., Heng, X., Zhang, G., Ling, Y., and Wang, P. A gestural interaction design model for multi-touch displays. Proc. British Computer Society Conference on Human-Computer Interaction (2009), 440--446. ",
+      "doi": "10.5555/1671011.1671068"
+    },
+    {
+      "text": "Lu, H., and Li, Y. Gesture Coder: A tool for programming multi-touch gestures by demonstration. Proc. CHI 2012 (2012).  ",
+      "doi": "10.1145/2207676.2208693"
+    },
+    {
+      "text": "Mankoff, J., Hudson, S. E., and Abowd, G. D. Interaction techniques for ambiguity resolution in recognition-based interfaces. Proc. UIST 2000 (2000), 11--20.  ",
+      "doi": "10.1145/354401.354407"
+    },
+    {
+      "text": "Mankoff, J., Hudson, S. E., and Abowd, G. D. Providing integrated toolkit-level support for ambiguity in recognition-based interfaces. Proc. CHI 2000 (2000), 368--375.  ",
+      "doi": "10.1145/332040.332459"
+    },
+    {
+      "text": "MERL. DiamondTouch. http://merl.com/projects/DiamondTouch.",
+      "doi": ""
+    },
+    {
+      "text": "Microsoft. Windows 7. http://www.microsoft.com/en-US/ windows7/products/home.",
+      "doi": ""
+    },
+    {
+      "text": "Myers, B. A. A new model for handling input. ACM Trans. Inf. Syst. 8, 3 (1990), 289--320.  ",
+      "doi": "10.1145/98188.98204"
+    },
+    {
+      "text": "Newman, W. M. A system for interactive graphical programming. Proc. AFIPS 1968 (Spring) (1968), 47--54.  ",
+      "doi": "10.1145/1468075.1468083"
+    },
+    {
+      "text": "NUI Group. Touchlib. http://nuigroup.com/touchlib.",
+      "doi": ""
+    },
+    {
+      "text": "Olsen, D. Building Interactive Systems: Principles for Human-Computer Interaction. Course Technology Press, Boston, MA, United States, 2009, 43--66. ",
+      "doi": "10.5555/1538698"
+    },
+    {
+      "text": "Olsen, Jr., D. R., and Dempsey, E. P. Syngraph: A graphical user interface generator. Proc. SIGGRAPH 1983 (1983), 43--50.  ",
+      "doi": "10.1145/800059.801131"
+    },
+    {
+      "text": "Raskin, J. The Humane Interface. Addison Wesley, 2000.",
+      "doi": ""
+    },
+    {
+      "text": "Scholliers, C., Hoste, L., Signer, B., and De Meuter, W. Midas: a declarative multi-touch interaction framework. Proc. TEI 2011 (2011), 49--56.  ",
+      "doi": "10.1145/1935701.1935712"
+    },
+    {
+      "text": "Schwarz, J., Hudson, S. E., Mankoff, J., and Wilson, A. D. A framework for robust and flexible handling of inputs with uncertainty. Proc. UIST 2010 (2010), 47--56.  ",
+      "doi": "10.1145/1866029.1866039"
+    },
+    {
+      "text": "Shaer, O., and Jacob, R. J. K. A specification paradigm for the design and implementation of tangible user interfaces. TOCHI 16, 4 (2009).  ",
+      "doi": "10.1145/1614390.1614395"
+    },
+    {
+      "text": "Signer, B., Kurmann, U., and Norrie, M. iGesture: A general gesture recognition framework. Proc. ICDAR 2007 (2007), 954--958. ",
+      "doi": "10.5555/1304596.1304930"
+    },
+    {
+      "text": "Sipser, M. Introduction to the Theory of Computation, 1st ed. International Thomson Publishing, 1996, 46,70--76. ",
+      "doi": "10.5555/524279"
+    },
+    {
+      "text": "Siwgart, S. Easily write custom gesture recognizers for your tablet PC applications, November 2005. Microsoft Technical Report.",
+      "doi": ""
+    },
+    {
+      "text": "Sparsh UI. http://code.google.com/p/sparsh-ui.",
+      "doi": ""
+    },
+    {
+      "text": "Thompson, K. Regular expression search algorithm. Communications of the ACM 11, 6 (1968), 419--422.  ",
+      "doi": "10.1145/363347.363387"
+    },
+    {
+      "text": "Wobbrock, J. O., Myers, B. A., and Kembel, J. A. Edgewrite: A stylus-based text entry method designed for high accuracy and stability of motion. Proc. UIST 2003 (2003), 61--70.  ",
+      "doi": "10.1145/964696.964703"
+    },
+    {
+      "text": "Worth, C. D. xstroke. http://pandora.east.isi.edu/xstroke/usenix_2003.",
+      "doi": ""
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "doi": "10.1145/3491102.3517519",
+  "title": "A State-Based Medication Routine Framework",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Forgetfulness is a primary factor of medication nonadherence, a problem that contributes to worse health outcomes and increased mortality among people with chronic conditions. Common strategies to address forgetfulness, such as timed reminders, have limited effectiveness. However, there is limited information about why these strategies fail. To address this gap, we conducted interviews with people who take medications daily and miss doses at least twice a month. We contribute a state-based Medication Routine Framework composed of four states (Wellness, New Task, Erratic, and Disruption) in two axes (regularity and time scale). Because most nonadherence due to forgetfulness occurs in nonroutine states (i.e., Erratic and Disruption state), we argue that improving technology for medication adherence requires designing for these states. In this paper, we describe each state in detail and discuss opportunities for adapting medication reminder strategies to overcome the challenges of nonroutine states.",
+  "authors": [
+    {
+      "name": "Clara Caldeira",
+      "institution": "Luddy School of Informatics, Computing, and Engineering, Indiana University, United States",
+      "img": "/do/10.1145/contrib-99659090822/rel-imgonly/pxl_20210501_215709129.portrait_copy.png",
+      "acmid": "99659090822",
+      "orcid": "missing"
+    },
+    {
+      "name": "Pallabi Bhowmick",
+      "institution": "Luddy School of Informatics, Computing, and Engineering, Indiana University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660233264",
+      "orcid": "missing"
+    },
+    {
+      "name": "Priya Komarlingam",
+      "institution": "Cuemed Inc, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660233886",
+      "orcid": "missing"
+    },
+    {
+      "name": "Katie A. Siek",
+      "institution": "Luddy School of Informatics, Computing, and Engineering, Indiana University, United States",
+      "img": "/do/10.1145/contrib-81311481394/rel-imgonly/dsc_0184-less1mb-1024x683.jpg",
+      "acmid": "81311481394",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Rikke Aarhus and Stinne\u00a0Aal\u00f8kke Ballegaard. 2010. Negotiating boundaries: managing disease at home. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems. 1223\u20131232.",
+      "doi": "10.1145/1753326.1753509"
+    },
+    {
+      "text": "Imran Ahmed, Niall\u00a0Safir Ahmad, Shahnaz Ali, Shair Ali, Anju George, Hiba\u00a0Saleem Danish, Encarl Uppal, James Soo, Mohammad\u00a0H Mobasheri, Dominic King, 2018. Medication adherence apps: review and content analysis. JMIR mHealth and uHealth 6, 3 (2018), e6432.",
+      "doi": ""
+    },
+    {
+      "text": "Murtadha Aldeer, Mehdi Javanmard, and Richard\u00a0P Martin. 2018. A review of medication adherence monitoring technologies. Applied System Innovation 1, 2 (2018), 14.",
+      "doi": ""
+    },
+    {
+      "text": "H Anglada-Martinez, G Riu-Viladoms, M Martin-Conde, M Rovira-Illamola, JM Sotoca-Momblona, and C Codina-Jane. 2015. Does mHealth increase adherence to medication? Results of a systematic review. International journal of clinical practice 69, 1 (2015), 9\u201332.",
+      "doi": ""
+    },
+    {
+      "text": "Daisuke Asai, Jarrod Orszulak, Richard Myrick, Chaiwoo Lee, Joseph\u00a0F Coughlin, and Olivier\u00a0L De\u00a0Weck. 2011. Context-aware reminder system to support medication compliance. In 2011 IEEE international conference on systems, man, and cybernetics. IEEE, 3213\u20133218.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0A Asch, Andrea\u00a0B Troxel, Walter\u00a0F Stewart, Thomas\u00a0D Sequist, James\u00a0B Jones, AnneMarie\u00a0G Hirsch, Karen Hoffer, Jingsan Zhu, Wenli Wang, Amanda Hodlofski, 2015. Effect of financial incentives to physicians, patients, or both on lipid levels: a randomized clinical trial. Jama 314, 18 (2015), 1926\u20131935.",
+      "doi": ""
+    },
+    {
+      "text": "Stephanie Bauler, Sophie Jacquin-Courtois, Julie Haesebaert, Jacques Luaute, Emmanuel Coudeyre, Corinne Feutrier, Benoit Allenet, Evelyne Decullier, Gilles Rode, and Audrey Janoly-Dumenil. 2014. Barriers and facilitators for medication adherence in stroke patients: a qualitative study conducted in French neurological rehabilitation units. European Neurology 72, 5-6 (2014), 262\u2013270.",
+      "doi": ""
+    },
+    {
+      "text": "Kirsten Bobrow, Andrew\u00a0J Farmer, David Springer, Milensu Shanyinde, Ly-Mee Yu, Thomas Brennan, Brian Rayner, Mosedi Namane, Krisela Steyn, Lionel Tarassenko, 2016. Mobile phone text messages to support treatment adherence in adults with high blood pressure (SMS-Text Adherence Support [StAR]) a single-blind, randomized trial. Circulation 133, 6 (2016), 592\u2013600.",
+      "doi": ""
+    },
+    {
+      "text": "Andreas Boker, H\u00a0Jill Feetham, April Armstrong, Patricia Purcell, and Heidi Jacobe. 2012. Do automated text messages increase adherence to acne therapy? Results of a randomized, controlled trial. Journal of the American Academy of Dermatology 67, 6(2012), 1136\u20131142.",
+      "doi": ""
+    },
+    {
+      "text": "Federico Botella, Fernando Borras, and Jose\u00a0Joaquin Mira. 2013. Safer virtual pillbox: assuring medication adherence to elderly patients. In Proceedings of the 3rd ACM MobiHoc workshop on Pervasive wireless healthcare. 37\u201342.",
+      "doi": "10.1145/2491148.2491155"
+    },
+    {
+      "text": "Clara Caldeira, Xinning Gui, Tera\u00a0L Reynolds, Matthew Bietz, and Yunan Chen. 2021. Managing healthcare conflicts when living with multiple chronic conditions. International Journal of Human-Computer Studies 145 (2021), 102494.",
+      "doi": ""
+    },
+    {
+      "text": "Debora\u00a0S Chan, Charles\u00a0W Callahan, Virginia\u00a0B Hatch-Pigott, Annette Lawless, H\u00a0Lorraine Proffitt, Nola\u00a0E Manning, Mary Schweikert, and Francis\u00a0J Malone. 2007. Internet-based home monitoring and education of children with asthma is comparable to ideal office-based care: results of a 1-year asthma in-home monitoring trial. Pediatrics 119, 3 (2007), 569\u2013578.",
+      "doi": ""
+    },
+    {
+      "text": "Margaret\u00a0A Chesney, JR Ickovics, DB Chambers, AL Gifford, J Neidig, B Zwickl, AW Wu, and Patient Care Committee & Adherence Working\u00a0Group of\u00a0the Outcomes Committee of\u00a0the Adult AIDS Clinical Trials Group\u00a0(AACTG). 2000. Self-reported adherence to antiretroviral medications among participants in HIV clinical trials: the AACTG adherence instruments. AIDS care 12, 3 (2000), 255\u2013266.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0H Chung, Barbra\u00a0A Richardson, Kenneth Tapia, Sarah Benki-Nugent, James\u00a0N Kiarie, Jane\u00a0M Simoni, Julie Overbaugh, Mena Attwa, and Grace\u00a0C John-Stewart. 2011. A randomized controlled trial comparing the effects of counseling and alarm device on HAART adherence and virologic outcomes. PLoS medicine 8, 3 (2011), e1000422.",
+      "doi": ""
+    },
+    {
+      "text": "Vicki\u00a0S Conn, Todd\u00a0M Ruppar, Maithe Enriquez, and Pam Cooper. 2016. Medication adherence interventions that target subjects with adherence problems: systematic review and meta-analysis. Research in Social and Administrative Pharmacy 12, 2 (2016), 218\u2013246.",
+      "doi": ""
+    },
+    {
+      "text": "Juliet Corbin and Anselm Strauss. 2008. Basics of qualitative research: Techniques and procedures for developing grounded theory. Sage publications.",
+      "doi": ""
+    },
+    {
+      "text": "El\u00edsio Costa, Anna Giardini, Magda Savin, Enrica Menditto, Elaine Lehane, Olga Laosa, Sergio Pecorelli, Alessandro Monaco, and Alessandra Marengoni. 2015. Interventional tools to improve medication adherence: review of literature. Patient preference and adherence 9 (2015), 1303.",
+      "doi": ""
+    },
+    {
+      "text": "Lea\u00a0Gulstav Dalgaard, Erik Gr\u00f6nvall, and Nervo Verdezoto. 2013. Accounting for medication particularities: Designing for everyday medication management. In 2013 7th International Conference on Pervasive Computing Technologies for Healthcare and Workshops. IEEE, 137\u2013144.",
+      "doi": "10.4108/icst.pervasivehealth.2013.252058"
+    },
+    {
+      "text": "Scott Davidoff, John Zimmerman, and Anind\u00a0K Dey. 2010. How routine learners can support family coordination. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2461\u20132470.",
+      "doi": "10.1145/1753326.1753699"
+    },
+    {
+      "text": "Rodrigo De\u00a0Oliveira. 2010. Exploring persuasive techniques for medication compliance. In International Workshop on Interactive Systems in Healthcare. 133.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen\u00a0F Derose, Kelley Green, Elizabeth Marrett, Kaan Tunceli, T\u00a0Craig Cheetham, Vicki\u00a0Y Chiu, Teresa\u00a0N Harrison, Kristi Reynolds, Southida\u00a0S Vansomphone, and Ronald\u00a0D Scott. 2013. Automated outreach to increase primary adherence to cholesterol-lowering medications. JAMA internal medicine 173, 1 (2013), 38\u201343.",
+      "doi": ""
+    },
+    {
+      "text": "Anandhi\u00a0Vivekanandan Dhukaram and Chris Baber. 2013. Elderly cardiac patients\u2019 medication management: Patient day-to-day needs and review of medication management system. In 2013 IEEE International Conference on Healthcare Informatics. IEEE, 107\u2013114.",
+      "doi": "10.1109/ICHI.2013.20"
+    },
+    {
+      "text": "Jenny\u00a0L Donovan and David\u00a0R Blake. 1992. Patient non-compliance: deviance or reasoned decision-making?Social science & medicine 34, 5 (1992), 507\u2013513.",
+      "doi": ""
+    },
+    {
+      "text": "Julie Doyle, Emma Murphy, Suzanne Smith, Caoimhe Hannigan, Janneke Kuiper, An Jacobs, and John Dinsmore. 2017. Addressing medication management for older people with multimorbidities: a multi-stakeholder approach. In Proceedings of the 11th EAI International Conference on Pervasive Computing Technologies for Healthcare. 78\u201387.",
+      "doi": "10.1145/3154862.3154883"
+    },
+    {
+      "text": "Deborah\u00a0A Ellis, Sylvie Naar-King, Xinguang Chen, Kathleen Moltz, Phillippe\u00a0B Cunningham, and April Idalski-Carcone. 2012. Multisystemic therapy compared to telephone support for youth with poorly controlled diabetes: Findings from a randomized controlled trial. Annals of Behavioral Medicine 44, 2 (2012), 207\u2013215.",
+      "doi": ""
+    },
+    {
+      "text": "Rebecca J\u00a0Bartlett Ellis, Aaron Ganci, Katharine\u00a0J Head, and Susan Ofner. 2018. Characteristics of Adults Managing Vitamins/Supplements and Prescribed Medications\u2013Who Is Using, Not Using, and Abandoning Use of Pillboxes?: A Descriptive Study. Clinical Nurse Specialist 32, 5 (2018), 231\u2013239.",
+      "doi": ""
+    },
+    {
+      "text": "Saeed Farooq, Zahid Nazar, Muhammad Irfan, Javed Akhter, Ejaz Gul, Uma Irfan, and Farooq Naeem. 2011. Schizophrenia medication adherence in a resource-poor setting: randomised controlled trial of supervised treatment in out-patients for schizophrenia (STOPS). The British Journal of Psychiatry 199, 6 (2011), 467\u2013472.",
+      "doi": ""
+    },
+    {
+      "text": "Mayara\u00a0Costa Figueiredo, Yunan Chen, 2020. Patient-Generated Health Data: Dimensions, Challenges, and Open Questions.Found. Trends Hum. Comput. Interact. 13, 3 (2020), 165\u2013297.",
+      "doi": "10.1561/1100000080"
+    },
+    {
+      "text": "Walid\u00a0F Gellad, Carolyn\u00a0T Thorpe, John\u00a0F Steiner, and Corrine\u00a0I Voils. 2017. The myths of medication adherence. Pharmacoepidemiology and drug safety 26, 12 (2017), 1437\u20131441.",
+      "doi": ""
+    },
+    {
+      "text": "TA Gray, C Fenerty, R Harper, AF Spencer, M Campbell, DB Henson, and Heather Waterman. 2012. Individualised patient care as an adjunct to standard care for promoting adherence to ocular hypotensive therapy: an exploratory randomised controlled trial. Eye 26, 3 (2012), 407\u2013417.",
+      "doi": ""
+    },
+    {
+      "text": "Kelly\u00a0Anne Grindrod, Melissa Li, and Allison Gates. 2014. Evaluating user perceptions of mobile medication management applications with older adults: a usability study. JMIR mHealth and uHealth 2, 1 (2014), e3048.",
+      "doi": ""
+    },
+    {
+      "text": "Philipp Harbig, Ishay Barat, and Else\u00a0M Damsgaard. 2012. Suitability of an electronic reminder device for measuring drug adherence in elderly patients with complex medication. Journal of telemedicine and telecare 18, 6 (2012), 352\u2013356.",
+      "doi": ""
+    },
+    {
+      "text": "Leah\u00a0M Haverhals, Courtney\u00a0A Lee, Katie\u00a0A Siek, Carol\u00a0A Darr, Sunny\u00a0A Linnebur, J\u00a0Mark Ruscin, and Stephen\u00a0E Ross. 2011. Older adults with multi-morbidity: medication management processes and design implications for personal health applications. Journal of medical Internet research 13, 2 (2011), e44.",
+      "doi": ""
+    },
+    {
+      "text": "Tamara.\u00a0L. Hayes, John\u00a0M. Hunt, Andre Adami, and Jeffrey\u00a0A. Kaye. 2006. An Electronic Pillbox for Continuous Monitoring of Medication Adherence. In 2006 International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE, 6400\u20136403. https://doi.org/10.1109/IEMBS.2006.260367",
+      "doi": ""
+    },
+    {
+      "text": "Ulla Hedegaard, Lene\u00a0Juel Kjeldsen, Anton Potteg\u00e5rd, Jan\u00a0Erik Henriksen, Jess Lambrechtsen, J\u00f8rgen Hangaard, and Jesper Hallas. 2015. Improving medication adherence in patients with hypertension: a randomized trial. The American journal of medicine 128, 12 (2015), 1351\u20131361.",
+      "doi": ""
+    },
+    {
+      "text": "Rob Horne, John Weinman, Nick Barber, Rachel Elliott, Myfanwy Morgan, A Cribb, and I Kellar. 2005. Concordance, adherence and compliance in medicine taking. London: NCCSDO 2005(2005), 40\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Beena Jimmy and Jimmy Jose. 2011. Patient medication adherence: measures in daily practice. Oman medical journal 26, 3 (2011), 155.",
+      "doi": ""
+    },
+    {
+      "text": "Pallavi Kaushik, Stephen\u00a0S Intille, and Kent Larson. 2008. Observations from a case study on user adaptive reminders for medication adherence. In 2008 Second International Conference on Pervasive Computing Technologies for Healthcare. IEEE, 250\u2013253.",
+      "doi": ""
+    },
+    {
+      "text": "Fred Kleinsinger. 2018. The unmet challenge of medication nonadherence. The Permanente Journal 22 (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Ellen\u00a0S Koster, Daphne Philbert, Tjalling\u00a0W de Vries, Liset van Dijk, and Marcel\u00a0L Bouvy. 2015. \u201cI just forget to take it\u201d: asthma self-management needs and preferences in adolescents. Journal of Asthma 52, 8 (2015), 831\u2013837.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0S Laffer and Steven\u00a0R Feldman. 2014. Improving medication adherence through technology: analyzing the managing meds video challenge. Skin Research and Technology 20, 1 (2014), 62\u201366.",
+      "doi": ""
+    },
+    {
+      "text": "Wai\u00a0Yin Lam and Paula Fresco. 2015. Medication adherence measures: an overview. BioMed research international 2015 (2015).",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0L Lee and Anind\u00a0K Dey. 2011. Reflecting on pills and phone use: supporting awareness of functional abilities for older adults. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2095\u20132104.",
+      "doi": "10.1145/1978942.1979247"
+    },
+    {
+      "text": "Matthew\u00a0L Lee and Anind\u00a0K Dey. 2015. Sensor-based observations of daily living for aging in place. Personal and Ubiquitous Computing 19, 1 (2015), 27\u201343.",
+      "doi": "10.1007/s00779-014-0810-3"
+    },
+    {
+      "text": "Caitlin Liddelow, Barbara Mullan, Mark Boyes, and Hannah McBride. 2020. A Qualitative Application of Temporal Self-Regulation Theory to Understand Adherence to Simple and Complex Medication Regimens. In Healthcare, Vol.\u00a08. Multidisciplinary Digital Publishing Institute, 487.",
+      "doi": ""
+    },
+    {
+      "text": "Alessandra Marengoni, Alessandro Monaco, Elisio Costa, Antonio Cherubini, Alexandra Prados-Torres, Christiane Muth, Ren\u00e8\u00a0JF Melis, Luca Pasina, Tischa\u00a0JM van\u00a0der Cammen, Katie Palmer, 2016. Strategies to improve medication adherence in older persons: consensus statement from the Senior Italia Federanziani Advisory Board. Drugs & aging 33, 9 (2016), 629\u2013637.",
+      "doi": ""
+    },
+    {
+      "text": "Crescent\u00a0B Martin, Craig\u00a0M Hales, Qiuping Gu, and Cynthia\u00a0L Ogden. 2019. Prescription drug use in the United States, 2015\u20132016. (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Marilyn\u00a0Rose McGee-Lennon, Maria\u00a0Klara Wolters, and Stephen Brewster. 2011. User-centred multimodal reminders for assistive living. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2105\u20132114.",
+      "doi": "10.1145/1978942.1979248"
+    },
+    {
+      "text": "Helena\u00a0M Mentis, Anita Komlodi, Katrina Schrader, Michael Phipps, Ann Gruber-Baldini, Karen Yarbrough, and Lisa Shulman. 2017. Crafting a view of self-tracking data in the clinical visit. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 5800\u20135812.",
+      "doi": "10.1145/3025453.3025589"
+    },
+    {
+      "text": "Robby Nieuwlaat, Nancy Wilczynski, Tamara Navarro, Nicholas Hobson, Rebecca Jeffery, Arun Keepanasseril, Thomas Agoritsas, Niraj Mistry, Alfonso Iorio, Susan Jack, 2014. Interventions for enhancing medication adherence. Cochrane database of systematic reviews11 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Francisco Nunes and Geraldine Fitzpatrick. 2018. Understanding the mundane nature of self-care: Ethnographic accounts of people living with Parkinson\u2019s. In proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3173574.3173976"
+    },
+    {
+      "text": "Francisco Nunes, Nervo Verdezoto, Geraldine Fitzpatrick, Morten Kyng, Erik Gr\u00f6nvall, and Cristiano Storni. 2015. Self-care technologies in HCI: Trends, tensions, and opportunities. ACM Transactions on Computer-Human Interaction (TOCHI) 22, 6(2015), 1\u201345.",
+      "doi": "10.1145/2803173"
+    },
+    {
+      "text": "Aisling\u00a0Ann O\u2019Kane, Yvonne Rogers, and Ann\u00a0E Blandford. 2014. Gaining empathy for non-routine mobile device use through autoethnography. In Proceedings of the SIGCHI Conference on Human factors in Computing Systems. 987\u2013990.",
+      "doi": "10.1145/2556288.2557179"
+    },
+    {
+      "text": "World\u00a0Health Organization 2003. Adherence to long-term therapies: evidence for action. World Health Organization.",
+      "doi": ""
+    },
+    {
+      "text": "Lars Osterberg and Terrence Blaschke. 2005. Adherence to medication. New England journal of medicine 353, 5 (2005), 487\u2013497.",
+      "doi": ""
+    },
+    {
+      "text": "Ana Palacio, Desiree Garay, Benjamin Langer, Janielle Taylor, Barbara\u00a0A Wood, and Leonardo Tamariz. 2016. Motivational interviewing improves medication adherence: a systematic review and meta-analysis. Journal of general internal medicine 31, 8 (2016), 929\u2013940.",
+      "doi": ""
+    },
+    {
+      "text": "Leysia Palen and Stinne Aal\u00f8kke. 2006. Of pill boxes and piano benches: \u201d home-made\u201d methods for managing medication. In Proceedings of the 2006 20th anniversary conference on Computer supported cooperative work. 79\u201388.",
+      "doi": "10.1145/1180875.1180888"
+    },
+    {
+      "text": "Leysia Palen and Stinne Aal\u00f8kke. 2006. Of Pill Boxes and Piano Benches: \u201dHome-Made\u201d Methods for Managing Medication(CSCW \u201906). Association for Computing Machinery, New York, NY, USA, 79\u201388. https://doi.org/10.1145/1180875.1180888",
+      "doi": ""
+    },
+    {
+      "text": "Denise\u00a0C Park and Daniel\u00a0P Kidder. 1996. Prospective memory and medication adherence. Prospective memory: Theory and applications(1996), 369\u2013390.",
+      "doi": ""
+    },
+    {
+      "text": "Linda\u00a0G Park, Jill Howie-Esquivel, Misook\u00a0L Chung, and Kathleen Dracup. 2014. A text messaging intervention to promote medication adherence for patients with coronary heart disease: a randomized controlled trial. Patient education and counseling 94, 2 (2014), 261\u2013268.",
+      "doi": ""
+    },
+    {
+      "text": "Eduardo Sabat\u00e9, Eduardo Sabat\u00e9, 2003. Adherence to long-term therapies: evidence for action. World Health Organization.",
+      "doi": ""
+    },
+    {
+      "text": "Karla Santo, Sarah\u00a0S Richtering, John Chalmers, Aravinda Thiagalingam, Clara\u00a0K Chow, and Julie Redfern. 2016. Mobile phone apps to improve medication adherence: a systematic stepwise process to identify high-quality apps. JMIR mHealth and uHealth 4, 4 (2016), e6742.",
+      "doi": ""
+    },
+    {
+      "text": "Katie\u00a0A Siek, Danish\u00a0U Khan, Stephen\u00a0E Ross, Leah\u00a0M Haverhals, Jane Meyers, and Steven\u00a0R Cali. 2011. Designing a personal health application for older adults to manage medications: a comprehensive case study. Journal of medical systems 35, 5 (2011), 1099\u20131121.",
+      "doi": "10.1007/s10916-011-9719-9"
+    },
+    {
+      "text": "Katie\u00a0A Siek, Stephen\u00a0E Ross, Danish\u00a0U Khan, Leah\u00a0M Haverhals, Steven\u00a0R Cali, and Jane Meyers. 2010. Colorado Care Tablet: the design of an interoperable Personal Health Application to help older adults with multimorbidity manage their medications. Journal of biomedical informatics 43, 5 (2010), S22\u2013S26.",
+      "doi": "10.1016/j.jbi.2010.05.007"
+    },
+    {
+      "text": "Juan\u00a0M Silva, Alain Mouttham, and Abdulmotaleb El\u00a0Saddik. 2009. UbiMeds: a mobile application to improve accessibility and support medication adherence. In Proceedings of the 1st ACM SIGMM international workshop on Media studies and implementations that help improving access to disabled users. 71\u201378.",
+      "doi": "10.1145/1631097.1631109"
+    },
+    {
+      "text": "Jason\u00a0M Slagle, Jeffry\u00a0S Gordon, Christopher\u00a0E Harris, Coda\u00a0L Davison, DeMoyne\u00a0K Culpepper, Patti Scott, and Kevin\u00a0B Johnson. 2010. MyMediHealth\u2013designing a next generation system for child-centered medication management. Journal of biomedical informatics 43, 5 (2010), S27\u2013S31.",
+      "doi": "10.1016/j.jbi.2010.06.006"
+    },
+    {
+      "text": "Daniel\u00a0H Solomon, Maura\u00a0D Iversen, Jerry Avorn, Timothy Gleeson, M\u00a0Alan Brookhart, Amanda\u00a0R Patrick, Laura Rekedal, William\u00a0H Shrank, Joyce Lii, Elena Losina, 2012. Osteoporosis telephonic intervention to improve medication regimen adherence: a large, pragmatic, randomized controlled trial. Archives of internal medicine 172, 6 (2012), 477\u2013483.",
+      "doi": ""
+    },
+    {
+      "text": "Katarzyna Stawarz, Anna\u00a0L Cox, and Ann Blandford. 2014. Don\u2019t forget your pill! Designing effective medication reminder apps that support users\u2019 daily routines. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2269\u20132278.",
+      "doi": "10.1145/2556288.2557079"
+    },
+    {
+      "text": "Katarzyna Stawarz, Anna\u00a0L Cox, and Ann Blandford. 2015. Beyond self-tracking and reminders: designing smartphone apps that support habit formation. In Proceedings of the 33rd annual ACM conference on human factors in computing systems. 2653\u20132662.",
+      "doi": "10.1145/2702123.2702230"
+    },
+    {
+      "text": "Katarzyna Stawarz, Benjamin Gardner, Anna Cox, and Ann Blandford. 2020. What influences the selection of contextual cues when starting a new routine behaviour? An exploratory study. BMC psychology 8, 1 (2020), 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Katarzyna Stawarz, Marcela\u00a0D Rodr\u00edguez, Anna\u00a0L Cox, and Ann Blandford. 2016. Understanding the use of contextual cues: design implications for medication adherence technologies that support remembering. Digital health 2(2016), 2055207616678707.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth Stowell, Mercedes\u00a0C Lyson, Herman Saksono, Rene\u00e9\u00a0C Wurth, Holly Jimison, Misha Pavel, and Andrea\u00a0G Parker. 2018. Designing and evaluating mHealth interventions for vulnerable populations: A systematic review. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3173574.3173589"
+    },
+    {
+      "text": "Lei Tang, Xingshe Zhou, Zhiwen Yu, Yunji Liang, Daqing Zhang, and Hongbo Ni. 2011. MHS: A multimedia system for improving medication adherence in elderly care. IEEE Systems Journal 5, 4 (2011), 506\u2013517.",
+      "doi": ""
+    },
+    {
+      "text": "Jay Thakkar, Rahul Kurup, Tracey-Lea Laba, Karla Santo, Aravinda Thiagalingam, Anthony Rodgers, Mark Woodward, Julie Redfern, and Clara\u00a0K Chow. 2016. Mobile telephone text messaging for medication adherence in chronic disease: a meta-analysis. JAMA internal medicine 176, 3 (2016), 340\u2013349.",
+      "doi": ""
+    },
+    {
+      "text": "Yin-Leng Theng, Owen Noel\u00a0Newton Fernando, Chamika Deshan, Lynette Ying\u00a0Qin Goh, Jeffrey Hong, Ajanta Sen, Ravi Poovaiah, and Schubert Fou Shou\u00a0Boon. 2013. CuePBox: an integrated physical and virtual pillbox for patient care. In CHI\u201913 Extended Abstracts on Human Factors in Computing Systems. 433\u2013438.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Tobias. 2009. Changing behavior by memory aids: A social psychological model of prospective memory and habit development tested with dynamic field data.Psychological review 116, 2 (2009), 408.",
+      "doi": ""
+    },
+    {
+      "text": "June Tordoff, Kirsten Simonsen, W\u00a0Murray Thomson, and Pauline\u00a0T Norris. 2010. \u201cIt\u2019s just routine.\u201d A qualitative study of medicine-taking amongst older people in New Zealand. Pharmacy world & science 32, 2 (2010), 154\u2013161.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0J Unni and Karen\u00a0B Farris. 2011. Unintentional non-adherence and belief in medicines in older adults. Patient education and counseling 83, 2 (2011), 265\u2013268.",
+      "doi": ""
+    },
+    {
+      "text": "Victor Van\u00a0der Meer, Moira\u00a0J Bakker, Wilbert\u00a0B van\u00a0den Hout, Klaus\u00a0F Rabe, Peter\u00a0J Sterk, Job Kievit, Willem\u00a0JJ Assendelft, and Jacob\u00a0K Sont. 2009. Internet-based self-management plus education compared with usual care in asthma: a randomized trial. Annals of Internal Medicine 151, 2 (2009), 110\u2013120.",
+      "doi": ""
+    },
+    {
+      "text": "Annemarie\u00a0R Varming, Lone\u00a0Banke Rasmussen, Gitte\u00a0Reventlov Husted, Kasper Olesen, Cecilia Gr\u00f8nnegaard, and Ingrid Willaing. 2019. Improving empowerment, motivation, and medical adherence in patients with poorly controlled type 2 diabetes: A randomized controlled trial of a patient-centered intervention. Patient education and counseling 102, 12 (2019), 2238\u20132245.",
+      "doi": ""
+    },
+    {
+      "text": "Marcia Vervloet, Annemiek\u00a0J Linn, Julia\u00a0CM van Weert, Dinny\u00a0H De\u00a0Bakker, Marcel\u00a0L Bouvy, and Liset Van\u00a0Dijk. 2012. The effectiveness of interventions using electronic reminders to improve adherence to chronic medication: a systematic review of the literature. Journal of the American Medical Informatics Association 19, 5(2012), 696\u2013704.",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra Voit, Dominik Weber, Elizabeth Stowell, and Niels Henze. 2017. Caloo: an ambient pervasive smart calendar to support aging in place. In Proceedings of the 16th International Conference on Mobile and Ubiquitous Multimedia. 25\u201330.",
+      "doi": "10.1145/3152832.3152847"
+    },
+    {
+      "text": "William\u00a0M Vollmer, Adrianne Feldstein, David Smith, Joan Dubanoski, Amy Waterbury, Jennifer Schneider, Shelley Clark, and Cynthia Rand. 2011. Use of health information technology to improve medication adherence. The American journal of managed care 17, 12 0 0 (2011), SP79.",
+      "doi": ""
+    },
+    {
+      "text": "Kevin\u00a0G Volpp, Andrea\u00a0B Troxel, Judith Long, Said Ibrahim, Dina Appleby, J\u00a0Otis Smith, Jalpa Doshi, Jane Jaskowiak, Marie Helweg-Larsen, and Stephen\u00a0E Kimmel. 2015. A Randomized Controlled Trial of Negative Copayments: The CHORD Trial. The American journal of managed care 21, 8 (2015), e465.",
+      "doi": ""
+    },
+    {
+      "text": "Dadong Wan. 1999. Magic medicine cabinet: A situated portal for consumer healthcare. In International symposium on handheld and ubiquitous computing. Springer, 352\u2013355.",
+      "doi": ""
+    },
+    {
+      "text": "Jia-Rong Wu, Debra\u00a0K Moser, Terry\u00a0A Lennie, and Patricia\u00a0V Burkhart. 2008. Medication adherence in patients who have heart failure: a review of the literature. Nursing Clinics of North America 43, 1 (2008), 133\u2013153.",
+      "doi": ""
+    },
+    {
+      "text": "Mitra Zolfaghari, Seyedeh\u00a0A Mousavifar, Shadan Pedram, and Hamid Haghani. 2012. The impact of nurse short message services and telephone follow-ups on diabetic adherence: which one is more effective?Journal of clinical nursing 21, 13-14 (2012), 1922\u20131931.",
+      "doi": ""
+    },
+    {
+      "text": "Hanneke\u00a0E Zwikker, Cornelia\u00a0H van\u00a0den Ende, Wim\u00a0G van Lankveld, Alfons\u00a0A den Broeder, Frank\u00a0H van\u00a0den Hoogen, Birgit van\u00a0de Mosselaar, Sandra van Dulmen, and Bart\u00a0J van\u00a0den Bemt. 2014. Effectiveness of a group-based intervention to change medication beliefs and improve medication adherence in patients with rheumatoid arthritis: a randomized controlled trial. Patient Education and Counseling 94, 3 (2014), 356\u2013361.",
+      "doi": ""
+    }
+  ]
+}

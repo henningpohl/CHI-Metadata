@@ -1,0 +1,214 @@
+{
+  "doi": "10.1145/3544548.3581264",
+  "title": "AO-Finger: Hands-free Fine-grained Finger Gesture Recognition via Acoustic-Optic Sensor Fusing",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Finger gesture recognition is gaining great research interest for wearable device interactions such as smartwatches and AR/VR headsets. In this paper, we propose a hands-free fine-grained finger gesture recognition system AO-Finger based on acoustic-optic sensor fusing. Specifically, we design a wristband with a modified stethoscope microphone and two high-speed optic motion sensors to capture signals generated from finger movements. We propose a set of natural, inconspicuous and effortless micro finger gestures that can be reliably detected from the complementary signals from both sensors. We design a multi-modal CNN-Transformer model for fast gesture recognition (flick/pinch/tap), and a finger swipe contact detection model to enable fine-grained swipe gesture tracking. We built a prototype which achieves an overall accuracy of 94.83% in detecting fast gestures and enables fine-grained continuous swipe gestures tracking. AO-Finger is practical for use as a wearable device and ready to be integrated into existing wrist-worn devices such as smartwatches.",
+  "authors": [
+    {
+      "name": "Chenhan Xu",
+      "institution": "Snap Research, United States and CSE, University at Buffalo, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659439637",
+      "orcid": "0000-0002-1395-4570"
+    },
+    {
+      "name": "Bing Zhou",
+      "institution": "Snap Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660781534",
+      "orcid": "0000-0002-0838-7858"
+    },
+    {
+      "name": "Gurunandan Krishnan",
+      "institution": "Snap Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779675",
+      "orcid": "0000-0002-1533-2169"
+    },
+    {
+      "name": "Shree Nayar",
+      "institution": "Snap Inc., United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100052215",
+      "orcid": "0000-0002-6452-6998"
+    }
+  ],
+  "references": [
+    {
+      "text": "Hiroshi Akima. 1970. A new method of interpolation and smooth curve fitting based on local procedures. Journal of the ACM (JACM) 17, 4 (1970), 589\u2013602.",
+      "doi": "10.1145/321607.321609"
+    },
+    {
+      "text": "John Brooke 1996. SUS-A quick and dirty usability scale. Usability evaluation in industry 189, 194 (1996), 4\u20137.",
+      "doi": ""
+    },
+    {
+      "text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. 2020. End-to-End Object Detection with Transformers. In Computer Vision \u2013 ECCV 2020, Andrea Vedaldi, Horst Bischof, Thomas Brox, and Jan-Michael Frahm (Eds.). Springer International Publishing, Cham, 213\u2013229.",
+      "doi": "10.1007/978-3-030-58452-8_13"
+    },
+    {
+      "text": "Edwin Chan, Teddy Seyed, Wolfgang Stuerzlinger, Xing-Dong Yang, and Frank Maurer. 2016. User Elicitation on Single-Hand Microgestures. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 3403\u20133414. https://doi.org/10.1145/2858036.2858589",
+      "doi": "10.1145/2858036.2858589"
+    },
+    {
+      "text": "Liwei Chan, Rong-Hao Liang, Ming-Chang Tsai, Kai-Yin Cheng, Chao-Huai Su, Mike\u00a0Y. Chen, Wen-Huang Cheng, and Bing-Yu Chen. 2013. FingerPad: Private and Subtle Interaction Using Fingertips. In Proceedings of the 26th Annual ACM Symposium on User Interface Software and Technology (St. Andrews, Scotland, United Kingdom) (UIST \u201913). Association for Computing Machinery, New York, NY, USA, 255\u2013260. https://doi.org/10.1145/2501988.2502016",
+      "doi": "10.1145/2501988.2502016"
+    },
+    {
+      "text": "J.\u00a0Guillermo Colli-Alfaro, Anas Ibrahim, and Ana\u00a0Luisa Trejos. 2019. Design of User-Independent Hand Gesture Recognition Using Multilayer Perceptron Networks and Sensor Fusion Techniques. In 2019 IEEE 16th International Conference on Rehabilitation Robotics (ICORR). IEEE, New York, NY, USA, 1103\u20131108. https://doi.org/10.1109/ICORR.2019.8779533",
+      "doi": "10.1109/ICORR.2019.8779533"
+    },
+    {
+      "text": "Artem Dementyev and Joseph\u00a0A. Paradiso. 2014. WristFlex: Low-Power Gesture Input with Wrist-Worn Pressure Sensors. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (Honolulu, Hawaii, USA) (UIST \u201914). Association for Computing Machinery, New York, NY, USA, 161\u2013166. https://doi.org/10.1145/2642918.2647396",
+      "doi": "10.1145/2642918.2647396"
+    },
+    {
+      "text": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, 2020. An image is worth 16x16 words: Transformers for image recognition at scale. arXiv preprint arXiv:2010.11929(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Sarthak Ghosh, Hyeong\u00a0Cheol Kim, Yang Cao, Arne Wessels, Simon\u00a0T. Perrault, and Shengdong Zhao. 2016. Ringteraction: Coordinated Thumb-Index Interaction Using a Ring. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (San Jose, California, USA) (CHI EA \u201916). Association for Computing Machinery, New York, NY, USA, 2640\u20132647. https://doi.org/10.1145/2851581.2892371",
+      "doi": "10.1145/2851581.2892371"
+    },
+    {
+      "text": "Google. 2022. Tech Specs \u2013 Glass. https://www.google.com/glass/tech-specs/",
+      "doi": ""
+    },
+    {
+      "text": "Mahfoud Hamidia, Nadia Zenati, Hayet Belghit, Kamila Guetiteni, and Nouara Achour. 2015. Voice interaction using Gaussian mixture models for augmented reality applications. In 2015 4th International Conference on Electrical Engineering (ICEE). IEEE, IEEE, New York, NY, USA, 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "Teng Han, Khalad Hasan, Keisuke Nakamura, Randy Gomez, and Pourang Irani. 2017. Soundcraft: Enabling spatial interactions on smartwatches using hand generated acoustics. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology. Association for Computing Machinery, New York, NY, USA, 579\u2013591.",
+      "doi": "10.1145/3126594.3126612"
+    },
+    {
+      "text": "Fang Hu, Peng He, Songlin Xu, Yin Li, and Cheng Zhang. 2020. FingerTrak: Continuous 3D Hand Pose Tracking by Deep Learning Hand Silhouettes Captured by Miniature Thermal Cameras on Wrist. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 2 (June 2020), 71:1\u201371:24. https://doi.org/10.1145/3397306",
+      "doi": "10.1145/3397306"
+    },
+    {
+      "text": "Youjia Huang, Xingchen Yang, Yuefeng Li, Dalin Zhou, Keshi He, and Honghai Liu. 2017. Ultrasound-based sensing models for finger motion classification. IEEE journal of biomedical and health informatics 22, 5(2017), 1395\u20131405.",
+      "doi": ""
+    },
+    {
+      "text": "Yasha Iravantchi, Mayank Goel, and Chris Harrison. 2019. BeamBand: Hand gesture sensing with ultrasonic beamforming. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201310.",
+      "doi": "10.1145/3290605.3300245"
+    },
+    {
+      "text": "Jonghwa Kim, Stephan Mastnik, and Elisabeth Andr\u00e9. 2008. EMG-Based Hand Gesture Recognition for Realtime Biosignal Interfacing. In Proceedings of the 13th International Conference on Intelligent User Interfaces (Gran Canaria, Spain) (IUI \u201908). Association for Computing Machinery, New York, NY, USA, 30\u201339. https://doi.org/10.1145/1378773.1378778",
+      "doi": "10.1145/1378773.1378778"
+    },
+    {
+      "text": "Hyunchul Lim, Jungmin Chung, Changhoon Oh, SoHyun Park, Joonhwan Lee, and Bongwon Suh. 2018. Touch+Finger: Extending Touch-Based User Interface Capabilities with \"Idle\" Finger Gestures in the Air. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (Berlin, Germany) (UIST \u201918). Association for Computing Machinery, New York, NY, USA, 335\u2013346. https://doi.org/10.1145/3242587.3242651",
+      "doi": "10.1145/3242587.3242651"
+    },
+    {
+      "text": "Iv\u00e1n Markman. 2021. The Future of XR in A Post-Pandemic World. Forbes. Retrieved Sept 06, 2022 from https://www.forbes.com/sites/verizon-media/2021/06/15/the-future-of-xr-in-a-post-pandemic-world/?sh=4628758923f4",
+      "doi": ""
+    },
+    {
+      "text": "Brian McFee, Colin Raffel, Dawen Liang, Daniel\u00a0P Ellis, Matt McVicar, Eric Battenberg, and Oriol Nieto. 2015. librosa: Audio and music signal analysis in python. In Proceedings of the 14th python in science conference, Vol.\u00a08. Scipy, IEEE, Austin, TX, USA, 18\u201325.",
+      "doi": ""
+    },
+    {
+      "text": "Jess McIntosh, Asier Marzo, and Mike Fraser. 2017. Sensir: Detecting hand gestures with a wearable bracelet using infrared transmission and reflection. In Proceedings of the 30th annual ACM symposium on user interface software and technology. Association for Computing Machinery, New York, NY, USA, 593\u2013597.",
+      "doi": "10.1145/3126594.3126604"
+    },
+    {
+      "text": "Jess McIntosh, Asier Marzo, Mike Fraser, and Carol Phillips. 2017. Echoflex: Hand gesture recognition using ultrasound imaging. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1923\u20131934.",
+      "doi": "10.1145/3025453.3025807"
+    },
+    {
+      "text": "Meta. 2022. Meta Quest 2 Accessories | Meta Quest. https://store.facebook.com/quest/products/quest-2",
+      "doi": ""
+    },
+    {
+      "text": "NASA. 2022. NASA TLX Task Load Index. https://humansystems.arc.nasa.gov/groups/tlx/",
+      "doi": ""
+    },
+    {
+      "text": "OMNIVISION. 2022. OMNIVISION introduces 1/4-inch, 5-megapixel raw sensor for high-performance mobile applications. https://www.ovt.com/press-releases/omnivision-introduces-1-4-inch-5-megapixel-raw-sensor-for-high-performance-mobile-applications/",
+      "doi": ""
+    },
+    {
+      "text": "Alexander Plopski, Teresa Hirzle, Nahal Norouzi, Long Qian, Gerd Bruder, and Tobias Langlotz. 2022. The Eye in Extended Reality: A Survey on Gaze Interaction and Eye Tracking in Head-Worn Extended Reality. ACM Comput. Surv. 55, 3, Article 53 (mar 2022), 39\u00a0pages. https://doi.org/10.1145/3491207",
+      "doi": "10.1145/3491207"
+    },
+    {
+      "text": "T.\u00a0Scott Saponas, Desney\u00a0S. Tan, Dan Morris, Ravin Balakrishnan, Jim Turner, and James\u00a0A. Landay. 2009. Enabling Always-Available Input with Muscle-Computer Interfaces. In Proceedings of the 22nd Annual ACM Symposium on User Interface Software and Technology(Victoria, BC, Canada) (UIST \u201909). Association for Computing Machinery, New York, NY, USA, 167\u2013176. https://doi.org/10.1145/1622176.1622208",
+      "doi": "10.1145/1622176.1622208"
+    },
+    {
+      "text": "William\u00a0J Shelstad, Dustin\u00a0C Smith, and Barbara\u00a0S Chaparro. 2017. Gaming on the rift: How virtual reality affects game user satisfaction. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting, Vol.\u00a061. SAGE Publications Sage CA: Los Angeles, CA, 2072\u20132076.",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0B Shull, Shuo Jiang, Yuhui Zhu, and Xiangyang Zhu. 2019. Hand gesture recognition and finger angle estimation via wrist-worn modified barometric pressure sensing. IEEE Transactions on Neural Systems and Rehabilitation Engineering 27, 4(2019), 724\u2013732.",
+      "doi": ""
+    },
+    {
+      "text": "Yuta Sugiura, Fumihiko Nakamura, Wataru Kawai, Takashi Kikuchi, and Maki Sugimoto. 2017. Behind the palm: Hand gesture recognition through measuring skin deformation on back of hand by using optical sensors. In 2017 56th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE). IEEE, IEEE, New York, NY, USA, 1082\u20131087.",
+      "doi": ""
+    },
+    {
+      "text": "Jan-Philipp Tauscher, Fabian\u00a0Wolf Schottky, Steve Grogorick, Paul\u00a0Maximilian Bittner, Maryam Mustafa, and Marcus Magnor. 2019. Immersive EEG: evaluating electroencephalography in virtual reality. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, IEEE, New York, NY, USA, 1794\u20131800.",
+      "doi": ""
+    },
+    {
+      "text": "Dorin Ungureanu, Federica Bogo, Silvano Galliani, Pooja Sama, Xin Duan, Casey Meekhof, Jan St\u00fchmer, Thomas\u00a0J. Cashman, Bugra Tekin, Johannes\u00a0L. Sch\u00f6nberger, Pawel Olszta, and Marc Pollefeys. 2020. HoloLens 2 Research Mode as a Tool for Computer Vision Research. CoRR abs/2008.11239(2020). arXiv:2008.11239https://arxiv.org/abs/2008.11239",
+      "doi": ""
+    },
+    {
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan\u00a0N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. Advances in neural information processing systems 30 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Peng Wang, Xiaoliang Bai, Mark Billinghurst, Shusheng Zhang, Xiangyu Zhang, Shuxia Wang, Weiping He, Yuxiang Yan, and Hongyu Ji. 2021. AR/MR remote collaboration on physical tasks: A review. Robotics and Computer-Integrated Manufacturing 72 (2021), 102071.",
+      "doi": "10.1016/j.rcim.2020.102071"
+    },
+    {
+      "text": "Hongyi Wen, Julian Ramos\u00a0Rojas, and Anind\u00a0K. Dey. 2016. Serendipity: Finger Gesture Recognition Using an Off-the-Shelf Smartwatch. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 3847\u20133851. https://doi.org/10.1145/2858036.2858466",
+      "doi": "10.1145/2858036.2858466"
+    },
+    {
+      "text": "Stefan Wiedenmaier, Olaf Oehme, Ludger Schmidt, and Holger Luczak. 2003. Augmented reality (AR) for assembly processes design and experimental evaluation. International journal of Human-Computer interaction 16, 3(2003), 497\u2013514.",
+      "doi": ""
+    },
+    {
+      "text": "Erwin Wu, Ye Yuan, Hui-Shyong Yeo, Aaron Quigley, Hideki Koike, and Kris\u00a0M. Kitani. 2020. Back-Hand-Pose: 3D Hand Pose Estimation for a Wrist-worn Camera via Dorsum Deformation Network. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology(UIST \u201920). Association for Computing Machinery, New York, NY, USA, 1147\u20131160. https://doi.org/10.1145/3379337.3415897",
+      "doi": "10.1145/3379337.3415897"
+    },
+    {
+      "text": "Xuhai Xu, Jun Gong, Carolina Brum, Lilian Liang, Bongsoo Suh, Shivam\u00a0Kumar Gupta, Yash Agarwal, Laurence Lindsey, Runchang Kang, Behrooz Shahsavari, Tu Nguyen, Heriberto Nieto, Scott\u00a0E Hudson, Charlie Maalouf, Jax\u00a0Seyed Mousavi, and Gierad Laput. 2022. Enabling Hand Gesture Customization on Wrist-Worn Devices. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 496, 19\u00a0pages. https://doi.org/10.1145/3491102.3501904",
+      "doi": "10.1145/3491102.3501904"
+    },
+    {
+      "text": "Dongseok Yang and Younggeun Choi. 2018. Palm glove: wearable glove based on palm-camera for thumb-to-finger tap recognition. In 2018 International Conference on Information and Communication Technology Convergence (ICTC). IEEE, New York, NY, USA, 549\u2013551. https://doi.org/10.1109/ICTC.2018.8539616 ISSN: 2162-1233.",
+      "doi": ""
+    },
+    {
+      "text": "Hui-Shyong Yeo, Erwin Wu, Juyoung Lee, Aaron Quigley, and Hideki Koike. 2019. Opisthenar: Hand Poses and Finger Tapping Recognition by Observing Back of Hand Using Embedded Wrist Camera. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 963\u2013971. https://doi.org/10.1145/3332165.3347867",
+      "doi": "10.1145/3332165.3347867"
+    },
+    {
+      "text": "Xiaojing Yu, Zhijun Zhou, Mingxue Xu, Xuanke You, and Xiang-Yang Li. 2020. Thumbup: Identification and authentication by smartwatch using simple hand gestures. In 2020 IEEE International Conference on Pervasive Computing and Communications (PerCom). IEEE Computer Society, IEEE, New York, NY, USA, 1\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Cheng Zhang, AbdelKareem Bedri, Gabriel Reyes, Bailey Bercik, Omer\u00a0T. Inan, Thad\u00a0E. Starner, and Gregory\u00a0D. Abowd. 2016. TapSkin: Recognizing On-Skin Input for Smartwatches. In Proceedings of the 2016 ACM International Conference on Interactive Surfaces and Spaces (Niagara Falls, Ontario, Canada) (ISS \u201916). Association for Computing Machinery, New York, NY, USA, 13\u201322. https://doi.org/10.1145/2992154.2992187",
+      "doi": "10.1145/2992154.2992187"
+    },
+    {
+      "text": "Cheng Zhang, Anandghan Waghmare, Pranav Kundra, Yiming Pu, Scott Gilliland, Thomas Ploetz, Thad\u00a0E Starner, Omer\u00a0T Inan, and Gregory\u00a0D Abowd. 2017. FingerSound: Recognizing unistroke thumb gestures using a ring. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 3 (2017), 1\u201319.",
+      "doi": "10.1145/3130985"
+    },
+    {
+      "text": "Bing Zhou, Matias Aiskovich, and Sinem Guven. 2021. Acoustic Sensing-based Hand Gesture Detection for Wearable Device Interaction. arXiv preprint arXiv:2112.05986(2021).",
+      "doi": ""
+    }
+  ]
+}

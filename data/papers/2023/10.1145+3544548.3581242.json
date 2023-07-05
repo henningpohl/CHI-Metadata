@@ -1,0 +1,391 @@
+{
+  "doi": "10.1145/3544548.3581242",
+  "title": "fAIlureNotes: Supporting Designers in Understanding the Limits of AI Models for Computer Vision Tasks",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-19",
+  "year": 2023,
+  "badges": [],
+  "abstract": "To design with AI models, user experience (UX) designers must assess the fit between the model and user needs. Based on user research, they need to contextualize the model\u2019s behavior and potential failures within their product-specific data instances and user scenarios. However, our formative interviews with ten UX professionals revealed that such a proactive discovery of model limitations is challenging and time-intensive. Furthermore, designers often lack technical knowledge of AI and accessible exploration tools, which challenges their understanding of model capabilities and limitations. In this work, we introduced a failure-driven design approach to AI, a workflow that encourages designers to explore model behavior and failure patterns early in the design process. The implementation of fAIlureNotes, a designer-centered failure exploration and analysis tool, supports designers in evaluating models and identifying failures across diverse user groups and scenarios. Our evaluation with UX practitioners shows that fAIlureNotes outperforms today\u2019s interactive model cards in assessing context-specific model performance.",
+  "authors": [
+    {
+      "name": "Steven Moore",
+      "institution": "Technical University Munich (TUM), Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780141",
+      "orcid": "0000-0001-6993-2787"
+    },
+    {
+      "name": "Q. Vera Liao",
+      "institution": "Microsoft Research, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659248963",
+      "orcid": "0000-0003-4543-7196"
+    },
+    {
+      "name": "Hariharan Subramonyam",
+      "institution": "Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658702532",
+      "orcid": "0000-0002-3450-0447"
+    }
+  ],
+  "references": [
+    {
+      "text": "Abubakar Abid, Ali Abdalla, Ali Abid, Dawood Khan, Abdulrahman Alfozan, and James\u00a0Y. Zou. 2019. Gradio: Hassle-Free Sharing and Testing of ML Models in the Wild. CoRR abs/1906.02569(2019). arXiv:1906.02569http://arxiv.org/abs/1906.02569",
+      "doi": ""
+    },
+    {
+      "text": "Naveed Akhtar and Ajmal Mian. 2018. Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey. IEEE Access 6(2018), 14410\u201314430. https://doi.org/10.1109/ACCESS.2018.2807385",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Max Chickering, Steven\u00a0M. Drucker, Bongshin Lee, Patrice Simard, and Jina Suh. 2015. ModelTracker: Redesigning Performance Analysis Tools for Machine Learning. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 337\u2013346. https://doi.org/10.1145/2702123.2702509",
+      "doi": "10.1145/2702123.2702509"
+    },
+    {
+      "text": "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul\u00a0N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, and Eric Horvitz. 2019. Guidelines for Human-AI Interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300233",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "M. Arnold, R.\u00a0K.\u00a0E. Bellamy, M. Hind, S. Houde, S. Mehta, A. Mojsilovi\u0107, R. Nair, K.\u00a0Natesan Ramamurthy, A. Olteanu, D. Piorkowski, D. Reimer, J. Richards, J. Tsay, and K.\u00a0R. Varshney. 2019. FactSheets: Increasing trust in AI services through supplier\u2019s declarations of conformity. IBM Journal of Research and Development 63, 4/5 (2019), 6:1\u20136:13. https://doi.org/10.1147/JRD.2019.2942288",
+      "doi": ""
+    },
+    {
+      "text": "Joshua Attenberg, Panos Ipeirotis, and Foster Provost. 2015. Beat the Machine: Challenging Humans to Find a Predictive Model\u2019s \u201cUnknown Unknowns\u201d. J. Data and Information Quality 6, 1, Article 1 (mar 2015), 17\u00a0pages. https://doi.org/10.1145/2700832",
+      "doi": "10.1145/2700832"
+    },
+    {
+      "text": "Solon Barocas, Anhong Guo, Ece Kamar, Jacquelyn Krones, Meredith\u00a0Ringel Morris, Jennifer\u00a0Wortman Vaughan, W.\u00a0Duncan Wadsworth, and Hanna Wallach. 2021. Designing Disaggregated Evaluations of AI Systems: Choices, Considerations, and Tradeoffs. In Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society (Virtual Event, USA) (AIES \u201921). Association for Computing Machinery, New York, NY, USA, 368\u2013378. https://doi.org/10.1145/3461702.3462610",
+      "doi": "10.1145/3461702.3462610"
+    },
+    {
+      "text": "Alex B\u00e4uerle, \u00c1ngel\u00a0Alexander Cabrera, Fred Hohman, Megan Maher, David Koski, Xavier Suau, Titus Barik, and Dominik Moritz. 2022. Symphony: Composing Interactive Interfaces for Machine Learning. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 210, 14\u00a0pages. https://doi.org/10.1145/3491102.3502102",
+      "doi": "10.1145/3491102.3502102"
+    },
+    {
+      "text": "Andrew Begel, John Tang, Sean Andrist, Michael Barnett, Tony Carbary, Piali Choudhury, Edward Cutrell, Alberto Fung, Sasa Junuzovic, Daniel McDuff, Kael Rowan, Shibashankar Sahoo, Jennifer\u00a0Frances Waldern, Jessica Wolk, Hui Zheng, and Annuska Zolyomi. 2020. Lessons Learned in Designing AI for Autistic Adults. In The 22nd International ACM SIGACCESS Conference on Computers and Accessibility (Virtual Event, Greece) (ASSETS \u201920). Association for Computing Machinery, New York, NY, USA, Article 46, 6\u00a0pages. https://doi.org/10.1145/3373625.3418305",
+      "doi": "10.1145/3373625.3418305"
+    },
+    {
+      "text": "Melanie Birks, Ysanne Chapman, and Karen Francis. 2008. Memoing in qualitative research: Probing data and processes. Journal of Research in Nursing 13, 1 (2008), 68\u201375. https://doi.org/10.1177/1744987107081254 arXiv:https://doi.org/10.1177/1744987107081254",
+      "doi": ""
+    },
+    {
+      "text": "Tom\u00a0B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel\u00a0M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language Models are Few-Shot Learners. CoRR abs/2005.14165(2020). arXiv:2005.14165https://arxiv.org/abs/2005.14165",
+      "doi": ""
+    },
+    {
+      "text": "Jacob\u00a0T. Browne. 2019. Wizard of Oz Prototyping for Machine Learning Experiences. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3290607.3312877",
+      "doi": "10.1145/3290607.3312877"
+    },
+    {
+      "text": "Joy Buolamwini and Timnit Gebru. 2018. Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification. In Proceedings of the 1st Conference on Fairness, Accountability and Transparency(Proceedings of Machine Learning Research, Vol.\u00a081), Sorelle\u00a0A. Friedler and Christo Wilson (Eds.). PMLR, 77\u201391. https://proceedings.mlr.press/v81/buolamwini18a.html",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Buschek, Lukas Mecke, Florian Lehmann, and Hai Dang. 2021. Nine Potential Pitfalls when Designing Human-AI Co-Creative Systems. CoRR abs/2104.00358(2021). arXiv:2104.00358https://arxiv.org/abs/2104.00358",
+      "doi": ""
+    },
+    {
+      "text": "\u00c1ngel\u00a0Alexander Cabrera, Abraham\u00a0J. Druck, Jason\u00a0I. Hong, and Adam Perer. 2021. Discovering and Validating AI Errors With Crowdsourced Failure Reports. Proc. ACM Hum.-Comput. Interact. 5, CSCW2, Article 425 (oct 2021), 22\u00a0pages. https://doi.org/10.1145/3479569",
+      "doi": "10.1145/3479569"
+    },
+    {
+      "text": "\u00c1ngel\u00a0Alexander Cabrera, Marco\u00a0Tulio Ribeiro, Bongshin Lee, Rob DeLine, Adam Perer, and Steven\u00a0M. Drucker. 2022. What Did My AI Learn? How Data Scientists Make Sense of Model Behavior. ACM Trans. Comput.-Hum. Interact. (may 2022). https://doi.org/10.1145/3542921 Just Accepted.",
+      "doi": "10.1145/3542921"
+    },
+    {
+      "text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. 2020. End-to-End Object Detection with Transformers. CoRR abs/2005.12872(2020). arXiv:2005.12872https://arxiv.org/abs/2005.12872",
+      "doi": ""
+    },
+    {
+      "text": "Dylan Cashman, Shenyu Xu, Subhajit Das, Florian Heimerl, Cong Liu, Shah Humayoun, Michael Gleicher, Alex Endert, and Remco Chang. 2020. CAVA: A Visual Analytics System for Exploratory Columnar Data Augmentation Using Knowledge Graphs. IEEE Transactions on Visualization and Computer Graphics PP (10 2020), 1\u20131. https://doi.org/10.1109/TVCG.2020.3030443",
+      "doi": ""
+    },
+    {
+      "text": "Justin Cranshaw, Emad Elwany, Todd Newman, Rafal Kocielnik, Bowen Yu, Sandeep Soni, Jaime Teevan, and Andr\u00e9s Monroy-Hern\u00e1ndez. 2017. Calendar.Help: Designing a Workflow-Based Scheduling Agent with Humans in the Loop. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 2382\u20132393. https://doi.org/10.1145/3025453.3025780",
+      "doi": "10.1145/3025453.3025780"
+    },
+    {
+      "text": "Anamaria Crisan, Margaret Drouhard, Jesse Vig, and Nazneen Rajani. 2022. Interactive Model Cards: A Human-Centered Approach to Model Documentation. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 427\u2013439. https://doi.org/10.1145/3531146.3533108",
+      "doi": "10.1145/3531146.3533108"
+    },
+    {
+      "text": "Norman\u00a0K Denzin and Yvonna\u00a0S Lincoln. 2011. The Sage handbook of qualitative research. sage.",
+      "doi": ""
+    },
+    {
+      "text": "Django. 2005. The web framework for perfectionists with deadlines. https://www.djangoproject.com/",
+      "doi": ""
+    },
+    {
+      "text": "Graham Dove, Kim Halskov, Jodi Forlizzi, and John Zimmerman. 2017. UX Design Innovation: Challenges for Working with Machine Learning as a Design Material. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 278\u2013288. https://doi.org/10.1145/3025453.3025739",
+      "doi": "10.1145/3025453.3025739"
+    },
+    {
+      "text": "Sabri Eyuboglu, Maya Varma, Khaled Saab, Jean-Benoit Delbrouck, Christopher Lee-Messer, Jared Dunnmon, James Zou, and Christopher R\u00e9. 2022. Domino: Discovering Systematic Errors with Cross-Modal Embeddings. https://doi.org/10.48550/ARXIV.2203.14960",
+      "doi": ""
+    },
+    {
+      "text": "Fabric.js. 2010. A powerful and simple Javascript HTML5 canvas library. http://fabricjs.com/",
+      "doi": ""
+    },
+    {
+      "text": "Alvaro Figueira and Bruno Vaz. 2022. Survey on Synthetic Data Generation, Evaluation Methods and GANs. Mathematics 10, 15 (2022). https://doi.org/10.3390/math10152733",
+      "doi": ""
+    },
+    {
+      "text": "Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer\u00a0Wortman Vaughan, Hanna Wallach, Hal\u00a0Daum\u00e9 III, and Kate Crawford. 2021. Datasheets for Datasets. Commun. ACM 64, 12 (nov 2021), 86\u201392. https://doi.org/10.1145/3458723",
+      "doi": "10.1145/3458723"
+    },
+    {
+      "text": "Ross Girshick. 2015. Fast R-CNN. In Proceedings of the 2015 IEEE International Conference on Computer Vision (ICCV)(ICCV \u201915). IEEE Computer Society, USA, 1440\u20131448. https://doi.org/10.1109/ICCV.2015.169",
+      "doi": "10.1109/ICCV.2015.169"
+    },
+    {
+      "text": "Ross\u00a0B. Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik. 2013. Rich feature hierarchies for accurate object detection and semantic segmentation. CoRR abs/1311.2524(2013). arXiv:1311.2524http://arxiv.org/abs/1311.2524",
+      "doi": ""
+    },
+    {
+      "text": "Ian\u00a0J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. 2014. Generative Adversarial Networks. https://doi.org/10.48550/ARXIV.1406.2661",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2019. IBM Design for AI: Conversation planning. https://www.ibm.com/design/ai/conversation",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2019. People + AI Guidebook. https://pair.withgoogle.com/",
+      "doi": ""
+    },
+    {
+      "text": "Thilo Hagendorff. 2020. The Ethics of AI Ethics: An Evaluation of Guidelines. Minds Mach. 30, 1 (mar 2020), 99\u2013120. https://doi.org/10.1007/s11023-020-09517-8",
+      "doi": "10.1007/s11023-020-09517-8"
+    },
+    {
+      "text": "Andreas Holzinger, Michaela Kargl, Bettina Kipperer, Peter Regitnig, Markus Plass, and Heimo M\u00fcller. 2022. Personas for Artificial Intelligence (AI) an Open Source Toolbox. IEEE Access 10(2022), 23732\u201323747. https://doi.org/10.1109/ACCESS.2022.3154776",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0K. Hong, Adam Fourney, Derek DeBellis, and Saleema Amershi. 2021. Planning for Natural Language Failures with the AI Playbook. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 386, 11\u00a0pages. https://doi.org/10.1145/3411764.3445735",
+      "doi": "10.1145/3411764.3445735"
+    },
+    {
+      "text": "Eric Horvitz. 1999. Principles of Mixed-Initiative User Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Pittsburgh, Pennsylvania, USA) (CHI \u201999). Association for Computing Machinery, New York, NY, USA, 159\u2013166. https://doi.org/10.1145/302979.303030",
+      "doi": "10.1145/302979.303030"
+    },
+    {
+      "text": "Sandy\u00a0H. Huang, Nicolas Papernot, Ian\u00a0J. Goodfellow, Yan Duan, and Pieter Abbeel. 2017. Adversarial Attacks on Neural Network Policies. CoRR abs/1702.02284(2017). arXiv:1702.02284http://arxiv.org/abs/1702.02284",
+      "doi": ""
+    },
+    {
+      "text": "HuggingFace. 2022. The AI Community Building the Future. https://huggingface.co",
+      "doi": ""
+    },
+    {
+      "text": "HuggingFace. 2022. DETR (End-to-End Object Detection) model with ResNet-50 backbone. https://huggingface.co/facebook/detr-resnet-50",
+      "doi": ""
+    },
+    {
+      "text": "Apple Inc.2019. Designing the UI and User Experience of a Machine Learning App. https://developer.apple.com/design/human-interface-guidelines/machine-learning/overview/introduction/",
+      "doi": ""
+    },
+    {
+      "text": "Anniek Jansen and Sara Colombo. 2022. Wizard of Errors: Introducing and Evaluating Machine Learning Errors in Wizard of Oz Studies. In CHI Conference on Human Factors in Computing Systems Extended Abstracts (New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 426, 7\u00a0pages. https://doi.org/10.1145/3491101.3519684",
+      "doi": "10.1145/3491101.3519684"
+    },
+    {
+      "text": "Anna Jobin, Marcello Ienca, and Effy Vayena. 2019. The global landscape of AI ethics guidelines. Nature Machine Intelligence 1, 9 (2019), 389\u2013399.",
+      "doi": ""
+    },
+    {
+      "text": "Tero Karras, Samuli Laine, and Timo Aila. 2018. A Style-Based Generator Architecture for Generative Adversarial Networks. CoRR abs/1812.04948(2018). arXiv:1812.04948http://arxiv.org/abs/1812.04948",
+      "doi": ""
+    },
+    {
+      "text": "Claire Kayacik, Sherol Chen, Signe Noerly, Jess Holbrook, Adam Roberts, and Douglas Eck. 2019. Identifying the Intersections: User Experience + Research Scientist Collaboration in a Generative Machine Learning Interface. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3290607.3299059",
+      "doi": "10.1145/3290607.3299059"
+    },
+    {
+      "text": "Douwe Kiela, Max Bartolo, Yixin Nie, Divyansh Kaushik, Atticus Geiger, Zhengxuan Wu, Bertie Vidgen, Grusha Prasad, Amanpreet Singh, Pratik Ringshia, Zhiyi Ma, Tristan Thrush, Sebastian Riedel, Zeerak Waseem, Pontus Stenetorp, Robin Jia, Mohit Bansal, Christopher Potts, and Adina Williams. 2021. Dynabench: Rethinking Benchmarking in NLP. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Association for Computational Linguistics, Online, 4110\u20134124. https://doi.org/10.18653/v1/2021.naacl-main.324",
+      "doi": ""
+    },
+    {
+      "text": "Scott\u00a0R. Klemmer, Anoop\u00a0K. Sinha, Jack Chen, James\u00a0A. Landay, Nadeem Aboobaker, and Annie Wang. 2000. Suede: A Wizard of Oz Prototyping Tool for Speech User Interfaces. In Proceedings of the 13th Annual ACM Symposium on User Interface Software and Technology (San Diego, California, USA) (UIST \u201900). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/354401.354406",
+      "doi": "10.1145/354401.354406"
+    },
+    {
+      "text": "Allison Koenecke, Andrew Nam, Emily Lake, Joe Nudell, Minnie Quartey, Zion Mengesha, Connor Toups, John\u00a0R. Rickford, Dan Jurafsky, and Sharad Goel. 2020. Racial disparities in automated speech recognition. Proceedings of the National Academy of Sciences 117, 14(2020), 7684\u20137689. https://doi.org/10.1073/pnas.1915768117 arXiv:https://www.pnas.org/doi/pdf/10.1073/pnas.1915768117",
+      "doi": ""
+    },
+    {
+      "text": "Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu, Michihiro Yasunaga, Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar, Benjamin Newman, Binhang Yuan, Bobby Yan, Ce Zhang, Christian Cosgrove, Christopher\u00a0D. Manning, Christopher R\u00e9, Diana Acosta-Navas, Drew\u00a0A. Hudson, Eric Zelikman, Esin Durmus, Faisal Ladhak, Frieda Rong, Hongyu Ren, Huaxiu Yao, Jue Wang, Keshav Santhanam, Laurel Orr, Lucia Zheng, Mert Yuksekgonul, Mirac Suzgun, Nathan Kim, Neel Guha, Niladri Chatterji, Omar Khattab, Peter Henderson, Qian Huang, Ryan Chi, Sang\u00a0Michael Xie, Shibani Santurkar, Surya Ganguli, Tatsunori Hashimoto, Thomas Icard, Tianyi Zhang, Vishrav Chaudhary, William Wang, Xuechen Li, Yifan Mai, Yuhui Zhang, and Yuta Koreeda. 2022. Holistic Evaluation of Language Models. https://doi.org/10.48550/ARXIV.2211.09110",
+      "doi": ""
+    },
+    {
+      "text": "Tsung-Yi Lin, Priya Goyal, Ross\u00a0B. Girshick, Kaiming He, and Piotr Doll\u00e1r. 2017. Focal Loss for Dense Object Detection. CoRR abs/1708.02002(2017). arXiv:1708.02002http://arxiv.org/abs/1708.02002",
+      "doi": ""
+    },
+    {
+      "text": "Anthony Liu, Santiago Guerra, Isaac Fung, Gabriel Matute, Ece Kamar, and Walter Lasecki. 2020. Towards Hybrid Human-AI Workflows for Unknown Unknown Detection. In Proceedings of The Web Conference 2020 (Taipei, Taiwan) (WWW \u201920). Association for Computing Machinery, New York, NY, USA, 2432\u20132442. https://doi.org/10.1145/3366423.3380306",
+      "doi": "10.1145/3366423.3380306"
+    },
+    {
+      "text": "Michael\u00a0A. Madaio, Luke Stark, Jennifer Wortman\u00a0Vaughan, and Hanna Wallach. 2020. Co-Designing Checklists to Understand Organizational Challenges and Opportunities around Fairness in AI. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376445",
+      "doi": "10.1145/3313831.3376445"
+    },
+    {
+      "text": "Sean McGregor. 2020. Preventing Repeated Real World AI Failures by Cataloging Incidents: The AI Incident Database. https://doi.org/10.48550/ARXIV.2011.08512",
+      "doi": ""
+    },
+    {
+      "text": "Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa\u00a0Deborah Raji, and Timnit Gebru. 2019. Model Cards for Model Reporting. In Proceedings of the Conference on Fairness, Accountability, and Transparency (Atlanta, GA, USA) (FAT* \u201919). Association for Computing Machinery, New York, NY, USA, 220\u2013229. https://doi.org/10.1145/3287560.3287596",
+      "doi": "10.1145/3287560.3287596"
+    },
+    {
+      "text": "Donald Norman. 1981. Categorization of Action Slips. Psychological Review 88 (01 1981), 1\u201315. https://doi.org/10.1037//0033-295X.88.1.1",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0A. Norman. 1980. Errors in Human Performance.",
+      "doi": ""
+    },
+    {
+      "text": "NumPy. 1995. The fundamental package for scientific computing with Python. https://numpy.org/",
+      "doi": ""
+    },
+    {
+      "text": "Besmira Nushi, Ece Kamar, and Eric Horvitz. 2018. Towards Accountable AI: Hybrid Human-Machine Analyses for Characterizing System Failure. CoRR abs/1809.07424(2018). arXiv:1809.07424http://arxiv.org/abs/1809.07424",
+      "doi": ""
+    },
+    {
+      "text": "Luke Oakden-Rayner, Jared Dunnmon, Gustavo Carneiro, and Christopher Re. 2020. Hidden Stratification Causes Clinically Meaningful Failures in Machine Learning for Medical Imaging. In Proceedings of the ACM Conference on Health, Inference, and Learning (Toronto, Ontario, Canada) (CHIL \u201920). Association for Computing Machinery, New York, NY, USA, 151\u2013159. https://doi.org/10.1145/3368555.3384468",
+      "doi": "10.1145/3368555.3384468"
+    },
+    {
+      "text": "Ziad Obermeyer, Brian Powers, Christine Vogeli, and Sendhil Mullainathan. 2019. Dissecting racial bias in an algorithm used to manage the health of populations. Science 366, 6464 (2019), 447\u2013453. https://doi.org/10.1126/science.aax2342 arXiv:https://www.science.org/doi/pdf/10.1126/science.aax2342",
+      "doi": ""
+    },
+    {
+      "text": "Neoklis Polyzotis, Steven Whang, Tim\u00a0Klas Kraska, and Yeounoh Chung. 2019. Slice Finder: Automated Data Slicing for Model Validation. In Proceedings of the IEEE Int\u2019 Conf. on Data Engineering (ICDE), 2019. https://arxiv.org/pdf/1807.06068.pdf",
+      "doi": ""
+    },
+    {
+      "text": "PyTorch. 2016. From research to production. https://pytorch.org/",
+      "doi": ""
+    },
+    {
+      "text": "Jens Rasmussen. 1982. Human errors. A taxonomy for describing human malfunction in industrial installations. Journal of Occupational Accidents 4, 2 (1982), 311\u2013333. https://doi.org/10.1016/0376-6349(82)90041-4",
+      "doi": ""
+    },
+    {
+      "text": "Alexander Ratner, Stephen\u00a0H. Bach, Henry Ehrenberg, Jason Fries, Sen Wu, and Christopher R\u00e9. 2017. Snorkel. Proceedings of the VLDB Endowment 11, 3 (nov 2017), 269\u2013282. https://doi.org/10.14778/3157794.3157797",
+      "doi": "10.14778/3157794.3157797"
+    },
+    {
+      "text": "J.T. Reason. 2016. The Human Contribution: Unsafe Acts, Accidents and Heroic Recoveries. London: Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Redmon, Santosh\u00a0Kumar Divvala, Ross\u00a0B. Girshick, and Ali Farhadi. 2015. You Only Look Once: Unified, Real-Time Object Detection. CoRR abs/1506.02640(2015). arXiv:1506.02640http://arxiv.org/abs/1506.02640",
+      "doi": ""
+    },
+    {
+      "text": "Shaoqing Ren, Kaiming He, Ross\u00a0B. Girshick, and Jian Sun. 2015. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks. CoRR abs/1506.01497(2015). arXiv:1506.01497http://arxiv.org/abs/1506.01497",
+      "doi": ""
+    },
+    {
+      "text": "Replicate. 2021. Simple image captioning model using CLIP and GPT-2. https://replicate.com/rmokady/clip_prefix_caption",
+      "doi": ""
+    },
+    {
+      "text": "Replicate. 2022. Stable diffusion. https://replicate.com/stability-ai/stable-diffusion",
+      "doi": ""
+    },
+    {
+      "text": "Hamid Rezatofighi, Nathan Tsoi, JunYoung Gwak, Amir Sadeghian, Ian Reid, and Silvio Savarese. 2019. Generalized Intersection Over Union: A Metric and a Loss for Bounding Box Regression. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).",
+      "doi": ""
+    },
+    {
+      "text": "Martin Schrepp, Andreas Hinderks, and J\u00f6rg Thomaschewski. 2017. Design and Evaluation of a Short Version of the User Experience Questionnaire (UEQ-S). International Journal of Interactive Multimedia and Artificial Intelligence 4 (01 2017), 103. https://doi.org/10.9781/ijimai.2017.09.001",
+      "doi": ""
+    },
+    {
+      "text": "SciPy. 2016. An open-source software for mathematics, science, and engineering. https://docs.scipy.org/doc/scipy-0.18.1/reference/generated/scipy.optimize.linear_sum_assignment.html",
+      "doi": ""
+    },
+    {
+      "text": "SerpApi. 2022. Google Search API. https://serpapi.com/",
+      "doi": ""
+    },
+    {
+      "text": "Scott Shappell and Douglas Wiegmann. 2000. The Human Factors Analysis and Classification System-HFACS. (01 2000).",
+      "doi": ""
+    },
+    {
+      "text": "Soheila Sheikh\u00a0Bahaei and Barbara Gallina. 2019. Augmented Reality-extended Humans: Towards a Taxonomy of Failures \u2013 Focus on Visual Technologies. https://doi.org/10.3850/978-981-11-2724-3_0922-cd",
+      "doi": ""
+    },
+    {
+      "text": "Neville\u00a0A. Stanton and Paul\u00a0M. Salmon. 2009. Human error taxonomies applied to driving: A generic driver error taxonomy and its implications for intelligent transport systems. Safety Science 47, 2 (2009), 227\u2013237. https://doi.org/10.1016/j.ssci.2008.03.006",
+      "doi": ""
+    },
+    {
+      "text": "Susan\u00a0Leigh Star. 1989. The structure of ill-structured solutions: Boundary objects and heterogeneous distributed problem solving. In Distributed artificial intelligence. Elsevier, 37\u201354.",
+      "doi": ""
+    },
+    {
+      "text": "Russell Stewart and Mykhaylo Andriluka. 2015. End-to-end people detection in crowded scenes. CoRR abs/1506.04878(2015). arXiv:1506.04878http://arxiv.org/abs/1506.04878",
+      "doi": ""
+    },
+    {
+      "text": "Hariharan Subramonyam, Jane Im, Colleen Seifert, and Eytan Adar. 2022. Solving Separation-of-Concerns Problems in Collaborative Design of Human-AI Systems through Leaky Abstractions. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 481, 21\u00a0pages. https://doi.org/10.1145/3491102.3517537",
+      "doi": "10.1145/3491102.3517537"
+    },
+    {
+      "text": "Hariharan Subramonyam, Colleen Seifert, and Eytan Adar. 2021. ProtoAI: Model-Informed Prototyping for AI-Powered Interfaces. In 26th International Conference on Intelligent User Interfaces (College Station, TX, USA) (IUI \u201921). Association for Computing Machinery, New York, NY, USA, 48\u201358. https://doi.org/10.1145/3397481.3450640",
+      "doi": "10.1145/3397481.3450640"
+    },
+    {
+      "text": "Hariharan Subramonyam, Colleen Seifert, and Eytan Adar. 2021. Towards a process model for co-creating AI experiences. In Designing Interactive Systems Conference 2021. 1529\u20131543.",
+      "doi": ""
+    },
+    {
+      "text": "James Wexler, Mahima Pushkarna, Tolga Bolukbasi, Martin Wattenberg, Fernanda Vi\u00e9gas, and Jimbo Wilson. 2020. The What-If Tool: Interactive Probing of Machine Learning Models. IEEE Transactions on Visualization and Computer Graphics 26, 1(2020), 56\u201365. https://doi.org/10.1109/TVCG.2019.2934619",
+      "doi": ""
+    },
+    {
+      "text": "Maximiliane Windl, Sebastian\u00a0S. Feger, Lara Zijlstra, Albrecht Schmidt, and Pawel\u00a0W. Wozniak. 2022. \u2018It Is Not Always Discovery Time\u2019: Four Pragmatic Approaches in Designing AI Systems. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 50, 12\u00a0pages. https://doi.org/10.1145/3491102.3501943",
+      "doi": "10.1145/3491102.3501943"
+    },
+    {
+      "text": "WordsAPI. 2015. An API for the English language. https://www.wordsapi.com/",
+      "doi": ""
+    },
+    {
+      "text": "Tongshuang Wu, Marco\u00a0Tulio Ribeiro, Jeffrey Heer, and Daniel Weld. 2019. Errudite: Scalable, Reproducible, and Testable Error Analysis. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Florence, Italy, 747\u2013763. https://doi.org/10.18653/v1/P19-1073",
+      "doi": ""
+    },
+    {
+      "text": "Pulei Xiong, Scott Buffett, Shahrear Iqbal, Philippe Lamontagne, Mohammad Saiful\u00a0Islam Mamun, and Heather Molyneaux. 2021. Towards a Robust and Trustworthy Machine Learning System Development. CoRR abs/2101.03042(2021). arXiv:2101.03042https://arxiv.org/abs/2101.03042",
+      "doi": ""
+    },
+    {
+      "text": "Qian Yang, Alex Scuito, John Zimmerman, Jodi Forlizzi, and Aaron Steinfeld. 2018. Investigating How Experienced UX Designers Effectively Work with Machine Learning. In Proceedings of the 2018 Designing Interactive Systems Conference (Hong Kong, China) (DIS \u201918). Association for Computing Machinery, New York, NY, USA, 585\u2013596. https://doi.org/10.1145/3196709.3196730",
+      "doi": "10.1145/3196709.3196730"
+    },
+    {
+      "text": "Qian Yang, Aaron Steinfeld, Carolyn Ros\u00e9, and John Zimmerman. 2020. Re-Examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376301",
+      "doi": "10.1145/3313831.3376301"
+    },
+    {
+      "text": "Suorong Yang, Weikang Xiao, Mengcheng Zhang, Suhan Guo, Jian Zhao, and Furao Shen. 2022. Image Data Augmentation for Deep Learning: A Survey. https://doi.org/10.48550/ARXIV.2204.08610",
+      "doi": ""
+    },
+    {
+      "text": "Nur Yildirim, Alex Kass, Teresa Tung, Connor Upton, Donnacha Costello, Robert Giusti, Sinem Lacin, Sara Lovic, James\u00a0M O\u2019Neill, Rudi\u00a0O\u2019Reilly Meehan, Eoin \u00d3\u00a0Loide\u00e1in, Azzurra Pini, Medb Corcoran, Jeremiah Hayes, Diarmuid\u00a0J Cahalane, Gaurav Shivhare, Luigi Castoro, Giovanni Caruso, Changhoon Oh, James McCann, Jodi Forlizzi, and John Zimmerman. 2022. How Experienced Designers of Enterprise Applications Engage AI as a Design Material. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 483, 13\u00a0pages. https://doi.org/10.1145/3491102.3517491",
+      "doi": "10.1145/3491102.3517491"
+    }
+  ]
+}

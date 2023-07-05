@@ -1,0 +1,617 @@
+{
+  "doi": "10.1145/3544548.3581433",
+  "title": "Point of no Undo: Irreversible Interactions as a Design Strategy",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Despite irreversibility being omnipresent in the lifeworld, research on interactions making use of irreversibility in computing systems is still in the early stages. User freedom \u2013 provided by the undo functionality \u2013 is considered to be a pillar of \u201cusable\u201d computer systems, overcoming irreversibility. Within this paper, we set up a thought experiment, challenging the \u201cundo feature\u201d and instead take advantage of irreversibility in the interaction with physical computing systems (tangibles, robots, etc). First, we present three material speculations, each inherently utilizing irreversibility. Second, we elaborate on the concept of irreversible interactions by contextualizing our work with critical HCI discourses and deducing three design strategies. Finally, we discuss irreversibility as a design element for self-reflection, meaningful acting, and a sustainable relationship with technology. While previously individual aspects of irreversibility have been explored, we contribute a comprehensive discussion of irreversible interactions in HCI presenting artifacts, a conceptualization, design strategies, and application purposes.",
+  "authors": [
+    {
+      "name": "Beat Rossmy",
+      "institution": "LMU Munich, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659272212",
+      "orcid": "0000-0002-1309-0629"
+    },
+    {
+      "name": "Na\u0111a Terzimehi\u0107",
+      "institution": "LMU Munich, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659332468",
+      "orcid": "0000-0001-6630-3512"
+    },
+    {
+      "name": "Tanja D\u00f6ring",
+      "institution": "Digital Media Lab, University of Bremen, Germany",
+      "img": "/do/10.1145/contrib-81324489053/rel-imgonly/tanja_doering_feb2011.jpg",
+      "acmid": "81324489053",
+      "orcid": "0000-0001-8648-340X"
+    },
+    {
+      "name": "Daniel Buschek",
+      "institution": "Department of Computer Science, University of Bayreuth, Germany",
+      "img": "/do/10.1145/contrib-82659024557/rel-imgonly/daniel.png",
+      "acmid": "82659024557",
+      "orcid": "0000-0002-0013-715X"
+    },
+    {
+      "name": "Alexander Wiethoff",
+      "institution": "LMU Munich, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81467670465",
+      "orcid": "0000-0003-2938-7272"
+    }
+  ],
+  "references": [
+    {
+      "text": "Gregory\u00a0D. Abowd and Alan\u00a0J. Dix. 1992. Giving undo attention. Interacting with Computers 4, 3 (12 1992), 317\u2013342. https://doi.org/10.1016/0953-5438(92)90021-7 arXiv:https://academic.oup.com/iwc/article-pdf/4/3/317/2175174/iwc4-0317.pdf",
+      "doi": "10.1016/0953-5438%2892%2990021-7"
+    },
+    {
+      "text": "David Akers, Matthew Simpson, Robin Jeffries, and Terry Winograd. 2009. Undo and Erase Events as Indicators of Usability Problems. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Boston, MA, USA) (CHI \u201909). Association for Computing Machinery, New York, NY, USA, 659\u2013668. https://doi.org/10.1145/1518701.1518804",
+      "doi": "10.1145/1518701.1518804"
+    },
+    {
+      "text": "Saleema Amershi, Maya Cakmak, William\u00a0Bradley Knox, and Todd Kulesza. 2014. Power to the People: The Role of Humans in Interactive Machine Learning. AI Magazine 35, 4 (2014), 105\u2013120. https://doi.org/10.1609/aimag.v35i4.2513",
+      "doi": ""
+    },
+    {
+      "text": "Ross\u00a0C. Anderson, Michele Haney, Christine Pitts, Lorna Porter, and Tracy Bousselot. 2020. \u201cMistakes Can be Beautiful\u201d: Creative Engagement in Arts Integration for Early Adolescent Learners. The Journal of Creative Behavior 54, 3 (2020), 662\u2013675. https://doi.org/10.1002/jocb.401 arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/jocb.401",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0E Archer\u00a0Jr, Richard Conway, and Fred\u00a0B Schneider. 1984. User recovery and reversal in interactive systems. ACM Transactions on Programming Languages and Systems (TOPLAS) 6, 1(1984), 1\u201319.",
+      "doi": "10.1145/357233.357234"
+    },
+    {
+      "text": "James Auger. 2013. Speculative design: crafting the speculation. Digital Creativity 24, 1 (2013), 11\u201335. https://doi.org/10.1080/14626268.2013.767276 arXiv:https://doi.org/10.1080/14626268.2013.767276",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Bardzell and Shaowen Bardzell. 2013. What is \"Critical\" about Critical Design?Association for Computing Machinery, New York, NY, USA, 3297\u20133306. https://doi.org/10.1145/2470654.2466451",
+      "doi": "10.1145/2470654.2466451"
+    },
+    {
+      "text": "Shaowen Bardzell, Jeffrey Bardzell, Jodi Forlizzi, John Zimmerman, and John Antanitis. 2012. Critical Design and Critical Theory: The Challenge of Designing for Provocation. In Proceedings of the Designing Interactive Systems Conference (Newcastle Upon Tyne, United Kingdom) (DIS \u201912). Association for Computing Machinery, New York, NY, USA, 288\u2013297. https://doi.org/10.1145/2317956.2318001",
+      "doi": "10.1145/2317956.2318001"
+    },
+    {
+      "text": "Christoph Bartneck, Marcel Verbunt, Omar Mubin, and Abdullah Al\u00a0Mahmud. 2007. To Kill a Mockingbird Robot. In Proceedings of the ACM/IEEE International Conference on Human-Robot Interaction (Arlington, Virginia, USA) (HRI \u201907). Association for Computing Machinery, New York, NY, USA, 81\u201387. https://doi.org/10.1145/1228716.1228728",
+      "doi": "10.1145/1228716.1228728"
+    },
+    {
+      "text": "Ernst Benda. 2000. The protection of human dignity (article 1 of the Basic Law). SMUL Rev. 53(2000), 443.",
+      "doi": ""
+    },
+    {
+      "text": "Steve Benford, Chris Greenhalgh, Gabriella Giannachi, Brendan Walker, Joe Marshall, and Tom Rodden. 2012. Uncomfortable Interactions. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Austin, Texas, USA) (CHI \u201912). Association for Computing Machinery, New York, NY, USA, 2005\u20132014. https://doi.org/10.1145/2207676.2208347",
+      "doi": "10.1145/2207676.2208347"
+    },
+    {
+      "text": "Nigel Bevan. 2009. Extending Quality in Use to Provide a Framework for Usability Measurement. In Human Centered Design, Masaaki Kurosu (Ed.). Springer Berlin Heidelberg, Berlin, Heidelberg, 13\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Eli Blevis. 2007. Sustainable Interaction Design: Invention & Disposal, Renewal & Reuse. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201907). Association for Computing Machinery, New York, NY, USA, 503\u2013512. https://doi.org/10.1145/1240624.1240705",
+      "doi": "10.1145/1240624.1240705"
+    },
+    {
+      "text": "Paula Bourges-Waldegg and Stephen\u00a0A.R. Scrivener. 1998. Meaning, the central issue in cross-cultural HCI design. Interacting with Computers 9, 3 (1998), 287 \u2013 309. https://doi.org/10.1016/S0953-5438(97)00032-5 Shared Values and Shared Interfaces: The Role of Culture in the Globalisation of Human-Computer Systems.",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative Research in Psychology 3, 2 (2006), 77\u2013101. https://doi.org/10.1191/1478088706qp063oa arXiv:https://www.tandfonline.com/doi/pdf/10.1191/1478088706qp063oa",
+      "doi": "10.1191/1478088706"
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2021. One size fits all? What counts as quality practice in (reflexive) thematic analysis?Qualitative Research in Psychology 18, 3 (2021), 328\u2013352. https://doi.org/10.1080/14780887.2020.1769238 arXiv:https://doi.org/10.1080/14780887.2020.1769238",
+      "doi": ""
+    },
+    {
+      "text": "Michael Braungart and William McDonough. 2009. Cradle to Cradle: Remaking the Way We Make Things. Random House, New York.",
+      "doi": ""
+    },
+    {
+      "text": "Cynthia Breazeal. 2002. Regulation and Entrainment in Human\u2014Robot Interaction. The International Journal of Robotics Research 21, 10-11(2002), 883\u2013902. https://doi.org/10.1177/0278364902021010096 arXiv:https://doi.org/10.1177/0278364902021010096",
+      "doi": "10.1177/0278364902021010096"
+    },
+    {
+      "text": "Karin Breuer. 2008. Competing Masculinities: Fraternities, Gender and Nationality in the German Confederation, 181530. Gender & History 20, 2 (Aug. 2008), 270\u2013287. https://doi.org/10.1111/j.1468-0424.2008.00521.x",
+      "doi": ""
+    },
+    {
+      "text": "Ben Bridgens and Debra Lilley. 2017. Design for Next\u2026 Year. The Challenge of Designing for Material Change. The Design Journal 20, sup1 (2017), S160\u2013S171. https://doi.org/10.1080/14606925.2017.1352715 arXiv:https://doi.org/10.1080/14606925.2017.1352715",
+      "doi": ""
+    },
+    {
+      "text": "James Brown, Kathrin Gerling, Patrick Dickinson, and Ben Kirman. 2015. Dead Fun: Uncomfortable Interactions in a Virtual Reality Game for Coffins. In Proceedings of the 2015 Annual Symposium on Computer-Human Interaction in Play (London, United Kingdom) (CHI PLAY \u201915). Association for Computing Machinery, New York, NY, USA, 475\u2013480. https://doi.org/10.1145/2793107.2810307",
+      "doi": "10.1145/2793107.2810307"
+    },
+    {
+      "text": "Marion Buchenau and Jane\u00a0Fulton Suri. 2000. Experience Prototyping. In Proceedings of the 3rd Conference on Designing Interactive Systems: Processes, Practices, Methods, and Techniques (New York City, New York, USA) (DIS \u201900). Association for Computing Machinery, New York, NY, USA, 424\u2013433. https://doi.org/10.1145/347642.347802",
+      "doi": "10.1145/347642.347802"
+    },
+    {
+      "text": "Vanessa\u00a0Julia Carpenter, Amanda Willis, Nikolaj\u00a0\u201cDzl\u201d M\u00f8bius, and Dan Overholt. 2019. Electronic Kintsugi. In Proceedings of the Future Technologies Conference (FTC) 2018, Kohei Arai, Rahul Bhatia, and Supriya Kapoor (Eds.). Springer International Publishing, Cham, 104\u2013121.",
+      "doi": ""
+    },
+    {
+      "text": "Nazli Cila, Elisa Giaccardi, Fionn Tynan-O\u2019Mahony, Chris Speed, and Melissa Caldwell. 2015. Thing-centered narratives: A study of object personas. In Proceedings of the 3rd Seminar International Research Network for Design Anthropology. 1\u201317. The 3rd Seminar International Research Network for Design Anthropology ; Conference date: 22-01-2015 Through 23-01-2015.",
+      "doi": ""
+    },
+    {
+      "text": "Ashley Colley, Antti-Jussi Yliharju, and Jonna H\u00e4kkil\u00e4. 2018. Ice as an Interactive Visualization Material: A Design Space. In Proceedings of the 7th ACM International Symposium on Pervasive Displays (Munich, Germany) (PerDis \u201918). Association for Computing Machinery, New York, NY, USA, Article 14, 6\u00a0pages. https://doi.org/10.1145/3205873.3205895",
+      "doi": "10.1145/3205873.3205895"
+    },
+    {
+      "text": "Denis Constales, Gregory\u00a0S. Yablonsky, Dagmar\u00a0R. D\u2019hooge, Joris\u00a0W. Thybaut, and Guy\u00a0B. Marin. 2017. Chapter 4 - Physicochemical Principles of Simplification of Complex Models. In Advanced Data Analysis & Modelling in Chemical Engineering, Denis Constales, Gregory\u00a0S. Yablonsky, Dagmar\u00a0R. D\u2019hooge, Joris\u00a0W. Thybaut, and Guy\u00a0B. Marin (Eds.). Elsevier, Amsterdam, 83 \u2013 103. https://doi.org/10.1016/B978-0-444-59485-3.00004-7",
+      "doi": ""
+    },
+    {
+      "text": "Denis Constales, Gregory\u00a0S. Yablonsky, Dagmar\u00a0R. D\u2019hooge, Joris\u00a0W. Thybaut, and Guy\u00a0B. Marin. 2017. Chapter 6 - Thermodynamics. In Advanced Data Analysis & Modelling in Chemical Engineering, Denis Constales, Gregory\u00a0S. Yablonsky, Dagmar\u00a0R. D\u2019hooge, Joris\u00a0W. Thybaut, and Guy\u00a0B. Marin (Eds.). Elsevier, Amsterdam, 159 \u2013 220. https://doi.org/10.1016/B978-0-444-59485-3.00006-0",
+      "doi": ""
+    },
+    {
+      "text": "Ben Cowley, Darryl Charles, Michaela Black, and Ray Hickey. 2008. Toward an Understanding of Flow in Video Games. Comput. Entertain. 6, 2, Article 20 (July 2008), 27\u00a0pages. https://doi.org/10.1145/1371216.1371223",
+      "doi": "10.1145/1371216.1371223"
+    },
+    {
+      "text": "Anna\u00a0L Cox, Jon Bird, and Rowanne Fleck. 2013. Digital Epiphanies: how self-knowledge can change habits and our attitudes towards them. (2013). https://discovery.ucl.ac.uk/id/eprint/1416686",
+      "doi": ""
+    },
+    {
+      "text": "Anna\u00a0L. Cox, Sandy\u00a0J.J. Gould, Marta\u00a0E. Cecchinato, Ioanna Iacovides, and Ian Renfree. 2016. Design Frictions for Mindful Interactions: The Case for Microboundaries. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems(San Jose, California, USA) (CHI EA \u201916). Association for Computing Machinery, New York, NY, USA, 1389\u20131397. https://doi.org/10.1145/2851581.2892410",
+      "doi": "10.1145/2851581.2892410"
+    },
+    {
+      "text": "Mihaly Csikszentmihalyi and Mihaly Csikzentmihaly. 1990. Flow: The psychology of optimal experience. Vol.\u00a01990. Harper & Row New York.",
+      "doi": ""
+    },
+    {
+      "text": "Adam Darlow and Gideon Goldin. 2011. Causal Temporal Order in HCI. In CHI \u201911 Extended Abstracts on Human Factors in Computing Systems (Vancouver, BC, Canada) (CHI EA \u201911). Association for Computing Machinery, New York, NY, USA, 2389\u20132394. https://doi.org/10.1145/1979742.1979914",
+      "doi": "10.1145/1979742.1979914"
+    },
+    {
+      "text": "Adam Darlow, Gideon Goldin, and Steven Sloman. 2014. Causal Interactions. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 1655\u20131664. https://doi.org/10.1145/2556288.2557216",
+      "doi": "10.1145/2556288.2557216"
+    },
+    {
+      "text": "Claudia Daud\u00e9n\u00a0Roquet and Corina Sas. 2018. Evaluating Mindfulness Meditation Apps. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI EA \u201918). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3170427.3188616",
+      "doi": "10.1145/3170427.3188616"
+    },
+    {
+      "text": "Wellington\u00a0Gomes de Medeiros. 2014. Meaningful Interaction with Products. Design Issues 30, 3 (2014), 16\u201328. https://doi.org/10.1162/DESI_a_00275",
+      "doi": ""
+    },
+    {
+      "text": "Kathleen\u00a0M. Dillon. 1992. Popping Sealed Air-Capsules to Reduce Stress. Psychological Reports 71, 1 (Aug. 1992), 243\u2013246. https://doi.org/10.2466/pr0.1992.71.1.243",
+      "doi": ""
+    },
+    {
+      "text": "Carl DiSalvo, Phoebe Sengers, and Hr\u00f6nn Brynjarsd\u00f3ttir. 2010. Mapping the Landscape of Sustainable HCI. Association for Computing Machinery, New York, NY, USA, 1975\u20131984. https://doi.org/10.1145/1753326.1753625",
+      "doi": "10.1145/1753326.1753625"
+    },
+    {
+      "text": "Kevin Doherty and Gavin Doherty. 2018. Engagement in HCI: Conception, Theory and Measurement. ACM Comput. Surv. 51, 5, Article 99 (Nov. 2018), 39\u00a0pages. https://doi.org/10.1145/3234149",
+      "doi": "10.1145/3234149"
+    },
+    {
+      "text": "Tanja D\u00f6ring, Axel Sylvester, and Albrecht Schmidt. 2013. A Design Space for Ephemeral User Interfaces. In Proceedings of the 7th International Conference on Tangible, Embedded and Embodied Interaction (Barcelona, Spain) (TEI \u201913). Association for Computing Machinery, New York, NY, USA, 75\u201382. https://doi.org/10.1145/2460625.2460637",
+      "doi": "10.1145/2460625.2460637"
+    },
+    {
+      "text": "Paul Dourish. 2010. HCI and Environmental Sustainability: The Politics of Design and the Design of Politics. In Proceedings of the 8th ACM Conference on Designing Interactive Systems (Aarhus, Denmark) (DIS \u201910). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/1858171.1858173",
+      "doi": "10.1145/1858171.1858173"
+    },
+    {
+      "text": "John\u00a0J. Dudley and Per\u00a0Ola Kristensson. 2018. A Review of User Interface Design for Interactive Machine Learning. ACM Transactions on Interactive Intelligent Systems (TiiS) 8, 2(2018), 1\u201337. https://doi.org/10.1145/3185517",
+      "doi": "10.1145/3185517"
+    },
+    {
+      "text": "Rasmus Dyring 2018. The provocation of freedom. Moral engines: Exploring the ethical drives in human life (2018), 116\u201336.",
+      "doi": ""
+    },
+    {
+      "text": "Pelle Ehn and Jonas L\u00f6wgren. 2003. Searching voices: Towards a canon for interaction design. Malm\u00f6 University, School of Arts and Communication. http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Amau%3Adiva-8385",
+      "doi": ""
+    },
+    {
+      "text": "David Eickhoff, Stefanie Mueller, and Patrick Baudisch. 2016. Destructive Games: Creating Value by Destroying Valuable Physical Objects. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 3970\u20133974. https://doi.org/10.1145/2858036.2858113",
+      "doi": "10.1145/2858036.2858113"
+    },
+    {
+      "text": "Christopher Frauenberger. 2019. Entanglement HCI The Next Wave?ACM Trans. Comput.-Hum. Interact. 27, 1, Article 2 (Nov. 2019), 27\u00a0pages. https://doi.org/10.1145/3364998",
+      "doi": "10.1145/3364998"
+    },
+    {
+      "text": "Verena Fuchsberger, Martin Murer, and Manfred Tscheligi. 2014. Human-Computer Non-Interaction: The Activity of Non-Use. In Proceedings of the 2014 Companion Publication on Designing Interactive Systems (Vancouver, BC, Canada) (DIS Companion \u201914). Association for Computing Machinery, New York, NY, USA, 57\u201360. https://doi.org/10.1145/2598784.2602781",
+      "doi": "10.1145/2598784.2602781"
+    },
+    {
+      "text": "Roland Garve, Miriam Garve, Jens\u00a0C T\u00fcrp, Julius\u00a0N Fobil, and Christian\u00a0G Meyer. 2017. Scarification in sub-Saharan Africa: social skin, remedy and medical import. Tropical Medicine & International Health 22, 6 (2017), 708\u2013715.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0P Gauthier, Mary\u00a0Jean Costello, and James\u00a0R Wallace. 2022. \u201cI Will Not Drink With You Today\u201d: A Topic-Guided Thematic Analysis of Addiction Recovery on Reddit. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 20, 17\u00a0pages. https://doi.org/10.1145/3491102.3502076",
+      "doi": "10.1145/3491102.3502076"
+    },
+    {
+      "text": "Elisa Giaccardi and Elvin Karana. 2015. Foundations of Materials Experience: An Approach for HCI. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 2447\u20132456. https://doi.org/10.1145/2702123.2702337",
+      "doi": "10.1145/2702123.2702337"
+    },
+    {
+      "text": "Antonio Ginart, Melody Guan, Gregory Valiant, and James\u00a0Y Zou. 2019. Making AI Forget You: Data Deletion in Machine Learning. In Advances in Neural Information Processing Systems 32, H.\u00a0Wallach, H.\u00a0Larochelle, A.\u00a0Beygelzimer, F.\u00a0d'Alch\u00e9-Buc, E.\u00a0Fox, and R.\u00a0Garnett (Eds.). Curran Associates, Inc., 3518\u20133531. http://papers.nips.cc/paper/8611-making-ai-forget-you-data-deletion-in-machine-learning.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Edwin\u00a0E Gordon. 1989. Audiation, Music Learning Theory, Music Aptitude, and Creativity.. In Suncoast Music Education Forum on Creativity, Vol.\u00a075. ERIC, 81.",
+      "doi": ""
+    },
+    {
+      "text": "Colin\u00a0M. Gray, Shruthi\u00a0Sai Chivukula, and Ahreum Lee. 2020. What Kind of Work Do \"Asshole Designers\" Create? Describing Properties of Ethical Concern on Reddit. Association for Computing Machinery, New York, NY, USA, 61\u201373. https://doi.org/10.1145/3357236.3395486",
+      "doi": "10.1145/3357236.3395486"
+    },
+    {
+      "text": "Shad Gross, Jeffrey Bardzell, and Shaowen Bardzell. 2014. Structures, forms, and stuff: the materiality and medium of interaction. Personal and Ubiquitous Computing 18, 3 (2014), 637\u2013649.",
+      "doi": "10.1007/s00779-013-0689-4"
+    },
+    {
+      "text": "Tina\u00a0A Grotzer. 2012. Learning causality in a complex world: Understandings of consequence. R&L Education.",
+      "doi": ""
+    },
+    {
+      "text": "Maurice Halbwachs. 2013. Les cadres sociaux de la m\u00e9moire. Albin Michel.",
+      "doi": ""
+    },
+    {
+      "text": "Lars Halln\u00e4s and Johan Redstr\u00f6m. 2001. Slow Technology \u2013 Designing for Reflection. Personal Ubiquitous Comput. 5, 3 (Jan. 2001), 201\u2013212. https://doi.org/10.1007/PL00000019",
+      "doi": "10.1007/PL00000019"
+    },
+    {
+      "text": "Steve Harrison, Phoebe Sengers, and Deborah Tatar. 2011. Making epistemological trouble: Third-paradigm HCI as successor science. Interacting with Computers 23, 5 (2011), 385\u2013392. https://doi.org/10.1016/j.intcom.2011.03.005 Feminism and HCI: New Perspectives.",
+      "doi": "10.1016/j.intcom.2011.03.005"
+    },
+    {
+      "text": "Marc Hassenzahl. 2008. User Experience (UX): Towards an Experiential Perspective on Product Quality. In Proceedings of the 20th Conference on l\u2019Interaction Homme-Machine (Metz, France) (IHM \u201908). Association for Computing Machinery, New York, NY, USA, 11\u201315. https://doi.org/10.1145/1512714.1512717",
+      "doi": "10.1145/1512714.1512717"
+    },
+    {
+      "text": "Sabrina Hauser, Doenja Oogjes, Ron Wakkary, and Peter-Paul Verbeek. 2018. An Annotated Portfolio on Doing Postphenomenology Through Research Products. In Proceedings of the 2018 Designing Interactive Systems Conference (Hong Kong, China) (DIS \u201918). Association for Computing Machinery, New York, NY, USA, 459\u2013471. https://doi.org/10.1145/3196709.3196745",
+      "doi": "10.1145/3196709.3196745"
+    },
+    {
+      "text": "Judith Herrin. 2016. Book Burning as Purification. In Transformations of Late Antiquity. Routledge, 225\u2013242.",
+      "doi": ""
+    },
+    {
+      "text": "William\u00a0C. Hill, James\u00a0D. Hollan, Dave Wroblewski, and Tim McCandless. 1992. Edit Wear and Read Wear. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Monterey, California, USA) (CHI \u201992). Association for Computing Machinery, New York, NY, USA, 3\u20139. https://doi.org/10.1145/142750.142751",
+      "doi": "10.1145/142750.142751"
+    },
+    {
+      "text": "Linda Hirsch, Beat Rossmy, Florian Bemmann, and Andreas Butz. 2020. Affordances Based on Traces of Use in Urban Environments. In Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction(Sydney NSW, Australia) (TEI \u201920). Association for Computing Machinery, New York, NY, USA, 729\u2013742. https://doi.org/10.1145/3374920.3375007",
+      "doi": "10.1145/3374920.3375007"
+    },
+    {
+      "text": "Miwa Ikemiya and Daniela\u00a0K. Rosner. 2013. Broken probes: toward the design of worn media. Personal and Ubiquitous Computing 18, 3 (July 2013), 671\u2013683. https://doi.org/10.1007/s00779-013-0690-y",
+      "doi": "10.1007/s00779-013-0690-y"
+    },
+    {
+      "text": "Hiroshi Ishii, Craig Wisneski, Scott Brave, Andrew Dahley, Matt Gorbet, Brygg Ullmer, and Paul Yarin. 1998. ambientROOM: integrating ambient media with architectural space. In Conference on Human Factors in Computing Systems: CHI 98 conference summary on Human factors in computing systems, Vol.\u00a018. Citeseer, 173\u2013174. Issue 23.",
+      "doi": "10.1145/286498.286652"
+    },
+    {
+      "text": "Steven\u00a0J. Jackson and Laewoo Kang. 2014. Breakdown, Obsolescence and Reuse: HCI and the Art of Repair. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 449\u2013458. https://doi.org/10.1145/2556288.2557332",
+      "doi": "10.1145/2556288.2557332"
+    },
+    {
+      "text": "Robert\u00a0J.K. Jacob, Audrey Girouard, Leanne\u00a0M. Hirshfield, Michael\u00a0S. Horn, Orit Shaer, Erin\u00a0Treacy Solovey, and Jamie Zigelbaum. 2008. Reality-Based Interaction: A Framework for Post-WIMP Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Florence, Italy) (CHI \u201908). Association for Computing Machinery, New York, NY, USA, 201\u2013210. https://doi.org/10.1145/1357054.1357089",
+      "doi": "10.1145/1357054.1357089"
+    },
+    {
+      "text": "Martin Jonsson, Anna St\u00e5hl, Johanna Mercurio, Anna Karlsson, Naveen Ramani, and Kristina H\u00f6\u00f6k. 2016. The Aesthetics of Heat: Guiding Awareness with Thermal Stimuli. In Proceedings of the TEI \u201916: Tenth International Conference on Tangible, Embedded, and Embodied Interaction (Eindhoven, Netherlands) (TEI \u201916). Association for Computing Machinery, New York, NY, USA, 109\u2013117. https://doi.org/10.1145/2839462.2839487",
+      "doi": "10.1145/2839462.2839487"
+    },
+    {
+      "text": "Yoona Kang, June Gruber, and Jeremy\u00a0R. Gray. 2013. Mindfulness and De-Automatization. Emotion Review 5, 2 (2013), 192\u2013201. https://doi.org/10.1177/1754073912451629 arXiv:https://doi.org/10.1177/1754073912451629",
+      "doi": ""
+    },
+    {
+      "text": "Gopinaath Kannabiran and Marianne\u00a0Graves Petersen. 2010. Politics at the Interface: A Foucauldian Power Analysis. In Proceedings of the 6th Nordic Conference on Human-Computer Interaction: Extending Boundaries (Reykjavik, Iceland) (NordiCHI \u201910). Association for Computing Machinery, New York, NY, USA, 695\u2013698. https://doi.org/10.1145/1868914.1869007",
+      "doi": "10.1145/1868914.1869007"
+    },
+    {
+      "text": "Yuichiro Katsumoto, Erika Kanai, Nadya Kirillova, Kaori Higashi, Hokuto Miura, Takashi Matsumoto, Reiko Sasaki, and Masa Inakage. 2006. InScene: A Communication Device Which Uses Incenses. In Proceedings of the 2006 ACM SIGCHI International Conference on Advances in Computer Entertainment Technology(Hollywood, California, USA) (ACE \u201906). Association for Computing Machinery, New York, NY, USA, 34\u2013es. https://doi.org/10.1145/1178823.1178865",
+      "doi": "10.1145/1178823.1178865"
+    },
+    {
+      "text": "Rohit\u00a0Ashok Khot and Florian Mueller. 2019. Human-Food Interaction. Foundations and Trends\u00ae in Human\u2013Computer Interaction 12, 4(2019), 238\u2013415. https://doi.org/10.1561/1100000074",
+      "doi": "10.1561/1100000074"
+    },
+    {
+      "text": "Kyung\u00a0Jin Kim, Sangsu Jang, Bomin Kim, Hyosun Kwon, and Young-Woo Park. 2019. MuRedder: Shredding Speaker for Ephemeral Musical Experience. In Proceedings of the 2019 on Designing Interactive Systems Conference (San Diego, CA, USA) (DIS \u201919). Association for Computing Machinery, New York, NY, USA, 127\u2013134. https://doi.org/10.1145/3322276.3322362",
+      "doi": "10.1145/3322276.3322362"
+    },
+    {
+      "text": "Kyung\u00a0Jin Kim, Sangsu Jang, Bomin Kim, Hyosun Kwon, and Young-Woo Park. 2019. MuRedder: Shredding Speaker for Ephemeral Musical Experience. In Proceedings of the 2019 on Designing Interactive Systems Conference (San Diego, CA, USA) (DIS \u201919). Association for Computing Machinery, New York, NY, USA, 127\u2013134. https://doi.org/10.1145/3322276.3322362",
+      "doi": "10.1145/3322276.3322362"
+    },
+    {
+      "text": "Scott\u00a0R. Klemmer, Bj\u00f6rn Hartmann, and Leila Takayama. 2006. How Bodies Matter: Five Themes for Interaction Design. In Proceedings of the 6th Conference on Designing Interactive Systems (University Park, PA, USA) (DIS \u201906). Association for Computing Machinery, New York, NY, USA, 140\u2013149. https://doi.org/10.1145/1142405.1142429",
+      "doi": "10.1145/1142405.1142429"
+    },
+    {
+      "text": "Spyros Kokolakis. 2017. Privacy attitudes and privacy behaviour: A review of current research on the privacy paradox phenomenon. Computers & Security 64(2017), 122\u2013134. https://doi.org/10.1016/j.cose.2015.07.002",
+      "doi": "10.1016/j.cose.2015.07.002"
+    },
+    {
+      "text": "Satoshi Kuribayashi and Akira Wakita. 2006. PlantDisplay: Turning Houseplants into Ambient Display. In Proceedings of the 2006 ACM SIGCHI International Conference on Advances in Computer Entertainment Technology(Hollywood, California, USA) (ACE \u201906). Association for Computing Machinery, New York, NY, USA, 40\u2013es. https://doi.org/10.1145/1178823.1178871",
+      "doi": "10.1145/1178823.1178871"
+    },
+    {
+      "text": "Pau\u00a0Waelder Laso. 2007. Games of Pain: Pain as Haptic Stimulation in Computer-Game\u2014Based Media Art. Leonardo 40, 3 (2007), 238\u2013242. https://doi.org/10.1162/leon.2007.40.3.238 arXiv:https://doi.org/10.1162/leon.2007.40.3.238",
+      "doi": ""
+    },
+    {
+      "text": "Bruno Latour. 1994. On Technical Mediation. Common Knowledge 3, 2 (1994), 29 \u2013 64. https://hal-sciencespo.archives-ouvertes.fr/hal-02057233",
+      "doi": ""
+    },
+    {
+      "text": "Jingyi Li, Sonia Hashim, and Jennifer Jacobs. 2021. What We Can Learn From Visual Artists About Software Development. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 314, 14\u00a0pages. https://doi.org/10.1145/3411764.3445682",
+      "doi": "10.1145/3411764.3445682"
+    },
+    {
+      "text": "Kristina Lindstr\u00f6m and \u00c5sa St\u00e5hl. 2020. Un/Making in the Aftermath of Design. In Proceedings of the 16th Participatory Design Conference 2020 - Participation(s) Otherwise - Volume 1 (Manizales, Colombia) (PDC \u201920). Association for Computing Machinery, New York, NY, USA, 12\u201321. https://doi.org/10.1145/3385010.3385012",
+      "doi": "10.1145/3385010.3385012"
+    },
+    {
+      "text": "Zachary\u00a0C. Lipton. 2018. The Mythos of Model Interpretability. Commun. ACM 61, 10 (Sept. 2018), 36\u201343. https://doi.org/10.1145/3233231",
+      "doi": "10.1145/3233231"
+    },
+    {
+      "text": "Szu-Yu\u00a0(Cyn) Liu, Jeffrey Bardzell, and Shaowen Bardzell. 2019. Decomposition as Design: Co-Creating (with) Natureculture. In Proceedings of the Thirteenth International Conference on Tangible, Embedded, and Embodied Interaction(Tempe, Arizona, USA) (TEI \u201919). Association for Computing Machinery, New York, NY, USA, 605\u2013614. https://doi.org/10.1145/3294109.3295653",
+      "doi": "10.1145/3294109.3295653"
+    },
+    {
+      "text": "Nick Logler, Caroline Pitt, Xin Gao, Allison\u00a0Marie Hishikawa, Jason Yip, and Batya Friedman. 2020. \"I Feel Like This is a Bad Thing\": Investigating Disassembly in Action for Novices. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376337",
+      "doi": "10.1145/3313831.3376337"
+    },
+    {
+      "text": "Pedro Lopes. 2018. The next Generation of Interactive Devices. Human Computer Interaction Lab, Hasso Plattner Institute. XRDS 24, 3 (April 2018), 62\u201363. https://doi.org/10.1145/3186701",
+      "doi": "10.1145/3186701"
+    },
+    {
+      "text": "Michal Luria, Ophir Sheriff, Marian Boo, Jodi Forlizzi, and Amit Zoran. 2020. Destruction, Catharsis, and Emotional Release in Human-Robot Interaction. J. Hum.-Robot Interact. 9, 4, Article 22 (June 2020), 19\u00a0pages. https://doi.org/10.1145/3385007",
+      "doi": "10.1145/3385007"
+    },
+    {
+      "text": "Roberta Mancini, Alan Dix, and Stefano Levialdi. 2001. Reflections on Undo. (05 2001).",
+      "doi": ""
+    },
+    {
+      "text": "Aaron Marcus. 1998. Metaphor Design in User Interfaces. SIGDOC Asterisk J. Comput. Doc. 22, 2 (May 1998), 43\u201357. https://doi.org/10.1145/291391.291397",
+      "doi": "10.1145/291391.291397"
+    },
+    {
+      "text": "Bernhard Maurer and Verena Fuchsberger. 2019. Dislocated Boardgames: Design Potentials for Remote Tangible Play. Multimodal Technologies and Interaction 3, 4 (Nov 2019), 72. https://doi.org/10.3390/mti3040072",
+      "doi": ""
+    },
+    {
+      "text": "Dan Maynes-Aminzade. 2005. Edible bits: Seamless interfaces between people, data and food. In Conference on Human Factors in Computing Systems (CHI\u201905)-Extended Abstracts. Citeseer, 2207\u20132210.",
+      "doi": ""
+    },
+    {
+      "text": "John McCarthy and Peter Wright. 2017. Commentary: Making Interactivity Meaningful for Contemporary HCI. Human\u2013Computer Interaction 32, 3 (2017), 148\u2013152. https://doi.org/10.1080/07370024.2016.1254048 arXiv:https://doi.org/10.1080/07370024.2016.1254048",
+      "doi": "10.1080/07370024.2016.1254048"
+    },
+    {
+      "text": "Thomas Mejtoft, Sarah Hale, and Ulrik S\u00f6derstr\u00f6m. 2019. Design Friction. 41\u201344. https://doi.org/10.1145/3335082.3335106",
+      "doi": "10.1145/3335082.3335106"
+    },
+    {
+      "text": "Elisa\u00a0D Mekler and Kasper Hornb\u00e6k. 2016. Momentary pleasure or lasting meaning? Distinguishing eudaimonic and hedonic user experiences. In Proceedings of the 2016 chi conference on human factors in computing systems. 4509\u20134520.",
+      "doi": "10.1145/2858036.2858225"
+    },
+    {
+      "text": "Elisa\u00a0D Mekler and Kasper Hornb\u00e6k. 2019. A framework for the experience of meaning in human-computer interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3290605.3300455"
+    },
+    {
+      "text": "Christian Montag, Bernd Lachmann, Marc Herrlich, and Katharina Zweig. 2019. Addictive Features of Social Media/Messenger Platforms and Freemium Games against the Background of Psychological and Economic Theories. International Journal of Environmental Research and Public Health 16, 14(2019). https://doi.org/10.3390/ijerph16142612",
+      "doi": ""
+    },
+    {
+      "text": "Florian\u00a0\u2019Floyd\u2019 Mueller, Stefan Agamanolis, Frank Vetere, and Martin Gibbs. 2007. Brute Force as Input for Networked Gaming. In Proceedings of the 19th Australasian Conference on Computer-Human Interaction: Entertaining User Interfaces (Adelaide, Australia) (OZCHI \u201907). Association for Computing Machinery, New York, NY, USA, 167\u2013170. https://doi.org/10.1145/1324892.1324922",
+      "doi": "10.1145/1324892.1324922"
+    },
+    {
+      "text": "Florian\u00a0\u2019Floyd\u2019 Mueller, Stefan Agamanolis, Frank Vetere, and Martin Gibbs. 2009. Brute Force Interactions: Leveraging Intense Physical Actions in Gaming. In Proceedings of the 21st Annual Conference of the Australian Computer-Human Interaction Special Interest Group: Design: Open 24/7 (Melbourne, Australia) (OZCHI \u201909). Association for Computing Machinery, New York, NY, USA, 57\u201364. https://doi.org/10.1145/1738826.1738836",
+      "doi": "10.1145/1738826.1738836"
+    },
+    {
+      "text": "Florian\u00a0\u2019Floyd\u2019 Mueller, Stefan Agamanolis, Frank Vetere, and Martin\u00a0R. Gibbs. 2009. A Framework for Exertion Interactions over a Distance. In Proceedings of the 2009 ACM SIGGRAPH Symposium on Video Games (New Orleans, Louisiana) (Sandbox \u201909). Association for Computing Machinery, New York, NY, USA, 143\u2013150. https://doi.org/10.1145/1581073.1581096",
+      "doi": "10.1145/1581073.1581096"
+    },
+    {
+      "text": "Stefanie Mueller, Martin Fritzsche, Jan Kossmann, Maximilian Schneider, Jonathan Striebel, and Patrick Baudisch. 2015. Scotty: Relocating Physical Objects Across Distances Using Destructive Scanning, Encryption, and 3D Printing. In Proceedings of the Ninth International Conference on Tangible, Embedded, and Embodied Interaction (Stanford, California, USA) (TEI \u201915). Association for Computing Machinery, New York, NY, USA, 233\u2013240. https://doi.org/10.1145/2677199.2680547",
+      "doi": "10.1145/2677199.2680547"
+    },
+    {
+      "text": "Martin Murer. 2018. Making Things Apart: Gaining Material Understanding. In Proceedings of the 2018 Designing Interactive Systems Conference (Hong Kong, China) (DIS \u201918). Association for Computing Machinery, New York, NY, USA, 497\u2013509. https://doi.org/10.1145/3196709.3196806",
+      "doi": "10.1145/3196709.3196806"
+    },
+    {
+      "text": "Martin Murer, Verena Fuchsberger, and Manfred Tscheligi. 2017. Un-Crafting: De-Constructive Engagements with Interactive Artifacts. In Proceedings of the Eleventh International Conference on Tangible, Embedded, and Embodied Interaction (Yokohama, Japan) (TEI \u201917). Association for Computing Machinery, New York, NY, USA, 67\u201377. https://doi.org/10.1145/3024969.3024993",
+      "doi": "10.1145/3024969.3024993"
+    },
+    {
+      "text": "Martin Murer, Mattias Jacobsson, Siri Skillgate, and Petra Sundstr\u00f6m. 2014. Taking Things Apart: Reaching Common Ground and Shared Material Understanding. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 469\u2013472. https://doi.org/10.1145/2556288.2557267",
+      "doi": "10.1145/2556288.2557267"
+    },
+    {
+      "text": "Martin Murer, Anna Vallg\u00e5rda, Mattias Jacobsson, and Manfred Tscheligi. 2015. Un-Crafting: Exploring Tangible Practices for Deconstruction in Interactive System Design. In Proceedings of the Ninth International Conference on Tangible, Embedded, and Embodied Interaction (Stanford, California, USA) (TEI \u201915). Association for Computing Machinery, New York, NY, USA, 469\u2013472. https://doi.org/10.1145/2677199.2683582",
+      "doi": "10.1145/2677199.2683582"
+    },
+    {
+      "text": "Molly\u00a0Jane Nicholas, Sarah Sterman, and Eric Paulos. 2022. Creative and Motivational Strategies Used by Expert Creative Practitioners. In Creativity and Cognition (Venice, Italy) (C&C \u201922). Association for Computing Machinery, New York, NY, USA, 323\u2013335. https://doi.org/10.1145/3527927.3532870",
+      "doi": "10.1145/3527927.3532870"
+    },
+    {
+      "text": "K. Niedderer. 2007. Designing Mindful Interaction: The Category of Performative Object. Design Issues 23, 1 (2007), 3\u201317. https://doi.org/10.1162/desi.2007.23.1.3",
+      "doi": ""
+    },
+    {
+      "text": "Jakob Nielsen and Rolf Molich. 1990. Heuristic Evaluation of User Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Seattle, Washington, USA) (CHI \u201990). Association for Computing Machinery, New York, NY, USA, 249\u2013256. https://doi.org/10.1145/97243.97281",
+      "doi": "10.1145/97243.97281"
+    },
+    {
+      "text": "Patricia\u00a0A. Norberg, Daniel\u00a0R. Horne, and David\u00a0A. Horne. 2007. The Privacy Paradox: Personal Information Disclosure Intentions versus Behaviors. Journal of Consumer Affairs 41, 1 (March 2007), 100\u2013126. https://doi.org/10.1111/j.1745-6606.2006.00070.x",
+      "doi": ""
+    },
+    {
+      "text": "William Odom, James Pierce, Erik Stolterman, and Eli Blevis. 2009. Understanding Why We Preserve Some Things and Discard Others in the Context of Interaction Design. Association for Computing Machinery, New York, NY, USA, 1053\u20131062. https://doi-org.emedien.ub.uni-muenchen.de/10.1145/1518701.1518862",
+      "doi": ""
+    },
+    {
+      "text": "Doenja Oogjes, Ron Wakkary, Henry Lin, and Omid Alemi. 2020. Fragile! Handle with Care: The Morse Things. In Proceedings of the 2020 ACM Designing Interactive Systems Conference (Eindhoven, Netherlands) (DIS \u201920). Association for Computing Machinery, New York, NY, USA, 2149\u20132162. https://doi.org/10.1145/3357236.3395584",
+      "doi": "10.1145/3357236.3395584"
+    },
+    {
+      "text": "David Parisi. 2013. Shocking grasps: An archaeology of electrotactile game mechanics. Game Studies 13, 2 (2013).",
+      "doi": ""
+    },
+    {
+      "text": "James Pierce. 2012. Undesigning Technology: Considering the Negation of Design by Design. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Austin, Texas, USA) (CHI \u201912). Association for Computing Machinery, New York, NY, USA, 957\u2013966. https://doi.org/10.1145/2207676.2208540",
+      "doi": "10.1145/2207676.2208540"
+    },
+    {
+      "text": "James Pierce and Eric Paulos. 2014. Counterfunctional Things: Exploring Possibilities in Designing Digital Limitations. In Proceedings of the 2014 Conference on Designing Interactive Systems (Vancouver, BC, Canada) (DIS \u201914). Association for Computing Machinery, New York, NY, USA, 375\u2013384. https://doi.org/10.1145/2598510.2598522",
+      "doi": "10.1145/2598510.2598522"
+    },
+    {
+      "text": "James Pierce and Eric Paulos. 2015. Making Multiple Uses of the Obscura 1C Digital Camera: Reflecting on the Design, Production, Packaging and Distribution of a Counterfunctional Device. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 2103\u20132112. https://doi.org/10.1145/2702123.2702405",
+      "doi": "10.1145/2702123.2702405"
+    },
+    {
+      "text": "Isabel P.\u00a0S. Qamar, Rainer Groh, David Holman, and Anne Roudaut. 2018. HCI Meets Material Science: A Literature Review of Morphing Materials for the Design of Shape-Changing Interfaces. Association for Computing Machinery, New York, NY, USA, 1\u201323. https://doi.org/10.1145/3173574.3173948",
+      "doi": "10.1145/3173574.3173948"
+    },
+    {
+      "text": "Christian Remy and Elaine\u00a0M. Huang. 2015. Addressing the Obsolescence of End-User Devices: Approaches from the Field of Sustainable HCI. In ICT Innovations for Sustainability, Lorenz\u00a0M. Hilty and Bernard Aebischer (Eds.). Springer International Publishing, Cham, 257\u2013267.",
+      "doi": ""
+    },
+    {
+      "text": "Julia Ringler and Holger Reckter. 2012. DESU 100: About the Temptation to Destroy a Robot. In Proceedings of the Sixth International Conference on Tangible, Embedded and Embodied Interaction (Kingston, Ontario, Canada) (TEI \u201912). Association for Computing Machinery, New York, NY, USA, 151\u2013152. https://doi.org/10.1145/2148131.2148164",
+      "doi": "10.1145/2148131.2148164"
+    },
+    {
+      "text": "Giuseppe Riva, John Waterworth, and Dianne Murray. 2014. Interacting with Presence: HCI and the Sense of Presence in Computer-mediated Environments. Walter de Gruyter GmbH & Co KG.",
+      "doi": ""
+    },
+    {
+      "text": "Holly Robbins, Elisa Giaccardi, and Elvin Karana. 2016. Traces as an Approach to Design for Focal Things and Practices. In Proceedings of the 9th Nordic Conference on Human-Computer Interaction (Gothenburg, Sweden) (NordiCHI \u201916). Association for Computing Machinery, New York, NY, USA, Article 19, 10\u00a0pages. https://doi.org/10.1145/2971485.2971538",
+      "doi": "10.1145/2971485.2971538"
+    },
+    {
+      "text": "Daniela\u00a0K. Rosner, Miwa Ikemiya, Diana Kim, and Kristin Koch. 2013. Designing with Traces. Association for Computing Machinery, New York, NY, USA, 1649\u20131658. https://doi.org/10.1145/2470654.2466218",
+      "doi": "10.1145/2470654.2466218"
+    },
+    {
+      "text": "Beat Rossmy, Sarah\u00a0Theres V\u00f6lkel, Elias Naphausen, Patricia Kimm, Alexander Wiethoff, and Andreas Muxel. 2020. Punishable AI: Examining Users\u2019 Attitude Towards Robot Punishment. In Proceedings of the 2020 ACM Designing Interactive Systems Conference (Eindhoven, Netherlands) (DIS \u201920). Association for Computing Machinery, New York, NY, USA, 179\u2013191. https://doi.org/10.1145/3357236.3395542",
+      "doi": "10.1145/3357236.3395542"
+    },
+    {
+      "text": "Beat Rossmy and Alexander Wiethoff. 2019. COMB \u2013 Shape as a Meaningful Element of Interaction. In Proceedings of the Thirteenth International Conference on Tangible, Embedded, and Embodied Interaction(Tempe, Arizona, USA) (TEI \u201919). Association for Computing Machinery, New York, NY, USA, 287\u2013295. https://doi.org/10.1145/3294109.3295646",
+      "doi": "10.1145/3294109.3295646"
+    },
+    {
+      "text": "Samar Sabie, Steven\u00a0J. Jackson, Wendy Ju, and Tapan Parikh. 2022. Unmaking as Agonism: Using Participatory Design with Youth to Surface Difference in an Intergenerational Urban Context. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 324, 16\u00a0pages. https://doi.org/10.1145/3491102.3501930",
+      "doi": "10.1145/3491102.3501930"
+    },
+    {
+      "text": "Magdalena Schmid, Sonja R\u00fcmelin, and Hendrik Richter. 2013. Empowering Materiality: Inspiring the Design of Tangible Interactions. In Proceedings of the 7th International Conference on Tangible, Embedded and Embodied Interaction(Barcelona, Spain) (TEI \u201913). Association for Computing Machinery, New York, NY, USA, 91\u201398. https://doi.org/10.1145/2460625.2460639",
+      "doi": "10.1145/2460625.2460639"
+    },
+    {
+      "text": "Hanna Schneider, Malin Eiband, Daniel Ullrich, and Andreas Butz. 2018. Empowerment in HCI - A Survey and Framework. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3173574.3173818",
+      "doi": "10.1145/3173574.3173818"
+    },
+    {
+      "text": "Phoebe Sengers, Kirsten Boehner, Shay David, and Joseph\u00a0\u2019Jofish\u2019 Kaye. 2005. Reflective Design. In Proceedings of the 4th Decennial Conference on Critical Computing: Between Sense and Sensibility (Aarhus, Denmark) (CC \u201905). Association for Computing Machinery, New York, NY, USA, 49\u201358. https://doi.org/10.1145/1094562.1094569",
+      "doi": "10.1145/1094562.1094569"
+    },
+    {
+      "text": "Swapneel Sheth, Jonathan Bell, and Gail Kaiser. 2011. HALO (Highly Addictive, Socially Optimized) Software Engineering. In Proceedings of the 1st International Workshop on Games and Software Engineering (Waikiki, Honolulu, HI, USA) (GAS \u201911). Association for Computing Machinery, New York, NY, USA, 29\u201332. https://doi.org/10.1145/1984674.1984685",
+      "doi": "10.1145/1984674.1984685"
+    },
+    {
+      "text": "Ben Shneiderman, Catherine Plaisant, Maxine\u00a0S Cohen, Steven Jacobs, Niklas Elmqvist, and Nicholas Diakopoulos. 2016. Designing the user interface: strategies for effective human-computer interaction. Pearson.",
+      "doi": ""
+    },
+    {
+      "text": "M.\u00a0Six Silberman, Lisa Nathan, Bran Knowles, Roy Bendor, Adrian Clear, Maria H\u00e5kansson, Tawanna Dillahunt, and Jennifer Mankoff. 2014. Next Steps for Sustainable HCI. Interactions 21, 5 (Sept. 2014), 66\u201369. https://doi.org/10.1145/2651820",
+      "doi": "10.1145/2651820"
+    },
+    {
+      "text": "Katherine\u00a0W Song and Eric Paulos. 2021. Unmaking: Enabling and Celebrating the Creative Material of Failure, Destruction, Decay, and Deformation. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 429, 12\u00a0pages. https://doi.org/10.1145/3411764.3445529",
+      "doi": "10.1145/3411764.3445529"
+    },
+    {
+      "text": "Chairs\u00a0Constantine Stephanidis, Gavriel Salvendy, Members of\u00a0the Group Margherita\u00a0Antona, Jessie Y.\u00a0C. Chen, Jianming Dong, Vincent\u00a0G. Duffy, Xiaowen Fang, Cali Fidopiastis, Gino Fragomeni, Limin\u00a0Paul Fu, Yinni Guo, Don Harris, Andri Ioannou, Kyeong ah (Kate)\u00a0Jeong, Shin\u2019ichi Konomi, Heidi Kr\u00f6mker, Masaaki Kurosu, James\u00a0R. Lewis, Aaron Marcus, Gabriele Meiselwitz, Abbas Moallem, Hirohiko Mori, Fiona Fui-Hoon Nah, Stavroula Ntoa, Pei-Luen\u00a0Patrick Rau, Dylan Schmorrow, Keng Siau, Norbert Streitz, Wentao Wang, Sakae Yamamoto, Panayiotis Zaphiris, and Jia Zhou. 2019. Seven HCI Grand Challenges. International Journal of Human\u2013Computer Interaction 35, 14(2019), 1229\u20131269. https://doi.org/10.1080/10447318.2019.1619259 arXiv:https://doi.org/10.1080/10447318.2019.1619259",
+      "doi": ""
+    },
+    {
+      "text": "Paul Strohmeier, Juan\u00a0Pablo Carrascal, Bernard Cheng, Margaret Meban, and Roel Vertegaal. 2016. An Evaluation of Shape Changes for Conveying Emotions. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 3781\u20133792. https://doi.org/10.1145/2858036.2858537",
+      "doi": "10.1145/2858036.2858537"
+    },
+    {
+      "text": "Axel Sylvester, Tanja D\u00f6ring, and Albrecht Schmidt. 2010. Liquids, Smoke, and Soap Bubbles: Reflections on Materials for Ephemeral User Interfaces. In Proceedings of the Fourth International Conference on Tangible, Embedded, and Embodied Interaction (Cambridge, Massachusetts, USA) (TEI \u201910). Association for Computing Machinery, New York, NY, USA, 269\u2013270. https://doi.org/10.1145/1709886.1709941",
+      "doi": "10.1145/1709886.1709941"
+    },
+    {
+      "text": "Nazli Terzioglu. 2017. Do-fix: creating deeper relationships between users and products through visible repair. (June 2017). https://researchonline.rca.ac.uk/2818/",
+      "doi": ""
+    },
+    {
+      "text": "Harold Thimbleby. 1990. User interface design. ACM.",
+      "doi": ""
+    },
+    {
+      "text": "Giovanni\u00a0Maria Troiano, Esben\u00a0Warming Pedersen, and Kasper Hornb\u00e6k. 2015. Deformable Interfaces for Performing Music. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 377\u2013386. https://doi.org/10.1145/2702123.2702492",
+      "doi": "10.1145/2702123.2702492"
+    },
+    {
+      "text": "Wenn-Chieh Tsai and Elise Van Den\u00a0Hoven. 2018. Memory probes: Exploring retrospective user experience through traces of use on cherished objects. International Journal of Design 12, 3 (2018), 57\u201372.",
+      "doi": ""
+    },
+    {
+      "text": "Vasiliki Tsaknaki and Ylva Fernaeus. 2016. Expanding on Wabi-Sabi as a Design Resource in HCI. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 5970\u20135983. https://doi.org/10.1145/2858036.2858459",
+      "doi": "10.1145/2858036.2858459"
+    },
+    {
+      "text": "Daisuke Uriu, William Odom, Mei-Kei Lai, Sai Taoka, and Masahiko Inami. 2018. SenseCenser: An Interactive Device for Sensing Incense Smoke & Supporting Memorialization Rituals in Japan. In Proceedings of the 2018 ACM Conference Companion Publication on Designing Interactive Systems (Hong Kong, China) (DIS \u201918 Companion). Association for Computing Machinery, New York, NY, USA, 315\u2013318. https://doi.org/10.1145/3197391.3205394",
+      "doi": "10.1145/3197391.3205394"
+    },
+    {
+      "text": "Ron Wakkary, William Odom, Sabrina Hauser, Garnet Hertz, and Henry Lin. 2015. Material Speculation: Actual Artifacts for Critical Inquiry. In Proceedings of The Fifth Decennial Aarhus Conference on Critical Alternatives (Aarhus, Denmark) (CA \u201915). Aarhus University Press, Aarhus N, 97\u2013108. https://doi.org/10.7146/aahcc.v1i1.21299",
+      "doi": "10.7146/aahcc.v1i1.21299"
+    },
+    {
+      "text": "Shanel Wu and Laura Devendorf. 2020. Unfabricate: Designing Smart Textiles for Disassembly. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376227",
+      "doi": "10.1145/3313831.3376227"
+    },
+    {
+      "text": "Yiya Yang. 1988. Undo support models. International Journal of Man-Machine Studies 28, 5 (1988), 457\u2013481.",
+      "doi": "10.1016/S0020-7373%2888%2980056-7"
+    },
+    {
+      "text": "Clement Zheng, Peter Gyory, and Ellen Yi-Luen Do. 2020. Tangible Interfaces with Printed Paper Markers. In Proceedings of the 2020 ACM Designing Interactive Systems Conference (Eindhoven, Netherlands) (DIS \u201920). Association for Computing Machinery, New York, NY, USA, 909\u2013923. https://doi.org/10.1145/3357236.3395578",
+      "doi": "10.1145/3357236.3395578"
+    },
+    {
+      "text": "John Zimmerman, Jodi Forlizzi, and Shelley Evenson. 2007. Research through Design as a Method for Interaction Design Research in HCI. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201907). Association for Computing Machinery, New York, NY, USA, 493\u2013502. https://doi.org/10.1145/1240624.1240704",
+      "doi": "10.1145/1240624.1240704"
+    }
+  ]
+}

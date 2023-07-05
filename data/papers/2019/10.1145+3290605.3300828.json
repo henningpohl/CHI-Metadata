@@ -1,0 +1,197 @@
+{
+  "doi": "10.1145/3290605.3300828",
+  "title": "Voice Presentation Attack Detection through Text-Converted Voice Command Analysis",
+  "published": "2019-05-02",
+  "proctitle": "CHI '19: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-12",
+  "year": 2019,
+  "badges": [],
+  "abstract": "Voice assistants are quickly being upgraded to support advanced, security-critical commands such as unlocking devices, checking emails, and making payments. In this paper, we explore the feasibility of using users' text-converted voice command utterances as classification features to help identify users' genuine commands, and detect suspicious commands. To maintain high detection accuracy, our approach starts with a globally trained attack detection model (immediately available for new users), and gradually switches to a user-specific model tailored to the utterance patterns of a target user. To evaluate accuracy, we used a real-world voice assistant dataset consisting of about 34.6 million voice commands collected from 2.6 million users. Our evaluation results show that this approach is capable of achieving about 3.4% equal error rate (EER), detecting 95.7% of attacks when an optimal threshold value is used. As for those who frequently use security-critical (attack-like) commands, we still achieve EER below 5%.",
+  "authors": [
+    {
+      "name": "Il-Youp Kwak",
+      "institution": "Samsung Research, Seoul, Rebublic of Korea",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659366236",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jun Ho Huh",
+      "institution": "Samsung Research, Seoul, Rebublic of Korea",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81387593973",
+      "orcid": "0000-0003-2007-4018"
+    },
+    {
+      "name": "Seung Taek Han",
+      "institution": "Samsung Research, Seoul, Rebublic of Korea",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659365740",
+      "orcid": "missing"
+    },
+    {
+      "name": "Iljoo Kim",
+      "institution": "Samsung Research, Seoul, Rebublic of Korea",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659365108",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jiwon Yoon",
+      "institution": "Korea University, Seoul, Rebublic of Korea",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658728347",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Muzhir Shaban Al-Ani, Thabit Sultan Mohammed, and Karim M. Aljebory. 2007. Speaker identifcation: A hybrid approach using neural networks and wavelet transform. Journal of Computer Science 3 (2007), 304--309.",
+      "doi": ""
+    },
+    {
+      "text": "Sercan Arik, Gregory Diamos, Andrew Gibiansky, John Miller, Kainan Peng, Wei Ping, Jonathan Raiman, and Yanqi Zhou. 2017. Deep Voice 2: Multi-speaker neural text-to-speech. In Advances in Neural Information Processing Systems 30. NIPS, California. ",
+      "doi": "10.5555/3294996.3295056"
+    },
+    {
+      "text": "Bulent Ayhan and Chiman Kwan. 2018. Robust speaker identifcation algorithms and results in noisy environments. In International Symposium on Neural Networks 2018. ISNN, Minsk, 443--450.",
+      "doi": ""
+    },
+    {
+      "text": "Logan Blue, Luis Vargas, and Patrick Traynor. 2018. Hello, Is It Me You're Looking For?: Diferentiating Between Human and Electronic Speakers for Voice Interface Security. In Proceedings of the 11th ACM Conference on Security Privacy in Wireless and Mobile Networks. ACM, Stockholm, 123--133.  ",
+      "doi": "10.1145/3212480.3212505"
+    },
+    {
+      "text": "Jean-Francois Bonastre, Driss Matrouf, and Corinne Fredouille. 2007. Artifcial impostor voice transformation efects on false acceptance rates. In Proc. Interspeech 2007. ISCA, Antwerp, 2053--2056.",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas Carlini, Pratyush Mishra, Tavish Vaidya, Yuankai Zhang, Micah Sherr, Clay Shields, David Wagner, and Wenchao Zhou. 2016. Hidden voice commands. In 25th USENIX Security Symposium. USENIX, Texas. ",
+      "doi": "10.5555/3241094.3241135"
+    },
+    {
+      "text": "Nicholas Carlini and David Wagner. 2018. Audio adversarial examples: Targeted attacks on Speech-to-Text. In 1st Deep Learning and Security Workshop. IEEE, California.",
+      "doi": ""
+    },
+    {
+      "text": "Si Chen, Kui Ren, Sixu Piao, Cong Wang, Qian Wang, Jian Weng, Lu Su, and Aziz Mohaisen. 2017. You can hear but you cannot steal: Defending against voice impersonation attacks on smartphones. In Proceedings of the 37th IEEE International Conference on Distributed Computing Systems. IEEE, Georgia, 183-195.",
+      "doi": ""
+    },
+    {
+      "text": "Chung-Cheng Chiu, Tara N. Sainath, Yonghui Wu, Rohit Prabhavalkar, Patrick Nguyen, Zhifeng Chen, Anjuli Kannan, Ron J. Weiss, Kanishka Rao, Ekaterina Gonina, Navdeep Jaitly, Bo Li, Jan Chorowski, and Michiel Bacchiani. 2018. State-of-the-art speech recognition with sequence-to-sequence models. In 2018 IEEE International Conference on Acoustics, Speech and Signal Processing. IEEE, Alberta.",
+      "doi": "10.1109/ICASSP.2018.8462105"
+    },
+    {
+      "text": "Charles Elkan. 2001. The foundations of cost-sensitive learning. In Proceedings of the Seventeenth International Joint Conference on Artifcial Intelligence (IJCAI'01). IJCAI, Washington, 973--978. ",
+      "doi": "10.5555/1642194.1642224"
+    },
+    {
+      "text": "Serife Kucur Ergunay, Elie Khoury, Alexandros Lazaridis, and Sebastien Marcel. 2015. On the vulnerability of speaker verifcation to realistic voice spoofng. In 2015 IEEE 7th International Conference on Biometrics Theory, Applications and Systems (BTAS). IEEE, Virginia, 1--8.",
+      "doi": "10.1109/BTAS.2015.7358783"
+    },
+    {
+      "text": "Adrienne Porter Felt, Serge Egelman, and David Wagner. 2012. I'Ve Got 99 Problems, but Vibration Ain'T One: A Survey of Smartphone Users' Concerns. In Proceedings of the Second ACM Workshop on Security and Privacy in Smartphones and Mobile Devices (SPSM '12). ACM, New York, NY, USA, 33--44.  ",
+      "doi": "10.1145/2381934.2381943"
+    },
+    {
+      "text": "Huan Feng, Kassem Fawaz, and Kang G. Shin. 2017. Continuous authentication for voice assistants. In Proceedings of the 23rd Annual International Conference on Mobile Computing and Networking. ACM, Utah, 343--355.  ",
+      "doi": "10.1145/3117811.3117823"
+    },
+    {
+      "text": "Kuruvachan K. George, C. Santhosh Kumar, Ashish Panda, K. I. Ramachandran, K. Arun Das, and S. Veni. 2015. Minimizing the false alarm probability of speaker verifcation systems for mimicked speech. In 2015 Intl. Conference on Computing and Network Communications. IEEE, Trivandrum, 703--709.",
+      "doi": ""
+    },
+    {
+      "text": "David Money Harris and Sarah L. Harris. 2013. Digital Design and Computer Architecture (2nd Ed). Morgan Kaufmann, San Francisco. 129--131 pages.",
+      "doi": ""
+    },
+    {
+      "text": "Qin Jin, Arthur R. Toth, Alan W. Black, and Tanja Schultz. 2008. Is voice transformation a threat to speaker identifcation?. In 2008 IEEE International Conference on Acoustics, Speech and Signal Processing. IEEE, Nevada, 4845--4848.",
+      "doi": ""
+    },
+    {
+      "text": "Martin Karu and Tanel Alumae. 2018. Weakly supervised training of speaker identifcation models. In Odyssey 2018 The Speaker and Language Recognition Workshop. ISCA, Les Sables d'Olonne, 24-- 30.",
+      "doi": ""
+    },
+    {
+      "text": "Tomi Kinnunen, Md Sahidullah, Hector Delgado, Massimiliano Todisco, Nicholas Evans, Junichi Yamagishi, and Kong Aik Lee. 2017. The ASVspoof 2017 challenge: Assessing the limits of replay spoofng attack detection. In Proc. Interspeech 2017. ISCA, Stockholm, 2--6.",
+      "doi": ""
+    },
+    {
+      "text": "Yee Wah Lau, M. Wagner, and D. Tran. 2004. Vulnerability of speaker verifcation to voice mimicking. In Proceedings of 2004 International Symposium on Intelligent Multimedia, Video and Speech Processing. IEEE, Hong Kong, 145--148.",
+      "doi": ""
+    },
+    {
+      "text": "Galina Lavrentyeva, Sergey Novoselov, Egor Malykh, Alexander Kozlov, Oleg Kudashev, and Vadim Shchemelinin. 2017. Audio replay attack detection with deep learning frameworks. In Proc. Interspeech 2017. ISCA, Stockholm, 82--86.",
+      "doi": ""
+    },
+    {
+      "text": "Bo Li, Tara N. Sainath, Arun Narayanan, Joe Caroselli, Michiel Bacchiani, Ananya Misra, Izhak Shafran, Hasim Sak, Golan Punduk, Kean Chin, Khe Chai Sim, Ron J. Weiss, Kevin Wilson, Ehsan Variani, Chanwoo Kim, Olivier Siohan, Mitchel Weintraub, Erik McDermott, Rick Rose, and Matt Shannon. 2017. Acoustic modeling for Google Home. In Proc. Interspeech 2017. ISCA, Stockholm, 399--403.",
+      "doi": ""
+    },
+    {
+      "text": "Rui Liu, Cory Cornelius, Reza Rawassizadeh, Ronald Peterson, and David Kotz. 2018. Vocal Resonance: Using Internal Body Voice for Wearable Authentication. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2 (2018), 1--23.  ",
+      "doi": "10.1145/3191751"
+    },
+    {
+      "text": "Michael McTear, Zoraida Callejas, and David Griol. 2016. The Conversational Interface: Talking to Smart Devices. Springer, Switzerland. 166--167 pages. ",
+      "doi": "10.5555/2965050"
+    },
+    {
+      "text": "Shihono Mochizuki, Sayaka Shiota, and Hitoshi Kiya. 2018. Voice liveness detection using phoneme-based pop-noise detector for speaker verifcation. In Odyssey 2018 The Speaker and Language Recognition Workshop. ISCA, Les Sables d'Olonne, 233--239.",
+      "doi": ""
+    },
+    {
+      "text": "Monisankha Pal, Dipjyoti Paul, and Goutam Saha. 2018. Synthesis speech detection using fundamental frequency variation and spectral features. Computer Speech and Language 48 (2018), 31--50.  ",
+      "doi": "10.1016/j.csl.2017.10.001"
+    },
+    {
+      "text": "Saurabh Panjwani and Achintya Prakash. 2014. Crowdsourcing attacks on biometric systems. In Proceedings of the Tenth Symposium On Usable Privacy and Security (SOUPS 2014). USENIX, California, 257--269. ",
+      "doi": "10.5555/3235838.3235861"
+    },
+    {
+      "text": "Tanvina B. Patel and Hemant A. Patil. 2015. Combining evidences from mel cepstral, cochlear flter cepstral and instantaneous frequency features for detection of natural vs. spoofed speech. In Proc. Interspeech 2015. ISCA, Dresden, 2062--2066.",
+      "doi": ""
+    },
+    {
+      "text": "Wei Ping, Kainan Peng, Andrew Gibiansky, Sercan O. Arik, Ajay Kannan, Sharan Narang, Jonathan Raiman, and John Miller. 2018. Deep Voice 3: Scaling text-to-speech with convolutional sequence learning. In 6th International Conference on Learning Representations. ICLR, Vancouver.",
+      "doi": ""
+    },
+    {
+      "text": "Douglas A. Reynolds and Richard C. Rose. 1995. Robust textindependent speaker identifcation using Gaussian mixture speaker models. 1995 IEEE Transactions on Speech and Audio Processing 3 (1995), 72--83.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Shen, Ruoming Pang, Ron J. Weiss, Mike Schuster, Navdeep Jaitly, Zongheng Yang, Zhifeng Chen, Yu Zhang, Yuxuan Wang, RJ Skerry-Ryan, Rif A. Saurous, Yannis Agiomyrgiannakis, and Yonghui Wu. 2018. Natural TTS synthesis by conditioning WaveNet on mel spectrogram predictions. In 2018 IEEE International Conference on Acoustics, Speech and Signal Processing. IEEE, Alberta.",
+      "doi": "10.1109/ICASSP.2018.8461368"
+    },
+    {
+      "text": "Roberto Togneri and Daniel Pullella. 2011. An overview of speaker identifcation: Accuracy and Robustness Issues. IEEE Circuits and Systems Magazine, 09 June 2011 11 (2011), 23--61.",
+      "doi": ""
+    },
+    {
+      "text": "Francis Tom, Mohit Jain, and Prasenjit Dey. 2018. End-To-End Audio Replay Attack Detection Using Deep Convolutional Networks with Attention. In Proc. Interspeech 2018. ISCA, Hyderabad, 681--685.",
+      "doi": ""
+    },
+    {
+      "text": "Jesus Villalba, Antonio Miguel, Alfonso Ortega, and Eduardo Lleida. 2015. Spoofng detection with DNN and one-class SVM for the ASVspoof 2015 challenge. In Proc. Interspeech 2015. ISCA, Dresden, 2067--2071.",
+      "doi": ""
+    },
+    {
+      "text": "Yuxuan Wang, RJ Skerry-Ryan, Daisy Stanton, Yonhui Wu, Ron J. Weiss, Navdeep Jaitly, Zongheng Yang, Ying Xiao, Zhifeng Chen, Samy Bengio, Quoc Le, Yannis Agiomyrgiannakis, Rob Clark, and Rif A. Saurou. 2017. Tacotron: Towards end-to-end speech synthesis. In Proc. Interspeech 2017. ISCA, Stockholm, 4006--4010.",
+      "doi": ""
+    },
+    {
+      "text": "Zhizheng Wu, Tomi Kinnunen, Nicholas Evans, Junichi Yamagishi, Cemal Hanilci, Md. Sahidullah, and Aleksandr Sizov. 2015. ASVspoof 2015: The frst automatic speaker verifcation spoofng and countermeasures challenge. In Proc. Interspeech 2015. ISCA, Dresden, 2037--2041.",
+      "doi": ""
+    },
+    {
+      "text": "Linghan Zhang, Sheng Tan, and Jie Yang. 2017. Hearing your voice is not enough: An articulatory gesture based liveness detection for voice authenticatio. In Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security. ACM, Texas, 57--71.  ",
+      "doi": "10.1145/3133956.3133962"
+    },
+    {
+      "text": "Xiaojia Zhao, Yuxuan Wang, and DeLiang Wang. 2014. Robust speaker identifcation in noisy and reverberant conditions. IEEE/ACM Transactions on Audio, Speech and Language Processing (TASLP) 22 (2014), 836--845.  ",
+      "doi": "10.1109/TASLP.2014.2308398"
+    }
+  ]
+}

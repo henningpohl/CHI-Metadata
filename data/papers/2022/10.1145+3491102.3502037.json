@@ -1,0 +1,528 @@
+{
+  "doi": "10.1145/3491102.3502037",
+  "title": "Semantic Gap in Predicting Mental Wellbeing through Passive Sensing",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2022,
+  "badges": [],
+  "abstract": "When modeling passive data to infer individual mental wellbeing, a common source of ground truth is self-reports. But these tend to represent the psychological facet of mental states, which might not align with the physiological facet of that state. Our paper demonstrates that when what people \u201cfeel\u201d differs from what people \u201csay they feel\u201d, we witness a semantic gap that limits predictions. We show that predicting mental wellbeing with passive data (offline sensors or online social media) is related to how the ground-truth is measured (objective arousal or self-report). Features with psycho-social signals (e.g., language) were better at predicting self-reported anxiety and stress. Conversely, features with behavioral signals (e.g., sleep), were better at predicting stressful arousal. Regardless of the source of ground truth, integrating both signals boosted prediction. To reduce the semantic gap, we provide recommendations to evaluate ground truth measures and adopt parsimonious sensing.",
+  "authors": [
+    {
+      "name": "Vedant Das Swain",
+      "institution": "School of Interactive Computing, Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659254374",
+      "orcid": "0000-0001-6871-3523"
+    },
+    {
+      "name": "Victor Chen",
+      "institution": "School of Interactive Computing, Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81407593263",
+      "orcid": "missing"
+    },
+    {
+      "name": "Shrija Mishra",
+      "institution": "College of Computing, Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660236357",
+      "orcid": "missing"
+    },
+    {
+      "name": "Stephen M. Mattingly",
+      "institution": "University of Notre Dame, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659069720",
+      "orcid": "missing"
+    },
+    {
+      "name": "Gregory D. Abowd",
+      "institution": "Dept. of Electrical and Computer Engineering, Northeastern University, United States and School of Interactive Computing, Georgia Institute of Technology, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100251687",
+      "orcid": "0000-0002-3408-587X"
+    },
+    {
+      "name": "Munmun De Choudhury",
+      "institution": "School of Interactive Computing, Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81343491309",
+      "orcid": "0000-0002-8939-264X"
+    }
+  ],
+  "references": [
+    {
+      "text": "Leona\u00a0S Aiken and Stephen\u00a0G West. 1990. Invalidity of true experiments: Self-report pretest biases. Evaluation review 14, 4 (1990), 374\u2013390.",
+      "doi": ""
+    },
+    {
+      "text": "Antti Airola, Tapio Pahikkala, Willem Waegeman, Bernard De\u00a0Baets, and Tapio Salakoski. 2011. An experimental comparison of cross-validation techniques for estimating the area under the ROC curve. Computational Statistics & Data Analysis 55, 4 (2011), 1828\u20131844.",
+      "doi": "10.1016/j.csda.2010.11.018"
+    },
+    {
+      "text": "Saima Aman and Stan Szpakowicz. 2008. Using roget\u2019s thesaurus for fine-grained emotion recognition. In Proceedings of the Third International Joint Conference on Natural Language Processing: Volume-I. Asian Federation of Natural Language Processing, 312\u2013318.",
+      "doi": ""
+    },
+    {
+      "text": "Silvio Amir, Glen Coppersmith, Paula Carvalho, Mario\u00a0J Silva, and Byron\u00a0C Wallace. 2017. Quantifying mental health from social media with neural user embeddings. arXiv preprint arXiv:1705.00335(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Aris Anagnostopoulos, Ravi Kumar, and Mohammad Mahdian. 2008. Influence and correlation in social networks. In Proceedings of the 14th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 7\u201315.",
+      "doi": "10.1145/1401890.1401897"
+    },
+    {
+      "text": "Mark\u00a0H Anshel. 1996. Effect of chronic aerobic exercise and progressive relaxation on motor performance and affect following acute stress. Behavioral Medicine 21, 4 (1996), 186\u2013196.",
+      "doi": ""
+    },
+    {
+      "text": "Activity\u00a0Recognition API. 2018. https://developers.google.com/location-context/activity-recognition/. Accessed: 2018-11-01.",
+      "doi": ""
+    },
+    {
+      "text": "Garmin\u00a0Health API. 2018. http://developer.garmin.com/health-api/overview/. Accessed: 2018-11-01.",
+      "doi": ""
+    },
+    {
+      "text": "Manager\u00a0REST API. 2018. https://docs.gimbal.com/rest.html. Accessed: 2018-11-01.",
+      "doi": ""
+    },
+    {
+      "text": "Dror Ben-Zeev, Emily\u00a0A Scherer, Rui Wang, Haiyi Xie, and Andrew\u00a0T Campbell. 2015. Next-generation psychiatric assessment: Using smartphone sensors to monitor behavior and mental health.Psychiatric rehabilitation journal 38, 3 (2015), 218.",
+      "doi": ""
+    },
+    {
+      "text": "Stuart\u00a0JH Biddle and Kenneth\u00a0R Fox. 2003. The way forward for physical activity and the promotion of psychological well-being. In Physical activity and psychological well-being. Routledge, 166\u2013173.",
+      "doi": ""
+    },
+    {
+      "text": "Mehrab Bin\u00a0Morshed, Koustuv Saha, Richard Li, Sidney\u00a0K. D\u2019Mello, Munmun De\u00a0Choudhury, Gregory\u00a0D Abowd, and Thomas Pl\u00f6tz. 2019. Prediction of Mood Instability with Passive Sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 3 (2019).",
+      "doi": "10.1145/3351233"
+    },
+    {
+      "text": "Daniel Bone, Matthew\u00a0S Goodwin, Matthew\u00a0P Black, Chi-Chun Lee, Kartik Audhkhasi, and Shrikanth Narayanan. 2015. Applying machine learning to facilitate autism diagnostics: pitfalls and promises. Journal of autism and developmental disorders 45, 5 (2015), 1121\u20131136.",
+      "doi": ""
+    },
+    {
+      "text": "Mehdi Boukhechba, Yu Huang, Philip Chow, Karl Fua, Bethany\u00a0A Teachman, and Laura\u00a0E Barnes. 2017. Monitoring social anxiety from mobility and communication patterns. In Proceedings of the 2017 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2017 ACM International Symposium on Wearable Computers. ACM, 749\u2013753.",
+      "doi": "10.1145/3123024.3125607"
+    },
+    {
+      "text": "Danah Boyd and Kate Crawford. 2012. Critical questions for big data: Provocations for a cultural, technological, and scholarly phenomenon. Information, communication & society 15, 5 (2012), 662\u2013679.",
+      "doi": ""
+    },
+    {
+      "text": "Louis Bucciarelli. 2003. Engineering philosophy. DUP Satellite; an imprint of Delft University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Michelle\u00a0Nicole Burns, Mark Begale, Jennifer Duffecy, Darren Gergle, Chris\u00a0J Karr, Emily Giangrande, and David\u00a0C Mohr. 2011. Harnessing context sensing to develop a mobile intervention for depression. Journal of medical Internet research 13, 3 (2011), e55.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0T Campbell, Shane\u00a0B Eisenman, Nicholas\u00a0D Lane, Emiliano Miluzzo, and Ronald\u00a0A Peterson. 2006. People-centric urban sensing. In Proceedings of the 2nd annual international workshop on Wireless internet. ACM, 18.",
+      "doi": "10.1145/1234161.1234179"
+    },
+    {
+      "text": "Luca Canzian and Mirco Musolesi. 2015. Trajectories of depression: unobtrusive monitoring of depressive states by means of smartphone mobility traces analysis. In Proceedings of the 2015 ACM international joint conference on pervasive and ubiquitous computing. ACM, 1293\u20131304.",
+      "doi": "10.1145/2750858.2805845"
+    },
+    {
+      "text": "Larry Chan, Vedant\u00a0Das Swain, Christina Kelley, Kaya de Barbaro, Gregory\u00a0D Abowd, and Lauren Wilcox. 2018. Students\u2019 Experiences with Ecological Momentary Assessment Tools to Report on Emotional Well-being. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2, 1 (2018), 3.",
+      "doi": "10.1145/3191735"
+    },
+    {
+      "text": "Tianqi Chen, Tong He, Michael Benesty, Vadim Khotilovich, and Yuan Tang. 2015. Xgboost: extreme gradient boosting. R package version 0.4-2(2015), 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "Farhan\u00a0Asif Chowdhury, Yozen Liu, Koustuv Saha, Nicholas Vincent, Leonardo Neves, Neil Shah, and Maarten\u00a0W Bos. 2021. Modeling Cyclic and Ephemeral User Behavior on Social Platforms. In Proceedings of the International AAAI Conference on Web and Social Media.",
+      "doi": ""
+    },
+    {
+      "text": "Matteo Ciman and Katarzyna Wac. 2016. Individuals\u2019 stress assessment using human-smartphone interaction analysis. IEEE Transactions on Affective Computing 9, 1 (2016), 51\u201365.",
+      "doi": ""
+    },
+    {
+      "text": "Glen Coppersmith, Craig Harman, and Mark Dredze. 2014. Measuring post traumatic stress disorder in Twitter. In Eighth international AAAI conference on weblogs and social media.",
+      "doi": ""
+    },
+    {
+      "text": "Sauvik Das and Adam Kramer. 2013. Self-censorship on Facebook. In Seventh international AAAI conference on weblogs and social media.",
+      "doi": ""
+    },
+    {
+      "text": "Vedant Das Swain, Manikanta\u00a0D. Reddy, Kari\u00a0Anne Nies, Louis Tay, Munmun De Choudhury, and Gregory\u00a0D. Abowd. 2019. Birds of a Feather Clock Together: A Study of Person\u2013Organization Fit Through Latent Activity Routines. Proc. ACM Hum.-Comput. InteractCSCW (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Vedant Das\u00a0Swain, Koustuv Saha, Gregory\u00a0D Abowd, and Munmun De\u00a0Choudhury. 2020. Social Media and Ubiquitous Technologies for Remote Worker Wellbeing and Productivity in a Post-Pandemic World. In 2020 IEEE Second International Conference on Cognitive Machine Intelligence (CogMI). IEEE, 121\u2013130.",
+      "doi": ""
+    },
+    {
+      "text": "Heather\u00a0M Davey, Alexandra\u00a0L Barratt, Phyllis\u00a0N Butow, and Jonathan\u00a0J Deeks. 2007. A one-item question with a Likert or Visual Analog Scale adequately measured current anxiety. Journal of clinical epidemiology 60, 4 (2007), 356\u2013360.",
+      "doi": ""
+    },
+    {
+      "text": "Firstbeat Analytics\u00a0All day Stress &\u00a0Recovery. 2021. https://www.firstbeatanalytics.com/en/features/all-day-stress-recovery/. (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Munmun De\u00a0Choudhury, Michael Gamon, Scott Counts, and Eric Horvitz. 2013. Predicting depression via social media. In Seventh international AAAI conference on weblogs and social media.",
+      "doi": ""
+    },
+    {
+      "text": "Norman\u00a0K Denzin. 2012. Triangulation 2.0. Journal of mixed methods research 6, 2 (2012), 80\u201388.",
+      "doi": ""
+    },
+    {
+      "text": "Trinh Minh\u00a0Tri Do and Daniel Gatica-Perez. 2014. Where and what: Using smartphones to predict next locations and applications in daily life. Pervasive and Mobile Computing 12 (2014), 79\u201391.",
+      "doi": ""
+    },
+    {
+      "text": "Pedro Domingos. 1998. Occam\u2019s two razors: The sharp and the blunt. In KDD. 37\u201343.",
+      "doi": ""
+    },
+    {
+      "text": "Jon\u00a0D Elhai, Robert\u00a0D Dvorak, Jason\u00a0C Levine, and Brian\u00a0J Hall. 2017. Problematic smartphone use: A conceptual overview and systematic review of relations with anxiety and depression psychopathology. Journal of affective disorders 207 (2017), 251\u2013259.",
+      "doi": ""
+    },
+    {
+      "text": "Jane Elith, John\u00a0R Leathwick, and Trevor Hastie. 2008. A working guide to boosted regression trees. Journal of Animal Ecology 77, 4 (2008), 802\u2013813.",
+      "doi": ""
+    },
+    {
+      "text": "Sindhu\u00a0Kiranmai Ernala, Michael\u00a0L Birnbaum, Kristin\u00a0A Candan, Asra\u00a0F Rizvi, William\u00a0A Sterling, John\u00a0M Kane, and Munmun De\u00a0Choudhury. 2019. Methodological gaps in predicting mental health states from social media: Triangulating diagnostic signals. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 134.",
+      "doi": "10.1145/3290605.3300364"
+    },
+    {
+      "text": "Sindhu\u00a0Kiranmai Ernala, Tristan Labetoulle, Fred Bane, Michael\u00a0L Birnbaum, Asra\u00a0F Rizvi, John\u00a0M Kane, and Munmun De\u00a0Choudhury. 2018. Characterizing audience engagement and assessing its impact on social media disclosures of mental illnesses. In Twelfth International AAAI Conference on Web and Social Media.",
+      "doi": ""
+    },
+    {
+      "text": "Sindhu\u00a0Kiranmai Ernala, Asra\u00a0F Rizvi, Michael\u00a0L Birnbaum, John\u00a0M Kane, and Munmun De\u00a0Choudhury. 2017. Linguistic markers indicating therapeutic outcomes of social media disclosures of schizophrenia. Proceedings of the ACM on Human-Computer Interaction 1, CSCW(2017), 43.",
+      "doi": "10.1145/3134678"
+    },
+    {
+      "text": "Emre Ertin, Nathan Stohs, Santosh Kumar, Andrew Raij, Mustafa Al\u2019Absi, and Siddharth Shah. 2011. AutoSense: unobtrusively wearable sensor suite for inferring the onset, causality, and consequences of stress in the field. In Proceedings of the 9th ACM Conference on Embedded Networked Sensor Systems. 274\u2013287.",
+      "doi": "10.1145/2070942.2071027"
+    },
+    {
+      "text": "Deborah Estrin. 2014. Small data, where n= me. Commun. ACM 57, 4 (2014), 32\u201334.",
+      "doi": "10.1145/2580944"
+    },
+    {
+      "text": "George\u00a0S Everly and Jeffrey\u00a0M Lating. 2019. The anatomy and physiology of the human stress response. In A clinical guide to the treatment of the human stress response. Springer, 19\u201356.",
+      "doi": ""
+    },
+    {
+      "text": "Raihana Ferdous, Venet Osmani, and Oscar Mayora. 2018. Smartphone apps usage patterns as a predictor of perceived stress levels at workplace. arXiv preprint arXiv:1803.03863(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth\u00a0R Foster, Robert Koprowski, and Joseph\u00a0D Skufca. 2014. Machine learning, medical diagnosis, and biomedical engineering research-commentary. Biomedical engineering online 13, 1 (2014), 94.",
+      "doi": ""
+    },
+    {
+      "text": "Asma Ghandeharioun and Rosalind Picard. 2017. BrightBeat: effortlessly influencing breathing for cultivating calmness and focus. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems. ACM, 1624\u20131631.",
+      "doi": "10.1145/3027063.3053164"
+    },
+    {
+      "text": "Martin Gjoreski, Mitja Lu\u0161trek, Matja\u017e Gams, and Hristijan Gjoreski. 2017. Monitoring stress with a wrist device using context. Journal of biomedical informatics 73 (2017), 159\u2013170.",
+      "doi": "10.1016/j.jbi.2017.08.006"
+    },
+    {
+      "text": "Erving Goffman 1978. The presentation of self in everyday life. Harmondsworth London.",
+      "doi": ""
+    },
+    {
+      "text": "Mathew\u00a0J Gregoski, Alexey Vertegel, Aleksey Shaporev, and Frank\u00a0A Treiber. 2013. Tension Tamer: delivering meditation with objective heart rate acquisition for adherence monitoring using a smart phone platform. The Journal of Alternative and Complementary Medicine 19, 1 (2013), 17\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0M Groves and Emilia Peytcheva. 2008. The impact of nonresponse rates on nonresponse bias: a meta-analysis. Public opinion quarterly 72, 2 (2008), 167\u2013189.",
+      "doi": ""
+    },
+    {
+      "text": "Gabriella\u00a0M Harari, Nicholas\u00a0D Lane, Rui Wang, Benjamin\u00a0S Crosier, Andrew\u00a0T Campbell, and Samuel\u00a0D Gosling. 2016. Using smartphones to collect behavioral data in psychological science: Opportunities, practical considerations, and challenges. Perspectives on Psychological Science 11, 6 (2016), 838\u2013854.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathon\u00a0S Hare, Paul\u00a0H Lewis, Peter\u00a0GB Enser, and Christine\u00a0J Sandom. 2006. Mind the gap: another look at the problem of the semantic gap in image retrieval. In Multimedia Content Analysis, Management, and Retrieval 2006, Vol.\u00a06073. International Society for Optics and Photonics, 607309.",
+      "doi": ""
+    },
+    {
+      "text": "Juliane Hellhammer and Melanie Schubert. 2012. The physiological response to Trier Social Stress Test relates to subjective measures of stress during but not before or after the test. Psychoneuroendocrinology 37, 1 (2012), 119\u2013124.",
+      "doi": ""
+    },
+    {
+      "text": "Karen Hovsepian, Mustafa al\u2019Absi, Emre Ertin, Thomas Kamarck, Motohiro Nakajima, and Santosh Kumar. 2015. cStress: towards a gold standard for continuous stress assessment in the mobile environment. In Proceedings of the 2015 ACM international joint conference on pervasive and ubiquitous computing. ACM, 493\u2013504.",
+      "doi": "10.1145/2750858.2807526"
+    },
+    {
+      "text": "John\u00a0A Johnson. 1981. The\u201d self-disclosure\u201d and\u201d self-presentation\u201d views of item response dynamics and personality scale validity.Journal of Personality and Social Psychology 40, 4(1981), 761.",
+      "doi": ""
+    },
+    {
+      "text": "Timothy\u00a0P Johnson and Fons\u00a0JR Van\u00a0de Vijver. 2003. Social desirability in cross-cultural research. Cross-cultural survey methods 325 (2003), 195\u2013204.",
+      "doi": ""
+    },
+    {
+      "text": "Victor Jupp. 2006. The Sage dictionary of social research methods. Sage.",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra Kavushansky, Dorit Ben-Shachar, Gal Richter-Levin, and Ehud Klein. 2009. Physical stress differs from psychosocial stress in the pattern and time-course of behavioral responses, serum corticosterone and expression of plasticity-related genes in the rat. Stress 12, 5 (2009), 412\u2013425.",
+      "doi": ""
+    },
+    {
+      "text": "Gina\u00a0Leigh Kraft and Rachel\u00a0A Roberts. 2017. Validation of the Garmin Forerunner 920 XT Fitness Watch VO 2 peak Test. Int. J. Innov. Educ. Res 5 (2017), 62\u201367.",
+      "doi": ""
+    },
+    {
+      "text": "Ivar Krumpal. 2013. Determinants of social desirability bias in sensitive surveys: a literature review. Quality & Quantity 47, 4 (2013), 2025\u20132047.",
+      "doi": ""
+    },
+    {
+      "text": "Vivienne\u00a0MHCJ Lahaut, Harrie\u00a0AM Jansen, Dike Van\u00a0de Mheen, and Henk\u00a0FL Garretsen. 2002. Non-response bias in a sample survey on alcohol consumption. Alcohol and Alcoholism 37, 3 (2002), 256\u2013260.",
+      "doi": ""
+    },
+    {
+      "text": "David Lazer and Jason Radford. 2017. Data ex machina: introduction to big data. Annual Review of Sociology 43 (2017), 19\u201339.",
+      "doi": ""
+    },
+    {
+      "text": "Eun-Hyun Lee. 2012. Review of the psychometric evidence of the perceived stress scale. Asian nursing research 6, 4 (2012), 121\u2013127.",
+      "doi": ""
+    },
+    {
+      "text": "Uichin Lee, Joonwon Lee, Minsam Ko, Changhun Lee, Yuhwan Kim, Subin Yang, Koji Yatani, Gahgene Gweon, Kyong-Mee Chung, and Junehwa Song. 2014. Hooked on smartphones: an exploratory study on smartphone overuse among college students. In Proceedings of the 32nd annual ACM conference on Human factors in computing systems. ACM, 2327\u20132336.",
+      "doi": "10.1145/2556288.2557366"
+    },
+    {
+      "text": "Aubrey Lewis. 1970. The ambiguous word\u201d anxiety\u201d.International journal of psychiatry 9 (1970), 62\u201379.",
+      "doi": ""
+    },
+    {
+      "text": "Andy Liaw, Matthew Wiener, 2002. Classification and regression by randomForest. R news 2, 3 (2002), 18\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Huijie Lin, Jia Jia, Quan Guo, Yuanyuan Xue, Qi Li, Jie Huang, Lianhong Cai, and Ling Feng. 2014. User-level psychological stress detection from social media using deep neural network. In Proceedings of the 22nd ACM international conference on Multimedia. ACM, 507\u2013516.",
+      "doi": "10.1145/2647868.2654945"
+    },
+    {
+      "text": "Christopher Manning, Mihai Surdeanu, John Bauer, Jenny Finkel, Steven Bethard, and David McClosky. 2014. The Stanford CoreNLP natural language processing toolkit. In Proceedings of 52nd annual meeting of the association for computational linguistics: system demonstrations. 55\u201360.",
+      "doi": ""
+    },
+    {
+      "text": "Gloria Mark, Shamsi Iqbal, Mary Czerwinski, and Paul Johns. 2014. Capturing the mood: facebook and face-to-face encounters in the workplace. In Proceedings of the 17th ACM conference on Computer supported cooperative work & social computing. ACM, 1082\u20131094.",
+      "doi": "10.1145/2531602.2531673"
+    },
+    {
+      "text": "Abraham\u00a0H Maslow. 1966. The psychology of science a reconnaissance. (1966).",
+      "doi": ""
+    },
+    {
+      "text": "Stephen\u00a0M. Mattingly, Julie\u00a0M. Gregg, Pino Audia, Ayse\u00a0Elvan Bayraktaroglu, Andrew\u00a0T. Campbell, Nitesh\u00a0V. Chawla, Vedant Das\u00a0Swain, Munmun De\u00a0Choudhury, Sidney\u00a0K. D\u2019Mello, Anind\u00a0K. Dey, Ge Gao, Krithika Jagannath, Kaifeng Jiang, Suwen Lin, Qiang Liu, Gloria Mark, Gonzalo\u00a0J. Martinez, Kizito Masaba, Shayan Mirjafari, Edward Moskal, Raghu Mulukutla, Kari Nies, Manikanta\u00a0D. Reddy, Pablo Robles-Granda, Koustuv Saha, Anusha Sirigiri, and Aaron Striegel. 2019. The Tesserae Project: Large-Scale, Longitudinal, In Situ, Multimodal Sensing of Information Workers. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems(CHI EA \u201919). 8\u00a0pages. https://doi.org/10.1145/3290607.3299041",
+      "doi": "10.1145/3290607.3299041"
+    },
+    {
+      "text": "Abhinav Mehrotra and Mirco Musolesi. 2018. Using autoencoders to automatically extract mobility features for predicting depressive states. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2, 3 (2018), 127.",
+      "doi": "10.1145/3264937"
+    },
+    {
+      "text": "Abhinav Mehrotra, Fani Tsapeli, Robert Hendley, and Mirco Musolesi. 2017. MyTraces: Investigating correlation and causation between users\u2019 emotional states and mobile phone interaction. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 3 (2017), 83.",
+      "doi": "10.1145/3130948"
+    },
+    {
+      "text": "Shayan Mirjafari, Kizito Masaba, Ted Grover, Weichen Wang, Pino Audia, Andrew\u00a0T Campbell, Nitesh\u00a0V Chawla, Vedant\u00a0Das Swain, Munmun\u00a0De Choudhury, Anind\u00a0K Dey, 2019. Differentiating Higher and Lower Job Performers in the Workplace Using Mobile Sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 2 (2019), 37.",
+      "doi": "10.1145/3328908"
+    },
+    {
+      "text": "Larry\u00a0W Morris and Robert\u00a0M Liebert. 1970. Relationship of cognitive and emotional components of test anxiety to physiological arousal and academic performance.Journal of consulting and clinical psychology 35, 3(1970), 332.",
+      "doi": ""
+    },
+    {
+      "text": "Mehrab\u00a0Bin Morshed, Koustuv Saha, Richard Li, Sidney\u00a0K D\u2019Mello, Munmun De\u00a0Choudhury, Gregory\u00a0D Abowd, and Thomas Pl\u00f6tz. 2019. Prediction of Mood Instability with Passive Sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 3 (2019), 75.",
+      "doi": "10.1145/3351233"
+    },
+    {
+      "text": "Amir Muaremi, Bert Arnrich, and Gerhard Tr\u00f6ster. 2013. Towards measuring stress with smartphones and wearable devices during workday and sleep. BioNanoScience 3, 2 (2013), 172\u2013183.",
+      "doi": ""
+    },
+    {
+      "text": "Karla\u00a0Klein Murdock. 2013. Texting while stressed: Implications for students\u2019 burnout, sleep, and well-being.Psychology of Popular Media Culture 2, 4 (2013), 207.",
+      "doi": ""
+    },
+    {
+      "text": "MD Nefzger and James Drasgow. 1957. The needless assumption of normality in Pearson\u2019s r.American Psychologist 12, 10 (1957), 623.",
+      "doi": ""
+    },
+    {
+      "text": "Jukka-Pekka Onnela and Scott\u00a0L Rauch. 2016. Harnessing smartphone-based digital phenotyping to enhance behavioral and mental health. Neuropsychopharmacology 41, 7 (2016), 1691.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0W Pennebaker, Matthias\u00a0R Mehl, and Kate\u00a0G Niederhoffer. 2003. Psychological aspects of natural language use: Our words, our selves. Annual review of psychology 54, 1 (2003), 547\u2013577.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Pl\u00f6tz. 2021. Applying Machine Learning for Sensor Data Analysis in Interactive Systems: Common Pitfalls of Pragmatic Use and Ways to Avoid Them. ACM Computing Surveys (CSUR) 54, 6 (2021), 1\u201325.",
+      "doi": "10.1145/3459666"
+    },
+    {
+      "text": "Rachael Purta, Stephen Mattingly, Lixing Song, Omar Lizardo, David Hachen, Christian Poellabauer, and Aaron Striegel. 2016. Experiences measuring sleep and physical activity patterns across a large college cohort with fitbits. In Proceedings of the 2016 ACM international symposium on wearable computers. ACM, 28\u201335.",
+      "doi": "10.1145/2971763.2971767"
+    },
+    {
+      "text": "Mashfiqui Rabbi, Shahid Ali, Tanzeem Choudhury, and Ethan Berke. 2011. Passive and in-situ assessment of mental and physical well-being using mobile sensors. In Proceedings of the 13th international conference on Ubiquitous computing. ACM, 385\u2013394.",
+      "doi": "10.1145/2030112.2030164"
+    },
+    {
+      "text": "Ulrike Rimmele, Roland Seiler, Bernard Marti, Petra\u00a0H Wirtz, Ulrike Ehlert, and Markus Heinrichs. 2009. The level of physical activity affects adrenal and cardiovascular reactivity to psychosocial stress. Psychoneuroendocrinology 34, 2 (2009), 190\u2013198.",
+      "doi": ""
+    },
+    {
+      "text": "John Rooksby, Alistair Morrison, and Dave Murray-Rust. 2019. Student Perspectives on Digital Phenotyping: The Acceptability of Using Smartphone Data to Assess Mental Health. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 425.",
+      "doi": "10.1145/3290605.3300655"
+    },
+    {
+      "text": "James\u00a0A Russell. 1980. A circumplex model of affect.Journal of personality and social psychology 39, 6(1980), 1161.",
+      "doi": ""
+    },
+    {
+      "text": "Avi Sadeh, Giora Keinan, and Keren Daon. 2004. Effects of stress on sleep: the moderating role of coping style.Health Psychology 23, 5 (2004), 542.",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha, Ayse\u00a0E. Bayraktaroglu, Andrew\u00a0T. Campbell, Nitesh\u00a0V. Chawla, Munmun De\u00a0Choudhury, Sidney\u00a0K. D\u2019Mello, Anind\u00a0K. Dey, Ge Gao, Julie\u00a0M. Gregg, Krithika Jagannath, Gloria Mark, Gonzalo\u00a0J. Martinez, Stephen\u00a0M. Mattingly, Edward Moskal, Anusha Sirigiri, Aaron Striegel, and Dong\u00a0Whi Yoo. 2019. Social Media As a Passive Sensor in Longitudinal Studies of Human Behavior and Wellbeing. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems(CHI EA \u201919). ACM, Article CS12, 8\u00a0pages. https://doi.org/10.1145/3290607.3299065",
+      "doi": "10.1145/3290607.3299065"
+    },
+    {
+      "text": "Koustuv Saha, Larry Chan, Kaya De\u00a0Barbaro, Gregory\u00a0D Abowd, and Munmun De\u00a0Choudhury. 2017. Inferring mood instability on social media by leveraging ecological momentary assessments. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 3 (2017), 95.",
+      "doi": "10.1145/3130960"
+    },
+    {
+      "text": "Koustuv Saha, Ted Grover, Stephen\u00a0M. Mattingly, Vedant\u00a0Das swain, Pranshu Gupta, Gonzalo\u00a0J. Martinez, Pablo Robles-Granda, Gloria Mark, Aaron Striegel, and Munmun De\u00a0Choudhury. 2021. Person-Centered Predictions of Psychological Constructs with Social Media Contextualized by Multimodal Sensing. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 5, 1, Article 32 (mar 2021), 32\u00a0pages. https://doi.org/10.1145/3448117",
+      "doi": "10.1145/3448117"
+    },
+    {
+      "text": "Koustuv Saha, Manikanta\u00a0D Reddy, Stephen\u00a0M Mattingly, Edward Moskal, Anusha Sirigiri, and Munmun De Choudhury. 2019. LibRA : On LinkedIn based Role Ambiguity and Its Relationship with Wellbeing and Job Performance. Proc. ACM Hum.-Comput. Interact.CSCW (2019).",
+      "doi": "10.1145/3359239"
+    },
+    {
+      "text": "Koustuv Saha, Manikanta\u00a0D Reddy, Vedant\u00a0Das Swain, Julie\u00a0M Gregg, Ted Grover, Suwen Lin, Gonzalo\u00a0J Martinez, Stephen\u00a0M Mattingly, Shayan Mirjafari, Raghu Mulukutla, [n.d.]. Imputing Missing Social Media Data Stream in Multisensor Studies of Human Behavior. linguistic analysis 19, 29 ([n. d.]), 43.",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Sandulescu, Sally Andrews, David Ellis, Nicola Bellotto, and Oscar\u00a0Martinez Mozos. 2015. Stress detection using wearable physiological sensors. In International Work-Conference on the Interplay Between Natural and Artificial Computation. Springer, 526\u2013532.",
+      "doi": ""
+    },
+    {
+      "text": "Akane Sano and Rosalind\u00a0W Picard. 2013. Stress recognition using wearable sensors and mobile phones. In 2013 Humaine Association Conference on Affective Computing and Intelligent Interaction. IEEE, 671\u2013676.",
+      "doi": "10.1109/ACII.2013.117"
+    },
+    {
+      "text": "Hillol Sarker, Matthew Tyburski, Md\u00a0Mahbubur Rahman, Karen Hovsepian, Moushumi Sharmin, David\u00a0H Epstein, Kenzie\u00a0L Preston, C\u00a0Debra Furr-Holden, Adam Milam, Inbal Nahum-Shani, 2016. Finding significant stress episodes in a discontinuous time series of rapidly varying mobile sensor data. In Proceedings of the 2016 CHI conference on human factors in computing systems. ACM, 4489\u20134501.",
+      "doi": "10.1145/2858036.2858218"
+    },
+    {
+      "text": "Hans Selye. 1976. Stress without distress. In Psychopathology of human adaptation. Springer, 137\u2013146.",
+      "doi": ""
+    },
+    {
+      "text": "Moushumi Sharmin, Andrew Raij, David Epstien, Inbal Nahum-Shani, J\u00a0Gayle Beck, Sudip Vhaduri, Kenzie Preston, and Santosh Kumar. 2015. Visualization of time-series sensor data to inform the design of just-in-time adaptive stress interventions. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing. ACM, 505\u2013516.",
+      "doi": "10.1145/2750858.2807537"
+    },
+    {
+      "text": "Graciela\u00a0E Silva, James\u00a0L Goodwin, Duane\u00a0L Sherrill, Jean\u00a0L Arnold, Richard\u00a0R Bootzin, Terry Smith, Joyce\u00a0A Walsleben, Carol\u00a0M Baldwin, and Stuart\u00a0F Quan. 2007. Relationship between reported and measured sleep times: the sleep heart health study (SHHS). Journal of Clinical Sleep Medicine 3, 06 (2007), 622\u2013630.",
+      "doi": ""
+    },
+    {
+      "text": "Meredith\u00a0M Skeels and Jonathan Grudin. 2009. When social networks cross boundaries: a case study of workplace use of facebook and linkedin. In Proceedings of the ACM 2009 international conference on Supporting group work. ACM, 95\u2013104.",
+      "doi": "10.1145/1531674.1531689"
+    },
+    {
+      "text": "Arnold\u00a0WM Smeulders, Marcel Worring, Simone Santini, Amarnath Gupta, and Ramesh Jain. 2000. Content-based image retrieval at the end of the early years. IEEE Transactions on Pattern Analysis & Machine Intelligence12 (2000), 1349\u20131380.",
+      "doi": "10.1109/34.895972"
+    },
+    {
+      "text": "Jasper Snoek, Hugo Larochelle, and Ryan\u00a0P Adams. 2012. Practical bayesian optimization of machine learning algorithms. In Advances in neural information processing systems. 2951\u20132959.",
+      "doi": ""
+    },
+    {
+      "text": "Marcantonio\u00a0M Spada, Ana\u00a0V Nik\u010devi\u0107, Giovanni\u00a0B Moneta, and Adrian Wells. 2008. Metacognition, perceived stress, and negative emotion. Personality and Individual Differences 44, 5 (2008), 1172\u20131181.",
+      "doi": ""
+    },
+    {
+      "text": "Charles\u00a0D Spielberger. 2013. The effects of anxiety on complex learning. Anxiety and behavior(2013), 361\u2013397.",
+      "doi": ""
+    },
+    {
+      "text": "Firstbeat\u00a0Technologies Stress and Recovery\u00a0White Paper. 2014. https://assets.firstbeat.com/firstbeat/uploads/2015/11/Stress-and-recovery_white-paper_20145.pdf. Accessed: 2019-04-01.",
+      "doi": ""
+    },
+    {
+      "text": "John Torous, Patrick Staples, Meghan Shanahan, Charlie Lin, Pamela Peck, Matcheri Keshavan, and Jukka-Pekka Onnela. 2015. Utilizing a personal smartphone custom app to assess the patient health questionnaire-9 (PHQ-9) depressive symptoms in patients with major depressive disorder. JMIR mental health 2, 1 (2015), e8.",
+      "doi": ""
+    },
+    {
+      "text": "Gert Van\u00a0Dijck and Marc\u00a0M Van\u00a0Hulle. 2006. Speeding up the wrapper feature subset selection in regression by mutual information relevance and redundancy analysis. In International Conference on Artificial Neural Networks. Springer, 31\u201340.",
+      "doi": "10.1007/11840817_4"
+    },
+    {
+      "text": "Stephen Voida, Donald\u00a0J Patterson, and Shwetak\u00a0N Patel. 2014. Sensor data streams. In Ways of Knowing in HCI. Springer, 291\u2013321.",
+      "doi": ""
+    },
+    {
+      "text": "Rui Wang, Min\u00a0SH Aung, Saeed Abdullah, Rachel Brian, Andrew\u00a0T Campbell, Tanzeem Choudhury, Marta Hauser, John Kane, Michael Merrill, Emily\u00a0A Scherer, 2016. CrossCheck: toward passive sensing and detection of mental health changes in people with schizophrenia. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing. 886\u2013897.",
+      "doi": "10.1145/2971648.2971740"
+    },
+    {
+      "text": "Rui Wang, Fanglin Chen, Zhenyu Chen, Tianxing Li, Gabriella Harari, Stefanie Tignor, Xia Zhou, Dror Ben-Zeev, and Andrew\u00a0T Campbell. 2014. StudentLife: assessing mental health, academic performance and behavioral trends of college students using smartphones. In Ubicomp. ACM, 3\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Wenbo Wang, Lu Chen, Krishnaprasad Thirunarayan, and Amit\u00a0P Sheth. 2012. Harnessing twitter\u201d big data\u201d for automatic emotion identification. In 2012 International Conference on Privacy, Security, Risk and Trust and 2012 International Confernece on Social Computing. IEEE, 587\u2013592.",
+      "doi": "10.1109/SocialCom-PASSAT.2012.119"
+    },
+    {
+      "text": "Travis\u00a0A Wearne, Abbie Lucien, Emily\u00a0M Trimmer, Jodie\u00a0A Logan, JacquelineA Rushby, Emily Wilson, Michaela Filip\u010d\u00edkov\u00e1, and Skye McDonald. 2019. Anxiety sensitivity moderates the subjective experience but not the physiological response to psychosocial stress. International Journal of Psychophysiology 141 (2019), 76\u201383.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0A Weinberger, Gary\u00a0E Schwartz, and Richard\u00a0J Davidson. 1979. Low-anxious, high-anxious, and repressive coping styles: psychometric patterns and behavioral and physiological responses to stress.Journal of abnormal psychology 88, 4 (1979), 369.",
+      "doi": ""
+    },
+    {
+      "text": "Howard\u00a0M Weiss. 2002. Deconstructing job satisfaction: Separating evaluations, beliefs and affective experiences. Human resource management review 12, 2 (2002), 173\u2013194.",
+      "doi": ""
+    },
+    {
+      "text": "J\u00a0Mark\u00a0G Williams, Thorsten Barnhofer, Catherine Crane, Dirk Herman, Filip Raes, Ed Watkins, and Tim Dalgleish. 2007. Autobiographical memory specificity and emotional disorder.Psychological bulletin 133, 1 (2007), 122.",
+      "doi": ""
+    },
+    {
+      "text": "Firstbeat Technologies Automated Fitness Level (VO2max)\u00a0Estimation with Heart\u00a0Rate and Speed Data. 2014. https://hubloq.net/cloud/runlog/diverse/white_paper_VO2max_11-11-20142.pdf. (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Svante Wold, Kim Esbensen, and Paul Geladi. 1987. Principal component analysis. Chemometrics and intelligent laboratory systems 2, 1-3 (1987), 37\u201352.",
+      "doi": ""
+    },
+    {
+      "text": "Xuhai Xu, Prerna Chikersal, Afsaneh Doryab, Daniella\u00a0K Villalba, Janine\u00a0M Dutcher, Michael\u00a0J Tumminia, Tim Althoff, Sheldon Cohen, Kasey\u00a0G Creswell, J\u00a0David Creswell, 2019. Leveraging routine behavior and contextually-filtered features for depression detection among college students. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 3 (2019), 1\u201333.",
+      "doi": "10.1145/3359167"
+    },
+    {
+      "text": "Cha Zhang and Yunqian Ma. 2012. Ensemble machine learning: methods and applications. Springer.",
+      "doi": ""
+    },
+    {
+      "text": "Rhong Zhao and William\u00a0I Grosky. 2002. Bridging the semantic gap in image retrieval. In Distributed multimedia databases: Techniques and applications. IGI Global, 14\u201336.",
+      "doi": ""
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "doi": "10.1145/3544548.3580644",
+  "title": "Upvotes? Downvotes? No Votes? Understanding the relationship between reaction mechanisms and political discourse on Reddit",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-28",
+  "year": 2023,
+  "badges": [],
+  "abstract": "A significant share of political discourse occurs online on social media platforms. Policymakers and researchers try to understand the role of social media design in shaping the quality of political discourse around the globe. In the past decades, scholarship on political discourse theory has produced distinct characteristics of different types of prominent political rhetoric such as deliberative, civic, or demagogic discourse. This study investigates the relationship between social media reaction mechanisms (i.e., upvotes, downvotes) and political rhetoric in user discussions by engaging in an in-depth conceptual analysis of political discourse theory. First, we analyze 155 million user comments in 55 political subforums on Reddit between 2010 and 2018 to explore whether users\u2019 style of political discussion aligns with the essential components of deliberative, civic, and demagogic discourse. Second, we perform a quantitative study that combines confirmatory factor analysis with difference in differences models to explore whether different reaction mechanism schemes (e.g., upvotes only, upvotes and downvotes, no reaction mechanisms) correspond with political user discussion that is more or less characteristic of deliberative, civic, or demagogic discourse. We produce three main takeaways. First, despite being \u201cideal constructs of political rhetoric,\u201d we find that political discourse theories describe political discussions on Reddit to a large extent. Second, we find that discussions in subforums with only upvotes, or both up- and downvotes are associated with user discourse that is more deliberate and civic. Third, and perhaps most strikingly, social media discussions are most demagogic in subreddits with no reaction mechanisms at all. These findings offer valuable contributions for ongoing policy discussions on the relationship between social media interface design and respectful political discussion among users.1",
+  "authors": [
+    {
+      "name": "Orestis Papakyriakopoulos",
+      "institution": "Sony AI, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659443462",
+      "orcid": "0000-0003-4680-0022"
+    },
+    {
+      "name": "Severin Engelmann",
+      "institution": "Chair of Cyber Trust, Technical University of Munich, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659335624",
+      "orcid": "0000-0001-8368-4484"
+    },
+    {
+      "name": "Amy Winecoff",
+      "institution": "Center for Information Technology Policy, Princeton University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659463141",
+      "orcid": "0000-0002-2594-4126"
+    }
+  ],
+  "references": [
+    {
+      "text": "David\u00a0Ifeoluwa Adelani, Ryota Kobayashi, Ingmar Weber, and Przemyslaw\u00a0A Grabowicz. 2020. Estimating community feedback effect on topic choice in social media with predictive modeling. EPJ Data Science 9, 1 (2020), 25.",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0P Adler and Judy Goggin. 2005. What do we mean by \u201ccivic engagement\u201d?Journal of transformative education 3, 3 (2005), 236\u2013253.",
+      "doi": ""
+    },
+    {
+      "text": "Gediminas Adomavicius, Jesse\u00a0C Bockstedt, Shawn\u00a0P Curley, and Jingjing Zhang. 2013. Do recommender systems manipulate consumer preferences? A study of anchoring effects. Information Systems Research 24, 4 (2013), 956\u2013975.",
+      "doi": "10.1287/isre.2013.0497"
+    },
+    {
+      "text": "Xavier Amatriain, Josep\u00a0M Pujol, and Nuria Oliver. 2009. I like it... i like it not: Evaluating user ratings noise in recommender systems. In International Conference on User Modeling, Adaptation, and Personalization. Springer, 247\u2013258.",
+      "doi": "10.1007/978-3-642-02247-0_24"
+    },
+    {
+      "text": "Jacopo Amidei, Paul Piwek, and Alistair Willis. 2019. Agreement is overrated: A plea for correlation to assess human evaluation reliability. In Proceedings of the 12th International Conference on Natural Language Generation. 344\u2013354.",
+      "doi": ""
+    },
+    {
+      "text": "Nazanin Andalibi, Oliver\u00a0L Haimson, Munmun De\u00a0Choudhury, and Andrea Forte. 2016. Understanding social media disclosures of sexual abuse through the lenses of support seeking and anonymity. In Proceedings of the 2016 CHI conference on human factors in computing systems. 3906\u20133918.",
+      "doi": "10.1145/2858036.2858096"
+    },
+    {
+      "text": "Pablo Arag\u00f3n, Vicen\u00e7 G\u00f3mez, and Andreaks Kaltenbrunner. 2017. To thread or not to thread: The impact of conversation threading on online discussion. In Proceedings of the International AAAI Conference on Web and Social Media, Vol.\u00a011. 12\u201321.",
+      "doi": ""
+    },
+    {
+      "text": "[8] Internet archive.2022. https://archive.org/web/",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0D Ayers. 2013. Comparing collective identity in online and offline feminist activists. In Cyberactivism. Routledge, 155\u2013174.",
+      "doi": ""
+    },
+    {
+      "text": "Mahmoudreza Babaei, Juhi Kulshrestha, Abhijnan Chakraborty, Fabr\u00edcio Benevenuto, Krishna\u00a0P Gummadi, and Adrian Weller. 2018. Purple feed: Identifying high consensus news posts on social media. In Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society. 10\u201316.",
+      "doi": "10.1145/3278721.3278761"
+    },
+    {
+      "text": "Christopher\u00a0A Bail, Lisa\u00a0P Argyle, Taylor\u00a0W Brown, John\u00a0P Bumpus, Haohan Chen, MB\u00a0Fallin Hunzaker, Jaemin Lee, Marcus Mann, Friedolin Merhout, and Alexander Volfovsky. 2018. Exposure to opposing views on social media can increase political polarization. Proceedings of the National Academy of Sciences 115, 37(2018), 9216\u20139221.",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin\u00a0R Barber. 1989. Public talk and civic action: Education for participation in a strong democracy. Social Education 53, 6 (1989).",
+      "doi": ""
+    },
+    {
+      "text": "Pablo Barber\u00e1. 2014. How social media reduces mass political polarization. Evidence from Germany, Spain, and the US. Job Market Paper, New York University 46 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Jason Baumgartner, Savvas Zannettou, Brian Keegan, Megan Squire, and Jeremy Blackburn. 2020. The pushshift reddit dataset. In Proceedings of the international AAAI conference on web and social media, Vol.\u00a014. 830\u2013839.",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0M Bentler and Douglas\u00a0G Bonett. 1980. Significance tests and goodness of fit in the analysis of covariance structures.Psychological bulletin 88, 3 (1980), 588.",
+      "doi": ""
+    },
+    {
+      "text": "Marianne Bertrand, Esther Duflo, and Sendhil Mullainathan. 2004. How much should we trust differences-in-differences estimates?The Quarterly journal of economics 119, 1 (2004), 249\u2013275.",
+      "doi": ""
+    },
+    {
+      "text": "Iris Birman. 2018. Moderation in different communities on Reddit\u2013A qualitative analysis study. (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Laura\u00a0W Black, Howard\u00a0T Welser, Dan Cosley, and Jocelyn\u00a0M DeGroot. 2011. Self-governance through group discussion in Wikipedia: Measuring deliberation in online groups. Small Group Research 42, 5 (2011), 595\u2013634.",
+      "doi": ""
+    },
+    {
+      "text": "Giuliano Bobba. 2019. Social media populism: features and \u2018likeability\u2019of Lega Nord communication on Facebook. European Political Science 18, 1 (2019), 11\u201323.",
+      "doi": ""
+    },
+    {
+      "text": "James Bohman and William Rehg. 2017. J\u00fcrgen Habermas. In The Stanford Encyclopedia of Philosophy (Fall 2017 ed.), Edward\u00a0N. Zalta (Ed.). Metaphysics Research Lab, Stanford University.",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth\u00a0A Bollen. 1989. Structural equations with latent variables. Vol.\u00a0210. John Wiley & Sons.",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth\u00a0A Bollen and Patrick\u00a0J Curran. 2006. Latent curve models: A structural equation perspective. John Wiley & Sons.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0M Bond, Christopher\u00a0J Fariss, Jason\u00a0J Jones, Adam\u00a0DI Kramer, Cameron Marlow, Jaime\u00a0E Settle, and James\u00a0H Fowler. 2012. A 61-million-person experiment in social influence and political mobilization. Nature 489, 7415 (2012), 295\u2013298.",
+      "doi": ""
+    },
+    {
+      "text": "Yarimar Bonilla and Jonathan Rosa. 2015. # Ferguson: Digital protest, hashtag ethnography, and the racial politics of social media in the United States. American ethnologist 42, 1 (2015), 4\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "Dimitrios Bountouridis, Jaron Harambam, Mykola Makhortykh, M\u00f3nica Marrero, Nava Tintarev, and Claudia Hauff. 2019. SIREN: A simulation framework for understanding the effects of recommender systems in online news environments. In Proceedings of the conference on fairness, accountability, and transparency. 150\u2013159.",
+      "doi": "10.1145/3287560.3287583"
+    },
+    {
+      "text": "Danah Boyd. 2010. Social network sites as networked publics: Affordances, dynamics, and implications. In A networked self. Routledge, 47\u201366.",
+      "doi": ""
+    },
+    {
+      "text": "Jenna Burrell and Marion Fourcade. 2021. The society of algorithms. Annual Review of Sociology 47 (2021), 213\u2013237.",
+      "doi": ""
+    },
+    {
+      "text": "Brantly Callaway and Pedro\u00a0HC Sant\u2019Anna. 2021. Difference-in-differences with multiple time periods. Journal of Econometrics 225, 2 (2021), 200\u2013230.",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0T Campbell and Julian\u00a0C Stanley. 2015. Experimental and quasi-experimental designs for research. Ravenio books.",
+      "doi": ""
+    },
+    {
+      "text": "L\u00a0Elisa Celis, Sayash Kapoor, Farnood Salehi, and Nisheeth Vishnoi. 2019. Controlling polarization in personalization: An algorithmic framework. In Proceedings of the conference on fairness, accountability, and transparency. 160\u2013169.",
+      "doi": "10.1145/3287560.3287601"
+    },
+    {
+      "text": "Justin Cheng, Cristian Danescu-Niculescu-Mizil, and Jure Leskovec. 2014. How community feedback shapes user behavior. In Eighth International AAAI Conference on Weblogs and Social Media.",
+      "doi": ""
+    },
+    {
+      "text": "Lesley Chiou and Catherine Tucker. 2018. Fake news and advertising on social media: A study of the anti-vaccination movement. Technical Report. National Bureau of Economic Research.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Covington, Jay Adams, and Emre Sargin. 2016. Deep neural networks for youtube recommendations. In Proceedings of the 10th ACM conference on recommender systems. 191\u2013198.",
+      "doi": "10.1145/2959100.2959190"
+    },
+    {
+      "text": "Niklas\u00a0F. Cypris, Severin Engelmann, Julia Sasse, Jens Grossklags, and Anna Baumert. 2022. Intervening against online hate speech: A case for automated counterspeech. Research Brief. TUM Institute for Ethics in Artificial Intelligence. https://ieai.sot.tum.de/wp-content/uploads/2022/05/Research-Brief_Intervening-Against-Online-Hate-Speech_April2022_FINAL.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Peter Dahlgren. 2006. Civic participation and practices: Beyond \u2018deliberative democracy\u2019. Researching media, democracy and participation 23 (2006).",
+      "doi": ""
+    },
+    {
+      "text": "Peter Dahlgren. 2015. Online Civic Participation, Discourse Analysis and Rhetorical Citizenship. Contemporary Rhetorical Citizenship(2015), 257\u2013271.",
+      "doi": ""
+    },
+    {
+      "text": "Johannes Daxenberger and Iryna Gurevych. 2012. A corpus-based study of edit categories in featured and non-featured Wikipedia articles. In Proceedings of COLING 2012. 711\u2013726.",
+      "doi": ""
+    },
+    {
+      "text": "Chrysanthos Dellarocas. 2003. The digitization of word of mouth: Promise and challenges of online feedback mechanisms. Management science 49, 10 (2003), 1407\u20131424.",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Elisa\u00a0C Diller. 2001. Citizens in service: The challenge of delivering civic engagement training to national service programs. Washington, DC: Corporation for National and Community Service (2001), 21.",
+      "doi": ""
+    },
+    {
+      "text": "Bryan Dosono and Bryan Semaan. 2019. Moderation practices as emotional labor in sustaining online communities: The case of AAPI identity work on Reddit. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300372"
+    },
+    {
+      "text": "Severin Engelmann, Jens Grossklags, and Orestis Papakyriakopoulos. 2018. A democracy called Facebook? Participation as a privacy strategy on social media. In Annual Privacy Forum. Springer, 91\u2013108.",
+      "doi": ""
+    },
+    {
+      "text": "Severin Engelmann, Chiara Ullstein, Orestis Papakyriakopoulos, and Jens Grossklags. 2022. What people think AI should infer from faces. In 2022 ACM Conference on Fairness, Accountability, and Transparency. 128\u2013141.",
+      "doi": "10.1145/3531146.3533080"
+    },
+    {
+      "text": "Sven Engesser, Nicole Ernst, Frank Esser, and Florin B\u00fcchel. 2017. Populism and social media: How politicians spread a fragmented ideology. Information, communication & society 20, 8 (2017), 1109\u20131126.",
+      "doi": ""
+    },
+    {
+      "text": "Sandra\u00a0K Evans, Katy\u00a0E Pearce, Jessica Vitak, and Jeffrey\u00a0W Treem. 2017. Explicating affordances: A conceptual framework for understanding affordances in communication research. Journal of Computer-Mediated Communication 22, 1 (2017), 35\u201352.",
+      "doi": "10.1111/jcc4.12180"
+    },
+    {
+      "text": "Foontum. 2020. R/assholedesign - this sub made the downvote button invisible. https://www.reddit.com/r/assholedesign/comments/g31shy/this_sub_made_the_downvote_button_invisible/",
+      "doi": ""
+    },
+    {
+      "text": "Aline\u00a0Shakti Franzke, Anja Bechmann, Michael Zimmer, and Charles Ess. 2020. the Association of Internet Researchers. Internet research: Ethical guidelines 3 (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Dennis Friess, Marc Ziegele, and Dominique Heinbach. 2021. Collective civic moderation for deliberation? Exploring the links between citizens\u2019 organized engagement in comment sections and the deliberative quality of online discussions. Political Communication 38, 5 (2021), 624\u2013646.",
+      "doi": ""
+    },
+    {
+      "text": "John Gastil. 2000. Is face-to-face citizen deliberation a luxury or a necessity?Political communication 17, 4 (2000), 357\u2013361.",
+      "doi": ""
+    },
+    {
+      "text": "Eric Gilbert. 2013. Widespread underprovision on reddit. In Proceedings of the 2013 conference on Computer supported cooperative work. 803\u2013808.",
+      "doi": "10.1145/2441776.2441866"
+    },
+    {
+      "text": "Tarleton Gillespie. 2017. Platforms are not intermediaries. Geo. L. Tech. Rev. 2(2017), 198.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Goodman-Bacon. 2021. Difference-in-differences with variation in treatment timing. Journal of Econometrics 225, 2 (2021), 254\u2013277.",
+      "doi": ""
+    },
+    {
+      "text": "Timothy Graham and Aleesha Rodriguez. 2021. The Sociomateriality of Rating and Ranking Devices on Social Media: A Case Study of Reddit\u2019s Voting Practices. Social Media+ Society 7, 3 (2021), 20563051211047667.",
+      "doi": ""
+    },
+    {
+      "text": "Edward Guadagnoli and Wayne\u00a0F Velicer. 1988. Relation of sample size to the stability of component patterns.Psychological bulletin 103, 2 (1988), 265.",
+      "doi": ""
+    },
+    {
+      "text": "Anna Guimaraes, Oana Balalau, Erisa Terolli, and Gerhard Weikum. 2019. Analyzing the traits and anomalies of political discussions on reddit. In Proceedings of the International AAAI Conference on Web and Social Media, Vol.\u00a013. 205\u2013213.",
+      "doi": ""
+    },
+    {
+      "text": "Wenshuo Guo, Karl Krauth, Michael Jordan, and Nikhil Garg. 2021. The Stereotyping Problem in Collaboratively Filtered Recommender Systems. In Equity and Access in Algorithms, Mechanisms, and Optimization. 1\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "J\u00a0Justin Gustainis. 1990. Demagoguery and political rhetoric: A review of the literature. Rhetoric Society Quarterly 20, 2 (1990), 155\u2013161.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Halpern and Jennifer Gibbs. 2013. Social media as a catalyst for online deliberation? Exploring the affordances of Facebook and YouTube for political expression. Computers in Human Behavior 29, 3 (2013), 1159\u20131168.",
+      "doi": "10.1016/j.chb.2012.10.008"
+    },
+    {
+      "text": "Keith\u00a0N Hampton, Inyoung Shin, and Weixu Lu. 2017. Social media and political discussion: when online presence silences offline conversation. Information, Communication & Society 20, 7 (2017), 1090\u20131107.",
+      "doi": ""
+    },
+    {
+      "text": "Gerard Hauser and Amy Grim. 2004. Rhetorical democracy: Discursive practices of civic engagement. Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Rebecca\u00a0A Hayes, Caleb\u00a0T Carr, and Donghee\u00a0Yvette Wohn. 2016. One click, many meanings: Interpreting paralinguistic digital affordances in social media. Journal of Broadcasting & Electronic Media 60, 1 (2016), 171\u2013187.",
+      "doi": ""
+    },
+    {
+      "text": "Darrin Hicks. 2002. The promise (s) of deliberative democracy. Rhetoric & Public Affairs 5, 2 (2002), 223\u2013260.",
+      "doi": ""
+    },
+    {
+      "text": "J\u00a0Michael Hogan and Dave Tell. 2006. Demagoguery and democratic deliberation: The search for rules of discursive engagement. Rhetoric & Public Affairs 9, 3 (2006), 479\u2013487.",
+      "doi": ""
+    },
+    {
+      "text": "Yifan Hu, Yehuda Koren, and Chris Volinsky. 2008. Collaborative filtering for implicit feedback datasets. In 2008 Eighth IEEE international conference on data mining. Ieee, 263\u2013272.",
+      "doi": "10.1109/ICDM.2008.22"
+    },
+    {
+      "text": "Tatum Hunter. 2022. Twitter got a \u2019downvote\u2019 button. here\u2019s what happens if you click it.https://www.washingtonpost.com/technology/2022/02/04/twitter-downvote/",
+      "doi": ""
+    },
+    {
+      "text": "Ferenc Husz\u00e1r, Sofia\u00a0Ira Ktena, Conor O\u2019Brien, Luca Belli, Andrew Schlaikjer, and Moritz Hardt. 2022. Algorithmic amplification of politics on Twitter. Proceedings of the National Academy of Sciences 119, 1 (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Sarah\u00a0J Jackson, Moya Bailey, and Brooke\u00a0Foucault Welles. 2020. # HashtagActivism: Networks of race and gender justice. Mit Press.",
+      "doi": ""
+    },
+    {
+      "text": "Freddie\u00a0J Jennings, Valeria\u00a0P Suzuki, and Alexis Hubbard. 2021. Social media and democracy: Fostering political deliberation and participation. Western Journal of Communication 85, 2 (2021), 147\u2013167.",
+      "doi": ""
+    },
+    {
+      "text": "Ariella Kahn-Lang and Kevin Lang. 2020. The promise and pitfalls of differences-in-differences: Reflections on 16 and pregnant and other applications. Journal of Business & Economic Statistics 38, 3 (2020), 613\u2013620.",
+      "doi": ""
+    },
+    {
+      "text": "Nam\u00a0Gu Kang, Tina Kuo, and Jens Grossklags. 2022. Closing Pandora\u2019s Box on Naver: Toward Ending Cyber Harassment. In Proceedings of the International AAAI Conference on Web and Social Media, Vol.\u00a016. 465\u2013476.",
+      "doi": ""
+    },
+    {
+      "text": "Warut Khern-am nuai, Changseung Yoo, Jitsama Tanlamai, and Yossiri Adulyasak. 2020. Haters Gonna Hate? How Removing Downvote Option Impacts Discussion Culture in Online Forum. (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Charles Kiene, Andr\u00e9s Monroy-Hern\u00e1ndez, and Benjamin\u00a0Mako Hill. 2016. Surviving an\" Eternal September\" How an Online Community Managed a Surge of Newcomers. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 1152\u20131156.",
+      "doi": "10.1145/2858036.2858356"
+    },
+    {
+      "text": "Daniel Kreiss and Shannon\u00a0C McGregor. 2018. Technology firms shape political communication: The work of Microsoft, Facebook, Twitter, and Google with campaigns during the 2016 US presidential cycle. Political Communication 35, 2 (2018), 155\u2013177.",
+      "doi": ""
+    },
+    {
+      "text": "Travis Kriplean, Jonathan Morgan, Deen Freelon, Alan Borning, and Lance Bennett. 2012. Supporting reflective public thought with considerit. In Proceedings of the ACM 2012 conference on Computer Supported Cooperative Work. 265\u2013274.",
+      "doi": "10.1145/2145204.2145249"
+    },
+    {
+      "text": "Matthew\u00a0J Kushin and Kelin Kitchener. 2009. Getting political on social network sites: Exploring online political discourse on Facebook. First Monday (2009).",
+      "doi": ""
+    },
+    {
+      "text": "David Lazer. 2015. The rise of the social algorithm. Science 348, 6239 (2015), 1090\u20131091.",
+      "doi": ""
+    },
+    {
+      "text": "Yu-Hao Lee and Gary Hsieh. 2013. Does slacktivism hurt activism? The effects of moral balancing and consistency in online activism. In Proceedings of the SIGCHI conference on human factors in computing systems. 811\u2013820.",
+      "doi": "10.1145/2470654.2470770"
+    },
+    {
+      "text": "Matthew Levinger. 2017. Love, fear, anger: The emotional arc of populist rhetoric. Narrative and conflict: Explorations in Theory and Practice 6, 1(2017), 1\u201321.",
+      "doi": ""
+    },
+    {
+      "text": "Yuyang Liang. 2017. Knowledge sharing in online discussion threads: What predicts the ratings?. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing. 146\u2013154.",
+      "doi": "10.1145/2998181.2998217"
+    },
+    {
+      "text": "Shannon Liao. 2018. Reddit begins rolling out first redesign in a decade. https://www.theverge.com/2018/4/2/17190244/reddit-redesign-begins-rolling-out",
+      "doi": ""
+    },
+    {
+      "text": "Likeafox. 2018. We tested the effects of hiding downvotes in R/politics. Here\u2019s what we learned.https://www.reddit.com/r/TheoryOfReddit/comments/7odc12/we_tested_the_effects_of_hiding_downvotes_in/",
+      "doi": ""
+    },
+    {
+      "text": "Brian\u00a0D Loader, Ariadne Vromen, and Michael\u00a0A Xenos. 2014. The networked young citizen: Social media, political participation and civic engagement., 143\u2013150\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Eli Lucherini, Matthew Sun, Amy Winecoff, and Arvind Narayanan. 2021. T-RECS: A simulation tool to study the societal impact of recommender systems. arXiv preprint arXiv:2107.08959(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Helen Margetts. 2018. Rethinking democracy with social media. Political Quarterly 90, S1 (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth Markovits. 2006. The trouble with being earnest: deliberative democracy and the sincerity norm. Journal of Political Philosophy 14, 3 (2006).",
+      "doi": ""
+    },
+    {
+      "text": "Binny Mathew, Ritam Dutt, Pawan Goyal, and Animesh Mukherjee. 2019. Spread of hate speech in online social media. In Proceedings of the 10th ACM conference on web science. 173\u2013182.",
+      "doi": "10.1145/3292522.3326034"
+    },
+    {
+      "text": "J\u00a0Nathan Matias. 2019. Preventing harassment and increasing group participation through social norms in 2,190 online science discussions. Proceedings of the National Academy of Sciences 116, 20(2019), 9785\u20139789.",
+      "doi": ""
+    },
+    {
+      "text": "J\u00a0Nathan Matias and Merry Mou. 2018. CivilServant: Community-led experiments in platform governance. In Proceedings of the 2018 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3173574.3173583"
+    },
+    {
+      "text": "Martha\u00a0L McCoy and Patrick\u00a0L Scully. 2002. Deliberative dialogue to expand civic engagement: What kind of talk does democracy need?National Civic Review 91, 2 (2002), 117\u2013135.",
+      "doi": ""
+    },
+    {
+      "text": "Meta. 2021. Reducing political content in news feed. https://about.fb.com/news/2021/02/reducing-political-content-in-news-feed/",
+      "doi": ""
+    },
+    {
+      "text": "Laurence Monnoyer-Smith and St\u00e9phanie Wojcik. 2012. Technology and the quality of public deliberation: a comparison between on and offline participation. International Journal of Electronic Governance 5, 1 (2012), 24\u201349.",
+      "doi": ""
+    },
+    {
+      "text": "Fred Morstatter, Liang Wu, Uraz Yavanoglu, Stephen\u00a0R Corman, and Huan Liu. 2018. Identifying framing bias in online news. ACM Transactions on Social Computing 1, 2 (2018), 1\u201318.",
+      "doi": "10.1145/3204948"
+    },
+    {
+      "text": "Zizi Papacharissi. 2010. A networked self: Identity, community, and culture on social network sites. Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Orestis Papakyriakopoulos and Ellen Goodman. 2022. The Impact of Twitter Labels on Misinformation Spread and User Engagement: Lessons from Trump\u2019s Election Tweets. In Proceedings of the ACM Web Conference 2022. 2541\u20132551.",
+      "doi": "10.1145/3485447.3512126"
+    },
+    {
+      "text": "Orestis Papakyriakopoulos, Juan Carlos\u00a0Medina Serrano, and Simon Hegelich. 2020. Political communication on social media: A tale of hyperactive users and bias in recommender systems. Online Social Networks and Media 15 (2020), 100058.",
+      "doi": ""
+    },
+    {
+      "text": "Sungjoon Park, JinYeong Bak, and Alice Oh. 2017. Rotated word vector representations and their interpretability. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing. 401\u2013411.",
+      "doi": ""
+    },
+    {
+      "text": "Simon\u00a0T Perrault and Weiyu Zhang. 2019. Effects of moderation and opinion heterogeneity on attitude towards the online deliberation experience. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300247"
+    },
+    {
+      "text": "Nicholas Proferes, Naiyan Jones, Sarah Gilbert, Casey Fiesler, and Michael Zimmer. 2021. Studying reddit: A systematic overview of disciplines, approaches, methods, and ethics. Social Media+ Society 7, 2 (2021), 20563051211019004.",
+      "doi": ""
+    },
+    {
+      "text": "Eugenia Ha\u00a0Rim Rho and Melissa Mazmanian. 2020. Political Hashtags & the Lost Art of Democratic Discourse. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376542",
+      "doi": "10.1145/3313831.3376542"
+    },
+    {
+      "text": "Manoel\u00a0Horta Ribeiro, Raphael Ottoni, Robert West, Virg\u00edlio\u00a0AF Almeida, and Wagner Meira\u00a0Jr. 2020. Auditing radicalization pathways on YouTube. In Proceedings of the 2020 conference on fairness, accountability, and transparency. 131\u2013141.",
+      "doi": "10.1145/3351095.3372879"
+    },
+    {
+      "text": "Patricia Roberts-Miller. 2005. Democracy, demagoguery, and critical rhetoric. Rhetoric & Public Affairs 8, 3 (2005), 459\u2013476.",
+      "doi": ""
+    },
+    {
+      "text": "Patricia Roberts-Miller. 2020. Demagoguery and democracy. The Experiment.",
+      "doi": ""
+    },
+    {
+      "text": "Scott\u00a0P Robertson, Ravi\u00a0K Vatrapu, and Richard Medina. 2010. Off the wall political discourse: Facebook use in the 2008 US presidential election. Information polity 15, 1-2 (2010), 11\u201331.",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha, Sindhu\u00a0Kiranmai Ernala, Sarmistha Dutta, Eva Sharma, and Munmun De\u00a0Choudhury. 2020. Understanding moderation in online mental health communities. In International Conference on Human-Computer Interaction. Springer, 87\u2013107.",
+      "doi": "10.1007/978-3-030-49576-3_7"
+    },
+    {
+      "text": "Maarten Sap, Saadia Gabriel, Lianhui Qin, Dan Jurafsky, Noah\u00a0A Smith, and Yejin Choi. 2019. Social bias frames: Reasoning about social and power implications of language. arXiv preprint arXiv:1911.03891(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Julia Sasse, Mengyao Li, and Anna Baumert. 2022. How prosocial is moral courage?Current Opinion in Psychology 44 (2022), 146\u2013150.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Seering, Tianmi Fang, Luca Damasco, Mianhong\u2019Cherie\u2019 Chen, Likang Sun, and Geoff Kaufman. 2019. Designing user interface elements to improve the quality and civility of discourse in online commenting behaviors. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3290605.3300836"
+    },
+    {
+      "text": "Bryan\u00a0C Semaan, Scott\u00a0P Robertson, Sara Douglas, and Misa Maruyama. 2014. Social media supporting political deliberation across multiple public spheres: towards depolarization. In Proceedings of the 17th ACM conference on Computer supported cooperative work & social computing. 1409\u20131421.",
+      "doi": "10.1145/2531602.2531605"
+    },
+    {
+      "text": "Yotam Shmargad, Kevin Coe, Kate Kenski, and Stephen\u00a0A Rains. 2021. Social norms and the dynamics of online incivility. Social Science Computer Review(2021), 0894439320985527.",
+      "doi": ""
+    },
+    {
+      "text": "Marko\u00a0M Skoric, Qinfeng Zhu, Debbie Goh, and Natalie Pang. 2016. Social media and citizen engagement: A meta-analytic review. New media & society 18, 9 (2016), 1817\u20131839.",
+      "doi": ""
+    },
+    {
+      "text": "Tim Squirrell. 2019. Platform dialectics: The relationships between volunteer moderators and end users on reddit. New Media & Society 21, 9 (2019), 1910\u20131927.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0P Stevens. 2012. Applied multivariate statistics for the social sciences. Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Stier, Arnim Bleier, Haiko Lietz, and Markus Strohmaier. 2018. Election campaigning on social media: Politicians, audiences, and the mediation of political communication on Facebook and Twitter. Political communication 35, 1 (2018), 50\u201374.",
+      "doi": ""
+    },
+    {
+      "text": "Natalie\u00a0Jomini Stroud, Ashley Muddiman, and Joshua\u00a0M Scacco. 2017. Like, recommend, or respect? Altering political behavior in news comment sections. New media & society 19, 11 (2017), 1727\u20131743.",
+      "doi": ""
+    },
+    {
+      "text": "Erin\u00a0M Sumner, Rebecca\u00a0A Hayes, Caleb\u00a0T Carr, and Donghee\u00a0Yvette Wohn. 2020. Assessing the cognitive and communicative properties of Facebook reactions and likes as lightweight feedback cues. First Monday (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Hibby Thach, Samuel Mayworm, Daniel Delmonaco, and Oliver Haimson. 2022. (In) visible moderation: A digital ethnography of marginalized users and content moderation on Twitch and Reddit. new media & society(2022), 14614448221109804.",
+      "doi": ""
+    },
+    {
+      "text": "TikTok. 2020. How Tiktok recommends videos #ForYou. https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0W Treem and Paul\u00a0M Leonardi. 2013. Social media use in organizations: Exploring the affordances of visibility, editability, persistence, and association. Annals of the International Communication Association 36, 1(2013), 143\u2013189.",
+      "doi": ""
+    },
+    {
+      "text": "Joshua\u00a0A Tucker, Andrew Guess, Pablo Barber\u00e1, Cristian Vaccari, Alexandra Siegel, Sergey Sanovich, Denis Stukal, and Brendan Nyhan. 2018. Social media, political polarization, and political disinformation: A review of the scientific literature. Political polarization, and political disinformation: a review of the scientific literature (March 19, 2018)(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Joshua\u00a0A Tucker, Yannis Theocharis, Margaret\u00a0E Roberts, and Pablo Barber\u00e1. 2017. From liberation to turmoil: Social media and democracy. Journal of democracy 28, 4 (2017), 46\u201359.",
+      "doi": ""
+    },
+    {
+      "text": "Zeynep Tufekci. 2017. Twitter and tear gas. Yale University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Chiara Ullstein, Severin Engelmann, Orestis Papakyriakopoulos, Michel Hohendanner, and Jens Grossklags. 2022. AI-Competent Individuals and Laypeople Tend to Oppose Facial Analysis AI. In Equity and Access in Algorithms, Mechanisms, and Optimization. 1\u201312.",
+      "doi": ""
+    },
+    {
+      "text": "Reddit Users. 2022. R/theoryofreddit - subreddits with downvoting disabled?https://www.reddit.com/r/TheoryOfReddit/comments/h2298/subreddits_with_downvoting_disabled/",
+      "doi": ""
+    },
+    {
+      "text": "Soroush Vosoughi, Deb Roy, and Sinan Aral. 2018. The spread of true and false news online. Science 359, 6380 (2018), 1146\u20131151.",
+      "doi": ""
+    },
+    {
+      "text": "Senuri Wijenayake, Niels Van\u00a0Berkel, Vassilis Kostakos, and Jorge Goncalves. 2020. Quantifying the effect of social presence on online social conformity. Proceedings of the ACM on Human-Computer Interaction 4, CSCW1(2020), 1\u201322.",
+      "doi": "10.1145/3392863"
+    },
+    {
+      "text": "Papers with Code. 2022. Papers with Code - XLNet: Generalized Autoregressive Pretraining for Language Understanding. https://paperswithcode.com/paper/xlnet-generalized-autoregressive-pretraining",
+      "doi": ""
+    },
+    {
+      "text": "Scott Wright and John Street. 2007. Democracy, deliberation and design: the case of online discussion forums. New Media & Society 9, 5 (2007), 849\u2013869. https://doi.org/10.1177/1461444807081230 arXiv:https://doi.org/10.1177/1461444807081230",
+      "doi": ""
+    },
+    {
+      "text": "Yan Xia and Yanyun Yang. 2019. RMSEA, CFI, and TLI in structural equation modeling with ordered categorical data: The story they tell depends on the estimation methods. Behavior research methods 51, 1 (2019), 409\u2013428.",
+      "doi": ""
+    },
+    {
+      "text": "Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Russ\u00a0R Salakhutdinov, and Quoc\u00a0V Le. 2019. Xlnet: Generalized autoregressive pretraining for language understanding. Advances in neural information processing systems 32 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "[130] Lana Yarosh.2017. https://lanayarosh.com/2017/07/down-with-downvotes-why-do-subreddits-disable-downvotes/",
+      "doi": ""
+    },
+    {
+      "text": "Iris\u00a0Marion Young. 2001. Activist challenges to deliberative democracy. Political theory 29, 5 (2001), 670\u2013690.",
+      "doi": ""
+    },
+    {
+      "text": "YouTube. 2021. Update to YouTube\u2019s Dislike Count. https://www.youtube.com/watch?v=kxOuG8jMIgI",
+      "doi": ""
+    },
+    {
+      "text": "Qian Zhao, F\u00a0Maxwell Harper, Gediminas Adomavicius, and Joseph\u00a0A Konstan. 2018. Explicit or implicit feedback? Engagement or satisfaction? A field experiment on machine-learning-based recommender systems. In Proceedings of the 33rd Annual ACM Symposium on Applied Computing. 1331\u20131340.",
+      "doi": "10.1145/3167132.3167275"
+    },
+    {
+      "text": "Ethan Zuckerman. 2021. Why study media ecosystems?Information, Communication & Society 24, 10 (2021), 1495\u20131513.",
+      "doi": ""
+    }
+  ]
+}

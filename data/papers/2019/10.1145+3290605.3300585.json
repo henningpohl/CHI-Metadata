@@ -1,0 +1,162 @@
+{
+  "doi": "10.1145/3290605.3300585",
+  "title": "Implementing Multi-Touch Gestures with Touch Groups and Cross Events",
+  "published": "2019-05-02",
+  "proctitle": "CHI '19: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-12",
+  "year": 2019,
+  "badges": [],
+  "abstract": "Multi-touch gestures can be very difficult to program correctly because they require that developers build high-level abstractions from low-level touch events. In this paper, we introduce programming primitives that enable programmers to implement multi-touch gestures in a more understandable way by helping them build these abstractions. Our design of these primitives was guided by a formative study, in which we observed developers' natural implementations of custom gestures. Touch groups provide summaries of multiple fingers rather than requiring that programmers track them manually. Cross events allow programmers to summarize the movement of one or a group of fingers. We implemented these two primitives in two environments: a declarative programming system and in a standard imperative programming language. We found that these primitives are capable of defining nuanced multi-touch gestures, which we illustrate through a series of examples. Further, in two user evaluations of these programming primitives, we found that multi-touch behaviors implemented in these programming primitives are more understandable than those implemented with standard touch events.",
+  "authors": [
+    {
+      "name": "Steve Oney",
+      "institution": "University of Michigan, Ann Arbor, MI, USA",
+      "img": "/do/10.1145/contrib-81453662914/rel-imgonly/81453662914.jpg",
+      "acmid": "81453662914",
+      "orcid": "0000-0002-5823-1499"
+    },
+    {
+      "name": "Rebecca Krosnick",
+      "institution": "University of Michigan, Ann Arbor, MI, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659041484",
+      "orcid": "missing"
+    },
+    {
+      "name": "Joel Brandt",
+      "institution": "Adobe, Santa Monica, CA, USA",
+      "img": "/do/10.1145/contrib-81351596282/rel-imgonly/joel-brandt-adobe.jpg",
+      "acmid": "81351596282",
+      "orcid": "missing"
+    },
+    {
+      "name": "Brad Myers",
+      "institution": "Carnegie Mellon University, Pittsburgh, PA, USA",
+      "img": "/do/10.1145/contrib-81100013136/rel-imgonly/brad-myers-120x120.jpg",
+      "acmid": "81100013136",
+      "orcid": "0000-0002-4769-0219"
+    }
+  ],
+  "references": [
+    {
+      "text": "Johnny Accot and Shumin Zhai. 2002. More than dotting the i's - Foundations for crossing-based interfaces. CHI, 1: 73.",
+      "doi": ""
+    },
+    {
+      "text": "Nikola Banovic, Frank Chun Yat Li, David Dearman, Koji Yatani, and Khai N Truong. 2011. Design of Unimanual Multi-finger Pie Menu Interaction. In Proceedings of the ACM International Conference on Interactive Tabletops and Surfaces (ITS '11), 120--129.  ",
+      "doi": "10.1145/2076354.2076378"
+    },
+    {
+      "text": "St\u00e9phane Conversy, Eric Barboni, David Navarre, and Philippe Palanque. 2008. Improving modularity of interactive software with the MDPC architecture. In Engineering Interactive Systems. 321--338.  ",
+      "doi": "10.1007/978-3-540-92698-6_20"
+    },
+    {
+      "text": "Dafydd Gibbon, Ulrike Gut, Benjamin Hell, and Karin Looks. 2003. A computational model of arm gestures in conversation. Interspeech.",
+      "doi": ""
+    },
+    {
+      "text": "Daniela Grijincu and Miguel Nacenta. 2014. User-defined Interface Gestures?: Dataset and Analysis. In ITS, 25--34.  ",
+      "doi": "10.1145/2669485.2669511"
+    },
+    {
+      "text": "Lode Hoste and Beat Signer. 2014. Criteria, Challenges and Opportunities for Gesture Programming Languages. In International Workshop on Engineering Gestures for Multimodal Interfaces (EGMI), 22--29.",
+      "doi": ""
+    },
+    {
+      "text": "Dietrich Kammer, Ingmar Franke, Juliane Steinhauf, and Maxi Kirchner. 2011. The Eleventh Finger: Levels of Manipulation in Multi-touch Interaction. In ECCE, 24--26.  ",
+      "doi": "10.1145/2074712.2074741"
+    },
+    {
+      "text": "Dietrich Kammer, Dana Henkens, and Rainer Groh. 2012. GeForMTjs?: A JavaScript Library Based on a Domain Specific Language for Multi-touch Gestures. In ICWE, 444-- 447.  ",
+      "doi": "10.1007/978-3-642-31753-8_40"
+    },
+    {
+      "text": "Dietrich Kammer, Mandy Keck, and Rainer Groh. 2014. Towards a Periodic Table of Gestural Interaction. In EGMI.",
+      "doi": ""
+    },
+    {
+      "text": "Dietrich Kammer, Jan Wojdziak, Mandy Keck, Rainer Groh, and Severin Taranko. 2010. Towards a Formalization of Multi-touch Gestures. In ITS, 49--58.  ",
+      "doi": "10.1145/1936652.1936662"
+    },
+    {
+      "text": "Shahedul Huq Khandkar and Frank Maurer. 2010. A domain specific language to define gestures for multi-touch applications. Proceedings of the 10th Workshop on DomainSpecific Modeling - DSM '10: 1.",
+      "doi": "10.1145/2060329.2060339"
+    },
+    {
+      "text": "Ju-whan Kim and Tek-jin Nam. 2013. EventHurdle: Supporting Designers' Exploratory Interaction Prototyping with Gesture- Based Sensors. In CHI, 267--276.  ",
+      "doi": "10.1145/2470654.2470691"
+    },
+    {
+      "text": "Kenrick Kin, Bj\u00f6rn Hartmann, Tony DeRose, and Maneesh Agrawala. 2012. Proton++: A Customizable Declarative Multitouch Framework. In UIST, 477--486.  ",
+      "doi": "10.1145/2380116.2380176"
+    },
+    {
+      "text": "Kenrick Kin, Bj\u00f6rn Hartmann, Tony DeRose, and Maneesh Agrawala. 2012. Proton: Multitouch Gestures as Regular Expressions. In CHI, 2885--2894.  ",
+      "doi": "10.1145/2207676.2208694"
+    },
+    {
+      "text": "Hao L\u00fc, James Fogarty, and Yang Li. 2014. Gesture Script: Recognizing Gestures and their Structure using Rendering Scripts and Interactively Trained Parts. In CHI, 1685--1694.  ",
+      "doi": "10.1145/2556288.2557263"
+    },
+    {
+      "text": "Hao L\u00fc and Yang Li. 2012. Gesture Coder: A Tool for Programming Multi-Touch Gestures by Demonstration. In CHI, 2875--2884.  ",
+      "doi": "10.1145/2207676.2208693"
+    },
+    {
+      "text": "Yuexing Luo and Daniel Vogel. 2014. Crossing-based Selection with Direct Touch Input. In ACM CHI Conference on Human Factors in Computing Systems, 2627--2636.  ",
+      "doi": "10.1145/2556288.2557397"
+    },
+    {
+      "text": "Yuexing Luo and Daniel Vogel. 2015. Pin-And-Cross: A Unimanual Multitouch Technique Combining Static Touches with Crossing Selection. In ACM UIST Symposium on User Interface Software & Technology, 323--332.  ",
+      "doi": "10.1145/2807442.2807444"
+    },
+    {
+      "text": "Brad a. Myers. 1990. A new model for handling input. ACM Transactions on Information Systems 8, 3: 289--320.  ",
+      "doi": "10.1145/98188.98204"
+    },
+    {
+      "text": "Brad A Myers, Andrew J Ko, Thomas D LaToza, and YoungSeok Yoon. 2016. Programmers Are Users Too: Human-Centered Methods for Improving Programming Tools. Computer 49, 7: 44--52.",
+      "doi": ""
+    },
+    {
+      "text": "Brad A Myers, John F Pane, and Andy Ko. 2004. Natural Programming Languages and Environments. Commun. ACM 47, 9: 47--52.  ",
+      "doi": "10.1145/1015864.1015888"
+    },
+    {
+      "text": "Miguel Nacenta, Yemliha Kamber, Yizhou Qiang, and Per Ola Kristensson. 2013. Memorability of Pre-designed and User-defined Gesture Sets. In CHI, 1099--1108.  ",
+      "doi": "10.1145/2470654.2466142"
+    },
+    {
+      "text": "Stephen Oney, Brad Myers, and Joel Brandt. 2014. InterState: A Language and Environment for Expressing Interface Behavior. In UIST, 263--272.  ",
+      "doi": "10.1145/2642918.2647358"
+    },
+    {
+      "text": "Christian Rendl, Patrick Greindl, Kathrin Probst, Martin Behrens, and Michael Haller. 2014. Presstures: Exploring Pressure-sensitive Multi-touch Gestures on Trackpads. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14), 431--434.  ",
+      "doi": "10.1145/2556288.2557146"
+    },
+    {
+      "text": "Dean Harris Rubine. 1991. The Automatic Recognition of Gestures. Carnegie Mellon University.",
+      "doi": ""
+    },
+    {
+      "text": "Christophe Scholliers, Lode Hoste, Beat Signer, and Wolfgang De Meuter. 2011. Midas: A Declarative MultiTouch Interaction Framework. In TEI, 49--56.  ",
+      "doi": "10.1145/1935701.1935712"
+    },
+    {
+      "text": "Lucio Davide Spano, Antonio Cisternino, Fabio Patern\u00f2, and Gianni Fenu. 2013. GestIT: A Declarative and Compositional Framework for Multiplatform Gesture Definition. Eics: 187--196.  ",
+      "doi": "10.1145/2494603.2480307"
+    },
+    {
+      "text": "Md. Sami Uddin, Carl Gutwin, and Benjamin Lafreniere. 2016. HandMark Menus: Rapid Command Selection and Large Command Sets on Multi-Touch Displays. Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems: 5836--5848.  ",
+      "doi": "10.1145/2858036.2858211"
+    },
+    {
+      "text": "Jacob Wobbrock, Mary Gates Hall, and Andrew Wilson. 2007. Gestures without Libraries, Toolkits or Training: A $1 Recognizer for User Interface Prototypes. In UIST, 159--168.  ",
+      "doi": "10.1145/1294211.1294238"
+    },
+    {
+      "text": "Jacob Wobbrock, Meredith Ringel Morris, and Andrew Wilson. 2009. User-Defined Gestures for Surface Computing. In CHI, 1083--1092.  ",
+      "doi": "10.1145/1518701.1518866"
+    }
+  ]
+}

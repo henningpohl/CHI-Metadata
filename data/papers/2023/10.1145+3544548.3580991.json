@@ -1,0 +1,334 @@
+{
+  "doi": "10.1145/3544548.3580991",
+  "title": "SAWSense: Using Surface Acoustic Waves for Surface-bound Event Recognition",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Enabling computing systems to understand user interactions with everyday surfaces and objects can drive a wide range of applications. However, existing vibration-based sensors (e.g., accelerometers) lack the sensitivity to detect light touch gestures or the bandwidth to recognize activity containing high-frequency components. Conversely, microphones are highly susceptible to environmental noise, degrading performance. Each time an object impacts a surface, Surface Acoustic Waves (SAWs) are generated that propagate along the air-to-surface boundary. This work repurposes a Voice PickUp Unit (VPU) to capture SAWs on surfaces (including smooth surfaces, odd geometries, and fabrics) over long distances and in noisy environments. Our custom-designed signal acquisition, processing, and machine learning pipeline demonstrates utility in both interactive and activity recognition applications, such as classifying trackpad-style gestures on a desk and recognizing 16 cooking-related activities, all with >97% accuracy. Ultimately, SAWs offer a unique signal that can enable robust recognition of user touch and on-surface events.",
+  "authors": [
+    {
+      "name": "Yasha Iravantchi",
+      "institution": "Electrical Engineering and Computer Science, The University of Michigan, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659365852",
+      "orcid": "0000-0001-5269-9579"
+    },
+    {
+      "name": "Yi Zhao",
+      "institution": "ACM Member, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783138",
+      "orcid": "0000-0002-1276-0328"
+    },
+    {
+      "name": "Kenrick Kin",
+      "institution": "Meta, United States",
+      "img": "",
+      "acmid": "81435604849",
+      "orcid": "0000-0002-3956-9793"
+    },
+    {
+      "name": "Alanson P. Sample",
+      "institution": "Electrical Engineering and Computer Science, University of Michigan, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81387598695",
+      "orcid": "0000-0002-8046-0538"
+    }
+  ],
+  "references": [
+    {
+      "text": "R.N. Aguilar and G.C.M. Meijer. 2002. Fast interface electronics for a resistive touch-screen. In SENSORS, 2002 IEEE, Vol.\u00a02. 1360\u20131363 vol.2. https://doi.org/10.1109/ICSENS.2002.1037318",
+      "doi": ""
+    },
+    {
+      "text": "AnalogDevices. 2019. Analog Devices ADMP 401. Website. Retrieved September 20, 2019 from https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/ADMP401.pdf.",
+      "doi": ""
+    },
+    {
+      "text": "Juliette Artru, Thomas Farges, and Philippe Lognonn\u00e9. 2004. Acoustic waves generated from seismic surface waves: propagation properties determined from Doppler sounding observations and normal-mode modelling. Geophysical Journal International 158, 3 (09 2004), 1067\u20131077. https://doi.org/10.1111/j.1365-246X.2004.02377.x arXiv:https://academic.oup.com/gji/article-pdf/158/3/1067/5985707/158-3-1067.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Yusuf Aytar, Carl Vondrick, and Antonio Torralba. 2016. Soundnet: Learning sound representations from unlabeled video. In Advances in neural information processing systems. 892\u2013900.",
+      "doi": ""
+    },
+    {
+      "text": "Behringer. 2022. \"Behringer UM2\". Website. Retrieved April 7, 2022 from https://www.behringer.com/product.html?modelCode=P0AVV.",
+      "doi": ""
+    },
+    {
+      "text": "Juan\u00a0Pablo Bello, Charlie Mydlarz, and Justin Salamon. 2018. Sound Analysis in Smart Cities. Springer International Publishing, Cham, 373\u2013397. https://doi.org/10.1007/978-3-319-63450-0_13",
+      "doi": ""
+    },
+    {
+      "text": "Hrvoje Benko, Andrew\u00a0D. Wilson, and Federico Zannier. 2014. Dyadic Projected Spatial Augmented Reality. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (Honolulu, Hawaii, USA) (UIST \u201914). Association for Computing Machinery, New York, NY, USA, 645\u2013655. https://doi.org/10.1145/2642918.2647402",
+      "doi": "10.1145/2642918.2647402"
+    },
+    {
+      "text": "Andreas Braun, Stefan Krepp, and Arjan Kuijper. 2015. Acoustic Tracking of Hand Activities on Surfaces. In Proceedings of the 2nd International Workshop on Sensor-Based Activity Recognition and Interaction (Rostock, Germany) (iWOAR \u201915). Association for Computing Machinery, New York, NY, USA, Article 9, 5\u00a0pages. https://doi.org/10.1145/2790044.2790052",
+      "doi": "10.1145/2790044.2790052"
+    },
+    {
+      "text": "Pia Breuer, Christian Eckes, and Stefan M\u00fcller. 2007. Hand gesture recognition with a novel IR time-of-flight range camera\u2013a pilot study. In International Conference on Computer Vision/Computer Graphics Collaboration Techniques and Applications. Springer, 247\u2013260.",
+      "doi": ""
+    },
+    {
+      "text": "Colin Campbell. 1989. 1 - Introduction. In Surface Acoustic Wave Devices and their Signal Processing Applications, Colin Campbell (Ed.). Academic Press, 1\u20137. https://doi.org/10.1016/B978-0-12-157345-4.50005-9",
+      "doi": ""
+    },
+    {
+      "text": "Paul Clemens. 2018. Sonion Voice Pick up (VPU) sensor - TDK. https://invensense.tdk.com/wp-content/uploads/2018/10/Sonion-Voice-Pick-Up-VPU-Sensor-Paul-Clemens.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Analog Devices. 2022. \"ADXL1001 Datasheet\". Website. Retrieved April 7, 2022 from https://www.analog.com/en/products/adxl1001.html.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Dietz and Darren Leigh. 2001. DiamondTouch: A Multi-User Touch Technology. In Proceedings of the 14th Annual ACM Symposium on User Interface Software and Technology (Orlando, Florida) (UIST \u201901). Association for Computing Machinery, New York, NY, USA, 219\u2013226. https://doi.org/10.1145/502348.502389",
+      "doi": "10.1145/502348.502389"
+    },
+    {
+      "text": "Dodotronic. 2019. Ultramic384K. Website. Retrieved September 20, 2019 from https://www.dodotronic.com/ultramic384k/.",
+      "doi": ""
+    },
+    {
+      "text": "Rick Downs. 2005. Using resistive touch screens for human/machine interface. Analog Applications Journal Q 3 (2005), 5\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Bill Drafts. 2000. Acoustic Wave Technology Sensors. https://www.fierceelectronics.com/components/acoustic-wave-technology-sensors",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin Elizalde, Rohan Badlani, Ankit Shah, Anurag Kumar, and Bhiksha Raj. 2018. Nels-never-ending learner of sounds. arXiv preprint arXiv:1801.05544(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Kees Faber and Peter\u00a0W. Maxwell. 2005. Geophone spurious frequency: What is it and how does it affect seismic data?79\u201380. https://doi.org/10.1190/1.1826773 arXiv:https://library.seg.org/doi/pdf/10.1190/1.1826773",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Franke, Adam\u00a0R Abate, David\u00a0A Weitz, and Achim Wixforth. 2009. Surface acoustic wave (SAW) directed droplet flow in microfluidics for PDMS devices. Lab on a Chip 9, 18 (2009), 2625\u20132627.",
+      "doi": ""
+    },
+    {
+      "text": "Jort\u00a0F Gemmeke, Daniel\u00a0PW Ellis, Dylan Freedman, Aren Jansen, Wade Lawrence, R\u00a0Channing Moore, Manoj Plakal, and Marvin Ritter. 2017. Audio set: An ontology and human-labeled dataset for audio events. In 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 776\u2013780.",
+      "doi": "10.1109/ICASSP.2017.7952261"
+    },
+    {
+      "text": "Mayank Goel, Brendan Lee, Md.\u00a0Tanvir Islam\u00a0Aumi, Shwetak Patel, Gaetano Borriello, Stacie Hibino, and Bo Begole. 2014. SurfaceLink: Using Inertial and Acoustic Sensing to Enable Multi-Device Interaction on a Surface. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 1387\u20131396. https://doi.org/10.1145/2556288.2557120",
+      "doi": "10.1145/2556288.2557120"
+    },
+    {
+      "text": "Jun Gong, Aakar Gupta, and Hrvoje Benko. 2020. Acustico: Surface Tap Detection and Localization Using Wrist-Based Acoustic TDOA Sensing. Association for Computing Machinery, New York, NY, USA, 406\u2013419. https://doi.org/10.1145/3379337.3415901",
+      "doi": "10.1145/3379337.3415901"
+    },
+    {
+      "text": "Tobias Grosse-Puppendahl, Christian Holz, Gabe Cohn, Raphael Wimmer, Oskar Bechtold, Steve Hodges, Matthew\u00a0S. Reynolds, and Joshua\u00a0R. Smith. 2017. Finding Common Ground: A Survey of Capacitive Sensing in Human-Computer Interaction. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 3293\u20133315. https://doi.org/10.1145/3025453.3025808",
+      "doi": "10.1145/3025453.3025808"
+    },
+    {
+      "text": "Chris Harrison and Scott\u00a0E. Hudson. 2008. Scratch Input: Creating Large, Inexpensive, Unpowered and Mobile Finger Input Surfaces. In Proceedings of the 21st Annual ACM Symposium on User Interface Software and Technology (Monterey, CA, USA) (UIST \u201908). Association for Computing Machinery, New York, NY, USA, 205\u2013208. https://doi.org/10.1145/1449715.1449747",
+      "doi": "10.1145/1449715.1449747"
+    },
+    {
+      "text": "Chris Harrison, Julia Schwarz, and Scott\u00a0E. Hudson. 2011. TapSense: Enhancing Finger Interaction on Touch Surfaces. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology (Santa Barbara, California, USA) (UIST \u201911). Association for Computing Machinery, New York, NY, USA, 627\u2013636. https://doi.org/10.1145/2047196.2047279",
+      "doi": "10.1145/2047196.2047279"
+    },
+    {
+      "text": "Chris Harrison, Robert Xiao, and Scott Hudson. 2012. Acoustic Barcodes: Passive, Durable and Inexpensive Notched Identification Tags. Association for Computing Machinery, New York, NY, USA, 563\u2013568. https://doi.org/10.1145/2380116.2380187",
+      "doi": "10.1145/2380116.2380187"
+    },
+    {
+      "text": "Alexander\u00a0G. Hauptmann and Paul McAvinney. 1993. Gestures with speech for graphic manipulation. International Journal of Man-Machine Studies 38, 2 (1993), 231\u2013249. https://doi.org/10.1006/imms.1993.1011",
+      "doi": "10.1006/imms.1993.1011"
+    },
+    {
+      "text": "Yan He, Hanyan Zhang, Edwin Yang, and Song Fang. 2020. Virtual Step PIN Pad: Towards Foot-input Authentication Using Geophones. In 2020 IEEE 17th International Conference on Mobile Ad Hoc and Sensor Systems (MASS). 649\u2013657. https://doi.org/10.1109/MASS50613.2020.00084",
+      "doi": ""
+    },
+    {
+      "text": "David Holman, Nicholas Fellion, and Roel Vertegaal. 2014. Sensing Touch Using Resistive Graphs. In Proceedings of the 2014 Conference on Designing Interactive Systems (Vancouver, BC, Canada) (DIS \u201914). Association for Computing Machinery, New York, NY, USA, 195\u2013198. https://doi.org/10.1145/2598510.2598552",
+      "doi": "10.1145/2598510.2598552"
+    },
+    {
+      "text": "Yasha Iravantchi, Karan Ahuja, Mayank Goel, Chris Harrison, and Alanson Sample. 2021. PrivacyMic: Utilizing Inaudible Frequencies for Privacy Preserving Daily Activity Recognition. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 198, 13\u00a0pages. https://doi.org/10.1145/3411764.3445169",
+      "doi": "10.1145/3411764.3445169"
+    },
+    {
+      "text": "Hiroshi Ishii, Craig Wisneski, Julian Orbanes, Ben Chun, and Joe Paradiso. 1999. PingPongPlus: Design of an Athletic-Tangible Interface for Computer-Supported Cooperative Play. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Pittsburgh, Pennsylvania, USA) (CHI \u201999). Association for Computing Machinery, New York, NY, USA, 394\u2013401. https://doi.org/10.1145/302979.303115",
+      "doi": "10.1145/302979.303115"
+    },
+    {
+      "text": "Naoya Isoyama, Tsutomu Terada, and Masahiko Tsukamoto. 2014. An Interactive System for Recognizing User Actions on a Surface Using Accelerometers. In Proceedings of the 5th Augmented Human International Conference (Kobe, Japan) (AH \u201914). Association for Computing Machinery, New York, NY, USA, Article 57, 2\u00a0pages. https://doi.org/10.1145/2582051.2582108",
+      "doi": "10.1145/2582051.2582108"
+    },
+    {
+      "text": "Brett Jones, Rajinder Sodhi, Michael Murdock, Ravish Mehra, Hrvoje Benko, Andrew Wilson, Eyal Ofek, Blair MacIntyre, Nikunj Raghuvanshi, and Lior Shapira. 2014. RoomAlive: Magical Experiences Enabled by Scalable, Adaptive Projector-Camera Units. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology(Honolulu, Hawaii, USA) (UIST \u201914). Association for Computing Machinery, New York, NY, USA, 637\u2013644. https://doi.org/10.1145/2642918.2647383",
+      "doi": "10.1145/2642918.2647383"
+    },
+    {
+      "text": "Iver Jordal, Araik Tamazian, Emmanouil\u00a0Theofanis Chourdakis, C\u00e9line Angonin, askskro, Nikolay Karpov, Omer Sarioglu, kvilouras, Enis\u00a0Berk \u00c7oban, Florian Mirus, Jeong-Yoon Lee, Kwanghee Choi, MarvinLvn, SolomidHero, and Tanel Alum\u00e4e. 2022. iver56/audiomentations: v0.24.0. https://doi.org/10.5281/zenodo.6367011",
+      "doi": ""
+    },
+    {
+      "text": "Shrinivas\u00a0G Joshi. 1991. Surface-acoustic-wave (SAW) flow sensor. IEEE transactions on ultrasonics, ferroelectrics, and frequency control 38, 2 (1991), 148\u2013154.",
+      "doi": ""
+    },
+    {
+      "text": "KeySight. 2019. Agilent 33521A Function Generator. Website. Retrieved September 20, 2019 from https://www.keysight.com/en/pd-1871159-pn-33521A/function-arbitrary-waveform- generator-30-mhz?&cc=US&lc=eng.",
+      "doi": ""
+    },
+    {
+      "text": "Hyosu Kim, Anish Byanjankar, Yunxin Liu, Yuanchao Shu, and Insik Shin. 2018. UbiTap: Leveraging Acoustic Dispersion for Ubiquitous Touch Interface on Solid Surfaces. In Proceedings of the 16th ACM Conference on Embedded Networked Sensor Systems (Shenzhen, China) (SenSys \u201918). Association for Computing Machinery, New York, NY, USA, 211\u2013223. https://doi.org/10.1145/3274783.3274848",
+      "doi": "10.1145/3274783.3274848"
+    },
+    {
+      "text": "Eric Larson, Gabe Cohn, Sidhant Gupta, Xiaofeng Ren, Beverly Harrison, Dieter Fox, and Shwetak Patel. 2011. HeatWave: Thermal Imaging for Surface User Interaction. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vancouver, BC, Canada) (CHI \u201911). Association for Computing Machinery, New York, NY, USA, 2565\u20132574. https://doi.org/10.1145/1978942.1979317",
+      "doi": "10.1145/1978942.1979317"
+    },
+    {
+      "text": "Ching-Hua Lee, Bhaskar\u00a0D Rao, and Harinath Garudadri. 2018. Bone-conduction sensor assisted noise estimation for improved speech enhancement. In Interspeech, Vol.\u00a02018. NIH Public Access, 1180.",
+      "doi": ""
+    },
+    {
+      "text": "Hanchuan Li, Can Ye, and Alanson\u00a0P. Sample. 2015. IDSense: A Human Object Interaction Detection System Based on Passive UHF RFID. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems(Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 2555\u20132564. https://doi.org/10.1145/2702123.2702178",
+      "doi": "10.1145/2702123.2702178"
+    },
+    {
+      "text": "Pedro Lopes, Ricardo Jota, and Joaquim\u00a0A. Jorge. 2011. Augmenting Touch Interaction through Acoustic Sensing. In Proceedings of the ACM International Conference on Interactive Tabletops and Surfaces (Kobe, Japan) (ITS \u201911). Association for Computing Machinery, New York, NY, USA, 53\u201356. https://doi.org/10.1145/2076354.2076364",
+      "doi": "10.1145/2076354.2076364"
+    },
+    {
+      "text": "LSMDS1. 2022. \"LSMDS1 Fast Library\". Website. Retrieved April 7, 2022 from https://github.com/FemmeVerbeek/Arduino_LSM9DS1.",
+      "doi": ""
+    },
+    {
+      "text": "Ben Maman and Amit Bermano. 2022. TypeNet: Towards Camera Enabled Touch Typing on Flat Surfaces through Self-Refinement. In 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). 567\u2013576. https://doi.org/10.1109/WACV51458.2022.00064",
+      "doi": ""
+    },
+    {
+      "text": "Brian McFee, Alexandros Metsai, Matt McVicar, Stefan Balke, Carl Thom\u00e9, Colin Raffel, Frank Zalkow, Ayoub Malek, Dana, Kyungyun Lee, Oriol Nieto, Dan Ellis, Jack Mason, Eric Battenberg, Scott Seyfarth, Ryuichi Yamamoto, viktorandreevichmorozov, Keunwoo Choi, Josh Moore, Rachel Bittner, Shunsuke Hidaka, Ziyao Wei, nullmightybofo, Adam Weiss, Dar\u00edo Here\u00f1\u00fa, Fabian-Robert St\u00f6ter, Pius Friesch, Matt Vollrath, Taewoon Kim, and Thassilo. 2022. librosa/librosa: 0.9.1. https://doi.org/10.5281/zenodo.6097378",
+      "doi": ""
+    },
+    {
+      "text": "Manuel Meier, Paul Streli, Andreas Fender, and Christian Holz. 2021. TapID: Rapid Touch Interaction in Virtual Reality using Wearable Sensing. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR). 519\u2013528. https://doi.org/10.1109/VR50410.2021.00076",
+      "doi": ""
+    },
+    {
+      "text": "Bjoern\u00a0H Menze, B\u00a0Michael Kelm, Ralf Masuch, Uwe Himmelreich, Peter Bachert, Wolfgang Petrich, and Fred\u00a0A Hamprecht. 2009. A comparison of random forest and its Gini importance with standard chemometric methods for the feature selection and classification of spectral data. BMC bioinformatics 10, 1 (2009), 213.",
+      "doi": ""
+    },
+    {
+      "text": "Jon Moeller and Andruid Kerne. 2012. ZeroTouch: An Optical Multi-Touch and Free-Air Interaction Architecture. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Austin, Texas, USA) (CHI \u201912). Association for Computing Machinery, New York, NY, USA, 2165\u20132174. https://doi.org/10.1145/2207676.2208368",
+      "doi": "10.1145/2207676.2208368"
+    },
+    {
+      "text": "Takaaki Nara, Masaya Takasaki, Taro Maeda, Toshiro Higuchi, Shigeru Ando, and Susumu Tachi. 2001. Surface acoustic wave tactile display. IEEE Computer Graphics and Applications 21, 6 (2001), 56\u201363.",
+      "doi": "10.1109/38.963461"
+    },
+    {
+      "text": "Makoto Ono, Buntarou Shizuki, and Jiro Tanaka. 2013. Touch & Activate: Adding Interactivity to Existing Objects Using Active Acoustic Sensing. In Proceedings of the 26th Annual ACM Symposium on User Interface Software and Technology (St. Andrews, Scotland, United Kingdom) (UIST \u201913). Association for Computing Machinery, New York, NY, USA, 31\u201340. https://doi.org/10.1145/2501988.2501989",
+      "doi": "10.1145/2501988.2501989"
+    },
+    {
+      "text": "Shijia Pan, Ceferino\u00a0Gabriel Ramirez, Mostafa Mirshekari, Jonathon Fagert, Albert\u00a0Jin Chung, Chih\u00a0Chi Hu, John\u00a0Paul Shen, Hae\u00a0Young Noh, and Pei Zhang. 2017. SurfaceVibe: Vibration-Based Tap & Swipe Tracking on Ubiquitous Surfaces(IPSN \u201917). Association for Computing Machinery, New York, NY, USA, 197\u2013208. https://doi.org/10.1145/3055031.3055077",
+      "doi": "10.1145/3055031.3055077"
+    },
+    {
+      "text": "J.\u00a0A. Paradiso, K. Hsiao, J. Strickon, J. Lifton, and A. Adler. 2000. Sensor systems for interactive surfaces. IBM Systems Journal 39, 3.4 (2000), 892\u2013914. https://doi.org/10.1147/sj.393.0892",
+      "doi": "10.1147/sj.393.0892"
+    },
+    {
+      "text": "Hubert Pham. 2017. \"PyAudio\". Website. Retrieved September 17, 2020 from https://people.csail.mit.edu/hubert/pyaudio/.",
+      "doi": ""
+    },
+    {
+      "text": "Karol\u00a0J Piczak. 2015. Environmental sound classification with convolutional neural networks. In 2015 IEEE 25th international workshop on machine learning for signal processing (MLSP). IEEE, 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Louis Pisha, Julian Warchall, Tamara Zubatiy, Sean Hamilton, Ching-Hua Lee, Ganz Chockalingam, Patrick\u00a0P Mercier, Rajesh Gupta, Bhaskar\u00a0D Rao, and Harinath Garudadri. 2019. A wearable, extensible, open-source platform for hearing healthcare research. IEEE Access 7(2019), 162083\u2013162101.",
+      "doi": ""
+    },
+    {
+      "text": "Ivan Poupyrev, Nan-Wei Gong, Shiho Fukuhara, Mustafa\u00a0Emre Karagozler, Carsten Schwesig, and Karen\u00a0E. Robinson. 2016. Project Jacquard: Interactive Digital Textiles at Scale. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 4216\u20134227. https://doi.org/10.1145/2858036.2858176",
+      "doi": "10.1145/2858036.2858176"
+    },
+    {
+      "text": "Mark Richardson, Matt Durasoff, and Robert Wang. 2020. Decoding Surface Touch Typing from Hand-Tracking. Association for Computing Machinery, New York, NY, USA, 686\u2013696. https://doi.org/10.1145/3379337.3415816",
+      "doi": "10.1145/3379337.3415816"
+    },
+    {
+      "text": "Justin Salamon and Juan\u00a0Pablo Bello. 2015. Unsupervised feature learning for urban sound classification. In 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 171\u2013175.",
+      "doi": ""
+    },
+    {
+      "text": "Justin Salamon and Juan\u00a0Pablo Bello. 2017. Deep convolutional neural networks and data augmentation for environmental sound classification. IEEE Signal processing letters 24, 3 (2017), 279\u2013283.",
+      "doi": ""
+    },
+    {
+      "text": "SciKit. 2020. \"SciKit\". Website. Retrieved September 17, 2020 from https://scikit-learn.org/stable/.",
+      "doi": ""
+    },
+    {
+      "text": "Yilei Shi, Haimo Zhang, Jiashuo Cao, and Suranga Nanayakkara. 2020. VersaTouch: A Versatile Plug-and-Play System That Enables Touch Interactions on Everyday Passive Surfaces. In Proceedings of the Augmented Humans International Conference (Kaiserslautern, Germany) (AHs \u201920). Association for Computing Machinery, New York, NY, USA, Article 26, 12\u00a0pages. https://doi.org/10.1145/3384657.3384778",
+      "doi": "10.1145/3384657.3384778"
+    },
+    {
+      "text": "SM-24. 2022. \"SM-24 Geophone\". Website. Retrieved April 7, 2022 from https://www.iongeo.com/wp-content/uploads/2020/07/SM-24-Geophone-Element-Product-Flyer.pdf.",
+      "doi": ""
+    },
+    {
+      "text": "Knowles SPH1668LM4H. 2022. \"Knowles SPH1668LM4H\". Website. Retrieved April 7, 2022 from https://www.digikey.com/en/products/detail/knowles/SPH1668LM4H-1/5332441.",
+      "doi": ""
+    },
+    {
+      "text": "Sai\u00a0Ganesh Swaminathan, Scott Hudson, and Steve Hodges. 2020. Using Surface Acoustic Wave Devices for Self-powered Sensing & Interaction. In SelfSustainableCHI Workshop, CHI 2020. https://www.microsoft.com/en-us/research/publication/using-surface-acoustic-wave-devices-for-self-powered-sensing-interaction/",
+      "doi": ""
+    },
+    {
+      "text": "UMA-8. 2022. \"MiniDSP UMA-8\". Website. Retrieved April 7, 2022 from https://www.minidsp.com/products/usb-audio-interface/uma-8-microphone-array.",
+      "doi": ""
+    },
+    {
+      "text": "Pierre Wellner. 1991. The DigitalDesk Calculator: Tangible Manipulation on a Desk Top Display. In Proceedings of the 4th Annual ACM Symposium on User Interface Software and Technology (Hilton Head, South Carolina, USA) (UIST \u201991). Association for Computing Machinery, New York, NY, USA, 27\u201333. https://doi.org/10.1145/120782.120785",
+      "doi": "10.1145/120782.120785"
+    },
+    {
+      "text": "Andrew Wilson, Hrvoje Benko, Shahram Izadi, and Otmar Hilliges. 2012. Steerable Augmented Reality with the Beamatron. Association for Computing Machinery, New York, NY, USA, 413\u2013422. https://doi.org/10.1145/2380116.2380169",
+      "doi": "10.1145/2380116.2380169"
+    },
+    {
+      "text": "Andrew\u00a0D. Wilson and Hrvoje Benko. 2010. Combining Multiple Depth Cameras and Projectors for Interactions on, above and between Surfaces. In Proceedings of the 23nd Annual ACM Symposium on User Interface Software and Technology (New York, New York, USA) (UIST \u201910). Association for Computing Machinery, New York, NY, USA, 273\u2013282. https://doi.org/10.1145/1866029.1866073",
+      "doi": "10.1145/1866029.1866073"
+    },
+    {
+      "text": "Robert Xiao, Teng Cao, Ning Guo, Jun Zhuo, Yang Zhang, and Chris Harrison. 2018. LumiWatch: On-Arm Projected Graphics and Touch Input. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3173574.3173669",
+      "doi": "10.1145/3173574.3173669"
+    },
+    {
+      "text": "Robert Xiao, Chris Harrison, and Scott\u00a0E. Hudson. 2013. WorldKit: Rapid and Easy Creation of Ad-Hoc Interactive Applications on Everyday Surfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). Association for Computing Machinery, New York, NY, USA, 879\u2013888. https://doi.org/10.1145/2470654.2466113",
+      "doi": "10.1145/2470654.2466113"
+    },
+    {
+      "text": "Robert Xiao, Scott Hudson, and Chris Harrison. 2016. DIRECT: Making Touch Tracking on Ordinary Surfaces Practical with Hybrid Depth-Infrared Sensing. In Proceedings of the 2016 ACM International Conference on Interactive Surfaces and Spaces (Niagara Falls, Ontario, Canada) (ISS \u201916). Association for Computing Machinery, New York, NY, USA, 85\u201394. https://doi.org/10.1145/2992154.2992173",
+      "doi": "10.1145/2992154.2992173"
+    },
+    {
+      "text": "Robert Xiao, Greg Lew, James Marsanico, Divya Hariharan, Scott Hudson, and Chris Harrison. 2014. Toffee: Enabling Ad Hoc, around-Device Interaction with Acoustic Time-of-Arrival Correlation. In Proceedings of the 16th International Conference on Human-Computer Interaction with Mobile Devices; Services (Toronto, ON, Canada) (MobileHCI \u201914). Association for Computing Machinery, New York, NY, USA, 67\u201376. https://doi.org/10.1145/2628363.2628383",
+      "doi": "10.1145/2628363.2628383"
+    },
+    {
+      "text": "Yang Zhang, Gierad Laput, and Chris Harrison. 2017. Electrick: Low-Cost Touch Sensing Using Electric Field Tomography. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3025453.3025842",
+      "doi": "10.1145/3025453.3025842"
+    },
+    {
+      "text": "Yang Zhang, Chouchang\u00a0(Jack) Yang, Scott\u00a0E. Hudson, Chris Harrison, and Alanson Sample. 2018. Wall++: Room-Scale Interactive and Context-Aware Sensing. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, Article 273, 15\u00a0pages. https://doi.org/10.1145/3173574.3173847",
+      "doi": "10.1145/3173574.3173847"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "doi": "10.1145/3290605.3300305",
+  "title": "Modeling Mobile Interface Tappability Using Crowdsourcing and Deep Learning",
+  "published": "2019-05-02",
+  "proctitle": "CHI '19: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-11",
+  "year": 2019,
+  "badges": [],
+  "abstract": "Tapping is an immensely important gesture in mobile touchscreen interfaces, yet people still frequently are required to learn which elements are tappable through trial and error. Predicting human behavior for this everyday gesture can help mobile app designers understand an important aspect of the usability of their apps without having to run a user study. In this paper, we present an approach for modeling tappability of mobile interfaces at scale. We conducted large-scale data collection of interface tappability over a rich set of mobile apps using crowdsourcing and computationally investigated a variety of signifiers that people use to distinguish tappable versus not-tappable elements. Based on the dataset, we developed and trained a deep neural network that predicts how likely a user will perceive an interface element as tappable versus not tappable. Using the trained tappability model, we developed TapShoe, a tool that automatically diagnoses mismatches between the tappability of each element as perceived by a human user---predicted by our model, and the intended or actual tappable state of the element specified by the developer or designer. Our model achieved reasonable accuracy: mean precision 90.2% and recall 87.0%, in matching human perception on identifying tappable UI elements. The tappability model and TapShoe were well received by designers via an informal evaluation with 7 professional interaction designers.",
+  "authors": [
+    {
+      "name": "Amanda Swearngin",
+      "institution": "University of Washington & Google Research, Seattle, WA, USA",
+      "img": "/do/10.1145/contrib-81488669260/rel-imgonly/avatar.jpg",
+      "acmid": "81488669260",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yang Li",
+      "institution": "Google Research, Mountain View, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81350580013",
+      "orcid": "0000-0001-7808-5524"
+    }
+  ],
+  "references": [
+    {
+      "text": "2015. Beyond Blue Links: Making Clickable Elements Recognizable. (2015). https://www.nngroup.com/articles/clickable-elements/",
+      "doi": ""
+    },
+    {
+      "text": "2017. Flat UI Elements Attract Less Attention and Cause Uncertainty. (September 2017). https://www.nngroup.com/articles/ flat-ui-less-attention-cause-uncertainty/",
+      "doi": ""
+    },
+    {
+      "text": "2018. Material Design Guidelines. (2018). https://material.io/design/",
+      "doi": ""
+    },
+    {
+      "text": "2018. Visual Affordance Testing. (Sep 2018). http://practicaluxmethods. com/product/visual-affordance-testing/",
+      "doi": ""
+    },
+    {
+      "text": "Mart\u00edn Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Geoffrey Irving, Michael Isard, et al. 2016. Tensorflow: A System for Large-Scale Machine Learning.. In OSDI, Vol. 16. 265--283. ",
+      "doi": "10.5555/3026877.3026899"
+    },
+    {
+      "text": "Zoya Bylinskii, Nam Wook Kim, Peter O'Donovan, Sami Alsheikh, Spandan Madan, Hanspeter Pfister, Fredo Durand, Bryan Russell, and Aaron Hertzmann. 2017. Learning Visual Importance for Graphic Designs and Data Visualizations. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology (UIST '17). ACM, New York, NY, USA, 57--69.  ",
+      "doi": "10.1145/3126594.3126653"
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, Chad Franzen, Joshua Hibschman, Daniel Afergan, Yang Li, Jeffrey Nichols, and Ranjitha Kumar. 2017. Rico: A Mobile App Dataset for Building Data-Driven Design Applications. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology (UIST '17). ACM, New York, NY, USA, 845--854.  ",
+      "doi": "10.1145/3126594.3126651"
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, Chad Franzen, Jeffrey Nichols, Yang Li, and Ranjitha Kumar. 2017. ZIPT: Zero-Integration Performance Testing of Mobile App Designs. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology (UIST '17). ACM, New York, NY, USA, 727--736.  ",
+      "doi": "10.1145/3126594.3126647"
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, and Ranjitha Kumar. 2016. ERICA: Interaction Mining Mobile Apps. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST '16). ACM, New York, NY, USA, 767--776.  ",
+      "doi": "10.1145/2984511.2984581"
+    },
+    {
+      "text": "Joseph L Fleiss. 1971. Measuring Nominal Scale Agreement Among Many Raters. Psychological bulletin 76, 5 (1971), 378.",
+      "doi": ""
+    },
+    {
+      "text": "William W. Gaver. 1991. Technology Affordances. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '91). ACM, New York, NY, USA, 79--84.  ",
+      "doi": "10.1145/108844.108856"
+    },
+    {
+      "text": "James J Gibson. 1978. The Ecological Approach to the Visual Perception of Pictures. Leonardo 11, 3 (1978), 227--235.",
+      "doi": ""
+    },
+    {
+      "text": "Michael D. Greenberg, Matthew W. Easterday, and Elizabeth M. Gerber. 2015. Critiki: A Scaffolded Approach to Gathering Design Feedback from Paid Crowdworkers. In Proceedings of the 2015 ACM SIGCHI Conference on Creativity and Cognition (C&C '15). ACM, New York, NY, USA, 235--244.  ",
+      "doi": "10.1145/2757226.2757249"
+    },
+    {
+      "text": "IDF Instructor. 2015. Affordances and Design. (2015). https://www. interaction-design.org/literature/article/affordances-and-design",
+      "doi": ""
+    },
+    {
+      "text": "Aniket Kittur, Ed H. Chi, and Bongwon Suh. 2008. Crowdsourcing User Studies with Mechanical Turk. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '08). ACM, New York, NY, USA, 453--456.  ",
+      "doi": "10.1145/1357054.1357127"
+    },
+    {
+      "text": "Steven Komarov, Katharina Reinecke, and Krzysztof Z. Gajos. 2013. Crowdsourcing Performance Evaluations of User Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). ACM, New York, NY, USA, 207--216.  ",
+      "doi": "10.1145/2470654.2470684"
+    },
+    {
+      "text": "J Richard Landis and Gary G Koch. 1977. An Application of Hierarchical Kappa-type Statistics in the Assessment of Majority Agreement Among Multiple Observers. Biometrics (1977), 363--374.",
+      "doi": ""
+    },
+    {
+      "text": "Yann LeCun, Yoshua Bengio, and Geoffrey Hinton. 2015. Deep Learning. Nature 521, 7553 (2015), 436.",
+      "doi": ""
+    },
+    {
+      "text": "Yang Li, Samy Bengio, and Gilles Bailly. 2018. Predicting Human Performance in Vertical Menu Selection Using Deep Learning. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '18). ACM, 29:1--29:7.  ",
+      "doi": "10.1145/3173574.3173603"
+    },
+    {
+      "text": "Kurt Luther, Jari-Lee Tolentino, Wei Wu, Amy Pavel, Brian P. Bailey, Maneesh Agrawala, Bj\u00f6rn Hartmann, and Steven P. Dow. 2015. Structuring, Aggregating, and Evaluating Crowdsourced Design Critique. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (CSCW '15). ACM, New York, NY, USA, 473--485.  ",
+      "doi": "10.1145/2675133.2675283"
+    },
+    {
+      "text": "Vinod Nair and Geoffrey E Hinton. 2010. Rectified Linear Units Improve Restricted Boltzmann Machines. In Proceedings of the 27th International Conference on Machine Learning (ICML). 807--814. ",
+      "doi": "10.5555/3104322.3104425"
+    },
+    {
+      "text": "Michael Nebeling, Maximilian Speicher, and Moira C Norrie. 2013. CrowdStudy: General Toolkit for Crowdsourced Evaluation of Web Interfaces. In Proceedings of the SIGCHI Symposium on Engineering Interactive Computing Systems. ACM, 255--264.  ",
+      "doi": "10.1145/2494603.2480303"
+    },
+    {
+      "text": "Don Norman. 2013. The Design of Everyday Things: Revised and Expanded Edition. Constellation.",
+      "doi": ""
+    },
+    {
+      "text": "Donald A. Norman. 1999. Affordance, Conventions, and Design. Interactions 6, 3 (May 1999), 38--43.  ",
+      "doi": "10.1145/301153.301168"
+    },
+    {
+      "text": "Donald A. Norman. 2008. The Way I See It: Signifiers, Not Affordances. Interactions 15, 6 (Nov. 2008), 18--19.  ",
+      "doi": "10.1145/1409040.1409044"
+    },
+    {
+      "text": "Jeffrey Pennington, Richard Socher, and Christopher Manning. 2014. Glove: Global Vectors for Word Representation. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMLNP '14). 1532--1543.",
+      "doi": ""
+    },
+    {
+      "text": "Ken Pfeuffer and Yang Li. 2018. Analysis and Modeling of Grid Performance on Touchscreen Mobile Devices. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '18). ACM, New York, NY, USA, Article 288, 12 pages.  ",
+      "doi": "10.1145/3173574.3173862"
+    },
+    {
+      "text": "Hanna Schneider, Katharina Frison, Julie Wagner, and Andras Butz. 2016. CrowdUX: A Case for Using Widespread and Lightweight Tools in the Quest for UX. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems (DIS '16). ACM, New York, NY, USA, 415--426.  ",
+      "doi": "10.1145/2901790.2901814"
+    },
+    {
+      "text": "Jenifer Tidwell. 2010. Designing Interfaces: Patterns for Effective Interaction Design. O'Reilly Media, Inc. ",
+      "doi": "10.5555/1965339"
+    },
+    {
+      "text": "Jacob O Wobbrock, Htet Htet Aung, Brandon Rothrock, and Brad A Myers. 2005. Maximizing the Guessability of Symbolic Input. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems Extended Abstracts. ACM, 1869--1872.  ",
+      "doi": "10.1145/1056808.1057043"
+    },
+    {
+      "text": "Anbang Xu, Shih-Wen Huang, and Brian Bailey. 2014. Voyant: Generating Structured Feedback on Visual Designs Using a Crowd of Non-Experts. In Proceedings of the 17th ACM Conference on Computer Supported Cooperative Work & Social Computing. ACM, 1433--1444.  ",
+      "doi": "10.1145/2531602.2531604"
+    }
+  ]
+}

@@ -1,0 +1,684 @@
+{
+  "doi": "10.1145/3491102.3501819",
+  "title": "TaleBrush: Sketching Stories with Generative Pretrained Language Models",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-19",
+  "year": 2022,
+  "badges": [],
+  "abstract": "While advanced text generation algorithms (e.g., GPT-3) have enabled writers to co-create stories with an AI, guiding the narrative remains a challenge. Existing systems often leverage simple turn-taking between the writer and the AI in story development. However, writers remain unsupported in intuitively understanding the AI\u2019s actions or steering the iterative generation. We introduce TaleBrush, a generative story ideation tool that uses line sketching interactions with a GPT-based language model for control and sensemaking of a protagonist\u2019s fortune in co-created stories. Our empirical evaluation found our pipeline reliably controls story generation while maintaining the novelty of generated sentences. In a user study with 14 participants with diverse writing experiences, we found participants successfully leveraged sketching to iteratively explore and write stories according to their intentions about the character\u2019s fortune while taking inspiration from generated stories. We conclude with a reflection on how sketching interactions can facilitate the iterative human-AI co-creation process.",
+  "authors": [
+    {
+      "name": "John Joon Young Chung",
+      "institution": "Computer Science and Engineering, University of Michigan, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659474867",
+      "orcid": "missing"
+    },
+    {
+      "name": "Wooseok Kim",
+      "institution": "Department of Industrial Design, KAIST, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702236",
+      "orcid": "0000-0002-7619-5460"
+    },
+    {
+      "name": "Kang Min Yoo",
+      "institution": "NAVER AI LAB, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660236787",
+      "orcid": "missing"
+    },
+    {
+      "name": "Hwaran Lee",
+      "institution": "NAVER AI LAB, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660233271",
+      "orcid": "missing"
+    },
+    {
+      "name": "Eytan Adar",
+      "institution": "School of Information, University of Michigan, United States and Computer Science and Engineering, University of Michigan, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100589033",
+      "orcid": "missing"
+    },
+    {
+      "name": "Minsuk Chang",
+      "institution": "NAVER AI LAB, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659163123",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Wolfgang Aigner, Silvia Miksch, Heidrun Schumann, and Christian Tominski. 2011. Visualization of Time-Oriented Data(1st ed.). Springer Publishing Company, Incorporated.",
+      "doi": ""
+    },
+    {
+      "text": "Taketo Akama. 2019. Controlling Symbolic Music Generation based on Concept Learning from Domain Knowledge. In Proceedings of the 20th International Society for Music Information Retrieval Conference, ISMIR 2019, Delft, The Netherlands, November 4-8, 2019, Arthur Flexer, Geoffroy Peeters, Juli\u00e1n Urbano, and Anja Volk (Eds.). 816\u2013823. http://archives.ismir.net/ismir2019/paper/000100.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Nader Akoury, Shufan Wang, Josh Whiting, Stephen Hood, Nanyun Peng, and Mohit Iyyer. 2020. STORIUM: A Dataset and Evaluation Platform for Machine-in-the-Loop Story Generation. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). Association for Computational Linguistics, Online, 6470\u20136484. https://doi.org/10.18653/v1/2020.emnlp-main.525",
+      "doi": ""
+    },
+    {
+      "text": "Prithviraj Ammanabrolu, William Broniec, Alex Mueller, Jeremy Paul, and Mark Riedl. [n.d.]. Toward Automated Quest Generation in Text-Adventure Games. In Proceedings of the 4th Workshop on Computational Creativity in Language Generation.",
+      "doi": ""
+    },
+    {
+      "text": "Prithviraj Ammanabrolu, Wesley Cheung, William Broniec, and Mark\u00a0O. Riedl. 2020. Automated Storytelling via Causal, Commonsense Plot Ordering. CoRR abs/2009.00829(2020). https://arxiv.org/abs/2009.00829",
+      "doi": ""
+    },
+    {
+      "text": "Prithviraj Ammanabrolu, Ethan Tien, Wesley Cheung, Zhaochen Luo, William Ma, Lara Martin, and Mark Riedl. 2019. Guided Neural Language Generation for Automated Storytelling. In Proceedings of the Second Workshop on Storytelling. Association for Computational Linguistics, Florence, Italy, 46\u201355. https://doi.org/10.18653/v1/W19-3405",
+      "doi": ""
+    },
+    {
+      "text": "Kitti Balogh, Krisztina Szucs, Viktoria Verecze, and Zoltan Varju. [n.d.]. Visualizing Star Wars Movie Scripts. https://tas.precognox.com/labs/star-wars-visualization/",
+      "doi": ""
+    },
+    {
+      "text": "Iz Beltagy, Matthew\u00a0E Peters, and Arman Cohan. 2020. Longformer: The long-document transformer. arXiv preprint arXiv:2004.05150(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Emily\u00a0M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. 2021. On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (Virtual Event, Canada) (FAccT \u201921). Association for Computing Machinery, New York, NY, USA, 610\u2013623. https://doi.org/10.1145/3442188.3445922",
+      "doi": "10.1145/3442188.3445922"
+    },
+    {
+      "text": "Eden Bensaid, Mauro Martino, Benjamin Hoover, Jacob Andreas, and Hendrik Strobelt. 2021. FairyTailor: A Multimodal Generative Framework for Storytelling. arxiv:2108.04324\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0S. Bernstein, Greg Little, Robert\u00a0C. Miller, Bj\u00f6rn Hartmann, Mark\u00a0S. Ackerman, David\u00a0R. Karger, David Crowell, and Katrina Panovich. 2010. Soylent: A Word Processor with a Crowd Inside. Association for Computing Machinery, New York, NY, USA, 313\u2013322. https://doi.org/10.1145/1866029.1866078",
+      "doi": "10.1145/1866029.1866078"
+    },
+    {
+      "text": "Natalia Bilenko. 2016. The narrative explorer. Ph.D. Dissertation. Master\u2019s thesis, EECS Department, University of California, Berkeley.",
+      "doi": ""
+    },
+    {
+      "text": "Sid Black, Leo Gao, Phil Wang, Connor Leahy, and Stella Biderman. 2021. GPT-Neo: Large Scale Autoregressive Language Modeling with Mesh-Tensorflow. http://github.com/eleutherai/gpt-neo",
+      "doi": ""
+    },
+    {
+      "text": "Kyle Booten and Katy\u00a0Ilonka Gero. 2021. Poetry Machines: Eliciting Designs for Interactive Writing Tools from Poets. In Creativity and Cognition. 1\u20135.",
+      "doi": ""
+    },
+    {
+      "text": "Mike Bostock. 2012. Les Mis\u00e9rables Co-occurrence. https://bost.ocks.org/mike/miserables/",
+      "doi": ""
+    },
+    {
+      "text": "Nadia Boukhelifa, Anastasia Bezerianos, Tobias Isenberg, and Jean-Daniel Fekete. 2012. Evaluating Sketchiness as a Visual Variable for the Depiction of Qualitative Uncertainty. IEEE Transactions on Visualization and Computer Graphics 18, 12(2012), 2769\u20132778. https://doi.org/10.1109/TVCG.2012.220",
+      "doi": "10.1109/TVCG.2012.220"
+    },
+    {
+      "text": "Richard Brath. 2021. Surveying Wonderland for many more literature visualization techniques. CoRR abs/2110.08584(2021). arXiv:2110.08584https://arxiv.org/abs/2110.08584",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Brehmer, Bongshin Lee, Benjamin Bach, Nathalie\u00a0Henry Riche, and Tamara Munzner. 2017. Timelines Revisited: A Design Space and Considerations for Expressive Storytelling. IEEE Transactions on Visualization and Computer Graphics (TVCG) 23 (2017), 2151\u20132164. Issue 9. https://doi.org/10.1109/TVCG.2016.2614803",
+      "doi": "10.1109/TVCG.2016.2614803"
+    },
+    {
+      "text": "Write Brothers. 1994. Dramatica\u00aeThe Next Chapter in Story Development. https://dramatica.com/",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0F. Brown, Stephen\u00a0A. Della\u00a0Pietra, Vincent\u00a0J. Della\u00a0Pietra, Jennifer\u00a0C. Lai, and Robert\u00a0L. Mercer. 1992. An Estimate of an Upper Bound for the Entropy of English. Computational Linguistics 18, 1 (1992), 31\u201340. https://aclanthology.org/J92-1002",
+      "doi": "10.5555/146680.146685"
+    },
+    {
+      "text": "Tom\u00a0B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel\u00a0M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language Models are Few-Shot Learners. arxiv:2005.14165\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Jill Burstein, Beata\u00a0Beigman Klebanov, Norbert Elliot, and Hillary Molloy. 2016. A Left Turn: Automated Feedback and Activity Generation for Student Writers. In Language Teaching, Learning and Technology. 6\u201313. https://doi.org/10.21437/LTLT.2016-2",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Buschek, Martin Z\u00fcrn, and Malin Eiband. 2021. The Impact of Multiple Parallel Phrase Suggestions on Email Input and Composition Behaviour of Native and Non-Native English Writers. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, Article 732, 13\u00a0pages. https://doi.org/10.1145/3411764.3445372",
+      "doi": "10.1145/3411764.3445372"
+    },
+    {
+      "text": "Alex Calderwood, Vivian Qiu, Katy\u00a0Ilonka Gero, and Lydia\u00a0B Chilton. 2020. How Novelists Use Generative Language Models: An Exploratory User Study.. In HAI-GEN+ user2agent@ IUI.",
+      "doi": ""
+    },
+    {
+      "text": "Marc Cavazza, Fred Charles, and Steven\u00a0J. Mead. 2001. Characters in Search of an Author: AI-Based Virtual Storytelling. In Proceedings of the International Conference on Virtual Storytelling: Using Virtual Reality Technologies for Storytelling(ICVS \u201901). Springer-Verlag, Berlin, Heidelberg, 145\u2013154.",
+      "doi": ""
+    },
+    {
+      "text": "Alvin Chan, Yew-Soon Ong, Bill Pung, Aston Zhang, and Jie Fu. 2021. CoCon: A Self-Supervised Approach for Controlled Text Generation. In International Conference on Learning Representations. https://openreview.net/forum?id=VD_ozqvBy4W",
+      "doi": ""
+    },
+    {
+      "text": "John Joon\u00a0Young Chung, Shiqing He, and Eytan Adar. 2021. The Intersection of Users, Roles, Interactions, and Technologies in Creativity Support Tools. In Conference on Designing Interactive Systems. ACM, 1817\u20131833.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth Clark, Anne\u00a0Spencer Ross, Chenhao Tan, Yangfeng Ji, and Noah\u00a0A. Smith. 2018. Creative Writing with a Machine in the Loop: Case Studies on Slogans and Stories. In 23rd International Conference on Intelligent User Interfaces (Tokyo, Japan) (IUI \u201918). Association for Computing Machinery, New York, NY, USA, 329\u2013340. https://doi.org/10.1145/3172944.3172983",
+      "doi": "10.1145/3172944.3172983"
+    },
+    {
+      "text": "Andy Coenen, Luke Davis, Daphne Ippolito, Emily Reif, and Ann Yuan. 2021. Wordcraft: a Human-AI Collaborative Editor for Story Writing. arXiv preprint arXiv:2107.07430(2021).",
+      "doi": ""
+    },
+    {
+      "text": "W.W. Cook and P. Collins. 2016. Plotto: The Master Book of All Plots. Tin House Books. https://books.google.co.kr/books?id=xOCMDAEACAAJ",
+      "doi": ""
+    },
+    {
+      "text": "Sumanth Dathathri, Andrea Madotto, Janice Lan, Jane Hung, Eric Frank, Piero Molino, Jason Yosinski, and Rosanne Liu. 2020. Plug and Play Language Models: A Simple Approach to Controlled Text Generation. In International Conference on Learning Representations. https://openreview.net/forum?id=H1edEyBKDS",
+      "doi": ""
+    },
+    {
+      "text": "Alexandre Denis, Samuel Cruz-Lara, Nadia Bellalem, and Lotfi Bellalem. 2014. Visualization of affect in movie scripts. In Empatex, 1st International Workshop on Empathic Television Experiences at TVX 2014. Newcastle, United Kingdom. https://hal.archives-ouvertes.fr/hal-01099668",
+      "doi": ""
+    },
+    {
+      "text": "Ruta Desai, Fraser Anderson, Justin Matejka, Stelian Coros, James McCann, George Fitzmaurice, and Tovi Grossman. 2019. Geppetto: Enabling Semantic Design of Expressive Robot Behaviors. Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300599",
+      "doi": "10.1145/3290605.3300599"
+    },
+    {
+      "text": "Eva Deverell. 2020. Character Arc Plot & Kurt Vonnegut\u2019s Story Shapes. https://www.eadeverell.com/character-arc/",
+      "doi": ""
+    },
+    {
+      "text": "Chris Donahue, Mina Lee, and Percy Liang. 2020. Enabling Language Models to Fill in the Blanks. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Online, 2492\u20132501. https://doi.org/10.18653/v1/2020.acl-main.225",
+      "doi": ""
+    },
+    {
+      "text": "Alexandre Duval, Thomas Lamson, Ga\u00ebl de\u00a0L\u00e9s\u00e9leuc\u00a0de K\u00e9rouara, and Matthias Gall\u00e9. 2021. Breaking Writer\u2019s Block: Low-cost Fine-tuning of Natural Language Generation Models. In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations. Association for Computational Linguistics, Online, 278\u2013287. https://aclanthology.org/2021.eacl-demos.33",
+      "doi": ""
+    },
+    {
+      "text": "Philipp Eichmann and Emanuel Zgraggen. 2015. Evaluating Subjective Accuracy in Time Series Pattern-Matching Using Human-Annotated Rankings. In Proceedings of the 20th International Conference on Intelligent User Interfaces (Atlanta, Georgia, USA) (IUI \u201915). Association for Computing Machinery, New York, NY, USA, 28\u201337. https://doi.org/10.1145/2678025.2701379",
+      "doi": "10.1145/2678025.2701379"
+    },
+    {
+      "text": "Mathias Eitz, James Hays, and Marc Alexa. 2012. How Do Humans Sketch Objects?ACM Trans. Graph. (Proc. SIGGRAPH) 31, 4 (2012), 44:1\u201344:10.",
+      "doi": ""
+    },
+    {
+      "text": "Mathias Eitz, Kristian Hildebrand, Tamy Boubekeur, and Marc Alexa. 2009. PhotoSketch: A Sketch Based Image Query and Compositing System. In SIGGRAPH 2009: Talks (New Orleans, Louisiana) (SIGGRAPH \u201909). Association for Computing Machinery, New York, NY, USA, Article 60, 1\u00a0pages. https://doi.org/10.1145/1597990.1598050",
+      "doi": ""
+    },
+    {
+      "text": "Angela Fan, Mike Lewis, and Yann Dauphin. 2018. Hierarchical Neural Story Generation. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). Association for Computational Linguistics, Melbourne, Australia, 889\u2013898. https://doi.org/10.18653/v1/P18-1082",
+      "doi": ""
+    },
+    {
+      "text": "Angela Fan, Mike Lewis, and Yann Dauphin. 2019. Strategies for Structuring Story Generation. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Florence, Italy, 2650\u20132660. https://doi.org/10.18653/v1/P19-1254",
+      "doi": ""
+    },
+    {
+      "text": "Chaoran Fan, Kresimir Matkovic, and Helwig Hauser. 2020. Sketch-based fast and accurate querying of time series using parameter-sharing LSTM networks. IEEE Transactions on Visualization and Computer Graphics (2020), 1\u20131. https://doi.org/10.1109/TVCG.2020.3002950",
+      "doi": ""
+    },
+    {
+      "text": "Fictional Devices. 2021. Plottr. https://plottr.com/",
+      "doi": ""
+    },
+    {
+      "text": "Linda Flower and John\u00a0R. Hayes. 1981. A Cognitive Process Theory of Writing. College Composition and Communication 32, 4 (1981), 365\u2013387. http://www.jstor.org/stable/356600",
+      "doi": ""
+    },
+    {
+      "text": "Katy\u00a0Ilonka Gero and Lydia\u00a0B. Chilton. 2019. How a Stylistic, Machine-Generated Thesaurus Impacts a Writer\u2019s Process. In Proceedings of the 2019 on Creativity and Cognition (San Diego, CA, USA) (C&C \u201919). Association for Computing Machinery, New York, NY, USA, 597\u2013603. https://doi.org/10.1145/3325480.3326573",
+      "doi": "10.1145/3325480.3326573"
+    },
+    {
+      "text": "Katy\u00a0Ilonka Gero and Lydia\u00a0B. Chilton. 2019. Metaphoria: An Algorithmic Companion for Metaphor Creation. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300526",
+      "doi": "10.1145/3290605.3300526"
+    },
+    {
+      "text": "Pablo Gerv\u00e1s, Bel\u00e9n D\u00edaz-Agudo, Federico Peinado, and Raquel Herv\u00e1s. 2005. Story Plot Generation Based on CBR. Know.-Based Syst. 18, 4\u20135 (Aug. 2005), 235\u2013242. https://doi.org/10.1016/j.knosys.2004.10.011",
+      "doi": "10.1016/j.knosys.2004.10.011"
+    },
+    {
+      "text": "Nick Greer, Jaime Teevan, and Shamsi Iqbal. 2016. An Introduction to Technological Support for Writing. Technical Report MSR-TR-2016-1. https://www.microsoft.com/en-us/research/publication/an-introduction-to-technological-support-for-writing/",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0D. Gross and Ellen\u00a0Yi-Luen Do. 1996. Ambiguous Intentions: A Paper-like Interface for Creative Design. In ACM Symposium on User Interface Software and Technology. ACM, 183\u2013192.",
+      "doi": ""
+    },
+    {
+      "text": "Jian Guan, Zhexin Zhang, Zhuoer Feng, Zitao Liu, Wenbiao Ding, Xiaoxi Mao, Changjie Fan, and Minlie Huang. 2021. OpenMEVA: A Benchmark for Evaluating Open-ended Story Generation Metrics. arxiv:2105.08920\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Guzdial and Mark Riedl. 2019. An Interaction Framework for Studying Co-Creative AI. arxiv:1903.09709\u00a0[cs.HC]",
+      "doi": ""
+    },
+    {
+      "text": "Steve Haroz, Robert Kosara, and Steven\u00a0L. Franconeri. 2016. The Connected Scatterplot for Presenting Paired Time Series. IEEE Transactions on Visualization and Computer Graphics 22, 9(2016), 2174\u20132186. https://doi.org/10.1109/TVCG.2015.2502587",
+      "doi": "10.1109/TVCG.2015.2502587"
+    },
+    {
+      "text": "Brent Harrison, Christopher Purdy, and Mark Riedl. 2021. Toward Automated Story Generation with Markov Chain Monte Carlo Methods and Deep Neural Networks. Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment 13, 2 (Jun. 2021), 191\u2013197. https://ojs.aaai.org/index.php/AIIDE/article/view/13003",
+      "doi": ""
+    },
+    {
+      "text": "Devamanyu Hazarika, Mahdi Namazifar, and Dilek Hakkani-T\u00fcr. 2021. Zero-Shot Controlled Generation with Encoder-Decoder Transformers. arxiv:2106.06411\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Heer and Ben Shneiderman. 2012. Interactive Dynamics for Visual Analysis. Commun. ACM 55, 4 (April 2012), 45\u201354. https://doi.org/10.1145/2133806.2133821",
+      "doi": "10.1145/2133806.2133821"
+    },
+    {
+      "text": "Ralf Herbrich, Tom Minka, and Thore Graepel. 2006. TrueSkill\u2122: A Bayesian Skill Rating System. In Proceedings of the 19th International Conference on Neural Information Processing Systems (Canada) (NIPS\u201906). MIT Press, Cambridge, MA, USA, 569\u2013576.",
+      "doi": ""
+    },
+    {
+      "text": "Will\u00a0E. Hipson and Saif\u00a0M. Mohammad. 2021. Emotion Dynamics in Movie Dialogues. arxiv:2103.01345\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Christian Holz and Steven Feiner. 2009. Relaxed Selection Techniques for Querying Time-Series Graphs. In Proceedings of the 22nd Annual ACM Symposium on User Interface Software and Technology (Victoria, BC, Canada) (UIST \u201909). Association for Computing Machinery, New York, NY, USA, 213\u2013222. https://doi.org/10.1145/1622176.1622217",
+      "doi": "10.1145/1622176.1622217"
+    },
+    {
+      "text": "Eric Hoyt, Kevin Ponto, and Carrie Roy. 2014. Visualizing and Analyzing the Hollywood Screenplay with ScripThreads. Digit. Humanit. Q. 8, 4 (2014). http://www.digitalhumanities.org/dhq/vol/8/4/000190/000190.html",
+      "doi": ""
+    },
+    {
+      "text": "Chi-yang Hsu, Yun-Wei Chu, Ting-Hao Huang, and Lun-Wei Ku. 2021. Plot and Rework: Modeling Storylines for Visual Storytelling. In Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021. Association for Computational Linguistics, Online, 4443\u20134453. https://doi.org/10.18653/v1/2021.findings-acl.390",
+      "doi": ""
+    },
+    {
+      "text": "Ting-Yao Hsu, Yen-Chia Hsu, and Ting-Hao\u00a0(Kenneth) Huang. 2019. On How Users Edit Computer-Generated Visual Stories. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3290607.3312965",
+      "doi": "10.1145/3290607.3312965"
+    },
+    {
+      "text": "Ting-Yao Hsu, Chieh-Yang Huang, Yen-Chia Hsu, and Ting-Hao Huang. 2019. Visual Story Post-Editing. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Florence, Italy, 6581\u20136586. https://doi.org/10.18653/v1/P19-1658",
+      "doi": ""
+    },
+    {
+      "text": "Chieh-Yang Huang, Shih-Hong Huang, and Ting-Hao\u00a0Kenneth Huang. 2020. Heteroglossia: In-situ story ideation with the crowd. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3313831.3376715"
+    },
+    {
+      "text": "Chieh-Yang Huang and Ting-Hao Huang. 2021. Semantic Frame Forecast. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Association for Computational Linguistics, Online, 2702\u20132713. https://doi.org/10.18653/v1/2021.naacl-main.215",
+      "doi": ""
+    },
+    {
+      "text": "Forrest Huang, John\u00a0F. Canny, and Jeffrey Nichols. 2019. Swire: Sketch-Based User Interface Retrieval. Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/3290605.3300334",
+      "doi": "10.1145/3290605.3300334"
+    },
+    {
+      "text": "Ting-Hao\u00a0Kenneth Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, C.\u00a0Lawrence Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley, and Margaret Mitchell. 2016. Visual Storytelling. In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Association for Computational Linguistics, San Diego, California, 1233\u20131239. https://doi.org/10.18653/v1/N16-1147",
+      "doi": ""
+    },
+    {
+      "text": "Yichen Huang, Yizhe Zhang, Oussama Elachqar, and Yu Cheng. 2020. INSET: Sentence Infilling with INter-SEntential Transformer. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Online, 2502\u20132515. https://doi.org/10.18653/v1/2020.acl-main.226",
+      "doi": ""
+    },
+    {
+      "text": "Jordan\u00a0S. Huffaker, Jonathan\u00a0K. Kummerfeld, Walter\u00a0S. Lasecki, and Mark\u00a0S. Ackerman. 2020. Crowdsourced Detection of Emotionally Manipulative Language. Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376375",
+      "doi": ""
+    },
+    {
+      "text": "Julie\u00a0S. Hui, Darren Gergle, and Elizabeth\u00a0M. Gerber. 2018. IntroAssist: A Tool to Support Writing Introductory Help Requests. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173596",
+      "doi": ""
+    },
+    {
+      "text": "Daphne Ippolito, David Grangier, Chris Callison-Burch, and Douglas Eck. 2019. Unsupervised Hierarchical Story Infilling. In Proceedings of the First Workshop on Narrative Understanding. Association for Computational Linguistics, Minneapolis, Minnesota, 37\u201343. https://doi.org/10.18653/v1/W19-2405",
+      "doi": ""
+    },
+    {
+      "text": "Stefan J\u00e4nicke, Greta Franzini, Muhammad\u00a0Faisal Cheema, and Gerik Scheuermann. 2015. On Close and Distant Reading in Digital Humanities: A Survey and Future Challenges. In Eurographics Conference on Visualization (EuroVis) - STARs, R.\u00a0Borgo, F.\u00a0Ganovelli, and I.\u00a0Viola (Eds.). The Eurographics Association. https://doi.org/10.2312/eurovisstar.20151113",
+      "doi": ""
+    },
+    {
+      "text": "Jermain Kaminski, Michael Schober, Raymond Albaladejo, Oleksandr Zastupailo, and C\u00e9sar Hidalgo. 2018. Moviegalaxies-social networks in movies. (2018).",
+      "doi": ""
+    },
+    {
+      "text": "D. Kaufer, C. Geisler, Pantelis Vlachos, and S. Ishizaki. 2006. Mining textual knowledge for writing education and research: The DocuScope project. Studies in Writing (01 2006), 115\u2013129. https://doi.org/10.1163/9781849508209_011",
+      "doi": ""
+    },
+    {
+      "text": "Eamonn Keogh and Padhraic Smyth. 1997. A Probabilistic Approach to Fast Pattern Matching in Time Series Databases. In Proceedings of the Third International Conference on Knowledge Discovery and Data Mining(Newport Beach, CA) (KDD\u201997). AAAI Press, 24\u201330.",
+      "doi": "10.5555/3001392.3001397"
+    },
+    {
+      "text": "Nitish\u00a0Shirish Keskar, Bryan McCann, Lav\u00a0R. Varshney, Caiming Xiong, and Richard Socher. 2019. CTRL: A Conditional Transformer Language Model for Controllable Generation. arxiv:1909.05858\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Muhammad Khalifa, Hady Elsahar, and Marc Dymetman. 2021. A Distributional Approach to Controlled Text Generation. In International Conference on Learning Representations. https://openreview.net/forum?id=jWkw45-9AbL",
+      "doi": ""
+    },
+    {
+      "text": "Joy Kim, Justin Cheng, and Michael\u00a0S. Bernstein. 2014. Ensemble: Exploring Complementary Strengths of Leaders and Crowds in Creative Collaboration. In Proceedings of the 17th ACM Conference on Computer Supported Cooperative Work & Social Computing (Baltimore, Maryland, USA) (CSCW \u201914). Association for Computing Machinery, New York, NY, USA, 745\u2013755. https://doi.org/10.1145/2531602.2531638",
+      "doi": "10.1145/2531602.2531638"
+    },
+    {
+      "text": "Joy Kim, Sarah Sterman, Allegra Argent\u00a0Beal Cohen, and Michael\u00a0S. Bernstein. 2017. Mechanical Novel: Crowdsourcing Complex Work through Reflection and Revision. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing (Portland, Oregon, USA) (CSCW \u201917). Association for Computing Machinery, New York, NY, USA, 233\u2013245. https://doi.org/10.1145/2998181.2998196",
+      "doi": "10.1145/2998181.2998196"
+    },
+    {
+      "text": "Nam\u00a0Wook Kim, Benjamin Bach, Hyejin Im, Sasha Schriber, Markus Gross, and Hanspeter Pfister. 2018. Visualizing Nonlinear Narratives with Story Curves. IEEE Transactions on Visualization and Computer Graphics 24, 1(2018), 595\u2013604. https://doi.org/10.1109/TVCG.2017.2744118",
+      "doi": ""
+    },
+    {
+      "text": "Taewook Kim, Jung\u00a0Soo Lee, Zhenhui Peng, and Xiaojuan Ma. 2019. Love in Lyrics: An Exploration of Supporting Textual Manifestation of Affection in Social Messaging. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 79 (nov 2019), 27\u00a0pages. https://doi.org/10.1145/3359181",
+      "doi": "10.1145/3359181"
+    },
+    {
+      "text": "Vladimir\u00a0G. Kim, Wilmot Li, Niloy\u00a0J. Mitra, Stephen DiVerdi, and Thomas Funkhouser. 2012. Exploring Collections of 3D Models Using Fuzzy Correspondences. ACM Trans. Graph. 31, 4, Article 54 (July 2012), 11\u00a0pages. https://doi.org/10.1145/2185520.2185550",
+      "doi": "10.1145/2185520.2185550"
+    },
+    {
+      "text": "Xiangzhe Kong, Jialiang Huang, Ziquan Tung, Jian Guan, and Minlie Huang. 2021. Stylized Story Generation with Style-Guided Planning. arxiv:2105.08625\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Ben Krause, Akhilesh\u00a0Deepak Gotmare, Bryan McCann, Nitish\u00a0Shirish Keskar, Shafiq Joty, Richard Socher, and Nazneen\u00a0Fatema Rajani. 2020. GeDi: Generative Discriminator Guided Sequence Generation. arxiv:2009.06367\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "J.A. Landay and B.A. Myers. 2001. Sketching interfaces: toward more human interface design. Computer 34, 3 (2001), 56\u201364. https://doi.org/10.1109/2.910894",
+      "doi": "10.1109/2.910894"
+    },
+    {
+      "text": "Claudia Leacock, Martin Chodorow, Michael Gamon, and Joel Tetreault. 2010. Automated Grammatical Error Detection for Language Learners. Morgan and Claypool Publishers.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Lebowitz. 1983. Creating a Story-Telling Universe. In Proceedings of the Eighth International Joint Conference on Artificial Intelligence - Volume 1 (Karlsruhe, West Germany) (IJCAI\u201983). Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 63\u201365.",
+      "doi": ""
+    },
+    {
+      "text": "Brian Lester, Rami Al-Rfou, and Noah Constant. 2021. The Power of Scale for Parameter-Efficient Prompt Tuning. arxiv:2104.08691\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Xiang\u00a0Lisa Li and Percy Liang. 2021. Prefix-Tuning: Optimizing Continuous Prompts for Generation. arxiv:2101.00190\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Shih-Ting Lin, Nathanael Chambers, and Greg Durrett. 2021. Conditional Generation of Temporally-ordered Event Sequences. arxiv:2012.15786\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Zhiyu Lin and Mark Riedl. 2021. Plug-and-Blend: A Framework for Controllable Story Generation with Blended Control Codes. arxiv:2104.04039\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Alisa Liu, Maarten Sap, Ximing Lu, Swabha Swayamdipta, Chandra Bhagavatula, Noah\u00a0A. Smith, and Yejin Choi. 2021. DExperts: Decoding-Time Controlled Text Generation with Experts and Anti-Experts. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). Association for Computational Linguistics, Online, 6691\u20136706. https://doi.org/10.18653/v1/2021.acl-long.522",
+      "doi": ""
+    },
+    {
+      "text": "Shixia Liu, Yingcai Wu, Enxun Wei, Mengchen Liu, and Yang Liu. 2013. StoryFlow: Tracking the Evolution of Stories. IEEE Transactions on Visualization and Computer Graphics 19, 12(2013), 2436\u20132445. https://doi.org/10.1109/TVCG.2013.196",
+      "doi": "10.1109/TVCG.2013.196"
+    },
+    {
+      "text": "Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, and Jie Tang. 2021. GPT Understands, Too. arxiv:2103.10385\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Sandy Louchart and Ruth Aylett. 2007. Building Synthetic Actors for Interactive Dramas.. In AAAI Fall Symposium: Intelligent Narrative Technologies. 63\u201370.",
+      "doi": ""
+    },
+    {
+      "text": "Neil Maiden, Konstantinos Zachos, Amanda Brown, George Brock, Lars Nyre, Aleksander Nyg\u00e5rd\u00a0Tonheim, Dimitris Apsotolou, and Jeremy Evans. 2018. Making the News: Digital Creativity Support for Journalists. Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3173574.3174049",
+      "doi": ""
+    },
+    {
+      "text": "Miro Mannino and Azza Abouzied. 2018. Expressive Time Series Querying with Hand-Drawn Scale-Free Sketches. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173962",
+      "doi": ""
+    },
+    {
+      "text": "Miro Mannino and Azza Abouzied. 2019. Is This Real? Generating Synthetic Data That Looks Real. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 549\u2013561. https://doi.org/10.1145/3332165.3347866",
+      "doi": "10.1145/3332165.3347866"
+    },
+    {
+      "text": "Stacy\u00a0C. Marsella, W.\u00a0Lewis Johnson, and Catherine LaBore. 2000. Interactive Pedagogical Drama. In Proceedings of the Fourth International Conference on Autonomous Agents (Barcelona, Spain) (AGENTS \u201900). Association for Computing Machinery, New York, NY, USA, 301\u2013308. https://doi.org/10.1145/336595.337507",
+      "doi": "10.1145/336595.337507"
+    },
+    {
+      "text": "Lara Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, and Mark Riedl. 2018. Event representations for automated story generation with deep neural nets. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a032.",
+      "doi": ""
+    },
+    {
+      "text": "MasterClass. 2020. Learn About Narrative Arcs: Definition, Examples, and How to Create a Narrative Arc in Your Writing - 2021. https://www.masterclass.com/articles/what-are-the-elements-of-a-narrative-arc-and-how-do-you-create-one-in-writing#how-to-create-a-narrative-arc-in-4-easy-steps",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0R. Meehan. 1977. TALE-SPIN, an Interactive Program That Writes Stories. In Proceedings of the 5th International Joint Conference on Artificial Intelligence - Volume 1 (Cambridge, USA) (IJCAI\u201977). Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 91\u201398.",
+      "doi": ""
+    },
+    {
+      "text": "Microsoft Research. 2017. TrueSkill. https://trueskill.org/",
+      "doi": ""
+    },
+    {
+      "text": "Franco Moretti. 2005. Graphs, maps, trees: abstract models for a literary history. Verso.",
+      "doi": ""
+    },
+    {
+      "text": "Yusuke Mori, Hiroaki Yamane, Yusuke Mukuta, and Tatsuya Harada. 2020. Finding and Generating a Missing Part for Story Completion. In Proceedings of the The 4th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature. International Committee on Computational Linguistics, Online, 156\u2013166. https://aclanthology.org/2020.latechclfl-1.19",
+      "doi": ""
+    },
+    {
+      "text": "Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, and James Allen. 2016. A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories. In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Association for Computational Linguistics, San Diego, California, 839\u2013849. https://doi.org/10.18653/v1/N16-1098",
+      "doi": ""
+    },
+    {
+      "text": "T. Munzner. 2015. Visualization Analysis and Design. CRC Press. https://books.google.de/books?id=NfkYCwAAQBAJ",
+      "doi": ""
+    },
+    {
+      "text": "Eric\u00a0T. Nalisnick and Henry\u00a0S. Baird. 2013. Character-to-Character Sentiment Analysis in Shakespeare\u2019s Plays. In Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). Association for Computational Linguistics, Sofia, Bulgaria, 479\u2013483. https://aclanthology.org/P13-2085",
+      "doi": ""
+    },
+    {
+      "text": "Michael Nebeling, Alexandra To, Anhong Guo, Adrian\u00a0A. de Freitas, Jaime Teevan, Steven\u00a0P. Dow, and Jeffrey\u00a0P. Bigham. 2016. WearWrite: Crowd-Assisted Writing from Smartwatches. Association for Computing Machinery, New York, NY, USA, 3834\u20133846. https://doi.org/10.1145/2858036.2858169",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0A. Norman. 2002. The design of everyday things. Basic Books, [New York]. http://www.amazon.de/The-Design-Everyday-Things-Norman/dp/0465067107/ref=wl_it_dp_o_pC_S_nC?ie=UTF8&colid=151193SNGKJT9&coliid=I262V9ZRW8HR2C",
+      "doi": "10.5555/2187809"
+    },
+    {
+      "text": "Santiago Ortiz. 2012. Lostalgic. http://intuitionanalytics.com/other/lostalgic/",
+      "doi": ""
+    },
+    {
+      "text": "Jiefu Ou, Nathaniel Weir, Anton Belyy, Felix Yu, and Benjamin Van\u00a0Durme. 2021. InFillmore: Frame-Guided Language Generation with Bidirectional Context. In Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics. Association for Computational Linguistics, Online, 129\u2013142. https://doi.org/10.18653/v1/2021.starsem-1.12",
+      "doi": ""
+    },
+    {
+      "text": "Maks Ovsjanikov, Wilmot Li, Leonidas Guibas, and Niloy\u00a0J. Mitra. 2011. Exploration of Continuous Variability in Collections of 3D Shapes. ACM Trans. Graph. 30, 4, Article 33 (July 2011), 10\u00a0pages. https://doi.org/10.1145/2010324.1964928",
+      "doi": "10.1145/2010324.1964928"
+    },
+    {
+      "text": "J.\u00a0Scott Penberthy and Daniel\u00a0S. Weld. 1992. UCPOP: A Sound, Complete, Partial Order Planner for ADL. In Proceedings of the Third International Conference on Principles of Knowledge Representation and Reasoning(Cambridge, MA) (KR\u201992). Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 103\u2013114.",
+      "doi": ""
+    },
+    {
+      "text": "Zhenhui Peng, Qingyu Guo, Ka\u00a0Wing Tsang, and Xiaojuan Ma. 2020. Exploring the Effects of Technological Writing Assistance for Support Providers in Online Mental Health Community. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3313831.3376695",
+      "doi": "10.1145/3313831.3376695"
+    },
+    {
+      "text": "James\u00a0L. Peterson. 1980. Computer Programs for Detecting and Correcting Spelling Errors. Commun. ACM 23, 12 (Dec. 1980), 676\u2013687. https://doi.org/10.1145/359038.359041",
+      "doi": "10.1145/359038.359041"
+    },
+    {
+      "text": "Ernst P\u00f6ppel. 1978. Time Perception. Springer Berlin Heidelberg, Berlin, Heidelberg, 713\u2013729. https://doi.org/10.1007/978-3-642-46354-9_23",
+      "doi": ""
+    },
+    {
+      "text": "Rafael P\u00c9rez\u00a0\u00dd P\u00c9rez and Mike Sharples. 2001. MEXICA: A computer model of a cognitive account of creative writing. Journal of Experimental & Theoretical Artificial Intelligence 13, 2(2001), 119\u2013139. https://doi.org/10.1080/09528130010029820 arXiv:https://doi.org/10.1080/09528130010029820",
+      "doi": ""
+    },
+    {
+      "text": "Lu Qiang, Chai Bingjie, and Zhang Haibo. 2017. Storytelling by the StoryCake Visualization. Vis. Comput. 33, 10 (Oct. 2017), 1241\u20131252. https://doi.org/10.1007/s00371-017-1409-2",
+      "doi": "10.1007/s00371-017-1409-2"
+    },
+    {
+      "text": "Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. 2019. Language Models are Unsupervised Multitask Learners. (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Hannah Rashkin, Asli Celikyilmaz, Yejin Choi, and Jianfeng Gao. 2020. PlotMachines: Outline-Conditioned Generation with Dynamic Plot State Tracking. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). Association for Computational Linguistics, Online, 4274\u20134295. https://doi.org/10.18653/v1/2020.emnlp-main.349",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0J. Reagan, Lewis Mitchell, Dilan Kiley, Christopher\u00a0M. Danforth, and Peter\u00a0Sheridan Dodds. 2016. The emotional arcs of stories are dominated by six basic shapes. EPJ Data Science 5, 1 (04 Nov 2016), 31. https://doi.org/10.1140/epjds/s13688-016-0093-1",
+      "doi": ""
+    },
+    {
+      "text": "Reedsy. 2017. What is a Narrative Arc? \u2022 A Guide to Storytelling Structure. https://blog.reedsy.com/narrative-arc/",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0O Riedl. 2008. Vignette-based story planning: Creativity through exploration and retrieval. In Proceedings of the 5th International Joint Workshop on Computational Creativity. 41\u201350.",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0Owen Riedl and Vadim Bulitko. 2012. Interactive Narrative: An Intelligent Systems Approach. AI Magazine 34, 1 (Dec. 2012), 67. https://doi.org/10.1609/aimag.v34i1.2449",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0O. Riedl and R.\u00a0Michael Young. 2010. Narrative Planning: Balancing Plot and Character. J. Artif. Int. Res. 39, 1 (Sept. 2010), 217\u2013268.",
+      "doi": "10.5555/1946417.1946422"
+    },
+    {
+      "text": "Kathy Ryall, Neal Lesh, Tom Lanning, Darren Leigh, Hiroaki Miyashita, and Shigeru Makino. 2005. QueryLines: Approximate Query for Visual Browsing. Association for Computing Machinery, New York, NY, USA, 1765\u20131768. https://doi.org/10.1145/1056808.1057017",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Schmidt. 2019. Distant Reading Sentiments and Emotions in Historic German Plays. In Abstract Booklet, DH_Budapest_2019. Budapest, Hungary, 57\u201360. https://epub.uni-regensburg.de/43592/",
+      "doi": ""
+    },
+    {
+      "text": "Eric\u00a0Hal Schwartz. 2020. Resemble AI Can Now Clone Your Voice to Speak New Languages. https://voicebot.ai/2020/10/15/resemble-ai-can-now-clone-your-voice-to-speak-new-languages/",
+      "doi": ""
+    },
+    {
+      "text": "Ashish Sharma, Inna\u00a0W. Lin, Adam\u00a0S. Miner, David\u00a0C. Atkins, and Tim Althoff. 2021. Towards Facilitating Empathic Conversations in Online Mental Health Support: A Reinforcement Learning Approach. In Proceedings of the Web Conference 2021(Ljubljana, Slovenia) (WWW \u201921). Association for Computing Machinery, New York, NY, USA, 194\u2013205. https://doi.org/10.1145/3442381.3450097",
+      "doi": "10.1145/3442381.3450097"
+    },
+    {
+      "text": "Rasagy Sharma and Venkatesh Rajamanickam. 2013. Using interactive data visualization to explore non-linear movie narratives. Parsons Journal for Information Mapping(2013).",
+      "doi": ""
+    },
+    {
+      "text": "Taylor Shin, Yasaman Razeghi, Robert\u00a0L. Logan\u00a0IV, Eric Wallace, and Sameer Singh. 2020. AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). Association for Computational Linguistics, Online, 4222\u20134235. https://doi.org/10.18653/v1/2020.emnlp-main.346",
+      "doi": ""
+    },
+    {
+      "text": "Tarique Siddiqui, Paul Luh, Zesheng Wang, Karrie Karahalios, and Aditya Parameswaran. 2020. ShapeSearch: A Flexible and Efficient System for Shape-Based Exploration of Trendlines. In Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data (Portland, OR, USA) (SIGMOD \u201920). Association for Computing Machinery, New York, NY, USA, 51\u201365. https://doi.org/10.1145/3318464.3389722",
+      "doi": "10.1145/3318464.3389722"
+    },
+    {
+      "text": "Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher\u00a0D. Manning, Andrew Ng, and Christopher Potts. 2013. Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, Seattle, Washington, USA, 1631\u20131642. https://aclanthology.org/D13-1170",
+      "doi": ""
+    },
+    {
+      "text": "Simeng Sun, Wenlong Zhao, Varun Manjunatha, Rajiv Jain, Vlad Morariu, Franck Dernoncourt, Balaji\u00a0Vasan Srinivasan, and Mohit Iyyer. 2021. IGA: An Intent-Guided Authoring Assistant. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, Online and Punta Cana, Dominican Republic, 5972\u20135985. https://aclanthology.org/2021.emnlp-main.483",
+      "doi": ""
+    },
+    {
+      "text": "Reid Swanson and Andrew\u00a0S. Gordon. 2012. Say Anything: Using Textual Case-Based Reasoning to Enable Open-Domain Interactive Storytelling. ACM Trans. Interact. Intell. Syst. 2, 3, Article 16 (Sept. 2012), 35\u00a0pages. https://doi.org/10.1145/2362394.2362398",
+      "doi": "10.1145/2362394.2362398"
+    },
+    {
+      "text": "Pradyumna Tambwekar, Murtaza Dhuliawala, Lara\u00a0J. Martin, Animesh Mehta, Brent Harrison, and Mark\u00a0O. Riedl. 2019. Controllable Neural Story Plot Generation via Reward Shaping. In Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, IJCAI-19. International Joint Conferences on Artificial Intelligence Organization, 5982\u20135988. https://doi.org/10.24963/ijcai.2019/829",
+      "doi": ""
+    },
+    {
+      "text": "Yuzuru Tanahashi and Kwan-Liu Ma. 2012. Design Considerations for Optimizing Storyline Visualizations. IEEE Transactions on Visualization and Computer Graphics 18, 12(2012), 2679\u20132688. https://doi.org/10.1109/TVCG.2012.212",
+      "doi": "10.1109/TVCG.2012.212"
+    },
+    {
+      "text": "Makarand Tapaswi, Martin B\u00e4uml, and Rainer Stiefelhagen. 2014. StoryGraphs: Visualizing Character Interactions as a Timeline. In 2014 IEEE Conference on Computer Vision and Pattern Recognition. 827\u2013834. https://doi.org/10.1109/CVPR.2014.111",
+      "doi": "10.1109/CVPR.2014.111"
+    },
+    {
+      "text": "S.R. Turner. 1992. MINSTREL, a Computer Model of Creativity and Storytelling. University of California (Los Angeles). Computer Science Department. https://books.google.co.kr/books?id=krAJjwEACAAJ",
+      "doi": ""
+    },
+    {
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan\u00a0N. Gomez, undefinedukasz Kaiser, and Illia Polosukhin. 2017. Attention is All You Need. In Proceedings of the 31st International Conference on Neural Information Processing Systems (Long Beach, California, USA) (NIPS\u201917). Curran Associates Inc., Red Hook, NY, USA, 6000\u20136010.",
+      "doi": "10.5555/3295222.3295349"
+    },
+    {
+      "text": "Vasilis Verroios and Michael\u00a0S Bernstein. 2014. Context trees: Crowdsourcing global understanding from local views. In Second AAAI Conference on Human Computation and Crowdsourcing.",
+      "doi": ""
+    },
+    {
+      "text": "K. Vonnegut and D. Simon. 2011. A Man Without a Country. Seven Stories Press. https://books.google.co.kr/books?id=T7J-Xg2bYKAC",
+      "doi": ""
+    },
+    {
+      "text": "Nick Walton. 2019. AI Dungeon 2. https://aidungeon.cc/",
+      "doi": ""
+    },
+    {
+      "text": "Jing Wang, Jianlong Fu, Jinhui Tang, Zechao Li, and Tao Mei. 2018. Show, Reward and Tell: Automatic Generation of Narrative Paragraph From Photo Stream by Adversarial Training.. In AAAI. 7396\u20137403. https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17049",
+      "doi": ""
+    },
+    {
+      "text": "Su Wang, Greg Durrett, and Katrin Erk. 2020. Narrative Interpolation for Generating and Understanding Stories. arxiv:2008.07466\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Stephen\u00a0G. Ware, R.\u00a0Michael Young, Brent Harrison, and David\u00a0L. Roberts. 2014. A Computational Model of Plan-Based Narrative Conflict at the Fabula Level. IEEE Transactions on Computational Intelligence and AI in Games 6, 3(2014), 271\u2013288. https://doi.org/10.1109/TCIAIG.2013.2277051",
+      "doi": ""
+    },
+    {
+      "text": "Kento Watanabe, Yuichiroh Matsubayashi, Kentaro Inui, Tomoyasu Nakano, Satoru Fukayama, and Masataka Goto. 2017. LyriSys: An Interactive Support System for Writing Lyrics Based on Topic Transition. In Proceedings of the 22nd International Conference on Intelligent User Interfaces(Limassol, Cyprus) (IUI \u201917). Association for Computing Machinery, New York, NY, USA, 559\u2013563. https://doi.org/10.1145/3025171.3025194",
+      "doi": "10.1145/3025171.3025194"
+    },
+    {
+      "text": "Martin Wattenberg. 2001. Sketching a Graph to Query a Time-Series Database. In CHI \u201901 Extended Abstracts on Human Factors in Computing Systems (Seattle, Washington) (CHI EA \u201901). Association for Computing Machinery, New York, NY, USA, 381\u2013382. https://doi.org/10.1145/634067.634292",
+      "doi": ""
+    },
+    {
+      "text": "Marc Weber, Marc Alexa, and Wolfgang M\u00fcller. 2001. Visualizing Time-Series on Spirals. In Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS\u201901)(INFOVIS \u201901). IEEE Computer Society, USA, 7.",
+      "doi": "10.5555/580582.857719"
+    },
+    {
+      "text": "KM Weiland. 2017. Creating Character Arcs: The Masterful Author\u2019s Guide to Uniting Story Structure, Plot, and Character Development. Smashwords Edition.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Wilhelm, Manuel Burghardt, and Christian Wolff. 2013. \u201d To See or Not to See\u201d-An Interactive Tool for the Visualization and Analysis of Shakespeare Plays. (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Peng Xu, Mostofa Patwary, Mohammad Shoeybi, Raul Puri, Pascale Fung, Anima Anandkumar, and Bryan Catanzaro. 2020. MEGATRON-CNTRL: Controllable Story Generation with External Knowledge Using Large-Scale Language Models. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). Association for Computational Linguistics, Online, 2831\u20132845. https://doi.org/10.18653/v1/2020.emnlp-main.226",
+      "doi": ""
+    },
+    {
+      "text": "Qian Yang, Justin Cranshaw, Saleema Amershi, Shamsi\u00a0T. Iqbal, and Jaime Teevan. 2019. Sketching NLP: A Case Study of Exploring the Right Things To Design with Language Intelligence. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300415",
+      "doi": ""
+    },
+    {
+      "text": "Lili Yao, Nanyun Peng, Weischedel Ralph, Kevin Knight, Dongyan Zhao, and Rui Yan. 2019. Plan-And-Write: Towards Better Automatic Storytelling. In The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19).",
+      "doi": ""
+    },
+    {
+      "text": "Ji\u00a0Soo Yi, Youn\u00a0ah Kang, John Stasko, and J.A. Jacko. 2007. Toward a Deeper Understanding of the Role of Interaction in Information Visualization. IEEE Transactions on Visualization and Computer Graphics 13, 6(2007), 1224\u20131231. https://doi.org/10.1109/TVCG.2007.70515",
+      "doi": "10.1109/TVCG.2007.70515"
+    },
+    {
+      "text": "Biqiao Zhang, Georg Essl, and Emily Mower\u00a0Provost. 2017. Predicting the Distribution of Emotion Perception: Capturing Inter-Rater Variability. In Proceedings of the 19th ACM International Conference on Multimodal Interaction(Glasgow, UK) (ICMI \u201917). Association for Computing Machinery, New York, NY, USA, 51\u201359. https://doi.org/10.1145/3136755.3136792",
+      "doi": "10.1145/3136755.3136792"
+    },
+    {
+      "text": "Kostas Zoumpatianos, Stratos Idreos, and Themis Palpanas. 2015. RINSE: Interactive Data Series Exploration with ADS+. Proc. VLDB Endow. 8, 12 (Aug. 2015), 1912\u20131915. https://doi.org/10.14778/2824032.2824099",
+      "doi": "10.14778/2824032.2824099"
+    }
+  ]
+}

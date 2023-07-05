@@ -1,0 +1,566 @@
+{
+  "doi": "10.1145/3544548.3580975",
+  "title": "Leveraging driver vehicle and environment interaction: Machine learning using driver monitoring cameras to detect drunk driving",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-32",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Excessive alcohol consumption causes disability and death. Digital interventions are promising means to promote behavioral change and thus prevent alcohol-related harm, especially in critical moments such as driving. This requires real-time information on a person\u2019s blood alcohol concentration (BAC). Here, we develop an in-vehicle machine learning system to predict critical BAC levels. Our system leverages driver monitoring cameras mandated in numerous countries worldwide. We evaluate our system with n = 30 participants in an interventional simulator study. Our system reliably detects driving under any alcohol influence (area under the receiver operating characteristic curve [AUROC] 0.88) and driving above the WHO recommended limit of 0.05\u00a0g/dL BAC (AUROC 0.79). Model inspection reveals reliance on pathophysiological effects associated with alcohol consumption. To our knowledge, we are the first to rigorously evaluate the use of driver monitoring cameras for detecting drunk driving. Our results highlight the potential of driver monitoring cameras and enable next-generation drunk driver interaction preventing alcohol-related harm.",
+  "authors": [
+    {
+      "name": "Kevin Koch",
+      "institution": "Institute of Technoly Management, University of St. Gallen, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659691671",
+      "orcid": "0000-0003-4523-2668"
+    },
+    {
+      "name": "Martin Maritsch",
+      "institution": "Department of Management, Technology, and Economics, ETH Zurich, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659463443",
+      "orcid": "0000-0001-9920-0587"
+    },
+    {
+      "name": "Eva Van Weenen",
+      "institution": "Department of Management, Technology, and Economics, ETH Zurich, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779595",
+      "orcid": "0000-0001-5500-2108"
+    },
+    {
+      "name": "Stefan Feuerriegel",
+      "institution": "School of Management, LMU Munich, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "83458675557",
+      "orcid": "0000-0001-7856-8729"
+    },
+    {
+      "name": "Matthias Pf\u00e4ffli",
+      "institution": "Institute of Forensic Medicine, University of Bern, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660689054",
+      "orcid": "0000-0003-2712-8672"
+    },
+    {
+      "name": "Elgar Fleisch",
+      "institution": "Department of Management, Technology, and Economics, ETH Zurich, Switzerland and Institute of Technoly Management, University of St. Gallen, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100308398",
+      "orcid": "0000-0002-4842-1117"
+    },
+    {
+      "name": "Wolfgang Weinmann",
+      "institution": "Institute of Forensic Medicine, University of Bern, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660691709",
+      "orcid": "0000-0001-8659-1304"
+    },
+    {
+      "name": "Felix Wortmann",
+      "institution": "Institute of Technoly Management, University of St. Gallen, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100334409",
+      "orcid": "0000-0001-5034-2023"
+    }
+  ],
+  "references": [
+    {
+      "text": "Shabnam Abtahi, Mona Omidyeganeh, Shervin Shirmohammadi, and Behnoosh Hariri. 2014. YawDD: A yawning detection dataset. In Proceedings of the Multimedia Systems Conference. 24\u201328.",
+      "doi": "10.1145/2557642.2563678"
+    },
+    {
+      "text": "Affectiva. 2022. Affectiva Automotive AI. http://go.affectiva.com/auto Accessed: 08/11/2022.",
+      "doi": ""
+    },
+    {
+      "text": "Kirstin Aschbacher, Christian\u00a0S. Hendershot, Geoffrey Tison, Judith\u00a0A. Hahn, Robert Avram, Jeffrey\u00a0E. Olgin, and Gregory\u00a0M. Marcus. 2021. Machine learning prediction of blood alcohol concentration: a digital signature of smart-breathalyzer behavior. npj Digital Medicine 4, 1 (2021), 74. https://doi.org/10.1038/s41746-021-00441-4",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0R. Aston and Anthony Liguori. 2013. Self-estimation of blood alcohol concentration: A review. Addictive Behaviors 38, 4 (2013), 1944\u20131951. https://doi.org/10.1016/j.addbeh.2012.12.017",
+      "doi": ""
+    },
+    {
+      "text": "Sangwon Bae, Tammy Chung, Denzil Ferreira, Anind\u00a0K. Dey, and Brian Suffoletto. 2018. Mobile phone sensors and supervised machine learning to identify alcohol use events in young adults: Implications for just-in-time adaptive interventions. Addictive Behaviors 83(2018), 42\u201347. https://doi.org/10.1016/j.addbeh.2017.11.039",
+      "doi": ""
+    },
+    {
+      "text": "Prateek Bansal and Kara\u00a0M. Kockelman. 2017. Forecasting Americans\u2019 long-term adoption of connected and autonomous vehicle technologies. Transportation Research Part A: Policy and Practice 95 (2017), 49\u201363.",
+      "doi": ""
+    },
+    {
+      "text": "Bosch Mobility Solutions. 2022. Driver Drowsiness Detection. https://www.bosch-mobility-solutions.com/en/solutions/interior/driver-drowsiness-detection/ Accessed: 08/11/2022.",
+      "doi": ""
+    },
+    {
+      "text": "Bosch Mobility Solutions. 2022. Interior Monitoring Systems. https://www.bosch-mobility-solutions.com/en/solutions/interior/interior-monitoring-systems/ Accessed: 11/12/2022.",
+      "doi": ""
+    },
+    {
+      "text": "\u00a0G. Bradski. 2000. The\u00a0OpenCV\u00a0Library. Dr.\u00a0Dobb\u2019s\u00a0Journal\u00a0of\u00a0Software\u00a0Tools 25, 11 (2000), 120\u2013123.",
+      "doi": ""
+    },
+    {
+      "text": "John Brick. 2006. Standardization of alcohol calculations in research. Alcoholism: Clinical and Experimental Research 30, 8 (2006), 1276\u20131287.",
+      "doi": ""
+    },
+    {
+      "text": "Timothy Brown, John\u00a0D. Lee, Chris Schwarz, Dary Fiorentino, and Anthony McDonald. 2014. Assessing the feasibility of vehicle-based sensors to detect drowsy driving. Report DOT HS 811 886.",
+      "doi": ""
+    },
+    {
+      "text": "Bundesversammlung. 2012. Verordnung der Bundesversammlung \u00fcber Alkoholgrenzwerte im Strassenverkehr. Systematische Rechtssammlung 741.13 (2012).",
+      "doi": ""
+    },
+    {
+      "text": "Bridget R.\u00a0D. Burdett, Nicola\u00a0J. Starkey, and Samuel\u00a0G. Charlton. 2017. The Close to Home Effect in Road Crashes. Safety Science 98(2017), 1\u20138. https://doi.org/10.1016/j.ssci.2017.04.009",
+      "doi": ""
+    },
+    {
+      "text": "Glenn\u00a0R. Caddy, Mark\u00a0B. Sobell, and Linda\u00a0C. Sobell. 1978. Alcohol breath tests: Criterion times for avoiding contamination by \u201cmouth alcohol\u201d. Behavior Research Methods & Instrumentation 10, 6(1978), 814\u2013818.",
+      "doi": ""
+    },
+    {
+      "text": "Alimed Celecia, Karla Figueiredo, Marley Vellasco, and Ren\u00e9 Gonz\u00e1lez. 2020. A portable fuzzy driver drowsiness estimation system. Sensors 20, 15 (2020), 4093.",
+      "doi": ""
+    },
+    {
+      "text": "Mario\u00a0I. Chacon-Murguia and Claudia Prieto-Resendiz. 2015. Detecting Driver Drowsiness: A survey of system designs and technology. IEEE Consumer Electronics Magazine 4, 4 (2015), 107\u2013119.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Chen-Hao Chang, Chia-Yu Wang, Hsin-Han Li, and Cheng-Di Chiu. 2021. Drunk Driving Detection Using Two-Stage Deep Neural Network. IEEE Access 9(2021), 116564\u2013116571.",
+      "doi": ""
+    },
+    {
+      "text": "Ipshita Chatterjee and Apoorva Sharma. 2018. Driving fitness detection: A holistic approach for prevention of drowsy and drunk driving using computer vision techniques. In IEEE South-Eastern European Design Automation, Computer Engineering, Computer Networks and Society Media Conference (SEEDA CECNSM). IEEE, 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Huiqin Chen and Lei Chen. 2017. Support vector machine classification of drunk driving behaviour. International Journal of Environmental Research and Public Health 14, 1(2017), 108.",
+      "doi": ""
+    },
+    {
+      "text": "Huiqin Chen, Xiuhong Yuan, Hongxian Ye, Lei Chen, and Guanjun Zhang. 2019. The effect of alcohol on the physiological performance of the driver. International Journal of Crashworthiness 24, 6 (2019), 656\u2013663.",
+      "doi": ""
+    },
+    {
+      "text": "Abdelkader Dairi, Fouzi Harrou, and Ying Sun. 2022. Efficient Driver Drunk Detection by Sensors: A Manifold Learning-Based Anomaly Detector. IEEE Access (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Asim\u00a0H. Dar, Adina\u00a0S. Wagner, and Michael Hanke. 2021. REMoDNaV: robust eye-movement classification for dynamic stimulation. Behavior Research Methods 53, 1 (2021), 399\u2013414.",
+      "doi": ""
+    },
+    {
+      "text": "M. Doudou, A. Bouabdallah, and V. Berge-Cherfaoui. 2020. Driver drowsiness measurement technologies: Current research, market Solutions, and challenges. International Journal of Intelligent Transportation Systems Research 18, 2(2020), 297\u2013319. https://doi.org/10.1007/s13177-019-00199-w",
+      "doi": ""
+    },
+    {
+      "text": "Luke\u00a0A. Downey, Rebecca King, Katherine Papafotiou, Phillip Swann, Edward Ogden, Martin Boorman, and Con Stough. 2013. The effects of cannabis and alcohol on simulated driving: Influences of dose and experience. Accident Analysis & Prevention 50 (2013), 879\u2013886. https://doi.org/10.1016/j.aap.2012.07.016",
+      "doi": ""
+    },
+    {
+      "text": "Eidgen\u00f6ssisches Institut f\u00fcr Metrologie. 2016. Verordnung des EJPD \u00fcber Atemalkoholmessmittel (AAMV). Amtliche Sammlung AS 2016 2841 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Euro NCAP. 2017. Euro NCAP 2025 Roadmap. Report.",
+      "doi": ""
+    },
+    {
+      "text": "European Parliament and Council of the European Union. 2019. Regulation (EU) 2019/2144. Official Journal of the European Union L 325 (2019). http://data.europa.eu/eli/reg/2019/2144/oj",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0C. Fell and Robert\u00a0B. Voas. 2014. The Effectiveness of a 0.05 Blood Alcohol Concentration Limit for Driving in the United States. Addiction 109, 6 (2014), 869\u2013874.",
+      "doi": ""
+    },
+    {
+      "text": "Alberto Fern\u00e1ndez, Rub\u00e9n Usamentiaga, Juan\u00a0Luis Car\u00fas, and Rub\u00e9n Casado. 2016. Driver distraction using visual-based sensors and algorithms. Sensors 16, 11 (2016), 1805.",
+      "doi": ""
+    },
+    {
+      "text": "Rosa\u00a0L Figueroa, Qing Zeng-Treitler, Sasikiran Kandula, and Long\u00a0H Ngo. 2012. Predicting Sample Size Required for Classification Performance. BMC Medical Informatics and Decision Making 12, 1 (2012), 1\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Per-Anders Fransson, Fredrik Modig, Mitesh Patel, Stephen Gomez, and M\u00e5ns Magnusson. 2010. Oculomotor deficits caused by 0.06% and 0.10% blood alcohol concentrations and relationship to subjective perception of drunkenness. Clinical Neurophysiology 121, 12 (2010), 2134\u20132142. https://doi.org/10.1016/j.clinph.2010.05.003",
+      "doi": ""
+    },
+    {
+      "text": "Rikard Fredriksson, Michael\u00a0G. Lenn\u00e9, Sjef van Montfort, and Colin Grover. 2021. European NCAP Program Developments to Address Driver Distraction, Drowsiness and Sudden Sickness. Frontiers in Neuroergonomics 2 (2021). https://doi.org/10.3389/fnrgo.2021.786674",
+      "doi": ""
+    },
+    {
+      "text": "Claire Garnett, David Crane, Robert West, Jamie Brown, and Susan Michie. 2015. Identification of behavior change techniques and engagement strategies to design a smartphone app to reduce alcohol consumption using a formal consensus method. JMIR mHealth and uHealth 3, 2 (2015), e73. https://doi.org/10.2196/mhealth.3895",
+      "doi": ""
+    },
+    {
+      "text": "Claire Garnett, David Crane, Robert West, Jamie Brown, and Susan Michie. 2019. The development of Drink Less: An alcohol reduction smartphone app for excessive drinkers. Translational Behavioral Medicine 9, 2 (2019), 296\u2013307.",
+      "doi": ""
+    },
+    {
+      "text": "Hasanin Harkous and Hassan Artail. 2019. A two-stage machine learning method for highly-accurate drunk driving detection. In IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob).",
+      "doi": ""
+    },
+    {
+      "text": "Hasanin Harkous, Carine Bardawil, Hassan Artail, and Naseem Daher. 2018. Application of hidden Markov model on car sensors for detecting drunk drivers. In IEEE International Multidisciplinary Conference on Engineering Technology (IMCET).",
+      "doi": ""
+    },
+    {
+      "text": "Trevor Hastie, Robert Tibshirani, and Jerome Friedman. 2009. The elements of statistical learning: data mining, inference, and prediction. Springer Science & Business Media.",
+      "doi": ""
+    },
+    {
+      "text": "Arne Helland, Gunnar\u00a0D. Jenssen, Lone-Eirin Lerv\u00e5g, Andreas\u00a0Austgulen Westin, Terje Moen, Kristian Sakshaug, Stian Lydersen, J\u00f8rg M\u00f8rland, and Lars Sl\u00f8rdal. 2013. Comparison of driving simulator performance with real driving after alcohol intake: A randomised, single blind, placebo-controlled, cross-over trial. Accident Analysis & Prevention 53 (2013), 9\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Pei-Yi Hsu, Ya-Fang Lin, Jian-Lun Huang, Chih-Chun Chang, Shih-Yao Lin, Ya-Han Lee, Chuang-Wen You, Yaliang Chuang, Ming-Chyi Huang, Hsin-Tung Tseng, and Hao-Chuan Wang. 2017. A mobile support system to assist DUI offenders on probation in reducing DUI relapse. In UbiComp \u201917: Proceedings of the 2017 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2017 ACM International Symposium on Wearable Computers. 77\u201380. https://doi.org/10.1145/3123024.3123154",
+      "doi": "10.1145/3123024.3123154"
+    },
+    {
+      "text": "Jittrapol Intarasirisawat, Chee\u00a0Siang Ang, Christos Efstratiou, Luke Dickens, Naranchaya Sriburapar, Dinkar Sharma, and Burachai Asawathaweeboon. 2020. An Automated Mobile Game-based Screening Tool for Patients with Alcohol Dependence. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 3 (2020), Article 110. https://doi.org/10.1145/3411837",
+      "doi": "10.1145/3411837"
+    },
+    {
+      "text": "S. Jongen, E.\u00a0F. P.\u00a0M. Vuurman, J.\u00a0G. Ramaekers, and A. Vermeeren. 2016. The sensitivity of laboratory tests assessing driving related skills to dose-related impairment of alcohol: A literature review. Accident Analysis & Prevention 89 (2016), 31\u201348. https://doi.org/10.1016/j.aap.2016.01.001",
+      "doi": ""
+    },
+    {
+      "text": "Sujay Kakarmath, Andre Esteva, Rima Arnaout, Hugh Harvey, Santosh Kumar, Evan Muse, Feng Dong, Leia Wedlund, and Joseph Kvedar. 2020. Best practices for authors of healthcare-related artificial intelligence manuscripts. npj Digital Medicine 3(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Hsin-Liu Kao, Bo-Jhang Ho, Allan\u00a0C. Lin, and Hao-Hua Chu. 2012. Phone-based gait analysis to detect alcohol usage. In Proceedings of the ACM Conference on Ubiquitous Computing. 661\u2013662. https://doi.org/10.1145/2370216.2370354",
+      "doi": "10.1145/2370216.2370354"
+    },
+    {
+      "text": "Minsong Ki, Bore Cho, Taejun Jeon, Yeongwoo Choi, and Hyeran Byun. 2018. Face Identification for an in-vehicle Surveillance System Using Near Infrared Camera. In 2018 15th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS). 1\u20136. https://doi.org/10.1109/AVSS.2018.8639472",
+      "doi": ""
+    },
+    {
+      "text": "Sahiti Kunchay and Saeed Abdullah. 2020. WatchOver: using Apple watches to assess and predict substance co-use in young adults. In UbiComp \u201920: Proceedings of the 2020 ACM International Joint Conference and 2020 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers. 488\u2013493. https://doi.org/10.1145/3410530.3414373",
+      "doi": "10.1145/3410530.3414373"
+    },
+    {
+      "text": "Kim\u00a0P.C. Kuypers, N. Samyn, and Johannes\u00a0Gerardus Ramaekers. 2006. MDMA and alcohol effects, combined and alone, on objective and subjective measures of actual driving performance and psychomotor function. Psychopharmacology 187, 4 (2006), 467\u2013475.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0D. Lee, Dary Fiorentino, Michelle\u00a0L Reyes, Timothy\u00a0L. Brown, Omar Ahmad, James Fell, Nic Ward, and Robert Dufour. 2010. Assessing the feasibility of vehicle-based sensors to detect alcohol impairment. Report DOT HS 811 358.",
+      "doi": ""
+    },
+    {
+      "text": "Kang\u00a0Hee Lee, Keon\u00a0Hee Baek, Su\u00a0Bin Choi, Nak\u00a0Tak Jeong, Hyung\u00a0Uk Moon, Eun\u00a0Seong Lee, Hyung\u00a0Min Kim, and Myung\u00a0Won Suh. 2019. Development of three driver state detection models from driving information using vehicle simulator; normal, drowsy and drunk driving. International Journal of Automotive Technology 20, 6(2019), 1205\u20131219.",
+      "doi": ""
+    },
+    {
+      "text": "Vera Lehmann, Afroditi Tripyla, David Herzig, Jasmin Meier, Nicolas Banholzer, Martin Maritsch, J\u00f6rg Zehetner, Daniel Giachino, Philipp Nett, Stefan Feuerriegel, Felix Wortmann, and Lia Bally. 2021. The impact of postbariatric hypoglycaemia on driving performance: A randomized, single-blind, two-period, crossover study in a driving simulator. Diabetes, Obesity and Metabolism 23, 9 (2021), 2189\u20132193. https://doi.org/10.1111/dom.14456",
+      "doi": ""
+    },
+    {
+      "text": "Vera Lehmann, Thomas Zueger, Martin Maritsch, Mathias Kraus, Caroline Albrecht, Caterina B\u00e9rub\u00e9, Stefan Feuerriegel, Felix Wortmann, Tobias Kowatsch, Na\u00efma Styger, Sophie Lagger, Markus Laimer, Elgar Fleisch, and Christoph Stettler. 2023. Machine learning for non-invasive sensing of hypoglycemia while driving in people with diabetes. Diabetes, Obesity and Metabolism(2023). https://doi.org/10.1111/dom.15021",
+      "doi": ""
+    },
+    {
+      "text": "Zhenlong Li, Xue Jin, and Xiaohua Zhao. 2015. Drunk driving detection based on classification of multivariate time series. Journal of Safety Research 54 (2015), 61. e29\u201364.",
+      "doi": ""
+    },
+    {
+      "text": "ZhenLong Li, HaoXin Wang, YaoWei Zhang, and XiaoHua Zhao. 2020. Random forest\u2013based feature selection and detection method for drunk driving recognition. International Journal of Distributed Sensor Networks 16, 2 (2020), 1550147720905234.",
+      "doi": ""
+    },
+    {
+      "text": "Christine Lisetti, Reza Amini, Ugan Yasavur, and Naphtali Rishe. 2013. I Can Help You Change! An Empathic Virtual Agent Delivers Behavior Change Health Interventions. ACM Transactions on Management Information Systems 4, 4 (2013), Article 19. https://doi.org/10.1145/2544103",
+      "doi": "10.1145/2544103"
+    },
+    {
+      "text": "Shu Liu, Kevin Koch, Zimu Zhou, Simon F\u00f6ll, Xiaoxi He, Tina Menke, Elgar Fleisch, and Felix Wortmann. 2021. The Empathetic Car: Exploring Emotion Inference via Driver Behaviour and Traffic Context. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 5, 3 (2021), Article 117.",
+      "doi": "10.1145/3478078"
+    },
+    {
+      "text": "Cecile\u00a0A. Marczinski, Emily\u00a0L.R. Harrison, and Mark\u00a0T. Fillmore. 2008. Effects of alcohol on simulated driving and perceived driving impairment in binge drinkers. Alcoholism: Clinical and Experimental Research 32, 7 (2008), 1329\u20131337. https://doi.org/10.1111/j.1530-0277.2008.00701.x",
+      "doi": ""
+    },
+    {
+      "text": "Alex Mariakakis, Sayna Parsi, Shwetak\u00a0N. Patel, and Jacob\u00a0O. Wobbrock. 2018. Drunk user interfaces: Determining blood alcohol level through everyday smartphone tasks. In Proceedings of the CHI Conference on Human Factors in Computing Systems. Paper 234.",
+      "doi": "10.1145/3173574.3173808"
+    },
+    {
+      "text": "Teri\u00a0L. Martin, Patricia A.\u00a0M. Solbeck, Daryl\u00a0J. Mayers, Robert\u00a0M. Langille, Yvona Buczek, and Marc\u00a0R. Pelletier. 2013. A review of alcohol\u2010impaired driving: The role of blood alcohol concentration and complexity of the driving task. Journal of Forensic Sciences 58, 5 (2013), 1238\u20131250.",
+      "doi": ""
+    },
+    {
+      "text": "Pierre Maurage, Nicolas Masson, Zo\u00e9 Bollen, and Fabien D\u2019Hondt. 2020. Eye tracking correlates of acute alcohol consumption: A systematic and critical review. Neuroscience & Biobehavioral Reviews 108 (2020), 400\u2013422. https://doi.org/10.1016/j.neubiorev.2019.10.001",
+      "doi": ""
+    },
+    {
+      "text": "Anthony\u00a0D. McDonald, Thomas\u00a0K. Ferris, and Tyler\u00a0A. Wiener. 2020. Classification of Driver Distraction: A Comprehensive Analysis of Feature Generation, Machine Learning, and Input Measures. Human Factors 62, 6 (2020), 1019\u20131035.",
+      "doi": ""
+    },
+    {
+      "text": "Lakmal Meegahapola, Florian Labhart, Thanh-Trung Phan, and Daniel Gatica-Perez. 2021. Examining the Social Context of Alcohol Drinking in Young Adults with Smartphone Sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 5, 3 (2021), Article 121. https://doi.org/10.1145/3478126",
+      "doi": "10.1145/3478126"
+    },
+    {
+      "text": "Kenneth\u00a0C. Mills, Susan\u00a0E. Spruill, Roy\u00a0W. Kanne, Katherine\u00a0M. Parkman, and Ying Zhang. 2001. The influence of stimulants, sedatives, and fatigue on tunnel vision: risk factors for driving and piloting. Human Factors 43, 2 (2001), 310\u2013327.",
+      "doi": ""
+    },
+    {
+      "text": "Dan Morris, T.\u00a0Scott Saponas, Andrew Guillory, and Ilya Kelner. 2014. RecoFit: Using a Wearable Sensor to Find, Recognize, and Count Repetitive Exercises. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 3225\u20133234.",
+      "doi": "10.1145/2556288.2557116"
+    },
+    {
+      "text": "Herbert Moskowitz and D. Florentino. 2000. A review of the literature on the effects of low doses of alcohol on driving-related skills. Report DOT HS 809 028. National Highway Traffic Safety Administration.",
+      "doi": ""
+    },
+    {
+      "text": "Inbal Nahum-Shani, Eric\u00a0B. Hekler, and Donna Spruijt-Metz. 2015. Building health behavior models to guide the development of just-in-time adaptive interventions: A pragmatic framework. Health Psychology 34(2015), 1209\u20131219. https://pubmed.ncbi.nlm.nih.gov/26651462https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4732268/",
+      "doi": ""
+    },
+    {
+      "text": "Inbal Nahum-Shani, Shawna\u00a0N. Smith, Bonnie\u00a0J. Spring, Linda\u00a0M. Collins, Katie Witkiewitz, Ambuj Tewari, and Susan\u00a0A. Murphy. 2017. Just-in-Time Adaptive Interventions (JITAIs) in mobile health: Key components and design principles for ongoing health behavior support. Annals of Behavioral Medicine 52, 6 (2017), 446\u2013462. https://doi.org/10.1007/s12160-016-9830-8",
+      "doi": ""
+    },
+    {
+      "text": "Rizwan\u00a0Ali Naqvi, Muhammad Arsalan, Ganbayar Batchuluun, Hyo\u00a0Sik Yoon, and Kang\u00a0Ryoung Park. 2018. Deep learning-based gaze detection system for automobile drivers using a NIR camera sensor. Sensors 18, 2 (2018), 456.",
+      "doi": ""
+    },
+    {
+      "text": "National Highway Traffic Safety Administration. 2022. Traffic safety facts 2020. Report No. DOT HS 813 294.",
+      "doi": ""
+    },
+    {
+      "text": "Nissan. 2015. Driver Attention Alert System. https://www.nissanusa.com/experience-nissan/news-and-events/drowsy-driver-attention-alert-car-feature.html Accessed: 09/01/2022.",
+      "doi": ""
+    },
+    {
+      "text": "Ashley Nunes, Bryan Reimer, and Joseph\u00a0F. Coughlin. 2018. People must retain control of autonomous vehicles. Nature 556, 7700 (2018), 169\u2013171.",
+      "doi": ""
+    },
+    {
+      "text": "Cynthia Owsley, Gerald McGwin\u00a0Jr., and Karen Searcey. 2013. A Population-based Examination of the Visual and Ophthalmological Characteristics of Licensed Drivers Aged 70 and Older. Journals of Gerontology Series A: Biomedical Sciences and Medical Sciences 68, 5(2013), 567\u2013573.",
+      "doi": ""
+    },
+    {
+      "text": "Ji\u00a0Hwan Park, Han\u00a0Eol Cho, Jong\u00a0Hun Kim, Melanie\u00a0M. Wall, Yaakov Stern, Hyunsun Lim, Shinjae Yoo, Hyoung\u00a0Seop Kim, and Jiook Cha. 2020. Machine learning prediction of incidence of Alzheimer\u2019s disease using large-scale administrative health data. npj Digital Medicine 3, 1 (2020), 46. https://doi.org/10.1038/s41746-020-0256-0",
+      "doi": ""
+    },
+    {
+      "text": "F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay. 2011. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research 12 (2011), 2825\u20132830.",
+      "doi": "10.5555/1953048.2078195"
+    },
+    {
+      "text": "Ignacio Perez-Pozuelo, Dimitris Spathis, Emma A.\u00a0D. Clifton, and Cecilia Mascolo. 2021. Digital Health. Elsevier, Book section Wearables, smartphones, and artificial intelligence for digital phenotyping and health, 33\u201354.",
+      "doi": ""
+    },
+    {
+      "text": "Thanh-Trung Phan, Skanda Muralidhar, and Daniel Gatica-Perez. 2019. #Drink Or #Drunk: Multimodal Signals and Drinking Practices on Instagram. In PervasiveHealth\u201919: Proceedings of the 13th EAI International Conference on Pervasive Computing Technologies for Healthcare. 71\u201380. https://doi.org/10.1145/3329189.3329193",
+      "doi": "10.1145/3329189.3329193"
+    },
+    {
+      "text": "Thanh-Trung Phan, Skanda Muralidhar, and Daniel Gatica-Perez. 2019. Drinks & Crowds: Characterizing Alcohol Consumption through Crowdsensing and Social Media. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 2 (2019), Article 59. https://doi.org/10.1145/3328930",
+      "doi": "10.1145/3328930"
+    },
+    {
+      "text": "Anuj\u00a0Kumar Pradhan, Kim\u00a0R. Hammel, Rosa DeRamus, Alexander Pollatsek, David\u00a0A. Noyce, and Donald\u00a0L. Fisher. 2005. Using eye movements to evaluate effects of driver age on risk perception in a driving simulator. Human Factors 47, 4 (2005), 840\u2013852.",
+      "doi": ""
+    },
+    {
+      "text": "Igor Radun, Jussi Ohisalo, Sirpa Rajalin, Jenni\u00a0E. Radun, Mattias Wahde, and Timo Lajunen. 2014. Alcohol ignition interlocks in all new vehicles: A broader perspective. Traffic Injury Prevention 15, 4 (2014), 335\u2013342.",
+      "doi": ""
+    },
+    {
+      "text": "Johannes\u00a0G. Ramaekers, G\u00fcnter Berghaus, Margriet van Laar, and Olaf\u00a0H. Drummer. 2004. Dose related risk of motor vehicle crashes after cannabis use. Drug and Alcohol Dependence 73, 2 (2004), 109\u2013119.",
+      "doi": ""
+    },
+    {
+      "text": "Audrey Robinel and Didier Puzenat. 2014. Alcohol consumption detection through behavioural analysis using intelligent systems. Expert Systems with Applications 41, 5 (2014), 2574\u20132581.",
+      "doi": "10.1016/j.eswa.2013.10.005"
+    },
+    {
+      "text": "Paul\u00a0D Rosero-Montalvo, Vivian\u00a0F\u00e9lix L\u00f3pez-Batista, and Diego\u00a0Hern\u00e1n Peluffo-Ord\u00f3\u00f1ez. 2020. Hybrid embedded-systems-based approach to in-driver drunk status detection using image processing and sensor networks. IEEE Sensors Journal 21, 14 (2020), 15729\u201315740.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0E. Rossheim, Dennis\u00a0L. Thombs, Kwynn\u00a0M. Gonzalez-Pons, Jordan\u00a0A. Killion, John\u00a0D. Clapp, Mark\u00a0B. Reed, Julie\u00a0M. Croff, Danielle\u00a0E. Ruderman, and Robert\u00a0M. Weiler. 2016. Feeling no buzz or a slight buzz is common when legally drunk. American Journal of Public Health 106, 10 (2016), 1761\u20131762. https://doi.org/10.2105/AJPH.2016.303321",
+      "doi": ""
+    },
+    {
+      "text": "Sohrab Saeb, Luca Lonini, Arun Jayaraman, David\u00a0C. Mohr, and Konrad\u00a0P. Kording. 2017. The need to approximate the use-case in clinical machine learning. GigaScience 6, 5 (2017). https://doi.org/10.1093/gigascience/gix019",
+      "doi": ""
+    },
+    {
+      "text": "Suparna Sahabiswas, Sourav Saha, Prachatos Mitra, Retabrata Chatterjee, Ronit Ray, Paramartha Saha, Rajarshi Basu, Saurav Patra, Pritam Paul, and Bidrohi\u00a0Ananya Biswas. 2016. Drunken driving detection and prevention models using Internet of Things. In IEEE Information Technology, Electronics and Mobile Communication Conference (IEMCON). IEEE, 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0B. Saunders, Olaf\u00a0G. Aasland, Thomas\u00a0F. Babor, Juan\u00a0R. De\u00a0la Fuente, and Marcus Grant. 1993. Development of the alcohol use disorders identification test (AUDIT): WHO collaborative project on early detection of persons with harmful alcohol consumption\u2010II. Addiction 88, 6 (1993), 791\u2013804.",
+      "doi": ""
+    },
+    {
+      "text": "Kai-Uwe Schmitt, Christian Lanz, Markus\u00a0H. Muser, Felix Walz, and Urs Schwarz. 2013. Saccadic eye movements after low-dose oral alcohol exposure. Journal of Forensic and Legal Medicine 20, 7 (2013), 870\u2013874. https://doi.org/10.1016/j.jflm.2013.06.023",
+      "doi": ""
+    },
+    {
+      "text": "Stephan Seidl, Uwe Jensen, and Andreas Alt. 2000. The calculation of blood ethanol concentrations in males and females. International Journal of Legal Medicine 114, 1 (2000), 71\u201377.",
+      "doi": ""
+    },
+    {
+      "text": "Brook\u00a0A. Shiferaw, David\u00a0P. Crewther, and Luke\u00a0A. Downey. 2019. Gaze entropy measures detect alcohol-induced driver impairment. Drug and Alcohol Dependence 204 (2019), 107519. https://doi.org/10.1016/j.drugalcdep.2019.06.021",
+      "doi": ""
+    },
+    {
+      "text": "Smart Eye AB. 2022. Driver monitoring system. https://smarteye.se/automotive/driver-monitoring-systems/ Accessed: 14/02/2022.",
+      "doi": ""
+    },
+    {
+      "text": "S\u00f3nia Soares, Sara Ferreira, and Ant\u00f3nio Couto. 2020. Driving simulator experiments to study drowsiness: A systematic review. Traffic Injury Prevention 21, 1 (2020), 29\u201337.",
+      "doi": ""
+    },
+    {
+      "text": "Statistisches Bundesamt. 2020. Verkehrsunf\u00e4lle - Unf\u00e4lle unter dem Einfluss von Alkohol oder anderen berauschenden Mitteln im Stra\u00dfenverkehr. Report 5462404-19700-4. Statistisches Bundesamt.",
+      "doi": ""
+    },
+    {
+      "text": "Dawn\u00a0E. Sugarman and Kate\u00a0B. Carey. 2009. Drink less or drink slower: the effects of instruction on alcohol consumption and drinking control strategy use. Psychology of Addictive Behaviors : Journal of the Society of Psychologists in Addictive Behaviors 23, 4 (2009), 577\u2013585. https://doi.org/10.1037/a0016580",
+      "doi": ""
+    },
+    {
+      "text": "Yifan Sun, Jinglei Zhang, Xiaoyuan Wang, Zhangu Wang, and Jie Yu. 2018. Recognition method of drinking-driving behaviors based on PCA and RBF neural network. Traffic & Transportation 30, 4 (2018), 407\u2013417.",
+      "doi": ""
+    },
+    {
+      "text": "Mika Sunagawa, Shin-ichi Shikii, Wataru Nakai, Makoto Mochizuki, Koichi Kusukame, and Hiroki Kitajima. 2019. Comprehensive drowsiness level detection model combining multimodal information. IEEE Sensors Journal 20, 7 (2019), 3709\u20133717.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0J. Tait, Raquel Paz\u00a0Castro, Jessica Jane\u00a0Louise Kirkman, Jamie\u00a0Christopher Moore, and Michael\u00a0P. Schaub. 2019. A digital intervention addressing alcohol use problems (the \u201cDaybreak\u201d program): Quasi-experimental randomized controlled trial. Journal of Medical Internet Research 21, 9 (2019), e14967. https://doi.org/10.2196/14967",
+      "doi": ""
+    },
+    {
+      "text": "Q. Thurman, S. Jackson, and J. Zhao. 1993. Drunk-Driving Research and Innovation: A Factorial Survey Study of Decisions To Drink and Drive. Social Science Research 22, 3 (1993), 245\u2013264. https://doi.org/10.1006/ssre.1993.1012",
+      "doi": ""
+    },
+    {
+      "text": "United States Congress. 2021. Public Law 117-58 - Infrastructure Investment and Jobs Act. https://www.congress.gov/bill/117th-congress/house-bill/3684/text Accessed: 01/09/2022.",
+      "doi": ""
+    },
+    {
+      "text": "Wim van Winsum. 2019. Optic flow and tunnel vision in the detection response task. Human Factors 61, 6 (2019), 992\u20131003.",
+      "doi": ""
+    },
+    {
+      "text": "Renju\u00a0Rachel Varghese, Pramod\u00a0Mathew Jacob, Joanna Jacob, Merlin\u00a0Nissi Babu, Rupali Ravikanth, and Stephy\u00a0Mariyam George. 2021. An Integrated Framework for Driver Drowsiness Detection and Alcohol Intoxication using Machine Learning. In IEEE International Conference on Data Analytics for Business and Industry (ICDABI). IEEE, 531\u2013536.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Viola and Michael Jones. 2001. Robust real-time object detection. International journal of computer vision 4, 34-47 (2001), 4.",
+      "doi": ""
+    },
+    {
+      "text": "V. Viswanatha, Ashwini Kumari, and Pradeep Kumar. 2021. Internet of things (IoT) based multilevel drunken driving detection and prevention system using Raspberry Pi 3. International Journal of Internet of Things and Web Services 6 (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Willem Vlakveld, Paul Wesemann, Eline Devillers, R. Elvik, and K. Veisten. 2005. Detailed cost-benefit analysis of potential impairment countermeasures. Report R-2005-10.",
+      "doi": ""
+    },
+    {
+      "text": "Volkswagen. 2022. Driver Alert System. https://www.volkswagen-newsroom.com/en/driver-alert-system-3932 Accessed: 09/01/2022.",
+      "doi": ""
+    },
+    {
+      "text": "J. Wang, W. Chai, A. Venkatachalapathy, K.\u00a0L. Tan, A. Haghighat, S. Velipasalar, Y. Adu-Gyamfi, and A. Sharma. 2022. A Survey on Driver Behavior Analysis From In-Vehicle Cameras. IEEE Transactions on Intelligent Transportation Systems 23, 8(2022), 10186\u201310209. https://doi.org/10.1109/TITS.2021.3126231",
+      "doi": ""
+    },
+    {
+      "text": "Patricia\u00a0E. Watson, Ian\u00a0D. Watson, and Richard\u00a0D. Batt. 1981. Prediction of blood alcohol concentrations in human subjects. Updating the Widmark Equation. Journal of Studies on Alcohol 42, 7 (1981), 547\u2013556.",
+      "doi": ""
+    },
+    {
+      "text": "Gary\u00a0M. Weiss. 2013. Imbalanced learning: foundations, algorithms, and applications. IEEE Press, New York, USA, Chapter Methods for addressing imbalanced data.",
+      "doi": ""
+    },
+    {
+      "text": "Ching-Hua Weng, Ying-Hsiu Lai, and Shang-Hong Lai. 2016. Driver drowsiness detection via a hierarchical temporal deep belief network. In Asian Conference on Computer Vision. Springer, 117\u2013133.",
+      "doi": ""
+    },
+    {
+      "text": "Erik Matteo\u00a0Prochet Widmark. 1932. Die theoretischen Grundlagen und die praktische Verwendbarkeit der gerichtlich-medizinischen Alkoholbestimmung. Urban & Schwarzenberg.",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0H. Wolff. 1972. Ethnic Differences in Alcohol Sensitivity. Science 175, 4020 (1972), 449\u2013450.",
+      "doi": ""
+    },
+    {
+      "text": "World Health Organization. 2018. Global status report on road safety 2018: Summary. Report WHO/NMH/NVI/18.20. World Health Organization.",
+      "doi": ""
+    },
+    {
+      "text": "World Health Organization. 2019. Global status report on alcohol and health 2018. World Health Organization.",
+      "doi": ""
+    },
+    {
+      "text": "World Health Organization. 2019. The SAFER technical package: five areas of intervention at national and subnational levels. Report 9241516410.",
+      "doi": ""
+    },
+    {
+      "text": "Friedrich\u00a0M. Wurst, Natasha Thon, Michel Yegles, Alexandra Schr\u00fcck, Ulrich\u00a0W. Preuss, and Wolfgang Weinmann. 2015. Ethanol metabolites: their role in the assessment of alcohol intake. Alcoholism: Clinical and Experimental Research 39, 11 (2015), 2060\u20132072.",
+      "doi": ""
+    },
+    {
+      "text": "Ankit\u00a0Kumar Yadav and Nagendra\u00a0R. Velaga. 2019. Modelling the relationship between different blood alcohol concentrations and reaction time of young and mature drivers. Transportation Research Part F: Traffic Psychology and Behaviour 64 (2019), 227\u2013245. https://doi.org/10.1016/j.trf.2019.05.011",
+      "doi": ""
+    },
+    {
+      "text": "Chuang-Wen You, Yaliang Chuang, Hung-Yeh Lin, Jui-Ting Tsai, Yi-Ching Huang, Chia-Hua Kuo, Ming-Chyi Huang, Shan\u00a0Jean Wu, Frank\u00a0Wencheng Liu, Jane Yung-Jen Hsu, and Hui-Ching Wu. 2019. SoberComm: Using Mobile Phones to Facilitate Inter-family Communication with Alcohol-dependent Patients. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 3 (2019), Article 119. https://doi.org/10.1145/3351277",
+      "doi": "10.1145/3351277"
+    },
+    {
+      "text": "Chuang-Wen You, Ya-Fang Lin, Yaliang Chuang, Ya-Han Lee, Pei-Yi Hsu, Shih-Yao Lin, Chih-Chun Chang, Yi-Ju Chung, Yi-Ling Chen, Ming-Chyi Huang, Ping-Hsuan Shen, Hsin-Tung Tseng, and Hao-Chuan Wang. 2018. SoberMotion: Leveraging the Force of Probation Officers to Reduce the Risk of DUI Recidivism. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2, 3 (2018), Article 146. https://doi.org/10.1145/3264956",
+      "doi": "10.1145/3264956"
+    },
+    {
+      "text": "Chuang-Wen You, Lu-Hua Shih, Hung-Yeh Lin, Yaliang Chuang, Yi-Chao Chen, Yi-Ling Chen, and Ming-Chyi Huang. 2019. Enabling Personal Alcohol Tracking using Transdermal Sensing Wristbands: Benefits and Challenges. In MobileHCI \u201919: Proceedings of the 21st International Conference on Human-Computer Interaction with Mobile Devices and Services. Article 37. https://doi.org/10.1145/3338286.3344384",
+      "doi": "10.1145/3338286.3344384"
+    },
+    {
+      "text": "Chuang-Wen You, Jui-Ting Tsai, Hung-Yeh Lin, Yu-Ting Wang, Yi-Ching Huang, Diane Lu, Yi-Ju Chung, Yaliang Chuang, Chia-Hua Kuo, Ming-Chyi Huang, Jane Yung-Jen Hsu, and Hui-Ching Wu. 2018. Using Mobile Phones to Facilitate Alcohol Dependent Patients to Improve Family Communication. In UbiComp \u201918: Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers. 311\u2013314. https://doi.org/10.1145/3267305.3267566",
+      "doi": "10.1145/3267305.3267566"
+    },
+    {
+      "text": "Chuang-Wen You, Kuo-Cheng Wang, Ming-Chyi Huang, Yen-Chang Chen, Cheng-Lin Lin, Po-Shiun Ho, Hao-Chuan Wang, Polly Huang, and Hao-Hua Chu. 2015. SoberDiary: A Phone-based Support System for Assisting Recovery from Alcohol Dependence. In Proceedings of the CHI Conference on Human Factors in Computing Systems. 3839\u20133848. https://doi.org/10.1145/2702123.2702289",
+      "doi": "10.1145/2702123.2702289"
+    },
+    {
+      "text": "Feng You, Xiaolong Li, Yunbo Gong, Hailwei Wang, and Hongyi Li. 2019. A real-time driving drowsiness detection algorithm with individual differences consideration. IEEE Access 7(2019), 179396\u2013179408.",
+      "doi": ""
+    },
+    {
+      "text": "Jongmin Yu, Sangwoo Park, Sangwook Lee, and Moongu Jeon. 2018. Driver drowsiness detection using condition-adaptive representation learning framework. IEEE Transactions on Intelligent Transportation Systems 20, 11(2018), 4206\u20134218.",
+      "doi": ""
+    },
+    {
+      "text": "Kevan Yuen, Sujitha Martin, and Mohan\u00a0M Trivedi. 2016. On looking at faces in an automobile: Issues, algorithms and evaluation on naturalistic driving dataset. In IEEE International Conference on Pattern Recognition (ICPR). IEEE, 2777\u20132782.",
+      "doi": ""
+    },
+    {
+      "text": "Ali\u00a0Shahidi Zandi, Azhar Quddus, Laura Prest, and Felix J.\u00a0E. Comeau. 2019. Non-intrusive detection of drowsy driving based on eye tracking data. Transportation research record 2673, 6 (2019), 247\u2013257.",
+      "doi": ""
+    },
+    {
+      "text": "Abdullatif\u00a0K. Zaouk, Michael Willis, Eric Traube, and Robert Strassburger. 2019. Driver alcohol detection system for safety (DADSS)\u2013a Non-regulatory approach in the research and development of vehicle safety technology to reduce alcohol-impaired driving \u2013 A status update. In 26th International Technical Conference on the Enhanced Safety of Vehicles (ESV).",
+      "doi": ""
+    },
+    {
+      "text": "Yijun Zhao, Tong Wang, Riley Bove, Bruce Cree, Roland Henry, Hrishikesh Lokhande, Mariann Polgar-Turcsanyi, Mark Anderson, Rohit Bakshi, Howard\u00a0L. Weiner, Tanuja Chitnis, and Summit Investigators. 2020. Ensemble learning predicts multiple sclerosis disease course in the SUMMIT study. npj Digital Medicine 3, 1 (2020), 135. https://doi.org/10.1038/s41746-020-00338-8",
+      "doi": ""
+    }
+  ]
+}

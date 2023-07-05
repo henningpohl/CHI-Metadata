@@ -1,0 +1,593 @@
+{
+  "doi": "10.1145/3544548.3581509",
+  "title": "DataPilot: Utilizing Quality and Usage Information for Subset Selection during Visual Data Preparation",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Selecting relevant data subsets from large, unfamiliar datasets can be difficult. We address this challenge by modeling and visualizing two kinds of auxiliary information: (1) quality \u2013 the validity and appropriateness of data required to perform certain analytical tasks; and (2) usage \u2013 the historical utilization characteristics of data across multiple users. Through a design study with 14 data workers, we integrate this information into a visual data preparation and analysis tool, DataPilot. DataPilot presents visual cues about \u201cthe good, the bad, and the ugly\u201d aspects of data and provides graphical user interface controls as interaction affordances, guiding users to perform subset selection. Through a study with 36 participants, we investigate how DataPilot helps users navigate a large, unfamiliar tabular dataset, prepare a relevant subset, and build a visualization dashboard. We find that users selected smaller, effective subsets with higher quality and usage, and with greater success and confidence.",
+  "authors": [
+    {
+      "name": "Arpit Narechania",
+      "institution": "Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659534599",
+      "orcid": "0000-0001-6980-3686"
+    },
+    {
+      "name": "Fan Du",
+      "institution": "Adobe Research, United States",
+      "img": "/do/10.1145/contrib-87658692957/rel-imgonly/img_2623.jpg",
+      "acmid": "87658692957",
+      "orcid": "0000-0002-4383-8888"
+    },
+    {
+      "name": "Atanu R Sinha",
+      "institution": "Adobe Research, Adobe Systems, Inc, India",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659164975",
+      "orcid": "0000-0002-7949-7982"
+    },
+    {
+      "name": "Ryan Rossi",
+      "institution": "Adobe Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81484653761",
+      "orcid": "0000-0001-9758-0635"
+    },
+    {
+      "name": "Jane Hoffswell",
+      "institution": "Adobe Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659131610",
+      "orcid": "0000-0002-9871-4575"
+    },
+    {
+      "name": "Shunan Guo",
+      "institution": "Adobe Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659261837",
+      "orcid": "0000-0001-5355-8399"
+    },
+    {
+      "name": "Eunyee Koh",
+      "institution": "Adobe Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81310489834",
+      "orcid": "0000-0003-2091-5972"
+    },
+    {
+      "name": "Shamkant B Navathe",
+      "institution": "School of Computer Science, Georgia Institute of Technology, United States",
+      "img": "/do/10.1145/contrib-81350596627/rel-imgonly/dscn2643.jpg",
+      "acmid": "81350596627",
+      "orcid": "0000-0002-6666-0031"
+    },
+    {
+      "name": "Alex Endert",
+      "institution": "Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81460654929",
+      "orcid": "0000-0002-6914-610X"
+    }
+  ],
+  "references": [
+    {
+      "text": "2012. Open Government Data (OGD) Platform India. Retrieved 21-Nov-2022 from https://data.gov.in/",
+      "doi": ""
+    },
+    {
+      "text": "2021. CERN Open Data Portal. Retrieved 21-Nov-2022 from https://opendata.cern.ch",
+      "doi": ""
+    },
+    {
+      "text": "Ziawasch Abedjan, Xu Chu, Dong Deng, Raul\u00a0Castro Fernandez, Ihab\u00a0F. Ilyas, Mourad Ouzzani, Paolo Papotti, Michael Stonebraker, and Nan Tang. 2016. Detecting Data Errors: Where Are We and What Needs to Be Done?Proc. VLDB Endow. 9, 12 (aug 2016), 993\u20131004. https://doi.org/10.14778/2994509.2994518",
+      "doi": "10.14778/2994509.2994518"
+    },
+    {
+      "text": "Jason Alexander, Andy Cockburn, Stephen Fitchett, Carl Gutwin, and Saul Greenberg. 2009. Revisiting read wear: analysis, design, and evaluation of a footprints scrollbar. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1665\u20131674.",
+      "doi": "10.1145/1518701.1518957"
+    },
+    {
+      "text": "Micah Allen, Davide Poggiali, Kirstie Whitaker, Tom\u00a0Rhys Marshall, and Rogier\u00a0A Kievit. 2019. Raincloud plots: a multi-platform tool for robust data visualization. Wellcome open research 4(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Jumana Almahmoud, Robert DeLine, and Steven\u00a0M Drucker. 2021. How Teams Communicate about the Quality of ML Models: A Case Study at an International Technology Company. Proceedings of the ACM on Human-Computer Interaction 5, GROUP(2021), 1\u201324.",
+      "doi": "10.1145/3463934"
+    },
+    {
+      "text": "Amazon. 2022. Deequ. Retrieved July 29, 2022 from https://aws.amazon.com/blogs/big-data/test-data-quality-at-scale-with-deequ/",
+      "doi": ""
+    },
+    {
+      "text": "Clemens Arbesser, Florian Spechtenhauser, Thomas M\u00fchlbacher, and Harald Piringer. 2017. Visplause: Visual Data Quality Assessment of Many Time Series Using Plausibility Checks. IEEE Transactions on Visualization and Computer Graphics 23, 1(2017), 641\u2013650. https://doi.org/10.1109/TVCG.2016.2598592",
+      "doi": "10.1109/TVCG.2016.2598592"
+    },
+    {
+      "text": "Matthew Arnold, Rachel\u00a0KE Bellamy, Michael Hind, Stephanie Houde, Sameep Mehta, Aleksandra Mojsilovi\u0107, Ravi Nair, K\u00a0Natesan Ramamurthy, Alexandra Olteanu, David Piorkowski, 2019. FactSheets: Increasing trust in AI services through supplier\u2019s declarations of conformity. IBM Journal of Research and Development 63, 4/5 (2019), 6\u20131.",
+      "doi": ""
+    },
+    {
+      "text": "Ernesto Arroyo, Ted Selker, and Willy Wei. 2006. Usability tool for analysis of web designs using mouse tracks. In CHI\u201906 extended abstracts on Human factors in computing systems. 484\u2013489.",
+      "doi": ""
+    },
+    {
+      "text": "Anant Bhardwaj, Souvik Bhattacherjee, Amit Chavan, Amol Deshpande, Aaron\u00a0J Elmore, Samuel Madden, and Aditya\u00a0G Parameswaran. 2014. Datahub: Collaborative data science & dataset version management at scale. arXiv preprint arXiv:1409.0798(2014).",
+      "doi": ""
+    },
+    {
+      "text": "David Borland, Wenyuan Wang, Jonathan Zhang, Joshua Shrestha, and David Gotz. 2019. Selection bias tracking and detailed subset comparison for high-dimensional data. IEEE Transactions on Visualization and Computer Graphics 26, 1(2019), 429\u2013439.",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0E Boyatzis. 1998. Transforming qualitative information: Thematic analysis and code development. sage.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Brehmer and Tamara Munzner. 2013. A multi-level typology of abstract visualization tasks. IEEE transactions on visualization and computer graphics 19, 12(2013), 2376\u20132385.",
+      "doi": "10.1109/TVCG.2013.124"
+    },
+    {
+      "text": "John Brooke 1996. SUS-A quick and dirty usability scale. Usability evaluation in industry 189, 194 (1996), 4\u20137.",
+      "doi": ""
+    },
+    {
+      "text": "Davide Ceneda, Theresia Gschwandtner, Thorsten May, Silvia Miksch, Hans-J\u00f6rg Schulz, Marc Streit, and Christian Tominski. 2017. Characterizing Guidance in Visual Analytics. IEEE Transactions on Visualization and Computer Graphics (2017). https://doi.org/10.1109/TVCG.2016.2598468",
+      "doi": "10.1109/TVCG.2016.2598468"
+    },
+    {
+      "text": "Wo\u00a0L Chang, Arnab Roy, Mark Underwood, 2019. NIST Big Data Interoperability Framework: Volume 4, Security and Privacy. (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Xu Chu and Ihab\u00a0F. Ilyas. 2016. Qualitative Data Cleaning. Proc. VLDB Endow. 9, 13 (sep 2016), 1605\u20131608. https://doi.org/10.14778/3007263.3007320",
+      "doi": "10.14778/3007263.3007320"
+    },
+    {
+      "text": "Xu Chu, Ihab\u00a0F. Ilyas, Sanjay Krishnan, and Jiannan Wang. 2016. Data Cleaning: Overview and Emerging Challenges. In Proceedings of the 2016 International Conference on Management of Data (San Francisco, California, USA) (SIGMOD \u201916). Association for Computing Machinery, New York, NY, USA, 2201\u20132206. https://doi.org/10.1145/2882903.2912574",
+      "doi": "10.1145/2882903.2912574"
+    },
+    {
+      "text": "Xu Chu, Ihab\u00a0F Ilyas, and Paolo Papotti. 2013. Holistic data cleaning: Putting violations into context. In 2013 IEEE 29th International Conference on Data Engineering (ICDE). IEEE, 458\u2013469.",
+      "doi": "10.1109/ICDE.2013.6544847"
+    },
+    {
+      "text": "National\u00a0Research Council 2000. How people learn: Brain, mind, experience, and school: Expanded edition. National Academies Press.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Dastin. 2018. Amazon scraps secret AI recruiting tool that showed bias against women. https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G",
+      "doi": ""
+    },
+    {
+      "text": "Dean De\u00a0Cock. 2011. Ames, Iowa: Alternative to the Boston housing data as an end of semester regression project. Journal of Statistics Education 19, 3 (2011). https://doi.org/10.1080/10691898.2011.11889627",
+      "doi": ""
+    },
+    {
+      "text": "Dong Deng, Raul\u00a0Castro Fernandez, Ziawasch Abedjan, Sibo Wang, Michael Stonebraker, Ahmed\u00a0K Elmagarmid, Ihab\u00a0F Ilyas, Samuel Madden, Mourad Ouzzani, and Nan Tang. 2017. The Data Civilizer System.. In Cidr.",
+      "doi": ""
+    },
+    {
+      "text": "Dremio. 2022. Dremio. Retrieved July 29, 2022 from https://www.dremio.com/",
+      "doi": ""
+    },
+    {
+      "text": "Ian Drosos, Titus Barik, Philip\u00a0J. Guo, Robert DeLine, and Sumit Gulwani. 2020. Wrex: A Unified Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376442",
+      "doi": "10.1145/3313831.3376442"
+    },
+    {
+      "text": "Ian Drosos, Titus Barik, Philip\u00a0J. Guo, Robert DeLine, and Sumit Gulwani. 2020. Wrex: A Unified Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists(CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376442",
+      "doi": "10.1145/3313831.3376442"
+    },
+    {
+      "text": "Susan Dumais, Robin Jeffries, Daniel\u00a0M Russell, Diane Tang, and Jaime Teevan. 2014. Understanding user behavior through log data and analysis. In Ways of Knowing in HCI. Springer, 349\u2013372.",
+      "doi": ""
+    },
+    {
+      "text": "Upol Ehsan, Q\u00a0Vera Liao, Michael Muller, Mark\u00a0O Riedl, and Justin\u00a0D Weisz. 2021. Expanding explainability: towards social transparency in AI systems. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems.",
+      "doi": "10.1145/3411764.3445188"
+    },
+    {
+      "text": "Niklas Elmqvist, Andrew\u00a0Vande Moere, Hans-Christian Jetter, Daniel Cernea, Harald Reiterer, and TJ Jankun-Kelly. 2011. Fluid interaction for information visualization. Information Visualization 10, 4 (2011), 327\u2013340.",
+      "doi": "10.1177/1473871611413180"
+    },
+    {
+      "text": "Thomas Erickson and Wendy\u00a0A. Kellogg. 2000. Social Translucence: An Approach to Designing Systems That Support Social Processes. ACM Trans. Comput.-Hum. Interact. 7, 1 (mar 2000). https://doi.org/10.1145/344949.345004",
+      "doi": "10.1145/344949.345004"
+    },
+    {
+      "text": "Mina Farid, Alexandra Roatis, Ihab\u00a0F. Ilyas, Hella-Franziska Hoffmann, and Xu Chu. 2016. CLAMS: Bringing Quality to Data Lakes(SIGMOD \u201916). Association for Computing Machinery, New York, NY, USA, 2089\u20132092. https://doi.org/10.1145/2882903.2899391",
+      "doi": "10.1145/2882903.2899391"
+    },
+    {
+      "text": "Raul\u00a0Castro Fernandez, Ziawasch Abedjan, Famien Koko, Gina Yuan, Samuel Madden, and Michael Stonebraker. 2018. Aurum: A data discovery system. In 2018 IEEE 34th International Conference on Data Engineering (ICDE). IEEE.",
+      "doi": ""
+    },
+    {
+      "text": "Ian Fette and Alexey Melnikov. 2011. The websocket protocol. Technical Report.",
+      "doi": ""
+    },
+    {
+      "text": "Mike Fleckenstein, Lorraine Fellows, and Krista Ferrante. 2018. Data Quality. In Modern data strategy. Springer.",
+      "doi": ""
+    },
+    {
+      "text": "Imola\u00a0K Fodor. 2002. A survey of dimension reduction techniques. Technical Report. Lawrence Livermore National Lab., CA (US).",
+      "doi": ""
+    },
+    {
+      "text": "Python\u00a0Software Foundation. 2022. Python. Retrieved July 29, 2022 from https://www.python.org/",
+      "doi": ""
+    },
+    {
+      "text": "Lawrence\u00a0M Friedman, Curt\u00a0D Furberg, and David\u00a0L DeMets. 2010. Data collection and quality control. In Fundamentals of clinical trials. Springer.",
+      "doi": ""
+    },
+    {
+      "text": "Christian F\u00fcrber. 2016. Semantic Technologies. In Data Quality Management with Semantic Technologies. Springer, 56\u201368.",
+      "doi": ""
+    },
+    {
+      "text": "Gerry Gaffney. 1999. Affinity diagramming. Retrieved January 3(1999), 2013.",
+      "doi": ""
+    },
+    {
+      "text": "Mirta Galesic, Rocio Garcia-Retamero, and Gerd Gigerenzer. 2009. Using icon arrays to communicate medical risks: overcoming low numeracy.Health Psychology 28, 2 (2009), 210. https://doi.org/10.1037/a0014474",
+      "doi": ""
+    },
+    {
+      "text": "Lisa Gitelman. 2013. Raw data is an oxymoron. MIT press.",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2022. Angular. Retrieved July 29, 2022 from https://angular.io/",
+      "doi": ""
+    },
+    {
+      "text": "David Gotz, Shun Sun, and Nan Cao. 2016. Adaptive contextualization: Combating bias during high-dimensional visualization and data selection. In Proceedings of the 21st International Conference on Intelligent User Interfaces. 85\u201395.",
+      "doi": "10.1145/2856767.2856779"
+    },
+    {
+      "text": "Carl Gutwin. 2002. Traces: Visualizing the immediate past to support group interaction. In Graphics interface. Citeseer, 43\u201350.",
+      "doi": ""
+    },
+    {
+      "text": "Alon Halevy, Peter Norvig, and Fernando Pereira. 2009. The unreasonable effectiveness of data. IEEE Intelligent Systems 24, 2 (2009), 8\u201312.",
+      "doi": "10.1109/MIS.2009.36"
+    },
+    {
+      "text": "Kelli Ham. 2013. OpenRefine (version 2.5). http://openrefine. org. Free, open-source tool for cleaning and transforming data. Journal of the Medical Library Association: JMLA 101, 3 (2013), 233. https://doi.org/10.3163/1536-5050.101.3.020",
+      "doi": ""
+    },
+    {
+      "text": "Anders Haug, Frederik Zachariassen, and Dennis Van\u00a0Liempd. 2011. The costs of poor data quality. Journal of Industrial Engineering and Management (JIEM) 4, 2(2011), 168\u2013193.",
+      "doi": ""
+    },
+    {
+      "text": "Kim Hazelwood, Sarah Bird, David Brooks, Soumith Chintala, Utku Diril, Dmytro Dzhulgakov, Mohamed Fawzy, Bill Jia, Yangqing Jia, Aditya Kalro, 2018. Applied machine learning at facebook: A datacenter infrastructure perspective. In 2018 IEEE International Symposium on High Performance Computer Architecture (HPCA). IEEE, 620\u2013629.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Heer, Fernanda\u00a0B Vi\u00e9gas, and Martin Wattenberg. 2007. Voyagers and voyeurs: supporting asynchronous collaborative information visualization. In Proceedings of the SIGCHI conference on Human factors in computing systems. 1029\u20131038.",
+      "doi": "10.1145/1240624.1240781"
+    },
+    {
+      "text": "Thomas\u00a0N Herzog, Fritz\u00a0J Scheuren, and William\u00a0E Winkler. 2007. What is Data Quality and Why Should We Care?In Data quality and record linkage techniques. Springer, 7\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "William\u00a0C Hill, James\u00a0D Hollan, Dave Wroblewski, and Tim McCandless. 1992. Edit wear and read wear. In Proceedings of the SIGCHI conference on Human factors in computing systems. 3\u20139.",
+      "doi": "10.1145/142750.142751"
+    },
+    {
+      "text": "Sarah Holland, Ahmed Hosny, Sarah Newman, Joshua Joseph, and Kasia Chmielinski. 2020. The dataset nutrition label. Data Protection and Privacy, Volume 12: Data Protection and Democracy 12 (2020), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Bill Howe, Garret Cole, Nodira Khoussainova, and Leilani Battle. 2011. Automatic Example Queries for Ad Hoc Databases. In Proceedings of the 2011 ACM SIGMOD International Conference on Management of Data (Athens, Greece) (SIGMOD \u201911). Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/1989323.1989487",
+      "doi": "10.1145/1989323.1989487"
+    },
+    {
+      "text": "Petra Isenberg, Niklas Elmqvist, Jean Scholtz, Daniel Cernea, Kwan-Liu Ma, and Hans Hagen. 2011. Collaborative visualization: Definition, challenges, and research agenda. Information Visualization 10, 4 (2011), 310\u2013326.",
+      "doi": "10.1177/1473871611412817"
+    },
+    {
+      "text": "George\u00a0H. John, Ron Kohavi, and Karl Pfleger. 1994. Irrelevant Features and the Subset Selection Problem. In Machine Learning Proceedings 1994, William\u00a0W. Cohen and Haym Hirsh (Eds.). Morgan Kaufmann, San Francisco (CA), 121\u2013129. https://doi.org/10.1016/B978-1-55860-335-6.50023-4",
+      "doi": ""
+    },
+    {
+      "text": "A. Jovi\u0107, K. Brki\u0107, and N. Bogunovi\u0107. 2015. A review of feature selection methods with applications. In 2015 38th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO). 1200\u20131205. https://doi.org/10.1109/MIPRO.2015.7160458",
+      "doi": ""
+    },
+    {
+      "text": "Kaggle. 2019. Kaggle ML & DS Survey. Retrieved 02/25/2022 from https://www.kaggle.com/c/kaggle-survey-2019.",
+      "doi": ""
+    },
+    {
+      "text": "Kaggle. 2022. Kaggle. Retrieved July 29, 2022 from https://www.kaggle.com/",
+      "doi": ""
+    },
+    {
+      "text": "Sean Kandel, Andreas Paepcke, Joseph Hellerstein, and Jeffrey Heer. 2011. Wrangler: Interactive visual specification of data transformation scripts. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 3363\u20133372.",
+      "doi": "10.1145/1978942.1979444"
+    },
+    {
+      "text": "Sean Kandel, Andreas Paepcke, Joseph\u00a0M Hellerstein, and Jeffrey Heer. 2012. Enterprise data analysis and visualization: An interview study. IEEE transactions on visualization and computer graphics 18, 12(2012), 2917\u20132926.",
+      "doi": ""
+    },
+    {
+      "text": "Sean Kandel, Ravi Parikh, Andreas Paepcke, Joseph\u00a0M. Hellerstein, and Jeffrey Heer. 2012. Profiler: Integrated Statistical Analysis and Visualization for Data Quality Assessment. In Proceedings of the International Working Conference on Advanced Visual Interfaces (Capri Island, Italy) (AVI \u201912). Association for Computing Machinery, New York, NY, USA, 547\u2013554. https://doi.org/10.1145/2254556.2254659",
+      "doi": "10.1145/2254556.2254659"
+    },
+    {
+      "text": "Jihie Kim, Ewa Deelman, Yolanda Gil, Gaurang Mehta, and Varun Ratnakar. 2008. Provenance trails in the wings/pegasus system. Concurrency and Computation: Practice and Experience 20, 5(2008), 587\u2013597.",
+      "doi": "10.5555/1350745.1350748"
+    },
+    {
+      "text": "Miryung Kim, Thomas Zimmermann, Robert DeLine, and Andrew Begel. 2017. Data scientists in software teams: State of the art and challenges. IEEE Transactions on Software Engineering 44, 11 (2017), 1024\u20131038.",
+      "doi": ""
+    },
+    {
+      "text": "Laura Koesten, Emilia Kacprzak, Jeni Tennison, and Elena Simperl. 2019. Collaborative practices with structured data: Do tools support what users need?. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3290605.3300330"
+    },
+    {
+      "text": "Laura Koesten, Pavlos Vougiouklis, Elena Simperl, and Paul Groth. 2020. Dataset reuse: Toward translating principles to practice. Patterns 1, 8 (2020), 100136.",
+      "doi": ""
+    },
+    {
+      "text": "Kurt Koffka. 2013. Principles of Gestalt psychology. Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Lancar. 2022. Luma. https://github.com/adobe/experience-platform-dsw-reference/blob/master/datasets/luma/luma_post_extended.csv.",
+      "doi": ""
+    },
+    {
+      "text": "Nuno Laranjeiro, Seyma\u00a0Nur Soydemir, and Jorge Bernardino. 2015. A survey on data quality: classifying poor data. In 2015 IEEE 21st Pacific rim international symposium on dependable computing (PRDC). IEEE, 179\u2013188.",
+      "doi": ""
+    },
+    {
+      "text": "Sabina Leonelli. 2019. Data governance is key to interpretation: Reconceptualizing data in data science. Harvard Data Science Review 1, 1 (2019), 10\u20131162.",
+      "doi": ""
+    },
+    {
+      "text": "Zipeng Liu, Zhicheng Liu, and Tamara Munzner. 2020. Data-driven Multi-level Segmentation of Image Editing Logs. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3313831.3376152"
+    },
+    {
+      "text": "Yuyu Luo, Chengliang Chai, Xuedi Qin, Nan Tang, and Guoliang Li. 2020. Interactive cleaning for progressive visualization through composite questions. In 2020 IEEE 36th International Conference on Data Engineering (ICDE). IEEE.",
+      "doi": ""
+    },
+    {
+      "text": "Yuyu Luo, Chengliang Chai, Xuedi Qin, Nan Tang, and Guoliang Li. 2020. VisClean: Interactive Cleaning for Progressive Visualization. Proc. VLDB Endow. (aug 2020). https://doi.org/10.14778/3415478.3415484",
+      "doi": "10.14778/3415478.3415484"
+    },
+    {
+      "text": "Rupa Mahanti. 2019. Data, Data Quality, and Cost of Poor Data Quality. In Data quality: dimensions, measurement, strategy, management, and governance. Quality Press.",
+      "doi": ""
+    },
+    {
+      "text": "Antony\u00a0SR Manstead, Miles\u00a0Ed Hewstone, Susan\u00a0T Fiske, Michael\u00a0A Hogg, Harry\u00a0T Reis, and G\u00fcn\u00a0R Semin. 1995. The Blackwell encyclopedia of social psychology.Blackwell Reference/Blackwell Publishers.",
+      "doi": ""
+    },
+    {
+      "text": "Chris Mayfield, Jennifer Neville, and Sunil Prabhakar. 2010. ERACER: a database approach for statistical inference and data cleaning. In Proceedings of the 2010 ACM SIGMOD International Conference on Management of data. 75\u201386.",
+      "doi": "10.1145/1807167.1807178"
+    },
+    {
+      "text": "Sr\u0111an Medi\u0107, Biljana Karlovi\u0107, and Zrinko Cindri\u0107. 2016. New standard ISO 9001: 2015 and its effect on organisations. Interdisciplinary Description of Complex Systems: INDECS 14, 2(2016), 188\u2013193.",
+      "doi": ""
+    },
+    {
+      "text": "Ninareh Mehrabi, Fred Morstatter, Nripsuta Saxena, Kristina Lerman, and Aram Galstyan. 2021. A survey on bias and fairness in machine learning. ACM Computing Surveys (CSUR) 54, 6 (2021), 1\u201335.",
+      "doi": "10.1145/3457607"
+    },
+    {
+      "text": "Metaplane. 2022. Metaplane. Retrieved July 29, 2022 from https://www.metaplane.dev/",
+      "doi": ""
+    },
+    {
+      "text": "Microsoft. 2022. LinkedIn. Retrieved July 29, 2022 from https://linkedin.com/",
+      "doi": ""
+    },
+    {
+      "text": "Microsoft. 2022. Power BI Desktop. Retrieved May 25, 2022 from https://powerbi.microsoft.com/en-us/",
+      "doi": ""
+    },
+    {
+      "text": "Microsoft. 2022. Teams. Retrieved July 29, 2022 from https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+      "doi": ""
+    },
+    {
+      "text": "Tadhg Nagle, Thomas\u00a0C Redman, and David Sammon. 2017. Only 3% of companies\u2019 data meets basic quality standards. Harvard Business Review(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Arpit Narechania, Adam Coscia, Emily Wall, and Alex Endert. 2021. Lumos: Increasing awareness of analytic behavior during visual data analysis. IEEE Transactions on Visualization and Computer Graphics (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Jakob Nielsen and Kara Pernice. 2010. Eyetracking web usability. New Riders.",
+      "doi": ""
+    },
+    {
+      "text": "Chris North, Remco Chang, Alex Endert, Wenwen Dou, Richard May, Bill Pike, and Glenn Fink. 2011. Analytic provenance: process+ interaction+ insight. In CHI\u201911 Extended Abstracts on Human Factors in Computing Systems. 33\u201336.",
+      "doi": ""
+    },
+    {
+      "text": "Boris Otto, Kai\u00a0M H\u00fcner, and Hubert \u00d6sterle. 2009. Identification of Business Oriented Data Quality Metrics.. In ICIQ. 122\u2013134.",
+      "doi": ""
+    },
+    {
+      "text": "Jinglin Peng, Weiyuan Wu, Brandon Lockhart, Song Bian, Jing\u00a0Nathan Yan, Linghao Xu, Zhixuan Chi, Jeffrey\u00a0M Rzeszotarski, and Jiannan Wang. 2021. DataPrep.EDA: Task-Centric Exploratory Data Analysis for Statistical Modeling in Python. In Proceedings of the 2021 International Conference on Management of Data. 2271\u20132280.",
+      "doi": "10.1145/3448016.3457330"
+    },
+    {
+      "text": "Leo\u00a0L. Pipino, Yang\u00a0W. Lee, and Richard\u00a0Y. Wang. 2002. Data Quality Assessment. Commun. ACM 45, 4 (apr 2002), 211\u2013218. https://doi.org/10.1145/505248.506010",
+      "doi": "10.1145/505248.506010"
+    },
+    {
+      "text": "EU\u00a0Open\u00a0Data Portal. 2016. EU open data. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Pavel Pudil and Jana Novovi\u010dov\u00e1. 1998. Novel methods for feature subset selection with respect to problem knowledge. In Feature extraction, construction and selection. Springer, 101\u2013116.",
+      "doi": ""
+    },
+    {
+      "text": "Dorian Pyle. 1999. Data preparation for data mining. morgan kaufmann.",
+      "doi": ""
+    },
+    {
+      "text": "Eric\u00a0D Ragan, Alex Endert, Jibonananda Sanyal, and Jian Chen. 2015. Characterizing provenance in visualization and data analysis: an organizational framework of provenance types and purposes. IEEE transactions on visualization and computer graphics 22, 1(2015), 31\u201340.",
+      "doi": ""
+    },
+    {
+      "text": "Vijayshankar Raman and Joseph\u00a0M Hellerstein. 2001. Potter\u2019s wheel: An interactive data cleaning system. In VLDB, Vol.\u00a01. 381\u2013390.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0C. Redman. 2016. Bad Data Costs the U.S. $3 Trillion Per Year. https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0C Redman. 2018. If your data is bad, your machine learning tools are useless. Harvard Business Review 2 (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Robert Richards. 2006. Representational state transfer (rest). In Pro PHP XML and web services. Springer, 633\u2013672.",
+      "doi": ""
+    },
+    {
+      "text": "Steven\u00a0G Rogelberg, Linda\u00a0Rhoades Shanock, and Cliff\u00a0W Scott. 2012. Wasted time and money in meetings: Increasing return on investment. Small Group Research 43, 2 (2012), 236\u2013245.",
+      "doi": ""
+    },
+    {
+      "text": "Nithya Sambasivan, Shivani Kapania, Hannah Highfill, Diana Akrong, Praveen Paritosh, and Lora\u00a0M Aroyo. 2021. \u201cEveryone wants to do the model work, not the data work\u201d: Data Cascades in High-Stakes AI. In proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0A Schmuckler. 2001. What is ecological validity? A dimensional analysis. Infancy 2, 4 (2001), 419\u2013436.",
+      "doi": ""
+    },
+    {
+      "text": "Hans-J\u00f6rg Schulz, Thomas Nocke, Magnus Heitzler, and Heidrun Schumann. 2017. A systematic view on data descriptors for the visual analysis of tabular data. Information Visualization 16, 3 (2017), 232\u2013256.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Sedlmair, Miriah Meyer, and Tamara Munzner. 2012. Design Study Methodology: Reflections from the Trenches and the Stacks. IEEE Transactions on Visualization and Computer Graphics 18, 12(2012), 2431\u20132440. https://doi.org/10.1109/TVCG.2012.213",
+      "doi": "10.1109/TVCG.2012.213"
+    },
+    {
+      "text": "Fatimah Sidi, Payam\u00a0Hassany Shariat\u00a0Panahy, Lilly\u00a0Suriani Affendey, Marzanah\u00a0A. Jabar, Hamidah Ibrahim, and Aida Mustapha. 2012. Data quality: A survey of data quality dimensions. In 2012 International Conference on Information Retrieval & Knowledge Management. 300\u2013304. https://doi.org/10.1109/InfRKM.2012.6204995",
+      "doi": ""
+    },
+    {
+      "text": "Qinbao Song and Martin Shepperd. 2007. Missing Data Imputation Techniques. Int. J. Bus. Intell. Data Min. 2, 3 (oct 2007), 261\u2013291. https://doi.org/10.1504/IJBIDM.2007.015485",
+      "doi": "10.1504/IJBIDM.2007.015485"
+    },
+    {
+      "text": "Brian Stein and Alan Morrison. 2014. Data lakes and the promise of unsiloed data. PricewaterhouseCooper, Technology Forecast: Rethinking integration (2014). https://www.pwc.com/us/en/technology-forecast/2014/cloud-computing/assets/pdf/pwc-technology-forecast-data-lakes.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Tableau. 2022. Tableau. Retrieved July 29, 2022 from https://www.tableau.com/",
+      "doi": ""
+    },
+    {
+      "text": "Tableau. 2022. Tableau Prep. Retrieved May 25, 2022 from https://www.tableau.com/products/prep",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer Thom-Santelli, Dan Cosley, and Geri Gay. 2010. What do you know? Experts, novices and territoriality in collaborative systems. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1685\u20131694.",
+      "doi": "10.1145/1753326.1753578"
+    },
+    {
+      "text": "Jennifer Thom-Santelli, Dan\u00a0R Cosley, and Geri Gay. 2009. What\u2019s mine is mine: territoriality in collaborative authoring. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1481\u20131484.",
+      "doi": "10.1145/1518701.1518925"
+    },
+    {
+      "text": "Trifacta. 2022. Wrangler. Retrieved July 29, 2022 from https://www.trifacta.com/",
+      "doi": ""
+    },
+    {
+      "text": "A\u00a0Caroline Tynan and Jennifer Drayton. 1987. Market segmentation. Journal of marketing management 2, 3 (1987), 301\u2013335.",
+      "doi": ""
+    },
+    {
+      "text": "Uber. 2022. Uber Databook. Retrieved July 29, 2022 from https://eng.uber.com/databook/",
+      "doi": ""
+    },
+    {
+      "text": "Hannes Ulrich, Ann-Kristin Kock-Schoppenhauer, Noemi Deppenwiese, Robert G\u00f6tt, Jori Kern, Martin Lablans, Raphael\u00a0W Majeed, Mark\u00a0R St\u00f6hr, J\u00fcrgen Stausberg, Julian Varghese, Martin Dugas, and Josef Ingenerf. 2022. Understanding the Nature of Metadata: Systematic Review. J Med Internet Res 24, 1 (11 Jan 2022), e25440. https://doi.org/10.2196/25440",
+      "doi": ""
+    },
+    {
+      "text": "J\u00fcrgen Umbrich, Sebastian Neumaier, and Axel Polleres. 2015. Quality assessment and evolution of open data portals. In 2015 3rd international conference on future internet of things and cloud. IEEE, 404\u2013411.",
+      "doi": "10.1109/FiCloud.2015.82"
+    },
+    {
+      "text": "Reza Vaziri, Mehran Mohsenzadeh, and Jafar Habibi. 2019. Measuring data quality with weighted metrics. Total Quality Management & Business Excellence 30, 5-6(2019), 708\u2013720.",
+      "doi": ""
+    },
+    {
+      "text": "Fernanda\u00a0B Viegas and Martin Wattenberg. 2006. Communication-minded visualization: A call to action. IBM Systems Journal 45, 4 (2006), 801.",
+      "doi": "10.1147/sj.454.0801"
+    },
+    {
+      "text": "Fernanda\u00a0B. Viegas, Martin Wattenberg, Frank van Ham, Jesse Kriss, and Matt McKeon. 2007. ManyEyes: A Site for Visualization at Internet Scale. 13, 6 (nov 2007), 1121\u20131128. https://doi.org/10.1109/TVCG.2007.70577",
+      "doi": "10.1109/TVCG.2007.70577"
+    },
+    {
+      "text": "Emily Wall, Leslie\u00a0M Blaha, Lyndsey Franklin, and Alex Endert. 2017. Warning, bias may occur: A proposed approach to detecting cognitive bias in interactive visual analytics. In 2017 ieee conference on visual analytics science and technology (vast). IEEE, 104\u2013115.",
+      "doi": ""
+    },
+    {
+      "text": "Emily Wall, Arpit Narechania, Adam Coscia, Jamal Paden, and Alex Endert. 2021. Left, right, and gender: Exploring interaction traces to mitigate human biases. IEEE Transactions on Visualization and Computer Graphics (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Dakuo Wang, Judith\u00a0S Olson, Jingwen Zhang, Trung Nguyen, and Gary\u00a0M Olson. 2015. DocuViz: visualizing collaborative writing. In Proceedings of the 33rd Annual ACM conference on human factors in computing systems. 1865\u20131874.",
+      "doi": "10.1145/2702123.2702517"
+    },
+    {
+      "text": "Steve Wedig and Omid Madani. 2006. A large-scale analysis of query logs for assessing personalization opportunities. In Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining. 742\u2013747.",
+      "doi": "10.1145/1150402.1150497"
+    },
+    {
+      "text": "Wesley Willett, Jeffrey Heer, and Maneesh Agrawala. 2007. Scented widgets: Improving navigation cues with embedded visualizations. IEEE Transactions on Visualization and Computer Graphics 13, 6(2007), 1129\u20131136.",
+      "doi": "10.1109/TVCG.2007.70589"
+    },
+    {
+      "text": "Wesley Willett, Jeffrey Heer, Joseph Hellerstein, and Maneesh Agrawala. 2011. CommentSpace: structured support for collaborative visual analysis. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems.",
+      "doi": "10.1145/1978942.1979407"
+    },
+    {
+      "text": "Kanit Wongsuphasawat, Dominik Moritz, Anushka Anand, Jock Mackinlay, Bill Howe, and Jeffrey Heer. 2015. Voyager: Exploratory analysis via faceted browsing of visualization recommendations. IEEE transactions on visualization and computer graphics 22, 1(2015), 649\u2013658.",
+      "doi": ""
+    },
+    {
+      "text": "Mohamed Yakout, Laure Berti-\u00c9quille, and Ahmed\u00a0K Elmagarmid. 2013. Don\u2019t be scared: use scalable automatic repairing with maximal likelihood and bounded changes. In Proceedings of the 2013 ACM SIGMOD International Conference on Management of Data. 553\u2013564.",
+      "doi": "10.1145/2463676.2463706"
+    },
+    {
+      "text": "Cong Yan and Yeye He. 2020. Auto-Suggest: Learning-to-Recommend Data Preparation Steps Using Data Science Notebooks. In Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data (Portland, OR, USA) (SIGMOD \u201920). Association for Computing Machinery, New York, NY, USA, 1539\u20131554. https://doi.org/10.1145/3318464.3389738",
+      "doi": "10.1145/3318464.3389738"
+    },
+    {
+      "text": "Faheem Zafar, Abid Khan, Saba Suhail, Idrees Ahmed, Khizar Hameed, Hayat\u00a0Mohammad Khan, Farhana Jabeen, and Adeel Anjum. 2017. Trustworthy data: A survey, taxonomy and future trends of secure provenance schemes. Journal of network and computer applications 94 (2017), 50\u201368.",
+      "doi": "10.1016/j.jnca.2017.06.003"
+    },
+    {
+      "text": "Amy\u00a0X Zhang, Michael Muller, and Dakuo Wang. 2020. How do data science workers collaborate? roles, workflows, and tools. Proceedings of the ACM on Human-Computer Interaction 4, CSCW1(2020), 1\u201323.",
+      "doi": "10.1145/3392826"
+    },
+    {
+      "text": "Shichao Zhang, Chengqi Zhang, and Qiang Yang. 2003. Data preparation for data mining. Applied Artificial Intelligence 17, 5-6 (2003), 375\u2013381. https://doi.org/10.1080/713827180 arXiv:https://doi.org/10.1080/713827180",
+      "doi": ""
+    }
+  ]
+}

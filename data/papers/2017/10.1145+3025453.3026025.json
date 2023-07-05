@@ -1,0 +1,238 @@
+{
+  "doi": "10.1145/3025453.3026025",
+  "title": "VoxPL: Programming with the Wisdom of the Crowd",
+  "published": "2017-05-02",
+  "proctitle": "CHI '17: Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
+  "pages": "2347-2358",
+  "year": 2017,
+  "badges": [],
+  "abstract": "Having a crowd estimate a numeric value is the original inspiration for the notion of \"the wisdom of the crowd.\" Quality control for such estimated values is challenging because prior, consensus-based approaches for quality control in labeling tasks are not applicable in estimation tasks. We present VoxPL, a high-level programming framework that automatically obtains high-quality crowdsourced estimates of values. The VoxPL domain-specific language lets programmers concisely specify complex estimation tasks with a desired level of confidence and budget. VoxPL's runtime system implements a novel quality control algorithm that automatically computes sample sizes and obtains high quality estimates from the crowd at low cost. To evaluate VoxPL, we implement four estimation applications, ranging from facial feature recognition to calorie counting. The resulting programs are concise---under 200 lines of code---and obtain high quality estimates from the crowd quickly and inexpensively.",
+  "authors": [
+    {
+      "name": "Daniel W. Barowy",
+      "institution": "University of Massachusetts, Amherst, MA, USA",
+      "img": "/do/10.1145/contrib-81548608456/rel-imgonly/me.png",
+      "acmid": "81548608456",
+      "orcid": "missing"
+    },
+    {
+      "name": "Emery D. Berger",
+      "institution": "University of Massachusetts Amherst, Amherst, USA",
+      "img": "/do/10.1145/contrib-81100228645/rel-imgonly/n9126675_34793733_1507.jpg",
+      "acmid": "81100228645",
+      "orcid": "missing"
+    },
+    {
+      "name": "Daniel G. Goldstein",
+      "institution": "Microsoft Research, New York, NY, USA",
+      "img": "/do/10.1145/contrib-81485649647/rel-imgonly/dangoldstein_badge1.jpg",
+      "acmid": "81485649647",
+      "orcid": "missing"
+    },
+    {
+      "name": "Siddharth Suri",
+      "institution": "Microsoft Research, New York, NY, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81758959057",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "2016. Scala Language Specification. Technical Report Version 2.11. \u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne. https://www.scala-lang.org/files/archive/spec/2.11/",
+      "doi": ""
+    },
+    {
+      "text": "Greg Aloupis. 2001. On Computing Geometric Estimators of Location (M.Sc Thesis). McGill University School of Computer Science.",
+      "doi": ""
+    },
+    {
+      "text": "Yukino Baba and Hisashi Kashima. 2013. Statistical Quality Estimation for General Crowdsourcing Tasks. In Proceedings of the 19th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD '13). ACM, New York, NY, USA, 554--562. DOI: http://dx.doi.org/10.1145/2487575.2487600  ",
+      "doi": "10.1145/2487575.2487600"
+    },
+    {
+      "text": "Daniel W. Barowy, Charlie Curtsinger, Emery D. Berger, and Andrew McGregor. 2012. AutoMan: A Platform for Integrating Human-based and Digital Computation. In OOPSLA 2012. 639--654. DOI: http://dx.doi.org/10.1145/2384616.2384663  ",
+      "doi": "10.1145/2384616.2384663"
+    },
+    {
+      "text": "Daniel W. Barowy, Charlie Curtsinger, Emery D. Berger, and Andrew McGregor. 2016. AutoMan: A Platform for Integrating Human-based and Digital Computation. Commun. ACM 59, 6 (May 2016), 102--109. DOI: http://dx.doi.org/10.1145/2927928  ",
+      "doi": "10.1145/2927928"
+    },
+    {
+      "text": "Gerald Van Belle. 2008. Statistical Rules of Thumb (second edition ed.). John Wiley & Sons, Inc., Hoboken, NJ, USA. DOI: http://dx.doi.org/10.1002/9780470377963.ch1 ",
+      "doi": ""
+    },
+    {
+      "text": "Peter J. Bickel and David A. Freedman. 1981. Some Asymptotic Theory for the Bootstrap. The Annals of Statistics 9, 6 (1981), 1196--1217. DOI: http://dx.doi.org/10.2307/2240410",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Bragg, Mausam, and Daniel S. Weld. 2013. Crowdsourcing Multi-Label Classification for Taxonomy Creation. In Proceedings of the First AAAI Conference on Human Computation and Crowdsourcing, HCOMP 2013, November 7-9, 2013, Palm Springs, CA, USA. http://www. aaai.org/ocs/index.php/HCOMP/HCOMP13/paper/view/7560",
+      "doi": ""
+    },
+    {
+      "text": "Peng Dai, Christopher H. Lin, Mausam, and Daniel S. Weld. 2013. POMDP-based control of workflows for crowdsourcing. Artificial Intelligence 202 (Sept. 2013), 52--85. DOI: http://dx.doi.org/10.1016/j.artint.2013.06.002  ",
+      "doi": "10.1016/j.artint.2013.06.002"
+    },
+    {
+      "text": "Jia Deng, Olga Russakovsky, Jonathan Krause, Michael S. Bernstein, Alex Berg, and Li Fei-Fei. 2014. Scalable Multi-label Annotation. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). ACM, New York, NY, USA, 3099--3102. DOI: http://dx.doi.org/10.1145/2556288.2557011  ",
+      "doi": "10.1145/2556288.2557011"
+    },
+    {
+      "text": "Olive Jean Dunn. 1961. Multiple Comparisons Among Means. J. Amer. Statist. Assoc. 56, 293 (1961), 52--64. DOI:http://dx.doi.org/10.1080/01621459.1961.10482090 ",
+      "doi": ""
+    },
+    {
+      "text": "B. Efron. 1979. Bootstrap Methods: Another Look at the Jackknife. The Annals of Statistics 7, 1 (1979), 1--26. DOI:http://dx.doi.org/10.2307/2958830",
+      "doi": ""
+    },
+    {
+      "text": "Bradley Efron. 1981. Nonparametric Standard Errors and Confidence Intervals. Canadian Journal of Statistics 9, 2 (1981), 139--158. DOI: http://dx.doi.org/10.2307/3314608 ",
+      "doi": ""
+    },
+    {
+      "text": "Bradley Efron. 1987. Better Bootstrap Confidence Intervals. J. Amer. Statist. Assoc. 82, 397 (1987), 171--185. DOI:http://dx.doi.org/10.1080/01621459.1987.10478410 ",
+      "doi": ""
+    },
+    {
+      "text": "Michael J. Franklin, Donald Kossmann, Tim Kraska, Sukriti Ramesh, and Reynold Xin. 2011. CrowdDB: Answering Queries with Crowdsourcing. In Proceedings of the 2011 ACM SIGMOD International Conference on Management of Data (SIGMOD '11). ACM, New York, NY, USA, 61--72. DOI: http://dx.doi.org/10.1145/1989323.1989331  ",
+      "doi": "10.1145/1989323.1989331"
+    },
+    {
+      "text": "Francis Galton. 1907. Vox Populi. Nature 75, 1949 (March 1907), 450--451. http://www.nature.com/doifinder/10.1038/075450a0",
+      "doi": ""
+    },
+    {
+      "text": "Bj\u00f6rn Hartman and Eric Horvitz (Eds.). 2013. Proceedings of the First AAAI Conference on Human Computation and Crowdsourcing, HCOMP 2013, November 7--9, 2013, Palm Springs, CA, USA. AAAI. http://www.aaai.org/Library/HCOMP/hcomp13contents.php",
+      "doi": ""
+    },
+    {
+      "text": "Sture Holm. 1979. A Simple Sequentially Rejective Multiple Test Procedure. Scandinavian Journal of Statistics 6, 2 (1979), 65--70. DOI: http://dx.doi.org/10.2307/4615733",
+      "doi": ""
+    },
+    {
+      "text": "Gary B. Huang, Manjunath Narayana, and Erik G. Learned-Miller. 2008. Towards unconstrained face recognition. In IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2008, Anchorage, AK, USA, 23-28 June, 2008. IEEE Computer Society, 1--8. DOI:http://dx.doi.org/10.1109/CVPRW.2008.4562973 ",
+      "doi": ""
+    },
+    {
+      "text": "John P. A. Ioannidis. 2005. Why Most Published Research Findings Are False. PLoS Med 2, 8 (08 2005), e124. DOI: http://dx.doi.org/10.1371/journal.pmed.0020124 ",
+      "doi": ""
+    },
+    {
+      "text": "Panagiotis G. Ipeirotis, Foster Provost, and Jing Wang. 2010. Quality Management on Amazon Mechanical Turk. In Proceedings of the ACM SIGKDD Workshop on Human Computation (HCOMP '10). ACM, New York, NY, USA, 64--67. DOI: http://dx.doi.org/10.1145/1837885.1837906  ",
+      "doi": "10.1145/1837885.1837906"
+    },
+    {
+      "text": "Lilly C. Irani and M. Six Silberman. 2013. Turkopticon: Interrupting Worker Invisibility in Amazon Mechanical Turk. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). ACM, New York, NY, USA, 611--620. DOI: http://dx.doi.org/10.1145/2470654.2470742  ",
+      "doi": "10.1145/2470654.2470742"
+    },
+    {
+      "text": "Adam Kapelner. 2014. Statistical Analysis and Design of Crowdsourcing Applications. Ph.D. Dissertation. University of Pennsylvania. http://repository.upenn.edu/dissertations/AAI3622073",
+      "doi": ""
+    },
+    {
+      "text": "David Kestenbaum. 2015. Weighty Issue: Cow Guessing Game Helps To Explain The Stock Market. (15 Aug. 2015). http://www.npr.org/2015/08/20/432978431",
+      "doi": ""
+    },
+    {
+      "text": "Aniket Kittur, Jeffrey V. Nickerson, Michael Bernstein, Elizabeth Gerber, Aaron Shaw, John Zimmerman, Matt Lease, and John Horton. 2013. The Future of Crowd Work. In Proceedings of the 2013 Conference on Computer Supported Cooperative Work (CSCW '13). ACM, New York, NY, USA, 1301--1318. DOI: http://dx.doi.org/10.1145/2441776.2441923  ",
+      "doi": "10.1145/2441776.2441923"
+    },
+    {
+      "text": "Aniket Kittur, Boris Smus, Susheel Khamkar, and Robert E. Kraut. 2011. CrowdForge: Crowdsourcing Complex Work. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology (UIST '11). ACM, New York, NY, USA, 43--52. DOI: http://dx.doi.org/10.1145/2047196.2047202  ",
+      "doi": "10.1145/2047196.2047202"
+    },
+    {
+      "text": "Ranjay A. Krishna, Kenji Hata, Stephanie Chen, Joshua Kravitz, David A. Shamma, Li Fei-Fei, and Michael S. Bernstein. 2016. Embracing Error to Enable Rapid Crowdsourcing. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). ACM, New York, NY, USA, 3167--3179. DOI: http://dx.doi.org/10.1145/2858036.2858115  ",
+      "doi": "10.1145/2858036.2858115"
+    },
+    {
+      "text": "Daan Leijen and Erik Meijer. 1999. Domain Specific Embedded Compilers. In Proceedings of the 2Nd Conference on Domain-specific Languages (DSL '99). ACM, New York, NY, USA, 109--122. DOI: http://dx.doi.org/10.1145/331960.331977  ",
+      "doi": "10.1145/331960.331977"
+    },
+    {
+      "text": "Christopher H. Lin, Mausam, and Daniel S. Weld. 2012. Crowdsourcing Control: Moving Beyond Multiple Choice. In Proceedings of the Twenty-Eighth Conference on Uncertainty in Artificial Intelligence, Catalina Island, CA, USA, August 14-18, 2012, Nando de Freitas and Kevin P. Murphy (Eds.). AUAI Press, 491--500. https://dslpitt.org/papers/12/p491-lin.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller. 2010. TurKit: Human Computation Algorithms on Mechanical Turk. In UIST 2010. 57--66. DOI:http://dx.doi.org/10.1145/1866029.1866040  ",
+      "doi": "10.1145/1866029.1866040"
+    },
+    {
+      "text": "Benjamin Livshits and Todd Mytkowicz. 2014. Saving Money While Polling with InterPoll Using Power Analysis. In Proceedings of the Seconf AAAI Conference on Human Computation and Crowdsourcing, HCOMP 2014, November 2-4, 2014, Pittsburgh, Pennsylvania, USA, Jeffrey P. Bigham and David C. Parkes (Eds.). AAAI. http://www.aaai.org/ocs/index.php/HCOMP/ HCOMP14/paper/view/8979",
+      "doi": ""
+    },
+    {
+      "text": "Adam Marcus, David Karger, Samuel Madden, Robert Miller, and Sewoong Oh. 2012. Counting with the Crowd. Proc. VLDB Endow. 6, 2 (Dec. 2012), 109--120. DOI: http://dx.doi.org/10.14778/2535568.2448944  ",
+      "doi": "10.14778/2535568.2448944"
+    },
+    {
+      "text": "Adam Marcus, Eugene Wu, Samuel Madden, and Robert C. Miller. 2011. Crowdsourced Databases: Query Processing with People. In CIDR 2011, Fifth Biennial Conference on Innovative Data Systems Research, Asilomar, CA, USA, January 9-12, 2011, Online Proceedings. www.cidrdb.org, 211--214. http: //www.cidrdb.org/cidr2011/Papers/CIDR11_Paper29.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Winter Mason and Siddharth Suri. 2012. Conducting behavioral research on Amazon's Mechanical Turk. Behavior Research Methods 44, 1 (2012), 1--23. DOI: http://dx.doi.org/10.3758/s13428-011-0124--6",
+      "doi": ""
+    },
+    {
+      "text": "Luyi Mo, Reynold Cheng, Ben Kao, Xuan S. Yang, Chenghui Ren, Siyu Lei, David W. Cheung, and Eric Lo. 2013. Optimizing plurality for human intelligence tasks. In Proceedings of the 22nd ACM International Conference on Information & Knowledge Management (CIKM '13). ACM, New York, NY, USA, 1929--1938. DOI:http://dx.doi.org/10.1145/2505515.2505755  ",
+      "doi": "10.1145/2505515.2505755"
+    },
+    {
+      "text": "Austin Myers, Nick Johnston, Vivek Rathod, Anoop Korattikara, Alexander N. Gorban, Nathan Silberman, Sergio Guadarrama, George Papandreou, Jonathan Huang, and Kevin Murphy. 2015. Im2Calories: Towards an Automated Mobile Vision Food Diary. In 2015 IEEE International Conference on Computer Vision, ICCV 2015, Santiago, Chile, December 7-13, 2015. IEEE Computer Society, 1233--1241. DOI: http://dx.doi.org/10.1109/ICCV.2015.146  ",
+      "doi": "10.1109/ICCV.2015.146"
+    },
+    {
+      "text": "National Institute of Standards and Technology / SEMATECH. 2013. NIST/SEMATECH e-Handbook of Statistical Methods. http://www.itl.nist.gov/div898/handbook",
+      "doi": ""
+    },
+    {
+      "text": "Jon Noronha, Eric Hysen, Haoqi Zhang, and Krzysztof Z. Gajos. 2011. Platemate: Crowdsourcing Nutritional Analysis from Food Photographs. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology (UIST '11). ACM, New York, NY, USA, 1--12. DOI:http://dx.doi.org/10.1145/2047196.2047198  ",
+      "doi": "10.1145/2047196.2047198"
+    },
+    {
+      "text": "M. Puri, Zhiwei Zhu, Q. Yu, A. Divakaran, and H. Sawhney. 2009. Recognition and Volume Estimation of Food Intake Using a Mobile Device. In Applications of Computer Vision (WACV), 2009 Workshop on. 1--8. DOI: http://dx.doi.org/10.1109/WACV.2009.5403087 ",
+      "doi": ""
+    },
+    {
+      "text": "Alexander J. Quinn and Benjamin B. Bederson. 2011. Human-Machine Hybrid Computation. In CHI 2011 Workshop On Crowdsourcing And Human Computation. http: //crowdresearch.org/chi2011-workshop/papers/quinn.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Norman Ramsey and Avi Pfeffer. 2002. Stochastic Lambda Calculus and Monads of Probability Distributions. In Proceedings of the 29th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL '02). ACM, New York, NY, USA, 154--165. DOI: http://dx.doi.org/10.1145/503272.503288  ",
+      "doi": "10.1145/503272.503288"
+    },
+    {
+      "text": "Pawan Sinha, Benjamin Balas, Yuri Ostrovsky, and Richard Russell. 2007. Face Recognition by Humans: Nineteen Results All Computer Vision Researchers Should Know About. Proc. IEEE 94, 11 (2007), 1948--1962. DOI: http://dx.doi.org/10.1109/JPROC.2006.884093 ",
+      "doi": ""
+    },
+    {
+      "text": "Rion Snow, Brendan O'Connor, Daniel Jurafsky, and Andrew Y. Ng. 2008. Cheap and Fast - But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks. In 2008 Conference on Empirical Methods in Natural Language Processing, EMNLP 2008, Proceedings of the Conference, 25-27 October 2008, Honolulu, Hawaii, USA, A meeting of SIGDAT, a Special Interest Group of the ACL. ACL, 254--263. http://www.aclweb.org/anthology/D08-1027",
+      "doi": ""
+    },
+    {
+      "text": "James Surowiecki. 2005. The Wisdom of Crowds. Anchor.",
+      "doi": ""
+    },
+    {
+      "text": "Yaniv Taigman, Ming Yang, Marc-Aurelio Ranzato, and Lior Wolf. 2014. DeepFace: Closing the Gap to Human-Level Performance in Face Verification. In Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition (CVPR '14). IEEE Computer Society, Washington, DC, USA, 1701--1708. DOI:http://dx.doi.org/10.1109/CVPR.2014.220  ",
+      "doi": "10.1109/CVPR.2014.220"
+    },
+    {
+      "text": "Bradley Efron Thomas J. DiCiccio. 1996. Bootstrap Confidence Intervals. Statist. Sci. 11, 3 (1996), 189--212. DOI:http://dx.doi.org/10.1214/ss/1032280214 ",
+      "doi": ""
+    },
+    {
+      "text": "Matthew A. Turk and Alex Pentland. 1991. Face Recognition Using Eigenfaces. In IEEE Computer Society Conference on Computer Vision and Pattern Recognition, CVPR 1991, 3-6 June, 1991, Lahaina, Maui, Hawaii, USA. IEEE, 586--591. DOI: http://dx.doi.org/10.1109/CVPR.1991.139758 ",
+      "doi": ""
+    },
+    {
+      "text": "Luis von Ahn and Laura Dabbish. 2004. Labeling Images with a Computer Game. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '04). ACM, New York, NY, USA, 319--326. DOI: http://dx.doi.org/10.1145/985692.985733  ",
+      "doi": "10.1145/985692.985733"
+    },
+    {
+      "text": "L. Wasserman. 2006. All of Nonparametric Statistics. Springer New York.",
+      "doi": ""
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "doi": "10.1145/3411764.3445538",
+  "title": "UMLAUT: Debugging Deep Learning Programs using Program Structure and Model Behavior",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Training deep neural networks can generate non-descriptive error messages or produce unusual output without any explicit errors at all. While experts rely on tacit knowledge to apply debugging strategies, non-experts lack the experience required to interpret model output and correct Deep Learning (DL) programs. In this work, we identify DL debugging heuristics and strategies used by experts, andIn this work, we categorize the types of errors novices run into when writing ML code, and map them onto opportunities where tools could help. We use them to guide the design of Umlaut. Umlaut\u00a0checks DL program structure and model behavior against these heuristics; provides human-readable error messages to users; and annotates erroneous model output to facilitate error correction. Umlaut\u00a0links code, model output, and tutorial-driven error messages in a single interface. We evaluated Umlaut\u00a0in a study with 15 participants to determine its effectiveness in helping developers find and fix errors in their DL programs. Participants using Umlaut\u00a0found and fixed significantly more bugs and were able to implement fixes for more bugs compared to a baseline condition.",
+  "authors": [
+    {
+      "name": "Eldon Schoop",
+      "institution": "Berkeley Institute of Design University of California, Berkeley, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659019369",
+      "orcid": "missing"
+    },
+    {
+      "name": "Forrest Huang",
+      "institution": "University of California, Berkeley, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659365238",
+      "orcid": "missing"
+    },
+    {
+      "name": "Bjoern Hartmann",
+      "institution": "EECS UC Berkeley, United States",
+      "img": "/do/10.1145/contrib-81318498266/rel-imgonly/headshot2010_130.jpg",
+      "acmid": "81318498266",
+      "orcid": "0000-0002-0693-0829"
+    }
+  ],
+  "references": [
+    {
+      "text": "[n.d.]. NVIDIA DLSS 2.0: A Big Leap In AI Rendering. https://www.nvidia.com/en-us/geforce/news/nvidia-dlss-2-0-a-big-leap-in-ai-rendering/",
+      "doi": ""
+    },
+    {
+      "text": "Mart\u00edn Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Geoffrey Irving, Michael Isard, and et al.2016. TensorFlow: A System for Large-Scale Machine Learning. In Proceedings of the 12th USENIX Conference on Operating Systems Design and Implementation (Savannah, GA, USA) (OSDI\u201916). USENIX Association, USA, 265\u2013283.",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Andrew Begel, Christian Bird, Robert DeLine, Harald Gall, Ece Kamar, Nachiappan Nagappan, Besmira Nushi, and Thomas Zimmermann. 2019. Software Engineering for Machine Learning: A Case Study. In Proceedings of the 41st International Conference on Software Engineering: Software Engineering in Practice(Montreal, Quebec, Canada) (ICSE-SEIP \u201919). IEEE Press, 291\u2013300. https://doi.org/10.1109/ICSE-SEIP.2019.00042",
+      "doi": "10.1109/ICSE-SEIP.2019.00042"
+    },
+    {
+      "text": "Saleema Amershi, Max Chickering, Steven\u00a0M. Drucker, Bongshin Lee, Patrice Simard, and Jina Suh. 2015. ModelTracker: Redesigning Performance Analysis Tools for Machine Learning. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 337\u2013346. https://doi.org/10.1145/2702123.2702509",
+      "doi": "10.1145/2702123.2702509"
+    },
+    {
+      "text": "Kanav Anand, Ziqi Wang, Marco Loog, and Jan van Gemert. 2020. Black Magic in Deep Learning: How Human Skill Impacts Network Training. The British Machine Vision Conference(2020).",
+      "doi": ""
+    },
+    {
+      "text": "J. Bergstra, R. Bardenet, Yoshua Bengio, and B. K\u00e9gl. 2011. Algorithms for Hyper-Parameter Optimization. In NIPS.",
+      "doi": ""
+    },
+    {
+      "text": "Houssem\u00a0Ben Braiek and Foutse Khomh. 2019. TFCheck : A TensorFlow Library for Detecting Training Issues in Neural Network Programs. arxiv:1909.02562\u00a0[cs.LG]",
+      "doi": ""
+    },
+    {
+      "text": "Joel Brandt, Mira Dontcheva, Marcos Weskamp, and Scott\u00a0R. Klemmer. 2010. Example-Centric Programming: Integrating Web Search into the Development Environment. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201910). Association for Computing Machinery, New York, NY, USA, 513\u2013522. https://doi.org/10.1145/1753326.1753402",
+      "doi": "10.1145/1753326.1753402"
+    },
+    {
+      "text": "Tom\u00a0B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel\u00a0M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language Models are Few-Shot Learners. arxiv:2005.14165\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "C.\u00a0J. Cai and P.\u00a0J. Guo. 2019. Software Developers Learning Machine Learning: Motivations, Hurdles, and Desires. In 2019 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). 25\u201334. https://doi.org/10.1109/VLHCC.2019.8818751",
+      "doi": ""
+    },
+    {
+      "text": "Shanqing Cai. 2017. Debug TensorFlow Models with tfdbg. https://developers.googleblog.com/2017/02/debug-tensorflow-models-with-tfdbg.html",
+      "doi": ""
+    },
+    {
+      "text": "Fran\u00e7ois Chollet. 2015. keras. https://github.com/fchollet/keras.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Drew, Julie\u00a0L. Newcomb, William McGrath, Filip Maksimovic, David Mellis, and Bj\u00f6rn Hartmann. 2016. The Toastboard: Ubiquitous Instrumentation and Automated Checking of Breadboarded Circuits. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (Tokyo, Japan) (UIST \u201916). Association for Computing Machinery, New York, NY, USA, 677\u2013686. https://doi.org/10.1145/2984511.2984566",
+      "doi": "10.1145/2984511.2984566"
+    },
+    {
+      "text": "Jerry\u00a0Alan Fails and Dan\u00a0R. Olsen. 2003. Interactive Machine Learning. In Proceedings of the 8th International Conference on Intelligent User Interfaces (Miami, Florida, USA) (IUI \u201903). Association for Computing Machinery, New York, NY, USA, 39\u201345. https://doi.org/10.1145/604045.604056",
+      "doi": "10.1145/604045.604056"
+    },
+    {
+      "text": "Rebecca Fiebrink and Perry\u00a0R Cook. 2010. The Wekinator: a system for real-time, interactive machine learning in music. In Proceedings of The Eleventh International Society for Music Information Retrieval Conference (ISMIR 2010)(Utrecht).",
+      "doi": ""
+    },
+    {
+      "text": "Adam Fourney and Meredith\u00a0Ringel Morris. 2013. Enhancing Technical Q&A Forums with CiteHistory. In Proceedings of ICWSM 2013(proceedings of icwsm 2013 ed.). AAAI. https://www.microsoft.com/en-us/research/publication/enhancing-technical-qa-forums-with-citehistory/ You can download the CiteHistory plugin at http://research.microsoft.com/en-us/um/redmond/projects/citehistory/.",
+      "doi": ""
+    },
+    {
+      "text": "Rolando Garcia, Vikram Sreekanti, Daniel Crankshaw, Neeraja Yadwadkar, and Joseph Gonzalez. 2019. flor. https://github.com/ucbrise/flor",
+      "doi": ""
+    },
+    {
+      "text": "Leilani\u00a0H. Gilpin, David Bau, Ben\u00a0Z. Yuan, Ayesha Bajwa, Michael Specter, and Lalana Kagal. 2018. Explaining Explanations: An Overview of Interpretability of Machine Learning. arxiv:1806.00069\u00a0[cs.AI]",
+      "doi": ""
+    },
+    {
+      "text": "M. Goldman and R.\u00a0C. Miller. 2008. Codetrail: Connecting source code and web resources. In 2008 IEEE Symposium on Visual Languages and Human-Centric Computing. 65\u201372. https://doi.org/10.1109/VLHCC.2008.4639060",
+      "doi": "10.1109/VLHCC.2008.4639060"
+    },
+    {
+      "text": "Ian Goodfellow, Yoshua Bengio, and Aaron Courville. 2016. Deep Learning. MIT Press. http://www.deeplearningbook.org.",
+      "doi": "10.5555/3086952"
+    },
+    {
+      "text": "Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. 2014. Generative Adversarial Nets. In Advances in neural information processing systems. 2672\u20132680.",
+      "doi": ""
+    },
+    {
+      "text": "Tovi Grossman, George Fitzmaurice, and Ramtin Attar. 2009. A survey of software learnability: metrics, methodologies and guidelines. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 649\u2013658.",
+      "doi": "10.1145/1518701.1518803"
+    },
+    {
+      "text": "Bj\u00f6rn Hartmann, Daniel MacDougall, Joel Brandt, and Scott\u00a0R. Klemmer. 2010. What Would Other Programmers Do: Suggesting Solutions to Error Messages. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201910). Association for Computing Machinery, New York, NY, USA, 1019\u20131028. https://doi.org/10.1145/1753326.1753478",
+      "doi": "10.1145/1753326.1753478"
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2015. Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification. arxiv:1502.01852\u00a0[cs.CV]",
+      "doi": ""
+    },
+    {
+      "text": "K. He, X. Zhang, S. Ren, and J. Sun. 2015. Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification. In 2015 IEEE International Conference on Computer Vision (ICCV). 1026\u20131034.",
+      "doi": ""
+    },
+    {
+      "text": "K. He, X. Zhang, S. Ren, and J. Sun. 2016. Deep Residual Learning for Image Recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 770\u2013778.",
+      "doi": ""
+    },
+    {
+      "text": "A. Head, C. Appachu, M.\u00a0A. Hearst, and B. Hartmann. 2015. Tutorons: Generating context-relevant, on-demand explanations and demonstrations of online code. In 2015 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). 3\u201312. https://doi.org/10.1109/VLHCC.2015.7356972",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Head, Fred Hohman, Titus Barik, Steven\u00a0M. Drucker, and Robert DeLine. 2019. Managing Messes in Computational Notebooks. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300500",
+      "doi": "10.1145/3290605.3300500"
+    },
+    {
+      "text": "Andrew Head, Jason Jiang, James Smith, Marti\u00a0A. Hearst, and Bj\u00f6rn Hartmann. 2020. Composing Flexibly-Organized Step-by-Step Tutorials from Linked Source Code, Snippets, and Outputs. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376798",
+      "doi": "10.1145/3313831.3376798"
+    },
+    {
+      "text": "C. Hill, R. Bellamy, T. Erickson, and M. Burnett. 2016. Trials and tribulations of developers of intelligent systems: A field study. In 2016 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). 162\u2013170. https://doi.org/10.1109/VLHCC.2016.7739680",
+      "doi": ""
+    },
+    {
+      "text": "Fred Hohman, Andrew Head, Rich Caruana, Robert DeLine, and Steven\u00a0M. Drucker. 2019. Gamut: A Design Probe to Understand How Data Scientists Understand Machine Learning Models. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, Article 579, 13\u00a0pages. https://doi.org/10.1145/3290605.3300809",
+      "doi": "10.1145/3290605.3300809"
+    },
+    {
+      "text": "F. Hohman, M. Kahng, R. Pienta, and D.\u00a0H. Chau. 2019. Visual Analytics in Deep Learning: An Interrogative Survey for the Next Frontiers. IEEE Transactions on Visualization and Computer Graphics 25, 8(2019), 2674\u20132693. https://doi.org/10.1109/TVCG.2018.2843369",
+      "doi": "10.1109/TVCG.2018.2843369"
+    },
+    {
+      "text": "Jeremy Howard and Sylvain Gugger. 2020. Fastai: A Layered API for Deep Learning. Information 11, 2 (Feb 2020), 108. https://doi.org/10.3390/info11020108",
+      "doi": ""
+    },
+    {
+      "text": "Nargiz Humbatova, Gunel Jahangirova, Gabriele Bavota, Vincenzo Riccio, Andrea Stocco, and Paolo Tonella. 2019. Taxonomy of Real Faults in Deep Learning Systems. arxiv:1910.11015\u00a0[cs.SE]",
+      "doi": ""
+    },
+    {
+      "text": "Apple Inc. 2019. Apple Create ML. https://developer.apple.com/machine-learning/create-ml/",
+      "doi": ""
+    },
+    {
+      "text": "Databricks Inc. 2019. MLFlow. https://mlflow.org/",
+      "doi": ""
+    },
+    {
+      "text": "Md\u00a0Johirul Islam, Giang Nguyen, Rangeet Pan, and Hridesh Rajan. 2019. A Comprehensive Study on Deep Learning Bug Characteristics. In Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (Tallinn, Estonia) (ESEC/FSE 2019). Association for Computing Machinery, New York, NY, USA, 510\u2013520. https://doi.org/10.1145/3338906.3338955",
+      "doi": "10.1145/3338906.3338955"
+    },
+    {
+      "text": "Andrew Janowczyk and Anant Madabhushi. 2016. Deep learning for digital pathology image analysis: A comprehensive tutorial with selected use cases. Journal of pathology informatics 7 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "S.\u00a0C. Johnson. 1978. Lint, a C Program Checker. In Technical Report. Bell Telephone Laboratories, 78\u20131273.",
+      "doi": ""
+    },
+    {
+      "text": "Andrej Kaparthy. 2016. Training Neural Networks, Part 1. Convolutional Neural Networks for Visual Recognition. Lecture Slides (20 January 2016). http://cs231n.stanford.edu/2016/syllabus.html",
+      "doi": ""
+    },
+    {
+      "text": "Andrej Kaparthy. 2019. A Recipe for Training Neural Networks. https://karpathy.github.io/2019/04/25/recipe/",
+      "doi": ""
+    },
+    {
+      "text": "Andrei Kapishnikov, Tolga Bolukbasi, Fernanda Vi\u00e9gas, and Michael Terry. 2019. XRAI: Better Attributions Through Regions. arxiv:1906.02825\u00a0[cs.CV]",
+      "doi": ""
+    },
+    {
+      "text": "Jun Kato, Sean McDirmid, and Xiang Cao. 2012. DejaVu: integrated support for developing interactive camera-based programs. In Proceedings of the 25th annual ACM symposium on User interface software and technology. 189\u2013196.",
+      "doi": "10.1145/2380116.2380142"
+    },
+    {
+      "text": "Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, and Rory Sayres. 2017. Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV). arxiv:1711.11279\u00a0[stat.ML]",
+      "doi": ""
+    },
+    {
+      "text": "Diederik\u00a0P. Kingma and Jimmy Ba. 2015. Adam: A Method for Stochastic Optimization. In ICLR (Poster). http://arxiv.org/abs/1412.6980",
+      "doi": ""
+    },
+    {
+      "text": "Amy\u00a0J. Ko and Brad\u00a0A. Myers. 2009. Finding Causes of Program Output with the Java Whyline. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Boston, MA, USA) (CHI \u201909). Association for Computing Machinery, New York, NY, USA, 1569\u20131578. https://doi.org/10.1145/1518701.1518942",
+      "doi": ""
+    },
+    {
+      "text": "Alex Krizhevsky. 2009. Learning multiple layers of features from tiny images. Technical Report.",
+      "doi": ""
+    },
+    {
+      "text": "Lezhi Li and Yang Wang. 2019. Manifold: A Model-Agnostic Visual Debugging Tool for Machine Learning at Uber. https://eng.uber.com/manifold/",
+      "doi": ""
+    },
+    {
+      "text": "Zachary\u00a0Chase Lipton. 2016. The Myth of Model Interpretability. CoRR abs / 1606.03490(2016). arxiv:1606.03490http://arxiv.org/abs/1606.03490",
+      "doi": ""
+    },
+    {
+      "text": "Google LLC. 2020. Machine Learning Crash Course with TensorFlow APIs. Retrieved February 2, 2020 from https://developers.google.com/machine-learning/crash-course",
+      "doi": ""
+    },
+    {
+      "text": "Dan Maynes-Aminzade, Terry Winograd, and Takeo Igarashi. 2007. Eyepatch: prototyping camera-based interaction through examples. In Proceedings of the 20th annual ACM symposium on User interface software and technology. 33\u201342.",
+      "doi": "10.1145/1294211.1294219"
+    },
+    {
+      "text": "Will McGrath, Daniel Drew, Jeremy Warner, Majeed Kazemitabaar, Mitchell Karchemsky, David Mellis, and Bj\u00f6rn Hartmann. 2017. Bifr\u00f6st: Visualizing and Checking Behavior of Embedded Systems across Hardware and Software. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology (Qu\u00e9bec City, QC, Canada) (UIST \u201917). Association for Computing Machinery, New York, NY, USA, 299\u2013310. https://doi.org/10.1145/3126594.3126658",
+      "doi": "10.1145/3126594.3126658"
+    },
+    {
+      "text": "David\u00a0A. Mellis, Ben Zhang, Audrey Leung, and Bj\u00f6rn Hartmann. 2017. Machine Learning for Makers: Interactive Sensor Data Classification Based on Augmented Code Examples. In Proceedings of the 2017 Conference on Designing Interactive Systems (Edinburgh, United Kingdom) (DIS \u201917). Association for Computing Machinery, New York, NY, USA, 1213\u20131225. https://doi.org/10.1145/3064663.3064735",
+      "doi": "10.1145/3064663.3064735"
+    },
+    {
+      "text": "Microsoft. 2020. Automate code completions tailored to your codebase with IntelliCode Team completions. Retrieved September 7, 2020 from https://github.com/microsoft/vs-intellicode",
+      "doi": ""
+    },
+    {
+      "text": "Riccardo Miotto, Fei Wang, Shuang Wang, Xiaoqian Jiang, and Joel\u00a0T Dudley. 2017. Deep learning for healthcare: review, opportunities and challenges. Briefings in Bioinformatics 19, 6 (05 2017), 1236\u20131246. https://doi.org/10.1093/bib/bbx044arXiv:https://academic.oup.com/bib/article-pdf/19/6/1236/27119191/bbx044.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Sugeerth Murugesan, Sana Malik, Fan Du, Eunyee Koh, and Tuan Lai. 2019. DeepCompare: Visual and Interactive Comparison of Deep Learning Model Performance. IEEE Computer Graphics and Applications PP (05 2019), 1\u20131. https://doi.org/10.1109/MCG.2019.2919033",
+      "doi": ""
+    },
+    {
+      "text": "Glenford\u00a0J. Myers, Corey Sandler, and Tom Badgett. 2011. The Art of Software Testing(3rd ed.). Wiley Publishing.",
+      "doi": "10.5555/2161638"
+    },
+    {
+      "text": "Soroush Nasiriany, Garrett Thomas, William Wang, Alex Yang, Jennifer Listgarten, and Anant Sahai. 2019. A Comprehensive Guide to Machine Learning.",
+      "doi": ""
+    },
+    {
+      "text": "Augustus Odena, Catherine Olsson, David Andersen, and Ian Goodfellow. 2019. TensorFuzz: Debugging Neural Networks with Coverage-Guided Fuzzing. In Proceedings of the 36th International Conference on Machine Learning(Proceedings of Machine Learning Research, Vol.\u00a097), Kamalika Chaudhuri and Ruslan Salakhutdinov (Eds.). PMLR, Long Beach, California, USA, 4901\u20134911. http://proceedings.mlr.press/v97/odena19a.html",
+      "doi": ""
+    },
+    {
+      "text": "Chris Olah, Alexander Mordvintsev, and Ludwig Schubert. 2017. Feature Visualization. Distill (2017). https://doi.org/10.23915/distill.00007https://distill.pub/2017/feature-visualization.",
+      "doi": ""
+    },
+    {
+      "text": "Savannah Ostrowski. 2020. Announcing Pylance: Fast, feature-rich language support for Python in Visual Studio Code. Retrieved September 7, 2020 from https://devblogs.microsoft.com/python/announcing-pylance-fast-feature-rich-language-support-for-python-in-visual-studio-code/",
+      "doi": ""
+    },
+    {
+      "text": "Google PAIR. 2017. FACETS. https://pair-code.github.io/facets/",
+      "doi": ""
+    },
+    {
+      "text": "Kayur Patel, Naomi Bancroft, Steven\u00a0M. Drucker, James Fogarty, Amy\u00a0J. Ko, and James Landay. 2010. Gestalt: Integrated Support for Implementation and Analysis in Machine Learning. In Proceedings of the 23nd Annual ACM Symposium on User Interface Software and Technology(New York, New York, USA) (UIST \u201910). Association for Computing Machinery, New York, NY, USA, 37\u201346. https://doi.org/10.1145/1866029.1866038",
+      "doi": "10.1145/1866029.1866038"
+    },
+    {
+      "text": "Kayur Patel, James Fogarty, James\u00a0A. Landay, and Beverly Harrison. 2008. Investigating Statistical Machine Learning as a Tool for Software Development. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Florence, Italy) (CHI \u201908). Association for Computing Machinery, New York, NY, USA, 667\u2013676. https://doi.org/10.1145/1357054.1357160",
+      "doi": "10.1145/1357054.1357160"
+    },
+    {
+      "text": "Eldon Schoop, Forrest Huang, and Bj\u00f6rn Hartmann. 2020. SCRAM: Simple Checks for Realtime Analysis of Model Training for Non-Expert ML Programmers. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI EA \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/3334480.3382879",
+      "doi": ""
+    },
+    {
+      "text": "Shital Shah, Roland Fernandez, and Steven\u00a0M. Drucker. 2019. A system for real-time interactive analysis of deep learning training. In Proceedings of the ACM SIGCHI Symposium on Engineering Interactive Computing Systems, EICS 2019, Valencia, Spain, June 18-21, 2019. 16:1\u201316:6. https://doi.org/10.1145/3319499.3328231",
+      "doi": "10.1145/3319499.3328231"
+    },
+    {
+      "text": "Jonathan\u00a0R. Shewchuk. 2020. Concise Machine Learning. https://people.eecs.berkeley.edu/~jrs/papers/machlearn.pdf",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0T Stasko, Marc\u00a0H Brown, and Blaine\u00a0A Price. 1997. Software Visualization. MIT press.",
+      "doi": ""
+    },
+    {
+      "text": "Emma Strubell, Ananya Ganesh, and Andrew McCallum. 2019. Energy and Policy Considerations for Deep Learning in NLP. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Florence, Italy, 3645\u20133650. https://doi.org/10.18653/v1/P19-1355",
+      "doi": ""
+    },
+    {
+      "text": "Josh Tobin. 2019. Troubleshooting Deep Neural Networks: A Field Guide to Fixing Your Model. Retrieved September 17, 2020 from http://josh-tobin.com/troubleshooting-deep-neural-networks.html",
+      "doi": ""
+    },
+    {
+      "text": "Manasi Vartak, Harihar Subramanyam, Wei-En Lee, Srinidhi Viswanathan, Saadiyah Husnoo, Samuel Madden, and Matei Zaharia. 2016. ModelDB: A System for Machine Learning Model Management. In Proceedings of the Workshop on Human-In-the-Loop Data Analytics (San Francisco, California) (HILDA \u201916). Association for Computing Machinery, New York, NY, USA, Article 14, 3\u00a0pages. https://doi.org/10.1145/2939502.2939516",
+      "doi": "10.1145/2939502.2939516"
+    },
+    {
+      "text": "Matthew Veres and Medhat Moussa. 2019. Deep learning for intelligent transportation systems: A survey of emerging trends. IEEE Transactions on Intelligent transportation systems (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0Stuart Weiss. 1995. Learning from strangers: the art and method of qualitative interview studies. Free Press.",
+      "doi": ""
+    },
+    {
+      "text": "J. Wexler, M. Pushkarna, T. Bolukbasi, M. Wattenberg, F. Vi\u00e9gas, and J. Wilson. 2020. The What-If Tool: Interactive Probing of Machine Learning Models. IEEE Transactions on Visualization and Computer Graphics 26, 1(2020), 56\u201365. https://doi.org/10.1109/TVCG.2019.2934619",
+      "doi": ""
+    },
+    {
+      "text": "Han Xiao, Kashif Rasul, and Roland Vollgraf. 2017. Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms. arXiv:cs.LG/1708.07747\u00a0[cs.LG]",
+      "doi": ""
+    },
+    {
+      "text": "Geoffrey\u00a0X. Yu, Tovi Grossman, and Gennady Pekhimenko. 2020. Skyline: Interactive In-Editor Computational Performance Profiling for Deep Neural Network Training. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201920). Association for Computing Machinery, New York, NY, USA, 126\u2013139. https://doi.org/10.1145/3379337.3415890",
+      "doi": "10.1145/3379337.3415890"
+    },
+    {
+      "text": "T. Zhang, C. Gao, L. Ma, M. Lyu, and M. Kim. 2019. An Empirical Study of Common Challenges in Developing Deep Learning Applications. In 2019 IEEE 30th International Symposium on Software Reliability Engineering (ISSRE). 104\u2013115.",
+      "doi": ""
+    },
+    {
+      "text": "Yuhao Zhang, Yifan Chen, Shing-Chi Cheung, Yingfei Xiong, and Lu Zhang. 2018. An Empirical Study on TensorFlow Program Bugs. In Proceedings of the 27th ACM SIGSOFT International Symposium on Software Testing and Analysis (Amsterdam, Netherlands) (ISSTA 2018). Association for Computing Machinery, New York, NY, USA, 129\u2013140. https://doi.org/10.1145/3213846.3213866",
+      "doi": "10.1145/3213846.3213866"
+    }
+  ]
+}

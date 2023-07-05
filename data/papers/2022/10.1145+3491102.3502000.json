@@ -1,0 +1,274 @@
+{
+  "doi": "10.1145/3491102.3502000",
+  "title": "The Voight-Kampff Machine for Automatic Custom Gesture Rejection Threshold Selection",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Gesture recognition systems using nearest neighbor pattern matching are able to distinguish gesture from non-gesture actions by rejecting input whose recognition scores are poor. However, in the context of gesture customization, where training data is sparse, learning a tight rejection threshold that maximizes accuracy in the presence of continuous high activity (HA) data is a challenging problem. To this end, we present the Voight-Kampff Machine (VKM), a novel approach for rejection threshold selection. VKM uses new synthetic data techniques to select an initial threshold that the system thereafter adjusts based on the training set size and expected gesture production variability. We pair VKM with a state-of-the-art custom gesture segmenter and recognizer to evaluate our system across several HA datasets, where gestures are interleaved with non-gesture actions. Compared to alternative rejection threshold selection techniques, we show that our approach is the only one that consistently achieves high performance.",
+  "authors": [
+    {
+      "name": "Eugene Matthew Taranta",
+      "institution": "Interactive Systems and User Experience Lab, University of Central Florida, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "89558635157",
+      "orcid": "0000-0001-5615-2597"
+    },
+    {
+      "name": "Mykola Maslych",
+      "institution": "Interactive Systems and User Experience Lab, University of Central Florida, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659529625",
+      "orcid": "0000-0001-7037-3513"
+    },
+    {
+      "name": "Ryan Ghamandi",
+      "institution": "Interactive Systems and User Experience Lab, UCF, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660238676",
+      "orcid": "0000-0003-4654-839X"
+    },
+    {
+      "name": "Joseph LaViola",
+      "institution": "University of Central Florida, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100283513",
+      "orcid": "0000-0003-1186-4130"
+    }
+  ],
+  "references": [
+    {
+      "text": "Lisa Anthony and Jacob\u00a0O Wobbrock. 2010. A Lightweight Multistroke Recognizer for User Interface Prototypes. In Proceedings of Graphics Interface 2010(GI \u201910). Canadian Information Processing Society, Toronto, Ont., Canada, Canada, 245\u2013252.",
+      "doi": "10.5555/1839214.1839258"
+    },
+    {
+      "text": "Lisa Anthony and Jacob\u00a0O Wobbrock. 2012. $N-protractor: A Fast and Accurate Multistroke Recognizer. In Proceedings of Graphics Interface 2012(GI \u201912). Canadian Information Processing Society, Toronto, Ont., Canada, Canada, 117\u2013120.",
+      "doi": ""
+    },
+    {
+      "text": "Rachel Blagojevic, Samuel Hsiao-Heng Chang, and Beryl Plimmer. 2010. The Power of Automatic Feature Selection: Rubine on Steroids. In Proceedings of the Seventh Sketch-Based Interfaces and Modeling Symposium(SBIM \u201910). Eurographics Association, Aire-la-Ville, Switzerland, Switzerland, 79\u201386.",
+      "doi": "10.5555/1923363.1923377"
+    },
+    {
+      "text": "Lee\u00a0W Campbell and Aaron\u00a0F Bobick. 1995. Recognition of human body motion using phase space constraints. In Computer Vision, 1995. Proceedings., Fifth International Conference on. IEEE, 624\u2013630.",
+      "doi": ""
+    },
+    {
+      "text": "Xiang Cao and Shumin Zhai. 2007. Modeling Human Performance of Pen Stroke Gestures. In CHI Conference. IBM Almaden Research Center and University of Toronto, 1495\u20131504.",
+      "doi": ""
+    },
+    {
+      "text": "FM Caputo, S Burato, G Pavan, T Voillemin, H Wannous, JP Vandeborre, M Maghoumi, EM Taranta, A Razmjoo, JJ LaViola\u00a0Jr, 2019. SHREC 2019: Online gesture recognition. In Workshop 3D Object Retrieva.",
+      "doi": ""
+    },
+    {
+      "text": "Fabio\u00a0Marco Caputo, Pietro Prebianca, Alessandro Carcangiu, Lucio\u00a0D Spano, and Andrea Giachetti. 2017. A 3 Cent Recognizer: Simple and Effective Retrieval and Classification of Mid-air Gestures from Single 3D Traces. Smart Tools and Apps for Graphics. Eurographics Association (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Salman Cheema, Michael Hoffman, and Joseph\u00a0J LaViola Jr.2013. 3D gesture classification with linear acceleration and angular velocity sensing devices for video games. Entertainment Computing 4, 1 (2013), 11\u201324.",
+      "doi": ""
+    },
+    {
+      "text": "Kyunghyun Cho, Bart Van\u00a0Merri\u00ebnboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. 2014. Learning phrase representations using RNN encoder-decoder for statistical machine translation. arXiv preprint arXiv:1406.1078(2014).",
+      "doi": ""
+    },
+    {
+      "text": "Ekin\u00a0D. Cubuk, Barret Zoph, Dandelion Mane, Vijay Vasudevan, and Quoc\u00a0V. Le. 2019. AutoAugment: Learning Augmentation Policies from Data. arxiv:1805.09501\u00a0[cs.CV]",
+      "doi": ""
+    },
+    {
+      "text": "Hoang Anh Dau, Diego Furtado Silva, Francois Petitjean, Germain Forestier, Anthony Bagnall, and Eamonn Keogh. 2017. Judicious setting of Dynamic Time Warping\u2019s window width allows more accurate classification of time series. In Proceedings - 2017 IEEE International Conference on Big Data, Jian-Yun Nie, Zoran Obradovic, Toyotaro Suzumura, Rumi Ghosh, Raghunath Nambiar, Chonggang Wang, Hui Zang, Ricardo Baeza-Yates, Xiaohua Hu, Jeremy Kepner, Alfredo Cuzzocrea, Jian Tang, and Masashi Toyoda (Eds.). IEEE, Institute of Electrical and Electronics Engineers, United States of America, 917\u2013922. https://doi.org/10.1109/BigData.2017.8258009 IEEE International Conference on Big Data (Big Data) 2017, IEEE BigData 2017 ; Conference date: 11-12-2017 Through 14-12-2017.",
+      "doi": ""
+    },
+    {
+      "text": "Lisa\u00a0A. Elkin, Matthew Kay, James\u00a0J. Higgins, and Jacob\u00a0O. Wobbrock. 2021. An Aligned Rank Transform Procedure for Multifactor Contrast Tests. Association for Computing Machinery, New York, NY, USA, 754\u2013768. https://doi.org/10.1145/3472749.3474784",
+      "doi": ""
+    },
+    {
+      "text": "J Herold and T\u00a0F Stahovich. 2012. The 1\\textsuperscript{\\textcent} Recognizer: A Fast, Accurate, and Easy-to-implement Handwritten Gesture Recognition Technique. In Proceedings of the International Symposium on Sketch-Based Interfaces and Modeling(SBIM \u201912). Eurographics Association, Aire-la-Ville, Switzerland, Switzerland, 39\u201346.",
+      "doi": ""
+    },
+    {
+      "text": "Sture Holm. 1979. A simple sequentially rejective multiple test procedure. Scandinavian journal of statistics(1979), 65\u201370.",
+      "doi": ""
+    },
+    {
+      "text": "Yoonho Hwang and Hee-kap Ahn. 2011. Convergent Bounds on the Euclidean Distance. In Advances in Neural Information Processing Systems 24, J\u00a0Shawe-taylor, R.s. Zemel, P\u00a0Bartlett, F.c.n. Pereira, and K.q. Weinberger (Eds.). 388\u2013396.",
+      "doi": ""
+    },
+    {
+      "text": "Yoonho Hwang, Bohyung Han, and Hee-Kap Ahn. 2012. A fast nearest neighbor search algorithm by nonlinear embedding. In 2012 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 3053\u20133060.",
+      "doi": ""
+    },
+    {
+      "text": "Kanav Kahol, Priyamvada Tripathi, and Sethuraman Panchanathan. 2004. Automated gesture segmentation from dance sequences. In Automatic Face and Gesture Recognition, 2004. Proceedings. Sixth IEEE International Conference on. IEEE, 883\u2013888.",
+      "doi": ""
+    },
+    {
+      "text": "Guoliang Kang, Xuanyi Dong, Liang Zheng, and Yi Yang. 2017. PatchShuffle Regularization. arxiv:1707.07103\u00a0[cs.CV]",
+      "doi": ""
+    },
+    {
+      "text": "Hyun Kang, Chang\u00a0Woo Lee, and Keechul Jung. 2004. Recognition-based gesture spotting in video games. Pattern Recognition Letters 25, 15 (2004), 1701\u20131714.",
+      "doi": "10.1016/j.patrec.2004.06.016"
+    },
+    {
+      "text": "Woojin Kang, In-Taek Jung, DaeHo Lee, and Jin-Hyuk Hong. 2021. Styling Words: A Simple and Natural Way to Increase Variability in Training Data Collection for Gesture Recognition. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 318, 12\u00a0pages. https://doi.org/10.1145/3411764.3445457",
+      "doi": "10.1145/3411764.3445457"
+    },
+    {
+      "text": "Keiko Katsuragawa, Ankit Kamal, Qi\u00a0Feng Liu, Matei Negulescu, and Edward Lank. 2019. Bi-Level Thresholding: Analyzing the Effect of Repeated Errors in Gesture Input. ACM Trans. Interact. Intell. Syst. 9, 2\u20133, Article 15 (April 2019), 30\u00a0pages. https://doi.org/10.1145/3181672",
+      "doi": "10.1145/3181672"
+    },
+    {
+      "text": "Sven Kratz and Michael Rohs. 2010. The $3 recognizer: simple 3D gesture recognition on mobile devices. In Proceedings of the 15th international conference on Intelligent user interfaces. ACM, 419\u2013420.",
+      "doi": "10.1145/1719970.1720051"
+    },
+    {
+      "text": "Sven Kratz and Michael Rohs. 2011. Protractor3D: a closed-form solution to rotation-invariant 3D gestures. In Proceedings of the 16th international conference on Intelligent User Interfaces. ACM, 371\u2013374.",
+      "doi": "10.1145/1943403.1943468"
+    },
+    {
+      "text": "Luis\u00a0A Leiva. 2017. Large-scale user perception of synthetic stroke gestures. In Proceedings of the 2017 Conference on Designing Interactive Systems. 1135\u20131140.",
+      "doi": "10.1145/3064663.3064724"
+    },
+    {
+      "text": "Luis\u00a0A Leiva, Daniel Mart\u00edn-Albo, and R\u00e9jean Plamondon. 2015. Gestures \u00c0 Go Go: Authoring Synthetic Human-Like Stroke Gestures Using the Kinematic Theory of Rapid Movements. ACM Trans. Intell. Syst. Technol. 7, 2 (nov 2015), 15:1\u2014-15:29.",
+      "doi": "10.1145/2799648"
+    },
+    {
+      "text": "Yang Li. 2010. Protractor: A Fast and Accurate Gesture Recognizer. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201910). ACM, New York, NY, USA, 2169\u20132172.",
+      "doi": "10.1145/1753326.1753654"
+    },
+    {
+      "text": "Laurence Likforman-Sulem, Anna Esposito, Marcos Faundez-Zanuy, St\u00e9phan Cl\u00e9men\u00e7on, and Gennaro Cordasco. 2017. EMOTHAW: A Novel Database for Emotional State Recognition From Handwriting and Drawing. In IEEE TRANSACTIONS ON HUMAN-MACHINE SYSTEMS, VOL. 47. IEEE, 273\u2013284.",
+      "doi": ""
+    },
+    {
+      "text": "Jiayang Liu, Lin Zhong, Jehan Wickramasuriya, and Venu Vasudevan. 2009. uWave: Accelerometer-based personalized gesture recognition and its applications. Pervasive and Mobile Computing 5, 6 (2009), 657\u2013675.",
+      "doi": "10.1016/j.pmcj.2009.07.007"
+    },
+    {
+      "text": "Xiao-Hui Liu and Chin-Seng Chua. 2010. Rejection of non-meaningful activities for HMM-based activity recognition system. Image and Vision Computing 28, 6 (2010), 865\u2013871.",
+      "doi": "10.1016/j.imavis.2009.11.001"
+    },
+    {
+      "text": "Gil Luria and Sara Rosenblum. 2010. Comparing the Handwriting Behaviours of True and False Writing with Computerized Handwriting Measures. In Applied Cognitive Psychology, issue 24. Department of Human Services, Haifa University, 1115\u20131128.",
+      "doi": ""
+    },
+    {
+      "text": "Rein Luus and THI Jaakola. 1973. Optimization by direct search and systematic reduction of the size of search region. AIChE Journal 19, 4 (1973), 760\u2013766.",
+      "doi": ""
+    },
+    {
+      "text": "Mehran Maghoumi and Joseph J\u00a0LaViola Jr.2018. DeepGRU: Deep Gesture Recognition Utility. CoRR abs/1810.1(2018). arxiv:1810.12514",
+      "doi": ""
+    },
+    {
+      "text": "D Mart\u00edn-Albo, R Plamondon, and E Vidal. 2015. Improving sigma-lognormal parameter extraction. In Document Analysis and Recognition (ICDAR), 2015 13th International Conference on. 286\u2013290.",
+      "doi": "10.1109/ICDAR.2015.7333769"
+    },
+    {
+      "text": "Miguel\u00a0A Nacenta, Yemliha Kamber, Yizhou. Qiang, and Per\u00a0Ola Kristensson. 2013. Memorability of pre-designed and user-defined gesture sets. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 1099\u20131108.",
+      "doi": "10.1145/2470654.2466142"
+    },
+    {
+      "text": "Corey Pittman, Pamela Wisniewski, Conner Brooks, and Joseph\u00a0J LaViola Jr. 2016. Multiwave: Doppler Effect Based Gesture Recognition in Multiple Dimensions. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems. ACM, 1729\u20131736.",
+      "doi": "10.1145/2851581.2892286"
+    },
+    {
+      "text": "Corey\u00a0R. Pittman, Eugene\u00a0M. Taranta II, and Joseph\u00a0J. LaViola Jr.2016. A $-family friendly approach to prototype selection. In International Conference on Intelligent User Interfaces, Proceedings IUI, Vol.\u00a007-10-Marc. https://doi.org/10.1145/2856767.2856808",
+      "doi": ""
+    },
+    {
+      "text": "R\u00e9jean Plamondon. 1995. A kinematic theory of rapid human movements. Biological cybernetics 72, 4 (1995), 295\u2013307.",
+      "doi": ""
+    },
+    {
+      "text": "J Reaver, T\u00a0F Stahovich, and J Herold. 2011. How to Make a Quick$: Using Hierarchical Clustering to Improve the Efficiency of the Dollar Recognizer. In Proceedings of the Eighth Eurographics Symposium on Sketch-Based Interfaces and Modeling(SBIM \u201911). ACM, New York, NY, USA, 103\u2013108.",
+      "doi": "10.1145/2021164.2021183"
+    },
+    {
+      "text": "Dean Rubine. 1991. Specifying Gestures by Example. SIGGRAPH Computer Graphics 25, 4 (jul 1991), 329\u2013337.",
+      "doi": "10.1145/127719.122753"
+    },
+    {
+      "text": "Eugene\u00a0M. Taranta, Corey\u00a0R. Pittman, Jack\u00a0P. Oakley, Mykola Maslych, Mehran Maghoumi, and Joseph\u00a0J. LaViola. 2020. Moving Toward an Ecologically Valid Data Collection Protocol for 2D Gestures In Video Games. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3313831.3376417",
+      "doi": "10.1145/3313831.3376417"
+    },
+    {
+      "text": "Eugene\u00a0M. Taranta II, Seng\u00a0Lee Koh, Brian\u00a0M. Williamson, Kevin\u00a0P. Pfeil, Corey\u00a0R. Pittman, and Joseph\u00a0J. LaViola Jr.2019. Pitch Pipe: An Automatic Low-pass Filter Calibration Technique for Pointing Tasks. In Proceedings of Graphics Interface 2019 (Kingston, Ontario) (GI 2019). Canadian Information Processing Society, 8\u00a0pages. https://doi.org/10.20380/GI2019.27",
+      "doi": ""
+    },
+    {
+      "text": "Eugene\u00a0M Taranta II, Mehran Maghoumi, Corey\u00a0R Pittman, and Joseph\u00a0J LaViola Jr.2016. A rapid prototyping approach to synthetic data generation for improved 2D gesture recognition. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology(UIST \u201916). ACM, ACM, New York, NY, USA, 873\u2013885. https://doi.org/10.1145/2984511.2984525",
+      "doi": ""
+    },
+    {
+      "text": "Eugene\u00a0M. Taranta\u00a0II, Corey\u00a0R. Pittman, Mehran Maghoumi, Mykola Maslych, Yasmine\u00a0M. Moolenaar, and Joseph\u00a0J. Laviola\u00a0Jr. 2021. Machete: Easy, Efficient, and Precise Continuous Custom Gesture Segmentation. ACM Transactions on Computer-Human Interaction 28, 1 (Jan. 2021), 5:1\u20135:46. https://doi.org/10.1145/3428068",
+      "doi": "10.1145/3428068"
+    },
+    {
+      "text": "Eugene\u00a0M Taranta II, Amirreza Samiei, Mehran Maghoumi, Pooya Khaloo, Corey\u00a0R Pittman, and Joseph\u00a0J LaViola Jr.2017. Jackknife: A Reliable Recognizer with Few Samples and Many Modalities. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). ACM, New York, NY, USA, 5850\u20135861. https://doi.org/10.1145/3025453.3026002",
+      "doi": ""
+    },
+    {
+      "text": "Eugene\u00a0M Taranta II, Thaddeus\u00a0K Simons, Rahul Sukthankar, and Joseph\u00a0J Laviola Jr.2015. Exploring the Benefits of Context in 3D Gesture Recognition for Game-Based Virtual Environments. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 1(2015), 1. https://doi.org/10.1145/2656345",
+      "doi": ""
+    },
+    {
+      "text": "Eugene\u00a0M Taranta II, Andr\u00e9s\u00a0N Vargas, and Joseph\u00a0J LaViola\u00a0Jr. 2016. Streamlined and accurate gesture recognition with Penny Pincher. Computers & Graphics 55(2016), 130\u2013142.",
+      "doi": "10.1016/j.cag.2015.10.011"
+    },
+    {
+      "text": "Luke Taylor and Geoff Nitschke. 2017. Improving Deep Learning using Generic Data Augmentation. arxiv:1708.06020\u00a0[cs.LG]",
+      "doi": ""
+    },
+    {
+      "text": "Jean Vanderdonckt, Paolo Roselli, and Jorge\u00a0Luis P\u00e9rez-Medina. 2018. !FTL, an Articulation-Invariant Stroke Gesture Recognizer with Controllable Position, Scale, and Rotation Invariances. In Proceedings of the 2018 on International Conference on Multimodal Interaction. ACM, 125\u2013134.",
+      "doi": "10.1145/3242969.3243032"
+    },
+    {
+      "text": "Radu-Daniel Vatavu. 2011. The Effect of Sampling Rate on the Performance of Template-based Gesture Recognizers. In Proceedings of the 13th International Conference on Multimodal Interfaces(ICMI \u201911). ACM, New York, NY, USA, 271\u2013278.",
+      "doi": "10.1145/2070481.2070531"
+    },
+    {
+      "text": "Radu-Daniel Vatavu. 2012. 1F: One Accessory Feature Design for Gesture Recognizers. In Proceedings of the 2012 ACM International Conference on Intelligent User Interfaces(IUI \u201912). ACM, New York, NY, USA, 297\u2013300.",
+      "doi": "10.1145/2166966.2167022"
+    },
+    {
+      "text": "Radu-Daniel Vatavu. 2013. The impact of motion dimensionality and bit cardinality on the design of 3D gesture recognizers. International Journal of Human-Computer Studies 71, 4 (2013), 387\u2013409.",
+      "doi": "10.1016/j.ijhcs.2012.11.005"
+    },
+    {
+      "text": "Radu-Daniel Vatavu. 2017. Improving Gesture Recognition Accuracy on Touch Screens for Users with Low Vision. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). ACM, New York, NY, USA, 4667\u20134679.",
+      "doi": "10.1145/3025453.3025941"
+    },
+    {
+      "text": "Radu-Daniel Vatavu, Lisa Anthony, and Jacob\u00a0O Wobbrock. 2012. Gestures As Point Clouds: A $P Recognizer for User Interface Prototypes. In Proceedings of the 14th ACM International Conference on Multimodal Interaction(ICMI \u201912). ACM, New York, NY, USA, 273\u2013280.",
+      "doi": "10.1145/2388676.2388732"
+    },
+    {
+      "text": "Radu-Daniel Vatavu, Lisa Anthony, and Jacob\u00a0O Wobbrock. 2013. Relative Accuracy Measures for Stroke Gestures. In Proceedings of the 15th ACM on International conference on multimodal interaction(ICMI \u201913). ACM, ACM, New York, NY, USA, 279\u2013286.",
+      "doi": "10.1145/2522848.2522875"
+    },
+    {
+      "text": "Radu-Daniel Vatavu, Lisa Anthony, and Jacob\u00a0O. Wobbrock. 2018. $Q: A Super-Quick, Articulation-Invariant Stroke-Gesture Recognizer for Low-Resource Devices. In Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services(MobileHCI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3229434.3229465",
+      "doi": "10.1145/3229434.3229465"
+    },
+    {
+      "text": "Jacob\u00a0O Wobbrock, Leah Findlater, Darren Gergle, and James\u00a0J Higgins. 2011. The Aligned Rank Transform for Nonparametric Factorial Analyses Using Only Anova Procedures. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201911). ACM, New York, NY, USA, 143\u2013146.",
+      "doi": "10.1145/1978942.1978963"
+    },
+    {
+      "text": "Jacob\u00a0O Wobbrock, Andrew\u00a0D Wilson, and Yang Li. 2007. Gestures Without Libraries, Toolkits or Training: A $1 Recognizer for User Interface Prototypes. In Proceedings of the 20th Annual ACM Symposium on User Interface Software and Technology(UIST \u201907). ACM, New York, NY, USA, 159\u2013168.",
+      "doi": "10.1145/1294211.1294238"
+    },
+    {
+      "text": "Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, and Yi Yang. 2020. Random Erasing Data Augmentation. Proceedings of the AAAI Conference on Artificial Intelligence 34, 07 (Apr. 2020), 13001\u201313008. https://doi.org/10.1609/aaai.v34i07.7000",
+      "doi": ""
+    }
+  ]
+}

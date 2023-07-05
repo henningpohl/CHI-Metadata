@@ -1,0 +1,442 @@
+{
+  "doi": "10.1145/3544548.3580922",
+  "title": "Disability-First Design and Creation of A Dataset Showing Private Visual Information Collected With People Who Are Blind",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2023,
+  "badges": [],
+  "abstract": "We present the design and creation of a disability-first dataset, \u201cBIV-Priv,\u201d which contains 728 images and 728 videos of 14 private categories captured by 26 blind participants to support downstream development of artificial intelligence (AI) models. While best practices in dataset creation typically attempt to eliminate private content, some applications require such content for model development. We describe our approach in creating this dataset with private content in an ethical way, including using props rather than participants\u2019 own private objects and balancing multi-disciplinary perspectives (e.g., accessibility, privacy, computer vision) to meet the tangible metrics (e.g., diversity, category, amount of content) to support AI innovations. We observed challenges that our participants encountered during the data collection, including accessibility issues (e.g., understanding foreground vs. background object placement) and issues due to the sensitive nature of the content (e.g., discomfort in capturing some props such as condoms around family members).",
+  "authors": [
+    {
+      "name": "Tanusree Sharma",
+      "institution": "Informatics, University of Illinois at Urbana Champaign, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659675010",
+      "orcid": "0000-0003-1523-163X"
+    },
+    {
+      "name": "Abigale Stangl",
+      "institution": "Human Centered Design and Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81502793279",
+      "orcid": "0000-0003-2761-1429"
+    },
+    {
+      "name": "Lotus Zhang",
+      "institution": "Human Centered Design and Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659529754",
+      "orcid": "0000-0002-6315-9970"
+    },
+    {
+      "name": "Yu-Yun Tseng",
+      "institution": "Department of Computer Science, University of Colorado, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660778385",
+      "orcid": "0000-0002-4223-0483"
+    },
+    {
+      "name": "Inan Xu",
+      "institution": "Department of Computer Science, University of California, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660781818",
+      "orcid": "0000-0003-1021-7636"
+    },
+    {
+      "name": "Leah Findlater",
+      "institution": "Human Centered Design and Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100170743",
+      "orcid": "0000-0002-5619-4452"
+    },
+    {
+      "name": "Danna Gurari",
+      "institution": "Computer Science Department, University of Colorado Boulder, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81550645756",
+      "orcid": "0000-0003-1306-0283"
+    },
+    {
+      "name": "Yang Wang",
+      "institution": "School of Information Sciences, University of Illinois at Urbana-Champaign, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659884725",
+      "orcid": "0000-0003-3641-8241"
+    }
+  ],
+  "references": [
+    {
+      "text": "[n. d.]. braille designer,\u201d. In http://luciahasty.com/index.html, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "[n. d.]. etsy. In https://www.etsy.com/, 2022, (Accessed on 01/08/2022.",
+      "doi": ""
+    },
+    {
+      "text": "[n. d.]. fakenumber.org,\u201d. In https://fakenumber.org/, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "[n. d.]. N. F. of the Blind, \u201cBlindness statistics,\u201d. In https://www.nfb.org/resources/blindness-statistics.",
+      "doi": ""
+    },
+    {
+      "text": "[n. d.]. PDFFiller,\u201d. In https://www.pdffiller.com/, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "[n. d.]. Photoshop,\u201d. In https://www.adobe.com/products/photoshop.html, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "[n. d.]. randomlist.com,\u201d. In https://www.randomlists.com/random-addresses, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "[n. d.]. VoiceOver. https://developer.apple.com/documentation/accessibility/supporting_voiceover_in_your_app",
+      "doi": ""
+    },
+    {
+      "text": "Dustin Adams, Sri Kurniawan, Cynthia Herrera, Veronica Kang, and Natalie Friedman. 2016. Blind photographers and VizSnap: A long-term study. In Proceedings of the 18th International ACM SIGACCESS Conference on Computers and Accessibility. 201\u2013208.",
+      "doi": "10.1145/2982142.2982169"
+    },
+    {
+      "text": "Dustin Adams, Lourdes Morales, and Sri Kurniawan. 2013. A Qualitative Study to Support a Blind Photography Mobile Application. In Proceedings of the 6th International Conference on PErvasive Technologies Related to Assistive Environments (Rhodes, Greece) (PETRA \u201913). Association for Computing Machinery, New York, NY, USA, Article 25, 8\u00a0pages. https://doi.org/10.1145/2504335.2504360",
+      "doi": "10.1145/2504335.2504360"
+    },
+    {
+      "text": "Dustin Adams, Lourdes Morales, and Sri Kurniawan. 2013. A qualitative study to support a blind photography mobile application. In Proceedings of the 6th International Conference on PErvasive Technologies Related to Assistive Environments. 1\u20138.",
+      "doi": "10.1145/2504335.2504360"
+    },
+    {
+      "text": "Mohammad Al-Rubaie and J\u00a0Morris Chang. 2019. Privacy-preserving machine learning: Threats and solutions. IEEE Security & Privacy 17, 2 (2019), 49\u201358.",
+      "doi": ""
+    },
+    {
+      "text": "Zhen Liu Irfan\u00a0Essa Amirreza\u00a0Shaban, Shray\u00a0Bansal and Byron Boots. 2017. One-Shot Learning for Semantic Segmentation. In Proceedings of the British Machine Vision Conference (BMVC). Article 167, 13\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Karla Badillo-Urquiola, Yaxing Yao, Oshrat Ayalon, Bart Knijnenurg, Xinru Page, Eran Toch, Yang Wang, and Pamela\u00a0J Wisniewski. 2018. Privacy in Context: Critically Engaging with theory to guide privacy research and design. In Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing. 425\u2013431.",
+      "doi": "10.1145/3272973.3273012"
+    },
+    {
+      "text": "Jeffrey\u00a0P Bigham and Patrick Carrington. 2018. Learning from the front: People with disabilities as early adopters of AI. Proceedings of the 2018 HCIC Human-Computer Interaction Consortium (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0P Bigham, Chandrika Jayant, Andrew Miller, Brandyn White, and Tom Yeh. 2010. VizWiz:: LocateIt-enabling blind people to locate objects in their environment. In 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition-Workshops. IEEE, 65\u201372.",
+      "doi": ""
+    },
+    {
+      "text": "Abeba Birhane and Vinay\u00a0Uday Prabhu. 2021. Large image datasets: A pyrrhic win for computer vision?. In 2021 IEEE Winter Conference on Applications of Computer Vision (WACV). IEEE, 1536\u20131546.",
+      "doi": ""
+    },
+    {
+      "text": "Abagayle\u00a0Lee Blank. 2019. Computer vision machine learning and future-oriented ethics. (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Tai-Yin Chiu, Yinan Zhao, and Danna Gurari. 2020. Assessing image quality issues for real-world problems. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 3646\u20133656.",
+      "doi": ""
+    },
+    {
+      "text": "Kate Crawford and Trevor Paglen. 2019. Excavating AI : The politics of training sets for machine learning. https://www.excavating.ai",
+      "doi": ""
+    },
+    {
+      "text": "Saikat Dutta. 2021. Depth-aware blending of smoothed images for Bokeh effect generation. Journal of Visual Communication and Image Representation 77 (2021), 103089. https://doi.org/10.1016/j.jvcir.2021.103089",
+      "doi": ""
+    },
+    {
+      "text": "Mark Everingham, Luc\u00a0Van Gool, C.\u00a0K.\u00a0I. Williams, J. Winn, and Andrew Zisserman. 2010. The PASCAL Visual Object Classes (VOC) challenge.",
+      "doi": ""
+    },
+    {
+      "text": "Qi Fan, Wei Zhuo, Chi-Keung Tang, and Yu-Wing Tai. 2020. Few-Shot Object Detection with Attention-RPN and Multi-Relation Detector. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer Fereday and Eimear Muir-Cochrane. 2006. Demonstrating rigor using thematic analysis: A hybrid approach of inductive and deductive coding and theme development. International journal of qualitative methods 5, 1 (2006), 80\u201392.",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Frome, German Cheung, Ahmad Abdulkader, Marco Zennaro, Bo Wu, Alessandro Bissacco, Hartwig Adam, Hartmut Neven, and Luc Vincent. 2009. Large-scale privacy protection in google street view. In 2009 IEEE 12th international conference on computer vision. IEEE, 2373\u20132380.",
+      "doi": ""
+    },
+    {
+      "text": "Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer\u00a0Wortman Vaughan, Hanna Wallach, Hal\u00a0Daum\u00e9 III, and Kate Crawford. 2021. Datasheets for Datasets. Commun. ACM 64, 12 (nov 2021), 86\u201392. https://doi.org/10.1145/3458723",
+      "doi": "10.1145/3458723"
+    },
+    {
+      "text": "Leandro\u00a0Soares Guedes, Luiz\u00a0Andr\u00e9 Marques, and Gabriellen Vit\u00f3rio. 2020. Enhancing interaction and accessibility in museums and exhibitions with Augmented Reality and Screen Readers. In International Conference on Computers Helping People with Special Needs. Springer, 157\u2013163.",
+      "doi": "10.1007/978-3-030-58796-3_20"
+    },
+    {
+      "text": "Anhong Guo, Ece Kamar, Jennifer\u00a0Wortman Vaughan, Hanna Wallach, and Meredith\u00a0Ringel Morris. 2020. Toward fairness in AI for people with disabilities SBG@ a research roadmap. ACM SIGACCESS Accessibility and Computing125 (2020), 1\u20131.",
+      "doi": ""
+    },
+    {
+      "text": "Danna Gurari, Qing Li, Chi Lin, Yinan Zhao, Anhong Guo, Abigale Stangl, and Jeffrey\u00a0P Bigham. 2019. Vizwiz-priv: A dataset for recognizing the presence and purpose of private visual information in images taken by blind people. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 939\u2013948.",
+      "doi": ""
+    },
+    {
+      "text": "Danna Gurari, Qing Li, Abigale\u00a0J Stangl, Anhong Guo, Chi Lin, Kristen Grauman, Jiebo Luo, and Jeffrey\u00a0P Bigham. 2018. Vizwiz grand challenge: Answering visual questions from blind people. In Proceedings of the IEEE conference on computer vision and pattern recognition. 3608\u20133617.",
+      "doi": ""
+    },
+    {
+      "text": "Adam Harvey and Jules LaPlace. 2021. Exposing A. https://www.excavating.ai",
+      "doi": ""
+    },
+    {
+      "text": "Annette Haworth and Peter Williams. 2012. Using QR codes to aid accessibility in a museum. Journal of Assistive Technologies(2012).",
+      "doi": ""
+    },
+    {
+      "text": "Chandrika Jayant, Hanjie Ji, Samuel White, and Jeffrey\u00a0P. Bigham. 2011. Supporting Blind Photography. In The Proceedings of the 13th International ACM SIGACCESS Conference on Computers and Accessibility (Dundee, Scotland, UK) (ASSETS \u201911). Association for Computing Machinery, New York, NY, USA, 203\u2013210. https://doi.org/10.1145/2049536.2049573",
+      "doi": "10.1145/2049536.2049573"
+    },
+    {
+      "text": "Chandrika Jayant, Hanjie Ji, Samuel White, and Jeffrey\u00a0P Bigham. 2011. Supporting blind photography. In The proceedings of the 13th international ACM SIGACCESS conference on Computers and accessibility. 203\u2013210.",
+      "doi": "10.1145/2049536.2049573"
+    },
+    {
+      "text": "Hernisa Kacorri, Utkarsh Dwivedi, Sravya Amancherla, Mayanka Jha, and Riya Chanduka. 2020. IncluSet: A data surfacing repository for accessibility datasets. In The 22nd International ACM SIGACCESS Conference on Computers and Accessibility. 1\u20134.",
+      "doi": "10.1145/3373625.3418026"
+    },
+    {
+      "text": "Amlan Kar, Nishant Rai, Karan Sikka, and Gaurav Sharma. 2017. Adascan: Adaptive scan pooling in deep convolutional neural networks for human action recognition in videos. In Proceedings of the IEEE conference on computer vision and pattern recognition. 3376\u20133385.",
+      "doi": ""
+    },
+    {
+      "text": "Nicolas Kaufmann, Thimo Schulze, and Daniel Veit. 2011. More than fun and money. worker motivation in crowdsourcing\u2013a study on mechanical turk. (2011).",
+      "doi": ""
+    },
+    {
+      "text": "Alfred Kobsa, Sameer Patil, and Bertolt Meyer. 2012. Privacy in instant messaging: An impression management model. Behaviour & Information Technology 31, 4 (2012), 355\u2013370.",
+      "doi": "10.1080/01449291003611326"
+    },
+    {
+      "text": "Pavel Korshunov and Touradj Ebrahimi. 2013. PEViD: privacy evaluation video dataset. In Applications of Digital Image Processing XXXVI, Vol.\u00a08856. SPIE, 578\u2013586.",
+      "doi": ""
+    },
+    {
+      "text": "Aditya Kuppa, Lamine Aouad, and Nhien-An Le-Khac. 2021. Towards improving privacy of synthetic datasets. In Annual Privacy Forum. Springer, 106\u2013119.",
+      "doi": ""
+    },
+    {
+      "text": "Alina Kuznetsova, Hassan Rom, Neil Alldrin, Jasper Uijlings, Ivan Krasin, Jordi Pont-Tuset, Shahab Kamali, Stefan Popov, Matteo Malloci, Alexander Kolesnikov, 2020. The open images dataset v4. International Journal of Computer Vision 128, 7 (2020), 1956\u20131981.",
+      "doi": ""
+    },
+    {
+      "text": "Kyungjun Lee and Hernisa Kacorri. 2019. Hands holding clues for object recognition in teachable machines. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300566"
+    },
+    {
+      "text": "Xiang Li, Tianhan Wei, Yau\u00a0Pun Chen, Yu-Wing Tai, and Chi-Keung Tang. 2020. FSS-1000: A 1000-Class Dataset for Few-Shot Segmentation. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Yifang Li, Nishant Vishwamitra, Hongxin Hu, and Kelly Caine. 2020. Towards a taxonomy of content sensitivity and sharing preferences for photos. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376498"
+    },
+    {
+      "text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Doll\u00e1r, and C\u00a0Lawrence Zitnick. 2014. Microsoft coco: Common objects in context. In European conference on computer vision. Springer, 740\u2013755.",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra\u00a0Sasha Luccioni, Frances Corry, Hamsini Sridharan, Mike Ananny, Jason Schultz, and Kate Crawford. 2022. A Framework for Deprecating Datasets: Standardizing Documentation, Identification, and Communication. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 199\u2013212. https://doi.org/10.1145/3531146.3533086",
+      "doi": "10.1145/3531146.3533086"
+    },
+    {
+      "text": "Giancarlo Manzi and Martin Forster. 2019. Biases in bias elicitation. Communications in Statistics-Theory and Methods 48, 18 (2019), 4656\u20134674.",
+      "doi": ""
+    },
+    {
+      "text": "Daniela Massiceti, Luisa Zintgraf, John Bronskill, Lida Theodorou, Matthew\u00a0Tobias Harris, Edward Cutrell, Cecily Morrison, Katja Hofmann, and Simone Stumpf. 2021. Orbit: A real-world few-shot dataset for teachable object recognition. In Proceedings of the IEEE/CVF International Conference on Computer Vision. 10818\u201310828.",
+      "doi": ""
+    },
+    {
+      "text": "Ninareh Mehrabi, Fred Morstatter, Nripsuta Saxena, Kristina Lerman, and Aram Galstyan. 2021. A survey on bias and fairness in machine learning. ACM Computing Surveys (CSUR) 54, 6 (2021), 1\u201335.",
+      "doi": "10.1145/3457607"
+    },
+    {
+      "text": "Claudio Michaelis, Ivan Ustyuzhaninov, Matthias Bethge, and Alexander\u00a0S. Ecker. 2018. One-Shot Instance Segmentation. ArXiv (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Meredith\u00a0Ringel Morris. 2020. AI and Accessibility. Commun. ACM 63, 6 (may 2020), 35\u201337. https://doi.org/10.1145/3356727",
+      "doi": "10.1145/3356727"
+    },
+    {
+      "text": "Khoi Duc\u00a0Minh Nguyen and Sinisa Todorovic. 2019. Feature Weighting and Boosting for Few-Shot Segmentation. 2019 IEEE/CVF International Conference on Computer Vision (ICCV) (2019), 622\u2013631.",
+      "doi": ""
+    },
+    {
+      "text": "Helen Nissenbaum. 2004. Privacy as contextual integrity. Wash. L. Rev. 79(2004), 119.",
+      "doi": ""
+    },
+    {
+      "text": "Helen Nissenbaum. 2020. Protecting privacy in an information age: The problem of privacy in public. In The Ethics of Information Technologies. Routledge, 141\u2013178.",
+      "doi": ""
+    },
+    {
+      "text": "Curtis\u00a0G Northcutt, Anish Athalye, and Jonas Mueller. 2021. Pervasive label errors in test sets destabilize machine learning benchmarks. arXiv preprint arXiv:2103.14749(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Tribhuvanesh Orekondy, Mario Fritz, and Bernt Schiele. 2018. Connecting pixels to privacy and utility: Automatic redaction of private information in images. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 8466\u20138475.",
+      "doi": ""
+    },
+    {
+      "text": "Tribhuvanesh Orekondy, Bernt Schiele, and Mario Fritz. 2017. Towards a visual privacy advisor: Understanding and predicting privacy risks in images. In Proceedings of the IEEE international conference on computer vision. 3686\u20133695.",
+      "doi": ""
+    },
+    {
+      "text": "Joon\u00a0Sung Park, Danielle Bragg, Ece Kamar, and Meredith\u00a0Ringel Morris. 2021. Designing an online infrastructure for collecting AI data from people with disabilities. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency. 52\u201363.",
+      "doi": "10.1145/3442188.3445870"
+    },
+    {
+      "text": "Donatella Pascolini and Silvio\u00a0Paolo Mariotti. 2012. Global estimates of visual impairment: 2010. British Journal of Ophthalmology 96, 5 (2012), 614\u2013618.",
+      "doi": ""
+    },
+    {
+      "text": "Arpita Patra and Ajith Suresh. 2020. BLAZE: Blazing Fast Privacy-Preserving Machine Learning. https://doi.org/10.14722/ndss.2020.24202",
+      "doi": ""
+    },
+    {
+      "text": "Haoyue Ping, Julia Stoyanovich, and Bill Howe. 2017. DataSynthesizer: Privacy-Preserving Synthetic Datasets. In Proceedings of the 29th International Conference on Scientific and Statistical Database Management (Chicago, IL, USA) (SSDBM \u201917). Association for Computing Machinery, New York, NY, USA, Article 42, 5\u00a0pages. https://doi.org/10.1145/3085504.3091117",
+      "doi": "10.1145/3085504.3091117"
+    },
+    {
+      "text": "J Qi, Y Gao, Y Hu, X Wang, X Liu, X Bai, S Belongie, A Yuille, P Torr, and S Bai. 2021. Occluded video instance segmentation: dataset and challenge. NeurIPS.",
+      "doi": ""
+    },
+    {
+      "text": "Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, 2015. Imagenet large scale visual recognition challenge. International journal of computer vision 115, 3 (2015), 211\u2013252.",
+      "doi": "10.1007/s11263-015-0816-y"
+    },
+    {
+      "text": "Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander\u00a0C. Berg, and Li Fei-Fei. 2015. ImageNet Large Scale Visual Recognition Challenge. arXiv:1409.0575 [cs] (Jan. 2015). http://arxiv.org/abs/1409.0575 arXiv:1409.0575.",
+      "doi": ""
+    },
+    {
+      "text": "Nithya Sambasivan, Shivani Kapania, Hannah Highfill, Diana Akrong, Praveen Paritosh, and Lora\u00a0M Aroyo. 2021. \u201cEveryone Wants to Do the Model Work, Not the Data Work\u201d: Data Cascades in High-Stakes AI. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 39, 15\u00a0pages. https://doi.org/10.1145/3411764.3445518",
+      "doi": "10.1145/3411764.3445518"
+    },
+    {
+      "text": "Morgan\u00a0Klaus Scheuerman, Kandrea Wade, Caitlin Lustig, and Jed\u00a0R Brubaker. 2020. How we\u2019ve taught algorithms to see identity: Constructing race and gender in image databases for facial analysis. Proceedings of the ACM on Human-computer Interaction 4, CSCW1(2020), 1\u201335.",
+      "doi": "10.1145/3392866"
+    },
+    {
+      "text": "Amirreza Shaban, Shray Bansal, Zhen Liu, Irfan Essa, and Byron Boots. 2017. One-shot learning for semantic segmentation. arXiv preprint arXiv:1709.03410(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Rachel\u00a0N Simons, Danna Gurari, and Kenneth\u00a0R Fleischmann. 2020. \" I Hope This Is Helpful\" Understanding Crowdworkers\u2019 Challenges and Motivations for an Image Description Task. Proceedings of the ACM on Human-Computer Interaction 4, CSCW2(2020), 1\u201326.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0J Solove. 2005. A taxonomy of privacy. U. Pa. l. Rev. 154(2005), 477.",
+      "doi": ""
+    },
+    {
+      "text": "Eleftherios Spyromitros-Xioufis, Symeon Papadopoulos, Adrian Popescu, and Yiannis Kompatsiaris. 2016. Personalized privacy-aware image classification. In Proceedings of the 2016 ACM on international conference on multimedia retrieval. 71\u201378.",
+      "doi": "10.1145/2911996.2912018"
+    },
+    {
+      "text": "Theresa Stadler, Bristena Oprisanu, and Carmela Troncoso. 2022. Synthetic data\u2013anonymisation groundhog day. In 31st USENIX Security Symposium (USENIX Security 22). 1451\u20131468.",
+      "doi": ""
+    },
+    {
+      "text": "Abigale Stangl, Kristina Shiroma, Nathan Davis, Bo Xie, Kenneth\u00a0R Fleischmann, Leah Findlater, and Danna Gurari. 2022. Privacy Concerns for Visual Assistance Technologies. ACM Transactions on Accessible Computing (TACCESS) 15, 2 (2022), 1\u201343.",
+      "doi": "10.1145/3517384"
+    },
+    {
+      "text": "Abigale Stangl, Kristina Shiroma, Bo Xie, Kenneth\u00a0R Fleischmann, and Danna Gurari. 2020. Visual content considered private by people who are blind. In The 22nd International ACM SIGACCESS Conference on Computers and Accessibility. 1\u201312.",
+      "doi": "10.1145/3373625.3417014"
+    },
+    {
+      "text": "Harini Suresh and John Guttag. 2021. A Framework for Understanding Sources of Harm throughout the Machine Learning Life Cycle. In Equity and Access in Algorithms, Mechanisms, and Optimization (\u2013, NY, USA) (EAAMO \u201921). Association for Computing Machinery, New York, NY, USA, Article 17, 9\u00a0pages. https://doi.org/10.1145/3465416.3483305",
+      "doi": "10.1145/3465416.3483305"
+    },
+    {
+      "text": "Lida Theodorou, Daniela Massiceti, Luisa Zintgraf, Simone Stumpf, Cecily Morrison, Edward Cutrell, Matthew\u00a0Tobias Harris, and Katja Hofmann. 2021. Disability-first Dataset Creation: Lessons from Constructing a Dataset for Teachable Object Recognition with Blind and Low Vision Data Collectors. In The 23rd International ACM SIGACCESS Conference on Computers and Accessibility. 1\u201312.",
+      "doi": "10.1145/3441852.3471225"
+    },
+    {
+      "text": "Shari Trewin, Sara Basson, Michael Muller, Stacy Branham, Jutta Treviranus, Daniel Gruen, Daniel Hebert, Natalia Lyckowski, and Erich Manser. 2019. Considerations for AI fairness for people with disabilities. AI Matters 5, 3 (2019), 40\u201363.",
+      "doi": "10.1145/3362077.3362086"
+    },
+    {
+      "text": "Yu-Yun Tseng, Alexander Bell, and Danna Gurari. [n. d.]. VizWiz-FewShot: Locating Objects in Images Taken by People With Visual Impairments.",
+      "doi": ""
+    },
+    {
+      "text": "Sonja Utz and Nicole Kr\u00e4mer. 2009. The privacy paradox on social network sites revisited: The role of individual characteristics and group norms. Cyberpsychology: Journal of psychosocial research on cyberspace 3, 2(2009), 2.",
+      "doi": ""
+    },
+    {
+      "text": "Marynel V\u00e1zquez and Aaron Steinfeld. 2012. Helping visually impaired users properly aim a camera. In Proceedings of the 14th international ACM SIGACCESS conference on Computers and accessibility. 95\u2013102.",
+      "doi": "10.1145/2384916.2384934"
+    },
+    {
+      "text": "Marynel V\u00e1zquez and Aaron Steinfeld. 2014. An assisted photography framework to help visually impaired users properly aim a camera. ACM Transactions on Computer-Human Interaction (TOCHI) 21, 5(2014), 1\u201329.",
+      "doi": "10.1145/2651380"
+    },
+    {
+      "text": "James Vincent. [n. d.]. Transgender YouTubers had their videos grabbed to train facial recognition software. The Verge ([n. d.]). https://www.theverge.com/2017/8/22/16180080/transgender-youtubers-ai-facial-recognition-dataset",
+      "doi": ""
+    },
+    {
+      "text": "Jessica Vitak. 2015. Balancing privacy concerns and impression management strategies on Facebook. In Symposium on usable privacy and security (SOUPS). 22\u201324.",
+      "doi": ""
+    },
+    {
+      "text": "Karl\u00a0R White. 1982. The relation between socioeconomic status and academic achievement.Psychological bulletin 91, 3 (1982), 461.",
+      "doi": ""
+    },
+    {
+      "text": "Meredith Whittaker, Meryl Alper, Cynthia\u00a0L Bennett, Sara Hendren, Liz Kaziunas, Mara Mills, Meredith\u00a0Ringel Morris, Joy Rankin, Emily Rogers, Marcel Salas, 2019. Disability, bias, and AI. AI Now Institute (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Shaomei Wu, Jeffrey Wieland, Omid Farivar, and Julie Schiller. 2017. Automatic alt-text: Computer-generated image descriptions for blind users on a social network service. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing. 1180\u20131192.",
+      "doi": "10.1145/2998181.2998364"
+    },
+    {
+      "text": "Runhua Xu, Nathalie Baracaldo, and James Joshi. 2021. Privacy-Preserving Machine Learning: Methods, Challenges and Directions. (08 2021).",
+      "doi": ""
+    },
+    {
+      "text": "Linjie Yang, Yuchen Fan, and Ning Xu. 2019. Video Instance Segmentation. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV).",
+      "doi": ""
+    },
+    {
+      "text": "Qian Yang, Aaron Steinfeld, Carolyn Ros\u00e9, and John Zimmerman. 2020. Re-examining whether, why, and how human-AI interaction is uniquely difficult to design. In Proceedings of the 2020 chi conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376301"
+    },
+    {
+      "text": "Fisher Yu, Ari Seff, Yinda Zhang, Shuran Song, Thomas Funkhouser, and Jianxiong Xiao. 2015. Lsun: Construction of a large-scale image dataset using deep learning with humans in the loop. arXiv preprint arXiv:1506.03365(2015).",
+      "doi": ""
+    },
+    {
+      "text": "Sergej Zerr, Stefan Siersdorfer, Jonathon Hare, and Elena Demidova. 2012. Privacy-aware image classification and search. In Proceedings of the 35th international ACM SIGIR conference on Research and development in information retrieval. 35\u201344.",
+      "doi": "10.1145/2348283.2348292"
+    },
+    {
+      "text": "Yu Zhong, Pierre\u00a0J Garrigues, and Jeffrey\u00a0P Bigham. 2013. Real time object scanning using a mobile phone and cloud-based visual search engine. In Proceedings of the 15th International ACM SIGACCESS Conference on Computers and Accessibility. 1\u20138.",
+      "doi": "10.1145/2513383.2513443"
+    },
+    {
+      "text": "Jizhe Zhou, Chi-Man Pun, and Yu Tong. 2020. Privacy-sensitive objects pixelation for live video streaming. In Proceedings of the 28th ACM International Conference on Multimedia. 3025\u20133033.",
+      "doi": "10.1145/3394171.3413972"
+    },
+    {
+      "text": "John Zimmerman, Jodi Forlizzi, and Shelley Evenson. 2007. Research through design as a method for interaction design research in HCI. In Proceedings of the SIGCHI conference on Human factors in computing systems. 493\u2013502.",
+      "doi": "10.1145/1240624.1240704"
+    }
+  ]
+}

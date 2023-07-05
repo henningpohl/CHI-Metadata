@@ -1,0 +1,202 @@
+{
+  "doi": "10.1145/3411764.3445466",
+  "title": "FastForce: Real-Time Reinforcement of Laser-Cut Structures",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-12",
+  "year": 2021,
+  "badges": [],
+  "abstract": "We present fastForce, a software tool that detects structural flaws in laser cut 3D models and fixes them by introducing additional plates into the model, thereby making models up to 52x stronger. By focusing on a specific type of structural issue, i.e., poorly connected sub-structures in closed box structures, fastForce achieves real-time performance (106x faster than finite element analysis, in the specific case of the wheelbarrow from Figure 1). This allows fastForce to fix structural issues continuously in the background, while users stay focused on editing their models and without ever becoming aware of any structural issues. In our study, six of seven participants inadvertently introduced severe structural flaws into the guitar stands they designed. Similarly, we found 286 of 402 relevant models in the kyub [1] model library to contain such flaws. We integrated fastForce into a 3D editor for lasercutting (kyub) and found that even with high plate counts fastForce achieves real-time performance.",
+  "authors": [
+    {
+      "name": "Muhammad Abdullah",
+      "institution": "Hasso Plattner Institute, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700531",
+      "orcid": "0000-0002-5057-477X"
+    },
+    {
+      "name": "Martin Taraz",
+      "institution": "Hasso Plattner Institute, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701759",
+      "orcid": "0000-0002-6655-9427"
+    },
+    {
+      "name": "Yannis Kommana",
+      "institution": "Hasso Plattner Institute, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659162825",
+      "orcid": "missing"
+    },
+    {
+      "name": "Shohei Katakura",
+      "institution": "Hasso Plattner Institute, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659261057",
+      "orcid": "0000-0002-4511-6619"
+    },
+    {
+      "name": "Robert Kovacs",
+      "institution": "Human Computer Interaction Lab Hasso Plattner Institute, Germany",
+      "img": "/do/10.1145/contrib-99658696163/rel-imgonly/robert_kovacs.jpg",
+      "acmid": "99658696163",
+      "orcid": "0000-0002-9427-2861"
+    },
+    {
+      "name": "Jotaro Shigeyama",
+      "institution": "Hasso Plattner Institute, Germany",
+      "img": "/do/10.1145/contrib-99659226640/rel-imgonly/screenshot2018-10-1517.09.08.png",
+      "acmid": "99659226640",
+      "orcid": "missing"
+    },
+    {
+      "name": "Thijs Roumen",
+      "institution": "Hasso Plattner Institute, Germany",
+      "img": "/do/10.1145/contrib-99658700053/rel-imgonly/44627890994_233b53923c_o.jpg",
+      "acmid": "99658700053",
+      "orcid": "missing"
+    },
+    {
+      "name": "Patrick Baudisch",
+      "institution": "Hasso Plattner Institute, Germany",
+      "img": "/do/10.1145/contrib-81100137268/rel-imgonly/15g9310crop3.jpg",
+      "acmid": "81100137268",
+      "orcid": "0000-0002-5005-6868"
+    }
+  ],
+  "references": [
+    {
+      "text": "Patrick Baudisch, Arthur Silber, Yannis Kommana, Milan Gruner, Ludwig Wall, Kevin Reuss, Lukas Heilman, Robert Kovacs, Daniel Rechlitz, and Thijs Roumen. 2019. Kyub: A 3D Editor for Modeling Sturdy Laser-Cut Objects. In\u00a0Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems\u00a0(CHI '19). ACM, New York, NY, USA, Paper 566, 12 pages. DOI: https://doi.org/10.1145/3290605.3300796",
+      "doi": "10.1145/3290605.3300796"
+    },
+    {
+      "text": "Dustin Beyer, Serafima Gurevich, Stefanie Mueller, Hsiang-Ting Chen, and Patrick Baudisch. 2015. Platener: Low-Fidelity Fabrication of 3D Objects by Substituting 3D Print with Laser-Cut Plates. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI \u201915). Association for Computing Machinery, New York, NY,USA,\u00a01799\u20131806. DOI: https://doi.org/10.1145/2702123.2702225",
+      "doi": "10.1145/2702123.2702225"
+    },
+    {
+      "text": "Ren\u00e9 de Borst, Mike A. Crisfield, Joris JC Remmers, and Clemens V. Verhoosel.\u00a0Nonlinear finite element analysis of solids and structures. John Wiley & Sons, 2012.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Breu\u00df, Johannes Buhl, Ashkan Mansouri Yarahmadi, Markus Bambach, and Pascal Peter. \"A Simple Approach to Stiffness Enhancement of a Printable Shape by Hamilton-Jacobi Skeletonization.\" Procedia Manufacturing 47 (2020): 1190-1196.",
+      "doi": ""
+    },
+    {
+      "text": "Subramanian Chidambaram, Yunbo Zhang, Venkatraghavan Sundararajan, Niklas Elmqvist, and Karthik Ramani. 2019. Shape Structuralizer: Design, Fabrication, and User-driven Iterative Refinement of 3D Mesh Models. In\u00a0Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems\u00a0(CHI '19). ACM, New York, NY, USA, Paper 663, 12 pages. DOI: https://doi.org/10.1145/3290605.3300893",
+      "doi": "10.1145/3290605.3300893"
+    },
+    {
+      "text": "Stelian Coros, Bernhard Thomaszewski, Gioacchino Noris, Shinjiro Sueda, Moira Forberg, Robert W. Sumner, Wojciech Matusik, and Bernd Bickel. 2013. Computational design of mechanical characters. ACM Trans. Graph. 32, 4, Article 83 (July\u00a02013),\u00a012\u00a0pages. DOI: https://doi.org/10.1145/2461912.2461953",
+      "doi": "10.1145/2461912.2461953"
+    },
+    {
+      "text": "Chi-Wing Fu, Peng Song, Xiaoqi Yan, Lee Wei Yang, Pradeep Kumar Jayaraman, and Daniel Cohen-Or. 2015. Computational interlocking furniture assembly.\u00a0ACM Trans. Graph.\u00a034, 4, Article 91 (July 2015), 11 pages. DOI: https://doi.org/10.1145/2766892",
+      "doi": "10.1145/2766892"
+    },
+    {
+      "text": "Carsten Gutwenger, and Petra Mutzel. \"A linear time implementation of SPQR-trees.\" In International Symposium on Graph Drawing, pp. 77-90. Springer, Berlin, Heidelberg, 2000.",
+      "doi": ""
+    },
+    {
+      "text": "Florian Heller, Jan Thar, Dennis Lewandowski, Mirko Hartmann, Pierre Schoonbrood, Sophy St\u00f6nner, Simon Voelker, and Jan Borchers. 2018. CutCAD - An Open-source Tool to Design 3D Objects in 2D. In Proceedings of the 2018 Designing Interactive Systems Conference (DIS \u201918). Association for Computing Machinery, New York, NY, USA, 1135\u20131139. DOI: https://doi.org/10.1145/3196709.3196800",
+      "doi": "10.1145/3196709.3196800"
+    },
+    {
+      "text": "Robert Kovacs, Anna Seufert, Ludwig Wall, Hsiang-Ting Chen, Florian Meinel, Willi M\u00fcller, Sijing You, Maximilian Brehm, Jonathan Striebel, Yannis Kommana, Alexander Popiak, Thomas Bl\u00e4sius, and Patrick Baudisch. 2017. TrussFab: Fabricating Sturdy Large-Scale Structures on Desktop 3D Printers. In\u00a0Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems\u00a0(CHI '17). ACM, New York, NY, USA, 2606-2616. DOI: https://doi.org/10.1145/3025453.3026016",
+      "doi": "10.1145/3025453.3026016"
+    },
+    {
+      "text": "Timothy Langlois, Ariel Shamir, Daniel Dror, Wojciech Matusik, and David I. W. Levin. 2016. Stochastic structural analysis for context-aware design and fabrication.\u00a0ACM Trans. Graph.\u00a035, 6, Article 226 (November 2016), 13 pages. DOI: https://doi.org/10.1145/2980179.2982436",
+      "doi": "10.1145/2980179.2982436"
+    },
+    {
+      "text": "Li-Chu Lin. \"The adaptability of two-by-four wood framing construction.\" In Adaptables2006: International Conference On Adaptable Building Structures. 2006.",
+      "doi": ""
+    },
+    {
+      "text": "Lin Lu, Andrei Sharf, Haisen Zhao, Yuan Wei, Qingnan Fan, Xuelin Chen, Yann Savoye, Changhe Tu, Daniel Cohen-Or, and Baoquan Chen. 2014. Build-to-last: strength to weight 3D printed objects.\u00a0ACM Trans. Graph.\u00a033, 4, Article 97 (July 2014), 10 pages. DOI: https://doi.org/10.1145/2601097.2601168",
+      "doi": "10.1145/2601097.2601168"
+    },
+    {
+      "text": "Linjie Luo, Ilya Baran, Szymon Rusinkiewicz, and Wojciech Matusik. 2012. Chopper: partitioning models into 3D-printable parts.\u00a0ACM Trans. Graph.31, 6, Article 129 (November 2012), 9 pages. DOI: https://doi.org/10.1145/2366145.2366148",
+      "doi": "10.1145/2366145.2366148"
+    },
+    {
+      "text": "Michael Makris, David Gerber, Anders Carlson, and Doug Noble. \"Informing design through parametric integrated structural simulation: iterative structural feedback for design decision support of complex trusses.\" (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Dan B. Marghitu,\u00a0Mechanical engineer's handbook. Elsevier, Chapter 3: Stress, 120\u2013147, 2001.",
+      "doi": ""
+    },
+    {
+      "text": "James McCrae, Nobuyuki Umetani, and Karan Singh. 2014. FlatFitFab: interactive modeling with planar sections. In Proceedings of the 27th annual ACM symposium on User interface software and technology (UIST \u201914). Association for Computing Machinery, New York, NY, USA, 13\u201322. DOI: https://doi.org/10.1145/2642918.2647388",
+      "doi": "10.1145/2642918.2647388"
+    },
+    {
+      "text": "Ansys Mechanical, https://www.ansys.com/products/structures, last accessed September 2020.",
+      "doi": ""
+    },
+    {
+      "text": "Stefanie Mueller, Pedro Lopes, and Patrick Baudisch. 2012. Interactive construction: interactive fabrication of functional mechanical devices. In Proceedings of the 25th annual ACM symposium on User interface software and technology (UIST \u201912). Association for Computing Machinery, New York, NY, USA,599\u2013606. DOI: https://doi.org/10.1145/2380116.2380191",
+      "doi": "10.1145/2380116.2380191"
+    },
+    {
+      "text": "Lawrence Sass, and Marcel Botha. \"The instant house: a model of design production with digital fabrication.\"\u00a0International Journal of Architectural Computing\u00a04, no. 4 (2006): 109-123.",
+      "doi": ""
+    },
+    {
+      "text": "Seyed Mohammad Sajadi, Peter Samora Owuor, Robert Vajtai, Jun Lou, Ravi Sastri Ayyagari, Chandra Sekhar Tiwary, and Pulickel M. Ajayan. \"Boxception: Impact Resistance Structure Using 3D Printing.\"\u00a0Advanced Engineering Materials(2019): 1900167.",
+      "doi": ""
+    },
+    {
+      "text": "Greg Saul, Manfred Lau, Jun Mitani, and Takeo Igarashi. 2010. SketchChair: an all-in-one chair design system for end users. In\u00a0Proceedings of the fifth international conference on Tangible, embedded, and embodied interaction\u00a0(TEI '11). ACM, New York, NY, USA, 73-80. DOI= http://dx.doi.org/10.1145/1935701.1935717",
+      "doi": "10.1145/1935701.1935717"
+    },
+    {
+      "text": "Adriana Schulz, Jie Xu, Bo Zhu, Changxi Zheng, Eitan Grinspun, and Wojciech Matusik. 2017. Interactive design space exploration and optimization for CAD models.\u00a0ACM Trans. Graph.\u00a036, 4, Article 157 (July 2017), 14 pages. DOI: https://doi.org/10.1145/3072959.3073688",
+      "doi": "10.1145/3072959.3073688"
+    },
+    {
+      "text": "Christian Schumacher, Jonas Zehnder, and Moritz B\u00e4cher. 2018. Set-in-stone: worst-case optimization of structures weak in tension. ACM Trans. Graph. 37, 6, Article 252 (December 2018), 13 pages. DOI: https://doi.org/10.1145/3272127.3275085",
+      "doi": "10.1145/3272127.3275085"
+    },
+    {
+      "text": "Yuliy Schwartzburg, and Mark Pauly. \"Fabrication\u2010aware design with intersecting planar pieces.\" In\u00a0Computer Graphics Forum, vol. 32, no. 2pt3, pp. 317-326. Oxford, UK: Blackwell Publishing Ltd, 2013.",
+      "doi": ""
+    },
+    {
+      "text": "Peng Song, Bailin Deng, Ziqi Wang, Zhichao Dong, Wei Li, Chi-Wing Fu, and Ligang Liu. 2016. CofiFab: coarse-to-fine fabrication of large 3D objects. ACM Trans. Graph. 35, 4, Article 45 (July 2016), 11 pages. DOI: https://doi.org/10.1145/2897824.2925876",
+      "doi": "10.1145/2897824.2925876"
+    },
+    {
+      "text": "Ondrej Stava, Juraj Vanek, Bedrich Benes, Nathan Carr, and Radom\u00edr M\u011bch. 2012. Stress relief: improving structural strength of 3D printable objects.\u00a0ACM Trans. Graph.\u00a031, 4, Article 48 (July 2012), 11 pages. DOI: https://doi.org/10.1145/2185520.2185544",
+      "doi": "10.1145/2185520.2185544"
+    },
+    {
+      "text": "Nobuyuki Umetani, Takeo Igarashi, and Niloy J. Mitra. 2012. Guided exploration of physically valid shapes for furniture design.\u00a0ACM Trans. Graph.31, 4, Article 86 (July 2012), 11 pages. DOI: https://doi.org/10.1145/2185520.2185582",
+      "doi": "10.1145/2185520.2185582"
+    },
+    {
+      "text": "Nobuyuki Umetani and Ryan Schmidt. 2013. Cross-sectional structural analysis for 3D printing optimization. In\u00a0SIGGRAPH Asia 2013 Technical Briefs(SA '13). ACM, New York, NY, USA, Article 5, 4 pages. DOI: https://doi.org/10.1145/2542355.2542361",
+      "doi": "10.1145/2542355.2542361"
+    },
+    {
+      "text": "Ziqi Wang, Peng Song, and Mark Pauly. 2018. DESIA: a general framework for designing interlocking assemblies. ACM Trans. Graph. 37, 6, Article 191 (December 2018), 14 pages. DOI: https://doi.org/10.1145/3272127.3275034",
+      "doi": "10.1145/3272127.3275034"
+    },
+    {
+      "text": "Christian Weichel, Manfred Lau, and Hans Gellersen. 2013. Enclosed: a component-centric interface for designing prototype enclosures. In Proceedings of the 7th International Conference on Tangible, Embedded and Embodied Interaction (TEI \u201913). Association for Computing Machinery, NewYork, NY, USA,215 218. DOI: https://doi.org/10.1145/2460625.2460659",
+      "doi": "10.1145/2460625.2460659"
+    },
+    {
+      "text": "Clement Zheng, Ellen Yi-Luen Do, and Jim Budd. 2017. Joinery: Parametric Joint Generation for Laser Cut Assemblies. In Proceedings of the 2017 ACM SIGCHI Conference on Creativity and Cognition (C&C \u201917). Association for Computing Machinery, New York, NY, USA, 63\u201374. DOI: https://doi.org/10.1145/3059454.3059459",
+      "doi": "10.1145/3059454.3059459"
+    },
+    {
+      "text": "Make a box, https://makeabox.io, last accessed September 2020.",
+      "doi": ""
+    }
+  ]
+}

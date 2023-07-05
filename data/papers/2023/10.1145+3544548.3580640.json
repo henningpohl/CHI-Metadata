@@ -1,0 +1,326 @@
+{
+  "doi": "10.1145/3544548.3580640",
+  "title": "Modeling Touch-based Menu Selection Performance of Blind Users via Reinforcement Learning",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Although menu selection has been extensively studied in HCI, most existing studies have focused on sighted users, leaving blind users\u2019 menu selection under-studied. In this paper, we propose a computational model that can simulate blind users\u2019 menu selection performance and strategies, including the way they use techniques like swiping, gliding, and direct touch. We assume that selection behavior emerges as an adaptation to the user\u2019s memory of item positions based on experience and feedback from the screen reader. A key aspect of our model is a model of long-term memory, predicting how a user recalls and forgets item position based on previous menu selections. We compare simulation results predicted by our model against data obtained in an empirical study with ten blind users. The model correctly simulated the effect of the menu length and menu arrangement on selection time, the action composition, and the menu selection strategy of the users.",
+  "authors": [
+    {
+      "name": "Zhi Li",
+      "institution": "Department of Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700941",
+      "orcid": "0000-0001-8298-2279"
+    },
+    {
+      "name": "Yu-Jung Ko",
+      "institution": "Department of Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659312367",
+      "orcid": "0000-0003-4862-8318"
+    },
+    {
+      "name": "Aini Putkonen",
+      "institution": "Aalto University, Finland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659884421",
+      "orcid": "0000-0002-9501-8603"
+    },
+    {
+      "name": "Shirin Feiz",
+      "institution": "Computer Science department, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659365745",
+      "orcid": "0000-0001-6054-7305"
+    },
+    {
+      "name": "Vikas Ashok",
+      "institution": "Department of Computer Science, Old Dominion University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "88158989757",
+      "orcid": "0000-0002-4772-1265"
+    },
+    {
+      "name": "Iv Ramakrishnan",
+      "institution": "Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81452611166",
+      "orcid": "0000-0002-1768-7043"
+    },
+    {
+      "name": "Antti Oulasvirta",
+      "institution": "Aalto University, Finland",
+      "img": "/do/10.1145/contrib-81100333050/rel-imgonly/antti.png",
+      "acmid": "81100333050",
+      "orcid": "0000-0002-2498-7837"
+    },
+    {
+      "name": "Xiaojun Bi",
+      "institution": "Department of Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81309485662",
+      "orcid": "0000-0002-9716-7709"
+    }
+  ],
+  "references": [
+    {
+      "text": "Carl\u00a0Halladay Abraham, Bert Boadi-Kusi, Enyam Komla\u00a0Amewuho Morny, and Prince Agyekum. 2022. Smartphone usage among people living with severe visual impairment and blindness. Assistive Technology 34, 5 (2022), 611\u2013618.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0St Amant, Thomas\u00a0E Horton, and Frank\u00a0E Ritter. 2007. Model-based evaluation of expert cell phone menu interaction. ACM Transactions on Computer-Human Interaction (TOCHI) 14, 1(2007), 1\u2013es.",
+      "doi": "10.1145/1229855.1229856"
+    },
+    {
+      "text": "Caroline Appert and Shumin Zhai. 2009. Using strokes as command shortcuts: cognitive benefits and toolkit support. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Boston, MA, USA, 2289\u20132298.",
+      "doi": "10.1145/1518701.1519052"
+    },
+    {
+      "text": "Apple. 2022. Vision Accessibility in iPhone. https://www.apple.com/accessibility/iphone/vision/",
+      "doi": ""
+    },
+    {
+      "text": "Gilles Bailly, Antti Oulasvirta, Duncan\u00a0P Brumby, and Andrew Howes. 2014. Model of visual search and selection time in linear menus. In Proceedings of the sigchi conference on human factors in computing systems. ACM, Toronto, Canada, 3865\u20133874.",
+      "doi": "10.1145/2556288.2557093"
+    },
+    {
+      "text": "Gilles Bailly, Antti Oulasvirta, Timo K\u00f6tzing, and Sabrina Hoppe. 2013. Menuoptimizer: Interactive optimization of menu systems. In Proceedings of the 26th annual ACM symposium on User interface software and technology. ACM, St. Andrews, UK, 331\u2013342.",
+      "doi": "10.1145/2501988.2502024"
+    },
+    {
+      "text": "Nikola Banovic, Tovi Grossman, and George Fitzmaurice. 2013. The effect of time-based cost of error in target-directed pointing tasks. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Paris, France, 1373\u20131382.",
+      "doi": "10.1145/2470654.2466181"
+    },
+    {
+      "text": "Richard\u00a0E Bellman and Lotfi\u00a0Asker Zadeh. 1970. Decision-making in a fuzzy environment. Management science 17, 4 (1970), B\u2013141.",
+      "doi": ""
+    },
+    {
+      "text": "Greg Brockman, Vicki Cheung, Ludwig Pettersson, Jonas Schneider, John Schulman, Jie Tang, and Wojciech Zaremba. 2016. Openai gym. arXiv preprint arXiv:1606.01540(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Duncan\u00a0P Brumby, Samantha\u00a0CE Davies, Christian\u00a0P Janssen, and Justin\u00a0J Grace. 2011. Fast or safe? How performance objectives determine modality output choices while interacting on the move. In Proceedings of the SIGCHI conference on human factors in computing systems. ACM, Vancouver, Canada, 473\u2013482.",
+      "doi": "10.1145/1978942.1979009"
+    },
+    {
+      "text": "Noshaba Cheema, Laura\u00a0A Frey-Law, Kourosh Naderi, Jaakko Lehtinen, Philipp Slusallek, and Perttu H\u00e4m\u00e4l\u00e4inen. 2020. Predicting mid-air interaction movements and fatigue using deep reinforcement learning. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu, HI, USA, 1\u201313.",
+      "doi": "10.1145/3313831.3376701"
+    },
+    {
+      "text": "Xiuli Chen, Aditya Acharya, Antti Oulasvirta, and Andrew Howes. 2021. An adaptive model of gaze-based selection. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Online Virtual Conference, 1\u201311.",
+      "doi": "10.1145/3411764.3445177"
+    },
+    {
+      "text": "Xiuli Chen, Gilles Bailly, Duncan\u00a0P Brumby, Antti Oulasvirta, and Andrew Howes. 2015. The emergence of interactive behavior: A model of rational menu search. In Proceedings of the 33rd annual ACM conference on human factors in computing systems. ACM, Seoul, Korea, 4217\u20134226.",
+      "doi": "10.1145/2702123.2702483"
+    },
+    {
+      "text": "Xiuli Chen, Sandra\u00a0Dorothee Starke, Chris Baber, and Andrew Howes. 2017. A cognitive model of how people make decisions through interaction with visual displays. In Proceedings of the 2017 CHI conference on human factors in computing systems. ACM, Denver, CO, USA, 1205\u20131216.",
+      "doi": "10.1145/3025453.3025596"
+    },
+    {
+      "text": "Andy Cockburn, Carl Gutwin, and Saul Greenberg. 2007. A predictive model of menu performance. In Proceedings of the SIGCHI conference on Human factors in computing systems. ACM, San Jose, 627\u2013636.",
+      "doi": "10.1145/1240624.1240723"
+    },
+    {
+      "text": "Alistair\u00a0DN Edwards. 1989. Modelling blind users\u2019 interactions with an auditory computer interface. International journal of man-Machine studies 30, 5 (1989), 575\u2013589.",
+      "doi": ""
+    },
+    {
+      "text": "Manahel El\u00a0Lahib, Joe Tekli, and Youssef\u00a0Bou Issa. 2018. Evaluating Fitts\u2019 law on vibrating touch-screen to improve visual data accessibility for blind users. International Journal of Human-Computer Studies 112 (2018), 16\u201327.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen\u00a0R Ellis and Robert\u00a0J Hitchcock. 1986. The emergence of Zipf\u2019s law: Spontaneous encoding optimization by users of a command language. IEEE transactions on systems, man, and cybernetics 16, 3(1986), 423\u2013427.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0M Fitts. 1954. The information capacity of the human motor system in controlling the amplitude of movement.Journal of experimental psychology 47, 6 (1954), 381.",
+      "doi": ""
+    },
+    {
+      "text": "Krzysztof Gajos and Daniel\u00a0S Weld. 2004. SUPPLE: automatically generating user interfaces. In Proceedings of the 9th international conference on Intelligent user interfaces. ACM, Funchal, Portugal, 93\u2013100.",
+      "doi": "10.1145/964442.964461"
+    },
+    {
+      "text": "Andrew Gelman and Jennifer Hill. 2006. Data analysis using regression and multilevel/hierarchical models. Cambridge university press.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel\u00a0J Gershman, Eric\u00a0J Horvitz, and Joshua\u00a0B Tenenbaum. 2015. Computational rationality: A converging paradigm for intelligence in brains, minds, and machines. Science 349, 6245 (2015), 273\u2013278.",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2022. Accessibility \u2013 Touch and point targets. https://material.io/design/usability/accessibility.html#layout-and-typography",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2022. Android accessibility overview. https://support.google.com/accessibility/android/answer/6006564?hl=en",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2022. Talkback: Hear your screen read out loud. https://support.google.com/accessibility/android/topic/3529932",
+      "doi": ""
+    },
+    {
+      "text": "William Grussenmeyer and Eelke Folmer. 2017. Accessible touchscreen technology for people with visual impairments: a survey. ACM Transactions on Accessible Computing (TACCESS) 9, 2 (2017), 1\u201331.",
+      "doi": "10.1145/3022701"
+    },
+    {
+      "text": "Tiago Guerreiro, Paulo Lagoa, Hugo Nicolau, Daniel Gonalves, and Joaquim\u00a0A. Jorge. 2008. From Tapping to Touching: Making Touch Screens Accessible to Blind Users. IEEE MultiMedia 15, 4 (2008), 48\u201350.",
+      "doi": "10.1109/MMUL.2008.88"
+    },
+    {
+      "text": "Sean\u00a0G Gustafson, Bernhard Rabe, and Patrick\u00a0M Baudisch. 2013. Understanding palm-based imaginary interfaces: the role of visual and tactile cues when browsing. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Paris, France, 889\u2013898.",
+      "doi": "10.1145/2470654.2466114"
+    },
+    {
+      "text": "Andrew Howes, Richard\u00a0L Lewis, and Alonso Vera. 2009. Rational adaptation under task and processing constraints: implications for testing theories of cognition and action.Psychological review 116, 4 (2009), 717.",
+      "doi": ""
+    },
+    {
+      "text": "Mohit Jain, Nirmalendu Diwakar, and Manohar Swaminathan. 2021. Smartphone usage by expert blind users. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Online Virtual Conference, 1\u201315.",
+      "doi": "10.1145/3411764.3445074"
+    },
+    {
+      "text": "Edwin\u00a0T Jaynes. 1957. Information theory and statistical mechanics. Physical review 106, 4 (1957), 620.",
+      "doi": ""
+    },
+    {
+      "text": "Jussi Jokinen, Aditya Acharya, Mohammad Uzair, Xinhui Jiang, and Antti Oulasvirta. 2021. Touchscreen typing as optimal supervisory control. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Online Virtual Conference, 1\u201314.",
+      "doi": "10.1145/3411764.3445483"
+    },
+    {
+      "text": "Jussi\u00a0PP Jokinen and Tuomo Kujala. 2021. Modelling Drivers\u2019 Adaptation to Assistance Systems. In 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications. ACM, Leeds, UK, 12\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "Jussi\u00a0PP Jokinen, Tuomo Kujala, and Antti Oulasvirta. 2021. Multitasking in driving as optimal adaptation under uncertainty. Human factors 63, 8 (2021), 1324\u20131341.",
+      "doi": ""
+    },
+    {
+      "text": "Jussi\u00a0PP Jokinen, Zhenxin Wang, Sayan Sarcar, Antti Oulasvirta, and Xiangshi Ren. 2020. Adaptive feature guidance: Modelling visual search with graphical layouts. International Journal of Human-Computer Studies 136 (2020), 102376.",
+      "doi": "10.1016/j.ijhcs.2019.102376"
+    },
+    {
+      "text": "Leslie\u00a0Pack Kaelbling, Michael\u00a0L Littman, and Anthony\u00a0R Cassandra. 1998. Planning and acting in partially observable stochastic domains. Artificial intelligence 101, 1-2 (1998), 99\u2013134.",
+      "doi": ""
+    },
+    {
+      "text": "Shaun\u00a0K. Kane, Jeffrey\u00a0P. Bigham, and Jacob\u00a0O. Wobbrock. 2008. Slide Rule: Making Mobile Touch Screens Accessible to Blind People Using Multi-Touch Interaction Techniques. In Proceedings of the 10th International ACM SIGACCESS Conference on Computers and Accessibility (Halifax, Nova Scotia, Canada) (Assets \u201908). Association for Computing Machinery, New York, NY, USA, 73\u201380.",
+      "doi": "10.1145/1414471.1414487"
+    },
+    {
+      "text": "Antti Kangasr\u00e4\u00e4si\u00f6, Kumaripaba Athukorala, Andrew Howes, Jukka Corander, Samuel Kaski, and Antti Oulasvirta. 2017. Inferring cognitive models from data using approximate Bayesian computation. In Proceedings of the 2017 CHI conference on human factors in computing systems. ACM, Denver, CO, USA, 1295\u20131306.",
+      "doi": "10.1145/3025453.3025576"
+    },
+    {
+      "text": "Akif Khan and Shah Khusro. 2019. Blind-friendly user interfaces \u2013 a pilot study on improving the accessibility of touchscreen interfaces. Multimedia Tools and Applications 78 (07 2019), 17495\u201317519.",
+      "doi": ""
+    },
+    {
+      "text": "Akif Khan and Shah Khusro. 2021. An insight into smartphone-based assistive solutions for visually impaired and blind people: issues, challenges and opportunities. Universal Access in the Information Society 20, 2 (2021), 265\u2013298.",
+      "doi": "10.1007/s10209-020-00733-8"
+    },
+    {
+      "text": "Yu-Jung Ko, Aini Putkonen, Ali\u00a0Selman Aydin, Shirin Feiz, Yuheng Wang, Vikas Ashok, IV Ramakrishnan, Antti Oulasvirta, and Xiaojun Bi. 2021. Modeling Gliding-based Target Selection for Blind Touchscreen Users. In Proceedings of the 23rd International Conference on Mobile Human-Computer Interaction. ACM, Online Virtual Conference, 1\u201314.",
+      "doi": "10.1145/3447526.3472022"
+    },
+    {
+      "text": "Stelios Lelis and Andrew Howes. 2011. Informing decisions: how people use online rating information to make choices. In Proceedings of the SIGCHI conference on human factors in computing systems. ACM, Vancouver, Canada, 2285\u20132294.",
+      "doi": "10.1145/1978942.1979278"
+    },
+    {
+      "text": "Richard\u00a0L Lewis, Andrew Howes, and Satinder Singh. 2014. Computational rationality: Linking mechanism and behavior through bounded utility maximization. Topics in cognitive science 6, 2 (2014), 279\u2013311.",
+      "doi": ""
+    },
+    {
+      "text": "Frank Chun\u00a0Yat Li, David Dearman, and Khai\u00a0N Truong. 2010. Leveraging proprioception to make mobile phones more accessible to users with visual impairments. In Proceedings of the 12th international ACM SIGACCESS conference on Computers and accessibility. ACM, Orlando, FL, USA, 187\u2013194.",
+      "doi": ""
+    },
+    {
+      "text": "Zhi Li, Maozheng Zhao, Dibyendu Das, Hang Zhao, Yan Ma, Wanyu Liu, Michel Beaudouin-Lafon, Fusheng Wang, I.V. Ramakrishnan, and Xiaojun Bi. 2022. Select or Suggest? Reinforcement Learning-based Method for High-Accuracy Target Selection on Touchscreens. In CHI \u201922: ACM CHI Conference on Human Factors in Computing Systems. ACM, New Orleans, LA, USA, 1\u201315.",
+      "doi": "10.1145/3491102.3517472"
+    },
+    {
+      "text": "Timothy\u00a0P Lillicrap, Jonathan\u00a0J Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, and Daan Wierstra. 2015. Continuous control with deep reinforcement learning. arXiv preprint arXiv:1509.02971(2015).",
+      "doi": ""
+    },
+    {
+      "text": "Wanyu Liu, Gilles Bailly, and Andrew Howes. 2017. Effects of frequency distribution on linear menu performance. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, Denver, CO, USA, 1307\u20131312.",
+      "doi": "10.1145/3025453.3025707"
+    },
+    {
+      "text": "I\u00a0Scott MacKenzie. 1992. Fitts\u2019 law as a research and design tool in human-computer interaction. Human-computer interaction 7, 1 (1992), 91\u2013139.",
+      "doi": "10.1207/s15327051hci0701_3"
+    },
+    {
+      "text": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, and Martin Riedmiller. 2013. Playing atari with deep reinforcement learning. arXiv preprint arXiv:1312.5602(2013).",
+      "doi": ""
+    },
+    {
+      "text": "Alistair Morrison, Xiaoyu Xiong, Matthew Higgs, Marek Bell, and Matthew Chalmers. 2018. A Large-Scale Study of iPhone App Launch Behaviour. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, Montr\u00e9al, Canada, 1\u201313.",
+      "doi": "10.1145/3173574.3173918"
+    },
+    {
+      "text": "Saied\u00a0B. Nesbat. 2003. A System for Fast, Full-Text Entry for Small Electronic Devices. In Proceedings of the 5th International Conference on Multimodal Interfaces (Vancouver, Canada) (ICMI \u201903). Association for Computing Machinery, New York, NY, USA, 4\u201311.",
+      "doi": "10.1145/958432.958437"
+    },
+    {
+      "text": "Antti Oulasvirta, Jussi\u00a0P.P. Jokinen, and Andrew Howes. 2022. Computational Rationality as a Theory of Interaction. In CHI \u201922: ACM CHI Conference on Human Factors in Computing Systems,. ACM, New Orleans, LA, USA, 1\u201314.",
+      "doi": "10.1145/3491102.3517739"
+    },
+    {
+      "text": "Tomi Peltola, Jussi Jokinen, and Samuel Kaski. 2019. Probabilistic Formulation of the Take The Best Heuristic. arXiv preprint arXiv:1911.00572(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Rajesh\u00a0PN Rao. 2010. Decision making under uncertainty: a neural model based on partially observable markov decision processes. Frontiers in computational neuroscience 4 (2010), 146.",
+      "doi": ""
+    },
+    {
+      "text": "Stuart\u00a0J Russell and Devika Subramanian. 1994. Provably bounded-optimal agents. Journal of Artificial Intelligence Research 2 (1994), 575\u2013609.",
+      "doi": "10.5555/1622826.1622844"
+    },
+    {
+      "text": "Sayan Sarcar, Jussi\u00a0PP Jokinen, Antti Oulasvirta, Zhenxin Wang, Chaklam Silpasuwanchai, and Xiangshi Ren. 2018. Ability-based optimization of touchscreen interactions. IEEE Pervasive Computing 17, 1 (2018), 15\u201326.",
+      "doi": "10.1109/mprv.2018.011591058"
+    },
+    {
+      "text": "Suraj\u00a0Singh Senjam, Souvik Manna, and Covadonga Bascaran. 2021. Smartphones-Based Assistive Technology: Accessibility Features and Apps for People with Visual Impairment, and its Usage, Challenges, and Usability Testing. Clinical Optometry 13(2021), 311.",
+      "doi": ""
+    },
+    {
+      "text": "Siti Rohkmah\u00a0Mohd Shukri and Andrew Howes. 2019. Children adapt drawing actions to their own motor variability and to the motivational context of action. International Journal of Human-Computer Studies 130 (2019), 152\u2013165.",
+      "doi": "10.1016/j.ijhcs.2019.06.004"
+    },
+    {
+      "text": "Benjamin\u00a0L Somberg. 1986. A comparison of rule-based and positionally constant arrangements of computer menu items. ACM SIGCHI Bulletin 17, SI (1986), 255\u2013260.",
+      "doi": ""
+    },
+    {
+      "text": "Matthijs\u00a0TJ Spaan. 2012. Partially observable Markov decision processes. In Reinforcement Learning. Springer, 387\u2013414.",
+      "doi": ""
+    },
+    {
+      "text": "Kashyap Todi, Gilles Bailly, Luis Leiva, and Antti Oulasvirta. 2021. Adapting user interfaces with model-based reinforcement learning. ACM, Online Virtual Conference, 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Yuan-Chi Tseng and Andrew Howes. 2015. The adaptation of visual search to utility, ecology and design. International Journal of Human-Computer Studies 80 (2015), 45\u201355.",
+      "doi": "10.1016/j.ijhcs.2015.03.005"
+    },
+    {
+      "text": "Pavani Yalla and Bruce\u00a0N Walker. 2008. Advanced auditory menus: Design and evaluation of auditory scroll bars. In Proceedings of the 10th international ACM SIGACCESS conference on Computers and accessibility. ACM, Halifax, Canada, 105\u2013112.",
+      "doi": "10.1145/1414471.1414492"
+    },
+    {
+      "text": "Suwen Zhu, Yoonsang Kim, Jingjie Zheng, Jennifer\u00a0Yi Luo, Ryan Qin, Liuping Wang, Xiangmin Fan, Feng Tian, and Xiaojun Bi. 2020. Using Bayes\u2019 Theorem for Command Input: Principle, Models, and Applications. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu, HI, USA, 1\u201315.",
+      "doi": "10.1145/3313831.3376771"
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "doi": "10.1145/3544548.3580816",
+  "title": "GAM Coach: Towards Interactive and User-centered Algorithmic Recourse",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Machine learning (ML) recourse techniques are increasingly used in high-stakes domains, providing end users with actions to alter ML predictions, but they assume ML developers understand what input variables can be changed. However, a recourse plan\u2019s actionability is subjective and unlikely to match developers\u2019 expectations completely. We present GAM Coach, a novel open-source system that adapts integer linear programming to generate customizable counterfactual explanations for Generalized Additive Models (GAMs), and leverages interactive visualizations to enable end users to iteratively generate recourse plans meeting their needs. A quantitative user study with 41 participants shows our tool is usable and useful, and users prefer personalized recourse plans over generic plans. Through a log analysis, we explore how users discover satisfactory recourse plans, and provide empirical evidence that transparency can lead to more opportunities for everyday users to discover counterintuitive patterns in ML models. GAM Coach is available at: https://poloclub.github.io/gam-coach/.",
+  "authors": [
+    {
+      "name": "Zijie J. Wang",
+      "institution": "College of Computing, Georgia Tech, United States",
+      "img": "/do/10.1145/contrib-99659529235/rel-imgonly/jay.jpg",
+      "acmid": "99659529235",
+      "orcid": "0000-0003-4360-1423"
+    },
+    {
+      "name": "Jennifer Wortman Vaughan",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660549820",
+      "orcid": "0000-0002-7807-2018"
+    },
+    {
+      "name": "Rich Caruana",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100100877",
+      "orcid": "0000-0002-6383-7786"
+    },
+    {
+      "name": "Duen Horng Chau",
+      "institution": "College of Computing, Georgia Tech, United States",
+      "img": "/do/10.1145/contrib-81311482767/rel-imgonly/duen_horng_chau.jpg",
+      "acmid": "81311482767",
+      "orcid": "0000-0001-9824-3323"
+    }
+  ],
+  "references": [
+    {
+      "text": "2018. Lending Club: Online Personal Loans at Great Rates. https://www.lendingclub.com/",
+      "doi": ""
+    },
+    {
+      "text": "Ashraf Abdul, Jo Vermeulen, Danding Wang, Brian\u00a0Y. Lim, and Mohan Kankanhalli. 2018. Trends and Trajectories for Explainable, Accountable and Intelligible Systems: An HCI Research Agenda. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems - CHI \u201918. https://doi.org/10.1145/3173574.3174156",
+      "doi": "10.1145/3173574.3174156"
+    },
+    {
+      "text": "Solon Barocas, Andrew\u00a0D. Selbst, and Manish Raghavan. 2020. The Hidden Assumptions behind Counterfactual Explanations and Principal Reasons. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. https://doi.org/10.1145/3351095.3372830",
+      "doi": "10.1145/3351095.3372830"
+    },
+    {
+      "text": "M. Bostock, V. Ogievetsky, and J. Heer. 2011. D3 Data-Driven Documents. IEEE TVCG 17(2011).",
+      "doi": ""
+    },
+    {
+      "text": "Michelle Carney, Barron Webster, Irene Alvarado, Kyle Phillips, Noura Howell, Jordan Griffith, Jonas Jongejan, Amit Pitaru, and Alexander Chen. 2020. Teachable Machine: Approachable Web-Based Tool for Exploring Machine Learning Classification. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems. https://doi.org/10.1145/3334480.3382839",
+      "doi": "10.1145/3334480.3382839"
+    },
+    {
+      "text": "Rich Caruana, Yin Lou, Johannes Gehrke, Paul Koch, Marc Sturm, and Noemie Elhadad. 2015. Intelligible Models for HealthCare: Predicting Pneumonia Risk and Hospital 30-Day Readmission. KDD (2015). https://doi.org/10.1145/2783258.2788613",
+      "doi": "10.1145/2783258.2788613"
+    },
+    {
+      "text": "Chun-Hao Chang, Sarah Tan, Ben Lengerich, Anna Goldenberg, and Rich Caruana. 2021. How Interpretable and Trustworthy Are GAMs?KDD (2021). https://doi.org/10.1145/3447548.3467453",
+      "doi": "10.1145/3447548.3467453"
+    },
+    {
+      "text": "Tianqi Chen and Carlos Guestrin. 2016. XGBoost: A Scalable Tree Boosting System. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. https://doi.org/10.1145/2939672.2939785",
+      "doi": "10.1145/2939672.2939785"
+    },
+    {
+      "text": "Furui Cheng, Yao Ming, and Huamin Qu. 2021. DECE: Decision Explorer with Counterfactual Explanations for Machine Learning Models. IEEE TVCG 27(2021). https://doi.org/10.1109/TVCG.2020.3030342",
+      "doi": ""
+    },
+    {
+      "text": "Hao-Fei Cheng, Ruotong Wang, Zheng Zhang, Fiona O\u2019Connell, Terrance Gray, F.\u00a0Maxwell Harper, and Haiyi Zhu. 2019. Explaining Decision-Making Algorithms through UI: Strategies to Help Non-Expert Stakeholders. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. https://doi.org/10.1145/3290605.3300789",
+      "doi": "10.1145/3290605.3300789"
+    },
+    {
+      "text": "Zhicheng Cui, Wenlin Chen, Yujie He, and Yixin Chen. 2015. Optimal Action Extraction for Random Forests and Boosted Trees. In Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. https://doi.org/10.1145/2783258.2783281",
+      "doi": "10.1145/2783258.2783281"
+    },
+    {
+      "text": "Eoin Delaney, Derek Greene, and Mark\u00a0T. Keane. 2021. Instance-Based Counterfactual Explanations for Time Series Classification. arXiv:2009.13211 [cs, stat](2021). http://arxiv.org/abs/2009.13211",
+      "doi": ""
+    },
+    {
+      "text": "Amit Dhurandhar, Pin-Yu Chen, Ronny Luss, Chun-Chen Tu, Paishun Ting, Karthikeyan Shanmugam, and Payel Das. 2018. Explanations Based on the Missing: Towards Contrastive Explanations with Pertinent Negatives. In Proceedings of the 32nd International Conference on Neural Information Processing Systems(NIPS\u201918).",
+      "doi": ""
+    },
+    {
+      "text": "Dheeru Dua and Casey Graff. 2017. UCI Machine Learning Repository. http://archive.ics.uci.edu/ml",
+      "doi": ""
+    },
+    {
+      "text": "Susan Dumais, Robin Jeffries, Daniel\u00a0M. Russell, Diane Tang, and Jaime Teevan. 2014. Understanding User Behavior Through Log Data and Analysis. In Ways of Knowing in HCI. https://doi.org/10.1007/978-1-4939-0378-8_14",
+      "doi": ""
+    },
+    {
+      "text": "Upol Ehsan, Brent Harrison, Larry Chan, and Mark\u00a0O. Riedl. 2018. Rationalization: A Neural Machine Translation Approach to Generating Natural Language Explanations. In Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society. https://doi.org/10.1145/3278721.3278736",
+      "doi": "10.1145/3278721.3278736"
+    },
+    {
+      "text": "Simson Garfinkel. 1995. PGP: Pretty Good Privacy.",
+      "doi": "10.5555/547742"
+    },
+    {
+      "text": "Fred Glover. 1975. Improved Linear Integer Programming Formulations of Nonlinear Integer Problems. Management Science 22(1975). https://doi.org/10.1287/mnsc.22.4.455",
+      "doi": "10.1287/mnsc.22.4.455"
+    },
+    {
+      "text": "Oscar Gomez, Steffen Holter, Jun Yuan, and Enrico Bertini. 2020. ViCE: Visual Counterfactual Explanations for Machine Learning Models. In Proceedings of the 25th International Conference on Intelligent User Interfaces. https://doi.org/10.1145/3377325.3377536",
+      "doi": "10.1145/3377325.3377536"
+    },
+    {
+      "text": "Oscar Gomez, Steffen Holter, Jun Yuan, and Enrico Bertini. 2021. AdViCE: Aggregated Visual Counterfactual Explanations for Machine Learning Model Validation. In 2021 IEEE Visualization Conference (VIS). https://doi.org/10.1109/VIS49827.2021.9623271",
+      "doi": ""
+    },
+    {
+      "text": "Yash Goyal, Ziyan Wu, Jan Ernst, Dhruv Batra, Devi Parikh, and Stefan Lee. 2019. Counterfactual Visual Explanations. In Proceedings of the 36th International Conference on Machine Learning(Proceedings of Machine Learning Research, Vol.\u00a097). https://proceedings.mlr.press/v97/goyal19a.html",
+      "doi": ""
+    },
+    {
+      "text": "Moritz Hardt, Nimrod Megiddo, Christos Papadimitriou, and Mary Wootters. 2016. Strategic Classification. In Proceedings of the 2016 ACM Conference on Innovations in Theoretical Computer Science. https://doi.org/10.1145/2840728.2840730",
+      "doi": "10.1145/2840728.2840730"
+    },
+    {
+      "text": "Tankred Hase. 2014. OpenPGP.Js: OpenPGP JavaScript Implementation. https://openpgpjs.org/",
+      "doi": ""
+    },
+    {
+      "text": "Trevor Hastie and Robert Tibshirani. 1999. Generalized Additive Models.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Hitlin. 2016. Research in the Crowdsourcing Age: A Case Study. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Chien-Ju Ho, Aleksandrs Slivkins, Siddharth Suri, and Jennifer\u00a0Wortman Vaughan. 2015. Incentivizing High Quality Crowdwork. In Proceedings of the 24th International Conference on World Wide Web(WWW \u201915). https://doi.org/10.1145/2736277.2741102",
+      "doi": "10.1145/2736277.2741102"
+    },
+    {
+      "text": "Fred Hohman, Andrew Head, Rich Caruana, Robert DeLine, and Steven\u00a0M. Drucker. 2019. Gamut: A Design Probe to Understand How Data Scientists Understand Machine Learning Models. CHI (2019). https://doi.org/10.1145/3290605.3300809",
+      "doi": "10.1145/3290605.3300809"
+    },
+    {
+      "text": "Fred Hohman, Haekyu Park, Caleb Robinson, and Duen\u00a0Horng Chau. 2019. SUMMIT: Scaling Deep Learning Interpretability by Visualizing Activation and Attribution Summarizations. IEEE TVCG (2019). https://doi.org/10.1109/TVCG.2019.2934659",
+      "doi": "10.1109/TVCG.2019.2934659"
+    },
+    {
+      "text": "Fred Hohman, Arjun Srinivasan, and Steven\u00a0M. Drucker. 2019. TeleGam: Combining Visualization and Verbalization for Interpretable Machine Learning. In 2019 IEEE Visualization Conference (VIS). https://doi.org/10.1109/VISUAL.2019.8933695",
+      "doi": ""
+    },
+    {
+      "text": "Shalmali Joshi, Oluwasanmi Koyejo, Warut Vijitbenjaronk, Been Kim, and Joydeep Ghosh. 2019. Towards Realistic Individual Recourse and Actionable Explanations in Black-Box Decision Making Systems. arXiv:1907.09615 [cs, stat](2019). http://arxiv.org/abs/1907.09615",
+      "doi": ""
+    },
+    {
+      "text": "Minsuk Kahng, Pierre\u00a0Y. Andrews, Aditya Kalro, and Duen\u00a0Horng Chau. 2018. ActiVis: Visual Exploration of Industry-Scale Deep Neural Network Models. IEEE TVCG 24(2018). https://doi.org/10.1109/TVCG.2017.2744718",
+      "doi": ""
+    },
+    {
+      "text": "Minsuk Kahng, Nikhil Thorat, Duen\u00a0Horng Chau, Fernanda\u00a0B. Viegas, and Martin Wattenberg. 2019. GAN Lab: Understanding Complex Deep Generative Models Using Interactive Visual Experimentation. IEEE Transactions on Visualization and Computer Graphics 25 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Kentaro Kanamori, Takuya Takagi, Ken Kobayashi, and Hiroki Arimura. 2020. DACE: Distribution-Aware Counterfactual Explanation by Mixed-Integer Linear Optimization. In Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence. https://doi.org/10.24963/ijcai.2020/395",
+      "doi": ""
+    },
+    {
+      "text": "Amir-Hossein Karimi, Gilles Barthe, Borja Balle, and Isabel Valera. 2020. Model-Agnostic Counterfactual Explanations for Consequential Decisions. arXiv:1905.11190 [cs, stat](2020). http://arxiv.org/abs/1905.11190",
+      "doi": ""
+    },
+    {
+      "text": "Amir-Hossein Karimi, Gilles Barthe, Bernhard Sch\u00f6lkopf, and Isabel Valera. 2021. A Survey of Algorithmic Recourse: Definitions, Formulations, Solutions, and Prospects. arXiv:2010.04050 [cs, stat](2021). http://arxiv.org/abs/2010.04050",
+      "doi": ""
+    },
+    {
+      "text": "Amir-Hossein Karimi, Bernhard Sch\u00f6lkopf, and Isabel Valera. 2021. Algorithmic Recourse: From Counterfactual Explanations to Interventions. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency. https://doi.org/10.1145/3442188.3445899",
+      "doi": "10.1145/3442188.3445899"
+    },
+    {
+      "text": "Amir-Hossein Karimi, Julius von K\u00fcgelgen, Bernhard Sch\u00f6lkopf, and Isabel Valera. 2020. Algorithmic Recourse under Imperfect Causal Knowledge: A Probabilistic Approach. In Advances in Neural Information Processing Systems, Vol.\u00a033. https://proceedings.neurips.cc/paper/2020/file/02a3c7fb3f489288ae6942498498db20-Paper.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Guolin Ke, Qi Meng, Thomas Finely, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, and Tie-Yan Liu. 2017. LightGBM: A Highly Efficient Gradient Boosting Decision Tree. In Advances in Neural Information Processing Systems 30 (NIP 2017). https://www.microsoft.com/en-us/research/publication/lightgbm-a-highly-efficient-gradient-boosting-decision-tree/",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0T. Keane, Eoin\u00a0M. Kenny, Eoin Delaney, and Barry Smyth. 2021. If Only We Had Better Counterfactual Explanations: Five Key Deficits to Rectify in the Evaluation of Counterfactual XAI Techniques. In Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence. https://doi.org/10.24963/ijcai.2021/609",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0T Keane and Barry Smyth. 2020. Good Counterfactuals and Where to Find Them: A Case-Based Technique for Generating Counterfactuals for Explainable AI (XAI). In International Conference on Case-Based Reasoning.",
+      "doi": "10.1007/978-3-030-58342-2_11"
+    },
+    {
+      "text": "Eoin\u00a0M. Kenny and Mark\u00a0T Keane. 2021. On Generating Plausible Counterfactual and Semi-Factual Explanations for Deep Learning. Proceedings of the AAAI Conference on Artificial Intelligence 35 (2021). https://ojs.aaai.org/index.php/AAAI/article/view/17377",
+      "doi": ""
+    },
+    {
+      "text": "Lara Kirfel and Alice Liefgreen. 2021. What If (and How...)? - Actionability Shapes People\u2019s Perceptions of Counterfactual Explanations in Automated Decision-Making. In ICML Workshop on Algorithmic Recourse.",
+      "doi": ""
+    },
+    {
+      "text": "Aniket Kittur, Ed\u00a0H. Chi, and Bongwon Suh. 2008. Crowdsourcing User Studies with Mechanical Turk. In Proceeding of the Twenty-Sixth Annual CHI Conference on Human Factors in Computing Systems - CHI \u201908. https://doi.org/10.1145/1357054.1357127",
+      "doi": "10.1145/1357054.1357127"
+    },
+    {
+      "text": "Jon Kleinberg and Manish Raghavan. 2020. How Do Classifiers Induce Agents to Invest Effort Strategically?ACM Transactions on Economics and Computation 8 (2020). https://doi.org/10.1145/3417742",
+      "doi": "10.1145/3417742"
+    },
+    {
+      "text": "Ron Kohavi 1996. Scaling up the Accuracy of Naive-Bayes Classifiers: A Decision-Tree Hybrid.. In KDD, Vol.\u00a096.",
+      "doi": ""
+    },
+    {
+      "text": "Josua Krause, Adam Perer, and Kenney Ng. 2016. Interacting with Predictions: Visual Inspection of Black-box Machine Learning Models. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. https://doi.org/10.1145/2858036.2858529",
+      "doi": "10.1145/2858036.2858529"
+    },
+    {
+      "text": "Jeff Larson, Surya Mattu, Lauren Kirchner, and Julia Angwin. 2016. How We Analyzed the COMPAS Recidivism Algorithm. ProPublica 9(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Thai Le, Suhang Wang, and Dongwon Lee. 2020. GRACE: Generating Concise and Informative Contrastive Sample to Explain Neural Network Model\u2019s Prediction. arXiv:1911.02042 [cs, stat](2020). http://arxiv.org/abs/1911.02042",
+      "doi": ""
+    },
+    {
+      "text": "Cynthia C.\u00a0S. Liem, Markus Langer, Andrew Demetriou, Annemarie M.\u00a0F. Hiemstra, Achmadnoer Sukma\u00a0Wicaksana, Marise\u00a0Ph. Born, and Cornelius\u00a0J. K\u00f6nig. 2018. Psychology Meets Machine Learning: Interdisciplinary Perspectives on Algorithmic Job Candidate Screening. In Explainable and Interpretable Models in Computer Vision and Machine Learning. https://doi.org/10.1007/978-3-319-98131-4_9",
+      "doi": ""
+    },
+    {
+      "text": "Tania Lombrozo. 2016. Explanatory Preferences Shape Learning and Inference. Trends in Cognitive Sciences 20 (2016). https://doi.org/10.1016/j.tics.2016.08.001",
+      "doi": ""
+    },
+    {
+      "text": "Yin Lou, Rich Caruana, and Johannes Gehrke. 2012. Intelligible Models for Classification and Regression. In Proceedings of the 18th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining - KDD \u201912. https://doi.org/10.1145/2339530.2339556",
+      "doi": "10.1145/2339530.2339556"
+    },
+    {
+      "text": "Yin Lou, Rich Caruana, Johannes Gehrke, and Giles Hooker. 2013. Accurate Intelligible Models with Pairwise Interactions. In Proceedings of the 19th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. https://doi.org/10.1145/2487575.2487579",
+      "doi": "10.1145/2487575.2487579"
+    },
+    {
+      "text": "Scott\u00a0M. Lundberg and Su-In Lee. 2017. A Unified Approach to Interpreting Model Predictions. In Proceedings of the 31st International Conference on Neural Information Processing Systems(NIPS\u201917). https://doi.org/10.48550/arXiv.1705.07874",
+      "doi": ""
+    },
+    {
+      "text": "Divyat Mahajan, Chenhao Tan, and Amit Sharma. 2020. Preserving Causal Constraints in Counterfactual Explanations for Machine Learning Classifiers. arXiv:1912.03277 [cs, stat](2020). http://arxiv.org/abs/1912.03277",
+      "doi": ""
+    },
+    {
+      "text": "Brent Mittelstadt, Chris Russell, and Sandra Wachter. 2019. Explaining Explanations in AI. In Proceedings of the Conference on Fairness, Accountability, and Transparency. https://doi.org/10.1145/3287560.3287574",
+      "doi": "10.1145/3287560.3287574"
+    },
+    {
+      "text": "Kiarash Mohammadi, Amir-Hossein Karimi, Gilles Barthe, and Isabel Valera. 2021. Scaling Guarantees for Nearest Counterfactual Explanations. In Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society. https://doi.org/10.1145/3461702.3462514",
+      "doi": "10.1145/3461702.3462514"
+    },
+    {
+      "text": "Ramaravind\u00a0K. Mothilal, Amit Sharma, and Chenhao Tan. 2020. Explaining Machine Learning Classifiers through Diverse Counterfactual Explanations. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. https://doi.org/10.1145/3351095.3372850",
+      "doi": "10.1145/3351095.3372850"
+    },
+    {
+      "text": "Chelsea\u00a0M. Myers, Evan Freed, Luis Fernando\u00a0Laris Pardo, Anushay Furqan, Sebastian Risi, and Jichen Zhu. 2020. Revealing Neural Network Bias to Non-Experts Through Interactive Counterfactual Examples. arXiv:2001.02271 [cs](2020). http://arxiv.org/abs/2001.02271",
+      "doi": ""
+    },
+    {
+      "text": "J.\u00a0A. Nelder and R.\u00a0W.\u00a0M. Wedderburn. 1972. Generalized Linear Models. Journal of the Royal Statistical Society. Series A (General) 135 (1972). https://doi.org/10.2307/2344614",
+      "doi": ""
+    },
+    {
+      "text": "Harsha Nori, Samuel Jenkins, Paul Koch, and Rich Caruana. 2019. InterpretML: A Unified Framework for Machine Learning Interpretability. arXiv (2019). http://arxiv.org/abs/1909.09223",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0A. Norman and Stephen\u00a0W. Draper. 1986. User Centered System Design: New Perspectives on Human-Computer Interaction.",
+      "doi": ""
+    },
+    {
+      "text": "Seyednaser Nourashrafeddin, Ehsan Sherkat, Rosane Minghim, and Evangelos\u00a0E. Milios. 2018. A Visual Approach for Interactive Keyterm-Based Clustering. ACM Transactions on Interactive Intelligent Systems 8 (2018). https://doi.org/10.1145/3181669",
+      "doi": "10.1145/3181669"
+    },
+    {
+      "text": "Judith\u00a0S. Olson and Wendy Kellogg. 2014. Ways of Knowing in HCI.",
+      "doi": ""
+    },
+    {
+      "text": "Gabriele Paolacci and Jesse Chandler. 2014. Inside the Turk: Understanding Mechanical Turk as a Participant Pool. Current Directions in Psychological Science 23 (2014). https://doi.org/10.1177/0963721414531598",
+      "doi": ""
+    },
+    {
+      "text": "Nicola Pezzotti, Thomas Hollt, Jan Van\u00a0Gemert, Boudewijn\u00a0P.F. Lelieveldt, Elmar Eisemann, and Anna Vilanova. 2018. DeepEyes: Progressive Visual Analytics for Designing Deep Neural Networks. IEEE Transactions on Visualization and Computer Graphics 24 (2018). https://doi.org/10.1109/TVCG.2017.2744358",
+      "doi": ""
+    },
+    {
+      "text": "Kaivalya Rawal and Himabindu Lakkaraju. 2020. Beyond Individualized Recourse: Interpretable and Interactive Summaries of Actionable Recourses. arXiv:2009.07165 [cs, stat](2020). http://arxiv.org/abs/2009.07165",
+      "doi": ""
+    },
+    {
+      "text": "Michael Redmond and Alok Baveja. 2002. A Data-Driven Software Tool for Enabling Cooperative Information Sharing among Police Departments. European Journal of Operational Research 141 (2002). https://doi.org/10.1016/S0377-2217(01)00264-8",
+      "doi": ""
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2016. \"Why Should I Trust You?\": Explaining the Predictions of Any Classifier. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. https://doi.org/10.1145/2939672.2939778",
+      "doi": "10.1145/2939672.2939778"
+    },
+    {
+      "text": "Cynthia Rudin. 2019. Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead. Nature Machine Intelligence 1 (2019). https://doi.org/10.1038/s42256-019-0048-x",
+      "doi": ""
+    },
+    {
+      "text": "Chris Russell. 2019. Efficient Search for Diverse Coherent Explanations. In Proceedings of the Conference on Fairness, Accountability, and Transparency. https://doi.org/10.1145/3287560.3287569",
+      "doi": "10.1145/3287560.3287569"
+    },
+    {
+      "text": "Harvey\u00a0M. Salkin and Cornelis\u00a0A. De\u00a0Kluyver. 1975. The Knapsack Problem: A Survey. Naval Research Logistics Quarterly 22 (1975). https://doi.org/10.1002/nav.3800220110",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0J. Saltzman. 2002. Coin-Or: An Open-Source Library for Optimization. In Programming Languages and Systems in Computational Economics and Finance. Vol.\u00a018. https://doi.org/10.1007/978-1-4615-1049-9_1",
+      "doi": ""
+    },
+    {
+      "text": "Maximilian Schleich, Zixuan Geng, Yihong Zhang, and Dan Suciu. 2021. GeCo: Quality Counterfactual Explanations in Real Time. arXiv:2101.01292 [cs](2021). http://arxiv.org/abs/2101.01292",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0D. Selbst and Solon Barocas. 2018. The Intuitive Appeal of Explainable Machines. SSRN Electronic Journal(2018). https://doi.org/10.2139/ssrn.3126971",
+      "doi": ""
+    },
+    {
+      "text": "B. Shneiderman. 1996. The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations. In Proceedings 1996 IEEE Symposium on Visual Languages. https://doi.org/10.1109/VL.1996.545307",
+      "doi": ""
+    },
+    {
+      "text": "Ben Shneiderman. 2020. Bridging the Gap Between Ethics and Practice: Guidelines for Reliable, Safe, and Trustworthy Human-centered AI Systems. ACM Transactions on Interactive Intelligent Systems 10 (2020). https://doi.org/10.1145/3419764",
+      "doi": "10.1145/3419764"
+    },
+    {
+      "text": "Naeem Siddiqi. 2013. Credit Risk Scorecards: Developing and Implementing Intelligent Credit Scoring. http://public.ebookcentral.proquest.com/choice/publicfullrecord.aspx?p=4035275",
+      "doi": ""
+    },
+    {
+      "text": "Sumedha Singla, Brian Pollack, Junxiang Chen, and Kayhan Batmanghelich. 2020. Explanation by Progressive Exaggeration. In ICLR.",
+      "doi": ""
+    },
+    {
+      "text": "Dylan Slack, Anna Hilgard, Himabindu Lakkaraju, and Sameer Singh. 2021. Counterfactual Explanations Can Be Manipulated. In Advances in Neural Information Processing Systems, Vol.\u00a034. https://proceedings.neurips.cc/paper/2021/file/009c434cab57de48a31f6b669e7ba266-Paper.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Smilkov, Shan Carter, D. Sculley, Fernanda\u00a0B. Vi\u00e9gas, and Martin Wattenberg. 2017. Direct-Manipulation Visualization of Deep Networks. arXiv:1708.03788 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Harini Suresh, Steven\u00a0R. Gomez, Kevin\u00a0K. Nam, and Arvind Satyanarayan. 2021. Beyond Expertise and Roles: A Framework to Characterize the Stakeholders of Interpretable Machine Learning and Their Needs. arXiv:2101.09824 [cs](2021). https://doi.org/10.1145/3411764.3445088",
+      "doi": "10.1145/3411764.3445088"
+    },
+    {
+      "text": "Stratis Tsirtsis and Manuel Gomez\u00a0Rodriguez. 2020. Decisions, Counterfactual Explanations and Strategic Behavior. In Advances in Neural Information Processing Systems, Vol.\u00a033. https://proceedings.neurips.cc/paper/2020/file/c2ba1bc54b239208cb37b901c0d3b363-Paper.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Berk Ustun, Alexander Spangher, and Yang Liu. 2019. Actionable Recourse in Linear Classification. In Proceedings of the Conference on Fairness, Accountability, and Transparency. https://doi.org/10.1145/3287560.3287566",
+      "doi": "10.1145/3287560.3287566"
+    },
+    {
+      "text": "Jan Vaillant. 2021. Glpk.Js. https://github.com/jvail/glpk.js/",
+      "doi": ""
+    },
+    {
+      "text": "Arnaud Van\u00a0Looveren and Janis Klaise. 2020. Interpretable Counterfactual Explanations Guided by Prototypes. arXiv:1907.02584 [cs, stat](2020). http://arxiv.org/abs/1907.02584",
+      "doi": ""
+    },
+    {
+      "text": "Vera Institute of Justice. 2012. Performance Incentive Funding: Aligning Fiscal and Operational Responsibility to Produce More Safety at Less Cost. Vera Institute of Justice Report.",
+      "doi": ""
+    },
+    {
+      "text": "Sahil Verma, John Dickerson, and Keegan Hines. 2020. Counterfactual Explanations for Machine Learning: A Review. arXiv:2010.10596 [cs, stat](2020). http://arxiv.org/abs/2010.10596",
+      "doi": ""
+    },
+    {
+      "text": "Sandra Wachter, Brent Mittelstadt, and Chris Russell. 2017. Counterfactual Explanations Without Opening the Black Box: Automated Decisions and the GDPR. SSRN Electronic Journal(2017). https://doi.org/10.2139/ssrn.3063289",
+      "doi": ""
+    },
+    {
+      "text": "Caroline Wang, Bin Han, Bhrij Patel, Feroze Mohideen, and Cynthia Rudin. 2020. In Pursuit of Interpretable, Fair and Accurate Machine Learning for Criminal Recidivism Prediction. arXiv:2005.04176 (2020). http://arxiv.org/abs/2005.04176",
+      "doi": ""
+    },
+    {
+      "text": "Zijie\u00a0J. Wang, Alex Kale, Harsha Nori, Peter Stella, Mark\u00a0E. Nunnally, Duen\u00a0Horng Chau, Mihaela Vorvoreanu, Jennifer Wortman\u00a0Vaughan, and Rich Caruana. 2022. Interpretability, Then What? Editing Machine Learning Models to Reflect Human Knowledge and Values. In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining(KDD \u201922). https://doi.org/10.1145/3534678.3539074",
+      "doi": "10.1145/3534678.3539074"
+    },
+    {
+      "text": "Zijie\u00a0J. Wang, Robert Turko, Omar Shaikh, Haekyu Park, Nilaksh Das, Fred Hohman, Minsuk Kahng, and Duen\u00a0Horng Chau. 2020. CNN Explainer: Learning Convolutional Neural Networks with Interactive Visualization. IEEE Transactions on Visualization and Computer Graphics (TVCG) (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Zijie\u00a0J. Wang, Chudi Zhong, Rui Xin, Takuya Takagi, Zhi Chen, Duen\u00a0Horng Chau, Cynthia Rudin, and Margo Seltzer. 2022. TimberTrek: Exploring and Curating Sparse Decision Trees with Interactive Visualization. In 2022 IEEE Visualization and Visual Analytics (VIS). https://doi.org/10.1109/VIS54862.2022.00021",
+      "doi": ""
+    },
+    {
+      "text": "Austin Waters and Risto Miikkulainen. 2014. GRADE: Machine Learning Support for Graduate Admissions. AI Magazine 35(2014). https://doi.org/10.1609/aimag.v35i1.2504",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0S. Weld and Gagan Bansal. 2019. The Challenge of Crafting Intelligible Intelligence. Commun. ACM 62(2019). https://doi.org/10.1145/3282486",
+      "doi": "10.1145/3282486"
+    },
+    {
+      "text": "James Wexler, Mahima Pushkarna, Tolga Bolukbasi, Martin Wattenberg, Fernanda Viegas, and Jimbo Wilson. 2019. The What-If Tool: Interactive Probing of Machine Learning Models. IEEE TVCG 26(2019). https://doi.org/10.1109/TVCG.2019.2934619",
+      "doi": ""
+    },
+    {
+      "text": "Tongshuang Wu, Marco\u00a0Tulio Ribeiro, Jeffrey Heer, and Daniel Weld. 2021. Polyjuice: Generating Counterfactuals for Explaining, Evaluating, and Improving Models. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). https://doi.org/10.18653/v1/2021.acl-long.523",
+      "doi": ""
+    },
+    {
+      "text": "I-Cheng Yeh and Che-hui Lien. 2009. The Comparisons of Data Mining Techniques for the Predictive Accuracy of Probability of Default of Credit Card Clients. Expert Systems with Applications 36 (2009). https://doi.org/10.1016/j.eswa.2007.12.020",
+      "doi": "10.1016/j.eswa.2007.12.020"
+    },
+    {
+      "text": "Jun Yuan and Enrico Bertini. 2022. Context Sight: Model Understanding and Debugging via Interpretable Context. In Proceedings of the Workshop on Human-in-the-Loop Data Analytics(HILDA \u201922). Article 1. https://doi.org/10.1145/3546930.3547502",
+      "doi": "10.1145/3546930.3547502"
+    },
+    {
+      "text": "Zahra Zahedi, Alberto Olmo, Tathagata Chakraborti, Sarath Sreedharan, and Subbarao Kambhampati. 2019. Towards Understanding User Preferences for Explanation Types in Model Reconciliation. In 2019 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI). https://doi.org/10.1109/HRI.2019.8673097",
+      "doi": ""
+    },
+    {
+      "text": "Xuezhou Zhang, Sarah Tan, Paul Koch, Yin Lou, Urszula Chajewska, and Rich Caruana. 2019. Axiomatic Interpretability for Multiclass Additive Models. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. https://doi.org/10.1145/3292500.3330898",
+      "doi": "10.1145/3292500.3330898"
+    }
+  ]
+}

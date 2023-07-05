@@ -1,0 +1,406 @@
+{
+  "doi": "10.1145/3544548.3581470",
+  "title": "GeoCamera: Telling Stories in Geographic Visualizations with Camera Movements",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2023,
+  "badges": [],
+  "abstract": "In geographic data videos, camera movements are frequently used and combined to present information from multiple perspectives. However, creating and editing camera movements requires significant time and professional skills. This work aims to lower the barrier of crafting diverse camera movements for geographic data videos. First, we analyze a corpus of 66 geographic data videos and derive a design space of camera movements with a dimension for geospatial targets and one for narrative purposes. Based on the design space, we propose a set of adaptive camera shots and further develop an interactive tool called GeoCamera. This interactive tool allows users to flexibly design camera movements for geographic visualizations. We verify the expressiveness of our tool through case studies and evaluate its usability with a user study. The participants find that the tool facilitates the design of camera movements.",
+  "authors": [
+    {
+      "name": "Wenchao Li",
+      "institution": "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780741",
+      "orcid": "0000-0003-2605-7331"
+    },
+    {
+      "name": "Zhan Wang",
+      "institution": "Computational Media and Arts Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779647",
+      "orcid": "0000-0003-3318-6473"
+    },
+    {
+      "name": "Yun Wang",
+      "institution": "Microsoft Research Asia, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702104",
+      "orcid": "0000-0003-0468-4043"
+    },
+    {
+      "name": "Di Weng",
+      "institution": "Microsoft Research Asia, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659093884",
+      "orcid": "0000-0003-2712-7274"
+    },
+    {
+      "name": "Liwenhan Xie",
+      "institution": "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701302",
+      "orcid": "0000-0002-2601-6313"
+    },
+    {
+      "name": "Siming Chen",
+      "institution": "School of Data Science, Fudan University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658661068",
+      "orcid": "0000-0002-2690-3588"
+    },
+    {
+      "name": "Haidong Zhang",
+      "institution": "Microsoft Research Asia, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81490687878",
+      "orcid": "0000-0001-7411-8042"
+    },
+    {
+      "name": "Huamin Qu",
+      "institution": "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100337801",
+      "orcid": "0000-0002-3344-9694"
+    }
+  ],
+  "references": [
+    {
+      "text": "Adobe Inc.2022. After Effects. https://www.adobe.com/products/aftereffects.html Accessed on Sep 1, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Fereshteh Amini. 2020. Data Videos: Turning Data into Engaging Narratives. Ph.\u00a0D. Dissertation. University of Manitoba, Winnipeg, Manitoba, Canada.",
+      "doi": ""
+    },
+    {
+      "text": "Fereshteh Amini, Nathalie Henry\u00a0Riche, Bongshin Lee, Christophe Hurter, and Pourang Irani. 2015. Understanding Data Videos: Looking at Narrative Visualization through the Cinematography Lens. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1459\u20131468.",
+      "doi": "10.1145/2702123.2702431"
+    },
+    {
+      "text": "Fereshteh Amini, Nathalie\u00a0Henry Riche, Bongshin Lee, Jason Leboe-McGowan, and Pourang Irani. 2018. Hooked on Data Videos: Assessing the Effect of Animation and Pictographs on Viewer Engagement. In Proceedings of the International Working Conference on Advanced Visual Interfaces. ACM, New York, NY, USA, Article 21, 9\u00a0pages.",
+      "doi": "10.1145/3206505.3206552"
+    },
+    {
+      "text": "Fereshteh Amini, Nathalie\u00a0Henry Riche, Bongshin Lee, Andres Monroy-Hernandez, and Pourang Irani. 2017. Authoring Data-Driven Videos with DataClips. IEEE Transactions on Visualization and Computer Graphics 23 (2017), 501\u2013510. Issue 1.",
+      "doi": "10.1109/TVCG.2016.2598647"
+    },
+    {
+      "text": "ArcGIS. 2022. ArcGIS Online. https://www.arcgis.com/. Accessed on Sep 1, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Jackie Assa, Lior Wolf, and Daniel Cohen-Or. 2010. The Virtual Director: a Correlation-Based Online Viewing of Human Motion. Computer Graphics Forum 29, 2, 595\u2013604.",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin Bach, Moritz Stefaner, Jeremy Boy, Steven Drucker, Lyn Bartram, Jo Wood, Paolo Ciuccarelli, Yuri Engelhardt, Ulrike Koeppen, and Barbara Tversky. 2018. Narrative design patterns for data-driven storytelling. In Data-driven storytelling. AK Peters/CRC Press, Boca Raton, FL, USA, 107\u2013133.",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin Bach, Zezhong Wang, Matteo Farinella, Dave Murray-Rust, and Nathalie Henry\u00a0Riche. 2018. Design patterns for data comics. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, Article 38, 12\u00a0pages.",
+      "doi": "10.1145/3173574.3173612"
+    },
+    {
+      "text": "Alex Bigelow, Steven Drucker, Danyel Fisher, and Miriah Meyer. 2016. Iterating between tools to create and edit visualizations. IEEE Transactions on Visualization and Computer Graphics 23 (2016), 481\u2013490. Issue 1.",
+      "doi": "10.1109/TVCG.2016.2598609"
+    },
+    {
+      "text": "David Bordwell. 1985. Narration in the Fiction Film. University of Wisconsin Press, Madison, IA, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Brehmer and Robert Kosara. 2021. From Jam Session to Recital: Synchronous Communication and Collaboration Around Data in Organizations. IEEE Transactions on Visualization and Computer Graphics 28 (2021), 1139\u20131149. Issue 1.",
+      "doi": "10.1109/TVCG.2021.3114760"
+    },
+    {
+      "text": "Ruochen Cao, Subrata Dey, Andrew Cunningham, James Walsh, Ross\u00a0T Smith, Joanne\u00a0E Zucco, and Bruce\u00a0H Thomas. 2020. Examining the use of narrative constructs in data videos. Visual Informatics 4(2020), 8\u201322. Issue 1.",
+      "doi": ""
+    },
+    {
+      "text": "S\u00e9bastien Caquard. 2013. Cartography I: Mapping Narrative Cartography. Progress in Human Geography 37 (2013), 135\u2013144. Issue 1.",
+      "doi": ""
+    },
+    {
+      "text": "Qing Chen, Shixiong Cao, Jiazhe Wang, and Nan Cao. 2022. How Does Automation Shape the Process of Narrative Visualization: A Survey on Tools. Arxiv Preprint (2022), 20\u00a0pages. arXiv:2206.12118",
+      "doi": ""
+    },
+    {
+      "text": "Qing Chen, Ziyan Liu, Chengwei Wang, Xingyu Lan, Ying Chen, Siming Chen, and Nan Cao. 2022. VizBelle: A Design Space of Embellishments for Data Visualization. Arxiv Preprint (2022), 11\u00a0pages. arXiv:2209.03642",
+      "doi": ""
+    },
+    {
+      "text": "Siming Chen, Jie Li, Gennady Andrienko, Natalia Andrienko, Yun Wang, Phong\u00a0H Nguyen, and Cagatay Turkay. 2018. Supporting story synthesis: Bridging the gap between visual analytics and storytelling. IEEE Transactions on Visualization and Computer Graphics 26 (2018), 2499\u20132516. Issue 7.",
+      "doi": ""
+    },
+    {
+      "text": "Zhutian Chen, Shuainan Ye, Xiangtong Chu, Haijun Xia, Hui Zhang, Huamin Qu, and Yingcai Wu. 2021. Augmenting Sports Videos with Viscommentator. IEEE Transactions on Visualization and Computer Graphics 28 (2021), 824\u2013834. Issue 1.",
+      "doi": "10.1109/TVCG.2021.3114806"
+    },
+    {
+      "text": "Hao Cheng, Junhong Wang, Yun Wang, Bongshin Lee, Haidong Zhang, and Dongmei Zhang. 2022. Investigating the Role and Interplay of Narrations and Animations in Data Videos. Computer Graphics Forum 41, 3 (2022), 527\u2013539.",
+      "doi": ""
+    },
+    {
+      "text": "Fanny Chevalier, Nathalie\u00a0Henry Riche, Catherine Plaisant, Amira Chalbi, and Christophe Hurter. 2016. Animations 25 years later: New roles and opportunities. In Proceedings of the International Working Conference on Advanced Visual Interfaces. ACM, New York, NY, USA, 280\u2013287.",
+      "doi": "10.1145/2909132.2909255"
+    },
+    {
+      "text": "Marc Christie, Patrick Olivier, and Jean-Marie Normand. 2008. Camera Control in Computer Graphics. Computer Graphics Forum 27 (2008), 2197\u20132218. Issue 8.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0E Cutting. 2016. The Evolution of Pace in Popular Movies. Cognitive Research: Principles and Implications 1, Article 30(2016), 21\u00a0pages. Issue 1.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0E Cutting, Kaitlin\u00a0L Brunick, and Jordan\u00a0E DeLong. 2011. How act structure sculpts shot lengths and shot transitions in Hollywood film. Projections 5(2011), 1\u201316. Issue 1.",
+      "doi": ""
+    },
+    {
+      "text": "Ryan Eccles, Thomas Kapler, Robert Harper, and William Wright. 2008. Stories in GeoTime. Information Visualization 7 (2008), 3\u201317. Issue 1.",
+      "doi": "10.1145/1391107.1391109"
+    },
+    {
+      "text": "Flourish. 2022. Flourish Studio. https://flourish.studio/. Accessed on Sep 1, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Monika Fludernik. 2009. An Introduction to Narratology. Routledge, London, UK.",
+      "doi": ""
+    },
+    {
+      "text": "Jonas Frich, Lindsay MacDonald\u00a0Vermeulen, Christian Remy, Michael\u00a0Mose Biskjaer, and Peter Dalsgaard. 2019. Mapping the landscape of creativity support tools in HCI. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, Article 389, 18\u00a0pages.",
+      "doi": "10.1145/3290605.3300619"
+    },
+    {
+      "text": "Michael Gleicher, Danielle Albers, Rick Walker, Ilir Jusufi, Charles\u00a0D Hansen, and Jonathan\u00a0C Roberts. 2011. Visual comparison for information visualization. Information Visualization 10 (2011), 289\u2013309. Issue 4.",
+      "doi": "10.1177/1473871611416549"
+    },
+    {
+      "text": "Google Cloud. 2022. BigQuery Geo Viz. https://cloud.google.com/bigquery/docs/geospatial-visualize. Accessed on Sep 1, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Nicolas Halper, Ralf Helbing, and Thomas Strothotte. 2001. A camera engine for computer games: Managing the trade-off between constraint satisfaction and frame coherence. Computer Graphics Forum 20 (2001), 174\u2013183. Issue 3.",
+      "doi": ""
+    },
+    {
+      "text": "Li-wei He, Michael\u00a0F Cohen, and David\u00a0H Salesin. 1996. The virtual cinematographer: A paradigm for automatic real-time camera control and directing. In Proceedings of the 23rd Annual Conference on Computer Graphics and Interactive Techniques. ACM, New York, NY, USA, 217\u2013224.",
+      "doi": ""
+    },
+    {
+      "text": "Marius Hogr\u00e4fer, Magnus Heitzler, and Hans-J\u00f6rg Schulz. 2020. The State of the Art in Map-Like Visualization. Computer Graphics Forum 39 (2020), 647\u2013674. Issue 3.",
+      "doi": ""
+    },
+    {
+      "text": "Wei-Hsien Hsu, Yubo Zhang, and Kwan-Liu Ma. 2013. A multi-criteria approach to camera motion design for volume data animation. IEEE Transactions on Visualization and Computer Graphics 19 (2013), 2792\u20132801. Issue 12.",
+      "doi": "10.1109/TVCG.2013.123"
+    },
+    {
+      "text": "Hui Huang, Dani Lischinski, Zhuming Hao, Minglun Gong, Marc Christie, and Daniel Cohen-Or. 2016. Trip Synopsis: 60km in 60sec. Computer Graphics Forum 35 (2016), 107\u2013116. Issue 7.",
+      "doi": ""
+    },
+    {
+      "text": "Niels Joubert, Mike Roberts, Anh Truong, Floraine Berthouzoz, and Pat Hanrahan. 2015. An interactive tool for designing quadrotor camera shots. ACM Transactions on Graphics (TOG) 34, Article 238(2015), 11\u00a0pages. Issue 6.",
+      "doi": ""
+    },
+    {
+      "text": "Steven\u00a0Douglas Katz and Steve Katz. 1991. Film Directing Shot by Shot: Visualizing from Concept to Screen. Michael Wiese, Studio City, CA, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Lydia\u00a0E Kavraki, Petr Svestka, J-C Latombe, and Mark\u00a0H Overmars. 1996. Probabilistic roadmaps for path planning in high-dimensional configuration spaces. IEEE Transactions on Robotics and Automation 12 (1996), 566\u2013580. Issue 4.",
+      "doi": ""
+    },
+    {
+      "text": "Cole\u00a0Nussbaumer Knaflic. 2015. Storytelling with Data: A Data Visualization Guide for Business Professionals. John Wiley & Sons, Hoboken, NJ, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Kosara and Jock Mackinlay. 2013. Storytelling: The next step for visualization. Computer 46(2013), 44\u201350. Issue 5.",
+      "doi": "10.1109/MC.2013.36"
+    },
+    {
+      "text": "Xingyu Lan, Yang Shi, Yanqiu Wu, Xiaohan Jiao, and Nan Cao. 2021. Kineticharts: Augmenting Affective Expressiveness of Charts in Data Stories with Animation Design. IEEE Transactions on Visualization and Computer Graphics 28 (2021), 933\u2013943. Issue 1.",
+      "doi": "10.1109/TVCG.2021.3114775"
+    },
+    {
+      "text": "Xingyu Lan, Yanqiu Wu, Yang Shi, Qing Chen, and Nan Cao. 2022. Negative Emotions, Positive Outcomes? Exploring the Communication of Negativity in Serious Data Stories. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, Article 28, 14\u00a0pages.",
+      "doi": "10.1145/3491102.3517530"
+    },
+    {
+      "text": "Shahid Latif, Siming Chen, and Fabian Beck. 2021. A Deeper Understanding of Visualization-Text Interplay in Geographic Data-driven Stories. Computer Graphics Forum 40, 3 (2021), 311\u2013322.",
+      "doi": ""
+    },
+    {
+      "text": "Bongshin Lee, Nathalie\u00a0Henry Riche, Petra Isenberg, and Sheelagh Carpendale. 2015. More Than Telling a Story: Transforming Data into Visually Shared Stories. Computer Graphics and Applications 35 (2015), 84\u201390. Issue 5.",
+      "doi": "10.1109/MCG.2015.99"
+    },
+    {
+      "text": "LEMMiNO. 2019. The Vanishing of Flight 370. https://youtu.be/kd2KEHvK-q8?t=992. Accessed on Sep 1, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Wenchao Li, Yun Wang, Haidong Zhang, and Huamin Qu. 2020. Improving Engagement of Animated Visualization with Visual Foreshadowing. In IEEE Visualization Conference (VIS). IEEE, Piscataway, NJ, USA, 141\u2013145. Short Paper.",
+      "doi": ""
+    },
+    {
+      "text": "Yilin Liu, Ruiqi Cui, Ke Xie, Minglun Gong, and Hui Huang. 2021. Aerial path planning for online real-time exploration and offline high-quality reconstruction of large-scale urban scenes. ACM Transactions on Graphics (TOG) 40, 6 (2021), 226:1\u2013226:16.",
+      "doi": "10.1145/3478513.3480491"
+    },
+    {
+      "text": "Yilin Liu, Liqiang Lin, Yue Hu, Ke Xie, Chi-Wing Fu, Hao Zhang, and Hui Huang. 2022. Learning Reconstructability for Drone Aerial Path Planning. ACM Transactions on Graphics (TOG) 41, 6 (2022), 197:1\u2013197:17.",
+      "doi": "10.1145/3550454.3555433"
+    },
+    {
+      "text": "Tableau\u00a0Software. LLC.2022. Tableau. https://www.tableau.com/. Accessed on Sep 1, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Junhua Lu, Jie Wang, Hui Ye, Yuhui Gu, Zhiyu Ding, Mingliang Xu, and Wei Chen. 2020. Illustrating Changes in Time-Series Data With Data Video. IEEE Computer Graphics and Applications 40, 2 (2020), 18\u201331.",
+      "doi": "10.1109/MCG.2020.2968249"
+    },
+    {
+      "text": "Arnold\u00a0M Lund. 2001. Measuring usability with the use questionnaire. Usability Interface 8(2001), 3\u20136. Issue 2.",
+      "doi": ""
+    },
+    {
+      "text": "Patrik Lundblad and Mikael Jern. 2013. Geovisual Analytics and Storytelling Using HTML5. In Proceedings of the International Conference on Information Visualisation. IEEE, Piscataway, NJ, USA, 263\u2013271.",
+      "doi": "10.1109/IV.2013.35"
+    },
+    {
+      "text": "Mapbox. 2022. Mapbox. https://www.mapbox.com/. Accessed on Sep 1, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Eva Mayr and Florian Windhager. 2018. Once upon a Spacetime: Visual Storytelling in Cognitive and Geotemporal Information Spaces. ISPRS International Journal of Geo-Information 7, 3, Article 96 (2018), 18\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Gonzalo\u00a0Gabriel M\u00e9ndez, Miguel\u00a0A Nacenta, and Uta Hinrichs. 2018. Considering agency and data granularity in the design of visualization tools. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, Article 638, 14\u00a0pages.",
+      "doi": "10.1145/3173574.3174212"
+    },
+    {
+      "text": "Microsoft Excel. 2013. Power Map. https://support.microsoft.com/en-us/office/get-started-with-power-map-88a28df6-8258-40aa-b5cc-577873fb0f4a. Accessed on Sep 1, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Till Nagel, Christopher Pietsch, and Marian Dork. 2017. Staged analysis: From evocative to comparative visualizations of urban mobility. In IEEE VIS Arts Program. IEEE, Piscataway, NJ, USA, 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0E. Roth. 2021. Cartographic Design as Visual Storytelling: Synthesis and Review of Map-Based Narratives, Genres, and Tropes. The Cartographic Journal 58, 1 (2021), 83\u2013114.",
+      "doi": ""
+    },
+    {
+      "text": "Arvind Satyanarayan and Jeffrey Heer. 2014. Authoring narrative visualizations with ellipsis. Computer Graphics Forum 33 (2014), 361\u2013370. Issue 3.",
+      "doi": ""
+    },
+    {
+      "text": "Edward Segel and Jeffrey Heer. 2010. Narrative Visualization: Telling Stories with Data. IEEE Transactions on Visualization and Computer Graphics 16 (2010), 1139\u20131148. Issue 6.",
+      "doi": "10.1109/TVCG.2010.179"
+    },
+    {
+      "text": "Ekrem Serin, Serdar\u00a0Hasan Adali, and Selim Balcisoy. 2012. Automatic path generation for terrain navigation. Computers & Graphics 36(2012), 1013\u20131024. Issue 8.",
+      "doi": "10.1016/j.cag.2012.08.006"
+    },
+    {
+      "text": "Danqing Shi, Fuling Sun, Xinyue Xu, Xingyu Lan, David Gotz, and Nan Cao. 2021. AutoClips: An Automatic Approach to Video Generation from Data Facts. Computer Graphics Forum 40 (2021), 495\u2013505. Issue 3.",
+      "doi": ""
+    },
+    {
+      "text": "Yang Shi, Xingyu Lan, Jingwen Li, Zhaorui Li, and Nan Cao. 2021. Communicating with Motion: A Design Space for Animated Visual Narratives in Data Videos. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, Article 605, 13\u00a0pages.",
+      "doi": "10.1145/3411764.3445337"
+    },
+    {
+      "text": "Yang Shi, Zhaorui Li, Lingfei Xu, and Nan Cao. 2021. Understanding the Design Space for Animated Narratives Applied to Illustrations. In Extended Abstracts of Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, Article 347, 6\u00a0pages.",
+      "doi": "10.1145/3411763.3451840"
+    },
+    {
+      "text": "Minjeong Shin, Joohee Kim, Yunha Han, Lexing Xie, Mitchell Whitelaw, Bum\u00a0Chul Kwon, Sungahn Ko, and Niklas Elmqvist. 2022. Roslingifier: Semi-Automated Storytelling for Animated Scatterplots. IEEE Transactions on Visualization and Computer Graphics (2022), 16\u00a0pages. Early Access.",
+      "doi": ""
+    },
+    {
+      "text": "Xinhuan Shu, Aoyu Wu, Junxiu Tang, Benjamin Bach, Yingcai Wu, and Huamin Qu. 2020. What makes a data-gif understandable?IEEE Transactions on Visualization and Computer Graphics 27 (2020), 1492\u20131502. Issue 2.",
+      "doi": ""
+    },
+    {
+      "text": "Charles\u00a0D Stolper, Bongshin Lee, Nathalie\u00a0Henry Riche, and John Stasko. 2016. Emerging and recurring data-driven storytelling techniques: Analysis of a curated collection of recent stories. Technical Report MSR-TR-2016-14. Microsoft Research.",
+      "doi": ""
+    },
+    {
+      "text": "Junxiu Tang, Lingyun Yu, Tan Tang, Xinhuan Shu, Lu Ying, Yuhua Zhou, Peiran Ren, and Yingcai Wu. 2020. Narrative Transitions in Data Videos. In Proceedings of the IEEE Visualization Conference (VIS). IEEE, Piscataway, NJ, USA, 151\u2013155. Short Paper.",
+      "doi": ""
+    },
+    {
+      "text": "Tan Tang, Junxiu Tang, Jiayi Hong, Lingyun Yu, Peiran Ren, and Yingcai Wu. 2020. Design Guidelines for Augmenting Short-form Videos Using Animated Data Visualizations. Journal of Visualization 23 (2020), 707\u2013720. Issue 4.",
+      "doi": "10.1007/s12650-020-00644-z"
+    },
+    {
+      "text": "Tan Tang, Junxiu Tang, Jiewen Lai, Lu Ying, Yingcai Wu, Lingyun Yu, and Peiran Ren. 2022. SmartShots: An Optimization Approach for Generating Videos with Data Visualizations Embedded. ACM Transactions on Interactive Intelligent Systems 12, 1, Article 4 (2022), 21\u00a0pages.",
+      "doi": "10.1145/3484506"
+    },
+    {
+      "text": "John Thompson, Zhicheng Liu, Wilmot Li, and John Stasko. 2020. Understanding the design space and authoring paradigms for animated data graphics. Computer Graphics Forum 39 (2020), 207\u2013218. Issue 3.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0R Thompson, Zhicheng Liu, and John Stasko. 2021. Data animator: Authoring expressive animated data graphics. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, Article 15, 18\u00a0pages.",
+      "doi": "10.1145/3411764.3445747"
+    },
+    {
+      "text": "Chao Tong, Richard Roberts, Rita Borgo, Sean Walton, Robert\u00a0S Laramee, Kodzo Wegba, Aidong Lu, Yun Wang, Huamin Qu, Qiong Luo, 2018. Storytelling and visualization: An extended survey. Information 9(2018), 65. Issue 3.",
+      "doi": ""
+    },
+    {
+      "text": "Barbara Tversky, Julie\u00a0Bauer Morrison, and Mireille Betrancourt. 2002. Animation: can it facilitate?International Journal of Human-Computer Studies 57 (2002), 247\u2013262. Issue 4.",
+      "doi": ""
+    },
+    {
+      "text": "Jeremy Vineyard. 2000. Setting Up Your Shots: Great Camera Moves Every Filmmaker Should Know. Michael Wiese Productons, Studio City, CA, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Vis.gl. 2022. deck.gl. https://deck.gl/. Accessed on Sep 1, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Vis.gl. 2022. kepler.gl. https://kepler.gl/. Accessed on Sep 1, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "vizmap. 2022. A visualization model for Hong Kong\u2019s COVID-19. https://www.bilibili.com/video/BV1YP4y1g7R8. Accessed on Sep 1, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Xaqu\u00edn G.V., Graham Roberts, Ford Fessenden, Hannah Fairfield, Lisa Waananen and Amy Schoenfeld. 2012. The Swing State of Swing States. https://www.nytimes.com/video/us/politics/100000001883681/the-swing-state-of-swing-states.html. Accessed on Sep 1, 2022.",
+      "doi": ""
+    },
+    {
+      "text": "Ke Xie, Hao Yang, Shengqiu Huang, Dani Lischinski, Marc Christie, Kai Xu, Minglun Gong, Daniel Cohen-Or, and Hui Huang. 2018. Creating and chaining camera moves for qadrotor videography. ACM Transactions on Graphics (TOG) 37, Article 88 (2018), 13\u00a0pages. Issue 4.",
+      "doi": ""
+    },
+    {
+      "text": "Xian Xu, Leni Yang, David Yip, Mingming Fan, Zheng Wei, and Huamin Qu. 2022. From \u2018Wow\u2018 to \u2018Why\u2018: Guidelines for Creating the Opening of a Data Video with Cinematic Styles. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, Article 599, 20\u00a0pages.",
+      "doi": "10.1145/3491102.3501896"
+    },
+    {
+      "text": "Leni Yang, Xian Xu, XingYu Lan, Ziyan Liu, Shunan Guo, Yang Shi, Huamin Qu, and Nan Cao. 2022. A Design Space for Applying the Freytag\u2019s Pyramid Structure to Data Stories. IEEE Transactions on Visualization and Computer Graphics 28 (2022), 922\u2013932. Issue 1.",
+      "doi": "10.1109/TVCG.2021.3114774"
+    },
+    {
+      "text": "Ziyi Zheng, Nafees Ahmed, and Klaus Mueller. 2011. iView: A feature clustering framework for suggesting informative views in volume visualization. IEEE Transactions on Visualization and Computer Graphics 17 (2011), 1959\u20131968. Issue 12.",
+      "doi": "10.1109/TVCG.2011.218"
+    },
+    {
+      "text": "Xiaohui Zhou, Ke Xie, Kai Huang, Yilin Liu, Yang Zhou, Minglun Gong, and Hui Huang. 2020. Offsite aerial path planning for efficient urban scene reconstruction. ACM Transactions on Graphics (TOG) 39, 6 (2020), 192:1\u2013192:16.",
+      "doi": "10.1145/3414685.3417791"
+    },
+    {
+      "text": "Jonathan Zong, Josh Pollock, Dylan Wootton, and Arvind Satyanarayan. 2023. Animated Vega-Lite: A Unified Grammar of Interactive and Animated Visualizations. IEEE Transactions on Visualization and Computer Graphics 29 (2023), 149\u2013159. Issue 1.",
+      "doi": ""
+    }
+  ]
+}

@@ -1,0 +1,915 @@
+{
+  "doi": "10.1145/3544548.3580962",
+  "title": "A Framework and Call to Action for the Future Development of EMG-Based Input in HCI",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-23",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Electromyography (EMG) has been explored as an HCI input modality following a long history of success for prosthesis control. While EMG has the potential to address a range of hands-free interaction needs, it has yet to be widely accepted outside of prosthetics due to a perceived lack of robustness and intuitiveness. To understand how EMG input systems can be better designed, we sampled the ACM digital library to identify limitations in the approaches taken. Leveraging these works in combination with our research group\u2019s extensive interdisciplinary experience in this field, four themes emerged (1) interaction design, (2) model design, (3) system evaluation, and (4) reproducibility. Using these themes, we provide a step-by-step framework for designing EMG-based input systems to strengthen the foundation on which EMG-based interactions are built. Additionally, we provide a call-to-action for researchers to unlock the hidden potential of EMG as a widely applicable and highly usable input modality.",
+  "authors": [
+    {
+      "name": "Ethan Eddy",
+      "institution": "Department of Electrical and Computer Engineering, University of New Brunswick, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659900504",
+      "orcid": "0000-0002-8392-3729"
+    },
+    {
+      "name": "Erik J Scheme",
+      "institution": "Department of Electrical and Computer Engineering, University of New Brunswick, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81493659837",
+      "orcid": "0000-0002-4421-1016"
+    },
+    {
+      "name": "Scott Bateman",
+      "institution": "Faculty of Computer Science, University of New Brunswick, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81361599570",
+      "orcid": "0000-0003-3592-2163"
+    }
+  ],
+  "references": [
+    {
+      "text": "2022. Coapt - Myoelectric Pattern Recognition for Upper Limb Prostheses. https://coaptengineering.com",
+      "doi": ""
+    },
+    {
+      "text": "2022. Infinite Biomedical Technologies. http://www.i-biomed.com/index.html",
+      "doi": ""
+    },
+    {
+      "text": "2022. MEC Symposium | Institute of Biomedical Engineering | UNB. https://www.unb.ca/ibme/mec/index.html",
+      "doi": ""
+    },
+    {
+      "text": "2022. Mudra Inspire - Wearable Devices. https://getmudra.com",
+      "doi": ""
+    },
+    {
+      "text": "2022. Sifi Labs. https://sifilabs.com/",
+      "doi": ""
+    },
+    {
+      "text": "2022. Welcome to Ottobock. https://www.ottobock.com/en-us/Home",
+      "doi": ""
+    },
+    {
+      "text": "T. Albrektsson and C. Johansson. 2001. Osteoinduction, osteoconduction and osseointegration. European Spine Journal 10, 2 (Oct. 2001), S96\u2013S101. https://doi.org/10.1007/s005860100282",
+      "doi": ""
+    },
+    {
+      "text": "Ali Ameri, Ernest\u00a0N. Kamavuako, Erik\u00a0J. Scheme, Kevin\u00a0B. Englehart, and Philip\u00a0A. Parker. 2014. Real-time, simultaneous myoelectric control using visual target-based training paradigm. Biomedical Signal Processing and Control 13 (Sept. 2014), 8\u201314. https://doi.org/10.1016/j.bspc.2014.03.006",
+      "doi": ""
+    },
+    {
+      "text": "Ali Ameri, Ernest\u00a0N. Kamavuako, Erik\u00a0J. Scheme, Kevin\u00a0B. Englehart, and Philip\u00a0A. Parker. 2014. Support Vector Regression for Improved Real-Time, Simultaneous Myoelectric Control. IEEE Transactions on Neural Systems and Rehabilitation Engineering 22, 6 (Nov. 2014), 1198\u20131209. https://doi.org/10.1109/TNSRE.2014.2323576 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Kikuo Asai and Norio Takase. 2019. Finger Motion Estimation Based on Sparse Multi-Channel Surface Electromyography Signals Using Convolutional Neural Network. In Proceedings of the 2019 3rd International Conference on Digital Signal Processing(ICDSP 2019). Association for Computing Machinery, New York, NY, USA, 55\u201359. https://doi.org/10.1145/3316551.3316572",
+      "doi": "10.1145/3316551.3316572"
+    },
+    {
+      "text": "Mohammadreza Asghari\u00a0Oskoei and Huosheng Hu. 2007. Myoelectric control systems\u2014A survey. Biomedical Signal Processing and Control 2, 4 (Oct. 2007), 275\u2013294. https://doi.org/10.1016/j.bspc.2007.07.009",
+      "doi": ""
+    },
+    {
+      "text": "Christopher Assad, Michael Wolf, Theodoros Theodoridis, Kyrre Glette, and Adrian Stoica. 2013. BioSleeve: a natural EMG-based interface for HRI. In Proceedings of the 8th ACM/IEEE international conference on Human-robot interaction(HRI \u201913). IEEE Press, Tokyo, Japan, 69\u201370.",
+      "doi": ""
+    },
+    {
+      "text": "Manfredo Atzori, Arjan Gijsberts, Simone Heynen, Anne-Gabrielle\u00a0Mittaz Hager, Olivier Deriaz, Patrick van\u00a0der Smagt, Claudio Castellini, Barbara Caputo, and Henning M\u00fcller. 2012. Building the Ninapro database: A resource for the biorobotics community. In 2012 4th IEEE RAS & EMBS International Conference on Biomedical Robotics and Biomechatronics (BioRob). 1258\u20131265. https://doi.org/10.1109/BioRob.2012.6290287 ISSN: 2155-1782.",
+      "doi": ""
+    },
+    {
+      "text": "Shaojie Bai, J.\u00a0Zico Kolter, and Vladlen Koltun. 2018. An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling. http://arxiv.org/abs/1803.01271 arXiv:1803.01271 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "JC Baits, RW Todd, and JM Nightingale. 1968. Paper 10: The Feasibility of an Adaptive Control Scheme for Artificial Prehension. In Proceedings of the Institution of Mechanical Engineers, Conference Proceedings, Vol.\u00a0183. SAGE Publications Sage UK: London, England, 54\u201359.",
+      "doi": ""
+    },
+    {
+      "text": "A Bakiya and K Kamalanand. 2018. Information analysis on electromyograms acquired using monopolar needle, concentric needle and surface electrodes. In 2018 International Conference on Recent Trends in Electrical, Control and Communication (RTECC). 240\u2013244. https://doi.org/10.1109/RTECC.2018.8625631",
+      "doi": ""
+    },
+    {
+      "text": "Marco\u00a0E. Benalc\u00e1zar, Carlos\u00a0E. Anchundia, Jonathan\u00a0A. Zea, Patricio Zambrano, Andr\u00e9s\u00a0G. Jaramillo, and Marco Segura. 2018. Real-Time Hand Gesture Recognition Based on Artificial Feed-Forward Neural Networks and EMG. In 2018 26th European Signal Processing Conference (EUSIPCO). 1492\u20131496. https://doi.org/10.23919/EUSIPCO.2018.8553126 ISSN: 2076-1465.",
+      "doi": ""
+    },
+    {
+      "text": "Simone Benatti, Elisabetta Farella, and Luca Benini. 2014. Towards EMG control interface for smart garments. In Proceedings of the 2014 ACM International Symposium on Wearable Computers: Adjunct Program(ISWC \u201914 Adjunct). Association for Computing Machinery, New York, NY, USA, 163\u2013170. https://doi.org/10.1145/2641248.2641352",
+      "doi": "10.1145/2641248.2641352"
+    },
+    {
+      "text": "Cynthia\u00a0L. Bennett, Keting Cen, Katherine\u00a0M. Steele, and Daniela\u00a0K. Rosner. 2016. An Intimate Laboratory? Prostheses as a Tool for Experimenting with Identity and Normalcy. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 1745\u20131756. https://doi.org/10.1145/2858036.2858564",
+      "doi": "10.1145/2858036.2858564"
+    },
+    {
+      "text": "Donald\u00a0J. Berndt and James Clifford. 1994. Using dynamic time warping to find patterns in time series. In Proceedings of the 3rd International Conference on Knowledge Discovery and Data Mining(AAAIWS\u201994). AAAI Press, Seattle, WA, 359\u2013370.",
+      "doi": ""
+    },
+    {
+      "text": "K\u00a0Abhijith Bhaskaran, Anoop\u00a0G. Nair, K\u00a0Deepak Ram, Krishnan Ananthanarayanan, and H.R. Nandi\u00a0Vardhan. 2016. Smart gloves for hand gesture recognition: Sign language to speech conversion system. In 2016 International Conference on Robotics and Automation for Humanitarian Applications (RAHA). 1\u20136. https://doi.org/10.1109/RAHA.2016.7931887",
+      "doi": ""
+    },
+    {
+      "text": "G\u00e9rard Biau and Erwan Scornet. 2016. A random forest guided tour. TEST 25, 2 (June 2016), 197\u2013227. https://doi.org/10.1007/s11749-016-0481-7",
+      "doi": ""
+    },
+    {
+      "text": "Elaine\u00a0A. Biddiss and Tom\u00a0T. Chau. 2007. Upper limb prosthesis use and abandonment: a survey of the last 25 years. Prosthetics and Orthotics International 31, 3 (Sept. 2007), 236\u2013257. https://doi.org/10.1080/03093640600994581",
+      "doi": ""
+    },
+    {
+      "text": "Fady\u00a0S. Botros, Angkoon Phinyomark, and Erik\u00a0J. Scheme. 2022. Electromyography-Based Gesture Recognition: Is It Time to Change Focus From the Forearm to the Wrist?IEEE Transactions on Industrial Informatics 18, 1 (Jan. 2022), 174\u2013184. https://doi.org/10.1109/TII.2020.3041618 Conference Name: IEEE Transactions on Industrial Informatics.",
+      "doi": ""
+    },
+    {
+      "text": "Lauren\u00a0M. Britton and Bryan Semaan. 2017. Manifesting the Cyborg through Techno-Body Modification: From Human-Computer Interaction to Integration. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 2499\u20132510. https://doi.org/10.1145/3025453.3025629",
+      "doi": "10.1145/3025453.3025629"
+    },
+    {
+      "text": "Evan Campbell, Jason Chang, Angkoon Phinyomark, and Erik Scheme. 2020. A COMPARISON OF AMPUTEE AND ABLE-BODIED INTER-SUBJECT VARIABILITY IN MYOELECTRIC CONTROL. MEC20 Symposium (Jul. 2020). https://conferences.lib.unb.ca/index.php/mec/article/view/45",
+      "doi": ""
+    },
+    {
+      "text": "Evan Campbell, Angkoon Phinyomark, and Erik Scheme. 2019. Linear Discriminant Analysis with Bayesian Risk Parameters for Myoelectric Control. In 2019 IEEE Global Conference on Signal and Information Processing (GlobalSIP). 1\u20135. https://doi.org/10.1109/GlobalSIP45357.2019.8969237",
+      "doi": ""
+    },
+    {
+      "text": "Evan Campbell, Angkoon Phinyomark, and Erik Scheme. 2020. Current Trends and Confounding Factors in Myoelectric Control: Limb Position and Contraction Intensity. Sensors (Basel, Switzerland) 20, 6 (March 2020), 1613. https://doi.org/10.3390/s20061613",
+      "doi": ""
+    },
+    {
+      "text": "Evan Campbell, Angkoon Phinyomark, and Erik Scheme. 2020. Differences in Perspective on Inertial Measurement Unit Sensor Integration in Myoelectric Control. (March 2020). https://doi.org/10.48550/arXiv.2003.03424 arXiv:2003.03424 [cs, eess].",
+      "doi": ""
+    },
+    {
+      "text": "Evan Campbell, Angkoon Phinyomark, and Erik Scheme. 2021. Deep Cross-User Models Reduce the Training Burden in Myoelectric Control. Frontiers in Neuroscience 15 (2021). https://www.frontiersin.org/articles/10.3389/fnins.2021.657958",
+      "doi": ""
+    },
+    {
+      "text": "A.D.C. Chan and K.B. Englehart. 2005. Continuous myoelectric control for powered prostheses using hidden Markov models. IEEE Transactions on Biomedical Engineering 52, 1 (Jan. 2005), 121\u2013124. https://doi.org/10.1109/TBME.2004.836492 Conference Name: IEEE Transactions on Biomedical Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Chih-Chung Chang and Chih-Jen Lin. 2011. LIBSVM: A library for support vector machines. ACM Transactions on Intelligent Systems and Technology 2, 3 (May 2011), 27:1\u201327:27. https://doi.org/10.1145/1961189.1961199",
+      "doi": "10.1145/1961189.1961199"
+    },
+    {
+      "text": "Jason Chang, Angkoon Phinyomark, Scott Bateman, and Erik Scheme. 2020. Wearable EMG-Based Gesture Recognition Systems During Activities of Daily Living: An Exploratory Study. In 2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC). 3448\u20133451. https://doi.org/10.1109/EMBC44109.2020.9176615 ISSN: 2694-0604.",
+      "doi": ""
+    },
+    {
+      "text": "Jason Chang, Angkoon Phinyomark, and Erik Scheme. 2020. Assessment of EMG Benchmark Data for Gesture Recognition Using the NinaPro Database. Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference 2020 (July 2020), 3339\u20133342. https://doi.org/10.1109/EMBC44109.2020.9175260",
+      "doi": ""
+    },
+    {
+      "text": "Hong Cheng, Lu Yang, and Zicheng Liu. 2016. Survey on 3D Hand Gesture Recognition. IEEE Transactions on Circuits and Systems for Video Technology 26, 9 (Sept. 2016), 1659\u20131673. https://doi.org/10.1109/TCSVT.2015.2469551 Conference Name: IEEE Transactions on Circuits and Systems for Video Technology.",
+      "doi": "10.1109/TCSVT.2015.2469551"
+    },
+    {
+      "text": "Christian Cipriani, Jacob\u00a0L. Segil, J.\u00a0Alex Birdwell, and Richard F.\u00a0ff Weir. 2014. Dexterous Control of a Prosthetic Hand Using Fine-Wire Intramuscular Electrodes in Targeted Extrinsic Muscles. IEEE Transactions on Neural Systems and Rehabilitation Engineering 22, 4 (July 2014), 828\u2013836. https://doi.org/10.1109/TNSRE.2014.2301234 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Enrico Costanza, Samuel\u00a0A. Inverso, and Rebecca Allen. 2005. Toward subtle intimate interfaces for mobile devices using an EMG controller. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201905). Association for Computing Machinery, New York, NY, USA, 481\u2013489. https://doi.org/10.1145/1054972.1055039",
+      "doi": "10.1145/1054972.1055039"
+    },
+    {
+      "text": "Enrico Costanza, Samuel\u00a0A. Inverso, Rebecca Allen, and Pattie Maes. 2007. Intimate interfaces in action: assessing the usability and subtlety of emg-based motionless gestures. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201907). Association for Computing Machinery, New York, NY, USA, 819\u2013828. https://doi.org/10.1145/1240624.1240747",
+      "doi": "10.1145/1240624.1240747"
+    },
+    {
+      "text": "Eleanor Criswell. 2010. Cram\u2019s Introduction to Surface Electromyography. Jones & Bartlett Publishers. Google-Books-ID: ADYm0TqiDo8C.",
+      "doi": ""
+    },
+    {
+      "text": "Ulysse C\u00f4t\u00e9-Allard, Evan Campbell, Angkoon Phinyomark, Fran\u00e7ois Laviolette, Benoit Gosselin, and Erik Scheme. 2020. Interpreting Deep Learning Features for Myoelectric Control: A Comparison With Handcrafted Features. Frontiers in Bioengineering and Biotechnology 8 (2020). https://www.frontiersin.org/articles/10.3389/fbioe.2020.00158",
+      "doi": ""
+    },
+    {
+      "text": "Ulysse C\u00f4t\u00e9-Allard, Cheikh\u00a0Latyr Fall, Alexandre Drouin, Alexandre Campeau-Lecours, Cl\u00e9ment Gosselin, Kyrre Glette, Fran\u00e7ois Laviolette, and Benoit Gosselin. 2019. Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning. IEEE Transactions on Neural Systems and Rehabilitation Engineering 27, 4 (April 2019), 760\u2013771. https://doi.org/10.1109/TNSRE.2019.2896269 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Ulysse C\u00f4t\u00e9-Allard, Gabriel Gagnon-Turcotte, Angkoon Phinyomark, Kyrre Glette, Erik\u00a0J. Scheme, Fran\u00e7ois Laviolette, and Benoit Gosselin. 2020. Unsupervised Domain Adversarial Self-Calibration for Electromyography-Based Gesture Recognition. IEEE Access 8(2020), 177941\u2013177955. https://doi.org/10.1109/ACCESS.2020.3027497 Conference Name: IEEE Access.",
+      "doi": ""
+    },
+    {
+      "text": "Qingfeng Dai, Xiangdong Li, Weidong Geng, Wenguang Jin, and Xiubo Liang. 2021. CAPG-MYO: A Muscle-Computer Interface Supporting User-defined Gesture Recognition. In The 2021 9th International Conference on Computer and Communications Management(ICCCM \u201921). Association for Computing Machinery, New York, NY, USA, 52\u201358. https://doi.org/10.1145/3479162.3479170",
+      "doi": "10.1145/3479162.3479170"
+    },
+    {
+      "text": "Carlo\u00a0J. De\u00a0Luca, L. Donald\u00a0Gilmore, Mikhail Kuznetsov, and Serge\u00a0H. Roy. 2010. Filtering the surface EMG signal: Movement artifact and baseline noise contamination. Journal of Biomechanics 43, 8 (May 2010), 1573\u20131579. https://doi.org/10.1016/j.jbiomech.2010.01.027",
+      "doi": ""
+    },
+    {
+      "text": "Joseph DelPreto and Daniela Rus. 2020. Plug-and-Play Gesture Control Using Muscle and Motion Sensors. In Proceedings of the 2020 ACM/IEEE International Conference on Human-Robot Interaction(HRI \u201920). Association for Computing Machinery, New York, NY, USA, 439\u2013448. https://doi.org/10.1145/3319502.3374823",
+      "doi": "10.1145/3319502.3374823"
+    },
+    {
+      "text": "Tim Duente, Justin Schulte, Max Pfeiffer, and Michael Rohs. 2018. MuscleIO: Muscle-Based Input and Output for Casual Notifications. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 2, Article 64 (jul 2018), 21\u00a0pages. https://doi.org/10.1145/3214267",
+      "doi": "10.1145/3214267"
+    },
+    {
+      "text": "Tim Duente, Justin Schulte, Max Pfeiffer, and Michael Rohs. 2018. MuscleIO: Muscle-Based Input and Output for Casual Notifications. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 2, Article 64 (jul 2018), 21\u00a0pages. https://doi.org/10.1145/3214267",
+      "doi": "10.1145/3214267"
+    },
+    {
+      "text": "A.-C. Dupont and E.L. Morin. 1994. A myoelectric control evaluation and trainer system. IEEE Transactions on Rehabilitation Engineering 2, 2 (June 1994), 100\u2013107. https://doi.org/10.1109/86.313151 Conference Name: IEEE Transactions on Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Florian Echtler and Maximilian H\u00e4u\u00dfler. 2018. Open Source, Open Science, and the Replication Crisis in HCI. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems(CHI EA \u201918). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3170427.3188395",
+      "doi": "10.1145/3170427.3188395"
+    },
+    {
+      "text": "Chloe Eghtebas, Sandro Weber, and Gudrun Klinker. 2018. Investigation into Natural Gestures Using EMG for \"SuperNatural\" Interaction in VR. In The 31st Annual ACM Symposium on User Interface Software and Technology Adjunct Proceedings(UIST \u201918 Adjunct). Association for Computing Machinery, New York, NY, USA, 102\u2013104. https://doi.org/10.1145/3266037.3266115",
+      "doi": "10.1145/3266037.3266115"
+    },
+    {
+      "text": "Jacob Eisenstein and Angel Puerta. 2000. Adaptation in automated user-interface design. In Proceedings of the 5th international conference on Intelligent user interfaces(IUI \u201900). Association for Computing Machinery, New York, NY, USA, 74\u201381. https://doi.org/10.1145/325737.325787",
+      "doi": "10.1145/325737.325787"
+    },
+    {
+      "text": "I. Elamvazuthi, N.\u00a0H.\u00a0X. Duy, Zulfiqar Ali, S.\u00a0W. Su, M.\u00a0K. A.\u00a0Ahamed Khan, and S. Parasuraman. 2015. Electromyography (EMG) based Classification of Neuromuscular Disorders using Multi-Layer Perceptron. Procedia Computer Science 76 (Jan. 2015), 223\u2013228. https://doi.org/10.1016/j.procs.2015.12.346",
+      "doi": ""
+    },
+    {
+      "text": "K. Englehart and B. Hudgins. 2003. A robust, real-time control scheme for multifunction myoelectric control. IEEE Transactions on Biomedical Engineering 50, 7 (July 2003), 848\u2013854. https://doi.org/10.1109/TBME.2003.813539 Conference Name: IEEE Transactions on Biomedical Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Yinfeng Fang and Honghai Liu. 2014. Robust sEMG electrodes configuration for pattern recognition based prosthesis control. In 2014 IEEE International Conference on Systems, Man, and Cybernetics (SMC). 2210\u20132215. https://doi.org/10.1109/SMC.2014.6974252 ISSN: 1062-922X.",
+      "doi": ""
+    },
+    {
+      "text": "Dario Farina, Ning Jiang, Hubertus Rehbaum, Ale\u0161 Holobar, Bernhard Graimann, Hans Dietl, and Oskar\u00a0C. Aszmann. 2014. The Extraction of Neural Information from the Surface EMG for the Control of Upper-Limb Prostheses: Emerging Avenues and Challenges. IEEE Transactions on Neural Systems and Rehabilitation Engineering 22, 4 (July 2014), 797\u2013809. https://doi.org/10.1109/TNSRE.2014.2305111 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Dario Farina, Roberto Merletti, and Roger\u00a0M. Enoka. 2004. The extraction of neural strategies from the surface EMG. Journal of Applied Physiology 96, 4 (April 2004), 1486\u20131495. https://doi.org/10.1152/japplphysiol.01070.2003 Publisher: American Physiological Society.",
+      "doi": ""
+    },
+    {
+      "text": "Todd\u00a0R. Farrell and Richard\u00a0F. Weir. 2007. The Optimal Controller Delay for Myoelectric Prostheses. IEEE Transactions on Neural Systems and Rehabilitation Engineering 15, 1 (March 2007), 111\u2013118. https://doi.org/10.1109/TNSRE.2007.891391 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0R. Flatla, Carl Gutwin, Lennart\u00a0E. Nacke, Scott Bateman, and Regan\u00a0L. Mandryk. 2011. Calibration games: making calibration tasks enjoyable by adding motivating game elements. In Proceedings of the 24th annual ACM symposium on User interface software and technology(UIST \u201911). Association for Computing Machinery, New York, NY, USA, 403\u2013412. https://doi.org/10.1145/2047196.2047248",
+      "doi": "10.1145/2047196.2047248"
+    },
+    {
+      "text": "Anders Fougner, \u00d8yvind Stavdahl, Peter\u00a0J. Kyberd, Yves\u00a0G. Losier, and Philip\u00a0A. Parker. 2012. Control of Upper Limb Prostheses: Terminology and Proportional Myoelectric Control\u2014A Review. IEEE Transactions on Neural Systems and Rehabilitation Engineering 20, 5 (Sept. 2012), 663\u2013677. https://doi.org/10.1109/TNSRE.2012.2196711 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Christopher Frauenberger. 2019. Entanglement HCI The Next Wave?ACM Trans. Comput.-Hum. Interact. 27, 1, Article 2 (nov 2019), 27\u00a0pages. https://doi.org/10.1145/3364998",
+      "doi": "10.1145/3364998"
+    },
+    {
+      "text": "Weidong Geng, Yu Du, Wenguang Jin, Wentao Wei, Yu Hu, and Jiajun Li. 2016. Gesture recognition by instantaneous surface EMG images. Scientific Reports 6, 1 (Nov. 2016), 36571. https://doi.org/10.1038/srep36571 Number: 1 Publisher: Nature Publishing Group.",
+      "doi": ""
+    },
+    {
+      "text": "Benyamin Ghojogh and Mark Crowley. 2019. Linear and Quadratic Discriminant Analysis: Tutorial. http://arxiv.org/abs/1906.02590 arXiv:1906.02590 [cs, stat].",
+      "doi": ""
+    },
+    {
+      "text": "S.\u00a0B. Godfrey, A. Ajoudani, M. Catalano, G. Grioli, and A. Bicchi. 2013. A synergy-driven approach to a myoelectric hand. In 2013 IEEE 13th International Conference on Rehabilitation Robotics (ICORR). 1\u20136. https://doi.org/10.1109/ICORR.2013.6650377 ISSN: 1945-7901.",
+      "doi": ""
+    },
+    {
+      "text": "Klaus Greff, Rupesh\u00a0K. Srivastava, Jan Koutn\u00edk, Bas\u00a0R. Steunebrink, and J\u00fcrgen Schmidhuber. 2017. LSTM: A Search Space Odyssey. IEEE Transactions on Neural Networks and Learning Systems 28, 10 (Oct. 2017), 2222\u20132232. https://doi.org/10.1109/TNNLS.2016.2582924 Conference Name: IEEE Transactions on Neural Networks and Learning Systems.",
+      "doi": ""
+    },
+    {
+      "text": "J.\u00a0M. Hahne, F. Bie\u00dfmann, N. Jiang, H. Rehbaum, D. Farina, F.\u00a0C. Meinecke, K.-R. M\u00fcller, and L.\u00a0C. Parra. 2014. Linear and Nonlinear Regression Techniques for Simultaneous and Proportional Myoelectric Control. IEEE Transactions on Neural Systems and Rehabilitation Engineering 22, 2 (March 2014), 269\u2013279. https://doi.org/10.1109/TNSRE.2014.2305520 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Janne\u00a0M. Hahne, Dario Farina, Ning Jiang, and David Liebetanz. 2016. A Novel Percutaneous Electrode Implant for Improving Robustness in Advanced Myoelectric Control. Frontiers in Neuroscience 10 (March 2016), 114. https://doi.org/10.3389/fnins.2016.00114",
+      "doi": ""
+    },
+    {
+      "text": "Faizan Haque, Mathieu Nancel, and Daniel Vogel. 2015. Myopoint: Pointing and Clicking Using Forearm Mounted Electromyography and Inertial Motion Sensors. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems(CHI \u201915). Association for Computing Machinery, New York, NY, USA, 3653\u20133656. https://doi.org/10.1145/2702123.2702133",
+      "doi": "10.1145/2702123.2702133"
+    },
+    {
+      "text": "L. Hargrove, Y. Losier, B. Lock, K. Englehart, and B. Hudgins. 2007. A real-time pattern recognition based myoelectric control usability study implemented in a virtual environment. Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference 2007(2007), 4842\u20134845. https://doi.org/10.1109/IEMBS.2007.4353424",
+      "doi": ""
+    },
+    {
+      "text": "Levi\u00a0J. Hargrove, Kevin Englehart, and Bernard Hudgins. 2007. A comparison of surface and intramuscular myoelectric signal classification. IEEE transactions on bio-medical engineering 54, 5 (May 2007), 847\u2013853. https://doi.org/10.1109/TBME.2006.889192",
+      "doi": ""
+    },
+    {
+      "text": "Levi\u00a0J. Hargrove, Laura\u00a0A. Miller, Kristi Turner, and Todd\u00a0A. Kuiken. 2017. Myoelectric Pattern Recognition Outperforms Direct Control for Transhumeral Amputees with Targeted Muscle Reinnervation: A Randomized Clinical Trial. Scientific Reports 7 (Oct. 2017), 13840. https://doi.org/10.1038/s41598-017-14386-w",
+      "doi": ""
+    },
+    {
+      "text": "Levi\u00a0J. Hargrove, Erik\u00a0J. Scheme, Kevin\u00a0B. Englehart, and Bernard\u00a0S. Hudgins. 2010. Multiple Binary Classifications via Linear Discriminant Analysis for Improved Controllability of a Powered Prosthesis. IEEE Transactions on Neural Systems and Rehabilitation Engineering 18, 1 (Feb. 2010), 49\u201357. https://doi.org/10.1109/TNSRE.2009.2039590 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Bo-Jhang Ho, Renju Liu, Hsiao-Yun Tseng, and Mani Srivastava. 2017. MyoBuddy: Detecting Barbell Weight Using Electromyogram Sensors. In Proceedings of the 1st Workshop on Digital Biomarkers(DigitalBiomarkers \u201917). Association for Computing Machinery, New York, NY, USA, 27\u201332. https://doi.org/10.1145/3089341.3089346",
+      "doi": "10.1145/3089341.3089346"
+    },
+    {
+      "text": "Megan Hofmann, Jeffrey Harris, Scott\u00a0E. Hudson, and Jennifer Mankoff. 2016. Helping Hands: Requirements for a Prototyping Methodology for Upper-Limb Prosthetics Users. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 1769\u20131780. https://doi.org/10.1145/2858036.2858340",
+      "doi": "10.1145/2858036.2858340"
+    },
+    {
+      "text": "Yu Hu and Qiao Wang. 2020. A Comprehensive Evaluation of Hidden Markov Model for Hand Movement Recognition with Surface Electromyography. In Proceedings of the 2020 2nd International Conference on Robotics, Intelligent Control and Artificial Intelligence(RICAI 2020). Association for Computing Machinery, New York, NY, USA, 85\u201391. https://doi.org/10.1145/3438872.3439060",
+      "doi": "10.1145/3438872.3439060"
+    },
+    {
+      "text": "Donny Huang, Xiaoyi Zhang, T.\u00a0Scott Saponas, James Fogarty, and Shyamnath Gollakota. 2015. Leveraging Dual-Observable Input for Fine-Grained Thumb Interaction Using Forearm EMG. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology(UIST \u201915). Association for Computing Machinery, New York, NY, USA, 523\u2013528. https://doi.org/10.1145/2807442.2807506",
+      "doi": "10.1145/2807442.2807506"
+    },
+    {
+      "text": "Gan Huang, Dingguo Zhang, Xidian Zheng, and Xiangyang Zhu. 2010. An EMG-based handwriting recognition through dynamic time warping. In 2010 Annual International Conference of the IEEE Engineering in Medicine and Biology. 4902\u20134905. https://doi.org/10.1109/IEMBS.2010.5627246 ISSN: 1558-4615.",
+      "doi": ""
+    },
+    {
+      "text": "Qi Huang, Dapeng Yang, Li Jiang, Huajie Zhang, Hong Liu, and Kiyoshi Kotani. 2017. A Novel Unsupervised Adaptive Learning Method for Long-Term Electromyography (EMG) Pattern Recognition. Sensors 17, 6 (June 2017), 1370. https://doi.org/10.3390/s17061370 Number: 6 Publisher: Multidisciplinary Digital Publishing Institute.",
+      "doi": ""
+    },
+    {
+      "text": "B. Hudgins, P. Parker, and R.N. Scott. 1993. A new strategy for multifunction myoelectric control. IEEE Transactions on Biomedical Engineering 40, 1 (Jan. 1993), 82\u201394. https://doi.org/10.1109/10.204774 Conference Name: IEEE Transactions on Biomedical Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Ryo Izuta, Kazuya Murao, Tsutomu Terada, and Masahiko Tsukamoto. 2014. Early gesture recognition method with an accelerometer. In Proceedings of the 5th Augmented Human International Conference(AH \u201914). Association for Computing Machinery, New York, NY, USA, 1\u20132. https://doi.org/10.1145/2582051.2582105",
+      "doi": "10.1145/2582051.2582105"
+    },
+    {
+      "text": "Milad Jabbari, Rami\u00a0N. Khushaba, and Kianoush Nazarpour. 2020. EMG-Based Hand Gesture Classification with Long Short-Term Memory Deep Recurrent Neural Networks. In 2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC). 3302\u20133305. https://doi.org/10.1109/EMBC44109.2020.9175279 ISSN: 2694-0604.",
+      "doi": ""
+    },
+    {
+      "text": "Robert J.\u00a0K. Jacob. 1990. What You Look at is What You Get: Eye Movement-Based Interaction Techniques. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Seattle, Washington, USA) (CHI \u201990). Association for Computing Machinery, New York, NY, USA, 11\u201318. https://doi.org/10.1145/97243.97246",
+      "doi": "10.1145/97243.97246"
+    },
+    {
+      "text": "A.K. Jain, Jianchang Mao, and K.M. Mohiuddin. 1996. Artificial neural networks: a tutorial. Computer 29, 3 (March 1996), 31\u201344. https://doi.org/10.1109/2.485891 Conference Name: Computer.",
+      "doi": "10.1109/2.485891"
+    },
+    {
+      "text": "Lisa\u00a0Brown Jaloza. 2021. Inside Facebook Reality Labs: Wrist-based interaction for the next computing platform. Tech at Meta (March 2021). https://tech.fb.com/ar-vr/2021/03/inside-facebook-reality-labs-wrist-based-interaction-for-the-next-computing-platform/",
+      "doi": ""
+    },
+    {
+      "text": "Haider\u00a0Ali Javaid, Nasir Rashid, Mohsin\u00a0Islam Tiwana, and Muhammad\u00a0Waseem Anwar. 2018. Comparative Analysis of EMG Signal Features in Time-domain and Frequency-domain using MYO Gesture Control. In Proceedings of the 2018 4th International Conference on Mechatronics and Robotics Engineering(ICMRE 2018). Association for Computing Machinery, New York, NY, USA, 157\u2013162. https://doi.org/10.1145/3191477.3191495",
+      "doi": "10.1145/3191477.3191495"
+    },
+    {
+      "text": "Ning Jiang\u00a0$\u2303*$, Kevin\u00a0B. Englehart, and Philip\u00a0A. Parker. 2009. Extracting Simultaneous and Proportional Neural Control Information for Multiple-DOF Prostheses From the Surface Electromyographic Signal. IEEE Transactions on Biomedical Engineering 56, 4 (April 2009), 1070\u20131080. https://doi.org/10.1109/TBME.2008.2007967 Conference Name: IEEE Transactions on Biomedical Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Liangxiao Jiang, Zhihua Cai, Dianhong Wang, and Siwei Jiang. 2007. Survey of Improving K-Nearest-Neighbor for Classification. In Fourth International Conference on Fuzzy Systems and Knowledge Discovery (FSKD 2007), Vol.\u00a01. 679\u2013683. https://doi.org/10.1109/FSKD.2007.552",
+      "doi": "10.1109/FSKD.2007.552"
+    },
+    {
+      "text": "Ernest\u00a0N. Kamavuako, Erik\u00a0J. Scheme, and Kevin\u00a0B. Englehart. 2014. On the usability of intramuscular EMG for prosthetic control: A Fitts\u2019 Law approach. Journal of Electromyography and Kinesiology 24, 5 (Oct. 2014), 770\u2013777. https://doi.org/10.1016/j.jelekin.2014.06.009",
+      "doi": ""
+    },
+    {
+      "text": "Jakob Karolus, Annika Kilian, Thomas Kosch, Albrecht Schmidt, and Pawe\u0142\u00a0W. Wozniak. 2020. Hit the Thumb Jack! Using Electromyography to Augment the Piano Keyboard. In Proceedings of the 2020 ACM Designing Interactive Systems Conference. Association for Computing Machinery, New York, NY, USA, 429\u2013440. http://doi.org/10.1145/3357236.3395500",
+      "doi": "10.1145/3357236.3395500"
+    },
+    {
+      "text": "Jakob Karolus, Francisco Kiss, Caroline Eckerth, Nicolas Viot, Felix Bachmann, Albrecht Schmidt, and Pawel\u00a0W. Wozniak. 2021. EMBody: A Data-Centric Toolkit for EMG-Based Interface Prototyping and Experimentation. Proceedings of the ACM on Human-Computer Interaction 5, EICS (May 2021), 195:1\u2013195:29. https://doi.org/10.1145/3457142",
+      "doi": "10.1145/3457142"
+    },
+    {
+      "text": "Jakob Karolus, Hendrik Schuff, Thomas Kosch, Pawe\u0142\u00a0W. Wozniak, and Albrecht Schmidt. 2018. EMGuitar: Assisting Guitar Playing with Electromyography. In Proceedings of the 2018 Designing Interactive Systems Conference(DIS \u201918). Association for Computing Machinery, New York, NY, USA, 651\u2013655. https://doi.org/10.1145/3196709.3196803",
+      "doi": "10.1145/3196709.3196803"
+    },
+    {
+      "text": "Frederic Kerber, Pascal Lessel, and Antonio Kr\u00fcger. 2015. Same-side Hand Interactions with Arm-placed Devices Using EMG. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems(CHI EA \u201915). Association for Computing Machinery, New York, NY, USA, 1367\u20131372. https://doi.org/10.1145/2702613.2732895",
+      "doi": "10.1145/2702613.2732895"
+    },
+    {
+      "text": "Jonghwa Kim, Stephan Mastnik, and Elisabeth Andr\u00e9. 2008. EMG-based hand gesture recognition for realtime biosignal interfacing. In Proceedings of the 13th international conference on Intelligent user interfaces(IUI \u201908). Association for Computing Machinery, New York, NY, USA, 30\u201339. https://doi.org/10.1145/1378773.1378778",
+      "doi": "10.1145/1378773.1378778"
+    },
+    {
+      "text": "Heli Koskim\u00e4ki, Pekka Siirtola, and Juha R\u00f6ning. 2017. MyoGym: introducing an open gym data set for activity recognition collected using myo armband. In Proceedings of the 2017 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2017 ACM International Symposium on Wearable Computers(UbiComp \u201917). Association for Computing Machinery, New York, NY, USA, 537\u2013546. https://doi.org/10.1145/3123024.3124400",
+      "doi": "10.1145/3123024.3124400"
+    },
+    {
+      "text": "Todd\u00a0A. Kuiken, Guanglin Li, Blair\u00a0A. Lock, Robert\u00a0D. Lipschutz, Laura\u00a0A. Miller, Kathy\u00a0A. Stubblefield, and Kevin Englehart. 2009. Targeted Muscle Reinnervation for Real-Time Myoelectric Control of Multifunction Artificial Arms. JAMA : the journal of the American Medical Association 301, 6 (Feb. 2009), 619. https://doi.org/10.1001/jama.2009.116 Publisher: NIH Public Access.",
+      "doi": ""
+    },
+    {
+      "text": "Pradeep Kumar, Angkoon Phinyomark, and Erik Scheme. 2021. Verification-Based Design of a Robust EMG Wake Word. In 2021 43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC). 638\u2013642. https://doi.org/10.1109/EMBC46164.2021.9630922 ISSN: 2694-0604.",
+      "doi": ""
+    },
+    {
+      "text": "Y. Lecun, L. Bottou, Y. Bengio, and P. Haffner. 1998. Gradient-based learning applied to document recognition. Proc. IEEE 86, 11 (Nov. 1998), 2278\u20132324. https://doi.org/10.1109/5.726791 Conference Name: Proceedings of the IEEE.",
+      "doi": ""
+    },
+    {
+      "text": "M. Le\u00f3n, J.\u00a0M. Guti\u00e9rrez, L. Leija, and R. Mu\u00f1oz. 2011. EMG pattern recognition using Support Vector Machines classifier for myoelectric control purposes. In 2011 Pan American Health Care Exchanges. 175\u2013178. https://doi.org/10.1109/PAHCE.2011.5871873 ISSN: 2327-817X.",
+      "doi": ""
+    },
+    {
+      "text": "Guanglin Li, Yaonan Li, Zhiyong Zhang, Yanjuan Geng, and Rui Zhou. 2010. Selection of sampling rate for EMG pattern recognition based prosthesis control. In 2010 Annual International Conference of the IEEE Engineering in Medicine and Biology. 5058\u20135061. https://doi.org/10.1109/IEMBS.2010.5626224 ISSN: 1558-4615.",
+      "doi": ""
+    },
+    {
+      "text": "Yun Li, Xiang Chen, Jianxun Tian, Xu Zhang, Kongqiao Wang, and Jihai Yang. 2010. Automatic recognition of sign language subwords based on portable accelerometer and EMG sensors. In International Conference on Multimodal Interfaces and the Workshop on Machine Learning for Multimodal Interaction(ICMI-MLMI \u201910). Association for Computing Machinery, New York, NY, USA, 1\u20137. https://doi.org/10.1145/1891903.1891926",
+      "doi": "10.1145/1891903.1891926"
+    },
+    {
+      "text": "B.\u00a0A. Lock, K. Englehart, and B. Hudgins. 2005. REAL-TIME MYOELECTRIC CONTROL IN A VIRTUAL ENVIRONMENT TO RELATE USABILITY VS. ACCURACY. (2005). https://dukespace.lib.duke.edu/dspace/handle/10161/2721 Accepted: 2010-07-21T17:10:39Z Publisher: Myoelectric Symposium.",
+      "doi": ""
+    },
+    {
+      "text": "I\u00a0Scott MacKenzie. 2012. Human-computer interaction: An empirical research perspective. (2012).",
+      "doi": ""
+    },
+    {
+      "text": "Enzo Mastinu, Pascal Doguet, Yohan Botquin, Bo H\u00e5kansson, and Max Ortiz-Catalan. 2017. Embedded System for Prosthetic Control Using Implanted Neuromuscular Interfaces Accessed Via an Osseointegrated Implant. IEEE Transactions on Biomedical Circuits and Systems 11, 4 (Aug. 2017), 867\u2013877. https://doi.org/10.1109/TBCAS.2017.2694710 Conference Name: IEEE Transactions on Biomedical Circuits and Systems.",
+      "doi": ""
+    },
+    {
+      "text": "Paul McCool, Graham\u00a0D. Fraser, Adrian D.\u00a0C. Chan, Lykourgos Petropoulakis, and John\u00a0J. Soraghan. 2014. Identification of Contaminant Type in Surface Electromyography (EMG) Signals. IEEE Transactions on Neural Systems and Rehabilitation Engineering 22, 4 (July 2014), 774\u2013783. https://doi.org/10.1109/TNSRE.2014.2299573 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Morgan McCullough, Hong Xu, Joel Michelson, Matthew Jackoski, Wyatt Pease, William Cobb, William Kalescky, Joshua Ladd, and Betsy Williams. 2015. Myo Arm: Swinging to Explore a VE. In Proceedings of the ACM SIGGRAPH Symposium on Applied Perception (T\u00fcbingen, Germany) (SAP \u201915). Association for Computing Machinery, New York, NY, USA, 107\u2013113. https://doi.org/10.1145/2804408.2804416",
+      "doi": "10.1145/2804408.2804416"
+    },
+    {
+      "text": "R. Merletti, A. Rainoldi, and D. Farina. 2001. Surface electromyography for noninvasive characterization of muscle. Exercise and Sport Sciences Reviews 29, 1 (2001), 20\u201325. https://doi.org/10.1097/00003677-200101000-00005",
+      "doi": ""
+    },
+    {
+      "text": "A. Merlo, D. Farina, and R. Merletti. 2003. A fast and reliable technique for muscle activity detection from surface EMG signals. IEEE Transactions on Biomedical Engineering 50, 3 (March 2003), 316\u2013323. https://doi.org/10.1109/TBME.2003.808829 Conference Name: IEEE Transactions on Biomedical Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "D.T. Mewett, H. Nazeran, and K.J. Reynolds. 2001. Removing power line noise from recorded EMG. In 2001 Conference Proceedings of the 23rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Vol.\u00a03. 2190\u20132193 vol.3. https://doi.org/10.1109/IEMBS.2001.1017205 ISSN: 1094-687X.",
+      "doi": ""
+    },
+    {
+      "text": "Nesrine Mezhoudi. 2013. User interface adaptation based on user feedback and machine learning. In Proceedings of the companion publication of the 2013 international conference on Intelligent user interfaces companion(IUI \u201913 Companion). Association for Computing Machinery, New York, NY, USA, 25\u201328. https://doi.org/10.1145/2451176.2451184",
+      "doi": "10.1145/2451176.2451184"
+    },
+    {
+      "text": "Robbin\u00a0A. Miranda, William\u00a0D. Casebeer, Amy\u00a0M. Hein, Jack\u00a0W. Judy, Eric\u00a0P. Krotkov, Tracy\u00a0L. Laabs, Justin\u00a0E. Manzo, Kent\u00a0G. Pankratz, Gill\u00a0A. Pratt, Justin\u00a0C. Sanchez, Douglas\u00a0J. Weber, Tracey\u00a0L. Wheeler, and Geoffrey S.\u00a0F. Ling. 2015. DARPA-funded efforts in the development of novel brain\u2013computer interface technologies. Journal of Neuroscience Methods 244 (April 2015), 52\u201367. https://doi.org/10.1016/j.jneumeth.2014.07.019",
+      "doi": ""
+    },
+    {
+      "text": "A. Mori, S. Uchida, R. Kurazume, R. Taniguchi, T. Hasegawa, and H. Sakoe. 2006. Early Recognition and Prediction of Gestures. In 18th International Conference on Pattern Recognition (ICPR\u201906), Vol.\u00a03. 560\u2013563. https://doi.org/10.1109/ICPR.2006.467 ISSN: 1051-4651.",
+      "doi": "10.1109/ICPR.2006.467"
+    },
+    {
+      "text": "Ganesh\u00a0R. Naik, Dinesh\u00a0Kant Kumar, Vijay\u00a0Pal Singh, and Marimuthu Palaniswami. 2006. Hand gestures for HCI using ICA of EMG. In Proceedings of the HCSNet workshop on Use of vision in human-computer interaction - Volume 56(VisHCI \u201906). Australian Computer Society, Inc., AUS, 67\u201372.",
+      "doi": ""
+    },
+    {
+      "text": "Jena\u00a0L. Nawfel, Kevin\u00a0B. Englehart, and Erik\u00a0J. Scheme. 2021. A Multi-Variate Approach to Predicting Myoelectric Control Usability. IEEE Transactions on Neural Systems and Rehabilitation Engineering 29 (2021), 1312\u20131327. https://doi.org/10.1109/TNSRE.2021.3094324 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Mohammadreza\u00a0Asghari Oskoei and Huosheng Hu. 2008. Support Vector Machine-Based Classification Scheme for Myoelectric Control Applied to Upper Limb. IEEE Transactions on Biomedical Engineering 55, 8 (Aug. 2008), 1956\u20131965. https://doi.org/10.1109/TBME.2008.919734 Conference Name: IEEE Transactions on Biomedical Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "P. Parker, K. Englehart, and B. Hudgins. 2006. Myoelectric signal processing for control of powered limb prostheses. Journal of Electromyography and Kinesiology 16, 6 (Dec. 2006), 541\u2013548. https://doi.org/10.1016/j.jelekin.2006.08.006",
+      "doi": ""
+    },
+    {
+      "text": "Simone Pasinetti, Matteo Lancini, Ileana Bodini, and Franco Docchio. 2015. A Novel Algorithm for EMG Signal Processing and Muscle Timing Measurement. IEEE Transactions on Instrumentation and Measurement 64, 11 (Nov. 2015), 2995\u20133004. https://doi.org/10.1109/TIM.2015.2434097 Conference Name: IEEE Transactions on Instrumentation and Measurement.",
+      "doi": ""
+    },
+    {
+      "text": "Prajwal Paudyal, Ayan Banerjee, and Sandeep\u00a0K.S. Gupta. 2016. SCEPTRE: A Pervasive, Non-Invasive, and Programmable Gesture Recognition Technology. In Proceedings of the 21st International Conference on Intelligent User Interfaces(IUI \u201916). Association for Computing Machinery, New York, NY, USA, 282\u2013293. https://doi.org/10.1145/2856767.2856794",
+      "doi": "10.1145/2856767.2856794"
+    },
+    {
+      "text": "Angkoon Phinyomark, Evan Campbell, and Erik Scheme. 2020. Surface Electromyography (EMG) Signal Processing, Classification, and Practical Considerations. In Biomedical Signal Processing: Advances in Theory, Algorithms and Applications, Ganesh Naik (Ed.). Springer, Singapore, 3\u201329. https://doi.org/10.1007/978-981-13-9097-5_1",
+      "doi": ""
+    },
+    {
+      "text": "Angkoon Phinyomark, Rami\u00a0N. Khushaba, Esther Ib\u00e1\u00f1ez-Marcelo, Alice Patania, Erik Scheme, and Giovanni Petri. 2017. Navigating features: a topologically informed chart of electromyographic features space. Journal of the Royal Society Interface 14, 137 (Dec. 2017), 20170734. https://doi.org/10.1098/rsif.2017.0734",
+      "doi": ""
+    },
+    {
+      "text": "Angkoon Phinyomark, Chusak Limsakul, and Pornchai Phukpattaranont. 2009. A Novel Feature Extraction for Robust EMG Pattern Recognition. https://doi.org/10.48550/arXiv.0912.3973 arXiv:0912.3973 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "Angkoon Phinyomark, Rami N.\u00a0Khushaba, and Erik Scheme. 2018. Feature Extraction and Selection for Myoelectric Control Based on Wearable EMG Sensors. Sensors 18, 5 (May 2018), 1615. https://doi.org/10.3390/s18051615 Number: 5 Publisher: Multidisciplinary Digital Publishing Institute.",
+      "doi": ""
+    },
+    {
+      "text": "Angkoon Phinyomark, Pornchai Phukpattaranont, and Chusak Limsakul. 2012. Feature reduction and selection for EMG signal classification. Expert Systems with Applications 39, 8 (June 2012), 7420\u20137431. https://doi.org/10.1016/j.eswa.2012.01.102",
+      "doi": "10.1016/j.eswa.2012.01.102"
+    },
+    {
+      "text": "Angkoon Phinyomark, Franck Quaine, Sylvie Charbonnier, Christine Serviere, Franck Tarpin-Bernard, and Yann Laurillau. 2013. EMG feature evaluation for improving myoelectric pattern recognition robustness. Expert Systems with Applications 40, 12 (Sept. 2013), 4832\u20134840. https://doi.org/10.1016/j.eswa.2013.02.023",
+      "doi": "10.1016/j.eswa.2013.02.023"
+    },
+    {
+      "text": "Angkoon Phinyomark and Erik Scheme. 2018. EMG Pattern Recognition in the Era of Big Data and Deep Learning. Big Data and Cognitive Computing 2, 3 (Sept. 2018), 21. https://doi.org/10.3390/bdcc2030021 Number: 3 Publisher: Multidisciplinary Digital Publishing Institute.",
+      "doi": ""
+    },
+    {
+      "text": "Angkoon Phinyomark and Erik Scheme. 2018. A feature extraction issue for myoelectric control based on wearable EMG sensors. In 2018 IEEE Sensors Applications Symposium (SAS). 1\u20136. https://doi.org/10.1109/SAS.2018.8336753",
+      "doi": "10.1109/SAS.2018.8336753"
+    },
+    {
+      "text": "Angkoon Phinyomark and Erik Scheme. 2018. A feature extraction issue for myoelectric control based on wearable EMG sensors. In 2018 IEEE Sensors Applications Symposium (SAS). 1\u20136. https://doi.org/10.1109/SAS.2018.8336753",
+      "doi": "10.1109/SAS.2018.8336753"
+    },
+    {
+      "text": "Cosima Prahm, Michael Bressler, Korbinian Eckstein, Hideaki Kuzuoka, Adrien Daigeler, and Jonas Kolbenschlag. 2022. Developing a wearable Augmented Reality for treating phantom limb pain using the Microsoft Hololens 2. In Augmented Humans 2022(AHs 2022). Association for Computing Machinery, New York, NY, USA, 309\u2013312. https://doi.org/10.1145/3519391.3524031",
+      "doi": "10.1145/3519391.3524031"
+    },
+    {
+      "text": "Cosima Prahm, Fares Kayali, Ivan Vujaklija, Agnes Sturma, and Oskar Aszmann. 2017. Increasing motivation, effort and performance through game-based rehabilitation for upper limb myoelectric prosthesis control. In 2017 International Conference on Virtual Rehabilitation (ICVR). 1\u20136. https://doi.org/10.1109/ICVR.2017.8007517 ISSN: 2331-9569.",
+      "doi": ""
+    },
+    {
+      "text": "Ashkan Radmand, Erik Scheme, and Kevin Englehart. 2014. On the Suitability of Integrating Accelerometry Data with Electromyography Signals for Resolving the Effect of Changes in Limb Position during Dynamic Limb Movement. JPO: Journal of Prosthetics and Orthotics 26, 4 (Oct. 2014), 185\u2013193. https://doi.org/10.1097/JPO.0000000000000041",
+      "doi": ""
+    },
+    {
+      "text": "M.B.I. Raez, M.S. Hussain, and F. Mohd-Yasin. 2006. Techniques of EMG signal analysis: detection, processing, classification and applications. Biological Procedures Online 8 (March 2006), 11\u201335. https://doi.org/10.1251/bpo115",
+      "doi": ""
+    },
+    {
+      "text": "Seema Rawat, Somya Vats, and Praveen Kumar. 2016. Evaluating and exploring the MYO ARMBAND. In 2016 International Conference System Modeling Advancement in Research Trends (SMART). 115\u2013120. https://doi.org/10.1109/SYSMART.2016.7894501",
+      "doi": ""
+    },
+    {
+      "text": "Jason\u00a0W. Robertson, Kevin\u00a0B. Englehart, and Erik\u00a0J. Scheme. 2019. Effects of Confidence-Based Rejection on Usability and Error in Pattern Recognition-Based Myoelectric Control. IEEE Journal of Biomedical and Health Informatics 23, 5 (Sept. 2019), 2002\u20132008. https://doi.org/10.1109/JBHI.2018.2878907 Conference Name: IEEE Journal of Biomedical and Health Informatics.",
+      "doi": ""
+    },
+    {
+      "text": "T\u00a0Scott Saponas, Desney\u00a0S. Tan, Dan Morris, and Ravin Balakrishnan. 2008. Demonstrating the feasibility of using forearm electromyography for muscle-computer interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201908). Association for Computing Machinery, New York, NY, USA, 515\u2013524. https://doi.org/10.1145/1357054.1357138",
+      "doi": "10.1145/1357054.1357138"
+    },
+    {
+      "text": "T.\u00a0Scott Saponas, Desney\u00a0S. Tan, Dan Morris, Ravin Balakrishnan, Jim Turner, and James\u00a0A. Landay. 2009. Enabling always-available input with muscle-computer interfaces. In Proceedings of the 22nd annual ACM symposium on User interface software and technology(UIST \u201909). Association for Computing Machinery, New York, NY, USA, 167\u2013176. https://doi.org/10.1145/1622176.1622208",
+      "doi": "10.1145/1622176.1622208"
+    },
+    {
+      "text": "T.\u00a0Scott Saponas, Desney\u00a0S. Tan, Dan Morris, Jim Turner, and James\u00a0A. Landay. 2010. Making muscle-computer interfaces more practical. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201910). Association for Computing Machinery, New York, NY, USA, 851\u2013854. https://doi.org/10.1145/1753326.1753451",
+      "doi": "10.1145/1753326.1753451"
+    },
+    {
+      "text": "Erik Scheme and Kevin Englehart. 2011. Electromyogram pattern recognition for control of powered upper-limb prostheses: state of the art and challenges for clinical use. Journal of Rehabilitation Research and Development 48, 6(2011), 643\u2013659. https://doi.org/10.1682/jrrd.2010.09.0177",
+      "doi": ""
+    },
+    {
+      "text": "Erik Scheme and Kevin Englehart. 2013. Training Strategies for Mitigating the Effect of Proportional Control on Classification in Pattern Recognition Based Myoelectric Control. Journal of prosthetics and orthotics : JPO 25, 2 (April 2013), 76\u201383. https://doi.org/10.1097/JPO.0b013e318289950b",
+      "doi": ""
+    },
+    {
+      "text": "E. Scheme, A. Fougner, \u00d8 Stavdahl, A.\u00a0C. Chan, and K. Englehart. 2010. Examining the adverse effects of limb position on pattern recognition based myoelectric control. Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference 2010(2010), 6337\u20136340. https://doi.org/10.1109/IEMBS.2010.5627638",
+      "doi": ""
+    },
+    {
+      "text": "Erik Scheme, Blair Lock, Levi Hargrove, Wendy Hill, Usha Kuruganti, and Kevin Englehart. 2014. Motion Normalized Proportional Control for Improved Pattern Recognition-Based Myoelectric Control. IEEE Transactions on Neural Systems and Rehabilitation Engineering 22, 1 (Jan. 2014), 149\u2013157. https://doi.org/10.1109/TNSRE.2013.2247421 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Erik\u00a0J. Scheme and Kevin\u00a0B. Englehart. 2013. Validation of a Selective Ensemble-Based Classification Scheme for Myoelectric Control Using a Three-Dimensional Fitts\u2019 Law Test. IEEE Transactions on Neural Systems and Rehabilitation Engineering 21, 4 (July 2013), 616\u2013623. https://doi.org/10.1109/TNSRE.2012.2226189 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Erik\u00a0J. Scheme, Bernard\u00a0S. Hudgins, and Kevin\u00a0B. Englehart. 2013. Confidence-based rejection for improved pattern recognition myoelectric control. IEEE transactions on bio-medical engineering 60, 6 (June 2013), 1563\u20131570. https://doi.org/10.1109/TBME.2013.2238939",
+      "doi": ""
+    },
+    {
+      "text": "Jonathon\u00a0W. Sensinger, Blair\u00a0A. Lock, and Todd\u00a0A. Kuiken. 2009. Adaptive Pattern Recognition of Myoelectric Signals: Exploration of Conceptual Framework and Practical Algorithms. IEEE Transactions on Neural Systems and Rehabilitation Engineering 17, 3 (June 2009), 270\u2013278. https://doi.org/10.1109/TNSRE.2009.2023282 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Nitin Seth, Rafaela C.\u00a0de Freitas, Mitchell Chaulk, Colleen O\u2019Connell, Kevin Englehart, and Erik Scheme. 2019. EMG Pattern Recognition for Persons with Cervical Spinal Cord Injury. In 2019 IEEE 16th International Conference on Rehabilitation Robotics (ICORR). 1055\u20131060. https://doi.org/10.1109/ICORR.2019.8779450",
+      "doi": "10.1109/ICORR.2019.8779450"
+    },
+    {
+      "text": "Manoj\u00a0Kumar Sharma and Debasis Samanta. 2014. Word Prediction System for Text Entry in Hindi. ACM Transactions on Asian Language Information Processing 13, 2 (June 2014), 8:1\u20138:29. https://doi.org/10.1145/2617590",
+      "doi": "10.1145/2617590"
+    },
+    {
+      "text": "Lauren\u00a0H. Smith and Levi\u00a0J. Hargrove. 2013. Comparison of surface and intramuscular EMG pattern recognition for simultaneous wrist/hand motion classification. Conference proceedings :... Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Conference 2013 (2013), 4223\u20134226. https://doi.org/10.1109/EMBC.2013.6610477",
+      "doi": ""
+    },
+    {
+      "text": "Lauren\u00a0H. Smith, Levi\u00a0J. Hargrove, Blair\u00a0A. Lock, and Todd\u00a0A. Kuiken. 2011. Determining the Optimal Window Length for Pattern Recognition-Based Myoelectric Control: Balancing the Competing Effects of Classification Error and Controller Delay. IEEE Transactions on Neural Systems and Rehabilitation Engineering 19, 2 (April 2011), 186\u2013192. https://doi.org/10.1109/TNSRE.2010.2100828 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0A. Spanias, Eric\u00a0J. Perreault, and Levi\u00a0J. Hargrove. 2016. Detection of and Compensation for EMG Disturbances for Powered Lower Limb Prosthesis Control. IEEE Transactions on Neural Systems and Rehabilitation Engineering 24, 2 (Feb. 2016), 226\u2013234. https://doi.org/10.1109/TNSRE.2015.2413393 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Adrian Stoica, Federico Salvioli, and Caitlin Flowers. 2014. Remote control of quadrotor teams, using hand gestures. In Proceedings of the 2014 ACM/IEEE international conference on Human-robot interaction(HRI \u201914). Association for Computing Machinery, New York, NY, USA, 296\u2013297. https://doi.org/10.1145/2559636.2559853",
+      "doi": "10.1145/2559636.2559853"
+    },
+    {
+      "text": "Paul Strohmeier and Jess McIntosh. 2020. Novel Input and Output Opportunities Using an Implanted Magnet. In Proceedings of the Augmented Humans International Conference (Kaiserslautern, Germany) (AHs \u201920). Association for Computing Machinery, New York, NY, USA, Article 10, 5\u00a0pages. https://doi.org/10.1145/3384657.3384785",
+      "doi": "10.1145/3384657.3384785"
+    },
+    {
+      "text": "Erik St\u00e5lberg and Peter Dioszeghy. 1991. Scanning EMG in normal muscle and in neuromuscular disorders. Electroencephalography and Clinical Neurophysiology/Evoked Potentials Section 81, 6 (Dec. 1991), 403\u2013416. https://doi.org/10.1016/0168-5597(91)90048-3",
+      "doi": ""
+    },
+    {
+      "text": "Abdulhamit Subasi. 2013. Classification of EMG signals using PSO optimized SVM for diagnosis of neuromuscular disorders. Computers in Biology and Medicine 43, 5 (June 2013), 576\u2013586. https://doi.org/10.1016/j.compbiomed.2013.01.020",
+      "doi": "10.1016/j.compbiomed.2013.01.020"
+    },
+    {
+      "text": "Aaron Tabor, Scott Bateman, and Erik Scheme. 2018. Evaluation of Myoelectric Control Learning Using Multi-Session Game-Based Training. IEEE Transactions on Neural Systems and Rehabilitation Engineering 26, 9 (Sept. 2018), 1680\u20131689. https://doi.org/10.1109/TNSRE.2018.2855561 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Aaron Tabor, Scott Bateman, Erik Scheme, David\u00a0R. Flatla, and Kathrin Gerling. 2017. Designing Game-Based Myoelectric Prosthesis Training. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). Association for Computing Machinery, New York, NY, USA, 1352\u20131363. https://doi.org/10.1145/3025453.3025676",
+      "doi": "10.1145/3025453.3025676"
+    },
+    {
+      "text": "Aaron Tabor, Wendy Hill, Scott Bateman, and Erik Scheme. 2017. Quantifying muscle control in myoelectric training games. Proc Myoelectr Control Symp (MEC) 4 (2017). https://www.unb.ca/ibme/_assets/documents/past-docs/MEC17-papers/tabor-quantifying-muscle-control.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Muhammad Tanweer and Kari A.\u00a0I. Halonen. 2019. Development of wearable hardware platform to measure the ECG and EMG with IMU to detect motion artifacts. In 2019 IEEE 22nd International Symposium on Design and Diagnostics of Electronic Circuits & Systems (DDECS). 1\u20134. https://doi.org/10.1109/DDECS.2019.8724639 ISSN: 2473-2117.",
+      "doi": ""
+    },
+    {
+      "text": "Marco Tomasini, Simone Benatti, Bojan Milosevic, Elisabetta Farella, and Luca Benini. 2016. Power Line Interference Removal for High-Quality Continuous Biosignal Monitoring With Low-Power Wearable Devices. IEEE Sensors Journal 16, 10 (May 2016), 3887\u20133895. https://doi.org/10.1109/JSEN.2016.2536363 Conference Name: IEEE Sensors Journal.",
+      "doi": ""
+    },
+    {
+      "text": "Stefano Tortora, Michele Moro, and Emanuele Menegatti. 2019. Dual-Myo real-time control of a humanoid arm for teleoperation. In Proceedings of the 14th ACM/IEEE International Conference on Human-Robot Interaction(HRI \u201919). IEEE Press, Daegu, Republic of Korea, 624\u2013625.",
+      "doi": "10.5555/3378680.3378819"
+    },
+    {
+      "text": "Keith Trnka, John McCaw, Debra Yarrington, Kathleen\u00a0F. McCoy, and Christopher Pennington. 2009. User Interaction with Word Prediction: The Effects of Prediction Quality. ACM Transactions on Accessible Computing 1, 3 (Feb. 2009), 17:1\u201317:34. https://doi.org/10.1145/1497302.1497307",
+      "doi": "10.1145/1497302.1497307"
+    },
+    {
+      "text": "Mindaugas Vasiljevas, R\u016btenis Tur\u010dinas, and Robertas Dama\u0161evi\u010dius. 2014. Development of EMG-Based Speller. In Proceedings of the XV International Conference on Human Computer Interaction(Interacci\u00f3n \u201914). Association for Computing Machinery, New York, NY, USA, 1\u20135. https://doi.org/10.1145/2662253.2662260",
+      "doi": "10.1145/2662253.2662260"
+    },
+    {
+      "text": "Md\u00a0Ferdous Wahid, Reza Tafreshi, and Reza Langari. 2020. A Multi-Window Majority Voting Strategy to Improve Hand Gesture Recognition Accuracies Using Electromyography Signal. IEEE Transactions on Neural Systems and Rehabilitation Engineering 28, 2 (Feb. 2020), 427\u2013436. https://doi.org/10.1109/TNSRE.2019.2961706 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Chong Wang, Zhong Liu, and Shing-Chow Chan. 2015. Superpixel-Based Hand Gesture Recognition With Kinect Depth Camera. IEEE Transactions on Multimedia 17, 1 (Jan. 2015), 29\u201339. https://doi.org/10.1109/TMM.2014.2374357 Conference Name: IEEE Transactions on Multimedia.",
+      "doi": ""
+    },
+    {
+      "text": "Max\u00a0L. Wilson, Wendy Mackay, Ed Chi, Michael Bernstein, Dan Russell, and Harold Thimbleby. 2011. RepliCHI - CHI should be replicating and validating results more: discuss. In CHI \u201911 Extended Abstracts on Human Factors in Computing Systems(CHI EA \u201911). Association for Computing Machinery, New York, NY, USA, 463\u2013466. https://doi.org/10.1145/1979742.1979491",
+      "doi": "10.1145/1979742.1979491"
+    },
+    {
+      "text": "Brent\u00a0D. Winslow, Mitchell Ruble, and Zachary Huber. 2018. Mobile, Game-Based Training for Myoelectric Prosthesis Control. Frontiers in Bioengineering and Biotechnology 6 (2018). https://www.frontiersin.org/articles/10.3389/fbioe.2018.00094",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0B. Woodward and Levi\u00a0J. Hargrove. 2019. Adapting myoelectric control in real-time using a virtual environment. Journal of NeuroEngineering and Rehabilitation 16, 1 (Jan. 2019), 11. https://doi.org/10.1186/s12984-019-0480-5",
+      "doi": ""
+    },
+    {
+      "text": "Qi Xu, Yazhi Quan, Lei Yang, and Jiping He. 2013. An Adaptive Algorithm for the Determination of the Onset and Offset of Muscle Contraction by EMG Signal Processing. IEEE Transactions on Neural Systems and Rehabilitation Engineering 21, 1 (Jan. 2013), 65\u201373. https://doi.org/10.1109/TNSRE.2012.2226916 Conference Name: IEEE Transactions on Neural Systems and Rehabilitation Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Aaron\u00a0J. Young, Levi\u00a0J. Hargrove, and Todd\u00a0A. Kuiken. 2011. The Effects of Electrode Size and Orientation on the Sensitivity of Myoelectric Pattern Recognition Systems to Electrode Shift. IEEE Transactions on Biomedical Engineering 58, 9 (Sept. 2011), 2537\u20132544. https://doi.org/10.1109/TBME.2011.2159216 Conference Name: IEEE Transactions on Biomedical Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Aaron\u00a0J. Young, Lauren\u00a0H. Smith, Elliott\u00a0J. Rouse, and Levi\u00a0J. Hargrove. 2013. Classification of simultaneous movements using surface EMG pattern recognition. IEEE transactions on bio-medical engineering 60, 5 (May 2013), 1250\u20131258. https://doi.org/10.1109/TBME.2012.2232293",
+      "doi": ""
+    },
+    {
+      "text": "Jamileh Yousefi and Andrew Hamilton-Wright. 2014. Characterizing EMG data using machine-learning tools. Computers in Biology and Medicine 51 (Aug. 2014), 1\u201313. https://doi.org/10.1016/j.compbiomed.2014.04.018",
+      "doi": "10.1016/j.compbiomed.2014.04.018"
+    },
+    {
+      "text": "Marcello Zanghieri, Simone Benatti, Alessio Burrello, Victor Kartsch, Francesco Conti, and Luca Benini. 2020. Robust Real-Time Embedded EMG Recognition Framework Using Temporal Convolutional Networks on a Multicore IoT Processor. IEEE Transactions on Biomedical Circuits and Systems 14, 2 (April 2020), 244\u2013256. https://doi.org/10.1109/TBCAS.2019.2959160 Conference Name: IEEE Transactions on Biomedical Circuits and Systems.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaolong Zhai, Beth Jelfs, Rosa H.\u00a0M. Chan, and Chung Tin. 2017. Self-Recalibrating Surface EMG Pattern Recognition for Neuroprosthesis Control Based on Convolutional Neural Network. Frontiers in Neuroscience 11 (2017). https://www.frontiersin.org/articles/10.3389/fnins.2017.00379",
+      "doi": ""
+    },
+    {
+      "text": "Haoshi Zhang, Yaonan Zhao, Fuan Yao, Lisheng Xu, Peng Shang, and Guanglin Li. 2013. An adaptation strategy of using LDA classifier for EMG pattern recognition. In 2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC). 4267\u20134270. https://doi.org/10.1109/EMBC.2013.6610488 ISSN: 1558-4615.",
+      "doi": ""
+    },
+    {
+      "text": "Mingchuan Zhang, Zuhao Wang, and Guannan Meng. 2022. Intelligent Perception Recognition of Multi-modal EMG Signals Based on Machine Learning. In 2022 2nd International Conference on Bioinformatics and Intelligent Computing(BIC 2022). Association for Computing Machinery, New York, NY, USA, 389\u2013396. https://doi.org/10.1145/3523286.3524576",
+      "doi": "10.1145/3523286.3524576"
+    },
+    {
+      "text": "Xu Zhang, Xiang Chen, Yun Li, Vuokko Lantz, Kongqiao Wang, and Jihai Yang. 2011. A Framework for Hand Gesture Recognition Based on Accelerometer and EMG Sensors. IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans 41, 6 (Nov. 2011), 1064\u20131076. https://doi.org/10.1109/TSMCA.2011.2116004 Conference Name: IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans.",
+      "doi": "10.1109/TSMCA.2011.2116004"
+    },
+    {
+      "text": "Xu Zhang, Xiang Chen, Wen-hui Wang, Ji-hai Yang, Vuokko Lantz, and Kong-qiao Wang. 2009. Hand gesture recognition and virtual game control based on 3D accelerometer and EMG sensors. In Proceedings of the 14th international conference on Intelligent user interfaces(IUI \u201909). Association for Computing Machinery, New York, NY, USA, 401\u2013406. https://doi.org/10.1145/1502650.1502708",
+      "doi": "10.1145/1502650.1502708"
+    },
+    {
+      "text": "Adel Al-Jumaily and Ricardo\u00a0A. Olivares. 2009. Electromyogram (EMG) driven system based virtual reality for prosthetic and rehabilitation devices. In Proceedings of the 11th International Conference on Information Integration and Web-based Applications & Services(iiWAS \u201909). Association for Computing Machinery, New York, NY, USA, 582\u2013586. https://doi.org/10.1145/1806338.1806448",
+      "doi": "10.1145/1806338.1806448"
+    },
+    {
+      "text": "Christoph Amma, Thomas Krings, Jonas B\u00f6er, and Tanja Schultz. 2015. Advancing Muscle-Computer Interfaces with High-Density Electromyography. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems(CHI \u201915). Association for Computing Machinery, New York, NY, USA, 929\u2013938. https://doi.org/10.1145/2702123.2702501",
+      "doi": "10.1145/2702123.2702501"
+    },
+    {
+      "text": "Kikuo Asai and Norio Takase. 2019. Finger Motion Estimation Based on Sparse Multi-Channel Surface Electromyography Signals Using Convolutional Neural Network. In Proceedings of the 2019 3rd International Conference on Digital Signal Processing(ICDSP 2019). Association for Computing Machinery, New York, NY, USA, 55\u201359. https://doi.org/10.1145/3316551.3316572",
+      "doi": "10.1145/3316551.3316572"
+    },
+    {
+      "text": "Christopher Assad, Michael Wolf, Theodoros Theodoridis, Kyrre Glette, and Adrian Stoica. 2013. BioSleeve: a natural EMG-based interface for HRI. In Proceedings of the 8th ACM/IEEE international conference on Human-robot interaction(HRI \u201913). IEEE Press, Tokyo, Japan, 69\u201370.",
+      "doi": ""
+    },
+    {
+      "text": "Vincent Becker, Pietro Oldrati, Liliana Barrios, and G\u00e1bor S\u00f6r\u00f6s. 2018. Touchsense: classifying finger touches and measuring their force with an electromyography armband. In Proceedings of the 2018 ACM International Symposium on Wearable Computers(ISWC \u201918). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3267242.3267250",
+      "doi": "10.1145/3267242.3267250"
+    },
+    {
+      "text": "Simone Benatti, Elisabetta Farella, and Luca Benini. 2014. Towards EMG control interface for smart garments. In Proceedings of the 2014 ACM International Symposium on Wearable Computers: Adjunct Program(ISWC \u201914 Adjunct). Association for Computing Machinery, New York, NY, USA, 163\u2013170. https://doi.org/10.1145/2641248.2641352",
+      "doi": "10.1145/2641248.2641352"
+    },
+    {
+      "text": "Baptiste Caramiaux, Marco Donnarumma, and Atau Tanaka. 2015. Understanding Gesture Expressivity through Muscle Sensing. ACM Transactions on Computer-Human Interaction 21, 6 (Jan. 2015), 31:1\u201331:26. https://doi.org/10.1145/2687922",
+      "doi": "10.1145/2687922"
+    },
+    {
+      "text": "Changmok Choi and Sang\u00a0Joon Kim. 2019. Preliminary studies of SEMG-based finger gesture classification for smart watch application using deep learning. In Proceedings of the 14th ACM/IEEE International Conference on Human-Robot Interaction(HRI \u201919). IEEE Press, Daegu, Republic of Korea, 562\u2013563.",
+      "doi": "10.5555/3378680.3378788"
+    },
+    {
+      "text": "Enrico Costanza, Samuel\u00a0A. Inverso, and Rebecca Allen. 2005. Toward subtle intimate interfaces for mobile devices using an EMG controller. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201905). Association for Computing Machinery, New York, NY, USA, 481\u2013489. https://doi.org/10.1145/1054972.1055039",
+      "doi": "10.1145/1054972.1055039"
+    },
+    {
+      "text": "Enrico Costanza, Samuel\u00a0A. Inverso, Rebecca Allen, and Pattie Maes. 2007. Intimate interfaces in action: assessing the usability and subtlety of emg-based motionless gestures. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201907). Association for Computing Machinery, New York, NY, USA, 819\u2013828. https://doi.org/10.1145/1240624.1240747",
+      "doi": "10.1145/1240624.1240747"
+    },
+    {
+      "text": "Qingfeng Dai, Xiangdong Li, Weidong Geng, Wenguang Jin, and Xiubo Liang. 2021. CAPG-MYO: A Muscle-Computer Interface Supporting User-defined Gesture Recognition. In The 2021 9th International Conference on Computer and Communications Management(ICCCM \u201921). Association for Computing Machinery, New York, NY, USA, 52\u201358. https://doi.org/10.1145/3479162.3479170",
+      "doi": "10.1145/3479162.3479170"
+    },
+    {
+      "text": "Joseph DelPreto and Daniela Rus. 2020. Plug-and-Play Gesture Control Using Muscle and Motion Sensors. In Proceedings of the 2020 ACM/IEEE International Conference on Human-Robot Interaction(HRI \u201920). Association for Computing Machinery, New York, NY, USA, 439\u2013448. https://doi.org/10.1145/3319502.3374823",
+      "doi": "10.1145/3319502.3374823"
+    },
+    {
+      "text": "Chloe Eghtebas, Sandro Weber, and Gudrun Klinker. 2018. Investigation into Natural Gestures Using EMG for \"SuperNatural\" Interaction in VR. In The 31st Annual ACM Symposium on User Interface Software and Technology Adjunct Proceedings(UIST \u201918 Adjunct). Association for Computing Machinery, New York, NY, USA, 102\u2013104. https://doi.org/10.1145/3266037.3266115",
+      "doi": "10.1145/3266037.3266115"
+    },
+    {
+      "text": "Faizan Haque, Mathieu Nancel, and Daniel Vogel. 2015. Myopoint: Pointing and Clicking Using Forearm Mounted Electromyography and Inertial Motion Sensors. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems(CHI \u201915). Association for Computing Machinery, New York, NY, USA, 3653\u20133656. https://doi.org/10.1145/2702123.2702133",
+      "doi": "10.1145/2702123.2702133"
+    },
+    {
+      "text": "Bo-Jhang Ho, Renju Liu, Hsiao-Yun Tseng, and Mani Srivastava. 2017. MyoBuddy: Detecting Barbell Weight Using Electromyogram Sensors. In Proceedings of the 1st Workshop on Digital Biomarkers(DigitalBiomarkers \u201917). Association for Computing Machinery, New York, NY, USA, 27\u201332. https://doi.org/10.1145/3089341.3089346",
+      "doi": "10.1145/3089341.3089346"
+    },
+    {
+      "text": "Yu Hu and Qiao Wang. 2020. A Comprehensive Evaluation of Hidden Markov Model for Hand Movement Recognition with Surface Electromyography. In Proceedings of the 2020 2nd International Conference on Robotics, Intelligent Control and Artificial Intelligence(RICAI 2020). Association for Computing Machinery, New York, NY, USA, 85\u201391. https://doi.org/10.1145/3438872.3439060",
+      "doi": "10.1145/3438872.3439060"
+    },
+    {
+      "text": "Donny Huang, Xiaoyi Zhang, T.\u00a0Scott Saponas, James Fogarty, and Shyamnath Gollakota. 2015. Leveraging Dual-Observable Input for Fine-Grained Thumb Interaction Using Forearm EMG. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology(UIST \u201915). Association for Computing Machinery, New York, NY, USA, 523\u2013528. https://doi.org/10.1145/2807442.2807506",
+      "doi": "10.1145/2807442.2807506"
+    },
+    {
+      "text": "Haider\u00a0Ali Javaid, Nasir Rashid, Mohsin\u00a0Islam Tiwana, and Muhammad\u00a0Waseem Anwar. 2018. Comparative Analysis of EMG Signal Features in Time-domain and Frequency-domain using MYO Gesture Control. In Proceedings of the 2018 4th International Conference on Mechatronics and Robotics Engineering(ICMRE 2018). Association for Computing Machinery, New York, NY, USA, 157\u2013162. https://doi.org/10.1145/3191477.3191495",
+      "doi": "10.1145/3191477.3191495"
+    },
+    {
+      "text": "Jakob Karolus, Annika Kilian, Thomas Kosch, Albrecht Schmidt, and Pawe\u0142\u00a0W. Wozniak. 2020. Hit the Thumb Jack! Using Electromyography to Augment the Piano Keyboard. In Proceedings of the 2020 ACM Designing Interactive Systems Conference(DIS \u201920). Association for Computing Machinery, New York, NY, USA, 429\u2013440. https://doi.org/10.1145/3357236.3395500",
+      "doi": "10.1145/3357236.3395500"
+    },
+    {
+      "text": "Jakob Karolus, Francisco Kiss, Caroline Eckerth, Nicolas Viot, Felix Bachmann, Albrecht Schmidt, and Pawel\u00a0W. Wozniak. 2021. EMBody: A Data-Centric Toolkit for EMG-Based Interface Prototyping and Experimentation. Proceedings of the ACM on Human-Computer Interaction 5, EICS (May 2021), 195:1\u2013195:29. https://doi.org/10.1145/3457142",
+      "doi": "10.1145/3457142"
+    },
+    {
+      "text": "Jakob Karolus, Hendrik Schuff, Thomas Kosch, Pawe\u0142\u00a0W. Wozniak, and Albrecht Schmidt. 2018. EMGuitar: Assisting Guitar Playing with Electromyography. In Proceedings of the 2018 Designing Interactive Systems Conference(DIS \u201918). Association for Computing Machinery, New York, NY, USA, 651\u2013655. https://doi.org/10.1145/3196709.3196803",
+      "doi": "10.1145/3196709.3196803"
+    },
+    {
+      "text": "Weijie Ke, Yannan Xing, Gaetano Di\u00a0Caterina, Lykourgos Petropoulakis, and John Soraghan. 2020. Intersected EMG Heatmaps and Deep Learning Based Gesture Recognition. In Proceedings of the 2020 12th International Conference on Machine Learning and Computing(ICMLC 2020). Association for Computing Machinery, New York, NY, USA, 73\u201378. https://doi.org/10.1145/3383972.3383982",
+      "doi": "10.1145/3383972.3383982"
+    },
+    {
+      "text": "Frederic Kerber, Pascal Lessel, and Antonio Kr\u00fcger. 2015. Same-side Hand Interactions with Arm-placed Devices Using EMG. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems(CHI EA \u201915). Association for Computing Machinery, New York, NY, USA, 1367\u20131372. https://doi.org/10.1145/2702613.2732895",
+      "doi": "10.1145/2702613.2732895"
+    },
+    {
+      "text": "Frederic Kerber, Michael Puhl, and Antonio Kr\u00fcger. 2017. User-independent real-time hand gesture recognition based on surface electromyography. In Proceedings of the 19th International Conference on Human-Computer Interaction with Mobile Devices and Services(MobileHCI \u201917). Association for Computing Machinery, New York, NY, USA, 1\u20137. https://doi.org/10.1145/3098279.3098553",
+      "doi": "10.1145/3098279.3098553"
+    },
+    {
+      "text": "Jonghwa Kim, Stephan Mastnik, and Elisabeth Andr\u00e9. 2008. EMG-based hand gesture recognition for realtime biosignal interfacing. In Proceedings of the 13th international conference on Intelligent user interfaces(IUI \u201908). Association for Computing Machinery, New York, NY, USA, 30\u201339. https://doi.org/10.1145/1378773.1378778",
+      "doi": "10.1145/1378773.1378778"
+    },
+    {
+      "text": "Heli Koskim\u00e4ki, Pekka Siirtola, and Juha R\u00f6ning. 2017. MyoGym: introducing an open gym data set for activity recognition collected using myo armband. In Proceedings of the 2017 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2017 ACM International Symposium on Wearable Computers(UbiComp \u201917). Association for Computing Machinery, New York, NY, USA, 537\u2013546. https://doi.org/10.1145/3123024.3124400",
+      "doi": "10.1145/3123024.3124400"
+    },
+    {
+      "text": "Yun Li, Xiang Chen, Jianxun Tian, Xu Zhang, Kongqiao Wang, and Jihai Yang. 2010. Automatic recognition of sign language subwords based on portable accelerometer and EMG sensors. In International Conference on Multimodal Interfaces and the Workshop on Machine Learning for Multimodal Interaction(ICMI-MLMI \u201910). Association for Computing Machinery, New York, NY, USA, 1\u20137. https://doi.org/10.1145/1891903.1891926",
+      "doi": "10.1145/1891903.1891926"
+    },
+    {
+      "text": "Jess McIntosh, Charlie McNeill, Mike Fraser, Frederic Kerber, Markus L\u00f6chtefeld, and Antonio Kr\u00fcger. 2016. EMPress: Practical Hand Gesture Classification with Wrist-Mounted EMG and Pressure Sensing. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems(CHI \u201916). Association for Computing Machinery, New York, NY, USA, 2332\u20132342. https://doi.org/10.1145/2858036.2858093",
+      "doi": "10.1145/2858036.2858093"
+    },
+    {
+      "text": "Tobias Mulling and Mithileysh Sathiyanarayanan. 2015. Characteristics of hand gesture navigation: a case study using a wearable device (MYO). In Proceedings of the 2015 British HCI Conference(British HCI \u201915). Association for Computing Machinery, New York, NY, USA, 283\u2013284. https://doi.org/10.1145/2783446.2783612",
+      "doi": "10.1145/2783446.2783612"
+    },
+    {
+      "text": "Ganesh\u00a0R. Naik, Dinesh\u00a0Kant Kumar, Vijay\u00a0Pal Singh, and Marimuthu Palaniswami. 2006. Hand gestures for HCI using ICA of EMG. In Proceedings of the HCSNet workshop on Use of vision in human-computer interaction - Volume 56(VisHCI \u201906). Australian Computer Society, Inc., AUS, 67\u201372.",
+      "doi": ""
+    },
+    {
+      "text": "Prajwal Paudyal, Ayan Banerjee, and Sandeep\u00a0K.S. Gupta. 2016. SCEPTRE: A Pervasive, Non-Invasive, and Programmable Gesture Recognition Technology. In Proceedings of the 21st International Conference on Intelligent User Interfaces(IUI \u201916). Association for Computing Machinery, New York, NY, USA, 282\u2013293. https://doi.org/10.1145/2856767.2856794",
+      "doi": "10.1145/2856767.2856794"
+    },
+    {
+      "text": "Carl\u00a0Peter Robinson, Baihua Li, Qinggang Meng, and Matthew Pain. 2018. Effectiveness of Surface Electromyography in Pattern Classification for Upper Limb Amputees. In Proceedings of the 2018 International Conference on Artificial Intelligence and Pattern Recognition(AIPR 2018). Association for Computing Machinery, New York, NY, USA, 107\u2013112. https://doi.org/10.1145/3268866.3268889",
+      "doi": "10.1145/3268866.3268889"
+    },
+    {
+      "text": "Carl\u00a0Peter Robinson, Baihua Li, Qinggang Meng, and Matthew\u00a0T.G. Pain. 2017. Pattern Classification of Hand Movements using Time Domain Features of Electromyography. In Proceedings of the 4th International Conference on Movement Computing(MOCO \u201917). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3077981.3078031",
+      "doi": "10.1145/3077981.3078031"
+    },
+    {
+      "text": "T\u00a0Scott Saponas, Desney\u00a0S. Tan, Dan Morris, and Ravin Balakrishnan. 2008. Demonstrating the feasibility of using forearm electromyography for muscle-computer interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201908). Association for Computing Machinery, New York, NY, USA, 515\u2013524. https://doi.org/10.1145/1357054.1357138",
+      "doi": "10.1145/1357054.1357138"
+    },
+    {
+      "text": "T.\u00a0Scott Saponas, Desney\u00a0S. Tan, Dan Morris, Ravin Balakrishnan, Jim Turner, and James\u00a0A. Landay. 2009. Enabling always-available input with muscle-computer interfaces. In Proceedings of the 22nd annual ACM symposium on User interface software and technology(UIST \u201909). Association for Computing Machinery, New York, NY, USA, 167\u2013176. https://doi.org/10.1145/1622176.1622208",
+      "doi": "10.1145/1622176.1622208"
+    },
+    {
+      "text": "T.\u00a0Scott Saponas, Desney\u00a0S. Tan, Dan Morris, Jim Turner, and James\u00a0A. Landay. 2010. Making muscle-computer interfaces more practical. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201910). Association for Computing Machinery, New York, NY, USA, 851\u2013854. https://doi.org/10.1145/1753326.1753451",
+      "doi": "10.1145/1753326.1753451"
+    },
+    {
+      "text": "Rajneesh Sharma and Amit Kukker. 2017. Neural Reinforcement Learning based Identifier for Typing Keys using Forearm EMG Signals. In Proceedings of the 9th International Conference on Signal Processing Systems(ICSPS 2017). Association for Computing Machinery, New York, NY, USA, 225\u2013229. https://doi.org/10.1145/3163080.3163117",
+      "doi": "10.1145/3163080.3163117"
+    },
+    {
+      "text": "Adrian Stoica, Federico Salvioli, and Caitlin Flowers. 2014. Remote control of quadrotor teams, using hand gestures. In Proceedings of the 2014 ACM/IEEE international conference on Human-robot interaction(HRI \u201914). Association for Computing Machinery, New York, NY, USA, 296\u2013297. https://doi.org/10.1145/2559636.2559853",
+      "doi": "10.1145/2559636.2559853"
+    },
+    {
+      "text": "Direk Sueaseenak, Thunchanok Uburi, and Paphawarin Tirasuwannarat. 2017. Optimal Placement of Multi-Channels sEMG Electrod for Finger Movement Classification. In Proceedings of the 2017 4th International Conference on Biomedical and Bioinformatics Engineering(ICBBE 2017). Association for Computing Machinery, New York, NY, USA, 78\u201383. https://doi.org/10.1145/3168776.3168802",
+      "doi": "10.1145/3168776.3168802"
+    },
+    {
+      "text": "Stefano Tortora, Michele Moro, and Emanuele Menegatti. 2019. Dual-Myo real-time control of a humanoid arm for teleoperation. In Proceedings of the 14th ACM/IEEE International Conference on Human-Robot Interaction(HRI \u201919). IEEE Press, Daegu, Republic of Korea, 624\u2013625.",
+      "doi": "10.5555/3378680.3378819"
+    },
+    {
+      "text": "Hideaki Touyama, Koichi Hirota, and Michitaka Hirose. 2005. Prototype application with electromyogram interface in immersive virtual environment. In Proceedings of the 2005 international conference on Augmented tele-existence(ICAT \u201905). Association for Computing Machinery, New York, NY, USA, 271. https://doi.org/10.1145/1152399.1152461",
+      "doi": "10.1145/1152399.1152461"
+    },
+    {
+      "text": "Ayumu Tsuboi, Mamoru Hirota, Junki Sato, Masayuki Yokoyama, and Masao Yanagisawa. 2017. A proposal for wearable controller device and finger gesture recognition using surface electromyography. In SIGGRAPH Asia 2017 Posters(SA \u201917). Association for Computing Machinery, New York, NY, USA, 1\u20132. https://doi.org/10.1145/3145690.3145731",
+      "doi": "10.1145/3145690.3145731"
+    },
+    {
+      "text": "Mindaugas Vasiljevas, R\u016btenis Tur\u010dinas, and Robertas Dama\u0161evi\u010dius. 2014. Development of EMG-Based Speller. In Proceedings of the XV International Conference on Human Computer Interaction(Interacci\u00f3n \u201914). Association for Computing Machinery, New York, NY, USA, 1\u20135. https://doi.org/10.1145/2662253.2662260",
+      "doi": "10.1145/2662253.2662260"
+    },
+    {
+      "text": "A.\u00a0Saleh Zadeh, A.\u00a0P. Calitz, and J.\u00a0H. Greyling. 2018. Evaluating a biosensor-based interface to recognize hand-finger gestures using a Myo armband. In Proceedings of the Annual Conference of the South African Institute of Computer Scientists and Information Technologists(SAICSIT \u201918). Association for Computing Machinery, New York, NY, USA, 229\u2013238. https://doi.org/10.1145/3278681.3278709",
+      "doi": "10.1145/3278681.3278709"
+    },
+    {
+      "text": "Mingchuan Zhang, Zuhao Wang, and Guannan Meng. 2022. Intelligent Perception Recognition of Multi-modal EMG Signals Based on Machine Learning. In 2022 2nd International Conference on Bioinformatics and Intelligent Computing(BIC 2022). Association for Computing Machinery, New York, NY, USA, 389\u2013396. https://doi.org/10.1145/3523286.3524576",
+      "doi": "10.1145/3523286.3524576"
+    },
+    {
+      "text": "Qiwu Zhang and Junru Zhu. 2022. The Application of EMG and Machine Learning in Human Machine Interface. In 2022 2nd International Conference on Bioinformatics and Intelligent Computing(BIC 2022). Association for Computing Machinery, New York, NY, USA, 465\u2013469. https://doi.org/10.1145/3523286.3524588",
+      "doi": "10.1145/3523286.3524588"
+    },
+    {
+      "text": "Xu Zhang, Xiang Chen, Wen-hui Wang, Ji-hai Yang, Vuokko Lantz, and Kong-qiao Wang. 2009. Hand gesture recognition and virtual game control based on 3D accelerometer and EMG sensors. In Proceedings of the 14th international conference on Intelligent user interfaces(IUI \u201909). Association for Computing Machinery, New York, NY, USA, 401\u2013406. https://doi.org/10.1145/1502650.1502708",
+      "doi": "10.1145/1502650.1502708"
+    }
+  ]
+}

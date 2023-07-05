@@ -1,0 +1,513 @@
+{
+  "doi": "10.1145/3411764.3445487",
+  "title": "RCEA-360VR: Real-time, Continuous Emotion Annotation in 360\u00b0 VR Videos for Collecting Precise Viewport-dependent Ground Truth Labels",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Precise emotion ground truth labels for 360\u00b0 virtual reality (VR) video watching are essential for fine-grained predictions under varying viewing behavior. However, current annotation techniques either rely on post-stimulus discrete self-reports, or real-time, continuous emotion annotations (RCEA) but only for desktop/mobile settings. We present RCEA for 360\u00b0 VR videos (RCEA-360VR), where we evaluate in a controlled study (N=32) the usability of two peripheral visualization techniques: HaloLight and DotSize. We furthermore develop a method that considers head movements when fusing labels. Using physiological, behavioral, and subjective measures, we show that (1) both techniques do not increase users\u2019 workload, sickness, nor break presence (2) our continuous valence and arousal annotations are consistent with discrete within-VR and original stimuli ratings (3) users exhibit high similarity in viewing behavior, where fused ratings perfectly align with intended labels. Our work contributes usable and effective techniques for collecting fine-grained viewport-dependent emotion labels in 360\u00b0 VR.",
+  "authors": [
+    {
+      "name": "Tong Xue",
+      "institution": "Beijing Institute of Technology and Centrum Wiskunde & Informatica (CWI), China",
+      "img": "/do/10.1145/contrib-99659325671/rel-imgonly/0_tong.jpg",
+      "acmid": "99659325671",
+      "orcid": "missing"
+    },
+    {
+      "name": "Abdallah El Ali",
+      "institution": "Centrum Wiskunde & Informatica (CWI), The Netherlands",
+      "img": "/do/10.1145/contrib-81474700470/rel-imgonly/offis_photo_el_ali.jpg",
+      "acmid": "81474700470",
+      "orcid": "missing"
+    },
+    {
+      "name": "Tianyi Zhang",
+      "institution": "Centrum Wiskunde & Informatica (CWI) and Delft University of Technology (TU Delft), The Netherlands",
+      "img": "/do/10.1145/contrib-99659474195/rel-imgonly/citations.png",
+      "acmid": "99659474195",
+      "orcid": "missing"
+    },
+    {
+      "name": "Gangyi Ding",
+      "institution": "Beijing Institute of Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81549137556",
+      "orcid": "missing"
+    },
+    {
+      "name": "Pablo Cesar",
+      "institution": "Centrum Wiskunde & Informatica (CWI) and Delft University of Technology (TU Delft), The Netherlands",
+      "img": "/do/10.1145/contrib-81318497573/rel-imgonly/pablo.jpg",
+      "acmid": "81318497573",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Fathima Assilmia, Yun\u00a0Suen Pai, Keiko Okawa, and Kai Kunze. 2017. IN360: A 360-degree-video platform to change students preconceived notions on their career. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 2359\u20132365.",
+      "doi": "10.1145/3027063.3053211"
+    },
+    {
+      "text": "Jeremy\u00a0N. Bailenson, Emmanuel\u00a0D. Pontikakis, Iris\u00a0B. Mauss, James\u00a0J. Gross, Maria\u00a0E. Jabon, Cendri\u00a0A.C. Hutcherson, Clifford Nass, and Oliver John. 2008. Real-time classification of evoked emotions using facial feature tracking and physiological responses. International Journal of Human-Computer Studies 66, 5 (2008), 303 \u2013 317. https://doi.org/10.1016/j.ijhcs.2007.10.011",
+      "doi": "10.1016/j.ijhcs.2007.10.011"
+    },
+    {
+      "text": "Saskia Bakker, Doris Hausen, and Ted Selker. 2016. Peripheral Interaction: Challenges and Opportunities for HCI in the Periphery of Attention. Springer, Cham.",
+      "doi": "10.5555/2948738"
+    },
+    {
+      "text": "Lisa\u00a0Feldman Barrett. 2004. Feelings or words? Understanding the content in self-report ratings of experienced emotion.Journal of personality and social psychology 87, 2(2004), 266.",
+      "doi": ""
+    },
+    {
+      "text": "Chiara Bassano, Giorgio Ballestin, Eleonora Ceccaldi, Fanny\u00a0Isabelle Larradet, Maurizio Mancini, Erica Volta, and Radoslaw Niewiadomski. 2019. A VR game-based system for multimodal emotion data collection. In Motion, Interaction and Games. Association for Computing Machinery, New York, NY, USA, 1\u20133.",
+      "doi": ""
+    },
+    {
+      "text": "Yoann Baveye, Christel Chamaret, Emmanuel Dellandr\u00e9a, and Liming Chen. 2017. Affective video content analysis: A multidisciplinary insight. IEEE Transactions on Affective Computing 9, 4 (2017), 396\u2013409.",
+      "doi": "10.1109/TAFFC.2017.2661284"
+    },
+    {
+      "text": "Julia Beck, Mattia Rainoldi, and Roman Egger. 2019. Virtual reality in tourism: a state-of-the-art review. Tourism Review 74(2019), 586\u2013612.",
+      "doi": ""
+    },
+    {
+      "text": "Maximino Bessa, Miguel Melo, David Narciso, Lu\u00eds Barbosa, and Jos\u00e9 Vasconcelos-Raposo. 2016. Does 3D 360 Video Enhance User\u2019s VR Experience? An Evaluation Study. In Proceedings of the XVII International Conference on Human Computer Interaction. Association for Computing Machinery, New York, NY, USA, 4\u00a0pages.",
+      "doi": "10.1145/2998626.2998669"
+    },
+    {
+      "text": "Margaret\u00a0M Bradley, Mark\u00a0K Greenwald, Margaret\u00a0C Petry, and Peter\u00a0J Lang. 1992. Remembering pictures: pleasure and arousal in memory.Journal of experimental psychology: Learning, Memory, and Cognition 18, 2(1992), 379.",
+      "doi": ""
+    },
+    {
+      "text": "Margaret\u00a0M Bradley and Peter\u00a0J Lang. 1994. Measuring emotion: the self-assessment manikin and the semantic differential. Journal of behavior therapy and experimental psychiatry 25, 1(1994), 49\u201359.",
+      "doi": "10.1016/0005-7916%2894%2990063-9"
+    },
+    {
+      "text": "Margaret\u00a0M Bradley, Laura Miccoli, Miguel\u00a0A Escrig, and Peter\u00a0J Lang. 2008. The pupil as a measure of emotional arousal and autonomic activation. Psychophysiology 45, 4 (2008), 602\u2013607.",
+      "doi": ""
+    },
+    {
+      "text": "Iuliia Brishtel, Shoya Ishimaru, Olivier Augereau, Koichi Kise, and Andreas Dengel. 2018. Assessing cognitive workload on printed and electronic media using eye-tracker and EDA wristband. In Proceedings of the 23rd International Conference on Intelligent User Interfaces Companion. Association for Computing Machinery, New York, NY, USA, 1\u20132.",
+      "doi": "10.1145/3180308.3180354"
+    },
+    {
+      "text": "Marc Van\u00a0den Broeck, Fahim Kawsar, and Johannes Sch\u00f6ning. 2017. It\u2019s all around you: Exploring 360 video viewing experiences on mobile devices. In Proceedings of the 25th ACM international conference on Multimedia. Association for Computing Machinery, New York, NY, USA, 762\u2013768.",
+      "doi": "10.1145/3123266.3123347"
+    },
+    {
+      "text": "Joost Broekens and Willem-Paul Brinkman. 2013. AffectButton: A method for reliable and valid affective self-report. International Journal of Human-Computer Studies 71, 6 (2013), 641\u2013667.",
+      "doi": "10.1016/j.ijhcs.2013.02.003"
+    },
+    {
+      "text": "John Canny. 1986. A computational approach to edge detection. IEEE Transactions on pattern analysis and machine intelligence PAMI-8, 6(1986), 679\u2013698.",
+      "doi": "10.1109/TPAMI.1986.4767851"
+    },
+    {
+      "text": "Rebecca\u00a0L Charles and Jim Nixon. 2019. Measuring mental workload using physiological measures: a systematic review. Applied ergonomics 74(2019), 221\u2013232.",
+      "doi": ""
+    },
+    {
+      "text": "Umer\u00a0Asghar Chattha, Uzair\u00a0Iqbal Janjua, Fozia Anwar, Tahir\u00a0Mustafa Madni, Muhammad\u00a0Faisal Cheema, and Sana\u00a0Iqbal Janjua. 2020. Motion Sickness in Virtual Reality: An Empirical Evaluation. IEEE Access 8(2020), 130486\u2013130499.",
+      "doi": ""
+    },
+    {
+      "text": "Alice Chirico and Andrea Gaggioli. 2019. When Virtual Feels Real: Comparing Emotional Responses and Presence in Virtual and Natural Environments. Cyberpsychology, behavior and social networking 22 3 (2019), 220\u2013226.",
+      "doi": ""
+    },
+    {
+      "text": "Domenic\u00a0V Cicchetti. 1994. Guidelines, criteria, and rules of thumb for evaluating normed and standardized assessment instruments in psychology.Psychological assessment 6, 4 (1994), 284.",
+      "doi": ""
+    },
+    {
+      "text": "C Collet, E Salvia, and C Petit-Boulanger. 2014. Measuring workload with electrodermal activity during common braking actions. Ergonomics 57, 6 (2014), 886\u2013896.",
+      "doi": ""
+    },
+    {
+      "text": "Tamlin\u00a0S Conner and Lisa\u00a0Feldman Barrett. 2012. Trends in ambulatory self-report: The role of momentary experience in psychosomatic medicine. Psychosomatic medicine 74, 4 (2012), 327.",
+      "doi": ""
+    },
+    {
+      "text": "Layale Constantine and Hazem Hajj. 2012. A survey of ground-truth in emotion data annotation. In 2012 IEEE International Conference on Pervasive Computing and Communications Workshops. IEEE, Lugano, 697\u2013702.",
+      "doi": ""
+    },
+    {
+      "text": "Roddy Cowie, Ellen Douglas-Cowie, Susie Savvidou*, Edelle McMahon, Martin Sawey, and Marc Schr\u00f6der. 2000. \u2019FEELTRACE\u2019: An instrument for recording perceived emotion in real time. In ISCA tutorial and research workshop (ITRW) on speech and emotion, Vol.\u00a0None. ISCA-speech, Newcastle, Northern Ireland, UK, None.",
+      "doi": ""
+    },
+    {
+      "text": "Roddy Cowie, Gary McKeown, and Ellen Douglas-Cowie. 2012. Tracing emotion: an overview. International Journal of Synthetic Emotions (IJSE) 3, 1 (2012), 1\u201317.",
+      "doi": "10.4018/jse.2012010101"
+    },
+    {
+      "text": "Erwan\u00a0J David, Jes\u00fas Guti\u00e9rrez, Antoine Coutrot, Matthieu\u00a0Perreira Da\u00a0Silva, and Patrick\u00a0Le Callet. 2018. A dataset of head and eye movements for 360 videos. In Proceedings of the 9th ACM Multimedia Systems Conference. Association for Computing Machinery, New York, NY, USA, 432\u2013437.",
+      "doi": "10.1145/3204949.3208139"
+    },
+    {
+      "text": "Yaling Deng, Meng Yang, and Renlai Zhou. 2017. A New Standardized Emotional Film Database for Asian Culture. Frontiers in Psychology 8 (2017), 1941. https://doi.org/10.3389/fpsyg.2017.01941",
+      "doi": ""
+    },
+    {
+      "text": "Pieter\u00a0MA Desmet, Martijn\u00a0H Vastenburg, and Natalia Romero. 2016. Mood measurement with Pick-A-Mood: review of current methods and design of a pictorial self-report scale. Journal of Design Research 14, 3 (2016), 241\u2013279.",
+      "doi": ""
+    },
+    {
+      "text": "Julia Diemer, Georg\u00a0W. Alpers, Henrik\u00a0M. Peperkorn, Youssef Shiban, and Andreas M\u00fchlberger. 2015. The impact of perception and presence on emotional reactions: a review of research in virtual reality. Frontiers in Psychology 6 (2015), 26. https://doi.org/10.3389/fpsyg.2015.00026",
+      "doi": ""
+    },
+    {
+      "text": "Hui Ding, Goce Trajcevski, Peter Scheuermann, Xiaoyue Wang, and Eamonn Keogh. 2008. Querying and mining of time series data: experimental comparison of representations and distance measures. Proceedings of the VLDB Endowment 1, 2 (2008), 1542\u20131552.",
+      "doi": "10.14778/1454159.1454226"
+    },
+    {
+      "text": "Kevin Doherty and Gavin Doherty. 2018. The construal of experience in HCI: Understanding self-reports. International Journal of Human-Computer Studies 110 (2018), 63 \u2013 74. https://doi.org/10.1016/j.ijhcs.2017.10.006",
+      "doi": "10.1016/j.ijhcs.2017.10.006"
+    },
+    {
+      "text": "Anna Felnhofer, Oswald\u00a0D. Kothgassner, Mareike Schmidt, Anna-Katharina Heinzle, Leon Beutl, Helmut Hlavacs, and Ilse Kryspin-Exner. 2015. Is virtual reality emotionally arousing? Investigating five emotion inducing virtual park scenarios. International Journal of Human-Computer Studies 82 (2015), 48 \u2013 56. https://doi.org/10.1016/j.ijhcs.2015.05.004",
+      "doi": "10.1016/j.ijhcs.2015.05.004"
+    },
+    {
+      "text": "Julien Fleureau, Philippe Guillotel, and Izabela Orlac. 2013. Affective benchmarking of movies based on the physiological responses of a real audience. In 2013 Humaine Association Conference on Affective Computing and Intelligent Interaction. IEEE, Geneva, Switzerland, 73\u201378.",
+      "doi": "10.1109/ACII.2013.19"
+    },
+    {
+      "text": "Jeffrey\u00a0M Girard. 2014. CARMA: Software for continuous affect rating and media annotation. Journal of Open Research Software 2, 1 (2014), None.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0M Girard and Aidan\u00a0GC Wright. 2018. DARMA: Software for dual axis rating and media annotation. Behavior research methods 50, 3 (2018), 902\u2013909.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0J Gross and Robert\u00a0W Levenson. 1995. Emotion elicitation using films. Cognition & emotion 9, 1 (1995), 87\u2013108.",
+      "doi": ""
+    },
+    {
+      "text": "Uwe Gruenefeld, Abdallah\u00a0El Ali, Susanne Boll, and Wilko Heuten. 2018. Beyond Halo and Wedge: visualizing out-of-view objects on head-mounted virtual and augmented reality devices. In Proc. MobileHCI \u201918. Association for Computing Machinery, New York, NY, USA, 40.",
+      "doi": "10.1145/3229434.3229438"
+    },
+    {
+      "text": "Hatice Gunes and Bj\u00f6rn Schuller. 2013. Categorical and dimensional affect analysis in continuous input: Current trends and future directions. Image and Vision Computing 31, 2 (2013), 120 \u2013 136. https://doi.org/10.1016/j.imavis.2012.06.016 Affect Analysis In Continuous Input.",
+      "doi": "10.1016/j.imavis.2012.06.016"
+    },
+    {
+      "text": "Richard\u00a0F Gunst and Robert\u00a0L Mason. 2009. Fractional factorial design. Wiley Interdisciplinary Reviews: Computational Statistics 1, 2(2009), 234\u2013244.",
+      "doi": "10.1002/wics.27"
+    },
+    {
+      "text": "Jukka H\u00e4kkinen, Fumiya Ohta, and Takashi Kawai. 2019. Time Course of Sickness Symptoms with HMD Viewing of 360-degree Videos. Electronic Imaging 2019, 3 (2019), 60403\u20131.",
+      "doi": ""
+    },
+    {
+      "text": "Kevin\u00a0A Hallgren. 2012. Computing inter-rater reliability for observational data: an overview and tutorial. Tutorials in quantitative methods for psychology 8, 1 (2012), 23.",
+      "doi": ""
+    },
+    {
+      "text": "Dini Handayani, Abdul Wahab, and Hamwira Yaacob. 2015. Recognition of emotions in video clips: the self-assessment Manikin validation. Telkomnika 13, 4 (2015), 1343.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0M Haralick, Karthikeyan Shanmugam, and Its\u2019\u00a0Hak Dinstein. 1973. Textural features for image classification. IEEE Transactions on systems, man, and cybernetics SMC-3, 6(1973), 610\u2013621.",
+      "doi": ""
+    },
+    {
+      "text": "Beverly\u00a0L Harrison, Hiroshi Ishii, Kim\u00a0J Vicente, and William Buxton. 1995. Transparent layered user interfaces: An evaluation of a display design to enhance focused and divided attention. In CHI, Vol.\u00a095. Association for Computing Machinery, New York, NY, USA, 317\u2013324.",
+      "doi": ""
+    },
+    {
+      "text": "Sandra\u00a0G Hart. 2006. NASA-task load index (NASA-TLX); 20 years later. In Proceedings of the human factors and ergonomics society annual meeting, Vol.\u00a050. Sage Publications, Los Angeles, CA, 904\u2013908.",
+      "doi": "10.1177/154193120605000909"
+    },
+    {
+      "text": "Jennifer Healey, Pete Denman, Haroon Syed, Lama Nachman, and Susanna Raj. 2018. Circles vs. scales: an empirical evaluation of emotional assessment GUIs for mobile phones. In Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services. Association for Computing Machinery, New York, NY, USA, 1\u201311.",
+      "doi": "10.1145/3229434.3229440"
+    },
+    {
+      "text": "Andreas Henelius, Kati Hirvonen, Anu Holm, Jussi Korpela, and Kiti Muller. 2009. Mental workload classification using heart rate metrics. In 2009 Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE, Minneapolis, MN, USA, 1836\u20131839.",
+      "doi": ""
+    },
+    {
+      "text": "Jason Jerald. 2015. The VR book: Human-centered design for virtual reality. Morgan & Claypool, New York, NY, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen\u00a0C Johnson. 1967. Hierarchical clustering schemes. Psychometrika 32, 3 (1967), 241\u2013254.",
+      "doi": ""
+    },
+    {
+      "text": "H. Jun, M.\u00a0R. Miller, F. Herrera, B. Reeves, and J.\u00a0N. Bailenson. 2020. Stimulus Sampling with 360-Videos: Examining Head Movements, Arousal, Presence, Simulator Sickness, and Preference on a Large Sample of Participants and Videos. IEEE Transactions on Affective Computing None, None (2020), 1\u20131.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0S Kennedy, Norman\u00a0E Lane, Kevin\u00a0S Berbaum, and Michael\u00a0G Lilienthal. 1993. Simulator sickness questionnaire: An enhanced method for quantifying simulator sickness. The international journal of aviation psychology 3, 3 (1993), 203\u2013220.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0S Kennedy, Kay\u00a0M Stanney, and William\u00a0P Dunlap. 2000. Duration and exposure to virtual environments: sickness curves during and across sessions. Presence: Teleoperators & Virtual Environments 9, 5(2000), 463\u2013472.",
+      "doi": "10.1162/105474600566952"
+    },
+    {
+      "text": "Sander Koelstra, Christian Muhl, Mohammad Soleymani, Jong-Seok Lee, Ashkan Yazdani, Touradj Ebrahimi, Thierry Pun, Anton Nijholt, and Ioannis Patras. 2011. Deap: A database for emotion analysis; using physiological signals. IEEE transactions on affective computing 3, 1 (2011), 18\u201331.",
+      "doi": ""
+    },
+    {
+      "text": "Vitaliy Kolodyazhniy, Sylvia\u00a0D Kreibig, James\u00a0J Gross, Walton\u00a0T Roth, and Frank\u00a0H Wilhelm. 2011. An affective computing approach to physiological emotion specificity: Toward subject-independent and stimulus-independent classification of film-induced emotions. Psychophysiology 48, 7 (2011), 908\u2013922.",
+      "doi": ""
+    },
+    {
+      "text": "C. Kr\u00fcger, T. Koji\u0107, L. Meier, S. M\u00f6ller, and J. Voigt-Antons. 2020. Development and Validation of Pictographic Scales for Rapid Assessment of Affective States in Virtual Reality. In 2020 Twelfth International Conference on Quality of Multimedia Experience (QoMEX). IEEE, Athlone, Ireland, Ireland, 1\u20136. https://doi.org/10.1109/QoMEX48832.2020.9123100",
+      "doi": ""
+    },
+    {
+      "text": "Fanny Larradet, Radoslaw Niewiadomski, Giacinto Barresi, Darwin\u00a0G Caldwell, and Leonardo\u00a0S Mattos. 2020. Toward Emotion Recognition From Physiological Signals in the Wild: Approaching the Methodological Issues in Real-Life Data Collection. Frontiers in Psychology 11 (2020), 1111.",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin\u00a0J Li, Jeremy\u00a0N Bailenson, Adam Pines, Walter\u00a0J Greenleaf, and Leanne\u00a0M Williams. 2017. A public database of immersive VR videos with corresponding ratings of arousal, valence, and correlations between head movements and self report measures. Frontiers in psychology 8 (2017), 2116.",
+      "doi": ""
+    },
+    {
+      "text": "Jie Li, Yiping Kong, Thomas R\u00f6ggla, Francesca De\u00a0Simone, Swamy Ananthanarayan, Huib de Ridder, Abdallah El\u00a0Ali, and Pablo Cesar. 2019. Measuring and Understanding Photo Sharing Experiences in Social Virtual Reality. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300897",
+      "doi": "10.1145/3290605.3300897"
+    },
+    {
+      "text": "Yen-Chen Lin, Yung-Ju Chang, Hou-Ning Hu, Hsien-Tzu Cheng, Chi-Wen Huang, and Min Sun. 2017. Tell me where to look: Investigating ways for assisting focus in 360 video. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 2535\u20132545.",
+      "doi": "10.1145/3025453.3025757"
+    },
+    {
+      "text": "David Lindlbauer, Klemen Lilija, Robert Walter, and J\u00f6rg M\u00fcller. 2016. Influence of display transparency on background awareness and task performance. In Proc. CHI \u201916. Association for Computing Machinery, New York, NY, USA, 1705\u20131716.",
+      "doi": "10.1145/2858036.2858453"
+    },
+    {
+      "text": "Sean\u00a0J. Liu, Maneesh Agrawala, Stephen DiVerdi, and Aaron Hertzmann. 2019. View-Dependent Video Textures for 360\u00b0 Video. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 249\u2013262. https://doi.org/10.1145/3332165.3347887",
+      "doi": "10.1145/3332165.3347887"
+    },
+    {
+      "text": "Wen-Chih Lo, Ching-Ling Fan, Jean Lee, Chun-Ying Huang, Kuan-Ta Chen, and Cheng-Hsin Hsu. 2017. 360 video viewing dataset in head-mounted virtual reality. In Proceedings of the 8th ACM on Multimedia Systems Conference. Association for Computing Machinery, New York, NY, USA, 211\u2013216.",
+      "doi": "10.1145/3083187.3083219"
+    },
+    {
+      "text": "Phil Lopes, Georgios\u00a0N Yannakakis, and Antonios Liapis. 2017. RankTrace: Relative and unbounded affect annotation. In 2017 Seventh International Conference on Affective Computing and Intelligent Interaction (ACII). IEEE, San Antonio, TX, USA, 158\u2013163.",
+      "doi": ""
+    },
+    {
+      "text": "Ian\u00a0D Loram, Henrik Gollee, Martin Lakie, and Peter\u00a0J Gawthrop. 2011. Human control of an inverted pendulum: is continuous control necessary? Is intermittent control effective? Is intermittent control physiological?The Journal of physiology 589, 2 (2011), 307\u2013324.",
+      "doi": ""
+    },
+    {
+      "text": "Ren\u00a0C Luo, M-H Lin, and Ralph\u00a0S Scherp. 1988. Dynamic multi-sensor data fusion system for intelligent robots. IEEE Journal on Robotics and Automation 4, 4 (1988), 386\u2013396.",
+      "doi": ""
+    },
+    {
+      "text": "Antoine Lutz, Julie Brefczynski-Lewis, Tom Johnstone, and Richard\u00a0J Davidson. 2008. Regulation of the neural circuitry of emotion by compassion meditation: effects of meditative expertise. PloS one 3(2008), None.",
+      "doi": ""
+    },
+    {
+      "text": "Siyuan Ma, Gangquan Si, Wenmeng Yue, and Zhiqiang Ding. 2016. An online monitoring measure consistency computing algorithm by sliding window in multi-sensor system. In 2016 IEEE International Conference on Mechatronics and Automation. IEEE, Harbin, China, 2185\u20132190.",
+      "doi": "10.1109/ICMA.2016.7558905"
+    },
+    {
+      "text": "Andrew MacQuarrie and Anthony Steed. 2017. Cinematic virtual reality: Evaluating the effect of display type on the viewing experience for panoramic video. In 2017 IEEE Virtual Reality (VR). IEEE, Los Angeles, CA, USA, 45\u201354.",
+      "doi": ""
+    },
+    {
+      "text": "Javier Mar\u00edn-Morales, Juan\u00a0Luis Higuera-Trujillo, Alberto Greco, Jaime Guixeres, Carmen Llinares, Enzo\u00a0Pasquale Scilingo, Mariano Alca\u00f1iz, and Gaetano Valenza. 2018. Affective computing in virtual reality: emotion recognition from brain and heartbeat dynamics using wearable sensors. Scientific reports 8, 1 (2018), 1\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Soroosh Mariooryad and Carlos Busso. 2014. Correcting time-continuous emotional labels by modeling the reaction lag of evaluators. IEEE Transactions on Affective Computing 6, 2 (2014), 97\u2013108.",
+      "doi": "10.1109/TAFFC.2014.2334294"
+    },
+    {
+      "text": "Gerd Marmitt and Andrew\u00a0T Duchowski. 2002. Modeling visual attention in VR: Measuring the accuracy of predicted scanpaths. Ph.D. Dissertation. Clemson University. https://doi.org/10.2312/egs.20021022",
+      "doi": ""
+    },
+    {
+      "text": "Tara Matthews, Anind\u00a0K. Dey, Jennifer Mankoff, Scott Carter, and Tye Rattenbury. 2004. A Toolkit for Managing User Attention in Peripheral Displays. In Proc. UIST \u201904 (Santa Fe, NM, USA). ACM, New York, NY, USA, 247\u2013256.",
+      "doi": "10.1145/1029632.1029676"
+    },
+    {
+      "text": "Angeliki Metallinou and Shrikanth Narayanan. 2013. Annotation and processing of continuous emotional attributes: Challenges and opportunities. In 2013 10th IEEE international conference and workshops on automatic face and gesture recognition (FG). IEEE, Shanghai, China, 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Frederik Nagel, Reinhard Kopiez, Oliver Grewe, and Eckart Altenm\u00fcller. 2007. EMuJoy: Software for continuous measurement of perceived emotions in music. Behavior Research Methods 39, 2 (2007), 283\u2013290.",
+      "doi": ""
+    },
+    {
+      "text": "Afshin\u00a0Taghavi Nasrabadi, Aliehsan Samiei, and Ravi Prakash. 2020. Viewport prediction for 360\u00b0 videos: a clustering approach. In Proceedings of the 30th ACM Workshop on Network and Operating Systems Support for Digital Audio and Video. Association for Computing Machinery, New York, NY, USA, 34\u201339.",
+      "doi": "10.1145/3386290.3396934"
+    },
+    {
+      "text": "Donald\u00a0A. Norman and Stephen\u00a0W. Draper. 1986. User Centered System Design; New Perspectives on Human-Computer Interaction. L. Erlbaum Associates Inc., USA.",
+      "doi": "10.5555/576915"
+    },
+    {
+      "text": "Tiago Oliveira, Paulo Noriega, Francisco Rebelo, and Regina Heidrich. 2018. Evaluation of the Relationship Between Virtual Environments and Emotions. In Advances in Ergonomics in Design, Francisco Rebeloand Marcelo Soares (Eds.). Springer, Cham, 71\u201382.",
+      "doi": ""
+    },
+    {
+      "text": "Timo Partala and Veikko Surakka. 2003. Pupil size variation as an indication of affective processing. International journal of human-computer studies 59, 1-2 (2003), 185\u2013198.",
+      "doi": "10.1016/S1071-5819%2803%2900017-X"
+    },
+    {
+      "text": "Xiaolan Peng, Jin Huang, Linghan Li, Chen Gao, Hui Chen, Feng Tian, and Hongan Wang. 2019. Beyond Horror and Fear: Exploring Player Experience Invoked by Emotional Challenge in VR Games. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3290607.3312832",
+      "doi": "10.1145/3290607.3312832"
+    },
+    {
+      "text": "Bastian Pfleging, Drea\u00a0K Fekety, Albrecht Schmidt, and Andrew\u00a0L Kun. 2016. A model relating pupil diameter to mental workload and lighting conditions. In Proceedings of the 2016 CHI conference on human factors in computing systems. Association for Computing Machinery, New York, NY, USA, 5776\u20135788.",
+      "doi": "10.1145/2858036.2858117"
+    },
+    {
+      "text": "Susanne Putze, Dmitry Alexandrovsky, Felix Putze, Sebastian H\u00f6ffner, Jan\u00a0David Smeddinck, and Rainer Malaka. 2020. Breaking The Experience: Effects of Questionnaires in VR User Studies. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201315.",
+      "doi": "10.1145/3313831.3376144"
+    },
+    {
+      "text": "Silvia Rossi, Francesca De\u00a0Simone, Pascal Frossard, and Laura Toni. 2019. Spherical clustering of users navigating 360 content. In ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, Brighton, United Kingdom, United Kingdom, 4020\u20134024.",
+      "doi": ""
+    },
+    {
+      "text": "S. Rossi, F. De Simone, P. Frossard, and L. Toni. 2019. Spherical Clustering of Users Navigating 360\u00b0 Content. In ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, Brighton, United Kingdom, United Kingdom, 4020\u20134024.",
+      "doi": ""
+    },
+    {
+      "text": "Silvia Rossi, Cagri Ozcinar, Aljosa Smolic, and Laura Toni. 2020. Do Users Behave Similarly in VR? Investigation of the User Influence on the System Design. ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM) 16, 2 (2020), 1\u201326.",
+      "doi": "10.1145/3381846"
+    },
+    {
+      "text": "James\u00a0A Russell. 1980. A circumplex model of affect.Journal of personality and social psychology 39, 6(1980), 1161.",
+      "doi": ""
+    },
+    {
+      "text": "Hiroaki Sakoe and Seibi Chiba. 1978. Dynamic programming algorithm optimization for spoken word recognition. IEEE transactions on acoustics, speech, and signal processing 26, 1(1978), 43\u201349.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Schubert, Frank Friedmann, and Holger Regenbrecht. 2001. The experience of presence: Factor analytic insights. Presence: Teleoperators & Virtual Environments 10, 3(2001), 266\u2013281.",
+      "doi": "10.1162/105474601300343603"
+    },
+    {
+      "text": "Valentin Schwind, Pascal Knierim, Nico Haas, and Niels Henze. 2019. Using Presence Questionnaires in Virtual Reality. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300590",
+      "doi": "10.1145/3290605.3300590"
+    },
+    {
+      "text": "Karan Sharma, Claudio Castellini, Freek Stulp, and Egon\u00a0L Van\u00a0den Broek. 2017. Continuous, real-time emotion annotation: A novel joystick-based analysis framework. IEEE Transactions on Affective Computing 11, 1 (2017), 78\u201384.",
+      "doi": ""
+    },
+    {
+      "text": "Karan Sharma, Claudio Castellini, Egon\u00a0L van\u00a0den Broek, Alin Albu-Schaeffer, and Friedhelm Schwenker. 2019. A dataset of continuous affect annotations and physiological signals for emotion analysis. Scientific data 6, 1 (2019), 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Lin Shu, Jinyan Xie, Mingyue Yang, Ziyi Li, Zhenqi Li, Dan Liao, Xiangmin Xu, and Xinyi Yang. 2018. A review of emotion recognition using physiological signals. Sensors 18, 7 (2018), 2074.",
+      "doi": ""
+    },
+    {
+      "text": "Jaana Simola, Kevin Le\u00a0Fevre, Jari Torniainen, and Thierry Baccino. 2015. Affective processing in natural scene viewing: Valence and arousal interactions in eye-fixation-related potentials. NeuroImage 106(2015), 21\u201333.",
+      "doi": ""
+    },
+    {
+      "text": "Ashutosh Singla, Stephan Fremerey, Werner Robitza, and Alexander Raake. 2017. Measuring and comparing QoE and simulator sickness of omnidirectional videos in different head mounted displays. In 2017 Ninth international conference on quality of multimedia experience (QoMEX). IEEE, Erfurt, Germany, 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "V. Sitzmann, A. Serrano, A. Pavel, M. Agrawala, D. Gutierrez, B. Masia, and G. Wetzstein. 2018. Saliency in VR: How Do People Explore Virtual Environments?IEEE Transactions on Visualization and Computer Graphics 24, 4(2018), 1633\u20131642.",
+      "doi": ""
+    },
+    {
+      "text": "Mohammad Soleymani, Sadjad Asghari-Esfeden, Yun Fu, and Maja Pantic. 2015. Analysis of EEG signals and facial expressions for continuous emotion detection. IEEE Transactions on Affective Computing 7, 1 (2015), 17\u201328.",
+      "doi": "10.1109/TAFFC.2015.2436926"
+    },
+    {
+      "text": "Marco Speicher, Christoph Rosenberg, Donald Degraen, Florian Daiber, and Antonio Kr\u00fager. 2019. Exploring visual guidance in 360-degree videos. In Proceedings of the 2019 ACM International Conference on Interactive Experiences for TV and Online Video. Association for Computing Machinery, New York, NY, USA, 1\u201312.",
+      "doi": "10.1145/3317697.3323350"
+    },
+    {
+      "text": "Anna St\u00e5hl, Petra Sundstr\u00f6m, and Kristina H\u00f6\u00f6k. 2005. A foundation for emotional expressivity. In Proceedings of the 2005 conference on Designing for User eXperience. AIGA: American Institute of Graphic Arts, New YorkNYUnited States, 33.",
+      "doi": ""
+    },
+    {
+      "text": "Markus\u00a0Andreas Stricker and Markus Orengo. 1995. Similarity of color images. In Storage and retrieval for image and video databases III, Vol.\u00a02420. International Society for Optics and Photonics, San Jose, CA, United States, 381\u2013392.",
+      "doi": ""
+    },
+    {
+      "text": "Mu-Chun Su and Yi-Chun Liu. 2002. A hierarchical approach to ART-like clustering algorithm. In Proceedings of the 2002 International Joint Conference on Neural Networks. IJCNN\u201902 (Cat. No. 02CH37290), Vol.\u00a01. IEEE, Honolulu, HI, USA, USA, 788\u2013793.",
+      "doi": ""
+    },
+    {
+      "text": "S. Subramanyam, J. Li, I. Viola, and P. Cesar. 2020. Comparing the Quality of Highly Realistic Digital Humans in 3DoF and 6DoF: A Volumetric Video Case Study. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, Atlanta, GA, USA, USA, 127\u2013136.",
+      "doi": ""
+    },
+    {
+      "text": "Wei Tang, Shiyi Wu, Toinon Vigier, and Matthieu\u00a0Perreira Da\u00a0Silva. 2020. Influence of Emotions on Eye Behavior in Omnidirectional Content. In 2020 Twelfth International Conference on Quality of Multimedia Experience (QoMEX). IEEE, Athlone, Ireland, Ireland, 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Jordan Tewell, Jon Bird, and George\u00a0R Buchanan. 2017. The heat is on: A temperature display for conveying affective feedback. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1756\u20131767.",
+      "doi": "10.1145/3025453.3025844"
+    },
+    {
+      "text": "Alexander Toet, Fabienne Heijn, Anne-Marie Brouwer, Tina Mioch, and Jan\u00a0BF van Erp. 2019. The EmojiGrid as an Immersive Self-report Tool for the Affective Assessment of 360 VR Videos. In International Conference on Virtual Reality and Augmented Reality. Springer, Cham, 330\u2013335.",
+      "doi": "10.1007/978-3-030-31908-3_24"
+    },
+    {
+      "text": "Alexander Toet, Fabienne Heijn, Anne-Marie Brouwer, Tina Mioch, and Jan B.\u00a0F. van Erp. 2019. The EmojiGrid as an Immersive Self-report Tool for the Affective Assessment of 360 VR Videos. In Virtual Reality and Augmented Reality, Patrick Bourdot, Victoria Interrante, Luciana Nedel, Nadia Magnenat-Thalmann, and Gabriel Zachmann (Eds.). Springer International Publishing, Cham, 330\u2013335.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0Hendriks Vettehen, Daan Wiltink, Maite Huiskamp, Gabi Schaap, and Paul Ketelaar. 2019. Taking the full view: How viewers respond to 360-degree video news. Computers in Human Behavior 91 (2019), 24\u201332.",
+      "doi": ""
+    },
+    {
+      "text": "Jan-Niklas Voigt-Antons, Eero Lehtonen, Andres\u00a0Pinilla Palacios, Danish Ali, Tanja Kojic, and Sebastian M\u00f6ller. 2020. Comparing Emotional States Induced by 360\u00b0 Videos Via Head-Mounted Display and Computer Screen. In 2020 Twelfth International Conference on Quality of Multimedia Experience (QoMEX). IEEE, Athlone, Ireland, Ireland, 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Guan Wang, Wenying Gu, and Ayoung Suh. 2018. The effects of 360-degree VR videos on audience engagement: Evidence from the New York Times. In International Conference on HCI in Business, Government, and Organizations. Springer, Cham, 217\u2013235.",
+      "doi": "10.1007/978-3-319-91716-0_17"
+    },
+    {
+      "text": "David Watson. 1988. The vicissitudes of mood measurement: Effects of varying descriptors, time frames, and response formats on measures of positive and negative affect.Journal of Personality and social Psychology 55, 1(1988), 128.",
+      "doi": ""
+    },
+    {
+      "text": "Christopher\u00a0D Wickens. 2008. Multiple resources and mental workload. Human factors 50, 3 (2008), 449\u2013455.",
+      "doi": ""
+    },
+    {
+      "text": "Chenglei Wu, Zhihao Tan, Zhi Wang, and Shiqiang Yang. 2017. A dataset for exploring user behaviors in VR spherical video streaming. In Proceedings of the 8th ACM on Multimedia Systems Conference. Association for Computing Machinery, New York, NY, USA, 193\u2013198.",
+      "doi": "10.1145/3083187.3083210"
+    },
+    {
+      "text": "Lan Xie, Zhimin Xu, Yixuan Ban, Xinggong Zhang, and Zongming Guo. 2017. 360probdash: Improving qoe of 360 video streaming using tile-based http adaptive streaming. In Proceedings of the 25th ACM international conference on Multimedia. Association for Computing Machinery, New York, NY, USA, 315\u2013323.",
+      "doi": "10.1145/3123266.3123291"
+    },
+    {
+      "text": "Mai Xu, Chen Li, Zhenzhong Chen, Zulin Wang, and Zhenyu Guan. 2018. Assessing visual quality of omnidirectional videos. IEEE Transactions on Circuits and Systems for Video Technology 29, 12(2018), 3516\u20133530.",
+      "doi": ""
+    },
+    {
+      "text": "Tong Xue, Surjya Ghosh, Gangyi Ding, Abdallah El\u00a0Ali, and Pablo Cesar. 2020. Designing Real-time, Continuous Emotion Annotation Techniques for 360\u00b0 VR Videos. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u20139.",
+      "doi": "10.1145/3334480.3382895"
+    },
+    {
+      "text": "Georgios\u00a0N Yannakakis and Hector\u00a0P Martinez. 2015. Grounding truth via ordinal annotation. In 2015 international conference on affective computing and intelligent interaction (ACII). IEEE, Xi\u2019an, China, 574\u2013580.",
+      "doi": "10.1109/ACII.2015.7344627"
+    },
+    {
+      "text": "Tianyi Zhang, Abdallah El\u00a0Ali, Chen Wang, Alan Hanjalic, and Pablo Cesar. 2020. RCEA: Real-time, Continuous Emotion Annotation for Collecting Precise Mobile Video Ground Truth Labels. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201315.",
+      "doi": "10.1145/3313831.3376808"
+    },
+    {
+      "text": "Sicheng Zhao, Yue Gao, Xiaolei Jiang, Hongxun Yao, Tat-Seng Chua, and Xiaoshuai Sun. 2014. Exploring principles-of-art features for image emotion recognition. In Proceedings of the 22nd ACM international conference on Multimedia. Association for Computing Machinery, New York, NY, USA, 47\u201356.",
+      "doi": "10.1145/2647868.2654930"
+    },
+    {
+      "text": "Zhiwei Zhu, Kikuo Fujimura, and Qiang Ji. 2002. Real-time eye detection and tracking under various light conditions. In Proceedings of the 2002 symposium on Eye tracking research & applications. Association for Computing Machinery, New York, NY, USA, 139\u2013144.",
+      "doi": "10.1145/507072.507100"
+    }
+  ]
+}

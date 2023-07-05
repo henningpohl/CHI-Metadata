@@ -1,0 +1,525 @@
+{
+  "doi": "10.1145/3411764.3445555",
+  "title": "From Reflection to Action: Combining Machine Learning with Expert Knowledge for Nutrition Goal Recommendations",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Self-tracking can help personalize self-management interventions for chronic conditions like type 2 diabetes (T2D), but reflecting on personal data requires motivation and literacy. Machine learning (ML) methods can identify patterns, but a key challenge is making actionable suggestions based on personal health data. We introduce GlucoGoalie, which combines ML with an expert system to translate ML output into personalized nutrition goal suggestions for individuals with T2D. In a controlled experiment, participants with T2D found that goal suggestions were understandable and actionable. A 4-week in-the-wild deployment study showed that receiving goal suggestions augmented participants\u2019 self-discovery, choosing goals highlighted the multifaceted nature of personal preferences, and the experience of following goals demonstrated the importance of feedback and context. However, we identified tensions between abstract goals and concrete eating experiences and found static text too ambiguous for complex concepts. We discuss implications for ML-based interventions and the need for systems that offer more interactivity, feedback, and negotiation.",
+  "authors": [
+    {
+      "name": "Elliot G. Mitchell",
+      "institution": "Department of Biomedical Informatics, Columbia University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659367025",
+      "orcid": "missing"
+    },
+    {
+      "name": "Elizabeth M. Heitkemper",
+      "institution": "School of Nursing, The University of Texas at Austin, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659171184",
+      "orcid": "missing"
+    },
+    {
+      "name": "Marissa Burgermaster",
+      "institution": "Department of Population Health, Dell Medical School and Department of Nutritional Sciences, The University of Texas at Austin, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659160302",
+      "orcid": "missing"
+    },
+    {
+      "name": "Matthew E. Levine",
+      "institution": "Department of Computing and Mathematical Sciences, California Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659260924",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yishen Miao",
+      "institution": "Department of Molecular, Cellular, and Developmental Biology, University of California Santa Barbara, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700696",
+      "orcid": "missing"
+    },
+    {
+      "name": "Maria L. Hwang",
+      "institution": "Science and Math, Fashion Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659161406",
+      "orcid": "missing"
+    },
+    {
+      "name": "Pooja M. Desai",
+      "institution": "Department of Biomedical Informatics, Columbia University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659260903",
+      "orcid": "missing"
+    },
+    {
+      "name": "Andrea Cassells",
+      "institution": "Clinical Directors Network (CDN), United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659234249",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jonathan N. Tobin",
+      "institution": "Clinical Directors Network (CDN) and The Rockefeller University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659234926",
+      "orcid": "missing"
+    },
+    {
+      "name": "Esteban G. Tabak",
+      "institution": "Courant Institute of Mathematical Sciences, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660495792",
+      "orcid": "missing"
+    },
+    {
+      "name": "David J. Albers",
+      "institution": "University of Colorado, Anschutz Medical Campus, Section of Informatics and Data Science, Departments of Pediatrics, Biomedical Engineering, and Biostatistics and Informatics and Department of Biomedical Informatics, Columbia University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659035554",
+      "orcid": "missing"
+    },
+    {
+      "name": "Arlene M. Smaldone",
+      "institution": "School of Nursing, Columbia University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658749400",
+      "orcid": "missing"
+    },
+    {
+      "name": "Lena Mamykina",
+      "institution": "Department of Biomedical Informatics, Columbia University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81500656179",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "David J Albers, Matthew E Levine, Andrew Stuart, Lena Mamykina, Bruce Gluckman, and George Hripcsak. 2018. Mechanistic machine learning: how data assimilation leverages physiologic knowledge using Bayesian inference to forecast the future, infer the present, and phenotype. Journal of the American Medical Informatics Association 25, 10: 1392\u20131401. https://doi.org/10.1093/jamia/ocy106",
+      "doi": ""
+    },
+    {
+      "text": "American Diabetes Association. 2018. 4. Lifestyle Management:Standards of Medical Care in Diabetes-2018. Diabetes care 41, Suppl 1: S38\u2013S50. https://doi.org/10.2337/dc18-S004",
+      "doi": ""
+    },
+    {
+      "text": "Adriana Arcia, Niurka Suero-Tejeda, Michael E. Bales, Jacqueline A. Merrill, Sunmoo Yoon, Janet Woollen, and Suzanne Bakken. 2016. Sometimes more is more: Iterative participatory design of infographics for engagement of community members with varying levels of health literacy. Journal of the American Medical Informatics Association 23, 1: 174\u2013183. https://doi.org/10.1093/jamia/ocv079",
+      "doi": ""
+    },
+    {
+      "text": "Pablo Aschner. 2017. New IDF clinical practice recommendations for managing type 2 diabetes in primary care. Diabetes Research and Clinical Practice 132: 169\u2013170. https://doi.org/10.1016/J.DIABRES.2017.09.002",
+      "doi": ""
+    },
+    {
+      "text": "Eric P.S. Baumer, Vera Khovanskaya, Mark Matthews, Lindsay Reynolds, Victoria Schwanda Sosik, and Geri Gay. 2014. Reviewing reflection. In Proceedings of the 2014 conference on Designing interactive systems - DIS \u201914, 93\u2013102. https://doi.org/10.1145/2598510.2598598",
+      "doi": "10.1145/2598510.2598598"
+    },
+    {
+      "text": "Frank Bentley, Konrad Tollmar, Peter Stephenson, Laura Levy, Brian Jones, Scott Robertson, Ed Price, Richard Catrambone, and Jeff Wilson. 2013. Health Mashups: Presenting Statistical Patterns betweenWellbeing Data and Context in Natural Language to Promote Behavior Change. ACM Transactions on Computer-Human Interaction 20, 5: 1\u201327. https://doi.org/10.1145/2503823",
+      "doi": "10.1145/2503823"
+    },
+    {
+      "text": "Andrew B.L. Berry, Catherine Lim, Andrea L. Hartzler, Tad Hirsch, Evette Ludman, Edward H. Wagner, and James D. Ralston. 2017. Eliciting Values of Patients with Multiple Chronic Conditions: Evaluation of a Patient-centered Framework. AMIA ... Annual Symposium proceedings. AMIA Symposium 2017: 430\u2013439. Retrieved September 15, 2020 from /pmc/articles/PMC5977727/?report=abstract",
+      "doi": ""
+    },
+    {
+      "text": "Timothy Bickmore, Amanda Gruber, and Rosalind Picard. 2005. Establishing the computer\u2013patient working alliance in automated health behavior change interventions. Patient Education and Counseling 59, 1: 21\u201330. https://doi.org/10.1016/J.PEC.2004.09.008",
+      "doi": ""
+    },
+    {
+      "text": "Timothy W. Bickmore, Rebecca A. Silliman, Kerrie Nelson, Debbie M. Cheng, Michael Winter, Lori Henault, and Michael K. Paasche-Orlow. 2013. A Randomized Controlled Trial of an Automated Exercise Coach for Older Adults. Journal of the American Geriatrics Society 61, 10: 1676\u20131683. https://doi.org/10.1111/jgs.12449",
+      "doi": ""
+    },
+    {
+      "text": "Timothy W Bickmore, Daniel Schulman, and Candace L Sidner. 2011. A reusable framework for health counseling dialogue systems based on a behavioral medicine ontology. Journal of Biomedical Informatics 44, 2: 183\u2013197. https://doi.org/10.1016/j.jbi.2010.12.006",
+      "doi": "10.1016/j.jbi.2010.12.006"
+    },
+    {
+      "text": "Thomas Bodenheimer, Kate Lorig, Halsted Holman, and Kevin Grumbach. 2002. Patient Self-management of Chronic Disease in Primary Care. JAMA 288, 19: 2469. https://doi.org/10.1001/jama.288.19.2469",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative Research in Psychology 3, 2: 77\u2013101. https://doi.org/10.1191/1478088706qp063oa",
+      "doi": "10.1191/1478088706QP063OA"
+    },
+    {
+      "text": "Marissa Burgermaster, Krzysztof Z. Gajos, Patricia Davidson, and Lena Mamykina. 2017. The Role of Explanations in Casual Observational Learning about Nutrition. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems - CHI \u201917, 4097\u20134145. https://doi.org/10.1145/3025453.3025874",
+      "doi": "10.1145/3025453.3025874"
+    },
+    {
+      "text": "Kerri L Cavanaugh. 2011. Health literacy in diabetes care: explanation, evidence and equipment. Diabetes management (London, England) 1, 2: 191\u2013199. https://doi.org/10.2217/dmt.11.5",
+      "doi": ""
+    },
+    {
+      "text": "Centers for Disease Control and Prevention. 2018. Racial and Ethnic Approaches to Community Health | DNPAO. Retrieved January 3, 2019 from https://www.cdc.gov/nccdphp/dnpao/state-local-programs/reach/",
+      "doi": ""
+    },
+    {
+      "text": "Beenish M. Chaudhry, Christopher Schaefbauer, Ben Jelen, Katie A. Siek, and Kay Connelly. 2016. Evaluation of a Food Portion Size Estimation Interface for a Varying Literacy Population. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems - CHI \u201916, 5645\u20135657. https://doi.org/10.1145/2858036.2858554",
+      "doi": "10.1145/2858036.2858554"
+    },
+    {
+      "text": "Ming-Yuan Chih, Timothy Patton, Fiona M. McTavish, Andrew J. Isham, Chris L. Judkins-Fisher, Amy K. Atwood, and David H. Gustafson. 2014. Predictive modeling of addiction lapses in a mobile health application. Journal of Substance Abuse Treatment 46, 1: 29\u201335. https://doi.org/10.1016/J.JSAT.2013.08.004",
+      "doi": ""
+    },
+    {
+      "text": "Eun Kyoung Choe, Nicole B. Lee, Bongshin Lee, Wanda Pratt, and Julie A. Kientz. 2014. Understanding Quantified-Selfers\u2019 Practices in Collecting and Exploring Personal Data. Proceedings of the 32nd Annual ACM Conference on Human Factors in Computing Systems: 1143\u20131152. https://doi.org/10.1145/2556288.2557372",
+      "doi": ""
+    },
+    {
+      "text": "Chia-Fang Chung, Qiaosi Wang, Jessica Schroeder, Allison Cole, Jasmine Zia, James Fogarty, and Sean A. Munson. 2019. Identifying and Planning for Individualized Change. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 1: 1\u201327. https://doi.org/10.1145/3314394",
+      "doi": "10.1145/3359164"
+    },
+    {
+      "text": "C\u00e9line Clavel, Steve Whittaker, Ana\u00efs Ana is Blacodon, and Jean-Claude Martin. 2018. WEnner: A Theoretically Motivated Approach for Tailored Coaching About Physical Activity. In Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers - UbiComp \u201918 (UbiComp \u201918), 1669\u20131675. https://doi.org/10.1145/3267305.3274190",
+      "doi": "10.1145/3267305.3274190"
+    },
+    {
+      "text": "James Clawson, Jessica A. Pater, Andrew D. Miller, Elizabeth D. Mynatt, and Lena Mamykina. 2015. No longer wearing: investigating the abandonment of personal health-tracking technologies on craigslist. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing - UbiComp \u201915, 647\u2013658. https://doi.org/10.1145/2750858.2807554",
+      "doi": "10.1145/2750858.2807554"
+    },
+    {
+      "text": "Heather J. Cole-Lewis, Arlene M. Smaldone, Patricia R. Davidson, Rita Kukafka, Jonathan N. Tobin, Andrea Cassells, Elizabeth D. Mynatt, George Hripcsak, and Lena Mamykina. 2016. Participatory approach to the development of a knowledge base for problem-solving in diabetes self-management. International Journal of Medical Informatics 85, 1: 96\u2013103. https://doi.org/10.1016/J.IJMEDINF.2015.08.003",
+      "doi": ""
+    },
+    {
+      "text": "Francis S. Collins and Harold Varmus. 2015. A New Initiative on Precision Medicine. New England Journal of Medicine 372, 9: 793\u2013795. https://doi.org/10.1056/NEJMp1500523",
+      "doi": ""
+    },
+    {
+      "text": "Sunny Consolvo, Predrag Klasnja, David W. McDonald, and James A. Landay. 2009. Goal-setting considerations for persuasive technologies that encourage physical activity. In ACM International Conference Proceeding Series, 1. https://doi.org/10.1145/1541948.1541960",
+      "doi": ""
+    },
+    {
+      "text": "Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James Fogarty. 2015. Rethinking the Mobile Food Journal: Exploring Opportunities for Lightweight Photo-Based Capture. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems - CHI \u201915, 3207\u20133216. https://doi.org/10.1145/2702123.2702154",
+      "doi": "10.1145/2702123.2702154"
+    },
+    {
+      "text": "Nediyana Daskalova, Jina Yoon, Yibing Wang, Cintia Araujo, Guillermo Beltran, Nicole Nugent, John McGeary, Joseph Jay Williams, and Jeff Huang. 2020. SleepBandits: Guided Flexible Self-Experiments for Sleep. In Conference on Human Factors in Computing Systems - Proceedings. https://doi.org/10.1145/3313831.3376584",
+      "doi": ""
+    },
+    {
+      "text": "Pooja M. Desai, Elliot G. Mitchell, Maria L. Hwang, Matthew E. Levine, David J. Albers, and Lena Mamykina. 2019. Personal health oracle: Explorations of personalized predictions in diabetes self-management. In Conference on Human Factors in Computing Systems - Proceedings, 1\u201313. https://doi.org/10.1145/3290605.3300600",
+      "doi": "10.1145/3290605.3300600"
+    },
+    {
+      "text": "Anind K. Dey. 2001. Understanding and using context. Personal and Ubiquitous Computing 5, 1: 4\u20137. https://doi.org/10.1007/s007790170019",
+      "doi": "10.1007/s007790170019"
+    },
+    {
+      "text": "The Diabetes Prevention Program (DPP) Research Diabetes Prevention Program (DPP) Research Group. 2002. The Diabetes Prevention Program (DPP): description of lifestyle intervention. Diabetes care 25, 12: 2165\u201371. https://doi.org/10.2337/diacare.25.12.2165",
+      "doi": ""
+    },
+    {
+      "text": "Sara Belle Donevant, Robin Dawson Estrada, Joan Marie Culley, Brian Habing, and Swann Arp Adams. 2018. Exploring app features with outcomes in mHealth studies involving chronic respiratory diseases, diabetes, and hypertension: a targeted exploration of the literature. Journal of the American Medical Informatics Association. https://doi.org/10.1093/jamia/ocy104",
+      "doi": ""
+    },
+    {
+      "text": "David Elsweiler and Morgan Harvey. 2015. Towards Automatic Meal Plan Recommendations for Balanced Nutrition. Proceedings of the 9th ACM Conference on Recommender Systems: 313\u2013316. https://doi.org/10.1145/2792838.2799665",
+      "doi": "10.1145/2792838.2799665"
+    },
+    {
+      "text": "David Elsweiler, Bernd Ludwig, Alan Said, Hanna Schaefer, and Christoph Trattner. 2016. Engendering Health with Recommender Systems. In Proceedings of the 10th ACM Conference on Recommender Systems - RecSys \u201916, 409\u2013410. https://doi.org/10.1145/2959100.2959203",
+      "doi": "10.1145/2959100.2959203"
+    },
+    {
+      "text": "Daniel A. Epstein, Felicia Cordeiro, James Fogarty, Gary Hsieh, and Sean A. Munson. 2016. Crumbs: Lightweight Daily Food Challenges to Promote Engagement and Mindfulness. Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems: 5632\u20135644. https://doi.org/10.1145/2858036.2858044",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Epstein, Felicia Cordeiro, Elizabeth Bales, James Fogarty, and Sean Munson. 2014. Taming Data Complexity in Lifelogs: Exploring Visual Cuts of Personal Informatics Data. DIS \u201914 Proceedings of the 2014 conference on Designing interactive systems: 667\u2013676. https://doi.org/10.1145/2598510.2598558",
+      "doi": "10.1145/2598510.2598558"
+    },
+    {
+      "text": "Deborah Estrin. 2014. Small data, where n = me. Communications of the ACM 57, 4: 32\u201334. https://doi.org/10.1145/2580944",
+      "doi": "10.1145/2580944"
+    },
+    {
+      "text": "Alison B. Evert, Michelle Dennison, Christopher D. Gardner, W. Timothy Garvey, Ka Hei Karen Lau, Janice MacLeod, Joanna Mitri, Raquel F. Pereira, Kelly Rawlings, Shamera Robinson, Laura Saslow, Sacha Uelmen, Patricia B. Urbanski, and William S. Yancy. 2019. Nutrition therapy for adults with diabetes or prediabetes: A consensus report. https://doi.org/10.2337/dci19-0014",
+      "doi": ""
+    },
+    {
+      "text": "Daniel J Feller, Marissa Burgermaster, Matthew E Levine, Arlene Smaldone, Patricia G Davidson, David J Albers, and Lena Mamykina. 2018. A visual analytics approach for pattern-recognition in patient-generated data. Journal of the American Medical Informatics Association. https://doi.org/10.1093/jamia/ocy054",
+      "doi": ""
+    },
+    {
+      "text": "Kathleen Kara Fitzpatrick, Alison Darcy, and Molly Vierhile. 2017. Delivering Cognitive Behavior Therapy to Young Adults With Symptoms of Depression and Anxiety Using a Fully Automated Conversational Agent (Woebot): A Randomized Controlled Trial. JMIR mental health 4, 2: e19. https://doi.org/10.2196/mental.7785",
+      "doi": ""
+    },
+    {
+      "text": "Patricia Fusch and Lawrence Ness. 2015. Are We There Yet? Data Saturation in Qualitative Research. The Qualitative Report 20, 9. Retrieved September 15, 2020 from https://nsuworks.nova.edu/tqr/vol20/iss9/3",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Grimes, Martin Bednar, Jay David Bolter, and Rebecca E. Grinter. 2008. EatWell: Sharing nutrition-related memories in a low-income community. In Proceedings of the ACM Conference on Computer Supported Cooperative Work, CSCW, 87\u201396. https://doi.org/10.1145/1460563.1460579",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Grimes, Vasudhara Kantroo, and Rebecca E. Grinter. 2010. Let's play! Mobile health games for adults. In UbiComp\u201910 - Proceedings of the 2010 ACM Conference on Ubiquitous Computing, 241\u2013250. https://doi.org/10.1145/1864349.1864370",
+      "doi": ""
+    },
+    {
+      "text": "Lisa Grossman, Steven Feiner, Elliot Mitchell, and Ruth Masterson Creber. 2018. Leveraging Patient-Reported Outcomes Using Data Visualization. Applied Clinical Informatics 09, 03: 565\u2013575. https://doi.org/10.1055/s-0038-1667041",
+      "doi": ""
+    },
+    {
+      "text": "Greg Guest, Arwen Bunce, and Laura Johnson. 2006. How Many Interviews Are Enough? Field Methods 18, 1: 59\u201382. https://doi.org/10.1177/1525822X05279903",
+      "doi": ""
+    },
+    {
+      "text": "Varun Gulshan, Lily Peng, Marc Coram, Martin C. Stumpe, Derek Wu, Arunachalam Narayanaswamy, Subhashini Venugopalan, Kasumi Widner, Tom Madams, Jorge Cuadros, Ramasamy Kim, Rajiv Raman, Philip C. Nelson, Jessica L. Mega, and Dale R. Webster. 2016. Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs. JAMA - Journal of the American Medical Association 316, 22: 2402\u20132410. https://doi.org/10.1001/jama.2016.17216",
+      "doi": ""
+    },
+    {
+      "text": "Ankit Gupta, Tim Heng, Chris Shaw, Linda Li, and Lynne Feehan. 2018. Towards developing an e-coach to support arthritis patients in maintaining a physically active lifestyle. In Proceedings of the 12th EAI International Conference on Pervasive Computing Technologies for Healthcare - PervasiveHealth \u201918, 392\u2013395. https://doi.org/10.1145/3240925.3240954",
+      "doi": "10.1145/3240925.3240954"
+    },
+    {
+      "text": "Mark D. Hayward, Toni P. Miles, Eileen M. Crimmins, and Yu Yang. 2000. The Significance of Socioeconomic Status in Explaining the Racial Gap in Chronic Health Conditions. American Sociological Review 65, 6: 910. https://doi.org/10.2307/2657519",
+      "doi": ""
+    },
+    {
+      "text": "Victoria Hollis, Artie Konrad, Aaron Springer, Matthew Antoun, Christopher Antoun, Rob Martin, and Steve Whittaker. 2017. What Does All This Data Mean for My Future Mood? Actionable Analytics and Targeted Reflection for Emotional Well-Being. Human-Computer Interaction 32, 5\u20136: 208\u2013267. https://doi.org/10.1080/07370024.2016.1277724",
+      "doi": "10.1080/07370024.2016.1277724"
+    },
+    {
+      "text": "Paris Hsu, Jingshu Zhao, Kehan Liao, Tianyi Liu, and Chen Wang. 2017. AllergyBot: A Chatbot technology intervention for young adults with food allergies Dining out. In Conference on Human Factors in Computing Systems - Proceedings, 74\u201379. https://doi.org/10.1145/3027063.3049270",
+      "doi": "10.1145/3027063.3049270"
+    },
+    {
+      "text": "Bart A. Kamphorst. 2017. E-coaching systems: What they are, and what they aren't. Personal and Ubiquitous Computing 21, 4: 625\u2013632. https://doi.org/10.1007/s00779-017-1020-6",
+      "doi": "10.1007/s00779-017-1020-6"
+    },
+    {
+      "text": "Ravi Karkar, Jasmine Zia, Jessica Schroeder, Daniel A. Epstein, Laura R. Pina, Jeffrey Scofield, James Fogarty, Julie A. Kientz, Sean A. Munson, and Roger Vilardaga. 2017. TummyTrials: A Feasibility Study of Using Self-Experimentation to Detect Individualized Food Triggers. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems - CHI \u201917, 6850\u20136863. https://doi.org/10.1145/3025453.3025480",
+      "doi": "10.1145/3025453.3025480"
+    },
+    {
+      "text": "Ravi Karkar, Jasmine Zia, Roger Vilardaga, Sonali R Mishra, James Fogarty, Sean A Munson, and Julie A Kientz. 2016. A framework for self-experimentation in personalized health. Journal of the American Medical Informatics Association 23, 3: 440\u2013448. https://doi.org/10.1093/jamia/ocv150",
+      "doi": ""
+    },
+    {
+      "text": "Shigeko Kato, Kayo Waki, Sadako Nakamura, Sanae Osada, Haruka Kobayashi, Hideo Fujita, Takashi Kadowaki, and Kazuhiko Ohe. 2016. Validating the use of photos to measure dietary intake: the method used by DialBetics, a smartphone-based self-management system for diabetes patients. Diabetology International 7, 3: 244\u2013251. https://doi.org/10.1007/s13340-015-0240-0",
+      "doi": ""
+    },
+    {
+      "text": "Yoojung Kim, Sookyoung Ji, Hyunjeong Lee, Jeong-Whun Kim, Sooyoung Yoo, and Joongseek Lee. 2016. \u201cMy Doctor is Keeping an Eye on Me!\u201d: Exploring the Clinical Applicability of a Mobile Food Logger. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems - CHI \u201916, 5620\u20135631. https://doi.org/10.1145/2858036.2858145",
+      "doi": "10.1145/2858036.2858145"
+    },
+    {
+      "text": "Predrag Klasnja, Sunny Consolvo, and Wanda Pratt. 2011. How to evaluate technologies for health behavior change in HCI research. In Conference on Human Factors in Computing Systems - Proceedings, 3063\u20133072. https://doi.org/10.1145/1978942.1979396",
+      "doi": "10.1145/1978942.1979396"
+    },
+    {
+      "text": "Predrag Klasnja and Wanda Pratt. 2012. Healthcare in the pocket: Mapping the space of mobile-phone health interventions. Journal of Biomedical Informatics 45, 1: 184\u2013198. https://doi.org/10.1016/J.JBI.2011.08.017",
+      "doi": "10.1016/j.jbi.2011.08.017"
+    },
+    {
+      "text": "Rafal Kocielnik and Gary Hsieh. 2017. New Opportunities for Dialogue-based Interaction in Behavior Change Domain. In CSCW 2017 workshop on Talking with Conversational Agents in Collaborative Action. Retrieved October 30, 2019 from https://talkingwithagents.files.wordpress.com/2017/02/7-kocielnik1.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Rafal Kocielnik, Lillian Xiao, Daniel Avrahami, and Gary Hsieh. 2018. Reflection Companion: A Conversational System for Engaging Users in Reflection on Physical Activity. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2, 2: 1\u201326. https://doi.org/10.1145/3214273",
+      "doi": "10.1145/3214273"
+    },
+    {
+      "text": "Elizabeth V. Korinek, Sayali S. Phatak, Cesar A. Martin, Mohammad T. Freigoun, Daniel E. Rivera, Marc A. Adams, Pedja Klasnja, Matthew P. Buman, and Eric B. Hekler. 2018. Adaptive step goals and rewards: a longitudinal growth model of daily steps for a smartphone-based walking intervention. Journal of Behavioral Medicine 41, 1: 74\u201386. https://doi.org/10.1007/s10865-017-9878-3",
+      "doi": ""
+    },
+    {
+      "text": "Mark Kutner, Elizabeth Greenberg, and Justin Baer. 2006. A First Look at the Literacy of America's Adults in the 21st Century. NCES 2006-470. National Center for Education Statistics. Retrieved August 23, 2018 from https://eric.ed.gov/?id=ED489066",
+      "doi": ""
+    },
+    {
+      "text": "Liliana Laranjo, Annie Lau, and Enrico Coiera. 2017. Design and Implementation of Behavioral Informatics Interventions. . Springer, Cham, 13\u201342. https://doi.org/10.1007/978-3-319-51732-2_2",
+      "doi": ""
+    },
+    {
+      "text": "Amanda Lazar, Christian Koehler, Joshua Tanenbaum, and David H. Nguyen. 2015. Why we use and abandon smart devices. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing - UbiComp \u201915, 635\u2013646. https://doi.org/10.1145/2750858.2804288",
+      "doi": "10.1145/2750858.2804288"
+    },
+    {
+      "text": "Jisoo Lee, Eric B. Hekler, Emil Chiauzzi, Auriell Towner, and Marcy Fitz-Randolph. 2016. Helping Users Set Rules for Defining Short-Term Activity Goals. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems - CHI EA \u201916, 2178\u20132184. https://doi.org/10.1145/2851581.2892488",
+      "doi": "10.1145/2851581.2892488"
+    },
+    {
+      "text": "Huitian Lei, Ambuj Tewari, and Susan A. Murphy. 2017. An Actor-Critic Contextual Bandit Algorithm for Personalized Mobile Health Interventions. Retrieved January 31, 2019 from http://arxiv.org/abs/1706.09090",
+      "doi": ""
+    },
+    {
+      "text": "Ian Li, Anind Dey, and Jodi Forlizzi. 2010. A stage-based model of personal informatics systems. Proceedings of the 28th international conference on Human factors in computing systems CHI 10: 557. https://doi.org/10.1145/1753326.1753409",
+      "doi": "10.1145/1753326.1753409"
+    },
+    {
+      "text": "Ian Li, Anind K. Dey, and Jodi Forlizzi. 2011. Understanding my data, myself: supporting self-reflection with ubicomp technologies. In Proceedings of the 13th international conference on Ubiquitous computing - UbiComp \u201911, 405. https://doi.org/10.1145/2030112.2030166",
+      "doi": "10.1145/2030112.2030166"
+    },
+    {
+      "text": "Lena Mamykina, Matthew E Levine, Patricia G Davidson, Arlene M Smaldone, Noemie Elhadad, and David J Albers. 2016. Data-driven health management: reasoning about personally generated data in diabetes with information technologies. Journal of the American Medical Informatics Association 23, 3: 526\u2013531. https://doi.org/10.1093/jamia/ocv187",
+      "doi": ""
+    },
+    {
+      "text": "Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and David Greenblatt. 2008. MAHI: Investigation of social scaffolding for reflective thinking in diabetes management. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI \u201908), 477\u2013486. https://doi.org/10.1145/1357054.1357131",
+      "doi": "10.1145/1357054.1357131"
+    },
+    {
+      "text": "Lena Mamykina, Drashko Nakikj, and Noemie Elhadad. 2015. Collective sensemaking in online health forums. In Conference on Human Factors in Computing Systems - Proceedings, 3217\u20133226. https://doi.org/10.1145/2702123.2702566",
+      "doi": "10.1145/2702123.2702566"
+    },
+    {
+      "text": "C\u00e9sar A. Mart\u00edn, Daniel E. Rivera, Eric B. Hekler, William T. Riley, Matthew P. Buman, Marc A. Adams, and Alicia B. Magann. 2020. Development of a Control-Oriented Model of Social Cognitive Theory for Optimized mHealth Behavioral Interventions. IEEE Transactions on Control Systems Technology 28, 2: 331\u2013346. https://doi.org/10.1109/TCST.2018.2873538",
+      "doi": ""
+    },
+    {
+      "text": "Nirupa R Matthan, Lynne M Ausman, Huicui Meng, Hocine Tighiouart, and Alice H Lichtenstein. 2016. Estimating the reliability of glycemic index values and potential sources of methodological and biological variability. The American journal of clinical nutrition 104, 4: 1004\u20131013. https://doi.org/10.3945/ajcn.116.137208",
+      "doi": ""
+    },
+    {
+      "text": "Mollie McKillop, Lena Mamykina, and No\u00e9mie Elhadad. 2018. Designing in the Dark. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems - CHI \u201918, 1\u201315. https://doi.org/10.1145/3173574.3174139",
+      "doi": "10.1145/3173574.3174139"
+    },
+    {
+      "text": "Susan Michie, Michelle Richardson, Marie Johnston, Charles Abraham, Jill Francis, Wendy Hardeman, Martin P. Eccles, James Cane, and Caroline E. Wood. 2013. The Behavior Change Technique Taxonomy (v1) of 93 Hierarchically Clustered Techniques: Building an International Consensus for the Reporting of Behavior Change Interventions. Annals of Behavioral Medicine 46, 1: 81\u201395. https://doi.org/10.1007/s12160-013-9486-6",
+      "doi": ""
+    },
+    {
+      "text": "Elliot G Mitchell, Esteban G Tabak, Matthew E Levine, Lena Mamykina, and David J Albers. 2021. Enabling personalized decision support with patient-generated data and attributable components. Journal of Biomedical Informatics 113, 103639: 103639. https://doi.org/10.1016/j.jbi.2020.103639",
+      "doi": ""
+    },
+    {
+      "text": "Sean Munson and Sunny Consolvo. 2012. Exploring Goal-setting, Rewards, Self-monitoring, and Sharing to Motivate Physical Activity. In Proceedings of the 6th International Conference on Pervasive Computing Technologies for Healthcare. https://doi.org/10.4108/icst.pervasivehealth.2012.248691",
+      "doi": ""
+    },
+    {
+      "text": "Aanand D. Naik, Nynikka Palmer, Nancy J. Petersen, Richard L. Street, Radha Rao, Maria Suarez-Almazor, and Paul Haidet. 2011. Comparative Effectiveness of Goal Setting in Diabetes Mellitus Group Clinics. Archives of Internal Medicine 171, 5: 453\u2013459. https://doi.org/10.1001/archinternmed.2011.70",
+      "doi": ""
+    },
+    {
+      "text": "Brunilda Nazario. 2013. Portion Size Plate | Recommended Serving Sizes for Portion Control. Retrieved April 15, 2018 from https://www.webmd.com/diet/healthtool-portion-size-plate",
+      "doi": ""
+    },
+    {
+      "text": "Jasmin Niess and Pawe\u0131 W. Wozniak. 2018. Supporting Meaningful Personal Fitness: the Tracker Goal Evolution Model. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems - CHI \u201918, 1\u201312. https://doi.org/10.1145/3173574.3173745",
+      "doi": ""
+    },
+    {
+      "text": "Jon Noronha, Eric Hysen, Haoqi Zhang, and Krzysztof Z. Gajos. 2011. Platemate: Crowdsourcing Nutritional Analysis from Food Photographs. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology, 1\u201312. https://doi.org/10.1145/2047196.2047198",
+      "doi": ""
+    },
+    {
+      "text": "Aisling Ann O'Kane, Sun Young Park, Helena Mentis, Ann Blandford, and Yunan Chen. 2016. Turning to Peers: Integrating Understanding of the Self, the Condition, and Others\u2019 Experiences in Making Sense of Complex Chronic Conditions. Computer Supported Cooperative Work: CSCW: An International Journal 25, 6: 477\u2013501. https://doi.org/10.1007/s10606-016-9260-y",
+      "doi": "10.1007/s10606-016-9260-y"
+    },
+    {
+      "text": "Monica E Peek, Algernon Cargill, and Elbert S Huang. 2007. Diabetes health disparities: a systematic review of health care interventions. Medical care research and review: MCRR 64, 5 Suppl: 101S\u201356S. https://doi.org/10.1177/1077558707305409",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Purpura, Victoria Schwanda, Kaiton Williams, William Stubler, and Phoebe Sengers. 2011. Fit4Life: The design of a persuasive technology promoting healthy behavior and ideal weight. In Conference on Human Factors in Computing Systems - Proceedings, 423\u2013432. https://doi.org/10.1145/1978942.1979003",
+      "doi": "10.1145/1978942.1979003"
+    },
+    {
+      "text": "Aare Puussaar, Adrian K. Clear, and Peter Wright. 2017. Enhancing personal informatics through social sensemaking. In Conference on Human Factors in Computing Systems - Proceedings, 6936\u20136942. https://doi.org/10.1145/3025453.3025804",
+      "doi": "10.1145/3025453.3025804"
+    },
+    {
+      "text": "Mashfiqui Rabbi, Min Hane Aung, Mi Zhang, and Tanzeem Choudhury. 2015. MyBehavior: Automatic personalized health feedback from user behaviors and preferences using smartphones. In UbiComp 2015 - Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing, 707\u2013718. https://doi.org/10.1145/2750858.2805840",
+      "doi": "10.1145/2750858.2805840"
+    },
+    {
+      "text": "Shriti Raj, Kelsey Toporski, Ashley Garrity, Joyce M. Lee, and Mark W. Newman. 2019. \u201cMy blood sugar is higher on the weekends\u201d: Finding a role for context and context-awareness in the design of health self-management technology. In Conference on Human Factors in Computing Systems - Proceedings, 1\u201313. https://doi.org/10.1145/3290605.3300349",
+      "doi": ""
+    },
+    {
+      "text": "Alvin Rajkomar, Eyal Oren, Kai Chen, Andrew M. Dai, Nissan Hajaj, Michaela Hardt, Peter J. Liu, Xiaobing Liu, Jake Marcus, Mimi Sun, Patrik Sundberg, Hector Yee, Kun Zhang, Yi Zhang, Gerardo Flores, Gavin E. Duggan, Jamie Irvine, Quoc Le, Kurt Litsch, Alexander Mossin, Justin Tansuwan, De Wang, James Wexler, Jimbo Wilson, Dana Ludwig, Samuel L. Volchenboum, Katherine Chou, Michael Pearson, Srinivasan Madabushi, Nigam H. Shah, Atul J. Butte, Michael D. Howell, Claire Cui, Greg S. Corrado, and Jeffrey Dean. 2018. Scalable and accurate deep learning with electronic health records. npj Digital Medicine 1, 1: 18. https://doi.org/10.1038/s41746-018-0029-1",
+      "doi": ""
+    },
+    {
+      "text": "Meghan Reading Turchioe, Marissa Burgermaster, Elliot G. Mitchell, Pooja M. Desai, and Lena Mamykina. 2020. Adapting the stage-based model of personal informatics for low-resource communities in the context of type 2 diabetes. Journal of Biomedical Informatics 110, 103572. https://doi.org/10.1016/j.jbi.2020.103572",
+      "doi": "10.1016/j.jbi.2020.103572"
+    },
+    {
+      "text": "Francesco Ricci, Lior Rokach, and Bracha Shapira. 2015. Recommender Systems: Introduction and Challenges. In Recommender Systems Handbook. Springer US, Boston, MA, 1\u201334. https://doi.org/10.1007/978-1-4899-7637-6_1",
+      "doi": ""
+    },
+    {
+      "text": "Darius A. Rohani, Andrea Quemada Lopategui, Nanna Tuxen, Maria Faurholt-Jepsen, Lars V. Kessing, and Jakob E. Bardram. 2020. MUBS: A Personalized Recommender System for Behavioral Activation in Mental Health. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, 1\u201313. https://doi.org/10.1145/3313831.3376879",
+      "doi": ""
+    },
+    {
+      "text": "Hanna Sch\u00e4fer. 2016. Personalized Support for Healthy Nutrition Decisions. In Proceedings of the 10th ACM Conference on Recommender Systems - RecSys \u201916, 455\u2013458. https://doi.org/10.1145/2959100.2959105",
+      "doi": "10.1145/2959100.2959105"
+    },
+    {
+      "text": "Hanna Sch\u00e4fer, Santiago Hors-Fraile, Raghav Pavan Karumur, Andr\u00e9 Calero Valdez, Alan Said, Helma Torkamaan, Tom Ulmer, and Christoph Trattner. 2017. Towards Health (Aware) Recommender Systems. In Proceedings of the 2017 International Conference on Digital Health - DH \u201917, 157\u2013161. https://doi.org/10.1145/3079452.3079499",
+      "doi": "10.1145/3079452.3079499"
+    },
+    {
+      "text": "Jessica Schroeder, Ravi Karkar, James Fogarty, Julie A. Kientz, Sean A. Munson, and Matthew Kay. 2018. A Patient-Centered Proposal for Bayesian Analysis of Self-Experiments for Health. Journal of Healthcare Informatics Research: 1\u201332. https://doi.org/10.1007/s41666-018-0033-x",
+      "doi": ""
+    },
+    {
+      "text": "Jessica Schroeder, Ravi Karkar, Natalia Murinova, James Fogarty, and Sean A. Munson. 2019. Examining Opportunities for Goal-Directed Self-Tracking to Support Chronic Condition Management. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 4: 1\u201326. https://doi.org/10.1145/3369809",
+      "doi": "10.1145/3369809"
+    },
+    {
+      "text": "Jessica Schroeder, Chelsey Wilks, Kael Rowan, Arturo Toledo, Ann Paradiso, Mary Czerwinski, Gloria Mark, and Marsha M. Linehan. 2018. Pocket Skills: A Conversational Mobile Web App To Support Dialectical Behavioral Therapy. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2018): 1\u201315. https://doi.org/10.1145/3173574.3173972",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth Stowell, Mercedes C. Lyson, Herman Saksono, Rene\u00e9 C. Wurth, Holly Jimison, Misha Pavel, and Andrea G. Parker. 2018. Designing and Evaluating mHealth Interventions for Vulnerable Populations. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems - CHI \u201918, 1\u201317. https://doi.org/10.1145/3173574.3173589",
+      "doi": ""
+    },
+    {
+      "text": "Kirsten Swearingen and R. Sinha. 2001. Beyond Algorithms: An HCI Perspective on Recommender Systems. ACM SIGIR 2001 Workshop on Recommender Systems (2001): 1\u201311. https://doi.org/10.1.1.23.9764",
+      "doi": ""
+    },
+    {
+      "text": "Esteban G. Tabak and Giulio Trigila. 2018. Explanation of Variability and Removal of Confounding Factors from Data through Optimal Transport. Communications on Pure and Applied Mathematics 71, 1: 163\u2013199. https://doi.org/10.1002/cpa.21706",
+      "doi": ""
+    },
+    {
+      "text": "United States Department of Agriculture (USDA). ChooseMyPlate. Retrieved September 16, 2020 from https://www.choosemyplate.gov/",
+      "doi": ""
+    },
+    {
+      "text": "Tiffany C. Veinot, Jessica S. Ancker, Heather Cole-Lewis, Elizabeth D. Mynatt, Andrea G. Parker, Katie A. Siek, and Lena Mamykina. 2019. Leveling Up. Medical Care 57: S108\u2013S114. https://doi.org/10.1097/MLR.0000000000001032",
+      "doi": ""
+    },
+    {
+      "text": "Tiffany C Veinot, Hannah Mitchell, and Jessica S Ancker. 2018. Good intentions are not enough: how informatics interventions can worsen inequality. Journal of the American Medical Informatics Association. https://doi.org/10.1093/jamia/ocy052",
+      "doi": ""
+    },
+    {
+      "text": "Danding Wang, Qian Yang, Ashraf Abdul, and Brian Y. Lim. 2019. Designing theory-driven user-centric explainable AI. In Conference on Human Factors in Computing Systems - Proceedings, 1\u201315. https://doi.org/10.1145/3290605.3300831",
+      "doi": ""
+    },
+    {
+      "text": "M L Wheeler, A Daly, A Evert, and others. 2014. Choose Your Foods, Food Lists for Diabetes. Chicago, IL: Academy of Nutrition and Dietetics/American Diabetes Association.",
+      "doi": ""
+    },
+    {
+      "text": "Longqi Yang, Cheng-Kang Hsieh, Hongjian Yang, Nicola Dell, Serge Belongie, Curtis Cole, and Deborah Estrin. 2016. Yum-me: A Personalized Nutrient-based Meal Recommender System. ACM Transactions on Information Systems 36, 1: 7. https://doi.org/10.1145/3072614",
+      "doi": ""
+    },
+    {
+      "text": "David Zeevi, Tal Korem, Niv Zmora, David Israeli, Daphna Rothschild, Adina Weinberger, Orly Ben-Yacov, Dar Lador, Tali Avnit-Sagi, Maya Lotan-Pompan, Jotham Suez, Jemal Ali Mahdi, Elad Matot, Gal Malka, Noa Kosower, Michal Rein, Gili Zilberman-Schapira, Lenka Dohnalov\u00e1, Meirav Pevsner-Fischer, Rony Bikovsky, Zamir Halpern, Eran Elinav, and Eran Segal. 2015. Personalized Nutrition by Prediction of Glycemic Responses. Cell 163, 5: 1079\u20131095. https://doi.org/10.1016/j.cell.2015.11.001",
+      "doi": ""
+    },
+    {
+      "text": "Brian J Zikmund-Fisher, Aaron M Scherer, Holly O Witteman, Jacob B Solomon, Nicole L Exe, Beth A Tarini, and Angela Fagerlin. 2016. Graphics help patients distinguish between urgent and non-urgent deviations in laboratory test results. Journal of the American Medical Informatics Association 24, 3: ocw169. https://doi.org/10.1093/jamia/ocw169",
+      "doi": ""
+    },
+    {
+      "text": "Facts Up Front. Retrieved September 15, 2018 from http://www.factsupfront.org/",
+      "doi": ""
+    }
+  ]
+}

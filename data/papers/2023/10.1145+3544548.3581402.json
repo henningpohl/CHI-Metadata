@@ -1,0 +1,399 @@
+{
+  "doi": "10.1145/3544548.3581402",
+  "title": "RePrompt: Automatic Prompt Editing to Refine AI-Generative Art Towards Precise Expressions",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-29",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Generative AI models have shown impressive ability to produce images with text prompts, which could benefit creativity in visual art creation and self-expression. However, it is unclear how precisely the generated images express contexts and emotions from the input texts. We explored the emotional expressiveness of AI-generated images and developed RePrompt, an automatic method to refine text prompts toward precise expression of the generated images. Inspired by crowdsourced editing strategies, we curated intuitive text features, such as the number and concreteness of nouns, and trained a proxy model to analyze the feature effects on the AI-generated image. With model explanations of the proxy model, we curated a rubric to adjust text prompts to optimize image generation for precise emotion expression. We conducted simulation and user studies, which showed that RePrompt significantly improves the emotional expressiveness of AI-generated images, especially for negative emotions.",
+  "authors": [
+    {
+      "name": "Yunlong Wang",
+      "institution": "Institute of High Performance Computing (IHPC), Agency for Science, Technology and Research (A*STAR), Singapore",
+      "img": "/do/10.1145/contrib-99660784033/rel-imgonly/20230403103214.jpg",
+      "acmid": "99660784033",
+      "orcid": "0000-0003-0611-0078"
+    },
+    {
+      "name": "Shuyuan Shen",
+      "institution": "National University of Singapore, Singapore",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779575",
+      "orcid": "0000-0002-0271-4424"
+    },
+    {
+      "name": "Brian Y Lim",
+      "institution": "Department of Computer Science, National University of Singapore, Singapore",
+      "img": "/do/10.1145/contrib-81416601689/rel-imgonly/brian_lim_2015_-_square.jpg",
+      "acmid": "81416601689",
+      "orcid": "0000-0002-0543-2414"
+    }
+  ],
+  "references": [
+    {
+      "text": "Francisca Adoma Acheampong, Chen Wenyu, and Henry Nunoo\u2010Mensah. 2020. Text\u2010based emotion detection: Advances, challenges, and opportunities. Engineering Reports 2, 7: 1\u201324. https://doi.org/10.1002/eng2.12189",
+      "doi": ""
+    },
+    {
+      "text": "Vered Aviv. 2014. What does the brain tell us about abstract art? Frontiers in Human Neuroscience 8, 1 FEB: 8\u201311. https://doi.org/10.3389/fnhum.2014.00085",
+      "doi": ""
+    },
+    {
+      "text": "Karen A. Baikie and Kay Wilhelm. 2005. Emotional and physical health benefits of expressive writing. Advances in Psychiatric Treatment 11, 5: 338\u2013346. https://doi.org/10.1192/apt.11.5.338",
+      "doi": ""
+    },
+    {
+      "text": "Gagan Bansal, Tongshuang Wu, and Joyce Zhou. 2021. Does the whole exceed its parts? The efect of ai explanations on complementary team performance. Conference on Human Factors in Computing Systems - Proceedings. https://doi.org/10.1145/3411764.3445717",
+      "doi": "10.1145/3411764.3445717"
+    },
+    {
+      "text": "Anne Bolwerk, Jessica Mack-Andrick, Frieder R. Lang, Arnd D\u00f6rfler, and Christian Maih\u00f6fner. 2014. How art changes your brain: Differential effects of visual art production and cognitive art evaluation on functional brain connectivity. PLoS ONE 9, 7: 1\u20138. https://doi.org/10.1371/journal.pone.0101035",
+      "doi": ""
+    },
+    {
+      "text": "Alessandro Bondielli and Lucia C. Passaro. 2021. Leveraging CLIP for Image Emotion Recognition. In Proceedings of the Fifth Workshop on Natural Language for Artificial Intelligence (NL4AI 2021).",
+      "doi": ""
+    },
+    {
+      "text": "Leo Breiman. 2001. Random Forests. Machine Learning 45: 5\u201332. https://doi.org/10.1007/978-3-030-62008-0_35",
+      "doi": "10.1023/a%3A1010933404324"
+    },
+    {
+      "text": "Andrew Brock, Jeff Donahue, and Karen Simonyan. 2019. Large scale GAN training for high fidelity natural image synthesis. 7th International Conference on Learning Representations, ICLR 2019: 1\u201335.",
+      "doi": ""
+    },
+    {
+      "text": "Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language models are few-shot learners. Advances in Neural Information Processing Systems 2020-Decem.",
+      "doi": ""
+    },
+    {
+      "text": "Marc Brysbaert, Amy Beth Warriner, and Victor Kuperman. 2014. Concreteness ratings for 40 thousand generally known English word lemmas. Behavior Research Methods 46, 3: 904\u2013911. https://doi.org/10.3758/s13428-013-0403-5",
+      "doi": ""
+    },
+    {
+      "text": "Luis Carreti\u00e9, Jacobo Albert, Sara L\u00f3pez-Mart\u00edn, and Manuel Tapia. 2009. Negative brain: An integrative review on the neural processes activated by unpleasant stimuli. International Journal of Psychophysiology 71, 1: 57\u201363. https://doi.org/10.1016/j.ijpsycho.2008.07.006",
+      "doi": ""
+    },
+    {
+      "text": "Joel Chan, Steven P. Dow, and Christian D. Schunn. 2018. Do the Best Design Ideas (Really) Come from Conceptually Distant Sources of Inspiration? In Engineering a Better Future. 111\u2013139.",
+      "doi": ""
+    },
+    {
+      "text": "Jesse Chandler, Cheskie Rosenzweig, Aaron J. Moss, Jonathan Robinson, and Leib Litman. 2019. Online panels in social science research: Expanding sampling methods beyond Mechanical Turk. Behavior Research Methods 51, 5: 2022\u20132038. https://doi.org/10.3758/s13428-019-01273-7",
+      "doi": ""
+    },
+    {
+      "text": "Tianqi Chen and Carlos Guestrin. 2016. XGBoost: A Scalable Tree Boosting System. In KDD \u201916, 785\u2013794. https://doi.org/10.1145/2939672.2939785",
+      "doi": "10.1145/2939672.2939785"
+    },
+    {
+      "text": "Jaemin Cho, Abhay Zala, and Mohit Bansal. 2022. DALL-Eval: Probing the Reasoning Skills and Social Biases of Text-to-Image Generative Transformers. arXiv: 1\u201321. Retrieved from http://arxiv.org/abs/2202.04053",
+      "doi": ""
+    },
+    {
+      "text": "Computer Vision and Learning LMU Munich. Stable Diffusion. Retrieved December 13, 2022 from https://github.com/CompVis/stable-diffusion",
+      "doi": ""
+    },
+    {
+      "text": "Sven Coppers, Jan Van Den Bergh, Kris Luyten, Karin Coninx, Iulianna Van Der Lek-Ciudin, Tom Vanallemeersch, and Vincent Vandeghinste. 2018. Intellingo: An intelligible translation environment. In CHI 2018, 1\u201313. https://doi.org/10.1145/3173574.3174098",
+      "doi": "10.1145/3173574.3174098"
+    },
+    {
+      "text": "Samuel Rhys Cox, Yunlong Wang, Ashraf Abdul, Christian Von Der Weth, and Brian Y. Lim. 2021. Directed diversity: Leveraging language embedding distances for collective creativity in crowd ideation. In CHI\u201921. https://doi.org/10.1145/3411764.3445782",
+      "doi": "10.1145/3411764.3445782"
+    },
+    {
+      "text": "Katherine Crowson, Stella Biderman, Daniel Kornis, Dashiell Stander, Eric Hallahan, Louis Castricato, and Edward Raff. 2022. VQGAN-CLIP: Open Domain Image Generation and Editing with Natural Language Guidance. arXiv. Retrieved from http://arxiv.org/abs/2204.08583",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Devlin, Ming Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pre-training of deep bidirectional transformers for language understanding. In NAACL HLT 2019 - 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies - Proceedings of the Conference.",
+      "doi": ""
+    },
+    {
+      "text": "Patrick Esser, Robin Rombach, and Bj\u00f6rn Ommer. 2021. Taming transformers for high-resolution image synthesis. In CVPR 2021, 12868\u201312878. https://doi.org/10.1109/CVPR46437.2021.01268",
+      "doi": ""
+    },
+    {
+      "text": "Theodoros Galanos, Antonios Liapis, and Georgios N. Yannakakis. 2021. AffectGAN: Affect-Based Generative Art Driven by Semantics. In 2021 9th International Conference on Affective Computing and Intelligent Interaction Workshops and Demos, ACIIW 2021. https://doi.org/10.1109/ACIIW52867.2021.9666317",
+      "doi": ""
+    },
+    {
+      "text": "Gerger Gernot, Matthew Pelowski, and Helmut Leder. 2018. Empathy, Einf\u00fchlung, and aesthetic experience: the effect of emotion contagion on appreciation of representational and abstract art using fEMG and SCR. Cognitive Processing 19, 2: 147\u2013165. https://doi.org/10.1007/s10339-017-0800-2",
+      "doi": ""
+    },
+    {
+      "text": "Misty M. Ginicola, Cheri Smith, and Jessica Trzaska. 2012. Counseling Through Images: Using Photography to Guide the Counseling Process and Achieve Treatment Goals. Journal of Creativity in Mental Health 7, 4: 310\u2013329. https://doi.org/10.1080/15401383.2012.739955",
+      "doi": ""
+    },
+    {
+      "text": "Barney G. Glaser and Anselm L. Strauss. 2006. The Discovery of grounded theory: strategies for qualitative research. AldineTransaction.",
+      "doi": ""
+    },
+    {
+      "text": "Bruce Gooch, L\u00e1szl\u00f3 Neumann, Werner Purgathofer, and Mateu Sbert. 2006. Computational Aesthetics in Graphics , Visualization and Imaging.",
+      "doi": ""
+    },
+    {
+      "text": "Henrik Hagtvedt, Vanessa M. Patrick, and Reidar Hagtvedt. 2008. The Perception and Evaluation of Visual Art. Empirical Studies of the Arts 26, 2: 197\u2013218. https://doi.org/10.2190/em.26.2.d",
+      "doi": ""
+    },
+    {
+      "text": "Aleesha Hamid, Rabiah Arshad, and Suleman Shahid. 2022. What are you thinking?: Using CBT and Storytelling to Improve Mental Health Among College Students. In CHI 2022, 1\u201316. https://doi.org/10.1145/3491102.3517603",
+      "doi": "10.1145/3491102.3517603"
+    },
+    {
+      "text": "Jack Hessel, Ari Holtzman, Maxwell Forbes, Ronan Le Bras, and Yejin Choi. 2021. CLIPScore: A Reference-free Evaluation Metric for Image Captioning. In EMNLP 2021, 7514\u20137528. https://doi.org/10.18653/v1/2021.emnlp-main.595",
+      "doi": ""
+    },
+    {
+      "text": "Esther Howe, Jina Suh, Mehrab Bin Morshed, Daniel McDuff, Kael Rowan, Javier Hernandez, Marah Ihab Abdin, Gonzalo Ramos, Tracy Tran, and Mary P Czerwinski. 2022. Design of Digital Workplace Stress-Reduction Intervention Systems: Effects of Intervention Type and Timing. In CHI 2022, 1\u201316. https://doi.org/10.1145/3491102.3502027",
+      "doi": "10.1145/3491102.3502027"
+    },
+    {
+      "text": "Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc V. Le, Yunhsuan Sung, Zhen Li, and Tom Duerig. 2021. Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision. In ICML 2021. Retrieved from http://arxiv.org/abs/2102.05918",
+      "doi": ""
+    },
+    {
+      "text": "Zhengbao Jiang, Frank F. Xu, Jun Araki, and Graham Neubig. 2020. How can we know what language models know? Transactions of the Association for Computational Linguistics 8: 423\u2013438. https://doi.org/10.1162/tacl_a_00324",
+      "doi": ""
+    },
+    {
+      "text": "Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, and Timo Aila. 2020. Analyzing and improving the image quality of stylegan. CVPR 2020: 8107\u20138116. https://doi.org/10.1109/CVPR42600.2020.00813",
+      "doi": ""
+    },
+    {
+      "text": "Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, and Tie Yan Liu. 2017. LightGBM: A highly efficient gradient boosting decision tree. Advances in Neural Information Processing Systems 2017-Decem, Nips: 3147\u20133155.",
+      "doi": ""
+    },
+    {
+      "text": "Shu Kong, Xiaohui Shen, Zhe Lin, Radomir Mech, and Charless Fowlkes. 2016. Photo aesthetics ranking network with attributes and content adaptation. In ECCV 2016. https://doi.org/10.1007/978-3-319-46448-0_40",
+      "doi": ""
+    },
+    {
+      "text": "Benedek Kurdi, Shayn Lozano, and Mahzarin R. Banaji. 2017. Introducing the Open Affective Standardized Image Set (OASIS). Behavior Research Methods 49, 2: 457\u2013470. https://doi.org/10.3758/s13428-016-0715-3",
+      "doi": ""
+    },
+    {
+      "text": "P J Lang Bradley, M.M., & Cuthbert, B.N. 2008. International affective picture system (IAPS): Affective ratings of pictures and instruction manual. Gainesville, FL.",
+      "doi": ""
+    },
+    {
+      "text": "Brian Lester and Rami Al-rfou Noah. 2021. The Power of Scale for Parameter-Efficient Prompt Tuning. In EMNLP 2021, 3045\u20133059.",
+      "doi": ""
+    },
+    {
+      "text": "Xiang Lisa Li and Percy Liang. 2021. Prefix-tuning: Optimizing continuous prompts for generation. In ACL-IJCNLP 2021, 4582\u20134597. https://doi.org/10.18653/v1/2021.acl-long.353",
+      "doi": ""
+    },
+    {
+      "text": "Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and Graham Neubig. 2021. Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing. arXiv: 1\u201346. Retrieved from http://arxiv.org/abs/2107.13586",
+      "doi": ""
+    },
+    {
+      "text": "Vivian Liu and Lydia B Chilton. 2022. Design Guidelines for Prompt Engineering Text-to-Image Generative Models. In CHI 2022, 1\u201323. https://doi.org/10.1145/3491102.3501825",
+      "doi": "10.1145/3491102.3501825"
+    },
+    {
+      "text": "Vivian Liu and Lydia B Chilton. 2022. Initial Images: Using Image Prompts to Improve Subject Representation in Multimodal AI Generated Art. In C&C 2022, 15\u201328.",
+      "doi": ""
+    },
+    {
+      "text": "Vivian Liu, Han Qiao, and Lydia B. Chilton. 2022. Opal: Multimodal Image Generation for News Illustration. In UIST \u201922. https://doi.org/10.1145/3526113.3545621",
+      "doi": "10.1145/3526113.3545621"
+    },
+    {
+      "text": "Ryan Louie, Andy Coenen, Cheng Zhi Huang, Michael Terry, and Carrie J. Cai. 2020. Cococo: AI-steering tools for music novices co-creating with generative models. In IUI \u201920 Workshops.",
+      "doi": ""
+    },
+    {
+      "text": "Ryan Louie, Andy Coenen, Cheng Zhi Huang, Michael Terry, and Carrie J Cai. 2020. Novice-AI Music Co-Creation via AI-Steering Tools for Deep Generative Models. In CHI \u201920, 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Scott M Lundberg and Su-In Lee. 2017. A Unified Approach to Interpreting Model Predictions. In 31st Conference on Neural Information Processing Systems (NIPS 2017), 4768\u20134777. https://doi.org/10.5555/3295222.3295230",
+      "doi": "10.5555/3295222.3295230"
+    },
+    {
+      "text": "Carolyn MacCann and Richard D. Roberts. 2008. New Paradigms for Assessing Emotional Intelligence: Theory and Data. Emotion 8, 4: 540\u2013551. https://doi.org/10.1037/a0012746",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Marshall-Tierney. 2021. Therapist art making as a means of helping service users with anxiety problems. International Journal of Art Therapy 26, 1\u20132: 47\u201354. https://doi.org/10.1080/17454832.2021.1918193",
+      "doi": ""
+    },
+    {
+      "text": "Saif M. Mohammad and Svetlana Kiritchenko. 2019. Wikiart emotions: An annotated dataset of emotions evoked by ART. In LREC 2018, 1225\u20131238.",
+      "doi": ""
+    },
+    {
+      "text": "Naila Murray, Luca Marchesotti, and Florent Perronnin. 2012. AVA: A large-scale database for aesthetic visual analysis. In CVPR 2012, 2408\u20132415. https://doi.org/10.1109/CVPR.2012.6247954",
+      "doi": ""
+    },
+    {
+      "text": "Alex Nichol, Prafulla Dhariwal, Aditya Ramesh, Pranav Shyam, Pamela Mishkin, Bob McGrew, Ilya Sutskever, and Mark Chen. 2021. GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models. arXiv. Retrieved from http://arxiv.org/abs/2112.10741",
+      "doi": ""
+    },
+    {
+      "text": "Michael I. Norton, Daniel Mochon, and Dan Ariely. 2012. The IKEA effect: When labor leads to love. Journal of Consumer Psychology 22, 3: 453\u2013460. https://doi.org/10.1016/j.jcps.2011.08.002",
+      "doi": ""
+    },
+    {
+      "text": "Pinchas Noy and Dorit Noy-Sharav. 2013. Art and emotions. International Journal of Applied Psychoanalytic Studies 10, 2: 100\u2013107. https://doi.org/10.1002/aps.1352",
+      "doi": ""
+    },
+    {
+      "text": "Joe O'Connor and Jacob Andreas. 2021. What context features can transformer language models use? In ACL-IJCNLP 2021, 851\u2013864. https://doi.org/10.18653/v1/2021.acl-long.70",
+      "doi": ""
+    },
+    {
+      "text": "OpenAI. DALL\u00b7E 2. Retrieved December 13, 2022 from https://openai.com/dall-e-2",
+      "doi": ""
+    },
+    {
+      "text": "OpenAI. 2022. DALL\u00b7E 2 Preview - Risks and Limitations. Retrieved December 8, 2022 from https://github.com/openai/dalle-2-preview/blob/main/system-card.md",
+      "doi": ""
+    },
+    {
+      "text": "Jonas Oppenlaender. 2022. Prompt Engineering for Text-Based Generative Art. arXiv 1, 1. Retrieved from http://arxiv.org/abs/2204.13988",
+      "doi": ""
+    },
+    {
+      "text": "Kuan Chuan Peng, Tsuhan Chen, Amir Sadovnik, and Andrew Gallagher. 2015. A mixed bag of emotions: Model, predict, and transfer emotion distributions. Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition 07-12-June: 860\u2013868. https://doi.org/10.1109/CVPR.2015.7298687",
+      "doi": ""
+    },
+    {
+      "text": "Aravind Sesagiri Raamkumar and Yinping Yang. 2022. Empathetic Conversational Systems: A Review of Current Advances , Gaps , and Opportunities. arXiv: 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever. 2021. Learning Transferable Visual Models From Natural Language Supervision. In ICML 2021. Retrieved from http://arxiv.org/abs/2103.00020",
+      "doi": ""
+    },
+    {
+      "text": "Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, and Mark Chen. 2022. Hierarchical Text-Conditional Image Generation with CLIP Latents. arXiv. Retrieved from http://arxiv.org/abs/2204.06125",
+      "doi": ""
+    },
+    {
+      "text": "Laria Reynolds and Kyle McDonell. 2021. Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm. In CHI EA \u201921. https://doi.org/10.1145/3411763.3451760",
+      "doi": "10.1145/3411763.3451760"
+    },
+    {
+      "text": "Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2016. \u201cWhy Should I Trust You?\u201d Explaining the Predictions of Any Classifier. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining - KDD \u201916, 1135\u20131144. https://doi.org/10.1145/2939672.2939778",
+      "doi": "10.1145/2939672.2939778"
+    },
+    {
+      "text": "Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2018. Anchors: High-Precision Model-Agnostic Explanations. In AAAI 2018. Retrieved May 27, 2019 from www.aaai.org",
+      "doi": ""
+    },
+    {
+      "text": "Nerdy Rodent. VQGAN-CLIP. Retrieved December 13, 2020 from https://github.com/nerdyrodent/VQGAN-CLIP",
+      "doi": ""
+    },
+    {
+      "text": "Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Bj\u00f6rn Ommer. 2021. High-Resolution Image Synthesis with Latent Diffusion Models. arXiv. Retrieved from http://arxiv.org/abs/2112.10752",
+      "doi": ""
+    },
+    {
+      "text": "Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, S. Sara Mahdavi, Rapha Gontijo Lopes, Tim Salimans, Jonathan Ho, David J Fleet, and Mohammad Norouzi. 2022. Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding. arXiv. Retrieved from http://arxiv.org/abs/2205.11487",
+      "doi": ""
+    },
+    {
+      "text": "Elvis Saravia, Hsien Chi Toby Liu, Yen Hao Huang, Junlin Wu, and Yi Shin Chen. 2018. Carer: Contextualized affect representations for emotion recognition. In EMNLP 2018, 3687\u20133697. https://doi.org/10.18653/v1/d18-1404",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Scarantino. 2017. How to Do Things with Emotional Expressions: The Theory of Affective Pragmatics. Psychological Inquiry 28, 2\u20133: 165\u2013185. https://doi.org/10.1080/1047840X.2017.1328951",
+      "doi": ""
+    },
+    {
+      "text": "Ines Schindler, Georg Hosoya, Winfried Menninghaus, Ursula Beermann, Valentin Wagner, Michael Eid, and Klaus R. Scherer. 2017. Measuring aesthetic emotions: A review of the literature and a new assessment tool. PLoS One 12, 6. https://doi.org/10.1667/0033-7587(2003)159[0511:JEORAS]2.0.CO;2",
+      "doi": ""
+    },
+    {
+      "text": "Ramprasaath R. Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, and Dhruv Batra. 2020. Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization. International Journal of Computer Vision 128, 2: 336\u2013359. https://doi.org/10.1007/s11263-019-01228-7",
+      "doi": "10.1007/s11263-019-01228-7"
+    },
+    {
+      "text": "Taylor Shin, Yasaman Razeghi, Robert L. Logan, Eric Wallace, and Sameer Singh. 2020. AUTOPROMPT: Eliciting knowledge from language models with automatically generated prompts. EMNLP 2020: 4222\u20134235. https://doi.org/10.18653/v1/2020.emnlp-main.346",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Sinha, Robin Jia, Dieuwke Hupkes, Joelle Pineau, Adina Williams, and Douwe Kiela. 2021. Masked Language Modeling and the Distributional Hypothesis: Order Word Matters Pre-training for Little. In EMNLP 2021, 2888\u20132913. https://doi.org/10.18653/v1/2021.emnlp-main.230",
+      "doi": ""
+    },
+    {
+      "text": "R Speer, J Chin, C Havasi - Thirty-First AAAI Conference on Artificial, and Undefined 2017. 2017. Conceptnet 5.5: An open multilingual graph of general knowledge Bachelorthesis. In Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence (AAAI-17) ConceptNet, 4444\u20134451. Retrieved from https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPaper/14972",
+      "doi": ""
+    },
+    {
+      "text": "Hendrik Strobelt, Albert Webson, Victor Sanh, Benjamin Hoover, Johanna Beyer, Hanspeter Pfister, and Alexander M. Rush. 2022. Interactive and Visual Prompt Engineering for Ad-hoc Task Adaptation With Large Language Models. IEEE Transactions on Visualization and Computer Graphics. https://doi.org/10.1109/TVCG.2022.3209479",
+      "doi": ""
+    },
+    {
+      "text": "Maria Sumpf, Sebastian Jentschke, and Stefan Koelsch. 2015. Effects of aesthetic chills on a cardiac signature of emotionality. PLoS ONE 10, 6: 1\u201316. https://doi.org/10.1371/journal.pone.0130117",
+      "doi": ""
+    },
+    {
+      "text": "Wolfgang Tschacher, Volker Kirchberg, Karen van den Berg, Steven Greenwood, St\u00e9phanie Wintzerith, and Martin Tr\u00f6ndle. 2012. Physiological correlates of aesthetic perception of artworks in a museum. Psychology of Aesthetics, Creativity, and the Arts 6, 1: 96\u2013103. https://doi.org/10.1037/a0023845",
+      "doi": ""
+    },
+    {
+      "text": "Muhammad Umair, Corina Sas, and Miquel Alfaras. 2020. ThermoPixels: Toolkit for personalizing arousal-based interfaces through hybrid crafting. In DIS 2020, 1017\u20131032. https://doi.org/10.1145/3357236.3395512",
+      "doi": "10.1145/3357236.3395512"
+    },
+    {
+      "text": "Yael Vinker, Ehsan Pajouheshgar, Jessica Y. Bo, Roman Christian Bachmann, Amit Haim Bermano, Daniel Cohen-Or, Amir Zamir, and Ariel Shamir. 2022. CLIPasso: Semantically-Aware Object Sketching. In SIGGRAPH 2022. Retrieved from http://arxiv.org/abs/2202.05822",
+      "doi": "10.1145/3528223.3530068"
+    },
+    {
+      "text": "Jianyi Wang, Kelvin C. K. Chan, and Chen Change Loy. 2022. Exploring CLIP for Assessing the Look and Feel of Images. arXiv: 1\u201323. Retrieved from http://arxiv.org/abs/2207.12396",
+      "doi": ""
+    },
+    {
+      "text": "Xinru Wang and Ming Yin. 2021. Are Explanations Helpful? A Comparative Study of the Effects of Explanations in AI-Assisted Decision-Making. In IUI \u201921, 318\u2013328. https://doi.org/10.1145/3397481.3450650",
+      "doi": "10.1145/3397481.3450650"
+    },
+    {
+      "text": "Yunlong Wang, Jiaying Liu, Homin Park, Jordan Schultz-mcardle, Stephanie Rosenthal, Judy Kay, and Brian Y. Lim. SalienTrack: providing salient information for semi-automated feedback in self-tracking with explainable AI. http://arxiv.org/abs/2109.10231",
+      "doi": ""
+    },
+    {
+      "text": "Yunlong Wang, Priyadarshini Venkatesh, and Brian Y. Lim. 2022. Interpretable Directed Diversity: Leveraging Model Explanations for Iterative Crowd Ideation. In CHI 2022. https://doi.org/10.1145/3491102.3517551",
+      "doi": "10.1145/3491102.3517551"
+    },
+    {
+      "text": "Tongshuang Wu, Michael Terry, and Carrie J. Cai. 2022. AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts. In CHI \u201922. Retrieved from http://arxiv.org/abs/2110.01691",
+      "doi": ""
+    },
+    {
+      "text": "Yilun Xu, Shengjia Zhao, Jiaming Song, Russell Stewart, and Stefano Ermon. 2020. A Theory of Usable Information under Computational Constraints. In ICLR 2020.",
+      "doi": ""
+    },
+    {
+      "text": "Hongyu Yang, Cynthia Rudin, and Margo Seltzer. 2017. Scalable Bayesian rule lists. 34th International Conference on Machine Learning, ICML 2017 8: 5971\u20135980.",
+      "doi": ""
+    },
+    {
+      "text": "Yuzhe Yang, Liwu Xu, Leida Li, Nan Qie, Yaqian Li, Peng Zhang, and Yandong Guo. 2022. Personalized Image Aesthetics Assessment with Rich Attributes. In CVPR 2022, 19829\u201319837. https://doi.org/10.1109/cvpr52688.2022.01924",
+      "doi": ""
+    },
+    {
+      "text": "Quanzeng You, Jiebo Luo, and San Jose. 2016. Building a Large Scale Dataset for Image Emotion Recognition: The Fine Print and the Benchmark. In Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence (AAAI-16), 308\u2013314.",
+      "doi": "10.5555/3015812.3015857"
+    },
+    {
+      "text": "Jiajin Yuan, Qinglin Zhang, Antao Chen, Hong Li, Quanhong Wang, Zhongchunxiao Zhuang, and Shiwei Jia. 2007. Are we sensitive to valence differences in emotionally negative stimuli? Electrophysiological evidence from an ERP study. Neuropsychologia 45, 12: 2764\u20132771. https://doi.org/10.1016/j.neuropsychologia.2007.04.018",
+      "doi": ""
+    },
+    {
+      "text": "Peixiang Zhong, Chen Zhang, Hao Wang, Yong Liu, and Chunyan Miao. 2020. Towards persona-based empathetic conversational models. In EMNLP 2020, 6556\u20136566. https://doi.org/10.18653/v1/2020.emnlp-main.531",
+      "doi": ""
+    },
+    {
+      "text": "Kaiyang Zhou, Jingkang Yang, Chen Change Loy, and Ziwei Liu. 2022. Learning to Prompt for Vision-Language Models. International Journal of Computer Vision 130, 9: 2337\u20132348. https://doi.org/10.1007/s11263-022-01653-1",
+      "doi": "10.1007/s11263-022-01653-1"
+    }
+  ]
+}

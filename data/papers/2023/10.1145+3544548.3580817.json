@@ -1,0 +1,579 @@
+{
+  "doi": "10.1145/3544548.3580817",
+  "title": "\u201cWhat It Wants Me To Say\u201d: Bridging the Abstraction Gap Between End-User Programmers and Code-Generating Large Language Models",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-31",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Code-generating large language models map natural language to code. However, only a small portion of the infinite space of naturalistic utterances is effective at guiding code generation. For non-expert end-user programmers, learning this is the challenge of abstraction matching. We examine this challenge in the specific context of data analysis in spreadsheets, in a system that maps the user\u2019s natural language query to Python code using the Codex generator, executes the code, and shows the result. We propose grounded abstraction matching, which bridges the abstraction gap by translating the code back into a systematic and predictable naturalistic utterance. In a between-subjects, think-aloud study (n=24), we compare grounded abstraction matching to an ungrounded alternative based on previously established query framing principles. We find that the grounded approach improves end-users\u2019 understanding of the scope and capabilities of the code-generating model, and the kind of language needed to use it effectively.",
+  "authors": [
+    {
+      "name": "Michael Xieyang Liu",
+      "institution": "missing",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779802",
+      "orcid": "missing"
+    },
+    {
+      "name": "Advait Sarkar",
+      "institution": "missing",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659349360",
+      "orcid": "missing"
+    },
+    {
+      "name": "Carina Negreanu",
+      "institution": "missing",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660049260",
+      "orcid": "missing"
+    },
+    {
+      "name": "Benjamin Zorn",
+      "institution": "missing",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100190820",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jack Williams",
+      "institution": "missing",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528301",
+      "orcid": "missing"
+    },
+    {
+      "name": "Neil Toronto",
+      "institution": "missing",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81490686870",
+      "orcid": "missing"
+    },
+    {
+      "name": "Andrew D. Gordon",
+      "institution": "missing",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100037731",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Shengnan An, Yifei Li, Zeqi Lin, Qian Liu, Bei Chen, Qiang Fu, Weizhu Chen, Nanning Zheng, and Jian-Guang Lou. 2022. Input-Tuning: Adapting Unfamiliar Inputs to Frozen Pretrained Models. ArXiv abs/2203.03131(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Deniz Arsan, Ali Zaidi, Aravind Sagar, and Ranjitha Kumar. 2021. App-Based Task Shortcuts for Virtual Assistants. In The 34th Annual ACM Symposium on User Interface Software and Technology. 1089\u20131099.",
+      "doi": ""
+    },
+    {
+      "text": "Zahra Ashktorab, Mohit Jain, Q\u00a0Vera Liao, and Justin\u00a0D Weisz. 2019. Resilient chatbots: Repair strategy preferences for conversational breakdowns. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300484"
+    },
+    {
+      "text": "Mikhail Bakhtin and Ghodrat Gh\u0101semipour. 2011. The problem of speech genres. Literary Criticism 4, 15 (2011), 114\u2013136.",
+      "doi": ""
+    },
+    {
+      "text": "Emily\u00a0M. Bender and Alexander Koller. 2020. Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Online, 5185\u20135198. https://doi.org/10.18653/v1/2020.acl-main.463",
+      "doi": ""
+    },
+    {
+      "text": "Derek Bickerton. 1983. Creole languages. Scientific American 249, 1 (1983), 116\u2013123.",
+      "doi": ""
+    },
+    {
+      "text": "Derek Bickerton. 1984. The language bioprogram hypothesis. Behavioral and brain sciences 7, 2 (1984), 173\u2013188.",
+      "doi": ""
+    },
+    {
+      "text": "Rishi Bommasani, Drew\u00a0A Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney von Arx, Michael\u00a0S Bernstein, Jeannette Bohg, Antoine Bosselut, Emma Brunskill, 2021. On the opportunities and risks of foundation models. arXiv preprint arXiv:2108.07258(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative research in psychology 3, 2 (2006), 77\u2013101.",
+      "doi": ""
+    },
+    {
+      "text": "Tom\u00a0B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, T.\u00a0J. Henighan, Rewon Child, Aditya Ramesh, Daniel\u00a0M. Ziegler, Jeff Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language Models are Few-Shot Learners. ArXiv abs/2005.14165(2020).",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0L Campbell, Charles Quincy, Jordan Osserman, and Ove\u00a0K Pedersen. 2013. Coding in-depth semistructured interviews: Problems of unitization and intercoder reliability and agreement. Sociological methods & research 42, 3 (2013), 294\u2013320.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0M Carroll and Mary\u00a0Beth Rosson. 1987. Paradox of the active user. In Interfacing thought: Cognitive aspects of human-computer interaction. 80\u2013111.",
+      "doi": ""
+    },
+    {
+      "text": "Federico Cassano, John Gouwar, Daniel Nguyen, Sy\u00a0Duy Nguyen, Luna Phipps-Costin, Donald Pinckney, Ming-Ho Yee, Yangtian Zi, Carolyn\u00a0Jane Anderson, Molly\u00a0Q. Feldman, Arjun Guha, Michael Greenberg, and Abhinav Jangda. 2022. A Scalable and Extensible Approach to Benchmarking NL2Code for 18 Programming Languages. ArXiv abs/2208.08227(2022).",
+      "doi": ""
+    },
+    {
+      "text": "George Chalhoub and Advait Sarkar. 2022. \u201cIt\u2019s Freedom to Put Things Where My Mind Wants\u201d: Understanding and Improving the User Experience of Structuring Data in Spreadsheets. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems(CHI \u201922). Association for Computing Machinery, New York, NY, USA, 1\u201324. https://doi.org/10.1145/3491102.3501833",
+      "doi": "10.1145/3491102.3501833"
+    },
+    {
+      "text": "Kathy Charmaz. 2006. Constructing Grounded Theory: A Practical Guide through Qualitative Analysis. SAGE. Google-Books-ID: 2ThdBAAAQBAJ.",
+      "doi": ""
+    },
+    {
+      "text": "Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de\u00a0Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri, Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan, Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavarian, Clemens Winter, Philippe Tillet, Felipe\u00a0Petroski Such, Dave Cummings, Matthias Plappert, Fotios Chantzis, Elizabeth Barnes, Ariel Herbert-Voss, William\u00a0Hebgen Guss, Alex Nichol, Alex Paino, Nikolas Tezak, Jie Tang, Igor Babuschkin, Suchir Balaji, Shantanu Jain, William Saunders, Christopher Hesse, Andrew\u00a0N. Carr, Jan Leike, Josh Achiam, Vedant Misra, Evan Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Peter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, and Wojciech Zaremba. 2021. Evaluating Large Language Models Trained on Code. https://doi.org/10.48550/ARXIV.2107.03374",
+      "doi": ""
+    },
+    {
+      "text": "William\u00a0R Cook. 2007. Applescript. In Proceedings of the third ACM SIGPLAN conference on History of programming languages. 1\u20131.",
+      "doi": ""
+    },
+    {
+      "text": "Mihaly Csikszentmihalyi and Reed Larson. 2014. Validity and reliability of the experience-sampling method. In Flow and the foundations of positive psychology. Springer, 35\u201354.",
+      "doi": ""
+    },
+    {
+      "text": "Edsger\u00a0W Dijkstra. 1979. On the foolishness of\" natural language programming\". Program construction(1979), 51\u201353.",
+      "doi": ""
+    },
+    {
+      "text": "Haoyu Dong, Shijie Liu, Shi Han, Zhouyu Fu, and Dongmei Zhang. 2019. TableSense: Spreadsheet Table Detection with Convolutional Neural Networks. Proceedings of the AAAI Conference on Artificial Intelligence 33, 01 (July 2019), 69\u201376. https://doi.org/10.1609/aaai.v33i01.330169 Number: 01.",
+      "doi": "10.1609/aaai.v33i01.330169"
+    },
+    {
+      "text": "Paul Dourish. 2006. Implications for design. In Proceedings of the SIGCHI conference on Human Factors in computing systems. 541\u2013550.",
+      "doi": "10.1145/1124772.1124855"
+    },
+    {
+      "text": "Ahmed Elgohary, Christopher Meek, Matthew Richardson, Adam Fourney, Gonzalo\u00a0A. Ramos, and Ahmed\u00a0Hassan Awadallah. 2021. NL-EDIT: Correcting Semantic Parse Errors through Natural Language Interaction. In NAACL.",
+      "doi": ""
+    },
+    {
+      "text": "Alex Endert, Chao Han, Dipayan Maiti, Leanna House, and Chris North. 2011. Observation-level interaction with statistical models for visual analytics. In 2011 IEEE conference on visual analytics science and technology (VAST). IEEE, 121\u2013130.",
+      "doi": ""
+    },
+    {
+      "text": "Ilker Etikan, Sulaiman\u00a0Abubakar Musa, Rukayya\u00a0Sunusi Alkassim, 2016. Comparison of convenience sampling and purposive sampling. American journal of theoretical and applied statistics 5, 1 (2016), 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "Mikhail Evtikhiev, Egor Bogomolov, Yaroslav Sokolov, and Timofey Bryksin. 2022. Out of the BLEU: how should we assess quality of the Code Generation models?ArXiv abs/2208.03133(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Finlayson, Kyle Richardson, Ashish Sabharwal, and Peter Clark. 2022. What Makes Instruction Learning Hard? An Investigation and a New Challenge in a Synthetic Environment. ArXiv abs/2204.09148(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Marsha\u00a0E Fonteyn, Benjamin Kuipers, and Susan\u00a0J Grobe. 1993. A description of think aloud method and protocol analysis. Qualitative health research 3, 4 (1993), 430\u2013441.",
+      "doi": ""
+    },
+    {
+      "text": "TRG Green, M Petre, and RKE Bellamy. 1991. Comprehensibility of Visual and Textual Programs: A Test of Superlativism Against the\u2019Match-Mismatch\u2019Conjecture. Empirical Studies of Programming: Fourth Workshop. J. Koenemann-Belliveau, TG Moher and SP Robertson. New Brunswick.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas R.\u00a0G. Green and Marian Petre. 1996. Usability analysis of visual programming environments: a \u2018cognitive dimensions\u2019 framework. Journal of Visual Languages & Computing 7, 2 (1996), 131\u2013174.",
+      "doi": ""
+    },
+    {
+      "text": "Sumit Gulwani. 2011. Automating string processing in spreadsheets using input-output examples. ACM Sigplan Notices 46, 1 (2011), 317\u2013330.",
+      "doi": "10.1145/1925844.1926423"
+    },
+    {
+      "text": "Philip\u00a0J Guo. 2013. Online python tutor: embeddable web-based program visualization for cs education. In Proceeding of the 44th ACM technical symposium on Computer science education. 579\u2013584.",
+      "doi": ""
+    },
+    {
+      "text": "Mark Halpern. 1966. Foundations of the Case for Natural-Language Programming. In Proceedings of the November 7-10, 1966, Fall Joint Computer Conference (San Francisco, California) (AFIPS \u201966 (Fall)). Association for Computing Machinery, New York, NY, USA, 639\u2013649. https://doi.org/10.1145/1464291.1464360",
+      "doi": "10.1145/1464291.1464360"
+    },
+    {
+      "text": "Sandra\u00a0G Hart and Lowell\u00a0E Staveland. 1988. Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research. In Advances in psychology. Vol.\u00a052. Elsevier, 139\u2013183.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Head, Codanda Appachu, Marti\u00a0A Hearst, and Bj\u00f6rn Hartmann. 2015. Tutorons: Generating context-relevant, on-demand explanations and demonstrations of online code. In 2015 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, 3\u201312.",
+      "doi": ""
+    },
+    {
+      "text": "Dan Hendrycks, Steven Basart, Saurav Kadavath, Mantas Mazeika, Akul Arora, Ethan Guo, Collin Burns, Samir Puranik, Horace He, Dawn\u00a0Xiaodong Song, and Jacob Steinhardt. 2021. Measuring Coding Challenge Competence With APPS. ArXiv abs/2105.09938(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Andreas Holzinger. 2018. From machine learning to explainable AI. In 2018 world symposium on digital intelligence for systems and machines (DISA). IEEE, 55\u201366.",
+      "doi": ""
+    },
+    {
+      "text": "Or Honovich, Uri Shaham, Samuel\u00a0R. Bowman, and Omer Levy. 2022. Instruction Induction: From Few Examples to Natural Language Task Descriptions. ArXiv abs/2205.10782(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Amber Horvath, Michael\u00a0Xieyang Liu, River Hendriksen, Connor Shannon, Emma Paterson, Kazi Jawad, Andrew Macvean, and Brad\u00a0A Myers. 2022. Understanding How Programmers Can Use Annotations on Documentation. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems(CHI \u201922). Association for Computing Machinery, New York, NY, USA, 1\u201316. https://doi.org/10.1145/3491102.3502095",
+      "doi": "10.1145/3491102.3502095"
+    },
+    {
+      "text": "Jane Hsieh, Michael\u00a0Xieyang Liu, Brad\u00a0A. Myers, and Aniket Kittur. 2018. An Exploratory Study of Web Foraging to Understand and Support Programming Decisions. In 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). 305\u2013306. https://doi.org/10.1109/VLHCC.2018.8506517 ISSN: 1943-6092.",
+      "doi": ""
+    },
+    {
+      "text": "Edwin\u00a0L Hutchins, James\u00a0D Hollan, and Donald\u00a0A Norman. 1985. Direct manipulation interfaces. Human\u2013computer interaction 1, 4 (1985), 311\u2013338.",
+      "doi": "10.1207/s15327051hci0104_2"
+    },
+    {
+      "text": "Naman Jain, Skanda Vaidyanath, Arun Iyer, Nagarajan Natarajan, Suresh Parthasarathy, Sriram Rajamani, and Rahul Sharma. 2022. Jigsaw: Large Language Models meet Program Synthesis. In International Conference on Software Engineering (ICSE). https://www.microsoft.com/en-us/research/publication/jigsaw-large-language-models-meet-program-synthesis/",
+      "doi": ""
+    },
+    {
+      "text": "Dhanya Jayagopal, Justin Lubin, and Sarah\u00a0E Chasins. 2022. Exploring the Learnability of Program Synthesizers by Novice Programmers. In User Interface Software and Technology (UIST\u201922).",
+      "doi": ""
+    },
+    {
+      "text": "Ellen Jiang, Edwin Toh, Alejandra Molina, Kristen Olson, Claire Kayacik, Aaron Donsbach, Carrie\u00a0J Cai, and Michael Terry. 2022. Discovering the Syntax and Strategies of Natural Language Programming with Generative Language Models. In CHI Conference on Human Factors in Computing Systems. 1\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "Nima Joharizadeh, Advait Sarkar, Andrew\u00a0D. Gordon, and Jack Williams. 2020. Gridlets: Reusing Spreadsheet Grids. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems(CHI EA \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20137. https://doi.org/10.1145/3334480.3382806",
+      "doi": "10.1145/3334480.3382806"
+    },
+    {
+      "text": "Junaed\u00a0Younus Khan and Gias Uddin. 2022. Automatic Code Documentation Generation Using GPT-3. https://doi.org/10.48550/arXiv.2209.02235 arXiv:2209.02235 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Khashabi, Shan Lyu, Sewon Min, Lianhui Qin, Kyle Richardson, Sameer Singh, Sean Welleck, Hannaneh Hajishirzi, Tushar Khot, Ashish Sabharwal, and Yejin Choi. 2022. Prompt Waywardness: The Curious Case of Discretized Interpretation of Continuous Prompts. In NAACL.",
+      "doi": ""
+    },
+    {
+      "text": "Tae\u00a0Soo Kim, DaEun Choi, Yoonseo Choi, and Juho Kim. 2022. Stylette: Styling the Web with Natural Language. In CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "Amy\u00a0J. Ko, Robin Abraham, Laura Beckwith, Alan Blackwell, Margaret Burnett, Martin Erwig, Chris Scaffidi, Joseph Lawrance, Henry Lieberman, Brad Myers, Mary\u00a0Beth Rosson, Gregg Rothermel, Mary Shaw, and Susan Wiedenbeck. 2011. The State of the Art in End-user Software Engineering. ACM Comput. Surv. 43, 3 (April 2011), 21:1\u201321:44. https://doi.org/10.1145/1922649.1922658",
+      "doi": "10.1145/1922649.1922658"
+    },
+    {
+      "text": "Amy\u00a0J. Ko, Brad\u00a0A. Myers, and Htet\u00a0Htet Aung. 2004. Six Learning Barriers in End-User Programming Systems. In Proceedings of the 2004 IEEE Symposium on Visual Languages - Human Centric Computing(VLHCC \u201904). IEEE Computer Society, Washington, DC, USA, 199\u2013206. https://doi.org/10.1109/VLHCC.2004.47",
+      "doi": "10.1109/VLHCC.2004.47"
+    },
+    {
+      "text": "Rafal Kocielnik, Saleema Amershi, and Paul\u00a0N Bennett. 2019. Will you accept an imperfect ai? exploring designs for adjusting end-user expectations of ai systems. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3290605.3300641"
+    },
+    {
+      "text": "Todd Kulesza, Margaret Burnett, Weng-Keen Wong, and Simone Stumpf. 2015. Principles of explanatory debugging to personalize interactive machine learning. In Proceedings of the 20th international conference on intelligent user interfaces. 126\u2013137.",
+      "doi": "10.1145/2678025.2701399"
+    },
+    {
+      "text": "Kirby Kuznia, Swaroop Mishra, Mihir Parmar, and Chitta Baral. 2022. Less is More: Summary of Long Instructions is Better for Program Synthesis. ArXiv abs/2203.08597(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Shuvendu\u00a0K. Lahiri, Aaditya Naik, Georgios Sakkas, Piali Choudhury, Curtis von Veh, Madan Musuvathi, Jeevana\u00a0Priya Inala, Chenglong Wang, and Jianfeng Gao. 2022. Interactive Code Generation via Test-Driven User-Intent Formalization. ArXiv abs/2208.05950(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0Kyle Lampinen, Ishita Dasgupta, Stephanie C.\u00a0Y. Chan, Kory Matthewson, Michael\u00a0Henry Tessler, Antonia Creswell, James\u00a0L. McClelland, Jane\u00a0X. Wang, and Felix Hill. 2022. Can language models learn from explanations in context?ArXiv abs/2204.02329(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Sam Lau and Philip Guo. 2022. Pandas tutor visualizes how python code transforms dataframes. https://pandastutor.com/",
+      "doi": ""
+    },
+    {
+      "text": "Tessa Lau. 2009. Why programming-by-demonstration systems fail: Lessons learned for usable ai. AI Magazine 30, 4 (2009), 65\u201365.",
+      "doi": ""
+    },
+    {
+      "text": "Vladimir\u00a0I Levenshtein 1966. Binary codes capable of correcting deletions, insertions, and reversals. In Soviet physics doklady, Vol.\u00a010. Soviet Union, 707\u2013710.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0R. Lewis. 2018. The System Usability Scale: Past, Present, and Future. International Journal of Human\u2013Computer Interaction 34, 7 (July 2018), 577\u2013590. https://doi.org/10.1080/10447318.2018.1455307 Publisher: Taylor & Francis _eprint: https://doi.org/10.1080/10447318.2018.1455307.",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Amos Azaria, and Brad\u00a0A. Myers. 2017. SUGILITE: Creating Multimodal Smartphone Automation by Demonstration. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). Association for Computing Machinery, Denver, Colorado, USA, 6038\u20136049. https://doi.org/10.1145/3025453.3025483",
+      "doi": "10.1145/3025453.3025483"
+    },
+    {
+      "text": "Toby Jia-Jun Li, Igor Labutov, Xiaohan\u00a0Nancy Li, Xiaoyi Zhang, Wenze Shi, Wanling Ding, Tom\u00a0M. Mitchell, and Brad\u00a0A. Myers. 2018. APPINITE: A Multi-Modal Interface for Specifying Data Descriptions in Programming by Demonstration Using Natural Language Instructions. In 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). 105\u2013114. https://doi.org/10.1109/VLHCC.2018.8506506 ISSN: 1943-6106.",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Marissa Radensky, Justin Jia, Kirielle Singarajah, Tom\u00a0M. Mitchell, and Brad\u00a0A. Myers. 2019. PUMICE: A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201919). Association for Computing Machinery, New Orleans, LA, USA, 577\u2013589. https://doi.org/10.1145/3332165.3347899",
+      "doi": "10.1145/3332165.3347899"
+    },
+    {
+      "text": "Yuntao Li, Bei Chen, Qian Liu, Yan Gao, Jian-Guang Lou, Yan Zhang, and Dongmei Zhang. 2020. \u201cWhat Do You Mean by That?\u201d - a Parser-Independent Interactive Approach for Enhancing Text-to-SQL. In EMNLP.",
+      "doi": ""
+    },
+    {
+      "text": "Yujia Li, David Choi, Junyoung Chung, Nate Kushman, Julian Schrittwieser, R\u00e9mi Leblond, Tom Eccles, James Keeling, Felix Gimeno, Agustin\u00a0Dal Lago, Thomas Hubert, Peter Choy, Cyprien de\u00a0Masson d\u2019Autume, Igor Babuschkin, Xinyun Chen, Po-Sen Huang, Johannes Welbl, Sven Gowal, Alexey Cherepanov, James Molloy, Daniel\u00a0J. Mankowitz, Esme\u00a0Sutherland Robson, Pushmeet Kohli, Nando de Freitas, Koray Kavukcuoglu, and Oriol Vinyals. 2022. Competition-Level Code Generation with AlphaCode. https://doi.org/10.48550/ARXIV.2203.07814",
+      "doi": ""
+    },
+    {
+      "text": "Zongjie Li, Chaozheng Wang, Zhibo Liu, Haoxuan Wang, Shuai Wang, and Cuiyun Gao. 2022. CCTEST: Testing and Repairing Code Completion Systems. ArXiv abs/2208.08289(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Brian\u00a0Y Lim and Anind\u00a0K Dey. 2009. Assessing demand for intelligibility in context-aware applications. In Proceedings of the 11th international conference on Ubiquitous computing. 195\u2013204.",
+      "doi": "10.1145/1620545.1620576"
+    },
+    {
+      "text": "Hugo Liu and Henry Lieberman. 2005. Programmatic Semantics for Natural Language Interfaces. In CHI \u201905 Extended Abstracts on Human Factors in Computing Systems (Portland, OR, USA) (CHI EA \u201905). Association for Computing Machinery, New York, NY, USA, 1597\u20131600. https://doi.org/10.1145/1056808.1056975",
+      "doi": "10.1145/1056808.1056975"
+    },
+    {
+      "text": "Michael\u00a0Xieyang Liu, Jane Hsieh, Nathan Hahn, Angelina Zhou, Emily Deng, Shaun Burley, Cynthia Taylor, Aniket Kittur, and Brad\u00a0A. Myers. 2019. Unakite: Scaffolding Developers\u2019 Decision-Making Using the Web. In Proceedings of the 32Nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201919). ACM, New Orleans, LA, USA, 67\u201380. https://doi.org/10.1145/3332165.3347908 event-place: New Orleans, LA, USA.",
+      "doi": "10.1145/3332165.3347908"
+    },
+    {
+      "text": "Michael\u00a0Xieyang Liu, Aniket Kittur, and Brad\u00a0A. Myers. 2021. To Reuse or Not To Reuse? A Framework and System for Evaluating Summarized Knowledge. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1 (April 2021), 166:1\u2013166:35. https://doi.org/10.1145/3449240",
+      "doi": "10.1145/3449240"
+    },
+    {
+      "text": "Michael\u00a0Xieyang Liu, Aniket Kittur, and Brad\u00a0A. Myers. 2022. Crystalline: Lowering the Cost for Developers to Collect and Organize Information for Decision Making. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems(CHI \u201922). Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3491102.3501968 event-place: New Orleans, LA, USA.",
+      "doi": "10.1145/3491102.3501968"
+    },
+    {
+      "text": "Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and Graham Neubig. 2021. Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing. ArXiv abs/2107.13586(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Ewa Luger and Abigail Sellen. 2016. \"Like Having a Really Bad PA\" The Gulf between User Expectation and Experience of Conversational Agents. In Proceedings of the 2016 CHI conference on human factors in computing systems. 5286\u20135297.",
+      "doi": "10.1145/2858036.2858288"
+    },
+    {
+      "text": "Stephen MacNeil, Andrew Tran, Dan Mogil, Seth Bernstein, Erin Ross, and Ziheng Huang. 2022. Generating Diverse Code Explanations using the GPT-3 Large Language Model. In Proceedings of the 2022 ACM Conference on International Computing Education Research - Volume 2(ICER \u201922). Association for Computing Machinery, New York, NY, USA, 37\u201339. https://doi.org/10.1145/3501709.3544280",
+      "doi": "10.1145/3501709.3544280"
+    },
+    {
+      "text": "Nora McDonald, Sarita Schoenebeck, and Andrea Forte. 2019. Reliability and inter-rater reliability in qualitative research: Norms and guidelines for CSCW and HCI practice. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201323.",
+      "doi": "10.1145/3359174"
+    },
+    {
+      "text": "Patrick\u00a0E McKnight and Julius Najab. 2010. Mann-Whitney U Test. The Corsini encyclopedia of psychology(2010), 1\u20131.",
+      "doi": ""
+    },
+    {
+      "text": "Swaroop Mishra, Daniel Khashabi, Chitta Baral, Yejin Choi, and Hannaneh Hajishirzi. 2021. Reframing Instructional Prompts to GPTk\u2019s Language. arXiv preprint arXiv:2109.07830(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Lingbo Mo, Ashley\u00a0Glen Lewis, Huan Sun, and Michael White. 2022. Towards Transparent Interactive Semantic Parsing via Step-by-Step Correction. ArXiv abs/2110.08345(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Jesse Mu and Advait Sarkar. 2019. Do we need natural language? Exploring restricted language interfaces for complex domains. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u20136.",
+      "doi": "10.1145/3290607.3312975"
+    },
+    {
+      "text": "Avanika Narayan, Ines Chami, Laurel Orr, and Christopher R\u2019e. 2022. Can Foundation Models Wrangle Your Data?ArXiv abs/2205.09911(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Avanika Narayan, Ines Chami, Laurel Orr, and Christopher R\u2019e. 2022. Can Foundation Models Wrangle Your Data?ArXiv abs/2205.09911(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Petr Necesal and Jan Posp\u0131\u0161il. 2012. Experience with teaching mathematics for engineers with the aid of Wolfram Alpha. In Proceedings of the World Congress on Engineering and Computer Science, Vol.\u00a01. 271\u2013274.",
+      "doi": ""
+    },
+    {
+      "text": "Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Haiquan Wang, Yingbo Zhou, Silvio Savarese, and Caiming Xiong. 2022. A Conversational Paradigm for Program Synthesis. ArXiv abs/2203.13474(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Fatma \u0150zcan, Abdul Quamar, Jaydeep Sen, Chuan Lei, and Vasilis Efthymiou. 2020. State of the art and open challenges in natural language interfaces to data. In Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data. 2629\u20132636.",
+      "doi": "10.1145/3318464.3383128"
+    },
+    {
+      "text": "Mihir Parmar, Swaroop Mishra, Mirali Purohit, Man Luo, M.\u00a0Hassan Murad, and Chitta Baral. 2022. In-BoXBART: Get Instructions into Biomedical Multi-Task Learning. In NAACL-HLT.",
+      "doi": ""
+    },
+    {
+      "text": "Pruthvi Patel, Swaroop Mishra, Mihir Parmar, and Chitta Baral. 2022. Is a Question Decomposition Unit All We Need?ArXiv abs/2205.12538(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Mitchel Resnick, John Maloney, Andr\u00e9s Monroy-Hern\u00e1ndez, Natalie Rusk, Evelyn Eastmond, Karen Brennan, Amon Millner, Eric Rosenbaum, Jay Silver, Brian Silverman, 2009. Scratch: programming for all. Commun. ACM 52, 11 (2009), 60\u201367.",
+      "doi": "10.1145/1592761.1592779"
+    },
+    {
+      "text": "John Rieman. 1993. The diary study: a workplace-oriented research tool to guide laboratory efforts. In Proceedings of the INTERACT\u201993 and CHI\u201993 conference on Human factors in computing systems. 321\u2013326.",
+      "doi": "10.1145/169059.169255"
+    },
+    {
+      "text": "Johnny Salda\u00f1a. 2021. The coding manual for qualitative researchers. sage.",
+      "doi": ""
+    },
+    {
+      "text": "Jean\u00a0E. Sammet. 1966. The Use of English as a Programming Language. Commun. ACM 9, 3 (mar 1966), 228\u2013230. https://doi.org/10.1145/365230.365274",
+      "doi": "10.1145/365230.365274"
+    },
+    {
+      "text": "Advait Sarkar. 2018. Interactive analytical modelling. Technical Report. University of Cambridge, Computer Laboratory.",
+      "doi": ""
+    },
+    {
+      "text": "Advait Sarkar. 2022. Is explainable AI a race against model complexity?. In Workshop on Transparency and Explanations in Smart Systems (TeXSS), in conjunction with ACM Intelligent User Interfaces (IUI 2022)(CEUR Workshop Proceedings, 3124). 192\u2013199. http://ceur-ws.org/Vol-3124/paper22.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Advait Sarkar, Alan\u00a0F Blackwell, Mateia Jamnik, and Martin Spott. 2014. Teach and try: A simple interaction technique for exploratory data modelling by end users. In 2014 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, 53\u201356.",
+      "doi": ""
+    },
+    {
+      "text": "Advait Sarkar, Alan\u00a0F. Blackwell, Mateja Jamnik, and Martin Spott. 2015. Interaction with Uncertainty in Visualisations. (2015). https://doi.org/10.2312/eurovisshort.20151138 Accepted: 2015-05-24T19:43:20Z Publisher: The Eurographics Association.",
+      "doi": ""
+    },
+    {
+      "text": "Advait Sarkar, Judith\u00a0W. Borghouts, Anusha Iyer, Sneha Khullar, Christian Canton, Felienne Hermans, Andrew\u00a0D. Gordon, and Jack Williams. 2020. Spreadsheet Use and Programming Experience: An Exploratory Survey. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems(CHI EA \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20139. https://doi.org/10.1145/3334480.3382807",
+      "doi": "10.1145/3334480.3382807"
+    },
+    {
+      "text": "Advait Sarkar and Andrew\u00a0D. Gordon. 2018. How do people learn to use spreadsheets? (Work in progress). In Proceedings of the 29th Annual Conference of the Psychology of Programming Interest Group (PPIG 2018). 28\u201335.",
+      "doi": ""
+    },
+    {
+      "text": "Advait Sarkar, Andrew\u00a0D. Gordon, Carina Negreanu, Christian Poelitz, Sruti\u00a0Srinivasa Ragavan, and Ben Zorn. 2022. What is it like to program with artificial intelligence?https://doi.org/10.48550/arXiv.2208.06213 arXiv:2208.06213 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "Advait Sarkar, Mateja Jamnik, Alan\u00a0F. Blackwell, and Martin Spott. 2015. Interactive visual machine learning in spreadsheets. In 2015 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). 159\u2013163. https://doi.org/10.1109/VLHCC.2015.7357211",
+      "doi": ""
+    },
+    {
+      "text": "Advait Sarkar, Sruti\u00a0Srinivasa Ragavan, Jack Williams, and Andrew\u00a0D Gordon. 2022. End-user encounters with lambda abstraction in spreadsheets: Apollo\u2019s bow or Achilles\u2019 heel?. In 2022 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE Computer Society, 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Advait Sarkar, Martin Spott, Alan\u00a0F Blackwell, and Mateja Jamnik. 2016. Visual discovery and model-driven explanation of time series patterns. In 2016 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, 78\u201386.",
+      "doi": ""
+    },
+    {
+      "text": "Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer. 2016. Vega-lite: A grammar of interactive graphics. IEEE transactions on visualization and computer graphics 23, 1(2016), 341\u2013350.",
+      "doi": "10.1109/TVCG.2016.2599030"
+    },
+    {
+      "text": "Christopher Scaffidi, Mary Shaw, and Brad Myers. 2005. Estimating the numbers of end users and end user programmers. In 2005 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC\u201905). IEEE, 207\u2013214.",
+      "doi": "10.1109/VLHCC.2005.34"
+    },
+    {
+      "text": "Viktor Schlegel, Benedikt Lang, Siegfried Handschuh, and Andr\u00e9 Freitas. 2019. Vajra: step-by-step programming with natural language. In Proceedings of the 24th International Conference on Intelligent User Interfaces. 30\u201339.",
+      "doi": "10.1145/3301275.3302267"
+    },
+    {
+      "text": "Vidya Setlur and Melanie Tory. 2022. How do you Converse with an Analytical Chatbot? Revisiting Gricean Maxims for Designing Analytical Conversational Behavior. In CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "Disha Shrivastava, H. Larochelle, and Daniel Tarlow. 2022. Repository-Level Prompt Generation for Large Language Models of Code. ArXiv abs/2206.12839(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Ankita\u00a0Nandkishor Sontakke, Manasi Patwardhan, Lovekesh Vig, Raveendra\u00a0Kumar Medicherla, Ravindra Naik, and Gautam Shroff. 2022. Code Summarization: Do Transformers Really Understand Code?. In Deep Learning for Code Workshop.",
+      "doi": ""
+    },
+    {
+      "text": "Sruti Srinivasa\u00a0Ragavan, Zhitao Hou, Yun Wang, Andrew\u00a0D Gordon, Haidong Zhang, and Dongmei Zhang. 2022. GridBook: Natural Language Formulas for the Spreadsheet Grid. In 27th International Conference on Intelligent User Interfaces(IUI \u201922). Association for Computing Machinery, New York, NY, USA, 345\u2013368. https://doi.org/10.1145/3490099.3511161",
+      "doi": "10.1145/3490099.3511161"
+    },
+    {
+      "text": "Sruti Srinivasa\u00a0Ragavan, Advait Sarkar, and Andrew\u00a0D Gordon. 2021. Spreadsheet Comprehension: Guesswork, Giving Up and Going Back to the Author. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems(CHI \u201921). Association for Computing Machinery, New York, NY, USA, 1\u201321. https://doi.org/10.1145/3411764.3445634",
+      "doi": "10.1145/3411764.3445634"
+    },
+    {
+      "text": "Erik Stolterman. 2008. The nature of design practice and implications for interaction design research. International Journal of Design 2, 1 (2008).",
+      "doi": ""
+    },
+    {
+      "text": "Harry\u00a0R. Tennant, Kenneth\u00a0M. Ross, and Craig\u00a0W. Thompson. 1983. Usable Natural Language Interfaces through Menu-Based Natural Language Understanding. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Boston, Massachusetts, USA) (CHI \u201983). Association for Computing Machinery, New York, NY, USA, 154\u2013160. https://doi.org/10.1145/800045.801601",
+      "doi": "10.1145/800045.801601"
+    },
+    {
+      "text": "Romal Thoppilan, Daniel De\u00a0Freitas, Jamie Hall, Noam Shazeer, Apoorv Kulshreshtha, Heng-Tze Cheng, Alicia Jin, Taylor Bos, Leslie Baker, Yu Du, YaGuang Li, Hongrae Lee, Huaixiu\u00a0Steven Zheng, Amin Ghafouri, Marcelo Menegali, Yanping Huang, Maxim Krikun, Dmitry Lepikhin, James Qin, Dehao Chen, Yuanzhong Xu, Zhifeng Chen, Adam Roberts, Maarten Bosma, Vincent Zhao, Yanqi Zhou, Chung-Ching Chang, Igor Krivokon, Will Rusch, Marc Pickett, Pranesh Srinivasan, Laichee Man, Kathleen Meier-Hellstern, Meredith\u00a0Ringel Morris, Tulsee Doshi, Renelito\u00a0Delos Santos, Toju Duke, Johnny Soraker, Ben Zevenbergen, Vinodkumar Prabhakaran, Mark Diaz, Ben Hutchinson, Kristen Olson, Alejandra Molina, Erin Hoffman-John, Josh Lee, Lora Aroyo, Ravi Rajakumar, Alena Butryna, Matthew Lamm, Viktoriya Kuzmina, Joe Fenton, Aaron Cohen, Rachel Bernstein, Ray Kurzweil, Blaise Aguera-Arcas, Claire Cui, Marian Croak, Ed Chi, and Quoc Le. 2022. LaMDA: Language Models for Dialog Applications. (Jan. 2022). https://doi.org/10.48550/arXiv.2201.08239",
+      "doi": ""
+    },
+    {
+      "text": "Immanuel Trummer. 2022. CodexDB: Generating Code for Processing SQL Queries using GPT-3 Codex. ArXiv abs/2204.08941(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Mojtaba Vaismoradi, Hannele Turunen, and Terese Bondas. 2013. Content analysis and thematic analysis: Implications for conducting a qualitative descriptive study. Nursing & Health Sciences 15, 3 (2013), 398\u2013405. https://doi.org/10.1111/nhs.12048 _eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/nhs.12048.",
+      "doi": ""
+    },
+    {
+      "text": "Priyan Vaithilingam, Tianyi Zhang, and Elena\u00a0L Glassman. 2022. Expectation vs. Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models. In CHI Conference on Human Factors in Computing Systems Extended Abstracts. 1\u20137.",
+      "doi": "10.1145/3491101.3519665"
+    },
+    {
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan\u00a0N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. Advances in neural information processing systems 30 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Chaozheng Wang, Yuan-Hong Yang, Cuiyun Gao, Yun Peng, Hongyu Zhang, and Michael\u00a0R. Lyu. 2022. No More Fine-Tuning? An Experimental Evaluation of Prompt Tuning in Code Intelligence. ArXiv abs/2207.11680(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Liwen Wang, Rumei Li, Yang Yan, Yuanmeng Yan, Sirui Wang, Wei\u00a0Yu Wu, and Weiran Xu. 2022. InstructionNER: A Multi-Task Instruction-Based Generative Framework for Few-shot NER. ArXiv abs/2203.03903(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Sida\u00a0I Wang, Samuel Ginn, Percy Liang, and Christoper\u00a0D Manning. 2017. Naturalizing a programming language via interactive learning. arXiv preprint arXiv:1704.06956(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Zhiruo Wang, Grace Cuenca, Shuyan Zhou, Frank\u00a0F. Xu, and Graham Neubig. 2022. MCoNaLa: A Benchmark for Code Generation from Multiple Natural Languages. ArXiv abs/2203.08388(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, 2022. Emergent abilities of large language models. arXiv preprint arXiv:2206.07682(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and Denny Zhou. 2022. Chain of Thought Prompting Elicits Reasoning in Large Language Models. ArXiv abs/2201.11903(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Justin\u00a0D Weisz, Michael Muller, Stephanie Houde, John Richards, Steven\u00a0I Ross, Fernando Martinez, Mayank Agarwal, and Kartik Talamadupula. 2021. Perfection not required? Human-AI partnerships in code translation. In 26th International Conference on Intelligent User Interfaces. 402\u2013412.",
+      "doi": "10.1145/3397481.3450656"
+    },
+    {
+      "text": "Tongshuang Wu, Ellen Jiang, Aaron Donsbach, Jeff Gray, Alejandra Molina, Michael Terry, and Carrie\u00a0J Cai. 2022. PromptChainer: Chaining Large Language Model Prompts through Visual Programming. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems(CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/3491101.3519729",
+      "doi": "10.1145/3491101.3519729"
+    },
+    {
+      "text": "Tongshuang Wu, Michael Terry, and Carrie\u00a0Jun Cai. 2022. AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts. In CHI Conference on Human Factors in Computing Systems(CHI \u201922). Association for Computing Machinery, New York, NY, USA, 1\u201322. https://doi.org/10.1145/3491102.3517582",
+      "doi": "10.1145/3491102.3517582"
+    },
+    {
+      "text": "Frank\u00a0F Xu, Uri Alon, Graham Neubig, and Vincent\u00a0Josua Hellendoorn. 2022. A systematic evaluation of large language models of code. In Proceedings of the 6th ACM SIGPLAN International Symposium on Machine Programming. 1\u201310.",
+      "doi": "10.1145/3520312.3534862"
+    },
+    {
+      "text": "Frank\u00a0F Xu, Bogdan Vasilescu, and Graham Neubig. 2022. In-ide code generation from natural language: Promise and challenges. ACM Transactions on Software Engineering and Methodology (TOSEM) 31, 2(2022), 1\u201347.",
+      "doi": "10.1145/3466642"
+    },
+    {
+      "text": "Ziyu Yao, Yu Su, Huan Sun, and Wen tau Yih. 2019. Model-based Interactive Semantic Parsing: A Unified Framework and A Text-to-SQL Case Study. In EMNLP.",
+      "doi": ""
+    },
+    {
+      "text": "Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Zifan Li, James Ma, Irene Li, Qingning Yao, Shanelle Roman, Zilin Zhang, and Dragomir Radev. 2019. Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task. https://doi.org/10.48550/arXiv.1809.08887 arXiv:1809.08887 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Zifan Li, James Ma, Irene Li, Qingning Yao, Shanelle Roman, Zilin Zhang, and Dragomir\u00a0R. Radev. 2018. Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, Brussels, Belgium, October 31 - November 4, 2018, Ellen Riloff, David Chiang, Julia Hockenmaier, and Jun\u2019ichi Tsujii (Eds.). Association for Computational Linguistics, 3911\u20133921. https://doi.org/10.18653/v1/d18-1425",
+      "doi": ""
+    },
+    {
+      "text": "Xiong Zhang and Philip\u00a0J Guo. 2017. Ds. js: Turn any webpage into an example-centric live programming environment for learning data science. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology. 691\u2013702.",
+      "doi": "10.1145/3126594.3126663"
+    },
+    {
+      "text": "Ming Zhu, Aneesh Jain, Karthik Suresh, Roshan Ravindran, Sindhu Tipirneni, and Chandan\u00a0K. Reddy. 2022. XLCoST: A Benchmark Dataset for Cross-lingual Code Intelligence. ArXiv abs/2206.08474(2022).",
+      "doi": ""
+    }
+  ]
+}

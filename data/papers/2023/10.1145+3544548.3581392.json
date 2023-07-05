@@ -1,0 +1,333 @@
+{
+  "doi": "10.1145/3544548.3581392",
+  "title": "IMUPoser: Full-Body Pose Estimation using IMUs in Phones, Watches, and Earbuds",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-12",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Tracking body pose on-the-go could have powerful uses in fitness, mobile gaming, context-aware virtual assistants, and rehabilitation. However, users are unlikely to buy and wear special suits or sensor arrays to achieve this end. Instead, in this work, we explore the feasibility of estimating body pose using IMUs already in devices that many users own \u2014 namely smartphones, smartwatches, and earbuds. This approach has several challenges, including noisy data from low-cost commodity IMUs, and the fact that the number of instrumentation points on a user\u2019s body is both sparse and in flux. Our pipeline receives whatever subset of IMU data is available, potentially from just a single device, and produces a best-guess pose. To evaluate our model, we created the IMUPoser Dataset, collected from 10 participants wearing or holding off-the-shelf consumer devices and across a variety of activity contexts. We provide a comprehensive evaluation of our system, benchmarking it on both our own and existing IMU datasets.",
+  "authors": [
+    {
+      "name": "Vimal Mollyn",
+      "institution": "Human-Computer Interaction Institute, Carnegie Mellon University, United States",
+      "img": "/do/10.1145/contrib-99659528953/rel-imgonly/vimal_profile.png",
+      "acmid": "99659528953",
+      "orcid": "0000-0002-9085-8830"
+    },
+    {
+      "name": "Riku Arakawa",
+      "institution": "Human-Computer Interaction Institute, Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659365318",
+      "orcid": "0000-0001-7868-4754"
+    },
+    {
+      "name": "Mayank Goel",
+      "institution": "School of Computer Science, Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81500642496",
+      "orcid": "0000-0003-1237-7545"
+    },
+    {
+      "name": "Chris Harrison",
+      "institution": "Human-Computer Interaction Institute, Carnegie Mellon University, United States",
+      "img": "/do/10.1145/contrib-81350573130/rel-imgonly/pastedgraphic-11.png",
+      "acmid": "81350573130",
+      "orcid": "0000-0001-5312-3619"
+    },
+    {
+      "name": "Karan Ahuja",
+      "institution": "Human-Computer Interaction Institute, Carnegie Mellon University, United States",
+      "img": "/do/10.1145/contrib-99659136980/rel-imgonly/karan_pic.png",
+      "acmid": "99659136980",
+      "orcid": "0000-0003-2497-0530"
+    }
+  ],
+  "references": [
+    {
+      "text": "Vida Adeli, Ehsan Adeli, Ian Reid, Juan\u00a0Carlos Niebles, and Hamid Rezatofighi. 2020. Socially and contextually aware human motion and pose forecasting. IEEE Robotics and Automation Letters 5, 4 (2020), 6033\u20136040.",
+      "doi": ""
+    },
+    {
+      "text": "Karan Ahuja, Mayank Goel, and Chris Harrison. 2020. BodySLAM: Opportunistic User Digitization in Multi-User AR/VR Experiences. In Symposium on Spatial User Interaction. 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Karan Ahuja, Chris Harrison, Mayank Goel, and Robert Xiao. 2019. MeCap: Whole-Body Digitization for Low-Cost VR/AR Headsets. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 453\u2013462. https://doi.org/10.1145/3332165.3347889",
+      "doi": "10.1145/3332165.3347889"
+    },
+    {
+      "text": "Karan Ahuja, Rahul Islam, Varun Parashar, Kuntal Dey, Chris Harrison, and Mayank Goel. 2018. Eyespyvr: Interactive eye sensing using off-the-shelf, smartphone-based vr headsets. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2, 2 (2018), 1\u201310.",
+      "doi": "10.1145/3214260"
+    },
+    {
+      "text": "Karan Ahuja, Andy Kong, Mayank Goel, and Chris Harrison. 2020. Direction-of-Voice (DoV) Estimation for Intuitive Speech Interaction with Smart Devices Ecosystems(UIST \u201920). Association for Computing Machinery, New York, NY, USA, 1121\u20131131. https://doi.org/10.1145/3379337.3415588",
+      "doi": "10.1145/3379337.3415588"
+    },
+    {
+      "text": "Karan Ahuja, Sven Mayer, Mayank Goel, and Chris Harrison. 2021. Pose-on-the-Go: Approximating User Pose with Smartphone Sensor Fusion and Inverse Kinematics. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3411764.3445582"
+    },
+    {
+      "text": "Karan Ahuja, Eric Whitmire, Joseph Greer, and Wolf Kienzle. 2022. ActivityPoser: Activity driven Full-Body Pose Estimation from Sparse IMU Configurations. In Symposium on Spatial User Interaction. 1\u20132.",
+      "doi": "10.1145/3565970.3567687"
+    },
+    {
+      "text": "Apple. 2022. CMAttitudeRef. https://developer.apple.com/documentation/coremotion/cmattitudereferenceframe",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2022. NINearbyObject. https://developer.apple.com/documentation/nearbyinteraction/ninearbyobject",
+      "doi": ""
+    },
+    {
+      "text": "Riku Arakawa, Azumi Maekawa, Zendai Kashino, and Masahiko Inami. 2020. Hand with Sensing Sphere: Body-Centered Spatial Interactions with a Hand-Worn Spherical Camera. In SUI \u201920: Symposium on Spatial User Interaction, Virtual Event, Canada, October 31 - November 1, 2020. ACM, New York, 1:1\u20131:10. https://doi.org/10.1145/3385959.3418450",
+      "doi": "10.1145/3385959.3418450"
+    },
+    {
+      "text": "Z. Cao, G. Hidalgo Martinez, T. Simon, S. Wei, and Y.\u00a0A. Sheikh. 2019. OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields. IEEE Transactions on Pattern Analysis and Machine Intelligence (2019).",
+      "doi": "10.1109/TPAMI.2019.2929257"
+    },
+    {
+      "text": "Zhe Cao, Tomas Simon, Shih-En Wei, and Yaser Sheikh. 2017. Realtime Multi-person 2D Pose Estimation Using Part Affinity Fields. In Proceedings of the IEEE conference on computer vision and pattern recognition(CVPR \u201917). IEEE, 7291\u20137299. https://doi.org/10.1109/CVPR.2017.143",
+      "doi": ""
+    },
+    {
+      "text": "Ke-Yu Chen, Shwetak\u00a0N Patel, and Sean Keller. 2016. Finexus: Tracking precise motions of multiple fingertips using magnetic sensing. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 1504\u20131514.",
+      "doi": "10.1145/2858036.2858125"
+    },
+    {
+      "text": "Edilson de Aguiar, Carsten Stoll, Christian Theobalt, Naveed Ahmed, Hans-Peter Seidel, and Sebastian Thrun. 2008. Performance capture from sparse multi-view video. ACM transactions on graphics 27, 3 (Aug. 2008), 1\u201310. https://doi.org/10.1145/1360612.1360697",
+      "doi": "10.1145/1360612.1360697"
+    },
+    {
+      "text": "Yann Desmarais, Denis Mottet, Pierre Slangen, and Philippe Montesinos. 2021. A review of 3D human pose estimation algorithms for markerless motion capture. Computer vision and image understanding: CVIU 212 (Nov. 2021), 103275. https://doi.org/10.1016/j.cviu.2021.103275",
+      "doi": "10.1016/j.cviu.2021.103275"
+    },
+    {
+      "text": "Nathan Devrio and Chris Harrison. 2022. DiscoBand: Multiview Depth-Sensing Smartwatch Strap for Hand, Body and Environment Tracking. In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (Bend, OR, USA) (UIST \u201922). Association for Computing Machinery, New York, NY, USA, Article 56, 13\u00a0pages. https://doi.org/10.1145/3526113.3545634",
+      "doi": "10.1145/3526113.3545634"
+    },
+    {
+      "text": "Oliver Glauser, Shihao Wu, Daniele Panozzo, Otmar Hilliges, and Olga Sorkine-Hornung. 2019. Interactive hand pose estimation using a stretch-sensing soft glove. ACM Transactions on Graphics (TOG) 38, 4 (2019), 1\u201315.",
+      "doi": "10.1145/3311972"
+    },
+    {
+      "text": "Anna Gruebler and Kenji Suzuki. 2014. Design of a Wearable Device for Reading Positive Expressions from Facial EMG Signals. IEEE Transactions on Affective Computing 5 (2014), 227\u2013237.",
+      "doi": ""
+    },
+    {
+      "text": "HTC. 2020. VIVE. https://www.vive.com",
+      "doi": ""
+    },
+    {
+      "text": "HTC. 2020. VIVE Accessory Trackers. https://www.vive.com/us/accessory/vive-tracker",
+      "doi": ""
+    },
+    {
+      "text": "Yinghao Huang, Manuel Kaufmann, Emre Aksan, Michael\u00a0J Black, Otmar Hilliges, and Gerard Pons-Moll. 2018. Deep inertial poser: Learning to reconstruct human pose from sparse inertial measurements in real time. ACM Transactions on Graphics (TOG) 37, 6 (2018), 1\u201315.",
+      "doi": "10.1145/3158353"
+    },
+    {
+      "text": "Intel Corporation. 2020. RealSense. https://www.intelrealsense.com/",
+      "doi": ""
+    },
+    {
+      "text": "Yasha Iravantchi, Yang Zhang, Evi Bernitsas, Mayank Goel, and Chris Harrison. 2019. Interferi: Gesture sensing using on-body acoustic interferometry. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300506"
+    },
+    {
+      "text": "Ahmad Jalal, Md\u00a0Zia Uddin, and T-S Kim. 2012. Depth video-based human activity recognition system using translation and scaling invariant features for life logging at smart home. IEEE Transactions on Consumer Electronics 58, 3 (2012), 863\u2013871.",
+      "doi": ""
+    },
+    {
+      "text": "Jiaxi Jiang, Paul Streli, Huajian Qiu, Andreas Fender, Larissa Laich, Patrick Snape, and Christian Holz. 2022. AvatarPoser: Articulated Full-Body Pose Tracking from Sparse Motion Sensing. arXiv preprint arXiv:2207.13784(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Yifeng Jiang, Yuting Ye, Deepak Gopinath, Jungdam Won, Alexander\u00a0W. Winkler, and C.\u00a0Karen Liu. 2022. Transformer Inertial Poser: Attention-based Real-time Human Motion Reconstruction from Sparse IMUs. https://doi.org/10.48550/ARXIV.2203.15720",
+      "doi": ""
+    },
+    {
+      "text": "Haojian Jin, Jingxian Wang, Zhijian Yang, Swarun Kumar, and Jason Hong. 2018. Rf-wear: Towards wearable everyday skeleton tracking using passive rfids. In Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers. 369\u2013372.",
+      "doi": "10.1145/3267305.3267567"
+    },
+    {
+      "text": "Rushil Khurana, Karan Ahuja, Zac Yu, Jennifer Mankoff, Chris Harrison, and Mayank Goel. 2018. GymCam: Detecting, recognizing and tracking simultaneous exercises in unconstrained scenes. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2, 4 (2018), 1\u201317.",
+      "doi": "10.1145/3287063"
+    },
+    {
+      "text": "David Kim, Otmar Hilliges, Shahram Izadi, Alex\u00a0D Butler, Jiawen Chen, Iason Oikonomidis, and Patrick Olivier. 2012. Digits: freehand 3D interactions anywhere using a wrist-worn gloveless sensor. In Proceedings of the 25th annual ACM symposium on User interface software and technology. 167\u2013176.",
+      "doi": "10.1145/2380116.2380139"
+    },
+    {
+      "text": "Yilin Liu, Shijia Zhang, and Mahanth Gowda. 2021. NeuroPose: 3D Hand Pose Tracking Using EMG Wearables. In Proceedings of the Web Conference 2021 (Ljubljana, Slovenia) (WWW \u201921). Association for Computing Machinery, New York, NY, USA, 1471\u20131482. https://doi.org/10.1145/3442381.3449890",
+      "doi": "10.1145/3442381.3449890"
+    },
+    {
+      "text": "Matthew Loper, Naureen Mahmood, Javier Romero, Gerard Pons-Moll, and Michael\u00a0J Black. 2015. SMPL: a skinned multi-person linear model. ACM transactions on graphics 34, 6 (Oct. 2015), 1\u201316. https://doi.org/10.1145/2816795.2818013",
+      "doi": "10.1145/2816795.2818013"
+    },
+    {
+      "text": "Naureen Mahmood, Nima Ghorbani, Nikolaus\u00a0F Troje, Gerard Pons-Moll, and Michael\u00a0J Black. 2019. AMASS: Archive of motion capture as surface shapes. In Proceedings of the IEEE/CVF International Conference on Computer Vision. 5442\u20135451.",
+      "doi": ""
+    },
+    {
+      "text": "Eric Marchand, Hideaki Uchiyama, and Fabien Spindler. 2016. Pose Estimation for Augmented Reality: A Hands-On Survey. IEEE transactions on visualization and computer graphics 22, 12 (Dec. 2016), 2633\u20132651. https://doi.org/10.1109/TVCG.2015.2513408",
+      "doi": "10.1109/TVCG.2015.2513408"
+    },
+    {
+      "text": "Dushyant Mehta, Srinath Sridhar, Oleksandr Sotnychenko, Helge Rhodin, Mohammad Shafiei, Hans-Peter Seidel, Weipeng Xu, Dan Casas, and Christian Theobalt. 2017. Vnect: Real-time 3d human pose estimation with a single rgb camera. ACM Transactions on Graphics (TOG) 36, 4 (2017), 1\u201314.",
+      "doi": "10.1145/3072959.3073596"
+    },
+    {
+      "text": "Meta Motion. 2018. Gypsy Motion Capture System. http://metamotion.com/gypsy/gypsy-motion-capture-system.htm",
+      "doi": ""
+    },
+    {
+      "text": "Meta Technologies LLC. 2020. Oculus Rift. https://www.oculus.com/rift-s/",
+      "doi": ""
+    },
+    {
+      "text": "Damien Michel, Ammar Qammaz, and Antonis\u00a0A Argyros. 2017. Markerless 3d human pose estimation and tracking based on rgbd cameras: an experimental evaluation. In Proceedings of the 10th International Conference on PErvasive Technologies Related to Assistive Environments. 115\u2013122.",
+      "doi": "10.1145/3056540.3056543"
+    },
+    {
+      "text": "Microsoft Corporation. 2010. Microsoft Kinect Games. Retrieved 2021 from https://en.wikipedia.org/wiki/Category:Kinect_games",
+      "doi": ""
+    },
+    {
+      "text": "Hossein Mousavi\u00a0Hondori and Maryam Khademi. 2014. A review on technical and clinical impact of microsoft kinect on physical therapy and rehabilitation. Journal of medical engineering 2014 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Vinod Nair and Geoffrey\u00a0E Hinton. 2010. Rectified linear units improve restricted boltzmann machines. In Icml.",
+      "doi": ""
+    },
+    {
+      "text": "NaturalPoint Inc.2020. OptiTrack. http://optitrack.com",
+      "doi": ""
+    },
+    {
+      "text": "Evonne Ng, Donglai Xiang, Hanbyul Joo, and Kristen Grauman. 2020. You2me: Inferring body pose in egocentric video via first and second person interactions. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 9890\u20139900.",
+      "doi": ""
+    },
+    {
+      "text": "Thong\u00a0Duy Nguyen and Milan Kresovic. 2022. A survey of top-down approaches for human pose estimation. (Feb. 2022). arxiv:2202.02656\u00a0[cs.CV] http://arxiv.org/abs/2202.02656",
+      "doi": ""
+    },
+    {
+      "text": "Northern Digital Inc. 2020. trakSTAR. https://www.ndigital.com/msci/products/drivebay-trakstar",
+      "doi": ""
+    },
+    {
+      "text": "OpenNI. 2020. OpenNI. https://structure.io/openni",
+      "doi": ""
+    },
+    {
+      "text": "George Papandreou, Tyler Zhu, Liang-Chieh Chen, Spyros Gidaris, Jonathan Tompson, and Kevin Murphy. 2018. Personlab: Person pose estimation and instance segmentation with a bottom-up, part-based, geometric embedding model. In Proceedings of the European Conference on Computer Vision(ECCV \u201918). 269\u2013286. https://doi.org/10.1007/978-3-030-01264-9_17",
+      "doi": "10.1007/978-3-030-01264-9_17"
+    },
+    {
+      "text": "Mathias Parger, Joerg\u00a0H. Mueller, Dieter Schmalstieg, and Markus Steinberger. 2018. Human Upper-Body Inverse Kinematics for Increased Embodiment in Consumer-Grade Virtual Reality(VRST \u201918). Association for Computing Machinery, New York, NY, USA, Article 23, 10\u00a0pages. https://doi.org/10.1145/3281505.3281529",
+      "doi": "10.1145/3281505.3281529"
+    },
+    {
+      "text": "Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A.\u00a0A. Osman, Dimitrios Tzionas, and Michael\u00a0J. Black. 2019. Expressive Body Capture: 3D Hands, Face, and Body from a Single Image. In Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR). 10975\u201310985.",
+      "doi": ""
+    },
+    {
+      "text": "Polhemus. 2020. Polhemus Motion Capture System. https://polhemus.com/case-study/detail/polhemus-motion-capture-system-is-used-to-measure-real-time-motion-analysis",
+      "doi": ""
+    },
+    {
+      "text": "Root Motion. 2020. FINAL IK - VRIK Solver Locomotion. http://www.root-motion.com/finalikdox/html/page16.html",
+      "doi": ""
+    },
+    {
+      "text": "Sheng Shen, He Wang, and Romit Roy\u00a0Choudhury. 2016. I am a smartwatch and i can track my user\u2019s arm. In Proceedings of the 14th annual international conference on Mobile systems, applications, and services. 85\u201396.",
+      "doi": "10.1145/2906388.2906407"
+    },
+    {
+      "text": "Takaaki Shiratori, Hyun\u00a0Soo Park, Leonid Sigal, Yaser Sheikh, and Jessica\u00a0K Hodgins. 2011. Motion capture from body-mounted cameras. In ACM SIGGRAPH 2011 papers. 1\u201310.",
+      "doi": "10.1145/1964921.1964926"
+    },
+    {
+      "text": "Jamie Shotton, Toby Sharp, Alex Kipman, Andrew Fitzgibbon, Mark Finocchio, Andrew Blake, Mat Cook, and Richard Moore. 2013. Real-time human pose recognition in parts from single depth images. Commun. ACM 56, 1 (Jan. 2013), 116\u2013124. https://doi.org/10.1145/2398356.2398381",
+      "doi": "10.1145/2398356.2398381"
+    },
+    {
+      "text": "SONY. 2020. PlayStationVR. https://www.playstation.com/en-us/ps-vr",
+      "doi": ""
+    },
+    {
+      "text": "Ivan\u00a0E. Sutherland. 1968. A Head-Mounted Three Dimensional Display. In Proceedings of the December 9-11, 1968, Fall Joint Computer Conference, Part I (San Francisco, California) (AFIPS \u201968 (Fall, part I)). Association for Computing Machinery, New York, NY, USA, 757\u2013764. https://doi.org/10.1145/1476589.1476686",
+      "doi": "10.1145/1476589.1476686"
+    },
+    {
+      "text": "Jochen Tautges, Arno Zinke, Bj\u00f6rn Kr\u00fcger, Jan Baumann, Andreas Weber, Thomas Helten, Meinard M\u00fcller, Hans-Peter Seidel, and Bernd Eberhardt. 2011. Motion reconstruction using sparse accelerometer data. ACM Transactions on Graphics (ToG) 30, 3 (2011), 1\u201312.",
+      "doi": "10.1145/1966394.1966397"
+    },
+    {
+      "text": "Justus Thies, Michael Zollh\u00f6fer, Marc Stamminger, Christian Theobalt, and Matthias Nie\u00dfner. 2018. FaceVR: Real-time gaze-aware facial reenactment in virtual reality. ACM Transactions on Graphics (TOG) 37, 2 (2018), 1\u201315.",
+      "doi": "10.1145/3197517.3201350"
+    },
+    {
+      "text": "Vicon Motion Systems Ltd. 2020. Vicon. https://vicon.com",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Vlasic, Rolf Adelsberger, Giovanni Vannucci, John Barnwell, Markus Gross, Wojciech Matusik, and Jovan Popovi\u0107. 2007. Practical motion capture in everyday surroundings. ACM transactions on graphics (TOG) 26, 3 (2007), 35\u2013es.",
+      "doi": "10.1145/1276377.1276421"
+    },
+    {
+      "text": "Timo Von\u00a0Marcard, Bodo Rosenhahn, Michael\u00a0J Black, and Gerard Pons-Moll. 2017. Sparse inertial poser: Automatic 3d human pose estimation from sparse imus. In Computer Graphics Forum, Vol.\u00a036. Wiley Online Library, 349\u2013360.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaolin Wei, Peizhao Zhang, and Jinxiang Chai. 2012. Accurate realtime full-body motion capture using a single depth camera. ACM transactions on graphics 31, 6 (Nov. 2012), 1\u201312. https://doi.org/10.1145/2366145.2366207",
+      "doi": "10.1145/2366145.2366207"
+    },
+    {
+      "text": "Erwin Wu, Ye Yuan, Hui-Shyong Yeo, Aaron Quigley, Hideki Koike, and Kris\u00a0M Kitani. 2020. Back-Hand-Pose: 3D Hand Pose Estimation for a Wrist-worn Camera via Dorsum Deformation Network. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 1147\u20131160.",
+      "doi": "10.1145/3379337.3415897"
+    },
+    {
+      "text": "Xsens. 2020. Xsens Motion Capture. https://www.xsens.com/motion-capture",
+      "doi": ""
+    },
+    {
+      "text": "Xinyu Yi, Yuxiao Zhou, Marc Habermann, Soshi Shimada, Vladislav Golyanik, Christian Theobalt, and Feng Xu. 2022. Physical Inertial Poser (PIP): Physics-aware Real-time Human Motion Tracking from Sparse Inertial Sensors. arXiv preprint arXiv:2203.08528(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Xinyu Yi, Yuxiao Zhou, and Feng Xu. 2021. TransPose: real-time 3D human translation and pose estimation with six inertial sensors. ACM Transactions on Graphics (TOG) 40, 4 (2021), 1\u201313.",
+      "doi": "10.1145/3450626.3459786"
+    },
+    {
+      "text": "KangKang Yin and Dinesh\u00a0K Pai. 2003. FootSee: an interactive animation system.. In Symposium on Computer Animation. Citeseer, 329\u2013338.",
+      "doi": ""
+    },
+    {
+      "text": "Yang Zhang and Chris Harrison. 2015. Tomo: Wearable, low-cost electrical impedance tomography for hand gesture recognition. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. 167\u2013173.",
+      "doi": "10.1145/2807442.2807480"
+    },
+    {
+      "text": "Yang Zhang, Chouchang Yang, Scott\u00a0E Hudson, Chris Harrison, and Alanson Sample. 2018. Wall++ room-scale interactive and context-aware sensing. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3173574.3173847"
+    },
+    {
+      "text": "Mingmin Zhao, Tianhong Li, Mohammad Abu\u00a0Alsheikh, Yonglong Tian, Hang Zhao, Antonio Torralba, and Dina Katabi. 2018. Through-wall human pose estimation using radio signals. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition(CVPR \u201918). IEEE, 7356\u20137365. https://doi.org/10.1109/CVPR.2018.00768",
+      "doi": ""
+    },
+    {
+      "text": "Yi Zhou, Connelly Barnes, Jingwan Lu, Jimei Yang, and Hao Li. 2018. On the Continuity of Rotation Representations in Neural Networks. https://doi.org/10.48550/ARXIV.1812.07035",
+      "doi": ""
+    },
+    {
+      "text": "Christian Zimmermann, Tim Welschehold, Christian Dornhege, Wolfram Burgard, and Thomas Brox. 2018. 3d human pose estimation in rgbd images for robotic task learning. In 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 1986\u20131992.",
+      "doi": "10.1109/ICRA.2018.8462833"
+    }
+  ]
+}

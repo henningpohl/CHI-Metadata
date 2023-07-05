@@ -1,0 +1,408 @@
+{
+  "doi": "10.1145/3491102.3502020",
+  "title": "ProtoSound: A Personalized and Scalable Sound Recognition System for Deaf and Hard-of-Hearing Users",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Recent advances have enabled automatic sound recognition systems for deaf and hard of hearing (DHH) users on mobile devices. However, these tools use pre-trained, generic sound recognition models, which do not meet the diverse needs of DHH users. We introduce ProtoSound, an interactive system for customizing sound recognition models by recording a few examples, thereby enabling personalized and fine-grained categories. ProtoSound is motivated by prior work examining sound awareness needs of DHH people and by a survey we conducted with 472 DHH participants. To evaluate ProtoSound, we characterized performance on two real-world sound datasets, showing significant improvement over state-of-the-art (e.g., +9.7% accuracy on the first dataset). We then deployed ProtoSound's end-user training and real-time recognition through a mobile application and recruited 19 hearing participants who listened to the real-world sounds and rated the accuracy across 56 locations (e.g., homes, restaurants, parks). Results show that ProtoSound personalized the model on-device in real-time and accurately learned sounds across diverse acoustic contexts. We close by discussing open challenges in personalizable sound recognition, including the need for better recording interfaces and algorithmic improvements.",
+  "authors": [
+    {
+      "name": "Dhruv Jain",
+      "institution": "Paul G. Allen School of Computer Science and Engineering, University of Washington, United States and Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658697222",
+      "orcid": "missing"
+    },
+    {
+      "name": "Khoa Huynh Anh Nguyen",
+      "institution": "Paul G. Allen School of Computer Science and Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660234828",
+      "orcid": "missing"
+    },
+    {
+      "name": "Steven M. Goodman",
+      "institution": "Human Centered Design and Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81464650547",
+      "orcid": "0000-0002-7381-1942"
+    },
+    {
+      "name": "Rachel Grossman-Kahn",
+      "institution": "Human Centered Design and Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660235249",
+      "orcid": "missing"
+    },
+    {
+      "name": "Hung Ngo",
+      "institution": "Paul G. Allen School of Computer Science and Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659643248",
+      "orcid": "missing"
+    },
+    {
+      "name": "Aditya Kusupati",
+      "institution": "Paul G. Allen School of Computer Science and Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659363859",
+      "orcid": "missing"
+    },
+    {
+      "name": "Ruofei Du",
+      "institution": "Google, United States",
+      "img": "/do/10.1145/contrib-99658704468/rel-imgonly/rf.jpeg",
+      "acmid": "99658704468",
+      "orcid": "0000-0003-2471-9776"
+    },
+    {
+      "name": "Alex Olwal",
+      "institution": "Google Inc., United States",
+      "img": "/do/10.1145/contrib-81309497296/rel-imgonly/alex.png",
+      "acmid": "81309497296",
+      "orcid": "0000-0001-7772-0530"
+    },
+    {
+      "name": "Leah Findlater",
+      "institution": "Human Centered Design and Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100170743",
+      "orcid": "0000-0002-5619-4452"
+    },
+    {
+      "name": "Jon E. Froehlich",
+      "institution": "Paul G. Allen School of Computer Science & Engineering, University of Washington, United States",
+      "img": "/do/10.1145/contrib-81331492504/rel-imgonly/81331492504.jpg",
+      "acmid": "81331492504",
+      "orcid": "0000-0001-8291-3353"
+    }
+  ],
+  "references": [
+    {
+      "text": "Jakob Abe\u00dfer. 2020. A review of deep learning based methods for acoustic scene classification. Applied Sciences 10, 6.",
+      "doi": ""
+    },
+    {
+      "text": "Sharath Adavanne, Archontis Politis, and Tuomas Virtanen. 2019. TAU Moving Sound Events 2019 - Ambisonic, Anechoic, Synthetic IR and Moving Source Dataset [Data set]. https://doi.org/10.5281/zenodo.2636594",
+      "doi": ""
+    },
+    {
+      "text": "Rosa Ma Alsina-Pag\u00e8s, Joan Navarro, Francesc Al\\\u2019ias, and Marcos Herv\u00e1s. 2017. Homesound: Real-time audio event detection based on high performance computing for behaviour and surveillance remote monitoring. Sensors 17, 4: 854.",
+      "doi": ""
+    },
+    {
+      "text": "Sanghamitra Bandyopadhyay and Sriparna Saha. 2012. Unsupervised classification: similarity measures, classical and metaheuristic approaches, and applications. Springer Science & Business Media.",
+      "doi": ""
+    },
+    {
+      "text": "Danielle Bragg, Nicholas Huynh, and Richard E. Ladner. 2016. A Personalizable Mobile Sound Detector App Design for Deaf and Hard-of-Hearing Users. In Proceedings of the 18th International ACM SIGACCESS Conference on Computers and Accessibility, 3\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Anna Cavender and Richard E Ladner. 2008. Hearing impairments. In Web accessibility. Springer, 25\u201335.",
+      "doi": ""
+    },
+    {
+      "text": "Sachin Chachada and C-C Jay Kuo. 2014. Environmental sound recognition: A survey. APSIPA Transactions on Signal and Information Processing 3.",
+      "doi": ""
+    },
+    {
+      "text": "Wei-Yu Chen, Yen-Cheng Liu, Zsolt Kira, Yu-Chiang Frank Wang, and Jia-Bin Huang. 2019. A closer look at few-shot classification. arXiv preprint arXiv:1904.04232.",
+      "doi": ""
+    },
+    {
+      "text": "Selina Chu, Shrikanth Narayanan, and C-C Jay Kuo. 2009. Environmental sound recognition with time\u2013frequency audio features. IEEE Transactions on Audio, Speech, and Language Processing 17, 6: 1142\u20131158.",
+      "doi": "10.5555/2209826.2210809"
+    },
+    {
+      "text": "Charles K Chui, Jeffrey M Lemm, and Sahra Sedigh. 1992. An introduction to wavelets. Academic press.",
+      "doi": ""
+    },
+    {
+      "text": "Courtenay V Cotton and Daniel P W Ellis. 2011. Spectral vs. spectro-temporal features for acoustic event detection. In 2011 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA), 69\u201372.",
+      "doi": ""
+    },
+    {
+      "text": "Jeremiah D Deng, Christian Simmermacher, and Stephen Cranefield. 2008. A study on feature analysis for musical instrument classification. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics) 38, 2: 429\u2013438.",
+      "doi": "10.1109/TSMCB.2007.913394"
+    },
+    {
+      "text": "John J Dudley and Per Ola Kristensson. 2018. A review of user interface design for interactive machine learning. ACM Transactions on Interactive Intelligent Systems (TiiS) 8, 2: 1\u201337.",
+      "doi": "10.1145/3185517"
+    },
+    {
+      "text": "Leah Findlater, Bonnie Chinh, Dhruv Jain, Jon Froehlich, Raja Kushalnagar, and Angela Carey Lin. 2019. Deaf and Hard-of-hearing Individuals\u2019 Preferences for Wearable and Mobile Sound Awareness Technologies. In SIGCHI Conference on Human Factors in Computing Systems (CHI)., 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Chelsea Finn, Pieter Abbeel, and Sergey Levine. 2017. Model-agnostic meta-learning for fast adaptation of deep networks. In International Conference on Machine Learning, 1126\u20131135.",
+      "doi": ""
+    },
+    {
+      "text": "Pasquale Foggia, Nicolai Petkov, Alessia Saggese, Nicola Strisciuglio, and Mario Vento. 2015. Reliable detection of audio events in highly noisy environments. Pattern Recognition Letters 65: 22\u201328.",
+      "doi": "10.1016/j.patrec.2015.06.026"
+    },
+    {
+      "text": "Eduardo Fonseca, Jordi Pons Puig, Xavier Favory, Frederic Font Corbera, Dmitry Bogdanov, Andres Ferraro, Sergio Oramas, Alastair Porter, and Xavier Serra. 2017. Freesound datasets: a platform for the creation of open audio datasets. In Hu X, Cunningham SJ, Turnbull D, Duan Z, editors. Proceedings of the 18th ISMIR Conference; 2017 oct 23-27; Suzhou, China.[Canada]: International Society for Music Information Retrieval; 2017. p. 486-493.",
+      "doi": ""
+    },
+    {
+      "text": "Jort F Gemmeke, Daniel P W Ellis, Dylan Freedman, Aren Jansen, Wade Lawrence, R Channing Moore, Manoj Plakal, and Marvin Ritter. 2017. Audio set: An ontology and human-labeled dataset for audio events. In 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 776\u2013780.",
+      "doi": "10.1109/ICASSP.2017.7952261"
+    },
+    {
+      "text": "Shayan Gharib, Konstantinos Drossos, Emre Cakir, Dmitriy Serdyuk, and Tuomas Virtanen. 2018. Unsupervised adversarial domain adaptation for acoustic scene classification. arXiv preprint arXiv:1808.05777.",
+      "doi": ""
+    },
+    {
+      "text": "Steven Goodman, Susanne Kirchner, Rose Guttman, Dhruv Jain, Jon Froehlich, and Leah Findlater. 2020. Evaluating Smartwatch-based Sound Feedback for Deaf and Hard-of-hearing Users Across Contexts. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 1\u201313.",
+      "doi": "10.1145/3313831.3376406"
+    },
+    {
+      "text": "Steven M Goodman, Ping Liu, Dhruv Jain, Emma J McDonnell, Jon E Froehlich, and Leah Findlater. 2021. Toward User-Driven Sound Recognizer Personalization with People Who Are d/Deaf or Hard of Hearing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 5, 2: 1\u201323.",
+      "doi": "10.1145/3463501"
+    },
+    {
+      "text": "Shawn Hershey, Sourish Chaudhuri, Daniel P W Ellis, Jort F Gemmeke, Aren Jansen, R Channing Moore, Manoj Plakal, Devin Platt, Rif A Saurous, Bryan Seybold, and others. 2017. CNN architectures for large-scale audio classification. In 2017 IEEE international conference on acoustics, speech and signal processing (ICASSP), 131\u2013135.",
+      "doi": "10.1109/ICASSP.2017.7952132"
+    },
+    {
+      "text": "Dhruv Jain, Brendon Chiu, Steven Goodman, Chris Schmandt, Leah Findlater, and Jon E Froehlich. 2020. Field study of a tactile sound awareness device for deaf users. In Proceedings of the 2020 International Symposium on Wearable Computers, 55\u201357.",
+      "doi": "10.1145/3410531.3414291"
+    },
+    {
+      "text": "Dhruv Jain, Angela Carey Lin, Marcus Amalachandran, Aileen Zeng, Rose Guttman, Leah Findlater, and Jon Froehlich. 2019. Exploring Sound Awareness in the Home for People who are Deaf or Hard of Hearing. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, 94:1-94:13.",
+      "doi": "10.1145/3290605.3300324"
+    },
+    {
+      "text": "Dhruv Jain, Kelly Mack, Akli Amrous, Matt Wright, Steven Goodman, Leah Findlater, and Jon E Froehlich. 2020. HomeSound: An Iterative Field Deployment of an In-Home Sound Awareness System for Deaf or Hard of Hearing Users. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI \u201920), 1\u201312.",
+      "doi": "10.1145/3313831.3376758"
+    },
+    {
+      "text": "Dhruv Jain, Hung Ngo, Pratyush Patel, Steven Goodman, Leah Findlater, and Jon Froehlich. 2020. SoundWatch: Exploring Smartwatch-based Deep Learning Approaches to Support Sound Awareness for Deaf and Hard of Hearing Users. In ACM SIGACCESS conference on Computers and accessibility, 1\u201313.",
+      "doi": "10.1145/3373625.3416991"
+    },
+    {
+      "text": "Pedro R Mendes J\u00fanior, Roberto M De Souza, Rafael de O Werneck, Bernardo V Stein, Daniel V Pazinato, Waldir R de Almeida, Ot\u00e1vio A B Penatti, Ricardo da S Torres, and Anderson Rocha. 2017. Nearest neighbors distance ratio open-set classifier. Machine Learning 106, 3: 359\u2013386.",
+      "doi": "10.1007/s10994-016-5610-8"
+    },
+    {
+      "text": "Mahdie Karbasi, Seyed Mohammad Ahadi, and M Bahmanian. 2011. Environmental sound classification using spectral dynamic features. In 2011 8th International Conference on Information, Communications & Signal Processing, 1\u20135.",
+      "doi": ""
+    },
+    {
+      "text": "Peerapol Khunarsal, Chidchanok Lursinsap, and Thanapant Raicharoen. 2013. Very short time environmental sound classification based on spectrogram pattern matching. Information Sciences 243: 57\u201374.",
+      "doi": ""
+    },
+    {
+      "text": "Diederik P Kingma and Jimmy Ba. 2014. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980.",
+      "doi": ""
+    },
+    {
+      "text": "W Bradley Knox and Peter Stone. 2015. Framing reinforcement learning from human reward: Reward positivity, temporal discounting, episodicity, and performance. Artificial Intelligence 225: 24\u201350.",
+      "doi": "10.1016/j.artint.2015.03.009"
+    },
+    {
+      "text": "Paddy Ladd and Harlan Lane. 2013. Deaf ethnicity, deafhood, and their relationship. Sign Language Studies 13, 4: 565\u2013579.",
+      "doi": ""
+    },
+    {
+      "text": "Gierad Laput, Karan Ahuja, Mayank Goel, and Chris Harrison. 2018. Ubicoustics: Plug-and-play acoustic activity recognition. In The 31st Annual ACM Symposium on User Interface Software and Technology, 213\u2013224.",
+      "doi": "10.1145/3242587.3242609"
+    },
+    {
+      "text": "Juncheng Li, Wei Dai, Florian Metze, Shuhui Qu, and Samarjit Das. 2017. A comparison of deep learning methods for environmental sound detection. In 2017 IEEE International conference on acoustics, speech and signal processing (ICASSP), 126\u2013130.",
+      "doi": "10.1109/ICASSP.2017.7952131"
+    },
+    {
+      "text": "Hong Lu, Wei Pan, Nicholas D Lane, Tanzeem Choudhury, and Andrew T Campbell. 2009. Soundsense: scalable sound sensing for people-centric applications on mobile phones. In Proceedings of the 7th international conference on Mobile systems, applications, and services, 165\u2013178.",
+      "doi": "10.1145/1555816.1555834"
+    },
+    {
+      "text": "Lie Lu, Hong-Jiang Zhang, and Hao Jiang. 2002. Content analysis for audio classification and segmentation. IEEE Transactions on speech and audio processing 10, 7: 504\u2013516.",
+      "doi": ""
+    },
+    {
+      "text": "Manuela M Marin and Helmut Leder. 2013. Examining complexity across domains: relating subjective and objective measures of affective environmental scenes, paintings and music. PloS one 8, 8: e72412.",
+      "doi": ""
+    },
+    {
+      "text": "John D Markel and A H Jr Gray. 2013. Linear prediction of speech. Springer Science & Business Media.",
+      "doi": ""
+    },
+    {
+      "text": "Tara Matthews, Scott Carter, Carol Pai, Janette Fong, and Jennifer Mankoff. 2006. Scribe4Me: Evaluating a Mobile Sound Transcription Tool for the Deaf. In Proceedings of Ubiquitous Computing (UbiComp), Paul Dourish and Adrian Friday (eds.). Springer Berlin Heidelberg, 159\u2013176.",
+      "doi": "10.1007/11853565_10"
+    },
+    {
+      "text": "Tara Matthews, Janette Fong, F. Wai-Ling Ho-Ching, and Jennifer Mankoff. 2006. Evaluating non-speech sound visualizations for the deaf. Behaviour & Information Technology 25, 4: 333\u2013351.",
+      "doi": ""
+    },
+    {
+      "text": "Annamaria Mesaros, Toni Heittola, and Tuomas Virtanen. 2016. TUT Sound events 2016. https://doi.org/10.5281/zenodo.45759",
+      "doi": ""
+    },
+    {
+      "text": "Annamaria Mesaros, Toni Heittola, and Tuomas Virtanen. 2019. Acoustic Scene Classification in DCASE 2019 Challenge: Closed and Open Set Classification and Data Mismatch Setups. In Proceedings of the Detection and Classification of Acoustic Scenes and Events 2019 Workshop (DCASE2019), 164\u2013168.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Potuck. Hands-on with iOS 14\u2019s Sound Recognition feature that listens for doorbells, smoke alarms, more. Retrieved March 9, 2021 from https://9to5mac.com/2020/10/28/how-to-use-iphone-sound-recognition-ios-14/",
+      "doi": ""
+    },
+    {
+      "text": "Dalibor Mitrovi\u0107, Matthias Zeppelzauer, and Christian Breiteneder. 2010. Features for content-based audio retrieval. In Advances in computers. Elsevier, 71\u2013150.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew S Moore. 1992. For Hearing people only: Answers to some of the most commonly asked questions about the Deaf community, its culture, and the\" Deaf Reality\". Deaf Life Press.",
+      "doi": ""
+    },
+    {
+      "text": "Alex Nichol, Joshua Achiam, and John Schulman. 2018. On first-order meta-learning algorithms. arXiv preprint arXiv:1803.02999.",
+      "doi": ""
+    },
+    {
+      "text": "Kamal Nigam and Rayid Ghani. 2000. Analyzing the effectiveness and applicability of co-training. In Proceedings of the ninth international conference on Information and knowledge management, 86\u201393.",
+      "doi": "10.1145/354756.354805"
+    },
+    {
+      "text": "Boris N Oreshkin, Pau Rodr\\\u2019iguez L\u00f3pez, and Alexandre Lacoste. 2018. {TADAM:} Task dependent adaptive metric for improved few-shot learning. CoRR abs/1805.1. Retrieved from http://arxiv.org/abs/1805.10123",
+      "doi": ""
+    },
+    {
+      "text": "Vesa Peltonen, Juha Tuomi, Anssi Klapuri, Jyri Huopaniemi, and Timo Sorsa. 2002. Computational auditory scene recognition. In 2002 IEEE International Conference on Acoustics, Speech, and Signal Processing, II\u20131941.",
+      "doi": ""
+    },
+    {
+      "text": "Baolin Peng, Chenguang Zhu, Chunyuan Li, Xiujun Li, Jinchao Li, Michael Zeng, and Jianfeng Gao. 2020. Few-shot natural language generation for task-oriented dialog. arXiv preprint arXiv:2002.12328.",
+      "doi": ""
+    },
+    {
+      "text": "Karol J Piczak. 2015. ESC: Dataset for environmental sound classification. In Proceedings of the 23rd ACM international conference on Multimedia, 1015\u20131018.",
+      "doi": "10.1145/2733373.2806390"
+    },
+    {
+      "text": "Ilyas Potamitis and Todor Ganchev. 2008. Generalized recognition of sound events: Approaches and applications. Multimedia services in intelligent environments: 41\u201379.",
+      "doi": ""
+    },
+    {
+      "text": "Siyuan Qiao, Chenxi Liu, Wei Shen, and Alan L Yuille. 2018. Few-shot image recognition by predicting parameters from activations. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 7229\u20137238.",
+      "doi": ""
+    },
+    {
+      "text": "Aniruddh Raghu, Maithra Raghu, Samy Bengio, and Oriol Vinyals. 2019. Rapid learning or feature reuse? towards understanding the effectiveness of maml. arXiv preprint arXiv:1909.09157.",
+      "doi": ""
+    },
+    {
+      "text": "Gonzalo Ramos, Christopher Meek, Patrice Simard, Jina Suh, and Soroush Ghorashi. 2020. Interactive machine teaching: a human-centered approach to building machine-learned models. Human\u2013Computer Interaction 35, 5\u20136: 413\u2013451.",
+      "doi": ""
+    },
+    {
+      "text": "J Salamon, C Jacoby, and J P Bello. 2014. A Dataset and Taxonomy for Urban Sound Research. In 22nd ACM International Conference on Multimedia (ACM-MM\u201914), 1041\u20131044.",
+      "doi": "10.1145/2647868.2655045"
+    },
+    {
+      "text": "Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen. 2018. Mobilenetv2: Inverted residuals and linear bottlenecks. In Proceedings of the IEEE conference on computer vision and pattern recognition, 4510\u20134520.",
+      "doi": ""
+    },
+    {
+      "text": "Bowen Shi, Ming Sun, Krishna C Puvvada, Chieh-Chi Kao, Spyros Matsoukas, and Chao Wang. 2020. Few-shot acoustic event detection via meta learning. In ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 76\u201380.",
+      "doi": ""
+    },
+    {
+      "text": "Liu Sicong, Zhou Zimu, Du Junzhao, Shangguan Longfei, Jun Han, and Xin Wang. 2017. UbiEar: Bringing Location-independent Sound Awareness to the Hard-of-hearing People with Smartphones. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 2: 17.",
+      "doi": "10.1145/3090082"
+    },
+    {
+      "text": "Jake Snell, Kevin Swersky, and Richard S Zemel. 2017. Prototypical networks for few-shot learning. arXiv preprint arXiv:1703.05175.",
+      "doi": ""
+    },
+    {
+      "text": "Ole Morten Strand and Andreas Egeberg. 2004. Cepstral mean and variance normalization in the model domain. In COST278 and ISCA Tutorial and Research Workshop (ITRW) on Robustness Issues in Conversational Interaction.",
+      "doi": ""
+    },
+    {
+      "text": "Qianru Sun, Yaoyao Liu, Tat-Seng Chua, and Bernt Schiele. 2019. Meta-transfer learning for few-shot learning. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 403\u2013412.",
+      "doi": ""
+    },
+    {
+      "text": "Lisa Torrey and Jude Shavlik. 2010. Transfer learning. In Handbook of research on machine learning applications and trends: algorithms, methods, and techniques. IGI global, 242\u2013264.",
+      "doi": ""
+    },
+    {
+      "text": "Wei Wang and Zhi-Hua Zhou. 2010. A new analysis of co-training. In ICML.",
+      "doi": ""
+    },
+    {
+      "text": "Yaqing Wang, Quanming Yao, James T Kwok, and Lionel M Ni. 2020. Generalizing from a few examples: A survey on few-shot learning. ACM Computing Surveys (CSUR) 53, 3: 1\u201334.",
+      "doi": "10.1145/3386252"
+    },
+    {
+      "text": "Yu Wang, Justin Salamon, Nicholas J Bryan, and Juan Pablo Bello. 2020. Few-shot sound event detection. In ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 81\u201385.",
+      "doi": ""
+    },
+    {
+      "text": "Meredith Whittaker, Meryl Alper, Cynthia L Bennett, Sara Hendren, Liz Kaziunas, Mara Mills, Meredith Ringel Morris, Joy Rankin, Emily Rogers, Marcel Salas, and others. 2019. Disability, bias, and AI. AI Now Institute.",
+      "doi": ""
+    },
+    {
+      "text": "Jason Wu, Chris Harrison, Jeffrey P Bigham, and Gierad Laput. 2020. Automated Class Discovery and One-Shot Interactions for Acoustic Activity Recognition. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, 1\u201314.",
+      "doi": "10.1145/3313831.3376875"
+    },
+    {
+      "text": "Nobuhide Yamakawa, Tetsuro Kitahara, Toru Takahashi, Kazunori Komatani, Tetsuya Ogata, and Hiroshi G Okuno. 2010. Effects of modelling within-and between-frame temporal variations in power spectra on non-verbal sound recognition. In Eleventh Annual Conference of the International Speech Communication Association.",
+      "doi": ""
+    },
+    {
+      "text": "Qiang Yang, Yang Liu, Tianjian Chen, and Yongxin Tong. 2019. Federated machine learning: Concept and applications. ACM Transactions on Intelligent Systems and Technology (TIST) 10, 2: 1\u201319.",
+      "doi": "10.1145/3339474"
+    },
+    {
+      "text": "Timothy Yang, Galen Andrew, Hubert Eichner, Haicheng Sun, Wei Li, Nicholas Kong, Daniel Ramage, and Fran\u00e7oise Beaufays. 2018. Applied federated learning: Improving google keyboard query suggestions. arXiv preprint arXiv:1812.02903.",
+      "doi": ""
+    },
+    {
+      "text": "Wenpeng Yin. 2020. Meta-learning for few-shot natural language processing: A survey. arXiv preprint arXiv:2007.09604.",
+      "doi": ""
+    },
+    {
+      "text": "Alina Zajadacz. 2015. Evolution of models of disability as a basis for further policy changes in accessible tourism. Journal of Tourism Futures 1, 3: 189\u2013202.",
+      "doi": ""
+    },
+    {
+      "text": "Live Transcribe & Sound Notifications \u2013 Apps on Google Play. Retrieved April 5, 2021 from https://play.google.com/store/apps/details?id=com.google.audio.hearing.visualization.accessibility.scribe",
+      "doi": ""
+    },
+    {
+      "text": "BBC Sound Effects. Retrieved September 18, 2019 from http://bbcsfx.acropolis.org.uk/",
+      "doi": ""
+    },
+    {
+      "text": "Network Sound Effects Library. Retrieved September 15, 2019 from https://www.sound-ideas.com/Product/199/Network-Sound-Effects-Library",
+      "doi": ""
+    },
+    {
+      "text": "UPC-TALP dataset. Retrieved September 18, 2019 from http://www.talp.upc.edu/content/upc-talp-database-isolated-meeting-room-acoustic-events",
+      "doi": ""
+    },
+    {
+      "text": "Google Surveys. Retrieved April 5, 2021 from https://surveys.google.com",
+      "doi": ""
+    },
+    {
+      "text": "Google Opinion Rewards - It Pays to Share Your Opinion. Retrieved April 5, 2021 from https://surveys.google.com/google-opinion-rewards/",
+      "doi": ""
+    },
+    {
+      "text": "Google AI Blog: Federated Learning: Collaborative Machine Learning without Centralized Training Data. Retrieved April 6, 2021 from https://ai.googleblog.com/2017/04/federated-learning-collaborative.html",
+      "doi": ""
+    },
+    {
+      "text": "AudioSet Label Accuracy. Retrieved April 6, 2021 from https://research.google.com/audioset/dataset/index.html",
+      "doi": ""
+    }
+  ]
+}

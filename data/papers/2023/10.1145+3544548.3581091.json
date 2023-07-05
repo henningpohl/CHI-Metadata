@@ -1,0 +1,682 @@
+{
+  "doi": "10.1145/3544548.3581091",
+  "title": "Charagraph: Interactive Generation of Charts for Realtime Annotation of Data-Rich Paragraphs",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Documents often have paragraphs packed with numbers that are difficult to extract, compare, and interpret. To help readers make sense of data in text, we introduce the concept of Charagraphs: dynamically generated interactive charts and annotations for in-situ visualization, comparison, and manipulation of numeric data included within text. Three Charagraph characteristics are defined: leveraging related textual information about data; integrating textual and graphical representations; and interacting at different contexts. We contribute a document viewer to select in-text data; generate and customize Charagraphs; merge and refine a Charagraph using other in-text data; and identify, filter, compare, and sort data synchronized between text and visualization. Results of a study show participants can easily create Charagraphs for diverse examples of data-rich text, and when answering questions about data in text, participants were more correct compared to only reading text.",
+  "authors": [
+    {
+      "name": "Damien Masson",
+      "institution": "Cheriton School of Computer Science, University of Waterloo, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659488683",
+      "orcid": "0000-0002-9482-8639"
+    },
+    {
+      "name": "Sylvain Malacria",
+      "institution": "Univ. Lille, Inria, CNRS, Centrale Lille, UMR 9189 CRIStAL, France",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81414620309",
+      "orcid": "0000-0002-5201-5875"
+    },
+    {
+      "name": "G\u00e9ry Casiez",
+      "institution": "Univ. Lille, CNRS, Inria, Centrale Lille, UMR 9189 CRIStAL, France",
+      "img": "/do/10.1145/contrib-81100168597/rel-imgonly/gerycasieznewlowres.png",
+      "acmid": "81100168597",
+      "orcid": "0000-0003-1905-815X"
+    },
+    {
+      "name": "Daniel Vogel",
+      "institution": "Cheriton School of Computer Science, University of Waterloo, Canada",
+      "img": "/do/10.1145/contrib-81100054467/rel-imgonly/purple_shirt_selfie_redmond.jpg",
+      "acmid": "81100054467",
+      "orcid": "0000-0001-7620-0541"
+    }
+  ],
+  "references": [
+    {
+      "text": "Acland Acland. 2012. From International Blockbusters to National Hits: Analysis of the 2010 UIS Survey on Feature Film Statistics - UNESCO Digital Library. https://unesdoc.unesco.org/ark:/48223/pf0000217103.",
+      "doi": ""
+    },
+    {
+      "text": "Mortimer\u00a0Jerome Adler and Charles Van\u00a0Doren. 2014. How to Read a Book(touchstone hardcover edition ed.). Simon & Schuster, New York.",
+      "doi": ""
+    },
+    {
+      "text": "D.\u00a0G. Altman and J.\u00a0M. Bland. 1996. Presentation of Numerical Data. BMJ (Clinical research ed.) 312, 7030 (March 1996), 572. https://doi.org/10.1136/bmj.312.7030.572",
+      "doi": ""
+    },
+    {
+      "text": "R. Amar, J. Eagan, and J. Stasko. 2005. Low-Level Components of Analytic Activity in Information Visualization. In IEEE Symposium on Information Visualization, 2005. INFOVIS 2005.IEEE, Minneapolis, MN, USA, 111\u2013117. https://doi.org/10.1109/INFVIS.2005.1532136",
+      "doi": ""
+    },
+    {
+      "text": "American\u00a0Psychologic Association. 2020. Publication Manual of the American Psychological Association (6th edition ed.). American Psychological Association, Washington, DC.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Ayres and Gabriele Cierniak. 2012. Split-Attention Effect. In Encyclopedia of the Sciences of Learning, Norbert\u00a0M. Seel (Ed.). Springer US, Boston, MA, 3172\u20133175. https://doi.org/10.1007/978-1-4419-1428-6_19",
+      "doi": ""
+    },
+    {
+      "text": "Sriram\u00a0Karthik Badam, Zhicheng Liu, and Niklas Elmqvist. 2019. Elastic Documents: Coupling Text and Tables through Contextual Visualizations for Enhanced Document Reading. IEEE Transactions on Visualization and Computer Graphics 25, 1 (Jan. 2019), 661\u2013671. https://doi.org/10.1109/TVCG.2018.2865119",
+      "doi": "10.1109/TVCG.2018.2865119"
+    },
+    {
+      "text": "Aaron Bangor, Philip\u00a0T. Kortum, and James\u00a0T. Miller. 2008. An Empirical Evaluation of the System Usability Scale. International Journal of Human\u2013Computer Interaction 24, 6 (July 2008), 574\u2013594. https://doi.org/10.1080/10447310802205776",
+      "doi": ""
+    },
+    {
+      "text": "Scott Bateman, Regan\u00a0L. Mandryk, Carl Gutwin, Aaron Genest, David McDine, and Christopher Brooks. 2010. Useful Junk?: The Effects of Visual Embellishment on Comprehension and Memorability of Charts. In Proceedings of the 28th International Conference on Human Factors in Computing Systems - CHI \u201910. ACM Press, Atlanta, Georgia, USA, 2573. https://doi.org/10.1145/1753326.1753716",
+      "doi": "10.1145/1753326.1753716"
+    },
+    {
+      "text": "Leilani Battle, Peitong Duan, Zachery Miranda, Dana Mukusheva, Remco Chang, and Michael Stonebraker. 2018. Beagle: Automated Extraction and Interpretation of Visualizations from the Web. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems(CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3173574.3174168",
+      "doi": "10.1145/3173574.3174168"
+    },
+    {
+      "text": "Aaron Bauer and Kenneth\u00a0R. Koedinger. 2008. Note-Taking, Selecting, and Choice: Designing Interfaces That Encourage Smaller Selections. In Proceedings of the 8th ACM/IEEE-CS Joint Conference on Digital Libraries(JCDL \u201908). Association for Computing Machinery, New York, NY, USA, 397\u2013406. https://doi.org/10.1145/1378889.1378961",
+      "doi": "10.1145/1378889.1378961"
+    },
+    {
+      "text": "Fabian Beck and Daniel Weiskopf. 2017. Word-Sized Graphics for Scientific Texts. IEEE Transactions on Visualization and Computer Graphics 23, 6 (June 2017), 1576\u20131587. https://doi.org/10.1109/TVCG.2017.2674958",
+      "doi": "10.1109/TVCG.2017.2674958"
+    },
+    {
+      "text": "Jacques Bertin. 2013. S\u00e9miologie graphique: Diagrammes, les r\u00e9seaux, les cartes. EHESS, Paris.",
+      "doi": ""
+    },
+    {
+      "text": "Michelle\u00a0A. Borkin, Zoya Bylinskii, Nam\u00a0Wook Kim, Constance\u00a0May Bainbridge, Chelsea\u00a0S. Yeh, Daniel Borkin, Hanspeter Pfister, and Aude Oliva. 2016. Beyond Memorability: Visualization Recognition and Recall. IEEE Transactions on Visualization and Computer Graphics 22, 1 (Jan. 2016), 519\u2013528. https://doi.org/10.1109/TVCG.2015.2467732",
+      "doi": "10.1109/TVCG.2015.2467732"
+    },
+    {
+      "text": "Michelle\u00a0A. Borkin, Azalea\u00a0A. Vo, Zoya Bylinskii, Phillip Isola, Shashank Sunkavalli, Aude Oliva, and Hanspeter Pfister. 2013. What Makes a Visualization Memorable?IEEE Transactions on Visualization and Computer Graphics 19, 12 (Dec. 2013), 2306\u20132315. https://doi.org/10.1109/TVCG.2013.234",
+      "doi": "10.1109/TVCG.2013.234"
+    },
+    {
+      "text": "Matthew Brehmer and Tamara Munzner. 2013. A Multi-Level Typology of Abstract Visualization Tasks. IEEE Transactions on Visualization and Computer Graphics 19, 12 (Dec. 2013), 2376\u20132385. https://doi.org/10.1109/TVCG.2013.124",
+      "doi": "10.1109/TVCG.2013.124"
+    },
+    {
+      "text": "Victor Bret. 2011. Explorable Explanations. http://worrydream.com/ExplorableExplanations/.",
+      "doi": ""
+    },
+    {
+      "text": "John Brooke. 1995. SUS: A Quick and Dirty Usability Scale. Usability Eval. Ind. 189 (Nov. 1995), 7.",
+      "doi": ""
+    },
+    {
+      "text": "L.\u00a0F. Carter. 1947. An Experiment on the Design of Tables and Graphs Used for Presenting Numerical Data. The Journal of Applied Psychology 31, 6 (Dec. 1947), 640\u2013650. https://doi.org/10.1037/h0054246",
+      "doi": ""
+    },
+    {
+      "text": "Olivier Chapuis and Nicolas Roussel. 2007. Copy-and-Paste between Overlapping Windows. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, San Jose California USA, 201\u2013210. https://doi.org/10.1145/1240624.1240657",
+      "doi": "10.1145/1240624.1240657"
+    },
+    {
+      "text": "Zhutian Chen and Haijun Xia. 2022. CrossData: Leveraging Text-Data Connections for Authoring Data Documents. In CHI Conference on Human Factors in Computing Systems. ACM, New Orleans LA USA, 1\u201315. https://doi.org/10.1145/3491102.3517485",
+      "doi": "10.1145/3491102.3517485"
+    },
+    {
+      "text": "Ed\u00a0H. Chi, Lichan Hong, Michelle Gumbrecht, and Stuart\u00a0K. Card. 2005. ScentHighlights: Highlighting Conceptually-Related Sentences during Reading. In Proceedings of the 10th International Conference on Intelligent User Interfaces(IUI \u201905). Association for Computing Machinery, New York, NY, USA, 272\u2013274. https://doi.org/10.1145/1040830.1040895",
+      "doi": "10.1145/1040830.1040895"
+    },
+    {
+      "text": "William\u00a0S. Cleveland. 2004. The Elements of Graphing Data(2 edition ed.). Hobart Press, Murray Hill, N.J.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Conlen and Jeffrey Heer. 2018. Idyll: A Markup Language for Authoring and Publishing Interactive Articles on the Web. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology. ACM, Berlin Germany, 977\u2013989. https://doi.org/10.1145/3242587.3242600",
+      "doi": "10.1145/3242587.3242600"
+    },
+    {
+      "text": "Matthew Conlen, Alex Kale, and Jeffrey Heer. 2019. Capture & Analysis of Active Reading Behaviors for Interactive Articles on the Web. Computer Graphics Forum 38, 3 (2019), 687\u2013698. https://doi.org/10.1111/cgf.13720",
+      "doi": ""
+    },
+    {
+      "text": "Patricia Costigan-Eaves. 1986. Edward R. Tufte TheVisual Display of Quantitative Information. Information Design Journal 4, 3 (Jan. 1986), 235\u2013236. https://doi.org/10.1075/idj.4.3.12cos",
+      "doi": ""
+    },
+    {
+      "text": "Weiwei Cui, Xiaoyu Zhang, Yun Wang, He Huang, Bei Chen, Lei Fang, Haidong Zhang, Jian-Guan Lou, and Dongmei Zhang. 2020. Text-to-Viz: Automatic Generation of Infographics from Proportion-Related Natural Language Statements. IEEE Transactions on Visualization and Computer Graphics 26, 1 (Jan. 2020), 906\u2013916. https://doi.org/10.1109/TVCG.2019.2934785",
+      "doi": ""
+    },
+    {
+      "text": "Zhe Cui, Sriram\u00a0Karthik Badam, M\u00a0Adil Yal\u00e7in, and Niklas Elmqvist. 2019. DataSite: Proactive Visual Data Exploration with Computation of Insight-Based Recommendations. Information Visualization 18, 2 (April 2019), 251\u2013267. https://doi.org/10.1177/1473871618806555",
+      "doi": ""
+    },
+    {
+      "text": "Hugh\u00a0M. Culbertson and Richard\u00a0D. Powers. 1959. A Study of Graph Comprehension Difficulties. Audio Visual Communication Review 7, 2 (1959), 97\u2013110.",
+      "doi": ""
+    },
+    {
+      "text": "Pierre Dragicevic. 2016. Fair Statistical Communication in HCI. In Modern Statistical Methods for HCI, Judy Robertson and Maurits Kaptein (Eds.). Springer International Publishing, Cham, 291\u2013330. https://doi.org/10.1007/978-3-319-26633-6_13",
+      "doi": ""
+    },
+    {
+      "text": "Pierre Dragicevic and Yvonne Jansen. 2018. Blinded with Science or Informed by Charts? A Replication Study. IEEE Transactions on Visualization and Computer Graphics 24, 1 (Jan. 2018), 781\u2013790. https://doi.org/10.1109/TVCG.2017.2744298",
+      "doi": ""
+    },
+    {
+      "text": "Pierre Dragicevic, Yvonne Jansen, Abhraneel Sarma, Matthew Kay, and Fanny Chevalier. 2019. Increasing the Transparency of Research Papers with Explorable Multiverse Analyses. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3290605.3300295",
+      "doi": "10.1145/3290605.3300295"
+    },
+    {
+      "text": "Nell\u00a0K. Duke and P.\u00a0David Pearson. 2009. Effective Practices for Developing Reading Comprehension. Journal of Education 189, 1-2 (Jan. 2009), 107\u2013122. https://doi.org/10.1177/0022057409189001-208",
+      "doi": ""
+    },
+    {
+      "text": "Karolina Duklan and Michael\u00a0A Martin. 2002. Communicating Effectively with Words, Numbers, and Pictures: Drawing on Experience. Journal of Actuarial Practice 10 (2002), 59.",
+      "doi": ""
+    },
+    {
+      "text": "Apache 2015. Apache ECharts. Apache. https://echarts.apache.org/en/index.html",
+      "doi": ""
+    },
+    {
+      "text": "Lei Fang and Jian-Guang Lou. 2021. Part & Whole Extraction: Towards A Deep Understanding of Quantitative Facts for Percentages in Text. arxiv:2110.13505\u00a0[cs]",
+      "doi": ""
+    },
+    {
+      "text": "Gloria\u00a0D. Feliciano, Richard\u00a0D. Powers, and Bryant\u00a0E. Kearl. 1963. The Presentation of Statistical Information. Audio Visual Communication Review 11, 3 (1963), 32\u201339.",
+      "doi": ""
+    },
+    {
+      "text": "Fiona Fidler, Geoff Cumming, Neil Thomason, Dominique Pannuzzo, Julian Smith, Penny Fyffe, Holly Edmonds, Claire Harrington, and Rachel Schmitt. 2005. Toward Improved Statistical Reporting in the Journal of Consulting and Clinical Psychology. Journal of Consulting and Clinical Psychology 73, 1 (Feb. 2005), 136\u2013143. https://doi.org/10.1037/0022-006X.73.1.136",
+      "doi": ""
+    },
+    {
+      "text": "Fiona Fidler and Geoffrey\u00a0R. Loftus. 2009. Why Figures with Error Bars Should Replace p Values: Some Conceptual Arguments and Empirical Demonstrations. Zeitschrift f\u00fcr Psychologie/Journal of Psychology 217, 1(2009), 27\u201337. https://doi.org/10.1027/0044-3409.217.1.27",
+      "doi": ""
+    },
+    {
+      "text": "Raymond Fok, Andrew Head, Jonathan Bragg, Kyle Lo, Marti\u00a0A. Hearst, and Daniel\u00a0S. Weld. 2022. Scim: Intelligent Faceted Highlights for Interactive, Multi-Pass Skimming of Scientific Papers. arxiv:2205.04561\u00a0[cs]",
+      "doi": ""
+    },
+    {
+      "text": "Tong Gao, Mira Dontcheva, Eytan Adar, Zhicheng Liu, and Karrie\u00a0G. Karahalios. 2015. DataTone: Managing Ambiguity in Natural Language Interfaces for Data Visualization. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. ACM, Charlotte NC USA, 489\u2013500. https://doi.org/10.1145/2807442.2807478",
+      "doi": "10.1145/2807442.2807478"
+    },
+    {
+      "text": "Tong Gao, Jessica\u00a0R. Hullman, Eytan Adar, Brent Hecht, and Nicholas Diakopoulos. 2014. NewsViews: An Automated Pipeline for Creating Custom Geovisualizations for News. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201914). Association for Computing Machinery, New York, NY, USA, 3005\u20133014. https://doi.org/10.1145/2556288.2557228",
+      "doi": "10.1145/2556288.2557228"
+    },
+    {
+      "text": "Andrew Gelman, Cristian Pasarica, and Rahul Dodhia. 2002. Let\u2019s Practice What We Preach. The American Statistician 56, 2 (May 2002), 121\u2013130. https://doi.org/10.1198/000313002317572790",
+      "doi": ""
+    },
+    {
+      "text": "Douglas\u00a0J. Gillan, Christopher\u00a0D. Wickens, J.\u00a0G. Hollands, and C.\u00a0Melody Carswell. 1998. Guidelines for Presenting Quantitative Data in HFES Publications. Human Factors: The Journal of the Human Factors and Ergonomics Society 40, 1 (March 1998), 28\u201341. https://doi.org/10.1518/001872098779480640",
+      "doi": ""
+    },
+    {
+      "text": "Arthur\u00a0M Glenberg and William\u00a0E Langston. 1992. Comprehension of Illustrated Text: Pictures Help to Build Mental Models. Journal of Memory and Language 31, 2 (April 1992), 129\u2013151. https://doi.org/10.1016/0749-596X(92)90008-L",
+      "doi": ""
+    },
+    {
+      "text": "Pascal Goffin, Tanja Blascheck, Petra Isenberg, and Wesley Willett. 2020. Interaction Techniques for Visual Exploration Using Embedded Word-Scale Visualizations. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu HI USA, 1\u201313. https://doi.org/10.1145/3313831.3376842",
+      "doi": "10.1145/3313831.3376842"
+    },
+    {
+      "text": "Pascal Goffin, Jeremy Boy, Wesley Willett, and Petra Isenberg. 2017. An Exploratory Study of Word-Scale Graphics in Data-Rich Text Documents. IEEE Transactions on Visualization and Computer Graphics 23, 10 (Oct. 2017), 2275\u20132287. https://doi.org/10.1109/TVCG.2016.2618797",
+      "doi": "10.1109/TVCG.2016.2618797"
+    },
+    {
+      "text": "Pascal Goffin, Wesley Willett, Anastasia Bezerianos, and Petra Isenberg. 2015. Exploring the Effect of Word-Scale Visualizations on Reading Behavior. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems(CHI EA \u201915). Association for Computing Machinery, New York, NY, USA, 1827\u20131832. https://doi.org/10.1145/2702613.2732778",
+      "doi": "10.1145/2702613.2732778"
+    },
+    {
+      "text": "Pascal Goffin, Wesley Willett, Jean-Daniel Fekete, and Petra Isenberg. 2014. Exploring the Placement and Design of Word-Scale Visualizations. IEEE Transactions on Visualization and Computer Graphics 20, 12 (Dec. 2014), 2291\u20132300. https://doi.org/10.1109/TVCG.2014.2346435",
+      "doi": ""
+    },
+    {
+      "text": "Pascal Goffin, Wesley Willett, Jean-Daniel Fekete, and Petra Isenberg. 2015. Design Considerations for Enhancing Word-Scale Visualizations with Interaction. In Posters of the Conference on Information Visualization (InfoVis). IEEE, Chicago, Illinois, USA, 2.",
+      "doi": ""
+    },
+    {
+      "text": "Pascal Goffin, Wesley Willett, and Petra Isenberg. 2015. Sharing Information from Personal Digital Notes Using Word-Scale Visualizations. In Proceedings of the IEEE VIS Workshop on Personal Visualization: Exploring Data in Everyday Life. IEEE, Chicago Illinois USA, 5.",
+      "doi": ""
+    },
+    {
+      "text": "John Gramlich. 2020. What the 2020 Electorate Looks like by Party, Race and Ethnicity, Age, Education and Religion.",
+      "doi": ""
+    },
+    {
+      "text": "Transparent Statistics in Human-Computer Interaction\u00a0Working Group. 2019. Transparent Statistics Guidelines. https://doi.org/10.5281/zenodo.1186169",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Head, Kyle Lo, Dongyeop Kang, Raymond Fok, Sam Skjonsberg, Daniel\u00a0S. Weld, and Marti\u00a0A. Hearst. 2021. Augmenting Scientific Papers with Just-in-Time, Position-Sensitive Definitions of Terms and Symbols. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Yokohama Japan, 1\u201318. https://doi.org/10.1145/3411764.3445648",
+      "doi": "10.1145/3411764.3445648"
+    },
+    {
+      "text": "Jeffrey Heer and George Robertson. 2007. Animated Transitions in Statistical Data Graphics. IEEE Transactions on Visualization and Computer Graphics 13, 6 (Nov. 2007), 1240\u20131247. https://doi.org/10.1109/TVCG.2007.70539",
+      "doi": "10.1109/TVCG.2007.70539"
+    },
+    {
+      "text": "Jouni Helske, Satu Helske, Matthew Cooper, Anders Ynnerman, and Lonni Besan\u00e7on. 2021. Can Visualization Alleviate Dichotomous Thinking? Effects of Visual Representations on the Cliff Effect. IEEE Transactions on Visualization and Computer Graphics 27, 8 (Aug. 2021), 3397\u20133409. https://doi.org/10.1109/TVCG.2021.3073466",
+      "doi": "10.1109/TVCG.2021.3073466"
+    },
+    {
+      "text": "Ken Hinckley, Shengdong Zhao, Raman Sarin, Patrick Baudisch, Edward Cutrell, Michael Shilman, and Desney Tan. 2007. InkSeine: In Situ Search for Active Note Taking. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201907). Association for Computing Machinery, New York, NY, USA, 251\u2013260. https://doi.org/10.1145/1240624.1240666",
+      "doi": "10.1145/1240624.1240666"
+    },
+    {
+      "text": "William\u00a0E. Hockley. 2008. The Picture Superiority Effect in Associative Recognition. Memory & Cognition 36, 7 (Oct. 2008), 1351\u20131359. https://doi.org/10.3758/MC.36.7.1351",
+      "doi": ""
+    },
+    {
+      "text": "Fred Hohman, Matthew Conlen, Jeffrey Heer, and Duen Horng\u00a0(Polo) Chau. 2020. Communicating with Interactive Articles. Distill 5, 9 (Sept. 2020), e28. https://doi.org/10.23915/distill.00028",
+      "doi": ""
+    },
+    {
+      "text": "Kasper Hornb\u00e6k and Erik Fr\u00f8kj\u00e6r. 2003. Reading Patterns and Usability in Visualizations of Electronic Documents. ACM Transactions on Computer-Human Interaction 10, 2 (June 2003), 119\u2013149. https://doi.org/10.1145/772047.772050",
+      "doi": "10.1145/772047.772050"
+    },
+    {
+      "text": "Kevin Hu, Michiel\u00a0A. Bakker, Stephen Li, Tim Kraska, and C\u00e9sar Hidalgo. 2019. VizML: A Machine Learning Approach to Visualization Recommendation. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, Glasgow Scotland Uk, 1\u201312. https://doi.org/10.1145/3290605.3300358",
+      "doi": "10.1145/3290605.3300358"
+    },
+    {
+      "text": "Jessica Hullman, Nicholas Diakopoulos, and Eytan Adar. 2013. Contextifier: Automatic Generation of Annotated Stock Visualizations. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201913). Association for Computing Machinery, New York, NY, USA, 2707\u20132716. https://doi.org/10.1145/2470654.2481374",
+      "doi": "10.1145/2470654.2481374"
+    },
+    {
+      "text": "Jessica Hullman, Yea-Seul Kim, Francis Nguyen, Lauren Speers, and Maneesh Agrawala. 2018. Improving Comprehension of Measurements Using Concrete Re-expression Strategies. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, Montreal QC Canada, 1\u201312. https://doi.org/10.1145/3173574.3173608",
+      "doi": "10.1145/3173574.3173608"
+    },
+    {
+      "text": "Junyong In and Sangseok Lee. 2017. Statistical Data Presentation. Korean Journal of Anesthesiology 70, 3 (2017), 267. https://doi.org/10.4097/kjae.2017.70.3.267",
+      "doi": ""
+    },
+    {
+      "text": "Ren\u00e9 Jorna. 1988. A Comparison of Presentation and Representation: Linguistic and Pictorial. In Human-Computer Interaction, Gerrit\u00a0C. van der Veer and Gijsbertus Mulder (Eds.). Springer, Berlin, Heidelberg, 172\u2013185. https://doi.org/10.1007/978-3-642-73402-1_11",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan\u00a0P. Kastellec and Eduardo\u00a0L. Leoni. 2007. Using Graphs Instead of Tables in Political Science. Perspectives on Politics 5, 4 (Dec. 2007), 755\u2013771. https://doi.org/10.1017/S1537592707072209",
+      "doi": ""
+    },
+    {
+      "text": "Dave Kelly, Jaap Jasperse, and Ian Westbrooke. 2005. Designing Science Graphs for Data Analysis and Presentation. Science & Technical Publishing, Department of Conservation, Wellington, New Zealand 32(2005), 68.",
+      "doi": ""
+    },
+    {
+      "text": "Alison Kidd. 1994. The Marks Are on the Knowledge Worker. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201994). Association for Computing Machinery, New York, NY, USA, 186\u2013191. https://doi.org/10.1145/191666.191740",
+      "doi": "10.1145/191666.191740"
+    },
+    {
+      "text": "N.\u00a0W. Kim, S.\u00a0C. Joyner, A. Riegelhuth, and Y. Kim. 2021. Accessible Visualization: Design Space, Opportunities, and Challenges. Computer Graphics Forum 40, 3 (2021), 173\u2013188. https://doi.org/10.1111/cgf.14298",
+      "doi": ""
+    },
+    {
+      "text": "Sunjung Kim and Linda\u00a0J. Lombardino. 2015. Comparing Graphs and Text: Effects of Complexity and Task. Journal of Eye Movement Research 8, 3 (Oct. 2015), 17. https://doi.org/10.16910/jemr.8.3.2",
+      "doi": ""
+    },
+    {
+      "text": "Yea-Seul Kim, Jessica Hullman, and Maneesh Agrawala. 2016. Generating Personalized Spatial Analogies for Distances and Areas. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, San Jose California USA, 38\u201348. https://doi.org/10.1145/2858036.2858440",
+      "doi": "10.1145/2858036.2858440"
+    },
+    {
+      "text": "Torsten\u00a0L Klein. 2014. Communicating Quantitative Information: Tables vs Graphs. MPRA 60514(2014), 20.",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas Kong and Maneesh Agrawala. 2012. Graphical Overlays: Using Layered Elements to Aid Chart Reading. IEEE Transactions on Visualization and Computer Graphics 18, 12 (Dec. 2012), 2631\u20132638. https://doi.org/10.1109/TVCG.2012.229",
+      "doi": "10.1109/TVCG.2012.229"
+    },
+    {
+      "text": "Markus Konkol, Christian Kray, and Jan Suleiman. 2019. Creating Interactive Scientific Publications Using Bindings. Proceedings of the ACM on Human-Computer Interaction 3, EICS (June 2019), 1\u201318. https://doi.org/10.1145/3331158",
+      "doi": "10.1145/3331158"
+    },
+    {
+      "text": "Bum\u00a0Chul Kwon, Florian Stoffel, and Dominik J\u00e4ckle. 2014. VisJockey: Enriching Data Stories through Orchestrated Interactive Visualization. In Computation + Journalism Symposium. New York, NY, USA, 5.",
+      "doi": ""
+    },
+    {
+      "text": "Chufan Lai, Zhixian Lin, Ruike Jiang, Yun Han, Can Liu, and Xiaoru Yuan. 2020. Automatic Annotation Synchronizing with Textual Description for Visualization. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201313.",
+      "doi": "10.1145/3313831.3376443"
+    },
+    {
+      "text": "Matthew Lamm, Arun\u00a0Tejasvi Chaganty, Christopher\u00a0D. Manning, Dan Jurafsky, and Percy Liang. 2018. Textual Analogy Parsing: What\u2019s Shared and What\u2019s Compared among Analogous Facts. arxiv:1809.02700\u00a0[cs]",
+      "doi": ""
+    },
+    {
+      "text": "Jill\u00a0H. Larkin and Herbert\u00a0A. Simon. 1987. Why a Diagram Is (Sometimes) Worth Ten Thousand Words. Cognitive Science 11, 1 (1987), 65\u2013100. https://doi.org/10.1111/j.1551-6708.1987.tb00863.x",
+      "doi": ""
+    },
+    {
+      "text": "Shahid Latif, Diao Liu, and Fabian Beck. 2018. Exploring Interactive Linking Between Text and Visualization. In EuroVis 2018 - Short Papers. The Eurographics Association, Brno Czech Republic, 4 pages. https://doi.org/10.2312/EUROVISSHORT.20181084",
+      "doi": ""
+    },
+    {
+      "text": "Shahid Latif, Kaidie Su, and Fabian Beck. 2019. Authoring Combined Textual and Visual Descriptions of Graph Data. In EuroVis. IEEE, Porto, Portugal, 5.",
+      "doi": ""
+    },
+    {
+      "text": "Shahid Latif, Zheng Zhou, Yoon Kim, Fabian Beck, and Nam\u00a0Wook Kim. 2022. Kori: Interactive Synthesis of Text and Charts in Data Documents. IEEE Transactions on Visualization and Computer Graphics 28, 1 (Jan. 2022), 184\u2013194. https://doi.org/10.1109/TVCG.2021.3114802",
+      "doi": "10.1109/TVCG.2021.3114802"
+    },
+    {
+      "text": "Elsie Lee-Robbins, Shiqing He, and Eytan Adar. 2022. Learning Objectives, Insights, and Assessments: How Specification Formats Impact Design. IEEE Transactions on Visualization and Computer Graphics 28, 1 (Jan. 2022), 676\u2013685. https://doi.org/10.1109/TVCG.2021.3114811",
+      "doi": "10.1109/TVCG.2021.3114811"
+    },
+    {
+      "text": "Yuxuan Lei, Qi Lu, and Yingqing Xu. 2022. O&O: A DIY Toolkit for Designing and Rapid Prototyping Olfactory Interfaces. In CHI Conference on Human Factors in Computing Systems. ACM, New Orleans LA USA, 1\u201321. https://doi.org/10.1145/3491102.3502033",
+      "doi": "10.1145/3491102.3502033"
+    },
+    {
+      "text": "Deqing Li, Honghui Mei, Yi Shen, Shuang Su, Wenli Zhang, Junting Wang, Ming Zu, and Wei Chen. 2018. ECharts: A Declarative Framework for Rapid Construction of Web-Based Visualization. Visual Informatics 2, 2 (June 2018), 136\u2013146. https://doi.org/10.1016/j.visinf.2018.04.011",
+      "doi": ""
+    },
+    {
+      "text": "Veronica Liesaputra and Ian\u00a0H. Witten. 2012. Realistic Electronic Books. International Journal of Human-Computer Studies 70, 9 (Sept. 2012), 588\u2013610. https://doi.org/10.1016/j.ijhcs.2012.02.003",
+      "doi": "10.1016/j.ijhcs.2012.02.003"
+    },
+    {
+      "text": "Ziming Liu. 2005. Reading Behavior in the Digital Environment: Changes in Reading Behavior over the Past Ten Years. Journal of Documentation 61, 6 (Jan. 2005), 700\u2013712. https://doi.org/10.1108/00220410510632040",
+      "doi": ""
+    },
+    {
+      "text": "Geoffrey\u00a0R. Loftus. 1993. A Picture Is Worth a Thousandp Values: On the Irrelevance of Hypothesis Testing in the Microcomputer Age. Behavior Research Methods, Instruments, & Computers 25, 2 (June 1993), 250\u2013256. https://doi.org/10.3758/BF03204506",
+      "doi": ""
+    },
+    {
+      "text": "Min Lu, Jie Liang, Yu Zhang, Guozheng Li, Siming Chen, Zongru Li, and Xiaoru Yuan. 2017. Interaction+: Interaction Enhancement for Web-Based Visualizations. In 2017 IEEE Pacific Visualization Symposium (PacificVis). IEEE, Seoul Republic of Korea, 61\u201370. https://doi.org/10.1109/PACIFICVIS.2017.8031580",
+      "doi": ""
+    },
+    {
+      "text": "Yuyu Luo, Xuedi Qin, Nan Tang, and Guoliang Li. 2018. DeepEye: Towards Automatic Data Visualization. In 2018 IEEE 34th International Conference on Data Engineering (ICDE). IEEE, Paris, 101\u2013112. https://doi.org/10.1109/ICDE.2018.00019",
+      "doi": ""
+    },
+    {
+      "text": "Yuyu Luo, Nan Tang, Guoliang Li, Jiawei Tang, Chengliang Chai, and Xuedi Qin. 2022. Natural Language to Visualization by Neural Machine Translation. IEEE Transactions on Visualization and Computer Graphics 28, 1 (Jan. 2022), 217\u2013226. https://doi.org/10.1109/TVCG.2021.3114848",
+      "doi": "10.1109/TVCG.2021.3114848"
+    },
+    {
+      "text": "Shuai Ma, Taichang Zhou, Fei Nie, and Xiaojuan Ma. 2022. Glancee: An Adaptable System for Instructors to Grasp Student Learning Status in Synchronous Online Classes. In CHI Conference on Human Factors in Computing Systems. ACM, New Orleans LA USA, 1\u201325. https://doi.org/10.1145/3491102.3517482",
+      "doi": "10.1145/3491102.3517482"
+    },
+    {
+      "text": "Michael MacDonald-Ross. 1977. How Numbers Are Shown: A Review of Research on the Presentation of Quantitative Data in Texts. AV Communication Review 25, 4 (1977), 359\u2013409.",
+      "doi": ""
+    },
+    {
+      "text": "Heinz Mandl and Joel\u00a0R. Levin. 1989. Knowledge Acquisition from Text and Pictures. North-Holland, Amsterdam ; New York : New York, N.Y., U.S.A.",
+      "doi": ""
+    },
+    {
+      "text": "Damien Masson, Sylvain Malacria, Edward Lank, and G\u00e9ry Casiez. 2020. Chameleon: Bringing Interactivity to Static Digital Documents. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu HI USA, 1\u201313. https://doi.org/10.1145/3313831.3376559",
+      "doi": "10.1145/3313831.3376559"
+    },
+    {
+      "text": "Damien Masson, Sylvain Malacria, Daniel Vogel, Edward Lank, and G\u00e9ry Casiez. 2023. ChartDetective: Easy and Accurate Interactive Data Extraction from Complex Vector Charts. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (Hamburg, Germany) (CHI \u201923). Association for Computing Machinery, New York, NY, USA, 17\u00a0pages. https://doi.org/10.1145/3544548.3581113",
+      "doi": "10.1145/3544548.3581113"
+    },
+    {
+      "text": "Richard\u00a0E. Mayer. 2002. Multimedia Learning. In Psychology of Learning and Motivation. Vol.\u00a041. Academic Press, 85\u2013139. https://doi.org/10.1016/S0079-7421(02)80005-6",
+      "doi": ""
+    },
+    {
+      "text": "Andrew McNutt, Gordon Kindlmann, and Michael Correll. 2020. Surfacing Visualization Mirages. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu HI USA, 1\u201316. https://doi.org/10.1145/3313831.3376420",
+      "doi": "10.1145/3313831.3376420"
+    },
+    {
+      "text": "Ronald Metoyer, Qiyu Zhi, Bart Janczuk, and Walter Scheirer. 2018. Coupling Story to Visualization: Using Textual Analysis as a Bridge Between Data and Interpretation. In 23rd International Conference on Intelligent User Interfaces. ACM, Tokyo Japan, 503\u2013507. https://doi.org/10.1145/3172944.3173007",
+      "doi": "10.1145/3172944.3173007"
+    },
+    {
+      "text": "Joachim Meyer, Marcia\u00a0Kuskin Shamo, and Daniel Gopher. 1999. Information Structure and the Relative Efficacy of Tables and Graphs. Human Factors 41, 4 (Dec. 1999), 570\u2013587. https://doi.org/10.1518/001872099779656707",
+      "doi": ""
+    },
+    {
+      "text": "Pam\u00a0A. Mueller and Daniel\u00a0M. Oppenheimer. 2014. The Pen Is Mightier Than the Keyboard: Advantages of Longhand Over Laptop Note Taking. Psychological Science 25, 6 (June 2014), 1159\u20131168. https://doi.org/10.1177/0956797614524581",
+      "doi": ""
+    },
+    {
+      "text": "Tamara Munzner. 2014. Visualization Analysis and Design(1st edition ed.). A K Peters/CRC Press, Boca Raton.",
+      "doi": ""
+    },
+    {
+      "text": "Arpit Narechania, Arjun Srinivasan, and John Stasko. 2021. NL4DV: A Toolkit for Generating Analytic Specifications for Data Visualization from Natural Language Queries. IEEE Transactions on Visualization and Computer Graphics 27, 2 (Feb. 2021), 369\u2013379. https://doi.org/10.1109/TVCG.2020.3030378",
+      "doi": ""
+    },
+    {
+      "text": "C. North. 2006. Toward Measuring Visualization Insight. IEEE Computer Graphics and Applications 26, 3 (May 2006), 6\u20139. https://doi.org/10.1109/MCG.2006.70",
+      "doi": "10.1109/MCG.2006.70"
+    },
+    {
+      "text": "Kenton O\u2019Hara. 1996. Towards a Typology of Reading Goals.",
+      "doi": ""
+    },
+    {
+      "text": "Kenton O\u2019Hara and Abigail Sellen. 1997. A Comparison of Reading Paper and On-Line Documents. In Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems. ACM, Atlanta Georgia USA, 335\u2013342. https://doi.org/10.1145/258549.258787",
+      "doi": "10.1145/258549.258787"
+    },
+    {
+      "text": "World\u00a0Health Organization. 2021. Weekly Epidemiological Update on COVID-19 - 22 June 2021. https://www.who.int/publications/m/item/weekly-epidemiological-update-on-covid-19\u201422-june-2021.",
+      "doi": ""
+    },
+    {
+      "text": "World\u00a0Health Organization. 2021. Weekly Epidemiological Update on COVID-19 - 29 June 2021. https://www.who.int/publications/m/item/weekly-epidemiological-update-on-covid-19\u201429-june-2021.",
+      "doi": ""
+    },
+    {
+      "text": "Alvitta Ottley, Aleksandra Kaszowska, R.\u00a0Jordan Crouser, and Evan\u00a0M. Peck. 2019. The Curious Case of Combining Text and Visualization. In EuroVis. The Eurographics Association, Porto, Portugal, 5. https://doi.org/10.2312/evs.20191181",
+      "doi": ""
+    },
+    {
+      "text": "Anshul\u00a0Vikram Pandey, Katharina Rall, Margaret\u00a0L. Satterthwaite, Oded Nov, and Enrico Bertini. 2015. How Deceptive Are Deceptive Visualizations? An Empirical Analysis of Common Distortion Techniques. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems(CHI \u201915). Association for Computing Machinery, New York, NY, USA, 1469\u20131478. https://doi.org/10.1145/2702123.2702608",
+      "doi": "10.1145/2702123.2702608"
+    },
+    {
+      "text": "Jonas Parnow and Marian D\u00f6rk. 2015. Micro Visualizations: Data-driven Typography and Graphical Text Enhancement. In InfoVis. IEEE, Chicago, Illinois USA, 2.",
+      "doi": ""
+    },
+    {
+      "text": "Mozilla 2011. PDF.Js. Mozilla. https://mozilla.github.io/pdf.js/",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer Pearson, George Buchanan, and Harold Thimbleby. 2014. Designing for Digital Reading. Springer International Publishing, Cham. https://doi.org/10.1007/978-3-031-02330-9",
+      "doi": ""
+    },
+    {
+      "text": "Joao Pinheiro and Jorge Poco. 2022. ChartText: Linking Text with Charts in Documents. arxiv:2201.05043\u00a0[cs]",
+      "doi": ""
+    },
+    {
+      "text": "Zachary Pousman, John Stasko, and Michael Mateas. 2007. Casual Information Visualization: Depictions of Data in Everyday Life. IEEE Transactions on Visualization and Computer Graphics 13, 6 (Nov. 2007), 1145\u20131152. https://doi.org/10.1109/TVCG.2007.70541",
+      "doi": "10.1109/TVCG.2007.70541"
+    },
+    {
+      "text": "Morgan\u00a0N. Price, Bill\u00a0N. Schilit, and Gene Golovchinsky. 1998. XLibris: The Active Reading Machine. In CHI 98 Conference Summary on Human Factors in Computing Systems(CHI \u201998). Association for Computing Machinery, New York, NY, USA, 22\u201323. https://doi.org/10.1145/286498.286510",
+      "doi": "10.1145/286498.286510"
+    },
+    {
+      "text": "PrimeTek Informatics 2017. PrimeReact | React UI Component Library. PrimeTek Informatics. https://www.primefaces.org/primereact",
+      "doi": ""
+    },
+    {
+      "text": "Chunyao Qian, Shizhao Sun, Weiwei Cui, Jian-Guang Lou, Haidong Zhang, and Dongmei Zhang. 2021. Retrieve-Then-Adapt: Example-based Automatic Generation for Proportion-related Infographics. IEEE Transactions on Visualization and Computer Graphics 27, 2 (Feb. 2021), 443\u2013452. https://doi.org/10.1109/TVCG.2020.3030448",
+      "doi": ""
+    },
+    {
+      "text": "Jing Qian, Qi Sun, Curtis Wigington, Han\u00a0L. Han, Tong Sun, Jennifer Healey, James Tompkin, and Jeff Huang. 2022. Dually Noted: Layout-Aware Annotations with Smartphone Augmented Reality. In CHI Conference on Human Factors in Computing Systems. ACM, New Orleans LA USA, 1\u201315. https://doi.org/10.1145/3491102.3502026",
+      "doi": "10.1145/3491102.3502026"
+    },
+    {
+      "text": "Ghulam Jilani Abdul\u00a0Rahim Quadri. 2021. Constructing Frameworks for Task-Optimized Visualizations. Ph.\u00a0D. Dissertation. University of South Florida, United States \u2013 Florida.",
+      "doi": ""
+    },
+    {
+      "text": "Napol Rachatasumrit, Jonathan Bragg, Amy\u00a0X. Zhang, and Daniel\u00a0S Weld. 2022. CiteRead: Integrating Localized Citation Contexts into Scientific Paper Reading. In 27th International Conference on Intelligent User Interfaces(IUI \u201922). Association for Computing Machinery, New York, NY, USA, 707\u2013719. https://doi.org/10.1145/3490099.3511162",
+      "doi": "10.1145/3490099.3511162"
+    },
+    {
+      "text": "Meta 2013. React \u2013 A JavaScript Library for Building User Interfaces. Meta. https://reactjs.org/",
+      "doi": ""
+    },
+    {
+      "text": "Donghao Ren, Matthew Brehmer, Bongshin Lee, Tobias H\u00f6llerer, and Eun\u00a0Kyoung Choe. 2017. ChartAccent: Annotation for Data-Driven Storytelling. In 2017 IEEE Pacific Visualization Symposium (PacificVis). IEEE, Seoul Republic of Korea, 230\u2013239. https://doi.org/10.1109/PACIFICVIS.2017.8031599",
+      "doi": ""
+    },
+    {
+      "text": "Nathalie\u00a0Henry Riche, Christophe Hurter, Nicholas Diakopoulos, and Sheelagh Carpendale. 2018. Data-Driven Storytelling. CRC Press, Natick, Massachusetts, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Yann Riche, Nathalie Henry\u00a0Riche, Ken Hinckley, Sheri Panabaker, Sarah Fuelling, and Sarah Williams. 2017. As We May Ink?: Learning from Everyday Analog Pen Use to Improve Digital Ink Experiences. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, Denver Colorado USA, 3241\u20133253. https://doi.org/10.1145/3025453.3025716",
+      "doi": "10.1145/3025453.3025716"
+    },
+    {
+      "text": "Hugo Romat, Nathalie Henry\u00a0Riche, Ken Hinckley, Bongshin Lee, Caroline Appert, Emmanuel Pietriga, and Christopher Collins. 2019. ActiveInk: (Th)Inking with Data. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, Glasgow Scotland Uk, 1\u201313. https://doi.org/10.1145/3290605.3300272",
+      "doi": "10.1145/3290605.3300272"
+    },
+    {
+      "text": "Hugo Romat, Emmanuel Pietriga, Nathalie Henry-Riche, Ken Hinckley, and Caroline Appert. 2019. SpaceInk: Making Space for In-Context Annotations. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201919). Association for Computing Machinery, New York, NY, USA, 871\u2013882. https://doi.org/10.1145/3332165.3347934",
+      "doi": "10.1145/3332165.3347934"
+    },
+    {
+      "text": "Bahador Saket, Alex Endert, and Cagatay Demiralp. 2018. Task-Based Effectiveness of Basic Visualizations. arxiv:1709.08546\u00a0[cs]",
+      "doi": ""
+    },
+    {
+      "text": "Manolis Savva, Nicholas Kong, Arti Chhajta, Li Fei-Fei, Maneesh Agrawala, and Jeffrey Heer. 2011. ReVision: Automated Classification, Analysis and Redesign of Chart Images. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology - UIST \u201911. ACM Press, Santa Barbara, California, USA, 393. https://doi.org/10.1145/2047196.2047247",
+      "doi": "10.1145/2047196.2047247"
+    },
+    {
+      "text": "Mike Scaife and Yvonne Rogers. 1996. External Cognition: How Do Graphical Representations Work?International Journal of Human-Computer Studies 45, 2 (Aug. 1996), 185\u2013213. https://doi.org/10.1006/ijhc.1996.0048",
+      "doi": "10.1006/ijhc.1996.0048"
+    },
+    {
+      "text": "Bill\u00a0N. Schilit, Gene Golovchinsky, and Morgan\u00a0N. Price. 1998. Beyond Paper: Supporting Active Reading with Free Form Digital Ink Annotations. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201998). ACM Press/Addison-Wesley Publishing Co., USA, 249\u2013256. https://doi.org/10.1145/274644.274680",
+      "doi": "10.1145/274644.274680"
+    },
+    {
+      "text": "Wolfgang Schnotz and Maria Bannert. 2003. Construction and Interference in Learning from Multiple Representation. Learning and Instruction 13, 2 (April 2003), 141\u2013156. https://doi.org/10.1016/S0959-4752(02)00017-8",
+      "doi": ""
+    },
+    {
+      "text": "Edward Segel and Jeffrey Heer. 2010. Narrative Visualization: Telling Stories with Data. IEEE Transactions on Visualization and Computer Graphics 16, 6 (Nov. 2010), 1139\u20131148. https://doi.org/10.1109/TVCG.2010.179",
+      "doi": "10.1109/TVCG.2010.179"
+    },
+    {
+      "text": "Vidya Setlur, Sarah\u00a0E. Battersby, Melanie Tory, Rich Gossweiler, and Angel\u00a0X. Chang. 2016. Eviza: A Natural Language Interface for Visual Analysis. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology(UIST \u201916). Association for Computing Machinery, New York, NY, USA, 365\u2013377. https://doi.org/10.1145/2984511.2984588",
+      "doi": "10.1145/2984511.2984588"
+    },
+    {
+      "text": "Leixian Shen, Enya Shen, Yuyu Luo, Xiaocong Yang, Xuming Hu, Xiongshuai Zhang, Zhiwei Tai, and Jianmin Wang. 2022. Towards Natural Language Interfaces for Data Visualization: A Survey. IEEE Transactions on Visualization and Computer Graphics (2022), 1\u20131. https://doi.org/10.1109/TVCG.2022.3148007 arxiv:2109.03506\u00a0[cs]",
+      "doi": ""
+    },
+    {
+      "text": "Danqing Shi, Xinyue Xu, Fuling Sun, Yang Shi, and Nan Cao. 2021. Calliope: Automatic Visual Data Story Generation from a Spreadsheet. IEEE Transactions on Visualization and Computer Graphics 27, 2 (Feb. 2021), 453\u2013463. https://doi.org/10.1109/TVCG.2020.3030403",
+      "doi": ""
+    },
+    {
+      "text": "Herbert\u00a0A Simon. 1978. On the Forms of Mental Representation. University of Minnesota Press, Minneapolis(1978), 16.",
+      "doi": ""
+    },
+    {
+      "text": "Lauren\u00a0M. Singer and Patricia\u00a0A. Alexander. 2017. Reading on Paper and Digitally: What the Past Decades of Empirical Research Reveal. Review of Educational Research 87, 6 (Dec. 2017), 1007\u20131041. https://doi.org/10.3102/0034654317722961",
+      "doi": ""
+    },
+    {
+      "text": "Ian Spence. 1990. Visual Psychophysics of Simple Graphical Elements.Journal of Experimental Psychology: Human Perception and Performance 16, 4(1990), 683\u2013692. https://doi.org/10.1037/0096-1523.16.4.683",
+      "doi": ""
+    },
+    {
+      "text": "Ian Spence and Stephan Lewandowsky. 1991. Displaying Proportions and Percentages. Applied Cognitive Psychology 5, 1 (1991), 61\u201377. https://doi.org/10.1002/acp.2350050106",
+      "doi": ""
+    },
+    {
+      "text": "Arjun Srinivasan, Steven\u00a0M. Drucker, Alex Endert, and John Stasko. 2019. Augmenting Visualizations with Interactive Data Facts to Facilitate Interpretation and Communication. IEEE Transactions on Visualization and Computer Graphics 25, 1 (Jan. 2019), 672\u2013681. https://doi.org/10.1109/TVCG.2018.2865145",
+      "doi": "10.1109/TVCG.2018.2865145"
+    },
+    {
+      "text": "Arjun Srinivasan, Nikhila Nyapathy, Bongshin Lee, Steven\u00a0M. Drucker, and John Stasko. 2021. Collecting and Characterizing Natural Language Utterances for Specifying Data Visualizations. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Yokohama Japan, 1\u201310. https://doi.org/10.1145/3411764.3445400",
+      "doi": "10.1145/3411764.3445400"
+    },
+    {
+      "text": "Hendrik Strobelt, Daniela Oelke, Christian Rohrdantz, Andreas Stoffel, Daniel\u00a0A. Keim, and Oliver Deussen. 2009. Document Cards: A Top Trumps Visualization for Documents. IEEE Transactions on Visualization and Computer Graphics 15, 6 (Nov. 2009), 1145\u20131152. https://doi.org/10.1109/TVCG.2009.139",
+      "doi": "10.1109/TVCG.2009.139"
+    },
+    {
+      "text": "Hariharan Subramonyam, Colleen Seifert, Priti Shah, and Eytan Adar. 2020. texSketch: Active Diagramming through Pen-and-Ink Annotations. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu HI USA, 1\u201313. https://doi.org/10.1145/3313831.3376155",
+      "doi": "10.1145/3313831.3376155"
+    },
+    {
+      "text": "Nicole Sultanum, Fanny Chevalier, Zoya Bylinskii, and Zhicheng Liu. 2021. Leveraging Text-Chart Links to Support Authoring of Data-Driven Articles with VizFlow. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems(CHI \u201921). Association for Computing Machinery, New York, NY, USA, 1\u201317. https://doi.org/10.1145/3411764.3445354",
+      "doi": "10.1145/3411764.3445354"
+    },
+    {
+      "text": "Kaiwen Sun, Carlo Sugatan, Tanisha Afnan, Hayley Simon, Susan\u00a0A. Gelman, Jenny Radesky, and Florian Schaub. 2021. \u201cThey See You\u2019re a Girl If You Pick a Pink Robot with a Skirt\u201d: A Qualitative Study of How Children Conceptualize Data Processing and Digital Privacy Risks. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Yokohama Japan, 1\u201334. https://doi.org/10.1145/3411764.3445333",
+      "doi": "10.1145/3411764.3445333"
+    },
+    {
+      "text": "Bo Tang, Shi Han, Man\u00a0Lung Yiu, Rui Ding, and Dongmei Zhang. 2017. Extracting Top-K Insights from Multi-dimensional Data. In Proceedings of the 2017 ACM International Conference on Management of Data. ACM, Chicago Illinois USA, 1509\u20131524. https://doi.org/10.1145/3035918.3035922",
+      "doi": "10.1145/3035918.3035922"
+    },
+    {
+      "text": "Craig\u00a0S. Tashman and W.\u00a0Keith Edwards. 2011. Active Reading and Its Discontents: The Situations, Problems and Ideas of Readers. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201911). Association for Computing Machinery, New York, NY, USA, 2927\u20132936. https://doi.org/10.1145/1978942.1979376",
+      "doi": "10.1145/1978942.1979376"
+    },
+    {
+      "text": "Craig\u00a0S. Tashman and W.\u00a0Keith Edwards. 2011. LiquidText: A Flexible, Multitouch Environment to Support Active Reading. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Vancouver BC Canada, 3285\u20133294. https://doi.org/10.1145/1978942.1979430",
+      "doi": "10.1145/1978942.1979430"
+    },
+    {
+      "text": "Edward Tufte. 2006. Beautiful Evidence. Graphics Press, Cheshire, Conn.",
+      "doi": ""
+    },
+    {
+      "text": "UNESCO Institute for Statistics. 2017. Literacy Rates Continue to Rise from One Generation to the next - UNESCO Digital Library. https://unesdoc.unesco.org/ark:/48223/pf0000258942?posInSet=1&queryId=826eb5c2-2660-4792-a3c8-83848b42df94.",
+      "doi": ""
+    },
+    {
+      "text": "U.S. Bureau of Labor Statistics. 2022. Employment Situation Summary - 2022 M08 Results. https://www.bls.gov/news.release/empsit.nr0.htm.",
+      "doi": ""
+    },
+    {
+      "text": "Pauli Virtanen, Ralf Gommers, Travis\u00a0E. Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, St\u00e9fan\u00a0J. van der Walt, Matthew Brett, Joshua Wilson, K.\u00a0Jarrod Millman, Nikolay Mayorov, Andrew R.\u00a0J. Nelson, Eric Jones, Robert Kern, Eric Larson, C\u00a0J Carey, \u0130lhan Polat, Yu Feng, Eric\u00a0W. Moore, Jake VanderPlas, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen, E.\u00a0A. Quintero, Charles\u00a0R. Harris, Anne\u00a0M. Archibald, Ant\u00f4nio\u00a0H. Ribeiro, Fabian Pedregosa, Paul van Mulbregt, and SciPy 1.0 Contributors. 2020. SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. Nature Methods 17(2020), 261\u2013272. https://doi.org/10.1038/s41592-019-0686-2",
+      "doi": ""
+    },
+    {
+      "text": "J.\u00a0N. Washburne. 1927. An Experimental Study of Various Graphic, Tabular, and Textual Methods of Presenting Quantitative Material. Journal of Educational Psychology 18, 7 (1927), 465\u2013476. https://doi.org/10.1037/h0070054",
+      "doi": ""
+    },
+    {
+      "text": "Alan\u00a0J. Wecker, Joel Lanir, Osnat Mokryn, Einat Minkov, and Tsvi Kuflik. 2014. Semantize: Visualizing the Sentiment of Individual Document. In Proceedings of the 2014 International Working Conference on Advanced Visual Interfaces - AVI \u201914. ACM Press, Como, Italy, 385\u2013386. https://doi.org/10.1145/2598153.2600056",
+      "doi": "10.1145/2598153.2600056"
+    },
+    {
+      "text": "Kanit Wongsuphasawat, Dominik Moritz, Anushka Anand, Jock Mackinlay, Bill Howe, and Jeffrey Heer. 2016. Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations. IEEE Transactions on Visualization and Computer Graphics 22, 1 (Jan. 2016), 649\u2013658. https://doi.org/10.1109/TVCG.2015.2467191",
+      "doi": "10.1109/TVCG.2015.2467191"
+    },
+    {
+      "text": "Keke Wu, Emma Petersen, Tahmina Ahmad, David Burlinson, Shea Tanis, and Danielle\u00a0Albers Szafir. 2021. Understanding Data Accessibility for People with Intellectual and Developmental Disabilities. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems(CHI \u201921). Association for Computing Machinery, New York, NY, USA, 1\u201316. https://doi.org/10.1145/3411764.3445743",
+      "doi": "10.1145/3411764.3445743"
+    },
+    {
+      "text": "Sally P.\u00a0W. Wu and Martina\u00a0A. Rau. 2019. How Students Learn Content in Science, Technology, Engineering, and Mathematics (STEM) Through Drawing Activities. Educational Psychology Review 31, 1 (March 2019), 87\u2013120. https://doi.org/10.1007/s10648-019-09467-3",
+      "doi": ""
+    },
+    {
+      "text": "Qian Yang, Gerard de Melo, Yong Cheng, and Sen Wang. 2017. HiText: Text Reading with Dynamic Salience Marking. In Proceedings of the 26th International Conference on World Wide Web Companion(WWW \u201917 Companion). International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE, 311\u2013319. https://doi.org/10.1145/3041021.3054168",
+      "doi": "10.1145/3041021.3054168"
+    },
+    {
+      "text": "Ji\u00a0Soo Yi, Youn ah Kang, John Stasko, and J.A. Jacko. 2007. Toward a Deeper Understanding of the Role of Interaction in Information Visualization. IEEE Transactions on Visualization and Computer Graphics 13, 6 (Nov. 2007), 1224\u20131231. https://doi.org/10.1109/TVCG.2007.70515",
+      "doi": "10.1109/TVCG.2007.70515"
+    },
+    {
+      "text": "Qiyu Zhi, Alvitta Ottley, and Ronald Metoyer. 2019. Linking and Layout: Exploring the Integration of Text and Visualization in Storytelling. Computer Graphics Forum 38, 3 (2019), 675\u2013685. https://doi.org/10.1111/cgf.13719",
+      "doi": ""
+    }
+  ]
+}

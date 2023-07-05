@@ -1,0 +1,310 @@
+{
+  "doi": "10.1145/3025453.3026050",
+  "title": "Design and Evaluation of a Data-Driven Password Meter",
+  "published": "2017-05-02",
+  "proctitle": "CHI '17: Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
+  "pages": "3775-3786",
+  "year": 2017,
+  "badges": [],
+  "abstract": "Despite their ubiquity, many password meters provide inaccurate strength estimates. Furthermore, they do not explain to users what is wrong with their password or how to improve it. We describe the development and evaluation of a data-driven password meter that provides accurate strength measurement and actionable, detailed feedback to users. This meter combines neural networks and numerous carefully combined heuristics to score passwords and generate data-driven text feedback about the user's password. We describe the meter's iterative development and final design. We detail the security and usability impact of the meter's design dimensions, examined through a 4,509-participant online study. Under the more common password-composition policy we tested, we found that the data-driven meter with detailed feedback led users to create more secure, and no less memorable, passwords than a meter with only a bar as a strength indicator.",
+  "authors": [
+    {
+      "name": "Blase Ur",
+      "institution": "University of Chicago, Chicago, IL, USA",
+      "img": "/do/10.1145/contrib-81496672613/rel-imgonly/blase_headshot_400.jpg",
+      "acmid": "81496672613",
+      "orcid": "missing"
+    },
+    {
+      "name": "Felicia Alfieri",
+      "institution": "Carnegie Mellon University, Pittsburgh, PA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659162715",
+      "orcid": "missing"
+    },
+    {
+      "name": "Maung Aung",
+      "institution": "Carnegie Mellon University, Pittsburgh, PA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659162615",
+      "orcid": "missing"
+    },
+    {
+      "name": "Lujo Bauer",
+      "institution": "Carnegie Mellon University, Pittsburgh, PA, USA",
+      "img": "/do/10.1145/contrib-81350570444/rel-imgonly/lujo-5.jpg",
+      "acmid": "81350570444",
+      "orcid": "missing"
+    },
+    {
+      "name": "Nicolas Christin",
+      "institution": "Carnegie Mellon University, Pittsburgh, PA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100131105",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jessica Colnago",
+      "institution": "Carnegie Mellon University, Pittsburgh, PA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658691563",
+      "orcid": "missing"
+    },
+    {
+      "name": "Lorrie Faith Cranor",
+      "institution": "Carnegie Mellon University, Pittsburgh, PA, USA",
+      "img": "/do/10.1145/contrib-81100472223/rel-imgonly/lorrie-december2012-small.jpg",
+      "acmid": "81100472223",
+      "orcid": "0000-0003-2125-0124"
+    },
+    {
+      "name": "Henry Dixon",
+      "institution": "Carnegie Mellon University, Pittsburgh, PA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659162782",
+      "orcid": "missing"
+    },
+    {
+      "name": "Pardis Emami Naeini",
+      "institution": "Carnegie Mellon University, Pittsburgh, PA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659161574",
+      "orcid": "0000-0001-9797-2495"
+    },
+    {
+      "name": "Hana Habib",
+      "institution": "Carnegie Mellon University, Pittsburgh, PA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659019881",
+      "orcid": "0000-0003-3743-7858"
+    },
+    {
+      "name": "Noah Johnson",
+      "institution": "Carnegie Mellon University, Pittsburgh, PA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659162943",
+      "orcid": "missing"
+    },
+    {
+      "name": "William Melicher",
+      "institution": "Carnegie Mellon University, Pittsburgh, PA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "84459900757",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Steven Van Acker, Daniel Hausknecht, Wouter Joosen, and Andrei Sabelfeld. 2015. Password meters and generators on the web: From large-scale empirical study to getting it right. In Proc. CODASPY.  ",
+      "doi": "10.1145/2699026.2699118"
+    },
+    {
+      "text": "Anne Adams, Martina Angela Sasse, and Peter Lunt. 1997. Making passwords secure and usable. In Proc. HCI on People and Computers. ",
+      "doi": ""
+    },
+    {
+      "text": "Yoav Benjamini and Yosef Hochberg. 1995. Controlling the false discovery rate: A practical and powerful approach to multiple testing. Journal of the Royal Statistical Society, Series B 57, 1 (1995), 289--300.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Bonneau. 2012. The science of guessing: Analyzing an anonymized corpus of 70 million 2Source code: https://github.com/cupslab/password_meter passwords. In Proc. IEEE Symposium on Security and Privacy.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Bonneau and Ekaterina Shutova. 2012. Linguistic properties of multi-word passphrases. In Proc. USEC.  ",
+      "doi": "10.1007/978-3-642-34638-5_1"
+    },
+    {
+      "text": "Mark Burnett. 2015. Today I am releasing ten million passwords. https://xato.net/today-i-am-releasing-tenmillion-passwords-b6278bbe7495#.s11zbdb8q. (February 9, 2015).",
+      "doi": ""
+    },
+    {
+      "text": "Carnegie Mellon University. 2015. Password Guessability Service. https://pgs.ece.cmu.edu. (2015).",
+      "doi": ""
+    },
+    {
+      "text": "Claude Castelluccia, Markus D\u00fcrmuth, and Daniele Perito. 2012. Adaptive password-strength meters from Markov models. In Proc. NDSS.",
+      "doi": ""
+    },
+    {
+      "text": "Anupam Das, Joseph Bonneau, Matthew Caesar, Nikita Borisov, and XiaoFeng Wang. 2014. The tangled web of password reuse. In Proc. NDSS. ",
+      "doi": ""
+    },
+    {
+      "text": "Xavier de Carn\u00e9 de Carnavalet and Mohammad Mannan. 2014. From very weak to very strong: Analyzing password-strength meters. In Proc. NDSS. ",
+      "doi": ""
+    },
+    {
+      "text": "Matteo Dell'Amico and Maurizio Filippone. 2015. Monte Carlo strength evaluation: Fast and reliable password checking. In Proc. CCS.",
+      "doi": "10.1145/2810103.2813631"
+    },
+    {
+      "text": "Serge Egelman, Andreas Sotirakopoulos, Ildar Muslukhov, Konstantin Beznosov, and Cormac Herley. 2013. Does my password go up to eleven? The impact of password meters on password selection. In Proc. CHI.",
+      "doi": ""
+    },
+    {
+      "text": "Sascha Fahl, Marian Harbach, Yasemin Acar, and Matthew Smith. 2013. On the ecological validity of a password study. In Proc. SOUPS.  ",
+      "doi": "10.1145/2501604.2501617"
+    },
+    {
+      "text": "Dinei Flor\u00eancio and Cormac Herley. 2007. A large-scale study of web password habits. In Proc. WWW.  ",
+      "doi": "10.1145/1242572.1242661"
+    },
+    {
+      "text": "Dinei Flor\u00eancio, Cormac Herley, and Paul C. van Oorschot. 2014. Password portfolios and the finite-effort user: Sustainably managing large numbers of accounts. In Proc. USENIX Security.",
+      "doi": "10.5555/2717491.2717494"
+    },
+    {
+      "text": "Alain Forget, Sonia Chiasson, P.C. van Oorschot, and Robert Biddle. 2008. Improving text passwords through persuasion. In Proc. SOUPS.  ",
+      "doi": "10.1145/1408664.1408666"
+    },
+    {
+      "text": "John Fox and Sanford Weisberg. 2011. An R companion to applied regression (online appendix) (second ed.). Sage Publications. https://socserv.socsci.mcmaster.ca/jfox/Books/ Companion/appendix/Appendix-Cox-Regression.pdf.",
+      "doi": ""
+    },
+    {
+      "text": "Dan Goodin. 2012. Hackers expose 453,000 credentials allegedly taken from Yahoo service. Ars Technica. (July 2012). http://arstechnica.com/security/2012/07/yahooservice-hacked/.",
+      "doi": ""
+    },
+    {
+      "text": "Dan Goodin. 2013. \"there is no fate but what we make\"-Turbo-charged cracking comes to long passwords. Ars Technica. (August 2013). http://arstechnica.com/security/2013/08/ thereisnofatebutwhatwemake-turbo-charged-crackingcomes-to-long-passwords/.",
+      "doi": ""
+    },
+    {
+      "text": "Cormac Herley. 2009. So long, and no thanks for the externalities: The rational rejection of security advice by users. In Proc. NSPW.  ",
+      "doi": "10.1145/1719030.1719050"
+    },
+    {
+      "text": "Jun Ho Huh, Seongyeol Oh, Hyoungshick Kim, Konstantin Beznosov, Apurva Mohan, and S. Raj Rajagopalan. 2015. Surpass: System-initiated user-replaceable passwords. In Proc. CCS.  ",
+      "doi": "10.1145/2810103.2813622"
+    },
+    {
+      "text": "Troy Hunt. 2011. The science of password selection. Blog post. (July 2011). http://www.troyhunt.com/2011/07/science-of-passwordselection.html.",
+      "doi": ""
+    },
+    {
+      "text": "Imperva. 2010. Consumer password worst practices. (2010). http://www.imperva.com/docs/WP_Consumer_ Password_Worst_Practices.pdf.",
+      "doi": ""
+    },
+    {
+      "text": "Philip Inglesant and M. Angela Sasse. 2010. The true cost of unusable password policies: Password use in the wild. In Proc. CHI.  ",
+      "doi": "10.1145/1753326.1753384"
+    },
+    {
+      "text": "Blake Ives, Kenneth R. Walsh, and Helmut Schneider. 2004. The domino effect of password reuse. CACM 47, 4 (April 2004), 75--78.  ",
+      "doi": "10.1145/975817.975820"
+    },
+    {
+      "text": "Markus Jakobsson and Mayank Dhiman. 2012. The benefits of understanding passwords. In Proc. HotSec.",
+      "doi": "10.5555/2372387.2372397"
+    },
+    {
+      "text": "Saranga Komanduri, Richard Shay, Lorrie Faith Cranor, Cormac Herley, and Stuart Schechter. 2014. Telepathwords: Preventing weak passwords by reading users' minds. In Proc. USENIX Security.",
+      "doi": "10.5555/2671225.2671263"
+    },
+    {
+      "text": "Saranga Komanduri, Richard Shay, Patrick Gage Kelley, Michelle L. Mazurek, Lujo Bauer, Nicolas Christin, Lorrie Faith Cranor, and Serge Egelman. 2011. Of passwords and people: Measuring the effect of password-composition policies. In Proc. CHI.  ",
+      "doi": "10.1145/1978942.1979321"
+    },
+    {
+      "text": "Cynthia Kuo, Sasha Romanosky, and Lorrie Faith Cranor. 2006. Human selection of mnemonic phrase-based passwords. In Proc. SOUPS.  ",
+      "doi": "10.1145/1143120.1143129"
+    },
+    {
+      "text": "David Malone and Kevin Maher. 2012. Investigating the distribution of password choices. In Proc. WWW.  ",
+      "doi": "10.1145/2187836.2187878"
+    },
+    {
+      "text": "Michelle L. Mazurek, Saranga Komanduri, Timothy Vidas, Lujo Bauer, Nicolas Christin, Lorrie Faith Cranor, Patrick Gage Kelley, Richard Shay, and Blase Ur. 2013. Measuring password guessability for an entire university. In Proc. CCS.  ",
+      "doi": "10.1145/2508859.2516726"
+    },
+    {
+      "text": "William Melicher, Blase Ur, Sean M. Segreti, Saranga Komanduri, Lujo Bauer, Nicolas Christin, and Lorrie Faith Cranor. 2016. Fast, lean, and accurate: Modeling password guessability using neural networks. In Proc. USENIX Security.",
+      "doi": ""
+    },
+    {
+      "text": "Bruce Schneier. 2014. Choosing secure passwords. Schneier on Security https://www.schneier.com/blog/ archives/2014/03/choosing_secure_1.html. (March 3, 2014).",
+      "doi": ""
+    },
+    {
+      "text": "Richard Shay, Saranga Komanduri, Adam L. Durity, Phillip (Seyoung) Huh, Michelle L. Mazurek, Sean M. Segreti, Blase Ur, Lujo Bauer, Nicolas Christin, and Lorrie Faith Cranor. 2014. Can long passwords be secure and usable?. In Proc. CHI.  ",
+      "doi": "10.1145/2556288.2557377"
+    },
+    {
+      "text": "Dawn Xiaodong Song, David Wagner, and Xuqing Tian. 2001. Timing analysis of keystrokes and timing attacks on SSH. In Proc. USENIX Security Symposium.",
+      "doi": "10.5555/1251327.1251352"
+    },
+    {
+      "text": "Andreas Sotirakopoulos, Ildar Muslukov, Konstantin Beznosov, Cormac Herley, and Serge Egelman. 2011. Motivating users to choose better passwords through peer pressure. In Proc. SOUPS (Poster Abstract).",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey M. Stanton, Kathryn R. Stam, Paul Mastrangelo, and Jeffrey Jolton. 2005. Analysis of end user security behaviors. Comp. & Security 24, 2 (2005), 124--133.  ",
+      "doi": "10.1016/j.cose.2004.07.001"
+    },
+    {
+      "text": "Elizabeth Stobert and Robert Biddle. 2014. The password life cycle: User behaviour in managing passwords. In Proc. SOUPS.",
+      "doi": ""
+    },
+    {
+      "text": "Stricture Consulting Group. 2015. Password audits. http: //stricture-group.com/services/password-audits.htm. (2015).",
+      "doi": ""
+    },
+    {
+      "text": "Blase Ur. 2016. Supporting password-security decisions with data. Ph.D. Dissertation. Carnegie Mellon University. Carnegie Mellon University-ISR-16--110 http://www.blaseur.com/phdthesis.pdf.",
+      "doi": ""
+    },
+    {
+      "text": "Blase Ur, Jonathan Bees, Sean M. Segreti, Lujo Bauer, Nicolas Christin, and Lorrie Faith Cranor. 2016. Do users' perceptions of password security match reality?. In Proc. CHI.  ",
+      "doi": "10.1145/2858036.2858546"
+    },
+    {
+      "text": "Blase Ur, Patrick Gage Kelly, Saranga Komanduri, Joel Lee, Michael Maass, Michelle Mazurek, Timothy Passaro, Richard Shay, Timothy Vidas, Lujo Bauer, Nicolas Christin, and Lorrie Faith Cranor. 2012. How does your password measure up? The effect of strength meters on password creation. In Proc. USENIX Security.",
+      "doi": "10.5555/2362793.2362798"
+    },
+    {
+      "text": "Blase Ur, Fumiko Noma, Jonathan Bees, Sean M. Segreti, Richard Shay, Lujo Bauer, Nicolas Christin, and Lorrie Faith Cranor. 2015a. \"I added \"!? at the end to make it secure?: Observing password creation in the lab. In Proc. SOUPS.",
+      "doi": ""
+    },
+    {
+      "text": "Blase Ur, Sean M. Segreti, Lujo Bauer, Nicolas Christin, Lorrie Faith Cranor, Saranga Komanduri, Darya Kurilova, Michelle L. Mazurek, William Melicher, and Richard Shay. 2015b. Measuring real-world accuracies and biases in modeling password guessability. In Proc. USENIX Security.",
+      "doi": "10.5555/2831143.2831173"
+    },
+    {
+      "text": "Ashlee Vance. 2010. If your password is 123456, just make it HackMe. NY Times, http://www.nytimes. com/2010/01/21/technology/21password.html. (2010).",
+      "doi": ""
+    },
+    {
+      "text": "Rafael Veras, Christopher Collins, and Julie Thorpe. 2014. On the semantic patterns of passwords and their security impact. In Proc. NDSS. ",
+      "doi": ""
+    },
+    {
+      "text": "Rafael Veras, Julie Thorpe, and Christopher Collins. 2012. Visualizing semantics in passwords: The role of dates. In Proc. VizSec.  ",
+      "doi": "10.1145/2379690.2379702"
+    },
+    {
+      "text": "Emanuel von Zezschwitz, Alexander De Luca, and Heinrich Hussmann. 2013. Survival of the shortest: A retrospective analysis of influencing factors on password composition. In Proc. INTERACT. ",
+      "doi": ""
+    },
+    {
+      "text": "Emanuel von Zezschwitz, Alexander De Luca, and Heinrich Hussmann. 2014. Honey, I shrunk the keys: Influences of mobile devices on password composition and authentication performance. In Proc. NordiCHI.  ",
+      "doi": "10.1145/2639189.2639218"
+    },
+    {
+      "text": "Kim-Phuong L. Vu, Robert W. Proctor, Abhilasha Bhargav-Spantzel, Bik-Lam (Belin) Tai, and Joshua Cook. 2007. Improving password security and memorability to protect personal and organizational information. IJHCS 65, 8 (2007), 744--757.",
+      "doi": "10.1016/j.ijhcs.2007.03.007"
+    },
+    {
+      "text": "Dan Wheeler. 2012. zxcvbn: Realistic password strength estimation. https://blogs.dropbox.com/tech/2012/04/zxcvbnrealistic-password-strength-estimation/. (2012).",
+      "doi": ""
+    },
+    {
+      "text": "Dan Lowe Wheeler. 2016. zxcvbn: Low-budget password strength estimation. In Proc. USENIX Security.",
+      "doi": "10.5555/3241094.3241108"
+    },
+    {
+      "text": "Yulong Yang, Janne Lindqvist, and Antti Oulasvirta. 2014. Text entry method affects password security. In Proc. LASER.",
+      "doi": ""
+    }
+  ]
+}

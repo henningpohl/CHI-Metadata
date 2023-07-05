@@ -1,0 +1,487 @@
+{
+  "doi": "10.1145/3544548.3581469",
+  "title": "RetroLens: A Human-AI Collaborative System for Multi-step Retrosynthetic Route Planning",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Multi-step retrosynthetic route planning (MRRP) is the core task in synthetic chemistry, in which chemists recursively deconstruct a target molecule to find a set of reactants that make up the target. MRRP is challenging in that the search space is vast, and chemists are often lost in the process. Existing AI models can achieve automatic MRRP fast, but they only work on relatively simple targets, which leaves complex molecules under chemists\u2019 expertise. To facilitate MRRP of complex molecules, we proposed a human-AI collaborative system, RetroLens, through a participatory design process. AI can contribute by two approaches: joint action and algorithm-in-the-loop. Deconstruction steps are allocated to chemists or AI based on their capabilities and AI recommends candidate revision steps to fix problems along the way. A within-subjects study (N=18) showed that chemists who used RetroLens reported faster MRRP, broader design space exploration, higher confidence in their planning, and lower cognitive load.",
+  "authors": [
+    {
+      "name": "Chuhan Shi",
+      "institution": "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659547865",
+      "orcid": "0000-0002-3370-1626"
+    },
+    {
+      "name": "Yicheng Hu",
+      "institution": "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660781707",
+      "orcid": "0000-0001-8814-3660"
+    },
+    {
+      "name": "Shenan Wang",
+      "institution": "School of Electronic Engineering and Computer Science, Queen Mary, University of London, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779763",
+      "orcid": "0000-0002-4269-9388"
+    },
+    {
+      "name": "Shuai Ma",
+      "institution": "The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660239312",
+      "orcid": "0000-0002-7658-292X"
+    },
+    {
+      "name": "Chengbo Zheng",
+      "institution": "The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660237913",
+      "orcid": "0000-0003-0226-9399"
+    },
+    {
+      "name": "Xiaojuan Ma",
+      "institution": "The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81484654594",
+      "orcid": "0000-0002-9847-7784"
+    },
+    {
+      "name": "Qiong Luo",
+      "institution": "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, China",
+      "img": "/do/10.1145/contrib-81339515235/rel-imgonly/edited_5968.jpg",
+      "acmid": "81339515235",
+      "orcid": "0000-0002-2861-9492"
+    }
+  ],
+  "references": [
+    {
+      "text": "Laura\u00a0KG Ackerman-Biegasiewicz, Daniela\u00a0M Arias-Rotondo, Kyle\u00a0F Biegasiewicz, Elizabeth Elacqua, Matthew\u00a0R Golder, Laure\u00a0V Kayser, Jessica\u00a0R Lamb, Christine\u00a0M Le, Nathan\u00a0A Romero, Sidney\u00a0M Wilkerson-Hill, 2020. Organic Chemistry: A Retrosynthetic Approach to a Diverse Field., 1845\u20131850\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul\u00a0N Bennett, Kori Inkpen, 2019. Guidelines for human-AI interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Zahra Ashktorab, Q\u00a0Vera Liao, Casey Dugan, James Johnson, Qian Pan, Wei Zhang, Sadhana Kumaravel, and Murray Campbell. 2020. Human-ai collaboration in a cooperative game setting: Measuring social perception and outcomes. Proceedings of the ACM on Human-Computer Interaction 4, CSCW2(2020), 1\u201320.",
+      "doi": "10.1145/3415167"
+    },
+    {
+      "text": "Atanas\u00a0G Atanasov, Sergey\u00a0B Zotchev, Verena\u00a0M Dirsch, and Claudiu\u00a0T Supuran. 2021. Natural products in drug discovery: advances and opportunities. Nature Reviews Drug Discovery 20, 3 (2021), 200\u2013216.",
+      "doi": ""
+    },
+    {
+      "text": "Tomasz Badowski, Karol Molga, and Bartosz\u00a0A Grzybowski. 2019. Selection of cost-effective yet chemically diverse pathways from the networks of computer-generated retrosynthetic plans. Chemical Science 10, 17 (2019), 4640\u20134651.",
+      "doi": ""
+    },
+    {
+      "text": "Gagan Bansal, Tongshuang Wu, Joyce Zhou, Raymond Fok, Besmira Nushi, Ece Kamar, Marco\u00a0Tulio Ribeiro, and Daniel Weld. 2021. Does the whole exceed its parts? the effect of ai explanations on complementary team performance. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3411764.3445717"
+    },
+    {
+      "text": "Javier\u00a0L Baylon, Nicholas\u00a0A Cilfone, Jeffrey\u00a0R Gulcher, and Thomas\u00a0W Chittenden. 2019. Enhancing retrosynthetic reaction prediction with deep learning using multiscale reaction classification. Journal of Chemical Information and Modeling 59, 2 (2019), 673\u2013688.",
+      "doi": ""
+    },
+    {
+      "text": "William Bort, Igor\u00a0I Baskin, Timur Gimadiev, Artem Mukanov, Ramil Nugmanov, Pavel Sidorov, Gilles Marcou, Dragos Horvath, Olga Klimchuk, Timur Madzhidov, 2021. Discovery of novel chemical reactions by deep generative recurrent neural network. Scientific Reports 11, 1 (2021), 1\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Riccardo Bovo, Nicola Binetti, Duncan\u00a0P Brumby, and Simon Julier. 2020. Detecting errors in pick and place procedures: detecting errors in multi-stage and sequence-constrained manual retrieve-assembly procedures. In Proceedings of the 25th International Conference on Intelligent User Interfaces. 536\u2013545.",
+      "doi": "10.1145/3377325.3377497"
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2019. Reflecting on reflexive thematic analysis. Qualitative Research in Sport, Exercise and Health 11, 4 (2019), 589\u2013597.",
+      "doi": ""
+    },
+    {
+      "text": "Zana Bu\u00e7inca, Phoebe Lin, Krzysztof\u00a0Z Gajos, and Elena\u00a0L Glassman. 2020. Proxy tasks and subjective measures can be misleading in evaluating explainable AI systems. In Proceedings of the 25th International Conference on Intelligent User Interfaces. 454\u2013464.",
+      "doi": "10.1145/3377325.3377498"
+    },
+    {
+      "text": "Zana Bu\u00e7inca, Maja\u00a0Barbara Malaya, and Krzysztof\u00a0Z Gajos. 2021. To trust or to think: cognitive forcing functions can reduce overreliance on AI in AI-assisted decision-making. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201321.",
+      "doi": "10.1145/3449287"
+    },
+    {
+      "text": "Carrie\u00a0J Cai, Samantha Winter, David Steiner, Lauren Wilcox, and Michael Terry. 2019. \" Hello AI\": uncovering the onboarding needs of medical practitioners for human-AI collaborative decision-making. Proceedings of the ACM on Human-computer Interaction 3, CSCW(2019), 1\u201324.",
+      "doi": "10.1145/3359206"
+    },
+    {
+      "text": "Liwei Chan, Yi-Chi Liao, George\u00a0B Mo, John\u00a0J Dudley, Chun-Lien Cheng, Per\u00a0Ola Kristensson, and Antti Oulasvirta. 2022. Investigating Positive and Negative Qualities of Human-in-the-Loop Optimization for Designing Interaction Techniques. In CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Binghong Chen, Chengtao Li, Hanjun Dai, and Le Song. 2020. Retro*: learning retrosynthetic planning with neural guided A* search. In International Conference on Machine Learning. PMLR, 1608\u20131616.",
+      "doi": ""
+    },
+    {
+      "text": "Chaofan Chen, Oscar Li, Daniel Tao, Alina Barnett, Cynthia Rudin, and Jonathan\u00a0K Su. 2019. This looks like that: deep learning for interpretable image recognition. Advances in Neural Information Processing Systems 32 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Lydia\u00a0B Chilton, Juho Kim, Paul Andr\u00e9, Felicia Cordeiro, James\u00a0A Landay, Daniel\u00a0S Weld, Steven\u00a0P Dow, Robert\u00a0C Miller, and Haoqi Zhang. 2014. Frenzy: collaborative data organization for creating conference sessions. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1255\u20131264.",
+      "doi": "10.1145/2556288.2557375"
+    },
+    {
+      "text": "Penny Chong, Ngai-Man Cheung, Yuval Elovici, and Alexander Binder. 2021. Toward Scalable and Unified Example-Based Explanation and Outlier Detection. IEEE Transactions on Image Processing 31 (2021), 525\u2013540.",
+      "doi": "10.1109/TIP.2021.3127847"
+    },
+    {
+      "text": "Connor\u00a0W Coley, Luke Rogers, William\u00a0H Green, and Klavs\u00a0F Jensen. 2018. SCScore: synthetic complexity learned from a reaction corpus. Journal of Chemical Information and Modeling 58, 2 (2018), 252\u2013261.",
+      "doi": ""
+    },
+    {
+      "text": "Elias\u00a0James Corey. 1967. General methods for the construction of complex molecules. Pure and Applied chemistry 14, 1 (1967), 19\u201338.",
+      "doi": ""
+    },
+    {
+      "text": "Hanjun Dai, Chengtao Li, Connor Coley, Bo Dai, and Le Song. 2019. Retrosynthesis prediction with conditional graph logic network. Advances in Neural Information Processing Systems 32 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Kahneman Daniel. 2017. Thinking, fast and slow.",
+      "doi": ""
+    },
+    {
+      "text": "Ian\u00a0W Davies. 2019. The digitization of organic synthesis. Nature 570, 7760 (2019), 175\u2013181.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0J Dudley and Per\u00a0Ola Kristensson. 2018. A review of user interface design for interactive machine learning. ACM Transactions on Interactive Intelligent Systems (TiiS) 8, 2(2018), 1\u201337.",
+      "doi": "10.1145/3185517"
+    },
+    {
+      "text": "Jerry\u00a0Alan Fails and Dan\u00a0R Olsen\u00a0Jr. 2003. Interactive machine learning. In Proceedings of the 8th International Conference on Intelligent User Interfaces. 39\u201345.",
+      "doi": "10.1145/604045.604056"
+    },
+    {
+      "text": "William Finnigan, Sabine\u00a0L Flitsch, Lorna\u00a0J Hepworth, and Nicholas\u00a0J Turner. 2021. Enzyme Cascade Design: Retrosynthesis Approach. In Enzyme Cascade Design and Modelling. Springer, 7\u201330.",
+      "doi": ""
+    },
+    {
+      "text": "Susanne Gaube, Harini Suresh, Martina Raue, Alexander Merritt, Seth\u00a0J Berkowitz, Eva Lermer, Joseph\u00a0F Coughlin, John\u00a0V Guttag, Errol Colak, and Marzyeh Ghassemi. 2021. Do as AI say: susceptibility in deployment of clinical decision-aids. NPJ Digital Medicine 4, 1 (2021), 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel Genheden, Amol Thakkar, Veronika Chadimov\u00e1, Jean-Louis Reymond, Ola Engkvist, and Esben Bjerrum. 2020. AiZynthFinder: a fast, robust and flexible open-source software for retrosynthetic planning. Journal of Cheminformatics 12, 1 (2020), 1\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Subhash Ghosh and Tapan\u00a0Kumar Pradhan. 2008. The first total synthesis of emericellamide A. Tetrahedron Letters 49, 22 (2008), 3697\u20133700.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel Gratzl, Alexander Lex, Nils Gehlenborg, Hanspeter Pfister, and Marc Streit. 2013. Lineup: Visual analysis of multi-attribute rankings. IEEE Transactions on Visualization and Computer Graphics 19, 12(2013), 2277\u20132286.",
+      "doi": "10.1109/TVCG.2013.173"
+    },
+    {
+      "text": "Ben Green and Yiling Chen. 2019. The principles and limits of algorithm-in-the-loop decision making. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201324.",
+      "doi": "10.1145/3359152"
+    },
+    {
+      "text": "Bartosz\u00a0A Grzybowski, Sara Szymku\u0107, Ewa\u00a0P Gajewska, Karol Molga, Piotr Dittwald, Agnieszka Wo\u0142os, and Tomasz Klucznik. 2018. Chematica: a story of computer code that started to think like a chemist. Chem 4, 3 (2018), 390\u2013398.",
+      "doi": ""
+    },
+    {
+      "text": "Corina Haita-Falah. 2017. Sunk-cost fallacy and cognitive ability in individual decision-making. Journal of Economic Psychology 58 (2017), 44\u201359.",
+      "doi": ""
+    },
+    {
+      "text": "Peng Han, Peilin Zhao, Chan Lu, Junzhou Huang, Jiaxiang Wu, Shuo Shang, Bin Yao, and Xiangliang Zhang. 2022. GNN-Retro: Retrosynthetic Planning with Graph Neural Networks. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a036. 4014\u20134021.",
+      "doi": ""
+    },
+    {
+      "text": "Sandra\u00a0G Hart and Lowell\u00a0E Staveland. 1988. Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research. In Advances in Psychology. Vol.\u00a052. Elsevier, 139\u2013183.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Hase, Chaofan Chen, Oscar Li, and Cynthia Rudin. 2019. Interpretable image recognition with hierarchical prototypes. In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing, Vol.\u00a07. 32\u201340.",
+      "doi": ""
+    },
+    {
+      "text": "Shoichi Ishida, Kei Terayama, Ryosuke Kojima, Kiyosei Takasu, and Yasushi Okuno. 2022. AI-Driven Synthetic Route Design Incorporated with Retrosynthesis Knowledge. Journal of Chemical Information and Modeling 62, 6 (2022), 1357\u20131367.",
+      "doi": ""
+    },
+    {
+      "text": "Ellen Jiang, Edwin Toh, Alejandra Molina, Kristen Olson, Claire Kayacik, Aaron Donsbach, Carrie\u00a0J Cai, and Michael Terry. 2022. Discovering the Syntax and Strategies of Natural Language Programming with Generative Language Models. In CHI Conference on Human Factors in Computing Systems. 1\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "Heinrich Jiang, Been Kim, Melody Guan, and Maya Gupta. 2018. To trust or not to trust a classifier. Advances in Neural Information Processing Systems 31 (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Ekaterina Jussupow, Izak Benbasat, and Armin Heinzl. 2020. Why are we averse towards algorithms? A comprehensive literature review on algorithm aversion. (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Bo Kang, Arun Kulshreshth, and Joseph\u00a0J LaViola\u00a0Jr. 2016. Analyticalink: An interactive learning environment for math word problem solving. In Proceedings of the 21st International Conference on Intelligent User Interfaces. 419\u2013430.",
+      "doi": "10.1145/2856767.2856789"
+    },
+    {
+      "text": "Pavel Karpov, Guillaume Godin, and Igor\u00a0V Tetko. 2019. A transformer model for retrosynthesis. In International Conference on Artificial Neural Networks. Springer, 817\u2013830.",
+      "doi": "10.1007/978-3-030-30493-5_78"
+    },
+    {
+      "text": "Harmanpreet Kaur, Harsha Nori, Samuel Jenkins, Rich Caruana, Hanna Wallach, and Jennifer Wortman\u00a0Vaughan. 2020. Interpreting interpretability: understanding data scientists\u2019 use of interpretability tools for machine learning. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376219"
+    },
+    {
+      "text": "Harmanpreet Kaur, Alex Williams, and WS Lasecki. 2019. Building shared mental models between humans and ai for effective collaboration. CHI\u201919, May 2019, Glasgow, Scotland(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Junhan Kim, Jana Muhic, Lionel\u00a0Peter Robert, and Sun\u00a0Young Park. 2022. Designing Chatbots with Black Americans with Chronic Conditions: Overcoming Challenges against COVID-19. In CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3491102.3502116"
+    },
+    {
+      "text": "Tomasz Klucznik, Barbara Mikulak-Klucznik, Michael\u00a0P McCormack, Heather Lima, Sara Szymku\u0107, Manishabrata Bhowmick, Karol Molga, Yubai Zhou, Lindsey Rickershauser, Ewa\u00a0P Gajewska, 2018. Efficient syntheses of diverse, medicinally relevant targets planned by computer and executed in the laboratory. Chem 4, 3 (2018), 522\u2013532.",
+      "doi": ""
+    },
+    {
+      "text": "Levente Kocsis and Csaba Szepesv\u00e1ri. 2006. Bandit based monte-carlo planning. In European Conference on Machine Learning. Springer, 282\u2013293.",
+      "doi": "10.1007/11871842_29"
+    },
+    {
+      "text": "Pang\u00a0Wei Koh and Percy Liang. 2017. Understanding black-box predictions via influence functions. In International Conference on Machine Learning. PMLR, 1885\u20131894.",
+      "doi": ""
+    },
+    {
+      "text": "Caitlin Kuhlman, Diana Doherty, Malika Nurbekova, Goutham Deva, Zarni Phyo, Paul-Henry Schoenhagen, MaryAnn VanValkenburg, Elke Rundensteiner, and Lane Harrison. 2019. Evaluating preference collection methods for interactive ranking analytics. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201311.",
+      "doi": "10.1145/3290605.3300742"
+    },
+    {
+      "text": "Vivian Lai, Samuel Carton, Rajat Bhatnagar, Q\u00a0Vera Liao, Yunfeng Zhang, and Chenhao Tan. 2022. Human-AI Collaboration via Conditional Delegation: A Case Study of Content Moderation. In CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3491102.3501999"
+    },
+    {
+      "text": "Vivian Lai, Han Liu, and Chenhao Tan. 2020. \" Why is\u2019 Chicago\u2019deceptive?\" Towards Building Model-Driven Tutorials for Humans. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376873"
+    },
+    {
+      "text": "Vivian Lai and Chenhao Tan. 2019. On human predictions with explanations and predictions of machine learning models: A case study on deception detection. In Proceedings of the Conference on Fairness, Accountability, and Transparency. 29\u201338.",
+      "doi": "10.1145/3287560.3287590"
+    },
+    {
+      "text": "Greg Landrum 2013. RDKit: A software suite for cheminformatics, computational chemistry, and predictive modeling.",
+      "doi": ""
+    },
+    {
+      "text": "Min\u00a0Hun Lee, Daniel\u00a0P Siewiorek, Asim Smailagic, Alexandre Bernardino, and Sergi Berm\u00fadez\u00a0i Badia. 2021. A human-ai collaborative approach for clinical decision making on rehabilitation assessment. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445472"
+    },
+    {
+      "text": "Yang Li, Sayan Sarcar, Yilin Zheng, and Xiangshi Ren. 2021. Exploring Text Revision with Backspace and Caret in Virtual Reality. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3411764.3445474"
+    },
+    {
+      "text": "Kangjie Lin, Youjun Xu, Jianfeng Pei, and Luhua Lai. 2020. Automatic retrosynthetic route planning using template-free models. Chemical Science 11, 12 (2020), 3355\u20133364.",
+      "doi": ""
+    },
+    {
+      "text": "Bowen Liu, Bharath Ramsundar, Prasad Kawthekar, Jade Shi, Joseph Gomes, Quang Luu\u00a0Nguyen, Stephen Ho, Jack Sloane, Paul Wender, and Vijay Pande. 2017. Retrosynthetic reaction prediction using neural sequence-to-sequence models. ACS Central Science 3, 10 (2017), 1103\u20131113.",
+      "doi": ""
+    },
+    {
+      "text": "Ryan Louie, Andy Coenen, Cheng\u00a0Zhi Huang, Michael Terry, and Carrie\u00a0J Cai. 2020. Novice-AI music co-creation via AI-steering tools for deep generative models. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376739"
+    },
+    {
+      "text": "Hao L\u00fc and Yang Li. 2012. Gesture coder: a tool for programming multi-touch gestures by demonstration. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2875\u20132884.",
+      "doi": "10.1145/2207676.2208693"
+    },
+    {
+      "text": "Shuai Ma, Mingfei Sun, and Xiaojuan Ma. 2022. Modeling Adaptive Expression of Robot Learning Engagement and Exploring its Effects on Human Teachers. ACM Transactions on Computer-Human Interaction (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Shuai Ma, Zijun Wei, Feng Tian, Xiangmin Fan, Jianming Zhang, Xiaohui Shen, Zhe Lin, Jin Huang, Radom\u00edr M\u011bch, Dimitris Samaras, 2019. SmartEye: assisting instant photo taking via integrating user preference with deep view proposal network. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300701"
+    },
+    {
+      "text": "Shuai Ma, Taichang Zhou, Fei Nie, and Xiaojuan Ma. 2022. Glancee: An adaptable system for instructors to grasp student learning status in synchronous online classes. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems. 1\u201325.",
+      "doi": "10.1145/3491102.3517482"
+    },
+    {
+      "text": "Maximilian Mackeprang, Claudia M\u00fcller-Birn, and Maximilian\u00a0Timo Stauss. 2019. Discovering the sweet spot of human-computer configurations: A case study in information extraction. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201330.",
+      "doi": "10.1145/3359297"
+    },
+    {
+      "text": "Barbara Mikulak-Klucznik, Patrycja Go\u0142\u0119biowska, Alison\u00a0A Bayly, Oskar Popik, Tomasz Klucznik, Sara Szymku\u0107, Ewa\u00a0P Gajewska, Piotr Dittwald, Olga Staszewska-Krajewska, Wiktor Beker, 2020. Computational planning of the synthesis of complex natural products. Nature 588, 7836 (2020), 83\u201388.",
+      "doi": ""
+    },
+    {
+      "text": "Swati Mishra and Jeffrey\u00a0M Rzeszotarski. 2021. Designing Interactive Transfer Learning Tools for ML Non-Experts. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3411764.3445096"
+    },
+    {
+      "text": "Ramaravind\u00a0K Mothilal, Amit Sharma, and Chenhao Tan. 2020. Explaining machine learning classifiers through diverse counterfactual explanations. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. 607\u2013617.",
+      "doi": "10.1145/3351095.3372850"
+    },
+    {
+      "text": "Vishnu\u00a0H Nair, Philippe Schwaller, and Teodoro Laino. 2019. Data-driven chemical reaction prediction and retrosynthesis. CHIMIA International Journal for Chemistry 73, 12 (2019), 997\u20131000.",
+      "doi": ""
+    },
+    {
+      "text": "Stephan Pajer, Marc Streit, Thomas Torsney-Weir, Florian Spechtenhauser, Torsten M\u00f6ller, and Harald Piringer. 2016. Weightlifter: Visual weight space exploration for multi-criteria decision making. IEEE Transactions on Visualization and Computer Graphics 23, 1(2016), 611\u2013620.",
+      "doi": "10.1109/TVCG.2016.2598589"
+    },
+    {
+      "text": "Joon\u00a0Sung Park, Rick Barber, Alex Kirlik, and Karrie Karahalios. 2019. A slow algorithm improves users\u2019 assessments of the algorithm\u2019s accuracy. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201315.",
+      "doi": "10.1145/3359204"
+    },
+    {
+      "text": "Forough Poursabzi-Sangdeh, Daniel\u00a0G Goldstein, Jake\u00a0M Hofman, Jennifer\u00a0Wortman Wortman\u00a0Vaughan, and Hanna Wallach. 2021. Manipulating and measuring model interpretability. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201352.",
+      "doi": "10.1145/3411764.3445315"
+    },
+    {
+      "text": "Koji Satoh and Kimito Funatsu. 1999. A novel approach to retrosynthetic analysis using knowledge bases derived from reaction databases. Journal of Chemical Information and Computer Sciences 39, 2 (1999), 316\u2013325.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0S Schreck, Connor\u00a0W Coley, and Kyle\u00a0JM Bishop. 2019. Learning retrosynthetic planning through simulated experience. ACS Central Science 5, 6 (2019), 970\u2013981.",
+      "doi": ""
+    },
+    {
+      "text": "Philippe Schwaller, Riccardo Petraglia, Valerio Zullo, Vishnu\u00a0H Nair, Rico\u00a0Andreas Haeuselmann, Riccardo Pisoni, Costas Bekas, Anna Iuliano, and Teodoro Laino. 2020. Predicting retrosynthetic pathways using transformer-based models and a hyper-graph exploration strategy. Chemical Science 11, 12 (2020), 3316\u20133325.",
+      "doi": ""
+    },
+    {
+      "text": "Oliver\u00a0B Scott and AW Edith\u00a0Chan. 2020. ScaffoldGraph: an open-source library for the generation and analysis of molecular scaffold networks and scaffold trees. Bioinformatics 36, 12 (2020), 3930\u20133931.",
+      "doi": ""
+    },
+    {
+      "text": "Marwin\u00a0HS Segler, Mike Preuss, and Mark\u00a0P Waller. 2018. Planning chemical syntheses with deep neural networks and symbolic AI. Nature 555, 7698 (2018), 604\u2013610.",
+      "doi": ""
+    },
+    {
+      "text": "Marwin\u00a0HS Segler and Mark\u00a0P Waller. 2017. Modelling chemical reasoning to predict and invent reactions. Chemistry\u2013A European Journal 23, 25 (2017), 6118\u20136128.",
+      "doi": ""
+    },
+    {
+      "text": "Seung-Woo Seo, You\u00a0Young Song, June\u00a0Yong Yang, Seohui Bae, Hankook Lee, Jinwoo Shin, Sung\u00a0Ju Hwang, and Eunho Yang. 2021. GTA: Graph truncated attention for retrosynthesis. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a035. 531\u2013539.",
+      "doi": ""
+    },
+    {
+      "text": "Chuhan Shi, Zhihan Jiang, Xiaojuan Ma, and Qiong Luo. 2022. A Personalized Visual Aid for Selections of Appearance Building Products with Long-term Effects. In CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3491102.3517659"
+    },
+    {
+      "text": "Chence Shi, Minkai Xu, Hongyu Guo, Ming Zhang, and Jian Tang. 2020. A graph to graphs framework for retrosynthesis prediction. In International Conference on Machine Learning. PMLR, 8818\u20138827.",
+      "doi": ""
+    },
+    {
+      "text": "David Silver, Aja Huang, Chris\u00a0J Maddison, Arthur Guez, Laurent Sifre, George Van Den\u00a0Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda Panneershelvam, Marc Lanctot, 2016. Mastering the game of Go with deep neural networks and tree search. Nature 529, 7587 (2016), 484\u2013489.",
+      "doi": ""
+    },
+    {
+      "text": "Teague Sterling and John\u00a0J Irwin. 2015. ZINC 15\u2013ligand discovery for everyone. Journal of Chemical Information and Modeling 55, 11 (2015), 2324\u20132337.",
+      "doi": ""
+    },
+    {
+      "text": "Sarah\u00a0Jean Stevens. 2011. Progress toward the synthesis of providencin. Ph.\u00a0D. Dissertation. Colorado State University.",
+      "doi": ""
+    },
+    {
+      "text": "Dong Sun, Renfei Huang, Yuanzhe Chen, Yong Wang, Jia Zeng, Mingxuan Yuan, Ting-Chuen Pong, and Huamin Qu. 2019. PlanningVis: A visual analytics approach to production planning in smart factories. IEEE Transactions on Visualization and Computer Graphics 26, 1(2019), 579\u2013589.",
+      "doi": ""
+    },
+    {
+      "text": "Sara Szymku\u0107, Ewa\u00a0P Gajewska, Tomasz Klucznik, Karol Molga, Piotr Dittwald, Micha\u0142 Startek, Micha\u0142 Bajczyk, and Bartosz\u00a0A Grzybowski. 2016. Computer-assisted synthetic planning: the end of the beginning. Angewandte Chemie International Edition 55, 20 (2016), 5904\u20135937.",
+      "doi": ""
+    },
+    {
+      "text": "Chunqiao Tan and Xiaohong Chen. 2010. Intuitionistic fuzzy Choquet integral operator for multi-criteria decision making. Expert Systems with Applications 37, 1 (2010), 149\u2013157.",
+      "doi": "10.1016/j.eswa.2009.05.005"
+    },
+    {
+      "text": "Stefano Teso and Kristian Kersting. 2019. Explanatory interactive machine learning. In Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society. 239\u2013245.",
+      "doi": "10.1145/3306618.3314293"
+    },
+    {
+      "text": "Igor\u00a0V Tetko, Pavel Karpov, Ruud Van\u00a0Deursen, and Guillaume Godin. 2020. State-of-the-art augmented NLP transformer models for direct and single-step retrosynthesis. Nature Communications 11, 1 (2020), 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Gabriele Tolomei, Fabrizio Silvestri, Andrew Haines, and Mounia Lalmas. 2017. Interpretable predictions of tree-based ensembles via actionable feature tweaking. In Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 465\u2013474.",
+      "doi": "10.1145/3097983.3098039"
+    },
+    {
+      "text": "Chun-Hua Tsai, Yue You, Xinning Gui, Yubo Kou, and John\u00a0M Carroll. 2021. Exploring and promoting diagnostic transparency and explainability in online symptom checkers. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3411764.3445101"
+    },
+    {
+      "text": "Kurt VanLehn. 2016. Regulative loops, step loops and task loops. International Journal of Artificial Intelligence in Education 26, 1(2016), 107\u2013112.",
+      "doi": ""
+    },
+    {
+      "text": "Chandrabhan Verma, LO Olasunkanmi, Eno\u00a0E Ebenso, and MA Quraishi. 2018. Substituents effect on corrosion inhibition performance of organic compounds in aggressive ionic solutions: a review. Journal of Molecular Liquids 251 (2018), 100\u2013118.",
+      "doi": ""
+    },
+    {
+      "text": "Emily Wall, Subhajit Das, Ravish Chawla, Bharath Kalidindi, Eli\u00a0T Brown, and Alex Endert. 2017. Podium: Ranking data using mixed-initiative visual analytics. IEEE Transactions on Visualization and Computer Graphics 24, 1(2017), 288\u2013297.",
+      "doi": ""
+    },
+    {
+      "text": "Danding Wang, Qian Yang, Ashraf Abdul, and Brian\u00a0Y Lim. 2019. Designing theory-driven user-centric explainable AI. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3290605.3300831"
+    },
+    {
+      "text": "Yiting Wang, Walker\u00a0M White, and Erik Andersen. 2017. Pathviewer: Visualizing pathways through student data. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 960\u2013964.",
+      "doi": "10.1145/3025453.3025819"
+    },
+    {
+      "text": "Zhuang Wang, Wenhan Zhang, and Bo Liu. 2021. Computational Analysis of Synthetic Planning: Past and Future. Chinese Journal of Chemistry 39, 11 (2021), 3127\u20133143.",
+      "doi": ""
+    },
+    {
+      "text": "David Weininger. 1988. SMILES, a chemical language and information system. 1. Introduction to methodology and encoding rules. Journal of Chemical Information and Computer Sciences 28, 1 (1988), 31\u201336.",
+      "doi": "10.1021/ci00057a005"
+    },
+    {
+      "text": "Di Weng, Ran Chen, Zikun Deng, Feiran Wu, Jingmin Chen, and Yingcai Wu. 2019. SRVis: Towards Better Spatial Integration in Ranking Visualization. IEEE Transactions on Visualization and Computer Graphics 25, 1(2019), 459\u2013469. https://doi.org/10.1109/TVCG.2018.2865126",
+      "doi": "10.1109/TVCG.2018.2865126"
+    },
+    {
+      "text": "Di Weng, Chengbo Zheng, Zikun Deng, Mingze Ma, Jie Bao, Yu Zheng, Mingliang Xu, and Yingcai Wu. 2020. Towards better bus networks: A visual analytics approach. IEEE transactions on visualization and computer graphics 27, 2(2020), 817\u2013827.",
+      "doi": ""
+    },
+    {
+      "text": "Di Weng, Heming Zhu, Jie Bao, Yu Zheng, and Yingcai Wu. 2018. Homefinder revisited: Finding ideal homes with reachability-centric multi-criteria decision making. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3173574.3173821"
+    },
+    {
+      "text": "Chaochao Yan, Qianggang Ding, Peilin Zhao, Shuangjia Zheng, Jinyu Yang, Yang Yu, and Junzhou Huang. 2020. Retroxpert: Decompose retrosynthesis prediction like a chemist. Advances in Neural Information Processing Systems 33 (2020), 11248\u201311258.",
+      "doi": ""
+    },
+    {
+      "text": "Litao Yan, Elena\u00a0L Glassman, and Tianyi Zhang. 2021. Visualizing Examples of Deep Neural Networks at Scale. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445654"
+    },
+    {
+      "text": "Stelios\u00a0H Zanakis, Anthony Solomon, Nicole Wishart, and Sandipa Dublish. 1998. Multi-attribute decision making: A simulation comparison of select methods. European Journal of Operational Research 107, 3 (1998), 507\u2013529.",
+      "doi": ""
+    },
+    {
+      "text": "Haoqi Zhang, Edith Law, Rob Miller, Krzysztof Gajos, David Parkes, and Eric Horvitz. 2012. Human computation tasks with global constraints. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 217\u2013226.",
+      "doi": "10.1145/2207676.2207708"
+    },
+    {
+      "text": "Yunfeng Zhang, Q\u00a0Vera Liao, and Rachel\u00a0KE Bellamy. 2020. Effect of confidence and explanation on accuracy and trust calibration in AI-assisted decision making. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. 295\u2013305.",
+      "doi": "10.1145/3351095.3372852"
+    },
+    {
+      "text": "Yong Zheng. 2017. Criteria chains: a novel multi-criteria recommendation approach. In Proceedings of the 22nd International Conference on Intelligent User Interfaces. 29\u201333.",
+      "doi": "10.1145/3025171.3025215"
+    },
+    {
+      "text": "Oren Zuckerman, Viva\u00a0Sarah Press, Ehud Barda, Benny Megidish, and Hadas Erel. 2022. Tangible Collaboration: A Human-Centered Approach for Sharing Control With an Actuated-Interface. In CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3491102.3517449"
+    }
+  ]
+}

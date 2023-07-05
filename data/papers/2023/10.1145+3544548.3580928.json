@@ -1,0 +1,557 @@
+{
+  "doi": "10.1145/3544548.3580928",
+  "title": "iFAD Gestures: Understanding Users\u2019 Gesture Input Performance with Index-Finger Augmentation Devices",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2023,
+  "badges": [],
+  "abstract": "We examine gestures performed with a class of input devices with distinctive quality properties in the wearables landscape, which we call \u201cindex-Finger Augmentation Devices\u201d (iFADs). We introduce a four-level taxonomy to characterize the diversity of iFAD gestures, evaluate iFAD gesture articulation on a dataset of 6,369 gestures collected from 20 participants, and compute recognition accuracy rates. Our findings show that iFAD gestures are fast (1.84s on average), easy to articulate (1.52 average rating on a difficulty scale from 1 to 5), and socially acceptable (81% willingness to use them in public places). We compare iFAD gestures with gestures performed using other devices (styli, touchscreens, game controllers) from several public datasets (39,263 gestures, 277 participants), and report that iFAD gestures are two times faster than whole-body gestures and as fast as stylus and finger strokes performed on touchscreens.",
+  "authors": [
+    {
+      "name": "Radu-Daniel Vatavu",
+      "institution": "MintViz Lab, MANSiD Research Center, Stefan cel Mare University of Suceava, Romania",
+      "img": "/do/10.1145/contrib-81343507895/rel-imgonly/radu.jpg",
+      "acmid": "81343507895",
+      "orcid": "0000-0002-7631-6445"
+    }
+  ],
+  "references": [
+    {
+      "text": "Natasha Abner, Kensy Cooperrider, and Susan Goldin-Meadow. 2015. Gesture for Linguists: A Handy Primer. Language and Linguistics Compass 9, 11 (2015), 437\u2013451. https://doi.org/10.1111/lnc3.12168",
+      "doi": ""
+    },
+    {
+      "text": "Lisa Anthony and Jacob\u00a0O. Wobbrock. 2010. A Lightweight Multistroke Recognizer for User Interface Prototypes. In Proceedings of Graphics Interface 2010(GI \u201910). Canadian Information Processing Society, Canada, 245\u2013252. https://dl.acm.org/doi/10.5555/1839214.1839258",
+      "doi": "10.5555/1839214.1839258"
+    },
+    {
+      "text": "Atsunori Ariga and Katsumi Watanabe. 2009. What is Special About the Index Finger?: The Index Finger Advantage in Manipulating Reflexive Attentional Shift. Japanese Psychological Research 51, 4 (2009), 258\u2013265. https://doi.org/10.1111/j.1468-5884.2009.00408.x",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Ashbrook, Patrick Baudisch, and Sean White. 2011. Nenya: Subtle and Eyes-Free Mobile Input with a Magnetically-Tracked Finger Ring. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201911). ACM, New York, NY, USA, 2043\u20132046. https://doi.org/10.1145/1978942.1979238",
+      "doi": "10.1145/1978942.1979238"
+    },
+    {
+      "text": "Ilhan Aslan, Tabea Schmidt, Jens Woehrle, Lukas Vogel, and Elisabeth Andr\u00e9. 2018. Pen+Mid-Air Gestures: Eliciting Contextual Gestures. In Proceedings of the 20th International Conference on Multimodal Interaction(ICMI \u201918). ACM, New York, NY, USA, 135\u2013144. https://doi.org/10.1145/3242969.3242979",
+      "doi": "10.1145/3242969.3242979"
+    },
+    {
+      "text": "Rachel Bainbridge and Joseph\u00a0A. Paradiso. 2011. Wireless Hand Gesture Capture through Wearable Passive Tag Sensing. In Proceedings of the International Conference on Body Sensor Networks. IEEE, USA, 200\u2013204. https://doi.org/10.1109/BSN.2011.42",
+      "doi": "10.1109/BSN.2011.42"
+    },
+    {
+      "text": "Ravin Balakrishnan and Scott MacKenzie. 1997. Performance Differences in the Fingers, Wrist, and Forearm in Computer Input Control. In Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems(CHI \u201997). ACM, New York, NY, USA, 303\u2013310. https://doi.org/10.1145/258549.258764",
+      "doi": "10.1145/258549.258764"
+    },
+    {
+      "text": "Giulia Barbareschi, Catherine Holloway, Nadia Bianchi-Berthouze, Sharon Sonenblum, and Stephen Sprigle. 2018. Use of a Low-Cost, Chest-Mounted Accelerometer to Evaluate Transfer Skills of Wheelchair Users During Everyday Activities: Observational Study. JMIR Rehabil Assist Technol 5, 2 (Dec 2018), e11748. https://doi.org/10.2196/11748",
+      "doi": ""
+    },
+    {
+      "text": "Roger Boldu, Alexandru Dancu, Denys\u00a0J.C. Matthies, Thisum Buddhika, Shamane Siriwardhana, and Suranga Nanayakkara. 2018. FingerReader2.0: Designing and Evaluating a Wearable Finger-Worn Camera to Assist People with Visual Impairments While Shopping. Proceedings of the ACM on Interactive Mobile, Wearable and Ubiquitous Technologies 2, 3, Article 94 (2018), 19\u00a0pages. https://doi.org/10.1145/3264904",
+      "doi": "10.1145/3264904"
+    },
+    {
+      "text": "Roger Boldu, Alexandru Dancu, Denys\u00a0J.C. Matthies, Pablo\u00a0Gallego Casc\u00f3n, Shanaka Ransir, and Suranga Nanayakkara. 2018. Thumb-In-Motion: Evaluating Thumb-to-Ring Microgestures for Athletic Activity. In Proceedings of the Symposium on Spatial User Interaction(SUI \u201918). ACM, New York, NY, USA, 150\u2013157. https://doi.org/10.1145/3267782.3267796",
+      "doi": "10.1145/3267782.3267796"
+    },
+    {
+      "text": "Xiang Cao and Shumin Zhai. 2007. Modeling Human Performance of Pen Stroke Gestures. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201907). ACM, New York, NY, USA, 1495\u20131504. https://doi.org/10.1145/1240624.1240850",
+      "doi": "10.1145/1240624.1240850"
+    },
+    {
+      "text": "Cristiana Cavina-Pratesi and Constanze Hesse. 2013. Why Do the Eyes Prefer the Index Finger? Simultaneous Recording of Eye and Hand Movements During Precision Grasping. Journal of Vision 13, 5 (2013), 15. https://doi.org/10.1167/13.5.15",
+      "doi": ""
+    },
+    {
+      "text": "Edwin Chan, Teddy Seyed, Wolfgang Stuerzlinger, Xing-Dong Yang, and Frank Maurer. 2016. User Elicitation on Single-Hand Microgestures. In Proceedings of the CHI Conference on Human Factors in Computing Systems(CHI \u201916). ACM, New York, NY, USA, 3403\u20133414. https://doi.org/10.1145/2858036.2858589",
+      "doi": "10.1145/2858036.2858589"
+    },
+    {
+      "text": "Liwei Chan, Yi-Ling Chen, Chi-Hao Hsieh, Rong-Hao Liang, and Bing-Yu Chen. 2015. CyclopsRing: Enabling Whole-Hand and Context-Aware Interactions Through a Fisheye Ring. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology(UIST \u201915). ACM, New York, NY, USA, 549\u2013556. https://doi.org/10.1145/2807442.2807450",
+      "doi": "10.1145/2807442.2807450"
+    },
+    {
+      "text": "Ke-Yu Chen, Kent Lyons, Sean White, and Shwetak Patel. 2013. UTrack: 3D Input Using Two Magnetic Sensors. In Proceedings of the 26th Annual ACM Symposium on User Interface Software and Technology(UIST \u201913). ACM, New York, NY, USA, 237\u2013244. https://doi.org/10.1145/2501988.2502035",
+      "doi": "10.1145/2501988.2502035"
+    },
+    {
+      "text": "Mingyu Chen, Ghassan AlRegib, and Biing-Hwang Juang. 2012. 6DMG: A New 6D Motion Gesture Database. In Proceedings of the 3rd Multimedia Systems Conference(MMSys \u201912). ACM, New York, NY, USA, 83\u201388. https://doi.org/10.1145/2155555.2155569",
+      "doi": "10.1145/2155555.2155569"
+    },
+    {
+      "text": "Xiang\u00a0\u2018Anthony\u2019 Chen and Yang Li. 2017. Improv: An Input Framework for Improvising Cross-Device Interaction by Demonstration. ACM Transactions on Computer-Human Interaction 24, 2, Article 15 (apr 2017), 21\u00a0pages. https://doi.org/10.1145/3057862",
+      "doi": "10.1145/3057862"
+    },
+    {
+      "text": "Yi-Lin Chen, Yi-Lung Tsai, Kailing Huang, and Pai\u00a0H. Chou. 2014. MobiRing: A Finger-Worn Wireless Motion Tracker. In Proceedings of the IEEE International Conference on Internet of Things (iThings), and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom). IEEE, USA, 316\u2013323. https://doi.org/10.1109/iThings.2014.58",
+      "doi": "10.1109/iThings.2014.58"
+    },
+    {
+      "text": "Zixue Cheng and Yinghui Zhou. 2018. Finger-Worn Device Based Hand Gesture Recognition Using Long Short-Term Memory. In Proceedings of the IEEE International Conference on Systems, Man, and Cybernetics(SMC \u201918). IEEE, USA, 2067\u20132072. https://doi.org/10.1109/SMC.2018.00356",
+      "doi": "10.1109/SMC.2018.00356"
+    },
+    {
+      "text": "Victor Cheung and Audrey Girouard. 2019. Tangible Around-Device Interaction Using Rotatory Gestures with a Magnetic Ring. In Proceedings of the 21st International Conference on Human-Computer Interaction with Mobile Devices and Services(MobileHCI \u201919). ACM, New York, NY, USA, Article 26, 8\u00a0pages. https://doi.org/10.1145/3338286.3340137",
+      "doi": "10.1145/3338286.3340137"
+    },
+    {
+      "text": "Ashley Colley, Virve Inget, Inka Rantala, and Jonna H\u00e4kkil\u00e4. 2017. Investigating Interaction with a Ring Form Factor. In Proceedings of the 16th Int. Conference on Mobile and Ubiquitous Multimedia(MUM \u201917). ACM, New York, NY, USA, 107\u2013111. https://doi.org/10.1145/3152832.3152870",
+      "doi": "10.1145/3152832.3152870"
+    },
+    {
+      "text": "Christine Dierk, Tom\u00e1s Vega\u00a0G\u00e1lvez, and Eric Paulos. 2017. AlterNail: Ambient, Batteryless, Stateful, Dynamic Displays at Your Fingertips. In Proceedings of the CHI Conference on Human Factors in Computing Systems(CHI \u201917). ACM, New York, NY, USA, 6754\u20136759. https://doi.org/10.1145/3025453.3025924",
+      "doi": "10.1145/3025453.3025924"
+    },
+    {
+      "text": "Tilman Dingler, Takashi Goto, Benjamin Tag, and Kai Kunze. 2017. EMS Icons: Conveying Information by Analogy to Enhance Communication through Electrical Muscle Stimulation. In Proceedings of the ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the ACM International Symposium on Wearable Computers(UbiComp \u201917). ACM, New York, NY, USA, 732\u2013739. https://doi.org/10.1145/3123024.3129275",
+      "doi": "10.1145/3123024.3129275"
+    },
+    {
+      "text": "Tilman Dingler, Rufat Rzayev, Alireza\u00a0Sahami Shirazi, and Niels Henze. 2018. Designing Consistent Gestures Across Device Types: Eliciting RSVP Controls for Phone, Watch, and Glasses. In Proceedings of the CHI Conference on Human Factors in Computing Systems(CHI \u201918). ACM, New York, NY, USA, Article 419, 12\u00a0pages. https://doi.org/10.1145/3173574.3173993",
+      "doi": "10.1145/3173574.3173993"
+    },
+    {
+      "text": "Marie-Pierre Dubuisson and Anil\u00a0K. Jain. 1994. A Modifed Hausdorf Distance for Object Matching. In Proc. of the 12th Int. Conference on Pattern Recognition(ICPR \u201994). IEEE, USA, 566\u2013568. https://doi.org/10.1109/ICPR.1994.576361",
+      "doi": ""
+    },
+    {
+      "text": "Jane\u00a0L. E, Ilene\u00a0L. E, James\u00a0A. Landay, and Jessica\u00a0R. Cauchard. 2017. Drone & Wo: Cultural Influences on Human-Drone Interaction Techniques. In Proceedings of the CHI Conference on Human Factors in Computing Systems(CHI \u201917). ACM, New York, NY, USA, 6794\u20136799. https://doi.org/10.1145/3025453.3025755",
+      "doi": "10.1145/3025453.3025755"
+    },
+    {
+      "text": "Iren\u00e4us Eibl-Eibesfeldt. 2017. Human Ethology. Routledge, New York, NY, USA. https://doi.org/10.4324/9780203789544",
+      "doi": ""
+    },
+    {
+      "text": "Simon Fothergill, Helena Mentis, Pushmeet Kohli, and Sebastian Nowozin. 2012. Instructing People for Training Gestural Interactive Systems. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201912). ACM, New York, NY, USA, 1737\u20131746. https://doi.org/10.1145/2207676.2208303",
+      "doi": "10.1145/2207676.2208303"
+    },
+    {
+      "text": "Masaaki Fukumoto. 2005. A Finger-Ring Shaped Wearable Handset Based on Bone-Conduction. In Proceedings of the 9th IEEE International Symposium on Wearable Computers(ISWC \u201905). IEEE, USA, 10\u201313. https://doi.org/10.1109/ISWC.2005.4",
+      "doi": "10.1109/ISWC.2005.4"
+    },
+    {
+      "text": "Maribeth Gandy, Thad Starner, Jake Auxier, and Daniel Ashbrook. 2000. The Gesture Pendant: A Self-Illuminating, Wearable, Infrared Computer Vision System for Home Automation Control and Medical Monitoring. In Proceedings of the 4th IEEE International Symposium on Wearable Computers(ISWC \u201900). IEEE Computer Society, USA, 87. https://doi.org/10.1109/ISWC.2000.888469",
+      "doi": ""
+    },
+    {
+      "text": "Bogdan-Florin Gheran, Jean Vanderdonckt, and Radu-Daniel Vatavu. 2018. Gestures for Smart Rings: Empirical Results, Insights, and Design Implications. In Proceedings of the Designing Interactive Systems Conference(DIS \u201918). ACM, New York, NY, USA, 623\u2013635. https://doi.org/10.1145/3196709.3196741",
+      "doi": "10.1145/3196709.3196741"
+    },
+    {
+      "text": "Bogdan-Florin Gheran, Santiago Villarreal-Narvaez, Radu-Daniel Vatavu, and Jean Vanderdonckt. 2022. RepliGES and GEStory: Visual Tools for Systematizing and Consolidating Knowledge on User-Defined Gestures. In Proceedings of the International Conference on Advanced Visual Interfaces(AVI \u201922). ACM, New York, NY, USA, 5:1-5:9\u00a0pages. https://doi.org/10.1145/3531073.3531112",
+      "doi": "10.1145/3531073.3531112"
+    },
+    {
+      "text": "Sarthak Ghosh, Hyeong\u00a0Cheol Kim, Yang Cao, Arne Wessels, Simon\u00a0T. Perrault, and Shengdong Zhao. 2016. Ringteraction: Coordinated Thumb-Index Interaction Using a Ring. In Proceedings of the CHI Conference Extended Abstracts on Human Factors in Computing Systems(CHI EA \u201916). ACM, New York, NY, USA, 2640\u20132647. https://doi.org/10.1145/2851581.2892371",
+      "doi": "10.1145/2851581.2892371"
+    },
+    {
+      "text": "Munkhjargal Gochoo, Sheikh Badar Ud\u00a0Din Tahir, Ahmad Jalal, and Kibum Kim. 2021. Monitoring Real-Time Personal Locomotion Behaviors Over Smart Indoor-Outdoor Environments Via Body-Worn Sensors. IEEE Access 9(2021), 70556\u201370570. https://doi.org/10.1109/ACCESS.2021.3078513",
+      "doi": ""
+    },
+    {
+      "text": "Tovi Grossman, Xiang\u00a0Anthony Chen, and George Fitzmaurice. 2015. Typing on Glasses: Adapting Text Entry to Smart Eyewear. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services(MobileHCI \u201915). ACM, New York, NY, USA, 144\u2013152. https://doi.org/10.1145/2785830.2785867",
+      "doi": "10.1145/2785830.2785867"
+    },
+    {
+      "text": "Yizheng Gu, Chun Yu, Zhipeng Li, Zhaoheng Li, Xiaoying Wei, and Yuanchun Shi. 2020. QwertyRing: Text Entry on Physical Surfaces Using a Ring. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 4, 4, Article 128 (Dec. 2020), 29\u00a0pages. https://doi.org/10.1145/3432204",
+      "doi": "10.1145/3432204"
+    },
+    {
+      "text": "Aakar Gupta, Cheng Ji, Hui-Shyong Yeo, Aaron Quigley, and Daniel Vogel. 2019. RotoSwype: Word-Gesture Typing Using a Ring. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). ACM, New York, NY, USA, Article 14, 12\u00a0pages. https://doi.org/10.1145/3290605.3300244",
+      "doi": "10.1145/3290605.3300244"
+    },
+    {
+      "text": "Jaehyun Han, Sunggeun Ahn, Keunwoo Park, and Geehyuk Lee. 2017. Designing Touch Gestures Using the Space around the Smartwatch as Continuous Input Space. In Proceedings of the ACM International Conference on Interactive Surfaces and Spaces(ISS \u201917). ACM, New York, NY, USA, 210\u2013219. https://doi.org/10.1145/3132272.3134134",
+      "doi": "10.1145/3132272.3134134"
+    },
+    {
+      "text": "Teng Han, Qian Han, Michelle Annett, Fraser Anderson, Da-Yuan Huang, and Xing-Dong Yang. 2017. Frictio: Passive Kinesthetic Force Feedback for Smart Ring Output. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology(UIST \u201917). ACM, New York, NY, USA, 131\u2013142. https://doi.org/10.1145/3126594.3126622",
+      "doi": "10.1145/3126594.3126622"
+    },
+    {
+      "text": "Chris Harrison, Hrvoje Benko, and Andrew\u00a0D. Wilson. 2011. OmniTouch: Wearable Multitouch Interaction Everywhere. In Proceedings of the 24th ACM Symposium on User Interface Software and Technology(UIST \u201911). ACM, New York, NY, USA, 441\u2013450. https://doi.org/10.1145/2047196.2047255",
+      "doi": "10.1145/2047196.2047255"
+    },
+    {
+      "text": "Chris Harrison and Haakon Faste. 2014. Implications of Location and Touch for On-Body Projected Interfaces. In Proceedings of the Conference on Designing Interactive Systems(DIS \u201914). ACM, New York, NY, USA, 543\u2013552. https://doi.org/10.1145/2598510.2598587",
+      "doi": "10.1145/2598510.2598587"
+    },
+    {
+      "text": "Chris Harrison and Scott\u00a0E. Hudson. 2009. Abracadabra: Wireless, High-Precision, and Unpowered Finger Input for Very Small Mobile Devices. In Proceedings of the 22nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201909). ACM, New York, NY, USA, 121\u2013\u2013124. https://doi.org/10.1145/1622176.1622199",
+      "doi": "10.1145/1622176.1622199"
+    },
+    {
+      "text": "Florian Heller, Stefan Ivanov, Chat Wacharamanotham, and Jan Borchers. 2014. FabriTouch: Exploring Flexible Touch Input on Textiles. In Proceedings of the ACM International Symposium on Wearable Computers(ISWC \u201914). ACM, New York, NY, USA, 59\u201362. https://doi.org/10.1145/2634317.2634345",
+      "doi": "10.1145/2634317.2634345"
+    },
+    {
+      "text": "Juan\u00a0David Hincapi\u00e9-Ramos, Xiang Guo, Paymahn Moghadasian, and Pourang Irani. 2014. Consumed Endurance: A Metric to Quantify Arm Fatigue of Mid-Air Interactions. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201914). ACM, New York, NY, USA, 1063\u20131072. https://doi.org/10.1145/2556288.2557130",
+      "doi": "10.1145/2556288.2557130"
+    },
+    {
+      "text": "Michael Hoffman, Paul Varcholik, and Joseph\u00a0J. LaViola. 2010. Breaking the Status Quo: Improving 3D Gesture Recognition with Spatially Convenient Input Devices. In Proceedings of the IEEE Virtual Reality Conference(VR \u201910). IEEE, USA, 59\u201366. https://doi.org/10.1109/VR.2010.5444813",
+      "doi": "10.1109/VR.2010.5444813"
+    },
+    {
+      "text": "Feng Hong, Shujuan You, Meiyu Wei, Yongtuo Zhang, and Zhongwen Guo. 2016. MGRA: Motion Gesture Recognition via Accelerometer. Sensors 16, 4 (2016), 530. https://doi.org/10.3390/s16040530",
+      "doi": ""
+    },
+    {
+      "text": "Tatsuya Horie, Tsutomu Terada, Takuya Katayama, and Masahiko Tsukamoto. 2012. A Pointing Method Using Accelerometers for Graphical User Interfaces. In Proceedings of the 3rd Augmented Human International Conference(AH \u201912). ACM, New York, NY, USA, Article 12, 8\u00a0pages. https://doi.org/10.1145/2160125.2160137",
+      "doi": "10.1145/2160125.2160137"
+    },
+    {
+      "text": "Kasper Hornb\u00e6k, S\u00f8ren\u00a0S. Sander, Javier\u00a0Andr\u00e9s Bargas-Avila, and Jakob Grue\u00a0Simonsen. 2014. Is Once Enough? On the Extent and Content of Replications in Human-Computer Interaction. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201914). ACM, New York, NY, USA, 3523\u20133532. https://doi.org/10.1145/2556288.2557004",
+      "doi": "10.1145/2556288.2557004"
+    },
+    {
+      "text": "Poika Isokoski. 2001. Model for Unistroke Writing Time. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201901). ACM, New York, NY, USA, 357\u2013364. https://doi.org/10.1145/365024.365299",
+      "doi": "10.1145/365024.365299"
+    },
+    {
+      "text": "Ahmad Jalal, Majid Ali\u00a0Khan Quaid, Sheikh Badar ud\u00a0din Tahir, and Kibum Kim. 2020. A Study of Accelerometer and Gyroscope Measurements in Physical Life-Log Activities Detection Systems. Sensors 20, 22, Article 6670(2020), 22\u00a0pages. https://doi.org/10.3390/s20226670",
+      "doi": ""
+    },
+    {
+      "text": "Lei Jing, Zixue Cheng, Yinghui Zhou, Junbo Wang, and Tongjun Huang. 2013. Magic Ring: A Self-Contained Gesture Input Device on Finger. In Proceedings of the 12th International Conference on Mobile and Ubiquitous Multimedia(MUM \u201913). ACM, New York, NY, USA, Article 39, 4\u00a0pages. https://doi.org/10.1145/2541831.2541875",
+      "doi": "10.1145/2541831.2541875"
+    },
+    {
+      "text": "Lei Jing, Yinghui Zhou, Zixue Cheng, and Tongjun Huang. 2012. Magic Ring: A Finger-Worn Device for Multiple Appliances Control Using Static Finger Gestures. Sensors 12 (12 2012), 5775\u201390. https://doi.org/10.3390/s120505775",
+      "doi": ""
+    },
+    {
+      "text": "Lynette\u00a0A. Jones and Susan\u00a0J. Lederman. 2006. Human Hand Function. Oxford University Press, New York, NY, USA. https://doi.org/10.1093/acprof:oso/9780195173154.001.0001",
+      "doi": ""
+    },
+    {
+      "text": "Siddharth Kalra, Sarika Jain, and Amit Agarwal. 2016. A Wearable Computing System for Wireless Communication and Gesture Based Human Computer Interface. In Proceedings of the 2nd International Conference on Next Generation Computing Technologies. IEEE, USA, 456\u2013462. https://doi.org/10.1109/NGCT.2016.7877459",
+      "doi": ""
+    },
+    {
+      "text": "Maria Karam and m.c. schraefel. 2005. A Taxonomy of Gestures in Human Computer Interactions. Technical Report. University of Southampton. http://eprints.soton.ac.uk/id/eprint/261149",
+      "doi": ""
+    },
+    {
+      "text": "Keiko Katsuragawa, James\u00a0R. Wallace, and Edward Lank. 2016. Gestural Text Input Using a Smartwatch. In Proceedings of the International Working Conference on Advanced Visual Interfaces(AVI \u201916). ACM, New York, NY, USA, 220\u2013223. https://doi.org/10.1145/2909132.2909273",
+      "doi": "10.1145/2909132.2909273"
+    },
+    {
+      "text": "Adam Kendon. 1997. Gesture. Annual Review of Anthropology 26, 1 (1997), 109\u2013128. https://doi.org/10.1146/annurev.anthro.26.1.109",
+      "doi": ""
+    },
+    {
+      "text": "Hamed Ketabdar, Peyman Moghadam, and Mehran Roshandel. 2012. Pingu: A New Miniature Wearable Device for Ubiquitous Computing Environments. In Proceedings of the 6th International Conference on Complex, Intelligent, and Software Intensive Systems. IEEE, USA, 502\u2013506. https://doi.org/10.1109/CISIS.2012.123",
+      "doi": "10.1109/CISIS.2012.123"
+    },
+    {
+      "text": "Ahmed\u00a0S. Khalaf, Sultan\u00a0A. Alharthi, Ali Alshehri, Igor Dolgov, and Z.O. Toups. 2020. A Comparative Study of Hand-Gesture Recognition Devices for Games. In Human-Computer Interaction. Multimodal and Natural Interaction. Springer, Cham, 57\u201376. https://doi.org/10.1007/978-3-030-49062-1_4",
+      "doi": "10.1007/978-3-030-49062-1_4"
+    },
+    {
+      "text": "Ahmed\u00a0S. Khalaf, Sultan\u00a0A. Alharthi, Bill Hamilton, Igor Dolgov, Son Tran, and Z.O. Toups. 2020. A Framework of Input Devices to Support Designing Composite Wearable Computers. In Human-Computer Interaction. Multimodal and Natural Interaction, Masaaki Kurosu (Ed.). Springer, Cham, 401\u2013427. https://doi.org/10.1007/978-3-030-49062-1_28",
+      "doi": "10.1007/978-3-030-49062-1_28"
+    },
+    {
+      "text": "Wolf Kienzle and Ken Hinckley. 2014. LightRing: Always-Available 2D Input on Any Surface. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology(UIST \u201914). ACM, New York, NY, USA, 157\u2013160. https://doi.org/10.1145/2642918.2647376",
+      "doi": "10.1145/2642918.2647376"
+    },
+    {
+      "text": "Sven Kratz and Michael Rohs. 2011. Protractor3D: A Closed-Form Solution to Rotation-Invariant 3D Gestures. In Proceedings of the 16th International Conference on Intelligent User Interfaces(IUI \u201911). ACM, New York, NY, USA, 371\u2013374. https://doi.org/10.1145/1943403.1943468",
+      "doi": "10.1145/1943403.1943468"
+    },
+    {
+      "text": "Per-Ola Kristensson and Shumin Zhai. 2004. SHARK2: A Large Vocabulary Shorthand Writing System for Pen-Based Computers. In Proceedings of the 17th ACM Symposium on User Interface Software and Technology(UIST \u201904). ACM, New York, NY, USA, 43\u201352. https://doi.org/10.1145/1029632.1029640",
+      "doi": "10.1145/1029632.1029640"
+    },
+    {
+      "text": "Luis\u00a0A. Leiva, Daniel Mart\u00edn-Albo, R\u00e9jean Plamondon, and Radu-Daniel Vatavu. 2018. KeyTime: Super-Accurate Prediction of Stroke Gesture Production Times. In Proceedings of the CHI Conference on Human Factors in Computing Systems(CHI \u201918). ACM, New York, NY, USA, Article 239, 12\u00a0pages. https://doi.org/10.1145/3173574.3173813",
+      "doi": "10.1145/3173574.3173813"
+    },
+    {
+      "text": "Yang Li. 2010. Protractor: A Fast and Accurate Gesture Recognizer. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201910). ACM, New York, NY, USA, 2169\u20132172. https://doi.org/10.1145/1753326.1753654",
+      "doi": "10.1145/1753326.1753654"
+    },
+    {
+      "text": "Jaime Lien, Nicholas Gillian, M.\u00a0Emre Karagozler, Patrick Amihood, Carsten Schwesig, Erik Olson, Hakim Raja, and Ivan Poupyrev. 2016. Soli: Ubiquitous Gesture Sensing with Millimeter Wave Radar. ACM Trans. Graph. 35, 4, Article 142 (July 2016), 19\u00a0pages. https://doi.org/10.1145/2897824.2925953",
+      "doi": "10.1145/2897824.2925953"
+    },
+    {
+      "text": "Hyunchul Lim, Jungmin Chung, Changhoon Oh, SoHyun Park, Joonhwan Lee, and Bongwon Suh. 2018. Touch+Finger: Extending Touch-Based User Interface Capabilities with \"Idle\" Finger Gestures in the Air. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology(UIST \u201918). ACM, New York, NY, USA, 335\u2013346. https://doi.org/10.1145/3242587.3242651",
+      "doi": "10.1145/3242587.3242651"
+    },
+    {
+      "text": "Hyunchul Lim, Jungmin Chung, Changhoon Oh, SoHyun Park, and Bongwon Suh. 2016. OctaRing: Examining Pressure-Sensitive Multi-Touch Input on a Finger Ring Device. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology(UIST \u201916 Adjunct). ACM, New York, NY, USA, 223\u2013224. https://doi.org/10.1145/2984751.2984780",
+      "doi": "10.1145/2984751.2984780"
+    },
+    {
+      "text": "Jiayang Liu, Lin Zhong, Jehan Wickramasuriya, and Venu Vasudevan. 2009. UWave: Accelerometer-Based Personalized Gesture Recognition and Its Applications. Pervasive and Mobile Computing 5, 6 (Dec. 2009), 657\u2013675. https://doi.org/10.1016/j.pmcj.2009.07.007",
+      "doi": "10.1016/j.pmcj.2009.07.007"
+    },
+    {
+      "text": "Christine\u00a0L. MacKenzie and Thea Iberall. 1994. The Grasping Hand. (Advances in Psychology 104). North-Holland, Amsterdam, The Netherlands. https://www.sciencedirect.com/bookseries/advances-in-psychology/vol/104",
+      "doi": ""
+    },
+    {
+      "text": "Nathan Magrofuoco, Paolo Roselli, and Jean Vanderdonckt. 2021. Two-Dimensional Stroke Gesture Recognition: A Survey. ACM Comput. Surv. 54, 7, Article 155 (jul 2021), 36\u00a0pages. https://doi.org/10.1145/3465400",
+      "doi": "10.1145/3465400"
+    },
+    {
+      "text": "Dan Mauney, Jonathan Howarth, Andrew Wirtanen, and Miranda Capra. 2010. Cultural Similarities and Differences in User-Defined Gestures for Touchscreen User Interfaces. In CHI \u201910 Extended Abstracts on Human Factors in Computing Systems(CHI EA \u201910). ACM, New York, NY, USA, 4015\u20134020. https://doi.org/10.1145/1753846.1754095",
+      "doi": "10.1145/1753846.1754095"
+    },
+    {
+      "text": "Jess McIntosh, Asier Marzo, and Mike Fraser. 2017. SensIR: Detecting Hand Gestures with a Wearable Bracelet Using Infrared Transmission and Reflection. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology(UIST \u201917). ACM, New York, NY, USA, 593\u2013597. https://doi.org/10.1145/3126594.3126604",
+      "doi": "10.1145/3126594.3126604"
+    },
+    {
+      "text": "David McNeill. 1992. Hand and Mind: What Gestures Reveal about Thought. The University of Chicago Press, Chicago, IL, USA. https://press.uchicago.edu/ucp/books/book/chicago/H/bo3641188.html",
+      "doi": ""
+    },
+    {
+      "text": "Meredith\u00a0Ringel Morris, Anqi Huang, Andreas Paepcke, and Terry Winograd. 2006. Cooperative Gestures: Multi-User Gestural Interactions for Co-Located Groupware. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201906). ACM, New York, NY, USA, 1201\u20131210. https://doi.org/10.1145/1124772.1124952",
+      "doi": "10.1145/1124772.1124952"
+    },
+    {
+      "text": "Adiyan Mujibiya, Xiang Cao, Desney\u00a0S. Tan, Dan Morris, Shwetak\u00a0N. Patel, and Jun Rekimoto. 2013. The Sound of Touch: On-Body Touch and Gesture Sensing Based on Transdermal Ultrasound Propagation. In Proceedings of the ACM International Conference on Interactive Tabletops and Surfaces(ITS \u201913). ACM, New York, NY, USA, 189\u2013198. https://doi.org/10.1145/2512349.2512821",
+      "doi": "10.1145/2512349.2512821"
+    },
+    {
+      "text": "Suranga Nanayakkara, Roy Shilkrot, Kian\u00a0Peen Yeo, and Pattie Maes. 2013. EyeRing: A Finger-Worn Input Device for Seamless Interactions with Our Surroundings. In Proceedings of the 4th Augmented Human International Conference(AH \u201913). ACM, New York, NY, USA, 13\u201320. https://doi.org/10.1145/2459236.2459240",
+      "doi": "10.1145/2459236.2459240"
+    },
+    {
+      "text": "Romain Nith, Shan-Yuan Teng, Pengyu Li, Yujie Tao, and Pedro Lopes. 2021. DextrEMS: Increasing Dexterity in Electrical Muscle Stimulation by Combining It with Brakes. In Proceedings of the 34th Annual ACM Symposium on User Interface Software and Technology(UIST \u201921). ACM, New York, NY, USA, 414\u2013430. https://doi.org/10.1145/3472749.3474759",
+      "doi": "10.1145/3472749.3474759"
+    },
+    {
+      "text": "Uran Oh and Leah Findlater. 2014. Design of and Subjective Response to On-Body Input for People with Visual Impairments. In Proceedings of the 16th International ACM SIGACCESS Conference on Computers & Accessibility(ASSETS \u201914). ACM, New York, NY, USA, 115\u2013122. https://doi.org/10.1145/2661334.2661376",
+      "doi": "10.1145/2661334.2661376"
+    },
+    {
+      "text": "Uran Oh, Lee Stearns, Alisha Pradhan, Jon\u00a0E. Froehlich, and Leah Findlater. 2017. Investigating Microinteractions for People with Visual Impairments and the Potential Role of On-Body Interaction. In Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility(ASSETS \u201917). ACM, New York, NY, USA, 22\u201331. https://doi.org/10.1145/3132525.3132536",
+      "doi": "10.1145/3132525.3132536"
+    },
+    {
+      "text": "Mehdi Ousmer, Arthur Slu\u00ffters, Nathan Magrofuoco, Paolo Roselli, and Jean Vanderdonckt. 2020. Recognizing 3D Trajectories as 2D Multi-Stroke Gestures. Proc. ACM Hum.-Comput. Interact. 4, ISS, Article 198 (Nov. 2020), 21\u00a0pages. https://doi.org/10.1145/3427326",
+      "doi": "10.1145/3427326"
+    },
+    {
+      "text": "Konstantinos Partheniadis and Modestos Stavrakis. 2018. Design and Evaluation of a Digital Wearable Ring and a Smartphone Application to Help Monitor and Manage the Effects of Raynaud\u2019s Phenomenon. Multimedia Tools and Applications 78 (08 2018), 3365\u20133394. https://doi.org/10.1007/s11042-018-6514-3",
+      "doi": "10.1007/s11042-018-6514-3"
+    },
+    {
+      "text": "Dominic Potts, Martynas Dabravalskis, and Steven Houben. 2022. TangibleTouch: A Toolkit for Designing Surface-Based Gestures for Tangible Interfaces. In Proceedings of the 16th International Conference on Tangible, Embedded, and Embodied Interaction(TEI \u201922). ACM, New York, NY, USA, Article 39, 14\u00a0pages. https://doi.org/10.1145/3490149.3502263",
+      "doi": "10.1145/3490149.3502263"
+    },
+    {
+      "text": "Wim Pouw and James\u00a0A. Dixon. 2019. Quantifying Gesture-Speech Synchrony. In Proceedings of the 6th Gesture and Speech in Interaction Conference(GESPIN \u201919), A.\u00a0Grimminger (Ed.). Universitaetsbibliothek Paderborn, Paderborn, 75\u201380. https://dx.doi.org/10.17619/UNIPB/1-815",
+      "doi": ""
+    },
+    {
+      "text": "Francis Quek, David McNeill, Robert Bryll, Susan Duncan, Xin-Feng Ma, Cemil Kirbas, Karl\u00a0E. McCullough, and Rashid Ansari. 2002. Multimodal Human Discourse: Gesture and Speech. ACM Trans. Comput.-Hum. Interact. 9, 3 (sep 2002), 171\u2013193. https://doi.org/10.1145/568513.568514",
+      "doi": "10.1145/568513.568514"
+    },
+    {
+      "text": "Shanaka Ransiri and Suranga Nanayakkara. 2013. SmartFinger: An Augmented Finger as a Seamless \u201cChannel\u201d Between Digital and Physical Objects. In Proceedings of the 4th Augmented Human International Conference(AH \u201913). ACM, New York, NY, USA, 5\u20138. https://doi.org/10.1145/2459236.2459238",
+      "doi": "10.1145/2459236.2459238"
+    },
+    {
+      "text": "Julie Rico and Stephen Brewster. 2010. Usable Gestures for Mobile Interfaces: Evaluating Social Acceptability. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201910). ACM, New York, NY, USA, 887\u2013896. https://doi.org/10.1145/1753326.1753458",
+      "doi": "10.1145/1753326.1753458"
+    },
+    {
+      "text": "Mikko\u00a0J. Rissanen, Samantha Vu, Owen Noel\u00a0Newton Fernando, Natalie Pang, and Schubert Foo. 2013. Subtle, Natural and Socially Acceptable Interaction Techniques for Ringterfaces \u2014 Finger-Ring Shaped User Interfaces. In Distributed, Ambient, and Pervasive Interactions, Norbert Streitzand Constantine Stephanidis (Eds.). Springer, Berlin, Heidelberg, 52\u201361. https://doi.org/10.1007/978-3-642-39351-8_6",
+      "doi": "10.1007/978-3-642-39351-8_6"
+    },
+    {
+      "text": "Mehran Roshandel, Aarti Munjal, Peyman Moghadam, Shahin Tajik, and Hamed Ketabdar. 2014. Multi-sensor based Gestures Recognition with a Smart Finger Ring. In Proceedings of the Int. Conference on Human-Computer Interaction. Springer, Cham, 316\u2013324. https://doi.org/10.1007/978-3-319-07230-2_31",
+      "doi": ""
+    },
+    {
+      "text": "Anne Roudaut, Andreas Rau, Christoph Sterz, Max Plauth, Pedro Lopes, and Patrick Baudisch. 2013. Gesture Output: Eyes-Free Output Using a Force Feedback Touch Surface. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201913). ACM, New York, NY, USA, 2547\u20132556. https://doi.org/10.1145/2470654.2481352",
+      "doi": "10.1145/2470654.2481352"
+    },
+    {
+      "text": "William Rucklidge. 1996. Efficient Visual Recognition Using the Hausdorf Distance. Springer, Berlin. https://www.springer.com/gp/book/9783540619932",
+      "doi": ""
+    },
+    {
+      "text": "Jaime Ruiz, Yang Li, and Edward Lank. 2011. User-Defined Motion Gestures for Mobile Interaction. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201911). ACM, New York, NY, USA, 197\u2013206. https://doi.org/10.1145/1978942.1978971",
+      "doi": "10.1145/1978942.1978971"
+    },
+    {
+      "text": "Scott Saponas, Chris Harrison, and Hrvoje Benko. 2011. PocketTouch: Through-Fabric Capacitive Touch Input. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology(UIST \u201911). ACM, New York, NY, USA, 303\u2013308. https://doi.org/10.1145/2047196.2047235",
+      "doi": "10.1145/2047196.2047235"
+    },
+    {
+      "text": "Adwait Sharma, Michael\u00a0A. Hedderich, Divyanshu Bhardwaj, Bruno Fruchard, Jess McIntosh, Aditya\u00a0Shekhar Nittala, Dietrich Klakow, Daniel Ashbrook, and J\u00fcrgen Steimle. 2021. SoloFinger: Robust Microgestures While Grasping Everyday Objects. In Proceedings of the CHI Conference on Human Factors in Computing Systems(CHI \u201921). ACM, New York, NY, USA, Article 744, 15\u00a0pages. https://doi.org/10.1145/3411764.3445197",
+      "doi": "10.1145/3411764.3445197"
+    },
+    {
+      "text": "Roy Shilkrot, Jochen Huber, J\u00fcrgen Steimle, Suranga Nanayakkara, and Pattie Maes. 2015. Digital Digits: A Comprehensive Survey of Finger Augmentation Devices. ACM Comput. Surv. 48, 2, Article 30 (nov 2015), 29\u00a0pages. https://doi.org/10.1145/2828993",
+      "doi": "10.1145/2828993"
+    },
+    {
+      "text": "Diego Silang\u00a0Maranan, Sarah Fdili\u00a0Alaoui, Thecla Schiphorst, Philippe Pasquier, Pattarawut Subyen, and Lyn Bartram. 2014. Designing for Movement: Evaluating Computational Models Using LMA Effort Qualities. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201914). ACM, New York, NY, USA, 991\u20131000. https://doi.org/10.1145/2556288.2557251",
+      "doi": "10.1145/2556288.2557251"
+    },
+    {
+      "text": "Lee Stearns, Uran Oh, Leah Findlater, and Jon\u00a0E. Froehlich. 2018. TouchCam: Realtime Recognition of Location-Specific On-Body Gestures to Support Users with Visual Impairments. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 4, Article 164 (jan 2018), 23\u00a0pages. https://doi.org/10.1145/3161416",
+      "doi": "10.1145/3161416"
+    },
+    {
+      "text": "Chao-Huai Su, Liwei Chan, Chien-Ting Weng, Rong-Hao Liang, Kai-Yin Cheng, and Bing-Yu Chen. 2013. NailDisplay: Bringing an Always Available Visual Display to Fingertips. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201913). ACM, New York, NY, USA, 1461\u20131464. https://doi.org/10.1145/2470654.2466193",
+      "doi": "10.1145/2470654.2466193"
+    },
+    {
+      "text": "Takayuki Iwamoto and Hiroyuki Shinoda. 2007. Finger Ring Device for Tactile Sensing and Human Machine Interface. In Proceedings of the SICE Annual Conference. IEEE, USA, 2132\u20132136. https://doi.org/10.1109/SICE.2007.4421339",
+      "doi": ""
+    },
+    {
+      "text": "Eugene\u00a0M. Taranta\u00a0II, Corey\u00a0R. Pittman, Mehran Maghoumi, Mykola Maslych, Yasmine\u00a0M. Moolenaar, and Joseph\u00a0J. Laviola\u00a0Jr. 2021. Machete: Easy, Efficient, and Precise Continuous Custom Gesture Segmentation. ACM Transactions on Computer-Human Interaction 28, 1, Article 5 (jan 2021), 46\u00a0pages. https://doi.org/10.1145/3428068",
+      "doi": "10.1145/3428068"
+    },
+    {
+      "text": "Eugene\u00a0M. Taranta\u00a0II, Amirreza Samiei, Mehran Maghoumi, Pooya Khaloo, Corey\u00a0R. Pittman, and Joseph\u00a0J. LaViola\u00a0Jr.2017. Jackknife: A Reliable Recognizer with Few Samples and Many Modalities. In Proceedings of the CHI Conference on Human Factors in Computing Systems(CHI \u201917). ACM, New York, NY, USA, 5850\u20135861. https://doi.org/10.1145/3025453.3026002",
+      "doi": "10.1145/3025453.3026002"
+    },
+    {
+      "text": "Hsin-Ruey Tsai, Min-Chieh Hsiu, Jui-Chun Hsiao, Lee-Ting Huang, Mike Chen, and Yi-Ping Hung. 2016. TouchRing: Subtle and Always-Available Input Using a Multi-Touch Ring. In Proceedings of the 18th International Conference on Human-Computer Interaction with Mobile Devices and Services Adjunct(MobileHCI \u201916). ACM, New York, NY, USA, 891\u2013898. https://doi.org/10.1145/2957265.2961860",
+      "doi": "10.1145/2957265.2961860"
+    },
+    {
+      "text": "Jean Vanderdonckt, Nathan Magrofuoco, Suzanne Kieffer, Jorge P\u00e9rez, Ysabelle Rase, Paolo Roselli, and Santiago Villarreal. 2019. Head and Shoulders Gestures: Exploring User-Defined Gestures with Upper Body. In Design, User Experience, and Usability. User Experience in Advanced Technological Environments, Aaron Marcus and Wentao Wang (Eds.). Springer, Cham, 192\u2013213. https://doi.org/10.1007/978-3-030-23541-3_15",
+      "doi": ""
+    },
+    {
+      "text": "Radu-Daniel Vatavu. 2013. The Impact of Motion Dimensionality and Bit Cardinality on the Design of 3D Gesture Recognizers. International Journal of Human-Computer Studies 71, 4 (2013), 387\u2013409. https://doi.org/10.1016/j.ijhcs.2012.11.005",
+      "doi": "10.1016/j.ijhcs.2012.11.005"
+    },
+    {
+      "text": "Radu-Daniel Vatavu. 2017. Improving Gesture Recognition Accuracy on Touch Screens for Users with Low Vision. In Proceedings of the CHI Conference on Human Factors in Computing Systems(CHI \u201917). ACM, New York, NY, USA, 4667\u20134679. https://doi.org/10.1145/3025453.3025941",
+      "doi": "10.1145/3025453.3025941"
+    },
+    {
+      "text": "Radu-Daniel Vatavu. 2017. Smart-Pockets: Body-Deictic Gestures for Fast Access to Personal Data during Ambient Interactions. International Journal of Human-Computer Studies 103 (2017), 1\u201321. http://dx.doi.org/10.1016/j.ijhcs.2017.01.005",
+      "doi": "10.1016/j.ijhcs.2017.01.005"
+    },
+    {
+      "text": "Radu-Daniel Vatavu. 2019. The Dissimilarity-Consensus Approach to Agreement Analysis in Gesture Elicitation Studies. In Proceedings of the CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, Article 224, 13\u00a0pages. https://doi.org/10.1145/3290605.3300454",
+      "doi": "10.1145/3290605.3300454"
+    },
+    {
+      "text": "Radu-Daniel Vatavu, Lisa Anthony, and Jacob\u00a0O. Wobbrock. 2012. Gestures as Point Clouds: A $P Recognizer for User Interface Prototypes. In Proceedings of the 14th International Conference on Multimodal Interaction(ICMI \u201912). ACM, New York, NY, USA, 273\u2013280. https://doi.org/10.1145/2388676.2388732",
+      "doi": "10.1145/2388676.2388732"
+    },
+    {
+      "text": "Radu-Daniel Vatavu, Lisa Anthony, and Jacob\u00a0O. Wobbrock. 2018. $Q: A Super-Quick, Articulation-Invariant Stroke-Gesture Recognizer for Low-Resource Devices. In Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services(MobileHCI \u201918). ACM, New York, NY, USA, Article 23, 12\u00a0pages. https://doi.org/10.1145/3229434.3229465",
+      "doi": "10.1145/3229434.3229465"
+    },
+    {
+      "text": "Radu-Daniel Vatavu and Laura-Bianca Bilius. 2021. GestuRING: A Web-based Tool for Designing Gesture Input with Rings, Ring-Like, and Ring-Ready Devices. In Proceedings of the 34th ACM Symposium on User Interface Software and Technology(UIST \u201921). ACM, New York, NY, USA, 710\u2013723. https://doi.org/10.1145/3472749.3474780",
+      "doi": "10.1145/3472749.3474780"
+    },
+    {
+      "text": "Radu-Daniel Vatavu, Bogdan-Florin Gheran, and Maria-Doina Schipor. 2018. The Impact of Low Vision on Touch-Gesture Articulation on Mobile Devices. IEEE Pervasive Computing 17, 1 (2018), 27\u201337. https://doi.org/10.1109/MPRV.2018.011591059",
+      "doi": "10.1109/MPRV.2018.011591059"
+    },
+    {
+      "text": "Radu-Daniel Vatavu and Ovidiu-Ciprian Ungurean. 2019. Stroke-Gesture Input for People with Motor Impairments: Empirical Results & Research Roadmap. In Proc. of the CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, Article 215, 14\u00a0pages. https://doi.org/10.1145/3290605.3300445",
+      "doi": "10.1145/3290605.3300445"
+    },
+    {
+      "text": "Radu-Daniel Vatavu, Daniel Vogel, G\u00e9ry Casiez, and Laurent Grisoni. 2011. Estimating the Perceived Difficulty of Pen Gestures. In Proceedings of the 13th IFIP TC13 Conference on Human-Computer Interaction(INTERACT \u201911). Springer, Berlin, Heidelberg, 89\u2013106. https://doi.org/10.1007/978-3-642-23771-3_9",
+      "doi": ""
+    },
+    {
+      "text": "Chat Wacharamanotham, Lukas Eisenring, Steve Haroz, and Florian Echtler. 2020. Transparency of CHI Research Artifacts: Results of a Self-Reported Survey. In Proc. of the CHI Conference on Human Factors in Computing Systems(CHI \u201920). ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376448",
+      "doi": "10.1145/3313831.3376448"
+    },
+    {
+      "text": "Chat Wacharamanotham, Kashyap Todi, Marty Pye, and Jan Borchers. 2014. Understanding Finger Input above Desktop Devices. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201914). ACM, New York, NY, USA, 1083\u20131092. https://doi.org/10.1145/2556288.2557151",
+      "doi": "10.1145/2556288.2557151"
+    },
+    {
+      "text": "Andrew Webb. 2002. Statistical Pattern Recognition(2nd ed.). John Wiley & Sons, West Sussex, England.",
+      "doi": ""
+    },
+    {
+      "text": "Martin Weigel and J\u00fcrgen Steimle. 2017. DeformWear: Deformation Input on Tiny Wearable Devices. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 1, 2, Article 28 (June 2017), 23\u00a0pages. https://doi.org/10.1145/3090093",
+      "doi": "10.1145/3090093"
+    },
+    {
+      "text": "Brady\u00a0T. West, Kathleen\u00a0B. Welch, and Andrzej\u00a0T. Galecki. 2014. Linear Mixed Models: A Practical Guide Using Statistical Software (2nd ed.). Chapman and Hall/CRC, New York, NY, USA. https://doi.org/10.1201/b17198",
+      "doi": ""
+    },
+    {
+      "text": "Mathias Wilhelm, Daniel Krakowczyk, Frank Trollmann, and Sahin Albayrak. 2015. ERing: Multiple Finger Gesture Recognition with One Ring Using an Electric Field. In Proceedings of the 2nd International Workshop on Sensor-Based Activity Recognition and Interaction(iWOAR \u201915). ACM, New York, NY, USA, Article 7, 6\u00a0pages. https://doi.org/10.1145/2790044.2790047",
+      "doi": "10.1145/2790044.2790047"
+    },
+    {
+      "text": "Mathias Wilhelm, Jan-Peter Lechler, Daniel Krakowczyk, and Sahin Albayrak. 2020. Ring-Based Finger Tracking Using Capacitive Sensors and Long Short-Term Memory. In Proceedings of the 25th International Conference on Intelligent User Interfaces(IUI \u201920). ACM, New York, NY, USA, 551\u2013555. https://doi.org/10.1145/3377325.3377535",
+      "doi": "10.1145/3377325.3377535"
+    },
+    {
+      "text": "Jacob\u00a0O. Wobbrock. 2018. Impact of $-family. Retrieved January 2023 from https://depts.washington.edu/acelab/proj/dollar/impact.html",
+      "doi": ""
+    },
+    {
+      "text": "Jacob\u00a0O. Wobbrock, Meredith\u00a0Ringel Morris, and Andrew\u00a0D. Wilson. 2009. User-Defined Gestures for Surface Computing. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201909). ACM, New York, NY, USA, 1083\u20131092. https://doi.org/10.1145/1518701.1518866",
+      "doi": "10.1145/1518701.1518866"
+    },
+    {
+      "text": "Jacob\u00a0O. Wobbrock, Andrew\u00a0D. Wilson, and Yang Li. 2007. Gestures without Libraries, Toolkits or Training: A $1 Recognizer for User Interface Prototypes. In Proceedings of the 20th Annual ACM Symposium on User Interface Software and Technology(UIST \u201907). ACM, New York, NY, USA, 159\u2013168. https://doi.org/10.1145/1294211.1294238",
+      "doi": "10.1145/1294211.1294238"
+    },
+    {
+      "text": "Katrin Wolf. 2013. Ubiquitous Grasp Interfaces. In Proceedings of the 7th International Conference on Tangible, Embedded and Embodied Interaction(TEI \u201913). ACM, New York, NY, USA, 377\u2013\u2013378. https://doi.org/10.1145/2460625.2460702",
+      "doi": "10.1145/2460625.2460702"
+    },
+    {
+      "text": "Katrin Wolf, Sven Mayer, and Stephan Meyer. 2016. Microgesture Detection for Remote Interaction with Mobile Devices. In Proceedings of the 18th International Conference on Human-Computer Interaction with Mobile Devices and Services Adjunct(MobileHCI \u201916). ACM, New York, NY, USA, 783\u2013790. https://doi.org/10.1145/2957265.2961865",
+      "doi": "10.1145/2957265.2961865"
+    },
+    {
+      "text": "Haijun Xia, Michael Glueck, Michelle Annett, Michael Wang, and Daniel Wigdor. 2022. Iteratively Designing Gesture Vocabularies: A Survey and Analysis of Best Practices in the HCI Literature. ACM Trans. Comput.-Hum. Interact. 29, 4, Article 37 (may 2022), 54\u00a0pages. https://doi.org/10.1145/3503537",
+      "doi": "10.1145/3503537"
+    },
+    {
+      "text": "Renqiang Xie, Xia Sun, Xiang Xia, and Juncheng Cao. 2015. Similarity Matching-based Extensible Hand Gesture Recognition. IEEE Sensors Journal 15, 6 (2015), 3475\u20133483. https://doi.org/10.1109/JSEN.2015.2392091",
+      "doi": ""
+    },
+    {
+      "text": "Kaoru Yamagishi, Lei Jing, and Zixue Cheng. 2014. A System for Controlling Personal Computers by Hand Gestures Using a Wireless Sensor Device. In Proceedings of the IEEE International Symposium on Independent Computing(ISIC \u201914). IEEE, USA, 1\u20137. https://doi.org/10.1109/INDCOMP.2014.7011759",
+      "doi": ""
+    },
+    {
+      "text": "Yukang Yan, Chun Yu, Xin Yi, and Yuanchun Shi. 2018. HeadGesture: Hands-Free Input Approach Leveraging Head Movements for HMD Devices. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 4, Article 198 (dec 2018), 23\u00a0pages. https://doi.org/10.1145/3287076",
+      "doi": "10.1145/3287076"
+    },
+    {
+      "text": "Xing-Dong Yang, Tovi Grossman, Daniel Wigdor, and George Fitzmaurice. 2012. Magic Finger: Always-Available Input through Finger Instrumentation. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology(UIST \u201912). ACM, New York, NY, USA, 147\u2013\u2013156. https://doi.org/10.1145/2380116.2380137",
+      "doi": "10.1145/2380116.2380137"
+    },
+    {
+      "text": "Hui-Shyong Yeo, Juyoung Lee, Hyung-il Kim, Aakar Gupta, Andrea Bianchi, Daniel Vogel, Hideki Koike, Woontack Woo, and Aaron Quigley. 2019. WRIST: Watch-Ring Interaction and Sensing Technique for Wrist Gestures and Macro-Micro Pointing. In Proc. of the 21st International Conference on Human-Computer Interaction with Mobile Devices and Services(MobileHCI \u201919). ACM, New York, NY, USA, Article 19, 15\u00a0pages. https://doi.org/10.1145/3338286.3340130",
+      "doi": "10.1145/3338286.3340130"
+    },
+    {
+      "text": "Tengxiang Zhang, Xin Zeng, Yinshuai Zhang, Ke Sun, Yuntao Wang, and Yiqiang Chen. 2020. ThermalRing: Gesture and Tag Inputs Enabled by a Thermal Imaging Smart Ring. In Proceedings of the CHI Conference on Human Factors in Computing Systems(CHI \u201920). ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376323",
+      "doi": "10.1145/3313831.3376323"
+    },
+    {
+      "text": "Yinghui Zhou, Zixue Cheng, Lei Jing, Junbo Wang, and Tongjun Huang. 2014. Pre-Classification Based Hidden Markov Model for Quick and Accurate Gesture Recognition Using a Finger-Worn Device. Applied Intelligence 40, 4 (June 2014), 613\u2013\u2013622. https://doi.org/10.1007/s10489-013-0492-y",
+      "doi": "10.1007/s10489-013-0492-y"
+    },
+    {
+      "text": "Yinghui Zhou, Daisuke Saito, and Lei Jing. 2013. Adaptive Template Adjustment for Personalized Gesture Recognition Based on a Finger-Worn Device. In Proceedings of the International Conference on Awareness Science and Technology Ubi-Media Computing. IEEE, USA, 610\u2013614. https://doi.org/10.1109/ICAwST.2013.6765512",
+      "doi": ""
+    }
+  ]
+}

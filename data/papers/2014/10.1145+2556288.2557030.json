@@ -1,0 +1,201 @@
+{
+  "doi": "10.1145/2556288.2557030",
+  "title": "Type-hover-swipe in 96 bytes: a motion sensing mechanical keyboard",
+  "published": "2014-04-26",
+  "proctitle": "CHI '14: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+  "pages": "1695-1704",
+  "year": 2014,
+  "badges": [],
+  "abstract": "We present a new type of augmented mechanical keyboard, capable of sensing rich and expressive motion gestures performed both on and directly above the device. Our hardware comprises of low-resolution matrix of infrared (IR) proximity sensors interspersed between the keys of a regular mechanical keyboard. This results in coarse but high frame-rate motion data. We extend a machine learning algorithm, traditionally used for static classification only, to robustly support dynamic, temporal gestures. We propose the use of motion signatures a technique that utilizes pairs of motion history images and a random forest based classifier to robustly recognize a large set of motion gestures on and directly above the keyboard. Our technique achieves a mean per-frame classification accuracy of 75.6% in leave-one-subject-out and 89.9% in half-test/half-training cross-validation. We detail our hardware and gesture recognition algorithm, provide performance and accuracy numbers, and demonstrate a large set of gestures designed to be performed with our device. We conclude with qualitative feedback from users, discussion of limitations and areas for future work.",
+  "authors": [
+    {
+      "name": "Stuart Taylor",
+      "institution": "Microsoft Research, Cambridge, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81381590706",
+      "orcid": "missing"
+    },
+    {
+      "name": "Cem Keskin",
+      "institution": "Microsoft Research, Cambridge, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81438593393",
+      "orcid": "missing"
+    },
+    {
+      "name": "Otmar Hilliges",
+      "institution": "ETH Zurich, Zurich, Switzerland",
+      "img": "/do/10.1145/contrib-81309495440/rel-imgonly/81309495440.jpg",
+      "acmid": "81309495440",
+      "orcid": "missing"
+    },
+    {
+      "name": "Shahram Izadi",
+      "institution": "Microsoft Research, Cambridge, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81328488768",
+      "orcid": "missing"
+    },
+    {
+      "name": "John Helmes",
+      "institution": "Microsoft Research, Cambridge, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81414621181",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Apple Inc. Magic TrackPad, 2010.",
+      "doi": ""
+    },
+    {
+      "text": "Bahlmann, C., Haasdonk, B., and Burkhardt, H. Online handwriting recognition with support vector machines a kernel approach. In Proc. Frontiers in Handwriting Recognition, 2002. (2002), 49--54. ",
+      "doi": "10.5555/851040.856840"
+    },
+    {
+      "text": "Block, F., Gellersen, H., and Villar, N. Touch-display keyboards: transforming keyboards into interactive surfaces. In Proceedings of ACM CHI (Apr. 2010), 1145--1154.  ",
+      "doi": "10.1145/1753326.1753498"
+    },
+    {
+      "text": "Bobick, A., and Davis, J. The recognition of human movement using temporal templates. IEEE PAMI 23, 3 (Mar. 2001), 257--267.  ",
+      "doi": "10.1109/34.910878"
+    },
+    {
+      "text": "Breiman, L. Random Forests. Machine Learning 45, 1 (Oct. 2001), 5--32.  ",
+      "doi": "10.1023/A%3A1010933404324"
+    },
+    {
+      "text": "Cechanowicz, J., Irani, P., and Subramanian, S. Augmenting the mouse with pressure sensitive input. In Proceedings of ACM SIGCHI (Apr. 2007), 1385--1394.  ",
+      "doi": "10.1145/1240624.1240835"
+    },
+    {
+      "text": "Choi, S., Gu, J., Han, J., and Lee, G. Area gestures for a laptop computer enabled by a hover-tracking touchpad. In Proceedings APCHI, ACM Press (New York, New York, USA, Aug. 2012), 119--124.  ",
+      "doi": "10.1145/2350046.2350073"
+    },
+    {
+      "text": "Choi, S., Han, J., Kim, S., Heo, S., and Lee, G. ThickPad: a hover-tracking touchpad for a laptop. In Adjunct Proceedings of ACM UIST (Oct. 2011), 15--16.  ",
+      "doi": "10.1145/2046396.2046405"
+    },
+    {
+      "text": "Criminisi, A., and Shotton, J., Eds. Decision Forests for Computer Vision and Medical Image Analysis. Springer London, London, 2013. ",
+      "doi": "10.5555/2462584"
+    },
+    {
+      "text": "Dietz, P. H., Eidelson, B., Westhues, J., and Bathiche, S. A practical pressure sensitive computer keyboard. In Proceedings of ACM UIST (Oct. 2009), 55--58.  ",
+      "doi": "10.1145/1622176.1622187"
+    },
+    {
+      "text": "Fallot-Burghardt, W., Fjeld, M., Speirs, C., Ziegenspeck, S., Krueger, H., and L\u00e4ubli, T. Touch&Type. In Proc. NordiCHI '06 (Oct. 2006), 465--468.  ",
+      "doi": "10.1145/1182475.1182538"
+    },
+    {
+      "text": "Fallot-Burghardt, W., Speirs, C., Ziegenspeck, C., Krueger, H., and L\u00e4ubli, T. Touch&TypeTM: a Novel Input Method for Portable Computers. In Proc. INTERACT (2003), 954--957.",
+      "doi": ""
+    },
+    {
+      "text": "Gall, J., Yao, A., Razavi, N., Van Gool, L., and Lempitsky, V. Hough forests for object detection, tracking, and action recognition. IEEE PAMI 33, 11 (Nov. 2011), 2188--202.  ",
+      "doi": "10.1109/TPAMI.2011.70"
+    },
+    {
+      "text": "Gu, J., Heo, S., Han, J., Kim, S., and Lee, G. LongPad: A TouchPad Using the Entire Area below the Keyboard on a Laptop Computer. In ACM CHI'13, ACM Press (Paris, France, 2013).  ",
+      "doi": "10.1145/2470654.2466188"
+    },
+    {
+      "text": "Habib, I., Berggren, N., Rehn, E., Josefsson, G., Kunz, A., and Fjeld, M. DGTS: Integrated Typing and Pointing. In Proc. INTERACT, vol. 5727 of Lecture Notes in Computer Science, Springer Verlag (Berlin, Heidelberg, 2009), 232--235.  ",
+      "doi": "10.1007/978-3-642-03658-3_30"
+    },
+    {
+      "text": "Hodges, S., Izadi, S., Butler, A., Rrustemi, A., and Buxton, B. ThinSight: versatile multi-touch sensing for thin form-factor displays. In Proceedings of ACM UIST (Oct. 2007), 259--268.  ",
+      "doi": "10.1145/1294211.1294258"
+    },
+    {
+      "text": "Hofer, R., Naeff, D., and Kunz, A. FLATIR: FTIR multi-touch detection on a discrete distributed sensor array. In Proceedings of TEI '09, ACM Press (New York, New York, USA, Feb. 2009), 317.  ",
+      "doi": "10.1145/1517664.1517730"
+    },
+    {
+      "text": "Keskin, C., Kira\u00e7, F., Kara, Y. E., and Akarun, L. Hand Pose Estimation and Hand Shape classification Using Multi-layered Randomized Decision Forests. In ECCV 2012, Lecture Notes in Computer Science, Springer Verlag (Berlin, Heidelberg, Oct. 2012), 852--863.  ",
+      "doi": "10.1007/978-3-642-33783-3_61"
+    },
+    {
+      "text": "Keskin, C., Kira\u0107, F., Kara, Y. E., and Akarun, L. Randomized decision forests for static and dynamic hand shape classification. In 2012 IEEE CVPR Workshops, IEEE (June 2012), 31--36.",
+      "doi": ""
+    },
+    {
+      "text": "Kristensson, P.-O., and Zhai, S. SHARK 2. In Proceedings of ACM UIST (Oct. 2004).  ",
+      "doi": "10.1145/1029632.1029640"
+    },
+    {
+      "text": "Kristensson, P. O., and Zhai, S. Command strokes with and without preview. In Proc. ACM CHI (Apr. 2007). 1137.  ",
+      "doi": "10.1145/1240624.1240797"
+    },
+    {
+      "text": "Lee, H.-K., and Kim, J. H. An HMM-based threshold model approach for gesture recognition. IEEE PAMI 21, 10 (1999), 961--973.  ",
+      "doi": "10.1109/34.799904"
+    },
+    {
+      "text": "Liu, S., and Guimbreti\u00e9re, F. FlexAura: a flexible near-surface range sensor. In Proceedings of ACM UIST (Oct. 2012), 327--330.  ",
+      "doi": "10.1145/2380116.2380158"
+    },
+    {
+      "text": "Moeller, J., and Kerne, A. ZeroTouch: an optical multi-touch and free-air interaction architecture. In Proceedings of ACM CHI (May 2012), 2165.  ",
+      "doi": "10.1145/2207676.2208368"
+    },
+    {
+      "text": "Nowozin, S., and Shotton, J. Action Points: A Representation for Low-latency Online Human Action Recognition. Tech. rep., Microsoft Research Cambridge, 2012.",
+      "doi": ""
+    },
+    {
+      "text": "Rabiner, L., and Juang, B. An Introduction to Hidden Markov Models. In IEEE Acoustic Speech Signal Processing Magazine (1986), 3--4.",
+      "doi": ""
+    },
+    {
+      "text": "Rekimoto, J., Ishizawa, T., Schwesig, C., and Oba, H. PreSense: interaction techniques for finger sensing input devices. In Proceedings of ACM UIST (Nov. 2003), 203--212.  ",
+      "doi": "10.1145/964696.964719"
+    },
+    {
+      "text": "Rekimoto, J., Oba, H., and Ishizawa, T. SmartPad: a finger-sensing keypad for mobile interaction. In CHI '03 extended abstracts, ACM Press (New York, New York, USA, Apr. 2003), 850--851.  ",
+      "doi": "10.1145/765891.766030"
+    },
+    {
+      "text": "Rosenberg, I., and Perlin, K. The UnMousePad: an interpolating multi-touch force-sensing input pad. ACM Transactions on Graphics 28, 3 (July 2009), 1.  ",
+      "doi": "10.1145/1531326.1531371"
+    },
+    {
+      "text": "Shotton, J., Fitzgibbon, A., Cook, M., Sharp, T., Finocchio, M., Moore, R., Kipman, A., and Blake, A. Real-time human pose recognition in parts from single depth images. In CVPR 2011, IEEE (2011), 1297--1304.  ",
+      "doi": "10.1109/CVPR.2011.5995316"
+    },
+    {
+      "text": "Song, H., Benko, H., Guimbretiere, F., Izadi, S., Cao, X., and Hinckley, K. Grips and gestures on a multi-touch pen. In Proceedings of ACM CHI (May 2011).  ",
+      "doi": "10.1145/1978942.1979138"
+    },
+    {
+      "text": "Torralba, A., Fergus, R., and Freeman, W. T. 80 million tiny images: a large data set for nonparametric object and scene recognition. IEEE PAMI 30, 11 (Nov. 2008), 1958--70.  ",
+      "doi": "10.1109/TPAMI.2008.128"
+    },
+    {
+      "text": "Villar, N., Cao, X., Chen, B., Izadi, S., Rosenfeld, D., Benko, H., Helmes, J., Westhues, J., Hodges, S., Ofek, E., and Butler, A. Mouse 2.0: multi-touch meets the mouse. In Proceedings of ACM UIST (Oct. 2009).  ",
+      "doi": "10.1145/1622176.1622184"
+    },
+    {
+      "text": "Wang, R., Paris, S., and Popovi\u0107, J. 6D hands: markerless hand-tracking for computer aided design. In Proceedings of ACM UIST (Oct. 2011), 549--558.  ",
+      "doi": "10.1145/2047196.2047269"
+    },
+    {
+      "text": "Wang, R. Y., and Popovi\u0107, J. Real-time hand-tracking with a color glove. In ACM Transactions on Graphics, vol. 28 (July 2009).  ",
+      "doi": "10.1145/1531326.1531369"
+    },
+    {
+      "text": "Westerman, W., Elias, J. G., and Hedge, A. Multi-Touch: A New Tactile 2-D Gesture Interface for Human-Computer Interaction. Proceedings of the Human Factors and Ergonomics Society Annual Meeting 45, 6 (Oct. 2001), 632--636.",
+      "doi": ""
+    },
+    {
+      "text": "Wilson, A. D. Robust computer vision-based detection of pinching for one and two-handed gesture input. In Proceedings of ACM UIST (Oct. 2006), 255--258.  ",
+      "doi": "10.1145/1166253.1166292"
+    },
+    {
+      "text": "Yang, X.-D., Mak, E., McCallum, D., Irani, P., Cao, X., and Izadi, S. LensMouse: augmenting the mouse with an interactive touch display. In Proceedings of ACM SIGCHI (Apr. 2010), 2431--2440.  ",
+      "doi": "10.1145/1753326.1753695"
+    }
+  ]
+}

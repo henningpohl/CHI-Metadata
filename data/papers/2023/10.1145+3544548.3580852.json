@@ -1,0 +1,309 @@
+{
+  "doi": "10.1145/3544548.3580852",
+  "title": "DeepSeer: Interactive RNN Explanation and Debugging via State Abstraction",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Recurrent Neural Networks (RNNs) have been widely used in Natural Language Processing (NLP) tasks given its superior performance on processing sequential data. However, it is challenging to interpret and debug RNNs due to the inherent complexity and the lack of transparency of RNNs. While many explainable AI (XAI) techniques have been proposed for RNNs, most of them only support local explanations rather than global explanations. In this paper, we present DeepSeer, an interactive system that provides both global and local explanations of RNN behavior in multiple tightly-coordinated views for model understanding and debugging. The core of DeepSeer is a state abstraction method that bundles semantically similar hidden states in an RNN model and abstracts the model as a finite state machine. Users can explore the global model behavior by inspecting text patterns associated with each state and the transitions between states. Users can also dive into individual predictions by inspecting the state trace and intermediate prediction results of a given input. A between-subjects user study with 28 participants shows that, compared with a popular XAI technique, LIME, participants using DeepSeer made a deeper and more comprehensive assessment of RNN model behavior, identified the root causes of incorrect predictions more accurately, and came up with more actionable plans to improve the model performance.",
+  "authors": [
+    {
+      "name": "Zhijie Wang",
+      "institution": "University of Alberta, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660600137",
+      "orcid": "0000-0003-4559-5426"
+    },
+    {
+      "name": "Yuheng Huang",
+      "institution": "University of Alberta, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783649",
+      "orcid": "0000-0003-3666-4020"
+    },
+    {
+      "name": "Da Song",
+      "institution": "University of Alberta, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783301",
+      "orcid": "0000-0001-9267-4229"
+    },
+    {
+      "name": "Lei Ma",
+      "institution": "University of Alberta, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "84460121257",
+      "orcid": "0000-0002-8621-2420"
+    },
+    {
+      "name": "Tianyi Zhang",
+      "institution": "Computer Science, Purdue University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658654086",
+      "orcid": "0000-0002-5468-9347"
+    }
+  ],
+  "references": [
+    {
+      "text": "Mart\u00edn Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg\u00a0S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dandelion Man\u00e9, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Vi\u00e9gas, Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng. 2015. TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems. https://www.tensorflow.org/ Software available from tensorflow.org.",
+      "doi": ""
+    },
+    {
+      "text": "Amina Adadi and Mohammed Berrada. 2018. Peeking inside the black-box: a survey on explainable artificial intelligence (XAI). IEEE access 6(2018), 52138\u201352160.",
+      "doi": ""
+    },
+    {
+      "text": "Julius Adebayo, Michael Muelly, Ilaria Liccardi, and Been Kim. 2020. Debugging Tests for Model Explanations. Advances in Neural Information Processing Systems 33 (2020), 700\u2013712.",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Max Chickering, Steven\u00a0M Drucker, Bongshin Lee, Patrice Simard, and Jina Suh. 2015. Modeltracker: Redesigning performance analysis tools for machine learning. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 337\u2013346.",
+      "doi": "10.1145/2702123.2702509"
+    },
+    {
+      "text": "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul\u00a0N Bennett, Kori Inkpen, 2019. Guidelines for human-AI interaction. In Proceedings of the 2019 chi conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Alejandro\u00a0Barredo Arrieta, Natalia D\u00edaz-Rodr\u00edguez, Javier Del\u00a0Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garc\u00eda, Sergio Gil-L\u00f3pez, Daniel Molina, Richard Benjamins, 2020. Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI. Information Fusion 58(2020), 82\u2013115.",
+      "doi": "10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "text": "Elnaz Barshan, Marc-Etienne Brunet, and Gintare\u00a0Karolina Dziugaite. 2020. Relatif: Identifying explanatory training samples via relative influence. In International Conference on Artificial Intelligence and Statistics. PMLR, 1899\u20131909.",
+      "doi": ""
+    },
+    {
+      "text": "David Bau, Bolei Zhou, Aditya Khosla, Aude Oliva, and Antonio Torralba. 2017. Network dissection: Quantifying interpretability of deep visual representations. In Proceedings of the IEEE conference on computer vision and pattern recognition. 6541\u20136549.",
+      "doi": ""
+    },
+    {
+      "text": "Tom Bocklisch, Joey Faulkner, Nick Pawlowski, and Alan Nichol. 2017. Rasa: Open source language understanding and dialogue management. arXiv preprint arXiv:1712.05181(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Markus B\u00f6gl, Wolfgang Aigner, Peter Filzmoser, Tim Lammarsch, Silvia Miksch, and Alexander Rind. 2013. Visual analytics for model selection in time series analysis. IEEE transactions on visualization and computer graphics 19, 12(2013), 2237\u20132246.",
+      "doi": "10.1109/TVCG.2013.222"
+    },
+    {
+      "text": "Carrie\u00a0J Cai, Jonas Jongejan, and Jess Holbrook. 2019. The effects of example-based explanations in a machine learning interface. In Proceedings of the 24th international conference on intelligent user interfaces. 258\u2013262.",
+      "doi": "10.1145/3301275.3302289"
+    },
+    {
+      "text": "Kyunghyun Cho, Bart van Merri\u00ebnboer, Dzmitry Bahdanau, and Yoshua Bengio. 2014. On the Properties of Neural Machine Translation: Encoder\u2013Decoder Approaches. In Proceedings of SSST-8, Eighth Workshop on Syntax, Semantics and Structure in Statistical Translation. 103\u2013111.",
+      "doi": ""
+    },
+    {
+      "text": "Arun Das and Paul Rad. 2020. Opportunities and challenges in explainable artificial intelligence (xai): A survey. arXiv preprint arXiv:2006.11371(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Dodge, Q\u00a0Vera Liao, Yunfeng Zhang, Rachel\u00a0KE Bellamy, and Casey Dugan. 2019. Explaining models: an empirical study of how explanations impact fairness judgment. In Proceedings of the 24th international conference on intelligent user interfaces. 275\u2013285.",
+      "doi": "10.1145/3301275.3302310"
+    },
+    {
+      "text": "Xiaoning Du, Yi Li, Xiaofei Xie, Lei Ma, Yang Liu, and Jianjun Zhao. 2020. Marble: Model-based robustness analysis of stateful deep learning systems. In Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering. 423\u2013435.",
+      "doi": "10.1145/3324884.3416564"
+    },
+    {
+      "text": "Xiaoning Du, Xiaofei Xie, Yi Li, Lei Ma, Yang Liu, and Jianjun Zhao. 2019. Deepstellar: Model-based quantitative analysis of stateful deep learning systems. In Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering. 477\u2013487.",
+      "doi": "10.1145/3338906.3338954"
+    },
+    {
+      "text": "Mary\u00a0T Dzindolet, Scott\u00a0A Peterson, Regina\u00a0A Pomranky, Linda\u00a0G Pierce, and Hall\u00a0P Beck. 2003. The role of trust in automation reliance. International journal of human-computer studies 58, 6 (2003), 697\u2013718.",
+      "doi": "10.1016/S1071-5819%2803%2900038-7"
+    },
+    {
+      "text": "Jeffrey\u00a0L Elman. 1990. Finding structure in time. Cognitive science 14, 2 (1990), 179\u2013211.",
+      "doi": ""
+    },
+    {
+      "text": "Philippe Fournier-Viger, Antonio Gomariz, Ted Gueniche, Esp\u00e9rance Mwamikazi, and Rincy Thomas. 2013. TKS: efficient mining of top-k sequential patterns. In International Conference on Advanced Data Mining and Applications. Springer, 109\u2013120.",
+      "doi": ""
+    },
+    {
+      "text": "Antonio Gulli. 2005. AG\u2019s corpus of news articles. http://groups.di.unipi.it/\u00a0gulli/AG_corpus_of_news_articles.html",
+      "doi": ""
+    },
+    {
+      "text": "Sandra\u00a0G Hart and Lowell\u00a0E Staveland. 1988. Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research. In Advances in psychology. Vol.\u00a052. Elsevier, 139\u2013183.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan\u00a0L Herlocker, Joseph\u00a0A Konstan, and John Riedl. 2000. Explaining collaborative filtering recommendations. In Proceedings of the 2000 ACM conference on Computer supported cooperative work. 241\u2013250.",
+      "doi": "10.1145/358916.358995"
+    },
+    {
+      "text": "Sepp Hochreiter and J\u00fcrgen Schmidhuber. 1997. Long short-term memory. Neural computation 9, 8 (1997), 1735\u20131780.",
+      "doi": "10.1162/neco.1997.9.8.1735"
+    },
+    {
+      "text": "Fred Hohman, Andrew Head, Rich Caruana, Robert DeLine, and Steven\u00a0M Drucker. 2019. Gamut: A design probe to understand how data scientists understand machine learning models. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300809"
+    },
+    {
+      "text": "Zhihua Jin, Yong Wang, Qianwen Wang, Yao Ming, Tengfei Ma, and Huamin Qu. 2022. Gnnlens: A visual analytics approach for prediction error diagnosis of graph neural networks. IEEE Transactions on Visualization and Computer Graphics (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Minsuk Kahng, Pierre\u00a0Y Andrews, Aditya Kalro, and Duen\u00a0Horng Chau. 2017. Activis: Visual exploration of industry-scale deep neural network models. IEEE transactions on visualization and computer graphics 24, 1(2017), 88\u201397.",
+      "doi": ""
+    },
+    {
+      "text": "Andrej Karpathy, Justin Johnson, and Li Fei-Fei. 2015. Visualizing and understanding recurrent networks. arXiv preprint arXiv:1506.02078(2015).",
+      "doi": ""
+    },
+    {
+      "text": "Harmanpreet Kaur, Harsha Nori, Samuel Jenkins, Rich Caruana, Hanna Wallach, and Jennifer Wortman\u00a0Vaughan. 2020. Interpreting Interpretability: Understanding Data Scientists\u2019 Use of Interpretability Tools for Machine Learning. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376219"
+    },
+    {
+      "text": "Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, 2018. Interpretability beyond feature attribution: Quantitative testing with concept activation vectors (tcav). In International conference on machine learning. PMLR, 2668\u20132677.",
+      "doi": ""
+    },
+    {
+      "text": "Ren\u00e9\u00a0F Kizilcec. 2016. How much information? Effects of transparency on trust in an algorithmic interface. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 2390\u20132395.",
+      "doi": "10.1145/2858036.2858402"
+    },
+    {
+      "text": "Pang\u00a0Wei Koh, Kai-Siang Ang, Hubert H.\u00a0K. Teo, and Percy Liang. 2019. On the Accuracy of Influence Functions for Measuring Group Effects. In Advances in Neural Information Processing Systems 32 (2019). 5255\u20135265.",
+      "doi": ""
+    },
+    {
+      "text": "Pang\u00a0Wei Koh and Percy Liang. 2017. Understanding black-box predictions via influence functions. In International Conference on Machine Learning. PMLR, 1885\u20131894.",
+      "doi": ""
+    },
+    {
+      "text": "Jiwei Li, Xinlei Chen, Eduard Hovy, and Dan Jurafsky. 2016. Visualizing and Understanding Neural Models in NLP. In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 681\u2013691.",
+      "doi": ""
+    },
+    {
+      "text": "Rongjian Li, Wenlu Zhang, Heung-Il Suk, Li Wang, Jiang Li, Dinggang Shen, and Shuiwang Ji. 2014. Deep learning based imaging data completion for improved brain disease diagnosis. In International conference on medical image computing and computer-assisted intervention. Springer, 305\u2013312.",
+      "doi": "10.1007/978-3-319-10443-0_39"
+    },
+    {
+      "text": "Q\u00a0Vera Liao, Daniel Gruen, and Sarah Miller. 2020. Questioning the AI: informing design practices for explainable AI user experiences. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3313831.3376590"
+    },
+    {
+      "text": "Zachary\u00a0C Lipton. 2018. The Mythos of Model Interpretability: In machine learning, the concept of interpretability is both important and slippery.Queue 16, 3 (2018), 31\u201357.",
+      "doi": "10.1145/3236386.3241340"
+    },
+    {
+      "text": "Gang Liu and Jiabao Guo. 2019. Bidirectional LSTM with attention mechanism and convolutional layer for text classification. Neurocomputing 337(2019), 325\u2013338.",
+      "doi": "10.1016/j.neucom.2019.01.078"
+    },
+    {
+      "text": "Shusen Liu, Zhimin Li, Tao Li, Vivek Srikumar, Valerio Pascucci, and Peer-Timo Bremer. 2018. Nlize: A perturbation-driven visual interrogation tool for analyzing and interpreting natural language inference models. IEEE transactions on visualization and computer graphics 25, 1(2018), 651\u2013660.",
+      "doi": ""
+    },
+    {
+      "text": "Scott\u00a0M Lundberg and Su-In Lee. 2017. A Unified Approach to Interpreting Model Predictions. In Advances in Neural Information Processing Systems 30, I.\u00a0Guyon, U.\u00a0V. Luxburg, S.\u00a0Bengio, H.\u00a0Wallach, R.\u00a0Fergus, S.\u00a0Vishwanathan, and R.\u00a0Garnett (Eds.). Curran Associates, Inc., 4765\u20134774. http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Shiqing Ma, Yousra Aafer, Zhaogui Xu, Wen-Chuan Lee, Juan Zhai, Yingqi Liu, and Xiangyu Zhang. 2017. LAMP: data provenance for graph based machine learning algorithms through derivative computation. In Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering. 786\u2013797.",
+      "doi": "10.1145/3106237.3106291"
+    },
+    {
+      "text": "Shiqing Ma, Yingqi Liu, Wen-Chuan Lee, Xiangyu Zhang, and Ananth Grama. 2018. MODE: automated neural network model debugging via state differential analysis and input selection. In Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering. 175\u2013186.",
+      "doi": "10.1145/3236024.3236082"
+    },
+    {
+      "text": "Geoffrey\u00a0J McLachlan and Kaye\u00a0E Basford. 1988. Mixture models: Inference and applications to clustering. Vol.\u00a038. M. Dekker New York.",
+      "doi": ""
+    },
+    {
+      "text": "Yao Ming, Shaozu Cao, Ruixiang Zhang, Zhen Li, Yuanzhe Chen, Yangqiu Song, and Huamin Qu. 2017. Understanding hidden memories of recurrent neural networks. In 2017 IEEE Conference on Visual Analytics Science and Technology (VAST). IEEE, 13\u201324.",
+      "doi": ""
+    },
+    {
+      "text": "Christoph Molnar. 2020. Interpretable machine learning. Lulu. com.",
+      "doi": ""
+    },
+    {
+      "text": "Gr\u00e9goire Montavon, Wojciech Samek, and Klaus-Robert M\u00fcller. 2018. Methods for interpreting and understanding deep neural networks. Digital Signal Processing 73 (2018), 1\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Sugeerth Murugesan, Sana Malik, Fan Du, Eunyee Koh, and Tuan\u00a0Manh Lai. 2019. Deepcompare: Visual and interactive comparison of deep learning model performance. IEEE computer graphics and applications 39, 5 (2019), 47\u201359.",
+      "doi": ""
+    },
+    {
+      "text": "Takamasa Okudono, Masaki Waga, Taro Sekiyama, and Ichiro Hasuo. 2020. Weighted automata extraction from recurrent neural networks via regression on state spaces. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a034. 5306\u20135314.",
+      "doi": ""
+    },
+    {
+      "text": "Chris Olah, Arvind Satyanarayan, Ian Johnson, Shan Carter, Ludwig Schubert, Katherine Ye, and Alexander Mordvintsev. 2018. The building blocks of interpretability. Distill 3, 3 (2018), e10.",
+      "doi": ""
+    },
+    {
+      "text": "Zi Peng, Jinqiu Yang, Tse-Hsun Chen, and Lei Ma. 2020. A first look at the integration of machine learning models in complex autonomous driving systems: A case study on apollo. In Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering. 1240\u20131250.",
+      "doi": "10.1145/3368089.3417063"
+    },
+    {
+      "text": "Quora. 2019. Quora insincere questions classification. https://www.kaggle.com/c/quora-insincere-questions-classification/data",
+      "doi": ""
+    },
+    {
+      "text": "Guillaume Rabusseau, Tianyu Li, and Doina Precup. 2019. Connecting weighted automata and recurrent neural networks through spectral learning. In The 22nd International Conference on Artificial Intelligence and Statistics. PMLR, 1630\u20131639.",
+      "doi": ""
+    },
+    {
+      "text": "Amir Hossein\u00a0Akhavan Rahnama and Henrik Bostr\u00f6m. 2019. A study of data and label shift in the LIME framework. arXiv preprint arXiv:1910.14421(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2016. \" Why should i trust you?\" Explaining the predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. 1135\u20131144.",
+      "doi": "10.1145/2939672.2939778"
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2018. Anchors: High-precision model-agnostic explanations. In Proceedings of the AAAI conference on artificial intelligence, Vol.\u00a032.",
+      "doi": ""
+    },
+    {
+      "text": "Tobias Schneider, Joana Hois, Alischa Rosenstein, Sabiha Ghellal, Dimitra Theofanou-F\u00fclbier, and Ansgar\u00a0RS Gerlicher. 2021. ExplAIn Yourself! Transparency for Positive UX in Autonomous Driving. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3411764.3446647"
+    },
+    {
+      "text": "Ramprasaath\u00a0R Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Pariah, and Dhruv Batra. 2017. Grad-cam: Visual explanations from deep networks via gradient-based localization. In Proceedings of the IEEE international conference on computer vision. 618\u2013626.",
+      "doi": ""
+    },
+    {
+      "text": "Karen Simonyan, Andrea Vedaldi, and Andrew Zisserman. 2013. Deep inside convolutional networks: Visualising image classification models and saliency maps. arXiv preprint arXiv:1312.6034(2013).",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Smilkov, Nikhil Thorat, Been Kim, Fernanda Vi\u00e9gas, and Martin Wattenberg. 2017. Smoothgrad: removing noise by adding noise. arXiv preprint arXiv:1706.03825(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Hendrik Strobelt, Sebastian Gehrmann, Hanspeter Pfister, and Alexander\u00a0M Rush. 2017. Lstmvis: A tool for visual analysis of hidden state dynamics in recurrent neural networks. IEEE transactions on visualization and computer graphics 24, 1(2017), 667\u2013676.",
+      "doi": ""
+    },
+    {
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan\u00a0N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. Advances in neural information processing systems 30 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Gail Weiss, Yoav Goldberg, and Eran Yahav. 2018. Extracting automata from recurrent neural networks using queries and counterexamples. In International Conference on Machine Learning. PMLR, 5247\u20135256.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaofei Xie, Wenbo Guo, Lei Ma, Wei Le, Jian Wang, Lingjun Zhou, Yang Liu, and Xinyu Xing. 2021. RNNrepair: Automatic RNN repair via model-based analysis. In International Conference on Machine Learning. PMLR, 11383\u201311392.",
+      "doi": ""
+    },
+    {
+      "text": "Bing Yu, Hua Qi, Qing Guo, Felix Juefei-Xu, Xiaofei Xie, Lei Ma, and Jianjun Zhao. 2022. DeepRepair: Style-Guided Repairing for Deep Neural Networks in the Real-World Operational Environment. IEEE Transactions on Reliability 71, 4 (2022), 1401\u20131416. https://doi.org/10.1109/TR.2021.3096332",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0D Zeiler and Rob Fergus. 2014. Visualizing and understanding convolutional networks. In European conference on computer vision. Springer, 818\u2013833.",
+      "doi": ""
+    },
+    {
+      "text": "Xiang Zhang, Junbo Zhao, and Yann LeCun. 2015. Character-level convolutional networks for text classification. Advances in neural information processing systems 28 (2015).",
+      "doi": ""
+    }
+  ]
+}

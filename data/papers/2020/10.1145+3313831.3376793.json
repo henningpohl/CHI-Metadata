@@ -1,0 +1,628 @@
+{
+  "doi": "10.1145/3313831.3376793",
+  "title": "Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor",
+  "published": "2020-04-23",
+  "proctitle": "CHI '20: Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2020,
+  "badges": [],
+  "abstract": "Organizational culture (OC) encompasses the underlying beliefs, values, and practices that are unique to an organization. However, OC is inherently subjective and a coarse construct, and therefore challenging to quantify. Alternatively, self-initiated workplace reviews on online platforms like Glassdoor provide the opportunity to leverage the richness of language to understand OC. In as much, first, we use multiple job descriptors to operationalize OC as a word vector representation. We validate this construct with language used in 650k different Glassdoor reviews. Next, we propose a methodology to apply our construct on Glassdoor reviews to quantify the OC of employees by sector. We validate our measure of OC on a dataset of 341 employees by providing empirical evidence that it helps explain job performance. We discuss the implications of our work in guiding tailored interventions and designing tools for improving employee functioning.",
+  "authors": [
+    {
+      "name": "Vedant Das Swain",
+      "institution": "Georgia Institute of Technology, Atlanta, GA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659254374",
+      "orcid": "0000-0001-6871-3523"
+    },
+    {
+      "name": "Koustuv Saha",
+      "institution": "Georgia Institute of Technology, Atlanta, GA, USA",
+      "img": "/do/10.1145/contrib-99659200365/rel-imgonly/koustuv_square_ddub.jpg",
+      "acmid": "99659200365",
+      "orcid": "0000-0002-8872-2934"
+    },
+    {
+      "name": "Manikanta D. Reddy",
+      "institution": "Georgia Institute of Technology, Atlanta, GA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659366034",
+      "orcid": "missing"
+    },
+    {
+      "name": "Hemang Rajvanshy",
+      "institution": "Georgia Institute of Technology, Atlanta, GA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659486883",
+      "orcid": "missing"
+    },
+    {
+      "name": "Gregory D. Abowd",
+      "institution": "Georgia Institute of Technology, Atlanta, GA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100251687",
+      "orcid": "0000-0002-3408-587X"
+    },
+    {
+      "name": "Munmun De Choudhury",
+      "institution": "Georgia Institute of Technology, Atlanta, GA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81343491309",
+      "orcid": "0000-0002-8939-264X"
+    }
+  ],
+  "references": [
+    {
+      "text": "Fortune 500. 2019. fortune.com/fortune500/list. (2019). Accessed: 2019-03--27.",
+      "doi": ""
+    },
+    {
+      "text": "Faiyaz Al Zamal, Wendy Liu, and Derek Ruths. 2012. Homophily and latent attribute inference: Inferring latent attributes of twitter users from neighbors. In ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Noora Albalooshi, Nikolaos Mavridis, and Nabeel Al-Qirim. 2012. A survey on social networks and organization development. In 2012 International Conference on Collaboration Technologies and Systems (CTS). IEEE, 539--545.",
+      "doi": ""
+    },
+    {
+      "text": "Mats Alvesson and Stefan Sveningsson. 2015. Changing organizational culture: Cultural change work in progress. Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Aris Anagnostopoulos, Ravi Kumar, and Mohammad Mahdian. 2008. Influence and correlation in social networks. In Proceedings of the 14th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 7--15.",
+      "doi": "10.1145/1401890.1401897"
+    },
+    {
+      "text": "A Archambault and J Grudin. 2012. A Longitudinal Study of Facebook, LinkedIn, and Twitter Use. In Proceedings of CHI 2012. (2012).",
+      "doi": "10.1145/2207676.2208671"
+    },
+    {
+      "text": "Ghodratollah Bagheri, Reihaneh Zarei, and Mojtaba Nik Aeen. 2012. Organizational silence (basic concepts and its development factors). Ideal Type of Management (2012).",
+      "doi": ""
+    },
+    {
+      "text": "Arnold B Bakker, Evangelia Demerouti, and L Lieke. 2012. Work engagement, performance, and active learning: The role of conscientiousness. Journal of vocational behavior 80, 2 (2012), 555--564.",
+      "doi": ""
+    },
+    {
+      "text": "Artur Baldauf, Heribert Reisinger, and William C Moncrief. 1999. Examining motivations to refuse in industrial mail surveys. Journal of the Market Research Society (1999).",
+      "doi": ""
+    },
+    {
+      "text": "Timothy Baldwin, Paul Cook, Marco Lui, Andrew MacKinlay, and Li Wang. 2013. How noisy social media text, how diffrnt social media sources?. In Proceedings of the Sixth International Joint Conference on Natural Language Processing. 356--364.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen R Barley, Gordon W Meyer, and Debra C Gash. 1988. Cultures of culture: Academics, practitioners and the pragmatics of normative control. Administrative science quarterly (1988), 24--60.",
+      "doi": ""
+    },
+    {
+      "text": "Murray R Barrick and Michael K Mount. 1991. The big five personality dimensions and job performance: a meta-analysis. Personnel psychology 44, 1 (1991), 1--26.",
+      "doi": ""
+    },
+    {
+      "text": "Yehuda Baruch and Brooks C Holtom. 2008. Survey response rate levels and trends in organizational research. Human relations 61, 8 (2008), 1139--1160.",
+      "doi": ""
+    },
+    {
+      "text": "Victor Battistich and Allen Hom. 1997. The relationship between students' sense of their school as a community and their involvement in problem behaviors. American journal of public health (1997).",
+      "doi": ""
+    },
+    {
+      "text": "Simon J Bell and Bulent Menguc. 2002. The employee-organization relationship, organizational citizenship behaviors, and superior service quality. Journal of retailing 78, 2 (2002), 131--146.",
+      "doi": ""
+    },
+    {
+      "text": "Bennett M Berger. 1995. An essay on culture: Symbolic structure and social structure. Univ of California Press.",
+      "doi": ""
+    },
+    {
+      "text": "Robert J Bies. 1989. Organizational citizenship behavior: The good soldier syndrome. (1989).",
+      "doi": ""
+    },
+    {
+      "text": "Danah M Boyd and Nicole B Ellison. 2007. Social network sites: Definition, history, and scholarship. Journal of computer-mediated Communication 13, 1 (2007), 210--230.",
+      "doi": "10.1111/j.1083-6101.2007.00393.x"
+    },
+    {
+      "text": "Daniel M Cable and Timothy A Judge. 1996. Person--organization fit, job choice decisions, and organizational entry. Organizational behavior and human decision processes 67, 3 (1996), 294--311.",
+      "doi": ""
+    },
+    {
+      "text": "Michael A Campion, Ellen M Papper, and Gina J Medsker. 1996. Relations between work team characteristics and effectiveness: A replication and extension. Personnel psychology (1996).",
+      "doi": ""
+    },
+    {
+      "text": "Claire C Caruso, Tim Bushnell, Donald Eggerth, Anneke Heitmann, Bill Kojola, Katharine Newman, Roger R Rosa, Steven L Sauter, and Bryan Vila. 2006. Long working hours, safety, and health: toward a National Research Agenda. American journal of industrial medicine 49, 11 (2006), 930--942.",
+      "doi": ""
+    },
+    {
+      "text": "Ralph Catalano. 1979. Health, behavior and the community: An ecological perspective. Pergamon Press New York.",
+      "doi": ""
+    },
+    {
+      "text": "Luigi Luca Cavalli-Sforza and Marcus W Feldman. 1981. Cultural transmission and evolution: A quantitative approach. Number 16. Princeton University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra Cetto, Julia Klier, Mathias Klier, Alexander Richter, and Katharina Wiesneth. 2016. The Blessing of Giving: Kowledge Sharing and Knowledge seeking in Enterprise Social Networks.. In ECIS. ResearchPaper64.",
+      "doi": ""
+    },
+    {
+      "text": "A Chamberlain. 2015. Does company culture pay off? Analyzing stock performance of'Best Places to Work'companies. Technical Report. Glassdoor Research Report, March 2015.",
+      "doi": ""
+    },
+    {
+      "text": "A Chamberlain. 2017. Give to Get: A Mechanism to Reduce Bias in Online Reviews. Technical Report. Glassdoor Research Report, October 2017.",
+      "doi": ""
+    },
+    {
+      "text": "Christy MK Cheung, Matthew KO Lee, and Zach WY Lee. 2013. Understanding the continuance intention of knowledge sharing in online communities of practice through the post-knowledge-sharing evaluation processes. Journal of the American Society for Information Science and Technology (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Fortune 100 Best Companies. 2019. fortune.com/best-companies/list/. (2019). Accessed: 2019-03--27.",
+      "doi": ""
+    },
+    {
+      "text": "Robert A Cooke and Denise M Rousseau. 1988. Behavioral norms and expectations: A quantitative approach to the assessment of organizational culture. Group & Organization Studies 13, 3 (1988), 245--273.",
+      "doi": ""
+    },
+    {
+      "text": "Robert A Cooke and Janet L Szumal. 1993. Measuring normative beliefs and shared behavioral expectations in organizations: The reliability and validity of the Organizational Culture Inventory. Psychological reports 72, 3_suppl (1993), 1299--1330.",
+      "doi": ""
+    },
+    {
+      "text": "Robert A Cooke and Janet L Szumal. 2000. Using the organizational culture inventory to understand the operating cultures of organizations. Handbook of organizational culture and climate 4 (2000), 1032--1045.",
+      "doi": ""
+    },
+    {
+      "text": "Jacqueline A-M Coyle-Shapiro. 2002. A psychological contract perspective on organizational citizenship behavior. Journal of Organizational Behavior: The International Journal of Industrial, Occupational and Organizational Psychology and Behavior 23, 8 (2002), 927--946.",
+      "doi": ""
+    },
+    {
+      "text": "Linda L Dahlberg and Etienne G Krug. 2006. Violence: a global public health problem. Ci\u00eancia & Sa\u00fade Coletiva 11 (2006), 1163--1178.",
+      "doi": ""
+    },
+    {
+      "text": "Vedant Das Swain, Koustuv Saha, Hemang Rajvanshy, Anusha Sirigiri, Julie M Gregg, Suwen Lin, Gonzalo J Martinez, Stephen M Mattingly, Shayan Mirjafari, Raghu Mulukutla, and others. 2019. A Multisensor Person-Centered Approach to Understand the Role of Daily Activities in Job Performance with Organizational Personas. PACM IMWUT (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Munmun De Choudhury and Scott Counts. 2013. Understanding affect in the workplace via social media. In Proceedings of the 2013 conference on Computer supported cooperative work. ACM, 303--316.",
+      "doi": "10.1145/2441776.2441812"
+    },
+    {
+      "text": "Daniel R Denison, Stephanie Haaland, and Paulo Goelzer. 2004. Corporate culture and organizational effectiveness: Is Asia different from the rest of the world? Organizational dynamics 33, 1 (2004), 98--109.",
+      "doi": ""
+    },
+    {
+      "text": "Rohit Deshpand\u00e9, John U Farley, and Frederick E Webster Jr. 1993. Corporate culture, customer orientation, and innovativeness in Japanese firms: a quadrad analysis. Journal of marketing 57, 1 (1993), 23--37.",
+      "doi": ""
+    },
+    {
+      "text": "Joan DiMicco, David R Millen, Werner Geyer, Casey Dugan, Beth Brownholtz, and Michael Muller. 2008. Motivations for social networking at work. In Proceedings of the 2008 ACM conference on Computer supported cooperative work. ACM, 711--720.",
+      "doi": "10.1145/1460563.1460674"
+    },
+    {
+      "text": "Judith S Donath and others. 1999. Identity and deception in the virtual community. Communities in cyberspace 1996 (1999), 29--59.",
+      "doi": ""
+    },
+    {
+      "text": "Toni L Doolen, Marla E Hacker, and Eileen M Van Aken. 2003. The impact of organizational context on work team effectiveness: A study of production team. IEEE Transactions on Engineering Management 50, 3 (2003), 285--296.",
+      "doi": ""
+    },
+    {
+      "text": "Gabriel Doyle, Amir Goldberg, Sameer Srivastava, and Michael Frank. 2017. Alignment at work: Using language to distinguish the internalization and self-regulation components of cultural fit in organizations. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers).",
+      "doi": ""
+    },
+    {
+      "text": "Toby Marshall Egan, Baiyin Yang, and Kenneth R Bartlett. 2004. The effects of organizational learning culture and job satisfaction on motivation to transfer learning and turnover intention. Human resource development quarterly (2004).",
+      "doi": ""
+    },
+    {
+      "text": "Robert Eisenberger, Peter Fasolo, and Valerie Davis-LaMastro. 1990. Perceived organizational support and employee diligence, commitment, and innovation. Journal of applied psychology 75, 1 (1990), 51.",
+      "doi": ""
+    },
+    {
+      "text": "Ethan Fast, Binbin Chen, and Michael S Bernstein. 2016. Empath: Understanding topic signals in large-scale text. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, 4647--4657.",
+      "doi": "10.1145/2858036.2858535"
+    },
+    {
+      "text": "Robert S Feldman, James A Forrest, and Benjamin R Happ. 2002. Self-presentation and verbal deception: Do self-presenters lie more? Basic and applied social psychology 24, 2 (2002), 163--170.",
+      "doi": ""
+    },
+    {
+      "text": "Franco Fiordelisi and Ornella Ricci. 2014. Corporate culture and CEO turnover. Journal of Corporate Finance (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Suzy Fox, Paul E Spector, Angeline Goh, Kari Bruursema, and Stacey R Kessler. 2012. The deviant citizen: Measuring potential positive relations between counterproductive work behaviour and organizational citizenship behaviour. J. Occup. Organ. Psychol (2012).",
+      "doi": ""
+    },
+    {
+      "text": "Werner Geyer, Casey Dugan, Joan DiMicco, David R Millen, Beth Brownholtz, and Michael Muller. 2008. Use and reuse of shared lists as a social content type. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 1545--1554.",
+      "doi": "10.1145/1357054.1357296"
+    },
+    {
+      "text": "Saby Ghoshray. 2013. Employer surveillance versus employee privacy: The new reality of social media and workplace privacy. N. Ky. L. Rev. (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Susan R Glaser, Sonia Zamanou, and Kenneth Hacker. 1987. Measuring and interpreting organizational culture. Management communication quarterly 1, 2 (1987), 173--198.",
+      "doi": ""
+    },
+    {
+      "text": "Erving Goffman. 1981. Forms of talk. University of Pennsylvania Press.",
+      "doi": ""
+    },
+    {
+      "text": "Amir Goldberg, Sameer B Srivastava, V Govind Manian, William Monroe, and Christopher Potts. 2016. Fitting in or standing out? The tradeoffs of structural and cultural embeddedness. American Sociological Review (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Abbas Golestani, Mikhil Masli, N Sadat Shami, Jennifer Jones, Abhilash Menon, and Joydeep Mondal. 2018. Real-Time Prediction of Employee Engagement Using Social Media and Text Mining. In 2018 17th IEEE International Conference on Machine Learning and Applications (ICMLA). IEEE, 1383--1387.",
+      "doi": ""
+    },
+    {
+      "text": "Maarten Goos, Alan Manning, and Anna Salomons. 2011. Explaining job polarization: the roles of technology, offshoring and institutions. Offshoring and Institutions (December 1, 2011) (2011).",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey H Greenhaus and Saroj Parasuraman. 1993. Job performance attributions and career advancement prospects: An examination of gender and race effects. Organizational Behavior and Human Decision Processes 55, 2 (1993), 273--297.",
+      "doi": ""
+    },
+    {
+      "text": "Ulrike Gr\u00f6mping. 2009. Variable importance assessment in regression: linear regression versus random forest. The American Statistician (2009).",
+      "doi": ""
+    },
+    {
+      "text": "Glassdoor Community Guidelines. 2019. https://https://help.glassdoor.com/article/ Community-Guidelines/en_US. (2019). Accessed: 2019-03--21.",
+      "doi": ""
+    },
+    {
+      "text": "John Joseph Gumperz and Dell H Hymes. 1986. Directions in sociolinguistics: The ethnography of communication. B. Blackwell.",
+      "doi": ""
+    },
+    {
+      "text": "Ido Guy, Inbal Ronen, Naama Zwerdling, Irena Zuyev-Grabovitch, and Michal Jacovi. 2016. What is Your Organization'Like'?: A Study of Liking Activity in the Enterprise. In Proc. CHI.",
+      "doi": ""
+    },
+    {
+      "text": "Heike Heidemeier and Klaus Moser. 2009. Self--other agreement in job performance ratings: A meta-analytic test of a process model. Journal of Applied Psychology (2009).",
+      "doi": ""
+    },
+    {
+      "text": "Geert Hofstede. 2001. Culture's consequences: Comparing values, behaviors, institutions and organizations across nations. Sage publications.",
+      "doi": ""
+    },
+    {
+      "text": "Geert Hofstede, Bram Neuijen, Denise Daval Ohayv, and Geert Sanders. 1990. Measuring organizational cultures: A qualitative and quantitative study across twenty cases. Administrative science quarterly (1990).",
+      "doi": ""
+    },
+    {
+      "text": "Raimondo Ingrassia. 2017. Appearance or reality? Monitoring of employer branding in public network space: the Glassdoor case. (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Willow S Jacobson and Shannon Howle Tufts. 2013. To post or not to post: Employee rights and social media. Review of public personnel administration (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Karen A Jehn. 1997. A qualitative analysis of conflict types and dimensions in organizational groups. Administrative science quarterly (1997), 530--557.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey V Johnson and Jane Lipscomb. 2006. Long working hours, occupational health and the changing nature of work organization. American journal of industrial medicine 49, 11 (2006), 921--929.",
+      "doi": ""
+    },
+    {
+      "text": "Baek-Kyoo Joo. 2010. Organizational commitment for knowledge workers: The roles of perceived organizational learning culture, leader--member exchange quality, and turnover intention. Human resource development quarterly (2010).",
+      "doi": ""
+    },
+    {
+      "text": "Ron Kohavi and others. 1995. A study of cross-validation and bootstrap for accuracy estimation and model selection. In Ijcai.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Kollock. 1999. The economies ol online cooperation. Communities in cyberspace 220 (1999).",
+      "doi": ""
+    },
+    {
+      "text": "Hui-Min Lai and Tsung Teng Chen. 2014. Knowledge sharing in interest online communities: A comparison of posters and lurkers. Comput. Hum. Behav (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Chei Sian Lee and Long Ma. 2012. News sharing in social media: The effect of gratifications and prior experience. Computers in human behavior 28, 2 (2012), 331--339.",
+      "doi": ""
+    },
+    {
+      "text": "Jongseo Lee and Juyoung Kang. 2017. A Study on Job Satisfaction Factors in Retention and Turnover Groups using Dominance Analysis and LDA Topic Modeling with Employee Reviews on Glassdoor. com. (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey A LePine, Jason A Colquitt, and Amir Erez. 2000. Adaptability to changing task contexts: Effects of general cognitive ability, conscientiousness, and openness to experience. Personnel psychology 53, 3 (2000), 563--593.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Luca and Georgios Zervas. 2016. Fake it till you make it: Reputation, competition, and Yelp review fraud. Management Science 62, 12 (2016), 3412--3427.",
+      "doi": "10.1287/mnsc.2015.2304"
+    },
+    {
+      "text": "Ning Luo, Yilu Zhou, and John Shon. 2016. Employee satisfaction and corporate performance: Mining employee reviews on glassdoor. com. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Gloria Mark, Shamsi T Iqbal, Mary Czerwinski, Paul Johns, Akane Sano, and Yuliya Lutchyn. 2016. Email duration, batching and self-interruption: Patterns of email use on productivity and stress. In Proc. CHI.",
+      "doi": "10.1145/2858036.2858262"
+    },
+    {
+      "text": "Stephen M Mattingly, Julie M Gregg, Pino Audia, Ayse Elvan Bayraktaroglu, Andrew T Campbell, Nitesh V Chawla, Vedant Das Swain, Munmun De Choudhury, Sidney K D \u00b4 Mello, Anind K Dey, and others. 2019. The Tesserae Project: Large-Scale, Longitudinal, In Situ, Multimodal Sensing of Information Workers. In CHI Ext. Abstracts.",
+      "doi": ""
+    },
+    {
+      "text": "Shayan Mirjafari, Kizito Masaba, Ted Grover, Weichen Wang, Pino Audia, Andrew T Campbell, Nitesh V Chawla, Vedant Das Swain, Munmun De Choudhury, Anind K Dey, and others. 2019. Differentiating Higher and Lower Job Performers in the Workplace Using Mobile Sensing. PACM IMWUT (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Tanushree Mitra, Michael Muller, N Sadat Shami, Abbas Golestani, and Mikhil Masli. 2017. Spread of Employee Engagement in a Large Organizational Network: A Longitudinal Analysis. PACM HCI 1, CSCW (2017), 81.",
+      "doi": ""
+    },
+    {
+      "text": "Andy Moniz. 2016. Inferring employees' social media perceptions of goal-setting corporate cultures and the link to firm value. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth Wolef Morrison and Frances J Milliken. 2000. Organizational silence: A barrier to change and development in a pluralistic world. Academy of Management review (2000).",
+      "doi": ""
+    },
+    {
+      "text": "Stephan J Motowidlo. 2003. Job performance. Handbook of psychology: Industrial and organizational psychology 12 (2003), 39--53.",
+      "doi": ""
+    },
+    {
+      "text": "Arjun Mukherjee, Vivek Venkataraman, Bing Liu, and Natalie Glance. 2013. What yelp fake review filter might be doing?. In ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Muller, N Sadat Shami, Shion Guha, Mikhil Masli, Werner Geyer, and Alan Wild. 2016. Influences of peers, friends, and managers on employee engagement. In Proc. GROUP.",
+      "doi": "10.1145/2957276.2957292"
+    },
+    {
+      "text": "Duc Duy Nguyen, Linh Nguyen, and Vathunyoo Sila. 2019. Does Corporate Culture Affect Bank Risk-Taking? Evidence from Loan-Level Data. British Journal of Management 30, 1 (2019), 106--133.",
+      "doi": ""
+    },
+    {
+      "text": "Glassdoor Terms of Use. 2019. https://www.glassdoor.com/about/terms.htm. (2019). Accessed: 2019-03--28.",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra Olteanu, Carlos Castillo, Fernando Diaz, and Emre Kiciman. 2016. Social data: Biases, methodological pitfalls, and ethical boundaries. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "O*Net. 2019. About this Sitehttps://www.glassdoor.com/about/terms.htm. (2019). Accessed: 2019-03--28.",
+      "doi": ""
+    },
+    {
+      "text": "Charles O'Reilly. 1989. Corporations, culture, and commitment: Motivation and social control in organizations. California management review (1989).",
+      "doi": ""
+    },
+    {
+      "text": "Charles A O'Reilly III, Jennifer Chatman, and David F Caldwell. 1991. People and organizational culture: A profile comparison approach to assessing person-organization fit. Academy of management journal (1991).",
+      "doi": ""
+    },
+    {
+      "text": "Dennis W Organ. 1997. Organizational citizenship behavior: It's construct clean-up time. Human performance 10, 2 (1997), 85--97.",
+      "doi": ""
+    },
+    {
+      "text": "Udai Narain Pareek. 1997. Training instruments for human resource development. Tata McGraw-Hill.",
+      "doi": ""
+    },
+    {
+      "text": "Stefan Pasch. 2018. Corporate Culture and Industry-Fit: A Text Mining Approach. (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Pennington, Richard Socher, and Christopher Manning. 2014. Glove: Global vectors for word representation. In Proc. EMNLP.",
+      "doi": ""
+    },
+    {
+      "text": "Vinodkumar Prabhakaran, Huzaifa Neralwala, Owen Rambow, and Mona T Diab. 2012. Annotations for Power Relations on Email Threads.. In LREC. 806--811.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel I Prajogo and Christopher M McDermott. 2011. The relationship between multidimensional organizational culture and performance. International Journal of Operations & Production Management (2011).",
+      "doi": ""
+    },
+    {
+      "text": "Robert E Quinn and John Rohrbaugh. 1983. A spatial model of effectiveness criteria: Towards a competing values approach to organizational analysis. Management science 29, 3 (1983), 363--377.",
+      "doi": ""
+    },
+    {
+      "text": "Miguel A Qui\u00b4 nones, J Kevin Ford, and Mark S Teachout. 1995. The relationship between work experience and job performance: A conceptual and meta-analytic review. Personnel psychology 48, 4 (1995), 887--910.",
+      "doi": ""
+    },
+    {
+      "text": "Glassdoor Fraudulent Reviews. 2019. help.glassdoor.com/article/Fraudulent-reviews/en_US/. (2019). Accessed: 2019-04-03.",
+      "doi": ""
+    },
+    {
+      "text": "D Rousseau. 1990. Quantitative assessment of organizational culture: The case for multiple. (1990).",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha, Ayse Elvan Bayraktaraglu, Andrew Campbell, Nitesh V Chawla, Munmun De Choudhury, Sidney K D \u00b4 Mello, and others. 2019a. Social Media as a Passive Sensor in Longitudinal Studies of Human Behavior and Wellbeing. In CHI Ext. Abstracts.",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha, Manikanta D Reddy, Vedant Das Swain, Julie M Gregg, Ted Grover, Suwen Lin, Gonzalo J Martinez, Stephen M Mattingly, and others. 2019c. Imputing Missing Social Media Data Stream in Multisensor Studies of Human Behavior. In ACII.",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha, Manikanta D Reddy, and Munmun De Choudhury. 2019b. JobLex: A Lexico-Semantic Knowledgebase of Occupational Information Descriptors. In SocInfo.",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha, Manikanta D Reddy, Stephen M Mattingly, Edward Moskal, Anusha Sirigiri, and Munmun De Choudhury. 2019d. LibRA: On LinkedIn based Role Ambiguity and Its Relationship with Wellbeing and Job Performance. PACM HCI CSCW (2019).",
+      "doi": "10.1145/3359239"
+    },
+    {
+      "text": "Koustuv Saha, Ingmar Weber, and Munmun De Choudhury. 2018. A Social Media Based Examination of the Effects of Counseling Recommendations After Student Deaths on College Campuses. In ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Jesus F Salgado. 1997. The five factor model of personality and job performance in the European Community. Journal of Applied psychology (1997).",
+      "doi": ""
+    },
+    {
+      "text": "Jae San Park and Tae Hyun Kim. 2009. Do types of organizational culture matter in nurse job satisfaction and turnover intention? Leadership in Health Services (2009).",
+      "doi": ""
+    },
+    {
+      "text": "Frank L Schmidt, John E Hunter, and Alice N Outerbridge. 1986. Impact of job experience and ability on job knowledge, work sample performance, and supervisory ratings of job performance. Journal of applied psychology (1986).",
+      "doi": ""
+    },
+    {
+      "text": "Neal Schmitt, Jose M Cortina, Michael J Ingerick, and Darin Wiechmann. 2003. Personnel selection and employee performance. Handbook of psychology: Industrial and organizational psychology (2003).",
+      "doi": ""
+    },
+    {
+      "text": "N Sadat Shami, Michael Muller, Aditya Pal, Mikhil Masli, and Werner Geyer. 2015. Inferring employee engagement from social media. In Proc. CHI.",
+      "doi": "10.1145/2702123.2702445"
+    },
+    {
+      "text": "N Sadat Shami, Jiang Yang, Laura Panc, Casey Dugan, Tristan Ratchford, Jamie C Rasmussen, Yannick M Assogba, Tal Steier, Todd Soule, Stela Lupushor, and others. 2014. Understanding employee social media chatter with enterprise social pulse. In Proc. CSCW.",
+      "doi": "10.1145/2531602.2531650"
+    },
+    {
+      "text": "Walter C Shipley. 2009. Shipley-2: manual. WPS.",
+      "doi": ""
+    },
+    {
+      "text": "Joanne Silvester, Neil R Anderson, and Fiona Patterson. 1999. Organizational culture change: An inter-group attributional analysis. J. Occup. Organ. Psychol (1999).",
+      "doi": ""
+    },
+    {
+      "text": "Meredith M Skeels and Jonathan Grudin. 2009. When social networks cross boundaries: a case study of workplace use of facebook and linkedin. In GROUP.",
+      "doi": ""
+    },
+    {
+      "text": "Linda Smircich. 1983. Concepts of culture and organizational analysis. Administrative science quarterly (1983), 339--358.",
+      "doi": ""
+    },
+    {
+      "text": "Jasper Snoek, Hugo Larochelle, and Ryan P Adams. 2012. Practical bayesian optimization of machine learning algorithms. In Advances in neural information processing systems. 2951--2959.",
+      "doi": ""
+    },
+    {
+      "text": "Christopher J Soto and Oliver P John. 2017. The next Big Five Inventory (BFI-2): Developing and assessing a hierarchical model with 15 facets to enhance bandwidth, fidelity, and predictive power. J. Pers. Soc. Psychol (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Kate Sparks, Cary Cooper, Yitzhak Fried, and Arie Shirom. 1997. The effects of hours of work on health: a meta-analytic review. Journal of occupational and organizational psychology 70, 4 (1997), 391--408.",
+      "doi": ""
+    },
+    {
+      "text": "Sameer B Srivastava and Amir Goldberg. 2017. Language as a Window into Culture. California Management Review 60, 1 (2017), 56--69.",
+      "doi": ""
+    },
+    {
+      "text": "Glassdoor Statistics. 2018. expandedramblings.com/index.php/ numbers-15-interesting-glassdoor-statistics. (2018). Accessed: 2019-03--22.",
+      "doi": ""
+    },
+    {
+      "text": "Julian Haynes Steward. 1972. Theory of culture change: The methodology of multilinear evolution. University of Illinois Press.",
+      "doi": ""
+    },
+    {
+      "text": "Rainer Strack, Carsten Von Der Linden, Mike Booker, and Andrea Strohmayr. 2014. Decoding global talent. BCG Perspectives (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Prasanna Tambe and Lorin M Hitt. 2012. Now IT's personal: Offshoring and the shifting skill composition of the US information technology workforce. Management Science 58, 4 (2012), 678--695.",
+      "doi": "10.1287/mnsc.1110.1445"
+    },
+    {
+      "text": "Bill Tancer. 2014. Everyone's a critic: Winning customers in a review-driven world. Penguin.",
+      "doi": ""
+    },
+    {
+      "text": "Robert P Tett, Douglas N Jackson, and Mitchell Rothstein. 1991. Personality measures as predictors of job performance: A meta-analytic review. Personnel psychology 44, 4 (1991), 703--742.",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer Thom and David R Millen. 2012. Stuff IBMers Say: Microblogs as an Expression of Organizational Culture. In ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer Thom-Santelli, David R Millen, and Darren Gergle. 2011. Organizational acculturation and social networking. In Proc. CSCW.",
+      "doi": "10.1145/1958824.1958871"
+    },
+    {
+      "text": "Glassdoor Give to Get Policy. 2018. help.glassdoor.com/article/Give-to-get-policy/en_US. (2018). Accessed: 2019-04-04.",
+      "doi": ""
+    },
+    {
+      "text": "Thea F Van de Mortel and others. 2008. Faking it: social desirability response bias in self-report research. Australian Journal of Advanced Nursing, The (2008).",
+      "doi": ""
+    },
+    {
+      "text": "Linn Van Dyne, Ellen Kossek, and Sharon Lobel. 2007. Less need to be there: Cross-level effects of work practices that support work-life flexibility and enhance group processes and group-level OCB. Human Relations (2007).",
+      "doi": ""
+    },
+    {
+      "text": "Linn Van Dyne, Don Vandewalle, Tatiana Kostova, Michael E Latham, and LL Cummings. 2000. Collectivism, propensity to trust and self-esteem as predictors of organizational citizenship in a non-work setting. Journal of organizational behavior (2000).",
+      "doi": ""
+    },
+    {
+      "text": "James Van Scotter, Stephan J Motowidlo, and Thomas C Cross. 2000. Effects of task performance and contextual performance on systemic rewards. Journal of applied psychology 85, 4 (2000), 526.",
+      "doi": ""
+    },
+    {
+      "text": "Yoav Vardi. 2001. The effects of organizational and ethical climates on misconduct at work. Journal of Business ethics 29, 4 (2001), 325--337.",
+      "doi": ""
+    },
+    {
+      "text": "Aki Vehtari, Andrew Gelman, and Jonah Gabry. 2017. Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC. Statistics and Computing 27, 5 (2017), 1413--1432.",
+      "doi": "10.1007/s11222-016-9696-4"
+    },
+    {
+      "text": "Brian Westfall. 2019. softwareadvice.com/resources/ job-seekers-use-glassdoor-reviews/. (2019). Accessed: 2019-06--25.",
+      "doi": ""
+    },
+    {
+      "text": "Larry J Williams and Stella E Anderson. 1991. Job satisfaction and organizational commitment as predictors of organizational citizenship and in-role behaviors. Journal of management (1991).",
+      "doi": ""
+    },
+    {
+      "text": "Tzu-Tsung Wong. 2015. Performance evaluation of classification algorithms by k-fold and leave-one-out cross validation. Pattern Recognition (2015).",
+      "doi": ""
+    },
+    {
+      "text": "wsj. 2019. Real People. Real Reviews. Real Extortion Scheme?, https://blogs.wsj.com/law/2010/02/26/ real-people-real-reviews-real-extortion-scheme/. (2019). Accessed: 2019-03--28.",
+      "doi": ""
+    },
+    {
+      "text": "Anbang Xu, Jacob Biehl, Eleanor Rieffel, Thea Turner, and William van Melle. 2012. Learning how to feel again: towards affective workplace presence and communication technologies. In Proc. CHI.",
+      "doi": "10.1145/2207676.2208524"
+    },
+    {
+      "text": "Anbang Xu, Haibin Liu, Liang Gou, Rama Akkiraju, Jalal Mahmud, Vibha Sinha, Yuheng Hu, and Mu Qiao. 2016. Predicting perceived brand personality with social media. In ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Cengiz Yilmaz and Ercan Ergun. 2008. Organizational culture and firm effectiveness: An examination of relative effects of culture traits and the balanced culture hypothesis in an emerging economy. Journal of world business 43, 3 (2008), 290--306.",
+      "doi": ""
+    },
+    {
+      "text": "Hui Zhang, Munmun De Choudhury, and Jonathan Grudin. 2014. Creepy but inevitable?: the evolution of social networking. In Proc. CSCW. ACM.",
+      "doi": "10.1145/2531602.2531685"
+    },
+    {
+      "text": "Dejin Zhao and Mary Beth Rosson. 2009. How and why people Twitter: the role that micro-blogging plays in informal communication at work. In Proc. GROUP.",
+      "doi": "10.1145/1531674.1531710"
+    }
+  ]
+}

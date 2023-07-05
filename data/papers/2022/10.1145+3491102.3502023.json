@@ -1,0 +1,404 @@
+{
+  "doi": "10.1145/3491102.3502023",
+  "title": "Speeding up Inference with User Simulators through Policy Modulation",
+  "published": "2022-04-28",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-21",
+  "year": 2022,
+  "badges": [],
+  "abstract": "The simulation of user behavior with deep reinforcement learning agents has shown some recent success. However, the inverse problem, that is, inferring the free parameters of the simulator from observed user behaviors, remains challenging to solve. This is because the optimization of the new action policy of the simulated agent, which is required whenever the model parameters change, is computationally impractical. In this study, we introduce a network modulation technique that can obtain a generalized policy that immediately adapts to the given model parameters. Further, we demonstrate that the proposed technique improves the efficiency of user simulator-based inference by eliminating the need to obtain an action policy for novel model parameters. We validated our approach using the latest user simulator for point-and-click behavior. Consequently, we succeeded in inferring the user\u2019s cognitive parameters and intrinsic reward settings with less than 1/1000 computational power to those of existing methods.",
+  "authors": [
+    {
+      "name": "Hee-Seung Moon",
+      "institution": "School of Integrated Technology, Yonsei University, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659588221",
+      "orcid": "0000-0003-0882-2335"
+    },
+    {
+      "name": "Seungwon Do",
+      "institution": "ETRI, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528322",
+      "orcid": "missing"
+    },
+    {
+      "name": "Wonjae Kim",
+      "institution": "NAVER AI Lab, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660239240",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jiwon Seo",
+      "institution": "School of Integrated Technology, Yonsei University, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659587841",
+      "orcid": "missing"
+    },
+    {
+      "name": "Minsuk Chang",
+      "institution": "NAVER AI Lab, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659163123",
+      "orcid": "missing"
+    },
+    {
+      "name": "Byungjoo Lee",
+      "institution": "Yonsei University, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659503945",
+      "orcid": "0000-0003-0341-448X"
+    }
+  ],
+  "references": [
+    {
+      "text": "Axel Abels, Diederik Roijers, Tom Lenaerts, Ann Now\u00e9, and Denis Steckelmacher. 2019. Dynamic weights in multi-objective deep reinforcement learning. In International Conference on Machine Learning. 11\u201320.",
+      "doi": ""
+    },
+    {
+      "text": "Johnny Accot and Shumin Zhai. 1997. Beyond Fitts\u2019 law: Models for trajectory-based HCI tasks. In Proceedings of the ACM SIGCHI Conference on Human factors in computing systems. 295\u2013302.",
+      "doi": "10.1145/258549.258760"
+    },
+    {
+      "text": "Johnny Accot and Shumin Zhai. 1999. Performance evaluation of input devices in trajectory-based tasks: An application of the steering law. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 466\u2013472.",
+      "doi": "10.1145/302979.303133"
+    },
+    {
+      "text": "John\u00a0R Anderson. 1996. ACT: A simple theory of complex cognition.American Psychologist 51, 4 (1996), 355.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Bachmann, Frank Weichert, and Gerhard Rinkenauer. 2015. Evaluation of the leap motion controller as a new contact-free pointing device. Sensors 15, 1 (2015), 214\u2013233.",
+      "doi": ""
+    },
+    {
+      "text": "Dzmitry Bahdanau, Felix Hill, Jan Leike, Edward Hughes, Arian Hosseini, Pushmeet Kohli, and Edward Grefenstette. 2018. Learning to understand goal specifications by modelling reward. In International Conference on Learning Representations.",
+      "doi": ""
+    },
+    {
+      "text": "Gilles Bailly, Antti Oulasvirta, Duncan\u00a0P Brumby, and Andrew Howes. 2014. Model of visual search and selection time in linear menus. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 3865\u20133874.",
+      "doi": "10.1145/2556288.2557093"
+    },
+    {
+      "text": "Sheldon Baron and David\u00a0L Kleinman. 1969. The human as an optimal controller and information processor. IEEE Transactions on Man-Machine Systems 10, 1 (1969), 9\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "George\u00a0Erich Brogmus. 1991. Effects of age and sex on speed and accuracy of hand movements: And the refinements they suggest for Fitts\u2019 law. Proceedings of the Human Factors Society Annual Meeting 35, 3(1991), 208\u2013212.",
+      "doi": ""
+    },
+    {
+      "text": "Rachael\u00a0A Burno, Bing Wu, Rina Doherty, Hannah Colett, and Rania Elnaggar. 2015. Applying Fitts\u2019 law to gesture based computer interactions. Procedia Manufacturing 3(2015), 4342\u20134349.",
+      "doi": ""
+    },
+    {
+      "text": "Robin\u00a0T Bye and Peter\u00a0D Neilson. 2008. The BUMP model of response planning: Variable horizon predictive control accounts for the speed\u2013accuracy tradeoffs and velocity profiles of aimed movement. Human Movement Science 27, 5 (2008), 771\u2013798.",
+      "doi": ""
+    },
+    {
+      "text": "Stuart\u00a0K Card, Thomas\u00a0P Moran, and Allen Newell. 1983. The psychology of human-computer interaction. Lawrence Erlbaum Associates.",
+      "doi": "10.5555/578027"
+    },
+    {
+      "text": "G\u00e9ry Casiez and Nicolas Roussel. 2011. No more bricolage! Methods and tools to characterize, replicate and compare pointing transfer functions. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology. 603\u2013614.",
+      "doi": "10.1145/2047196.2047276"
+    },
+    {
+      "text": "Noshaba Cheema, Laura\u00a0A Frey-Law, Kourosh Naderi, Jaakko Lehtinen, Philipp Slusallek, and Perttu H\u00e4m\u00e4l\u00e4inen. 2020. Predicting mid-air interaction movements and fatigue using deep reinforcement learning. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376701"
+    },
+    {
+      "text": "Xiuli Chen, Gilles Bailly, Duncan\u00a0P Brumby, Antti Oulasvirta, and Andrew Howes. 2015. The emergence of interactive behavior: A model of rational menu search. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 4217\u20134226.",
+      "doi": "10.1145/2702123.2702483"
+    },
+    {
+      "text": "Ian\u00a0D Colley, Peter\u00a0E Keller, and Andrea\u00a0R Halpern. 2018. Working memory and auditory imagery predict sensorimotor synchronisation with expressively timed music. Quarterly Journal of Experimental Psychology 71, 8(2018), 1781\u20131796.",
+      "doi": ""
+    },
+    {
+      "text": "Anna Cox, Paul Cairns, Pari Shah, and Michael Carroll. 2012. Not doing but thinking: The role of challenge in the gaming experience. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 79\u201388.",
+      "doi": "10.1145/2207676.2207689"
+    },
+    {
+      "text": "Kyle Cranmer, Johann Brehmer, and Gilles Louppe. 2020. The frontier of simulation-based inference. Proceedings of the National Academy of Sciences 117, 48(2020), 30055\u201330062.",
+      "doi": ""
+    },
+    {
+      "text": "Seungwon Do, Minsuk Chang, and Byungjoo Lee. 2021. A simulation model of intermittently controlled point-and-click behaviour. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3411764.3445514"
+    },
+    {
+      "text": "Sarah\u00a0A Douglas, Arthur\u00a0E Kirkpatrick, and I\u00a0Scott MacKenzie. 1999. Testing pointing device performance and user assessment with the ISO 9241, Part 9 standard. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 215\u2013222.",
+      "doi": "10.1145/302979.303042"
+    },
+    {
+      "text": "Simon Farrell and Stephan Lewandowsky. 2018. Computational modeling of cognition and behavior. Cambridge University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Jocelyn Faubert. 2002. Visual perception and aging.Canadian Journal of Experimental Psychology/Revue canadienne de psychologie exp\u00e9rimentale 56, 3 (2002), 164.",
+      "doi": ""
+    },
+    {
+      "text": "Florian Fischer, Miroslav Bachinski, Markus Klar, Arthur Fleig, and J\u00f6rg M\u00fcller. 2021. Reinforcement learning control of a biomechanical model of the upper extremity. Scientific Reports 11, 1 (2021), 1\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0M Fitts. 1954. The information capacity of the human motor system in controlling the amplitude of movement.Journal of Experimental Psychology 47, 6 (1954), 381.",
+      "doi": ""
+    },
+    {
+      "text": "Wai-Tat Fu and Peter Pirolli. 2007. SNIF-ACT: A cognitive model of user navigation on the World Wide Web. Human\u2013Computer Interaction 22, 4 (2007), 355\u2013412.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel\u00a0J Gershman, Eric\u00a0J Horvitz, and Joshua\u00a0B Tenenbaum. 2015. Computational rationality: A converging paradigm for intelligence in brains, minds, and machines. Science 349, 6245 (2015), 273\u2013278.",
+      "doi": ""
+    },
+    {
+      "text": "Yves Guiard and Olivier Rioul. 2015. A mathematical description of the speed/accuracy trade-off of aimed movement. In Proceedings of the 2015 British HCI Conference. 91\u2013100.",
+      "doi": "10.1145/2783446.2783574"
+    },
+    {
+      "text": "Michael\u00a0U Gutmann, Jukka Corander, 2016. Bayesian optimization for likelihood-free inference of simulator-based statistical models. Journal of Machine Learning Research(2016).",
+      "doi": ""
+    },
+    {
+      "text": "David Ha, Andrew Dai, and Quoc\u00a0V Le. 2016. Hypernetworks. In International Conference on Learning Representations.",
+      "doi": ""
+    },
+    {
+      "text": "Yizhou Huang, Kevin Xie, Homanga Bharadhwaj, and Florian Shkurti. 2020. Continual model-based reinforcement learning with hypernetworks. arXiv preprint arXiv:2009.11997(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Jussi Jokinen, Aditya Acharya, Mohammad Uzair, Xinhui Jiang, and Antti Oulasvirta. 2021. Touchscreen typing as optimal supervisory control. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445483"
+    },
+    {
+      "text": "Jussi\u00a0PP Jokinen, Sayan Sarcar, Antti Oulasvirta, Chaklam Silpasuwanchai, Zhenxin Wang, and Xiangshi Ren. 2017. Modelling learning of new keyboard layouts. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 4203\u20134215.",
+      "doi": "10.1145/3025453.3025580"
+    },
+    {
+      "text": "Jussi\u00a0PP Jokinen, Zhenxin Wang, Sayan Sarcar, Antti Oulasvirta, and Xiangshi Ren. 2020. Adaptive feature guidance: Modelling visual search with graphical layouts. International Journal of Human-Computer Studies 136 (2020), 102376.",
+      "doi": "10.1016/j.ijhcs.2019.102376"
+    },
+    {
+      "text": "Antti Kangasr\u00e4\u00e4si\u00f6, Kumaripaba Athukorala, Andrew Howes, Jukka Corander, Samuel Kaski, and Antti Oulasvirta. 2017. Inferring cognitive models from data using approximate Bayesian computation. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 1295\u20131306.",
+      "doi": "10.1145/3025453.3025576"
+    },
+    {
+      "text": "Antti Kangasr\u00e4\u00e4si\u00f6, Jussi\u00a0PP Jokinen, Antti Oulasvirta, Andrew Howes, and Samuel Kaski. 2019. Parameter inference for computational cognitive models with Approximate Bayesian Computation. Cognitive Science 43, 6 (2019), e12738.",
+      "doi": ""
+    },
+    {
+      "text": "Davis\u00a0E Kieras and Davis\u00a0E Meyer. 1997. An overview of the EPIC architecture for cognition and performance with application to human-computer interaction. Human\u2013Computer Interaction 12, 4 (1997), 391\u2013438.",
+      "doi": ""
+    },
+    {
+      "text": "James Kirkpatrick, Razvan Pascanu, Neil Rabinowitz, Joel Veness, Guillaume Desjardins, Andrei\u00a0A Rusu, Kieran Milan, John Quan, Tiago Ramalho, Agnieszka Grabska-Barwinska, 2017. Overcoming catastrophic forgetting in neural networks. Proceedings of the National Academy of Sciences 114, 13(2017), 3521\u20133526.",
+      "doi": ""
+    },
+    {
+      "text": "Gary\u00a0D Langolf, Don\u00a0B Chaffin, and James\u00a0A Foulke. 1976. An investigation of Fitts\u2019 law using a wide range of movement amplitudes. Journal of Motor Behavior 8, 2 (1976), 113\u2013128.",
+      "doi": ""
+    },
+    {
+      "text": "Byungjoo Lee, Sunjun Kim, Antti Oulasvirta, Jong-In Lee, and Eunji Park. 2018. Moving target selection: A cue integration model. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3173574.3173804"
+    },
+    {
+      "text": "Byungjoo Lee and Antti Oulasvirta. 2016. Modelling error rates in temporal pointing. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 1857\u20131868.",
+      "doi": "10.1145/2858036.2858143"
+    },
+    {
+      "text": "Esther Levin, Roberto Pieraccini, and Wieland Eckert. 1998. Using Markov decision process for learning dialogue strategies. In Proceedings of the 1998 IEEE International Conference on Acoustics, Speech and Signal Processing. 201\u2013204.",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0L Lewis, Andrew Howes, and Satinder Singh. 2014. Computational rationality: Linking mechanism and behavior through bounded utility maximization. Topics in Cognitive Science 6, 2 (2014), 279\u2013311.",
+      "doi": ""
+    },
+    {
+      "text": "Ray\u00a0F Lin and Yi-Chien Tsai. 2015. The use of ballistic movement as an additional method to assess performance of computer mice. International Journal of Industrial Ergonomics 45 (2015), 71\u201381.",
+      "doi": ""
+    },
+    {
+      "text": "I\u00a0Scott MacKenzie and Poika Isokoski. 2008. Fitts\u2019 throughput and the speed-accuracy tradeoff. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1633\u20131636.",
+      "doi": "10.1145/1357054.1357308"
+    },
+    {
+      "text": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei\u00a0A Rusu, Joel Veness, Marc\u00a0G Bellemare, Alex Graves, Martin Riedmiller, Andreas\u00a0K Fidjeland, Georg Ostrovski, 2015. Human-level control through deep reinforcement learning. Nature 518, 7540 (2015), 529\u2013533.",
+      "doi": ""
+    },
+    {
+      "text": "Hee-Seung Moon and Jiwon Seo. 2021. Fast User Adaptation for Human Motion Prediction in Physical Human\u2013Robot Interaction. IEEE Robotics and Automation Letters 7, 1 (2021), 120\u2013127.",
+      "doi": ""
+    },
+    {
+      "text": "Hee-Seung Moon and Jiwon Seo. 2021. Optimal Action-based or User Prediction-based Haptic Guidance: Can You Do Even Better?. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3411764.3445115"
+    },
+    {
+      "text": "Andrew\u00a0Y Ng and Stuart\u00a0J Russell. 2000. Algorithms for Inverse Reinforcement Learning. In International Conference on Machine Learning. 663\u2013670.",
+      "doi": ""
+    },
+    {
+      "text": "Antti Oulasvirta, Niraj\u00a0Ramesh Dayama, Morteza Shiripour, Maximilian John, and Andreas Karrenbauer. 2020. Combinatorial optimization of graphical user interface designs. Proc. IEEE 108, 3 (2020), 434\u2013464.",
+      "doi": ""
+    },
+    {
+      "text": "Antti Oulasvirta, Sunjun Kim, and Byungjoo Lee. 2018. Neuromechanics of a button press. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3173574.3174082"
+    },
+    {
+      "text": "Eunji Park and Byungjoo Lee. 2020. An Intermittent Click Planning Model. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376725"
+    },
+    {
+      "text": "Stephen\u00a0J Payne and Andrew Howes. 2013. Adaptive interaction: A utility maximization approach to understanding human interaction with technology. Synthesis Lectures on Human-Centered Informatics 6, 1(2013), 1\u2013111.",
+      "doi": "10.5555/2534478"
+    },
+    {
+      "text": "Xue\u00a0Bin Peng, Glen Berseth, and Michiel Van\u00a0de Panne. 2016. Terrain-adaptive locomotion skills using deep reinforcement learning. ACM Transactions on Graphics 35, 4 (2016), 1\u201312.",
+      "doi": "10.1145/2897824.2925881"
+    },
+    {
+      "text": "Ethan Perez, Florian Strub, Harm De\u00a0Vries, Vincent Dumoulin, and Aaron Courville. 2018. Film: Visual reasoning with a general conditioning layer. In Proceedings of the AAAI Conference on Artificial Intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "Stefan\u00a0T Radev, Ulf\u00a0K Mertens, Andreas Voss, Lynton Ardizzone, and Ullrich K\u00f6the. 2020. BayesFlow: Learning complex stochastic models with invertible neural networks. IEEE Transactions on Neural Networks and Learning Systems (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0G Radwin, Gregg\u00a0C Vanderheiden, and Mei-Li Lin. 1990. A method for evaluating head-controlled computer input devices using Fitts\u2019 law. Human Factors 32, 4 (1990), 423\u2013438.",
+      "doi": "10.1177/001872089003200405"
+    },
+    {
+      "text": "Kate Rakelly, Aurick Zhou, Chelsea Finn, Sergey Levine, and Deirdre Quillen. 2019. Efficient off-policy meta-reinforcement learning via probabilistic context variables. In International Conference on Machine Learning. 5331\u20135340.",
+      "doi": ""
+    },
+    {
+      "text": "Tabish Rashid, Mikayel Samvelyan, Christian Schroeder, Gregory Farquhar, Jakob Foerster, and Shimon Whiteson. 2018. Qmix: Monotonic value function factorisation for deep multi-agent reinforcement learning. In International Conference on Machine Learning. 4295\u20134304.",
+      "doi": ""
+    },
+    {
+      "text": "Roger Ratcliff. 1978. A theory of memory retrieval. Psychological Review 85, 2 (1978), 59.",
+      "doi": ""
+    },
+    {
+      "text": "Roger Ratcliff and Francis Tuerlinckx. 2002. Estimating parameters of the diffusion model: Approaches to dealing with contaminant reaction times and parameter variability. Psychonomic Bulletin & Review 9, 3 (2002), 438\u2013481.",
+      "doi": ""
+    },
+    {
+      "text": "Dario\u00a0D Salvucci. 2001. An integrated model of eye movements and visual encoding. Cognitive Systems Research 1, 4 (2001), 201\u2013220.",
+      "doi": "10.1016/S1389-0417%2800%2900015-2"
+    },
+    {
+      "text": "Dario\u00a0D Salvucci. 2001. Predicting the effects of in-car interface use on driver performance: An integrated model approach. International Journal of Human-Computer Studies 55, 1 (2001), 85\u2013107.",
+      "doi": "10.1006/ijhc.2001.0472"
+    },
+    {
+      "text": "Dario\u00a0D Salvucci. 2006. Modeling driver behavior in a cognitive architecture. Human Factors 48, 2 (2006), 362\u2013380.",
+      "doi": ""
+    },
+    {
+      "text": "Dario\u00a0D Salvucci, Yelena Kushleyeva, and Frank\u00a0J Lee. 2004. Toward an ACT-R general executive for human multitasking. In Proceedings of the Sixth International Conference on Cognitive Modeling. 267\u2013272.",
+      "doi": ""
+    },
+    {
+      "text": "Sayan Sarcar, Jussi\u00a0PP Jokinen, Antti Oulasvirta, Zhenxin Wang, Chaklam Silpasuwanchai, and Xiangshi Ren. 2018. Ability-based optimization of touchscreen interactions. IEEE Pervasive Computing 17, 1 (2018), 15\u201326.",
+      "doi": "10.1109/mprv.2018.011591058"
+    },
+    {
+      "text": "Tom Schaul, Daniel Horgan, Karol Gregor, and David Silver. 2015. Universal value function approximators. In International Conference on Machine Learning. 1312\u20131320.",
+      "doi": ""
+    },
+    {
+      "text": "Tom Schaul, John Quan, Ioannis Antonoglou, and David Silver. 2016. Prioritized experience replay. In International Conference on Learning Representations.",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0A Schmidt, Howard Zelaznik, Brian Hawkins, James\u00a0S Frank, and John\u00a0T Quinn\u00a0Jr. 1979. Motor-output variability: A theory for the accuracy of rapid motor acts. Psychological Review 86, 5 (1979), 415.",
+      "doi": ""
+    },
+    {
+      "text": "R\u00a0William Soukoreff and I\u00a0Scott MacKenzie. 2004. Towards a standard for pointing device evaluation, perspectives on 27 years of Fitts\u2019 law research in HCI. International Journal of Human-Computer Studies 61, 6 (2004), 751\u2013789.",
+      "doi": "10.1016/j.ijhcs.2004.09.001"
+    },
+    {
+      "text": "Nathan Sprague and Dana Ballard. 2003. Eye movements for reward maximization. In Advances in Neural Information Processing Systems. 1467\u20131474.",
+      "doi": ""
+    },
+    {
+      "text": "Srinath Sridhar, Anna\u00a0Maria Feit, Christian Theobalt, and Antti Oulasvirta. 2015. Investigating the dexterity of multi-finger input for mid-air text entry. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 3643\u20133652.",
+      "doi": "10.1145/2702123.2702136"
+    },
+    {
+      "text": "Alan\u00a0A Stocker and Eero\u00a0P Simoncelli. 2006. Noise characteristics and prior expectations in human visual speed perception. Nature Neuroscience 9, 4 (2006), 578\u2013585.",
+      "doi": ""
+    },
+    {
+      "text": "Niels\u00a0A Taatgen. 2013. The nature and transfer of cognitive skills. Psychological Review 120, 3 (2013), 439.",
+      "doi": ""
+    },
+    {
+      "text": "Hado Van\u00a0Hasselt, Arthur Guez, and David Silver. 2016. Deep reinforcement learning with double q-learning. In Proceedings of the AAAI Conference on Artificial Intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan\u00a0N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. In Advances in Neural Information Processing Systems. 5998\u20136008.",
+      "doi": ""
+    },
+    {
+      "text": "Risto Vuorio, Shao-Hua Sun, Hexiang Hu, and Joseph\u00a0J Lim. 2019. Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation. In Advances in Neural Information Processing Systems. 1\u201312.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0H Wearden. 1991. Do humans possess an internal clock with scalar timing properties?Learning and Motivation 22, 1-2 (1991), 59\u201383.",
+      "doi": ""
+    },
+    {
+      "text": "Rhiannon Weaver. 2004. Likelihood-based estimation and model selection for ACT-R cognitive models. (2004).",
+      "doi": ""
+    },
+    {
+      "text": "Jacob\u00a0O Wobbrock, Edward Cutrell, Susumu Harada, and I\u00a0Scott MacKenzie. 2008. An error model for pointing based on Fitts\u2019 law. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1613\u20131622.",
+      "doi": "10.1145/1357054.1357306"
+    },
+    {
+      "text": "Runzhe Yang, Xingyuan Sun, and Karthik Narasimhan. 2019. A Generalized Algorithm for Multi-Objective Reinforcement Learning and Policy Adaptation. In Advances in Neural Information Processing Systems. 14636\u201314647.",
+      "doi": ""
+    },
+    {
+      "text": "Ruihan Yang, Huazhe Xu, Yi Wu, and Xiaolong Wang. 2020. Multi-task reinforcement learning with soft modularization. arXiv preprint arXiv:2003.13661(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Tianhe Yu, Deirdre Quillen, Zhanpeng He, Ryan Julian, Karol Hausman, Chelsea Finn, and Sergey Levine. 2020. Meta-world: A benchmark and evaluation for multi-task and meta reinforcement learning. In Conference on Robot Learning. 1094\u20131100.",
+      "doi": ""
+    },
+    {
+      "text": "Shumin Zhai, Jing Kong, and Xiangshi Ren. 2004. Speed\u2013accuracy tradeoff in Fitts\u2019 law tasks\u2014on the equivalency of actual and nominal pointing precision. International Journal of Human-Computer Studies 61, 6 (2004), 823\u2013856.",
+      "doi": "10.1016/j.ijhcs.2004.09.007"
+    },
+    {
+      "text": "Xiaolei Zhou. 2016. An empirical study of operational bias in steering tasks for different user groups. In International Conference on Network and Information Systems for Computers. 362\u2013364.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaolei Zhou and Xiangshi Ren. 2010. An investigation of subjective operational biases in steering tasks evaluation. Behaviour & Information Technology 29, 2 (2010), 125\u2013135.",
+      "doi": "10.1080/01449290701773701"
+    },
+    {
+      "text": "Brian\u00a0D Ziebart, Andrew\u00a0L Maas, J\u00a0Andrew Bagnell, Anind\u00a0K Dey, 2008. Maximum entropy inverse reinforcement learning. In Proceedings of the AAAI Conference on Artificial Intelligence. 1433\u20131438.",
+      "doi": ""
+    },
+    {
+      "text": "Luisa Zintgraf, Kyriacos Shiarli, Vitaly Kurin, Katja Hofmann, and Shimon Whiteson. 2019. Fast context adaptation via meta-learning. In International Conference on Machine Learning. 7693\u20137702.",
+      "doi": ""
+    }
+  ]
+}

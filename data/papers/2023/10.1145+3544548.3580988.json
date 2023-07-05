@@ -1,0 +1,616 @@
+{
+  "doi": "10.1145/3544548.3580988",
+  "title": "Memory Manipulations in Extended Reality",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Human memory has notable limitations (e.g., forgetting) which have necessitated a variety of memory aids (e.g., calendars). As we grow closer to mass adoption of everyday Extended Reality (XR), which is frequently leveraging perceptual limitations (e.g., redirected walking), it becomes pertinent to consider how XR could leverage memory limitations (forgetting, distorting, persistence) to induce memory manipulations. As memories highly impact our self-perception, social interactions, and behaviors, there is a pressing need to understand XR Memory Manipulations (XRMMs). We ran three speculative design workshops (n=12), with XR and memory researchers creating 48 XRMM scenarios. Through thematic analysis, we define XRMMs, present a framework of their core components and reveal three classes (at encoding, pre-retrieval, at retrieval). Each class differs in terms of technology (AR, VR) and impact on memory (influencing quality of memories, inducing forgetting, distorting memories). We raise ethical concerns and discuss opportunities of perceptual and memory manipulations in XR.",
+  "authors": [
+    {
+      "name": "Elise Bonnail",
+      "institution": "LTCI, INFRES, Telecom Paris, Institut Polytechnique de Paris, France",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660239973",
+      "orcid": "0000-0002-9426-9910"
+    },
+    {
+      "name": "Wen-Jie Tseng",
+      "institution": "LTCI, INFRES, Telecom Paris, Institut Polytechnique de Paris, France",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659314915",
+      "orcid": "0000-0002-3887-6388"
+    },
+    {
+      "name": "Mark Mcgill",
+      "institution": "School of Computing Science, University of Glasgow, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81442594051",
+      "orcid": "0000-0002-8333-5687"
+    },
+    {
+      "name": "Eric Lecolinet",
+      "institution": "LTCI, INFRES, Telecom Paris, Institut Polytechnique de Paris, France",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100390376",
+      "orcid": "0000-0001-8114-1160"
+    },
+    {
+      "name": "Samuel Huron",
+      "institution": "CNRS i3, SES, Telecom Paris, Institut Polytechnique de Paris, France",
+      "img": "/do/10.1145/contrib-82258782457/rel-imgonly/samuel-huron-portrait.png",
+      "acmid": "82258782457",
+      "orcid": "0000-0002-9319-8559"
+    },
+    {
+      "name": "Jan Gugenheimer",
+      "institution": "TU-Darmstadt, Germany and LTCI, INFRES, Telecom Paris, Institut Polytechnique de Paris, France",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "83458801557",
+      "orcid": "0000-0002-6466-3845"
+    }
+  ],
+  "references": [
+    {
+      "text": "Mahdi\u00a0Nasrullah Al-Ameen, Matthew Wright, and Shannon Scielzo. 2015. Towards Making Random Passwords Memorable: Leveraging Users\u2019 Cognitive Ability Through Multiple Cues. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems(CHI \u201915). Association for Computing Machinery, New York, NY, USA, 2315\u20132324. https://doi.org/10.1145/2702123.2702241",
+      "doi": "10.1145/2702123.2702241"
+    },
+    {
+      "text": "Cristina Alberini. 2011. The Role of Reconsolidation and the Dynamic Process of Long-Term Memory Formation and Storage. Frontiers in Behavioral Neuroscience 5 (2011).",
+      "doi": ""
+    },
+    {
+      "text": "Cristina\u00a0M. Alberini and Joseph\u00a0E. LeDoux. 2013. Memory Reconsolidation. Current Biology 23, 17 (Sept. 2013), R746\u2013R750. https://doi.org/10.1016/j.cub.2013.06.046",
+      "doi": ""
+    },
+    {
+      "text": "Nadisha-Marie Aliman and Leon Kester. 2020. Malicious Design in AIVR, Falsehood and Cybersecurity-oriented Immersive Defenses. In 2020 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR). 130\u2013137. https://doi.org/10.1109/AIVR50618.2020.00031",
+      "doi": ""
+    },
+    {
+      "text": "Mahdi Azmandian, Mark Hancock, Hrvoje Benko, Eyal Ofek, and Andrew\u00a0D. Wilson. 2016. Haptic Retargeting: Dynamic Repurposing of Passive Haptics for Enhanced Virtual Reality Experiences. In Proceedings of the 2016 Chi Conference on Human Factors in Computing Systems. 1968\u20131979.",
+      "doi": "10.1145/2858036.2858226"
+    },
+    {
+      "text": "Alan Baddeley, Vivien Lewis, Margery Eldridge, and Neil Thomson. 1984. Attention and Retrieval from Long-Term Memory. Journal of Experimental Psychology: General 113 (1984), 518\u2013540. https://doi.org/10.1037/0096-3445.113.4.518",
+      "doi": ""
+    },
+    {
+      "text": "Harry\u00a0P. Bahrick. 2000. Long-Term Maintenance of Knowledge.(2000).",
+      "doi": ""
+    },
+    {
+      "text": "Stefano Baldassi, Tadayoshi Kohno, Franziska Roesner, and Moqian Tian. 2018. Challenges and New Directions in Augmented Reality, Computer Security, and Neuroscience\u2013Part 1: Risks to Sensation and Perception. arXiv preprint arXiv:1806.10557(2018). arxiv:1806.10557",
+      "doi": ""
+    },
+    {
+      "text": "Emma Berry, Narinder Kapur, Lyndsay Williams, Steve Hodges, Peter Watson, Gavin Smyth, James Srinivasan, Reg Smith, Barbara Wilson, and Ken Wood. 2007 Aug-Oct. The Use of a Wearable Camera, SenseCam, as a Pictorial Diary to Improve Autobiographical Memory in a Patient with Limbic Encephalitis: A Preliminary Report. Neuropsychological Rehabilitation 17, 4-5 (2007 Aug-Oct), 582\u2013601. https://doi.org/10.1080/09602010601029780",
+      "doi": ""
+    },
+    {
+      "text": "Agon Bexheti, Marc Langheinrich, Ivan Elhart, and Nigel Davies. 2019. Securely Storing and Sharing Memory Cues in Memory Augmentation Systems: A Practical Approach. In 2019 IEEE International Conference on Pervasive Computing and Communications (PerCom. 1\u201310. https://doi.org/10.1109/PERCOM.2019.8767389",
+      "doi": ""
+    },
+    {
+      "text": "Mark Billinghurst, Adrian Clark, and Gun Lee. 2015. A Survey of Augmented Reality. Foundations and Trends\u00ae in Human\u2013Computer Interaction 8, 2-3 (March 2015), 73\u2013272. https://doi.org/10.1561/1100000049",
+      "doi": "10.1561/1100000049"
+    },
+    {
+      "text": "Olaf Blanke, Lucie Br\u00e9chet, Robin Mange, Bruno Herbelin, Baptiste Gauthier, and Andrea Serino. 2018. Viewing One\u2019s Body during Encoding Boosts Episodic Memory. https://doi.org/10.1101/318956",
+      "doi": ""
+    },
+    {
+      "text": "Philippe Blond\u00e9, Jean-Charles Girardeau, Marco Sperduti, and Pascale Piolino. 2022. A Wandering Mind Is a Forgetful Mind: A Systematic Review on the Influence of Mind Wandering on Episodic Memory Encoding. Neuroscience & Biobehavioral Reviews 132 (Jan. 2022), 774\u2013792. https://doi.org/10.1016/j.neubiorev.2021.11.015",
+      "doi": ""
+    },
+    {
+      "text": "Susan Bluck, Nicole Alea, Tilmann Habermas, and David\u00a0C. Rubin. 2005. A TALE of Three Functions: The Self\u2013Reported Uses of Autobiographical Memory. Social Cognition 23, 1 (Feb. 2005), 91\u2013117. https://doi.org/10.1521/soco.23.1.91.59198",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Bonneau and Stuart Schechter. 2014. Towards Reliable Storage of 56-Bit Secrets in Human Memory. In 23rd USENIX Security Symposium (USENIX Security 14). 607\u2013623.",
+      "doi": ""
+    },
+    {
+      "text": "Fred\u00a0B. Bryant, Colette\u00a0M. Smart, and Scott\u00a0P. King. 2005. Using the Past to Enhance the Present: Boosting Happiness Through Positive Reminiscence. Journal of Happiness Studies 6, 3 (Sept. 2005), 227\u2013260. https://doi.org/10.1007/s10902-005-3889-4",
+      "doi": ""
+    },
+    {
+      "text": "Larry Cahill and James\u00a0L. McGaugh. 1998. Mechanisms of Emotional Arousal and Lasting Declarative Memory. Trends in Neurosciences 21, 7 (July 1998), 294\u2013299. https://doi.org/10.1016/S0166-2236(97)01214-9",
+      "doi": ""
+    },
+    {
+      "text": "Niamh Caprani, John Greaney, and Nicola Porter. 2006. A Review of Memory Aid Devices for an Ageing Population. PsychNology Journal 4, 3 (2006), 205\u2013243.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Casey, Ibrahim Baggili, and Ananya Yarramreddy. 2021. Immersive Virtual Reality Attacks and the Human Joystick. IEEE Transactions on Dependable and Secure Computing 18, 2 (March 2021), 550\u2013562. https://doi.org/10.1109/TDSC.2019.2907942",
+      "doi": "10.1109/TDSC.2019.2907942"
+    },
+    {
+      "text": "Claude Castelluccia, Markus Duermuth, Maximilian Golla, and Fatma Deniz. 2017. Towards Implicit Visual Memory-Based Authentication. In Proceedings 2017 Network and Distributed System Security Symposium. Internet Society, San Diego, CA. https://doi.org/10.14722/ndss.2017.23292",
+      "doi": ""
+    },
+    {
+      "text": "Neil Charness, Ryan Best, and Dustin Souders. 2012. Memory Function and Supportive Technology. Gerontechnology : international journal on the fundamental aspects of technology to serve the ageing society 11, 1 (2012), 10.4017/gt.2012.11.01.006.00. https://doi.org/10.4017/gt.2012.11.01.006.00",
+      "doi": ""
+    },
+    {
+      "text": "Kaiming Cheng, Jeffery\u00a0F Tian, Tadayoshi Kohno, and Franziska Roesner. 2023. Exploring User Reactions and Mental Models Towards Perceptual Manipulation Attacks in Mixed Reality. USENIX Security 2023(2023), 18.",
+      "doi": ""
+    },
+    {
+      "text": "Lung-Pan Cheng, Eyal Ofek, Christian Holz, Hrvoje Benko, and Andrew\u00a0D. Wilson. 2017. Sparse Haptic Proxy: Touch Feedback in Virtual Environments Using a General Passive Prop. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). Association for Computing Machinery, New York, NY, USA, 3718\u20133728. https://doi.org/10.1145/3025453.3025753",
+      "doi": "10.1145/3025453.3025753"
+    },
+    {
+      "text": "Yi\u00a0Fei Cheng, Hang Yin, Yukang Yan, Jan Gugenheimer, and David Lindlbauer. 2022. Towards Understanding Diminished Reality. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems(CHI \u201922). Association for Computing Machinery, New York, NY, USA, 1\u201316. https://doi.org/10.1145/3491102.3517452",
+      "doi": "10.1145/3491102.3517452"
+    },
+    {
+      "text": "Sarah Clinch, Cathleen Cortis\u00a0Mack, Geoff Ward, and Madeleine Steeds. 2021. Technology-Mediated Memory Impairment. In Technology-Augmented Perception and Cognition, Tilman Dingler and Evangelos Niforatos (Eds.). Springer International Publishing, Cham, 71\u2013124. https://doi.org/10.1007/978-3-030-30457-7_4",
+      "doi": ""
+    },
+    {
+      "text": "Dan Cosley, Kathy Akey, Brian Alson, Jonathan Baxter, Mark Broomfield, Soyoung Lee, and Chethan Sarabu. 2009. Using Technologies to Support Reminiscence. In British Computer Society. 480\u2013484.",
+      "doi": ""
+    },
+    {
+      "text": "Nelson Cowan. 1988. Evolving Conceptions of Memory Storage, Selective Attention, and Their Mutual Constraints within the Human Information-Processing System.Psychological bulletin 104, 2 (1988), 163.",
+      "doi": ""
+    },
+    {
+      "text": "Fergus I.\u00a0M. Craik, Richard Govoni, Moshe Naveh-Benjamin, and Nicole\u00a0D. Anderson. 1996. The Effects of Divided Attention on Encoding and Retrieval Processes in Human Memory. Journal of Experimental Psychology: General 125 (1996), 159\u2013180. https://doi.org/10.1037/0096-3445.125.2.159",
+      "doi": ""
+    },
+    {
+      "text": "Anne\u00a0A. Cuperus and Ineke J.\u00a0M. van der Ham. 2016. Virtual Reality Replays of Sports Performance: Effects on Memory, Feeling of Competence, and Performance. Learning and Motivation 56 (Nov. 2016), 48\u201352. https://doi.org/10.1016/j.lmot.2016.09.005",
+      "doi": ""
+    },
+    {
+      "text": "Sauvik Das, David Lu, Taehoon Lee, Joanne Lo, and Jason\u00a0I. Hong. 2019. The Memory Palace: Exploring Visual-Spatial Paths for Strong, Memorable, Infrequent Authentication. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201919). Association for Computing Machinery, New York, NY, USA, 1109\u20131121. https://doi.org/10.1145/3332165.3347917",
+      "doi": "10.1145/3332165.3347917"
+    },
+    {
+      "text": "Nigel Davies, Adrian Friday, Sarah Clinch, Corina Sas, Marc Langheinrich, Geoff Ward, and Albrecht Schmidt. 2015. Security and Privacy Implications of Pervasive Memory Augmentation. IEEE Pervasive Computing 14 (Jan. 2015), 44\u201353. https://doi.org/10.1109/MPRV.2015.13",
+      "doi": "10.1109/MPRV.2015.13"
+    },
+    {
+      "text": "Robert Desimone and John Duncan. 1995. Neural Mechanisms of Selective Visual Attention. Annual review of neuroscience 18, 1 (1995), 193\u2013222.",
+      "doi": ""
+    },
+    {
+      "text": "JoAnn Difede and Judith Cukor. 2007. Virtual Reality Exposure Therapy for the Treatment of Posttraumatic Stress Disorder Following September 11, 2001. The Journal of Clinical Psychiatry 68, 11 (Nov. 2007), 1682\u20131689. https://doi.org/10.4088/JCP.v68n1102",
+      "doi": ""
+    },
+    {
+      "text": "H.Q. Dinh, N. Walker, L.F. Hodges, Chang Song, and A. Kobayashi. 1999. Evaluating the Importance of Multi-Sensory Input on Memory and the Sense of Presence in Virtual Environments. In Proceedings IEEE Virtual Reality (Cat. No. 99CB36316). 222\u2013228. https://doi.org/10.1109/VR.1999.756955",
+      "doi": ""
+    },
+    {
+      "text": "Jayesh Doolani, Matthew Wright, Rajesh Setty, and S\u00a0M\u00a0Taiabul Haque. 2021. LociMotion: Towards Learning a Strong Authentication Secret in a Single Session. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems(CHI \u201921). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3411764.3445105",
+      "doi": "10.1145/3411764.3445105"
+    },
+    {
+      "text": "John\u00a0V. Draper, David\u00a0B. Kaber, and John\u00a0M. Usher. 1998. Telepresence. Human Factors 40, 3 (Sept. 1998), 354\u2013375. https://doi.org/10.1518/001872098779591386",
+      "doi": ""
+    },
+    {
+      "text": "Hermann Ebbinghaus\u00a0(1885). 1885. Memory: A Contribution to Experimental Psychology. Annals of Neurosciences 20, 4 (1885), 155\u2013156. https://doi.org/10.5214/ans.0972.7531.200408",
+      "doi": ""
+    },
+    {
+      "text": "Emmaline\u00a0Drew Eliseev and Elizabeth\u00a0J. Marsh. 2021. Externalizing Autobiographical Memories in the Digital Age. Trends in Cognitive Sciences 25, 12 (Dec. 2021), 1072\u20131081. https://doi.org/10.1016/j.tics.2021.08.005",
+      "doi": ""
+    },
+    {
+      "text": "Douglas\u00a0C Engelbart. 1962. Augmenting human intellect: A conceptual framework. Menlo Park, CA (1962), 21.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0W. Eysenck and Mark\u00a0T. Keane. 2020. Cognitive Psychology: A Student\u2019s Handbook. Psychology Press.",
+      "doi": ""
+    },
+    {
+      "text": "Anna Felnhofer, Oswald\u00a0D. Kothgassner, Mareike Schmidt, Anna-Katharina Heinzle, Leon Beutl, Helmut Hlavacs, and Ilse Kryspin-Exner. 2015. Is Virtual Reality Emotionally Arousing? Investigating Five Emotion Inducing Virtual Park Scenarios. International Journal of Human-Computer Studies 82 (Oct. 2015), 48\u201356. https://doi.org/10.1016/j.ijhcs.2015.05.004",
+      "doi": "10.1016/j.ijhcs.2015.05.004"
+    },
+    {
+      "text": "Andreas\u00a0Rene Fender and Christian Holz. 2022. Causality-Preserving Asynchronous Reality. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems(CHI \u201922). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3491102.3501836",
+      "doi": "10.1145/3491102.3501836"
+    },
+    {
+      "text": "Ajoy\u00a0S. Fernandes, Ranxiao\u00a0Frances Wang, and Daniel\u00a0J. Simons. 2015. Remembering the Physical as Virtual: Source Confusion and Physical Interaction in Augmented Reality. In Proceedings of the ACM SIGGRAPH Symposium on Applied Perception(SAP \u201915). Association for Computing Machinery, New York, NY, USA, 127\u2013130. https://doi.org/10.1145/2804408.2804423",
+      "doi": "10.1145/2804408.2804423"
+    },
+    {
+      "text": "The\u00a0Neurorights Foundation. 2021. Mission. Retrieved January 25, 2023 from https://neurorightsfoundation.org/mission",
+      "doi": ""
+    },
+    {
+      "text": "Doron Friedman, Rodrigo Pizarro, Keren Or-Berkers, Sol\u00e8ne Neyret, Xueni Pan, and Mel Slater. 2014. A Method for Generating an Illusion of Backwards Time Travel Using Immersive Virtual Reality\u2014an Exploratory Study. Frontiers in psychology 5 (2014), 943.",
+      "doi": ""
+    },
+    {
+      "text": "Maryrose Gerardi, Barbara\u00a0Olasov Rothbaum, Kerry Ressler, Mary Heekin, and Albert Rizzo. 2008. Virtual reality exposure therapy using a virtual Iraq: Case report. Journal of Traumatic Stress 21, 2 (2008), 209\u2013213. https://doi.org/10.1002/jts.20331",
+      "doi": ""
+    },
+    {
+      "text": "Mar Gonzalez-Franco and Jaron Lanier. 2017. Model of Illusions and Virtual Reality. Frontiers in Psychology 8 (2017), 1125. https://doi.org/10.3389/fpsyg.2017.01125",
+      "doi": ""
+    },
+    {
+      "text": "Jan Gugenheimer. 2016. Nomadic Virtual Reality: Exploring New Interaction Concepts for Mobile Virtual Reality Head-Mounted Displays. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology. 9\u201312.",
+      "doi": "10.1145/2984751.2984783"
+    },
+    {
+      "text": "Jan Gugenheimer, Christian Mai, Mark McGill, Julie Williamson, Frank Steinicke, and Ken Perlin. 2019. Challenges Using Head-Mounted Displays in Shared and Social Spaces. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Jan Gugenheimer, Mark McGill, Samuel Huron, Christian Mai, Julie Williamson, and Michael Nebeling. 2020. Exploring Potentially Abusive Ethical, Social and Political Implications of Mixed Reality Research in HCI. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems(CHI EA \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3334480.3375180",
+      "doi": "10.1145/3334480.3375180"
+    },
+    {
+      "text": "Cathal Gurrin, Alan\u00a0F. Smeaton, and Aiden\u00a0R. Doherty. 2014. LifeLogging: Personal Big Data. Foundations and Trends\u00ae in Information Retrieval 8, 1 (June 2014), 1\u2013125. https://doi.org/10.1561/1500000033",
+      "doi": "10.1561/1500000033"
+    },
+    {
+      "text": "Morgan Harvey, Marc Langheinrich, and Geoff Ward. 2016. Remembering through Lifelogging: A Survey of Human Memory Augmentation. Pervasive and Mobile Computing 27 (April 2016), 14\u201326. https://doi.org/10.1016/j.pmcj.2015.12.002",
+      "doi": "10.1016/j.pmcj.2015.12.002"
+    },
+    {
+      "text": "Linda\u00a0A. Henkel. 2014. Point-and-Shoot Memories: The Influence of Taking Photos on Memory for a Museum Tour. Psychological Science 25, 2 (Feb. 2014), 396\u2013402. https://doi.org/10.1177/0956797613504438",
+      "doi": ""
+    },
+    {
+      "text": "Jan Herling and Wolfgang Broll. 2012. Pixmix: A Real-Time Approach to High-Quality Diminished Reality. In 2012 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE, 141\u2013150.",
+      "doi": "10.1109/ISMAR.2012.6402551"
+    },
+    {
+      "text": "H.G. Hoffman, K.C. Hullfish, and S.J. Houston. 1995. Virtual-Reality Monitoring. In Proceedings Virtual Reality Annual International Symposium \u201995. 48\u201354. https://doi.org/10.1109/VRAIS.1995.512479",
+      "doi": ""
+    },
+    {
+      "text": "Hunter\u00a0G. Hoffman, Azucena Garcia-Palacios, Ayanna\u00a0K. Thomas, and Anne Schmidt. 2001. Virtual Reality Monitoring: Phenomenal Characteristics of Real, Virtual, and False Memories. CyberPsychology & Behavior 4, 5 (Oct. 2001), 565\u2013572. https://doi.org/10.1089/109493101753235151",
+      "doi": ""
+    },
+    {
+      "text": "Ellen Isaacs, Artie Konrad, Alan Walendowski, Thomas Lennig, Victoria Hollis, and Steve Whittaker. 2013. Echoes from the Past: How Technology Mediated Reflection Improves Well-Being. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1071\u20131080.",
+      "doi": "10.1145/2470654.2466137"
+    },
+    {
+      "text": "Matthew Jamieson, Breda Cullen, Marilyn McGee-Lennon, Stephen Brewster, and Jonathan\u00a0J. Evans. 2014. The Efficacy of Cognitive Prosthetic Technology for People with Memory Impairments: A Systematic Review and Meta-Analysis. Neuropsychological Rehabilitation 24, 3-4 (July 2014), 419\u2013444. https://doi.org/10.1080/09602011.2013.825632",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Jamieson, Brian O\u2019Neill, Breda Cullen, Marilyn Lennon, Stephen Brewster, and Jonathan Evans. 2017. ForgetMeNot: Active Reminder Entry Support for Adults with Acquired Brain Injury. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). Association for Computing Machinery, New York, NY, USA, 6012\u20136023. https://doi.org/10.1145/3025453.3025888",
+      "doi": "10.1145/3025453.3025888"
+    },
+    {
+      "text": "Marcia\u00a0K. Johnson, Shahin Hashtroudi, and D.\u00a0Stephen Lindsay. 1993. Source Monitoring. Psychological Bulletin 114, 1 (1993), 3\u201328. https://doi.org/10.1037/0033-2909.114.1.3",
+      "doi": ""
+    },
+    {
+      "text": "Marcia\u00a0K. Johnson and Carol\u00a0L. Raye. 1981. Reality Monitoring. Psychological Review 88, 1 (1981), 67\u201385. https://doi.org/10.1037/0033-295X.88.1.67",
+      "doi": ""
+    },
+    {
+      "text": "Zeinab Joudaki, Julie Thorpe, and Miguel\u00a0Vargas Martin. 2018. Reinforcing System-Assigned Passphrases Through Implicit Learning. In Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security(CCS \u201918). Association for Computing Machinery, New York, NY, USA, 1533\u20131548. https://doi.org/10.1145/3243734.3243764",
+      "doi": "10.1145/3243734.3243764"
+    },
+    {
+      "text": "Joanna Kisker, Thomas Gruber, and Benjamin Sch\u00f6ne. 2021. Virtual Reality Experiences Promote Autobiographical Retrieval Mechanisms: Electrophysiological Correlates of Laboratory and Virtual Experiences. Psychological Research 85, 7 (Oct. 2021), 2485\u20132501. https://doi.org/10.1007/s00426-020-01417-x",
+      "doi": ""
+    },
+    {
+      "text": "Cadu Klier and Luciano\u00a0Gr\u00fcdtner Buratto. 2020. Stress and Long-Term Memory Retrieval: A Systematic Review. Trends in Psychiatry and Psychotherapy 42, 3 (2020), 284\u2013291. https://doi.org/10.1590/2237-6089-2019-0077",
+      "doi": ""
+    },
+    {
+      "text": "Artie Konrad, Ellen Isaacs, and Steve Whittaker. 2016. Technology-Mediated Memory: Is Technology Altering Our Memories And Interfering With Well-Being?ACM Transactions on Computer-Human Interaction 23, 4 (Aug. 2016), 23:1\u201323:29. https://doi.org/10.1145/2934667",
+      "doi": "10.1145/2934667"
+    },
+    {
+      "text": "Artie Konrad, Simon Tucker, John Crane, and Steve Whittaker. 2016. Technology and Reflection: Mood and Memory Mechanisms for Well-Being. Psychology of Well-Being 6 (2016), 5. https://doi.org/10.1186/s13612-016-0045-3",
+      "doi": ""
+    },
+    {
+      "text": "Michael Kotlyar, Christopher Donahue, Paul Thuras, Matt\u00a0G. Kushner, Natalie O\u2019Gorman, Erin\u00a0A Smith, and David\u00a0E. Adson. 2008. Physiological Response to a Speech Stressor Presented in a Virtual Reality Environment. Psychophysiology 45, 6 (2008), 1034\u20131037. https://doi.org/10.1111/j.1469-8986.2008.00690.x",
+      "doi": ""
+    },
+    {
+      "text": "Eric Krokos, Catherine Plaisant, and Amitabh Varshney. 2019. Virtual Memory Palaces: Immersion Aids Recall. Virtual Reality 23, 1 (March 2019), 1\u201315. https://doi.org/10.1007/s10055-018-0346-3",
+      "doi": "10.1007/s10055-018-0346-3"
+    },
+    {
+      "text": "Kiron Lebeck, Tadayoshi Kohno, and Franziska Roesner. 2016. How to Safely Augment Reality: Challenges and Directions. In Proceedings of the 17th International Workshop on Mobile Computing Systems and Applications. 45\u201350.",
+      "doi": "10.1145/2873587.2873595"
+    },
+    {
+      "text": "Kiron Lebeck, Kimberly Ruth, Tadayoshi Kohno, and Franziska Roesner. 2017. Securing Augmented Reality Output. In 2017 IEEE Symposium on Security and Privacy (SP). IEEE, 320\u2013337.",
+      "doi": ""
+    },
+    {
+      "text": "Eric L.\u00a0G. Legge, Christopher\u00a0R. Madan, Enoch\u00a0T. Ng, and Jeremy\u00a0B. Caplan. 2012. Building a Memory Palace in Minutes: Equivalent Memory Performance Using Virtual versus Conventional Environments with the Method of Loci. Acta Psychologica 141, 3 (Nov. 2012), 380\u2013390. https://doi.org/10.1016/j.actpsy.2012.09.002",
+      "doi": ""
+    },
+    {
+      "text": "Eric L.\u00a0G. Legge, Christopher\u00a0R. Madan, Enoch\u00a0T. Ng, and Jeremy\u00a0B. Caplan. 2012. Building a Memory Palace in Minutes: Equivalent Memory Performance Using Virtual versus Conventional Environments with the Method of Loci. Acta Psychologica 141, 3 (Nov. 2012), 380\u2013390. https://doi.org/10.1016/j.actpsy.2012.09.002",
+      "doi": ""
+    },
+    {
+      "text": "Diane Lenormand and Pascale Piolino. 2022. In Search of a Naturalistic Neuroimaging Approach: Exploration of General Feasibility through the Case of VR-fMRI and Application in the Domain of Episodic Memory. Neuroscience & Biobehavioral Reviews 133 (Feb. 2022), 104499. https://doi.org/10.1016/j.neubiorev.2021.12.022",
+      "doi": ""
+    },
+    {
+      "text": "David Lindlbauer and Andy\u00a0D. Wilson. 2018. Remixed Reality: Manipulating Space and Time in Augmented Reality. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems(CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173703",
+      "doi": "10.1145/3173574.3173703"
+    },
+    {
+      "text": "Elizabeth\u00a0F. Loftus. 2005. Planting Misinformation in the Human Mind: A 30-Year Investigation of the Malleability of Memory. Learning & Memory 12, 4 (Jan. 2005), 361\u2013366. https://doi.org/10.1101/lm.94705",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0F. Loftus and Jacqueline\u00a0E. Pickrell. 1995. The Formation of False Memories. Psychiatric Annals 25, 12 (Dec. 1995), 720\u2013725. https://doi.org/10.3928/0048-5713-19951201-07",
+      "doi": ""
+    },
+    {
+      "text": "Dominique Makowski, Marco Sperduti, Serge Nicolas, and Pascale Piolino. 2017. \u201cBeing There\u201d and Remembering It: Presence Improves Memory Encoding. Consciousness and cognition 53 (2017), 194\u2013202.",
+      "doi": ""
+    },
+    {
+      "text": "Marieke\u00a0AG Martens, Angus Antley, Daniel Freeman, Mel Slater, Paul\u00a0J Harrison, and Elizabeth\u00a0M Tunbridge. 2019. It Feels Real: Physiological Responses to a Stressful Virtual Reality Environment and Its Impact on Working Memory. Journal of Psychopharmacology 33, 10 (Oct. 2019), 1264\u20131273. https://doi.org/10.1177/0269881119860156",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Marwecki, Andrew\u00a0D. Wilson, Eyal Ofek, Mar Gonzalez\u00a0Franco, and Christian Holz. 2019. Mise-Unseen: Using Eye Tracking to Hide Virtual Reality Scene Changes in Plain Sight. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201919). Association for Computing Machinery, New York, NY, USA, 777\u2013789. https://doi.org/10.1145/3332165.3347919",
+      "doi": "10.1145/3332165.3347919"
+    },
+    {
+      "text": "A. McDonald, C. Haslam, P. Yates, B. Gurr, G. Leeder, and A. Sayers. 2011. Google Calendar: A New Memory Aid to Compensate for Prospective Memory Deficits Following Acquired Brain Injury. Neuropsychological Rehabilitation 21, 6 (Dec. 2011), 784\u2013807. https://doi.org/10.1080/09602011.2011.598405",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0L McGaugh and Benno Roozendaal. 2002. Role of Adrenal Stress Hormones in Forming Lasting Memories in the Brain. Current Opinion in Neurobiology 12, 2 (April 2002), 205\u2013210. https://doi.org/10.1016/S0959-4388(02)00306-9",
+      "doi": ""
+    },
+    {
+      "text": "Arthur\u00a0W. Melton. 1963. Implications of Short-Term Memory for a General Theory of Memory. Journal of Verbal Learning and Verbal Behavior 2, 1 (July 1963), 1\u201321. https://doi.org/10.1016/S0022-5371(63)80063-8",
+      "doi": ""
+    },
+    {
+      "text": "Abraham\u00a0Hani Mhaidli and Florian Schaub. 2021. Identifying Manipulative Advertising Techniques in XR Through Scenario Construction. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems(CHI \u201921). Association for Computing Machinery, New York, NY, USA, 1\u201318. https://doi.org/10.1145/3411764.3445253",
+      "doi": "10.1145/3411764.3445253"
+    },
+    {
+      "text": "Paul Milgram and Fumio Kishino. 1994. A Taxonomy of Mixed Reality Visual Displays. IEICE Trans. Information Systems vol. E77-D, no. 12 (Dec. 1994), 1321\u20131329.",
+      "doi": ""
+    },
+    {
+      "text": "Shohei Mori, Sei Ikeda, and Hideo Saito. 2017. A Survey of Diminished Reality: Techniques for Visually Concealing, Eliminating, and Seeing through Real Objects. IPSJ Transactions on Computer Vision and Applications 9, 1 (June 2017), 17. https://doi.org/10.1186/s41074-017-0028-1",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0A. Nash, Kimberley\u00a0A. Wade, and D.\u00a0Stephen Lindsay. 2009. Digitally Manipulating Memory: Effects of Doctored Videos and Imagination in Distorting Beliefs and Memories. Memory & Cognition 37, 4 (June 2009), 414\u2013424. https://doi.org/10.3758/MC.37.4.414",
+      "doi": ""
+    },
+    {
+      "text": "BBC\u00a0World News. 2020. Click, Virtual Time Machine: Watching My Life from 2019. Retrieved January 25, 2023 from https://www.bbc.co.uk/programmes/p08nwkw4",
+      "doi": ""
+    },
+    {
+      "text": "Alasdair Newson, Andr\u00e9s Almansa, Matthieu Fradet, Yann Gousseau, and Patrick P\u00e9rez. 2013. Towards Fast, Generic Video Inpainting. In Proceedings of the 10th European Conference on Visual Media Production(CVMP \u201913). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/2534008.2534019",
+      "doi": "10.1145/2534008.2534019"
+    },
+    {
+      "text": "OpenAI. 2022. DALL \u00b7 E 2. Retrieved January 25, 2023 from https://openai.com/dall-e-2/",
+      "doi": ""
+    },
+    {
+      "text": "Sylvain Penaud, Najate Jebara, Mohamed Zaoui, Eric Orriols, Alain Berthoz, and Pascale Piolino. 2022. Episodic Memory and Self-Reference in a Naturalistic Context: New Insights Based on a Virtual Walk in the Latin Quarter of Paris. Journal of Environmental Psychology 81 (2022), 101801.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0W. Pennebaker and Sandra\u00a0K. Beall. 1986. Confronting a Traumatic Event: Toward an Understanding of Inhibition and Disease.Journal of abnormal psychology 95, 3 (1986), 274.",
+      "doi": ""
+    },
+    {
+      "text": "PetaPixel. 2018. Facebook Can Reconstruct a 3D World from Your Photos and Videos. Retrieved January 25, 2023 from https://petapixel.com/2018/05/02/facebook-can-reconstruct-a-3d-world-from-your-photos-and-videos/",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0A Phelps. 2004. Human Emotion and Memory: Interactions of the Amygdala and Hippocampal Complex. Current Opinion in Neurobiology 14, 2 (April 2004), 198\u2013202. https://doi.org/10.1016/j.conb.2004.03.015",
+      "doi": ""
+    },
+    {
+      "text": "Laurence Picard, Maria Abram, Eric Orriols, and Pascale Piolino. 2017. Virtual Reality as an Ecologically Valid Tool for Assessing Multifaceted Episodic Memory in Children and Adolescents. International Journal of Behavioral Development 41, 2 (March 2017), 211\u2013219. https://doi.org/10.1177/0165025415616198",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0I. Posner, Mary\u00a0J. Nissen, and Raymond\u00a0M. Klein. 1976. Visual Dominance: An Information-Processing Account of Its Origins and Significance.Psychological review 83, 2 (1976), 157.",
+      "doi": ""
+    },
+    {
+      "text": "Zhen Qin, Qingliang Zeng, Yixin Zong, and Fan Xu. 2021. Image Inpainting Based on Deep Learning: A Review. Displays 69 (Sept. 2021), 102028. https://doi.org/10.1016/j.displa.2021.102028",
+      "doi": ""
+    },
+    {
+      "text": "Sharif Razzaque, David Swapp, Mel Slater, Mary Whitton, and Anthony Steed. 2002. Redirected Walking in Place. Eight Eurographics Workshop on Virtual Environments (Jan. 2002).",
+      "doi": ""
+    },
+    {
+      "text": "E.\u00a0F. Risko, M.\u00a0O. Kelly, P. Patel, and C. Gaspar. 2019. Offloading Memory Leaves Us Vulnerable to Memory Manipulation. Cognition 191 (Oct. 2019), 103954. https://doi.org/10.1016/j.cognition.2019.04.023",
+      "doi": ""
+    },
+    {
+      "text": "Franziska Roesner and Tadayoshi Kohno. 2021. Security and Privacy for Augmented Reality: Our 10-Year Retrospective. In VR4Sec: 1st International Workshop on Security for XR and XR for Security.",
+      "doi": ""
+    },
+    {
+      "text": "Franziska Roesner, Tadayoshi Kohno, and David Molnar. 2014. Security and Privacy for Augmented Reality Systems. Commun. ACM 57, 4 (2014), 88\u201396.",
+      "doi": "10.1145/2580723.2580730"
+    },
+    {
+      "text": "Oscar Rosello, Marc Exposito, and Pattie Maes. 2016. NeverMind: Using Augmented Reality for Memorization. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology(UIST \u201916 Adjunct). Association for Computing Machinery, New York, NY, USA, 215\u2013216. https://doi.org/10.1145/2984751.2984776",
+      "doi": "10.1145/2984751.2984776"
+    },
+    {
+      "text": "Marius Rubo, Nadine Messerli, and Simone Munsch. 2021. The Human Source Memory System Struggles to Distinguish Virtual Reality and Reality. Computers in Human Behavior Reports 4 (Aug. 2021), 100111. https://doi.org/10.1016/j.chbr.2021.100111",
+      "doi": ""
+    },
+    {
+      "text": "Maria\u00a0V. Sanchez-Vives and Mel Slater. 2005. From Presence to Consciousness through Virtual Reality. Nature Reviews Neuroscience 6, 4 (April 2005), 332\u2013339. https://doi.org/10.1038/nrn1651",
+      "doi": ""
+    },
+    {
+      "text": "Susan\u00a0J. Sara. 2000. Retrieval and Reconsolidation: Toward a Neurobiology of Remembering. Learning & Memory 7, 2 (Jan. 2000), 73\u201384. https://doi.org/10.1101/lm.7.2.73",
+      "doi": ""
+    },
+    {
+      "text": "Corina Sas and Steve Whittaker. 2013. Design for Forgetting: Disposing of Digital Possessions after a Breakup. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201913). Association for Computing Machinery, New York, NY, USA, 1823\u20131832. https://doi.org/10.1145/2470654.2466241",
+      "doi": "10.1145/2470654.2466241"
+    },
+    {
+      "text": "Daniel\u00a0L. Schacter. 2002. The Seven Sins of Memory: How the Mind Forgets and Remembers. HMH.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0L. Schacter. 2022. Media, Technology, and the Sins of Memory. Memory, Mind & Media 1(2022), e1. https://doi.org/10.1017/mem.2021.3",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0L. Schacter and Chad\u00a0S. Dodson. 2001. Misattribution, False Recognition and the Sins of Memory. Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences 356, 1413 (Sept. 2001), 1385\u20131393. https://doi.org/10.1098/rstb.2001.0938",
+      "doi": ""
+    },
+    {
+      "text": "Kathryn\u00a0Y. Segovia and Jeremy\u00a0N. Bailenson. 2009. Virtually True: Children\u2019s Acquisition of False Memories in Virtual Reality. Media Psychology 12, 4 (Nov. 2009), 371\u2013393. https://doi.org/10.1080/15213260903287267",
+      "doi": ""
+    },
+    {
+      "text": "Abigail\u00a0J. Sellen, Andrew Fogg, Mike Aitken, Steve Hodges, Carsten Rother, and Ken Wood. 2007. Do Life-Logging Technologies Support Memory for the Past? An Experimental Study Using Sensecam. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201907). Association for Computing Machinery, New York, NY, USA, 81\u201390. https://doi.org/10.1145/1240624.1240636",
+      "doi": "10.1145/1240624.1240636"
+    },
+    {
+      "text": "Andrew\u00a0M. Sherrill, Alex\u00a0O. Rothbaum, Lauren\u00a0B. McSweeney, and Barbara\u00a0O. Rothbaum. 2019. Virtual Reality Exposure Therapy for Posttraumatic Stress Disorder. Psychiatric Annals 49, 8 (Aug. 2019), 343\u2013347. https://doi.org/10.3928/00485713-20190716-02",
+      "doi": ""
+    },
+    {
+      "text": "R.\u00a0M. Shiffrin and R.\u00a0C. Atkinson. 1969. Storage and Retrieval Processes in Long-Term Memory. Psychological Review 76(1969), 179\u2013193. https://doi.org/10.1037/h0027277",
+      "doi": ""
+    },
+    {
+      "text": "Youngsoo Shin, Ruth Barankevich, Jina Lee, and Saleh Kalantari. 2021. PENCODER: Design for Prospective Memory and Older Adults. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems(CHI EA \u201921). Association for Computing Machinery, New York, NY, USA, 1\u20137. https://doi.org/10.1145/3411763.3451795",
+      "doi": "10.1145/3411763.3451795"
+    },
+    {
+      "text": "Panote Siriaraya and Chee\u00a0Siang Ang. 2014. Recreating Living Experiences from Past Memories through Virtual Worlds for People with Dementia. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201914). Association for Computing Machinery, New York, NY, USA, 3977\u20133986. https://doi.org/10.1145/2556288.2557035",
+      "doi": "10.1145/2556288.2557035"
+    },
+    {
+      "text": "Mel Slater. 2009. Place Illusion and Plausibility Can Lead to Realistic Behaviour in Immersive Virtual Environments. Philosophical Transactions of the Royal Society B: Biological Sciences 364, 1535 (2009), 3549\u20133557.",
+      "doi": ""
+    },
+    {
+      "text": "Mel Slater, Cristina Gonzalez-Liencres, Patrick Haggard, Charlotte Vinkers, Rebecca Gregory-Clarke, Steve Jelley, Zillah Watson, Graham Breen, Raz Schwarz, William Steptoe, 2020. The Ethics of Realism in Virtual and Augmented Reality. Frontiers in Virtual Reality 1 (2020), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Mel Slater and Sylvia Wilbur. 1997. A Framework for Immersive Virtual Environments (FIVE): Speculations on the Role of Presence in Virtual Environments. Presence: Teleoperators & Virtual Environments 6, 6(1997), 603\u2013616.",
+      "doi": "10.1162/pres.1997.6.6.603"
+    },
+    {
+      "text": "S.\u00a0Adam Smith. 2019. Virtual Reality in Episodic Memory Research: A Review. Psychonomic Bulletin & Review 26, 4 (Aug. 2019), 1213\u20131237. https://doi.org/10.3758/s13423-019-01605-w",
+      "doi": ""
+    },
+    {
+      "text": "Bernhard Spanlang, Jean-Marie Normand, David Borland, Konstantina Kilteni, Elias Giannopoulos, Ausi\u00e0s Pom\u00e9s, Mar Gonz\u00e1lez-Franco, Daniel Perez-Marcos, Jorge Arroyo-Palacios, Xavi\u00a0Navarro Muncunill, and Mel Slater. 2014. How to Build an Embodiment Lab: Achieving Body Representation Illusions in Virtual Reality. Frontiers in Robotics and AI 1 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan\u00a0D Spence. 1984. The Memory Palace of Matteo Ricci. Viking.",
+      "doi": ""
+    },
+    {
+      "text": "Stability.Ai. 2022. Stable Diffusion 2.0 Release. Retrieved January 25, 2023 from https://stability.ai/blog/stable-diffusion-v2-release",
+      "doi": ""
+    },
+    {
+      "text": "Frank Steinicke, Gerd Bruder, Jason Jerald, Harald Frenz, and Markus Lappe. 2010. Estimation of Detection Thresholds for Redirected Walking Techniques. IEEE Transactions on Visualization and Computer Graphics 16, 1 (Jan. 2010), 17\u201327. https://doi.org/10.1109/TVCG.2009.62",
+      "doi": "10.1109/TVCG.2009.62"
+    },
+    {
+      "text": "Qi Sun, Anjul Patney, Li-Yi Wei, Omer Shapira, Jingwan Lu, Paul Asente, Suwen Zhu, Morgan Mcguire, David Luebke, and Arie Kaufman. 2018. Towards Virtual Reality Infinite Walking: Dynamic Saccadic Redirection. ACM Transactions on Graphics 37, 4 (July 2018), 67:1\u201367:13. https://doi.org/10.1145/3197517.3201294",
+      "doi": "10.1145/3197517.3201294"
+    },
+    {
+      "text": "Charles\u00a0P. Thompson, John\u00a0J. Skowronski, Steen\u00a0F. Larsen, and Andrew\u00a0L. Betz. 2013. Autobiographical Memory: Remembering What and Remembering When. Psychology Press.",
+      "doi": ""
+    },
+    {
+      "text": "Yung-Chin Tsao, Chun-Chieh Shu, and Tian-Syung Lan. 2019. Development of a Reminiscence Therapy System for the Elderly Using the Integration of Virtual Reality and Augmented Reality. Sustainability 11, 17 (Jan. 2019), 4792. https://doi.org/10.3390/su11174792",
+      "doi": ""
+    },
+    {
+      "text": "Wen-Jie Tseng, Elise Bonnail, Mark McGill, Mohamed Khamis, Eric Lecolinet, Samuel Huron, and Jan Gugenheimer. 2022. The Dark Side of Perceptual Manipulations in Virtual Reality. arXiv:2202.13200 [cs] (Feb. 2022). https://doi.org/10.1145/3491102.3517728 arxiv:2202.13200\u00a0[cs]",
+      "doi": "10.1145/3491102.3517728"
+    },
+    {
+      "text": "Chai\u00a0M. Tyng, Hafeez\u00a0U. Amin, Mohamad N.\u00a0M. Saad, and Aamir\u00a0S. Malik. 2017. The Influences of Emotion on Learning and Memory. Frontiers in Psychology 8 (Aug. 2017), 1454. https://doi.org/10.3389/fpsyg.2017.01454",
+      "doi": ""
+    },
+    {
+      "text": "Eunjoon\u00a0\u201cRachel\u201d Um, Jan\u00a0L. Plass, Elizabeth\u00a0O. Hayward, and Bruce\u00a0D. Homer. 2012. Emotional Design in Multimedia Learning. Journal of Educational Psychology 104, 2 (2012), 485\u2013498. https://doi.org/10.1037/a0026609",
+      "doi": ""
+    },
+    {
+      "text": "Melina\u00a0R. Uncapher and Michael\u00a0D. Rugg. 2009. Selecting for Memory? The Influence of Selective Attention on the Mnemonic Binding of Contextual Information. Journal of Neuroscience 29, 25 (June 2009), 8270\u20138279. https://doi.org/10.1523/JNEUROSCI.1043-09.2009",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0J. van Beers, Daniel\u00a0M. Wolpert, and Patrick Haggard. 2002. When Feeling Is More Important than Seeing in Sensorimotor Adaptation. Current biology 12, 10 (2002), 834\u2013837.",
+      "doi": ""
+    },
+    {
+      "text": "Joakim Vindenes, Angelica\u00a0Ortiz de Gortari, and Barbara Wasson. 2018. Mnemosyne: Adapting the Method of Loci to Immersive Virtual Reality. In Augmented Reality, Virtual Reality, and Computer Graphics(Lecture Notes in Computer Science), Lucio\u00a0Tommaso De\u00a0Paolis and Patrick Bourdot (Eds.). Springer International Publishing, Cham, 205\u2013213. https://doi.org/10.1007/978-3-319-95270-3_16",
+      "doi": ""
+    },
+    {
+      "text": "Oriol Vinyals, Alexander Toshev, Samy Bengio, and Dumitru Erhan. 2015. Show and Tell: A Neural Image Caption Generator. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 3156\u20133164.",
+      "doi": ""
+    },
+    {
+      "text": "Susanne Vogel and Lars Schwabe. 2016. Learning and Memory under Stress: Implications for the Classroom. npj Science of Learning 1, 1 (June 2016), 1\u201310. https://doi.org/10.1038/npjscilearn.2016.11",
+      "doi": ""
+    },
+    {
+      "text": "Kimberley\u00a0A. Wade, Maryanne Garry, J. Don\u00a0Read, and D.\u00a0Stephen Lindsay. 2002. A Picture Is Worth a Thousand Lies: Using False Photographs to Create False Childhood Memories. Psychonomic Bulletin & Review 9, 3 (Sept. 2002), 597\u2013603. https://doi.org/10.3758/BF03196318",
+      "doi": ""
+    },
+    {
+      "text": "Oliver\u00a0T Wolf. 2017. Stress and Memory Retrieval: Mechanisms and Consequences. Current Opinion in Behavioral Sciences 14 (April 2017), 40\u201346. https://doi.org/10.1016/j.cobeha.2016.12.001",
+      "doi": ""
+    },
+    {
+      "text": "Bob Woods, Laura O\u2019Philbin, Emma\u00a0M. Farrell, Aimee\u00a0E. Spector, and Martin Orrell. 2018. Reminiscence Therapy for Dementia. Cochrane Database of Systematic Reviews3 (2018). https://doi.org/10.1002/14651858.CD001120.pub3",
+      "doi": ""
+    },
+    {
+      "text": "Jiaxin Xu and Baosheng Wang. 2020. Efficacy of VR-Based Reminiscence Therapy in Improving Autobiographical Memory for Chinese Patients with AD. 339\u2013349. https://doi.org/10.1007/978-3-030-51038-1_47",
+      "doi": ""
+    },
+    {
+      "text": "Yuki Yamada, Keisuke Irie, Kota Gushima, Fumiko Ishizawa, Mohammed\u00a0Al Sada, and Tatsuo Nakajima. 2017. HoloMoL: Human Memory Augmentation with Mixed-Reality Technologies. In Proceedings of the 21st International Academic Mindtrek Conference(AcademicMindtrek \u201917). Association for Computing Machinery, New York, NY, USA, 235\u2013238. https://doi.org/10.1145/3131085.3131097",
+      "doi": "10.1145/3131085.3131097"
+    },
+    {
+      "text": "Zhong-Qiu Zhao, Peng Zheng, Shou-Tao Xu, and Xindong Wu. 2019. Object Detection With Deep Learning: A Review. IEEE Transactions on Neural Networks and Learning Systems 30, 11 (Nov. 2019), 3212\u20133232. https://doi.org/10.1109/TNNLS.2018.2876865",
+      "doi": ""
+    },
+    {
+      "text": "Patrick Zimmer, Benjamin Buttlar, Georg Halbeisen, Eva Walther, and Gregor Domes. 2019. Virtually Stressed? A Refined Virtual Reality Adaptation of the Trier Social Stress Test (TSST) Induces Robust Endocrine Responses. Psychoneuroendocrinology 101 (March 2019), 186\u2013192. https://doi.org/10.1016/j.psyneuen.2018.11.010",
+      "doi": ""
+    }
+  ]
+}

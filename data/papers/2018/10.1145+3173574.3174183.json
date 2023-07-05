@@ -1,0 +1,179 @@
+{
+  "doi": "10.1145/3173574.3174183",
+  "title": "Using High Frequency Accelerometer and Mouse to Compensate for End-to-end Latency in Indirect Interaction",
+  "published": "2018-04-21",
+  "proctitle": "CHI '18: Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-11",
+  "year": 2018,
+  "badges": [],
+  "abstract": "End-to-end latency corresponds to the temporal difference between a user input and the corresponding output from a system. It has been shown to degrade user performance in both direct and indirect interaction. If it can be reduced to some extend, latency can also be compensated through software compensation by trying to predict the future position of the cursor based on previous positions, velocities and accelerations. In this paper, we propose a hybrid hardware and software prediction technique specifically designed for partially compensating end-to-end latency in indirect pointing. We combine a computer mouse with a high frequency accelerometer to predict the future location of the pointer using Euler based equations. Our prediction method results in more accurate prediction than previously introduced prediction algorithms for direct touch. A controlled experiment also revealed that it can improve target acquisition time in pointing tasks.",
+  "authors": [
+    {
+      "name": "Axel Antoine",
+      "institution": "Universit\u00e9 de Lille, Lille, France",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659083851",
+      "orcid": "missing"
+    },
+    {
+      "name": "Sylvain Malacria",
+      "institution": "Inria, Lille, France",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81414620309",
+      "orcid": "0000-0002-5201-5875"
+    },
+    {
+      "name": "G\u00e9ry Casiez",
+      "institution": "Universit\u00e9 de Lille, Lille, France",
+      "img": "/do/10.1145/contrib-81100168597/rel-imgonly/gerycasieznewlowres.png",
+      "acmid": "81100168597",
+      "orcid": "0000-0003-1905-815X"
+    }
+  ],
+  "references": [
+    {
+      "text": "HIDAPI. Retrieved January 8th, 2018 from https://github.com/signal11/hidapi",
+      "doi": ""
+    },
+    {
+      "text": "Invensense MPU-9250 datasheet. Retrieved January 8th, 2018 from https://www.invensense.com/wp-content/ uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Libpointing. Retrieved January 8th, 2018 from https://github.com/INRIA/libpointing",
+      "doi": ""
+    },
+    {
+      "text": "Logitech G9 Laser Technical specifications. Retrieved January 8th, 2018 from http://support.logitech.com/en_us/product/g9-laser-mouse/specs",
+      "doi": ""
+    },
+    {
+      "text": "Professional video gamers configurations. Retrieved January 8th, 2018 from https://prosettings.net",
+      "doi": ""
+    },
+    {
+      "text": "2011. Multi-touch trajectory tracking method. https://www.google.com/patents/CN102096530A?cl=en CN Patent App. CN 201,110,030,430.",
+      "doi": ""
+    },
+    {
+      "text": "2013. Measuring Input Latency. Retrieved January 8th, 2018 from http://renderingpipeline.com/2013/09/ measuring-input-latency",
+      "doi": ""
+    },
+    {
+      "text": "2014. Curve fitting based touch trajectory smoothing method and system. https://www.google.ca/patents/CN103902086A?cl=en CN Patent App. CN 201,210,585,264.",
+      "doi": ""
+    },
+    {
+      "text": "G\u00e9ry Casiez, St\u00e9phane Conversy, Matthieu Falce, St\u00e9phane Huot, and Nicolas Roussel. 2015. Looking Through the Eye of the Mouse: A Simple Method for Measuring End-to-end Latency Using an Optical Mouse. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology (UIST '15). ACM, New York, NY, USA, 629--636.  ",
+      "doi": "10.1145/2807442.2807454"
+    },
+    {
+      "text": "G\u00e9ry Casiez, Thomas Pietrzak, Damien Marchal, S\u00e9bastien Poulmane, Mathieu Falce, and Nicolas Roussel. 2017. Characterizing Latency in Touch and Button-Equipped Interactive Systems. In Proceedings of UIST'17, the 30th ACM Symposium on User Interface Software and Technology (UIST '17). ACM, New York, NY, USA, 9.  ",
+      "doi": "10.1145/3126594.3126606"
+    },
+    {
+      "text": "G\u00e9ry Casiez and Nicolas Roussel. 2011. No More Bricolage! Methods and Tools to Characterize, Replicate and Compare Pointing Transfer Functions. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology (UIST '11). ACM, New York, NY, USA, 603--614.  ",
+      "doi": "10.1145/2047196.2047276"
+    },
+    {
+      "text": "G\u00e9ry Casiez, Nicolas Roussel, and Daniel Vogel. 2012. 1e Filter: A Simple Speed-based Low-pass Filter for Noisy Input in Interactive Systems. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). ACM, New York, NY, USA, 2527--2530.  ",
+      "doi": "10.1145/2207676.2208639"
+    },
+    {
+      "text": "Elie Cattan, Am\u00e9lie Rochet-Capellan, Pascal Perrier, and Fran\u00e7ois B\u00e9rard. 2015. Reducing Latency with a Continuous Prediction: Effects on Users' Performance in Direct-Touch Target Acquisitions. In Proceedings of the 2015 International Conference on Interactive Tabletops & Surfaces (ITS '15). ACM, New York, NY, USA, 205--214.  ",
+      "doi": "10.1145/2817721.2817736"
+    },
+    {
+      "text": "Mark Claypool, Ragnhild Eg, and Kjetil Raaen. 2016. The Effects of Delay on Game Actions: Moving Target Selection with a Mouse. In Proceedings of the 2016 Annual Symposium on Computer-Human Interaction in Play Companion Extended Abstracts (CHI PLAY Companion '16). ACM, New York, NY, USA, 117--123.  ",
+      "doi": "10.1145/2968120.2987743"
+    },
+    {
+      "text": "Jonathan Deber, Ricardo Jota, Clifton Forlines, and Daniel Wigdor. 2015. How Much Faster is Fast Enough? User Perception of Latency & Latency Improvements in Direct and Indirect Touch. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). ACM, New York, NY, USA, 1827--1836.  ",
+      "doi": "10.1145/2702123.2702300"
+    },
+    {
+      "text": "Daniel Eran Dilger. 2013. Agawi TouchMark contrasts iPad's fast screen response to laggy Android tablets. Apple Insider. Retrieved January 8th, 2018 from http://tinyurl.com/punyo98",
+      "doi": ""
+    },
+    {
+      "text": "S. Friston, P. Karlstr\u00f6m, and A. Steed. 2016. The Effects of Low Latency on Pointing and Steering Tasks. IEEE Transactions on Visualization and Computer Graphics 22, 5 (May 2016), 1605--1615.  ",
+      "doi": "10.1109/TVCG.2015.2446467"
+    },
+    {
+      "text": "S. Friston, A. Steed, S. Tilbury, and G. Gaydadjiev. 2015. Ultra low latency dataflow renderer. In 2015 25th International Conference on Field Programmable Logic and Applications (FPL). 1--4.",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Friston, Anthony Steed, Simon Tilbury, and Georgi Gaydadjiev. 2016. Construction and Evaluation of an Ultra Low Latency Frameless Renderer for VR. IEEE Transactions on Visualization and Computer Graphics 22, 4 (April 2016), 1377--1386.  ",
+      "doi": "10.1109/TVCG.2016.2518079"
+    },
+    {
+      "text": "Niels Henze, Markus Funk, and Alireza Sahami Shirazi. 2016. Software-reduced Touchscreen Latency. In Proceedings of the 18th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI '16). ACM, New York, NY, USA, 434--441.  ",
+      "doi": "10.1145/2935334.2935381"
+    },
+    {
+      "text": "ISO 9241--9 2000. Ergonomic requirements for office work with visual display terminals (VDTs) -- Part 9: Requirements for non-keyboard input devices (1 ed.). Technical Report. International Organization for Standardization, Geneva, CH.",
+      "doi": ""
+    },
+    {
+      "text": "Ricardo Jota, Albert Ng, Paul Dietz, and Daniel Wigdor. 2013. How Fast is Fast Enough? A Study of the Effects of Latency in Direct-touch Pointing Tasks. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). ACM, New York, NY, USA, 2291--2300.  ",
+      "doi": "10.1145/2470654.2481317"
+    },
+    {
+      "text": "Rudolph Emil Kalman. 1960. A New Approach to Linear Filtering and Prediction Problems. Transactions of the ASME--Journal of Basic Engineering 82, Series D (1960), 35--45.",
+      "doi": ""
+    },
+    {
+      "text": "B. Kim and Y. Lim. 2014. Mobile terminal and touch coordinate predicting method thereof. https://www.google.com/patents/WO2014129753A1?cl=en WO Patent App. PCT/KR2014/000,661.",
+      "doi": ""
+    },
+    {
+      "text": "Jarrod Knibbe, Hrvoje Benko, and Andrew D. Wilson. 2015. Juggling the Effects of Latency: Software Approaches to Minimizing Latency in Dynamic Projector-Camera Systems. In Adjunct Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology (UIST '15 Adjunct). ACM, New York, NY, USA, 93--94.  ",
+      "doi": "10.1145/2815585.2815735"
+    },
+    {
+      "text": "Joseph J. LaViola. 2003. Double Exponential Smoothing: An Alternative to Kalman Filter-based Predictive Tracking. In Proceedings of the Workshop on Virtual Environments 2003 (EGVE '03). ACM, New York, NY, USA, 199--206.  ",
+      "doi": "10.1145/769953.769976"
+    },
+    {
+      "text": "I. Scott MacKenzie and Colin Ware. 1993. Lag As a Determinant of Human Performance in Interactive Systems. In Proceedings of the INTERACT '93 and CHI '93 Conference on Human Factors in Computing Systems (CHI '93). ACM, New York, NY, USA, 488--493.  ",
+      "doi": "10.1145/169059.169431"
+    },
+    {
+      "text": "F. Moussavi. 2014. Methods and apparatus for incremental prediction of input device motion. https://www.google.ca/patents/US8766915 US Patent 8,766,915.",
+      "doi": ""
+    },
+    {
+      "text": "Mathieu Nancel, Daniel Vogel, Bruno De Araujo, Ricardo Jota, and G\u00e9ry Casiez. 2016. Next-Point Prediction Metrics for Perceived Spatial Errors. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST '16). ACM, New York, NY, USA, 271--285.  ",
+      "doi": "10.1145/2984511.2984590"
+    },
+    {
+      "text": "Albert Ng, Julian Lepinski, Daniel Wigdor, Steven Sanders, and Paul Dietz. 2012. Designing for Low-latency Direct-touch Input. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology (UIST '12). ACM, New York, NY, USA, 453--464.  ",
+      "doi": "10.1145/2380116.2380174"
+    },
+    {
+      "text": "Andriy Pavlovych and Carl Gutwin. 2012. Assessing Target Acquisition and Tracking Performance for Complex Moving Targets in the Presence of Latency and Jitter. In Proceedings of Graphics Interface 2012 (GI '12). Canadian Information Processing Society, Toronto, Ont., Canada, Canada, 109--116. http://dl.acm.org/citation.cfm?id=2305276.2305295 ",
+      "doi": "10.5555/2305276.2305295"
+    },
+    {
+      "text": "Andriy Pavlovych and Wolfgang Stuerzlinger. 2009. The Tradeoff Between Spatial Jitter and Latency in Pointing Tasks. In Proceedings of the 1st ACM SIGCHI Symposium on Engineering Interactive Computing Systems (EICS '09). ACM, New York, NY, USA, 187--196.  ",
+      "doi": "10.1145/1570433.1570469"
+    },
+    {
+      "text": "Kjetil Raaen and Andreas Petlund. 2015. How Much Delay is There Really in Current Games?. In Proceedings of the 6th ACM Multimedia Systems Conference (MMSys '15). ACM, New York, NY, USA, 89--92.  ",
+      "doi": "10.1145/2713168.2713188"
+    },
+    {
+      "text": "R. J. Teather, A. Pavlovych, W. Stuerzlinger, and I. S. MacKenzie. 2009. Effects of tracking technology, latency, and spatial jitter on object movement. In 2009 IEEE Symposium on 3D User Interfaces. 43--50.  ",
+      "doi": "10.1109/3DUI.2009.4811204"
+    },
+    {
+      "text": "Rosane Ushirobira, Denis Efimov, G\u00e9ry Casiez, Nicolas Roussel, and Wilfrid Perruquetti. 2016. A forecasting algorithm for latency compensation in indirect human-computer interactions. In Proceedings of ECC'16, the 15th annual European Control Conference (ECC '16). IEEE, 1081--1086.",
+      "doi": ""
+    },
+    {
+      "text": "W. Zhao, D.A. Stevens, A. Uzelac, H. Benko, and J.L. Miller. 2012. Prediction-based touch contact tracking. https://www.google.com/patents/US20120206380 US Patent App. 13/152,991.",
+      "doi": ""
+    }
+  ]
+}

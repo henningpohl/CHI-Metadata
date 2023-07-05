@@ -1,0 +1,720 @@
+{
+  "doi": "10.1145/3544548.3581190",
+  "title": "Complex Daily Activities, Country-Level Diversity, and Smartphone Sensing: A Study in Denmark, Italy, Mongolia, Paraguay, and UK",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-23",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Smartphones enable understanding human behavior with activity recognition to support people\u2019s daily lives. Prior studies focused on using inertial sensors to detect simple activities (sitting, walking, running, etc.) and were mostly conducted in homogeneous populations within a country. However, people are more sedentary in the post-pandemic world with the prevalence of remote/hybrid work/study settings, making detecting simple activities less meaningful for context-aware applications. Hence, the understanding of (i) how multimodal smartphone sensors and machine learning models could be used to detect complex daily activities that can better inform about people\u2019s daily lives, and (ii) how models generalize to unseen countries, is limited. We analyzed in-the-wild smartphone data and \u223c 216K self-reports from 637 college students in five countries (Italy, Mongolia, UK, Denmark, Paraguay). Then, we defined a 12-class complex daily activity recognition task and evaluated the performance with different approaches. We found that even though the generic multi-country approach provided an AUROC of 0.70, the country-specific approach performed better with AUROC scores in [0.79-0.89]. We believe that research along the lines of diversity awareness is fundamental for advancing human behavior understanding through smartphones and machine learning, for more real-world utility across countries.",
+  "authors": [
+    {
+      "name": "Karim Assi",
+      "institution": "EPFL, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779184",
+      "orcid": "0000-0002-8787-5058"
+    },
+    {
+      "name": "Lakmal Meegahapola",
+      "institution": "Idiap Research Institute, Switzerland and EPFL, Switzerland",
+      "img": "/do/10.1145/contrib-99659267667/rel-imgonly/82294984_10221576726876076_265544513513062400_o.jpg",
+      "acmid": "99659267667",
+      "orcid": "0000-0002-5275-6585"
+    },
+    {
+      "name": "William Droz",
+      "institution": "Idiap Research Institute, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660686804",
+      "orcid": "0000-0003-0379-2018"
+    },
+    {
+      "name": "Peter Kun",
+      "institution": "Aalborg University, Denmark",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660691235",
+      "orcid": "0000-0003-0778-7662"
+    },
+    {
+      "name": "Amalia De G\u00f6tzen",
+      "institution": "Aalborg University, Denmark",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81384599058",
+      "orcid": "0000-0001-7214-5856"
+    },
+    {
+      "name": "Miriam Bidoglia",
+      "institution": "London School of Economics and Political Science, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660691587",
+      "orcid": "0000-0002-1583-6551"
+    },
+    {
+      "name": "Sally Stares",
+      "institution": "City, University of London, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660781378",
+      "orcid": "0000-0003-4697-0347"
+    },
+    {
+      "name": "George Gaskell",
+      "institution": "Methodology, London School of Economics and Political Science, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660689002",
+      "orcid": "0000-0001-6135-9496"
+    },
+    {
+      "name": "Altangerel Chagnaa",
+      "institution": "National University of Mongolia, Mongolia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81460658414",
+      "orcid": "0000-0003-2331-3045"
+    },
+    {
+      "name": "Amarsanaa Ganbold",
+      "institution": "National University of Mongolia, Mongolia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660689295",
+      "orcid": "0000-0003-4335-6608"
+    },
+    {
+      "name": "Tsolmon Zundui",
+      "institution": "National University of Mongolia, Mongolia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660687518",
+      "orcid": "0000-0002-2797-517X"
+    },
+    {
+      "name": "Carlo Caprini",
+      "institution": "U-Hopper, Italy",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660691071",
+      "orcid": "0000-0001-6609-1572"
+    },
+    {
+      "name": "Daniele Miorandi",
+      "institution": "U-Hopper, Italy",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81327490328",
+      "orcid": "0000-0002-3089-977X"
+    },
+    {
+      "name": "Jos\u00e9 Luis Zarza",
+      "institution": "Universidad Cat\u00f3lica \u201cNuestra Se\u00f1ora de la Asunci\u00f3n\u201d, Paraguay",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660687999",
+      "orcid": "0000-0003-0069-4287"
+    },
+    {
+      "name": "Alethia Hume",
+      "institution": "Universidad Cat\u00f3lica \u201cNuestra Se\u00f1ora de la Asunci\u00f3n\u201d, Paraguay",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81488658149",
+      "orcid": "0000-0002-1874-1419"
+    },
+    {
+      "name": "Luca Cernuzzi",
+      "institution": "Universidad Cat\u00f3lica \u201dNuestra Se\u00f1ora de la Asunci\u00f3n\u201d, Paraguay",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100145084",
+      "orcid": "0000-0001-7803-1067"
+    },
+    {
+      "name": "Ivano Bison",
+      "institution": "University of Trento, Italy",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659840900",
+      "orcid": "0000-0002-9645-8627"
+    },
+    {
+      "name": "Marcelo Dario Rodas Britez",
+      "institution": "University of Trento, Italy",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660740773",
+      "orcid": "0000-0002-7607-7587"
+    },
+    {
+      "name": "Matteo Busso",
+      "institution": "University of Trento, Italy",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659842337",
+      "orcid": "0000-0002-3788-0203"
+    },
+    {
+      "name": "Ronald Chenu-Abente",
+      "institution": "University of Trento, Italy",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659003027",
+      "orcid": "0000-0002-1121-0287"
+    },
+    {
+      "name": "Fausto Giunchiglia",
+      "institution": "University of Trento, Italy",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100046986",
+      "orcid": "0000-0002-5903-6150"
+    },
+    {
+      "name": "Daniel Gatica-Perez",
+      "institution": "Idiap Research Institute, Switzerland and EPFL, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100273781",
+      "orcid": "0000-0001-5488-2182"
+    }
+  ],
+  "references": [
+    {
+      "text": "Daniel\u00a0A Adler, Fei Wang, David\u00a0C Mohr, and Tanzeem Choudhury. 2022. Machine learning for passive mental health symptom prediction: Generalization across different longitudinal mobile sensing studies. Plos one 17, 4 (2022), e0266516.",
+      "doi": ""
+    },
+    {
+      "text": "Dhoha\u00a0A Alsaleh, Michael\u00a0T Elliott, Frank\u00a0Q Fu, and Ramendra Thakur. 2019. Cross-cultural differences in the adoption of social media. Journal of Research in Interactive Marketing (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Tim Althoff, Rok Sosi\u010d, Jennifer\u00a0L Hicks, Abby\u00a0C King, Scott\u00a0L Delp, and Jure Leskovec. 2017. Large-scale physical activity data reveal worldwide activity inequality. Nature 547, 7663 (2017), 336\u2013339.",
+      "doi": ""
+    },
+    {
+      "text": "Carlos Avil\u00e9s-Cruz, Andr\u00e9s Ferreyra-Ram\u00edrez, Arturo Z\u00fa\u00f1iga-L\u00f3pez, and Juan Villegas-Cort\u00e9z. 2019. Coarse-Fine Convolutional Deep-Learning Strategy for Human Activity Recognition. Sensors 19, 7 (March 2019), 1556. https://doi.org/10.3390/s19071556",
+      "doi": ""
+    },
+    {
+      "text": "Sangwon Bae, Denzil Ferreira, Brian Suffoletto, Juan\u00a0C Puyana, Ryan Kurtz, Tammy Chung, and Anind\u00a0K Dey. 2017. Detecting drinking episodes in young adults using smartphone-based sensors. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 2 (2017), 1\u201336.",
+      "doi": "10.1145/3090051"
+    },
+    {
+      "text": "Sangwon Bae, Denzil Ferreira, Brian Suffoletto, Juan\u00a0C. Puyana, Ryan Kurtz, Tammy Chung, and Anind\u00a0K. Dey. 2017. Detecting Drinking Episodes in Young Adults Using Smartphone-based Sensors. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 2 (June 2017), 1\u201336. https://doi.org/10.1145/3090051",
+      "doi": "10.1145/3090051"
+    },
+    {
+      "text": "Ling Bao and Stephen\u00a0S. Intille. 2004. Activity Recognition from User-Annotated Acceleration Data. In Pervasive Computing, Alois Ferscha and Friedemann Mattern (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 1\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "Naomi\u00a0S. Baron and Ylva\u00a0H\u00e5rd af Segerstad. 2010. Cross-cultural patterns in mobile-phone use: public space and reachability in Sweden, the USA and Japan. New Media & Society 12, 1 (2010), 13\u201334. https://doi.org/10.1177/1461444809355111 arXiv:https://doi.org/10.1177/1461444809355111",
+      "doi": ""
+    },
+    {
+      "text": "Joan-Isaac Biel, Nathalie Martin, David Labbe, and Daniel Gatica-Perez. 2018. Bites\u2019n\u2019Bits: Inferring Eating Behavior from Contextual Mobile Data. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 4 (Jan. 2018), 1\u201333. https://doi.org/10.1145/3161161",
+      "doi": "10.1145/3161161"
+    },
+    {
+      "text": "Ulf Blanke and Bernt Schiele. 2009. Daily Routine Recognition through Activity Spotting. In Location and Context Awareness, Tanzeem Choudhury, Aaron Quigley, Thomas Strang, and Koji Suginuma (Eds.). Vol.\u00a05561. Springer Berlin Heidelberg, Berlin, Heidelberg, 192\u2013206. https://doi.org/10.1007/978-3-642-01721-6_12 Series Title: Lecture Notes in Computer Science.",
+      "doi": "10.1007/978-3-642-01721-6_12"
+    },
+    {
+      "text": "Henrik Blunck, Niels\u00a0Olof Bouvin, Tobias Franke, Kaj Gr\u00f8nb\u00e6k, Mikkel\u00a0B Kjaergaard, Paul Lukowicz, and Markus W\u00fcstenberg. 2013. On heterogeneity in mobile sensing applications aiming at representative data collection. In Proceedings of the 2013 ACM conference on Pervasive and ubiquitous computing adjunct publication. 1087\u20131098.",
+      "doi": "10.1145/2494091.2499576"
+    },
+    {
+      "text": "Emma Bouton-Bessac, Lakmal Meegahapola, and Daniel Gatica-Perez. 2022. Your Day in Your Pocket: Complex Activity Recognition from Smartphone Accelerometers. Proceedings of the 16th EAI International Conference on Pervasive Computing Technologies for Healthcare (PervasiveHealth) (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Leo Breiman (Ed.). 1998. Classification and regression trees(1. crc press repr ed.). Chapman & Hall/CRC, Boca Raton, Fla.",
+      "doi": ""
+    },
+    {
+      "text": "Leo Breiman. 2001. Random Forests. Machine Learning 45, 1 (2001), 5\u201332. https://doi.org/10.1023/A:1010933404324",
+      "doi": "10.1023/a%3A1010933404324"
+    },
+    {
+      "text": "Naomi Canton. 2012. Cell phone culture: How cultural differences affect mobile use. https://edition.cnn.com/2012/09/27/tech/mobile-culture-usage/index.html",
+      "doi": ""
+    },
+    {
+      "text": "Luca Canzian and Mirco Musolesi. 2015. Trajectories of depression: unobtrusive monitoring of depressive states by means of smartphone mobility traces analysis. In Proceedings of the 2015 ACM international joint conference on pervasive and ubiquitous computing. 1293\u20131304.",
+      "doi": "10.1145/2750858.2805845"
+    },
+    {
+      "text": "Pew\u00a0Research Center. 2021. Mobile Fact Sheet. https://www.pewresearch.org/internet/fact-sheet/mobile/",
+      "doi": ""
+    },
+    {
+      "text": "Pew\u00a0Research Centre. 2017. Adapt your app by understanding what users are doing. Retrieved December 12, 2022 from https://www.pewresearch.org/fact-tank/2017/09/13/about-6-in-10-young-adults-in-u-s-primarily-use-online-streaming-to-watch-tv/",
+      "doi": ""
+    },
+    {
+      "text": "Youngjae Chang, Akhil Mathur, Anton Isopoussu, Junehwa Song, and Fahim Kawsar. 2020. A systematic study of unsupervised domain adaptation for robust human-activity recognition. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 1 (2020), 1\u201330.",
+      "doi": "10.1145/3380985"
+    },
+    {
+      "text": "Yiqiang Chen, Xin Qin, Jindong Wang, Chaohui Yu, and Wen Gao. 2020. Fedhealth: A federated transfer learning framework for wearable healthcare. IEEE Intelligent Systems 35, 4 (2020), 83\u201393.",
+      "doi": ""
+    },
+    {
+      "text": "Matty Chiva. 1997. Cultural aspects of meals and meal frequency. British Journal of Nutrition 77, S1 (1997), S21\u2013S28.",
+      "doi": ""
+    },
+    {
+      "text": "Fran\u00e7ois Chollet 2015. Keras. https://keras.io.",
+      "doi": ""
+    },
+    {
+      "text": "Tanzeem Choudhury, Gaetano Borriello, Sunny Consolvo, Dirk Haehnel, Beverly Harrison, Bruce Hemingway, Jeffrey Hightower, Predrag\u00a0\"Pedja\" Klasnja, Karl Koscher, Anthony LaMarca, James\u00a0A. Landay, Louis LeGrand, Jonathan Lester, Ali Rahimi, Adam Rea, and Danny Wyatt. 2008. The Mobile Sensing Platform: An Embedded Activity Recognition System. IEEE Pervasive Computing 7, 2 (April 2008), 32\u201341. https://doi.org/10.1109/MPRV.2008.39",
+      "doi": "10.1109/MPRV.2008.39"
+    },
+    {
+      "text": "Daniel\u00a0G Cobian, Nicole\u00a0S Daehn, Paul\u00a0A Anderson, and Bryan\u00a0C Heiderscheit. 2013. Active cervical and lumbar range of motion during performance of activities of daily living in healthy young adults. Spine 38, 20 (2013), 1754\u20131763.",
+      "doi": ""
+    },
+    {
+      "text": "Lynn Coorevits and Tanguy Coenen. 2016. The rise and fall of wearable fitness trackers. Academy of Management Proceedings 2016, 1 (Jan. 2016), 17305. https://doi.org/10.5465/ambpp.2016.17305abstract",
+      "doi": ""
+    },
+    {
+      "text": "Victor\u00a0P Cornet and Richard\u00a0J Holden. 2018. Systematic review of smartphone-based passive sensing for health and wellbeing. Journal of biomedical informatics 77 (2018), 120\u2013132.",
+      "doi": ""
+    },
+    {
+      "text": "AI Cultures. 2022. Neurips 2022 workshop on AI Cultures. Retrieved February 12, 2023 from https://ai-cultures.github.io/",
+      "doi": ""
+    },
+    {
+      "text": "Anthony Cuthbertson. 2019. Self-driving cars are be more likely to drive into black people, study claims. https://www.independent.co.uk/life-style/gadgets-and-tech/news/self-driving-car-crash-racial-bias-black-people-study-a8810031.html",
+      "doi": ""
+    },
+    {
+      "text": "Vedant Das\u00a0Swain, Victor Chen, Shrija Mishra, Stephen\u00a0M Mattingly, Gregory\u00a0D Abowd, and Munmun De\u00a0Choudhury. 2022. Semantic Gap in Predicting Mental Wellbeing through Passive Sensing. In CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3491102.3502037"
+    },
+    {
+      "text": "Yves-Alexandre de Montjoye, Laura Radaelli, Vivek\u00a0Kumar Singh, and Alex\u00a0\u201cSandy\u201d Pentland. 2015. Unique in the shopping mall: On the reidentifiability of credit card metadata. Science 347, 6221 (2015), 536\u2013539. https://doi.org/10.1126/science.1256297 arXiv:https://www.science.org/doi/pdf/10.1126/science.1256297",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0B Del\u00a0Rosario, Kejia Wang, Jingjing Wang, Ying Liu, Matthew Brodie, Kim Delbaere, Nigel\u00a0H Lovell, Stephen\u00a0R Lord, and Stephen\u00a0J Redmond. 2014. A comparison of activity classification in younger and older cohorts using a smartphone. Physiological Measurement 35, 11 (Nov. 2014), 2269\u20132286. https://doi.org/10.1088/0967-3334/35/11/2269",
+      "doi": ""
+    },
+    {
+      "text": "Chengbin Deng, Weiying Lin, Xinyue Ye, Zhenlong Li, Ziang Zhang, and Ganggang Xu. 2018. Social media data as a proxy for hourly fine-scale electric power consumption estimation. Environment and Planning A: Economy and Space 50, 8 (2018), 1553\u20131557.",
+      "doi": ""
+    },
+    {
+      "text": "Stefan Dernbach, Barnan Das, Narayanan\u00a0C. Krishnan, Brian\u00a0L. Thomas, and Diane\u00a0J. Cook. 2012. Simple and Complex Activity Recognition through Smart Phones. In 2012 Eighth International Conference on Intelligent Environments. IEEE, Guanajuato, Mexico, 214\u2013221. https://doi.org/10.1109/IE.2012.39",
+      "doi": "10.1109/IE.2012.39"
+    },
+    {
+      "text": "M\u00a0Brent Donnellan, Frederick\u00a0L Oswald, Brendan\u00a0M Baird, and Richard\u00a0E Lucas. 2006. The mini-IPIP scales: tiny-yet-effective measures of the Big Five factors of personality.Psychological assessment 18, 2 (2006), 192.",
+      "doi": ""
+    },
+    {
+      "text": "Nathan Eagle and Alex (Sandy)\u00a0Pentland. 2006. Reality mining: sensing complex social systems. Personal and Ubiquitous Computing 10, 4 (May 2006), 255\u2013268. https://doi.org/10.1007/s00779-005-0046-3",
+      "doi": "10.1007/s00779-005-0046-3"
+    },
+    {
+      "text": "Hady Elsahar and Matthias Gall\u00e9. 2019. To annotate or not? predicting performance drop under domain shift. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). 2163\u20132173.",
+      "doi": ""
+    },
+    {
+      "text": "Charlie\u00a0Giattino Esteban Ortiz-Ospina and Max Roser. 2020. Time Use. Our World in Data (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Jonny Farringdon, Andrewj Moore, Nancy Tilbury, James Church, and Pieter\u00a0D. Biemond. 1999. Wearable Sensor Badge & Sensor Jacket for Context Awareness.",
+      "doi": ""
+    },
+    {
+      "text": "Kimberly Fisher and John Robinson. 2010. Daily routines in 22 countries diary evidence of average daily time spent in thirty activities. Technical Report. University of Oxford, Centre for Time Use Research.https://www.timeuse.org/sites/default/files/public/ctur_technical_paper/869/CTUR_Technical_Paper_2010-01.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Fausto Giunchiglia, Enrico Bignotti, and Mattia Zeni. 2017. Personal context modelling and annotation. In 2017 IEEE international conference on pervasive computing and communications workshops (PerCom workshops). IEEE, 117\u2013122.",
+      "doi": ""
+    },
+    {
+      "text": "Fausto Giunchiglia, Ivano Bison, Matteo Busso, Ronald Chenu-Abente, Marcelo Rodas, Mattia Zeni, Can Gunel, Giuseppe Veltri, Amalia\u00a0De G\u00f6tzen, Peter Kun, Amarsanaa Ganbold, Altangerel Chagnaa, George Gaskell, Sally Stares, Miriam Bidoglia, Luca Cernuzzi, Alethia Hume, Jose\u00a0Luis Zarza, Hao Xu, Donglei Song, Shyam Diwakar, Chaitanya Nutakki, Salvador\u00a0Ruiz Correa, Andrea-Rebeca Mendoza, Lakmal Meegahapola, and Daniel Gatica-Perez. 2022. A worldwide diversity pilot on daily routines and social practices (2020-2021). University of Trento Technical Report - DataScientia dataset descriptors. https://iris.unitn.it/handle/11572/338382.",
+      "doi": ""
+    },
+    {
+      "text": "Taesik Gong, Yewon Kim, Adiba Orzikulova, Yunxin Liu, Sung\u00a0Ju Hwang, Jinwoo Shin, and Sung-Ju Lee. 2021. DAPPER: Performance Estimation of Domain Adaptation in Mobile Sensing. arXiv preprint arXiv:2111.11053(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Zhiqiang Gong, Ping Zhong, and Weidong Hu. 2019. Diversity in Machine Learning. IEEE Access 7(2019), 64323\u201364350. https://doi.org/10.1109/ACCESS.2019.2917620",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2022. Adapt your app by understanding what users are doing. Retrieved February 12, 2022 from https://developers.google.com/location-context/activity-recognition",
+      "doi": ""
+    },
+    {
+      "text": "Valdiney\u00a0V Gouveia, Taciano\u00a0L Milfont, and Valeschka\u00a0M Guerra. 2014. Functional theory of human values: Testing its content and structure hypotheses. Personality and individual differences 60 (2014), 41\u201347.",
+      "doi": ""
+    },
+    {
+      "text": "Trevor Hastie, Saharon Rosset, Ji Zhu, and Hui Zou. 2009. Multi-class AdaBoost. Statistics and Its Interface 2, 3 (2009), 349\u2013360. https://doi.org/10.4310/SII.2009.v2.n3.a8",
+      "doi": ""
+    },
+    {
+      "text": "Jia He and Fons van\u00a0de Vijver. 2012. Bias and equivalence in cross-cultural research. Online readings in psychology and culture 2, 2 (2012), 2307\u20130919.",
+      "doi": ""
+    },
+    {
+      "text": "Ida\u00a0Marie Henriksen, Marianne Skaar, and Aksel Tjora. 2020. The Constitutive Practices of Public Smartphone Use. Societies 10, 4 (2020). https://doi.org/10.3390/soc10040078",
+      "doi": ""
+    },
+    {
+      "text": "Seyed\u00a0Amir Hoseini-Tabatabaei, Alexander Gluhak, and Rahim Tafazolli. 2013. A survey on smartphone-based systems for opportunistic user context recognition. ACM Computing Surveys (CSUR) 45, 3 (2013), 1\u201351.",
+      "doi": "10.1145/2480741.2480744"
+    },
+    {
+      "text": "T\u00e2m Huynh, Mario Fritz, and Bernt Schiele. 2008. Discovery of activity patterns using topic models. In Proceedings of the 10th international conference on Ubiquitous computing - UbiComp \u201908. ACM Press, Seoul, Korea, 10. https://doi.org/10.1145/1409635.1409638",
+      "doi": "10.1145/1409635.1409638"
+    },
+    {
+      "text": "Kimmo Karkkainen and Jungseock Joo. 2021. Fairface: Face attribute dataset for balanced race, gender, and age for bias measurement and mitigation. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 1548\u20131558.",
+      "doi": ""
+    },
+    {
+      "text": "Mohammed Khwaja, Sumer\u00a0S. Vaid, Sara Zannone, Gabriella\u00a0M. Harari, A.\u00a0Aldo Faisal, and Aleksandar Matic. 2019. Modeling Personality vs. Modeling Personalidad: In-the-wild Mobile Data Analysis in Five Countries Suggests Cultural Impact on Personality Models. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 3 (Sept. 2019), 1\u201324. https://doi.org/10.1145/3351246",
+      "doi": "10.1145/3351246"
+    },
+    {
+      "text": "Hae-Young Kim. 2014. Analysis of variance (ANOVA) comparing means of more than two groups. Restorative dentistry & endodontics 39, 1 (2014), 74\u201377.",
+      "doi": ""
+    },
+    {
+      "text": "Gierad Laput and Chris Harrison. 2019. Sensing Fine-Grained Hand Activity with Smartwatches. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, Glasgow Scotland Uk, 1\u201313. https://doi.org/10.1145/3290605.3300568",
+      "doi": "10.1145/3290605.3300568"
+    },
+    {
+      "text": "Gierad Laput and Chris Harrison. 2019. Sensing fine-grained hand activity with smartwatches. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300568"
+    },
+    {
+      "text": "Tong Li, Mingyang Zhang, Yong Li, Eemil Lagerspetz, Sasu Tarkoma, and Pan Hui. 2021. The Impact of Covid-19 on Smartphone Usage. IEEE Internet of Things Journal 8, 23 (Dec. 2021), 16723\u201316733. https://doi.org/10.1109/JIOT.2021.3073864",
+      "doi": ""
+    },
+    {
+      "text": "Robert LiKamWa, Yunxin Liu, Nicholas\u00a0D. Lane, and Lin Zhong. 2013. MoodScope: building a mood sensor from smartphone usage patterns. In Proceeding of the 11th annual international conference on Mobile systems, applications, and services - MobiSys \u201913. ACM Press, Taipei, Taiwan, 389. https://doi.org/10.1145/2462456.2464449",
+      "doi": "10.1145/2462456.2464449"
+    },
+    {
+      "text": "Soo\u00a0Ling Lim, Peter\u00a0J Bentley, Natalie Kanakam, Fuyuki Ishikawa, and Shinichi Honiden. 2014. Investigating country differences in mobile app user behavior and challenges for software engineering. IEEE Transactions on Software Engineering 41, 1 (2014), 40\u201364.",
+      "doi": "10.1109/TSE.2014.2360674"
+    },
+    {
+      "text": "Rex Liu, Albara\u00a0Ah Ramli, Huanle Zhang, Erik Henricson, and Xin Liu. 2021. An Overview of Human Activity Recognition Using Wearable Sensors: Healthcare and Artificial Intelligence. arXiv:2103.15990 [cs, eess] (Aug. 2021). http://arxiv.org/abs/2103.15990 arXiv:2103.15990.",
+      "doi": ""
+    },
+    {
+      "text": "Tiffany Liu, Javier Hernandez, Mar Gonzalez-Franco, Antonella Maselli, Melanie Kneisel, Adam Glass, Jarnail Chudge, and Amos Miller. 2022. Characterizing and Predicting Engagement of Blind and Low-Vision People with an Audio-Based Navigation App. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 411, 7\u00a0pages. https://doi.org/10.1145/3491101.3519862",
+      "doi": "10.1145/3491101.3519862"
+    },
+    {
+      "text": "Olatz Lopez-Fernandez, Daria\u00a0J. Kuss, Lucia Romo, Yannick Morvan, Laurence Kern, Pierluigi Graziani, Am\u00e9lie Rousseau, Hans-J\u00fcrgen Rumpf, Anja Bischof, Ann-Kathrin G\u00e4ssler, Adriano Schimmenti, Alessia Passanisi, Niko M\u00e4nnikk\u00f6, Maria K\u00e4\u00e4ri\u00e4nen, Zsolt Demetrovics, Orsolya Kir\u00e1ly, Mariano Ch\u00f3liz, Juan\u00a0Jos\u00e9 Zacar\u00e9s, Emilia Serra, Mark\u00a0D. Griffiths, Halley\u00a0M. Pontes, Bernadeta Lelonek-Kuleta, Joanna Chwaszcz, Daniele Zullino, Lucien Rochat, Sophia Achab, and Jo\u00ebl Billieux. 2017. Self-reported dependence on mobile phones in young adults: A European cross-cultural empirical survey. Journal of Behavioral Addictions 6, 2 (2017), 168 \u2013 177. https://doi.org/10.1556/2006.6.2017.020",
+      "doi": ""
+    },
+    {
+      "text": "Amanda\u00a0D Lotz. 2021. In between the global and the local: Mapping the geographies of Netflix as a multinational service. International Journal of Cultural Studies 24, 2 (2021), 195\u2013215.",
+      "doi": ""
+    },
+    {
+      "text": "Yawei Luo, Liang Zheng, Tao Guan, Junqing Yu, and Yi Yang. 2019. Taking a closer look at domain shift: Category-level adversaries for semantics consistent domain adaptation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2507\u20132516.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Makonin, Lyn Bartram, and Fred Popowich. 2013. A Smarter Smart Home: Case Studies of Ambient Intelligence. IEEE Pervasive Computing 12, 1 (2013), 58\u201366. https://doi.org/10.1109/MPRV.2012.58",
+      "doi": ""
+    },
+    {
+      "text": "Akhil Mathur, Anton Isopoussu, Nadia Berthouze, Nicholas\u00a0D Lane, and Fahim Kawsar. 2019. Unsupervised domain adaptation for robust sensory systems. In Adjunct Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers. 505\u2013509.",
+      "doi": "10.1145/3341162.3345609"
+    },
+    {
+      "text": "Akhil Mathur, Lakshmi\u00a0Manasa Kalanadhabhatta, Rahul Majethia, and Fahim Kawsar. 2017. Moving Beyond Market Research: Demystifying Smartphone User Behavior in India. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 3 (Sept. 2017), 1\u201327. https://doi.org/10.1145/3130947",
+      "doi": "10.1145/3130947"
+    },
+    {
+      "text": "F\u00a0Joseph McClernon and Romit Roy\u00a0Choudhury. 2013. I am your smartphone, and I know you are about to smoke: the application of mobile sensing and computing approaches to smoking research and treatment. Nicotine & tobacco research 15, 10 (2013), 1651\u20131654.",
+      "doi": ""
+    },
+    {
+      "text": "Lakmal Meegahapola, Wageesha Bangamuarachchi, Anju Chamantha, Salvador Ruiz-Correa, Indika Perera, and Daniel Gatica-Perez. 2022. Sensing Eating Events in Context: A Smartphone-Only Approach. IEEE Access 10, ARTICLE (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Lakmal Meegahapola, William Droz, Peter Kun, Amalia de G\u00f6tzen, Chaitanya Nutakki, Shyam Diwakar, Salvador\u00a0Ruiz Correa, Donglei Song, Hao Xu, Miriam Bidoglia, George Gaskell, Altangerel Chagnaa, Amarsanaa Ganbold, Tsolmon Zundui, Carlo Caprini, Daniele Miorandi, Alethia Hume, Jose\u00a0Luis Zarza, Luca Cernuzzi, Ivano Bison, Marcelo\u00a0Rodas Britez, Matteo Busso, Ronald Chenu-Abente, Can G\u00fcnel, Fausto Giunchiglia, Laura Schelenz, and Daniel Gatica-Perez. 2023. Generalization and Personalization of Mobile Sensing-Based Mood Inference Models: An Analysis of College Students in Eight Countries. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 6, 4, Article 176 (jan 2023), 32\u00a0pages.",
+      "doi": "10.1145/3569483"
+    },
+    {
+      "text": "Lakmal Meegahapola and Daniel Gatica-Perez. 2020. Smartphone Sensing for the Well-Being of Young Adults: A Review. IEEE Access 9(2020), 3374\u20133399.",
+      "doi": ""
+    },
+    {
+      "text": "Lakmal Meegahapola, Florian Labhart, Thanh-Trung Phan, and Daniel Gatica-Perez. 2021. Examining the Social Context of Alcohol Drinking in Young Adults with Smartphone Sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 5, 3 (Sept. 2021), 1\u201326. https://doi.org/10.1145/3478126",
+      "doi": "10.1145/3478126"
+    },
+    {
+      "text": "Lakmal Meegahapola, Salvador Ruiz-Correa, and Daniel Gatica-Perez. 2020. Alone or With Others? Understanding Eating Episodes of College Students with Mobile Sensing. In 19th International Conference on Mobile and Ubiquitous Multimedia. ACM, Essen Germany, 162\u2013166. https://doi.org/10.1145/3428361.3428463",
+      "doi": "10.1145/3428361.3428463"
+    },
+    {
+      "text": "Lakmal Meegahapola, Salvador Ruiz-Correa, and Daniel Gatica-Perez. 2020. Protecting Mobile Food Diaries from Getting too Personal. In 19th International Conference on Mobile and Ubiquitous Multimedia. ACM, Essen Germany, 212\u2013222. https://doi.org/10.1145/3428361.3428468",
+      "doi": "10.1145/3428361.3428468"
+    },
+    {
+      "text": "Lakmal Meegahapola, Salvador Ruiz-Correa, Viridiana del\u00a0Carmen Robledo-Valero, Emilio\u00a0Ernesto Hernandez-Huerfano, Leonardo Alvarez-Rivera, Ronald Chenu-Abente, and Daniel Gatica-Perez. 2021. One More Bite? Inferring Food Consumption Level of College Students Using Smartphone Sensing and Self-Reports. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 5, 1 (March 2021), 1\u201328. https://doi.org/10.1145/3448120",
+      "doi": "10.1145/3448120"
+    },
+    {
+      "text": "Abhinav Mehrotra and Mirco Musolesi. 2017. Intelligent notification systems: A survey of the state of the art and research challenges. arXiv preprint arXiv:1711.10171(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Kathryn Mercer, Lora Giangregorio, Eric Schneider, Parmit Chilana, Melissa Li, and Kelly Grindrod. 2016. Acceptance of Commercially Available Wearable Activity Trackers Among Adults Aged Over 50 and With Chronic Illness: A Mixed-Methods Evaluation. JMIR mHealth and uHealth 4, 1 (Jan. 2016), e7. https://doi.org/10.2196/mhealth.4225",
+      "doi": ""
+    },
+    {
+      "text": "Mike\u00a0A Merrill and Tim Althoff. 2022. Self-supervised Pretraining and Transfer Learning Enable Flu and COVID-19 Predictions in Small Mobile Sensing Datasets. arXiv preprint arXiv:2205.13607(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Miller, Laila\u00a0Abed Rabho, Patrick Awondo, Maya de Vries, Mar\u00edlia Duque, Pauline Garvey, Laura Haapio-Kirk, Charlotte Hawkins, Alfonso Otaegui, Shireen Walton, and Xinyuan Wang. 2021. The Global Smartphone: Beyond a youth technology. UCL Press. http://www.jstor.org/stable/j.ctv1b0fvh1",
+      "doi": ""
+    },
+    {
+      "text": "Chan Naseeb and Bilal\u00a0Al Saeedi. 2020. Activity recognition for locomotion and transportation dataset using deep learning. In Adjunct Proceedings of the 2020 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2020 ACM International Symposium on Wearable Computers. ACM, Virtual Event Mexico, 329\u2013334. https://doi.org/10.1145/3410530.3414348",
+      "doi": "10.1145/3410530.3414348"
+    },
+    {
+      "text": "Tobias Nef, Prabitha Urwyler, Marcel B\u00fcchler, Ioannis Tarnanas, Reto Stucki, Dario Cazzoli, Ren\u00e9 M\u00fcri, and Urs Mosimann. 2015. Evaluation of Three State-of-the-Art Classifiers for Recognition of Activities of Daily Living from Smart Home Ambient Data. Sensors 15, 5 (May 2015), 11725\u201311740. https://doi.org/10.3390/s150511725",
+      "doi": ""
+    },
+    {
+      "text": "Justin\u00a0J. Nelson and Christopher\u00a0M. Pieper. 2022. \u201cMaladies of Infinite Aspiration\u201d: Smartphones, Meaning-Seeking, and Anomigenesis. Sociological Perspectives (Aug 2022), 073112142211142. https://doi.org/10.1177/07311214221114296",
+      "doi": ""
+    },
+    {
+      "text": "Subigya Nepal, Shayan Mirjafari, Gonzalo\u00a0J Martinez, Pino Audia, Aaron Striegel, and Andrew\u00a0T Campbell. 2020. Detecting job promotion in information workers using mobile sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 3 (2020), 1\u201328. https://doi.org/10.1145/3414118",
+      "doi": "10.1145/3414118"
+    },
+    {
+      "text": "Johnny Nhan, Kendra Bowen, and Aaron Bartula. 2020. A comparison of a public and private university of the effects of low-cost streaming services and income on movie piracy. Technology in Society 60(2020), 101213.",
+      "doi": ""
+    },
+    {
+      "text": "Mikio Obuchi, Jeremy\u00a0F Huckins, Weichen Wang, Alex daSilva, Courtney Rogers, Eilis Murphy, Elin Hedlund, Paul Holtzheimer, Shayan Mirjafari, and Andrew Campbell. 2020. Predicting brain functional connectivity using mobile sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 1 (2020), 1\u201322. https://doi.org/10.1145/3381001",
+      "doi": "10.1145/3381001"
+    },
+    {
+      "text": "Hyungik Oh, Laleh Jalali, and Ramesh Jain. 2015. An intelligent notification system using context from real-time personal activity monitoring. In 2015 IEEE International Conference on Multimedia and Expo (ICME). IEEE, 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Jay\u00a0A. Olson, Dasha\u00a0A. Sandra, \u00c9lissa S.\u00a0Colucci, Alain Al Bikaii, Denis Chmoulevitch, Johnny Nahas, Amir Raz, and Samuel\u00a0P.L. Veissi\u00e8re. 2022. Smartphone addiction is increasing across the world: A meta-analysis of 24 countries. Computers in Human Behavior 129 (2022), 107138. https://doi.org/10.1016/j.chb.2021.107138",
+      "doi": "10.1016/j.chb.2021.107138"
+    },
+    {
+      "text": "S. Park, C. Gopalsamy, R. Rajamanickam, and S. Jayaraman. 1999. The Wearable Motherboard: a flexible information infrastructure or sensate liner for medical applications. Studies in Health Technology and Informatics 62 (1999), 252\u2013258.",
+      "doi": ""
+    },
+    {
+      "text": "F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay. 2011. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research 12 (2011), 2825\u20132830.",
+      "doi": "10.5555/1953048.2078195"
+    },
+    {
+      "text": "Le\u00a0Vy Phan, Nick Modersitzki, Kim\u00a0Karen Gloystein, and Sandrine M\u00fcller. 2022. Mobile Sensing Around the Globe: Considerations for Cross-Cultural Research. preprint. PsyArXiv. https://doi.org/10.31234/osf.io/q8c7y",
+      "doi": ""
+    },
+    {
+      "text": "Thanh-Trung Phan, Florian Labhart, Skanda Muralidhar, and Daniel Gatica-Perez. 2020. Understanding Heavy Drinking at Night through Smartphone Sensing and Active Human Engagement. In Proceedings of the 14th EAI International Conference on Pervasive Computing Technologies for Healthcare. 211\u2013222.",
+      "doi": "10.1145/3421937.3421992"
+    },
+    {
+      "text": "Vinodkumar Prabhakaran, Rida Qadri, and Ben Hutchinson. 2022. Cultural Incongruencies in Artificial Intelligence. arXiv preprint arXiv:2211.13069(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Angshu Rai, Zhixian Yan, Dipanjan Chakraborty, Tri\u00a0Kurniawan Wijaya, and Karl Aberer. 2012. Mining complex activities in the wild via a single smartphone accelerometer. In Proceedings of the sixth international workshop on knowledge discovery from sensor data. 43\u201351.",
+      "doi": "10.1145/2350182.2350187"
+    },
+    {
+      "text": "Inioluwa\u00a0Deborah Raji and Joy Buolamwini. 2019. Actionable Auditing: Investigating the Impact of Publicly Naming Biased Performance Results of Commercial AI Products. In Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society. ACM, Honolulu HI USA, 429\u2013435. https://doi.org/10.1145/3306618.3314244",
+      "doi": "10.1145/3306618.3314244"
+    },
+    {
+      "text": "Haroon Rashid, Sanjana Mendu, Katharine\u00a0E Daniel, Miranda\u00a0L Beltzer, Bethany\u00a0A Teachman, Mehdi Boukhechba, and Laura\u00a0E Barnes. 2020. Predicting subjective measures of social anxiety from sparsely collected mobile sensor data. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 3 (2020), 1\u201324.",
+      "doi": "10.1145/3411823"
+    },
+    {
+      "text": "Zubair\u00a0Ahmed Ratan, Sojib\u00a0Bin Zaman, Sheikh Mohammed\u00a0Shariful Islam, and Hassan Hosseinzadeh. 2021. Smartphone overuse: A hidden crisis in COVID-19. Health Policy and Technology 10, 1 (March 2021), 21\u201322. https://doi.org/10.1016/j.hlpt.2021.01.002",
+      "doi": ""
+    },
+    {
+      "text": "Ashwini\u00a0S Rathod, Abhishek Ingole, Abhay Gaidhane, and Sonali\u00a0G Choudhari. 2022. Psychological Morbidities Associated With Excessive Usage of Smartphones Among Adolescents and Young Adults: A Review. Cureus (Oct 2022). https://doi.org/10.7759/cureus.30756",
+      "doi": ""
+    },
+    {
+      "text": "Simon Rump. 2011. What kind of thief are you? Linking perceptions, personality traits and music taste to illegal downloading-how preferences, traits and notions affect online crime. B.S. thesis. University of Twente.",
+      "doi": ""
+    },
+    {
+      "text": "Heba Saadeh, Reem\u00a0Q. Al\u00a0Fayez, Assem Al\u00a0Refaei, Nour Shewaikani, Hamzah Khawaldah, Sobuh Abu-Shanab, and Maysa Al-Hussaini. 2021. Smartphone Use Among University Students During COVID-19 Quarantine: An Ethical Trigger. Frontiers in Public Health 9 (July 2021), 600134. https://doi.org/10.3389/fpubh.2021.600134",
+      "doi": ""
+    },
+    {
+      "text": "Saguna Saguna, Arkady Zaslavsky, and Dipanjan Chakraborty. 2013. Complex activity recognition using context-driven activity theory and activity signatures. ACM Transactions on Computer-Human Interaction (TOCHI) 20, 6(2013), 1\u201334.",
+      "doi": "10.1145/2490832"
+    },
+    {
+      "text": "Darshan Santani, Trinh-Minh-Tri Do, Florian Labhart, Sara Landolt, Emmanuel Kuntsche, and Daniel Gatica-Perez. 2018. DrinkSense: Characterizing Youth Drinking Behavior Using Smartphones. IEEE Transactions on Mobile Computing 17, 10 (Oct. 2018), 2279\u20132292. https://doi.org/10.1109/TMC.2018.2797901",
+      "doi": ""
+    },
+    {
+      "text": "Jeffer\u00a0Eidi Sasaki, Amanda\u00a0M. Hickey, John\u00a0W. Staudenmayer, Dinesh John, Jane\u00a0A. Kent, and Patty\u00a0S. Freedson. 2016. Performance of Activity Classification Algorithms in Free-Living Older Adults. Medicine & Science in Sports & Exercise 48, 5 (May 2016), 941\u2013950. https://doi.org/10.1249/MSS.0000000000000844",
+      "doi": ""
+    },
+    {
+      "text": "Laura Schelenz, Ivano Bison, Matteo Busso, Amalia de G\u00f6tzen, Daniel Gatica-Perez, Fausto Giunchiglia, Lakmal Meegahapola, and Salvador Ruiz-Correa. 2021. The Theory, Practice, and Ethical Challenges of Designing a Diversity-Aware Platform for Social Relations. In Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society (Virtual Event, USA) (AIES \u201921). Association for Computing Machinery, New York, NY, USA, 905\u2013915. https://doi.org/10.1145/3461702.3462595",
+      "doi": "10.1145/3461702.3462595"
+    },
+    {
+      "text": "Laura Schelenz, Ivano Bison, Matteo Busso, Amalia de G\u00f6tzen, Daniel Gatica-Perez, Fausto Giunchiglia, Lakmal Meegahapola, and Salvador Ruiz-Correa. 2021. The Theory, Practice, and Ethical Challenges of Designing a Diversity-Aware Platform for Social Relations. In Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society. ACM, Virtual Event USA, 905\u2013915. https://doi.org/10.1145/3461702.3462595",
+      "doi": "10.1145/3461702.3462595"
+    },
+    {
+      "text": "Shalom\u00a0H Schwartz. 1994. Are there universal aspects in the structure and contents of human values?Journal of social issues 50, 4 (1994), 19\u201345.",
+      "doi": ""
+    },
+    {
+      "text": "Shalom\u00a0H Schwartz, Gila Melech, Arielle Lehmann, Steven Burgess, Mari Harris, and Vicki Owens. 2001. Extending the cross-cultural validity of the theory of basic human values with a different method of measurement. Journal of cross-cultural psychology 32, 5 (2001), 519\u2013542.",
+      "doi": ""
+    },
+    {
+      "text": "Scikit-Learn. 2022. Scikit-Learn Metrics - AUROC. Retrieved February 14, 2022 from https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html",
+      "doi": ""
+    },
+    {
+      "text": "Scikit-Learn. 2022. Scikit-Learn Metrics - F1-Score. Retrieved February 14, 2022 from https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html",
+      "doi": ""
+    },
+    {
+      "text": "Sandra Servia-Rodr\u00edguez, Kiran\u00a0K. Rachuri, Cecilia Mascolo, Peter\u00a0J. Rentfrow, Neal Lathia, and Gillian\u00a0M. Sandstrom. 2017. Mobile Sensing at the Service of Mental Well-being: a Large-scale Longitudinal Study. In Proceedings of the 26th International Conference on World Wide Web. International World Wide Web Conferences Steering Committee, Perth Australia, 103\u2013112. https://doi.org/10.1145/3038912.3052618",
+      "doi": "10.1145/3038912.3052618"
+    },
+    {
+      "text": "Craig\u00a0JR Sewall, Todd\u00a0M Bear, John Merranko, and Daniel Rosen. 2020. How psychosocial well-being and usage amount predict inaccuracies in retrospective estimates of digital technology use. Mobile Media & Communication 8, 3 (2020), 379\u2013399.",
+      "doi": ""
+    },
+    {
+      "text": "Pekka Siirtola, Perttu Laurinen, Juha Roning, and Hannu Kinnunen. 2011. Efficient accelerometer-based swimming exercise tracking. In 2011 IEEE Symposium on Computational Intelligence and Data Mining (CIDM). IEEE, Paris, France, 156\u2013161. https://doi.org/10.1109/CIDM.2011.5949430",
+      "doi": ""
+    },
+    {
+      "text": "Dale Southerton, Cecilla D\u00edaz-M\u00e9ndez, Alan Warde, 2012. Behavioural change and the temporal ordering of eating practices: A UK\u2013Spain comparison. The International Journal of Sociology of Agriculture and Food 19, 1(2012), 19\u201336.",
+      "doi": ""
+    },
+    {
+      "text": "Stephanie Stockwell, Mike Trott, Mark Tully, Jae Shin, Yvonne Barnett, Laurie Butler, Daragh McDermott, Felipe Schuch, and Lee Smith. 2021. Changes in physical activity and sedentary behaviours from before to during the COVID-19 pandemic lockdown: a systematic review. BMJ Open Sport & Exercise Medicine 7, 1 (Jan. 2021), e000960. https://doi.org/10.1136/bmjsem-2020-000960",
+      "doi": ""
+    },
+    {
+      "text": "Marcin Straczkiewicz, Peter James, and Jukka-Pekka Onnela. 2021. A systematic review of smartphone-based human activity recognition methods for health research. npj Digital Medicine 4, 1 (Dec. 2021), 148. https://doi.org/10.1038/s41746-021-00514-4",
+      "doi": ""
+    },
+    {
+      "text": "Marcin Straczkiewicz, Peter James, and Jukka-Pekka Onnela. 2021. A systematic review of smartphone-based human activity recognition methods for health research. NPJ Digital Medicine 4, 1 (2021), 1\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Sining Sun, Binbin Zhang, Lei Xie, and Yanning Zhang. 2017. An unsupervised deep domain adaptation approach for robust speech recognition. Neurocomputing 257(2017), 79\u201387.",
+      "doi": ""
+    },
+    {
+      "text": "Kirsi Tirri and Petri Nokelainen. 2008. Identification of multiple intelligences with the Multiple Intelligence Profiling Questionnaire III. Psychology Science 50, 2 (2008), 206.",
+      "doi": ""
+    },
+    {
+      "text": "Taylor Tobin. 2018. What time people typically eat dinner in 12 different places around the world. https://www.insider.com/dinner-times-around-the-world-2018-11",
+      "doi": ""
+    },
+    {
+      "text": "Fons Van\u00a0de Vijver and Norbert\u00a0K Tanzer. 2004. Bias and equivalence in cross-cultural assessment: An overview. European Review of Applied Psychology 54, 2 (2004), 119\u2013135.",
+      "doi": ""
+    },
+    {
+      "text": "Alexander\u00a0J.A.M. van Deursen, Colin\u00a0L. Bolle, Sabrina\u00a0M. Hegner, and Piet\u00a0A.M. Kommers. 2015. Modeling habitual and addictive smartphone behavior: The role of smartphone usage types, emotional intelligence, social stress, self-regulation, age, and gender. Computers in Human Behavior 45 (2015), 411\u2013420. https://doi.org/10.1016/j.chb.2014.12.039",
+      "doi": "10.1016/j.chb.2014.12.039"
+    },
+    {
+      "text": "Vincent\u00a0T. van Hees, Rajna Golubic, Ulf Ekelund, and S\u00f8ren Brage. 2013. Impact of study design on development and evaluation of an activity-type classifier. Journal of Applied Physiology 114, 8 (April 2013), 1042\u20131051. https://doi.org/10.1152/japplphysiol.00984.2012",
+      "doi": ""
+    },
+    {
+      "text": "Rui Wang, Weichen Wang, Min\u00a0SH Aung, Dror Ben-Zeev, Rachel Brian, Andrew\u00a0T Campbell, Tanzeem Choudhury, Marta Hauser, John Kane, Emily\u00a0A Scherer, 2017. Predicting symptom trajectories of schizophrenia using mobile sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 3 (2017), 1\u201324. https://doi.org/10.1145/3130976",
+      "doi": "10.1145/3130976"
+    },
+    {
+      "text": "Rui Wang, Weichen Wang, Mikio Obuchi, Emily Scherer, Rachel Brian, Dror Ben-Zeev, Tanzeem Choudhury, John Kane, Martar Hauser, Megan Walsh, 2020. On predicting relapse in schizophrenia using mobile sensing in a randomized control trial. In 2020 IEEE International Conference on Pervasive Computing and Communications (PerCom). IEEE, 1\u20138. https://doi.org/10.1109/PerCom45495.2020.9127365",
+      "doi": ""
+    },
+    {
+      "text": "Sun-Chong Wang. 2003. Artificial neural network. In Interdisciplinary computing in java programming. Springer, 81\u2013100.",
+      "doi": ""
+    },
+    {
+      "text": "Weichen Wang, Subigya Nepal, Jeremy\u00a0F Huckins, Lessley Hernandez, Vlado Vojdanovski, Dante Mack, Jane Plomp, Arvind Pillai, Mikio Obuchi, Alex daSilva, 2022. First-Gen Lens: Assessing Mental Health of First-Generation Students across Their First Year at College Using Mobile Sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 6, 2 (2022), 1\u201332. https://doi.org/10.1145/3543194",
+      "doi": "10.1145/3555144"
+    },
+    {
+      "text": "Xinxi Wang, David Rosenblum, and Ye Wang. 2012. Context-Aware Mobile Music Recommendation for Daily Activities. In Proceedings of the 20th ACM International Conference on Multimedia (Nara, Japan) (MM \u201912). Association for Computing Machinery, New York, NY, USA, 99\u2013108. https://doi.org/10.1145/2393347.2393368",
+      "doi": "10.1145/2393347.2393368"
+    },
+    {
+      "text": "Joshua\u00a0M Wiener, Raymond\u00a0J Hanley, Robert Clark, and Joan\u00a0F Van\u00a0Nostrand. 1990. Measuring the activities of daily living: Comparisons across national surveys. Journal of gerontology 45, 6 (1990), S229\u2013S237.",
+      "doi": ""
+    },
+    {
+      "text": "Garrett Wilson, Janardhan\u00a0Rao Doppa, and Diane\u00a0J Cook. 2022. Domain Adaptation Under Behavioral and Temporal Shifts for Natural Time Series Mobile Activity Recognition. arXiv preprint arXiv:2207.04367(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Xuhai Xu, Xin Liu, Han Zhang, Weichen Wang, Subigya Nepal, Yasaman Sefidgar, Woosuk Seo, Kevin\u00a0S Kuehn, Jeremy\u00a0F Huckins, Margaret\u00a0E Morris, 2023. GLOBEM: Cross-Dataset Generalization of Longitudinal Human Behavior Modeling. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 6, 4 (2023), 1\u201334.",
+      "doi": "10.1145/3569485"
+    },
+    {
+      "text": "Xuhai Xu, Jennifer Mankoff, and Anind\u00a0K Dey. 2021. Understanding practices and needs of researchers in human state modeling by passive mobile sensing. CCF Transactions on Pervasive Computing and Interaction 3, 4(2021), 344\u2013366.",
+      "doi": ""
+    },
+    {
+      "text": "Rong Yang and Baowei Wang. 2016. PACP: A Position-Independent Activity Recognition Method Using Smartphone Sensors. Information 7, 4 (Dec. 2016), 72. https://doi.org/10.3390/info7040072",
+      "doi": ""
+    },
+    {
+      "text": "Nira Yuval-Davis. 2004. Gender and nation. Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Jingwen Zhang, Dingwen Li, Ruixuan Dai, Heidy Cos, Gregory\u00a0A Williams, Lacey Raper, Chet\u00a0W Hammill, and Chenyang Lu. 2022. Predicting Post-Operative Complications with Wearables: A Case Study with Patients Undergoing Pancreatic Surgery. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 6, 2 (2022), 1\u201327.",
+      "doi": "10.1145/3555111"
+    },
+    {
+      "text": "Shichao Zhang. 2012. Nearest neighbor selection for iteratively kNN imputation. Journal of Systems and Software 85, 11 (2012), 2541\u20132552.",
+      "doi": "10.1016/j.jss.2012.05.073"
+    },
+    {
+      "text": "Wanyi Zhang, Qiang Shen, Stefano Teso, Bruno Lepri, Andrea Passerini, Ivano Bison, and Fausto Giunchiglia. 2021. Putting human behavior predictability in context. EPJ Data Science 10, 1 (2021), 42.",
+      "doi": ""
+    },
+    {
+      "text": "Chen Zheng, Wendy\u00a0Yajun Huang, Sinead Sheridan, Cindy Hui-Ping Sit, Xiang-Ke Chen, and Stephen Heung-Sang Wong. 2020. COVID-19 Pandemic Brings a Sedentary Lifestyle in Young Adults: A Cross-Sectional and Longitudinal Study. International Journal of Environmental Research and Public Health 17, 17 (Aug. 2020), 6035. https://doi.org/10.3390/ijerph17176035",
+      "doi": ""
+    },
+    {
+      "text": "Yuchao Zhou, Suparna De, Wei Wang, Ruili Wang, and Klaus Moessner. 2018. Missing data estimation in mobile sensing environments. IEEE Access 6(2018), 69869\u201369882.",
+      "doi": ""
+    },
+    {
+      "text": "Ran Zhu, Zhuoling Xiao, Ying Li, Mingkun Yang, Yawen Tan, Liang Zhou, Shuisheng Lin, and Hongkai Wen. 2019. Efficient Human Activity Recognition Solving the Confusing Activities Via Deep Ensemble Learning. IEEE Access 7(2019), 75490\u201375499. https://doi.org/10.1109/ACCESS.2019.2922104",
+      "doi": ""
+    },
+    {
+      "text": "Zhendong Zhuang and Yang Xue. 2019. Sport-Related Human Activity Detection and Recognition Using a Smartwatch. Sensors 19, 22 (Nov. 2019), 5001. https://doi.org/10.3390/s19225001",
+      "doi": ""
+    }
+  ]
+}

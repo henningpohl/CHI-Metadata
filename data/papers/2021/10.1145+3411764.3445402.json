@@ -1,0 +1,599 @@
+{
+  "doi": "10.1145/3411764.3445402",
+  "title": "Designing Ground Truth and the Social Life of Labels",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Ground-truth labeling is an important activity in machine learning. Many studies have examined how crowdworkers apply labels to records in machine learning datasets. However, there have been few studies that have examined the work of domain experts when their knowledge and expertise are needed to apply labels.  We provide a grounded account of the work of labeling teams with domain experts, including the experiences of labeling, collaborative configurations and work-practices, and quality issues. We show three major patterns in the social design of ground truth data: Principled design, Iterative design, and Improvisational design. We interpret our results through theories of from Human Centered Data Science, and particularly work on human interventions in data science work through the design and creation of data.",
+  "authors": [
+    {
+      "name": "Michael Muller",
+      "institution": "AI Interactions IBM Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81332517372",
+      "orcid": "0000-0001-7860-163X"
+    },
+    {
+      "name": "Christine T. Wolf",
+      "institution": "Independent Consultant, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658692049",
+      "orcid": "missing"
+    },
+    {
+      "name": "Josh Andres",
+      "institution": "IBM Research Australia, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658744130",
+      "orcid": "missing"
+    },
+    {
+      "name": "Michael Desmond",
+      "institution": "IBM Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81330490079",
+      "orcid": "missing"
+    },
+    {
+      "name": "Narendra Nath Joshi",
+      "institution": "IBM Research IBM, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659349502",
+      "orcid": "missing"
+    },
+    {
+      "name": "Zahra Ashktorab",
+      "institution": "Thomas J. Watson Center IBM Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81556182356",
+      "orcid": "0000-0002-0686-7911"
+    },
+    {
+      "name": "Aabhas Sharma",
+      "institution": "IBM Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659694209",
+      "orcid": "missing"
+    },
+    {
+      "name": "Kristina Brimijoin",
+      "institution": "IBM Research Mrs., United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659693673",
+      "orcid": "missing"
+    },
+    {
+      "name": "Qian Pan",
+      "institution": "IBM Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659529194",
+      "orcid": "missing"
+    },
+    {
+      "name": "Evelyn Duesterwald",
+      "institution": "IBM Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100028046",
+      "orcid": "missing"
+    },
+    {
+      "name": "Casey Dugan",
+      "institution": "IBM Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81340488769",
+      "orcid": "0000-0002-1508-2091"
+    }
+  ],
+  "references": [
+    {
+      "text": "Jos\u00e9\u00a0Manuel \u00c1lvarez and Antonio Lopez. 2008. Novel index for objective evaluation of road detection algorithms. In 2008 11th International IEEE Conference on Intelligent Transportation Systems. IEEE, 815\u2013820.",
+      "doi": ""
+    },
+    {
+      "text": "Amol Ambardekar, Mircea Nicolescu, and Sergiu Dascalu. 2009. Ground truth verification tool (GTVT) for video surveillance systems. In 2009 Second International Conferences on Advances in Computer-Human Interactions. IEEE, 354\u2013359.",
+      "doi": "10.1109/ACHI.2009.17"
+    },
+    {
+      "text": "Saleema Amershi, Maya Cakmak, William\u00a0Bradley Knox, and Todd Kulesza. 2014. Power to the people: The role of humans in interactive machine learning. Ai Magazine 35, 4 (2014), 105\u2013120.",
+      "doi": ""
+    },
+    {
+      "text": "Theresa\u00a0Dirndorfer Anderson and Nicola Parker. 2019. Keeping the human in the data scientist: Shaping human-centered data science education. Proceedings of the Association for Information Science and Technology 56, 1 (2019), 601\u2013603.",
+      "doi": ""
+    },
+    {
+      "text": "Josh Andres, Christine\u00a0T Wolf, Sergio Cabrero\u00a0Barros, Erick Oduor, Rahul Nair, Alexander Kj\u00e6rum, Anders\u00a0Bech Tharsgaard, and Bo\u00a0Schwartz Madsen. 2020. Scenario-based XAI for Humanitarian Aid Forecasting. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems Extended Abstracts. 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Cecilia Aragon, Clayton Hutto, Andy Echenique, Brittany Fiore-Gartland, Yun Huang, Jinyoung Kim, Gina Neff, Wanli Xing, and Joseph Bayer. 2016. Developing a research agenda for human-centered data science. In Proceedings of the 19th ACM Conference on Computer Supported Cooperative Work and Social Computing Companion. ACM, 529\u2013535.",
+      "doi": "10.1145/2818052.2855518"
+    },
+    {
+      "text": "Sinem Aslan, Sinem\u00a0Emine Mete, Eda Okur, Ece Oktay, Nese Alyuz, Utku\u00a0Ergin Genc, David Stanhill, and Asli\u00a0Arslan Esme. 2017. Human expert labeling process (HELP): towards a reliable higher-order user state labeling process and tool to assess student engagement. Educational Technology(2017), 53\u201359.",
+      "doi": ""
+    },
+    {
+      "text": "Catherine\u00a0M Baker, Lauren\u00a0R Milne, and Richard\u00a0E Ladner. 2019. Understanding the Impact of TVIs on Technology Use and Selection by Children with Visual Impairments. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300654"
+    },
+    {
+      "text": "Sarah\u00a0Elsie Baker and Rosalind Edwards. 2012. How many qualitative interviews is enough? Expert voices and early career reflections on sampling and cases in qualitative research. (2012).",
+      "doi": ""
+    },
+    {
+      "text": "Shaowen Bardzell, Daniela\u00a0K Rosner, and Jeffrey Bardzell. 2012. Crafting quality in design: integrity, creativity, and public sensibility. In Proceedings of the Designing Interactive Systems Conference. 11\u201320.",
+      "doi": "10.1145/2317956.2317959"
+    },
+    {
+      "text": "Gregory Bateson. 2000. Steps to an ecology of mind: Collected essays in anthropology, psychiatry, evolution, and epistemology. University of Chicago Press.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Bean and Daniela Rosner. 2012. Old hat: craft versus design?interactions 19, 1 (2012), 86\u201388.",
+      "doi": "10.1145/2065327.2065344"
+    },
+    {
+      "text": "Michael\u00a0S Bernstein, Greg Little, Robert\u00a0C Miller, Bj\u00f6rn Hartmann, Mark\u00a0S Ackerman, David\u00a0R Karger, David Crowell, and Katrina Panovich. 2010. Soylent: a word processor with a crowd inside. In Proceedings of the 23nd annual ACM symposium on User interface software and technology. 313\u2013322.",
+      "doi": "10.1145/1866029.1866078"
+    },
+    {
+      "text": "Daniel Bertaux. 1981. From the life-history approach to the transformation of sociological practice. Biography and society: The life history approach in the social sciences (1981), 29\u201345.",
+      "doi": ""
+    },
+    {
+      "text": "Geoffrey\u00a0C Bowker, C Geoffrey, W\u00a0Bernard Carlson, 1994. Science on the run: Information management and industrial geophysics at Schlumberger, 1920-1940. MIT press.",
+      "doi": ""
+    },
+    {
+      "text": "Jenna Breckenridge and Derek Jones. 2009. Demystifying theoretical sampling in grounded theory research.Grounded Theory Review 8, 2 (2009).",
+      "doi": ""
+    },
+    {
+      "text": "Vitor\u00a0R Carvalho, Matthew Lease, and Emine Yilmaz. 2011. Crowdsourcing for search evaluation. In ACM Sigir forum, Vol.\u00a044. ACM New York, NY, USA, 17\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Kathy Charmaz. 2014. Constructing grounded theory. sage.",
+      "doi": ""
+    },
+    {
+      "text": "Kathy Charmaz and Antony Bryant. 2011. Grounded theory and credibility. Qualitative research 3(2011), 291\u2013309.",
+      "doi": ""
+    },
+    {
+      "text": "Veronika Cheplygina and Josien\u00a0PW Pluim. 2018. Crowd disagreement about medical images is informative. In Intravascular Imaging and Computer Assisted Stenting and Large-Scale Annotation of Biomedical Data and Expert Label Synthesis. Springer, 105\u2013111.",
+      "doi": ""
+    },
+    {
+      "text": "Ming Cheung, James She, and Xiaopeng Li. 2015. Non-user generated annotation on user shared images for connection discovery. In 2015 IEEE International Conference on Data Science and Data Intensive Systems. IEEE, 204\u2013209.",
+      "doi": "10.1109/DSDIS.2015.113"
+    },
+    {
+      "text": "Juliet Corbin and Anselm Strauss. 2014. Basics of qualitative research: Techniques and procedures for developing grounded theory. Sage publications.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Corney, Andrew Lynn, Carmen Torres, Paola Di\u00a0Maio, William Regli, Graeme Forbes, and Lynne Tobin. 2010. Towards crowdsourcing translation tasks in library cataloguing, a pilot study. In 4th IEEE International Conference on Digital Ecosystems and Technologies. IEEE, 572\u2013577.",
+      "doi": ""
+    },
+    {
+      "text": "Frederick\u00a0J Damerau, David\u00a0E Johnson, and Martin\u00a0C Buskirk\u00a0Jr. 2004. Automatic labeling of unlabeled text data. US Patent 6,697,998.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Desmond, Kristina Brimijoin, Evelyn Duesterwald, Narendra\u00a0Nath Joshi, Michael Muller, Zahra Ashktorab, Aabhas Sharma, Casey Dugan, and Qian Pan. 2020. AI=Assisted Data Labeling. Demo at NeurIPS 2020.",
+      "doi": ""
+    },
+    {
+      "text": "Christian Dietz and Michael\u00a0R Berthold. 2016. KNIME for open-source bioimage analysis: a tutorial. In Focus on Bio-Image Informatics. Springer, 179\u2013197.",
+      "doi": ""
+    },
+    {
+      "text": "Shari\u00a0L Dworkin. 2012. Sample size policy for qualitative studies using in-depth interviews.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Erickson and Wendy\u00a0A Kellogg. 2003. Social translucence: using minimalist visualisations of social activity to support collective interaction. In Designing information spaces: The social navigation approach. Springer, 17\u201341.",
+      "doi": ""
+    },
+    {
+      "text": "Hao Fang, Hao Cheng, Maarten Sap, Elizabeth Clark, Ari Holtzman, Yejin Choi, Noah\u00a0A Smith, and Mari Ostendorf. 2018. Sounding board: A user-centric and content-driven social chatbot. arXiv preprint arXiv:1804.10202(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Melanie Feinberg. 2017. A design perspective on data. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 2952\u20132963.",
+      "doi": "10.1145/3025453.3025837"
+    },
+    {
+      "text": "Melanie Feinberg. 2017. Material Vision. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing. 604\u2013617.",
+      "doi": ""
+    },
+    {
+      "text": "P.\u00a0M. Ferreira, T. Mendon\u00e7a, J. Rozeira, and P. Rocha. 2012. An Annotation Tool for Dermoscopic Image Segmentation. In Proceedings of the 1st International Workshop on Visual Interfaces for Ground Truth Collection in Computer Vision Applications (Capri, Italy) (VIGTA \u201912). Association for Computing Machinery, New York, NY, USA, Article 5, 6\u00a0pages. https://doi.org/10.1145/2304496.2304501",
+      "doi": ""
+    },
+    {
+      "text": "Kar\u00ebn Fort. 2016. Collaborative Annotation for Reliable Natural Language Processing: Technical and Sociological Aspects. John Wiley & Sons.",
+      "doi": ""
+    },
+    {
+      "text": "Susan Gasson and Jim Waters. 2013. Using a grounded theory approach to study online collaboration behaviors. European Journal of Information Systems 22, 1 (2013), 95\u2013118.",
+      "doi": ""
+    },
+    {
+      "text": "Elihu\u00a0M Gerson and Susan\u00a0Leigh Star. 1986. Analyzing due process in the workplace. ACM Transactions on Information Systems (TOIS) 4, 3 (1986), 257\u2013270.",
+      "doi": "10.1145/214427.214431"
+    },
+    {
+      "text": "Patty Gerstenblith. 2020. Provenience and Provenance Intersecting with International Law in the Market for Antiquities. NCJ Int\u2019l L. 45(2020), 457.",
+      "doi": ""
+    },
+    {
+      "text": "Eric Gilbert. 2012. Designing social translucence over social networks. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2731\u20132740.",
+      "doi": "10.1145/2207676.2208670"
+    },
+    {
+      "text": "Lisa Gitelman. 2013. Raw data is an oxymoron. MIT press.",
+      "doi": ""
+    },
+    {
+      "text": "Barney\u00a0G Glaser and Anselm\u00a0L Strauss. 2017. Discovery of grounded theory: Strategies for qualitative research. Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Michele Goetz. 2017. 3 Ways Data Preparation Tools Help You Get Ahead Of Big Data. \u201dhttps://go.forrester.com/blogs/15-02-17-3_ways_data_preparation_tools_help_you_get_ahead_of_big_data/\u201d.",
+      "doi": ""
+    },
+    {
+      "text": "Charles Goodwin. 2000. Practices of color classification. Mind, culture, and activity 7, 1-2 (2000), 19\u201336.",
+      "doi": ""
+    },
+    {
+      "text": "Catherine Grady and Matthew Lease. 2010. Crowdsourcing document relevance assessment with mechanical turk. In Proceedings of the NAACL HLT 2010 workshop on creating speech and language data with Amazon\u2019s mechanical turk. Association for Computational Linguistics, 172\u2013179.",
+      "doi": "10.5555/1866696.1866723"
+    },
+    {
+      "text": "Mary\u00a0L Gray and Siddharth Suri. 2019. Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass. Eamon Dolan Books.",
+      "doi": ""
+    },
+    {
+      "text": "Ben Green. 2018. Data science as political action: grounding data science in a politics of justice. arXiv preprint arXiv:1811.03435(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Greg Guest, Arwen Bunce, and Laura Johnson. 2006. How many interviews are enough? An experiment with data saturation and variability. Field methods 18, 1 (2006), 59\u201382.",
+      "doi": ""
+    },
+    {
+      "text": "Philip\u00a0J Guo, Sean Kandel, Joseph\u00a0M Hellerstein, and Jeffrey Heer. 2011. Proactive wrangling: Mixed-initiative end-user programming of data transformation scripts. In Proceedings of the 24th annual ACM symposium on User interface software and technology. 65\u201374.",
+      "doi": "10.1145/2047196.2047205"
+    },
+    {
+      "text": "Ian Hampson and Anne Junor. 2005. Invisible work, invisible skills: interactive customer service as articulation work. New Technology, Work and Employment 20, 2 (2005), 166\u2013181.",
+      "doi": ""
+    },
+    {
+      "text": "Kotaro Hara, Vicki Le, and Jon Froehlich. 2013. Combining crowdsourcing and google street view to identify street-level accessibility problems. In Proceedings of the SIGCHI conference on human factors in computing systems. 631\u2013640.",
+      "doi": "10.1145/2470654.2470744"
+    },
+    {
+      "text": "Tony Hey, Stewart Tansley, Kristin Tolle, 2009. The fourth paradigm: data-intensive scientific discovery. Vol.\u00a01. Microsoft research Redmond, WA.",
+      "doi": ""
+    },
+    {
+      "text": "Humayun Irshad, Eun-Yeong Oh, Daniel Schmolze, Liza\u00a0M Quintana, Laura Collins, Rulla\u00a0M Tamimi, and Andrew\u00a0H Beck. 2017. Crowdsourcing scoring of immunohistochemistry images: Evaluating performance of the crowd and an automated computational method. Scientific reports 7(2017), 43286.",
+      "doi": ""
+    },
+    {
+      "text": "Narendra\u00a0Nath Joshi, Aabhas Sharma, , Michael Muller, Qian Pan, Michael Desmond, Kristina Brimijoin, Zahra Ashktorab, Evelyn Duesterwald, and Casey Dugan. 2020. Fast and Automatic Visual Label Conflict Resolution. Demo at NeurIPS 2020.",
+      "doi": ""
+    },
+    {
+      "text": "Hiroshi Kajino, Yuta Tsuboi, Issei Sato, and Hisashi Kashima. 2012. Learning from crowds and experts. In Workshops at the Twenty-Sixth AAAI Conference on Artificial Intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "Sean Kandel, Andreas Paepcke, Joseph Hellerstein, and Jeffrey Heer. 2011. Wrangler: Interactive visual specification of data transformation scripts. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 3363\u20133372.",
+      "doi": "10.1145/1978942.1979444"
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Bonnie\u00a0E John, Patrick O\u2019Flaherty, Amber Horvath, and Brad\u00a0A Myers. 2019. Towards Effective Foraging by Data Scientists to Find Past Analysis Choices. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300322"
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Marissa Radensky, Mahima Arya, Bonnie\u00a0E John, and Brad\u00a0A Myers. 2018. The story in the notebook: Exploratory data science using a literate programming tool. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201311.",
+      "doi": "10.1145/3173574.3173748"
+    },
+    {
+      "text": "Rafal Kocielnik, Lillian Xiao, Daniel Avrahami, and Gary Hsieh. 2018. Reflection companion: a conversational system for engaging users in reflection on physical activity. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2, 2 (2018), 1\u201326.",
+      "doi": "10.1145/3214273"
+    },
+    {
+      "text": "Marina Kogan, Aaron Halfaker, Shion Guha, Cecilia Aragon, Michael Muller, and Stuart Geiger. 2020. Mapping Out Human-Centered Data Science: Methods, Approaches, and Best Practices. In Companion of the 2020 ACM International Conference on Supporting Group Work. 151\u2013156.",
+      "doi": "10.1145/3323994.3369898"
+    },
+    {
+      "text": "Scott Krig. 2016. Ground truth data, content, metrics, and analysis. In Computer Vision Metrics. Springer, 247\u2013271.",
+      "doi": ""
+    },
+    {
+      "text": "Larry Laudan. 1978. Progress and its problems: Towards a theory of scientific growth. Vol.\u00a0282. Univ of California Press.",
+      "doi": ""
+    },
+    {
+      "text": "Dong-Hyun Lee. 2013. Pseudo-label: The simple and efficient semi-supervised learning method for deep neural networks. In Workshop on challenges in representation learning, ICML, Vol.\u00a03. 2.",
+      "doi": ""
+    },
+    {
+      "text": "Diana\u00a0Lynn MacLean and Jeffrey Heer. 2013. Identifying medical terms in patient-authored text: a crowdsourcing-based approach. Journal of the american medical informatics association 20, 6(2013), 1120\u20131127.",
+      "doi": ""
+    },
+    {
+      "text": "Mohd Aliff\u00a0Abdul Majid, Mohhidin Othman, Siti\u00a0Fatimah Mohamad, and Sarina Abdul\u00a0Halim Lim. 2018. Achieving data saturation: evidence from a qualitative study of job satisfaction. Social and Management Research Journal 15, 2 (2018), 66\u201377.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0W McDonald, Stephanie Gokhman, and Mark Zachry. 2012. Building for social translucence: a domain analysis and prototype system. In Proceedings of the ACM 2012 conference on computer supported cooperative work. 637\u2013646.",
+      "doi": "10.1145/2145204.2145301"
+    },
+    {
+      "text": "Nora McDonald, Sarita Schoenebeck, and Andrea Forte. 2019. Reliability and inter-rater reliability in qualitative research: Norms and guidelines for CSCW and HCI practice. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201323.",
+      "doi": "10.1145/3359174"
+    },
+    {
+      "text": "Helena\u00a0M Mentis, Ahmed Rahim, and Pierre Theodore. 2016. Crafting the image in surgical telemedicine. In Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing. 744\u2013755.",
+      "doi": "10.1145/2818048.2819978"
+    },
+    {
+      "text": "Janice\u00a0M Morse. 1995. The significance of saturation.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Muller. 2014. Curiosity, creativity, and surprise as analytic tools: Grounded theory method. In Ways of Knowing in HCI. Springer, 25\u201348.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Muller, Melanie Feinberg, Timothy George, Steven\u00a0J Jackson, Bonnie\u00a0E John, Mary\u00a0Beth Kery, and Samir Passi. 2019. Human-Centered Study of Data Science Work Practices. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, W15.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Muller, Ingrid Lange, Dakuo Wang, David Piorkowski, Jason Tsay, Q\u00a0Vera Liao, Casey Dugan, and Thomas Erickson. 2019. How Data Science Workers Work with Data: Discovery, Capture, Curation, Design, Creation. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3290605.3300356"
+    },
+    {
+      "text": "Gina Neff, Anissa Tanweer, Brittany Fiore-Gartland, and Laura Osburn. 2017. Critique and contribute: A practice-based framework for improving critical data studies and data science. Big data 5, 2 (2017), 85\u201397.",
+      "doi": ""
+    },
+    {
+      "text": "Naveen Onkarappa and Angel\u00a0D Sappa. 2015. Synthetic sequences and ground-truth flow field generation for algorithm validation. Multimedia Tools and Applications 74, 9 (2015), 3121\u20133135.",
+      "doi": "10.1007/s11042-013-1771-7"
+    },
+    {
+      "text": "Samir Passi and Steven Jackson. 2017. Data vision: Learning to see through algorithmic abstraction. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing. 2436\u20132447.",
+      "doi": "10.1145/2998181.2998331"
+    },
+    {
+      "text": "Samir Passi and Steven\u00a0J Jackson. 2018. Trust in Data Science: Collaboration, Translation, and Accountability in Corporate Data Science Projects. Proceedings of the ACM on Human-Computer Interaction 2, CSCW(2018), 1\u201328.",
+      "doi": "10.1145/3274405"
+    },
+    {
+      "text": "Kanu Patel, Jay Vala, and Jaymit Pandya. 2014. Comparison of various classification algorithms on iris datasets using WEKA. Int. J. Adv. Eng. Res. Dev.(IJAERD) 1, 1 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Sharoda\u00a0A Paul, Lichan Hong, and Ed\u00a0H Chi. 2011. What is a question? Crowdsourcing tweet categorization. In Workshop on Crowdsourcing and Human Computation at the Conference on Human Factors in Computing Systems (CHI).",
+      "doi": ""
+    },
+    {
+      "text": "Jo\u00e3o\u00a0Felipe Pimentel, Saumen Dey, Timothy McPhillips, Khalid Belhajjame, David Koop, Leonardo Murta, Vanessa Braganholo, and Bertram Lud\u00e4scher. 2016. Yin & Yang: demonstrating complementary provenance from noWorkflow & YesWorkflow. In International Provenance and Annotation Workshop. Springer, 161\u2013165.",
+      "doi": ""
+    },
+    {
+      "text": "Kathleen\u00a0H Pine and Max Liboiron. 2015. The politics of measurement and action. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 3147\u20133156.",
+      "doi": "10.1145/2702123.2702298"
+    },
+    {
+      "text": "Ivens Portugal, Paulo Alencar, and Donald Cowan. 2018. The use of machine learning algorithms in recommender systems: A systematic review. Expert Systems with Applications 97 (2018), 205\u2013227.",
+      "doi": ""
+    },
+    {
+      "text": "Alisha Pradhan, Ben Jelen, Katie\u00a0A Siek, Joel Chan, and Amanda Lazar. 2020. Understanding Older Adults\u2019 Participation in Design Workshops. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3313831.3376299"
+    },
+    {
+      "text": "Krishna Rajan. 2013. Informatics for materials science and engineering: data-driven discovery for accelerated experimentation and application. Butterworth-Heinemann.",
+      "doi": ""
+    },
+    {
+      "text": "Alexander Ratner, Stephen\u00a0H Bach, Henry Ehrenberg, Jason Fries, Sen Wu, and Christopher R\u00e9. 2020. Snorkel: Rapid training data creation with weak supervision. The VLDB Journal 29, 2 (2020), 709\u2013730.",
+      "doi": ""
+    },
+    {
+      "text": "Tye Rattenbury, Joseph\u00a0M Hellerstein, Jeffrey Heer, Sean Kandel, and Connor Carreras. 2017. Principles of data wrangling: Practical techniques for data preparation. \u201d O\u2019Reilly Media, Inc.\u201d.",
+      "doi": ""
+    },
+    {
+      "text": "Johan Redstr\u00f6m. 2008. RE: Definitions of use. Design studies 29, 4 (2008), 410\u2013423.",
+      "doi": ""
+    },
+    {
+      "text": "Adrienne Rich. 1995. On lies, secrets, and silence: Selected prose 1966-1978. WW Norton & Company.",
+      "doi": ""
+    },
+    {
+      "text": "Yuji Roh, Geon Heo, and Steven\u00a0Euijong Whang. 2019. A survey on data collection for machine learning: a big data-ai integration perspective. IEEE Transactions on Knowledge and Data Engineering (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Adam Rule, Aur\u00e9lien Tabard, and James\u00a0D Hollan. 2018. Exploration and explanation in computational notebooks. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3173574.3173606"
+    },
+    {
+      "text": "Manaswi Saha, Michael Saugstad, Hanuma\u00a0Teja Maddali, Aileen Zeng, Ryan Holland, Steven Bower, Aditya Dash, Sage Chen, Anthony Li, Kotaro Hara, 2019. Project sidewalk: A web-based crowdsourcing tool for collecting sidewalk accessibility data at scale. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3290605.3300292"
+    },
+    {
+      "text": "Sheeba Samuel and Birgitta K\u00f6nig-Ries. 2018. ProvBook: Provenance-based Semantic Enrichment of Interactive Notebooks for Reproducibility.. In International Semantic Web Conference (P&D/Industry/BlueSky).",
+      "doi": ""
+    },
+    {
+      "text": "Sheeba Samuel and Birgitta K\u00f6nig-Ries. 2020. ReproduceMeGit: A Visualization Tool for Analyzing Reproducibility of Jupyter Notebooks. arXiv preprint arXiv:2006.12110(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Mike Schaekermann, Graeme Beaton, Minahz Habib, L.\u00a0I.M. Andrew, Kate Larson, and L.\u00a0A.W. Edith. 2019. Understanding expert disagreement in medical data analysis through structured adjudication. , 23\u00a0pages. https://doi.org/10.1145/3359178",
+      "doi": ""
+    },
+    {
+      "text": "Mike Schaekermann, Carrie\u00a0J Cai, Abigail\u00a0E Huang, and Rory Sayres. 2020. Expert Discussions Improve Comprehension of Difficult Cases in Medical Image Assessment. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376290"
+    },
+    {
+      "text": "Kjeld Schmidt. 2002. Remarks on the complexity of cooperative work.Revue d\u2019intelligence artificielle 16, 4-5 (2002), 443\u2013483.",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0A Sch\u00f6n. 1992. Designing as reflective conversation with the materials of a design situation. Knowledge-based systems 5, 1 (1992), 3\u201314.",
+      "doi": "10.1016/0950-7051%2892%2990020-G"
+    },
+    {
+      "text": "Philipp Schorch. 2020. Sensitive Heritage: Ethnographic Museums, Provenance Research, and the Potentialities of Restitutions. Museum and Society 18, 1 (2020), 1\u20135.",
+      "doi": ""
+    },
+    {
+      "text": "Isabella Seeber, Eva Bittner, Robert\u00a0O Briggs, Triparna de Vreede, Gert-Jan De\u00a0Vreede, Aaron Elkins, Ronald Maier, Alexander\u00a0B Merz, Sarah Oeste-Rei\u00df, Nils Randrup, 2020. Machines as teammates: A research agenda on AI in team collaboration. Information & management 57, 2 (2020), 103174.",
+      "doi": ""
+    },
+    {
+      "text": "Cathrine Seidelin, Yvonne Dittrich, and Eric Gr\u00f6nvall. [n.d.]. Co-designing data experiments. ([n.\u00a0d.]). (in preparation).",
+      "doi": ""
+    },
+    {
+      "text": "Cathrine Seidelin, Yvonne Dittrich, and Erik Gr\u00f6nvall. 2018. Data Work in a Knowledge-Broker Organisation: How Cross-Organisational Data Maintenance Shapes Human Data Interactions. In Proceedings of the 32nd International BCS Human Computer Interaction Conference (Belfast, United Kingdom) (HCI \u201918). BCS Learning & Development Ltd., Swindon, GBR, Article 14, 12\u00a0pages. https://doi.org/10.14236/ewic/HCI2018.14",
+      "doi": ""
+    },
+    {
+      "text": "Burr Settles. 2009. Active learning literature survey. Technical Report. University of Wisconsin-Madison Department of Computer Sciences.",
+      "doi": ""
+    },
+    {
+      "text": "Ayush Singhal, Pradeep Sinha, and Rakesh Pant. 2017. Use of deep learning in modern recommendation system: A summary of recent works. arXiv preprint arXiv:1712.07525(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Susan\u00a0Leigh Star. 1999. The ethnography of infrastructure. American behavioral scientist 43, 3 (1999), 377\u2013391.",
+      "doi": ""
+    },
+    {
+      "text": "Susan\u00a0Leigh Star and Karen Ruhleder. 1996. Steps toward an ecology of infrastructure: Design and access for large information spaces. Information systems research 7, 1 (1996), 111\u2013134.",
+      "doi": ""
+    },
+    {
+      "text": "Susan\u00a0Leigh Star and Anselm Strauss. 1999. Layers of silence, arenas of voice: The ecology of visible and invisible work. Computer supported cooperative work (CSCW) 8, 1-2 (1999), 9\u201330.",
+      "doi": ""
+    },
+    {
+      "text": "Stephanie\u00a0B Steinhardt and Steven\u00a0J Jackson. 2015. Anticipation work: Cultivating vision in collective practice. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing. 443\u2013453.",
+      "doi": "10.1145/2675133.2675298"
+    },
+    {
+      "text": "P.N. Stern. 2007. Properties for growing grounded theory. In The Sage handbook of grounded theory, A.\u00a0Bryant and K.\u00a0Charmaz (Eds.). Sage, Thousand Oaks, CA, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Miriam Sturdee, John Hardy, Nick Dunn, and Jason Alexander. 2015. A public ideation of shape-changing applications. In Proceedings of the 2015 International Conference on Interactive Tabletops & Surfaces. 219\u2013228.",
+      "doi": "10.1145/2817721.2817734"
+    },
+    {
+      "text": "Lucy Suchman. 2002. Located accountabilities in technology production. Scandinavian journal of information systems 14, 2 (2002), 7.",
+      "doi": "10.5555/782686.782694"
+    },
+    {
+      "text": "Charles Sutton, Timothy Hobson, James Geddes, and Rich Caruana. 2018. Data diff: Interpretable, executable summaries of changes in distributions for data wrangling. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. 2279\u20132288.",
+      "doi": "10.1145/3219819.3220057"
+    },
+    {
+      "text": "Madhusmita Swain, Sanjit\u00a0Kumar Dash, Sweta Dash, and Ayeskanta Mohapatra. 2012. An approach for iris plant classification using neural network. International Journal on Soft Computing 3, 1 (2012), 79.",
+      "doi": ""
+    },
+    {
+      "text": "Anissa Tanweer. 2018. Data science of the social: How the practice is responding to ethical crisis and spreading across sectors. Ph.D. Dissertation.",
+      "doi": ""
+    },
+    {
+      "text": "Natalia Tognoli and Jos\u00e9 Augusto\u00a0Chaves Guimar\u00e3es. 2020. Provenance as a Knowledge Organization Principle. KO KNOWLEDGE ORGANIZATION 46, 7 (2020), 558\u2013568.",
+      "doi": ""
+    },
+    {
+      "text": "Wil\u00a0MP Van\u00a0der Aalst. 2014. Data scientist: The engineer of the future. In Enterprise interoperability VI. Springer, 13\u201326.",
+      "doi": ""
+    },
+    {
+      "text": "Jesper\u00a0E Van\u00a0Engelen and Holger\u00a0H Hoos. 2020. A survey on semi-supervised learning. Machine Learning 109, 2 (2020), 373\u2013440.",
+      "doi": ""
+    },
+    {
+      "text": "Luis Von\u00a0Ahn. 2008. Human computation. In 2008 IEEE 24th international conference on data engineering. IEEE, 1\u20132.",
+      "doi": "10.1109/ICDE.2008.4497403"
+    },
+    {
+      "text": "Dakuo Wang, Justin\u00a0D. Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey Dugan, Yla Tausczik, Horst Samulowitz, and Alexander Gray. 2019. Human-AI Collaboration in Data Science. Proceedings of the ACM on Human-Computer Interaction 3, CSCW (Nov 2019), 1\u201324. https://doi.org/10.1145/3359313",
+      "doi": "10.1145/3359313"
+    },
+    {
+      "text": "Dakuo Wang, Justin\u00a0D Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey Dugan, Yla Tausczik, Horst Samulowitz, and Alexander Gray. 2019. Human-AI Collaboration in Data Science: Exploring Data Scientists\u2019 Perceptions of Automated AI. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201324.",
+      "doi": "10.1145/3359313"
+    },
+    {
+      "text": "Daniel Karl\u00a0I Weidele, Justin\u00a0D Weisz, Erick Oduor, Michael Muller, Josh Andres, Alexander Gray, and Dakuo Wang. 2020. AutoAIViz: opening the blackbox of automated artificial intelligence with conditional parallel coordinates. In Proceedings of the 25th International Conference on Intelligent User Interfaces. 308\u2013312.",
+      "doi": "10.1145/3377325.3377538"
+    },
+    {
+      "text": "Jacob Whitehill, Paul Ruvolo, Tingfan Wu, Jacob Bergsma, and Javier Movellan. 2009. Whose vote should count more: Optimal integration of labels from labelers of unknown expertise. In Advances in Neural Information Processing Systems 22 - Proceedings of the 2009 Conference. 2035\u20132043.",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Wiggins, Greg Newman, Robert\u00a0D Stevenson, and Kevin Crowston. 2011. Mechanisms for data quality and validation in citizen science. In 2011 IEEE Seventh International Conference on e-Science Workshops. IEEE, 14\u201319.",
+      "doi": "10.1109/eScienceW.2011.27"
+    },
+    {
+      "text": "Peter Woitek, Paul Br\u00e4uer, and Holger Grossmann. 2010. A Novel Tool for Capturing Conceptualized Audio Annotations(AM \u201910). Association for Computing Machinery, New York, NY, USA, Article 15, 8\u00a0pages. https://doi.org/10.1145/1859799.1859814",
+      "doi": ""
+    },
+    {
+      "text": "Christine\u00a0T. Wolf. 2019. Conceptualizing Care in the Everyday Work Practices of Machine Learning Developers. In Companion Publication of the 2019 on Designing Interactive Systems Conference 2019 Companion (San Diego, CA, USA) (DIS \u201919 Companion). Association for Computing Machinery, New York, NY, USA, 331\u2013335. https://doi.org/10.1145/3301019.3323879",
+      "doi": "10.1145/3301019.3323879"
+    },
+    {
+      "text": "Christine\u00a0T Wolf. 2020. AI Models and Their Worlds: Investigating Data-Driven, AI/ML Ecosystems Through a Work Practices Lens. In International Conference on Information. Springer, 651\u2013664.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Yapchain. 2018. Human-Centered Data Science: A New Paradigm for Industrial IoT. In Ethnographic Praxis in Industry Conference Proceedings, Vol.\u00a02018. Wiley Online Library, 53\u201361.",
+      "doi": ""
+    },
+    {
+      "text": "Amy\u00a0X Zhang, Michael Muller, and Dakuo Wang. 2020. How do Data Science Workers Collaborate? Roles, Workflows, and Tools. arXiv preprint arXiv:2001.06684(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Amy\u00a0X. Zhang, Michael Muller, and Dakuo Wang. 2020. How do Data Science Workers Collaborate? Roles, Workflows, and Tools. In Proc. ACM Hum.-Comput. Interact.Article 22. Issue CSCW1.",
+      "doi": "10.1145/3392826"
+    },
+    {
+      "text": "Lei Zhang, Yan Tong, and Qiang Ji. 2008. Active image labeling and its application to facial action labeling. In European Conference on Computer Vision. Springer, 706\u2013719.",
+      "doi": "10.1007/978-3-540-88688-4_52"
+    },
+    {
+      "text": "Xiaojin Zhu and Zoubin Ghahramani. 2002. Learning from labeled and unlabeled data with label propagation. (2002).",
+      "doi": ""
+    },
+    {
+      "text": "Laszlo Zsolnai. 1998. Rational choice and the diversity of choices. The Journal of Socio-Economics 27, 5 (1998), 613\u2013622.",
+      "doi": ""
+    }
+  ]
+}

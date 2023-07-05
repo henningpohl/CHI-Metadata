@@ -1,0 +1,436 @@
+{
+  "doi": "10.1145/3411764.3445356",
+  "title": "Integrated Visualization Editing via Parameterized Declarative Templates",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Interfaces for creating visualizations typically embrace one of several common forms. Textual specification enables fine-grained control, shelf building facilitates rapid exploration, while chart choosing promotes immediacy and simplicity. Ideally these approaches could be unified to integrate the user- and usage-dependent benefits found in each modality, yet these forms remain distinct.  We propose parameterized declarative templates, a simple abstraction mechanism over JSON-based visualization grammars, as a foundation for multimodal visualization editors. We demonstrate how templates can facilitate organization and reuse by factoring the more than 160 charts that constitute Vega-Lite\u2019s example gallery into approximately 40 templates. We exemplify the pliability of abstracting over charting grammars by implementing\u2014as a template\u2014the functionality of the shelf builder Polestar (a simulacra of Tableau) and a set of templates that emulate the Google Sheets chart chooser. We show how templates support multimodal visualization editing by implementing a prototype and evaluating it through an approachability study.",
+  "authors": [
+    {
+      "name": "Andrew M McNutt",
+      "institution": "Computer Science University of Chicago, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659527152",
+      "orcid": "0000-0001-8255-4258"
+    },
+    {
+      "name": "Ravi Chugh",
+      "institution": "University of Chicago, United States",
+      "img": "/do/10.1145/contrib-81435596644/rel-imgonly/ravi09.jpg",
+      "acmid": "81435596644",
+      "orcid": "0000-0002-1339-2889"
+    }
+  ],
+  "references": [
+    {
+      "text": "Mallika Agarwal, Arjun Srinivasan, and John\u00a0T. Stasko. 2019. VisWall: Visual Data Exploration Using Direct Combination on Large Touch Displays. In 30th IEEE Visualization Conference, IEEE VIS 2019 - Short Papers. IEEE, Vancouver, BC, Canada, 26\u201330. https://doi.org/10.1109/VISUAL.2019.8933673",
+      "doi": ""
+    },
+    {
+      "text": "Christopher Ahlberg. 1996. Spotfire: an Information Exploration Environment. ACM SIGMOD Record 25, 4 (1996), 25\u201329.",
+      "doi": "10.1145/245882.245893"
+    },
+    {
+      "text": "Aaron Bangor, Philip Kortum, and James Miller. 2009. Determining what individual SUS scores mean: Adding an adjective rating scale. Journal of usability studies 4, 3 (2009), 114\u2013123.",
+      "doi": "10.5555/2835587"
+    },
+    {
+      "text": "Alex Bigelow, Steven\u00a0Mark Drucker, Danyel Fisher, and Miriah\u00a0D. Meyer. 2017. Iterating Between Tools to Create and Edit Visualizations. IEEE Transactions on Visualization and Computer Graphics 23, 1(2017), 481\u2013490. https://doi.org/10.1109/TVCG.2016.2598609",
+      "doi": "10.1109/TVCG.2016.2598609"
+    },
+    {
+      "text": "Alan\u00a0F. Blackwell. 2005. Cognitive Dimensions of Notations. In 2005 IEEE Symposium on Visual Languages and Human-Centric Computing. IEEE Computer Society, Dallas, TX, USA, 3. https://doi.org/10.1109/VLHCC.2005.26",
+      "doi": ""
+    },
+    {
+      "text": "Mike Bostock. 2018. A Better Way to Code. https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0",
+      "doi": ""
+    },
+    {
+      "text": "Michael Bostock and Jeffrey Heer. 2009. Protovis: A Graphical Toolkit for Visualization. IEEE Transactions on Visualization and Computer Graphics 15, 6(2009), 1121\u20131128. https://doi.org/10.1109/TVCG.2009.174",
+      "doi": "10.1109/TVCG.2009.174"
+    },
+    {
+      "text": "Michael Bostock, Vadim Ogievetsky, and Jeffrey Heer. 2011. D3 Data-Driven Documents. IEEE Transactions on Visualization and Computer Graphics 17, 12(2011), 2301\u20132309. https://doi.org/10.1109/TVCG.2011.185",
+      "doi": "10.1109/TVCG.2011.185"
+    },
+    {
+      "text": "Joel Brandt, Philip\u00a0J. Guo, Joel Lewenstein, Mira Dontcheva, and Scott\u00a0R. Klemmer. 2009. Two Studies of Opportunistic Programming: Interleaving Web Foraging, Learning, and Writing Code. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Boston, MA, USA, 1589\u20131598. https://doi.org/10.1145/1518701.1518944",
+      "doi": "10.1145/1518701.1518944"
+    },
+    {
+      "text": "Seth\u00a0J. Chandler. 2018. Executions in the United States. https://datarepository.wolframcloud.com/resources/Seth-J.-Chandler_Executions-in-the-United-States Wolfram Data Repository.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Correll, Mingwei Li, Gordon Kindlmann, and Carlos Scheidegger. 2018. Looks Good to Me: Visualizations as Sanity Checks. IEEE Transactions on Visualization and Computer Graphics 25, 1(2018), 830\u2013839. https://doi.org/10.1109/TVCG.2018.2864907",
+      "doi": "10.1109/TVCG.2018.2864907"
+    },
+    {
+      "text": "datavized. 2018. Morph. https://morph.graphics/",
+      "doi": ""
+    },
+    {
+      "text": "data.world. 2020. Chart Builder. https://github.com/datadotworld/chart-builder https://chart-builder.data.world/.",
+      "doi": ""
+    },
+    {
+      "text": "Datawrapper. 2020. Datawrapper. https://www.datawrapper.de/index.html www.datawrapper.de.",
+      "doi": ""
+    },
+    {
+      "text": "Ian Drosos, Titus Barik, Philip\u00a0J. Guo, Robert DeLine, and Sumit Gulwani. 2020. Wrex: A Unified Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists. In CHI \u201920: CHI Conference on Human Factors in Computing Systems. ACM, Honolulu, HI, USA, 1\u201312. https://doi.org/10.1145/3313831.3376442",
+      "doi": "10.1145/3313831.3376442"
+    },
+    {
+      "text": "ECMA. 2017. The JSON Data Interchange Syntax, ECMA-404 (2nd ed. ed.). ecma, Geneva, Switzerland. https://www.json.org/json-en.html.",
+      "doi": ""
+    },
+    {
+      "text": "Sara Evensen, Chang Ge, and Cagatay Demiralp. 2020. Ruler: Data Programming by Demonstration for Document Labeling. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: Findings. Association for Computational Linguistics, Online Event, 1996\u20132005.",
+      "doi": ""
+    },
+    {
+      "text": "Flourish. 2020. Flourish | Data Visualization & Storytelling. https://flourish.studio/ https://flourish.studio/.",
+      "doi": ""
+    },
+    {
+      "text": "Jon Gold. 2016. Declarative Design Tools. https://jon.gold/2016/06/declarative-design-tools/ Accessed December 16, 2020.",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2020. Types of charts & graphs in Google Sheets. https://support.google.com/docs/answer/190718 Accessed August 19, 2020.",
+      "doi": ""
+    },
+    {
+      "text": "Lars Grammel, Chris Bennett, Melanie Tory, and Margaret-Anne\u00a0D. Storey. 2013. A Survey of Visualization Construction User Interfaces. In 15th Eurographics Conference on Visualization, EuroVis 2013 - Short Papers, Leipzig, Germany, June 17-21, 2013, Mario Hlawitschka and Tino Weinkauf (Eds.). Eurographics Association, Leipzig, Germany, 5. https://doi.org/10.2312/PE.EuroVisShort.EuroVisShort2013.019-023",
+      "doi": ""
+    },
+    {
+      "text": "Lars Grammel, Melanie Tory, and Margaret-Anne\u00a0D. Storey. 2010. How Information Visualization Novices Construct Visualizations. IEEE Transactions on Visualization and Computer Graphics 16, 6(2010), 943\u2013952. https://doi.org/10.1109/TVCG.2010.164",
+      "doi": "10.1109/TVCG.2010.164"
+    },
+    {
+      "text": "Pat Hanrahan. 2006. VizQL: a language for query, analysis and visualization. In Proceedings of the ACM SIGMOD International Conference on Management of Data. ACM, Chicago, Illinois, USA, 721. https://doi.org/10.1145/1142473.1142560",
+      "doi": "10.1145/1142473.1142560"
+    },
+    {
+      "text": "Jonathan Harper and Maneesh Agrawala. 2018. Converting Basic D3 Charts into Reusable Style Templates. IEEE Transactions on Visualization and Computer Graphics 24, 3(2018), 1274\u20131286. https://doi.org/10.1109/TVCG.2017.2659744",
+      "doi": ""
+    },
+    {
+      "text": "Bj\u00f6rn Hartmann, Loren Yu, Abel Allison, Yeonsoo Yang, and Scott\u00a0R. Klemmer. 2008. Design as exploration: creating interface alternatives through parallel authoring and runtime tuning. In Proceedings of the 21st Annual ACM Symposium on User Interface Software and Technology, Steve\u00a0B. Cousins and Michel Beaudouin-Lafon (Eds.). ACM, Monterey, CA, USA, 91\u2013100. https://doi.org/10.1145/1449715.1449732",
+      "doi": "10.1145/1449715.1449732"
+    },
+    {
+      "text": "John\u00a0F. Helliwell, Richard Layard, and Jeffrey Sachs. 2012. World happiness report. https://doi.org/10.14288/1.0053622",
+      "doi": ""
+    },
+    {
+      "text": "Brian Hempel, Justin Lubin, and Ravi Chugh. 2019. Sketch-n-Sketch: Output-Directed Programming for SVG. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology, Fran\u00e7ois Guimbreti\u00e8re, Michael Bernstein, and Katharina Reinecke (Eds.). ACM, New Orleans, LA, USA, 281\u2013292. https://doi.org/10.1145/3332165.3347925",
+      "doi": "10.1145/3332165.3347925"
+    },
+    {
+      "text": "Brian Hempel, Justin Lubin, Grace Lu, and Ravi Chugh. 2018. Deuce: a lightweight user interface for structured editing. In Proceedings of the 40th International Conference on Software Engineering, Michel Chaudron, Ivica Crnkovic, Marsha Chechik, and Mark Harman (Eds.). ACM, Gothenburg, Sweden, 654\u2013664. https://doi.org/10.1145/3180155.3180165",
+      "doi": "10.1145/3180155.3180165"
+    },
+    {
+      "text": "Jane Hoffswell, Wilmot Li, and Zhicheng Liu. 2020. Techniques for Flexible Responsive Visualization Design. In CHI \u201920: CHI Conference on Human Factors in Computing Systems. ACM, Honolulu, HI, USA, 1\u201313. https://doi.org/10.1145/3313831.3376777",
+      "doi": ""
+    },
+    {
+      "text": "Jane Hoffswell, Arvind Satyanarayan, and Jeffrey Heer. 2018. Augmenting Code with In Situ Visualizations to Aid Program Understanding. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, Montreal, QC, Canada, 532. https://doi.org/10.1145/3173574.3174106",
+      "doi": "10.1145/3173574.3174106"
+    },
+    {
+      "text": "Marius Hogr\u00e4fer and Hans-J\u00f6rg Schulz. 2019. ReVize: A Library for Visualization Toolchaining with Vega-Lite. In Italian Chapter Conference 2019 - Smart Tools and Apps in computer Graphics. Eurographics Association, Cagliari, Italy, 129\u2013139. https://doi.org/10.2312/stag.20191375",
+      "doi": ""
+    },
+    {
+      "text": "Aspen\u00a0K. Hopkins, Michael Correll, and Arvind Satyanarayan. 2020. VisuaLint: Sketchy In Situ Annotations of Chart Construction Errors. Computer Graphics Forum 39, 3 (2020), 219\u2013228. https://doi.org/10.1111/cgf.13975",
+      "doi": ""
+    },
+    {
+      "text": "Kevin Hu, Diana Orghian, and C\u00e9sar Hidalgo. 2018. DIVE: A Mixed-Initiative System Supporting Integrated Data Exploration Workflows. In Proceedings of the Workshop on Human-In-the-Loop Data Analytics. ACM, Houston, TX, USA, 1\u20137. https://doi.org/10.1145/3209900.3209910",
+      "doi": "10.1145/3209900.3209910"
+    },
+    {
+      "text": "John\u00a0D. Hunter. 2007. Matplotlib: A 2D Graphics Environment. Computing in Science & Engineering 9, 3 (2007), 90\u201395. https://doi.org/10.1109/MCSE.2007.55",
+      "doi": "10.1109/MCSE.2007.55"
+    },
+    {
+      "text": "MongoDB Inc.2020. MongoDB. https://www.mongodb.com",
+      "doi": ""
+    },
+    {
+      "text": "Zhongjun Jin, Michael\u00a0R. Anderson, Michael Cafarella, and H.\u00a0V. Jagadish. 2017. Foofah: Transforming Data By Example. In Proceedings of the 2017 ACM International Conference on Management of Data(SIGMOD \u201917). Association for Computing Machinery, New York, NY, USA, 683\u2013698. https://doi.org/10.1145/3035918.3064034",
+      "doi": "10.1145/3035918.3064034"
+    },
+    {
+      "text": "jupyter. 2020. Interactive Widgets. https://jupyter.org/widgets Accessed December 16, 2020.",
+      "doi": ""
+    },
+    {
+      "text": "Sean Kandel, Andreas Paepcke, Joseph\u00a0M. Hellerstein, and Jeffrey Heer. 2011. Wrangler: Interactive Visual Specification of Data Transformation Scripts. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, Desney\u00a0S. Tan, Saleema Amershi, Bo\u00a0Begole, Wendy\u00a0A. Kellogg, and Manas Tungare (Eds.). ACM, Vancouver, BC, Canada, 3363\u20133372. https://doi.org/10.1145/1978942.1979444",
+      "doi": "10.1145/1978942.1979444"
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Donghao Ren, Fred Hohman, Dominik Moritz, Kanit Wongsuphasawat, and Kayur Patel. 2020. mage: Fluid Moves Between Code and Graphical Work in Computational Notebooks. In The 33rd Annual ACM Symposium on User Interface Software and Technology. ACM, Virtual Event, USA, 140\u2013151. https://doi.org/10.1145/3379337.3415842",
+      "doi": "10.1145/3379337.3415842"
+    },
+    {
+      "text": "Nam\u00a0Wook Kim, Eston Schweickart, Zhicheng Liu, Mira Dontcheva, Wilmot Li, Jovan Popovic, and Hanspeter Pfister. 2016. Data-Driven Guides: Supporting Expressive Design for Information Graphics. IEEE Transactions on Visualization and Computer Graphics 23, 1(2016), 491\u2013500. https://doi.org/10.1109/TVCG.2016.2598620",
+      "doi": "10.1109/TVCG.2016.2598620"
+    },
+    {
+      "text": "Younghoon Kim and Jeffrey Heer. 2021. Gemini: A Grammar and Recommender System for AnimatedTransitions in Statistical Graphics.",
+      "doi": ""
+    },
+    {
+      "text": "Gordon Kindlmann and Carlos Scheidegger. 2014. An Algebraic Process for Visualization Design. IEEE Transactions on Visualization and Computer Graphics 20, 12(2014), 2181\u20132190. https://doi.org/10.1109/TVCG.2014.2346325",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Kluyver, Benjamin Ragan-Kelley, Fernando P\u00e9rez, Brian\u00a0E. Granger, Matthias Bussonnier, Jonathan Frederic, Kyle Kelley, Jessica\u00a0B. Hamrick, Jason Grout, Sylvain Corlay, Paul Ivanov, Dami\u00e1n Avila, Safia Abdalla, Carol Willing, and et al.2016. Jupyter Notebooks - a publishing format for reproducible computational workflows. In Positioning and Power in Academic Publishing: Players, Agents and Agendas, 20th International Conference on Electronic Publishing. IOS Press, G\u00f6ttingen, Germany, 87\u201390. https://doi.org/10.3233/978-1-61499-649-1-87",
+      "doi": ""
+    },
+    {
+      "text": "Kari Lavikka, Jaana Oikkonen, Rainer Lehtonen, Johanna Hynninen, Sakari Hietanen, and Sampsa Hautaniemi. 2020. GenomeSpy: Grammar-Based Interactive Genome Visualization. https://doi.org/10.7490/f1000research.1118237.1",
+      "doi": ""
+    },
+    {
+      "text": "Doris Jung-Lin Lee. 2020. Insight Machines: The Past, Present, and Future of Visualization Recommendation. https://medium.com/multiple-views-visualization-research-explained/insight-machines-the-past-present-and-future-of-visualization-recommendation-2185c33a09aa Multiple Views Visualization Research Explained.",
+      "doi": ""
+    },
+    {
+      "text": "Yun\u00a0Young Lee, Nicholas Chen, and Ralph\u00a0E. Johnson. 2013. Drag-and-drop refactoring: intuitive and efficient program transformation. In 35th International Conference on Software Engineering. IEEE Computer Society, San Francisco, CA, USA, 23\u201332. https://doi.org/10.1109/ICSE.2013.6606548",
+      "doi": ""
+    },
+    {
+      "text": "Germ\u00e1n Leiva, Nolwenn Maudet, Wendy Mackay, and Michel Beaudouin-Lafon. 2019. Enact: Reducing Designer-Developer Breakdowns When Prototyping Custom Interactions. ACM Transactions on Computer-Human Interaction (TOCHI) 26, 3, Article 19 (May 2019), 48\u00a0pages. https://doi.org/10.1145/3310276",
+      "doi": "10.1145/3310276"
+    },
+    {
+      "text": "Guozheng Li, Min Tian, Qinmei Xu, Michael\u00a0J. McGuffin, and Xiaoru Yuan. 2020. GoTree: A Grammar of Tree Visualizations. In CHI \u201920: CHI Conference on Human Factors in Computing Systems, Regina Bernhaupt, Florian\u00a0\u2019Floyd\u2019 Mueller, David Verweij, Josh Andres, Joanna McGrenere, Andy Cockburn, Ignacio Avellino, Alix Goguey, Pernille Bj\u00f8n, Shengdong Zhao, Briane\u00a0Paul Samson, and Rafal Kocielnik (Eds.). ACM, Honolulu, HI, USA, 1\u201313. https://doi.org/10.1145/3313831.3376297",
+      "doi": ""
+    },
+    {
+      "text": "Jianping\u00a0Kelvin Li and Kwan-Liu Ma. 2021. P6: A Declarative Language for Integrating Machine Learning in Visual Analytics.",
+      "doi": ""
+    },
+    {
+      "text": "Zhicheng Liu, John Thompson, Alan Wilson, Mira Dontcheva, James Delorey, Sam Grigg, Bernard Kerr, and John Stasko. 2018. Data Illustrator: Augmenting Vector Design Tools with Lazy Data Binding for Expressive Visualization Authoring. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, Montreal, QC, Canada, 1\u201313. https://doi.org/10.1145/3173574.3173697",
+      "doi": "10.1145/3173574.3173697"
+    },
+    {
+      "text": "Aran Lunzer, Amelia McNamara, and Robert Krahn. 2014. LivelyR: Making R charts livelier.",
+      "doi": ""
+    },
+    {
+      "text": "Kwan-Liu Ma. 2000. Visualizing visualizations. User interfaces for managing and exploring scientific visualization data. IEEE Computer Graphics and Applications 20, 5 (2000), 16\u201319.",
+      "doi": "10.1109/38.865874"
+    },
+    {
+      "text": "Jock Mackinlay. 1986. Automating the Design of Graphical Presentations of Relational Information. ACM Trans. Graph. 5, 2 (1986), 110\u2013141. https://doi.org/10.1145/22949.22950",
+      "doi": "10.1145/22949.22950"
+    },
+    {
+      "text": "Jock Mackinlay, Pat Hanrahan, and Chris Stolte. 2007. Show Me: Automatic Presentation for Visual Analysis. IEEE Transactions on Visualization and Computer Graphics 13, 6(2007), 1137\u20131144.",
+      "doi": "10.1109/TVCG.2007.70594"
+    },
+    {
+      "text": "Joe Marks, Brad Andalman, Paul\u00a0A Beardsley, William Freeman, Sarah Gibson, Jessica Hodgins, Thomas Kang, Brian Mirtich, Hanspeter Pfister, Wheeler Ruml, 1997. Design Galleries: A General Approach to Setting Parameters for Computer Graphics and Animation. In Proceedings of the 24th annual conference on Computer graphics and interactive techniques. ACM, Los Angeles, CA, USA, 389\u2013400.",
+      "doi": "10.1145/258734.258887"
+    },
+    {
+      "text": "Michele Mauri, Tommaso Elli, Giorgio Caviglia, Giorgio Uboldi, and Matteo Azzi. 2017. RAWGraphs: A Visualisation Platform to Create Open Outputs. In Proceedings of the 12th Biannual Conference on Italian SIGCHI Chapter, CHItaly 2017. ACM, Cagliari, Italy, 28:1\u201328:5. https://doi.org/10.1145/3125571.3125585",
+      "doi": "10.1145/3125571.3125585"
+    },
+    {
+      "text": "Andrew McNutt and Gordon Kindlmann. 2018. Linting for Visualization: Towards a Practical Automated Visualization Guidance System.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0M. McNutt, Gordon\u00a0L. Kindlmann, and Michael Correll. 2020. Surfacing Visualization Mirages. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu, HI, USA, 1\u201316. https://doi.org/10.1145/3313831.3376420",
+      "doi": "10.1145/3313831.3376420"
+    },
+    {
+      "text": "Honghui Mei, Yuxin Ma, Yating Wei, and Wei Chen. 2018. The design space of construction tools for information visualization: A survey. Journal of Visual Languages & Computing 44 (2018), 120\u2013132. https://doi.org/10.1016/j.jvlc.2017.10.001",
+      "doi": ""
+    },
+    {
+      "text": "nteract. 2020. data-explorer. https://github.com/nteract/data-explorer",
+      "doi": ""
+    },
+    {
+      "text": "nteract. 2020. papermill. https://github.com/nteract/papermill",
+      "doi": ""
+    },
+    {
+      "text": "Deokgun Park, Steven\u00a0M. Drucker, Roland Fernandez, and Niklas Elmqvist. 2018. Atom: A Grammar for Unit Visualizations. IEEE Transactions on Visualization and Computer Graphics 24, 12(2018), 3032\u20133043. https://doi.org/10.1109/TVCG.2017.2785807",
+      "doi": ""
+    },
+    {
+      "text": "Felipe Pezoa, Juan\u00a0L. Reutter, Fernando Su\u00e1rez, Mart\u00edn Ugarte, and Domagoj Vrgoc. 2016. Foundations of JSON Schema. In Proceedings of the 25th International Conference on World Wide Web. ACM, Montreal, Canada, 263\u2013273. https://doi.org/10.1145/2872427.2883029",
+      "doi": "10.1145/2872427.2883029"
+    },
+    {
+      "text": "Ate Poorthuis, Lucas van\u00a0der Zee, Grace Guo, Jo\u00a0Hsi Keong, and Bianchi Dy. 2020. Florence: a Web-based Grammar of Graphics for Making Maps and Learning Cartography. Cartographic Perspectives 2020, 96 (December 2020), 32\u201350. https://doi.org/10.14714/CP96.1645",
+      "doi": ""
+    },
+    {
+      "text": "Xiaoying Pu and Matthew Kay. 2018. The Garden of Forking Paths in Visualization: A Design Space for Reliable Exploratory Visual Analytics : Position Paper. In 2018 IEEE Evaluation and Beyond - Methodological Approaches for Visualization, Michael Sedlmair, Petra Isenberg, Miriah Meyer, and Tobias Isenberg (Eds.). IEEE Computer Society, Berlin, Germany, 37\u201345. https://doi.org/10.1109/BELIV.2018.8634103",
+      "doi": ""
+    },
+    {
+      "text": "Xiaoying Pu and Matthew Kay. 2020. A Probabilistic Grammar of Graphics. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, Regina Bernhaupt, Florian\u00a0\u2019Floyd\u2019 Mueller, David Verweij, Josh Andres, Joanna McGrenere, Andy Cockburn, Ignacio Avellino, Alix Goguey, Pernille Bj\u00f8n, Shengdong Zhao, Briane\u00a0Paul Samson, and Rafal Kocielnik (Eds.). ACM, Honolulu, HI, USA, 1\u201313. https://doi.org/10.1145/3313831.3376466",
+      "doi": ""
+    },
+    {
+      "text": "Donghao Ren, Bongshin Lee, and Matthew Brehmer. 2018. Charticulator: Interactive construction of bespoke chart layouts. IEEE transactions on visualization and computer graphics 25, 1(2018), 789\u2013799.",
+      "doi": ""
+    },
+    {
+      "text": "Hugo Romat, Nathalie Henry\u00a0Riche, Ken Hinckley, Bongshin Lee, Caroline Appert, Emmanuel Pietriga, and Christopher Collins. 2019. ActiveInk: (Th) Inking with Data. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, Glasgow, Scotland, UK, 1\u201313. https://doi.org/10.1145/3290605.3300272",
+      "doi": "10.1145/3290605.3300272"
+    },
+    {
+      "text": "Hans Rosling and Zhongxing Zhang. 2011. Health advocacy with Gapminder animated statistics. Journal of Epidemiology and Global Health 1, 1 (2011), 11\u201314. https://doi.org/10.1016/j.jegh.2011.07.001",
+      "doi": ""
+    },
+    {
+      "text": "RStudio. 2020. Shiny. https://shiny.rstudio.com/ Accessed December 16, 2020.",
+      "doi": ""
+    },
+    {
+      "text": "Bahador Saket, Samuel Huron, Charles Perin, and Alex Endert. 2020. Investigating Direct Manipulation of Graphical Encodings as a Method for User Interaction. IEEE Transactions on Visualization and Computer Graphics 26, 1(2020), 482\u2013491. https://doi.org/10.1109/TVCG.2019.2934534",
+      "doi": ""
+    },
+    {
+      "text": "Bahador Saket, Lei Jiang, Charles Perin, and Alex Endert. 2019. Liger: Combining Interaction Paradigms for Visual Analysis. arXiv:1907.08345",
+      "doi": ""
+    },
+    {
+      "text": "Bahador Saket, Hannah Kim, Eli\u00a0T. Brown, and Alex Endert. 2016. Visualization by Demonstration: An Interaction Paradigm for Visual Data Exploration. IEEE Transactions on Visualization and Computer Graphics 23, 1(2016), 331\u2013340. https://doi.org/10.1109/TVCG.2016.259883",
+      "doi": "10.1109/TVCG.2016.2598839"
+    },
+    {
+      "text": "Arvind Satyanarayan and Jeffrey Heer. 2014. Lyra: An Interactive Visualization Design Environment. Computer Graphics Forum 33, 3 (2014), 351\u2013360. https://doi.org/10.1111/cgf.12391",
+      "doi": ""
+    },
+    {
+      "text": "Arvind Satyanarayan, Bongshin Lee, Donghao Ren, Jeffrey Heer, John Stasko, John Thompson, Matthew Brehmer, and Zhicheng Liu. 2020. Critical Reflections on Visualization Authoring Systems. IEEE Transactions on Visualization and Computer Graphics 26, 1(2020), 461\u2013471. https://doi.org/10.1109/TVCG.2019.2934281",
+      "doi": ""
+    },
+    {
+      "text": "Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer. 2017. Vega-Lite: A Grammar of Interactive Graphics. IEEE Transactions on Visualization and Computer Graphics 23, 1(2017), 341\u2013350. https://doi.org/10.1109/TVCG.2016.2599030",
+      "doi": "10.1109/TVCG.2016.2599030"
+    },
+    {
+      "text": "Arvind Satyanarayan, Ryan Russell, Jane Hoffswell, and Jeffrey Heer. 2016. Reactive Vega: A Streaming Dataflow Architecture for Declarative Interactive Visualization. IEEE Transactions on Visualization and Computer Graphics 22, 1(2016), 659\u2013668. https://doi.org/10.1109/TVCG.2015.2467091",
+      "doi": "10.1109/TVCG.2015.2467091"
+    },
+    {
+      "text": "Arvind Satyanarayan, Kanit Wongsuphasawat, and Jeffrey Heer. 2014. Declarative Interaction Design for Data Visualization. In Proceedings of the 27th annual ACM symposium on User interface software and technology. ACM, Honolulu, HI, USA, 669\u2013678. https://doi.org/10.1145/2642918.2647360",
+      "doi": "10.1145/2642918.2647360"
+    },
+    {
+      "text": "Ben Shneiderman. 1983. Direct Manipulation: A Step Beyond Programming Languages. Computer 16, 8 (1983), 57\u201369. https://doi.org/10.1109/MC.1983.1654471",
+      "doi": "10.1109/MC.1983.1654471"
+    },
+    {
+      "text": "Chris Stolte, Diane Tang, and Pat Hanrahan. 2002. Polaris: A System for Query, Analysis, and Visualization of Multidimensional Relational Databases. IEEE Transactions on Visualization and Computer Graphics 8, 1(2002), 52\u201365.",
+      "doi": "10.1109/2945.981851"
+    },
+    {
+      "text": "Wenbo Tao, Xinli Hou, Adam Sah, Leilani Battle, Remco Chang, and Michael Stonebraker. 2021. Kyrix-S: Authoring Scalable Scatterplot Visualizations of Big Data.",
+      "doi": ""
+    },
+    {
+      "text": "TIBCO. 2020. Spotfire. https://www.tibco.com/products/tibco-spotfire",
+      "doi": ""
+    },
+    {
+      "text": "Jacob VanderPlas, Brian\u00a0E. Granger, Jeffrey Heer, Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Eitan Lees, Ilia Timofeev, Ben Welsh, and Scott Sievert. 2018. Altair: Interactive Statistical Visualizations for Python.Journal of Open Source Software 3, 32 (2018), 1057. https://doi.org/10.21105/joss.01057",
+      "doi": ""
+    },
+    {
+      "text": "Vega. 2020. Aggregate Bar Chart. https://vega.github.io/vega-lite/examples/bar_aggregate.html",
+      "doi": ""
+    },
+    {
+      "text": "Vega. 2020. Box Plot with Min/Max Whiskers. https://vega.github.io/vega-lite/examples/boxplot_minmax_2D_vertical.html",
+      "doi": ""
+    },
+    {
+      "text": "Vega. 2020. Editor/IDE for Vega and Vega-Lite. https://vega.github.io/editor/.",
+      "doi": ""
+    },
+    {
+      "text": "Vega. 2020. One Dot per Zipcode in the U.S.https://vega.github.io/vega-lite/examples/geo_circle.html",
+      "doi": ""
+    },
+    {
+      "text": "Vega. 2020. Vega-Lite Documentation. https://vega.github.io/vega-lite Accessed August 19, 2020.",
+      "doi": ""
+    },
+    {
+      "text": "Bret Victor. 2013. Drawing Dynamic Visualizations. https://vimeo.com/66085662",
+      "doi": ""
+    },
+    {
+      "text": "Fernanda\u00a0B. Viegas, Martin Wattenberg, Frank Van\u00a0Ham, Jesse Kriss, and Matt McKeon. 2007. Many Eyes: A Site for Visualization at Internet Scale. IEEE Transactions on Visualization and Computer Graphics 13, 6(2007), 1121\u20131128. https://doi.org/10.1109/TVCG.2007.70577",
+      "doi": "10.1109/TVCG.2007.70577"
+    },
+    {
+      "text": "Chenglong Wang, Yu Feng, Rastislav Bodik, Alvin Cheung, and Isil Dillig. 2019. Visualization by Example. Proceedings of the ACM on Programming Languages 4, POPL (Dec. 2019), 49:1\u201349:28. https://doi.org/10.1145/3371117",
+      "doi": "10.1145/3371117"
+    },
+    {
+      "text": "Hadley Wickham. 2010. A Layered Grammar of Graphics. Journal of Computational and Graphical Statistics 19, 1(2010), 3\u201328. https://doi.org/10.1198/jcgs.2009.07098",
+      "doi": ""
+    },
+    {
+      "text": "Hadley Wickham, Dianne Cook, Heike Hofmann, and Andreas Buja. 2010. Graphical Inference for Infovis. IEEE Transactions on Visualization and Computer Graphics 16, 6(2010), 973\u2013979. https://doi.org/10.1109/TVCG.2010.161",
+      "doi": "10.1109/TVCG.2010.161"
+    },
+    {
+      "text": "Hadley Wickham and Heike Hofmann. 2011. Product Plots. IEEE Transactions on Visualization and Computer Graphics 17, 12(2011), 2223\u20132230. https://doi.org/10.1109/TVCG.2011.227",
+      "doi": "10.1109/TVCG.2011.227"
+    },
+    {
+      "text": "Leland Wilkinson. 2005. The Grammar of Graphics, Second Edition. Springer, New York City, NY, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Krist Wongsuphasawat. 2020. Encodable: Configurable Grammar for Visualization Components. In 31st IEEE Visualization Conference, IEEE VIS 2020 - Short Papers. IEEE, Salt Lake City, UT, USA, 5.",
+      "doi": ""
+    },
+    {
+      "text": "Kanit Wongsuphasawat, Dominik Moritz, Anushka Anand, Jock Mackinlay, Bill Howe, and Jeffrey Heer. 2015. Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations. IEEE Transactions on Visualization and Computer Graphics 22, 1(2015), 649\u2013658. https://doi.org/10.1109/TVCG.2015.2467191",
+      "doi": "10.1109/TVCG.2015.2467191"
+    },
+    {
+      "text": "Kanit Wongsuphasawat, Zening Qu, Dominik Moritz, Riley Chang, Felix Ouk, Anushka Anand, Jock Mackinlay, Bill Howe, and Jeffrey Heer. 2017. Voyager 2: Augmenting Visual Analysis with Partial View Specifications. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, Denver, CO, USA, 2648\u20132659. https://doi.org/10.1145/3025453.3025768",
+      "doi": "10.1145/3025453.3025768"
+    },
+    {
+      "text": "Jo Wood, Alexander Kachkaev, and Jason Dykes. 2019. Design Exposition with Literate Visualization. IEEE Transactions on Visualization and Computer Graphics 25, 1(2019), 759\u2013768. https://doi.org/10.1109/TVCG.2018.2864836",
+      "doi": "10.1109/TVCG.2018.2864836"
+    },
+    {
+      "text": "Yifan Wu, Joseph\u00a0M. Hellerstein, and Arvind Satyanarayan. 2020. B2: Bridging Code and Interactive Visualization in Computational Notebooks. In UIST \u201920: The 33rd Annual ACM Symposium on User Interface Software and Technology. ACM, Virtual Event, USA, 152\u2013165. https://doi.org/10.1145/3379337.3415851",
+      "doi": "10.1145/3379337.3415851"
+    },
+    {
+      "text": "Zheguang Zhao, Emanuel Zgraggen, Lorenzo De\u00a0Stefani, Carsten Binnig, Eli Upfal, and Tim Kraska. 2017. Safe Visual Data Exploration. In Proceedings of the 2017 ACM International Conference on Management of Data - SIGMOD \u201917. ACM, Chicago, IL, USA, 1671\u20131674. https://doi.org/10.1145/3035918.3058749",
+      "doi": "10.1145/3035918.3058749"
+    },
+    {
+      "text": "Jonathan Zong, Dhiraj Barnwal, Rupayan Neogy, and Arvind Satyanarayan. 2021. Lyra 2: Designing Interactive Visualizations by Demonstration.",
+      "doi": ""
+    }
+  ]
+}

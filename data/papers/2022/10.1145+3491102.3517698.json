@@ -1,0 +1,334 @@
+{
+  "doi": "10.1145/3491102.3517698",
+  "title": "FaceOri: Tracking Head Position and Orientation Using Ultrasonic Ranging on Earphones",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-12",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Face orientation can often indicate users\u2019 intended interaction target. In this paper, we propose FaceOri, a novel face tracking technique based on acoustic ranging using earphones. FaceOri can leverage the speaker on a commodity device to emit an ultrasonic chirp, which is picked up by the set of microphones on the user\u2019s earphone, and then processed to calculate the distance from each microphone to the device. These measurements are used to derive the user\u2019s face orientation and distance with respect to the device. We conduct a ground truth comparison and user study to evaluate FaceOri\u2019s performance. The results show that the system can determine whether the user orients to the device at a 93.5% accuracy within a 1.5 meters range. Furthermore, FaceOri can continuously track user\u2019s head orientation with a median absolute error of 10.9 mm in the distance, 3.7\u00b0 in yaw, and 5.8\u00b0 in pitch. FaceOri can allow for convenient hands-free control of devices and produce more intelligent context-aware interactions.",
+  "authors": [
+    {
+      "name": "Yuntao Wang",
+      "institution": "Department of Computer Science and Technology, Tsinghua University, China",
+      "img": "/do/10.1145/contrib-81490648565/rel-imgonly/d61c7b4b94334d25b2a55a58d9b700f.jpg",
+      "acmid": "81490648565",
+      "orcid": "0000-0002-4249-8893"
+    },
+    {
+      "name": "Jiexin Ding",
+      "institution": "Global Innovation Exchange, Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660237226",
+      "orcid": "missing"
+    },
+    {
+      "name": "Ishan Chatterjee",
+      "institution": "Paul G. Allen School of Computer Science & Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658762017",
+      "orcid": "0000-0002-2123-6392"
+    },
+    {
+      "name": "Farshid Salemi Parizi",
+      "institution": "Electrical and Computer Engineering, University of Washington, United States",
+      "img": "/do/10.1145/contrib-99659308577/rel-imgonly/99659308577.jpg",
+      "acmid": "99659308577",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yuzhou Zhuang",
+      "institution": "Global Innovation Exchange, Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659892481",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yukang Yan",
+      "institution": "Department of Computer Science and Technology, Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659161020",
+      "orcid": "0000-0001-7515-3755"
+    },
+    {
+      "name": "Shwetak Patel",
+      "institution": "Paul G. Allen School of Computer Science & Engineering and Electrical and Computer Engineering, University of Washington, United States",
+      "img": "/do/10.1145/contrib-81100490064/rel-imgonly/81100490064.jpg",
+      "acmid": "81100490064",
+      "orcid": "0000-0002-6300-4389"
+    },
+    {
+      "name": "Yuanchun Shi",
+      "institution": "Department of Computer science and Technology, Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100647319",
+      "orcid": "0000-0003-2273-6927"
+    }
+  ],
+  "references": [
+    {
+      "text": "A.\u00a0F. Abate, P. Barra, C. Bisogni, M. Nappi, and S. Ricciardi. 2019. Near Real-Time Three Axis Head Pose Estimation Without Training. IEEE Access 7(2019), 64256\u201364265. https://doi.org/10.1109/ACCESS.2019.2917451",
+      "doi": ""
+    },
+    {
+      "text": "Karan Ahuja, Andy Kong, Mayank Goel, and Chris Harrison. 2020. Direction-of-Voice (DoV) Estimation for Intuitive Speech Interaction with Smart Devices Ecosystems. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201920). Association for Computing Machinery, New York, NY, USA, 1121\u20131131. https://doi.org/10.1145/3379337.3415588",
+      "doi": "10.1145/3379337.3415588"
+    },
+    {
+      "text": "Apple. 2018. ARKit. https://developer.apple.com/documentation/arkit Accessed: 2018-03-29.",
+      "doi": ""
+    },
+    {
+      "text": "Ilse Bakx, Koen Van\u00a0Turnhout, and Jacques Terken. 2003. Facial orientation during multi-party interaction with information kiosks. Proceedings of INTERACT 2003 Zurich, Switzerland (2003), 163\u2013170.",
+      "doi": ""
+    },
+    {
+      "text": "G. Borghi, M. Fabbri, R. Vezzani, S. Calderara, and R. Cucchiara. 2020. Face-from-Depth for Head Pose Estimation on Depth Images. IEEE Transactions on Pattern Analysis and Machine Intelligence 42, 3(2020), 596\u2013609. https://doi.org/10.1109/TPAMI.2018.2885472",
+      "doi": ""
+    },
+    {
+      "text": "Doug\u00a0A. Bowman, Ernst Kruijff, Joseph\u00a0J. LaViola, and Ivan Poupyrev. 2004. 3D User Interfaces: Theory and Practice. Addison Wesley Longman Publishing Co., Inc., USA.",
+      "doi": "10.5555/993837"
+    },
+    {
+      "text": "Stephen Brewster, Joanna Lumsden, Marek Bell, Malcolm Hall, and Stuart Tasker. 2003. Multimodal \u2019eyes-Free\u2019 Interaction Techniques for Wearable Devices. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Ft. Lauderdale, Florida, USA) (CHI \u201903). Association for Computing Machinery, New York, NY, USA, 473\u2013480. https://doi.org/10.1145/642611.642694",
+      "doi": "10.1145/642611.642694"
+    },
+    {
+      "text": "Mihai B\u00e2ce, Sander Staal, and Andreas Bulling. 2019. Accurate and Robust Eye Contact Detection During Everyday Mobile Device Interactions. arxiv:1907.11115\u00a0[cs.HC]",
+      "doi": ""
+    },
+    {
+      "text": "Gaoshuai Cao, Kuang Yuan, Jie Xiong, Panlong Yang, Yubo Yan, Hao Zhou, and Xiang-Yang Li. 2020. EarphoneTrack: Involving Earphones into the Ecosystem of Acoustic Motion Tracking. Association for Computing Machinery, New York, NY, USA, 95\u2013108. https://doi.org/10.1145/3384419.3430730",
+      "doi": "10.1145/3384419.3430730"
+    },
+    {
+      "text": "Z. Cao, G. Hidalgo, T. Simon, S.\u00a0E. Wei, and Y. Sheikh. 2021. OpenPose: Realtime Multi-Person 2D Pose Estimation Using Part Affinity Fields. IEEE Transactions on Pattern Analysis and Machine Intelligence 43, 1(2021), 172\u2013186. https://doi.org/10.1109/TPAMI.2019.2929257",
+      "doi": "10.1109/TPAMI.2019.2929257"
+    },
+    {
+      "text": "R.\u00a0M.\u00a0S. Clifford, N.\u00a0M.\u00a0B. Tuanquin, and R.\u00a0W. Lindeman. 2017. Jedi ForceExtension: Telekinesis as a Virtual Reality interaction metaphor. In 2017 IEEE Symposium on 3D User Interfaces (3DUI). 239\u2013240. https://doi.org/10.1109/3DUI.2017.7893360",
+      "doi": ""
+    },
+    {
+      "text": "Heiko Drewes, Alexander De\u00a0Luca, and Albrecht Schmidt. 2007. Eye-gaze interaction for mobile phones. In Proceedings of the 4th international conference on mobile technology, applications, and systems and the 1st international symposium on Computer human interaction in mobile technology. 364\u2013371.",
+      "doi": "10.1145/1378063.1378122"
+    },
+    {
+      "text": "Augusto Esteves, Eduardo Velloso, Andreas Bulling, and Hans Gellersen. 2015. Orbits: Gaze interaction for smart watches using smooth pursuit eye movements. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. 457\u2013466.",
+      "doi": "10.1145/2807442.2807499"
+    },
+    {
+      "text": "Google. 2020. ARCore API. https://developers.google.com/ar/reference Accessed: 2020-12-23.",
+      "doi": ""
+    },
+    {
+      "text": "Sidhant Gupta, Daniel Morris, Shwetak Patel, and Desney Tan. 2012. Soundwave: using the doppler effect to sense gestures. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1911\u20131914.",
+      "doi": "10.1145/2207676.2208331"
+    },
+    {
+      "text": "Sebastian Hueber, Christian Cherek, Philipp Wacker, Jan Borchers, and Simon Voelker. 2020. Headbang: Using Head Gestures to Trigger Discrete Actions on Mobile Devices. In 22nd International Conference on Human-Computer Interaction with Mobile Devices and Services(Oldenburg, Germany) (MobileHCI \u201920). Association for Computing Machinery, New York, NY, USA, Article 17, 10\u00a0pages. https://doi.org/10.1145/3379503.3403538",
+      "doi": "10.1145/3379503.3403538"
+    },
+    {
+      "text": "Dries Hulens, Kristof Van\u00a0Beeck, and Toon Goedem\u00e9. 2016. Fast and Accurate Face Orientation Measurement in Low-resolution Images on Embedded Hardware. https://doi.org/10.5220/0005716105380544",
+      "doi": ""
+    },
+    {
+      "text": "Eiichi Itoh. 2001. Multi-modal Interface with Voice and Head Tracking for Multiple Home Appliances.. In INTERACT. 727\u2013728.",
+      "doi": ""
+    },
+    {
+      "text": "Robert J.\u00a0K. Jacob. 1990. What You Look at is What You Get: Eye Movement-Based Interaction Techniques. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Seattle, Washington, USA) (CHI \u201990). Association for Computing Machinery, New York, NY, USA, 11\u201318. https://doi.org/10.1145/97243.97246",
+      "doi": "10.1145/97243.97246"
+    },
+    {
+      "text": "Vikram Jeet, Hardeep\u00a0Singh Dhillon, and Sandeep Bhatia. 2015. Radio frequency home appliance control based on head tracking and voice control for disabled person. In 2015 Fifth International Conference on Communication Systems and Network Technologies. IEEE, 559\u2013563.",
+      "doi": ""
+    },
+    {
+      "text": "Kaustubh Kalgaonkar and Bhiksha Raj. 2009. One-handed gesture recognition using ultrasonic Doppler sonar. In 2009 IEEE International Conference on Acoustics, Speech and Signal Processing. IEEE, 1889\u20131892.",
+      "doi": "10.1109/ICASSP.2009.4959977"
+    },
+    {
+      "text": "Christina Katsini, Human Opsis, Yasmeen Abdrabou, George\u00a0E Raptis, Mohamed Khamis, and Florian Alt. 2020. The Role of Eye Gaze in Security and Privacy Applications: Survey and Future HCI Research Directions. In Proceedings of the 38th Annual ACM Conference on Human Factors in Computing Systems (Honolulu, Hawaii, USA)(CHI\u201920). ACM, New York, NY, USA, Vol.\u00a021.",
+      "doi": "10.1145/3313831.3376840"
+    },
+    {
+      "text": "MARUYAMA KINYA and ENDO MITSUO. 1983. The effect of face orientation upon apparent direction of gaze. Tohoku Psychologica Folia 42, 1-4 (1983), 126\u2013138.",
+      "doi": ""
+    },
+    {
+      "text": "Manu Kumar, Andreas Paepcke, and Terry Winograd. 2007. EyePoint: practical pointing and selection using gaze and keyboard. In Proceedings of the SIGCHI conference on Human factors in computing systems. 421\u2013430.",
+      "doi": "10.1145/1240624.1240692"
+    },
+    {
+      "text": "Mikko Kyt\u00f6, Barrett Ens, Thammathip Piumsomboon, Gun\u00a0A. Lee, and Mark Billinghurst. 2018. Pinpointing: Precise Head- and Eye-Based Target Selection for Augmented Reality. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3173574.3173655",
+      "doi": "10.1145/3173574.3173655"
+    },
+    {
+      "text": "Steven\u00a0M. LaValle, Anna Yershova, Max Katsev, and Michael Antonov. 2014. Head tracking for the Oculus Rift. In 2014 IEEE International Conference on Robotics and Automation (ICRA). 187\u2013194. https://doi.org/10.1109/ICRA.2014.6906608",
+      "doi": ""
+    },
+    {
+      "text": "Chen Liang, Chun Yu, Xiaoying Wei, Xuhai Xu, Yongquan Hu, Yuntao Wang, and Yuanchun Shi. 2021. Auth+Track: Enabling Authentication Free Interaction on Smartphone by Continuous User Tracking(CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 2, 16\u00a0pages. https://doi.org/10.1145/3411764.3445624",
+      "doi": ""
+    },
+    {
+      "text": "Yi Liang, Long Zhang, Mengdao Xing, and Zheng Bao. 2009. High-speed ground moving target detection research using triangular modulation FMCW. Frontiers of Electrical and Electronic Engineering in China 4, 2(2009), 127\u2013133. https://doi.org/10.1007/s11460-009-0032-z",
+      "doi": ""
+    },
+    {
+      "text": "Rainer Malkewitz. 1998. Head pointing and speech control as a hands-free interface to desktop computing. In Proceedings of the third international ACM conference on Assistive technologies. 182\u2013188.",
+      "doi": "10.1145/274497.274531"
+    },
+    {
+      "text": "Rainer Malkewitz. 1998. Head Pointing and Speech Control as a Hands-Free Interface to Desktop Computing. In Proceedings of the Third International ACM Conference on Assistive Technologies (Marina del Rey, California, USA) (Assets \u201998). Association for Computing Machinery, New York, NY, USA, 182\u2013188. https://doi.org/10.1145/274497.274531",
+      "doi": "10.1145/274497.274531"
+    },
+    {
+      "text": "Aadil Mamuji, Roel Vertegaal, J Shell, Thanh Pham, and Changuk Sohn. 2003. AuraLamp: contextual speech recognition in an eye contact sensing light appliance. In Extended abstracts of ubicomp, Vol.\u00a03.",
+      "doi": ""
+    },
+    {
+      "text": "Wenguang Mao, Jian He, and Lili Qiu. 2016. CAT: High-Precision Acoustic Motion Tracking. In Proceedings of the 22nd Annual International Conference on Mobile Computing and Networking (New York City, New York) (MobiCom \u201916). Association for Computing Machinery, New York, NY, USA, 69\u201381. https://doi.org/10.1145/2973750.2973755",
+      "doi": "10.1145/2973750.2973755"
+    },
+    {
+      "text": "Wenguang Mao, Zaiwei Zhang, Lili Qiu, Jian He, Yuchen Cui, and Sangki Yun. 2017. Indoor Follow Me Drone. In Proceedings of the 15th Annual International Conference on Mobile Systems, Applications, and Services (Niagara Falls, New York, USA) (MobiSys \u201917). Association for Computing Machinery, New York, NY, USA, 345\u2013358. https://doi.org/10.1145/3081333.3081362",
+      "doi": "10.1145/3081333.3081362"
+    },
+    {
+      "text": "Sven Mayer, Gierad Laput, and Chris Harrison. 2020. Enhancing Mobile Voice Assistants with WorldGaze. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/3313831.3376479",
+      "doi": "10.1145/3313831.3376479"
+    },
+    {
+      "text": "I\u00a0Skolnik Merrill 2001. Introduction to radar systems. Mc Grow-Hill 7, 10 (2001).",
+      "doi": ""
+    },
+    {
+      "text": "H. Nakajima, K. Kikuchi, T. Daigo, Y. Kaneda, K. Nakadai, and Y. Hasegawa. 2009. Real-time sound source orientation estimation using a 96 channel microphone array. In 2009 IEEE/RSJ International Conference on Intelligent Robots and Systems. 676\u2013683. https://doi.org/10.1109/IROS.2009.5354285",
+      "doi": ""
+    },
+    {
+      "text": "Alberto\u00a0Yoshihiro Nakano, Seiichi Nakagawa, and Kazumasa Yamamoto. 2009. Automatic estimation of position and orientation of an acoustic source by a microphone array network. The Journal of the Acoustical Society of America 126, 6 (2009), 3084\u20133094. https://doi.org/10.1121/1.3257548 arXiv:https://doi.org/10.1121/1.3257548",
+      "doi": ""
+    },
+    {
+      "text": "Rajalakshmi Nandakumar, Vikram Iyer, Desney Tan, and Shyamnath Gollakota. 2016. Fingerio: Using active sonar for fine-grained finger tracking. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 1515\u20131525.",
+      "doi": "10.1145/2858036.2858580"
+    },
+    {
+      "text": "Alice Oh, Harold Fox, Max Van\u00a0Kleek, Aaron Adler, Krzysztof Gajos, Louis-Philippe Morency, and Trevor Darrell. 2002. Evaluating Look-to-Talk: A Gaze-Aware Interface in a Collaborative Environment. In CHI \u201902 Extended Abstracts on Human Factors in Computing Systems (Minneapolis, Minnesota, USA) (CHI EA \u201902). Association for Computing Machinery, New York, NY, USA, 650\u2013651. https://doi.org/10.1145/506443.506528",
+      "doi": ""
+    },
+    {
+      "text": "Chunyi Peng, Guobin Shen, Yongguang Zhang, Yanlin Li, and Kun Tan. 2007. Beepbeep: a high accuracy acoustic ranging system using cots mobile devices. In Proceedings of the 5th international conference on Embedded networked sensor systems. 1\u201314.",
+      "doi": "10.1145/1322263.1322265"
+    },
+    {
+      "text": "Mark\u00a0A Richards. 2014. Fundamentals of radar signal processing. McGraw-Hill Education.",
+      "doi": ""
+    },
+    {
+      "text": "Piero Rivera\u00a0Benois, Patrick Nowak, and Udo Zoelzer. 2018. Hybrid Active Noise Control Structures: A Short Overview. In Speech Communication; 13th ITG-Symposium. 1\u20135.",
+      "doi": ""
+    },
+    {
+      "text": "Florian Roider, Lars Reisig, and Tom Gross. 2018. Just Look: The Benefits of Gaze-Activated Voice Input in the Car. In Adjunct Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Toronto, ON, Canada) (AutomotiveUI \u201918). Association for Computing Machinery, New York, NY, USA, 210\u2013214. https://doi.org/10.1145/3239092.3265968",
+      "doi": "10.1145/3239092.3265968"
+    },
+    {
+      "text": "Andrey Ronzhin and Alexey Karpov. 2005. Assistive multimodal system based on speech recognition and head tracking. In 2005 13th European Signal Processing Conference. IEEE, 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "Carlos Segura, Cristian Canton-Ferrer, Alberto Abad, Josep\u00a0R Casas, and Javier Hernando. 2007. Multimodal head orientation towards attention tracking in smartrooms. In 2007 IEEE International Conference on Acoustics, Speech and Signal Processing-ICASSP\u201907, Vol.\u00a02. IEEE, II\u2013681.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0S Shell, Ted Selker, and Roel Vertegaal. 2003. Interacting with groups of computers. Commun. ACM 46, 3 (2003), 40\u201346.",
+      "doi": "10.1145/636772.636796"
+    },
+    {
+      "text": "Jeffrey\u00a0S. Shell, Roel Vertegaal, and Alexander\u00a0W. Skaburskis. 2003. EyePliances: Attention-Seeking Devices That Respond to Visual Attention. In CHI \u201903 Extended Abstracts on Human Factors in Computing Systems (Ft. Lauderdale, Florida, USA) (CHI EA \u201903). Association for Computing Machinery, New York, NY, USA, 770\u2013771. https://doi.org/10.1145/765891.765981",
+      "doi": ""
+    },
+    {
+      "text": "Snapchat. 2020. Lens Studio. https://lensstudio.snapchat.com/api/ Accessed: 2020-12-08.",
+      "doi": ""
+    },
+    {
+      "text": "R. Stiefelhagen. 2002. Tracking focus of attention in meetings. In Proceedings. Fourth IEEE International Conference on Multimodal Interfaces. 273\u2013280. https://doi.org/10.1109/ICMI.2002.1167006",
+      "doi": "10.1109/ICMI.2002.1167006"
+    },
+    {
+      "text": "Rainer Stiefelhagen and Jie Zhu. 2002. Head orientation and gaze direction in meetings. In CHI\u201902 Extended Abstracts on Human Factors in Computing Systems. 858\u2013859.",
+      "doi": ""
+    },
+    {
+      "text": "Ke Sun, Yuntao Wang, Chun Yu, Yukang Yan, Hongyi Wen, and Yuanchun Shi. 2017. Float: One-Handed and Touch-Free Target Selection on Smartwatches. Association for Computing Machinery, New York, NY, USA, 692\u2013704. https://doi.org/10.1145/3025453.3026027",
+      "doi": "10.1145/3025453.3026027"
+    },
+    {
+      "text": "David\u00a0Joseph Tan, Federico Tombari, and Nassir Navab. 2018. Real-Time Accurate 3D Head Tracking and Pose Estimation with Consumer RGB-D Cameras. International Journal of Computer Vision 126, 2 (2018), 158\u2013183. https://doi.org/10.1007/s11263-017-0988-8",
+      "doi": "10.1007/s11263-017-0988-8"
+    },
+    {
+      "text": "Roel Vertegaal. 2003. Attentive User Interfaces. Commun. ACM 46, 3 (March 2003). https://doi.org/10.1145/3263733",
+      "doi": ""
+    },
+    {
+      "text": "Roel Vertegaal, Aadil Mamuji, Changuk Sohn, and Daniel Cheng. 2005. Media Eyepliances: Using Eye Tracking for Remote Control Focus Selection of Appliances. In CHI \u201905 Extended Abstracts on Human Factors in Computing Systems (Portland, OR, USA) (CHI EA \u201905). Association for Computing Machinery, New York, NY, USA, 1861\u20131864. https://doi.org/10.1145/1056808.1057041",
+      "doi": "10.1145/1056808.1057041"
+    },
+    {
+      "text": "Roel Vertegaal, Robert Slagter, Gerrit van\u00a0der Veer, and Anton Nijholt. 2001. Eye Gaze Patterns in Conversations: There is More to Conversational Agents than Meets the Eyes. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Seattle, Washington, USA) (CHI \u201901). Association for Computing Machinery, New York, NY, USA, 301\u2013308. https://doi.org/10.1145/365024.365119",
+      "doi": "10.1145/365024.365119"
+    },
+    {
+      "text": "Anran Wang and Shyamnath Gollakota. 2019. MilliSonic: Pushing the Limits of Acoustic Motion Tracking. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, Article 18, 11\u00a0pages. https://doi.org/10.1145/3290605.3300248",
+      "doi": "10.1145/3290605.3300248"
+    },
+    {
+      "text": "Wei Wang, Alex\u00a0X Liu, and Ke Sun. 2016. Device-free gesture tracking using acoustic signals. In Proceedings of the 22nd Annual International Conference on Mobile Computing and Networking. 82\u201394.",
+      "doi": ""
+    },
+    {
+      "text": "Chin-Der Wann and Chih-Sheng Hsueh. 2007. NLOS mitigation with biased Kalman filters for range estimation in UWB systems. In TENCON 2007 - 2007 IEEE Region 10 Conference. 1\u20134. https://doi.org/10.1109/TENCON.2007.4429031",
+      "doi": ""
+    },
+    {
+      "text": "M. Weiss. 1982. Analysis of Some Modified Cell-Averaging CFAR Processors in Multiple-Target Situations. IEEE Trans. Aerospace Electron. Systems AES-18, 1 (1982), 102\u2013114. https://doi.org/10.1109/TAES.1982.309210",
+      "doi": ""
+    },
+    {
+      "text": "Cheng Xu, Jie He, Yuanyuan Li, Xiaotong Zhang, Xinghang Zhou, and Shihong Duan. 2019. Optimal Estimation and Fundamental Limits for Target Localization Using IMU/TOA Fusion Method. IEEE Access 7(2019), 28124\u201328136. https://doi.org/10.1109/ACCESS.2019.2902127",
+      "doi": ""
+    },
+    {
+      "text": "Xuhai Xu, Chun Yu, Yuntao Wang, and Yuanchun Shi. 2020. Recognizing Unintentional Touch on Interactive Tabletop. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 4, 1, Article 33 (mar 2020), 24\u00a0pages. https://doi.org/10.1145/3381011",
+      "doi": "10.1145/3381011"
+    },
+    {
+      "text": "Yukang Yan, Yingtian Shi, Chun Yu, and Yuanchun Shi. 2020. HeadCross: Exploring Head-Based Crossing Selection on Head-Mounted Displays. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 4, 1, Article 35 (mar 2020), 22\u00a0pages. https://doi.org/10.1145/3380983",
+      "doi": "10.1145/3380983"
+    },
+    {
+      "text": "Jackie\u00a0(Junrui) Yang, Gaurab Banerjee, Vishesh Gupta, Monica\u00a0S. Lam, and James\u00a0A. Landay. 2020. Soundr: Head Position and Orientation Prediction Using a Microphone Array. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376427",
+      "doi": ""
+    },
+    {
+      "text": "Sangki Yun, Yi-Chao Chen, and Lili Qiu. 2015. Turning a mobile device into a mouse in the air. In Proceedings of the 13th Annual International Conference on Mobile Systems, Applications, and Services. 15\u201329.",
+      "doi": "10.1145/2742647.2742662"
+    },
+    {
+      "text": "Cheng Zhang, Qiuyue Xue, Anandghan Waghmare, Sumeet Jain, Yiming Pu, Sinan Hersek, Kent Lyons, Kenneth\u00a0A Cunefare, Omer\u00a0T Inan, and Gregory\u00a0D Abowd. 2017. Soundtrak: Continuous 3d tracking of a finger using active acoustics. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 2 (2017), 1\u201325.",
+      "doi": "10.1145/3134754"
+    },
+    {
+      "text": "Yuzhou Zhuang, Yuntao Wang, Yukang Yan, Xuhai Xu, and Yuanchun Shi. 2021. ReflecTrack: Enabling 3D Acoustic Position Tracking Using Commodity Dual-Microphone Smartphones. In The 34th Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 1050\u20131062. https://doi.org/10.1145/3472749.3474805",
+      "doi": "10.1145/3472749.3474805"
+    }
+  ]
+}

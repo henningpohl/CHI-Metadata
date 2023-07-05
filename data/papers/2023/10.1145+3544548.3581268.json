@@ -1,0 +1,303 @@
+{
+  "doi": "10.1145/3544548.3581268",
+  "title": "Zeno: An Interactive Framework for Behavioral Evaluation of Machine Learning",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Machine learning models with high accuracy on test data can still produce systematic failures, such as harmful biases and safety issues, when deployed in the real world. To detect and mitigate such failures, practitioners run behavioral evaluation of their models, checking model outputs for specific types of inputs. Behavioral evaluation is important but challenging, requiring that practitioners discover real-world patterns and validate systematic failures. We conducted 18 semi-structured interviews with ML practitioners to better understand the challenges of behavioral evaluation and found that it is a collaborative, use-case-first process that is not adequately supported by existing task- and domain-specific tools. Using these findings, we designed zeno, a general-purpose framework for visualizing and testing AI systems across diverse use cases. In four case studies with participants using zeno on real-world models, we found that practitioners were able to reproduce previous manual analyses and discover new systematic failures.",
+  "authors": [
+    {
+      "name": "\u00c1ngel Alexander Cabrera",
+      "institution": "Human-Computer Interaction Institute, Carnegie Mellon University, United States",
+      "img": "/do/10.1145/contrib-99659589523/rel-imgonly/2022-headshot-cropped-small.png",
+      "acmid": "99659589523",
+      "orcid": "0000-0003-0348-3362"
+    },
+    {
+      "name": "Erica Fu",
+      "institution": "Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782616",
+      "orcid": "0000-0002-9284-5750"
+    },
+    {
+      "name": "Donald Bertucci",
+      "institution": "School of Electrical Engineering and Computer Science, Oregon State University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783875",
+      "orcid": "0000-0002-2726-4108"
+    },
+    {
+      "name": "Kenneth Holstein",
+      "institution": "Human-Computer Interaction Institute, Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659133171",
+      "orcid": "0000-0001-6730-922X"
+    },
+    {
+      "name": "Ameet Talwalkar",
+      "institution": "Machine Learning Department, Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81421595327",
+      "orcid": "0000-0001-6650-1893"
+    },
+    {
+      "name": "Jason I. Hong",
+      "institution": "Human-Computer Interaction Institute, Carnegie Mellon University, United States",
+      "img": "/do/10.1145/contrib-81408598366/rel-imgonly/81408598366.png",
+      "acmid": "81408598366",
+      "orcid": "0000-0002-9856-9654"
+    },
+    {
+      "name": "Adam Perer",
+      "institution": "Human-Computer Interaction Institute, Carnegie Mellon University, United States",
+      "img": "/do/10.1145/contrib-81100462318/rel-imgonly/adam_head.jpg",
+      "acmid": "81100462318",
+      "orcid": "0000-0002-8369-3847"
+    }
+  ],
+  "references": [
+    {
+      "text": "M. Arnold, D. Piorkowski, D. Reimer, J. Richards, J. Tsay, K.\u00a0R. Varshney, R.\u00a0K.\u00a0E. Bellamy, M. Hind, S. Houde, S. Mehta, A. Mojsilovic, R. Nair, K.\u00a0Natesan Ramamurthy, and A. Olteanu. 2019. FactSheets: Increasing trust in AI services through supplier\u2019s declarations of conformity. IBM Journal of Research and Development 63, 4/5 (July 2019), 6:1\u20136:13. https://doi.org/10.1147/JRD.2019.2942288",
+      "doi": ""
+    },
+    {
+      "text": "Josh Attenberg, Panagiotis\u00a0G. Ipeirotis, and Foster Provost. 2011. Beat the Machine: Challenging Workers to Find the Unknown Unknowns.",
+      "doi": ""
+    },
+    {
+      "text": "Solon Barocas and Andrew\u00a0D Selbst. 2018. Big Data\u2019s Disparate Impact. SSRN Electronic Journal 671 (2018), 671\u2013732. https://doi.org/10.2139/ssrn.2477899",
+      "doi": ""
+    },
+    {
+      "text": "Donald Bertucci, Md\u00a0Montaser Hamid, Yashwanthi Anand, Anita Ruangrotsakun, Delyar Tabatabai, Melissa Perez, and Minsuk Kahng. 2022. DendroMap: Visual Exploration of Large-Scale Image Datasets for Machine Learning with Treemaps. IEEE Transactions on Visualization and Computer Graphics (TVCG) (2022). https://div-lab.github.io/dendromap/ Publisher: IEEE.",
+      "doi": ""
+    },
+    {
+      "text": "Rishi Bommasani, Drew\u00a0A. Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney von Arx, Michael\u00a0S. Bernstein, Jeannette Bohg, Antoine Bosselut, Emma Brunskill, Erik Brynjolfsson, Shyamal Buch, Dallas Card, Rodrigo Castellon, Niladri Chatterji, Annie Chen, Kathleen Creel, Jared\u00a0Quincy Davis, Dora Demszky, Chris Donahue, Moussa Doumbouya, Esin Durmus, Stefano Ermon, John Etchemendy, Kawin Ethayarajh, Li Fei-Fei, Chelsea Finn, Trevor Gale, Lauren Gillespie, Karan Goel, Noah Goodman, Shelby Grossman, Neel Guha, Tatsunori Hashimoto, Peter Henderson, John Hewitt, Daniel\u00a0E. Ho, Jenny Hong, Kyle Hsu, Jing Huang, Thomas Icard, Saahil Jain, Dan Jurafsky, Pratyusha Kalluri, Siddharth Karamcheti, Geoff Keeling, Fereshte Khani, Omar Khattab, Pang\u00a0Wei Koh, Mark Krass, Ranjay Krishna, Rohith Kuditipudi, Ananya Kumar, Faisal Ladhak, Mina Lee, Tony Lee, Jure Leskovec, Isabelle Levent, Xiang\u00a0Lisa Li, Xuechen Li, Tengyu Ma, Ali Malik, Christopher\u00a0D. Manning, Suvir Mirchandani, Eric Mitchell, Zanele Munyikwa, Suraj Nair, Avanika Narayan, Deepak Narayanan, Ben Newman, Allen Nie, Juan\u00a0Carlos Niebles, Hamed Nilforoshan, Julian Nyarko, Giray Ogut, Laurel Orr, Isabel Papadimitriou, Joon\u00a0Sung Park, Chris Piech, Eva Portelance, Christopher Potts, Aditi Raghunathan, Rob Reich, Hongyu Ren, Frieda Rong, Yusuf Roohani, Camilo Ruiz, Jack Ryan, Christopher R\u00e9, Dorsa Sadigh, Shiori Sagawa, Keshav Santhanam, Andy Shih, Krishnan Srinivasan, Alex Tamkin, Rohan Taori, Armin\u00a0W. Thomas, Florian Tram\u00e8r, Rose\u00a0E. Wang, William Wang, Bohan Wu, Jiajun Wu, Yuhuai Wu, Sang\u00a0Michael Xie, Michihiro Yasunaga, Jiaxuan You, Matei Zaharia, Michael Zhang, Tianyi Zhang, Xikun Zhang, Yuhui Zhang, Lucia Zheng, Kaitlyn Zhou, and Percy Liang. 2022. On the Opportunities and Risks of Foundation Models. http://arxiv.org/abs/2108.07258 arXiv:2108.07258 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "Joy Buolamwini and Timnit Gebru. 2018. Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification. In Proceedings of the 1st Conference on Fairness, Accountability and Transparency(Proceedings of Machine Learning Research, Vol.\u00a081), Sorelle\u00a0A. Friedler and Christo Wilson (Eds.). PMLR, 77\u201391. Buolamwini2018.",
+      "doi": ""
+    },
+    {
+      "text": "Alex B\u00e4uerle, \u00c1ngel\u00a0Alexander Cabrera, Fred Hohman, Megan Maher, David Koski, Xavier Suau, Titus Barik, and Dominik Moritz. 2022. Symphony: Composing Interactive Interfaces for Machine Learning. In CHI Conference on Human Factors in Computing Systems. ACM, New Orleans LA USA, 1\u201314. https://doi.org/10.1145/3491102.3502102",
+      "doi": "10.1145/3491102.3502102"
+    },
+    {
+      "text": "\u00c1ngel\u00a0Alexander Cabrera, Abraham\u00a0J. Druck, Jason\u00a0I. Hong, and Adam Perer. 2021. Discovering and Validating AI Errors With Crowdsourced Failure Reports. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2 (Oct. 2021), 1\u201322. https://doi.org/10.1145/3479569",
+      "doi": "10.1145/3479569"
+    },
+    {
+      "text": "\u00c1ngel\u00a0Alexander Cabrera, Will Epperson, Fred Hohman, Minsuk Kahng, Jamie Morgenstern, and Duen\u00a0Horng Chau. 2019. FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning. In 2019 IEEE Conference on Visual Analytics Science and Technology (VAST). 46\u201356. https://doi.org/10.1109/VAST47406.2019.8986948",
+      "doi": ""
+    },
+    {
+      "text": "\u00c1ngel\u00a0Alexander Cabrera, Marco\u00a0Tulio Ribeiro, Bongshin Lee, Rob DeLine, Adam Perer, and Steven\u00a0M. Drucker. 2022. What Did My AI Learn? How Data Scientists Make Sense of Model Behavior. ACM Transactions on Computer-Human Interaction (June 2022), 3542921. https://doi.org/10.1145/3542921",
+      "doi": "10.1145/3542921"
+    },
+    {
+      "text": "Lingjiao Chen, Tracy Cai, Matei Zaharia, and James Zou. 2021. Did the Model Change? Efficiently Assessing Machine Learning API Shifts. arXiv:2107.14203 [cs, stat] (July 2021). http://arxiv.org/abs/2107.14203 arXiv:2107.14203.",
+      "doi": ""
+    },
+    {
+      "text": "Nan-Chen Chen, Jina Suh, Johan Verwey, Gonzalo Ramos, Steven Drucker, and Patrice Simard. 2018. AnchorViz: Facilitating Classifier Error Discovery through Interactive Semantic Data Exploration. In 23rd International Conference on Intelligent User Interfaces. ACM, Tokyo Japan, 269\u2013280. https://doi.org/10.1145/3172944.3172950",
+      "doi": "10.1145/3172944.3172950"
+    },
+    {
+      "text": "Tsong\u00a0Yueh Chen, Fei-Ching Kuo, Huai Liu, Pak-Lok Poon, Dave Towey, T.\u00a0H. Tse, and Zhi\u00a0Quan Zhou. 2019. Metamorphic Testing: A Review of Challenges and Opportunities. Comput. Surveys 51, 1 (Jan. 2019), 1\u201327. https://doi.org/10.1145/3143561",
+      "doi": "10.1145/3143561"
+    },
+    {
+      "text": "Vincent\u00a0S. Chen, Sen Wu, Zhenzhen Weng, Alexander Ratner, and Christopher R\u00e9. 2019. Slice-based Learning: A Programming Model for Residual Learning in Critical Data Slices. NeurIPS (2019). http://arxiv.org/abs/1909.06349",
+      "doi": ""
+    },
+    {
+      "text": "Yeounoh Chung, Tim Kraska, Neoklis Polyzotis, Ki\u00a0Hyun Tae, and Steven\u00a0Euijong Whang. 2019. Slice Finder: Automated Data Slicing for Model Validation. In 2019 IEEE 35th International Conference on Data Engineering (ICDE). IEEE, Macao, Macao, 1550\u20131553. https://doi.org/10.1109/ICDE.2019.00139",
+      "doi": ""
+    },
+    {
+      "text": "Anamaria Crisan, Margaret Drouhard, Jesse Vig, and Nazneen Rajani. 2022. Interactive Model Cards: A Human-Centered Approach to Model Documentation. In 2022 ACM Conference on Fairness, Accountability, and Transparency. ACM, Seoul Republic of Korea, 427\u2013439. https://doi.org/10.1145/3531146.3533108",
+      "doi": "10.1145/3531146.3533108"
+    },
+    {
+      "text": "Wesley\u00a0Hanwen Deng, Manish Nagireddy, Michelle Seng\u00a0Ah Lee, Jatinder Singh, Zhiwei\u00a0Steven Wu, Kenneth Holstein, and Haiyi Zhu. 2022. Exploring How Machine Learning Practitioners (Try To) Use Fairness Toolkits. In 2022 ACM Conference on Fairness, Accountability, and Transparency. ACM, Seoul Republic of Korea, 473\u2013484. https://doi.org/10.1145/3531146.3533113",
+      "doi": "10.1145/3531146.3533113"
+    },
+    {
+      "text": "Greg d\u2019Eon, Jason d\u2019Eon, James\u00a0R. Wright, and Kevin Leyton-Brown. 2021. The Spotlight: A General Method for Discovering Systematic Errors in Deep Learning Models. arXiv:2107.00758 [cs, stat] (Oct. 2021). http://arxiv.org/abs/2107.00758 arXiv:2107.00758.",
+      "doi": ""
+    },
+    {
+      "text": "Sabri Eyuboglu, Maya Varma, Khaled Saab, Jean-Benoit Delbrouck, Christopher Lee-Messer, Jared Dunnmon, James Zou, and Christopher R\u00e9. 2022. Domino: Discovering Systematic Errors with Cross-Modal Embeddings. arXiv:2203.14960 [cs] (April 2022). http://arxiv.org/abs/2203.14960 arXiv:2203.14960.",
+      "doi": ""
+    },
+    {
+      "text": "Jules Fran\u00e7oise, Baptiste Caramiaux, and T\u00e9o Sanchez. 2021. Marcelle: Composing Interactive Machine Learning Workflows and Interfaces. In The 34th Annual ACM Symposium on User Interface Software and Technology. ACM, Virtual Event USA, 39\u201353. https://doi.org/10.1145/3472749.3474734",
+      "doi": "10.1145/3472749.3474734"
+    },
+    {
+      "text": "Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer\u00a0Wortman Vaughan, Hanna Wallach, Hal\u00a0Daum\u00e9 Iii, and Kate Crawford. 2021. Datasheets for datasets. Commun. ACM 64, 12 (Dec. 2021), 86\u201392. https://doi.org/10.1145/3458723",
+      "doi": "10.1145/3458723"
+    },
+    {
+      "text": "Karan Goel, Nazneen Rajani, Jesse Vig, Samson Tan, Jason Wu, Stephan Zheng, Caiming Xiong, Mohit Bansal, and Christopher R\u00e9. 2021. Robustness Gym: Unifying the NLP Evaluation Landscape. (2021), 1\u201334. http://arxiv.org/abs/2101.04840",
+      "doi": ""
+    },
+    {
+      "text": "Jochen G\u00f6rtler, Fred Hohman, Dominik Moritz, Kanit Wongsuphasawat, Donghao Ren, Rahul Nair, Marc Kirchner, and Kayur Patel. 2022. Neo: Generalizing Confusion Matrix Visualization to Hierarchical and Multi-Output Labels. In CHI Conference on Human Factors in Computing Systems. ACM, New Orleans LA USA, 1\u201313. https://doi.org/10.1145/3491102.3501823",
+      "doi": "10.1145/3491102.3501823"
+    },
+    {
+      "text": "Jeffrey Heer. 2020. Arquero: Query processing and transformation of array-backed data tables. https://uwdata.github.io/arquero/",
+      "doi": ""
+    },
+    {
+      "text": "Andreas Hinterreiter, Peter Ruch, Holger Stitz, Martin Ennemoser, Jurgen Bernard, Hendrik Strobelt, and Marc Streit. 2020. ConfusionFlow: A model-agnostic visualization for temporal analysis of classifier confusion. IEEE Transactions on Visualization and Computer Graphics (2020), 1\u20131. https://doi.org/10.1109/TVCG.2020.3012063",
+      "doi": "10.1109/TVCG.2020.3012063"
+    },
+    {
+      "text": "Aspen Hopkins and Serena Booth. 2021. Machine Learning Practices Outside Big Tech: How Resource Constraints Challenge Responsible Development. In AIES 2021 - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society. Association for Computing Machinery, Inc, 134\u2013145. https://doi.org/10.1145/3461702.3462527",
+      "doi": "10.1145/3461702.3462527"
+    },
+    {
+      "text": "Zohar Jackson, C\u00e9sar Souza, Jason Flaks, Yuxin Pan, Hereman Nicolas, and Adhish Thite. 2018. Jakobovski/Free-Spoken-Digit-Dataset: V1.0.8. https://doi.org/10.5281/ZENODO.1342401",
+      "doi": ""
+    },
+    {
+      "text": "Debesh Jha, Pia\u00a0H. Smedsrud, Michael\u00a0A. Riegler, P\u00e5l Halvorsen, Thomas de Lange, Dag Johansen, and H\u00e5vard\u00a0D. Johansen. 2020. Kvasir-SEG: A Segmented Polyp Dataset. In MultiMedia Modeling, Yong\u00a0Man Ro, Wen-Huang Cheng, Junmo Kim, Wei-Ta Chu, Peng Cui, Jung-Woo Choi, Min-Chun Hu, and Wesley De\u00a0Neve (Eds.). Vol.\u00a011962. Springer International Publishing, Cham, 451\u2013462. https://doi.org/10.1007/978-3-030-37734-2_37 Series Title: Lecture Notes in Computer Science.",
+      "doi": "10.1007/978-3-030-37734-2_37"
+    },
+    {
+      "text": "Minsuk Kahng, Dezhi Fang, and Duen Horng\u00a0(Polo) Chau. 2016. Visual Exploration of Machine Learning Results Using Data Cube Analysis. In Proceedings of the Workshop on Human-In-the-Loop Data Analytics - HILDA \u201916. ACM Press, San Francisco, California, 1\u20136. https://doi.org/10.1145/2939502.2939503",
+      "doi": "10.1145/2939502.2939503"
+    },
+    {
+      "text": "Thomas\u00a0M. Kolb, Jacob Lichy, and Jeffrey\u00a0H. Newhouse. 2002. Comparison of the Performance of Screening Mammography, Physical Examination, and Breast US and Evaluation of Factors that Influence Them: An Analysis of 27,825 Patient Evaluations. Radiology 225, 1 (Oct. 2002), 165\u2013175. https://doi.org/10.1148/radiol.2251011667",
+      "doi": ""
+    },
+    {
+      "text": "Alex Krizhevsky, Geoffrey Hinton, and others. 2009. Learning multiple layers of features from tiny images. (2009). Publisher: Citeseer.",
+      "doi": ""
+    },
+    {
+      "text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Doll\u00e1r, and C.\u00a0Lawrence Zitnick. 2014. Microsoft COCO: Common Objects in Context. In Computer Vision \u2013 ECCV 2014, David Fleet, Tomas Pajdla, Bernt Schiele, and Tinne Tuytelaars (Eds.). Vol.\u00a08693. Springer International Publishing, Cham, 740\u2013755. https://doi.org/10.1007/978-3-319-10602-1_48 Series Title: Lecture Notes in Computer Science.",
+      "doi": ""
+    },
+    {
+      "text": "Evan\u00a0Zheran Liu, Behzad Haghgoo, Annie\u00a0S. Chen, Aditi Raghunathan, Pang\u00a0Wei Koh, Shiori Sagawa, Percy Liang, and Chelsea Finn. 2021. Just Train Twice: Improving Group Robustness without Training Group Information. arXiv:2107.09044 [cs, stat] (Sept. 2021). http://arxiv.org/abs/2107.09044 arXiv:2107.09044.",
+      "doi": ""
+    },
+    {
+      "text": "Mohammad Malekzadeh, Richard\u00a0G. Clegg, Andrea Cavallaro, and Hamed Haddadi. 2019. Mobile Sensor Data Anonymization. In Proceedings of the International Conference on Internet of Things Design and Implementation(IoTDI \u201919). ACM, New York, NY, USA, 49\u201358. https://doi.org/10.1145/3302505.3310068 event-place: Montreal, Quebec, Canada.",
+      "doi": "10.1145/3302505.3310068"
+    },
+    {
+      "text": "Wes McKinney. 2010. Data Structures for Statistical Computing in Python. Austin, Texas, 56\u201361. https://doi.org/10.25080/Majora-92bf1922-00a",
+      "doi": ""
+    },
+    {
+      "text": "Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa\u00a0Deborah Raji, and Timnit Gebru. 2019. Model Cards for Model Reporting. In Proceedings of the Conference on Fairness, Accountability, and Transparency. ACM, Atlanta GA USA, 220\u2013229. https://doi.org/10.1145/3287560.3287596",
+      "doi": "10.1145/3287560.3287596"
+    },
+    {
+      "text": "Jose\u00a0G. Moreno-Torres, Troy Raeder, Roc\u00edo Alaiz-Rodr\u00edguez, Nitesh\u00a0V. Chawla, and Francisco Herrera. 2012. A unifying view on dataset shift in classification. Pattern Recognition 45, 1 (2012), 521\u2013530. https://doi.org/10.1016/j.patcog.2011.06.019",
+      "doi": "10.1016/j.patcog.2011.06.019"
+    },
+    {
+      "text": "Dominik Moritz, Bill Howe, and Jeffrey Heer. 2019. Falcon: Balancing Interactive Latency and Resolution Sensitivity for Scalable Linked Visualizations. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, Glasgow Scotland Uk, 1\u201311. https://doi.org/10.1145/3290605.3300924",
+      "doi": "10.1145/3290605.3300924"
+    },
+    {
+      "text": "Philipp Moritz, Robert Nishihara, Stephanie Wang, Alexey Tumanov, Richard Liaw, Eric Liang, Melih Elibol, Zongheng Yang, William Paul, Michael\u00a0I. Jordan, and Ion Stoica. 2018. Ray: A Distributed Framework for Emerging AI Applications. http://arxiv.org/abs/1712.05889 arXiv:1712.05889 [cs, stat].",
+      "doi": ""
+    },
+    {
+      "text": "Nadia Nahar, Shurui Zhou, Grace Lewis, and Christian K\u00e4stner. 2021. Collaboration Challenges in Building ML-Enabled Systems: Communication, Documentation, Engineering, and Process. arXiv:2110.10234 [cs] (Dec. 2021). http://arxiv.org/abs/2110.10234 arXiv:2110.10234.",
+      "doi": ""
+    },
+    {
+      "text": "National Transportation Safety Board. 2019. Collision Between Vehicle Controlled by Developmental Automated Driving System and Pedestrian. https://www.ntsb.gov/news/events/Pages/2019-HWY18MH010-BMG.aspx",
+      "doi": ""
+    },
+    {
+      "text": "Jianmo Ni, Jiacheng Li, and Julian McAuley. 2019. Justifying Recommendations using Distantly-Labeled Reviews and Fine-Grained Aspects. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). Association for Computational Linguistics, Hong Kong, China, 188\u2013197. https://doi.org/10.18653/v1/D19-1018",
+      "doi": ""
+    },
+    {
+      "text": "Besmira Nushi, Ece Kamar, and Eric Horvitz. 2018. Towards Accountable AI: Hybrid Human-Machine Analyses for Characterizing System Failure. In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing, Vol.\u00a06. 10.",
+      "doi": ""
+    },
+    {
+      "text": "Luke Oakden-Rayner, Jared Dunnmon, Gustavo Carneiro, and Christopher Re. 2020. Hidden stratification causes clinically meaningful failures in machine learning for medical imaging. In Proceedings of the ACM Conference on Health, Inference, and Learning. ACM, Toronto Ontario Canada, 151\u2013159. https://doi.org/10.1145/3368555.3384468",
+      "doi": "10.1145/3368555.3384468"
+    },
+    {
+      "text": "Zhongyi Pei, Lin Liu, Chen Wang, and Jianmin Wang. 2022. Requirements Engineering for Machine Learning: A Review and Reflection. In 2022 IEEE 30th International Requirements Engineering Conference Workshops (REW). IEEE, Melbourne, Australia, 166\u2013175. https://doi.org/10.1109/REW56159.2022.00039",
+      "doi": ""
+    },
+    {
+      "text": "Mahima Pushkarna, James Wexler, and Jimbo Wilson. 2017. Facets: An Open Source Visualization Tool for Machine Learning Training Data. https://pair-code.github.io/facets/",
+      "doi": ""
+    },
+    {
+      "text": "Iyad Rahwan, Manuel Cebrian, Nick Obradovich, Josh Bongard, Jean-Fran\u00e7ois Bonnefon, Cynthia Breazeal, Jacob\u00a0W. Crandall, Nicholas\u00a0A. Christakis, Iain\u00a0D. Couzin, Matthew\u00a0O. Jackson, Nicholas\u00a0R. Jennings, Ece Kamar, Isabel\u00a0M. Kloumann, Hugo Larochelle, David Lazer, Richard McElreath, Alan Mislove, David\u00a0C. Parkes, Alex\u00a0\u2018Sandy\u2019 Pentland, Margaret\u00a0E. Roberts, Azim Shariff, Joshua\u00a0B. Tenenbaum, and Michael Wellman. 2019. Machine Behaviour. Nature 568, 7753 (April 2019), 477\u2013486. https://doi.org/10.1038/s41586-019-1138-y",
+      "doi": ""
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro and Scott Lundberg. 2022. Adaptive Testing and Debugging of NLP Models. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). Association for Computational Linguistics, Dublin, Ireland, 3253\u20133267. https://doi.org/10.18653/v1/2022.acl-long.230",
+      "doi": ""
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Tongshuang Wu, Carlos Guestrin, and Sameer Singh. 2020. Beyond Accuracy: Behavioral Testing of {NLP} Models with {C}heck{L}ist. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Online, 4902\u20134912. https://doi.org/10.18653/v1/2020.acl-main.442",
+      "doi": ""
+    },
+    {
+      "text": "Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Bj\u00f6rn Ommer. 2022. High-Resolution Image Synthesis with Latent Diffusion Models. http://arxiv.org/abs/2112.10752 arXiv:2112.10752 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "Shiori Sagawa, Pang\u00a0Wei Koh, Tatsunori\u00a0B. Hashimoto, and Percy Liang. 2020. Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization. http://arxiv.org/abs/1911.08731 arXiv:1911.08731 [cs, stat].",
+      "doi": ""
+    },
+    {
+      "text": "Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer. 2017. Vega-Lite: A Grammar of Interactive Graphics. IEEE Transactions on Visualization and Computer Graphics 23, 1(2017), 341\u2013350. https://doi.org/10.1109/TVCG.2016.2599030",
+      "doi": "10.1109/TVCG.2016.2599030"
+    },
+    {
+      "text": "Julia Stoyanovich and Bill Howe. 2019. Nutritional Labels for Data and Models. IEEE Data Eng. Bull. 42(2019), 13\u201323.",
+      "doi": ""
+    },
+    {
+      "text": "Hariharan Subramonyam, Colleen Seifert, and Eytan Adar. 2021. Towards A Process Model for Co-Creating AI Experiences. In DIS 2021 - Proceedings of the 2021 ACM Designing Interactive Systems Conference: Nowhere and Everywhere. Association for Computing Machinery, Inc, 1529\u20131543. https://doi.org/10.1145/3461778.3462012",
+      "doi": "10.1145/3461778.3462012"
+    },
+    {
+      "text": "Joost\u00a0J.M. van Griethuysen, Andriy Fedorov, Chintan Parmar, Ahmed Hosny, Nicole Aucoin, Vivek Narayan, Regina\u00a0G.H. Beets-Tan, Jean-Christophe Fillion-Robin, Steve Pieper, and Hugo\u00a0J.W.L. Aerts. 2017. Computational Radiomics System to Decode the Radiographic Phenotype. Cancer Research 77, 21 (Nov. 2017), e104\u2013e107. https://doi.org/10.1158/0008-5472.CAN-17-0339",
+      "doi": ""
+    },
+    {
+      "text": "Zijie\u00a0J. Wang, Evan Montoya, David Munechika, Haoyang Yang, Benjamin Hoover, and Duen\u00a0Horng Chau. 2022. DiffusionDB: A Large-scale Prompt Gallery Dataset for Text-to-Image Generative Models. http://arxiv.org/abs/2210.14896 arXiv:2210.14896 [cs].",
+      "doi": ""
+    },
+    {
+      "text": "James Wexler, Mahima Pushkarna, Tolga Bolukbasi, Martin Wattenberg, Fernanda Viegas, and Jimbo Wilson. 2019. The What-If Tool: Interactive Probing of Machine Learning Models. IEEE Transactions on Visualization and Computer Graphics (2019), 1\u20131. https://doi.org/10.1109/TVCG.2019.2934619",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin Wilson, Judy Hoffman, and Jamie Morgenstern. 2019. Predictive Inequity in Object Detection. http://arxiv.org/abs/1902.11097 arXiv:1902.11097 [cs, stat].",
+      "doi": ""
+    },
+    {
+      "text": "Tongshuang Wu, Marco\u00a0Tulio Ribeiro, Jeffrey Heer, and Daniel Weld. 2019. {E}rrudite: Scalable, Reproducible, and Testable Error Analysis. Proceedings of the 57th Conference of the Association for Computational Linguistics (2019), 747\u2013763. https://www.aclweb.org/anthology/P19-1073",
+      "doi": ""
+    },
+    {
+      "text": "Chenyang Yang, Rachel Brower-Sinning, Grace\u00a0A. Lewis, Christian K\u00e4stner, and Tongshuang Wu. 2022. Capabilities for Better ML Engineering. http://arxiv.org/abs/2211.06409 arXiv:2211.06409 [cs].",
+      "doi": ""
+    }
+  ]
+}

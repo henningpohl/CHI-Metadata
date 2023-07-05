@@ -1,0 +1,175 @@
+{
+  "doi": "10.1145/3411764.3445254",
+  "title": "HapticSeer: A Multi-channel, Black-box, Platform-agnostic Approach to Detecting Video Game Events for Real-time Haptic Feedback",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Haptic feedback significantly enhances virtual experiences. However, supporting haptics currently requires modifying the codebase, making it impractical to add haptics to popular, high-quality experiences such as best selling games, which are typically closed-source. We present HapticSeer, a multi-channel, black-box, platform-agnostic approach to detecting game events for real-time haptic feedback. The approach is based on two key insights: 1) all games have 3 types of data streams: video, audio, and controller I/O, that can be analyzed in real-time to detect game events, and 2) a small number of user interface design patterns are reused across most games, so that event detectors can be reused effectively. We developed an open-source HapticSeer framework and implemented several real-time event detectors for commercial PC and VR games. We validated system correctness and real-time performance, and discuss feedback from several haptics developers that used the HapticSeer framework to integrate research and commercial haptic devices.",
+  "authors": [
+    {
+      "name": "Yu-Hsin Lin",
+      "institution": "National Taiwan University, Taiwan",
+      "img": "/do/10.1145/contrib-99659680927/rel-imgonly/ethanlin__3_.jpg",
+      "acmid": "99659680927",
+      "orcid": "0000-0003-4384-7191"
+    },
+    {
+      "name": "Yu-Wei Wang",
+      "institution": "National Taiwan University, Taiwan",
+      "img": "/do/10.1145/contrib-99659702103/rel-imgonly/all_photo_108_____-1_33-____e34046171_e34046171-1.jpg",
+      "acmid": "99659702103",
+      "orcid": "missing"
+    },
+    {
+      "name": "Pin-Sung Ku",
+      "institution": "National Taiwan University, Taiwan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659161133",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yun-Ting Cheng",
+      "institution": "National Taiwan University, Taiwan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700781",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yuan-Chih Hsu",
+      "institution": "National Taiwan University, Taiwan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702497",
+      "orcid": "missing"
+    },
+    {
+      "name": "Ching-Yi Tsai",
+      "institution": "National Taiwan University, Taiwan",
+      "img": "/do/10.1145/contrib-99659503784/rel-imgonly/white-feather-quill-and-inkpot.jpg",
+      "acmid": "99659503784",
+      "orcid": "missing"
+    },
+    {
+      "name": "Mike Y. Chen",
+      "institution": "National Taiwan University, Taiwan",
+      "img": "/do/10.1145/contrib-81460645188/rel-imgonly/mikebiophotosmall.jpg",
+      "acmid": "81460645188",
+      "orcid": "0000-0001-5410-652X"
+    }
+  ],
+  "references": [
+    {
+      "text": "Anonymous. 2020. DS4-BT - PS4 Developer Wiki. https://www.psdevwiki.com/ps4/DS4-BT#UART_HCI",
+      "doi": ""
+    },
+    {
+      "text": "Christiane Attig, Nadine Rauh, Thomas Franke, and Josef\u00a0F. Krems. 2017. System Latency Guidelines Then and Now \u2013 Is Zero Latency Really Considered Necessary?. In Engineering Psychology and Cognitive Ergonomics: Cognition and Design, Don Harris(Ed.). Springer International Publishing, Cham, 3\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "bHaptics. 2020. bHaptics Audio-to-Haptic. https://www.bhaptics.com/support/faq/#Audio-to-Haptic",
+      "doi": ""
+    },
+    {
+      "text": "bHaptics. 2020. bHaptics tactsuit. https://www.bhaptics.com/tactsuit/",
+      "doi": ""
+    },
+    {
+      "text": "Alexey Bochkovskiy, Chien-Yao Wang, and Hong-Yuan\u00a0Mark Liao. 2020. YOLOv4: Optimal Speed and Accuracy of Object Detection. arxiv:2004.10934\u00a0[cs.CV]",
+      "doi": ""
+    },
+    {
+      "text": "Mike Channell. 2020. The 20 best driving games of the last decade: 10-1. https://www.topgear.com/car-news/electric/20-best-driving-games-last-decade-10-1.",
+      "doi": ""
+    },
+    {
+      "text": "Mike Channell. 2020. The 20 best driving games of the last decade: 20-11. https://www.topgear.com/car-news/electric/20-best-driving-games-last-decade-20-11.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0K.Y. Chen, Jean-Baptiste Chossat, and Peter\u00a0B. Shull. 2019. HaptiVec: Presenting Haptic Feedback Vectors in Handheld Controllers Using Embedded Tactile Pin Arrays. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3290605.3300401",
+      "doi": "10.1145/3290605.3300401"
+    },
+    {
+      "text": "Alfredo Cuzzocrea. 2009. Synopsis data structures for representing, querying, and mining data streams. In Handbook of Research on Innovations in Database Technologies and Applications: Current and Future Trends. IGI Global, Pennsylvania, USA, 701\u2013715.",
+      "doi": ""
+    },
+    {
+      "text": "Patrick\u00a0Th. Eugster, Pascal\u00a0A. Felber, Rachid Guerraoui, and Anne-Marie Kermarrec. 2003. The Many Faces of Publish/Subscribe. ACM Comput. Surv. 35, 2 (June 2003), 114\u2013131. https://doi.org/10.1145/857076.857078",
+      "doi": "10.1145/857076.857078"
+    },
+    {
+      "text": "ForceTubeVR. 2020. ForceTubeVR Documentation. https://www.protubevr.com/img/cms/ForceTubeVR_Documentation.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Samuel\u00a0Horti GamesRadar\u00a0Staff. 2020. The 25 best FPS games of all time. https://www.gamesradar.com/best-fps-games/.",
+      "doi": ""
+    },
+    {
+      "text": "Topi Kaaresoja, Stephen Brewster, and Vuokko Lantz. 2014. Towards the Temporally Perfect Virtual Button: Touch-Feedback Simultaneity and Perceived Quality in Mobile Touchscreen Press Interactions. ACM Trans. Appl. Percept. 11, 2, Article 9 (June 2014), 25\u00a0pages. https://doi.org/10.1145/2611387",
+      "doi": "10.1145/2611387"
+    },
+    {
+      "text": "Hayato Kajiyama, Akifumi Inoue, and Tohru Hoshi. 2015. SHAPIO: Shape I/O Controller for Video Games. In Proceedings of the 2015 Annual Symposium on Computer-Human Interaction in Play (London, United Kingdom) (CHI PLAY \u201915). Association for Computing Machinery, New York, NY, USA, 565\u2013570. https://doi.org/10.1145/2793107.2810318",
+      "doi": "10.1145/2793107.2810318"
+    },
+    {
+      "text": "Shi-Hong Liu, Pai-Chien Yen, Yi-Hsuan Mao, Yu-Hsin Lin, Erick Chandra, and Mike\u00a0Y. Chen. 2020. HeadBlaster: A Wearable Approach to Simulating Motion Perception Using Head-Mounted Air Propulsion Jets. ACM Trans. Graph. 39, 4, Article 84 (jul 2020), 12\u00a0pages. https://doi.org/10.1145/3386569.3392482",
+      "doi": "10.1145/3386569.3392482"
+    },
+    {
+      "text": "Logitech. 2015. Logitech G920 & G29 Driving Force Steering Wheels & Pedals. https://www.logitechg.com/en-us/products/driving/driving-force-racing-wheel.html",
+      "doi": ""
+    },
+    {
+      "text": "Kuba \u0141opatka, J\u00f3zef Kotus, and Andrzej Czy\u017cewski. 2015. Detection, classification and localization of acoustic events in the presence of background noise for acoustic surveillance of hazardous situations. Multimedia Tools and Applications 429 (12 2015). https://doi.org/10.1007/s11042-015-3105-4",
+      "doi": ""
+    },
+    {
+      "text": "G Mirone. 2010. Multi-body elastic simulation of a go-kart: Correlation between frame stiffness and dynamic performance. International Journal of Automotive Technology 11, 4(2010), 461\u2013469.",
+      "doi": ""
+    },
+    {
+      "text": "Jakob Nielsen. 1993. Usability engineering. Morgan Kaufmann an imprint of Academic Press, a Harcourt Science and Technology Company, Burlington, Massachusetts.",
+      "doi": ""
+    },
+    {
+      "text": "Miller Puckette. 1996. Pure Data. In Proceedings of the second intercollege computer music concerts. Self-published, Tachikawa, Japan, 37\u201341.",
+      "doi": ""
+    },
+    {
+      "text": "Felix Richter. 2019. The Most Important Gaming Platforms in 2019. https://www.statista.com/chart/4527/game-developers-platform-preferences/",
+      "doi": ""
+    },
+    {
+      "text": "SimRacingStudio. 2020. Sim Racing Studio. https://www.simracingstudio.com/",
+      "doi": ""
+    },
+    {
+      "text": "Freepik\u00a0Company S.L.2020. Flaticon, the largest database of free vector icons. https://www.flaticon.com/",
+      "doi": ""
+    },
+    {
+      "text": "R. Smith. 2007. An Overview of the Tesseract OCR Engine. In Ninth International Conference on Document Analysis and Recognition (ICDAR 2007), Vol.\u00a02. IEEE, Parana, Brazil, 629\u2013633. https://doi.org/10.1109/ICDAR.2007.4376991",
+      "doi": ""
+    },
+    {
+      "text": "Monstrous Software. 2003. Car Physics for Games. https://asawicki.info/Mirror/Car Physics for Games/Car Physics for Games.html",
+      "doi": ""
+    },
+    {
+      "text": "Valve. 2020. Steam Hardware and Software Survey. https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam/",
+      "doi": ""
+    },
+    {
+      "text": "Xbox. 2016. Xbox Wireless Controller. https://www.xbox.com/en-US/accessories/controllers/xbox-wireless-controller",
+      "doi": ""
+    },
+    {
+      "text": "Tom Yeh, Tsung-Hsiang Chang, and Robert\u00a0C. Miller. 2009. Sikuli: Using GUI Screenshots for Search and Automation. In Proceedings of the 22nd Annual ACM Symposium on User Interface Software and Technology (Victoria, BC, Canada) (UIST \u201909). Association for Computing Machinery, New York, NY, USA, 183\u2013192. https://doi.org/10.1145/1622176.1622213",
+      "doi": "10.1145/1622176.1622213"
+    }
+  ]
+}

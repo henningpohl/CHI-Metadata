@@ -1,0 +1,941 @@
+{
+  "doi": "10.1145/3544548.3581332",
+  "title": "Literature Reviews in HCI: A Review of Reviews",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-24",
+  "year": 2023,
+  "badges": [],
+  "abstract": "This paper analyses Human-Computer Interaction (HCI) literature reviews to provide a clear conceptual basis for authors, reviewers, and readers. HCI is multidisciplinary and various types of literature reviews exist, from systematic to critical reviews in the style of essays. Yet, there is insufficient consensus of what to expect of literature reviews in HCI. Thus, a shared understanding of literature reviews and clear terminology is needed to plan, evaluate, and use literature reviews, and to further improve review methodology. We analysed 189 literature reviews published at all SIGCHI conferences and ACM Transactions on Computer-Human Interaction (TOCHI) up until August 2022. We report on the main dimensions of variation: (i) contribution types and topics; and (ii) structure and methodologies applied. We identify gaps and trends to inform future meta work in HCI and provide a starting point on how to move towards a more comprehensive terminology system of literature reviews in HCI.",
+  "authors": [
+    {
+      "name": "Evropi Stefanidi",
+      "institution": "University of Bremen, Germany",
+      "img": "/do/10.1145/contrib-99659279435/rel-imgonly/evropi-bremen.jpg",
+      "acmid": "99659279435",
+      "orcid": "0000-0001-5547-6426"
+    },
+    {
+      "name": "Marit Bentvelzen",
+      "institution": "Utrecht University, Netherlands",
+      "img": "/do/10.1145/contrib-99659680773/rel-imgonly/foto_uu_marit.jpg",
+      "acmid": "99659680773",
+      "orcid": "0000-0002-0146-8444"
+    },
+    {
+      "name": "Pawe\u0142 W. Wo\u017aniak",
+      "institution": "Chalmers University of Technology, Sweden",
+      "img": "/do/10.1145/contrib-87958813957/rel-imgonly/pawel_cropped.jpg",
+      "acmid": "87958813957",
+      "orcid": "0000-0003-3670-1813"
+    },
+    {
+      "name": "Thomas Kosch",
+      "institution": "HU Berlin, Germany",
+      "img": "/do/10.1145/contrib-99658769787/rel-imgonly/profile4s.png",
+      "acmid": "99658769787",
+      "orcid": "0000-0001-6300-9035"
+    },
+    {
+      "name": "Miko\u0142aj P. Wo\u017aniak",
+      "institution": "University of Oldenburg, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659462945",
+      "orcid": "0000-0001-6404-5169"
+    },
+    {
+      "name": "Thomas Mildner",
+      "institution": "University of Bremen, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659161880",
+      "orcid": "0000-0002-1712-0741"
+    },
+    {
+      "name": "Stefan Schneegass",
+      "institution": "HCI Group, University of Duisburg-Essen, Germany",
+      "img": "/do/10.1145/contrib-81503680798/rel-imgonly/stefan_wide.png",
+      "acmid": "81503680798",
+      "orcid": "0000-0002-0132-4934"
+    },
+    {
+      "name": "Heiko M\u00fcller",
+      "institution": "University of Oldenburg, Germany and OFFIS - Institute for Information Technology, Germany",
+      "img": "/do/10.1145/contrib-81549282056/rel-imgonly/me.jpg",
+      "acmid": "81549282056",
+      "orcid": "0000-0002-4654-2644"
+    },
+    {
+      "name": "Jasmin Niess",
+      "institution": "University of St. Gallen, Switzerland and University of Oslo, Norway",
+      "img": "/do/10.1145/contrib-99659260376/rel-imgonly/niessj.jpg",
+      "acmid": "99659260376",
+      "orcid": "0000-0003-3529-0653"
+    }
+  ],
+  "references": [
+    {
+      "text": "2020. Types of Literature Review - Research-Methodology. Retrieved September 14, 2020 from https://research-methodology.net/research-methodology/types-literature-review/",
+      "doi": ""
+    },
+    {
+      "text": "Tessa Aarts, Linas\u00a0K Gabrielaitis, Lianne\u00a0C De\u00a0Jong, Renee Noortman, Emma\u00a0M Van\u00a0Zoelen, Sophia Kotea, Silvia Cazacu, Lesley\u00a0L Lock, and Panos Markopoulos. 2020. Design card sets: Systematic literature survey and card sorting study. In Proceedings of the 2020 ACM Designing Interactive Systems Conference. 419\u2013428.",
+      "doi": "10.1145/3357236.3395516"
+    },
+    {
+      "text": "Gregory\u00a0D Abowd and Elizabeth\u00a0D Mynatt. 2000. Charting past, present, and future research in ubiquitous computing. ACM Transactions on Computer-Human Interaction (TOCHI) 7, 1(2000), 29\u201358.",
+      "doi": "10.1145/344949.344988"
+    },
+    {
+      "text": "Alexander\u00a0T Adams, Jean Costa, Malte\u00a0F Jung, and Tanzeem Choudhury. 2015. Mindless computing: designing technologies to subtly influence behavior. In Proceedings of the 2015 ACM international joint conference on pervasive and ubiquitous computing. 719\u2013730.",
+      "doi": "10.1145/2750858.2805843"
+    },
+    {
+      "text": "Herman Aguinis, Ravi\u00a0S Ramani, and Nawaf Alabduljader. 2020. Best-practice recommendations for producers, evaluators, and users of methodological literature reviews. Organizational research methods(2020), 1094428120943281.",
+      "doi": ""
+    },
+    {
+      "text": "Paula Alavesa, Minna Pakanen, Hannu Kukka, Matti Pouke, and Timo Ojala. 2017. Anarchy or order on the streets: Review based characterization of location based mobile games. In Proceedings of the Annual Symposium on Computer-Human Interaction in Play. 101\u2013113.",
+      "doi": "10.1145/3116595.3116614"
+    },
+    {
+      "text": "Hamed\u00a0S Alavi, Denis Lalanne, and Yvonne Rogers. 2020. The Five Strands of Living Lab: A Literature Study of the Evolution of Living Lab Concepts in HCI. ACM Transactions on Computer-Human Interaction (TOCHI) 27, 2(2020), 1\u201326.",
+      "doi": "10.1145/3380958"
+    },
+    {
+      "text": "Fraser Allison, Marcus Carter, Martin Gibbs, and Wally Smith. 2018. Design patterns for voice interaction in games. In Proceedings of the 2018 Annual Symposium on Computer-Human Interaction in Play. 5\u201317.",
+      "doi": "10.1145/3242671.3242712"
+    },
+    {
+      "text": "Ferran Altarriba\u00a0Bertran, Samvid Jhaveri, Rosa Lutz, Katherine Isbister, and Danielle Wilde. 2019. Making sense of human-food interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300908"
+    },
+    {
+      "text": "Ferran Altarriba\u00a0Bertran, Danielle Wilde, Ern\u0151 Berezvay, and Katherine Isbister. 2019. Playful human-food interaction research: State of the art and future directions. In Proceedings of the Annual Symposium on Computer-Human Interaction in Play. 225\u2013237.",
+      "doi": "10.1145/3311350.3347155"
+    },
+    {
+      "text": "Obinna Anya. 2015. Bridge the gap! What can work design in crowdwork learn from work design theories?. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing. 612\u2013627.",
+      "doi": ""
+    },
+    {
+      "text": "Hilary Arksey and Lisa O\u2019Malley. 2005. Scoping studies: towards a methodological framework. International journal of social research methodology 8, 1(2005), 19\u201332.",
+      "doi": ""
+    },
+    {
+      "text": "Christian Arzate\u00a0Cruz and Takeo Igarashi. 2020. A survey on interactive reinforcement learning: Design principles and open challenges. In Proceedings of the 2020 ACM Designing Interactive Systems Conference. 1195\u20131209.",
+      "doi": "10.1145/3357236.3395525"
+    },
+    {
+      "text": "Ebrahim Babaei, Benjamin Tag, Tilman Dingler, and Eduardo Velloso. 2021. A Critique of Electrodermal Activity Practices at CHI. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445370"
+    },
+    {
+      "text": "Javier\u00a0A Bargas-Avila and Kasper Hornb\u00e6k. 2011. Old wine in new bottles or novel challenges: a critical analysis of empirical studies of user experience. In Proceedings of the SIGCHI conference on human factors in computing systems. 2689\u20132698.",
+      "doi": "10.1145/1978942.1979336"
+    },
+    {
+      "text": "Eric\u00a0PS Baumer, Vera Khovanskaya, Mark Matthews, Lindsay Reynolds, Victoria Schwanda\u00a0Sosik, and Geri Gay. 2014. Reviewing reflection: on the use of reflection in interactive system design. In Proceedings of the 2014 conference on Designing interactive systems. 93\u2013102.",
+      "doi": "10.1145/2598510.2598598"
+    },
+    {
+      "text": "G\u00f6k\u00e7e\u00a0Elif Baykal, Maarten Van\u00a0Mechelen, and Eva Eriksson. 2020. Collaborative Technologies for Children with Special Needs: A Systematic Literature Review. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376291"
+    },
+    {
+      "text": "Mehmet\u00a0Aydin Baytas, Damla \u00c7ay, Yuchong Zhang, Mohammad Obaid, Asim\u00a0Evren Yanta\u00e7, and Morten Fjeld. 2019. The design of social drones: A review of studies on autonomous flyers in inhabited environments. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300480"
+    },
+    {
+      "text": "Jordan Beck and Erik Stolterman. 2017. Reviewing the big questions literature; or, should HCI have big questions?. In Proceedings of the 2017 Conference on Designing Interactive Systems. 969\u2013981.",
+      "doi": "10.1145/3064663.3064673"
+    },
+    {
+      "text": "Erin Beneteau. 2020. Who Are You Asking?: Qualitative Methods for Involving AAC Users as Primary Research Participants. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376883"
+    },
+    {
+      "text": "Joanna Bergstr\u00f6m, Tor-Salve Dalsgaard, Jason Alexander, and Kasper Hornb\u00e6k. 2021. How to Evaluate Object Selection and Manipulation in VR? Guidelines from 20 Years of Studies. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201320.",
+      "doi": "10.1145/3411764.3445193"
+    },
+    {
+      "text": "Ann Blandford, Dominic Furniss, and Stephann Makri. 2016. Qualitative HCI research: Going behind the scenes. Synthesis lectures on human-centered informatics 9, 1(2016), 1\u2013115.",
+      "doi": ""
+    },
+    {
+      "text": "Alberto Boem and Giovanni\u00a0Maria Troiano. 2019. Non-Rigid HCI: A review of deformable interfaces and input. In Proceedings of the 2019 on Designing Interactive Systems Conference. 885\u2013906.",
+      "doi": "10.1145/3322276.3322347"
+    },
+    {
+      "text": "Chris Bopp and Amy Voida. 2020. Voices of the social sector: a systematic review of stakeholder voice in HCI research with nonprofit organizations. ACM Transactions on Computer-Human Interaction (TOCHI) 27, 2(2020), 1\u201326.",
+      "doi": "10.1145/3368368"
+    },
+    {
+      "text": "Peter B\u00f6rjesson, Wolmet Barendregt, Eva Eriksson, and Olof Torgersson. 2015. Designing technology for and with developmentally diverse children: a systematic literature review. In Proceedings of the 14th international conference on interaction design and children. 79\u201388.",
+      "doi": "10.1145/2771839.2771848"
+    },
+    {
+      "text": "Maura Borrego, Margaret\u00a0J Foster, and Jeffrey\u00a0E Froyd. 2014. Systematic literature reviews in engineering education and other developing interdisciplinary fields. Journal of Engineering Education 103, 1 (2014), 45\u201376.",
+      "doi": ""
+    },
+    {
+      "text": "Sara Bouzit, Ga\u00eblle Calvary, Denis Ch\u00eane, and Jean Vanderdonckt. 2016. A design space for engineering graphical adaptive menus. In Proceedings of the 8th ACM SIGCHI Symposium on Engineering Interactive Computing Systems. 239\u2013244.",
+      "doi": "10.1145/2933242.2935874"
+    },
+    {
+      "text": "Christina Bremer, Bran Knowles, and Adrian Friday. 2022. Have We Taken On Too Much?: A Critical Review of the Sustainable HCI Landscape. In CHI Conference on Human Factors in Computing Systems. 1\u201311.",
+      "doi": "10.1145/3491102.3517609"
+    },
+    {
+      "text": "Sarah\u00a0Anne Brown, Sharon Lynn\u00a0Chu, and Pengfei Yin. 2021. A Survey of Interface Representations in Visual Programming Language Environments for Children\u2019s Physical Computing Kits. In Interaction Design and Children. 268\u2013275.",
+      "doi": ""
+    },
+    {
+      "text": "Frederik Brudy, Christian Holz, Roman R\u00e4dle, Chi-Jui Wu, Steven Houben, Clemens\u00a0Nylandsted Klokmose, and Nicolai Marquardt. 2019. Cross-device taxonomy: Survey, opportunities and challenges of interactions spanning across multiple devices. In Proceedings of the 2019 chi conference on human factors in computing systems. 1\u201328.",
+      "doi": "10.1145/3290605.3300792"
+    },
+    {
+      "text": "Emeline Brul\u00e9, Brianna\u00a0J Tomlinson, Oussama Metatla, Christophe Jouffrais, and Marcos Serrano. 2020. Review of Quantitative Empirical Evaluations of Technology for People with Visual Impairments. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376749"
+    },
+    {
+      "text": "Miguel Bruns, Stijn Ossevoort, and Marianne\u00a0Graves Petersen. 2021. Expressivity in Interaction: a Framework for Design. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445231"
+    },
+    {
+      "text": "Matthew Butler, Leona\u00a0M Holloway, Samuel Reinders, Cagatay Goncu, and Kim Marriott. 2021. Technology Developments in Touch-Based Accessible Graphics: A Systematic Review of Research 2010-2020. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3411764.3445207"
+    },
+    {
+      "text": "Kelly Caine. 2016. Local standards for sample size at CHI. In Proceedings of the 2016 CHI conference on human factors in computing systems. 981\u2013992.",
+      "doi": "10.1145/2858036.2858498"
+    },
+    {
+      "text": "Ana Caraban, Evangelos Karapanos, Daniel Gon\u00e7alves, and Pedro Campos. 2019. 23 ways to nudge: A review of technology-mediated nudging in human-computer interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3290605.3300733"
+    },
+    {
+      "text": "Jeanne\u00a0Sternlicht Chall and Edgar Dale. 1995. Readability revisited: The new Dale-Chall readability formula. Brookline Books.",
+      "doi": ""
+    },
+    {
+      "text": "Michelle Chang, Chenyi Shen, Aditi Maheshwari, Andreea Danielescu, and Lining Yao. 2022. Patterns and Opportunities for the Design of Human-Plant Interaction. In Designing Interactive Systems Conference. 925\u2013948.",
+      "doi": ""
+    },
+    {
+      "text": "Syrine Charfi, Emmanuel Dubois, and Dominique\u00a0L Scapin. 2009. Usability recommendations in the design of mixed interactive systems. In Proceedings of the 1st ACM SIGCHI symposium on Engineering interactive computing systems. 231\u2013236.",
+      "doi": "10.1145/1570433.1570475"
+    },
+    {
+      "text": "Ko-Le Chen, Rachel Clarke, Teresa Almeida, Matthew Wood, and David\u00a0S Kirk. 2017. Situated dissemination through an HCI workplace. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 2078\u20132090.",
+      "doi": "10.1145/3025453.3025696"
+    },
+    {
+      "text": "John Joon\u00a0Young Chung, Shiqing He, and Eytan Adar. 2021. The Intersection of Users, Roles, Interactions, and Technologies in Creativity Support Tools. In Designing Interactive Systems Conference 2021. 1817\u20131833.",
+      "doi": "10.1145/3461778.3462050"
+    },
+    {
+      "text": "Mauricio Cirelli and Ricardo Nakamura. 2014. A survey on multi-touch gesture recognition and multi-touch frameworks. In Proceedings of the Ninth ACM International Conference on Interactive Tabletops and Surfaces. 35\u201344.",
+      "doi": "10.1145/2669485.2669509"
+    },
+    {
+      "text": "Christal Clashing, Ian Smith, Maria\u00a0F Montoya, Rakesh Patibanda, Swamy Ananthanarayan, Sarah\u00a0Jane Pell, and Florian\u00a0Floyd Mueller. 2022. Going into Depth: Learning from a Survey of Interactive Designs for Aquatic Recreation. In Designing Interactive Systems Conference. 1119\u20131132.",
+      "doi": "10.1145/3532106.3533543"
+    },
+    {
+      "text": "Harris\u00a0M Cooper. 1988. Organizing knowledge syntheses: A taxonomy of literature reviews. Knowledge in society 1, 1 (1988), 104\u2013126.",
+      "doi": ""
+    },
+    {
+      "text": "Harris\u00a0M Cooper. 1998. Synthesizing research: A guide for literature reviews. Vol.\u00a02. Sage.",
+      "doi": ""
+    },
+    {
+      "text": "Ned Cooper, Tiffanie Horne, Gillian\u00a0R Hayes, Courtney Heldreth, Michal Lahav, Jess Holbrook, and Lauren Wilcox. 2022. A Systematic Review and Thematic Analysis of Community-Collaborative Approaches to Computing Research. In CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3491102.3517716"
+    },
+    {
+      "text": "Do\u0103a \u00c7orlu, \u015eeyma Ta\u015fel, Semra\u00a0G\u00fclce Turan, Athanasios Gatos, and Asim\u00a0Evren Yanta\u00e7. 2017. Involving autistics in user experience studies: A critical review. In Proceedings of the 2017 Conference on Designing Interactive Systems. 43\u201355.",
+      "doi": "10.1145/3064663.3064771"
+    },
+    {
+      "text": "Bill Curtis. 1982. A review of human factors research on programming languages and specifications. In Proceedings of the 1982 Conference on Human Factors in Computing Systems. 212\u2013218.",
+      "doi": "10.1145/800049.801782"
+    },
+    {
+      "text": "Abhraneil Dam and Myounghoon Jeon. 2021. A Review of Motion Sickness in Automated Vehicles. In 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications. 39\u201348.",
+      "doi": "10.1145/3409118.3475146"
+    },
+    {
+      "text": "Nicola Dell and Neha Kumar. 2016. The ins and outs of HCI for development. In Proceedings of the 2016 CHI conference on human factors in computing systems. 2220\u20132232.",
+      "doi": "10.1145/2858036.2858081"
+    },
+    {
+      "text": "Sarah Diefenbach, Nina Kolb, and Marc Hassenzahl. 2014. The\u2019hedonic\u2019in human-computer interaction: history, contributions, and future research directions. In Proceedings of the 2014 conference on Designing interactive systems. 305\u2013314.",
+      "doi": "10.1145/2598510.2598549"
+    },
+    {
+      "text": "Sidney D\u2019Mello and Jacqueline Kory. 2012. Consistent but modest: a meta-analysis on unimodal and multimodal affect detection accuracies from 30 studies. In Proceedings of the 14th ACM international conference on Multimodal interaction. 31\u201338.",
+      "doi": "10.1145/2388676.2388686"
+    },
+    {
+      "text": "Yasemin D\u00f6nmez\u00a0\u00d6zkan, Alexander\u00a0G Mirnig, Alexander Meschtscherjakov, Cansu Demir, and Manfred Tscheligi. 2021. Mode awareness interfaces in automated vehicles, robotics, and aviation: A literature review. In 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications. 147\u2013158.",
+      "doi": "10.1145/3409118.3475125"
+    },
+    {
+      "text": "Tanja D\u00f6ring, Axel Sylvester, and Albrecht Schmidt. 2013. A design space for ephemeral user interfaces. In Proceedings of the 7th International Conference on Tangible, Embedded and Embodied Interaction. 75\u201382.",
+      "doi": "10.1145/2460625.2460637"
+    },
+    {
+      "text": "Malin Eiband, Daniel Buschek, and Heinrich Hussmann. 2021. How to support users in understanding intelligent systems? Structuring the discussion. In 26th International Conference on Intelligent User Interfaces. 120\u2013132.",
+      "doi": "10.1145/3397481.3450694"
+    },
+    {
+      "text": "Sardar Elias, Moojan Ghafurian, and Siby Samuel. 2019. Effectiveness of Red-Light Running Countermeasures: A Systematic Review. In Proceedings of the 11th International Conference on Automotive User Interfaces and Interactive Vehicular Applications. 91\u2013100.",
+      "doi": "10.1145/3342197.3344542"
+    },
+    {
+      "text": "Daniel\u00a0A Epstein, Clara Caldeira, Mayara\u00a0Costa Figueiredo, Xi Lu, Lucas\u00a0M Silva, Lucretia Williams, Jong\u00a0Ho Lee, Qingyang Li, Simran Ahuja, Qiuer Chen, 2020. Mapping and taking stock of the personal informatics literature. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 4 (2020), 1\u201338.",
+      "doi": "10.1145/3432231"
+    },
+    {
+      "text": "Daniel\u00a0A Epstein, Bradley\u00a0H Jacobson, Elizabeth Bales, David\u00a0W McDonald, and Sean\u00a0A Munson. 2015. From\" nobody cares\" to\" way to go!\" A Design Framework for Social Sharing in Personal Informatics. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing. 1622\u20131636.",
+      "doi": ""
+    },
+    {
+      "text": "Eva Eriksson, G\u00f6k\u00e7e\u00a0Elif Baykal, and Olof Torgersson. 2022. The Role of Learning Theory in Child-Computer Interaction-A Semi-Systematic Literature Review. In Interaction Design and Children. 50\u201368.",
+      "doi": ""
+    },
+    {
+      "text": "Connor Esterwood, Kyle Essenmacher, Han Yang, Fanpan Zeng, and Lionel\u00a0Peter Robert. 2021. A Meta-Analysis of Human Personality and Robot Acceptance in Human-Robot Interaction. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3411764.3445542"
+    },
+    {
+      "text": "Jeanette Falk\u00a0Olesen and Kim Halskov. 2020. 10 years of research with and on hackathons. In Proceedings of the 2020 ACM designing interactive systems conference. 1073\u20131088.",
+      "doi": "10.1145/3357236.3395543"
+    },
+    {
+      "text": "Yannick Forster, Sebastian Hergeth, Frederik Naujoks, and Josef\u00a0F Krems. 2018. How usability can save the day-methodological considerations for making automated driving a success story. In Proceedings of the 10th international conference on automotive user interfaces and interactive vehicular applications. 278\u2013290.",
+      "doi": "10.1145/3239060.3239076"
+    },
+    {
+      "text": "Jonas Frich, Lindsay MacDonald\u00a0Vermeulen, Christian Remy, Michael\u00a0Mose Biskjaer, and Peter Dalsgaard. 2019. Mapping the landscape of creativity support tools in HCI. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3290605.3300619"
+    },
+    {
+      "text": "Jonas Frich, Michael Mose\u00a0Biskjaer, and Peter Dalsgaard. 2018. Twenty years of creativity research in human-computer interaction: Current state and future directions. In Proceedings of the 2018 Designing Interactive Systems Conference. 1235\u20131257.",
+      "doi": "10.1145/3196709.3196732"
+    },
+    {
+      "text": "Jon Froehlich, Leah Findlater, and James Landay. 2010. The design of eco-feedback technology. In Proceedings of the SIGCHI conference on human factors in computing systems. 1999\u20132008.",
+      "doi": "10.1145/1753326.1753629"
+    },
+    {
+      "text": "Michael Fr\u00f6hlich, Franz Waltenberger, Ludwig Trotter, Florian Alt, and Albrecht Schmidt. 2022. Blockchain and Cryptocurrency in Human Computer Interaction: A Systematic Literature Review and Research Agenda. arXiv preprint arXiv:2204.10857(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Do\u011fa Gatos, Asl\u0131 G\u00fcnay, G\u00fcncel K\u0131rlang\u0131\u00e7, Kemal Kuscu, and Asim\u00a0Evren Yantac. 2021. How HCI Bridges Health and Design in Online Health Communities: A Systematic Review. In Designing Interactive Systems Conference 2021. 970\u2013983.",
+      "doi": "10.1145/3461778.3462100"
+    },
+    {
+      "text": "Maria\u00a0J Grant and Andrew Booth. 2009. A typology of reviews: an analysis of 14 review types and associated methodologies. Health Information & Libraries Journal 26, 2 (2009), 91\u2013108.",
+      "doi": ""
+    },
+    {
+      "text": "Tobias Grosse-Puppendahl, Christian Holz, Gabe Cohn, Raphael Wimmer, Oskar Bechtold, Steve Hodges, Matthew\u00a0S Reynolds, and Joshua\u00a0R Smith. 2017. Finding common ground: A survey of capacitive sensing in human-computer interaction. In Proceedings of the 2017 CHI conference on human factors in computing systems. 3293\u20133315.",
+      "doi": "10.1145/3025453.3025808"
+    },
+    {
+      "text": "Tovi Grossman, George Fitzmaurice, and Ramtin Attar. 2009. A survey of software learnability: metrics, methodologies and guidelines. In Proceedings of the sigchi conference on human factors in computing systems. 649\u2013658.",
+      "doi": "10.1145/1518701.1518803"
+    },
+    {
+      "text": "Feng Han, Yifei Cheng, Megan Strachan, and Xiaojuan Ma. 2021. Hybrid Paper-Digital Interfaces: A Systematic Literature Review. In Designing Interactive Systems Conference 2021. 1087\u20131100.",
+      "doi": ""
+    },
+    {
+      "text": "Lon \u00c5ke Erni\u00a0Johannes Hansson, Teresa Cerratto\u00a0Pargman, and Daniel\u00a0Sapiens Pargman. 2021. A Decade of Sustainable HCI: Connecting SHCI to the Sustainable Development Goals. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201319.",
+      "doi": "10.1145/3411764.3445069"
+    },
+    {
+      "text": "Erik Harpstead, Juan\u00a0Sebastian Rios, Joseph Seering, and Jessica Hammer. 2019. Toward a Twitch research toolkit: A systematic review of approaches to research on game Streaming. In Proceedings of the Annual Symposium on Computer-Human Interaction in Play. 111\u2013119.",
+      "doi": "10.1145/3311350.3347149"
+    },
+    {
+      "text": "Christina Harrington, Aqueasha Martin-Hammond, and Kirsten\u00a0E Bray. 2022. Examining Identity as a Variable of Health Technology Research for Older Adults: A Systematic Review. In CHI Conference on Human Factors in Computing Systems. 1\u201324.",
+      "doi": "10.1145/3491102.3517621"
+    },
+    {
+      "text": "Marc Hassenzahl, Stephanie Heidecker, Kai Eckoldt, Sarah Diefenbach, and Uwe Hillmann. 2012. All you need is love: Current strategies of mediating intimate relationships through technology. ACM Transactions on Computer-Human Interaction (TOCHI) 19, 4(2012), 30.",
+      "doi": "10.1145/2395131.2395137"
+    },
+    {
+      "text": "Sarah Hayes and Trevor Hogan. 2020. Towards a material landscape of tuis, through the lens of the tei proceedings 2008-2019. In Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction. 95\u2013110.",
+      "doi": "10.1145/3374920.3374944"
+    },
+    {
+      "text": "Florian Heller, Kashyap Todi, and Kris Luyten. 2021. An Interactive Design Space for Wearable Displays. In Proceedings of the 23rd International Conference on Mobile Human-Computer Interaction. 1\u201314.",
+      "doi": "10.1145/3447526.3472034"
+    },
+    {
+      "text": "Viviane Herdel, Lee\u00a0J Yamin, and Jessica\u00a0R Cauchard. 2022. Above and Beyond: A Scoping Review of Domains and Applications for Human-Drone Interaction. In CHI Conference on Human Factors in Computing Systems. 1\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Teresa Hirzle, Maurice Cordts, Enrico Rukzio, and Andreas Bulling. 2020. A survey of digital eye strain in gaze-based interactive systems. In ACM Symposium on Eye Tracking Research and Applications. 1\u201312.",
+      "doi": "10.1145/3379155.3391313"
+    },
+    {
+      "text": "Teresa Hirzle, Maurice Cordts, Enrico Rukzio, Jan Gugenheimer, and Andreas Bulling. 2021. A Critical Assessment of the Use of SSQ as a Measure of General Discomfort in VR Head-Mounted Displays. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445361"
+    },
+    {
+      "text": "Marikken H\u00f8iseth and Maarten Van\u00a0Mechelen. 2017. Identifying Patterns in IDC Research: Technologies for Improving Children\u2019s Well-being Connected to Overweight Issues. In Proceedings of the 2017 Conference on Interaction Design and Children. 107\u2013116.",
+      "doi": "10.1145/3078072.3079739"
+    },
+    {
+      "text": "Kasper Hornb\u00e6k and Morten Hertzum. 2017. Technology acceptance and user experience: A review of the experiential component in HCI. ACM Transactions on Computer-Human Interaction (TOCHI) 24, 5(2017), 33.",
+      "doi": "10.1145/3127358"
+    },
+    {
+      "text": "Chung-Ching Huang and Erik Stolterman. 2014. Temporal anchors in user experience research. In Proceedings of the 2014 conference on Designing interactive systems. 271\u2013274.",
+      "doi": "10.1145/2598510.2598537"
+    },
+    {
+      "text": "Netta Iivari, Leena Vent\u00e4-Olkkonen, Sumita Sharma, Tonja Molin-Juustila, and Essi Kinnunen. 2021. CHI Against Bullying: Taking Stock of the Past and Envisioning the Future. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3411764.3445282"
+    },
+    {
+      "text": "Michael Inners and Andrew\u00a0L Kun. 2017. Beyond liability: Legal issues of human-machine interaction for automated vehicles. In Proceedings of the 9th International Conference on Automotive User Interfaces and Interactive Vehicular Applications. 245\u2013253.",
+      "doi": "10.1145/3122986.3123005"
+    },
+    {
+      "text": "Stine\u00a0S Johansen, Niels van Berkel, and Jonas Fritsch. 2022. Characterising Soundscape Research in Human-Computer Interaction. In Designing Interactive Systems Conference. 1394\u20131417.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0D Jones, Meredith Von\u00a0Feldt, and Natalie Andrus. 2022. Outside Where? A Survey of Climates and Built Environments in Studies of HCI outdoors. In CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3491102.3507656"
+    },
+    {
+      "text": "Malte\u00a0F Jung. 2017. Affective grounding in human-robot interaction. In 2017 12th ACM/IEEE International Conference on Human-Robot Interaction (HRI. IEEE, 263\u2013273.",
+      "doi": "10.1145/2909824.3020224"
+    },
+    {
+      "text": "Alisa Kalegina, Grace Schroeder, Aidan Allchin, Keara Berlin, and Maya Cakmak. 2018. Characterizing the design space of rendered robot faces. In Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot Interaction. 96\u2013104.",
+      "doi": "10.1145/3171221.3171286"
+    },
+    {
+      "text": "Gopinaath Kannabiran, Jeffrey Bardzell, and Shaowen Bardzell. 2011. How HCI Talks about Sexuality: Discursive Strategies, Blind Spots, and Opportunities for Future Research. Association for Computing Machinery, New York, NY, USA, 695\u2013704. https://doi.org/10.1145/1978942.1979043",
+      "doi": "10.1145/1978942.1979043"
+    },
+    {
+      "text": "Christina Katsini, Yasmeen Abdrabou, George\u00a0E Raptis, Mohamed Khamis, and Florian Alt. 2020. The Role of Eye Gaze in Security and Privacy Applications: Survey and Future HCI Research Directions. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201321.",
+      "doi": "10.1145/3313831.3376840"
+    },
+    {
+      "text": "Saba Kawas, Ye Yuan, Akeiylah DeWitt, Qiao Jin, Susanne Kirchner, Abigail Bilger, Ethan Grantham, Julie\u00a0A Kientz, Andrea Tartaro, and Svetlana Yarosh. 2020. Another decade of IDC research: Examining and reflecting on values and ethics. In Proceedings of the Interaction Design and Children Conference. 205\u2013215.",
+      "doi": "10.1145/3392063.3394436"
+    },
+    {
+      "text": "Os Keyes, Burren Peil, Rua\u00a0M Williams, and Katta Spiel. 2020. Reimagining (women\u2019s) health: HCI, gender and essentialised embodiment. ACM Transactions on Computer-Human Interaction (TOCHI) 27, 4(2020), 1\u201342.",
+      "doi": "10.1145/3404218"
+    },
+    {
+      "text": "Mohamed Khamis, Florian Alt, and Andreas Bulling. 2018. The past, present, and future of gaze-enabled handheld mobile devices: Survey and lessons learned. In Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services. 1\u201317.",
+      "doi": "10.1145/3229434.3229452"
+    },
+    {
+      "text": "Ahmed Kharrufa, Thomas Ploetz, and Patrick Olivier. 2017. A unified model for user identification on multi-touch surfaces: a survey and meta-analysis. ACM Transactions on Computer-Human Interaction (TOCHI) 24, 6(2017), 1\u201339.",
+      "doi": "10.1145/3144569"
+    },
+    {
+      "text": "Barbara Kitchenham, O\u00a0Pearl Brereton, David Budgen, Mark Turner, John Bailey, and Stephen Linkman. 2009. Systematic literature reviews in software engineering\u2013a systematic literature review. Information and software technology 51, 1 (2009), 7\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Jesper Kjeldskov and Jeni Paay. 2012. A longitudinal review of Mobile HCI research methods. In Proceedings of the 14th international conference on Human-computer interaction with mobile devices and services. 69\u201378.",
+      "doi": "10.1145/2371574.2371586"
+    },
+    {
+      "text": "Jesper Kjeldskov and Mikael\u00a0B Skov. 2014. Was it worth the hassle? Ten years of mobile HCI research discussions on lab and field evaluations. In Proceedings of the 16th international conference on Human-computer interaction with mobile devices & services. 43\u201352.",
+      "doi": ""
+    },
+    {
+      "text": "Michinari Kono, Takumi Takahashi, Hiromi Nakamura, Takashi Miyaki, and Jun Rekimoto. 2018. Design guideline for developing safe systems that apply electricity to the human body. ACM Transactions on Computer-Human Interaction (TOCHI) 25, 3(2018), 19.",
+      "doi": "10.1145/3184743"
+    },
+    {
+      "text": "Matthias Kraus, Katrin Angerbauer, Juri Buchm\u00fcller, Daniel Schweitzer, Daniel\u00a0A Keim, Michael Sedlmair, and Johannes Fuchs. 2020. Assessing 2d and 3d heatmaps for comparative analysis: An empirical study. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376675"
+    },
+    {
+      "text": "Denis Lalanne, Laurence Nigay, Philippe Palanque, Peter Robinson, Jean Vanderdonckt, and Jean-Fran\u00e7ois Ladry. 2009. Fusion engines for multimodal input: a survey. In Proceedings of the 2009 international conference on Multimodal interfaces. 153\u2013160.",
+      "doi": "10.1145/1647314.1647343"
+    },
+    {
+      "text": "Larry Laudan. 1978. Progress and its problems: Towards a theory of scientific growth. Vol.\u00a0282. Univ of California Press.",
+      "doi": ""
+    },
+    {
+      "text": "Effie L-C Law, Florian Br\u00fchlmann, and Elisa\u00a0D Mekler. 2018. Systematic review and validation of the game experience questionnaire (geq)-implications for citation and reporting practice. In Proceedings of the 2018 Annual Symposium on Computer-Human Interaction in Play. 257\u2013270.",
+      "doi": "10.1145/3242671.3242683"
+    },
+    {
+      "text": "Charlotte\u00a0P Lee and Drew Paine. 2015. From The matrix to a model of coordinated action (MoCA) A conceptual framework of and for CSCW. In Proceedings of the 18th ACM conference on computer supported cooperative work & social computing. 179\u2013194.",
+      "doi": ""
+    },
+    {
+      "text": "Seol-Yee Lee, Md\u00a0Tahmidul Islam\u00a0Molla, and Cindy Hsin-Liu Kao. 2021. A 10-Year Review of the Methods and Purposes of On-Skin Interface Research in ACM SIGCHI. In 2021 International Symposium on Wearable Computers. 84\u201390.",
+      "doi": "10.1145/3460421.3480424"
+    },
+    {
+      "text": "Kevin Lefeuvre, Soeren Totzauer, Michael Storz, Albrecht Kurze, Andreas Bischof, and Arne Berger. 2018. Bricks, Blocks, Boxes, Cubes, and Dice: On the Role of Cubic Shapes for the Design of Tangible Interactive Devices. In Proceedings of the 2018 Designing Interactive Systems Conference. 485\u2013496.",
+      "doi": "10.1145/3196709.3196768"
+    },
+    {
+      "text": "Yanhong Li, Meng Liang, Julian Preissing, Nadine Bachl, Michelle\u00a0Melina Dutoit, Thomas Weber, Sven Mayer, and Heinrich Hussmann. 2022. A meta-analysis of tangible learning studies from the tei conference. In Sixteenth International Conference on Tangible, Embedded, and Embodied Interaction. 1\u201317.",
+      "doi": "10.1145/3490149.3501313"
+    },
+    {
+      "text": "Meng Liang, Yanhong Li, Thomas Weber, and Heinrich Hussmann. 2021. Tangible Interaction for Children\u2019s Creative Learning: A Review. In Creativity and Cognition. 1\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Western Libraries. 2020. Literature Reviews, Introduction to Different Types of. Retrieved September 14, 2020 from https://www.lib.uwo.ca/tutorials/typesofliteraturereviews/index.html",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Linxen, Christian Sturm, Florian Br\u00fchlmann, Vincent Cassau, Klaus Opwis, and Katharina Reinecke. 2021. How WEIRD is CHI?. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 143, 14\u00a0pages. https://doi.org/10.1145/3411764.3445488",
+      "doi": "10.1145/3411764.3445488"
+    },
+    {
+      "text": "Yong Liu, Jorge Goncalves, Denzil Ferreira, Bei Xiao, Simo Hosio, and Vassilis Kostakos. 2014. CHI 1994-2013: mapping two decades of intellectual progress through co-word analysis. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 3553\u20133562.",
+      "doi": "10.1145/2556288.2556969"
+    },
+    {
+      "text": "Gustavo Lopez and Luis\u00a0A Guerrero. 2017. Awareness supporting technologies used in collaborative systems: a systematic literature review. In Proceedings of the 2017 ACM conference on computer supported cooperative work and social computing. 808\u2013820.",
+      "doi": "10.1145/2998181.2998281"
+    },
+    {
+      "text": "Leilah Lyons, Brian Slattery, Priscilla Jimenez, Brenda Lopez, and Tom Moher. 2012. Don\u2019t forget about the sweat: effortful embodied interaction in support of learning. In Proceedings of the Sixth International Conference on Tangible, Embedded and Embodied Interaction. 77\u201384.",
+      "doi": "10.1145/2148131.2148149"
+    },
+    {
+      "text": "Yudan Ma, Annemiek Veldhuis, Tilde Bekker, Jun Hu, and Steven Vos. 2019. A Review of Design Interventions for Promoting Adolescents\u2019 Physical Activity. In Proceedings of the 18th ACM International Conference on Interaction Design and Children. 161\u2013172.",
+      "doi": "10.1145/3311927.3323130"
+    },
+    {
+      "text": "Cayley MacArthur, Arielle Grinberg, Daniel Harley, and Mark Hancock. 2021. You\u2019re Making Me Sick: A Systematic Review of How Virtual Reality Research Considers Gender & Cybersickness. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3411764.3445701"
+    },
+    {
+      "text": "Craig\u00a0M MacDonald. 2019. User Experience (UX) Capacity-Building: A Conceptual Model and Research Agenda. In Proceedings of the 2019 on Designing Interactive Systems Conference. 187\u2013200.",
+      "doi": "10.1145/3322276.3322346"
+    },
+    {
+      "text": "Stephen MacDonell, Martin Shepperd, Barbara Kitchenham, and Emilia Mendes. 2010. How Reliable Are Systematic Reviews in Empirical Software Engineering?IEEE Trans. Softw. Eng. 36, 5 (Sept. 2010), 676\u2013687. https://doi.org/10.1109/TSE.2010.28",
+      "doi": "10.1109/TSE.2010.28"
+    },
+    {
+      "text": "K Mack, Emma McDonnell, Dhruv Jain, Lucy Lu\u00a0Wang, Jon E.\u00a0Froehlich, and Leah Findlater. 2021. What Do We Mean by \u201cAccessibility Research\u201d? A Literature Survey of Accessibility Papers in CHI and ASSETS from 1994 to 2019. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3411764.3445412"
+    },
+    {
+      "text": "Emanuela Maggioni, Robert Cobden, Dmitrijs Dmitrenko, Kasper Hornb\u00e6k, and Marianna Obrist. 2020. SMELL SPACE: mapping out the olfactory design space for novel interactions. ACM Transactions on Computer-Human Interaction (TOCHI) 27, 5(2020), 1\u201326.",
+      "doi": "10.1145/3402449"
+    },
+    {
+      "text": "Ville M\u00e4kel\u00e4, Sumita Sharma, Jaakko Hakulinen, Tomi Heimonen, and Markku Turunen. 2017. Challenges in public display deployments: A taxonomy of external factors. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 3426\u20133475.",
+      "doi": "10.1145/3025453.3025798"
+    },
+    {
+      "text": "Arunesh Mathur, Mihir Kshirsagar, and Jonathan Mayer. 2021. What makes a dark pattern... dark? design attributes, normative considerations, and measurement methods. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3411764.3445610"
+    },
+    {
+      "text": "Nora McDonald, Sarita Schoenebeck, and Andrea Forte. 2019. Reliability and inter-rater reliability in qualitative research: Norms and guidelines for CSCW and HCI practice. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201323.",
+      "doi": "10.1145/3359174"
+    },
+    {
+      "text": "Elisa\u00a0D Mekler, Julia\u00a0Ayumi Bopp, Alexandre\u00a0N Tuch, and Klaus Opwis. 2014. A systematic review of quantitative studies on the enjoyment of digital entertainment games. In Proceedings of the SIGCHI conference on human factors in computing systems. 927\u2013936.",
+      "doi": "10.1145/2556288.2557078"
+    },
+    {
+      "text": "Clara Moge, Katherine Wang, and Youngjun Cho. 2022. Shared User Interfaces of Physiological Data: Systematic Review of Social Biofeedback Systems and Contexts in HCI. In CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "David Moher, Alessandro Liberati, Jennifer Tetzlaff, and Douglas\u00a0G Altman. 2009. Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement. Annals of internal medicine 151, 4 (2009), 264\u2013269.",
+      "doi": ""
+    },
+    {
+      "text": "Dylan Moore, Rebecca Currano, G\u00a0Ella Strack, and David Sirkin. 2019. The case for implicit external human-machine interfaces for autonomous vehicles. In Proceedings of the 11th international conference on automotive user interfaces and interactive vehicular applications. 295\u2013307.",
+      "doi": "10.1145/3342197.3345320"
+    },
+    {
+      "text": "Michael Mose\u00a0Biskjaer, Peter Dalsgaard, and Kim Halskov. 2017. Understanding creativity methods in design. In Proceedings of the 2017 conference on designing interactive systems. 839\u2013851.",
+      "doi": "10.1145/3064663.3064692"
+    },
+    {
+      "text": "Sara Nabil, Thomas Pl\u00f6tz, and David\u00a0S Kirk. 2017. Interactive architecture: Exploring and unwrapping the potentials of organic user interfaces. In Proceedings of the Eleventh International Conference on Tangible, Embedded, and Embodied Interaction. 89\u2013100.",
+      "doi": "10.1145/3024969.3024981"
+    },
+    {
+      "text": "Frederik Naujoks, Katharina Wiedemann, and Nadja Sch\u00f6mig. 2017. The importance of interruption management for usefulness and acceptance of automated driving. In Proceedings of the 9th international conference on automotive user interfaces and interactive vehicular applications. 254\u2013263.",
+      "doi": "10.1145/3122986.3123000"
+    },
+    {
+      "text": "Aditya\u00a0Shekhar Nittala and J\u00fcrgen Steimle. 2022. Next Steps in Epidermal Computing: Opportunities and Challenges for Soft On-Skin Devices. In CHI Conference on Human Factors in Computing Systems. 1\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Diana Nowacka and David Kirk. 2014. Tangible autonomous interfaces (TAIs) exploring autonomous behaviours in TUIs. In Proceedings of the 8th International Conference on Tangible, Embedded and Embodied Interaction. 1\u20138.",
+      "doi": "10.1145/2540930.2540942"
+    },
+    {
+      "text": "Francisco Nunes, Nervo Verdezoto, Geraldine Fitzpatrick, Morten Kyng, Erik Gr\u00f6nvall, and Cristiano Storni. 2015. Self-care technologies in HCI: Trends, tensions, and opportunities. ACM Transactions on Computer-Human Interaction (TOCHI) 22, 6(2015), 33.",
+      "doi": "10.1145/2803173"
+    },
+    {
+      "text": "Giovanna Nunes\u00a0Vilaza, Kevin Doherty, Darragh McCashin, David Coyle, Jakob Bardram, and Marguerite Barry. 2022. A scoping review of ethics across SIGCHI. In Designing Interactive Systems Conference. 137\u2013154.",
+      "doi": "10.1145/3532106.3533511"
+    },
+    {
+      "text": "Anna Offenwanger, Alan\u00a0John Milligan, Minsuk Chang, Julia Bullard, and Dongwook Yoon. 2021. Diagnosing bias in the gender representation of HCI research participants: how it happens and where we are. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3411764.3445383"
+    },
+    {
+      "text": "Niklas Osmers, Michael Prilla, Oliver Blunk, Gordon George\u00a0Brown, Marc Jan\u00dfen, and Nicolas Kahrl. 2021. The Role of Social Presence for Cooperation in Augmented Reality on Head Mounted Devices: A Literature Review. Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3411764.3445633",
+      "doi": "10.1145/3411764.3445633"
+    },
+    {
+      "text": "Antti Oulasvirta and Kasper Hornb\u00e6k. 2016. HCI research as problem-solving. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 4956\u20134967.",
+      "doi": "10.1145/2858036.2858283"
+    },
+    {
+      "text": "Tyler Pace, Shaowen Bardzell, and Geoffrey Fox. 2010. Practice-centered e-science: a practice turn perspective on cyberinfrastructure design. In Proceedings of the 16th ACM international conference on Supporting group work. 293\u2013302.",
+      "doi": "10.1145/1880071.1880119"
+    },
+    {
+      "text": "Cicero\u00a0AL Pahins, Sean\u00a0A Stephens, Carlos Scheidegger, and Joao\u00a0LD Comba. 2016. Hashedcubes: Simple, low memory, real-time visual exploration of big data. IEEE transactions on visualization and computer graphics 23, 1(2016), 671\u2013680.",
+      "doi": ""
+    },
+    {
+      "text": "Yue Pan and Eli Blevis. 2014. Fashion thinking: lessons from fashion and sustainable interaction design, concepts and issues. In Proceedings of the 2014 conference on Designing interactive systems. 1005\u20131014.",
+      "doi": "10.1145/2598510.2598586"
+    },
+    {
+      "text": "Callum Parker, Martin Tomitsch, Nigel Davies, Nina Valkanova, and Judy Kay. 2020. Foundations for Designing Public Interactive Displays that Provide Value to Users. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3313831.3376532"
+    },
+    {
+      "text": "Jessica Pater, Amanda Coupe, Rachel Pfafman, Chanda Phelan, Tammy Toscos, and Maia Jacobs. 2021. Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3411764.3445734"
+    },
+    {
+      "text": "Micah\u00a0DJ Peters, Christina\u00a0M Godfrey, Hanan Khalil, Patricia McInerney, Deborah Parker, and Cassia\u00a0Baldini Soares. 2015. Guidance for conducting systematic scoping reviews. JBI Evidence Implementation 13, 3 (2015), 141\u2013146.",
+      "doi": ""
+    },
+    {
+      "text": "Ingrid Pettersson, Florian Lachner, Anna-Katharina Frison, Andreas Riener, and Andreas Butz. 2018. A Bermuda triangle? A Review of method application and triangulation in user experience evaluation. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3173574.3174035"
+    },
+    {
+      "text": "James Pierce. 2014. On the presentation and production of design research artifacts in HCI. In Proceedings of the 2014 conference on Designing interactive systems. 735\u2013744.",
+      "doi": "10.1145/2598510.2598525"
+    },
+    {
+      "text": "James Pierce and Eric Paulos. 2012. Beyond energy monitors: interaction, energy, and emerging energy systems. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 665\u2013674.",
+      "doi": "10.1145/2207676.2207771"
+    },
+    {
+      "text": "Anthony\u00a0T Pinter, Pamela\u00a0J Wisniewski, Heng Xu, Mary\u00a0Beth Rosson, and Jack\u00a0M Caroll. 2017. Adolescent online safety: Moving beyond formative evaluations to designing solutions for the future. In Proceedings of the 2017 Conference on Interaction Design and Children. 352\u2013357.",
+      "doi": "10.1145/3078072.3079722"
+    },
+    {
+      "text": "Henning Pohl and Aske Mottelson. 2019. How we Guide, Write, and Cite at CHI. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, alt01.",
+      "doi": "10.1145/3290607.3310429"
+    },
+    {
+      "text": "Henning Pohl, Andreea Muresan, and Kasper Hornb\u00e6k. 2019. Charting subtle interaction in the HCI literature. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3290605.3300648"
+    },
+    {
+      "text": "Irene Posch, Liza Stark, and Geraldine Fitzpatrick. 2019. eTextiles: reviewing a practice through its tool/kits. In Proceedings of the 23rd International Symposium on Wearable Computers. 195\u2013205.",
+      "doi": "10.1145/3341163.3347738"
+    },
+    {
+      "text": "Emmi Pouta and Jussi\u00a0Ville Mikkonen. 2022. Woven eTextiles in HCI\u2013a Literature Review. In Designing Interactive Systems Conference (DIS\u201922). ACM.",
+      "doi": "10.1145/3532106.3533566"
+    },
+    {
+      "text": "Chris Preist, Elaine Massung, and David Coyle. 2014. Competing or aiming to be average? Normification as a means of engaging digital volunteers. In Proceedings of the 17th ACM conference on Computer supported cooperative work & social computing. 1222\u20131233.",
+      "doi": ""
+    },
+    {
+      "text": "Mirjana Prpa, Ekaterina\u00a0R Stepanova, Thecla Schiphorst, Bernhard\u00a0E Riecke, and Philippe Pasquier. 2020. Inhaling and Exhaling: How Technologies Can Perceptually Extend our Breath Awareness. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3313831.3376183"
+    },
+    {
+      "text": "Isabel\u00a0PS Qamar, Rainer Groh, David Holman, and Anne Roudaut. 2018. HCI meets material science: A literature review of morphing materials for the design of shape-changing interfaces. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201323.",
+      "doi": "10.1145/3173574.3173948"
+    },
+    {
+      "text": "Alexander\u00a0J Quinn and Benjamin\u00a0B Bederson. 2011. Human computation: a survey and taxonomy of a growing field. In Proceedings of the SIGCHI conference on human factors in computing systems. 1403\u20131412.",
+      "doi": "10.1145/1978942.1979148"
+    },
+    {
+      "text": "Majken\u00a0K Rasmussen, Esben\u00a0W Pedersen, Marianne\u00a0G Petersen, and Kasper Hornb\u00e6k. 2012. Shape-changing interfaces: a review of the design space and open research questions. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 735\u2013744.",
+      "doi": "10.1145/2207676.2207781"
+    },
+    {
+      "text": "Daniel\u00a0J Rea, Denise Geiskkovitch, and James\u00a0E Young. 2017. Wizard of awwws: Exploring psychological impact on the researchers in social HRI experiments. In Proceedings of the Companion of the 2017 ACM/IEEE International Conference on Human-Robot Interaction. 21\u201329.",
+      "doi": "10.1145/3029798.3034782"
+    },
+    {
+      "text": "Neal Reeves, Ramine Tinati, Sergej Zerr, Max\u00a0G Van\u00a0Kleek, and Elena Simperl. 2017. From crowd to community: a survey of online community features in citizen science projects. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing. 2137\u20132152.",
+      "doi": "10.1145/2998181.2998302"
+    },
+    {
+      "text": "Christian Remy, Lindsay MacDonald\u00a0Vermeulen, Jonas Frich, Michael\u00a0Mose Biskjaer, and Peter Dalsgaard. 2020. Evaluating Creativity Support Tools in HCI Research. In Proceedings of the 2020 ACM Designing Interactive Systems Conference. 457\u2013476.",
+      "doi": "10.1145/3357236.3395474"
+    },
+    {
+      "text": "Raquel Robinson, Katelyn Wiley, Amir Rezaeivahdati, Madison Klarkowski, and Regan\u00a0L Mandryk. 2020. \" Let\u2019s Get Physiological, Physiological!\" A Systematic Review of Affective Gaming. In Proceedings of the Annual Symposium on Computer-Human Interaction in Play. 132\u2013147.",
+      "doi": "10.1145/3410404.3414227"
+    },
+    {
+      "text": "Katja Rogers, Sukran Karaosmanoglu, Maximilian Altmeyer, Ally Suarez, and Lennart\u00a0E Nacke. 2022. Much Realistic, Such Wow! A Systematic Literature Review of Realism in Digital Games. In CHI Conference on Human Factors in Computing Systems. 1\u201321.",
+      "doi": "10.1145/3491102.3501875"
+    },
+    {
+      "text": "Shaghayegh Roohi, Jari Takatalo, Christian Guckelsberger, and Perttu H\u00e4m\u00e4l\u00e4inen. 2018. Review of intrinsic motivation in simulation-based game testing. In Proceedings of the 2018 chi conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3173574.3173921"
+    },
+    {
+      "text": "Dina Sabie, Cansu Ekmekcioglu, and Syed\u00a0Ishtiaque Ahmed. 2022. A Decade of International Migration Research in HCI: Overview, Challenges, Ethics, Impact, and Future Directions. ACM Transactions on Computer-Human Interaction (TOCHI) 29, 4(2022), 1\u201335.",
+      "doi": "10.1145/3490555"
+    },
+    {
+      "text": "Pejman Saeghe, Gavin Abercrombie, Bruce Weir, Sarah Clinch, Stephen Pettifer, and Robert Stevens. 2020. Augmented Reality and Television: Dimensions and Themes. In ACM International Conference on Interactive Media Experiences. 13\u201323.",
+      "doi": ""
+    },
+    {
+      "text": "Joni Salminen, Kathleen Guan, Soon-gyo Jung, Shammur\u00a0A Chowdhury, and Bernard\u00a0J Jansen. 2020. A literature review of quantitative persona creation. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376502"
+    },
+    {
+      "text": "Joni Salminen, Kathleen Wenyun\u00a0Guan, Soon-Gyo Jung, and Bernard Jansen. 2022. Use cases for design personas: A systematic review and new frontiers. In CHI Conference on Human Factors in Computing Systems. 1\u201321.",
+      "doi": "10.1145/3491102.3517589"
+    },
+    {
+      "text": "Pedro Sanches, Axel Janson, Pavel Karpashevich, Camille Nadal, Chengcheng Qu, Claudia Daud\u00e9n\u00a0Roquet, Muhammad Umair, Charles Windlin, Gavin Doherty, Kristina H\u00f6\u00f6k, 2019. HCI and Affective Health: Taking stock of a decade of studies and charting future research directions. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3290605.3300475"
+    },
+    {
+      "text": "Devansh Saxena, Karla Badillo-Urquiola, Pamela\u00a0J Wisniewski, and Shion Guha. 2020. A Human-Centered Review of Algorithms used within the US Child Welfare System. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3313831.3376229"
+    },
+    {
+      "text": "Laura Scheepmaker, Christopher Frauenberger, and Katta Spiel. 2018. The things we play with roles of technology in social play. In Proceedings of the 2018 Annual Symposium on Computer-Human Interaction in Play. 451\u2013462.",
+      "doi": "10.1145/3242671.3242695"
+    },
+    {
+      "text": "Ari Schlesinger, W\u00a0Keith Edwards, and Rebecca\u00a0E Grinter. 2017. Intersectional HCI: Engaging identity through gender, race, and class. In Proceedings of the 2017 CHI conference on human factors in computing systems. 5412\u20135427.",
+      "doi": "10.1145/3025453.3025766"
+    },
+    {
+      "text": "Michael Schmitz. 2010. Concepts for life-like interactive objects. In Proceedings of the fifth international conference on Tangible, embedded, and embodied interaction. 157\u2013164.",
+      "doi": "10.1145/1935701.1935732"
+    },
+    {
+      "text": "Hanna Schneider, Malin Eiband, Daniel Ullrich, and Andreas Butz. 2018. Empowerment in HCI-A survey and framework. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3173574.3173818"
+    },
+    {
+      "text": "Mariah\u00a0L Schrum, Michael Johnson, Muyleng Ghuy, and Matthew\u00a0C Gombolay. 2020. Four years in review: Statistical practices of likert scales in human-robot interaction studies. In Companion of the 2020 ACM/IEEE International Conference on Human-Robot Interaction. 43\u201352.",
+      "doi": "10.1145/3371382.3380739"
+    },
+    {
+      "text": "Katie Seaborn and Peter Pennefather. 2022. Gender neutrality in robots: An open living review framework. arXiv preprint arXiv:2205.00182(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Bar\u0131\u015f Serim and Giulio Jacucci. 2019. Explicating\" Implicit Interaction\" An Examination of the Concept and Challenges for Research. In Proceedings of the 2019 chi conference on human factors in computing systems. 1\u201316.",
+      "doi": "10.1145/3290605.3300647"
+    },
+    {
+      "text": "Chaklam Silpasuwanchai, Xiaojuan Ma, Hiroaki Shigemasu, and Xiangshi Ren. 2016. Developing a comprehensive engagement framework of gamification for reflective learning. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems. 459\u2013472.",
+      "doi": "10.1145/2901790.2901836"
+    },
+    {
+      "text": "Nikita Soni, Aishat Aloba, Kristen\u00a0S Morga, Pamela\u00a0J Wisniewski, and Lisa Anthony. 2019. A framework of touchscreen interaction design recommendations for children (tidrc) characterizing the gap between research evidence and design practice. In Proceedings of the 18th acm international conference on interaction design and children. 419\u2013431.",
+      "doi": "10.1145/3311927.3323149"
+    },
+    {
+      "text": "Maximilian Speicher, Brian\u00a0D Hall, and Michael Nebeling. 2019. What is mixed reality?. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3290605.3300767"
+    },
+    {
+      "text": "Katta Spiel and Kathrin Gerling. 2021. The Purpose of Play: How HCI Games Research Fails Neurodivergent Populations. ACM Transactions on Computer-Human Interaction (TOCHI) 28, 2(2021), 1\u201340.",
+      "doi": "10.1145/3432245"
+    },
+    {
+      "text": "Evropi Stefanidi, Johannes Sch\u00f6ning, Sebastian\u00a0S Feger, Paul Marshall, Yvonne Rogers, and Jasmin Niess. 2022. Designing for Care Ecosystems: a Literature Review of Technologies for Children with ADHD. In Interaction Design and Children. 13\u201325.",
+      "doi": ""
+    },
+    {
+      "text": "Miriah Steiger, Timir\u00a0J Bharucha, Sukrit Venkatagiri, Martin\u00a0J Riedl, and Matthew Lease. 2021. The Psychological Well-Being of Content Moderators: The Emotional Labor of Commercial Moderation and Avenues for Improving Support. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445092"
+    },
+    {
+      "text": "Elizabeth Stowell, Mercedes\u00a0C Lyson, Herman Saksono, Rene\u00e9\u00a0C Wurth, Holly Jimison, Misha Pavel, and Andrea\u00a0G Parker. 2018. Designing and evaluating mHealth interventions for vulnerable populations: A systematic review. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3173574.3173589"
+    },
+    {
+      "text": "Sangho Suh, Martinet Lee, and Edith Law. 2020. How do we design for concreteness fading? survey, general framework, and design dimensions. In Proceedings of the Interaction Design and Children Conference. 581\u2013588.",
+      "doi": "10.1145/3392063.3394413"
+    },
+    {
+      "text": "Zhu Sun, Di Yu, Hui Fang, Jie Yang, Xinghua Qu, Jie Zhang, and Cong Geng. 2020. Are we evaluating rigorously? benchmarking recommendation for reproducible evaluation and fair comparison. In Fourteenth ACM Conference on Recommender Systems. 23\u201332.",
+      "doi": "10.1145/3383313.3412489"
+    },
+    {
+      "text": "Ryo Suzuki, Adnan Karim, Tian Xia, Hooman Hedayati, and Nicolai Marquardt. 2022. Augmented Reality and Robotics: A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces. In CHI Conference on Human Factors in Computing Systems. 1\u201333.",
+      "doi": ""
+    },
+    {
+      "text": "Poorna Talkad\u00a0Sukumar and Ronald Metoyer. 2019. Mobile Devices in Programming Contexts: A Review of the Design Space and Processes. In Proceedings of the 2019 on Designing Interactive Systems Conference. 1109\u20131122.",
+      "doi": "10.1145/3322276.3322323"
+    },
+    {
+      "text": "Mathieu Templier and Guy Par\u00e9. 2015. A framework for guiding and evaluating literature reviews. Communications of the Association for Information Systems 37, 1(2015), 6.",
+      "doi": ""
+    },
+    {
+      "text": "Na\u0111a Terzimehi\u0107, Renate H\u00e4uslschmid, Heinrich Hussmann, and MC Schraefel. 2019. A Review & Analysis of Mindfulness Research in HCI: Framing Current Lines of Research and Future Opportunities. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300687"
+    },
+    {
+      "text": "Anja Thieme, Danielle Belgrave, and Gavin Doherty. 2020. Machine learning in mental health: A systematic review of the HCI literature to support the development of effective and implementable ML systems. ACM Transactions on Computer-Human Interaction (TOCHI) 27, 5(2020), 1\u201353.",
+      "doi": "10.1145/3398069"
+    },
+    {
+      "text": "Laia Turmo\u00a0Vidal, Hui Zhu, Annika Waern, and Elena M\u00e1rquez\u00a0Segura. 2021. The Design Space of Wearables for Sports and Fitness Practices. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445700"
+    },
+    {
+      "text": "Liam\u00a0D Turner, Stuart\u00a0M Allen, and Roger\u00a0M Whitaker. 2015. Interruptibility prediction for ubiquitous systems: conventions and new directions from a growing field. In Proceedings of the 2015 ACM international joint conference on pervasive and ubiquitous computing. 801\u2013812.",
+      "doi": "10.1145/2750858.2807514"
+    },
+    {
+      "text": "April Tyack and Elisa\u00a0D Mekler. 2020. Self-Determination Theory in HCI Games Research: Current Uses and Open Questions. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201322.",
+      "doi": "10.1145/3313831.3376723"
+    },
+    {
+      "text": "Griffith University. 2020. Systematic Literature Reviews for Education: Different types of literature review. Retrieved September 14, 2020 from https://libraryguides.griffith.edu.au/c.php?g=451351&p=3333115",
+      "doi": ""
+    },
+    {
+      "text": "Maarten Van\u00a0Mechelen, G\u00f6k\u00e7e\u00a0Elif Baykal, Christian Dindler, Eva Eriksson, and Ole\u00a0Sejer Iversen. 2020. 18 Years of ethics in child-computer interaction research: a systematic literature review. In Proceedings of the Interaction Design and Children Conference. 161\u2013183.",
+      "doi": "10.1145/3392063.3394407"
+    },
+    {
+      "text": "Maarten Van\u00a0Mechelen, Line Have\u00a0Musaeus, Ole\u00a0Sejer Iversen, Christian Dindler, and Arthur Hjorth. 2021. A Systematic Review of Empowerment in Child-Computer Interaction Research. In Interaction Design and Children. 119\u2013130.",
+      "doi": ""
+    },
+    {
+      "text": "Radu-Daniel Vatavu. 2021. Accessibility of Interactive Television and Media Experiences: Users with Disabilities Have Been Little Voiced at IMX and TVX. In ACM International Conference on Interactive Media Experiences. 218\u2013222.",
+      "doi": "10.1145/3452918.3465485"
+    },
+    {
+      "text": "Radu-Daniel Vatavu, Pejman Saeghe, Teresa Chambel, Vinoba Vinayagamoorthy, and Marian\u00a0F Ursu. 2020. Conceptualizing Augmented Reality Television for the Living Room. In ACM International Conference on Interactive Media Experiences. 1\u201312.",
+      "doi": ""
+    },
+    {
+      "text": "Eduardo Velloso and Marcus Carter. 2016. The emergence of eyeplay: a survey of eye interaction in games. In Proceedings of the 2016 Annual Symposium on Computer-Human Interaction in Play. 171\u2013185.",
+      "doi": "10.1145/2967934.2968084"
+    },
+    {
+      "text": "Raphael Velt, Steve Benford, and Stuart Reeves. 2017. A survey of the trajectories conceptual framework: Investigating theory use in HCI. In Proceedings of the 2017 CHI conference on human factors in computing systems. 2091\u20132105.",
+      "doi": "10.1145/3025453.3026022"
+    },
+    {
+      "text": "Yiannis Verginadis, Nikos Papageorgiou, Dimitris Apostolou, and Gregoris Mentzas. 2010. A review of patterns in collaborative work. In Proceedings of the 16th ACM international conference on Supporting Group Work. 283\u2013292.",
+      "doi": "10.1145/1880071.1880118"
+    },
+    {
+      "text": "Santiago Villarreal-Narvaez, Jean Vanderdonckt, Radu-Daniel Vatavu, and Jacob\u00a0O. Wobbrock. 2020. A Systematic Review of Gesture Elicitation Studies: What Can We Learn from 216 Studies?. In Proceedings of the 2020 ACM Designing Interactive Systems Conference (Eindhoven, Netherlands) (DIS \u201920). Association for Computing Machinery, New York, NY, USA, 855\u2013872. https://doi.org/10.1145/3357236.3395511",
+      "doi": "10.1145/3357236.3395511"
+    },
+    {
+      "text": "Sarah\u00a0Theres V\u00f6lkel, Christina Schneegass, Malin Eiband, and Daniel Buschek. 2020. What is\" intelligent\" in intelligent user interfaces? a meta-analysis of 25 years of IUI. In Proceedings of the 25th international conference on intelligent user interfaces. 477\u2013487.",
+      "doi": "10.1145/3377325.3377500"
+    },
+    {
+      "text": "Jan\u00a0B Vornhagen, April Tyack, and Elisa\u00a0D Mekler. 2020. Statistical significance testing at chi play: Challenges and opportunities for more transparency. In Proceedings of the Annual Symposium on Computer-Human Interaction in Play. 4\u201318.",
+      "doi": "10.1145/3410404.3414229"
+    },
+    {
+      "text": "Danding Wang, Qian Yang, Ashraf Abdul, and Brian\u00a0Y Lim. 2019. Designing theory-driven user-centric explainable AI. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201315.",
+      "doi": "10.1145/3290605.3300831"
+    },
+    {
+      "text": "Jane Webster and Richard\u00a0T Watson. 2002. Analyzing the past to prepare for the future: Writing a literature review. MIS quarterly (2002), xiii\u2013xxiii.",
+      "doi": ""
+    },
+    {
+      "text": "Suzanne Weisband and Sara Kiesler. 1996. Self disclosure on computer forms: Meta-analysis and implications. In Proceedings of the SIGCHI conference on human factors in computing systems. 3\u201310.",
+      "doi": "10.1145/238386.238387"
+    },
+    {
+      "text": "Mikael Wiberg, Daniela Rosner, and Alex Taylor. 2022. 40 Years of SIGCHI. Interactions 29, 6 (nov 2022), 5. https://doi.org/10.1145/3568730",
+      "doi": "10.1145/3568730"
+    },
+    {
+      "text": "Gesa Wiegand, Christian Mai, Kai Holl\u00e4nder, and Heinrich Hussmann. 2019. Incarar: A design space towards 3d augmented reality applications in vehicles. In Proceedings of the 11th international conference on automotive user interfaces and interactive vehicular applications. 1\u201313.",
+      "doi": "10.1145/3342197.3344539"
+    },
+    {
+      "text": "Jacob\u00a0O. Wobbrock and Julie\u00a0A. Kientz. 2016. Research Contributions in Human-Computer Interaction. Interactions 23, 3 (April 2016), 38\u201344. https://doi.org/10.1145/2907069",
+      "doi": "10.1145/2907069"
+    },
+    {
+      "text": "Richmond\u00a0Y Wong and Steven\u00a0J Jackson. 2015. Wireless visions: Infrastructure, imagination, and US spectrum policy. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing. 105\u2013115.",
+      "doi": "10.1145/2675133.2675229"
+    },
+    {
+      "text": "Haijun Xia, Michael Glueck, Michelle Annett, Michael Wang, and Daniel Wigdor. 2022. Iteratively Designing Gesture Vocabularies: A Survey and Analysis of Best Practices in the HCI Literature. ACM Transactions on Computer-Human Interaction (TOCHI) 29, 4(2022), 1\u201354.",
+      "doi": "10.1145/3503537"
+    },
+    {
+      "text": "Qian Yang, Nikola Banovic, and John Zimmerman. 2018. Mapping machine learning advances from hci research to reveal starting places for design innovation. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201311.",
+      "doi": "10.1145/3173574.3173704"
+    },
+    {
+      "text": "Junnan Yu and Ricarose Roque. 2018. A survey of computational kits for young children. In Proceedings of the 17th ACM conference on interaction design and children. 289\u2013299.",
+      "doi": "10.1145/3202185.3202738"
+    },
+    {
+      "text": "Qingxiao Zheng, Yiliu Tang, Yiren Liu, Weizi Liu, and Yun Huang. 2022. UX Research on Conversational Human-AI Interaction: A Literature Review of the ACM Digital Library. In CHI Conference on Human Factors in Computing Systems. 1\u201324.",
+      "doi": "10.1145/3491102.3501855"
+    },
+    {
+      "text": "Qiushi Zhou, Cheng\u00a0Cheng Chua, Jarrod Knibbe, Jorge Goncalves, and Eduardo Velloso. 2021. Dance and Choreography in HCI: A Two-Decade Retrospective. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445804"
+    },
+    {
+      "text": "John Zimmerman, Jodi Forlizzi, Justin Finkenaur, Sarah Amick, Ji\u00a0Young Ahn, Nanako Era, and Owen Tong. 2016. Teens, parents, and financial literacy. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems. 312\u2013322.",
+      "doi": "10.1145/2901790.2901889"
+    },
+    {
+      "text": "Megan Zimmerman, Shelly Bagchi, Jeremy Marvel, and Vinh Nguyen. 2022. An Analysis of Metrics and Methods in Research from Human-Robot Interaction Conferences, 2015-2021. In Proceedings of the 2022 ACM/IEEE International Conference on Human-Robot Interaction. 644\u2013648.",
+      "doi": "10.5555/3523760.3523847"
+    },
+    {
+      "text": "John Zoshak and Kristin Dew. 2021. Beyond Kant and Bentham: How Ethical Theories are being used in Artificial Moral Agents. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3411764.3445102"
+    }
+  ]
+}

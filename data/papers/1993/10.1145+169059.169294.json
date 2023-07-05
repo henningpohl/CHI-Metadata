@@ -1,0 +1,76 @@
+{
+  "doi": "10.1145/169059.169294",
+  "title": "Separations of concerns in the Chiron-1 user interface development and management system",
+  "published": "1993-05-01",
+  "proctitle": "CHI '93: Proceedings of the INTERACT '93 and CHI '93 Conference on Human Factors in Computing Systems",
+  "pages": "367-374",
+  "year": 1993,
+  "badges": [],
+  "abstract": "The development of user interfaces for large applications is subject to a series of well-known problems including cost, maintainability, and sensitivity to changes in the operating environment. The Chiron user interface development system has been built to address these software engineering concerns. Chiron introduces a series of layers that insulate components of an application from other components that may experience change. To separate application code from user interface code, user interface agents called artists are attached to application abstract data types. Operations on abstract data types within the application implicitly trigger user interface activities. Chiron also provides insulation between the user interface layer and the underlying system; artist   code is written in terms of abstract depiction libraries that insulate the code from the specifics of particular windowing systems and toolkits. Concurrency is pervasive in the Chiron architecture. Inside an application there can be multiple execution threads; there is no requirement for a user interface listening/dispatching routine to have exclusive control. Multiple artists can be attached to a single application abstract data type, providing alternative forms of access by a single user or coordinated access and manipulation by multiple users.",
+  "authors": [
+    {
+      "name": "Richard N. Taylor",
+      "institution": "Department of Computer Science, University of California, Irvine",
+      "img": "/do/10.1145/contrib-81452609528/rel-imgonly/aa.jpg",
+      "acmid": "81452609528",
+      "orcid": "missing"
+    },
+    {
+      "name": "Gregory F. Johnson",
+      "institution": "Northrop Corporation, 1 Research Park, Pales Verdes, CA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100449078",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "M. Cameron, K. Forester, and C. MacFarlane. Chiron user manual. Arcadia Document UCI-91-04 (revised March 1992), University of California, Irvine, 1992. 225 pages.",
+      "doi": ""
+    },
+    {
+      "text": "P. Dewan. A tour of the suite user interface software. In Proceedings 0} the Third Annual Symposium on User Interface Software and Technology, pages 57,65, Snowbird, UT, October 1990. Association for Computing Machinery.  ",
+      "doi": "10.1145/97924.97931"
+    },
+    {
+      "text": "R. D. Hill. The abstraction-line-view paradigm: Using contraints to connect user interfaces to applications. In Proceedings of CHI 92, pages 335-342, May 1992.  ",
+      "doi": "10.1145/142750.142828"
+    },
+    {
+      "text": "M. A. Linton, J. M. Vlissides, and P. R. Calder. Composing user interfaces with InterViews. IEEE Computer, 22(2):8-22, February 1989.  ",
+      "doi": "10.1109/2.19829"
+    },
+    {
+      "text": "S. McKay. CLIM: The Common Lisp Interface Manager. Communications of the A CM, 34(9):58-59, September 1991.  ",
+      "doi": "10.1145/114669.114675"
+    },
+    {
+      "text": ". A. Myers. Incense: A system for displaying data structures. Computer Graphics, 17(3):115-125, July 1983.  ",
+      "doi": "10.1145/964967.801140"
+    },
+    {
+      "text": "B. A. Myers. Separating application code from toolkits: Eliminating the spaghetti of call-backs. In Proceedings of the A CM Symposium on User Interface Software Technology, pages 95-105, Hilton Head, South Carolina, November 1991.  ",
+      "doi": "10.1145/120782.120805"
+    },
+    {
+      "text": "B. A. Myers, D. A. Guise, R. B. Dannenberg, B. V. Zanden, D. S. Kosbie, E. Pervin, A. Mickish, and P. Marchal. Garnet: Comprehensive support for graphical, highly interactive user interfaces. IEEE Computer, pages 71-85, November 1990.  ",
+      "doi": "10.1109/2.60882"
+    },
+    {
+      "text": "J.P. Rotella, A. L. Bowman, and C. A. Wittman. The AT&amp;T display construction set user interface management system (UIMS). In Proceedings o:f CHI 92, pages 73-74, May 1992.  ",
+      "doi": "10.1145/142750.150709"
+    },
+    {
+      "text": "L. A. Rowe, J. A. Konstan, B. C. Smith, S. Seitz, and C. Liu. The PICASSO application framework. In Proceedings of the A CM Symposium on User Interface Software Technology, pages 95-105, Hilton Head, South Carolina, November 1991.  ",
+      "doi": "10.1145/120782.120793"
+    },
+    {
+      "text": "SEI. Serpent overview. SEI Technical Report CMU/SEI-89- UG-2, ESD-TR-89-08, Carnegie-Mellon University Software Enginnering Institute, August 1989.",
+      "doi": ""
+    },
+    {
+      "text": "M. R. Szczur. Transportable applications environment (TAE) plus user interface designer workbench. In Proceedings of CHI 92, pages 231-232, May 1992.  ",
+      "doi": "10.1145/142750.142798"
+    }
+  ]
+}

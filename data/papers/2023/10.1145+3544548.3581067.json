@@ -1,0 +1,354 @@
+{
+  "doi": "10.1145/3544548.3581067",
+  "title": "GVQA: Learning to Answer Questions about Graphs with Visualizations via Knowledge Base",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Graphs are common charts used to represent the topological relationship between nodes. It is a powerful tool for data analysis and information retrieval tasks involve asking questions about graphs. In formative study, we found that questions for graphs are not only about the relationship of nodes but also about the properties of graph elements. We propose a pipeline to answer natural language questions about graph visualizations and generate visual answers. We first extract the data from graphs and convert them into GML format. We design data structures to encode graph information and convert them into an knowledge base. We then extract topic entities from questions. We feed questions, entities and knowledge bases into our question-answer model to obtain the SPARQL queries for textual answers. Finally, we design a module to present the answers visually. A user study demonstrates that these visual and textual answers are useful, credible and and transparent.",
+  "authors": [
+    {
+      "name": "Sicheng Song",
+      "institution": "School of Computer Science and Technology, East China Normal University, China and Shanghai Institute of AI for Education, East China Normal University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659915122",
+      "orcid": "0000-0002-2158-0353"
+    },
+    {
+      "name": "Juntong Chen",
+      "institution": "School of Computer Science and Technology, East China Normal University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780540",
+      "orcid": "0000-0001-9343-4032"
+    },
+    {
+      "name": "Chenhui Li",
+      "institution": "School of Computer Science and Technology, East China Normal University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658761360",
+      "orcid": "0000-0001-9835-2650"
+    },
+    {
+      "name": "Changbo Wang",
+      "institution": "School of Computer Science and Technology, East China Normal University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100220966",
+      "orcid": "0000-0001-8940-6418"
+    }
+  ],
+  "references": [
+    {
+      "text": "Alan Akbik, Duncan Blythe, and Roland Vollgraf. 2018. Contextual string embeddings for sequence labeling. In Proceedings of the 27th international conference on computational linguistics. 1638\u20131649.",
+      "doi": ""
+    },
+    {
+      "text": "Sriram\u00a0Karthik Badam, Zhicheng Liu, and Niklas Elmqvist. 2018. Elastic documents: Coupling text and tables through contextual visualizations for enhanced document reading. IEEE transactions on visualization and computer graphics 25, 1(2018), 661\u2013671.",
+      "doi": ""
+    },
+    {
+      "text": "Junwei Bao, Nan Duan, Zhao Yan, Ming Zhou, and Tiejun Zhao. 2016. Constraint-based question answering with knowledge graph. In Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers. 2503\u20132514.",
+      "doi": ""
+    },
+    {
+      "text": "Mathieu Bastian, Sebastien Heymann, and Mathieu Jacomy. 2009. Gephi: an open source software for exploring and manipulating networks. In Proceedings of the international AAAI conference on web and social media, Vol.\u00a03. 361\u2013362.",
+      "doi": ""
+    },
+    {
+      "text": "Leilani Battle and Carlos Scheidegger. 2020. A structured review of data management technology for interactive visualization and analysis. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 1128\u20131138.",
+      "doi": ""
+    },
+    {
+      "text": "Vincent\u00a0D Blondel, Jean-Loup Guillaume, Renaud Lambiotte, and Etienne Lefebvre. 2008. Fast unfolding of communities in large networks. Journal of statistical mechanics: theory and experiment 2008, 10(2008), P10008.",
+      "doi": ""
+    },
+    {
+      "text": "Kurt Bollacker, Colin Evans, Praveen Paritosh, Tim Sturge, and Jamie Taylor. 2008. Freebase: a collaboratively created graph database for structuring human knowledge. In Proceedings of the 2008 ACM SIGMOD international conference on Management of data. 1247\u20131250.",
+      "doi": "10.1145/1376616.1376746"
+    },
+    {
+      "text": "Antoine Bordes, Nicolas Usunier, Sumit Chopra, and Jason Weston. 2015. Large-scale simple question answering with memory networks. arXiv preprint arXiv:1506.02075(2015).",
+      "doi": ""
+    },
+    {
+      "text": "Michael Bostock, Vadim Ogievetsky, and Jeffrey Heer. 2011. D3 data-driven documents. IEEE TVCG 17, 12 (2011), 2301\u20132309.",
+      "doi": ""
+    },
+    {
+      "text": "Ritwick Chaudhry, Sumit Shekhar, Utkarsh Gupta, Pranav Maneriker, Prann Bansal, and Ajay Joshi. 2020. Leaf-qa: Locate, encode & attend for figure question answering. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 3512\u20133521.",
+      "doi": ""
+    },
+    {
+      "text": "Yang Chen, Scott Barlowe, and Jing Yang. 2010. Click2annotate: Automated insight externalization with rich semantics. In 2010 IEEE symposium on visual analytics science and technology. IEEE, 155\u2013162.",
+      "doi": ""
+    },
+    {
+      "text": "Yang Chen, Jing Yang, Scott Barlowe, and Dong\u00a0H Jeong. 2010. Touch2Annotate: Generating better annotations with less human effort on multi-touch interfaces. In CHI\u201910 Extended Abstracts on Human Factors in Computing Systems. Association for Computing Machinery, 3703\u20133708.",
+      "doi": ""
+    },
+    {
+      "text": "Zi-Yuan Chen, Chih-Hung Chang, Yi-Pei Chen, Jijnasa Nayak, and Lun-Wei Ku. 2019. UHop: An Unrestricted-Hop Relation Extraction Framework for Knowledge-Based Question Answering. In Proceedings of NAACL-HLT. 345\u2013356.",
+      "doi": ""
+    },
+    {
+      "text": "Rajarshi Das, Shehzaad Dhuliawala, Manzil Zaheer, Luke Vilnis, Ishan Durugkar, Akshay Krishnamurthy, Alex Smola, and Andrew McCallum. 2018. Go for a Walk and Arrive at the Answer: Reasoning Over Paths in Knowledge Bases using Reinforcement Learning. In International Conference on Learning Representations.",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Tong Gao, Mira Dontcheva, Eytan Adar, Zhicheng Liu, and Karrie\u00a0G Karahalios. 2015. Datatone: Managing ambiguity in natural language interfaces for data visualization. In Proceedings of the 28th annual acm symposium on user interface software & technology. 489\u2013500.",
+      "doi": "10.1145/2807442.2807478"
+    },
+    {
+      "text": "Qingyu Guo, Fuzhen Zhuang, Chuan Qin, Hengshu Zhu, Xing Xie, Hui Xiong, and Qing He. 2020. A survey on knowledge graph-based recommender systems. IEEE Transactions on Knowledge and Data Engineering (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Harper and Maneesh Agrawala. 2017. Converting basic D3 charts into reusable style templates. IEEE transactions on visualization and computer graphics 24, 3(2017), 1274\u20131286.",
+      "doi": ""
+    },
+    {
+      "text": "Dan Hendrycks and Kevin Gimpel. 2016. Gaussian error linear units (gelus). arXiv preprint arXiv:1606.08415(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Michael Himsolt. 1997. GML: A portable graph file format. Technical Report. Technical report, Universitat Passau.",
+      "doi": ""
+    },
+    {
+      "text": "Enamul Hoque, Vidya Setlur, Melanie Tory, and Isaac Dykeman. 2017. Applying pragmatics principles for interaction with visual analytics. IEEE transactions on visualization and computer graphics 24, 1(2017), 309\u2013318.",
+      "doi": ""
+    },
+    {
+      "text": "Sen Hu, Lei Zou, and Xinbo Zhang. 2018. A state-transition framework to answer complex questions over knowledge base. In Proceedings of the 2018 conference on empirical methods in natural language processing. 2098\u20132108.",
+      "doi": ""
+    },
+    {
+      "text": "Zhiheng Huang, Wei Xu, and Kai Yu. 2015. Bidirectional LSTM-CRF Models for Sequence Tagging. ArXiv abs/1508.01991(2015).",
+      "doi": ""
+    },
+    {
+      "text": "Victor Hugo. 1863. Les mis\u00e9rables...C. Lassalle.",
+      "doi": ""
+    },
+    {
+      "text": "Zhengbao Jiang, Yi Mao, Pengcheng He, Graham Neubig, and Weizhu Chen. 2022. OmniTab: Pretraining with Natural and Synthetic Data for Few-shot Table-based Question Answering. arXiv preprint arXiv:2207.03637(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Huang Jieying, Xi Yang, Hu Junnan, and Tao Jun. 2023. FlowNL: Asking the Flow Data in Natural Languages. IEEE Transactions on Visualization and Computer Graphics (2023), 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Kushal Kafle, Brian Price, Scott Cohen, and Christopher Kanan. 2018. Dvqa: Understanding data visualizations via question answering. In Proceedings of the IEEE conference on computer vision and pattern recognition. 5648\u20135656.",
+      "doi": ""
+    },
+    {
+      "text": "Samira\u00a0Ebrahimi Kahou, Vincent Michalski, Adam Atkinson, and et al. 2018. FigureQA: An Annotated Figure Dataset for Visual Reasoning. In Proc. ICLR\u201918. arxiv:1710.07300http://arxiv.org/abs/1710.07300",
+      "doi": ""
+    },
+    {
+      "text": "Aniruddha Kembhavi, Mike Salvato, Eric Kolve, Minjoon Seo, Hannaneh Hajishirzi, and Ali Farhadi. 2016. A diagram is worth a dozen images. In European conference on computer vision. Springer, 235\u2013251.",
+      "doi": ""
+    },
+    {
+      "text": "Daesik Kim, YoungJoon Yoo, Jee-Soo Kim, Sangkuk Lee, and Nojun Kwak. 2018. Dynamic graph generation network: Generating relational knowledge from diagrams. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 4167\u20134175.",
+      "doi": ""
+    },
+    {
+      "text": "Dae\u00a0Hyun Kim, Enamul Hoque, and Maneesh Agrawala. 2020. Answering questions about charts and generating visual explanations. In Proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376467"
+    },
+    {
+      "text": "Donald\u00a0Ervin Knuth. 1993. The Stanford GraphBase: a platform for combinatorial computing. Vol.\u00a01. AcM Press New York.",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas Kong, Marti\u00a0A Hearst, and Maneesh Agrawala. 2014. Extracting references between text and charts via crowdsourcing. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems. 31\u201340.",
+      "doi": "10.1145/2556288.2557241"
+    },
+    {
+      "text": "Valdis Krebs. 2004. Books about us politics. unpublished, http://www. orgnet. com(2004).",
+      "doi": ""
+    },
+    {
+      "text": "Chufan Lai, Zhixian Lin, Ruike Jiang, Yun Han, Can Liu, and Xiaoru Yuan. 2020. Automatic annotation synchronizing with textual description for visualization. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376443"
+    },
+    {
+      "text": "Yunshi Lan and Jing Jiang. 2020. Query Graph Generation for Answering Multi-hop Complex Questions from Knowledge Bases. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Online, 969\u2013974. https://doi.org/10.18653/v1/2020.acl-main.91",
+      "doi": ""
+    },
+    {
+      "text": "Yunshi Lan, Shuohang Wang, and Jing Jiang. 2019. Knowledge Base Question Answering with Topic Units. In IJCAI. 5046\u20135052. https://doi.org/10.24963/ijcai.2019/701",
+      "doi": ""
+    },
+    {
+      "text": "Yunshi Lan, Shuohang Wang, and Jing Jiang. 2019. Multi-hop knowledge base question answering with an iterative sequence matching model. In 2019 IEEE International Conference on Data Mining (ICDM). IEEE, 359\u2013368.",
+      "doi": ""
+    },
+    {
+      "text": "Deqing Li, Honghui Mei, Yi Shen, Shuang Su, Wenli Zhang, Junting Wang, Ming Zu, and Wei Chen. 2018. ECharts: a declarative framework for rapid construction of web-based visualization. Visual Informatics 2, 2 (2018), 136\u2013146.",
+      "doi": ""
+    },
+    {
+      "text": "Haotian Li, Yong Wang, Songheng Zhang, Yangqiu Song, and Huamin Qu. 2021. KG4Vis: A knowledge graph-based approach for visualization recommendation. IEEE Transactions on Visualization and Computer Graphics 28, 1(2021), 195\u2013205.",
+      "doi": "10.1109/TVCG.2021.3114863"
+    },
+    {
+      "text": "Chen Liang, Jonathan Berant, Quoc Le, Kenneth\u00a0D Forbus, and Ni Lao. 2017. Neural symbolic machines: Learning semantic parsers on freebase with weak supervision. In 55th Annual Meeting of the Association for Computational Linguistics, ACL 2017. Association for Computational Linguistics (ACL), 23\u201333.",
+      "doi": ""
+    },
+    {
+      "text": "Can Liu, Yun Han, Ruike Jiang, and Xiaoru Yuan. 2021. Advisor: Automatic visualization answer for natural-language question on tabular data. In 2021 IEEE 14th Pacific Visualization Symposium (PacificVis). IEEE, 11\u201320.",
+      "doi": ""
+    },
+    {
+      "text": "Can Liu, Liwenhan Xie, Yun Han, Datong Wei, and Xiaoru Yuan. 2020. AutoCaption: An approach to generate natural language description from visualization automatically. In 2020 IEEE Pacific Visualization Symposium (PacificVis). IEEE, 191\u2013195.",
+      "doi": ""
+    },
+    {
+      "text": "Kangqi Luo, Fengli Lin, Xusheng Luo, and Kenny Zhu. 2018. Knowledge base question answering via encoding of complex query graphs. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing. 2185\u20132194.",
+      "doi": ""
+    },
+    {
+      "text": "Yuyu Luo, Nan Tang, Guoliang Li, Chengliang Chai, Wenbo Li, and Xuedi Qin. 2021. Synthesizing natural language to visualization (NL2VIS) benchmarks from NL2SQL benchmarks. In Proceedings of the 2021 International Conference on Management of Data. 1235\u20131247.",
+      "doi": "10.1145/3448016.3457261"
+    },
+    {
+      "text": "Minesh Mathew, Viraj Bagal, Rub\u00e8n Tito, Dimosthenis Karatzas, Ernest Valveny, and CV Jawahar. 2022. InfographicVQA. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 1697\u20131706.",
+      "doi": ""
+    },
+    {
+      "text": "Ronald Metoyer, Qiyu Zhi, Bart Janczuk, and Walter Scheirer. 2018. Coupling story to visualization: Using textual analysis as a bridge between data and interpretation. In 23rd International Conference on Intelligent User Interfaces. 503\u2013507.",
+      "doi": "10.1145/3172944.3173007"
+    },
+    {
+      "text": "George\u00a0A Miller. 1995. WordNet: a lexical database for English. Commun. ACM 38, 11 (1995), 39\u201341.",
+      "doi": "10.1145/219717.219748"
+    },
+    {
+      "text": "Semi Min and Juyong Park. 2016. Narrative as a Complex Network: A Study of Victor Hugo\u2019s Les Mis\u00e9rables. In Proceedings of HCI Korea. 100\u2013107.",
+      "doi": ""
+    },
+    {
+      "text": "Tamara Munzner. 2014. Visualization analysis and design. CRC press.",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0EJ Newman. 2006. Finding community structure in networks using the eigenvectors of matrices. Physical review E 74, 3 (2006), 036104.",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0EJ Newman. 2013. Network data. http://www-personal. umich. edu/mejn/netdata/ (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Jason Obeid and Enamul Hoque. 2020. Chart-to-text: Generating natural language descriptions for charts by adapting the transformer model. arXiv preprint arXiv:2010.09142(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Panupong Pasupat and Percy Liang. 2015. Compositional Semantic Parsing on Semi-Structured Tables. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). 1470\u20131480.",
+      "doi": ""
+    },
+    {
+      "text": "Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, 2019. Pytorch: An imperative style, high-performance deep learning library. Advances in neural information processing systems 32 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Michael Petrochuk and Luke Zettlemoyer. 2018. Simplequestions nearly solved: A new upperbound and baseline approach. arXiv preprint arXiv:1804.08798(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Donghao Ren, Matthew Brehmer, Bongshin Lee, Tobias H\u00f6llerer, and Eun\u00a0Kyoung Choe. 2017. Chartaccent: Annotation for data-driven storytelling. In 2017 IEEE Pacific Visualization Symposium (PacificVis). Ieee, 230\u2013239.",
+      "doi": ""
+    },
+    {
+      "text": "Stefan Schweter and Alan Akbik. 2020. Flert: Document-level features for named entity recognition. arXiv preprint arXiv:2011.06993(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Vidya Setlur, Sarah\u00a0E Battersby, Melanie Tory, Rich Gossweiler, and Angel\u00a0X Chang. 2016. Eviza: A natural language interface for visual analysis. In Proceedings of the 29th annual symposium on user interface software and technology. 365\u2013377.",
+      "doi": "10.1145/2984511.2984588"
+    },
+    {
+      "text": "Leixian Shen, Enya Shen, Yuyu Luo, Xiaocong Yang, Xuming Hu, Xiongshuai Zhang, Zhiwei Tai, and Jianmin Wang. 2022. Towards Natural Language Interfaces for Data Visualization: A Survey. IEEE Transactions on Visualization and Computer Graphics (2022), 1\u20131. https://doi.org/10.1109/TVCG.2022.3148007",
+      "doi": ""
+    },
+    {
+      "text": "Danqing Shi, Xinyue Xu, Fuling Sun, Yang Shi, and Nan Cao. 2020. Calliope: Automatic visual data story generation from a spreadsheet. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 453\u2013463.",
+      "doi": ""
+    },
+    {
+      "text": "Hrituraj Singh and Sumit Shekhar. 2020. Stl-cqa: Structure-based transformers with localization and encoding for chart question answering. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). 3275\u20133284.",
+      "doi": ""
+    },
+    {
+      "text": "Sicheng Song, Chenhui Li, Yujing Sun, and Changbo Wang. 2022. VividGraph: Learning to Extract and Redesign Network Graphs from Visualization Images. IEEE Transactions on Visualization and Computer Graphics (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Arjun Srinivasan, Bongshin Lee, Nathalie Henry\u00a0Riche, Steven\u00a0M Drucker, and Ken Hinckley. 2020. InChorus: Designing consistent multimodal interactions for data visualization on tablet devices. In Proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376782"
+    },
+    {
+      "text": "Arjun Srinivasan and John Stasko. 2017. Orko: Facilitating multimodal interaction for visual exploration and analysis of networks. IEEE transactions on visualization and computer graphics 24, 1(2017), 511\u2013521.",
+      "doi": ""
+    },
+    {
+      "text": "Harris Steve, Seaborne Andy, and Prud\u2019hommeaux Eric. 2013. SPARQL 1.1 Query Language. https://www.w3.org/TR/sparql11-query/.",
+      "doi": ""
+    },
+    {
+      "text": "Chao Tong, Richard Roberts, Rita Borgo, Sean Walton, Robert\u00a0S Laramee, Kodzo Wegba, Aidong Lu, Yun Wang, Huamin Qu, Qiong Luo, 2018. Storytelling and visualization: An extended survey. Information 9, 3 (2018), 65.",
+      "doi": ""
+    },
+    {
+      "text": "Mati Ullah, Abdul Shahid, Muhammad Roman, Muhammad Assam, Muhammad Fayaz, Yazeed Ghadi, Hanan Aljuaid, 2022. Analyzing Interdisciplinary Research Using Co-Authorship Networks. Complexity 2022(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Quan Wang, Zhendong Mao, Bin Wang, and Li Guo. 2017. Knowledge graph embedding: A survey of approaches and applications. IEEE Transactions on Knowledge and Data Engineering 29, 12(2017), 2724\u20132743.",
+      "doi": ""
+    },
+    {
+      "text": "Yanyan Wang, Zhanning Bai, Zhifeng Lin, Xiaoqing Dong, Yingchaojie Feng, Jiacheng Pan, and Wei Chen. 2021. G6: A web-based library for graph visualization. Visual Informatics 5, 4 (2021), 49\u201355.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, R\u00e9mi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven\u00a0Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest, and Alexander\u00a0M. Rush. 2020. Transformers: State-of-the-Art Natural Language Processing. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations. Association for Computational Linguistics, Online, 38\u201345. https://www.aclweb.org/anthology/2020.emnlp-demos.6",
+      "doi": ""
+    },
+    {
+      "text": "Scott Wen-tau Yih, Ming-Wei Chang, Xiaodong He, and Jianfeng Gao. 2015. Semantic parsing via staged query graph generation: Question answering with knowledge base. In Proceedings of the Joint Conference of the 53rd Annual Meeting of the ACL and the 7th International Joint Conference on Natural Language Processing of the AFNLP.",
+      "doi": ""
+    },
+    {
+      "text": "Wen-tau Yih, Xiaodong He, and Christopher Meek. 2014. Semantic parsing for single-relation question answering. In Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). 643\u2013648.",
+      "doi": ""
+    },
+    {
+      "text": "Zhaoquan Yuan, Xiao Peng, Xiao Wu, and Changsheng Xu. 2021. Hierarchical Multi-Task Learning for Diagram Question Answering with Multi-Modal Transformer. In Proceedings of the 29th ACM International Conference on Multimedia. 1313\u20131321.",
+      "doi": "10.1145/3474085.3475255"
+    },
+    {
+      "text": "Wayne\u00a0W Zachary. 1977. An information flow model for conflict and fission in small groups. Journal of anthropological research 33, 4 (1977), 452\u2013473.",
+      "doi": ""
+    },
+    {
+      "text": "Yuchen Zhang, Panupong Pasupat, and Percy Liang. 2017. Macro grammars and holistic triggering for efficient semantic parsing. arXiv preprint arXiv:1707.07806(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Ying Zhao, Jingcheng Shi, Jiawei Liu, Jian Zhao, Fangfang Zhou, Wenzhi Zhang, Kangyi Chen, Xin Zhao, Chunyao Zhu, and Wei Chen. 2021. Evaluating effects of background stories on graph perception. IEEE Transactions on Visualization and Computer Graphics (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Victor Zhong, Caiming Xiong, and Richard Socher. 2017. Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning. CoRR abs/1709.00103(2017).",
+      "doi": ""
+    }
+  ]
+}

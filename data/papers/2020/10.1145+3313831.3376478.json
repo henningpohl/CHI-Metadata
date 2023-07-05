@@ -1,0 +1,492 @@
+{
+  "doi": "10.1145/3313831.3376478",
+  "title": "Designing Ambient Narrative-Based Interfaces to Reflect and Motivate Physical Activity",
+  "published": "2020-04-23",
+  "proctitle": "CHI '20: Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2020,
+  "badges": [],
+  "abstract": "Numerous technologies now exist for promoting more active lifestyles. However, while quantitative data representations (e.g., charts, graphs, and statistical reports) typify most health tools, growing evidence suggests such feedback can not only fail to motivate behavior but may also harm self-integrity and fuel negative mindsets about exercise. Our research seeks to devise alternative, more qualitative schemes for encoding personal information. In particular, this paper explores the design of data-driven narratives, given the intuitive and persuasive power of stories. We present WhoIsZuki, a smartphone application that visualizes physical activities and goals as components of a multi-chapter quest, where the main character's progress is tied to the user's. We report on our design process involving online surveys, in-lab studies, and in-the-wild deployments, aimed at refining the interface and the narrative and gaining a deep understanding of people's experiences with this type of feedback. From these insights, we contribute recommendations to guide future development of narrative-based applications for motivating healthy behavior.",
+  "authors": [
+    {
+      "name": "Elizabeth L. Murnane",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/do/10.1145/contrib-81381605773/rel-imgonly/murnane2020-for-circle.png",
+      "acmid": "81381605773",
+      "orcid": "missing"
+    },
+    {
+      "name": "Xin Jiang",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659526907",
+      "orcid": "missing"
+    },
+    {
+      "name": "Anna Kong",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528502",
+      "orcid": "missing"
+    },
+    {
+      "name": "Michelle Park",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659272604",
+      "orcid": "missing"
+    },
+    {
+      "name": "Weili Shi",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659452826",
+      "orcid": "missing"
+    },
+    {
+      "name": "Connor Soohoo",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659526508",
+      "orcid": "missing"
+    },
+    {
+      "name": "Luke Vink",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658707797",
+      "orcid": "missing"
+    },
+    {
+      "name": "Iris Xia",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659526645",
+      "orcid": "missing"
+    },
+    {
+      "name": "Xin Yu",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659529526",
+      "orcid": "missing"
+    },
+    {
+      "name": "John Yang-Sammataro",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528345",
+      "orcid": "missing"
+    },
+    {
+      "name": "Grace Young",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659529421",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jenny Zhi",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528074",
+      "orcid": "missing"
+    },
+    {
+      "name": "Paula Moya",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528142",
+      "orcid": "missing"
+    },
+    {
+      "name": "James A. Landay",
+      "institution": "Stanford University, Stanford, CA, USA",
+      "img": "/do/10.1145/contrib-81100103519/rel-imgonly/rsd17_051_0272a-small.jpg",
+      "acmid": "81100103519",
+      "orcid": "0000-0003-1520-8894"
+    }
+  ],
+  "references": [
+    {
+      "text": "Aino Ahtinen, Pertti Huuskonen, and Jonna H\u00e4kkil\u00e4. 2010. Let's all get up and walk to the North Pole: design and evaluation of a mobile wellness application. In Proceedings of the 6th Nordic conference on human-computer interaction: Extending boundaries. ACM, 3--12.",
+      "doi": "10.1145/1868914.1868920"
+    },
+    {
+      "text": "Ian Anderson, Julie Maitland, Scott Sherwood, Louise Barkhuus, Matthew Chalmers, Malcolm Hall, Barry Brown, and Henk Muller. 2007. Shakra: tracking and sharing daily activity levels with unaugmented mobile phones. Mobile networks and applications 12, 2--3 (2007), 185--199.",
+      "doi": ""
+    },
+    {
+      "text": "Markus Appel and Barbara Maleckar. 2012. The influence of paratext on narrative persuasion: Fact, fiction, or fake? Human Communication Research 38, 4 (2012), 459--484.",
+      "doi": ""
+    },
+    {
+      "text": "Tom Baranowski, Richard Buday, Debbe I Thompson, and Janice Baranowski. 2008. Playing for real: video games and stories for health-related behavior change. American journal of preventive medicine 34, 1 (2008), 74--82.",
+      "doi": ""
+    },
+    {
+      "text": "Timothy W Bickmore, Lisa Caruso, and Kerri Clough-Gorr. 2005. Acceptance and usability of a relational agent interface by urban older adults. In CHI'05 extended abstracts on Human factors in computing systems. ACM, 1212--1215.",
+      "doi": "10.1145/1056808.1056879"
+    },
+    {
+      "text": "Frank W Booth, Christian K Roberts, and Matthew J Laye. 2012. Lack of exercise is a major cause of chronic diseases. Comprehensive Physiology 2, 2 (2012), 1143.",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2012. Thematic analysis. (2012).",
+      "doi": ""
+    },
+    {
+      "text": "Rick Busselle and Helena Bilandzic. 2008. Fictionality and perceived realism in experiencing stories: A model of narrative comprehension and engagement. Communication Theory 18, 2 (2008), 255--280.",
+      "doi": ""
+    },
+    {
+      "text": "Rick Busselle and Helena Bilandzic. 2009. Measuring narrative engagement. Media Psychology 12, 4 (2009), 321--347.",
+      "doi": ""
+    },
+    {
+      "text": "Kelly Caine. 2016. Local standards for sample size at CHI. In Proceedings of the 2016 CHI conference on human factors in computing systems. ACM, 981--992.",
+      "doi": "10.1145/2858036.2858498"
+    },
+    {
+      "text": "Eun Kyoung Choe, Bongshin Lee, and others. 2015. Characterizing visualization insights from quantified selfers' personal data presentations. IEEE computer graphics and applications 35, 4 (2015), 28--37.",
+      "doi": "10.1109/MCG.2015.51"
+    },
+    {
+      "text": "Tainya C Clarke, Tina Norris, and Jeannine S Schiller. 2017. Early Release of Selected Estimates Based on Data from the 2016 National Health Interview Survey. (2017).",
+      "doi": ""
+    },
+    {
+      "text": "James Clawson, Jessica A Pater, Andrew D Miller, Elizabeth D Mynatt, and Lena Mamykina. 2015. No longer wearing: investigating the abandonment of personal health-tracking technologies on craigslist. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing. ACM, 647--658.",
+      "doi": "10.1145/2750858.2807554"
+    },
+    {
+      "text": "Geoffrey L Cohen and David K Sherman. 2014. The psychology of change: Self-affirmation and social psychological intervention. Annual review of psychology 65 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Cohen. 2001. Defining identification: A theoretical look at the identification of audiences with media characters. Mass communication & society 4, 3 (2001), 245--264.",
+      "doi": ""
+    },
+    {
+      "text": "Sunny Consolvo, Katherine Everitt, Ian Smith, and James A Landay. 2006. Design requirements for technologies that encourage physical activity. In Proceedings of the SIGCHI conference on Human Factors in computing systems. ACM, 457--466.",
+      "doi": "10.1145/1124772.1124840"
+    },
+    {
+      "text": "Sunny Consolvo, Beverly Harrison, Ian Smith, Mike Y Chen, Katherine Everitt, Jon Froehlich, and James A Landay. 2007. Conducting in situ evaluations for and with ubiquitous computing technologies. International Journal of Human-Computer Interaction 22, 1--2 (2007), 103--118.",
+      "doi": ""
+    },
+    {
+      "text": "Sunny Consolvo, Predrag Klasnja, David W McDonald, Daniel Avrahami, Jon Froehlich, Louis LeGrand, Ryan Libby, Keith Mosher, and James A Landay. 2008. Flowers or a robot army?: encouraging awareness & activity with personal, mobile displays. In Proceedings of the 10th international conference on Ubiquitous computing. ACM, 54--63.",
+      "doi": "10.1145/1409635.1409644"
+    },
+    {
+      "text": "Sunny Consolvo, Predrag Klasnja, David W McDonald, and James A Landay. 2014. Designing for healthy lifestyles: Design considerations for mobile technologies to encourage consumer health and wellness. Foundations and Trends\u00ae in Human--Computer Interaction 6, 3--4 (2014), 167--315.",
+      "doi": ""
+    },
+    {
+      "text": "Sunny Consolvo, James A Landay, and David W McDonald. 2009. Designing for behavior change in everyday life. IEEE Computer 42 (2009), 6.",
+      "doi": "10.1109/MC.2009.185"
+    },
+    {
+      "text": "Sunny Consolvo, David W McDonald, Tammy Toscos, Mike Y Chen, Jon Froehlich, Beverly Harrison, Predrag Klasnja, Anthony LaMarca, Louis LeGrand, Ryan Libby, Ian Smith, and James A Landay. 2008. Activity sensing in the wild: a field trial of ubifit garden. In Proceedings of the SIGCHI conference on human factors in computing systems. ACM, 1797--1806.",
+      "doi": "10.1145/1357054.1357335"
+    },
+    {
+      "text": "Cora L Craig, Alison L Marshall, Michael Sjorstrom, Adrian E Bauman, Michael L Booth, Barbara E Ainsworth, Michael Pratt, ULF Ekelund, Agneta Yngve, James F Sallis, and others. 2003. International physical activity questionnaire: 12-country reliability and validity. Medicine and science in sports and exercise 35, 8 (2003), 1381--1395.",
+      "doi": ""
+    },
+    {
+      "text": "Alia J Crum, DZ Boles, M DeSousa, and Markus HR. 2019. If being healthy is hard, painful and depriving, it is no wonder we are all fat and sick: Mindsets about the process of health provide a new avenue for motivating health behavior. (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Alia J Crum and Ellen J Langer. 2007. Mind-set matters: Exercise and the placebo effect. Psychological Science 18, 2 (2007), 165--171.",
+      "doi": ""
+    },
+    {
+      "text": "Mihaly Csikszentmihalyi. 1990. Flow: The psychology of optimal experience. New York: Harper & Row.",
+      "doi": ""
+    },
+    {
+      "text": "Michael F Dahlstrom. 2010. The role of causality in information acceptance in narratives: An example from science communication. Communication Research 37, 6 (2010), 857--875.",
+      "doi": ""
+    },
+    {
+      "text": "Nediyana Daskalova, Karthik Desingh, Alexandra Papoutsaki, Diane Schulze, Han Sha, and Jeff Huang. 2017. Lessons learned from two cohorts of personal informatics self-experiments. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 3 (2017), 46.",
+      "doi": "10.1145/3130911"
+    },
+    {
+      "text": "Michele D Dickey. 2006. Game design narrative for learning: Appropriating adventure game design narrative devices and techniques for the design of interactive learning environments. Educational Technology Research and Development 54, 3 (2006), 245--263.",
+      "doi": ""
+    },
+    {
+      "text": "James Price Dillard and Lijiang Shen. 2005. On the nature of reactance and its role in persuasive health communication. Communication Monographs 72, 2 (2005), 144--168.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Epstein. 2018. Everyday Personal Informatics. Ph.D. Dissertation. University of Washington.",
+      "doi": ""
+    },
+    {
+      "text": "Elaine Farrow, Thomas Dickinson, and Matthew P Aylett. 2015. Generating narratives from personal digital data: using sentiment, themes, and named entities to construct stories. In Human-Computer Interaction. Springer, 473--477.",
+      "doi": ""
+    },
+    {
+      "text": "OnePoll for Asurion. 2017. Smartphones Keep Us Running. (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Jon Froehlich, Tawanna Dillahunt, Predrag Klasnja, Jennifer Mankoff, Sunny Consolvo, Beverly Harrison, and James A Landay. 2009. UbiGreen: investigating a mobile tool for tracking and supporting green transportation habits. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 1043--1052.",
+      "doi": "10.1145/1518701.1518861"
+    },
+    {
+      "text": "Ainara Garde, Aryannah Umedaly, S Mazdak Abulnaga, Leah Robertson, Anne Junker, Jean Pierre Chanoine, J Mark Ansermino, and Guy A Dumont. 2015. Assessment of a mobile game (\"MobileKids Monster Manor\") to promote physical activity among children. Games for health journal 4, 2 (2015), 149--158.",
+      "doi": ""
+    },
+    {
+      "text": "Roland Gasser, Dominique Brodbeck, Markus Degen, J\u00fcrg Luthiger, Remo Wyss, and Serge Reichlin. 2006. Persuasiveness of a mobile lifestyle coaching application using social facilitation. In International Conference on Persuasive Technology. Springer, 27--38.",
+      "doi": "10.5555/1986822.1986828"
+    },
+    {
+      "text": "Erving Goffman. 1959. The presentation of self in everyday life. New York: Anchor Books (1959).",
+      "doi": ""
+    },
+    {
+      "text": "Melanie C Green. 2004. Transportation into narrative worlds: The role of prior knowledge and perceived realism. Discourse processes 38, 2 (2004), 247--266.",
+      "doi": ""
+    },
+    {
+      "text": "Melanie C Green and Timothy C Brock. 2000. The role of transportation in the persuasiveness of public narratives. Journal of personality and social psychology 79, 5 (2000), 701.",
+      "doi": ""
+    },
+    {
+      "text": "Melanie C Green, Timothy C Brock, and Geoff F Kaufman. 2004. Understanding media enjoyment: The role of transportation into narrative worlds. Communication Theory 14, 4 (2004), 311--327.",
+      "doi": ""
+    },
+    {
+      "text": "Juho Hamari and Jonna Koivisto. 2015. \"Working out for likes\": An empirical study on social influence in exercise gamification. Computers in Human Behavior 50 (2015), 333--347.",
+      "doi": "10.1016/j.chb.2015.04.018"
+    },
+    {
+      "text": "Leslie J Hinyard and Matthew W Kreuter. 2007. Using narrative communication as a tool for health behavior change: a conceptual, theoretical, and empirical overview. Health Education & Behavior 34, 5 (2007), 777--792.",
+      "doi": ""
+    },
+    {
+      "text": "Dong Uk Im, Hak Ro Yoon, and Jong Oh Lee. 2014. A Semiotic narratological approach to the facilitation of persona method for enhancing user experience. International Journal of Smart Home 8, 4 (2014), 97--104.",
+      "doi": ""
+    },
+    {
+      "text": "Nassim Jafarinaimi, Jodi Forlizzi, Amy Hurst, and John Zimmerman. 2005. Breakaway: an ambient display designed to change human behavior. In CHI'05 extended abstracts on Human factors in computing systems. ACM, 1945--1948.",
+      "doi": "10.1145/1056808.1057063"
+    },
+    {
+      "text": "Carel Jansen. 2017. Developing persuasive health campaign messages. Information Design: Research and Practice (2017), 669--684.",
+      "doi": ""
+    },
+    {
+      "text": "Christine Keung, Alexa Lee, Shirley Lu, and Megan O'Keefe. 2013. BunnyBolt: a mobile fitness app for youth. In Proceedings of the 12th International Conference on Interaction Design and Children. ACM, 585--588.",
+      "doi": "10.1145/2485760.2485871"
+    },
+    {
+      "text": "Abby C King, Eric B Hekler, Lauren A Grieco, Sandra J Winter, Jylana L Sheats, Matthew P Buman, Banny Banerjee, Thomas N Robinson, and Jesse Cirimele. 2016. Effects of three motivationally targeted mobile device applications on initial physical activity and sedentary behavior change in midlife and older adults: a randomized trial. PLoS One 11, 6 (2016), e0156370.",
+      "doi": ""
+    },
+    {
+      "text": "Predrag Klasnja, Sunny Consolvo, David W McDonald, James A Landay, and Wanda Pratt. 2009. Using mobile & personal sensing technologies to support health behavior change in everyday life: lessons learned. In AMIA Annual Symposium Proceedings, Vol. 2009. American Medical Informatics Association, 338.",
+      "doi": ""
+    },
+    {
+      "text": "Predrag Klasnja, Sunny Consolvo, and Wanda Pratt. 2011. How to evaluate technologies for health behavior change in HCI research. In Proceedings of the SIGCHI conference on human factors in computing systems. ACM, 3063--3072.",
+      "doi": "10.1145/1978942.1979396"
+    },
+    {
+      "text": "Phillippa Lally, Cornelia HM Van Jaarsveld, Henry WW Potts, and Jane Wardle. 2010. How are habits formed: Modelling habit formation in the real world. European journal of social psychology 40, 6 (2010), 998--1009.",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas D Lane, Mashfiqui Mohammod, Mu Lin, Xiaochao Yang, Hong Lu, Shahid Ali, Afsaneh Doryab, Ethan Berke, Tanzeem Choudhury, and Andrew Campbell. 2011. Bewell: A smartphone application to monitor, model and promote wellbeing. In 5th international ICST conference on pervasive computing technologies for healthcare. 23--26.",
+      "doi": ""
+    },
+    {
+      "text": "Amanda Lazar, Christian Koehler, Joshua Tanenbaum, and David H Nguyen. 2015. Why we use and abandon smart devices. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing. ACM, 635--646.",
+      "doi": "10.1145/2750858.2804288"
+    },
+    {
+      "text": "I-Min Lee, Eric J Shiroma, Felipe Lobelo, Pekka Puska, Steven N Blair, Peter T Katzmarzyk, Lancet Physical Activity Series Working Group, and others. 2012. Effect of physical inactivity on major non-communicable diseases worldwide: an analysis of burden of disease and life expectancy. The lancet 380, 9838 (2012), 219--229.",
+      "doi": ""
+    },
+    {
+      "text": "SJ Lentelink, Antonius AM Spil, T Broens, Hermie J Hermens, and Valerie M Jones. 2013. Healthy weight game!: Lose weight together. In Serious Games and Applications for Health (SeGAH), 2013 IEEE 2nd International Conference on. IEEE, 1--8.",
+      "doi": ""
+    },
+    {
+      "text": "James J Lin, Lena Mamykina, Silvia Lindtner, Gregory Delajoux, and Henry B Strub. 2006. Fish 'n' Steps: Encouraging physical activity with an interactive computer game. In International conference on ubiquitous computing. Springer, 261--278.",
+      "doi": "10.1007/11853565_16"
+    },
+    {
+      "text": "Cameron Lister, Joshua H West, Ben Cannon, Tyler Sax, and David Brodegard. 2014. Just a fad? Gamification in health and fitness apps. JMIR serious games 2, 2 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Edwin A Locke and Gary P Latham. 2002. Building a practically useful theory of goal setting and task motivation: A 35-year odyssey. American psychologist 57, 9 (2002), 705.",
+      "doi": ""
+    },
+    {
+      "text": "Amy Shirong Lu, Tom Baranowski, Debbe Thompson, and Richard Buday. 2012. Story immersion of videogames for youth health promotion: A review of literature. Games for Health: Research, Development, and Clinical Applications 1, 3 (2012), 199--204.",
+      "doi": ""
+    },
+    {
+      "text": "Amy Shirong Lu, Melanie C Green, and Debbe Thompson. 2019. Using Narrative Game Design to Increase Children's Physical Activity: Exploratory Thematic Analysis. JMIR serious games 7, 4 (2019), e16031.",
+      "doi": ""
+    },
+    {
+      "text": "Deborah Lupton. 2013. Quantifying the body: monitoring and measuring health in the age of mHealth technologies. Critical Public Health 23, 4 (2013), 393--403.",
+      "doi": ""
+    },
+    {
+      "text": "Bess H Marcus, Vanessa C Selby, Raymond S Niaura, and Joseph S Rossi. 1992. Self-efficacy and the stages of exercise behavior change. Research quarterly for exercise and sport 63, 1 (1992), 60--66.",
+      "doi": ""
+    },
+    {
+      "text": "T Matthews. 2007. Designing and evaluating glanceable peripheral visualizations. Ph.D. Thesis, EECS Department, University of California, Berkeley (2007).",
+      "doi": ""
+    },
+    {
+      "text": "George Mensah. 2006. Global and domestic health priorities: Spotlight on chronic disease. National Business Group on Health Webinar (2006).",
+      "doi": ""
+    },
+    {
+      "text": "Emily Moyer-Gus\u00e9. 2008. Toward a theory of entertainment persuasion: Explaining the persuasive effects of entertainment-education messages. Communication Theory 18, 3 (2008), 407--425.",
+      "doi": ""
+    },
+    {
+      "text": "Sean A Munson and Sunny Consolvo. 2012. Exploring goal-setting, rewards, self-monitoring, and sharing to motivate physical activity. Pervasive Health 2012 (2012), 2532.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth L Murnane. 2017. A Framework for Domain-Driven Development of Personal Health Informatics Technologies. Ph.D. Dissertation. Cornell University.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth L Murnane, David Huffaker, and Gueorgi Kossinets. 2015. Mobile health apps: adoption, adherence, and abandonment. In Adjunct Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2015 ACM International Symposium on Wearable Computers. ACM, 261--264.",
+      "doi": "10.1145/2800835.2800943"
+    },
+    {
+      "text": "Sheila T Murphy, Lauren B Frank, Meghan B Moran, and Paula Patnoe-Woodley. 2011. Involved, transported, or emotional? Exploring the determinants of change in knowledge, attitudes, and behavior in entertainment-education. Journal of Communication 61, 3 (2011), 407--431.",
+      "doi": ""
+    },
+    {
+      "text": "Jason Nawyn, Stephen S Intille, and Kent Larson. 2006. Embedding behavior modification strategies into a consumer electronic device: a case study. In International Conference on Ubiquitous Computing. Springer, 297--314.",
+      "doi": "10.1007/11853565_18"
+    },
+    {
+      "text": "Keith Oatley. 2002. Emotions and the story worlds of fiction. Narrative impact: Social and cognitive foundations 39 (2002), 69.",
+      "doi": ""
+    },
+    {
+      "text": "US Department of Health, Human Services, and others. 1999a. Health, United States, 1999: Health and aging chartbook (DHHS Publication No. PHS 99--1232--1). Washington, DC: US Government Printing Office (1999).",
+      "doi": ""
+    },
+    {
+      "text": "US Department of Health, Human Services, and others. 1999b. Promoting physical activity: a guide for community action. Champaign, IL: Human Kinetics (1999), 67--73.",
+      "doi": ""
+    },
+    {
+      "text": "United States Department of Health and Human Services. 2008. Physical activity guidelines for Americans: Be active, healthy, and happy. Vol. 36. US Government Printing Office.",
+      "doi": ""
+    },
+    {
+      "text": "World Health Organization. 2016. Obesity and overweight. Fact Sheet 311 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "World Health Organization. 2018. Physical Activity Fact Sheet. (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Fengjiao Peng, Veronica Crista LaBelle, Emily Christen Yue, and Rosalind W Picard. 2018. A Trip to the Moon: Personalized Animated Movies for Self-reflection. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, 253.",
+      "doi": "10.1145/3173574.3173827"
+    },
+    {
+      "text": "Zachary Pousman and John Stasko. 2006. A taxonomy of ambient information systems: four patterns of design. In Proceedings of the working conference on Advanced visual interfaces. ACM, 67--74.",
+      "doi": "10.1145/1133265.1133277"
+    },
+    {
+      "text": "James O Prochaska and Wayne F Velicer. 1997. The transtheoretical model of health behavior change. American journal of health promotion 12, 1 (1997), 38--48.",
+      "doi": ""
+    },
+    {
+      "text": "Brian L Quick and Michael T Stephenson. 2007. Further evidence that psychological reactance can be modeled as a combination of anger and negative cognitions. Communication Research 34, 3 (2007), 255--276.",
+      "doi": ""
+    },
+    {
+      "text": "Jessie M Quintero Johnson, Kristen Harrison, and Brian L Quick. 2013. Understanding the effectiveness of the entertainment-education strategy: An investigation of how audience involvement, message processing, and message design influence health information recall. Journal of health communication 18, 2 (2013), 160--178.",
+      "doi": ""
+    },
+    {
+      "text": "Herman Saksono and Andrea G Parker. 2017. Reflective Informatics Through Family Storytelling: Self-discovering Physical Activity Predictors. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, 5232--5244.",
+      "doi": "10.1145/3025453.3025651"
+    },
+    {
+      "text": "Larry J Shrum. 2009. Media consumption and perceptions of social reality: Effects and underlying processes. In Media effects. Routledge, 66--89.",
+      "doi": ""
+    },
+    {
+      "text": "Michael D Slater. 1997. Persuasion processes across receiver goals and message genres. Communication Theory 7, 2 (1997), 125--148.",
+      "doi": ""
+    },
+    {
+      "text": "Michael D Slater and Donna Rouner. 2002. Entertainment-education and elaboration likelihood: Understanding the processing of narrative persuasion. Communication Theory 12, 2 (2002), 173--191.",
+      "doi": ""
+    },
+    {
+      "text": "Jaime Snyder, Elizabeth Murnane, Caitie Lustig, and Stephen Voida. 2019. Visually Encoding the Lived Experience of Bipolar Disorder. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 133.",
+      "doi": "10.1145/3290605.3300363"
+    },
+    {
+      "text": "Clare Southerton. 2013. Zombies, run!': Rethinking immersion in light of nontraditional gaming contexts. Transmedia: Storytelling and Beyond Digital Interfaces (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Tammy Toscos, Anne Faber, Shunying An, and Mona Praful Gandhi. 2006. Chick clique: persuasive technology to motivate teenage girls to exercise. In CHI'06 extended abstracts on Human factors in computing systems. ACM, 1873--1878.",
+      "doi": "10.1145/1125451.1125805"
+    },
+    {
+      "text": "Mark S Tremblay, Claudio E P\u00e9rez, Chris I Ardern, Shirley N Bryan, and Peter T Katzmarzyk. 2005. Obesity, overweight. Health Reports 16, 4 (2005), 23.",
+      "doi": ""
+    },
+    {
+      "text": "Sumer S Vaid and Gabriella M Harari. 2019. Smartphones in Personal Informatics: A Framework for Self-Tracking Research with Mobile Sensing. In Digital Phenotyping and Mobile Sensing. Springer, 65--92.",
+      "doi": ""
+    },
+    {
+      "text": "Elisabeth Kersten van Dijk, Wijnand IJsselsteijn, and Joyce Westerink. 2016. Deceptive visualizations and user bias: a case for personalization and ambiguity in PI visualizations. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct. ACM, 588--593.",
+      "doi": "10.1145/2968219.2968326"
+    },
+    {
+      "text": "Tom Van Laer, Ko De Ruyter, Luca M Visconti, and Martin Wetzels. 2013. The extended transportation-imagery model: A meta-analysis of the antecedents and consequences of consumers' narrative transportation. Journal of Consumer research 40, 5 (2013), 797--817.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Vorderer, Hans Jurgen Wulff, and Mike Friedrichsen. 2013. Suspense: Conceptualizations, theoretical analyses, and empirical explorations. Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Octavia H Zahrt and Alia J Crum. 2019. Effects of Physical Activity Recommendations on Mindset, Behavior and Perceived Health. Preventive Medicine Reports (2019), 101027.",
+      "doi": ""
+    },
+    {
+      "text": "Alina Zajadacz and Magdalena Kugiejko. 2015. Global Generational Lifestyles. Nielsen Global Survey (2015).",
+      "doi": ""
+    },
+    {
+      "text": "Oren Zuckerman and Ayelet Gal-Oz. 2014. Deconstructing gamification: evaluating the effectiveness of continuous measurement, virtual rewards, and social comparison for promoting physical activity. Personal and ubiquitous computing 18, 7 (2014), 1705--1719.",
+      "doi": ""
+    },
+    {
+      "text": "Rolf A Zwaan, Mark C Langston, and Arthur C Graesser. 1995. The construction of situation models in narrative comprehension: An event-indexing model. Psychological science 6, 5 (1995), 292--297.",
+      "doi": ""
+    }
+  ]
+}

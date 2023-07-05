@@ -1,0 +1,487 @@
+{
+  "doi": "10.1145/3313831.3376341",
+  "title": "Understanding Client Support Strategies to Improve Clinical Outcomes in an Online Mental Health Intervention",
+  "published": "2020-04-23",
+  "proctitle": "CHI '20: Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2020,
+  "badges": [],
+  "abstract": "Online mental health interventions are increasingly important in providing access to, and supporting the effectiveness of, mental health treatment. While these technologies are effective, user attrition and early disengagement are key challenges. Evidence suggests that integrating a human supporter into such services mitigates these challenges, however, it remains under-studied how supporter involvement benefits client outcomes, and how to maximize such effects. We present our analysis of 234,735 supporter messages to discover how different support strategies correlate with clinical outcomes. We describe our machine learning methods for: (i) clustering supporters based on client outcomes; (ii) extracting and analyzing linguistic features from supporter messages; and (iii) identifying context-specific patterns of support. Our findings indicate that concrete, positive and supportive feedback from supporters that reference social behaviors are strongly associated with better outcomes; and show how their importance varies dependent on different client situations. We discuss design implications for personalized support and supporter interfaces.",
+  "authors": [
+    {
+      "name": "Prerna Chikersal",
+      "institution": "Carnegie Mellon University, Pittsburgh, PA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659130757",
+      "orcid": "missing"
+    },
+    {
+      "name": "Danielle Belgrave",
+      "institution": "Microsoft Research Cambridge, Cambridge, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659506381",
+      "orcid": "missing"
+    },
+    {
+      "name": "Gavin Doherty",
+      "institution": "Trinity College Dublin, Dublin, Ireland",
+      "img": "/do/10.1145/contrib-81100175529/rel-imgonly/81100175529.jpg",
+      "acmid": "81100175529",
+      "orcid": "0000-0002-9617-7008"
+    },
+    {
+      "name": "Angel Enrique",
+      "institution": "SilverCloud Health & Trinity College Dublin, Dublin, Ireland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659527635",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jorge E. Palacios",
+      "institution": "SilverCloud Health & Trinity College Dublin, Dublin, Ireland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659095530",
+      "orcid": "missing"
+    },
+    {
+      "name": "Derek Richards",
+      "institution": "SilverCloud Health & Trinity College Dublin, Dublin, Ireland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528271",
+      "orcid": "missing"
+    },
+    {
+      "name": "Anja Thieme",
+      "institution": "Microsoft Research, Cambridge, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81482659504",
+      "orcid": "0000-0002-9639-5531"
+    }
+  ],
+  "references": [
+    {
+      "text": "Ashraf Abdul, Jo Vermeulen, Danding Wang, Brian Y Lim, and Mohan Kankanhalli. 2018. Trends and trajectories for explainable, accountable and intelligible systems: An hci research agenda. In Proceedings of the 2018 CHI conference on human factors in computing systems. ACM, 582.",
+      "doi": "10.1145/3173574.3174156"
+    },
+    {
+      "text": "Marios Adamou, Grigoris Antoniou, Elissavet Greasidou, Vincenzo Lagani, Paulos Charonyktakis, and Ioannis Tsamardinos. 2018. Mining free-text medical notes for suicide risk assessment. In Proceedings of the 10th hellenic conference on artificial intelligence. ACM, 47.",
+      "doi": "10.1145/3200947.3201020"
+    },
+    {
+      "text": "Tim Althoff, Kevin Clark, and Jure Leskovec. 2016. Large-scale analysis of counseling conversations: An application of natural language processing to mental health. Transactions of the Association for Computational Linguistics 4 (2016), 463--476.",
+      "doi": ""
+    },
+    {
+      "text": "Gerhard Andersson, Nickolai Titov, Blake F Dear, Alexander Rozental, and Per Carlbring. 2019. Internet-delivered psychological treatments: from innovation to implementation. World Psychiatry 18, 1 (2019), 20--28.",
+      "doi": ""
+    },
+    {
+      "text": "G Andrews, A Basu, P Cuijpers, MG Craske, Peter McEvoy, CL English, and JM Newby. 2018. Computer therapy for the anxiety and depression disorders is effective, acceptable and practical health care: an updated meta-analysis. Journal of anxiety disorders 55 (2018), 70--78.",
+      "doi": ""
+    },
+    {
+      "text": "Nina B Baltierra, Kathryn E Muessig, Emily C Pike, Sara LeGrand, Sheana S Bull, and Lisa B Hightow-Weidman. 2016. More than just tracking time: complex measures of user engagement with an internet-based health promotion intervention. Journal of biomedical informatics 59 (2016), 299--307.",
+      "doi": "10.1016/j.jbi.2015.12.015"
+    },
+    {
+      "text": "Nikola Banovic, Tofi Buzali, Fanny Chevalier, Jennifer Mankoff, and Anind K Dey. 2016. Modeling and understanding human routine behavior. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, 248--260.",
+      "doi": "10.1145/2858036.2858557"
+    },
+    {
+      "text": "Jakob E Bardram, Mads Frost, K\u00e1roly Sz\u00e1nt\u00f3, Maria Faurholt-Jepsen, Maj Vinberg, and Lars Vedel Kessing. 2013. Designing mobile health technology for bipolar disorder: a field trial of the monarca system. In Proceedings of the SIGCHI conference on human factors in computing systems. ACM, 2627--2636.",
+      "doi": "10.1145/2470654.2481364"
+    },
+    {
+      "text": "Edward S Bordin. 1979. The generalizability of the psychoanalytic concept of the working alliance. Psychotherapy: Theory, research & practice 16, 3 (1979), 252.",
+      "doi": ""
+    },
+    {
+      "text": "Bokai Cao, Lei Zheng, Chenwei Zhang, Philip S Yu, Andrea Piscitello, John Zulueta, Olu Ajilore, Kelly Ryan, and Alex D Leow. 2017. Deepmood: modeling mobile phone typing dynamics for mood detection. In Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 747--755.",
+      "doi": "10.1145/3097983.3098086"
+    },
+    {
+      "text": "Alan Carr. 2008. What works with children, adolescents, and adults?: a review of research on the effectiveness of psychotherapy. Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Stevie Chancellor. 2018. Computational Methods to Understand Deviant Mental Wellness Communities. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, DC05.",
+      "doi": "10.1145/3170427.3173021"
+    },
+    {
+      "text": "Rosa Chaves, Javier Ram\u00edrez, JM G\u00f3rriz, Carlos Garc\u00eda Puntonet, Alzheimer's Disease Neuroimaging Initiative, and others. 2012. Association rule-based feature selection method for Alzheimer's disease diagnosis. Expert Systems with Applications 39, 14 (2012), 11766--11774.",
+      "doi": "10.1016/j.eswa.2012.04.075"
+    },
+    {
+      "text": "Annie T Chen, Shuyang Wu, Kathryn N Tomasino, Emily G Lattie, and David C Mohr. 2019. A multi-faceted approach to characterizing user behavior and experience in a digital mental health intervention. Journal of biomedical informatics 94 (2019), 103187.",
+      "doi": ""
+    },
+    {
+      "text": "James F Childress, Ruth R Faden, Ruth D Gaare, Lawrence O Gostin, Jeffrey Kahn, Richard J Bonnie, Nancy E Kass, Anna C Mastroianni, Jonathan D Moreno, and Phillip Nieburg. 2002. Public health ethics: mapping the terrain. The Journal of Law, Medicine & Ethics 30, 2 (2002), 170--178.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan E Cook and Carol Doyle. 2002. Working alliance in online therapy as compared to face-to-face therapy: Preliminary results. CyberPsychology & Behavior 5, 2 (2002), 95--105.",
+      "doi": ""
+    },
+    {
+      "text": "David Coyle and Gavin Doherty. 2009. Clinical evaluations and collaborative design: developing new technologies for mental healthcare interventions. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2051--2060.",
+      "doi": "10.1145/1518701.1519013"
+    },
+    {
+      "text": "David Coyle, Gavin Doherty, Mark Matthews, and John Sharry. 2007. Computers in Talk-based Mental Health Interventions. Interact. Comput. 19, 4 (July 2007), 545--562. DOI: http://dx.doi.org/10.1016/j.intcom.2007.02.001",
+      "doi": "10.1016/j.intcom.2007.02.001"
+    },
+    {
+      "text": "Marco de S\u00e1 and Lu\u00eds Carri\u00e7o. 2012. Fear therapy for children: a mobile approach. In Proceedings of the 4th ACM SIGCHI symposium on Engineering interactive computing systems. ACM, 237--246.",
+      "doi": "10.1145/2305484.2305524"
+    },
+    {
+      "text": "Orianna DeMasi and Benjamin Recht. 2017. A step towards quantifying when an algorithm can and cannot predict an individual's wellbeing. In Proceedings of the 2017 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2017 ACM International Symposium on Wearable Computers. ACM, 763--771.",
+      "doi": "10.1145/3123024.3125609"
+    },
+    {
+      "text": "Gavin Doherty, David Coyle, and John Sharry. 2012. Engagement with online mental health interventions: an exploratory clinical study of a treatment for depression. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 1421--1430.",
+      "doi": "10.1145/2207676.2208602"
+    },
+    {
+      "text": "Afsaneh Doryab, Mads Frost, Maria Faurholt-Jepsen, Lars V Kessing, and Jakob E Bardram. 2015. Impact factor analysis: combining prediction with parameter ranking to reveal the impact of behavior on health outcome. Personal and Ubiquitous Computing 19, 2 (2015), 355--365.",
+      "doi": "10.1007/s00779-014-0826-8"
+    },
+    {
+      "text": "Afsaneh Doryab, Daniella K Villalba, Prerna Chikersal, Janine M Dutcher, Michael Tumminia, Xinwen Liu, Sheldon Cohen, Kasey Creswell, Jennifer Mankoff, John D Creswell, and others. 2019. Identifying Behavioral Phenotypes of Loneliness and Social Isolation with Passive Sensing: Statistical Analysis, Data Mining and Machine Learning of Smartphone and Fitbit Data. JMIR mHealth and uHealth 7, 7 (2019), e13209.",
+      "doi": ""
+    },
+    {
+      "text": "Malin Eiband, Hanna Schneider, Mark Bilandzic, Julian Fazekas-Con, Mareike Haug, and Heinrich Hussmann. 2018. Bringing transparency design into practice. In 23rd International Conference on Intelligent User Interfaces. ACM, 211--223.",
+      "doi": "10.1145/3172944.3172961"
+    },
+    {
+      "text": "Sindhu Kiranmai Ernala, Michael L Birnbaum, Kristin A Candan, Asra F Rizvi, William A Sterling, John M Kane, and Munmun De Choudhury. 2019. Methodological gaps in predicting mental health states from social media: Triangulating diagnostic signals. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 134.",
+      "doi": "10.1145/3290605.3300364"
+    },
+    {
+      "text": "Gunther Eysenbach. 2005. The law of attrition. Journal of medical Internet research 7, 1 (2005), e11.",
+      "doi": ""
+    },
+    {
+      "text": "Kathleen Kara Fitzpatrick, Alison Darcy, and Molly Vierhile. 2017. Delivering cognitive behavior therapy to young adults with symptoms of depression and anxiety using a fully automated conversational agent (Woebot): a randomized controlled trial. JMIR mental health 4, 2 (2017), e19.",
+      "doi": ""
+    },
+    {
+      "text": "Marzyeh Ghassemi, Tristan Naumann, Peter Schulam, Andrew L Beam, and Rajesh Ranganath. 2018. Opportunities in machine learning for healthcare. arXiv preprint arXiv:1806.00388 (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Martin Gjoreski, Hristijan Gjoreski, Mitja Lustrek, and Matja Gams. 2016. Continuous stress detection using a wrist device: in laboratory and real life. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct. ACM, 1185--1193.",
+      "doi": "10.1145/2968219.2968306"
+    },
+    {
+      "text": "Erving Goffman. 1981. Forms of talk. University of Pennsylvania Press.",
+      "doi": ""
+    },
+    {
+      "text": "Dion H Goh and Rebecca P Ang. 2007. An introduction to association rule mining: An application in counseling and help-seeking behavior of adolescents. Behavior Research Methods 39, 2 (2007), 259--266.",
+      "doi": ""
+    },
+    {
+      "text": "Heather D Hadjistavropoulos, Nicole E Pugh, Hugo Hesser, and Gerhard Andersson. 2017. Therapeutic alliance in internet-delivered cognitive behaviour therapy for depression or generalized anxiety. Clinical psychology & psychotherapy 24, 2 (2017), 451--461.",
+      "doi": ""
+    },
+    {
+      "text": "Jiawei Han, Jian Pei, and Micheline Kamber. 2011. Data mining: concepts and techniques. Elsevier.",
+      "doi": "10.5555/1972541"
+    },
+    {
+      "text": "Tad Hirsch, Christina Soma, Kritzia Merced, Patty Kuo, Aaron Dembe, Derek D Caperton, David C Atkins, and Zac E Imel. 2018. It's hard to argue with a computer: Investigating Psychotherapists' Attitudes towards Automated Evaluation. In Proceedings of the 2018 Designing Interactive Systems Conference. ACM, 559--571.",
+      "doi": "10.1145/3196709.3196776"
+    },
+    {
+      "text": "Fred Hohman, Andrew Head, Rich Caruana, Robert DeLine, and Steven M Drucker. 2019. Gamut: A design probe to understand how data scientists understand machine learning models. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 579.",
+      "doi": "10.1145/3290605.3300809"
+    },
+    {
+      "text": "Fredrik Holl\u00e4ndare, Sanna Aila Gustafsson, Maria Berglind, Frida Grape, Per Carlbring, Gerhard Andersson, Heather Hadjistavropoulos, and Maria Tillfors. 2016. Therapist behaviours in internet-based cognitive behaviour therapy (ICBT) for depressive symptoms. Internet Interventions 3 (2016), 1--7.",
+      "doi": ""
+    },
+    {
+      "text": "Michael H\u00f6lzer, Erhard Mergenthaler, Dan Pokorny, Horst K\u00e4chele, and Lester Luborsky. 1996. Vocabulary measures for the evaluation of therapy outcome: Re-studying transcripts from the Penn Psychotherapy Project. Psychotherapy Research 6, 2 (1996), 95--108.",
+      "doi": ""
+    },
+    {
+      "text": "Kurt Hornik, Bettina Gr\u00fcn, and Michael Hahsler. 2005. arules-A computational environment for mining association rules and frequent item sets. Journal of Statistical Software 14, 15 (2005), 1--25.",
+      "doi": ""
+    },
+    {
+      "text": "Spencer L James, Degu Abate, Kalkidan Hassen Abate, Solomon M Abay, Cristiana Abbafati, Nooshin Abbasi, Hedayat Abbastabar, Foad Abd-Allah, Jemal Abdela, Ahmed Abdelalim, and others. 2018. Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990--2017: a systematic analysis for the Global Burden of Disease Study 2017. The Lancet 392, 10159 (2018), 1789--1858.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Johansson, Gerhard Andersson, Ebmeier, Smit, Kessler, Cuijpers, Cuijpers, Andersson, Andersson, Andersson, and others. 2012a. Internet-based psychological treatments for depression. Expert review of neurotherapeutics 12, 7 (2012), 861--870.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Johansson, Elin Sj\u00f6berg, Magnus Sj\u00f6gren, Erik Johnsson, Per Carlbring, Therese Andersson, Andr\u00e9as Rousseau, and Gerhard Andersson. 2012b. Tailored vs. standardized internet-based cognitive behavior therapy for depression and comorbid symptoms: a randomized controlled trial. PloS one 7, 5 (2012), e36905.",
+      "doi": ""
+    },
+    {
+      "text": "Michael I Jordan and Tom M Mitchell. 2015. Machine learning: Trends, perspectives, and prospects. Science 349, 6245 (2015), 255--260.",
+      "doi": ""
+    },
+    {
+      "text": "Evangelos Karapanos. 2015. Sustaining user engagement with behavior-change tools. Interactions (2015).",
+      "doi": ""
+    },
+    {
+      "text": "Ramakanth Kavuluru, Mar\u00eda Ramos-Morales, Tara Holaday, Amanda G Williams, Laura Haye, and Julie Cerel. 2016. Classification of helpful comments on online suicide watch forums. In Proceedings of the 7th ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics. ACM, 32--40.",
+      "doi": "10.1145/2975167.2975170"
+    },
+    {
+      "text": "Britt Klein, Joanna Mitchell, Jo Abbott, Kerrie Shandley, David Austin, Kathryn Gilson, Litza Kiropoulos, Gwenda Cannard, and Tomi Redman. 2010. A therapist-assisted cognitive behavior therapy internet intervention for posttraumatic stress disorder: pre-, post-and 3-month follow-up results from an open trial. Journal of anxiety disorders 24, 6 (2010), 635--644.",
+      "doi": ""
+    },
+    {
+      "text": "Adam DI Kramer, Lui Min Oh, and Susan R Fussell. 2006. Using linguistic features to measure presence in computer-mediated communication. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems. ACM, 913--916.",
+      "doi": "10.1145/1124772.1124907"
+    },
+    {
+      "text": "Kurt Kroenke, Robert L Spitzer, and Janet BW Williams. 2001. The PHQ-9: validity of a brief depression severity measure. Journal of general internal medicine 16, 9 (2001), 606--613.",
+      "doi": ""
+    },
+    {
+      "text": "Gionet Kylie. 2018. Meet Tess: The Mental Health Chatbot that Thinks like a Therapists. (2018). https://www.theguardian.com/society/2018/apr/25/meet-tess-the-mental-health-chatbot",
+      "doi": ""
+    },
+    {
+      "text": "Tien-Duy B Le and David Lo. 2015. Beyond support and confidence: Exploring interestingness measures for rule-based specification mining. In 2015 IEEE 22nd International Conference on Software Analysis, Evolution, and Reengineering (SANER). IEEE, 331--340.",
+      "doi": ""
+    },
+    {
+      "text": "Reeva Lederman, Greg Wadley, John Gleeson, Sarah Bendall, and Mario \u00c1lvarez-Jim\u00e9nez. 2014. Moderated online social therapy: Designing and evaluating technology for mental health. ACM Transactions on Computer-Human Interaction (TOCHI) 21, 1 (2014), 5.",
+      "doi": "10.1145/2513179"
+    },
+    {
+      "text": "Philip Lindner, Elinor Linderot Olsson, Amanda Johnsson, Mats Dahlin, Gerhard Andersson, and Per Carlbring. 2014. The impact of telephone versus e-mail therapist guidance on treatment outcomes, therapeutic alliance and treatment engagement in Internet-delivered CBT for depression: A randomised pilot trial. Internet Interventions 1, 4 (2014), 182--187.",
+      "doi": ""
+    },
+    {
+      "text": "Melanie Lovatt and John Holmes. 2017. Digital phenotyping and sociological perspectives in a Brave New World. Addiction (Abingdon, England) 112, 7 (2017), 1286.",
+      "doi": ""
+    },
+    {
+      "text": "Bernd L\u00f6we, Oliver Decker, Stefanie M\u00fcller, Elmar Br\u00e4hler, Dieter Schellberg, Wolfgang Herzog, and Philipp Yorck Herzberg. 2008. Validation and standardization of the Generalized Anxiety Disorder Screener (GAD-7) in the general population. Medical care 46, 3 (2008), 266--274.",
+      "doi": ""
+    },
+    {
+      "text": "Colin Martindale. 1975. English Regressive Imagery Dictionary (RID). (1975). https://rdrr.io/cran/lexicon/man/key_regressive_imagery.html",
+      "doi": ""
+    },
+    {
+      "text": "Mark Matthews, Stephen Voida, Saeed Abdullah, Gavin Doherty, Tanzeem Choudhury, Sangha Im, and Geri Gay. 2015. In Situ Design for Mental Illness: Considering the Pathology of Bipolar Disorder in mHealth Design. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI '15). ACM, NY, NY, USA, 86--97. DOI: http://dx.doi.org/10.1145/2785830.2785866",
+      "doi": "10.1145/2785830.2785866"
+    },
+    {
+      "text": "Susan Michie, Lucy Yardley, Robert West, Kevin Patrick, and Felix Greaves. 2017. Developing and evaluating digital interventions to promote behavior change in health and health care: recommendations resulting from an international workshop. Journal of medical Internet research 19, 6 (2017), e232.",
+      "doi": ""
+    },
+    {
+      "text": "Saif M Mohammad and Peter D Turney. 2013. Nrc emotion lexicon. National Research Council, Canada (2013).",
+      "doi": ""
+    },
+    {
+      "text": "David Mohr, Pim Cuijpers, and Kenneth Lehman. 2011. Supportive accountability: a model for providing human support to enhance adherence to eHealth interventions. Journal of medical Internet research 13, 1 (2011), e30.",
+      "doi": ""
+    },
+    {
+      "text": "David C Mohr, Stephen M Schueller, Kathryn Noth Tomasino, Susan M Kaiser, Nameyeh Alam, Chris Karr, Jessica L Vergara, Elizabeth L Gray, Mary J Kwasny, and Emily G Lattie. 2019. Comparison of the Effects of Coaching and Receipt of App Recommendations on Depression, Anxiety, and Engagement in the IntelliCare Platform: Factorial Randomized Controlled Trial. Journal of medical Internet research 21, 8 (2019), e13609.",
+      "doi": ""
+    },
+    {
+      "text": "Inbal Nahum-Shani, Shawna N Smith, Bonnie J Spring, Linda M Collins, Katie Witkiewitz, Ambuj Tewari, and Susan A Murphy. 2017. Just-in-time adaptive interventions (JITAIs) in mobile health: key components and design principles for ongoing health behavior support. Annals of Behavioral Medicine 52, 6 (2017), 446--462.",
+      "doi": ""
+    },
+    {
+      "text": "Michelle G Newman, Lauren E Szkodny, Sandra J Llera, and Amy Przeworski. 2011. A review of technology-assisted self-help and minimal contact therapies for anxiety and depression: is human contact necessary for therapeutic efficacy? Clinical psychology review 31, 1 (2011), 89--103.",
+      "doi": ""
+    },
+    {
+      "text": "Thin Nguyen, Bridianne O'Dea, Mark Larsen, Dinh Phung, Svetha Venkatesh, and Helen Christensen. 2017. Using linguistic and topic analysis to classify sub-groups of online depression communities. Multimedia tools and applications 76, 8 (2017), 10653--10676.",
+      "doi": ""
+    },
+    {
+      "text": "Alicia L Nobles, Jeffrey J Glenn, Kamran Kowsari, Bethany A Teachman, and Laura E Barnes. 2018. Identification of imminent suicide risk among young adults using text messages. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, 413.",
+      "doi": "10.1145/3173574.3173987"
+    },
+    {
+      "text": "Matthew K Nock, Irving Hwang, Nancy A Sampson, and Ronald C Kessler. 2010. Mental disorders, comorbidity and suicidal behavior: results from the National Comorbidity Survey Replication. Molecular psychiatry 15, 8 (2010), 868.",
+      "doi": ""
+    },
+    {
+      "text": "Emma O'Brien. 2018. Therapist behaviours, the working alliance and clinician experience in iCBT for depression and anxiety. Ph.D. Dissertation. Trinity College Dublin.",
+      "doi": ""
+    },
+    {
+      "text": "Theodor Chris Panagiotakopoulos, Dimitrios Panagiotis Lyras, Miltos Livaditis, Kyriakos N Sgarbas, George C Anastassopoulos, and Dimitrios K Lymberopoulos. 2010. A contextual data mining approach toward assisting the treatment of anxiety disorders. IEEE transactions on information technology in biomedicine 14, 3 (2010), 567--581.",
+      "doi": ""
+    },
+    {
+      "text": "Pablo Paredes, Ran Gilad-Bachrach, Mary Czerwinski, Asta Roseway, Kael Rowan, and Javier Hernandez. 2014. PopTherapy: Coping with stress through pop-culture. In Proceedings of the 8th International Conference on Pervasive Computing Technologies for Healthcare. ICST (Institute for Computer Sciences, Social-Informatics and Technology, 109--117.",
+      "doi": "10.4108/icst.pervasivehealth.2014.255070"
+    },
+    {
+      "text": "Albert Park, Mike Conway, and Annie T Chen. 2018. Examining thematic similarity, difference, and membership in three online mental health communities from Reddit: a text mining and visualization approach. Computers in human behavior 78 (2018), 98--112.",
+      "doi": ""
+    },
+    {
+      "text": "Bj\u00f6rn Paxling, Susanne Lundgren, Anita Norman, Jonas Alml\u00f6v, Per Carlbring, Pim Cuijpers, and Gerhard Andersson. 2013. Therapist behaviours in internet-delivered cognitive behaviour therapy: analyses of e-mail correspondence in the treatment of generalized anxiety disorder. Behavioural and cognitive psychotherapy 41, 3 (2013), 280--289.",
+      "doi": ""
+    },
+    {
+      "text": "Ramesh P Perera-Delcourt and Gemma Sharkey. 2019. Patient experience of supported computerized CBT in an inner-city IAPT service: a qualitative study. the Cognitive Behaviour Therapist 12 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "John P Pestian, Pawel Matykiewicz, and Jacqueline Grupp-Phelan. 2008. Using natural language processing to classify suicide notes. In Proceedings of the Workshop on Current Trends in Biomedical Natural Language Processing. Association for Computational Linguistics, 96--97.",
+      "doi": "10.5555/1572306.1572327"
+    },
+    {
+      "text": "Forough Poursabzi-Sangdeh, Daniel G Goldstein, Jake M Hofman, Jennifer Wortman Vaughan, and Hanna Wallach. 2018. Manipulating and measuring model interpretability. arXiv preprint arXiv:1802.07810 (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Moby Project. 2014. Public-domain lexical resources; word lists, thesaurus, hyphenation, pronunciation. (2014). https://github.com/Hyneman/moby-project",
+      "doi": ""
+    },
+    {
+      "text": "Yada Pruksachatkun, Sachin R Pendse, and Amit Sharma. 2019. Moments of Change: Analyzing Peer-Based Cognitive Support in Online Mental Health Forums. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 64.",
+      "doi": "10.1145/3290605.3300294"
+    },
+    {
+      "text": "PWP. 2019. Psychological Wellbeing Practitioner. Overview of Role. (2019). https://www.instituteforapprenticeships.org/apprenticeship-standards/psychological-wellbeing-practitioner/",
+      "doi": ""
+    },
+    {
+      "text": "Olga Pykhtina, Madeline Balaam, Gavin Wood, Sue Pattison, Ahmed Kharrufa, and Patrick Olivier. 2012. Magic land: the design and evaluation of an interactive tabletop supporting therapeutic play with children. In Proceedings of the Designing Interactive Systems Conference. ACM, 136--145.",
+      "doi": "10.1145/2317956.2317978"
+    },
+    {
+      "text": "Mashfiqui Rabbi, Shahid Ali, Tanzeem Choudhury, and Ethan Berke. 2011. Passive and in-situ assessment of mental and physical well-being using mobile sensors. In Proceedings of the 13th international conference on Ubiquitous computing. ACM, 385--394.",
+      "doi": "10.1145/2030112.2030164"
+    },
+    {
+      "text": "Shiquan Ren, Hong Lai, Wenjing Tong, Mostafa Aminzadeh, Xuezhang Hou, and Shenghan Lai. 2010. Nonparametric bootstrapping for hierarchical data. Journal of Applied Statistics 37, 9 (2010), 1487--1498.",
+      "doi": ""
+    },
+    {
+      "text": "Stefan Rennick-Egglestone, Sarah Knowles, Gill Toms, Penny Bee, Karina Lovell, and Peter Bower. 2016. Health Technologies' In the Wild': Experiences of Engagement with Computerised CBT. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, 2124--2135.",
+      "doi": "10.1145/2858036.2858128"
+    },
+    {
+      "text": "Robert Reynes, Colin Martindale, and Hartvig Dahl. 1984. Lexical differences between working and resistance sessions in psychoanalysis. Journal of Clinical Psychology 40, 3 (1984), 733--737.",
+      "doi": ""
+    },
+    {
+      "text": "Derek Richards, Angel Enrique, and Jorge E. Palacios. 2019. Internet-delivered Cognitive Behaviour Therapy.",
+      "doi": ""
+    },
+    {
+      "text": "Derek Richards and Ladislav Timulak. 2012. Client-identified helpful and hindering events in therapist-delivered vs. self-administered online cognitive-behavioural treatments for depression in college students. Counselling Psychology Quarterly 25, 3 (2012), 251--262.",
+      "doi": ""
+    },
+    {
+      "text": "Derek Richards, Ladislav Timulak, Emma O'Brien, Claire Hayes, Noemi Vigano, John Sharry, and G Doherty. 2015. A randomized controlled trial of an internet-delivered treatment: its potential as a low-intensity community intervention for adults with symptoms of depression. Behaviour research and therapy 75 (2015), 20--31.",
+      "doi": ""
+    },
+    {
+      "text": "John Rooksby, Alistair Morrison, and Dave Murray-Rust. 2019. Student Perspectives on Digital Phenotyping: The Acceptability of Using Smartphone Data to Assess Mental Health. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 425.",
+      "doi": "10.1145/3290605.3300655"
+    },
+    {
+      "text": "Koustuv Saha and Munmun De Choudhury. 2017. Modeling stress with social media around incidents of gun violence on college campuses. Proceedings of the ACM on Human-Computer Interaction 1, CSCW (2017), 92.",
+      "doi": "10.1145/3134727"
+    },
+    {
+      "text": "Pedro Sanches, Axel Janson, Pavel Karpashevich, Camille Nadal, Chengcheng Qu, Claudia Daud\u00e9n Roquet, Muhammad Umair, Charles Windlin, Gavin Doherty, Kristina H\u00f6\u00f6k, and Corina Sas. 2019. HCI and Affective Health: Taking Stock of a Decade of Studies and Charting Future Research Directions. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI '19). ACM, NY, NY, USA, Article 245, 17 pages. DOI: http://dx.doi.org/10.1145/3290605.3300475",
+      "doi": "10.1145/3290605.3300475"
+    },
+    {
+      "text": "VC S\u00e1nchez-Ortiz, C Munro, D Stahl, J House, H Startup, J Treasure, C Williams, and U Schmidt. 2011. A randomized controlled trial of internet-based cognitive-behavioural therapy for bulimia nervosa or related disorders in a student population. Psychological Medicine 41, 2 (2011), 407--417.",
+      "doi": ""
+    },
+    {
+      "text": "Jessica Schroeder, Chelsey Wilkes, Kael Rowan, Arturo Toledo, Ann Paradiso, Mary Czerwinski, Gloria Mark, and Marsha M Linehan. 2018. Pocket skills: A conversational mobile web app to support dialectical behavioral therapy. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, 398.",
+      "doi": "10.1145/3173574.3173972"
+    },
+    {
+      "text": "Stephen M Schueller, Kathryn Noth Tomasino, and David C Mohr. 2017. Integrating human support into behavioral intervention technologies: the efficiency model of support. Clinical Psychology: Science and Practice 24, 1 (2017), 27--45.",
+      "doi": ""
+    },
+    {
+      "text": "Eva Sharma and Munmun De Choudhury. 2018. Mental Health Support and its Relationship to Linguistic Accommodation in Online Communities. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, 641.",
+      "doi": "10.1145/3173574.3174215"
+    },
+    {
+      "text": "Adrian BR Shatte, Delyse M Hutchinson, and Samantha J Teague. 2019. Machine learning in mental health: a scoping review of methods and applications. Psychological medicine 49, 9 (2019), 1426--1448.",
+      "doi": ""
+    },
+    {
+      "text": "Amit Singhal, Chris Buckley, and Manclar Mitra. 2017. Pivoted document length normalization. In ACM SIGIR Forum, Vol. 51. ACM, 176--184.",
+      "doi": "10.1145/3130348.3130365"
+    },
+    {
+      "text": "Michael Stigler and Dan Pokorny. 2001. Emotions and primary process in guided imagery psychotherapy: Computerized text-analytic measures. Psychotherapy Research 11, 4 (2001), 415--431.",
+      "doi": ""
+    },
+    {
+      "text": "William B Stiles, Lara Honos-Webb, and Michael Surko. 1998. Responsiveness in psychotherapy. Clinical psychology: Science and practice 5, 4 (1998), 439--458.",
+      "doi": ""
+    },
+    {
+      "text": "Anja Thieme, John McCarthy, Paula Johnson, Stephanie Phillips, Jayne Wallace, Si\u00e2n Lindley, Karim Ladha, Daniel Jackson, Diana Nowacka, Ashur Rafiev, and others. 2016. Challenges for designing new technology for health and wellbeing in a complex mental healthcare context. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, 2136--2149.",
+      "doi": "10.1145/2858036.2858182"
+    },
+    {
+      "text": "Nickolai Titov. 2011. Internet-delivered psychotherapy for depression in adults. Current opinion in psychiatry 24, 1 (2011), 18--23.",
+      "doi": ""
+    },
+    {
+      "text": "Nickolai Titov, Blake F Dear, Genevieve Schwencke, Gavin Andrews, Luke Johnston, Michelle G Craske, and Peter McEvoy. 2011. Transdiagnostic internet treatment for anxiety and depression: a randomised controlled trial. Behaviour research and therapy 49, 8 (2011), 441--452.",
+      "doi": ""
+    },
+    {
+      "text": "Truyen Tran, Dinh Phung, Wei Luo, Richard Harvey, Michael Berk, and Svetha Venkatesh. 2013. An integrated framework for suicide risk prediction. In Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 1410--1418.",
+      "doi": "10.1145/2487575.2488196"
+    },
+    {
+      "text": "Daniel Vigo, Graham Thornicroft, and Rifat Atun. 2016. Estimating the true global burden of mental illness. The Lancet Psychiatry 3, 2 (2016), 171--178.",
+      "doi": ""
+    },
+    {
+      "text": "Birgit Wagner, Andrea B Horn, and Andreas Maercker. 2014. Internet-based versus face-to-face cognitive-behavioral intervention for depression: a randomized controlled non-inferiority trial. Journal of affective disorders 152 (2014), 113--121.",
+      "doi": ""
+    },
+    {
+      "text": "Rui Wang, Fanglin Chen, Zhenyu Chen, Tianxing Li, Gabriella Harari, Stefanie Tignor, Xia Zhou, Dror Ben-Zeev, and Andrew T Campbell. 2014. StudentLife: assessing mental health, academic performance and behavioral trends of college students using smartphones. In Proceedings of the 2014 ACM international joint conference on pervasive and ubiquitous computing. ACM, 3--14.",
+      "doi": "10.1145/2632048.2632054"
+    },
+    {
+      "text": "Harvey A Whiteford, Louisa Degenhardt, J\u00fcrgen Rehm, Amanda J Baxter, Alize J Ferrari, Holly E Erskine, Fiona J Charlson, Rosana E Norman, Abraham D Flaxman, Nicole Johns, and others. 2013. Global burden of disease attributable to mental and substance use disorders: findings from the Global Burden of Disease Study 2010. The Lancet 382, 9904 (2013), 1575--1586.",
+      "doi": ""
+    },
+    {
+      "text": "Jesse H Wright, Jesse J Owen, Derek Richards, Tracy D Eells, Thomas Richardson, Gregory K Brown, Marna Barrett, Mary Ann Rasku, Geneva Polser, and Michael E Thase. 2019. Computer-Assisted Cognitive-Behavior Therapy for Depression: A Systematic Review and Meta-Analysis. The Journal of clinical psychiatry 80, 2 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Xuhai Xu, Prerna Chikersal, Afsaneh Doryab, Daniella K Villalba, Janine M Dutcher, Michael J Tumminia, Tim Althoff, Sheldon Cohen, Kasey G Creswell, J David Creswell, and others. 2019. Leveraging Routine Behavior and Contextually-Filtered Features for Depression Detection among College Students. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 3 (2019), 116.",
+      "doi": "10.1145/3351274"
+    },
+    {
+      "text": "Amir Hossein Yazdavar, Hussein S Al-Olimat, Monireh Ebrahimi, Goonmeet Bajaj, Tanvi Banerjee, Krishnaprasad Thirunarayan, Jyotishman Pathak, and Amit Sheth. 2017. Semi-supervised approach to monitoring clinical depressive symptoms in social media. In Proceedings of the 2017 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining 2017. ACM, 1191--1198.",
+      "doi": "10.1145/3110025.3123028"
+    },
+    {
+      "text": "Farzaneh Zahedi and Mohammad-Reza Zare-Mirakabad. 2014. Employing data mining to explore association rules in drug addicts. Journal of AI and Data Mining 2, 2 (2014), 135--139.",
+      "doi": ""
+    }
+  ]
+}

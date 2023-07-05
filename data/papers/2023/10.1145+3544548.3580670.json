@@ -1,0 +1,293 @@
+{
+  "doi": "10.1145/3544548.3580670",
+  "title": "A Field Test of Bandit Algorithms for Recommendations: Understanding the Validity of Assumptions on Human Preferences in Multi-armed Bandits",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Personalized recommender systems suffuse modern life, shaping what media we read and what products we consume. Algorithms powering such systems tend to consist of supervised-learning-based heuristics, such as latent factor models with a variety of heuristically chosen prediction targets. Meanwhile, theoretical treatments of recommendation frequently address the decision-theoretic nature of the problem, including the need to balance exploration and exploitation, via the multi-armed bandits (MABs) framework. However, MAB-based approaches rely heavily on assumptions about human preferences. These preference assumptions are seldom tested using human subject studies, partly due to the lack of publicly available toolkits to conduct such studies. In this work, we conduct a study with crowdworkers in a comics recommendation MABs setting. Each arm represents a comic category, and users provide feedback after each recommendation. We check the validity of core MABs assumptions\u2014that human preferences (reward distributions) are fixed over time\u2014and find that they do not hold. This finding suggests that any MAB algorithm used for recommender systems should account for human preference dynamics. While answering these questions, we provide a flexible experimental framework for understanding human preference dynamics and testing MABs algorithms with human users. The code for our experimental framework and the collected data can be found at https://github.com/HumainLab/human-bandit-evaluation.",
+  "authors": [
+    {
+      "name": "Liu Leqi",
+      "institution": "Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659363868",
+      "orcid": "0000-0002-9707-4529"
+    },
+    {
+      "name": "Giulio Zhou",
+      "institution": "Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660781881",
+      "orcid": "0000-0002-9802-0741"
+    },
+    {
+      "name": "Fatma Kilinc-Karzan",
+      "institution": "Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81484655230",
+      "orcid": "0000-0001-5939-4575"
+    },
+    {
+      "name": "Zachary Lipton",
+      "institution": "Machine Learning Department and Tepper School of Business, Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659286197",
+      "orcid": "0000-0002-3824-4241"
+    },
+    {
+      "name": "Alan Montgomery",
+      "institution": "Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779717",
+      "orcid": "0000-0001-8375-3785"
+    }
+  ],
+  "references": [
+    {
+      "text": "Herv\u00e9 Abdi. 2010. Holm\u2019s sequential Bonferroni procedure. Encyclopedia of research design 1, 8 (2010), 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Acuna and Paul Schrater. 2008. Bayesian modeling of human sequential decision-making on the multi-armed bandit problem. In Proceedings of the 30th annual conference of the cognitive science society, Vol.\u00a0100. Washington, DC: Cognitive Science Society, 200\u2013300.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Auer, Nicolo Cesa-Bianchi, and Paul Fischer. 2002. Finite-time analysis of the multiarmed bandit problem. Machine learning 47, 2 (2002), 235\u2013256.",
+      "doi": "10.1023/A%3A1013689704352"
+    },
+    {
+      "text": "Harriet\u00a0E Baber. 2007. Adaptive preference. Social Theory and Practice 33, 1 (2007), 105\u2013126.",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Barraza-Urbina and Dorota Glowacka. 2020. Introduction to bandits in recommender systems. In Fourteenth ACM Conference on Recommender Systems. 748\u2013750.",
+      "doi": "10.1145/3383313.3411547"
+    },
+    {
+      "text": "Soumya Basu, Rajat Sen, Sujay Sanghavi, and Sanjay Shakkottai. 2019. Blocking Bandits. In Advances in Neural Information Processing Systems. 4785\u20134794.",
+      "doi": ""
+    },
+    {
+      "text": "Manel Baucells and Rakesh\u00a0K Sarin. 2007. Satiation in discounted utility. Operations research 55, 1 (2007), 170\u2013181.",
+      "doi": ""
+    },
+    {
+      "text": "Gary\u00a0S Becker. 1996. Accounting for tastes. Harvard University Press.",
+      "doi": ""
+    },
+    {
+      "text": "James Bennett, Stan Lanning, 2007. The netflix prize. In Proceedings of KDD cup and workshop, Vol.\u00a02007. New York, 35.",
+      "doi": ""
+    },
+    {
+      "text": "GE Box. 1979. All models are wrong, but some are useful. Robustness in Statistics 202, 1979 (1979), 549.",
+      "doi": ""
+    },
+    {
+      "text": "Leonardo Cella and Nicol\u00f2 Cesa-Bianchi. 2020. Stochastic bandits with delay-dependent payoffs. In International Conference on Artificial Intelligence and Statistics. 1168\u20131177.",
+      "doi": ""
+    },
+    {
+      "text": "Minmin Chen, Alex Beutel, Paul Covington, Sagar Jain, Francois Belletti, and Ed\u00a0H Chi. 2019. Top-k off-policy correction for a REINFORCE recommender system. In Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining. 456\u2013464.",
+      "doi": "10.1145/3289600.3290999"
+    },
+    {
+      "text": "Minmin Chen, Bo Chang, Can Xu, and Ed\u00a0H Chi. 2021. User response models to improve a reinforce recommender system. In Proceedings of the 14th ACM International Conference on Web Search and Data Mining. 121\u2013129.",
+      "doi": "10.1145/3437963.3441764"
+    },
+    {
+      "text": "Minmin Chen, Yuyan Wang, Can Xu, Ya Le, Mohit Sharma, Lee Richardson, Su-Lin Wu, and Ed Chi. 2021. Values of User Exploration in Recommender Systems. In Fifteenth ACM Conference on Recommender Systems. 85\u201395.",
+      "doi": ""
+    },
+    {
+      "text": "Minmin Chen, Can Xu, Vince Gatto, Devanshu Jain, Aviral Kumar, and Ed Chi. 2022. Off-Policy Actor-critic for Recommender Systems. In Proceedings of the 16th ACM Conference on Recommender Systems. 338\u2013349.",
+      "doi": "10.1145/3523227.3546758"
+    },
+    {
+      "text": "Larry Christensen and Alisa Brooks. 2006. Changing food preference as a function of mood. The journal of psychology 140, 4 (2006), 293\u2013306.",
+      "doi": ""
+    },
+    {
+      "text": "Eli\u00a0P Cox\u00a0III. 1980. The optimal number of response alternatives for a scale: A review. Journal of marketing research 17, 4 (1980), 407\u2013422.",
+      "doi": ""
+    },
+    {
+      "text": "Ronald\u00a0M Epstein. 1999. Mindful practice. Jama 282, 9 (1999), 833\u2013839.",
+      "doi": ""
+    },
+    {
+      "text": "Ronald\u00a0Aylmer Fisher. 1936. Design of experiments. Br Med J 1, 3923 (1936), 554\u2013554.",
+      "doi": ""
+    },
+    {
+      "text": "Jeff Galak, Jinwoo Kim, and Joseph\u00a0P Redden. 2022. Identifying the temporal profiles of hedonic decline. Organizational Behavior and Human Decision Processes 169 (2022), 104128.",
+      "doi": ""
+    },
+    {
+      "text": "Jeff Galak and Joseph\u00a0P Redden. 2018. The properties and antecedents of hedonic decline. Annual review of psychology 69 (2018), 1\u201325.",
+      "doi": ""
+    },
+    {
+      "text": "GoComics. 2021. GoComics. https://www.gocomics.com.",
+      "doi": ""
+    },
+    {
+      "text": "Carlos\u00a0A Gomez-Uribe and Neil Hunt. 2015. The netflix recommender system: Algorithms, business value, and innovation. ACM Transactions on Management Information Systems (TMIS) 6, 4(2015), 1\u201319.",
+      "doi": "10.1145/2843948"
+    },
+    {
+      "text": "Laurie\u00a0A Greco, Ruth\u00a0A Baer, and Gregory\u00a0T Smith. 2011. Assessing mindfulness in children and adolescents: development and validation of the Child and Adolescent Mindfulness Measure (CAMM).Psychological assessment 23, 3 (2011), 606.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Grossman. 2008. On measuring mindfulness in psychosomatic and psychological research.(2008).",
+      "doi": ""
+    },
+    {
+      "text": "Philip\u00a0M Groves and Richard\u00a0F Thompson. 1970. Habituation: a dual-process theory.Psychological review 77, 5 (1970), 419.",
+      "doi": ""
+    },
+    {
+      "text": "Faruk Gul and Wolfgang Pesendorfer. 2005. The revealed preference theory of changing tastes. The Review of Economic Studies 72, 2 (2005), 429\u2013448.",
+      "doi": ""
+    },
+    {
+      "text": "Chester Holtz, Chao Tao, and Guangyu Xi. 2020. BanditPyLib: a lightweight python library for bandit algorithms. Online at: https://github.com/Alanthink/banditpylib. https://github.com/Alanthink/banditpylib Documentation at https://alanthink.github.io/banditpylib-doc.",
+      "doi": ""
+    },
+    {
+      "text": "Eugene Ie, Chih-wei Hsu, Martin Mladenov, Vihan Jain, Sanmit Narvekar, Jing Wang, Rui Wu, and Craig Boutilier. 2019. Recsim: A configurable simulation platform for recommender systems. arXiv preprint arXiv:1909.04847(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Sarika Jain, Anjali Grover, Praveen\u00a0Singh Thakur, and Sourabh\u00a0Kumar Choudhary. 2015. Trends, problems and solutions of recommender system. In International conference on computing, communication & automation. IEEE, 955\u2013958.",
+      "doi": ""
+    },
+    {
+      "text": "Thorsten Joachims, Adith Swaminathan, and Tobias Schnabel. 2017. Unbiased learning-to-rank with biased feedback. In Proceedings of the Tenth ACM International Conference on Web Search and Data Mining. 781\u2013789.",
+      "doi": "10.1145/3018661.3018699"
+    },
+    {
+      "text": "Komal Kapoor, Karthik Subbian, Jaideep Srivastava, and Paul Schrater. 2015. Just in time recommendations: Modeling the dynamics of boredom in activity streams. In Proceedings of the eighth ACM international conference on web search and data mining. 233\u2013242.",
+      "doi": "10.1145/2684822.2685306"
+    },
+    {
+      "text": "Robert Kleinberg and Nicole Immorlica. 2018. Recharging bandits. In 2018 IEEE 59th Annual Symposium on Foundations of Computer Science (FOCS). IEEE, 309\u2013319.",
+      "doi": ""
+    },
+    {
+      "text": "Yehuda Koren, Robert Bell, and Chris Volinsky. 2009. Matrix factorization techniques for recommender systems. Computer 42, 8 (2009), 30\u201337.",
+      "doi": "10.1109/MC.2009.263"
+    },
+    {
+      "text": "Tor Lattimore and Csaba Szepesv\u00e1ri. 2020. Bandit algorithms. Cambridge University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0D Lee, Shunan Zhang, Miles Munro, and Mark Steyvers. 2011. Psychological models of human and optimal performance in bandit problems. Cognitive Systems Research 12, 2 (2011), 164\u2013174.",
+      "doi": "10.1016/j.cogsys.2010.07.007"
+    },
+    {
+      "text": "Pei Lee, Laks\u00a0VS Lakshmanan, Mitul Tiwari, and Sam Shah. 2014. Modeling impression discounting in large-scale recommender systems. In Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining. 1837\u20131846.",
+      "doi": "10.1145/2623330.2623356"
+    },
+    {
+      "text": "Damien Lefortier, Adith Swaminathan, Xiaotao Gu, Thorsten Joachims, and Maarten de Rijke. 2016. Large-scale validation of counterfactual learning methods: A test-bed. arXiv preprint arXiv:1612.00367(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Liu Leqi, Fatma Kilinc-Karzan, Zachary\u00a0C Lipton, and Alan\u00a0L Montgomery. 2021. Rebounding Bandits for Modeling Satiation Effects. (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Nir Levine, Koby Crammer, and Shie Mannor. 2017. Rotting bandits. In Advances in neural information processing systems. 3074\u20133083.",
+      "doi": ""
+    },
+    {
+      "text": "Lihong Li, Wei Chu, John Langford, and Robert\u00a0E Schapire. 2010. A contextual-bandit approach to personalized news article recommendation. In Proceedings of the 19th international conference on World wide web. 661\u2013670.",
+      "doi": "10.1145/1772690.1772758"
+    },
+    {
+      "text": "Fenrong Liu 2007. Changing for the better: Preference dynamics and agent diversity. Institute for Logic, Language and Computation.",
+      "doi": ""
+    },
+    {
+      "text": "Julian\u00a0John McAuley and Jure Leskovec. 2013. From amateurs to connoisseurs: modeling the evolution of user expertise through online reviews. In Proceedings of the 22nd international conference on World Wide Web. ACM, 897\u2013908.",
+      "doi": "10.1145/2488388.2488466"
+    },
+    {
+      "text": "James McInerney, Benjamin Lacker, Samantha Hansen, Karl Higley, Hugues Bouchard, Alois Gruson, and Rishabh Mehrotra. 2018. Explore, exploit, and explain: personalizing explainable recommendations with bandits. In Proceedings of the 12th ACM conference on recommender systems. 31\u201339.",
+      "doi": "10.1145/3240323.3240354"
+    },
+    {
+      "text": "Rishabh Mehrotra, Niannan Xue, and Mounia Lalmas. 2020. Bandit based optimization of multiple objectives on a music streaming platform. In Proceedings of the 26th ACM SIGKDD international conference on knowledge discovery & data mining. 3224\u20133233.",
+      "doi": "10.1145/3394486.3403374"
+    },
+    {
+      "text": "Yonatan Mintz, Anil Aswani, Philip Kaminsky, Elena Flowers, and Yoshimi Fukuoka. 2020. Nonstationary bandits with habituation and recovery dynamics. Operations Research 68, 5 (2020), 1493\u20131516.",
+      "doi": "10.1287/opre.2019.1918"
+    },
+    {
+      "text": "John\u00a0W Payne, James\u00a0R Bettman, David\u00a0A Schkade, Norbert Schwarz, and Robin Gregory. 1999. Measuring constructed preferences: Towards a building code. In Elicitation of preferences. Springer, 243\u2013275.",
+      "doi": ""
+    },
+    {
+      "text": "Drazen Prelec. 2004. Decreasing impatience: a criterion for Non-stationary time preference and \u201chyperbolic\u201d discounting. Scandinavian Journal of Economics 106, 3 (2004), 511\u2013532.",
+      "doi": ""
+    },
+    {
+      "text": "Dimitrios Rafailidis and Alexandros Nanopoulos. 2015. Modeling users preference dynamics and side information in recommender systems. IEEE Transactions on Systems, Man, and Cybernetics: Systems 46, 6(2015), 782\u2013792.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0B Reverdy, Vaibhav Srivastava, and Naomi\u00a0Ehrich Leonard. 2014. Modeling human decision making in generalized Gaussian multiarmed bandits. Proc. IEEE 102, 4 (2014), 544\u2013571.",
+      "doi": ""
+    },
+    {
+      "text": "Herbert Robbins. 1952. Some aspects of the sequential design of experiments. Bull. Amer. Math. Soc. 58, 5 (1952), 527\u2013535.",
+      "doi": ""
+    },
+    {
+      "text": "Yuta Saito, Aihara Shunsuke, Matsutani Megumi, and Narita Yusuke. 2020. Open Bandit Dataset and Pipeline: Towards Realistic and Reproducible Off-Policy Evaluation. arXiv preprint arXiv:2008.07146(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Sch\u00e4fer and Peter Sedlmeier. 2010. What makes us like music? Determinants of music preference.Psychology of Aesthetics, Creativity, and the Arts 4, 4 (2010), 223.",
+      "doi": ""
+    },
+    {
+      "text": "Julien Seznec, Andrea Locatelli, Alexandra Carpentier, Alessandro Lazaric, and Michal Valko. 2019. Rotting bandits are no harder than stochastic ones. In The 22nd International Conference on Artificial Intelligence and Statistics. 2564\u20132572.",
+      "doi": ""
+    },
+    {
+      "text": "Guy Shani, David Heckerman, and Ronen\u00a0I Brafman. 2005. An MDP-based recommender system. Journal of Machine Learning Research 6, Sep (2005), 1265\u20131295.",
+      "doi": "10.5555/1046920.1088715"
+    },
+    {
+      "text": "Aleksandrs Slivkins 2019. Introduction to multi-armed bandits. Foundations and Trends\u00ae in Machine Learning 12, 1-2(2019), 1\u2013286.",
+      "doi": ""
+    },
+    {
+      "text": "Adith Swaminathan and Thorsten Joachims. 2015. Counterfactual risk minimization: Learning from logged bandit feedback. In International Conference on Machine Learning. 814\u2013823.",
+      "doi": ""
+    },
+    {
+      "text": "William\u00a0T Tucker. 1964. The development of brand loyalty. Journal of Marketing research 1, 3 (1964), 32\u201335.",
+      "doi": ""
+    },
+    {
+      "text": "Yuyan Wang, Mohit Sharma, Can Xu, Sriraj Badam, Qian Sun, Lee Richardson, Lisa Chung, Ed\u00a0H Chi, and Minmin Chen. 2022. Surrogate for Long-Term User Experience in Recommender Systems. In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 4100\u20134109.",
+      "doi": "10.1145/3534678.3539073"
+    },
+    {
+      "text": "Jian Wei, Jianhua He, Kai Chen, Yi Zhou, and Zuoyin Tang. 2017. Collaborative filtering and deep learning based recommendation system for cold start items. Expert Systems with Applications 69 (2017), 29\u201339.",
+      "doi": ""
+    },
+    {
+      "text": "Guanjie Zheng, Fuzheng Zhang, Zihan Zheng, Yang Xiang, Nicholas\u00a0Jing Yuan, Xing Xie, and Zhenhui Li. 2018. DRN: A deep reinforcement learning framework for news recommendation. In Proceedings of the 2018 World Wide Web Conference. 167\u2013176.",
+      "doi": "10.1145/3178876.3185994"
+    }
+  ]
+}

@@ -1,0 +1,631 @@
+{
+  "doi": "10.1145/3411764.3445307",
+  "title": "Player-AI Interaction: What Neural Network Games Reveal About AI as Play",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2021,
+  "badges": [],
+  "abstract": "The advent of artificial intelligence (AI) and machine learning (ML) bring human-AI interaction to the forefront of HCI research. This paper argues that games are an ideal domain for studying and experimenting with how humans interact with AI. Through a systematic survey of neural network games (n = 38), we identified the dominant interaction metaphors and AI interaction patterns in these games. In addition, we applied existing human-AI interaction guidelines to further shed light on player-AI interaction in the context of AI-infused systems. Our core finding is that AI as play can expand current notions of human-AI interaction, which are predominantly productivity-based. In particular, our work suggests that game and UX designers should consider flow to structure the learning curve of human-AI interaction, incorporate discovery-based learning to play around with the AI and observe the consequences, and offer users an invitation to play to explore new forms of human-AI interaction.",
+  "authors": [
+    {
+      "name": "Jichen Zhu",
+      "institution": "Drexel University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81488646953",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jennifer Villareale",
+      "institution": "Drexel University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659461569",
+      "orcid": "missing"
+    },
+    {
+      "name": "Nithesh Javvaji",
+      "institution": "Northeastern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659635466",
+      "orcid": "missing"
+    },
+    {
+      "name": "Sebastian Risi",
+      "institution": "IT University of Copenhagen, Denmark",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81438597250",
+      "orcid": "missing"
+    },
+    {
+      "name": "Mathias L\u00f6we",
+      "institution": "IT University of Copenhagen, Denmark",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659645598",
+      "orcid": "missing"
+    },
+    {
+      "name": "Rush Weigelt",
+      "institution": "Drexel University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659644384",
+      "orcid": "missing"
+    },
+    {
+      "name": "Casper Harteveld",
+      "institution": "College of Arts, Media and Design Northeastern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81460657992",
+      "orcid": "0000-0002-8164-0303"
+    }
+  ],
+  "references": [
+    {
+      "text": "2020. Steam (service) \u2014 Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/w/index.php?title=Steam_(service)&oldid=978516977 [Online].",
+      "doi": ""
+    },
+    {
+      "text": "Vero\u00a0Vanden Abeele, Katta Spiel, Lennart Nacke, Daniel Johnson, and Kathrin Gerling. 2020. Development and validation of the player experience inventory: A scale to measure player experiences at the level of functional and psychosocial consequences. International Journal of Human-Computer Studies 135 (2020), 102370.",
+      "doi": "10.1016/j.ijhcs.2019.102370"
+    },
+    {
+      "text": "Philip\u00a0E Agre. 1997. Computation and human experience. Cambridge University Press.",
+      "doi": "10.5555/522884"
+    },
+    {
+      "text": "Louis Alfieri, Patricia\u00a0J Brooks, Naomi\u00a0J Aldrich, and Harriet\u00a0R Tenenbaum. 2011. Does discovery-based instruction enhance learning?Journal of educational psychology 103, 1 (2011), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Sultan\u00a0A Alharthi, Olaa Alsaedi, Zachary\u00a0O Toups, Joshua Tanenbaum, and Jessica Hammer. 2018. Playing to wait: A taxonomy of idle games. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3173574.3174195"
+    },
+    {
+      "text": "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul\u00a0N Bennett, Kori Inkpen, 2019. Guidelines for human-ai interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Craig\u00a0G Anderson, Jen Dalsen, Vishesh Kumar, Matthew Berland, and Constance Steinkuehler. 2018. Failing up: How failure in a game environment promotes learning through discourse. Thinking Skills and Creativity 30 (2018), 135\u2013144.",
+      "doi": ""
+    },
+    {
+      "text": "Gagan Bansal, Besmira Nushi, Ece Kamar, Walter\u00a0S Lasecki, Daniel\u00a0S Weld, and Eric Horvitz. 2019. Beyond accuracy: The role of mental models in human-AI team performance. In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing, Vol.\u00a07. 2\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Reuben Binns, Max Van\u00a0Kleek, Michael Veale, Ulrik Lyngs, Jun Zhao, and Nigel Shadbolt. 2018. \u2019It\u2019s Reducing a Human Being to a Percentage\u2019 Perceptions of Justice in Algorithmic Decisions. In Proceedings of the 2018 Chi conference on human factors in computing systems. 1\u201314.",
+      "doi": "10.1145/3173574.3173951"
+    },
+    {
+      "text": "Jay\u00a0David Bolter. 2016. Remediation. The international encyclopedia of communication theory and philosophy (2016), 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Jeanne\u00a0H Brockmyer, Christine\u00a0M Fox, Kathleen\u00a0A Curtiss, Evan McBroom, Kimberly\u00a0M Burkhart, and Jacquelyn\u00a0N Pidruzny. 2009. The development of the Game Engagement Questionnaire: A measure of engagement in video game-playing. Journal of Experimental Social Psychology 45, 4 (2009), 624\u2013634.",
+      "doi": ""
+    },
+    {
+      "text": "Joanna\u00a0J Bryson. 2010. Robots should be slaves. Close Engagements with Artificial Companions: Key social, psychological, ethical and design issues(2010), 63\u201374.",
+      "doi": ""
+    },
+    {
+      "text": "Gordon Calleja. 2007. Digital game involvement: A conceptual model. Games and culture 2, 3 (2007), 236\u2013260.",
+      "doi": ""
+    },
+    {
+      "text": "Murray Campbell, A\u00a0Joseph Hoane\u00a0Jr, and Feng-hsiung Hsu. 2002. Deep blue. Artificial intelligence 134, 1-2 (2002), 57\u201383.",
+      "doi": ""
+    },
+    {
+      "text": "Gabriele Cimolino, Sam Lee, Quentin Petraroia, and TC\u00a0Nicholas Graham. 2019. Oui, Chef!!: Supervised Learning for Novel Gameplay with Believable AI. In Extended Abstracts of the Annual Symposium on Computer-Human Interaction in Play Companion Extended Abstracts. 241\u2013246.",
+      "doi": "10.1145/3341215.3358247"
+    },
+    {
+      "text": "Michael Cook, Mirjam Eladhari, Andy Nealen, Mike Treanor, Eddy Boxerman, Alex Jaffe, Paul Sottosanti, and Steve Swink. 2016. PCG-Based Game Design Patterns. arXiv preprint arXiv:1610.03138(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Christian\u00a0Arzate Cruz and Jorge Adolfo\u00a0Ramirez Uresti. 2017. Player-centered game AI from a flow perspective: Towards a better understanding of past trends and future directions. Entertainment Computing 20 (2017), 11\u201324.",
+      "doi": ""
+    },
+    {
+      "text": "Mihaly Csikszentmihalyi. 1990. Flow: The psychology of optimal experience. Vol.\u00a01990. Harper & Row New York.",
+      "doi": ""
+    },
+    {
+      "text": "Maartje De\u00a0Graaf, Somaya\u00a0Ben Allouch, and Jan Van\u00a0Diik. 2017. Why do they refuse to use my robot?: Reasons for non-use derived from a long-term home study. In 2017 12th ACM/IEEE International Conference on Human-Robot Interaction (HRI. IEEE, 224\u2013233.",
+      "doi": "10.1145/2909824.3020236"
+    },
+    {
+      "text": "Alena Denisova and Paul Cairns. 2015. The Placebo Effect in Digital Games: Phantom Perception of Adaptive Artificial Intelligence. In Proceedings of the 2015 Annual Symposium on Computer-Human Interaction in Play (London, United Kingdom) (CHI PLAY \u201915). Association for Computing Machinery, New York, NY, USA, 23\u201333. https://doi.org/10.1145/2793107.2793109",
+      "doi": "10.1145/2793107.2793109"
+    },
+    {
+      "text": "Heather Desurvire and Charlotte Wiberg. 2009. Game usability heuristics (PLAY) for evaluating and designing better games: The next iteration. In International conference on online communities and social computing. Springer, 557\u2013566.",
+      "doi": "10.1007/978-3-642-02774-1_60"
+    },
+    {
+      "text": "Graham Dove and Anne-Laure Fayard. 2020. Monsters, Metaphors, and Machine Learning. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3313831.3376275"
+    },
+    {
+      "text": "Graham Dove, Kim Halskov, Jodi Forlizzi, and John Zimmerman. 2017. UX design innovation: Challenges for working with machine learning as a design material. In Proceedings of the 2017 chi conference on human factors in computing systems. 278\u2013288.",
+      "doi": "10.1145/3025453.3025739"
+    },
+    {
+      "text": "Richard Evans and Emily Short. 2013. Versu\u2014a simulationist storytelling system. IEEE Transactions on Computational Intelligence and AI in Games 6, 2(2013), 113\u2013130.",
+      "doi": ""
+    },
+    {
+      "text": "Laura\u00a0Beth Fulton, Ja\u00a0Young Lee, Qian Wang, Zhendong Yuan, Jessica Hammer, and Adam Perer. 2020. Getting Playful with Explainable AI: Games with a Purpose to Improve Human Understanding of AI. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u20138.",
+      "doi": "10.1145/3334480.3382831"
+    },
+    {
+      "text": "Anushay Furqan, Chelsea Myers, and Jichen Zhu. 2017. Learnability through adaptive discovery tools in voice user interfaces. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems. 1617\u20131623.",
+      "doi": "10.1145/3027063.3053166"
+    },
+    {
+      "text": "Firaxis Games. 2016. Sid Meier\u2019s Civilization\u00ae VI. https://civilization.com/",
+      "doi": ""
+    },
+    {
+      "text": "Katy\u00a0Ilonka Gero, Zahra Ashktorab, Casey Dugan, Qian Pan, James Johnson, Werner Geyer, Maria Ruiz, Sarah Miller, David\u00a0R Millen, Murray Campbell, 2020. Mental Models of AI Agents in a Cooperative Game Setting. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3313831.3376316"
+    },
+    {
+      "text": "Daniel Gomme and Richard Bartle. 2020. Strategy Games : The Components of A Worthy Opponent. In Proceedings of 2020 Foundation of Digital Games.",
+      "doi": "10.1145/3402942.3403018"
+    },
+    {
+      "text": "Stephen Grand, Dave Cliff, and Anil Malhotra. 1997. Creatures: Artificial life autonomous software agents for home entertainment. In Proceedings of the first international conference on Autonomous agents. 22\u201329.",
+      "doi": "10.1145/267658.267663"
+    },
+    {
+      "text": "Emmanuel Guardiola. 2016. The gameplay loop: a player activity model for game design and analysis. In Proceedings of the 13th International Conference on Advances in Computer Entertainment Technology. 1\u20137.",
+      "doi": "10.1145/3001773.3001791"
+    },
+    {
+      "text": "Matthew Guzdial, Nicholas Liao, Jonathan Chen, Shao-Yu Chen, Shukan Shah, Vishwa Shah, Joshua Reno, Gillian Smith, and Mark\u00a0O Riedl. 2019. Friend, collaborator, student, manager: How design of an ai-driven game level editor affects creators. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300854"
+    },
+    {
+      "text": "Erin\u00a0J Hastings, Ratan\u00a0K Guha, and Kenneth\u00a0O Stanley. 2009. Evolving content in the galactic arms race video game. In 2009 IEEE Symposium on Computational Intelligence and Games. IEEE, 241\u2013248.",
+      "doi": ""
+    },
+    {
+      "text": "Stephanie Heintz and Effie Lai-Chong Law. 2015. The game genre map: a revised game classification. In Proceedings of the 2015 Annual Symposium on Computer-Human Interaction in Play. 175\u2013184.",
+      "doi": "10.1145/2793107.2793123"
+    },
+    {
+      "text": "Jonathan\u00a0L Herlocker, Joseph\u00a0A Konstan, and John Riedl. 2000. Explaining collaborative filtering recommendations. In Proceedings of the 2000 ACM conference on Computer supported cooperative work. 241\u2013250.",
+      "doi": "10.1145/358916.358995"
+    },
+    {
+      "text": "Clara\u00a0E Hill. 2012. Consensual qualitative research: A practical resource for investigating social science phenomena.American Psychological Association.",
+      "doi": ""
+    },
+    {
+      "text": "Clara\u00a0E Hill, Sarah Knox, Barbara\u00a0J Thompson, Elizabeth\u00a0Nutt Williams, Shirley\u00a0A Hess, and Nicholas Ladany. 2005. Consensual qualitative research: An update.Journal of counseling psychology 52, 2 (2005), 196.",
+      "doi": ""
+    },
+    {
+      "text": "Lars\u00a0Erik Holmquist. 2017. Intelligence on tap: artificial intelligence as a new design material. interactions 24, 4 (2017), 28\u201333.",
+      "doi": "10.1145/3085571"
+    },
+    {
+      "text": "Kristina H\u00f6\u00f6k. 2000. Steps to take before intelligent user interfaces become real. Interacting with computers 12, 4 (2000), 409\u2013426.",
+      "doi": ""
+    },
+    {
+      "text": "Amy\u00a0K Hoover, William Cachia, Antonios Liapis, and Georgios\u00a0N Yannakakis. 2015. Audioinspace: Exploring the creative fusion of generative audio, visuals and gameplay. In International Conference on Evolutionary and Biologically Inspired Music and Art. Springer, 101\u2013112.",
+      "doi": ""
+    },
+    {
+      "text": "Eric Horvitz. 1999. Principles of mixed-initiative user interfaces. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems. 159\u2013166.",
+      "doi": "10.1145/302979.303030"
+    },
+    {
+      "text": "Max Jaderberg, Wojciech\u00a0M Czarnecki, Iain Dunning, Luke Marris, Guy Lever, Antonio\u00a0Garcia Castaneda, Charles Beattie, Neil\u00a0C Rabinowitz, Ari\u00a0S Morcos, Avraham Ruderman, 2019. Human-level performance in 3D multiplayer games with population-based reinforcement learning. Science 364, 6443 (2019), 859\u2013865.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Jallov, Sebastian Risi, and Julian Togelius. 2016. EvoCommander: A novel game based on evolving and switching between artificial brains. IEEE Transactions on Computational Intelligence and AI in Games 9, 2(2016), 181\u2013191.",
+      "doi": ""
+    },
+    {
+      "text": "Jesper Juul. 2013. The art of failure: An essay on the pain of playing video games. MIT press.",
+      "doi": "10.5555/2470023"
+    },
+    {
+      "text": "George Lakoff and Mark Johnson. 2008. Metaphors we live by. University of Chicago press.",
+      "doi": ""
+    },
+    {
+      "text": "George Lakoff and Mark Turner. 2009. More than cool reason: A field guide to poetic metaphor. University of Chicago press.",
+      "doi": ""
+    },
+    {
+      "text": "Effie L-C Law, Florian Br\u00fchlmann, and Elisa\u00a0D Mekler. 2018. Systematic review and validation of the game experience questionnaire (geq)-implications for citation and reporting practice. In Proceedings of the 2018 Annual Symposium on Computer-Human Interaction in Play. 257\u2013270.",
+      "doi": "10.1145/3242671.3242683"
+    },
+    {
+      "text": "Dan Lessin and Sebastian Risi. 2015. Darwin\u2019s Avatars: A Novel Combination of Gameplay and Procedural Content Generation. In Proceedings of the 2015 Annual Conference on Genetic and Evolutionary Computation. 329\u2013336.",
+      "doi": "10.1145/2739480.2754749"
+    },
+    {
+      "text": "Todd Lubart. 2005. How can computers be partners in the creative process: classification and commentary on the special issue. International Journal of Human-Computer Studies 63, 4-5 (2005), 365\u2013369.",
+      "doi": "10.1016/j.ijhcs.2005.04.002"
+    },
+    {
+      "text": "Andr\u00e9s Lucero, Jussi Holopainen, Elina Ollila, Riku Suomela, and Evangelos Karapanos. 2013. The playful experiences (PLEX) framework as a guide for expert evaluation. In Proceedings of the 6th International Conference on Designing Pleasurable Products and Interfaces. 221\u2013230.",
+      "doi": "10.1145/2513506.2513530"
+    },
+    {
+      "text": "Ewa Luger and Abigail Sellen. 2016. \u201dLike Having a Really Bad PA\u201d: The Gulf between User Expectation and Experience of Conversational Agents. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 5286\u20135297. https://doi.org/10.1145/2858036.2858288",
+      "doi": "10.1145/2858036.2858288"
+    },
+    {
+      "text": "Michael Mateas. 1999. An Oz-centric review of interactive drama and believable agents. In Artificial intelligence today. Springer, 297\u2013328.",
+      "doi": "10.5555/1805750.1805762"
+    },
+    {
+      "text": "Michael Mateas. 2003. Expressive AI: A semiotic analysis of machinic affordances. In 3rd Conference on Computational Semiotics for Games and New Media. 58.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Mateas and Andrew Stern. 2003. Fa\u00e7ade: An experiment in building a fully-realized interactive drama. In Game developers conference, Vol.\u00a02. 4\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Nora McDonald, Sarita Schoenebeck, and Andrea Forte. 2019. Reliability and inter-rater reliability in qualitative research: Norms and guidelines for CSCW and HCI practice. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201323.",
+      "doi": "10.1145/3359174"
+    },
+    {
+      "text": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, and Martin Riedmiller. 2013. Playing atari with deep reinforcement learning. arXiv preprint arXiv:1312.5602(2013).",
+      "doi": ""
+    },
+    {
+      "text": "Nick Montfort. 2005. Twisty Little Passages: an approach to interactive fiction. Mit Press.",
+      "doi": "10.5555/1209053"
+    },
+    {
+      "text": "Chelsea Myers, Anushay Furqan, Jessica Nebolsky, Karina Caro, and Jichen Zhu. 2018. Patterns for how users overcome obstacles in voice user interfaces. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u20137.",
+      "doi": "10.1145/3173574.3173580"
+    },
+    {
+      "text": "Chelsea\u00a0M. Myers, Jiachi Xie, and Jichen Zhu. 2020. A Game-Based Approach for Helping Designers Learn Machine Learning Concepts. arXiv:arXiv:2009.05605",
+      "doi": ""
+    },
+    {
+      "text": "Lennart Nacke, Anders Drachen, Kai Kuikkaniemi, Joerg Niesenhaus, Hannu\u00a0J Korhonen, Wouter\u00a0M Hoogen, Karolien Poels, Wijnand\u00a0A IJsselsteijn, and Yvonne\u00a0AW De\u00a0Kort. 2009. Playability and player experience research. In Proceedings of digra 2009: Breaking new ground: Innovation in games, play, practice and theory. DiGRA.",
+      "doi": ""
+    },
+    {
+      "text": "Don Norman. 2013. The design of everyday things: Revised and expanded edition. Basic books.",
+      "doi": ""
+    },
+    {
+      "text": "Santiago Ontan\u00f3n, Gabriel Synnaeve, Alberto Uriarte, Florian Richoux, David Churchill, and Mike Preuss. 2013. A survey of real-time strategy game AI research and competition in StarCraft. IEEE Transactions on Computational Intelligence and AI in games 5, 4(2013), 293\u2013311.",
+      "doi": ""
+    },
+    {
+      "text": "A. Oulasvirta, N.\u00a0R. Dayama, M. Shiripour, M. John, and A. Karrenbauer. 2020. Combinatorial Optimization of Graphical User Interface Designs. Proc. IEEE 108, 3 (2020), 434\u2013464.",
+      "doi": ""
+    },
+    {
+      "text": "Derrick Pemberton, Zhiguo Lai, Lotus Li, Shitong Shen, Jue Wang, and Jessica Hammer. 2019. AI or Nay-I? Making Moral Complexity More Accessible. In Extended Abstracts of the Annual Symposium on Computer-Human Interaction in Play Companion Extended Abstracts (Barcelona, Spain) (CHI PLAY \u201919 Extended Abstracts). Association for Computing Machinery, New York, NY, USA, 281\u2013286. https://doi.org/10.1145/3341215.3358248",
+      "doi": ""
+    },
+    {
+      "text": "Steven Rabin. 2015. Game AI pro 2: collected wisdom of game AI professionals. AK Peters/CRC Press.",
+      "doi": ""
+    },
+    {
+      "text": "Emilee Rader, Kelley Cotter, and Janghee Cho. 2018. Explanations as mechanisms for supporting algorithmic transparency. In Proceedings of the 2018 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3173574.3173677"
+    },
+    {
+      "text": "K\u00a0Andrew\u00a0R Richards and Michael\u00a0A Hemphill. 2018. A practical guide to collaborative qualitative data analysis. Journal of Teaching in Physical Education 37, 2 (2018), 225\u2013231.",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0Owen Riedl and Alexander Zook. 2013. AI for game production. In 2013 IEEE Conference on Computational Inteligence in Games (CIG). IEEE, 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Risi, Joel Lehman, David\u00a0B D\u2019Ambrosio, Ryan Hall, and Kenneth\u00a0O Stanley. 2015. Petalz: Search-based procedural content generation for the casual gamer. IEEE Transactions on Computational Intelligence and AI in Games 8, 3(2015), 244\u2013255.",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Risi and Mike Preuss. 2020. From Chess and Atari to StarCraft and Beyond: How Game AI is Driving the World of AI. KI-K\u00fcnstliche Intelligenz 34, 1 (2020), 7\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Risi and Julian Togelius. 2015. Neuroevolution in games: State of the art and open challenges. IEEE Transactions on Computational Intelligence and AI in Games 9, 1(2015), 25\u201341.",
+      "doi": ""
+    },
+    {
+      "text": "Helen Sharp, Yvonne Rogers, and Jennifer Preece. 2019. Interaction Design: beyond human-computer interaction (5th ed.). John Wiley & Sons.",
+      "doi": ""
+    },
+    {
+      "text": "David Silver, Aja Huang, Chris\u00a0J Maddison, Arthur Guez, Laurent Sifre, George Van Den\u00a0Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda Panneershelvam, Marc Lanctot, 2016. Mastering the game of Go with deep neural networks and tree search. nature 529, 7587 (2016), 484\u2013489.",
+      "doi": ""
+    },
+    {
+      "text": "Brent Smith and Greg Linden. 2017. Two decades of recommender systems at Amazon. com. Ieee internet computing 21, 3 (2017), 12\u201318.",
+      "doi": ""
+    },
+    {
+      "text": "Sam Snodgrass and Santiago Onta\u00f1\u00f3n. 2014. Experiments in map generation using Markov chains.. In FDG.",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth\u00a0O Stanley. 2007. Compositional pattern producing networks: A novel abstraction of development. Genetic programming and evolvable machines 8, 2 (2007), 131\u2013162.",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth\u00a0O Stanley, Bobby\u00a0D Bryant, and Risto Miikkulainen. 2005. Evolving neural network agents in the NERO video game. Proc. IEEE (2005), 182\u2013189.",
+      "doi": ""
+    },
+    {
+      "text": "Aaron Steinfeld, Terrence Fong, David Kaber, Michael Lewis, Jean Scholtz, Alan Schultz, and Michael Goodrich. 2006. Common metrics for human-robot interaction. In Proceedings of the 1st ACM SIGCHI/SIGART conference on Human-robot interaction. 33\u201340.",
+      "doi": "10.1145/1121241.1121249"
+    },
+    {
+      "text": "Jennifer Sukis. 2019. Ai design & practices guidelines (a review). https://medium.com/design-ibm/ai-design-guidelines-e06f7e92d864",
+      "doi": ""
+    },
+    {
+      "text": "Ja-Young Sung, Lan Guo, Rebecca\u00a0E Grinter, and Henrik\u00a0I Christensen. 2007. \u201cMy Roomba is Rambo\u201d: intimate home appliances. In International conference on ubiquitous computing. Springer, 145\u2013162.",
+      "doi": ""
+    },
+    {
+      "text": "Penelope Sweetser and Daniel Johnson. 2004. Player-centered game environments: Assessing player opinions, experiences, and issues. In International Conference on Entertainment Computing. Springer, 321\u2013332.",
+      "doi": ""
+    },
+    {
+      "text": "Dean Takahashi. 2018. How Microsoft\u2019s Turn 10 fashioned the A.I. for cars in Forza Motorsport 5 (interview). https://venturebeat.com/2013/11/06/how-microsofts-turn-10-fashioned-the-ai-for-cars-in-forza-motorsport-5-interview/",
+      "doi": ""
+    },
+    {
+      "text": "Nava Tintarev and Judith Masthoff. 2007. A survey of explanations in recommender systems. In 2007 IEEE 23rd international conference on data engineering workshop. IEEE, 801\u2013810.",
+      "doi": "10.1109/ICDEW.2007.4401070"
+    },
+    {
+      "text": "Mike Treanor, Alexander Zook, Mirjam\u00a0P Eladhari, Julian Togelius, Gillian Smith, Michael Cook, Tommy Thompson, Brian Magerko, John Levine, and Adam Smith. 2015. AI-based game design patterns. (2015).",
+      "doi": ""
+    },
+    {
+      "text": "Josep Valls-Vargas, Santiago Ontan\u00f3n, and Jichen Zhu. 2015. Exploring player trace segmentation for dynamic play style prediction. In Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment, Vol.\u00a011.",
+      "doi": ""
+    },
+    {
+      "text": "Josep Valls-Vargas, Jichen Zhu, and Santiago Onta\u00f1\u00f3n. 2017. Graph grammar-based controllable generation of puzzles for a learning game about parallel programming. In Proceedings of the 12th International Conference on the Foundations of Digital Games. 1\u201310.",
+      "doi": "10.1145/3102071.3102079"
+    },
+    {
+      "text": "Valve. 2008. Left 4 Dead. https://www.l4d.com",
+      "doi": ""
+    },
+    {
+      "text": "Oriol Vinyals, Igor Babuschkin, Wojciech\u00a0M Czarnecki, Micha\u00ebl Mathieu, Andrew Dudzik, Junyoung Chung, David\u00a0H Choi, Richard Powell, Timo Ewalds, Petko Georgiev, 2019. Grandmaster level in StarCraft II using multi-agent reinforcement learning. Nature 575, 7782 (2019), 350\u2013354.",
+      "doi": ""
+    },
+    {
+      "text": "Danding Wang, Qian Yang, Ashraf Abdul, and Brian\u00a0Y Lim. 2019. Designing theory-driven user-centric explainable AI. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201315.",
+      "doi": "10.1145/3290605.3300831"
+    },
+    {
+      "text": "Joseph Weizenbaum. 1966. ELIZA\u2014a computer program for the study of natural language communication between man and machine. Commun. ACM 9, 1 (1966), 36\u201345.",
+      "doi": "10.1145/365153.365168"
+    },
+    {
+      "text": "James Wexler. 2002. Artificial Intelligence in Games. Rochester: University of Rochester(2002).",
+      "doi": ""
+    },
+    {
+      "text": "Terry Winograd. 2006. Shifting viewpoints: Artificial intelligence and human\u2013computer interaction. Artificial intelligence 170, 18 (2006), 1256\u20131258.",
+      "doi": ""
+    },
+    {
+      "text": "Qian Yang, Nikola Banovic, and John Zimmerman. 2018. Mapping machine learning advances from hci research to reveal starting places for design innovation. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201311.",
+      "doi": "10.1145/3173574.3173704"
+    },
+    {
+      "text": "Qian Yang, Alex Scuito, John Zimmerman, Jodi Forlizzi, and Aaron Steinfeld. 2018. Investigating how experienced UX designers effectively work with machine learning. In Proceedings of the 2018 Designing Interactive Systems Conference. 585\u2013596.",
+      "doi": "10.1145/3196709.3196730"
+    },
+    {
+      "text": "Qian Yang, Aaron Steinfeld, Carolyn Ros\u00e9, and John Zimmerman. 2020. Re-Examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376301",
+      "doi": "10.1145/3313831.3376301"
+    },
+    {
+      "text": "Georgios\u00a0N Yannakakis and Julian Togelius. 2018. Artificial intelligence and games. Vol.\u00a02. Springer.",
+      "doi": ""
+    },
+    {
+      "text": "R\u00a0Michael Young, Mark\u00a0O Riedl, Mark Branly, Arnav Jhala, RJ Martin, and CJ Saretto. 2004. An architecture for integrating plan-based behavior generation with interactive game environments.J. Game Dev. 1, 1 (2004), 1\u201329.",
+      "doi": ""
+    },
+    {
+      "text": "Jichen Zhu. 2009. Intentional systems and the artificial intelligence (ai) hermeneutic network: Agency and intentionality in expressive computational systems. Ph.D. Dissertation. Georgia Institute of Technology.",
+      "doi": ""
+    },
+    {
+      "text": "Jichen Zhu, Katelyn Alderfer, Anushay Furqan, Jessica Nebolsky, Bruce Char, Brian Smith, Jennifer Villareale, and Santiago Onta\u00f1\u00f3n. 2019. Programming in game space: how to represent parallel programming concepts in an educational game. In Proceedings of the 14th International Conference on the Foundations of Digital Games. 1\u201310.",
+      "doi": "10.1145/3337722.3337749"
+    },
+    {
+      "text": "Jichen Zhu and D\u00a0Fox Harrell. 2008. Daydreaming with Intention: Scalable Blending-Based Imagining and Agency in Generative Interactive Narrative.. In AAAI Spring Symposium: Creative Intelligent Systems, Vol.\u00a0156.",
+      "doi": ""
+    },
+    {
+      "text": "Jichen Zhu, Antonios Liapis, Sebastian Risi, Rafael Bidarra, and G\u00a0Michael Youngblood. 2018. Explainable AI for designers: A human-centered perspective on mixed-initiative co-creation. In 2018 IEEE Conference on Computational Intelligence and Games (CIG). IEEE, 1\u20138.",
+      "doi": "10.1109/CIG.2018.8490433"
+    },
+    {
+      "text": "Jichen Zhu and Santiago Ontan\u00f3n. 2010. Towards Analogy-Based Story Generation.. In ICCC. 75\u201384.",
+      "doi": ""
+    },
+    {
+      "text": "Jichen Zhu and Santiago Onta\u00f1\u00f3n. 2013. Shall I compare thee to another story?\u2014An empirical study of analogy-based story generation. IEEE Transactions on Computational Intelligence and AI in Games 6, 2(2013), 216\u2013227.",
+      "doi": ""
+    },
+    {
+      "text": "IBM\u00a0Research AI. 2020. Guess the Word. Website. https://word-game-ui-dev.mybluemix.net/",
+      "doi": ""
+    },
+    {
+      "text": "Amy K. Hoover, William Cachia, Antonios Liapis, Georgios N. Yannakakis. 2015. Audioinspace. Research game.",
+      "doi": ""
+    },
+    {
+      "text": "Electronic Arts. 2001. Black & White. [CD-ROM].",
+      "doi": ""
+    },
+    {
+      "text": "Jared Bagley. 2018. The Abbattoir Intergrade. itch.io. https://cabrill.itch.io/ai",
+      "doi": ""
+    },
+    {
+      "text": "Bewelge. 2017. How to Train Your Snake. itch.io. https://bewelge.itch.io/how-to-train-your-snake",
+      "doi": ""
+    },
+    {
+      "text": "Buddhaman. 2018. Football Evo. itch.io. https://buddhaman.itch.io/football-evo",
+      "doi": ""
+    },
+    {
+      "text": "Noah Burkholder. 2020. Bird By Example. itch.io. https://noahburkholder.itch.io/bird-by-example",
+      "doi": ""
+    },
+    {
+      "text": "Gabriele Cimolino. 2018. Oui Chef!!itch.io. https://anna-mae.itch.io/oui-chef",
+      "doi": ""
+    },
+    {
+      "text": "Codemasters. 2000. Colin McRae Rally 2.0. Playstation.",
+      "doi": ""
+    },
+    {
+      "text": "Dan Lessin, Sebastian Risi. 2015. Darwin\u2019s Avatars. Research game.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Jallov, Sebastian Risi, Julian Togelius. 2016. EvoCommander. Research game.",
+      "doi": ""
+    },
+    {
+      "text": "Keiwan Donyagard. 2019. Evolution. itch.io. https://keiwan.itch.io/evolution",
+      "doi": ""
+    },
+    {
+      "text": "DopplerFrog. 2015. Gridworld. Steam. https://store.steampowered.com/app/396890/Gridworld/",
+      "doi": ""
+    },
+    {
+      "text": "Grant Ferguson. 2019. Machine Learning Arena. Research game.",
+      "doi": ""
+    },
+    {
+      "text": "FinchBeak. 2015. Petalz. Facebook.",
+      "doi": ""
+    },
+    {
+      "text": "Evolutionary Games. 2014. Galactic Arms Race. Steam. https://store.steampowered.com/app/249610/Galactic_Arms_Race/",
+      "doi": ""
+    },
+    {
+      "text": "Everybody\u00a0House Games. 2019. Hey Robot. Website. https://everybodyhousegames.com/heyrobot.html",
+      "doi": ""
+    },
+    {
+      "text": "Gas\u00a0Powered Games. 2010. Supreme Commander 2. Steam. https://store.steampowered.com/app/40100/Supreme_Commander_2/",
+      "doi": ""
+    },
+    {
+      "text": "Positech Games. 2013. Democracy 3. Steam. https://store.steampowered.com/app/245470/Democracy_3/",
+      "doi": ""
+    },
+    {
+      "text": "Temple\u00a0Gates Games. 2017. Race for the Galaxy. Steam. https://store.steampowered.com/app/893840/Roll_for_the_Galaxy/",
+      "doi": ""
+    },
+    {
+      "text": "Temple\u00a0Gates Games. 2020. Roll for the Galaxy. Steam. https://store.steampowered.com/app/893840/Roll_for_the_Galaxy/",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2016. Quick, Draw!Website. https://quickdraw.withgoogle.com/",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2018. Semantris. Website. https://research.google.com/semantris/",
+      "doi": ""
+    },
+    {
+      "text": "Steve Grand. 1996. Creatures. [CD-ROM].",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth O Stanley, Bobby D Bryant, Risto Miikkulainen. 2005. NERO. Website. http://nn.cs.utexas.edu/nero/",
+      "doi": ""
+    },
+    {
+      "text": "Nils Krautkremer. 2020. evolution for beginners. Steam. https://store.steampowered.com/app/1276350/evolution_for_beginners/",
+      "doi": ""
+    },
+    {
+      "text": "MiorSoft. 2020. 2D Walk Evolution. itch.io. https://miorsoft.itch.io/2d-walk-evolution",
+      "doi": ""
+    },
+    {
+      "text": "MotoGP. 2019. MotoGP19. Steam. https://2019.motogpvideogame.com/",
+      "doi": ""
+    },
+    {
+      "text": "Nival. 2017. Blitzkrieg 3. Steam. https://store.steampowered.com/app/235380/Blitzkrieg_3/",
+      "doi": ""
+    },
+    {
+      "text": "Oxygenium. 2020. Neat Race. itch.io. https://oxygenium.itch.io/neat-race",
+      "doi": ""
+    },
+    {
+      "text": "Peter Greve, Jan Piskur. Sebastian Risi. 2014. Braincrafter. Research game.",
+      "doi": ""
+    },
+    {
+      "text": "PXL Lab, REAL Lab. 2020. iNNk. Research game.",
+      "doi": ""
+    },
+    {
+      "text": "Alper Sekerci. 2020. Competitive Snake. itch.io. https://alpersekerci.itch.io/competitive-snake",
+      "doi": ""
+    },
+    {
+      "text": "The Sherrinford. 2018. Corral. Steam. https://store.steampowered.com/app/833400/Corral/",
+      "doi": ""
+    },
+    {
+      "text": "Lykke Studios. 2019. AIvolution. Steam. https://store.steampowered.com/app/1014990/Aivolution/",
+      "doi": ""
+    },
+    {
+      "text": "Microsoft Studios. 2013. Forza Motorsport 5. Xbox One.",
+      "doi": ""
+    },
+    {
+      "text": "Mount\u00a0Rouke Studios. 2020. Dr. Derk\u2019s Mutant Battleground. Steam. https://store.steampowered.com/app/1102370/Dr_Derks_Mutant_Battlegrounds/",
+      "doi": ""
+    },
+    {
+      "text": "vashgard. 2019. Idle Machine Learning Game. itch.io. https://vashgard.itch.io/idle-machine-learning",
+      "doi": ""
+    },
+    {
+      "text": "Nick Walton. 2019. AI Dungeon. Website. https://aidungeon.io/",
+      "doi": ""
+    }
+  ]
+}

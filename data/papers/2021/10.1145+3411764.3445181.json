@@ -1,0 +1,375 @@
+{
+  "doi": "10.1145/3411764.3445181",
+  "title": "Crowdsourcing More Effective Initializations for Single-Target Trackers Through Automatic Re-querying",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-13",
+  "year": 2021,
+  "badges": [],
+  "abstract": "In single-target video object tracking, an initial bounding box is drawn around a target object and propagated through a video. When this bounding box is provided by a careful human expert, it is expected to yield strong overall tracking performance that can be mimicked at scale by novice crowd workers with the help of advanced quality control methods. However, we show through an investigation of 900 crowdsourced initializations that such quality control strategies are inadequate for this task in two major ways: first, the high level of redundancy in these methods (e.g., averaging multiple responses to reduce error) is unnecessary, as 23% of crowdsourced initializations perform just as well as the gold-standard initialization. Second, even nearly perfect initializations can lead to degraded long-term performance due to the complexity of object tracking. Considering these findings, we evaluate novel approaches for automatically selecting bounding boxes to re-query, and introduce Smart Replacement, an efficient method that decides whether to use the crowdsourced replacement initialization.",
+  "authors": [
+    {
+      "name": "Stephan J. Lemmer",
+      "institution": "University of Michigan, Ann Arbor, MI, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659349268",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jean Y. Song",
+      "institution": "School of Computing, KAIST, Daejeon, Republic of Korea",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659249417",
+      "orcid": "0000-0003-4379-3971"
+    },
+    {
+      "name": "Jason J. Corso",
+      "institution": "Stevens Institute of Technology, Hoboken, NJ, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81342492208",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Saleema Amershi, Max Chickering, Steven\u00a0M. Drucker, Bongshin Lee, Patrice Simard, and Jina Suh. 2015. ModelTracker: Redesigning Performance Analysis Tools for Machine Learning. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. ACM Press, Seoul, Republic of Korea, 337\u2013346. https://doi.org/10.1145/2702123.2702509",
+      "doi": "10.1145/2702123.2702509"
+    },
+    {
+      "text": "Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C.\u00a0Lawrence Zitnick, and Devi Parikh. 2015. VQA: Visual Question Answering. In 2015 IEEE International Conference on Computer Vision (ICCV). IEEE, Santiago, Chile, 2425\u20132433. https://doi.org/10.1109/ICCV.2015.279",
+      "doi": ""
+    },
+    {
+      "text": "Boris Babenko, Ming-Hsuan Yang, and Serge Belongie. 2009. Visual tracking with online Multiple Instance Learning. In 2009 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, Miami, FL, 983\u2013990. https://doi.org/10.1109/CVPR.2009.5206737 ISSN: 1063-6919.",
+      "doi": ""
+    },
+    {
+      "text": "Luca Bertinetto, Jack Valmadre, Jo\u00e3o\u00a0F. Henriques, Andrea Vedaldi, and Philip H.\u00a0S. Torr. 2016. Fully-Convolutional Siamese Networks for Object Tracking. In European conference on computer vision. Springer International Publishing, Amsterdam, The Netherlands, 850\u2013865.",
+      "doi": ""
+    },
+    {
+      "text": "S. Birchfield. 1998. Elliptical head tracking using intensity gradients and color histograms. In Proceedings. 1998 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. IEEE, Santa Barbara, California, USA, 232\u2013237. https://doi.org/10.1109/CVPR.1998.698614",
+      "doi": ""
+    },
+    {
+      "text": "Steve Branson, Catherine Wah, Florian Schroff, Boris Babenko, Peter Welinder, Pietro Perona, and Serge Belongie. 2010. Visual Recognition with Humans in the Loop. In European Conference on Computer Vision, Vol.\u00a06314. Springer Berlin Heidelberg, Berlin, Heidelberg, 438\u2013451. https://doi.org/10.1007/978-3-642-15561-1_32",
+      "doi": ""
+    },
+    {
+      "text": "C. Cafforio and F. Rocca. 1976. Methods for measuring small displacements of television images. IEEE Transactions on Information Theory 22, 5 (Sept. 1976), 573\u2013579. https://doi.org/10.1109/TIT.1976.1055602",
+      "doi": "10.1109/TIT.1976.1055602"
+    },
+    {
+      "text": "Carrie\u00a0J Cai, Emily Reif, Narayan Hegde, Jason Hipp, Been Kim, Daniel Smilkov, Martin Wattenberg, Fernanda Viegas, Greg\u00a0S Corrado, Martin\u00a0C Stumpe, and Michael Terry. 2019. Human-Centered Tools for Coping with Imperfect Algorithms During Medical Decision-Making. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI \u201919. ACM Press, Glasgow, Scotland UK, 14.",
+      "doi": "10.1145/3290605.3300234"
+    },
+    {
+      "text": "Nan-Chen Chen, Jina Suh, Johan Verwey, Gonzalo Ramos, Steven Drucker, and Patrice Simard. 2018. AnchorViz: Facilitating classifier error discovery through interactive semantic data exploration. In 23rd International Conference on Intelligent User Interfaces. ACM Press, Tokyo, Japan, 269\u2013280.",
+      "doi": "10.1145/3172944.3172950"
+    },
+    {
+      "text": "C. Chow. 1970. On optimum recognition error and reject tradeoff. IEEE Transactions on Information Theory 16, 1 (Jan. 1970), 41\u201346. https://doi.org/10.1109/TIT.1970.1054406",
+      "doi": "10.1109/TIT.1970.1054406"
+    },
+    {
+      "text": "Corinna Cortes, Giulia DeSalvo, and Mehryar Mohri. 2016. Boosting with Abstention. In Advances in Neural Information Processing Systems. Curran Associates, Barcelona, Spain, 9\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Peng Dai, Christopher\u00a0H. Lin, Mausam, and Daniel\u00a0S. Weld. 2013. POMDP-based control of workflows for crowdsourcing. Artificial Intelligence 202 (Sept. 2013), 52\u201385. https://doi.org/10.1016/j.artint.2013.06.002",
+      "doi": ""
+    },
+    {
+      "text": "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. 2009. ImageNet: A Large-Scale Hierarchical Image Database. In 2009 IEEE conference on computer vision and pattern recognition. IEEE, Miami, FL, 8\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Mohamad Dolatshah. 2018. Cleaning crowdsourced labels using oracles for statistical classification. Ph.D. Dissertation. Applied Sciences: School of Computing Science.",
+      "doi": ""
+    },
+    {
+      "text": "I. Endres, A. Farhadi, D. Hoiem, and D.\u00a0A. Forsyth. 2010. The benefits and challenges of collecting richer object annotations. In 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition - Workshops. IEEE, San Francisco, CA, 1\u20138. https://doi.org/10.1109/CVPRW.2010.5543183",
+      "doi": ""
+    },
+    {
+      "text": "Mark Everingham, Luc Van\u00a0Gool, Christopher K.\u00a0I. Williams, John Winn, and Andrew Zisserman. 2010. The Pascal Visual Object Classes (VOC) Challenge. International Journal of Computer Vision 88, 2 (June 2010), 303\u2013338. https://doi.org/10.1007/s11263-009-0275-4",
+      "doi": "10.1007/s11263-009-0275-4"
+    },
+    {
+      "text": "Heng Fan and Haibin Ling. 2019. Siamese Cascaded Region Proposal Networks for Real-Time Visual Tracking. In 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, Long Beach, CA, USA, 7944\u20137953. https://doi.org/10.1109/CVPR.2019.00814",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0B Fisher. 2004. The PETS04 Surveillance Ground-Truth Data Sets. In Proc. 6th IEEE international workshop on performance evaluation of tracking and surveillance. IEEE, Prague, Czech Republic, 5.",
+      "doi": ""
+    },
+    {
+      "text": "Giorgio Fumera and Fabio Roli. 2002. Support Vector Machines with Embedded Reject Option. In Pattern Recognition with Support Vector Machines, Gerhard Goos, Juris Hartmanis, Jan van Leeuwen, Seong-Whan Lee, and Alessandro Verri(Eds.). Vol.\u00a02388. Springer Berlin Heidelberg, Berlin, Heidelberg, 68\u201382. https://doi.org/10.1007/3-540-45665-1_6",
+      "doi": ""
+    },
+    {
+      "text": "Yonatan Geifman and Ran El-Yaniv. 2017. Selective Classification for Deep Neural Networks. In Advances in Neural Information Processing Systems. Curran Associates, Long Beach, CA, USA, 4878\u20134887.",
+      "doi": ""
+    },
+    {
+      "text": "Yonatan Geifman and Ran El-Yaniv. 2019. SelectiveNet: A Deep Neural Network with an Integrated Reject Option. In Proceedings of the 36th international conference on Machine learning. ACM Press, Long Beach, CA, USA, 2151\u20132159.",
+      "doi": ""
+    },
+    {
+      "text": "Yonatan Geifman, Guy Uziel, and Ran El-Yaniv. 2019. Bias-Reduced Uncertainty Estimation for Deep Neural Classifiers. In Proceedings of the Seventh International Conference on Learning Representations. OpenReview.net, New Orleans, LA, 14\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "M. Godec, P.M. Roth, and H. Bischof. 2013. Hough-based tracking of non-rigid objects. Computer Vision and Image Understanding 117, 10 (Oct. 2013), 1245\u20131256. https://doi.org/10.1016/j.cviu.2012.11.005",
+      "doi": "10.1016/j.cviu.2012.11.005"
+    },
+    {
+      "text": "Brent Griffin, Victoria Florence, and Jason\u00a0J. Corso. 2020. Video Object Segmentation-based Visual Servo Control and Object Depth Estimation on a Mobile Robot Platform. In Proceedings of the IEEE Winter Conference on Applications of Computer Vision. IEEE, Snowmass Village, CO, 1647\u20131657. arXiv:1903.08336http://arxiv.org/abs/1903.08336",
+      "doi": ""
+    },
+    {
+      "text": "Danna Gurari, Suyog\u00a0Dutt Jain, Margrit Betke, and Kristen Grauman. 2016. Pull the Plug? Predicting If Computers or Humans Should Segment Images. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, Las Vegas, NV, USA, 382\u2013391. https://doi.org/10.1109/CVPR.2016.48",
+      "doi": ""
+    },
+    {
+      "text": "Danna Gurari, Qing Li, Abigale\u00a0J. Stangl, Anhong Guo, Chi Lin, Kristen Grauman, Jiebo Luo, and Jeffrey\u00a0P. Bigham. 2018. VizWiz Grand Challenge: Answering Visual Questions from Blind People. In 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition. IEEE, Salt Lake City, UT, USA, 3608\u20133617. https://doi.org/10.1109/CVPR.2018.00380",
+      "doi": ""
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016. Deep Residual Learning for Image Recognition. In 2016 IEEE/CVF Conference on Computer Vision and Pattern Recognition. IEEE, Las Vegas, NV, 770\u2013778.",
+      "doi": ""
+    },
+    {
+      "text": "David Held, Sebastian Thrun, and Silvio Savarese. 2016. Learning to Track at 100 FPS with Deep Regression Networks. In Computer Vision \u2013 ECCV 2016, Bastian Leibe, Jiri Matas, Nicu Sebe, and Max Welling(Eds.). Vol.\u00a09905. Springer International Publishing, Cham, 749\u2013765. https://doi.org/10.1007/978-3-319-46448-0_45",
+      "doi": ""
+    },
+    {
+      "text": "M.\u00a0E. Hellman. 1970. The Nearest Neighbor Classification Rule with a Reject Option. IEEE Transactions on Systems Science and Cybernetics 6, 3 (July 1970), 179\u2013185. https://doi.org/10.1109/TSSC.1970.300339",
+      "doi": ""
+    },
+    {
+      "text": "Ronghang Hu, Marcus Rohrbach, and Trevor Darrell. 2016. Segmentation from Natural Language Expressions. In Proceedings of the 2016 European Conference on Computer Vision. Springer International Publishing, Amsterdam, The Netherlands, 108\u2013124.",
+      "doi": ""
+    },
+    {
+      "text": "Panagiotis\u00a0G. Ipeirotis, Foster Provost, and Jing Wang. 2010. Quality management on Amazon Mechanical Turk. In Proceedings of the ACM SIGKDD Workshop on Human Computation - HCOMP \u201910. ACM Press, Washington DC, 64\u201367. https://doi.org/10.1145/1837885.1837906",
+      "doi": "10.1145/1837885.1837906"
+    },
+    {
+      "text": "Michal Koperski, Tomasz Konopczynski, Rafal Nowak, Piotr Semberecki, and Tomasz Trzcinski. 2020. Plugin Networks for Inference under Partial Evidence. In Proceedings of The 2020 IEEE Winter Conference on Applications of Computer Vision. IEEE, Snowmass Village, CO, 2883\u20132891.",
+      "doi": ""
+    },
+    {
+      "text": "Matej Kristan, Stanislav Kovacic, Ale\u0161 Leonardis, and Janez Pers. 2010. A Two-Stage Dynamic Model for Visual Tracking. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics) 40, 6 (Dec. 2010), 1505\u20131520. https://doi.org/10.1109/TSMCB.2010.2041662 Conference Name: IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics).",
+      "doi": "10.1109/TSMCB.2010.2041662"
+    },
+    {
+      "text": "Matej Kristan, Ales Leonardis, Jiri Matas, Michael Felsberg, Roman Pflugfelder, Luka Cehovin\u00a0Zajc, Tomas Vojir, Goutam Bhat, Alan Lukezic, Abdelrahman Eldesokey, Gustavo Fernandez, Alvaro Garcia-Martin, Alvaro Iglesias-Arias, A. Aydin\u00a0Alatan, Abel Gonzalez-Garcia, Alfredo Petrosino, Alireza Memarmoghadam, Andrea Vedaldi, Andrej Muhic, Anfeng He, Arnold Smeulders, Asanka\u00a0G. Perera, Bo Li, Boyu Chen, Changick Kim, Changsheng Xu, Changzhen Xiong, Cheng Tian, Chong Luo, Chong Sun, Cong Hao, Daijin Kim, Deepak Mishra, Deming Chen, Dong Wang, Dongyoon Wee, Efstratios Gavves, Erhan Gundogdu, Erik Velasco-Salido, Fahad Shahbaz\u00a0Khan, Fan Yang, Fei Zhao, Feng Li, Francesco Battistone, George De\u00a0Ath, Gorthi R. K.\u00a0S. Subrahmanyam, Guilherme Bastos, Haibin Ling, Hamed Kiani\u00a0Galoogahi, Hankyeol Lee, Haojie Li, Haojie Zhao, Heng Fan, Honggang Zhang, Horst Possegger, Houqiang Li, Huchuan Lu, Hui Zhi, Huiyun Li, Hyemin Lee, Hyung Jin\u00a0Chang, Isabela Drummond, Jack Valmadre, Jaime Spencer\u00a0Martin, Javaan Chahl, Jin Young\u00a0Choi, Jing Li, Jinqiao Wang, Jinqing Qi, Jinyoung Sung, Joakim Johnander, Joao Henriques, Jongwon Choi, Joost van\u00a0de Weijer, Jorge Rodriguez\u00a0Herranz, Jose\u00a0M. Martinez, Josef Kittler, Junfei Zhuang, Junyu Gao, Klemen Grm, Lichao Zhang, Lijun Wang, Lingxiao Yang, Litu Rout, Liu Si, Luca Bertinetto, Lutao Chu, Manqiang Che, Mario Edoardo\u00a0Maresca, Martin Danelljan, Ming-Hsuan Yang, Mohamed Abdelpakey, Mohamed Shehata, Myunggu Kang, Namhoon Lee, Ning Wang, Ondrej Miksik, P. Moallem, Pablo Vicente-Monivar, Pedro Senna, Peixia Li, Philip Torr, Priya Mariam\u00a0Raju, Qian Ruihe, Qiang Wang, Qin Zhou, Qing Guo, Rafael Martin-Nieto, Rama Krishna\u00a0Gorthi, Ran Tao, Richard Bowden, Richard Everson, Runling Wang, Sangdoo Yun, Seokeon Choi, Sergio Vivas, Shuai Bai, Shuangping Huang, Sihang Wu, Simon Hadfield, Siwen Wang, Stuart Golodetz, Tang Ming, Tianyang Xu, Tianzhu Zhang, Tobias Fischer, Vincenzo Santopietro, Vitomir Struc, Wang Wei, Wangmeng Zuo, Wei Feng, Wei Wu, Wei Zou, Weiming Hu, Wengang Zhou, Wenjun Zeng, Xiaofan Zhang, Xiaohe Wu, Xiao-Jun Wu, Xinmei Tian, Yan Li, Yan Lu, Yee Wei\u00a0Law, Yi Wu, Yiannis Demiris, Yicai Yang, Yifan Jiao, Yuhong Li, Yunhua Zhang, Yuxuan Sun, Zheng Zhang, Zheng Zhu, Zhen-Hua Feng, Zhihui Wang, and Zhiqun He. 2018. The sixth Visual Object Tracking VOT2018 challenge results. In Proceedings of the European Conference on Computer Vision (ECCV) Workshops. Springer International Publishing, Munich, Germany, 52\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Matej Kristan, J Matas, A Leonardis, Michael Felsberg, 2020. The eighth visual object tracking VOT2020 challenge results. In Proceedings of the 16th European Conference Computer Vision Workshops. Springer International Publishing, Virtual, 56\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Matej Kristan, Jiri Matas, Ale\u0161 Leonardis, Tom\u00e1\u0161 Voj\u00ed\u0159, Roman Pflugfelder, Gustavo Fern\u00e1ndez, Georg Nebehay, Fatih Porikli, and Luka \u010cehovin. 2016. A Novel Performance Evaluation Methodology for Single-Target Trackers. IEEE Transactions on Pattern Analysis and Machine Intelligence 38, 11 (Nov. 2016), 2137\u20132155. https://doi.org/10.1109/TPAMI.2016.2516982",
+      "doi": "10.1109/TPAMI.2016.2516982"
+    },
+    {
+      "text": "Todd Kulesza, Simone Stumpf, Weng-Keen Wong, Margaret\u00a0M Burnett, Stephen Perona, Andrew Ko, and Ian Oberst. 2011. Why-oriented end-user debugging of naive Bayes text classification. ACM Transactions on Interactive Intelligent Systems (TiiS) 1, 1(2011), 1\u201331.",
+      "doi": "10.1145/2030365.2030367"
+    },
+    {
+      "text": "Junseok Kwon and Kyoung\u00a0Mu Lee. 2009. Tracking of a non-rigid object via patch-based dynamic appearance modeling and adaptive Basin Hopping Monte Carlo sampling. In 2009 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, Miami, FL, 1208\u20131215. https://doi.org/10.1109/CVPR.2009.5206502",
+      "doi": ""
+    },
+    {
+      "text": "Junseok Kwon and Kyoung\u00a0Mu Lee. 2010. Visual tracking decomposition. In 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. IEEE, San Francisco, CA, 1269\u20131276. https://doi.org/10.1109/CVPR.2010.5539821 ISSN: 1063-6919.",
+      "doi": ""
+    },
+    {
+      "text": "Christian Leibig, Vaneeda Allken, Murat\u00a0Se\u00e7kin Ayhan, Philipp Berens, and Siegfried Wahl. 2017. Leveraging uncertainty information from deep neural networks for disease detection. Scientific Reports 7, 1 (Dec. 2017), 17816. https://doi.org/10.1038/s41598-017-17876-z",
+      "doi": ""
+    },
+    {
+      "text": "Stephan\u00a0J. Lemmer and Jason\u00a0J. Corso. 2020. DAER to Reject Seeds with Dual-loss Additional Error Regression. arxiv:2009.07414\u00a0[cs.CV]",
+      "doi": ""
+    },
+    {
+      "text": "Bo Li, Wei Wu, Qiang Wang, Fangyi Zhang, Junliang Xing, and Junjie Yan. 2019. SiamRPN++: Evolution of Siamese Visual Tracking With Very Deep Networks. In 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, Long Beach, CA, USA, 4277\u20134286. https://doi.org/10.1109/CVPR.2019.00441",
+      "doi": ""
+    },
+    {
+      "text": "Bo Li, Junjie Yan, Wei Wu, Zheng Zhu, and Xiaolin Hu. 2018. High Performance Visual Tracking with Siamese Region Proposal Network. In 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition. IEEE, Salt Lake City, UT, 8971\u20138980. https://doi.org/10.1109/CVPR.2018.00935",
+      "doi": ""
+    },
+    {
+      "text": "Hanxi Li, Yi Li, and Fatih Porikli. 2016. DeepTrack: Learning Discriminative Feature Representations Online for Robust Visual Tracking. IEEE Transactions on Image Processing 25, 4 (April 2016), 1834\u20131848. https://doi.org/10.1109/TIP.2015.2510583 Conference Name: IEEE Transactions on Image Processing.",
+      "doi": "10.1109/TIP.2015.2510583"
+    },
+    {
+      "text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, Lubomir Bourdev, Ross Girshick, James Hays, Pietro Perona, Deva Ramanan, C.\u00a0Lawrence Zitnick, and Piotr Doll\u00e1r. 2014. Microsoft COCO: Common Objects in Context. In Proceedings of the 2014 European Conference on Computer Vision. Springer International Publishing, Zurich, Switzerland, 740\u2013755.",
+      "doi": ""
+    },
+    {
+      "text": "Ziwei Liu, Ping Luo, Xiaogang Wang, and Xiaoou Tang. 2015. Deep Learning Face Attributes in the Wild. In Proceedings of International Conference on Computer Vision (ICCV). IEEE, Santiago, Chile, 3730\u20133738.",
+      "doi": "10.1109/ICCV.2015.425"
+    },
+    {
+      "text": "Alireza Mehrtash, William\u00a0M Wells, Clare\u00a0M Tempany, Purang Abolmaesumi, and Tina Kapur. 2020. Confidence calibration and predictive uncertainty estimation for deep medical image segmentation. IEEE Transactions on Medical Imaging 39, 12 (2020), 3868\u20133878.",
+      "doi": ""
+    },
+    {
+      "text": "Kourosh Meshgi and Shin Ishii. 2015. Expanding histogram of colors with gridding to improve tracking accuracy. In 2015 14th IAPR International Conference on Machine Vision Applications (MVA). IEEE, Tokyo, Japan, 475\u2013479. https://doi.org/10.1109/MVA.2015.7153234",
+      "doi": ""
+    },
+    {
+      "text": "Matthias M\u00fcller, Adel Bibi, Silvio Giancola, Salman Alsubaihi, and Bernard Ghanem. 2018. TrackingNet: A Large-Scale Dataset and Benchmark for Object Tracking in the Wild. In Computer Vision \u2013 ECCV 2018, Vittorio Ferrari, Martial Hebert, Cristian Sminchisescu, and Yair Weiss (Eds.). Vol.\u00a011205. Springer International Publishing, Cham, 310\u2013327. https://doi.org/10.1007/978-3-030-01246-5_19",
+      "doi": "10.1007/978-3-030-01246-5_19"
+    },
+    {
+      "text": "Tanya Nair, Doina Precup, Douglas\u00a0L Arnold, and Tal Arbel. 2020. Exploring uncertainty measures in deep networks for multiple sclerosis lesion detection and segmentation. Medical image analysis 59 (2020), 101557.",
+      "doi": ""
+    },
+    {
+      "text": "Hyeonseob Nam and Bohyung Han. 2016. Learning Multi-domain Convolutional Neural Networks for Visual Tracking. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, Las Vegas, NV, USA, 4293\u20134302. https://doi.org/10.1109/CVPR.2016.465",
+      "doi": ""
+    },
+    {
+      "text": "An\u00a0T Nguyen, Aditya Kharosekar, Saumyaa Krishnan, Siddhesh Krishnan, Elizabeth Tate, Byron\u00a0C Wallace, and Matthew Lease. 2018. Believe it or not: Designing a human-ai partnership for mixed-initiative fact-checking. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology. ACM Press, Berlin, Germany, 189\u2013199.",
+      "doi": "10.1145/3242587.3242666"
+    },
+    {
+      "text": "Dim\u00a0P. Papadopoulos, Jasper R.\u00a0R. Uijlings, Frank Keller, and Vittorio Ferrari. 2016. We Don\u2019t Need No Bounding-Boxes: Training Object Class Detectors Using Only Human Verification. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, Las Vegas, NV, USA, 854\u2013863. https://doi.org/10.1109/CVPR.2016.99",
+      "doi": ""
+    },
+    {
+      "text": "Dim\u00a0P. Papadopoulos, Jasper R.\u00a0R. Uijlings, Frank Keller, and Vittorio Ferrari. 2017. Extreme Clicking for Efficient Object Annotation. In 2017 IEEE International Conference on Computer Vision (ICCV). IEEE, Venice, 4940\u20134949. https://doi.org/10.1109/ICCV.2017.528",
+      "doi": ""
+    },
+    {
+      "text": "F. Perazzi, J. Pont-Tuset, B. McWilliams, L. Van\u00a0Gool, M. Gross, and A. Sorkine-Hornung. 2016. A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, Las Vegas, NV, 724\u2013732. https://doi.org/10.1109/CVPR.2016.85",
+      "doi": ""
+    },
+    {
+      "text": "P.J. Phillips, Hyeonjoon Moon, S.A. Rizvi, and P.J. Rauss. 2000. The FERET evaluation methodology for face-recognition algorithms. IEEE Transactions on Pattern Analysis and Machine Intelligence 22, 10 (Oct. 2000), 1090\u20131104. https://doi.org/10.1109/34.879790 Conference Name: IEEE Transactions on Pattern Analysis and Machine Intelligence.",
+      "doi": "10.1109/34.879790"
+    },
+    {
+      "text": "Maithra Raghu, Katy Blumer, Rory Sayres, Ziad Obermeyer, Robert Kleinberg, Sendhil Mullainathan, and Jon Kleinberg. 2019. Direct Uncertainty Prediction for Medical Second Opinions. In Proceedings of the 2019 International Conference on Machine Learning. ACM Press, Long Beach, CA, 10. arXiv:1807.01771http://arxiv.org/abs/1807.01771",
+      "doi": ""
+    },
+    {
+      "text": "Pranav Rajpurkar, Robin Jia, and Percy Liang. 2018. Know What You Don\u2019t Know: Unanswerable Questions for SQuAD. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). Association for Computational Linguistics, Melbourne, Australia, 784\u2013789. https://doi.org/10.18653/v1/P18-2124",
+      "doi": ""
+    },
+    {
+      "text": "Esteban Real, Jonathon Shlens, Stefano Mazzocchi, Xin Pan, and Vincent Vanhoucke. 2017. YouTube-BoundingBoxes: A Large High-Precision Human-Annotated Data Set for Object Detection in Video. In 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, Honolulu, HI, 7464\u20137473. https://doi.org/10.1109/CVPR.2017.789",
+      "doi": ""
+    },
+    {
+      "text": "N\u00a0Dinesh Reddy, Minh Vo, and Srinivasa\u00a0G. Narasimhan. 2018. CarFusion: Combining Point Tracking and Part Detection for Dynamic 3D Reconstruction of Vehicles. In 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition. IEEE, Salt Lake City, UT, USA, 1906\u20131915. https://doi.org/10.1109/CVPR.2018.00204",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0A. Ross, Jongwoo Lim, Ruei-Sung Lin, and Ming-Hsuan Yang. 2008. Incremental Learning for Robust Visual Tracking. International Journal of Computer Vision 77, 1-3 (May 2008), 125\u2013141. https://doi.org/10.1007/s11263-007-0075-7",
+      "doi": "10.1007/s11263-007-0075-7"
+    },
+    {
+      "text": "Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander\u00a0C. Berg, and Li Fei-Fei. 2015. ImageNet Large Scale Visual Recognition Challenge. International Journal of Computer Vision 115, 3 (Dec. 2015), 211\u2013252. https://doi.org/10.1007/s11263-015-0816-y",
+      "doi": "10.1007/s11263-015-0816-y"
+    },
+    {
+      "text": "Olga Russakovsky, Li-Jia Li, and Li Fei-Fei. 2015. Best of both worlds: Human-machine collaboration for object annotation. In 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, Boston, MA, USA, 2121\u20132131. https://doi.org/10.1109/CVPR.2015.7298824",
+      "doi": ""
+    },
+    {
+      "text": "Bryan\u00a0C. Russell, Antonio Torralba, Kevin\u00a0P. Murphy, and William\u00a0T. Freeman. 2008. LabelMe: A Database and Web-Based Tool for Image Annotation. International Journal of Computer Vision 77, 1-3 (May 2008), 157\u2013173. https://doi.org/10.1007/s11263-007-0090-8",
+      "doi": "10.1007/s11263-007-0090-8"
+    },
+    {
+      "text": "Juan\u00a0C. SanMiguel, Andrea Cavallaro, and Jos\u00e9\u00a0M. Martinez. 2012. Adaptive Online Performance Evaluation of Video Trackers. IEEE Transactions on Image Processing 21, 5 (May 2012), 2812\u20132823. https://doi.org/10.1109/TIP.2011.2182520 Conference Name: IEEE Transactions on Image Processing.",
+      "doi": "10.1109/TIP.2011.2182520"
+    },
+    {
+      "text": "Jakob Santner, Christian Leistner, Amir Saffari, Thomas Pock, and Horst Bischof. 2010. PROST: Parallel robust online simple tracking. In 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. IEEE, San Francisco, CA, 723\u2013730. https://doi.org/10.1109/CVPR.2010.5540145",
+      "doi": ""
+    },
+    {
+      "text": "Carla\u00a0M. Santos-Pereira and Ana\u00a0M. Pires. 2005. On optimal reject rules and ROC curves. Pattern Recognition Letters 26, 7 (May 2005), 943\u2013952. https://doi.org/10.1016/j.patrec.2004.09.042",
+      "doi": ""
+    },
+    {
+      "text": "Jianbo Shi and Tomasi. 1994. Good features to track. In 1994 Proceedings of IEEE Conference on Computer Vision and Pattern Recognition. IEEE, Seattle, WA, 593\u2013600. https://doi.org/10.1109/CVPR.1994.323794 ISSN: 1063-6919.",
+      "doi": ""
+    },
+    {
+      "text": "Alison Smith, Varun Kumar, Jordan Boyd-Graber, Kevin Seppi, and Leah Findlater. 2018. Closing the loop: User-centered design and evaluation of a human-in-the-loop topic modeling system. In 23rd International Conference on Intelligent User Interfaces. ACM Press, Tokyo, Japan, 293\u2013304.",
+      "doi": "10.1145/3172944.3172965"
+    },
+    {
+      "text": "Jean\u00a0Y Song, John Joon\u00a0Young Chung, David\u00a0F Fouhey, and Walter\u00a0S Lasecki. 2020. C-Reference: Improving 2D to 3D Object Pose Estimation Accuracy via Crowdsourced Joint Object Estimation. Proceedings of the ACM on Human-Computer Interaction 4, CSCW1(2020), 1\u201328.",
+      "doi": ""
+    },
+    {
+      "text": "Jean\u00a0Y. Song, Raymond Fok, Alan Lundgard, Fan Yang, Juho Kim, and Walter\u00a0S. Lasecki. 2018. Two Tools are Better Than One: Tool Diversity as a Means of Improving Aggregate Crowd Performance. In Proceedings of the 2018 Conference on Human Information Interaction&Retrieval - IUI 18. ACM Press, Tokyo, Japan, 559\u2013570. https://doi.org/10.1145/3172944.3172948",
+      "doi": "10.1145/3172944.3172948"
+    },
+    {
+      "text": "Jean\u00a0Y. Song, Stephan\u00a0J. Lemmer, Michael\u00a0Xieyang Liu, Shiyan Yan, Juho Kim, Jason\u00a0J. Corso, and Walter\u00a0S. Lasecki. 2019. Popup: reconstructing 3D video using particle filtering to aggregate crowd responses. In Proceedings of the 24th International Conference on Intelligent User Interfaces - IUI \u201919. ACM Press, Marina del Ray, California, 558\u2013569. https://doi.org/10.1145/3301275.3302305",
+      "doi": "10.1145/3301275.3302305"
+    },
+    {
+      "text": "Ryan Szeto and Jason\u00a0J. Corso. 2017. Click Here: Human-Localized Keypoints as Guidance for Viewpoint Estimation. In 2017 IEEE International Conference on Computer Vision (ICCV). IEEE, Venice, 1604\u20131613. https://doi.org/10.1109/ICCV.2017.177",
+      "doi": ""
+    },
+    {
+      "text": "Ryutaro Tanno, Daniel Worrall, Enrico Kaden, Aurobrata Ghosh, Francesco Grussu, Alberto Bizzi, Stamatios\u00a0N Sotiropoulos, Antonio Criminisi, and Daniel\u00a0C Alexander. 2019. Uncertainty quantification in deep learning for safer neuroimage enhancement. , 37\u00a0pages. arXiv:1907.13418\u00a0[eess.iv]",
+      "doi": ""
+    },
+    {
+      "text": "Francesco Tortorella. 2000. An Optimal Reject Rule for Binary Classifiers. In Advances in Pattern Recognition, Gerhard Goos, Juris Hartmanis, Jan van Leeuwen, Francesc\u00a0J. Ferri, Jos\u00e9\u00a0M. I\u00f1esta, Adnan Amin, and Pavel Pudil (Eds.). Vol.\u00a01876. Springer Berlin Heidelberg, Berlin, Heidelberg, 611\u2013620. https://doi.org/10.1007/3-540-44522-6_63",
+      "doi": ""
+    },
+    {
+      "text": "K.\u00a0R. Varshney. 2011. A risk bound for ensemble classification with a reject option. In 2011 IEEE Statistical Signal Processing Workshop (SSP). IEEE, Nice, France, 769\u2013772. https://doi.org/10.1109/SSP.2011.5967817",
+      "doi": ""
+    },
+    {
+      "text": "Sirion Vittayakorn and James Hays. 2011. Quality Assessment for Crowdsourced Object Annotations. In Procedings of the British Machine Vision Conference 2011. British Machine Vision Association, Dundee, 109.1\u2013109.11. https://doi.org/10.5244/C.25.109",
+      "doi": ""
+    },
+    {
+      "text": "Guangting Wang, Chong Luo, Zhiwei Xiong, and Wenjun Zeng. 2019. SPM-Tracker: Series-Parallel Matching for Real-Time Visual Object Tracking. In 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, Long Beach, CA, USA, 3638\u20133647. https://doi.org/10.1109/CVPR.2019.00376",
+      "doi": ""
+    },
+    {
+      "text": "Lijun Wang, Wanli Ouyang, Xiaogang Wang, and Huchuan Lu. 2015. Visual Tracking with Fully Convolutional Networks. In 2015 IEEE International Conference on Computer Vision (ICCV). IEEE, Santiago, Chile, 3119\u20133127. https://doi.org/10.1109/ICCV.2015.357",
+      "doi": ""
+    },
+    {
+      "text": "Qiang Wang, Li Zhang, Luca Bertinetto, Weiming Hu, and Philip H.\u00a0S. Torr. 2019. Fast Online Object Tracking and Segmentation: A Unifying Approach. In Proceedings of the 2019 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, Long Beach, CA, 1328\u20131338.",
+      "doi": ""
+    },
+    {
+      "text": "Hao Wu, Aswin\u00a0C. Sankaranarayanan, and Rama Chellappa. 2010. Online Empirical Evaluation of Tracking Algorithms. IEEE Transactions on Pattern Analysis and Machine Intelligence 32, 8 (Aug. 2010), 1443\u20131458. https://doi.org/10.1109/TPAMI.2009.135 Conference Name: IEEE Transactions on Pattern Analysis and Machine Intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "Yi Wu, Jongwoo Lim, and Ming-Hsuan Yang. 2013. Online Object Tracking: A Benchmark. In 2013 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, Portland, OR, USA, 2411\u20132418. https://doi.org/10.1109/CVPR.2013.312",
+      "doi": ""
+    },
+    {
+      "text": "Alper Yilmaz, Omar Javed, and Mubarak Shah. 2006. Object tracking: A survey. Acm computing surveys (CSUR) 38, 4 (2006), 13\u2013es.",
+      "doi": ""
+    },
+    {
+      "text": "Luka\u00a0\u010cehovin Zajc, Matej Kristan, and Ale\u0161 Leonardis. 2014. Is my new tracker really better than yours?. In WACV 2014: IEEE Winter Conference on Applications of Computer Vision. IEEE, Steamboat Springs, CO, 540\u2013547. http://prints.vicos.si/publications/302",
+      "doi": ""
+    },
+    {
+      "text": "Zheng Zhu, Qiang Wang, Bo Li, Wei Wu, Junjie Yan, and Weiming Hu. 2018. Distractor-aware Siamese Networks for Visual Object Tracking. In Proceedings of the 2018 European Conference on Computer Vision. IEEE, Munich, Germany, 101\u2013117.",
+      "doi": "10.1007/978-3-030-01240-3_7"
+    }
+  ]
+}

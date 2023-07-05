@@ -1,0 +1,394 @@
+{
+  "doi": "10.1145/3544548.3580983",
+  "title": "Interaction of Thoughts: Towards Mediating Task Assignment in Human-AI Cooperation with a Capability-Aware Shared Mental Model",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2023,
+  "badges": [],
+  "abstract": "The existing work on task assignment of human-AI cooperation did not consider the differences between individual team members regarding their capabilities, leading to sub-optimal task completion results. In this work, we propose a capability-aware shared mental model (CASMM) with the components of task grouping and negotiation, which utilize tuples to break down tasks into sets of scenarios relating to difficulties and then dynamically merge the task grouping ideas raised by human and AI through negotiation. We implement a prototype system and a 3-phase user study for the proof of concept via an image labeling task. The result shows building CASMM boosts the accuracy and time efficiency significantly through forming the task assignment close to real capabilities within few iterations. It helps users better understand the capability of AI and themselves. Our method has the potential to generalize to other scenarios such as medical diagnoses and automatic driving in facilitating better human-AI cooperation.",
+  "authors": [
+    {
+      "name": "Ziyao He",
+      "institution": "MOE KLINNS Lab, Xi'an Jiaotong University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782114",
+      "orcid": "0000-0003-0448-5159"
+    },
+    {
+      "name": "Yunpeng Song",
+      "institution": "MOE KLINNS Lab, Xi'an Jiaotong University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660050628",
+      "orcid": "0000-0002-4186-0408"
+    },
+    {
+      "name": "Shurui Zhou",
+      "institution": "ECE&CS, University of Toronto, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659278548",
+      "orcid": "0000-0002-6346-6073"
+    },
+    {
+      "name": "Zhongmin Cai",
+      "institution": "MOE KLINNS Lab, Xi'an Jiaotong University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81493648187",
+      "orcid": "0000-0002-4903-3992"
+    }
+  ],
+  "references": [
+    {
+      "text": "Saleema Amershi, Daniel\u00a0S. Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi\u00a0T. Iqbal, Paul\u00a0N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, and Eric Horvitz. 2019. Guidelines for Human-AI Interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, CHI 2019, Glasgow, Scotland, UK, May 04-09, 2019, Stephen\u00a0A. Brewster, Geraldine Fitzpatrick, Anna\u00a0L. Cox, and Vassilis Kostakos (Eds.). ACM, Glasgow, Scotland, UK, 3. https://doi.org/10.1145/3290605.3300233",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Bahador Bahrami, Karsten Olsen, Peter\u00a0E Latham, Andreas Roepstorff, Geraint Rees, and Chris\u00a0D Frith. 2010. Optimally interacting minds. Science 329, 5995 (2010), 1081\u20131085.",
+      "doi": ""
+    },
+    {
+      "text": "Victoria\u00a0A Banks, Katherine\u00a0L Plant, and Neville\u00a0A Stanton. 2018. Driver error or designer error: Using the Perceptual Cycle Model to explore the circumstances surrounding the fatal Tesla crash on 7th May 2016. Safety science 108(2018), 278\u2013285.",
+      "doi": ""
+    },
+    {
+      "text": "Gagan Bansal, Besmira Nushi, Ece Kamar, Walter\u00a0S. Lasecki, Daniel\u00a0S. Weld, and Eric Horvitz. 2019. Beyond Accuracy: The Role of Mental Models in Human-AI Team Performance. In Proceedings of the Seventh AAAI Conference on Human Computation and Crowdsourcing, HCOMP 2019, Stevenson, WA, USA, October 28-30, 2019, Edith Law and Jennifer\u00a0Wortman Vaughan (Eds.). AAAI Press, Stevenson, WA, USA, 2\u201311. https://ojs.aaai.org/index.php/HCOMP/article/view/5285",
+      "doi": ""
+    },
+    {
+      "text": "Angie Boggust, Benjamin Hoover, Arvind Satyanarayan, and Hendrik Strobelt. 2022. Shared Interest: Measuring Human-AI Alignment to Identify Recurring Patterns in Model Behavior. In CHI \u201922: CHI Conference on Human Factors in Computing Systems, New Orleans, LA, USA, 29 April 2022 - 5 May 2022, Simone D.\u00a0J. Barbosa, Cliff Lampe, Caroline Appert, David\u00a0A. Shamma, Steven\u00a0Mark Drucker, Julie\u00a0R. Williamson, and Koji Yatani (Eds.). ACM, New Orleans, LA, USA, 10:1\u201310:17. https://doi.org/10.1145/3491102.3501965",
+      "doi": "10.1145/3491102.3501965"
+    },
+    {
+      "text": "\u00c1ngel\u00a0Alexander Cabrera, Adam Perer, and Jason\u00a0I Hong. 2023. Improving Human-AI Collaboration with Descriptions of AI Behavior. Proceedings of the ACM on Human-Computer Interaction 7, CSCW1(2023), 136:1\u2013136:21.",
+      "doi": "10.1145/3579612"
+    },
+    {
+      "text": "Tathagata Chakraborti, Sarath Sreedharan, Sachin Grover, and Subbarao Kambhampati. 2019. Plan explanations as model reconciliation\u2013an empirical study. In 2019 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI). IEEE, IEEE, Daegu, Korea (South), 258\u2013266.",
+      "doi": ""
+    },
+    {
+      "text": "Stevie Chancellor, Zhiyuan Lin, Erica\u00a0L. Goodman, Stephanie Zerwas, and Munmun\u00a0De Choudhury. 2016. Quantifying and Predicting Mental Illness Severity in Online Pro-Eating Disorder Communities. In Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing, CSCW 2016, San Francisco, CA, USA, February 27 - March 2, 2016, Darren Gergle, Meredith\u00a0Ringel Morris, Pernille Bj\u00f8rn, and Joseph\u00a0A. Konstan (Eds.). ACM, San Francisco, CA, USA, 1169\u20131182.",
+      "doi": "10.1145/2818048.2819973"
+    },
+    {
+      "text": "Ting Chen, Simon Kornblith, Mohammad Norouzi, and Geoffrey\u00a0E. Hinton. 2020. A Simple Framework for Contrastive Learning of Visual Representations. In Proceedings of the 37th International Conference on Machine Learning, ICML 2020, 13-18 July 2020, Virtual Event(Proceedings of Machine Learning Research, Vol.\u00a0119). PMLR, Virtual Event, 1597\u20131607. http://proceedings.mlr.press/v119/chen20j.html",
+      "doi": ""
+    },
+    {
+      "text": "Meghan Clark, Mark\u00a0W Newman, and Prabal Dutta. 2017. Devices and data and agents, oh my: How smart home abstractions prime end-user mental models. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 3 (2017), 1\u201326.",
+      "doi": "10.1145/3132031"
+    },
+    {
+      "text": "Sharolyn Converse, JA Cannon-Bowers, and E Salas. 1993. Shared mental models in expert team decision making. Individual and group decision making: Current issues 221 (1993), 221\u201346.",
+      "doi": ""
+    },
+    {
+      "text": "KJW Craik. 1943. The Nature of Explanation Cambridge University Press: Cambridge.",
+      "doi": ""
+    },
+    {
+      "text": "Leslie\u00a0A DeChurch and Jessica\u00a0R Mesmer-Magnus. 2010. The cognitive underpinnings of effective teamwork: a meta-analysis.Journal of applied psychology 95, 1 (2010), 32.",
+      "doi": ""
+    },
+    {
+      "text": "Maryam\u00a0Banitalebi Dehkordi, Reda Mansy, Abolfazl Zaraki, Arpit Singh, and Rossitza Setchi. 2021. Explainability in human-robot teaming. Procedia Computer Science 192 (2021), 3487\u20133496.",
+      "doi": "10.1016/j.procs.2021.09.122"
+    },
+    {
+      "text": "Michael Derntl, Renate Motschnig-Pitrik, and Kathrin Figl. 2006. Using teams, peer-and self evaluation in blended learning classes. In Proceedings. Frontiers in Education. 36th Annual Conference. IEEE, IEEE, San Diego, CA, USA, 15\u201320.",
+      "doi": ""
+    },
+    {
+      "text": "David Eccles. 2010. The coordination of labour in sports teams. International Review of Sport and Exercise Psychology 3, 2 (2010), 154\u2013170. https://doi.org/10.1080/1750984X.2010.519400 arXiv:https://doi.org/10.1080/1750984X.2010.519400",
+      "doi": ""
+    },
+    {
+      "text": "Shirine El\u00a0Zaatari, Mohamed Marei, Weidong Li, and Zahid Usman. 2019. Cobot programming for collaborative industrial tasks: An overview. Robotics and Autonomous Systems 116 (2019), 162\u2013180.",
+      "doi": "10.1016/j.robot.2019.03.003"
+    },
+    {
+      "text": "Jonnro Erasmus, Irene Vanderfeesten, Konstantinos Traganos, Ad Kleingeld, Paul Grefen, 2018. A method to enable ability-based human resource allocation in business process management systems. In IFIP Working Conference on the Practice of Enterprise Modeling. Springer, Springer, Vienna, Austria, 37\u201352.",
+      "doi": ""
+    },
+    {
+      "text": "Leon\u00a0A. Gatys, Alexander\u00a0S. Ecker, and Matthias Bethge. 2016. Image Style Transfer Using Convolutional Neural Networks. In 2016 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2016, Las Vegas, NV, USA, June 27-30, 2016. IEEE Computer Society, Las Vegas, NV, USA, 2414\u20132423. https://doi.org/10.1109/CVPR.2016.265",
+      "doi": ""
+    },
+    {
+      "text": "Robert Geirhos, Patricia Rubisch, Claudio Michaelis, Matthias Bethge, Felix\u00a0A. Wichmann, and Wieland Brendel. 2019. ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness. In 7th International Conference on Learning Representations, ICLR 2019, New Orleans, LA, USA, May 6-9, 2019. OpenReview.net, New Orleans, LA, USA, 22. https://openreview.net/forum?id=Bygh9j09KX",
+      "doi": ""
+    },
+    {
+      "text": "Robert Geirhos, Carlos R.\u00a0Medina Temme, Jonas Rauber, Heiko\u00a0H. Sch\u00fctt, Matthias Bethge, and Felix\u00a0A. Wichmann. 2018. Generalisation in humans and deep neural networks. In Advances in Neural Information Processing Systems 31: Annual Conference on Neural Information Processing Systems 2018, NeurIPS 2018, December 3-8, 2018, Montr\u00e9al, Canada, Samy Bengio, Hanna\u00a0M. Wallach, Hugo Larochelle, Kristen Grauman, Nicol\u00f2 Cesa-Bianchi, and Roman Garnett (Eds.). Curran Associates, Inc., Montr\u00e9al, Canada, 7549\u20137561.",
+      "doi": ""
+    },
+    {
+      "text": "Katy\u00a0Ilonka Gero, Zahra Ashktorab, Casey Dugan, Qian Pan, James Johnson, Werner Geyer, Maria Ruiz, Sarah Miller, David\u00a0R. Millen, Murray Campbell, Sadhana Kumaravel, and Wei Zhang. 2020. Mental Models of AI Agents in a Cooperative Game Setting. In CHI \u201920: CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, April 25-30, 2020, Regina Bernhaupt, Florian\u00a0\u2019Floyd\u2019 Mueller, David Verweij, Josh Andres, Joanna McGrenere, Andy Cockburn, Ignacio Avellino, Alix Goguey, Pernille Bj\u00f8n, Shengdong Zhao, Briane\u00a0Paul Samson, and Rafal Kocielnik (Eds.). ACM, Honolulu, HI, USA, 1\u201312. https://doi.org/10.1145/3313831.3376316",
+      "doi": "10.1145/3313831.3376316"
+    },
+    {
+      "text": "Felix Gervits, Dean Thurston, Ravenna Thielstrom, Terry Fong, Quinn Pham, and Matthias Scheutz. 2020. Toward Genuine Robot Teammates: Improving Human-Robot Team Performance Using Robot Shared Mental Models. In Proceedings of the 19th International Conference on Autonomous Agents and Multiagent Systems, AAMAS \u201920, Auckland, New Zealand, May 9-13, 2020, Amal El\u00a0Fallah Seghrouchni, Gita Sukthankar, Bo\u00a0An, and Neil Yorke-Smith (Eds.). International Foundation for Autonomous Agents and Multiagent Systems, Auckland, New Zealand, 429\u2013437. https://doi.org/10.5555/3398761.3398815",
+      "doi": "10.5555/3398761.3398815"
+    },
+    {
+      "text": "Aaron Glick, Mackenzie Clayton, Nikola Angelov, and Jennifer Chang. 2022. Impact of explainable artificial intelligence assistance on clinical decision-making of novice dental clinicians. JAMIA open 5, 2 (2022), ooac031.",
+      "doi": ""
+    },
+    {
+      "text": "David Gunning, Mark Stefik, Jaesik Choi, Timothy Miller, Simone Stumpf, and Guang-Zhong Yang. 2019. XAI\u2014Explainable artificial intelligence. Science Robotics 4, 37 (2019), 7120.",
+      "doi": ""
+    },
+    {
+      "text": "Danula\u00a0Eranjith Hettiachchi\u00a0Mudiyanselage. 2021. Task assignment using worker cognitive ability and context to improve data quality in crowdsourcing. Ph.\u00a0D. Dissertation. The University of Melbourne, Victoria, Australia.",
+      "doi": ""
+    },
+    {
+      "text": "Andreas Holzinger. 2018. From machine learning to explainable AI. In 2018 world symposium on digital intelligence for systems and machines (DISA). IEEE, IEEE, Ko\u0161ice, Slovakia, 55\u201366.",
+      "doi": ""
+    },
+    {
+      "text": "Andreas Holzinger, Anna Saranti, Christoph Molnar, Przemyslaw Biecek, and Wojciech Samek. 2020. Explainable AI methods-a brief overview. In xxAI - Beyond Explainable AI - International Workshop, Held in Conjunction with ICML 2020, July 18, 2020, Vienna, Austria, Revised and Extended Papers(Lecture Notes in Computer Science, Vol.\u00a013200), Andreas Holzinger, Randy Goebel, Ruth Fong, Taesup Moon, Klaus-Robert M\u00fcller, and Wojciech Samek (Eds.). Springer, Springer, Vienna, Austria, 13\u201338. https://doi.org/10.1007/978-3-031-04083-2_2",
+      "doi": "10.1007/978-3-031-04083-2_2"
+    },
+    {
+      "text": "Catholijn\u00a0M. Jonker, M.\u00a0Birna van Riemsdijk, and Bas Vermeulen. 2010. Shared Mental Models - A Conceptual Analysis. In Coordination, Organizations, Institutions, and Norms in Agent Systems VI - COIN 2010 International Workshops, COIN@AAMAS 2010, Toronto, Canada, May 2010, COIN@MALLOW 2010, Lyon, France, August 2010, Revised Selected Papers(Lecture Notes in Computer Science, Vol.\u00a06541), Marina\u00a0De Vos, Nicoletta Fornara, Jeremy\u00a0V. Pitt, and George\u00a0A. Vouros (Eds.). Springer, Lyon, France, 132\u2013151. https://doi.org/10.1007/978-3-642-21268-0_8",
+      "doi": ""
+    },
+    {
+      "text": "Ece Kamar. 2016. Directions in Hybrid Intelligence: Complementing AI Systems with Human Intelligence. In Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence(New York, New York, USA) (IJCAI\u201916). AAAI Press, New York, NY, USA, 4070\u20134073.",
+      "doi": ""
+    },
+    {
+      "text": "Ece Kamar, Severin Hacker, and Eric Horvitz. 2012. Combining human and machine intelligence in large-scale crowdsourcing. In International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2012, Valencia, Spain, June 4-8, 2012 (3 Volumes), Wiebe van\u00a0der Hoek, Lin Padgham, Vincent Conitzer, and Michael Winikoff (Eds.). IFAAMAS, Valencia, Spain, 467\u2013474. http://dl.acm.org/citation.cfm?id=2343643",
+      "doi": ""
+    },
+    {
+      "text": "H Kaur, A Williams, and WS Lasecki. 2019. Building shared mental models between humans and ai for effective collaboration. In Proceedings of CHI 2019 Workshop on Where is the Human? Bridging the Gap Between AI and HCI, Glasgow, Scotland. ACM, Glasgow, Scotland, 7.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Kay, Tara Kola, Jessica\u00a0R. Hullman, and Sean\u00a0A. Munson. 2016. When (ish) is My Bus?: User-centered Visualizations of Uncertainty in Everyday, Mobile Predictive Systems. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, San Jose, CA, USA, May 7-12, 2016, Jofish Kaye, Allison Druin, Cliff Lampe, Dan Morris, and Juan\u00a0Pablo Hourcade (Eds.). ACM, San Jose, CA, USA, 5092\u20135103. https://doi.org/10.1145/2858036.2858558",
+      "doi": "10.1145/2858036.2858558"
+    },
+    {
+      "text": "William\u00a0G Kennedy and J\u00a0Gregory Trafton. 2007. Using simulations to model shared mental models. Technical Report. NAVAL RESEARCH LAB WASHINGTON DC CENTER FOR APPLIED RESEARCH IN ARTIFICIAL\u00a0\u2026.",
+      "doi": ""
+    },
+    {
+      "text": "Julia Kiseleva, Alexander Tuzhilin, Jaap Kamps, Melanie J.\u00a0I. M\u00fcller, Lucas Bernardi, Chad Davis, Ivan Kovacek, Mats\u00a0Stafseng Einarsen, and Djoerd Hiemstra. 2016. Beyond Movie Recommendations: Solving the Continuous Cold Start Problem in E-commerce Recommendations. CoRR abs/1607.07904(2016), 11. arXiv:1607.07904http://arxiv.org/abs/1607.07904",
+      "doi": ""
+    },
+    {
+      "text": "Lucy\u00a0Van Kleunen and Stephen Voida. 2019. Challenges in supporting social practices around personal data for long-term mental health management. In Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers, UbiComp/ISWC 2019 Adjunct, London, UK, September 9-13, 2019, Robert Harle, Katayoun Farrahi, and Nicholas\u00a0D. Lane (Eds.). ACM, London, UK, 944\u2013948. https://doi.org/10.1145/3341162.3346273",
+      "doi": "10.1145/3341162.3346273"
+    },
+    {
+      "text": "Richard Klimoski and Susan Mohammed. 1994. Team mental model: Construct or metaphor?Journal of management 20, 2 (1994), 403\u2013437.",
+      "doi": ""
+    },
+    {
+      "text": "Masaki Kobayashi, Kei Wakabayashi, and Atsuyuki Morishima. 2021. Human+AI Crowd Task Assignment Considering Result Quality Requirements. In Proceedings of the Ninth AAAI Conference on Human Computation and Crowdsourcing, HCOMP 2021, virtual, November 14-18, 2021, Ece Kamar and Kurt Luther (Eds.). AAAI Press, Virtual, 97\u2013107. https://ojs.aaai.org/index.php/HCOMP/article/view/18943",
+      "doi": ""
+    },
+    {
+      "text": "Sonal Kothari, John\u00a0H Phan, Todd\u00a0H Stokes, and May\u00a0D Wang. 2013. Pathology imaging informatics for quantitative analysis of whole-slide images. Journal of the American Medical Informatics Association 20, 6(2013), 1099\u20131108.",
+      "doi": ""
+    },
+    {
+      "text": "Walter\u00a0S Lasecki. 2019. On facilitating human-computer interaction via hybrid intelligence systems. In Proceedings of the 7th annual ACM Conference on Collective Intelligence. ACM. ACM, Pittsburgh, USA, 1:1\u20131:5.",
+      "doi": ""
+    },
+    {
+      "text": "Sunok Lee, Minji Cho, and Sangsu Lee. 2020. What If Conversational Agents Became Invisible? Comparing Users\u2019 Mental Models According to Physical Entity of AI Speaker. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 3 (2020), 1\u201324.",
+      "doi": "10.1145/3415169"
+    },
+    {
+      "text": "Lan Li, Tina Lassiter, Joohee Oh, and Min\u00a0Kyung Lee. 2021. Algorithmic Hiring in Practice: Recruiter and HR Professional\u2019s Perspectives on AI Use in Hiring. In AIES \u201921: AAAI/ACM Conference on AI, Ethics, and Society, Virtual Event, USA, May 19-21, 2021, Marion Fourcade, Benjamin Kuipers, Seth Lazar, and Deirdre\u00a0K. Mulligan (Eds.). ACM, Virtual Event, USA, 166\u2013176. https://doi.org/10.1145/3461702.3462531",
+      "doi": "10.1145/3461702.3462531"
+    },
+    {
+      "text": "Yu\u00a0Liangru Li\u00a0Yi and Qiu Dong. 2020. Review of Cooperation Mode Between Human and Artificial Intelligence. Journal of Intelligence 39 (2020), 137\u2013143.",
+      "doi": ""
+    },
+    {
+      "text": "Claire Liang, Julia Proft, Erik Andersen, and Ross\u00a0A. Knepper. 2019. Implicit Communication of Actionable Information in Human-AI teams. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, CHI 2019, Glasgow, Scotland, UK, May 04-09, 2019, Stephen\u00a0A. Brewster, Geraldine Fitzpatrick, Anna\u00a0L. Cox, and Vassilis Kostakos (Eds.). ACM, Glasgow, Scotland, UK, 95. https://doi.org/10.1145/3290605.3300325",
+      "doi": "10.1145/3290605.3300325"
+    },
+    {
+      "text": "Geert Litjens, Peter Bandi, Babak Ehteshami\u00a0Bejnordi, Oscar Geessink, Maschenka Balkenhol, Peter Bult, Altuna Halilovic, Meyke Hermsen, Rob van\u00a0de Loo, Rob Vogels, 2018. 1399 H&E-stained sentinel lymph node sections of breast cancer patients: the CAMELYON dataset. GigaScience 7, 6 (2018), giy065.",
+      "doi": ""
+    },
+    {
+      "text": "Alan Lundgard, Yiwei Yang, Maya\u00a0L. Foster, and Walter\u00a0S. Lasecki. 2018. Bolt: Instantaneous Crowdsourcing via Just-in-Time Training. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems, CHI 2018, Montreal, QC, Canada, April 21-26, 2018, Regan\u00a0L. Mandryk, Mark Hancock, Mark Perry, and Anna\u00a0L. Cox (Eds.). ACM, Montreal, QC, Canada, 467. https://doi.org/10.1145/3173574.3174041",
+      "doi": "10.1145/3173574.3174041"
+    },
+    {
+      "text": "Lanssie\u00a0Mingyue Ma, Terrence Fong, Mark\u00a0J. Micire, Yunkyung Kim, and Karen\u00a0M. Feigh. 2017. Human-Robot Teaming: Concepts and Components for Design. In Field and Service Robotics, Results of the 11th International Conference, FSR 2017, Zurich, Switzerland, 12-15 September 2017(Springer Proceedings in Advanced Robotics, Vol.\u00a05), Marco Hutter and Roland Siegwart (Eds.). Springer, Zurich, Switzerland, 649\u2013663. https://doi.org/10.1007/978-3-319-67361-5_42",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0E Mathieu, Tonia\u00a0S Heffner, Gerald\u00a0F Goodwin, Eduardo Salas, and Janis\u00a0A Cannon-Bowers. 2000. The influence of shared mental models on team process and performance.Journal of applied psychology 85, 2 (2000), 273.",
+      "doi": ""
+    },
+    {
+      "text": "Gerald Matthews, April\u00a0Rose Panganiban, Jinchao Lin, Michael Long, and Michaela Schwing. 2021. Chapter 3 - Super-machines or sub-humans: Mental models and trust in intelligent autonomous systems. In Trust in Human-Robot Interaction, Chang\u00a0S. Nam and Joseph\u00a0B. Lyons (Eds.). Academic Press, Salt Lake City, UT, USA, 59\u201382. https://doi.org/10.1016/B978-0-12-819472-0.00003-4",
+      "doi": ""
+    },
+    {
+      "text": "Tim Miller. 2019. Explanation in artificial intelligence: Insights from the social sciences. Artificial intelligence 267 (2019), 1\u201338.",
+      "doi": ""
+    },
+    {
+      "text": "Susan Mohammed and Brad\u00a0C Dumville. 2001. Team mental models in a team knowledge framework: Expanding theory and measurement across disciplinary boundaries. Journal of Organizational Behavior: The International Journal of Industrial, Occupational and Organizational Psychology and Behavior 22, 2(2001), 89\u2013106.",
+      "doi": ""
+    },
+    {
+      "text": "An\u00a0T. Nguyen, Aditya Kharosekar, Saumyaa Krishnan, Siddhesh Krishnan, Elizabeth Tate, Byron\u00a0C. Wallace, and Matthew Lease. 2018. Believe it or not: Designing a Human-AI Partnership for Mixed-Initiative Fact-Checking. In The 31st Annual ACM Symposium on User Interface Software and Technology, UIST 2018, Berlin, Germany, October 14-17, 2018, Patrick Baudisch, Albrecht Schmidt, and Andy Wilson (Eds.). ACM, Berlin, Germany, 189\u2013199. https://doi.org/10.1145/3242587.3242666",
+      "doi": "10.1145/3242587.3242666"
+    },
+    {
+      "text": "Stefanos Nikolaidis and Julie Shah. 2012. Human-robot teaming using shared mental models. In Proceedings of the seventh annual ACM/IEEE international conference on Human-Robot Interaction 2012 Workshop on Human-Agent-Robot Teamwork, Boston, Massachusetts, USA. Association for Computing Machinery, Boston, Massachusetts, USA, 6.",
+      "doi": ""
+    },
+    {
+      "text": "Besmira Nushi, Ece Kamar, and Eric Horvitz. 2018. Towards Accountable AI: Hybrid Human-Machine Analyses for Characterizing System Failure. In Proceedings of the Sixth AAAI Conference on Human Computation and Crowdsourcing, HCOMP 2018, Z\u00fcrich, Switzerland, July 5-8, 2018, Yiling Chen and Gabriella Kazai (Eds.). AAAI Press, Z\u00fcrich, Switzerland, 126\u2013135. https://aaai.org/ocs/index.php/HCOMP/HCOMP18/paper/view/17930",
+      "doi": ""
+    },
+    {
+      "text": "Mike Oaksford and Nick Chater. 2001. The probabilistic approach to human reasoning. Trends in cognitive sciences 5, 8 (2001), 349\u2013357.",
+      "doi": ""
+    },
+    {
+      "text": "Kristin\u00a0E. Oleson, Deborah\u00a0R. Billings, Vivien Kocsis, Jessie Y.\u00a0C. Chen, and Peter\u00a0A. Hancock. 2011. Antecedents of trust in human-robot collaborations. In IEEE International Inter-Disciplinary Conference on Cognitive Methods in Situation Awareness and Decision Support, CogSIMA 2011, Miami, FL, USA, February 21-24, 2011, Gabriel Jakobson, Mica\u00a0R. Endsley, and Mitch Kokar (Eds.). IEEE, Miami, FL, USA, 175\u2013178. https://doi.org/10.1109/COGSIMA.2011.5753439",
+      "doi": ""
+    },
+    {
+      "text": "Scott Ososky. 2013. Influence of task-role mental models on human interpretation of robot motion behavior. Ph.\u00a0D. Dissertation. University of Central Florida, Orlando, Florida, USA. Advisor(s) Florian G. Jentsch.",
+      "doi": ""
+    },
+    {
+      "text": "Scott Ososky, David Schuster, Florian Jentsch, Stephen Fiore, Randall Shumaker, Christian Lebiere, Unmesh Kurup, Jean Oh, and Anthony Stentz. 2012. The importance of shared mental models and shared situation awareness for transforming robots from tools to teammates. In Unmanned systems technology XIV, Vol.\u00a08387. International Society for Optics and Photonics, International Society for Optics and Photonics, Baltimore, Maryland, United States, 838710.",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas Paul and ChanJin Chung. 2018. Application of HDR algorithms to solve direct sunlight problems when autonomous vehicles using machine vision systems are driving into sun. Computers in Industry 98(2018), 192\u2013196.",
+      "doi": "10.1016/j.compind.2018.03.011"
+    },
+    {
+      "text": "Erasmo Purificato, Flavio Lorenzo, Francesca Fallucchi, and Ernesto\u00a0William De\u00a0Luca. 2022. The Use of Responsible Artificial Intelligence Techniques in the Context of Loan Approval Processes. International Journal of Human\u2013Computer Interaction 0, 0(2022), 1\u201320. https://doi.org/10.1080/10447318.2022.2081284",
+      "doi": ""
+    },
+    {
+      "text": "Katyanna Quach. 2020. Watch an oblivious Tesla Model 3 smash into an overturned truck on a highway \u2019while under autopilot\u2019. https://www.theregister.com/2020/06/02/tesla_car_crash/",
+      "doi": ""
+    },
+    {
+      "text": "Yosef\u00a0S Razin, Jack Gale, Jiaojiao Fan, Jaznae\u2019 Smith, and Karen\u00a0M Feigh. 2021. Watch For Failing Objects: What Inappropriate Compliance Reveals About Shared Mental Models In Autonomous Cars. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting, Vol.\u00a065. SAGE Publications Sage CA: Los Angeles, CA, Los Angeles, CA, USA, 643\u2013647.",
+      "doi": ""
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2016. \"Why Should I Trust You?\": Explaining the Predictions of Any Classifier. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (San Francisco, California, USA) (KDD \u201916). Association for Computing Machinery, New York, NY, USA, 1135\u20131144. https://doi.org/10.1145/2939672.2939778",
+      "doi": "10.1145/2939672.2939778"
+    },
+    {
+      "text": "Peter\u00a0J Robe. 2021. Designing a Pair Programming Conversational Agent. Ph.\u00a0D. Dissertation. The University of Tulsa.",
+      "doi": ""
+    },
+    {
+      "text": "Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander\u00a0C. Berg, and Li Fei-Fei. 2015. ImageNet Large Scale Visual Recognition Challenge. International Journal of Computer Vision (IJCV) 115, 3 (2015), 211\u2013252. https://doi.org/10.1007/s11263-015-0816-y",
+      "doi": "10.1007/s11263-015-0816-y"
+    },
+    {
+      "text": "Mike Schaekermann, Graeme Beaton, Elaheh Sanoubari, Andrew Lim, Kate Larson, and Edith Law. 2020. Ambiguity-aware AI Assistants for Medical Data Analysis. In CHI \u201920: CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, April 25-30, 2020, Regina Bernhaupt, Florian\u00a0\u2019Floyd\u2019 Mueller, David Verweij, Josh Andres, Joanna McGrenere, Andy Cockburn, Ignacio Avellino, Alix Goguey, Pernille Bj\u00f8n, Shengdong Zhao, Briane\u00a0Paul Samson, and Rafal Kocielnik (Eds.). ACM, Honolulu, HI, USA, 1\u201314. https://doi.org/10.1145/3313831.3376506",
+      "doi": "10.1145/3313831.3376506"
+    },
+    {
+      "text": "Mike Schaekermann, Carrie\u00a0J. Cai, Abigail\u00a0E. Huang, and Rory Sayres. 2020. Expert Discussions Improve Comprehension of Difficult Cases in Medical Image Assessment. In CHI \u201920: CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, April 25-30, 2020, Regina Bernhaupt, Florian\u00a0\u2019Floyd\u2019 Mueller, David Verweij, Josh Andres, Joanna McGrenere, Andy Cockburn, Ignacio Avellino, Alix Goguey, Pernille Bj\u00f8n, Shengdong Zhao, Briane\u00a0Paul Samson, and Rafal Kocielnik (Eds.). ACM, Honolulu, HI, USA, 1\u201313. https://doi.org/10.1145/3313831.3376290",
+      "doi": "10.1145/3313831.3376290"
+    },
+    {
+      "text": "Matthias Scheutz. 2013. Computational Mechanisms for Mental Models in Human-Robot Interaction. In Virtual Augmented and Mixed Reality. Designing and Developing Augmented and Virtual Environments - 5th International Conference, VAMR 2013, Held as Part of HCI International 2013, Las Vegas, NV, USA, July 21-26, 2013, Proceedings, Part I(Lecture Notes in Computer Science, Vol.\u00a08021), Randall Shumaker (Ed.). Springer, Las Vegas, NV, USA, 304\u2013312. https://doi.org/10.1007/978-3-642-39405-8_34",
+      "doi": ""
+    },
+    {
+      "text": "Francesco Secci and Andrea Ceccarelli. 2020. On failures of RGB cameras and their effects in autonomous driving applications. In 31st IEEE International Symposium on Software Reliability Engineering, ISSRE 2020, Coimbra, Portugal, October 12-15, 2020, Marco Vieira, Henrique Madeira, Nuno Antunes, and Zheng Zheng (Eds.). IEEE, Coimbra, Portugal, 13\u201324. https://doi.org/10.1109/ISSRE5003.2020.00011",
+      "doi": ""
+    },
+    {
+      "text": "Peter Selinger. 2003. Potrace\u2013Transforming bitmaps into vector graphics. [EB/OL]. http://potrace.sourceforge.net/##license Accessed July 22, 2021.",
+      "doi": ""
+    },
+    {
+      "text": "Donghee Shin. 2021. The effects of explainability and causability on perception, trust, and acceptance: Implications for explainable AI. International Journal of Human-Computer Studies 146 (2021), 102551.",
+      "doi": ""
+    },
+    {
+      "text": "Ben Shneiderman. 2022. Human-Centered AI: Ensuring Human Control While Increasing Automation. In Proceedings of the 5th Workshop on Human Factors in Hypertext (Barcelona, Spain) (HUMAN \u201922). Association for Computing Machinery, New York, NY, USA, Article 1, 2\u00a0pages. https://doi.org/10.1145/3538882.3542790",
+      "doi": "10.1145/3538882.3542790"
+    },
+    {
+      "text": "Karen Simonyan and Andrew Zisserman. 2015. Very Deep Convolutional Networks for Large-Scale Image Recognition. In 3rd International Conference on Learning Representations, ICLR 2015, San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings, Yoshua Bengio and Yann LeCun (Eds.). OpenReview.net, San Diego, CA, USA, 14. http://arxiv.org/abs/1409.1556",
+      "doi": ""
+    },
+    {
+      "text": "Kimberly\u00a0A Smith-Jentsch, John\u00a0E Mathieu, and Kurt Kraiger. 2005. Investigating linear and interactive effects of shared mental models on safety and efficiency in a field setting.Journal of applied psychology 90, 3 (2005), 523.",
+      "doi": ""
+    },
+    {
+      "text": "Kihyuk Sohn, Chun-Liang Li, Jinsung Yoon, Minho Jin, and Tomas Pfister. 2021. Learning and Evaluating Representations for Deep One-Class Classification. In 9th International Conference on Learning Representations, ICLR 2021, Virtual Event, Austria, May 3-7, 2021. OpenReview.net, Virtual, 32. https://openreview.net/forum?id=HCSgyPUfeDj",
+      "doi": ""
+    },
+    {
+      "text": "Jean\u00a0Y Song, Raymond Fok, Juho Kim, and Walter\u00a0S Lasecki. 2019. FourEyes: Leveraging Tool Diversity as a Means to Improve Aggregate Accuracy in Crowdsourcing. ACM Transactions on Interactive Intelligent Systems (TiiS) 10, 1(2019), 1\u201330.",
+      "doi": ""
+    },
+    {
+      "text": "Jean\u00a0Y. Song, Stephan\u00a0J. Lemmer, Michael\u00a0Xieyang Liu, Shiyan Yan, Juho Kim, Jason\u00a0J. Corso, and Walter\u00a0S. Lasecki. 2019. Popup: reconstructing 3D video using particle filtering to aggregate crowd responses. In Proceedings of the 24th International Conference on Intelligent User Interfaces, IUI 2019, Marina del Ray, CA, USA, March 17-20, 2019, Wai-Tat Fu, Shimei Pan, Oliver Brdiczka, Polo Chau, and Gaelle Calvary (Eds.). ACM, Marina del Ray, CA, USA, 558\u2013569. https://doi.org/10.1145/3301275.3302305",
+      "doi": "10.1145/3301275.3302305"
+    },
+    {
+      "text": "Rooji Sugathan, Shaji Khan, Dinesh Mirchandani, and Ashok Subramanian. 2020. System Usage: A Shared Mental Model Perspective. Ph.\u00a0D. Dissertation. University of Missouri - Saint Louis. Advisor(s) Vicki, Sauter,. AAI27960557.",
+      "doi": "10.5555/AAI27960557"
+    },
+    {
+      "text": "Piet Van\u00a0den Bossche, Wim Gijselaers, Mien Segers, Geert Woltjer, and Paul Kirschner. 2011. Team learning: building shared mental models. Instructional Science 39, 3 (2011), 283\u2013301.",
+      "doi": ""
+    },
+    {
+      "text": "Jeroen Van\u00a0der Laak, Geert Litjens, and Francesco Ciompi. 2021. Deep learning in histopathology: the path to the clinic. Nature medicine 27, 5 (2021), 775\u2013784.",
+      "doi": ""
+    },
+    {
+      "text": "Lev Velykoivanenko, Kavous\u00a0Salehzadeh Niksirat, No\u00e9 Zufferey, Mathias Humbert, K\u00e9vin Huguenin, and Mauro Cherubini. 2021. Are Those Steps Worth Your Privacy? Fitness-Tracker Users\u2019 Perceptions of Privacy and Utility. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 5, 4 (2021), 1\u201341.",
+      "doi": "10.1145/3494960"
+    },
+    {
+      "text": "Zijie\u00a0J Wang, Robert Turko, Omar Shaikh, Haekyu Park, Nilaksh Das, Fred Hohman, Minsuk Kahng, and Duen Horng\u00a0Polo Chau. 2020. CNN explainer: Learning convolutional neural networks with interactive visualization. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 1396\u20131406.",
+      "doi": ""
+    },
+    {
+      "text": "Bryan Wilder, Eric Horvitz, and Ece Kamar. 2020. Learning to Complement Humans. In Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence, IJCAI-20, Christian Bessiere (Ed.). International Joint Conferences on Artificial Intelligence Organization, Virtual, 1526\u20131533. https://doi.org/10.24963/ijcai.2020/212 Main track.",
+      "doi": ""
+    },
+    {
+      "text": "Ming Yin, Jennifer\u00a0Wortman Vaughan, and Hanna\u00a0M. Wallach. 2019. Understanding the Effect of Accuracy on Trust in Machine Learning Models. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, CHI 2019, Glasgow, Scotland, UK, May 04-09, 2019, Stephen\u00a0A. Brewster, Geraldine Fitzpatrick, Anna\u00a0L. Cox, and Vassilis Kostakos (Eds.). ACM, Glasgow, Scotland, UK, 279. https://doi.org/10.1145/3290605.3300509",
+      "doi": "10.1145/3290605.3300509"
+    },
+    {
+      "text": "Luyao Yuan, Xiaofeng Gao, Zilong Zheng, Mark Edmonds, Ying\u00a0Nian Wu, Federico Rossano, Hongjing Lu, Yixin Zhu, and Song-Chun Zhu. 2022. In situ bidirectional human-robot value alignment. Science robotics 7, 68 (2022), eabm4183.",
+      "doi": ""
+    },
+    {
+      "text": "Nor\u2019ain\u00a0Mohd Yusoff and Siti\u00a0Salwah Salim. 2020. Shared Mental Model Processing in Visualization Technologies: A Review of Fundamental Concepts and a Guide to Future Research in Human-Computer Interaction. In Engineering Psychology and Cognitive Ergonomics. Mental Workload, Human Physiology, and Human Energy - 17th International Conference, EPCE 2020, Held as Part of the 22nd HCI International Conference, HCII 2020, Copenhagen, Denmark, July 19-24, 2020, Proceedings, Part I(Lecture Notes in Computer Science, Vol.\u00a012186), Don Harris and Wen-Chin Li (Eds.). Springer, Copenhagen, Denmark, 238\u2013256. https://doi.org/10.1007/978-3-030-49044-7_20",
+      "doi": "10.1007/978-3-030-49044-7_20"
+    },
+    {
+      "text": "Matthew\u00a0D. Zeiler and Rob Fergus. 2014. Visualizing and Understanding Convolutional Networks. In Computer Vision - ECCV 2014 - 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part I(Lecture Notes in Computer Science, Vol.\u00a08689), David\u00a0J. Fleet, Tom\u00e1s Pajdla, Bernt Schiele, and Tinne Tuytelaars (Eds.). Springer, Zurich, Switzerland, 818\u2013833. https://doi.org/10.1007/978-3-319-10590-1_53",
+      "doi": ""
+    },
+    {
+      "text": "Rui Zhang, Nathan\u00a0J McNeese, Guo Freeman, and Geoff Musick. 2021. \" An Ideal Human\" Expectations of AI Teammates in Human-AI Teaming. Proceedings of the ACM on Human-Computer Interaction 4, CSCW3(2021), 1\u201325.",
+      "doi": ""
+    }
+  ]
+}

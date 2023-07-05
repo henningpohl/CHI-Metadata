@@ -1,0 +1,464 @@
+{
+  "doi": "10.1145/3544548.3581088",
+  "title": "Quantified Canine: Inferring Dog Personality From Wearables",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-19",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Being able to assess dog personality can be used to, for example, match shelter dogs with future owners, and personalize dog activities. Such an assessment typically relies on experts or psychological scales administered to dog owners, both of which are costly. To tackle that challenge, we built a device called \u201cPatchkeeper\u201d that can be strapped on the pet\u2019s chest and measures activity through an accelerometer and a gyroscope. In an in-the-wild deployment involving 12 healthy dogs, we collected 1300 hours of sensor activity data and dog personality test results from two validated questionnaires. By matching these two datasets, we trained ten machine learning classifiers that predicted dog personality from activity data, achieving AUCs in [0.63-0.90], suggesting the value of tracking psychological signals of pets using wearable technologies.",
+  "authors": [
+    {
+      "name": "Lakmal Meegahapola",
+      "institution": "Idiap Research Institute, Switzerland and EPFL, Switzerland",
+      "img": "/do/10.1145/contrib-99659267667/rel-imgonly/82294984_10221576726876076_265544513513062400_o.jpg",
+      "acmid": "99659267667",
+      "orcid": "0000-0002-5275-6585"
+    },
+    {
+      "name": "Marios Constantinides",
+      "institution": "Nokia Bell Labs, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660641847",
+      "orcid": "0000-0003-1454-0641"
+    },
+    {
+      "name": "Zoran Radivojevic",
+      "institution": "Nokia Bell Labs, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659477404",
+      "orcid": "0000-0002-2323-274X"
+    },
+    {
+      "name": "Hongwei Li",
+      "institution": "Nokia Bell Labs, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659661793",
+      "orcid": "0000-0002-0749-001X"
+    },
+    {
+      "name": "Daniele Quercia",
+      "institution": "Nokia Bell Labs, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100232264",
+      "orcid": "0000-0001-9461-5804"
+    },
+    {
+      "name": "Michael S Eggleston",
+      "institution": "Nokia Bell Labs, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659662518",
+      "orcid": "0000-0002-2255-4966"
+    }
+  ],
+  "references": [
+    {
+      "text": "Herve Abdi and Lynne\u00a0J Williams. 2010. Principal component analysis. Wiley interdisciplinary reviews: computational statistics 2, 4(2010), 433\u2013459. https://doi.org/10.1002/wics.101",
+      "doi": "10.1002/wics.101"
+    },
+    {
+      "text": "Michelson\u00a0Found Animals. 2019. How to Select a Shelter Pet: Choose Personality Over Breed. Retrieved November 2022 from https://www.foundanimals.org/select-shelter-pet-choose-personality-breed/",
+      "doi": ""
+    },
+    {
+      "text": "Mar\u00edlia Barandas, Duarte Folgado, Let\u00edcia Fernandes, Sara Santos, Mariana Abreu, Patr\u00edcia Bota, Hui Liu, Tanja Schultz, and Hugo Gamboa. 2020. TSFEL: Time Series Feature Extraction Library. SoftwareX 11(2020), 100456. https://doi.org/10.1016/j.softx.2020.100456",
+      "doi": ""
+    },
+    {
+      "text": "R Beaudet, A Chalifoux, and A Dallaire. 1994. Predictive value of activity level and behavioral evaluation on future dominance in puppies. Applied Animal Behaviour Science 40, 3-4 (1994), 273\u2013284.",
+      "doi": ""
+    },
+    {
+      "text": "R\u00f3bert B\u00f3dizs, Anna Kis, M\u00e1rta G\u00e1csi, and J\u00f3zsef Top\u00e1l. 2020. Sleep in the dog: comparative, behavioral and translational relevance. Current Opinion in Behavioral Sciences 33 (2020), 25\u201333.",
+      "doi": ""
+    },
+    {
+      "text": "CAROLINE BRACKIN. 2022. Do Dogs Need to Socialize With Other Dogs? (Why Socialization Is Key). Retrieved August 19, 2022 from https://pethelpful.com/dogs/Why-Socializing-With-Other-Dogs-Is-More-Important-Than-You-Think",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0P Bradley. 1997. The use of the area under the ROC curve in the evaluation of machine learning algorithms. Pattern recognition 30, 7 (1997), 1145\u20131159. https://doi.org/10.1016/S0031-3203(96)00142-2",
+      "doi": "10.1016/S0031-3203%2896%2900142-2"
+    },
+    {
+      "text": "Yolonda\u00a0F Bradshaw. 2021. The Impact of Breed Identification, Potential Adopter Perceptions and Demographics, and Dog Behavior on Shelter Dog Adoptability. Ph.D. Dissertation. The Ohio State University.",
+      "doi": ""
+    },
+    {
+      "text": "Rita Brugarolas, Tahmid Latif, James Dieffenderfer, Katherine Walker, Sherrie Yuschak, Barbara\u00a0L Sherman, David\u00a0L Roberts, and Alper Bozkurt. 2015. Wearable heart rate sensor systems for wireless canine health monitoring. IEEE Sensors Journal 16, 10 (2015), 3454\u20133464.",
+      "doi": ""
+    },
+    {
+      "text": "burgesspetcare. 2021. Tailor your training to your dog\u2019s personality. Retrieved August 19, 2022 from https://www.burgesspetcare.com/blog/dogs/tailor-your-training-to-your-dogs-personality/",
+      "doi": ""
+    },
+    {
+      "text": "Ceara Byrne, Jay Zuerndorfer, Larry Freil, Xiaochuang Han, Andrew Sirolly, Scott Cilliland, Thad Starner, and Melody Jackson. 2018. Predicting the Suitability of Service Animals Using Instrumented Dog Toys. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 1, 4, Article 127 (jan 2018), 20\u00a0pages. https://doi.org/10.1145/3161184",
+      "doi": "10.1145/3161184"
+    },
+    {
+      "text": "Lydia\u00a0Ottenheimer Carrier, Amanda Cyr, Rita\u00a0E Anderson, and Carolyn\u00a0J Walsh. 2013. Exploring the dog park: Relationships between social behaviours, personality and cortisol in companion dogs. Applied Animal Behaviour Science 146, 1-4 (2013), 96\u2013106.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0D. Chambers, Nathanael\u00a0C. Yoder, Aletha\u00a0B. Carson, Christian Junge, David\u00a0E. Allen, Laura\u00a0M. Prescott, Sophie Bradley, Garrett Wymore, Kevin Lloyd, and Scott Lyle. 2021. Deep Learning Classification of Canine Behavior Using a Single Collar-Mounted Accelerometer: Real-World Validation. Animals 11, 6 (2021). https://doi.org/10.3390/ani11061549",
+      "doi": ""
+    },
+    {
+      "text": "Nadine Chersini, Nathan\u00a0J Hall, and Clive\u00a0DL Wynne. 2018. Dog pups\u2019 attractiveness to humans peaks at weaning age. Anthrozo\u00f6s 31, 3 (2018), 309\u2013318.",
+      "doi": ""
+    },
+    {
+      "text": "Fran\u00e7ois Chollet 2015. keras.",
+      "doi": ""
+    },
+    {
+      "text": "Marios Constantinides, Jonas Busk, Aleksandar Matic, Maria Faurholt-Jepsen, Lars\u00a0Vedel Kessing, and Jakob\u00a0E Bardram. 2018. Personalized versus generic mood prediction models in bipolar disorder. In Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers. 1700\u20131707. https://doi.org/10.1145/3267305.3267536",
+      "doi": "10.1145/3267305.3267536"
+    },
+    {
+      "text": "Sara Corsetti, Luisa Pimpolari, and Eugenia Natoli. 2021. How Different Personalities Affect the Reaction to Adoption of Dogs Adopted from a Shelter. Animals 11, 6 (2021), 1816. https://doi.org/10.3390/ani11061816",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0T Costa\u00a0Jr and Robert\u00a0R McCrae. 1992. Four ways five factors are basic. Personality and individual differences 13, 6 (1992), 653\u2013665. https://doi.org/10.1016/0191-8869(92)90236-I",
+      "doi": ""
+    },
+    {
+      "text": "Yasin Cotur, Selin Olenik, Tarek Asfour, Michael Bruyns-Haylett, Michael Kasimatis, Ugur Tanriverdi, Laura Gonzalez-Macia, Hong\u00a0Seok Lee, Andrei\u00a0S Kozlov, and Firat G\u00fcder. 2022. Bioinspired Stretchable Transducer for Wearable Continuous Monitoring of Respiratory Patterns in Humans and Animals. Advanced Materials (2022), 2203310. https://doi.org/10.1002/adma.202203310 arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/adma.202203310",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth Cox, Clara Mancini, and Luisa Ruge. 2020. Understanding Dogs\u2019 Engagement with Interactive Games: Interaction Style, Behaviour and Personality. In Proceedings of the Seventh International Conference on Animal-Computer Interaction. 1\u201312. https://doi.org/10.1145/3446002.3446122",
+      "doi": "10.1145/3446002.3446122"
+    },
+    {
+      "text": "Adele Cutler, David Cutler, and John Stevens. 2011. Random Forests. Vol.\u00a045. 157\u2013176. https://doi.org/10.1007/978-1-4419-9326-7_5",
+      "doi": ""
+    },
+    {
+      "text": "Aiden Doherty, Dan Jackson, Nils Hammerla, Thomas Pl\u00f6tz, Patrick Olivier, Malcolm\u00a0H Granat, Tom White, Vincent\u00a0T Van\u00a0Hees, Michael\u00a0I Trenell, Christoper\u00a0G Owen, 2017. Large scale population assessment of physical activity using wrist worn accelerometers: the UK biobank study. PloS one 12, 2 (2017), e0169649. https://doi.org/10.1371/journal.pone.0169649",
+      "doi": ""
+    },
+    {
+      "text": "Aiden Doherty, Karl Smith-Byrne, Teresa Ferreira, Michael\u00a0V Holmes, Chris Holmes, Sara\u00a0L Pulit, and Cecilia\u00a0M Lindgren. 2018. GWAS identifies 14 loci for device-measured physical activity and sleep duration. Nature communications 9, 1 (2018), 1\u20138. https://doi.org/10.1038/s41467-018-07743-4",
+      "doi": ""
+    },
+    {
+      "text": "Amy Ellard-Gray, Nicole\u00a0K Jeffrey, Melisa Choubak, and Sara\u00a0E Crann. 2015. Finding the hidden participant: Solutions for recruiting hidden, hard-to-reach, and vulnerable populations. International Journal of Qualitative Methods 14, 5 (2015), 1609406915621420. https://doi.org/10.1177/1609406915621420 arXiv:https://doi.org/10.1177/1609406915621420",
+      "doi": ""
+    },
+    {
+      "text": "Aiden\u00a0Doherty et al.2023. Biobank Accelerometer Analysis. Retrieved January 31, 2023 from https://biobankaccanalysis.readthedocs.io/",
+      "doi": ""
+    },
+    {
+      "text": "Marc Foster, Rita Brugarolas, Katherine Walker, Sean Mealin, Zach Cleghern, Sherrie Yuschak, Julia\u00a0Condit Clark, Darcy Adin, Jane Russenberger, Margaret Gruen, 2020. Preliminary evaluation of a wearable sensor system for heart rate assessment in guide dog puppies. IEEE Sensors Journal 20, 16 (2020), 9449\u20139459.",
+      "doi": ""
+    },
+    {
+      "text": "Animal\u00a0Farm Foundation. 2020. Does breed really matter when choosing a pet dog?Retrieved November 2022 from https://www.animalfarmfoundation.org/dont-make-this-mistake-when-adopting-a-dog/",
+      "doi": ""
+    },
+    {
+      "text": "Marieke\u00a0Cassia Gartner. 2015. Pet personality: A review. Personality and Individual Differences 75 (2015), 102\u2013113. https://doi.org/10.1016/j.paid.2014.10.042",
+      "doi": ""
+    },
+    {
+      "text": "H\u00a0Hill Goldsmith, Arnold\u00a0H Buss, Robert Plomin, Mary\u00a0Klevjord Rothbart, Alexander Thomas, Stella Chess, Robert\u00a0A Hinde, and Robert\u00a0B McCall. 1987. Roundtable: What is temperament? Four approaches. Child development (1987), 505\u2013529.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel\u00a0D Gosling. 2001. From mice to men: what can we learn about personality from animal research?Psychological bulletin 127, 1 (2001), 45.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel\u00a0D Gosling. 2008. Personality in non-human animals. Social and Personality Psychology Compass 2, 2 (2008), 985\u20131001. https://doi.org/10.1111/j.1751-9004.2008.00087.x arXiv:https://compass.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1751-9004.2008.00087.x",
+      "doi": ""
+    },
+    {
+      "text": "Samuel\u00a0D Gosling, Virginia\u00a0SY Kwan, and Oliver\u00a0P John. 2003. A dog\u2019s got personality: a cross-species comparative approach to personality judgments in dogs and humans.Journal of personality and social psychology 85, 6(2003), 1161.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel\u00a0D Gosling, Peter\u00a0J Rentfrow, and William\u00a0B Swann\u00a0Jr. 2003. A very brief measure of the Big-Five personality domains. Journal of Research in personality 37, 6 (2003), 504\u2013528. https://doi.org/10.1016/S0092-6566(03)00046-1",
+      "doi": ""
+    },
+    {
+      "text": "Greenland Sander, Senn Stephen J., Rothman Kenneth J., Carlin John B., Poole Charles, Goodman Steven N., and Altman Douglas G.2016. Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations. European Journal of Epidemiology 31, 4 (2016), 337\u2013350. https://doi.org/10.1007/s10654-016-0149-3",
+      "doi": ""
+    },
+    {
+      "text": "Joel Griffies, Jason Zutty, Marcel Sarzen, and Stuart Soorholtz. 2018. Wearable sensor shown to specifically quantify pruritic behaviors in dogs. BMC Veterinary Research 14 (04 2018), 124. https://doi.org/10.1186/s12917-018-1428-x",
+      "doi": ""
+    },
+    {
+      "text": "Julie Hecht and Alexandra Horowitz. 2015. Seeing dogs: Human preferences for dog physical attributes. Anthrozo\u00f6s 28, 1 (2015), 153\u2013163.",
+      "doi": ""
+    },
+    {
+      "text": "Ilyena Hirskyj-Douglas and Andr\u00e9s Lucero. 2019. On the Internet, Nobody Knows You\u2019re a Dog... Unless You\u2019re Another Dog. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312. https://doi.org/10.1145/3290605.3300347",
+      "doi": "10.1145/3290605.3300347"
+    },
+    {
+      "text": "Ilyena Hirskyj-Douglas, Roosa Piitulainen, Andr\u00e9s Lucero, 2021. Forming the Dog Internet: Prototyping a Dog-to-Human Video Call Device.Proc. ACM Hum. Comput. Interact. 5, ISS (2021), 1\u201320. https://doi.org/10.1145/3488539",
+      "doi": "10.1145/3488539"
+    },
+    {
+      "text": "Amanda H\u00f6glin, Enya Van\u00a0Poucke, Rebecca Katajamaa, Per Jensen, Elvar Theodorsson, and Lina\u00a0SV Roth. 2021. Long-term stress in dogs is related to the human\u2013dog relationship and personality traits. Scientific Reports 11, 1 (2021), 1\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Yuying Hsu and James\u00a0A Serpell. 2003. Development and validation of a questionnaire for measuring behavior and temperament traits in pet dogs. Journal of the American Veterinary Medical Association 223, 9(2003), 1293\u20131300. https://doi.org/10.2460/javma.2003.223.1293",
+      "doi": ""
+    },
+    {
+      "text": "Ali Hussain, Sikandar Ali, Hee-Cheol Kim, 2022. Activity Detection for the Wellbeing of Dogs Using Wearable Sensors Based on Deep Learning. IEEE Access 10(2022), 53153\u201353163.",
+      "doi": ""
+    },
+    {
+      "text": "Sara Isgate and Justin\u00a0J Couchman. 2018. What makes a dog adoptable? An eye-tracking Investigation. Journal of applied animal welfare science 21, 1 (2018), 69\u201381.",
+      "doi": ""
+    },
+    {
+      "text": "Oliver\u00a0P John. 1990. The\" Big Five\" factor taxonomy: Dimensions of personality in the natural language and in questionnaires. Handbook of personality: Theory and research (1990).",
+      "doi": ""
+    },
+    {
+      "text": "Oliver\u00a0P John and Samuel\u00a0D Gosling. 2000. Personality traits. (2000).",
+      "doi": ""
+    },
+    {
+      "text": "Amanda\u00a0Claire Jones. 2008. Development and* validation of a Dog Personality Questionnaire. The University of Texas at Austin.",
+      "doi": ""
+    },
+    {
+      "text": "Amanda\u00a0C Jones and Samuel\u00a0D Gosling. 2005. Temperament and personality in dogs (Canis familiaris): A review and evaluation of past research. Applied Animal Behaviour Science 95, 1-2 (2005), 1\u201353. https://doi.org/10.1016/j.applanim.2005.04.008",
+      "doi": ""
+    },
+    {
+      "text": "Sarah Jones, Seana Dowling-Guyer, Gary\u00a0J Patronek, Amy\u00a0R Marder, Sheila Segurson\u00a0D\u2019Arpino, and Emily McCobb. 2014. Use of accelerometers to measure stress levels in shelter dogs. Journal of Applied Animal Welfare Science 17, 1 (2014), 18\u201328.",
+      "doi": ""
+    },
+    {
+      "text": "Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, and Tie-Yan Liu. 2017. Lightgbm: A highly efficient gradient boosting decision tree. Advances in neural information processing systems 30 (2017). https://doi.org/10.5555/3294996.3295074",
+      "doi": "10.5555/3294996.3295074"
+    },
+    {
+      "text": "Mohammed Khwaja, Sumer\u00a0S Vaid, Sara Zannone, Gabriella\u00a0M Harari, A\u00a0Aldo Faisal, and Aleksandar Matic. 2019. Modeling personality vs. modeling personalidad: In-the-wild mobile data analysis in five countries suggests cultural impact on personality models. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 3 (2019), 1\u201324. https://doi.org/10.1145/3351246",
+      "doi": "10.1145/3351246"
+    },
+    {
+      "text": "Hae-Young Kim. 2015. Statistical notes for clinical researchers: effect size. Restorative dentistry & endodontics 40, 4 (2015), 328\u2013331. https://doi.org/10.5395/rde.2015.40.4.328",
+      "doi": ""
+    },
+    {
+      "text": "Tae Kim. 2015. T test as a parametric statistic. Korean Journal of Anesthesiology 68 (11 2015), 540. https://doi.org/10.4097/kjae.2015.68.6.540",
+      "doi": ""
+    },
+    {
+      "text": "Jo Knowsley. 2021. Meet the dog charity that matches up pooches to new owners by personality. Retrieved August 19, 2022 from https://metro.co.uk/2021/06/15/meet-the-dog-charity-that-matches-up-pets-to-new-owners-by-personality-14768607/",
+      "doi": ""
+    },
+    {
+      "text": "Enik\u0151 Kubinyi, Borb\u00e1la Turcs\u00e1n, and \u00c1d\u00e1m Mikl\u00f3si. 2009. Dog and owner demographic characteristics and dog personality trait associations. Behavioural processes 81, 3 (2009), 392\u2013401. https://doi.org/10.1016/j.beproc.2009.04.004",
+      "doi": ""
+    },
+    {
+      "text": "Cassim Ladha, Nils Hammerla, Emma Hughes, Patrick Olivier, and Thomas Ploetz. 2013. Dog\u2019s Life: Wearable Activity Recognition for Dogs. In Proceedings of the 2013 ACM International Joint Conference on Pervasive and Ubiquitous Computing (Zurich, Switzerland) (UbiComp \u201913). Association for Computing Machinery, New York, NY, USA, 415\u2013418. https://doi.org/10.1145/2493432.2493519",
+      "doi": "10.1145/2493432.2493519"
+    },
+    {
+      "text": "Daniel Lakens. 2013. Calculating and reporting effect sizes to facilitate cumulative science: a practical primer for t-tests and ANOVAs. Frontiers in Psychology 4 (2013). https://doi.org/10.3389/fpsyg.2013.00863",
+      "doi": ""
+    },
+    {
+      "text": "Fiona Lamb, Allison Andrukonis, and Alexandra Protopopova. 2021. The role of artificial photo backgrounds of shelter dogs on pet profile clicking and the perception of sociability. PloS one 16, 12 (2021), e0255551.",
+      "doi": ""
+    },
+    {
+      "text": "Jacqueline Ley, Pauleen Bennett, and Grahame Coleman. 2008. Personality dimensions that emerge in companion canines. Applied Animal Behaviour Science 110, 3-4 (2008), 305\u2013317. https://doi.org/10.1016/j.applanim.2007.04.016",
+      "doi": ""
+    },
+    {
+      "text": "Jacqui\u00a0M Ley, Pauleen\u00a0C Bennett, and Grahame\u00a0J Coleman. 2009. A refinement and validation of the Monash Canine Personality Questionnaire (MCPQ). Applied Animal Behaviour Science 116, 2-4 (2009), 220\u2013227. https://doi.org/10.1016/j.applanim.2008.09.009",
+      "doi": ""
+    },
+    {
+      "text": "Sarah\u00a0E. Lofgren, Pamela Wiener, Sarah\u00a0C. Blott, Enrique Sanchez-Molano, John\u00a0A. Woolliams, Dylan\u00a0N. Clements, and Marie\u00a0J. Haskell. 2014. Management and personality in Labrador Retriever dogs. Applied Animal Behaviour Science 156 (2014), 44\u201353. https://doi.org/10.1016/j.applanim.2014.04.006",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0R McCrae, Paul\u00a0T Costa\u00a0Jr, Fritz Ostendorf, Alois Angleitner, Martina H\u0159eb\u00ed\u010dkov\u00e1, Maria\u00a0D Avia, Jes\u00fas Sanz, Maria\u00a0L Sanchez-Bernardos, M\u00a0Ersin Kusdil, Ruth Woodfield, 2000. Nature over nurture: temperament, personality, and life span development.Journal of personality and social psychology 78, 1(2000), 173.",
+      "doi": ""
+    },
+    {
+      "text": "Lakmal Meegahapola, Wageesha Bangamuarachchi, Anju Chamantha, Salvador Ruiz-Correa, Indika Perera, and Daniel Gatica-Perez. 2022. Sensing Eating Events in Context: A Smartphone-Only Approach. IEEE Access 10, ARTICLE (2022). https://doi.org/10.1109/ACCESS.2022.3179702",
+      "doi": ""
+    },
+    {
+      "text": "Lakmal Meegahapola, William Droz, Peter Kun, Amalia de G\u00f6tzen, Chaitanya Nutakki, Shyam Diwakar, Salvador\u00a0Ruiz Correa, Donglei Song, Hao Xu, Miriam Bidoglia, George Gaskell, Altangerel Chagnaa, Amarsanaa Ganbold, Tsolmon Zundui, Carlo Caprini, Daniele Miorandi, Alethia Hume, Jose\u00a0Luis Zarza, Luca Cernuzzi, Ivano Bison, Marcelo\u00a0Rodas Britez, Matteo Busso, Ronald Chenu-Abente, Can G\u00fcnel, Fausto Giunchiglia, Laura Schelenz, and Daniel Gatica-Perez. 2023. Generalization and Personalization of Mobile Sensing-Based Mood Inference Models: An Analysis of College Students in Eight Countries. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 6, 4, Article 176 (jan 2023), 32\u00a0pages. https://doi.org/10.1145/3569483",
+      "doi": "10.1145/3569483"
+    },
+    {
+      "text": "Lakmal Meegahapola and Daniel Gatica-Perez. 2021. Smartphone Sensing for the Well-Being of Young Adults: A Review. IEEE Access 9(2021), 3374\u20133399. https://doi.org/10.1109/ACCESS.2020.3045935",
+      "doi": ""
+    },
+    {
+      "text": "Lakmal Meegahapola, Salvador Ruiz-Correa, Viridiana del\u00a0Carmen Robledo-Valero, Emilio\u00a0Ernesto Hernandez-Huerfano, Leonardo Alvarez-Rivera, Ronald Chenu-Abente, and Daniel Gatica-Perez. 2021. One More Bite? Inferring Food Consumption Level of College Students Using Smartphone Sensing and Self-Reports. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 5, 1, Article 26 (mar 2021), 28\u00a0pages. https://doi.org/10.1145/3448120",
+      "doi": "10.1145/3448120"
+    },
+    {
+      "text": "Erika Mirk\u00f3, Enik\u0151 Kubinyi, M\u00e1rta G\u00e1csi, and \u00c1d\u00e1m Mikl\u00f3si. 2012. Preliminary analysis of an adjective-based dog personality questionnaire developed to measure some aspects of personality in the domestic dog (Canis familiaris). Applied Animal Behaviour Science 138, 1-2 (2012), 88\u201398. https://doi.org/10.1016/j.applanim.2012.02.016",
+      "doi": ""
+    },
+    {
+      "text": "R Morrison, V Penpraze, A Beber, JJ Reilly, and PS Yam. 2013. Associations between obesity and physical activity in dogs: a preliminary investigation. Journal of Small Animal Practice 54, 11 (2013), 570\u2013574.",
+      "doi": ""
+    },
+    {
+      "text": "Subigya Nepal, Shayan Mirjafari, Gonzalo\u00a0J Martinez, Pino Audia, Aaron Striegel, and Andrew\u00a0T Campbell. 2020. Detecting job promotion in information workers using mobile sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 3 (2020), 1\u201328. https://doi.org/10.1145/3414118",
+      "doi": "10.1145/3414118"
+    },
+    {
+      "text": "William\u00a0S Noble. 2006. What is a support vector machine?Nature biotechnology 24, 12 (2006), 1565\u20131567. https://doi.org/10.1038/nbt1206-1565",
+      "doi": ""
+    },
+    {
+      "text": "Mikio Obuchi, Jeremy\u00a0F Huckins, Weichen Wang, Alex daSilva, Courtney Rogers, Eilis Murphy, Elin Hedlund, Paul Holtzheimer, Shayan Mirjafari, and Andrew Campbell. 2020. Predicting brain functional connectivity using mobile sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 1 (2020), 1\u201322. https://doi.org/10.1145/3381001",
+      "doi": "10.1145/3381001"
+    },
+    {
+      "text": "Heidi\u00a0K Ortmeyer, Lynda Robey, and Tara McDonald. 2018. Combining actigraph link and PetPace collar data to measure activity, proximity, and physiological responses in freely moving dogs in a natural environment. Animals 8, 12 (2018), 230.",
+      "doi": ""
+    },
+    {
+      "text": "Fabian Pedregosa, Ga\u00ebl Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron Weiss, Vincent Dubourg, 2011. Scikit-Learn: Machine learning in Python. the Journal of machine Learning research 12 (2011), 2825\u20132830. http://arxiv.org/abs/1201.0490",
+      "doi": ""
+    },
+    {
+      "text": "Kathelijne Peremans, Kurt Audenaert, Frank Coopman, Peter Blanckaert, Filip Jacobs, Andreas Otte, Francis Verschooten, Henri van Bree, Kees van Heeringen, John Mertens, 2003. Estimates of regional cerebral blood flow and 5-HT2A receptor density in impulsive, aggressive dogs with 99mTc-ECD and 123I-5-I-R91150. European journal of nuclear medicine and molecular imaging 30, 11(2003), 1538\u20131546.",
+      "doi": ""
+    },
+    {
+      "text": "Lawrence\u00a0A Pervin and Oliver\u00a0P. John. 1997. Personality: Theory and research, 7th ed.John Wiley & Sons.",
+      "doi": ""
+    },
+    {
+      "text": "Julie\u00a0A Posluns, Rita\u00a0E Anderson, and Carolyn\u00a0J Walsh. 2017. Comparing two canine personality assessments: Convergence of the MCPQ-R and DPQ and consensus between dog owners and dog walkers. Applied Animal Behaviour Science 188 (2017), 68\u201376. https://doi.org/10.1016/j.applanim.2016.12.013",
+      "doi": ""
+    },
+    {
+      "text": "Diana\u00a0J Rayment, Bert De\u00a0Groef, Richard\u00a0A Peters, and Linda\u00a0C Marston. 2015. Applied personality assessment in domestic dogs: Limitations and caveats. Applied Animal Behaviour Science 163 (2015), 1\u201318.",
+      "doi": ""
+    },
+    {
+      "text": "Marnie Rice and Grant Harris. 2005. Comparing effect sizes in follow-up studies: ROC Area, Cohen\u2019s d. Law and human behavior 29 (11 2005), 615\u201320. https://doi.org/10.1007/s10979-005-6832-7",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0N Rowan. 1992. Shelters and pet overpopulation: A statistical black hole., 140\u2013143\u00a0pages. https://doi.org/10.2752/089279392787011430",
+      "doi": ""
+    },
+    {
+      "text": "Humphrey.\u00a0Elliott S.1934. \u201cMental tests\u201d for shepherd dogs: An attempted classification and evaluation of the various traits that go to make up \u201ctemperament\u201d in the german shepherd dog. Journal of Heredity 25, 4 (1934), 129\u2013136. https://doi.org/10.1093/oxfordjournals.jhered.a103899 arXiv:https://academic.oup.com/jhered/article-pdf/25/4/129/2591195/25-4-129.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Milla Salonen, Salla Mikkola, Emma Hakanen, Sini Sulkama, Jenni Puurunen, and Hannes Lohi. 2021. Reliability and Validity of a Dog Personality and Unwanted Behavior Survey. Animals 11, 5 (2021). https://doi.org/10.3390/ani11051234",
+      "doi": ""
+    },
+    {
+      "text": "Luke\u00a0A Schneider, Paul\u00a0H Delfabbro, and Nicholas\u00a0R Burns. 2013. Temperament and lateralization in the domestic dog (Canis familiaris). Journal of Veterinary Behavior 8, 3 (2013), 124\u2013134. https://doi.org/10.1016/j.jveb.2012.06.004",
+      "doi": ""
+    },
+    {
+      "text": "Ivana\u00a0Gabriela Schork, Isabele\u00a0Aparecida Manzo, Marcos Roberto\u00a0Beiral De\u00a0Oliveira, Fernanda\u00a0Vieira da Costa, Robert\u00a0John Young, and Cristiano\u00a0Schetini de Azevedo. 2022. The cyclic interaction between daytime behavior and the sleep behavior of laboratory dogs. Scientific reports 12, 1 (2022), 1\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "shibashake. 2017. Do Dogs Need Other Dogs?Retrieved August 19, 2022 from https://shibashake.com/dog/do-dogs-need-other-dogs/#:\u00a0:text=Dogs%20do%20not%20need%20to,companion%2C%20so%20much%20the%20better.",
+      "doi": ""
+    },
+    {
+      "text": "Christopher Sibona and Steven Walczak. 2012. Purposive sampling on Twitter: A case study. In 2012 45th Hawaii international conference on system sciences. IEEE, 3510\u20133519. https://doi.org/10.1109/HICSS.2012.493",
+      "doi": "10.1109/HICSS.2012.493"
+    },
+    {
+      "text": "David\u00a0L Sinn, Samuel\u00a0D Gosling, and Stewart Hilliard. 2010. Personality and performance in military working dogs: Reliability and predictive validity of behavioral tests. Applied Animal Behaviour Science 127, 1-2 (2010), 51\u201365. https://doi.org/10.1016/j.applanim.2010.08.007",
+      "doi": ""
+    },
+    {
+      "text": "NH\u00a0Humane Society. 2022. Canine Personalities. Retrieved August 19, 2022 from https://nhhumane.org/adopt/meet-your-match/dogs",
+      "doi": ""
+    },
+    {
+      "text": "Kenth Svartberg. 2006. Breed-typical behaviour in dogs\u2014historical remnants or recent constructs?Applied Animal Behaviour Science 96, 3-4 (2006), 293\u2013313. https://doi.org/10.1016/j.applanim.2005.06.014",
+      "doi": ""
+    },
+    {
+      "text": "Sirin Theerawatanasirikul, Gunnaporn Suriyaphol, Roongroje Thanawongnuwech, and Achariya Sailasuta. 2012. Histologic morphology and involucrin, filaggrin, and keratin expression in normal canine skin from dogs of different breeds and coat types. Journal of Veterinary Science 13, 2 (2012), 163\u2013170.",
+      "doi": ""
+    },
+    {
+      "text": "Judit Vas, J\u00f3zsef Top\u00e1l, Eva P\u00e9ch, and Ad\u00e1m Mikl\u00f3si. 2007. Measuring attention deficit and activity in dogs: a new application and validation of a human ADHD questionnaire. Applied Animal Behaviour Science 103, 1-2 (2007), 105\u2013117.",
+      "doi": ""
+    },
+    {
+      "text": "Alessandro Vinciarelli and Gelareh Mohammadi. 2014. A survey of personality computing. IEEE Transactions on Affective Computing 5, 3 (2014), 273\u2013291. https://doi.org/10.1109/TAFFC.2014.2330816",
+      "doi": ""
+    },
+    {
+      "text": "Rosemary Walmsley, Shing Chan, Karl Smith-Byrne, Rema Ramakrishnan, Mark Woodward, Kazem Rahimi, Terence Dwyer, Derrick Bennett, and Aiden Doherty. 2021. Reallocation of time between device-measured movement behaviours and risk of incident cardiovascular disease. British journal of sports medicine(2021). https://doi.org/10.1136/bjsports-2021-104050",
+      "doi": ""
+    },
+    {
+      "text": "Rosemary Walmsley, Shing Chan, Karl Smith-Byrne, Rema Ramakrishnan, Mark Woodward, Kazem Rahimi, Terence Dwyer, Derrick Bennett, and Aiden Doherty. 2022. Reallocation of time between device-measured movement behaviours and risk of incident cardiovascular disease. British journal of sports medicine 56, 18 (2022), 1008\u20131017.",
+      "doi": ""
+    },
+    {
+      "text": "Michele Wan, Krisztina Hejjas, Zsolt Ronai, Zsuzsanna Elek, Maria Sasvari-Szekely, Frances\u00a0A Champagne, \u00c1d\u00e1m Mikl\u00f3si, and Enik\u0151 Kubinyi. 2013. DRD 4 and TH gene polymorphisms are associated with activity, impulsivity and inattention in Siberian Husky dogs. Animal genetics 44, 6 (2013), 717\u2013727.",
+      "doi": ""
+    },
+    {
+      "text": "Rui Wang, Weichen Wang, Min\u00a0SH Aung, Dror Ben-Zeev, Rachel Brian, Andrew\u00a0T Campbell, Tanzeem Choudhury, Marta Hauser, John Kane, Emily\u00a0A Scherer, 2017. Predicting symptom trajectories of schizophrenia using mobile sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 3 (2017), 1\u201324. https://doi.org/10.1145/3130976",
+      "doi": "10.1145/3130976"
+    },
+    {
+      "text": "Rui Wang, Weichen Wang, Mikio Obuchi, Emily Scherer, Rachel Brian, Dror Ben-Zeev, Tanzeem Choudhury, John Kane, Martar Hauser, Megan Walsh, 2020. On predicting relapse in schizophrenia using mobile sensing in a randomized control trial. In 2020 IEEE International Conference on Pervasive Computing and Communications (PerCom). IEEE, 1\u20138. https://doi.org/10.1109/PerCom45495.2020.9127365",
+      "doi": ""
+    },
+    {
+      "text": "Weichen Wang, Subigya Nepal, Jeremy\u00a0F Huckins, Lessley Hernandez, Vlado Vojdanovski, Dante Mack, Jane Plomp, Arvind Pillai, Mikio Obuchi, Alex daSilva, 2022. First-Gen Lens: Assessing Mental Health of First-Generation Students across Their First Year at College Using Mobile Sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 6, 2 (2022), 1\u201332. https://doi.org/10.1145/3543194",
+      "doi": "10.1145/3555144"
+    },
+    {
+      "text": "Geoffrey\u00a0I Webb, Eamonn Keogh, and Risto Miikkulainen. 2010. Na\u00efve Bayes.Encyclopedia of machine learning 15 (2010), 713\u2013714. https://doi.org/10.1007/978-1-4899-7502-7_581-1",
+      "doi": ""
+    },
+    {
+      "text": "Emily Weiss. 2002. Selecting shelter dogs for service dog training. Journal of Applied Animal Welfare Science 5, 1 (2002), 43\u201362.",
+      "doi": ""
+    },
+    {
+      "text": "Gary\u00a0M. Weiss, Ashwin Nathan, J.B. Kropp, and Jeffrey\u00a0W. Lockhart. 2013. WagTag: A Dog Collar Accessory for Monitoring Canine Activity Levels. In Proceedings of the 2013 ACM Conference on Pervasive and Ubiquitous Computing Adjunct Publication(Zurich, Switzerland) (UbiComp \u201913 Adjunct). Association for Computing Machinery, New York, NY, USA, 405\u2013414. https://doi.org/10.1145/2494091.2495972",
+      "doi": "10.1145/2494091.2495972"
+    },
+    {
+      "text": "Eric\u00a0W Weisstein. 2004. Bonferroni correction. https://mathworld. wolfram. com/(2004).",
+      "doi": ""
+    },
+    {
+      "text": "Christopher Whitaker, Sharon Stevelink, Nicola Fear, 2017. The use of Facebook in recruiting participants for health research purposes: a systematic review. Journal of medical Internet research 19, 8 (2017), e7071. https://doi.org/10.2196/jmir.7071",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Willetts, Sven Hollowell, Louis Aslett, Chris Holmes, and Aiden Doherty. 2018. Statistical machine learning of sleep and physical activity phenotypes from sensor data in 96,220 UK Biobank participants. Scientific reports 8, 1 (2018), 1\u201310. https://doi.org/10.1038/s41598-018-26174-1",
+      "doi": ""
+    },
+    {
+      "text": "Anna Zamansky, Dirk Van Der\u00a0Linden, Irit Hadar, and Stephane Bleuer-Elsner. 2019. Log my dog: perceived impact of dog activity tracking. Computer 52, 9 (2019), 35\u201343. https://doi.org/10.1109/MC.2018.2889637",
+      "doi": ""
+    }
+  ]
+}

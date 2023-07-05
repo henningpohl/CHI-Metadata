@@ -1,0 +1,559 @@
+{
+  "doi": "10.1145/3544548.3581178",
+  "title": "A Usability Evaluation of AFL and libFuzzer with CS Students",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2023,
+  "badges": [],
+  "abstract": "In top-tier companies and academia, fuzzing has established itself as a valuable tool for finding bugs. It is a tool created by experts for experts, and a lot of research is being invested into improving the power of fuzzing. However, the usability of fuzzing has not received much attention yet. To alleviate this, we evaluated the usability of two popular fuzzers: AFL and libFuzzer. In our fuzzing study, 47 computer science students each worked up to 20 hours in total. We found significant usability challenges for both fuzzers leading to only 17 participants who were able to finish all tasks. Even the successful participants struggled with some of the necessary steps and found them complex and confusing. While on the whole, AFL fared better than libFuzzer, both fuzzers have strengths and weaknesses and can be improved based on our results.",
+  "authors": [
+    {
+      "name": "Stephan Pl\u00f6ger",
+      "institution": "Fraunhofer FKIE, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660737024",
+      "orcid": "0000-0002-0361-4345"
+    },
+    {
+      "name": "Mischa Meier",
+      "institution": "University of Bonn, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660738017",
+      "orcid": "0000-0002-6292-5290"
+    },
+    {
+      "name": "Matthew Smith",
+      "institution": "University of Bonn, Germany and Fraunhofer FKIE, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81485645929",
+      "orcid": "0000-0002-2724-1379"
+    }
+  ],
+  "references": [
+    {
+      "text": "Yasemin Acar, Michael Backes, Sascha Fahl, Doowon Kim, Michelle\u00a0L. Mazurek, and Christian Stransky. 2016. You Get Where You\u2019re Looking for: The Impact of Information Sources on Code Security. In 2016 IEEE Symposium on Security and Privacy (SP). IEEE Computer Society, Los Alamitos, CA, USA, 289\u2013305. https://doi.org/10.1109/SP.2016.25",
+      "doi": ""
+    },
+    {
+      "text": "Y. Acar, S. Fahl, and M.\u00a0L. Mazurek. 2016. You are Not Your Developer, Either: A Research Agenda for Usable Security and Privacy Research Beyond End Users. In 2016 IEEE Cybersecurity Development (SecDev). IEEE Computer Society, Los Alamitos, CA, USA, 3\u20138. https://doi.org/10.1109/SecDev.2016.013",
+      "doi": ""
+    },
+    {
+      "text": "Yasemin Acar, Christian Stransky, Dominik Wermke, Michelle\u00a0L. Mazurek, and Sascha Fahl. 2017. Security Developer Studies with GitHub Users: Exploring a Convenience Sample. In Thirteenth Symposium on Usable Privacy and Security (SOUPS 2017). USENIX Association, Santa Clara, CA, 81\u201395. https://www.usenix.org/conference/soups2017/technical-sessions/presentation/acar",
+      "doi": ""
+    },
+    {
+      "text": "AFL. 2021. american fuzzy lop. https://github.com/google/AFL. Accessed: 05-06-22.",
+      "doi": ""
+    },
+    {
+      "text": "AFL++. 2022. American Fuzzy Lop plus plus (AFL++). https://github.com/AFLplusplus/AFLplusplus. Accessed: 05-06-22.",
+      "doi": ""
+    },
+    {
+      "text": "Clang\u00a0Static Analyzer. 2020. Clang Static Analyzer. https://clang-analyzer.llvm.org/. Accessed: 05-06-22.",
+      "doi": ""
+    },
+    {
+      "text": "Cornelius Aschermann, Sergej Schumilo, Ali Abbasi, and Thorsten Holz. 2020. Ijon: Exploring Deep State Spaces via Fuzzing. In 2020 IEEE Symposium on Security and Privacy, SP 2020, San Francisco, CA, USA, May 18-21, 2020. IEEE Computer Society, Los Alamitos, CA, USA, 1597\u20131612. https://doi.org/10.1109/SP40000.2020.00117",
+      "doi": ""
+    },
+    {
+      "text": "Nathaniel Ayewah and William Pugh. 2008. A Report on a Survey and Study of Static Analysis Users. In Proceedings of the 2008 Workshop on Defects in Large Software Systems (Seattle, Washington) (DEFECTS \u201908). Association for Computing Machinery, New York, NY, USA, 1\u20135. https://doi.org/10.1145/1390817.1390819",
+      "doi": "10.1145/1390817.1390819"
+    },
+    {
+      "text": "Titus Barik, Yoonki Song, Brittany Johnson, and Emerson Murphy-Hill. 2016. From Quick Fixes to Slow Fixes: Reimagining Static Analysis Resolutions to Enable Design Space Exploration. In 2016 IEEE International Conference on Software Maintenance and Evolution (ICSME). 211\u2013221. https://doi.org/10.1109/ICSME.2016.63",
+      "doi": ""
+    },
+    {
+      "text": "Al Bessey, Ken Block, Ben Chelf, Andy Chou, Bryan Fulton, Seth Hallem, Charles Henri-Gros, Asya Kamsky, Scott McPeak, and Dawson Engler. 2010. A Few Billion Lines of Code Later: Using Static Analysis to Find Bugs in the Real World. Commun. ACM 53, 2 (feb 2010), 66\u201375. https://doi.org/10.1145/1646353.1646374",
+      "doi": "10.1145/1646353.1646374"
+    },
+    {
+      "text": "William Blair, Andrea Mambretti, Sajjad Arshad, Michael Weissbacher, William Robertson, Engin Kirda, and Manuel Egele. 2020. HotFuzz: Discovering Algorithmic Denial-of-Service Vulnerabilities Through Guided Micro-Fuzzing. In 27th Annual Network and Distributed System Security Symposium, NDSS 2020, San Diego, California, USA, February 23-26, 2020. The Internet Society. https://www.ndss-symposium.org/ndss-paper/hotfuzz-discovering-algorithmic-denial-of-service-vulnerabilities-through-guided-micro-fuzzing/",
+      "doi": ""
+    },
+    {
+      "text": "Marcel B\u00f6hme, Laszlo Szekeres, and Jonathan Metzman. 2022. On the Reliability of Coverage-Based Fuzzer Benchmarking. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510230"
+    },
+    {
+      "text": "Hongxu Chen, Shengjian Guo, Yinxing Xue, Yulei Sui, Cen Zhang, Yuekang Li, Haijun Wang, and Yang Liu. 2020. MUZZ: Thread-aware Grey-box Fuzzing for Effective Bug Hunting in Multithreaded Programs. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkun and Franziska Roesner (Eds.). USENIX Association, 2325\u20132342. https://www.usenix.org/conference/usenixsecurity20/presentation/chen-hongxu",
+      "doi": ""
+    },
+    {
+      "text": "Yaohui Chen, Peng Li, Jun Xu, Shengjian Guo, Rundong Zhou, Yulong Zhang, Tao Wei, and Long Lu. 2020. SAVIOR: Towards Bug-Driven Hybrid Testing. In 2020 IEEE Symposium on Security and Privacy, SP 2020, San Francisco, CA, USA, May 18-21, 2020. IEEE Computer Society, Los Alamitos, CA, USA, 1580\u20131596. https://doi.org/10.1109/SP40000.2020.00002",
+      "doi": ""
+    },
+    {
+      "text": "Jaeseung Choi, Kangsu Kim, Daejin Lee, and Sang\u00a0Kil Cha. 2021. NtFuzz: Enabling Type-Aware Kernel Fuzzing on Windows with Static Binary Analysis. In 42nd IEEE Symposium on Security and Privacy, SP 2021, San Francisco, CA, USA, 24-27 May 2021. IEEE Computer Society, Los Alamitos, CA, USA, 677\u2013693. https://doi.org/10.1109/SP40001.2021.00114",
+      "doi": ""
+    },
+    {
+      "text": "Maria Christakis and Christian Bird. 2016. What developers want and need from program analysis: an empirical study. In Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering, ASE 2016, Singapore, September 3-7, 2016, David Lo, Sven Apel, and Sarfraz Khurshid (Eds.). ACM, 332\u2013343. https://doi.org/10.1145/2970276.2970347",
+      "doi": "10.1145/2970276.2970347"
+    },
+    {
+      "text": "A. Danilova, S. Horstmann, M. Smith, and A. Naiakshina. 2022. Testing Time Limits in Screener Questions for Online Surveys with Programmers. In 2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE). IEEE Computer Society, Los Alamitos, CA, USA, 2080\u20132090. https://doi.org/10.1145/3510003.3510223",
+      "doi": "10.1145/3510003.3510223"
+    },
+    {
+      "text": "Anastasia Danilova, Alena Naiakshina, Johanna Deuter, and Matthew Smith. 2020. Replication: On the Ecological Validity of Online Security Developer Studies: Exploring Deception in a Password-Storage Study with Freelancers. In Sixteenth Symposium on Usable Privacy and Security, SOUPS 2020, August 7-11, 2020, Heather\u00a0Richter Lipford and Sonia Chiasson (Eds.). USENIX Association, 165\u2013183. https://www.usenix.org/conference/soups2020/presentation/danilova",
+      "doi": ""
+    },
+    {
+      "text": "Anastasia Danilova, Alena Naiakshina, Stefan Horstmann, and Matthew Smith. 2021. Do You Really Code? Designing and Evaluating Screening Questions for Online Surveys with Programmers. In Proceedings of the 43rd International Conference on Software Engineering (Madrid, Spain) (ICSE \u201921). IEEE Press, 537\u2013548. https://doi.org/10.1109/ICSE43902.2021.00057",
+      "doi": "10.1109/ICSE43902.2021.00057"
+    },
+    {
+      "text": "Anastasia Danilova, Alena Naiakshina, Anna Rasgauski, and Matthew Smith. 2021. Code Reviewing as Methodology for Online Security Studies with Developers - A Case Study with Freelancers on Password Storage. In Seventeenth Symposium on Usable Privacy and Security, SOUPS 2021, August 8-10, 2021, Sonia Chiasson (Ed.). USENIX Association, 397\u2013416. https://www.usenix.org/conference/soups2021/presentation/danilova",
+      "doi": ""
+    },
+    {
+      "text": "A.\u00a0C. Davison and D.\u00a0V. Hinkley. 1997. Bootstrap Methods and their Application. Cambridge University Press. https://doi.org/10.1017/CBO9780511802843",
+      "doi": ""
+    },
+    {
+      "text": "Sushant Dinesh, Nathan Burow, Dongyan Xu, and Mathias Payer. 2020. RetroWrite: Statically Instrumenting COTS Binaries for Fuzzing and Sanitization. In 2020 IEEE Symposium on Security and Privacy, SP 2020, San Francisco, CA, USA, May 18-21, 2020. IEEE Computer Society, Los Alamitos, CA, USA, 1497\u20131511. https://doi.org/10.1109/SP40000.2020.00009",
+      "doi": ""
+    },
+    {
+      "text": "Ren Ding, Yonghae Kim, Fan Sang, Wen Xu, Gururaj Saileshwar, and Taesoo Kim. 2021. Hardware Support to Improve Fuzzing Performance and Precision. In CCS \u201921: 2021 ACM SIGSAC Conference on Computer and Communications Security, Virtual Event, Republic of Korea, November 15 - 19, 2021, Yongdae Kim, Jong Kim, Giovanni Vigna, and Elaine Shi (Eds.). Association for Computing Machinery, New York, NY, USA, 2214\u20132228. https://doi.org/10.1145/3460120.3484573",
+      "doi": "10.1145/3460120.3484573"
+    },
+    {
+      "text": "Sung\u00a0Ta Dinh, Haehyun Cho, Kyle Martin, Adam Oest, Kyle Zeng, Alexandros Kapravelos, Gail-Joon Ahn, Tiffany Bao, Ruoyu Wang, Adam Doup\u00e9, and Yan Shoshitaishvili. 2021. Favocado: Fuzzing the Binding Code of JavaScript Engines Using Semantically Correct Test Cases. In 28th Annual Network and Distributed System Security Symposium, NDSS 2021, virtually, February 21-25, 2021. The Internet Society. https://www.ndss-symposium.org/ndss-paper/favocado-fuzzing-the-binding-code-of-javascript-engines-using-semantically-correct-test-cases/",
+      "doi": ""
+    },
+    {
+      "text": "Lisa Nguyen\u00a0Quang Do, James\u00a0R. Wright, and Karim Ali. 2022. Why Do Software Developers Use Static Analysis Tools? A User-Centered Study of Developer Needs and Motivations. IEEE Transactions on Software Engineering 48, 3 (2022), 835\u2013847. https://doi.org/10.1109/TSE.2020.3004525",
+      "doi": ""
+    },
+    {
+      "text": "Zhengjie Du, Yuekang Li, Yang Liu, and Bing Mao. 2022. WindRanger: A Directed Greybox Fuzzer driven by DeviationBasic Blocks. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510197"
+    },
+    {
+      "text": "Xiaotao Feng, Ruoxi Sun, Xiaogang Zhu, Minhui Xue, Sheng Wen, Dongxi Liu, Surya Nepal, and Yang Xiang. 2021. Snipuzz: Black-box Fuzzing of IoT Firmware via Message Snippet Inference. In CCS \u201921: 2021 ACM SIGSAC Conference on Computer and Communications Security, Virtual Event, Republic of Korea, November 15 - 19, 2021, Yongdae Kim, Jong Kim, Giovanni Vigna, and Elaine Shi (Eds.). Association for Computing Machinery, New York, NY, USA, 337\u2013350. https://doi.org/10.1145/3460120.3484543",
+      "doi": "10.1145/3460120.3484543"
+    },
+    {
+      "text": "Andrea Fioraldi, Daniele\u00a0Cono D\u2019Elia, and Davide Balzarotti. 2021. The Use of Likely Invariants as Feedback for Fuzzers. In 30th USENIX Security Symposium, USENIX Security 2021, August 11-13, 2021, Michael Bailey and Rachel Greenstadt (Eds.). USENIX Association, 2829\u20132846. https://www.usenix.org/conference/usenixsecurity21/presentation/fioraldi",
+      "doi": ""
+    },
+    {
+      "text": "Paul Fiterau-Brostean, Bengt Jonsson, Robert Merget, Joeri de Ruiter, Konstantinos Sagonas, and Juraj Somorovsky. 2020. Analysis of DTLS Implementations Using Protocol State Fuzzing. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkun and Franziska Roesner (Eds.). USENIX Association, 2523\u20132540. https://www.usenix.org/conference/usenixsecurity20/presentation/fiterau-brostean",
+      "doi": ""
+    },
+    {
+      "text": "Kelsey\u00a0R. Fulton, Anna Chan, Daniel Votipka, Michael Hicks, and Michelle\u00a0L. Mazurek. 2021. Benefits and Drawbacks of Adopting a Secure Programming Language: Rust as a Case Study. In Seventeenth Symposium on Usable Privacy and Security, SOUPS 2021, August 8-10, 2021, Sonia Chiasson (Ed.). USENIX Association, 597\u2013616. https://www.usenix.org/conference/soups2021/presentation/fulton",
+      "doi": ""
+    },
+    {
+      "text": "Shuitao Gan, Chao Zhang, Peng Chen, Bodong Zhao, Xiaojun Qin, Dong Wu, and Zuoning Chen. 2020. GREYONE: Data Flow Sensitive Fuzzing. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkunand Franziska Roesner (Eds.). USENIX Association, 2577\u20132594. https://www.usenix.org/conference/usenixsecurity20/presentation/gan",
+      "doi": ""
+    },
+    {
+      "text": "gartner. 2022. Application Security Testing Reviews and Ratings. https://www.gartner.com/reviews/market/application-security-testing. Accessed: 11-09-22.",
+      "doi": ""
+    },
+    {
+      "text": "GDB. 2022. GDB web page. https://www.sourceware.org/gdb/. Accessed: 05-06-22.",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2022. ClusterFuzz. https://google.github.io/clusterfuzz/. Accessed: 05-06-22.",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2022. Google fuzzing tutorial. https://github.com/google/fuzzing/blob/master/tutorial/libFuzzerTutorial.md. Accessed: 07-12-22.",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0Leo Gorski, Yasemin Acar, Luigi Lo\u00a0Iacono, and Sascha Fahl. 2020. Listen to Developers! A Participatory Design Study on Security Warnings for Cryptographic APIs. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376142",
+      "doi": "10.1145/3313831.3376142"
+    },
+    {
+      "text": "Peter\u00a0Leo Gorski, Luigi\u00a0Lo Iacono, Dominik Wermke, Christian Stransky, Sebastian M\u00f6ller, Yasemin Acar, and Sascha Fahl. 2018. Developers Deserve Security Warnings, Too: On the Effect of Integrated Security Advice on Cryptographic API Misuse. In Fourteenth Symposium on Usable Privacy and Security, SOUPS 2018, Baltimore, MD, USA, August 12-14, 2018, Mary\u00a0Ellen Zurko and Heather\u00a0Richter Lipford (Eds.). USENIX Association, 265\u2013281. https://www.usenix.org/conference/soups2018/presentation/gorski",
+      "doi": ""
+    },
+    {
+      "text": "Harrison Green and Thanassis Avgerinos. 2022. GraphFuzz: Library API Fuzzing with Lifetime-aware Dataflow Graphs. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510228"
+    },
+    {
+      "text": "M. Green and M. Smith. 2016. Developers are Not the Enemy!: The Need for Usable Security APIs. IEEE Security & Privacy 14, 05 (sep 2016), 40\u201346. https://doi.org/10.1109/MSP.2016.111",
+      "doi": "10.1109/MSP.2016.111"
+    },
+    {
+      "text": "Jiazhen Gu, Xuchuan Luo, Yangfan Zhou, and Xin Wang. 2022. Muffin: Testing Deep Learning Libraries via Neural Architecture Fuzzing. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510092"
+    },
+    {
+      "text": "Marco Gutfleisch, Jan\u00a0H. Klemmer, Niklas Busch, Yasemin Acar, M.\u00a0Angela Sasse, and Sascha Fahl. 2022. How Does Usable Security (Not) End Up in Software Products? Results From a Qualitative Interview Study. In 43rd IEEE Symposium on Security and Privacy, SP 2022, San Francisco, CA, USA, May 22-26, 2022. IEEE, 893\u2013910. https://doi.org/10.1109/SP46214.2022.9833756",
+      "doi": ""
+    },
+    {
+      "text": "Yu Hao, Hang Zhang, Guoren Li, Xingyun Du, Zhiyun Qian, and Ardalan Sani. 2022. Demystifying the Dependency Challenge in Kernel Fuzzing. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510126"
+    },
+    {
+      "text": "Xiaoyu He, Xiaofei Xie, Yuekang Li, Jianwen Sun, Feng Li, Wei Zou, Yang Liu, Lei Yu, Jianhua Zhou, Wenchang Shi, and Wei Huo. 2021. SoFi: Reflection-Augmented Fuzzing for JavaScript Engines. In CCS \u201921: 2021 ACM SIGSAC Conference on Computer and Communications Security, Virtual Event, Republic of Korea, November 15 - 19, 2021, Yongdae Kim, Jong Kim, Giovanni Vigna, and Elaine Shi (Eds.). Association for Computing Machinery, New York, NY, USA, 2229\u20132242. https://doi.org/10.1145/3460120.3484823",
+      "doi": "10.1145/3460120.3484823"
+    },
+    {
+      "text": "Nicolas Huaman, Bennet von Skarczinski, Christian Stransky, Dominik Wermke, Yasemin Acar, Arne Drei\u00dfigacker, and Sascha Fahl. 2021. A Large-Scale Interview Study on Information Security in and Attacks against Small and Medium-sized Enterprises. In 30th USENIX Security Symposium, USENIX Security 2021, August 11-13, 2021, Michael Bailey and Rachel Greenstadt (Eds.). USENIX Association, 1235\u20131252. https://www.usenix.org/conference/usenixsecurity21/presentation/huaman",
+      "doi": ""
+    },
+    {
+      "text": "Heqing Huang, Peisen Yao, Rongxin Wu, Qingkai Shi, and Charles Zhang. 2020. Pangolin: Incremental Hybrid Fuzzing with Polyhedral Path Abstraction. In 2020 IEEE Symposium on Security and Privacy, SP 2020, San Francisco, CA, USA, May 18-21, 2020. IEEE Computer Society, Los Alamitos, CA, USA, 1613\u20131627. https://doi.org/10.1109/SP40000.2020.00063",
+      "doi": ""
+    },
+    {
+      "text": "Jaewon Hur, Suhwan Song, Dongup Kwon, Eunjin Baek, Jangwoo Kim, and Byoungyoung Lee. 2021. DifuzzRTL: Differential Fuzz Testing to Find CPU Bugs. In 42nd IEEE Symposium on Security and Privacy, SP 2021, 24-27 May 2021. IEEE Computer Society, virtual, 1286\u20131303. https://doi.org/10.1109/SP40001.2021.00103",
+      "doi": ""
+    },
+    {
+      "text": "Suhwan Songand\u00a0Jaewon Hur, Sunwoo Kim, Philip Rogers, and Byoungyoung Lee. 2022. R2Z2: Detecting Rendering Regressions in Web Browsers through Differential Fuzz Testing. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Nasif Imtiaz, Brendan Murphy, and Laurie Williams. 2019. How Do Developers Act on Static Analysis Alerts? An Empirical Study of Coverity Usage. In 2019 IEEE 30th International Symposium on Software Reliability Engineering (ISSRE). 323\u2013333. https://doi.org/10.1109/ISSRE.2019.00040",
+      "doi": ""
+    },
+    {
+      "text": "Nasif Imtiaz, Akond Rahman, Effat Farhana, and Laurie\u00a0A. Williams. 2019. Challenges with responding to static analysis tool alerts. In Proceedings of the 16th International Conference on Mining Software Repositories, MSR 2019, 26-27 May 2019, Montreal, Canada, Margaret-Anne\u00a0D. Storey, Bram Adams, and Sonia Haiduc (Eds.). IEEE / ACM, 245\u2013249. https://doi.org/10.1109/MSR.2019.00049",
+      "doi": "10.1109/MSR.2019.00049"
+    },
+    {
+      "text": "Kyriakos\u00a0K. Ispoglou, Daniel Austin, Vishwath Mohan, and Mathias Payer. 2020. FuzzGen: Automatic Fuzzer Generation. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkunand Franziska Roesner (Eds.). USENIX Association, 2271\u20132287. https://www.usenix.org/conference/usenixsecurity20/presentation/ispoglou",
+      "doi": ""
+    },
+    {
+      "text": "Bahruz Jabiyev, Steven Sprecher, Kaan Onarlioglu, and Engin Kirda. 2021. T-Reqs: HTTP Request Smuggling with Differential Fuzzing. In CCS \u201921: 2021 ACM SIGSAC Conference on Computer and Communications Security, Virtual Event, Republic of Korea, November 15 - 19, 2021, Yongdae Kim, Jong Kim, Giovanni Vigna, and Elaine Shi (Eds.). Association for Computing Machinery, New York, NY, USA, 1805\u20131820. https://doi.org/10.1145/3460120.3485384",
+      "doi": "10.1145/3460120.3485384"
+    },
+    {
+      "text": "Zu-Ming Jiang, Jia-Ju Bai, Kangjie Lu, and Shi-Min Hu. 2020. Fuzzing Error Handling Code using Context-Sensitive Software Fault Injection. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkun and Franziska Roesner (Eds.). USENIX Association, 2595\u20132612. https://www.usenix.org/conference/usenixsecurity20/presentation/jiang",
+      "doi": ""
+    },
+    {
+      "text": "Brittany Johnson, Yoonki Song, Emerson Murphy-Hill, and Robert Bowdidge. 2013. Why don\u2019t software developers use static analysis tools to find bugs?Proceedings of the 2013 International Conference on Software Engineering (2013), 672\u2013681. https://doi.org/10.1109/ICSE.2013.6606613",
+      "doi": ""
+    },
+    {
+      "text": "Jinho Jung, Stephen Tong, Hong Hu, Jungwon Lim, Yonghwi Jin, and Taesoo Kim. 2021. WINNIE : Fuzzing Windows Applications with Harness Synthesis and Fast Cloning. In 28th Annual Network and Distributed System Security Symposium, NDSS 2021, virtually, February 21-25, 2021. The Internet Society. https://www.ndss-symposium.org/ndss-paper/winnie-fuzzing-windows-applications-with-harness-synthesis-and-fast-cloning/",
+      "doi": ""
+    },
+    {
+      "text": "Harjot Kaur, Sabrina Amft, Daniel Votipka, Yasemin Acar, and Sascha Fahl. 2022. Where to Recruit for Security Development Studies: Comparing Six Software Developer Samples. In 31st USENIX Security Symposium (USENIX Security 22). USENIX Association, Boston, MA, 4041\u20134058. https://www.usenix.org/conference/usenixsecurity22/presentation/kaur",
+      "doi": ""
+    },
+    {
+      "text": "Hyungsub Kim, Muslum\u00a0Ozgur Ozmen, Antonio Bianchi, Z.\u00a0Berkay Celik, and Dongyan Xu. 2021. PGFUZZ: Policy-Guided Fuzzing for Robotic Vehicles. In 28th Annual Network and Distributed System Security Symposium, NDSS 2021, virtually, February 21-25, 2021. The Internet Society. https://www.ndss-symposium.org/ndss-paper/pgfuzz-policy-guided-fuzzing-for-robotic-vehicles/",
+      "doi": ""
+    },
+    {
+      "text": "Kyungtae Kim, Dae\u00a0R. Jeong, Chung\u00a0Hwan Kim, Yeongjin Jang, Insik Shin, and Byoungyoung Lee. 2020. HFL: Hybrid Fuzzing on the Linux Kernel. In 27th Annual Network and Distributed System Security Symposium, NDSS 2020, San Diego, California, USA, February 23-26, 2020. The Internet Society. https://www.ndss-symposium.org/ndss-paper/hfl-hybrid-fuzzing-on-the-linux-kernel/",
+      "doi": ""
+    },
+    {
+      "text": "George Klees, Andrew Ruef, Benji Cooper, Shiyi Wei, and Michael Hicks. 2018. Evaluating Fuzz Testing(CCS \u201918). Association for Computing Machinery, New York, NY, USA, 2123\u20132138. https://doi.org/10.1145/3243734.3243804",
+      "doi": "10.1145/3243734.3243804"
+    },
+    {
+      "text": "Katharina Krombholz, Wilfried Mayer, Martin Schmiedecker, and Edgar Weippl. 2017. \"I Have No Idea What I\u2019m Doing\" - On the Usability of Deploying HTTPS. In 26th USENIX Security Symposium (USENIX Security 17). USENIX Association, Vancouver, BC, 1339\u20131356. https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/krombholz",
+      "doi": ""
+    },
+    {
+      "text": "James Kukucka, Lu\u00eds Pina, Paul Ammann, and Jonathan Bell. 2022. CONFETTI: Amplifying Concolic Guidance for Fuzzers. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510628"
+    },
+    {
+      "text": "Gwangmu Lee, Woochul Shim, and Byoungyoung Lee. 2021. Constraint-guided Directed Greybox Fuzzing. In 30th USENIX Security Symposium, USENIX Security 2021, August 11-13, 2021, Michael Bailey and Rachel Greenstadt (Eds.). USENIX Association, 3559\u20133576. https://www.usenix.org/conference/usenixsecurity21/presentation/lee-gwangmu",
+      "doi": ""
+    },
+    {
+      "text": "Suyoung Lee, HyungSeok Han, Sang\u00a0Kil Cha, and Sooel Son. 2020. Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkun and Franziska Roesner (Eds.). USENIX Association, 2613\u20132630. https://www.usenix.org/conference/usenixsecurity20/presentation/lee-suyoung",
+      "doi": ""
+    },
+    {
+      "text": "Wenqiang Li, Fengjun\u00a0Li Jiameng\u00a0Shi, Jingqiang Lin, Wei Wang, and Le Guan. 2022. muAFL: Non-intrusive Feedback-driven Fuzzing for Microcontroller Firmware. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510208"
+    },
+    {
+      "text": "Yuwei Li, Shouling Ji, Yuan Chen, Sizhuang Liang, Wei-Han Lee, Yueyao Chen, Chenyang Lyu, Chunming Wu, Raheem Beyah, Peng Cheng, Kangjie Lu, and Ting Wang. 2021. UNIFUZZ: A Holistic and Pragmatic Metrics-Driven Platform for Evaluating Fuzzers. In 30th USENIX Security Symposium, USENIX Security 2021, August 11-13, 2021, Michael Bailey and Rachel Greenstadt (Eds.). USENIX Association, 2777\u20132794. https://www.usenix.org/conference/usenixsecurity21/presentation/li-yuwei",
+      "doi": ""
+    },
+    {
+      "text": "Yuwei Li, Shouling Ji, Yuan Chen, Sizhuang Liang, Wei-Han Lee, Yueyao Chen, Chenyang Lyu, Chunming Wu, Raheem Beyah, Peng Cheng, Kangjie Lu, and Ting Wang. 2021. UNIFUZZ: A Holistic and Pragmatic Metrics-Driven Platform for Evaluating Fuzzers. In 30th USENIX Security Symposium (USENIX Security 21). USENIX Association, 2777\u20132794. https://www.usenix.org/conference/usenixsecurity21/presentation/li-yuwei",
+      "doi": ""
+    },
+    {
+      "text": "libFuzzer. 2022. libFuzzer \u2013 a library for coverage-guided fuzz testing.https://llvm.org/docs/LibFuzzer.html. Accessed: 05-06-22.",
+      "doi": ""
+    },
+    {
+      "text": "libroxml Git. 2022. libroxml GitHub. https://github.com/blunderer/libroxml. Accessed: 05-06-22.",
+      "doi": ""
+    },
+    {
+      "text": "libroxml Webpage. 2019. libroxml web page. https://www.libroxml.net/. Accessed: 05-06-22.",
+      "doi": ""
+    },
+    {
+      "text": "linkedIn. 2022. linkedIn. https://www.linkedin.com/. Accessed: 11-22-22.",
+      "doi": ""
+    },
+    {
+      "text": "Baozheng Liu, Chao Zhang, Guang Gong, Yishun Zeng, Haifeng Ruan, and Jianwei Zhuge. 2020. FANS: Fuzzing Android Native System Services via Automated Interface Analysis. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkun and Franziska Roesner (Eds.). USENIX Association, 307\u2013323. https://www.usenix.org/conference/usenixsecurity20/presentation/liu",
+      "doi": ""
+    },
+    {
+      "text": "Ruijie Meng, Zhen Dong, Jialin Li, Ivan Beschastnikh, and Abhik Roychoudhury. 2022. Linear-time Temporal Logic guided Greybox Fuzzing. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510082"
+    },
+    {
+      "text": "Facundo Molina, Marcelo d\u2019Amorim, and Nazareno Aguirre. 2022. Fuzzing Class Specifications. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510120"
+    },
+    {
+      "text": "Marcus Nachtigall, Lisa Nguyen\u00a0Quang Do, and Eric Bodden. 2019. Explaining Static Analysis - A Perspective. In 34th IEEE/ACM International Conference on Automated Software Engineering Workshops, ASE Workshops 2019, San Diego, CA, USA, November 11-15, 2019. IEEE, 29\u201332. https://doi.org/10.1109/ASEW.2019.00023",
+      "doi": ""
+    },
+    {
+      "text": "Marcus Nachtigall, Michael Schlichtig, and Eric Bodden. 2022. A Large-Scale Study of Usability Criteria Addressed by Static Analysis Tools. In Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis(Virtual, South Korea) (ISSTA 2022). Association for Computing Machinery, New York, NY, USA, 532\u2013543. https://doi.org/10.1145/3533767.3534374",
+      "doi": "10.1145/3533767.3534374"
+    },
+    {
+      "text": "Stefan Nagy, Anh Nguyen-Tuong, Jason\u00a0D. Hiser, Jack\u00a0W. Davidson, and Matthew Hicks. 2021. Breaking Through Binaries: Compiler-quality Instrumentation for Better Binary-only Fuzzing. In 30th USENIX Security Symposium, USENIX Security 2021, August 11-13, 2021, Michael Bailey and Rachel Greenstadt (Eds.). USENIX Association, 1683\u20131700. https://www.usenix.org/conference/usenixsecurity21/presentation/nagy",
+      "doi": ""
+    },
+    {
+      "text": "Stefan Nagy, Anh Nguyen-Tuong, Jason\u00a0D. Hiser, Jack\u00a0W. Davidson, and Matthew Hicks. 2021. Same Coverage, Less Bloat: Accelerating Binary-only Fuzzing with Coverage-preserving Coverage-guided Tracing. In CCS \u201921: 2021 ACM SIGSAC Conference on Computer and Communications Security, Virtual Event, Republic of Korea, November 15 - 19, 2021, Yongdae Kim, Jong Kim, Giovanni Vigna, and Elaine Shi (Eds.). Association for Computing Machinery, New York, NY, USA, 351\u2013365. https://doi.org/10.1145/3460120.3484787",
+      "doi": "10.1145/3460120.3484787"
+    },
+    {
+      "text": "Alena Naiakshina, Anastasia Danilova, Eva Gerlitz, and Matthew Smith. 2020. On Conducting Security Developer Studies with CS Students: Examining a Password-Storage Study with CS Students, Freelancers, and Company Developers. In CHI \u201920: CHI Conference on Human Factors in Computing Systems, April 25-30, 2020, Regina Bernhaupt, Florian\u00a0\u2019Floyd\u2019 Mueller, David Verweij, Josh Andres, Joanna McGrenere, Andy Cockburn, Ignacio Avellino, Alix Goguey, Pernille Bj\u00f8n, Shengdong Zhao, Briane\u00a0Paul Samson, and Rafal Kocielnik (Eds.). Association for Computing Machinery, Honolulu, HI, USA, 1\u201313. https://doi.org/10.1145/3313831.3376791",
+      "doi": "10.1145/3313831.3376791"
+    },
+    {
+      "text": "Alena Naiakshina, Anastasia Danilova, Eva Gerlitz, Emanuel von Zezschwitz, and Matthew Smith. 2019. \"If you want, I can store the encrypted password\": A Password-Storage Field Study with Freelance Developers. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, CHI 2019, Glasgow, Scotland, UK, May 04-09, 2019, Stephen\u00a0A. Brewster, Geraldine Fitzpatrick, Anna\u00a0L. Cox, and Vassilis Kostakos (Eds.). Association for Computing Machinery, New York, NY, USA, 140. https://doi.org/10.1145/3290605.3300370",
+      "doi": "10.1145/3290605.3300370"
+    },
+    {
+      "text": "Alena Naiakshina, Anastasia Danilova, Christian Tiefenau, Marco Herzog, Sergej Dechand, and Matthew Smith. 2017. Why Do Developers Get Password Storage Wrong?: A Qualitative Usability Study. In Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security, CCS 2017, Dallas, TX, USA, October 30 - November 03, 2017, Bhavani\u00a0M. Thuraisingham, David Evans, Tal Malkin, and Dongyan Xu (Eds.). Association for Computing Machinery, New York, NY, USA, 311\u2013328. https://doi.org/10.1145/3133956.3134082",
+      "doi": "10.1145/3133956.3134082"
+    },
+    {
+      "text": "Alena Naiakshina, Anastasia Danilova, Christian Tiefenau, and Matthew Smith. 2018. Deception Task Design in Developer Password Studies: Exploring a Student Sample. In Fourteenth Symposium on Usable Privacy and Security, SOUPS 2018, Baltimore, MD, USA, August 12-14, 2018, Mary\u00a0Ellen Zurkoand Heather\u00a0Richter Lipford (Eds.). USENIX Association, Baltimore, MD, USA, 297\u2013313. https://www.usenix.org/conference/soups2018/presentation/naiakshina",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas Nethercote and Julian Seward. 2007. Valgrind: a framework for heavyweight dynamic binary instrumentation. ACM Sigplan notices 42, 6 (2007), 89\u2013100.",
+      "doi": "10.1145/1250734.1250746"
+    },
+    {
+      "text": "Hoang\u00a0Lam Nguyen and Lars Grunske. 2022. BeDivFuzz: Integrating Behavioral Diversity into Generator-based Fuzzing. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510182"
+    },
+    {
+      "text": "Timothy Nosco, Jared Ziegler, Zechariah Clark, Davy Marrero, Todd Finkler, Andrew Barbarello, and W.\u00a0Michael Petullo. 2020. The Industrial Age of Hacking. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkunand Franziska Roesner (Eds.). USENIX Association, 1129\u20131146. https://www.usenix.org/conference/usenixsecurity20/presentation/nosco",
+      "doi": ""
+    },
+    {
+      "text": "Oleksii Oleksenko, Bohdan Trach, Mark Silberstein, and Christof Fetzer. 2020. SpecFuzz: Bringing Spectre-type vulnerabilities to the surface. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkun and Franziska Roesner (Eds.). USENIX Association, 1481\u20131498. https://www.usenix.org/conference/usenixsecurity20/presentation/oleksenko",
+      "doi": ""
+    },
+    {
+      "text": "oss. 2022. OSS-Fuzz. https://github.com/google/oss-fuzz. Accessed: 05-06-22.",
+      "doi": ""
+    },
+    {
+      "text": "oss orig. 2016. OSS-Fuzz. https://opensource.googleblog.com/2016/12/announcing-oss-fuzz-continuous-fuzzing.html. Accessed: 05-06-22.",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian \u00d6sterlund, Kaveh Razavi, Herbert Bos, and Cristiano Giuffrida. 2020. ParmeSan: Sanitizer-guided Greybox Fuzzing. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkunand Franziska Roesner (Eds.). USENIX Association, 2289\u20132306. https://www.usenix.org/conference/usenixsecurity20/presentation/osterlund",
+      "doi": ""
+    },
+    {
+      "text": "OWASP. 2022. Application Security Tools. https://owasp.org/www-community/Free_for_Open_Source_Application_Security_Tools. Accessed: 11-09-22.",
+      "doi": ""
+    },
+    {
+      "text": "Gaoning Pan, Xingwei Lin, Xuhong Zhang, Yongkang Jia, Shouling Ji, Chunming Wu, Xinlei Ying, Jiashui Wang, and Yanjun Wu. 2021. V-Shuttle: Scalable and Semantics-Aware Hypervisor Virtual Device Fuzzing. In CCS \u201921: 2021 ACM SIGSAC Conference on Computer and Communications Security, Virtual Event, Republic of Korea, November 15 - 19, 2021, Yongdae Kim, Jong Kim, Giovanni Vigna, and Elaine Shi (Eds.). Association for Computing Machinery, New York, NY, USA, 2197\u20132213. https://doi.org/10.1145/3460120.3484811",
+      "doi": "10.1145/3460120.3484811"
+    },
+    {
+      "text": "Reza\u00a0M. Parizi, Kai Qian, Hossain Shahriar, Fan Wu, and Lixin Tao. 2018. Benchmark Requirements for Assessing Software Security Vulnerability Testing Tools. In 2018 IEEE 42nd Annual Computer Software and Applications Conference, COMPSAC 2018, Tokyo, Japan, 23-27 July 2018, Volume 1, Sorel Reisman, Sheikh\u00a0Iqbal Ahamed, Claudio Demartini, Thomas\u00a0M. Conte, Ling Liu, William\u00a0R. Claycomb, Motonori Nakamura, Edmundo Tovar, Stelvio Cimato, Chung-Horng Lung, Hiroki Takakura, Ji-Jiang Yang, Toyokazu Akiyama, Zhiyong Zhang, and Kamrul Hasan (Eds.). IEEE Computer Society, 825\u2013826. https://doi.org/10.1109/COMPSAC.2018.00139",
+      "doi": ""
+    },
+    {
+      "text": "Soyeon Park, Wen Xu, Insu Yun, Daehee Jang, and Taesoo Kim. 2020. Fuzzing JavaScript Engines with Aspect-preserving Mutation. In 2020 IEEE Symposium on Security and Privacy, SP 2020, San Francisco, CA, USA, May 18-21, 2020. IEEE Computer Society, Los Alamitos, CA, USA, 1629\u20131642. https://doi.org/10.1109/SP40000.2020.00067",
+      "doi": ""
+    },
+    {
+      "text": "Hui Peng and Mathias Payer. 2020. USBFuzz: A Framework for Fuzzing USB Drivers by Device Emulation. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkun and Franziska Roesner (Eds.). USENIX Association, 2559\u20132575. https://www.usenix.org/conference/usenixsecurity20/presentation/peng",
+      "doi": ""
+    },
+    {
+      "text": "AFL persistent mode. 2021. american fuzzy lop - persistent mode. https://github.com/google/AFL/tree/master/llvm_mode. Accessed: 11-09-22.",
+      "doi": ""
+    },
+    {
+      "text": "Stephan Pl\u00f6ger, Mischa Meier, and Matthew Smith. 2021. A Qualitative Usability Evaluation of the Clang Static Analyzer and libFuzzer with CS Students and CTF Players. In Seventeenth Symposium on Usable Privacy and Security (SOUPS 2021). USENIX Association, 553\u2013572. https://www.usenix.org/conference/soups2021/presentation/ploger",
+      "doi": ""
+    },
+    {
+      "text": "pwndbg. 2022. pwndbg web page. https://github.com/pwndbg/pwndbg. Accessed: 05-06-22.",
+      "doi": ""
+    },
+    {
+      "text": "Thorsten Rangnau, Remco v. Buijtenen, Frank Fransen, and Fatih Turkmen. 2020. Continuous Security Testing: A Case Study on Integrating Dynamic Security Testing Tools in CI/CD Pipelines. In 24th IEEE International Enterprise Distributed Object Computing Conference, EDOC 2020, Eindhoven, The Netherlands, October 5-8, 2020. IEEE, 145\u2013154. https://doi.org/10.1109/EDOC49727.2020.00026",
+      "doi": ""
+    },
+    {
+      "text": "Nilo Redini, Andrea Continella, Dipanjan Das, Giulio\u00a0De Pasquale, Noah Spahn, Aravind Machiry, Antonio Bianchi, Christopher Kruegel, and Giovanni Vigna. 2021. Diane: Identifying Fuzzing Triggers in Apps to Generate Under-constrained Inputs for IoT Devices. In 42nd IEEE Symposium on Security and Privacy, SP 2021, San Francisco, CA, USA, 24-27 May 2021. IEEE Computer Society, Los Alamitos, CA, USA, 484\u2013500. https://doi.org/10.1109/SP40001.2021.00066",
+      "doi": ""
+    },
+    {
+      "text": "Jan Ruge, Jiska Classen, Francesco Gringoli, and Matthias Hollick. 2020. Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkun and Franziska Roesner (Eds.). USENIX Association, 19\u201336. https://www.usenix.org/conference/usenixsecurity20/presentation/ruge",
+      "doi": ""
+    },
+    {
+      "text": "C. Sadowski, J. Van Gogh, C. Jaspan, E. Soderberg, and C. Winter. 2015. Tricorder: Building a Program Analysis Ecosystem. In 2015 IEEE/ACM 37th IEEE International Conference on Software Engineering, Vol.\u00a01. 598\u2013608. https://doi.org/10.1109/ICSE.2015.76",
+      "doi": ""
+    },
+    {
+      "text": "Sergej Schumilo, Cornelius Aschermann, Ali Abbasi, Simon W\u00f6rner, and Thorsten Holz. 2020. HYPER-CUBE: High-Dimensional Hypervisor Fuzzing. In 27th Annual Network and Distributed System Security Symposium, NDSS 2020, San Diego, California, USA, February 23-26, 2020. The Internet Society. https://www.ndss-symposium.org/ndss-paper/hyper-cube-high-dimensional-hypervisor-fuzzing/",
+      "doi": ""
+    },
+    {
+      "text": "Sergej Schumilo, Cornelius Aschermann, Ali Abbasi, Simon W\u00f6rner, and Thorsten Holz. 2021. Nyx: Greybox Hypervisor Fuzzing using Fast Snapshots and Affine Types. In 30th USENIX Security Symposium, USENIX Security 2021, August 11-13, 2021, Michael Bailey and Rachel Greenstadt (Eds.). USENIX Association, 2597\u20132614. https://www.usenix.org/conference/usenixsecurity21/presentation/schumilo",
+      "doi": ""
+    },
+    {
+      "text": "Dag\u00a0IK Sjoberg, Bente Anda, Erik Arisholm, Tore Dyba, Magne Jorgensen, Amela Karahasanovic, Espen\u00a0Frimann Koren, and Marek Vok\u00e1c. 2002. Conducting realistic experiments in software engineering. In Proceedings international symposium on empirical software engineering. IEEE, 17\u201326.",
+      "doi": ""
+    },
+    {
+      "text": "Justin Smith, Lisa Nguyen\u00a0Quang Do, and Emerson Murphy-Hill. 2020. Why Can\u2019t Johnny Fix Vulnerabilities: A Usability Evaluation of Static Analysis Tools for Security. In Sixteenth Symposium on Usable Privacy and Security (SOUPS 2020). USENIX Association, 221\u2013238. https://www.usenix.org/conference/soups2020/presentation/smith",
+      "doi": ""
+    },
+    {
+      "text": "Justin Smith, Brittany Johnson, Emerson Murphy-Hill, Bill Chu, and Heather\u00a0Richter Lipford. 2015. Questions Developers Ask While Diagnosing Potential Security Vulnerabilities with Static Analysis. In Proceedings of the 2015 10th Joint Meeting on Foundations of Software Engineering (Bergamo, Italy) (ESEC/FSE 2015). Association for Computing Machinery, New York, NY, USA, 248\u2013259. https://doi.org/10.1145/2786805.2786812",
+      "doi": "10.1145/2786805.2786812"
+    },
+    {
+      "text": "Justin Smith, Brittany Johnson, Emerson Murphy-Hill, Bei-Tseng Chu, and Heather Richter. 2018. How Developers Diagnose Potential Security Vulnerabilities with a Static Analysis Tool. IEEE Transactions on Software Engineering PP (02 2018), 1\u20131. https://doi.org/10.1109/TSE.2018.2810116",
+      "doi": "10.1109/TSE.2018.2810116"
+    },
+    {
+      "text": "Mohammad Tahaei and Kami Vaniea. 2022. Recruiting Participants With Programming Skills: A Comparison of Four Crowdsourcing Platforms and a CS Student Mailing List. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 590, 15\u00a0pages. https://doi.org/10.1145/3491102.3501957",
+      "doi": "10.1145/3491102.3501957"
+    },
+    {
+      "text": "Mohammad Tahaei, Kami Vaniea, Beznosov Konstantin, and Maria\u00a0K. Wolters. 2021. Security Notifications in Static Analysis Tools: Developers\u2019 Attitudes, Comprehension, and Ability to Act on Them. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems(CHI \u201921). Association for Computing Machinery, New York, NY, USA, 1\u201317. https://doi.org/10.1145/3411764.3445616",
+      "doi": "10.1145/3411764.3445616"
+    },
+    {
+      "text": "David\u00a0R Thomas. 2006. A general inductive approach for analyzing qualitative evaluation data. American journal of evaluation 27, 2 (2006), 237\u2013246.",
+      "doi": ""
+    },
+    {
+      "text": "Tyler Thomas, Heather Lipford, Bill Chu, Justin Smith, and Emerson\u00a0R. Murphy-Hill. 2016. What Questions Remain? An Examination of How Developers Understand an Interactive Static Analysis Tool. In 2nd Workshop on Security Information Workers, WSIW@SOUPS 2016, Denver, CO, USA, June 22, 2016. USENIX Association. https://www.usenix.org/conference/soups2016/workshop-program/wsiw16/presentation/thomas",
+      "doi": ""
+    },
+    {
+      "text": "Christian Tiefenau, Emanuel von Zezschwitz, Maximilian H\u00e4ring, Katharina Krombholz, and Matthew Smith. 2019. A Usability Evaluation of Let\u2019s Encrypt and Certbot: Usable Security Done Right. In Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security. 1971\u20131988.",
+      "doi": "10.1145/3319535.3363220"
+    },
+    {
+      "text": "tomlc99. 2022. tomlc99 GitHub. https://github.com/cktan/tomlc99. Accessed: 05-06-22.",
+      "doi": ""
+    },
+    {
+      "text": "Carmine Vassallo, Sebastiano Panichella, Fabio Palomba, Sebastian Proksch, Andy Zaidman, and Harald\u00a0C. Gall. 2018. Context is king: The developer perspective on the usage of static analysis tools. In 2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER). 38\u201349. https://doi.org/10.1109/SANER.2018.8330195",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Votipka, Desiree Abrokwa, and Michelle\u00a0L. Mazurek. 2020. Building and Validating a Scale for Secure Software Development Self-Efficacy(CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201320. https://doi.org/10.1145/3313831.3376754",
+      "doi": "10.1145/3313831.3376754"
+    },
+    {
+      "text": "Daniel Votipka, Kelsey\u00a0R. Fulton, James Parker, Matthew Hou, Michelle\u00a0L. Mazurek, and Michael Hicks. 2020. Understanding security mistakes developers make: Qualitative analysis from Build It, Break It, Fix It. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkunand Franziska Roesner (Eds.). USENIX Association, 109\u2013126. https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding",
+      "doi": ""
+    },
+    {
+      "text": "Jinghan Wang, Chengyu Song, and Heng Yin. 2021. Reinforcement Learning-based Hierarchical Seed Scheduling for Greybox Fuzzing. In 28th Annual Network and Distributed System Security Symposium, NDSS 2021, virtually, February 21-25, 2021. The Internet Society. https://www.ndss-symposium.org/ndss-paper/reinforcement-learning-based-hierarchical-seed-scheduling-for-greybox-fuzzing/",
+      "doi": ""
+    },
+    {
+      "text": "Yanhao Wang, Xiangkun Jia, Yuwei Liu, Kyle Zeng, Tiffany Bao, Dinghao Wu, and Purui Su. 2020. Not All Coverage Measurements Are Equal: Fuzzing by Coverage Accounting for Input Prioritization. In 27th Annual Network and Distributed System Security Symposium, NDSS 2020, San Diego, California, USA, February 23-26, 2020. The Internet Society. https://www.ndss-symposium.org/ndss-paper/not-all-coverage-measurements-are-equal-fuzzing-by-coverage-accounting-for-input-prioritization/",
+      "doi": ""
+    },
+    {
+      "text": "Anjiang Wei, Yinlin Deng, Chenyuan Yang, and Lingming Zhang. 2022. Free Lunch for Testing: Fuzzing Deep-Learning Libraries from Open Source. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510041"
+    },
+    {
+      "text": "Charles Weir, Ben Hermann, and Sascha Fahl. 2020. From Needs to Actions to Secure Apps? The Effect of Requirements and Developer Practices on App Security. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkunand Franziska Roesner (Eds.). USENIX Association, 289\u2013305. https://www.usenix.org/conference/usenixsecurity20/presentation/weir",
+      "doi": ""
+    },
+    {
+      "text": "Dominik Wermke, Noah W\u00f6hler, Jan\u00a0H. Klemmer, Marcel Fourn\u00e9, Yasemin Acar, and Sascha Fahl. 2022. Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects. In 2022 IEEE Symposium on Security and Privacy (SP). 1880\u20131896. https://doi.org/10.1109/SP46214.2022.9833686",
+      "doi": ""
+    },
+    {
+      "text": "Alan Woodlief, Sebastian Elbaum, and Kevin Sullivan. 2022. Semantic Image Fuzzing of AI Perception Systems. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510212"
+    },
+    {
+      "text": "Mingyuan Wu, Ling Jiang, Jiahong Xiang, Yanwei Huang, Heming Cui, Lingming Zhang, and Yuqun Zhang. 2022. One Fuzzing Strategy to Rule Them All. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510174"
+    },
+    {
+      "text": "Mingyuan Wu, Ling Jiang, Jiahong Xiang, Yuqun Zhang, Guowei Yang, Huixin Ma, Sen Nie, Shi Wu, Heming Cui, and Lingming Zhang. 2022. Evaluating and Improving Neural Program-Smoothing-based Fuzzing. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510089"
+    },
+    {
+      "text": "Meng Xu, Sanidhya Kashyap, Hanqing Zhao, and Taesoo Kim. 2020. Krace: Data Race Fuzzing for Kernel File Systems. In 2020 IEEE Symposium on Security and Privacy, SP 2020, San Francisco, CA, USA, May 18-21, 2020. IEEE Computer Society, Los Alamitos, CA, USA, 1643\u20131660. https://doi.org/10.1109/SP40000.2020.00078",
+      "doi": ""
+    },
+    {
+      "text": "Wen Xu, Soyeon Park, and Taesoo Kim. 2020. FREEDOM: Engineering a State-of-the-Art DOM Fuzzer. In CCS \u201920: 2020 ACM SIGSAC Conference on Computer and Communications Security, Virtual Event, USA, November 9-13, 2020, Jay Ligatti, Xinming Ou, Jonathan Katz, and Giovanni Vigna (Eds.). Association for Computing Machinery, New York, NY, USA, 971\u2013986. https://doi.org/10.1145/3372297.3423340",
+      "doi": "10.1145/3372297.3423340"
+    },
+    {
+      "text": "Tai Yue, Pengfei Wang, Yong Tang, Enze Wang, Bo Yu, Kai Lu, and Xu Zhou. 2020. EcoFuzz: Adaptive Energy-Saving Greybox Fuzzing as a Variant of the Adversarial Multi-Armed Bandit. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkunand Franziska Roesner (Eds.). USENIX Association, 2307\u20132324. https://www.usenix.org/conference/usenixsecurity20/presentation/yue",
+      "doi": ""
+    },
+    {
+      "text": "Kunpeng Zhang, Xi Xiao, Xiaogang Zhu, Ruoxi Sun, Minhui\u00a0(Jason) Xue, and Sheng Wen. 2022. Path Transitions Tell More: Optimizing Fuzzing Schedules via Runtime Program States. In Proceedings of the 44th International Conference on Software Engineering (ICSE \u201922), May 22\u201327, 2022, Pittsburgh, PA, USA. Association for Computing Machinery, New York, NY, USA.",
+      "doi": "10.1145/3510003.3510063"
+    },
+    {
+      "text": "Zhuo Zhang, Wei You, Guanhong Tao, Yousra Aafer, Xuwei Liu, and Xiangyu Zhang. 2021. StochFuzz: Sound and Cost-effective Fuzzing of Stripped Binaries by Incremental and Stochastic Rewriting. In 42nd IEEE Symposium on Security and Privacy, SP 2021, San Francisco, CA, USA, 24-27 May 2021. IEEE Computer Society, Los Alamitos, CA, USA, 659\u2013676. https://doi.org/10.1109/SP40001.2021.00109",
+      "doi": ""
+    },
+    {
+      "text": "Rui Zhong, Yongheng Chen, Hong Hu, Hangfan Zhang, Wenke Lee, and Dinghao Wu. 2020. SQUIRREL: Testing Database Management Systems with Language Validity and Coverage Feedback. In CCS \u201920: 2020 ACM SIGSAC Conference on Computer and Communications Security, Virtual Event, USA, November 9-13, 2020, Jay Ligatti, Xinming Ou, Jonathan Katz, and Giovanni Vigna (Eds.). Association for Computing Machinery, New York, NY, USA, 955\u2013970. https://doi.org/10.1145/3372297.3417260",
+      "doi": "10.1145/3372297.3417260"
+    },
+    {
+      "text": "Xiaogang Zhu and Marcel B\u00f6hme. 2021. Regression Greybox Fuzzing. In CCS \u201921: 2021 ACM SIGSAC Conference on Computer and Communications Security, Virtual Event, Republic of Korea, November 15 - 19, 2021, Yongdae Kim, Jong Kim, Giovanni Vigna, and Elaine Shi (Eds.). Association for Computing Machinery, New York, NY, USA, 2169\u20132182. https://doi.org/10.1145/3460120.3484596",
+      "doi": "10.1145/3460120.3484596"
+    },
+    {
+      "text": "Peiyuan Zong, Tao Lv, Dawei Wang, Zizhuang Deng, Ruigang Liang, and Kai Chen. 2020. FuzzGuard: Filtering out Unreachable Inputs in Directed Grey-box Fuzzing through Deep Learning. In 29th USENIX Security Symposium, USENIX Security 2020, August 12-14, 2020, Srdjan Capkunand Franziska Roesner (Eds.). USENIX Association, 2255\u20132269. https://www.usenix.org/conference/usenixsecurity20/presentation/zong",
+      "doi": ""
+    },
+    {
+      "text": "zzuf. 2022. zzuf. https://github.com/samhocevar/zzuf. Accessed: 11-22-22.",
+      "doi": ""
+    }
+  ]
+}

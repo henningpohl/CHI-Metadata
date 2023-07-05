@@ -1,0 +1,466 @@
+{
+  "doi": "10.1145/3411764.3445616",
+  "title": "Security Notifications in Static Analysis Tools: Developers\u2019 Attitudes, Comprehension, and Ability to Act on Them",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Static analysis tools (SATs) have the potential to assist developers in finding and fixing vulnerabilities in the early stages of software development, requiring them to be able to understand and act on tools\u2019 notifications. To understand how helpful such SAT guidance is to developers, we ran an online experiment (N=132) where participants were shown four vulnerable code samples (SQL injection, hard-coded credentials, encryption, and logging sensitive data) along with SAT guidance, and asked to indicate the appropriate fix. Participants had a positive attitude towards both SAT notifications and particularly liked the example solutions and vulnerable code. Seeing SAT notifications also led to more detailed open-ended answers and slightly improved code correction answers. Still, most SAT (SpotBugs 67%, SonarQube 86%) and Control (96%) participants answered at least one code-correction question incorrectly. Prior software development experience, perceived vulnerability severity, and answer confidence all positively impacted answer accuracy.",
+  "authors": [
+    {
+      "name": "Mohammad Tahaei",
+      "institution": "School of Informatics University of Edinburgh, United Kingdom",
+      "img": "/do/10.1145/contrib-99659444566/rel-imgonly/aa6a4598.jpeg",
+      "acmid": "99659444566",
+      "orcid": "0000-0001-9666-2663"
+    },
+    {
+      "name": "Kami Vaniea",
+      "institution": "School of Informatics University of Edinburgh, United Kingdom",
+      "img": "/do/10.1145/contrib-81335498861/rel-imgonly/81335498861.jpg",
+      "acmid": "81335498861",
+      "orcid": "missing"
+    },
+    {
+      "name": "Konstantin (Kosta) Beznosov",
+      "institution": "Electrical and Computer Engineering Department University of British Columbia, Canada",
+      "img": "/do/10.1145/contrib-81100388506/rel-imgonly/kosta_soups.jpg",
+      "acmid": "81100388506",
+      "orcid": "missing"
+    },
+    {
+      "name": "Maria K Wolters",
+      "institution": "School of Informatics University of Edinburgh, United Kingdom",
+      "img": "/do/10.1145/contrib-81100428841/rel-imgonly/img_3457.jpg",
+      "acmid": "81100428841",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Yasemin Acar, Michael Backes, Sascha Fahl, Simson Garfinkel, Doowon Kim, Michelle\u00a0L Mazurek, and Christian Stransky. 2017. Comparing the Usability of Cryptographic APIs. In 2017 IEEE Symposium on Security and Privacy (SP). IEEE, 154\u2013171. https://doi.org/10.1109/SP.2017.52",
+      "doi": ""
+    },
+    {
+      "text": "Yasemin Acar, Michael Backes, Sascha Fahl, Doowon Kim, Michelle\u00a0L Mazurek, and Christian Stransky. 2016. You Get Where You\u2019re Looking for: The Impact of Information Sources on Code Security. In 2016 IEEE Symposium on Security and Privacy (SP). IEEE, 289\u2013305. https://doi.org/10.1109/SP.2016.25",
+      "doi": ""
+    },
+    {
+      "text": "Yasemin Acar, Christian Stransky, Dominik Wermke, Michelle\u00a0L. Mazurek, and Sascha Fahl. 2017. Security Developer Studies with GitHub Users: Exploring a Convenience Sample. In Thirteenth Symposium on Usable Privacy and Security (SOUPS 2017). USENIX Association, Santa Clara, CA, 81\u201395. https://www.usenix.org/conference/soups2017/technical-sessions/presentation/acar",
+      "doi": ""
+    },
+    {
+      "text": "Sharmin Afrose, Sazzadur Rahaman, and Danfeng Yao. 2019. CryptoAPI-Bench: A Comprehensive Benchmark on Java Cryptographic API Misuses. In 2019 IEEE Cybersecurity Development (SecDev). IEEE, 49\u201361. https://doi.org/10.1109/SecDev.2019.00017",
+      "doi": ""
+    },
+    {
+      "text": "Nathaniel Ayewah, David Hovemeyer, J.\u00a0David Morgenthaler, John Penix, and William Pugh. 2008. Using Static Analysis to Find Bugs. IEEE Software 25, 5 (Sept. 2008), 22\u201329. https://doi.org/10.1109/MS.2008.130",
+      "doi": "10.1109/MS.2008.130"
+    },
+    {
+      "text": "Nathaniel Ayewah and William Pugh. 2008. A Report on a Survey and Study of Static Analysis Users. In Proceedings of the 2008 Workshop on Defects in Large Software Systems (Seattle, Washington) (DEFECTS \u201908). Association for Computing Machinery, New York, NY, USA, 1\u20135. https://doi.org/10.1145/1390817.1390819",
+      "doi": "10.1145/1390817.1390819"
+    },
+    {
+      "text": "Nathaniel Ayewah and William Pugh. 2010. The Google FindBugs Fixit. In Proceedings of the 19th International Symposium on Software Testing and Analysis (Trento, Italy) (ISSTA \u201910). Association for Computing Machinery, New York, NY, USA, 241\u2013252. https://doi.org/10.1145/1831708.1831738",
+      "doi": "10.1145/1831708.1831738"
+    },
+    {
+      "text": "Titus Barik, Denae Ford, Emerson Murphy-Hill, and Chris Parnin. 2018. How Should Compilers Explain Problems to Developers?. In Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (Lake Buena Vista, FL, USA) (ESEC/FSE 2018). Association for Computing Machinery, New York, NY, USA, 633\u2013643. https://doi.org/10.1145/3236024.3236040",
+      "doi": "10.1145/3236024.3236040"
+    },
+    {
+      "text": "Titus Barik, Justin Smith, Kevin Lubick, Elisabeth Holmes, Jing Feng, Emerson Murphy-Hill, and Chris Parnin. 2017. Do Developers Read Compiler Error Messages?. In Proceedings of the 39th International Conference on Software Engineering (Buenos Aires, Argentina) (ICSE \u201917). IEEE Press, 575\u2013585. https://doi.org/10.1109/ICSE.2017.59",
+      "doi": "10.1109/ICSE.2017.59"
+    },
+    {
+      "text": "Douglas Bates, Martin M\u00e4chler, Ben Bolker, and Steve Walker. 2015. Fitting Linear Mixed-Effects Models Using lme4. Journal of Statistical Software, Articles 67, 1 (2015), 1\u201348. https://doi.org/10.18637/jss.v067.i01",
+      "doi": ""
+    },
+    {
+      "text": "Lujo Bauer, Cristian Bravo-Lillo, Lorrie Cranor, and Elli Fragkaki. 2013. Warning Design Guidelines. Technical Report. Carnegie Mellon University. https://www.cylab.cmu.edu/_files/pdfs/tech_reports/CMUCyLab13002.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Brett\u00a0A. Becker. 2016. An Effective Approach to Enhancing Compiler Error Messages. In Proceedings of the 47th ACM Technical Symposium on Computing Science Education (Memphis, Tennessee, USA) (SIGCSE \u201916). Association for Computing Machinery, New York, NY, USA, 126\u2013131. https://doi.org/10.1145/2839509.2844584",
+      "doi": "10.1145/2839509.2844584"
+    },
+    {
+      "text": "Brett\u00a0A. Becker, Paul Denny, Raymond Pettit, Durell Bouchard, Dennis\u00a0J. Bouvier, Brian Harrington, Amir Kamil, Amey Karkare, Chris McDonald, Peter-Michael Osera, and et al.2019. Compiler Error Messages Considered Unhelpful: The Landscape of Text-Based Programming Error Message Research. In Proceedings of the Working Group Reports on Innovation and Technology in Computer Science Education (Aberdeen, Scotland UK) (ITiCSE-WGR \u201919). Association for Computing Machinery, New York, NY, USA, 177\u2013210. https://doi.org/10.1145/3344429.3372508",
+      "doi": ""
+    },
+    {
+      "text": "Moritz Beller, Radjino Bholanath, Shane McIntosh, and Andy Zaidman. 2016. Analyzing the State of Static Analysis: A Large-Scale Evaluation in Open Source Software. In 2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER), Vol.\u00a01. IEEE, 470\u2013481. https://doi.org/10.1109/SANER.2016.105",
+      "doi": ""
+    },
+    {
+      "text": "Graham Bleaney and Sinan Cepel. 2020. Pysa: An open source static analysis tool to detect and prevent security issues in Python code. Retrieved August 2020 from https://engineering.fb.com/security/pysa/",
+      "doi": ""
+    },
+    {
+      "text": "Harry\u00a0N Boone and Deborah\u00a0A Boone. 2012. Analyzing Likert Data. Journal of Extension 50, 2 (2012), 1\u20135. https://www.joe.org/joe/2012april/pdf/JOE_v50_2tt2.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative Research in Psychology 3, 2 (2006), 77\u2013101. https://doi.org/10.1191/1478088706qp063oa",
+      "doi": "10.1191/1478088706"
+    },
+    {
+      "text": "Find\u00a0Security Bugs. 2020. Find Security Bugs. Retrieved June 2020 from https://github.com/find-sec-bugs/find-sec-bugs/tree/master/findsecbugs-samples-java",
+      "doi": ""
+    },
+    {
+      "text": "James Carifio and Rocco Perla. 2008. Resolving the 50-year debate around using and misusing Likert scales. Medical Education 42, 12 (Dec. 2008), 1150\u20131152. https://doi.org/10.1111/j.1365-2923.2008.03172.x",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Cass. 2020. Top Programming Languages 2020. Retrieved July 2020 from https://spectrum.ieee.org/at-work/tech-careers/top-programming-language-2020",
+      "doi": ""
+    },
+    {
+      "text": "Sen Chen, Lingling Fan, Guozhu Meng, Ting Su, Minhui Xue, Yinxing Xue, Yang Liu, and Lihua Xu. 2020. An Empirical Assessment of Security Risks of Global Android Banking Apps. In Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering (Seoul, South Korea) (ICSE \u201920). Association for Computing Machinery, New York, NY, USA, 1310\u20131322. https://doi.org/10.1145/3377811.3380417",
+      "doi": "10.1145/3377811.3380417"
+    },
+    {
+      "text": "Maria Christakis and Christian Bird. 2016. What Developers Want and Need from Program Analysis: An Empirical Study. In Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering (Singapore, Singapore) (ASE 2016). Association for Computing Machinery, New York, NY, USA, 332\u2013343. https://doi.org/10.1145/2970276.2970347",
+      "doi": "10.1145/2970276.2970347"
+    },
+    {
+      "text": "TIOBE The Software\u00a0Quality Company. 2020. TIOBE Index. Retrieved June 2020 from https://www.tiobe.com/tiobe-index/",
+      "doi": ""
+    },
+    {
+      "text": "The\u00a0MITRE Corporation. 2020. Common Weakness Enumeration (CWE) Top 25 Most Dangerous Software Errors. Retrieved August 2020 from https://cwe.mitre.org/top25/archive/2019/2019_cwe_top25.html",
+      "doi": ""
+    },
+    {
+      "text": "Lorrie\u00a0Faith Cranor. 2008. A Framework for Reasoning about the Human in the Loop. In Proceedings of the 1st Conference on Usability, Psychology, and Security (San Francisco, California) (UPSEC\u201908). USENIX Association, USA, Article 1, 15\u00a0pages. https://www.usenix.org/legacy/events/upsec08/tech/full_papers/cranor/cranor.pdf",
+      "doi": "10.5555/1387649.1387650"
+    },
+    {
+      "text": "Anastasia Danilova, Alena Naiakshina, and Matthew Smith. 2020. One Size Does Not Fit All: A Grounded Theory and Online Survey Study of Developer Preferences for Security Warning Types. In Proceedings of the 42nd International Conference on Software Engineering(ICSE \u201920). Association for Computing Machinery, 13\u00a0pages. https://doi.org/10.1145/3377811.3380387",
+      "doi": "10.1145/3377811.3380387"
+    },
+    {
+      "text": "H\u00a0T Davies, I\u00a0K Crombie, and M Tavakoli. 1998. When can odds ratios mislead?BMJ (Clinical research ed.) 316, 7136 (March 1998), 989\u2013991. https://doi.org/10.1136/bmj.316.7136.989 Publisher: British Medical Journal.",
+      "doi": ""
+    },
+    {
+      "text": "Pieter De\u00a0Cremer, Nathan Desmet, Matias Madou, and Bjorn De\u00a0Sutter. 2020. Sensei: Enforcing secure coding guidelines in the integrated development environment. Software: Practice and Experience 50, 9 (2020), 1682\u20131718. https://doi.org/10.1002/spe.2844",
+      "doi": ""
+    },
+    {
+      "text": "CVE Details. 2019. CVE-2019-17397 : In the DoorDash application through 11.5.2 for Android, the username and password are stored in the log during authentication, and may be available to attackers via logcat.Retrieved June 2020 from https://www.cvedetails.com/cve/CVE-2019-17397/",
+      "doi": ""
+    },
+    {
+      "text": "CVE Details. 2020. CVE security vulnerabilities related to CWE (Common Weakness Enumeration) 532. Retrieved June 2020 from https://www.cvedetails.com/vulnerability-list/cweid-532/vulnerabilities.html",
+      "doi": ""
+    },
+    {
+      "text": "Dino Distefano, Manuel F\u00e4hndrich, Francesco Logozzo, and Peter\u00a0W. O\u2019Hearn. 2019. Scaling Static Analyses at Facebook. Commun. ACM 62, 8 (July 2019), 62\u201370. https://doi.org/10.1145/3338112",
+      "doi": "10.1145/3338112"
+    },
+    {
+      "text": "Sascha Fahl, Marian Harbach, Henning Perl, Markus Koetter, and Matthew Smith. 2013. Rethinking SSL Development in an Appified World. In Proceedings of the 2013 ACM SIGSAC Conference on Computer & Communications Security (Berlin, Germany) (CCS \u201913). Association for Computing Machinery, New York, NY, USA, 49\u201360. https://doi.org/10.1145/2508859.2516655",
+      "doi": "10.1145/2508859.2516655"
+    },
+    {
+      "text": "Felix Fischer, Konstantin B\u00f6ttinger, Huang Xiao, Christian Stransky, Yasemin Acar, Michael Backes, and Sascha Fahl. 2017. Stack Overflow Considered Harmful? The Impact of Copy Paste on Android Application Security. In 2017 IEEE Symposium on Security and Privacy (SP). IEEE, 121\u2013136. https://doi.org/10.1109/SP.2017.31",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Gelman and Jennifer Hill. 2007. Data Analysis Using Regression and Multilevel/Hierarchical Models. Cambridge University Press, Cambridge, UK.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Gelman, Masanao\u00a0Yajima Yu-Sung\u00a0Su, Jennifer Hill, Maria\u00a0Grazia Pittau, Jouni Kerman, Tian Zheng, and Vincent Dorie. 2020. arm: Data Analysis Using Regression and Multilevel/Hierarchical Models. Retrieved December 2020 from https://cran.r-project.org/package=arm",
+      "doi": ""
+    },
+    {
+      "text": "Martin Georgiev, Subodh Iyengar, Suman Jana, Rishita Anubhai, Dan Boneh, and Vitaly Shmatikov. 2012. The Most Dangerous Code in the World: Validating SSL Certificates in Non-Browser Software. In Proceedings of the 2012 ACM Conference on Computer and Communications Security (Raleigh, North Carolina, USA) (CCS \u201912). Association for Computing Machinery, New York, NY, USA, 38\u201349. https://doi.org/10.1145/2382196.2382204",
+      "doi": "10.1145/2382196.2382204"
+    },
+    {
+      "text": "GitHub. 2019. The State of the Octoverse. Retrieved August 2020 from https://octoverse.github.com/",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2020. Google Diversity Annual Report. Retrieved August 2020 from https://diversity.google/annual-report/",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0Leo Gorski, Yasemin Acar, Luigi Lo\u00a0Iacono, and Sascha Fahl. 2020. Listen to Developers! A Participatory Design Study on Security Warnings for Cryptographic APIs. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376142",
+      "doi": "10.1145/3313831.3376142"
+    },
+    {
+      "text": "Peter\u00a0Leo Gorski, Luigi\u00a0Lo Iacono, Dominik Wermke, Christian Stransky, Sebastian M\u00f6ller, Yasemin Acar, and Sascha Fahl. 2018. Developers Deserve Security Warnings, Too: On the Effect of Integrated Security Advice on Cryptographic API Misuse. In Fourteenth Symposium on Usable Privacy and Security (SOUPS 2018). USENIX Association, Baltimore, MD, 265\u2013281. https://www.usenix.org/conference/soups2018/presentation/gorski",
+      "doi": "10.5555/3291228.3291250"
+    },
+    {
+      "text": "Matthew Green and Matthew Smith. 2016. Developers are Not the Enemy!: The Need for Usable Security APIs. IEEE Security & Privacy 14, 05 (Sept. 2016), 40\u201346. https://doi.org/10.1109/MSP.2016.111",
+      "doi": "10.1109/MSP.2016.111"
+    },
+    {
+      "text": "UCLA: Statistical\u00a0Consulting Group. 2020. Mixed Effects Logistic Regression. Retrieved December 2020 from https://stats.idre.ucla.edu/stata/dae/mixed-effects-logistic-regression/",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Habib and Michael Pradel. 2018. How Many of All Bugs Do We Find? A Study of Static Bug Detectors. In Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering (Montpellier, France) (ASE 2018). Association for Computing Machinery, New York, NY, USA, 317\u2013328. https://doi.org/10.1145/3238147.3238213",
+      "doi": "10.1145/3238147.3238213"
+    },
+    {
+      "text": "Julie\u00a0M. Haney, Mary Theofanos, Yasemin Acar, and Sandra\u00a0Spickard Prettyman. 2018. \u201cWe make it a big deal in the company\u201d: Security Mindsets in Organizations that Develop Cryptographic Products. In Fourteenth Symposium on Usable Privacy and Security (SOUPS 2018). USENIX Association, Baltimore, MD, 357\u2013373. https://www.usenix.org/conference/soups2018/presentation/haney-mindsets",
+      "doi": ""
+    },
+    {
+      "text": "Michael Huth and Flemming Nielson. 2019. Static Analysis for Proactive Security. In Computing and Software Science: State of the Art and Perspectives. Springer International Publishing, Cham, 374\u2013392. https://doi.org/10.1007/978-3-319-91908-9_19",
+      "doi": ""
+    },
+    {
+      "text": "Nasif Imtiaz, Brendan Murphy, and Laurie Williams. 2019. How Do Developers Act on Static Analysis Alerts? An Empirical Study of Coverity Usage. In 2019 IEEE 30th International Symposium on Software Reliability Engineering (ISSRE). IEEE, 323\u2013333. https://doi.org/10.1109/ISSRE.2019.00040",
+      "doi": ""
+    },
+    {
+      "text": "Nasif Imtiaz, Akond Rahman, Effat Farhana, and Laurie Williams. 2019. Challenges with Responding to Static Analysis Tool Alerts. In Proceedings of the 16th International Conference on Mining Software Repositories (Montreal, Quebec, Canada) (MSR \u201919). IEEE Press, 245\u2013249. https://doi.org/10.1109/MSR.2019.00049",
+      "doi": "10.1109/MSR.2019.00049"
+    },
+    {
+      "text": "Nasif Imtiaz and Laurie Williams. 2019. A Synopsis of Static Analysis Alerts on Open Source Software. In Proceedings of the 6th Annual Symposium on Hot Topics in the Science of Security (Nashville, Tennessee, USA) (HotSoS \u201919). Association for Computing Machinery, New York, NY, USA, Article 12, 3\u00a0pages. https://doi.org/10.1145/3314058.3317295",
+      "doi": "10.1145/3314058.3317295"
+    },
+    {
+      "text": "Mazharul Islam, Sazzadur Rahaman, Na Meng, Behnaz Hassanshahi, Padmanabhan Krishnan, and Danfeng\u00a0(Daphne) Yao. 2020. Coding Practices and Recommendations of Spring Security for Enterprise Applications. In 2020 IEEE Secure Development (SecDev). IEEE, 49\u201357. https://doi.org/10.1109/SecDev45635.2020.00024",
+      "doi": ""
+    },
+    {
+      "text": "Shubham Jain, Janne Lindqvist, 2014. Should I protect you? Understanding developers\u2019 behavior to privacy-preserving APIs. In Workshop on Usable Security (USEC\u201914). Internet Society, 10\u00a0pages. https://doi.org/10.14722/usec.2014.23045",
+      "doi": ""
+    },
+    {
+      "text": "JetBrains. 2020. The State of Developer Ecosystem. Retrieved August 2020 from https://www.jetbrains.com/lp/devecosystem-2020/",
+      "doi": ""
+    },
+    {
+      "text": "Ling Jin, Boyuan He, Guangyao Weng, Haitao Xu, Yan Chen, and Guanyu Guo. 2019. MAdLens: Investigating into Android In-App Ad Practice at API Granularity. IEEE Transactions on Mobile Computing PP (2019), 18\u00a0pages. https://doi.org/10.1109/TMC.2019.2953609",
+      "doi": ""
+    },
+    {
+      "text": "Brittany Johnson, Rahul Pandita, Justin Smith, Denae Ford, Sarah Elder, Emerson Murphy-Hill, Sarah Heckman, and Caitlin Sadowski. 2016. A Cross-Tool Communication Study on Program Analysis Tool Notifications. In Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering (Seattle, WA, USA) (FSE 2016). Association for Computing Machinery, New York, NY, USA, 73\u201384. https://doi.org/10.1145/2950290.2950304",
+      "doi": "10.1145/2950290.2950304"
+    },
+    {
+      "text": "Brittany Johnson, Yoonki Song, Emerson Murphy-Hill, and Robert Bowdidge. 2013. Why Don\u2019t Software Developers Use Static Analysis Tools to Find Bugs?. In Proceedings of the 2013 International Conference on Software Engineering (San Francisco, CA, USA) (ICSE \u201913). IEEE Press, 672\u2013681. https://doi.org/10.1109/ICSE.2013.6606613",
+      "doi": ""
+    },
+    {
+      "text": "John Kelsey, Bruce Schneier, and David Wagner. 1997. Related-key cryptanalysis of 3-WAY, Biham-DES,CAST, DES-X, NewDES, RC2, and TEA. In Information and Communications Security, Yongfei Han, Tatsuaki Okamoto, and Sihan Qing(Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 233\u2013246. https://doi.org/10.1007/BFb0028479",
+      "doi": ""
+    },
+    {
+      "text": "Jae-on Kim and Charles Mueller. 2020. Factor Analysis. SAGE Publications, Inc, Thousand Oaks, California. https://doi.org/10.4135/9781412984256",
+      "doi": ""
+    },
+    {
+      "text": "Stefan Kr\u00fcger, Sarah Nadi, Michael Reif, Karim Ali, Mira Mezini, Eric Bodden, Florian G\u00f6pfert, Felix G\u00fcnther, Christian Weinert, Daniel Demmler, and Ram Kamath. 2017. CogniCrypt: Supporting Developers in Using Cryptography. In Proceedings of the 32nd IEEE/ACM International Conference on Automated Software Engineering(Urbana-Champaign, IL, USA) (ASE 2017). IEEE Press, 931\u2013936. https://doi.org/10.1109/ASE.2017.8115707",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0A. Kupsch, Elisa Heymann, Barton Miller, and Vamshi Basupalli. 2017. Bad and good news about using software assurance tools. Software: Practice and Experience 47, 1 (2017), 143\u2013156. https://doi.org/10.1002/spe.2401",
+      "doi": "10.1002/spe.2401"
+    },
+    {
+      "text": "Jonathan Lazar, Jinjuan\u00a0Heidi Feng, and Harry Hochheiser. 2017. Chapter 8 - Interviews and focus groups. In Research Methods in Human Computer Interaction (second edition ed.), Jonathan Lazar, Jinjuan\u00a0Heidi Feng, and Harry Hochheiser (Eds.). Morgan Kaufmann, Boston, 187\u2013228. https://doi.org/10.1016/B978-0-12-805390-4.00008-X",
+      "doi": ""
+    },
+    {
+      "text": "Li Li, Tegawend\u00e9\u00a0F. Bissyand\u00e9, Mike Papadakis, Siegfried Rasthofer, Alexandre Bartel, Damien Octeau, Jacques Klein, and Le Traon. 2017. Static analysis of android apps: A systematic literature review. Information and Software Technology 88 (2017), 67\u201395. https://doi.org/10.1016/j.infsof.2017.04.001",
+      "doi": "10.1016/j.infsof.2017.04.001"
+    },
+    {
+      "text": "Na Meng, Stefan Nagy, Danfeng\u00a0(Daphne) Yao, Wenjie Zhuang, and Gustavo\u00a0Arango Argoty. 2018. Secure Coding Practices in Java: Challenges and Vulnerabilities. In Proceedings of the 40th International Conference on Software Engineering (Gothenburg, Sweden) (ICSE \u201918). Association for Computing Machinery, New York, NY, USA, 372\u2013383. https://doi.org/10.1145/3180155.3180201",
+      "doi": "10.1145/3180155.3180201"
+    },
+    {
+      "text": "Kai Mindermann, Philipp Keck, and Stefan Wagner. 2018. How Usable Are Rust Cryptography APIs?. In 2018 IEEE International Conference on Software Quality, Reliability and Security (QRS). IEEE, 143\u2013154. https://doi.org/10.1109/qrs.2018.00028",
+      "doi": ""
+    },
+    {
+      "text": "Kai Mindermann and Stefan Wagner. 2018. Usability and Security Effects of Code Examples on Crypto APIs. In 2018 16th Annual Conference on Privacy, Security and Trust (PST). IEEE, 1\u20132. https://doi.org/10.1109/PST.2018.8514203",
+      "doi": ""
+    },
+    {
+      "text": "Kai Mindermann and Stefan Wagner. 2020. Fluid Intelligence Doesn\u2019t Matter! Effects of Code Examples on the Usability of Crypto APIs. In Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering: Companion Proceedings (Seoul, South Korea) (ICSE \u201920). Association for Computing Machinery, New York, NY, USA, 306\u2013307. https://doi.org/10.1145/3377812.3390892",
+      "doi": "10.1145/3377812.3390892"
+    },
+    {
+      "text": "Xenia Mountrouidou, David Vosen, Chadi Kari, Mohammad\u00a0Q. Azhar, Sajal Bhatia, Greg Gagne, Joseph Maguire, Liviana Tudor, and Timothy\u00a0T. Yuen. 2019. Securing the Human: A Review of Literature on Broadening Diversity in Cybersecurity Education. In Proceedings of the Working Group Reports on Innovation and Technology in Computer Science Education (Aberdeen, Scotland UK) (ITiCSE-WGR \u201919). Association for Computing Machinery, New York, NY, USA, 157\u2013176. https://doi.org/10.1145/3344429.3372507",
+      "doi": "10.1145/3344429.3372507"
+    },
+    {
+      "text": "Sarah Nadi, Stefan Kr\u00fcger, Mira Mezini, and Eric Bodden. 2016. Jumping through Hoops: Why Do Java Developers Struggle with Cryptography APIs?. In Proceedings of the 38th International Conference on Software Engineering (Austin, Texas) (ICSE \u201916). Association for Computing Machinery, New York, NY, USA, 935\u2013946. https://doi.org/10.1145/2884781.2884790",
+      "doi": "10.1145/2884781.2884790"
+    },
+    {
+      "text": "Nico\u00a0JD Nagelkerke 1991. A note on a general definition of the coefficient of determination. Biometrika 78, 3 (09 1991), 691\u2013692. https://doi.org/10.1093/biomet/78.3.691",
+      "doi": ""
+    },
+    {
+      "text": "Alena Naiakshina, Anastasia Danilova, Eva Gerlitz, and Matthew Smith. 2020. On Conducting Security Developer Studies with CS Students: Examining a Password-Storage Study with CS Students, Freelancers, and Company Developers. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376791",
+      "doi": "10.1145/3313831.3376791"
+    },
+    {
+      "text": "Alena Naiakshina, Anastasia Danilova, Eva Gerlitz, Emanuel von Zezschwitz, and Matthew Smith. 2019. \u201cIf You Want, I Can Store the Encrypted Password\u201d: A Password-Storage Field Study with Freelance Developers. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland UK) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300370",
+      "doi": "10.1145/3290605.3300370"
+    },
+    {
+      "text": "Alena Naiakshina, Anastasia Danilova, Christian Tiefenau, Marco Herzog, Sergej Dechand, and Matthew Smith. 2017. Why Do Developers Get Password Storage Wrong? A Qualitative Usability Study. In Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (Dallas, Texas, USA) (CCS \u201917). Association for Computing Machinery, New York, NY, USA, 311\u2013328. https://doi.org/10.1145/3133956.3134082",
+      "doi": "10.1145/3133956.3134082"
+    },
+    {
+      "text": "Duc\u00a0Cuong Nguyen, Dominik Wermke, Yasemin Acar, Michael Backes, Charles Weir, and Sascha Fahl. 2017. A Stitch in Time: Supporting Android Developers in Writing Secure Code. In Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (Dallas, Texas, USA) (CCS \u201917). ACM, New York, NY, USA, 1065\u20131077. https://doi.org/10.1145/3133956.3133977",
+      "doi": "10.1145/3133956.3133977"
+    },
+    {
+      "text": "Lisa Nguyen Quang\u00a0Do, James Wright, and Karim Ali. 2020. Why Do Software Developers Use Static Analysis Tools? A User-Centered Study of Developer Needs and Motivations. IEEE Transactions on Software Engineering PP (2020), 13\u00a0pages. https://doi.org/10.1109/TSE.2020.3004525",
+      "doi": ""
+    },
+    {
+      "text": "National\u00a0Institute of Standards and Technology (NIST). 2017. Software Assurance Reference Dataset. Retrieved June 2020 from https://samate.nist.gov/SARD/testsuite.php",
+      "doi": ""
+    },
+    {
+      "text": "Daniela Oliveira, Marissa Rosenthal, Nicole Morin, Kuo-Chuan Yeh, Justin Cappos, and Yanyan Zhuang. 2014. It\u2019s the Psychology Stupid: How Heuristics Explain Software Vulnerabilities and How Priming Can Illuminate Developer\u2019s Blind Spots. In Proceedings of the 30th Annual Computer Security Applications Conference (New Orleans, Louisiana, USA) (ACSAC \u201914). Association for Computing Machinery, New York, NY, USA, 296\u2013305. https://doi.org/10.1145/2664243.2664254",
+      "doi": "10.1145/2664243.2664254"
+    },
+    {
+      "text": "Marten Oltrogge, Erik Derr, Christian Stransky, Yasemin Acar, Sascha Fahl, Christian Rossow, Giancarlo Pellegrino, Sven Bugiel, and Michael Backes. 2018. The Rise of the Citizen Developer: Assessing the Security Impact of Online App Generators. In 2018 IEEE Symposium on Security and Privacy (SP). IEEE, 634\u2013647. https://doi.org/10.1109/SP.2018.00005",
+      "doi": ""
+    },
+    {
+      "text": "Stack Overflow. 2020. Developer Survey Results. Retrieved August 2020 from https://insights.stackoverflow.com/survey/2020",
+      "doi": ""
+    },
+    {
+      "text": "OWASP. 2017. The Ten Most Critical Web Application Security Risks. Retrieved August 2020 from https://owasp.org/www-project-top-ten",
+      "doi": ""
+    },
+    {
+      "text": "Eyal Peer, Laura Brandimarte, Sonam Samat, and Alessandro Acquisti. 2017. Beyond the Turk: Alternative platforms for crowdsourcing behavioral research. Journal of Experimental Social Psychology 70 (2017), 153\u2013163. https://doi.org/10.1016/j.jesp.2017.01.006",
+      "doi": ""
+    },
+    {
+      "text": "Sazzadur Rahaman, Ya Xiao, Sharmin Afrose, Fahad Shaon, Ke Tian, Miles Frantz, Murat Kantarcioglu, and Danfeng\u00a0(Daphne) Yao. 2019. CryptoGuard: High Precision Detection of Cryptographic Vulnerabilities in Massive-sized Java Projects. In Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security (London, United Kingdom) (CCS \u201919). ACM, New York, NY, USA, 2455\u20132472. https://doi.org/10.1145/3319535.3345659",
+      "doi": "10.1145/3319535.3345659"
+    },
+    {
+      "text": "Akond Rahman, Chris Parnin, and Laurie Williams. 2019. The Seven Sins: Security Smells in Infrastructure as Code Scripts. In Proceedings of the 41st International Conference on Software Engineering (Montreal, Quebec, Canada) (ICSE \u201919). IEEE Press, 164\u2013175. https://doi.org/10.1109/ICSE.2019.00033",
+      "doi": "10.1109/ICSE.2019.00033"
+    },
+    {
+      "text": "Zachary Reynolds, Abhinandan Jayanth, Ugur Koc, Adam Porter, Rajeev Raje, and James Hill. 2017. Identifying and Documenting False Positive Patterns Generated by Static Code Analysis Tools. In 2017 IEEE/ACM 4th International Workshop on Software Engineering Research and Industrial Practice (SER IP). IEEE, 55\u201361. https://doi.org/10.1109/SER-IP.2017..20",
+      "doi": "10.1109/SER-IP.2017..20"
+    },
+    {
+      "text": "Caitlin Sadowski, Edward Aftandilian, Alex Eagle, Liam Miller-Cushon, and Ciera Jaspan. 2018. Lessons from Building Static Analysis Tools at Google. Commun. ACM 61, 4 (March 2018), 58\u201366. https://doi.org/10.1145/3188720",
+      "doi": "10.1145/3188720"
+    },
+    {
+      "text": "Caitlin Sadowski, Jeffrey\u00a0van Gogh, Ciera Jaspan, Emma Soderberg, and Collin Winter. 2015. Tricorder: Building a Program Analysis Ecosystem. In 2015 IEEE/ACM 37th IEEE International Conference on Software Engineering. IEEE, Florence, Italy, 598\u2013608. https://doi.org/10.1109/ICSE.2015.76",
+      "doi": ""
+    },
+    {
+      "text": "Neil Salkind. 2020. Encyclopedia of Research Design. SAGE Publications, Inc. https://doi.org/10.4135/9781412961288",
+      "doi": ""
+    },
+    {
+      "text": "Ben Shneiderman. 1982. Designing computer system messages. Commun. ACM 25, 9 (1982), 610\u2013611. https://doi.org/10.1145/358628.358639",
+      "doi": "10.1145/358628.358639"
+    },
+    {
+      "text": "Miltiadis Siavvas, Erol Gelenbe, Dionysios Kehagias, and Dimitrios Tzovaras. 2018. Static Analysis-Based Approaches for\u00a0Secure Software Development. In Security in Computer and Information Sciences, Erol Gelenbe, Paolo Campegiani, Tadeusz Czach\u00f3rski, Sokratis\u00a0K. Katsikas, Ioannis Komnios, Luigi Romano, and Dimitrios Tzovaras(Eds.). Springer International Publishing, Cham, 142\u2013157. https://doi.org/10.1007/978-3-319-95189-8_13",
+      "doi": ""
+    },
+    {
+      "text": "Programming skills. 2020. Free Core Java Online Practice Test and Preparation for Exam. Retrieved June 2020 from https://www.pskills.org/corejava.jsp",
+      "doi": ""
+    },
+    {
+      "text": "Justin Smith, Lisa Nguyen\u00a0Quang Do, and Emerson\u00a0Rex Murphy-Hill. 2020. Why Can\u2019t Johnny Fix Vulnerabilities: A Usability Evaluation of Static Analysis Tools for Security. In Sixteenth Symposium on Usable Privacy and Security (SOUPS 2020). USENIX Association, 221\u2013238. https://www.usenix.org/conference/soups2020/presentation/smith",
+      "doi": ""
+    },
+    {
+      "text": "Justin Smith, Brittany Johnson, Emerson Murphy-Hill, Bill Chu, and Heather\u00a0Richter Lipford. 2015. Questions Developers Ask While Diagnosing Potential Security Vulnerabilities with Static Analysis. In Proceedings of the 2015 10th Joint Meeting on Foundations of Software Engineering (Bergamo, Italy) (ESEC/FSE 2015). Association for Computing Machinery, New York, NY, USA, 248\u2013259. https://doi.org/10.1145/2786805.2786812",
+      "doi": "10.1145/2786805.2786812"
+    },
+    {
+      "text": "Justin Smith, Brittany Johnson, Emerson Murphy-Hill, Bei-Tseng Chu, and Heather Richter. 2019. How Developers Diagnose Potential Security Vulnerabilities with a Static Analysis Tool. IEEE Transactions on Software Engineering 45, 9 (Sept. 2019), 877\u2013897. https://doi.org/10.1109/TSE.2018.2810116",
+      "doi": "10.1109/TSE.2018.2810116"
+    },
+    {
+      "text": "Justin Smith, Chris Theisen, and Titus Barik. 2020. A Case Study of Software Security Red Teams at Microsoft. In 2020 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE Computer Society, Los Alamitos, CA, USA, 1\u201310. https://doi.org/10.1109/VL/HCC50065.2020.9127203",
+      "doi": ""
+    },
+    {
+      "text": "Mohammad Tahaei and Kami Vaniea. 2019. A Survey on Developer-Centred Security. In 2019 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW). IEEE, 129\u2013138. https://doi.org/10.1109/EuroSPW.2019.00021",
+      "doi": ""
+    },
+    {
+      "text": "Tyler\u00a0W. Thomas, Heather Lipford, Bill Chu, Justin Smith, and Emerson Murphy-Hill. 2016. What Questions Remain? An Examination of How Developers Understand an Interactive Static Analysis Tool. In Twelfth Symposium on Usable Privacy and Security (SOUPS 2016). USENIX Association, Denver, CO, 7\u00a0pages. https://www.usenix.org/system/files/conference/soups2015/wsiw16_paper_thomas.pdf",
+      "doi": ""
+    },
+    {
+      "text": "V.\u00a0Javier Traver. 2010. On Compiler Error Messages: What They Say and What They Mean. Adv. in Hum.-Comp. Int. 2010, Article 3 (Jan. 2010), 26\u00a0pages. https://doi.org/10.1155/2010/602570",
+      "doi": ""
+    },
+    {
+      "text": "Omer Tripp, Salvatore Guarnieri, Marco Pistoia, and Aleksandr Aravkin. 2014. ALETHEIA: Improving the Usability of Static Security Analysis. In Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications Security (Scottsdale, Arizona, USA) (CCS \u201914). Association for Computing Machinery, New York, NY, USA, 762\u2013774. https://doi.org/10.1145/2660267.2660339",
+      "doi": "10.1145/2660267.2660339"
+    },
+    {
+      "text": "Martin Ukrop, Lydia Kraus, Vashek Matyas, and Heider Ahmad\u00a0Mutleq Wahsheh. 2019. Will You Trust This TLS Certificate? Perceptions of People Working in IT. In Proceedings of the 35th Annual Computer Security Applications Conference (San Juan, Puerto Rico) (ACSAC \u201919). Association for Computing Machinery, New York, NY, USA, 718\u2013731. https://doi.org/10.1145/3359789.3359800",
+      "doi": "10.1145/3359789.3359800"
+    },
+    {
+      "text": "Dirk van\u00a0der Linden, Pauline Anthonysamy, Bashar Nuseibeh, Thein\u00a0Than Tun, Marian Petre, Mark Levine, John Towse, and Awais Rashid. 2020. Schr\u00f6Dinger\u2019s Security: Opening the Box on App Developers\u2019 Security Rationale. In Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering (Seoul, South Korea) (ICSE \u201920). Association for Computing Machinery, New York, NY, USA, 149\u2013160. https://doi.org/10.1145/3377811.3380394",
+      "doi": "10.1145/3377811.3380394"
+    },
+    {
+      "text": "Carmine Vassallo, Sebastiano Panichella, Fabio Palomba, Sebastian Proksch, Harald\u00a0C. Gall, and Andy Zaidman. 2020. How developers engage with static analysis tools in different contexts. Empirical Software Engineering 25, 2 (March 2020), 1419\u20131457. https://doi.org/10.1007/s10664-019-09750-5",
+      "doi": ""
+    },
+    {
+      "text": "Carmine Vassallo, Sebastiano Panichella, Fabio Palomba, Sebastian Proksch, Andy Zaidman, and Harald\u00a0C. Gall. 2018. Context is king: The developer perspective on the usage of static analysis tools. In 2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER) (Campobasso). IEEE, 38\u201349. https://doi.org/10.1109/SANER.2018.8330195",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Votipka, Desiree Abrokwa, and Michelle\u00a0L. Mazurek. 2020. Building and Validating a Scale for Secure Software Development Self-Efficacy. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201320. https://doi.org/10.1145/3313831.3376754",
+      "doi": "10.1145/3313831.3376754"
+    },
+    {
+      "text": "Charles Weir, Ingolf Becker, James Noble, Lynne Blair, M.\u00a0Angela Sasse, and Awais Rashid. 2020. Interventions for long-term software security: Creating a lightweight program of assurance techniques for developers. Software: Practice and Experience 50, 3 (2020), 275\u2013298. https://doi.org/10.1002/spe.2774",
+      "doi": ""
+    },
+    {
+      "text": "William R. Nichols and Thomas Scanlon. 2018. DoD Developer\u2019s Guidebook for Software Assurance. Technical Report. Software Engineering Institute - Carnegie Mellon University. 111pages. https://resources.sei.cmu.edu/asset_files/SpecialReport/2018_003_001_538761.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Brett Williams, Andrys Onsman, and Ted Brown. 2010. Exploratory factor analysis: A five-step guide for novices. Australasian Journal of Paramedicine 8, 3 (2010), 1\u201313. https://doi.org/10.33151/ajp.8.3.93",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0S Wogalter. 2019. Communication-Human Information Processing (C-HIP) Model in Forensic Warning Analysis. In Proceedings of the 20th Congress of the International Ergonomics Association (IEA 2018), Sebastiano Bagnara, Riccardo Tartaglia, Sara Albolino, Thomas Alexander, and Yushi Fujita(Eds.). Springer International Publishing, Cham, 761\u2013769. https://doi.org/10.1007/978-3-319-96080-7_92",
+      "doi": ""
+    },
+    {
+      "text": "Fiorella Zampetti, Simone Scalabrino, Rocco Oliveto, Gerardo Canfora, and Massimiliano Di\u00a0Penta. 2017. How Open Source Projects Use Static Code Analysis Tools in Continuous Integration Pipelines. In Proceedings of the 14th International Conference on Mining Software Repositories (Buenos Aires, Argentina) (MSR \u201917). IEEE Press, 334\u2013344. https://doi.org/10.1109/MSR.2017.2",
+      "doi": "10.1109/MSR.2017.2"
+    },
+    {
+      "text": "Sebastian Zimmeck, Ziqi Wang, Lieyong Zou, Roger Iyengar, Bin Liu, Florian Schaub, Shomir Wilson, Norman\u00a0M Sadeh, Steven\u00a0M Bellovin, and Joel\u00a0R Reidenberg. 2017. Automated Analysis of Privacy Requirements for Mobile Apps. In NDSS. Internet Society, 15\u00a0pages. https://doi.org/10.14722/ndss.2017.23034",
+      "doi": ""
+    }
+  ]
+}

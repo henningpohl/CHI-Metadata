@@ -1,0 +1,346 @@
+{
+  "doi": "10.1145/3290605.3300780",
+  "title": "NVGaze: An Anatomically-Informed Dataset for Low-Latency, Near-Eye Gaze Estimation",
+  "published": "2019-05-02",
+  "proctitle": "CHI '19: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-12",
+  "year": 2019,
+  "badges": [],
+  "abstract": "Quality, diversity, and size of training data are critical factors for learning-based gaze estimators. We create two datasets satisfying these criteria for near-eye gaze estimation under infrared illumination: a synthetic dataset using anatomically-informed eye and face models with variations in face shape, gaze direction, pupil and iris, skin tone, and external conditions (2M images at 1280x960), and a real-world dataset collected with 35 subjects (2.5M images at 640x480). Using these datasets we train neural networks performing with sub-millisecond latency. Our gaze estimation network achieves 2.06(\u00b10.44)\u00b0 of accuracy across a wide 30\u00b0\u00d740\u00b0 field of view on real subjects excluded from training and 0.5\u00b0 best-case accuracy (across the same FOV) when explicitly trained for one real subject. We also train a pupil localization network which achieves higher robustness than previous methods.",
+  "authors": [
+    {
+      "name": "Joohwan Kim",
+      "institution": "NVIDIA, Santa Clara, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659052261",
+      "orcid": "missing"
+    },
+    {
+      "name": "Michael Stengel",
+      "institution": "NVIDIA, Santa Clara, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81485657804",
+      "orcid": "missing"
+    },
+    {
+      "name": "Alexander Majercik",
+      "institution": "NVIDIA, Santa Clara, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659366480",
+      "orcid": "missing"
+    },
+    {
+      "name": "Shalini De Mello",
+      "institution": "NVIDIA, Santa Clara, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659325386",
+      "orcid": "missing"
+    },
+    {
+      "name": "David Dunn",
+      "institution": "University of North Carolina - Chapel Hill, Chapel Hill, NC, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659148065",
+      "orcid": "missing"
+    },
+    {
+      "name": "Samuli Laine",
+      "institution": "NVIDIA, Santa Clara, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100622664",
+      "orcid": "missing"
+    },
+    {
+      "name": "Morgan McGuire",
+      "institution": "NVIDIA, Santa Clara, CA, USA",
+      "img": "/do/10.1145/contrib-81327490282/rel-imgonly/mcguire-suit-headshot.jpg",
+      "acmid": "81327490282",
+      "orcid": "missing"
+    },
+    {
+      "name": "David Luebke",
+      "institution": "NVIDIA, Santa Clara, CA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100131290",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Nicoletta Adamo-Villani, Gerardo Beni, and Jeremy White. 2005. EMOES: Eye Motion and Ocular Expression Simulator. International Journal of Information Technology 2, 3 (2005), 170--176.",
+      "doi": ""
+    },
+    {
+      "text": "Rachel Albert, Anjul Patney, David Luebke, and Joohwan Kim. 2017. Latency Requirements for Foveated Rendering in Virtual Reality. ACM Trans. Appl. Percept. 14, 4, Article 25 (Sept. 2017), 13 pages.  ",
+      "doi": "10.1145/3127589"
+    },
+    {
+      "text": "Elli Angelopoulou. 1999. The Reflectance Spectrum of Human Skin. Technical Report MS-CIS-99--29. University of Pennsylvania. 16 pages.",
+      "doi": ""
+    },
+    {
+      "text": "Shumeet Baluja and Dean Pomerleau. 1994. Non-Intrusive Gaze Tracking Using Artificial Neural Networks. In Advances in Neural Information Processing Systems 6, J. D. Cowan, G. Tesauro, and J. Alspector (Eds.). Morgan-Kaufmann, San Francisco, CA, USA, 753--760. ",
+      "doi": "10.5555/2987189.2987284"
+    },
+    {
+      "text": "Bruce Bridgeman and Joseph Palca. 1980. The role of microsaccades in high acuity observational tasks. Vision Research 20, 9 (1980), 813--817.",
+      "doi": ""
+    },
+    {
+      "text": "Sharan Chetlur, Cliff Woolley, Philippe Vandermersch, Jonathan Cohen, John Tran, Bryan Catanzaro, and Evan Shelhamer. 2014. cuDNN: Efficient primitives for deep learning. CoRR abs/1410.0759 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Kyoung Whan Choe, Randolph Blake, and Sang-Hun Lee. 2016. Pupil size dynamics during fixation impact the accuracy and precision of video-based gaze estimation. Vision Research 118 (2016), 48--59.",
+      "doi": ""
+    },
+    {
+      "text": "Vincent Dumoulin, Jonathon Shlens, and Manjunath Kudlur. 2016. A Learned Representation For Artistic Style. CoRR abs/1610.07629. arXiv:1610.07629 http://arxiv.org/abs/1610.07629",
+      "doi": ""
+    },
+    {
+      "text": "Anna Maria Feit, Shane Williams, Arturo Toledo, Ann Paradiso, Harish Kulkarni, Shaun Kane, and Meredith Ringel Morris. 2017. Toward Everyday Gaze Input: Accuracy and Precision of Eye Tracking and Implications for Design. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, New York, NY, USA, 1118--1130.  ",
+      "doi": "10.1145/3025453.3025599"
+    },
+    {
+      "text": "Laura Florea, Corneliu Florea, Ruxandra Vranceanu, and Constantin Vertan. 2013. Can Your Eyes Tell Me How You Think? A Gaze Directed Estimation of the Mental Activity. In BMVC 2013 - Electronic Proceedings of the British Machine Vision Conference 2013. BMVA Press, 60.1--60.11.",
+      "doi": ""
+    },
+    {
+      "text": "Wolfgang Fuhl, David Geisler, Thiago Santini, Tobias Appel, Wolfgang Rosenstiel, and Enkelejda Kasneci. 2018. CBF: Circular Binary Features for Robust and Real-time Pupil Center Detection. In Proceedings of the 2018 ACM Symposium on Eye Tracking Research & Applications (ETRA '18). ACM, New York, NY, USA, Article 8, 6 pages.  ",
+      "doi": "10.1145/3204493.3204559"
+    },
+    {
+      "text": "Wolfgang Fuhl, Thomas K\u00fcbler, Katrin Sippel, Wolfgang Rosenstiel, and Enkelejda Kasneci. 2015. ExCuSe: Robust Pupil Detection in RealWorld Scenarios. In Computer Analysis of Images and Patterns, George Azzopardi and Nicolai Petkov (Eds.). Springer International Publishing, Cham, 39--51.",
+      "doi": ""
+    },
+    {
+      "text": "Wolfgang Fuhl, Thiago Santini, Gjergji Kasneci, Wolfgang Rosenstiel, and Enkelejda Kasneci. 2017. PupilNet v2.0: Convolutional Neural Networks for CPU based real time Robust Pupil Detection. CoRR abs/1711.00112 (2017). http://arxiv.org/abs/1711.00112",
+      "doi": ""
+    },
+    {
+      "text": "Wolfgang Fuhl, Thiago C. Santini, Thomas K\u00fcbler, and Enkelejda Kasneci. 2016. ElSe: Ellipse Selection for Robust Pupil Detection in Real-world Environments. In Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research & Applications (ETRA '16). ACM, New York, NY, USA, 123--130.  ",
+      "doi": "10.1145/2857491.2857505"
+    },
+    {
+      "text": "Kenneth Alberto Funes Mora, Florent Monay, and Jean-Marc Odobez. 2014. EYEDIAP: A Database for the Development and Evaluation of Gaze Estimation Algorithms from RGB and RGB-D Cameras. In Proceedings of the Symposium on Eye Tracking Research and Applications (ETRA '14). ACM, New York, NY, USA, 255--258. NVGaze: An Anatomically-Informed Dataset for Low-Latency, Near-Eye Gaze Estimation CHI 2019, May 4--9, 2019, Glasgow, Scotland UK  ",
+      "doi": "10.1145/3290605.3300780"
+    },
+    {
+      "text": "Chao Gou, Y. Wu, Kang Wang, Fei-Yue Wang, and Q. Ji. 2016. Learningby-synthesis for accurate eye detection. 2016 23rd International Conference on Pattern Recognition (ICPR) 1, 1 (Dec 2016), 3362--3367.",
+      "doi": ""
+    },
+    {
+      "text": "Brian Guenter, Mark Finch, Steven Drucker, Desney Tan, and John Snyder. 2012. Foveated 3D Graphics. ACM Trans. Graph. 31, 6, Article 164 (Nov. 2012), 10 pages.  ",
+      "doi": "10.1145/2366145.2366183"
+    },
+    {
+      "text": "Michael J Hawes and Richard K Dortzbach. 1982. The microscopic anatomy of the lower eyelid retractors. Archives of ophthalmology 100, 8 (1982), 1313--1318.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Xuelin Huang, Tiffany C.K. Kwok, Grace Ngai, Stephen C.F. Chan, and Hong Va Leong. 2016. Building a Personalized, AutoCalibrating Eye Tracker from User Interactions. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). ACM, New York, NY, USA, 5169--5179.  ",
+      "doi": "10.1145/2858036.2858404"
+    },
+    {
+      "text": "Michael Xuelin Huang, Jiajia Li, Grace Ngai, and Hong Va Leong. 2017. ScreenGlint: Practical, In-situ Gaze Estimation on Smartphones. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, New York, NY, USA, 2546--2557.  ",
+      "doi": "10.1145/3025453.3025794"
+    },
+    {
+      "text": "Amir-Homayoun Javadi, Zahra Hakimi, Morteza Barati, Vincent Walsh, and Lili Tcheang. 2015. SET: A Pupil Detection Method using Sinusoidal Approximation. Frontiers in Neuroengineering 8 (2015), 4.",
+      "doi": ""
+    },
+    {
+      "text": "Herve Jegou, Matthijs Douze, and Cordelia Schmid. 2008. Hamming embedding and weak geometric consistency for large scale image search. In European Conference on Computer Vision (ECCV). Springer, Springer International Publishing, 304--317.  ",
+      "doi": "10.1007/978-3-540-88682-2_24"
+    },
+    {
+      "text": "Oliver Jesorsky, Klaus J. Kirchberg, and Robert Frischholz. 2001. Robust Face Detection Using the Hausdorff Distance. In Proceedings of the Third International Conference on Audio- and Video-Based Biometric Person Authentication (AVBPA '01). Springer International Publishing, Berlin, Heidelberg, 90--95. https://www.bioid.com/facedb/ ",
+      "doi": "10.5555/646073.677460"
+    },
+    {
+      "text": "Anuradha Kar and Peter Corcoran. 2017. A Review and Analysis of Eye-Gaze Estimation Systems, Algorithms and Performance Evaluation Methods in Consumer Platforms. CoRR abs/1708.01817 (2017). arXiv:1708.01817 http://arxiv.org/abs/1708.01817",
+      "doi": ""
+    },
+    {
+      "text": "Moritz Kassner, William Patera, and Andreas Bulling. 2014. Pupil: An Open Source Platform for Pervasive Eye Tracking and Mobile Gazebased Interaction. In Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct Publication (UbiComp '14 Adjunct). ACM, New York, NY, USA, 1151--1160.  ",
+      "doi": "10.1145/2638728.2641695"
+    },
+    {
+      "text": "Paul L Kaufman, Leonard A Levin, Francis Heed Adler, and Albert Alm. 2011. Adler's Physiology of the Eye. Elsevier Health Sciences, St. Louis, MO.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Konrad, Nitish Padmanaban, Keenan Molner, Emily A. Cooper, and Gordon Wetzstein. 2017. Accommodation-invariant Computational Near-eye Displays. ACM Trans. Graph. 36, 4, Article 88 (July 2017), 12 pages.  ",
+      "doi": "10.1145/3072959.3073594"
+    },
+    {
+      "text": "Elleen Kowler and Robert M Steinman. 1979. Miniature saccades: eye movements that do not count. Vision Research 19, 1 (1979), 105--108.",
+      "doi": ""
+    },
+    {
+      "text": "K. Krafka, A. Khosla, P. Kellnhofer, H. Kannan, S. Bhandarkar, W. Matusik, and A. Torralba. 2016. Eye Tracking for Everyone. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vol. 1. 2176--2184.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas C. K\u00fcbler, Tobias Rittig, Enkelejda Kasneci, Judith Ungewiss, and Christina Krauss. 2016. Rendering Refraction and Reflection of Eyeglasses for Synthetic Eye Tracker Images. In Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research & Applications (ETRA '16). ACM, New York, NY, USA, 143--146.  ",
+      "doi": "10.1145/2857491.2857494"
+    },
+    {
+      "text": "Mikko Kyt\u00f6, Barrett Ens, Thammathip Piumsomboon, Gun A. Lee, and Mark Billinghurst. 2018. Pinpointing: Precise Head- and Eye-Based Target Selection for Augmented Reality. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). ACM, New York, NY, USA, Article 81, 14 pages.  ",
+      "doi": "10.1145/3173574.3173655"
+    },
+    {
+      "text": "Samuli Laine, Tero Karras, Timo Aila, Antti Herva, Shunsuke Saito, Ronald Yu, Hao Li, and Jaakko Lehtinen. 2017. Production-Level Facial Performance Capture Using Deep Convolutional Neural Networks. Proc. Symposium on Computer Animation (SCA).  ",
+      "doi": "10.1145/3099564.3099581"
+    },
+    {
+      "text": "Dongheng Li, D. Winfield, and D. J. Parkhurst. 2005. Starburst: A hybrid algorithm for video-based eye tracking combining feature-based and model-based approaches. In 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05) - Workshops, Vol. 1. 79--79.  ",
+      "doi": "10.1109/CVPR.2005.531"
+    },
+    {
+      "text": "Hwey-Lan Liou and Noel A Brennan. 1997. Anatomically accurate, finite model eye for optical modeling. Journal of the Optical Society of America 14, 8 (1997), 1684--1695.",
+      "doi": ""
+    },
+    {
+      "text": "Lester C Loschky and George W McConkie. 2002. Investigating spatial vision and dynamic attentional selection using a gaze-contingent multiresolutional display. Journal of Experimental Psychology: Applied 8, 2 (2002), 99.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew L Maas, Awni Y Hannun, and Andrew Ng. 2013. Rectifier nonlinearities improve neural network acoustic models. In Proc. International Conference on Machine Learning (ICML), Vol. 30.",
+      "doi": ""
+    },
+    {
+      "text": "Alex Mariakakis, Jacob Baudin, Eric Whitmire, Vardhman Mehta, Megan A Banks, Anthony Law, Lynn Mcgrath, and Shwetak N Patel. 2017. PupilScreen: Using Smartphones to Assess Traumatic Brain Injury. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 3 (2017), 81.  ",
+      "doi": "10.1145/3131896"
+    },
+    {
+      "text": "Alexandra Papoutsaki, Aaron Gokaslan, James Tompkin, Yuze He, and Jeff Huang. 2018. The Eye of the Typer: A Benchmark and Analysis of Gaze Behavior During Typing. In Proceedings of the 2018 ACM Symposium on Eye Tracking Research & Applications (ETRA '18). ACM, New York, NY, USA, Article 16, 9 pages.  ",
+      "doi": "10.1145/3204493.3204552"
+    },
+    {
+      "text": "Seonwook Park, Adrian Spurr, and Otmar Hilliges. 2018. Deep Pictorial Gaze Estimation. European Conference on Computer Vision (ECCV) 16, 1 (2018), 741--757.",
+      "doi": ""
+    },
+    {
+      "text": "Seonwook Park, Xucong Zhang, Andreas Bulling, and Otmar Hilliges. 2018. Learning to Find Eye Region Landmarks for Remote Gaze Estimation in Unconstrained Settings. ACM Symposium on Eye Tracking Research and Applications (ETRA) (2018).  ",
+      "doi": "10.1145/3204493.3204545"
+    },
+    {
+      "text": "Anjul Patney, Marco Salvi, Joohwan Kim, Anton Kaplanyan, Chris Wyman, Nir Benty, David Luebke, and Aaron Lefohn. 2016. Towards Foveated Rendering for Gaze-tracked Virtual Reality. ACM Trans. Graph. 35, 6, Article 179 (Nov. 2016), 12 pages.  ",
+      "doi": "10.1145/2980179.2980246"
+    },
+    {
+      "text": "Thiago Santini, Wolfgang Fuhl, and Enkelejda Kasneci. 2017. CalibMe: Fast and Unsupervised Eye Tracker Calibration for Gaze-Based Pervasive Human-Computer Interaction. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, New York, NY, USA, 2594--2605.  ",
+      "doi": "10.1145/3025453.3025950"
+    },
+    {
+      "text": "Dhiraj K Sardar, Guang-Yin Swanland, Raylon M Yow, Robert J Thomas, and Andrew TC Tsin. 2007. Optical properties of ocular tissues in the near infrared region. Lasers in medical science 22, 1 (2007), 46--52.",
+      "doi": ""
+    },
+    {
+      "text": "A. Shrivastava, T. Pfister, O. Tuzel, J. Susskind, W. Wang, and R. Webb. 2017. Learning from Simulated and Unsupervised Images through Adversarial Training. In 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vol. 2. 2242--2251. CHI 2019, May 4--9, 2019, Glasgow, Scotland UK Kim, Stengel, Majercik, De Mello, Dunn, Laine, McGuire, and Luebke",
+      "doi": ""
+    },
+    {
+      "text": "Karen Simonyan and Andrew Zisserman. 2014. Very Deep Convolutional Networks for Large-Scale Image Recognition. CoRR abs/1409.1556 (2014). arXiv:1409.1556 http://arxiv.org/abs/1409.1556",
+      "doi": ""
+    },
+    {
+      "text": "Brian A. Smith, Qi Yin, Steven K. Feiner, and Shree K. Nayar. 2013. Gaze Locking: Passive Eye Contact Detection for Human-object Interaction. In Proceedings of the 26th Annual ACM Symposium on User Interface Software and Technology (UIST '13). ACM, New York, NY, USA, 271--280.  ",
+      "doi": "10.1145/2501988.2501994"
+    },
+    {
+      "text": "P. Smith, M. Shah, and N. da Vitoria Lobo. 2003. Determining Driver Visual Attention with One Camera. Trans. Intell. Transport. Sys. 4, 4 (Dec. 2003), 205--218.  ",
+      "doi": "10.1109/TITS.2003.821342"
+    },
+    {
+      "text": "Michael Stengel, Steve Grogorick, Martin Eisemann, Elmar Eisemann, and Marcus A. Magnor. 2015. An Affordable Solution for Binocular Eye Tracking and Calibration in Head-mounted Displays. In Proceedings of the 23rd ACM International Conference on Multimedia (MM '15). ACM, New York, NY, USA, 15--24.  ",
+      "doi": "10.1145/2733373.2806265"
+    },
+    {
+      "text": "William Steptoe, Oyewole Oyekoya, and Anthony Steed. 2010. Eyelid Kinematics for Virtual Characters. Computer Animation and Virtual Worlds 21, 3--4 (2010), 161--171. ",
+      "doi": "10.5555/1857859.1857875"
+    },
+    {
+      "text": "Y. Sugano, Y. Matsushita, and Y. Sato. 2014. Learning-by-Synthesis for Appearance-Based 3D Gaze Estimation. 2014 IEEE Conference on Computer Vision and Pattern Recognition 1, 1 (June 2014), 1821--1828.  ",
+      "doi": "10.1109/CVPR.2014.235"
+    },
+    {
+      "text": "Qi Sun, Anjul Patney, Li-Yi Wei, Omer Shapira, Jingwan Lu, Paul Asente, Suwen Zhu, Morgan Mcguire, David Luebke, and Arie Kaufman. 2018. Towards Virtual Reality Infinite Walking: Dynamic Saccadic Redirection. ACM Trans. Graph. 37, 4, Article 67 (July 2018), 13 pages.  ",
+      "doi": "10.1145/3197517.3201294"
+    },
+    {
+      "text": "Lech Swirski and Neil Dodgson. 2014. Rendering Synthetic Ground Truth Images for Eye Tracker Evaluation. In Proceedings of the Symposium on Eye Tracking Research and Applications (ETRA '14). ACM, New York, NY, USA, 219--222.  ",
+      "doi": "10.1145/2578153.2578188"
+    },
+    {
+      "text": "Lech Swirski and Neil A. Dodgson. 2013. A fully-automatic, temporal approach to single camera, glint-free 3D eye model fitting. In Proceedings of ECEM 2013. http://www.cl.cam.ac.uk/research/rainbow/ projects/eyemodelfit/",
+      "doi": ""
+    },
+    {
+      "text": "A. I. Tew. 1997. Simulation results for an innovative point-of-regard sensor using neural networks. Neural Computing & Applications 5, 4 (01 Dec 1997), 230--237.",
+      "doi": ""
+    },
+    {
+      "text": "Marc Tonsen, Julian Steil, Yusuke Sugano, and Andreas Bulling. 2017. InvisibleEye: Mobile Eye Tracking Using Multiple Low-Resolution Cameras and Learning-Based Gaze Estimation. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 1, 3, Article 106 (Sept. 2017), 21 pages.  ",
+      "doi": "10.1145/3130971"
+    },
+    {
+      "text": "Marc Tonsen, Xucong Zhang, Yusuke Sugano, and Andreas Bulling. 2016. Labelled Pupils in the Wild: A Dataset for Studying Pupil Detection in Unconstrained Environments. In Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research & Applications (ETRA '16). ACM, New York, NY, USA, 139--142.  ",
+      "doi": "10.1145/2857491.2857520"
+    },
+    {
+      "text": "Dmitry Ulyanov, Andrea Vedaldi, and Victor S. Lempitsky. 2017. Improved Texture Networks: Maximizing Quality and Diversity in FeedForward Stylization and Texture Synthesis. 2017 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017, 4105--4113.",
+      "doi": ""
+    },
+    {
+      "text": "Glyn Walsh. 1988. The effect of mydriasis on pupillary centration of the human eye. Ophthalmic Physiol Opt. 8 (02 1988), 178--82.",
+      "doi": ""
+    },
+    {
+      "text": "Ulrich Wildenmann and Frank Schaeffel. 2013. Variations of pupil centration and their effects on video eye tracking. Ophthalmic and Physiological Optics 34, 1 (09 2013).",
+      "doi": ""
+    },
+    {
+      "text": "Erroll Wood, Tadas Baltruaitis, Xucong Zhang, Yusuke Sugano, Peter Robinson, and Andreas Bulling. 2015. Rendering of Eyes for EyeShape Registration and Gaze Estimation. In Proceedings of the 2015 IEEE International Conference on Computer Vision (ICCV) (ICCV '15). IEEE Computer Society, Washington, DC, USA, 3756--3764.  ",
+      "doi": "10.1109/ICCV.2015.428"
+    },
+    {
+      "text": "Erroll Wood, Tadas Baltrusaitis, Louis-Philippe Morency, Peter Robinson, and Andreas Bulling. 2016. A 3D Morphable Eye Region Model for Gaze Estimation. In Computer Vision -- ECCV 2016, Bastian Leibe, Jiri Matas, Nicu Sebe, and Max Welling (Eds.). Springer International Publishing, Cham, 297--313.",
+      "doi": ""
+    },
+    {
+      "text": "Erroll Wood, Tadas Baltrusaitis, Louis-Philippe Morency, Peter Robinson, and Andreas Bulling. 2016. Learning an Appearance-based Gaze Estimator from One Million Synthesised Images. In Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research & Applications (ETRA '16). ACM, New York, NY, USA, 131--138.  ",
+      "doi": "10.1145/2857491.2857492"
+    },
+    {
+      "text": "Harry J. Wyatt. 2010. The human pupil and the use of video-based eyetrackers. Vision Research 50, 10 (2010), 1982--1988.",
+      "doi": ""
+    },
+    {
+      "text": "Yabo Yang, Keith Thompson, and Stephen Burns. 2002. Pupil Location under Mesopic, Photopic, and Pharmacologically Dilated Conditions. Invest Ophthalmol Vis Sci. 43 (08 2002), 2508--12.",
+      "doi": ""
+    },
+    {
+      "text": "Xucong Zhang, Michael Xuelin Huang, Yusuke Sugano, and Andreas Bulling. 2018. Training Person-Specific Gaze Estimators from User Interactions with Multiple Devices. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). ACM, New York, NY, USA, Article 624, 12 pages.  ",
+      "doi": "10.1145/3173574.3174198"
+    },
+    {
+      "text": "Xucong Zhang, Yusuke Sugano, Mario Fritz, and Andreas Bulling. 2015. Appearance-based gaze estimation in the wild. 1, 1 (June 2015), 4511--4520.",
+      "doi": ""
+    },
+    {
+      "text": "Xucong Zhang, Yusuke Sugano, Mario Fritz, and Andreas Bulling. 2016. It's Written All Over Your Face: Full-Face Appearance-Based Gaze Estimation. CoRR abs/1611.08860. arXiv:1611.08860 http://arxiv. org/abs/1611.08860",
+      "doi": ""
+    },
+    {
+      "text": "Xucong Zhang, Yusuke Sugano, Mario Fritz, and Andreas Bulling. 2017. MPIIGaze: Real-World Dataset and Deep Appearance-Based Gaze Estimation. CoRR abs/1711.09017 (2017). arXiv:1711.09017 http: //arxiv.org/abs/1711.09017",
+      "doi": ""
+    },
+    {
+      "text": "George Zonios and Aikaterini Dimou. 2009. Light scattering spectroscopy of human skin in vivo. Opt. Express 17, 3 (Feb 2009), 1256-- 1267.",
+      "doi": ""
+    }
+  ]
+}

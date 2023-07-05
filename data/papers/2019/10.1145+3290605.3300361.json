@@ -1,0 +1,890 @@
+{
+  "doi": "10.1145/3290605.3300361",
+  "title": "Self-Control in Cyberspace: Applying Dual Systems Theory to a Review of Digital Self-Control Tools",
+  "published": "2019-05-02",
+  "proctitle": "CHI '19: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2019,
+  "badges": [],
+  "abstract": "Many people struggle to control their use of digital devices. However, our understanding of the design mechanisms that support user self-control remains limited. In this paper, we make two contributions to HCI research in this space: first, we analyse 367 apps and browser extensions from the Google Play, Chrome Web, and Apple App stores to identify common core design features and intervention strategies afforded by current tools for digital self-control. Second, we adapt and apply an integrative dual systems model of self-regulation as a framework for organising and evaluating the design features found. Our analysis aims to help the design of better tools in two ways: (i) by identifying how, through a well-established model of self-regulation, current tools overlap and differ in how they support self-control; and (ii) by using the model to reveal underexplored cognitive mechanisms that could aid the design of new tools.",
+  "authors": [
+    {
+      "name": "Ulrik Lyngs",
+      "institution": "University of Oxford, Oxford, United Kingdom",
+      "img": "/do/10.1145/contrib-99659161047/rel-imgonly/704330_10151299089216195_1209963406_o-2.jpg",
+      "acmid": "99659161047",
+      "orcid": "0000-0001-9960-1436"
+    },
+    {
+      "name": "Kai Lukoff",
+      "institution": "University of Washington, Seattle, WA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659161231",
+      "orcid": "0000-0001-5069-6817"
+    },
+    {
+      "name": "Petr Slovak",
+      "institution": "University College London & King's College London, London, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81435611500",
+      "orcid": "missing"
+    },
+    {
+      "name": "Reuben Binns",
+      "institution": "University of Oxford, Oxford, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "87959194057",
+      "orcid": "missing"
+    },
+    {
+      "name": "Adam Slack",
+      "institution": "University of Oxford, Oxford, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659261391",
+      "orcid": "missing"
+    },
+    {
+      "name": "Michael Inzlicht",
+      "institution": "University of Toronto, Toronto, ON, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659365355",
+      "orcid": "missing"
+    },
+    {
+      "name": "Max Van Kleek",
+      "institution": "University of Oxford, Oxford, Oxfordshire, United Kingdom",
+      "img": "/do/10.1145/contrib-81328490974/rel-imgonly/max-android.jpg",
+      "acmid": "81328490974",
+      "orcid": "0000-0003-3873-6366"
+    },
+    {
+      "name": "Nigel Shadbolt",
+      "institution": "University of Oxford, Oxford, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100351241",
+      "orcid": "0000-0002-5085-9724"
+    }
+  ],
+  "references": [
+    {
+      "text": "Lorien C. Abroms, Nalini Padmanabhan, Lalida Thaweethai, and Todd Phillips. 2011. iPhone apps for smoking cessation: A content analysis. American Journal of Preventive Medicine, Vol. 40, 3 (2011), 279--285.",
+      "doi": ""
+    },
+    {
+      "text": "Alexander T. Adams, Jean Costa, Malte F. Jung, and Tanzeem Choudhury. 2015. Mindless Computing: Designing Technologies to Subtly Influence Behavior. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing. ACM, 719--730.  ",
+      "doi": "10.1145/2750858.2805843"
+    },
+    {
+      "text": "R. Alison Adcock, Arul Thangavel, Susan Whitfield-Gabrieli, Brian Knutson, and John D.E. Gabrieli. 2006. Reward-Motivated Learning: Mesolimbic Activation Precedes Memory Formation. Neuron, Vol. 50, 3 (2006), 507--517.",
+      "doi": ""
+    },
+    {
+      "text": "G. Ainslie. 2001. Breakdown of Will. Cambridge University Press.",
+      "doi": ""
+    },
+    {
+      "text": "G. Ainslie. 2010. Procrastination: The Basic Impulse. In The Thief of Time: Philosophical Essays on Procrastination, Andreou Chrisoula and Mark D. White (Eds.). Oxford University Press, New York, 11--27.",
+      "doi": ""
+    },
+    {
+      "text": "Icek Ajzen. 1991. The theory of planned behavior. Organizational Behavior and Human Decision Processes, Vol. 50, 2 (1991), 179--211.",
+      "doi": ""
+    },
+    {
+      "text": "Adam Alter. 2017. Irresistible: The Rise of Addictive Technology and the Business of Keeping Us Hooked. Penguin Press. ",
+      "doi": "10.5555/3153564"
+    },
+    {
+      "text": "Mg Ames. 2013. Managing mobile multitasking: the culture of iPhones on stanford campus. Computer Supported Cooperative Work (2013), 1487--1498.  ",
+      "doi": "10.1145/2441776.2441945"
+    },
+    {
+      "text": "Ionut Andone, Konrad Blaszkiewicz, Mark Eibes, Boris Trendafilov, Christian Montag, and Alexander Markowetz. 2016. Menthal: Quantifying Smartphone Usage. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct (UbiComp '16). ACM, New York, NY, USA, 559--564.  ",
+      "doi": "10.1145/2968219.2968321"
+    },
+    {
+      "text": "Cecilie Schou Andreassen, Jo\u00eb l Billieux, Mark D. Griffiths, Daria J. Kuss, Zsolt Demetrovics, Elvis Mazzoni, and St\u00e5le Pallesen. 2016. The relationship between addictive use of social media and video games and symptoms of psychiatric disorders: A large-scale cross-sectional study. Psychology of Addictive Behaviors, Vol. 30, 2 (2016), 252--262.",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2018. iOS 12 introduces new features to reduce interruptions and manage Screen Time. https://www.apple.com/uk/newsroom/2018/06/ios-12-introduces- new-features-to-reduce-interruptions-and-manage-screen-time/",
+      "doi": ""
+    },
+    {
+      "text": "Dan Ariely and Klaus Wertenbroch. 2002. Procrastination, deadlines, and performance: self-control by precommitment. Psychological science 2000 (2002), 219--224.",
+      "doi": ""
+    },
+    {
+      "text": "S. E. Asch. 1951. Opinions and Social Pressure. Scientific American. Scientific American, Vol. 193 (1951), 31--35.",
+      "doi": ""
+    },
+    {
+      "text": "Alan Baddeley. 2003. Working Memory: Looking Back and Looking Forward. Nature reviews. Neuroscience, Vol. 4, October (2003), 829--839.",
+      "doi": ""
+    },
+    {
+      "text": "Albert Bandura. 1991. Social Cognitive Theory of Self-Regulation. Organizational Behavior and Human Decision Processes, Vol. 50, 2 (1991), 248--287.",
+      "doi": ""
+    },
+    {
+      "text": "Alan Baron, M. Perone, and M. Galizio. 1991. Analyzing the reinforcement process at the human level: Can application and behavioristic interpretation replace laboratory research? The Behavior Analyst, Vol. 14, 2 (1991), 95--105.",
+      "doi": ""
+    },
+    {
+      "text": "Roy F. Baumeister and Julie Juola Exline. 2000. Self-control, Morality, and Human Strength. Journal of Social and Clinical Psychology, Vol. 19, 1 (2000), 29--42.",
+      "doi": ""
+    },
+    {
+      "text": "Roy F. Baumeister, Kathleen D Vohs, and Dianne M Tice. 2007. The Strength Model of Self-Control. Current Directions in Psychological Science, Vol. 16, 6 (2007), 351--355.",
+      "doi": ""
+    },
+    {
+      "text": "Eric Baumer and Phil Adams. 2013. Limiting, leaving, and (re) lapsing: an exploration of facebook non-use practices and experiences. Chi 2013 (2013), 3257--3266.  ",
+      "doi": "10.1145/2470654.2466446"
+    },
+    {
+      "text": "Jacqueline Lorene Bender, Rossini Ying Kwan Yue, Matthew Jason To, Laetitia Deacken, and Alejandro R Jadad. 2013. A Lot of Action, But Not in the Right Direction: Systematic Review and Content Analysis of Smartphone Applications for the Prevention, Detection, and Management of Cancer. J Med Internet Res, Vol. 15, 12 (dec 2013), e287.",
+      "doi": ""
+    },
+    {
+      "text": "Riley Bennett. 2018. Wormhole Escaper. https://chrome.google.com/webstore/detail/wormhole-escaper/ jadgefoemafhcdkbhmeadkmodmpnfcak?hl=gb",
+      "doi": ""
+    },
+    {
+      "text": "Elliot T Berkman, Cendri A Hutcherson, Jordan L Livingston, Lauren E Kahn, and Michael Inzlicht. 2017. Self-Control as Value-Based Choice. Current Directions in Psychological Science, Vol. 26, 5 (2017), 422--428.",
+      "doi": ""
+    },
+    {
+      "text": "D. Bernoulli. 1954. Exposition of a new theory of the measurement of risk. Econometrica, Vol. 22 (1954), 23--36.",
+      "doi": ""
+    },
+    {
+      "text": "Kent C. Berridge and Morten L. Kringelbach. 2015. Pleasure Systems in the Brain. Neuron, Vol. 86, 3 (2015), 646--664.",
+      "doi": ""
+    },
+    {
+      "text": "Bastien Blain, Guillaume Hollard, and Mathias Pessiglione. 2016. Neural mechanisms underlying the impact of daylong cognitive work on economic decisions. Proceedings of the National Academy of Sciences, Vol. 113, 25 (2016), 6967--6972.",
+      "doi": ""
+    },
+    {
+      "text": "Richard A. Block, P. A. Hancock, and Dan Zakay. 2010. How cognitive load affects duration judgments: A meta-analytic review. Acta Psychologica, Vol. 134 (2010), 330--343.",
+      "doi": ""
+    },
+    {
+      "text": "Jonas Nygaard Blom and Kenneth Reinecke Hansen. 2015. Click bait: Forward-reference as lure in online news headlines. Journal of Pragmatics, Vol. 76 (2015), 87--100.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Botvinick and Todd S Braver. 2015. Motivation and cognitive control: From behavior to neural mechanism. Annual Review of Psychology, Vol. 66 (2015), 83--113.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew M Botvinick. 2008. Hierarchical models of behaviors and prefrontal function. Trends in Cognitive Sciences, Vol. 12, 5 (2008), 201--208.",
+      "doi": ""
+    },
+    {
+      "text": "Boundless Mind Inc. 2018. Space - You Need a Breather. https://itunes.apple.com/gb/app/space-you-need-a-breather/id1187106675?mt=8&ign-mpt=uo%3D4",
+      "doi": ""
+    },
+    {
+      "text": "Gharad Bryan, Dean S. Karlan, and Scott Nelson. 2010. Commitment Devices. Annual Review of Economics, Vol. 2 (2010), 671--698.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Caraco, Steven Martindale, and Thomas S. Whittam. 1980. An empirical demonstration of risk-sensitive foraging preferences. Animal Behaviour, Vol. 28, 3 (aug 1980), 820--830.",
+      "doi": ""
+    },
+    {
+      "text": "C. S. Carver and M. F. Scheier. 1981. Attention and self-regulation: A control-theory approach to human behavior. Springer-Verlag, New York.",
+      "doi": ""
+    },
+    {
+      "text": "C. S. Carver and M. F. Scheier. 1998. On the self-regulation of behavior. Cambridge University Press, New York.",
+      "doi": ""
+    },
+    {
+      "text": "Josh Centers. 2018. Tim Cook Uses His iPhone Too Much. https://tidbits.com/2018/06/07/tim-cook-uses-his-iphone-too- much/",
+      "doi": ""
+    },
+    {
+      "text": "Kaustav Chakraborty, Debasish Basu, and K. G. Vijaya Kumar. 2010. Internet addiction: Consensus, controversies, and the way ahead. East Asian Archives of Psychiatry, Vol. 20, 3 (2010), 123--132.",
+      "doi": ""
+    },
+    {
+      "text": "Emily I M Collins, Anna L Cox, Jon Bird, and Cassie Cornish-Tresstail. 2014. Barriers to engagement with a personal informatics productivity tool. Proceedings of the 26th Australian Computer-Human Interaction Conference on Designing Futures the Future of Design - OzCHI '14 (2014), 370--379.  ",
+      "doi": "10.1145/2686612.2686668"
+    },
+    {
+      "text": "Sunny Consolvo, David W. McDonald, and James A. Landay. 2009. Theory-Driven Design Strategies for Technologies that Support Behavior Change in Everyday Life. In CHI 2009 Creative Thought and Self-Improvement. Boston, Massachusetts, USA, 405--414.  ",
+      "doi": "10.1145/1518701.1518766"
+    },
+    {
+      "text": "Christos Constantinidis and Xiao-Jing Wang. 2007. A Neural Circuit Basis for Spatial Working Memory. The Neuroscientist, Vol. 10, 6 (2007), 553--565.",
+      "doi": ""
+    },
+    {
+      "text": "Richard Cooper and Tim Shallice. 2000. Contention Scheduling and the Control of Routine Activities. Cognitive Neuropsychology, Vol. 17, 4 (2000), 297--338.",
+      "doi": ""
+    },
+    {
+      "text": "Richard P. Cooper, Nicolas Ruh, and Denis Mareschal. 2014. The goal circuit model: A hierarchical multi-route model of the acquisition and control of routine sequential action in humans. Cognitive Science, Vol. 38, 2 (2014), 244--274.",
+      "doi": ""
+    },
+    {
+      "text": "M Corbetta, F M Miezin, S Dobmeyer, G L Shulman, and S E Petersen. 1991. Selective and divided attention during visual discriminations of shape, color, and speed: functional anatomy by positron emission tomography. The Journal of neuroscience : the official journal of the Society for Neuroscience, Vol. 11, 8 (1991), 2383--402. http://www.ncbi.nlm.nih.gov/pubmed/1869921",
+      "doi": ""
+    },
+    {
+      "text": "Steven S Coughlin, Mary Whitehead, Joyce Q Sheats, Jeff Mastromonico, Dale Hardy, and Selina A Smith. 2015. Smartphone Applications for Promoting Healthy Diet and Nutrition: A Literature Review. Jacobs journal of food and nutrition, Vol. 2, 3 (2015), 021.",
+      "doi": ""
+    },
+    {
+      "text": "Nelson Cowan. 2010. The Magical Mystery Four: How is Working Memory Capacity Limited, and Why? Curr Dir Psychol Sci, Vol. 19, 1 (2010), 51--57.",
+      "doi": ""
+    },
+    {
+      "text": "Anna L Cox, Sandy J J Gould, Marta E Cecchinato, Ioanna Iacovides, and Ian Renfree. 2016. Design Frictions for Mindful Interactions: The Case for Microboundaries. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '16). ACM, New York, NY, USA, 1389--1397.  ",
+      "doi": "10.1145/2851581.2892410"
+    },
+    {
+      "text": "T S Critchfield and S H Kollins. 2001. Temporal discounting: basic research and the analysis of socially important behavior. Journal of applied behavior analysis, Vol. 34, 1 (2001), 101--122. backslash$n0021--8855 (Linking)",
+      "doi": ""
+    },
+    {
+      "text": "Croshan. 2018. Pipe Clogger. https://chrome.google.com/webstore/detail/pipe-clogger/ hlaegcjcddgappcehdfoakpjnfpoaebl?hl=gb",
+      "doi": ""
+    },
+    {
+      "text": "Laura Dabbish, Gloria Mark, and V\u00ed ctor M. Gonz\u00e1 lez. 2011. Why do i keep interrupting myself? Proceedings of the 2011 annual conference on Human factors in computing systems - CHI '11 (2011), 3127.",
+      "doi": ""
+    },
+    {
+      "text": "Hengchen Dai, Katherine L. Milkman, David A. Hofmann, and Bradley R. Staats. 2015. The impact of time at work and time off from work on rule compliance: The case of hand hygiene in health care. Journal of Applied Psychology, Vol. 100, 3 (may 2015), 846--862.",
+      "doi": ""
+    },
+    {
+      "text": "T. H. Davenport and J. C. Beck. 2001. The Attention Economy: Understanding the New Currency of Business. Harvard Business School Press.",
+      "doi": ""
+    },
+    {
+      "text": "Digital Wellness Warriors. 2018. Apple: let developers help iPhone users with mental wellbeing. https://www.change.org/p/apple-allow-digital-wellness- developers-to-help-ios-users",
+      "doi": ""
+    },
+    {
+      "text": "Paul Dolan, Antony Elliott, Robert Metcalfe, and Ivo Vlaev. 2012. Influencing Financial Behavior: From Changing Minds to Changing Contexts. Journal of Behavioral Finance, Vol. 13, 2 (2012), 126--142.",
+      "doi": ""
+    },
+    {
+      "text": "Angela L. Duckworth, Tamar Szab\u00f3 Gendler, and James J. Gross. 2014. Self Control in School Age Children. Educational Psychologist, Vol. 49, 3 (2014), 199--217.",
+      "doi": ""
+    },
+    {
+      "text": "A. L. Duckworth, T. S. Gendler, and J. J. Gross. 2016. Situational Strategies for Self-Control. Perspectives on Psychological Science, Vol. 11, 1 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "H E Egeth and S Yantis. 1997. Visual attention: control, representation, and time course. Annual review of psychology, Vol. 48 (1997), 269--297.",
+      "doi": ""
+    },
+    {
+      "text": "Mara Einstein. 2016. Black Ops Advertising. OR Books, New York.",
+      "doi": ""
+    },
+    {
+      "text": "Jon D. Elhai, Jason C. Levine, Robert D. Dvorak, and Brian J. Hall. 2016. Fear of missing out, need for touch, anxiety and depression are related to problematic smartphone use. Computers in Human Behavior, Vol. 63 (2016), 509--516.  ",
+      "doi": "10.1016/j.chb.2016.05.079"
+    },
+    {
+      "text": "Nicholas Epley and Thomas Gilovich. 1999. Just Going Along: Nonconscious Priming and Conformity to Social Pressure. Journal of Experimental Social Psychology, Vol. 35 (1999), 578--589.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel A. Epstein, An Ping, James Fogarty, and Sean A. Munson. 2015. A lived informatics model of personal informatics. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing - UbiComp '15. 731--742.  ",
+      "doi": "10.1145/2750858.2804250"
+    },
+    {
+      "text": "Owain Evans, Andreas Stuhl, Noah D. Goodman, Andreas Stuhlm\u00fc ller, and Noah D. Goodman. 2016. Learning the Preferences of Ignorant, Inconsistent Agents. Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence (2016), 323--329. ",
+      "doi": "10.5555/3015812.3015860"
+    },
+    {
+      "text": "Flipd Inc. 2018. Flipd. https://play.google.com/store/apps/details? id=com.flipd.app&hl=en&gl=us",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Safran Foer. 2016. Technology is diminishing us. https://www.theguardian.com/books/2016/dec/03/jonathan- safran-foer-technology-diminishing-us",
+      "doi": ""
+    },
+    {
+      "text": "Kirsten Foot. 2014. The online emergence of pushback on social media in the United States: A historical discourse analysis. International Journal of Communication, Vol. 8, 1 (2014), 1313--1342.",
+      "doi": ""
+    },
+    {
+      "text": "A. Gazzaley, W. Clapp, J. Kelley, K. McEvoy, R. T. Knight, and M. D'Esposito. 2008. Age-related top-down suppression deficit in the early stages of cortical visual memory processing. Proceedings of the National Academy of Sciences, Vol. 105, 35 (2008), 13122--13126.",
+      "doi": ""
+    },
+    {
+      "text": "Henner Gimpel, Christian Regal, and Marco Schmidt. 2015. myStress: Unobtrusive Smartphone-Based Stress Detection. ECIS 2015 (2015), 0--12. http://aisel.aisnet.org/cgi/viewcontent.cgi?article=1015&context=ecis2015_rip",
+      "doi": ""
+    },
+    {
+      "text": "Peter M. Gollwitzer and Paschal Sheeran. 2006. Implementation Intentions and Goal Achievement: A Meta-analysis of Effects and Processes. Advances in Experimental Social Psychology, Vol. 38 (2006), 69--119.",
+      "doi": ""
+    },
+    {
+      "text": "Robbie Gonzalez. 2018. The Research Behind Google's New Tools for Digital Well-Being. Wired (may 2018). https://www.wired.com/story/the-research-behind-googles-new- tools-for-digital-well-being/",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2018. Digital Wellbeing. https://wellbeing.google",
+      "doi": ""
+    },
+    {
+      "text": "Google Play. 2017. Forest: Stay focused. https://play.google.com/store/apps/details?id=cc.forestapp&hl=en_GB",
+      "doi": ""
+    },
+    {
+      "text": "David H Gustafson, Michael G. Boyle, Bret R. Shaw, and Fiona M McTavish. 2011. An E-health solution for people with alcohol problems. Alcohol Res Health, Vol. 33, 4 (2011), 327--337.",
+      "doi": ""
+    },
+    {
+      "text": "Anthony Ha. 2012. The Phone Stacking Game: Let's Make This A Thing. https://techcrunch.com/2012/02/04/the-phone-stacking-game- lets-make-this-a-thing/",
+      "doi": ""
+    },
+    {
+      "text": "Martin S Hagger, Nikos L D Chatzisarantis, Hugo Alberts, Calvin Octavianus Anggono, C\u00e9 dric Batailler, Angela R Birt, Ralf Brand, Mark J Brandt, Gene Brewer, Sabrina Bruyneel, Dustin P Calvillo, W Keith Campbell, Peter R Cannon, Marianna Carlucci, Nicholas P Carruth, Tracy Cheung, Adrienne Crowell, Denise T D De Ridder, Siegfried Dewitte, Malte Elson, Jacqueline R Evans, Benjamin A Fay, Bob M Fennis, Anna Finley, Zo\u00eb Francis, Elke Heise, Henrik Hoemann, Michael Inzlicht, Sander L Koole, Lina Koppel, Floor Kroese, Florian Lange, Kevin Lau, Bridget P Lynch, Carolien Martijn, Harald Merckelbach, Nicole V Mills, Alexej Michirev, Akira Miyake, Alexandra E Mosser, Megan Muise, Dominique Muller, Milena Muzi, Dario Nalis, Ratri Nurwanti, Henry Otgaar, Michael C Philipp, Pierpaolo Primoceri, Katrin Rentzsch, Lara Ringos, Caroline Schlinkert, Brandon J Schmeichel, Sarah F Schoch, Michel Schrama, Astrid Sch\u00fc tz, Angelos Stamos, Gustav Tingh\u00f6 g, Johannes Ullrich, Michelle Vandellen, Supra Wimbarti, Wanja Wolff, Cleoputri Yusainy, Oulmann Zerhouni, Maria Zwienenberg, Chandra Sripada, Daniel Kessler, and Roy Baumeister. 2016. A Multilab Preregistered Replication of the Ego-Depletion Effect. Perspectives on Psychological Science, Vol. 11, 4 (2016), 546--573.",
+      "doi": ""
+    },
+    {
+      "text": "Martin S Hagger, Chantelle Wood, Chris Stiff, and Nikos L D Chatzisarantis. 2010. Ego depletion and the strength model of self-control: a meta-analysis. Psychological bulletin, Vol. 136, 4 (2010), 495--525.",
+      "doi": ""
+    },
+    {
+      "text": "Wendy Hardeman, Stephen Sutton, Simon Griffin, Marie Johnston, Anthony White, Nicholas J. Wareham, and Ann Louise Kinmonth. 2005. A causal modelling approach to the development of theory-based behaviour change programmes for trial evaluation. Health Education Research, Vol. 20, 6 (2005), 676--687.",
+      "doi": ""
+    },
+    {
+      "text": "Tristan Harris. 2016. How Technology Hijacks People's Minds - from a Magician and Google's Design Ethicist. http://www.huffingtonpost.com/tristan-harris/how-technology-hijacks-peoples-minds_b_10155754.html",
+      "doi": ""
+    },
+    {
+      "text": "Jaimee L. Heffner, Roger Vilardaga, Laina D. Mercer, Julie A. Kientz, and Jonathan B. Bricker. 2015. Feature-level analysis of a novel smartphone application for smoking cessation. The American Journal of Drug and Alcohol Abuse, Vol. 41, 1 (2015), 68--73.",
+      "doi": ""
+    },
+    {
+      "text": "Christian S Hendershot, Katie Witkiewitz, William H George, and G Alan Marlatt. 2011. Relapse prevention for addictive behaviors. Substance Abuse Treatment, Prevention, and Policy, Vol. 6, 1 (2011), 17.",
+      "doi": ""
+    },
+    {
+      "text": "Alexis Hiniker, Sungsoo Ray Hong, Tadayoshi Kohno, and Julie A Kientz. 2016. MyTime: Designing and Evaluating an Intervention for Smartphone Non-Use. Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (2016), 4746--4757.  ",
+      "doi": "10.1145/2858036.2858403"
+    },
+    {
+      "text": "Robert Hockey. 2013. The Psychology of Fatigue: Work, Effort and Control. Cambridge University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Wilhelm Hofmann, Kathleen D. Vohs, and Roy F. Baumeister. 2012. What People Desire, Feel Conflicted About, and Try to Resist in Everyday Life. Psychological Science, Vol. 23, 6 (2012), 582--588.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Inzlicht, Lisa Legault, and Rimma Teper. 2014a. Exploring the Mechanisms of Self-Control Improvement. Current Directions in Psychological Science, Vol. 23, 4 (2014), 302--307.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Inzlicht, Brandon J. Schmeichel, and C. Neil Macrae. 2014b. Why self-control seems (but may not be) limited. Trends in Cognitive Sciences, Vol. 18, 3 (2014), 127--133.",
+      "doi": ""
+    },
+    {
+      "text": "L Itti and C Koch. 2001. Computational modelling of visual attention. Nature reviews. Neuroscience, Vol. 2, 3 (2001), 194--203.",
+      "doi": ""
+    },
+    {
+      "text": "B A Iwata. 1987. Negative reinforcement in applied behavior analysis: an emerging technology. Journal of Applied Behavior Analysis, Vol. 20, 4 (1987), 361--378.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Kahneman. 2011. Thinking, fast and slow. Allen Lane (Penguin), New York.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Kahneman and Amos Tversky. 1979. Prospect Theory: An Analysis of Decision Under Risk. Econometrica, Vol. 47, 2 (1979), 263--292.",
+      "doi": ""
+    },
+    {
+      "text": "Elisabeth T. Kersten-van Dijk, Joyce H.D.M. Westerink, Femke Beute, and Wijnand A. IJsselsteijn. 2017. Personal Informatics, Self-Insight, and Behavior Change: A Critical Review of Current Literature. Human--Computer Interaction, Vol. 32, 5--6 (2017), 268--296.  ",
+      "doi": "10.1080/07370024.2016.1276456"
+    },
+    {
+      "text": "Inyeop Kim, Gyuwon Jung, Hayoung Jung, Minsam Ko, and Uichin Lee. 2017b. Let's FOCUS: Mitigating Mobile Phone Use in College Classrooms. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol., Vol. 1, 3 (sep 2017), 63:1---63:29.  ",
+      "doi": "10.1145/3130928"
+    },
+    {
+      "text": "Jaejeung Kim, Chiwoo Cho, and Uichin Lee. 2017a. Technology Supported Behavior Restriction for Mitigating Self-Interruptions in Multi-device Environments. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 1, 3 (sep 2017), 1--21.  ",
+      "doi": "10.1145/3130932"
+    },
+    {
+      "text": "Young-Ho Kim, Jae Ho Jeon, Eun Kyoung Choe, Bongshin Lee, KwonHyun Kim, and Jinwook Seo. 2016. TimeAware: Leveraging Framing Effects to Enhance Personal Productivity. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). ACM, New York, NY, USA, 272--283.  ",
+      "doi": "10.1145/2858036.2858428"
+    },
+    {
+      "text": "Jake Knapp. 2013. The distraction-free iPhone (or 'Why I'm happier since I disabled Safari'). https://medium.com/time-dorks/the-distraction-free-iphone- or-why-im-happier-since-i-disabled-safari-80f8d525b0d8",
+      "doi": ""
+    },
+    {
+      "text": "Eric I Knudsen. 2007. Fundamental Components of Attention. Annual review of neuroscience, Vol. 30 (2007), 57--78. backslash$n0147-006X (Linking)",
+      "doi": ""
+    },
+    {
+      "text": "Minsam Ko, Seungwoo Choi, Koji Yatani, and Uichin Lee. 2016. Lock N' LoL: Group-based Limiting Assistance App to Mitigate Smartphone Distractions in Group Activities. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, New York, 998--1010.  ",
+      "doi": "10.1145/2858036.2858568"
+    },
+    {
+      "text": "Minsam Ko, Kyong-Mee Chung, Subin Yang, Joonwon Lee, Christian Heizmann, Jinyoung Jeong, Uichin Lee, Daehee Shin, Koji Yatani, and Junehwa Song. 2015. NUGU: A Group-based Intervention App for Improving Self-Regulation of Limiting Smartphone Use. Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing - CSCW '15 (2015), 1235--1245.  ",
+      "doi": "10.1145/2675133.2675244"
+    },
+    {
+      "text": "Artie Konrad, Vitoria Belotti, Nicole Crenshaw, Simon Tucker, Les Nelson, Honglu Du, Peter Pirolli, Steve Whittaker, Steve Whittaker Artie Konrad, Vitoria Belotti, Nicole Crenshaw, Simon Tucker, Les Nelson, Honglu Du, Peter Pirolli, Artie Konrad, Vitoria Belotti, Nicole Crenshaw, Simon Tucker, Les Nelson, Honglu Du, Peter Pirolli, and Steve Whittaker. 2015. Finding the Adaptive Sweet Spot: Balancing Compliance and Achievement in Automated Stress Reduction. Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems - CHI '15 (2015), 3829--3838.  ",
+      "doi": "10.1145/2702123.2702512"
+    },
+    {
+      "text": "Hiroki P. Kotabe and Wilhelm Hofmann. 2015. On Integrating the Components of Self-Control. Perspectives on Psychological Science, Vol. 10, 5 (2015), 618--638. backslash$r1745--6924, Electronic",
+      "doi": ""
+    },
+    {
+      "text": "Geza Kovacs, Zhengxuan Wu, and Michael S Bernstein. 2018. Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition. Proc. ACM Hum.-Comput. Interact., Vol. 2, CSCW (nov 2018), 95:1---95:25.  ",
+      "doi": "10.1145/3274364"
+    },
+    {
+      "text": "S. Shunmuga Krishnan and Ramesh K. Sitaraman. 2013. Video stream quality impacts viewer behavior: Inferring causality using quasi-experimental designs. IEEE/ACM Transactions on Networking, Vol. 21, 6 (2013), 2001--2014.  ",
+      "doi": "10.1109/TNET.2013.2281542"
+    },
+    {
+      "text": "Florian Lange and Frank Eggert. 2014. Sweet delusion: Glucose drinks fail to counteract ego depletion. Appetite, Vol. 75, July 2015 (2014), 54--63.",
+      "doi": ""
+    },
+    {
+      "text": "Heyoung Lee, Heejune Ahn, Samwook Choi, and Wanbok Choi. 2014a. The SAMS: Smartphone addiction management system and verification. Journal of Medical Systems, Vol. 38, 1 (2014). backslash$r0148--5598 (Linking)  ",
+      "doi": "10.1007/s10916-013-0001-1"
+    },
+    {
+      "text": "U Lee, J Lee, Minsam Ko, Changhun Lee, and Yuhwan Kim. 2014b. Hooked on smartphones: an exploratory study on smartphone overuse among college students. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI'14). ACM, New York, 2327--2336.  ",
+      "doi": "10.1145/2556288.2557366"
+    },
+    {
+      "text": "Ian Leslie. 2016. The scientists who make apps addictive. The Economist (2016). https://www.1843magazine.com/features/the-scientists-who- make-apps-addictive",
+      "doi": ""
+    },
+    {
+      "text": "Ian Li, Anind Dey, and Jodi Forlizzi. 2010. A stage-based model of personal informatics systems. In Proceedings of the 28th international conference on Human factors in computing systems - CHI '10. 557.  ",
+      "doi": "10.1145/1753326.1753409"
+    },
+    {
+      "text": "Hajin Lim, Ian Arawjo, Yaxian Xie, Negar Khojasteh, and Susan R Fussell. 2017. Distraction or Life Saver? The Role of Technology in Undergraduate Students' Boundary Management Strategies. Proceedings of the ACM on Human-Computer Interaction, Vol. 1, CSCW, November (2017).  ",
+      "doi": "10.1145/3134703"
+    },
+    {
+      "text": "Markus L\u00f6 chtefeld, Matthias B\u00f6 hmer, and Lyubomir Ganev. 2013. AppDetox. Proceedings of the 12th International Conference on Mobile and Ubiquitous Multimedia - MUM '13 (2013), 1--2.",
+      "doi": ""
+    },
+    {
+      "text": "Edwin A. Locke and Gary P. Latham. 2002. Building a practically useful theory of goal setting and task motivation: A 35-year odyssey. American Psychologist, Vol. 57, 9 (2002), 705--717.",
+      "doi": ""
+    },
+    {
+      "text": "Danielle Lottridge, Eli Marschner, Ellen Wang, Maria Romanovsky, and Clifford Nass. 2012. Browser design impacts multitasking. In Proceedings of the Human Factors and Ergonomics Society 56th Annual Meeting.",
+      "doi": ""
+    },
+    {
+      "text": "Arlene R Lundquist, Emily J Lefebvre, and Sara J Garramone. 2014. Smartphones: Fulfilling the need for immediacy in everyday life, but at what cost? International Journal of Humanities and Social Science, Vol. 4, 2 (2014), 80--89.",
+      "doi": ""
+    },
+    {
+      "text": "John H. Lurquin and Akira Miyake. 2017. Challenges to ego-depletion research go beyond the replication crisis: A need for tackling the conceptual crisis. Frontiers in Psychology, Vol. 8, APR (2017), 1--5.",
+      "doi": ""
+    },
+    {
+      "text": "Ulrik Lyngs. 2018a. A Cognitive Design Space for Supporting Self-Regulation of ICT Use. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (CHI EA '18). ACM, New York, NY, USA, SRC14:1---SRC14:6.  ",
+      "doi": "10.1145/3170427.3180296"
+    },
+    {
+      "text": "Ulrik Lyngs. 2018b. CHI Proceedings R Markdown Template. https://github.com/ulyngs/chi-proc-rmd-template",
+      "doi": ""
+    },
+    {
+      "text": "Ulrik Lyngs, Reuben Binns, Max Van Kleek, and Nigel Shadbolt. 2018. \"So, Tell Me What Users Want, What They Really, Really Want!\". In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (CHI EA '18). ACM, New York, NY, USA, alt04:1---alt04:10.  ",
+      "doi": "10.1145/3170427.3188397"
+    },
+    {
+      "text": "Claudia Marino, Gianluca Gini, Alessio Vieno, and Marcantonio M. Spada. 2018a. A comprehensive meta-analysis on Problematic Facebook Use. Computers in Human Behavior, Vol. 83 (2018), 262--277.  ",
+      "doi": "10.1016/j.chb.2018.02.009"
+    },
+    {
+      "text": "Claudia Marino, Gianluca Gini, Alessio Vieno, and Marcantonio M. Spada. 2018b. The associations between problematic Facebook use, psychological distress and well-being among adolescents and young adults: A systematic review and meta-analysis. Journal of Affective Disorders, Vol. 226, September 2017 (2018), 274--281.",
+      "doi": ""
+    },
+    {
+      "text": "Gloria Mark, Mary Czerwinski, and Shamsi T Iqbal. 2018. Effects of Individual Differences in Blocking Workplace Distractions. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). ACM, New York, NY, USA, 92:1---92:12.  ",
+      "doi": "10.1145/3173574.3173666"
+    },
+    {
+      "text": "Gloria Mark, Shamsi Iqbal, and Mary Czerwinski. 2017. How Blocking Distractions Affects Workplace Focus and Productivity. In UbiComp/ISWC'17 Adjunct. Maui, HI, USA, 928--934.  ",
+      "doi": "10.1145/3123024.3124558"
+    },
+    {
+      "text": "Veronica Marotta and Alessandro Acquisti. 2017. Online Distractions, Website Blockers, and Economic Productivity: A Randomized Field Experiment. (2017). https://weis2017.econinfosec.org/wp-content/uploads/sites/3/ 2017/06/WEIS_2017_paper_26.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Theresa M. Marteau. 1989. Framing of information: Its influence upon decisions of doctors and patients. British Journal of Social Psychology, Vol. Mar, 28 (1989), 89--94.",
+      "doi": ""
+    },
+    {
+      "text": "S. M. McClure, K. M. Ericson, D. I. Laibson, G. Loewenstein, and J. D. Cohen. 2007. Time Discounting for Primary Rewards. Journal of Neuroscience, Vol. 27, 21 (2007), 5796--5804.",
+      "doi": ""
+    },
+    {
+      "text": "Robert R. McCrae and Paul T. Costa, Jr. 1999. A Five-Factor theory of personality. In Handbook of Personality: Theory and Research, L. A. Pervin and O. P. John (Eds.). Guildford Press, New York, NY, USA, 139--153.",
+      "doi": ""
+    },
+    {
+      "text": "Brandon T. McDaniel and Sarah M. Coyne. 2014. \"Technoference\": The interference of technology in couple relationships and implications for women's personal and relational well-being. Psychology of Popular Media Culture, Vol. 5, 1 (2014), Advance online publication.",
+      "doi": ""
+    },
+    {
+      "text": "Susan Michie, Marie Johnston, Jill Francis, Wendy Hardeman, and Martin Eccles. 2008. From Theory to Intervention: Mapping Theoretically Derived Behavioural Determinants to Behaviour Change Techniques. Applied Psychology, Vol. 57, 4 (2008), 660--680.",
+      "doi": ""
+    },
+    {
+      "text": "Milk The Moment Inc. 2018. The MILK App. https://itunes.apple.com/gb/app/the-milk-app/id1340000116?mt=8&ign-mpt=uo%3D4",
+      "doi": ""
+    },
+    {
+      "text": "Brian T. Miller and Mark D'Esposito. 2005. Searching for \"the top\" in top-down control. Neuron, Vol. 48, 4 (2005), 535--538. backslash$r0896--6273 (Linking)",
+      "doi": ""
+    },
+    {
+      "text": "E K Miller and J D Cohen. 2001. An integrative theory of prefrontal cortex function. Annual review of neuroscience, Vol. 24, 1 (2001), 167--202.",
+      "doi": ""
+    },
+    {
+      "text": "George A. Miller. 1956. The magical number seven, plus or minus two: some limits on our capacity for processing information. Psychological review, Vol. 63, 2 (1956), 343--352.",
+      "doi": ""
+    },
+    {
+      "text": "W. R. Miller, V. S. Westerberg, R. J. Harris, and J. S. Tonigan. 1996. What predicts relapse? Prospective testing of antecedent models. Addiction, Vol. 91, SUPPL. (1996).",
+      "doi": ""
+    },
+    {
+      "text": "Marina Milyavskaya and Michael Inzlicht. 2018. Attentional and Motivational Mechanisms of Self-Control. Handbook of Self-Control in Health & Well- Being (2018), 11--23.",
+      "doi": ""
+    },
+    {
+      "text": "D. C. Molden, C. M. Hui, a. a. Scholer, B. P. Meier, E. E. Noreen, P. R. D'Agostino, and V. Martin. 2012. Motivational Versus Metabolic Effects of Carbohydrates on Self-Control. Psychological Science, Vol. 23, 10 (2012), 1137--1144.",
+      "doi": ""
+    },
+    {
+      "text": "Christian Montag, Alexander Markowetz, Konrad Blaszkiewicz, Ionut Andone, Bernd Lachmann, Rayna Sariyska, Boris Trendafilov, Mark Eibes, Julia Kolb, Martin Reuter, Bernd Weber, and Sebastian Markett. 2017. Facebook usage on smartphones and gray matter volume of the nucleus accumbens. Behavioural Brain Research, Vol. 329, April (2017), 221--228.",
+      "doi": ""
+    },
+    {
+      "text": "Lela Mosemghvdlishvili and Jeroen Jansz. 2013. Negotiability of technology and its limitations: The politics of App development. Information, Communication & Society, Vol. 16, 10 (dec 2013), 1596--1618.",
+      "doi": ""
+    },
+    {
+      "text": "James R M\u00fc ller, Marios G Philiastides, and William T Newsome. 2005. Microstimulation of the superior colliculus focuses attention without moving the eyes. Proceedings of the National Academy of Sciences of the United States of America, Vol. 102, 3 (2005), 524--9.",
+      "doi": ""
+    },
+    {
+      "text": "Mark Muraven and Elisaveta Slessareva. 2003. Mechanisms of Self-Control Failure: Motivation and Limited Resources. Personality and Social Psychology Bulletin, Vol. 29, 7 (2003), 894--906.",
+      "doi": ""
+    },
+    {
+      "text": "D.A. Norman and T. Shallice. 1986. Attention to Action: Willed and Automatic Control of Behaviour. In Consciousness and Self-regulation (Advances in Research and Theory, Vol. 4), , R.J. et al. Davidson (Ed.). Plenum, 1--18.",
+      "doi": ""
+    },
+    {
+      "text": "Ted O'Donoghue and Matthew Rabin. 2001. Choice and Procrastination. Quarterly Journal of Economics, Vol. 116, 1 (2001), 121--160.",
+      "doi": ""
+    },
+    {
+      "text": "Fabian Okeke, Michael Sobolev, Nichola Dell, and Deborah Estrin. 2018. Good Vibrations: Can a Digital Nudge Reduce Digital Overload?. In Proceedings of MobileHCI '18: 20th International Conference on Human-Computer Interaction with Mobile Devices and Services, Barcelona, Spain, September 3--6, 2018.  ",
+      "doi": "10.1145/3229434.3229463"
+    },
+    {
+      "text": "Bendegul Okumus, Anil Bilgihan, and Ahmet Bulent Ozturk. 2016. Factors Affecting the Acceptance of Smartphone Diet Applications. Journal of Hospitality Marketing and Management, Vol. 25, 6 (2016), 726--747.",
+      "doi": ""
+    },
+    {
+      "text": "Facundo Olano. 2018a. app-store-scraper. https://github.com/facundoolano/app-store-scraper",
+      "doi": ""
+    },
+    {
+      "text": "Facundo Olano. 2018b. google-play-scraper. https://github.com/facundoolano/google-play-scraper",
+      "doi": ""
+    },
+    {
+      "text": "Rita Orji and Karyn Moffatt. 2018. Persuasive technology for health and wellness: State-of-the-art and emerging trends. Health Informatics Journal, Vol. 24, 1 (2018), 66--91.",
+      "doi": ""
+    },
+    {
+      "text": "Antti Oulasvirta, Tye Rattenbury, Lingyi Ma, and Eeva Raita. 2012. Habits make smartphone use more pervasive. Personal and Ubiquitous Computing, Vol. 16, 1 (2012), 105--114.  ",
+      "doi": "10.1007/s00779-011-0412-2"
+    },
+    {
+      "text": "Srikanth Padmala and Luiz Pessoa. 2010. Interactions between cognition and motivation during response inhibition. Neuropsychologia, Vol. 48, 2 (2010), 558--565.",
+      "doi": ""
+    },
+    {
+      "text": "Srikanth Padmala and Luiz Pessoa. 2011. Reward reduces conflict by enhancing attentional control and biasing visual cortical processing. Journal of Cognitive Neuroscience, Vol. 23, 11 (2011), 3419--3432.  ",
+      "doi": "10.1162/jocn_a_00011"
+    },
+    {
+      "text": "Pavlok. 2018. PAVLOK Productivity. https://chrome.google.com/webstore/detail/pavlok- productivity/hefieeppocndiofffcfpkbfnjcooacib?hl=gb",
+      "doi": ""
+    },
+    {
+      "text": "Charlie Pinder, Jo Vermeulen, Benjamin R. Cowan, and Russell Beale. 2018. Digital Behaviour Change Interventions to Break and Form Habits. ACM Transactions on Computer-Human Interaction, Vol. 25, 3 (2018), 1--66.  ",
+      "doi": "10.1145/3196830"
+    },
+    {
+      "text": "Charlie Pinder, Jo Vermeulen, Benjamin R. Cowan, Russell Beale, and Robert J. Hendley. 2017. Exploring the feasibility of subliminal priming on smartphones. In Proceedings of the 19th International Conference on Human-Computer Interaction with Mobile Devices and Services - MobileHCI '17.  ",
+      "doi": "10.1145/3098279.3098531"
+    },
+    {
+      "text": "Adam Popescu. 2018. Keep Your Head Up: How Smartphone Addiction Kills Manners and Moods. https://www.nytimes.com/2018/01/25/smarter-living/bad-text- posture-neckpain-mood.html",
+      "doi": ""
+    },
+    {
+      "text": "Laura Portwood-Stacer. 2012. Media refusal and conspicuous non-consumption: The performative and political dimensions of Facebook abstention. New Media & Society, Vol. 15, 7 (2012), 1041--1057.",
+      "doi": ""
+    },
+    {
+      "text": "W. T. Powers. 1973. Behavior: The control of perception. Aldine, Chicago.",
+      "doi": ""
+    },
+    {
+      "text": "Prettymind.co. 2018. Timewaste Timer. https://chrome.google.com/webstore/detail/timewaste-timer/ pengblgbipcdkpigibniogojheaokckd?hl=gb",
+      "doi": ""
+    },
+    {
+      "text": "James O. Prochaska, Carlo C. DiClemente, and John C. Norcross. 1993. In Search of How People Change: Applications to Addictive Behaviors. Journal of Addictions Nursing, Vol. 5, 1 (1993), 2--16.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew K. Przybylski, Kou Murayama, Cody R. Dehaan, and Valerie Gladwell. 2013. Motivational, emotional, and behavioral correlates of fear of missing out. Computers in Human Behavior, Vol. 29, 4 (2013), 1841--1848.",
+      "doi": ""
+    },
+    {
+      "text": "Ameet Ranadive and David Ginsberg. 2018. New Tools to Manage Your Time on Facebook and Instagram. https://newsroom.fb.com/news/2018/08/manage-your-time/",
+      "doi": ""
+    },
+    {
+      "text": "Wenjie Ruan, Quan Z. Sheng, Lina Yao, Nguyen Khoi Tran, and Yu Chieh Yang. 2016. PreventDark: Automatically detecting and preventing problematic use of smartphones in darkness. In 2016 IEEE International Conference on Pervasive Computing and Communication Workshops (PerCom Workshops). 1--3.",
+      "doi": ""
+    },
+    {
+      "text": "Runnably. 2019. Bashful. https://play.google.com/store/apps/details?id=com.runnably.bashful&hl=en&gl=us",
+      "doi": ""
+    },
+    {
+      "text": "Tracii Ryan, Andrea Chester, John Reece, and Sophia Xenos. 2014. The uses and abuses of Facebook: A review of Facebook addiction. Journal of Behavioural Addictions, Vol. 3, 3 (2014), 133--148.",
+      "doi": ""
+    },
+    {
+      "text": "M. Sapacz, G. Rockman, and J. Clark. 2016. Are we addicted to our cell phones? Computers in Human Behavior, Vol. 57 (2016), 153--159.  ",
+      "doi": "10.1016/j.chb.2015.12.004"
+    },
+    {
+      "text": "Christine Satchell and Paul Dourish. 2009. Beyond The User: Use And Non-Use in HCI. Proceedings of the Annual Conference of the Australian Computer-Human Interaction Special Interest Group (OZCHI '09) November (2009), 9--16.  ",
+      "doi": "10.1145/1738826.1738829"
+    },
+    {
+      "text": "Sarita Yardi Schoenebeck. 2014. Giving up Twitter for Lent: How and Why We Take Breaks from Social Media. Proceedings of the 32nd annual ACM conference on Human factors in computing systems - CHI '14 (2014), 773--782.  ",
+      "doi": "10.1145/2556288.2556983"
+    },
+    {
+      "text": "Stephen M. Schueller, Ricardo F. Mu n oz, and David C. Mohr. 2013. Realizing the Potential of Behavioral Intervention Technologies. Current Directions in Psychological Science, Vol. 22, 6 (2013), 478--483.",
+      "doi": ""
+    },
+    {
+      "text": "Natasha Dow Sch\u00fc ll. 2012. Addiction By Design - Machine Gambling in Las Vegas. Princeton University Press, New Jersey. ",
+      "doi": "10.5555/2621987"
+    },
+    {
+      "text": "Willem Schungel. 2018. Checkout of your phone. https://itunes.apple.com/gb/app/checkout-of-your-phone/id1051880452?mt=8&uo=4",
+      "doi": ""
+    },
+    {
+      "text": "Seekrtech. 2018. Forest: Stay focused. https://www.forestapp.cc",
+      "doi": ""
+    },
+    {
+      "text": "Tim Shallice and Richard P. Cooper. 2011. The Organisation of Mind. Oxford University Press, Oxford.",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas Shea, Annika Boldt, Dan Bang, Nick Yeung, Cecilia Heyes, and Chris D Frith. 2014. Supra-personal cognitive control and metacognition. Trends in Cognitive Sciences, Vol. 18, 4 (2014), 186--193.",
+      "doi": ""
+    },
+    {
+      "text": "Nelson Shen, Michael-Jane Levitan, Andrew Johnson, Jacqueline Lorene Bender, Michelle Hamilton-Page, Alejandro (Alex) R Jadad, and David Wiljer. 2015. Finding a Depression App: A Review and Content Analysis of the Depression App Marketplace. JMIR mHealth and uHealth, Vol. 3, 1 (2015), e16.",
+      "doi": ""
+    },
+    {
+      "text": "Amitai Shenhav, Matthew M Botvinick, and Jonathan D Cohen. 2013. The Expected Value of Control: An Integrative Theory of Anterior Cingulate Cortex Function. Neuron, Vol. 79, 2 (2013), 217--240.",
+      "doi": ""
+    },
+    {
+      "text": "Amitai Shenhav, Sebastian Musslick, Falk Lieder, Wouter Kool, Thomas L Griffiths, Jonathan D Cohen, and Matthew M Botvinick. 2017. Toward a Rational and Mechanistic Account of Mental Effort. Annual Review of Neuroscience, Vol. 40, 1 (jul 2017), 99--124.",
+      "doi": ""
+    },
+    {
+      "text": "Steven J. Sherman. 1980. On the self-erasing nature of errors of prediction. Journal of Personality and Social Psychology, Vol. 39, 2 (1980), 211--221.",
+      "doi": ""
+    },
+    {
+      "text": "Richard M. Shiffrin and Walter Schneider. 1977. Controlled and automatic human information processing: II. Perceptual learning, automatic attending and a general theory. Psychological Review, Vol. 84, 2 (1977), 127--190. backslash$r0033--295X",
+      "doi": ""
+    },
+    {
+      "text": "Yousheng Shu, Andrea Hasenstaub, and David A. McCormick. 2003. Turning on and off recurrent balanced cortical activity. Nature, Vol. 423, May (2003), 288--293.",
+      "doi": ""
+    },
+    {
+      "text": "Adam Slack. 2018. chrome-web-store-scraper. https://github.com/AdamSlack/chrome-web-store-scraper",
+      "doi": ""
+    },
+    {
+      "text": "Manya Sleeper, Alessandro Acquisti, Lorrie Faith Cranor, Patrick Gage Kelley, Sean A. Munson, and Norman Sadeh. 2015. I Would Like To..., I Shouldn't..., I Wish I... Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing - CSCW '15 (2015), 1058--1069.  ",
+      "doi": "10.1145/2675133.2675193"
+    },
+    {
+      "text": "Eliot R. Smith and Jamie DeCoster. 2000. Dual-Process Models in Social and Cognitive Psychology: Conceptual Integration and Links to Underlying Memory Systems. Personality and Social Psychology Review, Vol. 4, 2 (2000), 108--131.",
+      "doi": ""
+    },
+    {
+      "text": "MobileSoft s.r.o. 2019. AppBlock. https://play.google.com/store/apps/details?id=cz.mobilesoft.appblock&hl=en&gl=us",
+      "doi": ""
+    },
+    {
+      "text": "Stanford HCI Group. 2018. HabitLab for Chrome (Extension for Google Chrome web browser). https://habitlab.stanford.edu/",
+      "doi": ""
+    },
+    {
+      "text": "Katarzyna Stawarz, Anna L Cox, and Ann Blandford. 2014. Don't Forget Your Pill!: Designing Effective Medication Reminder Apps That Support Users' Daily Routines. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). ACM, New York, NY, USA, 2269--2278.  ",
+      "doi": "10.1145/2556288.2557079"
+    },
+    {
+      "text": "Katarzyna Stawarz, Anna L Cox, and Ann Blandford. 2015. Beyond Self-Tracking and Reminders: Designing Smartphone Apps That Support Habit Formation. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). ACM, New York, NY, USA, 2653--2662.  ",
+      "doi": "10.1145/2702123.2702230"
+    },
+    {
+      "text": "Katarzyna Stawarz, Chris Preist, Debbie Tallon, Nicola Wiles, and David Coyle. 2018. User experience of cognitive behavioral therapy apps for depression: An analysis of app functionality and user reviews. Journal of Medical Internet Research, Vol. 20, 6 (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Piers Steel and Cornelius J. K\u00f6 nig. 2006. Integrating theories of motivation. Academy of Management Review, Vol. 31, 4 (2006), 889--913.",
+      "doi": ""
+    },
+    {
+      "text": "Cary Stothart, Ainsley Mitchum, and Courtney Yehnert. 2015. The attentional cost of receiving a cell phone notification. Journal of Experimental Psychology: Human Perception and Performance, Vol. 41, 4 (2015), 893--897.",
+      "doi": ""
+    },
+    {
+      "text": "Stringinternational.com. 2018. Timewarp. https://chrome.google.com/webstore/detail/timewarp/ mmmhadpnjmokjbmgamifipkjddhlfkhi?hl=gb",
+      "doi": ""
+    },
+    {
+      "text": "Cass R. Sunstein and Richard H. Thaler. 2008. Nudge. Penguin, London.",
+      "doi": ""
+    },
+    {
+      "text": "Caroline Tell. 2013. Step Away From the Phone! https://www.nytimes.com/2013/09/22/fashion/step-away-from- the-phone.html",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Thomas, Margarita Azmitia, and Steve Whittaker. 2016. Unplugged: Exploring the costs and benefits of constant connection. Computers in Human Behavior, Vol. 63 (2016), 540--548.  ",
+      "doi": "10.1016/j.chb.2016.05.078"
+    },
+    {
+      "text": "D M Tice, E Bratslavsky, and R F Baumeister. 2001. Emotional distress regulation takes precedence over impulse control: if you feel bad, do it! Journal of personality and social psychology, Vol. 80, 1 (2001), 53--67.",
+      "doi": ""
+    },
+    {
+      "text": "Nitasha Tiku. 2018. The WIRED Guide to Internet Addiction. https://www.wired.com/story/wired-guide-to-internet- addiction/",
+      "doi": ""
+    },
+    {
+      "text": "Trevorscandalios. 2018. Focusly. https://chrome.google.com/webstore/detail/focusly/ jlihnplddpebplnfafhdanaiapbeikbk?hl=gb",
+      "doi": ""
+    },
+    {
+      "text": "Alexander J.A.M. Van Deursen, Colin L. Bolle, Sabrina M. Hegner, and Piet A.M. Kommers. 2015. Modeling habitual and addictive smartphone behavior: The role of smartphone usage types, emotional intelligence, social stress, self-regulation, age, and gender. Computers in Human Behavior, Vol. 45, April (2015), 411--420.  ",
+      "doi": "10.1016/j.chb.2014.12.039"
+    },
+    {
+      "text": "Michelle H. van Velthoven, John Powell, and Georgina Powell. 2018. Problematic smartphone use: Digital approaches to an emerging public health problem. Digital Health, Vol. 4 (2018), 1--9.",
+      "doi": ""
+    },
+    {
+      "text": "Kathleen D. Vohs and Roy F. Baumeister (Eds.). 2016. Handbook of Self-Regulation - Research, Theory, and Applications. Guildford Press, New York, NY, USA.",
+      "doi": ""
+    },
+    {
+      "text": "V. H. Vroom. 1964. Work and Motivation. Wiley, New York.",
+      "doi": ""
+    },
+    {
+      "text": "Jingting Wang, Yuanyuan Wang, Chunlan Wei, Nengliang Aaron Yao, Avery Yuan, Yuying Shan, and Changrong Yuan. 2014. Smartphone interventions for long-term health management of chronic diseases: an integrative review. Telemedicine journal and e-health: the official journal of the American Telemedicine Association, Vol. 20, 6 (2014), 570--583.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas L. Webb, Judith Joseph, Lucy Yardley, and Susan Michie. 2010. Using the Internet to promote health behavior change: A systematic review and meta-analysis of the impact of theoretical basis, use of behavior change techniques, and mode of delivery on efficacy. Journal of Medical Internet Research, Vol. 12, 1 (2010), e4.",
+      "doi": ""
+    },
+    {
+      "text": "Steve Whittaker, Vaiva Kalnikaite, Victoria Hollis, and Andrew Guydish. 2016. 'Don' t Waste My Time': Use of Time Information Improves Focus. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, New York, 1729--1738.  ",
+      "doi": "10.1145/2858036.2858193"
+    },
+    {
+      "text": "Isaac Wiafe and Keiichi Nakata. 2012. Bibliographic analysis of persuasive systems: techniques, methods and domains of application. In Persuasive Technology: Design for Health and Safety; The 7th International Conference on Persuasive Technology. 61--64.",
+      "doi": ""
+    },
+    {
+      "text": "Christopher D. Wickens. 1980. The structure of attentional resources. Atten and performance VIII, Vol. 8 (1980).",
+      "doi": ""
+    },
+    {
+      "text": "Katie Witkiewitz and G. Alan Marlatt. 2004. Relapse prevention for alcohol and drug problems: That was zen, this is tao. American Psychologist, Vol. 59, 4 (2004), 224--235.",
+      "doi": ""
+    },
+    {
+      "text": "Troy Wolwerton. 2018. Apple's Tim Cook says he's also spending too much time with his phone. http://uk.businessinsider.com/apple-ceo-tim-cook-used-new- company-tools-to-track-his-phone-use-2018--6",
+      "doi": ""
+    },
+    {
+      "text": "Wendy Wood and Dennis R\u00fc nger. 2016. Psychology of Habit. Annual Review of Psychology, Vol. 67, 1 (2016), 289--314.",
+      "doi": ""
+    },
+    {
+      "text": "Tim Wu. 2016. The Attention Merchants: The Epic Scramble to Get Inside Our Heads. Knopf Publishing Group.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaomeng Xu, Kathryn E Demos, Tricia M Leahey, Chantelle N Hart, Jennifer Trautvetter, Pamela Coward, Kathryn R Middleton, and Rena R Wing. 2014. Failure to replicate depletion of self-control. PLoS ONE, Vol. 9, 10 (2014), e109950.",
+      "doi": ""
+    },
+    {
+      "text": "Lucy Yardley, Tanzeem Choudhury, Kevin Patrick, and Susan Michie. 2016. Current Issues and Future Directions for Research Into Digital Behavior Change Interventions. American Journal of Preventive Medicine, Vol. 51, 5 (2016), 814--815.",
+      "doi": ""
+    },
+    {
+      "text": "K.S. S Young. 1998. Internet Addiction: the Emergence of a New Clinical Disorder. CyberPsychology and Behavior, Vol. 1, 3 (1998), 237--244.",
+      "doi": ""
+    },
+    {
+      "text": "Kimberly S Young. 1999. Internet addiction: Symptoms, evaluation, and treatment. In Innovations in Clinical Practice (Volume 17), L. VandeCreek and T. L. Jackson (Eds.). 19--31.",
+      "doi": ""
+    }
+  ]
+}

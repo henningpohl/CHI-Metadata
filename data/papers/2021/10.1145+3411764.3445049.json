@@ -1,0 +1,226 @@
+{
+  "doi": "10.1145/3411764.3445049",
+  "title": "Screen2Vec: Semantic Embedding of GUI Screens and GUI Components",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Representing the semantics of GUI screens and components is crucial to data-driven computational methods for modeling user-GUI interactions and mining GUI designs. Existing GUI semantic representations are limited to encoding either the textual content, the visual design and layout patterns, or the app contexts. Many representation techniques also require significant manual data annotation efforts. This paper presents Screen2Vec, a new self-supervised technique for generating representations in embedding vectors of GUI screens and components that encode all of the above GUI features without requiring manual annotation using the context of user interaction traces. Screen2Vec is inspired by the word embedding method Word2Vec, but uses a new two-layer pipeline informed by the structure of GUIs and interaction traces and incorporates screen- and app-specific metadata. Through several sample downstream tasks, we demonstrate Screen2Vec\u2019s key useful properties: representing between-screen similarity through nearest neighbors, composability, and capability to represent user tasks.",
+  "authors": [
+    {
+      "name": "Toby Jia-Jun Li",
+      "institution": "Human-Computer Interaction Institute Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659163126",
+      "orcid": "missing"
+    },
+    {
+      "name": "Lindsay Popowski",
+      "institution": "Department of Computer Science Harvey Mudd College, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659686459",
+      "orcid": "missing"
+    },
+    {
+      "name": "Tom Mitchell",
+      "institution": "Machine Learning Department Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81314484253",
+      "orcid": "missing"
+    },
+    {
+      "name": "Brad A Myers",
+      "institution": "Carnegie Mellon University, United States",
+      "img": "/do/10.1145/contrib-81100013136/rel-imgonly/brad-myers-120x120.jpg",
+      "acmid": "81100013136",
+      "orcid": "0000-0002-4769-0219"
+    }
+  ],
+  "references": [
+    {
+      "text": "Eytan Adar, Mira Dontcheva, and Gierad Laput. 2014. CommandSpace: Modeling the Relationships Between Tasks, Descriptions and Features. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology(UIST \u201914). ACM, New York, NY, USA, 167\u2013176. https://doi.org/10.1145/2642918.2647395",
+      "doi": "10.1145/2642918.2647395"
+    },
+    {
+      "text": "Tanzirul Azim, Oriana Riva, and Suman Nath. 2016. uLink: Enabling User-Defined Deep Linking to App Content. In Proceedings of the 14th Annual International Conference on Mobile Systems, Applications, and Services(MobiSys \u201916). ACM, New York, NY, USA, 305\u2013318. https://doi.org/10.1145/2906388.2906416",
+      "doi": "10.1145/2906388.2906416"
+    },
+    {
+      "text": "Richard Bellman. 1966. Dynamic Programming. Science 153, 3731 (1966), 34\u201337. https://doi.org/10.1126/science.153.3731.34",
+      "doi": ""
+    },
+    {
+      "text": "Yoshua Bengio. 2009. Learning deep architectures for AI. Now Publishers Inc.",
+      "doi": "10.1561/2200000006"
+    },
+    {
+      "text": "Jeffrey\u00a0P. Bigham, Tessa Lau, and Jeffrey Nichols. 2009. Trailblazer: Enabling Blind Users to Blaze Trails through the Web. In Proceedings of the 14th International Conference on Intelligent User Interfaces (Sanibel Island, Florida, USA) (IUI \u201909). ACM, New York, NY, USA, 177\u2013186. https://doi.org/10.1145/1502650.1502677",
+      "doi": "10.1145/1502650.1502677"
+    },
+    {
+      "text": "Samuel\u00a0R. Bowman, Gabor Angeli, Christopher Potts, and Christopher\u00a0D. Manning. 2015. A large annotated corpus for learning natural language inference. In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing. ACL, Lisbon, Portugal, 632\u2013642. https://doi.org/10.18653/v1/D15-1075",
+      "doi": ""
+    },
+    {
+      "text": "Fanglin Chen, Kewei Xia, Karan Dhabalia, and Jason\u00a0I. Hong. 2019. MessageOnTap: A Suggestive Interface to Facilitate Messaging-Related Tasks. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). ACM, New York, NY, USA, Article 575, 14\u00a0pages. https://doi.org/10.1145/3290605.3300805",
+      "doi": "10.1145/3290605.3300805"
+    },
+    {
+      "text": "Jieshan Chen, Chunyang Chen, Zhenchang Xing, Xiwei Xu, Liming Zhu, Guoqiang Li, and Jinshui Wang. 2020. Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning. In Proceedings of the 42nd International Conference on Software Engineering(ICSE \u201920).",
+      "doi": "10.1145/3377811.3380327"
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, Chad Franzen, Joshua Hibschman, Daniel Afergan, Yang Li, Jeffrey Nichols, and Ranjitha Kumar. 2017. Rico: A Mobile App Dataset for Building Data-Driven Design Applications. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology(UIST \u201917). ACM, New York, NY, USA, 845\u2013854. https://doi.org/10.1145/3126594.3126651",
+      "doi": "10.1145/3126594.3126651"
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, and Ranjitha Kumar. 2016. ERICA: Interaction Mining Mobile Apps. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology(UIST \u201916). ACM, New York, NY, USA, 767\u2013776. https://doi.org/10.1145/2984511.2984581",
+      "doi": "10.1145/2984511.2984581"
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers). ACL, Minneapolis, Minnesota, 4171\u20134186. https://doi.org/10.18653/v1/N19-1423",
+      "doi": ""
+    },
+    {
+      "text": "Earlence Fernandes, Oriana Riva, and Suman Nath. 2016. Appstract: On-the-fly App Content Semantics with Better Privacy. In Proceedings of the 22Nd Annual International Conference on Mobile Computing and Networking(MobiCom \u201916). ACM, New York, NY, USA, 361\u2013374. https://doi.org/10.1145/2973750.2973770",
+      "doi": "10.1145/2973750.2973770"
+    },
+    {
+      "text": "Forrest Huang, John\u00a0F. Canny, and Jeffrey Nichols. 2019. Swire: Sketch-Based User Interface Retrieval. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). ACM, New York, NY, USA, 1\u201310. https://doi.org/10.1145/3290605.3300334",
+      "doi": "10.1145/3290605.3300334"
+    },
+    {
+      "text": "Thanapong Intharah, Daniyar Turmukhambetov, and Gabriel\u00a0J. Brostow. 2019. HILC: Domain-Independent PbD System Via Computer Vision and Follow-Up Questions. ACM Trans. Interact. Intell. Syst. 9, 2-3, Article 16 (March 2019), 27\u00a0pages. https://doi.org/10.1145/3234508",
+      "doi": "10.1145/3234508"
+    },
+    {
+      "text": "Diederik\u00a0P. Kingma and Jimmy Ba. 2015. Adam: A Method for Stochastic Optimization. In 3rd International Conference on Learning Representations, ICLR 2015, San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings, Yoshua Bengio and Yann LeCun (Eds.). http://arxiv.org/abs/1412.6980",
+      "doi": ""
+    },
+    {
+      "text": "Ranjitha Kumar, Arvind Satyanarayan, Cesar Torres, Maxine Lim, Salman Ahmad, Scott\u00a0R. Klemmer, and Jerry\u00a0O. Talton. 2013. Webzeitgeist: Design Mining the Web. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). ACM, New York, NY, USA, 3083\u20133092. https://doi.org/10.1145/2470654.2466420",
+      "doi": "10.1145/2470654.2466420"
+    },
+    {
+      "text": "Chunggi Lee, Sanghoon Kim, Dongyun Han, Hongjun Yang, Young-Woo Park, Bum\u00a0Chul Kwon, and Sungahn Ko. 2020. GUIComp: A GUI Design Assistant with Real-Time, Multi-Faceted Feedback. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376327",
+      "doi": "10.1145/3313831.3376327"
+    },
+    {
+      "text": "Hsin-Ying Lee, Weilong Yang, Lu Jiang, Madison Le, Irfan Essa, Haifeng Gong, and Ming-Hsuan Yang. 2020. Neural Design Network: Graphic Layout Generation with Constraints. European Conference on Computer Vision (ECCV) (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Jianan Li, Jimei Yang, Aaron Hertzmann, Jianming Zhang, and Tingfa Xu. 2019. LayoutGAN: Synthesizing Graphic Layouts with Vector-Wireframe Adversarial Networks. IEEE Transactions on Pattern Analysis and Machine Intelligence (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Amos Azaria, and Brad\u00a0A. Myers. 2017. SUGILITE: Creating Multimodal Smartphone Automation by Demonstration. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). ACM, New York, NY, USA, 6038\u20136049. https://doi.org/10.1145/3025453.3025483",
+      "doi": "10.1145/3025453.3025483"
+    },
+    {
+      "text": "Toby Jia-Jun Li, Jingya Chen, Brandon Canfield, and Brad\u00a0A. Myers. 2020. Privacy-Preserving Script Sharing in GUI-Based Programming-by-Demonstration Systems. Proc. ACM Hum.-Comput. Interact. 4, CSCW1, Article 060 (May 2020), 23\u00a0pages. https://doi.org/10.1145/3392869",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Jingya Chen, Haijun Xia, Tom\u00a0M. Mitchell, and Brad\u00a0A. Myers. 2020. Multi-Modal Repairs of Conversational Breakdowns in Task-Oriented Dialogs. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology(UIST 2020). ACM. https://doi.org/10.1145/3379337.3415820",
+      "doi": "10.1145/3379337.3415820"
+    },
+    {
+      "text": "Toby Jia-Jun Li, Igor Labutov, Xiaohan\u00a0Nancy Li, Xiaoyi Zhang, Wenze Shi, Tom\u00a0M. Mitchell, and Brad\u00a0A. Myers. 2018. APPINITE: A Multi-Modal Interface for Specifying Data Descriptions in Programming by Demonstration Using Verbal Instructions. In Proceedings of the 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC 2018). https://doi.org/10.1109/VLHCC.2018.8506506",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Tom Mitchell, and Brad Myers. 2020. Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations. ACL, Online, 215\u2013223. https://doi.org/10.18653/v1/2020.acl-demos.25",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Marissa Radensky, Justin Jia, Kirielle Singarajah, Tom\u00a0M. Mitchell, and Brad\u00a0A. Myers. 2019. PUMICE: A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology(UIST 2019). ACM. https://doi.org/10.1145/3332165.3347899",
+      "doi": "10.1145/3332165.3347899"
+    },
+    {
+      "text": "Toby Jia-Jun Li and Oriana Riva. 2018. KITE: Building conversational bots from mobile apps. In Proceedings of the 16th ACM International Conference on Mobile Systems, Applications, and Services (MobiSys 2018). ACM. https://doi.org/10.1145/3210240.3210339",
+      "doi": "10.1145/3210240.3210339"
+    },
+    {
+      "text": "Toby Jia-Jun Li, Shilad Sen, and Brent Hecht. 2014. Leveraging Advances in Natural Language Processing to Better Understand Tobler\u2019s First Law of Geography. In Proceedings of the 22Nd ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems(SIGSPATIAL \u201914). ACM, New York, NY, USA, 513\u2013516. https://doi.org/10.1145/2666310.2666493",
+      "doi": ""
+    },
+    {
+      "text": "Yang Li, Jiacong He, Xin Zhou, Yuan Zhang, and Jason Baldridge. 2020. Mapping Natural Language Instructions to Mobile UI Action Sequences. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. ACL, Online, 8198\u20138210. https://doi.org/10.18653/v1/2020.acl-main.729",
+      "doi": ""
+    },
+    {
+      "text": "Yang Li, Gang Li, Luheng He, Jingjie Zheng, Hong Li, and Zhiwei Guan. 2020. Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). ACL, Online, 5495\u20135510. https://doi.org/10.18653/v1/2020.emnlp-main.443",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0F. Liu, Mark Craft, Jason Situ, Ersin Yumer, Radomir Mech, and Ranjitha Kumar. 2018. Learning Design Semantics for Mobile Apps. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (Berlin, Germany) (UIST \u201918). ACM, New York, NY, USA, 569\u2013579. https://doi.org/10.1145/3242587.3242650",
+      "doi": "10.1145/3242587.3242650"
+    },
+    {
+      "text": "Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013. Efficient Estimation of Word Representations in Vector Space. arXiv:1301.3781 [cs] (Jan. 2013). http://arxiv.org/abs/1301.3781 arXiv:1301.3781.",
+      "doi": ""
+    },
+    {
+      "text": "Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg\u00a0S. Corrado, and Jeff Dean. 2013. Distributed representations of words and phrases and their compositionality. In Advances in neural information processing systems. 3111\u20133119. http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality",
+      "doi": ""
+    },
+    {
+      "text": "Brad\u00a0A. Myers, Amy\u00a0J. Ko, Chris Scaffidi, Stephen Oney, YoungSeok Yoon, Kerry Chang, Mary\u00a0Beth Kery, and Toby Jia-Jun Li. 2017. Making End User Development More Natural. In New Perspectives in End-User Development. Springer, Cham, 1\u201322. https://doi.org/10.1007/978-3-319-60291-2_1",
+      "doi": ""
+    },
+    {
+      "text": "Vinod Nair and Geoffrey\u00a0E. Hinton. 2010. Rectified Linear Units Improve Restricted Boltzmann Machines. In Proceedings of the 27th International Conference on International Conference on Machine Learning (Haifa, Israel) (ICML\u201910). Omnipress, Madison, WI, USA, 807\u2013814.",
+      "doi": "10.5555/3104322.3104425"
+    },
+    {
+      "text": "Trong\u00a0Duc Nguyen, Anh\u00a0Tuan Nguyen, Hung\u00a0Dang Phan, and Tien\u00a0N. Nguyen. 2017. Exploring API Embedding for API Usages and Applications. In Proceedings of the 39th International Conference on Software Engineering (Buenos Aires, Argentina) (ICSE \u201917). IEEE, 438\u2013449. https://doi.org/10.1109/ICSE.2017.47",
+      "doi": "10.1109/ICSE.2017.47"
+    },
+    {
+      "text": "Panupong Pasupat, Tian-Shun Jiang, Evan Liu, Kelvin Guu, and Percy Liang. 2018. Mapping natural language commands to web elements. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing(EMNLP \u201918). ACL, Brussels, Belgium, 4970\u20134976. https://doi.org/10.18653/v1/D18-1540",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Pennington, Richard Socher, and Christopher Manning. 2014. GloVe: Global Vectors for Word Representation. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing(EMNLP \u201914). ACL, Doha, Qatar, 1532\u20131543. https://doi.org/10.3115/v1/D14-1162",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, and Luke Zettlemoyer. 2018. Deep Contextualized Word Representations. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)(NAACL \u201918). ACL, New Orleans, Louisiana, 2227\u20132237. https://doi.org/10.18653/v1/N18-1202",
+      "doi": ""
+    },
+    {
+      "text": "Nils Reimers and Iryna Gurevych. 2019. Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics. http://arxiv.org/abs/1908.10084",
+      "doi": ""
+    },
+    {
+      "text": "Alborz\u00a0Rezazadeh Sereshkeh, Gary Leung, Krish Perumal, Caleb Phillips, Minfan Zhang, Afsaneh Fazly, and Iqbal Mohomed. 2020. VASTA: a vision and language-assisted smartphone task automation system. In Proceedings of the 25th International Conference on Intelligent User Interfaces(IUI \u201920). 22\u201332.",
+      "doi": "10.1145/3377325.3377515"
+    },
+    {
+      "text": "Amanda Swearngin, Mira Dontcheva, Wilmot Li, Joel Brandt, Morgan Dixon, and Amy\u00a0J. Ko. 2018. Rewire: Interface Design Assistance from Examples. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). ACM, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3174078",
+      "doi": "10.1145/3173574.3174078"
+    },
+    {
+      "text": "Joseph Turian, Lev Ratinov, and Yoshua Bengio. 2010. Word Representations: A Simple and General Method for Semi-Supervised Learning. In Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics(Uppsala, Sweden) (ACL \u201910). ACL, USA, 384\u2013394.",
+      "doi": ""
+    },
+    {
+      "text": "Adina Williams, Nikita Nangia, and Samuel Bowman. 2018. A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers). ACL, New Orleans, Louisiana, 1112\u20131122. https://doi.org/10.18653/v1/N18-1101",
+      "doi": ""
+    },
+    {
+      "text": "Tom Yeh, Tsung-Hsiang Chang, and Robert\u00a0C. Miller. 2009. Sikuli: Using GUI Screenshots for Search and Automation. In Proceedings of the 22Nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201909). ACM, New York, NY, USA, 183\u2013192. https://doi.org/10.1145/1622176.1622213",
+      "doi": "10.1145/1622176.1622213"
+    },
+    {
+      "text": "Xiaoyi Zhang, Anne\u00a0Spencer Ross, Anat Caspi, James Fogarty, and Jacob\u00a0O. Wobbrock. 2017. Interaction Proxies for Runtime Repair and Enhancement of Mobile Application Accessibility. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). ACM, New York, NY, USA, 6024\u20136037. https://doi.org/10.1145/3025453.3025846",
+      "doi": "10.1145/3025453.3025846"
+    },
+    {
+      "text": "Xiaoyi Zhang, Anne\u00a0Spencer Ross, and James Fogarty. 2018. Robust Annotation of Mobile Application Interfaces in Methods for Accessibility Repair and Enhancement. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology.",
+      "doi": "10.1145/3242587.3242616"
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "doi": "10.1145/3544548.3581096",
+  "title": "UEyes: Understanding Visual Saliency across User Interface Types",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-21",
+  "year": 2023,
+  "badges": [],
+  "abstract": "While user interfaces (UIs) display elements such as images and text in a grid-based layout, UI types differ significantly in the number of elements and how they are displayed. For example, webpage designs rely heavily on images and text, whereas desktop UIs tend to feature numerous small images. To examine how such differences affect the way users look at UIs, we collected and analyzed a large eye-tracking-based dataset, UEyes (62 participants and 1,980 UI screenshots), covering four major UI types: webpage, desktop UI, mobile UI, and poster. We analyze its differences in biases related to such factors as color, location, and gaze direction. We also compare state-of-the-art predictive models and propose improvements for better capturing typical tendencies across UI types. Both the dataset and the models are publicly available.",
+  "authors": [
+    {
+      "name": "Yue Jiang",
+      "institution": "Aalto University, Finland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783398",
+      "orcid": "0000-0003-0022-6512"
+    },
+    {
+      "name": "Luis A. Leiva",
+      "institution": "University of Luxembourg, Luxembourg",
+      "img": "/do/10.1145/contrib-81413601851/rel-imgonly/luileito-crop.jpg",
+      "acmid": "81413601851",
+      "orcid": "0000-0002-5011-1847"
+    },
+    {
+      "name": "Hamed Rezazadegan Tavakoli",
+      "institution": "Nokia Technologies, Finland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "82658941757",
+      "orcid": "0000-0002-9466-9148"
+    },
+    {
+      "name": "Paul R. B. Houssel",
+      "institution": "University of Luxembourg, Luxembourg",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660778462",
+      "orcid": "0000-0001-7315-1721"
+    },
+    {
+      "name": "Julia Kylm\u00e4l\u00e4",
+      "institution": "Aalto University, Finland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660049981",
+      "orcid": "0000-0003-1582-8575"
+    },
+    {
+      "name": "Antti Oulasvirta",
+      "institution": "Aalto University, Finland",
+      "img": "/do/10.1145/contrib-81100333050/rel-imgonly/antti.png",
+      "acmid": "81100333050",
+      "orcid": "0000-0002-2498-7837"
+    }
+  ],
+  "references": [
+    {
+      "text": "Nicola\u00a0C Anderson, Fraser Anderson, Alan Kingstone, and Walter\u00a0F Bischof. 2015. A comparison of scanpath comparison methods. Behavior research methods 47, 4 (2015), 1377\u20131392.",
+      "doi": ""
+    },
+    {
+      "text": "Marc Assens, Xavier Giro-i Nieto, Kevin McGuinness, and Noel\u00a0E. O\u2019Connor. 2017. SaltiNet: Scan-Path Prediction on 360 Degree Images Using Saliency Volumes. In 2017 IEEE International Conference on Computer Vision Workshops (ICCVW). 2331\u20132338. https://doi.org/10.1109/ICCVW.2017.275",
+      "doi": ""
+    },
+    {
+      "text": "Marc Assens, Xavier\u00a0Giro i Nieto, Kevin McGuinness, and Noel\u00a0E. O\u2019Connor. 2018. PathGAN: Visual Scanpath Prediction with Generative Adversarial Networks. ECCV Workshop on Egocentric Perception, Interaction and Computing (EPIC).",
+      "doi": ""
+    },
+    {
+      "text": "Roman Bednarik and Markku Tukiainen. 2007. Validating the restricted focus viewer: A study using eye-movement tracking. Behavior research methods 39, 2 (2007).",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0J Berndt and James Clifford. 1994. Using dynamic time warping to find patterns in time series.. In KDD workshop, Vol.\u00a010. Seattle, WA, USA:, 359\u2013370.",
+      "doi": ""
+    },
+    {
+      "text": "Sergey Bezryadin, Pavel Bourov, and Dmitry Ilinih. 2007. Brightness Calculation in Digital Image Processing. In Proc. TDPF Symposium.",
+      "doi": ""
+    },
+    {
+      "text": "Ali Borji. 2019. Saliency Prediction in the Deep Learning Era: Successes, Limitations, and Future Challenges. In CoRR abs/1810.03716 (arXiv preprint).",
+      "doi": ""
+    },
+    {
+      "text": "A. Borji and L. Itti. 2013. State-of-the-art in visual attention modeling. IEEE Trans. Pattern Anal. Mach. Intell. 35, 1 (2013).",
+      "doi": "10.1109/TPAMI.2012.89"
+    },
+    {
+      "text": "Ali Borji and Laurent Itti. 2015. CAT2000: A Large Scale Fixation Dataset for Boosting Saliency Research. CVPR 2015 workshop on \"Future of Datasets\"(2015). arXiv preprint arXiv:1505.03581.",
+      "doi": ""
+    },
+    {
+      "text": "Ali Borji, Hamed\u00a0R. Tavakoli, Dicky\u00a0N. Sihite, and Laurent Itti. 2013. Analysis of Scores, Datasets, and Models in Visual Saliency Prediction. In Proc. ICCV.",
+      "doi": "10.1109/ICCV.2013.118"
+    },
+    {
+      "text": "Michelle\u00a0A Borkin, Zoya Bylinskii, Nam\u00a0Wook Kim, Constance\u00a0May Bainbridge, Chelsea\u00a0S Yeh, Daniel Borkin, Hanspeter Pfister, and Aude Oliva. 2015. Beyond memorability: Visualization recognition and recall. IEEE transactions on visualization and computer graphics 22, 1(2015).",
+      "doi": ""
+    },
+    {
+      "text": "Maximilian\u00a0D Broda and Benjamin de Haas. 2022. Individual fixation tendencies in person viewing generalize from images to videos. i-Perception 13, 6 (2022), 20416695221128844.",
+      "doi": ""
+    },
+    {
+      "text": "Neil Bruce and John Tsotsos. 2005. Saliency based on information maximization. Advances in neural information processing systems 18 (2005).",
+      "doi": ""
+    },
+    {
+      "text": "Zoya Bylinskii, Tilke Judd, Ali Borji, Laurent Itti, Fr\u00e9do Durand, Aude Oliva, and Antonio Torralba. 2015. Mit saliency benchmark. (2015).",
+      "doi": ""
+    },
+    {
+      "text": "Zoya Bylinskii, Nam\u00a0Wook Kim, Peter O\u2019Donovan, Sami Alsheikh, Spandan Madan, Hanspeter Pfister, Fredo Durand, Bryan Russell, and Aaron Hertzmann. 2017. Learning Visual Importance for Graphic Designs and Data Visualizations. In Proc. UIST.",
+      "doi": "10.1145/3126594.3126653"
+    },
+    {
+      "text": "Ying Cao, Rynson\u00a0WH Lau, and Antoni\u00a0B Chan. 2014. Look over here: Attention-directing composition of manga elements. ACM Transactions on Graphics (TOG) 33, 4 (2014).",
+      "doi": "10.1145/2601097.2601183"
+    },
+    {
+      "text": "Zhaohui Che, Ali Borji, Guangtao Zhai, Xiongkuo Min, Guodong Guo, and Patrick Le\u00a0Callet. 2020. How is Gaze Influenced by Image Transformations? Dataset and Model. IEEE Transactions on Image Processing 29 (2020), 2287\u20132300. https://doi.org/10.1109/TIP.2019.2945857",
+      "doi": "10.1109/TIP.2019.2945857"
+    },
+    {
+      "text": "Zhenzhong Chen and Wanjie Sun. 2018. Scanpath Prediction for Visual Attention Using IOR-ROI LSTM(IJCAI\u201918). AAAI Press, 642\u2013648.",
+      "doi": ""
+    },
+    {
+      "text": "L. Cooke. 2006. Is the mouse a poor man\u2019s eye tracker?. In Proc. STC.",
+      "doi": ""
+    },
+    {
+      "text": "Marcella Cornia, Lorenzo Baraldi, Giuseppe Serra, and Rita Cucchiara. 2016. A Deep Multi-Level Network for Saliency Prediction. In International Conference on Pattern Recognition (ICPR).",
+      "doi": ""
+    },
+    {
+      "text": "Marcella Cornia, Lorenzo Baraldi, Giuseppe Serra, and Rita Cucchiara. 2018. Predicting Human Eye Fixations via an LSTM-Based Saliency Attentive Model. IEEE Transactions on Image Processing 27, 10 (2018). https://doi.org/10.1109/TIP.2018.2851672",
+      "doi": ""
+    },
+    {
+      "text": "Marcella Cornia, Lorenzo Baraldi, Giuseppe Serra, and Rita Cucchiara. 2018. SAM: Pushing the Limits of Saliency Prediction Models. In Proceedings of the IEEE/CVF International Conference on Computer Vision and Pattern Recognition Workshops.",
+      "doi": ""
+    },
+    {
+      "text": "Desktop\u00a0UI Dataset. 2020.. https://github.com/waltteri/desktop-ui-dataset",
+      "doi": ""
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, Chad Franzen, Joshua Hibschman, Daniel Afergan, Yang Li, Jeffrey Nichols, and Ranjitha Kumar. 2017. Rico: A Mobile App Dataset for Building Data-Driven Design Applications. In Proceedings of the 30th Annual Symposium on User Interface Software and Technology(UIST \u201917).",
+      "doi": "10.1145/3126594.3126651"
+    },
+    {
+      "text": "Guanqun Ding, Nevrez \u0130mamo\u011flu, Ali Caglayan, Masahiro Murakawa, and Ryosuke Nakamura. 2022. SalFBNet: Learning pseudo-saliency distribution via feedback convolutional networks. Image and Vision Computing 120 (2022), 104395. https://doi.org/10.1016/j.imavis.2022.104395",
+      "doi": "10.1016/j.imavis.2022.104395"
+    },
+    {
+      "text": "Richard Droste, Jianbo Jiao, and J.\u00a0Alison Noble. 2020. Unified Image and Video Saliency Modeling. In Computer Vision \u2013 ECCV 2020, Andrea Vedaldi, Horst Bischof, Thomas Brox, and Jan-Michael Frahm (Eds.). Springer International Publishing, Cham, 419\u2013435.",
+      "doi": "10.1007/978-3-030-58558-7_25"
+    },
+    {
+      "text": "Sergio Etchebehere and Elena Fedorovskaya. 2017. On the Role of Color in Visual Saliency. Intl. Symp. Electronic Imaging 6 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Ramin Fahimi and Neil\u00a0DB Bruce. 2021. On metrics for measuring scanpath similarity. Behavior Research Methods 53, 2 (2021), 609\u2013628.",
+      "doi": ""
+    },
+    {
+      "text": "Camilo Fosco, Vincent Casser, Amish\u00a0Kumar Bedi, Peter O\u2019Donovan, Aaron Hertzmann, and Zoya Bylinskii. 2020. Predicting visual importance across graphic design types. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 249\u2013260.",
+      "doi": "10.1145/3379337.3415825"
+    },
+    {
+      "text": "Camilo Fosco, Anelise Newman, Pat Sukhum, Yun\u00a0Bin Zhang, Nanxuan Zhao, Aude Oliva, and Zoya Bylinskii. 2020. How much time do you have? modeling multi-duration saliency. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 4473\u20134482.",
+      "doi": ""
+    },
+    {
+      "text": "S. Frintrop, E. Rome, and H.\u00a0I. Christensen. 2010. Computational visual attention systems and their cognitive foundations: A survey. ACM Trans. Appl. Percept. 7, 1 (2010).",
+      "doi": "10.1145/1658349.1658355"
+    },
+    {
+      "text": "Shahrbanoo Hamel, Nathalie Guyader, Denis Pellerin, and Dominique Houzet. 2014. Contribution of Color Information in Visual Saliency Model for Videos. In Proc. ICISP. 213\u2013221.",
+      "doi": ""
+    },
+    {
+      "text": "Rui Han and Shuangjiu Xiao. 2018. Human Visual Scanpath Prediction Based on RGB-D Saliency. In Proceedings of the 2018 International Conference on Image and Graphics Processing (Hong Kong, Hong Kong) (ICIGP 2018). Association for Computing Machinery, New York, NY, USA, 180\u2013184. https://doi.org/10.1145/3191442.3191463",
+      "doi": "10.1145/3191442.3191463"
+    },
+    {
+      "text": "Jonathan Harel, Christof Koch, and Pietro Perona. 2006. Graph-based visual saliency. Advances in neural information processing systems 19 (2006).",
+      "doi": ""
+    },
+    {
+      "text": "J.\u00a0M. Henderson. 1993. Eye movement control during visual object processing: effects of initial fixation position and semantic constraint. Can. J. Exp. Psychol. 47, 1 (1993).",
+      "doi": ""
+    },
+    {
+      "text": "Xun Huang, Chengyao Shen, Xavier Boix, and Qi Zhao. 2015. SALICON: Reducing the Semantic Gap in Saliency Prediction by Adapting Deep Neural Networks. In 2015 IEEE International Conference on Computer Vision (ICCV). 262\u2013270. https://doi.org/10.1109/ICCV.2015.38",
+      "doi": ""
+    },
+    {
+      "text": "Laurent Itti, Christof Koch, and Ernst Niebur. 1998. A model of saliency-based visual attention for rapid scene analysis. IEEE Transactions on pattern analysis and machine intelligence 20, 11(1998), 1254\u20131259.",
+      "doi": "10.1109/34.730558"
+    },
+    {
+      "text": "Sen Jia. 2018. EML-NET: An Expandable Multi-Layer NETwork for Saliency Prediction. CoRR abs/1805.01047(2018). arXiv:1805.01047http://arxiv.org/abs/1805.01047",
+      "doi": ""
+    },
+    {
+      "text": "Ming Jiang, Shengsheng Huang, Juanyong Duan, and Qi Zhao. 2015. SALICON: Saliency in Context. In 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 1072\u20131080. https://doi.org/10.1109/CVPR.2015.7298710",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0M Joyce. 2011. Kullback-leibler divergence. In International encyclopedia of statistical science. Springer, 720\u2013722.",
+      "doi": ""
+    },
+    {
+      "text": "Tilke Judd, Fr\u00e9do Durand, and Antonio Torralba. 2012. A Benchmark of Computational Models of Saliency to Predict Human Fixations. In MIT Technical Report.",
+      "doi": ""
+    },
+    {
+      "text": "T. Judd, K. Ehinger, F. Durand, and A. Torralba. 2009. Learning to predict where humans look. In Proc. ICCV.",
+      "doi": ""
+    },
+    {
+      "text": "Tilke Judd, Krista Ehinger, Fr\u00e9do Durand, and Antonio Torralba. 2009. Learning to predict where humans look. In 2009 IEEE 12th international conference on computer vision. IEEE, 2106\u20132113.",
+      "doi": ""
+    },
+    {
+      "text": "Nam\u00a0Wook Kim, Zoya Bylinskii, Michelle\u00a0A Borkin, Krzysztof\u00a0Z Gajos, Aude Oliva, Fr\u1ebddo Durand, and Hanspeter Pfister. 2017. BubbleView: an interface for crowdsourcing image importance maps and tracking visual attention. ACM Transactions on Computer-Human Interaction (TOCHI) 24, 5(2017). https://doi.org/10.1145/3131275",
+      "doi": "10.1145/3131275"
+    },
+    {
+      "text": "Nam\u00a0Wook Kim, Zoya Bylinskii, Michelle\u00a0A Borkin, Aude Oliva, Krzysztof\u00a0Z Gajos, and Hanspeter Pfister. 2015. A crowdsourced alternative to eye-tracking for visualization understanding. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems. 1349\u20131354.",
+      "doi": "10.1145/2702613.2732934"
+    },
+    {
+      "text": "Alexander Kroner, Mario Senden, Kurt Driessens, and Rainer Goebel. 2020. Contextual encoder\u2013decoder network for visual saliency prediction. Neural Networks 129(2020), 261\u2013270. https://doi.org/10.1016/j.neunet.2020.05.004",
+      "doi": ""
+    },
+    {
+      "text": "Matthias K\u00fcmmerer, Matthias Bethge, and Thomas\u00a0SA Wallis. 2022. DeepGaze III: Modeling free-viewing human scanpaths with deep learning. Journal of Vision 22, 5 (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Matthias K\u00fcmmerer, Lucas Theis, and Matthias Bethge. 2014. Deep gaze i: Boosting saliency prediction with feature maps trained on imagenet. arXiv preprint arXiv:1411.1045(2014).",
+      "doi": ""
+    },
+    {
+      "text": "Matthias K\u00fcmmerer, Thomas Wallis, and Matthias Bethge. 2014. How close are we to understanding image-based saliency?arXiv preprint arXiv:1409.7686(2014).",
+      "doi": ""
+    },
+    {
+      "text": "Matthias K\u00fcmmerer, Thomas\u00a0SA Wallis, and Matthias Bethge. 2015. Information-theoretic model comparison unifies saliency metrics. Proceedings of the National Academy of Sciences 112, 52(2015), 16054\u201316059.",
+      "doi": ""
+    },
+    {
+      "text": "Matthias Kummerer, Thomas\u00a0SA Wallis, Leon\u00a0A Gatys, and Matthias Bethge. 2017. Understanding low-and high-level contributions to fixation prediction. In Proceedings of the IEEE international conference on computer vision. 4789\u20134798.",
+      "doi": ""
+    },
+    {
+      "text": "Olivier Le\u00a0Meur, Patrick Le\u00a0Callet, and Dominique Barba. 2007. Predicting visual fixations on video based on low-level visual features. Vision research 47, 19 (2007), 2483\u20132498.",
+      "doi": ""
+    },
+    {
+      "text": "Luis\u00a0A Leiva, Yunfei Xue, Avya Bansal, Hamed\u00a0R Tavakoli, Tu\u00f0\u00e7e K\u00f6ro\u00f0lu, Jingzhou Du, Niraj\u00a0R Dayama, and Antti Oulasvirta. 2020. Understanding visual saliency in mobile user interfaces. In 22nd International conference on human-computer interaction with mobile devices and services. 1\u201312.",
+      "doi": "10.1145/3379503.3403557"
+    },
+    {
+      "text": "Guanbin Li and Yizhou Yu. 2015. Visual Saliency Based on Multiscale Deep Features. In Proc. CVPR. 5455\u20135463.",
+      "doi": ""
+    },
+    {
+      "text": "Akis Linardos, Matthias K\u00fcmmerer, Ori Press, and Matthias Bethge. 2021. DeepGaze IIE: Calibrated prediction in and out-of-domain for state-of-the-art saliency modeling. In Proceedings of the IEEE/CVF International Conference on Computer Vision. 12919\u201312928.",
+      "doi": ""
+    },
+    {
+      "text": "Gitte Lindgaard, Gary Fernandes, Cathy Dudek, and J. Brown. 2006. Attention web designers: You have 50 milliseconds to make a good first impression!Behav. Inform. Technol. 25, 2 (2006).",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer Long, Rene Cheung, Simon Duong, Rosemary Paynter, and Lisa Asper. 2017. Viewing distance and eyestrain symptoms with prolonged viewing of smartphones. Clinical and Experimental Optometry 100, 2 (2017), 133\u2013137.",
+      "doi": ""
+    },
+    {
+      "text": "Jianxun Lou, Hanhe Lin, David Marshall, Dietmar Saupe, and Hantao Liu. 2022. TranSalNet: Towards perceptually relevant visual saliency prediction. Neurocomputing 494(2022), 455\u2013467. https://doi.org/10.1016/j.neucom.2022.04.080",
+      "doi": ""
+    },
+    {
+      "text": "S. Marat, A. Rahman, D. Pellerin, N. Guyader, and D. Houzet. 2013. Improving Visual Saliency by Adding \u2018Face Feature Map\u2019 and \u2018Center Bias\u2019. Cogn. Comput. 5, 1 (2013).",
+      "doi": ""
+    },
+    {
+      "text": "S Mathot, F Cristino, ID Gilchrist, and J Theeuwes. 2012. Eyenalysis: A similarity measure for eye movement patterns. Journal of Eye Movement Research 5 (2012), 1\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Aliaksei Miniukovich and Antonella De\u00a0Angeli. 2014. Visual Impressions of Mobile App Interfaces. In Proc. NordiCHI. 31\u201340.",
+      "doi": "10.1145/2639189.2641219"
+    },
+    {
+      "text": "Aliaksei Miniukovich and Maurizio Marchese. 2020. Relationship between visual complexity and aesthetics of webpages. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376602"
+    },
+    {
+      "text": "A. Mishra, Y. Aloimonos, and C.L. Fah. 2009. Active segmentation with fixation. In Proc. ICCV. 468\u2013475.",
+      "doi": ""
+    },
+    {
+      "text": "Thuyen Ngo and B.S. Manjunath. 2017. Saccade gaze prediction using a recurrent neural network. In 2017 IEEE International Conference on Image Processing (ICIP). 3435\u20133439. https://doi.org/10.1109/ICIP.2017.8296920",
+      "doi": "10.1109/ICIP.2017.8296920"
+    },
+    {
+      "text": "A. Nuthmann and J.\u00a0M. Henderson. 2014. Object-based attentional selection in scene viewing. J. Vis. 10, 8 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "J.\u00a0P. Ossandon, S. Onat, and P. K\u00f6nig. 2014. Spatial biases in viewing behavior. J. Vis. 14, 2 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Peter O\u2019Donovan, Aseem Agarwala, and Aaron Hertzmann. 2014. Learning layouts for single-pagegraphic designs. IEEE transactions on visualization and computer graphics 20, 8(2014).",
+      "doi": "10.1109/TVCG.2014.48"
+    },
+    {
+      "text": "Junting Pan, Cristian Canton, Kevin McGuinness, Noel\u00a0E. O\u2019Connor, Jordi Torres, Elisa Sayrol, and Xavier\u00a0and Giro-i Nieto. 2017. SalGAN: Visual Saliency Prediction with Generative Adversarial Networks. In arXiv.",
+      "doi": ""
+    },
+    {
+      "text": "Xufang Pang, Ying Cao, Rynson\u00a0WH Lau, and Antoni\u00a0B Chan. 2016. Directing user attention via visual flow on web designs. ACM Transactions on Graphics (TOG) 35, 6 (2016), 1\u201311.",
+      "doi": "10.1145/2980179.2982422"
+    },
+    {
+      "text": "Robert\u00a0J Peters, Asha Iyer, Laurent Itti, and Christof Koch. 2005. Components of bottom-up gaze allocation in natural images. Vision research 45, 18 (2005), 2397\u20132416.",
+      "doi": ""
+    },
+    {
+      "text": "Hamed R. Tavakoli, Ali Borji, Jorma Laaksonen, and Esa Rahtu. 2017. Exploiting inter-image similarity and ensemble of extreme learners for fixation prediction using deep features. Neurocomputing 244(2017), 10\u201318. https://doi.org/10.1016/j.neucom.2017.03.018",
+      "doi": "10.1016/j.neucom.2017.03.018"
+    },
+    {
+      "text": "Subramanian Ramanathan, Harish Katti, Nicu Sebe, Mohan Kankanhalli, and Tat-Seng Chua. 2010. An eye fixation database for saliency detection in images. In European conference on computer vision. Springer, 30\u201343.",
+      "doi": ""
+    },
+    {
+      "text": "K. Rayner, S.\u00a0P. Liversedge, A. Nuthmann, R. Kliegl, and Underwood G.2009. Rayner\u2019s 1979 paper. Perception 38, 6 (2009).",
+      "doi": ""
+    },
+    {
+      "text": "Hamed Rezazadegan Tavakoli, Esa Rahtu, and Janne Heikkil\u00e4. 2013. Stochastic bottom\u2013up fixation prediction and saccade generation. Image and Vision Computing 31, 9 (2013), 686\u2013693. https://doi.org/10.1016/j.imavis.2013.06.006",
+      "doi": "10.1016/j.imavis.2013.06.006"
+    },
+    {
+      "text": "Ruth Rosenholtz, Amal Dorai, and Rosalind Freeman. 2011. Do Predictions of Visual Perception Aid Design?ACM Trans. Appl. Percept. 8, 2 (2011).",
+      "doi": "10.1145/1870076.1870080"
+    },
+    {
+      "text": "Yossi Rubner, Carlo Tomasi, and Leonidas\u00a0J Guibas. 2000. The earth mover\u2019s distance as a metric for image retrieval. International journal of computer vision 40, 2 (2000), 99\u2013121.",
+      "doi": ""
+    },
+    {
+      "text": "Stan Salvador and Philip Chan. 2007. Toward accurate dynamic time warping in linear time and space. Intelligent Data Analysis 11, 5 (2007), 561\u2013580.",
+      "doi": "10.5555/1367985.1367993"
+    },
+    {
+      "text": "Peggy Seri\u00e8s and Aaron Seitz. 2013. Learning what to expect (in visual perception). Front. Hum. neurosci. 7(2013).",
+      "doi": ""
+    },
+    {
+      "text": "Evan Shelhamer, Jonathan Long, and Trevor Darrell. 2017. Fully Convolutional Networks for Semantic Segmentation. IEEE Trans. Pattern Anal. Mach. Intell. 39, 4 (2017).",
+      "doi": "10.1109/TPAMI.2016.2572683"
+    },
+    {
+      "text": "Chengyao Shen and Qi Zhao. 2014. Webpage saliency. In European conference on computer vision. Springer, 33\u201346.",
+      "doi": ""
+    },
+    {
+      "text": "Jeremiah\u00a0D. Still and Christopher\u00a0M. Masciocchi. 2010. A Saliency Model Predicts Fixations in Web Interfaces. In Proc. MDDAUI Workshop.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0J Swain and Dana\u00a0H Ballard. 1991. Color indexing. International journal of computer vision 7, 1 (1991), 11\u201332.",
+      "doi": "10.1007/BF00130487"
+    },
+    {
+      "text": "Hamed\u00a0R. Tavakoli, Fawad Ahmed, Ali Borji, and Jorma Laaksonen. 2017. Saliency Revisited: Analysis of Mouse Movements Versus Fixations. In Proc. CVPR.",
+      "doi": ""
+    },
+    {
+      "text": "Sauer Tim, A\u00a0Yorke James, and Casdagli Martin. 1991. Embedology. Journal of statistical Physics 65, 3-4 (1991), 579\u2013616.",
+      "doi": ""
+    },
+    {
+      "text": "Richard Veale, Ziad\u00a0M. Hafed, and Masatoshi Yoshida. 2017. How is visual salience computed in the brain? Insights from behaviour, neurobiology and modelling. Philos. Trans. R. Soc. Lond. B. Biol. Sci. 372, 1714 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Ashish Verma and Debashis Sen. 2019. HMM-based Convolutional LSTM for Visual Scanpath Prediction. In 2019 27th European Signal Processing Conference (EUSIPCO). 1\u20135. https://doi.org/10.23919/EUSIPCO.2019.8902643",
+      "doi": ""
+    },
+    {
+      "text": "Eleonora Vig, Michael Dorr, and David Cox. 2014. Large-Scale Optimization of Hierarchical Features for Saliency Prediction in Natural Images. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).",
+      "doi": ""
+    },
+    {
+      "text": "Wei Wang, Cheng Chen, Yizhou Wang, Tingting Jiang, Fang Fang, and Yuan Yao. 2011. Simulating human saccadic scanpaths on natural images. In CVPR 2011. IEEE, 441\u2013448.",
+      "doi": "10.1109/CVPR.2011.5995423"
+    },
+    {
+      "text": "Yixiu Wang, Bin Wang, Xiaofeng Wu, and Liming Zhang. 2017. Scanpath estimation based on foveated image saliency. Cognitive processing 18, 1 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "[90] Alexa Top\u00a0500 Websites.2022. https://www.expireddomains.net/alexa-top-websites/.",
+      "doi": ""
+    },
+    {
+      "text": "Calden Wloka, Iuliia Kotseruba, and John\u00a0K. Tsotsos. 2018. Active Fixation Control to Predict Saccade Sequences. In 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition. IEEE. https://doi.org/10.1109/cvpr.2018.00336",
+      "doi": ""
+    },
+    {
+      "text": "Jeremy\u00a0M. Wolfe and Todd\u00a0S. Horowitz. 2004. What attributes guide the deployment of visual attention and how do they do it?Nat. Rev. Neurosci. 5, 6 (2004).",
+      "doi": ""
+    },
+    {
+      "text": "Jason Wu, Xiaoyi Zhang, Jeff Nichols, and Jeffrey\u00a0P Bigham. 2021. Screen Parsing: Towards Reverse Engineering of UI Models from Screenshots. In The 34th Annual ACM Symposium on User Interface Software and Technology. 470\u2013483.",
+      "doi": "10.1145/3472749.3474763"
+    },
+    {
+      "text": "Chen Xia, Junwei Han, Fei Qi, and Guangming Shi. 2019. Predicting Human Saccadic Scanpaths Based on Iterative Representation Learning. IEEE Transactions on Image Processing 28, 7 (2019), 3502\u20133515. https://doi.org/10.1109/TIP.2019.2897966",
+      "doi": "10.1109/TIP.2019.2897966"
+    },
+    {
+      "text": "Mulong Xie, Sidong Feng, Zhenchang Xing, Jieshan Chen, and Chunyang Chen. 2020. UIED: A Hybrid Tool for GUI Element Detection. In Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (Virtual Event, USA) (ESEC/FSE 2020). Association for Computing Machinery, New York, NY, USA, 1655\u20131659. https://doi.org/10.1145/3368089.3417940",
+      "doi": "10.1145/3368089.3417940"
+    },
+    {
+      "text": "Pingmei Xu, Krista\u00a0A Ehinger, Yinda Zhang, Adam Finkelstein, Sanjeev\u00a0R Kulkarni, and Jianxiong Xiao. 2015. Turkergaze: Crowdsourcing saliency with webcam based eye tracking. arXiv preprint arXiv:1504.06755(2015).",
+      "doi": ""
+    },
+    {
+      "text": "Amir\u00a0R. Zamir, Te-Lin Wu, Lin Sun, William\u00a0B. Shen, Bertram\u00a0E. Shi, Jitendra Malik, and Silvio Savarese. 2017. Feedback Networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).",
+      "doi": ""
+    },
+    {
+      "text": "Joseph\u00a0P Zbilut and Charles\u00a0L Webber\u00a0Jr. 2006. Recurrence quantification analysis. Wiley encyclopedia of biomedical engineering (2006).",
+      "doi": ""
+    },
+    {
+      "text": "Ciheng Zhang, Decky Aspandi, and Steffen Staab. 2022. Predicting Eye Gaze Location on Websites. arXiv preprint arXiv:2211.08074(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Qi Zhao and Christof Koch. 2013. Learning saliency-based visual attention: A review. Signal Process. 93(2013).",
+      "doi": ""
+    }
+  ]
+}

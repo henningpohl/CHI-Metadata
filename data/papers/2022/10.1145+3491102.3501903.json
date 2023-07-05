@@ -1,0 +1,472 @@
+{
+  "doi": "10.1145/3491102.3501903",
+  "title": "Guided Bug Crush: Assist Manual GUI Testing of Android Apps via Hint Moves",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Mobile apps are indispensable for people\u2019s daily life. Complementing with automated GUI testing, manual testing is the last line of defence for app quality. However, the repeated actions and easily missing of functionalities make manual testing time-consuming and inefficient. Inspired by the game candy crush with flashy candies as hint moves for players, we propose an approach named NaviDroid for navigating testers via highlighted next operations for more effective and efficient testing. Within NaviDroid, we construct an enriched state transition graph with the triggering actions as the edges for two involved states. Based on it, we utilize the dynamic programming algorithm to plan the exploration path, and augment the GUI with visualized hints for testers to quickly explore untested activities and avoid duplicate explorations. The automated experiments demonstrate the high coverage and efficient path planning of NaviDroid and a user study further confirms its usefulness. The NaviDroid can help us develop more robust software that works in more mission-critical settings, not only by performing more thorough testing with the same effort that has been put in before, but also by integrating these techniques into different parts of development pipeline.",
+  "authors": [
+    {
+      "name": "Zhe Liu",
+      "institution": "Laboratory for Internet Software Technologies, University of Chinese Academy of Sciences, Institute of Software, Chinese Academy of Sciences, China and University of Chinese Academy of Sciences, University of Chinese Academy of Sciences, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659601521",
+      "orcid": "missing"
+    },
+    {
+      "name": "Chunyang Chen",
+      "institution": "Faculty of Information Technology, Monash University, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659067952",
+      "orcid": "missing"
+    },
+    {
+      "name": "Junjie Wang",
+      "institution": "Laboratory for Internet Software Technologies, University of Chinese Academy of Sciences, Institute of Software, Chinese Academy of Sciences, China and State Key Laboratory of Computer Sciences, Institute of Software, Chinese Academy of Sciences, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81502687779",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yuekai Huang",
+      "institution": "University of Chinese Academy of Sciences, China and Laboratory for Internet Software Technologies, Institute of Software, Chinese Academy of Sciences, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659592253",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jun Hu",
+      "institution": "Institute of Software Chinese Academy of Sciences, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659673071",
+      "orcid": "missing"
+    },
+    {
+      "name": "Qing Wang",
+      "institution": "Laboratory for Internet Software Technologies, University of Chinese Academy of Sciences, Institute of Software Chinese Academy of Sciences, China and State Key Laboratory of Computer Sciences, Science & Technology on Integrated Information System Laboratory, Institute of Software Chinese Academy of Sciences, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81350574541",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "2016. Mobile Internet use passes desktop for the first time.https://techcrunch.com/2016/11/01/mobile- internet- use- passes- desktop- for- the- first- time- study- finds/.",
+      "doi": ""
+    },
+    {
+      "text": "2018. Amazon Mechanical Turk.https://www.mturk.com/.",
+      "doi": ""
+    },
+    {
+      "text": "2019. UTest. https://www.utest.com/.",
+      "doi": ""
+    },
+    {
+      "text": "[4] 2020. http://tools.android.com/tips/lint.",
+      "doi": ""
+    },
+    {
+      "text": "[5] 2020. https://github.com/stylelint/stylelint.",
+      "doi": ""
+    },
+    {
+      "text": "2020. Android Debug Bridge (adb). https://developer.android.com/studio/command-line/adb.html# forwardports.",
+      "doi": ""
+    },
+    {
+      "text": "2020. Candy Crush Saga. https://play.google.com/store/apps/details?id=com.king.candycrushsaga.",
+      "doi": ""
+    },
+    {
+      "text": "2020. Number of available applications in the Google Play Store from December 2009 to June 2020. https://www.statista.com/statistics/266210/number-of-available-applications-in-the-google-play-store.",
+      "doi": ""
+    },
+    {
+      "text": "2021. Android development. http://developer.android.com/reference/android.",
+      "doi": ""
+    },
+    {
+      "text": "2021. View hierachy. https://developer.android.google.cn/topic/performance/rendering/optimizing-view-hierarchies/.",
+      "doi": ""
+    },
+    {
+      "text": "David Adamo, Md\u00a0Khorrom Khan, Sreedevi Koppula, and Ren\u00e9e Bryce. 2018. Reinforcement learning for android gui testing. In Proceedings of the 9th ACM SIGSOFT International Workshop on Automating TEST Case Design, Selection, and Evaluation. 2\u20138.",
+      "doi": "10.1145/3278186.3278187"
+    },
+    {
+      "text": "Abdulaziz Alshayban, Iftekhar Ahmed, and Sam Malek. 2020. Accessibility issues in Android apps: state of affairs, sentiments, and ways forward. In 2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE). IEEE, 1323\u20131334.",
+      "doi": "10.1145/3377811.3380392"
+    },
+    {
+      "text": "Josh\u00a0M Attenberg, Pagagiotis\u00a0G Ipeirotis, and Foster Provost. 2011. Beat the machine: Challenging workers to find the unknown unknowns. In Workshops at the Twenty-Fifth AAAI Conference on Artificial Intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "Tanzirul Azim and Iulian Neamtiu. 2013. Targeted and depth-first exploration for systematic testing of android apps. In Proceedings of the 2013 ACM SIGPLAN international conference on Object oriented programming systems languages & applications. 641\u2013660.",
+      "doi": "10.1145/2509136.2509549"
+    },
+    {
+      "text": "Young-Min Baek and Doo-Hwan Bae. 2016. Automated model-based android gui testing using multi-level gui comparison criteria. In Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering. ACM, 238\u2013249.",
+      "doi": "10.1145/2970276.2970313"
+    },
+    {
+      "text": "Scott Beamer, Krste Asanovic, and David Patterson. 2012. Direction-optimizing breadth-first search. In SC\u201912: Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis. IEEE, 1\u201310.",
+      "doi": "10.5555/2388996.2389013"
+    },
+    {
+      "text": "Matthias B\u00f6hmer, Brent Hecht, Johannes Sch\u00f6ning, Antonio Kr\u00fcger, and Gernot Bauer. 2011. Falling asleep with Angry Birds, Facebook and Kindle: a large scale study on mobile application usage. In Proceedings of the 13th international conference on Human computer interaction with mobile devices and services. 47\u201356.",
+      "doi": "10.1145/2037373.2037383"
+    },
+    {
+      "text": "Nataniel\u00a0P Borges, Jenny Hotzkow, and Andreas Zeller. 2018. DroidMate-2: a platform for Android test generation. In 2018 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE, 916\u2013919.",
+      "doi": "10.1145/3238147.3240479"
+    },
+    {
+      "text": "Tianqin Cai, Zhao Zhang, and Ping Yang. 2020. Fastbot: A Multi-Agent Model-Based Test Generation System Beijing Bytedance Network Technology Co., Ltd.. In Proceedings of the IEEE/ACM 1st International Conference on Automation of Software Test. 93\u201396.",
+      "doi": "10.1145/3387903.3389308"
+    },
+    {
+      "text": "Chunyang Chen, Ting Su, Guozhu Meng, Zhenchang Xing, and Yang Liu. 2018. From ui design image to gui skeleton: a neural machine translator to bootstrap mobile gui implementation. In Proceedings of the 40th International Conference on Software Engineering. ACM, 665\u2013676.",
+      "doi": "10.1145/3180155.3180240"
+    },
+    {
+      "text": "Qiuyuan Chen, Chunyang Chen, Safwat Hassan, Zhengchang Xing, Xin Xia, and Ahmed\u00a0E Hassan. 2021. How Should I Improve the UI of My App? A Study of User Reviews of Popular Apps in the Google Play. ACM Transactions on Software Engineering and Methodology (TOSEM) 30, 3(2021), 1\u201338.",
+      "doi": "10.1145/3447808"
+    },
+    {
+      "text": "Sen Chen, Chunyang Chen, Lingling Fan, Mingming Fan, Xian Zhan, and Yang Liu. 2021. Accessible or Not An Empirical Investigation of Android App Accessibility. IEEE Transactions on Software Engineering(2021).",
+      "doi": "10.1109/TSE.2021.3108162"
+    },
+    {
+      "text": "Sen Chen, Lingling Fan, Chunyang Chen, Ting Su, Wenhe Li, Yang Liu, and Lihua Xu. 2019. Storydroid: Automated generation of storyboard for Android apps. In 2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE). IEEE, 596\u2013607.",
+      "doi": "10.1109/ICSE.2019.00070"
+    },
+    {
+      "text": "Yan Chen, Sang\u00a0Won Lee, and Steve Oney. 2021. CoCapture: Effectively Communicating UI Behaviors on Existing Websites by Demonstrating and Remixing. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445573"
+    },
+    {
+      "text": "Yan Chen, Maulishree Pandey, Jean\u00a0Y Song, Walter\u00a0S Lasecki, and Steve Oney. 2020. Improving Crowd-Supported GUI Testing with Structural Guidance. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376835"
+    },
+    {
+      "text": "Wontae Choi, George Necula, and Koushik Sen. 2013. Guided gui testing of android apps with minimal restart and approximate learning. Acm Sigplan Notices 48, 10 (2013), 623\u2013640.",
+      "doi": "10.1145/2544173.2509552"
+    },
+    {
+      "text": "Ilinca Ciupa, Bertrand Meyer, Manuel Oriol, and Alexander Pretschner. 2008. Finding faults: Manual testing vs. random+ testing vs. user reports. In 2008 19th International Symposium on Software Reliability Engineering (ISSRE). IEEE, 157\u2013166.",
+      "doi": "10.1109/ISSRE.2008.18"
+    },
+    {
+      "text": "Qiang Cui, Song Wang, Junjie Wang, Yuanzhe Hu, Qing Wang, and Mingshu Li. 2017. Multi-Objective Crowd Worker Selection in Crowdsourced Testing.. In SEKE, Vol.\u00a017. 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Nikita Danilov, Tatiana Shulga, Natalya Frolova, Nina Melnikova, Nataliia Vagarina, and Elena Pchelintseva. 2016. Software usability evaluation based on the user pinpoint activity heat map. In Computer Science On-line Conference. Springer, 217\u2013225.",
+      "doi": ""
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, Chad Franzen, Joshua Hibschman, Daniel Afergan, Yang Li, Jeffrey Nichols, and Ranjitha Kumar. 2017. Rico: A mobile app dataset for building data-driven design applications. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology. 845\u2013854.",
+      "doi": "10.1145/3126594.3126651"
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, Chad Franzen, Jeffrey Nichols, Yang Li, and Ranjitha Kumar. 2017. Zipt: Zero-integration performance testing of mobile app designs. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology. 727\u2013736.",
+      "doi": "10.1145/3126594.3126647"
+    },
+    {
+      "text": "Android Developers. 2012. Ui/application exerciser monkey.",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Eder, Benedikt Hauptmann, Maximilian Junker, Rudolf Vaas, and Karl-Heinz Prommer. 2014. Selecting manual regression test cases automatically using trace link recovery and change coverage. In 9th International Workshop on Automation of Software Test, AST 2014, Hyderabad, India, May 31 - June 1, 2014. ACM, 29\u201335. https://doi.org/10.1145/2593501.2593506",
+      "doi": "10.1145/2593501.2593506"
+    },
+    {
+      "text": "Bernard Elodie, Julien Botella, Fabrice Ambert, Bruno Legeard, and Mark Utting. 2020. Tool Support for Refactoring Manual Tests. In 13th IEEE International Conference on Software Testing, Validation and Verification, ICST 2020, Porto, Portugal, October 24-28, 2020. IEEE, 332\u2013342. https://doi.org/10.1109/ICST46399.2020.00041",
+      "doi": ""
+    },
+    {
+      "text": "Emelie Engstr\u00f6m, Per Runeson, and Mats Skoglund. 2010. A systematic review on regression test selection techniques. Information and Software Technology 52, 1 (2010), 14\u201330.",
+      "doi": "10.1016/j.infsof.2009.07.001"
+    },
+    {
+      "text": "Mattia Fazzini and Alessandro Orso. 2017. Automated cross-platform inconsistency detection for mobile apps. In 2017 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE, 308\u2013318.",
+      "doi": ""
+    },
+    {
+      "text": "Sidong Feng, Suyu Ma, Jinzhong Yu, Chunyang Chen, TingTing Zhou, and Yankun Zhen. 2021. Auto-icon: An automated code generation tool for icon designs assisting in ui development. In 26th International Conference on Intelligent User Interfaces. 59\u201369.",
+      "doi": "10.1145/3397481.3450671"
+    },
+    {
+      "text": "Dennis Fetterly, Mark Manasse, and Marc Najork. 2003. On the evolution of clusters of near-duplicate web pages. In Proceedings of the IEEE/LEOS 3rd International Conference on Numerical Simulation of Semiconductor Optoelectronic Devices (IEEE Cat. No. 03EX726). IEEE, 37\u201345.",
+      "doi": ""
+    },
+    {
+      "text": "Adam Fourney. 2015. Web search, web tutorials & software applications: characterizing and supporting the coordinated use of online resources for performing work in feature-rich software. (2015).",
+      "doi": ""
+    },
+    {
+      "text": "Christian Frisson, Sylvain Malacria, Gilles Bailly, and Thierry Dutoit. 2016. Inspectorwidget: A system to analyze users behaviors in their applications. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems. 1548\u20131554.",
+      "doi": "10.1145/2851581.2892388"
+    },
+    {
+      "text": "Sarah\u00a0E. Garcia. 2020. Usability Testing: Creative Techniques for Answering Your Research Questions. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems, CHI 2020, Honolulu, HI, USA, April 25-30, 2020. ACM, 1\u20132. https://doi.org/10.1145/3334480.3375064",
+      "doi": ""
+    },
+    {
+      "text": "Roman Haas, Daniel Elsner, Elmar J\u00fcrgens, Alexander Pretschner, and Sven Apel. 2021. How can manual testing processes be optimized? developer survey, optimization guidelines, and case studies. In ESEC/FSE \u201921: 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, Athens, Greece, August 23-28, 2021. ACM, 1281\u20131291. https://doi.org/10.1145/3468264.3473922",
+      "doi": "10.1145/3468264.3473922"
+    },
+    {
+      "text": "Hadi Hemmati, Zhihan Fang, and Mika\u00a0V. M\u00e4ntyl\u00e4. 2015. Prioritizing Manual Test Cases in Traditional and Rapid Release Environments. In 8th IEEE International Conference on Software Testing, Verification and Validation, ICST 2015, Graz, Austria, April 13-17, 2015. IEEE Computer Society, 1\u201310. https://doi.org/10.1109/ICST.2015.7102602",
+      "doi": ""
+    },
+    {
+      "text": "Hadi Hemmati and Fatemeh Sharifi. 2018. Investigating NLP-Based Approaches for Predicting Manual Test Case Failure. In 11th IEEE International Conference on Software Testing, Verification and Validation, ICST 2018, V\u00e4ster\u00e5s, Sweden, April 9-13, 2018. IEEE Computer Society, 309\u2013319. https://doi.org/10.1109/ICST.2018.00038",
+      "doi": ""
+    },
+    {
+      "text": "Juha Itkonen and Mika\u00a0V M\u00e4ntyl\u00e4. 2014. Are test cases needed? Replicated comparison between exploratory and test-case-based software testing. Empirical Software Engineering 19, 2 (2014), 303\u2013342.",
+      "doi": "10.1007/s10664-013-9266-8"
+    },
+    {
+      "text": "Juha Itkonen, Mika\u00a0V Mantyla, and Casper Lassenius. 2007. Defect detection efficiency: Test case based vs. exploratory testing. In First International Symposium on Empirical Software Engineering and Measurement (ESEM 2007). IEEE, 61\u201370.",
+      "doi": "10.1109/ESEM.2007.56"
+    },
+    {
+      "text": "Juha Itkonen, Mika\u00a0V Mantyla, and Casper Lassenius. 2009. How do testers do it? An exploratory study on manual testing practices. In 2009 3rd International Symposium on Empirical Software Engineering and Measurement. IEEE, 494\u2013497.",
+      "doi": "10.1109/ESEM.2009.5314240"
+    },
+    {
+      "text": "Juha Itkonen and Kristian Rautiainen. 2005. Exploratory testing: a multiple case study. In 2005 International Symposium on Empirical Software Engineering, 2005. IEEE, 10\u2013pp.",
+      "doi": ""
+    },
+    {
+      "text": "Remo Lachmann, Sandro Schulze, Manuel Nieke, Christoph Seidl, and Ina Schaefer. 2016. System-Level Test Case Prioritization Using Machine Learning. In 15th IEEE International Conference on Machine Learning and Applications, ICMLA 2016, Anaheim, CA, USA, December 18-20, 2016. IEEE Computer Society, 361\u2013368. https://doi.org/10.1109/ICMLA.2016.0065",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Lawrance, Christopher Bogart, Margaret Burnett, Rachel Bellamy, Kyle Rector, and Scott\u00a0D Fleming. 2010. How programmers debug, revisited: An information foraging theory perspective. IEEE Transactions on Software Engineering 39, 2 (2010), 197\u2013215.",
+      "doi": "10.1109/TSE.2010.111"
+    },
+    {
+      "text": "Andreas Leitner, Ilinca Ciupa, Bertrand Meyer, and Mark Howard. 2007. Reconciling manual and automated testing: The autotest experience. In 2007 40th Annual Hawaii International Conference on System Sciences (HICSS\u201907). IEEE, 261a\u2013261a.",
+      "doi": "10.1109/HICSS.2007.462"
+    },
+    {
+      "text": "Baichao Li and Chenglong Ao. 2016. Visualizing content referenced in an electronic document. US Patent 9,495,334.",
+      "doi": ""
+    },
+    {
+      "text": "Yuanchun Li, Ziyue Yang, Yao Guo, and Xiangqun Chen. 2017. Droidbot: a lightweight ui-guided test input generator for android. In 2017 IEEE/ACM 39th International Conference on Software Engineering Companion (ICSE-C). IEEE, 23\u201326.",
+      "doi": ""
+    },
+    {
+      "text": "Yuanchun Li, Ziyue Yang, Yao Guo, and Xiangqun Chen. 2019. Humanoid: a deep learning-based approach to automated black-box Android app testing. In 2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE, 1070\u20131073.",
+      "doi": "10.1109/ASE.2019.00104"
+    },
+    {
+      "text": "Mario Linares-V\u00e1squez, Carlos Bernal-C\u00e1rdenas, Kevin Moran, and Denys Poshyvanyk. 2017. How do developers test android applications?. In 2017 IEEE International Conference on Software Maintenance and Evolution (ICSME). IEEE, 613\u2013622.",
+      "doi": ""
+    },
+    {
+      "text": "Mario Linares-V\u00e1squez, Kevin Moran, and Denys Poshyvanyk. 2017. Continuous, evolutionary and large-scale: A new perspective for automated mobile app testing. In 2017 IEEE International Conference on Software Maintenance and Evolution (ICSME). IEEE, 399\u2013410.",
+      "doi": ""
+    },
+    {
+      "text": "Mario Linares-V\u00e1squez, Martin White, Carlos Bernal-C\u00e1rdenas, Kevin Moran, and Denys Poshyvanyk. 2015. Mining android app usages for generating actionable gui-based execution scenarios. In 2015 IEEE/ACM 12th Working Conference on Mining Software Repositories. IEEE, 111\u2013122.",
+      "doi": ""
+    },
+    {
+      "text": "Zhe Liu, Chunyang Chen, Junjie Wang, Yuekai Huang, Jun Hu, and Qing Wang. 2020. Owl Eyes: Spotting UI Display Issues via Visual Understanding. In 2020 35rd IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE.",
+      "doi": "10.1145/3324884.3416547"
+    },
+    {
+      "text": "Aravind Machiry, Rohan Tahiliani, and Mayur Naik. 2013. Dynodroid: An input generation system for android apps. In Proceedings of the 2013 9th Joint Meeting on Foundations of Software Engineering. 224\u2013234.",
+      "doi": "10.1145/2491411.2491450"
+    },
+    {
+      "text": "Gurmeet\u00a0Singh Manku, Arvind Jain, and Anish Das\u00a0Sarma. 2007. Detecting near-duplicates for web crawling. In Proceedings of the 16th international conference on World Wide Web. 141\u2013150.",
+      "doi": "10.1145/1242572.1242592"
+    },
+    {
+      "text": "Ke Mao, Mark Harman, and Yue Jia. 2016. Sapienz: Multi-objective automated testing for Android applications. In Proceedings of the 25th International Symposium on Software Testing and Analysis. 94\u2013105.",
+      "doi": "10.1145/2931037.2931054"
+    },
+    {
+      "text": "Ke Mao, Mark Harman, and Yue Jia. 2017. Crowd intelligence enhances automated mobile testing. In 2017 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE, 16\u201326.",
+      "doi": ""
+    },
+    {
+      "text": "Justin Matejka, Tovi Grossman, and George Fitzmaurice. 2013. Patina: Dynamic heatmaps for visualizing application usage. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 3227\u20133236.",
+      "doi": "10.1145/2470654.2466442"
+    },
+    {
+      "text": "Domenico Mazza. 2017. Reducing cognitive load and supporting memory in visual design for HCI. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems. 142\u2013147.",
+      "doi": "10.1145/3027063.3048430"
+    },
+    {
+      "text": "Mark Micallef, Chris Porter, and Andrea Borg. 2016. Do exploratory testers need formal training? an investigation using hci techniques. In 2016 IEEE Ninth International Conference on Software Testing, Verification and Validation Workshops (ICSTW). IEEE, 305\u2013314.",
+      "doi": ""
+    },
+    {
+      "text": "Antonio\u00a0E Mirino 2017. Best routes selection using Dijkstra and Floyd-Warshall algorithm. In 2017 11th International Conference on Information & Communication Technology and System (ICTS). IEEE, 155\u2013158.",
+      "doi": ""
+    },
+    {
+      "text": "Nariman Mirzaei, Joshua Garcia, Hamid Bagheri, Alireza Sadeghi, and Sam Malek. 2016. Reducing combinatorics in GUI testing of android applications. In 2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE). IEEE, 559\u2013570.",
+      "doi": "10.1145/2884781.2884853"
+    },
+    {
+      "text": "Takao Nakagawa, Kazuki Munakata, and Koji Yamamoto. 2019. Applying Modified Code Entity-Based Regression Test Selection for Manual End-to-End Testing of Commercial Web Applications. In 2019 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW). 1\u20136. https://doi.org/10.1109/ISSREW.2019.00033",
+      "doi": ""
+    },
+    {
+      "text": "Damien Octeau, Daniel Luchaup, Matthew Dering, Somesh Jha, and Patrick McDaniel. 2015. Composite constant propagation: Application to android inter-component communication analysis. In 2015 IEEE/ACM 37th IEEE International Conference on Software Engineering, Vol.\u00a01. IEEE, 77\u201388.",
+      "doi": ""
+    },
+    {
+      "text": "Minxue Pan, An Huang, Guoxin Wang, Tian Zhang, and Xuandong Li. 2020. Reinforcement learning based curiosity-driven testing of Android applications. In Proceedings of the 29th ACM SIGSOFT International Symposium on Software Testing and Analysis. 153\u2013164.",
+      "doi": "10.1145/3395363.3397354"
+    },
+    {
+      "text": "No\u00e9 P\u00e9rez-Higueras, Fernando Caballero, and Luis Merino. 2018. Learning human-aware path planning with fully convolutional networks. In 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 5897\u20135902.",
+      "doi": "10.1109/ICRA.2018.8460851"
+    },
+    {
+      "text": "Helen Petrie and Omar Kheir. 2007. The relationship between accessibility and usability of websites. In Proceedings of the 2007 Conference on Human Factors in Computing Systems, CHI 2007, San Jose, California, USA, April 28 - May 3, 2007, Mary\u00a0Beth Rosson and David\u00a0J. Gilmore (Eds.). ACM, 397\u2013406. https://doi.org/10.1145/1240624.1240688",
+      "doi": "10.1145/1240624.1240688"
+    },
+    {
+      "text": "Peter Pirolli and Stuart Card. 1999. Information foraging.Psychological review 106, 4 (1999), 643.",
+      "doi": ""
+    },
+    {
+      "text": "Antoine Ponsard and Joanna McGrenere. 2016. Anchored customization: anchoring settings to the application interface to afford customization. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 4154\u20134165.",
+      "doi": "10.1145/2858036.2858129"
+    },
+    {
+      "text": "Christopher Power, Andr\u00e9\u00a0Pimenta Freire, Helen Petrie, and David Swallow. 2012. Guidelines are only half of the story: accessibility problems encountered by blind users on the web. In CHI Conference on Human Factors in Computing Systems, CHI \u201912, Austin, TX, USA - May 05 - 10, 2012. ACM, 433\u2013442. https://doi.org/10.1145/2207676.2207736",
+      "doi": "10.1145/2207676.2207736"
+    },
+    {
+      "text": "Dudekula\u00a0Mohammad Rafi, Katam Reddy\u00a0Kiran Moses, Kai Petersen, and Mika\u00a0V M\u00e4ntyl\u00e4. 2012. Benefits and limitations of automated software testing: Systematic literature review and practitioner survey. In 2012 7th International Workshop on Automation of Software Test (AST). IEEE, 36\u201342.",
+      "doi": ""
+    },
+    {
+      "text": "[77] Navid Salehnamadi, Abdulaziz Alshayban, Jun-Wei Lin, Iftekhar Ahmed, Stacy\u00a0M. Branham, and Sam Malek.[n.d.].",
+      "doi": ""
+    },
+    {
+      "text": "Safaa\u00a0H Shwail, Alia Karim, and Scott Turner. 2013. Probabilistic multi robot path planning in dynamic environments: A comparison between A* and DFS. International Journal of Computer Applications 975 (2013), 8887.",
+      "doi": ""
+    },
+    {
+      "text": "Ting Su, Guozhu Meng, Yuting Chen, Ke Wu, Weiming Yang, Yao Yao, Geguang Pu, Yang Liu, and Zhendong Su. 2017. Guided, stochastic model-based GUI testing of Android apps. In Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering. 245\u2013256.",
+      "doi": "10.1145/3106237.3106298"
+    },
+    {
+      "text": "Yuhui Su, Zhe Liu, Chunyang Chen, Junjie Wang, and Qing Wang. 2021. OwlEyes-online: a fully automated platform for detecting and localizing UI display issues. In ESEC/FSE \u201921: 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, Athens, Greece, August 23-28, 2021. ACM, 1500\u20131504. https://doi.org/10.1145/3468264.3473109",
+      "doi": "10.1145/3468264.3473109"
+    },
+    {
+      "text": "Robert Tarjan. 1972. Depth-first search and linear graph algorithms. SIAM journal on computing 1, 2 (1972), 146\u2013160.",
+      "doi": ""
+    },
+    {
+      "text": "Sander Van Der\u00a0Burg and Eelco Dolstra. 2010. Automating system tests using declarative virtual machines. In 2010 IEEE 21st International Symposium on Software Reliability Engineering. IEEE, 181\u2013190.",
+      "doi": "10.1109/ISSRE.2010.34"
+    },
+    {
+      "text": "Gang Wang, Xinyi Zhang, Shiliang Tang, Christo Wilson, Haitao Zheng, and Ben\u00a0Y Zhao. 2017. Clickstream user behavior models. ACM Transactions on the Web (TWEB) 11, 4 (2017), 1\u201337.",
+      "doi": "10.1145/3068332"
+    },
+    {
+      "text": "Junjie Wang, Mingyang Li, Song Wang, Tim Menzies, and Qing Wang. 2019. Images don\u2019t lie: Duplicate crowdtesting reports detection with screenshot information. Information and Software Technology 110 (2019), 139\u2013155.",
+      "doi": "10.1016/j.infsof.2019.03.003"
+    },
+    {
+      "text": "Junjie Wang, Ye Yang, Rahul Krishna, Tim Menzies, and Qing Wang. 2019. iSENSE: Completion-Aware Crowdtesting Management. In ICSE\u20192019. 932\u2013943.",
+      "doi": ""
+    },
+    {
+      "text": "Junjie Wang, Ye Yang, Song Wang, Chunyang Chen, Dandan Wang, and Qing Wang. 2021. Context-aware Personalized Crowdtesting Task Recommendation. IEEE Transactions on Software Engineering(2021).",
+      "doi": "10.1109/TSE.2021.3081171"
+    },
+    {
+      "text": "Junjie Wang, Ye Yang, Song Wang, Yuanzhe Hu, Dandan Wang, and Qing Wang. 2020. Context-aware In-process Crowdworker Recommendation(ICSE 2020).",
+      "doi": ""
+    },
+    {
+      "text": "Yan Wang, Hailong Zhang, and Atanas Rountev. 2016. On the unsoundness of static analysis for Android GUIs. In Proceedings of the 5th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis. 18\u201323.",
+      "doi": "10.1145/2931021.2931026"
+    },
+    {
+      "text": "James\u00a0A Whittaker. 2009. Exploratory software testing: tips, tricks, tours, and techniques to guide test design. Pearson Education.",
+      "doi": ""
+    },
+    {
+      "text": "Kristian Wiklund, Sigrid Eldh, Daniel Sundmark, and Kristina Lundqvist. 2017. Impediments for software test automation: A systematic literature review. Software Testing, Verification and Reliability 27, 8(2017), e1639.",
+      "doi": ""
+    },
+    {
+      "text": "Tianyong Wu, Xi Deng, Jun Yan, and Jian Zhang. 2019. Analyses for specific defects in android applications: A survey. Frontiers of Computer Science(2019), 1\u201318.",
+      "doi": ""
+    },
+    {
+      "text": "Miao Xie, Qing Wang, Guowei Yang, and Mingshu Li. 2017. Cocoon: Crowdsourced testing quality maximization under context coverage constraint. In 2017 IEEE 28th International Symposium on Software Reliability Engineering (ISSRE). IEEE, 316\u2013327.",
+      "doi": ""
+    },
+    {
+      "text": "Qing Xie and Atif\u00a0M Memon. 2007. Designing and comparing automated test oracles for GUI-based software applications. ACM Transactions on Software Engineering and Methodology (TOSEM) 16, 1(2007), 4\u2013es.",
+      "doi": "10.1145/1189748.1189752"
+    },
+    {
+      "text": "Baron Yan and Yitmen Koray. 2018. ISTQB\u00ae Worldwide Software Testing Practices 2017-2018.",
+      "doi": ""
+    },
+    {
+      "text": "Jiwei Yan, Hao Liu, Linjie Pan, Jun Yan, Jian Zhang, and Bin Liang. 2020. Multiple-entry testing of android applications by constructing activity launching contexts. In 2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE). IEEE, 457\u2013468.",
+      "doi": "10.1145/3377811.3380347"
+    },
+    {
+      "text": "Rahulkrishna Yandrapally, Andrea Stocco, and Ali Mesbah. 2020. Near-duplicate detection in web app model inference. In Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering. 186\u2013197.",
+      "doi": "10.1145/3377811.3380416"
+    },
+    {
+      "text": "Bo Yang, Zhenchang Xing, Xin Xia, Chunyang Chen, Deheng Ye, and Shanping Li. 2021. Don\u2019t Do That! Hunting Down Visual Design Smells in Complex UIs against Design Guidelines. In 2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE). IEEE, 761\u2013772.",
+      "doi": "10.1109/ICSE43902.2021.00075"
+    },
+    {
+      "text": "Bo Yang, Zhenchang Xing, Xin Xia, Chunyang Chen, Deheng Ye, and Shanping Li. 2021. UIS-Hunter: Detecting UI Design Smells in Android Apps. In 2021 IEEE/ACM 43rd International Conference on Software Engineering: Companion Proceedings (ICSE-Companion). IEEE, 89\u201392.",
+      "doi": ""
+    },
+    {
+      "text": "Shengqian Yang, Haowei Wu, Hailong Zhang, Yan Wang, Chandrasekar Swaminathan, Dacong Yan, and Atanas Rountev. 2018. Static window transition graphs for Android. Automated Software Engineering 25, 4 (2018), 833\u2013873.",
+      "doi": "10.5555/3288647.3288710"
+    },
+    {
+      "text": "Wei Yang, Mukul\u00a0R Prasad, and Tao Xie. 2013. A grey-box approach for automated GUI-model generation of mobile applications. In International Conference on Fundamental Approaches to Software Engineering. Springer, 250\u2013265.",
+      "doi": "10.1007/978-3-642-37057-1_19"
+    },
+    {
+      "text": "Xia Zeng, Dengfeng Li, Wujie Zheng, Fan Xia, Yuetang Deng, Wing Lam, Wei Yang, and Tao Xie. 2016. Automated test input generation for android: Are we really there yet in an industrial case?. In Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering. 987\u2013992.",
+      "doi": "10.1145/2950290.2983958"
+    },
+    {
+      "text": "Yifei Zhang, Yulei Sui, and Jingling Xue. 2018. Launch-mode-aware context-sensitive activity transition analysis. In Proceedings of the 40th International Conference on Software Engineering. 598\u2013608.",
+      "doi": "10.1145/3180155.3180188"
+    },
+    {
+      "text": "Dehai Zhao, Zhenchang Xing, Chunyang Chen, Xiwei Xu, Liming Zhu, Guoqiang Li, and Jinshui Wang. 2020. Seenomaly: vision-based linting of GUI animation effects against design-don\u2019t guidelines. In 2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE). IEEE, 1286\u20131297.",
+      "doi": "10.1145/3377811.3380411"
+    },
+    {
+      "text": "Tianming Zhao, Chunyang Chen, Yuanning Liu, and Xiaodong Zhu. 2021. GUIGAN: Learning to Generate GUI Designs Using Generative Adversarial Networks. In 2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE). IEEE, 748\u2013760.",
+      "doi": "10.1109/ICSE43902.2021.00074"
+    }
+  ]
+}

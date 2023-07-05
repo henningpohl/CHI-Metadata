@@ -1,0 +1,339 @@
+{
+  "doi": "10.1145/3491102.3517686",
+  "title": "TypeAnywhere: A QWERTY-Based Text Entry Solution for Ubiquitous Computing",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2022,
+  "badges": [],
+  "abstract": "We present a QWERTY-based text entry system, TypeAnywhere, for use in off-desktop computing environments. Using a wearable device that can detect finger taps, users can leverage their touch-typing skills from physical keyboards to perform text entry on any surface. TypeAnywhere decodes typing sequences based only on finger-tap sequences without relying on tap locations. To achieve optimal decoding performance, we trained a neural language model and achieved a 1.6% character error rate (CER) in an offline evaluation, compared to a 5.3% CER from a traditional n-gram language model. Our user study showed that participants achieved an average performance of 70.6 WPM, or 80.4% of their physical keyboard speed, and 1.50% CER after 2.5 hours of practice over five days on a table surface. They also achieved 43.9 WPM and 1.37% CER when typing on their laps. Our results demonstrate the strong potential of QWERTY typing as a ubiquitous text entry solution.",
+  "authors": [
+    {
+      "name": "Mingrui Ray Zhang",
+      "institution": "The Information School, University of Washington, United States",
+      "img": "/do/10.1145/contrib-99659529048/rel-imgonly/f.png",
+      "acmid": "99659529048",
+      "orcid": "missing"
+    },
+    {
+      "name": "Shumin Zhai",
+      "institution": "Google, United States",
+      "img": "/do/10.1145/contrib-81408591988/rel-imgonly/81408591988.jpg",
+      "acmid": "81408591988",
+      "orcid": "0000-0003-0752-2090"
+    },
+    {
+      "name": "Jacob O. Wobbrock",
+      "institution": "The Information School, University of Washington, United States",
+      "img": "/do/10.1145/contrib-81100086173/rel-imgonly/wobbrock.jpg",
+      "acmid": "81100086173",
+      "orcid": "0000-0003-3675-5491"
+    }
+  ],
+  "references": [
+    {
+      "text": "Michelle Annett and Walter\u00a0F. Bischof. 2013. Your Left Hand Can Do It Too! Investigating Intermanual, Symmetric Gesture Transfer on Touchscreens. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). Association for Computing Machinery, New York, NY, USA, 1119\u20131128.",
+      "doi": "10.1145/2470654.2466144"
+    },
+    {
+      "text": "Xiaojun Bi, Barton\u00a0A. Smith, and Shumin Zhai. 2012. Multilingual Touchscreen Keyboard Design and Optimization. Human\u2013Computer Interaction 27, 4 (2012), 352\u2013382.",
+      "doi": ""
+    },
+    {
+      "text": "Tom\u00a0B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel\u00a0M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language Models are Few-Shot Learners. arxiv:2005.14165\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Ciprian Chelba, Mohammad Norouzi, and Samy Bengio. 2017. N-gram Language Modeling using Recurrent Neural Network Estimation. arxiv:1703.10724\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Xiang\u00a0\u2019Anthony\u2019 Chen, Tovi Grossman, and George Fitzmaurice. 2014. Swipeboard: A Text Entry Technique for Ultra-Small Interfaces That Supports Novice to Expert Transitions. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (Honolulu, Hawaii, USA) (UIST \u201914). Association for Computing Machinery, New York, NY, USA, 615\u2013620.",
+      "doi": "10.1145/2642918.2647354"
+    },
+    {
+      "text": "Matthew J.\u00a0C. Crump and Gordon\u00a0D. Logan. 2010. Warning: This keyboard will deconstruct\u2014 The role of the keyboard in skilled typewriting. Psychonomic Bulletin & Review 17 (2010), 394\u2013399.",
+      "doi": ""
+    },
+    {
+      "text": "Wenzhe Cui, Suwen Zhu, Mingrui\u00a0Ray Zhang, H.\u00a0Andrew Schwartz, Jacob\u00a0O. Wobbrock, and Xiaojun Bi. 2020. JustCorrect: Intelligent Post Hoc Text Correction Techniques on Smartphones. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. Association for Computing Machinery, New York, NY, USA, 487\u2013499.",
+      "doi": "10.1145/3379337.3415857"
+    },
+    {
+      "text": "Cristian Danescu-Niculescu-Mizil, Justin Cheng, Jon Kleinberg, and Lillian Lee. 2012. You Had Me at Hello: How Phrasing Affects Memorability. In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). Association for Computational Linguistics, Jeju Island, Korea, 892\u2013901.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0A David. 1985. Clio and the Economics of QWERTY. American Economic Review 75, 2 (May 1985), 332\u2013337. https://ideas.repec.org/a/aea/aecrev/v75y1985i2p332-37.html",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arxiv:1810.04805\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Vivek Dhakal, Anna\u00a0Maria Feit, Per\u00a0Ola Kristensson, and Antti Oulasvirta. 2018. Observations on Typing from 136 Million Keystrokes. Association for Computing Machinery, New York, NY, USA, 1\u201312.",
+      "doi": "10.1145/3173574.3174220"
+    },
+    {
+      "text": "Jacqui Fashimpaur, Kenrick Kin, and Matt Longest. 2020. PinchType: Text Entry for Virtual and Augmented Reality Using Comfortable Thumb to Fingertip Pinches. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI EA \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20137.",
+      "doi": "10.1145/3334480.3382888"
+    },
+    {
+      "text": "Anna\u00a0Maria Feit, Daryl Weir, and Antti Oulasvirta. 2016. How We Type: Movement Strategies and Performance in Everyday Typing. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 4262\u20134273.",
+      "doi": "10.1145/2858036.2858233"
+    },
+    {
+      "text": "Leah Findlater and Jacob Wobbrock. 2012. Personalized Input: Improving Ten-Finger Touchscreen Typing through Automatic Adaptation. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Austin, Texas, USA) (CHI \u201912). Association for Computing Machinery, New York, NY, USA, 815\u2013824.",
+      "doi": "10.1145/2207676.2208520"
+    },
+    {
+      "text": "Leah Findlater, Jacob\u00a0O. Wobbrock, and Daniel Wigdor. 2011. Typing on Flat Glass: Examining Ten-Finger Expert Typing Patterns on Touch Surfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vancouver, BC, Canada) (CHI \u201911). Association for Computing Machinery, New York, NY, USA, 2453\u20132462.",
+      "doi": "10.1145/1978942.1979301"
+    },
+    {
+      "text": "Mikael Goldstein, Robert Book, Gunilla Alsi\u00f6, and Silvia Tessa. 1999. Non-Keyboard QWERTY Touch Typing: A Portable Input Interface for the Mobile User. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Pittsburgh, Pennsylvania, USA) (CHI \u201999). Association for Computing Machinery, New York, NY, USA, 32\u201339.",
+      "doi": ""
+    },
+    {
+      "text": "Jun Gong, Zheer Xu, Qifan Guo, Teddy Seyed, Xiang\u00a0\u2019Anthony\u2019 Chen, Xiaojun Bi, and Xing-Dong Yang. 2018. WrisText: One-Handed Text Entry on Smartwatch Using Wrist Gestures. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201314.",
+      "doi": "10.1145/3173574.3173755"
+    },
+    {
+      "text": "Joshua Goodman, Gina Venolia, Keith Steury, and Chauncey Parker. 2002. Language Modeling for Soft Keyboards. In Proceedings of the 7th International Conference on Intelligent User Interfaces (San Francisco, California, USA) (IUI \u201902). Association for Computing Machinery, New York, NY, USA, 194\u2013195.",
+      "doi": "10.1145/502716.502753"
+    },
+    {
+      "text": "Mitchell Gordon, Tom Ouyang, and Shumin Zhai. 2016. WatchWriter: Tap and Gesture Typing on a Smartwatch Miniature Keyboard with Statistical Decoding. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 3817\u20133821.",
+      "doi": "10.1145/2858036.2858242"
+    },
+    {
+      "text": "Jonathan\u00a0T. Grudin. 1983. Error Patterns in Novice and Skilled Transcription Typing. Springer New York, New York, NY, 121\u2013143.",
+      "doi": ""
+    },
+    {
+      "text": "Yizheng Gu, Chun Yu, Zhipeng Li, Zhaoheng Li, Xiaoying Wei, and Yuanchun Shi. 2021. QwertyRing: Text Entry on Physical Surfaces Using a Ring. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2 (March 2021), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Asela Gunawardana, Tim Paek, and Christopher Meek. 2010. Usability Guided Key-Target Resizing for Soft Keyboards. In Proceedings of the 15th International Conference on Intelligent User Interfaces (Hong Kong, China) (IUI \u201910). Association for Computing Machinery, New York, NY, USA, 111\u2013118.",
+      "doi": "10.1145/1719970.1719986"
+    },
+    {
+      "text": "Kenneth Heafield. 2011. KenLM: Faster and Smaller Language Model Queries. In Proceedings of the Sixth Workshop on Statistical Machine Translation. Association for Computational Linguistics, Edinburgh, Scotland, 187\u2013197.",
+      "doi": ""
+    },
+    {
+      "text": "Jonggi Hong, Seongkook Heo, Poika Isokoski, and Geehyuk Lee. 2015. SplitBoard: A Simple Split Soft Keyboard for Wristwatch-Sized Touch Screens. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems(Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 1233\u20131236.",
+      "doi": "10.1145/2702123.2702273"
+    },
+    {
+      "text": "Yoon\u00a0Sang Kim, Byung\u00a0Seok Soh, and Sang-Goog Lee. 2005. A new wearable input device: SCURRY. IEEE Transactions on Industrial Electronics 52, 6 (2005), 1490\u20131499. https://doi.org/10.1109/TIE.2005.858736",
+      "doi": ""
+    },
+    {
+      "text": "Per-Ola Kristensson and Shumin Zhai. 2004. SHARK2: A Large Vocabulary Shorthand Writing System for Pen-Based Computers. In Proceedings of the 17th Annual ACM Symposium on User Interface Software and Technology(Santa Fe, NM, USA) (UIST \u201904). Association for Computing Machinery, New York, NY, USA, 43\u201352.",
+      "doi": "10.1145/1029632.1029640"
+    },
+    {
+      "text": "Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and Radu Soricut. 2019. ALBERT: A Lite BERT for Self-supervised Learning of Language Representations. CoRR abs/1909.11942(2019), 1. arXiv:1909.11942",
+      "doi": ""
+    },
+    {
+      "text": "Minkyung Lee and Woontack Woo. 2003. ARKB: 3D vision-based Augmented Reality Keyboard. In Online Proceeding of the 13th International Conference on Artificial Reality and Telexistence. IEEE, Keio University, Tokyo, Japan, 1.",
+      "doi": ""
+    },
+    {
+      "text": "Luis\u00a0A. Leiva, Alireza Sahami, Alejandro Catala, Niels Henze, and Albrecht Schmidt. 2015. Text Entry on Tiny QWERTY Soft Keyboards. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 669\u2013678.",
+      "doi": "10.1145/2702123.2702388"
+    },
+    {
+      "text": "V.\u00a0I. Levenshtein. 1965. Binary codes capable of correcting deletions, insertions, and reversals. Soviet physics. Doklady 10 (1965), 707\u2013710.",
+      "doi": ""
+    },
+    {
+      "text": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. 2019. RoBERTa: A Robustly Optimized BERT Pretraining Approach. CoRR abs/1907.11692(2019), 1. arXiv:1907.11692",
+      "doi": ""
+    },
+    {
+      "text": "Ilya Loshchilov and Frank Hutter. 2019. Decoupled Weight Decay Regularization. arxiv:1711.05101\u00a0[cs.LG]",
+      "doi": ""
+    },
+    {
+      "text": "Kent Lyons, Thad Starner, Daniel Plaisted, James Fusia, Amanda Lyons, Aaron Drew, and E.\u00a0W. Looney. 2004. Twiddler Typing: One-Handed Chording Text Entry for Mobile Phones. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vienna, Austria) (CHI \u201904). Association for Computing Machinery, New York, NY, USA, 671\u2013678.",
+      "doi": "10.1145/985692.985777"
+    },
+    {
+      "text": "I.\u00a0Scott MacKenzie and R.\u00a0William Soukoreff. 2003. Phrase Sets for Evaluating Text Entry Techniques. In CHI \u201903 Extended Abstracts on Human Factors in Computing Systems (Ft. Lauderdale, Florida, USA) (CHI EA \u201903). Association for Computing Machinery, New York, NY, USA, 754\u2013755.",
+      "doi": "10.1145/765891.765971"
+    },
+    {
+      "text": "I.\u00a0Scott MacKenzie and Shawn\u00a0X. Zhang. 1999. The Design and Evaluation of a High-Performance Soft Keyboard. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Pittsburgh, Pennsylvania, USA) (CHI \u201999). Association for Computing Machinery, New York, NY, USA, 25\u201331.",
+      "doi": "10.1145/302979.302983"
+    },
+    {
+      "text": "Catherine Macleod, Nancy Ide, and Ralph Grishman. 2000. The American National Corpus: A Standardized Resource for American English. In Proceedings of the Second International Conference on Language Resources and Evaluation (LREC\u201900). European Language Resources Association (ELRA), Athens, Greece, 1.",
+      "doi": ""
+    },
+    {
+      "text": "Aarthi\u00a0Easwara Moorthy and Kim-Phuong\u00a0L. Vu. 2015. Privacy Concerns for Use of Voice Activated Personal Assistant in the Public Space. International Journal of Human\u2013Computer Interaction 31, 4(2015), 307\u2013335.",
+      "doi": ""
+    },
+    {
+      "text": "H. Ney, U. Essen, and Reinhard Kneser. 1994. On structuring probabilistic dependences in stochastic language modelling. Comput. Speech Lang. 8(1994), 1\u201338.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Oney, Chris Harrison, Amy Ogan, and Jason Wiese. 2013. ZoomBoard: A Diminutive Qwerty Soft Keyboard Using Iterative Zooming for Ultra-Small Devices. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). Association for Computing Machinery, New York, NY, USA, 2799\u20132802.",
+      "doi": "10.1145/2470654.2481387"
+    },
+    {
+      "text": "Shyam Reyal, Shumin Zhai, and Per\u00a0Ola Kristensson. 2015. Performance and User Experience of Touchscreen and Gesture Keyboards in a Lab Setting and in the Wild. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 679\u2013688.",
+      "doi": "10.1145/2702123.2702597"
+    },
+    {
+      "text": "Mark Richardson, Matt Durasoff, and Robert Wang. 2020. Decoding Surface Touch Typing from Hand-Tracking. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201920). Association for Computing Machinery, New York, NY, USA, 686\u2013696.",
+      "doi": "10.1145/3379337.3415816"
+    },
+    {
+      "text": "Helena Roeber, John Bacus, and Carlo Tomasi. 2003. Typing in Thin Air: The Canesta Projection Keyboard - a New Method of Interaction with Electronic Devices. In CHI \u201903 Extended Abstracts on Human Factors in Computing Systems (Ft. Lauderdale, Florida, USA) (CHI EA \u201903). Association for Computing Machinery, New York, NY, USA, 712\u2013713.",
+      "doi": ""
+    },
+    {
+      "text": "T. Salthouse. 1984. Effects of age and skill in typing.Journal of experimental psychology. General 113 3 (1984), 345\u201371.",
+      "doi": ""
+    },
+    {
+      "text": "T. Salthouse. 1986. Perceptual, cognitive, and motoric aspects of transcription typing.Psychological bulletin 99 3 (1986), 303\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "L.\u00a0H. Shaffer. 1978. Timing in the Motor Programming of Typing. Quarterly Journal of Experimental Psychology 30 (1978), 333 \u2013 345.",
+      "doi": ""
+    },
+    {
+      "text": "Weinan Shi, Chun Yu, Xin Yi, Zhen Li, and Yuanchun Shi. 2018. TOAST: Ten-Finger Eyes-Free Typing on Touchable Surfaces. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 1, Article 33 (March 2018), 23\u00a0pages.",
+      "doi": "10.1145/3191765"
+    },
+    {
+      "text": "R.\u00a0William Soukoreff and I.\u00a0Scott MacKenzie. 2003. Metrics for Text Entry Research: An Evaluation of MSD and KSPC, and a New Unified Error Metric. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Ft. Lauderdale, Florida, USA) (CHI \u201903). Association for Computing Machinery, New York, NY, USA, 113\u2013120.",
+      "doi": "10.1145/642611.642632"
+    },
+    {
+      "text": "Srinath Sridhar, Anna\u00a0Maria Feit, Christian Theobalt, and Antti Oulasvirta. 2015. Investigating the Dexterity of Multi-Finger Input for Mid-Air Text Entry. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 3643\u20133652.",
+      "doi": "10.1145/2702123.2702136"
+    },
+    {
+      "text": "Ryo Takahashi, Masaaki Fukumoto, Changyo Han, Takuya Sasatani, Yoshiaki Narusue, and Yoshihiro Kawahara. 2020. TelemetRing: A Batteryless and Wireless Ring-Shaped Keyboard Using Passive Inductive Telemetry. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201920). Association for Computing Machinery, New York, NY, USA, 1161\u20131168.",
+      "doi": "10.1145/3379337.3415873"
+    },
+    {
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan\u00a0N. Gomez, Lukasz Kaiser, and Illia Polosukhin. 2017. Attention Is All You Need. arxiv:1706.03762\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Keith Vertanen, Crystal Fletcher, Dylan Gaines, Jacob Gould, and Per\u00a0Ola Kristensson. 2018. The Impact of Word, Multiple Word, and Sentence Input on Virtual Keyboard Decoding Performance. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201312.",
+      "doi": "10.1145/3173574.3174200"
+    },
+    {
+      "text": "Keith Vertanen and Per\u00a0Ola Kristensson. 2011. A Versatile Dataset for Text Entry Evaluations Based on Genuine Mobile Emails. In Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services (Stockholm, Sweden) (MobileHCI \u201911). Association for Computing Machinery, New York, NY, USA, 295\u2013298.",
+      "doi": "10.1145/2037373.2037418"
+    },
+    {
+      "text": "Keith Vertanen, Haythem Memmi, Justin Emge, Shyam Reyal, and Per\u00a0Ola Kristensson. 2015. VelociTap: Investigating Fast Mobile Text Entry Using Sentence-Based Decoding of Touchscreen Keyboard Input. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 659\u2013668.",
+      "doi": "10.1145/2702123.2702135"
+    },
+    {
+      "text": "Mark Weiser. 1999. The Computer for the 21",
+      "doi": "10.1145/329124.329126"
+    },
+    {
+      "text": "Jacob Wobbrock, Brad Myers, and Brandon Rothrock. 2006. Few-Key Text Entry Revisited: Mnemonic Gestures on Four Keys. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Montr\u00e9al, Qu\u00e9bec, Canada) (CHI \u201906). Association for Computing Machinery, New York, NY, USA, 489\u2013492.",
+      "doi": "10.1145/1124772.1124846"
+    },
+    {
+      "text": "Jacob\u00a0O. Wobbrock and Brad\u00a0A. Myers. 2006. Analyzing the Input Stream for Character- Level Errors in Unconstrained Text Entry Evaluations. ACM Trans. Comput.-Hum. Interact. 13, 4 (Dec. 2006), 458\u2013489.",
+      "doi": "10.1145/1188816.1188819"
+    },
+    {
+      "text": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, R\u00e9mi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven\u00a0Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest, and Alexander\u00a0M. Rush. 2019. HuggingFace\u2019s Transformers: State-of-the-art Natural Language Processing. ArXiv abs/1910.03771(2019), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Pui\u00a0Chung Wong, Kening Zhu, and Hongbo Fu. 2018. FingerT9: Leveraging Thumb-to-Finger Interaction for Same-Side-Hand Text Entry on Smartwatches. Association for Computing Machinery, New York, NY, USA, 1\u201310.",
+      "doi": "10.1145/3173574.3173752"
+    },
+    {
+      "text": "Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc\u00a0V. Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, Jeff Klingner, Apurva Shah, Melvin Johnson, Xiaobing Liu, \u0141ukasz Kaiser, Stephan Gouws, Yoshikiyo Kato, Taku Kudo, Hideto Kazawa, Keith Stevens, George Kurian, Nishant Patil, Wei Wang, Cliff Young, Jason Smith, Jason Riesa, Alex Rudnick, Oriol Vinyals, Greg Corrado, Macduff Hughes, and Jeffrey Dean. 2016. Google\u2019s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation. arxiv:1609.08144\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Zheer Xu, Weihao Chen, Dongyang Zhao, Jiehui Luo, Te-Yen Wu, Jun Gong, Sicheng Yin, Jialun Zhai, and Xing-Dong Yang. 2020. BiTipText: Bimanual Eyes-Free Text Entry on a Fingertip Keyboard. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313.",
+      "doi": "10.1145/3313831.3376306"
+    },
+    {
+      "text": "Zheer Xu, Pui\u00a0Chung Wong, Jun Gong, Te-Yen Wu, Aditya\u00a0Shekhar Nittala, Xiaojun Bi, J\u00fcrgen Steimle, Hongbo Fu, Kening Zhu, and Xing-Dong Yang. 2019. TipText: Eyes-Free Text Entry on a Fingertip Keyboard. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 883\u2013899.",
+      "doi": "10.1145/3332165.3347865"
+    },
+    {
+      "text": "Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Russ\u00a0R Salakhutdinov, and Quoc\u00a0V Le. 2019. XLNet: Generalized Autoregressive Pretraining for Language Understanding. In Advances in Neural Information Processing Systems, H.\u00a0Wallach, H.\u00a0Larochelle, A.\u00a0Beygelzimer, F.\u00a0d'Alch\u00e9-Buc, E.\u00a0Fox, and R.\u00a0Garnett (Eds.). Vol.\u00a032. Curran Associates, Inc., ., 1.",
+      "doi": ""
+    },
+    {
+      "text": "Xin Yi, Chen Wang, Xiaojun Bi, and Yuanchun Shi. 2020. PalmBoard: Leveraging Implicit Touch Pressure in Statistical Decoding for Indirect Text Entry. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313.",
+      "doi": "10.1145/3313831.3376441"
+    },
+    {
+      "text": "Xin Yi, Chun Yu, Weijie Xu, Xiaojun Bi, and Yuanchun Shi. 2017. COMPASS: Rotational Keyboard on Non-Touch Smartwatches. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 705\u2013715.",
+      "doi": "10.1145/3025453.3025454"
+    },
+    {
+      "text": "Xin Yi, Chun Yu, Mingrui Zhang, Sida Gao, Ke Sun, and Yuanchun Shi. 2015. ATK: Enabling Ten-Finger Freehand Typing in Air Based on 3D Hand Tracking Data. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology(Charlotte, NC, USA) (UIST \u201915). Association for Computing Machinery, New York, NY, USA, 539\u2013548.",
+      "doi": "10.1145/2807442.2807504"
+    },
+    {
+      "text": "Chun Yu, Ke Sun, Mingyuan Zhong, Xincheng Li, Peijun Zhao, and Yuanchun Shi. 2016. One-Dimensional Handwriting: Inputting Letters and Words on Smart Glasses. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 71\u201382.",
+      "doi": "10.1145/2858036.2858542"
+    },
+    {
+      "text": "Shumin Zhai, Per-Ola Kristensson, and Barton\u00a0A. Smith. 2004. In search of effective text input interfaces for off the desktop computing. Interacting with Computers 17, 3 (02 2004), 229\u2013250.",
+      "doi": ""
+    },
+    {
+      "text": "Shumin Zhai, Per-Ola Kristensson, and Barton\u00a0A. Smith. 2004. In search of effective text input interfaces for off the desktop computing. Interacting with Computers 17, 3 (02 2004), 229\u2013250.",
+      "doi": ""
+    },
+    {
+      "text": "Shumin Zhai, Per-Ola Kristensson, and Barton\u00a0A. Smith. 2005. In search of effective text input interfaces for off the desktop computing. Interacting with Computers 17, 3 (2005), 229\u2013250. Special Theme - Papers from Members of the Editorial Boards.",
+      "doi": ""
+    },
+    {
+      "text": "Mingrui\u00a0Ray Zhang, Ruolin Wang, Xuhai Xu, Qisheng Li, Ather Sharif, and Jacob\u00a0O. Wobbrock. 2021. Voicemoji: Emoji Entry Using Voice for Visually Impaired People. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, Article 37, 18\u00a0pages.",
+      "doi": "10.1145/3411764.3445338"
+    },
+    {
+      "text": "Mingrui\u00a0Ray Zhang, He Wen, and Jacob\u00a0O. Wobbrock. 2019. Type, Then Correct: Intelligent Text Correction Techniques for Mobile Text Entry Using Neural Networks. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 843\u2013855.",
+      "doi": "10.1145/3332165.3347924"
+    },
+    {
+      "text": "Mingrui\u00a0Ray Zhang and Jacob\u00a0O. Wobbrock. 2019. Beyond the Input Stream: Making Text Entry Evaluations More Flexible with Transcription Sequences. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 831\u2013842.",
+      "doi": "10.1145/3332165.3347922"
+    },
+    {
+      "text": "Mingrui\u00a0Ray Zhang and Shumin Zhai. 2021. PhraseFlow: Designs and Empirical Studies of Phrase-Level Input. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, 32\u201339.",
+      "doi": "10.1145/3411764.3445166"
+    },
+    {
+      "text": "Mingrui\u00a0Ray Zhang, Shumin Zhai, and Jacob\u00a0O. Wobbrock. 2019. Text Entry Throughput: Towards Unifying Speed and Accuracy in a Single Performance Metric. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201313.",
+      "doi": "10.1145/3290605.3300866"
+    },
+    {
+      "text": "Xiang Zhang, Junbo Zhao, and Yann LeCun. 2015. Character-Level Convolutional Networks for Text Classification. In Proceedings of the 28th International Conference on Neural Information Processing Systems - Volume 1 (Montreal, Canada) (NIPS\u201915). MIT Press, Cambridge, MA, USA, 649\u2013657.",
+      "doi": "10.5555/2969239.2969312"
+    },
+    {
+      "text": "Suwen Zhu, Tianyao Luo, Xiaojun Bi, and Shumin Zhai. 2018. Typing on an Invisible Keyboard. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201313.",
+      "doi": "10.1145/3173574.3174013"
+    }
+  ]
+}

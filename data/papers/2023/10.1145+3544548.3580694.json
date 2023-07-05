@@ -1,0 +1,428 @@
+{
+  "doi": "10.1145/3544548.3580694",
+  "title": "Augmenting Pathologists with NaviPath: Design and Evaluation of a Human-AI Collaborative Navigation System",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-19",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Artificial Intelligence (AI) brings advancements to support pathologists in navigating high-resolution tumor images to search for pathology patterns of interest. However, existing AI-assisted tools have not realized this promised potential due to a lack of insight into pathology and HCI considerations for pathologists\u2019 navigation workflows in practice. We first conducted a formative study with six medical professionals in pathology to capture their navigation strategies. By incorporating our observations along with the pathologists\u2019 domain knowledge, we designed NaviPath\u00a0\u2014 a human-AI collaborative navigation system. An evaluation study with 15 medical professionals in pathology indicated that: (i)\u00a0compared to the manual navigation, participants saw more than twice the number of pathological patterns in unit time with NaviPath, and (ii)\u00a0participants achieved higher precision and recall against the AI and the manual navigation on average. Further qualitative analysis revealed that navigation was more consistent with NaviPath, which can improve the overall examination quality.",
+  "authors": [
+    {
+      "name": "Hongyan Gu",
+      "institution": "Department of Electrical and Computer Engineering, University of California, Los Angeles, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659698001",
+      "orcid": "0000-0001-8962-9152"
+    },
+    {
+      "name": "Chunxu Yang",
+      "institution": "Department of Electrical and Computer Engineering, University of California, Los Angeles, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660752353",
+      "orcid": "0000-0002-9684-7534"
+    },
+    {
+      "name": "Mohammad Haeri",
+      "institution": "Department of Pathology and Laboratory Medicine, University of Kansas Medical Center, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660754400",
+      "orcid": "0000-0001-6055-9779"
+    },
+    {
+      "name": "Jing Wang",
+      "institution": "Department of Pathology, Beijing Tongren Hospital, Capital Medical University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783967",
+      "orcid": "0000-0003-2751-9868"
+    },
+    {
+      "name": "Shirley Tang",
+      "institution": "University of California, Los Angeles, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780261",
+      "orcid": "0000-0002-0984-5208"
+    },
+    {
+      "name": "Wenzhong Yan",
+      "institution": "University of California, Los Angeles, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660748697",
+      "orcid": "0000-0002-3711-0807"
+    },
+    {
+      "name": "Shujin He",
+      "institution": "Department of Pathology, Beijing Tongren Hospital, Capital Medical University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779795",
+      "orcid": "0000-0003-3577-6346"
+    },
+    {
+      "name": "Christopher Kazu Williams",
+      "institution": "Department of Pathology and Laboratory Medicine, UCLA David Geffen School of Medicine, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660755061",
+      "orcid": "0000-0003-3253-7630"
+    },
+    {
+      "name": "Shino Magaki",
+      "institution": "Department of Pathology and Laboratory Medicine, UCLA David Geffen School of Medicine, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660757653",
+      "orcid": "0000-0003-0433-5759"
+    },
+    {
+      "name": "Xiang 'Anthony' Chen",
+      "institution": "Department of Electrical and Computer Engineering, University of California, Los Angeles, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659468135",
+      "orcid": "0000-0002-8527-1744"
+    }
+  ],
+  "references": [
+    {
+      "text": "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul\u00a0N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, and Eric Horvitz. 2019. Guidelines for Human-AI Interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300233",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Marc Aubreville, Christof Bertram, Mitko Veta, Robert Klopfleisch, Nikolas Stathonikos, Katharina Breininger, Natalie ter Hoeve, Francesco Ciompi, and Andreas Maier. 2021. Quantifying the scanner-induced domain gap in mitosis detection. arXiv preprint arXiv:2103.16515(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Marc Aubreville, Christof\u00a0A. Bertram, Taryn\u00a0A. Donovan, Christian Marzahl, Andreas Maier, and Robert Klopfleisch. 2020. A completely annotated whole slide image dataset of canine breast cancer to aid human breast cancer research. Scientific Data 7, 1 (Nov. 2020), 417. https://doi.org/10.1038/s41597-020-00756-z",
+      "doi": ""
+    },
+    {
+      "text": "Peter Bankhead, Maurice\u00a0B. Loughrey, Jos\u00e9\u00a0A. Fern\u00e1ndez, Yvonne Dombrowski, Darragh\u00a0G. McArt, Philip\u00a0D. Dunne, Stephen McQuaid, Ronan\u00a0T. Gray, Liam\u00a0J. Murray, Helen\u00a0G. Coleman, Jacqueline\u00a0A. James, Manuel Salto-Tellez, and Peter\u00a0W. Hamilton. 2017. QuPath: Open source software for digital pathology image analysis. Scientific Reports 7, 1 (Dec. 2017), 16878. https://doi.org/10.1038/s41598-017-17204-5",
+      "doi": ""
+    },
+    {
+      "text": "Patrick Baudisch and Ruth Rosenholtz. 2003. Halo: A Technique for Visualizing off-Screen Objects. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Ft. Lauderdale, Florida, USA) (CHI \u201903). Association for Computing Machinery, New York, NY, USA, 481\u2013488. https://doi.org/10.1145/642611.642695",
+      "doi": "10.1145/642611.642695"
+    },
+    {
+      "text": "Benjamin\u00a0B Bederson, James\u00a0D Hollan, Ken Perlin, Jonathan Meyer, David Bacon, and George Furnas. 1996. Pad++: A zoomable graphical sketchpad for exploring alternate interface physics. Journal of Visual Languages & Computing 7, 1 (1996), 3\u201332.",
+      "doi": ""
+    },
+    {
+      "text": "Emma Beede, Elizabeth Baylor, Fred Hersch, Anna Iurchenko, Lauren Wilcox, Paisan Ruamviboonsuk, and Laura\u00a0M. Vardoulakis. 2020. A Human-Centered Evaluation of a Deep Learning System Deployed in Clinics for the Detection of Diabetic Retinopathy. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376718",
+      "doi": "10.1145/3313831.3376718"
+    },
+    {
+      "text": "Christof\u00a0A. Bertram, Marc Aubreville, Christian Marzahl, Andreas Maier, and Robert Klopfleisch. 2019. A large-scale dataset for mitotic figure assessment on whole slide images of canine cutaneous mast cell tumor. Scientific Data 6, 1 (Nov. 2019), 274. https://doi.org/10.1038/s41597-019-0290-4",
+      "doi": ""
+    },
+    {
+      "text": "Felix Bork, Christian Schnelzer, Ulrich Eck, and Nassir Navab. 2018. Towards Efficient Visual Guidance in Limited Field-of-View Head-Mounted Displays. IEEE Transactions on Visualization and Computer Graphics 24, 11(2018), 2983\u20132992. https://doi.org/10.1109/TVCG.2018.2868584",
+      "doi": ""
+    },
+    {
+      "text": "Zana Bu\u00e7inca, Maja\u00a0Barbara Malaya, and Krzysztof\u00a0Z. Gajos. 2021. To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-Assisted Decision-Making. Proc. ACM Hum.-Comput. Interact. 5, CSCW1, Article 188 (apr 2021), 21\u00a0pages. https://doi.org/10.1145/3449287",
+      "doi": "10.1145/3449287"
+    },
+    {
+      "text": "Wouter Bulten, Maschenka Balkenhol, Jean-Jo\u00ebl\u00a0Awoumou Belinga, Am\u00e9rico Brilhante, Asl\u0131 \u00c7ak\u0131r, Lars Egevad, Martin Eklund, Xavier Farr\u00e9, Katerina Geronatsiou, Vincent Molini\u00e9, Guilherme Pereira, Paromita Roy, G\u00fcnter Saile, Paulo Salles, Ewout Schaafsma, Jo\u00eblle Tschui, Anne-Marie Vos, ISUP Pathology Imagebase Expert Panel, Hester van Boven, Robert Vink, Jeroen van der Laak, Christina Hulsbergen-van der Kaa, Geert Litjens, Brett Delahunt, Hemamali Samaratunga, David\u00a0J. Grignon, Andrew\u00a0J. Evans, Daniel M.Berney, Chin-Chen Pan, Glen Kristiansen, James\u00a0G. Kench, Jon Oxley, Katia\u00a0R.M. Leite, Jesse\u00a0K. McKenney, Peter\u00a0A. Humphrey, Samson\u00a0W. Fine, Toyonori Tsuzuki, Murali Varma, Ming Zhou, Eva Comperat, David\u00a0G. Bostwick, Kenneth\u00a0A. Iczkowski, Cristina Magi-Galluzzi, John\u00a0R. Srigley, Hiroyuki Takahashi, and Theo van der Kwast. 2021. Artificial intelligence assistance significantly improves Gleason grading of prostate biopsies by pathologists. Modern Pathology 34, 3 (2021), 660\u2013671. https://doi.org/10.1038/s41379-020-0640-y",
+      "doi": ""
+    },
+    {
+      "text": "Carrie\u00a0J. Cai, Emily Reif, Narayan Hegde, Jason Hipp, Been Kim, Daniel Smilkov, Martin Wattenberg, Fernanda Viegas, Greg\u00a0S. Corrado, Martin\u00a0C. Stumpe, and Michael Terry. 2019. Human-Centered Tools for Coping with Imperfect Algorithms During Medical Decision-Making. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300234",
+      "doi": "10.1145/3290605.3300234"
+    },
+    {
+      "text": "Carrie\u00a0J. Cai, Samantha Winter, David Steiner, Lauren Wilcox, and Michael Terry. 2019. \"Hello AI\": Uncovering the Onboarding Needs of Medical Practitioners for Human-AI Collaborative Decision-Making. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 104 (nov 2019), 24\u00a0pages. https://doi.org/10.1145/3359206",
+      "doi": "10.1145/3359206"
+    },
+    {
+      "text": "Francisco\u00a0M. Calisto, Alfredo Ferreira, Jacinto\u00a0C. Nascimento, and Daniel Gon\u00e7alves. 2017. Towards Touch-Based Medical Image Diagnosis Annotation. In Proceedings of the 2017 ACM International Conference on Interactive Surfaces and Spaces (Brighton, United Kingdom) (ISS \u201917). Association for Computing Machinery, New York, NY, USA, 390\u2013395. https://doi.org/10.1145/3132272.3134111",
+      "doi": "10.1145/3132272.3134111"
+    },
+    {
+      "text": "Francisco\u00a0Maria Calisto, Nuno Nunes, and Jacinto\u00a0C. Nascimento. 2020. BreastScreening: On the Use of Multi-Modality in Medical Imaging Diagnosis. In Proceedings of the International Conference on Advanced Visual Interfaces (Salerno, Italy) (AVI \u201920). Association for Computing Machinery, New York, NY, USA, Article 49, 5\u00a0pages. https://doi.org/10.1145/3399715.3399744",
+      "doi": "10.1145/3399715.3399744"
+    },
+    {
+      "text": "Francisco\u00a0Maria Calisto, Carlos Santiago, Nuno Nunes, and Jacinto\u00a0C. Nascimento. 2021. Introduction of human-centric AI assistant to aid radiologists for multimodal breast image classification. International Journal of Human-Computer Studies 150 (2021), 102607. https://doi.org/10.1016/j.ijhcs.2021.102607",
+      "doi": ""
+    },
+    {
+      "text": "Francisco\u00a0Maria Calisto, Carlos Santiago, Nuno Nunes, and Jacinto\u00a0C. Nascimento. 2022. BreastScreening-AI: Evaluating medical intelligent agents for human-AI interactions. Artificial Intelligence in Medicine 127 (2022), 102285. https://doi.org/10.1016/j.artmed.2022.102285",
+      "doi": "10.1016/j.artmed.2022.102285"
+    },
+    {
+      "text": "Gabriele Campanella, Matthew\u00a0G. Hanna, Luke Geneslaw, Allen Miraflor, Vitor Werneck Krauss\u00a0Silva, Klaus\u00a0J. Busam, Edi Brogi, Victor\u00a0E. Reuter, David\u00a0S. Klimstra, and Thomas\u00a0J. Fuchs. 2019. Clinical-grade computational pathology using weakly supervised deep learning on whole slide images. Nature Medicine 25, 8 (Aug. 2019), 1301\u20131309. https://doi.org/10.1038/s41591-019-0508-1",
+      "doi": ""
+    },
+    {
+      "text": "Emily Clarke, Daniel Doherty, Rebecca Randell, Jonathan Grek, Rhys Thomas, Roy\u00a0A Ruddle, and Darren Treanor. 2022. Faster than light (microscopy): superiority of digital pathology over microscopy for assessment of immunohistochemistry. Journal of Clinical Pathology (Jan. 2022), jclinpath\u20132021\u2013207961. https://doi.org/10.1136/jclinpath-2021-207961",
+      "doi": ""
+    },
+    {
+      "text": "Andy Cockburn, Amy Karlson, and Benjamin\u00a0B. Bederson. 2009. A Review of Overview+detail, Zooming, and Focus+context Interfaces. ACM Comput. Surv. 41, 1, Article 2 (jan 2009), 31\u00a0pages. https://doi.org/10.1145/1456650.1456652",
+      "doi": "10.1145/1456650.1456652"
+    },
+    {
+      "text": "Tony\u00a0J Collins. 2007. ImageJ for microscopy. Biotechniques 43, S1 (2007), S25\u2013S30.",
+      "doi": ""
+    },
+    {
+      "text": "Alberto Corv\u00f2, Marc\u00a0A. van Driel, and Michel\u00a0A. Westenberg. 2017. PathoVA: A visual analytics tool for pathology diagnosis and reporting. In 2017 IEEE Workshop on Visual Analytics in Healthcare (VAHC). 77\u201383. https://doi.org/10.1109/VAHC.2017.8387544",
+      "doi": ""
+    },
+    {
+      "text": "Ian\u00a0A. Cree, Puay\u00a0Hoon Tan, William\u00a0D. Travis, Pieter Wesseling, Yukako Yagi, Valerie\u00a0A. White, Dilani Lokuhetty, and Richard\u00a0A. Scolyer. 2021. Counting mitoses: SI(ze) matters!Modern Pathology 34, 9 (Sept. 2021), 1651\u20131657. https://doi.org/10.1038/s41379-021-00825-7",
+      "doi": ""
+    },
+    {
+      "text": "Babak Ehteshami\u00a0Bejnordi, Mitko Veta, Paul Johannes\u00a0van Diest, Bram van Ginneken, Nico Karssemeijer, Geert Litjens, Jeroen A. W.\u00a0M. van\u00a0der Laak, , and the CAMELYON16\u00a0Consortium. 2017. Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer. JAMA 318, 22 (12 2017), 2199\u20132210. https://doi.org/10.1001/jama.2017.14585",
+      "doi": ""
+    },
+    {
+      "text": "Noyan Evirgen and Xiang\u00a0\u2019Anthony\u2019 Chen. 2022. GANzilla: User-Driven Direction Discovery in Generative Adversarial Networks. In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology(Bend, OR, USA) (UIST \u201922). Association for Computing Machinery, New York, NY, USA, Article 75, 10\u00a0pages. https://doi.org/10.1145/3526113.3545638",
+      "doi": "10.1145/3526113.3545638"
+    },
+    {
+      "text": "Paul\u00a0M Fitts. 1954. The information capacity of the human motor system in controlling the amplitude of movement.Journal of experimental psychology 47, 6 (1954), 381.",
+      "doi": ""
+    },
+    {
+      "text": "Riccardo Fogliato, Shreya Chappidi, Matthew Lungren, Paul Fisher, Diane Wilson, Michael Fitzke, Mark Parkinson, Eric Horvitz, Kori Inkpen, and Besmira Nushi. 2022. Who Goes First? Influences of Human-AI Workflow on Decision Making in Clinical Imaging. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 1362\u20131374. https://doi.org/10.1145/3531146.3533193",
+      "doi": "10.1145/3531146.3533193"
+    },
+    {
+      "text": "George\u00a0W. Furnas and Benjamin\u00a0B. Bederson. 1995. Space-Scale Diagrams: Understanding Multiscale Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201995). ACM Press/Addison-Wesley Publishing Co., USA, 234\u2013241. https://doi.org/10.1145/223904.223934",
+      "doi": "10.1145/223904.223934"
+    },
+    {
+      "text": "George\u00a0W. Furnas and Benjamin\u00a0B. Bederson. 1995. Space-Scale Diagrams: Understanding Multiscale Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201995). ACM Press/Addison-Wesley Publishing Co., USA, 234\u2013241. https://doi.org/10.1145/223904.223934",
+      "doi": "10.1145/223904.223934"
+    },
+    {
+      "text": "Michael Glueck, Tovi Grossman, and Daniel Wigdor. 2013. A Model of Navigation for Very Large Data Views. In Proceedings of Graphics Interface 2013(Regina, Sascatchewan, Canada) (GI \u201913). Canadian Information Processing Society, CAN, 9\u201316.",
+      "doi": "10.5555/2532129.2532133"
+    },
+    {
+      "text": "Hongyan Gu, Mohammad Haeri, Shuo Ni, Christopher\u00a0Kazu Williams, Neda Zarrin-Khameh, Shino Magaki, and Xiang\u2019Anthony\u2019 Chen. 2022. Detecting Mitoses with a Convolutional Neural Network for MIDOG 2022 Challenge. arXiv preprint arXiv:2208.12437(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Hongyan Gu, Jingbin Huang, Lauren Hung, and Xiang\u00a0\u2019Anthony\u2019 Chen. 2021. Lessons Learned from Designing an AI-Enabled Diagnosis Tool for Pathologists. Proc. ACM Hum.-Comput. Interact. 5, CSCW1, Article 10 (apr 2021), 25\u00a0pages. https://doi.org/10.1145/3449084",
+      "doi": "10.1145/3449084"
+    },
+    {
+      "text": "Hongyan Gu, Yuan Liang, Yifan Xu, Christopher\u00a0Kazu Williams, Shino Magaki, Negar Khanlou, Harry Vinters, Zesheng Chen, Shuo Ni, Chunxu Yang, Wenzhong Yan, Xinhai\u00a0Robert Zhang, Yang Li, Mohammad Haeri, and Xiang\u00a0\u2018Anthony\u2019 Chen. 2022. Improving Workflow Integration with XPath: Design and Evaluation of a Human-AI Diagnosis System in Pathology. ACM Trans. Comput.-Hum. Interact. (dec 2022). https://doi.org/10.1145/3577011 Just Accepted.",
+      "doi": "10.1145/3577011"
+    },
+    {
+      "text": "Sean Gustafson, Patrick Baudisch, Carl Gutwin, and Pourang Irani. 2008. Wedge: Clutter-Free Visualization of off-Screen Locations. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Florence, Italy) (CHI \u201908). Association for Computing Machinery, New York, NY, USA, 787\u2013796. https://doi.org/10.1145/1357054.1357179",
+      "doi": "10.1145/1357054.1357179"
+    },
+    {
+      "text": "David\u00a0A Gutman, Mohammed Khalilia, Sanghoon Lee, Michael Nalisnik, Zach Mullen, Jonathan Beezley, Deepak\u00a0R Chittajallu, David Manthey, and Lee\u00a0AD Cooper. 2017. The digital slide archive: A software platform for management, integration, and analysis of histology for cancer research. Cancer research 77, 21 (2017), e75\u2013e78.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0G. Hanna, Victor\u00a0E. Reuter, Meera\u00a0R. Hameed, Lee\u00a0K. Tan, Sarah Chiang, Carlie Sigel, Travis Hollmann, Dilip Giri, Jennifer Samboy, Carlos Moradel, Andrea Rosado, John\u00a0R. Otilano, Christine England, Lorraine Corsale, Evangelos Stamelos, Yukako Yagi, Peter\u00a0J. Sch\u00fcffler, Thomas Fuchs, David\u00a0S. Klimstra, and S.\u00a0Joseph Sirintrapun. 2019. Whole\u00a0slide imaging equivalency and efficiency study: experience at a large academic center. Modern Pathology 32, 7 (July 2019), 916\u2013928. https://doi.org/10.1038/s41379-019-0205-0",
+      "doi": ""
+    },
+    {
+      "text": "Sandra\u00a0G. Hart and Lowell\u00a0E. Staveland. 1988. Development of NASA-TLX (Task Load Index): Results of Empirical and Theoretical Research. In Human Mental Workload, Peter\u00a0A. Hancock and Najmedin Meshkati (Eds.). Advances in Psychology, Vol.\u00a052. North-Holland, 139\u2013183. https://doi.org/10.1016/S0166-4115(08)62386-9",
+      "doi": ""
+    },
+    {
+      "text": "Eric Horvitz. 1999. Principles of Mixed-Initiative User Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Pittsburgh, Pennsylvania, USA) (CHI \u201999). Association for Computing Machinery, New York, NY, USA, 159\u2013166. https://doi.org/10.1145/302979.303030",
+      "doi": "10.1145/302979.303030"
+    },
+    {
+      "text": "Aperio ImageScope. Date Accessed: 2022-07-31. Aperio ImageScope - Pathology Slide Viewing Software. Aperio ImageScope. https://www.leicabiosystems.com/us/digital-pathology/manage/aperio-imagescope/",
+      "doi": ""
+    },
+    {
+      "text": "Youngseung Jeon, Seungwan Jin, Patrick\u00a0C. Shih, and Kyungsik Han. 2021. FashionQ: An AI-Driven Creativity Support Tool for Facilitating Ideation in Fashion Design. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 576, 18\u00a0pages. https://doi.org/10.1145/3411764.3445093",
+      "doi": "10.1145/3411764.3445093"
+    },
+    {
+      "text": "Jared Jessup, Robert Krueger, Simon Warchol, John Hoffer, Jeremy Muhlich, Cecily\u00a0C. Ritch, Giorgio Gaglia, Shannon Coy, Yu-An Chen, Jia-Ren Lin, Sandro Santagata, Peter\u00a0K. Sorger, and Hanspeter Pfister. 2022. Scope2Screen: Focus+Context Techniques for Pathology Tumor Assessment in Multivariate Image Data. IEEE Transactions on Visualization and Computer Graphics 28, 1(2022), 259\u2013269. https://doi.org/10.1109/TVCG.2021.3114786",
+      "doi": "10.1109/TVCG.2021.3114786"
+    },
+    {
+      "text": "Susanne Jul and George\u00a0W. Furnas. 1998. Critical Zones in Desert Fog: Aids to Multiscale Navigation. In Proceedings of the 11th Annual ACM Symposium on User Interface Software and Technology (San Francisco, California, USA) (UIST \u201998). Association for Computing Machinery, New York, NY, USA, 97\u2013106. https://doi.org/10.1145/288392.288578",
+      "doi": "10.1145/288392.288578"
+    },
+    {
+      "text": "Jesper Kers, Roman\u00a0D B\u00fclow, Barbara\u00a0M Klinkhammer, Gerben\u00a0E Breimer, Francesco Fontana, Adeyemi\u00a0Adefidipe Abiola, Rianne Hofstraat, Garry\u00a0L Corthals, Hessel Peters-Sengers, Sonja Djudjaj, Saskia von Stillfried, David\u00a0L H\u00f6lscher, Tobias\u00a0T Pieters, Arjan\u00a0D van Zuilen, Frederike\u00a0J Bemelman, Azam\u00a0S Nurmohamed, Maarten Naesens, Joris J T\u00a0H Roelofs, Sandrine Florquin, J\u00fcrgen Floege, Tri\u00a0Q Nguyen, Jakob\u00a0N Kather, and Peter Boor. 2022. Deep learning-based classification of kidney transplant pathology: a retrospective, multicentre, proof-of-concept study. The Lancet Digital Health 4, 1 (Jan. 2022), e18\u2013e26. https://doi.org/10.1016/S2589-7500(21)00211-9",
+      "doi": ""
+    },
+    {
+      "text": "Min\u00a0Hun Lee, Daniel\u00a0P. Siewiorek, Asim Smailagic, Alexandre Bernardino, and Sergi Berm\u00fadez\u00a0i Badia. 2021. A Human-AI Collaborative Approach for Clinical Decision Making on Rehabilitation Assessment. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 392, 14\u00a0pages. https://doi.org/10.1145/3411764.3445472",
+      "doi": "10.1145/3411764.3445472"
+    },
+    {
+      "text": "Chao Li, Xinggang Wang, Wenyu Liu, and Longin\u00a0Jan Latecki. 2018. DeepMitosis: Mitosis detection via deep detection, verification and segmentation networks. Medical image analysis 45 (2018), 121\u2013133.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Carl\u00a0Robnett Licklider. 1960. Man-computer symbiosis. IRE transactions on human factors in electronics1 (1960), 4\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Martin Lindvall, Claes Lundstr\u00f6m, and Jonas L\u00f6wgren. 2021. Rapid Assisted Visual Search: Supporting Digital Pathologists with Imperfect AI. Association for Computing Machinery, New York, NY, USA, 504\u2013513. https://doi.org/10.1145/3397481.3450681",
+      "doi": "10.1145/3397481.3450681"
+    },
+    {
+      "text": "Geert Litjens, Peter Bandi, Babak Ehteshami\u00a0Bejnordi, Oscar Geessink, Maschenka Balkenhol, Peter Bult, Altuna Halilovic, Meyke Hermsen, Rob van\u00a0de\u00a0Loo, Rob Vogels, Quirine\u00a0F Manson, Nikolas Stathonikos, Alexi Baidoshvili, Paul van\u00a0Diest, Carla Wauters, Marcory van\u00a0Dijk, and Jeroen van\u00a0der\u00a0Laak. 2018. 1399 H&E-stained sentinel lymph node sections of breast cancer patients: the CAMELYON dataset. GigaScience 7, 6 (05 2018). https://doi.org/10.1093/gigascience/giy065 arXiv:https://academic.oup.com/gigascience/article-pdf/7/6/giy065/25045140/giy065_reviewer_2_report_(revision_1).pdfgiy065.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0N Louis, Arie Perry, Pieter Wesseling, Daniel\u00a0J Brat, Ian\u00a0A Cree, Dominique Figarella-Branger, Cynthia Hawkins, HK Ng, Stefan\u00a0M Pfister, Guido Reifenberger, 2021. The 2021 WHO classification of tumors of the central nervous system: a summary. Neuro-oncology 23, 8 (2021), 1231\u20131251. https://doi.org/10.1093/neuonc/noab106",
+      "doi": ""
+    },
+    {
+      "text": "Roux Ludovic, Racoceanu Daniel, Lom\u00e9nie Nicolas, Kulikova Maria, Irshad Humayun, Klossa Jacques, Capron Fr\u00e9d\u00e9rique, Genestie Catherine, Le\u00a0Naour Gilles, and Gurcan Metin N. 2013. Mitosis detection in breast cancer histological images An ICPR 2012 contest. Journal of Pathology Informatics 4, 1 (2013), 8. https://doi.org/10.4103/2153-3539.112693",
+      "doi": ""
+    },
+    {
+      "text": "Tahir Mahmood, Muhammad Arsalan, Muhammad Owais, Min\u00a0Beom Lee, and Kang\u00a0Ryoung Park. 2020. Artificial intelligence-based mitosis detection in breast cancer histopathology images using faster R-CNN and deep CNNs. Journal of clinical medicine 9, 3 (2020), 749.",
+      "doi": ""
+    },
+    {
+      "text": "Cedric Marchessoux, A.\u00a0Nave Dufour, K. Espig, S. Monaco, A. Palekar, and L. Pantanowitz. 2016. Comparison Display Resolution On User Impact For Digital Pathology. Diagnostic Pathology 1, 8 (2016). https://doi.org/10.17629/www.diagnosticpathology.eu-2016-8:168",
+      "doi": ""
+    },
+    {
+      "text": "Anne\u00a0L Martel, Dan Hosseinzadeh, Caglar Senaras, Yu Zhou, Azadeh Yazdanpanah, Rushin Shojaii, Emily\u00a0S Patterson, Anant Madabhushi, and Metin\u00a0N Gurcan. 2017. An image analysis resource for cancer research: PIIP\u2014pathology image informatics platform for visualization, analysis, and management. Cancer research 77, 21 (2017), e83\u2013e86. https://doi.org/10.1158/0008-5472.CAN-17-0629",
+      "doi": ""
+    },
+    {
+      "text": "Jesper Molin, Morten Fjeld, Claudia Mello-Thoms, and Claes Lundstr\u00f6m. 2015. Slide navigation patterns among pathologists with long experience of digital review. Histopathology 67, 2 (2015), 185\u2013192.",
+      "doi": ""
+    },
+    {
+      "text": "Office of\u00a0the FDA. Date Accessed: 2022-07-31. FDA allows marketing of first whole slide imaging system for Digital Pathology.https://www.fda.gov/news-events/press-announcements/fda-allows-marketing-first-whole-slide-imaging-system-digital-pathology",
+      "doi": ""
+    },
+    {
+      "text": "Office of\u00a0the FDA. Date Accessed: 2022-07-31. FDA Authorizes Software that Can Help Identify Prostate Cancer. https://www.fda.gov/news-events/press-announcements/fda-authorizes-software-can-help-identify-prostate-cancer",
+      "doi": ""
+    },
+    {
+      "text": "OpenSeadragon. Date Accessed: 2022-07-31. OpenSeadragon \u2013 An open-source, web-based viewer for high-resolution zoomable images, implemented in pure JavaScript, for desktop and mobile.https://openseadragon.github.io/",
+      "doi": ""
+    },
+    {
+      "text": "John Palmer. 1995. Attention in visual search: Distinguishing four causes of a set-size effect. Current directions in psychological science 4, 4 (1995), 118\u2013123.",
+      "doi": ""
+    },
+    {
+      "text": "Liron Pantanowitz, Paul\u00a0N. Valenstein, Andrew\u00a0J. Evans, Keith\u00a0J. Kaplan, John\u00a0D. Pfeifer, David\u00a0C. Wilbur, Laura\u00a0C. Collins, and Terence\u00a0J. Colgan. 2011. Review of the current state of whole slide imaging in pathology. Journal of Pathology Informatics 2, 1 (2011), 36. https://doi.org/10.4103/2153-3539.83746",
+      "doi": ""
+    },
+    {
+      "text": "Milda Pocevi\u010di\u016bt\u0117, Gabriel Eilertsen, and Claes Lundstr\u00f6m. 2020. Survey of XAI in Digital Pathology. Springer International Publishing, Cham, 56\u201388. https://doi.org/10.1007/978-3-030-50402-1_4",
+      "doi": ""
+    },
+    {
+      "text": "Rebecca Randell, Thilina Ambepitiya, Claudia Mello-Thoms, Roy\u00a0A Ruddle, David Brettle, Rhys\u00a0G Thomas, and Darren Treanor. 2015. Effect of display resolution on time to diagnosis with virtual pathology slides in a systematic search task. Journal of digital imaging 28, 1 (2015), 68\u201376.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0C. Robbins, Edward Cutrell, Raman Sarin, and Eric Horvitz. 2004. ZoneZoom: Map Navigation for Smartphones with Recursive View Segmentation. In Proceedings of the Working Conference on Advanced Visual Interfaces (Gallipoli, Italy) (AVI \u201904). Association for Computing Machinery, New York, NY, USA, 231\u2013234. https://doi.org/10.1145/989863.989901",
+      "doi": "10.1145/989863.989901"
+    },
+    {
+      "text": "Roy\u00a0A. Ruddle, Rhys\u00a0G. Thomas, Rebecca Randell, Philip Quirke, and Darren Treanor. 2016. The Design and Evaluation of Interfaces for Navigating Gigapixel Images in Digital Pathology. ACM Trans. Comput.-Hum. Interact. 23, 1, Article 5 (jan 2016), 29\u00a0pages. https://doi.org/10.1145/2834117",
+      "doi": "10.1145/2834117"
+    },
+    {
+      "text": "Joel Saltz, Ashish Sharma, Ganesh Iyer, Erich Bremer, Feiqiao Wang, Alina Jasniewski, Tammy DiPrima, Jonas\u00a0S. Almeida, Yi Gao, Tianhao Zhao, Mary Saltz, and Tahsin Kurc. 2017. A Containerized Software System for Generation, Management, and Exploration of Features from Whole Slide Tissue Images. Cancer Research 77, 21 (Nov. 2017), e79\u2013e82. https://doi.org/10.1158/0008-5472.CAN-17-0316",
+      "doi": ""
+    },
+    {
+      "text": "Manojit Sarkar and Marc\u00a0H. Brown. 1992. Graphical Fisheye Views of Graphs. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Monterey, California, USA) (CHI \u201992). Association for Computing Machinery, New York, NY, USA, 83\u201391. https://doi.org/10.1145/142750.142763",
+      "doi": "10.1145/142750.142763"
+    },
+    {
+      "text": "Mike Schaekermann, Graeme Beaton, Elaheh Sanoubari, Andrew Lim, Kate Larson, and Edith Law. 2020. Ambiguity-Aware AI Assistants for Medical Data Analysis. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376506",
+      "doi": "10.1145/3313831.3376506"
+    },
+    {
+      "text": "Caroline\u00a0A Schneider, Wayne\u00a0S Rasband, and Kevin\u00a0W Eliceiri. 2012. NIH Image to ImageJ: 25 years of image analysis. Nature methods 9, 7 (2012), 671.",
+      "doi": ""
+    },
+    {
+      "text": "B. Shneiderman. 1996. The eyes have it: a task by data type taxonomy for information visualizations. In Proceedings 1996 IEEE Symposium on Visual Languages. 336\u2013343. https://doi.org/10.1109/VL.1996.545307",
+      "doi": ""
+    },
+    {
+      "text": "Robert Spence. 2002. Rapid, serial and visual: a presentation technique with potential. Information visualization 1, 1 (2002), 13\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "Karin Stacke, Gabriel Eilertsen, Jonas Unger, and Claes Lundstr\u00f6m. 2020. Measuring domain shift for deep learning in histopathology. IEEE journal of biomedical and health informatics 25, 2(2020), 325\u2013336.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0F Steiner, Po-Hsuan\u00a0Cameron Chen, and Craig\u00a0H Mermel. 2021. Closing the translation gap: AI applications in digital pathology. Biochimica et Biophysica Acta (BBA)-Reviews on Cancer 1875, 1(2021), 188452.",
+      "doi": ""
+    },
+    {
+      "text": "Gregor Stiglic, Primoz Kocbek, Nino Fijacko, Marinka Zitnik, Katrien Verbert, and Leona Cilar. 2020. Interpretability of machine learning-based prediction models in healthcare. Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery 10, 5(2020), e1379.",
+      "doi": ""
+    },
+    {
+      "text": "Mingxing Tan and Quoc Le. 2019. Efficientnet: Rethinking model scaling for convolutional neural networks. In International Conference on Machine Learning. PMLR, 6105\u20136114.",
+      "doi": ""
+    },
+    {
+      "text": "David Tellez, Maschenka Balkenhol, Irene Otte-H\u00f6ller, Rob van\u00a0de Loo, Rob Vogels, Peter Bult, Carla Wauters, Willem Vreuls, Suzanne Mol, Nico Karssemeijer, Geert Litjens, Jeroen van\u00a0der Laak, and Francesco Ciompi. 2018. Whole-Slide Mitosis Detection in H&E Breast Histology Using PHH3 as a Reference to Train Distilled Stain-Invariant Convolutional Networks. IEEE Transactions on Medical Imaging 37, 9 (2018), 2126\u20132136. https://doi.org/10.1109/TMI.2018.2820199",
+      "doi": ""
+    },
+    {
+      "text": "Maciej Tomczak and Ewa Tomczak. 2014. The need to report effect size estimates revisited. An overview of some recommended measures of effect size. Trends in sport sciences 1, 21 (2014), 19\u201325.",
+      "doi": ""
+    },
+    {
+      "text": "Darren Treanor, Naomi Jordan-Owers, John Hodrien, Jason Wood, Phil Quirke, and Roy\u00a0A Ruddle. 2009. Virtual reality Powerwall versus conventional microscope for viewing pathology slides: an experimental comparison. Histopathology 55, 3 (2009), 294\u2013300.",
+      "doi": ""
+    },
+    {
+      "text": "Darren Treanor and Phil Quirke. 2007. The virtual slide and conventional microscope-a direct comparison of their diagnostic efficiency. In Annual Meeting of the Pathological Society of Great Britain and Ireland.",
+      "doi": ""
+    },
+    {
+      "text": "Mitko Veta, Yujing\u00a0J. Heng, Nikolas Stathonikos, Babak\u00a0Ehteshami Bejnordi, Francisco Beca, Thomas Wollmann, Karl Rohr, Manan\u00a0A. Shah, Dayong Wang, Mikael Rousson, Martin Hedlund, David Tellez, Francesco Ciompi, Erwan Zerhouni, David Lanyi, Matheus Viana, Vassili Kovalev, Vitali Liauchuk, Hady\u00a0Ahmady Phoulady, Talha Qaiser, Simon Graham, Nasir Rajpoot, Erik Sj\u00f6blom, Jesper Molin, Kyunghyun Paeng, Sangheum Hwang, Sunggyun Park, Zhipeng Jia, Eric I-Chao Chang, Yan Xu, Andrew\u00a0H. Beck, Paul\u00a0J. van Diest, and Josien\u00a0P.W. Pluim. 2019. Predicting breast tumor proliferation from whole-slide images: The TUPAC16 challenge. Medical Image Analysis 54 (2019), 111\u2013121. https://doi.org/10.1016/j.media.2019.02.012",
+      "doi": ""
+    },
+    {
+      "text": "Dakuo Wang, Elizabeth Churchill, Pattie Maes, Xiangmin Fan, Ben Shneiderman, Yuanchun Shi, and Qianying Wang. 2020. From Human-Human Collaboration to Human-AI Collaboration: Designing AI Systems That Can Work Together with People. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI EA \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3334480.3381069",
+      "doi": "10.1145/3334480.3381069"
+    },
+    {
+      "text": "Dayong Wang, Aditya Khosla, Rishab Gargeya, Humayun Irshad, and Andrew\u00a0H Beck. 2016. Deep learning for identifying metastatic breast cancer. arXiv preprint arXiv:1606.05718(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Dakuo Wang, Liuping Wang, Zhan Zhang, Ding Wang, Haiyi Zhu, Yvonne Gao, Xiangmin Fan, and Feng Tian. 2021. \u201cBrilliant AI Doctor\u201d in Rural Clinics: Challenges in AI-Powered Clinical Decision Support System Deployment. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 697, 18\u00a0pages. https://doi.org/10.1145/3411764.3445432",
+      "doi": "10.1145/3411764.3445432"
+    },
+    {
+      "text": "Yinhai Wang, Kate\u00a0E Williamson, Paul\u00a0J Kelly, Jacqueline\u00a0A James, and Peter\u00a0W Hamilton. 2012. SurfaceSlide: a multitouch digital pathology platform. PloS one 7, 1 (2012), e30783.",
+      "doi": ""
+    },
+    {
+      "text": "Jeremy\u00a0M Wolfe, Todd\u00a0S Horowitz, Michael\u00a0J Van\u00a0Wert, Naomi\u00a0M Kenner, Skyler\u00a0S Place, and Nour Kibbi. 2007. Low target prevalence is a stubborn source of errors in visual search tasks.Journal of experimental psychology: General 136, 4 (2007), 623.",
+      "doi": ""
+    },
+    {
+      "text": "Qian Yang, Aaron Steinfeld, and John Zimmerman. 2019. Unremarkable AI: Fitting Intelligent Decision Support into Critical, Clinical Decision-Making Processes. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3290605.3300468",
+      "doi": "10.1145/3290605.3300468"
+    },
+    {
+      "text": "Qian Yang, John Zimmerman, Aaron Steinfeld, Lisa Carey, and James\u00a0F. Antaki. 2016. Investigating the Heart Pump Implant Decision Process: Opportunities for Decision Support Tools to Help. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 4477\u20134488. https://doi.org/10.1145/2858036.2858373",
+      "doi": "10.1145/2858036.2858373"
+    },
+    {
+      "text": "Polle\u00a0T. Zellweger, Jock\u00a0D. Mackinlay, Lance Good, Mark Stefik, and Patrick Baudisch. 2003. City Lights: Contextual Views in Minimal Space. In CHI \u201903 Extended Abstracts on Human Factors in Computing Systems (Ft. Lauderdale, Florida, USA) (CHI EA \u201903). Association for Computing Machinery, New York, NY, USA, 838\u2013839. https://doi.org/10.1145/765891.766022",
+      "doi": "10.1145/765891.766022"
+    }
+  ]
+}

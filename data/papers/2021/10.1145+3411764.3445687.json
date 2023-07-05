@@ -1,0 +1,264 @@
+{
+  "doi": "10.1145/3411764.3445687",
+  "title": "ProxiMic: Convenient Voice Activation via Close-to-Mic Speech Detected by a Single Microphone",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-12",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Wake-up-free techniques (e.g., Raise-to-Speak) are important for improving the voice input experience. We present ProxiMic, a close-to-mic (within 5 cm) speech sensing technique using only one microphone. With ProxiMic, a user keeps a microphone-embedded device close to the mouth and speaks directly to the device without wake-up phrases or button presses. To detect close-to-mic speech, we use the feature from pop noise observed when a user speaks and blows air onto the microphone. Sound input is first passed through a low-pass adaptive threshold filter, then analyzed by a CNN which detects subtle close-to-mic features (mainly pop noise). Our two-stage algorithm can achieve 94.1% activation recall, 12.3 False Accepts per Week per User (FAWU) with 68\u00a0KB memory size, which can run at 352\u00a0fps on the smartphone. The user study shows that ProxiMic is efficient, user-friendly, and practical.",
+  "authors": [
+    {
+      "name": "Yue Qin",
+      "institution": "Department of Computer Science and Technology Tsinghua University, China",
+      "img": "/do/10.1145/contrib-99659366320/rel-imgonly/__-__-___.jpg",
+      "acmid": "99659366320",
+      "orcid": "0000-0003-1351-5284"
+    },
+    {
+      "name": "Chun Yu",
+      "institution": "Department of Computer science and Technology Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81467660483",
+      "orcid": "0000-0003-2591-7993"
+    },
+    {
+      "name": "Zhaoheng Li",
+      "institution": "Tsinghua University, China",
+      "img": "/do/10.1145/contrib-99659663577/rel-imgonly/avatar.jpg",
+      "acmid": "99659663577",
+      "orcid": "missing"
+    },
+    {
+      "name": "Mingyuan Zhong",
+      "institution": "Paul G. Allen School of Computer Science & Engineering University of Washington, United States",
+      "img": "/do/10.1145/contrib-99659021168/rel-imgonly/avatar_huea41017d95ef3bd66d3347613124236e_662675_270x270_fill_q75_lanczos_center.jpg",
+      "acmid": "99659021168",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yukang Yan",
+      "institution": "Department of Computer Science and Technology Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659161020",
+      "orcid": "0000-0001-7515-3755"
+    },
+    {
+      "name": "Yuanchun Shi",
+      "institution": "Department of Computer science and Technology Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100647319",
+      "orcid": "0000-0003-2273-6927"
+    }
+  ],
+  "references": [
+    {
+      "text": "Apple. 2020. Use Siri on all your Apple devices - Apple Support. Website. https://support.apple.com/en-us/HT204389#apple-watch.",
+      "doi": ""
+    },
+    {
+      "text": "Sylvain Argentieri, Patrick Danes, and Philippe Sou\u00e8res. 2015. A survey on sound source localization in robotics: From binaural to array processing methods. Computer Speech & Language 34, 1 (2015), 87\u2013112.",
+      "doi": "10.1016/j.csl.2015.03.003"
+    },
+    {
+      "text": "S Argentieri, A Portello, M Bernard, P Danes, and B Gas. 2013. Binaural systems in robotics. In The technology of binaural listening. Springer-Verlag, Berlin, Germany, 225\u2013253.",
+      "doi": ""
+    },
+    {
+      "text": "Baidu. 2020. Baidu ASR. http://ai.baidu.com/tech/speech/asr.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan\u00a0S Brumberg, Alfonso Nieto-Castanon, Philip\u00a0R Kennedy, and Frank\u00a0H Guenther. 2010. Brain\u2013computer interfaces for speech communication. Speech communication 52, 4 (2010), 367\u2013379.",
+      "doi": ""
+    },
+    {
+      "text": "Joe\u00a0C Chen, Kung Yao, and Ralph\u00a0E Hudson. 2002. Source localization and beamforming. IEEE Signal Processing Magazine 19, 2 (2002), 30\u201339.",
+      "doi": ""
+    },
+    {
+      "text": "Yunbin Deng, James\u00a0T. Heaton, and Geoffrey\u00a0S. Meltzner. 2014. Towards a practical silent speech recognition system. In INTERSPEECH 2014, 15th Annual Conference of the International Speech Communication Association, Singapore, September 14-18, 2014, Haizhou Li, Helen\u00a0M. Meng, Bin Ma, Engsiong Chng, and Lei Xie (Eds.). ISCA, Baixas, France, 1164\u20131168. http://www.isca-speech.org/archive/interspeech_2014/i14_1164.html",
+      "doi": ""
+    },
+    {
+      "text": "Aarthi Easwara\u00a0Moorthy and Kim-Phuong\u00a0L Vu. 2015. Privacy concerns for use of voice activated personal assistant in the public space. International Journal of Human-Computer Interaction 31, 4(2015), 307\u2013335.",
+      "doi": ""
+    },
+    {
+      "text": "Pasquale Foggia, Nicolai Petkov, Alessia Saggese, Nicola Strisciuglio, and Mario Vento. 2015. Reliable detection of audio events in highly noisy environments. Pattern Recognition Letters 65 (2015), 22\u201328.",
+      "doi": "10.1016/j.patrec.2015.06.026"
+    },
+    {
+      "text": "Masaaki Fukumoto. 2018. SilentVoice: Unnoticeable Voice Input by Ingressive Speech. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (Berlin, Germany) (UIST \u201918). ACM, New York, NY, USA, 237\u2013246. https://doi.org/10.1145/3242587.3242603",
+      "doi": "10.1145/3242587.3242603"
+    },
+    {
+      "text": "Yang Gao, Yincheng Jin, Jiyang Li, Seokmin Choi, and Zhanpeng Jin. 2020. EchoWhisper: Exploring an Acoustic-based Silent Speech Interface for Smartphone Users. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 3 (2020), 1\u201327.",
+      "doi": "10.1145/3411830"
+    },
+    {
+      "text": "Fengpei Ge and Yonghong Yan. 2017. Deep neural network based wake-up-word speech recognition with two-stage detection. In 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, Piscataway, NJ, USA, 2761\u20132765. https://doi.org/10.1109/ICASSP.2017.7952659",
+      "doi": ""
+    },
+    {
+      "text": "Eleftheria Georganti, Tobias May, Steven van\u00a0de Par, Aki Harma, and John Mourjopoulos. 2011. Speaker distance detection using a single microphone. IEEE transactions on audio, speech, and language processing 19, 7(2011), 1949\u20131961.",
+      "doi": ""
+    },
+    {
+      "text": "Eleftheria Georganti, Tobias May, Steven Van De\u00a0Par, and John Mourjopoulos. 2013. Sound source distance estimation in rooms based on statistical properties of binaural signals. IEEE transactions on audio, speech, and language processing 21, 8(2013), 1727\u20131741.",
+      "doi": ""
+    },
+    {
+      "text": "Sandra\u00a0G Hart and Lowell\u00a0E Staveland. 1988. Development of NASA-TLX (Task Load Index) : Results of Empirical and Theoretical Research. Advances in Psychology 52, 6 (1988), 139\u2013183.",
+      "doi": ""
+    },
+    {
+      "text": "Shawn Hershey, Sourish Chaudhuri, Daniel P.\u00a0W. Ellis, Jort\u00a0F. Gemmeke, Aren Jansen, R.\u00a0Channing Moore, Manoj Plakal, Devin Platt, Rif\u00a0A. Saurous, Bryan Seybold, Malcolm Slaney, Ron\u00a0J. Weiss, and Kevin\u00a0W. Wilson. 2017. CNN architectures for large-scale audio classification. In 2017 IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP 2017, New Orleans, LA, USA, March 5-9, 2017. IEEE, Piscataway, NJ, USA, 131\u2013135. https://doi.org/10.1109/ICASSP.2017.7952132",
+      "doi": ""
+    },
+    {
+      "text": "Sergey Ioffe and Christian Szegedy. 2015. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift. In Proceedings of the 32nd International Conference on Machine Learning(Proceedings of Machine Learning Research, Vol.\u00a037), Francis Bach and David Blei (Eds.). PMLR, Lille, France, 448\u2013456. http://proceedings.mlr.press/v37/ioffe15.html",
+      "doi": ""
+    },
+    {
+      "text": "Arnav Kapur, Shreyas Kapur, and Pattie Maes. 2018. AlterEgo: A Personalized Wearable Silent Speech Interface. In 23rd International Conference on Intelligent User Interfaces (Tokyo, Japan) (IUI \u201918). ACM, New York, NY, USA, 43\u201353. https://doi.org/10.1145/3172944.3172977",
+      "doi": "10.1145/3172944.3172977"
+    },
+    {
+      "text": "Naoki Kimura, Michinari Kono, and Jun Rekimoto. 2019. SottoVoce: An Ultrasound Imaging-Based Silent Speech Interaction Using Deep Neural Networks. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). ACM, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3290605.3300376",
+      "doi": "10.1145/3290605.3300376"
+    },
+    {
+      "text": "BRET KINSELLA. 2018. New Report: Over 1 Billion Devices Provide Voice Assistant Access Today and Highest Usage is on Smartphones. Website.",
+      "doi": ""
+    },
+    {
+      "text": "Charles Knapp and Glifford Carter. 1976. The generalized correlation method for estimation of time delay. IEEE transactions on acoustics, speech, and signal processing 24, 4(1976), 320\u2013327.",
+      "doi": ""
+    },
+    {
+      "text": "Kenichi Kumatani, Sankaran Panchapagesan, Minhua Wu, Minjae Kim, Nikko Strom, Gautam Tiwari, and Arindam Mandai. 2017. Direct modeling of raw audio with DNNs for wake word detection. In 2017 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU). IEEE, Piscataway, NJ, USA, 252\u2013257.",
+      "doi": ""
+    },
+    {
+      "text": "Gustavo L\u00f3pez, Luis Quesada, and Luis\u00a0A Guerrero. 2017. Alexa vs. Siri vs. Cortana vs. Google Assistant: a comparison of speech-based natural user interfaces. In International Conference on Applied Human Factors and Ergonomics. Springer-Verlag, Cham, Switzerland, 241\u2013250.",
+      "doi": ""
+    },
+    {
+      "text": "I.\u00a0Scott MacKenzie and R.\u00a0William Soukoreff. 2003. Phrase Sets for Evaluating Text Entry Techniques. In CHI \u201903 Extended Abstracts on Human Factors in Computing Systems (Ft. Lauderdale, Florida, USA) (CHI EA \u201903). ACM, New York, NY, USA, 754\u2013755. https://doi.org/10.1145/765891.765971",
+      "doi": "10.1145/765891.765971"
+    },
+    {
+      "text": "Fabrice Matulic, Riku Arakawa, Brian Vogel, and Daniel Vogel. 2020. PenSight: Enhanced Interaction with a Pen-Top Camera. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376147",
+      "doi": "10.1145/3313831.3376147"
+    },
+    {
+      "text": "Donald McMillan, Barry Brown, Ikkaku Kawaguchi, Razan Jaber, Jordi Solsona\u00a0Belenguer, and Hideaki Kuzuoka. 2019. Designing with Gaze: Tama\u2013a Gaze Activated Smart-Speaker. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201326.",
+      "doi": "10.1145/3359278"
+    },
+    {
+      "text": "Raveesh Meena, Jos\u00e9 Lopes, Gabriel Skantze, and Joakim Gustafson. 2015. Automatic Detection of Miscommunication in Spoken Dialogue Systems. In Proceedings of the 16th Annual Meeting of the Special Interest Group on Discourse and Dialogue. Association for Computational Linguistics, Prague, Czech Republic, 354\u2013363. https://doi.org/10.18653/v1/W15-4647",
+      "doi": ""
+    },
+    {
+      "text": "Annamaria Mesaros, Toni Heittola, Antti Eronen, and Tuomas Virtanen. 2010. Acoustic event detection in real life recordings. In 2010 18th European Signal Processing Conference. IEEE, Piscataway, NJ, USA, 1267\u20131271.",
+      "doi": ""
+    },
+    {
+      "text": "Beomjun Min, Jongin Kim, Hyeong-Jun Park, and Boreom Lee. 2016. Vowel Imagery Decoding toward Silent Speech BCI Using Extreme Learning Machine with Electroencephalogram. BioMed Research International 2016 (01 2016), 1\u201311. https://doi.org/10.1155/2016/2618265",
+      "doi": ""
+    },
+    {
+      "text": "Martin Porcheron, Joel\u00a0E. Fischer, Stuart Reeves, and Sarah Sharples. 2018. Voice Interfaces in Everyday Life. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). ACM, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3174214",
+      "doi": "10.1145/3173574.3174214"
+    },
+    {
+      "text": "Fran\u00e7ois Portet, Michel Vacher, Caroline Golanski, Camille Roux, and Brigitte Meillon. 2013. Design and evaluation of a smart home voice interface for the elderly: acceptability and objection aspects. Personal and Ubiquitous Computing 17, 1 (2013), 127\u2013144. https://doi.org/10.1007/s00779-011-0470-5",
+      "doi": "10.1007/s00779-011-0470-5"
+    },
+    {
+      "text": "Javier Ram\u0131rez, Jos\u00e9\u00a0C Segura, Carmen Ben\u0131tez, Angel De\u00a0La\u00a0Torre, and Antonio Rubio. 2004. Efficient voice activity detection algorithms using long-term speech information. Speech communication 42, 3-4 (2004), 271\u2013287.",
+      "doi": ""
+    },
+    {
+      "text": "Florian Roider, Lars Reisig, and Tom Gross. 2018. Just Look: The Benefits of Gaze-Activated Voice Input in the Car. In Adjunct Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (Toronto, ON, Canada) (AutomotiveUI \u201918). ACM, New York, NY, USA, 210\u2013214. https://doi.org/10.1145/3239092.3265968",
+      "doi": "10.1145/3239092.3265968"
+    },
+    {
+      "text": "Richard Roy and Thomas Kailath. 1989. ESPRIT-estimation of signal parameters via rotational invariance techniques. IEEE Transactions on acoustics, speech, and signal processing 37, 7(1989), 984\u2013995.",
+      "doi": ""
+    },
+    {
+      "text": "R. Schmidt. 1986. Multiple emitter location and signal parameter estimation. IEEE Transactions on Antennas and Propagation 34, 3(1986), 276\u2013280.",
+      "doi": ""
+    },
+    {
+      "text": "Sayaka Shiota, Fernando Villavicencio, Junichi Yamagishi, Nobutaka Ono, Isao Echizen, and Tomoko Matsui. 2015. Voice liveness detection algorithms based on pop noise caused by human breath for automatic speaker verification. In INTERSPEECH 2015, 16th Annual Conference of the International Speech Communication Association, Dresden, Germany, September 6-10, 2015. ISCA, Baixas, France, 239\u2013243. http://www.isca-speech.org/archive/interspeech_2015/i15_0239.html",
+      "doi": ""
+    },
+    {
+      "text": "Sayaka Shiota, Fernando Villavicencio, Junichi Yamagishi, Nobutaka Ono, Isao Echizen, and Tomoko Matsui. 2016. Voice Liveness Detection for Speaker Verification based on a Tandem Single/Double-channel Pop Noise Detector. In Odyssey 2016: The Speaker and Language Recognition Workshop, Bilbao, Spain, June 21-24, 2016, Luis\u00a0Javier Rodr\u00edguez-Fuentesand Eduardo Lleida (Eds.). ISCA, Baixas, France, 259\u2013263. https://doi.org/10.21437/Odyssey.2016-37",
+      "doi": ""
+    },
+    {
+      "text": "ShotSpotter. 2020. ShotSpotter. https://www.shotspotter.com/.",
+      "doi": ""
+    },
+    {
+      "text": "Siddharth Sigtia, Rob Haynes, Hywel Richards, Erik Marchi, and John Bridle. 2018. Efficient Voice Trigger Detection for Low Resource Hardware. In Interspeech 2018, 19th Annual Conference of the International Speech Communication Association, Hyderabad, India, 2-6 September 2018, B.\u00a0Yegnanarayana (Ed.). ISCA, Baixas, France, 2092\u20132096. https://doi.org/10.21437/Interspeech.2018-2204",
+      "doi": ""
+    },
+    {
+      "text": "Karen Simonyan, Andrea Vedaldi, and Andrew Zisserman. 2014. Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps. In 2nd International Conference on Learning Representations, Workshop Track Proceedings, Yoshua Bengio and Yann LeCun (Eds.). ICLR 2014, Banff, Canada, 1\u20138. http://arxiv.org/abs/1312.6034",
+      "doi": ""
+    },
+    {
+      "text": "Jongseo Sohn, Nam\u00a0Soo Kim, and Wonyong Sung. 1999. A statistical model-based voice activity detection. IEEE signal processing letters 6, 1 (1999), 1\u20133.",
+      "doi": ""
+    },
+    {
+      "text": "Ke Sun, Chun Yu, Weinan Shi, Lan Liu, and Yuanchun Shi. 2018. Lip-interact: Improving mobile device interaction with silent speech commands. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology. ACM, New York, NY, USA, 581\u2013593.",
+      "doi": "10.1145/3242587.3242599"
+    },
+    {
+      "text": "S\u00a0G\u00f6khun Tanyer and Hamza Ozer. 2000. Voice activity detection in nonstationary noise. IEEE Transactions on speech and audio processing 8, 4 (2000), 478\u2013482.",
+      "doi": ""
+    },
+    {
+      "text": "Jean-Marc Valin, Fran\u00e7ois Michaud, and Jean Rouat. 2007. Robust localization and tracking of simultaneous moving sound sources using beamforming and particle filtering. Robotics and Autonomous Systems 55, 3 (2007), 216\u2013228.",
+      "doi": "10.1016/j.robot.2006.08.004"
+    },
+    {
+      "text": "Barry\u00a0D Van\u00a0Veen and Kevin\u00a0M Buckley. 1988. Beamforming: A versatile approach to spatial filtering. IEEE assp magazine 5, 2 (1988), 4\u201324.",
+      "doi": ""
+    },
+    {
+      "text": "Yueting Weng, Chun Yu, Yingtian Shi, Yuhang Zhao, Yukang Yang, and Yuanchun Shi. 2021. FaceSight: Enabling Hand-to-Face Gesture Interaction on AR Glasses with a Downward-Facing Camera Vision. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Tokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3411764.3445484",
+      "doi": "10.1145/3411764.3445484"
+    },
+    {
+      "text": "Yukang Yan, Chun Yu, Yingtian Shi, and Minxing Xie. 2019. PrivateTalk: Activating Voice Input with Hand-On-Mouth Gesture Detected by Bluetooth Earphones. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). ACM, New York, NY, USA, 1013\u20131020. https://doi.org/10.1145/3332165.3347950",
+      "doi": "10.1145/3332165.3347950"
+    },
+    {
+      "text": "Yukang Yan, Chun Yu, Wengrui Zheng, Ruining Tang, Xuhai Xu, and Yuanchun Shi. 2020. FrownOnError: Interrupting Responses from Smart Speakers by Facial Expressions. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376810",
+      "doi": "10.1145/3313831.3376810"
+    },
+    {
+      "text": "Zhican Yang, Chun Yu, Fengshi Zheng, and Yuanchun Shi. 2019. ProxiTalk: Activate Speech Input by Bringing Smartphone to the Mouth. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 3 (2019), 1\u201325.",
+      "doi": "10.1145/3359266"
+    },
+    {
+      "text": "Andreas Zehetner, Martin Hagm\u00fcller, and Franz Pernkopf. 2014. Wake-up-word spotting for mobile systems. In 2014 22nd European Signal Processing Conference (EUSIPCO). IEEE, Piscataway, NJ, USA, 1472\u20131476.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0D. Zeiler and Rob Fergus. 2014. Visualizing and Understanding Convolutional Networks. In Computer Vision - ECCV 2014 - 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part I(Lecture Notes in Computer Science, Vol.\u00a08689), David\u00a0J. Fleet, Tom\u00e1s Pajdla, Bernt Schiele, and Tinne Tuytelaars (Eds.). Springer-Verlag, Cham, Switzerland, 818\u2013833. https://doi.org/10.1007/978-3-319-10590-1_53",
+      "doi": ""
+    },
+    {
+      "text": "Shiwen Zhao, Brandt Westing, Shawn Scully, Heri Nieto, Roman Holenstein, Minwoo Jeong, Krishna Sridhar, Brandon Newendorp, Mike Bastian, Sethu Raman, Tim Paek, Kevin Lynch, and Carlos Guestrin. 2019. Raise to Speak: An Accurate, Low-Power Detector for Activating Voice Assistants on Smartwatches. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (Anchorage, AK, USA) (KDD \u201919). ACM, New York, NY, USA, 2736\u20132744. https://doi.org/10.1145/3292500.3330761",
+      "doi": "10.1145/3292500.3330761"
+    }
+  ]
+}

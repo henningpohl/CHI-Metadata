@@ -1,0 +1,386 @@
+{
+  "doi": "10.1145/3544548.3580681",
+  "title": "BirdViewAR: Surroundings-aware Remote Drone Piloting Using an Augmented Third-person Perspective",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-19",
+  "year": 2023,
+  "badges": [],
+  "abstract": "We propose BirdViewAR, a surroundings-aware remote drone-operation system that provides significant spatial awareness to pilots through an augmented third-person view (TPV) from an autopiloted secondary follower drone. The follower drone responds to the main drone\u2019s motions and directions using our optimization-based autopilot, allowing the pilots to clearly observe the main drone and its imminent destination without extra input. To improve their understanding of the spatial relationships between the main drone and its surroundings, the TPV is visually augmented with AR-overlay graphics, where the main drone\u2019s spatial statuses are highlighted: its heading, altitude, ground position, camera field-of-view (FOV), and proximity areas. We discuss BirdViewAR\u2019s design and implement its proof-of-concept prototype using programmable drones. Finally, we conduct a preliminary outdoor user study and find that BirdViewAR effectively increased spatial awareness and piloting performance.",
+  "authors": [
+    {
+      "name": "Maakito Inoue",
+      "institution": "Tohoku University, Japan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700665",
+      "orcid": "0000-0003-3297-0768"
+    },
+    {
+      "name": "Kazuki Takashima",
+      "institution": "Tohoku University, Japan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81351601788",
+      "orcid": "0000-0002-1020-5750"
+    },
+    {
+      "name": "Kazuyuki Fujita",
+      "institution": "Tohoku University, Japan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81442608795",
+      "orcid": "0000-0002-1039-0167"
+    },
+    {
+      "name": "Yoshifumi Kitamura",
+      "institution": "Tohoku University, Japan",
+      "img": "/do/10.1145/contrib-81100273942/rel-imgonly/yk-180x120.jpg",
+      "acmid": "81100273942",
+      "orcid": "0000-0002-7047-627X"
+    }
+  ],
+  "references": [
+    {
+      "text": "Muhammad Abdullah, Minji Kim, Waseem Hassan, Yoshihiro Kuroda, and Seokhee Jeon. 2017. HapticDrone: An Encountered-Type Kinesthetic Haptic Interface with Controllable Force Feedback: Initial Example for 1D Haptic Feedback. In Adjunct Publication of the 30th Annual ACM Symposium on User Interface Software and Technology (Qu\u00e9bec City, QC, Canada) (UIST \u201917). Association for Computing Machinery, New York, NY, USA, 115\u2013117. https://doi.org/10.1145/3131785.3131821",
+      "doi": "10.1145/3131785.3131821"
+    },
+    {
+      "text": "Joel A\u00a0E Andersson, Joris Gillis, Greg Horn, James\u00a0B Rawlings, and Moritz Diehl. 2019. CasADi \u2013 A software framework for nonlinear optimization and optimal control. Mathematical Programming Computation 11, 1 (2019), 1\u201336. https://doi.org/10.1007/s12532-018-0139-4",
+      "doi": ""
+    },
+    {
+      "text": "Mehmet\u00a0Aydin Baytas, Damla \u00c7ay, Yuchong Zhang, Mohammad Obaid, Asim\u00a0Evren Yanta\u00e7, and Morten Fjeld. 2019. The Design of Social Drones: A Review of Studies on Autonomous Flyers in Inhabited Environments. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300480",
+      "doi": "10.1145/3290605.3300480"
+    },
+    {
+      "text": "Laura\u00a0Bianca Bilius, Radu\u00a0Daniel Vatavu, and Nicolai Marquardt. 2021. Smart Vehicle Proxemics: A Conceptual Framework Operationalizing Proxemics in\u00a0the Context of Outside-the-Vehicle Interactions. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) 12933 LNCS, 150\u2013171. https://doi.org/10.1007/978-3-030-85616-8_11",
+      "doi": "10.1007/978-3-030-85616-8_11"
+    },
+    {
+      "text": "Owen Bourne, Abdul Sattar, and Scott Goodwin. 2008. A Constraint-Based Autonomous 3D Camera System. Constraints 13(2008), 180\u2013205. https://doi.org/10.1007/s10601-007-9026-8",
+      "doi": "10.1007/s10601-007-9026-8"
+    },
+    {
+      "text": "Gary Bradski. 2000. The OpenCV Library. Dr. Dobb\u2019s Journal of Software Tools(2000).",
+      "doi": ""
+    },
+    {
+      "text": "Jessica\u00a0R. Cauchard, Mohamed Khamis, J\u00e9r\u00e9mie Garcia, Matja\u017e Kljun, and Anke\u00a0M. Brock. 2021. Toward a Roadmap for Human-Drone Interaction. Interactions 28, 2 (mar 2021), 76\u201381. https://doi.org/10.1145/3447889",
+      "doi": "10.1145/3447889"
+    },
+    {
+      "text": "Jessie Y.\u00a0C. Chen, Ellen\u00a0C. Haas, and Michael\u00a0J. Barnes. 2007. Human Performance Issues and User Interface Design for Teleoperated Robots. IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews) 37, 6 (2007), 1231\u20131245. https://doi.org/10.1109/TSMCC.2007.905819",
+      "doi": "10.1109/TSMCC.2007.905819"
+    },
+    {
+      "text": "Linfeng Chen, Kazuki Takashima, Kazuyuki Fujita, and Yoshifumi Kitamura. 2021. PinpointFly: An Egocentric Position-Control Drone Interface Using Mobile AR. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Virtual) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 150, 13\u00a0pages. https://doi.org/10.1145/3411764.3445110",
+      "doi": "10.1145/3411764.3445110"
+    },
+    {
+      "text": "Andy Cockburn, Amy Karlson, and Benjamin\u00a0B. Bederson. 2009. A Review of Overview+detail, Zooming, and Focus+context Interfaces. ACM Comput. Surv. 41, 1, Article 2 (jan 2009), 31\u00a0pages. https://doi.org/10.1145/1456650.1456652",
+      "doi": "10.1145/1456650.1456652"
+    },
+    {
+      "text": "Catherine Diaz, Michael Walker, Danielle\u00a0Albers Szafir, and Daniel Szafir. 2017. Designing for Depth Perceptions in Augmented Reality. In 2017 IEEE International Symposium on Mixed and Augmented Reality(ISMAR \u201917). 111\u2013122. https://doi.org/10.1109/ISMAR.2017.28",
+      "doi": ""
+    },
+    {
+      "text": "DJI. 2017. Matrice 210. https://www.dji.com/matrice-200-series-v2. Retrieved September 3, 2022 from https://www.dji.com/matrice-200-series-v2 Visited the 3/9/2022.",
+      "doi": ""
+    },
+    {
+      "text": "DJI Developer. 2019. DJI Windows SDK. https://developer.dji.com/windows-sdk/. Retrieved November 14, 2021 from https://developer.dji.com/windows-sdk/ Visited the 14/11/2021.",
+      "doi": ""
+    },
+    {
+      "text": "Jill\u00a0L. Drury, Laurel Riek, and Nathan Rackliffe. 2006. A Decomposition of UAV-Related Situation Awareness. In Proceedings of the 1st ACM SIGCHI/SIGART Conference on Human-Robot Interaction (Salt Lake City, Utah, USA) (HRI \u201906). Association for Computing Machinery, New York, NY, USA, 88\u201394. https://doi.org/10.1145/1121241.1121258",
+      "doi": "10.1145/1121241.1121258"
+    },
+    {
+      "text": "Mica\u00a0R. Endsley. 1988. Design and Evaluation for Situation Awareness Enhancement. Proceedings of the Human Factors Society Annual Meeting 32, 2(1988), 97\u2013101. https://doi.org/10.1177/154193128803200221",
+      "doi": ""
+    },
+    {
+      "text": "Mica\u00a0R. Endsley. 1995. Toward a Theory of Situation Awareness in Dynamic Systems. Human Factors 37, 1 (March 1995), 32\u201364.",
+      "doi": ""
+    },
+    {
+      "text": "Okan Erat, Werner\u00a0Alexander Isop, Denis Kalkofen, and Dieter Schmalstieg. 2018. Drone-Augmented Human Vision: Exocentric Control for Drones Exploring Hidden Areas. IEEE Transactions on Visualization and Computer Graphics 24, 4(2018), 1437\u20131446. https://doi.org/10.1109/TVCG.2018.2794058",
+      "doi": "10.1109/TVCG.2018.2794058"
+    },
+    {
+      "text": "Mart\u00edn\u00a0G. Frixione and Christian Salvadeo. 2021. Drones, Gulls and Urbanity: Interaction between New Technologies and Human Subsidized Species in Coastal Areas. Drones 5, 2 (2021). https://doi.org/10.3390/drones5020030",
+      "doi": ""
+    },
+    {
+      "text": "Kazuyuki Fujita, Yuichi Itoh, Kazuki Takashima, Yoshifumi Kitamura, Takayuki Tsukitani, and Fumio Kishino. 2010. Anchored navigation: coupling panning operation with zooming and tilting based on the anchor point on a map. In Proceedings of Graphics Interface 2010 (Ottawa, Ontario, Canada) (GI 2010). Canadian Human-Computer Communications Society, Toronto, Ontario, Canada, 233\u2013240.",
+      "doi": ""
+    },
+    {
+      "text": "S. Garrido-Jurado, R. Mu\u00f1oz-Salinas, F.J. Madrid-Cuevas, and M.J. Mar\u00edn-Jim\u00e9nez. 2014. Automatic generation and detection of highly reliable fiducial markers under occlusion. Pattern Recognition 47, 6 (2014), 2280\u20132292.",
+      "doi": "10.1016/j.patcog.2014.01.005"
+    },
+    {
+      "text": "Christoph Gebhardt, Benjamin Hepp, Tobias N\u00e4geli, Stefan Stev\u0161i\u0107, and Otmar Hilliges. 2016. Airways: Optimization-based planning of quadrotor trajectories according to high-level user goals. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, 2508\u20132519. https://doi.org/10.1145/2858036.2858353",
+      "doi": "10.1145/2858036.2858353"
+    },
+    {
+      "text": "Christoph Gebhardt and Otmar Hilliges. 2018. WYFIWYG: Investigating Effective User Support in Aerial Videography. (jan 2018). arxiv:1801.05972http://arxiv.org/abs/1801.05972",
+      "doi": ""
+    },
+    {
+      "text": "Christoph Gebhardt and Otmar Hilliges. 2021. Optimization-based User Support for Cinematographic Quadrotor Camera Target Framing. In SIGCHI Conference on Human Factors in Computing Systems (Yokohama) (CHI \u201921). ACM, New York, NY, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Christoph Gebhardt, Stefan Stev\u0161i\u0107, and Otmar Hilliges. 2018. Optimizing for Aesthetically Pleasing Quadrotor Camera Motion. ACM Trans. Graph. 37, 4, Article 90 (jul 2018), 11\u00a0pages. https://doi.org/10.1145/3197517.3201390",
+      "doi": "10.1145/3197517.3201390"
+    },
+    {
+      "text": "Eric Granholm, Robert\u00a0F. Asarnow, Andrew\u00a0J. Sarkin, and Kenneth\u00a0L. Dykes. 1996. Pupillary responses index cognitive resource limitations.Psychophysiology 33 4(1996), 457\u201361.",
+      "doi": ""
+    },
+    {
+      "text": "Yves Guiard, Olivier Chapuis, Yangzhou Du, and Michel Beaudouin-Lafon. 2006. Allowing Camera Tilts for Document Navigation in the Standard GUI: A Discussion and an Experiment. In Proceedings of the Working Conference on Advanced Visual Interfaces (Venezia, Italy) (AVI \u201906). Association for Computing Machinery, New York, NY, USA, 241\u2013244. https://doi.org/10.1145/1133265.1133312",
+      "doi": "10.1145/1133265.1133312"
+    },
+    {
+      "text": "Sunao Hashimoto, Akihiko Ishida, Masahiko Inami, and Takeo Igarashi. 2013. TouchMe: An Augmented Reality Interface for Remote Robot Control. Journal of Robotics and Mechatronics 25, 3 (June 2013), 529\u2013537. https://doi.org/10.20965/jrm.2013.p0529",
+      "doi": ""
+    },
+    {
+      "text": "Li-wei He, Michael\u00a0F. Cohen, and David\u00a0H. Salesin. 1996. The Virtual Cinematographer: A Paradigm for Automatic Real-Time Camera Control and Directing. In Proceedings of the 23rd Annual Conference on Computer Graphics and Interactive Techniques(SIGGRAPH \u201996). Association for Computing Machinery, New York, NY, USA, 217\u2013224. https://doi.org/10.1145/237170.237259",
+      "doi": "10.1145/237170.237259"
+    },
+    {
+      "text": "Hooman Hedayati, Michael Walker, and Daniel Szafir. 2018. Improving Collocated Robot Teleoperation with Augmented Reality. In Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot Interaction (Chicago, IL, USA) (HRI \u201918). Association for Computing Machinery, New York, NY, USA, 78\u201386. https://doi.org/10.1145/3171221.3171251",
+      "doi": "10.1145/3171221.3171251"
+    },
+    {
+      "text": "W.\u00a0E. Hick. 1952. On the Rate of Gain of Information. Quarterly Journal of Experimental Psychology 4, 1 (1952), 11\u201326.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0T. Hing, Keith\u00a0W. Sevcik, and Paul\u00a0Y. Oh. 2010. Development and Evaluation of a Chase View for UAV Operations in Cluttered Environments. In Journal of Intelligent and Robotic Systems volume 57. Springer, Article 485, 19\u00a0pages. https://doi.org/10.1007/s10846-009-9356-4",
+      "doi": "10.1007/s10846-009-9356-4"
+    },
+    {
+      "text": "Justin Hollands and Matthew Lamb. 2011. Viewpoint Tethering for Remotely Operated Vehicles: Effects on Complex Terrain Navigation and Spatial Awareness. Human factors 53 (04 2011), 154\u201367. https://doi.org/10.1177/0018720811399757",
+      "doi": ""
+    },
+    {
+      "text": "Baichuan Huang, Deniz Bayazit, Daniel Ullman, Nakul Gopalan, and Stefanie Tellex. 2019. Flight, Camera, Action! Using Natural Language and Mixed Reality to Control a Drone. In 2019 International Conference on Robotics and Automation (ICRA). 6949\u20136956. https://doi.org/10.1109/ICRA.2019.8794200",
+      "doi": "10.1109/ICRA.2019.8794200"
+    },
+    {
+      "text": "Andreas Humpe. 2020. Bridge Inspection with an Off-the-Shelf 360\u00b0 Camera Drone. Drones 4, 4 (2020). https://doi.org/10.3390/drones4040067",
+      "doi": ""
+    },
+    {
+      "text": "Takeo Igarashi and Ken Hinckley. 2000. Speed-Dependent Automatic Zooming for Browsing Large Documents. In Proceedings of the 13th Annual ACM Symposium on User Interface Software and Technology (San Diego, California, USA) (UIST \u201900). Association for Computing Machinery, New York, NY, USA, 139\u2013148. https://doi.org/10.1145/354401.354435",
+      "doi": "10.1145/354401.354435"
+    },
+    {
+      "text": "Matthew\u00a0R. Johnson. 2011. Spatial Cognition, Spatial Perception. The Yale Journal of Biology and Medicine 84, 1 (Mar 2011), 63\u201363. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3064250/",
+      "doi": ""
+    },
+    {
+      "text": "Brennan Jones, Kody Dillman, Richard Tang, Anthony Tang, Ehud Sharlin, Lora Oehlberg, Carman Neustaedter, and Scott Bateman. 2016. Elevating Communication, Collaboration, and Shared Experiences in Mobile Video through Drones. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems (Brisbane, QLD, Australia) (DIS \u201916). Association for Computing Machinery, New York, NY, USA, 1123\u20131135. https://doi.org/10.1145/2901790.2901847",
+      "doi": "10.1145/2901790.2901847"
+    },
+    {
+      "text": "Niels Joubert, E JaneL., Dan\u00a0B. Goldman, Floraine Berthouzoz, Mike Roberts, James\u00a0A. Landay, and Pat Hanrahan. 2016. Towards a Drone Cinematographer: Guiding Quadrotor Cameras using Visual Composition Principles. ArXiv abs/1610.01691(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Niels Joubert, Mike Roberts, Anh Truong, Floraine Berthouzoz, and Pat Hanrahan. 2015. An Interactive Tool for Designing Quadrotor Camera Shots. ACM Trans. Graph. 34, 6, Article 238 (oct 2015), 11\u00a0pages. https://doi.org/10.1145/2816795.2818106",
+      "doi": "10.1145/2816795.2818106"
+    },
+    {
+      "text": "Alonzo Kelly, Nicholas Chan, Herman Herman, Daniel Huber, Robert Meyers, Pete Rander, Randy Warner, Jason Ziglar, and Erin Capstick. 2011. Real-time Photorealistic Virtualized Reality Interface for Remote Mobile Robot Control. The International Journal of Robotics Research 30, 3 (2011), 384\u2013404.",
+      "doi": "10.1177/0278364910383724"
+    },
+    {
+      "text": "Brenden Keyes, Robert Casey, Holly\u00a0A Yanco, Bruce\u00a0A Maxwell, and Yavor Georgiev. 2006. Camera Placement and Multi-camera Fusion for Remote Robot Operation. In Proceedings of the IEEE international workshop on safety, security and rescue robotics. 22\u201324.",
+      "doi": ""
+    },
+    {
+      "text": "Dong-Hyun Kim, Yong-Guk Go, and Soo-Mi Choi. 2020. An Aerial Mixed-Reality Environment for First-Person-View Drone Flying. Applied Sciences 10, 16 (2020). https://doi.org/10.3390/app10165436",
+      "doi": ""
+    },
+    {
+      "text": "Konstantinos Konstantoudakis, Kyriaki Christaki, Dimitrios Tsiakmakis, Dimitrios Sainidis, Georgios Albanis, Anastasios Dimou, and Petros Daras. 2022. Drone Control in AR: An Intuitive System for Single-Handed Gesture Control, Drone Tracking, and Contextualized Camera Feed Visualization in Augmented Reality. Drones 6, 2 (2022). https://doi.org/10.3390/drones6020043",
+      "doi": ""
+    },
+    {
+      "text": "Christos Kyrkou and Theocharis Theocharides. 2020. EmergencyNet: Efficient Aerial Image Classification for Drone-Based Emergency Monitoring Using Atrous Convolutional Feature Fusion. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 13(2020), 1687\u20131699. https://doi.org/10.1109/JSTARS.2020.2969809",
+      "doi": ""
+    },
+    {
+      "text": "Ziquan Lan, Mohit Shridhar, David Hsu, and Shengdong Zhao. 2017. XPose: Reinventing User Interaction with Flying Cameras. In Robotics: Science and Systems XIII, Massachusetts Institute of Technology, Cambridge, Massachusetts, USA, July 12-16, 2017. https://doi.org/10.15607/RSS.2017.XIII.006",
+      "doi": ""
+    },
+    {
+      "text": "Jiannan Li, Ravin Balakrishnan, and Tovi Grossman. 2020. StarHopper: A Touch Interface for Remote Object-Centric Drone Navigation. In Proceedings of Graphics Interface 2020 (University of Toronto) (GI 2020). Canadian Human-Computer Communications Society, 317 \u2013 326. https://doi.org/10.20380/GI2020.32",
+      "doi": ""
+    },
+    {
+      "text": "Nico Li, Stephen Cartwright, Aditya Shekhar\u00a0Nittala, Ehud Sharlin, and Mario Costa\u00a0Sousa. 2015. Flying Frustum: A Spatial Interface for Enhancing Human-UAV Awareness. In Proceedings of the 3rd International Conference on Human-Agent Interaction (Daegu, Kyungpook, Republic of Korea) (HAI \u201915). Association for Computing Machinery, New York, NY, USA, 27\u201331. https://doi.org/10.1145/2814940.2814956",
+      "doi": "10.1145/2814940.2814956"
+    },
+    {
+      "text": "Andr\u00e9a Macario\u00a0Barros, Maugan Michel, Yoann Moline, Gwenol\u00e9 Corre, and Fr\u00e9d\u00e9rick Carrel. 2022. A Comprehensive Survey of Visual SLAM Algorithms. Robotics 11, 1 (2022). https://doi.org/10.3390/robotics11010024",
+      "doi": ""
+    },
+    {
+      "text": "Tobias N\u00e4geli, Lukas Meier, Alexander Domahidi, Javier Alonso-Mora, and Otmar Hilliges. 2017. Real-Time Planning for Automated Multi-View Drone Cinematography. ACM Trans. Graph. 36, 4, Article 132 (jul 2017), 10\u00a0pages. https://doi.org/10.1145/3072959.3073712",
+      "doi": "10.1145/3072959.3073712"
+    },
+    {
+      "text": "Tobias N\u00e4geli, Javier Alonso-Mora, Alexander Domahidi, Daniela Rus, and Otmar Hilliges. 2017. Real-Time Motion Planning for Aerial Videography With Dynamic Obstacle Avoidance and Viewpoint Optimization. IEEE Robotics and Automation Letters 2, 3 (2017), 1696\u20131703. https://doi.org/10.1109/LRA.2017.2665693",
+      "doi": ""
+    },
+    {
+      "text": "Parrot. 2018. Parrot ANAFI. https://www.parrot.com/en/drones/anafi. Retrieved November 14, 2021 from https://www.parrot.com/en/drones/anafi Visited the 14/11/2021.",
+      "doi": ""
+    },
+    {
+      "text": "Parrot. 2021. Olympe. https://developer.parrot.com/docs/olympe/overview.html. Retrieved November 14, 2021 from https://developer.parrot.com/docs/olympe/overview.html Visited the 14/11/2021.",
+      "doi": ""
+    },
+    {
+      "text": "Saman Rahnamaei and Shahin Sirouspour. 2014. Automatic Viewpoint Planning in Teleoperation of a Mobile Robot. Journal of Intelligent and Robotic Systems: Theory and Applications 76, 3-4(2014), 443\u2013460. https://doi.org/10.1007/s10846-014-0028-7",
+      "doi": "10.1007/s10846-014-0028-7"
+    },
+    {
+      "text": "Daniel Rakita, Bilge Mutlu, and Michael Gleicher. 2018. An Autonomous Dynamic Camera Method for Effective Remote Teleoperation. In Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot Interaction (Chicago, IL, USA) (HRI \u201918). Association for Computing Machinery, New York, NY, USA, 325\u2013333. https://doi.org/10.1145/3171221.3171279",
+      "doi": "10.1145/3171221.3171279"
+    },
+    {
+      "text": "Umar Rashid, Miguel\u00a0A. Nacenta, and Aaron Quigley. 2012. Factors Influencing Visual Attention Switch in Multi-Display User Interfaces: A Survey. In Proceedings of the 2012 International Symposium on Pervasive Displays (Porto, Portugal) (PerDis \u201912). Association for Computing Machinery, New York, NY, USA, Article 1, 6\u00a0pages. https://doi.org/10.1145/2307798.2307799",
+      "doi": "10.1145/2307798.2307799"
+    },
+    {
+      "text": "Mike Roberts, Debadeepta Dey, Anh Truong, Sudipta Sinha, Shital Shah, Ashish Kapoor, Pat Hanrahan, and Neel Joshi. 2017. Submodular Trajectory Optimization for Aerial 3D Scanning. In International Conference on Computer Vision (ICCV) 2017.",
+      "doi": ""
+    },
+    {
+      "text": "Judy Robertson and Maurits Kaptein. 2016. Modern Statistical Methods for HCI(1st ed.). Springer Publishing Company, Incorporated.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Saakes, Vipul Choudhary, Daisuke Sakamoto, Masahiko Inami, and Takeo Lgarashi. 2013. A teleoperating interface for ground vehicles using autonomous flying cameras. In 2013 23rd International Conference on Artificial Reality and Telexistence (ICAT)(ICAT \u201913). 13\u201319. https://doi.org/10.1109/ICAT.2013.6728900",
+      "doi": ""
+    },
+    {
+      "text": "Mehrnaz Sabet, Mania Orand, and David W.\u00a0McDonald. 2021. Designing Telepresence Drones to Support Synchronous, Mid-Air Remote Collaboration: An Exploratory Study. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Virtual) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 450, 17\u00a0pages. https://doi.org/10.1145/3411764.3445041",
+      "doi": "10.1145/3411764.3445041"
+    },
+    {
+      "text": "Kensaku Saitoh, Takashi Machida, Kiyoshi Kiyokawa, and Haruo Takemura. 2006. A 2D-3D integrated interface for mobile robot control using omnidirectional images and 3D geometric models. In 2006 IEEE/ACM International Symposium on Mixed and Augmented Reality. 173\u2013176. https://doi.org/10.1109/ISMAR.2006.297810",
+      "doi": "10.1109/ISMAR.2006.297810"
+    },
+    {
+      "text": "Daisuke Sakamoto, Koichiro Honda, Masahiko Inami, and Takeo Igarashi. 2009. Sketch and Run: A Stroke-Based Interface for Home Robots. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Boston, MA, USA) (CHI \u201909). Association for Computing Machinery, New York, NY, USA, 197\u2013200. https://doi.org/10.1145/1518701.1518733",
+      "doi": "10.1145/1518701.1518733"
+    },
+    {
+      "text": "Hiroshi Sato, John\u00a0S Bradley, and Masayuki Morimoto. 2005. Using listening difficulty ratings of conditions for speech communication in rooms. The Journal of the Acoustical Society of America 117, 3 (2005), 1157\u20131167.",
+      "doi": ""
+    },
+    {
+      "text": "Stefan Schneegass, Florian Alt, J\u00fcrgen Scheible, and Albrecht Schmidt. 2014. Midair Displays: Concept and First Experiences with Free-Floating Pervasive Displays. In Proceedings of The International Symposium on Pervasive Displays (Copenhagen, Denmark) (PerDis \u201914). Association for Computing Machinery, New York, NY, USA, 27\u201331. https://doi.org/10.1145/2611009.2611013",
+      "doi": "10.1145/2611009.2611013"
+    },
+    {
+      "text": "Stela\u00a0H. Seo, Daniel\u00a0J. Rea, Joel Wiebe, and James\u00a0E. Young. 2017. Monocle: Interactive detail-in-context using two pan-and-tilt cameras to improve teleoperation effectiveness. In 2017 26th IEEE International Symposium on Robot and Human Interactive Communication(RO-MAN \u201917). 962\u2013967. https://doi.org/10.1109/ROMAN.2017.8172419",
+      "doi": "10.1109/ROMAN.2017.8172419"
+    },
+    {
+      "text": "Maki Sugimoto, Georges Kagotani, Hideaki Nii, Naoji Shiroma, Masahiko Inami, and Fumitoshi Matsuno. 2005. Time follower\u2019s vision: A teleoperation interface with past images. IEEE Computer Graphics and Applications 25 (1 2005), 54\u201363. Issue 1. https://doi.org/10.1109/MCG.2005.23",
+      "doi": "10.1109/MCG.2005.23"
+    },
+    {
+      "text": "Desney\u00a0S. Tan, George\u00a0G. Robertson, and Mary Czerwinski. 2001. Exploring 3D Navigation: Combining Speed-Coupled Flying with Orbiting. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Seattle, Washington, USA) (CHI \u201901). Association for Computing Machinery, New York, NY, USA, 418\u2013425. https://doi.org/10.1145/365024.365307",
+      "doi": "10.1145/365024.365307"
+    },
+    {
+      "text": "Ryotaro Temma, Kazuki Takashima, Kazuyuki Fujita, Koh Sueda, and Yoshifumi Kitamura. 2019. Third-Person Piloting: Increasing Situational Awareness Using a Spatially Coupled Second Drone. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 507\u2013519. https://doi.org/10.1145/3332165.3347953",
+      "doi": "10.1145/3332165.3347953"
+    },
+    {
+      "text": "Dante Tezza and Marvin Andujar. 2019. The State-of-the-Art of Human-Drone Interaction: A Survey. IEEE Access 7(2019), 167438\u2013167454. https://doi.org/10.1109/ACCESS.2019.2953900",
+      "doi": ""
+    },
+    {
+      "text": "John Thomason, Photchara Ratsamee, Kiyoshi Kiyokawa, Pakpoom Kriangkomol, Jason Orlosky, Tomohiro Mashita, Yuki Uranishi, and Haruo Takemura. 2017. Adaptive View Management for Drone Teleoperation in Complex 3D Structures. In Proceedings of the 22nd International Conference on Intelligent User Interfaces (Limassol, Cyprus) (IUI \u201917). Association for Computing Machinery, New York, NY, USA, 419\u2013426. https://doi.org/10.1145/3025171.3025179",
+      "doi": "10.1145/3025171.3025179"
+    },
+    {
+      "text": "John Thomason, Photchara Ratsamee, Jason Orlosky, Kiyoshi Kiyokawa, Tomohiro Mashita, Yuki Uranishi, and Haruo Takemura. 2019. A Comparison of Adaptive View Techniques for Exploratory 3D Drone Teleoperation. ACM Trans. Interact. Intell. Syst. 9, 2\u20133, Article 17 (March 2019), 19\u00a0pages.",
+      "doi": "10.1145/3232232"
+    },
+    {
+      "text": "Elisabeth Vas, Am\u00e9lie Lescro\u00ebl, Olivier Duriez, Guillaume Boguszewski, and David Gr\u00e9millet. 2015. Approaching Birds with Drones: First Experiments and Ethical Guidelines. Biology Letters 11(2015).",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0E. Walker, Hooman Hedayati, and Daniel Szafir. 2019. Robot Teleoperation with Augmented Reality Virtual Surrogates. In Proceedings of the 2019 ACM/IEEE International Conference on Human-Robot Interaction (HRI). 202\u2013210.",
+      "doi": ""
+    },
+    {
+      "text": "A\u00a0Nicki Washington. 2018. A survey of drone use for socially relevant problems: Lessons from Africa. African Journal Of Computing & ICT 11, 3 (2018), 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Jason Wither and Tobias Hollerer. 2005. Pictorial Depth Cues for Outdoor Augmented Reality. In Ninth IEEE International Symposium on Wearable Computers (ISWC\u201905). 92\u201399. https://doi.org/10.1109/ISWC.2005.41",
+      "doi": "10.1109/ISWC.2005.41"
+    },
+    {
+      "text": "Anna Wojciechowska, Jeremy Frey, Sarit Sass, Roy Shafir, and Jessica\u00a0R. Cauchard. 2019. Collocated Human-Drone Interaction: Methodology and Approach Strategy. In Proceedings of the 14th ACM/IEEE International Conference on Human-Robot Interaction (Daegu, Republic of Korea) (HRI \u201919). IEEE Press, 172\u2013181.",
+      "doi": ""
+    },
+    {
+      "text": "Andreas W\u00e4chter and Lorenz\u00a0T. Biegler. 2006. On the implementation of an interior-point filter line-search algorithm for large-scale nonlinear programming. Mathematical Programming 106 (2006), 25\u201357. https://doi.org/10.1007/s10107-004-0559-y",
+      "doi": ""
+    },
+    {
+      "text": "Jingao Xu, Hao Cao, Danyang Li, Kehong Huang, Chen Qian, Longfei Shangguan, and Zheng Yang. 2020. Edge Assisted Mobile Semantic Visual SLAM. In IEEE INFOCOM 2020 - IEEE Conference on Computer Communications. 1828\u20131837. https://doi.org/10.1109/INFOCOM41043.2020.9155438",
+      "doi": "10.1109/INFOCOM41043.2020.9155438"
+    },
+    {
+      "text": "Wataru Yamada, Hiroyuki Manabe, and Daizo Ikeda. 2019. ZeRONE: Safety Drone with Blade-Free Propulsion. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3290605.3300595",
+      "doi": "10.1145/3290605.3300595"
+    },
+    {
+      "text": "Wataru Yamada, Kazuhiro Yamada, Hiroyuki Manabe, and Daizo Ikeda. 2017. iSphere: Self-Luminous Spherical Drone Display. 635\u2013643. https://doi.org/10.1145/3126594.3126631",
+      "doi": "10.1145/3126594.3126631"
+    },
+    {
+      "text": "Yui-Pan Yau, Lik\u00a0Hang Lee, Zheng Li, Tristan Braud, Yi-Hsuan Ho, and Pan Hui. 2020. How Subtle Can It Get? A Trimodal Study of Ring-Sized Interfaces for One-Handed Drone Control. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 4, 2, Article 63 (jun 2020), 29\u00a0pages. https://doi.org/10.1145/3397319",
+      "doi": "10.1145/3397319"
+    },
+    {
+      "text": "Sierra\u00a0N. Young, Ryan\u00a0J. Lanciloti, and Joshua\u00a0M. Peschel. 2022. The Effects of Interface Views on Performing Aerial Telemanipulation Tasks Using Small UAVs.International Journal of Social Robotics 14 (2022), 213\u2013228. https://doi.org/10.1007/s12369-021-00783-9",
+      "doi": ""
+    },
+    {
+      "text": "Peng Yun, Jianhao Jiao, and Ming Liu. 2017. Towards a Cloud Robotics Platform for Distributed Visual SLAM. In Computer Vision Systems, Ming Liu, Haoyao Chen, and Markus Vincze (Eds.). Springer International Publishing, Cham, 3\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Xujing Zhang, Sean Braley, Calvin Rubens, Timothy Merritt, and Roel Vertegaal. 2019. LightBee: A Self-Levitating Light Field Display for Hologrammatic Telepresence. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/3290605.3300242",
+      "doi": "10.1145/3290605.3300242"
+    },
+    {
+      "text": "Z. Zhang. 2000. A flexible new technique for camera calibration. IEEE Transactions on Pattern Analysis and Machine Intelligence 22, 11(2000), 1330\u20131334. https://doi.org/10.1109/34.888718",
+      "doi": "10.1109/34.888718"
+    },
+    {
+      "text": "Osama Zia, Jun-Ho Kim, Kyungjin Han, and Jong\u00a0Weon Lee. 2019. 360\u00b0 Panorama Generation using Drone Mounted Fisheye Cameras. In 2019 IEEE International Conference on Consumer Electronics (ICCE). 1\u20133. https://doi.org/10.1109/ICCE.2019.8661954",
+      "doi": ""
+    },
+    {
+      "text": "Stefanie Zollmann, Christof Hoppe, Tobias Langlotz, and Gerhard Reitmayr. 2014. FlyAR: Augmented Reality Supported Micro Aerial Vehicle Navigation. IEEE Transactions on Visualization and Computer Graphics 20, 4(2014), 560\u2013568.",
+      "doi": "10.1109/TVCG.2014.24"
+    }
+  ]
+}

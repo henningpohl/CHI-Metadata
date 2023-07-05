@@ -1,0 +1,265 @@
+{
+  "doi": "10.1145/3544548.3580706",
+  "title": "WESPER: Zero-shot and Realtime Whisper to Normal Voice Conversion for Whisper-based Speech Interactions",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-12",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Recognizing whispered speech and converting it to normal speech creates many possibilities for speech interaction. Because the sound pressure of whispered speech is significantly lower than that of normal speech, it can be used as a semi-silent speech interaction in public places without being audible to others. Converting whispers to normal speech also improves the speech quality for people with speech or hearing impairments. However, conventional speech conversion techniques do not provide sufficient conversion quality or require speaker-dependent datasets consisting of pairs of whispered and normal speech utterances. To address these problems, we propose WESPER, a zero-shot, real-time whisper-to-normal speech conversion mechanism based on self-supervised learning. WESPER consists of a speech-to-unit (STU) encoder, which generates hidden speech units common to both whispered and normal speech, and a unit-to-speech (UTS) decoder, which reconstructs speech from the encoded speech units. Unlike the existing methods, this conversion is user-independent and does not require a paired dataset for whispered and normal speech. The UTS decoder can reconstruct speech in any target speaker\u2019s voice from speech units, and it requires only an unlabeled target speaker\u2019s speech data. We confirmed that the quality of the speech converted from a whisper was improved while preserving its natural prosody. Additionally, we confirmed the effectiveness of the proposed approach to perform speech reconstruction for people with speech or hearing disabilities.",
+  "authors": [
+    {
+      "name": "Jun Rekimoto",
+      "institution": "The University of Tokyo, Japan and Sony CSL Kyoto, Japan",
+      "img": "/do/10.1145/contrib-81100008564/rel-imgonly/p2.png",
+      "acmid": "81100008564",
+      "orcid": "0000-0002-3629-2514"
+    }
+  ],
+  "references": [
+    {
+      "text": "A. Al-Nasheri, G. Muhammad, M. Alsulaiman, and Z. Ali. 2017. Investigation of Voice Pathology Detection and Classification on Different Frequency Regions Using Correlation Functions. Journal of Voice (2017). https://doi.org/10.1016/j.jvoice.2016.01.014",
+      "doi": ""
+    },
+    {
+      "text": "Alexei Baevski, Henry Zhou, Abdelrahman Mohamed, and Michael Auli. 2020. wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations. arXiv [cs.CL] (June 2020).",
+      "doi": ""
+    },
+    {
+      "text": "Abdelkareem Bedri, Himanshu Sahni, Pavleen Thukral, Thad Starner, David Byrd, Peter Presti, Gabriel Reyes, Maysam Ghovanloo, and Zehua Guo. 2015. Toward Silent-Speech Control of Consumer Wearables. Computer 48, 10 (2015), 54\u201362. https://doi.org/10.1109/MC.2015.310",
+      "doi": "10.1109/MC.2015.310"
+    },
+    {
+      "text": "Fadi Biadsy, Ron\u00a0J. Weiss, Pedro\u00a0J. Moreno, Dimitri Kanevsky, and Ye Jia. 2019. Parrotron: An End-to-End Speech-to-Speech Conversion Model and its Applications to Hearing-Impaired Speech and Speech Separation. https://doi.org/10.48550/ARXIV.1904.04169",
+      "doi": ""
+    },
+    {
+      "text": "Zal\u00e1n Borsos, Rapha\u00ebl Marinier, Damien Vincent, Eugene Kharitonov, Olivier Pietquin, Matt Sharifi, Olivier Teboul, David Grangier, Marco Tagliasacchi, and Neil Zeghidour. 2022. AudioLM: a Language Modeling Approach to Audio Generation. https://doi.org/10.48550/ARXIV.2209.03143",
+      "doi": ""
+    },
+    {
+      "text": "Heng-Jui Chang, Alexander\u00a0H Liu, Hung-Yi Lee, and Lin-Shan Lee. 2020. End-to-end Whispered Speech Recognition with Frequency-weighted Approaches and Pseudo Whisper Pre-training. (May 2020). arxiv:2005.01972\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Ishan Chatterjee, Maruchi Kim, Vivek Jayaram, Shyamnath Gollakota, Ira Kemelmacher, Shwetak Patel, and Steven\u00a0M. Seitz. 2022. ClearBuds. In Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services. ACM. https://doi.org/10.1145/3498361.3538933",
+      "doi": "10.1145/3498361.3538933"
+    },
+    {
+      "text": "Chung-Ming Chien, Jheng-Hao Lin, Chien-yu Huang, Po-chun Hsu, and Hung-yi Lee. 2021. Investigating on Incorporating Pretrained and Learnable Speaker Representations for Multi-Speaker Multi-Style Text-to-Speech. In ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 8588\u20138592. https://doi.org/10.1109/ICASSP39728.2021.9413880",
+      "doi": ""
+    },
+    {
+      "text": "Alexis Conneau, Alexei Baevski, Ronan Collobert, Abdelrahman Mohamed, and Michael Auli. 2020. Unsupervised Cross-lingual Representation Learning for Speech Recognition. https://doi.org/10.48550/ARXIV.2006.13979",
+      "doi": ""
+    },
+    {
+      "text": "Marius Cotescu, Thomas Drugman, Goeric Huybrechts, Jaime Lorenzo-Trueba, and Alexis Moinet. 2019. Voice Conversion for Whispered Speech Synthesis. (Dec. 2019). arxiv:1912.05289\u00a0[cs.SD]",
+      "doi": ""
+    },
+    {
+      "text": "B. Denby, T. Schultz, K. Honda, T. Hueber, J.\u00a0M. Gilbert, and J.\u00a0S. Brumberg. 2010. Silent Speech Interfaces. Speech Commun. 52, 4 (April 2010), 270\u2013287. https://doi.org/10.1016/j.specom.2009.08.002",
+      "doi": "10.1016/j.specom.2009.08.002"
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. https://doi.org/10.48550/ARXIV.1810.04805",
+      "doi": ""
+    },
+    {
+      "text": "Dyson. 2022. dyson zone: Air-purifying headphones with active noise cancelling. https://www.dyson.co.uk/en.",
+      "doi": ""
+    },
+    {
+      "text": "Joo Freitas, Antnio Teixeira, Miguel\u00a0Sales Dias, and Samuel Silva. 2016. An Introduction to Silent Speech Interfaces (1st ed.). Springer Publishing Company, Incorporated.",
+      "doi": ""
+    },
+    {
+      "text": "Masaaki Fukumoto. 2018. SilentVoice: Unnoticeable Voice Input by Ingressive Speech. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (Berlin, Germany) (UIST \u201918). Association for Computing Machinery, New York, NY, USA, 237\u2013246. https://doi.org/10.1145/3242587.3242603",
+      "doi": "10.1145/3242587.3242603"
+    },
+    {
+      "text": "Teng Gao, Jian Zhou, Huabin Wang, Liang Tao, and Hon\u00a0Keung Kwan. 2021. Attention-Guided Generative Adversarial Network for Whisper to Normal Speech Conversion. https://doi.org/10.48550/ARXIV.2111.01342",
+      "doi": ""
+    },
+    {
+      "text": "Alex Graves, Santiago Fern\u00e1ndez, Faustino Gomez, and J\u00fcrgen Schmidhuber. 2006. Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks. In Proceedings of the 23rd International Conference on Machine Learning (Pittsburgh, Pennsylvania, USA) (ICML \u201906). Association for Computing Machinery, New York, NY, USA, 369\u2013376. https://doi.org/10.1145/1143844.1143891",
+      "doi": "10.1145/1143844.1143891"
+    },
+    {
+      "text": "Dorde\u00a0T. Grozdic and Slobodan\u00a0T. Jovicic. 2017. Whispered Speech Recognition Using Deep Denoising Autoencoder and Inverse Filtering. IEEE/ACM Trans. Audio, Speech and Lang. Proc. 25, 12 (dec 2017), 2313\u20132322. https://doi.org/10.1109/TASLP.2017.2738559",
+      "doi": "10.1109/TASLP.2017.2738559"
+    },
+    {
+      "text": "Tomoki Hayashi, Wen-Chin Huang, Kazuhiro Kobayashi, and Tomoki Toda. 2021. Non-autoregressive sequence-to-sequence voice conversion. https://doi.org/10.48550/ARXIV.2104.06793",
+      "doi": ""
+    },
+    {
+      "text": "Panikos Heracleous, Yoshitaka Nakajima, Hiroshi Saruwatari, and Kiyohiro Shikano. 2005. A Tissue-Conductive Acoustic Sensor Applied in Speech Recognition for Privacy. In Proceedings of the 2005 Joint Conference on Smart Objects and Ambient Intelligence: Innovative Context-Aware Services: Usages and Technologies (Grenoble, France) (sOc-EUSAI \u201905). Association for Computing Machinery, New York, NY, USA, 93\u201397. https://doi.org/10.1145/1107548.1107577",
+      "doi": "10.1145/1107548.1107577"
+    },
+    {
+      "text": "Wei-Ning Hsu, Benjamin Bolte, Yao-Hung\u00a0Hubert Tsai, Kushal Lakhotia, Ruslan Salakhutdinov, and Abdelrahman Mohamed. 2021. HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units. IEEE/ACM Trans. Audio, Speech and Lang. Proc. 29 (jan 2021), 3451\u20133460. https://doi.org/10.1109/TASLP.2021.3122291",
+      "doi": "10.1109/TASLP.2021.3122291"
+    },
+    {
+      "text": "Wen-Chin Huang, Tomoki Hayashi, Shinji Watanabe, and Tomoki Toda. 2020. The Sequence-to-Sequence Baseline for the Voice Conversion Challenge 2020: Cascading ASR and TTS. https://doi.org/10.48550/ARXIV.2010.02434",
+      "doi": ""
+    },
+    {
+      "text": "Amazon.com Inc.2018. How Alexa keeps getting smarter. https://www.aboutamazon.com/devices/how-alexa-keeps-getting-smarter",
+      "doi": ""
+    },
+    {
+      "text": "Google Inc.2020. Google Cloud Speech-to-Text. https://cloud.google.com/speech-to-text.",
+      "doi": ""
+    },
+    {
+      "text": "Prolific inc.2014. Prolific. https://www.prolific.co",
+      "doi": ""
+    },
+    {
+      "text": "Philips Inc.2021. Fresh Air Mask Series 6000. https://www.philips.com.sg/c-p/ACM066_01/fresh-air-mask-series-6000.",
+      "doi": ""
+    },
+    {
+      "text": "Keith Ito and Linda Johnson. 2017. The LJ Speech Dataset. https://keithito.com/LJ-Speech-Dataset/.",
+      "doi": ""
+    },
+    {
+      "text": "jfsantos. 2019. mushraJS. https://github.com/jfsantos/mushraJS",
+      "doi": ""
+    },
+    {
+      "text": "Hirokazu Kameoka, Takuhiro Kaneko, Kou Tanaka, and Nobukatsu Hojo. 2018. StarGAN-VC: Non-parallel many-to-many voice conversion with star generative adversarial networks. https://doi.org/10.48550/ARXIV.1806.02169",
+      "doi": ""
+    },
+    {
+      "text": "Takuhiro Kaneko and Hirokazu Kameoka. 2017. Parallel-Data-Free Voice Conversion Using Cycle-Consistent Adversarial Networks. https://doi.org/10.48550/ARXIV.1711.11293",
+      "doi": ""
+    },
+    {
+      "text": "Arnav Kapur, Shreyas Kapur, and Pattie Maes. 2018. AlterEgo: A Personalized Wearable Silent Speech Interface. In 23rd International Conference on Intelligent User Interfaces (Tokyo, Japan) (IUI \u201918). ACM, 43\u201353. https://doi.org/10.1145/3172944.3172977",
+      "doi": "10.1145/3172944.3172977"
+    },
+    {
+      "text": "Naoki Kimura, Michinari Kono, and Jun Rekimoto. 2019. SottoVoce: An Ultrasound Imaging-Based Silent Speech Interaction Using Deep Neural Networks. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3290605.3300376",
+      "doi": "10.1145/3290605.3300376"
+    },
+    {
+      "text": "Jungil Kong, Jaehyeon Kim, and Jaekyoung Bae. 2020. HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis. https://doi.org/10.48550/ARXIV.2010.05646",
+      "doi": ""
+    },
+    {
+      "text": "Felix Kreuk, Adam Polyak, Jade Copet, Eugene Kharitonov, Tu-Anh Nguyen, Morgane Rivi\u00e8re, Wei-Ning Hsu, Abdelrahman Mohamed, Emmanuel Dupoux, and Yossi Adi. 2021. Textless Speech Emotion Conversion using Discrete and Decomposed Representations. https://doi.org/10.48550/ARXIV.2111.07402",
+      "doi": ""
+    },
+    {
+      "text": "Kushal Lakhotia, Evgeny Kharitonov, Wei-Ning Hsu, Yossi Adi, Adam Polyak, Benjamin Bolte, Tu-Anh Nguyen, Jade Copet, Alexei Baevski, Adelrahman Mohamed, and Emmanuel Dupoux. 2021. Generative Spoken Language Modeling from Raw Audio. https://doi.org/10.48550/ARXIV.2102.01192",
+      "doi": ""
+    },
+    {
+      "text": "Boon\u00a0Pang Lim. 2010. Computational differences between whispered and non-whispered speech, Ph.D. Thesis, University of Illinois Urbana-Champaign.",
+      "doi": ""
+    },
+    {
+      "text": "H. Malaviya, J. Shah, M. Patel, J. Munshi, and H.\u00a0A. Patil. 2020. Mspec-Net : Multi-Domain Speech Conversion Network. In ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 7764\u20137768.",
+      "doi": ""
+    },
+    {
+      "text": "Michael McAuliffe, Michaela Socolof, Sarah Mihuc, Michael Wagner, and Morgan Sonderegger. 2017. Montreal Forced Aligner: Trainable Text-Speech Alignment Using Kaldi. 498\u2013502. https://doi.org/10.21437/Interspeech.2017-1386",
+      "doi": ""
+    },
+    {
+      "text": "Leland McInnes, John Healy, and James Melville. 2018. UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction. https://doi.org/10.48550/ARXIV.1802.03426",
+      "doi": ""
+    },
+    {
+      "text": "Lisa\u00a0Lucks Mendel, Sungmin Lee, Monique Pousson, Chhayakanta Patro, Skylar McSorley, Bonny Banerjee, Shamima Najnin, and Masoumeh\u00a0Heidari Kapourchali. 2017. Corpus of deaf speech for acoustic and speech production research. The Journal of the Acoustical Society of America 142, (1)(2017), EL102. https://doi.org/10.1121/1.4994288",
+      "doi": ""
+    },
+    {
+      "text": "Marco\u00a0A. Oliveira. 2022. Machine Learning Approaches for Whisper to Normal Speech Conversion: A Survey. U.Porto Journal of Engineering 8, 2 (2022), 202\u2013212. https://doi.org/10.24840/2183-6493_008.002_0016",
+      "doi": ""
+    },
+    {
+      "text": "Vassil Panayotov, Guoguo Chen, Daniel Povey, and Sanjeev Khudanpur. 2015. Librispeech: An ASR corpus based on public domain audio books. In 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 5206\u20135210. https://doi.org/10.1109/ICASSP.2015.7178964",
+      "doi": ""
+    },
+    {
+      "text": "Santiago Pascual, Antonio Bonafonte, Joan Serr\u00e0, and Jose\u00a0A. Gonzalez. 2018. Whispered-to-voiced Alaryngeal Speech Conversion with Generative Adversarial Networks. https://doi.org/10.48550/ARXIV.1808.10687",
+      "doi": ""
+    },
+    {
+      "text": "Leonardo Pepino, Pablo Riera, and Luciana Ferrer. 2021. Emotion Recognition from Speech Using Wav2vec 2.0 Embeddings. (April 2021). arxiv:2104.03502\u00a0[cs.SD]",
+      "doi": ""
+    },
+    {
+      "text": "Manfred P\u030eutzer and William\u00a0J. Barry. 2016. Saarbruecken voice database. https://stimmdb.coli.uni-saarland.de",
+      "doi": ""
+    },
+    {
+      "text": "Kaizhi Qian, Yang Zhang, Shiyu Chang, Xuesong Yang, and Mark Hasegawa-Johnson. 2019. AutoVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss. In Proceedings of the 36th International Conference on Machine Learning(Proceedings of Machine Learning Research, Vol.\u00a097), Kamalika Chaudhuri and Ruslan Salakhutdinov (Eds.). PMLR, 5210\u20135219. https://proceedings.mlr.press/v97/qian19c.html",
+      "doi": ""
+    },
+    {
+      "text": "Jun Rekimoto. 2019. Homo Cyberneticus: The Era of Human-AI Integration. https://doi.org/10.48550/arXiv.1911.02637",
+      "doi": ""
+    },
+    {
+      "text": "Jun Rekimoto. 2022. DualVoice: Speech Interaction That Discriminates between Normal and Whispered Voice Input. In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (Bend, OR, USA) (UIST \u201922). Association for Computing Machinery, New York, NY, USA, Article 91, 10\u00a0pages. https://doi.org/10.1145/3526113.3545685",
+      "doi": "10.1145/3526113.3545685"
+    },
+    {
+      "text": "Yi Ren, Chenxu Hu, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao, and Tie-Yan Liu. 2020. FastSpeech 2: Fast and High-Quality End-to-End Text to Speech. https://doi.org/10.48550/ARXIV.2006.04558",
+      "doi": ""
+    },
+    {
+      "text": "Gabriel Reyes, Dingtian Zhang, Sarthak Ghosh, Pratik Shah, Jason Wu, Aman Parnami, Bailey Bercik, Thad Starner, Gregory\u00a0D. Abowd, and W.\u00a0Keith Edwards. 2016. Whoosh: Non-Voice Acoustics for Low-Cost, Hands-Free, and Rapid Input on Smartwatches. In Proceedings of the 2016 ACM International Symposium on Wearable Computers (ISWS\u201916). ACM, 120\u2013127. https://doi.org/10.1145/2971763.2971765",
+      "doi": "10.1145/2971763.2971765"
+    },
+    {
+      "text": "Himanshu Sahni, Abdelkareem Bedri, Gabriel Reyes, Pavleen Thukral, Zehua Guo, Thad Starner, and Maysam Ghovanloo. 2014. The Tongue and Ear Interface: A Wearable System for Silent Speech Recognition. In Proceedings of the 2014 ACM International Symposium on Wearable Computers (Seattle, Washington) (ISWC \u201914). ACM, 47\u201354. https://doi.org/10.1145/2634317.2634322",
+      "doi": "10.1145/2634317.2634322"
+    },
+    {
+      "text": "seeed studio. 2019. ReSpeaker USB Mic Array. https://wiki.seeedstudio.com/ReSpeaker-USB-Mic-Array/",
+      "doi": ""
+    },
+    {
+      "text": "Nirmesh Shah, Mihir Parmar, Neil Shah, and Hemant Patil. 2018. Novel MMSE DiscoGAN for Cross-Domain Whisper-to-Speech Conversion. Machine Learning. In Speech and Language Processing (MLSLP) Workshop.",
+      "doi": ""
+    },
+    {
+      "text": "Ke Sun, Chun Yu, Weinan Shi, Lan Liu, and Yuanchun Shi. 2018. Lip-Interact: Improving Mobile Device Interaction with Silent Speech Commands. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology(Berlin, Germany) (UIST \u201918). Association for Computing Machinery, New York, NY, USA, 581\u2013593. https://doi.org/10.1145/3242587.3242599",
+      "doi": "10.1145/3242587.3242599"
+    },
+    {
+      "text": "Lifa Sun, Kun Li, Hao Wang, Shiyin Kang, and Helen Meng. 2016. Phonetic posteriorgrams for many-to-one voice conversion without parallel data training. In 2016 IEEE International Conference on Multimedia and Expo (ICME). 1\u20136. https://doi.org/10.1109/ICME.2016.7552917",
+      "doi": ""
+    },
+    {
+      "text": "International\u00a0Telecommunication Union. 2013. BS.1534 : Method for the subjective assessment of intermediate quality level of audio systems. https://www.itu.int/rec/R-REC-BS.1534/en",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin van Niekerk, Marc-Andre Carbonneau, Julian Zaidi, Matthew Baas, Hugo Seute, and Herman Kamper. 2022. A Comparison of Discrete and Soft Speech Units for Improved Voice Conversion. In ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE. https://doi.org/10.1109/icassp43922.2022.9746484",
+      "doi": ""
+    },
+    {
+      "text": "Yuxuan Wang, R.\u00a0J. Skerry-Ryan, Daisy Stanton, Yonghui Wu, Ron\u00a0J. Weiss, Navdeep Jaitly, Zongheng Yang, Ying Xiao, Zhifeng Chen, Samy Bengio, Quoc\u00a0V. Le, Yannis Agiomyrgiannakis, Rob Clark, and Rif\u00a0A. Saurous. 2017. Tacotron: A Fully End-to-End Text-To-Speech Synthesis Model. CoRR abs/1703.10135(2017). arXiv:1703.10135http://arxiv.org/abs/1703.10135",
+      "doi": ""
+    },
+    {
+      "text": "Cheng Yi, Jianzhong Wang, Ning Cheng, Shiyu Zhou, and Bo Xu. 2020. Applying Wav2vec2.0 to Speech Recognition in Various Low-resource Languages. (Dec. 2020). arxiv:2012.12121\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "zeta chicken. 2017. toWhisper. https://github.com/zeta-chicken/toWhisper",
+      "doi": ""
+    },
+    {
+      "text": "Qiu-Shi Zhu, Long Zhou, Jie Zhang, Shu-Jie Liu, Yu-Chen Hu, and Li-Rong Dai. 2022. Robust Data2vec: Noise-robust Speech Representation Learning for ASR by Combining Regression and Improved Contrastive Learning. https://doi.org/10.48550/ARXIV.2210.15324",
+      "doi": ""
+    }
+  ]
+}

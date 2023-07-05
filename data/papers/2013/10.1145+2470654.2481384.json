@@ -1,0 +1,130 @@
+{
+  "doi": "10.1145/2470654.2481384",
+  "title": "Making touchscreen keyboards adaptive to keys, hand postures, and individuals: a hierarchical spatial backoff model approach",
+  "published": "2013-04-27",
+  "proctitle": "CHI '13: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+  "pages": "2775-2784",
+  "year": 2013,
+  "badges": [],
+  "abstract": "We propose a new approach for improving text entry accuracy on touchscreen keyboards by adapting the underlying spatial model to factors such as input hand postures, individuals, and target key positions. To combine these factors together, we introduce a hierarchical spatial backoff model (SBM) that consists of submodels with different levels of complexity. The most general model includes no adaptive factors, whereas the most specific model includes all three. Considering that in practice people may switch hand postures (e.g., from two-thumb to one-finger) to better suit a situation, and that the specific submodels may take time to train for each user, a specific submodel should be applied only if its corresponding input posture can be identified with confidence, and if the submodel has enough training data from the user. We introduce the backoff mechanism to fall back to a simpler model if either of these conditions are not met. We implemented a prototype system capable of reducing the language-model-independent error rate by 13.2% using an online posture classifier with 86.4% accuracy. Further improvements in error rate may be possible with even better posture classification.",
+  "authors": [
+    {
+      "name": "Ying Yin",
+      "institution": "Massachusetts Institute of Technology, Cambridge, Massachusetts, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81556458156",
+      "orcid": "missing"
+    },
+    {
+      "name": "Tom Yu Ouyang",
+      "institution": "Google, Inc., Mountain View, California, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81442610252",
+      "orcid": "missing"
+    },
+    {
+      "name": "Kurt Partridge",
+      "institution": "Google, Inc., Mountain View, California, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100558733",
+      "orcid": "missing"
+    },
+    {
+      "name": "Shumin Zhai",
+      "institution": "Google, Inc., Mountain View, California, USA",
+      "img": "/do/10.1145/contrib-81408591988/rel-imgonly/81408591988.jpg",
+      "acmid": "81408591988",
+      "orcid": "0000-0003-0752-2090"
+    }
+  ],
+  "references": [
+    {
+      "text": "Al Faraj, K., Mojahid, M., and Vigouroux, N. Bigkey: A virtual keyboard for mobile devices. In Human-Computer Interaction. Ambient, Ubiquitous and Intelligent Interaction, vol. 5612. Springer Berlin / Heidelberg, 2009, 3--10.  ",
+      "doi": "10.1007/978-3-642-02580-8_1"
+    },
+    {
+      "text": "Azenkot, S., and Zhai, S. Touch behavior with different postures on soft smart phone keyboards. In Proc. MobileHCI (2012).  ",
+      "doi": "10.1145/2371574.2371612"
+    },
+    {
+      "text": "Bao, P., Pierce, J., Whittaker, S., and Zhai, S. Smart phone use by non-mobile business users. In Proc. MobileHCI '11 (2011), 445--454.  ",
+      "doi": "10.1145/2037373.2037440"
+    },
+    {
+      "text": "Bellegarda, J., and Nahamoo, D. Tied mixture continuous parameter models for large vocabulary isolated speech recognition. In International Conference on Acoustics, Speech, and Signal Processing, vol. 1 (may 1989), 13--16.",
+      "doi": ""
+    },
+    {
+      "text": "Brewster, S., Chohan, F., and Brown, L. Tactile feedback for mobile interactions. In Proc. of CHI '07 (2007), 159--162.  ",
+      "doi": "10.1145/1240624.1240649"
+    },
+    {
+      "text": "Findlater, L., and Wobbrock, J. Personalized input: improving ten-finger touchscreen typing through automatic adaptation. In Proc. CHI '12 (2012), 815--824.  ",
+      "doi": "10.1145/2207676.2208520"
+    },
+    {
+      "text": "Goodman, J., Venolia, G., Steury, K., and Parker, C. Language modeling for soft keyboards. In Proc. IUI '02 (2002), 194--195.  ",
+      "doi": "10.1145/502716.502753"
+    },
+    {
+      "text": "Gunawardana, A., Paek, T., and Meek, C. Usability guided key-target resizing for soft keyboards. In Proc. IUI '10 (2010), 111--118.  ",
+      "doi": "10.1145/1719970.1719986"
+    },
+    {
+      "text": "Hoggan, E., Brewster, S. A., and Johnston, J. Investigating the effectiveness of tactile feedback for mobile touchscreens. In Proc. of CHI '08 (2008), 1573--1582.  ",
+      "doi": "10.1145/1357054.1357300"
+    },
+    {
+      "text": "Jameson, A., Gro\u00dfmann-Hutter, B., March, L., and Rummer, R. Creating an empirical basis for adaptation decisions. In IUI 2000: International Conference on Intelligent User Interfaces, H. Lieberman, Ed. ACM, 2000, 149--156.  ",
+      "doi": "10.1145/325737.325812"
+    },
+    {
+      "text": "Jameson, A., Sch\u00e4fer, R., Weis, T., Berthold, A., and Weyrath, T. Making systems sensitive to the user's time and working memory constraints. In Proceedings of the 4th international conference on Intelligent user interfaces, IUI '99 (1999), 79--86.  ",
+      "doi": "10.1145/291080.291094"
+    },
+    {
+      "text": "Katz, S. Estimation of probabilities from sparse data for the language model component of a speech recognizer. Acoustics, Speech and Signal Processing, IEEE Transactions on 35, 3 (mar 1987), 400--401.",
+      "doi": ""
+    },
+    {
+      "text": "Kristensson, P., and Zhai, S. Relaxing stylus typing precision by geometric pattern matching. In Proc. IUI '05 (2005), 151--158.  ",
+      "doi": "10.1145/1040830.1040867"
+    },
+    {
+      "text": "Lin, Y.-C., Chiang, T.-H., and Su, K.-Y. The effects of learning, parameter tying and model refinement for improving probabilistic tagging. Computer Speech and Language 9, 1 (1995), 37--61.",
+      "doi": ""
+    },
+    {
+      "text": "MacKenzie, I. S., and Zhang, S. X. The design and evaluation of a high-performance soft keyboard. In Proc. CHI '99 (1999), 25--31.  ",
+      "doi": "10.1145/302979.302983"
+    },
+    {
+      "text": "Magnien, L., Bouraoui, J. L., and Vigouroux, N. Mobile text input with soft keyboards: Optimization by means of visual clues. In MobileHCI '04, vol. 3160. Springer Berlin / Heidelberg, 2004, 197--218.",
+      "doi": ""
+    },
+    {
+      "text": "Rashid, D. R., and Smith, N. A. Relative keyboard input system. In Proc. IUI '08 (2008), 397--400.  ",
+      "doi": "10.1145/1378773.1378839"
+    },
+    {
+      "text": "Rudchenko, D., Paek, T., and Badger, E. Text text revolution: a game that improves text entry on mobile touchscreen keyboards. In Proc. the 9th international conference on Pervasive computing (2011), 206--213. ",
+      "doi": "10.5555/2021975.2021993"
+    },
+    {
+      "text": "Sato, M., Poupyrev, I., and Harrison, C. Touch\u00e9: Enhancing touch interaction on humans, screens, liquids, and everyday objects. In Proc. CHI '12 (2012).  ",
+      "doi": "10.1145/2207676.2207743"
+    },
+    {
+      "text": "Zhai, S., Hunter, M., and Smith, B. A. The metropolis keyboard - an exploration of quantitative techniques for virtual keyboard design. In Pro. UIST '00 (2000), 119--128.  ",
+      "doi": "10.1145/354401.354424"
+    },
+    {
+      "text": "Zhai, S., Sue, A., and Accot, J. Movement model, hits distribution and learning in virtual keyboarding. In Proc. of CHI '02 (2002), 17--24.  ",
+      "doi": "10.1145/503376.503381"
+    },
+    {
+      "text": "Zitouni, I. Backoff hierarchical class n-gram language models: effectiveness to model unseen events in speech recognition. Computer Speech and Language 21, 1 (2007), 88--104.",
+      "doi": ""
+    }
+  ]
+}

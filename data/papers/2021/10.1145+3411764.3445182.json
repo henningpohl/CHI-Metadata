@@ -1,0 +1,396 @@
+{
+  "doi": "10.1145/3411764.3445182",
+  "title": "HulaMove: Using Commodity IMU for Waist Interaction",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2021,
+  "badges": [],
+  "abstract": "We present HulaMove, a novel interaction technique that leverages the movement of the waist as a new eyes-free and hands-free input method for both the physical world and the virtual world. We first conducted a user study (N=12) to understand users\u2019 ability to control their waist. We found that users could easily discriminate eight shifting directions and two rotating orientations, and quickly confirm actions by returning to the original position (quick return). We developed a design space with eight gestures for waist interaction based on the results and implemented an IMU-based real-time system. Using a hierarchical machine learning model, our system could recognize waist gestures at an accuracy of 97.5%. Finally, we conducted a second user study (N=12) for usability testing in both real-world scenarios and virtual reality settings. Our usability study indicated that HulaMove significantly reduced interaction time by 41.8% compared to a touch screen method, and greatly improved users\u2019 sense of presence in the virtual world. This novel technique provides an additional input method when users\u2019 eyes or hands are busy, accelerates users\u2019 daily operations, and augments their immersive experience in the virtual world.",
+  "authors": [
+    {
+      "name": "Xuhai Xu",
+      "institution": "Information School University of Washington, United States",
+      "img": "/do/10.1145/contrib-99659534445/rel-imgonly/orson-uw-talk-head-small.png",
+      "acmid": "99659534445",
+      "orcid": "0000-0001-5930-3899"
+    },
+    {
+      "name": "Jiahao Li",
+      "institution": "University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702661",
+      "orcid": "missing"
+    },
+    {
+      "name": "Tianyi Yuan",
+      "institution": "Tsinghua University Department of Industrial Engineering, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701331",
+      "orcid": "missing"
+    },
+    {
+      "name": "Liang He",
+      "institution": "Computer Science & Engineering University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660661510",
+      "orcid": "missing"
+    },
+    {
+      "name": "Xin Liu",
+      "institution": "Paul G. Allen School of Computer Science & Engineering University of Washington, United States",
+      "img": "/do/10.1145/contrib-99659690509/rel-imgonly/xin_circle.jpg",
+      "acmid": "99659690509",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yukang Yan",
+      "institution": "Department of Computer Science and Technology Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659161020",
+      "orcid": "0000-0001-7515-3755"
+    },
+    {
+      "name": "Yuntao Wang",
+      "institution": "Global Innovation Exchange (GIX) Insitute Tsinghua University, China",
+      "img": "/do/10.1145/contrib-81490648565/rel-imgonly/d61c7b4b94334d25b2a55a58d9b700f.jpg",
+      "acmid": "81490648565",
+      "orcid": "0000-0002-4249-8893"
+    },
+    {
+      "name": "Yuanchun Shi",
+      "institution": "Department of Computer science and Technology Tsinghua University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100647319",
+      "orcid": "0000-0003-2273-6927"
+    },
+    {
+      "name": "Jennifer Mankoff",
+      "institution": "Allen School of Computer Science and Engineering University of Washington, United States",
+      "img": "/do/10.1145/contrib-81100650762/rel-imgonly/jenmankoff2.jpg",
+      "acmid": "81100650762",
+      "orcid": "0000-0001-9235-5324"
+    },
+    {
+      "name": "Anind K Dey",
+      "institution": "Information School University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100327371",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": ". 2020. Beat Saber - A popular VR game. https://beatsaber.com/.",
+      "doi": ""
+    },
+    {
+      "text": ". 2020. Nintendo Switch. https://www.nintendo.com/switch/.",
+      "doi": ""
+    },
+    {
+      "text": ". 2020. Ring Fit Adventure. https://ringfitadventure.nintendo.com/.",
+      "doi": ""
+    },
+    {
+      "text": ". 2020. Xbox One + Kinect. https://www.xbox.com/en-US/.",
+      "doi": ""
+    },
+    {
+      "text": "Takayuki Adachi, Masafumi Goseki, Keita Muratsu, Hiroshi Mizoguchi, Miki Namatame, Masanori Sugimoto, Fusako Kusunoki, Etsuji Yamaguchi, Shigenori Inagaki, and Yoshiaki Takeda. 2013. Human SUGOROKU: Full-Body Interaction System for Students to Learn Vegetation Succession. In Proceedings of the 12th International Conference on Interaction Design and Children (New York, New York, USA) (IDC \u201913). ACM, New York, NY, USA, 364\u2013367. https://doi.org/10.1145/2485760.2485830",
+      "doi": "10.1145/2485760.2485830"
+    },
+    {
+      "text": "Claas Ahlrichs, Albert Sam\u00e0, Michael Lawo, Joan Cabestany, Daniel Rodr\u00edguez-Mart\u00edn, Carlos P\u00e9rez-L\u00f3pez, Dean Sweeney, Leo\u00a0R Quinlan, Gear\u00f2id\u00a0\u00d2 Laighin, Timothy Counihan, 2016. Detecting freezing of gait with a tri-axial accelerometer in Parkinson\u2019s disease patients. Medical & biological engineering & computing 54, 1 (2016), 223\u2013233.",
+      "doi": ""
+    },
+    {
+      "text": "Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra, and Jorge\u00a0Luis Reyes-Ortiz. 2013. A public domain dataset for human activity recognition using smartphones.. In Esann, Vol.\u00a03. Esann, New York, NY, USA, 3.",
+      "doi": ""
+    },
+    {
+      "text": "Alvina Anjum and Muhammad\u00a0U Ilyas. 2013. Activity recognition using smartphone sensors. In 2013 ieee 10th consumer communications and networking conference (ccnc). IEEE, IEEE, New York, NY, USA, 914\u2013919.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Ashbrook, Carlos Tejada, Dhwanit Mehta, Anthony Jiminez, Goudam Muralitharam, Sangeeta Gajendra, and Ross Tallents. 2016. Bitey: An Exploration of Tooth Click Gestures for Hands-free User Interface Control. In Proceedings of the 18th International Conference on Human-Computer Interaction with Mobile Devices and Services (Florence, Italy) (MobileHCI \u201916). ACM, New York, NY, USA, 158\u2013169. https://doi.org/10.1145/2935334.2935389",
+      "doi": "10.1145/2935334.2935389"
+    },
+    {
+      "text": "Andreas Bulling, Ulf Blanke, and Bernt Schiele. 2014. A Tutorial on Human Activity Recognition Using Body-Worn Inertial Sensors. ACM Comput. Surv. 46, 3, Article 33 (Jan. 2014), 33\u00a0pages. https://doi.org/10.1145/2499621",
+      "doi": "10.1145/2499621"
+    },
+    {
+      "text": "Liwei Chan, Chi-Hao Hsieh, Yi-Ling Chen, Shuo Yang, Da-Yuan Huang, Rong-Hao Liang, and Bing-Yu Chen. 2015. Cyclops: Wearable and Single-Piece Full-Body Gesture Input Devices. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). ACM, New York, NY, USA, 3001\u20133009. https://doi.org/10.1145/2702123.2702464",
+      "doi": "10.1145/2702123.2702464"
+    },
+    {
+      "text": "Jay Chen, Karric Kwong, Dennis Chang, Jerry Luk, and Ruzena Bajcsy. 2006. Wearable sensors for reliable fall detection. In 2005 IEEE Engineering in Medicine and Biology 27th Annual Conference. IEEE, IEEE, New York, NY, USA, 3551\u20133554.",
+      "doi": ""
+    },
+    {
+      "text": "Xiang\u00a0\u201cAnthony\u201d Chen, Julia Schwarz, Chris Harrison, Jennifer Mankoff, and Scott Hudson. 2014. Around-Body Interaction: Sensing & Interaction Techniques for Proprioception-Enhanced Input with Mobile Devices. In Proceedings of the 16th International Conference on Human-Computer Interaction with Mobile Devices & Services (Toronto, ON, Canada) (MobileHCI \u201914). ACM, New York, NY, USA, 287\u2013290. https://doi.org/10.1145/2628363.2628402",
+      "doi": "10.1145/2628363.2628402"
+    },
+    {
+      "text": "Gabe Cohn, Daniel Morris, Shwetak Patel, and Desney Tan. 2012. Humantenna: Using the Body as an Antenna for Real-Time Whole-Body Interaction. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Austin, Texas, USA) (CHI \u201912). ACM, New York, NY, USA, 1901\u20131910. https://doi.org/10.1145/2207676.2208330",
+      "doi": "10.1145/2207676.2208330"
+    },
+    {
+      "text": "Christine Dierk, Sarah Sterman, Molly Jane\u00a0Pearce Nicholas, and Eric Paulos. 2018. H\u00e4irI\u00d6: Human Hair as Interactive Material. In Proceedings of the Twelfth International Conference on Tangible, Embedded, and Embodied Interaction(Stockholm, Sweden) (TEI \u201918). ACM, New York, NY, USA, 148\u2013157. https://doi.org/10.1145/3173225.3173232",
+      "doi": "10.1145/3173225.3173232"
+    },
+    {
+      "text": "Maiken\u00a0Hillerup Fogtmann, Jonas Fritsch, and Karen\u00a0Johanne Kortbek. 2008. Kinesthetic Interaction: Revealing the Bodily Potential in Interaction Design. In Proceedings of the 20th Australasian Conference on Computer-Human Interaction: Designing for Habitus and Habitat (Cairns, Australia) (OZCHI \u201908). ACM, New York, NY, USA, 89\u201396. https://doi.org/10.1145/1517744.1517770",
+      "doi": "10.1145/1517744.1517770"
+    },
+    {
+      "text": "Dustin Freeman, Nathan LaPierre, Fanny Chevalier, and Derek Reilly. 2013. Tweetris: A Study of Whole-Body Interaction during a Public Art Event. In Proceedings of the 9th ACM Conference on Creativity & Cognition (Sydney, Australia) (C&C \u201913). ACM, New York, NY, USA, 224\u2013233. https://doi.org/10.1145/2466627.2466650",
+      "doi": "10.1145/2466627.2466650"
+    },
+    {
+      "text": "Kathrin Gerling, Ian Livingston, Lennart Nacke, and Regan Mandryk. 2012. Full-Body Motion-Based Game Interaction for Older Adults. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Austin, Texas, USA) (CHI \u201912). ACM, New York, NY, USA, 1873\u20131882. https://doi.org/10.1145/2207676.2208324",
+      "doi": "10.1145/2207676.2208324"
+    },
+    {
+      "text": "Mayank Goel, Chen Zhao, Ruth Vinisha, and Shwetak\u00a0N. Patel. 2015. Tongue-in-Cheek: Using Wireless Signals to Enable Non-Intrusive and Flexible Facial Gestures Detection. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). ACM, New York, NY, USA, 255\u2013258. https://doi.org/10.1145/2702123.2702591",
+      "doi": "10.1145/2702123.2702591"
+    },
+    {
+      "text": "Piyush Gupta and Tim Dallas. 2014. Feature selection and activity recognition system using a single triaxial accelerometer. IEEE Transactions on Biomedical Engineering 61, 6 (2014), 1780\u20131786.",
+      "doi": ""
+    },
+    {
+      "text": "Sean Gustafson, Christian Holz, and Patrick Baudisch. 2011. Imaginary Phone: Learning Imaginary Interfaces by Transferring Spatial Memory from a Familiar Device. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology (Santa Barbara, California, USA) (UIST \u201911). ACM, New York, NY, USA, 283\u2013292. https://doi.org/10.1145/2047196.2047233",
+      "doi": "10.1145/2047196.2047233"
+    },
+    {
+      "text": "Sean\u00a0G. Gustafson, Bernhard Rabe, and Patrick\u00a0M. Baudisch. 2013. Understanding Palm-based Imaginary Interfaces: The Role of Visual and Tactile Cues when Browsing. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). ACM, New York, NY, USA, 889\u2013898. https://doi.org/10.1145/2470654.2466114",
+      "doi": "10.1145/2470654.2466114"
+    },
+    {
+      "text": "Chris Harrison, Shilpa Ramamurthy, and Scott\u00a0E. Hudson. 2012. On-body Interaction: Armed and Dangerous. In Proceedings of the Sixth International Conference on Tangible, Embedded and Embodied Interaction (Kingston, Ontario, Canada) (TEI \u201912). ACM, New York, NY, USA, 69\u201376. https://doi.org/10.1145/2148131.2148148",
+      "doi": "10.1145/2148131.2148148"
+    },
+    {
+      "text": "Sandra\u00a0G Hart and Lowell\u00a0E Staveland. 1988. Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research. In Advances in Psychology. Vol.\u00a052. Elsevier, New York, NY, USA, 139\u2013183.",
+      "doi": ""
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016. Deep residual learning for image recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. IEEE, New York, NY, USA, 770\u2013778.",
+      "doi": ""
+    },
+    {
+      "text": "Apiwat Henpraserttae, Surapa Thiemjarus, and Sanparith Marukatat. 2011. Accurate activity recognition using a mobile phone regardless of device orientation and location. In 2011 International Conference on Body Sensor Networks. IEEE, IEEE, New York, NY, USA, 41\u201346.",
+      "doi": "10.1109/BSN.2011.8"
+    },
+    {
+      "text": "Ken Hinckley, Seongkook Heo, Michel Pahud, Christian Holz, Hrvoje Benko, Abigail Sellen, Richard Banks, Kenton O\u2019Hara, Gavin Smyth, and William Buxton. 2016. Pre-touch sensing for mobile interaction. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 2869\u20132881.",
+      "doi": "10.1145/2858036.2858095"
+    },
+    {
+      "text": "Mads\u00a0F Hjorth, Jean-Philippe Chaput, Camilla\u00a0T Damsgaard, Stine-Mathilde Dalskov, Kim\u00a0F Michaelsen, Inge Tetens, and Anders Sj\u00f6din. 2012. Measure of sleep and physical activity by a single accelerometer: Can a waist-worn Actigraph adequately measure sleep in children?Sleep and Biological Rhythms 10, 4 (2012), 328\u2013335.",
+      "doi": ""
+    },
+    {
+      "text": "Da-Yuan Huang, Liwei Chan, Shuo Yang, Fan Wang, Rong-Hao Liang, De-Nian Yang, Yi-Ping Hung, and Bing-Yu Chen. 2016. DigitSpace: Designing Thumb-to-Fingers Touch Interfaces for One-Handed and Eyes-Free Interactions. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). ACM, New York, NY, USA, 1526\u20131537. https://doi.org/10.1145/2858036.2858483",
+      "doi": "10.1145/2858036.2858483"
+    },
+    {
+      "text": "Martin Hynes, Han Wang, and Liam Kilmartin. 2009. Off-the-shelf mobile handset environments for deploying accelerometer based gait and activity analysis algorithms. In 2009 Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE, IEEE, New York, NY, USA, 5187\u20135190.",
+      "doi": ""
+    },
+    {
+      "text": "Sergey Ioffe and Christian Szegedy. 2015. Batch normalization: Accelerating deep network training by reducing internal covariate shift. arXiv preprint 1, 1 (2015), 8.",
+      "doi": ""
+    },
+    {
+      "text": "Yasha Iravantchi, Yang Zhang, Evi Bernitsas, Mayank Goel, and Chris Harrison. 2019. Interferi: Gesture Sensing Using On-Body Acoustic Interferometry. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). ACM, New York, NY, USA, Article 276, 13\u00a0pages. https://doi.org/10.1145/3290605.3300506",
+      "doi": "10.1145/3290605.3300506"
+    },
+    {
+      "text": "Hsin-Liu\u00a0(Cindy) Kao, Artem Dementyev, Joseph\u00a0A. Paradiso, and Chris Schmandt. 2015. NailO: Fingernails As an Input Surface. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). ACM, New York, NY, USA, 3015\u20133018. https://doi.org/10.1145/2702123.2702572",
+      "doi": "10.1145/2702123.2702572"
+    },
+    {
+      "text": "Rushil Khurana, Nikola Banovic, and Kent Lyons. 2018. In only 3 minutes: perceived exertion limits of smartwatch use. In Proceedings of the 2018 ACM International Symposium on Wearable Computers. ACM, New York, NY, USA, 208\u2013211.",
+      "doi": "10.1145/3267242.3267285"
+    },
+    {
+      "text": "Takashi Kikuchi, Yuta Sugiura, Katsutoshi Masai, Maki Sugimoto, and Bruce\u00a0H. Thomas. 2017. EarTouch: Turning the Ear into an Input Surface. In Proceedings of the 19th International Conference on Human-Computer Interaction with Mobile Devices and Services (Vienna, Austria) (MobileHCI \u201917). ACM, New York, NY, USA, Article 27, 6\u00a0pages. https://doi.org/10.1145/3098279.3098538",
+      "doi": "10.1145/3098279.3098538"
+    },
+    {
+      "text": "Jin Kj\u00f6lberg. 2004. Designing Full Body Movement Interaction Using Modern Dance as a Starting Point. In Proceedings of the 5th Conference on Designing Interactive Systems: Processes, Practices, Methods, and Techniques (Cambridge, MA, USA) (DIS \u201904). ACM, New York, NY, USA, 353\u2013356. https://doi.org/10.1145/1013115.1013178",
+      "doi": "10.1145/1013115.1013178"
+    },
+    {
+      "text": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey\u00a0E. Hinton. 2017. ImageNet Classification with Deep Convolutional Neural Networks. In Commun. ACM. ACM, New York, NY, USA, 84\u201390. https://doi.org/10.1145/3065386",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer\u00a0R. Kwapisz, Gary\u00a0M. Weiss, and Samuel\u00a0A. Moore. 2011. Activity Recognition Using Cell Phone Accelerometers. SIGKDD Explor. Newsl. 12, 2 (March 2011), 74\u201382. https://doi.org/10.1145/1964897.1964918",
+      "doi": "10.1145/1964897.1964918"
+    },
+    {
+      "text": "Chen Liang, Chun Yu, Xiaoying Wei, Xuhai Xu, Yongquan Hu, Yuntao Wang, and Yuanchun Shi. 2021. Auth+Track: Enabling Authentication Free Interaction on Smartphone by Continuous User Tracking. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Tokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3411764.3445624",
+      "doi": "10.1145/3411764.3445624"
+    },
+    {
+      "text": "Lian Loke and Toni Robertson. 2013. Moving and Making Strange: An Embodied Approach to Movement-Based Interaction Design. ACM Trans. Comput.-Hum. Interact. 20, 1, Article 7 (April 2013), 25\u00a0pages. https://doi.org/10.1145/2442106.2442113",
+      "doi": "10.1145/2442106.2442113"
+    },
+    {
+      "text": "Charles\u00a0E McCulloch and John\u00a0M Neuhaus. 2005. Generalized linear mixed models. Encyclopedia of Biostatistics 4 (2005), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Stuart McGill. 2010. Core training: Evidence translating to better performance and injury prevention. Strength & Conditioning Journal 32, 3 (2010), 33\u201346.",
+      "doi": ""
+    },
+    {
+      "text": "Joan Mora-Guiard, Ciera Crowell, Narcis Pares, and Pamela Heaton. 2017. Sparking social initiation behaviors in children with Autism through full-body Interaction. International Journal of Child-Computer Interaction 11 (2017), 62\u201371.",
+      "doi": ""
+    },
+    {
+      "text": "Jafet Morales and David Akopian. 2017. Physical activity recognition by smartphones, a survey. Biocybernetics and Biomedical Engineering 37, 3 (2017), 388\u2013400.",
+      "doi": ""
+    },
+    {
+      "text": "Florian\u00a0\u201dFloyd\u201d Mueller, Richard Byrne, Josh Andres, and Rakesh Patibanda. 2018. Experiencing the Body as Play. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173784",
+      "doi": "10.1145/3173574.3173784"
+    },
+    {
+      "text": "Jawad Nagi, Frederick Ducatelle, Gianni\u00a0A Di\u00a0Caro, Dan Cire\u015fan, Ueli Meier, Alessandro Giusti, Farrukh Nagi, J\u00fcrgen Schmidhuber, and Luca\u00a0Maria Gambardella. 2011. Max-pooling convolutional neural networks for vision-based hand gesture recognition. In 2011 IEEE International Conference on Signal and Image Processing Applications (ICSIPA). IEEE, IEEE, New York, NY, USA, 342\u2013347. https://doi.org/10.1109/ICSIPA.2011.6144164",
+      "doi": ""
+    },
+    {
+      "text": "Vinod Nair and Geoffrey\u00a0E. Hinton. 2010. Rectified Linear Units Improve Restricted Boltzmann Machines. In Proceedings of the 27th International Conference on International Conference on Machine Learning (Haifa, Israel) (ICML\u201910). Omnipress, Madison, WI, USA, 807\u2013814.",
+      "doi": "10.5555/3104322.3104425"
+    },
+    {
+      "text": "Toni Pakkanen and Roope Raisamo. 2004. Appropriateness of Foot Interaction for Non-accurate Spatial Tasks. In CHI \u201904 Extended Abstracts on Human Factors in Computing Systems (Vienna, Austria) (CHI EA \u201904). ACM, New York, NY, USA, 1123\u20131126. https://doi.org/10.1145/985921.986004",
+      "doi": "10.1145/985921.986004"
+    },
+    {
+      "text": "Toni Pakkanen and Roope Raisamo. 2004. Appropriateness of foot interaction for non-accurate spatial tasks. In CHI\u201904 extended abstracts on Human factors in computing systems. ACM, New York, NY, USA, 1123\u20131126.",
+      "doi": ""
+    },
+    {
+      "text": "Gonzalo Ramos, Matthew Boulos, and Ravin Balakrishnan. 2004. Pressure Widgets. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vienna, Austria) (CHI \u201904). ACM, New York, NY, USA, 487\u2013494. https://doi.org/10.1145/985692.985754",
+      "doi": "10.1145/985692.985754"
+    },
+    {
+      "text": "Deboleena Roy, Priyadarshini Panda, and Kaushik Roy. 2020. Tree-CNN: a hierarchical deep convolutional neural network for incremental learning. Neural Networks 121(2020), 148\u2013160.",
+      "doi": "10.1016/j.neunet.2019.09.010"
+    },
+    {
+      "text": "Chris Salem and Shumin Zhai. 1997. An Isometric Tongue Pointing Device. In Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201997). ACM, New York, NY, USA, 538\u2013539. https://doi.org/10.1145/258549.259021",
+      "doi": "10.1145/258549.259021"
+    },
+    {
+      "text": "Kimitake Sato and Monique Mokha. 2009. Does core strength training influence running kinetics, lower-extremity stability, and 5000-M performance in runners?The Journal of Strength & Conditioning Research 23, 1 (2009), 133\u2013140.",
+      "doi": ""
+    },
+    {
+      "text": "Christian Sch\u00f6nauer, Thomas Pintaric, and Hannes Kaufmann. 2011. Full Body Interaction for Serious Games in Motor Rehabilitation. In Proceedings of the 2nd Augmented Human International Conference (Tokyo, Japan) (AH \u201911). ACM, New York, NY, USA, Article 4, 8\u00a0pages. https://doi.org/10.1145/1959826.1959830",
+      "doi": "10.1145/1959826.1959830"
+    },
+    {
+      "text": "Jeremy Scott, David Dearman, Koji Yatani, and Khai\u00a0N. Truong. 2010. Sensing Foot Gestures from the Pocket. In Proceedings of the 23nd Annual ACM Symposium on User Interface Software and Technology (New York, New York, USA) (UIST \u201910). ACM, New York, NY, USA, 199\u2013208. https://doi.org/10.1145/1866029.1866063",
+      "doi": "10.1145/1866029.1866063"
+    },
+    {
+      "text": "Ivan\u00a0W Selesnick and C\u00a0Sidney Burrus. 1998. Generalized digital Butterworth filter design. IEEE Transactions on signal processing 46, 6 (1998), 1688\u20131694.",
+      "doi": "10.1109/78.678493"
+    },
+    {
+      "text": "Marcos Serrano, Barrett\u00a0M. Ens, and Pourang\u00a0P. Irani. 2014. Exploring the Use of Hand-to-face Input for Interacting with Head-worn Displays. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). ACM, New York, NY, USA, 3181\u20133190. https://doi.org/10.1145/2556288.2556984",
+      "doi": "10.1145/2556288.2556984"
+    },
+    {
+      "text": "Muhammad Shoaib, Stephan Bosch, Ozlem\u00a0Durmaz Incel, Hans Scholten, and Paul\u00a0JM Havinga. 2014. Fusion of smartphone motion sensors for physical activity recognition. Sensors 14, 6 (2014), 10146\u201310176.",
+      "doi": ""
+    },
+    {
+      "text": "Muhammad Shoaib, Stephan Bosch, Ozlem\u00a0Durmaz Incel, Hans Scholten, and Paul\u00a0JM Havinga. 2015. A survey of online activity recognition using mobile phones. Sensors 15, 1 (2015), 2059\u20132085.",
+      "doi": ""
+    },
+    {
+      "text": "Misha Sra, Xuhai Xu, and Pattie Maes. 2018. BreathVR: Leveraging Breathing As a Directly Controlled Interface for Virtual Reality Games. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). ACM, New York, NY, USA, Article 340, 12\u00a0pages. https://doi.org/10.1145/3173574.3173914",
+      "doi": "10.1145/3173574.3173914"
+    },
+    {
+      "text": "Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. 2014. Dropout: a simple way to prevent neural networks from overfitting. The Journal of Machine Learning Research 15, 1 (2014), 1929\u20131958.",
+      "doi": "10.5555/2627435.2670313"
+    },
+    {
+      "text": "Lee Stearns, Uran Oh, Leah Findlater, and Jon\u00a0E. Froehlich. 2018. TouchCam: Realtime Recognition of Location-Specific On-Body Gestures to Support Users with Visual Impairments. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 1, 4, Article 164 (Jan. 2018), 23\u00a0pages. https://doi.org/10.1145/3161416",
+      "doi": "10.1145/3161416"
+    },
+    {
+      "text": "Lee Stearns, Uran Oh, Leah Findlater, and Jon\u00a0E. Froehlich. 2018. TouchCam: Realtime Recognition of Location-Specific On-Body Gestures to Support Users with Visual Impairments. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 1, 4, Article 164 (Jan. 2018), 23\u00a0pages. https://doi.org/10.1145/3161416",
+      "doi": "10.1145/3161416"
+    },
+    {
+      "text": "Ke Sun, Chun Yu, Weinan Shi, Lan Liu, and Yuanchun Shi. 2018. Lip-interact: Improving mobile device interaction with silent speech commands. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology. ACM, New York, NY, USA, 581\u2013593.",
+      "doi": "10.1145/3242587.3242599"
+    },
+    {
+      "text": "Jacinto Vasconcelos-Raposo, Maximino Bessa, Miguel Melo, Luis Barbosa, Rui Rodrigues, Carla\u00a0Maria Teixeira, Luciana Cabral, and Ant\u00f3nio\u00a0Augusto Sousa. 2016. Adaptation and validation of the Igroup presence questionnaire (IPQ) in a Portuguese sample. Presence: Teleoperators and virtual environments 25, 3(2016), 191\u2013203.",
+      "doi": ""
+    },
+    {
+      "text": "Eduardo Velloso, Dominik Schmidt, Jason Alexander, Hans Gellersen, and Andreas Bulling. 2015. The feet in human\u2013computer interaction: A survey of foot-based interaction. ACM Computing Surveys (CSUR) 48, 2 (2015), 1\u201335.",
+      "doi": "10.1145/2816455"
+    },
+    {
+      "text": "Julie Wagner, Mathieu Nancel, Sean\u00a0G. Gustafson, Stephane Huot, and Wendy\u00a0E. Mackay. 2013. Body-Centric Design Space for Multi-Surface Interaction. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). ACM, New York, NY, USA, 1299\u20131308. https://doi.org/10.1145/2470654.2466170",
+      "doi": "10.1145/2470654.2466170"
+    },
+    {
+      "text": "Cheng-Yao Wang, Min-Chieh Hsiu, Po-Tsung Chiu, Chiao-Hui Chang, Liwei Chan, Bing-Yu Chen, and Mike\u00a0Y. Chen. 2015. PalmGesture: Using Palms As Gesture Interfaces for Eyes-free Input. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (Copenhagen, Denmark) (MobileHCI \u201915). ACM, New York, NY, USA, 217\u2013226. https://doi.org/10.1145/2785830.2785885",
+      "doi": "10.1145/2785830.2785885"
+    },
+    {
+      "text": "Ruolin Wang, Chun Yu, Xing-Dong Yang, Weijie He, and Yuanchun Shi. 2019. EarTouch: Facilitating Smartphone Use for Visually Impaired People in Mobile and Public Scenarios. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). ACM, New York, NY, USA, Article 24, 13\u00a0pages. https://doi.org/10.1145/3290605.3300254",
+      "doi": "10.1145/3290605.3300254"
+    },
+    {
+      "text": "Martin Weigel, Aditya\u00a0Shekhar Nittala, Alex Olwal, and J\u00fcrgen Steimle. 2017. SkinMarks: Enabling Interactions on Body Landmarks Using Conformal Skin Electronics. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). ACM, New York, NY, USA, 3095\u20133105. https://doi.org/10.1145/3025453.3025704",
+      "doi": "10.1145/3025453.3025704"
+    },
+    {
+      "text": "Wenge Xu, Hai-Ning Liang, Yuxuan Zhao, Difeng Yu, and Diego Monteiro. 2019. DMove: Directional Motion-Based Interaction for Augmented Reality Head-Mounted Displays. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300674",
+      "doi": "10.1145/3290605.3300674"
+    },
+    {
+      "text": "Xuhai Xu, Alexandru Dancu, Pattie Maes, and Suranga Nanayakkara. 2018. Hand Range Interface: Information Always at Hand with a Body-centric Mid-air Input Surface. In Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services (Barcelona, Spain) (MobileHCI \u201918). ACM, New York, NY, USA, Article 5, 12\u00a0pages. https://doi.org/10.1145/3229434.3229449",
+      "doi": "10.1145/3229434.3229449"
+    },
+    {
+      "text": "Xuhai Xu, Haitian Shi, Xin Yi, WenJia Liu, Yukang Yan, Yuanchun Shi, Alex Mariakakis, Jennifer Mankoff, and Anind\u00a0K. Dey. 2020. EarBuddy: Enabling On-Face Interaction via Wireless Earbuds. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376836",
+      "doi": "10.1145/3313831.3376836"
+    },
+    {
+      "text": "Xuhai Xu, Chun Yu, Anind\u00a0K. Dey, and Jennifer Mankoff. 2019. Clench Interface: Novel Biting Input Techniques. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). ACM, New York, NY, USA, Article 275, 12\u00a0pages. https://doi.org/10.1145/3290605.3300505",
+      "doi": "10.1145/3290605.3300505"
+    },
+    {
+      "text": "Yukang Yan, Chun Yu, Xiaojuan Ma, Shuai Huang, Hasan Iqbal, and Yuanchun Shi. 2018. Eyes-free target acquisition in interaction space around the body for virtual reality. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201313.",
+      "doi": "10.1145/3173574.3173616"
+    },
+    {
+      "text": "Yukang Yan, Chun Yu, Wengrui Zheng, Ruining Tang, Xuhai Xu, and Yuanchun Shi. 2020. FrownOnError: Interrupting Responses from Smart Speakers by Facial Expressions. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). ACM, New York, NY, USA, 14. https://doi.org/10.1145/3313831.3376810",
+      "doi": "10.1145/3313831.3376810"
+    },
+    {
+      "text": "Che-Chang Yang and Yeh-Liang Hsu. 2010. A review of accelerometry-based wearable motion detectors for physical activity monitoring. Sensors 10, 8 (2010), 7772\u20137788.",
+      "doi": ""
+    },
+    {
+      "text": "Cheng Zhang, Qiuyue Xue, Anandghan Waghmare, Ruichen Meng, Sumeet Jain, Yizeng Han, Xinyu Li, Kenneth Cunefare, Thomas Ploetz, Thad Starner, Omer Inan, and Gregory\u00a0D. Abowd. 2018. FingerPing: Recognizing Fine-grained Hand Poses Using Active Acoustic On-body Sensing. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). ACM, New York, NY, USA, Article 437, 10\u00a0pages. https://doi.org/10.1145/3173574.3174011",
+      "doi": "10.1145/3173574.3174011"
+    }
+  ]
+}

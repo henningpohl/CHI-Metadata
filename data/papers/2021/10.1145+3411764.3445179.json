@@ -1,0 +1,356 @@
+{
+  "doi": "10.1145/3411764.3445179",
+  "title": "Learning to Automate Chart Layout Configurations Using Crowdsourced Paired Comparison",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-13",
+  "year": 2021,
+  "badges": [],
+  "abstract": "We contribute a method to automate parameter configurations for chart layouts by learning from human preferences. Existing charting tools usually determine the layout parameters using predefined heuristics, producing sub-optimal layouts. People can repeatedly adjust multiple parameters (e.g., chart size, gap) to achieve visually appealing layouts. However, this trial-and-error process is unsystematic and time-consuming, without a guarantee of improvement. To address this issue, we develop Layout Quality Quantifier (LQ2), a machine learning model that learns to score chart layouts from paired crowdsourcing data. Combined with optimization techniques, LQ2 recommends layout parameters that improve the charts\u2019 layout quality. We apply LQ2 on bar charts and conduct user studies to evaluate its effectiveness by examining the quality of layouts it produces. Results show that LQ2 can generate more visually appealing layouts than both laypeople and baselines. This work demonstrates the feasibility and usages of quantifying human preferences and aesthetics for chart layouts.",
+  "authors": [
+    {
+      "name": "Aoyu Wu",
+      "institution": "Department of Computer Science and Engineering Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659527249",
+      "orcid": "0000-0001-9187-9265"
+    },
+    {
+      "name": "Liwenhan Xie",
+      "institution": "Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701302",
+      "orcid": "0000-0002-2601-6313"
+    },
+    {
+      "name": "Bongshin Lee",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81409593205",
+      "orcid": "0000-0002-4217-627X"
+    },
+    {
+      "name": "Yun Wang",
+      "institution": "Microsoft Research Asia, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702104",
+      "orcid": "0000-0003-0468-4043"
+    },
+    {
+      "name": "Weiwei Cui",
+      "institution": "Microsoft Research Asia, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100228981",
+      "orcid": "missing"
+    },
+    {
+      "name": "Huamin Qu",
+      "institution": "Department of Computer Science and Engineering The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100337801",
+      "orcid": "0000-0002-3344-9694"
+    }
+  ],
+  "references": [
+    {
+      "text": "Satyajith Amaran, Nikolaos\u00a0V Sahinidis, Bikram Sharda, and Scott\u00a0J Bury. 2016. Simulation optimization: a review of algorithms and applications. Annals of Operations Research 240, 1 (2016), 351\u2013380. https://doi.org/10.1007/s10479-015-2019-x",
+      "doi": ""
+    },
+    {
+      "text": "Leilani Battle, Peitong Duan, Zachery Miranda, Dana Mukusheva, Remco Chang, and Michael Stonebraker. 2018. Beagle: Automated extraction and interpretation of visualizations from the web. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u20138. https://doi.org/10.1145/3173574.3174168",
+      "doi": "10.1145/3173574.3174168"
+    },
+    {
+      "text": "Michael Behrisch, Michael Blumenschein, Nam\u00a0Wook Kim, Lin Shao, Mennatallah El-Assady, Johannes Fuchs, Daniel Seebacher, Alexandra Diehl, Ulrik Brandes, Hanspeter Pfister, 2018. Quality metrics for information visualization. In Computer Graphics Forum, Vol.\u00a037. Wiley Online Library, Hoboken, NJ, USA, 625\u2013662. https://doi.org/10.1111/cgf.13446",
+      "doi": ""
+    },
+    {
+      "text": "Rita Borgo, Luana Micallef, Benjamin Bach, Fintan McGee, and Bongshin Lee. 2018. Information visualization evaluation using crowdsourcing. In Computer Graphics Forum, Vol.\u00a037. Wiley Online Library, Hoboken, NJ, USA, 573\u2013595. https://doi.org/10.1111/cgf.13444",
+      "doi": ""
+    },
+    {
+      "text": "Michelle\u00a0A Borkin, Azalea\u00a0A Vo, Zoya Bylinskii, Phillip Isola, Shashank Sunkavalli, Aude Oliva, and Hanspeter Pfister. 2013. What makes a visualization memorable?IEEE Transactions on Visualization and Computer Graphics 19, 12(2013), 2306\u20132315. https://doi.org/10.1109/TVCG.2013.234",
+      "doi": ""
+    },
+    {
+      "text": "Ralph\u00a0Allan Bradley and Milton\u00a0E Terry. 1952. Rank analysis of incomplete block designs: I. The method of paired comparisons. Biometrika 39, 3/4 (1952), 324\u2013345.",
+      "doi": ""
+    },
+    {
+      "text": "Zoya Bylinskii, Nam\u00a0Wook Kim, Peter O\u2019Donovan, Sami Alsheikh, Spandan Madan, Hanspeter Pfister, Fredo Durand, Bryan Russell, and Aaron Hertzmann. 2017. Learning visual importance for graphic designs and data visualizations. In Proc. of the Annual Symposium on User Interface Software and Technology (UIST). ACM, NY, USA, 57\u201369. https://doi.org/10.1145/3126594.3126653",
+      "doi": "10.1145/3126594.3126653"
+    },
+    {
+      "text": "Barbara\u00a0A Carkenord. 2009. Seven steps to mastering business analysis. J. Ross Publishing, FL, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Nick Cawthon and Andrew\u00a0Vande Moere. 2007. The effect of aesthetic on the usability of data visualization. In Proc. of the International Conference Information Visualization (IV). IEEE, NY, USA, 637\u2013648. https://doi.org/10.1109/IV.2007.147",
+      "doi": "10.1109/IV.2007.147"
+    },
+    {
+      "text": "Xi Chen, Wei Zeng, Yanna Lin, Hayder\u00a0Mahdi Al-maneea, Jonathan Roberts, and Remco Chang. 2020. Composition and Configuration Patterns in Multiple-View Visualizations. arxiv:2007.15407\u00a0[cs.HC]",
+      "doi": ""
+    },
+    {
+      "text": "Zhutian Chen, Wai Tong, Qianwen Wang, Benjamin Bach, and Huamin Qu. 2020. Augmenting Static Visualizations with PapARVis Designer. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376436",
+      "doi": "10.1145/3313831.3376436"
+    },
+    {
+      "text": "Zhutian Chen, Yun Wang, Qianwen Wang, Yong Wang, and Huamin Qu. 2019. Towards Automated Infographic Design: Deep Learning-based Auto-Extraction of Extensible Timeline. IEEE Transactions on Visualization and Computer Graphics 26, 1(2019), 917\u2013926. https://doi.org/10.1109/TVCG.2019.2934810",
+      "doi": ""
+    },
+    {
+      "text": "Sumit Chopra, Raia Hadsell, and Yann LeCun. 2005. Learning a similarity metric discriminatively, with application to face verification. In Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vol.\u00a01. IEEE, NY, USA, 539\u2013546. https://doi.org/10.1109/CVPR.2005.202",
+      "doi": "10.1109/CVPR.2005.202"
+    },
+    {
+      "text": "Victor Dibia and \u00c7a\u011fatay Demiralp. 2019. Data2Vis: Automatic generation of data visualizations using sequence-to-sequence recurrent neural networks. IEEE Computer Graphics and Applications 39, 5 (2019), 33\u201346. https://doi.org/10.1109/MCG.2019.2924636",
+      "doi": "10.1109/MCG.2019.2924636"
+    },
+    {
+      "text": "Isaac Dinner, Eric\u00a0J Johnson, Daniel\u00a0G Goldstein, and Kaiya Liu. 2011. Partitioning default effects: why people choose not to choose. Journal of Experimental Psychology: Applied 17, 4 (2011), 332. https://doi.org/10.1037/a0024354",
+      "doi": ""
+    },
+    {
+      "text": "Karen Dion, Ellen Berscheid, and Elaine Walster. 1972. What is beautiful is good.Journal of personality and social psychology 24, 3(1972), 285. https://doi.org/10.1037/h0033731",
+      "doi": ""
+    },
+    {
+      "text": "Gustav\u00a0Theodor Fechner. 1860. Elemente der psychophysik. Vol.\u00a02. Breitkopf u. H\u00e4rtel, Germany.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Few and Perceptual Edge. 2011. The chartjunk debate. Retrieved August 20, 2020 from https://www.perceptualedge.com/articles/visual_business_intelligence/the_chartjunk_debate.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Few and Perceptual Edge. 2016. Bar Widths and the Spaces in Between. Retrieved August 20, 2020 from https://www.perceptualedge.com/articles/visual_business_intelligence/bar_widths.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Xin Fu, Yun Wang, Haoyu Dong, Weiwei Cui, and Haidong Zhang. 2019. Visualization Assessment: A Machine Learning Approach. In Proc. of the IEEE Visualization Conference (VIS). IEEE, NY, USA, 126\u2013130. https://doi.org/10.1109/VISUAL.2019.8933570",
+      "doi": ""
+    },
+    {
+      "text": "Fei Gao, Dacheng Tao, Xinbo Gao, and Xuelong Li. 2015. Learning to rank for blind image quality assessment. IEEE Transactions on Neural Networks and Learning Systems 26, 10(2015), 2275\u20132290. https://doi.org/10.1109/TIP.2017.2708503",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Haehn, James Tompkin, and Hanspeter Pfister. 2018. Evaluating \u2018graphical perception\u2019with CNNs. IEEE Transactions on Visualization and Computer Graphics 25, 1(2018), 641\u2013650. https://doi.org/10.1109/TVCG.2018.2865138",
+      "doi": "10.1109/TVCG.2018.2865138"
+    },
+    {
+      "text": "Hammad Haleem, Yong Wang, Abishek Puri, Sahil Wadhwa, and Huamin Qu. 2019. Evaluating the readability of force directed graph layouts: A deep learning approach. Computer Graphics and Applications 39, 4 (2019), 40\u201353. https://doi.org/10.1109/MCG.2018.2881501",
+      "doi": ""
+    },
+    {
+      "text": "Lane Harrison, Katharina Reinecke, and Remco Chang. 2015. Infographic aesthetics: Designing for the first impression. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1187\u20131190. https://doi.org/10.1145/2702123.2702545",
+      "doi": "10.1145/2702123.2702545"
+    },
+    {
+      "text": "Jeffrey Heer and Maneesh Agrawala. 2006. Multi-scale banking to 45 degrees. IEEE Transactions on Visualization and Computer Graphics 12, 5(2006), 701\u2013708. https://doi.org/10.1109/TVCG.2006.163",
+      "doi": "10.1109/TVCG.2006.163"
+    },
+    {
+      "text": "Jeffrey Heer, Nicholas Kong, and Maneesh Agrawala. 2009. Sizing the horizon: the effects of chart size and layering on the graphical perception of time series visualizations. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1303\u20131312. https://doi.org/10.1145/1518701.1518897",
+      "doi": "10.1145/1518701.1518897"
+    },
+    {
+      "text": "Jane Hoffswell, Wilmot Li, and Zhicheng Liu. 2020. Techniques for Flexible Responsive Visualization Design. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376777",
+      "doi": "10.1145/3313831.3376777"
+    },
+    {
+      "text": "Aspen\u00a0K Hopkins, Michael Correll, and Arvind Satyanarayan. 2020. VisuaLint: Sketchy In Situ Annotations of Chart Construction Errors. Computer Graphics Forum 39, 3 (2020), 219\u2013228. https://doi.org/10.1111/cgf.13975",
+      "doi": ""
+    },
+    {
+      "text": "Kevin Hu, Michiel\u00a0A Bakker, Stephen Li, Tim Kraska, and C\u00e9sar Hidalgo. 2019. VizML: A Machine Learning Approach to Visualization Recommendation. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300358",
+      "doi": "10.1145/3290605.3300358"
+    },
+    {
+      "text": "Kevin Hu, Snehalkumar\u2019Neil\u2019S Gaikwad, Madelon Hulsebos, Michiel\u00a0A Bakker, Emanuel Zgraggen, C\u00e9sar Hidalgo, Tim Kraska, Guoliang Li, Arvind Satyanarayan, and \u00c7a\u011fatay Demiralp. 2019. Viznet: Towards a large-scale visualization learning and benchmarking repository. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300892",
+      "doi": "10.1145/3290605.3300892"
+    },
+    {
+      "text": "Thorsten Joachims. 2002. Optimizing search engines using clickthrough data. In Proc. of the ACM International Conference on Knowledge Discovery and Data Mining (SIGKDD). ACM, NY, USA, 133\u2013142. https://doi.org/10.1145/775047.775067",
+      "doi": "10.1145/775047.775067"
+    },
+    {
+      "text": "Angelos Katharopoulos and Fran\u00e7ois Fleuret. 2018. Not all samples are created equal: Deep learning with importance sampling. In Proc. of the International Conference on Machine Learning (ICML). PMLR, Georgia, USA, 2525\u20132534. http://proceedings.mlr.press/v80/katharopoulos18a.html",
+      "doi": ""
+    },
+    {
+      "text": "Helen Kennedy and Rosemary\u00a0Lucy Hill. 2018. The feeling of numbers: Emotions in everyday engagements with data and their visualisation. Sociology 52, 4 (2018), 830\u2013848. https://doi.org/10.1177/0038038516674675",
+      "doi": ""
+    },
+    {
+      "text": "Nam\u00a0Wook Kim, Zoya Bylinskii, Michelle\u00a0A Borkin, Krzysztof\u00a0Z Gajos, Aude Oliva, Fredo Durand, and Hanspeter Pfister. 2017. BubbleView: an interface for crowdsourcing image importance maps and tracking visual attention. ACM Transactions on Computer-Human Interaction (TOCHI) 24, 5(2017), 1\u201340. https://doi.org/10.1145/3131275",
+      "doi": "10.1145/3131275"
+    },
+    {
+      "text": "Shu Kong, Xiaohui Shen, Zhe Lin, Radomir Mech, and Charless Fowlkes. 2016. Photo aesthetics ranking network with attributes and content adaptation. In Proc. of the European Conference on Computer Vision. Springer, London, UK, 662\u2013679. https://doi.org/10.1007/978-3-319-46448-0_40",
+      "doi": ""
+    },
+    {
+      "text": "Mucahid Kutlu, Tyler McDonnell, Yassmine Barkallah, Tamer Elsayed, and Matthew Lease. 2018. Crowd vs. expert: What can relevance judgment rationales teach us about assessor disagreement?. In Proc. of the International Conference on Research & Development in Information Retrieval (SIGIR). ACM, NY, USA, 805\u2013814. https://doi.org/10.1145/3209978.3210033",
+      "doi": "10.1145/3209978.3210033"
+    },
+    {
+      "text": "Chufan Lai, Zhixian Lin, Ruike Jiang, Yun Han, Can Liu, and Xiaoru Yuan. 2020. Automatic Annotation Synchronizing with Textual Description for Visualization. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376443",
+      "doi": "10.1145/3313831.3376443"
+    },
+    {
+      "text": "Ann Langley. 1995. Between\u2019paralysis by analysis\u2019 and\u2019extinction by instinct\u2019. MIT Sloan Management Review 36, 3 (1995), 63. https://doi.org/10.1016/0024-6301(95)94294-9",
+      "doi": ""
+    },
+    {
+      "text": "Po-shen Lee, Jevin\u00a0D West, and Bill Howe. 2017. Viziometrics: Analyzing visual information in the scientific literature. IEEE Transactions on Big Data 4, 1 (2017), 117\u2013129. https://doi.org/10.1109/TBDATA.2017.2689038",
+      "doi": ""
+    },
+    {
+      "text": "Jianan Li, Jimei Yang, Jianming Zhang, Chang Liu, Christina Wang, and Tingfa Xu. 2020. Attribute-conditioned Layout GAN for Automatic Graphic Design. IEEE Transactions on Visualization and Computer Graphics (2020). https://doi.org/10.1109/TVCG.2020.2999335Early Access.",
+      "doi": ""
+    },
+    {
+      "text": "Halden Lin, Dominik Moritz, and Jeffrey Heer. 2020. Dziban: Balancing Agency & Automation in Visualization Design via Anchored Recommendations. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376880",
+      "doi": "10.1145/3313831.3376880"
+    },
+    {
+      "text": "Tie-Yan Liu. 2011. Learning to rank for information retrieval. Springer Science & Business Media, Berlin, Germany.",
+      "doi": "10.1145/1835449.1835676"
+    },
+    {
+      "text": "Min Lu, Chufeng Wang, Joel Lanir, Nanxuan Zhao, Hanspeter Pfister, Daniel Cohen-Or, and Hui Huang. 2020. Exploring Visual Information Flows in Infographics. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376263",
+      "doi": "10.1145/3313831.3376263"
+    },
+    {
+      "text": "Yuyu Luo, Xuedi Qin, Nan Tang, and Guoliang Li. 2018. Deepeye: Towards automatic data visualization. In Proc. of the International Conference on Data Engineering (ICDE). IEEE, NY, USA, 101\u2013112. https://doi.org/10.1109/ICDE.2018.00019",
+      "doi": ""
+    },
+    {
+      "text": "David McCandless. 2009. Information is Beautiful. Collins, Scotland, UK.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0Vande Moere, Martin Tomitsch, Christoph Wimmer, Boesch Christoph, and Thomas Grechenig. 2012. Evaluating the effect of style in information visualization. IEEE Transactions on Visualization and Computer Graphics 18, 12(2012), 2739\u20132748. https://doi.org/10.1109/TVCG.2012.221",
+      "doi": "10.1109/TVCG.2012.221"
+    },
+    {
+      "text": "Dominik Moritz, Chenglong Wang, Greg\u00a0L Nelson, Halden Lin, Adam\u00a0M Smith, Bill Howe, and Jeffrey Heer. 2018. Formalizing visualization design knowledge as constraints: Actionable and extensible models in Draco. IEEE Transactions on Visualization and Computer Graphics 25, 1(2018), 438\u2013448. https://doi.org/10.1109/TVCG.2018.2865240",
+      "doi": "10.1109/TVCG.2018.2865240"
+    },
+    {
+      "text": "Tamara Munzner. 2014. Visualization analysis and design. CRC press, Boca Raton, FL, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Peter O\u2019Donovan, Aseem Agarwala, and Aaron Hertzmann. 2014. Learning layouts for single-page graphic designs. IEEE Transactions on Visualization and Computer Graphics 20, 8(2014), 1200\u20131213. https://doi.org/10.1109/TVCG.2014.48",
+      "doi": "10.1109/TVCG.2014.48"
+    },
+    {
+      "text": "Jorge Poco and Jeffrey Heer. 2017. Reverse-Engineering Visualizations: Recovering Visual Encodings from Chart Images. In Computer Graphics Forum, Vol.\u00a036. The Eurographics Association & John Wiley & Sons, Ltd., NJ, USA, 353\u2013363. https://doi.org/10.1111/cgf.13193",
+      "doi": ""
+    },
+    {
+      "text": "Chunyao Qian, Shizhao Sun, Weiwei Cui, Jian-Guang Lou, Haidong Zhang, and Dongmei Zhang. 2020. Retrieve-Then-Adapt: Example-based Automatic Generation for Proportion-related Infographics. IEEE Transactions on Visualization and Computer Graphics (2020). https://doi.org/10.1109/TVCG.2020.3030448Early Access.",
+      "doi": ""
+    },
+    {
+      "text": "Xuedi Qin, Yuyu Luo, Nan Tang, and Guoliang Li. 2020. Making data visualization more efficient and effective: a survey. The VLDB Journal 29(2020), 93\u2013117. https://doi.org/10.1007/s00778-019-00588-3",
+      "doi": "10.1007/s00778-019-00588-3"
+    },
+    {
+      "text": "Annemarie Quispel, Alfons Maes, and Joost Schilperoord. 2016. Graph and chart aesthetics for experts and laymen in design: The role of familiarity and perceived ease of use. Information Visualization 15, 3 (2016), 238\u2013252. https://doi.org/10.1177/1473871615606478",
+      "doi": "10.1177/1473871615606478"
+    },
+    {
+      "text": "Irene Reppa and Sin\u00e9 McDougall. 2015. When the going gets tough the beautiful get going: aesthetic appeal facilitates task performance. Psychonomic bulletin & review 22, 5 (2015), 1243\u20131254. https://doi.org/10.3758/s13423-014-0794-z",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0M Rouse, Romuald P\u00e9pion, Patrick Le\u00a0Callet, and Sheila\u00a0S Hemami. 2010. Tradeoffs in subjective testing methods for image and video quality assessment. In Human Vision and Electronic Imaging XV, Vol.\u00a07527. International Society for Optics and Photonics, CA, USA, 75270F. https://doi.org/10.1117/12.845389",
+      "doi": ""
+    },
+    {
+      "text": "Bahador Saket, Alex Endert, and \u00c7a\u011fatay Demiralp. 2018. Task-based effectiveness of basic visualizations. IEEE Transactions on Visualization and Computer Graphics 25, 7(2018), 2505\u20132512. https://doi.org/10.1109/TVCG.2018.2829750",
+      "doi": ""
+    },
+    {
+      "text": "Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer. 2016. Vega-lite: A grammar of interactive graphics. IEEE Transactions on Visualization and Computer Graphics 23, 1(2016), 341\u2013350. https://doi.org/10.1109/TVCG.2016.2599030",
+      "doi": "10.1109/TVCG.2016.2599030"
+    },
+    {
+      "text": "Arvind Satyanarayan, Ryan Russell, Jane Hoffswell, and Jeffrey Heer. 2015. Reactive vega: A streaming dataflow architecture for declarative interactive visualization. IEEE Transactions on Visualization and Computer Graphics 22, 1(2015), 659\u2013668. https://doi.org/10.1109/TVCG.2015.2467091",
+      "doi": "10.1109/TVCG.2015.2467091"
+    },
+    {
+      "text": "Danqing Shi, Xinyue Xu, Fuling Sun, Yang Shi, and Nan Cao. 2020. Calliope: Automatic Visual Data Story Generation from a Spreadsheet. IEEE Transactions on Visualization and Computer Graphics (2020). https://doi.org/10.1109/TVCG.2020.3030403Early Access.",
+      "doi": ""
+    },
+    {
+      "text": "Xinhuan Shu, Aoyu Wu, Junxiu Tang, Benjamin Bach, Yingcai Wu, and Huamin Qu. 2020. What Makes a Data-GIF Understandable?IEEE Transactions on Visualization and Computer Graphics (2020). https://doi.org/10.1109/TVCG.2020.3030396Early Access.",
+      "doi": ""
+    },
+    {
+      "text": "Tableau. 2020. Visual Best Practices. Retrieved Aug 20, 2020 from https://help.tableau.com/current/blueprint/en-us/bp_visual_best_practices.htm",
+      "doi": ""
+    },
+    {
+      "text": "Justin Talbot, Vidya Setlur, and Anushka Anand. 2014. Four experiments on the perception of bar charts. IEEE Transactions on Visualization and Computer Graphics 20, 12(2014), 2152\u20132160. https://doi.org/10.1109/TVCG.2014.2346320",
+      "doi": ""
+    },
+    {
+      "text": "Tan Tang, Renzhong Li, Xinke Wu, Shuhan Liu, Johannes Knittel, Steffen Koch, Thomas Ertl, Lingyun Yu, Peiran Ren, and Yingcai Wu. 2020. PlotThread: Creating Expressive Storyline Visualizations using Reinforcement Learning. IEEE Transactions on Visualization and Computer Graphics (2020). https://doi.org/10.1109/TVCG.2020.3030467Early Access.",
+      "doi": ""
+    },
+    {
+      "text": "Kristi Tsukida and Maya\u00a0R Gupta. 2011. How to analyze paired comparison data. Technical Report. Washington University Seattle Dept of Electrical Engineering.",
+      "doi": ""
+    },
+    {
+      "text": "Edward\u00a0R Tufte. 2001. The visual display of quantitative information. Vol.\u00a02. Graphics press Cheshire, CT, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Sara Vaca. 2018. Difference between Graphic Design and Data Visualization. Retrieved Aug 20, 2020 from https://www.saravaca.com/project/graphicdesign-dataviz/",
+      "doi": ""
+    },
+    {
+      "text": "Maria\u00a0V Valueva, NN Nagornov, Pave\u00a0A Lyakhov, Georgiy\u00a0V Valuev, and Nikolay\u00a0I Chervyakov. 2020. Application of the residue number system to reduce hardware costs of the convolutional neural network implementation. Mathematics and Computers in Simulation 177 (2020), 232\u2013243. https://doi.org/10.1016/j.matcom.2020.04.031",
+      "doi": ""
+    },
+    {
+      "text": "Jiang Wang, Yang Song, Thomas Leung, Chuck Rosenberg, Jingbin Wang, James Philbin, Bo Chen, and Ying Wu. 2014. Learning fine-grained image similarity with deep ranking. In Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, NY, USA, 1386\u20131393. https://doi.org/10.1109/CVPR.2014.180",
+      "doi": "10.1109/CVPR.2014.180"
+    },
+    {
+      "text": "Yong Wang, Zhihua Jin, Qianwen Wang, Weiwei Cui, Tengfei Ma, and Huamin Qu. 2019. Deepdrawing: A deep learning approach to graph drawing. IEEE Transactions on Visualization and Computer Graphics 26, 1(2019), 676\u2013686. https://doi.org/10.1109/TVCG.2019.2934798",
+      "doi": ""
+    },
+    {
+      "text": "Yun Wang, Zhida Sun, Haidong Zhang, Weiwei Cui, Ke Xu, Xiaojuan Ma, and Dongmei Zhang. 2019. DataShot: Automatic Generation of Fact Sheets from Tabular Data. IEEE Transactions on Visualization and Computer Graphics 26, 1(2019), 895\u2013905. https://doi.org/10.1109/TVCG.2019.2934398",
+      "doi": ""
+    },
+    {
+      "text": "Aoyu Wu, Wai Tong, Tim Dwyer, Bongshin Lee, Petra Isenberg, and Huamin Qu. 2020. MobileVisFixer: Tailoring Web Visualizations for Mobile Phones Leveraging an Explainable Reinforcement Learning Framework. IEEE Transactions on Visualization and Computer Graphics (2020). https://doi.org/10.1109/TVCG.2020.3030423Early Access.",
+      "doi": ""
+    },
+    {
+      "text": "Qing-Song Xu and Yi-Zeng Liang. 2001. Monte Carlo cross validation. Chemometrics and Intelligent Laboratory Systems 56, 1 (2001), 1\u201311. https://doi.org/10.1016/S0169-7439(00)00122-2",
+      "doi": ""
+    },
+    {
+      "text": "Andre Ye. 2020. Easy Ways to Make Your Charts Look More Professional. Retrieved August 20, 2020 from https://towardsdatascience.com/easy-ways-to-make-your-charts-look-more-professional-9b081655eae7",
+      "doi": ""
+    },
+    {
+      "text": "Mingqian Zhao, Huamin Qu, and Michael Sedlmair. 2019. Neighborhood Perception in Bar Charts. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300462",
+      "doi": "10.1145/3290605.3300462"
+    },
+    {
+      "text": "Nanxuan Zhao, Ying Cao, and Rynson\u00a0WH Lau. 2018. What characterizes personalities of graphic designs?ACM Transactions on Graphics (TOG) 37, 4 (2018), 1\u201315. https://doi.org/10.1145/3197517.3201355",
+      "doi": ""
+    }
+  ]
+}

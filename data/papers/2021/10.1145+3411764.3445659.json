@@ -1,0 +1,834 @@
+{
+  "doi": "10.1145/3411764.3445659",
+  "title": "Trade-offs for Substituting a Human with an Agent in a Pair Programming Context: The Good, the Bad, and the Ugly",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Pair programming has a documented history of benefits, such as increased code quality, productivity, self-efficacy, knowledge transfer, and reduced gender gap. Research uncovered problems with pair programming related to scheduling, collocating, role imbalance, and power dynamics. We investigated the trade-offs of substituting a human with an agent to simultaneously provide benefits and alleviate obstacles in pair programming. We conducted gender-balanced studies with human-human pairs in a remote lab with 18 programmers and Wizard-of-Oz studies with 14 programmers, then analyzed results quantitatively and qualitatively. Our comparative analysis of the two studies showed no significant differences in productivity, code quality, and self-efficacy. Further, agents facilitated knowledge transfer; however, unlike humans, agents were unable to provide logical explanations or discussions. Human partners trusted and showed humility towards agents. Our results demonstrate that agents can act as effective pair programming partners and open the way towards new research on conversational agents for programming.",
+  "authors": [
+    {
+      "name": "Sandeep Kaur Kuttal",
+      "institution": "Tandy School of Computer Science University of Tulsa, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81488670619",
+      "orcid": "missing"
+    },
+    {
+      "name": "Bali Ong",
+      "institution": "Tandy School of Computer Science University of Tulsa, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701674",
+      "orcid": "missing"
+    },
+    {
+      "name": "Kate Kwasny",
+      "institution": "Tandy School of Computer Science University of Tulsa, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701902",
+      "orcid": "missing"
+    },
+    {
+      "name": "Peter Robe",
+      "institution": "Tandy School of Computer Science University of Tulsa, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700605",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Piotr\u00a0D. Adamczyk and Brian\u00a0P. Bailey. 2004. If Not Now, When? The Effects of Interruption at Different Moments within Task Execution. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vienna, Austria) (CHI \u201904). Association for Computing Machinery, New York, NY, USA, 271\u2013278. https://doi.org/10.1145/985692.985727",
+      "doi": "10.1145/985692.985727"
+    },
+    {
+      "text": "Maryam Alavi. 1994. Computer-Mediated Collaborative Learning: An Empirical Evaluation. MIS Quarterly 18, 2 (1994), 159\u2013174. http://www.jstor.org/stable/249763",
+      "doi": "10.2307/249763"
+    },
+    {
+      "text": "S. Ali, L.\u00a0C. Briand, H. Hemmati, and R.\u00a0K. Panesar-Walawege. 2010. A Systematic Review of the Application and Empirical Investigation of Search-Based Test Case Generation. IEEE Transactions on Software Engineering 36, 6 (2010), 742\u2013762.",
+      "doi": "10.1109/TSE.2009.52"
+    },
+    {
+      "text": "Ali Alkhatlan and Jugal Kalita. 2018. Intelligent Tutoring Systems: A Comprehensive Historical Survey with Recent Developments. arxiv:1812.09628\u00a0[cs.HC]",
+      "doi": ""
+    },
+    {
+      "text": "Teresa\u00a0M. Amabile and Michael\u00a0G. Pratt. 2016. The dynamic componential model of creativity and innovation in organizations: Making progress, making meaning. Research in Organizational Behavior 36 (2016), 157 \u2013 183. https://doi.org/10.1016/j.riob.2016.10.001",
+      "doi": ""
+    },
+    {
+      "text": "Amazon. 2020. Virtual Assistant Amazon Alexa. https://developer.amazon.com/en-US/alexa",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2020. Virtual Assistant Apple Siri. https://www.apple.com/siri/",
+      "doi": ""
+    },
+    {
+      "text": "E. Arisholm, H. Gallis, T. Dyb\u00e5, and D.\u00a0I.\u00a0K. Sjoberg. 2007. Evaluating Pair Programming with Respect to System Complexity and Programmer Expertise. IEEE Transactions on Software Engineering 33, 2 (2007), 65\u201386.",
+      "doi": "10.1109/TSE.2007.17"
+    },
+    {
+      "text": "Michael Armstrong. 2012. Armstrong\u2019s handbook of reward management practice: Improving performance through reward (12 ed.). Kogan Page Publishers, London.",
+      "doi": ""
+    },
+    {
+      "text": "Zahra Ashktorab, Mohit Jain, Q.\u00a0Vera Liao, and Justin\u00a0D. Weisz. 2019. Resilient Chatbots: Repair Strategy Preferences for Conversational Breakdowns. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, Article 254, 12\u00a0pages. https://doi.org/10.1145/3290605.3300484",
+      "doi": "10.1145/3290605.3300484"
+    },
+    {
+      "text": "Prashant Baheti, Edward\u00a0F. Gehringer, and P.\u00a0David Stotts. 2002. Exploring the Efficacy of Distributed Pair Programming. In Proceedings of the Second XP Universe and First Agile Universe Conference on Extreme Programming and Agile Methods - XP/Agile Universe 2002. Springer-Verlag, Berlin, Heidelberg, 208\u2013220.",
+      "doi": ""
+    },
+    {
+      "text": "Ryan\u00a0S.J.d. Baker. 2007. Modeling and Understanding Students\u2019 off-Task Behavior in Intelligent Tutoring Systems. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201907). Association for Computing Machinery, New York, NY, USA, 1059\u20131068. https://doi.org/10.1145/1240624.1240785",
+      "doi": "10.1145/1240624.1240785"
+    },
+    {
+      "text": "A. Bandura. 1986. Social Foundations of Thought and Action: A Social Cognitive Theory. Prentice-Hall, Michigan. https://books.google.com/books?id=HJhqAAAAMAAJ",
+      "doi": ""
+    },
+    {
+      "text": "Alejandro Barredo Arrieta, Natalia D\u00c3\u00adaz-Rodr\u00c3\u00adguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, and Francisco Herrera. 2020. Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI. Information Fusion 58(2020), 82 \u2013 115. http://www.sciencedirect.com/science/article/pii/S1566253519308103",
+      "doi": "10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "text": "A. Belshee. 2005. Promiscuous pairing and beginner\u2019s mind: embrace inexperience [agile programming]. In Agile Development Conference (ADC\u201905). Agile Development Conference, Denver, Colorado, 125\u2013131. https://doi.org/10.1109/ADC.2005.37",
+      "doi": "10.1109/ADC.2005.37"
+    },
+    {
+      "text": "Jeannette Bennett, Kendra Cooper, and Lirong Dai. 2010. Aspect-oriented model-driven skeleton code generation: A graph-based transformation approach. Science of Computer Programming 75, 8 (2010), 689\u2013725.",
+      "doi": "10.1016/j.scico.2009.05.005"
+    },
+    {
+      "text": "Timothy Bickmore and Justine Cassell. 2001. Relational Agents: A Model and Implementation of Building User Trust. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Seattle, Washington, USA) (CHI \u201901). ACM, New York, NY, USA, 396\u2013403. https://doi.org/10.1145/365024.365304",
+      "doi": "10.1145/365024.365304"
+    },
+    {
+      "text": "Jay Bradley, David Benyon, Oli Mival, and Nick Webb. 2010. Wizard of Oz Experiments and Companion Dialogues. In Proceedings of the 24th BCS Interaction Specialist Group Conference (Dundee, United Kingdom) (BCS \u201910). BCS Learning & Development Ltd., Swindon, GBR, 117\u2013123.",
+      "doi": ""
+    },
+    {
+      "text": "Sheryl Brahnam and Antonella De\u00a0Angeli. 2012. Gender affordances of conversational agents. Interacting with Computers 24, 3 (04 2012), 139\u2013153. https://doi.org/10.1016/j.intcom.2012.05.001",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using Thematic Analysis in Psychology. Qualitative research in psychology 3 (01 2006), 77\u2013101. https://doi.org/10.1191/1478088706qp063oa",
+      "doi": ""
+    },
+    {
+      "text": "Tim Brown. 2009. Change by Design: How Design Thinking Transforms Organizations and Inspires Innovation. HarperBusiness, New York.",
+      "doi": ""
+    },
+    {
+      "text": "Margaret Burnett, Anicia Peters, Charles Hill, and Noha Elarief. 2016. Finding Gender-Inclusiveness Software Issues with GenderMag: A Field Investigation. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, San Jose, 2586\u20132598.",
+      "doi": "10.1145/2858036.2858274"
+    },
+    {
+      "text": "Margaret Burnett, Simone Stumpf, Jamie Macbeth, Stephann Makri, Laura Beckwith, Irwin Kwan, Anicia Peters, and William Jernigan. 2016. GenderMag: A Method for Evaluating Software\u2019s Gender Inclusiveness. Interacting with Computers forthcoming (01 2016). https://doi.org/10.1093/iwc/iwv046",
+      "doi": ""
+    },
+    {
+      "text": "Margaret\u00a0M. Burnett. 2020. GenderMag. http://gendermag.org/",
+      "doi": ""
+    },
+    {
+      "text": "Ram\u00f3n Burri. 2018. Improving user trust towards conversational chatbot interfaces with voice output. Master\u2019s thesis. KTH, School of Electrical Engineering and Computer Science (EECS).",
+      "doi": ""
+    },
+    {
+      "text": "Judith Butler. 1999. Revisiting Bodies and Pleasures. Theory, Culture & Society 16, 2 (1999), 11\u201320. https://doi.org/10.1177/02632769922050520",
+      "doi": ""
+    },
+    {
+      "text": "Lan Cao, Kannan Mohan, Peng Xu, and Balasubramaniam Ramesh. 2004. How Extreme Does Extreme Programming Have to Be? Adapting XP Practices to Large-Scale Projects. In Proceedings of the Proceedings of the 37th Annual Hawaii International Conference on System Sciences (HICSS\u201904) - Track 3 - Volume 3(HICSS \u201904). IEEE Computer Society, USA, 30083.3.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Cartwright, Eric Allen, and Charles Reis. 2002. Production Programming in the Classroom. ACM SIGCSE Bulletin 35 (11 2002). https://doi.org/10.1145/611892.611940",
+      "doi": ""
+    },
+    {
+      "text": "Mehmet Celepkolu and Kristy\u00a0Elizabeth Boyer. 2018. The Importance of Producing Shared Code Through Pair Programming. In Proceedings of the 49th ACM Technical Symposium on Computer Science Education (Baltimore, Maryland, USA) (SIGCSE \u201918). Association for Computing Machinery, New York, NY, USA, 765\u2013770. https://doi.org/10.1145/3159450.3159506",
+      "doi": "10.1145/3159450.3159506"
+    },
+    {
+      "text": "Mehmet Celepkolu and Kristy\u00a0Elizabeth Boyer. 2018. Thematic Analysis of Students\u2019 Reflections on Pair Programming in CS1. In Proceedings of the 49th ACM Technical Symposium on Computer Science Education (Baltimore, Maryland, USA) (SIGCSE \u201918). Association for Computing Machinery, New York, NY, USA, 771\u2013776. https://doi.org/10.1145/3159450.3159516",
+      "doi": "10.1145/3159450.3159516"
+    },
+    {
+      "text": "Christopher\u00a0P Cerasoli, Jessica\u00a0M Nicklin, and Michael\u00a0T Ford. 2014. Intrinsic motivation and extrinsic incentives jointly predict performance: A 40-year meta-analysis.Psychological bulletin 140, 4 (2014), 980.",
+      "doi": ""
+    },
+    {
+      "text": "Ruth\u00a0W Chabay and Jill\u00a0H Larkin. 2020. Computer assisted instruction and intelligent tutoring systems: Shared goals and complementary approaches. Routledge, Abingdon, United Kingdom.",
+      "doi": ""
+    },
+    {
+      "text": "Gary Charness and Uri Gneezy. 2012. Strong Evidence for Gender Differences in Risk Taking. Journal of Economic Behavior & Organization 83, 1(2012), 50\u201358.",
+      "doi": ""
+    },
+    {
+      "text": "J.\u00a0Y.\u00a0C. Chen and M.\u00a0J. Barnes. 2014. Human\u2013Agent Teaming for Multirobot Control: A Review of Human Factors Issues. IEEE Transactions on Human-Machine Systems 44, 1 (2014), 13\u201329.",
+      "doi": ""
+    },
+    {
+      "text": "K.\u00a0S. Choi. 2013. Evaluating Gender Significance within a Pair Programming Context. In 2013 46th Hawaii International Conference on System Sciences. IEEE, Hawaii, 4817\u20134825. https://doi.org/10.1109/HICSS.2013.209",
+      "doi": "10.1109/HICSS.2013.209"
+    },
+    {
+      "text": "Jan Chong and Tom Hurlbutt. 2007. The Social Dynamics of Pair Programming. In Proceedings of the 29th International Conference on Software Engineering(ICSE \u201907). IEEE Computer Society, USA, 354\u2013363. https://doi.org/10.1109/ICSE.2007.87",
+      "doi": "10.1109/ICSE.2007.87"
+    },
+    {
+      "text": "Alistair Cockburn and Laurie Williams. 2001. The Costs and Benefits of Pair Programming. Addison-Wesley Longman Publishing Co., Inc., USA, 223\u2013243.",
+      "doi": "10.5555/377517.377531"
+    },
+    {
+      "text": "Deborah\u00a0R. Compeau and Christopher\u00a0A. Higgins. 1995. Computer Self-Efficacy: Development of a Measure and Initial Test. MIS Q. 19, 2 (June 1995), 189\u2013211. https://doi.org/10.2307/249688",
+      "doi": "10.2307/249688"
+    },
+    {
+      "text": "Pedro Costa and Lu\u00edsa Ribas. 2019. AI becomes her: Discussing gender and artificial intelligence.Technoetic Arts: A Journal of Speculative Research 17, 1/2(2019), 171 \u2013 193.",
+      "doi": ""
+    },
+    {
+      "text": "Sally\u00a0Jo Cunningham, Annika Hinze, and David\u00a0M. Nichols. 2016. Supporting Gender-Neutral Digital Library Creation: A Case Study Using the GenderMag Toolkit. In Digital Libraries: Knowledge, Information, and Data in an Open Access Society, Atsuyuki Morishima, Andreas Rauber, and Chern\u00a0Li Liew (Eds.). Springer International Publishing, Cham, 45\u201350.",
+      "doi": ""
+    },
+    {
+      "text": "Nils Dahlb\u00e4ck, Arne J\u00f6nsson, and Lars Ahrenberg. 1993. Wizard of Oz studies\u2014why and how. Knowledge-based systems 6, 4 (1993), 258\u2013266.",
+      "doi": ""
+    },
+    {
+      "text": "M. Day, M.\u00a0R. Penumala, and J. Gonzalez-Sanchez. 2019. Annete: An Intelligent Tutoring Companion Embedded into the Eclipse IDE. In 2019 IEEE First International Conference on Cognitive Machine Intelligence (CogMI). IEEE, New York, US, 71\u201380.",
+      "doi": ""
+    },
+    {
+      "text": "Claudio\u00a0Le\u00f3n de\u00a0la Barra and Broderick Crawford. 2007. Fostering Creativity Thinking in Agile Software Development. In HCI and Usability for Medicine and Health Care, Andreas Holzinger (Ed.). Springer Berlin Heidelberg, Berlin, Heidelberg, 415\u2013426.",
+      "doi": ""
+    },
+    {
+      "text": "Angel de Vicente and Helen Pain. 1998. Motivation Diagnosis in Intelligent Tutoring Systems. In Intelligent Tutoring Systems, Barry\u00a0P. Goettl, Henry\u00a0M. Halff, Carol\u00a0L. Redfield, and Valerie\u00a0J. Shute (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 86\u201395.",
+      "doi": ""
+    },
+    {
+      "text": "Edward\u00a0L Deci, Anja\u00a0H Olafsen, and Richard\u00a0M Ryan. 2017. Self-determination theory in work organizations: The state of a science. Annual Review of Organizational Psychology and Organizational Behavior 4 (2017), 19\u201343.",
+      "doi": ""
+    },
+    {
+      "text": "Doris\u00a0M. Dehn and Susanne van Mulken. 2000. The Impact of Animated Interface Agents: A Review of Empirical Research. Int. J. Hum.-Comput. Stud. 52, 1 (Jan. 2000), 1\u201322. https://doi.org/10.1006/ijhc.1999.0325",
+      "doi": "10.1006/ijhc.1999.0325"
+    },
+    {
+      "text": "Tom DeMarco and Tim Lister. 2013. Peopleware: Productive Projects and Teams (3rd Edition) (3rd ed.). Addison-Wesley Professional, Boston, MA, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Melissa\u00a0C. Duffy and Roger Azevedo. 2015. Motivation matters: Interactions between achievement goals and agent scaffolding for self-regulated learning within an intelligent tutoring system. Computers in Human Behavior 52 (2015), 338 \u2013 348. http://www.sciencedirect.com/science/article/pii/S0747563215004227",
+      "doi": "10.1016/j.chb.2015.05.041"
+    },
+    {
+      "text": "Rafael Duque and Crescencio Bravo. 2008. Analyzing Work Productivity and Program Quality in Collaborative Programming. In Proceedings of the 2008 The Third International Conference on Software Engineering Advances(ICSEA \u201908). IEEE Computer Society, Washington, DC, USA, 270\u2013276. https://doi.org/10.1109/ICSEA.2008.82",
+      "doi": "10.1109/ICSEA.2008.82"
+    },
+    {
+      "text": "Tore Dyb\u00e5, Erik Arisholm, Dag Sj\u00f8berg, Jo Hannay, and Forrest Shull. 2007. Are Two Heads Better than One? On the Effectiveness of Pair Programming. Software, IEEE 24 (12 2007), 12 \u2013 15. https://doi.org/10.1109/MS.2007.158",
+      "doi": ""
+    },
+    {
+      "text": "Berland Edelman and Inc. 2010. Creativity and education: Why it matters. Adobe. Retrieved September 18th, 2019 from http://www.adobe.com/aboutadobe/pressroom/pdfs/Adobe_Creativity_and_Education_Why_It_Matters_study.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Katrina Falkner, Nickolas\u00a0J.G. Falkner, and Rebecca Vivian. 2013. Collaborative Learning and Anxiety: A Phenomenographic Study of Collaborative Learning Activities. In Proceeding of the 44th ACM Technical Symposium on Computer Science Education (Denver, Colorado, USA) (SIGCSE \u201913). Association for Computing Machinery, New York, NY, USA, 227\u2013232. https://doi.org/10.1145/2445196.2445268",
+      "doi": "10.1145/2445196.2445268"
+    },
+    {
+      "text": "Carmen Fischer, Charlotte\u00a0P. Malycha, and Ernestine Schafmann. 2019. The Influence of Intrinsic Motivation and Synergistic Extrinsic Motivators on Creativity and Innovation. Frontiers in Psychology 10 (2019), 137. https://doi.org/10.3389/fpsyg.2019.00137",
+      "doi": ""
+    },
+    {
+      "text": "S.T. Fiske, E.H.P.P.S.T. Fiske, and S.E. Taylor. 1991. Social Cognition. McGraw-Hill, New York City, USA. https://books.google.com/books?id=6Uq3QgAACAAJ",
+      "doi": ""
+    },
+    {
+      "text": "H. Gallis, Erik Arisholm, and Tore Dyb\u00e5. 2002. A Transition From Partner Programming to Pair Programming - an Industrial Case Study. In Workshop \u201dPair Programming Installed\u201d in 17th Annual ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA), Position paper. ACM, Seattle USA, \u2013.",
+      "doi": ""
+    },
+    {
+      "text": "H. Gallis, E. Arisholm, and T. Dyba. 2003. An initial framework for research on pair programming. In 2003 International Symposium on Empirical Software Engineering, 2003. ISESE 2003. Proceedings.ACM, NY, USA, 132\u2013142. https://doi.org/10.1109/ISESE.2003.1237972",
+      "doi": ""
+    },
+    {
+      "text": "H. Gallis, E. Arisholm, and T. Dyba. 2003. An initial framework for research on pair programming. In 2003 International Symposium on Empirical Software Engineering. ACM, NY, USA, 132\u2013142.",
+      "doi": ""
+    },
+    {
+      "text": "Alex Gerdes, Bastiaan Heeren, Johan Jeuring, and L.\u00a0Thomas van Binsbergen. 2016. Ask-Elle: an Adaptable Programming Tutor for Haskell Giving Automated Feedback. International Journal of Artificial Intelligence in Education 27 (02 2016). https://doi.org/10.1007/s40593-015-0080-x",
+      "doi": ""
+    },
+    {
+      "text": "Nadine Glas and Catherine Pelachaud. 2015. Definitions of Engagement in Human-Agent Interaction. In International Conference on Affective Computing and Intelligent Interaction (ACII). IEEE, USA, 944\u2013949. https://doi.org/10.1109/ACII.2015.7344688",
+      "doi": ""
+    },
+    {
+      "text": "Barney\u00a0G. Glaser and Anselm\u00a0L. Strauss. 1967. The Discovery of Grounded Theory: Strategies for Qualitative Research. Aldine de Gruyter, New York, NY.",
+      "doi": ""
+    },
+    {
+      "text": "Bradley Goodman, Amy Soller, Frank Linton, Robert Gaimari, and The Mitre. 1998. Encouraging student reflection and articulation using a learning companion. International Journal of Artificial Intelligence in Education 9 (1998), 237\u2013255.",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2019. Google text-to-speech python library. https://github.com/pndurette/gTTS",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2020. Virtual Assistant Google Assistant. https://assistant.google.com/",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Gratch, Ning Wang, Jillian Gerten, Edward Fast, and Robin Duffy. 2007. Creating Rapport with Virtual Agents. In Intelligent Virtual Agents, Catherine Pelachaud, Jean-Claude Martin, Elisabeth Andr\u00e9, G\u00e9rard Chollet, Kostas Karpouzis, and Danielle Pel\u00e9 (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 125\u2013138.",
+      "doi": ""
+    },
+    {
+      "text": "J.P. Guilford. 1968. Intelligence, Creativity, and Their Educational Implications. R. R. Knapp, Open Library. https://books.google.com/books?id=WE8kAQAAMAAJ",
+      "doi": ""
+    },
+    {
+      "text": "Keun-Woo Han, EunKyoung Lee, and Youngjun Lee. 2010. The Impact of a Peer-Learning Agent Based on Pair Programming in a Programming Course. Education, IEEE Transactions on 53 (06 2010), 318 \u2013 327. https://doi.org/10.1109/TE.2009.2019121",
+      "doi": ""
+    },
+    {
+      "text": "Brian Hanks. 2008. Empirical evaluation of distributed pair programming. International Journal of Human-Computer Studies 66 (07 2008), 530\u2013544. https://doi.org/10.1016/j.ijhcs.2007.10.003",
+      "doi": "10.1016/j.ijhcs.2007.10.003"
+    },
+    {
+      "text": "Brian\u00a0F. Hanks. 2004. Distributed Pair Programming: An Empirical Study. In Extreme Programming and Agile Methods - XP/Agile Universe 2004, Carmen Zannier, Hakan Erdogmus, and Lowell Lindstrom(Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 81\u201391.",
+      "doi": ""
+    },
+    {
+      "text": "Dai Hasegawa, Justine Cassell, and Kenji Araki. 2010. The Role of Embodiment and Perspective in Direction-Giving Systems. In Proceedings of AAAI Fall Workshop on Dialog with Robots. AAAI PRESS, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Renate H\u00e4uslschmid, Max von B\u00fclow, Bastian Pfleging, and Andreas Butz. 2017. SupportingTrust in Autonomous Driving. In Proceedings of the 22Nd International Conference on Intelligent User Interfaces (Limassol, Cyprus) (IUI \u201917). ACM, New York, NY, USA, 319\u2013329. https://doi.org/10.1145/3025171.3025198",
+      "doi": "10.1145/3025171.3025198"
+    },
+    {
+      "text": "Charles\u00a0G. Hill, Maren Haag, Alannah Oleson, Chris Mendez, Nicola Marsden, Anita Sarma, and Margaret Burnett. 2017. Gender-Inclusiveness Personas vs. Stereotyping: Can We Have It Both Ways?. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 6658\u20136671. https://doi.org/10.1145/3025453.3025609",
+      "doi": "10.1145/3025453.3025609"
+    },
+    {
+      "text": "Anthony\u00a0J. Hillesheim, Christina\u00a0F. Rusnock, Jason\u00a0M. Bindewald, and Michael\u00a0E. Miller. 2017. Relationships between User Demographics and User Trust in an Autonomous Agent. Proceedings of the Human Factors and Ergonomics Society Annual Meeting 61, 1(2017), 314\u2013318. https://doi.org/10.1177/1541931213601560",
+      "doi": ""
+    },
+    {
+      "text": "Kevin\u00a0Anthony Hoff and Masooda Bashir. 2015. Trust in Automation: Integrating Empirical Evidence on Factors That Influence Trust. Human Factors 57, 3 (2015), 407\u2013434. https://doi.org/10.1177/0018720814547570PMID: 25875432.",
+      "doi": ""
+    },
+    {
+      "text": "IBM. 2019. Eclipse IDE. https://www.eclipse.org/",
+      "doi": ""
+    },
+    {
+      "text": "Paul Jaccard. 1901. Etude de la distribution florale dans une portion des Alpes et du Jura. Bulletin de la Societe Vaudoise des Sciences Naturelles 37 (01 1901), 547\u2013579. https://doi.org/10.5169/seals-266450",
+      "doi": ""
+    },
+    {
+      "text": "Mohit Jain, Pratyush Kumar, Ishita Bhansali, Q.\u00a0Vera Liao, Khai Truong, and Shwetak Patel. 2018. FarmChat: A Conversational Agent to Answer Farmer Queries. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 4, Article 170 (Dec. 2018), 22\u00a0pages. https://doi.org/10.1145/3287048",
+      "doi": "10.1145/3287048"
+    },
+    {
+      "text": "Mohit Jain, Pratyush Kumar, Ramachandra Kota, and Shwetak\u00a0N. Patel. 2018. Evaluating and Informing the Design of Chatbots. In Proceedings of the 2018 Designing Interactive Systems Conference (Hong Kong, China) (DIS \u201918). Association for Computing Machinery, New York, NY, USA, 895\u2013906. https://doi.org/10.1145/3196709.3196735",
+      "doi": "10.1145/3196709.3196735"
+    },
+    {
+      "text": "D. James and S. Clarke. 1998. Women, men, and interruptions: A critical review. In D. Tannen (Ed.), Oxford studies in sociolinguistics. Gender and conversational interaction. Oxford University Press, UK, 231\u2013280.",
+      "doi": ""
+    },
+    {
+      "text": "Lindsay Jarratt, Nicholas\u00a0A. Bowman, K.C. Culver, and Alberto\u00a0Maria Segre. 2019. A Large-Scale Experimental Study of Gender and Pair Composition in Pair Programming. In Proceedings of the 2019 ACM Conference on Innovation and Technology in Computer Science Education (Aberdeen, Scotland Uk) (ITiCSE \u201919). Association for Computing Machinery, New York, NY, USA, 176\u2013181. https://doi.org/10.1145/3304221.3319782",
+      "doi": "10.1145/3304221.3319782"
+    },
+    {
+      "text": "Will Jerigan, Amber Horvath, Michael Lee, Margaret Burnett, Cuilty Taylor, Sandeep Kuttal, Anicia Peters, Irwin Kwan, Faezeh Bahmani, and Andrew Ko. 2015. A Principled Evaluation for a Principled Idea Garden. In 2015 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, USA. https://doi.org/10.1109/VLHCC.2015.7357222",
+      "doi": ""
+    },
+    {
+      "text": "William Jernigan, Amber Horvath, Michael Lee, Margaret Burnett, Taylor Cuilty, Sandeep Kuttal, Anicia Peters, Irwin Kwan, Faezeh Bahmani, Andrew Ko, Christopher\u00a0J. Mendez, and Alannah Oleson. 2017. General principles for a Generalized Idea. Journal of Visual Languages & Computing 39 (2017), 51 \u2013 65. https://doi.org/10.1016/j.jvlc.2017.04.005Special Issue on Programming and Modelling Tools.",
+      "doi": "10.1016/j.jvlc.2017.04.005"
+    },
+    {
+      "text": "Xiaoming Jiang and Marc\u00a0D. Pell. 2015. On how the brain decodes vocal cues about speaker confidence. Cortex 66(2015), 9 \u2013 34. http://www.sciencedirect.com/science/article/pii/S0010945215000593",
+      "doi": ""
+    },
+    {
+      "text": "Ewa Kacewicz, James\u00a0W. Pennebaker, Matthew Davis, Moongee Jeon, and Arthur\u00a0C. Graesser. 2014. Pronoun Use Reflects Standings in Social Hierarchies. Journal of Language and Social Psychology 33, 2 (2014), 125\u2013143. https://doi.org/10.1177/0261927X13502654",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0H. Kahn, Nathan\u00a0G. Freier, Takayuki Kanda, Hiroshi Ishiguro, Jolina\u00a0H. Ruckert, Rachel\u00a0L. Severson, and Shaun\u00a0K. Kane. 2008. Design Patterns for Sociality in Human-Robot Interaction. In Proceedings of the 3rd ACM/IEEE International Conference on Human Robot Interaction (Amsterdam, The Netherlands) (HRI \u201908). Association for Computing Machinery, New York, NY, USA, 97\u2013104. https://doi.org/10.1145/1349822.1349836",
+      "doi": "10.1145/1349822.1349836"
+    },
+    {
+      "text": "Alexander Karan, Robert Rosenthal, and Megan\u00a0L. Robbins. 2019. Meta-analytic evidence that we-talk predicts relationship and personal functioning in romantic couples. Journal of Social and Personal Relationships 36, 9(2019), 2624\u20132651. https://doi.org/10.1177/0265407518795336",
+      "doi": ""
+    },
+    {
+      "text": "Neha Katira, Laurie Williams, Eric Wiebe, Carol Miller, Suzanne Balik, and Ed Gehringer. 2004. On Understanding Compatibility of Student Pair Programmers. In Proceedings of the 35th SIGCSE Technical Symposium on Computer Science Education (Norfolk, Virginia, USA) (SIGCSE \u201904). Association for Computing Machinery, New York, NY, USA, 7\u201311. https://doi.org/10.1145/971300.971307",
+      "doi": "10.1145/971300.971307"
+    },
+    {
+      "text": "S. Kaur Kuttal, K. Gerstner, and A. Bejarano. 2019. Remote Pair Programming in Online CS Education: Investigating through a Gender Lens. In 2019 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, USA, 75\u201385.",
+      "doi": ""
+    },
+    {
+      "text": "Iman Keivanloo, Juergen Rilling, and Ying Zou. 2014. Spotting Working Code Examples. In Proceedings of the 36th International Conference on Software Engineering (Hyderabad, India) (ICSE 2014). Association for Computing Machinery, New York, NY, USA, 664\u2013675. https://doi.org/10.1145/2568225.2568292",
+      "doi": "10.1145/2568225.2568292"
+    },
+    {
+      "text": "Kisub Kim, Dongsun Kim, Tegawend\u00e9\u00a0F. Bissyand\u00e9, Eunjong Choi, Li Li, Jacques Klein, and Yves\u00a0Le Traon. 2018. FaCoY: A Code-to-Code Search Engine. In Proceedings of the 40th International Conference on Software Engineering (Gothenburg, Sweden) (ICSE \u201918). Association for Computing Machinery, New York, NY, USA, 946\u2013957. https://doi.org/10.1145/3180155.3180187",
+      "doi": "10.1145/3180155.3180187"
+    },
+    {
+      "text": "Barbara Kitchenham, S.L. Pfleeger, L.M. Pickard, Peter Jones, David Hoaglin, Khaled Emam, and Jarrett Rosenberg. 2002. Preliminary Guidelines for Empirical Research in Software Engineering. Software Engineering, IEEE Transactions on 28 (09 2002), 721\u2013 734. https://doi.org/10.1109/TSE.2002.1027796",
+      "doi": ""
+    },
+    {
+      "text": "Dominique Knutsen and Ludovic Le\u00a0Bigot. 2014. The Influence of Reference Acceptance and Reuse on Conversational Memory Traces. Journal of experimental psychology. Learning, memory, and cognition 41 (07 2014). https://doi.org/10.1037/xlm0000036",
+      "doi": ""
+    },
+    {
+      "text": "Dominique Knutsen, Ludovic Le Bigot, and Christine Ros. 2017. Explicit feedback from users attenuates memory biases in human-system dialogue. International Journal of Human-Computer Studies 97 (2017), 77 \u2013 87. http://www.sciencedirect.com/science/article/pii/S1071581916301045",
+      "doi": ""
+    },
+    {
+      "text": "Dominique Knutsen, Christine Ros, and Ludovic Le\u00a0Bigot. 2016. Generating References in Naturalistic Face-to-Face and Phone-Mediated Dialog Settings. Topics in Cognitive Science 8 (08 2016). https://doi.org/10.1111/tops.12218",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0J. Ko and Brad\u00a0A. Myers. 2004. Designing the Whyline: A Debugging Interface for Asking Questions about Program Behavior. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vienna, Austria) (CHI \u201904). Association for Computing Machinery, New York, NY, USA, 151\u2013158. https://doi.org/10.1145/985692.985712",
+      "doi": "10.1145/985692.985712"
+    },
+    {
+      "text": "Andrew\u00a0J. Ko and Brad\u00a0A. Myers. 2008. Debugging Reinvented: Asking and Answering Why and Why Not Questions about Program Behavior. In Proceedings of the 30th International Conference on Software Engineering (Leipzig, Germany) (ICSE \u201908). Association for Computing Machinery, New York, NY, USA, 301\u2013310. https://doi.org/10.1145/1368088.1368130",
+      "doi": "10.1145/1368088.1368130"
+    },
+    {
+      "text": "Kuttal, Kwasny, Ong, and Robe. 2020. Correctness and Progress Metrics. https://docs.google.com/spreadsheets/d/1UawMLVACqLjC6JH7I5vwWVQLCv6ph-lkCllZDwHkM3Y/edit?usp=sharing",
+      "doi": ""
+    },
+    {
+      "text": "S.\u00a0K. Kuttal, J. Myers, S. Gurka, D. Magar, D. Piorkowski, and R. Bellamy. 2020. Towards Designing Conversational Agents for Pair Programming: Accounting for Creativity Strategies and Conversational Styles. In 2020 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, USA, 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Danielle L.\u00a0Jones and Scott D.\u00a0Fleming. 2013. What use is a backseat driver? A qualitative investigation of pair programming. In Proceedings of IEEE Symposium on Visual Languages and Human-Centric Computing, VL/HCC. IEEE, USA, 103\u2013110.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0K Landauer. 1987. Psychology as a mother of invention. ACM SIGCHI Bulletin 18, 4 (1987), 333\u2013335.",
+      "doi": "10.1145/1165387.275653"
+    },
+    {
+      "text": "Susan Leavy. 2018. Gender Bias in Artificial Intelligence: The Need for Diversity and Gender Theory in Machine Learning. In Proceedings of the 1st International Workshop on Gender Equality in Software Engineering (Gothenburg, Sweden) (GE \u201918). Association for Computing Machinery, New York, NY, USA, 14\u201316. https://doi.org/10.1145/3195570.3195580",
+      "doi": "10.1145/3195570.3195580"
+    },
+    {
+      "text": "Susan Leavy. 2018. Gender Bias in Artificial Intelligence: The Need for Diversity and Gender Theory in Machine Learning. In Proceedings of the 1st International Workshop on Gender Equality in Software Engineering (Gothenburg, Sweden) (GE \u201918). Association for Computing Machinery, New York, NY, USA, 14\u201316. https://doi.org/10.1145/3195570.3195580",
+      "doi": "10.1145/3195570.3195580"
+    },
+    {
+      "text": "Marvin Levine. 1988. Effective problem solving. Prentice Hall, NJ, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Clayton Lewis. 1982. Using the \u201dthinking-aloud\u201d method in cognitive interface design. IBM T.J. Watson Research Center, Yorktown Heights, N.Y.",
+      "doi": ""
+    },
+    {
+      "text": "Colleen\u00a0M. Lewis and Niral Shah. 2015. How Equity and Inequity Can Emerge in Pair Programming. In Proceedings of the Eleventh Annual International Conference on International Computing Education Research(Omaha, Nebraska, USA) (ICER \u201915). Association for Computing Machinery, New York, NY, USA, 41\u201350. https://doi.org/10.1145/2787622.2787716",
+      "doi": "10.1145/2787622.2787716"
+    },
+    {
+      "text": "Zhen Li and Eileen Kraemer. 2014. Social Effects of Pair Programming Mitigate Impact of Bounded Rationality. In Proceedings of the 45th ACM Technical Symposium on Computer Science Education (Atlanta, Georgia, USA) (SIGCSE \u201914). Association for Computing Machinery, New York, NY, USA, 385\u2013390. https://doi.org/10.1145/2538862.2538968",
+      "doi": "10.1145/2538862.2538968"
+    },
+    {
+      "text": "Dapeng Liu, Andrian Marcus, Denys Poshyvanyk, and Vaclav Rajlich. 2007. Feature Location via Information Retrieval Based Filtering of a Single Scenario Execution Trace. In Proceedings of the Twenty-Second IEEE/ACM International Conference on Automated Software Engineering (Atlanta, Georgia, USA) (ASE \u201907). Association for Computing Machinery, New York, NY, USA, 234\u2013243. https://doi.org/10.1145/1321631.1321667",
+      "doi": "10.1145/1321631.1321667"
+    },
+    {
+      "text": "Zhiqiang Liu and Dieter\u00a0J Schonwetter. 2004. Teaching creativity in engineering. International Journal of Engineering Education 20, 5 (2004), 801\u2013808.",
+      "doi": ""
+    },
+    {
+      "text": "Irene Lopatovska and Harriet Williams. 2018. Personification of the Amazon Alexa: BFF or a Mindless Companion. In Proceedings of the 2018 Conference on Human Information Interaction & Retrieval (New Brunswick, NJ, USA) (CHIIR \u201918). Association for Computing Machinery, New York, NY, USA, 265\u2013268. https://doi.org/10.1145/3176349.3176868",
+      "doi": "10.1145/3176349.3176868"
+    },
+    {
+      "text": "Ewa Luger and Abigail Sellen. 2016. \u201dLike Having a Really Bad PA\u201d: The Gulf between User Expectation and Experience of Conversational Agents. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 5286\u20135297. https://doi.org/10.1145/2858036.2858288",
+      "doi": "10.1145/2858036.2858288"
+    },
+    {
+      "text": "A. Marcus, V. Rajlich, J. Buchta, M. Petrenko, and A. Sergeyev. 2005. Static techniques for concept location in object-oriented code. In 13th International Workshop on Program Comprehension (IWPC\u201905). IEEE Computer Society, Los Alamitos, CA, USA, 33\u201342.",
+      "doi": ""
+    },
+    {
+      "text": "Yukihiro Matsubara and Mitsuo Nagamachi. 1996. Motivation system and human model for intelligent tutoring. In Intelligent Tutoring Systems, Claude Frasson, Gilles Gauthier, and Alan Lesgold (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 139\u2013147.",
+      "doi": ""
+    },
+    {
+      "text": "Charlie McDowell, Linda Werner, Heather Bullock, and Julian Fernald. 2002. The Effects of Pair-Programming on Performance in an Introductory Programming Course. In Proceedings of the 33rd SIGCSE Technical Symposium on Computer Science Education(Cincinnati, Kentucky) (SIGCSE \u201902). Association for Computing Machinery, New York, NY, USA, 38\u201342. https://doi.org/10.1145/563340.563353",
+      "doi": "10.1145/563340.563353"
+    },
+    {
+      "text": "Charles Mcdowell, Linda Werner, Heather Bullock, and Julian Fernald. 2006. Pair programming improves student retention, confidence, and program quality. Commun. ACM 49 (08 2006), 90\u201395. https://doi.org/10.1145/1145293",
+      "doi": ""
+    },
+    {
+      "text": "Charlie McDowell, Linda Werner, Heather\u00a0E. Bullock, and Julian Fernald. 2003. The Impact of Pair Programming on Student Performance, Perception and Persistence. In Proceedings of the 25th International Conference on Software Engineering (Portland, Oregon) (ICSE \u201903). IEEE Computer Society, USA, 602\u2013607.",
+      "doi": "10.5555/776816.776899"
+    },
+    {
+      "text": "Meiliana, Irwandhi Septian, Ricky\u00a0Setiawan Alianto, Daniel, and Ford\u00a0Lumban Gaol. 2017. Automated Test Case Generation from UML Activity Diagram and Sequence Diagram using Depth First Search Algorithm. Procedia Computer Science 116 (2017), 629 \u2013 637. http://www.sciencedirect.com/science/article/pii/S1877050917320732 Discovery and innovation of computer science technology in artificial intelligence era: The 2nd International Conference on Computer Science and Computational Intelligence (ICCSCI 2017).",
+      "doi": "10.1016/j.procs.2017.10.029"
+    },
+    {
+      "text": "Christopher Mendez, Hema\u00a0Susmita Padala, Zoe Steine-Hanson, Claudia Hilderbrand, Amber Horvath, Charles Hill, Logan Simpson, Nupoor Patil, Anita Sarma, and Margaret Burnett. 2018. Open Source Barriers to Entry, Revisited: A Sociotechnical Perspective. In Proceedings of the 40th International Conference on Software Engineering (Gothenburg, Sweden) (ICSE \u201918). Association for Computing Machinery, New York, NY, USA, 1004\u20131015. https://doi.org/10.1145/3180155.3180241",
+      "doi": "10.1145/3180155.3180241"
+    },
+    {
+      "text": "M. Minsky, R. Kurzweil, and S. Mann. 2013. The society of intelligent veillance. In 2013 IEEE International Symposium on Technology and Society (ISTAS): Social Implications of Wearable Computing and Augmediated Reality in Everyday Life. IEEE, USA, 13\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "Matheus Monteiro, Erica Souza, Andre Endo, and Nandamudi Vijaykumar. 2019. Analyzing graph-based algorithms employed to generate test cases from finite state machines. In 2019 IEEE Latin American Test Symposium (LATS). IEEE, USA. https://doi.org/10.1109/LATW.2019.8704603",
+      "doi": ""
+    },
+    {
+      "text": "Susanne\u00a0van Mulken, Elisabeth Andr\u00e9, and Jochen M\u00fcller. 1999. An Empirical Study on the Trustworthiness of Life-like Interface Agents. In Proceedings of the HCI International \u201999 (the 8th International Conference on Human-Computer Interaction) on Human-Computer Interaction: Communication, Cooperation, and Application Design-Volume 2 - Volume 2. L. Erlbaum Associates Inc., Hillsdale, NJ, USA, 152\u2013156.",
+      "doi": ""
+    },
+    {
+      "text": "Kumiko Murata. 1994. Intrusive or co-operative? A cross-cultural study of interruption. Journal of Pragmatics 21, 4 (1994), 385 \u2013 400. http://www.sciencedirect.com/science/article/pii/0378216694900116",
+      "doi": ""
+    },
+    {
+      "text": "Emerson Murphy-Hill and Gail\u00a0C. Murphy. 2011. Peer Interaction Effectively, yet Infrequently, Enables Programmers to Discover New Tools. In Proceedings of the ACM 2011 Conference on Computer Supported Cooperative Work (Hangzhou, China) (CSCW \u201911). Association for Computing Machinery, New York, NY, USA, 405\u2013414. https://doi.org/10.1145/1958824.1958888",
+      "doi": "10.1145/1958824.1958888"
+    },
+    {
+      "text": "Nachiappan Nagappan, Laurie Williams, Miriam Ferzli, Eric Wiebe, Kai Yang, Carol Miller, and Suzanne Balik. 2003. Improving the CS1 Experience with Pair Programming. SIGCSE Bull. 35, 1 (Jan. 2003), 359\u2013362. https://doi.org/10.1145/792548.612006",
+      "doi": "10.1145/792548.612006"
+    },
+    {
+      "text": "Sik\u00a0Hung Ng, Mark Brooke, and Michael Dunne. 1995. Interruption and Influence in Discussion Groups. Journal of Language and Social Psychology 14, 4 (1995), 369\u2013381. https://doi.org/10.1177/0261927X950144003",
+      "doi": ""
+    },
+    {
+      "text": "Haoran Niu, Iman Keivanloo, and Ying Zou. 2017. Learning to rank code examples for code search engines. Empirical Software Engineering 22, 1 (2017), 259\u2013291.",
+      "doi": "10.1007/s10664-015-9421-5"
+    },
+    {
+      "text": "John Nosek. 1998. The Case for Collaborative Programming. Commun. ACM 41 (03 1998). https://doi.org/10.1145/272287.272333",
+      "doi": ""
+    },
+    {
+      "text": "Clem O\u2019Donnell, Jim Buckley, Abdulhussain Mahdi, John Nelson, and Michael English. 2015. Evaluating Pair-Programming for Non-Computer Science Major Students. In Proceedings of the 46th ACM Technical Symposium on Computer Science Education (Kansas City, Missouri, USA) (SIGCSE \u201915). Association for Computing Machinery, New York, NY, USA, 569\u2013574. https://doi.org/10.1145/2676723.2677289",
+      "doi": "10.1145/2676723.2677289"
+    },
+    {
+      "text": "Sharon Oviatt and Philip Cohen. 2000. Perceptual User Interfaces: Multimodal Interfaces That Process What Comes Naturally. Commun. ACM 43, 3 (March 2000), 45\u201353. https://doi.org/10.1145/330534.330538",
+      "doi": "10.1145/330534.330538"
+    },
+    {
+      "text": "Frank Pajares. 2002. Overview of social cognitive theory and of self-efficacy.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0Walsh Palmieri. 2002. Knowledge Management Through Pair Programming.",
+      "doi": ""
+    },
+    {
+      "text": "George Polya. 2004. How to solve it: A new aspect of mathematical method. Vol.\u00a085. Princeton university press, NJ, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Leo Porter and Beth Simon. 2013. Retaining Nearly One-Third More Majors with a Trio of Instructional Best Practices in CS1. In Proceeding of the 44th ACM Technical Symposium on Computer Science Education (Denver, Colorado, USA) (SIGCSE \u201913). Association for Computing Machinery, New York, NY, USA, 165\u2013170. https://doi.org/10.1145/2445196.2445248",
+      "doi": "10.1145/2445196.2445248"
+    },
+    {
+      "text": "Lutz Prechelt, Ulrich St\u00e4rk, and Stephan Salinger. 2009. 7 Types of Cooperation Episodes in Side-by-Side Programming. In Proc. 21st Annual Workshop of the Psychology of Programming Interest Group (PPIG \u201909). ACM, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Mukund Raghothaman, Yi Wei, and Youssef Hamadi. 2016. SWIM: Synthesizing What i Mean: Code Search and Idiomatic Snippet Synthesis. In Proceedings of the 38th International Conference on Software Engineering (Austin, Texas) (ICSE \u201916). Association for Computing Machinery, New York, NY, USA, 357\u2013367. https://doi.org/10.1145/2884781.2884808",
+      "doi": "10.1145/2884781.2884808"
+    },
+    {
+      "text": "P. Rane. 2017. Automatic Generation of Test Cases for Agile using Natural Language Processing.",
+      "doi": ""
+    },
+    {
+      "text": "Genaro Rebolledo-Mendez, Sara de Freitas, Jose\u00a0Rafael Rojano-Caceres, and Alma\u00a0Rosa Garc\u00eda-Gaona. 2010. An Empirical Examination of the Relation Between Attention and Motivation in Computer-Based Education: a Modeling Approach. In Proceedings of the Twenty-Third International Florida Artificial Intelligence Research Society Conference, May 19-21, 2010, Daytona Beach, Florida, USA, Hans\u00a0W. Guesgen and R.\u00a0Charles Murray (Eds.). AAAI Press, USA, 74\u201379.",
+      "doi": ""
+    },
+    {
+      "text": "Genaro Rebolledo-Mendez, Benedict du Boulay, and Rosemary Luckin. 2006. Motivating the Learner: An Empirical Evaluation. In Intelligent Tutoring Systems, Mitsuru Ikeda, Kevin\u00a0D. Ashley, and Tak-Wai Chan (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 545\u2013554.",
+      "doi": ""
+    },
+    {
+      "text": "Laurel\u00a0D Riek. 2012. Wizard of oz studies in hri: a systematic review and new reporting guidelines. Journal of Human-Robot Interaction 1, 1 (2012), 119\u2013136.",
+      "doi": "10.5898/JHRI.1.1.Riek"
+    },
+    {
+      "text": "Peter Robe. 2020. Designing PairBuddy \u2013 Conversational Agent for Pair. https://drive.google.com/drive/folders/1vIOdro0pg8C1jSB42KzYrDRKO0PVhqZ1?usp=sharing",
+      "doi": ""
+    },
+    {
+      "text": "T.\u00a0J. Robertson, Shrinu Prabhakararao, Margaret Burnett, Curtis Cook, Joseph\u00a0R. Ruthruff, Laura Beckwith, and Amit Phalgune. 2004. Impact of Interruption Style on End-User Debugging. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vienna, Austria) (CHI \u201904). Association for Computing Machinery, New York, NY, USA, 287\u2013294. https://doi.org/10.1145/985692.985729",
+      "doi": "10.1145/985692.985729"
+    },
+    {
+      "text": "Fernando\u00a0J. Rodr\u00edguez, Kimberly\u00a0Michelle Price, and Kristy\u00a0Elizabeth Boyer. 2017. Exploring the Pair Programming Process: Characteristics of Effective Collaboration. In Proceedings of the 2017 ACM SIGCSE Technical Symposium on Computer Science Education (Seattle, Washington, USA) (SIGCSE \u201917). Association for Computing Machinery, New York, NY, USA, 507\u2013512. https://doi.org/10.1145/3017680.3017748",
+      "doi": "10.1145/3017680.3017748"
+    },
+    {
+      "text": "Omar Ruvalcaba, Linda Werner, and Jill Denner. 2016. Observations of Pair Programming: Variations in Collaboration Across Demographic Groups. In Proceedings of the 47th ACM Technical Symposium on Computing Science Education (Memphis, Tennessee, USA) (SIGCSE \u201916). Association for Computing Machinery, New York, NY, USA, 90\u201395. https://doi.org/10.1145/2839509.2844558",
+      "doi": "10.1145/2839509.2844558"
+    },
+    {
+      "text": "Jeffrey\u00a0S. Saltz and Ivan Shamshurin. 2019. Exploring pair programming beyond computer science: a case study in its use in data science/data engineering. International Journal of Higher Education and Sustainability 2, 4(2019), 265\u2013278. https://doi.org/10.1504/IJHES.2019.103360",
+      "doi": ""
+    },
+    {
+      "text": "T. Savage, M. Revelle, and D. Poshyvanyk. 2010. FLAT3: feature location and textual tracing tool. In 2010 ACM/IEEE 32nd International Conference on Software Engineering, Vol.\u00a02. ACM, USA, 255\u2013258.",
+      "doi": ""
+    },
+    {
+      "text": "Philippe\u00a0G. Schyns, Lucy\u00a0S. Petro, and Marie\u00a0L. Smith. 2009. Transmission of Facial Expressions of Emotion Co-Evolved with Their Efficient Decoding in the Brain: Behavioral and Brain Evidence. PLOS ONE 4, 5 (05 2009), 1\u201316. https://doi.org/10.1371/journal.pone.0005625",
+      "doi": ""
+    },
+    {
+      "text": "C.\u00a0B. Seaman. 1999. \u201dQualitative Methods in Empirical Studies of Software Engineering\u201d. IEEE Transactions on Software Engineering 25, 4 (1999), 557\u2013572.",
+      "doi": "10.1109/32.799955"
+    },
+    {
+      "text": "A. Seeger, J. Pfeiffer, and A. Heinzl. 2017. When Do We Need a Human? Anthropomorphic Design and Trustworthiness of Conversational Agents. In Proceedings of the SixteenthAnnual Pre-ICIS Workshop on HCI Research in MIS. ACM, USA, 1\u20135.",
+      "doi": ""
+    },
+    {
+      "text": "Ameneh Shamekhi, Q.\u00a0Vera Liao, Dakuo Wang, Rachel K.\u00a0E. Bellamy, and Thomas Erickson. 2018. Face Value? Exploring the Effects of Embodiment for a Group Facilitation Agent. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173965",
+      "doi": "10.1145/3173574.3173965"
+    },
+    {
+      "text": "R. Sharma, S. Gulia, and K.\u00a0K. Biswas. 2014. Automated generation of activity and sequence diagrams from natural language requirements. In 9th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE). SCITEPRESS Digital Library, Portugal, 1\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Arun Shekhar and Nicola Marsden. 2018. Cognitive Walkthrough of a Learning Management System with Gendered Personas. In Proceedings of the 4th Conference on Gender & IT (Heilbronn, Germany) (GenderIT \u201918). Association for Computing Machinery, New York, NY, USA, 191\u2013198. https://doi.org/10.1145/3196839.3196869",
+      "doi": "10.1145/3196839.3196869"
+    },
+    {
+      "text": "F. Shull, J. Singer, and D.\u00a0I.\u00a0K. Sj\u00f8berg. 2008. Guide to Advanced Empirical Software Engineering: Springer.",
+      "doi": ""
+    },
+    {
+      "text": "Candace\u00a0L. Sidner, Christopher Lee, Cory\u00a0D. Kidd, Neal Lesh, and Charles Rich. 2005. Explorations in engagement for humans and robots. Artificial Intelligence 166, 1 (2005), 140 \u2013 164. http://www.sciencedirect.com/science/article/pii/S0004370205000512",
+      "doi": "10.5555/1090725.1644610"
+    },
+    {
+      "text": "Simon and Susan Snowdon. 2011. Explaining Program Code: Giving Students the Answer Helps - but Only Just. In Proceedings of the Seventh International Workshop on Computing Education Research (Providence, Rhode Island, USA) (ICER \u201911). Association for Computing Machinery, New York, NY, USA, 93\u2013100. https://doi.org/10.1145/2016911.2016931",
+      "doi": ""
+    },
+    {
+      "text": "Zach Sims. 2020. Code Academy. https://www.codecademy.com/",
+      "doi": ""
+    },
+    {
+      "text": "Arsenij Solovjev. 2020. Saros Project. https://www.saros-project.org/",
+      "doi": ""
+    },
+    {
+      "text": "J\u00f6rg Spieler. 2020. UCDetector. Open Source. http://www.ucdetector.org/",
+      "doi": ""
+    },
+    {
+      "text": "Hugo Spiers, Bradley Love, Mike Pelley, Charlotte Gibb, and Robin Murphy. 2016. Anterior Temporal Lobe Tracks the Formation of Prejudice. Journal of Cognitive Neuroscience 29 (10 2016), 1\u201315. https://doi.org/10.1162/jocn_a_01056",
+      "doi": ""
+    },
+    {
+      "text": "Lee Sproull, Mani Subramani, Sara Kiesler, Janet\u00a0H. Walker, and Keith Waters. 1996. When the Interface is a Face. Hum.-Comput. Interact. 11, 2 (June 1996), 97\u2013124. https://doi.org/10.1207/s15327051hci1102_1",
+      "doi": "10.1207/s15327051hci1102_1"
+    },
+    {
+      "text": "R. Strachan, A. Peixoto, I. Emembolu, and M.\u00a0T. Restivo. 2018. Women in engineering: Addressing the gender gap, exploring trust and our unconscious bias. In 2018 IEEE Global Engineering Education Conference (EDUCON). IEEE, USA, 2088\u20132093.",
+      "doi": ""
+    },
+    {
+      "text": "Anselm\u00a0L. Strauss and Juliet\u00a0M. Corbin. 1998. Basics of qualitative research: techniques and procedures for developing grounded theory. Sage Publications, Thousand Oaks, California, USA. XIII, 312 s pages.",
+      "doi": ""
+    },
+    {
+      "text": "Holotech Studios. 2020. Facerig. https://facerig.com/",
+      "doi": ""
+    },
+    {
+      "text": "S.\u00a0Shyam Sundar and Jinyoung Kim. 2019. Machine Heuristic: When We Trust Computers More than Humans with Our Personal Information. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20139. https://doi.org/10.1145/3290605.3300768",
+      "doi": "10.1145/3290605.3300768"
+    },
+    {
+      "text": "Akikazu Takeuchi and Taketo Naito. 1995. Situated Facial Displays: Towards Social Interaction. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201995). ACM Press/Addison-Wesley Publishing Co., New York, NY, USA, 450\u2013455. https://doi.org/10.1145/223904.223965",
+      "doi": ""
+    },
+    {
+      "text": "Germany TeamViewer\u00a0AG. 2019. TeamViewer. https://www.teamviewer.com/en-us/",
+      "doi": ""
+    },
+    {
+      "text": "TechSmith. 2019. Morae. http://www.techsmith.com/morae.asp",
+      "doi": ""
+    },
+    {
+      "text": "Diana-Cezara Toader, Gra\u021biela Boca, Rita Toader, Mara M\u0103celaru, Cezar Toader, Diana Ighian, and Adrian\u00a0T. R\u0103dulescu. 2019. The Effect of Social Presence and Chatbot Errors on Trust. Sustainability 12, 1 (Dec 2019), 256. https://doi.org/10.3390/su12010256",
+      "doi": ""
+    },
+    {
+      "text": "E.\u00a0Paul Torrance. 1970. Influence of Dyadic Interaction on Creative Functioning. Psychological Reports 26, 2 (1970), 391\u2013394. https://doi.org/10.2466/pr0.1970.26.2.391",
+      "doi": ""
+    },
+    {
+      "text": "Despina Tsompanoudi, Maya Satratzemi, Stelios Xinogalos, and Leonidas Karamitopoulos. 2019. An Empirical Study on Factors related to Distributed Pair Programming. (04 2019). https://www.learntechlib.org/p/208576",
+      "doi": ""
+    },
+    {
+      "text": "Mengping Tsuei. 2017. Learning behaviours of low-achieving children\u2019s mathematics learning in using of helping tools in a synchronous peer-tutoring system. Interactive Learning Environments 25, 2 (2017), 147\u2013161. https://doi.org/10.1080/10494820.2016.1276078",
+      "doi": ""
+    },
+    {
+      "text": "ALINA Tugend. 2007. Why is asking for help so difficult.",
+      "doi": ""
+    },
+    {
+      "text": "Susanne van Mulken, Elisabeth Andr\u00e9, and Jochen M\u00fcller. 1998. The Persona Effect: How Substantial Is It?. In People and Computers XIII, Hilary Johnson, Lawrence Nigay, and Christopher Roast (Eds.). Springer London, London, 53\u201366.",
+      "doi": ""
+    },
+    {
+      "text": "Mihaela Vorvoreanu, Lingyi Zhang, Yun-Han Huang, Claudia Hilderbrand, Zoe Steine-Hanson, and Margaret Burnett. 2019. From Gender Biases to Gender-Inclusive Design: An Empirical Investigation. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). ACM, New York, NY, USA, Article 53, 14\u00a0pages. https://doi.org/10.1145/3290605.3300283",
+      "doi": "10.1145/3290605.3300283"
+    },
+    {
+      "text": "Tony Wagner and Robert\u00a0A Compton. 2012. Creating innovators: The making of young people who will change the world. Simon and Schuster, USA.",
+      "doi": ""
+    },
+    {
+      "text": "P. Wargnier, G. Carletti, Y. Laurent-Corniquet, S. Benveniste, P. Jouvelot, and A. Rigaud. 2016. Field evaluation with cognitively-impaired older adults of attention management in the Embodied Conversational Agent Louise. In 2016 IEEE International Conference on Serious Games and Applications for Health (SeGAH). IEEE Computer Society, Los Alamitos, CA, USA, 1\u20138. https://doi.org/10.1109/SeGAH.2016.7586282",
+      "doi": ""
+    },
+    {
+      "text": "Katharina Weitz, Dominik Schiller, Ruben Schlagowski, Tobias Huber, and Elisabeth Andr\u00e9. 2019. \u201dDo You Trust Me?\u201d: Increasing User-Trust by Integrating Virtual Agents in Explainable AI Interaction Design. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (Paris, France) (IVA \u201919). Association for Computing Machinery, New York, NY, USA, 7\u20139. https://doi.org/10.1145/3308532.3329441",
+      "doi": "10.1145/3308532.3329441"
+    },
+    {
+      "text": "Linda\u00a0L. Werner, Brian Hanks, and Charlie McDowell. 2004. Pair-Programming Helps Female Computer Science Students. J. Educ. Resour. Comput. 4, 1 (March 2004), 4\u2013es. https://doi.org/10.1145/1060071.1060075",
+      "doi": "10.1145/1060071.1060075"
+    },
+    {
+      "text": "CANDACE WEST and DON\u00a0H. ZIMMERMAN. 1987. Doing Gender. Gender & Society 1, 2 (1987), 125\u2013151. https://doi.org/10.1177/0891243287001002002",
+      "doi": ""
+    },
+    {
+      "text": "Jason Weston, Antoine Bordes, Sumit Chopra, Alexander Rush, Bart van Merri\u00ebnboer, Armand Joulin, and Tomas Mikolov. 2015. Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks. arxiv:1502.05698\u00a0[cs.AI]",
+      "doi": ""
+    },
+    {
+      "text": "Wayne\u00a0A Wickelgren. 1974. How to solve problems: Elements of a theory of problems and problem solving. WH Freeman San Francisco, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Laurie Williams and Bob Kessler. 2000. The Effects of \u201dPair-Pressure\u201d and \u201dPair-Learning\u201d on Software Engineering Education. In Proceedings of the 13th Conference on Software Engineering Education & Training(CSEET \u201900). IEEE Computer Society, USA, 59.",
+      "doi": ""
+    },
+    {
+      "text": "Laurie Williams and Robert Kessler. 2002. Pair Programming Illuminated. Addison-Wesley Longman Publishing Co., Inc., USA.",
+      "doi": "10.5555/548833"
+    },
+    {
+      "text": "L. Williams, R.\u00a0R. Kessler, W. Cunningham, and R. Jeffries. 2000. Strengthening the case for pair programming. IEEE Software 17, 4 (2000), 19\u201325.",
+      "doi": "10.1109/52.854064"
+    },
+    {
+      "text": "Laurie Williams, D.\u00a0Scott McCrickard, Lucas Layman, and Khaled Hussein. 2008. Eleven Guidelines for Implementing Pair Programming in the Classroom. In Proceedings of the Agile 2008(AGILE \u201908). IEEE Computer Society, USA, 445\u2013452. https://doi.org/10.1109/Agile.2008.12",
+      "doi": "10.1109/Agile.2008.12"
+    },
+    {
+      "text": "Laurie Williams, Charlie McDowell, Nachiappan Nagappan, Julian Fernald, and Linda Werner. 2003. Building Pair Programming Knowledge through a Family of Experiments. In Proceedings of the 2003 International Symposium on Empirical Software Engineering(ISESE \u201903). IEEE Computer Society, USA, 143.",
+      "doi": "10.5555/942801.943642"
+    },
+    {
+      "text": "Laurie Williams, Eric Wiebe, Kai Yang, Miriam Ferzli, and Carol Miller. 2002. In Support of Pair Programming in the Introductory Computer Science Course. Computer Science Education 12, 3 (2002), 197\u2013212. https://doi.org/10.1076/csed.12.3.197.8618",
+      "doi": ""
+    },
+    {
+      "text": "Laurie\u00a0A. Williams. 2010. Pair Programming. John Wiley & Sons, USA. 311\u2013322 pages.",
+      "doi": ""
+    },
+    {
+      "text": "Laurie\u00a0A. Williams and Robert\u00a0R. Kessler. 2000. All I Really Need to Know about Pair Programming I Learned in Kindergarten. Commun. ACM 43, 5 (May 2000), 108\u2013114. https://doi.org/10.1145/332833.332848",
+      "doi": "10.1145/332833.332848"
+    },
+    {
+      "text": "Aaron Wilson, Margaret Burnett, Laura Beckwith, Orion Granatir, Ledah Casburn, Curtis Cook, Mike Durham, and Gregg Rothermel. 2003. Harnessing Curiosity to Increase Correctness in End-User Programming. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Ft. Lauderdale, Florida, USA) (CHI \u201903). Association for Computing Machinery, New York, NY, USA, 305\u2013312. https://doi.org/10.1145/642611.642665",
+      "doi": "10.1145/642611.642665"
+    },
+    {
+      "text": "James Wilson and Daniel Rosenberg. 1988. Rapid prototyping for user interface design. In Handbook of human-computer interaction. Elsevier, Amsterdam, Netherlands, 859\u2013875.",
+      "doi": ""
+    },
+    {
+      "text": "Anita Woolley, Ishani Aggarwal, and Thomas Malone. 2015. Collective Intelligence and Group Performance. Current Directions in Psychological Science 24 (12 2015), 420\u2013424. https://doi.org/10.1177/0963721415599543",
+      "doi": ""
+    },
+    {
+      "text": "Nick Yee, Jeremy\u00a0N Bailenson, and Kathryn Rickertsen. 2007. A Meta-analysis of the Impact of the Inclusion and Realism of Human-like Faces on User Experiences in Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201907). ACM, New York, NY, USA, 1\u201310. https://doi.org/10.1145/1240624.1240626",
+      "doi": "10.1145/1240624.1240626"
+    },
+    {
+      "text": "Kimberly\u00a0Michelle Ying, Lydia\u00a0G. Pezzullo, Mohona Ahmed, Kassandra Crompton, Jeremiah Blanchard, and Kristy\u00a0Elizabeth Boyer. 2019. In Their Own Words: Gender Differences in Student Perceptions of Pair Programming. In Proceedings of the 50th ACM Technical Symposium on Computer Science Education(Minneapolis, MN, USA) (SIGCSE \u201919). Association for Computing Machinery, New York, NY, USA, 1053\u20131059. https://doi.org/10.1145/3287324.3287380",
+      "doi": "10.1145/3287324.3287380"
+    },
+    {
+      "text": "Jeff Youngquist. 2009. The Effect of Interruptions and Dyad Gender Combination on Perceptions of Interpersonal Dominance. Communication Studies 60, 2 (2009), 147\u2013163. https://doi.org/10.1080/10510970902834874",
+      "doi": ""
+    },
+    {
+      "text": "Hans Yuan and Yingjun Cao. 2019. Hybrid Pair Programming - A Promising Alternative to Standard Pair Programming. In Proceedings of the 50th ACM Technical Symposium on Computer Science Education(Minneapolis, MN, USA) (SIGCSE \u201919). Association for Computing Machinery, New York, NY, USA, 1046\u20131052. https://doi.org/10.1145/3287324.3287352",
+      "doi": "10.1145/3287324.3287352"
+    },
+    {
+      "text": "Mohan Zalake, Julia Woodward, Amanpreet Kapoor, and Benjamin Lok. 2018. Assessing the Impact of Virtual Human\u2019s Appearance on Users\u2019 Trust Levels. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (Sydney, NSW, Australia) (IVA \u201918). Association for Computing Machinery, New York, NY, USA, 329\u2013330. https://doi.org/10.1145/3267851.3267863",
+      "doi": "10.1145/3267851.3267863"
+    },
+    {
+      "text": "Yong Zhao. 2012. World class learners: Educating creative and entrepreneurial students. Corwin Press, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Rui Zhi, Samiha Marwan, Yihuan Dong, Nicholas Lytle, Thomas\u00a0W Price, and Tiffany Barnes. 2019. Toward Data-Driven Example Feedback for Novice Programming. In International Educational Data Mining Society. ERIC, USA, 218\u2013227.",
+      "doi": ""
+    },
+    {
+      "text": "Franz Zieris and Lutz Prechelt. 2014. On Knowledge Transfer Skill in Pair Programming. In Proceedings of the 8th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (Torino, Italy) (ESEM \u201914). Association for Computing Machinery, New York, NY, USA, Article 11, 10\u00a0pages. https://doi.org/10.1145/2652524.2652529",
+      "doi": "10.1145/2652524.2652529"
+    },
+    {
+      "text": "Franz Zieris and Lutz Prechelt. 2020. Explaining Pair Programming Session Dynamics from Knowledge Gaps. In Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering (Seoul, South Korea) (ICSE \u201920). Association for Computing Machinery, New York, NY, USA, 421\u2013432. https://doi.org/10.1145/3377811.3380925",
+      "doi": "10.1145/3377811.3380925"
+    }
+  ]
+}

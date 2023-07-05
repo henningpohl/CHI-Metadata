@@ -1,0 +1,411 @@
+{
+  "doi": "10.1145/3544548.3581266",
+  "title": "iBall: Augmenting Basketball Videos with Gaze-moderated Embedded Visualizations",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2023,
+  "badges": [],
+  "abstract": "We present iBall, a basketball video-watching system that leverages gaze-moderated embedded visualizations to facilitate game understanding and engagement of casual fans. Video broadcasting and online video platforms make watching basketball games increasingly accessible. Yet, for new or casual fans, watching basketball videos is often confusing due to their limited basketball knowledge and the lack of accessible, on-demand information to resolve their confusion. To assist casual fans in watching basketball videos, we compared the game-watching behaviors of casual and die-hard fans in a formative study and developed iBall based on the findings. iBall embeds visualizations into basketball videos using a computer vision pipeline, and automatically adapts the visualizations based on the game context and users\u2019 gaze, helping casual fans appreciate basketball games without being overwhelmed. We confirmed the usefulness, usability, and engagement of iBall in a study with 16 casual fans, and further collected feedback from 8 die-hard fans.",
+  "authors": [
+    {
+      "name": "Zhutian Chen",
+      "institution": "John A. Paulson School Of Engineering And Applied Sciences, Harvard University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660927664",
+      "orcid": "0000-0002-2313-0612"
+    },
+    {
+      "name": "Qisen Yang",
+      "institution": "Visual Computing Group, Harvard University, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782704",
+      "orcid": "0000-0002-8378-735X"
+    },
+    {
+      "name": "Jiarui Shan",
+      "institution": "Visual Computing Group, Harvard University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780177",
+      "orcid": "0000-0002-2304-2129"
+    },
+    {
+      "name": "Tica Lin",
+      "institution": "Visual Computing Group, Harvard University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702538",
+      "orcid": "0000-0002-2860-0871"
+    },
+    {
+      "name": "Johanna Beyer",
+      "institution": "Harvard University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81339490397",
+      "orcid": "0000-0002-3505-9171"
+    },
+    {
+      "name": "Haijun Xia",
+      "institution": "Department of Cognitive Science and Design Lab, University of California, San Diego, United States",
+      "img": "/do/10.1145/contrib-99658640651/rel-imgonly/haijun_xia_acm.jpg",
+      "acmid": "99658640651",
+      "orcid": "0000-0002-9425-0881"
+    },
+    {
+      "name": "Hanspeter Pfister",
+      "institution": "Visual Computing Group, Harvard University, United States",
+      "img": "/do/10.1145/contrib-81100199891/rel-imgonly/hans-web.jpg",
+      "acmid": "81100199891",
+      "orcid": "0000-0002-3620-2582"
+    }
+  ],
+  "references": [
+    {
+      "text": "2022. DOTA 2. https://www.dota2.com/.",
+      "doi": ""
+    },
+    {
+      "text": "2022. Eyeware Beam. https://beam.eyeware.tech.",
+      "doi": ""
+    },
+    {
+      "text": "2022. League of Legends. https://www.leagueoflegends.com/.",
+      "doi": ""
+    },
+    {
+      "text": "2022. NBA Shot Charts. http://nbashotcharts.com/.",
+      "doi": ""
+    },
+    {
+      "text": "2022. NBA Stats. https://www.nba.com/stats/.",
+      "doi": ""
+    },
+    {
+      "text": "2022. Streaming Depth Data from the TrueDepth Camera. https://developer.apple.com/documentation/avfoundation/additional_data_capture/streaming_depth_data_from_the_truedepth_camera.",
+      "doi": ""
+    },
+    {
+      "text": "Nir Aharon, Roy Orfaig, and Ben-Zion Bobrovsky. 2022. BoT-SORT: Robust Associations Multi-Pedestrian Tracking. arXiv preprint arXiv:2206.14651(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Tanja Blascheck, Kuno Kurzhals, Michael Raschke, Michael Burch, Daniel Weiskopf, and Thomas Ertl. 2014. State-of-the-Art of Visualization for Eye Tracking Data. In Proc. of EuroVis. Eurographics Association. https://doi.org/10.2312/eurovisstar.20141173",
+      "doi": ""
+    },
+    {
+      "text": "Michelle\u00a0A. Borkin, Zoya Bylinskii, Nam\u00a0Wook Kim, Constance\u00a0May Bainbridge, Chelsea\u00a0S. Yeh, Daniel Borkin, Hanspeter Pfister, and Aude Oliva. 2016. Beyond Memorability: Visualization Recognition and Recall. IEEE Trans. Vis. Comput. Graph. 22, 1 (2016), 519\u2013528. https://doi.org/10.1109/TVCG.2015.2467732",
+      "doi": "10.1109/TVCG.2015.2467732"
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2019. Reflecting on Reflexive Thematic Analysis. Qualitative Research in Sport, Exercise and Health 11, 4 (2019), 589\u2013597. https://doi.org/10.1080/2159676X.2019.1628806",
+      "doi": ""
+    },
+    {
+      "text": "Andreas Bulling and Hans Gellersen. 2010. Toward Mobile Eye-Based Human-Computer Interaction. IEEE Pervasive Comput. 9, 4 (2010), 8\u201312. https://doi.org/10.1109/MPRV.2010.86",
+      "doi": "10.1109/MPRV.2010.86"
+    },
+    {
+      "text": "Zoya Bylinskii, Nam\u00a0Wook Kim, Peter O\u2019Donovan, Sami Alsheikh, Spandan Madan, Hanspeter Pfister, Fr\u00e9do Durand, Bryan\u00a0C. Russell, and Aaron Hertzmann. 2017. Learning Visual Importance for Graphic Designs and Data Visualizations. In Proc. of UIST. ACM, 57\u201369. https://doi.org/10.1145/3126594.3126653",
+      "doi": "10.1145/3126594.3126653"
+    },
+    {
+      "text": "Holger Caesar, Jasper Uijlings, and Vittorio Ferrari. 2018. Coco-stuff: Thing and stuff classes in context. In Proceedings of the IEEE conference on computer vision and pattern recognition. 1209\u20131218.",
+      "doi": ""
+    },
+    {
+      "text": "Zhe Chen, Yuchen Duan, Wenhai Wang, Junjun He, Tong Lu, Jifeng Dai, and Yu Qiao. 2022. Vision Transformer Adapter for Dense Predictions. arXiv preprint arXiv:2205.08534(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Zhutian Chen, Qisen Yang, Xiao Xie, Johanna Beyer, Haijun Xia, Yingcai Wu, and Hanspeter Pfister. 2022. Sporthesia: Augmenting Sports Videos Using Natural Language. To appear in IEEE Transactions on Visualization and Computer Graphics (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Zhutian Chen, Shuainan Ye, Xiangtong Chu, Haijun Xia, Hui Zhang, Huamin Qu, and Yingcai Wu. 2022. Augmenting Sports Videos with VisCommentator. IEEE Trans. Vis. Comput. Graph. 28, 1 (2022), 824\u2013834. https://doi.org/10.1109/TVCG.2021.3114806",
+      "doi": "10.1109/TVCG.2021.3114806"
+    },
+    {
+      "text": "Shiwei Cheng, Zhiqiang Sun, Lingyun Sun, Kirsten Yee, and Anind\u00a0K. Dey. 2015. Gaze-Based Annotations for Reading Comprehension. In Proc. of CHI. ACM, 1569\u20131572. https://doi.org/10.1145/2702123.2702271",
+      "doi": "10.1145/2702123.2702271"
+    },
+    {
+      "text": "Xiangtong Chu, Xiao Xie, Shuainan Ye, Haolin Lu, Hongguang Xiao, Zeqing Yuan, Zhutian Chen, Hui Zhang, and Yingcai Wu. 2022. TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations. IEEE Trans. Vis. Comput. Graph. 28, 1 (2022), 118\u2013128. https://doi.org/10.1109/TVCG.2021.3114861",
+      "doi": "10.1109/TVCG.2021.3114861"
+    },
+    {
+      "text": "Clippers. 2020. Court Vision. https://www.clipperscourtvision.com/.",
+      "doi": ""
+    },
+    {
+      "text": "Adrien Deli\u00e8ge, Anthony Cioppa, Silvio Giancola, Meisam\u00a0Jamshidi Seikavandi, Jacob\u00a0V. Dueholm, Kamal Nasrollahi, Bernard Ghanem, Thomas\u00a0B. Moeslund, and Marc\u00a0Van Droogenbroeck. 2021. SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos. In Proc. of CVPR. Computer Vision Foundation / IEEE, 4508\u20134519. https://doi.org/10.1109/CVPRW53098.2021.00508",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0T. Duchowski, Nathan Cournia, and Hunter\u00a0A. Murphy. 2004. Gaze-Contingent Displays: A Review. Cyberpsychology Behav. Soc. Netw. 7, 6 (2004), 621\u2013634. https://doi.org/10.1089/cpb.2004.7.621",
+      "doi": ""
+    },
+    {
+      "text": "Barrett Ens, Benjamin Bach, Maxime Cordeil, Ulrich Engelke, Marcos Serrano, Wesley Willett, Arnaud Prouzeau, Christoph Anthes, Wolfgang B\u00fcschel, Cody Dunne, Tim Dwyer, Jens Grubert, Jason\u00a0H. Haga, Nurit Kirshenbaum, Dylan Kobayashi, Tica Lin, Monsurat Olaosebikan, Fabian Pointecker, David Saffo, Nazmus Saquib, Dieter Schmalstieg, Danielle\u00a0Albers Szafir, Matt Whitlock, and Yalong Yang. 2021. Grand Challenges in Immersive Analytics. In Proc. of CHI. ACM, 459:1\u2013459:17. https://doi.org/10.1145/3411764.3446866",
+      "doi": "10.1145/3411764.3446866"
+    },
+    {
+      "text": "ESPN. 2022. ESPN. https://www.espn.com.",
+      "doi": ""
+    },
+    {
+      "text": "Anna\u00a0Maria Feit, Shane Williams, Arturo Toledo, Ann Paradiso, Harish Kulkarni, Shaun\u00a0K. Kane, and Meredith\u00a0Ringel Morris. 2017. Toward Everyday Gaze Input: Accuracy and Precision of Eye Tracking and Implications for Design. In Proc. of CHI. ACM, 1118\u20131130. https://doi.org/10.1145/3025453.3025599",
+      "doi": "10.1145/3025453.3025599"
+    },
+    {
+      "text": "Yu Fu and John\u00a0T. Stasko. 2022. Supporting Data-Driven Basketball Journalism through Interactive Visualization. In Proc. of CHI. ACM, 598:1\u2013598:17. https://doi.org/10.1145/3491102.3502078",
+      "doi": "10.1145/3491102.3502078"
+    },
+    {
+      "text": "Zheng Ge, Songtao Liu, Feng Wang, Zeming Li, and Jian Sun. 2021. YOLOX: Exceeding YOLO Series in 2021. arXiv preprint arXiv:2107.08430(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Zheng Ge, Songtao Liu, Feng Wang, Zeming Li, and Jian Sun. 2021. Yolox: Exceeding yolo series in 2021. arXiv preprint arXiv:2107.08430(2021).",
+      "doi": ""
+    },
+    {
+      "text": "K Goldsberry. 2012. Courtvision: New visual and spatial analytics for the NBA, in \u20182012 MIT Sloan Sports Analytics Conference\u2019. In MIT Sloan Sports Analytics Conference.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Greinacher and Jan-Niklas Voigt-Antons. 2020. Accuracy Assessment of ARKit 2 Based Gaze Estimation. In Proc. of HCII(Lecture Notes in Computer Science, Vol.\u00a012181). Springer, 439\u2013449. https://doi.org/10.1007/978-3-030-49059-1_32",
+      "doi": "10.1007/978-3-030-49059-1_32"
+    },
+    {
+      "text": "Chunhui Gu, Chen Sun, David\u00a0A. Ross, Carl Vondrick, Caroline Pantofaru, Yeqing Li, Sudheendra Vijayanarasimhan, George Toderici, Susanna Ricco, Rahul Sukthankar, Cordelia Schmid, and Jitendra Malik. 2018. AVA: A Video Dataset of Spatio-Temporally Localized Atomic Visual Actions. In Proc. of CVPR. Computer Vision Foundation / IEEE Computer Society, 6047\u20136056. https://doi.org/10.1109/CVPR.2018.00633",
+      "doi": ""
+    },
+    {
+      "text": "Rex Hartson and Pardha\u00a0S Pyla. 2012. The UX Book: Process and guidelines for ensuring a quality user experience. Elsevier.",
+      "doi": "10.5555/2207824"
+    },
+    {
+      "text": "Zhenyi He, Keru Wang, Brandon\u00a0Yushan Feng, Ruofei Du, and Ken Perlin. 2021. GazeChat: Enhancing Virtual Conferences with Gaze-aware 3D Photos. In Proc. of UIST. ACM, 769\u2013782. https://doi.org/10.1145/3472749.3474785",
+      "doi": "10.1145/3472749.3474785"
+    },
+    {
+      "text": "Christopher\u00a0G. Healey and James\u00a0T. Enns. 2012. Attention and Visual Memory in Visualization and Computer Graphics. IEEE Trans. Vis. Comput. Graph. 18, 7 (2012), 1170\u20131188. https://doi.org/10.1109/TVCG.2011.127",
+      "doi": "10.1109/TVCG.2011.127"
+    },
+    {
+      "text": "Min-Chun Hu, Ming-Hsiu Chang, Ja-Ling Wu, and Lin Chi. 2011. Robust Camera Calibration and Player Tracking in Broadcast Basketball Video. IEEE Trans. Multim. 13, 2 (2011), 266\u2013279. https://doi.org/10.1109/TMM.2010.2100373",
+      "doi": "10.1109/TMM.2010.2100373"
+    },
+    {
+      "text": "Eakta Jain, Yaser Sheikh, Ariel Shamir, and Jessica\u00a0K. Hodgins. 2015. Gaze-Driven Video Re-Editing. ACM Trans. Graph. 34, 2 (2015), 21:1\u201321:12. https://doi.org/10.1145/2699644",
+      "doi": "10.1145/2699644"
+    },
+    {
+      "text": "Will Kay, Jo\u00e3o Carreira, Karen Simonyan, Brian Zhang, Chloe Hillier, Sudheendra Vijayanarasimhan, Fabio Viola, Tim Green, Trevor Back, Paul Natsev, Mustafa Suleyman, and Andrew Zisserman. 2017. The Kinetics Human Action Video Dataset. CoRR abs/1705.06950(2017). arXiv:1705.06950http://arxiv.org/abs/1705.06950",
+      "doi": ""
+    },
+    {
+      "text": "Kuno Kurzhals, Fabian G\u00f6bel, Katrin Angerbauer, Michael Sedlmair, and Martin Raubal. 2020. A View on the Viewer: Gaze-Adaptive Captions for Videos. In Proc. of CHI. ACM, 1\u201312. https://doi.org/10.1145/3313831.3376266",
+      "doi": "10.1145/3313831.3376266"
+    },
+    {
+      "text": "Grete\u00a0Helena K\u00fctt, Kevin Lee, Ethan Hardacre, and Alexandra Papoutsaki. 2019. Eye-Write: Gaze Sharing for Collaborative Writing. In Proc. of CHI. ACM, 497. https://doi.org/10.1145/3290605.3300727",
+      "doi": "10.1145/3290605.3300727"
+    },
+    {
+      "text": "Tiffany C.\u00a0K. Kwok, Peter Kiefer, Victor\u00a0R. Schinazi, Benjamin Adams, and Martin Raubal. 2019. Gaze-Guided Narratives: Adapting Audio Guide Content to Gaze in Virtual and Real Environments. In Proc. of CHI. ACM, 491. https://doi.org/10.1145/3290605.3300721",
+      "doi": "10.1145/3290605.3300721"
+    },
+    {
+      "text": "Marcos Lage, Jorge\u00a0Piazentin Ono, Daniel Cervone, Justin Chiang, Carlos\u00a0A. Dietrich, and Cl\u00e1udio\u00a0T. Silva. 2016. StatCast Dashboard: Exploration of Spatiotemporal Baseball Data. IEEE Computer Graphics and Applications 36, 5 (2016), 28\u201337. https://doi.org/10.1109/MCG.2016.101",
+      "doi": ""
+    },
+    {
+      "text": "Tica Lin, Zhutian Chen, Yalong Yang, Daniele Chiappalupi, Johanna Beyer, and Hanspeter Pfister. 2022. The Quest for Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences. To appear in IEEE Transactions on Visualization and Computer Graphics (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Jingyuan Liu, Nazmus Saquib, Zhutian Chen, Rubaiat\u00a0Habib Kazi, Li-Yi Wei, Hongbo Fu, and Chiew-Lan Tai. 2022. VCoach: A Customizable Visualization and Analysis System for Video-based Running Coaching. CoRR abs/2204.08805(2022). https://doi.org/10.48550/arXiv.2204.08805 arXiv:2204.08805",
+      "doi": ""
+    },
+    {
+      "text": "Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo. 2021. Swin Transformer: Hierarchical Vision Transformer using Shifted Windows. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV).",
+      "doi": ""
+    },
+    {
+      "text": "Antonio\u00a0G. Losada, Roberto Ther\u00f3n, and Alejandro Benito. 2016. BKViz: A Basketball Visual Analysis Tool. IEEE Computer Graphics and Applications 36, 6 (2016), 58\u201368. https://doi.org/10.1109/MCG.2016.124",
+      "doi": "10.1109/MCG.2016.124"
+    },
+    {
+      "text": "P\u00e4ivi Majaranta and Andreas Bulling. 2014. Eye tracking and eye-based human\u2013computer interaction. In Advances in physiological computing. Springer, 39\u201365.",
+      "doi": ""
+    },
+    {
+      "text": "Raphael Menges, Chandan Kumar, and Steffen Staab. 2019. Improving User Experience of Eye Tracking-Based Interaction: Introspecting and Adapting Interfaces. ACM Trans. Comput. Hum. Interact. 26, 6 (2019), 37:1\u201337:46. https://doi.org/10.1145/3338844",
+      "doi": "10.1145/3338844"
+    },
+    {
+      "text": "Ben Mildenhall, Pratul\u00a0P. Srinivasan, Matthew Tancik, Jonathan\u00a0T. Barron, Ravi Ramamoorthi, and Ren Ng. 2022. NeRF: representing scenes as neural radiance fields for view synthesis. Commun. ACM 65, 1 (2022), 99\u2013106. https://doi.org/10.1145/3503250",
+      "doi": "10.1145/3503250"
+    },
+    {
+      "text": "K.\u00a0L.\u00a0Bhanu Moorthy, Moneish Kumar, Ramanathan Subramanian, and Vineet Gandhi. 2020. GAZED- Gaze-guided Cinematic Editing of Wide-Angle Monocular Video Recordings. In Proc. of CHI. ACM, 1\u201311. https://doi.org/10.1145/3313831.3376544",
+      "doi": "10.1145/3313831.3376544"
+    },
+    {
+      "text": "NBA. 2022. NBA Players & Team Rosters. https://www.nba.com/players.",
+      "doi": ""
+    },
+    {
+      "text": "NBA2K23. 2022. NBA2K23. https://nba.2k.com/2k23/.",
+      "doi": ""
+    },
+    {
+      "text": "Cuong Nguyen and Feng Liu. 2016. Gaze-based Notetaking for Learning from Lecture Videos. In Proc. of CHI. ACM, 2093\u20132097. https://doi.org/10.1145/2858036.2858137",
+      "doi": "10.1145/2858036.2858137"
+    },
+    {
+      "text": "Heather\u00a0L. O\u2019Brien and Elaine\u00a0G. Toms. 2010. The development and evaluation of a survey to measure user engagement. Journal of the American Society for Information Science and Technology 61, 1 (Jan. 2010), 50\u201369. https://doi.org/10.1002/asi.21229",
+      "doi": ""
+    },
+    {
+      "text": "Mershack Okoe, Sayeed\u00a0Safayet Alam, and Radu Jianu. 2014. A Gaze-enabled Graph Visualization to Improve Graph Reading Tasks. Comput. Graph. Forum 33, 3 (2014), 251\u2013260. https://doi.org/10.1111/cgf.12381",
+      "doi": ""
+    },
+    {
+      "text": "Abdul\u00a0Moiz Penkar, Christof Lutteroth, and Gerald Weber. 2012. Designing for the eye: design parameters for dwell in gaze interaction. In Proc. of OzCHI. ACM, 479\u2013488. https://doi.org/10.1145/2414536.2414609",
+      "doi": "10.1145/2414536.2414609"
+    },
+    {
+      "text": "Charles Perin, Romain Vuillemot, and Jean-Daniel Fekete. 2013. SoccerStories: A Kick-off for Visual Soccer Analysis. IEEE Trans. Vis. Comput. Graph. 19, 12 (2013), 2506\u20132515. https://doi.org/10.1109/TVCG.2013.192",
+      "doi": "10.1109/TVCG.2013.192"
+    },
+    {
+      "text": "Charles Perin, Romain Vuillemot, Charles\u00a0D. Stolper, John\u00a0T. Stasko, Jo Wood, and Sheelagh Carpendale. 2018. State of the Art of Sports Data Visualization. Comput. Graph. Forum 37, 3 (2018), 663\u2013686. https://doi.org/10.1111/cgf.13447",
+      "doi": ""
+    },
+    {
+      "text": "Hannah Pileggi, Charles\u00a0D. Stolper, J.\u00a0Michael Boyle, and John\u00a0T. Stasko. 2012. SnapShot: Visualization to Propel Ice Hockey Analytics. IEEE Trans. Vis. Comput. Graph. 18, 12 (2012), 2819\u20132828. https://doi.org/10.1109/TVCG.2012.263",
+      "doi": "10.1109/TVCG.2012.263"
+    },
+    {
+      "text": "Kranthi\u00a0Kumar Rachavarapu, Moneish Kumar, Vineet Gandhi, and Ramanathan Subramanian. 2018. Watch to Edit: Video Retargeting using Gaze. Comput. Graph. Forum 37, 2 (2018), 205\u2013215. https://doi.org/10.1111/cgf.13354",
+      "doi": ""
+    },
+    {
+      "text": "Vignesh Ramanathan, Jonathan Huang, Sami Abu-El-Haija, Alexander\u00a0N. Gorban, Kevin Murphy, and Li Fei-Fei. 2016. Detecting Events and Key Actors in Multi-person Videos. In Proc. of CVPR. IEEE Computer Society, 3043\u20133053. https://doi.org/10.1109/CVPR.2016.332",
+      "doi": ""
+    },
+    {
+      "text": "Yusuke Sano and Yohei Nakada. 2019. Improving Prediction of Pass Receivable Players in Basketball: Simulation-Based Approach with Kinetic Models. In Proceedings of the Tenth International Symposium on Information and Communication Technology. ACM, 328\u2013335. https://doi.org/10.1145/3368926.3369671",
+      "doi": "10.1145/3368926.3369671"
+    },
+    {
+      "text": "Long Sha, Jennifer Hobbs, Panna Felsen, Xinyu Wei, Patrick Lucey, and Sujoy Ganguly. 2020. End-to-End Camera Calibration for Broadcast Videos. In Proc. of CVPR.",
+      "doi": ""
+    },
+    {
+      "text": "Lin Shao, Nelson Silva, Eva Eggeling, and Tobias Schreck. 2017. Visual Exploration of Large Scatter Plot Matrices by Pattern Recommendation based on Eye Tracking. In Proc. of ESIDA@IUI. ACM, 9\u201316. https://doi.org/10.1145/3038462.3038463",
+      "doi": "10.1145/3038462.3038463"
+    },
+    {
+      "text": "Huang-Chia Shih. 2017. A Survey of Content-Aware Video Analysis for Sports. IEEE TCSVT 28, 5 (2017), 1212\u20131231.",
+      "doi": ""
+    },
+    {
+      "text": "Nelson Silva, Tanja Blascheck, Radu Jianu, Nils Rodrigues, Daniel Weiskopf, Martin Raubal, and Tobias Schreck. 2019. Eye tracking support for visual analytics systems: foundations, current applications, and research challenges. In Proc. of ETRA. ACM, 11:1\u201311:10. https://doi.org/10.1145/3314111.3319919",
+      "doi": "10.1145/3314111.3319919"
+    },
+    {
+      "text": "Nelson Silva, Tobias Schreck, Eduardo\u00a0E. Veas, Vedran Sabol, Eva Eggeling, and Dieter\u00a0W. Fellner. 2018. Leveraging eye-gaze and time-series features to predict user interests and build a recommendation model for visual analysis. In Proc. of ETRA. ACM, 13:1\u201313:9. https://doi.org/10.1145/3204493.3204546",
+      "doi": "10.1145/3204493.3204546"
+    },
+    {
+      "text": "Nelson Silva, Lin Shao, Tobias Schreck, Eva Eggeling, and Dieter\u00a0W. Fellner. 2016. Visual Exploration of Hierarchical Data Using Degree-of-Interest Controlled by Eye-Tracking. In Proc. of Forum Media Technology and All Around Audio Symposium(CEUR Workshop Proceedings, Vol.\u00a01734). CEUR-WS.org, 82\u201389. http://ceur-ws.org/Vol-1734/fmt-proceedings-2016-paper10.pdf",
+      "doi": ""
+    },
+    {
+      "text": "SportVU. 2022. NBA Sportvu Dataset. https://paperswithcode.com/dataset/nba-sportvu.",
+      "doi": ""
+    },
+    {
+      "text": "Manuel Stein, Thorsten Breitkreutz, Johannes H\u00e4ussler, Daniel Seebacher, Christoph Niederberger, Tobias Schreck, Michael Grossniklaus, Daniel\u00a0A. Keim, and Halldor Janetzko. 2018. Revealing the Invisible: Visual Analytics and Explanatory Storytelling for Advanced Team Sport Analysis. In Proc. of BDVA. IEEE, 1\u20139. https://doi.org/10.1109/BDVA.2018.8534022",
+      "doi": ""
+    },
+    {
+      "text": "Manuel Stein, Halldor Janetzko, Andreas Lamprecht, Thorsten Breitkreutz, Philipp Zimmermann, Bastian Goldl\u00fccke, Tobias Schreck, Gennady\u00a0L. Andrienko, Michael Grossniklaus, and Daniel\u00a0A. Keim. 2018. Bring It to the Pitch: Combining Video and Movement Data to Enhance Team Sport Analysis. IEEE Trans. Vis. Comput. Graph. 24, 1 (2018), 13\u201322. https://doi.org/10.1109/TVCG.2017.2745181",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Templier, Kenan Bektas, and Richard H.\u00a0R. Hahnloser. 2016. Eye-Trace: Segmentation of Volumetric Microscopy Images with Eyegaze. In Proc. of CHI. ACM, 5812\u20135823. https://doi.org/10.1145/2858036.2858578",
+      "doi": "10.1145/2858036.2858578"
+    },
+    {
+      "text": "Daniel Teo. 2022. NBA Shot Charts Part 2: Building the viz in Tableau. https://datavizardry.com/2020/02/03/nba-shot-charts-part-2/.",
+      "doi": ""
+    },
+    {
+      "text": "Changjia Tian, Varuna De\u00a0Silva, Michael Caine, and Steve Swanson. 2019. Use of machine learning to automate the identification of basketball strategies using whole team player tracking data. Applied Sciences 10, 1 (2019), 24.",
+      "doi": ""
+    },
+    {
+      "text": "Kaisa Tiippana. 2014. What is the McGurk effect?, 725\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Tobii. 2022. Tobii Eye Tracker 5. https://gaming.tobii.com/product/eye-tracker-5.",
+      "doi": ""
+    },
+    {
+      "text": "Vive. 2022. Vive Pro2. https://www.vive.com/us/product/vive-pro2/overview.",
+      "doi": ""
+    },
+    {
+      "text": "Vizrt. 2022. Viz Libero. https://www.vizrt.com/products/viz-libero.",
+      "doi": ""
+    },
+    {
+      "text": "Romain Vuillemot and Charles Perin. 2016. Sports Tournament Predictions Using Direct Manipulation. IEEE Computer Graphics and Applications 36, 5 (2016), 62\u201371. https://doi.org/10.1109/MCG.2016.90",
+      "doi": ""
+    },
+    {
+      "text": "Wikipedia. 2022. Player tracking (National Basketball Association). https://en.wikipedia.org/wiki/Player_tracking_(National_Basketball_Association).",
+      "doi": ""
+    },
+    {
+      "text": "Yufei Xu, Jing Zhang, Qiming Zhang, and Dacheng Tao. 2022. ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation. arxiv:2204.12484\u00a0[cs.CV]",
+      "doi": ""
+    },
+    {
+      "text": "Lijie Yao, Anastasia Bezerianos, Romain Vuillemot, and Petra Isenberg. 2022. Visualization in Motion: A Research Agenda and Two Evaluations. IEEE Trans. Vis. Comput. Graph.(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Shuainan Ye, Zhutian Chen, Xiangtong Chu, Yifan Wang, Siwei Fu, Lejun Shen, Kun Zhou, and Yingcai Wu. 2021. ShuttleSpace: Exploring and Analyzing Movement Trajectory in Immersive Visualization. IEEE Trans. Vis. Comput. Graph. 27, 2 (2021), 860\u2013869. https://doi.org/10.1109/TVCG.2020.3030392",
+      "doi": ""
+    },
+    {
+      "text": "Jiahui Yu, Zirui Wang, Vijay Vasudevan, Legg Yeung, Mojtaba Seyedhosseini, and Yonghui Wu. 2022. Coca: Contrastive captioners are image-text foundation models. arXiv preprint arXiv:2205.01917(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Yifu Zhang, Peize Sun, Yi Jiang, Dongdong Yu, Fucheng Weng, Zehuan Yuan, Ping Luo, Wenyu Liu, and Xinggang Wang. 2022. ByteTrack: Multi-Object Tracking by Associating Every Detection Box. (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Zhengyou Zhang. 2000. A Flexible New Technique for Camera Calibration. IEEE Trans. Pattern Anal. Mach. Intell. 22, 11 (2000), 1330\u20131334. https://doi.org/10.1109/34.888718",
+      "doi": "10.1109/34.888718"
+    },
+    {
+      "text": "Qiyu Zhi, Suwen Lin, Poorna\u00a0Talkad Sukumar, and Ronald\u00a0A. Metoyer. 2019. GameViews: Understanding and Supporting Data-driven Sports Storytelling. In Proc. of CHI. ACM, 269. https://doi.org/10.1145/3290605.3300499",
+      "doi": "10.1145/3290605.3300499"
+    },
+    {
+      "text": "Qiyu Zhi and Ronald\u00a0A. Metoyer. 2020. GameBot: A Visualization-augmented Chatbot for Sports Game. In Proc. of Extended Abstracts of CHI. ACM, 1\u20137. https://doi.org/10.1145/3334480.3382794",
+      "doi": "10.1145/3334480.3382794"
+    },
+    {
+      "text": "Stefanie Zollmann, Tobias Langlotz, Moritz Loos, Wei\u00a0Hong Lo, and Lewis Baker. 2019. ARSpectator: Exploring Augmented Reality for Sport Events. In SIGGRAPH Asia 2019 Technical Briefs. ACM, 75\u201378. https://doi.org/10.1145/3355088.3365162",
+      "doi": "10.1145/3355088.3365162"
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "doi": "10.1145/3491102.3517457",
+  "title": "MyMove: Facilitating Older Adults to Collect In-Situ Activity Labels on a Smartwatch with Speech",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-21",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Current activity tracking technologies are largely trained on younger adults\u2019 data, which can lead to solutions that are not well-suited for older adults. To build activity trackers for older adults, it is crucial to collect training data with them. To this end, we examine the feasibility and challenges with older adults in collecting activity labels by leveraging speech. Specifically, we built MyMove, a speech-based smartwatch app to facilitate the in-situ labeling with a low capture burden. We conducted a 7-day deployment study, where 13 older adults collected their activity labels and smartwatch sensor data, while wearing a thigh-worn activity monitor. Participants were highly engaged, capturing 1,224 verbal reports in total. We extracted 1,885 activities with corresponding effort level and timespan, and examined the usefulness of these reports as activity labels. We discuss the implications of our approach and the collected dataset in supporting older adults through personalized activity tracking technologies.",
+  "authors": [
+    {
+      "name": "Young-Ho Kim",
+      "institution": "College of Information Studies, University of Maryland, United States",
+      "img": "/do/10.1145/contrib-99659022154/rel-imgonly/kim_portrait_2021.jpg",
+      "acmid": "99659022154",
+      "orcid": "0000-0002-2681-2774"
+    },
+    {
+      "name": "Diana Chou",
+      "institution": "Department of Computer Science, University of Maryland, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660239837",
+      "orcid": "missing"
+    },
+    {
+      "name": "Bongshin Lee",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81409593205",
+      "orcid": "0000-0002-4217-627X"
+    },
+    {
+      "name": "Margaret Danilovich",
+      "institution": "CJE SeniorLife, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660237499",
+      "orcid": "missing"
+    },
+    {
+      "name": "Amanda Lazar",
+      "institution": "College of Information Studies, University of Maryland, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659262040",
+      "orcid": "0000-0001-8110-4239"
+    },
+    {
+      "name": "David E. Conroy",
+      "institution": "Kinesiology, The Pennsylvania State University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659260909",
+      "orcid": "missing"
+    },
+    {
+      "name": "Hernisa Kacorri",
+      "institution": "College of Information Studies, University of Maryland, United States",
+      "img": "/do/10.1145/contrib-81474702153/rel-imgonly/81474702153.jpg",
+      "acmid": "81474702153",
+      "orcid": "0000-0002-7798-308X"
+    },
+    {
+      "name": "Eun Kyoung Choe",
+      "institution": "College of Information Studies, University of Maryland, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81416608724",
+      "orcid": "0000-0001-5038-8320"
+    }
+  ],
+  "references": [
+    {
+      "text": "Barbara\u00a0E. Ainsworth, William\u00a0L. Haskell, Arthur\u00a0S. Leon, David\u00a0R. Jacobs, Henry\u00a0J. Montoye, James\u00a0F. Sallis, and Ralph\u00a0S. Paffenbarger. 1993. Compendium of Physical Activities: Classification of Energy Costs of Human Physical Activities. Medicine & Science in Sports & Exercise 25, 1 (1993), 71\u201380. https://journals.lww.com/acsm-msse/Fulltext/1993/01000/Compendium_of_Physical_Activities__classification.11.aspx",
+      "doi": ""
+    },
+    {
+      "text": "American College of Sports Medicine. 2021. ACSM\u2019s Guidelines for Exercise Testing and Prescription (11 ed.). Lippincott Williams & Wilkins, Philadelphia, PA, USA. 548 pages.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0J. Annear, Grant Cushman, and Bob Gidlow. 2009. Leisure time physical activity differences among older adults from diverse socioeconomic neighborhoods. Health & Place 15, 2 (2009), 482\u2013490. https://doi.org/10.1016/j.healthplace.2008.09.005",
+      "doi": ""
+    },
+    {
+      "text": "Shiri Azenkot and Nicole\u00a0B. Lee. 2013. Exploring the Use of Speech Input by Blind People on Mobile Devices. In Proceedings of the 15th International ACM SIGACCESS Conference on Computers and Accessibility(Bellevue, Washington) (ASSETS \u201913). Association for Computing Machinery, New York, NY, USA, Article 11, 8\u00a0pages. https://doi.org/10.1145/2513383.2513440",
+      "doi": "10.1145/2513383.2513440"
+    },
+    {
+      "text": "Maxim Bakaev. 2008. Fitts\u2019 Law for Older Adults: Considering a Factor of Age. In Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems (Porto Alegre, RS, Brazil) (IHC \u201908). Sociedade Brasileira de Computa\u00e7\u00e3o, BRA, 260\u2013263.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0B. Baltes and Margret\u00a0M. Baltes. 1990. Successful Aging: Perspectives from the Behavioral Sciences. Cambridge University Press, Cambridge, United Kingdom. https://doi.org/10.1017/CBO9780511665684",
+      "doi": ""
+    },
+    {
+      "text": "Steven Bird, Ewan Klein, and Edward Loper. 2009. Natural Language Processing with Python(1st ed.). O\u2019Reilly Media, Inc., Sebastopol, CA, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Niall Bolger, Angelina Davis, and Eshkol Rafaeli. 2003. Diary Methods: Capturing Life as It Is Lived. Annual Review of Psychology 54, 1 (2003), 579\u2013616. https://doi.org/10.1146/annurev.psych.54.101601.145030",
+      "doi": ""
+    },
+    {
+      "text": "Marc Bonnefoy, Sylvie Normand, Christiane Pachiaudi, Jean\u00a0Ren\u00c3\u00a9 Lacour, Martine Laville, and Tomasz Kostka. 2001. Simultaneous Validation of Ten Physical Activity Questionnaires in Older Men: A Doubly Labeled Water Study. Journal of the American Geriatrics Society 49, 1 (Jan. 2001), 28\u201335. https://doi.org/10.1046/j.1532-5415.2001.49006.x",
+      "doi": ""
+    },
+    {
+      "text": "Gunnar Borg. 1990. Psychophysical Scaling with Applications in Physical Work and the Perception of Exertion. Scandinavian Journal of Work, Environment and Health 16, SUPPL. 1(1990), 55\u201358. https://doi.org/10.5271/sjweh.1815",
+      "doi": ""
+    },
+    {
+      "text": "Gunnar Borg. 1998. Borg\u2019s Perceived Exertion and Pain Scales. Human Kinetics, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Gerry\u00a0R. Boss and J.\u00a0Edwin Seegmiller. 1981. Age-Related Physiological Changes and Their Clinical Significance. The Western Journal of Medicine 135, 6 (Dec. 1981), 434\u201340. http://www.ncbi.nlm.nih.gov/pubmed/7336713http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1273316",
+      "doi": ""
+    },
+    {
+      "text": "Lawrence\u00a0R. Brawley, W.\u00a0Jack Rejeski, and Abby\u00a0C. King. 2003. Promoting Physical Activity for Older Adults: the Challenges for Changing Behavior. American Journal of Preventive Medicine 25, 3 Suppl 2 (Oct. 2003), 172\u201383. https://doi.org/10.1016/s0749-3797(03)00182-x",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0P. Buman, Eric\u00a0B. Hekler, William\u00a0L. Haskell, Leslie Pruitt, Terry\u00a0L. Conway, Kelli\u00a0L. Cain, James\u00a0F. Sallis, Brian\u00a0E. Saelens, Lawrence\u00a0D. Frank, and Abby\u00a0C. King. 2010. Objective Light-Intensity Physical Activity Associations With Rated Health in Older Adults. American Journal of Epidemiology 172, 10 (Nov. 2010), 1155\u20131165. https://doi.org/10.1093/aje/kwq249",
+      "doi": ""
+    },
+    {
+      "text": "Eli Carmeli, Hagar Patish, and Raymond Coleman. 2003. The Aging Hand. The Journals of Gerontology: Series A 58, 2 (Feb. 2003), M146\u2013M152. https://doi.org/10.1093/gerona/58.2.M146",
+      "doi": ""
+    },
+    {
+      "text": "Marta\u00a0E. Cecchinato, Anna\u00a0L. Cox, and Jon Bird. 2017. Always On(Line)? User Experience of Smartwatches and Their Role within Multi-Device Ecologies. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 3557\u20133568. https://doi.org/10.1145/3025453.3025538",
+      "doi": "10.1145/3025453.3025538"
+    },
+    {
+      "text": "Barbara\u00a0L. Chalfonte, Robert\u00a0S. Fish, and Robert\u00a0E. Kraut. 1991. Expressive Richness: a Comparison of Speech and Text as Media for Revision. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201991). Association for Computing Machinery, New York, NY, USA, 21\u201326. https://doi.org/10.1145/108844.108848",
+      "doi": "10.1145/108844.108848"
+    },
+    {
+      "text": "Ranganathan Chandrasekaran, Vipanchi Katthula, and Evangelos Moustakas. 2020. Patterns of Use and Key Predictors for the Use of Wearable Health Care Devices by US Adults: Insights from a National Survey. Journal of Medical Internet Research 22, 10 (Oct. 2020), e22443. https://doi.org/10.2196/22443",
+      "doi": ""
+    },
+    {
+      "text": "Liu Chen and Meysam Asgari. 2021. Refining Automatic Speech Recognition System for Older Adults. In ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, Washington, DC, USA, 7003\u20137007. https://doi.org/10.1109/ICASSP39728.2021.9414207",
+      "doi": ""
+    },
+    {
+      "text": "Wojtek\u00a0J. Chodzko-Zajko, David\u00a0N. Proctor, Maria A.\u00a0Fiatarone Singh, Christopher\u00a0T. Minson, Claudio\u00a0R. Nigg, George\u00a0J. Salem, and James\u00a0S. Skinner. 2009. Exercise and Physical Activity for Older Adults. Medicine & science in sports & exercise 41, 7 (2009), 1510\u20131530.",
+      "doi": ""
+    },
+    {
+      "text": "Pak-Kwong Chung, Yanan Zhao, Jing-Dong Liu, and Binh Quach. 2015. A Brief Note on the Validity and Reliability of the Rating of Perceived Exertion Scale in Monitoring Exercise Intensity among Chinese Older Adults in Hong Kong. Perceptual and Motor Skills 121, 3 (Dec. 2015), 805\u2013809. https://doi.org/10.2466/29.PMS.121c24x8",
+      "doi": ""
+    },
+    {
+      "text": "Leigh Clark, Philip Doyle, Diego Garaialde, Emer Gilmartin, Stephan Schl\u00f6gl, Jens Edlund, Matthew Aylett, Jo\u00e3o Cabral, Cosmin Munteanu, Justin Edwards, 2019. The State of Speech in HCI: Trends, Themes and Challenges. Interacting with Computers 31, 4 (2019), 349\u2013371. https://doi.org/10.1093/iwc/iwz016",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0G. Davis, Kenneth\u00a0R. Fox, Melvyn Hillsdon, Debbie\u00a0J. Sharp, Jo\u00a0C. Coulson, and Janice\u00a0L. Thompson. 2011. Objectively Measured Physical Activity in a Diverse Sample of Older Urban UK Adults. Medicine & Science in Sports & Exercise 43, 4 (April 2011), 647\u2013654. https://doi.org/10.1249/MSS.0b013e3181f36196",
+      "doi": ""
+    },
+    {
+      "text": "Luigi De\u00a0Russis and Fulvio Corno. 2019. On the impact of dysarthric speech on contemporary ASR cloud platforms. Journal of Reliable Intelligent Environments 5, 3(2019), 163\u2013172. https://doi.org/10.1007/s40860-019-00085-y",
+      "doi": ""
+    },
+    {
+      "text": "Utkarsh Dwivedi, Jaina Gandhi, Raj Parikh, Merijke Coenraad, Elizabeth Bonsignore, and Hernisa Kacorri. 2021. Exploring Machine Teaching with Children. In 2021 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, IEEE, Washington, DC, USA, 11\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Elin Ekblom-Bak, Bj\u00f6rn Ekblom, Max Vikstr\u00f6m, Ulf de Faire, and Mai-Lis Hell\u00e9nius. 2014. The Importance of Non-Exercise Physical Activity for Cardiovascular Health and Longevity. British Journal of Sports Medicine 48, 3 (Feb. 2014), 233\u2013238. https://doi.org/10.1136/bjsports-2012-092038",
+      "doi": ""
+    },
+    {
+      "text": "Chloe Fan, Jodi Forlizzi, and Anind Dey. 2012. Considerations for Technology that Support Physical Activity by Older Adults. In Proceedings of the 14th international ACM SIGACCESS conference on Computers and accessibility - ASSETS \u201912. ACM Press, New York, New York, USA, 33. https://doi.org/10.1145/2384916.2384923",
+      "doi": "10.1145/2384916.2384923"
+    },
+    {
+      "text": "Sabahat Fatima. 2021. Activity Recognition in Older Adults with Training Data from Younger Adults: Preliminary Results on in VivoSmartwatch Sensor Data. In Proceedings of the 23rd International ACM SIGACCESS Conference on Computers and Accessibility(ASSETS \u201921). ACM, New York, NY, USA, 26:1\u201326:8. https://doi.org/10.1145/3441852.3476475",
+      "doi": "10.1145/3441852.3476475"
+    },
+    {
+      "text": "Mireia Fern\u00e1ndez-Ard\u00e8vol and Andrea Rosales. 2017. My Interests, My Activities: Learning from an Intergenerational Comparison of Smartwatch Use. In Human Aspects of IT for the Aged Population. Applications, Services and Contexts, Jia Zhou and Gavriel Salvendy (Eds.). Springer International Publishing, Cham, 114\u2013129. https://doi.org/10.1007/978-3-319-58536-9_10",
+      "doi": ""
+    },
+    {
+      "text": "Chelsea Finn, Pieter Abbeel, and Sergey Levine. 2017. Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks. In Proceedings of the 34th International Conference on Machine Learning (ICML \u201917)(Proceedings of Machine Learning Research, Vol.\u00a070). PMLR, USA, 1126\u20131135. https://proceedings.mlr.press/v70/finn17a.html",
+      "doi": ""
+    },
+    {
+      "text": "F. Foerster, M. Smeja, and J. Fahrenberg. 1999. Detection of Posture and Motion by Accelerometry: a Validation study in Ambulatory Monitoring. Computers in Human Behavior 15, 5 (Sept. 1999), 571\u2013583. https://doi.org/10.1016/S0747-5632(99)00037-0",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0P. French, Ellinor\u00a0K. Olander, Anna Chisholm, and Jennifer Mc\u00a0Sharry. 2014. Which Behaviour Change Techniques are Most Effective at Increasing Older Adults\u2019 Self-Efficacy and Physical Activity Behaviour? A Systematic Review. Annals of behavioral medicine 48, 2 (2014), 225\u2013234.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0A. Gardiner, Bronwyn\u00a0K. Clark, Genevieve\u00a0N. Healy, Elizabeth\u00a0G. Eakin, Elisabeth\u00a0A.H. Winkler, and Neville Owen. 2011. Measuring Older Adults\u2019 Sedentary Time: Reliability, Validity, and Responsiveness. Medicine & Science in Sports & Exercise 43, 11 (Nov. 2011), 2127\u20132133. https://doi.org/10.1249/MSS.0b013e31821b94f7",
+      "doi": ""
+    },
+    {
+      "text": "Kathrin Gerling, Mo Ray, Vero\u00a0Vanden Abeele, and Adam\u00a0B. Evans. 2020. Critical Reflections on Technology to Support Physical Activity among Older Adults: An Exploration of Leading HCI Venues. ACM Transactions on Accessible Computing 13, 1 (April 2020), 1\u201323. https://doi.org/10.1145/3374660",
+      "doi": "10.1145/3374660"
+    },
+    {
+      "text": "Abraham\u00a0T. Glasser, Kesavan\u00a0R. Kushalnagar, and Raja\u00a0S. Kushalnagar. 2017. Feasibility of Using Automatic Speech Recognition with Voices of Deaf and Hard-of-Hearing Individuals. In Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility (Baltimore, Maryland, USA) (ASSETS \u201917). Association for Computing Machinery, New York, NY, USA, 373\u2013374. https://doi.org/10.1145/3132525.3134819",
+      "doi": "10.1145/3132525.3134819"
+    },
+    {
+      "text": "Google. 2021. Activity Recognition API. Retrieved Sep 09, 2021 from https://developers.google.com/location-context/activity-recognition",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2021. Protocol Buffers. Retrieved Sep 09, 2021 from https://developers.google.com/protocol-buffers",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2021. Speech-to-Text: Automatic Speech Recognition | Google Cloud. Retrieved Sep 09, 2021 from https://cloud.google.com/speech-to-text",
+      "doi": ""
+    },
+    {
+      "text": "E. Gorman, H.\u00a0M. Hanson, P.\u00a0H. Yang, K.\u00a0M. Khan, T. Liu-Ambrose, and M.\u00a0C. Ashe. 2014. Accelerometry Analysis of Physical Activity and Sedentary Behavior in Older Adults: a Systematic Review and Data Analysis. European Review of Aging and Physical Activity 11, 1 (April 2014), 35\u201349. https://doi.org/10.1007/s11556-013-0132-x",
+      "doi": ""
+    },
+    {
+      "text": "Jordan\u00a0R. Green, Robert\u00a0L. MacDonald, Pan-Pan Jiang, Julie Cattiau, Rus Heywood, Richard Cave, Katie Seaver, Marilyn\u00a0A. Ladewig, Jimmy Tobin, Michael\u00a0P. Brenner, Philip\u00a0C. Nelson, and Katrin Tomanek. 2021. Automatic Speech Recognition of Disordered Speech: Personalized Models Outperforming Human Listeners on Short Phrases. In Interspeech 2021. ISCA, Winona, MN, USA, 4778\u20134782. https://doi.org/10.21437/Interspeech.2021-1384",
+      "doi": ""
+    },
+    {
+      "text": "Mark Hamer, Cesar de Oliveira, and Panayotes Demakakos. 2014. Non-Exercise Physical Activity and Survival: English Longitudinal Study of Ageing. American Journal of Preventive Medicine 47, 4 (Oct. 2014), 452\u2013460. https://doi.org/10.1016/j.amepre.2014.05.044",
+      "doi": ""
+    },
+    {
+      "text": "Gabriella\u00a0M. Harari, Nicholas\u00a0D. Lane, Rui Wang, Benjamin\u00a0S. Crosier, Andrew\u00a0T. Campbell, and Samuel\u00a0D. Gosling. 2016. Using Smartphones to Collect Behavioral Data in Psychological Science. Perspectives on Psychological Science 11, 6 (Nov. 2016), 838\u2013854. https://doi.org/10.1177/1745691616650285 arxiv:15334406",
+      "doi": ""
+    },
+    {
+      "text": "Juliet Harvey, Sebastien Chastin, and Dawn Skelton. 2013. Prevalence of Sedentary Behavior in Older Adults: A Systematic Review. International Journal of Environmental Research and Public Health 10, 12 (Dec. 2013), 6645\u20136661. https://doi.org/10.3390/ijerph10126645",
+      "doi": ""
+    },
+    {
+      "text": "Andrea\u00a0L. Hergenroeder, Bethany Barone Gibbs, Mary\u00a0P. Kotlarczyk, Robert\u00a0J. Kowalsky, Subashan Perera, and Jennifer\u00a0S. Brach. 2018. Accuracy of Objective Physical Activity Monitors in Measuring Steps in Older Adults. Gerontology and Geriatric Medicine 4 (Jan. 2018), 233372141878112. https://doi.org/10.1177/2333721418781126",
+      "doi": ""
+    },
+    {
+      "text": "Javier Hernandez, Daniel McDuff, Christian Infante, Pattie Maes, Karen Quigley, and Rosalind Picard. 2016. Wearable ESM: Differences in the Experience Sampling Method across Wearable Devices. In Proceedings of the 18th International Conference on Human-Computer Interaction with Mobile Devices and Services. ACM, New York, NY, USA, 195\u2013205. https://doi.org/10.1145/2935334.2935340",
+      "doi": "10.1145/2935334.2935340"
+    },
+    {
+      "text": "Jonggi Hong, Kyungjun Lee, June Xu, and Hernisa Kacorri. 2020. Crowdsourcing the Perception of Machine Teaching. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376428",
+      "doi": "10.1145/3313831.3376428"
+    },
+    {
+      "text": "Jonggi Hong, Christine Vaing, Hernisa Kacorri, and Leah Findlater. 2020. Reviewing Speech Input with Audio: Differences between Blind and Sighted Users. ACM Trans. Access. Comput. 13, 1, Article 2 (April 2020), 28\u00a0pages. https://doi.org/10.1145/3382039",
+      "doi": "10.1145/3382039"
+    },
+    {
+      "text": "Enamul Hoque, Robert\u00a0F. Dickerson, and John\u00a0A. Stankovic. 2014. Vocal-Diary: A Voice Command based Ground Truth Collection System for Activity Recognition. In Proceedings of the Wireless Health 2014 on National Institutes of Health. ACM, New York, NY, USA, 1\u20136. https://doi.org/10.1145/2668883.2669587",
+      "doi": "10.1145/2668883.2669587"
+    },
+    {
+      "text": "Ann\u00a0L. Horgas, Hans-Ulrich Wilms, and Margret\u00a0M. Baltes. 1998. Daily Life in Very Old Age: Everyday Activities as Expression of Successful Living. The Gerontologist 38, 5 (Oct. 1998), 556\u2013568. https://doi.org/10.1093/geront/38.5.556",
+      "doi": ""
+    },
+    {
+      "text": "Xueliang Huo, Hangue Park, and Maysam Ghovanloo. 2012. Dual-Mode Tongue Drive System: Using Speech and Tongue Motion to Improve Computer Access for People with Disabilities. In Proceedings of the Conference on Wireless Health(San Diego, California) (WH \u201912). Association for Computing Machinery, New York, NY, USA, Article 6, 8\u00a0pages. https://doi.org/10.1145/2448096.2448102",
+      "doi": "10.1145/2448096.2448102"
+    },
+    {
+      "text": "Stephen Intille, Caitlin Haynes, Dharam Maniar, Aditya Ponnada, and Justin Manjourides. 2016. \u03bcEMA: Microinteraction-Based Ecological Momentary Assessment (EMA) Using a Smartwatch. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing (Heidelberg, Germany) (UbiComp \u201916). ACM, New York, NY, USA, 1124\u20131128. https://doi.org/10.1145/2971648.2971717",
+      "doi": "10.1145/2971648.2971717"
+    },
+    {
+      "text": "David\u00a0R. Jacobs, Barbara\u00a0E. Ainsworth, Terryl\u00a0J. Hartman, and Arthur\u00a0S. Leon. 1993. A Simultaneous Evaluation of 10 Commonly Used Physical Activity Questionnaires. Medicine & Science in Sports & Exercise 25, 1 (1993), 81\u201391. https://journals.lww.com/acsm-msse/Fulltext/1993/01000/A_simultaneous_evaluation_of_10_commonly_used.12.aspx",
+      "doi": ""
+    },
+    {
+      "text": "JetBrains s.r.o.2021. Kotlin Programming Language. Retrieved Sep 09, 2021 from https://kotlinlang.org/",
+      "doi": ""
+    },
+    {
+      "text": "Hernisa Kacorri. 2017. Teachable Machines for Accessibility. SIGACCESS Access. Comput. 119 (Nov. 2017), 10\u201318. https://doi.org/10.1145/3167902.3167904",
+      "doi": "10.1145/3167902.3167904"
+    },
+    {
+      "text": "Man-Yee Kan, Muzhi Zhou, Daniela\u00a0Veronica Negraia, Kamila Kolpashnikova, Ekaterina Hertog, Shohei Yoda, and Jiweon Jun. 2021. How do Older Adults Spend Their Time? Gender Gaps and Educational Gradients in Time Use in East Asian and Western Countries. Journal of Population Ageing 14 (2021), 537\u2013562. https://doi.org/10.1007/s12062-021-09345-3",
+      "doi": ""
+    },
+    {
+      "text": "Sidney Katz, Amasa\u00a0B. Ford, Roland\u00a0W. Moskowitz, Beverly\u00a0A. Jackson, and Marjorie\u00a0W. Jaffe. 1963. Studies of Illness in the Aged: The Index of ADL: A Standardized Measure of Biological and Psychosocial Function. Journal of the American Medical Association 185, 12 (1963), 914\u2013919. https://doi.org/10.1001/jama.1963.03060120024016",
+      "doi": ""
+    },
+    {
+      "text": "Martijn\u00a0G Kersloot, Florentien J\u00a0P van Putten, Ameen Abu-Hanna, Ronald Cornet, and Derk\u00a0L Arts. 2020. Natural language processing algorithms for mapping clinical text fragments onto ontology concepts: a systematic review and recommendations for future studies. Journal of biomedical semantics 11, 1 (11 2020), 14\u201314. https://doi.org/10.1186/s13326-020-00231-z",
+      "doi": ""
+    },
+    {
+      "text": "Shreya Khare, Ashish Mittal, Anuj Diwan, Sunita Sarawagi, Preethi Jyothi, and Samarth Bharadwaj. 2021. Low Resource ASR: The Surprising Effectiveness of High Resource Transliteration. In Interspeech 2021. ISCA, Winona, MN, USA, 1529\u20131533. https://doi.org/10.21437/Interspeech.2021-2062",
+      "doi": ""
+    },
+    {
+      "text": "Matin Kheirkhahan, Sanjay Nair, Anis Davoudi, Parisa Rashidi, Amal\u00a0A. Wanigatunga, Duane\u00a0B. Corbett, Tonatiuh Mendoza, Todd\u00a0M. Manini, and Sanjay Ranka. 2019. A Smartwatch-Based Framework for Real-Time and Online Assessment and Mobility Monitoring. Journal of Biomedical Informatics 89, November 2018 (2019), 29\u201340. https://doi.org/10.1016/j.jbi.2018.11.003",
+      "doi": ""
+    },
+    {
+      "text": "Young-Ho Kim, Bongshin Lee, Arjun Srinivasan, and Eun\u00a0Kyoung Choe. 2021. Data@Hand: Fostering Visual Exploration of Personal Data On Smartphones Leveraging Speech and Touch Interaction. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). ACM, New York, NY, USA, Article 462, 17\u00a0pages. https://doi.org/10.1145/3411764.3445421",
+      "doi": "10.1145/3411764.3445421"
+    },
+    {
+      "text": "Pascal\u00a0van Kooten. 2021. Contractions Python Library. Retrieved Sep 09, 2021 from https://github.com/kootenpv/contractions",
+      "doi": ""
+    },
+    {
+      "text": "Sarah Kozey-Keadle, Amanda Libertine, Kate Lyden, John Staudenmayer, and Patty\u00a0S. Freedson. 2011. Validation of Wearable Monitors for Assessing Sedentary Behavior. Medicine and Science in Sports and Exercise 43, 8 (2011), 1561\u20131567. https://doi.org/10.1249/MSS.0b013e31820ce174",
+      "doi": ""
+    },
+    {
+      "text": "Oscar\u00a0D. Lara and Miguel\u00a0A. Labrador. 2013. A Survey on Human Activity Recognition using Wearable Sensors. IEEE Communications Surveys & Tutorials 15, 3 (2013), 1192\u20131209. https://doi.org/10.1109/SURV.2012.110112.00192",
+      "doi": ""
+    },
+    {
+      "text": "Reed Larson and Mihaly Csikszentmihalyi. 2014. The Experience Sampling Method. In Flow and the foundations of positive psychology. Springer, Berlin/Heidelberg, Germany, 21\u201334.",
+      "doi": ""
+    },
+    {
+      "text": "M.\u00a0Powell Lawton and Elaine\u00a0M. Brody. 1969. Assessment of Older People: Self-Maintaining and Instrumental Activities of Daily Living. The Gerontologist 9, 3 Part 1 (Sept. 1969), 179\u2013186. https://doi.org/10.1093/geront/9.3_Part_1.179",
+      "doi": ""
+    },
+    {
+      "text": "I-Min Lee and Eric\u00a0J. Shiroma. 2014. Using Accelerometers to Measure Physical Activity in Large- Scale Epidemiologic Studies: Issues and Challenges. British Journal of Sports Medicine 48, 3 (Feb. 2014), 197\u2013201. https://doi.org/10.1136/bjsports-2013-093154",
+      "doi": ""
+    },
+    {
+      "text": "I-Min Lee, Eric\u00a0J. Shiroma, Masamitsu Kamada, David\u00a0R. Bassett, Charles\u00a0E. Matthews, and Julie\u00a0E. Buring. 2019. Association of Step Volume and Intensity With All-Cause Mortality in Older Women. JAMA Internal Medicine 179, 8 (Aug. 2019), 1105. https://doi.org/10.1001/jamainternmed.2019.0899",
+      "doi": ""
+    },
+    {
+      "text": "Kyungjun Lee, Jonggi Hong, Simone Pimento, Ebrima Jarjue, and Hernisa Kacorri. 2019. Revisiting Blind Photography in the Context of Teachable Object Recognizers. In The 21st International ACM SIGACCESS Conference on Computers and Accessibility(Pittsburgh, PA, USA) (ASSETS \u201919). ACM, New York, NY, USA, 83\u201395. https://doi.org/10.1145/3308561.3353799",
+      "doi": "10.1145/3308561.3353799"
+    },
+    {
+      "text": "Russell\u00a0V. Lenth, Paul Buerkner, Maxime Herve, Jonathon Love, Hannes Riebl, and Henrik Singmann. 2021. emmeans: Estimated Marginal Means, aka Least-Squares Means. CRAN. https://CRAN.R-project.org/package=emmeans",
+      "doi": ""
+    },
+    {
+      "text": "Chenglin Li, Di Niu, Bei Jiang, Xiao Zuo, and Jianming Yang. 2021. Meta-HAR: Federated Representation Learning for Human Activity Recognition. In Proceedings of the Web Conference 2021 (Ljubljana, Slovenia) (WWW \u201921). ACM, New York, NY, USA, 912\u2013922. https://doi.org/10.1145/3442381.3450006",
+      "doi": "10.1145/3442381.3450006"
+    },
+    {
+      "text": "Yuhan Luo, Young-Ho Kim, Bongshin Lee, Naeemul Hassan, and Eun\u00a0Kyoung Choe. 2021. FoodScrap: Promoting Rich Data Capture and Reflective Food Journaling Through Speech Input. In Designing Interactive Systems Conference 2021(Virtual Event, USA) (DIS \u201921). ACM, New York, NY, USA, 606\u2013618. https://doi.org/10.1145/3461778.3462074",
+      "doi": "10.1145/3461778.3462074"
+    },
+    {
+      "text": "Yuhan Luo, Bongshin Lee, and Eun\u00a0Kyoung Choe. 2020. TandemTrack: Shaping Consistent Exercise Experience by Complementing a Mobile App with a Smart Speaker. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376616",
+      "doi": "10.1145/3313831.3376616"
+    },
+    {
+      "text": "Kate Lyden, Sarah Keadle, John Staudenmayer, and Patty Freedson. 2012. Validity of Two Wearable Monitors to Estimate Breaks from Sedentary Time. Medicine and science in sports and exercise 44 (05 2012), 2243\u201352. https://doi.org/10.1249/MSS.0b013e318260c477",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0L. MacDonald, Pan-Pan Jiang, Julie Cattiau, Rus Heywood, Richard Cave, Katie Seaver, Marilyn\u00a0A. Ladewig, Jimmy Tobin, Michael\u00a0P. Brenner, Philip\u00a0C. Nelson, Jordan\u00a0R. Green, and Katrin Tomanek. 2021. Disordered Speech Data Collection: Lessons Learned at 1 Million Utterances from Project Euphonia. In Interspeech 2021. ISCA, Winona, MN, USA, 4833\u20134837. https://doi.org/10.21437/Interspeech.2021-697",
+      "doi": ""
+    },
+    {
+      "text": "Soultana Macridis, Nora Johnston, Steven Johnson, and Jeff\u00a0K Vallance. 2018. Consumer Physical Activity Tracking Device Ownership and Use Among a Population-Based Sample of Adults. PloS one 13, 1 (2018), e0189298.",
+      "doi": ""
+    },
+    {
+      "text": "Meethu Malu, Pramod Chundury, and Leah Findlater. 2018. Exploring Accessible Smartwatch Interactions for People with Upper Body Motor Impairments. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3174062",
+      "doi": "10.1145/3173574.3174062"
+    },
+    {
+      "text": "Todd\u00a0Matthew Manini, Tonatiuh Mendoza, Manoj Battula, Anis Davoudi, Matin Kheirkhahan, Mary\u00a0Ellen Young, Eric Weber, Roger\u00a0Benton Fillingim, and Parisa Rashidi. 2019. Perception of Older Adults Toward Smartwatch Technology for Assessing Pain and Related Patient-Reported Outcomes: Pilot Study. JMIR mHealth and uHealth 7, 3 (March 2019), e10044. https://doi.org/10.2196/10044",
+      "doi": ""
+    },
+    {
+      "text": "Justin Mccarthy. 2021. One in Five U.S. Adults Use Health Apps, Wearable Trackers | Gallup. Retrieved Sep 09, 2021 from https://news.gallup.com/poll/269096/one-five-adults-health-apps-wearable-trackers.aspx",
+      "doi": ""
+    },
+    {
+      "text": "Kryss McKenna, Kieran Broome, and Jacki Liddle. 2007. What Older People Do: Time Use and Exploring the Link Between Role Participation and Life Satisfaction in People Aged 65 Years and Over. Australian Occupational Therapy Journal 54, 4 (March 2007), 273\u2013284. https://doi.org/10.1111/j.1440-1630.2007.00642.x",
+      "doi": ""
+    },
+    {
+      "text": "Kathryn Mercer, Melissa Li, Lora Giangregorio, Catherine Burns, and Kelly Grindrod. 2016. Behavior change techniques present in wearable activity trackers: a critical analysis. JMIR mHealth and uHealth 4, 2 (2016), e4461.",
+      "doi": ""
+    },
+    {
+      "text": "Microsoft. 2021. Cognitive Speech Services | Microsoft Azure. Retrieved Sep 09, 2021 from https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/",
+      "doi": ""
+    },
+    {
+      "text": "Md\u00a0Abu\u00a0Sayeed Mondol, Ifat\u00a0A. Emi, Sirat Samyoun, M.\u00a0Arif\u00a0Imtiazur Rahman, and John\u00a0A. Stankovic. 2018. WaDa: An Android Smart Watch App for Sensor Data Collection. In Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers (Singapore, Singapore) (UbiComp \u201918). ACM, New York, NY, USA, 404\u2013407. https://doi.org/10.1145/3267305.3267660",
+      "doi": "10.1145/3267305.3267660"
+    },
+    {
+      "text": "Miriam\u00a0S. Moss and M.\u00a0Powell Lawton. 1982. Time Budgets of Older People: a Window on Four Lifestyles. Journal of Gerontology 37, 1 (Jan. 1982), 115\u2013123. https://doi.org/10.1093/geronj/37.1.115",
+      "doi": ""
+    },
+    {
+      "text": "Lilian\u00a0Genaro Motti, Nadine Vigouroux, and Philippe Gorce. 2013. Interaction Techniques for Older Adults using Touchscreen Devices: a Literature Review. In Proceedings of the 25th ICME conference francophone on l\u2019Interaction Homme-Machine - IHM \u201913. ACM Press, New York, New York, USA, 125\u2013134. https://doi.org/10.1145/2534903.2534920",
+      "doi": "10.1145/2534903.2534920"
+    },
+    {
+      "text": "Akram Mustafa and Mostafa Rahimi\u00a0Azghadi. 2021. Automated Machine Learning for Healthcare and Clinical Notes Analysis. Computers 10, 24 (2021), 31\u00a0pages. Issue 2. https://doi.org/10.3390/computers10020024",
+      "doi": ""
+    },
+    {
+      "text": "Rosemery\u00a0O. Nelson and Steven\u00a0C. Hayes. 1981. Theoretical Explanations for Reactivity in Self-Monitoring.Behavior Modification 5, 1 (1981), 3\u201314. https://doi.org/10.1177/014544558151001",
+      "doi": ""
+    },
+    {
+      "text": "Bijarne\u00a0Martens Nes, Imre Janszky, Ulrik Wisl\u00f8ff, Asbj\u00f8rn St\u00f8ylen, and Trine Karlsen. 2013. Age-predicted Maximal Heart Rate in Healthy Subjects: The HUNT Fitness Study. Scandinavian Journal of Medicine & Science in Sports 23, 6 (Dec. 2013), 697\u2013704. https://doi.org/10.1111/j.1600-0838.2012.01445.x",
+      "doi": ""
+    },
+    {
+      "text": "Carley O\u2019Neill and Shilpa Dogra. 2016. Different Types of Sedentary Activities and Their Association with Perceived Health and Wellness among Middle-Aged and Older Adults: A Cross-Sectional Analysis. American Journal of Health Promotion 30, 5 (2016), 314\u2013322. https://doi.org/10.1177/0890117116646334",
+      "doi": ""
+    },
+    {
+      "text": "PAL Technologies Ltd.2021. activPAL. Retrieved Sep 09, 2021 from https://www.palt.com/",
+      "doi": ""
+    },
+    {
+      "text": "Sinno\u00a0Jialin Pan and Qiang Yang. 2010. A Survey on Transfer Learning. IEEE Transactions on Knowledge and Data Engineering 22, 10(2010), 1345\u20131359. https://doi.org/10.1109/TKDE.2009.191",
+      "doi": "10.1109/TKDE.2009.191"
+    },
+    {
+      "text": "Carolyn Pang, Zhiqin Collin Wang, Joanna McGrenere, Rock Leung, Jiamin Dai, and Karyn Moffatt. 2021. Technology Adoption and Learning Preferences for Older Adults:. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3411764.3445702",
+      "doi": "10.1145/3411764.3445702"
+    },
+    {
+      "text": "Cassandra Phoenix and Meridith Griffin. 2013. Narratives at work: what can stories of older athletes do?Ageing and Society 33, 2 (2013), 243\u2013266. https://doi.org/10.1017/S0144686X11001103",
+      "doi": ""
+    },
+    {
+      "text": "Cassandra Phoenix and Noreen Orr. 2014. Pleasure: A forgotten dimension of physical activity in older age. Social Science & Medicine 115 (2014), 94\u2013102. https://doi.org/10.1016/j.socscimed.2014.06.013",
+      "doi": ""
+    },
+    {
+      "text": "Katrina\u00a0L. Piercy, Richard\u00a0P. Troiano, Rachel\u00a0M. Ballard, Susan\u00a0A. Carlson, Janet\u00a0E. Fulton, Deborah\u00a0A. Galuska, Stephanie\u00a0M. George, and Richard\u00a0D. Olson. 2018. The Physical Activity Guidelines for Americans. JAMA 320, 19 (11 2018), 2020\u20132028. https://doi.org/10.1001/jama.2018.14854",
+      "doi": ""
+    },
+    {
+      "text": "Jos\u00e9 Pinheiro and Douglas Bates. 2000. Mixed-Effects Models in S and S-PLUS(1 ed.). Springer-Verlag, New York. 528 pages. https://doi.org/10.1007/b98882",
+      "doi": ""
+    },
+    {
+      "text": "Stefania Pizza, Barry Brown, Donald McMillan, and Airi Lampinen. 2016. Smartwatch In Vivo. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 5456\u20135469. https://doi.org/10.1145/2858036.2858522",
+      "doi": "10.1145/2858036.2858522"
+    },
+    {
+      "text": "Aditya Ponnada, Caitlin Haynes, Dharam Maniar, Justin Manjourides, and Stephen Intille. 2017. Microinteraction Ecological Momentary Assessment Response Rates: Effect of Microinteractions or the Smartwatch?Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 1, 3, Article 92 (Sept. 2017), 16\u00a0pages. https://doi.org/10.1145/3130957",
+      "doi": ""
+    },
+    {
+      "text": "Alisha Pradhan, Amanda Lazar, and Leah Findlater. 2020. Use of Intelligent Voice Assistants by Older Adults with Low Technology Use. ACM Trans. Comput.-Hum. Interact. 27, 4, Article 31 (Sept. 2020), 27\u00a0pages. https://doi.org/10.1145/3373759",
+      "doi": "10.1145/3373759"
+    },
+    {
+      "text": "Archiki Prasad and Preethi Jyothi. 2020. How Accents Confound: Probing for Accent Information in End-to-End Speech Recognition Systems. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Online, 3739\u20133753. https://doi.org/10.18653/v1/2020.acl-main.345",
+      "doi": ""
+    },
+    {
+      "text": "Emil Protalinski. 2017. Google\u2019s Speech Recognition Technology Now Has a 4.9% Word Error Rate. Retrieved Sep 09, 2021 from https://venturebeat.com/2017/05/17/googles-speech-recognition-technology-now-has-a-4-9-word-error-rate/",
+      "doi": ""
+    },
+    {
+      "text": "W.\u00a0Jack Rejeski, Anthony\u00a0P. Marsh, Peter\u00a0H. Brubaker, Matthew Buman, Roger\u00a0A. Fielding, Don Hire, Todd Manini, Alvito Rego, and Michael\u00a0E. Miller. 2016. Analysis and Interpretation of Accelerometry Data in Older Adults: The LIFE Study. The Journals of Gerontology Series A: Biological Sciences and Medical Sciences 71, 4 (April 2016), 521\u2013528. https://doi.org/10.1093/gerona/glv204",
+      "doi": ""
+    },
+    {
+      "text": "AARP Research. 2016. Project Catalyst and HomeLab. Building a Better Tracker: Older Consumers Weigh In on Activity and Sleep Monitoring Devices. https://doi.org/10.26419/res.00294.001",
+      "doi": ""
+    },
+    {
+      "text": "Melanie Revilla, Mick\u00a0P Couper, Oriol\u00a0J Bosch, and Marc Asensio. 2020. Testing the use of voice input in a smartphone web survey. Social Science Computer Review 38, 2 (2020), 207\u2013224. https://doi.org/10.1177/0894439318810715",
+      "doi": "10.1177/0894439318810715"
+    },
+    {
+      "text": "Dori Rosenberg, Rod Walker, Mikael\u00a0Anne Greenwood-Hickman, John Bellettiere, Yunhua Xiang, KatieRose Richmire, Michael Higgins, David Wing, Eric\u00a0B Larson, Paul\u00a0K Crane, and Andrea\u00a0Z LaCroix. 2020. Device-assessed physical activity and sedentary behavior in a community-based cohort of older adults.BMC Public Health 20 (8 2020), 1256. Issue 1. https://doi.org/10.1186/s12889-020-09330-z",
+      "doi": ""
+    },
+    {
+      "text": "Sherry Ruan, Jacob\u00a0O Wobbrock, Kenny Liou, Andrew Ng, and James\u00a0A Landay. 2018. Comparing Speech and Keyboard Text Entry for Short Messages in Two Languages on Touchscreen Phones. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 4 (2018), 1\u201323. https://doi.org/10.1145/3161187",
+      "doi": "10.1145/3161187"
+    },
+    {
+      "text": "Cormac\u00a0G. Ryan, Paul\u00a0M. Grant, William\u00a0W. Tigbe, and Malcolm\u00a0H. Granat. 2006. The Validity and Reliability of a Novel Activity Monitor as a Measure of Walking. British Journal of Sports Medicine 40, 9 (2006), 779\u2013784. https://doi.org/10.1136/bjsm.2006.027276 arXiv:https://bjsm.bmj.com/content/40/9/779.full.pdf",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0F. Sallis and Brian\u00a0E. Saelens. 2000. Assessment of Physical Activity by Self-Report: Status, Limitations, and Future Directions. Research Quarterly for Exercise and Sport 71, sup2 (June 2000), 1\u201314. https://doi.org/10.1080/02701367.2000.11082780",
+      "doi": ""
+    },
+    {
+      "text": "Sirat Samyoun and John Stankovic. 2021. VoiSense: Harnessing Voice Interaction on a Smartwatch to Collect Sensor Data: Demo Abstract. In Proceedings of the 20th International Conference on Information Processing in Sensor Networks (Co-Located with CPS-IoT Week 2021). ACM, New York, NY, USA, 388\u2013389. https://doi.org/10.1145/3412382.3458777",
+      "doi": "10.1145/3412382.3458777"
+    },
+    {
+      "text": "Jennifer\u00a0A. Schrack, Rachel Cooper, Annemarie Koster, Eric\u00a0J. Shiroma, Joanne\u00a0M. Murabito, W.\u00a0Jack Rejeski, Luigi Ferrucci, and Tamara\u00a0B. Harris. 2016. Assessing Daily Physical Activity in Older Adults: Unraveling the Complexity of Monitors, Measures, and Methods. The Journals of Gerontology Series A: Biological Sciences and Medical Sciences 71, 8 (Aug. 2016), 1039\u20131048. https://doi.org/10.1093/gerona/glw026",
+      "doi": ""
+    },
+    {
+      "text": "Sedentary Behaviour Research Network. 2012. Letter to the Editor: Standardized Use of the Terms \u201cSedentary\u201d and \u201cSedentary Behaviours\u201d. Applied Physiology, Nutrition, and Metabolism 37, 3 (June 2012), 540\u2013542. https://doi.org/10.1139/h2012-024",
+      "doi": ""
+    },
+    {
+      "text": "Lee Smith, Ulf Ekelund, and Mark Hamer. 2015. The Potential Yield of Non-Exercise Physical Activity Energy Expenditure in Public Health. Sports Medicine 45, 4 (April 2015), 449\u2013452. https://doi.org/10.1007/s40279-015-0310-2",
+      "doi": ""
+    },
+    {
+      "text": "Phillip\u00a0B. Sparling, Bethany\u00a0J. Howard, David\u00a0W. Dunstan, and Neville Owen. 2015. Recommendations for Physical Activity in Older Adults. BMJ 350, jan20 6 (Jan. 2015), h100\u2013h100. https://doi.org/10.1136/bmj.h100",
+      "doi": ""
+    },
+    {
+      "text": "Arjun Srinivasan, Bongshin Lee, Nathalie Henry\u00a0Riche, Steven\u00a0M. Drucker, and Ken Hinckley. 2020. InChorus: Designing Consistent Multimodal Interactions for Data Visualization on Tablet Devices. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376782",
+      "doi": "10.1145/3313831.3376782"
+    },
+    {
+      "text": "Anita\u00a0L. Stewart, Kristin\u00a0M. Mills, Abby\u00a0C. King, William\u00a0L. Haskell, Dawn Gillis, and Philip\u00a0L. Ritter. 2001. CHAMPS Physical Activity Questionnaire for Older Adults: Outcomes for Interventions. Medicine & Science in Sports & Exercise 33, 7 (2001), 1126\u20131141. https://journals.lww.com/acsm-msse/Fulltext/2001/07000/CHAMPS_Physical_Activity_Questionnaire_for_Older.10.aspx",
+      "doi": ""
+    },
+    {
+      "text": "Allan Stisen, Henrik Blunck, Sourav Bhattacharya, Thor\u00a0Siiger Prentow, Mikkel\u00a0Baun Kj\u00e6rgaard, Anind Dey, Tobias Sonne, and Mads\u00a0M\u00f8ller Jensen. 2015. Smart Devices are Different: Assessing and Mitigating Mobile Sensing Heterogeneities for Activity Recognition. In Proceedings of the 13th ACM Conference on Embedded Networked Sensor Systems(SenSys \u201915). ACM, New York, NY, USA, 127\u2013140.",
+      "doi": "10.1145/2809695.2809718"
+    },
+    {
+      "text": "Ali\u00a0Raza Syed, Andrew Rosenberg, and Michael Mandel. 2017. Active Learning for Low-Resource Speech Recognition: Impact of Selection Size and Language Modeling Data. In 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, Washington, DC, USA, 5315\u20135319. https://doi.org/10.1109/ICASSP.2017.7953171",
+      "doi": ""
+    },
+    {
+      "text": "Catrine Tudor-Locke, Cora\u00a0L Craig, Yukitoshi Aoyagi, Rhonda\u00a0C Bell, Karen\u00a0A Croteau, Ilse\u00a0De Bourdeaudhuij, Ben Ewald, Andrew\u00a0W Gardner, Yoshiro Hatano, Lesley\u00a0D Lutes, Sandra\u00a0M Matsudo, Farah\u00a0A Ramirez-Marrero, Laura\u00a0Q Rogers, David\u00a0A Rowe, Michael\u00a0D Schmidt, Mark\u00a0A Tully, and Steven\u00a0N Blair. 2011. How Many Steps/day Are Enough? For Older Adults And Special Populations. International Journal of Behavioral Nutrition and Physical Activity 8 (7 2011), 80. Issue 1. https://doi.org/10.1186/1479-5868-8-80",
+      "doi": ""
+    },
+    {
+      "text": "Catrine Tudor-Locke and David\u00a0A Rowe. 2012. Using Cadence to Study Free-Living Ambulatory Behaviour. Sports Medicine 42, 5 (May 2012), 381\u2013398. https://doi.org/10.2165/11599170-000000000-00000",
+      "doi": ""
+    },
+    {
+      "text": "Yonatan Vaizman, Katherine Ellis, Gert Lanckriet, and Nadir Weibel. 2018. ExtraSensory App: Data Collection In-the-Wild with Rich User Interface to Self-Report Behavior. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). ACM, New York, NY, USA, Article 554, 12\u00a0pages. https://doi.org/10.1145/3173574.3174128",
+      "doi": "10.1145/3173574.3174128"
+    },
+    {
+      "text": "Niels van Berkel, Denzil Ferreira, and Vassilis Kostakos. 2017. The Experience Sampling Method on Mobile Devices. ACM Comput. Surv. 50, 6, Article 93 (Dec. 2017), 40\u00a0pages. https://doi.org/10.1145/3123988",
+      "doi": "10.1145/3123988"
+    },
+    {
+      "text": "Dimitri Vargemidis, Kathrin Gerling, Vero\u00a0Vanden Abeele, Luc Geurts, and Katta Spiel. 2021. Irrelevant Gadgets or a Source of Worry: Exploring Wearable Activity Trackers with Older Adults. ACM Trans. Access. Comput. 14, 3, Article 16 (Aug. 2021), 28\u00a0pages. https://doi.org/10.1145/3473463",
+      "doi": "10.1145/3473463"
+    },
+    {
+      "text": "Dimitri Vargemidis, Kathrin Gerling, Katta Spiel, Vero\u00a0Vanden Abeele, and Luc Geurts. 2020. Wearable Physical Activity Tracking Systems for Older Adults\u2014A Systematic Review. ACM Trans. Comput. Healthcare 1, 4, Article 25 (Sept. 2020), 37\u00a0pages. https://doi.org/10.1145/3402523",
+      "doi": "10.1145/3402523"
+    },
+    {
+      "text": "William\u00a0N. Venables and Brian\u00a0D. Ripley. 2002. Modern Applied Statistics with S(4th ed.). Springer, New York. https://www.stats.ox.ac.uk/pub/MASS4/ ISBN 0-387-95457-0.",
+      "doi": ""
+    },
+    {
+      "text": "Ravichander Vipperla, Steve Renals, and Joe Frankel. 2008. Longitudinal Study of ASR Performance on Ageing Voices. In Interspeech 2008. ISCA, Winona, MN, USA, 2550\u20132553.",
+      "doi": ""
+    },
+    {
+      "text": "Marjolein Visser and Annemarie Koster. 2013. Development of a Questionnaire to Assess Sedentary Time in Older Persons \u2013 a Comparative Study using Accelerometry. BMC Geriatrics 13, 1 (Dec. 2013), 80. https://doi.org/10.1186/1471-2318-13-80",
+      "doi": ""
+    },
+    {
+      "text": "Emily\u00a0A. Vogels. 2020. About One-in-Five Americans Use a Smartwatch or Fitness Tracker | Pew Research Center. Retrieved Sep 09, 2021 from https://www.pewresearch.org/fact-tank/2020/01/09/about-one-in-five-americans-use-a-smart-watch-or-fitness-tracker/",
+      "doi": ""
+    },
+    {
+      "text": "Darren\u00a0E.R. Warburton, Crystal\u00a0Whitney Nicol, and Shannon\u00a0S.D. Bredin. 2006. Health Benefits of Physical Activity: The Evidence. CMAJ: Canadian Medical Association Journal 174, 6 (2006), 801\u2013809.",
+      "doi": ""
+    },
+    {
+      "text": "Alanna Weisberg, Alexandre\u00a0Monte Campelo, Tanzeel Bhaidani, and Larry Katz. 2020. Physical Activity Tracking Wristbands for Use in Research With Older Adults: An Overview and Recommendations. Journal for the Measurement of Physical Behaviour 3, 4 (Dec. 2020), 265\u2013273. https://doi.org/10.1123/jmpb.2019-0050",
+      "doi": ""
+    },
+    {
+      "text": "Gary\u00a0M. Weiss. 2019. WISDM: Smartphone and Smartwatch Activity and Biometrics Dataset Data Set. https://archive.ics.uci.edu/ml/datasets/WISDM+Smartphone+and+Smartwatch+Activity+and+Biometrics+Dataset+",
+      "doi": ""
+    },
+    {
+      "text": "Gary\u00a0M. Weiss, Kenichi Yoneda, and Thaier Hayajneh. 2019. Smartphone and Smartwatch-Based Biometrics using Activities of Daily Living. IEEE Access 7(2019), 133190\u2013133202.",
+      "doi": ""
+    },
+    {
+      "text": "Douglas\u00a0J. Wiebe, Bernadette\u00a0A. D\u2019Alonzo, Robin Harris, Margot Putukian, and Carolyn Campbell-McGovern. 2018. Joint Prevalence of Sitting Time and Leisure-Time Physical Activity Among US Adults, 2015-2016. Journal of American Medical Association 320, 19 (Nov. 2018), 2035. https://doi.org/10.1001/jama.2018.14165",
+      "doi": ""
+    },
+    {
+      "text": "Christopher\u00a0K. Wong, Helena\u00a0M. Mentis, and Ravi Kuber. 2018. The Bit Doesn\u2019t Fit: Evaluation of a Commercial Activity-Tracker at Slower Walking Speeds. Gait & posture 59(2018), 177\u2013181.",
+      "doi": ""
+    },
+    {
+      "text": "W. Xiong, L. Wu, F. Alleva, J. Droppo, X. Huang, and A. Stolcke. 2018. The Microsoft 2017 Conversational Speech Recognition System. In 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, Washington, DC, USA, 5934\u20135938. https://doi.org/10.1109/ICASSP.2018.8461870",
+      "doi": ""
+    },
+    {
+      "text": "Xinghui Yan, Shriti Raj, Bingjian Huang, Sun\u00a0Young Park, and Mark\u00a0W. Newman. 2020. Toward Lightweight In-situ Self-reporting: An Exploratory Study of Alternative Smartwatch Interface Designs in Context. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4, 4 (Dec. 2020), 1\u201322. https://doi.org/10.1145/3432212",
+      "doi": "10.1145/3432212"
+    },
+    {
+      "text": "Lin Yang, Chao Cao, Elizabeth\u00a0D. Kantor, Long\u00a0H. Nguyen, Xiaobin Zheng, Yikyung Park, Edward\u00a0L. Giovannucci, Charles\u00a0E. Matthews, Graham\u00a0A. Colditz, and Yin Cao. 2019. Trends in Sedentary Behavior Among the US Population, 2001-2016. JAMA 321, 16 (04 2019), 1587\u20131597. https://doi.org/10.1001/jama.2019.3636",
+      "doi": ""
+    },
+    {
+      "text": "Hanlu Ye, Meethu Malu, Uran Oh, and Leah Findlater. 2014. Current and Future Mobile and Wearable Device Use by People with Visual Impairments. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 3123\u20133132. https://doi.org/10.1145/2556288.2557085",
+      "doi": "10.1145/2556288.2557085"
+    }
+  ]
+}

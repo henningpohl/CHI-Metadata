@@ -1,0 +1,995 @@
+{
+  "doi": "10.1145/3491102.3501881",
+  "title": "Above and Beyond: A Scoping Review of Domains and Applications for Human-Drone Interaction",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-22",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Interacting with flying objects has fueled people\u2019s imagination throughout history. Over the past decade, the Human-Drone Interaction (HDI) community has been working towards making this dream a reality. Despite notable findings, we lack a high-level perspective on the current and future use cases for interacting with drones. We present a holistic view of domains and applications of use that are described, studied, and envisioned in the HDI body of work. To map the extent and nature of the prior research, we performed a scoping review (N=217). We identified 16 domains and over 100 applications where drones and people interact together. We then describe in depth the main domains and applications reported in the literature and further present under-explored use cases with great potential. We conclude with fundamental challenges and opportunities for future research in the field. This work contributes a systematic step towards increased replicability and generalizability of HDI research.",
+  "authors": [
+    {
+      "name": "Viviane Herdel",
+      "institution": "Magic Lab, Department of Industrial Engineering and Management, Ben-Gurion University of the Negev, Israel",
+      "img": "/do/10.1145/contrib-99659701435/rel-imgonly/vivianepic.jpeg",
+      "acmid": "99659701435",
+      "orcid": "missing"
+    },
+    {
+      "name": "Lee J. Yamin",
+      "institution": "Magic Lab, Department of Industrial Engineering and Management, Ben-Gurion University of the Negev, Israel",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659884492",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jessica R. Cauchard",
+      "institution": "Magic Lab, Department of Industrial Engineering and Management, Ben Gurion University of the Negev, Israel",
+      "img": "/do/10.1145/contrib-81490695001/rel-imgonly/2019_12_31_002.jpg",
+      "acmid": "81490695001",
+      "orcid": "0000-0002-8916-8787"
+    }
+  ],
+  "references": [
+    {
+      "text": "Muhammad Abdullah, Minji Kim, Waseem Hassan, Yoshihiro Kuroda, and Seokhee Jeon. 2018. HapticDrone: An encountered-type kinesthetic haptic interface with controllable force feedback: Example of stiffness and weight rendering. In IEEE Haptics Symposium (HAPTICS), Vol.\u00a02018-March. IEEE, 334\u2013339. https://doi.org/10.1109/HAPTICS.2018.8357197",
+      "doi": ""
+    },
+    {
+      "text": "Parastoo Abtahi, Benoit Landry, Jackie\u00a0Junrui Yang, Marco Pavone, Sean Follmer, and James\u00a0A. Landay. 2019. Beyond The Force: Using Quadcopters to Appropriate Objects and the Environment for Haptics in Virtual Reality. Association for Computing Machinery, New York, NY, USA, 1\u201313. 10.1145/3290605.3300589",
+      "doi": "10.1145/3290605.3300589"
+    },
+    {
+      "text": "Parastoo Abtahi, David\u00a0Y. Zhao, Jane\u00a0L. E., and James\u00a0A. Landay. 2017. Drone Near Me: Exploring Touch-Based Human-Drone Interaction. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 1, 3, Article 34 (Sept. 2017), 8\u00a0pages. https://doi.org/10.1145/3130899",
+      "doi": "10.1145/3130899"
+    },
+    {
+      "text": "Urja Acharya, Alisha Bevins, and Brittany\u00a0A. Duncan. 2017. Investigation of human-robot comfort with a small Unmanned Aerial Vehicle compared to a ground robot. In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2758\u20132765. https://doi.org/10.1109/IROS.2017.8206104",
+      "doi": "10.1109/IROS.2017.8206104"
+    },
+    {
+      "text": "Maxime Agor, Antoine Cl\u00e9e, Damien Clergeaud, and Martin Hachet. 2017. Human-Drones Interaction for Gravity-Free Juggling. In Proceedings of the 29th Conference on l\u2019Interaction Homme-Machine (Poitiers, France) (IHM \u201917). Association for Computing Machinery, New York, NY, USA, 309\u2013314. https://doi.org/10.1145/3132129",
+      "doi": "10.1145/3132129.3132163"
+    },
+    {
+      "text": "Ankit Agrawal, Sophia\u00a0J. Abraham, Benjamin Burger, Chichi Christine, Luke Fraser, John\u00a0M. Hoeksema, Sarah Hwang, Elizabeth Travnik, Shreya Kumar, Walter Scheirer, Jane Cleland-Huang, Michael Vierhauser, Ryan Bauer, and Steve Cox. 2020. The Next Generation of Human-Drone Partnerships: Co-Designing an Emergency Response System. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376825",
+      "doi": "10.1145/3313831.3376825"
+    },
+    {
+      "text": "Jassim Al-Fadhli, Mustafa Ashkanani, Abdulwahab Yousef, Issam Damaj, and Mohammad El-Shafei. 2014. RECON: A remotely controlled drone for roads safety. In 2014 International Conference on Connected Vehicles and Expo (ICCVE). IEEE, 912\u2013918. https://doi.org/10.1109/ICCVE.2014.7297688",
+      "doi": ""
+    },
+    {
+      "text": "Majed Al-Zayer, Sam Tregillus, Jiwan Bhandari, Dave Feil-Seifer, and Eelke Folmer. 2016. Exploring the Use of a Drone to Guide Blind Runners. In Proceedings of the 18th International ACM SIGACCESS Conference on Computers and Accessibility (Reno, Nevada, USA) (ASSETS \u201916). Association for Computing Machinery, New York, NY, USA, 263\u2013264. https://doi.org/10.1145/2982142.2982204",
+      "doi": "10.1145/2982142.2982204"
+    },
+    {
+      "text": "Alper\u00a0Turan Alan, Chang Liu, Elliot Salisbury, Stephen\u00a0D. Prior, Sarvapali\u00a0D. Ramchurn, Feng Wu, Kerry Tatlock, and Gareth Rees. 2018. Human-UAV Teaming in Dynamic and Uncertain Environments. In Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems(Stockholm, Sweden) (AAMAS \u201918). Association for Computing Machinery, Richland, SC, 1791\u20131793. https://dl.acm.org/doi/10.5555/3237383.3237979",
+      "doi": "10.5555/3237383.3237979"
+    },
+    {
+      "text": "Omri Alon, Chana Fyodorov, Sharon Rabinovich, and Jessica\u00a0R. Cauchard. 2021. Drones in Firefighting: A User-Centered Design Perspective. In Proceedings of the 23rd International Conference on Mobile Human-Computer Interaction (Toulouse & Virtual, France) (MobileHCI \u201921). Association for Computing Machinery, New York, NY, USA, Article 24, 11\u00a0pages. https://doi.org/10.1145/3447526.3472030",
+      "doi": "10.1145/3447526.3472030"
+    },
+    {
+      "text": "Timothy Alvington\u00a0Silvester. 2021. Playing with Drones: Towards Understanding the Design of Drone-Based Pervasive Play. Association for Computing Machinery, New York, NY, USA, 1\u20135. https://doi.org/10.1145/3411763.3451845",
+      "doi": ""
+    },
+    {
+      "text": "Charlie Anderson, Benji Barash, Charlie McNeill, Denis Ogun, Michael Wray, Jarrod Knibbe, Christopher\u00a0H. Morris, and Sue\u00a0Ann Seah. 2015. The Cage: Towards a 6-DoF Remote Control with Force Feedback for UAV Interaction. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI EA \u201915). Association for Computing Machinery, New York, NY, USA, 1687\u20131692. https://doi.org/10.1145/2702613.2732877",
+      "doi": "10.1145/2702613.2732877"
+    },
+    {
+      "text": "Ludovic Apvrille, Tullio Tanzi, and Jean-Luc Dugelay. 2014. Autonomous drones for assisting rescue services within the context of natural disasters. In 2014 XXXIth URSI General Assembly and Scientific Symposium (URSI GASS). IEEE, 1\u20134. https://doi.org/10.1109/URSIGASS.2014.6929384",
+      "doi": ""
+    },
+    {
+      "text": "Muhammad\u00a0Yeasir Arafat and Sangman Moh. 2019. Routing protocols for unmanned aerial vehicle networks: A survey. IEEE Access 7(2019), 99694\u201399720. https://doi.org/10.1109/ACCESS.2019.2930813",
+      "doi": ""
+    },
+    {
+      "text": "Erangi\u00a0P. Ariyasena, Udaka\u00a0A. Manawadu, Kasun\u00a0R. Abeyratne, and P.\u00a0Ravindra S.\u00a0De Silva. 2020. Exploring a Ground-Air Personal Space in Human-Drone Interactions. In 2020 International Conference on Image Processing and Robotics (ICIP). IEEE, 1\u20136. https://doi.org/10.1109/ICIP48927.2020.9367352",
+      "doi": ""
+    },
+    {
+      "text": "Hilary Arksey and Lisa O\u2019Malley. 2005. Scoping studies: Towards a methodological framework. International Journal of Social Research Methodology: Theory and Practice 8 (2 2005), 19\u201332. Issue 1. https://doi.org/10.1080/1364557032000119616",
+      "doi": ""
+    },
+    {
+      "text": "Dante Arroyo, Cesar Lucho, Silvia\u00a0Julissa Roncal, and Francisco Cuellar. 2014. Daedalus: A SUAV for Human-Robot Interaction. In Proceedings of the 2014 ACM/IEEE International Conference on Human-Robot Interaction (Bielefeld, Germany) (HRI \u201914). Association for Computing Machinery, New York, NY, USA, 116\u2013117. https://doi.org/10.1145/2559636.2563709",
+      "doi": "10.1145/2559636.2563709"
+    },
+    {
+      "text": "Jonas Auda, Martin Weigel, Jessica\u00a0R. Cauchard, and Stefan Schneegass. 2021. Understanding Drone Landing on the Human Body. In Proceedings of the 23rd International Conference on Mobile Human-Computer Interaction (Toulouse & Virtual, France) (MobileHCI \u201921). Association for Computing Machinery, New York, NY, USA, Article 23, 13\u00a0pages. https://doi.org/10.1145/3447526.3472031",
+      "doi": "10.1145/3447526.3472031"
+    },
+    {
+      "text": "Federico Augugliaro and Raffaello D\u2019Andrea. 2013. Admittance control for physical human-quadrocopter interaction. In European Control Conference (ECC). IEEE, 1805\u20131810. https://doi.org/10.23919/ECC.2013.6669643",
+      "doi": ""
+    },
+    {
+      "text": "Mauro Avila, Markus Funk, and Niels Henze. 2015. DroneNavigator: Using Drones for Navigating Visually Impaired Persons. In Proceedings of the 17th International ACM SIGACCESS Conference on Computers & Accessibility(Lisbon, Portugal) (ASSETS \u201915). Association for Computing Machinery, New York, NY, USA, 327\u2013328. https://doi.org/10.1145/2700648.2811362",
+      "doi": "10.1145/2700648.2811362"
+    },
+    {
+      "text": "Mauro Avila\u00a0Soto and Markus Funk. 2018. Look, a Guidance Drone! Assessing the Social Acceptability of Companion Drones for Blind Travelers in Public Spaces. In Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility (Galway, Ireland) (ASSETS \u201918). Association for Computing Machinery, New York, NY, USA, 417\u2013419. https://doi.org/10.1145/3234695.3241019",
+      "doi": "10.1145/3234695.3241019"
+    },
+    {
+      "text": "Mauro Avila\u00a0Soto, Markus Funk, Matthias Hoppe, Robin Boldt, Katrin Wolf, and Niels Henze. 2017. DroneNavigator: Using Leashed and Free-Floating Quadcopters to Navigate Visually Impaired Travelers. In Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility (Baltimore, Maryland, USA) (ASSETS \u201917). Association for Computing Machinery, New York, NY, USA, 300\u2013304. https://doi.org/10.1145/3132525.3132556",
+      "doi": "10.1145/3132525.3132556"
+    },
+    {
+      "text": "Burchan Aydin. 2019. Public acceptance of drones: Knowledge, attitudes, and practice. Technology in Society 59 (11 2019), 101180. https://doi.org/10.1016/j.techsoc.2019.101180",
+      "doi": ""
+    },
+    {
+      "text": "Birgir Baldursson, Tim Bj\u00f6rk, Lisa Johansson, Agnes Rickardsson, Ellen Widerstrand, Mafalda Gamboa, and Mohammad Obaid. 2021. DroRun: Drone Visual Interactions to Mediate a Running Group. In Companion of the 2021 ACM/IEEE International Conference on Human-Robot Interaction (Boulder, CO, USA) (HRI \u201921 Companion). Association for Computing Machinery, New York, NY, USA, 148\u2013152. https://doi.org/10.1145/3434074.3447148",
+      "doi": "10.1145/3434074.3447148"
+    },
+    {
+      "text": "Mehmet\u00a0Aydin Bayta\u015f, Damla \u00c7ay, Yuchong Zhang, Mohammad Obaid, Asim\u00a0Evren Yanta\u00e7, and Morten Fjeld. 2019. The Design of Social Drones: A Review of Studies on Autonomous Flyers in Inhabited Environments. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300480",
+      "doi": ""
+    },
+    {
+      "text": "Alisha Bevins and Brittany\u00a0A. Duncan. 2021. Aerial Flight Paths for Communication: How Participants Perceive and Intend to Respond to Drone Movements. In Proceedings of the 2021 ACM/IEEE International Conference on Human-Robot Interaction (Boulder, CO, USA) (HRI \u201921). Association for Computing Machinery, New York, NY, USA, 16\u201323. https://doi.org/10.1145/3434073.3444645",
+      "doi": "10.1145/3434073.3444645"
+    },
+    {
+      "text": "Susanne Boll, Marion Koelle, and Jessica\u00a0R. Cauchard. 2019. Understanding the Socio-Technical Impact of Automated (Aerial) Vehicles on Casual Bystanders. In 1st International Workshop on Human-Drone Interaction. Ecole Nationale de l\u2019Aviation Civile [ENAC], Glasgow, United Kingdom, 8. https://hal.archives-ouvertes.fr/hal-02128379",
+      "doi": ""
+    },
+    {
+      "text": "Sean Braley, Calvin Rubens, Timothy Merritt, and Roel Vertegaal. 2018. GridDrones: A Self-Levitating Physical Voxel Lattice for Interactive 3D Surface Deformations. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (Berlin, Germany) (UIST \u201918). Association for Computing Machinery, New York, NY, USA, 87\u201398. https://doi.org/10.1145/3242587.3242658",
+      "doi": "10.1145/3242587.3242658"
+    },
+    {
+      "text": "Endri Bregu, Nicola Casamassima, Daniel Cantoni, Luca Mottola, and Kamin Whitehouse. 2016. Reactive Control of Autonomous Drones. In Proceedings of the 14th Annual International Conference on Mobile Systems, Applications, and Services (Singapore, Singapore) (MobiSys \u201916). Association for Computing Machinery, New York, NY, USA, 207\u2013219. https://doi.org/10.1145/2906388.2906410",
+      "doi": "10.1145/2906388.2906410"
+    },
+    {
+      "text": "Anke\u00a0M. Brock, Jessica\u00a0R. Cauchard, Markus Funk, J\u00e9r\u00e9mie Garcia, Mohamed Khamis, and Matja\u017e Kljun. 2019. IHDI: International Workshop on Human-Drone Interaction. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20137. https://doi.org/10.1145/3290607.3299001",
+      "doi": "10.1145/3290607.3299001"
+    },
+    {
+      "text": "Anke\u00a0M. Brock, Julia Chatain, Michelle Park, Tommy Fang, Martin Hachet, James\u00a0A. Landay, and Jessica\u00a0R. Cauchard. 2018. FlyMap: Interacting with Maps Projected from a Drone. In Proceedings of the 7th ACM International Symposium on Pervasive Displays (Munich, Germany) (PerDis \u201918). Association for Computing Machinery, New York, NY, USA, Article 13, 9\u00a0pages. https://doi.org/10.1145/3205873.3205877",
+      "doi": "10.1145/3205873.3205877"
+    },
+    {
+      "text": "Jake Bruce, Jacob Perron, and Richard Vaughan. 2017. Ready - Aim - Fly! Hands-Free Face-Based HRI for 3D Trajectory Control of UAVs. In 14th Conference on Computer and Robot Vision (CRV). IEEE, 307\u2013313. https://doi.org/10.1109/CRV.2017.39",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Cacace, Alberto Finzi, Vincenzo Lippiello, Michele Furci, Nicola Mimmo, and Lorenzo Marconi. 2016. A control architecture for multiple drones operated via multimodal interaction in search & rescue mission. In IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR) (Lausanne, Switzerland). IEEE, 233\u2013239. https://doi.org/10.1109/SSRR.2016.7784304",
+      "doi": "10.1109/SSRR.2016.7784304"
+    },
+    {
+      "text": "Chenglin Cai, Shaowu Yang, Peifeng Yan, Jinkai Tian, Linlin Du, and Xuejun Yang. 2019. Real-Time Human-Posture Recognition for Human-Drone Interaction Using Monocular Vision. In Intelligent Robotics and Applications, Haibin Yu, Jinguo Liu, Lianqing Liu, Zhaojie Ju, Yuwang Liu, and Dalin Zhou (Eds.). Springer International Publishing, Cham, 203\u2013216.",
+      "doi": ""
+    },
+    {
+      "text": "Guowei Cai, Jorge Dias, and Lakmal Seneviratne. 2014. A Survey of Small-Scale Unmanned Aerial Vehicles: Recent Advances and Future Development Trends. Unmanned Systems 02, 02 (2014), 175\u2013199. https://doi.org/10.1142/S2301385014300017",
+      "doi": ""
+    },
+    {
+      "text": "Jessica\u00a0R. Cauchard, Jane\u00a0L. E, Kevin\u00a0Y. Zhai, and James\u00a0A. Landay. 2015. Drone & Me: An Exploration into Natural Human-Drone Interaction. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing (Osaka, Japan) (UbiComp \u201915). Association for Computing Machinery, New York, NY, USA, 361\u2013365. https://doi.org/10.1145/2750858.2805823",
+      "doi": "10.1145/2750858.2805823"
+    },
+    {
+      "text": "Jessica\u00a0R. Cauchard, Woody Gover, William Chen, Stephen Cartwright, and Ehud Sharlin. 2021. Drones in Wonderland \u2013 Disentangling Collocated Interaction Using Radical Form. IEEE Robotics and Automation Letters(2021), 8. https://doi.org/10.1109/LRA.2021.3103653",
+      "doi": ""
+    },
+    {
+      "text": "Jessica\u00a0R. Cauchard, Mohamed Khamis, J\u00e9r\u00e9mie Garcia, Matja\u017e Kljun, and Anke\u00a0M. Brock. 2021. Toward a Roadmap for Human-Drone Interaction. Interactions 28, 2 (3 2021), 77\u201381. Issue 2. https://doi.org/10.1145/3447889",
+      "doi": ""
+    },
+    {
+      "text": "Jessica\u00a0R. Cauchard, Alex Tamkin, Cheng\u00a0Yao Wang, Luke Vink, Michelle Park, Tommy Fang, and James\u00a0A. Landay. 2019. Drone.io: A Gestural and Visual Interface for Human-Drone Interaction. In 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI). IEEE, 153\u2013162. https://doi.org/10.1109/HRI.2019.8673011",
+      "doi": ""
+    },
+    {
+      "text": "Jessica\u00a0R. Cauchard, Kevin\u00a0Y. Zhai, Marco Spadafora, and James\u00a0A. Landay. 2016. Emotion Encoding in Human-Drone Interaction. In 11th ACM/IEEE International Conference on Human-Robot Interaction (HRI) (Christchurch, New Zealand). IEEE, 263\u2013270. https://doi.org/10.1109/HRI.2016.7451761",
+      "doi": ""
+    },
+    {
+      "text": "Victoria Chang, Pramod Chundury, and Marshini Chetty. 2017. Spiders in the Sky: User Perceptions of Drones, Privacy, and Security. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 6765\u20136776. https://doi.org/10.1145/3025453.3025632",
+      "doi": "10.1145/3025453.3025632"
+    },
+    {
+      "text": "Chien-Fang Chen, Kang-Ping Liu, and Neng-Hao Yu. 2015. Exploring Interaction Modalities for a Selfie Drone. In SIGGRAPH Asia 2015 Posters (Kobe, Japan) (SA \u201915). Association for Computing Machinery, New York, NY, USA, Article 25, 2\u00a0pages. https://doi.org/10.1145/2820926.2820965",
+      "doi": ""
+    },
+    {
+      "text": "Guojun Chen, Noah Weiner, and Lin Zhong. 2021. POD: A Smartphone That Flies. In Proceedings of the 7th Workshop on Micro Aerial Vehicle Networks, Systems, and Applications (Virtual, WI, USA) (Dronet\u201921). Association for Computing Machinery, New York, NY, USA, 7\u201312. https://doi.org/10.1145/3469259.3470490",
+      "doi": "10.1145/3469259.3470490"
+    },
+    {
+      "text": "Linfeng Chen, Kazuki Takashima, Kazuyuki Fujita, and Yoshifumi Kitamura. 2021. PinpointFly: An Egocentric Position-Control Drone Interface Using Mobile AR. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3411764.3445110",
+      "doi": ""
+    },
+    {
+      "text": "Yu-An Chen, Te-Yen Wu, Tim Chang, Jun\u00a0You Liu, Yuan-Chang Hsieh, Leon\u00a0Yulun Hsu, Ming-Wei Hsu, Paul Taele, Neng-Hao Yu, and Mike\u00a0Y. Chen. 2018. ARPilot: Designing and Investigating AR Shooting Interfaces on Mobile Devices for Drone Videography. In Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services (Barcelona, Spain) (MobileHCI \u201918). Association for Computing Machinery, New York, NY, USA, Article 42, 8\u00a0pages. https://doi.org/10.1145/3229434.3229475",
+      "doi": "10.1145/3229434.3229475"
+    },
+    {
+      "text": "Yi-Ling Chen, Wei-Tse Lee, Liwei Chan, Rong-Hao Liang, and Bing-Yu Chen. 2015. Direct View Manipulation for Drone Photography. In SIGGRAPH Asia 2015 Posters (Kobe, Japan) (SA \u201915). Association for Computing Machinery, New York, NY, USA, Article 23, 1\u00a0pages. https://doi.org/10.1145/2820926.2820945",
+      "doi": ""
+    },
+    {
+      "text": "Kshitij Chhabra, Pranay Mathur, and Veeky Baths. 2020. BCI Controlled Quadcopter Using SVM and Recursive LSE Implemented on ROS. In IEEE International Conference on Systems, Man, and Cybernetics (SMC). IEEE, 4250\u20134255. https://doi.org/10.1109/SMC42975.2020.9282898",
+      "doi": ""
+    },
+    {
+      "text": "Grzegorz Chmaj and Henry Selvaraj. 2015. Distributed Processing Applications for UAV/drones: A Survey. In Progress in Systems Engineering. Springer International Publishing, Cham, 449\u2013454. https://doi.org/10.1007/978-3-319-08422-0_66",
+      "doi": ""
+    },
+    {
+      "text": "Roger Clarke. 2014. Understanding the drone epidemic. Computer Law & Security Review 30 (6 2014), 230\u2013246. Issue 3. https://doi.org/10.1016/J.CLSR.2014.03.002",
+      "doi": ""
+    },
+    {
+      "text": "Jane Cleland-Huang, Ankit Agrawal, Md\u00a0Nafee\u00a0Al Islam, Eric Tsai, Maxime Van\u00a0Speybroeck, and Michael Vierhauser. 2020. Requirements-Driven Configuration of Emergency Response Missions with Small Aerial Vehicles. In Proceedings of the 24th ACM Conference on Systems and Software Product Line: Volume A - Volume A (Montreal, Quebec, Canada) (SPLC \u201920). Association for Computing Machinery, New York, NY, USA, Article 26, 12\u00a0pages. https://doi.org/10.1145/3382025.3414950",
+      "doi": "10.1145/3382025.3414950"
+    },
+    {
+      "text": "Ashley Colley, Lasse Virtanen, Pascal Knierim, and Jonna H\u00e4kkil\u00e4. 2017. Investigating Drone Motion as Pedestrian Guidance. In Proceedings of the 16th International Conference on Mobile and Ubiquitous Multimedia (Stuttgart, Germany) (MUM \u201917). Association for Computing Machinery, New York, NY, USA, 143\u2013150. https://doi.org/10.1145/3152832.3152837",
+      "doi": "10.1145/3152832.3152837"
+    },
+    {
+      "text": "Martin Cooney, Francesco Zanlungo, Shuichi Nishio, and Hiroshi Ishiguro. 2012. Designing a Flying Humanoid Robot (FHR): Effects of Flight on Interactive Communication. In 2012 IEEE RO-MAN: The 21st IEEE International Symposium on Robot and Human Interactive Communication (Paris, France). IEEE, 364\u2013371. https://doi.org/10.1109/ROMAN.2012.6343780",
+      "doi": ""
+    },
+    {
+      "text": "Rajkumar Darbar, Joan\u00a0Sol Roo, Thibault Lain\u00e9, and Martin Hachet. 2019. DroneSAR: Extending Physical Spaces in Spatial Augmented Reality Using Projection on a Drone. In Proceedings of the 18th International Conference on Mobile and Ubiquitous Multimedia (Pisa, Italy) (MUM \u201919). Association for Computing Machinery, New York, NY, USA, Article 4, 7\u00a0pages. https://doi.org/10.1145/3365610.3365631",
+      "doi": "10.1145/3365610.3365631"
+    },
+    {
+      "text": "Honghao Deng, Jiabao Li, Allen Sayegh, Sebastian Birolini, and Stefano Andreani. 2018. Twinkle: A Flying Lighting Companion for Urban Safety. In Proceedings of the Twelfth International Conference on Tangible, Embedded, and Embodied Interaction(Stockholm, Sweden) (TEI \u201918). Association for Computing Machinery, New York, NY, USA, 567\u2013573. https://doi.org/10.1145/3173225.3173309",
+      "doi": "10.1145/3173225.3173309"
+    },
+    {
+      "text": "Qicheng Ding, Jiangtao Gong, Jingwei Sun, Penghui Xu, Liuxin Zhang, Qianying Wang, and Yu Zhang. 2019. HeliCoach: A Drone-Based System Supporting Orientation and Mobility Training for the Visually Impaired. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3290607.3312763",
+      "doi": ""
+    },
+    {
+      "text": "Kevin Dorling, Jordan Heinrichs, Geoffrey\u00a0G. Messier, and Sebastian Magierowski. 2017. Vehicle Routing Problems for Drone Delivery. IEEE Transactions on Systems, Man, and Cybernetics: Systems 47 (1 2017), 70\u201385. Issue 1. https://doi.org/10.1109/TSMC.2016.2582745",
+      "doi": ""
+    },
+    {
+      "text": "Tinglin Duan, Parinya Punpongsanon, Daisuke Iwai, and Kosuke Sato. 2018. FlyingHand: Extending the Range of Haptic Feedback on Virtual Hand Using Drone-Based Object Recognition. In SIGGRAPH Asia 2018 Technical Briefs (Tokyo, Japan) (SA \u201918). Association for Computing Machinery, New York, NY, USA, Article 28, 4\u00a0pages. https://doi.org/10.1145/3283254.3283258",
+      "doi": "10.1145/3283254.3283258"
+    },
+    {
+      "text": "Tinglin Duan, Parinya Punpongsanon, Sheng Jia, Daisuke Iwai, Kosuke Sato, and Konstantinos\u00a0N. Plataniotis. 2019. Remote Environment Exploration with Drone Agent and Haptic Force Feedback. In International Conference on Artificial Intelligence and Virtual Reality (AIVR). IEEE, 167\u20131673. https://doi.org/10.1109/AIVR46125.2019.00034",
+      "doi": ""
+    },
+    {
+      "text": "Brittany\u00a0A. Duncan, Evan Beachly, Alisha Bevins, Sebasitan Elbaum, and Carrick Detweiler. 2018. Investigation of Communicative Flight Paths for Small Unmanned Aerial Systems. In IEEE International Conference on Robotics and Automation (ICRA). IEEE, 602\u2013609. https://doi.org/10.1109/ICRA.2018.8462871",
+      "doi": ""
+    },
+    {
+      "text": "Brittany\u00a0A. Duncan and Robin\u00a0R. Murphy. 2013. Comfortable approach distance with small Unmanned Aerial Vehicles. In IEEE International Workshop on Robot and Human Interactive Communication. IEEE, 786\u2013792. https://doi.org/10.1109/ROMAN.2013.6628409",
+      "doi": ""
+    },
+    {
+      "text": "Brittany\u00a0A. Duncan and Robin\u00a0R. Murphy. 2017. Effects of Speed, Cyclicity, and Dimensionality on Distancing, Time, and Preference in Human-Aerial Vehicle Interactions. ACM Transactions on Interactive Intelligent Systems 7 (9 2017), 27. Issue 3. https://doi.org/10.1145/2983927",
+      "doi": ""
+    },
+    {
+      "text": "Jane\u00a0L. E, Ilene\u00a0L. E, James\u00a0A. Landay, and Jessica\u00a0R. Cauchard. 2017. Drone & Wo: Cultural Influences on Human-Drone Interaction Techniques. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 6794\u20136799. https://doi.org/10.1145/3025453.3025755",
+      "doi": "10.1145/3025453.3025755"
+    },
+    {
+      "text": "Okan Erat, Werner\u00a0Alexander Isop, Denis Kalkofen, and Dieter Schmalstieg. 2018. Drone-Augmented Human Vision: Exocentric Control for Drones Exploring Hidden Areas. IEEE Transactions on Visualization and Computer Graphics 24 (4 2018), 1437\u20131446. Issue 4. https://doi.org/10.1109/TVCG.2018.2794058",
+      "doi": ""
+    },
+    {
+      "text": "Sara Eriksson, Kristina H\u00f6\u00f6k, Richard Shusterman, Dag Svanes, Carl Unander-Scharin, and \u00c5sa Unander-Scharin. 2020. Ethics in Movement: Shaping and Being Shaped in Human-Drone Interaction. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376678",
+      "doi": "10.1145/3313831.3376678"
+    },
+    {
+      "text": "Sara Eriksson, \u00c5sa Unander-Scharin, Vincent Trichon, Carl Unander-Scharin, Hedvig Kjellstr\u00f6m, and Kristina H\u00f6\u00f6k. 2019. Dancing With Drones: Crafting Novel Artistic Expressions Through Intercorporeality. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300847",
+      "doi": ""
+    },
+    {
+      "text": "Ramon A.\u00a0Suarez Fernandez, Jose\u00a0Luis Sanchez-Lopez, Carlos Sampedro, Hriday Bavle, Martin Molina, and Pascual Campoy. 2016. Natural user interfaces for human-drone multi-modal interaction. In 2016 International Conference on Unmanned Aircraft Systems (ICUAS). IEEE, 1013\u20131022. https://doi.org/10.1109/ICUAS.2016.7502665",
+      "doi": ""
+    },
+    {
+      "text": "Justin\u00a0W. Firestone, Rubi Qui\u00f1ones, and Brittany\u00a0A. Duncan. 2019. Learning from Users: An Elicitation Study and Taxonomy for Communicating Small Unmanned Aerial System States Through Gestures. In 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI). IEEE, 163\u2013171. https://doi.org/10.1109/HRI.2019.8673010",
+      "doi": ""
+    },
+    {
+      "text": "Eelke Folmer. 2015. Exploring the Use of an Aerial Robot to Guide Blind Runners. SIGACCESS Access. Comput. (7 2015), 3\u20137. Issue 112. https://doi.org/10.1145/2809915.2809916",
+      "doi": ""
+    },
+    {
+      "text": "Alexander Freistetter and Karin\u00a0Anna Hummel. 2019. Human-Drone Teaming: Use Case Bookshelf Inventory. In Proceedings of the 9th International Conference on the Internet of Things (Bilbao, Spain) (IoT 2019). Association for Computing Machinery, New York, NY, USA, Article 39, 4\u00a0pages. https://doi.org/10.1145/3365871.3365913",
+      "doi": "10.1145/3365871.3365913"
+    },
+    {
+      "text": "Alexander Freistetter, Manuela Pollak, and Karin\u00a0Anna Hummel. 2020. Performance of a Networked Human-Drone Team: Command Response and Interaction Effects. In Proceedings of the 6th ACM Workshop on Micro Aerial Vehicle Networks, Systems, and Applications (Toronto, Ontario, Canada) (DroNet \u201920). Association for Computing Machinery, New York, NY, USA, Article 6, 6\u00a0pages. https://doi.org/10.1145/3396864.3399703",
+      "doi": "10.1145/3396864.3399703"
+    },
+    {
+      "text": "Markus Funk. 2018. Human-Drone Interaction: Let\u2019s Get Ready for Flying User Interfaces!Interactions 25, 3 (apr 2018), 78\u201381. https://doi.org/10.1145/3194317",
+      "doi": "10.1145/3194317"
+    },
+    {
+      "text": "Vinitha Gadiraju, J\u00e9r\u00e9mie Garcia, Shaun Kane, and Anke M.\u00a0Brock. 2021. \u201cIt is Fascinating to Make These Beasts Fly\u201d: Understanding Visually Impaired People\u2019s Motivations and Needs for Drone Piloting. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3441852.3471219",
+      "doi": ""
+    },
+    {
+      "text": "Mafalda Gamboa, Mohammad Obaid, and Sara Ljungblad. 2021. Ritual Drones: Designing and Studying Critical Flying Companions. In Companion of the 2021 ACM/IEEE International Conference on Human-Robot Interaction (Boulder, CO, USA) (HRI \u201921 Companion). Association for Computing Machinery, New York, NY, USA, 562\u2013564. https://doi.org/10.1145/3434074.3446363",
+      "doi": "10.1145/3434074.3446363"
+    },
+    {
+      "text": "J\u00e9r\u00e9mie Garcia, Luc Chevrier, Yannick Jestin, and Anke\u00a0M. Brock. 2019. HandiFly: Towards Interactions to Support Drone Pilots with Disabilities. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3290607.3312957",
+      "doi": "10.1145/3290607.3312957"
+    },
+    {
+      "text": "Antonio Gomes, Calvin Rubens, Sean Braley, and Roel Vertegaal. 2016. BitDrones: Towards Using 3D Nanocopter Displays as Interactive Self-Levitating Programmable Matter. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 770\u2013780. https://doi.org/10.1145/2858036.2858519",
+      "doi": "10.1145/2858036.2858519"
+    },
+    {
+      "text": "Eberhard Graether and Florian Mueller. 2012. Joggobot: A Flying Robot as Jogging Companion. In CHI \u201912 Extended Abstracts on Human Factors in Computing Systems (Austin, Texas, USA) (CHI EA \u201912). Association for Computing Machinery, New York, NY, USA, 1063\u20131066. https://doi.org/10.1145/2212776.2212386",
+      "doi": "10.1145/2212776.2212386"
+    },
+    {
+      "text": "Lynne Grewe and Garrett Stevenson. 2019. Seeing Eye Drone: A Deep Learning, Vision-Based UAV for Assisting the Visually Impaired with Mobility. In Proceedings of the ACM Turing Celebration Conference - China (Chengdu, China) (ACM TURC \u201919). Association for Computing Machinery, New York, NY, USA, Article 110, 5\u00a0pages. https://doi.org/10.1145/3321408.3321414",
+      "doi": "10.1145/3321408.3321414"
+    },
+    {
+      "text": "Boris Gromov, Luca\u00a0M. Gambardella, and Alessandro Giusti. 2018. Video: Landing a Drone with Pointing Gestures. In Companion of the 2018 ACM/IEEE International Conference on Human-Robot Interaction (Chicago, IL, USA) (HRI \u201918). Association for Computing Machinery, New York, NY, USA, 374. https://doi.org/10.1145/3173386.3177530",
+      "doi": "10.1145/3173386.3177530"
+    },
+    {
+      "text": "Michael Gusenbauer and Neal\u00a0R. Haddaway. 2020. Which academic search systems are suitable for systematic reviews or meta-analyses? Evaluating retrieval qualities of Google Scholar, PubMed, and 26 other resources. Research Synthesis Methods 11 (3 2020), 181\u2013217. Issue 2. https://doi.org/10.1002/jrsm.1378",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0Paulin Hansen, Alexandre Alapetite, I.\u00a0Scott MacKenzie, and Emilie M\u00f8llenbach. 2014. The Use of Gaze to Control Drones. In Proceedings of the Symposium on Eye Tracking Research and Applications (Safety Harbor, Florida) (ETRA \u201914). Association for Computing Machinery, New York, NY, USA, 27\u201334. https://doi.org/10.1145/2578153.2578156",
+      "doi": "10.1145/2578153.2578156"
+    },
+    {
+      "text": "Mohammad\u00a0R. Haque, Muztahid Muhammad, Dipayan Swarnaker, and Md Arifuzzaman. 2014. Autonomous Quadcopter for product home delivery. In International Conference on Electrical Engineering and Information Communication Technology. IEEE, 1\u20135. https://doi.org/10.1109/ICEEICT.2014.6919154",
+      "doi": ""
+    },
+    {
+      "text": "Mostafa Hassanalian and Abdessattar Abdelkefi. 2017. Classifications, applications, and design challenges of drones: A review. Progress in Aerospace Sciences 91 (2017), 99\u2013131. https://doi.org/10.1016/j.paerosci.2017.04.003",
+      "doi": ""
+    },
+    {
+      "text": "Hirohiko Hayakawa, Charith\u00a0Lasantha Fernando, MHD\u00a0Yamen Saraiji, Kouta Minamizawa, and Susumu Tachi. 2015. Telexistence Drone: Design of a Flight Telexistence System for Immersive Aerial Sports Experience. In Proceedings of the 6th Augmented Human International Conference (Singapore, Singapore) (AH \u201915). Association for Computing Machinery, New York, NY, USA, 171\u2013172. https://doi.org/10.1145/2735711.2735816",
+      "doi": "10.1145/2735711.2735816"
+    },
+    {
+      "text": "Dan He, Haoyi Ren, Weidong Hua, Gang Pan, Shijian Li, and Zhaohui Wu. 2011. FlyingBuddy: Augment Human Mobility and Perceptibility. In Proceedings of the 13th International Conference on Ubiquitous Computing (Beijing, China) (UbiComp \u201911). Association for Computing Machinery, New York, NY, USA, 615\u2013616. https://doi.org/10.1145/2030112.2030241",
+      "doi": "10.1145/2030112.2030241"
+    },
+    {
+      "text": "Seongkook Heo, Christina Chung, Geehyuk Lee, and Daniel Wigdor. 2018. Thor\u2019s Hammer: An Ungrounded Force Feedback Device Utilizing Propeller-Induced Propulsive Force. Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3173574.3174099",
+      "doi": "10.1145/3173574.3174099"
+    },
+    {
+      "text": "Viviane Herdel, Anastasia Kuzminykh, Andrea Hildebrandt, and Jessica\u00a0R. Cauchard. 2021. Drone in Love: Emotional Perception of Facial Expressions on Flying Robots. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201320. https://doi.org/10.1145/3411764.3445495",
+      "doi": "10.1145/3411764.3445495"
+    },
+    {
+      "text": "Viviane Herdel, Lee\u00a0J. Yamin, Eyal Ginosar, and Jessica\u00a0R. Cauchard. 2021. Public Drone: Attitude Towards Drone Capabilities in Various Contexts. In Proceedings of the 23rd International Conference on Mobile Human-Computer Interaction (Toulouse & Virtual, France) (MobileHCI \u201921). Association for Computing Machinery, New York, NY, USA, Article 25, 16\u00a0pages. https://doi.org/10.1145/3447526.3472053",
+      "doi": "10.1145/3447526.3472053"
+    },
+    {
+      "text": "Bradley Hiebert, Elys\u00e9e Nouvet, Vyshnave Jeyabalan, and Lorie Donelle. 2020. The Application of Drones in Healthcare and Health-Related Services in North America: A Scoping Review. Drones 4, 3 (2020), 17. https://doi.org/10.3390/drones4030030",
+      "doi": ""
+    },
+    {
+      "text": "Keita Higuchi, Tetsuro Shimada, and Jun Rekimoto. 2011. Flying Sports Assistant: External Visual Imagery Representation for Sports Training. In Proceedings of the 2nd Augmented Human International Conference (Tokyo, Japan) (AH \u201911). Association for Computing Machinery, New York, NY, USA, Article 7, 4\u00a0pages. https://doi.org/10.1145/1959826.1959833",
+      "doi": "10.1145/1959826.1959833"
+    },
+    {
+      "text": "Hanno Hildmann and Ern\u00f6 Kovacs. 2019. Review: Using Unmanned Aerial Vehicles (UAVs) as Mobile Sensing Platforms (MSPs) for Disaster Response, Civil Security and Public Safety. Drones 3, 3 (2019), 26. https://doi.org/10.3390/drones3030059",
+      "doi": ""
+    },
+    {
+      "text": "Matthias Hoppe, Marinus Burger, Albrecht Schmidt, and Thomas Kosch. 2019. DronOS: A Flexible Open-Source Prototyping Framework for Interactive Drone Routines. In Proceedings of the 18th International Conference on Mobile and Ubiquitous Multimedia (Pisa, Italy) (MUM \u201919). Association for Computing Machinery, New York, NY, USA, Article 15, 7\u00a0pages. https://doi.org/10.1145/3365610.3365642",
+      "doi": "10.1145/3365610.3365642"
+    },
+    {
+      "text": "Matthias Hoppe, Pascal Knierim, Thomas Kosch, Markus Funk, Lauren Futami, Stefan Schneegass, Niels Henze, Albrecht Schmidt, and Tonja Machulla. 2018. VRHapticDrones: Providing Haptics in Virtual Reality through Quadcopters. In Proceedings of the 17th International Conference on Mobile and Ubiquitous Multimedia (Cairo, Egypt) (MUM 2018). Association for Computing Machinery, New York, NY, USA, 7\u201318. https://doi.org/10.1145/3282894.3282898",
+      "doi": "10.1145/3282894.3282898"
+    },
+    {
+      "text": "Matthias Hoppe, Thomas Kosch, Pascal Knierim, Markus Funk, and Albrecht Schmidt. 2019. Are Drones Ready for Takeoff? Reflecting on Challenges and Opportunities in Human-Drone Interfaces. In 1st International Workshop on Human-Drone Interaction. 6. https://hal.archives-ouvertes.fr/hal-02128388",
+      "doi": ""
+    },
+    {
+      "text": "Christopher-Eyk Hrabia, Axel Hessler, Yuan Xu, Jan Brehmer, and Sahin Albayrak. 2018. EffFeu Project: Efficient Operation of Unmanned Aerial Vehicles for Industrial Fire Fighters. In Proceedings of the 4th ACM Workshop on Micro Aerial Vehicle Networks, Systems, and Applications (Munich, Germany) (DroNet\u201918). Association for Computing Machinery, New York, NY, USA, 33\u201338. https://doi.org/10.1145/3213526.3213533",
+      "doi": "10.1145/3213526.3213533"
+    },
+    {
+      "text": "Bin Hu and Jiacun Wang. 2020. Deep learning based hand gesture recognition and UAV flight controls. International Journal of Automation and Computing 17, 1 (2020), 17\u201329. https://doi.org/10.1007/s11633-019-1194-7",
+      "doi": "10.1007/s11633-019-1194-7"
+    },
+    {
+      "text": "Chong Huang, Fei Gao, Jie Pan, Zhenyu Yang, Weihao Qiu, Peng Chen, Xin Yang, Shaojie Shen, and Kwang-Ting Cheng. 2018. ACT: An Autonomous Drone Cinematography System for Action Scenes. In 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 7039\u20137046. https://doi.org/10.1109/ICRA.2018.8460703",
+      "doi": ""
+    },
+    {
+      "text": "Felix Huppert, Gerold Hoelzl, and Matthias Kranz. 2021. GuideCopter - A Precise Drone-Based Haptic Guidance Interface for Blind or Visually Impaired People. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, 14. https://doi.org/10.1145/3411764.3445676",
+      "doi": "10.1145/3411764.3445676"
+    },
+    {
+      "text": "Roman Ibrahimov, Nikolay Zherdev, and Dzmitry Tsetserukou. 2020. DroneLight: Drone Draws in the Air using Long Exposure Light Painting and ML. In 29th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN). IEEE, 446\u2013450. https://doi.org/10.1109/RO-MAN47096.2020.9223601",
+      "doi": ""
+    },
+    {
+      "text": "Abeer Imdoukh, Ahmed Shaker, Aya Al-Toukhy, Darin Kablaoui, and Mohammed El-Abd. 2017. Semi-autonomous indoor firefighting UAV. In 2017 18th International Conference on Advanced Robotics (ICAR). IEEE, 310\u2013315. https://doi.org/10.1109/ICAR.2017.8023625",
+      "doi": ""
+    },
+    {
+      "text": "Javier Irizarry, Masoud Gheisari, and Bruce\u00a0N. Walker. 2012. Usability assessment of drone technology as safety inspection tools. Journal of Information Technology in Construction (ITcon) 17 (2012), 194\u2013212. https://www.itcon.org/2012/12",
+      "doi": ""
+    },
+    {
+      "text": "Walther Jensen, Simon Hansen, and Hendrik Knoche. 2018. Knowing You, Seeing Me: Investigating User Preferences in Drone-Human Acknowledgement. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, 1\u201312. https://doi.org/10.1145/3173574.3173939",
+      "doi": "10.1145/3173574.3173939"
+    },
+    {
+      "text": "Brennan Jones, Kody Dillman, Richard Tang, Anthony Tang, Ehud Sharlin, Lora Oehlberg, Carman Neustaedter, and Scott Bateman. 2016. Elevating Communication, Collaboration, and Shared Experiences in Mobile Video through Drones. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems (Brisbane, QLD, Australia) (DIS \u201916). Association for Computing Machinery, New York, NY, USA, 1123\u20131135. https://doi.org/10.1145/2901790.2901847",
+      "doi": "10.1145/2901790.2901847"
+    },
+    {
+      "text": "Dawn Jorgenson. 2020. This Holiday Drone Light Show might be the coolest thing you\u2019ll see this holiday season. Retrieved September 8, 2021 from https://www.ksat.com/features/2020/12/04/this-holiday-drone-light-show-might-be-the-coolest-thing-youll-see-this-holiday-season/",
+      "doi": ""
+    },
+    {
+      "text": "Hao Kang, Haoxiang Li, Jianming Zhang, Xin Lu, and Bedrich Benes. 2018. FlyCam: Multitouch Gesture Controlled Drone Gimbal Photography. IEEE Robotics and Automation Letters 3 (2018), 3717\u20133724. Issue 4. https://doi.org/10.1109/LRA.2018.2856271",
+      "doi": ""
+    },
+    {
+      "text": "Kari\u00a0Daniel Karjalainen, Anna Elisabeth\u00a0Sofia Romell, Photchara Ratsamee, Asim\u00a0Evren Yantac, Morten Fjeld, and Mohammad Obaid. 2017. Social Drone Companion for the Home Environment: A User-Centric Exploration. In Proceedings of the 5th International Conference on Human Agent Interaction (Bielefeld, Germany) (HAI \u201917). Association for Computing Machinery, New York, NY, USA, 89\u201396. https://doi.org/10.1145/3125739.3125774",
+      "doi": "10.1145/3125739.3125774"
+    },
+    {
+      "text": "Ekaterina Karmanova, Valerii Serpiva, Stepan Perminov, Aleksey Fedoseev, and Dzmitry Tsetserukou. 2021. SwarmPlay: Interactive Tic-tac-toe Board Game with Swarm of Nano-UAVs driven by Reinforcement Learning. In 2021 30th IEEE International Conference on Robot Human Interactive Communication (RO-MAN). IEEE, 1269\u20131274. https://doi.org/10.1109/RO-MAN50785.2021.9515355",
+      "doi": "10.1109/RO-MAN50785.2021.9515355"
+    },
+    {
+      "text": "Mohamed Khamis, Anna Kienle, Florian Alt, and Andreas Bulling. 2018. GazeDrone: Mobile Eye-Based Interaction in Public Space Without Augmenting the User. In Proceedings of the 4th ACM Workshop on Micro Aerial Vehicle Networks, Systems, and Applications (Munich, Germany) (DroNet\u201918). Association for Computing Machinery, New York, NY, USA, 66\u201371. https://doi.org/10.1145/3213526.3213539",
+      "doi": "10.1145/3213526.3213539"
+    },
+    {
+      "text": "Md. Nafiz\u00a0Hasan Khan and Carman Neustaedter. 2019. An Exploratory Study of the Use of Drones for Assisting Firefighters During Emergency Situations. Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300502",
+      "doi": ""
+    },
+    {
+      "text": "Md. Nafiz\u00a0Hasan Khan, Carman Neustaedter, and Alissa\u00a0N. Antle. 2019. Flight Chair: An Interactive Chair for Controlling Emergency Service Drones. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20135. https://doi.org/10.1145/3290607.3313031",
+      "doi": ""
+    },
+    {
+      "text": "Bomyeong Kim, Hyun\u00a0Young Kim, and Jinwoo Kim. 2016. Getting Home Safely with Drone. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct (Heidelberg, Germany) (UbiComp \u201916). Association for Computing Machinery, New York, NY, USA, 117\u2013120. https://doi.org/10.1145/2968219.2971426",
+      "doi": "10.1145/2968219.2971426"
+    },
+    {
+      "text": "Heesoon Kim and James\u00a0A. Landay. 2018. Aeroquake: Drone Augmented Dance. In Proceedings of the 2018 Designing Interactive Systems Conference (Hong Kong, China) (DIS \u201918). Association for Computing Machinery, New York, NY, USA, 691\u2013701. https://doi.org/10.1145/3196709.3196798",
+      "doi": "10.1145/3196709.3196798"
+    },
+    {
+      "text": "Hyun\u00a0Young Kim, Bomyeong Kim, and Jinwoo Kim. 2016. The Naughty Drone: A Qualitative Research on Drone as Companion Device. In Proceedings of the 10th International Conference on Ubiquitous Information Management and Communication (Danang, Viet Nam) (IMCOM \u201916). Association for Computing Machinery, New York, NY, USA, Article 91, 6\u00a0pages. https://doi.org/10.1145/2857546.2857639",
+      "doi": "10.1145/2857546.2857639"
+    },
+    {
+      "text": "Lawrence\u00a0H. Kim, Daniel\u00a0S. Drew, Veronika Domova, and Sean Follmer. 2020. User-Defined Swarm Robot Control. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376814",
+      "doi": "10.1145/3313831.3376814"
+    },
+    {
+      "text": "Alexandra Kitson, Mirjana Prpa, and Bernhard\u00a0E. Riecke. 2018. Immersive Interactive Technologies for Positive Change: A Scoping Review and Design Considerations. Frontiers in Psychology 9 (2018), 1354. https://doi.org/10.3389/fpsyg.2018.01354",
+      "doi": ""
+    },
+    {
+      "text": "Matja\u017e Kljun, Klen \u010copi\u010d Pucihar, Mark Lochrie, and Paul Egglestone. 2015. StreetGamez: A Moving Projector Platform for Projected Street Games. In Proceedings of the 2015 Annual Symposium on Computer-Human Interaction in Play (London, United Kingdom) (CHI PLAY \u201915). Association for Computing Machinery, New York, NY, USA, 589\u2013594. https://doi.org/10.1145/2793107.2810305",
+      "doi": "10.1145/2793107.2810305"
+    },
+    {
+      "text": "Pascal Knierim, Steffen Maurer, Katrin Wolf, and Markus Funk. 2018. Quadcopter-Projected In-Situ Navigation Cues for Improved Location Awareness. Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3173574.3174007",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Kosch, Markus Funk, Daniel Vietz, Marc Weise, Tamara M\u00fcller, and Albrecht Schmidt. 2018. DroneCTRL: A Tangible Remote Input Control for Quadcopters. In The 31st Annual ACM Symposium on User Interface Software and Technology Adjunct Proceedings (Berlin, Germany) (UIST \u201918 Adjunct). Association for Computing Machinery, New York, NY, USA, 120\u2013122. https://doi.org/10.1145/3266037.3266121",
+      "doi": "10.1145/3266037.3266121"
+    },
+    {
+      "text": "Nataliya Kosmyna, Franck Tarpin-Bernard, and Bertrand Rivet. 2015. Brains, Computers, and Drones: Think and Control!Interactions 22, 4 (jun 2015), 44\u201347. https://doi.org/10.1145/2782758",
+      "doi": ""
+    },
+    {
+      "text": "K.\u00a0Cassie Kresnye, Christopher\u00a0Flynn Martin, and Patrick\u00a0C. Shih. 2020. Drone Delivery Service: An Orangutan Enrichment Pilot Study. In Proceedings of the Seventh International Conference on Animal-Computer Interaction (Milton Keynes, United Kingdom) (ACI\u20192020). Association for Computing Machinery, New York, NY, USA, Article 5, 7\u00a0pages. https://doi.org/10.1145/3446002.3446062",
+      "doi": "10.1145/3446002.3446062"
+    },
+    {
+      "text": "R.\u00a0Vivek Krishna, B.\u00a0S. Sathish, Packyanathan Ganesan, P.\u00a0Jawahar Babu, and R. Abilash. 2015. Design of voice and gesture controlled Quadcopter. In International Conference on Innovations in Information, Embedded and Communication Systems (ICIIECS). IEEE, 1\u20136. https://doi.org/10.1109/ICIIECS.2015.7193152",
+      "doi": ""
+    },
+    {
+      "text": "Siya Kunde and Brittany Duncan. 2020. Intuitive Autonomy for Real Users of Small Unmanned Aerial Vehicles (SUAV). In Companion of the 2020 ACM/IEEE International Conference on Human-Robot Interaction (Cambridge, United Kingdom) (HRI \u201920). Association for Computing Machinery, New York, NY, USA, 576\u2013578. https://doi.org/10.1145/3371382.3377440",
+      "doi": "10.1145/3371382.3377440"
+    },
+    {
+      "text": "Siya Kunde, Sebastian Elbaum, and Brittany\u00a0A. Duncan. 2020. Characterizing User Responses to Failures in Aerial Autonomous Systems. IEEE Robotics and Automation Letters 5 (2020), 1587\u20131594. Issue 2. https://doi.org/10.1109/LRA.2020.2967304",
+      "doi": ""
+    },
+    {
+      "text": "Anastasia Kuzminykh and Jessica\u00a0R. Cauchard. 2020. Be Mine: Contextualization of Ownership Research in HCI. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI EA \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20139. https://doi.org/10.1145/3334480.3383058",
+      "doi": ""
+    },
+    {
+      "text": "Ian Kwok and Annie Wescott. 2020. Cyberintimacy: A Scoping Review of Technology-Mediated Romance in the Digital Age. Cyberpsychology, Behavior, and Social Networking 23 (2020), 657\u2013666. Issue 10. https://doi.org/10.1089/cyber.2019.0764",
+      "doi": ""
+    },
+    {
+      "text": "Joseph La\u00a0Delfa, Mehmet\u00a0Aydin Bayta\u015f, Emma Luke, Ben Koder, and Florian\u00a0\u2019Floyd\u2019 Mueller. 2020. Designing Drone Chi: Unpacking the Thinking and Making of Somaesthetic Human-Drone Interaction. In Proceedings of the 2020 ACM Designing Interactive Systems Conference (Eindhoven, Netherlands) (DIS \u201920). Association for Computing Machinery, New York, NY, USA, 575\u2013586. https://doi.org/10.1145/3357236.3395589",
+      "doi": "10.1145/3357236.3395589"
+    },
+    {
+      "text": "Joseph La\u00a0Delfa, Mehmet\u00a0Aydin Bayta\u015f, Rakesh Patibanda, Hazel Ngari, Rohit\u00a0Ashok Khot, and Florian\u00a0\u2019Floyd\u2019 Mueller. 2020. Drone Chi: Somaesthetic Human-Drone Interaction. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376786",
+      "doi": "10.1145/3313831.3376786"
+    },
+    {
+      "text": "Joseph La\u00a0Delfa, Mehmet\u00a0Aydin Bayta\u015f, Olivia Wichtowski, Rohit\u00a0Ashok Khot, and Florian\u00a0Floyd Mueller. 2019. Are Drones Meditative?. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20134. https://doi.org/10.1145/3290607.3313274",
+      "doi": "10.1145/3290607.3313274"
+    },
+    {
+      "text": "Joseph La\u00a0Delfa, Robert Jarvis, Rohit\u00a0Ashok Khot, and Florian\u00a0\u2018Floyd\u2019 Mueller. 2018. Tai Chi In The Clouds: Using Micro UAV\u2019s To Support Tai Chi Practice. In Proceedings of the 2018 Annual Symposium on Computer-Human Interaction in Play Companion Extended Abstracts (Melbourne, VIC, Australia) (CHI PLAY \u201918 Extended Abstracts). Association for Computing Machinery, New York, NY, USA, 513\u2013519. https://doi.org/10.1145/3270316.3271511",
+      "doi": "10.1145/3270316.3271511"
+    },
+    {
+      "text": "Megan Landau and Sebastian Van\u00a0Delden. 2017. A System Architecture for Hands-Free UAV Drone Control Using Intuitive Voice Commands. In Proceedings of the Companion of the 2017 ACM/IEEE International Conference on Human-Robot Interaction (Vienna, Austria) (HRI \u201917). Association for Computing Machinery, New York, NY, USA, 181\u2013182. https://doi.org/10.1145/3029798.3038329",
+      "doi": "10.1145/3029798.3038329"
+    },
+    {
+      "text": "Jangwon Lee, Haodan Tan, David Crandall, and Selma \u0160abanovi\u0107. 2018. Forecasting Hand Gestures for Human-Drone Interaction. In Companion of the 2018 ACM/IEEE International Conference on Human-Robot Interaction (Chicago, IL, USA) (HRI \u201918). Association for Computing Machinery, New York, NY, USA, 167\u2013168. https://doi.org/10.1145/3173386.3176967",
+      "doi": ""
+    },
+    {
+      "text": "Sang-won Leigh, Harshit Agrawal, and Pattie Maes. 2016. A Flying Pantograph: Interleaving Expressivity of Human and Machine. In Proceedings of the TEI \u201916: Tenth International Conference on Tangible, Embedded, and Embodied Interaction (Eindhoven, Netherlands) (TEI \u201916). Association for Computing Machinery, New York, NY, USA, 653\u2013657. https://doi.org/10.1145/2839462.2856347",
+      "doi": ""
+    },
+    {
+      "text": "Nico Li, Stephen Cartwright, Aditya Shekhar\u00a0Nittala, Ehud Sharlin, and Mario Costa\u00a0Sousa. 2015. Flying Frustum: A Spatial Interface for Enhancing Human-UAV Awareness. In Proceedings of the 3rd International Conference on Human-Agent Interaction (Daegu, Kyungpook, Republic of Korea) (HAI \u201915). Association for Computing Machinery, New York, NY, USA, 27\u201331. https://doi.org/10.1145/2814940.2814956",
+      "doi": "10.1145/2814940.2814956"
+    },
+    {
+      "text": "Marc Lieser, Ulrich Schwanecke, and J\u00f6rg Berdux. 2021. Evaluating Distances in Tactile Human-Drone Interaction. In 2021 30th IEEE International Conference on Robot Human Interactive Communication (RO-MAN). IEEE, 1275\u20131282. https://doi.org/10.1109/RO-MAN50785.2021.9515313",
+      "doi": ""
+    },
+    {
+      "text": "Marc Lieser, Ulrich Schwanecke, and J\u00f6rg Berdux. 2021. Tactile Human-Quadrotor Interaction: MetroDrone. In Proceedings of the Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction (Salzburg, Austria) (TEI \u201921). Association for Computing Machinery, New York, NY, USA, Article 30, 6\u00a0pages. https://doi.org/10.1145/3430524.3440649",
+      "doi": "10.1145/3430524.3440649"
+    },
+    {
+      "text": "Joseph Lindley and Paul Coulton. 2015. Game of Drones. In Proceedings of the 2015 Annual Symposium on Computer-Human Interaction in Play (London, United Kingdom) (CHI PLAY \u201915). Association for Computing Machinery, New York, NY, USA, 613\u2013618. https://doi.org/10.1145/2793107.2810300",
+      "doi": "10.1145/2793107.2810300"
+    },
+    {
+      "text": "Ragavendra Lingamaneni, Thomas Kubitza, and J\u00fcrgen Scheible. 2017. DroneCAST: Towards a Programming Toolkit for Airborne Multimedia Display Applications. In Proceedings of the 19th International Conference on Human-Computer Interaction with Mobile Devices and Services (Vienna, Austria) (MobileHCI \u201917). Association for Computing Machinery, New York, NY, USA, Article 85, 8\u00a0pages. https://doi.org/10.1145/3098279.3122128",
+      "doi": "10.1145/3098279.3122128"
+    },
+    {
+      "text": "Chuhao Liu and Shaojie Shen. 2020. An Augmented Reality Interaction Interface for Autonomous Drone. In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 11419\u201311424. https://doi.org/10.1109/IROS45743.2020.9341037",
+      "doi": ""
+    },
+    {
+      "text": "Sara Ljungblad, Yemao Man, Mehmet\u00a0Ayd\u0131n Bayta\u015f, Mafalda Gamboa, Mohammad Obaid, and Morten Fjeld. 2021. What Matters in Professional Drone Pilots\u2019 Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research. Association for Computing Machinery, New York, NY, USA, 1\u201316. https://doi.org/10.1145/3411764.3445737",
+      "doi": ""
+    },
+    {
+      "text": "Noel Maalouf, Abbas Sidaoui, Imad\u00a0H. Elhajj, and Daniel Asmar. 2018. Robotics in Nursing: A Scoping Review. Journal of Nursing Scholarship 50, 6 (2018), 590\u2013600. https://doi.org/10.1111/jnu.12424",
+      "doi": ""
+    },
+    {
+      "text": "Eirini Malliaraki. 2018. Social Interaction with Drones Using Human Emotion Recognition. In Companion of the 2018 ACM/IEEE International Conference on Human-Robot Interaction (Chicago, IL, USA) (HRI \u201918). Association for Computing Machinery, New York, NY, USA, 187\u2013188. https://doi.org/10.1145/3173386.3176966",
+      "doi": ""
+    },
+    {
+      "text": "Udaka\u00a0A. Manawadu, M.\u00a0W.Y.C. Karunarathna, H.\u00a0D.C.N. Gunawardana, C. Premachandra, P.\u00a0Ravindra S.\u00a0De Silva, and W.\u00a0A.S. Wijesinghe. 2018. A Study of automated image capturing HDI environment using NAVIO 2. In IEEE 7th Global Conference on Consumer Electronics (GCCE). IEEE, 308\u2013311. https://doi.org/10.1109/GCCE.2018.8574657",
+      "doi": ""
+    },
+    {
+      "text": "Wenguang Mao, Zaiwei Zhang, Lili Qiu, Jian He, Yuchen Cui, and Sangki Yun. 2017. Indoor Follow Me Drone. In Proceedings of the 15th Annual International Conference on Mobile Systems, Applications, and Services (Niagara Falls, New York, USA) (MobiSys \u201917). Association for Computing Machinery, New York, NY, USA, 345\u2013358. https://doi.org/10.1145/3081333.3081362",
+      "doi": "10.1145/3081333.3081362"
+    },
+    {
+      "text": "Lorenzo Marconi, Claudio Melchiorri, Michael Beetz, Dejan Pangercic, Roland Siegwart, Stefan Leutenegger, Raffaella Carloni, Stefano Stramigioli, Herman Bruyninckx, Patrick Doherty, Alexander Kleiner, Vincenzo Lippiello, Alberto Finzi, Bruno Siciliano, Aslatech Sala, and Nicola Tomatis. 2012. The SHERPA project: Smart collaboration between humans and ground-aerial robots for improving rescuing activities in alpine environments. In 2012 IEEE International Symposium on Safety, Security, and Rescue Robotics, SSRR 2012. IEEE, 1\u20134. https://doi.org/10.1109/SSRR.2012.6523905",
+      "doi": ""
+    },
+    {
+      "text": "Ahmed Mashood, Hassan Noura, Imad Jawhar, and Nader Mohamed. 2015. A gesture based kinect for quadrotor control. In 2015 International Conference on Information and Communication Technology Research, ICTRC 2015. IEEE, 298\u2013301. https://doi.org/10.1109/ICTRC.2015.7156481",
+      "doi": ""
+    },
+    {
+      "text": "Mikhail Matrosov, Olga Volkova, and Dzmitry Tsetserukou. 2016. LightAir: A Novel System for Tangible Communication with Quadcopters Using Foot Gestures and Projected Image. In ACM SIGGRAPH 2016 Emerging Technologies (Anaheim, California) (SIGGRAPH \u201916). Association for Computing Machinery, New York, NY, USA, Article 16, 2\u00a0pages. https://doi.org/10.1145/2929464.2932429",
+      "doi": "10.1145/2929464.2932429"
+    },
+    {
+      "text": "Sven Mayer, Pascal Knierim, Pawel\u00a0W. Wozniak, and Markus Funk. 2017. How Drones Can Support Backcountry Activities. In Proceedings of the 2017 natureCHI workshop, in conjunction with ACM mobileHCI\u201917 (2017-09-03) (NatureCHI\u201917, Vol.\u00a02). 6. http://sven-mayer.com/wp-content/uploads/2017/07/mayer2017drones.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Gregory\u00a0S. McNeal. 2014. Drones and Aerial Surveillance: Considerations for Legislators., 34\u00a0pages. https://papers.ssrn.com/abstract=2523041",
+      "doi": ""
+    },
+    {
+      "text": "MIKIKO(elevenplay). 2014. ELEVENPLAY x Rhizomatiks \u201dshadow\u201d (2015) drone with a spot light. Retrieved September 4, 2021 from https://www.youtube.com/watch?v=hX2TneyE41Q",
+      "doi": ""
+    },
+    {
+      "text": "Silvia Mirri, Catia Prandi, and Paola Salomoni. 2019. Human-Drone Interaction: State of the Art, Open Issues and Challenges. In Proceedings of the ACM SIGCOMM 2019 Workshop on Mobile AirGround Edge Computing, Systems, Networks, and Applications (Beijing, China) (MAGESys\u201919). Association for Computing Machinery, New York, NY, USA, 43\u201348. https://doi.org/10.1145/3341568.3342111",
+      "doi": "10.1145/3341568.3342111"
+    },
+    {
+      "text": "Kensho Miyoshi, Ryo Konomura, and Koichi Hori. 2014. Above Your Hand: Direct and Natural Interaction with Aerial Robot. In ACM SIGGRAPH 2014 Emerging Technologies (Vancouver, Canada) (SIGGRAPH \u201914). Association for Computing Machinery, New York, NY, USA, Article 8, 1\u00a0pages. https://doi.org/10.1145/2614066.2614086",
+      "doi": "10.1145/2614066.2614086"
+    },
+    {
+      "text": "Kensho Miyoshi, Ryo Konomura, and Koichi Hori. 2014. Entertainment Multi-rotor Robot that realises Direct and Multimodal Interaction. In Proceedings of the 28th International BCS Human Computer Interaction Conference. BCS, 218\u2013221. https://doi.org/10.14236/ewic/HCI2014.34",
+      "doi": "10.14236/ewic/HCI2014.34"
+    },
+    {
+      "text": "Sepehr Mohaimenianpour and Richard Vaughan. 2018. Hands and Faces, Fast: Mono-Camera User Detection Robust Enough to Directly Control a UAV in Flight. In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 5224\u20135231. https://doi.org/10.1109/IROS.2018.8593709",
+      "doi": "10.1109/IROS.2018.8593709"
+    },
+    {
+      "text": "Mani Monajjemi, Jake Bruce, Seyed\u00a0Abbas Sadat, Jens Wawerla, and Richard Vaughan. 2015. UAV, do you see me? Establishing mutual attention between an uninstrumented human and an outdoor UAV in flight. In IEEE International Conference on Intelligent Robots and Systems, Vol.\u00a02015-Decem. IEEE, 3614\u20133620. Issue i. https://doi.org/10.1109/IROS.2015.7353882",
+      "doi": "10.1109/IROS.2015.7353882"
+    },
+    {
+      "text": "Mani Monajjemi, Sepehr Mohaimenianpour, and Richard Vaughan. 2016. UAV, come to me: End-to-end, multi-scale situated hri with an uninstrumented human and a distant UAV. In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vol.\u00a02016-Novem. IEEE, 4410\u20134417. https://doi.org/10.1109/IROS.2016.7759649",
+      "doi": "10.1109/IROS.2016.7759649"
+    },
+    {
+      "text": "Koji Morishita, Hiroaki Yanagisawa, and Hisashi Noda. 2016. Intuitive Control for Moving Drones. In SIGGRAPH ASIA 2016 Posters (Macau) (SA \u201916). Association for Computing Machinery, New York, NY, USA, Article 17, 2\u00a0pages. https://doi.org/10.1145/3005274.3005287",
+      "doi": ""
+    },
+    {
+      "text": "Florian Mueller, Eberhard Graether, and Cagdas Toprak. 2013. Joggobot: Jogging with a Flying Robot. In CHI \u201913 Extended Abstracts on Human Factors in Computing Systems (Paris, France) (CHI EA \u201913). Association for Computing Machinery, New York, NY, USA, 2845\u20132846. https://doi.org/10.1145/2468356.2479541",
+      "doi": "10.1145/2468356.2479541"
+    },
+    {
+      "text": "Florian Mueller and Matthew Muirhead. 2014. Understanding the Design of a Flying Jogging Companion. In Proceedings of the Adjunct Publication of the 27th Annual ACM Symposium on User Interface Software and Technology (Honolulu, Hawaii, USA) (UIST\u201914 Adjunct). Association for Computing Machinery, New York, NY, USA, 81\u201382. https://doi.org/10.1145/2658779.2658786",
+      "doi": "10.1145/2658779.2658786"
+    },
+    {
+      "text": "Florian\u00a0\u2019Floyd\u2019 Mueller and Matthew Muirhead. 2015. Jogging with a Quadcopter. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 2023\u20132032. https://doi.org/10.1145/2702123.2702472",
+      "doi": "10.1145/2702123.2702472"
+    },
+    {
+      "text": "Zachary Munn, Micah Peters, Cindy Stern, Catalin Tufanaru, Alexa Mcarthur, and Edoardo Aromataris. 2018. Systematic review or scoping review? Guidance for authors when choosing between a systematic or scoping review approach. BMC Medical Research Methodology 18, 1 (2018), 7. https://doi.org/10.1186/s12874-018-0611-x",
+      "doi": ""
+    },
+    {
+      "text": "Taha M\u00fcezzino\u011flu and Mehmet Karak\u00f6se. 2020. Wearable Glove Based Approach for Human-UAV Interaction. In 2020 IEEE International Symposium on Systems Engineering (ISSE). IEEE, 1\u20136. https://doi.org/10.1109/ISSE49799.2020.9272208",
+      "doi": ""
+    },
+    {
+      "text": "Mark M\u00fcller, Sergei Lupashin, and Raffaello D\u2019Andrea. 2011. Quadrocopter ball juggling. In IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 5113\u20135120. https://doi.org/10.1109/IROS.2011.6094506",
+      "doi": ""
+    },
+    {
+      "text": "NASA. 2021. Taking Flight on Another World. https://mars.nasa.gov/technology/helicopter. Accessed: 2021-09-09.",
+      "doi": ""
+    },
+    {
+      "text": "Tayyab Naseer, Jurgen Sturm, and Daniel Cremers. 2013. FollowMe: Person following and gesture recognition with a quadrocopter. In IEEE International Conference on Intelligent Robots and Systems. IEEE, 624\u2013630. https://doi.org/10.1109/IROS.2013.6696416",
+      "doi": ""
+    },
+    {
+      "text": "Wai\u00a0Shan Ng and Ehud Sharlin. 2011. Collocated interaction with flying robots. In Proceedings - IEEE International Workshop on Robot and Human Interactive Communication. IEEE, 143\u2013149. https://doi.org/10.1109/ROMAN.2011.6005280",
+      "doi": ""
+    },
+    {
+      "text": "Kei Nitta, Keita Higuchi, and Jun Rekimoto. 2014. HoverBall: Augmented Sports with a Flying Ball. In Proceedings of the 5th Augmented Human International Conference (Kobe, Japan) (AH \u201914). Association for Computing Machinery, New York, NY, USA, Article 13, 4\u00a0pages. https://doi.org/10.1145/2582051.2582064",
+      "doi": "10.1145/2582051.2582064"
+    },
+    {
+      "text": "Kei Nitta, Keita Higuchi, Yuichi Tadokoro, and Jun Rekimoto. 2015. Shepherd Pass: Ability Tuning for Augmented Sports Using Ball-Shaped Quadcopter. In Proceedings of the 12th International Conference on Advances in Computer Entertainment Technology (Iskandar, Malaysia) (ACE \u201915). Association for Computing Machinery, New York, NY, USA, Article 11, 7\u00a0pages. https://doi.org/10.1145/2832932.2832950",
+      "doi": "10.1145/2832932.2832950"
+    },
+    {
+      "text": "Amin Nourmohammadi, Mohammad Jafari, and Thorsten\u00a0O. Zander. 2018. A survey on unmanned aerial vehicle remote control using brain-computer interface. IEEE Transactions on Human-Machine Systems 48 (8 2018), 337\u2013348. Issue 4. https://doi.org/10.1109/THMS.2018.2830647",
+      "doi": ""
+    },
+    {
+      "text": "Hiroki Nozaki. 2014. Flying Display: A Movable Display Pairing Projector and Screen in the Air. In CHI \u201914 Extended Abstracts on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI EA \u201914). Association for Computing Machinery, New York, NY, USA, 909\u2013914. https://doi.org/10.1145/2559206.2579410",
+      "doi": "10.1145/2559206.2579410"
+    },
+    {
+      "text": "Mohammad Obaid, Wafa Johal, and Omar Mubin. 2020. Domestic Drones: Context of Use in Research Literature. In Proceedings of the 8th International Conference on Human-Agent Interaction (Virtual Event, USA) (HAI \u201920). Association for Computing Machinery, New York, NY, USA, 196\u2013203. https://doi.org/10.1145/3406499.3415076",
+      "doi": "10.1145/3406499.3415076"
+    },
+    {
+      "text": "Mohammad Obaid, Felix Kistler, Gabrielundefined Kasparavi\u010di\u016btundefined, Asim\u00a0Evren Yanta\u00e7, and Morten Fjeld. 2016. How Would You Gesture Navigate a Drone? A User-Centered Approach to Control a Drone. In Proceedings of the 20th International Academic Mindtrek Conference (Tampere, Finland) (AcademicMindtrek \u201916). Association for Computing Machinery, New York, NY, USA, 113\u2013121. https://doi.org/10.1145/2994310.2994348",
+      "doi": "10.1145/2994310.2994348"
+    },
+    {
+      "text": "Mohammad Obaid, Omar Mubin, Christina\u00a0Anne Basedow, A.\u00a0Ay\u00e7a \u00dcnl\u00fcer, Matz\u00a0Johansson Bergstr\u00f6m, and Morten Fjeld. 2015. A Drone Agent to Support a Clean Environment. In Proceedings of the 3rd International Conference on Human-Agent Interaction (Daegu, Kyungpook, Republic of Korea) (HAI \u201915). Association for Computing Machinery, New York, NY, USA, 55\u201361. https://doi.org/10.1145/2814940.2814947",
+      "doi": "10.1145/2814940.2814947"
+    },
+    {
+      "text": "Mohammad Obaid, Omar Mubin, Scott\u00a0Andrew Brown, Asim\u00a0Evren Yantac, Mai Otsuki, and Hideaki Kuzuoka. 2020. DroEye: Introducing a Social Eye Prototype for Drones. In Companion of the 2020 ACM/IEEE International Conference on Human-Robot Interaction (Cambridge, United Kingdom) (HRI \u201920). Association for Computing Machinery, New York, NY, USA, 378\u2013380. https://doi.org/10.1145/3371382.3378313",
+      "doi": "10.1145/3371382.3378313"
+    },
+    {
+      "text": "Raquel Oliveira, Patricia Arriaga, Minja Axelsson, and Ana Paiva. 2021. Humor-Robot Interaction: A Scoping Review of the Literature and Future Directions. International Journal of Social Robotics 13, 6 (Sep 2021), 1369\u20131383. https://doi.org/10.1007/s12369-020-00727-9",
+      "doi": ""
+    },
+    {
+      "text": "Alena Otto, Niels Agatz, James Campbell, Bruce Golden, and Erwin Pesch. 2018. Optimization approaches for civil applications of unmanned aerial vehicles (UAVs) or aerial drones: A survey. Networks 72 (12 2018), 411\u2013458. Issue 4. https://doi.org/10.1002/net.21818",
+      "doi": ""
+    },
+    {
+      "text": "Susanna Paasovaara, Andr\u00e9s Lucero, and Thomas Olsson. 2016. Outlining the Design Space of Playful Interactions between Nearby Strangers. In Proceedings of the 20th International Academic Mindtrek Conference (Tampere, Finland) (AcademicMindtrek \u201916). Association for Computing Machinery, New York, NY, USA, 216\u2013225. https://doi.org/10.1145/2994310.2994344",
+      "doi": "10.1145/2994310.2994344"
+    },
+    {
+      "text": "Cheng\u00a0Fang Peng, Jun\u00a0Wei Hsieh, Shao\u00a0Wei Leu, and Chi\u00a0Hung Chuang. 2018. Drone-based vacant parking space detection. In 32nd International Conference on Advanced Information Networking and Applications Workshops (WAINA). IEEE, 618\u2013622. https://doi.org/10.1109/WAINA.2018.00155",
+      "doi": ""
+    },
+    {
+      "text": "Ekaterina Peshkova and Martin Hitz. 2017. Exploring user-defined gestures to control a group of four UAVs. In 26th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN). IEEE, 169\u2013174. https://doi.org/10.1109/ROMAN.2017.8172297",
+      "doi": "10.1109/ROMAN.2017.8172297"
+    },
+    {
+      "text": "Micah Peters, Christina Godfrey, Hanan Khalil, Patricia Mcinerney, Deborah Parker, and Cassia Soares. 2015. Guidance for conducting systematic scoping reviews. International Journal of Evidence-Based Healthcare 13, 3(2015), 6. https://doi.org/10.1097/XEB.0000000000000050",
+      "doi": ""
+    },
+    {
+      "text": "Mat\u011bj Petrl\u00edk, Tom\u00e1\u0161 B\u00e1\u010da, Daniel He\u0159t, Matou\u0161 Vrba, Tom\u00e1\u0161 Krajn\u00edk, and Martin Saska. 2020. A Robust UAV System for Operations in a Constrained Environment. IEEE Robotics and Automation Letters 5, 2 (2020), 2169\u20132176. https://doi.org/10.1109/LRA.2020.2970980",
+      "doi": ""
+    },
+    {
+      "text": "Kevin Pfeil, Seng\u00a0Lee Koh, and Joseph LaViola. 2013. Exploring 3d Gesture Metaphors for Interaction with Unmanned Aerial Vehicles. In Proceedings of the 2013 International Conference on Intelligent User Interfaces (Santa Monica, California, USA) (IUI \u201913). Association for Computing Machinery, New York, NY, USA, 257\u2013266. https://doi.org/10.1145/2449396.2449429",
+      "doi": "10.1145/2449396.2449429"
+    },
+    {
+      "text": "Alexandra Pometko, Ella Dagan, Ferran Altarriba\u00a0Bertran, and Katherine Isbister. 2021. Drawing From Social Media to Inspire Increasingly Playful and Social Drone Futures. In Designing Interactive Systems Conference 2021 (Virtual Event, USA) (DIS \u201921). Association for Computing Machinery, New York, NY, USA, 697\u2013706. https://doi.org/10.1145/3461778.3462020",
+      "doi": "10.1145/3461778.3462020"
+    },
+    {
+      "text": "Marco Porta, Hwayeon Kong, Frank Biocca, Taeyang Lee, Kihyuk Park, and Jeonghoon Rhee. 2018. Effects of Human Connection through Social Drones and Perceived Safety. Advances in Human-Computer Interaction 2018 (2018), 6. https://doi.org/10.1155/2018/9280581",
+      "doi": ""
+    },
+    {
+      "text": "G. Quiroz and Si\u00a0Jung Kim. 2017. A Confetti Drone: Exploring drone entertainment. In 2017 IEEE International Conference on Consumer Electronics (ICCE). IEEE, 378\u2013381. https://doi.org/10.1109/ICCE.2017.7889362",
+      "doi": ""
+    },
+    {
+      "text": "Sujit Rajappa, Heinrich B\u00fclthoff, and Paolo Stegagno. 2017. Design and implementation of a novel architecture for physical human-UAV interaction. International Journal of Robotics Research 36 (6 2017), 800\u2013819. Issue 5-7. https://doi.org/10.1177/0278364917708038",
+      "doi": "10.1177/0278364917708038"
+    },
+    {
+      "text": "Andrzej Romanowski, Sven Mayer, Lars Lischke, Krzysztof Grudzie\u0144, Tomasz Jaworski, Izabela Perenc, Przemys\u0142aw Kucharski, Mohammad Obaid, Tomasz Kosizski, and Pawe\u0142\u00a0W. Wozniak. 2017. Towards Supporting Remote Cheering during Running Races with Drone Technology. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI EA \u201917). Association for Computing Machinery, New York, NY, USA, 2867\u20132874. https://doi.org/10.1145/3027063.3053218",
+      "doi": "10.1145/3027063.3053218"
+    },
+    {
+      "text": "Calvin Rubens, Sean Braley, Antonio Gomes, Daniel Goc, Xujing Zhang, Juan\u00a0Pablo Carrascal, and Roel Vertegaal. 2015. BitDrones: Towards Levitating Programmable Matter Using Interactive 3D Quadcopter Displays. In Adjunct Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology (Daegu, Kyungpook, Republic of Korea) (UIST \u201915 Adjunct). Association for Computing Machinery, New York, NY, USA, 57\u201358. https://doi.org/10.1145/2815585.2817810",
+      "doi": "10.1145/2815585.2817810"
+    },
+    {
+      "text": "Calvin Rubens, Sean Braley, Julie Torpegaard, Nicklas Lind, Roel Vertegaal, and Timothy Merritt. 2020. Flying LEGO Bricks: Observations of Children Constructing and Playing with Programmable Matter. In Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction (Sydney NSW, Australia) (TEI \u201920). Association for Computing Machinery, New York, NY, USA, 193\u2013205. https://doi.org/10.1145/3374920.3374948",
+      "doi": "10.1145/3374920.3374948"
+    },
+    {
+      "text": "Lucian\u00a0Alexandru Sandru, Marius\u00a0Florin Crainic, Diana Savu, Cristian Moldovan, Valer Dolga, and Stefan Preitl. 2016. Automatic Control of a Quadcopter, AR. Drone, Using a Smart Glove. In Proceedings of the 4th International Conference on Control, Mechatronics and Automation(Barcelona, Spain) (ICCMA \u201916). Association for Computing Machinery, New York, NY, USA, 92\u201398. https://doi.org/10.1145/3029610.3029619",
+      "doi": "10.1145/3029610.3029619"
+    },
+    {
+      "text": "Ayanava Sarkar, Ketul\u00a0Arvindbhai Patel, R.\u00a0K.Ganesh Ram, and Geet\u00a0Krishna Capoor. 2016. Gesture control of drone using a motion controller. In 2016 International Conference on Industrial Informatics and Computer Systems (CIICS). IEEE, 1\u20135. https://doi.org/10.1109/ICCSII.2016.7462401",
+      "doi": ""
+    },
+    {
+      "text": "Florian Schaub and Pascal Knierim. 2016. Drone-based Privacy Interfaces: Opportunities and Challenges. In Twelfth Symposium on Usable Privacy and Security (SOUPS 2016). USENIX Association, Denver, CO, 4. https://www.usenix.org/conference/soups2016/workshop-program/wfpn/presentation/schaub",
+      "doi": ""
+    },
+    {
+      "text": "J\u00fcrgen Scheible and Markus Funk. 2016. DroneLandArt: Landscape as Organic Pervasive Display. In Proceedings of the 5th ACM International Symposium on Pervasive Displays (Oulu, Finland) (PerDis \u201916). Association for Computing Machinery, New York, NY, USA, 255\u2013256. https://doi.org/10.1145/2914920.2939883",
+      "doi": "10.1145/2914920.2939883"
+    },
+    {
+      "text": "J\u00fcrgen Scheible and Markus Funk. 2016. In-Situ-Displaydrone: Facilitating Co-Located Interactive Experiences via a Flying Screen. In Proceedings of the 5th ACM International Symposium on Pervasive Displays (Oulu, Finland) (PerDis \u201916). Association for Computing Machinery, New York, NY, USA, 251\u2013252. https://doi.org/10.1145/2914920.2940334",
+      "doi": "10.1145/2914920.2940334"
+    },
+    {
+      "text": "Jurgen Scheible, Markus Funk, Klen\u00a0Copic Pucihar, Matjaz Kljun, Mark Lochrie, Paul Egglestone, and Peter Skrlj. 2017. Using Drones for Art and Exergaming. IEEE Pervasive Computing 16 (1 2017), 48\u201356. Issue 1. https://doi.org/10.1109/MPRV.2017.4",
+      "doi": "10.1109/MPRV.2017.4"
+    },
+    {
+      "text": "J\u00fcrgen Scheible, Achim Hoth, Julian Saal, and Haifeng Su. 2013. Displaydrone: A Flying Robot Based Interactive Display. In Proceedings of the 2nd ACM International Symposium on Pervasive Displays (Mountain View, California) (PerDis \u201913). Association for Computing Machinery, New York, NY, USA, 49\u201354. https://doi.org/10.1145/2491568.2491580",
+      "doi": "10.1145/2491568.2491580"
+    },
+    {
+      "text": "Gunar Schirner, Deniz Erdogmus, Kaushik Chowdhury, and Taskin Padir. 2013. The Future of Human-in-the-Loop Cyber-Physical Systems. Computer 46, 1 (2013), 36\u201345. https://doi.org/10.1109/MC.2013.31",
+      "doi": "10.1109/MC.2013.31"
+    },
+    {
+      "text": "Stefan Schneegass, Florian Alt, J\u00fcrgen Scheible, and Albrecht Schmidt. 2014. Midair Displays: Concept and First Experiences with Free-Floating Pervasive Displays. In Proceedings of The International Symposium on Pervasive Displays (Copenhagen, Denmark) (PerDis \u201914). Association for Computing Machinery, New York, NY, USA, 27\u201331. https://doi.org/10.1145/2611009.2611013",
+      "doi": "10.1145/2611009.2611013"
+    },
+    {
+      "text": "Stefan Schneegass, Florian Alt, J\u00fcrgen Scheible, Albrecht Schmidt, and Haifeng Su. 2014. Midair Displays: Exploring the Concept of Free-Floating Public Displays. In CHI \u201914 Extended Abstracts on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI EA \u201914). Association for Computing Machinery, New York, NY, USA, 2035\u20132040. https://doi.org/10.1145/2559206.2581190",
+      "doi": ""
+    },
+    {
+      "text": "Celia Seguin, Gilles Blaqui\u00e8re, Anderson Loundou, Pierre Michelet, and Thibaut Markarian. 2018. Unmanned aerial vehicles (drones) to prevent drowning. Resuscitation 127(2018), 63\u201367. https://doi.org/10.1016/j.resuscitation.2018.04.005",
+      "doi": ""
+    },
+    {
+      "text": "Valerii Serpiva, Ekaterina Karmanova, Aleksey Fedoseev, Stepan Perminov, and Dzmitry Tsetserukou. 2021. DronePaint: Swarm Light Painting with DNN-Based Gesture Recognition. In ACM SIGGRAPH 2021 Emerging Technologies (Virtual Event, USA) (SIGGRAPH \u201921). Association for Computing Machinery, New York, NY, USA, Article 6, 4\u00a0pages. https://doi.org/10.1145/3450550.3465349",
+      "doi": ""
+    },
+    {
+      "text": "Matthias Seuter, Eduardo\u00a0Rodriguez Macrillante, Gernot Bauer, and Christian Kray. 2018. Running with Drones: Desired Services and Control Gestures. In Proceedings of the 30th Australian Conference on Computer-Human Interaction (Melbourne, Australia) (OzCHI \u201918). Association for Computing Machinery, New York, NY, USA, 384\u2013395. https://doi.org/10.1145/3292147.3292156",
+      "doi": "10.1145/3292147.3292156"
+    },
+    {
+      "text": "Megha Sharma, Dale Hildebrandt, Gem Newman, James\u00a0E. Young, and Rasit Eskicioglu. 2013. Communicating affect via flight path exploring use of the laban effort system for designing affective locomotion paths. In ACM/IEEE International Conference on Human-Robot Interaction (Tokyo, Japan) (HRI \u201913). IEEE Press, 293\u2013300. https://doi.org/10.1109/HRI.2013.6483602",
+      "doi": ""
+    },
+    {
+      "text": "Alexandru-Ionut Siean, Radu-Daniel Vatavu, and Jean Vanderdonckt. 2021. Taking That Perfect Aerial Photo: A Synopsis of Interactions for Drone-Based Aerial Photography and Video. In ACM International Conference on Interactive Media Experiences (Virtual Event, USA) (IMX \u201921). Association for Computing Machinery, New York, NY, USA, 275\u2013279. https://doi.org/10.1145/3452918.3465484",
+      "doi": ""
+    },
+    {
+      "text": "Scott Simmie. 2020. Best drone light show yet? It\u2019s up there\u2026. Retrieved September 8, 2021 from https://dronedj.com/2020/11/29/amazing-christmas-drone-light-show/",
+      "doi": ""
+    },
+    {
+      "text": "Pray Somaldo, Faizal\u00a0Adila Ferdiansyah, Grafika Jati, and Wisnu Jatmiko. 2020. Developing Smart COVID-19 Social Distancing Surveillance Drone using YOLO Implemented in Robot Operating System simulation environment. In 2020 IEEE 8th R10 Humanitarian Technology Conference (R10-HTC). IEEE, 1\u20136. https://doi.org/10.1109/R10-HTC49770.2020.9357040",
+      "doi": ""
+    },
+    {
+      "text": "Ting Sun, Shengyi Nie, Dit-Yan Yeung, and Shaojie Shen. 2017. Gesture-based piloting of an aerial robot using monocular vision. In 2017 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 5913\u20135920. https://doi.org/10.1109/ICRA.2017.7989696",
+      "doi": "10.1109/ICRA.2017.7989696"
+    },
+    {
+      "text": "Daniel Szafir, Bilge Mutlu, and Terrence Fong. 2014. Communication of Intent in Assistive Free Flyers. In Proceedings of the 2014 ACM/IEEE International Conference on Human-Robot Interaction (Bielefeld, Germany) (HRI \u201914). Association for Computing Machinery, New York, NY, USA, 358\u2013365. https://doi.org/10.1145/2559636.2559672",
+      "doi": "10.1145/2559636.2559672"
+    },
+    {
+      "text": "Daniel Szafir, Bilge Mutlu, and Terry Fong. 2015. Communicating Directionality in Flying Robots. In Proceedings of the Tenth Annual ACM/IEEE International Conference on Human-Robot Interaction (Portland, Oregon, USA) (HRI \u201915). Association for Computing Machinery, New York, NY, USA, 19\u201326. https://doi.org/10.1145/2696454.2696475",
+      "doi": "10.1145/2696454.2696475"
+    },
+    {
+      "text": "Haodan Tan, Jangwon Lee, and Gege Gao. 2018. Human-Drone Interaction: Drone Delivery & Services for Social Events. In Proceedings of the 2018 ACM Conference Companion Publication on Designing Interactive Systems (Hong Kong, China) (DIS \u201918 Companion). Association for Computing Machinery, New York, NY, USA, 183\u2013187. https://doi.org/10.1145/3197391.3205433",
+      "doi": "10.1145/3197391.3205433"
+    },
+    {
+      "text": "Florent Taralle, Alexis Paljic, Sotiris Manitsaris, Jordane Grenier, and Christophe Guettier. 2015. A Consensual and Non-Ambiguous Set of Gestures to Interact with UAV in Infantrymen. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI EA \u201915). Association for Computing Machinery, New York, NY, USA, 797\u2013803. https://doi.org/10.1145/2702613.2702971",
+      "doi": "10.1145/2702613.2702971"
+    },
+    {
+      "text": "Ryotaro Temma, Kazuki Takashima, Kazuyuki Fujita, Koh Sueda, and Yoshifumi Kitamura. 2019. Third-Person Piloting: Increasing Situational Awareness Using a Spatially Coupled Second Drone. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 507\u2013519. https://doi.org/10.1145/3332165.3347953",
+      "doi": "10.1145/3332165.3347953"
+    },
+    {
+      "text": "Daniel Terdiman. 2014. Flying lampshades: Cirque du Soleil plays with drones. Retrieved September 8, 2021 from https://www.cnet.com/news/flying-lampshades-the-cirque-du-soleil-plays-with-drones/",
+      "doi": ""
+    },
+    {
+      "text": "Dante Tezza and Marvin Andujar. 2019. The State-of-the-Art of Human-Drone Interaction: A Survey. IEEE Access 7(2019), 167438\u2013167454. https://doi.org/10.1109/ACCESS.2019.2953900",
+      "doi": ""
+    },
+    {
+      "text": "Dante Tezza, Denis Laesker, and Marvin Andujar. 2021. The Learning Experience of Becoming a FPV Drone Pilot. In Companion of the 2021 ACM/IEEE International Conference on Human-Robot Interaction (Boulder, CO, USA) (HRI \u201921 Companion). Association for Computing Machinery, New York, NY, USA, 239\u2013241. https://doi.org/10.1145/3434074.3447167",
+      "doi": "10.1145/3434074.3447167"
+    },
+    {
+      "text": "The Verge. 2020. Nuro\u2019s driverless delivery robots will transport medicine to CVS customers in Texas. https://www.theverge.com/2020/5/28/21272966/nuro-cvs-autonomous-medicine-delivery-robot-houston. Accessed: 2021-09-09.",
+      "doi": ""
+    },
+    {
+      "text": "Jannik Thei\u00df, Iannis Albert, Nicole Burkard, and Marc Herrlich. 2021. Towards Using Drones as Personal Spatial Search Assistants. In Mensch Und Computer 2021(Ingolstadt, Germany) (MuC \u201921). Association for Computing Machinery, New York, NY, USA, 180\u2013188. https://doi.org/10.1145/3473856.3473877",
+      "doi": ""
+    },
+    {
+      "text": "S\u00e9bastien Thon, Dominique Serena-Allier, C\u00e9line Salvetat, and Fran\u00e7oise Lacotte. 2013. Flying a drone in a museum: An augmented-reality cultural serious game in Provence. Proceedings of the DigitalHeritage 2013 - Federating the 19th Int\u2019l VSMM, 10th Eurographics GCH, and 2nd UNESCO Memory of the World Conferences, Plus Special Sessions fromCAA, Arqueologica 2.0 et al. 2 (2013), 669\u2013676. https://doi.org/10.1109/DIGITALHERITAGE.2013.6744834",
+      "doi": ""
+    },
+    {
+      "text": "Soichiro Toyohara, Shio Miyafuji, and Hideki Koike. 2017. [POSTER] ARial Texture: Dynamic Projection Mapping on Drone Propellers. In 2017 IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct). IEEE, 206\u2013211. https://doi.org/10.1109/ISMAR-Adjunct.2017.68",
+      "doi": ""
+    },
+    {
+      "text": "Evgeny Tsykunov, Ruslan Agishev, Roman Ibrahimov, Luiza Labazanova, Taha Moriyama, Hiroyuki Kajimoto, and Dzmitry Tsetserukou. 2019. SwarmCloak: Landing of a Swarm of Nano-Quadrotors on Human Arms. In SIGGRAPH Asia 2019 Emerging Technologies (Brisbane, QLD, Australia) (SA \u201919). Association for Computing Machinery, New York, NY, USA, 46\u201347. https://doi.org/10.1145/3355049.3360542",
+      "doi": ""
+    },
+    {
+      "text": "Anastasia Uryasheva, Mikhail Kulbeda, Nikita Rodichenko, and Dzmitry Tsetserukou. 2019. DroneGraffiti: Autonomous Multi-UAV Spray Painting. In ACM SIGGRAPH 2019 Studio (Los Angeles, California) (SIGGRAPH \u201919). Association for Computing Machinery, New York, NY, USA, Article 4, 2\u00a0pages. https://doi.org/10.1145/3306306.3328000",
+      "doi": "10.1145/3306306.3328000"
+    },
+    {
+      "text": "Lan-Da Van, Chun-Hao Chang, Kit-Lun Tong, Kun-Ru Wu, Ling-Yan Zhang, and Yu-Chee Tseng. 2019. Demo: Tagging IoT Data in a Drone View. In The 25th Annual International Conference on Mobile Computing and Networking (Los Cabos, Mexico) (MobiCom \u201919). Association for Computing Machinery, New York, NY, USA, Article 70, 3\u00a0pages. https://doi.org/10.1145/3300061.3343378",
+      "doi": "10.1145/3300061.3343378"
+    },
+    {
+      "text": "Edwin Vattapparamban, Ismail G\u00fcven\u00e7, Ali\u00a0I. Yurekli, Kemal Akkaya, Selcuk Ulua\u01e7a\u00e7, and Selcuk\u00a0Ulua\u01e7a\u00e7. 2016. Drones for smart cities: Issues in cybersecurity, privacy, and public safety. In International Wireless Communications and Mobile Computing Conference (IWCMC). IEEE, 216\u2013221. https://doi.org/10.1109/IWCMC.2016.7577060",
+      "doi": ""
+    },
+    {
+      "text": "Bas Vergouw, Huub Nagel, Geert Bondt, and Bart Custers. 2016. Drone Technology: Types, Payloads, Applications, Frequency Spectrum Issues and Future Developments. T.M.C. Asser Press, 21\u201345. https://doi.org/10.1007/978-94-6265-132-6_2",
+      "doi": ""
+    },
+    {
+      "text": "Sonia Waharte and Niki Trigoni. 2010. Supporting search and rescue operations with UAVs. In 2010 International Conference on Emerging Security Technologies. IEEE, 142\u2013147. https://doi.org/10.1109/EST.2010.31",
+      "doi": "10.1109/EST.2010.31"
+    },
+    {
+      "text": "Yuta Watanabe, Yuya Onishi, Kazuaki Tanaka, and Hideyuki Nakanishi. 2019. Trainability Leads to Animacy: A Case of a Toy Drone. In Proceedings of the 7th International Conference on Human-Agent Interaction (Kyoto, Japan) (HAI \u201919). Association for Computing Machinery, New York, NY, USA, 234\u2013235. https://doi.org/10.1145/3349537.3352776",
+      "doi": "10.1145/3349537.3352776"
+    },
+    {
+      "text": "Alex Williams. 2020. The Drones Were Ready for This Moment. The New York Times. Retrieved May 24, 2020 from https://www.nytimes.com/2020/05/23/style/drones-coronavirus.html",
+      "doi": ""
+    },
+    {
+      "text": "Anna Wojciechowska, Jeremy Frey, Esther Mandelblum, Yair Amichai-Hamburger, and Jessica\u00a0R. Cauchard. 2019. Designing Drones: Factors and Characteristics Influencing the Perception of Flying Robots. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 3, Article 111 (Sept. 2019), 19\u00a0pages. https://doi.org/10.1145/3351269",
+      "doi": "10.1145/3351269"
+    },
+    {
+      "text": "Anna Wojciechowska, Jeremy Frey, Sarit Sass, Roy Shafir, and Jessica\u00a0R. Cauchard. 2019. Collocated Human-Drone Interaction: Methodology and Approach Strategy. In 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI), Vol.\u00a02019-March. IEEE, 172\u2013181. https://doi.org/10.1109/HRI.2019.8673127",
+      "doi": ""
+    },
+    {
+      "text": "Anna Wojciechowska, Foad Hamidi, Andr\u00e9s Lucero, and Jessica\u00a0R. Cauchard. 2020. Chasing Lions: Co-Designing Human-Drone Interaction in Sub-Saharan Africa. In Proceedings of the 2020 ACM Designing Interactive Systems Conference (Eindhoven, Netherlands) (DIS \u201920). Association for Computing Machinery, New York, NY, USA, 141\u2013152. https://doi.org/10.1145/3357236.3395481",
+      "doi": "10.1145/3357236.3395481"
+    },
+    {
+      "text": "Wataru Yamada, Hiroyuki Manabe, and Daizo Ikeda. 2019. ZeRONE: Safety Drone with Blade-Free Propulsion. Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3290605.3300595",
+      "doi": ""
+    },
+    {
+      "text": "Wataru Yamada, Kazuhiro Yamada, Hiroyuki Manabe, and Daizo Ikeda. 2017. ISphere: Self-Luminous Spherical Drone Display. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology (Qu\u00e9bec City, QC, Canada) (UIST \u201917). Association for Computing Machinery, New York, NY, USA, 635\u2013643. https://doi.org/10.1145/3126594.3126631",
+      "doi": "10.1145/3126594.3126631"
+    },
+    {
+      "text": "Yuki Yamazaki, Masaya Tamaki, Chinthaka Premachandra, Chamika\u00a0Janith Perera, Sagara Sumathipala, and B.\u00a0H. Sudantha. 2019. Victim Detection Using UAV with On-board Voice Recognition System. In Third IEEE International Conference on Robotic Computing (IRC). IEEE, 555\u2013559. https://doi.org/10.1109/IRC.2019.00114",
+      "doi": ""
+    },
+    {
+      "text": "Yaxing Yao, Huichuan Xia, Yun Huang, and Yang Wang. 2017. Free to Fly in Public Spaces: Drone Controllers\u2019 Privacy Perceptions and Practices. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 6789\u20136793. https://doi.org/10.1145/3025453.3026049",
+      "doi": "10.1145/3025453.3026049"
+    },
+    {
+      "text": "Yaxing Yao, Huichuan Xia, Yun Huang, and Yang Wang. 2017. Privacy Mechanisms for Drones: Perceptions of Drone Controllers and Bystanders. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 6777\u20136788. https://doi.org/10.1145/3025453.3025907",
+      "doi": "10.1145/3025453.3025907"
+    },
+    {
+      "text": "Yui-Pan Yau, Lik\u00a0Hang Lee, Zheng Li, Tristan Braud, Yi-Hsuan Ho, and Pan Hui. 2020. How Subtle Can It Get? A Trimodal Study of Ring-Sized Interfaces for One-Handed Drone Control. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 4, 2, Article 63 (June 2020), 29\u00a0pages. https://doi.org/10.1145/3397319",
+      "doi": "10.1145/3397319"
+    },
+    {
+      "text": "Alexander Yeh, Photchara Ratsamee, Kiyoshi Kiyokawa, Yuki Uranishi, Tomohiro Mashita, Haruo Takemura, Morten Fjeld, and Mohammad Obaid. 2017. Exploring Proxemics for Human-Drone Interaction. In Proceedings of the 5th International Conference on Human Agent Interaction (Bielefeld, Germany) (HAI \u201917). Association for Computing Machinery, New York, NY, USA, 81\u201388. https://doi.org/10.1145/3125739.3125773",
+      "doi": "10.1145/3125739.3125773"
+    },
+    {
+      "text": "Wonsang Yoo, Eun Yu, and Jaemin Jung. 2018. Drone delivery: Factors affecting the public\u2019s attitude and intention to adopt. Telematics and Informatics 35 (9 2018), 1687\u20131700. Issue 6. https://doi.org/10.1016/j.tele.2018.04.014",
+      "doi": ""
+    },
+    {
+      "text": "Yangguang Yu, Xiangke Wang, Zhiwei Zhong, and Yongwei Zhang. 2017. ROS-based UAV control using hand gesture recognition. In 29th Chinese Control And Decision Conference (CCDC). IEEE, 6795\u20136799. https://doi.org/10.1109/CCDC.2017.7978402",
+      "doi": ""
+    },
+    {
+      "text": "Guoxiang Zhang, Bo Shang, YangQuan Chen, and Holley Moyes. 2017. SmartCaveDrone: 3D cave mapping using UAVs as robotic co-archaeologists. In 2017 International Conference on Unmanned Aircraft Systems (ICUAS). IEEE, 1052\u20131057. https://doi.org/10.1109/ICUAS.2017.7991499",
+      "doi": ""
+    },
+    {
+      "text": "Jian Zhang, Zhitao Yu, Xiangyu Wang, Yibo Lyu, Shiwen Mao, Senthilkumar\u00a0CG Periaswamy, Justin Patton, and Xuyu Wang. 2018. RFHUI: An Intuitive and Easy-to-Operate Human-UAV Interaction System for Controlling a UAV in a 3D Space. In Proceedings of the 15th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (New York, NY, USA) (MobiQuitous \u201918). Association for Computing Machinery, New York, NY, USA, 69\u201376. https://doi.org/10.1145/3286978.3286983",
+      "doi": "10.1145/3286978.3286983"
+    },
+    {
+      "text": "Sergej\u00a0G. Zwaan and Emilia\u00a0I. Barakova. 2016. Boxing against Drones: Drones in Sports Education. In Proceedings of the The 15th International Conference on Interaction Design and Children (Manchester, United Kingdom) (IDC \u201916). Association for Computing Machinery, New York, NY, USA, 607\u2013612. https://doi.org/10.1145/2930674.2935991",
+      "doi": ""
+    }
+  ]
+}

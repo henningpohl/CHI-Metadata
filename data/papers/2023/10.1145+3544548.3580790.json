@@ -1,0 +1,597 @@
+{
+  "doi": "10.1145/3544548.3580790",
+  "title": "Angler: Helping Machine Translation Practitioners Prioritize Model Improvements",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Machine learning (ML) models can fail in unexpected ways in the real world, but not all model failures are equal. With finite time and resources, ML practitioners are forced to prioritize their model debugging and improvement efforts. Through interviews with 13 ML practitioners at Apple, we found that practitioners construct small targeted test sets to estimate an error\u2019s nature, scope, and impact on users. We built on this insight in a case study with machine translation models, and developed Angler, an interactive visual analytics tool to help practitioners prioritize model improvements. In a user study with 7 machine translation experts, we used Angler to understand prioritization practices when the input space is infinite, and obtaining reliable signals of model quality is expensive. Our study revealed that participants could form more interesting and user-focused hypotheses for prioritization by analyzing quantitative summary statistics and qualitatively assessing data by reading sentences.",
+  "authors": [
+    {
+      "name": "Samantha Robertson",
+      "institution": "Electrical Engineering and Computer Sciences, University of California, Berkeley, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700576",
+      "orcid": "0000-0002-0386-4555"
+    },
+    {
+      "name": "Zijie J. Wang",
+      "institution": "College of Computing, Georgia Tech, United States",
+      "img": "/do/10.1145/contrib-99659529235/rel-imgonly/headshot-circle.jpg",
+      "acmid": "99659529235",
+      "orcid": "0000-0003-4360-1423"
+    },
+    {
+      "name": "Dominik Moritz",
+      "institution": "Apple, United States",
+      "img": "/do/10.1145/contrib-89758751957/rel-imgonly/dominik_berlin.jpg",
+      "acmid": "89758751957",
+      "orcid": "0000-0002-3110-1053"
+    },
+    {
+      "name": "Mary Beth Kery",
+      "institution": "Apple Inc., United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659029834",
+      "orcid": "0000-0002-1771-0565"
+    },
+    {
+      "name": "Fred Hohman",
+      "institution": "Apple, United States",
+      "img": "/do/10.1145/contrib-99659161281/rel-imgonly/portrait.jpg",
+      "acmid": "99659161281",
+      "orcid": "0000-0002-4164-844X"
+    }
+  ],
+  "references": [
+    {
+      "text": "Joshua Albrecht, Rebecca Hwa, and G.\u00a0Elisabeta Marai. 2009. The Chinese Room: Visualization and Interaction to Understand and Correct Ambiguous Machine Translation. Computer Graphics Forum 28 (June 2009), 1047\u20131054. https://doi.org/10.1111/j.1467-8659.2009.01443.x",
+      "doi": "10.1111/j.1467-8659.2009.01443.x"
+    },
+    {
+      "text": "Saleema Amershi, Andrew Begel, Christian Bird, Robert DeLine, Harald Gall, Ece Kamar, Nachiappan Nagappan, Besmira Nushi, and Thomas Zimmermann. 2019. Software Engineering for Machine Learning: A Case Study. In 2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP). IEEE, Montreal, QC, Canada, 291\u2013300. https://doi.org/10.1109/ICSE-SEIP.2019.00042",
+      "doi": "10.1109/ICSE-SEIP.2019.00042"
+    },
+    {
+      "text": "Imanol Arrieta-Ibarra, Leonard Goff, Diego Jim\u00e9nez-Hern\u00e1ndez, Jaron Lanier, and E.\u00a0Glen Weyl. 2018. Should We Treat Data as Labor? Moving beyond \"Free\". AEA Papers and Proceedings 108 (May 2018), 38\u201342. https://doi.org/10.1257/pandp.20181003",
+      "doi": ""
+    },
+    {
+      "text": "Eleftherios Avramidis, Vivien Macketanz, Ursula Strohriegel, and Hans Uszkoreit. 2019. Linguistic Evaluation of German-English Machine Translation Using a Test Suite. In Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1). Association for Computational Linguistics, Florence, Italy, 445\u2013454. https://doi.org/10.18653/v1/w19-5351",
+      "doi": ""
+    },
+    {
+      "text": "Mahsa Baktashmotlagh, Mehrtash Har, i, and Mathieu Salzmann. 2016. Distribution-Matching Embedding for Visual Domain Adaptation. Journal of Machine Learning Research 17, 108 (2016), 1\u201330. http://jmlr.org/papers/v17/15-207.html",
+      "doi": ""
+    },
+    {
+      "text": "Satanjeev Banerjee and Alon Lavie. 2005. METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments. In Proceedings of the Acl Workshop on Intrinsic and Extrinsic Evaluation Measures for Machine Translation and/or Summarization. Association for Computational Linguistics, Ann Arbor, Michigan, 65\u201372.",
+      "doi": ""
+    },
+    {
+      "text": "Solon Barocas, Anhong Guo, Ece Kamar, Jacquelyn Krones, Meredith\u00a0Ringel Morris, Jennifer\u00a0Wortman Vaughan, W.\u00a0Duncan Wadsworth, and Hanna Wallach. 2021. Designing Disaggregated Evaluations of AI Systems: Choices, Considerations, and Tradeoffs. In Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society (Virtual Event, USA) (AIES \u201921). Association for Computing Machinery, New York, NY, USA, 368\u2013378. https://doi.org/10.1145/3461702.3462610",
+      "doi": "10.1145/3461702.3462610"
+    },
+    {
+      "text": "Emma Beauxis-Aussalet, Michael Behrisch, Rita Borgo, Duen\u00a0Horng Chau, Christopher Collins, David Ebert, Mennatallah El-Assady, Alex Endert, Daniel\u00a0A. Keim, Jorn Kohlhammer, Daniela Oelke, Jaakko Peltonen, Maria Riveiro, Tobias Schreck, Hendrik Strobelt, and Jarke\u00a0J. van Wijk. 2021. The Role of Interactive Visualization in Fostering Trust in AI. IEEE Computer Graphics and Applications 41 (Nov. 2021), 7\u201312. https://doi.org/10.1109/mcg.2021.3107875",
+      "doi": ""
+    },
+    {
+      "text": "Jon\u00a0Louis Bentley. 1975. Multidimensional Binary Search Trees Used for Associative Searching. Commun. ACM 18(1975). https://doi.org/10.1145/361002.361007",
+      "doi": "10.1145/361002.361007"
+    },
+    {
+      "text": "Shaily Bhatt, Rahul Jain, Sandipan Dandapat, and Sunayana Sitaram. 2021. A Case Study of Efficacy and Challenges in Practical Human-in-Loop Evaluation of NLP Systems Using Checklist. In Workshop on Human Evaluation of NLP Systems.",
+      "doi": ""
+    },
+    {
+      "text": "Su\u00a0Lin Blodgett, Johnny Wei, and Brendan O\u2019Connor. 2017. A Dataset and Classifier for Recognizing Social Media English. In Proceedings of the 3rd Workshop on Noisy User-generated Text. Association for Computational Linguistics, Copenhagen, Denmark, 56\u201361. https://doi.org/10.18653/v1/W17-4408",
+      "doi": ""
+    },
+    {
+      "text": "Tolga Bolukbasi, Kai-Wei Chang, James\u00a0Y Zou, Venkatesh Saligrama, and Adam\u00a0T Kalai. 2016. Man Is to Computer Programmer as Woman Is to Homemaker? Debiasing Word Embeddings. In NeurIPS, Vol.\u00a029.",
+      "doi": ""
+    },
+    {
+      "text": "M. Bostock, V. Ogievetsky, and J. Heer. 2011. D3 Data-Driven Documents. IEEE TVCG 17 (Dec. 2011). https://doi.org/10.1109/tvcg.2011.185",
+      "doi": "10.1109/tvcg.2011.185"
+    },
+    {
+      "text": "Joy Buolamwini and Timnit Gebru. 2018. Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification. In Proceedings of the 1st Conference on Fairness, Accountability and Transparency(Proceedings of Machine Learning Research, Vol.\u00a081).",
+      "doi": ""
+    },
+    {
+      "text": "Aljoscha Burchardt, Vivien Macketanz, Jon Dehdari, Georg Heigold, Peter Jan-Thorsten, and Philip Williams. 2017. A Linguistic Evaluation of Rule-Based, Phrase-Based, and Neural MT Engines. The Prague Bulletin of Mathematical Linguistics 108 (2017). https://doi.org/10.1515/pralin-2017-0017",
+      "doi": ""
+    },
+    {
+      "text": "Franck Burlot, Yves Scherrer, Vinit Ravishankar, Ond\u0159ej Bojar, Stig-Arne Gr\u00f6nroos, Maarit Koponen, Tommi Nieminen, and Fran\u00e7ois Yvon. 2018. The WMT\u201918 Morpheval Test Suites for English-Czech, English-German, English-Finnish and Turkish-English. In Proceedings of the Third Conference on Machine Translation: Shared Task Papers. https://doi.org/10.18653/v1/w18-6433",
+      "doi": ""
+    },
+    {
+      "text": "Franck Burlot and Fran\u00e7ois Yvon. 2017. Evaluating the Morphological Competence of Machine Translation Systems. In Proceedings of the Second Conference on Machine Translation. https://doi.org/10.18653/v1/w17-4705",
+      "doi": ""
+    },
+    {
+      "text": "\u00c1ngel\u00a0Alexander Cabrera, Abraham\u00a0J. Druck, Jason\u00a0I. Hong, and Adam Perer. 2021. Discovering and Validating AI Errors With Crowdsourced Failure Reports. Proceedings of the ACM on Human-Computer Interaction 5 (Oct. 2021). https://doi.org/10.1145/3479569",
+      "doi": "10.1145/3479569"
+    },
+    {
+      "text": "Angel\u00a0Alexander Cabrera, Will Epperson, Fred Hohman, Minsuk Kahng, Jamie Morgenstern, and Duen\u00a0Horng Chau. 2019. FAIRVIS: Visual Analytics for Discovering Intersectional Bias in Machine Learning. In 2019 IEEE Conference on Visual Analytics Science and Technology (VAST). https://doi.org/10.1109/vast47406.2019.8986948",
+      "doi": ""
+    },
+    {
+      "text": "Carrie\u00a0J. Cai, Emily Reif, Narayan Hegde, Jason Hipp, Been Kim, Daniel Smilkov, Martin Wattenberg, Fernanda Viegas, Greg\u00a0S. Corrado, Martin\u00a0C. Stumpe, and Michael Terry. 2019. Human-Centered Tools for Coping with Imperfect Algorithms During Medical Decision-Making. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. https://doi.org/10.1145/3290605.3300234",
+      "doi": "10.1145/3290605.3300234"
+    },
+    {
+      "text": "Chris Callison-Burch. 2009. Fast, Cheap, and Creative: Evaluating Translation Quality Using Amazon\u2019s Mechanical Turk. In Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, Singapore, 286\u2013295. https://aclanthology.org/D09-1030",
+      "doi": ""
+    },
+    {
+      "text": "Chris Callison-Burch, Cameron Fordyce, Philipp Koehn, Christof Monz, and Josh Schroeder. 2007. (Meta-) Evaluation of Machine Translation. In Proceedings of the Second Workshop on Statistical Machine Translation. Association for Computational Linguistics, Prague, Czech Republic, 136\u2013158. https://aclanthology.org/W07-0718",
+      "doi": ""
+    },
+    {
+      "text": "Chris Callison-Burch, Miles Osborne, and Philipp Koehn. 2006. Re-Evaluating the Role of Bleu in Machine Translation Research. In 11th Conference of the European Chapter of the Association for Computational Linguistics.",
+      "doi": ""
+    },
+    {
+      "text": "Leshem Choshen and Omri Abend. 2019. Automatically Extracting Challenge Sets for Non-Local Phenomena in Neural Machine Translation. In CoNLL. https://doi.org/10.18653/v1/k19-1028",
+      "doi": ""
+    },
+    {
+      "text": "Yeounoh Chung, Tim Kraska, Neoklis Polyzotis, Ki\u00a0Hyun Tae, and Steven\u00a0Euijong Whang. 2020. Automated Data Slicing for Model Validation: A Big Data - AI Integration Approach. IEEE Transactions on Knowledge and Data Engineering 32, 12(2020), 2284\u20132296. https://doi.org/10.1109/TKDE.2019.2916074",
+      "doi": ""
+    },
+    {
+      "text": "Andy Cockburn, Amy Karlson, and Benjamin\u00a0B. Bederson. 2009. A Review of Overview+Detail, Zooming, and Focus+Context Interfaces. ACM Comput. Surv. 41 (Jan. 2009). https://doi.org/10.1145/1456650.1456652",
+      "doi": "10.1145/1456650.1456652"
+    },
+    {
+      "text": "Andy Coenen and Adam Pearce. 2019. Understanding UMAP. https://pair-code.github.io/understanding-umap/",
+      "doi": ""
+    },
+    {
+      "text": "Prithwijit Das, Anna Kuznetsova, Meng\u2019ou Zhu, and Ruth Milanaik. 2019. Dangers of Machine Translation: The Need for Professionally Translated Anticipatory Guidance Resources for Limited English Proficiency Caregivers. Clinical Pediatrics (Phila) 58 (Feb. 2019).",
+      "doi": ""
+    },
+    {
+      "text": "Terrance de Vries, Ishan Misra, Changhan Wang, and Laurens van der Maaten. 2019. Does Object Recognition Work for Everyone?. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops.",
+      "doi": ""
+    },
+    {
+      "text": "Greg d\u2019Eon, Jason d\u2019Eon, James\u00a0R Wright, and Kevin Leyton-Brown. 2022. The Spotlight: A General Method for Discovering Systematic Errors in Deep Learning Models. In 2022 ACM Conference on Fairness, Accountability, and Transparency. https://doi.org/10.1145/3531146.3533240",
+      "doi": "10.1145/3531146.3533240"
+    },
+    {
+      "text": "Alicia DeVos, Aditi Dhabalia, Hong Shen, Kenneth Holstein, and Motahhare Eslami. 2022. Toward User-Driven Algorithm Auditing: Investigating Users\u2019 Strategies for Uncovering Harmful Algorithmic Behavior. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems(CHI \u201922). Article 626. https://doi.org/10.1145/3491102.3517441",
+      "doi": "10.1145/3491102.3517441"
+    },
+    {
+      "text": "Miro Dud\u00edk, Sarah Bird, Hanna Wallach, and Kathleen Walker. 2020. Fairlearn: A Toolkit for Assessing and Improving Fairness in AI. (May 2020).",
+      "doi": ""
+    },
+    {
+      "text": "Ana\u00a0C. Farinha, M.\u00a0Amin Farajian, Patrick Fernandes Jos\u00e9 Souza Jo\u00e3o Alves\u00a0Ant\u00f3nio Lopes, Helena Moniz, and Andr\u00e9 Martins. 2022. WMT22 Chat Task. https://wmt-chat-task.github.io/",
+      "doi": ""
+    },
+    {
+      "text": "Markus Freitag, George Foster, David Grangier, Viresh Ratnakar, Qijun Tan, and Wolfgang Macherey. 2021. Experts, Errors, and Context: A Large-Scale Study of Human Evaluation for Machine Translation. Transactions of the Association for Computational Linguistics 9 (Dec. 2021). https://doi.org/10.1162/tacl_a_00437",
+      "doi": ""
+    },
+    {
+      "text": "Matt Gardner, Yoav Artzi, Victoria Basmov, Jonathan Berant, Ben Bogin, Sihao Chen, Pradeep Dasigi, Dheeru Dua, Yanai Elazar, Ananth Gottumukkala, Nitish Gupta, Hannaneh Hajishirzi, Gabriel Ilharco, Daniel Khashabi, Kevin Lin, Jiangming Liu, Nelson\u00a0F. Liu, Phoebe Mulcaire, Qiang Ning, Sameer Singh, Noah\u00a0A. Smith, Sanjay Subramanian, Reut Tsarfaty, Eric Wallace, Ally Zhang, and Ben Zhou. 2020. Evaluating Models\u2019 Local Decision Boundaries via Contrast Sets. In Findings of the Association for Computational Linguistics: EMNLP 2020. https://doi.org/10.18653/v1/2020.findings-emnlp.117",
+      "doi": ""
+    },
+    {
+      "text": "Satvik Garg, Pradyumn Pundir, Geetanjali Rathee, P.K. Gupta, Somya Garg, and Saransh Ahlawat. 2021. On Continuous Integration / Continuous Delivery for Automated Deployment of Machine Learning Models Using MLOps. In 2021 IEEE Fourth International Conference on Artificial Intelligence and Knowledge Engineering (AIKE). https://doi.org/10.1109/aike52691.2021.00010",
+      "doi": ""
+    },
+    {
+      "text": "Mor Geva, Yoav Goldberg, and Jonathan Berant. 2019. Are We Modeling the Task or the Annotator? An Investigation of Annotator Bias in Natural Language Understanding Datasets. In EMNLP-IJCNLP. https://doi.org/10.18653/v1/d19-1107",
+      "doi": ""
+    },
+    {
+      "text": "Maarten Grootendorst. 2022. BERTopic: Neural Topic Modeling with a Class-Based TF-IDF Procedure. arXiv preprint arXiv:2203.05794(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Lifeng Han. 2018. Machine Translation Evaluation Resources and Methods: A Survey. arxiv:1605.04515 (Sept. 2018).",
+      "doi": ""
+    },
+    {
+      "text": "Amy\u00a0K. Heger, Liz\u00a0B. Marquis, Mihaela Vorvoreanu, Hanna Wallach, and Jennifer\u00a0Wortman Vaughan. 2022. Understanding Machine Learning Practitioners\u2019 Data Documentation Perceptions, Needs, Challenges, and Desiderata. arxiv:2206.02923 (Aug. 2022).",
+      "doi": ""
+    },
+    {
+      "text": "Jind\u0159ich Helcl and Jind\u0159ich Libovick\u00fd. 2017. Neural Monkey: An Open-Source Tool for Sequence Learning. The Prague Bulletin of Mathematical Linguistics (2017). https://doi.org/10.1515/pralin-2017-0001",
+      "doi": ""
+    },
+    {
+      "text": "Fred Hohman, Minsuk Kahng, Robert Pienta, and Duen\u00a0Horng Chau. 2019. Visual Analytics in Deep Learning: An Interrogative Survey for the Next Frontiers. IEEE Transactions on Visualization and Computer Graphics 25 (Aug. 2019). https://doi.org/10.1109/tvcg.2018.2843369",
+      "doi": "10.1109/tvcg.2018.2843369"
+    },
+    {
+      "text": "Kenneth Holstein, Jennifer Wortman\u00a0Vaughan, Hal Daum\u00e9\u00a0III, Miro Dudik, and Hanna Wallach. 2019. Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. https://doi.org/10.1145/3290605.3300830",
+      "doi": "10.1145/3290605.3300830"
+    },
+    {
+      "text": "Sara Hooker, Nyalleng Moorosi, Gregory Clark, Samy Bengio, and Emily Denton. 2020. Characterising Bias in Compressed Models. arxiv:2010.03058 (Dec. 2020).",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin Hoover, Hendrik Strobelt, and Sebastian Gehrmann. 2020. exBERT: A Visual Analysis Tool to Explore Learned Representations in Transformer Models. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations. https://doi.org/10.18653/v1/2020.acl-demos.22",
+      "doi": ""
+    },
+    {
+      "text": "Aspen Hopkins, Fred Hohman, Luca Zappella, Xavier\u00a0Suau Cuadros, and Dominik Moritz. 2023. Designing data: Proactive data collection and iteration for machine learning. arXiv preprint arXiv:2301.10319(2023).",
+      "doi": ""
+    },
+    {
+      "text": "Chip Huyen. 2022. Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications (first edition ed.).",
+      "doi": ""
+    },
+    {
+      "text": "Panagiotis\u00a0G. Ipeirotis, Foster Provost, and Jing Wang. 2010. Quality Management on Amazon Mechanical Turk. In Proceedings of the ACM SIGKDD Workshop on Human Computation - HCOMP \u201910. https://doi.org/10.1145/1837885.1837906",
+      "doi": "10.1145/1837885.1837906"
+    },
+    {
+      "text": "Pierre Isabelle, Colin Cherry, and George Foster. 2017. A Challenge Set Approach to Evaluating Machine Translation. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing. https://doi.org/10.18653/v1/d17-1263",
+      "doi": ""
+    },
+    {
+      "text": "Melvin Johnson, Mike Schuster, Quoc\u00a0V. Le, Maxim Krikun, Yonghui Wu, Zhifeng Chen, Nikhil Thorat, Fernanda Vi\u00e9gas, Martin Wattenberg, Greg Corrado, Macduff Hughes, and Jeffrey Dean. 2017. Google\u2019s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation. Transactions of the Association for Computational Linguistics (2017), 339\u2013351. https://doi.org/10.1162/tacl_a_00065",
+      "doi": ""
+    },
+    {
+      "text": "Aparna\u00a0R Joshi, Xavier\u00a0Suau Cuadros, Nivedha Sivakumar, Luca Zappella, and Nicholas Apostoloff. 2022. Fair SA: Sensitivity Analysis for Fairness in Face Recognition. In Algorithmic Fairness through the Lens of Causality and Robustness Workshop. PMLR.",
+      "doi": ""
+    },
+    {
+      "text": "Elaine\u00a0C Khoong, Eric Steinbrook, Cortlyn Brown, and Alicia Fernandez. 2019. Assessing the Use of Google Translate for Spanish and Chinese Translations of Emergency Department Discharge Instructions. JAMA internal medicine 179 (2019). https://doi.org/10.1001/jamainternmed.2018.7653",
+      "doi": ""
+    },
+    {
+      "text": "Douwe Kiela, Max Bartolo, Yixin Nie, Divyansh Kaushik, Atticus Geiger, Zhengxuan Wu, Bertie Vidgen, Grusha Prasad, Amanpreet Singh, Pratik Ringshia, Zhiyi Ma, Tristan Thrush, Sebastian Riedel, Zeerak Waseem, Pontus Stenetorp, Robin Jia, Mohit Bansal, Christopher Potts, and Adina Williams. 2021. Dynabench: Rethinking Benchmarking in NLP. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. https://doi.org/10.18653/v1/2021.naacl-main.324",
+      "doi": ""
+    },
+    {
+      "text": "Margaret King and Bente Maeggard. 1998. Issues in Natural Language Systems Evaluation.. In LREC.",
+      "doi": ""
+    },
+    {
+      "text": "Chunyu Kit and Tak\u00a0Ming Wong. 2008. Comparative Evaluation of Online Machine Translation Systems with Legal Texts. Law Library Journal 100(2008).",
+      "doi": ""
+    },
+    {
+      "text": "Ondrej Klejch, Eleftherios Avramidis, Aljoscha Burchardt, and Martin Popel. 2015. MT-ComparEval: Graphical Evaluation Interface for Machine Translation Development.Prague Bull. Math. Linguistics 104 (2015). https://doi.org/10.1515/pralin-2015-0014",
+      "doi": ""
+    },
+    {
+      "text": "Philipp Koehn. 09 10-14 2007. EuroMatrix \u2013 Machine Translation for All European Languages. In Proceedings of Machine Translation Summit XI: Invited Papers.",
+      "doi": ""
+    },
+    {
+      "text": "Allison Koenecke, Andrew Nam, Emily Lake, Joe Nudell, Minnie Quartey, Zion Mengesha, Connor Toups, John\u00a0R. Rickford, Dan Jurafsky, and Sharad Goel. 2020. Racial Disparities in Automated Speech Recognition. Proceedings of the National Academy of Sciences 117 (April 2020). https://doi.org/10.1073/pnas.1915768117",
+      "doi": ""
+    },
+    {
+      "text": "Pang\u00a0Wei Koh, Shiori Sagawa, Henrik Marklund, Sang\u00a0Michael Xie, Marvin Zhang, Akshay Balsubramani, Weihua Hu, Michihiro Yasunaga, Richard\u00a0Lanas Phillips, Irena Gao, Tony Lee, Etienne David, Ian Stavness, Wei Guo, Berton Earnshaw, Imran Haque, Sara\u00a0M Beery, Jure Leskovec, Anshul Kundaje, Emma Pierson, Sergey Levine, Chelsea Finn, and Percy Liang. 2021. WILDS: A Benchmark of in-the-Wild Distribution Shifts. In ICML(Proceedings of Machine Learning Research, Vol.\u00a0139).",
+      "doi": ""
+    },
+    {
+      "text": "Arvindkumar Krishnakumar, Viraj Prabhu, Sruthi Sudhakar, and Judy Hoffman. 2021. UDIS: Unsupervised Discovery of Bias in Deep Visual Recognition Models. arxiv:2110.15499 (Oct. 2021).",
+      "doi": ""
+    },
+    {
+      "text": "Jaesong Lee, Joong-Hwi Shin, and Jun-Seok Kim. 2017. Interactive Visualization and Manipulation of Attention-based Neural Machine Translation. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing: System Demonstrations.",
+      "doi": ""
+    },
+    {
+      "text": "Seongmin Lee, Zijie\u00a0J. Wang, Judy Hoffman, and Duen\u00a0Horng Chau. 2022. VisCUIT: Visual Auditor for Bias in CNN Image Classifier. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).",
+      "doi": ""
+    },
+    {
+      "text": "Zhen Li, Xiting Wang, Weikai Yang, Jing Wu, Zhengyan Zhang, Zhiyuan Liu, Maosong Sun, Hui Zhang, and Shixia Liu. 2022. A Unified Understanding of Deep NLP Models for Text Classification. IEEE Transactions on Visualization and Computer Graphics (2022). https://doi.org/10.1109/tvcg.2022.3184186",
+      "doi": "10.1109/tvcg.2022.3184186"
+    },
+    {
+      "text": "Daniel\u00a0J. Liebling, Michal Lahav, Abigail Evans, Aaron Donsbach, Jess Holbrook, Boris Smus, and Lindsey Boran. 2020. Unmet Needs and Opportunities for Mobile Translation AI. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376261",
+      "doi": "10.1145/3313831.3376261"
+    },
+    {
+      "text": "Chin-Yew Lin and Franz\u00a0Josef Och. 2004. ORANGE: A Method for Evaluating Automatic Evaluation Metrics for Machine Translation. In COLING 2004: Proceedings of the 20th International Conference on Computational Linguistics. https://doi.org/10.3115/1220355.1220427",
+      "doi": "10.3115/1220355.1220427"
+    },
+    {
+      "text": "Shixia Liu, Jiannan Xiao, Junlin Liu, Xiting Wang, Jing Wu, and Jun Zhu. 2018. Visual Diagnosis of Tree Boosting Methods. IEEE TVCG 24 (Jan. 2018). https://doi.org/10.1109/tvcg.2017.2744378",
+      "doi": ""
+    },
+    {
+      "text": "Edward Loper and Steven Bird. 2002. NLTK: The Natural Language Toolkit. In Proceedings of the ACL-02 Workshop on Effective Tools and Methodologies for Teaching Natural Language Processing and Computational Linguistics -, Vol.\u00a01. https://doi.org/10.3115/1219044.1219075",
+      "doi": "10.3115/1219044.1219075"
+    },
+    {
+      "text": "Charles Lovering and Ellie Pavlick. 2022. Unit Testing for Concepts in Neural Networks. arxiv:2208.10244 (July 2022).",
+      "doi": ""
+    },
+    {
+      "text": "Scott\u00a0M. Lundberg and Su-In Lee. 2017. A Unified Approach to Interpreting Model Predictions. In Proceedings of the 31st International Conference on Neural Information Processing Systems(NIPS\u201917).",
+      "doi": "10.5555/3295222.3295230"
+    },
+    {
+      "text": "Hossin M and Sulaiman M.N. 2015. A Review on Evaluation Metrics for Data Classification Evaluations. International Journal of Data Mining & Knowledge Management Process 5 (March 2015). https://doi.org/10.5121/ijdkp.2015.5201",
+      "doi": ""
+    },
+    {
+      "text": "Vivien Macketanz, Eleftherios Avramidis, Aljoscha Burchardt, and Hans Uszkoreit. 2018. Fine-Grained Evaluation of German-English Machine Translation Based on a Test Suite. In Proceedings of the Third Conference on Machine Translation: Shared Task Papers. https://doi.org/10.18653/v1/w18-6436",
+      "doi": ""
+    },
+    {
+      "text": "Nitin Madnani. 2011. iBLEU: Interactively Debugging and Scoring Statistical Machine Translation Systems. In 2011 IEEE Fifth International Conference on Semantic Computing. https://doi.org/10.1109/icsc.2011.36",
+      "doi": "10.1109/icsc.2011.36"
+    },
+    {
+      "text": "Nitika Mathur, Timothy Baldwin, and Trevor Cohn. 2020. Tangled up in BLEU: Reevaluating the Evaluation of Automatic Machine Translation Evaluation Metrics. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. https://doi.org/10.18653/v1/2020.acl-main.448",
+      "doi": ""
+    },
+    {
+      "text": "L. McInnes, J. Healy, and J. Melville. 2018. UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction. ArXiv e-prints (Feb. 2018).",
+      "doi": ""
+    },
+    {
+      "text": "Sharan\u00a0B Merriam and Associates. 2002. Introduction to qualitative research. In Qualitative research in practice: Examples for discussion and analysis. Jossey-Bass, Hoboken, NJ, USA, 1\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "Joaquim Mor\u00e9 and Salvador Climent. 2014. Machine Translationness: Machine-likeness in Machine Translation Evaluation. In Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC\u201914).",
+      "doi": ""
+    },
+    {
+      "text": "David Munechika, Zijie\u00a0J. Wang, Jack Reidy, Josh Rubin, Krishna Gade, Krishnaram Kenthapadi, and Duen\u00a0Horng Chau. 2022. Visual Auditor: Interactive Visualization for Detection and Summarization of Model Biases. In 2022 IEEE Visualization Conference (VIS).",
+      "doi": ""
+    },
+    {
+      "text": "Tanja Munz, Dirk V\u00e4th, Paul Kuznecov, Ngoc\u00a0Thang Vu, and Daniel Weiskopf. 2022. Visualization-Based Improvement of Neural Machine Translation. Computers & Graphics 103 (April 2022). https://doi.org/10.1016/j.cag.2021.12.003",
+      "doi": "10.1016/j.cag.2021.12.003"
+    },
+    {
+      "text": "Aakanksha Naik, Abhilasha Ravichander, Norman Sadeh, Carolyn Rose, and Graham Neubig. 2018. Stress Test Evaluation for Natural Language Inference. In The 27th International Conference on Computational Linguistics (COLING).",
+      "doi": ""
+    },
+    {
+      "text": "Graham Neubig, Zi-Yi Dou, Junjie Hu, Paul Michel, Danish Pruthi, and Xinyi Wang. 2019. Compare-Mt: A Tool for Holistic Comparison of Language Generation Systems. In Proceedings of the 2019 Conference of the North. https://doi.org/10.18653/v1/n19-4007",
+      "doi": ""
+    },
+    {
+      "text": "Ziad Obermeyer, Brian Powers, Christine Vogeli, and Sendhil Mullainathan. 2019. Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations. Science 366 (Oct. 2019). https://doi.org/10.1126/science.aax2342",
+      "doi": ""
+    },
+    {
+      "text": "Jorge\u00a0Piazentin Ono, Sonia Castelo, Roque Lopez, Enrico Bertini, Juliana Freire, and Claudio Silva. 2021. PipelineProfiler: A Visual Analytics Tool for the Exploration of AutoML Pipelines. IEEE Transactions on Visualization and Computer Graphics 27 (Feb. 2021).",
+      "doi": ""
+    },
+    {
+      "text": "Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu. 2002. Bleu: A Method for Automatic Evaluation of Machine Translation. In Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics.",
+      "doi": ""
+    },
+    {
+      "text": "Sebeom Park, Soohyun Lee, Youngtaek Kim, Hyeon Jeon, Seokweon Jung, Jinwook Bok, and Jinwook Seo. 2022. VANT: A Visual Analytics System for Refining Parallel Corpora in Neural Machine Translation. In 2022 IEEE 15th Pacific Visualization Symposium (PacificVis). https://doi.org/10.1109/pacificvis53943.2022.00029",
+      "doi": ""
+    },
+    {
+      "text": "Kayur Patel, James Fogarty, James\u00a0A. Landay, and Beverly Harrison. 2008. Investigating Statistical Machine Learning as a Tool for Software Development. In Proceeding of the Twenty-Sixth Annual CHI Conference on Human Factors in Computing Systems - CHI \u201908. https://doi.org/10.1145/1357054.1357160",
+      "doi": "10.1145/1357054.1357160"
+    },
+    {
+      "text": "Karl Pearson. 1901. On Lines and Planes of Closest Fit to Systems of Points in Space. The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science 2(1901). https://doi.org/10.1080/14786440109462720",
+      "doi": ""
+    },
+    {
+      "text": "Fabian Pedregosa, Ga\u00ebl Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron Weiss, Vincent Dubourg, 2011. Scikit-Learn: Machine Learning in Python. the Journal of machine Learning research 12 (2011).",
+      "doi": ""
+    },
+    {
+      "text": "Neoklis Polyzotis, Martin Zinkevich, Sudip Roy, Eric Breck, and Steven Whang. 2019. Data Validation for Machine Learning. In Proceedings of Machine Learning and Systems, Vol.\u00a01.",
+      "doi": ""
+    },
+    {
+      "text": "Maja Popovi\u0107. 2015. chrF: Character n-Gram F-score for Automatic MT Evaluation. In Proceedings of the Tenth Workshop on Statistical Machine Translation. https://doi.org/10.18653/v1/w15-3049",
+      "doi": ""
+    },
+    {
+      "text": "Maja Popovi\u0107. 2021. Agree to Disagree: Analysis of Inter-Annotator Disagreements in Human Evaluation of Machine Translation Output. In Proceedings of the 25th Conference on Computational Natural Language Learning. https://doi.org/10.18653/v1/2021.conll-1.18",
+      "doi": ""
+    },
+    {
+      "text": "Maja Popovi\u0107 and Sheila Castilho. 2019. Challenge Test Sets for MT Evaluation. In Proceedings of Machine Translation Summit XVII: Tutorial Abstracts.",
+      "doi": ""
+    },
+    {
+      "text": "Matt Post. 2018. A Call for Clarity in Reporting BLEU Scores. In Proceedings of the Third Conference on Machine Translation: Research Papers. https://doi.org/10.18653/v1/w18-6319",
+      "doi": ""
+    },
+    {
+      "text": "Vinay Prabhu, Ryan Teehan, Eniko Srivastava, and Abdul Nimeri. 2021. Did They Direct the Violence or Admonish It? A Cautionary Tale on Contronomy, Androcentrism and Back-Translation Foibles. In AfricaNLP Workshop at EACL.",
+      "doi": ""
+    },
+    {
+      "text": "Alec Radford, Jong\u00a0Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever. 2021. Learning Transferable Visual Models from Natural Language Supervision. In Proceedings of the 38th International Conference on Machine Learning(Proceedings of Machine Learning Research, Vol.\u00a0139). https://proceedings.mlr.press/v139/radford21a.html",
+      "doi": ""
+    },
+    {
+      "text": "Alessandro Raganato, Yves Scherrer, and J\u00f6rg Tiedemann. 2019. The MuCoW Test Suite at WMT 2019: Automatically Harvested Multilingual Contrastive Word Sense Disambiguation Test Sets for Machine Translation. In Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1). https://doi.org/10.18653/v1/w19-5354",
+      "doi": ""
+    },
+    {
+      "text": "Inioluwa\u00a0Deborah Raji, Timnit Gebru, Margaret Mitchell, Joy Buolamwini, Joonseok Lee, and Emily Denton. 2020. Saving Face: Investigating the Ethical Concerns of Facial Recognition Auditing. In Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society(AIES \u201920). https://doi.org/10.1145/3375627.3375820",
+      "doi": "10.1145/3375627.3375820"
+    },
+    {
+      "text": "Pranav Rajpurkar, Robin Jia, and Percy Liang. 2018. Know What You Don\u2019t Know: Unanswerable Questions for SQuAD. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). https://doi.org/10.18653/v1/p18-2124",
+      "doi": ""
+    },
+    {
+      "text": "Sylvestre-Alvise Rebuffi, Sven Gowal, Dan\u00a0Andrei Calian, Florian Stimberg, Olivia Wiles, and Timothy\u00a0A Mann. 2021. Data Augmentation Can Improve Robustness. In Advances in Neural Information Processing Systems, Vol.\u00a034.",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin Recht, Rebecca Roelofs, Ludwig Schmidt, and Vaishaal Shankar. 2019. Do ImageNet Classifiers Generalize to ImageNet?. In Proceedings of the 36th International Conference on Machine Learning(Proceedings of Machine Learning Research, Vol.\u00a097).",
+      "doi": ""
+    },
+    {
+      "text": "Nils Reimers and Iryna Gurevych. 2019. Sentence-BERT: Sentence Embeddings Using Siamese BERT-Networks. In EMNLP. https://doi.org/10.18653/v1/d19-1410",
+      "doi": ""
+    },
+    {
+      "text": "Ehud Reiter. 2018. A Structured Review of the Validity of BLEU. Computational Linguistics 44 (Sept. 2018). https://doi.org/10.1162/coli_a_00322",
+      "doi": "10.1162/coli_a_00322"
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro and Scott Lundberg. 2022. Adaptive Testing and Debugging of NLP Models. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). https://doi.org/10.18653/v1/2022.acl-long.230",
+      "doi": ""
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2016. \"Why Should I Trust You?\": Explaining the Predictions of Any Classifier. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. https://doi.org/10.1145/2939672.2939778",
+      "doi": "10.1145/2939672.2939778"
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Tongshuang Wu, Carlos Guestrin, and Sameer Singh. 2020. Beyond Accuracy: Behavioral Testing of NLP Models with CheckList. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. https://doi.org/10.18653/v1/2020.acl-main.442",
+      "doi": ""
+    },
+    {
+      "text": "Mat\u012bss Rikters, Mark Fishel, and Ond\u0159ej Bojar. 2017. Visualizing Neural Machine Translation Attention and Confidence. The Prague Bulletin of Mathematical Linguistics 109 (Oct. 2017). https://doi.org/10.1515/pralin-2017-0037",
+      "doi": ""
+    },
+    {
+      "text": "Paul R\u00f6ttger, Bertie Vidgen, Dong Nguyen, Zeerak Waseem, Helen Margetts, and Janet Pierrehumbert. 2021. HateCheck: Functional Tests for Hate Speech Detection Models. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). https://doi.org/10.18653/v1/2021.acl-long.4",
+      "doi": ""
+    },
+    {
+      "text": "Rachel Rudinger, Jason Naradowsky, Brian Leonard, and Benjamin Van\u00a0Durme. 2018. Gender Bias in Coreference Resolution. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers). https://doi.org/10.18653/v1/n18-2002",
+      "doi": ""
+    },
+    {
+      "text": "Ananya\u00a0B. Sai, Akash\u00a0Kumar Mohankumar, and Mitesh\u00a0M. Khapra. 2022. A Survey of Evaluation Metrics Used for NLG Systems. Acm Computing Surveys 55 (Jan. 2022). https://doi.org/10.1145/3485766",
+      "doi": "10.1145/3485766"
+    },
+    {
+      "text": "Bel\u00e9n Sald\u00edas\u00a0Fuentes, George Foster, Markus Freitag, and Qijun Tan. 2022. Toward More Effective Human Evaluation for Machine Translation. In Proceedings of the 2nd Workshop on Human Evaluation of NLP Systems (HumEval). https://doi.org/10.18653/v1/2022.humeval-1.7",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Schelter, Felix Biessmann, Dustin Lange, Tammo Rukat, Phillipp Schmidt, Stephan Seufert, Pierre Brunelle, and Andrey Taptunov. 2019. Unit Testing Data with Deequ. In Proceedings of the 2019 International Conference on Management of Data(SIGMOD \u201919). https://doi.org/10.1145/3299869.3320210",
+      "doi": "10.1145/3299869.3320210"
+    },
+    {
+      "text": "David\u00a0W. Scott. 2015. Multivariate Density Estimation: Theory, Practice, and Visualization. https://doi.org/10.1002/9781118575574",
+      "doi": ""
+    },
+    {
+      "text": "D. Sculley. 2022. A Data-Centric View of Technical Debt in AI. https://datacentricai.org/data-in-deployment/",
+      "doi": ""
+    },
+    {
+      "text": "D. Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips, Dietmar Ebner, Vinay Chaudhary, Michael Young, Jean-Fran\u00e7ois Crespo, and Dan Dennison. 2015. Hidden Technical Debt in Machine Learning Systems. In Advances in Neural Information Processing Systems, Vol.\u00a028.",
+      "doi": ""
+    },
+    {
+      "text": "Hong Shen, Alicia DeVos, Motahhare Eslami, and Kenneth Holstein. 2021. Everyday Algorithm Auditing: Understanding the Power of Everyday Users in Surfacing Harmful Algorithmic Behaviors. Proc. ACM Hum.-Comput. Interact. 5, Article 433 (Oct. 2021). https://doi.org/10.1145/3479577",
+      "doi": "10.1145/3479577"
+    },
+    {
+      "text": "Bernard\u00a0W Silverman. 2018. Density Estimation for Statistics and Data Analysis. https://doi.org/10.1201/9781315140919",
+      "doi": ""
+    },
+    {
+      "text": "Felipe Soares, Viviane Moreira, and Karin Becker. 2018. A Large Parallel Corpus of Full-Text Scientific Articles. In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC-2018)(Miyazaki, Japan). European Language Resource Association. http://aclweb.org/anthology/L18-1546",
+      "doi": ""
+    },
+    {
+      "text": "Thilo Spinner, Udo Schlegel, Hanna Schafer, and Mennatallah El-Assady. 2019. explAIner: A Visual Analytics Framework for Interactive and Explainable Machine Learning. IEEE Transactions on Visualization and Computer Graphics (2019). https://doi.org/10.1109/tvcg.2019.2934629",
+      "doi": ""
+    },
+    {
+      "text": "Gabriel Stanovsky, Noah\u00a0A. Smith, and Luke Zettlemoyer. 2019. Evaluating Gender Bias in Machine Translation. In ACL. https://doi.org/10.18653/v1/p19-1164",
+      "doi": ""
+    },
+    {
+      "text": "David Steele and Lucia Specia. 2018. Vis-Eval Metric Viewer: A Visualisation Tool for Inspecting and Evaluating Metric Scores of Machine Translation Output. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations.",
+      "doi": ""
+    },
+    {
+      "text": "Amanda Stent, Matthew Marge, and Mohit Singhai. 2005. Evaluating Evaluation Methods for Generation in the Presence of Variation. In Proceedings of the 6th International Conference on Computational Linguistics and Intelligent Text Processing(CICLing\u201905). https://doi.org/10.1007/978-3-540-30586-6_38",
+      "doi": "10.1007/978-3-540-30586-6_38"
+    },
+    {
+      "text": "Hendrik Strobelt, Sebastian Gehrmann, Michael Behrisch, Adam Perer, Hanspeter Pfister, and Alexander\u00a0M Rush. 2018. S Eq 2s Eq-v Is: A Visual Debugging Tool for Sequence-to-Sequence Models. IEEE transactions on visualization and computer graphics 25 (2018). https://doi.org/10.1109/tvcg.2018.2865044",
+      "doi": "10.1109/tvcg.2018.2865044"
+    },
+    {
+      "text": "Breena\u00a0R Taira, Vanessa Kreger, Aristides Orue, and Lisa\u00a0C Diamond. 2021. A Pragmatic Assessment of Google Translate for Emergency Department Instructions. Journal of Geneneral Internal Medicine 36 (Nov. 2021). https://doi.org/10.1007/s11606-021-06666-z",
+      "doi": ""
+    },
+    {
+      "text": "J\u00f6rg Tiedemann. 2020. The Tatoeba Translation Challenge \u2013 Realistic Data Sets for Low Resource and Multilingual MT. In Proceedings of the Fifth Conference on Machine Translation. Association for Computational Linguistics, Online, 1174\u20131182. https://www.aclweb.org/anthology/2020.wmt-1.139",
+      "doi": ""
+    },
+    {
+      "text": "J\u00f6rg Tiedemann and Santhosh Thottingal. 2020. OPUS-MT \u2014 Building Open Translation Services for the World. In Proceedings of the 22nd Annual Conferenec of the European Association for Machine Translation (EAMT).",
+      "doi": ""
+    },
+    {
+      "text": "Jonas-Dario Troles and Ute Schmid. 2021. Extending Challenge Sets to Uncover Gender Bias in Machine Translation: Impact of Stereotypical Verbs and Adjectives. In Proceedings of the Sixth Conference on Machine Translation.",
+      "doi": ""
+    },
+    {
+      "text": "Edward\u00a0R. Tufte. 2013. The Visual Display of Quantitative Information (2nd ed., 8th print ed.).",
+      "doi": ""
+    },
+    {
+      "text": "Laurens van der Maaten and Geoffrey Hinton. 2008. Visualizing Data Using T-SNE. Journal of Machine Learning Research 9 (2008). http://jmlr.org/papers/v9/vandermaaten08a.html",
+      "doi": ""
+    },
+    {
+      "text": "Eva Vanmassenhove and Johanna Monti. 2021. gENder-IT: An Annotated English-Italian Parallel Challenge Set for Cross-Linguistic Natural Gender Phenomena. In Proceedings of the 3rd Workshop on Gender Bias in Natural Language Processing. https://doi.org/10.18653/v1/2021.gebnlp-1.1",
+      "doi": ""
+    },
+    {
+      "text": "Marc Vermeulen, Kate Smith, Katherine Eremin, Georgina Rayner, and Marc Walton. 2021. Application of Uniform Manifold Approximation and Projection (UMAP) in Spectral Imaging of Artworks. Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 252 (2021). https://doi.org/10.1016/j.saa.2021.119547",
+      "doi": ""
+    },
+    {
+      "text": "David Vilar, Jia Xu, Luis\u00a0Fernando D\u2019Haro, and Hermann Ney. 2006. Error Analysis of Statistical Machine Translation Output. In Proceedings of the Fifth International Conference on Language Resources and Evaluation (LREC\u201906).",
+      "doi": ""
+    },
+    {
+      "text": "Changhan Wang, Anirudh Jain, Danlu Chen, and Jiatao Gu. 2019. VizSeq: A Visual Analysis Toolkit for Text Generation Tasks. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP): System Demonstrations. https://doi.org/10.18653/v1/d19-3043",
+      "doi": ""
+    },
+    {
+      "text": "James Wexler, Mahima Pushkarna, Tolga Bolukbasi, Martin Wattenberg, Fernanda Viegas, and Jimbo Wilson. 2019. The What-If Tool: Interactive Probing of Machine Learning Models. IEEE TVCG 26(2019). https://doi.org/10.1109/tvcg.2019.2934619",
+      "doi": ""
+    },
+    {
+      "text": "Tongshuang Wu, Marco\u00a0Tulio Ribeiro, Jeffrey Heer, and Daniel Weld. 2019. Errudite: Scalable, Reproducible, and Testable Error Analysis. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. https://doi.org/10.18653/v1/p19-1073",
+      "doi": ""
+    },
+    {
+      "text": "Tongshuang Wu, Marco\u00a0Tulio Ribeiro, Jeffrey Heer, and Daniel Weld. 2021. Polyjuice: Generating Counterfactuals for Explaining, Evaluating, and Improving Models. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). https://doi.org/10.18653/v1/2021.acl-long.523",
+      "doi": ""
+    },
+    {
+      "text": "Sarah Yates. 2006. Scaling the Tower of Babel Fish: An Analysis of the Machine Translation of Legal Information. Law Library Journal 98(2006).",
+      "doi": ""
+    },
+    {
+      "text": "Xiaoyu Zhang, Jorge\u00a0Piazentin Ono, Huan Song, Liang Gou, Kwan-Liu Ma, and Liu Ren. 2022. SliceTeller : A Data Slice-Driven Approach for Machine Learning Model Validation. IEEE Transactions on Visualization and Computer Graphics (2022), 1\u201311. https://doi.org/10.1109/TVCG.2022.3209465",
+      "doi": ""
+    },
+    {
+      "text": "Jieyu Zhao, Tianlu Wang, Mark Yatskar, Vicente Ordonez, and Kai-Wei Chang. 2018. Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers). https://doi.org/10.18653/v1/n18-2003",
+      "doi": ""
+    }
+  ]
+}

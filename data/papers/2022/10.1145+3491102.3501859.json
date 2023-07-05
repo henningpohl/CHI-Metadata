@@ -1,0 +1,305 @@
+{
+  "doi": "10.1145/3491102.3501859",
+  "title": "A Design Space For Data Visualisation Transformations Between 2D And 3D In Mixed-Reality Environments",
+  "published": "2022-04-28",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2022,
+  "badges": [],
+  "abstract": "As mixed-reality (MR) technologies become more mainstream, the delineation between data visualisations displayed on screens or other surfaces and those floating in space becomes increasingly blurred. Rather than the choice of using either a 2D surface or the 3D space for visualising data being a dichotomy, we argue that users should have the freedom to transform visualisations seamlessly between the two as needed. However, the design space for such transformations is large, and practically uncharted. To explore this, we first establish an overview of the different states that a data visualisation can take in MR, followed by how transformations between these states can facilitate common visualisation tasks. We then describe a design space of how these transformations function, in terms of the different stages throughout the transformation, and the user interactions and input parameters that affect it. This design space is then demonstrated with multiple exemplary techniques based in MR.",
+  "authors": [
+    {
+      "name": "Benjamin Lee",
+      "institution": "Monash University, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659480874",
+      "orcid": "0000-0002-1171-4741"
+    },
+    {
+      "name": "Maxime Cordeil",
+      "institution": "Monash University, Australia and University of Queensland, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81488668405",
+      "orcid": "0000-0002-9732-4874"
+    },
+    {
+      "name": "Arnaud Prouzeau",
+      "institution": "Inria & LaBRI (University of Bordeaux, CNRS, Bordeaux-INP), France",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658766854",
+      "orcid": "0000-0003-3800-5870"
+    },
+    {
+      "name": "Bernhard Jenny",
+      "institution": "Monash University, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81443597718",
+      "orcid": "0000-0001-6101-6100"
+    },
+    {
+      "name": "Tim Dwyer",
+      "institution": "Monash University, Australia",
+      "img": "/do/10.1145/contrib-81100013275/rel-imgonly/tim-dwyer-2016-small.jpg",
+      "acmid": "81100013275",
+      "orcid": "0000-0002-9076-9571"
+    }
+  ],
+  "references": [
+    {
+      "text": "R. Amar, J. Eagan, and J. Stasko. 2005. Low-Level Components of Analytic Activity in Information Visualization. In Proceedings of the 2005 IEEE Symposium on Information Visualization (INFOVIS\u201905). IEEE, Minneapolis, MN, USA, 15\u201315. https://doi.org/10.1109/INFOVIS.2005.24",
+      "doi": "10.1109/INFOVIS.2005.24"
+    },
+    {
+      "text": "Fereshteh Amini, Nathalie\u00a0Henry Riche, Bongshin Lee, Jason Leboe-McGowan, and Pourang Irani. 2018. Hooked on Data Videos: Assessing the Effect of Animation and Pictographs on Viewer Engagement. In Proceedings of the 2018 International Conference on Advanced Visual Interfaces. ACM, Castiglione della Pescaia Grosseto Italy, 1\u20139. https://doi.org/10.1145/3206505.3206552",
+      "doi": "10.1145/3206505.3206552"
+    },
+    {
+      "text": "Benjamin Bach, Emmanuel Pietriga, and Jean-Daniel Fekete. 2014. Visualizing Dynamic Networks with Matrix Cubes. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 877\u2013886. https://doi.org/10.1145/2556288.2557010",
+      "doi": "10.1145/2556288.2557010"
+    },
+    {
+      "text": "Andrea Batch, Andrew Cunningham, Maxime Cordeil, Niklas Elmqvist, Tim Dwyer, Bruce\u00a0H. Thomas, and Kim Marriott. 2020. There Is No Spoon: Evaluating Performance, Space Use, and Presence with Expert Domain Users in Immersive Analytics. IEEE Transactions on Visualization and Computer Graphics 26, 1(2020), 536\u2013546. https://doi.org/10.1109/TVCG.2019.2934803",
+      "doi": ""
+    },
+    {
+      "text": "H. Benko, E.W. Ishak, and S. Feiner. 2005. Cross-Dimensional Gestural Interaction Techniques for Hybrid Immersive Environments. In IEEE Proceedings. VR 2005. Virtual Reality, 2005.IEEE, Bonn, Germany, 209\u2013327. https://doi.org/10.1109/VR.2005.1492776",
+      "doi": ""
+    },
+    {
+      "text": "A. Bezerianos, F. Chevalier, P. Dragicevic, N. Elmqvist, and J.\u00a0D. Fekete. 2010. Graphdice: A System for Exploring Multivariate Social Networks. In Proceedings of the 12th Eurographics / IEEE - VGTC Conference on Visualization (Bordeaux, France) (EuroVis\u201910). The Eurographs Association & John Wiley & Sons, Ltd., Chichester, GBR, 863\u2013872. https://doi.org/10.1111/j.1467-8659.2009.01687.x",
+      "doi": "10.1111/j.1467-8659.2009.01687.x"
+    },
+    {
+      "text": "Simon Butscher, Sebastian Hubenschmid, Jens M\u00fcller, Johannes Fuchs, and Harald Reiterer. 2018. Clusters, Trends, and Outliers: How Immersive Technologies Can Facilitate the Collaborative Analysis of Multidimensional Data. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). ACM, New York, NY, USA, Article 90, 12\u00a0pages. https://doi.org/10.1145/3173574.3173664",
+      "doi": "10.1145/3173574.3173664"
+    },
+    {
+      "text": "Marco Cavallo, Mishal Dholakia, Matous Havlena, Kenneth Ocheltree, and Mark Podlaseck. 2019. Dataspace: A Reconfigurable Hybrid Reality Environment for Collaborative Information Analysis. arxiv:1903.03700\u00a0[cs.HC]",
+      "doi": ""
+    },
+    {
+      "text": "Marco Cavallo, Mishal Dolakia, Matous Havlena, Kenneth Ocheltree, and Mark Podlaseck. 2019. Immersive Insights: A Hybrid Analytics System ForCollaborative Exploratory Data Analysis. In 25th ACM Symposium on Virtual Reality Software and Technology (Parramatta, NSW, Australia) (VRST \u201919). Association for Computing Machinery, New York, NY, USA, Article 9, 12\u00a0pages. https://doi.org/10.1145/3359996.3364242",
+      "doi": "10.1145/3359996.3364242"
+    },
+    {
+      "text": "Tom Chandler, Maxime Cordeil, Tobias Czauderna, Tim Dwyer, Jaroslaw Glowacki, Cagatay Goncu, Matthias Klapperstueck, Karsten Klein, Kim Marriott, Falk Schreiber, and Elliot Wilson. 2015. Immersive Analytics. In 2015 Big Data Visual Analytics (BDVA). IEEE, Hobart, Australia, 1\u20138. https://doi.org/10.1109/BDVA.2015.7314296",
+      "doi": ""
+    },
+    {
+      "text": "Fanny Chevalier, Pierre Dragicevic, and Steven Franconeri. 2014. The Not-so-Staggering Effect of Staggered Animated Transitions on Visual Tracking. IEEE Transactions on Visualization and Computer Graphics 20, 12 (Dec. 2014), 2241\u20132250. https://doi.org/10.1109/TVCG.2014.2346424",
+      "doi": ""
+    },
+    {
+      "text": "Christopher Collins and Sheelagh Carpendale. 2007. VisLink: Revealing Relationships Amongst Visualizations. IEEE Transactions on Visualization and Computer Graphics 13, 6(2007), 1192\u20131199. https://doi.org/10.1109/TVCG.2007.70521",
+      "doi": "10.1109/TVCG.2007.70521"
+    },
+    {
+      "text": "Maxime Cordeil, Andrew Cunningham, Benjamin Bach, Christophe Hurter, Bruce\u00a0H. Thomas, Kim Marriott, and Tim Dwyer. 2019. IATK: An Immersive Analytics Toolkit. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, Osaka, Japan, 200\u2013209. https://doi.org/10.1109/VR.2019.8797978",
+      "doi": ""
+    },
+    {
+      "text": "Maxime Cordeil, Andrew Cunningham, Tim Dwyer, Bruce\u00a0H. Thomas, and Kim Marriott. 2017. ImAxes: Immersive Axes As Embodied Affordances for Interactive Multivariate Data Visualisation. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology (Qu\u00e9bec City, QC, Canada) (UIST \u201917). ACM, New York, NY, USA, 71\u201383. https://doi.org/10.1145/3126594.3126613",
+      "doi": "10.1145/3126594.3126613"
+    },
+    {
+      "text": "Maxime Cordeil, Christophe Hurter, St\u00e9phane Conversy, and Micka\u00ebl Causse. 2013. Assessing and Improving 3D Rotation Transition in Dense Visualizations. In Proceedings of the 27th International BCS Human Computer Interaction Conference (London, UK) (BCS-HCI \u201913). BCS Learning & Development Ltd., Swindon, GBR, Article 7, 10\u00a0pages.",
+      "doi": "10.5555/2578048.2578059"
+    },
+    {
+      "text": "N. Elmqvist, P. Dragicevic, and J. Fekete. 2008. Rolling the Dice: Multidimensional Visual Exploration using Scatterplot Matrix Navigation. IEEE Transactions on Visualization and Computer Graphics 14, 6 (Nov 2008), 1539\u20131148. https://doi.org/10.1109/TVCG.2008.153",
+      "doi": ""
+    },
+    {
+      "text": "Barrett Ens, Benjamin Bach, Maxime Cordeil, Ulrich Engelke, Marcos Serrano, Wesley Willett, Arnaud Prouzeau, Christoph Anthes, Wolfgang B\u00fcschel, Cody Dunne, Tim Dwyer, Jens Grubert, Jason\u00a0H. Haga, Nurit Kirshenbaum, Dylan Kobayashi, Tica Lin, Monsurat Olaosebikan, Fabian Pointecker, David Saffo, Nazmus Saquib, Dieter Schmalstieg, Danielle\u00a0Albers Szafir, Matt Whitlock, and Yalong Yang. 2021. Grand Challenges in Immersive Analytics. Association for Computing Machinery, New York, NY, USA, 1\u201317. https://doi.org/10.1145/3411764.3446866",
+      "doi": "10.1145/3411764.3446866"
+    },
+    {
+      "text": "B. Ens, S. Goodwin, A. Prouzeau, F. Anderson, F.\u00a0Y. Wang, S. Gratzl, Z. Lucarelli, B. Moyle, J. Smiley, and T. Dwyer. 2021. Uplift: A Tangible and Immersive Tabletop System for Casual Collaborative Visual Analytics. IEEE Transactions on Visualization and Computer Graphics 27, 2(2021), 1193\u20131203. https://doi.org/10.1109/TVCG.2020.3030334",
+      "doi": ""
+    },
+    {
+      "text": "Barrett Ens and Pourang Irani. 2017. Spatial Analytic Interfaces: Spatial User Interfaces for In Situ Visual Analytics. IEEE Computer Graphics and Applications 37, 2 (March 2017), 66\u201379. https://doi.org/10.1109/MCG.2016.38",
+      "doi": "10.1109/MCG.2016.38"
+    },
+    {
+      "text": "Barrett Ens, Eyal Ofek, Neil D.\u00a0B. Bruce, and Pourang Irani. 2016. Shared Fa\u00e7ades: Surface-Embedded Layout Management for Ad Hoc Collaboration Using Head-Worn Displays. In Collaboration Meets Interactive Spaces, Craig Anslow, Pedro\u00a0F. Campos, and Joaquim\u00a0A. Jorge (Eds.). Springer, Cham, 153\u2013176. https://doi.org/10.1007/978-3-319-45853-3_8",
+      "doi": ""
+    },
+    {
+      "text": "E. Fanea, S. Carpendale, and T. Isenberg. 2005. An interactive 3D integration of parallel coordinates and star glyphs. In IEEE Symposium on Information Visualization, 2005. INFOVIS 2005.IEEE, Minneapolis, MN, USA, 149\u2013156. https://doi.org/10.1109/INFVIS.2005.1532141",
+      "doi": ""
+    },
+    {
+      "text": "Cleotilde Gonzalez. 1996. Does Animation in User Interfaces Improve Decision Making?. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems Common Ground - CHI \u201996. ACM Press, Vancouver, British Columbia, Canada, 27\u201334. https://doi.org/10.1145/238386.238396",
+      "doi": "10.1145/238386.238396"
+    },
+    {
+      "text": "Antonio Gracia, Santiago Gonz\u00e1lez, V\u00edctor Robles, Ernestina Menasalvas, and Tatiana von Landesberger. 2016. New insights into the suitability of the third dimension for visualizing multivariate/multidimensional data: A study based on loss of quality quantification. Information Visualization 15, 1 (2016), 3\u201330. https://doi.org/10.1177/1473871614556393 arXiv:https://doi.org/10.1177/1473871614556393",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Heer and George Robertson. 2007. Animated Transitions in Statistical Data Graphics. IEEE Transactions on Visualization and Computer Graphics 13, 6 (Nov. 2007), 1240\u20131247. https://doi.org/10.1109/TVCG.2007.70539",
+      "doi": "10.1109/TVCG.2007.70539"
+    },
+    {
+      "text": "Jeffrey Heer and Ben Shneiderman. 2012. Interactive Dynamics for Visual Analysis: A taxonomy of tools that support the fluent and flexible use of visualizations. Queue 10, 2 (Feb. 2012), 30\u201355. https://doi.org/10.1145/2133416.2146416",
+      "doi": "10.1145/2133416.2146416"
+    },
+    {
+      "text": "Sebastian Hubenschmid, Johannes Zagermann, Simon Butscher, and Harald Reiterer. 2021. STREAM: Exploring the Combination of Spatially-Aware Tablets with Augmented Reality Head-Mounted Displays for Immersive Analytics. Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3411764.3445298",
+      "doi": "10.1145/3411764.3445298"
+    },
+    {
+      "text": "C. Hurter, N.\u00a0H. Riche, S.\u00a0M. Drucker, M. Cordeil, R. Alligier, and R. Vuillemot. 2019. FiberClay: Sculpting Three Dimensional Trajectories to Reveal Structural Insights. IEEE Transactions on Visualization and Computer Graphics 25, 1 (Jan 2019), 704\u2013714. https://doi.org/10.1109/TVCG.2018.2865191",
+      "doi": "10.1109/TVCG.2018.2865191"
+    },
+    {
+      "text": "C. Hurter, B. Tissoires, and S. Conversy. 2009. FromDaDy: Spreading Aircraft Trajectories Across Views to Support Iterative Queries. IEEE Transactions on Visualization and Computer Graphics 15, 6(2009), 1017\u20131024. https://doi.org/10.1109/TVCG.2009.145",
+      "doi": "10.1109/TVCG.2009.145"
+    },
+    {
+      "text": "Aulikki Hyrskykari, Howell Istance, and Stephen Vickers. 2012. Gaze Gestures or Dwell-Based Interaction?. In Proceedings of the Symposium on Eye Tracking Research and Applications (Santa Barbara, California) (ETRA \u201912). Association for Computing Machinery, New York, NY, USA, 229\u2013232. https://doi.org/10.1145/2168556.2168602",
+      "doi": "10.1145/2168556.2168602"
+    },
+    {
+      "text": "Bret Jackson and Daniel\u00a0F. Keefe. 2016. Lift-Off: Using Reference Imagery and Freehand Sketching to Create 3D Models in VR. IEEE Transactions on Visualization and Computer Graphics 22, 4 (April 2016), 1442\u20131451. https://doi.org/10.1109/TVCG.2016.2518099",
+      "doi": "10.1109/TVCG.2016.2518099"
+    },
+    {
+      "text": "Rapha\u00ebl James, Anastasia Bezerianos, Olivier Chapuis, Maxime Cordeil, Tim Dwyer, and Arnaud Prouzeau. 2020. Personal+Context navigation: combining AR and shared displays in Network Path-following. In Proceedings of Graphics Interface 2020(University of Toronto) (GI 2020). Canadian Human-Computer Communications Society / Soci\u00e9t\u00e9 canadienne du dialogue humain-machine, Toronto, Canada, 267 \u2013 278. https://doi.org/10.20380/GI2020.27",
+      "doi": ""
+    },
+    {
+      "text": "Younghoon Kim and Jeffrey Heer. 2021. Gemini: A Grammar and Recommender System for Animated Transitions in Statistical Graphics. IEEE Transactions on Visualization and Computer Graphics 27, 2 (Feb. 2021), 485\u2013494. https://doi.org/10.1109/TVCG.2020.3030360",
+      "doi": ""
+    },
+    {
+      "text": "Brittany Kondo and Christopher Collins. 2014. DimpVis: Exploring Time-Varying Information Visualizations by Direct Manipulation. IEEE Transactions on Visualization and Computer Graphics 20, 12 (Dec. 2014), 2003\u20132012. https://doi.org/10.1109/TVCG.2014.2346250",
+      "doi": ""
+    },
+    {
+      "text": "M. Kraus, N. Weiler, D. Oelke, J. Kehrer, D.\u00a0A. Keim, and J. Fuchs. 2020. The Impact of Immersion on Cluster Identification Tasks. IEEE Transactions on Visualization and Computer Graphics 26, 1 (Jan 2020), 525\u2013535. https://doi.org/10.1109/TVCG.2019.2934395",
+      "doi": ""
+    },
+    {
+      "text": "Ricardo Langner, Marc Satkowski, Wolfgang B\u00fcschel, and Raimund Dachselt. 2021. MARVIS: Combining Mobile Devices and Augmented Reality for Visual Data Analysis. Association for Computing Machinery, New York, NY, USA, 1\u201317. https://doi.org/10.1145/3411764.3445593",
+      "doi": ""
+    },
+    {
+      "text": "B. Lee, X. Hu, M. Cordeil, A. Prouzeau, B. Jenny, and T. Dwyer. 2021. Shared Surfaces and Spaces: Collaborative Data Visualisation in a Co-located Immersive Environment. IEEE Transactions on Visualization and Computer Graphics 27, 2(2021), 1171\u20131181. https://doi.org/10.1109/TVCG.2020.3030450",
+      "doi": ""
+    },
+    {
+      "text": "Bongshin Lee, Catherine Plaisant, Cynthia\u00a0Sims Parr, Jean-Daniel Fekete, and Nathalie Henry. 2006. Task taxonomy for graph visualization. In Proceedings of the 2006 AVI workshop on BEyond time and errors novel evaluation methods for information visualization - BELIV \u201906. ACM Press, Venice, Italy, 1. https://doi.org/10.1145/1168149.1168168",
+      "doi": "10.1145/1168149.1168168"
+    },
+    {
+      "text": "Joon\u00a0Hyub Lee, Sang-Gyun An, Yongkwan Kim, and Seok-Hyung Bae. 2018. Projective Windows: Bringing Windows in Space to the Fingertip. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems - CHI \u201918. ACM Press, Montreal QC, Canada, 1\u20138. https://doi.org/10.1145/3173574.3173792",
+      "doi": ""
+    },
+    {
+      "text": "Jiazhou Liu, Arnaud Prouzeau, Barrett Ens, and Tim Dwyer. 2020. Design and Evaluation of Interactive Small Multiples Data Visualisation in Immersive Spaces. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, Atlanta, GA, USA, 588\u2013597. https://doi.org/10.1109/VR46266.2020.00081",
+      "doi": ""
+    },
+    {
+      "text": "Tahir Mahmood, Erik Butler, Nicholas Davis, Jian Huang, and Aidong Lu. 2018. Building Multiple Coordinated Spaces for Effective Immersive Analytics through Distributed Cognition. In 2018 International Symposium on Big Data Visual and Immersive Analytics (BDVA). IEEE, Hobart, Australia, 1\u201311. https://doi.org/10.1109/BDVA.2018.8533893",
+      "doi": ""
+    },
+    {
+      "text": "Kim Marriott, Falk Schreiber, Tim Dwyer, Karsten Klein, Nathalie\u00a0Henry Riche, Takayuki Itoh, Wolfgang Stuerzlinger, and Bruce\u00a0H. Thomas (Eds.). 2018. Immersive Analytics. Lecture Notes in Computer Science, Vol.\u00a011190. Springer International Publishing, Cham. https://doi.org/10.1007/978-3-030-01388-2",
+      "doi": ""
+    },
+    {
+      "text": "Tamara Munzner. 2014. Visualization Analysis and Design(0 ed.). A K Peters/CRC Press, New York. https://doi.org/10.1201/b17511",
+      "doi": ""
+    },
+    {
+      "text": "Arnaud Prouzeau, Maxime Cordeil, Clement Robin, Barrett Ens, Bruce\u00a0H. Thomas, and Tim Dwyer. 2019. Scaptics and Highlight-Planes: Immersive Interaction Techniques for Finding Occluded Features in 3D Scatterplots. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300555",
+      "doi": "10.1145/3290605.3300555"
+    },
+    {
+      "text": "Patrick Reipschl\u00e4ger and Raimund Dachselt. 2019. DesignAR: Immersive 3D-Modeling Combining Augmented Reality with Interactive Displays. In Proceedings of the 2019 ACM International Conference on Interactive Surfaces and Spaces(Daejeon, Republic of Korea) (ISS \u201919). Association for Computing Machinery, New York, NY, USA, 29\u201341. https://doi.org/10.1145/3343055.3359718",
+      "doi": "10.1145/3343055.3359718"
+    },
+    {
+      "text": "P. Reipschlager, T. Flemisch, and R. Dachselt. 2021. Personal Augmented Reality for Information Visualization on Large Interactive Displays. IEEE Transactions on Visualization and Computer Graphics 27, 2(2021), 1182\u20131192. https://doi.org/10.1109/TVCG.2020.3030460",
+      "doi": ""
+    },
+    {
+      "text": "George Robertson, Kim Cameron, Mary Czerwinski, and Daniel Robbins. 2002. Animated visualization of multiple intersecting hierarchies. Information Visualization 1, 1 (2002), 50\u201365. https://doi.org/10.1057/palgrave.ivs.9500002",
+      "doi": "10.1057/palgrave/ivs/9500002"
+    },
+    {
+      "text": "G. Robertson, R. Fernandez, D. Fisher, B. Lee, and J. Stasko. 2008. Effectiveness of Animation in Trend Visualization. IEEE Transactions on Visualization and Computer Graphics 14, 6 (Nov. 2008), 1325\u20131332. https://doi.org/10.1109/TVCG.2008.125",
+      "doi": "10.1109/TVCG.2008.125"
+    },
+    {
+      "text": "Arvind Satyanarayan, Bongshin Lee, Donghao Ren, Jeffrey Heer, John Stasko, John Thompson, Matthew Brehmer, and Zhicheng Liu. 2020. Critical Reflections on Visualization Authoring Systems. IEEE Transactions on Visualization and Computer Graphics 26, 1(2020), 461\u2013471. https://doi.org/10.1109/TVCG.2019.2934281",
+      "doi": ""
+    },
+    {
+      "text": "Hans-Jorg Schulz, Thomas Nocke, Magnus Heitzler, and Heidrun Schumann. 2013. A Design Space of Visualization Tasks. IEEE Transactions on Visualization and Computer Graphics 19, 12 (Dec. 2013), 2366\u20132375. https://doi.org/10.1109/TVCG.2013.120",
+      "doi": "10.1109/TVCG.2013.120"
+    },
+    {
+      "text": "Mickael Sereno, Lonni Besan\u00e7on, and Tobias Isenberg. 2019. Supporting Volumetric Data Visualization and Analysis by Combining Augmented Reality Visuals with Multi-Touch Input. In EuroVis 2019 - Posters, Jo\u00e3o Madeiras\u00a0Pereira and Renata\u00a0Georgia Raidou (Eds.). The Eurographics Association, Porto, Portugal, 21\u201323. https://doi.org/10.2312/eurp.20191136",
+      "doi": ""
+    },
+    {
+      "text": "Wu Shengzhi. 2019. Pulling a 3D model from an editor display (e.g. Maya, C4D) to a real-world environment, as if the screen is a drawer [Tweet]. https://twitter.com/Wu_Shengzhi/status/1155725029310521344/. Accessed: 2021-11-25.",
+      "doi": ""
+    },
+    {
+      "text": "Ben Shneiderman. 1982. The Future of Interactive Systems and the Emergence of Direct Manipulation\u2020. Behaviour & Information Technology 1, 3 (July 1982), 237\u2013256. https://doi.org/10.1080/01449298208914450",
+      "doi": ""
+    },
+    {
+      "text": "Jim Smiley, Benjamin Lee, Siddhant Tandon, Maxime Cordeil, Lonni Besan\u00e7on, Jarrod Knibbe, Bernhard Jenny, and Tim Dwyer. 2021. The MADE-Axis: A Modular Actuated Device to Embody the Axis of a Data Dimension. Proc. ACM Hum.-Comput. Interact. 5, ISS, Article 501 (nov 2021), 23\u00a0pages. https://doi.org/10.1145/3488546",
+      "doi": "10.1145/3488546"
+    },
+    {
+      "text": "Maur\u00edcio Sousa, Daniel Mendes, Soraia Paulo, Nuno Matela, Joaquim Jorge, and Daniel\u00a0Sim\u00f5es Lopes. 2017. VRRRRoom: Virtual Reality for Radiologists in the Reading Room. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems - CHI \u201917. ACM Press, Denver, Colorado, USA, 4057\u20134062. https://doi.org/10.1145/3025453.3025566",
+      "doi": "10.1145/3025453.3025566"
+    },
+    {
+      "text": "T. Sun, Y. Ye, I. Fujishiro, and K. Ma. 2019. Collaborative Visual Analysis with Multi-level Information Sharing Using a Wall-Size Display and See-Through HMDs. In 2019 IEEE Pacific Visualization Symposium (PacificVis). IEEE, Bangkok, Thailand, 11\u201320. https://doi.org/10.1109/PacificVis.2019.00010",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0J. Thomas and IEEE\u00a0Computer Society (Eds.). 2005. Illuminating the Path: The Research and Development Agenda for Visual Analytics. IEEE Computer Soc, Los Alamitos, Calif.",
+      "doi": ""
+    },
+    {
+      "text": "J. Thompson, Z. Liu, W. Li, and J. Stasko. 2020. Understanding the Design Space and Authoring Paradigms for Animated Data Graphics. Computer Graphics Forum 39, 3 (June 2020), 207\u2013218. https://doi.org/10.1111/cgf.13974",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0R Thompson, Zhicheng Liu, and John Stasko. 2021. Data Animator: Authoring Expressive Animated Data Graphics. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Yokohama Japan, 1\u201318. https://doi.org/10.1145/3411764.3445747",
+      "doi": "10.1145/3411764.3445747"
+    },
+    {
+      "text": "J.\u00a0A. Wagner\u00a0Filho, C.M.D.S. Freitas, and L. Nedel. 2018. VirtualDesk: A Comfortable and Efficient Immersive Information Visualization Approach. Computer Graphics Forum 37, 3 (June 2018), 415\u2013426. https://doi.org/10.1111/cgf.13430",
+      "doi": ""
+    },
+    {
+      "text": "Xiyao Wang, Lonni Besan\u00e7on, David Rousseau, Mickael Sereno, Mehdi Ammi, and Tobias Isenberg. 2020. Towards an Understanding of Augmented Reality Extensions for Existing 3D Data Analysis Tools. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems(CHI \u201920). Association for Computing Machinery, Honolulu, HI, USA, 1\u201313. https://doi.org/10.1145/3313831.3376657",
+      "doi": "10.1145/3313831.3376657"
+    },
+    {
+      "text": "Colin Ware. 2020. Information Visualization: Perception for Design (fourth ed.). Elsevier, Inc, Philadelphia.",
+      "doi": ""
+    },
+    {
+      "text": "Wesley Willett, Yvonne Jansen, and Pierre Dragicevic. 2017. Embedded Data Representations. IEEE Transactions on Visualization and Computer Graphics 23, 1(2017), 461\u2013470. https://doi.org/10.1109/TVCG.2016.2598608",
+      "doi": "10.1109/TVCG.2016.2598608"
+    },
+    {
+      "text": "Robert Xiao, Julia Schwarz, Nick Throm, Andrew\u00a0D. Wilson, and Hrvoje Benko. 2018. MRTouch: Adding Touch Input to Head-Mounted Mixed Reality. IEEE Transactions on Visualization and Computer Graphics 24, 4 (April 2018), 1653\u20131660. https://doi.org/10.1109/TVCG.2018.2794222",
+      "doi": "10.1109/TVCG.2018.2794222"
+    },
+    {
+      "text": "Y. Yang, T. Dwyer, K. Marriott, B. Jenny, and S. Goodwin. 2021. Tilt Map: Interactive Transitions Between Choropleth Map, Prism Map and Bar Chart in Immersive Environments. IEEE Transactions on Visualization & Computer Graphics 27, 12 (dec 2021), 4507\u20134519. https://doi.org/10.1109/TVCG.2020.3004137",
+      "doi": "10.1109/TVCG.2020.3004137"
+    }
+  ]
+}

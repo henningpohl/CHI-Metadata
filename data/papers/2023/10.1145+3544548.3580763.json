@@ -1,0 +1,471 @@
+{
+  "doi": "10.1145/3544548.3580763",
+  "title": "SelVReflect: A Guided VR Experience Fostering Reflection on Personal Challenges",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Reflecting on personal challenges can be difficult. Without encouragement, the reflection process often remains superficial, thus inhibiting deeper understanding and learning from past experiences. To allow people to immerse themselves in and deeply reflect on past challenges, we developed SelVReflect, a VR experience which offers active voice-based guidance and a space to freely express oneself. SelVReflect was developed in an iterative design process (N=5) and evaluated in a user study with N=20 participants. We found that SelVReflect enabled participants to approach their challenge and its (emotional) components from different perspectives and to discover new relationships between these components. By making use of the spatial possibilities in VR, participants developed a better understanding of the situation and of themselves. We contribute empirical evidence of how a guided VR experience can support reflection. We discuss opportunities and design requirements for guided VR experiences that aim to foster deeper reflection.",
+  "authors": [
+    {
+      "name": "Nadine Wagener",
+      "institution": "HCI, University of Bremen, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659652506",
+      "orcid": "0000-0003-4572-4646"
+    },
+    {
+      "name": "Leon Reicherts",
+      "institution": "UCL Interaction Centre, University College London, United Kingdom",
+      "img": "/do/10.1145/contrib-99659526878/rel-imgonly/leon2022.jpg",
+      "acmid": "99659526878",
+      "orcid": "0000-0002-7338-5242"
+    },
+    {
+      "name": "Nima Zargham",
+      "institution": "Digital Media Lab, TZI, University of Bremen, Germany",
+      "img": "/do/10.1145/contrib-99659475107/rel-imgonly/nimz.png",
+      "acmid": "99659475107",
+      "orcid": "0000-0003-4116-0601"
+    },
+    {
+      "name": "Natalia Bart\u0142omiejczyk",
+      "institution": "Institute of Applied Computer Science, Lodz University of Technology, Poland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659917430",
+      "orcid": "0000-0002-1565-5494"
+    },
+    {
+      "name": "Ava Elizabeth Scott",
+      "institution": "UCLIC, UCL, United Kingdom",
+      "img": "/do/10.1145/contrib-99659794907/rel-imgonly/img_4293_large.jpeg",
+      "acmid": "99659794907",
+      "orcid": "0000-0002-4469-4556"
+    },
+    {
+      "name": "Katherine Wang",
+      "institution": "Division of Psychology and Language Sciences, University College London, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779685",
+      "orcid": "0000-0003-3254-4056"
+    },
+    {
+      "name": "Marit Bentvelzen",
+      "institution": "Utrecht University, Netherlands",
+      "img": "/do/10.1145/contrib-99659680773/rel-imgonly/foto_uu_marit.jpg",
+      "acmid": "99659680773",
+      "orcid": "0000-0002-0146-8444"
+    },
+    {
+      "name": "Evropi Stefanidi",
+      "institution": "University of Bremen, Germany",
+      "img": "/do/10.1145/contrib-99659279435/rel-imgonly/evropi-bremen.jpg",
+      "acmid": "99659279435",
+      "orcid": "0000-0001-5547-6426"
+    },
+    {
+      "name": "Thomas Mildner",
+      "institution": "University of Bremen, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659161880",
+      "orcid": "0000-0002-1712-0741"
+    },
+    {
+      "name": "Yvonne Rogers",
+      "institution": "UCLIC, UCL, United Kingdom",
+      "img": "/do/10.1145/contrib-81100173923/rel-imgonly/yvonne.jpg",
+      "acmid": "81100173923",
+      "orcid": "0000-0001-7612-0234"
+    },
+    {
+      "name": "Jasmin Niess",
+      "institution": "University of St. Gallen, Switzerland and University of Oslo, Norway",
+      "img": "/do/10.1145/contrib-99659260376/rel-imgonly/niessj.jpg",
+      "acmid": "99659260376",
+      "orcid": "0000-0003-3529-0653"
+    }
+  ],
+  "references": [
+    {
+      "text": "Rochelle Ackerley, Jean-Marc Aimonetti, and Edith Ribot-Ciscar. 2017. Emotions alter muscle proprioceptive coding of movements in humans. Scientific Reports 7, 1 (2017), 1\u20139. https://doi.org/10.1038/s41598-017-08721-4",
+      "doi": ""
+    },
+    {
+      "text": "Elena Agapie, Patricia\u00a0A. Are\u00e1n, Gary Hsieh, and Sean\u00a0A. Munson. 2022. A Longitudinal Goal Setting Model for Addressing Complex Personal Problems in Mental Health. Proc. ACM Hum.-Comput. Interact. 6, CSCW2, Article 270 (nov 2022), 28\u00a0pages. https://doi.org/10.1145/3555160",
+      "doi": "10.1145/3555160"
+    },
+    {
+      "text": "Riku Arakawa and Hiromu Yakura. 2020. INWARD: A Computer-Supported Tool for Video-Reflection Improves Efficiency and Effectiveness in Executive Coaching. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376703",
+      "doi": "10.1145/3313831.3376703"
+    },
+    {
+      "text": "Amid Ayobi, Paul Marshall, and Anna\u00a0L. Cox. 2020. Trackly: A Customisable and Pictorial Self-Tracking App to Support Agency in Multiple Sclerosis Self-Care. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3313831.3376809",
+      "doi": "10.1145/3313831.3376809"
+    },
+    {
+      "text": "Petter\u00a0Bae Bae\u00a0Brandtz\u00e6g, Marita Skjuve, Kim\u00a0Kristoffer Kristoffer\u00a0Dysthe, and Asbj\u00f8rn F\u00f8lstad. 2021. When the Social Becomes Non-Human: Young People\u2019s Perception of Social Support in Chatbots. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 257, 13\u00a0pages. https://doi.org/10.1145/3411764.3445318",
+      "doi": "10.1145/3411764.3445318"
+    },
+    {
+      "text": "Sojung Bahng, Ryan\u00a0M. Kelly, and Jon McCormack. 2020. Reflexive VR Storytelling Design Beyond Immersion: Facilitating Self-Reflection on Death and Loneliness. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376582",
+      "doi": "10.1145/3313831.3376582"
+    },
+    {
+      "text": "Albert Bandura. 1977. Self-efficacy: toward a unifying theory of behavioral change.Psychological review 84, 2 (1977), 191.",
+      "doi": ""
+    },
+    {
+      "text": "Albert Bandura. 1997. Self-efficacy: The exercise of control.",
+      "doi": ""
+    },
+    {
+      "text": "Albert Bandura. 2008. An agentic perspective on positive psychology., 167\u2013196\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Julie\u00a0H. Barlow, Bethan Williams, and Chris Wright. 1996. The generalized self-efficacy scale in people with arthritis. Arthritis & Rheumatism 9, 3 (1996), 189\u2013196. https://doi.org/10.1002/1529-0131(199606)9:3<189::AID-ANR1790090307>3.0.CO;2-#",
+      "doi": ""
+    },
+    {
+      "text": "Eric\u00a0P.S. Baumer. 2015. Reflective Informatics: Conceptual Dimensions for Designing Technologies of Reflection. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 585\u2013594. https://doi.org/10.1145/2702123.2702234",
+      "doi": "10.1145/2702123.2702234"
+    },
+    {
+      "text": "Eric\u00a0P.S. Baumer, Sherri\u00a0Jean Katz, Jill\u00a0E. Freeman, Phil Adams, Amy\u00a0L. Gonzales, John Pollak, Daniela Retelny, Jeff Niederdeppe, Christine\u00a0M. Olson, and Geri\u00a0K. Gay. 2012. Prescriptive Persuasion and Open-Ended Social Awareness: Expanding the Design Space of Mobile Health. In Proceedings of the ACM 2012 Conference on Computer Supported Cooperative Work (Seattle, Washington, USA) (CSCW \u201912). Association for Computing Machinery, New York, NY, USA, 475\u2013484. https://doi.org/10.1145/2145204.2145279",
+      "doi": "10.1145/2145204.2145279"
+    },
+    {
+      "text": "Eric\u00a0P.S. Baumer, Vera Khovanskaya, Mark Matthews, Lindsay Reynolds, Victoria Schwanda\u00a0Sosik, and Geri Gay. 2014. Reviewing Reflection: On the Use of Reflection in Interactive System Design. In Proceedings of the 2014 Conference on Designing Interactive Systems (Vancouver, BC, Canada) (DIS \u201914). Association for Computing Machinery, New York, NY, USA, 93\u2013102. https://doi.org/10.1145/2598510.2598598",
+      "doi": "10.1145/2598510.2598598"
+    },
+    {
+      "text": "Marit Bentvelzen, Jasmin Niess, Miko\u0142aj\u00a0P. Wo\u017aniak, and Pawe\u0142\u00a0W. Wo\u017aniak. 2021. The Development and Validation of the Technology-Supported Reflection Inventory. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 366, 8\u00a0pages. https://doi.org/10.1145/3411764.3445673",
+      "doi": "10.1145/3411764.3445673"
+    },
+    {
+      "text": "Marit Bentvelzen, Jasmin Niess, and Pawe\u0142\u00a0W. Wo\u017aniak. 2021. The Technology-Mediated Reflection Model: Barriers and Assistance in Data-Driven Reflection. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 246, 12\u00a0pages. https://doi.org/10.1145/3411764.3445505",
+      "doi": "10.1145/3411764.3445505"
+    },
+    {
+      "text": "Marit Bentvelzen, Pawe\u0142\u00a0W. Wo\u017aniak, Pia\u00a0S.F. Herbes, Evropi Stefanidi, and Jasmin Niess. 2022. Revisiting Reflection in HCI: Four Design Resources for Technologies That Support Reflection. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 6, 1, Article 2 (mar 2022), 27\u00a0pages. https://doi.org/10.1145/3517233",
+      "doi": "10.1145/3517233"
+    },
+    {
+      "text": "Corey\u00a0J Bohil, Bradly Alicea, and Frank\u00a0A Biocca. 2011. Virtual reality in neuroscience research and therapy. Nature reviews neuroscience 12, 12 (2011), 752\u2013762.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Bonfert, Nima Zargham, Florian Saade, Robert Porzel, and Rainer Malaka. 2021. An Evaluation of Visual Embodiment for Voice Assistants on Smart Displays. In CUI 2021 - 3rd Conference on Conversational User Interfaces (Bilbao (online), Spain) (CUI \u201921). Association for Computing Machinery, New York, NY, USA, Article 16, 11\u00a0pages. https://doi.org/10.1145/3469595.3469611",
+      "doi": "10.1145/3469595.3469611"
+    },
+    {
+      "text": "Cristina Botella, Giuseppe Riva, Andrea Gaggioli, Brenda Wiederhold, Mariano Alca\u00f1iz\u00a0Raya, and Rosa Ba\u00f1os. 2011. The Present and Future of Positive Technologies. Cyberpsychology, Behavior, and Social Networking 15 (12 2011), 78\u201384. https://doi.org/10.1089/cyber.2011.0140",
+      "doi": ""
+    },
+    {
+      "text": "D. Boud, R. Keogh, and D.\u00a0(Eds.) Walker. 1985. Reflection in Learning and Professional Development: Theory and Practice. Routledge, Abingdon, Oxfordshire. https://doi.org/10.4324/9781315059051",
+      "doi": ""
+    },
+    {
+      "text": "Sheryl Brahnam and Antonella De\u00a0Angeli. 2012. Gender affordances of conversational agents. Interacting with Computers 24, 3 (2012), 139\u2013153. https://doi.org/10.1016/j.intcom.2012.05.001",
+      "doi": "10.1016/j.intcom.2012.05.001"
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative Research in Psychology 3, 2 (2006), 77\u2013101. https://doi.org/10.1191/1478088706qp063oa",
+      "doi": "10.1191/1478088706"
+    },
+    {
+      "text": "Miriam Brintzinger, Wolfgang Tschacher, Katrin Endtner, Kurt Bachmann, Michael Reicherts, Hansj\u00f6rg Znoj, and Mario Pfammatter. 2021. Patients\u2019 style of emotional processing moderates the impact of common factors in psychotherapy.Psychotherapy 58, 4 (2021), 472.",
+      "doi": ""
+    },
+    {
+      "text": "Christian Brown and Rick Garner. 2017. Serious Gaming, Virtual, and Immersive Environments in Art Therapy. Jessica Kingsley Publishers, London, 192\u2013205.",
+      "doi": ""
+    },
+    {
+      "text": "Fred\u00a0B. Bryant, Colette\u00a0M. Smart, and Scott\u00a0P. King. 2005. Using the past to enhance the present: Boosting happiness through positive reminiscence. Journal of Happiness Studies 6, 3 (2005), 227\u2013260. https://doi.org/10.1007/s10902-005-3889-4",
+      "doi": ""
+    },
+    {
+      "text": "Victoria Cabales. 2019. Muse: Scaffolding Metacognitive Reflection in Design-Based Research. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3290607.3308450",
+      "doi": "10.1145/3290607.3308450"
+    },
+    {
+      "text": "Kelly Caine. 2016. Local Standards for Sample Size at CHI. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 981\u2013992. https://doi.org/10.1145/2858036.2858498",
+      "doi": "10.1145/2858036.2858498"
+    },
+    {
+      "text": "Julia Cambre, Jessica Colnago, Jim Maddock, Janice Tsai, and Jofish Kaye. 2020. Choice of Voices: A Large-Scale Evaluation of Text-to-Speech Voice Quality for Long-Form Content. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376789",
+      "doi": "10.1145/3313831.3376789"
+    },
+    {
+      "text": "Gioia Chilton. 2013. Art Therapy and Flow: A Review of the Literature and Applications. Art Therapy 30, 2 (2013), 64\u201370. https://doi.org/10.1080/07421656.2013.787211 arXiv:https://doi.org/10.1080/07421656.2013.787211",
+      "doi": ""
+    },
+    {
+      "text": "Mihaly Csikszentmihalyi and Isabella\u00a0SelegaEditors Csikszentmihalyi (Eds.). 1988. The flow experience and its significance for human psychology. Cambridge University Press, Cambridge, London, 15\u201335. https://doi.org/10.1017/CBO9780511621956.002",
+      "doi": ""
+    },
+    {
+      "text": "Mihaly Csikszentmihalyi and Isabella\u00a0Selega Csikszentmihalyi. 1992. Optimal experience: Psychological studies of flow in consciousness. Cambridge university press, Cambridge, England.",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0W. Dowrick. 1999. A review of self modeling and related interventions. Applied and Preventive Psychology 8, 1 (1999), 23\u201339. https://doi.org/10.1016/S0962-1849(99)80009-2",
+      "doi": ""
+    },
+    {
+      "text": "Carolyn Edwards and Kay Springate. 1995. The Lion Comes out of the Stone: Helping Young Children Achieve Their Creative Potential.Dimensions of Early Childhood 23, 4 (1995), 24\u201329.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0V. Eikey, Clara\u00a0M. Caldeira, Mayara\u00a0C. Figueiredo, Yunan Chen, Jessica\u00a0L. Borelli, Melissa Mazmanian, and Kai Zheng. 2021. Beyond self-reflection: introducing the concept of rumination in personal informatics. Pers Ubiquit Comput 25(2021), 601\u2013616. https://doi.org/10.1007/s00779-021-01573-w",
+      "doi": "10.1007/s00779-021-01573-w"
+    },
+    {
+      "text": "Caroline\u00a0J Falconer, Aitor Rovira, John\u00a0A King, Paul Gilbert, Angus Antley, Pasco Fearon, Neil Ralph, Mel Slater, and Chris\u00a0R Brewin. 2016. Embodying self-compassion within virtual reality and its effects on patients with depression. BJPsych open 2, 1 (2016), 74\u201380.",
+      "doi": ""
+    },
+    {
+      "text": "Ethan Fast, Binbin Chen, Julia Mendelsohn, Jonathan Bassen, and Michael\u00a0S. Bernstein. 2018. Iris: A Conversational Agent for Complex Tasks. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3174047",
+      "doi": "10.1145/3173574.3174047"
+    },
+    {
+      "text": "Rowanne Fleck and Geraldine Fitzpatrick. 2010. Reflecting on Reflection: Framing a Design Landscape. In Proceedings of the 22nd Conference of the Computer-Human Interaction Special Interest Group of Australia on Computer-Human Interaction (Brisbane, Australia) (OZCHI \u201910). Association for Computing Machinery, New York, NY, USA, 216\u2013223. https://doi.org/10.1145/1952222.1952269",
+      "doi": "10.1145/1952222.1952269"
+    },
+    {
+      "text": "Daniel Freeman, Sarah Reeve, A Robinson, Anke Ehlers, David Clark, Bernhard Spanlang, and Mel Slater. 2017. Virtual reality in the assessment, understanding, and treatment of mental health disorders. Psychological medicine 47, 14 (2017), 2393\u20132400.",
+      "doi": ""
+    },
+    {
+      "text": "Irit Hacmun, Dafna Regev, and Roy Salomon. 2018. The principles of art therapy in virtual reality. Frontiers in Psychology 9 (2018), 2082.",
+      "doi": ""
+    },
+    {
+      "text": "Irit Hacmun, Dafna Regev, and Roy Salomon. 2021. Artistic creation in virtual reality for art therapy: A qualitative study with expert art therapists. The Arts in Psychotherapy 72 (2021), 101745.",
+      "doi": ""
+    },
+    {
+      "text": "Ellen Isaacs, Artie Konrad, Alan Walendowski, Thomas Lennig, Victoria Hollis, and Steve Whittaker. 2013. Echoes from the Past: How Technology Mediated Reflection Improves Well-Being. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). Association for Computing Machinery, New York, NY, USA, 1071\u20131080. https://doi.org/10.1145/2470654.2466137",
+      "doi": "10.1145/2470654.2466137"
+    },
+    {
+      "text": "Christophe Jallais and Anne-Laure Gilet. 2010. Inducing changes in arousal and valence: Comparison of two mood induction procedures. Behavior research methods 42, 1 (2010), 318\u2013325. https://doi.org/10.3758/BRM.42.1.318",
+      "doi": ""
+    },
+    {
+      "text": "Jade Jiang and Naseem Ahmadpour. 2021. Beyond Immersion: Designing for Reflection in Virtual Reality. In 33rd Australian Conference on Human-Computer Interaction (Melbourne, VIC, Australia) (OzCHI \u201921). Association for Computing Machinery, New York, NY, USA, 208\u2013220. https://doi.org/10.1145/3520495.3520501",
+      "doi": "10.1145/3520495.3520501"
+    },
+    {
+      "text": "Malte\u00a0F. Jung, Nik Martelaro, Halsey Hoster, and Clifford Nass. 2014. Participatory Materials: Having a Reflective Conversation with an Artifact in the Making. In Proceedings of the 2014 Conference on Designing Interactive Systems (Vancouver, BC, Canada) (DIS \u201914). Association for Computing Machinery, New York, NY, USA, 25\u201334. https://doi.org/10.1145/2598510.2598591",
+      "doi": "10.1145/2598510.2598591"
+    },
+    {
+      "text": "Sandra\u00a0L. Kagin and Vija\u00a0B. Lusebrink. 1978. The expressive therapies continuum.",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra Kitson, Mirjana Prpa, and Bernhard\u00a0E. Riecke. 2018. Immersive Interactive Technologies for Positive Change: A Scoping Review and Design Considerations. Frontiers in Psychology 9 (2018), 1354. https://doi.org/10.3389/fpsyg.2018.01354",
+      "doi": ""
+    },
+    {
+      "text": "Rafal Kocielnik, Daniel Avrahami, Jennifer Marlow, Di Lu, and Gary Hsieh. 2018. Designing for Workplace Reflection: A Chat and Voice-Based Conversational Agent. In Proceedings of the 2018 Designing Interactive Systems Conference (Hong Kong, China) (DIS \u201918). Association for Computing Machinery, New York, NY, USA, 881\u2013894. https://doi.org/10.1145/3196709.3196784",
+      "doi": "10.1145/3196709.3196784"
+    },
+    {
+      "text": "Rafal Kocielnik, Lillian Xiao, Daniel Avrahami, and Gary Hsieh. 2018. Reflection Companion: A Conversational System for Engaging Users in Reflection on Physical Activity. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 2, Article 70 (jul 2018), 26\u00a0pages. https://doi.org/10.1145/3214273",
+      "doi": "10.1145/3214273"
+    },
+    {
+      "text": "Artie Konrad, Simon Tucker, John Crane, and Steve Whittaker. 2016. Technology and Reflection: Mood and Memory Mechanisms for Well-being. Psychology of well-being 6 (2016), 1\u201324.",
+      "doi": ""
+    },
+    {
+      "text": "Chongsan Kwon. 2019. Verification of the possibility and effectiveness of experiential learning using HMD-based immersive VR technologies. Virtual Reality 23, 1 (2019), 101\u2013118.",
+      "doi": "10.1007/s10055-018-0364-1"
+    },
+    {
+      "text": "Minha Lee, Sander Ackermans, Nena van As, Hanwen Chang, Enzo Lucas, and Wijnand IJsselsteijn. 2019. Caring for Vincent: A Chatbot for Self-Compassion. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300932",
+      "doi": "10.1145/3290605.3300932"
+    },
+    {
+      "text": "Yi-Chieh Lee, Naomi Yamashita, Yun Huang, and Wai Fu. 2020. \"I Hear You, I Feel You\": Encouraging Deep Self-Disclosure through a Chatbot. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376175",
+      "doi": "10.1145/3313831.3376175"
+    },
+    {
+      "text": "Jack\u00a0M. Loomis, James\u00a0J. Blascovich, and Andrew\u00a0C. Beall. 1999. Immersive virtual environment technology as a basic research tool in psychology. Behavior Research Methods, Instruments, & Computers 31, 4 (1999), 557\u2013564. https://doi.org/10.3758/BF03200735",
+      "doi": ""
+    },
+    {
+      "text": "Sonja Lyubomirsky, Kennon\u00a0M Sheldon, and David Schkade. 2005. Pursuing happiness: The architecture of sustainable change. Review of general psychology 9, 2 (2005), 111\u2013131.",
+      "doi": ""
+    },
+    {
+      "text": "Raju Maharjan, Darius\u00a0Adam Rohani, Per B\u00e6kgaard, Jakob Bardram, and Kevin Doherty. 2021. Can We Talk? Design Implications for the Questionnaire-Driven Self-Report of Health and Wellbeing via Conversational Agent. In CUI 2021 - 3rd Conference on Conversational User Interfaces (Bilbao (online), Spain) (CUI \u201921). Association for Computing Machinery, New York, NY, USA, Article 5, 11\u00a0pages. https://doi.org/10.1145/3469595.3469600",
+      "doi": "10.1145/3469595.3469600"
+    },
+    {
+      "text": "Cathy\u00a0A. Malchiodi. 2012. Handbook of Art Therapy, 2nd ed.The Guilford Press, New York, NY, US. Pages: xv, 496.",
+      "doi": ""
+    },
+    {
+      "text": "Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and Daniel Greenblatt. 2008. MAHI: Investigation of Social Scaffolding for Reflective Thinking in Diabetes Management. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Florence, Italy) (CHI \u201908). Association for Computing Machinery, New York, NY, USA, 477\u2013486. https://doi.org/10.1145/1357054.1357131",
+      "doi": "10.1145/1357054.1357131"
+    },
+    {
+      "text": "Ine Mols, Elise van\u00a0de Hoven, and Barry Egen. 2020. Everyday Life Reflection: Exploring Media Interaction with Balance, Cogito & Dott. In Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction (Sydney NSW, Australia) (TEI\u201920). Association for Computing Machinery, New York, NY, United States, Article 20, 67-79\u00a0pages. https://doi.org/10.1145/3374920.3374928",
+      "doi": "10.1145/3374920.3374928"
+    },
+    {
+      "text": "Jessica\u00a0Isbely Montana, Marta Matamala-Gomez, Marta Maisto, Petar\u00a0Aleksandrov Mavrodiev, Cesare\u00a0Massimo Cavalera, Barbara Diana, Fabrizia Mantovani, and Olivia Realdon. 2020. The Benefits of Emotion Regulation Interventions in Virtual Reality for the Improvement of Wellbeing in Adults and Older Adults: A Systematic Review. Journal of Clinical Medicine 9, 2 (2020), 500. https://doi.org/10.3390/jcm9020500",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer Moon. 1999. Reflection in learning & professional development. RoutledgeFalmer, New York, NY, USA. 229 pages. https://doi.org/10.4324/9780203822296",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer\u00a0A. Moon. 2013. Reflection in Learning and Professional Development: Theory and Practice. Routledge, Abingdon, Oxfordshire. https://doi.org/10.4324/9780203822296",
+      "doi": ""
+    },
+    {
+      "text": "Roger\u00a0K Moore. 2017. Appropriate voices for artefacts: some key insights.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0G. Morrow, H.\u00a0Chad Lane, and Wendy\u00a0A. Rogers. 2021. A Framework for Design of Conversational Agents to Support Health Self-Care for Older Adults. Human Factors 63, 3 (2021), 369\u2013378. https://doi.org/10.1177/0018720820964085 arXiv:https://doi.org/10.1177/0018720820964085",
+      "doi": ""
+    },
+    {
+      "text": "Clifford\u00a0I. Nass and Scott Brave. 2005. Wired for speech: How voice activates and advances the human-computer relationship. MIT press Cambridge, Cambridge, London.",
+      "doi": ""
+    },
+    {
+      "text": "Jasmin Niess, Sarah Diefenbach, and Pawe\u0142\u00a0W. Wo\u017aniak. 2020. Persuasive Feedback for Fitness Apps: Effects of Construal Level and Communication Style. In Persuasive Technology. Designing for Future Change, Sandra\u00a0Burri Gram-Hansen, Tanja\u00a0Svarre Jonasen, and Cees Midden (Eds.). Springer International Publishing, Cham, 101\u2013112.",
+      "doi": ""
+    },
+    {
+      "text": "Hunter Osking and John\u00a0A Doucette. 2019. Enhancing emotional effectiveness of virtual-reality experiences with voice control interfaces. In Immersive Learning Research Network: 5th International Conference, iLRN 2019, London, UK, June 23\u201327, 2019, Proceedings 5. Springer, Springer International Publishing, London, UK, 199\u2013209.",
+      "doi": ""
+    },
+    {
+      "text": "Judith\u00a0J. Prochaska, Erin\u00a0A. Vogel, Amy Chieng, Matthew Kendra, Michael Baiocchi, Sarah Pajarito, and Athena Robinson. 2021. A Therapeutic Relational Agent for Reducing Problematic Substance Use (Woebot): Development and Usability Study. Journal of medical Internet research 23, 3 (2021), e24850. https://doi.org/10.2196/24850",
+      "doi": ""
+    },
+    {
+      "text": "Mirjana Prpa, K\u0131van\u00e7 Tatar, Jules Fran\u00e7oise, Bernhard Riecke, Thecla Schiphorst, and Philippe Pasquier. 2018. Attending to Breath: Exploring How the Cues in a Virtual Environment Guide the Attention to Breath and Shape the Quality of Experience to Support Mindfulness. In Proceedings of the 2018 Designing Interactive Systems Conference (Hong Kong, China) (DIS \u201918). Association for Computing Machinery, New York, NY, USA, 71\u201384. https://doi.org/10.1145/3196709.3196765",
+      "doi": "10.1145/3196709.3196765"
+    },
+    {
+      "text": "Leon Reicherts, Gun\u00a0Woo Park, and Yvonne Rogers. 2022. Extending Chatbots to Probe Users: Enhancing Complex Decision-Making Through Probing Conversations. In Proceedings of the 4th Conference on Conversational User Interfaces (Glasgow, United Kingdom) (CUI \u201922). Association for Computing Machinery, New York, NY, USA, Article 2, 10\u00a0pages. https://doi.org/10.1145/3543829.3543832",
+      "doi": "10.1145/3543829.3543832"
+    },
+    {
+      "text": "Leon Reicherts, Yvonne Rogers, Licia Capra, Ethan Wood, Tu\u00a0Dinh Duong, and Neil Sebire. 2022. It\u2019s Good to Talk: A Comparison of Using Voice Versus Screen-Based Interactions for Agent-Assisted Tasks. ACM Trans. Comput.-Hum. Interact. 29, 3, Article 25 (jan 2022), 41\u00a0pages. https://doi.org/10.1145/3484221",
+      "doi": "10.1145/3484221"
+    },
+    {
+      "text": "Michael Reicherts. 2015. L\u2019entretien psychologique et le counselling. De l\u2019approche centr\u00e9e sur la personne aux interventions cibl\u00e9es. Edition ZKS-Verlag, Coburg.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Reicherts. 2022. Dimensions of Openness to Emotions (DOE). A Model of Affect Processing. Manual with Instruments, Recent Studies and Reference Values (Technical Report 168-C, 2022). https://doi.org/10.13140/RG.2.2.28225.02401",
+      "doi": ""
+    },
+    {
+      "text": "Judith\u00a0Aron Rubin. 2005. Child Art Therapy. John Wiley & Sons, Hoboken, New Jersey.",
+      "doi": ""
+    },
+    {
+      "text": "Rainer Sachse. 2002. Zielorientierte Gespr\u00e4chspsychotherapie. In Die vielen Gesichter der Personzentrierten Psychotherapie, Wolfgang\u00a0W. Keil and Gerhard Stumm (Eds.). Springer, Germany, 265\u2013284. https://doi.org/10.1007/978-3-7091-6733-5_11",
+      "doi": ""
+    },
+    {
+      "text": "Herman Saksono, Carmen Castaneda-Sceppa, Jessica\u00a0A. Hoffman, Magy Seif El-Nasr, and Andrea Parker. 2021. StoryMap: Using Social Modeling and Self-Modeling to Support Physical Activity Among Families of Low-SES Backgrounds. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 203, 14\u00a0pages. https://doi.org/10.1145/3411764.3445087",
+      "doi": "10.1145/3411764.3445087"
+    },
+    {
+      "text": "Oliver Schmitt and Daniel Buschek. 2021. CharacterChat: Supporting the Creation of Fictional Characters through Conversation and Progressive Manifestation with a Chatbot. In Creativity and Cognition (Virtual Event, Italy). Association for Computing Machinery, New York, NY, USA, Article 10, 10\u00a0pages. https://doi.org/10.1145/3450741.3465253",
+      "doi": "10.1145/3450741.3465253"
+    },
+    {
+      "text": "Ralf Schwarzer and Matthias Jerusalem. 1995. Generalized self-efficacy scale. J. Weinman, S. Wright, & M. Johnston, Measures in health psychology: A user\u2019s portfolio. Causal and control beliefs 35 (1995), 37.",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0A. Sch\u00f6n. 1992. The Reflective Practicioner: How Professionals Think in Action. Routledge, Abingdon, Oxfordshire. 384 pages. https://doi.org/10.4324/9781315237473",
+      "doi": ""
+    },
+    {
+      "text": "Martin E.\u00a0P. Seligman and Mihaly Csikszentmihalyi. 2014. Positive Psychology: An Introduction. In Flow and the Foundations of Positive Psychology: The Collected Works of Mihaly Csikszentmihalyi, Mihaly Csikszentmihalyi (Ed.). Springer Netherlands, Netherlands, 279\u2013298. https://doi.org/10.1007/978-94-017-9088-8_18",
+      "doi": ""
+    },
+    {
+      "text": "Lubna Bte\u00a0Iskhandar Shah, Samantha Torres, Premarani Kannusamy, Cecilia Mui\u00a0Lee Chng, Hong-Gu He, and Piyanee Klainin-Yobas. 2015. Efficacy of the virtual reality-based stress management program on stress-related variables in people with mood disorders: the feasibility study. Archives of psychiatric nursing 29, 1 (2015), 6\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Petr Slov\u00e1k, Christopher Frauenberger, and Geraldine Fitzpatrick. 2017. Reflective Practicum: A Framework of Sensitising Concepts to Design for Transformative Reflection. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 2696\u20132707. https://doi.org/10.1145/3025453.3025516",
+      "doi": "10.1145/3025453.3025516"
+    },
+    {
+      "text": "Ursula\u00a0M. Staudinger. 2001. Life Reflection: A Social-Cognitive Analysis. Review of General Psychology 5, 2 (2001), 148\u2013160. https://doi.org/10.1037/1089-2680.5.2.148",
+      "doi": ""
+    },
+    {
+      "text": "Kalliopi-Evangelia Stavroulia and Andreas Lanitis. 2019. Enhancing Reflection and Empathy Skills via Using a Virtual Reality Based Learning Framework. International Journal of Emerging Technologies in Learning (iJET) 14 (04 2019), 18. https://doi.org/10.3991/ijet.v14i07.9946",
+      "doi": ""
+    },
+    {
+      "text": "Selina\u00a0Jeanne Sutton, Paul Foulkes, David Kirk, and Shaun Lawson. 2019. Voice as a Design Material: Sociophonetic Inspired Design Strategies in Human-Computer Interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300833",
+      "doi": "10.1145/3290605.3300833"
+    },
+    {
+      "text": "Paul\u00a0D. Trapnell and Jennifer\u00a0D. Campbell. 1999. Private self-consciousness and five-factor model of personality: distinguishing rumination from reflection. Journal of personality and social psychology 76, 2(1999), 284.",
+      "doi": ""
+    },
+    {
+      "text": "Yaacov Trope and Nira Liberman. 2010. Construal-level theory of psychological distance. Psychological review 117, 2 (2010), 440\u20134633. https://doi.org/10.1037/a0018963",
+      "doi": ""
+    },
+    {
+      "text": "Nadine Wagener, Tu\u00a0Dinh Duong, Johannes Sch\u00f6ning, Yvonne Rogers, and Jasmin Niess. 2021. The Role of Mobile and Virtual Reality Applications to Support Well-being: An Expert View and Systematic App Review, In Human-Computer Interaction\u2013INTERACT 2021: 18th IFIP TC 13 International Conference, Bari, Italy, August 30\u2013September 3, 2021, Proceedings, Part IV 18. Interact 2021: Proceedings of the International Conference on Human-Computer Interaction 12935, 262\u2013283. https://doi.org/10.1007/978-3-030-85610-6_16",
+      "doi": "10.1007/978-3-030-85610-6_16"
+    },
+    {
+      "text": "Nadine Wagener, Jasmin Niess, Yvonne Rogers, and Johannes Sch\u00f6ning. 2022. Mood Worlds: A Virtual Environment for Autonomous Emotional Expression. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems, Vol.\u00a022. Association for Computing Machinery, New York, NY, USA, 16. https://doi.org/10.1145/3491102.3501861",
+      "doi": "10.1145/3491102.3501861"
+    },
+    {
+      "text": "David Watson, Lee\u00a0Anna Clark, and Auke Tellegen. 1988. Development and validation of brief measures of positive and negative affect: the PANAS scales. Journal of personality and social psychology 54, 6(1988), 1063\u20131070. https://doi.org/10.1037//0022-3514.54.6.1063",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth Watt, Maria Murphy, Elizabeth Pascoe, Andrew Scanlon, and Sharon Gan. 2011. An evaluation of a structured learning programme as a component of the clinical practicum in final year bachelor of nursing programme: a pre\u2013post-test analysis. Journal of Clinical Nursing 20, 15-16 (2011), 2286\u20132293. https://doi.org/10.1111/j.1365-2702.2010.03621.x arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1365-2702.2010.03621.x",
+      "doi": ""
+    },
+    {
+      "text": "Rebecca\u00a0A. Wilkinson and Gioia Chilton. 2013. Positive Art Therapy: Linking Positive Psychology to Art Therapy Theory, Practice, and Research. Art Therapy 30, 1 (2013), 4\u201311. https://doi.org/10.1080/07421656.2013.757513 Publisher: Routledge _eprint: https://doi.org/10.1080/07421656.2013.757513.",
+      "doi": ""
+    },
+    {
+      "text": "Rainer Winkler, Matthias S\u00f6llner, Maya\u00a0Lisa Neuweiler, Flavia Conti\u00a0Rossini, and Jan\u00a0Marco Leimeister. 2019. Alexa, Can You Help Us Solve This Problem? How Conversations With Smart Personal Assistant Tutors Increase Task Group Outcomes. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3290607.3313090",
+      "doi": "10.1145/3290607.3313090"
+    },
+    {
+      "text": "Jacob\u00a0O. Wobbrock, Leah Findlater, Darren Gergle, and James\u00a0J. Higgins. 2011. The Aligned Rank Transform for Nonparametric Factorial Analyses Using Only Anova Procedures. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vancouver, BC, Canada) (CHI \u201911). Association for Computing Machinery, New York, NY, USA, 143\u2013146. https://doi.org/10.1145/1978942.1978963",
+      "doi": "10.1145/1978942.1978963"
+    },
+    {
+      "text": "J\u00e9r\u00e9my Wrobel, Ya-Huei Wu, H\u00e9l\u00e8ne Kerherv\u00e9, Laila Kamali, Anne-Sophie Rigaud, C\u00e9line Jost, Brigitte Le\u00a0P\u00e9v\u00e9dic, and Dominique Duhaut. 2013. Effect of agent embodiment on the elder user enjoyment of a game. https://hal.archives-ouvertes.fr/hal-00832097",
+      "doi": ""
+    },
+    {
+      "text": "Nima Zargham, Dmitry Alexandrovsky, Jan Erich, Nina Wenig, and Rainer Malaka. 2022. \u201cI Want It That Way\u201d: Exploring Users\u2019 Customization and Personalization Preferences for Home Assistants. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 270, 8\u00a0pages. https://doi.org/10.1145/3491101.3519843",
+      "doi": "10.1145/3491101.3519843"
+    }
+  ]
+}

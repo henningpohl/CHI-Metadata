@@ -1,0 +1,388 @@
+{
+  "doi": "10.1145/3491102.3517730",
+  "title": "Light-In-Light-Out (Li-Lo) Displays: Harvesting and Manipulating Light to Provide Novel Forms of Communication",
+  "published": "2022-04-28",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Many of us daily encounter shadow and reflected light patterns alongside macro-level changes in ambient light levels. These are caused by elements\u2014opaque objects, glass, mirrors, even clouds\u2014in our environment interfacing with sunlight or artificial indoor lighting. Inspired by these phenomena, we explored ways of creating digitally-supported displays that use light, shade and reflection for output and harness the energy they need to operate from the sun or indoor ambient light. Through a set of design workshops we developed exemplar devices: SolarPix, ShadMo and GlowBoard. We detail their function and implementation, as well as evidencing their technical viability. The designs were informed by material understandings from the Global North and Global South and demonstrated in a cross-cultural workshop run in parallel in India and South Africa where community co-designers reflected on their uses and value given lived experience of their communication practices and unreliable energy networks.",
+  "authors": [
+    {
+      "name": "Krishna Seunarine",
+      "institution": "Swansea University, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702406",
+      "orcid": "missing"
+    },
+    {
+      "name": "Dani Kalarikalayil Raju",
+      "institution": "Studio Hasi, India",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660233021",
+      "orcid": "missing"
+    },
+    {
+      "name": "Gethin Thomas",
+      "institution": "Swansea University, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700559",
+      "orcid": "missing"
+    },
+    {
+      "name": "Suzanne K Thomas",
+      "institution": "College of Engineering, Swansea University, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528519",
+      "orcid": "missing"
+    },
+    {
+      "name": "Adam Pockett",
+      "institution": "College of Engineering, Swansea University, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659526441",
+      "orcid": "missing"
+    },
+    {
+      "name": "Thomas Reitmaier",
+      "institution": "FIT Lab, Swansea University, United Kingdom",
+      "img": "/do/10.1145/contrib-81442618424/rel-imgonly/thomasreitmaier.jpg",
+      "acmid": "81442618424",
+      "orcid": "0000-0003-2078-6699"
+    },
+    {
+      "name": "Cameron Steer",
+      "institution": "FIT Lab, Swansea University, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658707900",
+      "orcid": "0000-0001-8497-7932"
+    },
+    {
+      "name": "Tom Owen",
+      "institution": "Swansea University, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81377591459",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yogesh Kumar Meena",
+      "institution": "Computational Foundry, Swansea University, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659333550",
+      "orcid": "missing"
+    },
+    {
+      "name": "Simon Robinson",
+      "institution": "Swansea University, United Kingdom",
+      "img": "/do/10.1145/contrib-81371592031/rel-imgonly/profile-small-rect.jpg",
+      "acmid": "81371592031",
+      "orcid": "0000-0001-9228-006X"
+    },
+    {
+      "name": "Jennifer Pearson",
+      "institution": "Swansea University, United Kingdom",
+      "img": "/do/10.1145/contrib-81384596881/rel-imgonly/img_4695.jpg",
+      "acmid": "81384596881",
+      "orcid": "0000-0002-1960-1012"
+    },
+    {
+      "name": "Matt Carnie",
+      "institution": "College of Engineering, Swansea University, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659527636",
+      "orcid": "missing"
+    },
+    {
+      "name": "Deepak Ranjan Sahoo",
+      "institution": "Department of Computer Science, Swansea University, United Kingdom",
+      "img": "/do/10.1145/contrib-99658704388/rel-imgonly/dsc_0054_413.jpeg",
+      "acmid": "99658704388",
+      "orcid": "missing"
+    },
+    {
+      "name": "Matt Jones",
+      "institution": "Swansea University, United Kingdom",
+      "img": "/do/10.1145/contrib-81328488881/rel-imgonly/forweb.jpg",
+      "acmid": "81328488881",
+      "orcid": "0000-0001-7657-7373"
+    }
+  ],
+  "references": [
+    {
+      "text": "Gregory\u00a0D. Abowd. 2020. The Internet of Materials: A Vision for Computational Materials. IEEE Pervasive Computing 19 (2020), 56\u201362.",
+      "doi": ""
+    },
+    {
+      "text": "Sheetal\u00a0K. Agarwal, Anupam Jain, Arun Kumar, Amit\u00a0A. Nanavati, and Nitendra Rajput. 2010. The Spoken Web: A Web for the Underprivileged. SIGWEB Newsl.Summer, Article 1 (jun 2010), 9\u00a0pages. https://doi.org/10.1145/1796390.1796391",
+      "doi": ""
+    },
+    {
+      "text": "Patrick Bader, Alexandra Voit, Huy\u00a0Viet Le, Pawe\u0142\u00a0W. Wo\u017aniak, Niels Henze, and Albrecht Schmidt. 2019. WindowWall: Towards Adaptive Buildings with Interactive Windows as Ubiquitous Displays. ACM Trans. Comput.-Hum. Interact. 26, 2, Article 11 (mar 2019), 42\u00a0pages. https://doi.org/10.1145/3310275",
+      "doi": "10.1145/3310275"
+    },
+    {
+      "text": "Elizabeth Bales, Kevin\u00a0A. Li, and William Griwsold. 2011. CoupleVIBE: Mobile Implicit Communication to Improve Awareness for (Long-Distance) Couples. In Proceedings of the ACM 2011 Conference on Computer Supported Cooperative Work (Hangzhou, China) (CSCW \u201911). Association for Computing Machinery, New York, NY, USA, 65\u201374. https://doi.org/10.1145/1958824.1958835",
+      "doi": "10.1145/1958824.1958835"
+    },
+    {
+      "text": "Bahareh Barati, Elisa Giaccardi, and Elvin Karana. 2018. The Making of Performativity in Designing [with] Smart Material Composites. Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3173574.3173579",
+      "doi": ""
+    },
+    {
+      "text": "Nicola\u00a0J. Bidwell, Mounia Lalmas, Gary Marsden, Bongiwe Dlutu, Senzo Ntlangano, Azola Manjingolo, William\u00a0D. Tucker, Matt Jones, Simon Robinson, Elina Vartiainen, and Iraklis Klampanos. 2011. Please call ME.N.U.4EVER: Designing for \u2018Callback\u2019 in Rural Africa.. In Proceedings of the Tenth International Workshop on Internationalisation of Products and Systems.",
+      "doi": ""
+    },
+    {
+      "text": "Nicola\u00a0J. Bidwell, Simon Robinson, Elina Vartiainen, Matt Jones, Masbulele\u00a0Jay Siya, Thomas Reitmaier, Gary Marsden, and Mounia Lalmas. 2014. Designing Social Media for Community Information Sharing in Rural South Africa. In Proceedings of the Southern African Institute for Computer Scientist and Information Technologists Annual Conference 2014 on SAICSIT 2014 Empowered by Technology (Centurion, South Africa) (SAICSIT \u201914). Association for Computing Machinery, New York, NY, USA, 104\u2013114. https://doi.org/10.1145/2664591.2664615",
+      "doi": ""
+    },
+    {
+      "text": "Nicola\u00a0J. Bidwell, Masbulele Siya, Gary Marsden, William\u00a0D. Tucker, M. Tshemese, N. Gaven, S. Ntlangano, Simon Robinson, and Kristen\u00a0ALI Eglinton. 2013. Walking and the Social Life of Solar Charging in Rural Africa. ACM Trans. Comput.-Hum. Interact. 20, 4, Article 22 (Sept. 2013), 33\u00a0pages. https://doi.org/10.1145/2493524",
+      "doi": "10.1145/2493524"
+    },
+    {
+      "text": "Mark Blythe. 2014. Research through Design Fiction: Narrative in Real and Imaginary Abstracts. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 703\u2013712. https://doi.org/10.1145/2556288.2557098",
+      "doi": "10.1145/2556288.2557098"
+    },
+    {
+      "text": "Stephen\u00a0A. Brewster, Peter\u00a0C. Wright, and Alistair D.\u00a0N. Edwards. 1993. An Evaluation of Earcons for Use in Auditory Human-Computer Interfaces. In Proceedings of the INTERACT \u201993 and CHI \u201993 Conference on Human Factors in Computing Systems(Amsterdam, The Netherlands) (CHI \u201993). Association for Computing Machinery, New York, NY, USA, 222\u2013227. https://doi.org/10.1145/169059.169179",
+      "doi": ""
+    },
+    {
+      "text": "Nick Bryan-Kinns, Wei Wang, and Tie Ji. 2018. Exploring Interactivity and Co-Creation in Rural China. INTERACTING WITH COMPUTERS 30, 4 (JUL 2018), 273\u2013292. https://doi.org/10.1093/iwc/iwy010",
+      "doi": ""
+    },
+    {
+      "text": "O\u011fuz\u00a0\u2019Oz\u2019 Buruk, \u00c7a\u011flar Gen\u00e7, undefinedhsan\u00a0Ozan Y\u0131ld\u0131r\u0131m, Mehmet\u00a0Cengiz Onba\u015fl\u0131, and O\u011fuzhan \u00d6zcan. 2021. Snowflakes: A Prototyping Tool for Computational Jewelry. Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3411764.3445173",
+      "doi": ""
+    },
+    {
+      "text": "Seijin Cha, Moon-Hwan Lee, and Tek-Jin Nam. 2016. Gleamy: An Ambient Display Lamp with a Transparency-Controllable Shade. In Proceedings of the TEI\u201916: Tenth International Conference on Tangible, Embedded, and Embodied Interaction. 304\u2013307.",
+      "doi": "10.1145/2839462.2839501"
+    },
+    {
+      "text": "Eria Chita, Yuta Sugiura, Sunao Hashimoto, Kai Kunze, Masahiko Inami, and Masa Ogata. 2015. Silhouette interactions: using the hand shadow as interaction modality. In Adjunct Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2015 ACM International Symposium on Wearable Computers. 69\u201372.",
+      "doi": "10.1145/2800835.2800870"
+    },
+    {
+      "text": "Marcelo Coelho and Pattie Maes. 2009. Shutters: a permeable surface for environmental control and communication. In Proceedings of the 3rd International Conference on Tangible and Embedded Interaction. 13\u201318.",
+      "doi": "10.1145/1517664.1517671"
+    },
+    {
+      "text": "Ashley Colley, \u00d6zge Raudanjoki, Kirsi Mikkonen, and Jonna H\u00e4kkil\u00e4. 2019. Plant shadow morphing as a peripheral display. In Proceedings of the 18th International Conference on Mobile and Ubiquitous Multimedia. 1\u20135.",
+      "doi": "10.1145/3365610.3368410"
+    },
+    {
+      "text": "Andrew Dahley, Craig Wisneski, and Hiroshi Ishii. 1998. Water Lamp and Pinwheels: Ambient Projection of Digital Information into Architectural Space. In CHI 98 Conference Summary on Human Factors in Computing Systems (Los Angeles, California, USA) (CHI \u201998). Association for Computing Machinery, New York, NY, USA, 269\u2013270. https://doi.org/10.1145/286498.286750",
+      "doi": "10.1145/286498.286750"
+    },
+    {
+      "text": "Tanja D\u00f6ring, Axel Sylvester, and Albrecht Schmidt. 2013. A Design Space for Ephemeral User Interfaces. In Proceedings of the 7th International Conference on Tangible, Embedded and Embodied Interaction (Barcelona, Spain) (TEI \u201913). Association for Computing Machinery, New York, NY, USA, 75\u201382. https://doi.org/10.1145/2460625.2460637",
+      "doi": "10.1145/2460625.2460637"
+    },
+    {
+      "text": "Florian Echtler, Manuel Huber, and Gudrun Klinker. 2008. Shadow Tracking on Multi-Touch Tables. In Proceedings of the Working Conference on Advanced Visual Interfaces (Napoli, Italy) (AVI \u201908). Association for Computing Machinery, New York, NY, USA, 388\u2013391. https://doi.org/10.1145/1385569.1385640",
+      "doi": "10.1145/1385569.1385640"
+    },
+    {
+      "text": "Ylva Fernaeus and Petra Sundstr\u00f6m. 2012. The Material Move How Materials Matter in Interaction Design Research. In Proceedings of the Designing Interactive Systems Conference (Newcastle Upon Tyne, United Kingdom) (DIS \u201912). Association for Computing Machinery, New York, NY, USA, 486\u2013495. https://doi.org/10.1145/2317956.2318029",
+      "doi": "10.1145/2317956.2318029"
+    },
+    {
+      "text": "Jutta Fortmann, Tim\u00a0Claudius Stratmann, Susanne Boll, Benjamin Poppinga, and Wilko Heuten. 2013. Make me move at work! An ambient light display to increase physical activity. In 2013 7th International Conference on Pervasive Computing Technologies for Healthcare and Workshops. IEEE, 274\u2013277.",
+      "doi": "10.4108/icst.pervasivehealth.2013.252089"
+    },
+    {
+      "text": "David\u00a0M. Frohlich, Dorothy Rachovides, Kiriaki Riga, Ramnath Bhat, Maxine Frank, Eran Edirisinghe, Dhammike Wickramanayaka, Matt Jones, and Will Harwood. 2009. StoryBank: Mobile Digital Storytelling in a Development Context. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Boston, MA, USA) (CHI \u201909). Association for Computing Machinery, New York, NY, USA, 1761\u20131770. https://doi.org/10.1145/1518701.1518972",
+      "doi": "10.1145/1518701.1518972"
+    },
+    {
+      "text": "Elisa Giaccardi and Elvin Karana. 2015. Foundations of Materials Experience: An Approach for HCI. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 2447\u20132456. https://doi.org/10.1145/2702123.2702337",
+      "doi": "10.1145/2702123.2702337"
+    },
+    {
+      "text": "Alix Goguey, Cameron Steer, Andr\u00e9s Lucero, Laurence Nigay, Deepak\u00a0Ranjan Sahoo, C\u00e9line Coutrix, Anne Roudaut, Sriram Subramanian, Yutaka Tokuda, Timothy Neate, Jennifer Pearson, Simon Robinson, and Matt Jones. 2019. PickCells: A Physically Reconfigurable Cell-Composed Touchscreen. Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300503",
+      "doi": "10.1145/3290605.3300503"
+    },
+    {
+      "text": "Tobias Grosse-Puppendahl, Steve Hodges, Nicholas Chen, John Helmes, Stuart Taylor, James Scott, Josh Fromm, and David Sweeney. 2016. Exploring the Design Space for Energy-Harvesting Situated Displays. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (Tokyo, Japan) (UIST \u201916). Association for Computing Machinery, New York, NY, USA, 41\u201348. https://doi.org/10.1145/2984511.2984513",
+      "doi": "10.1145/2984511.2984513"
+    },
+    {
+      "text": "Jonna H\u00e4kkil\u00e4, Hong Li, Saara Koskinen, and Ashley Colley. 2018. Connected Candles as Peripheral Emotional User Interface. In Proceedings of the 17th International Conference on Mobile and Ubiquitous Multimedia (Cairo, Egypt) (MUM 2018). Association for Computing Machinery, New York, NY, USA, 327\u2013333. https://doi.org/10.1145/3282894.3282909",
+      "doi": "10.1145/3282894.3282909"
+    },
+    {
+      "text": "Lars Halln\u00e4s and Johan Redstr\u00f6m. 2001. Slow Technology \u2013 Designing for Reflection. Personal Ubiquitous Comput. 5, 3 (Jan. 2001), 201\u2013212. https://doi.org/10.1007/PL00000019",
+      "doi": "10.1007/PL00000019"
+    },
+    {
+      "text": "Sarah Hayes and Trevor Hogan. 2020. Towards a Material Landscape of TUIs, Through the Lens of the TEI Proceedings 2008-2019. In Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction (Sydney NSW, Australia) (TEI \u201920). Association for Computing Machinery, New York, NY, USA, 95\u2013110. https://doi.org/10.1145/3374920.3374944",
+      "doi": "10.1145/3374920.3374944"
+    },
+    {
+      "text": "Takefumi Hiraki, Shogo Fukushima, and Takeshi Naemura. 2016. Sensible shadow: Tactile feedback from your own shadow. In Proceedings of the 7th Augmented Human International Conference 2016. 1\u20134.",
+      "doi": "10.1145/2875194.2875199"
+    },
+    {
+      "text": "Christopher Hoadley, Sameer Honwad, and Kenneth Tamminga. 2010. Technology-Supported Cross Cultural Collaborative Learning in the Developing World. In Proceedings of the 3rd International Conference on Intercultural Collaboration(Copenhagen, Denmark) (ICIC \u201910). Association for Computing Machinery, New York, NY, USA, 131\u2013140. https://doi.org/10.1145/1841853.1841873",
+      "doi": "10.1145/1841853.1841873"
+    },
+    {
+      "text": "Jochen Huber, J\u00fcrgen Steimle, Chunyuan Liao, Qiong Liu, and Max M\u00fchlh\u00e4user. 2012. LightBeam: interacting with augmented real-world objects in pico projections. In Proceedings of the 11th International Conference on Mobile and Ubiquitous Multimedia. 1\u201310.",
+      "doi": "10.1145/2406367.2406388"
+    },
+    {
+      "text": "Hiroshi Ishii and Brygg Ullmer. 1997. Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms. In Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201997). Association for Computing Machinery, New York, NY, USA, 234\u2013241. https://doi.org/10.1145/258549.258715",
+      "doi": "10.1145/258549.258715"
+    },
+    {
+      "text": "Walther Jensen, Hendrik Knoche, and Markus L\u00f6chtefeld. 2020. \u201dDo You Think It is Going to Be the Cock?\u201d: Using Ambient Shadow Projection in Dialogic Reading. In Proceedings of the 9TH ACM International Symposium on Pervasive Displays (Manchester, United Kingdom) (PerDis \u201920). Association for Computing Machinery, New York, NY, USA, 97\u2013103. https://doi.org/10.1145/3393712.3395342",
+      "doi": "10.1145/3393712.3395342"
+    },
+    {
+      "text": "Matt Jones, Simon Robinson, Jennifer Pearson, Manjiri Joshi, Dani Raju, Charity\u00a0Chao Mbogo, Sharon Wangari, Anirudha Joshi, Edward Cutrell, and Richard Harper. 2017. Beyond \u201dYesterday\u2019s Tomorrow\u201d: Future-Focused Mobile Interaction Design by and for Emergent Users. Personal Ubiquitous Comput. 21, 1 (feb 2017), 157\u2013171. https://doi.org/10.1007/s00779-016-0982-0",
+      "doi": "10.1007/s00779-016-0982-0"
+    },
+    {
+      "text": "Matt Jones and Yvonne Rogers. 2014. In Memory of Gary Marsden. Interactions 21, 2 (mar 2014), 6\u20137. https://doi.org/10.1145/2574859",
+      "doi": "10.1145/2574859"
+    },
+    {
+      "text": "Anirudha Joshi, Nikhil Welankar, Naveen BL, Kirti Kanitkar, and Riyaj Sheikh. 2008. Rangoli: A Visual Phonebook for Low-Literate Users. In Proceedings of the 10th International Conference on Human Computer Interaction with Mobile Devices and Services(Amsterdam, The Netherlands) (MobileHCI \u201908). Association for Computing Machinery, New York, NY, USA, 217\u2013223. https://doi.org/10.1145/1409240.1409264",
+      "doi": "10.1145/1409240.1409264"
+    },
+    {
+      "text": "Elvin Karana, Bahar Barati, Valentina Rognoli, and Anouk\u00a0Zeeuw van\u00a0der Laan. 2015. Material Driven Design (MDD): A Method to Design for Material Experiences. Vol.\u00a09. http://www.ijdesign.org/index.php/IJDesign/article/view/1965",
+      "doi": ""
+    },
+    {
+      "text": "Joseph\u00a0\u2019Jofish\u2019 Kaye, Mariah\u00a0K. Levitt, Jeffrey Nevins, Jessica Golden, and Vanessa Schmidt. 2005. Communicating Intimacy One Bit at a Time. In CHI \u201905 Extended Abstracts on Human Factors in Computing Systems (Portland, OR, USA) (CHI EA \u201905). Association for Computing Machinery, New York, NY, USA, 1529\u20131532. https://doi.org/10.1145/1056808.1056958",
+      "doi": ""
+    },
+    {
+      "text": "Tuomas Lappalainen, Ashley Colley, Jenine Beekhuyzen, and Jonna H\u00e4kkil\u00e4. 2016. Candle Shadow Display for Ambient Communication Delivery. In Proceedings of the 2016 ACM Conference Companion Publication on Designing Interactive Systems(Brisbane, QLD, Australia) (DIS \u201916 Companion). Association for Computing Machinery, New York, NY, USA, 13\u201316. https://doi.org/10.1145/2908805.2908809",
+      "doi": "10.1145/2908805.2908809"
+    },
+    {
+      "text": "Mar\u00eda Laura Ram\u00edrez\u00a0Galleguillosand Aykut Co\u015fkun. 2020. How Do I Matter? A Review of the Participatory Design Practice with Less Privileged Participants. In Proceedings of the 16th Participatory Design Conference 2020 - Participation(s) Otherwise - Volume 1 (Manizales, Colombia) (PDC \u201920). Association for Computing Machinery, New York, NY, USA, 137\u2013147. https://doi.org/10.1145/3385010.3385018",
+      "doi": "10.1145/3385010.3385018"
+    },
+    {
+      "text": "Yanhong Li, Beat Rossmy, and Heinrich Hu\u00dfmann. 2020. Tangible Interaction with Light: A Review. Multimodal Technologies and Interaction 4, 4 (2020). https://doi.org/10.3390/mti4040072",
+      "doi": ""
+    },
+    {
+      "text": "Rui Lopes. 2016. A New Light on the Shadows of Heavenly Bodies: Indian Shadow Puppets: From Still Paintings to Motion Pictures. Religion and the Arts 20 (01 2016), 160\u2013196. https://doi.org/10.1163/15685292-02001008",
+      "doi": ""
+    },
+    {
+      "text": "Andr\u00e9s Lucero, Jon Mason, Alexander Wiethoff, Bernt Meerbeek, Henrika Pihlajaniemi, and Dzmitry Aliakseyeu. 2016. Rethinking Our Interactions with Light. Interactions 23, 6 (oct 2016), 54\u201359. https://doi.org/10.1145/3003334",
+      "doi": "10.1145/3003334"
+    },
+    {
+      "text": "Andr\u00e9s Lucero, Kirsikka Vaajakallio, and Peter Dalsgaard. 2012. The dialogue-labs method: process, space and materials as structuring elements to spark dialogue in co-design events. CoDesign 8, 1 (2012), 1\u201323. https://doi.org/10.1080/15710882.2011.609888 arXiv:https://doi.org/10.1080/15710882.2011.609888",
+      "doi": ""
+    },
+    {
+      "text": "Arthi\u00a0Kanchana Manohar. 2018. Story Culture Framework: A Cross Cultural Study. In Proceedings of the 9th Indian Conference on Human Computer Interaction (Bangalore, India) (IndiaHCI\u201918). Association for Computing Machinery, New York, NY, USA, 44\u201352. https://doi.org/10.1145/3297121.3297122",
+      "doi": "10.1145/3297121.3297122"
+    },
+    {
+      "text": "Andrii Matviienko, Andreas L\u00f6cken, Abdallah El\u00a0Ali, Wilko Heuten, and Susanne Boll. 2016. NaviLight: investigating ambient light displays for turn-by-turn navigation in cars. In Proceedings of the 18th International Conference on Human-Computer Interaction with Mobile Devices and Services. 283\u2013294.",
+      "doi": "10.1145/2935334.2935359"
+    },
+    {
+      "text": "Yogesh\u00a0Kumar Meena, Krishna Seunarine, Deepak\u00a0Ranjan Sahoo, Simon Robinson, Jennifer Pearson, Chi Zhang, Matt Carnie, Adam Pockett, Andrew Prescott, Suzanne\u00a0K. Thomas, Harrison Ka\u00a0Hin Lee, and Matt Jones. 2020. PV-Tiles: Towards Closely-Coupled Photovoltaic and Digital Materials for Useful, Beautiful and Sustainable Interactive Surfaces. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376368",
+      "doi": ""
+    },
+    {
+      "text": "David Merrill, Emily Sun, and Jeevan Kalanithi. 2012. Sifteo Cubes. Association for Computing Machinery, New York, NY, USA, 1015\u20131018. https://doi.org/10.1145/2212776.2212374",
+      "doi": ""
+    },
+    {
+      "text": "Sugata Mitra, Ritu Dangwal, Shiffon Chatterjee, Swati Jha, Ravinder\u00a0S. Bisht, and Preeti Kapur. 2005. Acquisition of computing literacy on shared public computers: Children and the \u201dhole in the wall\u201d. Australasian Journal of Educational Technology 21, 3 (Oct. 2005). https://doi.org/10.14742/ajet.1328",
+      "doi": ""
+    },
+    {
+      "text": "Heiko M\u00fcller, Andreas L\u00f6cken, Wilko Heuten, and Susanne Boll. 2014. Sparkle: an ambient light display for dynamic off-screen points of interest. In Proceedings of the 8th Nordic Conference on Human-Computer Interaction: Fun, Fast, Foundational. 51\u201360.",
+      "doi": "10.1145/2639189.2639205"
+    },
+    {
+      "text": "Jennifer Pearson, Simon Robinson, Thomas Reitmaier, Matt Jones, and Anirudha Joshi. 2019. Diversifying Future-Making Through Itinerative Design. ACM Trans. Comput.-Hum. Interact. 26, 5, Article 33 (July 2019), 21\u00a0pages. https://doi.org/10.1145/3341727",
+      "doi": "10.1145/3341727"
+    },
+    {
+      "text": "Isabel P.\u00a0S. Qamar, Rainer Groh, David Holman, and Anne Roudaut. 2018. HCI Meets Material Science: A Literature Review of Morphing Materials for the Design of Shape-Changing Interfaces. Association for Computing Machinery, New York, NY, USA, 1\u201323. https://doi.org/10.1145/3173574.3173948",
+      "doi": "10.1145/3173574.3173948"
+    },
+    {
+      "text": "Dani\u00a0Kalarikalayil Raju, Krishna Seunarine, Thomas Reitmaier, Gethin Thomas, Yogesh\u00a0Kumar Meena, Chi Zhang, Adam Pockett, Jennifer Pearson, Simon Robinson, Matt Carnie, Deepak\u00a0Ranjan Sahoo, and Matt Jones. 2021. PV-Pix: Slum Community Co-Design of Self-Powered Deformable Smart Messaging Materials. Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3411764.3445661",
+      "doi": ""
+    },
+    {
+      "text": "Jun Rekimoto. 2012. Squama: A Programmable Window and Wall for Future Physical Architectures. In Proceedings of the 2012 ACM Conference on Ubiquitous Computing (Pittsburgh, Pennsylvania) (UbiComp \u201912). Association for Computing Machinery, New York, NY, USA, 667\u2013668. https://doi.org/10.1145/2370216.2370358",
+      "doi": "10.1145/2370216.2370358"
+    },
+    {
+      "text": "Xipei Ren, Bin Yu, Yuan Lu, Biyong Zhang, Jun Hu, and Aarnout Brombacher. 2019. LightSit: An unobtrusive health-promoting system for relaxation and fitness microbreaks at work. Sensors 19, 9 (2019), 2162.",
+      "doi": ""
+    },
+    {
+      "text": "Simon Robinson, Matt Jones, Elina Vartiainen, and Gary Marsden. 2012. PicoTales: Collaborative Authoring of Animated Stories Using Handheld Projectors. In Proceedings of the ACM 2012 Conference on Computer Supported Cooperative Work (Seattle, Washington, USA) (CSCW \u201912). Association for Computing Machinery, New York, NY, USA, 671\u2013680. https://doi.org/10.1145/2145204.2145306",
+      "doi": "10.1145/2145204.2145306"
+    },
+    {
+      "text": "Daniel Rozin. 1999. Wooden Mirror. https://www.smoothware.com/danny/woodenmirror.html",
+      "doi": ""
+    },
+    {
+      "text": "Dominik Schmidt, David Molyneaux, and Xiang Cao. 2012. PICOntrol: using a handheld projector for direct control of physical devices through visible light. In Proceedings of the 25th annual ACM symposium on User interface software and technology. 379\u2013388.",
+      "doi": "10.1145/2380116.2380166"
+    },
+    {
+      "text": "Susanne Seitinger, Daniel\u00a0S. Perry, and William\u00a0J. Mitchell. 2009. Urban Pixels: Painting the City with Light. Association for Computing Machinery, New York, NY, USA, 839\u2013848. https://doi.org/10.1145/1518701.1518829",
+      "doi": "10.1145/1518701.1518829"
+    },
+    {
+      "text": "Vincent Shaw and Jorn Braa. 2014. Approaches to Participatory Design in Africa in the Age of Cloud Computing. In Proceedings of the 13th Participatory Design Conference: Short Papers, Industry Cases, Workshop Descriptions, Doctoral Consortium Papers, and Keynote Abstracts - Volume 2(Windhoek, Namibia) (PDC \u201914). Association for Computing Machinery, New York, NY, USA, 45\u201348. https://doi.org/10.1145/2662155.2662180",
+      "doi": "10.1145/2662155.2662180"
+    },
+    {
+      "text": "Garth Shoemaker, Anthony Tang, and Kellogg\u00a0S Booth. 2007. Shadow reaching: a new perspective on interaction for large displays. In Proceedings of the 20th annual ACM symposium on User interface software and technology. 53\u201356.",
+      "doi": "10.1145/1294211.1294221"
+    },
+    {
+      "text": "D.A. Shon. 1992. Designing as reflective conversation with the materials of a design situation. Research in Engineering Design 3, 3 (1992), 131\u2013147.",
+      "doi": ""
+    },
+    {
+      "text": "Interaction\u00a0Research Studio. 2021. Yo-Yo Machines: Self-Build Peripheral Awareness Communication Devices. Interactions 28, 6 (nov 2021), 22\u201325. https://doi.org/10.1145/3490446",
+      "doi": ""
+    },
+    {
+      "text": "Semra\u00a0Gulce Turan, Silas\u00a0Ramsoe Ozaltin, and Asim\u00a0Evren Yantac. 2019. Designing calmworklight: Signaling Focus with a Desk Light. In Companion Publication of the 2019 on Designing Interactive Systems Conference 2019 Companion. 301\u2013305.",
+      "doi": "10.1145/3301019.3323907"
+    },
+    {
+      "text": "Thomas van\u00a0de Werff, Charlotte van Lotringen, Harm van Essen, and Berry Eggen. 2019. Design Considerations for Interactive Office Lighting: Interface Characteristics, Shared and Hybrid Control. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300640",
+      "doi": "10.1145/3290605.3300640"
+    },
+    {
+      "text": "Qing Wang, Marco Zuniga, and Domenico Giustiniano. 2016. Passive Communication with Ambient Light. In Proceedings of the 12th International on Conference on Emerging Networking EXperiments and Technologies (Irvine, California, USA) (CoNEXT \u201916). Association for Computing Machinery, New York, NY, USA, 97\u2013104. https://doi.org/10.1145/2999572.2999584",
+      "doi": "10.1145/2999572.2999584"
+    },
+    {
+      "text": "Susan Wyche. 2015. Exploring Mobile Phone and Social Media Use in a Nairobi Slum: A Case for Alternative Approaches to Design in ICTD. In Proceedings of the Seventh International Conference on Information and Communication Technologies and Development (Singapore, Singapore) (ICTD \u201915). Association for Computing Machinery, New York, NY, USA, Article 12, 8\u00a0pages. https://doi.org/10.1145/2737856.2738019",
+      "doi": "10.1145/2737856.2738019"
+    },
+    {
+      "text": "Susan\u00a0P. Wyche, Elisa Oreglia, Morgan\u00a0G. Ames, Christopher Hoadley, Aditya Johri, Phoebe Sengers, and Charles Steinfield. 2012. Learning from Marginalized Users: Reciprocity in HCI4D. In Proceedings of the ACM 2012 Conference on Computer Supported Cooperative Work Companion (Seattle, Washington, USA) (CSCW \u201912). Association for Computing Machinery, New York, NY, USA, 27\u201328. https://doi.org/10.1145/2141512.2141527",
+      "doi": "10.1145/2141512.2141527"
+    },
+    {
+      "text": "Bin Yu, Jun Hu, Mathias Funk, and Loe Feijs. 2018. DeLight: biofeedback through ambient light for stress intervention and relaxation assistance. Personal and Ubiquitous Computing 22, 4 (2018), 787\u2013805.",
+      "doi": "10.5555/3268755.3268771"
+    }
+  ]
+}

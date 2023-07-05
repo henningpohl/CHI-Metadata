@@ -1,0 +1,625 @@
+{
+  "doi": "10.1145/3491102.3517453",
+  "title": "\u201cI Didn\u2019t Know I Looked Angry\u201d: Characterizing Observed Emotion and Reported Affect at Work",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2022,
+  "badges": [],
+  "abstract": "With the growing prevalence of affective computing applications, Automatic Emotion Recognition (AER) technologies have garnered attention in both research and industry settings. Initially limited to speech-based applications, AER technologies now include analysis of facial landmarks to provide predicted probabilities of a common subset of emotions (e.g., anger, happiness) for faces observed in an image or video frame. In this paper, we study the relationship between AER outputs and self-reports of affect employed by prior work, in the context of information work at a technology company. We compare the continuous observed emotion output from an AER tool to discrete reported affect obtained via a one-day combined tool-use and diary study (N = 15). We provide empirical evidence showing that these signals do not completely align, and find that using additional workplace context only improves alignment up to 58.6%. These results suggest affect must be studied in the context it is being expressed, and observed emotion signal should not replace internal reported affect for affective computing applications.",
+  "authors": [
+    {
+      "name": "Harmanpreet Kaur",
+      "institution": "University of Michigan, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658753868",
+      "orcid": "missing"
+    },
+    {
+      "name": "Daniel McDuff",
+      "institution": "Microsoft, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81490688111",
+      "orcid": "missing"
+    },
+    {
+      "name": "Alex C. Williams",
+      "institution": "Department of Electrical Engineering and Computer Science, University of Tennessee, Knoxville, United States",
+      "img": "/do/10.1145/contrib-99659130748/rel-imgonly/screen_shot_2022-03-21_at_5.16.58_pm.png",
+      "acmid": "99659130748",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jaime Teevan",
+      "institution": "Microsoft, United States",
+      "img": "/do/10.1145/contrib-81100167805/rel-imgonly/jaime-teevan-straight.jpg",
+      "acmid": "81100167805",
+      "orcid": "missing"
+    },
+    {
+      "name": "Shamsi T. Iqbal",
+      "institution": "Microsoft, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81343495796",
+      "orcid": "0000-0002-9380-8759"
+    }
+  ],
+  "references": [
+    {
+      "text": "Nalini Ambady and Robert Rosenthal. 1992. Thin slices of expressive behavior as predictors of interpersonal consequences: A meta-analysis.Psychological bulletin 111, 2 (1992), 256.",
+      "doi": ""
+    },
+    {
+      "text": "Brian P. Bailey and Joseph A. Konstan. 2006. On the need for attention-aware systems: Measuring effects of interruption on task performance, error rate, and affective state. Computers in Human Behavior 22, 4 (1 7 2006), 685\u2013708. https://doi.org/10.1016/j.chb.2005.12.009",
+      "doi": ""
+    },
+    {
+      "text": "Lisa\u00a0Feldman Barrett, Ralph Adolphs, Stacy Marsella, Aleix\u00a0M Martinez, and Seth\u00a0D Pollak. 2019. Emotional expressions reconsidered: Challenges to inferring emotion from human facial movements. Psychological science in the public interest 20, 1 (2019), 1\u201368.",
+      "doi": ""
+    },
+    {
+      "text": "Emad Barsoum, Cha Zhang, Cristian\u00a0Canton Ferrer, and Zhengyou Zhang. 2016. Training deep networks for facial expression recognition with crowd-sourced label distribution. In Proceedings of the 18th ACM International Conference on Multimodal Interaction. ACM, 279\u2013283.",
+      "doi": "10.1145/2993148.2993165"
+    },
+    {
+      "text": "C\u00a0Fabian Benitez-Quiroz, Ramprakash Srinivasan, Qianli Feng, Yan Wang, and Aleix\u00a0M Martinez. 2017. Emotionet challenge: Recognition of facial expressions of emotion in the wild. arXiv preprint arXiv:1703.01210(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2012. Thematic analysis.In APA handbook of research methods in psychology, Vol 2: Research designs: Quantitative, qualitative, neuropsychological, and biological.American Psychological Association, Washington, DC, US, 57\u201371. https://doi.org/10.1037/13620-004",
+      "doi": ""
+    },
+    {
+      "text": "Leslie\u00a0R Brody and Judith\u00a0A Hall. 2008. Gender and emotion in context. Handbook of emotions 3(2008), 395\u2013408.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0T Cacioppo and Louis\u00a0G Tassinary. 1990. Principles of psychophysiology: Physical, social, and inferential elements.Cambridge University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Stevie Chancellor, Zhiyuan Lin, Erica\u00a0L Goodman, Stephanie Zerwas, and Munmun De\u00a0Choudhury. 2016. Quantifying and predicting mental illness severity in online pro-eating disorder communities. In Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing. 1171\u20131184.",
+      "doi": "10.1145/2818048.2819973"
+    },
+    {
+      "text": "Eshwar Chandrasekharan, Chaitrali Gandhi, Matthew\u00a0Wortley Mustelier, and Eric Gilbert. 2019. Crossmod: A cross-community learning-based system to assist reddit moderators. Proceedings of the ACM on human-computer interaction 3, CSCW(2019), 1\u201330.",
+      "doi": "10.1145/3359276"
+    },
+    {
+      "text": "Chapter, Kim Cameron, Jane Dutton, and Robert Quinn. 2003. An Introduction to Positive Organizational Scholarship. (01 2003).",
+      "doi": ""
+    },
+    {
+      "text": "Ira Cohen, Nicu Sebe, Ashutosh Garg, Lawrence\u00a0S Chen, and Thomas\u00a0S Huang. 2003. Facial expression recognition from video sequences: temporal and static modeling. Computer Vision and image understanding 91, 1-2 (2003), 160\u2013187.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0F Cohn and Karen\u00a0L Schmidt. 2004. The timing of facial motion in posed and spontaneous smiles. International Journal of Wavelets, Multiresolution and Information Processing 2, 02 (2004), 121\u2013132.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0T Cordaro, Rui Sun, Dacher Keltner, Shanmukh Kamble, Niranjan Huddar, and Galen McNeil. 2018. Universals and cultural variations in 22 emotional expressions across five cultures.Emotion 18, 1 (2018), 75.",
+      "doi": ""
+    },
+    {
+      "text": "Stanley Coren and James\u00a0A Russell. 1992. The relative dominance of different facial expressions of emotion under conditions of perceptual ambiguity. Cognition and Emotion 6, 5 (1992), 339\u2013356.",
+      "doi": ""
+    },
+    {
+      "text": "Sarah Cosentino, Estelle\u00a0IS Randria, Jia-Yeu Lin, Thomas Pellegrini, Salvatore Sessa, and Atsuo Takanishi. 2018. Group emotion recognition strategies for entertainment robots. In 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 813\u2013818.",
+      "doi": "10.1109/IROS.2018.8593503"
+    },
+    {
+      "text": "Kate Crawford and Trevor Paglen. 2021. Excavating AI: The politics of images in machine learning training sets. AI & SOCIETY (2021), 1\u201312.",
+      "doi": ""
+    },
+    {
+      "text": "Mary Czerwinski, Javier Hernandez, and Daniel McDuff. 2021. Building an AI That Feels: AI systems with emotional intelligence could learn faster and be more helpful. IEEE Spectrum 58, 5 (2021), 32\u201338.",
+      "doi": ""
+    },
+    {
+      "text": "C Darwin. 1872. The expression of emotions in man and animals (3rd ed.). Oxford University, New York, NY.",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0J Davidson. 1999. Neuropsychological perspectives on affective styles and their cognitive consequences.(1999).",
+      "doi": ""
+    },
+    {
+      "text": "Giuseppe Destefanis, Marco Ortu, Steve Counsell, Stephen Swift, Michele Marchesi, and Roberto Tonelli. 2016. Software development: do good manners matter?PeerJ Computer Science 2(2016), e73.",
+      "doi": ""
+    },
+    {
+      "text": "Hamdi Dibeklio\u011flu, Albert\u00a0Ali Salah, and Theo Gevers. 2015. Recognition of genuine smiles. IEEE Transactions on Multimedia 17, 3 (2015), 279\u2013294.",
+      "doi": "10.1109/TMM.2015.2394777"
+    },
+    {
+      "text": "Ulf Dimberg and Lars-Olov Lundquist. 1990. Gender differences in facial reactions to facial expressions. Biological psychology 30, 2 (1990), 151\u2013159.",
+      "doi": ""
+    },
+    {
+      "text": "Sidney\u00a0K D\u2019mello and Jacqueline Kory. 2015. A review and meta-analysis of multimodal affect detection systems. ACM Computing Surveys (CSUR) 47, 3 (2015), 43.",
+      "doi": "10.1145/2682899"
+    },
+    {
+      "text": "Juan\u00a0I Dur\u00e1n, Rainer Reisenzein, and Jos\u00e9-Miguel Fern\u00e1ndez-Dols. 2017. Coherence between emotions and facial expressions. The science of facial expression(2017), 107\u2013129.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Ekman. 1989. The argument and evidence about universals in facial expressions. Handbook of social psychophysiology 143 (1989), 164.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Ekman. 1992. Are there basic emotions?(1992).",
+      "doi": ""
+    },
+    {
+      "text": "Paul Ekman. 1992. An argument for basic emotions. Cognition & emotion 6, 3-4 (1992), 169\u2013200.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Ekman and Wallace\u00a0V Friesen. 1978. Facial action coding system. Environmental Psychology & Nonverbal Behavior (1978).",
+      "doi": ""
+    },
+    {
+      "text": "Paul Ekman, E\u00a0Richard Sorenson, and Wallace\u00a0V Friesen. 1969. Pan-cultural elements in facial displays of emotion. Science 164, 3875 (1969), 86\u201388.",
+      "doi": ""
+    },
+    {
+      "text": "Hillary\u00a0Anger Elfenbein. 2017. Emotional dialects in the language of emotion. The science of facial expression(2017), 479\u2013496.",
+      "doi": ""
+    },
+    {
+      "text": "Sindhu\u00a0Kiranmai Ernala, Michael\u00a0L Birnbaum, Kristin\u00a0A Candan, Asra\u00a0F Rizvi, William\u00a0A Sterling, John\u00a0M Kane, and Munmun De\u00a0Choudhury. 2019. Methodological gaps in predicting mental health states from social media: Triangulating diagnostic signals. In Proceedings of the 2019 chi conference on human factors in computing systems. 1\u201316.",
+      "doi": "10.1145/3290605.3300364"
+    },
+    {
+      "text": "Elizabeth\u00a0C Evans. 1969. Physiognomics in the ancient world. Transactions of the American Philosophical Society 59, 5 (1969), 1\u2013101.",
+      "doi": ""
+    },
+    {
+      "text": "Jos\u00e9-Miguel Fern\u00e1ndez-Dolsand Maria-Angeles Ruiz-Belda. 1997. Spontaneous facial behavior during intense emotional episodes: Artistic truth and optical truth. In The psychology of facial expression, James\u00a0A Russell and Jos\u00e9-Miguel Fern\u00e1ndez-Dols (Eds.). Cambridge University Press, New York, NY, 255\u2013274.",
+      "doi": ""
+    },
+    {
+      "text": "Agneta\u00a0H Fischer. 1993. Sex differences in emotionality: Fact or stereotype?Feminism & Psychology 3, 3 (1993), 303\u2013318.",
+      "doi": ""
+    },
+    {
+      "text": "Cynthia Fisher. 2000. Mood and emotions while working: Missing pieces of job satisfaction?School of Business Discussion Papers 21 (03 2000). https://doi.org/10.1002/(SICI)1099-1379(200003)21:2<185::AID-JOB34>3.0.CO;2-M",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0G Frank, Paul Ekman, and Wallace\u00a0V Friesen. 1993. Behavioral markers and recognizability of the smile of enjoyment.Journal of personality and social psychology 64, 1(1993), 83.",
+      "doi": ""
+    },
+    {
+      "text": "Wallace\u00a0V Friesen, Paul Ekman, 1983. EMFACS-7: Emotional facial action coding system. Unpublished manuscript, University of California at San Francisco 2, 36(1983), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Anna-Katharina Frison, Philipp Wintersberger, Andreas Riener, Clemens Schartm\u00fcller, Linda\u00a0Ng Boyle, Erika Miller, and Klemens Weigl. 2019. In UX We Trust: Investigation of Aesthetics and Usability of Driver-Vehicle Interfaces and Their Impact on the Perception of Automated Driving. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300374"
+    },
+    {
+      "text": "Maria Gendron, Debi Roberson, Jacoba\u00a0Marietta van\u00a0der Vyver, and Lisa\u00a0Feldman Barrett. 2014. Perceptions of emotion from facial expressions are not culturally universal: evidence from a remote culture.Emotion 14, 2 (2014), 251.",
+      "doi": ""
+    },
+    {
+      "text": "Asma Ghandeharioun, Daniel McDuff, Mary Czerwinski, and Kael Rowan. 2019. Towards understanding emotional intelligence for behavior change chatbots. In 2019 8th International Conference on Affective Computing and Intelligent Interaction (ACII). IEEE, 8\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Gildea. 2001. Corpus Variation and Parser Performance. In Proceedings of the 2001 Conference on Empirical Methods in Natural Language Processing. http://www.aclweb.org/anthology/W01-0521",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0M Girard. 2014. CARMA: Software for continuous affect rating and media annotation. Journal of open research software 2, 1 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Daniela Girardi, Filippo Lanubile, and Nicole Novielli. 2017. Emotion detection using noninvasive low cost sensors. In 2017 Seventh international conference on affective computing and intelligent interaction (ACII). IEEE, 125\u2013130.",
+      "doi": ""
+    },
+    {
+      "text": "Mitchell Gray. 2003. Urban Surveillance and Panopticism: will we recognize the facial recognition society?Surveillance & Society 1, 3 (2003), 314\u2013330.",
+      "doi": ""
+    },
+    {
+      "text": "Marcus\u00a0A Gray, Neil\u00a0A Harrison, Stefan Wiens, and Hugo\u00a0D Critchley. 2007. Modulation of emotional appraisal by false physiological feedback during fMRI. PLoS one 2, 6 (2007), e546.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Graziotin, Xiaofeng Wang, and Pekka Abrahamsson. 2014. Happy software developers solve problems better: psychological measurements in empirical software engineering. PeerJ 2(2014), e289.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0J Gross. 1998. The emerging field of emotion regulation: An integrative review. Review of general psychology 2, 3 (1998), 271\u2013299.",
+      "doi": ""
+    },
+    {
+      "text": "Barry Gruenberg. 1980. The happy worker: An analysis of educational and occupational differences in determinants of job satisfaction. American journal of sociology 86, 2 (1980), 247\u2013271.",
+      "doi": ""
+    },
+    {
+      "text": "Jamie Guillory, Jason Spiegel, Molly Drislane, Benjamin Weiss, Walter Donner, and Jeffrey Hancock. 2011. Upset now? Emotion contagion in distributed groups. In Proceedings of the SIGCHI conference on human factors in computing systems. 745\u2013748.",
+      "doi": "10.1145/1978942.1979049"
+    },
+    {
+      "text": "Hatice Gunes and Maja Pantic. 2010. Automatic, dimensional and continuous emotion recognition. International Journal of Synthetic Emotions (IJSE) 1, 1 (2010), 68\u201399.",
+      "doi": "10.4018/jse.2010101605"
+    },
+    {
+      "text": "Judith\u00a0A Hall and David Matsumoto. 2004. Gender differences in judgments of multiple emotions from facial expressions.Emotion 4, 2 (2004), 201.",
+      "doi": ""
+    },
+    {
+      "text": "Javier Hernandez, Josh Lovejoy, Daniel McDuff, Jina Suh, Tim O\u2019Brien, Arathi Sethumadhavan, Gretchen Greene, Rosalind Picard, and Mary Czerwinski. 2021. Guidelines for Assessing and Minimizing Risks of Emotion Recognition Applications. In 2021 9th International Conference on Affective Computing and Intelligent Interaction (ACII). IEEE, 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Ursula Hess, Arvid Kappas, Gregory\u00a0J McHugo, Robert\u00a0E Kleck, and John\u00a0T Lanzetta. 1989. An analysis of the encoding and decoding of spontaneous and posed smiles: The use of facial electromyography. Journal of Nonverbal Behavior 13, 2 (1989), 121\u2013137.",
+      "doi": ""
+    },
+    {
+      "text": "Jesse Hoey. 2001. Clustering facial displays in context. Technical Report TR-01-17(2001).",
+      "doi": ""
+    },
+    {
+      "text": "Eric Horvitz. 1999. Principles of mixed-initiative user interfaces. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems. 159\u2013166.",
+      "doi": "10.1145/302979.303030"
+    },
+    {
+      "text": "Shamsi Iqbal, Jina Suh, Mary Czerwinski, Gloria Mark, and Jaime Teevan. 2020. Remote Work and Well-being. The New Future of Work Symposium, Published by Microsoft. https://www.microsoft.com/en-us/research/publication/remote-work-and-well-being/",
+      "doi": ""
+    },
+    {
+      "text": "Shamsi\u00a0T. Iqbal and Eric Horvitz. 2007. Disruption and Recovery of Computing Tasks: Field Study, Analysis, and Directions. In In Proceedings of the Conference on Human Factors in Computing Systems - CHI 2007 (Apr. 28-May 3). ACM, 677\u2013686.",
+      "doi": ""
+    },
+    {
+      "text": "Carroll\u00a0E Izard. 1994. Innate and universal facial expressions: evidence from developmental and cross-cultural research.(1994).",
+      "doi": ""
+    },
+    {
+      "text": "Rachael\u00a0E Jack, Oliver\u00a0GB Garrod, Hui Yu, Roberto Caldara, and Philippe\u00a0G Schyns. 2012. Facial expressions of emotion are not culturally universal. Proceedings of the National Academy of Sciences 109, 19(2012), 7241\u20137244.",
+      "doi": ""
+    },
+    {
+      "text": "Anil\u00a0K Jain and Stan\u00a0Z Li. 2011. Handbook of face recognition. Springer.",
+      "doi": ""
+    },
+    {
+      "text": "Sophie Jarlier, Didier Grandjean, Sylvain Delplanque, Karim N\u2019diaye, Isabelle Cayeux, Maria\u00a0In\u00e9s Velazco, David Sander, Patrik Vuilleumier, and Klaus\u00a0R Scherer. 2011. Thermal analysis of facial muscles contractions. IEEE transactions on affective computing 2, 1 (2011), 2\u20139.",
+      "doi": "10.1109/T-AFFC.2011.3"
+    },
+    {
+      "text": "Ashish Kapoor and Rosalind\u00a0W Picard. 2005. Multimodal affect recognition in learning environments. In Proceedings of the 13th annual ACM international conference on Multimedia. ACM, 677\u2013682.",
+      "doi": "10.1145/1101149.1101300"
+    },
+    {
+      "text": "Arvid Kappas. 2003. What facial activity can and cannot tell us about emotions. In The human face. Springer, 215\u2013234.",
+      "doi": ""
+    },
+    {
+      "text": "Demetrios Karis, Daniel Wildman, and Amir Man\u00e9. 2016. Improving remote collaboration with video conferencing and video portals. Human\u2013Computer Interaction 31, 1 (2016), 1\u201358.",
+      "doi": ""
+    },
+    {
+      "text": "Charalampos Karyotis, Faiyaz Doctor, Rahat Iqbal, Anne James, and Victor Chang. 2016. A Fuzzy Modelling Approach of Emotion for Affective Computing Systems. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Harmanpreet Kaur, Alex\u00a0C Williams, Daniel McDuff, Mary Czerwinski, Jaime Teevan, and Shamsi\u00a0T Iqbal. 2020. Optimizing for Happiness and Productivity: Modeling Opportune Moments for Transitions and Breaks at Work. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3313831.3376817"
+    },
+    {
+      "text": "Os Keyes. 2018. The misgendering machines: Trans/HCI implications of automatic gender recognition. Proceedings of the ACM on Human-Computer Interaction 2, CSCW(2018), 88.",
+      "doi": "10.1145/3274357"
+    },
+    {
+      "text": "Latika Kharb and Sarabjit Kaur. [n.d.]. Embedding Intelligence through Cognitive Services. International Journal for Research in Applied Science & Engineering Technology (IJRASET), ISSN([n. d.]), 2321\u20139653.",
+      "doi": ""
+    },
+    {
+      "text": "Everlyne Kimani, Kael Rowan, Daniel McDuff, Mary Czerwinski, and Gloria Mark. 2019. A Conversational Agent in Support of Productivity and Wellbeing at Work. In 2019 8th International Conference on Affective Computing and Intelligent Interaction (ACII). IEEE, 1\u20137.",
+      "doi": ""
+    },
+    {
+      "text": "Steve\u00a0WJ Kozlowski and Daniel\u00a0R Ilgen. 2006. Enhancing the effectiveness of work groups and teams. Psychological science in the public interest 7, 3 (2006), 77\u2013124.",
+      "doi": ""
+    },
+    {
+      "text": "Eva\u00a0G Krumhuber and Antony\u00a0SR Manstead. 2009. Can Duchenne smiles be feigned? New evidence on felt and false smiles.Emotion 9, 6 (2009), 807.",
+      "doi": ""
+    },
+    {
+      "text": "Theodore Kunin. 1955. The Construction of a New Type of Attitude Measure. Personnel Psychology 8, 1 (1955), 65\u201377. https://doi.org/10.1111/j.1744-6570.1955.tb01189.x arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1744-6570.1955.tb01189.x",
+      "doi": ""
+    },
+    {
+      "text": "Marianne LaFrance and Mahzarin Banaji. 1992. Toward a reconsideration of the gender-emotion relationship. Emotion and social behavior 14 (1992), 178\u2013201.",
+      "doi": ""
+    },
+    {
+      "text": "Marianne LaFrance, Marvin\u00a0A Hecht, and Elizabeth\u00a0Levy Paluck. 2003. The contingent smile: A meta-analysis of sex differences in smiling.Psychological bulletin 129, 2 (2003), 305.",
+      "doi": ""
+    },
+    {
+      "text": "Hung-Te Lee, Rung-Ching Chen, and David Wei. 2017. Building emotion recognition control system using Raspberry Pi. In International Conference on Frontier Computing. Springer, 36\u201345.",
+      "doi": ""
+    },
+    {
+      "text": "Madelene Lindstr\u00f6m, Anna St\u00e5hl, Kristina H\u00f6\u00f6k, Petra Sundstr\u00f6m, Jarmo Laaksolathi, Marco Combetto, Alex Taylor, and Roberto Bresin. 2006. Affective diary: designing for bodily expressiveness and self-reflection. In CHI\u201906 extended abstracts on Human factors in computing systems. 1037\u20131042.",
+      "doi": ""
+    },
+    {
+      "text": "Andrej Luneski, Panagiotis\u00a0D Bamidis, and Madga Hitoglou-Antoniadou. 2008. Affective computing and medical informatics: state of the art in emotion-aware medical applications.Studies in health technology and informatics 136 (2008), 517.",
+      "doi": ""
+    },
+    {
+      "text": "Fred Luthans. 2002. The need for and meaning of positive organizational behavior. Journal of Organizational Behavior 23, 6 (2002), 695\u2013706. https://doi.org/10.1002/job.165 arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/job.165",
+      "doi": ""
+    },
+    {
+      "text": "Diana MacLean, Asta Roseway, and Mary Czerwinski. 2013. MoodWings: a wearable biofeedback device for real-time stress intervention. In Proceedings of the 6th international conference on PErvasive Technologies Related to Assistive Environments. ACM, 66.",
+      "doi": "10.1145/2504335.2504406"
+    },
+    {
+      "text": "Muharram Mansoorizadeh and Nasrollah\u00a0Moghaddam Charkari. 2010. Multimodal information fusion application to human emotion recognition from face and speech. Multimedia Tools and Applications 49, 2 (2010), 277\u2013297.",
+      "doi": "10.1007/s11042-009-0344-2"
+    },
+    {
+      "text": "Mika M\u00e4ntyl\u00e4, Bram Adams, Giuseppe Destefanis, Daniel Graziotin, and Marco Ortu. 2016. Mining valence, arousal, and dominance: possibilities for detecting burnout and productivity?. In Proceedings of the 13th International Conference on Mining Software Repositories. ACM, 247\u2013258.",
+      "doi": "10.1145/2901739.2901752"
+    },
+    {
+      "text": "Gloria Mark, Mary Czerwinski, Shamsi Iqbal, and Paul Johns. 2016. Workplace Indicators of Mood: Behavioral and Cognitive Correlates of Mood Among Information Workers. In Proceedings of the 6th International Conference on Digital Health Conference. ACM, 29\u201336.",
+      "doi": "10.1145/2896338.2896360"
+    },
+    {
+      "text": "Gloria Mark, Shamsi Iqbal, Mary Czerwinski, and Paul Johns. 2014. Capturing the mood: facebook and face-to-face encounters in the workplace. In Proceedings of the 17th ACM conference on Computer supported cooperative work & social computing. 1082\u20131094.",
+      "doi": "10.1145/2531602.2531673"
+    },
+    {
+      "text": "Gloria Mark, Shamsi Iqbal, Mary Czerwinski, and Paul Johns. 2015. Focused, Aroused, but So Distractible: Temporal Perspectives on Multitasking and Communications. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (Vancouver, BC, Canada) (CSCW \u201915). ACM, New York, NY, USA, 903\u2013916.",
+      "doi": "10.1145/2675133.2675221"
+    },
+    {
+      "text": "Gloria Mark, Shamsi\u00a0T Iqbal, Mary Czerwinski, and Paul Johns. 2014. Bored mondays and focused afternoons: the rhythm of attention and online activity in the workplace. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 3025\u20133034.",
+      "doi": "10.1145/2556288.2557204"
+    },
+    {
+      "text": "Brais Martinez and Michel\u00a0F Valstar. 2016. Advances, challenges, and opportunities in automatic facial expression recognition. In Advances in face detection and facial image analysis. Springer, 63\u2013100.",
+      "doi": ""
+    },
+    {
+      "text": "David Matsumoto. 1990. Cultural similarities and differences in display rules. Motivation and Emotion 14, 3 (1990), 195\u2013214.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel McDuff, Eunice Jun, Kael Rowan, and Mary Czerwinski. 2019. Longitudinal Observational Evidence of the Impact of Emotion Regulation Strategies on Affective Expression. IEEE Transactions on Affective Computing(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Daniel McDuff, Amy Karlson, Ashish Kapoor, Asta Roseway, and Mary Czerwinski. 2012. AffectAura: an intelligent system for emotional memory. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 849\u2013858.",
+      "doi": "10.1145/2207676.2208525"
+    },
+    {
+      "text": "Daniel McDuff, Abdelrahman Mahmoud, Mohammad Mavadati, May Amr, Jay Turcot, and Rana\u00a0el Kaliouby. 2016. AFFDEX SDK: a cross-platform real-time multi-face expression recognition toolkit. In Proceedings of the 2016 CHI conference extended abstracts on human factors in computing systems. 3723\u20133726.",
+      "doi": "10.1145/2851581.2890247"
+    },
+    {
+      "text": "Daniel McDuff, Kael Rowan, Piali Choudhury, Jessica Wolk, ThuVan Pham, and Mary Czerwinski. 2019. A Multimodal Emotion Sensing Platform for Building Emotion-Aware Applications. arXiv preprint arXiv:1903.12133(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0S Messinger, Leticia\u00a0Lobo Duvivier, Zachary\u00a0E Warren, Mohammad Mahoor, Jason Baker, Anne Warlaumont, and Paul Ruvolo. 2015. Affective computing, emotional development, and autism.(2015).",
+      "doi": ""
+    },
+    {
+      "text": "Angeliki Metallinou, Sungbok Lee, and Shrikanth Narayanan. 2008. Audio-visual emotion recognition using gaussian mixture models for face and voice. In 2008 Tenth IEEE International Symposium on Multimedia. IEEE, 250\u2013257.",
+      "doi": "10.1109/ISM.2008.40"
+    },
+    {
+      "text": "Sebastian\u00a0C M\u00fcller and Thomas Fritz. 2015. Stuck and frustrated or in flow and happy: sensing developers\u2019 emotions and progress. In Software Engineering (ICSE), 2015 IEEE/ACM 37th IEEE International Conference on, Vol.\u00a01. IEEE, 688\u2013699.",
+      "doi": ""
+    },
+    {
+      "text": "Prasanth Murali, Javier Hernandez, Daniel McDuff, Kael Rowan, Jina Suh, and Mary Czerwinski. 2021. AffectiveSpotlight: Facilitating the Communication of Affective Responses from Audience Members during Online Presentations. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445235"
+    },
+    {
+      "text": "Shushi Namba, Russell\u00a0S Kabir, Makoto Miyatani, and Takashi Nakao. 2018. Dynamic displays enhance the ability to discriminate genuine and posed facial expressions of emotion. Frontiers in psychology 9 (2018), 672.",
+      "doi": ""
+    },
+    {
+      "text": "Mihalis\u00a0A Nicolaou, Hatice Gunes, and Maja Pantic. 2011. Continuous prediction of spontaneous affect from multiple cues and modalities in valence-arousal space. IEEE Transactions on Affective Computing 2, 2 (2011), 92\u2013105.",
+      "doi": "10.1109/T-AFFC.2011.9"
+    },
+    {
+      "text": "Marret\u00a0K Noordewier and Seger\u00a0M Breugelmans. 2013. On the valence of surprise. Cognition & emotion 27, 7 (2013), 1326\u20131334.",
+      "doi": ""
+    },
+    {
+      "text": "Gary\u00a0M Olson and Judith\u00a0S Olson. 2000. Distance matters. Human\u2013computer interaction 15, 2-3 (2000), 139\u2013178.",
+      "doi": ""
+    },
+    {
+      "text": "Judith\u00a0S Olson, E Hofer, Nathan Bos, Ann Zimmerman, Gary\u00a0M Olson, Daniel Cooney, and Ixchel Faniel. 2008. A theory of remote scientific collaboration. Scientific collaboration on the internet(2008), 73\u201397.",
+      "doi": ""
+    },
+    {
+      "text": "Marco Ortu, Bram Adams, Giuseppe Destefanis, Parastou Tourani, Michele Marchesi, and Roberto Tonelli. 2015. Are bullies more productive?: empirical study of affectiveness vs. issue fixing time. In Proceedings of the 12th Working Conference on Mining Software Repositories. IEEE Press, 303\u2013313.",
+      "doi": ""
+    },
+    {
+      "text": "H Oster, L Daily, and P Goldenthal. 1989. Processing facial affect. In Handbook of research on face processing, A\u00a0W Young and H\u00a0D Ellis (Eds.). Elsevier, Amsterdam, 101\u2013161.",
+      "doi": ""
+    },
+    {
+      "text": "Talcott Parsons, Robert\u00a0Freed Bales, and James Olds. 1956. Family socialization and interaction process. Psychology Press.",
+      "doi": ""
+    },
+    {
+      "text": "Monica Perusqu\u00eda-Hern\u00e1ndez. 2021. Are people happy when they smile?: Affective assessments based on automatic smile genuineness identification. Emotion Studies 6, 1 (2021), 57\u201371.",
+      "doi": ""
+    },
+    {
+      "text": "Monica Perusqu\u00eda-Hern\u00e1ndez, Saho Ayabe-Kanamura, Kenji Suzuki, and Shiro Kumano. 2019. The invisible potential of facial electromyography: a comparison of EMG and Computer Vision when distinguishing posed from spontaneous smiles. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u20139.",
+      "doi": "10.1145/3290605.3300379"
+    },
+    {
+      "text": "Jonathan Posner, James\u00a0A Russell, and Bradley\u00a0S Peterson. 2005. The circumplex model of affect: An integrative approach to affective neuroscience, cognitive development, and psychopathology. Development and psychopathology 17, 3 (2005), 715\u2013734.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0A Russell. 1994. Is there universal recognition of emotion from facial expressions? A review of the cross-cultural studies. Psychological Bulletin 115, 1 (1994), 102.",
+      "doi": ""
+    },
+    {
+      "text": "Chisa Saito, Katsutoshi Masai, and Maki Sugimoto. 2020. Classification of spontaneous and posed smiles by photo-reflective sensors embedded with smart eyewear. In Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction. 45\u201352.",
+      "doi": "10.1145/3374920.3374936"
+    },
+    {
+      "text": "Najmeh Samadiani, Guangyan Huang, Borui Cai, Wei Luo, Chi-Hung Chi, Yong Xiang, and Jing He. 2019. A review on automatic facial expression recognition systems assisted by multimodal sensor data. Sensors 19, 8 (2019), 1863.",
+      "doi": ""
+    },
+    {
+      "text": "Samiha Samrose, Wenyi Chu, Carolina He, Yuebai Gao, Syeda\u00a0Sarah Shahrin, Zhen Bai, and Mohammed\u00a0Ehsan Hoque. 2019. Visual Cues for Disrespectful Conversation Analysis. In 2019 8th International Conference on Affective Computing and Intelligent Interaction (ACII). IEEE, 580\u2013586.",
+      "doi": ""
+    },
+    {
+      "text": "Samiha Samrose, Daniel McDuff, Robert Sim, Jina Suh, Kael Rowan, Javier Hernandez, Sean Rintel, Kevin Moynihan, and Mary Czerwinski. 2021. MeetingCoach: An Intelligent Dashboard for Supporting Effective & Inclusive Meetings. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445615"
+    },
+    {
+      "text": "Samiha Samrose, Ru Zhao, Jeffery White, Vivian Li, Luis Nova, Yichen Lu, Mohammad\u00a0Rafayet Ali, and Mohammed\u00a0Ehsan Hoque. 2018. Coco: Collaboration coach for understanding team dynamics during video conferencing. Proceedings of the ACM on interactive, mobile, wearable and ubiquitous technologies 1, 4 (2018), 1\u201324.",
+      "doi": "10.1145/3161186"
+    },
+    {
+      "text": "Maarten Sap, Dallas Card, Saadia Gabriel, Yejin Choi, and Noah\u00a0A Smith. 2019. The risk of racial bias in hate speech detection. In Proceedings of the 57th annual meeting of the association for computational linguistics. 1668\u20131678.",
+      "doi": ""
+    },
+    {
+      "text": "Morgan\u00a0Klaus Scheuerman, Jacob\u00a0M Paul, and Jed\u00a0R Brubaker. 2019. How computers see gender: An evaluation of gender classification in commercial facial analysis services. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201333.",
+      "doi": "10.1145/3359246"
+    },
+    {
+      "text": "Morgan\u00a0Klaus Scheuerman, Katta Spiel, Oliver\u00a0L. Haimson, Foad Hamidi, and Stacy\u00a0M. Branham. [n.d.]. HCI Guidelines for Gender Equity and Inclusivity. ([n. d.]). https://docs.wixstatic.com/ugd/eb2cd9_3d08c68141ea4900b82b47a551a5c95f.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Karen\u00a0L Schmidt, Zara Ambadar, Jeffrey\u00a0F Cohn, and L\u00a0Ian Reed. 2006. Movement differences between deliberate and spontaneous facial expressions: Zygomaticus major action in smiling. Journal of nonverbal behavior 30, 1 (2006), 37\u201352.",
+      "doi": ""
+    },
+    {
+      "text": "Garima Sharma and Abhinav Dhall. 2021. A Survey on Automatic Multimodal Emotion Recognition in the Wild. Springer International Publishing, Cham, 35\u201364. https://doi.org/10.1007/978-3-030-51870-7_3",
+      "doi": ""
+    },
+    {
+      "text": "Lei Shi, Brianna\u00a0J Tomlinson, John Tang, Edward Cutrell, Daniel McDuff, Gina Venolia, Paul Johns, and Kael Rowan. 2019. Accessible Video Calling: Enabling Nonvisual Perception of Visual Conversation Cues. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201322.",
+      "doi": "10.1145/3359233"
+    },
+    {
+      "text": "Stephanie\u00a0A Shields, Dallas\u00a0N Garner, Brooke Di\u00a0Leone, and Alena\u00a0M Hadley. 2006. Gender and emotion. In Handbook of the sociology of emotions. Springer, 63\u201383.",
+      "doi": ""
+    },
+    {
+      "text": "Mohammad Soleymani, David Garcia, Brendan Jou, Bj\u00f6rn Schuller, Shih-Fu Chang, and Maja Pantic. 2017. A survey of multimodal sentiment analysis. Image and Vision Computing 65 (2017), 3\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Ruth Stock, Moritz Merkle, Dietmar Eidens, Martin Hannig, Paul Heineck, Mai\u00a0Anh Nguyen, and Johannes V\u00f6lker. 2019. When Robots Enter Our Workplace: Understanding Employee Trust in Assistive Robots. (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Giota Stratou and Louis-Philippe Morency. 2017. MultiSense\u2014Context-aware nonverbal behavior analysis framework: A psychological distress use case. IEEE Transactions on Affective Computing 8, 2 (2017), 190\u2013203.",
+      "doi": "10.1109/TAFFC.2016.2614300"
+    },
+    {
+      "text": "Lucy\u00a0A Suchman. 2007. Human-machine reconfigurations: Plans and situated actions. Cambridge university press.",
+      "doi": "10.5555/1212951"
+    },
+    {
+      "text": "Veikko Surakka and Jari\u00a0K Hietanen. 1998. Facial and emotional reactions to Duchenne and non-Duchenne smiles. International journal of psychophysiology 29, 1 (1998), 23\u201333.",
+      "doi": ""
+    },
+    {
+      "text": "Tarik Taleb, Dario Bottazzi, and Nidal Nasser. 2010. A novel middleware solution to improve ubiquitous healthcare systems aided by affective information. IEEE transactions on information technology in biomedicine 14, 2(2010), 335\u2013349.",
+      "doi": "10.1109/TITB.2010.2042608"
+    },
+    {
+      "text": "Jaime Teevan, Brent Hecht, Sonia Jaffe, Nancy Baym, Rachel Bergmann, Matt Brodsky, Bill Buxton, Jenna Butler, Adam Coleman, Mary Czerwinski, Brian Houck, Ginger Hudson, Shamsi Iqbal, Chandra Maddila, Kate Nowak, Emily Peloquin, Ricardo\u00a0Reyna Fernandez, Sean Rintel, Abigail Sellen, Tiffany Smith, Margaret-Anne Storey, Siddharth Suri, Hana Wolf, and Longqi Yang. 2021. The New Future of Work: Research from Microsoft into the Pandemic\u2019s Impact on Work Practices. Technical Report MSR-TR-2021-1. Microsoft.",
+      "doi": ""
+    },
+    {
+      "text": "Julian Thayer and Bj\u00f8rn\u00a0Helge Johnsen. 2000. Sex differences in judgement of facial affect: A multivariate analysis of recognition errors. Scandinavian journal of psychology 41, 3 (2000), 243\u2013246.",
+      "doi": ""
+    },
+    {
+      "text": "Y-I Tian, Takeo Kanade, and Jeffrey\u00a0F Cohn. 2001. Recognizing action units for facial expression analysis. IEEE Transactions on pattern analysis and machine intelligence 23, 2(2001), 97\u2013115.",
+      "doi": "10.1109/34.908962"
+    },
+    {
+      "text": "Marko Tkalcic, Andrej Kosir, and Jurij Tasic. 2011. Affective recommender systems: the role of emotions in recommender systems. CEUR-WS. org.",
+      "doi": ""
+    },
+    {
+      "text": "Jessica\u00a0L Tracy and Daniel Randles. 2011. Four models of basic emotions: a review of Ekman and Cordaro, Izard, Levenson, and Panksepp and Watt. Emotion review 3, 4 (2011), 397\u2013405.",
+      "doi": ""
+    },
+    {
+      "text": "Michel\u00a0F Valstar, Maja Pantic, Zara Ambadar, and Jeffrey\u00a0F Cohn. 2006. Spontaneous vs. posed facial behavior: automatic analysis of brow actions. In Proceedings of the 8th international conference on Multimodal interfaces. 162\u2013170.",
+      "doi": "10.1145/1180995.1181031"
+    },
+    {
+      "text": "Joelle Vanhamme and Dirk Snelders. 2001. The role of surprise in satisfaction judgments. Journal of Consumer Satisfaction Dissatisfaction and Complaining Behavior 14(2001), 27\u201345.",
+      "doi": ""
+    },
+    {
+      "text": "David Watson, Lee\u00a0Anna Clark, and Auke Tellegen. 1988. Development and validation of brief measures of positive and negative affect: the PANAS scales.Journal of personality and social psychology 54, 6(1988), 1063.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Wood, Valerio Ghezzi, Claudio Barbaranelli, Cristina Di\u00a0Tecco, Roberta Fida, Farnese Maria\u00a0Luisa, Matteo Ronchetti, and Sergio Iavicoli. 2019. Assessing the Risk of Stress in Organizations: Getting the Measure of Organizational-Level Stressors. Frontiers in Psychology 10 (12 2019), 2776. https://doi.org/10.3389/fpsyg.2019.02776",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0A Wright and Barry\u00a0M Staw. 1999. Affect and favorable work outcomes: two longitudinal tests of the happy\u2013productive worker thesis. Journal of Organizational Behavior: The International Journal of Industrial, Occupational and Organizational Psychology and Behavior 20, 1(1999), 1\u201323.",
+      "doi": ""
+    },
+    {
+      "text": "Chih-Hung Wu, Yueh-Min Huang, and Jan-Pan Hwang. 2016. Review of affective computing in education/learning: Trends and challenges. British Journal of Educational Technology 47, 6 (2016), 1304\u20131323.",
+      "doi": ""
+    },
+    {
+      "text": "Tong Xue, Abdallah\u00a0El Ali, Gangyi Ding, and Pablo Cesar. 2021. Investigating the Relationship between Momentary Emotion Self-reports and Head and Eye Movements in HMD-based 360 VR Video Watching. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u20138.",
+      "doi": "10.1145/3411763.3451627"
+    },
+    {
+      "text": "Tong Xue, Surjya Ghosh, Gangyi Ding, Abdallah El\u00a0Ali, and Pablo Cesar. 2020. Designing real-time, continuous emotion annotation techniques for 360 VR videos. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u20139.",
+      "doi": "10.1145/3334480.3382895"
+    },
+    {
+      "text": "Jing Zhai and ARMANDO Barreto. 2008. Stress detection in computer users through non-invasive monitoring of physiological signals. Blood 5, 0 (2008).",
+      "doi": ""
+    },
+    {
+      "text": "Biqiao Zhang and Emily\u00a0Mower Provost. 2019. Automatic recognition of self-reported and perceived emotions. In Multimodal Behavior Analysis in the Wild. Elsevier, 443\u2013470.",
+      "doi": ""
+    },
+    {
+      "text": "Tianyi Zhang, Abdallah El\u00a0Ali, Chen Wang, Alan Hanjalic, and Pablo Cesar. 2020. RCEA: Real-time, Continuous Emotion Annotation for Collecting Precise Mobile Video Ground Truth Labels. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3313831.3376808"
+    },
+    {
+      "text": "Annuska Zolyomi, Andrew Begel, Jennifer\u00a0Frances Waldern, John Tang, Michael Barnett, Edward Cutrell, Daniel McDuff, Sean Andrist, and Meredith\u00a0Ringel Morris. 2019. Managing Stress: The Needs of Autistic Adults in Video Calling. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201329.",
+      "doi": "10.1145/3359236"
+    },
+    {
+      "text": "Shoshana Zuboff. 2015. Big other: surveillance capitalism and the prospects of an information civilization. Journal of information technology 30, 1 (2015), 75\u201389.",
+      "doi": ""
+    }
+  ]
+}

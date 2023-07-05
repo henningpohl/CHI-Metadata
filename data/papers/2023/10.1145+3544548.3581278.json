@@ -1,0 +1,552 @@
+{
+  "doi": "10.1145/3544548.3581278",
+  "title": "Designing Responsible AI: Adaptations of UX Practice to Meet Responsible AI Challenges",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Technology companies continue to invest in efforts to incorporate responsibility in their Artificial Intelligence (AI) advancements, while efforts to audit and regulate AI systems expand. This shift towards Responsible AI (RAI) in the tech industry necessitates new practices and adaptations to roles\u2014undertaken by a variety of practitioners in more or less formal positions, many of whom focus on the user-centered aspects of AI. To better understand practices at the intersection of user experience (UX) and RAI, we conducted an interview study with industrial UX practitioners and RAI subject matter experts, both of whom are actively involved in addressing RAI concerns throughout the early design and development of new AI-based prototypes, demos, and products, at a large technology company. Many of the specific practices and their associated challenges have yet to be surfaced in the literature, and distilling them offers a critical view into how practitioners\u2019 roles are adapting to meet present-day RAI challenges. We present and discuss three emerging practices in which RAI is being enacted and reified in UX practitioners\u2019 everyday work. We conclude by arguing that the emerging practices, goals, and types of expertise that surfaced in our study point to an evolution in praxis, with associated challenges that suggest important areas for further research in HCI.",
+  "authors": [
+    {
+      "name": "Qiaosi Wang",
+      "institution": "School of Interactive Computing, Georgia Institute of Technology, United States",
+      "img": "/do/10.1145/contrib-99659358338/rel-imgonly/99659358338.jpg",
+      "acmid": "99659358338",
+      "orcid": "0000-0002-5296-5440"
+    },
+    {
+      "name": "Michael Madaio",
+      "institution": "Google Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658714622",
+      "orcid": "0000-0001-5772-0488"
+    },
+    {
+      "name": "Shaun Kane",
+      "institution": "Google Research, United States",
+      "img": "/do/10.1145/contrib-81329489903/rel-imgonly/kane-headshot.jpg",
+      "acmid": "81329489903",
+      "orcid": "0000-0002-0276-9417"
+    },
+    {
+      "name": "Shivani Kapania",
+      "institution": "Google Research, India",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659492417",
+      "orcid": "0000-0002-0152-4311"
+    },
+    {
+      "name": "Michael Terry",
+      "institution": "Google Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100295906",
+      "orcid": "0000-0003-1941-939X"
+    },
+    {
+      "name": "Lauren Wilcox",
+      "institution": "Google Research, United States",
+      "img": "/do/10.1145/contrib-81416600696/rel-imgonly/81416600696.jpeg",
+      "acmid": "81416600696",
+      "orcid": "0000-0001-6598-1733"
+    }
+  ],
+  "references": [
+    {
+      "text": "2019. People+AI Guidebook. https://pair.withgoogle.com/guidebook/.",
+      "doi": ""
+    },
+    {
+      "text": "Alekh Agarwal, Alina Beygelzimer, Miroslav Dud\u00edk, John Langford, and Hanna Wallach. 2018. A reductions approach to fair classification. In International Conference on Machine Learning. PMLR, 60\u201369.",
+      "doi": ""
+    },
+    {
+      "text": "Yongsu Ahn and Yu-Ru Lin. 2019. Fairsight: Visual analytics for fairness in decision making. IEEE transactions on visualization and computer graphics 26, 1(2019), 1086\u20131095.",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul\u00a0N Bennett, Kori Inkpen, 2019. Guidelines for human-AI interaction. In Proceedings of the 2019 chi conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Stephanie Ballard, Karen\u00a0M Chappell, and Kristen Kennedy. 2019. Judgment call the game: Using value sensitive design and design fiction to surface ethical concerns related to technology. In Proceedings of the 2019 on Designing Interactive Systems Conference. 421\u2013433.",
+      "doi": "10.1145/3322276.3323697"
+    },
+    {
+      "text": "Niels Bantilan. 2018. Themis-ml: A fairness-aware machine learning interface for end-to-end discrimination discovery and mitigation. Journal of Technology in Human Services 36, 1 (2018), 15\u201330.",
+      "doi": ""
+    },
+    {
+      "text": "Rachel\u00a0KE Bellamy, Kuntal Dey, Michael Hind, Samuel\u00a0C Hoffman, Stephanie Houde, Kalapriya Kannan, Pranay Lohia, Jacquelyn Martino, Sameep Mehta, Aleksandra Mojsilovi\u0107, 2019. AI Fairness 360: An extensible toolkit for detecting and mitigating algorithmic bias. IBM Journal of Research and Development 63, 4/5 (2019), 4\u20131.",
+      "doi": ""
+    },
+    {
+      "text": "Emily\u00a0M Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. 2021. On the dangers of stochastic parrots: Can language models be too big?. In FAccT 2021 - Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency. Association for Computing Machinery, Inc, 610\u2013623.",
+      "doi": "10.1145/3442188.3445922"
+    },
+    {
+      "text": "Elena Beretta, Antonio Vetr\u00f2, Bruno Lepri, and Juan Carlos\u00a0De Martin. 2021. Detecting discriminatory risk through data annotation based on bayesian inferences. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency. 794\u2013804.",
+      "doi": "10.1145/3442188.3445940"
+    },
+    {
+      "text": "Sarah Bird, Miro Dud\u00edk, Richard Edgar, Brandon Horn, Roman Lutz, Vanessa Milan, Mehrnoosh Sameki, Hanna Wallach, and Kathleen Walker. 2020. Fairlearn: A toolkit for assessing and improving fairness in AI. Microsoft, Tech. Rep. MSR-TR-2020-32(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Su\u00a0Lin Blodgett. 2021. Sociolinguistically driven approaches for just natural language processing. (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Su\u00a0Lin Blodgett, Hal Daum\u00e9\u00a0III, Michael Madaio, Ani Nenkova, Brendan O\u2019Connor, Hanna Wallach, and Qian Yang. 2022. Proceedings of the Second Workshop on Bridging Human\u2013Computer Interaction and Natural Language Processing. In Proceedings of the Second Workshop on Bridging Human\u2013Computer Interaction and Natural Language Processing.",
+      "doi": ""
+    },
+    {
+      "text": "Su\u00a0Lin Blodgett, Q\u00a0Vera Liao, Alexandra Olteanu, Rada Mihalcea, Michael Muller, Morgan\u00a0Klaus Scheuerman, Chenhao Tan, and Qian Yang. 2022. Responsible Language Technologies: Foreseeing and Mitigating Harms. In CHI Conference on Human Factors in Computing Systems Extended Abstracts. 1\u20133.",
+      "doi": ""
+    },
+    {
+      "text": "Su\u00a0Lin Blodgett, Gilsinia Lopez, Alexandra Olteanu, Robert Sim, and Hanna Wallach. 2021. Stereotyping Norwegian salmon: An inventory of pitfalls in fairness benchmark datasets. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). 1004\u20131015.",
+      "doi": ""
+    },
+    {
+      "text": "Rishi Bommasani, Drew\u00a0A Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney von Arx, Michael\u00a0S Bernstein, Jeannette Bohg, Antoine Bosselut, Emma Brunskill, 2021. On the opportunities and risks of foundation models. arXiv preprint arXiv:2108.07258(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Karen\u00a0L Boyd and Katie Shilton. 2021. Adapting Ethical Sensitivity as a Construct to Study Technology Design Teams. Proceedings of the ACM on Human-Computer Interaction 5, GROUP(2021), 1\u201329.",
+      "doi": "10.1145/3463929"
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qual. Res. Psychol. 3, 2 (Jan. 2006), 77\u2013101.",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2019. Reflecting on reflexive thematic analysis. Qualitative Research in Sport, Exercise and Health 11, 4 (Aug. 2019), 589\u2013597.",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2021. One size fits all? What counts as quality practice in (reflexive) thematic analysis?Qual. Res. Psychol. 18, 3 (July 2021), 328\u2013352.",
+      "doi": ""
+    },
+    {
+      "text": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared\u00a0D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, 2020. Language models are few-shot learners. Advances in neural information processing systems 33 (2020), 1877\u20131901.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Chalmers and Ian MacColl. 2003. Seamful and seamless design in ubiquitous computing. In Workshop at the crossroads: The interaction of HCI and systems issues in UbiComp, Vol.\u00a08.",
+      "doi": ""
+    },
+    {
+      "text": "Kyla Chasalow and Karen Levy. 2021. Representativeness in statistics, politics, and machine learning. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency. 77\u201389.",
+      "doi": "10.1145/3442188.3445872"
+    },
+    {
+      "text": "Shruthi\u00a0Sai Chivukula, Aiza Hasib, Ziqing Li, Jingle Chen, and Colin\u00a0M Gray. 2021. Identity Claims that Underlie Ethical Awareness and Action. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445375"
+    },
+    {
+      "text": "Shruthi\u00a0Sai Chivukula, Ziqing Li, Anne\u00a0C Pivonka, Jingning Chen, and Colin\u00a0M Gray. 2021. Surveying the landscape of ethics-focused design methods. arXiv preprint arXiv:2102.08909(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Shruthi\u00a0Sai Chivukula, Chris\u00a0Rhys Watkins, Rhea Manocha, Jingle Chen, and Colin\u00a0M Gray. 2020. Dimensions of UX Practice that Shape Ethical Awareness. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376459"
+    },
+    {
+      "text": "Ned Cooper, Tiffanie Horne, Gillian\u00a0R Hayes, Courtney Heldreth, Michal Lahav, Jess Holbrook, and Lauren Wilcox. 2022. A Systematic Review and Thematic Analysis of Community-Collaborative Approaches to Computing Research. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 73, 18\u00a0pages. https://doi.org/10.1145/3491102.3517716",
+      "doi": "10.1145/3491102.3517716"
+    },
+    {
+      "text": "Hai Dang, Lukas Mecke, Florian Lehmann, Sven Goller, and Daniel Buschek. 2022. How to Prompt? Opportunities and Challenges of Zero-and Few-Shot Learning for Human-AI Interaction in Creative Applications of Generative Models. arXiv preprint arXiv:2209.01390(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Aida\u00a0Mostafazadeh Davani, Mark D\u00edaz, and Vinodkumar Prabhakaran. 2022. Dealing with disagreements: Looking beyond the majority vote in subjective annotations. Transactions of the Association for Computational Linguistics 10 (2022), 92\u2013110.",
+      "doi": ""
+    },
+    {
+      "text": "Fernando Delgado, Stephen Yang, Michael Madaio, and Qian Yang. 2021. Stakeholder Participation in AI: Beyond\" Add Diverse Stakeholders and Stir\". arXiv preprint arXiv:2111.01122(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Wesley\u00a0Hanwen Deng, Manish Nagireddy, Michelle Seng\u00a0Ah Lee, Jatinder Singh, Zhiwei\u00a0Steven Wu, Kenneth Holstein, and Haiyi Zhu. 2022. Exploring How Machine Learning Practitioners (Try To) Use Fairness Toolkits. arXiv preprint arXiv:2205.06922(2022).",
+      "doi": "10.1145/3531146.3533113"
+    },
+    {
+      "text": "Emily Denton, Mark D\u00edaz, Ian Kivlichan, Vinodkumar Prabhakaran, and Rachel Rosen. 2021. Whose ground truth? accounting for individual and collective identities underlying dataset annotation. arXiv preprint arXiv:2112.04554(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Emily Denton, Alex Hanna, Razvan Amironesei, Andrew Smart, Hilary Nicole, and Morgan\u00a0Klaus Scheuerman. 2020. Bringing the people back in: Contesting benchmark machine learning datasets. arXiv preprint arXiv:2007.07399(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Sunipa Dev, Masoud Monajatipoor, Anaelia Ovalle, Arjun Subramonian, Jeff\u00a0M Phillips, and Kai-Wei Chang. 2021. Harms of gender exclusivity and challenges in non-binary representation in language technologies. arXiv preprint arXiv:2108.12084(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0A DeVito, Jeffrey\u00a0T Hancock, Megan French, Jeremy Birnholtz, Judd Antin, Karrie Karahalios, Stephanie Tong, and Irina Shklovski. 2018. The algorithm and the user: How can hci use lay understandings of algorithmic systems?. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u20136.",
+      "doi": "10.1145/3170427.3186320"
+    },
+    {
+      "text": "Alicia DeVos, Aditi Dhabalia, Hong Shen, Kenneth Holstein, and Motahhare Eslami. 2022. Toward User-Driven Algorithm Auditing: Investigating users\u2019 strategies for uncovering harmful algorithmic behavior. In CHI Conference on Human Factors in Computing Systems. 1\u201319.",
+      "doi": "10.1145/3491102.3517441"
+    },
+    {
+      "text": "Mark D\u00edaz, Ian Kivlichan, Rachel Rosen, Dylan Baker, Razvan Amironesei, Vinodkumar Prabhakaran, and Emily Denton. 2022. CrowdWorkSheets: Accounting for Individual and Collective Identities Underlying Crowdsourced Dataset Annotation. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 2342\u20132351. https://doi.org/10.1145/3531146.3534647",
+      "doi": "10.1145/3531146.3534647"
+    },
+    {
+      "text": "Jesse Dodge, Maarten Sap, Ana Marasovi\u0107, William Agnew, Gabriel Ilharco, Dirk Groeneveld, Margaret Mitchell, and Matt Gardner. 2021. Documenting large webtext corpora: A case study on the colossal clean crawled corpus. arXiv preprint arXiv:2104.08758(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Graham Dove, Kim Halskov, Jodi Forlizzi, and John Zimmerman. 2017. UX design innovation: Challenges for working with machine learning as a design material. In Conference on Human Factors in Computing Systems - Proceedings, Vol.\u00a02017-May. Association for Computing Machinery, 278\u2013288.",
+      "doi": "10.1145/3025453.3025739"
+    },
+    {
+      "text": "Motahhare Eslami, Karrie Karahalios, Christian Sandvig, Kristen Vaccaro, Aimee Rickman, Kevin Hamilton, and Alex Kirlik. 2016. First I\" like\" it, then I hide it: Folk Theories of Social Feeds. In Proceedings of the 2016 cHI conference on human factors in computing systems. 2371\u20132382.",
+      "doi": "10.1145/2858036.2858494"
+    },
+    {
+      "text": "Mary Flanagan, Daniel\u00a0C Howe, and Helen Nissenbaum. 2008. Embodying values in technology: Theory and practice. Information technology and moral philosophy 322 (2008), 24.",
+      "doi": ""
+    },
+    {
+      "text": "Luciano Floridi and Andrew Strait. 2020. Ethical Foresight Analysis: What it is and Why it is Needed?Minds Mach. 30, 1 (March 2020), 77\u201397.",
+      "doi": ""
+    },
+    {
+      "text": "Batya Friedman. 1996. Value-sensitive design. interactions 3, 6 (1996), 16\u201323.",
+      "doi": ""
+    },
+    {
+      "text": "Batya Friedman and David Hendry. 2012. The envisioning cards: a toolkit for catalyzing humanistic and technical imaginations. In Proceedings of the SIGCHI conference on human factors in computing systems. 1145\u20131148.",
+      "doi": "10.1145/2207676.2208562"
+    },
+    {
+      "text": "Batya Friedman, Peter Kahn, and Alan Borning. 2002. Value sensitive design: Theory and methods. University of Washington technical report 2 (2002), 12.",
+      "doi": ""
+    },
+    {
+      "text": "Batya Friedman and Helen Nissenbaum. 1996. Bias in computer systems. ACM Transactions on information systems (TOIS) 14, 3 (1996), 330\u2013347.",
+      "doi": "10.1145/230538.230561"
+    },
+    {
+      "text": "Deep Ganguli, Liane Lovitt, Jackson Kernion, Amanda Askell, Yuntao Bai, Saurav Kadavath, Ben Mann, Ethan Perez, Nicholas Schiefer, Kamal Ndousse, [n. d.]. Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned. ([n. d.]).",
+      "doi": ""
+    },
+    {
+      "text": "Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer\u00a0Wortman Vaughan, Hanna Wallach, Hal\u00a0Daum\u00e9 Iii, and Kate Crawford. 2021. Datasheets for datasets. Commun. ACM 64, 12 (2021), 86\u201392.",
+      "doi": "10.1145/3458723"
+    },
+    {
+      "text": "Samuel Gehman, Suchin Gururangan, Maarten Sap, Yejin Choi, and Noah\u00a0A Smith. 2020. Realtoxicityprompts: Evaluating neural toxic degeneration in language models. arXiv preprint arXiv:2009.11462(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Ira Globus-Harris, Michael Kearns, and Aaron Roth. 2022. An Algorithmic Framework for Bias Bounties. (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Colin\u00a0M Gray and Shruthi\u00a0Sai Chivukula. 2019. Ethical mediation in UX practice. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201311.",
+      "doi": "10.1145/3290605.3300408"
+    },
+    {
+      "text": "Mary\u00a0L Gray and Siddharth Suri. 2019. Ghost work: How to stop Silicon Valley from building a new global underclass. Eamon Dolan Books.",
+      "doi": ""
+    },
+    {
+      "text": "Anna\u00a0Lauren Hoffmann. 2020. Terms of Inclusion: Data, Discourse, Violence. New Media & Society(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth Holstein, Jennifer\u00a0Wortman Vaughan, Hal Daum\u00e9, Miroslav Dud\u00edk, and Hanna Wallach. 2019. Improving fairness in machine learning systems: What do industry practitioners need?. In Conference on Human Factors in Computing Systems - Proceedings. Association for Computing Machinery.",
+      "doi": "10.1145/3290605.3300830"
+    },
+    {
+      "text": "Matthew\u00a0K Hong, Adam Fourney, Derek DeBellis, and Saleema Amershi. 2021. Planning for natural language failures with the ai playbook. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201311.",
+      "doi": "10.1145/3411764.3445735"
+    },
+    {
+      "text": "Lara Houston, Steven\u00a0J Jackson, Daniela\u00a0K Rosner, Syed\u00a0Ishtiaque Ahmed, Meg Young, and Laewoo Kang. 2016. Values in repair. In Proceedings of the 2016 CHI conference on human factors in computing systems. 1403\u20131414.",
+      "doi": "10.1145/2858036.2858470"
+    },
+    {
+      "text": "Ben Hutchinson, Negar Rostamzadeh, Christina Greer, Katherine Heller, and Vinodkumar Prabhakaran. 2022. Evaluation Gaps in Machine Learning Practice. arXiv preprint arXiv:2205.05256(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Nassim JafariNaimi, Lisa Nathan, and Ian Hargraves. 2015. Values as hypotheses: design, inquiry, and the service of values. Design issues 31, 4 (2015), 91\u2013104.",
+      "doi": ""
+    },
+    {
+      "text": "Seyyed\u00a0Ahmad Javadi, Chris Norval, Richard Cloete, and Jatinder Singh. 2021. Monitoring AI Services for Misuse. In Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society. 597\u2013607.",
+      "doi": "10.1145/3461702.3462566"
+    },
+    {
+      "text": "Robin Jia and Percy Liang. 2017. Adversarial examples for evaluating reading comprehension systems. arXiv preprint arXiv:1707.07328(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Ellen Jiang, Kristen Olson, Edwin Toh, Alejandra Molina, Aaron Donsbach, Michael Terry, and Carrie\u00a0J Cai. 2022. PromptMaker: Prompt-based Prototyping with Large Language Models. In CHI Conference on Human Factors in Computing Systems Extended Abstracts. ACM, New York, NY, USA, 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Anna Jobin, Marcello Ienca, and Effy Vayena. 2019. The global landscape of AI ethics guidelines. Nature Machine Intelligence 1, 9 (2019), 389\u2013399.",
+      "doi": ""
+    },
+    {
+      "text": "Nadia Karizat, Dan Delmonaco, Motahhare Eslami, and Nazanin Andalibi. 2021. Algorithmic folk theories and identity: How TikTok users co-produce Knowledge of identity and engage in algorithmic resistance. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201344.",
+      "doi": "10.1145/3476046"
+    },
+    {
+      "text": "Svetlana Kiritchenko, Isar Nejadgholi, and Kathleen\u00a0C. Fraser. 2021. Confronting Abusive Language Online: A Survey from the Ethical and Human Rights Perspective. J. Artif. Int. Res. 71 (sep 2021), 431\u2013478. https://doi.org/10.1613/jair.1.12590",
+      "doi": "10.1613/jair.1.12590"
+    },
+    {
+      "text": "Bogdan Kulynych, David Madras, Smitha Milli, Inioluwa\u00a0Deborah Raji, Angela Zhou, and Richard Zemel. 2020. Participatory Approaches to Machine Learning. International Conference on Machine Learning Workshop.",
+      "doi": ""
+    },
+    {
+      "text": "Neha Kumar, Marisol Wong-Villacres, Naveena Karusala, Aditya Vishwanath, Arkadeep Kumar, and Azra Ismail. 2019. Aspirations-based design. In Proceedings of the tenth international conference on information and communication technologies and development. 1\u201311.",
+      "doi": "10.1145/3287098.3287117"
+    },
+    {
+      "text": "Kari Kuutti and Liam\u00a0J Bannon. 2014. The turn to practice in HCI: towards a research agenda. In Proceedings of the SIGCHI conference on human factors in computing systems. 3543\u20133552.",
+      "doi": "10.1145/2556288.2557111"
+    },
+    {
+      "text": "Min\u00a0Kyung Lee, Nina Grgi\u0107-Hla\u010da, Michael\u00a0Carl Tschantz, Reuben Binns, Adrian Weller, Michelle Carney, and Kori Inkpen. 2020. Human-centered approaches to fair and responsible AI. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u20138.",
+      "doi": "10.1145/3334480.3375158"
+    },
+    {
+      "text": "Michelle Seng\u00a0Ah Lee and Jatinder Singh. 2021. The landscape and gaps in open source fairness toolkits. In Conference on Human Factors in Computing Systems - Proceedings. Association for Computing Machinery.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Madaio, Lisa Egede, Hariharan Subramonyam, Jennifer Wortman\u00a0Vaughan, and Hanna Wallach. 2022. Assessing the Fairness of AI Systems: AI Practitioners\u2019 Processes, Challenges, and Needs for Support. Proceedings of the ACM on Human-Computer Interaction 6, CSCW1(2022), 1\u201326.",
+      "doi": "10.1145/3512899"
+    },
+    {
+      "text": "Michael\u00a0A Madaio, Luke Stark, Jennifer Wortman\u00a0Vaughan, and Hanna Wallach. 2020. Co-Designing Checklists to Understand Organizational Challenges and Opportunities around Fairness in AI. In Conference on Human Factors in Computing Systems - Proceedings. Association for Computing Machinery.",
+      "doi": "10.1145/3313831.3376445"
+    },
+    {
+      "text": "Milagros Miceli, Martin Schuessler, and Tianling Yang. 2020. Between subjectivity and imposition: Power dynamics in data annotation for computer vision. Proceedings of the ACM on Human-Computer Interaction 4, CSCW2(2020), 1\u201325.",
+      "doi": "10.1145/3415186"
+    },
+    {
+      "text": "Jessica Morley, Luciano Floridi, Libby Kinsey, and Anat Elhalal. 2020. From what to how: an initial review of publicly available AI ethics tools, methods and research to translate principles into practices. Science and engineering ethics 26, 4 (2020), 2141\u20132168.",
+      "doi": ""
+    },
+    {
+      "text": "Jessica Morley, Libby Kinsey, Anat Elhalal, Francesca Garcia, Marta Ziosi, and Luciano Floridi. 2021. Operationalising AI ethics: barriers, enablers and next steps. AI and Society (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0J Muller and Sarah Kuhn. 1993. Participatory design. Commun. ACM 36, 6 (1993), 24\u201328.",
+      "doi": "10.1145/153571.255960"
+    },
+    {
+      "text": "Moin Nadeem, Anna Bethke, and Siva Reddy. 2020. Stereoset: Measuring stereotypical bias in pretrained language models. arXiv preprint arXiv:2004.09456(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Nadia Nahar, Shurui Zhou, Grace Lewis, and Christian K\u00e4stner. 2022. Collaboration Challenges in Building ML-Enabled Systems: Communication, Documentation, Engineering, and Process. Organization 1, 2 (2022), 3.",
+      "doi": ""
+    },
+    {
+      "text": "Nikita Nangia, Saku Sugawara, Harsh Trivedi, Alex Warstadt, Clara Vania, and Samuel\u00a0R Bowman. 2021. What ingredients make for an effective crowdsourcing protocol for difficult NLU data collection tasks?arXiv preprint arXiv:2106.00794(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Nikita Nangia, Clara Vania, Rasika Bhalerao, and Samuel\u00a0R Bowman. 2020. CrowS-pairs: A challenge dataset for measuring social biases in masked language models. arXiv preprint arXiv:2010.00133(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Helen Nissenbaum. 2001. How computer systems embody values. Computer 34, 3 (2001), 120\u2013119.",
+      "doi": "10.5555/619061.621683"
+    },
+    {
+      "text": "Samir Passi and Mihaela Vorvoreanu. [n. d.]. Overreliance on AI: Literature review. ([n. d.]).",
+      "doi": ""
+    },
+    {
+      "text": "Ethan Perez, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John Aslanides, Amelia Glaese, Nat McAleese, and Geoffrey Irving. 2022. Red teaming language models with language models. arXiv preprint arXiv:2202.03286(2022).",
+      "doi": ""
+    },
+    {
+      "text": "David Piorkowski, Soya Park, April\u00a0Yi Wang, Dakuo Wang, Michael Muller, and Felix Portnoy. 2021. How ai developers overcome communication challenges in a multidisciplinary team: A case study. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201325.",
+      "doi": "10.1145/3449205"
+    },
+    {
+      "text": "Mahima Pushkarna, Andrew Zaldivar, and Oddur Kjartansson. 2022. Data Cards: Purposeful and Transparent Dataset Documentation for Responsible AI. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 1776\u20131826. https://doi.org/10.1145/3531146.3533231",
+      "doi": "10.1145/3531146.3533231"
+    },
+    {
+      "text": "Bogdana Rakova, Jingying Yang, Henriette Cramer, and Rumman Chowdhury. 2021. Where responsible AI meets reality: Practitioner perspectives on enablers for shifting organizational practices. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201323.",
+      "doi": "10.1145/3449081"
+    },
+    {
+      "text": "Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, and Ilya Sutskever. 2021. Zero-shot text-to-image generation. In International Conference on Machine Learning. PMLR, 8821\u20138831.",
+      "doi": ""
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Tongshuang Wu, Carlos Guestrin, and Sameer Singh. 2020. Beyond accuracy: Behavioral testing of NLP models with CheckList. arXiv preprint arXiv:2005.04118(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Emma Rose and Josh Tenenberg. 2016. Arguing about design: A taxonomy of rhetorical strategies deployed by user experience practitioners. In Proceedings of the 34th ACM International Conference on the Design of Communication. 1\u201310.",
+      "doi": "10.1145/2987592.2987608"
+    },
+    {
+      "text": "Morgan\u00a0Klaus Scheuerman, Jacob\u00a0M Paul, and Jed\u00a0R Brubaker. 2019. How computers see gender: An evaluation of gender classification in commercial facial analysis services. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201333.",
+      "doi": "10.1145/3359246"
+    },
+    {
+      "text": "Ari Schlesinger, Kenton\u00a0P O\u2019Hara, and Alex\u00a0S Taylor. 2018. Let\u2019s talk about race: Identity, chatbots, and AI. In Proceedings of the 2018 chi conference on human factors in computing systems. 1\u201314.",
+      "doi": "10.1145/3173574.3173889"
+    },
+    {
+      "text": "Andrew\u00a0D Selbst, Danah Boyd, Sorelle\u00a0A Friedler, Suresh Venkatasubramanian, and Janet Vertesi. 2019. Fairness and abstraction in sociotechnical systems. In Proceedings of the conference on fairness, accountability, and transparency. 59\u201368.",
+      "doi": "10.1145/3287560.3287598"
+    },
+    {
+      "text": "Hong Shen, Alicia DeVos, Motahhare Eslami, and Kenneth Holstein. 2021. Everyday algorithm auditing: Understanding the power of everyday users in surfacing harmful algorithmic behaviors. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201329.",
+      "doi": "10.1145/3479577"
+    },
+    {
+      "text": "Katie Shilton. 2013. Values levers: Building ethics into design. Science, Technology, & Human Values 38, 3 (2013), 374\u2013397.",
+      "doi": ""
+    },
+    {
+      "text": "Ignacio Siles, Andr\u00e9s Segura-Castillo, Ricardo Sol\u00eds, and M\u00f3nica Sancho. 2020. Folk theories of algorithmic recommendations on Spotify: Enacting data assemblages in the global South. Big Data & Society 7, 1 (2020), 2053951720923377.",
+      "doi": ""
+    },
+    {
+      "text": "Susan\u00a0Leigh Star and Anselm Strauss. 1999. Layers of Silence, Arenas of Voice: The Ecology of Visible and Invisible Work., 9\u201330\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Anselm Strauss. 1988. The articulation of project work: An organizational process. Sociological Quarterly 29, 2 (1988), 163\u2013178.",
+      "doi": ""
+    },
+    {
+      "text": "Norman\u00a0Makoto Su, Amanda Lazar, and Lilly Irani. 2021. Critical Affects: tech work emotions amidst the techlash. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201327.",
+      "doi": "10.1145/3449253"
+    },
+    {
+      "text": "Hariharan Subramonyam, Jane Im, Colleen Seifert, and Eytan Adar. 2022. Human-AI Guidelines in Practice: Leaky Abstractions as an Enabler in Collaborative Software Teams. arXiv preprint arXiv:2207.01749(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Hariharan Subramonyam, Colleen Seifert, and Eytan Adar. 2021. ProtoAI: Model-Informed Prototyping for AI-Powered Interfaces. In International Conference on Intelligent User Interfaces, Proceedings IUI. Association for Computing Machinery, 48\u201358.",
+      "doi": ""
+    },
+    {
+      "text": "Lucy Suchman. 2002. Located accountabilities in technology production. Scandinavian Journal of Information Systems 14, 2 (2002), 7.",
+      "doi": "10.5555/782686.782694"
+    },
+    {
+      "text": "Zeerak Talat, Aur\u00e9lie N\u00e9v\u00e9ol, Stella Biderman, Miruna Clinciu, Manan Dey, Shayne Longpre, Sasha Luccioni, Maraim Masoud, Margaret Mitchell, Dragomir Radev, 2022. You reap what you sow: On the challenges of bias evaluation under multilingual settings. In Challenges.",
+      "doi": ""
+    },
+    {
+      "text": "Kentaro Toyama. 2017. Design, needs, and aspirations in international development. In International Conference on Social Implications of Computers in Developing Countries. Springer, 24\u201332.",
+      "doi": ""
+    },
+    {
+      "text": "Kush Varshney, Tina Park, Inioluwa\u00a0Deborah Raji, Gaurush Hiranandani, Narasimhan Harikrishna, Oluwasanmi Koyejo, Brianna Richardson, and Min\u00a0Kyung Lee. 2021. Participatory Specification of Trustworthy Machine Learning. https://www.abstractsonline.com/pp8/#!/10390/session/446",
+      "doi": ""
+    },
+    {
+      "text": "Peter-Paul Verbeek. 2011. Moralizing technology: Understanding and designing the morality of things. University of Chicago press.",
+      "doi": ""
+    },
+    {
+      "text": "Laura Weidinger, John Mellor, Maribeth Rauh, Conor Griffin, Jonathan Uesato, Po-Sen Huang, Myra Cheng, Mia Glaese, Borja Balle, Atoosa Kasirzadeh, 2021. Ethical and social risks of harm from language models. arXiv preprint arXiv:2112.04359(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Laura Weidinger, Jonathan Uesato, Maribeth Rauh, Conor Griffin, Po-Sen Huang, John Mellor, Amelia Glaese, Myra Cheng, Borja Balle, Atoosa Kasirzadeh, 2022. Taxonomy of risks posed by language models. In 2022 ACM Conference on Fairness, Accountability, and Transparency. 214\u2013229.",
+      "doi": "10.1145/3531146.3533088"
+    },
+    {
+      "text": "Sarah\u00a0Myers West, Meredith Whittaker, and Kate Crawford. 2019. Discriminating systems. AI Now (2019).",
+      "doi": ""
+    },
+    {
+      "text": "James Wexler, Mahima Pushkarna, Tolga Bolukbasi, Martin Wattenberg, Fernanda Vi\u00e9gas, and Jimbo Wilson. 2019. The what-if tool: Interactive probing of machine learning models. IEEE transactions on visualization and computer graphics 26, 1(2019), 56\u201365.",
+      "doi": ""
+    },
+    {
+      "text": "Lauren Wilcox, Betsy DiSalvo, Dick Henneman, and Qiaosi Wang. 2019. Design in the HCI classroom: Setting a research agenda. In Proceedings of the 2019 on Designing Interactive Systems Conference. 871\u2013883.",
+      "doi": "10.1145/3322276.3322381"
+    },
+    {
+      "text": "Amy\u00a0A. Winecoff and Elizabeth\u00a0Anne Watkins. 2022. Artificial Concepts of Artificial Intelligence. In Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society. ACM. https://doi.org/10.1145/3514094.3534138",
+      "doi": "10.1145/3514094.3534138"
+    },
+    {
+      "text": "Langdon Winner. 2017. Do artifacts have politics?In Computer Ethics. Routledge, 177\u2013192.",
+      "doi": ""
+    },
+    {
+      "text": "Christine\u00a0T. Wolf, Haiyi Zhu, Julia Bullard, Min\u00a0Kyung Lee, and Jed\u00a0R. Brubaker. 2018. The Changing Contours of \"Participation\" in Data-Driven, Algorithmic Ecosystems: Challenges, Tactics, and an Agenda. In Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing (Jersey City, NJ, USA) (CSCW \u201918). Association for Computing Machinery, New York, NY, USA, 377\u2013384. https://doi.org/10.1145/3272973.3273005",
+      "doi": "10.1145/3272973.3273005"
+    },
+    {
+      "text": "Richmond\u00a0Y Wong. 2021. Tactics of Soft Resistance in User Experience Professionals\u2019 Values Work. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201328.",
+      "doi": "10.1145/3479499"
+    },
+    {
+      "text": "Richmond\u00a0Y Wong. 2021. Using Design Fiction Memos to Analyze UX Professionals\u2019 Values Work Practices: A Case Study Bridging Ethnographic and Design Futuring Methods. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3411764.3445709"
+    },
+    {
+      "text": "Richmond\u00a0Y Wong, Michael\u00a0A Madaio, and Nick Merrill. 2022. Seeing Like a Toolkit: How Toolkits Envision the Work of AI Ethics. arXiv preprint arXiv:2202.08792(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Richmond\u00a0Y Wong and Tonya Nguyen. 2021. Timelines: A world-building activity for values advocacy. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3411764.3445447"
+    },
+    {
+      "text": "Steve Woolgar. 1990. Configuring the user: the case of usability trials. The Sociological Review 38, 1_suppl (1990), 58\u201399.",
+      "doi": ""
+    },
+    {
+      "text": "Qian Yang, Justin Cranshaw, Saleema Amershi, Shamsi\u00a0T Iqbal, and Jaime Teevan. 2019. Sketching NLP: A case study of exploring the right things to design with language intelligence. In Conference on Human Factors in Computing Systems - Proceedings. Association for Computing Machinery.",
+      "doi": "10.1145/3290605.3300415"
+    },
+    {
+      "text": "Qian Yang, Alex Scuito, John Zimmerman, Jodi Forlizzi, and Aaron Steinfeld. 2018. Investigating how experienced UX designers effectively work with machine learning. In DIS 2018 - Proceedings of the 2018 Designing Interactive Systems Conference. Association for Computing Machinery, Inc, 585\u2013596.",
+      "doi": "10.1145/3196709.3196730"
+    },
+    {
+      "text": "Qian Yang, Aaron Steinfeld, Carolyn Ros\u00e9, and John Zimmerman. 2020. Re-examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design. In Conference on Human Factors in Computing Systems - Proceedings. Association for Computing Machinery.",
+      "doi": "10.1145/3313831.3376301"
+    },
+    {
+      "text": "Nur Yildirim, Alex Kass, Teresa Tung, Connor Upton, Donnacha Costello, Robert Giusti, Sinem Lacin, Sara Lovic, James\u00a0M O\u2019Neill, Rudi\u00a0O\u2019Reilly Meehan, 2022. How Experienced Designers of Enterprise Applications Engage AI as a Design Material. In CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3491102.3517491"
+    },
+    {
+      "text": "Ann Yuan, Andy Coenen, Emily Reif, and Daphne Ippolito. 2022. Wordcraft: Story Writing With Large Language Models. In 27th International Conference on Intelligent User Interfaces. 841\u2013852.",
+      "doi": ""
+    },
+    {
+      "text": "Sabah Zdanowska and Alex\u00a0S Taylor. 2022. A study of UX practitioners roles in designing real-world, enterprise ML systems. In CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3491102.3517607"
+    },
+    {
+      "text": "Kaitlyn Zhou, Su\u00a0Lin Blodgett, Adam Trischler, Hal Daum\u00e9\u00a0III, Kaheer Suleman, and Alexandra Olteanu. 2022. Deconstructing NLG Evaluation: Evaluation Practices, Assumptions, and Their Implications. arXiv preprint arXiv:2205.06828(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Kaiyang Zhou, Jingkang Yang, Chen\u00a0Change Loy, and Ziwei Liu. 2021. Learning to prompt for vision-language models. arXiv preprint arXiv:2109.01134(2021).",
+      "doi": ""
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "doi": "10.1145/3544548.3581518",
+  "title": "Aspirations and Practice of ML Model Documentation: Moving the Needle with Nudging and Traceability",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2023,
+  "badges": [],
+  "abstract": "The documentation practice for machine-learned (ML) models often falls short of established practices for traditional software, which impedes model accountability and inadvertently abets inappropriate or misuse of models. Recently, model cards, a proposal for model documentation, have attracted notable attention, but their impact on the actual practice is unclear. In this work, we systematically study the model documentation in the field and investigate how to encourage more responsible and accountable documentation practice. Our analysis of publicly available model cards reveals a substantial gap between the proposal and the practice. We then design a tool named DocML aiming to (1) nudge the data scientists to comply with the model cards proposal during the model development, especially the sections related to ethics, and (2) assess and manage the documentation quality. A lab study reveals the benefit of our tool towards long-term documentation quality and accountability.",
+  "authors": [
+    {
+      "name": "Avinash Bhat",
+      "institution": "McGill University, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783123",
+      "orcid": "0000-0002-9375-1502"
+    },
+    {
+      "name": "Austin Coursey",
+      "institution": "Vanderbilt University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779274",
+      "orcid": "0000-0003-1774-6442"
+    },
+    {
+      "name": "Grace Hu",
+      "institution": "McGill University, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660781844",
+      "orcid": "0000-0001-8757-0281"
+    },
+    {
+      "name": "Sixian Li",
+      "institution": "McGill University, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660778589",
+      "orcid": "0000-0001-9112-6220"
+    },
+    {
+      "name": "Nadia Nahar",
+      "institution": "Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660502864",
+      "orcid": "0000-0003-4448-4804"
+    },
+    {
+      "name": "Shurui Zhou",
+      "institution": "University of Toronto, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659278548",
+      "orcid": "0000-0002-6346-6073"
+    },
+    {
+      "name": "Christian K\u00e4stner",
+      "institution": "Carnegie Mellon University, United States",
+      "img": "/do/10.1145/contrib-81331495728/rel-imgonly/tw.jpg",
+      "acmid": "81331495728",
+      "orcid": "0000-0002-4450-4572"
+    },
+    {
+      "name": "Jin L.C. Guo",
+      "institution": "McGill University, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "88158840757",
+      "orcid": "0000-0003-1782-1545"
+    }
+  ],
+  "references": [
+    {
+      "text": "Emad Aghajani, Csaba Nagy, Mario Linares-V\u00e1squez, Laura Moreno, Gabriele Bavota, Michele Lanza, and David\u00a0C. Shepherd. 2020. Software Documentation: The Practitioners\u2019 Perspective. In Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering (Seoul, South Korea) (ICSE \u201920). Association for Computing Machinery, New York, NY, USA, 590\u2013601. https://doi.org/10.1145/3377811.3380405",
+      "doi": "10.1145/3377811.3380405"
+    },
+    {
+      "text": "Emad Aghajani, Csaba Nagy, Olga\u00a0Lucero Vega-M\u00e1rquez, Mario Linares-V\u00e1squez, Laura Moreno, Gabriele Bavota, and Michele Lanza. 2019. Software Documentation Issues Unveiled. In Proceedings of the 41st International Conference on Software Engineering (Montreal, Quebec, Canada) (ICSE \u201919). IEEE Press, 1199\u20131210. https://doi.org/10.1109/ICSE.2019.00122",
+      "doi": "10.1109/ICSE.2019.00122"
+    },
+    {
+      "text": "Saleema Amershi, Andrew Begel, Christian Bird, Robert DeLine, Harald Gall, Ece Kamar, Nachiappan Nagappan, Besmira Nushi, and Thomas Zimmermann. 2019. Software Engineering for Machine Learning: A Case Study. In Proceedings of the 41st International Conference on Software Engineering: Software Engineering in Practice(Montreal, Quebec, Canada) (ICSE-SEIP \u201919). IEEE Press, 291\u2013300. https://doi.org/10.1109/ICSE-SEIP.2019.00042",
+      "doi": "10.1109/ICSE-SEIP.2019.00042"
+    },
+    {
+      "text": "Matthew Arnold, Rachel\u00a0KE Bellamy, Michael Hind, Stephanie Houde, Sameep Mehta, Aleksandra Mojsilovi\u0107, Ravi Nair, K\u00a0Natesan Ramamurthy, Alexandra Olteanu, David Piorkowski, 2019. FactSheets: Increasing trust in AI services through supplier\u2019s declarations of conformity. IBM Journal of Research and Development 63, 4/5 (2019), 6\u20131.",
+      "doi": ""
+    },
+    {
+      "text": "Deeksha\u00a0M Arya, Jin\u00a0LC Guo, and Martin\u00a0P Robillard. 2020. Information correspondence between types of documentation for APIs. Empirical Software Engineering 25, 5 (2020), 4069\u20134096.",
+      "doi": "10.1007/s10664-020-09857-0"
+    },
+    {
+      "text": "Ann Blandford, Anna\u00a0L. Cox, and Paul Cairns. 2008. Controlled experiments. Cambridge University Press, 1\u201316. https://doi.org/10.1017/CBO9780511814570.002",
+      "doi": ""
+    },
+    {
+      "text": "Su\u00a0Lin Blodgett, Solon Barocas, Hal Daum\u00e9\u00a0III, and Hanna Wallach. 2020. Language (Technology) is Power: A Critical Survey of \u201cBias\u201d in NLP. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Online, 5454\u20135476. https://doi.org/10.18653/v1/2020.acl-main.485",
+      "doi": ""
+    },
+    {
+      "text": "Karen\u00a0L Boyd. 2021. Datasheets for Datasets help ML Engineers Notice and Understand Ethical Issues in Training Data. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201327.",
+      "doi": "10.1145/3479582"
+    },
+    {
+      "text": "Chris Brown and Chris Parnin. 2021. Nudging Students Toward Better Software Engineering Behaviors. In 2021 IEEE/ACM Third International Workshop on Bots in Software Engineering (BotSE). IEEE Press, 11\u201315. https://doi.org/10.1109/BotSE52550.2021.00010",
+      "doi": ""
+    },
+    {
+      "text": "Joy Buolamwini and Timnit Gebru. 2018. Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification. In Proceedings of the 1st Conference on Fairness, Accountability and Transparency(Proceedings of Machine Learning Research, Vol.\u00a081), Sorelle\u00a0A. Friedler and Christo Wilson (Eds.). PMLR, 77\u201391. https://proceedings.mlr.press/v81/buolamwini18a.html",
+      "doi": ""
+    },
+    {
+      "text": "Ana Caraban, Evangelos Karapanos, Daniel Gon\u00e7alves, and Pedro Campos. 2019. 23 Ways to Nudge: A Review of Technology-Mediated Nudging in Human-Computer Interaction. Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3290605.3300733",
+      "doi": "10.1145/3290605.3300733"
+    },
+    {
+      "text": "Souti Chattopadhyay, Ishita Prasad, Austin\u00a0Z. Henley, Anita Sarma, and Titus Barik. 2020. What\u2019s Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376729",
+      "doi": "10.1145/3313831.3376729"
+    },
+    {
+      "text": "Zhutian Chen and Haijun Xia. 2022. CrossData: Leveraging Text-Data Connections for Authoring Data Documents. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 95, 15\u00a0pages. https://doi.org/10.1145/3491102.3517485",
+      "doi": "10.1145/3491102.3517485"
+    },
+    {
+      "text": "Jacob Cohen. 1960. A Coefficient of Agreement for Nominal Scales. Educational and Psychological Measurement 20, 1 (1960), 37\u201346. https://doi.org/10.1177/001316446002000104 arXiv:https://doi.org/10.1177/001316446002000104",
+      "doi": ""
+    },
+    {
+      "text": "Luis\u00a0Fernando Cort\u00e9s-Coy, Mario Linares-V\u00e1squez, Jairo Aponte, and Denys Poshyvanyk. 2014. On Automatically Generating Commit Messages via Summarization of Source Code Changes. In 2014 IEEE 14th International Working Conference on Source Code Analysis and Manipulation. IEEE Press, 275\u2013284. https://doi.org/10.1109/SCAM.2014.14",
+      "doi": "10.1109/SCAM.2014.14"
+    },
+    {
+      "text": "Anamaria Crisan, Margaret Drouhard, Jesse Vig, and Nazneen Rajani. 2022. Interactive Model Cards: A Human-Centered Approach to Model Documentation. In 2022 ACM Conference on Fairness, Accountability, and Transparency. ACM, Seoul Republic of Korea, 427\u2013439. https://doi.org/10.1145/3531146.3533108",
+      "doi": "10.1145/3531146.3533108"
+    },
+    {
+      "text": "Jeffrey Dastin. 2018. Amazon scraps secret AI recruiting tool that showed bias against women. https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G",
+      "doi": ""
+    },
+    {
+      "text": "The\u00a0Sphinx developers. [n. d.]. Welcome: Sphinx makes it easy to create intelligent and beautiful documentation.",
+      "doi": ""
+    },
+    {
+      "text": "Julia Dressel and Hany Farid. 2018. The accuracy, fairness, and limits of predicting recidivism. Science advances 4, 1 (2018), eaao5580.",
+      "doi": ""
+    },
+    {
+      "text": "Ian Drosos, Titus Barik, Philip\u00a0J. Guo, Robert DeLine, and Sumit Gulwani. 2020. Wrex: A Unified Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376442",
+      "doi": "10.1145/3313831.3376442"
+    },
+    {
+      "text": "Hugging Face. 2021. Hugging Face Documentation: Building a model card. Retrieved Jan 5, 2022 from https://huggingface.co/course/chapter4/4",
+      "doi": ""
+    },
+    {
+      "text": "Hugging Face. 2021. Hugging Face Documentation: Model Repos docs. Retrieved Jan 5, 2022 from https://huggingface.co/docs/hub/model-repos",
+      "doi": ""
+    },
+    {
+      "text": "Hugging Face. 2021. Hugging Face \u2013 The AI community building the future.Retrieved July 20, 2021 from https://huggingface.co/",
+      "doi": ""
+    },
+    {
+      "text": "Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer\u00a0Wortman Vaughan, Hanna Wallach, Hal\u00a0Daum\u00e9 III, and Kate Crawford. 2021. Datasheets for Datasets. Commun. ACM 64, 12 (nov 2021), 86\u201392. https://doi.org/10.1145/3458723",
+      "doi": "10.1145/3458723"
+    },
+    {
+      "text": "Joan Giner-Miguelez, Abel G\u00f3mez, and Jordi Cabot. 2022. DescribeML: A Tool for Describing Machine Learning Datasets. In Proceedings of the 25th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings (Montreal, Quebec, Canada) (MODELS \u201922). Association for Computing Machinery, New York, NY, USA, 22\u201326. https://doi.org/10.1145/3550356.3559087",
+      "doi": "10.1145/3550356.3559087"
+    },
+    {
+      "text": "Google. 2020. model-card-toolkit. https://github.com/tensorflow/model-card-toolkit.",
+      "doi": ""
+    },
+    {
+      "text": "Orlena Gotel, Jane Cleland-Huang, Jane\u00a0Huffman Hayes, Andrea Zisman, Alexander Egyed, Paul Gr\u00fcnbacher, Alex Dekhtyar, Giuliano Antoniol, Jonathan Maletic, and Patrick M\u00e4der. 2012. Traceability Fundamentals. Springer London, London, 3\u201322. https://doi.org/10.1007/978-1-4471-2239-5_1",
+      "doi": ""
+    },
+    {
+      "text": "Mark Haakman, Lu\u00eds Cruz, Hennie Huijgens, and Arie van Deursen. 2021. AI Lifecycle Models Need to Be Revised: An Exploratory Study in Fintech. Empirical Softw. Engg. 26, 5 (sep 2021), 29\u00a0pages. https://doi.org/10.1007/s10664-021-09993-1",
+      "doi": "10.1007/s10664-021-09993-1"
+    },
+    {
+      "text": "Andrew Head, Fred Hohman, Titus Barik, Steven\u00a0M. Drucker, and Robert DeLine. 2019. Managing Messes in Computational Notebooks. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300500",
+      "doi": "10.1145/3290605.3300500"
+    },
+    {
+      "text": "Andrew Head, Fred Hohman, Titus Barik, Steven\u00a0M. Drucker, and Robert DeLine. 2019. Managing Messes in Computational Notebooks. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300500",
+      "doi": "10.1145/3290605.3300500"
+    },
+    {
+      "text": "Andrew Head, Jason Jiang, James Smith, Marti\u00a0A. Hearst, and Bj\u00f6rn Hartmann. 2020. Composing Flexibly-Organized Step-by-Step Tutorials from Linked Source Code, Snippets, and Outputs. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376798",
+      "doi": "10.1145/3313831.3376798"
+    },
+    {
+      "text": "Jazlyn Hellman, Eunbee Jang, Christoph Treude, Chenzhun Huang, and Jin\u00a0LC Guo. 2021. Generating GitHub Repository Descriptions: A Comparison of Manual and Automated Approaches. (2021). https://doi.org/10.48550/arXiv.2110.13283 arXiv:arXiv:2110.13283",
+      "doi": ""
+    },
+    {
+      "text": "Sarah Holland, Ahmed Hosny, and Sarah Newman. 2020. The dataset nutrition label. Data Protection and Privacy, Volume 12: Data Protection and Democracy 12 (2020), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth Holstein, Jennifer Wortman\u00a0Vaughan, Hal Daum\u00e9, Miro Dudik, and Hanna Wallach. 2019. Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?Association for Computing Machinery, New York, NY, USA, 1\u201316. https://doi.org/10.1145/3290605.3300830",
+      "doi": "10.1145/3290605.3300830"
+    },
+    {
+      "text": "Aspen Hopkins and Serena Booth. 2021. Machine Learning Practices Outside Big Tech: How Resource Constraints Challenge Responsible Development. In Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society (Virtual Event, USA) (AIES \u201921). Association for Computing Machinery, New York, NY, USA, 134\u2013145. https://doi.org/10.1145/3461702.3462527",
+      "doi": "10.1145/3461702.3462527"
+    },
+    {
+      "text": "Geoff Hulten. 2018. Building Intelligent Systems: A Guide to Machine Learning Engineering. Apress.",
+      "doi": ""
+    },
+    {
+      "text": "Jigsaw. 2017. Perspective API. https://www.perspectiveapi.com/.",
+      "doi": ""
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Marissa Radensky, Mahima Arya, Bonnie\u00a0E. John, and Brad\u00a0A. Myers. 2018. The Story in the Notebook: Exploratory Data Science Using a Literate Programming Tool. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3173574.3173748",
+      "doi": "10.1145/3173574.3173748"
+    },
+    {
+      "text": "Douglas Kramer. 1999. API Documentation from Source Code Comments: A Case Study of Javadoc. In Proceedings of the 17th Annual International Conference on Computer Documentation (New Orleans, Louisiana, USA) (SIGDOC \u201999). Association for Computing Machinery, New York, NY, USA, 147\u2013153. https://doi.org/10.1145/318372.318577",
+      "doi": "10.1145/318372.318577"
+    },
+    {
+      "text": "Valliappa Lakshmanan, Sara Robinson, and Michael Munn. 2020. Machine learning design patterns. O\u2019Reilly Media.",
+      "doi": ""
+    },
+    {
+      "text": "Charlotte\u00a0P. Lee. 2005. Between Chaos and Routine: Boundary Negotiating Artifacts in Collaboration. In ECSCW 2005, Hans Gellersen, Kjeld Schmidt, Michel Beaudouin-Lafon, and Wendy Mackay (Eds.). Springer Netherlands, Dordrecht, 387\u2013406.",
+      "doi": ""
+    },
+    {
+      "text": "Z. Liu, P. Luo, X. Wang, and X. Tang. 2015. Deep Learning Face Attributes in the Wild. In 2015 IEEE International Conference on Computer Vision (ICCV). IEEE Computer Society, Los Alamitos, CA, USA, 3730\u20133738. https://doi.org/10.1109/ICCV.2015.425",
+      "doi": "10.1109/ICCV.2015.425"
+    },
+    {
+      "text": "Katherine\u00a0R. Maffey, Kyle Dotterrer, Jennifer Niemann, Iain Cruickshank, Grace\u00a0A. Lewis, and Christian K\u00e4stner. 2023. MLTEing Models: Negotiating, Evaluating, and Documenting Model and System Qualities. In Proc. International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER).",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0W. McBurney and Collin McMillan. 2014. Automatic Documentation Generation via Source Code Summarization of Method Context. In Proceedings of the 22nd International Conference on Program Comprehension (Hyderabad, India) (ICPC 2014). Association for Computing Machinery, New York, NY, USA, 279\u2013290. https://doi.org/10.1145/2597008.2597149",
+      "doi": "10.1145/2597008.2597149"
+    },
+    {
+      "text": "Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa\u00a0Deborah Raji, and Timnit Gebru. 2019. Model Cards for Model Reporting. In Proceedings of the Conference on Fairness, Accountability, and Transparency (Atlanta, GA, USA) (FAT* \u201919). Association for Computing Machinery, New York, NY, USA, 220\u2013229. https://doi.org/10.1145/3287560.3287596",
+      "doi": "10.1145/3287560.3287596"
+    },
+    {
+      "text": "Laura Moreno, Jairo Aponte, Giriprasad Sridhara, Andrian Marcus, Lori Pollock, and K. Vijay-Shanker. 2013. Automatic generation of natural language summaries for Java classes. In 2013 21st International Conference on Program Comprehension (ICPC). IEEE Press, 23\u201332. https://doi.org/10.1109/ICPC.2013.6613830",
+      "doi": ""
+    },
+    {
+      "text": "Michael Muller, Ingrid Lange, Dakuo Wang, David Piorkowski, Jason Tsay, Q.\u00a0Vera Liao, Casey Dugan, and Thomas Erickson. 2019. How Data Science Workers Work with Data: Discovery, Capture, Curation, Design, Creation. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3290605.3300356",
+      "doi": "10.1145/3290605.3300356"
+    },
+    {
+      "text": "Nadia Nahar, Shurui Zhou, Grace Lewis, and Christian K\u00e4stner. 2022. Collaboration Challenges in Building ML-Enabled Systems: Communication, Documentation, Engineering, and Process. In Proceedings of the 44th International Conference on Software Engineering (Pittsburgh, Pennsylvania) (ICSE \u201922). Association for Computing Machinery, New York, NY, USA, 413\u2013425. https://doi.org/10.1145/3510003.3510209",
+      "doi": "10.1145/3510003.3510209"
+    },
+    {
+      "text": "Oracle. [n. d.]. How to Write Doc Comments for the Javadoc Tool. https://www.oracle.com/ca-en/technical-resources/articles/java/javadoc-tool.html.",
+      "doi": ""
+    },
+    {
+      "text": "Kayur Patel, James Fogarty, James\u00a0A. Landay, and Beverly Harrison. 2008. Investigating Statistical Machine Learning as a Tool for Software Development. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Florence, Italy) (CHI \u201908). Association for Computing Machinery, New York, NY, USA, 667\u2013676. https://doi.org/10.1145/1357054.1357160",
+      "doi": "10.1145/1357054.1357160"
+    },
+    {
+      "text": "Jo\u00e3o\u00a0Felipe Pimentel, Leonardo Murta, Vanessa Braganholo, and Juliana Freire. 2019. A Large-Scale Study about Quality and Reproducibility of Jupyter Notebooks. In Proceedings of the 16th International Conference on Mining Software Repositories (Montreal, Quebec, Canada) (MSR \u201919). IEEE Press, 507\u2013517. https://doi.org/10.1109/MSR.2019.00077",
+      "doi": "10.1109/MSR.2019.00077"
+    },
+    {
+      "text": "Gede Artha\u00a0Azriadi Prana, Christoph Treude, Ferdian Thung, Thushari Atapattu, and David Lo. 2019. Categorizing the content of github readme files. Empirical Software Engineering 24, 3 (2019), 1296\u20131327.",
+      "doi": "10.1007/s10664-018-9660-3"
+    },
+    {
+      "text": "Fotis Psallidas, Yiwen Zhu, Bojan Karlas, Matteo Interlandi, Avrilia Floratou, Konstantinos Karanasos, Wentao Wu, Ce Zhang, Subru Krishnan, Carlo Curino, and Markus Weimer. 2019. Data Science through the looking glass and what we found there. (2019). https://doi.org/10.48550/ARXIV.1912.09536 arXiv:arXiv:1912.09536",
+      "doi": ""
+    },
+    {
+      "text": "Inioluwa\u00a0Deborah Raji, Andrew Smart, Rebecca\u00a0N. White, Margaret Mitchell, Timnit Gebru, Ben Hutchinson, Jamila Smith-Loud, Daniel Theron, and Parker Barnes. 2020. Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (Barcelona, Spain) (FAT* \u201920). Association for Computing Machinery, New York, NY, USA, 33\u201344. https://doi.org/10.1145/3351095.3372873",
+      "doi": "10.1145/3351095.3372873"
+    },
+    {
+      "text": "John Richards, David Piorkowski, Michael Hind, Stephanie Houde, and Aleksandra Mojsilovi\u0107. 2020. A Methodology for Creating AI FactSheets. https://doi.org/10.48550/ARXIV.2006.13796 arXiv:arXiv:2006.13796",
+      "doi": ""
+    },
+    {
+      "text": "Martin\u00a0P. Robillard, Andrian Marcus, Christoph Treude, Gabriele Bavota, Oscar Chaparro, Neil Ernst, Marco\u00a0Aur\u00e9lio Gerosa, Michael Godfrey, Michele Lanza, Mario Linares-V\u00e1squez, Gail\u00a0C. Murphy, Laura Moreno, David Shepherd, and Edmund Wong. 2017. On-demand Developer Documentation. In 2017 IEEE International Conference on Software Maintenance and Evolution (ICSME). IEEE Press, 479\u2013483. https://doi.org/10.1109/ICSME.2017.17",
+      "doi": ""
+    },
+    {
+      "text": "Adam Rule, Aur\u00e9lien Tabard, and James\u00a0D. Hollan. 2018. Exploration and Explanation in Computational Notebooks. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173606",
+      "doi": "10.1145/3173574.3173606"
+    },
+    {
+      "text": "D. Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips, Dietmar Ebner, Vinay Chaudhary, Michael Young, Jean-Fran\u00e7ois Crespo, and Dan Dennison. 2015. Hidden Technical Debt in Machine Learning Systems. In Advances in Neural Information Processing Systems, C.\u00a0Cortes, N.\u00a0Lawrence, D.\u00a0Lee, M.\u00a0Sugiyama, and R.\u00a0Garnett (Eds.). Vol.\u00a028. Curran Associates, Inc.https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Julien Siebert, Lisa Joeckel, Jens Heidrich, Adam Trendowicz, Koji Nakamichi, Kyoko Ohashi, Isao Namba, Rieko Yamamoto, and Mikio Aoyama. 2022. Construction of a quality model for machine learning systems. Software Quality Journal 30, 2 (2022), 307\u2013335.",
+      "doi": "10.1007/s11219-021-09557-y"
+    },
+    {
+      "text": "Ian Sommerville. 2016. Software Engineering, 10th edition. Pearson.",
+      "doi": "10.5555/2851535"
+    },
+    {
+      "text": "Susan\u00a0Leigh Star and James\u00a0R Griesemer. 1989. Institutional ecology,translations\u2019 and boundary objects: Amateurs and professionals in Berkeley\u2019s Museum of Vertebrate Zoology, 1907-39. Social studies of science 19, 3 (1989), 387\u2013420.",
+      "doi": ""
+    },
+    {
+      "text": "Kathryn\u00a0T. Stolee, Sebastian Elbaum, and Matthew\u00a0B. Dwyer. 2016. Code search with input/output queries: Generalizing, ranking, and assessment. Journal of Systems and Software 116 (2016), 35\u201348. https://doi.org/10.1016/j.jss.2015.04.081",
+      "doi": "10.1016/j.jss.2015.04.081"
+    },
+    {
+      "text": "J. Stylos and B.A. Myers. 2006. Mica: A Web-Search Tool for Finding API Components and Examples. In Visual Languages and Human-Centric Computing (VL/HCC\u201906). IEEE Press, 195\u2013202. https://doi.org/10.1109/VLHCC.2006.32",
+      "doi": "10.1109/VLHCC.2006.32"
+    },
+    {
+      "text": "Christoph Treude and Martin\u00a0P. Robillard. 2016. Augmenting API Documentation with Insights from Stack Overflow. In Proceedings of the 38th International Conference on Software Engineering (Austin, Texas) (ICSE \u201916). Association for Computing Machinery, New York, NY, USA, 392\u2013403. https://doi.org/10.1145/2884781.2884800",
+      "doi": "10.1145/2884781.2884800"
+    },
+    {
+      "text": "Gias Uddin and Martin\u00a0P. Robillard. 2015. How API Documentation Fails. IEEE Software 32, 4 (2015), 68\u201375. https://doi.org/10.1109/MS.2014.80",
+      "doi": "10.1109/MS.2014.80"
+    },
+    {
+      "text": "Mojtaba Vaismoradi, Hannele Turunen, and Terese Bondas. 2013. Content analysis and thematic analysis: Implications for conducting a qualitative descriptive study. Nursing & Health Sciences 15, 3 (2013), 398\u2013405. https://doi.org/10.1111/nhs.12048 arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1111/nhs.12048",
+      "doi": ""
+    },
+    {
+      "text": "April\u00a0Yi Wang, Will Epperson, Robert\u00a0A DeLine, and Steven\u00a0M. Drucker. 2022. Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 97, 10\u00a0pages. https://doi.org/10.1145/3491102.3502123",
+      "doi": "10.1145/3491102.3502123"
+    },
+    {
+      "text": "April\u00a0Yi Wang, Dakuo Wang, Jaimie Drozdal, Michael Muller, Soya Park, Justin\u00a0D. Weisz, Xuye Liu, Lingfei Wu, and Casey Dugan. 2022. Documentation Matters: Human-Centered AI System to Assist Data Science Code Documentation in Computational Notebooks. ACM Trans. Comput.-Hum. Interact. 29, 2, Article 17 (jan 2022), 33\u00a0pages. https://doi.org/10.1145/3489465",
+      "doi": "10.1145/3489465"
+    },
+    {
+      "text": "Nathaniel Weinman, Steven\u00a0M. Drucker, Titus Barik, and Robert DeLine. 2021. Fork It: Supporting Stateful Alternatives in Computational Notebooks. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 307, 12\u00a0pages. https://doi.org/10.1145/3411764.3445527",
+      "doi": "10.1145/3411764.3445527"
+    },
+    {
+      "text": "Chenyang Yang, Shurui Zhou, Jin L.\u00a0C. Guo, and Christian K\u00e4stner. 2022. Subtle Bugs Everywhere: Generating Documentation for Data Wrangling Code. In Proceedings of the 36th IEEE/ACM International Conference on Automated Software Engineering(Melbourne, Australia) (ASE \u201921). IEEE Press, 304\u2013316. https://doi.org/10.1109/ASE51524.2021.9678520",
+      "doi": "10.1109/ASE51524.2021.9678520"
+    },
+    {
+      "text": "Amy\u00a0X Zhang, Michael Muller, and Dakuo Wang. 2020. How do data science workers collaborate? roles, workflows, and tools. Proceedings of the ACM on Human-Computer Interaction 4, CSCW1(2020), 1\u201323.",
+      "doi": "10.1145/3392826"
+    }
+  ]
+}

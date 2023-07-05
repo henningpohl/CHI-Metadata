@@ -1,0 +1,558 @@
+{
+  "doi": "10.1145/3491102.3517505",
+  "title": "Designing Word Filter Tools for Creator-led Comment Moderation",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-21",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Online social platforms centered around content creators often allow comments on content, where creators can then moderate the comments they receive. As creators can face overwhelming numbers of comments, with some of them harassing or hateful, platforms typically provide tools such as word filters for creators to automate aspects of moderation. From needfinding interviews with 19 creators about how they use existing tools, we found that they struggled with writing good filters as well as organizing and revising their filters, due to the difficulty of determining what the filters actually catch. To address these issues, we present FilterBuddy, a system that supports creators in authoring new filters or building from pre-made ones, as well as organizing their filters and visualizing what comments are captured by them over time. We conducted an early-stage evaluation of FilterBuddy with YouTube creators, finding that participants see FilterBuddy not just as a moderation tool, but also a means to organize their comments to better understand their audiences.",
+  "authors": [
+    {
+      "name": "Shagun Jhaver",
+      "institution": "Rutgers University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658987207",
+      "orcid": "missing"
+    },
+    {
+      "name": "Quan Ze Chen",
+      "institution": "Paul G. Allen School of Computer Science & Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659365511",
+      "orcid": "missing"
+    },
+    {
+      "name": "Detlef Knauss",
+      "institution": "Paul G. Allen School of Computer Science & Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660237294",
+      "orcid": "missing"
+    },
+    {
+      "name": "Amy X. Zhang",
+      "institution": "Paul G. Allen School of Computer Science & Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658640424",
+      "orcid": "0000-0001-9462-9835"
+    }
+  ],
+  "references": [
+    {
+      "text": "Crystal Abidin. 2015. Communicative Intimacies: Influencers and Percieved Interconnectedness. (2015).",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul\u00a0N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, and Eric Horvitz. 2019. Guidelines for Human-AI Interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300233",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Rachel Berryman and Misha Kavka. 2017. \u2018I Guess A Lot of People See Me as a Big Sister or a Friend\u2019: the role of intimacy in the celebrification of beauty vloggers. Journal of Gender Studies 26, 3 (2017), 307\u2013320. https://doi.org/10.1080/09589236.2017.1288611 arXiv:https://doi.org/10.1080/09589236.2017.1288611",
+      "doi": ""
+    },
+    {
+      "text": "Lindsay Blackwell, Tianying Chen, Sarita Schoenebeck, and Cliff Lampe. 2018. When Online Harassment is Perceived as Justified. In Twelfth International AAAI Conference on Web and Social Media.",
+      "doi": ""
+    },
+    {
+      "text": "Sean Burch. 2019. YouTube says \u2019INAPPROPRIATE comments\u2019 could result in video demonetization. https://www.thewrap.com/youtube-inappropriate-comments-demonetization/",
+      "doi": ""
+    },
+    {
+      "text": "Jean Burgess and Joshua Green. 2018. YouTube: Online video and participatory culture. John Wiley & Sons.",
+      "doi": ""
+    },
+    {
+      "text": "Facebook Business\u00a0Center. 2021. About Facebook Pages. https://www.facebook.com/business/help/461775097570076?id=939256796236247",
+      "doi": ""
+    },
+    {
+      "text": "Jie Cai and Donghee\u00a0Yvette Wohn. 2019. What Are Effective Strategies of Handling Harassment on Twitch? Users\u2019 Perspectives. In Conference Companion Publication of the 2019 on Computer Supported Cooperative Work and Social Computing (Austin, TX, USA) (CSCW \u201919). Association for Computing Machinery, New York, NY, USA, 166\u2013170. https://doi.org/10.1145/3311957.3359478",
+      "doi": "10.1145/3311957.3359478"
+    },
+    {
+      "text": "Marilyn\u00a0A Campbell. 2005. Cyber bullying: An old problem in a new guise?Journal of Psychologists and Counsellors in Schools 15, 1 (2005), 68\u201376.",
+      "doi": ""
+    },
+    {
+      "text": "Robyn Caplan and Tarleton Gillespie. 2020. Tiered governance and demonetization: The shifting terms of labor and compensation in the platform economy. Social Media+ Society 6, 2 (2020), 2056305120936636.",
+      "doi": ""
+    },
+    {
+      "text": "Caitlin\u00a0Ring Carlson, Luc Cousineau, and Caitlin\u00a0Ring Carlson. 2020. Are You Sure You Want to View This Community? Exploring the Ethics of Reddit\u2019s Quarantine Practice. Journal of Media Ethics 00, 00 (2020), 1\u201312. https://doi.org/10.1080/23736992.2020.1819285",
+      "doi": ""
+    },
+    {
+      "text": "Alissa Centivany and Bobby Glushko. 2016. \u201dPopcorn Tastes Good\u201d: Participatory Policymaking and Reddit\u2019s. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 1126\u20131137. https://doi.org/10.1145/2858036.2858516",
+      "doi": "10.1145/2858036.2858516"
+    },
+    {
+      "text": "Ngai\u00a0Keung Chan. 2019. \u201cBecoming an expert in driving for Uber\u201d: Uber driver/bloggers\u2019 performance of expertise and self-presentation on YouTube. New Media & Society 21, 9 (2019), 2048\u20132067.",
+      "doi": ""
+    },
+    {
+      "text": "Eshwar Chandrasekharan, Shagun Jhaver, Amy Bruckman, and Eric Gilbert. 2022. Quarantined! Examining the Effects of a Community-Wide Moderation Intervention on Reddit. ACM Trans. Comput.-Hum. Interact.(2022). https://doi.org/10.1145/3490499",
+      "doi": ""
+    },
+    {
+      "text": "Eshwar Chandrasekharan, Umashanthi Pavalanathan, Anirudh Srinivasan, Adam Glynn, Jacob Eisenstein, and Eric Gilbert. 2017. You Can\u2019t stay here: The efficacy of Reddit\u2019s 2015 ban examined through hate speech. Proc. ACM Hum.-Comput. Interact. 1, CSCW, Article 31 (Dec. 2017), 22\u00a0pages. https://doi.org/10.1145/3134666",
+      "doi": "10.1145/3134666"
+    },
+    {
+      "text": "Eshwar Chandrasekharan, Mattia Samory, Anirudh Srinivasan, and Eric Gilbert. 2017. The Bag of Communities: Identifying Abusive Behavior Online with Preexisting Internet Data. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 3175\u20133187. https://doi.org/10.1145/3025453.3026018",
+      "doi": "10.1145/3025453.3026018"
+    },
+    {
+      "text": "Kathy Charmaz. 2006. Constructing grounded theory: a practical guide through qualitative analysis. https://doi.org/10.1016/j.lisr.2007.11.003 arXiv:arXiv:1011.1669v3",
+      "doi": ""
+    },
+    {
+      "text": "Clement Chau. 2010. YouTube as a participatory culture. New directions for youth development 2010, 128 (2010), 65\u201374.",
+      "doi": ""
+    },
+    {
+      "text": "A Chen. 2019. How YouTubers plan to take on YouTube for better working conditions. MIT Technology Review(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Chloe Condon. 2021. Some of you have never had...https://twitter.com/chloecondon/status/1425197893678366723.",
+      "doi": ""
+    },
+    {
+      "text": "Kate Crawford and Tarleton Gillespie. 2016. What is a flag for? Social media reporting tools and the vocabulary of complaint. New Media & Society 18, 3 (2016), 410\u2013428. https://doi.org/10.1177/1461444814543163 arXiv:https://doi.org/10.1177/1461444814543163",
+      "doi": ""
+    },
+    {
+      "text": "Twitch Creator\u00a0Dashboard. 2021. Creator Dashboard. https://help.twitch.tv/s/article/creator-dashboard?language=en_US",
+      "doi": ""
+    },
+    {
+      "text": "Stuart Cunningham and David Craig. 2017. Being \u2018really real\u2019on YouTube: authenticity, community and brand culture in social media entertainment. Media International Australia 164, 1 (2017), 71\u201381.",
+      "doi": ""
+    },
+    {
+      "text": "Jesse Davis and Mark Goadrich. 2006. The relationship between Precision-Recall and ROC curves. In Proceedings of the 23rd international conference on Machine learning. 233\u2013240.",
+      "doi": "10.1145/1143844.1143874"
+    },
+    {
+      "text": "Jesse Dodge, Maarten Sap, Ana Marasovic, William Agnew, Gabriel Ilharco, Dirk Groeneveld, Margaret Mitchell, Matt Gardner, and Hugging Face. 2021. Documenting Large Webtext Corpora: A Case Study on the Colossal Clean Crawled Corpus. (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Bryan Dosono and Bryan Semaan. 2019. Moderation Practices as Emotional Labor in Sustaining Online Communities: The Case of AAPI Identity Work on Reddit. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300372",
+      "doi": "10.1145/3290605.3300372"
+    },
+    {
+      "text": "Stefanie Duguay, Jean Burgess, and Nicolas Suzor. 2020. Queer women\u2019s experiences of patchwork platform governance on Tinder, Instagram, and Vine. Convergence 26, 2 (2020), 237\u2013252.",
+      "doi": ""
+    },
+    {
+      "text": "Stine Eckert. 2018. Fighting for recognition: Online abuse of women bloggers in Germany, Switzerland, the United Kingdom, and the United States. New Media & Society 20, 4 (2018), 1282\u20131302.",
+      "doi": ""
+    },
+    {
+      "text": "Jad Esber, Boaz Sender, Ethan Zuckerman, Crystal Lee, Nana Nwachukwu, Oumou Ly, Peter Suber, Primavera De\u00a0Filippi, Sahar Massachi, Samuel Klein, 2021. A meta-proposal for Twitter\u2019s bluesky project. Available at SSRN 3816729(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Umer Farooq and Jonathan Grudin. 2016. Human-computer Integration. Interactions 23, 6 (2016), 26\u201332.",
+      "doi": "10.1145/3001896"
+    },
+    {
+      "text": "Julia\u00a0R. Fernandez and Jeremy Birnholtz. 2019. \u201dI Don\u2019t Want Them to Not Know\u201d: Investigating Decisions to Disclose Transgender Identity on Dating Platforms. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 226 (nov 2019), 21\u00a0pages. https://doi.org/10.1145/3359328",
+      "doi": ""
+    },
+    {
+      "text": "Jessica\u00a0L. Feuston and Jed\u00a0R. Brubaker. 2021. Putting Tools in Their Place: The Role of Time and Perspective in Human-AI Collaboration for Qualitative Analysis. Proc. ACM Hum.-Comput. Interact. 5, CSCW2, Article 469 (oct 2021), 25\u00a0pages. https://doi.org/10.1145/3479856",
+      "doi": "10.1145/3479856"
+    },
+    {
+      "text": "Guo Freeman and Donghee\u00a0Yvette Wohn. 2020. Streaming your Identity: Navigating the Presentation of Gender and Sexuality through Live Streaming. Computer Supported Cooperative Work (CSCW) 29, 6 (2020), 795\u2013825.",
+      "doi": "10.1007/s10606-020-09386-w"
+    },
+    {
+      "text": "R.\u00a0Stuart Geiger. 2016. Bot-based collective blocklists in Twitter: the counterpublic moderation of harassment in a networked public space. Information, Communication & Society 19, 6 (2016), 787\u2013803. https://doi.org/10.1080/1369118X.2016.1153700 arXiv:https://doi.org/10.1080/1369118X.2016.1153700",
+      "doi": ""
+    },
+    {
+      "text": "Ysabel Gerrard. 2018. Beyond the hashtag: Circumventing content moderation on social media. New Media & Society 20, 12 (2018), 4492\u20134511. https://doi.org/10.1177/1461444818776611 arXiv:https://doi.org/10.1177/1461444818776611",
+      "doi": ""
+    },
+    {
+      "text": "Tarleton Gillespie. 2018. Custodians of the Internet: Platforms, content moderation, and the hidden decisions that shape social media. Yale University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Gorwa, Reuben Binns, and Christian Katzenbach. 2020. Algorithmic content moderation: Technical and political challenges in the automation of platform governance. Big Data & Society 7, 1 (2020), 2053951719897945.",
+      "doi": ""
+    },
+    {
+      "text": "Mary\u00a0L Gray and Siddharth Suri. 2019. Ghost work: How to stop Silicon Valley from building a new global underclass. Eamon Dolan Books.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Green, Ania Bobrowicz, and Chee\u00a0Siang Ang. 2015. The lesbian, gay, bisexual and transgender community online: discussions of bullying and self-disclosure in YouTube videos. Behaviour & Information Technology 34, 7 (2015), 704\u2013712.",
+      "doi": "10.5555/3013642.3013648"
+    },
+    {
+      "text": "Oliver\u00a0L. Haimson, Daniel Delmonaco, Peipei Nie, and Andrea Wegner. 2021. Disproportionate Removals and Differing Content Moderation Experiences for Conservative, Transgender, and Black Social Media Users: Marginalization and Moderation Gray Areas. Proc. ACM Hum.-Comput. Interact. 5, CSCW2, Article 466 (oct 2021), 35\u00a0pages. https://doi.org/10.1145/3479610",
+      "doi": "10.1145/3479610"
+    },
+    {
+      "text": "William\u00a0A. Hamilton, Oliver Garretson, and Andruid Kerne. 2014. Streaming on Twitch: Fostering Participatory Communities of Play within Live Mixed Media. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 1315\u20131324. https://doi.org/10.1145/2556288.2557048",
+      "doi": "10.1145/2556288.2557048"
+    },
+    {
+      "text": "Ivan Hare and James Weinstein. 2009. Extreme Speech and Democracy. Oxford University Press, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0Fish Hatfield. 2018. (Not) getting paid to do what you love: Gender, social media, and aspirational work.",
+      "doi": ""
+    },
+    {
+      "text": "Susan Herring, Kirk Job-Sluder, Rebecca Scheckler, and Sasha Barab. 2002. Searching for safety online: Managing\u201d trolling\u201d in a feminist forum. The information society 18, 5 (2002), 371\u2013384.",
+      "doi": ""
+    },
+    {
+      "text": "Zorah Hilvert-Bruce, James\u00a0T Neill, Max Sj\u00f6blom, and Juho Hamari. 2018. Social motivations of live-streaming viewer engagement on Twitch. Computers in Human Behavior 84 (2018), 58\u201367.",
+      "doi": "10.1016/j.chb.2018.02.013"
+    },
+    {
+      "text": "Jacob Hoffman-Andrews. 2021. Block Together. https://blocktogether.org",
+      "doi": ""
+    },
+    {
+      "text": "Mattias Holmbom. 2015. The YouTuber: A qualitative study of popular content creators.",
+      "doi": ""
+    },
+    {
+      "text": "Manoel Horta\u00a0Ribeiro, Shagun Jhaver, Savvas Zannettou, Jeremy Blackburn, Gianluca Stringhini, Emiliano De\u00a0Cristofaro, and Robert West. 2021. Do Platform Migrations Compromise Content Moderation? Evidence from r/The_Donald and r/Incels. Proc. ACM Hum.-Comput. Interact. 5, CSCW2, Article 316 (oct 2021), 24\u00a0pages. https://doi.org/10.1145/3476057",
+      "doi": "10.1145/3476057"
+    },
+    {
+      "text": "Homa Hosseinmardi, Sabrina\u00a0Arredondo Mattson, Rahat\u00a0Ibn Rafiq, Richard Han, Qin Lv, and Shivakant Mishra. 2015. Detection of cyberbullying incidents on the instagram social network. arXiv preprint arXiv:1503.03909(2015).",
+      "doi": ""
+    },
+    {
+      "text": "Jane Im, Sonali Tandon, Eshwar Chandrasekharan, Taylor Denby, and Eric Gilbert. 2020. Synthesized Social Signals: Computationally-Derived Social Signals from Account Histories. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376383",
+      "doi": ""
+    },
+    {
+      "text": "Jelani Ince, Fabio Rojas, and Clayton\u00a0A Davis. 2017. The social media response to Black Lives Matter: How Twitter users interact with Black Lives Matter through hashtag use. Ethnic and racial studies 40, 11 (2017), 1814\u20131830.",
+      "doi": ""
+    },
+    {
+      "text": "Steven\u00a0J. Jackson, Tarleton Gillespie, and Sandy Payette. 2014. The Policy Knot: Re-Integrating Policy, Practice and Design in Cscw Studies of Social Computing. In Proceedings of the 17th ACM Conference on Computer Supported Cooperative Work & Social Computing (Baltimore, Maryland, USA) (CSCW \u201914). Association for Computing Machinery, New York, NY, USA, 588\u2013602. https://doi.org/10.1145/2531602.2531674",
+      "doi": "10.1145/2531602.2531674"
+    },
+    {
+      "text": "Shagun Jhaver, Darren\u00a0Scott Appling, Eric Gilbert, and Amy Bruckman. 2019. \u201cDid You Suspect the Post Would Be Removed?\u201d: Understanding User Reactions to Content Removals on Reddit. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 192 (Nov. 2019), 33\u00a0pages. https://doi.org/10.1145/3359294",
+      "doi": "10.1145/3359294"
+    },
+    {
+      "text": "Shagun Jhaver, Iris Birman, Eric Gilbert, and Amy Bruckman. 2019. Human-Machine Collaboration for Content Regulation: The Case of Reddit Automoderator. ACM Trans. Comput.-Hum. Interact. 26, 5, Article 31 (July 2019), 35\u00a0pages. https://doi.org/10.1145/3338243",
+      "doi": "10.1145/3338243"
+    },
+    {
+      "text": "Shagun Jhaver, Christian Boylston, Diyi Yang, and Amy Bruckman. 2021. Evaluating the Effectiveness of Deplatforming as a Moderation Strategy on Twitter. Proc. ACM Hum.-Comput. Interact. 5, CSCW2, Article 381 (oct 2021), 30\u00a0pages. https://doi.org/10.1145/3479525",
+      "doi": "10.1145/3479525"
+    },
+    {
+      "text": "Shagun Jhaver, Amy Bruckman, and Eric Gilbert. 2019. Does Transparency in Moderation Really Matter? User Behavior After Content Removal Explanations on Reddit. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 150 (nov 2019), 27\u00a0pages. https://doi.org/10.1145/3359252",
+      "doi": ""
+    },
+    {
+      "text": "Shagun Jhaver, Larry Chan, and Amy Bruckman. 2018. The View from the Other Side: The Border Between Controversial Speech and Harassment on Kotaku in Action. First Monday 23, 2 (2018). http://firstmonday.org/ojs/index.php/fm/article/view/8232",
+      "doi": ""
+    },
+    {
+      "text": "Shagun Jhaver, Seth Frey, and Amy Zhang. 2022. Decentralizing Platform Power: A Design Space of Multi-level Governance in Online Social Platforms. arXiv preprint arXiv:2108.12529(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Shagun Jhaver, Sucheta Ghoshal, Amy Bruckman, and Eric Gilbert. 2018. Online Harassment and Content Moderation: The Case of Blocklists. ACM Trans. Comput.-Hum. Interact. 25, 2, Article 12 (March 2018), 33\u00a0pages. https://doi.org/10.1145/3185593",
+      "doi": "10.1145/3185593"
+    },
+    {
+      "text": "Jialun\u00a0\u201dAaron\u201d Jiang, Charles Kiene, Skyler Middler, Jed\u00a0R. Brubaker, and Casey Fiesler. 2019. Moderation Challenges in Voice-based Online Communities on Discord. Proc. ACM Hum.-Comput. Interact. 3, CSCW (2019), Article 55. https://doi.org/10.1145/3359157",
+      "doi": "10.1145/3359157"
+    },
+    {
+      "text": "Jialun\u00a0Aaron Jiang, Morgan\u00a0Klaus Scheuerman, Casey Fiesler, and Jed\u00a0R Brubaker. 2021. Understanding international perceptions of the severity of harmful content online. PloS one 16, 8 (2021), e0256762.",
+      "doi": ""
+    },
+    {
+      "text": "David Kaye. 2019. Speech police: The global struggle to govern the Internet. Columbia Global Reports.",
+      "doi": ""
+    },
+    {
+      "text": "Moira Kenney. 2001. Mapping gay LA: The intersection of place and politics. Temple University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Jina Kim, Kunwoo Bae, Eunil Park, and Angel\u00a0P. del Pobil. 2019. Who Will Subscribe to My Streaming Channel? The Case of Twitch. In Conference Companion Publication of the 2019 on Computer Supported Cooperative Work and Social Computing (Austin, TX, USA) (CSCW \u201919). Association for Computing Machinery, New York, NY, USA, 247\u2013251. https://doi.org/10.1145/3311957.3359470",
+      "doi": "10.1145/3311957.3359470"
+    },
+    {
+      "text": "Yubo Kou and Xinning Gui. 2021. Flag and Flaggability in Automated Moderation: The Case of Reporting Toxic Behavior in an Online Game Community. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3411764.3445279"
+    },
+    {
+      "text": "Patricia\u00a0G Lange. 2007. Commenting on comments: Investigating responses to antagonism on YouTube. In Society for Applied anthropology conference, Vol.\u00a031. 163\u2013190.",
+      "doi": ""
+    },
+    {
+      "text": "Clayton Lewis. 1982. Using the\u201d thinking-aloud\u201d method in cognitive interface design. IBM TJ Watson Research Center Yorktown Heights, NY.",
+      "doi": ""
+    },
+    {
+      "text": "Rebecca Lewis, Alice\u00a0E Marwick, and William\u00a0Clyde Partin. 2021. \u201cWe Dissect Stupidity and Respond to It\u201d: Response Videos and Networked Harassment on YouTube. American Behavioral Scientist 65, 5 (2021), 735\u2013756.",
+      "doi": ""
+    },
+    {
+      "text": "Jie Li, Xinning Gui, Yubo Kou, and Yukun Li. 2019. Live Streaming as Co-Performance: Dynamics between Center and Periphery in Theatrical Engagement. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 64 (nov 2019), 22\u00a0pages. https://doi.org/10.1145/3359166",
+      "doi": "10.1145/3359166"
+    },
+    {
+      "text": "Brian Lubars and Chenhao Tan. 2019. Ask not what AI can do, but what AI should do: Towards a framework of task delegability. Advances in Neural Information Processing Systems 32 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "May\u00a0O Lwin, Benjamin Li, and Rebecca\u00a0P Ang. 2012. Stop bugging me: An examination of adolescents\u2019 protection behavior against online harassment. Journal of adolescence 35, 1 (2012), 31\u201341.",
+      "doi": ""
+    },
+    {
+      "text": "Maximilian Mackeprang, Claudia M\u00fcller-Birn, and Maximilian\u00a0Timo Stauss. 2019. Discovering the Sweet Spot of Human-Computer Configurations: A Case Study in Information Extraction. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 195 (nov 2019), 30\u00a0pages. https://doi.org/10.1145/3359297",
+      "doi": "10.1145/3359297"
+    },
+    {
+      "text": "Kaitlin Mahar, Amy\u00a0X. Zhang, and David Karger. 2018. Squadbox: A Tool to Combat Email Harassment Using Friendsourced Moderation. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). ACM, New York, NY, USA, Article 586, 13\u00a0pages. https://doi.org/10.1145/3173574.3174160",
+      "doi": "10.1145/3173574.3174160"
+    },
+    {
+      "text": "Keri Mallari, Spencer Williams, and Gary Hsieh. 2021. Understanding Analytics Needs of Video Game Streamers. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 337, 12\u00a0pages. https://doi.org/10.1145/3411764.3445320",
+      "doi": "10.1145/3411764.3445320"
+    },
+    {
+      "text": "Alice Marwick. 2015. You may know me from YouTube. A companion to celebrity 333 (2015).",
+      "doi": ""
+    },
+    {
+      "text": "Mike Masnick. 2019. Protocols, Not Platforms: A Technological Approach to Free Speech. https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech",
+      "doi": ""
+    },
+    {
+      "text": "J\u00a0Nathan Matias. 2016. Going dark: Social factors in collective action against platform operators in the Reddit blackout. In Proceedings of the 2016 CHI conference on human factors in computing systems. ACM, 1138\u20131151.",
+      "doi": "10.1145/2858036.2858391"
+    },
+    {
+      "text": "J\u00a0Nathan Matias, Amy Johnson, Whitney\u00a0Erin Boesel, Brian Keegan, Jaclyn Friedman, and Charlie DeTar. 2015. Reporting, reviewing, and responding to harassment on Twitter. Available at SSRN 2602018(2015).",
+      "doi": ""
+    },
+    {
+      "text": "Nathan\u00a0J. Matias. 2016. The Civic Labor of Online Moderators. In Internet Politics and Policy conference (Oxford, United Kingdom). Oxford, United Kingdom.",
+      "doi": ""
+    },
+    {
+      "text": "Sharan\u00a0B Merriam. 2002. Introduction to Qualitative Research. Qualitative research in practice: Examples for discussion and analysis 1 (2002).",
+      "doi": ""
+    },
+    {
+      "text": "Channel Moderation. 2021. How to Use AutoMod. https://help.twitch.tv/s/article/how-to-use-automod?language=en_US",
+      "doi": ""
+    },
+    {
+      "text": "Casey Newton. 2019. The trauma floor: The secret lives of Facebook moderators in America. The Verge 25(2019), 2019.",
+      "doi": ""
+    },
+    {
+      "text": "Valentin Niebler. 2020. \u2018YouTubers unite\u2019: collective action by YouTube content creators.",
+      "doi": ""
+    },
+    {
+      "text": "Safiya\u00a0Umoja Noble. 2018. Algorithms of oppression. New York University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Fayika\u00a0Farhat Nova, Md.\u00a0Rashidujjaman Rifat, Pratyasha Saha, Syed\u00a0Ishtiaque Ahmed, and Shion Guha. 2018. Silenced Voices: Understanding Sexual Harassment on Anonymous Social Media Among Bangladeshi People. In Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing (Jersey City, NJ, USA) (CSCW \u201918). Association for Computing Machinery, New York, NY, USA, 209\u2013212. https://doi.org/10.1145/3272973.3274057",
+      "doi": "10.1145/3272973.3274057"
+    },
+    {
+      "text": "Katherine Ognyanova. 2019. In Putin\u2019s Russia, information has you: Media control and internet censorship in the Russian Federation. In Censorship, surveillance, and privacy: Concepts, methodologies, tools, and applications. IGI Global, 1769\u20131786.",
+      "doi": ""
+    },
+    {
+      "text": "Deokgun Park, Simranjit Sachar, Nicholas Diakopoulos, and Niklas Elmqvist. 2016. Supporting comment moderators in identifying high quality online news comments. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, 1114\u20131125.",
+      "doi": "10.1145/2858036.2858389"
+    },
+    {
+      "text": "Simon Parkin. 2018. The YouTube stars heading for burnout:\u201cThe most fun job imaginable became deeply bleak.\u201d. The Guardian 8(2018), 2018.",
+      "doi": ""
+    },
+    {
+      "text": "Block Party. 2021. Block party. https://www.blockpartyapp.com/",
+      "doi": ""
+    },
+    {
+      "text": "Jessica\u00a0A. Pater, Moon\u00a0K. Kim, Elizabeth\u00a0D. Mynatt, and Casey Fiesler. 2016. Characterizations of Online Harassment: Comparing Policies Across Social Media Platforms. In Proceedings of the 19th International Conference on Supporting Group Work (Sanibel Island, Florida, USA) (GROUP \u201916). ACM, New York, NY, USA, 369\u2013374. https://doi.org/10.1145/2957276.2957297",
+      "doi": "10.1145/2957276.2957297"
+    },
+    {
+      "text": "Emily Pedersen. 2019. \u201d My Videos are at the Mercy of the YouTube Algorithm\u201d: How Content Creators Craft Algorithmic Personas and Perceive the Algorithm that Dictates their Work.",
+      "doi": ""
+    },
+    {
+      "text": "Anthony\u00a0J Pellicone and June Ahn. 2017. The Game of Performing Play: Understanding streaming as cultural production. In Proceedings of the 2017 CHI conference on human factors in computing systems. 4863\u20134874.",
+      "doi": "10.1145/3025453.3025854"
+    },
+    {
+      "text": "David Pinsof and Martie\u00a0G Haselton. 2017. The effect of the promiscuity stereotype on opposition to gay rights. PloS one 12, 7 (2017), e0178534.",
+      "doi": ""
+    },
+    {
+      "text": "Bailey Poland. 2016. Haters: Harassment, abuse, and violence online. U of Nebraska Press.",
+      "doi": ""
+    },
+    {
+      "text": "Chand Rajendra-Nicolucci and Ethan Zuckerman. 2021. Top 100: The most popular social media platforms and what they can teach us. https://knightcolumbia.org/blog/top-100-the-most-popular-social-media-platforms-and-what-they-can-teach-us",
+      "doi": ""
+    },
+    {
+      "text": "Tobias Raun. 2018. Capitalizing intimacy: New subcultural forms of micro-celebrity strategies and affective labour on YouTube. Convergence 24, 1 (2018), 99\u2013113.",
+      "doi": ""
+    },
+    {
+      "text": "Elissa\u00a0M Redmiles, Jessica Bodford, and Lindsay Blackwell. 2019. \u201cI just want to feel safe\u201d: A Diary Study of Safety Perceptions on Social Media. In Proceedings of the International AAAI Conference on Web and Social Media, Vol.\u00a013. 405\u2013416.",
+      "doi": ""
+    },
+    {
+      "text": "Kathryn\u00a0E Ringland, Christine\u00a0T Wolf, Lynn Dombrowski, and Gillian\u00a0R Hayes. 2015. Making\u201d Safe\u201d Community-Centered Practices in a Virtual World Dedicated to Children with Autism. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing. 1788\u20131800.",
+      "doi": ""
+    },
+    {
+      "text": "Sarah\u00a0T Roberts. 2019. Behind the Screen: Content Moderation in the Shadows of Social Media. Yale University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Rosa. 2019. Looking like a language, sounding like a race. Oxf Studies in Anthropology of.",
+      "doi": ""
+    },
+    {
+      "text": "Maarten Sap, Dallas Card, Saadia Gabriel, Yejin Choi, and Noah\u00a0A Smith. 2019. The risk of racial bias in hate speech detection. In Proceedings of the 57th annual meeting of the association for computational linguistics. 1668\u20131678.",
+      "doi": ""
+    },
+    {
+      "text": "J\u00a0Ben Schafer, Dan Frankowski, Jon Herlocker, and Shilad Sen. 2007. Collaborative filtering recommender systems. In The adaptive web. Springer, 291\u2013324.",
+      "doi": ""
+    },
+    {
+      "text": "Morgan\u00a0Klaus Scheuerman, Stacy\u00a0M. Branham, and Foad Hamidi. 2018. Safe Spaces and Safe Places: Unpacking Technology-Mediated Experiences of Safety and Harm with Transgender People. Proc. ACM Hum.-Comput. Interact. 2, CSCW, Article 155 (nov 2018), 27\u00a0pages. https://doi.org/10.1145/3274424",
+      "doi": "10.1145/3274424"
+    },
+    {
+      "text": "Morgan\u00a0Klaus Scheuerman, Jialun\u00a0Aaron Jiang, Casey Fiesler, and Jed\u00a0R. Brubaker. 2021. A Framework of Severity for Harmful Content Online. Proc. ACM Hum.-Comput. Interact. 2, CSCW (2021), 1\u201333.",
+      "doi": "10.1145/3479512"
+    },
+    {
+      "text": "Nathan Schneider, Primavera De\u00a0Filippi, Seth Frey, Joshua Tan, and Amy Zhang. 2021. Modular Politics: Toward a Governance Layer for Online Communities. Proc. ACM Hum.-Comput. Interact.CSCW (Oct. 2021).",
+      "doi": "10.1145/3449090"
+    },
+    {
+      "text": "Joseph Seering, Robert Kraut, and Laura Dabbish. 2017. Shaping Pro and Anti-Social Behavior on Twitch Through Moderation and Example-Setting. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing (Portland, Oregon, USA) (CSCW \u201917). ACM, New York, NY, USA, 111\u2013125. https://doi.org/10.1145/2998181.2998277",
+      "doi": "10.1145/2998181.2998277"
+    },
+    {
+      "text": "Joseph Seering, Tony Wang, Jina Yoon, and Geoff Kaufman. 2019. Moderator engagement and community development in the age of algorithms. New Media & Society(2019), 1461444818821316.",
+      "doi": ""
+    },
+    {
+      "text": "Scott Simon and Emma Bowman. 2019. Propaganda, hate speech, violence: The working lives of Facebook\u2019s content moderators. NPR Technology (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0K Smith, Jess Mahdavi, Manuel Carvalho, and Neil Tippett. 2006. An investigation into cyberbullying, its forms, awareness and impact, and the relationship between age and gender in cyberbullying. Research Brief No. RBX03-06. London: DfES(2006).",
+      "doi": ""
+    },
+    {
+      "text": "Miriah Steiger, Timir\u00a0J Bharucha, Sukrit Venkatagiri, Martin\u00a0J. Riedl, and Matthew Lease. 2021. The Psychological Well-Being of Content Moderators: The Emotional Labor of Commercial Moderation and Avenues for Improving Support. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 341, 14\u00a0pages. https://doi.org/10.1145/3411764.3445092",
+      "doi": "10.1145/3411764.3445092"
+    },
+    {
+      "text": "YouTube Studio. 2021. Navigate Youtube studio - YouTube help. https://support.google.com/youtube/answer/7548152?hl=en",
+      "doi": ""
+    },
+    {
+      "text": "Nicolas\u00a0P Suzor, Sarah\u00a0Myers West, Andrew Quodling, and Jillian York. 2019. What Do We Mean When We Talk About Transparency? Toward Meaningful Transparency in Commercial Content Moderation. International Journal of Communication 13 (2019), 18.",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra To, Wenxia Sweeney, Jessica Hammer, and Geoff Kaufman. 2020. \u201dThey Just Don\u2019t Get It\u201d: Towards Social Technologies for Coping with Interpersonal Racism. Proc. ACM Hum.-Comput. Interact. 4, CSCW1, Article 024 (May 2020), 29\u00a0pages. https://doi.org/10.1145/3392828",
+      "doi": "10.1145/3392828"
+    },
+    {
+      "text": "Brendesha\u00a0M Tynes, Henry\u00a0A Willis, Ashley\u00a0M Stewart, and Matthew\u00a0W Hamilton. 2019. Race-related traumatic events online and mental health among adolescents of color. Journal of Adolescent Health 65, 3 (2019), 371\u2013377.",
+      "doi": ""
+    },
+    {
+      "text": "Stefanie Ullmann and Marcus Tomalin. 2020. Quarantining online hate speech: technical and ethical perspectives. Ethics and Information Technology 22, 1 (2020), 69\u201380.",
+      "doi": ""
+    },
+    {
+      "text": "Jirassaya Uttarapong, Jie Cai, and Donghee\u00a0Yvette Wohn. 2021. Harassment Experiences of Women and LGBTQ Live Streamers and How They Handled Negativity. (2021), 7\u201319. https://doi.org/10.1145/3452918.3458794",
+      "doi": ""
+    },
+    {
+      "text": "Kristen Vaccaro, Ziang Xiao, Kevin Hamilton, and Karrie Karahalios. 2021. Contestability For Content Moderation. Proc. ACM Hum.-Comput. Interact. 5, CSCW2, Article 318 (oct 2021), 28\u00a0pages. https://doi.org/10.1145/3476059",
+      "doi": "10.1145/3476059"
+    },
+    {
+      "text": "Maarten\u00a0W Van\u00a0Someren, Yvonne\u00a0F Barnard, and Jacobijn\u00a0AC Sandberg. 1994. The think aloud method: a practical approach to modelling cognitive. London: AcademicPress 11(1994).",
+      "doi": ""
+    },
+    {
+      "text": "Jessica Vitak, Kalyani Chadha, Linda Steiner, and Zahra Ashktorab. 2017. Identifying Women\u2019s Experiences With and Strategies for Mitigating Negative Effects of Online Harassment. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing (Portland, Oregon, USA) (CSCW \u201917). Association for Computing Machinery, New York, NY, USA, 1231\u20131245. https://doi.org/10.1145/2998181.2998337",
+      "doi": "10.1145/2998181.2998337"
+    },
+    {
+      "text": "Emily\u00a0A. Vogels. 2021. The state of online harassment. https://www.pewresearch.org/internet/2021/01/13/the-state-of-online-harassment/",
+      "doi": ""
+    },
+    {
+      "text": "Jeremy Waldron. 2012. The harm in hate speech. Harvard University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Jeremy Waldron. 2017. The conditions of legitimacy: A response to James Weinstein. Const. Comment. 32(2017), 697.",
+      "doi": ""
+    },
+    {
+      "text": "James Weinstein. 2017. Hate speech bans, democracy, and political legitimacy. Const. Comment. 32(2017), 527.",
+      "doi": ""
+    },
+    {
+      "text": "Sarah\u00a0Myers West. 2018. Censored, suspended, shadowbanned: User interpretations of content moderation on social media platforms. New Media & Society(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Stephanie\u00a0N Williams and Annette\u00a0V Clarke. 2019. How the Desensitization of Police Violence, Stereotyped Language, and Racial Bias Impact Black Communities. Psychology and Cognitive Sciences\u2013Open Journal 5, 2 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Donghee\u00a0Yvette Wohn. 2019. Volunteer Moderators in Twitch Micro Communities: How They Get Involved, the Roles They Play, and the Emotional Labor They Experience. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 160.",
+      "doi": "10.1145/3290605.3300390"
+    },
+    {
+      "text": "Donghee\u00a0Yvette Wohn and Guo Freeman. 2020. Audience Management Practices of Live Streamers on Twitch. In ACM International Conference on Interactive Media Experiences (Cornella, Barcelona, Spain) (IMX \u201920). Association for Computing Machinery, New York, NY, USA, 106\u2013116. https://doi.org/10.1145/3391614.3393653",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Wolfram. 2019. Testifying at the Senate about A.I.\u2011Selected Content on the Internet-Stephen Wolfram Writings. https://writings.stephenwolfram.com/2019/06/testifying-at-the-senate-about-a-i-selected-content-on-the-internet/",
+      "doi": ""
+    },
+    {
+      "text": "Haoti Zhong, Hao Li, Anna Squicciarini, Sarah Rajtmajer, Christopher Griffin, David Miller, and Cornelia Caragea. 2016. Content-Driven Detection of Cyberbullying on the Instagram Social Network. In Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence (New York, New York, USA) (IJCAI\u201916). AAAI Press, 3952\u20133958.",
+      "doi": "10.5555/3061053.3061172"
+    }
+  ]
+}

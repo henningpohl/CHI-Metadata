@@ -1,0 +1,526 @@
+{
+  "doi": "10.1145/3411764.3445499",
+  "title": "Dynamic Field of View Restriction in 360\u00b0 Video: Aligning Optical Flow and Visual SLAM to Mitigate VIMS",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Head-Mounted Display based Virtual Reality is proliferating. However, Visually Induced Motion Sickness (VIMS), which prevents many from using VR without discomfort, bars widespread adoption. Prior work has shown that limiting the Field of View (FoV) can reduce VIMS at a cost of also reducing presence. Systems that dynamically adjust a user\u2019s FoV may be able to balance these concerns. To explore this idea, we present a technique for standard 360\u00b0 video that shrinks FoVs only during VIMS inducing scenes. It uses Visual Simultaneous Localization and Mapping and peripheral optical flow to compute camera movements and reduces FoV during rapid motion or optical flow. A user study (N=23) comparing 360\u00b0 video with unrestricted-FoVs (90\u00b0), reduced fixed-FoVs (40\u00b0) and dynamic-FoVs (40\u00b0-90\u00b0) revealed that dynamic-FoVs mitigate VIMS while maintaining presence. We close by discussing the user experience of dynamic-FoVs and recommendations for how they can help make VR comfortable and immersive for all.",
+  "authors": [
+    {
+      "name": "Paulo Bala",
+      "institution": "Faculdade de Ci\u00eancias e Tecnologia Universidade Nova de Lisboa, Portugal",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658701809",
+      "orcid": "0000-0003-1743-0261"
+    },
+    {
+      "name": "Ian Oakley",
+      "institution": "UNIST, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100367387",
+      "orcid": "0000-0001-5834-8577"
+    },
+    {
+      "name": "Valentina Nisi",
+      "institution": "DEI Instituto Superior T\u00e9cnico - Universidade de Lisboa, Portugal",
+      "img": "/do/10.1145/contrib-81442614375/rel-imgonly/img_0490.jpg",
+      "acmid": "81442614375",
+      "orcid": "0000-0002-8051-3230"
+    },
+    {
+      "name": "Nuno Jardim Nunes",
+      "institution": "DEI Instituto Superior T\u00e9cnico - U. Lisbon, Portugal",
+      "img": "/do/10.1145/contrib-81100452353/rel-imgonly/njn2010_2.jpg",
+      "acmid": "81100452353",
+      "orcid": "0000-0002-2498-0643"
+    }
+  ],
+  "references": [
+    {
+      "text": "2017. Tunneling Demo | Google VR. https://developers.google.com/vr/elements/tunneling",
+      "doi": ""
+    },
+    {
+      "text": "Isayas\u00a0Berhe Adhanom, Nathan Navarro\u00a0Griffin, Paul MacNeilage, and Eelke Folmer. 2020. The Effect of a Foveated Field-of-view Restrictor on VR Sickness. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 645\u2013652. https://doi.org/10.1109/VR46266.2020.00087 ISSN: 2642-5254.",
+      "doi": ""
+    },
+    {
+      "text": "Majed Al\u00a0Zayer, Isayas\u00a0B. Adhanom, Paul MacNeilage, and Eelke Folmer. 2019. The Effect of Field-of-View Restriction on Sex Bias in VR Sickness and Spatial Navigation Performance. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). ACM, New York, NY, USA, 354:1\u2013354:12. https://doi.org/10.1145/3290605.3300584",
+      "doi": "10.1145/3290605.3300584"
+    },
+    {
+      "text": "Shelly\u00a0L. Ames, James\u00a0S. Wolffsohn, and Neville\u00a0A. Mcbrien. 2005. The Development of a Symptom Questionnaire for Assessing Virtual Reality Viewing Using a Head-Mounted Display:. Optometry and Vision Science 82, 3 (March 2005), 168\u2013176. https://doi.org/10.1097/01.OPX.0000156307.95086.6",
+      "doi": ""
+    },
+    {
+      "text": "Samuel Ang and John Quarles. 2020. GingerVR: An Open Source Repository of Cybersickness Reduction Techniques for Unity. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW). IEEE, Atlanta, GA, USA, 460\u2013463. https://doi.org/10.1109/VRW50115.2020.00097",
+      "doi": ""
+    },
+    {
+      "text": "Simon Baker and Iain Matthews. 2004. Lucas-Kanade 20 Years On: A Unifying Framework. International Journal of Computer Vision 56, 3 (Feb. 2004), 221\u2013255. https://doi.org/10.1023/B:VISI.0000011205.11775.fd",
+      "doi": "10.1023/B%3AVISI.0000011205.11775.fd"
+    },
+    {
+      "text": "Paulo Bala, Raul Masu, Valentina Nisi, and Nuno Nunes. 2019. \u201dWhen the Elephant Trumps\u201d: A Comparative Study on Spatial Audio for Orientation in 360\u00ba Videos. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI \u201919. ACM Press, Glasgow, Scotland Uk, 1\u201313. https://doi.org/10.1145/3290605.3300925",
+      "doi": "10.1145/3290605.3300925"
+    },
+    {
+      "text": "Paulo Bala, Ian Oakley, Valentina Nisi, and Nuno Nunes. 2020. Staying on Track: a Comparative Study on the Use of Optical Flow in 360\u00b0 Video to Mitigate VIMS. In ACM International Conference on Interactive Media Experiences. ACM, Cornella, Barcelona Spain, 82\u201393. https://doi.org/10.1145/3391614.3393658",
+      "doi": "10.1145/3391614.3393658"
+    },
+    {
+      "text": "Tarik Benbrahim. 2019. GoPro x RYOT: Tales From the Edge in 4K VR | Jeb Corliss. https://www.youtube.com/watch?v=szHgpgVzfMM&ab_channel=GoPro",
+      "doi": ""
+    },
+    {
+      "text": "Mar\u00eda\u00a0Carolina Berm\u00fadez\u00a0Rey, Torin\u00a0K. Clark, Wei Wang, Tania Leeder, Yong Bian, and Daniel\u00a0M. Merfeld. 2016. Vestibular Perceptual Thresholds Increase above the Age of 40. Frontiers in Neurology 7 (Oct. 2016). https://doi.org/10.3389/fneur.2016.00162",
+      "doi": ""
+    },
+    {
+      "text": "A. Berthoz, B. Pavard, and L.\u00a0R. Young. 1975. Perception of linear horizontal self-motion induced by peripheral vision (linearvection) basic characteristics and visual-vestibular interactions. Experimental Brain Research 23, 5 (Nov. 1975), 471\u2013489.",
+      "doi": ""
+    },
+    {
+      "text": "Chris Bevan and David Green. 2018. A Mediography of Virtual Reality Non-Fiction: Insights and Future Directions. In Proceedings of the 2018 ACM International Conference on Interactive Experiences for TV and Online Video - TVX \u201918. ACM Press, SEOUL, Republic of Korea, 161\u2013166. https://doi.org/10.1145/3210825.3213557",
+      "doi": "10.1145/3210825.3213557"
+    },
+    {
+      "text": "Chris Bevan, David\u00a0Philip Green, Harry Farmer, Mandy Rose, Kirsten Cater, Dana\u00eb Stanton\u00a0Fraser, and Helen Brown. 2019. Behind the Curtain of the \u201dUltimate Empathy Machine\u201d: On the Composition of Virtual Reality Nonfiction Experiences. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI \u201919. ACM Press, Glasgow, Scotland Uk, 1\u201312. https://doi.org/10.1145/3290605.3300736",
+      "doi": "10.1145/3290605.3300736"
+    },
+    {
+      "text": "Jiwan Bhandari, Paul MacNeilage, and Eelke Folmer. 2018. Teleportation without Spatial Disorientation Using Optical Flow Cues. In Proceedings of the 44th Graphics Interface Conference (Toronto, Canada) (GI \u201918). Canadian Human-Computer Communications Society, Waterloo, CAN, 162\u2013167. https://doi.org/10.20380/GI2018.22",
+      "doi": "10.20380/GI2018.22"
+    },
+    {
+      "text": "Roger Bivand, L. Anselin, O. Berke, A. Bernat, M. Carvalho, Y. Chun, C.\u00a0F. Dormann, S. Dray, R. Halbersma, and N. Lewin-Koh. 2011. spdep: Spatial dependence: weighting schemes, statistics and models. R package version 0.5-31.",
+      "doi": ""
+    },
+    {
+      "text": "Roger Bivand, Tim Keitt, Barry Rowlingson, and E. Pebesma. 2014. rgdal: Bindings for the geospatial data abstraction library. R package version 0.8-16(2014).",
+      "doi": ""
+    },
+    {
+      "text": "Mark Bolas, J.\u00a0Adam Jones, Ian McDowall, and Evan Suma. 2017. Dynamic field of view throttling as a means of improving user experience in head mounted virtual environments.",
+      "doi": ""
+    },
+    {
+      "text": "Frederick Bonato, Andrea Bubka, Stephen Palmisano, Danielle Phillip, and Giselle Moreno. 2008. Vection Change Exacerbates Simulator Sickness in Virtual Environments. Presence: Teleoperators and Virtual Environments 17, 3 (June 2008), 283\u2013292. https://doi.org/10.1162/pres.17.3.283",
+      "doi": "10.1162/pres.17.3.283"
+    },
+    {
+      "text": "Jelte\u00a0E. Bos, Sjoerd\u00a0C. de Vries, Martijn\u00a0L. van Emmerik, and Eric\u00a0L. Groen. 2010. The effect of internal and external fields of view on visually induced motion sickness. Applied Ergonomics 41, 4 (July 2010), 516\u2013521. https://doi.org/10.1016/j.apergo.2009.11.007",
+      "doi": ""
+    },
+    {
+      "text": "G. Bradski. 2000. The OpenCV Library. Dr. Dobb\u2019s Journal of Software Tools(2000).",
+      "doi": ""
+    },
+    {
+      "text": "Th. Brandt, Johannes Dichgans, and Ed Koenig. 1973. Differential effects of central versus peripheral vision on egocentric and exocentric motion perception. Experimental Brain Research 16, 5 (March 1973), 476\u2013491. https://doi.org/10.1007/BF00234474",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative research in psychology 3, 2 (2006), 77\u2013101.",
+      "doi": ""
+    },
+    {
+      "text": "Pulkit Budhiraja, Mark\u00a0Roman Miller, Abhishek\u00a0K. Modi, and David Forsyth. 2017. Rotation Blurring: Use of Artificial Blurring to Reduce Cybersickness in Virtual Reality First Person Shooters. arXiv:1710.02599 [cs] (Oct. 2017). http://arxiv.org/abs/1710.02599 arXiv:1710.02599.",
+      "doi": ""
+    },
+    {
+      "text": "Helmut Buhler, Sebastian Misztal, and Jonas Schild. 2018. Reducing VR Sickness Through Peripheral Visual Effects. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, Reutlingen, 517\u20139. https://doi.org/10.1109/VR.2018.8446346",
+      "doi": ""
+    },
+    {
+      "text": "Fabio Buttussi and Luca Chittaro. 2019. Locomotion in Place in Virtual Reality: A Comparative Evaluation of Joystick, Teleport, and Leaning. IEEE Transactions on Visualization and Computer Graphics (2019), 1\u20131. https://doi.org/10.1109/TVCG.2019.2928304",
+      "doi": ""
+    },
+    {
+      "text": "S.\u00a0van Buuren and Karin Groothuis-Oudshoorn. 2010. mice: Multivariate imputation by chained equations in R. Journal of statistical software(2010), 1\u201368. Publisher: University of California, Los Angeles.",
+      "doi": ""
+    },
+    {
+      "text": "Zekun Cao, Jason Jerald, and Regis Kopper. 2018. Visually-Induced Motion Sickness Reduction via Static and Dynamic Rest Frames. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 105\u2013112. https://doi.org/10.1109/VR.2018.8446210",
+      "doi": ""
+    },
+    {
+      "text": "David Caruso, Jakob Engel, and Daniel Cremers. 2015. Large-scale direct SLAM for omnidirectional cameras. In 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, Hamburg, Germany, 141\u2013148. https://doi.org/10.1109/IROS.2015.7353366",
+      "doi": ""
+    },
+    {
+      "text": "Eunhee Chang, Hyun\u00a0Taek Kim, and Byounghyun Yoo. 2020. Virtual Reality Sickness: A Review of Causes and Measurements. International Journal of Human\u2013Computer Interaction (July 2020), 1\u201325. https://doi.org/10.1080/10447318.2020.1778351",
+      "doi": ""
+    },
+    {
+      "text": "Shih-Han Chou, Cheng Sun, Wen-Yen Chang, Wan-Ting Hsu, Min Sun, and Jianlong Fu. 2020. 360-Indoor: Towards Learning Real-World Objects in 360\u00ba Indoor Equirectangular Images. In The IEEE Winter Conference on Applications of Computer Vision. 845\u2013853.",
+      "doi": ""
+    },
+    {
+      "text": "Rudolph\u00a0P. Darken, William\u00a0R. Cockayne, and David Carmein. 1997. The omni-directional treadmill: a locomotion device for virtual worlds. In Proceedings of the 10th annual ACM symposium on User interface software and technology - UIST \u201997. ACM Press, Banff, Alberta, Canada, 213\u2013221. https://doi.org/10.1145/263407.263550",
+      "doi": "10.1145/263407.263550"
+    },
+    {
+      "text": "Erwan\u00a0J. David, Jes\u00fas Guti\u00e9rrez, Antoine Coutrot, Matthieu\u00a0Perreira Da\u00a0Silva, and Patrick\u00a0Le Callet. 2018. A dataset of head and eye movements for 360\u00b0 videos. In Proceedings of the 9th ACM Multimedia Systems Conference. ACM, Amsterdam Netherlands, 432\u2013437. https://doi.org/10.1145/3204949.3208139",
+      "doi": "10.1145/3204949.3208139"
+    },
+    {
+      "text": "Simon Davis, Keith Nesbitt, and Eugene Nalivaiko. 2015. Comparing the onset of cybersickness using the Oculus Rift and two virtual roller coasters. In Proceedings of the 11th Australasian Conference on Interactive Entertainment (IE 2015), Vol.\u00a027. 30. http://crpit.com/confpapers/CRPITV167Davis.pdf",
+      "doi": ""
+    },
+    {
+      "text": "M.\u00a0H. Draper, E.\u00a0S. Viire, T.\u00a0A. Furness, and V.\u00a0J. Gawron. 2001. Effects of image scale and system time delay on simulator sickness within head-coupled virtual environments. Human Factors 43, 1 (2001), 129\u2013146. https://doi.org/10.1518/001872001775992552",
+      "doi": ""
+    },
+    {
+      "text": "Henry Been-Lirn Duh, Donald\u00a0E. Parker, and Thomas\u00a0A. Furness. 2001. An \u201cIndependent Visual Background\u201d Reduced Balance Disturbance Envoked by Visual Scene Motion: Implication for Alleviating Simulator Sickness. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Seattle, Washington, USA) (CHI \u201901). Association for Computing Machinery, New York, NY, USA, 85\u201389. https://doi.org/10.1145/365024.365051",
+      "doi": ""
+    },
+    {
+      "text": "Henry Been-Lirn Duh, Donald\u00a0E. Parker, and Thomas\u00a0A. Furness. 2004. An Independent Visual Background Reduced Simulator Sickness in a Driving Simulator. Presence: Teleoperators and Virtual Environments 13, 5 (Oct. 2004), 578\u2013588. https://doi.org/10.1162/1054746042545283",
+      "doi": ""
+    },
+    {
+      "text": "Natalia Du\u017cma\u0144ska, Pawe\u0142 Strojny, and Agnieszka Strojny. 2018. Can Simulator Sickness Be Avoided? A Review on Temporal Aspects of Simulator Sickness. Frontiers in Psychology 9 (Nov. 2018). https://doi.org/10.3389/fpsyg.2018.02132",
+      "doi": ""
+    },
+    {
+      "text": "Sheldon\u00a0M. Ebenholtz. 2001. Oculomotor systems and perception. Cambridge University Press, New York.",
+      "doi": ""
+    },
+    {
+      "text": "Yasin Farmani and Robert\u00a0J. Teather. 2018. Viewpoint Snapping to Reduce Cybersickness in Virtual Reality. (2018), 168 \u2013 175. https://doi.org/10.20380/GI2018.23",
+      "doi": ""
+    },
+    {
+      "text": "Gunnar Farneb\u00e4ck. 2003. Two-frame motion estimation based on polynomial expansion. Image analysis (2003), 363\u2013370.",
+      "doi": ""
+    },
+    {
+      "text": "Ajoy\u00a0S Fernandes and Steven\u00a0K. Feiner. 2016. Combating VR sickness through subtle dynamic field-of-view modification. In 2016 IEEE Symposium on 3D User Interfaces (3DUI). IEEE, Greenville, SC, USA, 201\u2013210. https://doi.org/10.1109/3DUI.2016.7460053",
+      "doi": ""
+    },
+    {
+      "text": "Andy Field, Jeremy Miles, and Zo\u00eb Field. 2012. Discovering statistics using R. Sage publications.",
+      "doi": "10.5555/1036774"
+    },
+    {
+      "text": "Eivind Flobak, Jo\u00a0D. Wake, Joakim Vindenes, Smiti Kahlon, Tine Nordgreen, and Frode Guribye. 2019. Participatory Design of VR Scenarios for Exposure Therapy. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI \u201919. ACM Press, Glasgow, Scotland Uk, 1\u201312. https://doi.org/10.1145/3290605.3300799",
+      "doi": "10.1145/3290605.3300799"
+    },
+    {
+      "text": "Sebastian Freitag, Benjamin Weyers, and Torsten\u00a0W. Kuhlen. 2017. Assisted travel based on common visibility and navigation meshes. In 2017 IEEE Virtual Reality (VR). IEEE, 369\u2013370. https://doi.org/10.1109/VR.2017.7892330",
+      "doi": ""
+    },
+    {
+      "text": "Jann\u00a0Philipp Freiwald, Oscar Ariza, Omar Janeh, and Frank Steinicke. 2020. Walking by Cycling: A Novel In-Place Locomotion User Interface for Seated Virtual Reality Experiences. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu HI USA, 1\u201312. https://doi.org/10.1145/3313831.3376574",
+      "doi": "10.1145/3313831.3376574"
+    },
+    {
+      "text": "Augusto Garcia-Agundez, Aiko Westmeier, Polona Caserman, Robert Konrad, and Stefan G\u00f6bel. 2017. An Evaluation of Extrapolation and Filtering Techniques in Head Tracking for Virtual Environments to Reduce Cybersickness. In Serious Games(Lecture Notes in Computer Science). Springer, Cham, 203\u2013211. https://doi.org/10.1007/978-3-319-70111-0_19",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0F Golding. 1998. Motion sickness susceptibility questionnaire revised and its relationship to other forms of sickness. Brain Research Bulletin 47, 5 (Nov. 1998), 507\u2013516. https://doi.org/10.1016/S0361-9230(98)00091-4",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2020. Google Earth VR. https://arvr.google.com/earth/",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0W. Graham. 2009. Missing Data Analysis: Making It Work in the Real World. Annual Review of Psychology 60, 1 (Jan. 2009), 549\u2013576. https://doi.org/10.1146/annurev.psych.58.110405.085530",
+      "doi": ""
+    },
+    {
+      "text": "Jo\u017ee Guna, Gregor Ger\u0161ak, Iztok Humar, Jeungeun Song, Janko Drnov\u0161ek, and Matev\u017e Poga\u010dnik. 2019. Influence of video content type on users\u2019 virtual reality sickness perception and physiological response. Future Generation Computer Systems 91 (Feb. 2019), 263\u2013276. https://doi.org/10.1016/j.future.2018.08.049",
+      "doi": ""
+    },
+    {
+      "text": "Kelly\u00a0S. Hale and Kay\u00a0M. Stanney (Eds.). 2014. Handbook of Virtual Environments: Design, Implementation, and Applications, Second Edition(0 ed.). CRC Press. https://doi.org/10.1201/b17360",
+      "doi": ""
+    },
+    {
+      "text": "Haikun Huang, Michael Solah, Dingzeyu Li, and Lap-Fai Yu. 2019. Audible Panorama: Automatic Spatial Audio Generation for Panorama Imagery. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). ACM, New York, NY, USA, 621:1\u2013621:11. https://doi.org/10.1145/3290605.3300851",
+      "doi": "10.1145/3290605.3300851"
+    },
+    {
+      "text": "Nupur Kala, Kyungmin Lim, Kwanghyun Won, Jaesung Lee, Tammy Lee, Sehoon Kim, and Wonhee Choe. 2017. P-218: An Approach to Reduce VR Sickness by Content Based Field of View Processing. SID Symposium Digest of Technical Papers 48, 1 (May 2017), 1645\u20131648. https://doi.org/10.1002/sdtp.11956",
+      "doi": ""
+    },
+    {
+      "text": "Shunichi Kasahara, Shohei Nagai, and Jun Rekimoto. 2015. First Person Omnidirectional Video: System Design and Implications for Immersive Experience. In Proceedings of the ACM International Conference on Interactive Experiences for TV and Online Video (Brussels, Belgium) (TVX \u201915). Association for Computing Machinery, New York, NY, USA, 33\u201342. https://doi.org/10.1145/2745197.2745202",
+      "doi": "10.1145/2745197.2745202"
+    },
+    {
+      "text": "Andras Kemeny, Paul George, Fr\u00e9d\u00e9ric M\u00e9rienne, and Florent Colombet. 2017. New VR Navigation Techniques to Reduce Cybersickness. https://doi.org/10.2352/ISSN.2470-1173.2017.3.ERVR-097",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0S. Kennedy, Norman\u00a0E. Lane, Kevin\u00a0S. Berbaum, and Michael\u00a0G. Lilienthal. 1993. Simulator Sickness Questionnaire: An Enhanced Method for Quantifying Simulator Sickness. The International Journal of Aviation Psychology 3, 3 (July 1993), 203\u2013220. https://doi.org/10.1207/s15327108ijap0303_3",
+      "doi": ""
+    },
+    {
+      "text": "Behrang Keshavarz, Heiko Hecht, and Lisa Zschutschke. 2011. Intra-visual conflict in visually induced motion sickness. Displays 32, 4 (Oct. 2011), 181\u2013188. https://doi.org/10.1016/j.displa.2011.05.009",
+      "doi": ""
+    },
+    {
+      "text": "Behrang Keshavarz, Aaron\u00a0Emile Philipp-Muller, Wanja Hemmerich, Bernhard\u00a0E. Riecke, and Jennifer\u00a0L. Campos. 2019. The effect of visual motion stimulus characteristics on vection and visually induced motion sickness. Displays 58 (July 2019), 71\u201381. https://doi.org/10.1016/j.displa.2018.07.005",
+      "doi": ""
+    },
+    {
+      "text": "Hyun\u00a0K. Kim, Jaehyun Park, Yeongcheol Choi, and Mungyeong Choe. 2018. Virtual reality sickness questionnaire (VRSQ): Motion sickness measurement index in a virtual reality environment. Applied ergonomics 69(2018), 66\u201373. https://doi.org/10.1016/j.apergo.2017.12.016",
+      "doi": ""
+    },
+    {
+      "text": "Young\u00a0Youn Kim, Eun\u00a0Nam Kim, Min\u00a0Jae Park, Kwang\u00a0Suk Park, Hee\u00a0Dong Ko, and Hyun\u00a0Taek Kim. 2008. The Application of Biosignal Feedback for Reducing Cybersickness from Exposure to a Virtual Environment. Presence 17, 1 (Feb. 2008), 1\u201316. https://doi.org/10.1162/pres.17.1.1",
+      "doi": "10.1162/pres.17.1.1"
+    },
+    {
+      "text": "Udo Kuckartz and Stefan R\u00e4diker. 2019. Analyzing qualitative data with MAXQDA. Springer.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph\u00a0J. LaViola, Jr.2000. A Discussion of Cybersickness in Virtual Environments. SIGCHI Bull. 32, 1 (Jan. 2000), 47\u201356. https://doi.org/10.1145/333329.333344",
+      "doi": "10.1145/333329.333344"
+    },
+    {
+      "text": "Kyungmin Lim, Jaesung Lee, Kwanghyun Won, Nupur Kala, and Tammy Lee. 2020. A novel method for VR sickness reduction based on dynamic field of view processing. Virtual Reality (July 2020). https://doi.org/10.1007/s10055-020-00457-3",
+      "doi": "10.1007/s10055-020-00457-3"
+    },
+    {
+      "text": "James Jeng-Weei Lin, Habib Abi-Rached, Do-Hoe Kim, Donald\u00a0E. Parker, and Thomas\u00a0A. Furness. 2002. A \u201cNatural\u201d Independent Visual Background Reduced Simulator Sickness. Proceedings of the Human Factors and Ergonomics Society Annual Meeting 46, 26 (2002), 2124\u20132128. https://doi.org/10.1177/154193120204602605 arXiv:https://doi.org/10.1177/154193120204602605",
+      "doi": ""
+    },
+    {
+      "text": "Yung-Ta Lin, Yi-Chi Liao, Shan-Yuan Teng, Yi-Ju Chung, Liwei Chan, and Bing-Yu Chen. 2017. Outside-In: Visualizing Out-of-Sight Regions-of-Interest in a 360 Video Using Spatial Picture-in-Picture Previews. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology. ACM, 255\u2013265. https://doi.org/10.1145/3126594.3126656",
+      "doi": "10.1145/3126594.3126656"
+    },
+    {
+      "text": "Sean\u00a0J. Liu, Maneesh Agrawala, Stephen DiVerdi, and Aaron Hertzmann. 2019. View-Dependent Video Textures for 360\u00b0 Video. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology. ACM, New Orleans LA USA, 249\u2013262. https://doi.org/10.1145/3332165.3347887",
+      "doi": "10.1145/3332165.3347887"
+    },
+    {
+      "text": "Pietro Lungaro, Rickard Sjoberg, Alfredo Jose\u00a0Fanghella Valero, Ashutosh Mittal, and Konrad Tollmar. 2018. Gaze-Aware Streaming Solutions for the Next Generation of Mobile VR Experiences. IEEE Transactions on Visualization and Computer Graphics 24, 4 (April 2018), 1535\u20131544. https://doi.org/10.1109/TVCG.2018.2794119",
+      "doi": "10.1109/TVCG.2018.2794119"
+    },
+    {
+      "text": "Ville M\u00e4kel\u00e4, Tuuli Keskinen, John M\u00e4kel\u00e4, Pekka Kallioniemi, Jussi Karhu, Kimmo Ronkainen, Alisa Burova, Jaakko Hakulinen, and Markku Turunen. 2019. What Are Others Looking at? Exploring 360\u00b0 Videos on HMDs with Visual Cues about Other Viewers. In Proceedings of the 2019 ACM International Conference on Interactive Experiences for TV and Online Video (Salford (Manchester), United Kingdom) (TVX \u201919). Association for Computing Machinery, New York, NY, USA, 13\u201324. https://doi.org/10.1145/3317697.3323351",
+      "doi": "10.1145/3317697.3323351"
+    },
+    {
+      "text": "John\u00a0W. Mauchly. 1940. Significance Test for Sphericity of a Normal $n$-Variate Distribution. The Annals of Mathematical Statistics 11, 2 (June 1940), 204\u2013209. https://doi.org/10.1214/aoms/1177731915",
+      "doi": ""
+    },
+    {
+      "text": "Mark McGill, Daniel Boland, Roderick Murray-Smith, and Stephen Brewster. 2015. A Dose of Reality: Overcoming Usability Challenges in VR Head-Mounted Displays. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems - CHI \u201915. ACM Press, Seoul, Republic of Korea, 2143\u20132152. https://doi.org/10.1145/2702123.2702382",
+      "doi": "10.1145/2702123.2702382"
+    },
+    {
+      "text": "Mark McGill, Alexander Ng, and Stephen Brewster. 2017. I Am The Passenger: How Visual Motion Cues Can Influence Sickness For In-Car VR. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). ACM, New York, NY, USA, 5655\u20135668. https://doi.org/10.1145/3025453.3026046",
+      "doi": "10.1145/3025453.3026046"
+    },
+    {
+      "text": "Doug McIlroy, Ray Brownrigg, Thomas\u00a0P. Minka, and Roger Bivand. 2014. Mapproj: map projections. R package version (2014), 1\u20132.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Meehan, Sharif Razzaque, Mary\u00a0C. Whitton, and Frederick\u00a0P. Brooks. 2003. Effect of latency on presence in stressful virtual environments. In IEEE Virtual Reality, 2003. Proceedings.IEEE, 141\u2013148. https://doi.org/10.1109/VR.2003.1191132",
+      "doi": ""
+    },
+    {
+      "text": "Byung-Chan Min, Soon-Cheol Chung, Yoon-Ki Min, and Kazuyoshi Sakamoto. 2004. Psychophysiological evaluation of simulator sickness evoked by a graphic simulator. Applied Ergonomics 35, 6 (2004), 549 \u2013 556. https://doi.org/10.1016/j.apergo.2004.06.002",
+      "doi": ""
+    },
+    {
+      "text": "Jason\u00a0D. Moss and Eric\u00a0R. Muth. 2011. Characteristics of Head-Mounted Displays and Their Effects on Simulator Sickness. Human Factors: The Journal of the Human Factors and Ergonomics Society 53, 3 (June 2011), 308\u2013319. https://doi.org/10.1177/0018720811405196",
+      "doi": ""
+    },
+    {
+      "text": "Justin Munafo, Meg Diedrick, and Thomas\u00a0A. Stoffregen. 2017. The virtual reality head-mounted display Oculus Rift induces motion sickness and is sexist in its effects. Experimental brain research 235, 3 (2017), 889\u2013901. https://doi.org/10.1007/s00221-016-4846-7",
+      "doi": ""
+    },
+    {
+      "text": "Richard Musil. 2020. HMD Geometry Database. https://risa2000.github.io/hmdgdb/",
+      "doi": ""
+    },
+    {
+      "text": "Mahdi Nabiyouni and Doug\u00a0A. Bowman. 2016. A Taxonomy for Designing Walking-based Locomotion Techniques for Virtual Reality. In Proceedings of the 2016 ACM Companion on Interactive Surfaces and Spaces(ISS Companion \u201916). ACM, New York, NY, USA, 115\u2013121. https://doi.org/10.1145/3009939.3010076",
+      "doi": "10.1145/3009939.3010076"
+    },
+    {
+      "text": "Afshin\u00a0Taghavi Nasrabadi, Aliehsan Samiei, Anahita Mahzari, Ryan\u00a0P. McMahan, Ravi Prakash, Myl\u00e8ne C.\u00a0Q. Farias, and Marcelo\u00a0M. Carvalho. 2019. A taxonomy and dataset for 360\u00ba videos. In Proceedings of the 10th ACM Multimedia Systems Conference(MMSys \u201919). Association for Computing Machinery, New York, NY, USA, 273\u2013278. https://doi.org/10.1145/3304109.3325812",
+      "doi": "10.1145/3304109.3325812"
+    },
+    {
+      "text": "Lu\u00eds A.\u00a0R. Neng and Teresa Chambel. 2010. Get around 360\u00b0 hypervideo. In Proceedings of the 14th International Academic MindTrek Conference on Envisioning Future Media Environments - MindTrek \u201910. ACM Press, Tampere, Finland, 119. https://doi.org/10.1145/1930488.1930512",
+      "doi": ""
+    },
+    {
+      "text": "Cuong Nguyen, Stephen DiVerdi, Aaron Hertzmann, and Feng Liu. 2017. Vremiere: In-Headset Virtual Reality Video Editing. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). ACM, New York, NY, USA, 5428\u20135438. https://doi.org/10.1145/3025453.3025675",
+      "doi": "10.1145/3025453.3025675"
+    },
+    {
+      "text": "Thinh Nguyen-Vo, Bernhard\u00a0E. Riecke, and Wolfgang Stuerzlinger. 2018. Simulated Reference Frame: A Cost-Effective Solution to Improve Spatial Orientation in VR. In 2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, Reutlingen, 415\u2013422. https://doi.org/10.1109/VR.2018.8446383",
+      "doi": ""
+    },
+    {
+      "text": "Guangyu Nie, Yue Liu, and Yongtian Wang. 2017. [POSTER]Prevention of Visually Induced Motion Sickness Based on Dynamic Real-Time Content-Aware Non-salient Area Blurring. In 2017 IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct). IEEE, Nantes, France, 75\u201378. https://doi.org/10.1109/ISMAR-Adjunct.2017.35",
+      "doi": ""
+    },
+    {
+      "text": "Nahal Norouzi, Gerd Bruder, and Greg Welch. 2018. Assessing vignetting as a means to reduce VR sickness during amplified head rotations. In Proceedings of the 15th ACM Symposium on Applied Perception(SAP \u201918). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3225153.3225162",
+      "doi": "10.1145/3225153.3225162"
+    },
+    {
+      "text": "Oculus. 2020. Locomotion | Oculus Developers. https://developer.oculus.com/learn/bp-locomotion/",
+      "doi": ""
+    },
+    {
+      "text": "Amy Pavel, Bj\u00f6rn Hartmann, and Maneesh Agrawala. 2017. Shot Orientation Controls for Interactive Cinematography with 360 Video. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology. ACM, Qu\u00e9bec City QC Canada, 289\u2013297. https://doi.org/10.1145/3126594.3126636",
+      "doi": "10.1145/3126594.3126636"
+    },
+    {
+      "text": "Edzer Pebesma. 2018. Simple Features for R: Standardized Support for Spatial Vector Data. The R Journal 10, 1 (2018), 439\u2013446. https://doi.org/10.32614/RJ-2018-009",
+      "doi": ""
+    },
+    {
+      "text": "Yi-Hao Peng, Carolyn Yu, Shi-Hong Liu, Chung-Wei Wang, Paul Taele, Neng-Hao Yu, and Mike\u00a0Y. Chen. 2020. WalkingVibe: Reducing Virtual Reality Sickness and Improving Realism while Walking in VR using Unobtrusive Head-mounted Vibrotactile Feedback. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems(CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376847",
+      "doi": "10.1145/3313831.3376847"
+    },
+    {
+      "text": "Thiago\u00a0M. Porcino, Esteban Clua, Daniela Trevisan, Cristina\u00a0N. Vasconcelos, and Luis Valente. 2017. Minimizing cyber sickness in head mounted display systems: Design guidelines and applications. In 2017 IEEE 5th International Conference on Serious Games and Applications for Health (SeGAH). 1\u20136. https://doi.org/10.1109/SeGAH.2017.7939283",
+      "doi": ""
+    },
+    {
+      "text": "J.\u00a0D. Prothero, M.\u00a0H. Draper, T.\u00a0A. Furness, D.\u00a0E. Parker, and M.\u00a0J. Wells. 1999. The use of an independent visual background to reduce simulator side-effects. Aviation, Space, and Environmental Medicine 70, 3 Pt 1 (March 1999), 277\u2013283.",
+      "doi": ""
+    },
+    {
+      "text": "R Core Team. 2014. R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. http://www.R-project.org/",
+      "doi": ""
+    },
+    {
+      "text": "Sharif Razzaque, Zachariah Kohn, and Mary\u00a0C Whitton. 2001. Redirected Walking. Technical Report. University of North Carolina at Chapel Hill, Chapel Hill, NC, USA.",
+      "doi": "10.5555/897969"
+    },
+    {
+      "text": "Lisa Rebenitsch and Charles Owen. 2014. Individual Variation in Susceptibility to Cybersickness. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology(UIST \u201914). ACM, New York, NY, USA, 309\u2013317. https://doi.org/10.1145/2642918.2647394",
+      "doi": "10.1145/2642918.2647394"
+    },
+    {
+      "text": "Lisa Rebenitsch and Charles Owen. 2016. Review on cybersickness in applications and visual displays. Virtual Reality 20, 2 (June 2016), 101\u2013125. https://doi.org/10.1007/s10055-016-0285-9",
+      "doi": "10.1007/s10055-016-0285-9"
+    },
+    {
+      "text": "Gary\u00a0E. Riccio and Thomas\u00a0A. Stoffregen. 1991. An ecological Theory of Motion Sickness and Postural Instability. Ecological Psychology 3, 3 (Sept. 1991), 195\u2013240. https://doi.org/10.1207/s15326969eco0303_2",
+      "doi": ""
+    },
+    {
+      "text": "Sylvia Rothe and Heinrich Hu\u00dfmann. 2018. Spatial statistics for analyzing data in cinematic virtual reality. In Proceedings of the 2018 International Conference on Advanced Visual Interfaces - AVI \u201918. ACM Press, Castiglione della Pescaia, Grosseto, Italy, 1\u20133. https://doi.org/10.1145/3206505.3206561",
+      "doi": "10.1145/3206505.3206561"
+    },
+    {
+      "text": "Santeri Saarinen, Ville M\u00e4kel\u00e4, Pekka Kallioniemi, Jaakko Hakulinen, and Markku Turunen. 2017. Guidelines for Designing Interactive Omnidirectional Video Applications. In 16th IFIP TC 13 International Conference on Human-Computer Interaction \u2014 INTERACT 2017 - Volume 10516. Springer-Verlag, Berlin, Heidelberg, 263\u2013272. https://doi.org/10.1007/978-3-319-68059-0_17",
+      "doi": "10.1007/978-3-319-68059-0_17"
+    },
+    {
+      "text": "Dimitrios Saredakis, Ancret Szpak, Brandon Birckhead, Hannah A.\u00a0D. Keage, Albert Rizzo, and Tobias Loetscher. 2020. Factors Associated With Virtual Reality Sickness in Head-Mounted Displays: A Systematic Review and Meta-Analysis. Frontiers in Human Neuroscience 14 (March 2020). https://doi.org/10.3389/fnhum.2020.00096",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Schubert, Frank Friedmann, and Holger Regenbrecht. 2001. The Experience of Presence: Factor Analytic Insights. Presence: Teleoper. Virtual Environ. 10, 3 (June 2001), 266\u2013281. https://doi.org/10.1162/105474601300343603",
+      "doi": "10.1162/105474601300343603"
+    },
+    {
+      "text": "A.F. Seay, D.M. Krum, L. Hodges, and W. Ribarsky. 2001. Simulator sickness and presence in a high FOV virtual environment. In Proceedings IEEE Virtual Reality 2001. IEEE Comput. Soc, Yokohama, Japan, 299\u2013300. https://doi.org/10.1109/VR.2001.913806",
+      "doi": ""
+    },
+    {
+      "text": "Volkan Sevinc and Mehmet\u00a0Ilker Berkman. 2020. Psychometric evaluation of Simulator Sickness Questionnaire and its variants as a measure of cybersickness in consumer virtual environments. Applied Ergonomics 82 (Jan. 2020), 102958. https://doi.org/10.1016/j.apergo.2019.102958",
+      "doi": ""
+    },
+    {
+      "text": "Alia Sheikh, Andy Brown, Zillah Watson, and Michael Evans. 2016. Directing attention in 360-degree video. IET Conference Proceedings(2016). https://doi.org/10.1049/ibc.2016.0029",
+      "doi": ""
+    },
+    {
+      "text": "Mel Slater and Maria\u00a0V. Sanchez-Vives. 2016. Enhancing Our Lives with Immersive Virtual Reality. Frontiers in Robotics and AI 3 (Dec. 2016). https://doi.org/10.3389/frobt.2016.00074",
+      "doi": ""
+    },
+    {
+      "text": "VERBI Software. 2019. MAXQDA 2020. maxqda.com",
+      "doi": ""
+    },
+    {
+      "text": "Kay\u00a0M. Stanney, D.\u00a0Susan Lanham, Robert\u00a0S. Kennedy, and Robert Breaux. 1999. Virtual Environment Exposure Drop-Out Thresholds. Proceedings of the Human Factors and Ergonomics Society Annual Meeting 43, 22 (Sept. 1999), 1223\u20131227. https://doi.org/10.1177/154193129904302212 Publisher: SAGE Publications Inc.",
+      "doi": ""
+    },
+    {
+      "text": "Anthony Steed, Francisco\u00a0R. Ortega, Adam\u00a0S. Williams, Ernst Kruijff, Wolfgang Stuerzlinger, Anil\u00a0Ufuk Batmaz, Andrea\u00a0Stevenson Won, Evan\u00a0Suma Rosenberg, Adalberto\u00a0L. Simeone, and Aleshia Hayes. 2020. Evaluating immersive experiences during Covid-19 and beyond. Interactions 27, 4 (July 2020), 62\u201367. https://doi.org/10.1145/3406098",
+      "doi": "10.1145/3406098"
+    },
+    {
+      "text": "Shinya Sumikura, Mikiya Shibuya, and Ken Sakurada. 2019. OpenVSLAM: A Versatile Visual SLAM Framework. In Proceedings of the 27th ACM International Conference on Multimedia (Nice, France) (MM \u201919). ACM, New York, NY, USA, 2292\u20132295. https://doi.org/10.1145/3343031.3350539",
+      "doi": "10.1145/3343031.3350539"
+    },
+    {
+      "text": "Joel Teixeira and Stephen Palmisano. 2020. Effects of dynamic field-of-view restriction on cybersickness and presence in HMD-based virtual reality. Virtual Reality (Aug. 2020). https://doi.org/10.1007/s10055-020-00466-2",
+      "doi": ""
+    },
+    {
+      "text": "Sam Tregillus. 2016. VR-Drop: Exploring the Use of Walking-in-Place to Create Immersive VR Games. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems(CHI EA \u201916). ACM, New York, NY, USA, 176\u2013179. https://doi.org/10.1145/2851581.2890374",
+      "doi": "10.1145/2851581.2890374"
+    },
+    {
+      "text": "M. Treisman. 1977. Motion sickness: an evolutionary hypothesis. Science (New York, N.Y.) 197, 4302 (July 1977), 493\u2013495. https://doi.org/10.1126/science.301659",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0J. van Beers, Anne\u00a0C. Sittig, and Jan J. Denier van\u00a0der Gon. 1999. Integration of Proprioceptive and Visual Position-Information: An Experimentally Supported Model. Journal of Neurophysiology 81, 3 (March 1999), 1355\u20131364. https://doi.org/10.1152/jn.1999.81.3.1355",
+      "doi": ""
+    },
+    {
+      "text": "Michael Venturino and Maxwell\u00a0J. Wells. 1990. Head Movements as a Function of Field-of-View Size on a Helmet-Mounted Display. Proceedings of the Human Factors Society Annual Meeting 34, 19 (Oct. 1990), 1572\u20131576. https://doi.org/10.1177/154193129003401932",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas\u00a0A. Webb and Michael\u00a0J. Griffin. 2003. Eye movement, vection, and motion sickness with foveal and peripheral vision. Aviation, space, and environmental medicine 74, 6 (2003), 622\u2013625. Publisher: Aerospace Medical Association.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0Matthew Whittinghill, Bradley Ziegler, T Case, and B Moore. 2015. Nasum virtualis: A simple technique for reducing simulator sickness. In Games Developers Conference (GDC). 74.",
+      "doi": ""
+    },
+    {
+      "text": "Hadley Wickham. 2009. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. http://ggplot2.org",
+      "doi": "10.5555/1795559"
+    },
+    {
+      "text": "Carolin Wienrich, Christine\u00a0Katharina Weidner, Celina Schatto, David Obremski, and Johann\u00a0Habakuk Israel. 2018. A Virtual Nose as a Rest-Frame - The Impact on Simulator Sickness and Game Experience. In 2018 10th International Conference on Virtual Worlds and Games for Serious Applications (VS-Games). IEEE, Wurzburg, 1\u20138. https://doi.org/10.1109/VS-Games.2018.8493408",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0Lee Wilson. 2016. The effect of varying latency in a head-mounted display on task performance and motion sickness. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Robert Xiao and Hrvoje Benko. 2016. Augmenting the Field-of-View of Head-Mounted Displays with Sparse Peripheral Displays. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems - CHI \u201916 (Santa Clara, California, USA, 2016) (CHI \u201916). ACM Press, New York, NY, USA, 1221\u20131232. https://doi.org/10.1145/2858036.2858212",
+      "doi": "10.1145/2858036.2858212"
+    },
+    {
+      "text": "Khalid Yousif, Alireza Bab-Hadiashar, and Reza Hoseinnezhad. 2015. An Overview to Visual Odometry and Visual SLAM: Applications to Mobile Robotics. Intelligent Industrial Systems 1, 4 (Dec. 2015), 289\u2013311. https://doi.org/10.1007/s40903-015-0032-7",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Zielasko, Alexander Mei\u00dfner, Sebastian Freitag, Benjamin Weyers, and Torsten\u00a0W. Kuhlen. 2018. Dynamic field of view reduction related to subjective sickness measures in an HMD-based data analysis task. In Proc. of IEEE VR Workshop on Everyday Virtual Reality.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Zielasko, Benjamin Weyers, and Torsten\u00a0W. Kuhlen. 2019. A Non-Stationary Office Desk Substitution for Desk-Based and HMD-Projected Virtual Reality. 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR) (2019), 1884\u20131889. https://doi.org/10.1109/VR.2019.8797837",
+      "doi": ""
+    }
+  ]
+}

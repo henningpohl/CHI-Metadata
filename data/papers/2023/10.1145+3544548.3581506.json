@@ -1,0 +1,514 @@
+{
+  "doi": "10.1145/3544548.3581506",
+  "title": "Rethinking the Role of AI with Physicians in Oncology: Revealing Perspectives from Clinical and Research Workflows",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-19",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Significant and rapid advancements in cancer research have been attributed to Artificial Intelligence (AI). However, AI\u2019s role and impact on the clinical side has been limited. This discrepancy manifests due to the overlooked, yet profound, differences in the clinical and research practices in oncology. Our contribution seeks to scrutinize physicians\u2019 engagement with AI by interviewing 7 medical-imaging experts and disentangle its future alignment across the clinical and research workflows, diverging from the existing \u201cone-size-fits-all\u201d paradigm within Human-Centered AI discourses. Our analysis revealed that physicians\u2019 trust in AI is less dependent on their general acceptance of AI, but more on their contestable experiences with AI. Contestability, in clinical workflows, underpins the need for personal supervision of AI outcomes and processes, i.e., clinician-in-the-loop. Finally, we discuss tensions in the desired attributes of AI, such as explainability and control, contextualizing them within the divergent intentionality and scope of clinical and research workflows.",
+  "authors": [
+    {
+      "name": "Himanshu Verma",
+      "institution": "Knowledge and Intelligence Design (KInD), Delft University of Technology, Netherlands",
+      "img": "/do/10.1145/contrib-81502683880/rel-imgonly/81502683880.jpeg",
+      "acmid": "81502683880",
+      "orcid": "0000-0002-2494-1556"
+    },
+    {
+      "name": "Jakub Mlynar",
+      "institution": "Institute of Informatics, HES-SO Valais-Wallis, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659261191",
+      "orcid": "0000-0001-5206-3212"
+    },
+    {
+      "name": "Roger Schaer",
+      "institution": "Institute of Informatics, HES-SO Valais-Wallis, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81552685156",
+      "orcid": "0000-0001-7984-2099"
+    },
+    {
+      "name": "Julien Reichenbach",
+      "institution": "Institute of Informatics, HES-SO Valais-Wallis, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779836",
+      "orcid": "0000-0003-0978-7017"
+    },
+    {
+      "name": "Mario Jreige",
+      "institution": "Department of Nuclear Medicine and Molecular Imaging, Lausanne University Hospital, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660056481",
+      "orcid": "0000-0003-3918-150X"
+    },
+    {
+      "name": "John Prior",
+      "institution": "Department of Nuclear Medicine and Molecular Imaging, Lausanne University Hospital, Switzerland and Faculty of Biology and Medicine, University of Lausanne, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660058288",
+      "orcid": "0000-0003-1429-1374"
+    },
+    {
+      "name": "Florian Ev\u00e9quoz",
+      "institution": "Institute of Informatics, HES-SO Valais-Wallis, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81418592537",
+      "orcid": "0000-0002-6052-2252"
+    },
+    {
+      "name": "Adrien Depeursinge",
+      "institution": "Institute of Informatics, HES-SO Valais-Wallis, Switzerland and Department of Nuclear Medicine and Molecular Imaging, Lausanne University Hospital, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81372593891",
+      "orcid": "0000-0002-2362-0304"
+    }
+  ],
+  "references": [
+    {
+      "text": "Hugo J W\u00a0L Aerts, Emmanuel\u00a0Rios Velazquez, Ralph T\u00a0H Leijenaar, Chintan Parmar, Patrick Grossmann, Sara Carvalho, Johan Bussink, Ren\u00e9 Monshouwer, Benjamin Haibe-Kains, Derek Rietveld, Frank Hoebers, Michelle\u00a0M Rietbergen, C\u00a0Ren\u00e9 Leemans, Andre Dekker, John Quackenbush, Robert\u00a0J Gillies, and Philippe Lambin. 2014. Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach. Nature Communications 5 (June 2014), 4006. Issue 1.",
+      "doi": ""
+    },
+    {
+      "text": "Kars Alfrink, Ianus Keller, Gerd Kortuem, and Neelke Doorn. 2022. Contestable AI by Design: Towards a Framework. Minds and Machines (2022), 27. https://doi.org/10.1007/s11023-022-09611-z",
+      "doi": ""
+    },
+    {
+      "text": "Julia Amann, Alessandro Blasimme, Effy Vayena, Dietmar Frey, and Vince\u00a0I Madai. 2020. Explainability for artificial intelligence in healthcare: a multidisciplinary perspective. BMC Medical Informatics and Decision Making 20, 1 (2020), 1\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Kimlin\u00a0Tam Ashing-Giwa, Geraldine Padilla, Judith Tejero, Janet Kraemer, Karen Wright, Anne Coscarelli, Sheila Clayton, Imani Williams, and Dawn Hills. 2004. Understanding the breast cancer experience of women: a qualitative study of African American, Asian American, Latina and Caucasian cancer survivors. Psycho-Oncology: Journal of the Psychological, Social and Behavioral Dimensions of Cancer 13, 6 (2004), 408\u2013428.",
+      "doi": ""
+    },
+    {
+      "text": "Matthias Baldauf, Peter Fr\u00f6ehlich, and Rainer Endl. 2020. Trust Me, I\u2019m a Doctor \u2013 User Perceptions of AI-Driven Apps for Mobile Health Diagnosis. In 19th International Conference on Mobile and Ubiquitous Multimedia (Essen, Germany) (MUM \u201920). Association for Computing Machinery, New York, NY, USA, 167\u2013178. https://doi.org/10.1145/3428361.3428362",
+      "doi": "10.1145/3428361.3428362"
+    },
+    {
+      "text": "Christine\u00a0A Barry, Fiona\u00a0A Stevenson, Nicky Britten, Nick Barber, and Colin\u00a0P Bradley. 2001. Giving voice to the lifeworld. More humane, more effective medical care? A qualitative study of doctor\u2013patient communication in general practice. Social science & medicine 53, 4 (2001), 487\u2013505.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Burawoy. 1998. The Extended Case Method. Sociological Theory 16, 1 (1998), 4\u201333.",
+      "doi": ""
+    },
+    {
+      "text": "Federico Cabitza, Andrea Campagner, and Clara Balsano. 2020. Bridging the \u201clast mile\u201d gap between AI implementation and operation:\u201cdata awareness\u201d that matters. Annals of translational medicine 8, 7 (2020), 9.",
+      "doi": ""
+    },
+    {
+      "text": "Carrie\u00a0J. Cai, Samantha Winter, David Steiner, Lauren Wilcox, and Michael Terry. 2019. \"Hello AI\": Uncovering the Onboarding Needs of Medical Practitioners for Human-AI Collaborative Decision-Making. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 104 (nov 2019), 24\u00a0pages. https://doi.org/10.1145/3359206",
+      "doi": "10.1145/3359206"
+    },
+    {
+      "text": "Francisco\u00a0Maria Calisto, Carlos Santiago, Nuno Nunes, and Jacinto\u00a0C Nascimento. 2022. BreastScreening-AI: Evaluating medical intelligent agents for human-AI interactions. Artificial Intelligence in Medicine 127 (2022), 102285.",
+      "doi": "10.1016/j.artmed.2022.102285"
+    },
+    {
+      "text": "Ashley Castleberry and Amanda Nolen. 2018. Thematic analysis of qualitative research data: Is it as easy as it sounds?Currents in Pharmacy Teaching and Learning 10, 6 (2018), 807\u2013815. https://doi.org/10.1016/j.cptl.2018.03.019",
+      "doi": ""
+    },
+    {
+      "text": "Cornelius Castoriadis. 1997. The imaginary institution of society. MIT Press, Cambridge.",
+      "doi": ""
+    },
+    {
+      "text": "Alison Chapple, Sue Ziebland, and Ann McPherson. 2004. Stigma, shame, and blame experienced by patients with lung cancer: qualitative study. Bmj 328, 7454 (2004), 1470.",
+      "doi": ""
+    },
+    {
+      "text": "Kathy Charmaz. 2003. Grounded theory. In Qualitative psychology: A practical guide to research methods, J.\u00a0A. Smith (Ed.). Sage, London, 81\u2013110.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Chromik, Malin Eiband, Felicitas Buchner, Adrian Kr\u00fcger, and Andreas Butz. 2021. I Think I Get Your Point, AI! The Illusion of Explanatory Depth in Explainable AI. In 26th International Conference on Intelligent User Interfaces (College Station, TX, USA) (IUI \u201921). Association for Computing Machinery, New York, NY, USA, 307\u2013317. https://doi.org/10.1145/3397481.3450644",
+      "doi": "10.1145/3397481.3450644"
+    },
+    {
+      "text": "Jenifer\u00a0L Culver, Patricia\u00a0L Arena, Michael\u00a0H Antoni, and Charles\u00a0S Carver. 2002. Coping and distress among women under treatment for early stage breast cancer: comparing African Americans, Hispanics and non-Hispanic Whites. Psycho-Oncology: Journal of the Psychological, Social and Behavioral Dimensions of Cancer 11, 6 (2002), 495\u2013504.",
+      "doi": ""
+    },
+    {
+      "text": "Srikant Devaraj, Sushil\u00a0K Sharma, Dyan\u00a0J Fausto, Sara Viernes, Hadi Kharrazi, 2014. Barriers and facilitators to clinical decision support systems adoption: A systematic review. Journal of Business Administration Research 3, 2 (2014), 36.",
+      "doi": ""
+    },
+    {
+      "text": "Haoran Ding, Chenzhou Wu, Nailin Liao, Qi Zhan, Weize Sun, Yingzhao Huang, Zhou Jiang, and Yi Li. 2021. Radiomics in Oncology: A 10-Year Bibliometric Analysis. Frontiers in Oncology 11(2021), 3677.",
+      "doi": ""
+    },
+    {
+      "text": "Upol Ehsan, Q.\u00a0Vera Liao, Michael Muller, Mark\u00a0O. Riedl, and Justin\u00a0D. Weisz. 2021. Expanding Explainability: Towards Social Transparency in AI Systems. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 82, 19\u00a0pages. https://doi.org/10.1145/3411764.3445188",
+      "doi": "10.1145/3411764.3445188"
+    },
+    {
+      "text": "Upol Ehsan, Philipp Wintersberger, Q.\u00a0Vera Liao, Martina Mara, Marc Streit, Sandra Wachter, Andreas Riener, and Mark\u00a0O. Riedl. 2021. Operationalizing Human-Centered Perspectives in Explainable AI. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI EA \u201921). Association for Computing Machinery, New York, NY, USA, Article 94, 6\u00a0pages. https://doi.org/10.1145/3411763.3441342",
+      "doi": "10.1145/3411763.3441342"
+    },
+    {
+      "text": "Upol Ehsan, Philipp Wintersberger, Q.\u00a0Vera Liao, Elizabeth\u00a0Anne Watkins, Carina Manger, Hal Daum\u00e9\u00a0III, Andreas Riener, and Mark\u00a0O Riedl. 2022. Human-Centered Explainable AI (HCXAI): Beyond Opening the Black-Box of AI. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 109, 7\u00a0pages. https://doi.org/10.1145/3491101.3503727",
+      "doi": "10.1145/3491101.3503727"
+    },
+    {
+      "text": "Victoria Elliott. 2018. Thinking about the Coding Process in Qualitative Data Analysis. The Qualitative Report 23, 11 (11 2018), 2850\u20132861. https://www.proquest.com/scholarly-journals/thinking-about-coding-process-qualitative-data/docview/2155621346/se-2 Name - Oxford University; Copyright - Copyright The Qualitative Report Nov 2018; Last updated - 2019-11-11; SubjectsTermNotLitGenreText - New York; United Kingdom\u2013UK; England; Los Angeles California.",
+      "doi": ""
+    },
+    {
+      "text": "Satu Elo and Helvi Kyng\u00e4s. 2008. The qualitative content analysis process. Journal of Advanced Nursing 62, 1 (2008), 107\u2013115. https://doi.org/10.1111/j.1365-2648.2007.04569.x arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1365-2648.2007.04569.x",
+      "doi": ""
+    },
+    {
+      "text": "Nicole\u00a0M Else-Quest, Noelle\u00a0K LoConte, Joan\u00a0H Schiller, and Janet\u00a0Shibley Hyde. 2009. Perceived stigma, self-blame, and adjustment among lung, breast and prostate cancer patients. Psychology and Health 24, 8 (2009), 949\u2013964.",
+      "doi": ""
+    },
+    {
+      "text": "Glyn Elwyn, Isabelle Scholl, Caroline Tietbohl, Mala Mann, Adrian\u00a0GK Edwards, Catharine Clay, France L\u00e9gar\u00e9, Trudy van\u00a0der Weijden, Carmen\u00a0L Lewis, Richard\u00a0M Wexler, 2013. \u201cMany miles to go\u2026\u201d: a systematic review of the implementation of patient decision support interventions into routine clinical practice. BMC medical informatics and decision making 13, 2 (2013), 1\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Andre Esteva, Brett Kuprel, Roberto\u00a0A Novoa, Justin Ko, Susan\u00a0M Swetter, Helen\u00a0M Blau, and Sebastian Thrun. 2017. Dermatologist-level classification of skin cancer with deep neural networks. Nature 542 (January 2017), 115.",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Ferrario and Michele Loi. 2022. How Explainability Contributes to Trust in AI. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 1457\u20131466. https://doi.org/10.1145/3531146.3533202",
+      "doi": "10.1145/3531146.3533202"
+    },
+    {
+      "text": "Geraldine Fitzpatrick and Gunnar Ellingsen. 2013. A review of 25 years of CSCW research in healthcare: contributions, challenges and future agendas. Computer Supported Cooperative Work (CSCW) 22, 4 (2013), 609\u2013665.",
+      "doi": "10.1007/s10606-012-9168-0"
+    },
+    {
+      "text": "Cecilia\u00a0E Ford and Joshua Raclaw. 2015. Meetings as interactional achievements: A conversation analytic perspective. In The Cambridge handbook of meeting science. Cambridge University Press, Cambridge, UK, 247\u2013276.",
+      "doi": ""
+    },
+    {
+      "text": "Patricia\u00a0I. Fuchs and Lawrence\u00a0R. Ness. 2015. Are We There Yet? Data Saturation in Qualitative Research. The Qualitative Report 20, 9 (2015), 1408\u20131416. https://doi.org/10.46743/2160-3715/2015.2281",
+      "doi": ""
+    },
+    {
+      "text": "Astrid Galsgaard, Tom Doorschodt, Ann-Louise Holten, Felix\u00a0Christoph M\u00fcller, Mikael Ploug Boesen, and Mario Maas. 2022. Artificial intelligence and multidisciplinary team meetings; a communication challenge for radiologists\u2019 sense of agency and position as spider in a web?European Journal of Radiology 155 (2022), 110231. https://doi.org/10.1016/j.ejrad.2022.110231",
+      "doi": ""
+    },
+    {
+      "text": "Roberto Gatta, Adrien Depeursinge, Osman Ratib, Olivier Michielin, and Antoine Leimgruber. 2020. Integrating radiomics into holomics for personalised oncology: from algorithms to bedside. European Radiology Experimental 4, 1 (December 2020), 11.",
+      "doi": ""
+    },
+    {
+      "text": "Graham\u00a0R. Gibbs. 2007. Analyzing Qualitative Data. Sage, London.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0J. Gonzales and Laurel\u00a0D. Riek. 2013. Co-Designing Patient-Centered Health Communication Tools for Cancer Care. In Proceedings of the 7th International Conference on Pervasive Computing Technologies for Healthcare(Venice, Italy) (PervasiveHealth \u201913). ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering), Brussels, BEL, 208\u2013215. https://doi.org/10.4108/icst.pervasivehealth.2013.252109",
+      "doi": "10.4108/icst.pervasivehealth.2013.252109"
+    },
+    {
+      "text": "Thomas Grote and Philipp Berens. 2020. On the ethics of algorithmic decision-making in healthcare. Journal of Medical Ethics 46, 3 (2020), 205\u2013211. https://doi.org/10.1136/medethics-2019-105586 arXiv:https://jme.bmj.com/content/46/3/205.full.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Hongyan Gu, Jingbin Huang, Lauren Hung, and Xiang\u00a0\u2019Anthony\u2019 Chen. 2021. Lessons Learned from Designing an AI-Enabled Diagnosis Tool for Pathologists. Proc. ACM Hum.-Comput. Interact. 5, CSCW1, Article 10 (apr 2021), 25\u00a0pages. https://doi.org/10.1145/3449084",
+      "doi": "10.1145/3449084"
+    },
+    {
+      "text": "Julien Guiot, Akshayaa Vaidyanathan, Louis Deprez, Fadila Zerka, Denis Danthine, Anne-Noelle Frix, Philippe Lambin, Fabio Bottari, Nathan Tsoutzidis, Benjamin Miraglio, Sean Walsh, Wim Vos, Roland Hustinx, Marta Ferreira, Pierre Lovinfosse, and Ralph\u00a0T.H. Leijenaar. 2022. A review in radiomics: Making personalized medicine a reality via routine imaging. Medicinal Research Reviews 42, 1 (2022), 426\u2013440. https://doi.org/10.1002/med.21846 arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/med.21846",
+      "doi": ""
+    },
+    {
+      "text": "Thilo Hagendorff. 2020. The ethics of AI ethics: An evaluation of guidelines. Minds and Machines 30, 1 (2020), 99\u2013120.",
+      "doi": "10.1007/s11023-020-09517-8"
+    },
+    {
+      "text": "Ronan Hamon, Henrik Junklewitz, Gianclaudio Malgieri, Paul\u00a0De Hert, Laurent Beslay, and Ignacio Sanchez. 2021. Impossible Explanations? Beyond Explainable AI in the GDPR from a COVID-19 Use Case Scenario. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (Virtual Event, Canada) (FAccT \u201921). Association for Computing Machinery, New York, NY, USA, 549\u2013559. https://doi.org/10.1145/3442188.3445917",
+      "doi": "10.1145/3442188.3445917"
+    },
+    {
+      "text": "Cl\u00e9ment Henin and Daniel Le\u00a0M\u00e9tayer. 2022. Beyond explainability: justifiability and contestability of algorithmic decision systems. AI & SOCIETY 37, 4 (2022), 1397\u20131410. https://doi.org/10.1007/s00146-021-01251-8",
+      "doi": "10.1007/s00146-021-01251-8"
+    },
+    {
+      "text": "Marjan Huisman. 2001. Decision-making in meetings as talk-in-interaction. International Studies of Management & Organization 31, 3(2001), 69\u201390.",
+      "doi": ""
+    },
+    {
+      "text": "Bogdana Huma and Jack\u00a0B. Joyce. 2022. \u2018One size doesn\u2019t fit all\u2019: Lessons from interaction analysis on tailoring Open Science practices to qualitative research. British Journal of Social Psychology 00 (2022), 1\u201315. https://doi.org/10.1111/bjso.12568",
+      "doi": ""
+    },
+    {
+      "text": "Maia Jacobs, James Clawson, and Elizabeth Mynatt. 2013. Cancer Compass: Examining Personal Health Record Usage among Breast Cancer Survivors. In Proceedings of the 7th International Conference on Pervasive Computing Technologies for Healthcare (Venice, Italy) (PervasiveHealth \u201913). ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering), Brussels, BEL, 264\u2013265. https://doi.org/10.4108/icst.pervasivehealth.2013.252036",
+      "doi": "10.4108/icst.pervasivehealth.2013.252036"
+    },
+    {
+      "text": "Maia Jacobs, James Clawson, and Elizabeth\u00a0D. Mynatt. 2014. Cancer Navigation: Opportunities and Challenges for Facilitating the Breast Cancer Journey. In Proceedings of the 17th ACM Conference on Computer Supported Cooperative Work & Social Computing (Baltimore, Maryland, USA) (CSCW \u201914). Association for Computing Machinery, New York, NY, USA, 1467\u20131478. https://doi.org/10.1145/2531602.2531645",
+      "doi": "10.1145/2531602.2531645"
+    },
+    {
+      "text": "Maia Jacobs, Jeffrey He, Melanie F.\u00a0Pradier, Barbara Lam, Andrew\u00a0C. Ahn, Thomas\u00a0H. McCoy, Roy\u00a0H. Perlis, Finale Doshi-Velez, and Krzysztof\u00a0Z. Gajos. 2021. Designing AI for Trust and Collaboration in Time-Constrained Medical Decisions: A Sociotechnical Lens. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 659, 14\u00a0pages. https://doi.org/10.1145/3411764.3445385",
+      "doi": "10.1145/3411764.3445385"
+    },
+    {
+      "text": "Maia\u00a0L. Jacobs, James Clawson, and Elizabeth\u00a0D. Mynatt. 2014. My Journey Compass: A Preliminary Investigation of a Mobile Tool for Cancer Patients. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 663\u2013672. https://doi.org/10.1145/2556288.2557194",
+      "doi": "10.1145/2556288.2557194"
+    },
+    {
+      "text": "Maia\u00a0L. Jacobs, James Clawson, and Elizabeth\u00a0D. Mynatt. 2015. Comparing Health Information Sharing Preferences of Cancer Patients, Doctors, and Navigators. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (Vancouver, BC, Canada) (CSCW \u201915). Association for Computing Machinery, New York, NY, USA, 808\u2013818. https://doi.org/10.1145/2675133.2675252",
+      "doi": "10.1145/2675133.2675252"
+    },
+    {
+      "text": "Sheila Jasanoff and Sang-Hyun Kim. 2015. Dreamscapes of Modernity: Sociotechnical Imaginaries and the Fabrication of Power. University of Chicago Press, Chicago, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Jones, David Cronin, Dean Karavite, Ross Koppel, Prudence Dalrymple, Kai Zheng, Michelle Rogers, and Bob Schumacher. 2011. Designing for Whole Systems and Services in Healthcare. In CHI \u201911 Extended Abstracts on Human Factors in Computing Systems (Vancouver, BC, Canada) (CHI EA \u201911). Association for Computing Machinery, New York, NY, USA, 359\u2013362. https://doi.org/10.1145/1979742.1979530",
+      "doi": "10.1145/1979742.1979530"
+    },
+    {
+      "text": "Kazi\u00a0Sinthia Kabir, Erin\u00a0L. Van\u00a0Blarigan, June\u00a0M. Chan, Stacey\u00a0A. Kenfield, and Jason Wiese. 2019. \"I\u2019m Done with Cancer. What Am I Trying to Improve?\": Understanding the Perspective of Prostate Cancer Patients to Support Multiple Health Behavior Change. In Proceedings of the 13th EAI International Conference on Pervasive Computing Technologies for Healthcare (Trento, Italy) (PervasiveHealth\u201919). Association for Computing Machinery, New York, NY, USA, 81\u201390. https://doi.org/10.1145/3329189.3329207",
+      "doi": "10.1145/3329189.3329207"
+    },
+    {
+      "text": "Heather\u00a0L. Kane, Michael\u00a0T. Halpern, Linda\u00a0B. Squiers, Katherine\u00a0A. Treiman, and Lauren\u00a0A. McCormack. 2014. Implementing and evaluating shared decision making in oncology practice. CA: A Cancer Journal for Clinicians 64, 6 (2014), 377\u2013388. https://doi.org/10.3322/caac.21245",
+      "doi": ""
+    },
+    {
+      "text": "Harmanpreet Kaur, Eytan Adar, Eric Gilbert, and Cliff Lampe. 2022. Sensible AI: Re-Imagining Interpretability and Explainability Using Sensemaking Theory. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 702\u2013714. https://doi.org/10.1145/3531146.3533135",
+      "doi": "10.1145/3531146.3533135"
+    },
+    {
+      "text": "Amit Kaushal, Russ Altman, and Curt Langlotz. 2020. Geographic distribution of US cohorts used to train deep learning algorithms. Jama 324, 12 (2020), 1212\u20131213.",
+      "doi": ""
+    },
+    {
+      "text": "Craig Kuziemsky. 2016. Decision-making in healthcare as a complex adaptive system. Healthcare Management Forum 29, 1 (2016), 4\u20137. https://doi.org/10.1177/0840470415614842 arXiv:https://doi.org/10.1177/0840470415614842PMID: 26656389.",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin\u00a0W Lamb, Katrina\u00a0F Brown, Kamal Nagpal, Charles Vincent, James\u00a0SA Green, and Nick Sevdalis. 2011. Quality of care management decisions by multidisciplinary cancer teams: a systematic review. Annals of surgical oncology 18, 8 (2011), 2116\u20132125.",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin\u00a0W Lamb, Nick Sevdalis, Sonal Arora, Anna Pinto, Charles Vincent, and James\u00a0SA Green. 2011. Teamwork and team decision-making at multidisciplinary cancer conferences: barriers, facilitators, and opportunities for improvement. World journal of surgery 35, 9 (2011), 1970\u20131976.",
+      "doi": ""
+    },
+    {
+      "text": "Min\u00a0Hun Lee, Daniel\u00a0P. Siewiorek, Asim Smailagic, Alexandre Bernardino, and Sergi Berm\u00fadez\u00a0i Badia. 2020. Co-Design and Evaluation of an Intelligent Decision Support System for Stroke Rehabilitation Assessment. Proc. ACM Hum.-Comput. Interact. 4, CSCW2, Article 156 (oct 2020), 27\u00a0pages. https://doi.org/10.1145/3415227",
+      "doi": "10.1145/3415227"
+    },
+    {
+      "text": "France L\u00e9gar\u00e9, Rh\u00e9da Adekpedjou, Dawn Stacey, St\u00e9phane Turcotte, Jennifer Kryworuchko, Ian\u00a0D Graham, Anne Lyddiatt, Mary\u00a0C Politi, Richard Thomson, Glyn Elwyn, and Norbert Donner-Banzhoff. 2018. Interventions for increasing the use of shared decision making by healthcare professionals. Cochrane Database of Systematic Reviews 7, CD006732 (2018), 380.",
+      "doi": ""
+    },
+    {
+      "text": "Q.\u00a0Vera Liao, Daniel Gruen, and Sarah Miller. 2020. Questioning the AI: Informing Design Practices for Explainable AI User Experiences. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3313831.3376590",
+      "doi": "10.1145/3313831.3376590"
+    },
+    {
+      "text": "Noelle\u00a0K LoConte, Nicole\u00a0M Else-Quest, Jens Eickhoff, Janet Hyde, and Joan\u00a0H Schiller. 2008. Assessment of guilt and shame in patients with non\u2013small-cell lung cancer compared with patients with breast and prostate cancer. Clinical lung cancer 9, 3 (2008), 171\u2013178.",
+      "doi": ""
+    },
+    {
+      "text": "Claudio Luchini, Rita\u00a0T Lawlor, Michele Milella, and Aldo Scarpa. 2020. Molecular Tumor Boards in Clinical Practice. Trends in Cancer 6, 9 (2020), 738\u2013744. https://doi.org/10.1016/j.trecan.2020.05.008",
+      "doi": ""
+    },
+    {
+      "text": "Henrietta Lyons, Eduardo Velloso, and Tim Miller. 2021. Conceptualising Contestability: Perspectives on Contesting Algorithmic Decisions. Proc. ACM Hum.-Comput. Interact. 5, CSCW1, Article 106 (apr 2021), 25\u00a0pages. https://doi.org/10.1145/3449180",
+      "doi": "10.1145/3449180"
+    },
+    {
+      "text": "Tamra Lysaght, Hannah\u00a0Yeefen Lim, Vicki Xafis, and Kee\u00a0Yuan Ngiam. 2019. AI-Assisted Decision-making in Healthcare: The Application of an Ethics Framework for Big Data in Health and Research. Asian Bioethics Review 11, 3 (2019), 299\u2013314.",
+      "doi": ""
+    },
+    {
+      "text": "Jody Miller and Barry Glassner. 2016. The \u2019inside\u2019 and the \u2019outside\u2019: finding realities in interviews. In Qualitative Data Analysis, David Silverman (Ed.). Sage, London.",
+      "doi": ""
+    },
+    {
+      "text": "Brent Mittelstadt, Chris Russell, and Sandra Wachter. 2019. Explaining Explanations in AI. In Proceedings of the Conference on Fairness, Accountability, and Transparency (Atlanta, GA, USA) (FAT* \u201919). Association for Computing Machinery, New York, NY, USA, 279\u2013288. https://doi.org/10.1145/3287560.3287574",
+      "doi": "10.1145/3287560.3287574"
+    },
+    {
+      "text": "Jakub Mlynar, Farzaneh Bahrami, Andr\u00e9 Ourednik, Nico Mutzner, Himanshu Verma, and Hamed Alavi. 2022. AI beyond Deus Ex Machina \u2013 Reimagining Intelligence in Future Cities with Urban Experts. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 370, 13\u00a0pages. https://doi.org/10.1145/3491102.3517502",
+      "doi": "10.1145/3491102.3517502"
+    },
+    {
+      "text": "Catherine M\u00e9nard, Isabelle Merckaert, Darius Razavi, and Yves Libert. 2012. Decision-making in oncology a selected literature review and some recommendations for the future. Current Opinion in Oncology 24, 4 (2012), 381\u2013390.",
+      "doi": ""
+    },
+    {
+      "text": "Changhoon Oh, Jungwoo Song, Jinhan Choi, Seonghyeon Kim, Sungwoo Lee, and Bongwon Suh. 2018. I Lead, You Help but Only with Enough Details: Understanding User Experience of Co-Creation with Artificial Intelligence. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3174223",
+      "doi": "10.1145/3173574.3174223"
+    },
+    {
+      "text": "Tom Ongwere, Andrew\u00a0B.L. Berry, Clara Caldeira, Rosa\u00a0I. Arriaga, Amid Ayobi, Eleanor\u00a0R. Burgess, Kay Connelly, Patricia Franklin, Andrew\u00a0D Miller, Aehong Min, and Nervo Verdezoto. 2022. Challenges, Tensions, and Opportunities in Designing Ecosystems to Support the Management of Complex Health Needs. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 71, 7\u00a0pages. https://doi.org/10.1145/3491101.3503714",
+      "doi": "10.1145/3491101.3503714"
+    },
+    {
+      "text": "Sun\u00a0Young Park, Pei-Yi Kuo, Andrea Barbarin, Elizabeth Kaziunas, Astrid Chow, Karandeep Singh, Lauren Wilcox, and Walter\u00a0S. Lasecki. 2019. Identifying Challenges and Opportunities in Human-AI Collaboration in Healthcare. In Conference Companion Publication of the 2019 on Computer Supported Cooperative Work and Social Computing (Austin, TX, USA) (CSCW \u201919). Association for Computing Machinery, New York, NY, USA, 506\u2013510. https://doi.org/10.1145/3311957.3359433",
+      "doi": "10.1145/3311957.3359433"
+    },
+    {
+      "text": "Vivek Patkar, Dionisio Acosta, Tim Davidson, Alison Jones, John Fox, and Mohammad Keshtgar. 2011. Cancer Multidisciplinary Team Meetings: Evidence, Challenges, and the Role of Clinical Decision Support Technology. International Journal of Breast Cancer 2011 (2011), 1\u20137. https://doi.org/10.4061/2011/831605",
+      "doi": ""
+    },
+    {
+      "text": "Oleg\u00a0S. Pianykh, Georg Langs, Marc Dewey, Dieter\u00a0R. Enzmann, Christian\u00a0J. Herold, Stefan\u00a0O. Schoenberg, and James\u00a0A. Brink. 2020. Continuous Learning AI in Radiology: Implementation Principles and Early Applications. Radiology 297, 1 (October 2020), 6\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth A.\u00a0St. Pierre and Alecia\u00a0Y. Jackson. 2014. Qualitative Data Analysis After Coding. Qualitative Inquiry 20, 6 (2014), 715\u2013719. https://doi.org/10.1177/1077800414532435",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Ploug and S\u00f8ren Holm. 2020. The four dimensions of contestable AI diagnostics-A patient-centric approach to explainable AI. Artificial Intelligence in Medicine 107 (2020), 101901.",
+      "doi": ""
+    },
+    {
+      "text": "Martin Porcheron, Joel\u00a0E. Fischer, Stuart Reeves, and Sarah Sharples. 2018. Voice Interfaces in Everyday Life. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3174214",
+      "doi": "10.1145/3173574.3174214"
+    },
+    {
+      "text": "Iyad Rahwan, Manuel Cebrian, Nick Obradovich, Josh Bongard, Jean-Fran\u00e7ois Bonnefon, Cynthia Breazeal, Jacob\u00a0W Crandall, Nicholas\u00a0A Christakis, Iain\u00a0D Couzin, Matthew\u00a0O Jackson, 2019. Machine behaviour. Nature 568, 7753 (2019), 477\u2013486.",
+      "doi": ""
+    },
+    {
+      "text": "Pranav Rajpurkar, Jeremy Irvin, Kaylie Zhu, Brandon Yang, Hershel Mehta, Tony Duan, Daisy Ding, Aarti Bagul, Curtis Langlotz, Katie Shpanskaya, Matthew\u00a0P. Lungren, and Andrew\u00a0Y. Ng. 2017. CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning. https://doi.org/10.48550/ARXIV.1711.05225",
+      "doi": ""
+    },
+    {
+      "text": "Erik\u00a0R. Ranschaert, Sergey Morozov, and Paul\u00a0R. Algra (Eds.). 2019. Artificial Intelligence in Medical Imaging: Opportunities, Applications and Risks (1 ed.). Springer, Cham, Switzerland. 1\u2013373 pages. https://doi.org/10.1007/978-3-319-94878-2",
+      "doi": ""
+    },
+    {
+      "text": "Mauricio Reyes, Raphael Meier, S\u00e9rgio Pereira, Carlos\u00a0A. Silva, Fried-Michael Dahlweid, Hendrik von Tengg-Kobligk, Ronald\u00a0M. Summers, and Roland Wiest. 2020. On the Interpretability of Artificial Intelligence in Radiology: Challenges and Opportunities. Radiology: Artificial Intelligence 2, 3 (May 2020), e190043.",
+      "doi": ""
+    },
+    {
+      "text": "Harvey Sacks, Gail Jefferson, and Emanuel\u00a0A. Schegloff. 1992. Lectures on Conversation. Vol.\u00a01 & 2. Blackwell, Oxford, UK.",
+      "doi": ""
+    },
+    {
+      "text": "Johnny Salda\u00f1a. 2014. Coding and Analysis Strategies. In The Oxford Handbook of Qualitative Research, Patricia Leavy (Ed.). Oxford University Press, Oxford, 581\u2013598.",
+      "doi": ""
+    },
+    {
+      "text": "Margrit Schreier. 2012. Qualitative content analysis in practice. Sage Publications, Thousand Oaks, CA, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Mark Sendak, Madeleine\u00a0Clare Elish, Michael Gao, Joseph Futoma, William Ratliff, Marshall Nichols, Armando Bedoya, Suresh Balu, and Cara O\u2019Brien. 2020. \"The Human Body is a Black Box\": Supporting Clinical Decision-Making with Deep Learning. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (Barcelona, Spain) (FAT* \u201920). Association for Computing Machinery, New York, NY, USA, 99\u2013109. https://doi.org/10.1145/3351095.3372827",
+      "doi": "10.1145/3351095.3372827"
+    },
+    {
+      "text": "Lucas\u00a0M Seuren, Wyke Stommel, Dieneke van Asselt, \u00d6zcan Sir, Martijn Stommel, and Yvonne Schoon. 2019. Multidisciplinary meetings at the emergency department: A conversation-analytic study of decision-making. Social Science & Medicine 242 (2019), 112589.",
+      "doi": ""
+    },
+    {
+      "text": "Parth\u00a0V. Shah and Kathryn\u00a0E. Ringland. 2019. Health Information Technologies for Cancer Care: Characterizing Developments for Precision and Personalized Medicine. In Conference Companion Publication of the 2019 on Computer Supported Cooperative Work & Social Computing (Austin, TX, USA) (CSCW \u201919). Association for Computing Machinery, New York, NY, USA, 362\u2013366. https://doi.org/10.1145/3311957.3359504",
+      "doi": "10.1145/3311957.3359504"
+    },
+    {
+      "text": "Ben Shneiderman. 2020. Bridging the Gap Between Ethics and Practice: Guidelines for Reliable, Safe, and Trustworthy Human-Centered AI Systems. ACM Trans. Interact. Intell. Syst. 10, 4, Article 26 (oct 2020), 31\u00a0pages. https://doi.org/10.1145/3419764",
+      "doi": "10.1145/3419764"
+    },
+    {
+      "text": "Ben Shneiderman. 2022. Human-Centered AI. Oxford University Press, Oxford, UK.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Silva, Mariah Schrum, Erin Hedlund-Botti, Nakul Gopalan, and Matthew Gombolay. 2022. Explainable Artificial Intelligence: Evaluating the Objective and Subjective Impacts of XAI on Human-Agent Interaction. International Journal of Human\u2013Computer Interaction 0, 0(2022), 1\u201315. https://doi.org/10.1080/10447318.2022.2101698",
+      "doi": ""
+    },
+    {
+      "text": "Martina Sollini, Lidija Antunovic, Arturo Chiti, and Margarita Kirienko. 2019. Towards clinical application of image mining: a systematic review on artificial intelligence and radiomics. European Journal of Nuclear Medicine and Molecular Imaging 46, 13(2019), 2656\u20132672.",
+      "doi": ""
+    },
+    {
+      "text": "Jiangdian Song, Yanjie Yin, Hairui Wang, Zhihui Chang, Zhaoyu Liu, and Lei Cui. 2020. A review of original articles published in the emerging field of radiomics. European Journal of Radiology 127 (jun 2020), 108991.",
+      "doi": ""
+    },
+    {
+      "text": "Stacie\u00a0M Spencer, Jessica\u00a0M Lehman, Christina Wynings, Patricia Arena, Charles\u00a0S Carver, Michael\u00a0H Antoni, Robert\u00a0P Derhagopian, Gail Ironson, and Neil Love. 1999. Concerns about breast cancer and relations to psychosocial well-being in a multiethnic sample of early-stage patients.Health Psychology 18, 2 (1999), 159.",
+      "doi": ""
+    },
+    {
+      "text": "Jina Suh, Spencer Williams, Jesse\u00a0R. Fann, James Fogarty, Amy\u00a0M. Bauer, and Gary Hsieh. 2020. Parallel Journeys of Patients with Cancer and Depression: Challenges and Opportunities for Technology-Enabled Collaborative Care. Proc. ACM Hum.-Comput. Interact. 4, CSCW1, Article 038 (May 2020), 36\u00a0pages. https://doi.org/10.1145/3392843",
+      "doi": "10.1145/3392843"
+    },
+    {
+      "text": "Kadri Suija, Kadi Ilves, Pille \u00d6\u00f6pik, Heidi-Ingrid Maaroos, and Ruth Kalda. 2013. Patients\u2019 experience with cancer care: A qualitative study in family practice. The European journal of general practice 19, 2 (2013), 111\u2013116.",
+      "doi": ""
+    },
+    {
+      "text": "Kadri Suija, Tanel Kordemets, Kadi Annuk, and Ruth Kalda. 2016. The role of general practitioners in cancer care: a mixed method design. Journal of Cancer Education 31, 1 (2016), 136\u2013141.",
+      "doi": ""
+    },
+    {
+      "text": "Svetlena Taneva, Waxberg Sara, Goss Julian, Rossos Peter, Nicholas Emily, and Cafazzo Joseph. 2014. The Meaning of Design in Healthcare: Industry, Academia, Visual Design, Clinician, Patient and Hf Consultant Perspectives. In CHI \u201914 Extended Abstracts on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI EA \u201914). Association for Computing Machinery, New York, NY, USA, 1099\u20131104. https://doi.org/10.1145/2559206.2579407",
+      "doi": "10.1145/2559206.2579407"
+    },
+    {
+      "text": "Reid\u00a0F. Thompson, Gilmer Valdes, Clifton\u00a0D. Fuller, Colin\u00a0M. Carpenter, Olivier Morin, Sanjay Aneja, William\u00a0D. Lindsay, Hugo\u00a0J.W.L. Aerts, Barbara Agrimson, Curtiland Deville, Seth\u00a0A. Rosenthal, James\u00a0B. Yu, and Charles\u00a0R. Thomas. 2018. Artificial intelligence in radiation oncology: A specialty-wide disruptive transformation?Radiotherapy and Oncology 129, 3 (December 2018), 421\u2013426.",
+      "doi": ""
+    },
+    {
+      "text": "Indrit Troshani, Sally\u00a0Rao Hill, Claire Sherman, and Damien Arthur. 2021. Do We Trust in AI? Role of Anthropomorphism and Intelligence. Journal of Computer Information Systems 61, 5 (2021), 481\u2013491. https://doi.org/10.1080/08874417.2020.1788473 arXiv:https://doi.org/10.1080/08874417.2020.1788473",
+      "doi": ""
+    },
+    {
+      "text": "Kristen Vaccaro, Karrie Karahalios, Deirdre\u00a0K. Mulligan, Daniel Kluttz, and Tad Hirsch. 2019. Contestability in Algorithmic Systems. In Conference Companion Publication of the 2019 on Computer Supported Cooperative Work and Social Computing (Austin, TX, USA) (CSCW \u201919). Association for Computing Machinery, New York, NY, USA, 523\u2013527. https://doi.org/10.1145/3311957.3359435",
+      "doi": "10.1145/3311957.3359435"
+    },
+    {
+      "text": "Mojtaba Vaismoradi, Jacqueline Jones, Hannele Turunen, and Sherrill Snelgrove. 2016. Theme development in qualitative content analysis and thematic analysis. Journal of Nursing Education and Practice 6, 5 (2016), 100\u2013110. https://doi.org/10.5430/jnep.v6n5p100",
+      "doi": ""
+    },
+    {
+      "text": "Mojtaba Vaismoradi, Hannele Turunen, and Terese Bondas. 2013. Content analysis and thematic analysis: Implications for conducting a qualitative descriptive study. Nursing & Health Sciences 15, 3 (2013), 398\u2013405. https://doi.org/10.1111/nhs.12048 arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1111/nhs.12048",
+      "doi": ""
+    },
+    {
+      "text": "Bas\u00a0H.M. van\u00a0der Velden, Hugo\u00a0J. Kuijf, Kenneth\u00a0G.A. Gilhuijs, and Max\u00a0A. Viergever. 2022. Explainable artificial intelligence (XAI) in deep learning-based medical image analysis. Medical Image Analysis 79 (jul 2022), 102470.",
+      "doi": ""
+    },
+    {
+      "text": "Himanshu Verma, Jakub Mlyn\u00e1\u0159, Camille Pellaton, Matteo Theler, Antoine Widmer, and Florian Ev\u00e9quoz. 2021. \u201cWhatsApp in Politics?!\u201d: Collaborative Tools Shifting Boundaries. In Human-Computer Interaction \u2013 INTERACT 2021, Carmelo Ardito, Rosa Lanzilotti, Alessio Malizia, Helen Petrie, Antonio Piccinno, Giuseppe Desolda, and Kori Inkpen (Eds.). Springer International Publishing, Cham, 655\u2013677.",
+      "doi": "10.1007/978-3-030-85623-6_37"
+    },
+    {
+      "text": "Joel Walmsley. 2021. Artificial intelligence and the value of transparency. AI & SOCIETY 36, 2 (2021), 585\u2013595.",
+      "doi": "10.1007/s00146-020-01066-z"
+    },
+    {
+      "text": "Dakuo Wang, Liuping Wang, Zhan Zhang, Ding Wang, Haiyi Zhu, Yvonne Gao, Xiangmin Fan, and Feng Tian. 2021. \u201cBrilliant AI Doctor\u201d in Rural Clinics: Challenges in AI-Powered Clinical Decision Support System Deployment. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 697, 18\u00a0pages. https://doi.org/10.1145/3411764.3445432",
+      "doi": "10.1145/3411764.3445432"
+    },
+    {
+      "text": "Dakuo Wang, Justin\u00a0D. Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey Dugan, Yla Tausczik, Horst Samulowitz, and Alexander Gray. 2019. Human-AI Collaboration in Data Science: Exploring Data Scientists\u2019 Perceptions of Automated AI. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 211 (nov 2019), 24\u00a0pages. https://doi.org/10.1145/3359313",
+      "doi": "10.1145/3359313"
+    },
+    {
+      "text": "Jillian\u00a0L. Warren. 2019. Exploring Socially-Focused Technologies That Can Help Children with Cancer Feel More Like Children Despite Their Disease, Treatment and Environment. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20135. https://doi.org/10.1145/3290607.3299078",
+      "doi": "10.1145/3290607.3299078"
+    },
+    {
+      "text": "Fons Wijnhoven. 2022. Organizational Learning for Intelligence Amplification Adoption: Lessons from a Clinical Decision Support System Adoption Project. Information Systems Frontiers 24, 3 (2022), 731\u2013744. https://doi.org/10.1007/s10796-021-10206-9",
+      "doi": "10.1007/s10796-021-10206-9"
+    },
+    {
+      "text": "Emma\u00a0Burkitt Wright, Christopher Holcombe, and Peter Salmon. 2004. Doctors\u2019 communication of trust, care, and respect in breast cancer: qualitative study. Bmj 328, 7444 (2004), 864.",
+      "doi": ""
+    },
+    {
+      "text": "Qian Yang, Aaron Steinfeld, and John Zimmerman. 2019. Unremarkable AI: Fitting Intelligent Decision Support into Critical, Clinical Decision-Making Processes. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3290605.3300468",
+      "doi": "10.1145/3290605.3300468"
+    },
+    {
+      "text": "Mireia Yurrita, Dave Murray-Rust, Agathe Balayn, and Alessandro Bozzon. 2022. Towards a Multi-Stakeholder Value-Based Assessment Framework for Algorithmic Systems. In 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT \u201922). Association for Computing Machinery, New York, NY, USA, 535\u2013563. https://doi.org/10.1145/3531146.3533118",
+      "doi": "10.1145/3531146.3533118"
+    },
+    {
+      "text": "Sharon Zhou, Henrik Marklund, Ondrej Blaha, Manisha Desai, Brock Martin, David Bingham, Gerald\u00a0J Berry, Ellen Gomulia, Andrew\u00a0Y Ng, and Jeanne Shen. 2020. Deep learning assistance for the histopathologic diagnosis of Helicobacter pylori. Intelligence-Based Medicine 1 (2020), 100004.",
+      "doi": ""
+    }
+  ]
+}

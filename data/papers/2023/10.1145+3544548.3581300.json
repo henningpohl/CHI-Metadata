@@ -1,0 +1,450 @@
+{
+  "doi": "10.1145/3544548.3581300",
+  "title": "AdHocProx: Sensing Mobile, Ad-Hoc Collaborative Device Formations using Dual Ultra-Wideband Radios",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2023,
+  "badges": [],
+  "abstract": "We present AdHocProx, a system that uses device-relative, inside-out sensing to augment co-located collaboration across multiple devices, without recourse to externally-anchored beacons \u2013 or even reliance on WiFi connectivity.  AdHocProx achives this via sensors including dual ultra-wideband (UWB) radios for sensing distance and angle to other devices in dynamic, ad-hoc arrangements; plus capacitive grip to determine where the user\u2019s hands hold the device, and to partially correct for the resulting UWB signal attenuation. All spatial sensing and communication takes place via the side-channel capability of the UWB radios, suitable for small-group collaboration across up to four devices (eight UWB radios).  Together, these sensors detect proximity and natural, socially meaningful device movements to enable contextual interaction techniques. We find that AdHocProx can obtain 95% accuracy recognizing various ad-hoc device arrangements in an offline evaluation, with participants particularly appreciative of interaction techniques that automatically leverage proximity-awareness and relative orientation amongst multiple devices.",
+  "authors": [
+    {
+      "name": "Richard Li",
+      "institution": "Paul G. Allen School of Computer Science & Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659462855",
+      "orcid": "0000-0002-0192-3371"
+    },
+    {
+      "name": "Teddy Seyed",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81486653672",
+      "orcid": "0000-0003-3388-0166"
+    },
+    {
+      "name": "Nicolai Marquardt",
+      "institution": "UCL Interaction Centre, University College London, United Kingdom",
+      "img": "/do/10.1145/contrib-81324491951/rel-imgonly/portraitnic3.jpg",
+      "acmid": "81324491951",
+      "orcid": "0000-0002-5473-2448"
+    },
+    {
+      "name": "Eyal Ofek",
+      "institution": "Microsoft Research, United States",
+      "img": "/do/10.1145/contrib-81100064088/rel-imgonly/fn5a3383_small.jpg",
+      "acmid": "81100064088",
+      "orcid": "0000-0003-4750-1569"
+    },
+    {
+      "name": "Steve Hodges",
+      "institution": "Microsoft Research, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81320490166",
+      "orcid": "0000-0001-9314-7762"
+    },
+    {
+      "name": "Mike Sinclair",
+      "institution": "Microsoft Research, Microsoft, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81318498872",
+      "orcid": "0000-0003-4343-2332"
+    },
+    {
+      "name": "Hugo Romat",
+      "institution": "Microsoft, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658993819",
+      "orcid": "0000-0002-9194-8889"
+    },
+    {
+      "name": "Michel Pahud",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81456607280",
+      "orcid": "0000-0003-3924-1189"
+    },
+    {
+      "name": "Jatin Sharma",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782690",
+      "orcid": "0000-0003-4105-8500"
+    },
+    {
+      "name": "William A.S. Buxton",
+      "institution": "Microsoft Research, United States",
+      "img": "/do/10.1145/contrib-81452616426/rel-imgonly/81452616426.jpg",
+      "acmid": "81452616426",
+      "orcid": "0000-0002-0170-7097"
+    },
+    {
+      "name": "Ken Hinckley",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100519448",
+      "orcid": "0000-0002-4733-4927"
+    },
+    {
+      "name": "Nathalie Riche",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81313483984",
+      "orcid": "0000-0003-1759-7512"
+    }
+  ],
+  "references": [
+    {
+      "text": "M. Addlesee, R. Curwen, S. Hodges, J. Newman, P. Steggles, A. Ward, and A. Hopper. 2001. Implementing a Sentient Computing System. Computer 34, 8 (Aug. 2001), 50\u201356. https://doi.org/10.1109/2.940013",
+      "doi": "10.1109/2.940013"
+    },
+    {
+      "text": "Xavier Alameda-Pineda, Yan Yan, Elisa Ricci, Oswald Lanz, and Nicu Sebe. 2015. Analyzing free-standing conversational groups: A multimodal approach. In Proceedings of the 23rd ACM international conference on Multimedia. 5\u201314.",
+      "doi": "10.1145/2733373.2806238"
+    },
+    {
+      "text": "Andrew. 2022. How to enable ultra-wideband (UWB) on the pixel 6 pro. https://phandroid.com/2022/01/03/how-to-enable-ultra-wideband-uwb-on-the-pixel-6-pro/",
+      "doi": ""
+    },
+    {
+      "text": "Michelle Annett, Tovi Grossman, Daniel Wigdor, and George Fitzmaurice. 2011. Medusa: A Proximity-Aware Multi-Touch Tabletop. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology(UIST \u201911). ACM, New York, NY, USA, 337\u2013346. https://doi.org/10.1145/2047196.2047240",
+      "doi": "10.1145/2047196.2047240"
+    },
+    {
+      "text": "Apple. 2021. AirTag. https://www.apple.com/airtag/",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2021. Ultra wideband availability. https://support.apple.com/en-us/HT212274",
+      "doi": ""
+    },
+    {
+      "text": "Till Ballendat, Nicolai Marquardt, and Saul Greenberg. 2010. Proxemic Interaction: Designing for a Proximity and Orientation-Aware Environment. In ACM International Conference on Interactive Tabletops and Surfaces(ITS \u201910). Association for Computing Machinery, New York, NY, USA, 121\u2013130. https://doi.org/10.1145/1936652.1936676",
+      "doi": "10.1145/1936652.1936676"
+    },
+    {
+      "text": "Cristina Becchio, Valeria Manera, Luisa Sartori, Andrea Cavallo, and Umberto Castiello. 2012. Grasping intentions: from thought experiments to empirical evidence. Frontiers in human neuroscience 6 (2012), 117.",
+      "doi": ""
+    },
+    {
+      "text": "Jacob\u00a0T Biehl and Brian\u00a0P Bailey. 2004. ARIS: an interface for application relocation in an interactive space. In Proceedings of Graphics interface 2004. Citeseer, 107\u2013116.",
+      "doi": "10.5555/1006058.1006072"
+    },
+    {
+      "text": "Kellogg\u00a0S Booth, Brian\u00a0D Fisher, Chi Jui\u00a0Raymond Lin, and Ritchie Argue. 2002. The\" mighty mouse\" multi-screen collaboration tool. In Proceedings of the 15th annual ACM symposium on User interface software and technology. 209\u2013212.",
+      "doi": "10.1145/571985.572016"
+    },
+    {
+      "text": "Frederik Brudy, Joshua\u00a0Kevin Budiman, Steven Houben, and Nicolai Marquardt. 2018. Investigating the Role of an Overview Device in Multi-Device Collaboration. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems(CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173874",
+      "doi": "10.1145/3173574.3173874"
+    },
+    {
+      "text": "Frederik Brudy, Christian Holz, Roman R\u00e4dle, Chi-Jui Wu, Steven Houben, Clemens\u00a0Nylandsted Klokmose, and Nicolai Marquardt. 2019. Cross-Device Taxonomy: Survey, Opportunities and Challenges of Interactions Spanning Across Multiple Devices. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). ACM, New York, NY, USA, 562:1\u2013562:28. https://doi.org/10.1145/3290605.3300792",
+      "doi": "10.1145/3290605.3300792"
+    },
+    {
+      "text": "Daniel Chaffin, Ralph Heidl, John\u00a0R Hollenbeck, Michael Howe, Andrew Yu, Clay Voorhees, and Roger Calantone. 2017. The promise and perils of wearable sensors in organizational research. Organizational Research Methods 20, 1 (2017), 3\u201331.",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas Chen, Francois Guimbretiere, Morgan Dixon, Cassandra Lewis, and Maneesh Agrawala. 2008. Navigation techniques for dual-display e-book readers. In Proceedings of the SIGCHI conference on human factors in computing systems. 1779\u20131788.",
+      "doi": "10.1145/1357054.1357331"
+    },
+    {
+      "text": "Lung-Pan Cheng, Meng\u00a0Han Lee, Che-Yang Wu, Fang-I Hsiao, Yen-Ting Liu, Hsiang-Sheng Liang, Yi-Ching Chiu, Ming-Sui Lee, and Mike\u00a0Y Chen. 2013. iRotateGrasp: automatic screen rotation based on grasp of mobile devices. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 3051\u20133054.",
+      "doi": ""
+    },
+    {
+      "text": "Lung-Pan Cheng, Hsiang-Sheng Liang, Che-Yang Wu, and Mike\u00a0Y Chen. 2013. iGrasp: grasp-based adaptive keyboard for mobile devices. In Proceedings of the SIGCHI conference on human factors in computing systems. 3037\u20133046.",
+      "doi": "10.1145/2470654.2481422"
+    },
+    {
+      "text": "Roudy Dagher, Francois-Xavier Molina, Alexandre Abadie, Nathalie Mitton, and Emmanuel Baccelli. 2021. An Open Experimental Platform for Ranging, Proximity and Contact Event Tracking Using Ultra-Wide-Band and Bluetooth Low-Energy. In IEEE INFOCOM 2021 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS). 1\u20136. https://doi.org/10.1109/INFOCOMWKSHPS51825.2021.9484579",
+      "doi": ""
+    },
+    {
+      "text": "David Dearman, Richard Guy, and Khai Truong. 2012. Determining the Orientation of Proximate Mobile Devices Using Their Back Facing Camera. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201912). Association for Computing Machinery, New York, NY, USA, 2231\u20132234. https://doi.org/10.1145/2207676.2208377",
+      "doi": "10.1145/2207676.2208377"
+    },
+    {
+      "text": "Estimote. 2021. Estimote UWB Beacons. https://estimote.com/uwb-beacons",
+      "doi": ""
+    },
+    {
+      "text": "Katherine Everitt, Clifton Forlines, Kathy Ryall, and Chia Shen. 2004. Observations of a shared tabletop user study. Interactive Poster, CSCW(2004).",
+      "doi": ""
+    },
+    {
+      "text": "Katherine Everitt, Chia Shen, Kathy Ryall, and Clifton Forlines. 2006. MultiSpace: Enabling electronic document micro-mobility in table-centric, multi-device environments. In First IEEE International Workshop on Horizontal Interactive Human-Computer Systems (TABLETOP\u201906). IEEE, 8\u2013pp.",
+      "doi": "10.1109/TABLETOP.2006.23"
+    },
+    {
+      "text": "Kenneth\u00a0P Fishkin, Anuj Gujar, Beverly\u00a0L Harrison, Thomas\u00a0P Moran, and Roy Want. 2000. Embodied user interfaces for really direct manipulation. Commun. ACM 43, 9 (2000), 74\u201380.",
+      "doi": "10.1145/348941.348998"
+    },
+    {
+      "text": "Tian Gan, Yongkang Wong, Daqing Zhang, and Mohan\u00a0S Kankanhalli. 2013. Temporal encoded F-formation system for social interaction detection. In Proceedings of the 21st ACM international conference on Multimedia. 937\u2013946.",
+      "doi": "10.1145/2502081.2502096"
+    },
+    {
+      "text": "Mayank Goel, Jacob Wobbrock, and Shwetak Patel. 2012. Gripsense: using built-in sensors to detect hand posture and pressure on commodity mobile phones. In Proceedings of the 25th annual ACM symposium on User interface software and technology. 545\u2013554.",
+      "doi": "10.1145/2380116.2380184"
+    },
+    {
+      "text": "Saul Greenberg, Michael Boyle, and Jason Laberge. 1999. PDAs and Shared Public Displays: Making Personal Information Public, and Public Information Personal. Personal Technologies 3, 1 (March 1999), 54\u201364. https://doi.org/10.1007/BF01305320",
+      "doi": ""
+    },
+    {
+      "text": "Saul Greenberg, Nicolai Marquardt, Till Ballendat, Rob Diaz-Marino, and Miaosen Wang. 2011. Proxemic Interactions: The New Ubicomp?Interactions 18, 1 (Jan. 2011), 42\u201350. https://doi.org/10.1145/1897239.1897250",
+      "doi": "10.1145/1897239.1897250"
+    },
+    {
+      "text": "Tobias Grosse-Puppendahl, Christian Holz, Gabe Cohn, Raphael Wimmer, Oskar Bechtold, Steve Hodges, Matthew\u00a0S Reynolds, and Joshua\u00a0R Smith. 2017. Finding common ground: A survey of capacitive sensing in human-computer interaction. In Proceedings of the 2017 CHI conference on human factors in computing systems. 3293\u20133315.",
+      "doi": "10.1145/3025453.3025808"
+    },
+    {
+      "text": "Edmund\u00a0T Hall and Edward\u00a0Twitchell Hall. 1966. The hidden dimension. Vol.\u00a0609. Anchor.",
+      "doi": ""
+    },
+    {
+      "text": "Mike Hazas, Christian Kray, Hans Gellersen, Henoc Agbota, Gerd Kortuem, and Albert Krohn. 2005. A Relative Positioning System for Co-Located Mobile Devices. In Proceedings of the 3rd International Conference on Mobile Systems, Applications, and Services. ACM, Seattle, Washington, 177\u2013190. https://doi.org/10.1145/1067170.1067190",
+      "doi": "10.1145/1067170.1067190"
+    },
+    {
+      "text": "Mike Hazas and Andy Ward. 2002. A Novel Broadband Ultrasonic Location System. In UbiComp 2002: Ubiquitous Computing, Gaetano Borriello and Lars\u00a0Erik Holmquist (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 264\u2013280.",
+      "doi": ""
+    },
+    {
+      "text": "Milad Heydariaan, Hossein Dabirian, and Omprakash Gnawali. 2020. Anguloc: Concurrent angle of arrival estimation for indoor localization with uwb radios. In 2020 16th International Conference on Distributed Computing in Sensor Systems (DCOSS). IEEE, 112\u2013119.",
+      "doi": ""
+    },
+    {
+      "text": "Ken Hinckley, Michel Pahud, Hrvoje Benko, Pourang Irani, Fran\u00e7ois Guimbreti\u00e8re, Marcel Gavriliu, Xiang\u2019Anthony\u2019 Chen, Fabrice Matulic, William Buxton, and Andrew Wilson. 2014. Sensing techniques for tablet+ stylus interaction. In Proceedings of the 27th annual ACM symposium on User interface software and technology. 605\u2013614.",
+      "doi": "10.1145/2642918.2647379"
+    },
+    {
+      "text": "Ken Hinckley, Gonzalo Ramos, Francois Guimbretiere, Patrick Baudisch, and Marc Smith. 2004. Stitching: pen gestures that span multiple displays. In Proceedings of the working conference on Advanced visual interfaces. 23\u201331.",
+      "doi": "10.1145/989863.989866"
+    },
+    {
+      "text": "Ken Hinckley and Hyunyoung Song. 2011. Sensor synaesthesia: touch in motion, and motion in touch. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 801\u2013810.",
+      "doi": "10.1145/1978942.1979059"
+    },
+    {
+      "text": "Da-Yuan Huang, Chien-Pang Lin, Yi-Ping Hung, Tzu-Wen Chang, Neng-Hao Yu, Min-Lun Tsai, and Mike\u00a0Y. Chen. 2012. MagMobile: Enhancing Social Interactions with Rapid View-Stitching Games of Mobile Devices. In Proceedings of the 11th International Conference on Mobile and Ubiquitous Multimedia(MUM \u201912). Association for Computing Machinery, New York, NY, USA, 1\u20134. https://doi.org/10.1145/2406367.2406440",
+      "doi": "10.1145/2406367.2406440"
+    },
+    {
+      "text": "Ke Huo, Yuanzhi Cao, Sang\u00a0Ho Yoon, Zhuangying Xu, Guiming Chen, and Karthik Ramani. 2018. Scenariot: Spatially Mapping Smart Things Within Augmented Reality Scenes. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173793",
+      "doi": "10.1145/3173574.3173793"
+    },
+    {
+      "text": "Shoichi Inaba and Yoshimitsu Aoki. 2016. Conversational group detection based on social context using graph clustering algorithm. In 2016 12th International Conference on Signal-Image Technology & Internet-Based Systems (SITIS). IEEE, 526\u2013531.",
+      "doi": ""
+    },
+    {
+      "text": "Haojian Jin, Christian Holz, and Kasper Hornb\u00e6k. 2015. Tracko: Ad-hoc mobile 3d tracking using bluetooth low energy and inaudible signals for cross-device interaction. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. 147\u2013156.",
+      "doi": "10.1145/2807442.2807475"
+    },
+    {
+      "text": "Rong Jin, Liu Shi, Kai Zeng, Amit Pande, and Prasant Mohapatra. 2016. MagPairing: Pairing Smartphones in Close Proximity Using Magnetometers. IEEE Transactions on Information Forensics and Security 11, 6 (June 2016), 1306\u20131320. https://doi.org/10.1109/TIFS.2015.2505626",
+      "doi": "10.1109/TIFS.2015.2505626"
+    },
+    {
+      "text": "Brad Johanson, Armando Fox, and Terry Winograd. 2002. The interactive workspaces project: Experiences with ubiquitous computing rooms. IEEE pervasive computing 1, 2 (2002), 67\u201374.",
+      "doi": ""
+    },
+    {
+      "text": "Brad Johanson, Greg Hutchins, Terry Winograd, and Maureen Stone. 2002. PointRight: experience with flexible input redirection in interactive workspaces. In Proceedings of the 15th annual ACM symposium on User interface software and technology. 227\u2013234.",
+      "doi": "10.1145/571985.572019"
+    },
+    {
+      "text": "Wendy\u00a0G. Ju, Brian\u00a0A. Lee, and Scott\u00a0R. Klemmer. 2007. Range: Exploring Proxemics in Collaborative Whiteboard Interaction. In CHI \u201907 Extended Abstracts on Human Factors in Computing Systems. ACM, San Jose, CA, USA, 2483\u20132488. https://doi.org/10.1145/1240866.1241028",
+      "doi": "10.1145/1240866.1241028"
+    },
+    {
+      "text": "R Karthikeyan, S Karthik, and S\u00a0A Pasupathy. 2021. UWB Based Novel Approach for Orientation Estimation and Path Planning for Field Robots without IMU. In 2021 International Conference on Advancements in Electrical, Electronics, Communication, Computing and Automation (ICAECA). 1\u20136. https://doi.org/10.1109/ICAECA52838.2021.9675757",
+      "doi": ""
+    },
+    {
+      "text": "Kee-Eung Kim, Wook Chang, Sung-Jung Cho, Junghyun Shim, Hyunjeong Lee, Joonah Park, Youngbeom Lee, Sangryoung Kim, 2006. Hand grip pattern recognition for mobile user interfaces. In AAAI. 1789\u20131794.",
+      "doi": ""
+    },
+    {
+      "text": "Sangtae Kim, Jaejeung Kim, and Soobin Lee. 2013. Bezel-flipper: design of a light-weight flipping interface for e-books. In CHI\u201913 Extended Abstracts on Human Factors in Computing Systems. 1719\u20131724.",
+      "doi": ""
+    },
+    {
+      "text": "Stefanie Klum, Petra Isenberg, Ricardo Langner, Jean-Daniel Fekete, and Raimund Dachselt. 2012. Stackables: Combining Tangibles for Faceted Browsing. In Proceedings of the International Working Conference on Advanced Visual Interfaces(AVI \u201912). Association for Computing Machinery, New York, NY, USA, 241\u2013248. https://doi.org/10.1145/2254556.2254600",
+      "doi": "10.1145/2254556.2254600"
+    },
+    {
+      "text": "Rakhesh\u00a0Singh Kshetrimayum. 2009. An introduction to UWB communication systems. Ieee Potentials 28, 2 (2009), 9\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "David Ledo, Saul Greenberg, Nicolai Marquardt, and Sebastian Boring. 2015. Proxemic-Aware Controls: Designing Remote Controls for Ubiquitous Computing Ecologies. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services(MobileHCI \u201915). Association for Computing Machinery, New York, NY, USA, 187\u2013198. https://doi.org/10.1145/2785830.2785871",
+      "doi": "10.1145/2785830.2785871"
+    },
+    {
+      "text": "Andr\u00e9s Lucero, Jussi Holopainen, and Tero Jokela. 2011. Pass-Them-around: Collaborative Use of Mobile Phones for Photo Sharing. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201911). Association for Computing Machinery, New York, NY, USA, 1787\u20131796. https://doi.org/10.1145/1978942.1979201",
+      "doi": "10.1145/1978942.1979201"
+    },
+    {
+      "text": "Paul Luff and Christian Heath. 1998. Mobility in collaboration. In Proceedings of the 1998 ACM conference on Computer supported cooperative work. 305\u2013314.",
+      "doi": "10.1145/289444.289505"
+    },
+    {
+      "text": "Sus Lundgren, Joel\u00a0E. Fischer, Stuart Reeves, and Olof Torgersson. 2015. Designing Mobile Experiences for Collocated Interaction. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing(CSCW \u201915). Association for Computing Machinery, New York, NY, USA, 496\u2013507. https://doi.org/10.1145/2675133.2675171",
+      "doi": "10.1145/2675133.2675171"
+    },
+    {
+      "text": "Christine\u00a0L MacKenzie and Thea Iberall. 1994. The grasping hand. Elsevier.",
+      "doi": ""
+    },
+    {
+      "text": "Nicolai Marquardt, Frederik Brudy, Can Liu, Ben Bengler, and Christian Holz. 2018. SurfaceConstellations: A Modular Hardware Platform for Ad-Hoc Reconfigurable Cross-Device Workspaces. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems(CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3173574.3173928",
+      "doi": "10.1145/3173574.3173928"
+    },
+    {
+      "text": "Nicolai Marquardt, Robert Diaz-Marino, Sebastian Boring, and Saul Greenberg. 2011. The Proximity Toolkit: Prototyping Proxemic Interactions in Ubiquitous Computing Ecologies. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology(UIST \u201911). Association for Computing Machinery, New York, NY, USA, 315\u2013326. https://doi.org/10.1145/2047196.2047238",
+      "doi": "10.1145/2047196.2047238"
+    },
+    {
+      "text": "Nicolai Marquardt, Nathalie Henry\u00a0Riche, Christian Holz, Hugo Romat, Michel Pahud, Frederik Brudy, David Ledo, Chunjong Park, Molly\u00a0Jane Nicholas, Teddy Seyed, 2021. AirConstellations: In-Air Device Formations for Cross-Device Interaction via Multiple Spatially-Aware Armatures. In The 34th Annual ACM Symposium on User Interface Software and Technology. 1252\u20131268.",
+      "doi": "10.1145/3472749.3474820"
+    },
+    {
+      "text": "Nicolai Marquardt, Nathalie Henry\u00a0Riche, Christian Holz, Hugo Romat, Michel Pahud, Frederik Brudy, David Ledo, Chunjong Park, Molly\u00a0Jane Nicholas, Teddy Seyed, Eyal Ofek, Bongshin Lee, William\u00a0A.S. Buxton, and Ken Hinckley. 2021. AirConstellations: In-Air Device Formations for Cross-Device Interaction via Multiple Spatially-Aware Armatures. In The 34th Annual ACM Symposium on User Interface Software and Technology(UIST \u201921). Association for Computing Machinery, New York, NY, USA, 1252\u20131268. https://doi.org/10.1145/3472749.3474820",
+      "doi": "10.1145/3472749.3474820"
+    },
+    {
+      "text": "Nicolai Marquardt, Ken Hinckley, and Saul Greenberg. 2012. Cross-device interaction via micro-mobility and f-formations. In Proceedings of the 25th annual ACM symposium on User interface software and technology. 13\u201322.",
+      "doi": "10.1145/2380116.2380121"
+    },
+    {
+      "text": "Andrea\u00a0H Mason and Christine\u00a0L MacKenzie. 2005. Grip forces when passing an object to a partner. Experimental brain research 163, 2 (2005), 173\u2013187.",
+      "doi": ""
+    },
+    {
+      "text": "Mohammad\u00a0Faizuddin Mohd\u00a0Noor, Andrew Ramsay, Stephen Hughes, Simon Rogers, John Williamson, and Roderick Murray-Smith. 2014. 28 frames later: predicting screen touches from back-of-device grip changes. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2005\u20132008.",
+      "doi": "10.1145/2556288.2557148"
+    },
+    {
+      "text": "Halla\u00a0B Olafsdottir, Theophanis Tsandilas, and Caroline Appert. 2014. Prospective motor control on tabletops: planning grasp for multitouch interaction. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2893\u20132902.",
+      "doi": "10.1145/2556288.2557029"
+    },
+    {
+      "text": "Gary\u00a0M Olson and Judith\u00a0S Olson. 2000. Distance matters. Human\u2013computer interaction 15, 2-3 (2000), 139\u2013178.",
+      "doi": ""
+    },
+    {
+      "text": "James O\u2019Malley. 2021. The imminent ultra-wideband revolution: After decades in the lab, big tech has finally found a use for a unique wireless technology. Engineering & Technology 16, 9 (2021), 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "Qorvo. 2021. Qorvo DWM3000 6.5 & 8.0 GHz Ultra-Wideband (UWB) Module. https://www.qorvo.com/products/p/DWM3000#documents",
+      "doi": ""
+    },
+    {
+      "text": "Roman R\u00e4dle, Hans-Christian Jetter, Jonathan Fischer, Inti Gabriel, Clemens\u00a0N. Klokmose, Harald Reiterer, and Christian Holz. 2018. PolarTrack: Optical Outside-In Device Tracking That Exploits Display Polarization. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems(CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u20139. https://doi.org/10.1145/3173574.3174071",
+      "doi": "10.1145/3173574.3174071"
+    },
+    {
+      "text": "Jun Rekimoto and Masanori Saitoh. 1999. Augmented surfaces: a spatially continuous work space for hybrid computing environments. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems. 378\u2013385.",
+      "doi": "10.1145/302979.303113"
+    },
+    {
+      "text": "Elisa Ricci, Jagannadan Varadarajan, Ramanathan Subramanian, Samuel Rota\u00a0Bulo, Narendra Ahuja, and Oswald Lanz. 2015. Uncovering interactions and interactors: Joint estimation of head, body orientation and f-formations from surveillance videos. In Proceedings of the IEEE International Conference on Computer Vision. 4660\u20134668.",
+      "doi": "10.1109/ICCV.2015.529"
+    },
+    {
+      "text": "Hamza Sadruddin, Ahmed Mahmoud, and Mohamed Atia. 2019. An Indoor Navigation System Using Stereo Vision, IMU and UWB Sensor Fusion. In 2019 IEEE SENSORS. 1\u20134. https://doi.org/10.1109/SENSORS43011.2019.8956942",
+      "doi": ""
+    },
+    {
+      "text": "Bill\u00a0N Schilit, Norman Adams, Rich Gold, Michael\u00a0M Tso, and Roy Want. 1993. The ParcTab Mobile Computing System. In In Proceedings of the Fourth Workshop on Workstation Operating Systems. 34\u201339. https://doi.org/10.1.1.43.9880",
+      "doi": ""
+    },
+    {
+      "text": "Dominik Schmidt, Fadi Chehimi, Enrico Rukzio, and Hans Gellersen. 2010. PhoneTouch: a technique for direct phone interaction on surfaces. In Proceedings of the 23nd annual ACM symposium on User interface software and technology. 13\u201316.",
+      "doi": "10.1145/1866029.1866034"
+    },
+    {
+      "text": "Stacey\u00a0D Scott, M\u00a0Sheelagh\u00a0T Carpendale, and Kori Inkpen. 2004. Territoriality in collaborative tabletop workspaces. In Proceedings of the 2004 ACM conference on Computer supported cooperative work. 294\u2013303.",
+      "doi": "10.1145/1031607.1031655"
+    },
+    {
+      "text": "Sarthak Sharma, Hessam Mohammadmoradi, Milad Heydariaan, and Omprakash Gnawali. 2019. Device-Free Activity Recognition Using Ultra-Wideband Radios. In 2019 International Conference on Computing, Networking and Communications (ICNC). 1029\u20131033. https://doi.org/10.1109/ICCNC.2019.8685504",
+      "doi": ""
+    },
+    {
+      "text": "Chia Shen, Katherine Everitt, and Kathleen Ryall. 2003. UbiTable: Impromptu face-to-face collaboration on horizontal interactive surfaces. In International Conference on Ubiquitous Computing. Springer, 281\u2013288.",
+      "doi": ""
+    },
+    {
+      "text": "Norbert\u00a0A Streitz, J\u00f6rg Gei\u00dfler, Torsten Holmer, Shin\u2019ichi Konomi, Christian M\u00fcller-Tomfelde, Wolfgang Reischl, Petra Rexroth, Peter Seitz, and Ralf Steinmetz. 1999. i-LAND: an interactive landscape for creativity and innovation. In Proceedings of the SIGCHI conference on Human factors in computing systems. 120\u2013127.",
+      "doi": "10.1145/302979.303010"
+    },
+    {
+      "text": "Julie Wagner, St\u00e9phane Huot, and Wendy Mackay. 2012. BiTouch and BiPad: designing bimanual interaction for hand-held tablets. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2317\u20132326.",
+      "doi": "10.1145/2207676.2208391"
+    },
+    {
+      "text": "James\u00a0R. Wallace, Stacey\u00a0D. Scott, and Carolyn\u00a0G. MacGregor. 2013. Collaborative Sensemaking on a Digital Tabletop and Personal Tablets: Prioritization, Comparisons, and Tableaux. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201913). Association for Computing Machinery, New York, NY, USA, 3345\u20133354. https://doi.org/10.1145/2470654.2466458",
+      "doi": "10.1145/2470654.2466458"
+    },
+    {
+      "text": "Yuntao Wang, Jiexin Ding, Ishan Chatterjee, Farshid Salemi\u00a0Parizi, Yuzhou Zhuang, Yukang Yan, Shwetak Patel, and Yuanchun Shi. 2022. FaceOri: Tracking Head Position and Orientation Using Ultrasonic Ranging on Earphones. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems(CHI \u201922). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3491102.3517698",
+      "doi": "10.1145/3491102.3517698"
+    },
+    {
+      "text": "Roy Want, Andy Hopper, Veronica Falc\u00e3o, and Jonathan Gibbons. 1992. The Active Badge Location System. ACM Transactions on Information Systems 10, 1 (Jan. 1992), 91\u2013102. https://doi.org/10.1145/128756.128759",
+      "doi": "10.1145/128756.128759"
+    },
+    {
+      "text": "Thomas Wells and Steven Houben. 2020. CollabAR - Investigating the Mediating Role of Mobile AR Interfaces on Co-Located Group Collaboration. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems(CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376541",
+      "doi": "10.1145/3313831.3376541"
+    },
+    {
+      "text": "Thomas Wells, Dominic Potts, and Steven Houben. 2022. A Study into the Effect of Mobile Device Configurations on Co-Located Collaboration Using AR. Proceedings of the ACM on Human-Computer Interaction 6, MHCI (Sept. 2022), 200:1\u2013200:23. https://doi.org/10.1145/3546735",
+      "doi": "10.1145/3546735"
+    },
+    {
+      "text": "Daniel Wigdor, Hao Jiang, Clifton Forlines, Michelle Borkin, and Chia Shen. 2009. WeSpace: The Design Development and Deployment of a Walk-up and Share Multi-surface Visual Collaboration System. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201909). ACM, New York, NY, USA, 1237\u20131246. https://doi.org/10.1145/1518701.1518886",
+      "doi": "10.1145/1518701.1518886"
+    },
+    {
+      "text": "Raphael Wimmer. 2010. Grasp sensing for human-computer interaction. In Proceedings of the fifth international conference on Tangible, embedded, and embodied interaction. 221\u2013228.",
+      "doi": "10.1145/1935701.1935745"
+    },
+    {
+      "text": "Raphael Wimmer and Sebastian Boring. 2009. HandSense: discriminating different ways of grasping and holding a tangible user interface. In Proceedings of the 3rd International Conference on Tangible and Embedded Interaction. 359\u2013362.",
+      "doi": "10.1145/1517664.1517736"
+    },
+    {
+      "text": "Katrin Wolf, Christian M\u00fcller-Tomfelde, Kelvin Cheng, and Ina Wechsung. 2012. PinchPad: performance of touch-based gestures while grasping devices. In Proceedings of the Sixth International Conference on Tangible, Embedded and Embodied Interaction. 103\u2013110.",
+      "doi": "10.1145/2148131.2148155"
+    },
+    {
+      "text": "Chi-Jui Wu, Steven Houben, and Nicolai Marquardt. 2017. EagleSense: Tracking People and Devices in Interactive Spaces Using Real-Time Top-View Depth-Sensing. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). Association for Computing Machinery, New York, NY, USA, 3929\u20133942. https://doi.org/10.1145/3025453.3025562",
+      "doi": "10.1145/3025453.3025562"
+    },
+    {
+      "text": "Dongwook Yoon, Ken Hinckley, Hrvoje Benko, Fran\u00e7ois Guimbreti\u00e8re, Pourang Irani, Michel Pahud, and Marcel Gavriliu. 2015. Sensing tablet grasp+ micro-mobility for active reading. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. 477\u2013487.",
+      "doi": "10.1145/2807442.2807510"
+    },
+    {
+      "text": "Ye Yuan, Nathalie Riche, Nicolai Marquardt, Molly\u00a0Jane Nicholas, Teddy Seyed, Hugo Romat, Bongshin Lee, Michel Pahud, Jonathan Goldstein, Rojin Vishkaie, 2022. Understanding Multi-Device Usage Patterns: Physical Device Configurations and Fragmented Workflows. In CHI Conference on Human Factors in Computing Systems. 1\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Yang Zhang, Michel Pahud, Christian Holz, Haijun Xia, Gierad Laput, Michael McGuffin, Xiao Tu, Andrew Mittereder, Fei Su, William Buxton, 2019. Sensing posture-aware pen+ touch interaction on tablets. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3290605.3300285"
+    },
+    {
+      "text": "Yuan Zhou, Choi\u00a0Look Law, and Jingjing Xia. 2012. Ultra low-power UWB-RFID system for precise location-aware applications. In 2012 IEEE Wireless Communications and Networking Conference Workshops (WCNCW). IEEE, 154\u2013158.",
+      "doi": ""
+    }
+  ]
+}

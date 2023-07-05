@@ -1,0 +1,377 @@
+{
+  "doi": "10.1145/3544548.3581339",
+  "title": "Improving Automatic Summarization for Browsing Longform Spoken Dialog",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Longform spoken dialog delivers rich streams of informative content through podcasts, interviews, debates, and meetings. While production of this medium has grown tremendously, spoken dialog remains challenging to consume as listening is slower than reading and difficult to skim or navigate relative to text. Recent systems leveraging automatic speech recognition (ASR) and automatic summarization allow users to better browse speech data and forage for information of interest. However, these systems intake disfluent speech which causes automatic summarization to yield readability, adequacy, and accuracy problems. To improve navigability and browsability of speech, we present three training agnostic post-processing techniques that address dialog concerns of readability, coherence, and adequacy. We integrate these improvements with user interfaces which communicate estimated summary metrics to aid user browsing heuristics. Quantitative evaluation metrics show a 19% improvement in summary quality. We discuss how summarization technologies can help people browse longform audio in trustworthy and readable ways.",
+  "authors": [
+    {
+      "name": "Daniel Li",
+      "institution": "Columbia University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659891686",
+      "orcid": "0000-0001-9084-9523"
+    },
+    {
+      "name": "Thomas Chen",
+      "institution": "Microsoft, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659892498",
+      "orcid": "0000-0001-6398-093X"
+    },
+    {
+      "name": "Alec Zadikian",
+      "institution": "Google LLC, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780270",
+      "orcid": "0000-0002-4364-1591"
+    },
+    {
+      "name": "Albert Tung",
+      "institution": "Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659892276",
+      "orcid": "0000-0002-6129-7819"
+    },
+    {
+      "name": "Lydia B Chilton",
+      "institution": "Computer Science Department, Columbia University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659480701",
+      "orcid": "0000-0002-1737-1276"
+    }
+  ],
+  "references": [
+    {
+      "text": "Joshua Ainslie, Santiago Ontanon, Chris Alberti, Vaclav Cvicek, Zachary Fisher, Philip Pham, Anirudh Ravula, Sumit Sanghai, Qifan Wang, and Li Yang. 2020. ETC: Encoding Long and Structured Inputs in Transformers. arxiv:2004.08483\u00a0[cs.LG]",
+      "doi": ""
+    },
+    {
+      "text": "Alan Akbik, Duncan Blythe, and Roland Vollgraf. 2018. Contextual String Embeddings for Sequence Labeling. In COLING 2018, 27th International Conference on Computational Linguistics. 1638\u20131649.",
+      "doi": ""
+    },
+    {
+      "text": "Tanvirul Alam, Akib Khan, and Firoj Alam. 2020. Punctuation Restoration using Transformer Models for High-and Low-Resource Languages. In Proceedings of the Sixth Workshop on Noisy User-generated Text (W-NUT 2020). Association for Computational Linguistics, Online, 132\u2013142. https://doi.org/10.18653/v1/2020.wnut-1.18",
+      "doi": ""
+    },
+    {
+      "text": "Barry Arons. 1997. SpeechSkimmer: a system for interactively skimming recorded speech. ACM Transactions on Computer-Human Interaction (TOCHI) 4, 1(1997), 3\u201338.",
+      "doi": "10.1145/244754.244758"
+    },
+    {
+      "text": "Frederic\u00a0Charles Bartlett and Frederic\u00a0C Bartlett. 1995. Remembering: A study in experimental and social psychology. Cambridge university press.",
+      "doi": ""
+    },
+    {
+      "text": "Iz Beltagy, Matthew\u00a0E Peters, and Arman Cohan. 2020. Longformer: The long-document transformer. arXiv preprint arXiv:2004.05150(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Mohamed Benzeghiba, Renato De\u00a0Mori, Olivier Deroo, Stephane Dupont, Teodora Erbes, Denis Jouvet, Luciano Fissore, Pietro Laface, Alfred Mertins, Christophe Ris, 2007. Automatic speech recognition and speech variability: A review. Speech communication 49, 10-11 (2007), 763\u2013786.",
+      "doi": "10.1016/j.specom.2007.02.006"
+    },
+    {
+      "text": "Giuseppe Carenini and Jackie Chi\u00a0Kit Cheung. 2008. Extractive vs. NLG-based abstractive summarization of evaluative text: The effect of corpus controversiality. In Proceedings of the Fifth International Natural Language Generation Conference. 33\u201341.",
+      "doi": "10.5555/1708322.1708330"
+    },
+    {
+      "text": "Asli Celikyilmaz, Antoine Bosselut, Xiaodong He, and Yejin Choi. 2018. Deep Communicating Agents for Abstractive Summarization. https://doi.org/10.48550/ARXIV.1803.10357",
+      "doi": ""
+    },
+    {
+      "text": "Jiaao Chen and Diyi Yang. 2021. Simple conversational data augmentation for semi-supervised abstractive dialogue summarization. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing. 6605\u20136616.",
+      "doi": ""
+    },
+    {
+      "text": "Yulong Chen, Yang Liu, Liang Chen, and Yue Zhang. 2021. DialogSum: A Real-Life Scenario Dialogue Summarization Dataset. https://doi.org/10.48550/ARXIV.2105.06762",
+      "doi": ""
+    },
+    {
+      "text": "Ann Clifton, Sravana Reddy, Yongze Yu, Aasish Pappu, Rezvaneh Rezapour, Hamed Bonab, Maria Eskevich, Gareth Jones, Jussi Karlgren, Ben Carterette, and Rosie Jones. 2020. 100,000 Podcasts: A Spoken English Document Corpus. In Proceedings of the 28th International Conference on Computational Linguistics. International Committee on Computational Linguistics, Barcelona, Spain (Online), 5903\u20135917. https://doi.org/10.18653/v1/2020.coling-main.519",
+      "doi": ""
+    },
+    {
+      "text": "Baiyun Cui, Yingming Li, Yaqing Zhang, and Zhongfei Zhang. 2017. Text coherence analysis based on deep neural network. In Proceedings of the 2017 ACM on Conference on Information and Knowledge Management. 2027\u20132030.",
+      "doi": "10.1145/3132847.3133047"
+    },
+    {
+      "text": "Zaynab Elkhattabi, Youness Tabii, and Abdelhamid Benkaddour. 2015. Video summarization: techniques and applications. International Journal of Computer and Information Engineering 9, 4(2015), 928\u2013933.",
+      "doi": ""
+    },
+    {
+      "text": "Alexander\u00a0R Fabbri, Wojciech Kry\u015bci\u0144ski, Bryan McCann, Caiming Xiong, Richard Socher, and Dragomir Radev. 2021. Summeval: Re-evaluating summarization evaluation. Transactions of the Association for Computational Linguistics 9 (2021), 391\u2013409.",
+      "doi": ""
+    },
+    {
+      "text": "Wiqas Ghai and Navdeep Singh. 2012. Literature review on automatic speech recognition. International Journal of Computer Applications 41, 8(2012).",
+      "doi": ""
+    },
+    {
+      "text": "Bogdan Gliwa, Iwona Mochol, Maciej Biesek, and Aleksander Wawer. 2019. SAMSum Corpus: A Human-annotated Dialogue Dataset for Abstractive Summarization. ArXiv abs/1911.12237(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Bogdan Gliwa, Iwona Mochol, Maciej Biesek, and Aleksander Wawer. 2019. SAMSum corpus: A human-annotated dialogue dataset for abstractive summarization. arXiv preprint arXiv:1911.12237(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2021. Speech-to-Text. https://cloud.google.com/speech-to-text/",
+      "doi": ""
+    },
+    {
+      "text": "Tanya Goyal, Junyi\u00a0Jessy Li, and Greg Durrett. 2022. SNaC: Coherence Error Detection for Narrative Summarization. arXiv preprint arXiv:2205.09641(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Yvette Graham. 2015. Improving Evaluation of Machine Translation Quality Estimation. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). Association for Computational Linguistics, Beijing, China, 1804\u20131813. https://doi.org/10.3115/v1/P15-1174",
+      "doi": ""
+    },
+    {
+      "text": "Agustin Gravano, Martin Jansche, and Michiel Bacchiani. 2009. Restoring punctuation and capitalization in transcribed speech. In 2009 IEEE International Conference on Acoustics, Speech and Signal Processing. IEEE, 4741\u20134744.",
+      "doi": "10.1109/ICASSP.2009.4960690"
+    },
+    {
+      "text": "Som Gupta and Sanjai\u00a0Kumar Gupta. 2019. Abstractive summarization: An overview of the state of the art. Expert Systems with Applications 121 (2019), 49\u201365.",
+      "doi": "10.1016/j.eswa.2018.12.011"
+    },
+    {
+      "text": "Wang Haonan, Gao Yang, Bai Yu, Mirella Lapata, and Huang Heyan. 2020. Exploring Explainable Selection to Control Abstractive Summarization. arXiv preprint arXiv:2004.11779(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Liwei He, Elizabeth Sanocki, Anoop Gupta, and Jonathan Grudin. 1999. Auto-summarization of audio-video presentations. In Proceedings of the seventh ACM international conference on Multimedia (Part 1). 489\u2013498.",
+      "doi": "10.1145/319463.319691"
+    },
+    {
+      "text": "Julia Hirschberg, Steve Whittaker, Don Hindle, Fernando Pereira, and Amit Singhal. 1999. Finding Information in Audio: A New Paradigm for Audio Browsing/Retrival. In ESCA Tutorial and Research Workshop (ETRW) on Accessing Information in Spoken Audio.",
+      "doi": ""
+    },
+    {
+      "text": "Adam Janin, Don Baron, Jane Edwards, Dan Ellis, David Gelbart, Nelson Morgan, Barbara Peskin, Thilo Pfau, Elizabeth Shriberg, Andreas Stolcke, and Chuck Wooters. 2003. The ICSI Meeting Corpus. 364\u2013367.",
+      "doi": ""
+    },
+    {
+      "text": "Muhammad Khalifa, Miguel Ballesteros, and Kathleen McKeown. 2021. A bag of tricks for dialogue summarization. arXiv preprint arXiv:2109.08232(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Mert Kilickaya, Aykut Erdem, Nazli Ikizler-Cinbis, and Erkut Erdem. 2017. Re-evaluating Automatic Metrics for Image Captioning. In Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 1, Long Papers. Association for Computational Linguistics, Valencia, Spain, 199\u2013209. https://aclanthology.org/E17-1019",
+      "doi": ""
+    },
+    {
+      "text": "Philipp Koehn. 2009. Statistical machine translation. Cambridge University Press.",
+      "doi": "10.5555/1734086"
+    },
+    {
+      "text": "Panagiotis Kouris, Georgios Alexandridis, and Andreas Stafylopatis. 2021. Abstractive Text Summarization: Enhancing Sequence-to-Sequence Models Using Word Sense Disambiguation and Semantic Content Generalization. Computational Linguistics 47, 4 (2021), 813\u2013859.",
+      "doi": ""
+    },
+    {
+      "text": "Klaus Krippendorff. 2011. Computing Krippendorff\u2019s alpha-reliability. (2011).",
+      "doi": ""
+    },
+    {
+      "text": "Wojciech Kry\u015bci\u0144ski, Bryan McCann, Caiming Xiong, and Richard Socher. 2019. Evaluating the factual consistency of abstractive text summarization. arXiv preprint arXiv:1910.12840(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Guillaume Lample, Miguel Ballesteros, Sandeep Subramanian, Kazuya Kawakami, and Chris Dyer. 2016. Neural architectures for named entity recognition. arXiv preprint arXiv:1603.01360(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Mirella Lapata, Regina Barzilay, 2005. Automatic evaluation of text coherence: Models and representations. In IJCAI, Vol.\u00a05. Citeseer, 1085\u20131090.",
+      "doi": ""
+    },
+    {
+      "text": "Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov, and Luke Zettlemoyer. 2019. Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension. arXiv preprint arXiv:1910.13461(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Li, Thomas Chen, Albert Tung, and Lydia\u00a0B. Chilton. 2021. Hierarchical Summarization for Longform Spoken Dialog. The 34th Annual ACM Symposium on User Interface Software and Technology (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Jiaqi Li, Ming Liu, Zihao Zheng, Heng Zhang, Bing Qin, Min-Yen Kan, and Ting Liu. 2021. DADgraph: A Discourse-aware Dialogue Graph Neural Network for Multiparty Dialogue Machine Reading Comprehension. In 2021 International Joint Conference on Neural Networks (IJCNN). 1\u20138. https://doi.org/10.1109/IJCNN52387.2021.9533364",
+      "doi": ""
+    },
+    {
+      "text": "Suhyun Lim, Chanhee Park, Hyunwoo Han, Jaejong Ho, Junyup Hong, Soojung Lee, and Kyungwon Lee. 2019. A Narrative Topic Map Visualization to Summarize and Recall a Meeting. In 2019 IEEE Visualization Conference (VIS).",
+      "doi": ""
+    },
+    {
+      "text": "Chin-Yew Lin. 2004. Rouge: A package for automatic evaluation of summaries. In Text summarization branches out. 74\u201381.",
+      "doi": ""
+    },
+    {
+      "text": "Jiexi Liu, Ryuichi Takanobu, Jiaxin Wen, Dazhen Wan, Hongguang Li, Weiran Nie, Cheng Li, Wei Peng, and Minlie Huang. 2021. Robustness Testing of Language Understanding in Task-Oriented Dialog. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). Association for Computational Linguistics, Online, 2467\u20132480. https://doi.org/10.18653/v1/2021.acl-long.192",
+      "doi": ""
+    },
+    {
+      "text": "Yang Liu and Dilek Hakkani-T\u00fcr. 2011. Speech summarization. Spoken language understanding: Systems for extracting semantic information from speech (2011), 357\u2013396.",
+      "doi": ""
+    },
+    {
+      "text": "Yang Liu and Mirella Lapata. 2019. Hierarchical transformers for multi-document summarization. arXiv preprint arXiv:1905.13164(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Zhengyuan Liu, Ke Shi, and Nancy\u00a0F Chen. 2021. Coreference-aware dialogue summarization. arXiv preprint arXiv:2106.08556(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Elena Lloret, Laura Plaza, and Ahmet Aker. 2018. The challenging task of summary evaluation: an overview. Language Resources and Evaluation 52, 1 (2018), 101\u2013148.",
+      "doi": "10.1007/s10579-017-9399-2"
+    },
+    {
+      "text": "Sameer Maskey and Julia Hirschberg. 2005. Comparing lexical, acoustic/prosodic, structural and discourse features for speech summarization. In Ninth European Conference on Speech Communication and Technology.",
+      "doi": ""
+    },
+    {
+      "text": "Justin Matejka, Tovi Grossman, and George Fitzmaurice. 2012. Swift: reducing the effects of latency in online video scrubbing. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 637\u2013646.",
+      "doi": "10.1145/2207676.2207766"
+    },
+    {
+      "text": "Justin Matejka, Tovi Grossman, and George Fitzmaurice. 2013. Swifter: improved online video scrubbing. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1159\u20131168.",
+      "doi": "10.1145/2470654.2466149"
+    },
+    {
+      "text": "Joshua Maynez, Shashi Narayan, Bernd Bohnet, and Ryan McDonald. 2020. On Faithfulness and Factuality in Abstractive Summarization. arxiv:2005.00661\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "I. Mccowan, G. Lathoud, M. Lincoln, A. Lisowska, W. Post, D. Reidsma, and P. Wellner. 2005. The AMI Meeting Corpus. In In: Proceedings Measuring Behavior 2005, 5th International Conference on Methods and Techniques in Behavioral Research. L.P.J.J. Noldus, F. Grieco, L.W.S. Loijens and P.H. Zimmerman (Eds.), Wageningen: Noldus Information Technology.",
+      "doi": ""
+    },
+    {
+      "text": "Kathleen McKeown, Julia Hirschberg, Michel Galley, and Sameer Maskey. 2005. From text to speech summarization. In Proceedings.(ICASSP\u201905). IEEE International Conference on Acoustics, Speech, and Signal Processing, 2005., Vol.\u00a05. IEEE, v\u2013997.",
+      "doi": ""
+    },
+    {
+      "text": "George\u00a0A Miller. 1995. WordNet: a lexical database for English. Commun. ACM 38, 11 (1995), 39\u201341.",
+      "doi": "10.1145/219717.219748"
+    },
+    {
+      "text": "Gabriel Murray, Steve Renals, and Jean Carletta. 2005. Extractive summarization of meeting recordings.(2005).",
+      "doi": ""
+    },
+    {
+      "text": "Kevin\u00a0Kyung Nam and Mark\u00a0S. Ackerman. 2007. Arkose: reusing informal information from online discussions. In GROUP \u201907.",
+      "doi": ""
+    },
+    {
+      "text": "Courtney Napoles, Keisuke Sakaguchi, and Joel\u00a0R. Tetreault. 2017. JFLEG: A Fluency Corpus and Benchmark for Grammatical Error Correction. CoRR abs/1702.04066(2017). arXiv:1702.04066http://arxiv.org/abs/1702.04066",
+      "doi": ""
+    },
+    {
+      "text": "Douglas O\u2019Shaughnessy. 2008. Automatic speech recognition: History, methods and challenges. Pattern Recognition 41, 10 (2008), 2965\u20132979.",
+      "doi": "10.1016/j.patcog.2008.05.008"
+    },
+    {
+      "text": "Amy Pavel, Dan\u00a0B. Goldman, Bj\u00f6rn Hartmann, and Maneesh Agrawala. 2015. SceneSkim: Searching and Browsing Movies Using Synchronized Captions, Scripts and Plot Summaries. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology (Charlotte, NC, USA) (UIST \u201915). Association for Computing Machinery, New York, NY, USA, 181\u2013190. https://doi.org/10.1145/2807442.2807502",
+      "doi": "10.1145/2807442.2807502"
+    },
+    {
+      "text": "Peter Pirolli. 2003. A theory of information scent. Human-computer interaction 1 (2003), 213\u2013217.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Pirolli and Stuart Card. 1999. Information foraging.Psychological review 106, 4 (1999), 643.",
+      "doi": ""
+    },
+    {
+      "text": "MengNan Qi, Hao Liu, YuZhuo Fu, and Ting Liu. 2021. Improving Abstractive Dialogue Summarization with Hierarchical Pretraining and Topic Segment. In Findings of the Association for Computational Linguistics: EMNLP 2021. 1121\u20131130.",
+      "doi": ""
+    },
+    {
+      "text": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter\u00a0J Liu. 2019. Exploring the limits of transfer learning with a unified text-to-text transformer. arXiv preprint arXiv:1910.10683(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Nils Reimers and Iryna Gurevych. 2019. Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. CoRR abs/1908.10084(2019). arxiv:1908.10084http://arxiv.org/abs/1908.10084",
+      "doi": ""
+    },
+    {
+      "text": "Yang Shi, Chris Bryan, Sridatt Bhamidipati, Ying Zhao, Yaoxue Zhang, and Kwan-Liu Ma. 2018. Meetingvis: Visual narratives to assist in recalling meeting context and content. IEEE Transactions on Visualization and Computer Graphics 24, 6(2018), 1918\u20131929.",
+      "doi": ""
+    },
+    {
+      "text": "Brij Mohan\u00a0Lal Srivastava and Sunayana Sitaram. 2018. Homophone Identification and Merging for Code-switched Speech Recognition.. In Interspeech. 1943\u20131947.",
+      "doi": ""
+    },
+    {
+      "text": "Nikolaos Stylianou and Ioannis Vlahavas. 2021. A neural entity coreference resolution review. Expert Systems with Applications 168 (2021), 114466.",
+      "doi": ""
+    },
+    {
+      "text": "Ilya Sutskever, Oriol Vinyals, and Quoc\u00a0V Le. 2014. Sequence to sequence learning with neural networks. Advances in neural information processing systems 27 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Sunny Tian. 2020. Integrating Discussion and Summarization in Collaborative Writing. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI EA \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3334480.3381437",
+      "doi": "10.1145/3334480.3381437"
+    },
+    {
+      "text": "Nuno Vasconcelos and Andrew Lippman. 1998. Bayesian modeling of video editing and structure: Semantic features for video summarization and browsing. In Proceedings 1998 International Conference on Image Processing. ICIP98 (Cat. No. 98CB36269). IEEE, 153\u2013157.",
+      "doi": ""
+    },
+    {
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan\u00a0N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. Advances in neural information processing systems 30 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Ashwin\u00a0K Vijayakumar, Michael Cogswell, Ramprasath\u00a0R Selvaraju, Qing Sun, Stefan Lee, David Crandall, and Dhruv Batra. 2016. Diverse beam search: Decoding diverse solutions from neural sequence models. arXiv preprint arXiv:1610.02424(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Quan Wang, Carlton Downey, Li Wan, Philip\u00a0Andrew Mansfield, and Ignacio\u00a0Lopz Moreno. 2018. Speaker diarization with LSTM. In 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 5239\u20135243.",
+      "doi": "10.1109/ICASSP.2018.8462628"
+    },
+    {
+      "text": "Karl\u00a0E Weick, Kathleen\u00a0M Sutcliffe, and David Obstfeld. 2005. Organizing and the process of sensemaking. Organization science 16, 4 (2005), 409\u2013421.",
+      "doi": "10.1287/orsc.1050.0133"
+    },
+    {
+      "text": "Adina Williams, Nikita Nangia, and Samuel Bowman. 2018. A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers) (New Orleans, Louisiana). Association for Computational Linguistics, 1112\u20131122. http://aclweb.org/anthology/N18-1101",
+      "doi": ""
+    },
+    {
+      "text": "Adina Williams, Nikita Nangia, and Samuel Bowman. 2018. A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers) (New Orleans, Louisiana). Association for Computational Linguistics, 1112\u20131122. http://aclweb.org/anthology/N18-1101",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, R\u00e9mi Louf, Morgan Funtowicz, and Jamie Brew. 2019. HuggingFace\u2019s Transformers: State-of-the-art Natural Language Processing. CoRR abs/1910.03771(2019). arxiv:1910.03771http://arxiv.org/abs/1910.03771",
+      "doi": ""
+    },
+    {
+      "text": "Jeff Wu, Long Ouyang, Daniel\u00a0M Ziegler, Nisan Stiennon, Ryan Lowe, Jan Leike, and Paul Christiano. 2021. Recursively summarizing books with human feedback. arXiv preprint arXiv:2109.10862(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Min Yang, Qiang Qu, Wenting Tu, Ying Shen, Zhou Zhao, and Xiaojun Chen. 2019. Exploring human-like reading strategy for abstractive text summarization. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a033. 7362\u20137369.",
+      "doi": "10.1609/aaai.v33i01.33017362"
+    },
+    {
+      "text": "Manzil Zaheer, Guru Guruganesh, Kumar\u00a0Avinava Dubey, Joshua Ainslie, Chris Alberti, Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li Yang, 2020. Big Bird: Transformers for Longer Sequences.. In NeurIPS.",
+      "doi": ""
+    },
+    {
+      "text": "Klaus Zechner. 2002. Automatic summarization of open-domain multiparty dialogues in diverse genres. Computational Linguistics 28, 4 (2002), 447\u2013485.",
+      "doi": "10.1162/089120102762671945"
+    },
+    {
+      "text": "Klaus Zechner and Alex Waibel. 2000. DIASUMM: Flexible summarization of spontaneous dialogues in unrestricted domains. In COLING 2000 Volume 2: The 18th International Conference on Computational Linguistics.",
+      "doi": "10.3115/992730.992786"
+    },
+    {
+      "text": "Jingqing Zhang, Yao Zhao, Mohammad Saleh, and Peter\u00a0J. Liu. 2019. PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization. CoRR abs/1912.08777(2019). arxiv:1912.08777http://arxiv.org/abs/1912.08777",
+      "doi": ""
+    },
+    {
+      "text": "Yusen Zhang, Ansong Ni, Ziming Mao, Chen\u00a0Henry Wu, Chenguang Zhu, Budhaditya Deb, Ahmed\u00a0H Awadallah, Dragomir Radev, and Rui Zhang. 2021. Summ N: A Multi-Stage Summarization Framework for Long Input Dialogues and Documents. arXiv preprint arXiv:2110.10150(2021).",
+      "doi": ""
+    }
+  ]
+}

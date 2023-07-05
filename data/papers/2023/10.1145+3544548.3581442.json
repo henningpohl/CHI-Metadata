@@ -1,0 +1,486 @@
+{
+  "doi": "10.1145/3544548.3581442",
+  "title": "InstruMentAR: Auto-Generation of Augmented Reality Tutorials for Operating Digital Instruments Through Recording Embodied Demonstration",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Augmented Reality tutorials, which provide necessary context by directly superimposing visual guidance on the physical referent, represent an effective way of scaffolding complex instrument operations. However, current AR tutorial authoring processes are not seamless as they require users to continuously alternate between operating instruments and interacting with virtual elements. We present InstruMentAR, a system that automatically generates AR tutorials through recording user demonstrations. We design a multimodal approach that fuses gestural information and hand-worn pressure sensor data to detect and register the user\u2019s step-by-step manipulations on the control panel. With this information, the system autonomously generates virtual cues with designated scales to respective locations for each step. Voice recognition and background capture are employed to automate the creation of text and images as AR content. For novice users receiving the authored AR tutorials, we facilitate immediate feedback through haptic modules. We compared InstruMentAR with traditional systems in the user study.",
+  "authors": [
+    {
+      "name": "Ziyi Liu",
+      "institution": "School of Mechanical Engineering, Purdue University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659529036",
+      "orcid": "0000-0002-1270-2734"
+    },
+    {
+      "name": "Zhengzhe Zhu",
+      "institution": "School of Electrical & Computer Engineering, Purdue University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659526739",
+      "orcid": "0000-0001-9935-0518"
+    },
+    {
+      "name": "Enze Jiang",
+      "institution": "School of Electrical & Computer Engineering, Purdue University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782745",
+      "orcid": "0000-0003-3377-3555"
+    },
+    {
+      "name": "Feichi Huang",
+      "institution": "School of Electrical & Computer Engineering, Purdue University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780680",
+      "orcid": "0000-0003-0575-463X"
+    },
+    {
+      "name": "Ana M Villanueva",
+      "institution": "School of Mechanical Engineering, Purdue University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659314438",
+      "orcid": "0000-0002-7619-6359"
+    },
+    {
+      "name": "Xun Qian",
+      "institution": "School of Mechanical Engineering, Purdue University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659475205",
+      "orcid": "0000-0003-1976-7992"
+    },
+    {
+      "name": "Tianyi Wang",
+      "institution": "School of Mechanical Engineering, Purdue University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659261679",
+      "orcid": "0000-0001-9382-6466"
+    },
+    {
+      "name": "Karthik Ramani",
+      "institution": "School of Mechanical Engineering, Purdue University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81331502255",
+      "orcid": "0000-0001-8639-5135"
+    }
+  ],
+  "references": [
+    {
+      "text": "2022. ARCore Build the Future. https://developers.google.com/ar.",
+      "doi": ""
+    },
+    {
+      "text": "2022. Dive into the world of augmented reality. https://developer.apple.com/augmented-reality/.",
+      "doi": ""
+    },
+    {
+      "text": "2022. Dynamics 365 Remote Assist. https://dynamics.microsoft.com/en-us/mixed-reality/remote-assist/.",
+      "doi": ""
+    },
+    {
+      "text": "2022. getPerspectiveTransform(): Calculates a perspective transform from four pairs of the corresponding points.https://docs.opencv.org/4.x/da/d54/group__imgproc__transform.html#ga20f62aa3235d869c9956436c870893ae.",
+      "doi": ""
+    },
+    {
+      "text": "2022. Hololens 2. https://www.microsoft.com/en-us/hololens/.",
+      "doi": ""
+    },
+    {
+      "text": "2022. Hololens: Voice input. https://learn.microsoft.com/en-us/windows/mixed-reality/design/voice-input.",
+      "doi": ""
+    },
+    {
+      "text": "2022. Kinect Azure. https://azure.microsoft.com/en-us/services/kinect-dk/.",
+      "doi": ""
+    },
+    {
+      "text": "2022. MagicLeap. https://ml1-developer.magicleap.com/en-us/learn/guides/lumin-sdk-handtracking.",
+      "doi": ""
+    },
+    {
+      "text": "2022. Modernize training and work instructions with Vuforia Studio. https://www.ptc.com/en/products/vuforia/vuforia-studio.",
+      "doi": ""
+    },
+    {
+      "text": "2022. MRTK. https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/?view=mrtkunity-2021-05.",
+      "doi": ""
+    },
+    {
+      "text": "2022. OpenCV. https://opencv.org/.",
+      "doi": ""
+    },
+    {
+      "text": "2022. Unity Real-Time Development Platform. https://unity.com/.",
+      "doi": ""
+    },
+    {
+      "text": "2022. Unreal Engine: The most powerful real-time 3D creation tool. https://www.unrealengine.com/en-US.",
+      "doi": ""
+    },
+    {
+      "text": "2022. Victoria Young. 2015. Strategic UX: The Art of Reducing Friction. https://informationdesign.org/strategic-ux-the-art-of-reducing-friction/.",
+      "doi": ""
+    },
+    {
+      "text": "Harini Alagarai\u00a0Sampath, Bipin Indurkhya, Eunhwa Lee, and Yudong Bae. 2015. Towards multimodal affective feedback: Interaction between visual and haptic modalities. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 2043\u20132052.",
+      "doi": ""
+    },
+    {
+      "text": "Fraser Anderson, Tovi Grossman, Justin Matejka, and George Fitzmaurice. 2013. YouMove: enhancing movement training with an augmented reality mirror. In Proceedings of the 26th annual ACM symposium on User interface software and technology. 311\u2013320.",
+      "doi": "10.1145/2501988.2502045"
+    },
+    {
+      "text": "Narges Ashtari, Andrea Bunt, Joanna McGrenere, Michael Nebeling, and Parmit\u00a0K Chilana. 2020. Creating augmented and virtual reality applications: Current practices, challenges, and opportunities. In Proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376722"
+    },
+    {
+      "text": "Mark Billinghurst, Raphael Grasset, and Julian Looser. 2005. Designing augmented reality interfaces. ACM Siggraph Computer Graphics 39, 1 (2005), 17\u201322.",
+      "doi": "10.1145/1057792.1057803"
+    },
+    {
+      "text": "Andrew\u00a0Thomas Bimba, Norisma Idris, Ahmed Al-Hunaiyyan, Rohana\u00a0Binti Mahmud, and Nor Liyana Bt\u00a0Mohd Shuib. 2017. Adaptive feedback in computer-based learning environments: a review. Adaptive Behavior 25, 5 (2017), 217\u2013234.",
+      "doi": "10.1177/1059712317727590"
+    },
+    {
+      "text": "Jonas Blattgerste, Benjamin Strenge, Patrick Renner, Thies Pfeiffer, and Kai Essig. 2017. Comparing conventional and augmented reality instructions for manual assembly tasks. In Proceedings of the 10th international conference on pervasive technologies related to assistive environments. 75\u201382.",
+      "doi": "10.1145/3056540.3056547"
+    },
+    {
+      "text": "Yuanzhi Cao, Anna Fuste, and Valentin Heun. 2022. MobileTutAR: a Lightweight Augmented Reality Tutorial System using Spatially Situated Human Segmentation Videos. In CHI Conference on Human Factors in Computing Systems Extended Abstracts. 1\u20138.",
+      "doi": "10.1145/3491101.3519639"
+    },
+    {
+      "text": "Yuanzhi Cao, Xun Qian, Tianyi Wang, Rachel Lee, Ke Huo, and Karthik Ramani. 2020. An exploratory study of augmented reality presence for tutoring machine tasks. In Proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376688"
+    },
+    {
+      "text": "Xiang\u2019Anthony\u2019 Chen, Julia Schwarz, Chris Harrison, Jennifer Mankoff, and Scott\u00a0E Hudson. 2014. Air+ touch: interweaving touch & in-air gestures. In Proceedings of the 27th annual ACM symposium on User interface software and technology. 519\u2013525.",
+      "doi": "10.1145/2642918.2647392"
+    },
+    {
+      "text": "Yu-Peng Chen, Chen Bai, Adam Wolach, Mamoun Mardini, and Lisa Anthony. 2021. Detecting Face Touching with Dynamic Time Warping on Smartwatches: A Preliminary Study. In Companion Publication of the 2021 International Conference on Multimodal Interaction. 19\u201324.",
+      "doi": ""
+    },
+    {
+      "text": "Pei-Yu Chi, Sally Ahn, Amanda Ren, Mira Dontcheva, Wilmot Li, and Bj\u00f6rn Hartmann. 2012. MixT: automatic generation of step-by-step mixed media tutorials. In Proceedings of the 25th annual ACM symposium on User interface software and technology. 93\u2013102.",
+      "doi": "10.1145/2380116.2380130"
+    },
+    {
+      "text": "Pei-Yu Chi, Daniel Vogel, Mira Dontcheva, Wilmot Li, and Bj\u00f6rn Hartmann. 2016. Authoring illustrations of human movements by iterative physical demonstration. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology. 809\u2013820.",
+      "doi": "10.1145/2984511.2984559"
+    },
+    {
+      "text": "Subramanian Chidambaram, Hank Huang, Fengming He, Xun Qian, Ana\u00a0M Villanueva, Thomas\u00a0S Redick, Wolfgang Stuerzlinger, and Karthik Ramani. 2021. Processar: An augmented reality-based tool to create in-situ procedural 2d/3d ar instructions. In Designing Interactive Systems Conference 2021. 234\u2013249.",
+      "doi": "10.1145/3461778.3462126"
+    },
+    {
+      "text": "Anna\u00a0L Cox, Sandy\u00a0JJ Gould, Marta\u00a0E Cecchinato, Ioanna Iacovides, and Ian Renfree. 2016. Design frictions for mindful interactions: The case for microboundaries. In Proceedings of the 2016 CHI conference extended abstracts on human factors in computing systems. 1389\u20131397.",
+      "doi": "10.1145/2851581.2892410"
+    },
+    {
+      "text": "Daniel Eckhoff, Christian Sandor, Christian Lins, Ulrich Eck, Denis Kalkofen, and Andreas Hein. 2018. TutAR: augmented reality tutorials for hands-only procedures. In Proceedings of the 16th ACM SIGGRAPH International Conference on Virtual-Reality Continuum and its Applications in Industry. 1\u20133.",
+      "doi": "10.1145/3284398.3284399"
+    },
+    {
+      "text": "Jennifer Fernquist, Tovi Grossman, and George Fitzmaurice. 2011. Sketch-sketch revolution: an engaging tutorial system for guided sketching and application learning. In Proceedings of the 24th annual ACM symposium on User interface software and technology. 373\u2013382.",
+      "doi": "10.1145/2047196.2047245"
+    },
+    {
+      "text": "Mahak Gambhir and Vishal Gupta. 2017. Recent automatic text summarization techniques: a survey. Artificial Intelligence Review 47, 1 (2017), 1\u201366.",
+      "doi": "10.1007/s10462-016-9475-9"
+    },
+    {
+      "text": "Janet\u00a0K Gibbs, Marco Gillies, and Xueni Pan. 2022. A comparison of the effects of haptic and visual feedback on presence in virtual reality. International Journal of Human-Computer Studies 157 (2022), 102717.",
+      "doi": "10.1016/j.ijhcs.2021.102717"
+    },
+    {
+      "text": "Yizheng Gu, Chun Yu, Zhipeng Li, Weiqi Li, Shuchang Xu, Xiaoying Wei, and Yuanchun Shi. 2019. Accurate and low-latency sensing of touch contact on any surface with finger-worn IMU sensor. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology. 1059\u20131070.",
+      "doi": "10.1145/3332165.3347947"
+    },
+    {
+      "text": "Anhong Guo, Xiang\u2019Anthony\u2019 Chen, Haoran Qi, Samuel White, Suman Ghosh, Chieko Asakawa, and Jeffrey\u00a0P Bigham. 2016. Vizlens: A robust and interactive screen reader for interfaces in the real world. In Proceedings of the 29th annual symposium on user interface software and technology. 651\u2013664.",
+      "doi": "10.1145/2984511.2984518"
+    },
+    {
+      "text": "Anhong Guo, Jeeeun Kim, Xiang\u2019Anthony\u2019 Chen, Tom Yeh, Scott\u00a0E Hudson, Jennifer Mankoff, and Jeffrey\u00a0P Bigham. 2017. Facade: Auto-generating tactile interfaces to appliances. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 5826\u20135838.",
+      "doi": "10.1145/3025453.3025845"
+    },
+    {
+      "text": "Anhong Guo, Junhan Kong, Michael Rivera, Frank\u00a0F Xu, and Jeffrey\u00a0P Bigham. 2019. Statelens: A reverse engineering solution for making existing dynamic touchscreens accessible. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology. 371\u2013385.",
+      "doi": "10.1145/3332165.3347873"
+    },
+    {
+      "text": "Ankit Gupta, Dieter Fox, Brian Curless, and Michael Cohen. 2012. DuploTrack: a real-time system for authoring and guiding duplo block assembly. In Proceedings of the 25th annual ACM symposium on User interface software and technology. 389\u2013402.",
+      "doi": "10.1145/2380116.2380167"
+    },
+    {
+      "text": "Fernando Gutierrez and John Atkinson. 2011. Adaptive feedback selection for intelligent tutoring systems. Expert Systems with Applications 38, 5 (2011), 6146\u20136152.",
+      "doi": "10.1016/j.eswa.2010.11.058"
+    },
+    {
+      "text": "Teng Han, Khalad Hasan, Keisuke Nakamura, Randy Gomez, and Pourang Irani. 2017. Soundcraft: Enabling spatial interactions on smartwatches using hand generated acoustics. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology. 579\u2013591.",
+      "doi": "10.1145/3126594.3126612"
+    },
+    {
+      "text": "Jeremy Hartmann, Yen-Ting Yeh, and Daniel Vogel. 2020. AAR: Augmenting a wearable augmented reality display with an actuated head-mounted projector. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 445\u2013458.",
+      "doi": "10.1145/3379337.3415849"
+    },
+    {
+      "text": "Julie Heiser, Doantam Phan, Maneesh Agrawala, Barbara Tversky, and Pat Hanrahan. 2004. Identification and validation of cognitive design principles for automated generation of assembly instructions. In Proceedings of the working conference on Advanced Visual Interfaces. 311\u2013319.",
+      "doi": "10.1145/989863.989917"
+    },
+    {
+      "text": "Steven\u00a0J Henderson and Steven\u00a0K Feiner. 2011. Augmented reality in the psychomotor phase of a procedural task. In 2011 10th IEEE international symposium on mixed and augmented reality. IEEE, 191\u2013200.",
+      "doi": "10.1109/ISMAR.2011.6092386"
+    },
+    {
+      "text": "Bradley Herbert, Barrett Ens, Amali Weerasinghe, Mark Billinghurst, and Grant Wigley. 2018. Design considerations for combining augmented reality with intelligent tutors. Computers & Graphics 77(2018), 166\u2013182.",
+      "doi": ""
+    },
+    {
+      "text": "Ken Hinckley, Seongkook Heo, Michel Pahud, Christian Holz, Hrvoje Benko, Abigail Sellen, Richard Banks, Kenton O\u2019Hara, Gavin Smyth, and William Buxton. 2016. Pre-touch sensing for mobile interaction. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 2869\u20132881.",
+      "doi": "10.1145/2858036.2858095"
+    },
+    {
+      "text": "Clemens Hoffmann, Sebastian B\u00fcttner, Michael Prilla, and Kai Wundram. 2020. Impact of augmented reality guidance for car repairs on novice users of AR: a field experiment on familiar and unfamiliar tasks. In Proceedings of the Conference on Mensch und Computer. 279\u2013289.",
+      "doi": "10.1145/3404983.3405594"
+    },
+    {
+      "text": "Gaoping Huang, Xun Qian, Tianyi Wang, Fagun Patel, Maitreya Sreeram, Yuanzhi Cao, Karthik Ramani, and Alexander\u00a0J Quinn. 2021. Adaptutar: An adaptive tutoring system for machine tasks in augmented reality. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3411764.3445283"
+    },
+    {
+      "text": "M\u00a0Gail Jones, Alexandra Bokinsky, Thomas Tretter, and Atsuko Negishi. 2005. A comparison of learning with haptic and visual modalities.(2005).",
+      "doi": ""
+    },
+    {
+      "text": "Bui\u00a0Minh Khuong, Kiyoshi Kiyokawa, Andrew Miller, Joseph\u00a0J La\u00a0Viola, Tomohiro Mashita, and Haruo Takemura. 2014. The effectiveness of an AR-based context-aware assembly support system in object assembly. In 2014 IEEE Virtual Reality (VR). IEEE, 57\u201362.",
+      "doi": ""
+    },
+    {
+      "text": "Wolf Kienzle, Eric Whitmire, Chris Rittaler, and Hrvoje Benko. 2021. Electroring: Subtle pinch and touch detection with a ring. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3411764.3445094"
+    },
+    {
+      "text": "Gregory Koch, Richard Zemel, Ruslan Salakhutdinov, 2015. Siamese neural networks for one-shot image recognition. In ICML deep learning workshop, Vol.\u00a02. Lille, 0.",
+      "doi": ""
+    },
+    {
+      "text": "Junhan Kong, Dena Sabha, Jeffrey\u00a0P Bigham, Amy Pavel, and Anhong Guo. 2021. TutorialLens: authoring Interactive augmented reality tutorials through narration and demonstration. In Symposium on Spatial User Interaction. 1\u201311.",
+      "doi": "10.1145/3485279.3485289"
+    },
+    {
+      "text": "Suha Kwak, Woonhyun Nam, Bohyung Han, and Joon\u00a0Hee Han. 2011. Learning occlusion with likelihoods for visual tracking. In 2011 International Conference on Computer Vision. IEEE, 1551\u20131558.",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin Lafreniere, Tovi Grossman, and George Fitzmaurice. 2013. Community enhanced tutorials: improving tutorials with multiple demonstrations. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1779\u20131788.",
+      "doi": "10.1145/2470654.2466235"
+    },
+    {
+      "text": "Gun\u00a0A Lee, Claudia Nelles, Mark Billinghurst, and Gerard\u00a0Jounghyun Kim. 2004. Immersive authoring of tangible augmented reality applications. In Third IEEE and ACM International Symposium on Mixed and Augmented Reality. IEEE, 172\u2013181.",
+      "doi": "10.1109/ISMAR.2004.34"
+    },
+    {
+      "text": "Germ\u00e1n Leiva, Jens\u00a0Emil Gr\u00f8nb\u00e6k, Clemens\u00a0Nylandsted Klokmose, Cuong Nguyen, Rubaiat\u00a0Habib Kazi, and Paul Asente. 2021. Rapido: Prototyping Interactive AR Experiences through Programming by Demonstration. In The 34th Annual ACM Symposium on User Interface Software and Technology. 626\u2013637.",
+      "doi": "10.1145/3472749.3474774"
+    },
+    {
+      "text": "Jian Liao, Adnan Karim, Shivesh Jadon, Rubaiat\u00a0Habib Kazi, and Ryo Suzuki. 2022. RealityTalk: Real-Time Speech-Driven Augmented Presentation for AR Live Storytelling. arXiv preprint arXiv:2208.06350(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Shaofeng Lu, Ying Cheng, Xiaoyang Wang, Yang Du, and Eng\u00a0Gee Lim. 2017. Exploring the effectiveness of student-generated video tutorials in electronic lab-based teaching. In 2017 IEEE Frontiers in Education Conference (FIE). IEEE, 1\u20134.",
+      "doi": "10.1109/FIE.2017.8190710"
+    },
+    {
+      "text": "Peter Mohr, David Mandl, Markus Tatzgern, Eduardo Veas, Dieter Schmalstieg, and Denis Kalkofen. 2017. Retargeting video tutorials showing tools with surface contact to augmented reality. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 6547\u20136558.",
+      "doi": "10.1145/3025453.3025688"
+    },
+    {
+      "text": "Peter Mohr, Shohei Mori, Tobias Langlotz, Bruce\u00a0H Thomas, Dieter Schmalstieg, and Denis Kalkofen. 2020. Mixed reality light fields for interactive remote assistance. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3313831.3376289"
+    },
+    {
+      "text": "Michael Nebeling, Janet Nebeling, Ao Yu, and Rob Rumble. 2018. Protoar: Rapid physical-digital prototyping of mobile augmented reality applications. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3173574.3173927"
+    },
+    {
+      "text": "Ohan Oda, Carmine Elvezio, Mengu Sukan, Steven Feiner, and Barbara Tversky. 2015. Virtual replicas for remote assistance in virtual and augmented reality. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. 405\u2013415.",
+      "doi": "10.1145/2807442.2807497"
+    },
+    {
+      "text": "James Patten, Hiroshi Ishii, Jim Hines, and Gian Pangaro. 2001. Sensetable: a wireless object tracking platform for tangible user interfaces. In Proceedings of the SIGCHI conference on Human factors in computing systems. 253\u2013260.",
+      "doi": "10.1145/365024.365112"
+    },
+    {
+      "text": "Amy Pavel, Dan\u00a0B Goldman, Bj\u00f6rn Hartmann, and Maneesh Agrawala. 2016. VidCrit: video-based asynchronous video review. In Proceedings of the 29th annual symposium on user interface software and technology. 517\u2013528.",
+      "doi": "10.1145/2984511.2984552"
+    },
+    {
+      "text": "Thammathip Piumsomboon, Gun\u00a0A Lee, Jonathon\u00a0D Hart, Barrett Ens, Robert\u00a0W Lindeman, Bruce\u00a0H Thomas, and Mark Billinghurst. 2018. Mini-me: An adaptive avatar for mixed reality remote collaboration. In Proceedings of the 2018 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3173574.3173620"
+    },
+    {
+      "text": "Alexander Plopski, Varunyu Fuvattanasilp, Jarkko Poldi, Takafumi Taketomi, Christian Sandor, and Hirokazu Kato. 2018. Efficient in-situ creation of augmented reality tutorials. In 2018 Workshop on metrology for industry 4.0 and IoT. IEEE, 7\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Suporn Pongnumkul, Mira Dontcheva, Wilmot Li, Jue Wang, Lubomir Bourdev, Shai Avidan, and Michael\u00a0F Cohen. 2011. Pause-and-play: automatically linking screencast video tutorials with applications. In Proceedings of the 24th annual ACM symposium on User interface software and technology. 135\u2013144.",
+      "doi": "10.1145/2047196.2047213"
+    },
+    {
+      "text": "Arnaud Prouzeau, Yuchen Wang, Barrett Ens, Wesley Willett, and Tim Dwyer. 2020. Corsican twin: Authoring in situ augmented reality visualisations in virtual reality. In Proceedings of the International Conference on Advanced Visual Interfaces. 1\u20139.",
+      "doi": "10.1145/3399715.3399743"
+    },
+    {
+      "text": "Jing Qian, Jiaju Ma, Xiangyu Li, Benjamin Attal, Haoming Lai, James Tompkin, John\u00a0F Hughes, and Jeff Huang. 2019. Portal-ble: Intuitive free-hand manipulation in unbounded smartphone-based augmented reality. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology. 133\u2013145.",
+      "doi": "10.1145/3332165.3347904"
+    },
+    {
+      "text": "Xun Qian, Fengming He, Xiyun Hu, Tianyi Wang, and Karthik Ramani. 2022. ARnnotate: An Augmented Reality Interface for Collecting Custom Dataset of 3D Hand-Object Interaction Pose Estimation. In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology. 1\u201314.",
+      "doi": "10.1145/3526113.3545663"
+    },
+    {
+      "text": "Shwetha Rajaram and Michael Nebeling. 2022. Paper Trail: An Immersive Authoring System for Augmented Reality Instructional Experiences. In CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Raf Ramakers, Fraser Anderson, Tovi Grossman, and George Fitzmaurice. 2016. Retrofab: A design tool for retrofitting physical interfaces using actuators, sensors and 3d printing. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 409\u2013419.",
+      "doi": "10.1145/2858036.2858485"
+    },
+    {
+      "text": "Tobias Schneider, Sabiha Ghellal, Steve Love, and Ansgar\u00a0RS Gerlicher. 2021. Increasing the user experience in autonomous driving through different feedback modalities. In 26th International Conference on Intelligent User Interfaces. 7\u201310.",
+      "doi": "10.1145/3397481.3450687"
+    },
+    {
+      "text": "Eldon Schoop, Michelle Nguyen, Daniel Lim, Valkyrie Savage, Sean Follmer, and Bj\u00f6rn Hartmann. 2016. Drill Sergeant: Supporting physical construction projects through an ecosystem of augmented tools. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems. 1607\u20131614.",
+      "doi": "10.1145/2851581.2892429"
+    },
+    {
+      "text": "Roland Sigrist, Georg Rauter, Laura Marchal-Crespo, Robert Riener, and Peter Wolf. 2015. Sonification and haptic feedback in addition to visual feedback enhances complex motor task learning. Experimental brain research 233, 3 (2015), 909\u2013925.",
+      "doi": ""
+    },
+    {
+      "text": "Roland Sigrist, Georg Rauter, Robert Riener, and Peter Wolf. 2013. Augmented visual, auditory, haptic, and multimodal feedback in motor learning: a review. Psychonomic bulletin & review 20, 1 (2013), 21\u201353.",
+      "doi": ""
+    },
+    {
+      "text": "Ana Stanescu, Peter Mohr, Dieter Schmalstieg, and Denis Kalkofen. 2022. Model-Free Authoring By Demonstration of Assembly Instructions in Augmented Reality. IEEE Transactions on Visualization and Computer Graphics (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Ryo Suzuki, Hooman Hedayati, Clement Zheng, James\u00a0L Bohn, Daniel Szafir, Ellen Yi-Luen Do, Mark\u00a0D Gross, and Daniel Leithinger. 2020. Roomshift: Room-scale dynamic haptics for vr with furniture-moving swarm robots. In Proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201311.",
+      "doi": "10.1145/3313831.3376523"
+    },
+    {
+      "text": "Ryo Suzuki, Adnan Karim, Tian Xia, Hooman Hedayati, and Nicolai Marquardt. 2022. Augmented Reality and Robotics: A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces. In CHI Conference on Human Factors in Computing Systems. 1\u201333.",
+      "doi": ""
+    },
+    {
+      "text": "Ryo Suzuki, Rubaiat\u00a0Habib Kazi, Li-Yi Wei, Stephen DiVerdi, Wilmot Li, and Daniel Leithinger. 2020. Realitysketch: Embedding responsive graphics and visualizations in AR through dynamic sketching. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 166\u2013181.",
+      "doi": "10.1145/3379337.3415892"
+    },
+    {
+      "text": "Ryo Suzuki, Eyal Ofek, Mike Sinclair, Daniel Leithinger, and Mar Gonzalez-Franco. 2021. HapticBots: Distributed Encountered-type Haptics for VR with Multiple Shape-changing Mobile Robots. In The 34th Annual ACM Symposium on User Interface Software and Technology. 1269\u20131281.",
+      "doi": ""
+    },
+    {
+      "text": "Arthur Tang, Charles Owen, Frank Biocca, and Weimin Mou. 2003. Comparative effectiveness of augmented reality in object assembly. In Proceedings of the SIGCHI conference on Human factors in computing systems. 73\u201380.",
+      "doi": "10.1145/642611.642626"
+    },
+    {
+      "text": "Yujie Tao, Shan-Yuan Teng, and Pedro Lopes. 2021. Altering Perceived Softness of Real Rigid Objects by Restricting Fingerpad Deformation. In The 34th Annual ACM Symposium on User Interface Software and Technology. 985\u2013996.",
+      "doi": "10.1145/3472749.3474800"
+    },
+    {
+      "text": "Santawat Thanyadit, Parinya Punpongsanon, Thammathip Piumsomboon, and Ting-Chuen Pong. 2022. XR-LIVE: Enhancing Asynchronous Shared-Space Demonstrations with Spatial-temporal Assistive Toolsets for Effective Learning in Immersive Virtual Laboratories. Proceedings of the ACM on Human-Computer Interaction 6, CSCW1(2022), 1\u201323.",
+      "doi": "10.1145/3512983"
+    },
+    {
+      "text": "Michael Thees, Sebastian Kapp, Martin\u00a0P Strzys, Fabian Beil, Paul Lukowicz, and Jochen Kuhn. 2020. Effects of augmented reality on learning and cognitive load in university physics laboratory courses. Computers in Human Behavior 108 (2020), 106316.",
+      "doi": ""
+    },
+    {
+      "text": "Balasaravanan Thoravi\u00a0Kumaravel, Fraser Anderson, George Fitzmaurice, Bjoern Hartmann, and Tovi Grossman. 2019. Loki: Facilitating remote instruction of physical tasks using bi-directional mixed-reality telepresence. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology. 161\u2013174.",
+      "doi": "10.1145/3332165.3347872"
+    },
+    {
+      "text": "Balasaravanan Thoravi\u00a0Kumaravel, Cuong Nguyen, Stephen DiVerdi, and Bj\u00f6rn Hartmann. 2019. TutoriVR: A video-based tutorial system for design applications in virtual reality. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300514"
+    },
+    {
+      "text": "Carlos Torres and Pablo Figueroa. 2018. Learning how to play a guitar with the HoloLens: A case study. In 2018 XLIV Latin American Computer Conference (CLEI). IEEE, 606\u2013611.",
+      "doi": ""
+    },
+    {
+      "text": "Edward Tse, Chia Shen, Saul Greenberg, and Clifton Forlines. 2006. Enabling interaction with single user applications through speech and gestures on a multi-user tabletop. In Proceedings of the working conference on Advanced visual interfaces. 336\u2013343.",
+      "doi": "10.1145/1133265.1133336"
+    },
+    {
+      "text": "Ana Villanueva, Ziyi Liu, Yoshimasa Kitaguchi, Zhengzhe Zhu, Kylie Peppler, Thomas Redick, and Karthik Ramani. 2021. Towards modeling of human skilling for electrical circuitry using augmented reality applications. International Journal of Educational Technology in Higher Education 18, 1(2021), 1\u201323.",
+      "doi": ""
+    },
+    {
+      "text": "Ana Villanueva, Zhengzhe Zhu, Ziyi Liu, Kylie Peppler, Thomas Redick, and Karthik Ramani. 2020. Meta-AR-app: an authoring platform for collaborative augmented reality in STEM classrooms. In Proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376146"
+    },
+    {
+      "text": "Ana Villanueva, Zhengzhe Zhu, Ziyi Liu, Feiyang Wang, Subramanian Chidambaram, and Karthik Ramani. 2022. Colabar: A toolkit for remote collaboration in tangible augmented reality laboratories. Proceedings of the ACM on Human-Computer Interaction 6, CSCW1(2022), 1\u201322.",
+      "doi": "10.1145/3512928"
+    },
+    {
+      "text": "Ana\u00a0M Villanueva, Ziyi Liu, Zhengzhe Zhu, Xin Du, Joey Huang, Kylie\u00a0A Peppler, and Karthik Ramani. 2021. Robotar: An augmented reality compatible teleconsulting robotics toolkit for augmented makerspace experiences. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445726"
+    },
+    {
+      "text": "Nicolas Villar, Daniel Cletheroe, Greg Saul, Christian Holz, Tim Regan, Oscar Salandin, Misha Sra, Hui-Shyong Yeo, William Field, and Haiyan Zhang. 2018. Project zanzibar: A portable and flexible tangible interaction platform. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3173574.3174089"
+    },
+    {
+      "text": "Chiu-Hsuan Wang, Seraphina Yong, Hsin-Yu Chen, Yuan-Syun Ye, and Liwei Chan. 2020. HMD light: Sharing In-VR experience via head-mounted projector for asymmetric interaction. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 472\u2013486.",
+      "doi": "10.1145/3379337.3415847"
+    },
+    {
+      "text": "Tianyi Wang, Xun Qian, Fengming He, Xiyun Hu, Yuanzhi Cao, and Karthik Ramani. 2021. GesturAR: An Authoring System for Creating Freehand Interactive Augmented Reality Applications. In The 34th Annual ACM Symposium on User Interface Software and Technology. 552\u2013567.",
+      "doi": ""
+    },
+    {
+      "text": "Giles Westerfield, Antonija Mitrovic, and Mark Billinghurst. 2013. Intelligent augmented reality training for assembly tasks. In International conference on artificial intelligence in education. Springer, 542\u2013551.",
+      "doi": ""
+    },
+    {
+      "text": "Matt Whitlock, George Fitzmaurice, Tovi Grossman, and Justin Matejka. 2019. AuthAR: concurrent authoring of tutorials for AR assembly guidance. (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Jacob\u00a0O Wobbrock, Meredith\u00a0Ringel Morris, and Andrew\u00a0D Wilson. 2009. User-defined gestures for surface computing. In Proceedings of the SIGCHI conference on human factors in computing systems. 1083\u20131092.",
+      "doi": "10.1145/1518701.1518866"
+    },
+    {
+      "text": "Li-Chen Wu, I-Chen Lin, and Ming-Han Tsai. 2016. Augmented reality instruction for object assembly based on markerless tracking. In Proceedings of the 20th ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games. 95\u2013102.",
+      "doi": "10.1145/2856400.2856416"
+    },
+    {
+      "text": "Qin Wu, Jiayuan Wang, Sirui Wang, Tong Su, and Chenmei Yu. 2019. MagicPAPER: Tabletop interactive projection device based on tangible interaction. In ACM SIGGRAPH 2019 Posters. 1\u20132.",
+      "doi": "10.1145/3306214.3338575"
+    },
+    {
+      "text": "Masahiro Yamaguchi, Shohei Mori, Peter Mohr, Markus Tatzgern, Ana Stanescu, Hideo Saito, and Denis Kalkofen. 2020. Video-annotated augmented reality assembly tutorials. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 1010\u20131022.",
+      "doi": "10.1145/3379337.3415819"
+    },
+    {
+      "text": "Zuoyi Zhang, Huizhe Zheng, Sawyer Rempel, Kenny Hong, Teng Han, Yumiko Sakamoto, and Pourang Irani. 2020. A smart utensil for detecting food pick-up gesture and amount while eating. In Proceedings of the 11th Augmented Human International Conference. 1\u20138.",
+      "doi": "10.1145/3396339.3396361"
+    },
+    {
+      "text": "Fengyuan Zhu and Tovi Grossman. 2020. Bishare: Exploring bidirectional interactions between smartphones and head-mounted augmented reality. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376233"
+    },
+    {
+      "text": "Zhengzhe Zhu, Ziyi Liu, Tianyi Wang, Youyou Zhang, Xun Qian, Pashin\u00a0Farsak Raja, Ana Villanueva, and Karthik Ramani. 2022. MechARspace: An Authoring System Enabling Bidirectional Binding of Augmented Reality with Toys in Real-time. In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology. 1\u201316.",
+      "doi": "10.1145/3526113.3545668"
+    }
+  ]
+}

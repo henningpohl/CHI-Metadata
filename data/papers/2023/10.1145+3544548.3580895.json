@@ -1,0 +1,271 @@
+{
+  "doi": "10.1145/3544548.3580895",
+  "title": "Enabling Conversational Interaction with Mobile UI using Large Language Models",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Conversational agents show the promise to allow users to interact with mobile devices using language. However, to perform diverse UI tasks with natural language, developers typically need to create separate datasets and models for each specific task, which is expensive and effort-consuming. Recently, pre-trained large language models (LLMs) have been shown capable of generalizing to various downstream tasks when prompted with a handful of examples from the target task. This paper investigates the feasibility of enabling versatile conversational interactions with mobile UIs using a single LLM. We designed prompting techniques to adapt an LLM to mobile UIs. We experimented with four important modeling tasks that address various scenarios in conversational interaction. Our method achieved competitive performance on these challenging tasks without requiring dedicated datasets and training, offering a lightweight and generalizable approach to enable language-based mobile interaction.",
+  "authors": [
+    {
+      "name": "Bryan Wang",
+      "institution": "Department of Computer Science, University of Toronto, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659529079",
+      "orcid": "0000-0001-9016-038X"
+    },
+    {
+      "name": "Gang Li",
+      "institution": "Google Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701943",
+      "orcid": "0000-0002-9490-2990"
+    },
+    {
+      "name": "Yang Li",
+      "institution": "Google Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81350580013",
+      "orcid": "0000-0001-7808-5524"
+    }
+  ],
+  "references": [
+    {
+      "text": "Adept. 2022. ACT-1: Transformer for Actions. https://www.adept.ai/act",
+      "doi": ""
+    },
+    {
+      "text": "Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Chuyuan Fu, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, Daniel Ho, Jasmine Hsu, Julian Ibarz, Brian Ichter, Alex Irpan, Eric Jang, Rosario\u00a0Jauregui Ruano, Kyle Jeffrey, Sally Jesmonth, Nikhil\u00a0J Joshi, Ryan Julian, Dmitry Kalashnikov, Yuheng Kuang, Kuang-Huei Lee, Sergey Levine, Yao Lu, Linda Luu, Carolina Parada, Peter Pastor, Jornell Quiambao, Kanishka Rao, Jarek Rettinghouse, Diego Reyes, Pierre Sermanet, Nicolas Sievers, Clayton Tan, Alexander Toshev, Vincent Vanhoucke, Fei Xia, Ted Xiao, Peng Xu, Sichun Xu, Mengyuan Yan, and Andy Zeng. 2022. Do As I Can, Not As I Say: Grounding Language in Robotic Affordances. https://doi.org/10.48550/ARXIV.2204.01691",
+      "doi": ""
+    },
+    {
+      "text": "Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc, Antoine Miech, Iain Barr, Yana Hasson, Karel Lenc, Arthur Mensch, Katie Millican, Malcolm Reynolds, Roman Ring, Eliza Rutherford, Serkan Cabi, Tengda Han, Zhitao Gong, Sina Samangooei, Marianne Monteiro, Jacob Menick, Sebastian Borgeaud, Andrew Brock, Aida Nematzadeh, Sahand Sharifzadeh, Mikolaj Binkowski, Ricardo Barreira, Oriol Vinyals, Andrew Zisserman, and Karen Simonyan. 2022. Flamingo: a Visual Language Model for Few-Shot Learning. https://doi.org/10.48550/ARXIV.2204.14198",
+      "doi": ""
+    },
+    {
+      "text": "Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc, Antoine Miech, Iain Barr, Yana Hasson, Karel Lenc, Arthur Mensch, Katie Millican, Malcolm Reynolds, Roman Ring, Eliza Rutherford, Serkan Cabi, Tengda Han, Zhitao Gong, Sina Samangooei, Marianne Monteiro, Jacob Menick, Sebastian Borgeaud, Andrew Brock, Aida Nematzadeh, Sahand Sharifzadeh, Mikolaj Binkowski, Ricardo Barreira, Oriol Vinyals, Andrew Zisserman, and Karen Simonyan. 2022. Flamingo: a Visual Language Model for Few-Shot Learning. https://doi.org/10.48550/ARXIV.2204.14198",
+      "doi": ""
+    },
+    {
+      "text": "Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C\u00a0Lawrence Zitnick, and Devi Parikh. 2015. Vqa: Visual question answering. In Proceedings of the IEEE international conference on computer vision. 2425\u20132433.",
+      "doi": "10.1109/ICCV.2015.279"
+    },
+    {
+      "text": "Richard\u00a0A Bolt. 1980. \u201cPut-that-there\u201d Voice and gesture at the graphics interface. In Proceedings of the 7th annual conference on Computer graphics and interactive techniques. 262\u2013270.",
+      "doi": "10.1145/800250.807503"
+    },
+    {
+      "text": "Tom\u00a0B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel\u00a0M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language Models are Few-Shot Learners. arxiv:2005.14165\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Burns, Deniz Arsan, Sanjna Agrawal, Ranjitha Kumar, Kate Saenko, and Bryan\u00a0A. Plummer. 2022. A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility. https://doi.org/10.48550/ARXIV.2202.02312",
+      "doi": ""
+    },
+    {
+      "text": "Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra, Adam Roberts, Paul Barham, Hyung\u00a0Won Chung, Charles Sutton, Sebastian Gehrmann, 2022. Palm: Scaling language modeling with pathways. arXiv preprint arXiv:2204.02311(2022).",
+      "doi": ""
+    },
+    {
+      "text": "John Joon\u00a0Young Chung, Wooseok Kim, Kang\u00a0Min Yoo, Hwaran Lee, Eytan Adar, and Minsuk Chang. 2022. TaleBrush: Visual Sketching of Story Generation with Pretrained Language Models. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems(New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 172, 4\u00a0pages. https://doi.org/10.1145/3491101.3519873",
+      "doi": "10.1145/3491101.3519873"
+    },
+    {
+      "text": "Hai Dang, Lukas Mecke, Florian Lehmann, Sven Goller, and Daniel Buschek. 2022. How to Prompt? Opportunities and Challenges of Zero- and Few-Shot Learning for Human-AI Interaction in Creative Applications of Generative Models. https://doi.org/10.48550/ARXIV.2209.01390",
+      "doi": ""
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, Chad Franzen, Joshua Hibschman, Daniel Afergan, Yang Li, Jeffrey Nichols, and Ranjitha Kumar. 2017. Rico: A Mobile App Dataset for Building Data-Driven Design Applications. In Proceedings of the 30th Annual Symposium on User Interface Software and Technology(UIST \u201917).",
+      "doi": "10.1145/3126594.3126651"
+    },
+    {
+      "text": "Asbj\u00f8rn F\u00f8lstad and Petter\u00a0Bae Brandtz\u00e6g. 2017. Chatbots and the new world of HCI. interactions 24, 4 (2017), 38\u201342.",
+      "doi": ""
+    },
+    {
+      "text": "Tanya Goyal, Junyi\u00a0Jessy Li, and Greg Durrett. 2022. News Summarization and Evaluation in the Era of GPT-3. https://doi.org/10.48550/ARXIV.2209.12356",
+      "doi": ""
+    },
+    {
+      "text": "Song Han, Huizi Mao, and William\u00a0J. Dally. 2015. Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding. https://doi.org/10.48550/ARXIV.1510.00149",
+      "doi": ""
+    },
+    {
+      "text": "Geoffrey Hinton, Oriol Vinyals, and Jeff Dean. 2015. Distilling the Knowledge in a Neural Network. https://doi.org/10.48550/ARXIV.1503.02531",
+      "doi": ""
+    },
+    {
+      "text": "Eric Horvitz. 1999. Principles of mixed-initiative user interfaces. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems. 159\u2013166.",
+      "doi": "10.1145/302979.303030"
+    },
+    {
+      "text": "Yu-Chung Hsiao, Fedir Zubach, Maria Wang, and Chen Jindong. 2022. ScreenQA: Large-Scale Question-Answer Pairs over Mobile App Screenshots. https://doi.org/10.48550/ARXIV.2209.08199",
+      "doi": ""
+    },
+    {
+      "text": "Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Yejin Bang, Andrea Madotto, and Pascale Fung. 2022. Survey of Hallucination in Natural Language Generation. ACM Comput. Surv. (nov 2022). https://doi.org/10.1145/3571730 Just Accepted.",
+      "doi": "10.1145/3571730"
+    },
+    {
+      "text": "Ellen Jiang, Kristen Olson, Edwin Toh, Alejandra Molina, Aaron Donsbach, Michael Terry, and Carrie\u00a0J Cai. 2022. PromptMaker: Prompt-Based Prototyping with Large Language Models. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, Article 35, 8\u00a0pages. https://doi.org/10.1145/3491101.3503564",
+      "doi": "10.1145/3491101.3503564"
+    },
+    {
+      "text": "Ellen Jiang, Edwin Toh, Alejandra Molina, Kristen Olson, Claire Kayacik, Aaron Donsbach, Carrie\u00a0J Cai, and Michael Terry. 2022. Discovering the Syntax and Strategies of Natural Language Programming with Generative Language Models. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 386, 19\u00a0pages. https://doi.org/10.1145/3491102.3501870",
+      "doi": "10.1145/3491102.3501870"
+    },
+    {
+      "text": "Clare-Marie Karat, John Vergo, and David Nahamoo. 2002. Conversational interface technologies. In The human-computer interaction handbook: fundamentals, evolving technologies and emerging applications. 169\u2013186.",
+      "doi": ""
+    },
+    {
+      "text": "Tae\u00a0Soo Kim, DaEun Choi, Yoonseo Choi, and Juho Kim. 2022. Stylette: Styling the Web with Natural Language. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 5, 17\u00a0pages. https://doi.org/10.1145/3491102.3501931",
+      "doi": "10.1145/3491102.3501931"
+    },
+    {
+      "text": "Takeshi Kojima, Shixiang\u00a0Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke Iwasawa. 2022. Large Language Models are Zero-Shot Reasoners. https://doi.org/10.48550/ARXIV.2205.11916",
+      "doi": ""
+    },
+    {
+      "text": "Mina Lee, Percy Liang, and Qian Yang. 2022. CoAuthor: Designing a Human-AI Collaborative Writing Dataset for Exploring Language Model Capabilities. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 388, 19\u00a0pages. https://doi.org/10.1145/3491102.3502030",
+      "doi": "10.1145/3491102.3502030"
+    },
+    {
+      "text": "Yoonjoo Lee, John Joon\u00a0Young Chung, Tae\u00a0Soo Kim, Jean\u00a0Y Song, and Juho Kim. 2022. Promptiverse: Scalable Generation of Scaffolding Prompts Through Human-AI Hybrid Knowledge Graph Annotation. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 96, 18\u00a0pages. https://doi.org/10.1145/3491102.3502087",
+      "doi": "10.1145/3491102.3502087"
+    },
+    {
+      "text": "Yoonjoo Lee, Tae\u00a0Soo Kim, Minsuk Chang, and Juho Kim. 2022. Interactive Children\u2019s Story Rewriting Through Parent-Children Interaction. In Proceedings of the First Workshop on Intelligent and Interactive Writing Assistants (In2Writing 2022). 62\u201371.",
+      "doi": ""
+    },
+    {
+      "text": "Luis\u00a0A. Leiva, Asutosh Hota, and Antti Oulasvirta. 2022. Describing UI Screenshots in Natural Language. ACM Trans. Intell. Syst. Technol. 14, 1, Article 19 (nov 2022), 28\u00a0pages. https://doi.org/10.1145/3564702",
+      "doi": "10.1145/3564702"
+    },
+    {
+      "text": "Gang Li, Gilles Baechler, Manuel Tragut, and Yang Li. 2022. Learning to Denoise Raw Mobile UI Layouts for Improving Datasets at Scale. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 67, 13\u00a0pages. https://doi.org/10.1145/3491102.3502042",
+      "doi": "10.1145/3491102.3502042"
+    },
+    {
+      "text": "Tao Li, Gang Li, Jingjie Zheng, Purple Wang, and Yang Li. 2022. MUG: Interactive Multimodal Grounding on User Interfaces. https://doi.org/10.48550/ARXIV.2209.15099",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Amos Azaria, and Brad\u00a0A Myers. 2017. SUGILITE: creating multimodal smartphone automation by demonstration. In Proceedings of the 2017 CHI conference on human factors in computing systems. 6038\u20136049.",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Jingya Chen, Haijun Xia, Tom\u00a0M Mitchell, and Brad\u00a0A Myers. 2020. Multi-modal repairs of conversational breakdowns in task-oriented dialogs. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 1094\u20131107.",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Igor Labutov, Xiaohan\u00a0Nancy Li, Xiaoyi Zhang, Wenze Shi, Wanling Ding, Tom\u00a0M. Mitchell, and Brad\u00a0A. Myers. 2018. APPINITE: A Multi-Modal Interface for Specifying Data Descriptions in Programming by Demonstration Using Natural Language Instructions. In 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). 105\u2013114. https://doi.org/10.1109/VLHCC.2018.8506506",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Lindsay Popowski, Tom Mitchell, and Brad\u00a0A Myers. 2021. Screen2vec: Semantic embedding of gui screens and gui components. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Marissa Radensky, Justin Jia, Kirielle Singarajah, Tom\u00a0M. Mitchell, and Brad\u00a0A. Myers. 2019. PUMICE: A Multi-Modal Agent That Learns Concepts and Conditionals from Natural Language and Demonstrations. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 577\u2013589. https://doi.org/10.1145/3332165.3347899",
+      "doi": "10.1145/3332165.3347899"
+    },
+    {
+      "text": "Toby Jia-Jun Li and Oriana Riva. 2018. Kite: Building Conversational Bots from Mobile Apps. In Proceedings of the 16th Annual International Conference on Mobile Systems, Applications, and Services(Munich, Germany) (MobiSys \u201918). Association for Computing Machinery, New York, NY, USA, 96\u2013109. https://doi.org/10.1145/3210240.3210339",
+      "doi": "10.1145/3210240.3210339"
+    },
+    {
+      "text": "Yang Li, Jiacong He, Xin Zhou, Yuan Zhang, and Jason Baldridge. 2020. Mapping Natural Language Instructions to Mobile UI Action Sequences. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Online, 8198\u20138210. https://doi.org/10.18653/v1/2020.acl-main.729",
+      "doi": ""
+    },
+    {
+      "text": "Yang Li, Gang Li, Luheng He, Jingjie Zheng, Hong Li, and Zhiwei\u00a0(Wei) Guan. 2020. Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements. https://www.aclweb.org/anthology/2020.emnlp-main.443.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Yang Li, Gang Li, Xin Zhou, Mostafa Dehghani, and Alexey Gritsenko. 2021. VUT: Versatile UI Transformer for Multi-Modal Multi-Task User Interface Modeling. arXiv preprint arXiv:2112.05692(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Yang Li, Gang Li, Xin Zhou, Mostafa Dehghani, and Alexey Gritsenko. 2021. VUT: Versatile UI Transformer for Multi-Modal Multi-Task User Interface Modeling. https://doi.org/10.48550/ARXIV.2112.05692",
+      "doi": ""
+    },
+    {
+      "text": "Evan\u00a0Zheran Liu, Kelvin Guu, Panupong Pasupat, Tianlin Shi, and Percy Liang. 2018. Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration. arxiv:1802.08802\u00a0[cs.AI]",
+      "doi": ""
+    },
+    {
+      "text": "Yihe Liu, Anushk Mittal, Diyi Yang, and Amy Bruckman. 2022. Will AI Console Me When I Lose My Pet? Understanding Perceptions of AI-Mediated Email Writing. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 474, 13\u00a0pages. https://doi.org/10.1145/3491102.3517731",
+      "doi": "10.1145/3491102.3517731"
+    },
+    {
+      "text": "OpenAI. 2022. CHATGPT: Optimizing language models for dialogue. https://openai.com/blog/chatgpt/",
+      "doi": ""
+    },
+    {
+      "text": "Panupong Pasupat, Tian-Shun Jiang, Evan Liu, Kelvin Guu, and Percy Liang. 2018. Mapping natural language commands to web elements. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, Brussels, Belgium, 4970\u20134976. https://doi.org/10.18653/v1/D18-1540",
+      "doi": ""
+    },
+    {
+      "text": "Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang. 2016. Squad: 100,000+ questions for machine comprehension of text. arXiv preprint arXiv:1606.05250(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Laria Reynolds and Kyle McDonell. 2021. Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm. https://doi.org/10.48550/ARXIV.2102.07350",
+      "doi": ""
+    },
+    {
+      "text": "Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf. 2019. DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter. https://doi.org/10.48550/ARXIV.1910.01108",
+      "doi": ""
+    },
+    {
+      "text": "Zhanna Sarsenbayeva, Niels van Berkel, Chu Luo, Vassilis Kostakos, and Jorge Goncalves. 2017. Challenges of situational impairments during interaction with mobile devices. In Proceedings of the 29th Australian Conference on Computer-Human Interaction. 477\u2013481.",
+      "doi": "10.1145/3152771.3156161"
+    },
+    {
+      "text": "Kashyap Todi, Luis\u00a0A. Leiva, Daniel Buschek, Pin Tian, and Antti Oulasvirta. 2021. Conversations with GUIs. In Proceedings of the ACM SIGCHI Conference on Designing Interactive Systems(DIS \u201921\u2019). Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3461778.3462124",
+      "doi": "10.1145/3461778.3462124"
+    },
+    {
+      "text": "Bryan Wang, Gang Li, Xin Zhou, Zhourong Chen, Tovi Grossman, and Yang Li. 2021. Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning. In The 34th Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 498\u2013510. https://doi.org/10.1145/3472749.3474765",
+      "doi": "10.1145/3472749.3474765"
+    },
+    {
+      "text": "Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, and Denny Zhou. 2022. Rationale-Augmented Ensembles in Language Models. https://doi.org/10.48550/ARXIV.2207.00747",
+      "doi": ""
+    },
+    {
+      "text": "Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, 2022. Emergent abilities of large language models. arXiv preprint arXiv:2206.07682(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, and Denny Zhou. 2022. Chain of Thought Prompting Elicits Reasoning in Large Language Models. https://doi.org/10.48550/ARXIV.2201.11903",
+      "doi": ""
+    },
+    {
+      "text": "Jacob\u00a0O Wobbrock. 2019. Situationally aware mobile devices for overcoming situational impairments. In Proceedings of the ACM SIGCHI Symposium on Engineering Interactive Computing Systems. 1\u201318.",
+      "doi": "10.1145/3319499.3330292"
+    },
+    {
+      "text": "Jason Wu, Xiaoyi Zhang, Jeff Nichols, and Jeffrey\u00a0P Bigham. 2021. Screen Parsing: Towards Reverse Engineering of UI Models from Screenshots. In The 34th Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 470\u2013483. https://doi.org/10.1145/3472749.3474763",
+      "doi": "10.1145/3472749.3474763"
+    },
+    {
+      "text": "Tongshuang Wu, Michael Terry, and Carrie\u00a0Jun Cai. 2022. AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 385, 22\u00a0pages. https://doi.org/10.1145/3491102.3517582",
+      "doi": "10.1145/3491102.3517582"
+    },
+    {
+      "text": "Manzil Zaheer, Guru Guruganesh, Avinava Dubey, Joshua Ainslie, Chris Alberti, Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li Yang, and Amr Ahmed. 2020. Big Bird: Transformers for Longer Sequences. (2020). https://doi.org/10.48550/ARXIV.2007.14062",
+      "doi": ""
+    },
+    {
+      "text": "Xiaoyi Zhang, Lilian de Greef, Amanda Swearngin, Samuel White, Kyle Murray, Lisa Yu, Qi Shan, Jeffrey Nichols, Jason Wu, Chris Fleizach, Aaron Everitt, and Jeffrey\u00a0P Bigham. 2021. Screen Recognition: Creating Accessibility Metadata for Mobile Applications from Pixels. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 275, 15\u00a0pages. https://doi.org/10.1145/3411764.3445186",
+      "doi": "10.1145/3411764.3445186"
+    },
+    {
+      "text": "Denny Zhou, Nathanael Sch\u00e4rli, Le Hou, Jason Wei, Nathan Scales, Xuezhi Wang, Dale Schuurmans, Olivier Bousquet, Quoc Le, and Ed Chi. 2022. Least-to-Most Prompting Enables Complex Reasoning in Large Language Models. https://doi.org/10.48550/ARXIV.2205.10625",
+      "doi": ""
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "doi": "10.1145/3491102.3517715",
+  "title": "Tangible Globes for Data Visualisation in Augmented Reality",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Head-mounted augmented reality (AR) displays allow for the seamless integration of virtual visualisation with contextual tangible references, such as physical (tangible) globes. We explore the design of immersive geospatial data visualisation with AR and tangible globes. We investigate the \u201ctangible-virtual interplay\u201d of tangible globes with virtual data visualisation, and propose a conceptual approach for designing immersive geospatial globes. We demonstrate a set of use cases, such as augmenting a tangible globe with virtual overlays, using a physical globe as a tangible input device for interacting with virtual globes and maps, and linking an augmented globe to an abstract data visualisation. We gathered qualitative feedback from experts about our use case visualisations, and compiled a summary of key takeaways as well as ideas for envisioned future improvements. The proposed design space, example visualisations and lessons learned aim to guide the design of tangible globes for data visualisation in AR.",
+  "authors": [
+    {
+      "name": "Kadek Ananta Satriadi",
+      "institution": "Monash University, Australia and University of South Australia, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659644394",
+      "orcid": "0000-0002-2230-8677"
+    },
+    {
+      "name": "Jim Smiley",
+      "institution": "Monash University, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659909125",
+      "orcid": "0000-0003-3492-6453"
+    },
+    {
+      "name": "Barrett Ens",
+      "institution": "Monash University, Australia",
+      "img": "/do/10.1145/contrib-81488672423/rel-imgonly/hci_holiday_lunch_2013_5.jpg",
+      "acmid": "81488672423",
+      "orcid": "0000-0001-6695-4809"
+    },
+    {
+      "name": "Maxime Cordeil",
+      "institution": "Monash University, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81488668405",
+      "orcid": "0000-0002-9732-4874"
+    },
+    {
+      "name": "Tobias Czauderna",
+      "institution": "Monash University, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81470653029",
+      "orcid": "missing"
+    },
+    {
+      "name": "Benjamin Lee",
+      "institution": "Monash University, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659480874",
+      "orcid": "0000-0002-1171-4741"
+    },
+    {
+      "name": "Ying Yang",
+      "institution": "Monash University, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81375599061",
+      "orcid": "missing"
+    },
+    {
+      "name": "Tim Dwyer",
+      "institution": "Monash University, Australia",
+      "img": "/do/10.1145/contrib-81100013275/rel-imgonly/tim-dwyer-2016-small.jpg",
+      "acmid": "81100013275",
+      "orcid": "0000-0002-9076-9571"
+    },
+    {
+      "name": "Bernhard Jenny",
+      "institution": "Monash University, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81443597718",
+      "orcid": "0000-0001-6101-6100"
+    }
+  ],
+  "references": [
+    {
+      "text": "Benjamin Bach, Ronell Sicat, Johanna Beyer, Maxime Cordeil, and Hanspeter Pfister. 2017. The Hologram in My Hand: How Effective is Interactive Exploration of 3D Visualizations in Immersive Tangible Augmented Reality?IEEE Transactions on Visualization and Computer Graphics 24, 1(2017), 457\u2013467. https://doi.org/10.1109/TVCG.2017.2745941",
+      "doi": ""
+    },
+    {
+      "text": "Michel Beaudouin-Lafon. 2004. Designing Interaction, Not Interfaces. In Proceedings of the Working Conference on Advanced Visual Interfaces (Gallipoli, Italy) (AVI \u201904). ACM, New York, NY, USA, 15\u201322. https://doi.org/10.1145/989863.989865",
+      "doi": "10.1145/989863.989865"
+    },
+    {
+      "text": "Hrvoje Benko, Andrew\u00a0D Wilson, and Ravin Balakrishnan. 2008. Sphere: multi-touch interactions on a spherical display. In Proceedings of the 21st Annual ACM Symposium on User Interface Software and Technology. ACM, Monterey, CA, USA, 77\u201386. https://doi.org/10.1145/1449715.1449729",
+      "doi": "10.1145/1449715.1449729"
+    },
+    {
+      "text": "Mark Billinghurst, Raphael Grasset, and Julian Looser. 2005. Designing augmented reality interfaces. ACM SIGGRAPH Computer Graphics 39, 1 (2005), 17\u201322. https://doi.org/10.1145/1057792.1057803",
+      "doi": "10.1145/1057792.1057803"
+    },
+    {
+      "text": "Mark Billinghurst, Hirokazu Kato, Ivan Poupyrev, 2008. Tangible augmented reality. ACM SIGGRAPH Asia 7, 2 (2008), 1\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Mike Bostock. 2019. d3-geo. https://github.com/d3/d3-geo/blob/main/src/rotation.js",
+      "doi": ""
+    },
+    {
+      "text": "BPM Australia PTY Limited. 2021. Smart Globe Explorer AR. https://oregonshop.com.au/smart-globe-explorer-ar/",
+      "doi": ""
+    },
+    {
+      "text": "Wolfgang B\u00fcschel, Anke Lehmann, and Raimund Dachselt. 2021. MIRIA: A Mixed Reality Toolkit for the In-Situ Visualization and Analysis of Spatio-Temporal Interaction Data. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Yokohama, Japan, 1\u201315. https://doi.org/10.1145/3411764.3445651",
+      "doi": "10.1145/3411764.3445651"
+    },
+    {
+      "text": "Wolfgang B\u00fcschel, Annett Mitschick, Thomas Meyer, and Raimund Dachselt. 2019. Investigating smartphone-based pan and zoom in 3D data spaces in augmented reality. In Proceedings of the 21st International Conference on Human-Computer Interaction with Mobile Devices and Services. ACM, Taipei, Taiwan, 1\u201313.",
+      "doi": "10.1145/3338286.3340113"
+    },
+    {
+      "text": "Marcio Cabral, F Ferreira, Olavo Belloc, Gregor Miller, C Kurashima, R Lopes, Ian Stavness, J Anacleto, Sidney Fels, and M Zuffo. 2015. Portable-Spheree: A portable 3D perspective-corrected interactive spherical scalable display. In 2015 IEEE Virtual Reality (VR). IEEE, Arles, France, 157\u2013158. https://doi.org/10.1109/VR.2015.7223343",
+      "doi": ""
+    },
+    {
+      "text": "Stuart Card. 2012. Information Visualization. In The Human\u2013Computer Interaction Handbook. CRC Press, New York, USA, 515\u2013548.",
+      "doi": ""
+    },
+    {
+      "text": "Marco Cavallo, Mishal Dholakia, Matous Havlena, Kenneth Ocheltree, and Mark Podlaseck. 2019. Dataspace: A reconfigurable hybrid reality environment for collaborative information analysis. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, Osaka, Japan, 145\u2013153.",
+      "doi": ""
+    },
+    {
+      "text": "Tom Chandler, Maxime Cordeil, Tobias Czauderna, Tim Dwyer, Jaroslaw Glowacki, Cagatay Goncu, Matthias Klapperstueck, Karsten Klein, Kim Marriott, Falk Schreiber, 2015. Immersive Analytics. In 2015 Big Data Visual Analytics (BDVA). IEEE, Hobart, Tasmania, Australia, 1\u20138. https://doi.org/10.1109/BDVA.2015.7314296",
+      "doi": ""
+    },
+    {
+      "text": "Zhutian Chen, Wai Tong, Qianwen Wang, Benjamin Bach, and Huamin Qu. 2020. Augmenting static visualizations with PapARVis designer. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu, Hawaii, USA, 1\u201312. https://doi.org/10.1145/3313831.3376436",
+      "doi": "10.1145/3313831.3376436"
+    },
+    {
+      "text": "Se\u00e1n Clarke, Antonio Voce, Pablo Guti\u00e9rrez, and Frank Hulley-Jones. 2020. How coronavirus spread across the globe \u2013 visualised. https://www.theguardian.com/world/ng-interactive/2020/apr/09/how-coronavirus-spread-across-the-globe-visualised",
+      "doi": ""
+    },
+    {
+      "text": "Maxime Cordeil, Benjamin Bach, Andrew Cunningham, Bastian Montoya, Ross\u00a0T Smith, Bruce\u00a0H Thomas, and Tim Dwyer. 2020. Embodied Axes: Tangible, Actuated Interaction for 3D Augmented Reality Data Spaces. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu, Hawaii, USA, 1\u201312. https://doi.org/10.1145/3313831.3376613",
+      "doi": "10.1145/3313831.3376613"
+    },
+    {
+      "text": "Maxime Cordeil, Benjamin Bach, Yongchao Li, Elliott Wilson, and Tim Dwyer. 2017. A Design Space for Spatio-Data Coordination: Tangible Interaction Devices for Immersive Information Visualisation. In 2017 IEEE Pacific Visualization Symposium (PacificVis). IEEE, Seoul, South Korea, 46\u201350. https://doi.org/10.1109/PACIFICVIS.2017.8031578",
+      "doi": ""
+    },
+    {
+      "text": "Maxime Cordeil, Andrew Cunningham, Benjamin Bach, Christophe Hurter, Bruce\u00a0H Thomas, Kim Marriott, and Tim Dwyer. 2019. IATK: An Immersive Analytics Toolkit. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, Osaka, Japan, 200\u2013209. https://doi.org/10.1109/VR.2019.8797978",
+      "doi": ""
+    },
+    {
+      "text": "Maxime Cordeil, Andrew Cunningham, Tim Dwyer, Bruce\u00a0H Thomas, and Kim Marriott. 2017. ImAxes: Immersive Axes as Embodied Affordances for Interactive Multivariate Data Visualisation. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology. ACM, Qu\u00e9bec City, Canada, 71\u201383. https://doi.org/10.1145/3126594.3126613",
+      "doi": "10.1145/3126594.3126613"
+    },
+    {
+      "text": "Hessam Djavaherpour, Ali Mahdavi-Amiri, and Faramarz\u00a0F Samavati. 2017. Physical visualization of geospatial datasets. IEEE Computer Graphics and Applications 37, 3 (2017), 61\u201369. https://doi.org/10.1109/MCG.2017.38",
+      "doi": "10.1109/MCG.2017.38"
+    },
+    {
+      "text": "Paul Dourish. 2001. Where the action is. MIT press Cambridge, Massachusetts, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Adam Drogemuller, James Walsh, Ross\u00a0T Smith, Matt Adcock, and Bruce\u00a0H Thomas. 2021. Turning everyday objects into passive tangible controllers. In Proceedings of the Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction. ACM, Salzburg, Austria, 1\u20134.",
+      "doi": "10.1145/3430524.3442460"
+    },
+    {
+      "text": "Josh Dye, Craig Butt, Richard Lama, and Mark Stehle. 2020. Silent Skies. https://www.theage.com.au/interactive/2020/coronavirus/silent-skies/index.html",
+      "doi": ""
+    },
+    {
+      "text": "Michelle Enemark. 2021. Eartha. https://www.atlasobscura.com/places/eartha-delorme-headquarters",
+      "doi": ""
+    },
+    {
+      "text": "David Englmeier. 2019. Spherical Objects as an Opportunity to Investigate Physical Embodiment in Mixed Reality Environments. In Mensch und Computer 2019 - Workshopband. Gesellschaft f\u00fcr Informatik e.V., Hamburg, Germany, 110\u2013112. https://dx.doi.org/10.18420/muc2019-ws-454",
+      "doi": ""
+    },
+    {
+      "text": "David Englmeier. 2021. Spherical tangible user interfaces in mixed reality. Ph.D. Dissertation. Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen, Germany. https://doi.org/10.5282/edoc.28294",
+      "doi": ""
+    },
+    {
+      "text": "David Englmeier, Julia D\u00f6rner, Andreas Butz, and Tobias H\u00f6llerer. 2020. A tangible spherical proxy for object manipulation in augmented reality. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, Atlanta, USA, 221\u2013229. https://doi.org/10.1109/VR46266.2020.00041",
+      "doi": ""
+    },
+    {
+      "text": "David Englmeier, Fan Fan, and Andreas Butz. 2020. Rock or roll\u2013locomotion techniques with a handheld spherical device in virtual reality. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE, Porto de Galinhas, Brazil, 618\u2013626. https://doi.org/10.1109/ISMAR50242.2020.00089",
+      "doi": ""
+    },
+    {
+      "text": "David Englmeier, Joseph O\u2019Hagan, Mengyi Zhang, Florian Alt, Andreas Butz, Tobias H\u00f6llerer, and Julie Williamson. 2020. TangibleSphere\u2013Interaction Techniques for Physical and Virtual Spherical Displays. In Proceedings of the 11th Nordic Conference on Human-Computer Interaction: Shaping Experiences, Shaping Society. ACM, Tallinn, Estonia, 1\u201311. https://doi.org/10.1145/3419249.3420101",
+      "doi": "10.1145/3419249.3420101"
+    },
+    {
+      "text": "David Englmeier, Wanja Sajko, and Andreas Butz. 2021. Spherical World in Miniature: Exploring the Tiny Planets Metaphor for Discrete Locomotion in Virtual Reality. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR). IEEE, Lisboa, Portugal, 345\u2013352. https://doi.org/10.1109/VR50410.2021.00057",
+      "doi": ""
+    },
+    {
+      "text": "David Englmeier, Isabel Sch\u00f6newald, Andreas Butz, and Tobias H\u00f6llerer. 2019. Feel the globe: Enhancing the perception of immersive spherical visualizations with tangible proxies. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, Osaka, Japan, 1693\u20131698. https://doi.org/10.1109/VR.2019.8797869",
+      "doi": ""
+    },
+    {
+      "text": "David Englmeier, Isabel Sch\u00f6newald, Andreas Butz, and Tobias H\u00f6llerer. 2019. Sphere in hand: Exploring tangible interaction with immersive spherical visualizations. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, Osaka, Japan, 912\u2013913. https://doi.org/10.1109/VR.2019.8797887",
+      "doi": ""
+    },
+    {
+      "text": "Barrett Ens, Juan\u00a0David Hincapi\u00e9-Ramos, and Pourang Irani. 2014. Ethereal planes: a design framework for 2D information space in 3D mixed reality environments. In Proceedings of the 2nd ACM Symposium on Spatial User Interaction. ACM, New York, USA, 2\u201312. https://doi.org/10.1145/2659766.2659769",
+      "doi": "10.1145/2659766.2659769"
+    },
+    {
+      "text": "Barrett Ens and Pourang Irani. 2016. Spatial analytic interfaces: Spatial user interfaces for in situ visual analytics. IEEE Computer Graphics and Applications 37, 2 (2016), 66\u201379. https://doi.org/10.1109/MCG.2016.38",
+      "doi": "10.1109/MCG.2016.38"
+    },
+    {
+      "text": "Dan Evans. 2020. World Bank WDI 2.12 - Health Systems \u2013 World Development Indicators for 2016. https://www.kaggle.com/danevans/world-bank-wdi-212-health-systems",
+      "doi": ""
+    },
+    {
+      "text": "Dylan\u00a0Brodie Fafard, Qian Zhou, Chris Chamberlain, Georg Hagemann, Sidney Fels, and Ian Stavness. 2018. Design and implementation of a multi-person fish-tank virtual reality display. In Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology. ACM, New York, USA, 1\u20139. https://doi.org/10.1145/3281505.3281540",
+      "doi": "10.1145/3281505.3281540"
+    },
+    {
+      "text": "Steven Feiner, Blair MacIntyre, Marcus Haupt, and Eliot Solomon. 1993. Windows on the world: 2D windows for 3D augmented reality. In Proceedings of the 6th annual ACM Symposium on User Interface Software and Technology. ACM, New York, USA, 145\u2013155. https://doi.org/10.1145/168642.168657",
+      "doi": "10.1145/168642.168657"
+    },
+    {
+      "text": "Thomas Feix, Ian\u00a0M Bullock, and Aaron\u00a0M Dollar. 2014. Analysis of human grasping behavior: Object characteristics and grasp type. IEEE Transactions on Haptics 7, 3 (2014), 311\u2013323. https://doi.org/10.1109/TOH.2014.2326871",
+      "doi": ""
+    },
+    {
+      "text": "Kiran\u00a0J Fernandes, Vinesh Raja, and Julian Eyre. 2003. Cybersphere: the fully immersive spherical projection system. Commun. ACM 46, 9 (2003), 141\u2013146.",
+      "doi": "10.1145/903893.903929"
+    },
+    {
+      "text": "Fernando Ferreira, Marcio Cabral, Olavo Belloc, Gregor Miller, Celso Kurashima, Roseli de Deus\u00a0Lopes, Ian Stavness, Junia Anacleto, Marcelo Zuffo, and Sidney Fels. 2014. Spheree: a 3d perspective-corrected interactive spherical scalable display. In ACM SIGGRAPH 2014 Posters. ACM, Vancouver, Canada, 1\u20131. https://doi.org/10.1145/2614217.2630585",
+      "doi": "10.1145/2614217.2630585"
+    },
+    {
+      "text": "M\u00e1ty\u00e1s Gede. 2009, 2013. Virtual Globes Museum. http://terkeptar.elte.hu/vgm/?lang=en",
+      "doi": ""
+    },
+    {
+      "text": "GeoNames. 2021. GeoNames. http://www.geonames.org/",
+      "doi": ""
+    },
+    {
+      "text": "Zeinab Ghaemi, Ulrich Engelke, Barrett Ens, and Bernhard Jenny. 2022. Proxemic maps for immersive visualization. Cartography and Geographic Information Science 0, 0 (2022), 1\u201315. https://doi.org/10.1080/15230406.2021.2013946",
+      "doi": ""
+    },
+    {
+      "text": "Jer\u00f4nimo\u00a0Gustavo Grandi, Henrique\u00a0Galvan Debarba, Luciana Nedel, and Anderson Maciel. 2017. Design and evaluation of a handheld-based 3d user interface for collaborative object manipulation. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, Denver, Colorado, USA, 5881\u20135891.",
+      "doi": "10.1145/3025453.3025935"
+    },
+    {
+      "text": "Nicholas\u00a0R Hedley, Mark Billinghurst, Lori Postner, Richard May, and Hirokazu Kato. 2002. Explorations in the use of augmented reality for geographic visualization. Presence 11, 2 (2002), 119\u2013133. https://doi.org/10.1162/1054746021470577",
+      "doi": "10.1162/1054746021470577"
+    },
+    {
+      "text": "Jeffrey Heer and Michael Bostock. 2010. Crowdsourcing graphical perception: using mechanical turk to assess visualization design. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Atlanta, Georgia, USA, 203\u2013212. https://doi.org/10.1145/1753326.1753357",
+      "doi": "10.1145/1753326.1753357"
+    },
+    {
+      "text": "Henk Caspers/Naturalis Biodiversity Center. 2012. Museum Naturalis in Leiden. Exhibition Earth. Huge globe with Africa showing, overview. https://commons.wikimedia.org/w/index.php?title=File:Naturalis_Biodiversity_Center_-_Museum_-_Exhibition_Earth_08_-_Huge_globe_with_Africa_showing,_overview.jpg",
+      "doi": ""
+    },
+    {
+      "text": "Anuruddha Hettiarachchi and Daniel Wigdor. 2016. Annexing reality: Enabling opportunistic use of everyday objects as tangible proxies in augmented reality. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, San Jose, California, USA, 1957\u20131967.",
+      "doi": "10.1145/2858036.2858134"
+    },
+    {
+      "text": "Sebastian Hubenschmid, Johannes Zagermann, Simon Butscher, and Harald Reiterer. 2021. STREAM: Exploring the Combination of Spatially-Aware Tablets with Augmented Reality Head-Mounted Displays for Immersive Analytics. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Yokohama, Japan, 1\u201314. https://doi.org/10.1145/3411764.3445298",
+      "doi": "10.1145/3411764.3445298"
+    },
+    {
+      "text": "Lorenz Hurni\u00a0(ed.). 2017. Schweizer Weltatlas\u2013Atlas Mondial Suisse\u2013Atlante Mondiale Svizzera. EDK Schweizerische Konferenz der kantonalen Erziehungsdirektoren, Lehrmittelverlag Z\u00fcrich, Switzerland.",
+      "doi": ""
+    },
+    {
+      "text": "Bret Jackson, Tung\u00a0Yuen Lau, David Schroeder, Kimani\u00a0C Toussaint, and Daniel\u00a0F Keefe. 2013. A lightweight tangible 3D interface for interactive visualization of thin fiber structures. IEEE transactions on visualization and computer graphics 19, 12(2013), 2802\u20132809.",
+      "doi": "10.1109/TVCG.2013.121"
+    },
+    {
+      "text": "Mikkel\u00a0R Jakobsen, Yonas\u00a0Sahlemariam Haile, S\u00f8ren Knudsen, and Kasper Hornb\u00e6k. 2013. Information visualization and proxemics: Design opportunities and empirical findings. IEEE Transactions on Visualization and Computer Graphics 19, 12(2013), 2386\u20132395. https://doi.org/10.1109/TVCG.2013.166",
+      "doi": "10.1109/TVCG.2013.166"
+    },
+    {
+      "text": "Waqas Javed and Niklas Elmqvist. 2012. Exploring the design space of composite visualization. In 2012 IEEE Pacific Visualization Symposium. IEEE, Songdo, South Korea, 1\u20138. https://doi.org/10.1109/PacificVis.2012.6183556",
+      "doi": "10.1109/PacificVis.2012.6183556"
+    },
+    {
+      "text": "Lucinda Kerawalla, Rosemary Luckin, Simon Seljeflot, and Adrian Woolard. 2006. \u201cMaking it real\u201d: exploring the potential of augmented reality for teaching primary school science. Virtual Reality 10, 3-4 (2006), 163\u2013174. https://doi.org/10.1007/s10055-006-0036-4",
+      "doi": "10.5555/1183174.1183176"
+    },
+    {
+      "text": "Nurit Kirshenbaum, James Hutchison, Ryan Theriot, Dylan Kobayashi, and Jason Leigh. 2020. Data in Context: Engaging Audiences with 3D Physical Geo-Visualization. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu, Hawaii, USA, 1\u20139. https://doi.org/10.1145/3334480.3382968",
+      "doi": "10.1145/3334480.3382968"
+    },
+    {
+      "text": "Krzysztof\u00a0Jakub Kruszy\u0144ski and Robert van Liere. 2009. Tangible props for scientific visualization: concept, requirements, application. Virtual reality 13, 4 (2009), 235\u2013244.",
+      "doi": ""
+    },
+    {
+      "text": "Hideaki Kuzuoka, Naomi Yamashita, Hiroshi Kato, Hideyuki Suzuki, and Yoshihiko Kubota. 2014. Tangible earth: tangible learning environment for astronomy education. In Proceedings of the Second International Conference on Human-agent Interaction. ACM, Tsukuba, Japan, 23\u201327. https://doi.org/10.1145/2658861.2658870",
+      "doi": "10.1145/2658861.2658870"
+    },
+    {
+      "text": "Ricardo Langner, Marc Satkowski, Wolfgang B\u00fcschel, and Raimund Dachselt. 2021. MARVIS: Combining Mobile Devices and Augmented Reality for Visual Data Analysis. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Yokohama, Japan, 1\u201317. https://doi.org/10.1145/3411764.3445593",
+      "doi": "10.1145/3411764.3445593"
+    },
+    {
+      "text": "Gun\u00a0A Lee, Claudia Nelles, Mark Billinghurst, and Gerard\u00a0Jounghyun Kim. 2004. Immersive authoring of tangible augmented reality applications. In Third IEEE and ACM International Symposium on Mixed and Augmented Reality. IEEE, USA, 172\u2013181. https://doi.org/10.1109/ISMAR.2004.34",
+      "doi": "10.1109/ISMAR.2004.34"
+    },
+    {
+      "text": "Kangdon Lee. 2012. Augmented reality in education and training. TechTrends 56, 2 (2012), 13\u201321. https://doi.org/10.1007/s11528-012-0559-3",
+      "doi": ""
+    },
+    {
+      "text": "Zhengqing Li, Liwei Chan, Theophilus Teo, and Hideki Koike. 2020. OmniGlobeVR: A collaborative 360\u00b0 communication system for VR. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu, Hawaii, USA, 1\u20138.",
+      "doi": "10.1145/3334480.3382869"
+    },
+    {
+      "text": "Zhengqing Li, Shio Miyafuji, Erwin Wu, Hideaki Kuzuoka, Naomi Yamashita, and Hideki Koike. 2019. OmniGlobe: An Interactive I/O System For Symmetric 360-Degree Video Communication. In Proceedings of the 2019 on Designing Interactive Systems Conference. ACM, California, USA, 1427\u20131438. https://doi.org/10.1145/3322276.3322314",
+      "doi": "10.1145/3322276.3322314"
+    },
+    {
+      "text": "Jiazhou Liu, Arnaud Prouzeau, Barrett Ens, and Tim Dwyer. 2020. Design and evaluation of interactive small multiples data visualisation in immersive spaces. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, Atlanta, USA, 588\u2013597. https://doi.org/10.1109/VR46266.2020.00081",
+      "doi": ""
+    },
+    {
+      "text": "Julian Looser, Mark Billinghurst, and Andy Cockburn. 2004. Through the looking glass: the use of lenses as an interface tool for Augmented Reality interfaces. In Proceedings of the 2nd International Conference on Computer Graphics and Interactive Techniques in Australasia and South East Asia. ACM, Singapore, 204\u2013211. https://doi.org/10.1145/988834.988870",
+      "doi": "10.1145/988834.988870"
+    },
+    {
+      "text": "Julian Looser, Raphael Grasset, and Mark Billinghurst. 2007. A 3D flexible and tangible magic lens in augmented reality. In 2007 6th IEEE and ACM International Symposium on Mixed and Augmented Reality. IEEE, USA, 51\u201354. https://doi.org/10.1109/ISMAR.2007.4538825",
+      "doi": "10.1109/ISMAR.2007.4538825"
+    },
+    {
+      "text": "Thibault Louis and Francois Berard. 2017. Superiority of a handheld perspective-coupled display in isomorphic docking performances. In Proceedings of the 2017 ACM International Conference on Interactive Surfaces and Spaces. ACM, Brighton, UK, 72\u201381. https://doi.org/10.1145/3132272.3134124",
+      "doi": "10.1145/3132272.3134124"
+    },
+    {
+      "text": "Thibault Louis, Jocelyne Troccaz, Am\u00e9lie Rochet-Capellan, and Fran\u00e7ois B\u00e9rard. 2020. Gyrosuite: General-purpose interactions for handheld perspective corrected displays. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. ACM, Virtual Event, USA, 1248\u20131260. https://doi.org/10.1145/3379337.3415893",
+      "doi": "10.1145/3379337.3415893"
+    },
+    {
+      "text": "Marlon L\u00fcckert. 2020. CovidAR - Data Visualization in Augmented Reality. https://devpost.com/software/covidar-data-visualization-in-augmented-reality",
+      "doi": ""
+    },
+    {
+      "text": "Tahir Mahmood, Erik Butler, Nicholas Davis, Jian Huang, and Aidong Lu. 2018. Building multiple coordinated spaces for effective immersive analytics through distributed cognition. In 2018 International Symposium on Big Data Visual and Immersive Analytics (BDVA). IEEE, Konstanz, Germany, 1\u201311. https://doi.org/10.1109/BDVA.2018.8533893",
+      "doi": ""
+    },
+    {
+      "text": "Kim Marriott, Falk Schreiber, Tim Dwyer, Karsten Klein, Nathalie\u00a0Henry Riche, Takayuki Itoh, Wolfgang Stuerzlinger, and Bruce\u00a0H Thomas. 2018. Immersive Analytics. Vol.\u00a011190. Springer, Berlin, Germany.",
+      "doi": ""
+    },
+    {
+      "text": "Hovhannes Mayilyan. 2019. Augmented reality in education, ar globe project assessment in actual teaching-learning environment. International Journal of Learning, Teaching and Educational Research 18, 3(2019), 1\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Hovhannes Mayilyan. 2019. Implementation of Augmented Reality Globe in Teaching-Learning Environment. In 2019 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR). IEEE, California, USA, 389\u2013390. https://doi.org/10.1109/MIPR.2019.00078",
+      "doi": ""
+    },
+    {
+      "text": "Microsoft. 2015. Globe Map. https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380799",
+      "doi": ""
+    },
+    {
+      "text": "MobilizAR Technologies Pvt Ltd. 2021. Orboot Earth \u2013 Interactive AR Globe. https://www.playshifu.com/orboot/earth",
+      "doi": ""
+    },
+    {
+      "text": "Yusuke Morita and Norio Setozaki. 2017. Learning by tangible learning system in science class. In International Conference on Human-Computer Interaction. Springer, Vancouver, Canada, 341\u2013352. https://doi.org/10.1007/978-3-319-58077-7_27",
+      "doi": ""
+    },
+    {
+      "text": "Tamara Munzner. 2014. Visualization analysis and design. CRC press, Florida, USA.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0R Napier. 1956. The prehensile movements of the human hand. The Journal of Bone and Joint Surgery. British volume 38, 4(1956), 902\u2013913. https://doi.org/10.1007/978-1-4471-5451-8_85",
+      "doi": ""
+    },
+    {
+      "text": "NASA GISS. 2021. G.Projector \u2014 Map Projections. https://www.giss.nasa.gov/tools/gprojector/",
+      "doi": ""
+    },
+    {
+      "text": "Natural Earth. 2018. Populated Places. https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-populated-places/",
+      "doi": ""
+    },
+    {
+      "text": "Rhys Newbury, Kadek\u00a0Ananta Satriadi, Jesse Bolton, Jiazhou Liu, Maxime Cordeil, Arnaud Prouzeau, and Bernhard Jenny. 2021. Embodied gesture interaction for immersive maps. Cartography and Geographic Information Science 48, 5 (2021), 417\u2013431. https://doi.org/10.1080/15230406.2021.1929492",
+      "doi": ""
+    },
+    {
+      "text": "Raluca Nicola. 2018. World population count. https://ralucanicola.github.io/JSAPI_demos/world-population/",
+      "doi": ""
+    },
+    {
+      "text": "Raluca Nicola. 2021. Major earthquakes in 2019. https://ralucanicola.github.io/earthquakes-viz/",
+      "doi": ""
+    },
+    {
+      "text": "Arnaud Prouzeau, Antoine Lhuillier, Barrett Ens, Daniel Weiskopf, and Tim Dwyer. 2019. Visual Link Routing in Immersive Visualisations. In Proceedings of the 2019 ACM International Conference on Interactive Surfaces and Spaces. ACM, Daejeon Republic of Korea, 241\u2013253. https://doi.org/10.1145/3343055.3359709",
+      "doi": "10.1145/3343055.3359709"
+    },
+    {
+      "text": "Patrick Reipschlager, Tamara Flemisch, and Raimund Dachselt. 2020. Personal Augmented Reality for Information Visualization on Large Interactive Displays. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 1182\u20131192. https://doi.org/10.1109/TVCG.2020.3030460",
+      "doi": ""
+    },
+    {
+      "text": "Hannah Ritchie, Esteban Ortiz-Ospina, Diana Beltekian, Edouard Mathieu, Joe Hasell, Bobbie Macdonald, Charlie Giattino, Cameron Appel, Lucas Rod\u00e9s-Guirao, and Max Roser. 2020. Our World in Data \u2013 Coronavirus Pandemic (COVID-19). https://ourworldindata.org/coronavirus",
+      "doi": ""
+    },
+    {
+      "text": "KADEK\u00a0ANANTA SATRIADI. 2021. Towards immersive geovisualisation: Investigating representation, workspace, and user interaction for multiscale visual exploration of geospatial data. Ph.D. Dissertation. Monash University.",
+      "doi": ""
+    },
+    {
+      "text": "Kadek\u00a0Ananta Satriadi, Barrett Ens, Maxime Cordeil, Tobias Czauderna, and Bernhard Jenny. 2020. Maps Around Me: 3D Multiview Layouts in Immersive Spaces. Proc. ACM Hum.-Comput. Interact. 4, ISS, Article 201 (Nov. 2020), 20\u00a0pages. https://doi.org/10.1145/3427329",
+      "doi": "10.1145/3427329"
+    },
+    {
+      "text": "Kadek\u00a0Ananta Satriadi, Barrett Ens, Maxime Cordeil, Bernhard Jenny, Tobias Czauderna, and Wesley Willett. 2019. Augmented Reality Map Navigation with Freehand Gestures. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, Osaka, Japan, 593\u2013603. https://doi.org/10.1109/VR.2019.8798340",
+      "doi": ""
+    },
+    {
+      "text": "Kadek\u00a0Ananta Satriadi, Barrett Ens, Tobias Czauderna, Maxime Cordeil, and Bernhard Jenny. 2021. Quantitative Data Visualisation on Virtual Globes. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Yokohama, Japan, 1\u201314. https://doi.org/10.1145/3411764.3445152",
+      "doi": "10.1145/3411764.3445152"
+    },
+    {
+      "text": "Ronell Sicat, Jiabao Li, JunYoung Choi, Maxime Cordeil, Won-Ki Jeong, Benjamin Bach, and Hanspeter Pfister. 2018. DXR: A Toolkit for Building Immersive Data Visualizations. IEEE Transactions on Visualization and Computer Graphics 25, 1(2018), 715\u2013725. https://doi.org/10.1109/TVCG.2018.2865152",
+      "doi": "10.1109/TVCG.2018.2865152"
+    },
+    {
+      "text": "Jim Smiley, Benjamin Lee, Siddhant Tandon, Maxime Cordeil, Lonni Besan\u00e7on, Jarrod Knibbe, Bernhard Jenny, and Tim Dwyer. 2021. The MADE-Axis: A Modular Actuated Device to Embody the Axis of a Data Dimension. Proceedings of the ACM on Human-Computer Interaction 5, ISS(2021), 1\u201323.",
+      "doi": "10.1145/3488546"
+    },
+    {
+      "text": "John\u00a0Parr Snyder. 1987. Map projections\u2013A working manual. Vol.\u00a01395. US Government Printing Office, USA. https://doi.org/10.3133/pp1395",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0P Snyder. 1997. Flattening the earth: two thousand years of map projections. University of Chicago Press, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Nikita Soni, Sayli Bapat, Schuyler Gleaves, Alice Darrow, Carrie Schuman, Hannah Neff, Peter Chang, Kathryn\u00a0A Stofer, and Lisa Anthony. 2019. Towards Understanding Interactions with Multi-Touch Spherical Displays. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, Honlulu, Hawaii, USA, 1\u20136. https://doi.org/10.1145/3290607.3313063",
+      "doi": ""
+    },
+    {
+      "text": "Nikita Soni, Schuyler Gleaves, Hannah Neff, Sarah Morrison-Smith, Shaghayegh Esmaeili, Ian Mayne, Sayli Bapat, Carrie Schuman, Kathryn\u00a0A Stofer, and Lisa Anthony. 2020. Adults\u2019 and Children\u2019s Mental Models for Gestural Interactions with Interactive Spherical Displays. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Yokohama, Japan, 1\u201312. https://doi.org/10.1145/3313831.3376468",
+      "doi": "10.1145/3313831.3376468"
+    },
+    {
+      "text": "Seung\u00a0Youb Ssin, James\u00a0A Walsh, Ross\u00a0T Smith, Andrew Cunningham, and Bruce\u00a0H Thomas. 2019. Geogate: Correlating geo-temporal datasets using an augmented reality space-time cube and tangible interactions. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, Osaka, Japan, 210\u2013219. https://doi.org/10.1109/VR.2019.8797812",
+      "doi": ""
+    },
+    {
+      "text": "Edward\u00a0Luther Stevenson. 1921. Terrestrial and celestial globes: Their history and construction, including a consideration of their value as aids in the study of geography and astronomy. https://www.gutenberg.org/files/39866/39866-h/39866-h.htm",
+      "doi": ""
+    },
+    {
+      "text": "Daan Strebe. 2002. The design of globe gores. Cartographic Perspectives Spring, 42 (2002), 46\u201354. https://doi.org/10.14714/CP42.555",
+      "doi": ""
+    },
+    {
+      "text": "Ryan Theriot, James Hutchison, Nurit Kirshenbaum, and Jason Leigh. 2020. Tailoring Data Visualization to Diversely Informed End Users. In Practice and Experience in Advanced Research Computing. ACM, Portland, USA, 304\u2013310. https://doi.org/10.1145/3311790.3396630",
+      "doi": ""
+    },
+    {
+      "text": "Brygg Ullmer and Hiroshi Ishii. 2000. Emerging frameworks for tangible user interfaces. IBM Systems Journal 39, 3-4 (2000), 915\u2013931. https://doi.org/10.1147/sj.393.0915",
+      "doi": "10.1147/sj.393.0915"
+    },
+    {
+      "text": "Brygg Ullmer, Hiroshi Ishii, and Robert\u00a0JK Jacob. 2003. Tangible Query Interfaces: Physically Constrained Tokens for Manipulating Database Queries. In Human-Computer Interaction INTERACT \u201903, Vol.\u00a03. IOS Press, Zurich, Switzerland, 279\u2013286.",
+      "doi": ""
+    },
+    {
+      "text": "USGS Earthquake Hazards Program. 2021. Earthquake. https://earthquake.usgs.gov/",
+      "doi": ""
+    },
+    {
+      "text": "Karla Vega, Eric Wernert, Patrick Beard, C Gniady, David Reagan, M Boyles, and Chris Eller. 2014. Visualization on spherical displays: challenges and opportunities. In Proceedings of the IEEE VIS Arts Program (VISAP). IEEE, Paris, France, 108\u2013116.",
+      "doi": ""
+    },
+    {
+      "text": "Xiyao Wang, Lonni Besan\u00e7on, David Rousseau, Mickael Sereno, Mehdi Ammi, and Tobias Isenberg. 2020. Towards an understanding of augmented reality extensions for existing 3D data analysis tools. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu, Hawaii, USA, 1\u201313. https://doi.org/10.1145/3313831.3376657",
+      "doi": "10.1145/3313831.3376657"
+    },
+    {
+      "text": "Wikipedia contributors. 2021. Globe. https://en.wikipedia.org/wiki/Globe",
+      "doi": ""
+    },
+    {
+      "text": "Julie\u00a0R Williamson, Daniel Sund\u00e9n, and Jay Bradley. 2015. GlobalFestival: evaluating real world interaction on a spherical display. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing. ACM, Osaka, Japan, 1251\u20131261. https://doi.org/10.1145/2750858.2807518",
+      "doi": "10.1145/2750858.2807518"
+    },
+    {
+      "text": "World Bank. 2021. Global Bilateral Migration. https://databank.worldbank.org/source/global-bilateral-migration",
+      "doi": ""
+    },
+    {
+      "text": "Jun Yamashita, Hideaki Kuzuoka, Chiaki Fujimon, and Michitaka Hirose. 2007. Tangible avatar and tangible earth: a novel interface for astronomy education. In CHI\u201907 extended abstracts on Human Factors in Computing Systems. ACM, California, USA, 2777\u20132782. https://doi.org/10.1145/1240866.1241078",
+      "doi": ""
+    },
+    {
+      "text": "Yalong Yang, Tim Dwyer, Bernhard Jenny, Kim Marriott, Maxime Cordeil, and Haohui Chen. 2018. Origin-destination flow maps in immersive environments. IEEE Transactions on Visualization and Computer Graphics 25, 1(2018), 693\u2013703. https://doi.org/10.1109/TVCG.2018.2865192",
+      "doi": "10.1109/TVCG.2018.2865192"
+    },
+    {
+      "text": "Yalong Yang, Bernhard Jenny, Tim Dwyer, Kim Marriott, Haohui Chen, and Maxime Cordeil. 2018. Maps and globes in virtual reality. Computer Graphics Forum 37, 3 (2018), 427\u2013438. https://doi.org/10.1111/cgf.13431",
+      "doi": "10.1111/cgf.13431arXiv%3Ahttps%3A"
+    },
+    {
+      "text": "Ben Yip, Shea Goyette, and Chris Madden. 2005. Visualising Internet traffic data with three-dimensional spherical display. In Proceedings of the 2005 Asia-Pacific Symposium on Information Visualisation. Australian Computer Society, Sydney, Australia, 153\u2013158.",
+      "doi": "10.5555/1082315.1082337"
+    },
+    {
+      "text": "YoungZone Culture Shanghai Co Ltd. 2021. AR Globe. http://www.neobear.com/en/product/ar_globe",
+      "doi": ""
+    },
+    {
+      "text": "Feng Zhou, Henry Been-Lirn Duh, and Mark Billinghurst. 2008. Trends in augmented reality tracking, interaction and display: A review of ten years of ISMAR. In 2008 7th IEEE/ACM International Symposium on Mixed and Augmented Reality. IEEE, Cambridge, UK, 193\u2013202. https://doi.org/10.1109/ISMAR.2008.4637362",
+      "doi": "10.1109/ISMAR.2008.4637362"
+    },
+    {
+      "text": "Fengyuan Zhu and Tovi Grossman. 2020. Bishare: Exploring bidirectional interactions between smartphones and head-mounted augmented reality. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu, Hawaii, USA, 1\u201314. https://doi.org/10.1145/3313831.3376233",
+      "doi": "10.1145/3313831.3376233"
+    }
+  ]
+}

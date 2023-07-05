@@ -1,0 +1,535 @@
+{
+  "doi": "10.1145/3491102.3501968",
+  "title": "Crystalline: Lowering the Cost for Developers to Collect and Organize Information for Decision Making",
+  "published": "2022-04-28",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Developers perform online sensemaking on a daily basis, such as researching and choosing libraries and APIs. Prior research has introduced tools that help developers capture information from various sources and organize it into structures useful for subsequent decision-making. However, it remains a laborious process for developers to manually identify and clip content, maintaining its provenance and synthesizing it with other content. In this work, we introduce a new system called Crystalline that automatically collects and organizes information into tabular structures as the user searches and browses the web. It leverages natural language processing to automatically group similar criteria together to reduce clutter, and uses passive behavioral signals such as mouse movement and dwell time to infer what information to collect and how to visualize and prioritize it. Our user study suggests that developers are able to create comparison tables about 20% faster with a 60% reduction in operational cost without sacrificing the quality of the tables.",
+  "authors": [
+    {
+      "name": "Michael Xieyang Liu",
+      "institution": "Human-Computer Interaction Institute, Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659349336",
+      "orcid": "0000-0002-8246-8736"
+    },
+    {
+      "name": "Aniket Kittur",
+      "institution": "Human Computer Interaction Institute, Carnegie Mellon University, United States",
+      "img": "/do/10.1145/contrib-81350583094/rel-imgonly/kittur_photo.jpg",
+      "acmid": "81350583094",
+      "orcid": "missing"
+    },
+    {
+      "name": "Brad A. Myers",
+      "institution": "Human-Computer Interaction Institute, Carnegie Mellon University, United States",
+      "img": "/do/10.1145/contrib-81100013136/rel-imgonly/brad-myers-120x120.jpg",
+      "acmid": "81100013136",
+      "orcid": "0000-0002-4769-0219"
+    }
+  ],
+  "references": [
+    {
+      "text": "2012. Google Notebook. https://www.google.com/googlenotebook/faq.html",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul\u00a0N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, and Eric Horvitz. 2019. Guidelines for Human-AI Interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). ACM, New York, NY, USA, 3:1\u20133:13. https://doi.org/10.1145/3290605.3300233 event-place: Glasgow, Scotland Uk.",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Michelle Q.\u00a0Wang Baldonado and Terry Winograd. 1997. SenseMaker: An Information-exploration Interface Supporting the Contextual Evolution of a User\u2019s Interests. In Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems(CHI \u201997). ACM, New York, NY, USA, 11\u201318. https://doi.org/10.1145/258549.258563",
+      "doi": "10.1145/258549.258563"
+    },
+    {
+      "text": "David Bawden, Clive Holtham, and Nigel Courtney. 1999. Perspectives on information overload. Aslib Proceedings 51, 8 (Jan. 1999), 249\u2013255. https://doi.org/10.1108/EUM0000000006984 Publisher: MCB UP Ltd.",
+      "doi": ""
+    },
+    {
+      "text": "Krishna Bharat. 2000. SearchPad: explicit capture of search context to support Web search. Computer Networks 33, 1 (June 2000), 493\u2013501. https://doi.org/10.1016/S1389-1286(00)00047-5",
+      "doi": "10.1016/S1389-1286%2800%2900047-5"
+    },
+    {
+      "text": "Eric\u00a0A. Bier, Edward\u00a0W. Ishak, and Ed Chi. 2006. Entity quick click: rapid text copying based on automatic entity extraction. In CHI \u201906 Extended Abstracts on Human Factors in Computing Systems(CHI EA \u201906). Association for Computing Machinery, New York, NY, USA, 562\u2013567. https://doi.org/10.1145/1125451.1125570",
+      "doi": "10.1145/1125451.1125570"
+    },
+    {
+      "text": "Jeffrey\u00a0P. Bigham, Mingzhe Li, Samuel\u00a0C. White, Xiaoyi Zhang, Qi Shan, and Carlos\u00a0E. GUESTRIN. 2021. On-the-fly calibration for improved on-device eye tracking. https://patents.google.com/patent/US11106280B1/en",
+      "doi": ""
+    },
+    {
+      "text": "Joel Brandt, Mira Dontcheva, Marcos Weskamp, and Scott\u00a0R. Klemmer. 2010. Example-centric Programming: Integrating Web Search into the Development Environment. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201910). ACM, New York, NY, USA, 513\u2013522. https://doi.org/10.1145/1753326.1753402",
+      "doi": "10.1145/1753326.1753402"
+    },
+    {
+      "text": "Joel Brandt, Philip\u00a0J. Guo, Joel Lewenstein, Mira Dontcheva, and Scott\u00a0R. Klemmer. 2009. Two Studies of Opportunistic Programming: Interleaving Web Foraging, Learning, and Writing Code. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201909). ACM, New York, NY, USA, 1589\u20131598. https://doi.org/10.1145/1518701.1518944 event-place: Boston, MA, USA.",
+      "doi": "10.1145/1518701.1518944"
+    },
+    {
+      "text": "Georg Buscher, Edward Cutrell, and Meredith\u00a0Ringel Morris. 2009. What do you see when you\u2019re surfing? using eye tracking to predict salient regions of web pages. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 21\u201330. https://doi.org/10.1145/1518701.1518705",
+      "doi": ""
+    },
+    {
+      "text": "Georg Buscher, Andreas Dengel, and Ludger van Elst. 2008. Eye movements as implicit relevance feedback. In CHI \u201908 Extended Abstracts on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 2991\u20132996. https://doi.org/10.1145/1358628.1358796",
+      "doi": ""
+    },
+    {
+      "text": "Georg Buscher, Ludger van Elst, and Andreas Dengel. 2009. Segment-level display time as implicit feedback: a comparison to eye tracking. In Proceedings of the 32nd international ACM SIGIR conference on Research and development in information retrieval(SIGIR \u201909). Association for Computing Machinery, New York, NY, USA, 67\u201374. https://doi.org/10.1145/1571941.1571955",
+      "doi": "10.1145/1571941.1571955"
+    },
+    {
+      "text": "Daniel Cer, Yinfei Yang, Sheng-yi Kong, Nan Hua, Nicole Limtiaco, Rhomni\u00a0St John, Noah Constant, Mario Guajardo-Cespedes, Steve Yuan, Chris Tar, Yun-Hsuan Sung, Brian Strope, and Ray Kurzweil. 2018. Universal Sentence Encoder. arXiv:1803.11175 [cs] (April 2018). http://arxiv.org/abs/1803.11175 arXiv:1803.11175.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph\u00a0Chee Chang, Nathan Hahn, and Aniket Kittur. 2016. Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology(UIST \u201916). ACM, New York, NY, USA, 61\u201368. https://doi.org/10.1145/2984511.2984538",
+      "doi": "10.1145/2984511.2984538"
+    },
+    {
+      "text": "Joseph\u00a0Chee Chang, Nathan Hahn, and Aniket Kittur. 2020. Mesh: Scaffolding Comparison Tables for Online Decision Making. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology(UIST \u201920). Association for Computing Machinery, New York, NY, USA, 391\u2013405. https://doi.org/10.1145/3379337.3415865",
+      "doi": "10.1145/3379337.3415865"
+    },
+    {
+      "text": "Joseph\u00a0Chee Chang, Yongsung Kim, Victor Miller, Michael\u00a0Xieyang Liu, Brad\u00a0A Myers, and Aniket Kittur. 2021. Tabs.do: Task-Centric Browser Tab Management. In The 34th Annual ACM Symposium on User Interface Software and Technology. Association for Computing Machinery, New York, NY, USA, 663\u2013676. https://doi.org/10.1145/3472749.3474777",
+      "doi": "10.1145/3472749.3474777"
+    },
+    {
+      "text": "Yu-Wei Chao, Yunfan Liu, Xieyang Liu, Huayi Zeng, and Jia Deng. 2018. Learning to Detect Human-Object Interactions. In 2018 IEEE Winter Conference on Applications of Computer Vision (WACV). 381\u2013389. https://doi.org/10.1109/WACV.2018.00048",
+      "doi": ""
+    },
+    {
+      "text": "Mon\u00a0Chu Chen, John\u00a0R. Anderson, and Myeong\u00a0Ho Sohn. 2001. What can a mouse cursor tell us more? correlation of eye/mouse movements on web browsing. In CHI \u201901 Extended Abstracts on Human Factors in Computing Systems(CHI EA \u201901). Association for Computing Machinery, New York, NY, USA, 281\u2013282. https://doi.org/10.1145/634067.634234",
+      "doi": ""
+    },
+    {
+      "text": "Yan Chen, Jaylin Herskovitz, Walter\u00a0S. Lasecki, and Steve Oney. 2020. Bashon: A Hybrid Crowd-Machine Workflow for Shell Command Synthesis. In 2020 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). 1\u20138. https://doi.org/10.1109/VL/HCC50065.2020.9127248 ISSN: 1943-6106.",
+      "doi": ""
+    },
+    {
+      "text": "Yan Chen, Maulishree Pandey, Jean\u00a0Y. Song, Walter\u00a0S. Lasecki, and Steve Oney. 2020. Improving Crowd-Supported GUI Testing with Structural Guidance. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems(CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376835",
+      "doi": "10.1145/3313831.3376835"
+    },
+    {
+      "text": "Alex Chitu. 2011. Google Sets Will Be Shut Down. http://googlesystem.blogspot.com/2011/08/google-sets-will-be-shut-down.html",
+      "doi": ""
+    },
+    {
+      "text": "Mark Claypool, Phong Le, Makoto Wased, and David Brown. 2001. Implicit interest indicators. In Proceedings of the 6th international conference on Intelligent user interfaces(IUI \u201901). Association for Computing Machinery, New York, NY, USA, 33\u201340. https://doi.org/10.1145/359784.359836",
+      "doi": "10.1145/359784.359836"
+    },
+    {
+      "text": "A. Cockburn and J. Highsmith. 2001. Agile software development, the people factor. Computer 34, 11 (Nov. 2001), 131\u2013133. https://doi.org/10.1109/2.963450 Conference Name: Computer.",
+      "doi": "10.1109/2.963450"
+    },
+    {
+      "text": "National\u00a0Research Council and others. 2000. How people learn: Brain, mind, experience, and school: Expanded edition. National Academies Press.",
+      "doi": ""
+    },
+    {
+      "text": "Sergio Cozzetti\u00a0B. de Souza, Nicolas Anquetil, and K\u00e1thia\u00a0M. de Oliveira. 2005. A study of the documentation essential to software maintenance. In Proceedings of the 23rd annual international conference on Design of communication: documenting & designing for pervasive information(SIGDOC \u201905). Association for Computing Machinery, New York, NY, USA, 68\u201375. https://doi.org/10.1145/1085313.1085331",
+      "doi": "10.1145/1085313.1085331"
+    },
+    {
+      "text": "R. DeLine, M. Czerwinski, and G. Robertson. 2005. Easing Program Comprehension by Sharing Navigation Data. In IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC\u201905). IEEE, 241\u2013248. https://doi.org/10.1109/VLHCC.2005.32",
+      "doi": "10.1109/VLHCC.2005.32"
+    },
+    {
+      "text": "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. 2009. ImageNet: A large-scale hierarchical image database. In 2009 IEEE Conference on Computer Vision and Pattern Recognition. 248\u2013255. https://doi.org/10.1109/CVPR.2009.5206848 ISSN: 1063-6919.",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805 [cs] (May 2019). http://arxiv.org/abs/1810.04805 arXiv:1810.04805.",
+      "doi": ""
+    },
+    {
+      "text": "Mira Dontcheva, Steven\u00a0M. Drucker, Geraldine Wade, David Salesin, and Michael\u00a0F. Cohen. 2006. Summarizing Personal Web Browsing Sessions. In Proceedings of the 19th Annual ACM Symposium on User Interface Software and Technology(UIST \u201906). ACM, New York, NY, USA, 115\u2013124. https://doi.org/10.1145/1166253.1166273",
+      "doi": "10.1145/1166253.1166273"
+    },
+    {
+      "text": "Tore Dyb\u00e5 and Torgeir Dings\u00f8yr. 2008. Empirical studies of agile software development: A systematic review. Information and Software Technology 50, 9 (Aug. 2008), 833\u2013859. https://doi.org/10.1016/j.infsof.2008.01.006",
+      "doi": "10.1016/j.infsof.2008.01.006"
+    },
+    {
+      "text": "Dora Dzvonyar, Stephan Krusche, Rana Alkadhi, and Bernd Bruegge. 2016. Context-Aware User Feedback in Continuous Software Evolution. In 2016 IEEE/ACM International Workshop on Continuous Software Evolution and Delivery (CSED). 12\u201318. https://doi.org/10.1109/CSED.2016.011",
+      "doi": ""
+    },
+    {
+      "text": "Neil\u00a0A. Ernst, Stephany Bellomo, Ipek Ozkaya, Robert\u00a0L. Nord, and Ian Gorton. 2015. Measure it? Manage it? Ignore it? software practitioners and technical debt. In Proceedings of the 2015 10th Joint Meeting on Foundations of Software Engineering(ESEC/FSE 2015). Association for Computing Machinery, New York, NY, USA, 50\u201360. https://doi.org/10.1145/2786805.2786848",
+      "doi": "10.1145/2786805.2786848"
+    },
+    {
+      "text": "Evernote. [n. d.]. Best Note Taking App - Organize Your Notes with Evernote. https://evernote.com",
+      "doi": ""
+    },
+    {
+      "text": "Facebook. 2018. React - A JavaScript library for building user interfaces. https://reactjs.org/",
+      "doi": ""
+    },
+    {
+      "text": "Mingming Fan, Zhen Li, and Franklin\u00a0Mingzhe Li. 2020. Eyelid Gestures on Mobile Devices for People with Motor Impairments. In The 22nd International ACM SIGACCESS Conference on Computers and Accessibility(ASSETS \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3373625.3416987",
+      "doi": "10.1145/3373625.3416987"
+    },
+    {
+      "text": "Mingming Fan, Zhen Li, and Franklin\u00a0Mingzhe Li. 2021. Eyelid gestures for people with motor impairments. Commun. ACM 65, 1 (Dec. 2021), 108\u2013115. https://doi.org/10.1145/3498367",
+      "doi": "10.1145/3498367"
+    },
+    {
+      "text": "Kristie Fisher, Scott Counts, and Aniket Kittur. 2012. Distributed Sensemaking: Improving Sensemaking by Leveraging the Efforts of Previous Users. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201912). ACM, New York, NY, USA, 247\u2013256. https://doi.org/10.1145/2207676.2207711",
+      "doi": "10.1145/2207676.2207711"
+    },
+    {
+      "text": "Beat Fluri, Michael Wursch, Emanuel Giger, and Harald\u00a0C Gall. 2009. Analyzing the co-evolution of comments and source code. Software Quality Journal 17, 4 (Dec. 2009), 367\u2013394.",
+      "doi": "10.1007/s11219-009-9075-x"
+    },
+    {
+      "text": "Andrew Forward and Timothy\u00a0C. Lethbridge. 2002. The relevance of software documentation, tools and technologies: a survey. In Proceedings of the 2002 ACM symposium on Document engineering(DocEng \u201902). Association for Computing Machinery, New York, NY, USA, 26\u201333. https://doi.org/10.1145/585058.585065",
+      "doi": "10.1145/585058.585065"
+    },
+    {
+      "text": "David Foster. 2020. The Google \u2018vs\u2019 Trick. https://medium.com/applied-data-science/the-google-vs-trick-618c8fd5359f",
+      "doi": ""
+    },
+    {
+      "text": "Martin Fowler. 2018. Refactoring: improving the design of existing code. Addison-Wesley Professional.",
+      "doi": "10.5555/311424"
+    },
+    {
+      "text": "Andreas Gizas, Sotiris Christodoulou, and Theodore Papatheodorou. 2012. Comparative Evaluation of Javascript Frameworks. In Proceedings of the 21st International Conference on World Wide Web(WWW \u201912 Companion). ACM, New York, NY, USA, 513\u2013514. https://doi.org/10.1145/2187980.2188103",
+      "doi": "10.1145/2187980.2188103"
+    },
+    {
+      "text": "Yoav Goldberg and Omer Levy. 2014. word2vec Explained: deriving Mikolov et al.\u2019s negative-sampling word-embedding method. arXiv:1402.3722 [cs, stat] (Feb. 2014). http://arxiv.org/abs/1402.3722 arXiv:1402.3722.",
+      "doi": ""
+    },
+    {
+      "text": "Google. [n. d.]. Angular - Angular Routing. https://angular.io/guide/routing-overview",
+      "doi": ""
+    },
+    {
+      "text": "Google. [n. d.]. Angular - Introduction to Angular animations. https://angular.io/guide/animations",
+      "doi": ""
+    },
+    {
+      "text": "Google. [n. d.]. Angular - Validating form input. https://angular.io/guide/form-validation",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2019. Angular - One Framework. Mobile & Desktop.https://angular.io/",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2021. Cloud Natural Language. https://cloud.google.com/natural-language",
+      "doi": ""
+    },
+    {
+      "text": "Katja Grace, John Salvatier, Allan Dafoe, Baobao Zhang, and Owain Evans. 2018. Viewpoint: When Will AI Exceed Human Performance? Evidence from AI Experts. Journal of Artificial Intelligence Research 62 (July 2018), 729\u2013754. https://doi.org/10.1613/jair.1.11222",
+      "doi": "10.1613/jair.1.11222"
+    },
+    {
+      "text": "Qi Guo and Eugene Agichtein. 2008. Exploring mouse movements for inferring query intent. In Proceedings of the 31st annual international ACM SIGIR conference on Research and development in information retrieval(SIGIR \u201908). Association for Computing Machinery, New York, NY, USA, 707\u2013708. https://doi.org/10.1145/1390334.1390462",
+      "doi": "10.1145/1390334.1390462"
+    },
+    {
+      "text": "Qi Guo and Eugene Agichtein. 2010. Ready to buy or just browsing? detecting web searcher goals from interaction data. In Proceedings of the 33rd international ACM SIGIR conference on Research and development in information retrieval(SIGIR \u201910). Association for Computing Machinery, New York, NY, USA, 130\u2013137. https://doi.org/10.1145/1835449.1835473",
+      "doi": ""
+    },
+    {
+      "text": "Qi Guo and Eugene Agichtein. 2010. Towards predicting web searcher gaze position from mouse movements. In CHI \u201910 Extended Abstracts on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 3601\u20133606. https://doi.org/10.1145/1753846.1754025",
+      "doi": ""
+    },
+    {
+      "text": "Nathan Hahn, Joseph\u00a0Chee Chang, and Aniket Kittur. 2018. Bento Browser: Complex Mobile Search Without Tabs. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems(CHI \u201918). ACM, Montreal QC, Canada, 251:1\u2013251:12. https://doi.org/10.1145/3173574.3173825",
+      "doi": "10.1145/3173574.3173825"
+    },
+    {
+      "text": "Bj\u00f6rn Hartmann, Mark Dhillon, and Matthew\u00a0K. Chan. 2011. HyperSource: Bridging the Gap Between Source and Code-related Web Sites. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201911). ACM, New York, NY, USA, 2207\u20132210. https://doi.org/10.1145/1978942.1979263 event-place: Vancouver, BC, Canada.",
+      "doi": "10.1145/1978942.1979263"
+    },
+    {
+      "text": "Andrew Head, Elena\u00a0L. Glassman, Bj\u00f6rn Hartmann, and Marti\u00a0A. Hearst. 2018. Interactive Extraction of Examples from Existing Code. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173659",
+      "doi": "10.1145/3173574.3173659"
+    },
+    {
+      "text": "Tom-Michael Hesse and Barbara Paech. 2013. Supporting the collaborative development of requirements and architecture documentation. In 2013 3rd International Workshop on the Twin Peaks of Requirements and Architecture (TwinPeaks). 22\u201326. https://doi.org/10.1109/TwinPeaks-2.2013.6617355",
+      "doi": ""
+    },
+    {
+      "text": "Yoshinori Hijikata. 2004. Implicit user profiling for on demand relevance feedback. In Proceedings of the 9th international conference on Intelligent user interfaces(IUI \u201904). Association for Computing Machinery, New York, NY, USA, 198\u2013205. https://doi.org/10.1145/964442.964480",
+      "doi": "10.1145/964442.964480"
+    },
+    {
+      "text": "Ken Hinckley, Xiaojun Bi, Michel Pahud, and Bill Buxton. 2012. Informal Information Gathering Techniques for Active Reading. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201912). ACM, New York, NY, USA, 1893\u20131896. https://doi.org/10.1145/2207676.2208327 event-place: Austin, Texas, USA.",
+      "doi": "10.1145/2207676.2208327"
+    },
+    {
+      "text": "Raphael Hoffmann, James Fogarty, and Daniel\u00a0S. Weld. 2007. Assieme: Finding and Leveraging Implicit References in a Web Search Interface for Programmers. In Proceedings of the 20th Annual ACM Symposium on User Interface Software and Technology(UIST \u201907). ACM, New York, NY, USA, 13\u201322. https://doi.org/10.1145/1294211.1294216 event-place: Newport, Rhode Island, USA.",
+      "doi": "10.1145/1294211.1294216"
+    },
+    {
+      "text": "Andrew Hogue and David Karger. 2005. Thresher: automating the unwrapping of semantic content from the World Wide Web. In Proceedings of the 14th international conference on World Wide Web(WWW \u201905). Association for Computing Machinery, New York, NY, USA, 86\u201395. https://doi.org/10.1145/1060745.1060762",
+      "doi": "10.1145/1060745.1060762"
+    },
+    {
+      "text": "Amber Horvath, Michael\u00a0Xieyang Liu, River Hendriksen, Connor Shannon, Emma Paterson, Kazi Jawad, Andrew Macvean, and Brad Myers. 2021. Understanding How Programmers Can Use Annotations on Documentation. arXiv:2111.08684 [cs] (Nov. 2021). http://arxiv.org/abs/2111.08684 arXiv:2111.08684.",
+      "doi": ""
+    },
+    {
+      "text": "Eric Horvitz. 1999. Principles of mixed-initiative user interfaces. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems(CHI \u201999). Association for Computing Machinery, New York, NY, USA, 159\u2013166. https://doi.org/10.1145/302979.303030",
+      "doi": "10.1145/302979.303030"
+    },
+    {
+      "text": "Jane Hsieh, Michael\u00a0Xieyang Liu, Brad\u00a0A. Myers, and Aniket Kittur. 2018. An Exploratory Study of Web Foraging to Understand and Support Programming Decisions. In 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). 305\u2013306. https://doi.org/10.1109/VLHCC.2018.8506517 ISSN: 1943-6092.",
+      "doi": ""
+    },
+    {
+      "text": "Jeff Huang, Thomas Lin, and Ryen\u00a0W. White. 2012. No search result left behind: branching behavior with browser tabs. In Proceedings of the fifth ACM international conference on Web search and data mining - WSDM \u201912. ACM Press, Seattle, Washington, USA, 203. https://doi.org/10.1145/2124295.2124322",
+      "doi": "10.1145/2124295.2124322"
+    },
+    {
+      "text": "Jeff Huang, Ryen\u00a0W. White, Georg Buscher, and Kuansan Wang. 2012. Improving searcher models using mouse cursor activity. In Proceedings of the 35th international ACM SIGIR conference on Research and development in information retrieval(SIGIR \u201912). Association for Computing Machinery, New York, NY, USA, 195\u2013204. https://doi.org/10.1145/2348283.2348313",
+      "doi": "10.1145/2348283.2348313"
+    },
+    {
+      "text": "Zachary Ives, Craig Knoblock, Steve Minton, Marie Jacob, Partha Talukdar, Rattapoom Tuchinda, Jose\u00a0Luis Ambite, Maria Muslea, and Cenk Gazen. 2009. Interactive Data Integration through Smart Copy & Paste. arXiv:0909.1769 [cs] (Sept. 2009). http://arxiv.org/abs/0909.1769 arXiv:0909.1769.",
+      "doi": ""
+    },
+    {
+      "text": "Harish Kandala, B.\u00a0K. Tripathy, and K. Manoj\u00a0Kumar. 2018. A Framework to Collect and Visualize User\u2019s Browser History for Better User Experience and Personalized Recommendations. In Information and Communication Technology for Intelligent Systems (ICTIS 2017) - Volume 1(Smart Innovation, Systems and Technologies), Suresh\u00a0Chandra Satapathy and Amit Joshi (Eds.). Springer International Publishing, Cham, 218\u2013224. https://doi.org/10.1007/978-3-319-63673-3_26",
+      "doi": ""
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Amber Horvath, and Brad Myers. 2017. Variolite: Supporting Exploratory Programming by Data Scientists. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). ACM, New York, NY, USA, 1265\u20131276. https://doi.org/10.1145/3025453.3025626",
+      "doi": "10.1145/3025453.3025626"
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Marissa Radensky, Mahima Arya, Bonnie\u00a0E. John, and Brad\u00a0A. Myers. 2018. The Story in the Notebook: Exploratory Data Science using a Literate Programming Tool. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems(CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3173574.3173748",
+      "doi": "10.1145/3173574.3173748"
+    },
+    {
+      "text": "Mohammad Kianpisheh, Franklin\u00a0Mingzhe Li, and Khai\u00a0N. Truong. 2019. Face Recognition Assistant for People with Visual Impairments. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 3 (Sept. 2019), 90:1\u201390:24. https://doi.org/10.1145/3351248",
+      "doi": "10.1145/3351248"
+    },
+    {
+      "text": "Aniket Kittur, Andrew\u00a0M. Peters, Abdigani Diriye, and Michael Bove. 2014. Standing on the Schemas of Giants: Socially Augmented Information Foraging. In Proceedings of the 17th ACM Conference on Computer Supported Cooperative Work & Social Computing(CSCW \u201914). ACM, New York, NY, USA, 999\u20131010. https://doi.org/10.1145/2531602.2531644",
+      "doi": "10.1145/2531602.2531644"
+    },
+    {
+      "text": "Aniket Kittur, Andrew\u00a0M. Peters, Abdigani Diriye, Trupti Telang, and Michael\u00a0R. Bove. 2013. Costs and Benefits of Structured Information Foraging. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201913). ACM, New York, NY, USA, 2989\u20132998. https://doi.org/10.1145/2470654.2481415",
+      "doi": "10.1145/2470654.2481415"
+    },
+    {
+      "text": "Amy\u00a0J. Ko, Brad\u00a0A. Myers, and Htet\u00a0Htet Aung. 2004. Six Learning Barriers in End-User Programming Systems. In Proceedings of the 2004 IEEE Symposium on Visual Languages - Human Centric Computing(VLHCC \u201904). IEEE Computer Society, Washington, DC, USA, 199\u2013206. https://doi.org/10.1109/VLHCC.2004.47",
+      "doi": "10.1109/VLHCC.2004.47"
+    },
+    {
+      "text": "Amy\u00a0J. Ko, Brad\u00a0A. Myers, Michael\u00a0J. Coblenz, and Htet\u00a0Htet Aung. 2006. An Exploratory Study of How Developers Seek, Relate, and Collect Relevant Information during Software Maintenance Tasks. IEEE Transactions on Software Engineering 32, 12 (Dec. 2006), 971\u2013987. https://doi.org/10.1109/TSE.2006.116",
+      "doi": "10.1109/TSE.2006.116"
+    },
+    {
+      "text": "Thomas\u00a0D. LaToza and Brad\u00a0A. Myers. 2010. Hard-to-answer Questions About Code. In Evaluation and Usability of Programming Languages and Tools(PLATEAU \u201910). ACM, New York, NY, USA, 8:1\u20138:6. https://doi.org/10.1145/1937117.1937125",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0D. LaToza, Gina Venolia, and Robert DeLine. 2006. Maintaining Mental Models: A Study of Developer Work Habits. In Proceedings of the 28th International Conference on Software Engineering(ICSE \u201906). ACM, New York, NY, USA, 492\u2013501. https://doi.org/10.1145/1134285.1134355",
+      "doi": "10.1145/1134285.1134355"
+    },
+    {
+      "text": "John Lawrence, Jonas Malmsten, Andrey Rybka, Daniel Sabol, and Ken Triplin. 2017. Comparing TensorFlow Deep Learning Performance Using CPUs, GPUs, Local PCs and Cloud. Publications and Research (May 2017). https://academicworks.cuny.edu/bx_pubs/50",
+      "doi": ""
+    },
+    {
+      "text": "K. Lei, Y. Ma, and Z. Tan. 2014. Performance Comparison and Evaluation of Web Development Technologies in PHP, Python, and Node.js. In 2014 IEEE 17th International Conference on Computational Science and Engineering. 661\u2013668. https://doi.org/10.1109/CSE.2014.142",
+      "doi": ""
+    },
+    {
+      "text": "T.C. Lethbridge, J. Singer, and A. Forward. 2003. How software engineers use documentation: the state of the practice. IEEE Software 20, 6 (Nov. 2003), 35\u201339. https://doi.org/10.1109/MS.2003.1241364 Conference Name: IEEE Software.",
+      "doi": "10.1109/MS.2003.1241364"
+    },
+    {
+      "text": "Franklin\u00a0Mingzhe Li, Di\u00a0Laura Chen, Mingming Fan, and Khai\u00a0N. Truong. 2019. FMT: A Wearable Camera-Based Object Tracking Memory Aid for Older Adults. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 3 (Sept. 2019), 95:1\u201395:25. https://doi.org/10.1145/3351253",
+      "doi": "10.1145/3351253"
+    },
+    {
+      "text": "Michael\u00a0Xieyang Liu, Jane Hsieh, Nathan Hahn, Angelina Zhou, Emily Deng, Shaun Burley, Cynthia Taylor, Aniket Kittur, and Brad\u00a0A. Myers. 2019. Unakite: Scaffolding Developers\u2019 Decision-Making Using the Web. In Proceedings of the 32Nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201919). ACM, New Orleans, LA, USA, 67\u201380. https://doi.org/10.1145/3332165.3347908 event-place: New Orleans, LA, USA.",
+      "doi": "10.1145/3332165.3347908"
+    },
+    {
+      "text": "Michael\u00a0Xieyang Liu, Aniket Kittur, and Brad\u00a0A. Myers. 2021. To Reuse or Not To Reuse? A Framework and System for Evaluating Summarized Knowledge. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1 (April 2021), 166:1\u2013166:35. https://doi.org/10.1145/3449240",
+      "doi": "10.1145/3449240"
+    },
+    {
+      "text": "Alan MacCormack, John Rusnak, and Carliss\u00a0Y. Baldwin. 2006. Exploring the Structure of Complex Software Designs: An Empirical Study of Open Source and Proprietary Code. Management Science 52, 7 (July 2006), 1015\u20131030. https://doi.org/10.1287/mnsc.1060.0552 Publisher: INFORMS.",
+      "doi": ""
+    },
+    {
+      "text": "Alireza Mansouri, Lilly\u00a0Suriani Affendey, and Ali Mamat. 2008. Named entity recognition approaches. International Journal of Computer Science and Network Security 8, 2(2008), 339\u2013344. Publisher: Citeseer.",
+      "doi": ""
+    },
+    {
+      "text": "Catherine\u00a0C. Marshall and Sara Bly. 2005. Saving and Using Encountered Information: Implications for Electronic Periodicals. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201905). ACM, New York, NY, USA, 111\u2013120. https://doi.org/10.1145/1054972.1054989 event-place: Portland, Oregon, USA.",
+      "doi": "10.1145/1054972.1054989"
+    },
+    {
+      "text": "Emerson Murphy-Hill, Chris Parnin, and Andrew\u00a0P. Black. 2012. How We Refactor, and How We Know It. IEEE Transactions on Software Engineering 38, 1 (Jan. 2012), 5\u201318. https://doi.org/10.1109/TSE.2011.41 Conference Name: IEEE Transactions on Software Engineering.",
+      "doi": "10.1109/TSE.2011.41"
+    },
+    {
+      "text": "Phong\u00a0H. Nguyen, Kai Xu, Andy Bardill, Betul Salman, Kate Herd, and B.L.\u00a0William Wong. 2016. SenseMap: Supporting browser-based online sensemaking through analytic provenance. In 2016 IEEE Conference on Visual Analytics Science and Technology (VAST). 91\u2013100. https://doi.org/10.1109/VAST.2016.7883515",
+      "doi": ""
+    },
+    {
+      "text": "Srishti Palani, Zijian Ding, Austin Nguyen, Andrew Chuang, Stephen MacNeil, and Steven\u00a0P. Dow. 2021. CoNotate: Suggesting Queries Based on Notes Promotes Knowledge Discovery. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems(CHI \u201921). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3411764.3445618",
+      "doi": "10.1145/3411764.3445618"
+    },
+    {
+      "text": "Alexandra Papoutsaki, James Laskey, and Jeff Huang. 2017. SearchGazer: Webcam Eye Tracking for Remote Studies of Web Search. In Proceedings of the 2017 Conference on Conference Human Information Interaction and Retrieval(CHIIR \u201917). Association for Computing Machinery, New York, NY, USA, 17\u201326. https://doi.org/10.1145/3020165.3020170",
+      "doi": "10.1145/3020165.3020170"
+    },
+    {
+      "text": "Alexandra Papoutsaki, Patsorn Sangkloy, James Laskey, Nediyana Daskalova, Jeff Huang, and James Hays. 2016. WebGazer: Scalable Webcam Eye Tracking Using User Interactions. In Proceedings of the 25th International Joint Conference on Artificial Intelligence (IJCAI). AAAI, 3839\u20133845.",
+      "doi": ""
+    },
+    {
+      "text": "Soya Park, April\u00a0Yi Wang, Ban Kawas, Q.\u00a0Vera Liao, David Piorkowski, and Marina Danilevsky. 2021. Facilitating Knowledge Sharing from Domain Experts to Data Scientists for Building NLP Models. In 26th International Conference on Intelligent User Interfaces(IUI \u201921). Association for Computing Machinery, New York, NY, USA, 585\u2013596. https://doi.org/10.1145/3397481.3450637",
+      "doi": "10.1145/3397481.3450637"
+    },
+    {
+      "text": "Priyadarshini Patil, Prashant Narayankar, Narayan D.G., and Meena S.M.2016. A Comprehensive Evaluation of Cryptographic Algorithms: DES, 3DES, AES, RSA and Blowfish. Procedia Computer Science 78 (Jan. 2016), 617\u2013624. https://doi.org/10.1016/j.procs.2016.02.108",
+      "doi": ""
+    },
+    {
+      "text": "Sharoda\u00a0A. Paul and Meredith\u00a0Ringel Morris. 2009. CoSense: Enhancing Sensemaking for Collaborative Web Search. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201909). ACM, New York, NY, USA, 1771\u20131780. https://doi.org/10.1145/1518701.1518974",
+      "doi": ""
+    },
+    {
+      "text": "Ksenia Peguero, Nan Zhang, and Xiuzhen Cheng. 2018. An Empirical Study of the Framework Impact on the Security of JavaScript Web Applications. In Companion Proceedings of the The Web Conference 2018(WWW \u201918). International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, Switzerland, 753\u2013758. https://doi.org/10.1145/3184558.3188736 event-place: Lyon, France.",
+      "doi": ""
+    },
+    {
+      "text": "Pinterest. [n. d.]. Pinterest. https://www.pinterest.com/",
+      "doi": ""
+    },
+    {
+      "text": "Peter Pirolli and Stuart Card. 2005. The Sensemaking Process and Leverage Points for Analyst Technology as Identified Through Cognitive Task Analysis. In Proceedings of International Conference on Intelligence Analysis. http://www.phibetaiota.net/wp-content/uploads/2014/12/Sensemaking-Process-Pirolli-and-Card.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Luca Ponzanelli, Alberto Bacchelli, and Michele Lanza. 2013. Seahawk: Stack Overflow in the IDE. In 2013 35th International Conference on Software Engineering (ICSE). IEEE, San Francisco, CA, USA, 1295\u20131298. https://doi.org/10.1109/ICSE.2013.6606701",
+      "doi": ""
+    },
+    {
+      "text": "Soujanya Poria, Erik Cambria, Lun-Wei Ku, Chen Gui, and Alexander Gelbukh. 2014. A rule-based approach to aspect extraction from product reviews. In Proceedings of the second workshop on natural language processing for social media (SocialNLP). 28\u201337.",
+      "doi": ""
+    },
+    {
+      "text": "Napol Rachatasumrit, Gonzalo Ramos, Jina Suh, Rachel Ng, and Christopher Meek. 2021. ForSense: Accelerating Online Research Through Sensemaking Integration and Machine Research Support. In 26th International Conference on Intelligent User Interfaces(IUI \u201921). Association for Computing Machinery, New York, NY, USA, 608\u2013618. https://doi.org/10.1145/3397481.3450649",
+      "doi": "10.1145/3397481.3450649"
+    },
+    {
+      "text": "Paruj Ratanaworabhan, Benjamin Livshits, and Benjamin\u00a0G. Zorn. 2010. JSMeter: Comparing the Behavior of JavaScript Benchmarks with Real Web Applications. In Proceedings of the 2010 USENIX Conference on Web Application Development(WebApps\u201910). USENIX Association, Berkeley, CA, USA, 3\u20133. http://dl.acm.org/citation.cfm?id=1863166.1863169 event-place: Boston, MA.",
+      "doi": ""
+    },
+    {
+      "text": "John Rieman. 1993. The diary study: a workplace-oriented research tool to guide laboratory efforts. In Proceedings of the INTERACT \u201993 and CHI \u201993 Conference on Human Factors in Computing Systems(CHI \u201993). Association for Computing Machinery, New York, NY, USA, 321\u2013326. https://doi.org/10.1145/169059.169255",
+      "doi": "10.1145/169059.169255"
+    },
+    {
+      "text": "Kerry Rodden and Xin Fu. 2007. Exploring how mouse movements relate to eye movements on web search results pages. (2007).",
+      "doi": ""
+    },
+    {
+      "text": "Kerry Rodden, Xin Fu, Anne Aula, and Ian Spiro. 2008. Eye-mouse coordination patterns on web search results pages. In CHI \u201908 Extended Abstracts on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 2997\u20133002. https://doi.org/10.1145/1358628.1358797",
+      "doi": ""
+    },
+    {
+      "text": "Tobias Roehm, Rebecca Tiarks, Rainer Koschke, and Walid Maalej. 2012. How Do Professional Developers Comprehend Software?. In Proceedings of the 34th International Conference on Software Engineering(ICSE \u201912). IEEE Press, Piscataway, NJ, USA, 255\u2013265. http://dl.acm.org/citation.cfm?id=2337223.2337254",
+      "doi": "10.5555/2337223.2337254"
+    },
+    {
+      "text": "Nirmal Roy, Manuel\u00a0Valle Torre, Ujwal Gadiraju, David Maxwell, and Claudia Hauff. 2021. Note the Highlight: Incorporating Active Reading Tools in a Search as Learning Environment. In Proceedings of the 2021 Conference on Human Information Interaction and Retrieval(CHIIR \u201921). Association for Computing Machinery, New York, NY, USA, 229\u2013238. https://doi.org/10.1145/3406522.3446025",
+      "doi": "10.1145/3406522.3446025"
+    },
+    {
+      "text": "Daniel\u00a0M. Russell, Mark\u00a0J. Stefik, Peter Pirolli, and Stuart\u00a0K. Card. 1993. The Cost Structure of Sensemaking. In Proceedings of the INTERACT \u201993 and CHI \u201993 Conference on Human Factors in Computing Systems(CHI \u201993). ACM, New York, NY, USA, 269\u2013276. https://doi.org/10.1145/169059.169209",
+      "doi": "10.1145/169059.169209"
+    },
+    {
+      "text": "N. Rutar, C.\u00a0B. Almazan, and J.\u00a0S. Foster. 2004. A comparison of bug finding tools for Java. In 15th International Symposium on Software Reliability Engineering. 245\u2013256. https://doi.org/10.1109/ISSRE.2004.1",
+      "doi": "10.1109/ISSRE.2004.1"
+    },
+    {
+      "text": "Caitlin Sadowski, Kathryn\u00a0T. Stolee, and Sebastian Elbaum. 2015. How Developers Search for Code: A Case Study. In Proceedings of the 2015 10th Joint Meeting on Foundations of Software Engineering(ESEC/FSE 2015). ACM, New York, NY, USA, 191\u2013201. https://doi.org/10.1145/2786805.2786855",
+      "doi": "10.1145/2786805.2786855"
+    },
+    {
+      "text": "Bill\u00a0N. Schilit, Gene Golovchinsky, and Morgan\u00a0N. Price. 1998. Beyond paper: supporting active reading with free form digital ink annotations. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201998). ACM Press/Addison-Wesley Publishing Co., USA, 249\u2013256. https://doi.org/10.1145/274644.274680",
+      "doi": "10.1145/274644.274680"
+    },
+    {
+      "text": "M.\u00a0C. schraefel, Yuxiang Zhu, David Modjeska, Daniel Wigdor, and Shengdong Zhao. 2002. Hunter Gatherer: Interaction Support for the Creation and Management of Within-web-page Collections. In Proceedings of the 11th International Conference on World Wide Web(WWW \u201902). ACM, New York, NY, USA, 172\u2013181. https://doi.org/10.1145/511446.511469",
+      "doi": "10.1145/511446.511469"
+    },
+    {
+      "text": "Ben Shneiderman. 2020. Human-Centered Artificial Intelligence: Reliable, Safe & Trustworthy. International Journal of Human\u2013Computer Interaction 36, 6 (April 2020), 495\u2013504. https://doi.org/10.1080/10447318.2020.1741118 Publisher: Taylor & Francis _eprint: https://doi.org/10.1080/10447318.2020.1741118.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Sillito, Gail\u00a0C. Murphy, and Kris De\u00a0Volder. 2006. Questions Programmers Ask During Software Evolution Tasks. In Proceedings of the 14th ACM SIGSOFT International Symposium on Foundations of Software Engineering(SIGSOFT \u201906/FSE-14). ACM, New York, NY, USA, 23\u201334. https://doi.org/10.1145/1181775.1181779",
+      "doi": "10.1145/1181775.1181779"
+    },
+    {
+      "text": "Amit Singhal and others. 2001. Modern information retrieval: A brief overview. IEEE Data Eng. Bull. 24, 4 (2001), 35\u201343.",
+      "doi": ""
+    },
+    {
+      "text": "Jean\u00a0Y. Song, Stephan\u00a0J. Lemmer, Michael\u00a0Xieyang Liu, Shiyan Yan, Juho Kim, Jason\u00a0J. Corso, and Walter\u00a0S. Lasecki. 2019. Popup: reconstructing 3D video using particle filtering to aggregate crowd responses. In Proceedings of the 24th International Conference on Intelligent User Interfaces(IUI \u201919). Association for Computing Machinery, Marina del Ray, California, 558\u2013569. https://doi.org/10.1145/3301275.3302305",
+      "doi": "10.1145/3301275.3302305"
+    },
+    {
+      "text": "J Stylos and Brad\u00a0A. Myers. 2006. Mica: A Web-Search Tool for Finding API Components and Examples. In Visual Languages and Human-Centric Computing (VL/HCC\u201906). 195\u2013202.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Stylos, Brad\u00a0A. Myers, and Andrew Faulring. 2004. Citrine: providing intelligent copy-and-paste. In Proceedings of the 17th annual ACM symposium on User interface software and technology(UIST \u201904). Association for Computing Machinery, New York, NY, USA, 185\u2013188. https://doi.org/10.1145/1029632.1029665",
+      "doi": "10.1145/1029632.1029665"
+    },
+    {
+      "text": "Wei Sun, Franklin\u00a0Mingzhe Li, Benjamin Steeper, Songlin Xu, Feng Tian, and Cheng Zhang. 2021. TeethTap: Recognizing Discrete Teeth Gestures Using Motion and Acoustic Sensing on an Earpiece. In 26th International Conference on Intelligent User Interfaces(IUI \u201921). Association for Computing Machinery, New York, NY, USA, 161\u2013169. https://doi.org/10.1145/3397481.3450645",
+      "doi": "10.1145/3397481.3450645"
+    },
+    {
+      "text": "Craig\u00a0S. Tashman and W.\u00a0Keith Edwards. 2011. Active reading and its discontents: the situations, problems and ideas of readers. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201911). Association for Computing Machinery, New York, NY, USA, 2927\u20132936. https://doi.org/10.1145/1978942.1979376",
+      "doi": "10.1145/1978942.1979376"
+    },
+    {
+      "text": "Simon Tong and Jeff Dean. 2008. United States Patent: 7350187 - System and methods for automatically creating lists. https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&p=1&f=G&l=50&d=PTXT&S1=7,350,187.PN.&OS=pn/7,350,187&RS=PN/7,350,187",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0L Van De\u00a0Vanter. 2002. The documentary structure of source code. Information and Software Technology 44, 13 (Oct. 2002), 767\u2013782.",
+      "doi": ""
+    },
+    {
+      "text": "Laton Vermette, Shruti Dembla, April\u00a0Y. Wang, Joanna McGrenere, and Parmit\u00a0K. Chilana. 2017. Social CheatSheet: An Interactive Community-Curated Information Overlay for Web Applications. Proc. ACM Hum.-Comput. Interact. 1, CSCW (Dec. 2017), 102:1\u2013102:19. https://doi.org/10.1145/3134737",
+      "doi": "10.1145/3134737"
+    },
+    {
+      "text": "Austin\u00a0R. Ward and Robert Capra. 2021. OrgBox: Supporting Cognitive and Metacognitive Activities During Exploratory Search. In Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval(SIGIR \u201921). Association for Computing Machinery, New York, NY, USA, 2570\u20132574. https://doi.org/10.1145/3404835.3462790",
+      "doi": ""
+    },
+    {
+      "text": "Ryen\u00a0W. White, Bill Kules, Steven\u00a0M. Drucker, and m\u00a0c schraefel. 2006. Supporting Exploratory Search, Introduction, Special Issue, Communications of the ACM. Commun. ACM 49 (April 2006), 36\u201339. https://eprints.soton.ac.uk/263649/",
+      "doi": ""
+    },
+    {
+      "text": "Sungjoon\u00a0Steve Won, Jing Jin, and Jason\u00a0I. Hong. 2009. Contextual web history: using visual and contextual cues to improve web browser history. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1457\u20131466. https://doi.org/10.1145/1518701.1518922",
+      "doi": "10.1145/1518701.1518922"
+    },
+    {
+      "text": "Amy\u00a0X. Zhang and Justin Cranshaw. 2018. Making Sense of Group Chat Through Collaborative Tagging and Summarization. Proc. ACM Hum.-Comput. Interact. 2, CSCW (Nov. 2018), 196:1\u2013196:27. https://doi.org/10.1145/3274465",
+      "doi": ""
+    }
+  ]
+}

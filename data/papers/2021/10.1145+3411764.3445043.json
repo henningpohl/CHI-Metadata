@@ -1,0 +1,339 @@
+{
+  "doi": "10.1145/3411764.3445043",
+  "title": "ReverseORC: Reverse Engineering of Resizable User Interface Layouts with OR-Constraints",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Reverse engineering (RE) of user interfaces (UIs) plays an important role in software evolution. However, the large diversity of UI technologies and the need for UIs to be resizable make this challenging. We propose ReverseORC, a novel RE approach able to discover diverse layout types and their dynamic resizing behaviours independently of their implementation, and to specify them by using OR constraints. Unlike previous RE approaches, ReverseORC infers flexible layout constraint specifications by sampling UIs at different sizes and analyzing the differences between them. It can create specifications that replicate even some non-standard layout managers with complex dynamic layout behaviours. We demonstrate that ReverseORC works across different platforms with very different layout approaches, e.g., for GUIs as well as for the Web. Furthermore, it can be used to detect and fix problems in legacy UIs, extend UIs with enhanced layout behaviours, and support the creation of flexible UI layouts.",
+  "authors": [
+    {
+      "name": "Yue Jiang",
+      "institution": "Max Planck Institute for Informatics, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659698169",
+      "orcid": "missing"
+    },
+    {
+      "name": "Wolfgang Stuerzlinger",
+      "institution": "School of Interactive Arts + Technology (SIAT), Simon Fraser University, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100214718",
+      "orcid": "0000-0002-7110-5024"
+    },
+    {
+      "name": "Christof Lutteroth",
+      "institution": "Department of Computer Science, University of Bath, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100238140",
+      "orcid": "0000-0003-0634-7569"
+    }
+  ],
+  "references": [
+    {
+      "text": "Robert\u00a0St Amant, Mark\u00a0O Riedl, Frank\u00a0E Ritter, and Andrew Reifers. 2005. Image Processing in Cognitive Models with SegMan. In Proceedings of the 11th International Conference on Human-Computer Interaction, HCII, Vol.\u00a02005.",
+      "doi": ""
+    },
+    {
+      "text": "Pavol Bielik, Marc Fischer, and Martin Vechev. 2018. Robust Relational Layout Synthesis from Examples for Android. Proc. ACM Program. Lang. 2, OOPSLA, Article 156 (Oct. 2018), 29\u00a0pages. https://doi.org/10.1145/3276526",
+      "doi": "10.1145/3276526"
+    },
+    {
+      "text": "Michael Bolin, Matthew Webber, Philip Rha, Tom Wilson, and Robert\u00a0C. Miller. 2005. Automation and Customization of Rendered Web Pages. In Proceedings of the 18th Annual ACM Symposium on User Interface Software and Technology (Seattle, WA, USA) (UIST \u201905). Association for Computing Machinery, New York, NY, USA, 163\u2013172. https://doi.org/10.1145/1095034.1095062",
+      "doi": "10.1145/1095034.1095062"
+    },
+    {
+      "text": "Alan Borning, Richard Kuang-Hsu Lin, and Kim Marriott. 2000. Constraint-based document layout for the Web. Multimedia systems 8, 3 (2000), 177\u2013189.",
+      "doi": ""
+    },
+    {
+      "text": "Deng Cai, Shipeng Yu, Ji-Rong Wen, and Wei-Ying Ma. 2003. VIPS: a Vision-based Page Segmentation Algorithm. Technical Report MSR-TR-2003-79. 28 pages. https://www.microsoft.com/en-us/research/publication/vips-a-vision-based-page-segmentation-algorithm/",
+      "doi": ""
+    },
+    {
+      "text": "Tsung-Hsiang Chang, Tom Yeh, and Robert\u00a0C. Miller. 2010. GUI Testing Using Computer Vision. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201910). Association for Computing Machinery, New York, NY, USA, 1535\u20131544. https://doi.org/10.1145/1753326.1753555",
+      "doi": "10.1145/1753326.1753555"
+    },
+    {
+      "text": "Yu Chen, Xing Xie, Wei-Ying Ma, and Hong-Jiang Zhang. 2005. Adapting web pages for small-screen devices. IEEE internet computing 9, 1 (2005), 50\u201356.",
+      "doi": ""
+    },
+    {
+      "text": "Morgan Dixon and James Fogarty. 2010. Prefab: Implementing Advanced Behaviors Using Pixel-Based Reverse Engineering of Interface Structure. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201910). Association for Computing Machinery, New York, NY, USA, 1525\u20131534. https://doi.org/10.1145/1753326.1753554",
+      "doi": "10.1145/1753326.1753554"
+    },
+    {
+      "text": "Morgan Dixon, James Fogarty, and Jacob Wobbrock. 2012. A General-Purpose Target-Aware Pointing Enhancement Using Pixel-Level Analysis of Graphical Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Austin, Texas, USA) (CHI \u201912). Association for Computing Machinery, New York, NY, USA, 3167\u20133176. https://doi.org/10.1145/2207676.2208734",
+      "doi": "10.1145/2207676.2208734"
+    },
+    {
+      "text": "Morgan Dixon, Gierad Laput, and James Fogarty. 2014. Pixel-Based Methods for Widget State and Style in a Runtime Implementation of Sliding Widgets. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 2231\u20132240. https://doi.org/10.1145/2556288.2556979",
+      "doi": "10.1145/2556288.2556979"
+    },
+    {
+      "text": "Morgan Dixon, Daniel Leventhal, and James Fogarty. 2011. Content and Hierarchy in Pixel-Based Methods for Reverse Engineering Interface Structure. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vancouver, BC, Canada) (CHI \u201911). Association for Computing Machinery, New York, NY, USA, 969\u2013978. https://doi.org/10.1145/1978942.1979086",
+      "doi": "10.1145/1978942.1979086"
+    },
+    {
+      "text": "Morgan Dixon, Alexander Nied, and James Fogarty. 2014. Prefab Layers and Prefab Annotations: Extensible Pixel-Based Interpretation of Graphical Interfaces. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (Honolulu, Hawaii, USA) (UIST \u201914). Association for Computing Machinery, New York, NY, USA, 221\u2013230. https://doi.org/10.1145/2642918.2647412",
+      "doi": "10.1145/2642918.2647412"
+    },
+    {
+      "text": "Carmel Domshlak, Samir Genaim, and Ronen Brafman. 2000. Preference-based configuration of web page content. In 14th European Conference on Artificial Intelligence (ECAI 2000), Configuration Workshop, Berlin, Germany. 19\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "W.\u00a0Keith Edwards, Scott\u00a0E. Hudson, Joshua Marinacci, Roy Rodenstein, Thomas Rodriguez, and Ian Smith. 1997. Systematic Output Modification in a 2D User Interface Toolkit. In Proceedings of the 10th Annual ACM Symposium on User Interface Software and Technology (Banff, Alberta, Canada) (UIST \u201997). Association for Computing Machinery, New York, NY, USA, 151\u2013158. https://doi.org/10.1145/263407.263537",
+      "doi": "10.1145/263407.263537"
+    },
+    {
+      "text": "Jan\u00a0P Finis, Martin Raiber, Nikolaus Augsten, Robert Brunel, Alfons Kemper, and Franz F\u00e4rber. 2013. Rws-diff: flexible and efficient change detection in hierarchical data. In Proceedings of the 22nd ACM international conference on Information & Knowledge Management. 339\u2013348.",
+      "doi": "10.1145/2505515.2505763"
+    },
+    {
+      "text": "Jun Fujima, Aran Lunzer, Kasper Hornb\u00e6k, and Yuzuru Tanaka. 2004. Clip, Connect, Clone: Combining Application Elements to Build Custom Interfaces for Information Access. In Proceedings of the 17th Annual ACM Symposium on User Interface Software and Technology (Santa Fe, NM, USA) (UIST \u201904). Association for Computing Machinery, New York, NY, USA, 175\u2013184. https://doi.org/10.1145/1029632.1029664",
+      "doi": "10.1145/1029632.1029664"
+    },
+    {
+      "text": "John Gerdes. 2009. User Interface Migration of Microsoft Windows Applications. Journal of Software Maintenance 21 (05 2009), 171\u2013187. https://doi.org/10.1002/smr.400",
+      "doi": ""
+    },
+    {
+      "text": "Saul Greenberg and Bill Buxton. 2008. Usability Evaluation Considered Harmful (Some of the Time). In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Florence, Italy) (CHI \u201908). Association for Computing Machinery, New York, NY, USA, 111\u2013120. https://doi.org/10.1145/1357054.1357074",
+      "doi": "10.1145/1357054.1357074"
+    },
+    {
+      "text": "Bj\u00f6rn Hartmann, Leslie Wu, Kevin Collins, and Scott\u00a0R. Klemmer. 2007. Programming by a Sample: Rapidly Creating Web Applications with d.Mix. In Proceedings of the 20th Annual ACM Symposium on User Interface Software and Technology(Newport, Rhode Island, USA) (UIST \u201907). Association for Computing Machinery, New York, NY, USA, 241\u2013250. https://doi.org/10.1145/1294211.1294254",
+      "doi": "10.1145/1294211.1294254"
+    },
+    {
+      "text": "Masatomo Hashimoto and Akira Mori. 2008. Diff/TS: A tool for fine-grained structural change analysis. In 2008 15th working conference on reverse engineering. IEEE, 279\u2013288.",
+      "doi": ""
+    },
+    {
+      "text": "Osamu Hashimoto and Brad\u00a0A. Myers. 1992. Graphical Styles for Building Interfaces by Demonstration. In Proceedings of the 5th Annual ACM Symposium on User Interface Software and Technology (Monteray, California, USA) (UIST \u201992). Association for Computing Machinery, New York, NY, USA, 117\u2013124. https://doi.org/10.1145/142621.142635",
+      "doi": "10.1145/142621.142635"
+    },
+    {
+      "text": "Hiroshi Hosobe. 2005. Solving Linear and One-Way Constraints for Web Document Layout. In Proceedings of the 2005 ACM Symposium on Applied Computing (Santa Fe, New Mexico) (SAC \u201905). Association for Computing Machinery, New York, NY, USA, 1252\u20131253. https://doi.org/10.1145/1066677.1066959",
+      "doi": "10.1145/1066677.1066959"
+    },
+    {
+      "text": "Scott\u00a0E. Hudson, Jennifer Mankoff, and Ian Smith. 2005. Extensible Input Handling in the SubArctic Toolkit. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Portland, Oregon, USA) (CHI \u201905). Association for Computing Machinery, New York, NY, USA, 381\u2013390. https://doi.org/10.1145/1054972.1055025",
+      "doi": "10.1145/1054972.1055025"
+    },
+    {
+      "text": "Scott\u00a0E. Hudson and Shamim\u00a0P. Mohamed. 1990. Interactive Specification of Flexible User Interface Displays. ACM Trans. Inf. Syst. 8, 3 (July 1990), 269\u2013288. https://doi.org/10.1145/98188.98201",
+      "doi": "10.1145/98188.98201"
+    },
+    {
+      "text": "Scott\u00a0E. Hudson and Ian Smith. 1997. Supporting Dynamic Downloadable Appearances in an Extensible User Interface Toolkit. In Proceedings of the 10th Annual ACM Symposium on User Interface Software and Technology(Banff, Alberta, Canada) (UIST \u201997). Association for Computing Machinery, New York, NY, USA, 159\u2013168. https://doi.org/10.1145/263407.263539",
+      "doi": ""
+    },
+    {
+      "text": "Scott\u00a0E. Hudson and Kenichiro Tanaka. 2000. Providing Visually Rich Resizable Images for User Interface Components. In Proceedings of the 13th Annual ACM Symposium on User Interface Software and Technology (San Diego, California, USA) (UIST \u201900). Association for Computing Machinery, New York, NY, USA, 227\u2013235. https://doi.org/10.1145/354401.354783",
+      "doi": ""
+    },
+    {
+      "text": "Amy Hurst, Scott\u00a0E. Hudson, and Jennifer Mankoff. 2010. Automatically Identifying Targets Users Interact with during Real World Tasks. In Proceedings of the 15th International Conference on Intelligent User Interfaces (Hong Kong, China) (IUI \u201910). Association for Computing Machinery, New York, NY, USA, 11\u201320. https://doi.org/10.1145/1719970.1719973",
+      "doi": "10.1145/1719970.1719973"
+    },
+    {
+      "text": "Dugald\u00a0Ralph Hutchings and John Stasko. 2005. Mudibo: Multiple Dialog Boxes for Multiple Monitors. In CHI \u201905 Extended Abstracts on Human Factors in Computing Systems (Portland, OR, USA) (CHI EA \u201905). Association for Computing Machinery, New York, NY, USA, 1471\u20131474. https://doi.org/10.1145/1056808.1056944",
+      "doi": "10.1145/1056808.1056944"
+    },
+    {
+      "text": "Jaekyu Ha, R.\u00a0M. Haralick, and I.\u00a0T. Phillips. 1995. Recursive X-Y cut using bounding boxes of connected components. In Proceedings of 3rd International Conference on Document Analysis and Recognition, Vol.\u00a02. 952\u2013955 vol.2. https://doi.org/10.1109/ICDAR.1995.602059",
+      "doi": ""
+    },
+    {
+      "text": "Yue Jiang, Ruofei Du, Christof Lutteroth, and Wolfgang Stuerzlinger. 2019. ORC Layout: Adaptive GUI Layout with OR-Constraints. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, Article 413, 12\u00a0pages. https://doi.org/10.1145/3290605.3300643",
+      "doi": "10.1145/3290605.3300643"
+    },
+    {
+      "text": "Yue Jiang, Wolfgang Stuerzlinger, Matthias Zwicker, and Christof Lutteroth. 2020. ORCSolver: An Efficient Solver for Adaptive GUI Layout with OR-Constraints. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376610",
+      "doi": "10.1145/3313831.3376610"
+    },
+    {
+      "text": "Solange Karsenty, James\u00a0A. Landay, and Chris Weikart. 1993. Inferring Graphical Constraints With Rockit. In Proceedings of the Conference on People and Computers VII (York, United Kingdom) (HCI\u201992). Cambridge University Press, 137\u2013153. https://doi.org/10.1007/3-540-58601-_91",
+      "doi": "10.5555/164592.164615"
+    },
+    {
+      "text": "R. Krosnick, S.\u00a0W. Lee, W.\u00a0S. Laseck, and S. Onev. 2018. Expresso: Building Responsive Interfaces with Keyframes. In 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). 39\u201347. https://doi.org/10.1109/VLHCC.2018.8506516",
+      "doi": ""
+    },
+    {
+      "text": "Gilly Leshed, Eben\u00a0M. Haber, Tara Matthews, and Tessa Lau. 2008. CoScripter: Automating & Sharing How-to Knowledge in the Enterprise. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Florence, Italy) (CHI \u201908). Association for Computing Machinery, New York, NY, USA, 1719\u20131728. https://doi.org/10.1145/1357054.1357323",
+      "doi": "10.1145/1357054.1357323"
+    },
+    {
+      "text": "James Lin, Jeffrey Wong, Jeffrey Nichols, Allen Cypher, and Tessa\u00a0A. Lau. 2009. End-User Programming of Mashups with Vegemite. In Proceedings of the 14th International Conference on Intelligent User Interfaces (Sanibel Island, Florida, USA) (IUI \u201909). Association for Computing Machinery, New York, NY, USA, 97\u2013106. https://doi.org/10.1145/1502650.1502667",
+      "doi": "10.1145/1502650.1502667"
+    },
+    {
+      "text": "Greg Little, Tessa\u00a0A. Lau, Allen Cypher, James Lin, Eben\u00a0M. Haber, and Eser Kandogan. 2007. Koala: Capture, Share, Automate, Personalize Business Processes on the Web. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201907). Association for Computing Machinery, New York, NY, USA, 943\u2013946. https://doi.org/10.1145/1240624.1240767",
+      "doi": "10.1145/1240624.1240767"
+    },
+    {
+      "text": "Christof Lutteroth. 2008. Automated Reverse Engineering of Hard-Coded GUI Layouts. In Proceedings of the Ninth Conference on Australasian User Interface - Volume 76 (Wollongong, Australia) (AUIC \u201908). Australian Computer Society, Inc., AUS, 65\u201373. https://doi.org/10.5555/1378337.1378350",
+      "doi": "10.5555/1378337.1378350"
+    },
+    {
+      "text": "Christof Lutteroth, Robert Strandh, and Gerald Weber. 2008. Domain specific high-level constraints for user interface layout. Constraints 13, 3 (2008), 307\u2013342.",
+      "doi": "10.1007/s10601-008-9043-2"
+    },
+    {
+      "text": "Christof Lutteroth and Gerald Weber. 2006. User Interface Layout with Ordinal and Linear Constraints. In Proceedings of the 7th Australasian User Interface Conference - Volume 50 (Hobart, Australia) (AUIC \u201906). Australian Computer Society, Inc., AUS, 53\u201360. https://doi.org/10.5555/1151758.1151764",
+      "doi": "10.5555/1151758.1151764"
+    },
+    {
+      "text": "Ethan Marcotte. 2011. Responsive Web Design. A book apart.",
+      "doi": ""
+    },
+    {
+      "text": "Melody Moore and Spencer Rugaber. 1997. Using Knowledge Representation to Understand Interactive Systems. In Proceedings of the 5th International Workshop on Program Comprehension (WPC \u201997)(WPC \u201997). IEEE Computer Society, USA, 60.",
+      "doi": "10.5555/523511.837888"
+    },
+    {
+      "text": "Melody\u00a0M. Moore. 1996. Rule-Based Detection for Reverse Engineering User Interfaces. In Proceedings of the 3rd Working Conference on Reverse Engineering (WCRE \u201996)(WCRE \u201996). IEEE Computer Society, USA, 42.",
+      "doi": "10.5555/525595.836966"
+    },
+    {
+      "text": "Melody\u00a0Marie Moore, James\u00a0D. Foley, and Spencer Rugaber. 1998. User Interface Reengineering. Ph.D. Dissertation. USA. AAI9918460.",
+      "doi": ""
+    },
+    {
+      "text": "Melody\u00a0M. Moore and Lilia Moshkina. 2000. Migrating Legacy User Interfaces to the Internet: Shifting Dialogue Initiative. In Proceedings of the Seventh Working Conference on Reverse Engineering (WCRE\u201900)(WCRE \u201900). IEEE Computer Society, USA, 52.",
+      "doi": ""
+    },
+    {
+      "text": "Brad Myers, Scott\u00a0E. Hudson, and Randy Pausch. 2000. Past, Present, and Future of User Interface Software Tools. ACM Trans. Comput.-Hum. Interact. 7, 1 (March 2000), 3\u201328. https://doi.org/10.1145/344949.344959",
+      "doi": "10.1145/344949.344959"
+    },
+    {
+      "text": "Brad Myers, Sun\u00a0Young Park, Yoko Nakano, Greg Mueller, and Amy Ko. 2008. How designers design and program interactive behaviors. In 2008 IEEE Symposium on Visual Languages and Human-Centric Computing. IEEE, 177\u2013184.",
+      "doi": "10.1109/VLHCC.2008.4639081"
+    },
+    {
+      "text": "Brad\u00a0A. Myers. 1995. User Interface Software Tools. ACM Trans. Comput.-Hum. Interact. 2, 1 (March 1995), 64\u2013103. https://doi.org/10.1145/200968.200971",
+      "doi": "10.1145/200968.200971"
+    },
+    {
+      "text": "Brad\u00a0A. Myers, Richard\u00a0G. Mcdaniel, Robert\u00a0C. Miller, Alan\u00a0S. Ferrency, Andrew Faulring, Bruce\u00a0D. Kyle, Ieee\u00a0Computer Society, Ieee\u00a0Computer Society, Andrew Mickish, Alex Klimovitski, and Patrick Doane. 1997. The Amulet Environment: New Models for Effective User Interface Software Development. IEEE Transactions on Software Engineering 23 (1997), 347\u2013365.",
+      "doi": "10.1109/32.601073"
+    },
+    {
+      "text": "George Nagy and Sharad\u00a0C Seth. 1984. Hierarchical representation of optically scanned documents. (1984).",
+      "doi": ""
+    },
+    {
+      "text": "Tuan\u00a0Anh Nguyen and Christoph Csallner. 2015. Reverse Engineering Mobile Application User Interfaces with REMAUI. In Proceedings of the 30th IEEE/ACM International Conference on Automated Software Engineering(Lincoln, Nebraska) (ASE \u201915). IEEE Press, 248\u2013259. https://doi.org/10.1109/ASE.2015.32",
+      "doi": "10.1109/ASE.2015.32"
+    },
+    {
+      "text": "Jeffrey Nichols and Tessa Lau. 2008. Mobilization by Demonstration: Using Traces to Re-Author Existing Web Sites. In Proceedings of the 13th International Conference on Intelligent User Interfaces (Gran Canaria, Spain) (IUI \u201908). Association for Computing Machinery, New York, NY, USA, 149\u2013158. https://doi.org/10.1145/1378773.1378793",
+      "doi": "10.1145/1378773.1378793"
+    },
+    {
+      "text": "Dan\u00a0R. Olsen. 2007. Evaluating User Interface Systems Research. In Proceedings of the 20th Annual ACM Symposium on User Interface Software and Technology (Newport, Rhode Island, USA) (UIST \u201907). Association for Computing Machinery, New York, NY, USA, 251\u2013258. https://doi.org/10.1145/1294211.1294256",
+      "doi": "10.1145/1294211.1294256"
+    },
+    {
+      "text": "Dan\u00a0R. Olsen, Scott\u00a0E. Hudson, Thom Verratti, Jeremy\u00a0M. Heiner, and Matt Phelps. 1999. Implementing Interface Attachments Based on Surface Representations. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Pittsburgh, Pennsylvania, USA) (CHI \u201999). Association for Computing Machinery, New York, NY, USA, 191\u2013198. https://doi.org/10.1145/302979.303038",
+      "doi": "10.1145/302979.303038"
+    },
+    {
+      "text": "Dan\u00a0R. Olsen, Trent Taufer, and Jerry\u00a0Alan Fails. 2004. ScreenCrayons: Annotating Anything. In Proceedings of the 17th Annual ACM Symposium on User Interface Software and Technology (Santa Fe, NM, USA) (UIST \u201904). Association for Computing Machinery, New York, NY, USA, 165\u2013174. https://doi.org/10.1145/1029632.1029663",
+      "doi": "10.1145/1029632.1029663"
+    },
+    {
+      "text": "Richard\u00a0L Potter. 1992. Triggers: Guiding Automation with Pixels to Achieve Data Access. University of Maryland, Center for Automation Research, Human/Computer Interaction Laboratory.",
+      "doi": ""
+    },
+    {
+      "text": "\u00d3scar\u00a0S\u00e1nchez Ram\u00f3n, Jes\u00fas\u00a0S\u00e1nchez Cuadrado, and Jes\u00fas\u00a0Garc\u00eda Molina. 2014. Model-driven reverse engineering of legacy graphical user interfaces. Automated Software Engineering 21, 2 (2014), 147\u2013186.",
+      "doi": ""
+    },
+    {
+      "text": "\u00d3scar\u00a0S\u00e1nchez Ram\u00f3n, Jes\u00fas\u00a0S\u00e1nchez Cuadrado, Jes\u00fas\u00a0Garc\u00eda Molina, and Jean Vanderdonckt. 2016. A layout inference algorithm for Graphical User Interfaces. Information and Software Technology 70 (2016), 155\u2013175.",
+      "doi": "10.1016/j.infsof.2015.10.005"
+    },
+    {
+      "text": "Alireza Sahami\u00a0Shirazi, Niels Henze, Albrecht Schmidt, Robin Goldberg, Benjamin Schmidt, and Hansj\u00f6rg Schmauder. 2013. Insights Into Layout Patterns of Mobile User Interfaces by an Automatic Analysis of Android Apps. In Proceedings of the 5th ACM SIGCHI Symposium on Engineering Interactive Computing Systems (London, United Kingdom) (EICS \u201913). ACM, Gothenburg, Sweden, 275\u2013284. https://doi.org/10.1145/3197231.3197249",
+      "doi": "10.1145/2494603.2480308"
+    },
+    {
+      "text": "\u00d3scar S\u00e1nchez\u00a0Ram\u00f3n, Jes\u00fas S\u00e1nchez\u00a0Cuadrado, and Jes\u00fas Garc\u00eda\u00a0Molina. 2010. Model-Driven Reverse Engineering of Legacy Graphical User Interfaces. In Proceedings of the IEEE/ACM International Conference on Automated Software Engineering(Antwerp, Belgium) (ASE \u201910). Association for Computing Machinery, New York, NY, USA, 147\u2013150. https://doi.org/10.1145/1858996.1859023",
+      "doi": "10.1145/1858996.1859023"
+    },
+    {
+      "text": "Adriano Scoditti and Wolfgang Stuerzlinger. 2009. A New Layout Method for Graphical User Interfaces. In Science and Technology for Humanity (TIC-STH), 2009 IEEE Toronto International Conference. IEEE, 642\u2013647. https://doi.org/10.1016/j.infsof.2015.10.005",
+      "doi": ""
+    },
+    {
+      "text": "Robert St.\u00a0Amant, Henry Lieberman, Richard Potter, and Luke Zettlemoyer. 2000. Programming by Example: Visual Generalization in Programming by Example. Commun. ACM 43, 3 (March 2000), 107\u2013114. https://doi.org/10.1145/330534.330549",
+      "doi": ""
+    },
+    {
+      "text": "Stefan Staiger. 2007. Static Analysis of Programs with Graphical User Interface. In 11th European Conference on Software Maintenance and Reengineering (CSMR\u201907). 252\u2013264. https://doi.org/10.1109/CSMR.2007.44",
+      "doi": ""
+    },
+    {
+      "text": "E. Stroulia, M. El-Ramly, P. Iglinski, and P. Sorenson. 2003. User Interface Reverse Engineering in Support of Interface Migration to the Web. Automated Software Engg. 10, 3 (July 2003), 271\u2013301. https://doi.org/10.1023/A:1024460315173",
+      "doi": ""
+    },
+    {
+      "text": "Wolfgang Stuerzlinger, Olivier Chapuis, Dusty Phillips, and Nicolas Roussel. 2006. User Interface Fa\u00e7ades: Towards Fully Adaptable User Interfaces. In Proceedings of the 19th Annual ACM Symposium on User Interface Software and Technology (Montreux, Switzerland) (UIST \u201906). Association for Computing Machinery, New York, NY, USA, 309\u2013318. https://doi.org/10.1145/1166253.1166301",
+      "doi": "10.1145/1166253.1166301"
+    },
+    {
+      "text": "Amanda Swearngin, Amy\u00a0J. Ko, and James Fogarty. 2017. Genie: Input Retargeting on the Web through Command Reverse Engineering. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 4703\u20134714. https://doi.org/10.1145/3025453.3025506",
+      "doi": "10.1145/3025453.3025506"
+    },
+    {
+      "text": "Desney\u00a0S. Tan, Brian Meyers, and Mary Czerwinski. 2004. WinCuts: Manipulating Arbitrary Window Regions for More Effective Use of Screen Space. In CHI \u201904 Extended Abstracts on Human Factors in Computing Systems (Vienna, Austria) (CHI EA \u201904). Association for Computing Machinery, New York, NY, USA, 1525\u20131528. https://doi.org/10.1145/985921.986106",
+      "doi": ""
+    },
+    {
+      "text": "J. Vanderdonckt, L. Bouillon, and N. Souchon. 2001. Flexible Reverse Engineering of Web Pages with VAQUISTA. In Proceedings Eighth Working Conference on Reverse Engineering. 241\u2013248. https://doi.org/10.1109/WCRE.2001.957828",
+      "doi": ""
+    },
+    {
+      "text": "Yuan Wang, David\u00a0J DeWitt, and J-Y Cai. 2003. X-Diff: An effective change detection algorithm for XML documents. In Proceedings 19th international conference on data engineering (Cat. No. 03CH37405). IEEE, 519\u2013530.",
+      "doi": ""
+    },
+    {
+      "text": "Gerald Weber. 2010. A Reduction of Grid-Bag Layout to Auckland Layout. In Proceedings of the 2010 21st Australian Software Engineering Conference(ASWEC \u201910). IEEE Computer Society, 67\u201374. https://doi.org/10.1109/ASWEC.2010.38",
+      "doi": "10.1109/ASWEC.2010.38"
+    },
+    {
+      "text": "Xing Xie, Chong Wang, Li-Qun Chen, and Wei-Ying Ma. 2005. An adaptive web page layout structure for small devices. Multimedia Systems 11, 1 (2005), 34\u201344.",
+      "doi": "10.1007/s00530-005-0188-1"
+    },
+    {
+      "text": "Tom Yeh, Tsung-Hsiang Chang, and Robert\u00a0C. Miller. 2009. Sikuli: Using GUI Screenshots for Search and Automation. In Proceedings of the 22nd Annual ACM Symposium on User Interface Software and Technology (Victoria, BC, Canada) (UIST \u201909). Association for Computing Machinery, New York, NY, USA, 183\u2013192. https://doi.org/10.1145/1622176.1622213",
+      "doi": "10.1145/1622176.1622213"
+    },
+    {
+      "text": "Brad\u00a0Vander Zanden and Brad\u00a0A. Myers. 1990. Automatic, Look-and-Feel Independent Dialog Creation for Graphical User Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Seattle, Washington, USA) (CHI \u201990). ACM, Seattle, Washington, USA, 27\u201334. https://doi.org/10.1007/978-3-319-67744-_2",
+      "doi": "10.1145/97243.97248"
+    },
+    {
+      "text": "Clemens Zeidler, Christof Lutteroth, Gerald Weber, and Wolfgang St\u00fcrzlinger. 2012. The Auckland Layout Editor: An Improved GUI Layout Specification Process. In Proceedings of the 13th International Conference of the NZ Chapter of the ACM\u2019s Special Interest Group on Human-Computer Interaction (Dunedin, New Zealand) (CHINZ \u201912). Association for Computing Machinery, New York, NY, USA, 103. https://doi.org/10.1145/2379256.2379287",
+      "doi": "10.1145/2379256.2379287"
+    },
+    {
+      "text": "C. Zeidler, G. Weber, A. Gavryushkin, and Christof Lutteroth. 2017. Tiling algebra for constraint-based layout editing. J. Log. Algebraic Methods Program. 89 (2017), 67\u201394.",
+      "doi": ""
+    },
+    {
+      "text": "Luke\u00a0S. Zettlemoyer and Robert St.\u00a0Amant. 1999. A Visual Medium for Programmatic Control of Interactive Applications. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Pittsburgh, Pennsylvania, USA) (CHI \u201999). Association for Computing Machinery, New York, NY, USA, 199\u2013206. https://doi.org/10.1145/302979.303039",
+      "doi": ""
+    },
+    {
+      "text": "Luke\u00a0S. Zettlemoyer, Robert St.\u00a0Amant, and Martin\u00a0S. Dulberg. 1998. IBOTS: Agent Control through the User Interface. In Proceedings of the 4th International Conference on Intelligent User Interfaces (Los Angeles, California, USA) (IUI \u201999). Association for Computing Machinery, New York, NY, USA, 31\u201337. https://doi.org/10.1145/291080.291087",
+      "doi": ""
+    }
+  ]
+}

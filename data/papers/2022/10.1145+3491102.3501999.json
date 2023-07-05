@@ -1,0 +1,416 @@
+{
+  "doi": "10.1145/3491102.3501999",
+  "title": "Human-AI Collaboration via Conditional Delegation: A Case Study of Content Moderation",
+  "published": "2022-04-28",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Despite impressive performance in many benchmark datasets, AI models can still make mistakes, especially among out-of-distribution examples. It remains an open question how such imperfect models can be used effectively in collaboration with humans. Prior work has focused on AI assistance that helps people make individual high-stakes decisions, which is not scalable for a large amount of relatively low-stakes decisions, e.g., moderating social media comments. Instead, we propose conditional delegation as an alternative paradigm for human-AI collaboration where humans create rules to indicate trustworthy regions of a model. Using content moderation as a testbed, we develop novel interfaces to assist humans in creating conditional delegation rules and conduct a randomized experiment with two datasets to simulate in-distribution and out-of-distribution scenarios. Our study demonstrates the promise of conditional delegation in improving model performance and provides insights into design for this novel paradigm, including the effect of AI explanations.",
+  "authors": [
+    {
+      "name": "Vivian Lai",
+      "institution": "University of Colorado Boulder, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659336682",
+      "orcid": "missing"
+    },
+    {
+      "name": "Samuel Carton",
+      "institution": "University of Colorado Boulder, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659061736",
+      "orcid": "missing"
+    },
+    {
+      "name": "Rajat Bhatnagar",
+      "institution": "Amazon, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660236299",
+      "orcid": "missing"
+    },
+    {
+      "name": "Q. Vera Liao",
+      "institution": "Microsoft Research, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659248963",
+      "orcid": "0000-0003-4543-7196"
+    },
+    {
+      "name": "Yunfeng Zhang",
+      "institution": "Twitter Inc., United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659249740",
+      "orcid": "missing"
+    },
+    {
+      "name": "Chenhao Tan",
+      "institution": "University of Chicago, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81466642241",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Ashraf Abdul, Jo Vermeulen, Danding Wang, Brian\u00a0Y Lim, and Mohan Kankanhalli. 2018. Trends and trajectories for explainable, accountable and intelligible systems: An hci research agenda. In Proceedings of the 2018 CHI conference on human factors in computing systems. 1\u201318.",
+      "doi": "10.1145/3173574.3174156"
+    },
+    {
+      "text": "Amina Adadi and Mohammed Berrada. 2018. Peeking inside the black-box: A survey on Explainable Artificial Intelligence (XAI). IEEE Access 6(2018), 52138\u201352160.",
+      "doi": "10.1109/access.2018.2870052"
+    },
+    {
+      "text": "Saleema Amershi, Maya Cakmak, William\u00a0Bradley Knox, and Todd Kulesza. 2014. Power to the people: The role of humans in interactive machine learning. Ai Magazine 35, 4 (2014), 105\u2013120.",
+      "doi": ""
+    },
+    {
+      "text": "Ines Arous, Jie Yang, Mourad Khayati, and Philippe Cudr\u00e9-Mauroux. 2020. OpenCrowd: A Human-AI Collaborative Approach for Finding Social Influencers via Open-Ended Answers Aggregation. In Proceedings of The Web Conference 2020. 1851\u20131862.",
+      "doi": "10.1145/3366423.3380254"
+    },
+    {
+      "text": "Zahra Ashktorab, Q\u00a0Vera Liao, Casey Dugan, James Johnson, Qian Pan, Wei Zhang, Sadhana Kumaravel, and Murray Campbell. 2020. Human-ai collaboration in a cooperative game setting: Measuring social perception and outcomes. Proceedings of the ACM on Human-Computer Interaction 4, CSCW2(2020), 1\u201320.",
+      "doi": "10.1145/3415167"
+    },
+    {
+      "text": "Gagan Bansal, Besmira Nushi, Ece Kamar, Walter\u00a0S Lasecki, Daniel\u00a0S Weld, and Eric Horvitz. 2019. Beyond Accuracy: The Role of Mental Models in Human-AI Team Performance. In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing, Vol.\u00a07. 2\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Gagan Bansal, Besmira Nushi, Ece Kamar, Daniel\u00a0S Weld, Walter\u00a0S Lasecki, and Eric Horvitz. 2019. Updates in human-ai teams: Understanding and addressing the performance/compatibility tradeoff. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a033. 2429\u20132437.",
+      "doi": "10.1609/aaai.v33i01.33012429"
+    },
+    {
+      "text": "Gagan Bansal, Tongshuang Wu, Joyce Zhou, Raymond Fok, Besmira Nushi, Ece Kamar, Marco\u00a0Tulio Ribeiro, and Daniel Weld. 2021. Does the whole exceed its parts? the effect of ai explanations on complementary team performance. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3411764.3445717"
+    },
+    {
+      "text": "Emma Beede, Elizabeth Baylor, Fred Hersch, Anna Iurchenko, Lauren Wilcox, Paisan Ruamviboonsuk, and Laura\u00a0M Vardoulakis. 2020. A Human-Centered Evaluation of a Deep Learning System Deployed in Clinics for the Detection of Diabetic Retinopathy. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3313831.3376718"
+    },
+    {
+      "text": "Lindsay Blackwell, Jill Dimond, Sarita Schoenebeck, and Cliff Lampe. 2017. Classification and its consequences for online harassment: Design insights from heartmob. Proceedings of the ACM on Human-Computer Interaction 1, CSCW(2017), 1\u201319.",
+      "doi": "10.1145/3134659"
+    },
+    {
+      "text": "Noam Brown and Tuomas Sandholm. 2019. Superhuman AI for multiplayer poker. Science 365, 6456 (2019), 885\u2013890.",
+      "doi": ""
+    },
+    {
+      "text": "Zana Bu\u00e7inca, Phoebe Lin, Krzysztof\u00a0Z Gajos, and Elena\u00a0L Glassman. 2020. Proxy tasks and subjective measures can be misleading in evaluating explainable AI systems. In Proceedings of the 25th International Conference on Intelligent User Interfaces. 454\u2013464.",
+      "doi": "10.1145/3377325.3377498"
+    },
+    {
+      "text": "Zana Bu\u00e7inca, Maja\u00a0Barbara Malaya, and Krzysztof\u00a0Z Gajos. 2021. To trust or to think: cognitive forcing functions can reduce overreliance on AI in AI-assisted decision-making. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201321.",
+      "doi": "10.1145/3449287"
+    },
+    {
+      "text": "Carrie\u00a0J Cai, Emily Reif, Narayan Hegde, Jason Hipp, Been Kim, Daniel Smilkov, Martin Wattenberg, Fernanda Viegas, Greg\u00a0S Corrado, Martin\u00a0C Stumpe, 2019. Human-centered tools for coping with imperfect algorithms during medical decision-making. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 4.",
+      "doi": "10.1145/3290605.3300234"
+    },
+    {
+      "text": "Carrie\u00a0J Cai, Samantha Winter, David Steiner, Lauren Wilcox, and Michael Terry. 2019. Hello AI: Uncovering the Onboarding Needs of Medical Practitioners for Human-AI Collaborative Decision-Making. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 104.",
+      "doi": "10.1145/3359206"
+    },
+    {
+      "text": "Samuel Carton, Qiaozhu Mei, and Paul Resnick. 2020. Feature-Based Explanations Don\u2019t Help People Detect Misclassifications of Online Toxicity. In Proceedings of the International AAAI Conference on Web and Social Media, Vol.\u00a014. 95\u2013106.",
+      "doi": ""
+    },
+    {
+      "text": "Stevie Chancellor, Jessica\u00a0Annette Pater, Trustin Clear, Eric Gilbert, and Munmun De\u00a0Choudhury. 2016. #Thyghgapp: Instagram Content Moderation and Lexical Variation in Pro-Eating Disorder Communities. In Proceedings of CSCW (San Francisco, California, USA) (CSCW \u201916). ACM, New York, NY, USA, 1201\u20131213.",
+      "doi": "10.1145/2818048.2819963"
+    },
+    {
+      "text": "Eshwar Chandrasekharan, Chaitrali Gandhi, Matthew\u00a0Wortley Mustelier, and Eric Gilbert. 2019. Crossmod: A cross-community learning-based system to assist reddit moderators. Proceedings of the ACM on human-computer interaction 3, CSCW(2019), 1\u201330.",
+      "doi": "10.1145/3359276"
+    },
+    {
+      "text": "Eshwar Chandrasekharan, Umashanthi Pavalanathan, Anirudh Srinivasan, Adam Glynn, Jacob Eisenstein, and Eric Gilbert. 2017. You Can\u2019T Stay Here: The Efficacy of Reddit\u2019s 2015 Ban Examined Through Hate Speech. In Proceedings of ACM Human Computer Interaction 1, Computer-Supported Cooperative Work and Social Computing, Article 31(2017), 22\u00a0pages.",
+      "doi": "10.1145/3134666"
+    },
+    {
+      "text": "Eshwar Chandrasekharan, Mattia Samory, Shagun Jhaver, Hunter Charvat, Amy Bruckman, Cliff Lampe, Jacob Eisenstein, and Eric Gilbert. 2018. The Internet\u2019s Hidden Rules: An Empirical Study of Reddit Norm Violations at Micro, Meso, and Macro Scales. In Proceedings of ACM Human Computer Interaction 2, Computer-Supported Cooperative Work and Social Computing, Article 32 (Nov. 2018), 25\u00a0pages.",
+      "doi": "10.1145/3274301"
+    },
+    {
+      "text": "Jonathan\u00a0P. Chang and Cristian Danescu-Niculescu-Mizil. 2019. Trajectories of Blocked Community Members: Redemption, Recidivism and Departure. In Proceedings of WWW. 184\u2013195.",
+      "doi": ""
+    },
+    {
+      "text": "Hao-Fei Cheng, Ruotong Wang, Zheng Zhang, Fiona O\u2019Connell, Terrance Gray, F\u00a0Maxwell Harper, and Haiyi Zhu. 2019. Explaining Decision-Making Algorithms through UI: Strategies to Help Non-Expert Stakeholders. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 559.",
+      "doi": "10.1145/3290605.3300789"
+    },
+    {
+      "text": "Chun-Wei Chiang and Ming Yin. 2021. You\u2019d Better Stop! Understanding Human Reliance on Machine Learning Models under Covariate Shift. In 13th ACM Web Science Conference 2021. 120\u2013129.",
+      "doi": "10.1145/3447535.3462487"
+    },
+    {
+      "text": "Christopher Clark, Mark Yatskar, and Luke Zettlemoyer. 2019. Don\u2019t Take the Easy Way Out: Ensemble Based Methods for Avoiding Known Dataset Biases. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). 4069\u20134082.",
+      "doi": ""
+    },
+    {
+      "text": "Justin Cranshaw, Emad Elwany, Todd Newman, Rafal Kocielnik, Bowen Yu, Sandeep Soni, Jaime Teevan, and Andr\u00e9s Monroy-Hern\u00e1ndez. 2017. Calendar. help: Designing a workflow-based scheduling agent with humans in the loop. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 2382\u20132393.",
+      "doi": "10.1145/3025453.3025780"
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. In Proceedings of NAACL.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Dodge, Q\u00a0Vera Liao, Yunfeng Zhang, Rachel\u00a0KE Bellamy, and Casey Dugan. 2019. Explaining models: an empirical study of how explanations impact fairness judgment. In Proceedings of the 24th International Conference on Intelligent User Interfaces. 275\u2013285.",
+      "doi": "10.1145/3301275.3302310"
+    },
+    {
+      "text": "Bryan Dosono and Bryan Semaan. 2019. Moderation practices as emotional labor in sustaining online communities: The case of AAPI identity work on Reddit. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300372"
+    },
+    {
+      "text": "John\u00a0J Dudley and Per\u00a0Ola Kristensson. 2018. A review of user interface design for interactive machine learning. ACM Transactions on Interactive Intelligent Systems (TiiS) 8, 2(2018), 1\u201337.",
+      "doi": "10.1145/3185517"
+    },
+    {
+      "text": "Jerry\u00a0Alan Fails and Dan\u00a0R Olsen\u00a0Jr. 2003. Interactive machine learning. In Proceedings of the 8th international conference on Intelligent user interfaces. 39\u201345.",
+      "doi": "10.1145/604045.604056"
+    },
+    {
+      "text": "Casey Fiesler, Jialun Jiang, Joshua McCann, Kyle Frye, and Jed Brubaker. 2018. Reddit rules! Characterizing an Ecosystem of Governance. In Proceedings of International AAAI Conference on Web and Social Media(ICWSM).",
+      "doi": ""
+    },
+    {
+      "text": "Bhavya Ghai, Q\u00a0Vera Liao, Yunfeng Zhang, Rachel Bellamy, and Klaus Mueller. 2020. Explainable Active Learning (XAL): An Empirical Study of How Local Explanations Impact Annotator Experience. arXiv preprint arXiv:2001.09219(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Tarleton Gillespie. 2018. Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media. Yale University Press, New Haven.",
+      "doi": ""
+    },
+    {
+      "text": "Leilani\u00a0H Gilpin, David Bau, Ben\u00a0Z Yuan, Ayesha Bajwa, Michael Specter, and Lalana Kagal. 2018. Explaining explanations: An overview of interpretability of machine learning. In 2018 IEEE 5th International Conference on data science and advanced analytics (DSAA). IEEE, 80\u201389.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Gorwa, Reuben Binns, and Christian Katzenbach. 2020. Algorithmic content moderation: Technical and political challenges in the automation of platform governance. Big Data & Society 7, 1 (2020), 2053951719897945.",
+      "doi": ""
+    },
+    {
+      "text": "Ben Green and Yiling Chen. 2019. Disparate interactions: An algorithm-in-the-loop analysis of fairness in risk assessments. In Proceedings of the Conference on Fairness, Accountability, and Transparency. ACM, 90\u201399.",
+      "doi": "10.1145/3287560.3287563"
+    },
+    {
+      "text": "Ben Green and Yiling Chen. 2019. The principles and limits of algorithm-in-the-loop decision making. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 50.",
+      "doi": "10.1145/3359152"
+    },
+    {
+      "text": "Riccardo Guidotti, Anna Monreale, Salvatore Ruggieri, Franco Turini, Fosca Giannotti, and Dino Pedreschi. 2018. A survey of methods for explaining black box models. ACM computing surveys (CSUR) 51, 5 (2018), 1\u201342.",
+      "doi": ""
+    },
+    {
+      "text": "Sandra\u00a0G Hart. 2006. NASA-task load index (NASA-TLX); 20 years later. In Proceedings of the human factors and ergonomics society annual meeting, Vol.\u00a050. Sage publications Sage CA: Los Angeles, CA, 904\u2013908.",
+      "doi": "10.1177/154193120605000909"
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2015. Delving deep into rectifiers: Surpassing human-level performance on imagenet classification. In Proceedings of ICCV.",
+      "doi": "10.1109/ICCV.2015.123"
+    },
+    {
+      "text": "Jonathan\u00a0L Herlocker, Joseph\u00a0A Konstan, and John Riedl. 2000. Explaining collaborative filtering recommendations. In Proceedings of CSCW.",
+      "doi": "10.1145/358916.358995"
+    },
+    {
+      "text": "Andreas Holzinger. 2016. Interactive machine learning for health informatics: when do we need the human-in-the-loop?Brain Informatics 3, 2 (2016), 119\u2013131.",
+      "doi": ""
+    },
+    {
+      "text": "Eric Jang, Shixiang Gu, and Ben Poole. 2016. Categorical reparameterization with gumbel-softmax. arXiv preprint arXiv:1611.01144(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Shagun Jhaver, Iris Birman, Eric Gilbert, and Amy Bruckman. 2019. Human-machine collaboration for content regulation: The case of Reddit Automoderator. ACM Transactions on Computer-Human Interaction (TOCHI) 26, 5(2019), 1\u201335.",
+      "doi": "10.1145/3338243"
+    },
+    {
+      "text": "Shagun Jhaver, Amy Bruckman, and Eric Gilbert. 2019. Does transparency in moderation really matter? User behavior after content removal explanations on reddit. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201327.",
+      "doi": ""
+    },
+    {
+      "text": "Robin Jia and Percy Liang. 2017. Adversarial Examples for Evaluating Reading Comprehension Systems. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing. 2021\u20132031.",
+      "doi": ""
+    },
+    {
+      "text": "Vijay Keswani, Matthew Lease, and Krishnaram Kenthapadi. 2021. Towards Unbiased and Accurate Deferral to Multiple Experts. arXiv preprint arXiv:2102.13004(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Sara Kiesler, Robert Kraut, Paul Resnick, and Aniket Kittur. 2012. Regulating behavior in online communities. Building successful online communities: Evidence-based social design (2012), 125\u2013178.",
+      "doi": "10.5555/2207798"
+    },
+    {
+      "text": "Jon Kleinberg, Himabindu Lakkaraju, Jure Leskovec, Jens Ludwig, and Sendhil Mullainathan. 2018. Human decisions and machine predictions. The quarterly journal of economics 133, 1 (2018), 237\u2013293.",
+      "doi": ""
+    },
+    {
+      "text": "Vivian Lai, Han Liu, and Chenhao Tan. 2020. \u201cWhy is \u2018Chicago\u2019 deceptive?\u201d Towards Building Model-Driven Tutorials for Humans. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376873"
+    },
+    {
+      "text": "Vivian Lai and Chenhao Tan. 2019. On human predictions with explanations and predictions of machine learning models: A case study on deception detection. In Proceedings of the conference on fairness, accountability, and transparency. 29\u201338.",
+      "doi": "10.1145/3287560.3287590"
+    },
+    {
+      "text": "Tao Lei, Regina Barzilay, and Tommi Jaakkola. 2016. Rationalizing neural predictions. arXiv preprint arXiv:1606.04155(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Q\u00a0Vera Liao, Daniel Gruen, and Sarah Miller. 2020. Questioning the AI: Informing Design Practices for Explainable AI User Experiences. arXiv preprint arXiv:2001.02478(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Brian\u00a0Y Lim, Anind\u00a0K Dey, and Daniel Avrahami. 2009. Why and why not explanations improve the intelligibility of context-aware intelligent systems. In Proceedings of the SIGCHI conference on human factors in computing systems. 2119\u20132128.",
+      "doi": "10.1145/1518701.1519023"
+    },
+    {
+      "text": "Zhiyuan\u00a0\u201cJerry\u201d Lin, Jongbin Jung, Sharad Goel, Jennifer Skeem, 2020. The limits of human predictions of recidivism. Science advances 6, 7 (2020), eaaz0652.",
+      "doi": ""
+    },
+    {
+      "text": "Han Liu, Vivian Lai, and Chenhao Tan. 2021. Understanding the Effect of Out-of-distribution Examples and Interactive Explanations on Human-AI Decision Making. arXiv preprint arXiv:2101.05303(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Brian Lubars and Chenhao Tan. 2019. Ask Not What AI Can Do, But What AI Should Do: Towards a Framework of Task Delegability. In Proceedings of NeurIPS.",
+      "doi": ""
+    },
+    {
+      "text": "Scott\u00a0M Lundberg, Bala Nair, Monica\u00a0S Vavilala, Mayumi Horibe, Michael\u00a0J Eisses, Trevor Adams, David\u00a0E Liston, Daniel King-Wai Low, Shu-Fang Newman, Jerry Kim, 2018. Explainable machine-learning predictions for the prevention of hypoxaemia during surgery. Nature biomedical engineering 2, 10 (2018), 749\u2013760.",
+      "doi": ""
+    },
+    {
+      "text": "Maximilian Mackeprang, Claudia M\u00fcller-Birn, and Maximilian\u00a0Timo Stauss. 2019. Discovering the Sweet Spot of Human-Computer Configurations: A Case Study in Information Extraction. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201330.",
+      "doi": "10.1145/3359297"
+    },
+    {
+      "text": "J\u00a0Nathan Matias. 2016. The civic labor of online moderators. In Internet Politics and Policy conference. Oxford, United Kingdom.",
+      "doi": ""
+    },
+    {
+      "text": "Tom McCoy, Ellie Pavlick, and Tal Linzen. 2019. Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Florence, Italy, 3428\u20133448.",
+      "doi": ""
+    },
+    {
+      "text": "Scott\u00a0Mayer McKinney, Marcin Sieniek, Varun Godbole, Jonathan Godwin, Natasha Antropova, Hutan Ashrafian, Trevor Back, Mary Chesus, Greg\u00a0C Corrado, Ara Darzi, 2020. International evaluation of an AI system for breast cancer screening. Nature 577, 7788 (2020), 89\u201394.",
+      "doi": ""
+    },
+    {
+      "text": "An\u00a0T Nguyen, Aditya Kharosekar, Saumyaa Krishnan, Siddhesh Krishnan, Elizabeth Tate, Byron\u00a0C Wallace, and Matthew Lease. 2018. Believe it or not: Designing a human-ai partnership for mixed-initiative fact-checking. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology. 189\u2013199.",
+      "doi": "10.1145/3242587.3242666"
+    },
+    {
+      "text": "Chikashi Nobata, Joel Tetreault, Achint Thomas, Yashar Mehdad, and Yi Chang. 2016. Abusive language detection in online user content. In Proceedings of the 25th international conference on world wide web. 145\u2013153.",
+      "doi": "10.1145/2872427.2883062"
+    },
+    {
+      "text": "Don Norman. 2013. The design of everyday things: Revised and expanded edition. Basic books.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas O\u2019Neill, Nathan McNeese, Amy Barron, and Beau Schelble. 2020. Human\u2013autonomy teaming: A review and analysis of the empirical literature. Human Factors (2020), 0018720820960865.",
+      "doi": ""
+    },
+    {
+      "text": "Raja Parasuraman, Thomas\u00a0B Sheridan, and Christopher\u00a0D Wickens. 2000. A model for types and levels of human interaction with automation. IEEE Transactions on systems, man, and cybernetics-Part A: Systems and Humans 30, 3 (2000), 286\u2013297.",
+      "doi": "10.1109/3468.844354"
+    },
+    {
+      "text": "Ji\u00a0Ho Park, Jamin Shin, and Pascale Fung. 2018. Reducing Gender Bias in Abusive Language Detection. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, Brussels, Belgium, 2799\u20132804.",
+      "doi": ""
+    },
+    {
+      "text": "Forough Poursabzi-Sangdeh, Daniel\u00a0G Goldstein, Jake\u00a0M Hofman, Jennifer\u00a0Wortman Wortman\u00a0Vaughan, and Hanna Wallach. 2021. Manipulating and measuring model interpretability. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201352.",
+      "doi": "10.1145/3411764.3445315"
+    },
+    {
+      "text": "Jing Qian, Anna Bethke, Yinyin Liu, Elizabeth Belding, and William\u00a0Yang Wang. 2019. A Benchmark Dataset for Learning to Intervene in Online Hate Speech. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). Association for Computational Linguistics, Hong Kong, China, 4755\u20134764.",
+      "doi": ""
+    },
+    {
+      "text": "Emilee Rader, Kelley Cotter, and Janghee Cho. 2018. Explanations as mechanisms for supporting algorithmic transparency. In Proceedings of the 2018 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3173574.3173677"
+    },
+    {
+      "text": "Sarah\u00a0T Roberts. 2014. Behind the screen: The hidden digital labor of commercial content moderation. University of Illinois at Urbana-Champaign.",
+      "doi": ""
+    },
+    {
+      "text": "Maarten Sap, Dallas Card, Saadia Gabriel, Yejin Choi, and Noah\u00a0A. Smith. 2019. The Risk of Racial Bias in Hate Speech Detection. In Proceedings of ACL.",
+      "doi": ""
+    },
+    {
+      "text": "Morgan\u00a0Klaus Scheuerman, Jialun\u00a0Aaron Jiang, Casey Fiesler, and Jed\u00a0R Brubaker. 2021. A Framework of Severity for Harmful Content Online. arXiv preprint arXiv:2108.04401(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Seering, Robert Kraut, and Laura Dabbish. 2017. Shaping pro and anti-social behavior on Twitch through moderation and example-setting. In Proceedings of CSCW. ACM, New York, NY, USA.",
+      "doi": "10.1145/2998181.2998277"
+    },
+    {
+      "text": "David Silver, Thomas Hubert, Julian Schrittwieser, Ioannis Antonoglou, Matthew Lai, Arthur Guez, Marc Lanctot, Laurent Sifre, Dharshan Kumaran, Thore Graepel, 2018. A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play. Science 362, 6419 (2018), 1140\u20131144.",
+      "doi": ""
+    },
+    {
+      "text": "C\u00a0Estelle Smith, Bowen Yu, Anjali Srivastava, Aaron Halfaker, Loren Terveen, and Haiyi Zhu. 2020. Keeping community in the loop: Understanding wikipedia stakeholder values for machine learning-based systems. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376783"
+    },
+    {
+      "text": "Kumar\u00a0Bhargav Srinivasan, Cristian Danescu-Niculescu-Mizil, Lillian Lee, and Chenhao Tan. 2019. Content removal as a moderation strategy: Compliance and other outcomes in the ChangeMyView community. In Proceedings of CSCW.",
+      "doi": "10.1145/3359265"
+    },
+    {
+      "text": "Simone Stumpf, Vidya Rajaram, Lida Li, Weng-Keen Wong, Margaret Burnett, Thomas Dietterich, Erin Sullivan, and Jonathan Herlocker. 2009. Interacting meaningfully with machine learning systems: Three experiments. International journal of human-computer studies 67, 8 (2009), 639\u2013662.",
+      "doi": "10.1016/j.ijhcs.2009.03.004"
+    },
+    {
+      "text": "Chun-Hua Tsai, Yue You, Xinning Gui, Yubo Kou, and John\u00a0M Carroll. 2021. Exploring and Promoting Diagnostic Transparency and Explainability in Online Symptom Checkers. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3411764.3445101"
+    },
+    {
+      "text": "Dakuo Wang, Q\u00a0Vera Liao, Yunfeng Zhang, Udayan Khurana, Horst Samulowitz, Soya Park, Michael Muller, and Lisa Amini. 2021. How Much Automation Does a Data Scientist Want?arXiv preprint arXiv:2101.03970(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Dakuo Wang, Justin\u00a0D Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey Dugan, Yla Tausczik, Horst Samulowitz, and Alexander Gray. 2019. Human-AI Collaboration in Data Science: Exploring Data Scientists\u2019 Perceptions of Automated AI. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201324.",
+      "doi": "10.1145/3359313"
+    },
+    {
+      "text": "Xinru Wang and Ming Yin. 2021. Are Explanations Helpful? A Comparative Study of the Effects of Explanations in AI-Assisted Decision-Making. In 26th International Conference on Intelligent User Interfaces. 318\u2013328.",
+      "doi": "10.1145/3397481.3450650"
+    },
+    {
+      "text": "Hilde\u00a0JP Weerts, Werner van Ipenburg, and Mykola Pechenizkiy. 2019. A Human-Grounded Evaluation of SHAP for Alert Processing. arXiv preprint arXiv:1907.03324(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Michael Wiegand, Josef Ruppenhofer, and Thomas Kleinbauer. 2019. Detection of Abusive Language: the Problem of Biased Datasets. In Proceedings of NAACL.",
+      "doi": ""
+    },
+    {
+      "text": "Bryan Wilder, Eric Horvitz, and Ece Kamar. 2020. Learning to Complement Humans. arXiv preprint arXiv:2005.00582(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, R\u00e9mi Louf, Morgan Funtowicz, 2019. Huggingface\u2019s transformers: State-of-the-art natural language processing. arXiv preprint arXiv:1910.03771(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Ellery Wulczyn, Nithum Thain, and Lucas Dixon. 2017. Ex Machina: Personal Attacks Seen at Scale. In Proceedings of the 26th International Conference on World Wide Web. 1391\u20131399.",
+      "doi": "10.1145/3038912.3052591"
+    },
+    {
+      "text": "Yunfeng Zhang, Q\u00a0Vera Liao, and Rachel\u00a0KE Bellamy. 2020. Effect of confidence and explanation on accuracy and trust calibration in AI-assisted decision making. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. 295\u2013305.",
+      "doi": "10.1145/3351095.3372852"
+    },
+    {
+      "text": "Yiming Zheng, Serena Booth, Julie Shah, and Yilun Zhou. 2021. The Irrationality of Neural Rationale Models. arXiv:2110.07550 [cs] (Oct. 2021). http://arxiv.org/abs/2110.07550 arXiv:2110.07550.",
+      "doi": ""
+    }
+  ]
+}

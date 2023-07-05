@@ -1,0 +1,550 @@
+{
+  "doi": "10.1145/3544548.3581225",
+  "title": "Co-Writing Screenplays and Theatre Scripts with Language Models: Evaluation by Industry Professionals",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-34",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Language models are increasingly attracting interest from writers. However, such models lack long-range semantic coherence, limiting their usefulness for longform creative writing. We address this limitation by applying language models hierarchically, in a system we call Dramatron. By building structural context via prompt chaining, Dramatron can generate coherent scripts and screenplays complete with title, characters, story beats, location descriptions, and dialogue. We illustrate Dramatron\u2019s usefulness as an interactive co-creative system with a user study of 15 theatre and film industry professionals. Participants co-wrote theatre scripts and screenplays with Dramatron and engaged in open-ended interviews. We report reflections both from our interviewees and from independent reviewers who critiqued performances of several of the scripts to illustrate how both Dramatron and hierarchical text generation could be useful for human-machine co-creativity. Finally, we discuss the suitability of Dramatron for co-creativity, ethical considerations\u2014including plagiarism and bias\u2014and participatory models for the design and deployment of such tools.",
+  "authors": [
+    {
+      "name": "Piotr Mirowski",
+      "institution": "DeepMind, United Kingdom",
+      "img": "/do/10.1145/contrib-81442600763/rel-imgonly/piotrmirowski_robot_01.jpg",
+      "acmid": "81442600763",
+      "orcid": "0000-0002-8685-0932"
+    },
+    {
+      "name": "Kory W. Mathewson",
+      "institution": "DeepMind, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659439841",
+      "orcid": "0000-0002-5688-6221"
+    },
+    {
+      "name": "Jaylen Pittman",
+      "institution": "Stanford University, United States and DeepMind, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660781909",
+      "orcid": "0000-0002-5176-5922"
+    },
+    {
+      "name": "Richard Evans",
+      "institution": "DeepMind, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782533",
+      "orcid": "0000-0003-2131-8686"
+    }
+  ],
+  "references": [
+    {
+      "text": "Calamity AI. 2020. Sollicitors. https://www.youtube.com/watch?v=AmX3GDJ47wo",
+      "doi": ""
+    },
+    {
+      "text": "Nader Akoury, Shufan Wang, Josh Whiting, Stephen Hood, Nanyun Peng, and Mohit Iyyer. 2020. STORIUM: A Dataset and Evaluation Platform for Machine-in-the-Loop Story Generation. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). 6470\u20136484.",
+      "doi": ""
+    },
+    {
+      "text": "Amal Alabdulkarim, Siyan Li, and Xiangyu Peng. 2021. Automatic Story Generation: Challenges and Attempts. NAACL HLT 2021 (2021), 72.",
+      "doi": ""
+    },
+    {
+      "text": "Prithviraj Ammanabrolu, Ethan Tien, Wesley Cheung, Zhaochen Luo, William Ma, Lara\u00a0J Martin, and Mark\u00a0O Riedl. 2020. Story realization: Expanding plot events into sentences. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a034. 7375\u20137382.",
+      "doi": ""
+    },
+    {
+      "text": "Aristotle. 350 BC. Poetics.",
+      "doi": ""
+    },
+    {
+      "text": "AL Becker. 1979. Text Building, Epistemology, and Aesthetic in Javanese Shadow Theatre \u201cdalam The Imagination of Reality. Edited by AL Becker and Aram A. Yengoyan.",
+      "doi": ""
+    },
+    {
+      "text": "Emily\u00a0M Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. 2021. On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?(2021), 610\u2013623.",
+      "doi": ""
+    },
+    {
+      "text": "Lane\u00a0Shefter Bishop. 2016. Sell Your Story in A Single Sentence: Advice from the Front Lines of Hollywood. The Countryman Press.",
+      "doi": ""
+    },
+    {
+      "text": "Rishi Bommasani, Drew\u00a0A Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney von Arx, Michael\u00a0S Bernstein, Jeannette Bohg, Antoine Bosselut, Emma Brunskill, 2021. On the opportunities and risks of foundation models. arXiv preprint arXiv:2108.07258(2021). https://arXiv.org/abs/2108.07258",
+      "doi": ""
+    },
+    {
+      "text": "Boyd Branch, Piotr Mirowski, and Kory\u00a0W Mathewson. 2021. Collaborative Storytelling with Human Actors and AI Narrators. Proceedings of the 12th International Conference on Computational Creativity (2021). https://arxiv.org/abs/2109.14728",
+      "doi": ""
+    },
+    {
+      "text": "Gwern Branwen. 2020. GPT-3 creative fiction. (2020). https://gwern.net/GPT-3",
+      "doi": ""
+    },
+    {
+      "text": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared\u00a0D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel\u00a0M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language models are few-shot learners. Advances in neural information processing systems 33 (2020), 1877\u20131901. https://arxiv.org/abs/2005.14165",
+      "doi": ""
+    },
+    {
+      "text": "Alex Calderwood, Vivian Qiu, Katy\u00a0Ilonka Gero, and Lydia\u00a0B Chilton. 2020. How Novelists Use Generative Language Models: An Exploratory User Study.. In Proceedings of HAI-GEN+ user2agent@ IUI.",
+      "doi": ""
+    },
+    {
+      "text": "Alex Calderwood, Noah Wardrip-Fruin, and Michael Mateas. 2022. Spinning Coherent Interactive Fiction through Foundation Model Prompts. (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Campbell. 1949. The hero with a thousand faces. Princeton, NJ: Princeton University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Asli Celikyilmaz, Elizabeth Clark, and Jianfeng Gao. 2020. Evaluation of Text Generation: A Survey. CoRR abs/2006.14799(2020). arXiv:2006.14799https://arxiv.org/abs/2006.14799",
+      "doi": ""
+    },
+    {
+      "text": "Wallace\u00a0L Chafe. 1980. The pear stories: Cognitive, cultural, and linguistic aspects of narrative production. (1980).",
+      "doi": ""
+    },
+    {
+      "text": "Ruijia Cheng, Alison Smith-Renner, Ke Zhang, Joel\u00a0R Tetreault, and Alejandro Jaimes. 2022. Mapping the Design Space of Human-AI Interaction in Text Summarization. arXiv preprint arXiv:2206.14863(2022).",
+      "doi": ""
+    },
+    {
+      "text": "JinUk Cho, MinSu Jeong, JinYeong Bak, and Yun-Gyung Cheong. 2022. Genre-Controllable Story Generation via Supervised Contrastive Learning. In Proceedings of the ACM Web Conference 2022. 2839\u20132849.",
+      "doi": "10.1145/3485447.3512004"
+    },
+    {
+      "text": "John Joon\u00a0Young Chung, Shiqing He, and Eytan Adar. 2022. Artist Support Networks: Implications for Future Creativity Support Tools. Proceedings of Designing Interactive Systems: DIS\u201922 (2022).",
+      "doi": "10.1145/3532106.3533505"
+    },
+    {
+      "text": "John Joon\u00a0Young Chung, Wooseok Kim, Kang\u00a0Min Yoo, Hwaran Lee, Eytan Adar, and Minsuk Chang. 2022. TaleBrush: Sketching Stories with Generative Pretrained Language Models. In CHI Conference on Human Factors in Computing Systems. 1\u201319.",
+      "doi": "10.1145/3491102.3501819"
+    },
+    {
+      "text": "Elizabeth Clark, Anne\u00a0Spencer Ross, Chenhao Tan, Yangfeng Ji, and Noah\u00a0A Smith. 2018. Creative writing with a machine in the loop: Case studies on slogans and stories. In 23rd International Conference on Intelligent User Interfaces. 329\u2013340.",
+      "doi": "10.1145/3172944.3172983"
+    },
+    {
+      "text": "William\u00a0Wallace Cook. 1928. Plotto: The Master Book of All Plots. Ellis, first edition.",
+      "doi": ""
+    },
+    {
+      "text": "Antonia Creswell and Murray Shanahan. 2022. Faithful Reasoning Using Large Language Models. arXiv preprint arXiv:2208.14271(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Sumanth Dathathri, Andrea Madotto, Janice Lan, Jane Hung, Eric Frank, Piero Molino, Jason Yosinski, and Rosanne Liu. 2019. Plug and Play Language Models: A Simple Approach to Controlled Text Generation. CoRR abs/1912.02164(2019). arXiv:1912.02164http://arxiv.org/abs/1912.02164",
+      "doi": ""
+    },
+    {
+      "text": "Anna De\u00a0Fina and Barbara Johnstone. 2015. Discourse analysis and narrative. The handbook of discourse analysis 1 (2015), 152\u2013167.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Debreczeny. 1984. Chekhov\u2019s Art: A Stylistic Analysis.Slavic Review 43, 2 (1984), 347\u2013348.",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Alara Dirik, Hilal Donmez, and Pinar Yanardag. 2021. Controlled Cue Generation for Play Scripts. arXiv preprint arXiv:2112.06953(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Tim Draws, David La\u00a0Barbera, Michael Soprano, Kevin Roitero, Davide Ceolin, Alessandro Checco, and Stefano Mizzaro. 2022. The Effects of Crowd Worker Biases in Fact-Checking Tasks. In 2022 ACM Conference on Fairness, Accountability, and Transparency. 2114\u20132124.",
+      "doi": ""
+    },
+    {
+      "text": "Wanyu Du, Zae\u00a0Myung Kim, Vipul Raheja, Dhruv Kumar, and Dongyeop Kang. 2022. Read, Revise, Repeat: A System Demonstration for Human-in-the-loop Iterative Text Revision. In Proceedings of the First Workshop on Intelligent and Interactive Writing Assistants (In2Writing 2022). 96\u2013108.",
+      "doi": ""
+    },
+    {
+      "text": "Nouha Dziri, Ehsan Kamalloo, Kory\u00a0W Mathewson, and Osmar Zaiane. 2019. Evaluating coherence in dialogue systems using entailment. arXiv preprint arXiv:1904.03371(2019).",
+      "doi": ""
+    },
+    {
+      "text": "David Edgar. 2009. How plays work. Nick Hern Books.",
+      "doi": ""
+    },
+    {
+      "text": "Markus Eger and Kory\u00a0W Mathewson. 2018. dairector: Automatic story beat generation through knowledge synthesis. arXiv preprint arXiv:1811.03423(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Markus Eger, Colin\u00a0M Potts, Camille Barot, and R\u00a0Michael Young. 2015. Plotter: operationalizing the master book of all plots. Proceedings of the Intelligent Narrative Technologies and Social Believability in Games (2015), 30\u201333.",
+      "doi": ""
+    },
+    {
+      "text": "Carsten Eickhoff. 2018. Cognitive biases in crowdsourcing. In Proceedings of the eleventh ACM international conference on web search and data mining. 162\u2013170.",
+      "doi": "10.1145/3159652.3159654"
+    },
+    {
+      "text": "Richard Evans and Emily Short. 2013. Versu\u2014a simulationist storytelling system. IEEE Transactions on Computational Intelligence and AI in Games 6, 2(2013), 113\u2013130.",
+      "doi": ""
+    },
+    {
+      "text": "Angela Fan, Mike Lewis, and Yann\u00a0N. Dauphin. 2018. Hierarchical Neural Story Generation. CoRR abs/1805.04833(2018). arXiv:1805.04833http://arxiv.org/abs/1805.04833",
+      "doi": ""
+    },
+    {
+      "text": "Angela Fan, Mike Lewis, and Yann\u00a0N. Dauphin. 2019. Strategies for Structuring Story Generation. CoRR abs/1902.01109(2019). arXiv:1902.01109http://arxiv.org/abs/1902.01109",
+      "doi": ""
+    },
+    {
+      "text": "Christiane Fellbaum. 2010. WordNet. In Theory and applications of ontology: computer applications. Springer, 231\u2013243.",
+      "doi": ""
+    },
+    {
+      "text": "Gustav Freytag. 1894. Die technik des dramas. S. Hirzel.",
+      "doi": ""
+    },
+    {
+      "text": "Katy\u00a0Ilonka Gero, Vivian Liu, and Lydia Chilton. 2022. Sparks: Inspiration for science writing using language models. In Designing Interactive Systems Conference. 1002\u20131019.",
+      "doi": "10.1145/3532106.3533533"
+    },
+    {
+      "text": "Sarik Ghazarian, Zixi Liu, SM Akash, Ralph Weischedel, Aram Galstyan, and Nanyun Peng. 2021. Plot-guided Adversarial Example Construction for Evaluating Open-domain Story Generation. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 4334\u20134344.",
+      "doi": ""
+    },
+    {
+      "text": "Amelia Glaese, Nat McAleese, Maja Tr\u0119bacz, John Aslanides, Vlad Firoiu, Timo Ewalds, Maribeth Rauh, Laura Weidinger, Martin Chadwick, Phoebe Thacker, 2022. Improving alignment of dialogue agents via targeted human judgements. arXiv preprint arXiv:2209.14375(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Seraphina Goldfarb-Tarrant, Tuhin Chakrabarty, Ralph Weischedel, and Nanyun Peng. 2020. Content Planning for Neural Story Generation with Aristotelian Rescoring. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). 4319\u20134338.",
+      "doi": ""
+    },
+    {
+      "text": "Jian Guan, Fei Huang, Zhihao Zhao, Xiaoyan Zhu, and Minlie Huang. 2020. A knowledge-enhanced pretraining model for commonsense story generation. Transactions of the Association for Computational Linguistics 8 (2020), 93\u2013108.",
+      "doi": ""
+    },
+    {
+      "text": "Jian Guan, Yansen Wang, and Minlie Huang. 2019. Story ending generation with incremental encoding and commonsense knowledge. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a033. 6473\u20136480.",
+      "doi": "10.1609/aaai.v33i01.33016473"
+    },
+    {
+      "text": "Barbara Hayes-Roth and Robert Van\u00a0Gent. 1996. Improvisational puppets, actors, and avatars. In Proc Computer Game Developers\u2019 Conf.",
+      "doi": ""
+    },
+    {
+      "text": "Ernest Hemingway. 1964. A Moveable Feast. Scribner\u2019s.",
+      "doi": ""
+    },
+    {
+      "text": "Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de\u00a0Las Casas, Lisa\u00a0Anne Hendricks, Johannes Welbl, Aidan Clark, 2022. Training Compute-Optimal Large Language Models. arXiv preprint arXiv:2203.15556(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, and Yejin Choi. 2019. The Curious Case of Neural Text Degeneration. In International Conference on Learning Representations.",
+      "doi": ""
+    },
+    {
+      "text": "Zhe Hu, Hou\u00a0Pong Chan, Jiachen Liu, Xinyan Xiao, Hua Wu, and Lifu Huang. 2022. PLANET: Dynamic Content Planning in Autoregressive Transformers for Long-form Text Generation. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2288\u20132305.",
+      "doi": ""
+    },
+    {
+      "text": "Christoph Hube, Besnik Fetahu, and Ujwal Gadiraju. 2019. Understanding and mitigating worker biases in the crowdsourced collection of subjective judgments. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300637"
+    },
+    {
+      "text": "Yiping Jin, Vishakha Kadam, and Dittaya Wanvarie. 2022. Plot Writing From Pre-Trained Language Models. arXiv preprint arXiv:2206.03021(2022). https://arXiv.org/abs/2206.03021",
+      "doi": ""
+    },
+    {
+      "text": "Barbara Johnstone. 2005. Discourse analysis and narrative. The handbook of discourse analysis(2005), 635\u2013649.",
+      "doi": ""
+    },
+    {
+      "text": "Marzena Karpinska, Nader Akoury, and Mohit Iyyer. 2021. The Perils of Using Mechanical Turk to Evaluate Open-Ended Text Generation. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing. 1265\u20131285.",
+      "doi": ""
+    },
+    {
+      "text": "Nitish\u00a0Shirish Keskar, Bryan McCann, Lav\u00a0R Varshney, Caiming Xiong, and Richard Socher. 2019. Ctrl: A conditional transformer language model for controllable generation. arXiv preprint arXiv:1909.05858(2019). http://arxiv.org/abs/1909.05858",
+      "doi": ""
+    },
+    {
+      "text": "Robyn Kozierok, John Aberdeen, Cheryl Clark, Christopher Garay, Bradley Goodman, Tonia Korves, Lynette Hirschman, Patricia\u00a0L McDermott, and Matthew\u00a0W Peterson. 2021. Assessing Open-Ended Human-Computer Collaboration Systems: Applying a Hallmarks Approach. Frontiers in artificial intelligence 4 (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Matt Kusner, Yu Sun, Nicholas Kolkin, and Kilian Weinberger. 2015. From word embeddings to document distances. In International conference on machine learning. PMLR, 957\u2013966.",
+      "doi": ""
+    },
+    {
+      "text": "William Labov and Joshua Waletzky. 1967. Narrative analysis. In Essays on the Verbal and Visual Arts, ed. J. Helm. Seattle: U. of Washington Press, 12\u201344.",
+      "doi": ""
+    },
+    {
+      "text": "Jooyoung Lee, Thai Le, Jinghui Chen, and Dongwon Lee. 2022. Do Language Models Plagiarize?arXiv e-prints (2022), arXiv\u20132203.",
+      "doi": ""
+    },
+    {
+      "text": "Mina Lee, Percy Liang, and Qian Yang. 2022. Coauthor: Designing a human-ai collaborative writing dataset for exploring language model capabilities. In CHI Conference on Human Factors in Computing Systems. 1\u201319.",
+      "doi": "10.1145/3491102.3502030"
+    },
+    {
+      "text": "Boyang Li, Stephen Lee-Urban, George Johnston, and Mark\u00a0O. Riedl. 2013. Story Generation with Crowdsourced Plot Graphs. In Proceedings of the Twenty-Seventh AAAI Conference on Artificial Intelligence (Bellevue, Washington) (AAAI\u201913). AAAI Press, 598\u2013604. http://dl.acm.org/citation.cfm?id=2891460.2891543",
+      "doi": "10.5555/2891460.2891543"
+    },
+    {
+      "text": "Chin-Yew Lin. 2004. Rouge: A package for automatic evaluation of summaries. In Proc ACL Wkshp. Vol 8.",
+      "doi": ""
+    },
+    {
+      "text": "Inderjeet Mani. 2012. Computational modeling of narrative. Synthesis Lectures on Human Language Technologies 5, 3(2012), 1\u2013142.",
+      "doi": ""
+    },
+    {
+      "text": "Lara\u00a0J Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, and Mark\u00a0O Riedl. 2017. Event representations for automated story generation with deep neural nets. arXiv preprint arXiv:1706.01331(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Kory Mathewson and Piotr Mirowski. 2018. Improbotics: Exploring the imitation game using machine intelligence in improvised theatre. In Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment, Vol.\u00a014.",
+      "doi": ""
+    },
+    {
+      "text": "Kory\u00a0W. Mathewson, Pablo\u00a0Samuel Castro, Colin Cherry, George\u00a0F. Foster, and Marc\u00a0G. Bellemare. 2019. Shaping the Narrative Arc: An Information-Theoretic Approach to Collaborative Dialogue. CoRR abs/1901.11528(2019). arXiv:1901.11528http://arxiv.org/abs/1901.11528",
+      "doi": ""
+    },
+    {
+      "text": "Kory\u00a0Wallace Mathewson and Piotr Mirowski. 2017. Improvised Comedy as a Turing Test. arXiv preprint arXiv:1711.08819(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Kory\u00a0Wallace Mathewson and Piotr Mirowski. 2017. Improvised theatre alongside artificial intelligences. In AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment.",
+      "doi": ""
+    },
+    {
+      "text": "Robert McKee. 1997. Story: Substance, Structure, Style and the Principles of Screenwriting. 1997. Kent, Great Britain: Methuen(1997).",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0Richard Meehan. 1976. The metanovel: writing stories by computer.Technical Report. Yale Univ, New Haven Conn, Dept of Comp Sci.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0R Meehan. 1977. TALE-SPIN, An Interactive Program that Writes Stories.. In IJCAI, Vol.\u00a077. 91\u201398.",
+      "doi": ""
+    },
+    {
+      "text": "Piotr Mirowski, Sumit Chopra, Suhrid Balakrishnan, and Srinivas Bangalore. 2010. Feature-rich continuous language models for speech recognition. In Spoken Language Technology Wkshp, 2010 IEEE. IEEE, 241\u2013246.",
+      "doi": ""
+    },
+    {
+      "text": "Piotr Mirowski and Kory\u00a0Wallace Mathewson. 2019. Human improvised theatre augmented with artificial intelligence. In Proceedings of the 2019 on Creativity and Cognition. 527\u2013530.",
+      "doi": "10.1145/3325480.3326547"
+    },
+    {
+      "text": "Annalee Newitz. 2016. Movie written by algorithm turns out to be hilarious and intense. https://arstechnica.com/gaming/2021/05/an-ai-wrote-this-movie-and-its-strangely-moving/",
+      "doi": ""
+    },
+    {
+      "text": "Eric Nichols, Leo Gao, and Randy Gomez. 2020. Collaborative storytelling with large-scale neural language models. In Motion, Interaction and Games. 1\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "OpenAI. 2021. Pricing. https://openai.com/api/pricing/",
+      "doi": ""
+    },
+    {
+      "text": "Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll\u00a0L Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, 2022. Training language models to follow instructions with human feedback. arXiv preprint arXiv:2203.02155(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Vishakh Padmakumar and He He. 2022. Machine-in-the-Loop Rewriting for Creative Image Captioning. In Proceedings of the 20th Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL).",
+      "doi": ""
+    },
+    {
+      "text": "Pinelopi Papalampidi, Kris Cao, and Tomas Kocisky. 2022. Towards Coherent and Consistent Use of Entities in Narrative Generation. International Conference on Macine Learning(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Ken Perlin and Athomas Goldberg. 1996. Improv: A system for scripting interactive actors in virtual worlds. In Proc. Conf. on Computer Graphics and Interactive Techniques. ACM, 205\u2013216.",
+      "doi": "10.1145/237170.237258"
+    },
+    {
+      "text": "Mihai Polceanu, J. Porteous, A. Lindsay, and M. Cavazza. 2021. Narrative Plan Generation with Self-Supervised Learning. In AAAI.",
+      "doi": ""
+    },
+    {
+      "text": "Georges Polti. 1917. The thirty-six dramatic situations. Editor Company.",
+      "doi": ""
+    },
+    {
+      "text": "Vladimir\u00a0Iakovlevich Propp. 1968. Morphology of the Folktale. Vol.\u00a09. University of Texas Press.",
+      "doi": ""
+    },
+    {
+      "text": "Jack\u00a0W. Rae, Sebastian Borgeaud, Trevor Cai, Katie Millican, Jordan Hoffmann, H.\u00a0Francis Song, John Aslanides, Sarah Henderson, Roman Ring, Susannah Young, Eliza Rutherford, Tom Hennigan, Jacob Menick, Albin Cassirer, Richard Powell, George van\u00a0den Driessche, Lisa\u00a0Anne Hendricks, Maribeth Rauh, Po-Sen Huang, Amelia Glaese, Johannes Welbl, Sumanth Dathathri, Saffron Huang, Jonathan Uesato, John Mellor, Irina Higgins, Antonia Creswell, Nat McAleese, Amy Wu, Erich Elsen, Siddhant\u00a0M. Jayakumar, Elena Buchatskaya, David Budden, Esme Sutherland, Karen Simonyan, Michela Paganini, Laurent Sifre, Lena Martens, Xiang\u00a0Lorraine Li, Adhiguna Kuncoro, Aida Nematzadeh, Elena Gribovskaya, Domenic Donato, Angeliki Lazaridou, Arthur Mensch, Jean-Baptiste Lespiau, Maria Tsimpoukelli, Nikolai Grigorev, Doug Fritz, Thibault Sottiaux, Mantas Pajarskas, Toby Pohlen, Zhitao Gong, Daniel Toyama, Cyprien de Masson\u00a0d\u2019Autume, Yujia Li, Tayfun Terzi, Vladimir Mikulik, Igor Babuschkin, Aidan Clark, Diego de Las\u00a0Casas, Aurelia Guy, Chris Jones, James Bradbury, Matthew Johnson, Blake\u00a0A. Hechtman, Laura Weidinger, Iason Gabriel, William\u00a0S. Isaac, Edward Lockhart, Simon Osindero, Laura Rimell, Chris Dyer, Oriol Vinyals, Kareem Ayoub, Jeff Stanway, Lorrayne Bennett, Demis Hassabis, Koray Kavukcuoglu, and Geoffrey Irving. 2021. Scaling Language Models: Methods, Analysis & Insights from Training Gopher. CoRR abs/2112.11446(2021). arXiv:2112.11446https://arxiv.org/abs/2112.11446",
+      "doi": ""
+    },
+    {
+      "text": "Samson Raphaelson. 1949. The Human Nature of Playwriting. New York: Macmillan.",
+      "doi": ""
+    },
+    {
+      "text": "Hannah Rashkin, Asli Celikyilmaz, Yejin Choi, and Jianfeng Gao. 2020. PlotMachines: Outline-Conditioned Generation with Dynamic Plot State Tracking. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). 4274\u20134295.",
+      "doi": ""
+    },
+    {
+      "text": "Emily Reif, Daphne Ippolito, Ann Yuan, Andy Coenen, Chris Callison-Burch, and Jason Wei. 2021. A Recipe For Arbitrary Text Style Transfer with Large Language Models. arXiv preprint arXiv:2109.03910(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0O Riedl and Robert\u00a0Michael Young. 2010. Narrative planning: Balancing plot and character. Journal of Artificial Intelligence Research 39 (2010), 217\u2013268.",
+      "doi": ""
+    },
+    {
+      "text": "Melissa Roemmele and Andrew Gordon. 2018. Linguistic features of helpfulness in automated support for creative writing. In Proceedings of the First Workshop on Storytelling. 14\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "Melissa Roemmele, Andrew\u00a0S Gordon, and Reid Swanson. 2017. Evaluating story generation systems using automated linguistic analyses. In SIGKDD 2017 Workshop on Machine Learning for Creativity. 13\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "Rudolf Rosa, Ond\u0159ej Du\u0161ek, Tom Kocmi, David Mare\u010dek, Tom\u00e1\u0161 Musil, Patr\u00edcia Schmidtov\u00e1, Dominik Jurko, Ond\u0159ej Bojar, Daniel Hrbek, David Ko\u0161t\u2019\u00e1k, 2020. THEaiTRE: Artificial intelligence to write a theatre play. arXiv preprint arXiv:2006.14668(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Rudolf Rosa, Tom\u00e1\u0161 Musil, Ond\u0159ej Du\u0161ek, Dominik Jurko, Patr\u00edcia Schmidtov\u00e1, David Mare\u010dek, Ond\u0159ej Bojar, Tom Kocmi, Daniel Hrbek, David Ko\u0161t\u2019\u00e1k, 2021. THEaiTRE 1.0: Interactive generation of theatre play scripts. arXiv preprint arXiv:2102.08892(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Rudolf Rosa, Patr\u00edcia Schmidtov\u00e1, Ond\u0159ej Du\u0161ek, Tom\u00e1\u0161 Musil, David Mare\u010dek, Saad Obaid, Marie Nov\u00e1kov\u00e1, Kl\u00e1ra Voseck\u00e1, and Josef Dole\u017eal. 2022. GPT-2-based Human-in-the-loop Theatre Play Script Generation. In Proceedings of the 4th Workshop of Narrative Understanding (WNU2022). 29\u201337.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0E Rumelhart. 1975. Notes on a schema for stories. In Representation and understanding. Elsevier, 211\u2013236.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0E Rumelhart. 1980. On evaluating story grammars.(1980).",
+      "doi": ""
+    },
+    {
+      "text": "Keisuke Sakaguchi, Chandra Bhagavatula, Ronan Le\u00a0Bras, Niket Tandon, Peter Clark, and Yejin Choi. 2021. proScript: Partially Ordered Scripts Generation. In Findings of the Association for Computational Linguistics: EMNLP 2021. 2138\u20132149.",
+      "doi": ""
+    },
+    {
+      "text": "Patr\u00edcia Schmidtov\u00e1, D\u00e1vid Javorsk\u1ef3, Christi\u00e1n Mikl\u00e1\u0161, Tom\u00e1\u0161 Musil, Rudolf Rosa, and Ond\u0159ej Du\u0161ek. 2022. DialogueScript: Using Dialogue Agents to Produce a Script. arXiv preprint arXiv:2206.08425(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Oliver Schmitt and Daniel Buschek. 2021. Characterchat: Supporting the creation of fictional characters through conversation and progressive manifestation with a chatbot. In Creativity and Cognition. 1\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Industrial Scripts. 2019. How to write outstanding TV & movie loglines: The ultimate guide. https://industrialscripts.com/loglines-guide/",
+      "doi": ""
+    },
+    {
+      "text": "Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, and Christopher\u00a0D Manning. 2019. Do massively pretrained language models make better storytellers?arXiv preprint arXiv:1909.10705(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Thibault Sellam, Dipanjan Das, and Ankur\u00a0P Parikh. 2020. BLEURT: Learning robust metrics for text generation. arXiv preprint arXiv:2004.04696(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Graeme Shimmin. 2021. Logline formula: How to use the Killogator formula to write a killer logline. https://graemeshimmin.com/writing-a-logline-for-a-novel/",
+      "doi": ""
+    },
+    {
+      "text": "Wai\u00a0Man Si, Prithviraj Ammanabrolu, and Mark Riedl. 2021. Telling Stories through Multi-User Dialogue by Modeling Character Relations. In SIGDIAL.",
+      "doi": ""
+    },
+    {
+      "text": "Blake Snyder. 2005. Save the cat. Michael Wiese Productions Chelsea, Michigan.",
+      "doi": ""
+    },
+    {
+      "text": "Josef Steiff. 2005. The complete idiot\u2019s guide to independent filmmaking. Penguin.",
+      "doi": ""
+    },
+    {
+      "text": "Claire Stevenson, Iris Smal, Matthijs Baas, Raoul Grasman, and Han van\u00a0der Maas. 2022. Putting GPT-3\u2019s Creativity to the (Alternative Uses) Test. (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer Tang, Nina Segal, and Chinonyerem Odimba. 2021. AI at the Young Vic. https://www.youngvic.org/whats-on/ai",
+      "doi": ""
+    },
+    {
+      "text": "Mari\u00ebt Theune, Sander Faas, Anton Nijholt, and Dirk Heylen. 2003. The virtual storyteller: Story creation by intelligent agents. In Proceedings of the Technologies for Interactive Digital Storytelling and Entertainment (TIDSE) Conference, Vol.\u00a0204215.",
+      "doi": ""
+    },
+    {
+      "text": "Perry\u00a0W Thorndyke. 1977. Cognitive structures in comprehension and memory of narrative discourse. Cognitive psychology 9, 1 (1977), 77\u2013110.",
+      "doi": ""
+    },
+    {
+      "text": "Imke Van\u00a0Heerden and Anil Bas. 2021. AI as Author\u2013Bridging the Gap Between Machine Learning and Literary Theory. Journal of Artificial Intelligence Research 71 (2021), 175\u2013189.",
+      "doi": "10.1613/jair.1.12593"
+    },
+    {
+      "text": "Christopher Vogler. 2007. The writer\u2019s journey. Michael Wiese Productions Studio City, CA.",
+      "doi": ""
+    },
+    {
+      "text": "Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel\u00a0R. Bowman. 2018. GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding. ArXiv abs/1804.07461(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Tianming Wang and Xiaojun Wan. 2019. T-CVAE: Transformer-Based Conditioned Variational Autoencoder for Story Completion.. In IJCAI. 5233\u20135239.",
+      "doi": ""
+    },
+    {
+      "text": "Noah Wardrip-Fruin. 2009. Expressive processing. Cambridge: MIT Press. Weiberg, B.(2002). Beyond Interactive Cinema. Retrieved April 9(2009), 2009.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen\u00a0G Ware and Robert\u00a0Michael Young. 2011. CPOCL: A Narrative Planner Supporting Conflict.. In AIIDE.",
+      "doi": ""
+    },
+    {
+      "text": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and Denny Zhou. 2022. Chain of thought prompting elicits reasoning in large language models. arXiv preprint arXiv:2201.11903(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Laura Weidinger, John Mellor, Maribeth Rauh, Conor Griffin, Jonathan Uesato, Po-Sen Huang, Myra Cheng, Mia Glaese, Borja Balle, Atoosa Kasirzadeh, 2021. Ethical and social risks of harm from language models. arXiv preprint arXiv:2112.04359(2021). https://arXiv.org/abs/2112.04359",
+      "doi": ""
+    },
+    {
+      "text": "Jeff Wu, Long Ouyang, Daniel\u00a0M. Ziegler, Nissan Stiennon, Ryan Lowe, Jan Leike, and Paul Christiano. 2021. Recursively Summarizing Books with Human Feedback. arxiv:2109.10862\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Tongshuang Wu, Michael Terry, and Carrie\u00a0Jun Cai. 2022. Ai chains: Transparent and controllable human-ai interaction by chaining large language model prompts. In CHI Conference on Human Factors in Computing Systems. 1\u201322.",
+      "doi": "10.1145/3491102.3517582"
+    },
+    {
+      "text": "Peng Xu, Mostofa Patwary, Mohammad Shoeybi, Raul Puri, Pascale Fung, Anima Anandkumar, and Bryan Catanzaro. 2020. MEGATRON-CNTRL: Controllable story generation with external knowledge using large-scale language models. arXiv preprint arXiv:2010.00840(2020). https://arxiv.org/abs/2010.00840",
+      "doi": ""
+    },
+    {
+      "text": "Daijin Yang, Yanpeng Zhou, Zhiyuan Zhang, Toby Jia-Jun Li, and Ray LC. 2022. AI as an Active Writer: Interaction strategies with generated text in human-AI collaborative fiction writing. In Joint Proceedings of the ACM IUI Workshops 2022, Vol.\u00a010.",
+      "doi": ""
+    },
+    {
+      "text": "Lili Yao, Nanyun Peng, Ralph\u00a0M. Weischedel, Kevin Knight, Dongyan Zhao, and Rui Yan. 2018. Plan-And-Write: Towards Better Automatic Storytelling. CoRR abs/1811.05701(2018). arXiv:1811.05701http://arxiv.org/abs/1811.05701",
+      "doi": ""
+    },
+    {
+      "text": "Ann Yuan, Andy Coenen, Emily Reif, and Daphne Ippolito. 2022. Wordcraft: Story Writing With Large Language Models. In 27th International Conference on Intelligent User Interfaces. 841\u2013852.",
+      "doi": ""
+    },
+    {
+      "text": "Jingqing Zhang, Yao Zhao, Mohammad Saleh, and Peter\u00a0J. Liu. 2019. PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization. CoRR abs/1912.08777(2019). arXiv:1912.08777http://arxiv.org/abs/1912.08777",
+      "doi": ""
+    },
+    {
+      "text": "Yaoming Zhu, Sidi Lu, Lei Zheng, Jiaxian Guo, Weinan Zhang, Jun Wang, and Yong Yu. 2018. Texygen: A benchmarking platform for text generation models. In The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval. 1097\u20131100.",
+      "doi": "10.1145/3209978.3210080"
+    }
+  ]
+}

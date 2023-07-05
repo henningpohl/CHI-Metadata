@@ -1,0 +1,158 @@
+{
+  "doi": "10.1145/3411764.3445187",
+  "title": "Scrappy: Using Scrap Material as Infill to Make Fabrication More Sustainable",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-12",
+  "year": 2021,
+  "badges": [],
+  "abstract": "We present a software system for fused deposition modelling 3D printing that replaces infill material with scrap to reduce material and energy consumption. Example scrap objects include unused 3D prints from prototyping and calibration, household waste like coffee cups, and off-cuts from other fabrication projects. To achieve this, our system integrates into an existing CAD workflow and manages a database of common items, previous prints, and manually entered objects. While modelling in a standard CAD application, the system suggests objects to insert, ranked by how much infill material they could replace. This computation extends an existing nesting algorithm to determine which objects fit, optimize their alignment, and adjust the enclosing mesh geometry. While printing, the system uses custom tool-paths and animated instructions to enable anyone nearby to manually insert the scrap material.",
+  "authors": [
+    {
+      "name": "Ludwig Wilhelm Wall",
+      "institution": "Cheriton School of Computer Science University of Waterloo, Canada",
+      "img": "/do/10.1145/contrib-99658761910/rel-imgonly/lww11.jpg",
+      "acmid": "99658761910",
+      "orcid": "missing"
+    },
+    {
+      "name": "Alec Jacobson",
+      "institution": "Department of Computer Science University of Toronto, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81487642912",
+      "orcid": "missing"
+    },
+    {
+      "name": "Daniel Vogel",
+      "institution": "Cheriton School of Computer Science University of Waterloo, Canada",
+      "img": "/do/10.1145/contrib-81100054467/rel-imgonly/purple_shirt_selfie_redmond.jpg",
+      "acmid": "81100054467",
+      "orcid": "0000-0001-7620-0541"
+    },
+    {
+      "name": "Oliver Schneider",
+      "institution": "University of Waterloo, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81486645894",
+      "orcid": "0000-0002-6240-8445"
+    }
+  ],
+  "references": [
+    {
+      "text": "3devo B.V.2020. 3devo: Turning 3D printing into a closed-loop cycle. https://3devo.com/our-process/. [Online; accessed 17-September-2020].",
+      "doi": ""
+    },
+    {
+      "text": "Yoh Akiyama and Homei Miyashita. 2016. Fitter: A System for Easily Printing Objects That Fit Real Objects. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (Tokyo, Japan) (UIST \u201916 Adjunct). Association for Computing Machinery, New York, NY, USA, 129\u2013131. https://doi.org/10.1145/2984751.2985730",
+      "doi": "10.1145/2984751.2985730"
+    },
+    {
+      "text": "Stewart Allen. 2020. Kiri:Moto: An open-source slicer for Laser cutting, 3D printing, CNC milling. https://grid.space/kiri/. [Online; accessed 17-September-2020].",
+      "doi": ""
+    },
+    {
+      "text": "Inc. Autodesk. 2020. Fusion360. https://www.autodesk.ca/en/products/fusion-360/overview. [Online; accessed 17-September-2020].",
+      "doi": ""
+    },
+    {
+      "text": "Ultimaker BV. 2020. Cura: an open source slicing application for 3D printers. https://ultimaker.com/software/ultimaker-cura/. [Online; accessed 17-September-2020].",
+      "doi": ""
+    },
+    {
+      "text": "Xiang\u00a0\u2019Anthony\u2019 Chen, Stelian Coros, and Scott\u00a0E. Hudson. 2018. Medley: A Library of Embeddables to Explore Rich Material Properties for 3D Printed Objects. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173736",
+      "doi": "10.1145/3173574.3173736"
+    },
+    {
+      "text": "Xiang\u00a0\u2019Anthony\u2019 Chen, Stelian Coros, Jennifer Mankoff, and Scott\u00a0E. Hudson. 2015. Encore: 3D Printed Augmentation of Everyday Objects with Printed-Over, Affixed and Interlocked Attachments. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology (Charlotte, NC, USA) (UIST \u201915). Association for Computing Machinery, New York, NY, USA, 73\u201382. https://doi.org/10.1145/2807442.2807498",
+      "doi": "10.1145/2807442.2807498"
+    },
+    {
+      "text": "A. Dijkshoorn, P. Werkman, M. Welleweerd, G. Wolterink, B. Eijking, J. Delamare, R. Sanders, and G.\u00a0J.\u00a0M. Krijnen. 2018. Embedded sensing: integrating sensors in 3-D printed structures. Journal of Sensors and Sensor Systems 7, 1 (2018), 169\u2013181. https://doi.org/10.5194/jsss-7-169-2018",
+      "doi": ""
+    },
+    {
+      "text": "Alfonso Fern\u00e1ndez. 2019. Development of Actuators Using Material Extrusion Additive Manufacturing with Embedded Shape Memory Alloy Wire. Master\u2019s thesis. University of Texas at El Paso.",
+      "doi": ""
+    },
+    {
+      "text": "The\u00a0Blender Foundation. 2020. Blender V2.8. https://www.blender.org/. [Online; accessed 17-September-2020].",
+      "doi": ""
+    },
+    {
+      "text": "James Gopsill, Jonathan Shindler, and Ben Hicks. 2017. Using finite element analysis to influence the infill design of fused deposition modelled parts. Progress in Additive Manufacturing 3 (11 2017). https://doi.org/10.1007/s40964-017-0034-y",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Groeger, Elena Chong\u00a0Loo, and J\u00fcrgen Steimle. 2016. HotFlex: Post-Print Customization of 3D Prints Using Embedded State Change. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 420\u2013432. https://doi.org/10.1145/2858036.2858191",
+      "doi": "10.1145/2858036.2858191"
+    },
+    {
+      "text": "Alec Jacobson. 2017. Generalized Matryoshka: Computational Design of Nesting Objects. Computer Graphics Forum 36, 5 (2017), 27\u201335. https://doi.org/10.1111/cgf.13242 arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13242",
+      "doi": "10.1111/cgf.13242"
+    },
+    {
+      "text": "Andrew Jones, Thomas Cameron, Benjamin Eichholz, Martin Eichers, Taylor Kray, and Jeremy Straub. 2019. Reducing space sensing and other mission cost with 3D printing infill optimization. In Sensors and Systems for Space Applications XII, Genshe Chen and Khanh\u00a0D. Pham (Eds.), Vol.\u00a011017. International Society for Optics and Photonics, SPIE, Bellingham, Washington USA, 69 \u2013 74. https://doi.org/10.1117/12.2520261",
+      "doi": ""
+    },
+    {
+      "text": "J. Kennedy and R. Eberhart. 1995. Particle swarm optimization. In Proceedings of ICNN\u201995 - International Conference on Neural Networks, Vol.\u00a04. IEEE, Perth, WA, Australia, Australia, 1942\u20131948 vol.4. https://doi.org/10.1109/ICNN.1995.488968",
+      "doi": ""
+    },
+    {
+      "text": "Marius Kintel and Clifford Wolf. 2020. OpenSCAD: The Programmers Solid 3D CAD Modeller. https://www.openscad.org/. [Online; accessed 17-September-2020].",
+      "doi": ""
+    },
+    {
+      "text": "Robert Kovacs, Anna Seufert, Ludwig Wall, Hsiang-Ting Chen, Florian Meinel, Willi M\u00fcller, Sijing You, Maximilian Brehm, Jonathan Striebel, Yannis Kommana, Alexander Popiak, Thomas Bl\u00e4sius, and Patrick Baudisch. 2017. TrussFab: Fabricating Sturdy Large-Scale Structures on Desktop 3D Printers. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 2606\u20132616. https://doi.org/10.1145/3025453.3026016",
+      "doi": "10.1145/3025453.3026016"
+    },
+    {
+      "text": "LLC MakerBot\u00a0Industries. 2020. MakerBot Thingiverse. https://www.thingiverse.com/. [Online; accessed 17-September-2020].",
+      "doi": ""
+    },
+    {
+      "text": "Stefanie Mueller, Sangha Im, Serafima Gurevich, Alexander Teibrich, Lisa Pfisterer, Fran\u00e7ois Guimbreti\u00e8re, and Patrick Baudisch. 2014. WirePrint: 3D Printed Previews for Fast Prototyping. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (Honolulu, Hawaii, USA) (UIST \u201914). Association for Computing Machinery, New York, NY, USA, 273\u2013280. https://doi.org/10.1145/2642918.2647359",
+      "doi": "10.1145/2642918.2647359"
+    },
+    {
+      "text": "Stefanie Mueller, Tobias Mohr, Kerstin Guenther, Johannes Frohnhofen, and Patrick Baudisch. 2014. FaBrickation: Fast 3D Printing of Functional Objects by Integrating Construction Kit Building Blocks. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 3827\u20133834. https://doi.org/10.1145/2556288.2557005",
+      "doi": "10.1145/2556288.2557005"
+    },
+    {
+      "text": "Jukka Pakkanen, Diego Manfredi, Paolo Minetola, and Luca Iuliano. 2017. About the Use of Recycled or Biodegradable Filaments for Sustainability of 3D Printing. In Sustainable Design and Manufacturing 2017, Giampaolo Campana, Robert\u00a0J. Howlett, Rossi Setchi, and Barbara Cimatti (Eds.). Springer International Publishing, Cham, 776\u2013785.",
+      "doi": ""
+    },
+    {
+      "text": "Huaishu Peng, Rundong Wu, Steve Marschner, and Fran\u00e7ois Guimbreti\u00e8re. 2016. On-The-Fly Print: Incremental Printing While Modelling. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 887\u2013896. https://doi.org/10.1145/2858036.2858106",
+      "doi": "10.1145/2858036.2858106"
+    },
+    {
+      "text": "Prusa Research. 2020. PrusaSlicer: G-code generator for 3D printers. https://www.thingiverse.com/. [Online; accessed 17-September-2020].",
+      "doi": ""
+    },
+    {
+      "text": "P.\u00a0Frazer Seymour, Justin Matejka, Geoff Foulds, Ihor Petelycky, and Fraser Anderson. 2017. AMI: An Adaptable Music Interface to Support the Varying Needs of People with Dementia. In Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility (Baltimore, Maryland, USA) (ASSETS \u201917). Association for Computing Machinery, New York, NY, USA, 150\u2013154. https://doi.org/10.1145/3132525.3132557",
+      "doi": "10.1145/3132525.3132557"
+    },
+    {
+      "text": "C. Shemelya, F. Cedillos, E. Aguilera, D. Espalin, D. Muse, R. Wicker, and E. MacDonald. 2015. Encapsulated Copper Wire and Copper Mesh Capacitive Sensing for 3-D Printing Applications. IEEE Sensors Journal 15, 2 (2015), 1280\u20131286.",
+      "doi": ""
+    },
+    {
+      "text": "J. Wu, N. Aage, R. Westermann, and O. Sigmund. 2018. Infill Optimization for Additive Manufacturing\u2014Approaching Bone-Like Porous Structures. IEEE Transactions on Visualization and Computer Graphics 24, 2(2018), 1127\u20131140.",
+      "doi": ""
+    },
+    {
+      "text": "Suguru Yamada, Hironao Morishige, Hiroki Nozaki, Masaki Ogawa, Takuro Yonezawa, and Hideyuki Tokuda. 2016. ReFabricator: Integrating Everyday Objects for Digital Fabrication. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems(San Jose, California, USA) (CHI EA \u201916). Association for Computing Machinery, New York, NY, USA, 3804\u20133807. https://doi.org/10.1145/2851581.2890237",
+      "doi": "10.1145/2851581.2890237"
+    },
+    {
+      "text": "Amanda\u00a0K. Yung, Zhiyuan Li, and Daniel Ashbrook. 2018. Printy3D: In-Situ Tangible Three-Dimensional Design for Augmented Fabrication. In Proceedings of the 17th ACM Conference on Interaction Design and Children (Trondheim, Norway) (IDC \u201918). Association for Computing Machinery, New York, NY, USA, 181\u2013194. https://doi.org/10.1145/3202185.3202751",
+      "doi": "10.1145/3202185.3202751"
+    },
+    {
+      "text": "Kening Zhu, Alexandru Dancu, and Shengdong Zhao. 2017. FusePrint: A DIY 2.5D Printing Technique for Good-Fit Fabrication with Daily Objects. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI EA \u201917). Association for Computing Machinery, New York, NY, USA, 413\u2013416. https://doi.org/10.1145/3027063.3050430",
+      "doi": "10.1145/3027063.3050430"
+    }
+  ]
+}

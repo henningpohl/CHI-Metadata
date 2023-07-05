@@ -1,0 +1,327 @@
+{
+  "doi": "10.1145/3544548.3581269",
+  "title": "GlanceWriter: Writing Text by Glancing Over Letters with Gaze",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-13",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Writing text with eye gaze only is an appealing hands-free text entry method. However, existing gaze-based text entry methods introduce eye fatigue and are slow in typing speed because they often require users to dwell on letters of a word, or mark the starting and ending positions of a gaze path with extra operations for entering a word. In this paper, we propose GlanceWriter, a text entry method that allows users to enter text by glancing over keys one by one without any need to dwell on any keys or specify the starting and ending positions of a gaze path when typing a word. To achieve so, GlanceWriter probabilistically determines the letters to be typed based on the dynamics of gaze movements and gaze locations. Our user studies demonstrate that GlanceWriter significantly improves the text entry performance over EyeSwipe, a dwell-free input method using \u201creverse crossing\u201d to identify the starting and ending keys. GlanceWriter also outperforms the dwell-free gaze input method of Tobii\u2019s Communicator 5, a commercial eye gaze-based communication system. Overall, GlanceWriter achieves dwell-free and crossing-free text entry by probabilistically decoding gaze paths, offering a promising gaze-based text entry method.",
+  "authors": [
+    {
+      "name": "Wenzhe Cui",
+      "institution": "Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659313268",
+      "orcid": "0000-0001-8968-846X"
+    },
+    {
+      "name": "Rui Liu",
+      "institution": "Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660049876",
+      "orcid": "0000-0003-3654-1645"
+    },
+    {
+      "name": "Zhi Li",
+      "institution": "Department of Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700941",
+      "orcid": "0000-0001-8298-2279"
+    },
+    {
+      "name": "Yifan Wang",
+      "institution": "Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660784027",
+      "orcid": "0000-0002-8255-954X"
+    },
+    {
+      "name": "Andrew Wang",
+      "institution": "CICS, University of Massachusetts Amherst, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660049414",
+      "orcid": "0000-0002-2414-4266"
+    },
+    {
+      "name": "Xia Zhao",
+      "institution": "Clinically Integrated Network, Stony Brook Medicine, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660049731",
+      "orcid": "0000-0002-9056-6221"
+    },
+    {
+      "name": "Sina Rashidian",
+      "institution": "Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659233033",
+      "orcid": "0000-0003-1210-2939"
+    },
+    {
+      "name": "Furqan Baig",
+      "institution": "Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659232557",
+      "orcid": "0000-0003-1609-5545"
+    },
+    {
+      "name": "IV Ramakrishnan",
+      "institution": "Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81452611166",
+      "orcid": "0000-0002-1768-7043"
+    },
+    {
+      "name": "Fusheng Wang",
+      "institution": "Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100213103",
+      "orcid": "0000-0002-9369-9361"
+    },
+    {
+      "name": "Xiaojun Bi",
+      "institution": "Department of Computer Science, Stony Brook University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81309485662",
+      "orcid": "0000-0002-9716-7709"
+    }
+  ],
+  "references": [
+    {
+      "text": "Ouais Alsharif, Tom Ouyang, Fran\u00e7oise Beaufays, Shumin Zhai, Thomas Breuel, and Johan Schalkwyk. 2015. Long short term memory neural network for keyboard gesture decoding. In 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2076\u20132080.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaojun Bi, Shiri Azenkot, Kurt Partridge, and Shumin Zhai. 2013. Octopus: Evaluating Touchscreen Keyboard Correction and Recognition Algorithms via. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). ACM, New York, NY, USA, 543\u2013552. https://doi.org/10.1145/2470654.2470732",
+      "doi": "10.1145/2470654.2470732"
+    },
+    {
+      "text": "Xiaojun Bi, Ciprian Chelba, Tom Ouyang, Kurt Partridge, and Shumin Zhai. 2012. Bimanual gesture keyboard. In Proceedings of the 25th annual ACM symposium on User interface software and technology. 137\u2013146.",
+      "doi": "10.1145/2380116.2380136"
+    },
+    {
+      "text": "Syed\u00a0Masum Billah, Yu-Jung Ko, Vikas Ashok, Xiaojun Bi, and IV Ramakrishnan. 2019. Accessible gesture typing for non-visual text entry on smartphones. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300606"
+    },
+    {
+      "text": "Tom\u00a0B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel\u00a0M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language Models are Few-Shot Learners. arxiv:2005.14165\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Wenzhe Cui, Jingjie Zheng, Blaine Lewis, Daniel Vogel, and Xiaojun Bi. 2019. Hotstrokes: Word-gesture shortcuts on a trackpad. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300395"
+    },
+    {
+      "text": "Wenzhe Cui, Suwen Zhu, Zhi Li, Zheer Xu, Xing-Dong Yang, IV Ramakrishnan, and Xiaojun Bi. 2021. BackSwipe: Back-of-device Word-Gesture Interaction on Smartphones. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3411764.3445081"
+    },
+    {
+      "text": "Mark Davies. 2018. The corpus of contemporary American English: 1990-present.",
+      "doi": ""
+    },
+    {
+      "text": "Antonio Diaz-Tula and Carlos\u00a0H Morimoto. 2016. Augkey: Increasing foveal throughput in eye typing with augmented keys. In Proceedings of the 2016 CHI conference on human factors in computing systems. 3533\u20133544.",
+      "doi": "10.1145/2858036.2858517"
+    },
+    {
+      "text": "Tobii dynavox. 2021. Communicator 5. https://www.tobiidynavox.com/software/windows-software/communicator-5/.",
+      "doi": ""
+    },
+    {
+      "text": "Augusto Esteves, Eduardo Velloso, Andreas Bulling, and Hans Gellersen. 2015. Orbits: Gaze interaction for smart watches using smooth pursuit eye movements. In Proceedings of the 28th annual ACM symposium on user interface software & technology. 457\u2013466.",
+      "doi": "10.1145/2807442.2807499"
+    },
+    {
+      "text": "Anna\u00a0Maria Feit, Shane Williams, Arturo Toledo, Ann Paradiso, Harish Kulkarni, Shaun Kane, and Meredith\u00a0Ringel Morris. 2017. Toward Everyday Gaze Input: Accuracy and Precision of Eye Tracking and Implications for Design. Association for Computing Machinery, New York, NY, USA, 1118\u20131130. https://doi.org/10.1145/3025453.3025599",
+      "doi": "10.1145/3025453.3025599"
+    },
+    {
+      "text": "Wenxin Feng, Ming Chen, and Margrit Betke. 2014. Target reverse crossing: a selection method for camera-based mouse-replacement systems. In Proceedings of the 7th International Conference on PErvasive Technologies Related to Assistive Environments. 1\u20134.",
+      "doi": "10.1145/2674396.2674443"
+    },
+    {
+      "text": "Wenxin Feng, Jiangnan Zou, Andrew Kurauchi, Carlos\u00a0H Morimoto, and Margrit Betke. 2021. Hgaze typing: Head-gesture assisted gaze typing. In ACM Symposium on Eye Tracking Research and Applications. 1\u201311.",
+      "doi": "10.1145/3448017.3457379"
+    },
+    {
+      "text": "Mitchell Gordon, Tom Ouyang, and Shumin Zhai. 2016. WatchWriter: Tap and gesture typing on a smartwatch miniature keyboard with statistical decoding. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 3817\u20133821.",
+      "doi": "10.1145/2858036.2858242"
+    },
+    {
+      "text": "Aakar Gupta, Cheng Ji, Hui-Shyong Yeo, Aaron Quigley, and Daniel Vogel. 2019. Rotoswype: Word-gesture typing using a ring. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300244"
+    },
+    {
+      "text": "Michael\u00a0Xuelin Huang, Jiajia Li, Grace Ngai, and Hong\u00a0Va Leong. 2017. Screenglint: Practical, in-situ gaze estimation on smartphones. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 2546\u20132557.",
+      "doi": "10.1145/3025453.3025794"
+    },
+    {
+      "text": "Anke Huckauf and Mario\u00a0H Urbina. 2008. Gazing with pEYEs: towards a universal input for various applications. In Proceedings of the 2008 symposium on Eye tracking research & applications. 51\u201354.",
+      "doi": "10.1145/1344471.1344483"
+    },
+    {
+      "text": "Chi-Shin Hwang, Ho-Hsiu Weng, Li-Fen Wang, Chon-Haw Tsai, and Hao-Teng Chang. 2014. An eye-tracking assistive device improves the quality of life for ALS patients and reduces the caregivers\u2019 burden. Journal of motor behavior 46, 4 (2014), 233\u2013238.",
+      "doi": ""
+    },
+    {
+      "text": "Jalal Ismaili 2017. Mobile learning as alternative to assistive technology devices for special needs students. Education and Information Technologies 22, 3 (2017), 883\u2013899.",
+      "doi": "10.1007/s10639-015-9462-9"
+    },
+    {
+      "text": "Toshiya Isomoto, Toshiyuki Ando, Buntarou Shizuki, and Shin Takahashi. 2018. Dwell time reduction technique using Fitts\u2019 law for gaze-based target acquisition. In Proceedings of the 2018 ACM Symposium on Eye Tracking Research & Applications. 1\u20137.",
+      "doi": "10.1145/3204493.3204532"
+    },
+    {
+      "text": "Robert\u00a0JK Jacob. 1990. What you look at is what you get: eye movement-based interaction techniques. In Proceedings of the SIGCHI conference on Human factors in computing systems. 11\u201318.",
+      "doi": "10.1145/97243.97246"
+    },
+    {
+      "text": "Liu Jigang, Bu\u00a0Sung\u00a0Lee Francis, and Deepu Rajan. 2019. Free-head appearance-based eye gaze estimation on mobile devices. In 2019 International Conference on Artificial Intelligence in Information and Communication (ICAIIC). IEEE, 232\u2013237.",
+      "doi": ""
+    },
+    {
+      "text": "Per-Ola Kristensson and Shumin Zhai. 2004. SHARK2: A Large Vocabulary Shorthand Writing System for Pen-based Computers. In Proceedings of the 17th Annual ACM Symposium on User Interface Software and Technology (Santa Fe, NM, USA) (UIST \u201904). ACM, New York, NY, USA, 43\u201352. https://doi.org/10.1145/1029632.1029640",
+      "doi": "10.1145/1029632.1029640"
+    },
+    {
+      "text": "Chandan Kumar, Ramin Hedeshy, I\u00a0Scott MacKenzie, and Steffen Staab. 2020. TAGSwipe: Touch Assisted Gaze Swipe for Text Entry. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3313831.3376317"
+    },
+    {
+      "text": "Andrew Kurauchi, Wenxin Feng, Ajjen Joshi, Carlos Morimoto, and Margrit Betke. 2016. EyeSwipe: Dwell-free text entry using gaze paths. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 1952\u20131956.",
+      "doi": "10.1145/2858036.2858335"
+    },
+    {
+      "text": "Andrew Kurauchi, Wenxin Feng, Ajjen Joshi, Carlos\u00a0H Morimoto, and Margrit Betke. 2020. Swipe&Switch: Text Entry Using Gaze Paths and Context Switching. In Adjunct Publication of the 33rd Annual ACM Symposium on User Interface Software and Technology. 84\u201386.",
+      "doi": "10.1145/3379350.3416193"
+    },
+    {
+      "text": "Zhi Li, Maozheng Zhao, Yifan Wang, Sina Rashidian, Furqan Baig, Rui Liu, Wanyu Liu, Michel Beaudouin-Lafon, Brooke Ellison, Fusheng Wang, 2021. BayesGaze: A Bayesian Approach to Eye-Gaze Based Target Selection. In Graphics Interface 2021.",
+      "doi": ""
+    },
+    {
+      "text": "Yu-Hao Lin, Suwen Zhu, Yu-Jung Ko, Wenzhe Cui, and Xiaojun Bi. 2018. Why is gesture typing promising for older adults? comparing gesture and tap typing behavior of older with young adults. In Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility. 271\u2013281.",
+      "doi": "10.1145/3234695.3236350"
+    },
+    {
+      "text": "I.\u00a0Scott MacKenzie. 2015. A Note on Calculating Text Entry Speed.",
+      "doi": ""
+    },
+    {
+      "text": "I.\u00a0Scott MacKenzie and R.\u00a0William Soukoreff. 2003. Phrase Sets for Evaluating Text Entry Techniques. In CHI \u201903 Extended Abstracts on Human Factors in Computing Systems (Ft. Lauderdale, Florida, USA) (CHI EA \u201903). ACM, New York, NY, USA, 754\u2013755. https://doi.org/10.1145/765891.765971",
+      "doi": "10.1145/765891.765971"
+    },
+    {
+      "text": "P\u00e4ivi Majaranta, Ulla-Kaija Ahola, and Oleg \u0160pakov. 2009. Fast gaze typing with an adjustable dwell time. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 357\u2013360.",
+      "doi": "10.1145/1518701.1518758"
+    },
+    {
+      "text": "P\u00e4ivi Majaranta and Kari-Jouko R\u00e4ih\u00e4. 2007. Text entry by gaze: Utilizing eye-tracking. Text entry systems: Mobility, accessibility, universality (2007), 175\u2013187.",
+      "doi": ""
+    },
+    {
+      "text": "Anders Markussen, Mikkel\u00a0R\u00f8nne Jakobsen, and Kasper Hornb\u00e6k. 2014. Vulture: a mid-air word-gesture keyboard. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1073\u20131082.",
+      "doi": "10.1145/2556288.2556964"
+    },
+    {
+      "text": "Martez\u00a0E. Mott, Shane Williams, J. Wobbrock, and M. Morris. 2017. Improving Dwell-Based Gaze Typing with Dynamic, Cascading Dwell Times. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (2017).",
+      "doi": "10.1145/3025453.3025517"
+    },
+    {
+      "text": "Alexandra Papoutsaki, Patsorn Sangkloy, James Laskey, Nediyana Daskalova, Jeff Huang, and James Hays. 2016. WebGazer: Scalable Webcam Eye Tracking Using User Interactions. In Proceedings of the 25th International Joint Conference on Artificial Intelligence (IJCAI). AAAI, 3839\u20133845.",
+      "doi": ""
+    },
+    {
+      "text": "Diogo Pedrosa, Maria Da\u00a0Gra\u00e7a Pimentel, Amy Wright, and Khai\u00a0N Truong. 2015. Filteryedping: Design challenges and user performance of dwell-free eye typing. ACM Transactions on Accessible Computing (TACCESS) 6, 1 (2015), 1\u201337.",
+      "doi": "10.1145/2724728"
+    },
+    {
+      "text": "Ken Pfeuffer, Benedikt Mayer, Diako Mardanbegi, and Hans Gellersen. 2017. Gaze+ pinch interaction in virtual reality. In Proceedings of the 5th Symposium on Spatial User Interaction. 99\u2013108.",
+      "doi": "10.1145/3131277.3132180"
+    },
+    {
+      "text": "Daniel Rough, Keith Vertanen, and Per\u00a0Ola Kristensson. 2014. An evaluation of Dasher with a high-performance language model as a gaze communication method. In Proceedings of the 2014 International Working Conference on Advanced Visual Interfaces. 169\u2013176.",
+      "doi": "10.1145/2598153.2598157"
+    },
+    {
+      "text": "S. Sarcar, P. Panwar, and T. Chakraborty. 2013. EyeK: an efficient dwell-free eye gaze-based text entry system. In APCHI.",
+      "doi": ""
+    },
+    {
+      "text": "Immo Schuetz, T\u00a0Scott Murdison, Kevin\u00a0J MacKenzie, and Marina Zannoli. 2019. An Explanation of Fitts\u2019 Law-like Performance in Gaze-Based Selection Tasks Using a Psychophysics Approach. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300765"
+    },
+    {
+      "text": "Korok Sengupta, Raphael Menges, Chandan Kumar, and Steffen Staab. 2017. Gazethekey: Interactive keys to integrate word predictions for gaze-based text entry. In Proceedings of the 22nd International Conference on Intelligent User Interfaces Companion. 121\u2013124.",
+      "doi": "10.1145/3030024.3038259"
+    },
+    {
+      "text": "Korok Sengupta, Raphael Menges, Chandan Kumar, and Steffen Staab. 2019. Impact of variable positioning of text prediction in gaze-based text entry. In Proceedings of the 11th ACM Symposium on Eye Tracking Research & Applications. 1\u20139.",
+      "doi": "10.1145/3317956.3318152"
+    },
+    {
+      "text": "Ludwig Sidenmark and Hans Gellersen. 2019. Eye&head: Synergetic eye and head movement for gaze pointing and selection. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology. 1161\u20131174.",
+      "doi": "10.1145/3332165.3347921"
+    },
+    {
+      "text": "Adalberto\u00a0L Simeone, Andreas Bulling, Jason Alexander, and Hans Gellersen. 2016. Three-point interaction: Combining bi-manual direct touch with gaze. In Proceedings of the international working conference on advanced visual interfaces. 168\u2013175.",
+      "doi": "10.1145/2909132.2909251"
+    },
+    {
+      "text": "Rosella Spataro, Maria Ciriacono, Cecilia Manno, and Vincenzo La\u00a0Bella. 2014. The eye-tracking computer device for communication in amyotrophic lateral sclerosis. Acta Neurologica Scandinavica 130, 1 (2014), 40\u201345.",
+      "doi": ""
+    },
+    {
+      "text": "Outi Tuisku, P\u00e4ivi Majaranta, Poika Isokoski, and Kari-Jouko R\u00e4ih\u00e4. 2008. Now Dasher! Dash away! Longitudinal study of fast text entry by eye gaze. In Proceedings of the 2008 symposium on Eye tracking research & applications. 19\u201326.",
+      "doi": "10.1145/1344471.1344476"
+    },
+    {
+      "text": "Wikipedia contributors. 2021. Trie \u2014 Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/w/index.php?title=Trie&oldid=1038125595 [Online; accessed 31-August-2021].",
+      "doi": ""
+    },
+    {
+      "text": "Erroll Wood, Tadas Baltrusaitis, Xucong Zhang, Yusuke Sugano, Peter Robinson, and Andreas Bulling. 2015. Rendering of eyes for eye-shape registration and gaze estimation. In Proceedings of the IEEE International Conference on Computer Vision. 3756\u20133764.",
+      "doi": "10.1109/ICCV.2015.428"
+    },
+    {
+      "text": "Erroll Wood and Andreas Bulling. 2014. Eyetab: Model-based gaze estimation on unmodified tablet computers. In Proceedings of the Symposium on Eye Tracking Research and Applications. 207\u2013210.",
+      "doi": "10.1145/2578153.2578185"
+    },
+    {
+      "text": "Hui-Shyong Yeo, Xiao-Shen Phang, Steven\u00a0J Castellucci, Per\u00a0Ola Kristensson, and Aaron Quigley. 2017. Investigating tilt-based gesture keyboard entry for single-handed text entry on large devices. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 4194\u20134202.",
+      "doi": "10.1145/3025453.3025520"
+    },
+    {
+      "text": "Xin Yi, Chun Yu, Weinan Shi, Xiaojun Bi, and Yuanchun Shi. 2017. Word Clarity As a Metric in Sampling Keyboard Test Sets. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). ACM, New York, NY, USA, 4216\u20134228. https://doi.org/10.1145/3025453.3025701",
+      "doi": "10.1145/3025453.3025701"
+    },
+    {
+      "text": "Chun Yu, Yizheng Gu, Zhican Yang, Xin Yi, Hengliang Luo, and Yuanchun Shi. 2017. Tap, dwell or gesture? Exploring head-based text entry techniques for HMDs. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 4479\u20134488.",
+      "doi": "10.1145/3025453.3025964"
+    },
+    {
+      "text": "Shumin Zhai and Per-Ola Kristensson. 2003. Shorthand writing on stylus keyboard. In Proceedings of the SIGCHI conference on Human factors in computing systems. 97\u2013104.",
+      "doi": "10.1145/642611.642630"
+    },
+    {
+      "text": "Shumin Zhai and Per\u00a0Ola Kristensson. 2012. The word-gesture keyboard: reimagining keyboard interaction. Commun. ACM 55, 9 (2012), 91\u2013101.",
+      "doi": "10.1145/2330667.2330689"
+    },
+    {
+      "text": "Shumin Zhai, Per\u00a0Ola Kristensson, Pengjun Gong, Michael Greiner, Shilei\u00a0Allen Peng, Liang\u00a0Mico Liu, and Anthony Dunnigan. 2009. Shapewriter on the iPhone: from the laboratory to the real world. In CHI\u201909 Extended Abstracts on Human Factors in Computing Systems. 2667\u20132670.",
+      "doi": ""
+    },
+    {
+      "text": "Xucong Zhang, Michael\u00a0Xuelin Huang, Yusuke Sugano, and Andreas Bulling. 2018. Training person-specific gaze estimators from user interactions with multiple devices. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3173574.3174198"
+    },
+    {
+      "text": "Suwen Zhu, Tianyao Luo, Xiaojun Bi, and Shumin Zhai. 2018. Typing on an Invisible Keyboard. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). ACM, New York, NY, USA, Article 439, 13\u00a0pages. https://doi.org/10.1145/3173574.3174013",
+      "doi": "10.1145/3173574.3174013"
+    },
+    {
+      "text": "Suwen Zhu, Jingjie Zheng, Shumin Zhai, and Xiaojun Bi. 2019. i\u2019sFree: Eyes-Free Gesture Typing via a Touch-Enabled Remote Control. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300678"
+    }
+  ]
+}

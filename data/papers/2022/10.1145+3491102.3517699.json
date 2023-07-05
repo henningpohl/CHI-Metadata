@@ -1,0 +1,519 @@
+{
+  "doi": "10.1145/3491102.3517699",
+  "title": "\u201cI See You!\u201d: A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-22",
+  "year": 2022,
+  "badges": [],
+  "abstract": "As artificial agents proliferate, there will be more and more situations in which they must communicate their capabilities to humans, including what they can \u201csee.\u201d Artificial agents have existed for decades in the form of computer-controlled agents in videogames. We analyze videogames in order to not only inspire the design of better agents, but to stop agent designers from replicating research that has already been theorized, designed, and tested in-depth. We present a qualitative thematic analysis of sight cues in videogames and develop a framework to support human-agent interaction design. The framework identifies the different locations and stimulus types \u2013 both visualizations and sonifications \u2013 available to designers and the types of information they can convey as sight cues. Insights from several other cue properties are also presented. We close with suggestions for implementing such cues with existing technologies to improve the safety, privacy, and efficiency of human-agent interactions.",
+  "authors": [
+    {
+      "name": "Matthew Rueben",
+      "institution": "Intergroup Human-Robot Interaction Lab, New Mexico State University, United States",
+      "img": "/do/10.1145/contrib-99658690817/rel-imgonly/matt_rueben_portrait-cropped.jpg",
+      "acmid": "99658690817",
+      "orcid": "missing"
+    },
+    {
+      "name": "Matthew R Horrocks",
+      "institution": "Computer Science, New Mexico State University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659909537",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jennifer Eleanor Martinez",
+      "institution": "Embry-Riddle Aeronautical University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659908330",
+      "orcid": "missing"
+    },
+    {
+      "name": "Michelle V Cormier",
+      "institution": "Intergroup Human-Robot Interaction (iHRI) Lab and Play & Interactive Experiences for Learning Lab (PIxL), New Mexico State University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660232945",
+      "orcid": "missing"
+    },
+    {
+      "name": "Nicolas LaLone",
+      "institution": "Information Systems and Quantitative Analysis, University of Nebraska at Omaha, United States",
+      "img": "/do/10.1145/contrib-87259569357/rel-imgonly/me.jpg",
+      "acmid": "87259569357",
+      "orcid": "0000-0003-2254-2831"
+    },
+    {
+      "name": "Marlena Fraune",
+      "institution": "Department of Psychology, New Mexico State University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "87358698657",
+      "orcid": "missing"
+    },
+    {
+      "name": "Z Toups Dugas",
+      "institution": "Play & Interactive Experiences for Learning Lab / Department of Computer Science, New Mexico State University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660237012",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Henny Admoni, Bradley Hayes, David Feil-Seifer, Daniel Ullman, and Brian Scassellati. 2013. Are you looking at me? Perception of robot attention is mediated by gaze type and group size. In 8th ACM/IEEE International Conference on Human-Robot Interaction (HRI). IEEE, 389\u2013395.",
+      "doi": ""
+    },
+    {
+      "text": "Sultan\u00a0A. Alharthi, Olaa Alsaedi, Z Toups, Theresa\u00a0Jean Tanenbaum, and Jessica Hammer. 2018. Playing to Wait: A Taxonomy of Idle Games. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems(CHI \u201918). ACM, New York, NY, USA, 621:1\u2013621:15.",
+      "doi": "10.1145/3173574.3174195"
+    },
+    {
+      "text": "Sultan\u00a0A. Alharthi, Z Toups, Olaa Alsaedi, Theresa\u00a0Jean Tanenbaum, and Jessica Hammer. 2018. The Pleasure of Playing Less: A Study of Incremental Games through the Lens of Kittens. Well Played Singles(2018). http://dx.doi.org/https://doi.org/10.1184/R1/6686957.v1",
+      "doi": ""
+    },
+    {
+      "text": "Mahoro Anabuki, Hiroyuki Kakuta, Hiroyuki Yamamoto, and Hideyuki Tamura. 2000. Welbo: an embodied conversational agent living in mixed reality space. In Extended Abstracts on Human Factors in Computing Systems (CHI \u201900). ACM Press, The Hague, The Netherlands, 10. http://dx.doi.org/10.1145/633292.633299",
+      "doi": "10.1145/633292.633299"
+    },
+    {
+      "text": "Ronald\u00a0T. Azuma. 1997. A Survey of Augmented Reality. In Presence: Teleoperators and Virtual Environments, Vol.\u00a06. 355\u2013385.",
+      "doi": ""
+    },
+    {
+      "text": "Gagan Bansal, Besmira Nushi, Ece Kamar, Walter\u00a0S Lasecki, Daniel\u00a0S Weld, and Eric Horvitz. 2019. Beyond accuracy: The role of mental models in human-AI team performance. In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing, Vol.\u00a07. 2\u201311. Issue: 1.",
+      "doi": ""
+    },
+    {
+      "text": "Christoph Bartneck, Tony Belpaeme, Friederike Eyssel, Takayuki Kanda, Merel Keijsers, and Selma \u0160abanovi\u0107. 2020. Human-robot interaction: An introduction. Cambridge University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Bayliss. 2007. Beings in the Game-World: Characters, Avatars, and Players. In Proceedings of the 4th Australasian Conference on Interactive Entertainment(IE \u201907). RMIT University, Melbourne, AUS.",
+      "doi": ""
+    },
+    {
+      "text": "Victoria Bellotti, Maribeth Back, W.\u00a0Keith Edwards, Rebecca\u00a0E. Grinter, Austin Henderson, and Cristina Lopes. 2002. Making Sense of Sensing Systems: Five Questions for Designers and Researchers. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201902). Association for Computing Machinery, New York, NY, USA, 415\u2013422. http://dx.doi.org/10.1145/503376.503450",
+      "doi": "10.1145/503376.503450"
+    },
+    {
+      "text": "Steve Benford, Andy Crabtree, Martin Flintham, Adam Drozd, Rob Anastasi, Mark Paxton, Nick Tandavanitj, Matt Adams, and Ju Row-Farr. 2006. Can You See Me Now?ACM Trans. Comput.-Hum. Interact. 13, 1 (March 2006), 100\u2013133. http://dx.doi.org/10.1145/1143518.1143522",
+      "doi": "10.1145/1143518.1143522"
+    },
+    {
+      "text": "Steve Benford and Gabriella Giannachi. 2011. Performing Mixed Reality. MIT Press.",
+      "doi": "10.5555/2030028"
+    },
+    {
+      "text": "Staffan Bj\u00f6rk and Jussi Holopainen. 2006. Games and Design Patterns. In The Game Design Reader: A Rules of Play Anthology, Katie Salen and Eric Zimmerman (Eds.). 410\u2013437.",
+      "doi": ""
+    },
+    {
+      "text": "Gabriele Bolano, Christian Juelg, Arne Roennau, and Ruediger Dillmann. 2019. Transparent Robot Behavior Using Augmented Reality in Close Human-Robot Interaction. In 28th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN). 1\u20137. http://dx.doi.org/10.1109/RO-MAN46459.2019.8956296 ISSN: 1944-9437.",
+      "doi": ""
+    },
+    {
+      "text": "Nathan Bos, Ann Zimmerman, Judith Olson, Jude Yew, Jason Yerkie, Erik Dahl, and Gary Olson. 2007. From Shared Databases to Communities of Practice: A Taxonomy of Collaboratories. Journal of Computer-Mediated Communication 12, 2 (2007), 652\u2013672.",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative Research in Psychology 3, 2 (2006), 77\u2013101. http://dx.doi.org/10.1191/1478088706qp063oa",
+      "doi": "10.1191/1478088706QP063OA"
+    },
+    {
+      "text": "Anke\u00a0M. Brock, Julia Chatain, Michelle Park, Tommy Fang, Martin Hachet, James\u00a0A. Landay, and Jessica\u00a0R. Cauchard. 2018. FlyMap: Interacting with Maps Projected from a Drone. In Proceedings of the 7th ACM International Symposium on Pervasive Displays(PerDis \u201918). Association for Computing Machinery, New York, NY, USA. http://dx.doi.org/10.1145/3205873.3205877",
+      "doi": "10.1145/3205873.3205877"
+    },
+    {
+      "text": "Janis\u00a0A Cannon-Bowers, Eduardo Salas, and Sharolyn Converse. 1993. Shared Mental Models in Expert Team Decision Making. In Individual and Group Decision Making: Current Issues, N\u00a0John\u00a0Castellan Jr (Ed.). Earlbaum Associates, Hillsdale, NJ, USA, 221\u2013246.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0M Carroll and Mary\u00a0Beth Rosson. 1987. Paradox of the active user. In Interfacing thought: Cognitive aspects of human-computer interaction. 80\u2013111.",
+      "doi": ""
+    },
+    {
+      "text": "Marcus Carter, Martin Gibbs, and Michael Arnold. 2012. Avatars, Characters, Players and Users: Multiple Identities at/in Play. In Proceedings of the 24th Australian Computer-Human Interaction Conference(OzCHI \u201912). Association for Computing Machinery, New York, NY, USA, 68\u201371. http://dx.doi.org/10.1145/2414536.2414547",
+      "doi": "10.1145/2414536.2414547"
+    },
+    {
+      "text": "Justine Cassell. 2000. Nudge nudge wink wink: Elements of face-to-face conversation for embodied conversational agents. In Embodied conversational agents, Justine Cassell, Joseph Sullivan, Elizabeth Churchill, and Scott Prevost (Eds.). Vol.\u00a01. MIT Press.",
+      "doi": ""
+    },
+    {
+      "text": "Justine Cassell and Kristinn\u00a0R. Thorisson. 1999. The power of a nod and a glance: Envelope vs. emotional feedback in animated conversational agents. Applied Artificial Intelligence 13, 4-5 (May 1999), 519\u2013538. http://dx.doi.org/10.1080/088395199117360",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth Cha, Anca\u00a0D. Dragan, and Siddhartha\u00a0S. Srinivasa. 2015. Perceived robot capability. In 24th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN). IEEE, 541\u2013548.",
+      "doi": "10.1109/ROMAN.2015.7333656"
+    },
+    {
+      "text": "Elizabeth Cha, Yunkyung Kim, Terrence Fong, and Maja\u00a0J. Mataric. 2018. A survey of nonverbal signaling methods for non-humanoid robots. Foundations and Trends\u00ae in Robotics 6, 4 (2018), 211\u2013323. Publisher: Now Publishers, Inc.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Chalmers and Areti Galani. 2004. Seamful interweaving: Heterogeneity in the theory and design of interactive systems. In DIS \u201904: Proceedings of the 2004 Conference on Designing Interactive Systems. ACM Press, 243\u2013252. http://dx.doi.org/10.1145/1013115.1013149",
+      "doi": "10.1145/1013115.1013149"
+    },
+    {
+      "text": "Jessie\u00a0Y.C. Chen and Michael\u00a0J. Barnes. 2015. Agent Transparency for Human-Agent Teaming Effectiveness. In IEEE International Conference on Systems, Man, and Cybernetics. 1381\u20131385. http://dx.doi.org/10.1109/SMC.2015.245",
+      "doi": ""
+    },
+    {
+      "text": "Hao-Fei Cheng, Ruotong Wang, Zheng Zhang, Fiona O\u2019Connell, Terrance Gray, F.\u00a0Maxwell Harper, and Haiyi Zhu. 2019. Explaining Decision-Making Algorithms through UI: Strategies to Help Non-Expert Stakeholders. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, Glasgow, Scotland, UK, 1\u201312. http://dx.doi.org/10.1145/3290605.3300789",
+      "doi": "10.1145/3290605.3300789"
+    },
+    {
+      "text": "Victor Cheung, Y.-L.\u00a0Betty Chang, and Stacey\u00a0D. Scott. 2012. Communication channels and awareness cues in collocated collaborative time-critical gaming. In Proceedings of the ACM Conference on Computer Supported Cooperative Work. 569\u2013578.",
+      "doi": "10.1145/2145204.2145291"
+    },
+    {
+      "text": "Martin Constable, Justin Dauwels, Shoko Dauwels, Rasheed Umer, Mengyu Zhou, and Yasir Tahir. 2016. Modelling Conversation. In Context Aware Human-Robot and Human-Agent Interaction, Nadia Magnenat-Thalmann, Junsong Yuan, Daniel Thalmann, and Bum-Jae You (Eds.). Springer International Publishing, Cham, 81\u2013111. http://dx.doi.org/10.1007/978-3-319-19947-4_4",
+      "doi": ""
+    },
+    {
+      "text": "Rajkumar Darbar, Joan\u00a0Sol Roo, Thibault Lain\u00e9, and Martin Hachet. 2019. DroneSAR: Extending Physical Spaces in Spatial Augmented Reality Using Projection on a Drone. In Proceedings of the 18th International Conference on Mobile and Ubiquitous Multimedia(MUM \u201919). Association for Computing Machinery, New York, NY, USA. http://dx.doi.org/10.1145/3365610.3365631",
+      "doi": "10.1145/3365610.3365631"
+    },
+    {
+      "text": "Drew Davidson. 2008. Well Played: Interpreting Prince of Persia: The Sands of Time. Games and Culture 3, 3-4 (July 2008), 356\u2013386.",
+      "doi": ""
+    },
+    {
+      "text": "Leslie\u00a0A DeChurch and Jessica\u00a0R. Mesmer-Magnus. 2010. Measuring shared team mental models: A meta-analysis. Group Dynamics: Theory, Research, and Practice 14, 1(2010), 1\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Anca\u00a0D Dragan, Kenton\u00a0CT Lee, and Siddhartha\u00a0S Srinivasa. 2013. Legibility and predictability of robot motion. In 8th ACM/IEEE International Conference on Human-Robot Interaction (HRI). IEEE, 301\u2013308.",
+      "doi": "10.5555/2447556.2447672"
+    },
+    {
+      "text": "Katharina Emmerich and Maic Masuch. 2016. The Influence of Virtual Agents on Player Experience and Performance. In Proceedings of the 2016 Annual Symposium on Computer-Human Interaction in Play(CHI PLAY \u201916). Association for Computing Machinery, New York, NY, USA, 10\u201321. http://dx.doi.org/10.1145/2967934.2968092",
+      "doi": "10.1145/2967934.2968092"
+    },
+    {
+      "text": "Katharina Emmerich, Patrizia Ring, and Maic Masuch. 2018. I\u2019m Glad You Are on My Side: How to Design Compelling Game Companions. In Proceedings of the 2018 Annual Symposium on Computer-Human Interaction in Play(CHI PLAY \u201918). Association for Computing Machinery, New York, NY, USA, 141\u2013152. http://dx.doi.org/10.1145/3242671.3242709",
+      "doi": "10.1145/3242671.3242709"
+    },
+    {
+      "text": "Mica\u00a0R. Endsley. 1995. Toward a theory of situation awareness in dynamic systems. Human Factors 37, 1 (1995), 32\u201364.",
+      "doi": ""
+    },
+    {
+      "text": "Mica\u00a0R. Endsley. 2000. Theoretical Underpinnings of Situation Awareness: A Critical Review. In Situation Awareness Analysis and Measurement, Mica\u00a0R. Endsley and D\u00a0J Garland (Eds.). Lawrence Erlbaum Associates, Mahwah, NJ, USA, 3\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Elliot\u00a0E. Entin and Daniel Serfaty. 1999. Adaptive Team Coordination. Human Factors 41, 2 (June 1999), 312\u2013325.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0R. Epke, Lars Kooijman, and Joost C.\u00a0F. de Winter. 2021. I See Your Gesture: A VR-Based Study of Bidirectional Communication between Pedestrians and Automated Vehicles. Journal of Advanced Transportation 2021 (April 2021), e5573560. http://dx.doi.org/10.1155/2021/5573560 Publisher: Hindawi.",
+      "doi": ""
+    },
+    {
+      "text": "J.\u00a0Alberto Espinosa, F.\u00a0Javier Lerch, and Robert\u00a0E. Kraut. 2004. Explicit versus implicit coordination mechanisms and task dependencies: One size does not fit all. In Team Cognition: Understanding the factors that Drive Process and Performance. American Psychological Association, 107\u2013130.",
+      "doi": ""
+    },
+    {
+      "text": "Evelyn Florentine, Mark\u00a0Adam Ang, Scott\u00a0Drew Pendleton, Hans Andersen, and Marcelo\u00a0H Ang\u00a0Jr. 2016. Pedestrian notification methods in autonomous vehicles for multi-class mobility-on-demand service. In Proceedings of the Fourth International Conference on Human Agent Interaction. 387\u2013392.",
+      "doi": "10.1145/2974804.2974833"
+    },
+    {
+      "text": "David Forsyth and Jean Ponce. 2011. Computer vision: A modern approach.Prentice hall.",
+      "doi": ""
+    },
+    {
+      "text": "D Gentner and A\u00a0L Stevens. 1983. Mental Models. Lawrence Earlbaum Associates, Hillsdale, NJ, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Katy\u00a0Ilonka Gero, Zahra Ashktorab, Casey Dugan, Qian Pan, James Johnson, Werner Geyer, Maria Ruiz, Sarah Miller, David\u00a0R. Millen, Murray Campbell, Sadhana Kumaravel, and Wei Zhang. 2020. Mental Models of AI Agents in a Cooperative Game Setting. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu HI USA, 1\u201312. http://dx.doi.org/10.1145/3313831.3376316",
+      "doi": "10.1145/3313831.3376316"
+    },
+    {
+      "text": "Michael\u00a0J. Gielniak and Andrea\u00a0L. Thomaz. 2012. Enhancing Interaction through Exaggerated Motion Synthesis. In Proceedings of the Seventh Annual ACM/IEEE International Conference on Human-Robot Interaction(HRI \u201912). Association for Computing Machinery, New York, NY, USA, 375\u2013382. http://dx.doi.org/10.1145/2157689.2157813",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0A Goodrich and Alan\u00a0C Schultz. 2008. Human-robot interaction: a survey. Now Publishers Inc.",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Gurtner, Franziska Tschan, Norbert\u00a0K Semmer, and Christof N\u00e4gele. 2007. Getting groups to develop good strategies: Effects of reflexivity interventions on team process, team performance, and shared mental models. Organizational Behavior and Human Decision Process 102 (2007), 127\u2013142.",
+      "doi": ""
+    },
+    {
+      "text": "Carl Gutwin and Saul Greenberg. 2004. The Importance of Awareness for Team Cognition in Distributed Collaboration. In Team Cognition: Understanding the Factors that Drive Process and Performance (1st ed.), Eduardo Salas and Stephen\u00a0M. Fiore (Eds.). American Psychological Association, Washington, DC, USA, 177\u2013201.",
+      "doi": ""
+    },
+    {
+      "text": "Komei Hasegawa and Yasushi Nakauchi. Preliminary Evaluation of a Telepresence Robot Conveying Pre-motions for Avoiding Speech Collisions. (????), 4.",
+      "doi": ""
+    },
+    {
+      "text": "Christian Heath and Paul Luff. 2000. Team work: Collaboration and control in London Underground line control rooms. In Technology in Action, Roy Pea, John\u00a0Seely Brown, and Christian Heath (Eds.). Cambridge University Press, Cambridge, UK, 88\u2013124.",
+      "doi": ""
+    },
+    {
+      "text": "Eva Hornecker, Paul Marshall, Nick\u00a0Sheep Dalton, and Yvonne Rogers. 2008. Collaboration and Interference: Awareness with Mice or Touch Input. In Proceedings of the 2008 ACM Conference on Computer Supported Cooperative Work(CSCW \u201908). Association for Computing Machinery, New York, NY, USA, 167\u2013176. http://dx.doi.org/10.1145/1460563.1460589",
+      "doi": "10.1145/1460563.1460589"
+    },
+    {
+      "text": "Edwin Hutchins. 1988. The Technology of Team Navigation. ICS Report. Technology and Cooperative Work.",
+      "doi": ""
+    },
+    {
+      "text": "Ioanna Iacovides, Anna Cox, Richard Kennedy, Paul Cairns, and Charlene Jennett. 2015. Removing the HUD: The Impact of Non-Diegetic Game Elements and Expertise on Player Involvement. In Proceedings of the 2015 Annual Symposium on Computer-Human Interaction in Play(CHI PLAY \u201915). Association for Computing Machinery, New York, NY, USA, 13\u201322. http://dx.doi.org/10.1145/2793107.2793120",
+      "doi": "10.1145/2793107.2793120"
+    },
+    {
+      "text": "Colby Johanson and Regan\u00a0L. Mandryk. 2016. Scaffolding Player Location Awareness through Audio Cues in First-Person Shooters. Association for Computing Machinery, New York, NY, USA, 3450\u20133461. https://doi.org/10.1145/2858036.2858172",
+      "doi": "10.1145/2858036.2858172"
+    },
+    {
+      "text": "Kristine J\u00f8rgensen. 2013. Gameworld Interfaces. MIT Press, Cambridge, MA, USA.",
+      "doi": ""
+    },
+    {
+      "text": "M.\u00a0Waleed Kadous, Raymond Ka-Man Sheh, and Claude Sammut. 2006. Effective user interface design for rescue robotics. In Proceedings of the 1st ACM SIGCHI/SIGART conference on Human-robot interaction. 250\u2013257.",
+      "doi": "10.1145/1121241.1121285"
+    },
+    {
+      "text": "Sara Kiesler. 2005. Fostering common ground in human-robot interaction. In IEEE International Workshop on Robot and Human Interactive Communication (RO-MAN). IEEE, 729\u2013734.",
+      "doi": ""
+    },
+    {
+      "text": "Richard Klimoski and Susan Mohammed. 1994. Team Mental Model: Construct or Metaphor?Journal of Management 20, 2 (1994), 403\u2013437.",
+      "doi": ""
+    },
+    {
+      "text": "Ross\u00a0A Knepper, Christoforos\u00a0I Mavrogiannis, Julia Proft, and Claire Liang. 2017. Implicit communication in a joint action. In Proceedings of the 2017 ACM/IEEE International Conference on Human-Robot Interaction (HRI). 283\u2013292.",
+      "doi": "10.1145/2909824.3020226"
+    },
+    {
+      "text": "Todd Kulesza, Simone Stumpf, Margaret Burnett, and Irwin Kwan. 2012. Tell me more?: the effects of mental model soundness on personalizing an intelligent agent. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, Austin Texas USA, 1\u201310. http://dx.doi.org/10.1145/2207676.2207678",
+      "doi": "10.1145/2207676.2207678"
+    },
+    {
+      "text": "Todd Kulesza, Simone Stumpf, Margaret Burnett, Sherry Yang, Irwin Kwan, and Weng-Keen Wong. 2013. Too much, too little, or just right? Ways explanations impact end users\u2019 mental models. In 2013 IEEE Symposium on Visual Languages and Human Centric Computing. IEEE, 3\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Johannes Kunkel, Tim Donkers, Lisa Michael, Catalin-Mihai Barbu, and J\u00fcrgen Ziegler. 2019. Let Me Explain: Impact of Personal and Impersonal Explanations on Trust in Recommender Systems. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, Glasgow, Scotland, UK, 1\u201312. http://dx.doi.org/10.1145/3290605.3300717",
+      "doi": "10.1145/3290605.3300717"
+    },
+    {
+      "text": "Nicolas LaLone. 2019. A Tale of Dungeons & Dragons and the Origins of the Game Platform. Analog Game Studies 3, 6 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Nicolas LaLone, Sultan A.\u00a0Alharthi, and Z\u00a0O Toups. 2019. A Vision of Augmented Reality for Urban Search and Rescue. In Proceedings of the Halfway to the Future Symposium 2019. 1\u20134.",
+      "doi": "10.1145/3363384.3363466"
+    },
+    {
+      "text": "Alex Leavitt, Brian\u00a0C. Keegan, and Joshua Clark. 2016. Ping to Win? Non-Verbal Communication and Team Performance in Competitive Online Multiplayer Games. Association for Computing Machinery, New York, NY, USA, 4337\u20134350. https://doi.org/10.1145/2858036.2858132",
+      "doi": "10.1145/2858036.2858132"
+    },
+    {
+      "text": "Min\u00a0Kyung Lee, Karen\u00a0P. Tang, Jodi Forlizzi, and Sara Kiesler. 2011. Understanding users\u2019 perception of privacy in human-robot interaction. In Proceedings of the 6th International Conference on Human-Robot Interaction (HRI). ACM, 181\u2013182.",
+      "doi": "10.1145/1957656.1957721"
+    },
+    {
+      "text": "Sau-lai Lee, Ivy Yee-man Lau, Sara Kiesler, and Chi-Yue Chiu. 2005. Human mental models of humanoid robots. In Proceedings of the 2005 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2767\u20132772.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Lewis, Huao Li, and Katia Sycara. 2021. Chapter 14 - Deep learning, transparency, and trust in human robot teamwork. In Trust in Human-Robot Interaction, Chang\u00a0S. Nam and Joseph\u00a0B. Lyons (Eds.). Academic Press, 321\u2013352. http://dx.doi.org/10.1016/B978-0-12-819472-0.00014-9",
+      "doi": ""
+    },
+    {
+      "text": "Lucy\u00a0R. Lippard. 1971. Marcel Duchamp. In Dadas on Art: Tzara, Arp, Duchamp, and Others, Lucy\u00a0R. Lippard (Ed.). Dover Publications, Inc., 139\u2013154.",
+      "doi": ""
+    },
+    {
+      "text": "Stefan Liszio, Katharina Emmerich, and Maic Masuch. 2017. The Influence of Social Entities in Virtual Reality Games on Player Experience and Immersion. In Proceedings of the 12th International Conference on the Foundations of Digital Games(FDG \u201917). Association for Computing Machinery, New York, NY, USA. http://dx.doi.org/10.1145/3102071.3102086",
+      "doi": "10.1145/3102071.3102086"
+    },
+    {
+      "text": "Michal Luria. 2018. Designing Robot Personality Based on Fictional Sidekick Characters. In Companion of the 2018 ACM/IEEE International Conference on Human-Robot Interaction(HRI \u201918). Association for Computing Machinery, New York, NY, USA, 307\u2013308. http://dx.doi.org/10.1145/3173386.3176912",
+      "doi": ""
+    },
+    {
+      "text": "Jean MacMillan, Elliot\u00a0E. Entin, and Daniel Serfaty. 2004. Communication Overhead: The Hidden Cost of Team Cognition. In Team Cognition: Understanding the Factors that Drive Process and Performance. American Psychological Association, 61\u201382.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0E. Mathieu, Gerald\u00a0F. Goodwin, Tonia\u00a0S. Heffner, Eduardo Salas, and Janis\u00a0A. Cannon-Bowers. 2000. The Influence of Shared Mental Models on Team Process and Performance. Journal of Applied Psychology 85, 2 (2000), 273\u2013283.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Milgram and Fumio Kishino. 1994. A taxonomy of mixed reality visual displays. IEICE Trans. Information Systems E77-D, 12 (1994), 1321\u20131329.",
+      "doi": ""
+    },
+    {
+      "text": "Tim Miller. 2019. Explanation in artificial intelligence: Insights from the social sciences. Artificial Intelligence 267 (Feb. 2019), 1\u201338. http://dx.doi.org/10.1016/j.artint.2018.07.007",
+      "doi": ""
+    },
+    {
+      "text": "Brian Ka-Jun Mok, Stephen Yang, David Sirkin, and Wendy Ju. 2015. A place for every tool and every tool in its place: Performing collaborative tasks with interactive robotic drawers. In 24th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN). IEEE, 700\u2013706.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0Edison Mu\u00f1oz\u00a0Cardona and Kerstin Dautenhahn. 2021. Robo Ludens: Game Design Techniques Applied in HRI Experiments. In Companion of the ACM/IEEE International Conference on Human-Robot Interaction. 691\u2013693.",
+      "doi": "10.1145/3434074.3444883"
+    },
+    {
+      "text": "Peter Naur. 1985. Programming as theory building. Microprocessing and microprogramming 15, 5 (1985), 253\u2013261.",
+      "doi": ""
+    },
+    {
+      "text": "Don Norman. 2013. The Design of Everyday Things: Revised and Expanded Edition (2013 ed.). Basic Books, New York City, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Oxford English Dictionary. 2017. \u201cdiegesis, n.\u201d. Dictionary Definition. (June 2017). Retrieved September 15, 2017 from http://www.oed.com/view/Entry/52402.",
+      "doi": ""
+    },
+    {
+      "text": "Steffi Paepcke and Leila Takayama. 2010. Judging a bot by its cover: an experiment on expectation setting for personal robots. In Proceedings of the 5th ACM/IEEE International Conference on Human-Robot Interaction (HRI). IEEE Press, 45\u201352.",
+      "doi": ""
+    },
+    {
+      "text": "Ramviyas Parasuraman, Sergio Caccamo, Fredrik Baaberg, Petter Ogren, and Mark Neerincx. 2017. A New UGV Teleoperation Interface for Improved Awareness of Network Connectivity and Physical Surroundings. Journal of Human-Robot Interaction 6, 3 (2017), 48\u201370.",
+      "doi": "10.5898/JHRI.6.3.Parasuraman"
+    },
+    {
+      "text": "Tomislav Pejsa, Sean Andrist, Michael Gleicher, and Bilge Mutlu. 2015. Gaze and Attention Management for Embodied Conversational Agents. ACM Transactions on Interactive Intelligent Systems 5, 1 (March 2015), 1\u201334. http://dx.doi.org/10.1145/2724731",
+      "doi": "10.1145/2724731"
+    },
+    {
+      "text": "Catherine Pelachaud. 2005. Multimodal expressive embodied conversational agents. In Proceedings of the 13th annual ACM international conference on Multimedia - MULTIMEDIA \u201905. ACM Press, Hilton, Singapore, 683. http://dx.doi.org/10.1145/1101149.1101301",
+      "doi": "10.1145/1101149.1101301"
+    },
+    {
+      "text": "Muhammet Ramo\u011flu, Idil Bostan, Mohammad Obaid, Tilbe G\u00f6ksun, and O\u011fuzhan \u00d6zcan. 2016. Interaction between Abstract Agents: Increasing the Readability of Causal Events with Animation Principles. In Proceedings of the 20th International Academic Mindtrek Conference(AcademicMindtrek \u201916). Association for Computing Machinery, New York, NY, USA, 272\u2013280. http://dx.doi.org/10.1145/2994310.2994345",
+      "doi": "10.1145/2994310.2994345"
+    },
+    {
+      "text": "Daniel\u00a0J. Rea. 2020. Now You\u2019re Teleoperating with Power: Learning from video games to improve teleoperation interfaces. Ph.D. Dissertation. University of Manitoba.",
+      "doi": ""
+    },
+    {
+      "text": "Tiago Ribeiro and Ana Paiva. 2012. The Illusion of Robotic Life: Principles and Practices of Animation for Robots. In Proceedings of the Seventh Annual ACM/IEEE International Conference on Human-Robot Interaction(HRI \u201912). Association for Computing Machinery, New York, NY, USA, 383\u2013390. http://dx.doi.org/10.1145/2157689.2157814",
+      "doi": "10.1145/2157689.2157814"
+    },
+    {
+      "text": "Justin Richer and Jill\u00a0L. Drury. 2006. A video game-based framework for analyzing human-robot interaction: characterizing interface design in real-time interactive multimedia applications. In Proceedings of the 1st ACM SIGCHI/SIGART conference on human-robot interaction. 266\u2013273.",
+      "doi": "10.1145/1121241.1121287"
+    },
+    {
+      "text": "Anna\u00a0L. Rowe and Nancy\u00a0J. Cooke. 1995. Measuring Mental Models: Choosing the Right Tools for the Job.Human Resource Development Quarterly 6, 3 (1995), 243\u2013255. http://lib-ezproxy.tamu.edu:2048/login?search.ebscohost.com/login.aspx?direct=true&db=bth&AN=14858776&site=ehost-live",
+      "doi": ""
+    },
+    {
+      "text": "Adam\u00a0W. Ruch. 2011. Videogame interface: Artefacts and tropes. In Videogames Studies: Concepts, Cultures, and Communication. Brill, 1\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Rueben, Jeffrey Klow, Madelyn Duer, Eric Zimmerman, Jennifer Piacentini, Madison Browning, Frank\u00a0J Bernieri, Cindy\u00a0M Grimm, and William\u00a0D Smart. 2021. Mental Models of a Mobile Shoe Rack: Exploratory Findings from a Long-term In-the-Wild Study. ACM Transactions on Human-Robot Interaction (THRI) 10, 2 (2021), 1\u201336.",
+      "doi": "10.1145/3442620"
+    },
+    {
+      "text": "Katie Salen and Eric Zimmerman. 2004. Rules of Play: Game Design Fundamentals. MIT Press, Cambridge, MA, USA.",
+      "doi": "10.5555/1215723"
+    },
+    {
+      "text": "Burkhard Schafer and Lilian Edwards. 2017. \u201cI spy, with my little sensor\u201d: fair data handling practices for robots between privacy, copyright and security. Connection Science 29, 3 (2017), 200\u2013209.",
+      "doi": "10.1080/09540091.2017.1318356"
+    },
+    {
+      "text": "Mark Scheeff, John Pinto, Kris Rahardja, Scott Snibbe, and Robert Tow. 2002. Experiences with Sparky, a social robot. In Socially Intelligent Agents. Springer, 173\u2013180.",
+      "doi": ""
+    },
+    {
+      "text": "Matthias Scheutz, Scott\u00a0A. DeLoach, and Julie\u00a0A. Adams. 2017. A framework for developing and using shared mental models in human-agent teams. Journal of Cognitive Engineering and Decision Making 11, 3 (2017), 203\u2013224.",
+      "doi": ""
+    },
+    {
+      "text": "Stela\u00a0H. Seo, James\u00a0E. Young, and Pourang Irani. 2017. Where are the robots? In-feed embedded techniques for visualizing robot team member locations. In 26th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN). IEEE, 522\u2013527.",
+      "doi": "10.1109/ROMAN.2017.8172352"
+    },
+    {
+      "text": "Bruno Siciliano, Oussama Khatib, and Torsten Kr\u00f6ger. 2008. Springer handbook of robotics. Vol.\u00a0200. Springer.",
+      "doi": ""
+    },
+    {
+      "text": "Jan Smeddinck, Kamila Wajda, Adeel Naveed, Leen Touma, Yuting Chen, Muhammad\u00a0Abu Hasan, Muhammad\u00a0Waqas Latif, and Robert Porzel. 2010. QuickWoZ: a multi-purpose wizard-of-oz framework for experiments with embodied conversational agents. In Proceedings of the 15th international conference on Intelligent user interfaces - IUI \u201910. ACM Press, Hong Kong, China, 427. http://dx.doi.org/10.1145/1719970.1720055",
+      "doi": "10.1145/1719970.1720055"
+    },
+    {
+      "text": "Lizzie Stark. 2012. We Hold these Rules to be Self-Evident: Larp as Metaphor for American Identity. States of Play: Nordic Larp around the World (2012), 184\u2013189.",
+      "doi": ""
+    },
+    {
+      "text": "Renee\u00a0J. Stout, Janis\u00a0A. Cannon-Bowers, Eduardo Salas, and Dana\u00a0M. Milanovich. 1999. Planning, shared mental models, and coordinated performance: An empirical link is established. Human Factors 41, 1 (March 1999), 61\u201371.",
+      "doi": ""
+    },
+    {
+      "text": "Leila Takayama, Doug Dooley, and Wendy Ju. 2011. Expressing Thought: Improving Robot Readability with Animation Principles. In Proceedings of the 6th International Conference on Human-Robot Interaction(HRI \u201911). Association for Computing Machinery, New York, NY, USA, 69\u201376. http://dx.doi.org/10.1145/1957656.1957674",
+      "doi": "10.1145/1957656.1957674"
+    },
+    {
+      "text": "Theresa\u00a0Jean Tanenbaum, Nazely Hartoonian, and Jeffrey Bryan. 2020. \u201dHow Do I Make This Thing Smile?\u201d: An Inventory of Expressive Nonverbal Communication in Commercial Social Virtual Reality Platforms. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems(CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. http://dx.doi.org/10.1145/3313831.3376606",
+      "doi": "10.1145/3313831.3376606"
+    },
+    {
+      "text": "Frank Thomas and Ollie Johnston. 1995. The Illusion of Life: Disney Animation. Disney Editions.",
+      "doi": ""
+    },
+    {
+      "text": "G\u00fcliz Tokadl\u0131, Kaitlyn Ouverson, Chase Meusel, Austin Garcia, Stephen\u00a0B Gilbert, and Michael\u00a0C Dorneich. 2018. An Analysis of Video Games Using the Dimensions of Human-Agent Interaction. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting, Vol.\u00a062. SAGE Publications Sage CA: Los Angeles, CA, 716\u2013720.",
+      "doi": ""
+    },
+    {
+      "text": "Z Toups, Jessica Hammer, William\u00a0A. Hamilton, Ahmad Jarrah, William Graves, and Oliver Garretson. 2014. A Framework for Cooperative Communication Game Mechanics from Grounded Theory. In Proceedings of the First ACM SIGCHI Annual Symposium on Computer-human Interaction in Play(CHI PLAY \u201914). ACM, New York, NY, USA, 257\u2013266. http://dx.doi.org/10.1145/2658537.2658681",
+      "doi": "10.1145/2658537.2658681"
+    },
+    {
+      "text": "Z Toups and Andruid Kerne. 2007. Implicit Coordination in Firefighting Practice: Design Implications for Teaching Fire Emergency Responders. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201907). Association for Computing Machinery, New York, NY, USA, 707\u2013716. http://dx.doi.org/10.1145/1240624.1240734",
+      "doi": "10.1145/1240624.1240734"
+    },
+    {
+      "text": "Z Toups, Nicolas Lalone, Sultan\u00a0A. Alharthi, Hitesh\u00a0Nidhi Sharma, and Andrew\u00a0M. Webb. 2019. Making Maps Available for Play: Analyzing the Design of Game Cartography Interfaces. ACM Trans. Comput.-Hum. Interact. 26, 5 (July 2019). http://dx.doi.org/10.1145/3336144",
+      "doi": "10.1145/3336144"
+    },
+    {
+      "text": "Z Toups, Nicolas LaLone, Katta Spiel, and Bill Hamilton. 2020. Paper to Pixels: A Chronicle of Map Interfaces in Games. In Proceedings of the 2020 ACM Designing Interactive Systems Conference(DIS \u201920). Association for Computing Machinery, New York, NY, USA, 1433\u20131451. http://dx.doi.org/10.1145/3357236.3395502",
+      "doi": "10.1145/3357236.3395502"
+    },
+    {
+      "text": "Roel Vertegaal, Robert Slagter, Gerrit van\u00a0der Veer, and Anton Nijholt. 2001. Eye gaze patterns in conversations: there is more to conversational agents than meets the eyes. In Proceedings of the SIGCHI conference on Human factors in computing systems - CHI \u201901. ACM Press, Seattle, Washington, United States, 301\u2013308. http://dx.doi.org/10.1145/365024.365119",
+      "doi": "10.1145/365024.365119"
+    },
+    {
+      "text": "Michael Walker, Hooman Hedayati, Jennifer Lee, and Daniel Szafir. 2018. Communicating robot motion intent with augmented reality. In Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot Interaction. 316\u2013324.",
+      "doi": "10.1145/3171221.3171253"
+    },
+    {
+      "text": "Danding Wang, Qian Yang, Ashraf Abdul, and Brian\u00a0Y. Lim. 2019. Designing Theory-Driven User-Centric Explainable AI. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, Glasgow Scotland Uk, 1\u201315. http://dx.doi.org/10.1145/3290605.3300831",
+      "doi": "10.1145/3290605.3300831"
+    },
+    {
+      "text": "Robert\u00a0H. Wortham and Andreas Theodorou. 2017. Robot transparency, trust and utility. Connection Science 29, 3 (July 2017), 242\u2013248. http://dx.doi.org/10.1080/09540091.2017.1313816 Publisher: Taylor & Francis _eprint: https://doi.org/10.1080/09540091.2017.1313816.",
+      "doi": "10.1080/09540091.2017.1313816"
+    },
+    {
+      "text": "Julia\u00a0L. Wright, Jessie Y.\u00a0C. Chen, and Shan\u00a0G. Lakhmani. 2020. Agent Transparency and Reliability in Human\u2013Robot Interaction: The Influence on User Confidence and Perceived Reliability. IEEE Transactions on Human-Machine Systems 50, 3 (June 2020), 254\u2013263. http://dx.doi.org/10.1109/THMS.2019.2925717 Conference Name: IEEE Transactions on Human-Machine Systems.",
+      "doi": ""
+    },
+    {
+      "text": "Jason Wuertz, Sultan\u00a0A. Alharthi, William\u00a0A. Hamilton, Scott Bateman, Carl Gutwin, Anthony Tang, Z Toups, and Jessica Hammer. 2018. A Design Framework for Awareness Cues in Distributed Multiplayer Games. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, Montreal QC Canada, 1\u201314. http://dx.doi.org/10.1145/3173574.3173817",
+      "doi": "10.1145/3173574.3173817"
+    },
+    {
+      "text": "Greg Zacharias. 2019. Autonomous horizons: the way forward. Air University Press ; Curtis E. LeMay Center for Doctrine Development and Education, Maxwell Air Force Base, Alabama.",
+      "doi": ""
+    }
+  ]
+}

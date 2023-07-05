@@ -1,0 +1,358 @@
+{
+  "doi": "10.1145/3544548.3580703",
+  "title": "SwitchTube: A Proof-of-Concept System Introducing \u201cAdaptable Commitment Interfaces\u201d as a Tool for Digital Wellbeing",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-22",
+  "year": 2023,
+  "badges": [],
+  "abstract": "YouTube has many features, such as homepage recommendations, that encourage users to explore its vast library of videos. However, when users visit YouTube with a specific intention, e.g., learning how to program in Python, these features to encourage exploration are often distracting. Prior work has innovated \u2018commitment interfaces\u2019 that restrict social media but finds that they often indiscriminately block needed content. In this paper, we describe the design, development, and evaluation of an \u2018adaptable commitment interface,\u2019 the SwitchTube mobile app, in which users can toggle between two interfaces when watching YouTube videos: Focus Mode (search-first) and Explore Mode (recommendations-first). In a three-week field deployment with 46 US participants, we evaluate how the ability to switch between interfaces affects user experience, finding that it provides users with a greater sense of agency, satisfaction, and goal alignment. We conclude with design implications for how adaptable commitment interfaces can support digital wellbeing.",
+  "authors": [
+    {
+      "name": "Kai Lukoff",
+      "institution": "Computer Science and Engineering, Santa Clara University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659161231",
+      "orcid": "0000-0001-5069-6817"
+    },
+    {
+      "name": "Ulrik Lyngs",
+      "institution": "Department of Computer Science, University of Oxford, United Kingdom",
+      "img": "/do/10.1145/contrib-99659161047/rel-imgonly/704330_10151299089216195_1209963406_o-2.jpg",
+      "acmid": "99659161047",
+      "orcid": "0000-0001-9960-1436"
+    },
+    {
+      "name": "Karina Shirokova",
+      "institution": "University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783531",
+      "orcid": "0000-0001-7796-7509"
+    },
+    {
+      "name": "Raveena Rao",
+      "institution": "Information School, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660240443",
+      "orcid": "0000-0002-2545-5066"
+    },
+    {
+      "name": "Larry Tian",
+      "institution": "Information School, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783758",
+      "orcid": "0000-0003-4215-1635"
+    },
+    {
+      "name": "Himanshu Zade",
+      "institution": "Human Centered Design and Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "87958668557",
+      "orcid": "0000-0003-1755-7780"
+    },
+    {
+      "name": "Sean A. Munson",
+      "institution": "Human Centered Design & Engineering, University of Washington, United States",
+      "img": "/do/10.1145/contrib-81416604516/rel-imgonly/12239463_533957215446_4643031366914155723_n.jpg",
+      "acmid": "81416604516",
+      "orcid": "0000-0002-0472-6138"
+    },
+    {
+      "name": "Alexis Hiniker",
+      "institution": "Information School, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "82258949157",
+      "orcid": "0000-0003-1607-0778"
+    }
+  ],
+  "references": [
+    {
+      "text": "Adam Alter. 2017. Irresistible: The Rise of Addictive Technology and the Business of Keeping Us Hooked. Penguin,. https://market.android.com/details?id=book-uRyMDAAAQBAJ",
+      "doi": "10.5555/3153564"
+    },
+    {
+      "text": "Janarthanan Balakrishnan and Mark\u00a0D Griffiths. 2017. Social media addiction: What is the role of content in YouTube?Journal of behavioral addictions 6, 3 (Sept. 2017), 364\u2013377. https://doi.org/10.1556/2006.6.2017.058",
+      "doi": ""
+    },
+    {
+      "text": "Eric P\u00a0S Baumer, Phil Adams, Vera\u00a0D Khovanskaya, Tony\u00a0C Liao, Madeline\u00a0E Smith, Victoria Schwanda\u00a0Sosik, and Kaiton Williams. 2013. Limiting, Leaving, and (Re)Lapsing: An Exploration of Facebook Non-use Practices and Experiences. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). ACM, New York, NY, USA, 3257\u20133266. https://doi.org/10.1145/2470654.2466446",
+      "doi": "10.1145/2470654.2466446"
+    },
+    {
+      "text": "Eric P\u00a0S Baumer, Rui Sun, and Peter Schaedler. 2018. Departing and Returning: Sense of Agency As an Organizing Concept for Understanding Social Media Non/Use Transitions. Proc. ACM Hum. -Comput. Interact. 2, CSCW (Nov. 2018), 23:1\u201323:19. https://doi.org/10.1145/3274292",
+      "doi": "10.1145/3274292"
+    },
+    {
+      "text": "Niels\u00a0Van Berkel, Denzil Ferreira, and Vassilis Kostakos. 2017. The Experience Sampling Method on Mobile Devices. ACM Comput. Surv. 50, 6 (Dec. 2017), 93:1\u201393:40. https://doi.org/10.1145/3123988",
+      "doi": "10.1145/3123988"
+    },
+    {
+      "text": "Bianca Bosker. 2016. What Will Break People\u2019s Addictions to Their Phones?http://www.theatlantic.com/magazine/archive/2016/11/the-binge-breaker/501122/",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2019. Reflecting on reflexive thematic analysis. Qualitative Research in Sport, Exercise and Health 11, 4 (Aug. 2019), 589\u2013597. https://doi.org/10.1080/2159676X.2019.1628806",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun, Victoria Clarke, Nikki Hayfield, and Gareth Terry. 2018. Thematic Analysis. In Handbook of Research Methods in Health Social Sciences, Pranee Liamputtong (Ed.). Springer Singapore, Singapore, 1\u201318. https://doi.org/10.1007/978-981-10-2779-6_103-1",
+      "doi": ""
+    },
+    {
+      "text": "Gharad Bryan, Dean Karlan, and Scott Nelson. 2010. Commitment Devices. Annual review of economics 2, 1 (Sept. 2010), 671\u2013698. https://doi.org/10.1146/annurev.economics.102308.124324",
+      "doi": ""
+    },
+    {
+      "text": "Kelly Caine. 2016. Local Standards for Sample Size at CHI. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 981\u2013992. https://doi.org/10.1145/2858036.2858498",
+      "doi": "10.1145/2858036.2858498"
+    },
+    {
+      "text": "Marta\u00a0E Cecchinato, John Rooksby, Alexis Hiniker, Sean Munson, Kai Lukoff, Luigina Ciolfi, Anja Thieme, and Daniel Harrison. 2019. Designing for Digital Wellbeing: A Research & Practice Agenda. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919, Paper W17). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3290607.3298998",
+      "doi": "10.1145/3290607.3298998"
+    },
+    {
+      "text": "Justin Cheng, Caroline Lo, and Jure Leskovec. 2017. Predicting Intent Using Activity Logs: How Goal Specificity and Temporal Range Affect User Behavior. In Proceedings of the 26th International Conference on World Wide Web Companion. International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, Switzerland, 593\u2013601. https://doi.org/10.1145/3041021.3054198",
+      "doi": "10.1145/3041021.3054198"
+    },
+    {
+      "text": "Hyunsung Cho, Daeun Choi, Donghwi Kim, Wan\u00a0Ju Kang, Eun\u00a0Kyoung Choe, and Sung-Ju Lee. 2021. Reflect, not Regret: Understanding Regretful Smartphone Use with App Feature-Level Analysis. Proc. ACM Hum.-Comput. Interact. 5, CSCW2 (Oct. 2021), 1\u201336. https://doi.org/10.1145/3479600",
+      "doi": "10.1145/3479600"
+    },
+    {
+      "text": "Andy Cockburn, Carl Gutwin, and Alan Dix. 2018. HARK No More: On the Preregistration of CHI Experiments. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918, Paper 141). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173715",
+      "doi": "10.1145/3173574.3173715"
+    },
+    {
+      "text": "Emily I\u00a0M Collins, Anna\u00a0L Cox, Jon Bird, and Daniel Harrison. 2014. Social networking use and RescueTime: The issue of engagement. In Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct Publication. Association for Computing Machinery, New York, NY, United States, 687\u2013690. https://doi.org/10.1145/2638728.2641322",
+      "doi": "10.1145/2638728.2641322"
+    },
+    {
+      "text": "Anna\u00a0L Cox, Sandy J\u00a0J Gould, Marta\u00a0E Cecchinato, Ioanna Iacovides, and Ian Renfree. 2016. Design Frictions for Mindful Interactions: The Case for Microboundaries. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems(San Jose, California, USA) (CHI EA \u201916). ACM, New York, NY, USA, 1389\u20131397. https://doi.org/10.1145/2851581.2892410",
+      "doi": "10.1145/2851581.2892410"
+    },
+    {
+      "text": "Liam Delaney and Leonhard\u00a0K Lades. 2017. Present bias and everyday self-control failures: a day reconstruction study. Journal of behavioral decision making 30, 5 (2017), 1157\u20131167. https://doi.org/10.1002/bdm.2031",
+      "doi": ""
+    },
+    {
+      "text": "M\u00a0A Devito, A\u00a0M Walker, J Birnholtz, K Ringland, and others. 2019. Social Technologies for Digital Wellbeing Among Marginalized Communities. Publication of the 2019 \u2026 (2019), 449\u2013454. https://dl.acm.org/doi/abs/10.1145/3311957.3359442",
+      "doi": ""
+    },
+    {
+      "text": "Angela\u00a0L Duckworth and James\u00a0J Gross. 2020. Behavior Change. Organizational behavior and human decision processes 161, Suppl (Nov. 2020), 39\u201349. https://doi.org/10.1016/j.obhdp.2020.09.002",
+      "doi": ""
+    },
+    {
+      "text": "Angela\u00a0L Duckworth, Rachel\u00a0E White, Alyssa\u00a0J Matteucci, Annie Shearer, and James\u00a0J Gross. 2016. A Stitch in Time: Strategic Self-Control in High School and College Students. Journal of educational psychology 108, 3 (April 2016), 329\u2013341. https://doi.org/10.1037/edu0000062",
+      "doi": ""
+    },
+    {
+      "text": "Sindhu\u00a0Kiranmai Ernala, Moira Burke, Alex Leavitt, and Nicole\u00a0B Ellison. 2020. How Well Do People Report Time Spent on Facebook? An Evaluation of Established Survey Questions with Recommendations. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376435",
+      "doi": "10.1145/3313831.3376435"
+    },
+    {
+      "text": "James Fogarty. 2017. Code and Contribution in Interactive Systems Research. In ACM CHI Conference 2017. Workshop on #HCI.Tools: Strategies and Best Practices for Designing, Evaluating, and Sharing Technical HCI Toolkits.washington.edu, washington, 1\u20134. https://homes.cs.washington.edu/\u00a0jfogarty/publications/workshop-chi2017-codeandcontribution.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Mozilla Foundation. 2020. YouTube Regrets \u2014 Mozilla Foundation. Retrieved May 1, 2020 from https://foundation.mozilla.org/en/youtube/regrets/",
+      "doi": ""
+    },
+    {
+      "text": "Google.. YouTube Leanback offers effortless viewing. Retrieved September 12, 2020 from https://youtube.googleblog.com/2010/07/youtube-leanback-offers-effortless.html",
+      "doi": ""
+    },
+    {
+      "text": "Marco Gui and Luca Stanca. 2009. Television viewing, satisfaction and happiness: Facts and fiction. Technical Report. Universit\u00e0 degli Studi di Milano - Bicocca. http://repec.dems.unimib.it/repec/pdf/mibwpaper167.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Francesca Gull\u00e0, Lorenzo Cavalieri, Silvia Ceccacci, Michele Germani, and Roberta Bevilacqua. 2015. Method to Design Adaptable and Adaptive User Interfaces. In HCI International 2015 - Posters\u2019 Extended Abstracts. Springer International Publishing, Los Angeles, CA, USA, 19\u201324. https://doi.org/10.1007/978-3-319-21380-4_4",
+      "doi": ""
+    },
+    {
+      "text": "Alexis Hiniker, Sungsoo\u00a0(ray) Hong, Tadayoshi Kohno, and Julie\u00a0A Kientz. 2016. MyTime: Designing and Evaluating an Intervention for Smartphone Non-Use. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, United States, 4746\u20134757. https://doi.org/10.1145/2858036.2858403",
+      "doi": "10.1145/2858036.2858403"
+    },
+    {
+      "text": "Alexis Hiniker, Bongshin Lee, Kiley Sobel, and Eun\u00a0Kyoung Choe. 2017. Plan & Play: Supporting Intentional Media Use in Early Childhood. In Proceedings of the 2017 Conference on Interaction Design and Children (Stanford, California, USA) (IDC \u201917). Association for Computing Machinery, New York, NY, USA, 85\u201395. https://doi.org/10.1145/3078072.3079752",
+      "doi": "10.1145/3078072.3079752"
+    },
+    {
+      "text": "Alexis Hiniker, Shwetak\u00a0N Patel, Tadayoshi Kohno, and Julie\u00a0A Kientz. 2016. Why would you do that? predicting the uses and gratifications behind smartphone-usage behaviors. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing. dl.acm.org, New York, NY, United States, 634\u2013645. http://dl.acm.org/citation.cfm?id=2971762",
+      "doi": "10.1145/2971648.2971762"
+    },
+    {
+      "text": "Wilhelm Hofmann, Roy\u00a0F Baumeister, Georg F\u00f6rster, and Kathleen\u00a0D Vohs. 2012. Everyday temptations: an experience sampling study of desire, conflict, and self-control. Journal of personality and social psychology 102, 6 (June 2012), 1318\u20131335. https://doi.org/10.1037/a0026545",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Kahneman. 2011. Thinking, Fast and Slow. Farrar, Straus and Giroux,. https://books.google.com/books?id=SHvzzuCnuv8C",
+      "doi": ""
+    },
+    {
+      "text": "Jaejeung Kim, Hayoung Jung, Minsam Ko, and Uichin Lee. 2019. GoalKeeper: Exploring Interaction Lockout Mechanisms for Regulating Smartphone Use. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 3, 1 (March 2019), 29. https://doi.org/10.1145/3314403",
+      "doi": "10.1145/3314403"
+    },
+    {
+      "text": "Jaejeung Kim, Joonyoung Park, Hyunsoo Lee, Minsam Ko, and Uichin Lee. 2019. LocknType: Lockout Task Intervention for Discouraging Smartphone App Use,\u201c. In ACM CHI. Association for Computing Machinery, New York, NY, United States, 1\u201312. https://doi.org/10.1145/3290605.3300927",
+      "doi": "10.1145/3290605.3300927"
+    },
+    {
+      "text": "Young-Ho Kim, Jae\u00a0Ho Jeon, Eun\u00a0Kyoung Choe, Bongshin Lee, Kwonhyun Kim, and Jinwook Seo. 2016. TimeAware: Leveraging Framing Effects to Enhance Personal Productivity. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 272\u2013283. https://doi.org/10.1145/2858036.2858428",
+      "doi": "10.1145/2858036.2858428"
+    },
+    {
+      "text": "Jane\u00a0E Klobas, Tanya\u00a0J McGill, Sedigheh Moghavvemi, and Tanuosha Paramanathan. 2019. Problematic and extensive YouTube use: first hand reports. Online Information Review 43, 2 (Jan. 2019), 265\u2013282. https://doi.org/10.1108/OIR-01-2018-0032",
+      "doi": ""
+    },
+    {
+      "text": "Minsam Ko, Seungwoo Choi, Koji Yatani, and Uichin Lee. 2016. Lock n\u2019LoL: group-based limiting assistance app to mitigate smartphone distractions in group activities. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. dl.acm.org, New York, NY, United States, 998\u20131010. https://dl.acm.org/citation.cfm?id=2858568",
+      "doi": "10.1145/2858036.2858568"
+    },
+    {
+      "text": "Minsam Ko, Subin Yang, Joonwon Lee, Christian Heizmann, Jinyoung Jeong, Uichin Lee, Daehee Shin, Koji Yatani, Junehwa Song, and Kyong-Mee Chung. 2015. NUGU: A Group-based Intervention App for Improving Self-Regulation of Limiting Smartphone Use. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (Vancouver, BC, Canada) (CSCW \u201915). ACM, New York, NY, USA, 1235\u20131245. https://doi.org/10.1145/2675133.2675244",
+      "doi": "10.1145/2675133.2675244"
+    },
+    {
+      "text": "Geza Kovacs, Drew\u00a0Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, and Michael\u00a0S Bernstein. 2019. Conservation of Procrastination: Do Productivity Interventions Save Time Or Just Redistribute It?. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). ACM, New York, NY, USA, 330:1\u2013330:12. https://doi.org/10.1145/3290605.3300560",
+      "doi": "10.1145/3290605.3300560"
+    },
+    {
+      "text": "Geza Kovacs, Zhengxuan Wu, and Michael\u00a0S Bernstein. 2021. Not Now, Ask Later: Users Weaken Their Behavior Change Regimen Over Time, But Expect To Re-Strengthen It Imminently. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3411764.3445695",
+      "doi": "10.1145/3411764.3445695"
+    },
+    {
+      "text": "J\u00a0R Landis and G\u00a0G Koch. 1977. The measurement of observer agreement for categorical data. Biometrics 33, 1 (March 1977), 159\u2013174. https://www.ncbi.nlm.nih.gov/pubmed/843571",
+      "doi": ""
+    },
+    {
+      "text": "Simone Lanette, Phoebe\u00a0K Chua, Gillian Hayes, and Melissa Mazmanian. 2018. How Much is \u2019Too Much\u2019?: The Role of a Smartphone Addiction Narrative in Individuals\u2019 Experience of Use. Proc. ACM Hum. -Comput. Interact. 2, CSCW (Nov. 2018), 101:1\u2013101:22. https://doi.org/10.1145/3274370",
+      "doi": "10.1145/3274370"
+    },
+    {
+      "text": "Sara Lebow. 2022. TikTok to surpass YouTube in US\u2014and come after other apps in the process. https://www.emarketer.com/content/tiktok-surpass-youtube. https://www.emarketer.com/content/tiktok-surpass-youtube Accessed: 2022-5-17.",
+      "doi": ""
+    },
+    {
+      "text": "Kai Lukoff, Ulrik Lyngs, and Lize Alberts. 2022. Designing to Support Autonomy and Reduce Psychological Reactance in Digital Self-Control Tools. In Position Papers for the Workshop \u201cSelf-Determination Theory in HCI: Shaping a Research Agenda\u201d at the Conference on Human Factors in Computing Systems (CHI \u201922). ACM, New Orleans, LA, USA, 5.",
+      "doi": ""
+    },
+    {
+      "text": "Kai Lukoff, Ulrik Lyngs, Himanshu Zade, J\u00a0Vera Liao, James Choi, Kaiyue Fan, Sean\u00a0A Munson, and Alexis Hiniker. 2021. How the Design of YouTube Influences User Sense of Agency. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201317. https://doi.org/10.1145/3411764.3445467",
+      "doi": "10.1145/3411764.3445467"
+    },
+    {
+      "text": "Kai Lukoff and Sean Munson. 2019. Digital wellbeing is way more than just reducing screen time. https://uxdesign.cc/digital-wellbeing-more-than-just-reducing-screen-time-46223db9f057. https://uxdesign.cc/digital-wellbeing-more-than-just-reducing-screen-time-46223db9f057 Accessed: 2020-10-1.",
+      "doi": ""
+    },
+    {
+      "text": "Ulrik Lyngs, Kai Lukoff, Laura Csuka, Petr Slov\u00e1k, Max Van\u00a0Kleek, and Nigel Shadbolt. 2022. The Goldilocks Level of Support: Using User Reviews, Ratings, and Installation Numbers to Investigate Digital Self-Control Tools. International journal of human-computer studies (June 2022), 102869. https://doi.org/10.1016/j.ijhcs.2022.102869",
+      "doi": "10.1016/j.ijhcs.2022.102869"
+    },
+    {
+      "text": "Ulrik Lyngs, Kai Lukoff, Petr Slovak, Reuben Binns, Adam Slack, Michael Inzlicht, Max Van\u00a0Kleek, and Nigel Shadbolt. 2019. Self-control in cyberspace: Applying dual systems theory to a review of digital self-control tools. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI \u201919. ACM Press, Glasgow, Scotland Uk, 1\u201318. https://doi.org/10.1145/3290605.3300361",
+      "doi": "10.1145/3290605.3300361"
+    },
+    {
+      "text": "Ulrik Lyngs, Kai Lukoff, Petr Slovak, William Seymour, Helena Webb, Marina Jirotka, Jun Zhao, Max Van\u00a0Kleek, and Nigel Shadbolt. 2020. \u2019I Just Want to Hack Myself to Not Get Distracted\u2019: Evaluating Design Interventions for Self-Control on Facebook. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3313831.3376672",
+      "doi": "10.1145/3313831.3376672"
+    },
+    {
+      "text": "Lucas Matney. 2017. YouTube has 1.5 billion logged-in monthly users watching a ton of mobile video. TechCrunch (June 2017),. http://techcrunch.com/2017/06/22/youtube-has-1-5-billion-logged-in-monthly-users-watching-a-ton-of-mobile-video/",
+      "doi": ""
+    },
+    {
+      "text": "Megan McCluskey. 2022. YouTube\u2019s Next Move in the Race to Beat TikTok. Time (Sept. 2022),. https://time.com/6214679/youtube-shorts-tiktok-creators/",
+      "doi": ""
+    },
+    {
+      "text": "Alberto Monge\u00a0Roffarello and Luigi De\u00a0Russis. 2022. Towards Understanding the Dark Patterns That Steal Our Attention. In CHI Conference on Human Factors in Computing Systems Extended Abstracts (New Orleans, LA, USA) (CHI EA \u201922, Article 274). Association for Computing Machinery, New York, NY, USA, 1\u20137. https://doi.org/10.1145/3491101.3519829",
+      "doi": "10.1145/3491101.3519829"
+    },
+    {
+      "text": "Alberto Monge\u00a0Roffarello, Kai Lukoff, and Luigi De\u00a0Russis. 2023. Defining and Identifying Attention Capture Damaging Patterns in Digital Interfaces. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (Hamburg, Germany) (CHI \u201923). ACM, New York, NY, USA. https://doi.org/10.1145/3544548.3580729",
+      "doi": "10.1145/3544548.3580729"
+    },
+    {
+      "text": "MrBeast. 2021. If You Can Carry $1,000,000 You Keep It!https://www.youtube.com/watch?v=ktyJIj6i4Qw",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0C Norcross, Paul\u00a0M Krebs, and James\u00a0O Prochaska. 2011. Stages of change. Journal of clinical psychology 67, 2 (Feb. 2011), 143\u2013154. https://doi.org/10.1002/jclp.20758",
+      "doi": ""
+    },
+    {
+      "text": "European Parliament. 2022. Digital Services Act. https://www.europarl.europa.eu/doceo/document/TC1-COD-2020-0361_EN.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Ethan Plaut. 2014. Commitments Not to Communicate Before and After Digital Media: A Study of the Will and Ways to Disconnect Under Changing Conditions. Ph.\u00a0D. Dissertation. Stanford University.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0O Prochaska. 2013. Transtheoretical Model of Behavior Change. In Encyclopedia of Behavioral Medicine, Marc\u00a0D Gellman and J\u00a0Rick Turner (Eds.). Springer New York, New York, NY, 1997\u20132000. https://doi.org/10.1007/978-1-4419-1005-9_70",
+      "doi": ""
+    },
+    {
+      "text": "SarahBethYoga. 2019. 15 minute Hands Free Morning Yoga Routine | Sarah Beth Yoga. https://www.youtube.com/watch?v=t3nzh01axMI",
+      "doi": ""
+    },
+    {
+      "text": "SarahBethYoga. 2019. 15 minute Morning Yoga Routine | FULL BODY POWER YOGA FLOW. https://www.youtube.com/watch?v=HgxBGC7OgJA",
+      "doi": ""
+    },
+    {
+      "text": "Magy Seif El-Nasr, Shree Durga, Mariya Shiyko, and Carmen Sceppa. 2015. Data-Driven Retrospective Interviewing (DDRI): A proposed methodology for formative evaluation of pervasive games. Entertainment computing 11 (Nov. 2015), 1\u201319. https://doi.org/10.1016/j.entcom.2015.07.002",
+      "doi": ""
+    },
+    {
+      "text": "Joan\u00a0E Solsman. 2018. Ever get caught in an unexpected hourlong YouTube binge? Thank YouTube AI for that. https://www.cnet.com/news/youtube-ces-2018-neal-mohan/. https://www.cnet.com/news/youtube-ces-2018-neal-mohan/ Accessed: 2020-5-1.",
+      "doi": ""
+    },
+    {
+      "text": "Joan\u00a0E Solsman. 2018. Ever get caught in an unexpected hourlong YouTube binge? Thank YouTube AI for that. https://www.cnet.com/news/youtube-ces-2018-neal-mohan/. https://www.cnet.com/news/youtube-ces-2018-neal-mohan/ Accessed: 2020-5-1.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan\u00a0A Tran, Katie\u00a0S Yang, Katie Davis, and Alexis Hiniker. 2019. Modeling the Engagement-Disengagement Cycle of Compulsive Phone Use. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300542",
+      "doi": "10.1145/3290605.3300542"
+    },
+    {
+      "text": "United States Census Bureau.. QuickFacts: United States. https://www.census.gov/quickfacts/fact/table/US/PST045219",
+      "doi": ""
+    },
+    {
+      "text": "James Williams. 2018. Stand Out of Our Light: Freedom and Resistance in the Attention Economy. Cambridge University Press, United Kingdom.",
+      "doi": ""
+    },
+    {
+      "text": "Kaitlin Woolley and Marissa\u00a0A Sharif. 2022. Down a Rabbit Hole: How Prior Media Consumption Shapes Subsequent Media Consumption. JMR, Journal of marketing research 59 (2022), 453\u2013\u2013471. https://journals.sagepub.com/doi/abs/10.1177/00222437211055403",
+      "doi": ""
+    },
+    {
+      "text": "Janine\u00a0L Wright, Jillian\u00a0L Sherriff, Satvinder\u00a0S Dhaliwal, and John C\u00a0L Mamo. 2011. Tailored, iterative, printed dietary feedback is as effective as group education in improving dietary behaviours: results from a randomised control trial in middle-aged adults with cardiovascular risk factors. The international journal of behavioral nutrition and physical activity 8, 1 (May 2011), 43. https://doi.org/10.1186/1479-5868-8-43",
+      "doi": ""
+    },
+    {
+      "text": "Tim Wu. 2016. The Attention Merchants: The Epic Scramble to Get Inside Our Heads. Vintage, New York.",
+      "doi": ""
+    },
+    {
+      "text": "Xuhai Xu, Tianyuan Zou, Han Xiao, Yanzhang Li, Ruolin Wang, Tianyi Yuan, Yuntao Wang, Yuanchun Shi, Jennifer Mankoff, and Anind\u00a0K Dey. 2022. TypeOut: Leveraging Just-in-Time Self-Affirmation for Smartphone Overuse Reduction. In CHI Conference on Human Factors in Computing Systems(CHI \u201922, Article 442). Association for Computing Machinery, New York, NY, USA, 1\u201317. https://doi.org/10.1145/3491102.3517476",
+      "doi": "10.1145/3491102.3517476"
+    },
+    {
+      "text": "Jos\u00e9\u00a0P Zagal, Staffan Bj\u00f6rk, and Chris Lewis. 2013. Dark Patterns in the Design of Games. In Foundations of Digital Games 2013. diva-portal.org, Interactive Institute. http://www.diva-portal.org/smash/record.jsf?pid=diva2:1043332",
+      "doi": ""
+    },
+    {
+      "text": "Mingrui\u00a0Ray Zhang, Kai Lukoff, Raveena Rao, Amanda Baughan, and Alexis Hiniker. 2022. Monitoring Screen Time or Redesigning It? Two Approaches to Supporting Intentional Social Media Use. In CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922, Article 60). Association for Computing Machinery, New York, NY, USA, 1\u201319. https://doi.org/10.1145/3491102.3517722",
+      "doi": "10.1145/3491102.3517722"
+    },
+    {
+      "text": "Shoshana Zuboff. 2019. The age of surveillance capitalism: The fight for a human future at the new frontier of power. Profile books, New York.",
+      "doi": ""
+    }
+  ]
+}

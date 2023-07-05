@@ -1,0 +1,256 @@
+{
+  "doi": "10.1145/3025453.3025502",
+  "title": "ProbUI: Generalising Touch Target Representations to Enable Declarative Gesture Definition for Probabilistic GUIs",
+  "published": "2017-05-02",
+  "proctitle": "CHI '17: Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
+  "pages": "4640-4653",
+  "year": 2017,
+  "badges": [],
+  "abstract": "We present ProbUI, a mobile touch GUI framework that merges ease of use of declarative gesture definition with the benefits of probabilistic reasoning. It helps developers to handle uncertain input and implement feedback and GUI adaptations. ProbUI replaces today's static target models (bounding boxes) with probabilistic gestures (\"bounding behaviours\"). It is the first touch GUI framework to unite concepts from three areas of related work: 1) Developers declaratively define touch behaviours for GUI targets. As a key insight, the declarations imply simple probabilistic models (HMMs with 2D Gaussian emissions). 2) ProbUI derives these models automatically to evaluate users' touch sequences. 3) It then infers intended behaviour and target. Developers bind callbacks to gesture progress, completion, and other conditions. We show ProbUI's value by implementing existing and novel widgets, and report developer feedback from a survey and a lab study.",
+  "authors": [
+    {
+      "name": "Daniel Buschek",
+      "institution": "University of Munich, Munich, Germany",
+      "img": "/do/10.1145/contrib-82659024557/rel-imgonly/daniel.png",
+      "acmid": "82659024557",
+      "orcid": "0000-0002-0013-715X"
+    },
+    {
+      "name": "Florian Alt",
+      "institution": "University of Munich, Munich, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81436594444",
+      "orcid": "0000-0001-8354-2195"
+    }
+  ],
+  "references": [
+    {
+      "text": "Derek Anderson, Craig Bailey, and Marjorie Skubic. 2004. Hidden Markov Model Symbol Recognition for Sketch-Based Interfaces. In AAAI Fall Symposium. 15--21. https://www.aaai.org/Papers/Symposia/Fall/2004/FS-04-06/FS04-06-003.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Georg Apitz, Fran\u00e7ois Guimbreti\u00e8re, and Shumin Zhai. 2008. Foundations for Designing and Evaluating User Interfaces Based on the Crossing Paradigm. ACM Trans. Comput.-Hum. Interact. 17, 2, Article 9 (May 2008), 42 pages.  ",
+      "doi": "10.1145/1746259.1746263"
+    },
+    {
+      "text": "Tyler Baldwin and Joyce Chai. 2012. Towards Online Adaptation and Personalization of Key-target Resizing for Mobile Devices. In Proceedings of the 2012 ACM International Conference on Intelligent User Interfaces (IUI '12). ACM, New York, NY, USA, 11--20.  ",
+      "doi": "10.1145/2166966.2166969"
+    },
+    {
+      "text": "David Barber. 2012. Bayesian Rreasoning and Machine Learning. Cambridge University Press. http://web4.cs.ucl.ac.uk/staff/D.Barber/textbook/090310.pdf ",
+      "doi": "10.5555/2207809"
+    },
+    {
+      "text": "Joanna Bergstrom-Lehtovirta and Antti Oulasvirta. 2014. Modeling the Functional Area of the Thumb on Mobile Touchscreen Surfaces. In Proceedings of the 32Nd Annual ACM Conference on Human Factors in Computing Systems (CHI '14). ACM, New York, NY, USA, 1991--2000.  ",
+      "doi": "10.1145/2556288.2557354"
+    },
+    {
+      "text": "Joanna Bergstrom-Lehtovirta, Antti Oulasvirta, and Stephen Brewster. 2011. The Effects of Walking Speed on Target Acquisition on a Touchscreen Interface. In Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services (MobileHCI '11). ACM, New York, NY, USA, 143--146.  ",
+      "doi": "10.1145/2037373.2037396"
+    },
+    {
+      "text": "Fr\u00e9d\u00e9ric Bevilacqua, Bruno Zamborlin, Anthony Sypniewski, Norbert Schnell, Fabrice Gu\u00e9dy, and Nicolas Rasamimanana. 2010. Continuous Realtime Gesture Following and Recognition. In Proceedings of the 8th International Conference on Gesture in Embodied Communication and Human-Computer Interaction (GW '09). Springer-Verlag, Berlin, Heidelberg, 73--84.  ",
+      "doi": "10.1007/978-3-642-12553-9_7"
+    },
+    {
+      "text": "Xiaojun Bi, Yang Li, and Shumin Zhai. 2013. FFitts Law: Modeling Finger Touch with Fitts' Law. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). ACM, New York, NY, USA, 1363--1372.  ",
+      "doi": "10.1145/2470654.2466180"
+    },
+    {
+      "text": "Xiaojun Bi and Shumin Zhai. 2013. Bayesian Touch: A Statistical Criterion of Target Selection with Finger Touch. In Proceedings of the 26th Annual ACM Symposium on User Interface Software and Technology (UIST '13). ACM, New York, NY, USA, 51--60.  ",
+      "doi": "10.1145/2501988.2502058"
+    },
+    {
+      "text": "David Bonnet, Caroline Appert, and Michel Beaudouin-Lafon. 2013. Extending the Vocabulary of Touch Events with ThumbRock. In Proceedings of Graphics Interface 2013 (GI '13). Canadian Information Processing Society, Toronto, Ont., Canada, Canada, 221--228. http://dl.acm.org/citation.cfm?id=2532129.2532166 ",
+      "doi": "10.5555/2532129.2532166"
+    },
+    {
+      "text": "Sebastian Boring, David Ledo, Xiang 'Anthony' Chen, Nicolai Marquardt, Anthony Tang, and Saul Greenberg. 2012. The Fat Thumb: Using the Thumb's Contact Size for Single-handed Mobile Interaction. In Proceedings of the 14th International Conference on Human-computer Interaction with Mobile Devices and Services (MobileHCI '12). ACM, New York, NY, USA, 39--48.  ",
+      "doi": "10.1145/2371574.2371582"
+    },
+    {
+      "text": "Daniel Buschek, Simon Rogers, and Roderick Murray-Smith. 2013. User-specific Touch Models in a Cross-device Context. In Proceedings of the 15th International Conference on Human-computer Interaction with Mobile Devices and Services (MobileHCI '13). ACM, New York, NY, USA, 382--391.  ",
+      "doi": "10.1145/2493190.2493206"
+    },
+    {
+      "text": "Baptiste Caramiaux, Nicola Montecchio, Atau Tanaka, and Fr\u00e9d\u00e9ric Bevilacqua. 2014. Adaptive Gesture Recognition with Variation Estimation for Interactive Systems. ACM Trans. Interact. Intell. Syst. 4, 4, Article 18 (Dec. 2014), 34 pages.  ",
+      "doi": "10.1145/2643204"
+    },
+    {
+      "text": "Eun Kyoung Choe, Kristen Shinohara, Parmit K. Chilana, Morgan Dixon, and Jacob O. Wobbrock. 2009. Exploring the Design of Accessible Goal Crossing Desktop Widgets. In CHI '09 Extended Abstracts on Human Factors in Computing Systems (CHI EA '09). ACM, New York, NY, USA, 3733--3738.  ",
+      "doi": "10.1145/1520340.1520563"
+    },
+    {
+      "text": "Alessandro De Nardi. 2008. Grafiti: Gesture recognition management framework for interactive tabletop interfaces. Master's thesis. University of Pisa.",
+      "doi": ""
+    },
+    {
+      "text": "Anind. K. Dey, Jennifer Mankoff, and Gregory D. Abowd. 2000. Distributed mediation of imperfectly sensed context in aware environments. Technical Report. Georgia Institute of Technology. http://hdl.handle.net/1853/3424",
+      "doi": ""
+    },
+    {
+      "text": "Joshua Goodman, Gina Venolia, Keith Steury, and Chauncey Parker. 2002. Language Modeling for Soft Keyboards. In Proceedings of the 7th International Conference on Intelligent User Interfaces (IUI '02). ACM, New York, NY, USA, 194--195.  ",
+      "doi": "10.1145/502716.502753"
+    },
+    {
+      "text": "Tovi Grossman and Ravin Balakrishnan. 2005. A Probabilistic Approach to Modeling Two-dimensional Pointing. ACM Trans. Comput.-Hum. Interact. 12, 3 (Sept. 2005), 435--459.  ",
+      "doi": "10.1145/1096737.1096741"
+    },
+    {
+      "text": "Asela Gunawardana, Tim Paek, and Christopher Meek. 2010. Usability Guided Key-target Resizing for Soft Keyboards. In Proceedings of the 15th International Conference on Intelligent User Interfaces (IUI '10). ACM, New York, NY, USA, 111--118.  ",
+      "doi": "10.1145/1719970.1719986"
+    },
+    {
+      "text": "Niels Henze, Enrico Rukzio, and Susanne Boll. 2011. 100,000,000 Taps: Analysis and Improvement of Touch Performance in the Large. In Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services (MobileHCI '11). ACM, New York, NY, USA, 133--142.  ",
+      "doi": "10.1145/2037373.2037395"
+    },
+    {
+      "text": "Seongkook Heo, Jiseong Gu, and Geehyuk Lee. 2014. Expanding Touch Input Vocabulary by Using Consecutive Distant Taps. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). ACM, New York, NY, USA, 2597--2606.  ",
+      "doi": "10.1145/2556288.2557234"
+    },
+    {
+      "text": "Ken Hinckley and Daniel Wigdor. 2012. Input Technologies and Techniques. In The Human-Computer Interaction Handbook - Fundamentals, Evolving Technologies and Emerging Applications (third edit ed.), Julie A. Jacko (Ed.). CRC Press, Chapter 9, 151--168. ",
+      "doi": "10.5555/772072.772085"
+    },
+    {
+      "text": "Christian Holz and Patrick Baudisch. 2010. The Generalized Perceived Input Point Model and How to Double Touch Accuracy by Extracting Fingerprints. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10). ACM, New York, NY, USA, 581--590.  ",
+      "doi": "10.1145/1753326.1753413"
+    },
+    {
+      "text": "Christian Holz and Patrick Baudisch. 2011. Understanding Touch. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '11). ACM, New York, NY, USA, 2501--2510.  ",
+      "doi": "10.1145/1978942.1979308"
+    },
+    {
+      "text": "Scott E. Hudson and Jennifer Mankoff. 2014. Concepts, Values, and Methods for Technical Human-Computer Interaction Research. In Ways of Knowing in HCI, Judith S. Olson and Wendy A. Kellogg (Eds.). Springer New York, 69--93.",
+      "doi": ""
+    },
+    {
+      "text": "Scott E. Hudson and Gary L. Newell. 1992. Probabilistic State Machines: Dialog Management for Inputs with Uncertainty. In Proceedings of the 5th Annual ACM Symposium on User Interface Software and Technology (UIST '92). ACM, New York, NY, USA, 199--208.  ",
+      "doi": "10.1145/142621.142650"
+    },
+    {
+      "text": "Hyun W. Ka. 2013. Circling Interface: An Alternative Interaction Method for On-Screen Object Manipulation. Ph.D. Dissertation. University of Pittburgh. http://d-scholarship.pitt.edu/19305/",
+      "doi": ""
+    },
+    {
+      "text": "Shahedul Huq Khandkar and Frank Maurer. 2010. A Domain Specific Language to Define Gestures for Multi-touch Applications. In Proceedings of the 10th Workshop on Domain-Specific Modeling (DSM '10). ACM, New York, NY, USA, Article 2, 6 pages.  ",
+      "doi": "10.1145/2060329.2060339"
+    },
+    {
+      "text": "Kenrick Kin, Bj\u00f6rn Hartmann, Tony DeRose, and Maneesh Agrawala. 2012a. Proton++: A Customizable Declarative Multitouch Framework. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology (UIST '12). ACM, New York, NY, USA, 477--486.  ",
+      "doi": "10.1145/2380116.2380176"
+    },
+    {
+      "text": "Kenrick Kin, Bj\u00f6rn Hartmann, Tony DeRose, and Maneesh Agrawala. 2012b. Proton: Multitouch Gestures As Regular Expressions. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). ACM, New York, NY, USA, 2885--2894.  ",
+      "doi": "10.1145/2207676.2208694"
+    },
+    {
+      "text": "Yang Li, Hao Lu, and Haimo Zhang. 2014. Optimistic Programming of Touch Interaction. ACM Trans. Comput.-Hum. Interact. 21, 4, Article 24 (Aug. 2014), 24 pages.  ",
+      "doi": "10.1145/2631914"
+    },
+    {
+      "text": "Hao L\u00fc and Yang Li. 2012. Gesture Coder: A Tool for Programming Multi-touch Gestures by Demonstration. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). ACM, New York, NY, USA, 2875--2884.  ",
+      "doi": "10.1145/2207676.2208693"
+    },
+    {
+      "text": "Hao L\u00fc and Yang Li. 2013. Gesture Studio: Authoring Multi-touch Interactions Through Demonstration and Declaration. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). ACM, New York, NY, USA, 257--266.  ",
+      "doi": "10.1145/2470654.2470690"
+    },
+    {
+      "text": "Jennifer Mankoff, Scott E. Hudson, and Gregory D. Abowd. 2000a. Interaction Techniques for Ambiguity Resolution in Recognition-based Interfaces. In Proceedings of the 13th Annual ACM Symposium on User Interface Software and Technology (UIST '00). ACM, New York, NY, USA, 11--20.  ",
+      "doi": "10.1145/354401.354407"
+    },
+    {
+      "text": "Jennifer Mankoff, Scott E. Hudson, and Gregory D. Abowd. 2000b. Providing Integrated Toolkit-level Support for Ambiguity in Recognition-based Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '00). ACM, New York, NY, USA, 368--375.  ",
+      "doi": "10.1145/332040.332459"
+    },
+    {
+      "text": "T. Minka, J. M. Winn, J. P. Guiver, S. Webster, Y. Zaykov, B. Yangel, A. Spengler, and J. Bronskill. 2014. Infer.NET 2.6. (2014). http://research.microsoft.com/infernet Microsoft Research Cambridge.",
+      "doi": ""
+    },
+    {
+      "text": "Tomer Moscovich. 2009. Contact Area Interaction with Sliding Widgets. In Proceedings of the 22Nd Annual ACM Symposium on User Interface Software and Technology (UIST '09). ACM, New York, NY, USA, 13--22.  ",
+      "doi": "10.1145/1622176.1622181"
+    },
+    {
+      "text": "Alexander Ng, Stephen A. Brewster, and John H. Williamson. 2014. Investigating the Effects of Encumbrance on One- and Two-Handed Interactions with Mobile Devices. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). ACM, New York, NY, USA, 1981--1990.  ",
+      "doi": "10.1145/2556288.2557312"
+    },
+    {
+      "text": "Alex Olwal, Steven Feiner, and Susanna Heyman. 2008. Rubbing and Tapping for Precise and Rapid Selection on Touch-screen Displays. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '08). ACM, New York, NY, USA, 295--304.  ",
+      "doi": "10.1145/1357054.1357105"
+    },
+    {
+      "text": "Charles Perin, Pierre Dragicevic, and Jean-Daniel Fekete. 2015. Crossets: Manipulating Multiple Sliders by Crossing. In Proceedings of the 41st Graphics Interface Conference (GI '15). Canadian Information Processing Society, Toronto, Ont., Canada, Canada, 233--240. http://dl.acm.org/citation.cfm?id=2788890.2788931 ",
+      "doi": "10.5555/2788890.2788931"
+    },
+    {
+      "text": "Henning Pohl and Roderick Murray-Smith. 2013. Focused and Casual Interactions: Allowing Users to Vary Their Level of Engagement. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). ACM, New York, NY, USA, 2223--2232.  ",
+      "doi": "10.1145/2470654.2481307"
+    },
+    {
+      "text": "R. L. Potter, L. J. Weldon, and B. Shneiderman. 1988. Improving the Accuracy of Touch Screens: An Experimental Evaluation of Three Strategies. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '88). ACM, New York, NY, USA, 27--32.  ",
+      "doi": "10.1145/57167.57171"
+    },
+    {
+      "text": "L. Rabiner. 1989. A tutorial on hidden Markov models and selected applications in speech recognition. Proc. IEEE 77, 2 (Feb 1989), 257--286.",
+      "doi": "10.5555/108235.108253"
+    },
+    {
+      "text": "Volker Roth and Thea Turner. 2009. Bezel Swipe: Conflict-free Scrolling and Multiple Selection on Mobile Touch Screen Devices. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '09). ACM, New York, NY, USA, 1523--1526.  ",
+      "doi": "10.1145/1518701.1518933"
+    },
+    {
+      "text": "Anne Roudaut, Eric Lecolinet, and Yves Guiard. 2009. MicroRolls: Expanding Touch-screen Input Vocabulary by Distinguishing Rolls vs. Slides of the Thumb. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '09). ACM, New York, NY, USA, 927--936.  ",
+      "doi": "10.1145/1518701.1518843"
+    },
+    {
+      "text": "Christophe Scholliers, Lode Hoste, Beat Signer, and Wolfgang De Meuter. 2011. Midas: A Declarative Multi-touch Interaction Framework. In Proceedings of the Fifth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '11). ACM, New York, NY, USA, 49--56.  ",
+      "doi": "10.1145/1935701.1935712"
+    },
+    {
+      "text": "Julia Schwarz. 2010. Towards a Unified Framework for Modeling, Dispatching, and Interpreting Uncertain Input. In Adjunct Proceedings of the 23Nd Annual ACM Symposium on User Interface Software and Technology (UIST '10). ACM, New York, NY, USA, 367--370.  ",
+      "doi": "10.1145/1866218.1866225"
+    },
+    {
+      "text": "Julia Schwarz, Scott Hudson, Jennifer Mankoff, and Andrew D. Wilson. 2010. A Framework for Robust and Flexible Handling of Inputs with Uncertainty. In Proceedings of the 23Nd Annual ACM Symposium on User Interface Software and Technology (UIST '10). ACM, New York, NY, USA, 47--56.  ",
+      "doi": "10.1145/1866029.1866039"
+    },
+    {
+      "text": "Julia Schwarz, Jennifer Mankoff, and Scott Hudson. 2011. Monte Carlo Methods for Managing Interactive State, Action and Feedback Under Uncertainty. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology (UIST '11). ACM, New York, NY, USA, 235--244.  ",
+      "doi": "10.1145/2047196.2047227"
+    },
+    {
+      "text": "Julia Schwarz, Jennifer Mankoff, and Scott E. Hudson. 2015. An Architecture for Generating Interactive Feedback in Probabilistic User Interfaces. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). ACM, New York, NY, USA, 2545--2554.  ",
+      "doi": "10.1145/2702123.2702228"
+    },
+    {
+      "text": "Feng Wang and Xiangshi Ren. 2009. Empirical Evaluation for Finger Input Properties in Multi-touch Interaction. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '09). ACM, New York, NY, USA, 1063--1072.  ",
+      "doi": "10.1145/1518701.1518864"
+    },
+    {
+      "text": "Daryl Weir, Daniel Buschek, and Simon Rogers. 2013. Sparse Selection of Training Data for Touch Correction Systems. In Proceedings of the 15th International Conference on Human-computer Interaction with Mobile Devices and Services (MobileHCI '13). ACM, New York, NY, USA, 404--407.  ",
+      "doi": "10.1145/2493190.2493241"
+    },
+    {
+      "text": "Daryl Weir, Simon Rogers, Roderick Murray-Smith, and Markus L\u00f6chtefeld. 2012. A User-specific Machine Learning Approach for Improving Touch Accuracy on Mobile Devices. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology (UIST '12). ACM, New York, NY, USA, 465--476.  ",
+      "doi": "10.1145/2380116.2380175"
+    },
+    {
+      "text": "John Williamson. 2006. Continuous Uncertain Interaction. Ph.D. Dissertation. University of Glasgow.",
+      "doi": ""
+    },
+    {
+      "text": "Koji Yatani, Kurt Partridge, Marshall Bern, and Mark W. Newman. 2008. Escape: A Target Selection Technique Using Visually-cued Gestures. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '08). ACM, New York, NY, USA, 285--294.  ",
+      "doi": "10.1145/1357054.1357104"
+    },
+    {
+      "text": "Ying Yin, Tom Yu Ouyang, Kurt Partridge, and Shumin Zhai. 2013. Making Touchscreen Keyboards Adaptive to Keys, Hand Postures, and Individuals: A Hierarchical Spatial Backoff Model Approach. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). ACM, New York, NY, USA, 2775--2784.  ",
+      "doi": "10.1145/2470654.2481384"
+    },
+    {
+      "text": "Shumin Zhai, Jing Kong, and Xiangshi Ren. 2004. Speed-accuracy tradeoff in Fitts' law tasks - On the equivalency of actual and nominal pointing precision. International Journal of Human-Computer Studies 61, 6 (2004), 823--856.  ",
+      "doi": "10.1016/j.ijhcs.2004.09.007"
+    }
+  ]
+}

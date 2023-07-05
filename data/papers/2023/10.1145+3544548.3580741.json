@@ -1,0 +1,305 @@
+{
+  "doi": "10.1145/3544548.3580741",
+  "title": "DeepLens: Interactive Out-of-distribution Data Detection in NLP Models",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-17",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Machine Learning (ML) has been widely used in Natural Language Processing (NLP) applications. A fundamental assumption in ML is that training data and real-world data should follow a similar distribution. However, a deployed ML model may suffer from out-of-distribution (OOD) issues due to distribution shifts in the real-world data. Though many algorithms have been proposed to detect OOD data from text corpora, there is still a lack of interactive tool support for ML developers. In this work, we propose DeepLens, an interactive system that helps users detect and explore OOD issues in massive text corpora. Users can efficiently explore different OOD types in DeepLens with the help of a text clustering method. Users can also dig into a specific text by inspecting salient words highlighted through neuron activation analysis. In a within-subjects user study with 24 participants, participants using DeepLens were able to find nearly twice more types of OOD issues accurately with 22% more confidence compared with a variant of DeepLens that has no interaction or visualization support.",
+  "authors": [
+    {
+      "name": "Da Song",
+      "institution": "University of Alberta, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783301",
+      "orcid": "0000-0001-9267-4229"
+    },
+    {
+      "name": "Zhijie Wang",
+      "institution": "University of Alberta, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660600137",
+      "orcid": "0000-0003-4559-5426"
+    },
+    {
+      "name": "Yuheng Huang",
+      "institution": "University of Alberta, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783649",
+      "orcid": "0000-0003-3666-4020"
+    },
+    {
+      "name": "Lei Ma",
+      "institution": "University of Alberta, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "84460121257",
+      "orcid": "0000-0002-8621-2420"
+    },
+    {
+      "name": "Tianyi Zhang",
+      "institution": "Computer Science, Purdue University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658654086",
+      "orcid": "0000-0002-5468-9347"
+    }
+  ],
+  "references": [
+    {
+      "text": "J Alammar. 2021. Ecco: An Open Source Library for the Explainability of Transformer Language Models. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: System Demonstrations. Association for Computational Linguistics.",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul\u00a0N Bennett, Kori Inkpen, 2019. Guidelines for human-AI interaction. In Proceedings of the 2019 chi conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Dario Amodei, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, and Dan Man\u00e9. 2016. Concrete problems in AI safety. arXiv preprint arXiv:1606.06565(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Udit Arora, William Huang, and He He. 2021. Types of Out-of-Distribution Texts and How to Detect Them. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing. 10687\u201310701.",
+      "doi": ""
+    },
+    {
+      "text": "Koby Bibas, Meir Feder, and Tal Hassner. 2021. Single Layer Predictive Normalized Maximum Likelihood for Out-of-Distribution Detection. Advances in Neural Information Processing Systems 34 (2021), 1179\u20131191.",
+      "doi": ""
+    },
+    {
+      "text": "Steven Bird, Ewan Klein, and Edward Loper. 2009. Natural language processing with Python: analyzing text with the natural language toolkit. \" O\u2019Reilly Media, Inc.\".",
+      "doi": "10.5555/1717171"
+    },
+    {
+      "text": "Julian Bitterwolf, Alexander Meinke, and Matthias Hein. 2020. Certifiably adversarially robust detection of out-of-distribution data. Advances in Neural Information Processing Systems 33 (2020), 16085\u201316095.",
+      "doi": ""
+    },
+    {
+      "text": "Tom Bocklisch, Joey Faulkner, Nick Pawlowski, and Alan Nichol. 2017. Rasa: Open source language understanding and dialogue management. arXiv preprint arXiv:1712.05181(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Changjian Chen, Jun Yuan, Yafeng Lu, Yang Liu, Hang Su, Songtao Yuan, and Shixia Liu. 2020. Oodanalyzer: Interactive analysis of out-of-distribution samples. IEEE transactions on visualization and computer graphics 27, 7(2020), 3335\u20133349.",
+      "doi": ""
+    },
+    {
+      "text": "Sungik Choi and Sae-Young Chung. 2020. Novelty detection via blurring. Proceedings of the International Conference on Learning Representations (ICLR) (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Sourya\u00a0Dipta Das, Ayan Basak, and Saikat Dutta. 2021. A heuristic-driven ensemble framework for COVID-19 fake news detection. In International Workshop on Combating Online Hostile Posts in Regional Languages during Emergency Situation. Springer, 164\u2013176.",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Mirta Galesic, Rocio Garcia-Retamero, and Gerd Gigerenzer. 2009. Using icon arrays to communicate medical risks: overcoming low numeracy.Health Psychology 28, 2 (2009), 210.",
+      "doi": ""
+    },
+    {
+      "text": "Ian Goodfellow, Jonathon Shlens, and Christian Szegedy. 2015. Explaining and Harnessing Adversarial Examples. In International Conference on Learning Representations. http://arxiv.org/abs/1412.6572",
+      "doi": ""
+    },
+    {
+      "text": "Cheryl\u00a0L Grady, Anthony\u00a0R McIntosh, M\u00a0Natasha Rajah, and Fergus\u00a0IM Craik. 1998. Neural correlates of the episodic encoding of pictures and words. Proceedings of the National Academy of Sciences 95, 5 (1998), 2703\u20132708.",
+      "doi": ""
+    },
+    {
+      "text": "Brynjar Gretarsson, John O\u2019donovan, Svetlin Bostandjiev, Tobias H\u00f6llerer, Arthur Asuncion, David Newman, and Padhraic Smyth. 2012. Topicnets: Visual analysis of large text corpora with topic modeling. ACM Transactions on Intelligent Systems and Technology (TIST) 3, 2(2012), 1\u201326.",
+      "doi": "10.1145/2089094.2089099"
+    },
+    {
+      "text": "Chuan Guo, Geoff Pleiss, Yu Sun, and Kilian\u00a0Q Weinberger. 2017. On calibration of modern neural networks. In International conference on machine learning. PMLR, 1321\u20131330.",
+      "doi": ""
+    },
+    {
+      "text": "Jochen G\u00f6rtler, Christoph Schulz, Daniel Weiskopf, and Oliver Deussen. 2018. Bubble Treemaps for Uncertainty Visualization. IEEE Transactions on Visualization and Computer Graphics 24, 1(2018), 719\u2013728. https://doi.org/10.1109/TVCG.2017.2743959",
+      "doi": ""
+    },
+    {
+      "text": "Sandra\u00a0G Hart and Lowell\u00a0E Staveland. 1988. Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research. In Advances in psychology. Vol.\u00a052. Elsevier, 139\u2013183.",
+      "doi": ""
+    },
+    {
+      "text": "Matthias Hein, Maksym Andriushchenko, and Julian Bitterwolf. 2019. Why relu networks yield high-confidence predictions far away from the training data and how to mitigate the problem. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 41\u201350.",
+      "doi": ""
+    },
+    {
+      "text": "Dan Hendrycks and Kevin Gimpel. 2017. A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks. In 5th International Conference on Learning Representations, ICLR 2017, Toulon, France, April 24-26, 2017, Conference Track Proceedings. OpenReview.net. https://openreview.net/forum?id=Hkg4TI9xl",
+      "doi": ""
+    },
+    {
+      "text": "Dan Hendrycks, Norman Mu, Ekin\u00a0D. Cubuk, Barret Zoph, Justin Gilmer, and Balaji Lakshminarayanan. 2020. AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty. Proceedings of the International Conference on Learning Representations (ICLR) (2020).",
+      "doi": ""
+    },
+    {
+      "text": "J Hewitt and P Liang. 2019. Designing and Interpreting Probes with Control Tasks. Proceedings of the 2019 Con(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Geoffrey\u00a0E Hinton and Sam Roweis. 2002. Stochastic neighbor embedding. Advances in neural information processing systems 15 (2002).",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin Hoover, Hendrik Strobelt, and Sebastian Gehrmann. 2019. exbert: A visual analysis tool to explore learned representations in transformers models. arXiv preprint arXiv:1910.05276(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Yen-Chang Hsu, Yilin Shen, Hongxia Jin, and Zsolt Kira. 2020. Generalized odin: Detecting out-of-distribution image without learning from out-of-distribution data. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 10951\u201310960.",
+      "doi": ""
+    },
+    {
+      "text": "Ian\u00a0T Jolliffe. 2002. Principal component analysis for special types of data. Springer.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Kay, Tara Kola, Jessica\u00a0R Hullman, and Sean\u00a0A Munson. 2016. When (ish) is my bus? user-centered visualizations of uncertainty in everyday, mobile predictive systems. In Proceedings of the 2016 chi conference on human factors in computing systems. 5092\u20135103.",
+      "doi": "10.1145/2858036.2858558"
+    },
+    {
+      "text": "Jinhan Kim, Robert Feldt, and Shin Yoo. 2019. Guiding deep learning system testing using surprise adequacy. In 2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE). IEEE, 1039\u20131049.",
+      "doi": "10.1109/ICSE.2019.00108"
+    },
+    {
+      "text": "David Lazer, Ryan Kennedy, Gary King, and Alessandro Vespignani. 2014. The parable of Google Flu: traps in big data analysis. Science 343, 6176 (2014), 1203\u20131205.",
+      "doi": ""
+    },
+    {
+      "text": "Kimin Lee, Kibok Lee, Honglak Lee, and Jinwoo Shin. 2018. A simple unified framework for detecting out-of-distribution samples and adversarial attacks. Advances in neural information processing systems 31 (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Rongjian Li, Wenlu Zhang, Heung-Il Suk, Li Wang, Jiang Li, Dinggang Shen, and Shuiwang Ji. 2014. Deep learning based imaging data completion for improved brain disease diagnosis. In International conference on medical image computing and computer-assisted intervention. Springer, 305\u2013312.",
+      "doi": "10.1007/978-3-319-10443-0_39"
+    },
+    {
+      "text": "Shiyu Liang, Yixuan Li, and R. Srikant. 2018. Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks. In International Conference on Learning Representations. https://openreview.net/forum?id=H1VGkIxRZ",
+      "doi": ""
+    },
+    {
+      "text": "Ziqian Lin, Sreya\u00a0Dutta Roy, and Yixuan Li. 2021. Mood: Multi-level out-of-distribution detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 15313\u201315323.",
+      "doi": ""
+    },
+    {
+      "text": "Weitang Liu, Xiaoyun Wang, John Owens, and Yixuan Li. 2020. Energy-based out-of-distribution detection. Advances in Neural Information Processing Systems 33 (2020), 21464\u201321475.",
+      "doi": ""
+    },
+    {
+      "text": "Stuart Lloyd. 1982. Least squares quantization in PCM. IEEE transactions on information theory 28, 2 (1982), 129\u2013137.",
+      "doi": "10.1109/TIT.1982.1056489"
+    },
+    {
+      "text": "Christos Louizos and Max Welling. 2017. Multiplicative normalizing flows for variational bayesian neural networks. In International Conference on Machine Learning. PMLR, 2218\u20132227.",
+      "doi": ""
+    },
+    {
+      "text": "Jie Lu, Anjin Liu, Fan Dong, Feng Gu, Joao Gama, and Guangquan Zhang. 2018. Learning under concept drift: A review. IEEE Transactions on Knowledge and Data Engineering 31, 12(2018), 2346\u20132363.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Maas, Raymond\u00a0E Daly, Peter\u00a0T Pham, Dan Huang, Andrew\u00a0Y Ng, and Christopher Potts. 2011. Learning word vectors for sentiment analysis. In Proceedings of the 49th annual meeting of the association for computational linguistics: Human language technologies. 142\u2013150.",
+      "doi": "10.5555/2002472.2002491"
+    },
+    {
+      "text": "Alexander Meinke and Matthias Hein. 2020. Towards neural networks that provably know when they don\u2019t know. Proceedings of the International Conference on Learning Representations (ICLR) (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Tim Miller. 2019. Explanation in artificial intelligence: Insights from the social sciences. Artificial intelligence 267 (2019), 1\u201338.",
+      "doi": ""
+    },
+    {
+      "text": "Mehryar Mohri, Afshin Rostamizadeh, and Ameet Talwalkar. 2018. Foundations of machine learning. MIT press.",
+      "doi": "10.5555/2371238"
+    },
+    {
+      "text": "Jose\u00a0G Moreno-Torres, Troy Raeder, Roc\u00edo Alaiz-Rodr\u00edguez, Nitesh\u00a0V Chawla, and Francisco Herrera. 2012. A unifying view on dataset shift in classification. Pattern recognition 45, 1 (2012), 521\u2013530.",
+      "doi": ""
+    },
+    {
+      "text": "Peyman Morteza and Yixuan Li. 2022. Provable guarantees for understanding out-of-distribution detection. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a08.",
+      "doi": ""
+    },
+    {
+      "text": "Anh Nguyen, Jason Yosinski, and Jeff Clune. 2015. Deep neural networks are easily fooled: High confidence predictions for unrecognizable images. In Proceedings of the IEEE conference on computer vision and pattern recognition. 427\u2013436.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0L Olson, Thuy-Vy Nguyen, Gaurav Dixit, Neale Ratzlaff, Weng-Keen Wong, and Minsuk Kahng. 2021. Contrastive identification of covariate shift in image data. In 2021 IEEE Visualization Conference (VIS). IEEE, 36\u201340.",
+      "doi": ""
+    },
+    {
+      "text": "Jo\u00e3o Palmeiro, Beatriz Malveiro, Rita Costa, David Polido, Ricardo Moreira, and Pedro Bizarro. 2022. Data+ Shift: Supporting visual investigation of data distribution shifts by data scientists. arXiv preprint arXiv:2204.14025(2022).",
+      "doi": ""
+    },
+    {
+      "text": "F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay. 2011. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research 12 (2011), 2825\u20132830.",
+      "doi": "10.5555/1953048.2078195"
+    },
+    {
+      "text": "Zi Peng, Jinqiu Yang, Tse-Hsun Chen, and Lei Ma. 2020. A first look at the integration of machine learning models in complex autonomous driving systems: a case study on Apollo. In Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering. 1240\u20131250.",
+      "doi": "10.1145/3368089.3417063"
+    },
+    {
+      "text": "Alise\u00a0J Ponsero and Bonnie\u00a0L Hurwitz. 2019. The promises and pitfalls of machine learning for detecting viruses in aquatic metagenomes. Frontiers in microbiology 10 (2019), 806.",
+      "doi": ""
+    },
+    {
+      "text": "Stephan Rabanser, Stephan G\u00fcnnemann, and Zachary Lipton. 2019. Failing loudly: An empirical study of methods for detecting dataset shift. Advances in Neural Information Processing Systems 32 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Jie Ren, Peter\u00a0J Liu, Emily Fertig, Jasper Snoek, Ryan Poplin, Mark Depristo, Joshua Dillon, and Balaji Lakshminarayanan. 2019. Likelihood ratios for out-of-distribution detection. Advances in neural information processing systems 32 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0J Rousseeuw. 1987. Silhouettes: a graphical aid to the interpretation and validation of cluster analysis. Journal of computational and applied mathematics 20 (1987), 53\u201365.",
+      "doi": "10.1016/0377-0427%2887%2990125-7"
+    },
+    {
+      "text": "Elvis Saravia, Hsien-Chi\u00a0Toby Liu, Yen-Hao Huang, Junlin Wu, and Yi-Shin Chen. 2018. Carer: Contextualized affect representations for emotion recognition. In Proceedings of the 2018 conference on empirical methods in natural language processing. 3687\u20133697.",
+      "doi": ""
+    },
+    {
+      "text": "Kai Shu, Deepak Mahudeswaran, Suhang Wang, Dongwon Lee, and Huan Liu. 2020. Fakenewsnet: A data repository with news content, social context, and spatiotemporal information for studying fake news on social media. Big data 8, 3 (2020), 171\u2013188.",
+      "doi": ""
+    },
+    {
+      "text": "Joshua\u00a0B Tenenbaum, Vin\u00a0de Silva, and John\u00a0C Langford. 2000. A global geometric framework for nonlinear dimensionality reduction. science 290, 5500 (2000), 2319\u20132323.",
+      "doi": ""
+    },
+    {
+      "text": "Sunil Thulasidasan, Gopinath Chennupati, Jeff\u00a0A Bilmes, Tanmoy Bhattacharya, and Sarah Michalak. 2019. On mixup training: Improved calibration and predictive uncertainty for deep neural networks. Advances in Neural Information Processing Systems 32 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Haoran Wang, Weitang Liu, Alex Bocchieri, and Yixuan Li. 2021. Can multi-label classification networks know what they don\u2019t know?Advances in Neural Information Processing Systems 34 (2021), 29074\u201329087.",
+      "doi": ""
+    },
+    {
+      "text": "Xumeng Wang, Wei Chen, Jiazhi Xia, Zexian Chen, Dongshi Xu, Xiangyang Wu, Mingliang Xu, and Tobias Schreck. 2020. ConceptExplorer: Visual analysis of concept drifts in multi-source time-series data. In 2020 IEEE Conference on Visual Analytics Science and Technology (VAST). IEEE, 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Weikai Yang, Zhen Li, Mengchen Liu, Yafeng Lu, Kelei Cao, Ross Maciejewski, and Shixia Liu. 2020. Diagnosing concept drift with visual analytics. In 2020 IEEE Conference on Visual Analytics Science and Technology (VAST). IEEE, 12\u201323.",
+      "doi": ""
+    },
+    {
+      "text": "Anton Yeshchenko, Claudio Di\u00a0Ciccio, Jan Mendling, and Artem Polyvyanyy. 2021. Visual drift detection for sequence data analysis of business processes. IEEE Transactions on Visualization and Computer Graphics (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Sangdoo Yun, Dongyoon Han, Seong\u00a0Joon Oh, Sanghyuk Chun, Junsuk Choe, and Youngjoon Yoo. 2019. Cutmix: Regularization strategy to train strong classifiers with localizable features. In Proceedings of the IEEE/CVF international conference on computer vision. 6023\u20136032.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaoyu Zhang, Senthil Chandrasegaran, and Kwan-Liu Ma. 2021. Conceptscope: Organizing and visualizing knowledge in documents based on domain ontology. In Proceedings of the 2021 chi conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445396"
+    },
+    {
+      "text": "Xiang Zhang, Junbo Zhao, and Yann LeCun. 2015. Character-level convolutional networks for text classification. Advances in neural information processing systems 28 (2015).",
+      "doi": ""
+    }
+  ]
+}

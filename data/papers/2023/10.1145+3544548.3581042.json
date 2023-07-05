@@ -1,0 +1,335 @@
+{
+  "doi": "10.1145/3544548.3581042",
+  "title": "Predicting Gaze-based Target Selection in Augmented Reality Headsets based on Eye and Head Endpoint Distributions",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Target selection is a fundamental task in interactive Augmented Reality (AR) systems. Predicting the intended target of selection in such systems can provide users with a smooth, low-friction interaction experience. Our work aims to predict gaze-based target selection in AR headsets with eye and head endpoint distributions, which describe the probability distribution of eye and head 3D orientation when a user triggers a selection input. We first conducted a user study to collect users\u2019 eye and head behavior in a gaze-based pointing selection task with two confirmation mechanisms (air tap and blinking). Based on the study results, we then built two models: a unimodal model using only eye endpoints and a multimodal model using both eye and head endpoints. Results from a second user study showed that the pointing accuracy is improved by approximately 32% after integrating our models into gaze-based selection techniques.",
+  "authors": [
+    {
+      "name": "Yushi Wei",
+      "institution": "Department of Computing, Xi'an Jiaotong-Liverpool University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660781425",
+      "orcid": "0000-0002-6003-0557"
+    },
+    {
+      "name": "Rongkai Shi",
+      "institution": "Department of Computing, Xi'an Jiaotong-Liverpool University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659699596",
+      "orcid": "0000-0001-8845-6034"
+    },
+    {
+      "name": "Difeng Yu",
+      "institution": "School of Computing and Information Systems, University of Melbourne, Australia",
+      "img": "/do/10.1145/contrib-99659366565/rel-imgonly/wechatimg51.jpeg",
+      "acmid": "99659366565",
+      "orcid": "0000-0002-7753-4591"
+    },
+    {
+      "name": "Yihong Wang",
+      "institution": "Computer Science and Software Engineering, Xi'an Jiaotong-Liverpool University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659482133",
+      "orcid": "0000-0002-3278-6410"
+    },
+    {
+      "name": "Yue Li",
+      "institution": "Department of Computing, Xi'an Jiaotong-Liverpool University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659907819",
+      "orcid": "0000-0003-3728-218X"
+    },
+    {
+      "name": "Lingyun Yu",
+      "institution": "Department of Computing, Xi'an Jiaotong-Liverpool University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81474683736",
+      "orcid": "0000-0002-3152-2587"
+    },
+    {
+      "name": "Hai-Ning Liang",
+      "institution": "Department of Computing, Xi'an Jiaotong-Liverpool University, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81502722554",
+      "orcid": "0000-0003-3600-8955"
+    }
+  ],
+  "references": [
+    {
+      "text": "Samantha Aziz and Oleg Komogortsev. 2022. An Assessment of the Eye Tracking Signal Quality Captured in the HoloLens 2. In 2022 Symposium on Eye Tracking Research and Applications (Seattle, WA, USA) (ETRA \u201922). Association for Computing Machinery, New York, NY, USA, Article 5, 6\u00a0pages. https://doi.org/10.1145/3517031.3529626",
+      "doi": "10.1145/3517031.3529626"
+    },
+    {
+      "text": "R. Bates and H.\u00a0O. Istance. 2002. Why Are Eye Mice Unpopular? \u2014 A Detailed Comparison of Head and Eye Controlled Assistive Technology Pointing Devices. In Universal Access and Assistive Technology, Simeon Keates, Patrick Langdon, P.\u00a0John Clarkson, and Peter Robinson (Eds.). Springer London, London, 75\u201386.",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin\u00a0B. Bederson. 2000. Fisheye Menus. In Proceedings of the 13th Annual ACM Symposium on User Interface Software and Technology (San Diego, California, USA) (UIST \u201900). Association for Computing Machinery, New York, NY, USA, 217\u2013225. https://doi.org/10.1145/354401.354782",
+      "doi": "10.1145/354401.354782"
+    },
+    {
+      "text": "Matthias Bernhard, Efstathios Stavrakis, Michael Hecher, and Michael Wimmer. 2014. Gaze-to-Object Mapping during Visual Search in 3D Virtual Environments. ACM Trans. Appl. Percept. 11, 3, Article 14 (aug 2014), 17\u00a0pages. https://doi.org/10.1145/2644812",
+      "doi": "10.1145/2644812"
+    },
+    {
+      "text": "Xiaojun Bi, Yang Li, and Shumin Zhai. 2013. FFitts Law: Modeling Finger Touch with Fitts\u2019 Law. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). Association for Computing Machinery, New York, NY, USA, 1363\u20131372. https://doi.org/10.1145/2470654.2466180",
+      "doi": "10.1145/2470654.2466180"
+    },
+    {
+      "text": "Xiaojun Bi and Shumin Zhai. 2013. Bayesian Touch: A Statistical Criterion of Target Selection with Finger Touch. In Proceedings of the 26th Annual ACM Symposium on User Interface Software and Technology (St. Andrews, Scotland, United Kingdom) (UIST \u201913). Association for Computing Machinery, New York, NY, USA, 51\u201360. https://doi.org/10.1145/2501988.2502058",
+      "doi": "10.1145/2501988.2502058"
+    },
+    {
+      "text": "Emilio Bizzi. 2011. Eye-Head Coordination. Comprehensive Physiology(2011), 23\u201324.",
+      "doi": ""
+    },
+    {
+      "text": "Renaud Blanch and Michael Ortega. 2011. Benchmarking Pointing Techniques with Distractors: Adding a Density Factor to Fitts\u2019 Pointing Paradigm. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vancouver, BC, Canada) (CHI \u201911). Association for Computing Machinery, New York, NY, USA, 1629\u20131638. https://doi.org/10.1145/1978942.1979180",
+      "doi": "10.1145/1978942.1979180"
+    },
+    {
+      "text": "Jonas Blattgerste, Patrick Renner, and Thies Pfeiffer. 2018. Advantages of Eye-Gaze over Head-Gaze-Based Selection in Virtual and Augmented Reality under Varying Field of Views. In Proceedings of the Workshop on Communication by Gaze Interaction (Warsaw, Poland) (COGAIN \u201918). Association for Computing Machinery, New York, NY, USA, Article 1, 9\u00a0pages. https://doi.org/10.1145/3206343.3206349",
+      "doi": "10.1145/3206343.3206349"
+    },
+    {
+      "text": "Jonas Blattgerste, Patrick Renner, and Thies Pfeiffer. 2018. Advantages of Eye-Gaze over Head-Gaze-Based Selection in Virtual and Augmented Reality under Varying Field of Views. In Proceedings of the Workshop on Communication by Gaze Interaction (Warsaw, Poland) (COGAIN \u201918). Association for Computing Machinery, New York, NY, USA, Article 1, 9\u00a0pages. https://doi.org/10.1145/3206343.3206349",
+      "doi": "10.1145/3206343.3206349"
+    },
+    {
+      "text": "Riccardo Bovo, Daniele Giunchi, Ludwig Sidenmark, Hans Gellersen, Enrico Costanza, and Thomas Heinis. 2022. Real-Time Head-Based Deep-Learning Model for Gaze Probability Regions in Collaborative VR. In 2022 Symposium on Eye Tracking Research and Applications (Seattle, WA, USA) (ETRA \u201922). Association for Computing Machinery, New York, NY, USA, Article 6, 8\u00a0pages. https://doi.org/10.1145/3517031.3529642",
+      "doi": "10.1145/3517031.3529642"
+    },
+    {
+      "text": "Ishan Chatterjee, Robert Xiao, and Chris Harrison. 2015. Gaze+Gesture: Expressive, Precise and Targeted Free-Space Interactions. In Proceedings of the 2015 ACM on International Conference on Multimodal Interaction (Seattle, Washington, USA) (ICMI \u201915). Association for Computing Machinery, New York, NY, USA, 131\u2013138. https://doi.org/10.1145/2818346.2820752",
+      "doi": "10.1145/2818346"
+    },
+    {
+      "text": "Michael Chau and Margrit Betke. 2005. Real time eye tracking and blink detection with usb cameras. Technical Report. Boston University Computer Science Department.",
+      "doi": ""
+    },
+    {
+      "text": "Iakov Chernyak, Grigory Chernyak, Jeffrey K.\u00a0S. Bland, and Pierre D.\u00a0P. Rahier. 2021. Important Considerations of Data Collection and Curation for Reliable Benchmarking of End-User Eye-Tracking Systems. In ACM Symposium on Eye Tracking Research and Applications (Virtual Event, Germany) (ETRA \u201921 Full Papers). Association for Computing Machinery, New York, NY, USA, Article 1, 9\u00a0pages. https://doi.org/10.1145/3448017.3457383",
+      "doi": "10.1145/3448017.3457383"
+    },
+    {
+      "text": "Tor-Salve Dalsgaard, Jarrod Knibbe, and Joanna Bergstr\u00f6m. 2021. Modeling Pointing for 3D Target Selection in VR. In Proceedings of the 27th ACM Symposium on Virtual Reality Software and Technology (Osaka, Japan) (VRST \u201921). Association for Computing Machinery, New York, NY, USA, Article 42, 10\u00a0pages. https://doi.org/10.1145/3489849.3489853",
+      "doi": "10.1145/3489849.3489853"
+    },
+    {
+      "text": "Brendan David-John, Candace Peacock, Ting Zhang, T.\u00a0Scott Murdison, Hrvoje Benko, and Tanya\u00a0R. Jonker. 2021. Towards Gaze-Based Prediction of the Intent to Interact in Virtual Reality. In ACM Symposium on Eye Tracking Research and Applications (Virtual Event, Germany) (ETRA \u201921 Short Papers). Association for Computing Machinery, New York, NY, USA, Article 2, 7\u00a0pages. https://doi.org/10.1145/3448018.3458008",
+      "doi": "10.1145/3448018.3458008"
+    },
+    {
+      "text": "Shujie Deng, Nan Jiang, Jian Chang, Shihui Guo, and Jian\u00a0J. Zhang. 2017. Understanding the impact of multimodal interaction using gaze informed mid-air gesture control in 3D virtual objects manipulation. International Journal of Human-Computer Studies 105 (2017), 68\u201380. https://doi.org/10.1016/j.ijhcs.2017.04.002",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0T. Duchowski. 2018. Gaze-based interaction: A 30 year retrospective. Computers & Graphics 73(2018), 59\u201369. https://doi.org/10.1016/j.cag.2018.04.002",
+      "doi": "10.1016/j.cag.2018.04.002"
+    },
+    {
+      "text": "Anna\u00a0Maria Feit, Shane Williams, Arturo Toledo, Ann Paradiso, Harish Kulkarni, Shaun Kane, and Meredith\u00a0Ringel Morris. 2017. Toward Everyday Gaze Input: Accuracy and Precision of Eye Tracking and Implications for Design. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 1118\u20131130. https://doi.org/10.1145/3025453.3025599",
+      "doi": "10.1145/3025453.3025599"
+    },
+    {
+      "text": "Wenxin Feng, Jiangnan Zou, Andrew Kurauchi, Carlos\u00a0H Morimoto, and Margrit Betke. 2021. HGaze Typing: Head-Gesture Assisted Gaze Typing. In ACM Symposium on Eye Tracking Research and Applications (Virtual Event, Germany) (ETRA \u201921 Full Papers). Association for Computing Machinery, New York, NY, USA, Article 11, 11\u00a0pages. https://doi.org/10.1145/3448017.3457379",
+      "doi": "10.1145/3448017.3457379"
+    },
+    {
+      "text": "Edward\u00a0G Freedman. 2008. Coordination of the eyes and head during visual orienting. Experimental brain research 190, 4 (2008), 369\u2013387.",
+      "doi": ""
+    },
+    {
+      "text": "Tovi Grossman and Ravin Balakrishnan. 2005. A Probabilistic Approach to Modeling Two-Dimensional Pointing. ACM Trans. Comput.-Hum. Interact. 12, 3 (sep 2005), 435\u2013459. https://doi.org/10.1145/1096737.1096741",
+      "doi": "10.1145/1096737.1096741"
+    },
+    {
+      "text": "D Guitton and M Volle. 1987. Gaze control in humans: eye-head coordination during orienting movements to targets within and beyond the oculomotor range. Journal of neurophysiology 58, 3 (September 1987), 427\u2014459. https://doi.org/10.1152/jn.1987.58.3.427",
+      "doi": ""
+    },
+    {
+      "text": "Rorik Henrikson, Tovi Grossman, Sean Trowbridge, Daniel Wigdor, and Hrvoje Benko. 2020. Head-Coupled Kinematic Template Matching: A Prediction Model for Ray Pointing in VR. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376489",
+      "doi": "10.1145/3313831.3376489"
+    },
+    {
+      "text": "Jin Huang, Xiaolan Peng, Feng Tian, Hongan Wang, and Guozhong Dai. 2018. Modeling a Target-Selection Motion by Leveraging an Optimal Feedback Control Mechanism. Science China Information Sciences 61, 4 (2018). https://doi.org/10.1007/s11432-017-9326-8",
+      "doi": ""
+    },
+    {
+      "text": "Jin Huang, Feng Tian, Xiangmin Fan, Huawei Tu, Hao Zhang, Xiaolan Peng, and Hongan Wang. 2020. Modeling the Endpoint Uncertainty in Crossing-Based Moving Target Selection. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376336",
+      "doi": "10.1145/3313831.3376336"
+    },
+    {
+      "text": "Jin Huang, Feng Tian, Xiangmin Fan, Xiaolong\u00a0(Luke) Zhang, and Shumin Zhai. 2018. Understanding the Uncertainty in 1D Unidirectional Moving Target Selection. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3173811",
+      "doi": "10.1145/3173574.3173811"
+    },
+    {
+      "text": "Jin Huang, Feng Tian, Nianlong Li, and Xiangmin Fan. 2019. Modeling the Uncertainty in 2D Moving Target Selection. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 1031\u20131043. https://doi.org/10.1145/3332165.3347880",
+      "doi": "10.1145/3332165.3347880"
+    },
+    {
+      "text": "Toshiya Isomoto, Toshiyuki Ando, Buntarou Shizuki, and Shin Takahashi. 2018. Dwell Time Reduction Technique Using Fitts\u2019 Law for Gaze-Based Target Acquisition. In Proceedings of the 2018 ACM Symposium on Eye Tracking Research & Applications (Warsaw, Poland) (ETRA \u201918). Association for Computing Machinery, New York, NY, USA, Article 26, 7\u00a0pages. https://doi.org/10.1145/3204493.3204532",
+      "doi": "10.1145/3204493.3204532"
+    },
+    {
+      "text": "Robert J.\u00a0K. Jacob. 1991. The Use of Eye Movements in Human-Computer Interaction Techniques: What You Look at is What You Get. ACM Trans. Inf. Syst. 9, 2 (apr 1991), 152\u2013169. https://doi.org/10.1145/123078.128728",
+      "doi": "10.1145/123078.128728"
+    },
+    {
+      "text": "Anjali\u00a0K Jogeshwar, Gabriel\u00a0J Diaz, Susan\u00a0P Farnand, and Jeff\u00a0B Pelz. 2020. The Cone Model: Recognizing gaze uncertainty in virtual environments. Electronic Imaging 2020, 9 (2020), 288\u20131.",
+      "doi": ""
+    },
+    {
+      "text": "Konstantin Klamka, Andreas Siegel, Stefan Vogt, Fabian G\u00f6bel, Sophie Stellmach, and Raimund Dachselt. 2015. Look & Pedal: Hands-Free Navigation in Zoomable Information Spaces through Gaze-Supported Foot Input. In Proceedings of the 2015 ACM on International Conference on Multimodal Interaction (Seattle, Washington, USA) (ICMI \u201915). Association for Computing Machinery, New York, NY, USA, 123\u2013130. https://doi.org/10.1145/2818346.2820751",
+      "doi": "10.1145/2818346.2820751"
+    },
+    {
+      "text": "Yu-Jung Ko, Hang Zhao, Yoonsang Kim, IV Ramakrishnan, Shumin Zhai, and Xiaojun Bi. 2020. Modeling Two Dimensional Touch Pointing. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201920). Association for Computing Machinery, New York, NY, USA, 858\u2013868. https://doi.org/10.1145/3379337.3415871",
+      "doi": "10.1145/3379337.3415871"
+    },
+    {
+      "text": "Aleksandra Kr\u00f3lak and Pawe\u0142 Strumi\u0142\u0142o. 2012. Eye-blink detection system for human\u2013computer interaction. Universal Access in the Information Society 11, 4 (2012), 409\u2013419. https://doi.org/10.1007/s10209-011-0256-6",
+      "doi": "10.1007/s10209-011-0256-6"
+    },
+    {
+      "text": "Mikko Kyt\u00f6, Barrett Ens, Thammathip Piumsomboon, Gun\u00a0A. Lee, and Mark Billinghurst. 2018. Pinpointing: Precise Head- and Eye-Based Target Selection for Augmented Reality. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3173574.3173655",
+      "doi": "10.1145/3173574.3173655"
+    },
+    {
+      "text": "Michael Land and Benjamin Tatler. 2009. Looking and Acting: Vision and eye movements in natural behaviour. Oxford University Press. https://doi.org/10.1093/acprof:oso/9780198570943.001.0001",
+      "doi": ""
+    },
+    {
+      "text": "Michael Lankes and Barbara Stiglbauer. 2016. GazeAR: Mobile gaze-based interaction in the context of augmented reality games. In International conference on augmented reality, virtual reality and computer graphics. Springer, 397\u2013406.",
+      "doi": ""
+    },
+    {
+      "text": "Nianlong Li, Feng Tian, Jin Huang, Xiangmin Fan, and Hongan Wang. 2018. 2D-BayesPointer: An Implicit Moving Target Selection Technique Enabled by Human Performance Modeling. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI EA \u201918). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3170427.3188520",
+      "doi": "10.1145/3170427.3188520"
+    },
+    {
+      "text": "Zhi Li, Maozheng Zhao, Yifan Wang, Sina Rashidian, Furqan Baig, Rui Liu, Wanyu Liu, Michel Beaudouin-Lafon, Brooke Ellison, Fusheng Wang, IV Ramakrishnan, and Xiaojun Bi. 2021. BayesGaze: A Bayesian Approach to Eye-Gaze Based Target Selection. In Proceedings of Graphics Interface 2021 (Virtual Event) (GI 2021). Canadian Information Processing Society, 231 \u2013 240. https://doi.org/10.20380/GI2021.35",
+      "doi": ""
+    },
+    {
+      "text": "Jen-Shuo Liu, Carmine Elvezio, Barbara Tversky, and Steven Feiner. 2021. Using Multi-Level Precueing to Improve Performance in Path-Following Tasks in Virtual Reality. IEEE Transactions on Visualization and Computer Graphics 27, 11(2021), 4311\u20134320. https://doi.org/10.1109/TVCG.2021.3106476",
+      "doi": ""
+    },
+    {
+      "text": "Xinyi Liu, Xuanru Meng, Becky Spittle, Wenge Xu, BoYu Gao, and Hai-Ning Liang. 2023. Exploring Text Selection in Augmented Reality Systems. In Proceedings of the 18th ACM SIGGRAPH International Conference on Virtual-Reality Continuum and Its Applications in Industry (Guangzhou, China) (VRCAI \u201922). Association for Computing Machinery, New York, NY, USA, Article 35, 8\u00a0pages. https://doi.org/10.1145/3574131.3574459",
+      "doi": "10.1145/3574131.3574459"
+    },
+    {
+      "text": "Feiyu Lu, Difeng Yu, Hai-Ning Liang, Wenjun Chen, Konstantinos Papangelis, and Nazlena\u00a0Mohamad Ali. 2018. Evaluating Engagement Level and Analytical Support of Interactive Visualizations in Virtual Reality Environments. In IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2018, Munich, Germany, October 16-20, 2018, David Chu, Joseph\u00a0L. Gabbard, Jens Grubert, and Holger Regenbrecht (Eds.). IEEE, 143\u2013152. https://doi.org/10.1109/ISMAR.2018.00050",
+      "doi": ""
+    },
+    {
+      "text": "Xueshi Lu, Difeng Yu, Hai-Ning Liang, and Jorge Goncalves. 2021. IText: Hands-Free Text Entry on an Imaginary Keyboard for Augmented Reality Systems. In The 34th Annual ACM Symposium on User Interface Software and Technology(Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 815\u2013825. https://doi.org/10.1145/3472749.3474788",
+      "doi": "10.1145/3472749.3474788"
+    },
+    {
+      "text": "Xueshi Lu, Difeng Yu, Hai-Ning Liang, Wenge Xu, Yuzheng Chen, Xiang Li, and Khalad Hasan. 2020. Exploration of Hands-free Text Entry Techniques For Virtual Reality. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). 344\u2013349. https://doi.org/10.1109/ISMAR50242.2020.00061",
+      "doi": ""
+    },
+    {
+      "text": "Kim Marriott, Falk Schreiber, Tim Dwyer, Karsten Klein, Nathalie\u00a0Henry Riche, Takayuki Itoh, Wolfgang Stuerzlinger, and Bruce\u00a0H Thomas. 2018. Immersive analytics. Vol.\u00a011190. Springer.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0J. McGuffin and Ravin Balakrishnan. 2005. Fitts\u2019 Law and Expanding Targets: Experimental Studies and Designs for User Interfaces. ACM Trans. Comput.-Hum. Interact. 12, 4 (dec 2005), 388\u2013422. https://doi.org/10.1145/1121112.1121115",
+      "doi": "10.1145/1121112.1121115"
+    },
+    {
+      "text": "Xuanru Meng, Wenge Xu, and Hai-Ning Liang. 2022. An Exploration of Hands-free Text Selection for Virtual Reality Head-Mounted Displays. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). 74\u201381. https://doi.org/10.1109/ISMAR55827.2022.00021",
+      "doi": ""
+    },
+    {
+      "text": "Darius Miniotas, Oleg \u0160pakov, and I.\u00a0Scott MacKenzie. 2004. Eye Gaze Interaction with Expanding Targets. In CHI \u201904 Extended Abstracts on Human Factors in Computing Systems (Vienna, Austria) (CHI EA \u201904). Association for Computing Machinery, New York, NY, USA, 1255\u20131258. https://doi.org/10.1145/985921.986037",
+      "doi": "10.1145/985921.986037"
+    },
+    {
+      "text": "Ken Pfeuffer, Benedikt Mayer, Diako Mardanbegi, and Hans Gellersen. 2017. Gaze + Pinch Interaction in Virtual Reality. In Proceedings of the 5th Symposium on Spatial User Interaction (Brighton, United Kingdom) (SUI \u201917). Association for Computing Machinery, New York, NY, USA, 99\u2013108. https://doi.org/10.1145/3131277.3132180",
+      "doi": "10.1145/3131277.3132180"
+    },
+    {
+      "text": "Sohrab Saeb, Cornelius Weber, and Jochen Triesch. 2011. Learning the Optimal Control of Coordinated Eye and Head Movements. PLOS Computational Biology 7, 11 (2011). https://doi.org/10.1371/journal.pcbi.1002253",
+      "doi": ""
+    },
+    {
+      "text": "Ludwig Sidenmark and Hans Gellersen. 2019. Eye, Head and Torso Coordination During Gaze Shifts in Virtual Reality. ACM Trans. Comput.-Hum. Interact. 27, 1, Article 4 (dec 2019), 40\u00a0pages. https://doi.org/10.1145/3361218",
+      "doi": "10.1145/3361218"
+    },
+    {
+      "text": "Ludwig Sidenmark and Hans Gellersen. 2019. Eye&head: Synergetic eye and head movement for gaze pointing and selection. In Proceedings of the 32nd annual ACM symposium on user interface software and technology. 1161\u20131174.",
+      "doi": "10.1145/3332165.3347921"
+    },
+    {
+      "text": "J.\u00a0David Smith and T.\u00a0C.\u00a0Nicholas Graham. 2006. Use of Eye Movements for Video Game Control. In Proceedings of the 2006 ACM SIGCHI International Conference on Advances in Computer Entertainment Technology (Hollywood, California, USA) (ACE \u201906). Association for Computing Machinery, New York, NY, USA, 20\u2013es. https://doi.org/10.1145/1178823.1178847",
+      "doi": "10.1145/1178823.1178847"
+    },
+    {
+      "text": "R\u00a0William Soukoreff and I\u00a0Scott MacKenzie. 2004. Towards a standard for pointing device evaluation, perspectives on 27 years of Fitts\u2019 law research in HCI. International journal of human-computer studies 61, 6 (2004), 751\u2013789.",
+      "doi": "10.1016/j.ijhcs.2004.09.001"
+    },
+    {
+      "text": "India Starker and Richard\u00a0A. Bolt. 1990. A Gaze-Responsive Self-Disclosing Display. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Seattle, Washington, USA) (CHI \u201990). Association for Computing Machinery, New York, NY, USA, 3\u201310. https://doi.org/10.1145/97243.97245",
+      "doi": "10.1145/97243.97245"
+    },
+    {
+      "text": "Ayoung Suh and Jane Prophet. 2018. The State of Immersive Technology Research: A Literature Analysis. Computers in Human Behavior 86 (2018), 77\u201390. https://doi.org/10.1016/j.chb.2018.04.019",
+      "doi": ""
+    },
+    {
+      "text": "Eleftherios Triantafyllidis and Zhibin Li. 2021. The Challenges in Modeling Human Performance in 3D Space with Fitts\u2019 Law(CHI EA \u201921). Association for Computing Machinery, New York, NY, USA, Article 56, 9\u00a0pages. https://doi.org/10.1145/3411763.3443442",
+      "doi": "10.1145/3411763.3443442"
+    },
+    {
+      "text": "Huawei Tu, Jin Huang, Hai-Ning Liang, Richard Skarbez, Feng Tian, and Henry Been-Lirn Duh. 2021. Distractor Effects on Crossing-Based Interaction. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 192, 13\u00a0pages. https://doi.org/10.1145/3411764.3445340",
+      "doi": "10.1145/3411764.3445340"
+    },
+    {
+      "text": "Stephen Uzor and Per\u00a0Ola Kristensson. 2021. An Exploration of Freehand Crossing Selection in Head-Mounted Augmented Reality. ACM Trans. Comput.-Hum. Interact. 28, 5, Article 33 (aug 2021), 27\u00a0pages. https://doi.org/10.1145/3462546",
+      "doi": "10.1145/3462546"
+    },
+    {
+      "text": "Oleg \u0160pakov, Poika Isokoski, and P\u00e4ivi Majaranta. 2014. Look and Lean: Accurate Head-Assisted Eye Pointing. In Proceedings of the Symposium on Eye Tracking Research and Applications (Safety Harbor, Florida) (ETRA \u201914). Association for Computing Machinery, New York, NY, USA, 35\u201342. https://doi.org/10.1145/2578153.2578157",
+      "doi": "10.1145/2578153.2578157"
+    },
+    {
+      "text": "C Wingrave and D Bowman. 2005. Baseline factors for raycasting selection. In Proceedings of HCI International. 61\u201368.",
+      "doi": ""
+    },
+    {
+      "text": "Wenge Xu, Xuanru Meng, Kangyou Yu, Sayan Sarcar, and Hai-Ning Liang. 2022. Evaluation of Text Selection Techniques in Virtual Reality Head-Mounted Displays. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). 131\u2013140. https://doi.org/10.1109/ISMAR55827.2022.00027",
+      "doi": ""
+    },
+    {
+      "text": "Difeng Yu, Hai-Ning Liang, Xueshi Lu, Kaixuan Fan, and Barrett Ens. 2019. Modeling Endpoint Distribution of Pointing Selection Tasks in Virtual Reality Environments. ACM Trans. Graph. 38, 6, Article 218 (nov 2019), 13\u00a0pages. https://doi.org/10.1145/3355089.3356544",
+      "doi": "10.1145/3355089.3356544"
+    },
+    {
+      "text": "Difeng Yu, Xueshi Lu, Rongkai Shi, Hai-Ning Liang, Tilman Dingler, Eduardo Velloso, and Jorge Goncalves. 2021. Gaze-Supported 3D Object Manipulation in Virtual Reality. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 734, 13\u00a0pages. https://doi.org/10.1145/3411764.3445343",
+      "doi": "10.1145/3411764.3445343"
+    },
+    {
+      "text": "Shumin Zhai, St\u00e9phane Conversy, Michel Beaudouin-Lafon, and Yves Guiard. 2003. Human On-Line Response to Target Expansion. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Ft. Lauderdale, Florida, USA) (CHI \u201903). Association for Computing Machinery, New York, NY, USA, 177\u2013184. https://doi.org/10.1145/642611.642644",
+      "doi": "10.1145/642611.642644"
+    },
+    {
+      "text": "Xinyong Zhang. 2021. Evaluating the Effects of Saccade Types and Directions on Eye Pointing Tasks. In The 34th Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 1221\u20131234. https://doi.org/10.1145/3472749.3474818",
+      "doi": "10.1145/3472749.3474818"
+    },
+    {
+      "text": "Ziyue Zhang, Jin Huang, and Feng Tian. 2020. Modeling the Uncertainty in Pointing of Moving Targets with Arbitrary Shapes. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems(Honolulu, HI, USA) (CHI EA \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20137. https://doi.org/10.1145/3334480.3382875",
+      "doi": "10.1145/3334480.3382875"
+    },
+    {
+      "text": "Suwen Zhu, Yoonsang Kim, Jingjie Zheng, Jennifer\u00a0Yi Luo, Ryan Qin, Liuping Wang, Xiangmin Fan, Feng Tian, and Xiaojun Bi. 2020. Using Bayes\u2019 Theorem for Command Input: Principle, Models, and Applications. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3313831.3376771",
+      "doi": "10.1145/3313831.3376771"
+    }
+  ]
+}

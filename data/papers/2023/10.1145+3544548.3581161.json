@@ -1,0 +1,496 @@
+{
+  "doi": "10.1145/3544548.3581161",
+  "title": "Disentangling Fairness Perceptions in Algorithmic Decision-Making: the Effects of Explanations, Human Oversight, and Contestability",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-21",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Recent research claims that information cues and system attributes of algorithmic decision-making processes affect decision subjects\u2019 fairness perceptions. However, little is still known about how these factors interact. This paper presents a user study (N = 267) investigating the individual and combined effects of explanations, human oversight, and contestability on informational and procedural fairness perceptions for high- and low-stakes decisions in a loan approval scenario. We find that explanations and contestability contribute to informational and procedural fairness perceptions, respectively, but we find no evidence for an effect of human oversight. Our results further show that both informational and procedural fairness perceptions contribute positively to overall fairness perceptions but we do not find an interaction effect between them. A qualitative analysis exposes tensions between information overload and understanding, human involvement and timely decision-making, and accounting for personal circumstances while maintaining procedural consistency. Our results have important design implications for algorithmic decision-making processes that meet decision subjects\u2019 standards of justice.",
+  "authors": [
+    {
+      "name": "Mireia Yurrita",
+      "institution": "Delft University of Technology, Netherlands",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660130269",
+      "orcid": "0000-0002-9685-4873"
+    },
+    {
+      "name": "Tim Draws",
+      "institution": "Delft University of Technology, Netherlands",
+      "img": "/do/10.1145/contrib-99659730063/rel-imgonly/1u4a2613.jpg",
+      "acmid": "99659730063",
+      "orcid": "0000-0001-5053-4674"
+    },
+    {
+      "name": "Agathe Balayn",
+      "institution": "Delft University of Technology, Netherlands",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659730652",
+      "orcid": "0000-0003-2725-5305"
+    },
+    {
+      "name": "Dave Murray-Rust",
+      "institution": "Delft University of Technology, Netherlands",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81436598350",
+      "orcid": "0000-0001-6098-7861"
+    },
+    {
+      "name": "Nava Tintarev",
+      "institution": "Maastricht University, Netherlands",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81338491666",
+      "orcid": "0000-0002-5007-5161"
+    },
+    {
+      "name": "Alessandro Bozzon",
+      "institution": "Delft University of Technology, Netherlands",
+      "img": "/do/10.1145/contrib-81314480825/rel-imgonly/me_medium.jpg",
+      "acmid": "81314480825",
+      "orcid": "0000-0002-3300-2913"
+    }
+  ],
+  "references": [
+    {
+      "text": "J.\u00a0Stacy Adams. 1965. Inequity in social exchange. In Advances in experimental social psychology. Vol.\u00a02. Academic Elsevier, 267\u2013299.",
+      "doi": ""
+    },
+    {
+      "text": "Kars Alfrink, Ianus Keller, Neelke Doorn, and Gerd Kortuem. 2022. Tensions in transparent urban AI: designing a smart electric vehicle charge point. AI & SOCIETY (3 2022). https://doi.org/10.1007/s00146-022-01436-9",
+      "doi": ""
+    },
+    {
+      "text": "Kars Alfrink, Ianus Keller, Gerd Kortuem, and Neelke Doorn. 2022. Contestable AI by Design: Towards a Framework. Minds and Machines (8 2022). https://doi.org/10.1007/s11023-022-09611-z",
+      "doi": ""
+    },
+    {
+      "text": "Kars Alfrink, T. Turel, A.\u00a0I. Keller, N. Doorn, and G.\u00a0W. Kortuem. 2020. Contestable City Algorithms. International Conference on Machine Learning Workshop.",
+      "doi": ""
+    },
+    {
+      "text": "Marco Almada. 2019. Human intervention in automated decision-making. In Proceedings of the Seventeenth International Conference on Artificial Intelligence and Law. ACM, New York, NY, USA, 2\u201311. https://doi.org/10.1145/3322640.3326699",
+      "doi": "10.1145/3322640.3326699"
+    },
+    {
+      "text": "Alexander Amini, Ava\u00a0P Soleimany, Wilko Schwarting, Sangeeta\u00a0N Bhatia, and Daniela Rus. 2019. Uncovering and Mitigating Algorithmic Bias through Learned Latent Structure. In Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society(AIES \u201919). Association for Computing Machinery, New York, NY, USA, 289\u2013295. https://doi.org/10.1145/3306618.3314243",
+      "doi": "10.1145/3306618.3314243"
+    },
+    {
+      "text": "Ariful\u00a0Islam Anik and Andrea Bunt. 2021. Data-Centric Explanations: Explaining Training Data of Machine Learning Systems to Promote Transparency. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA. https://doi.org/10.1145/3411764.3445736",
+      "doi": "10.1145/3411764.3445736"
+    },
+    {
+      "text": "Karl Aquino. 1995. Relationships among pay inequity, perceptions of procedural justice, and organizational citizenship. Employee Responsibilities and Rights Journal 8, 1 (3 1995), 21\u201333. https://doi.org/10.1007/BF02621253",
+      "doi": ""
+    },
+    {
+      "text": "Theo Araujo, Natali Helberger, Sanne Kruikemeier, and Claes\u00a0H. de Vreese. 2020. In AI we trust? Perceptions about automated decision-making by artificial intelligence. AI & SOCIETY 35, 3 (9 2020), 611\u2013623. https://doi.org/10.1007/s00146-019-00931-w",
+      "doi": "10.1007/s00146-019-00931-w"
+    },
+    {
+      "text": "Edmond Awad, Sohan Dsouza, Richard Kim, Jonathan Schulz, Joseph Henrich, Azim Shariff, Jean-Fran\u00e7ois Bonnefon, and Iyad Rahwan. 2018. The Moral Machine experiment. Nature 563, 7729 (11 2018), 59\u201364. https://doi.org/10.1038/s41586-018-0637-6",
+      "doi": ""
+    },
+    {
+      "text": "Simone Bae, Reeva Lederman, and Tingru Cui. 2022. Understanding User Perception of Explainable Algorithmic Decision-Making Systems: A Systematic Literature Review. (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Gagan Bansal, Besmira Nushi, Ece Kamar, Daniel\u00a0S. Weld, Walter\u00a0S. Lasecki, and Eric Horvitz. 2019. Updates in Human-AI Teams: Understanding and Addressing the Performance/Compatibility Tradeoff. Proceedings of the AAAI Conference on Artificial Intelligence 33 (7 2019), 2429\u20132437. https://doi.org/10.1609/aaai.v33i01.33012429",
+      "doi": "10.1609/aaai.v33i01.33012429"
+    },
+    {
+      "text": "Julian Barling and Michelle Phillips. 1993. Interactional, Formal, and Distributive Justice in the Workplace: An Exploratory Study. The Journal of Psychology 127, 6 (11 1993), 649\u2013656. https://doi.org/10.1080/00223980.1993.9914904",
+      "doi": ""
+    },
+    {
+      "text": "Uladzislau Belavusau and Kristin Henrard. 2019. A Bird\u2019s Eye View on EU Anti-Discrimination Law: The Impact of the 2000 Equality Directives. German Law Journal 20, 05 (7 2019), 614\u2013636. https://doi.org/10.1017/glj.2019.53",
+      "doi": ""
+    },
+    {
+      "text": "R.J. Bies and J.\u00a0F. Moag. 1986. Interactional Justice: Communication Criteria of Fairness.. Research on Negotiations in Organizations 1 (1986), 43\u201355.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0J. Bies and Debra\u00a0L. Shapiro. 1987. Interactional fairness judgments: The influence of causal accounts. Social Justice Research 1, 2 (6 1987), 199\u2013218. https://doi.org/10.1007/BF01048016",
+      "doi": ""
+    },
+    {
+      "text": "Reuben Binns, Max Van\u00a0Kleek, Michael Veale, Ulrik Lyngs, Jun Zhao, and Nigel Shadbolt. 2018. \u2019It\u2019s Reducing a Human Being to a Percentage\u2019; Perceptions of Justice in Algorithmic Decisions. (1 2018). https://doi.org/10.1145/3173574.3173951",
+      "doi": "10.1145/3173574.3173951"
+    },
+    {
+      "text": "C.\u00a0Malik Boykin, Sophia\u00a0T. Dasch, Vincent Rice\u00a0Jr., Venkat\u00a0R. Lakshminarayanan, Taiwo\u00a0A. Togun, and Sarah\u00a0M. Brown. 2021. Opportunities for a More Interdisciplinary Approach to Measuring Perceptions of Fairness in Machine Learning. In Equity and Access in Algorithms, Mechanisms, and Optimization. ACM, New York, NY, USA, 1\u20139. https://doi.org/10.1145/3465416.3483302",
+      "doi": "10.1145/3465416.3483302"
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative Research in Psychology 3, 2 (1 2006), 77\u2013101. https://doi.org/10.1191/1478088706qp063oa",
+      "doi": ""
+    },
+    {
+      "text": "Noah Castelo, Maarten\u00a0W. Bos, and Donald\u00a0R. Lehmann. 2019. Task-Dependent Algorithm Aversion. Journal of Marketing Research 56, 5 (10 2019), 809\u2013825. https://doi.org/10.1177/0022243719851788",
+      "doi": ""
+    },
+    {
+      "text": "David Chan. 2011. Perceptions of fairness. Research Collection School of Social Sciences (2011).",
+      "doi": ""
+    },
+    {
+      "text": "Hao-Fei Cheng, Ruotong Wang, Zheng Zhang, Fiona O\u2019Connell, Terrance Gray, F\u00a0Maxwell Harper, and Haiyi Zhu. 2019. Explaining Decision-Making Algorithms through UI: Strategies to Help Non-Expert Stakeholders. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300789",
+      "doi": "10.1145/3290605.3300789"
+    },
+    {
+      "text": "Nazli Cila. 2022. Designing Human-Agent Collaborations: Commitment, responsiveness, and support. In CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201318. https://doi.org/10.1145/3491102.3517500",
+      "doi": "10.1145/3491102.3517500"
+    },
+    {
+      "text": "Jason\u00a0A. Colquitt. 2001. On the dimensionality of organizational justice: A construct validation of a measure.Journal of Applied Psychology 86, 3 (6 2001), 386\u2013400. https://doi.org/10.1037/0021-9010.86.3.386",
+      "doi": ""
+    },
+    {
+      "text": "Jason\u00a0A Colquitt and Jessica\u00a0B Rodell. 2015. Measuring Justice and Fairness. In The Oxford Handbook of Justice in the Workplace. Oxford University Press. https://doi.org/10.1093/oxfordhb/9780199981410.013.0008",
+      "doi": ""
+    },
+    {
+      "text": "Sasha Costanza-Chock. 2020. Design justice: Community-led practices to build the worlds we need.The MIT Press.",
+      "doi": ""
+    },
+    {
+      "text": "Russell Cropanzano. 2012. Justice in the Workplace: From theory To Practice. Vol.\u00a02.",
+      "doi": ""
+    },
+    {
+      "text": "Morton Deutsch. 1975. Equity, equality, and need: What determines which value will be used as the basis of distributive justice?Journal of Social Issues(1975), 137\u2013149.",
+      "doi": ""
+    },
+    {
+      "text": "Berkeley\u00a0J. Dietvorst, Joseph\u00a0P. Simmons, and Cade Massey. 2015. Algorithm aversion: People erroneously avoid algorithms after seeing them err.Journal of Experimental Psychology: General 144, 1 (2015), 114\u2013126. https://doi.org/10.1037/xge0000033",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Dodge, Q.\u00a0Vera Liao, Yunfeng Zhang, Rachel K.\u00a0E. Bellamy, and Casey Dugan. 2019. Explaining Models: An Empirical Study of How Explanations Impact Fairness Judgment. (1 2019). https://doi.org/10.1145/3301275.3302310",
+      "doi": "10.1145/3301275.3302310"
+    },
+    {
+      "text": "Tim Draws, Zolt\u00e1n Szl\u00e1vik, Benjamin Timmermans, Nava Tintarev, Kush\u00a0R. Varshney, and Michael Hind. 2021. Disparate Impact Diminishes Consumer Trust Even for Advantaged Users. (1 2021). https://doi.org/10.1007/978-3-030-79460-6_11",
+      "doi": "10.1007/978-3-030-79460-6_11"
+    },
+    {
+      "text": "Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold, and Richard Zemel. 2012. Fairness through Awareness. In Proceedings of the 3rd Innovations in Theoretical Computer Science Conference(ITCS \u201912). Association for Computing Machinery, New York, NY, USA, 214\u2013226. https://doi.org/10.1145/2090236.2090255",
+      "doi": "10.1145/2090236.2090255"
+    },
+    {
+      "text": "Bora Edizel, Francesco Bonchi, Sara Hajian, Andr\u00e9 Panisson, and Tamir Tassa. 2020. FaiRecSys: mitigating algorithmic bias in recommender systems. International Journal of Data Science and Analytics 9, 2 (2020), 197\u2013213. https://doi.org/10.1007/s41060-019-00181-5",
+      "doi": ""
+    },
+    {
+      "text": "Franz Faul, Edgar Erdfelder, Albert-Georg Lang, and Axel Buchner. 2007. G*Power 3: a flexible statistical power analysis program for the social, behavioral, and biomedical sciences.Behavior research methods 39, 2 (5 2007), 175\u201391. https://doi.org/10.3758/bf03193146",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Franke, Christiane Attig, and Daniel Wessel. 2019. A Personal Resource for Technology Interaction: Development and Validation of the Affinity for Technology Interaction (ATI) Scale. International Journal of Human\u2013Computer Interaction 35, 6 (4 2019), 456\u2013467. https://doi.org/10.1080/10447318.2018.1456150",
+      "doi": ""
+    },
+    {
+      "text": "Elena Fumagalli, Sarah Rezaei, and Anna Salomons. 2022. OK computer: Worker perceptions of algorithmic recruitment. Research Policy 51, 2 (3 2022), 104420. https://doi.org/10.1016/j.respol.2021.104420",
+      "doi": ""
+    },
+    {
+      "text": "Meric\u00a0Altug Gemalmaz and Ming Yin. 2022. Understanding Decision Subjects\u2019 Fairness Perceptions and Retention in Repeated Interactions with AI-Based Decision Systems. In Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society. ACM, New York, NY, USA, 295\u2013306. https://doi.org/10.1145/3514094.3534201",
+      "doi": "10.1145/3514094.3534201"
+    },
+    {
+      "text": "Jerald Greenberg. 1987. A Taxonomy of Organizational Justice Theories. The Academy of Management Review 12, 1 (1 1987), 9. https://doi.org/10.2307/257990",
+      "doi": ""
+    },
+    {
+      "text": "Jerald Greenberg. 1990. Organizational Justice: Yesterday, Today, and Tomorrow. Journal of Management 16, 2 (6 1990), 399\u2013432. https://doi.org/10.1177/014920639001600208",
+      "doi": ""
+    },
+    {
+      "text": "J. Greenberg. 1993. The social side of fairness: Interpersonal and informational classes of organizational justice.Justice in the workplace: Approaching fairness in human resource management. (1993), 79\u2013103.",
+      "doi": ""
+    },
+    {
+      "text": "Nina Grgic-Hlaca, Muhammad\u00a0Bilal Zafar, Krishna\u00a0P. Gummadi, and Adrian Weller. 2016. The Case for Process Fairness in Learning: Feature Selection for Fair Decision Making. In NIPS SYMPOSIUM ON MACHINE LEARNING AND THE LAW 8.",
+      "doi": ""
+    },
+    {
+      "text": "Moritz Hardt, Eric Price, and Nathan Srebro. 2016. Equality of Opportunity in Supervised Learning. In Proceedings of the 30th International Conference on Neural Information Processing Systems(NIPS\u201916). Curran Associates Inc., Red Hook, NY, USA, 3323\u20133331.",
+      "doi": "10.5555/3157382.3157469"
+    },
+    {
+      "text": "Katrina Heijne and Han van\u00a0der Meer. 2019. Road Map for Creative Problem Solving Techniques Organizing and facilitating group sessions. Boom Uitgevers Amsterdam.",
+      "doi": ""
+    },
+    {
+      "text": "Cl\u00e9ment Henin and Daniel Le\u00a0M\u00e9tayer. 2021. Beyond explainability: justifiability and contestability of algorithmic decision systems. AI & SOCIETY (7 2021). https://doi.org/10.1007/s00146-021-01251-8",
+      "doi": "10.1007/s00146-021-01251-8"
+    },
+    {
+      "text": "Tad Hirsch, Kritzia Merced, Shrikanth Narayanan, Zac\u00a0E. Imel, and David\u00a0C. Atkins. 2017. Designing Contestability. In Proceedings of the 2017 Conference on Designing Interactive Systems. ACM, New York, NY, USA. https://doi.org/10.1145/3064663.3064703",
+      "doi": "10.1145/3064663.3064703"
+    },
+    {
+      "text": "Harold Jeffreys. 1939. Theory of Probability. (1939). (1939).",
+      "doi": ""
+    },
+    {
+      "text": "Denise Jepsen and John Rodwell. 2009. A New Dimension of Organizational Justice: Procedural Voice. Psychological Reports 105, 2 (10 2009), 411\u2013426. https://doi.org/10.2466/PR0.105.2.411-426",
+      "doi": ""
+    },
+    {
+      "text": "Shalmali Joshi, Oluwasanmi Koyejo, Warut Vijitbenjaronk, Been Kim, and Joydeep Ghosh. 2019. Towards Realistic Individual Recourse and Actionable Explanations in Black-Box Decision Making Systems. (7 2019).",
+      "doi": ""
+    },
+    {
+      "text": "Shivani Kapania, Oliver Siy, Gabe Clapper, Azhagu\u00a0Meena SP, and Nithya Sambasivan. 2022. \u201dBecause AI is 100% right and safe\u201d: User Attitudes and Sources of AI Authority in India. In CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201318. https://doi.org/10.1145/3491102.3517533",
+      "doi": "10.1145/3491102.3517533"
+    },
+    {
+      "text": "Amir-Hossein Karimi, Gilles Barthe, Bernhard Sch\u00f6lkopf, and Isabel Valera. 2022. A survey of algorithmic recourse:contrastive explanations and consequential recommendations. Comput. Surveys (4 2022). https://doi.org/10.1145/3527848",
+      "doi": "10.1145/3527848"
+    },
+    {
+      "text": "Amir-Hossein Karimi, Bernhard Sch\u00f6lkopf, and Isabel Valera. 2021. Algorithmic Recourse. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency. ACM, New York, NY, USA, 353\u2013362. https://doi.org/10.1145/3442188.3445899",
+      "doi": "10.1145/3442188.3445899"
+    },
+    {
+      "text": "Styliani Kleanthous, Maria Kasinidou, P\u0131nar Barlas, and Jahna Otterbacher. 2022. Perception of fairness in algorithmic decisions: Future developers\u2019 perspective. Patterns 3, 1 (1 2022), 100380. https://doi.org/10.1016/j.patter.2021.100380",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Kluttz, Nitin Kohli, and Deirdre\u00a0K. Mulligan. 2018. Contestability and Professionals: From Explanations to Engagement with Algorithmic Systems. SSRN Electronic Journal(2018). https://doi.org/10.2139/ssrn.3311894",
+      "doi": ""
+    },
+    {
+      "text": "Rafal Kocielnik, Saleema Amershi, and Paul\u00a0N. Bennett. 2019. Will You Accept an Imperfect AI?. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300641",
+      "doi": "10.1145/3290605.3300641"
+    },
+    {
+      "text": "Max\u00a0F. Kramer, Jana Schaich\u00a0Borg, Vincent Conitzer, and Walter Sinnott-Armstrong. 2018. When Do People Want AI to Make Decisions?. In Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society. ACM, New York, NY, USA, 204\u2013209. https://doi.org/10.1145/3278721.3278752",
+      "doi": "10.1145/3278721.3278752"
+    },
+    {
+      "text": "Markus Langer, Tim Hunsicker, Tina Feldkamp, Cornelius\u00a0J. K\u00f6nig, and Nina Grgi\u0107-Hla\u010da. 2022. \u201cLook! It\u2019s a Computer Program! It\u2019s an Algorithm! It\u2019s AI!\u201d: Does Terminology Affect Human Perceptions and Evaluations of Algorithmic Decision-Making Systems?. In CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201328. https://doi.org/10.1145/3491102.3517527",
+      "doi": "10.1145/3491102.3517527"
+    },
+    {
+      "text": "Michael\u00a0D. Lee and Eric-Jan Wagenmakers. 2014. Bayesian Cognitive Modeling. Cambridge University Press. https://doi.org/10.1017/CBO9781139087759",
+      "doi": ""
+    },
+    {
+      "text": "Min\u00a0Kyung Lee. 2018. Understanding perception of algorithmic decisions: Fairness, trust, and emotion in response to algorithmic management. Big Data & Society 5, 1 (1 2018). https://doi.org/10.1177/2053951718756684",
+      "doi": ""
+    },
+    {
+      "text": "Min\u00a0Kyung Lee and Su Baykal. 2017. Algorithmic Mediation in Group Decisions: Fairness Perceptions of Algorithmically Mediated vs. Discussion-Based Social Division. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing(CSCW \u201917). Association for Computing Machinery, New York, NY, USA, 1035\u20131048. https://doi.org/10.1145/2998181.2998230",
+      "doi": "10.1145/2998181.2998230"
+    },
+    {
+      "text": "Min\u00a0Kyung Lee, Anuraag Jain, Hea\u00a0Jin Cha, Shashank Ojha, and Daniel Kusbit. 2019. Procedural Justice in Algorithmic Fairness. Proceedings of the ACM on Human-Computer Interaction 3, CSCW (11 2019), 1\u201326. https://doi.org/10.1145/3359284",
+      "doi": "10.1145/3359284"
+    },
+    {
+      "text": "Min\u00a0Kyung Lee and Katherine Rich. 2021. Who Is Included in Human Perceptions of AI?: Trust and Perceived Fairness around Healthcare AI and Cultural Mistrust. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3411764.3445570",
+      "doi": "10.1145/3411764.3445570"
+    },
+    {
+      "text": "Gerald\u00a0S. Leventhal. 1980. What Should Be Done with Equity Theory?In Social Exchange. Springer US, Boston, MA, 27\u201355. https://doi.org/10.1007/978-1-4613-3087-5_2",
+      "doi": ""
+    },
+    {
+      "text": "Q.\u00a0Vera Liao and S.\u00a0Shyam Sundar. 2022. Designing for Responsible Trust in AI Systems: A Communication Perspective. (4 2022). https://doi.org/10.1145/3531146.3533182",
+      "doi": "10.1145/3531146.3533182"
+    },
+    {
+      "text": "E.\u00a0Allan Lind and Tom\u00a0R. Tyler. 1988. The Social Psychology of Procedural Justice. Springer US, Boston, MA. https://doi.org/10.1007/978-1-4899-2115-4",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer\u00a0M. Logg, Julia\u00a0A. Minson, and Don\u00a0A. Moore. 2019. Algorithm appreciation: People prefer algorithmic to human judgment. Organizational Behavior and Human Decision Processes 151 (3 2019), 90\u2013103. https://doi.org/10.1016/j.obhdp.2018.12.005",
+      "doi": ""
+    },
+    {
+      "text": "Chiara Longoni, Andrea Bonezzi, and Carey\u00a0K Morewedge. 2019. Resistance to Medical Artificial Intelligence. Journal of Consumer Research 46, 4 (12 2019), 629\u2013650. https://doi.org/10.1093/jcr/ucz013",
+      "doi": ""
+    },
+    {
+      "text": "Henrietta Lyons, Eduardo Velloso, and Tim Miller. 2021. Conceptualising Contestability: Perspectives on Contesting Algorithmic Decisions. (2 2021). https://doi.org/10.1145/3449180",
+      "doi": "10.1145/3449180"
+    },
+    {
+      "text": "Henrietta Lyons, Senuri Wijenayake, Tim Miller, and Eduardo Velloso. 2022. What\u2019s the Appeal? Perceptions of Review Processes for Algorithmic Decisions. In CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3491102.3517606",
+      "doi": "10.1145/3491102.3517606"
+    },
+    {
+      "text": "Jakub Mlynar, Farzaneh Bahrami, Andr\u00e9 Ourednik, Nico Mutzner, Himanshu Verma, and Hamed Alavi. 2022. AI beyond Deus ex Machina \u2013 Reimagining Intelligence in Future Cities with Urban Experts. In CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3491102.3517502",
+      "doi": "10.1145/3491102.3517502"
+    },
+    {
+      "text": "Rosanna Nagtegaal. 2021. The impact of using algorithms for managerial decisions on public employees\u2019 procedural justice. Government Information Quarterly 38, 1 (1 2021), 101536. https://doi.org/10.1016/j.giq.2020.101536",
+      "doi": ""
+    },
+    {
+      "text": "Yuri Nakao, Simone Stumpf, Subeida Ahmed, Aisha Naseer, and Lorenzo Strappelli. 2022. Towards Involving End-users in Interactive Human-in-the-loop AI Fairness. (4 2022).",
+      "doi": "10.1145/3514258"
+    },
+    {
+      "text": "Gideon Ogunniye, Benedicte Legastelois, Michael Rovatsos, Liz Dowthwaite, Virginia Portillo, Elvira Perez\u00a0Vallejos, Jun Zhao, and Marina Jirotka. 2021. Understanding User Perceptions of Trustworthiness in E-Recruitment Systems. IEEE Internet Computing 25, 6 (11 2021), 23\u201332. https://doi.org/10.1109/MIC.2021.3115670",
+      "doi": ""
+    },
+    {
+      "text": "Cathy O\u2019neil. 2016. Weapons of math destruction: How big data increases inequality and threatens democracy.Broadway Books.",
+      "doi": "10.5555/3002861"
+    },
+    {
+      "text": "Christina\u00a0A. Pan, Sahil Yakhmi, Tara\u00a0P. Iyer, Evan Strasnick, Amy\u00a0X. Zhang, and Michael\u00a0S. Bernstein. 2022. Comparing the Perceived Legitimacy of Content Moderation Processes: Contractors, Algorithms, Expert Panels, and Digital Juries. Proceedings of the ACM on Human-Computer Interaction 6, CSCW1 (3 2022), 1\u201331. https://doi.org/10.1145/3512929",
+      "doi": "10.1145/3512929"
+    },
+    {
+      "text": "Cecilia Panigutti, Andrea Beretta, Fosca Giannotti, and Dino Pedreschi. 2022. Understanding the impact of explanations on advice-taking: a user study for AI-based clinical Decision Support Systems. In CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u20139. https://doi.org/10.1145/3491102.3502104",
+      "doi": "10.1145/3491102.3502104"
+    },
+    {
+      "text": "Andi Peng, Besmira Nushi, Emre K\u0131c\u0131man, Kori Inkpen, Siddharth Suri, and Ece Kamar. 2019. What You See Is What You Get? The Impact of Representation Criteria on Human Bias in Hiring. Proceedings of the AAAI Conference on Human Computation and Crowdsourcing 7, 1 (10 2019), 125\u2013134. https://ojs.aaai.org/index.php/HCOMP/article/view/5281",
+      "doi": ""
+    },
+    {
+      "text": "Forough Poursabzi-Sangdeh, Daniel\u00a0G Goldstein, Jake\u00a0M Hofman, Jennifer\u00a0Wortman Wortman\u00a0Vaughan, and Hanna Wallach. 2021. Manipulating and Measuring Model Interpretability. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201352. https://doi.org/10.1145/3411764.3445315",
+      "doi": "10.1145/3411764.3445315"
+    },
+    {
+      "text": "Inioluwa\u00a0Deborah Raji, Andrew Smart, Rebecca\u00a0N. White, Margaret Mitchell, Timnit Gebru, Ben Hutchinson, Jamila Smith-Loud, Daniel Theron, and Parker Barnes. 2020. Closing the AI accountability gap. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. ACM, New York, NY, USA, 33\u201344. https://doi.org/10.1145/3351095.3372873",
+      "doi": "10.1145/3351095.3372873"
+    },
+    {
+      "text": "Claudio Sarra. 2020. Put Dialectics into the Machine: Protection against Automatic-decision-making through a Deeper Understanding of Contestability by Design. Global Jurist 20, 3 (10 2020). https://doi.org/10.1515/gj-2020-0003",
+      "doi": ""
+    },
+    {
+      "text": "Nripsuta\u00a0Ani Saxena, Karen Huang, Evan DeFilippis, Goran Radanovic, David\u00a0C. Parkes, and Yang Liu. 2019. How Do Fairness Definitions Fare?. In Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society. ACM, New York, NY, USA, 99\u2013106. https://doi.org/10.1145/3306618.3314248",
+      "doi": "10.1145/3306618.3314248"
+    },
+    {
+      "text": "Philipp Schmidt and Felix Biessmann. 2020. Calibrating Human-AI Collaboration: Impact of Risk, Ambiguity and Transparency on Algorithmic Bias. 431\u2013449. https://doi.org/10.1007/978-3-030-57321-8_24",
+      "doi": ""
+    },
+    {
+      "text": "Jakob Schoeffer and Niklas Kuehl. 2021. Appropriate Fairness Perceptions? On the Effectiveness of Explanations in Enabling People to Assess the Fairness of Automated Decision Systems. In Companion Publication of the 2021 Conference on Computer Supported Cooperative Work and Social Computing. ACM, New York, NY, USA, 153\u2013157. https://doi.org/10.1145/3462204.3481742",
+      "doi": "10.1145/3462204.3481742"
+    },
+    {
+      "text": "Jakob Schoeffer, Niklas Kuehl, and Yvette Machowski. 2022. \"There Is Not Enough Information\": On the Effects of Explanations on Perceptions of Informational Fairness and Trustworthiness in Automated Decision-Making. (5 2022). https://doi.org/10.1145/3531146.3533218",
+      "doi": "10.1145/3531146.3533218"
+    },
+    {
+      "text": "Andrew\u00a0D Selbst and Julia Powles. 2017. Meaningful information and the right to explanation. International Data Privacy Law 7, 4 (11 2017), 233\u2013242. https://doi.org/10.1093/idpl/ipx022",
+      "doi": ""
+    },
+    {
+      "text": "Debra\u00a0L. Shapiro, E.Holly Buttner, and Bruce Barry. 1994. Explanations: What Factors Enhance Their Perceived Adequacy?Organizational Behavior and Human Decision Processes 58, 3 (6 1994), 346\u2013368. https://doi.org/10.1006/obhd.1994.1041",
+      "doi": ""
+    },
+    {
+      "text": "Megha Srivastava, Hoda Heidari, and Andreas Krause. 2019. Mathematical Notions vs. Human Perception of Fairness. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. ACM, New York, NY, USA, 2459\u20132468. https://doi.org/10.1145/3292500.3330664",
+      "doi": "10.1145/3292500.3330664"
+    },
+    {
+      "text": "Emily Sullivan and Philippe Verreault-Julien. 2022. From Explanation to Recommendation: Ethical Standards for Algorithmic Recourse. In Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society. ACM, New York, NY, USA, 712\u2013722. https://doi.org/10.1145/3514094.3534185",
+      "doi": "10.1145/3514094.3534185"
+    },
+    {
+      "text": "Harini Suresh, Steven\u00a0R. Gomez, Kevin\u00a0K. Nam, and Arvind Satyanarayan. 2021. Beyond Expertise and Roles: A Framework to Characterize the Stakeholders of Interpretable Machine Learning and their Needs. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201316. https://doi.org/10.1145/3411764.3445088",
+      "doi": "10.1145/3411764.3445088"
+    },
+    {
+      "text": "J.\u00a0W. Thibaut and L. Walker. 1975. Procedural Justice: A Psychological Analysis. L. Erlbaum Associates, Hillsdale.(1975).",
+      "doi": ""
+    },
+    {
+      "text": "Tom\u00a0R. Tyler. 1988. What is Procedural Justice?: Criteria used by Citizens to Assess the Fairness of Legal Procedures. Law & Society Review 22, 1 (1988), 103. https://doi.org/10.2307/3053563",
+      "doi": ""
+    },
+    {
+      "text": "Berk Ustun, Alexander Spangher, and Yang Liu. 2019. Actionable Recourse in Linear Classification. In Proceedings of the Conference on Fairness, Accountability, and Transparency. ACM, New York, NY, USA, 10\u201319. https://doi.org/10.1145/3287560.3287566",
+      "doi": "10.1145/3287560.3287566"
+    },
+    {
+      "text": "Kristen Vaccaro, Karrie Karahalios, Deirdre\u00a0K. Mulligan, Daniel Kluttz, and Tad Hirsch. 2019. Contestability in Algorithmic Systems. In Conference Companion Publication of the 2019 on Computer Supported Cooperative Work and Social Computing. ACM, New York, NY, USA, 523\u2013527. https://doi.org/10.1145/3311957.3359435",
+      "doi": "10.1145/3311957.3359435"
+    },
+    {
+      "text": "Kristen Vaccaro, Christian Sandvig, and Karrie Karahalios. 2020. \"At the End of the Day Facebook Does What ItWants\". Proceedings of the ACM on Human-Computer Interaction 4, CSCW2 (10 2020), 1\u201322. https://doi.org/10.1145/3415238",
+      "doi": "10.1145/3415238"
+    },
+    {
+      "text": "Kristen Vaccaro, Ziang Xiao, Kevin Hamilton, and Karrie Karahalios. 2021. Contestability For Content Moderation. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2 (10 2021), 1\u201328. https://doi.org/10.1145/3476059",
+      "doi": "10.1145/3476059"
+    },
+    {
+      "text": "Annukka Valkeap\u00e4\u00e4 and Tuija Sepp\u00e4l\u00e4. 2014. Speed of Decision-Making as a Procedural Justice Principle. Social Justice Research 27, 3 (9 2014), 305\u2013321. https://doi.org/10.1007/s11211-014-0214-6",
+      "doi": ""
+    },
+    {
+      "text": "Niels van Berkel, Jorge Goncalves, Daniel Russo, Simo Hosio, and Mikael\u00a0B. Skov. 2021. Effect of Information Presentation on Fairness Perceptions of Machine Learning Predictors. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3411764.3445365",
+      "doi": "10.1145/3411764.3445365"
+    },
+    {
+      "text": "Niels van Berkel, Eleftherios Papachristos, Anastasia Giachanou, Simo Hosio, and Mikael\u00a0B. Skov. 2020. A Systematic Assessment of National Artificial Intelligence Policies: Perspectives from the Nordics and Beyond. In Proceedings of the 11th Nordic Conference on Human-Computer Interaction: Shaping Experiences, Shaping Society. ACM, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3419249.3420106",
+      "doi": "10.1145/3419249.3420106"
+    },
+    {
+      "text": "Arnaud Van\u00a0Looveren and Janis Klaise. 2021. Interpretable Counterfactual Explanations Guided by Prototypes. 650\u2013665. https://doi.org/10.1007/978-3-030-86520-7_40",
+      "doi": "10.1007/978-3-030-86520-7_40"
+    },
+    {
+      "text": "Suresh Venkatasubramanian and Mark Alfano. 2020. The philosophical basis of algorithmic recourse. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. ACM, New York, NY, USA, 284\u2013293. https://doi.org/10.1145/3351095.3372876",
+      "doi": "10.1145/3351095.3372876"
+    },
+    {
+      "text": "Oleksandra Vereschak, Gilles Bailly, and Baptiste Caramiaux. 2021. How to Evaluate Trust in AI-Assisted Decision Making? A Survey of Empirical Methodologies. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2 (10 2021), 1\u201339. https://doi.org/10.1145/3476068",
+      "doi": "10.1145/3476068"
+    },
+    {
+      "text": "Sandra Wachter, Brent Mittelstadt, and Chris Russell. 2017. Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR. (11 2017).",
+      "doi": ""
+    },
+    {
+      "text": "Danding Wang, Qian Yang, Ashraf Abdul, and Brian\u00a0Y Lim. 2019. Designing Theory-Driven User-Centric Explainable AI. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3290605.3300831",
+      "doi": "10.1145/3290605.3300831"
+    },
+    {
+      "text": "Ruotong Wang, F.\u00a0Maxwell Harper, and Haiyi Zhu. 2020. Factors Influencing Perceived Fairness in Algorithmic Decision-Making. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376813",
+      "doi": "10.1145/3313831.3376813"
+    },
+    {
+      "text": "Zezhong Wang, Jacob Ritchie, Jingtao Zhou, Fanny Chevalier, and Benjamin Bach. 2021. Data Comics for Reporting Controlled User Studies in Human-Computer Interaction. IEEE Transactions on Visualization and Computer Graphics 27, 2 (2 2021), 967\u2013977. https://doi.org/10.1109/TVCG.2020.3030433",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0Anne Watkins. 2021. The tension between information justice and security: Perceptions of facial recognition targeting.. In Joint Proceedings of the ACM IUI 2021 Workshops.",
+      "doi": ""
+    },
+    {
+      "text": "Jenny\u00a0S. Wesche and Andreas Sonderegger. 2019. When computers take the lead: The automation of leadership. Computers in Human Behavior 101 (12 2019), 197\u2013209. https://doi.org/10.1016/j.chb.2019.07.027",
+      "doi": ""
+    },
+    {
+      "text": "Mireia Yurrita, Dave Murray-Rust, Agathe Balayn, and Alessandro Bozzon. 2022. Towards a multi-stakeholder value-based assessment framework for algorithmic systems. In 2022 ACM Conference on Fairness, Accountability, and Transparency. ACM, New York, NY, USA, 535\u2013563. https://doi.org/10.1145/3531146.3533118",
+      "doi": "10.1145/3531146.3533118"
+    },
+    {
+      "text": "Brian\u00a0Hu Zhang, Blake Lemoine, and Margaret Mitchell. 2018. Mitigating Unwanted Biases with Adversarial Learning. In Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society(AIES \u201918). Association for Computing Machinery, New York, NY, USA, 335\u2013340. https://doi.org/10.1145/3278721.3278779",
+      "doi": "10.1145/3278721.3278779"
+    },
+    {
+      "text": "Qiaoning Zhang, Matthew\u00a0L Lee, and Scott Carter. 2022. You Complete Me: Human-AI Teams and Complementary Expertise. In CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1\u201328. https://doi.org/10.1145/3491102.3517791",
+      "doi": "10.1145/3491102.3517791"
+    },
+    {
+      "text": "Jianlong Zhou, Sunny Verma, Mudit Mittal, and Fang Chen. 2021. Understanding Relations Between Perception of Fairness and Trust in Algorithmic Decision Making. (9 2021).",
+      "doi": ""
+    }
+  ]
+}

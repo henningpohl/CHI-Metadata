@@ -1,0 +1,345 @@
+{
+  "doi": "10.1145/3290605.3300358",
+  "title": "VizML: A Machine Learning Approach to Visualization Recommendation",
+  "published": "2019-05-02",
+  "proctitle": "CHI '19: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-12",
+  "year": 2019,
+  "badges": [],
+  "abstract": "Visualization recommender systems aim to lower the barrier to exploring basic visualizations by automatically generating results for analysts to search and select, rather than manually specify. Here, we demonstrate a novel machine learning-based approach to visualization recommendation that learns visualization design choices from a large corpus of datasets and associated visualizations. First, we identify five key design choices made by analysts while creating visualizations, such as selecting a visualization type and choosing to encode a column along the X- or Y-axis. We train models to predict these design choices using one million dataset-visualization pairs collected from a popular online visualization platform. Neural networks predict these design choices with high accuracy compared to baseline models. We report and interpret feature importances from one of these baseline models. To evaluate the generalizability and uncertainty of our approach, we benchmark with a crowdsourced test set, and show that the performance of our model is comparable to human performance when predicting consensus visualization type, and exceeds that of other visualization recommender systems.",
+  "authors": [
+    {
+      "name": "Kevin Hu",
+      "institution": "Massachusetts Institute of Technology, Cambridge, MA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659365842",
+      "orcid": "missing"
+    },
+    {
+      "name": "Michiel A. Bakker",
+      "institution": "Massachusetts Institute of Technology, Cambridge, MA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659365160",
+      "orcid": "missing"
+    },
+    {
+      "name": "Stephen Li",
+      "institution": "Massachusetts Institute of Technology, Cambridge, MA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659366201",
+      "orcid": "missing"
+    },
+    {
+      "name": "Tim Kraska",
+      "institution": "Massachusetts Institute of Technology, Cambridge, MA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81317496250",
+      "orcid": "missing"
+    },
+    {
+      "name": "C\u00e9sar Hidalgo",
+      "institution": "Massachusetts Institute of Technology, Cambridge, MA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81500663954",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "C. C. Aggarwal. Recommender Systems: The Textbook. Springer Publishing Company, Incorporated, 1st edition, 2016. ",
+      "doi": "10.5555/2931100"
+    },
+    {
+      "text": "C. Ahlberg. Spotfre: An Information Exploration Environment. SIGMOD Rec., 25(4):25--29, Dec. 1996.  ",
+      "doi": "10.1145/245882.245893"
+    },
+    {
+      "text": "R. Amar, J. Eagan, and J. Stasko. Low-Level Components of Analytic Activity in Information Visualization. In Proceedings of the Proceedings of the 2005 IEEE Symposium on Information Visualization, INFOVIS '05, pages 15--, Washington, DC, USA, 2005. IEEE Computer Society.  ",
+      "doi": "10.1109/INFOVIS.2005.24"
+    },
+    {
+      "text": "L. Battle, P. Duan, Z. Miranda, D. Mukusheva, R. Chang, and M. Stonebraker. Beagle: Automated Extraction and Interpretation of Visualizations from the Web. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems, CHI '18, pages 594:1--594:8, New York, NY, USA, 2018. ACM.  ",
+      "doi": "10.1145/3173574.3174168"
+    },
+    {
+      "text": "J. Bertin. Semiology of Graphics. University of Wisconsin Press, 1983. ",
+      "doi": "10.5555/1095597"
+    },
+    {
+      "text": "M. A. Borkin, A. A. Vo, Z. Bylinskii, P. Isola, S. Sunkavalli, A. Oliva, and H. Pfster. What Makes a Visualization Memorable? IEEE Transactions on Visualization and Computer Graphics, 19(12):2306--2315, Dec 2013.  ",
+      "doi": "10.1109/TVCG.2013.234"
+    },
+    {
+      "text": "M. Bostock, V. Ogievetsky, and J. Heer. D3 Data-Driven Documents. IEEE Transactions on Visualization and Computer Graphics, 17(12):2301-- 2309, Dec. 2011.  ",
+      "doi": "10.1109/TVCG.2011.185"
+    },
+    {
+      "text": "L. Breiman, J. Friedman, R. A. Olshen, and C. J. Stone. Classifcation and Regression Trees. Chapman and Hall/CRC, 1984.",
+      "doi": ""
+    },
+    {
+      "text": "E. Brynjolfsson and K. McElheran. The Rapid Adoption of Data-Driven Decision-Making. American Economic Review, 106(5):133--39, May 2016.",
+      "doi": ""
+    },
+    {
+      "text": "C. Burges, T. Shaked, E. Renshaw, A. Lazier, M. Deeds, N. Hamilton, and G. Hullender. Learning to Rank Using Gradient Descent. In Proceedings of the 22nd International Conference on Machine Learning, ICML '05, pages 89--96, New York, NY, USA, 2005. ACM.  ",
+      "doi": "10.1145/1102351.1102363"
+    },
+    {
+      "text": "C. Lin. ROUGE: a package for automatic evaluation of summaries. pages 25--26, 2004.",
+      "doi": ""
+    },
+    {
+      "text": "S. K. Card, J. D. Mackinlay, and B. Shneiderman, editors. Readings in Information Visualization: Using Vision to Think. Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1999. ",
+      "doi": "10.5555/300679"
+    },
+    {
+      "text": "S. M. Casner. Task-analytic Approach to the Automated Design of Graphic Presentations. ACM Trans. Graph., 10(2):111--151, Apr. 1991.  ",
+      "doi": "10.1145/108360.108361"
+    },
+    {
+      "text": "N. Cawthon and A. V. Moere. The Efect of Aesthetic on the Usability of Data Visualization. In Information Visualization, 2007. IV '07. 11th International Conference, pages 637--648, July 2007.  ",
+      "doi": "10.1109/IV.2007.147"
+    },
+    {
+      "text": "W. S. Cleveland and R. McGill. Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods. Journal of the American Statistical Association, 79(387):531--554, 1984.",
+      "doi": ""
+    },
+    {
+      "text": "\u00c7. Demiralp, P. J. Haas, S. Parthasarathy, and T. Pedapati. Foresight: Rapid Data Exploration Through Guideposts. CoRR, abs/1709.10513, 2017.",
+      "doi": ""
+    },
+    {
+      "text": "V. Dibia and \u00c7. Demiralp. Data2Vis: Automatic Generation of Data Visualizations Using Sequence to Sequence Recurrent Neural Networks. CoRR, abs/1804.03126, 2018.",
+      "doi": ""
+    },
+    {
+      "text": "H. Ehsan, M. A. Sharaf, and P. K. Chrysanthis. MuVE: Efcient MultiObjective View Recommendation for Visual Data Exploration. 2016 IEEE 32nd International Conference on Data Engineering (ICDE), pages 731--742, 2016.",
+      "doi": ""
+    },
+    {
+      "text": "S. Few. Data Visualization Efectiveness Profle. https: //www.perceptualedge.com/articles/visual_business_intelligence/ data_visualization_efectiveness_profle.pdf, 2017.",
+      "doi": ""
+    },
+    {
+      "text": "Google. Explore in Google Sheets. https://www.youtube.com/watch? v=9TiXR5wwqPs, 2015.",
+      "doi": ""
+    },
+    {
+      "text": "F. Hayes-Roth. Rule-based Systems. Commun. ACM, 28(9):921--932, Sept. 1985.  ",
+      "doi": "10.1145/4284.4286"
+    },
+    {
+      "text": "J. Heer, N. Kong, and M. Agrawala. Sizing the Horizon: The Efects of Chart Size and Layering on the Graphical Perception of Time Series Visualizations. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, CHI '09, pages 1303--1312, New York, NY, USA, 2009. ACM.  ",
+      "doi": "10.1145/1518701.1518897"
+    },
+    {
+      "text": "K. Hu, D. Orghian, and C. Hidalgo. DIVE: A Mixed-Initiative System Supporting Integrated Data Exploration Workfows. In ACM SIGMOD Workshop on Human-in-the-Loop Data Analytics (HILDA). ACM, 2018.  ",
+      "doi": "10.1145/3209900.3209910"
+    },
+    {
+      "text": "E. M. Jonathan Meddes. Improving visualization by capturing domain knowledge. volume 3960, pages 3960 -- 3960 -- 10, 2000.",
+      "doi": ""
+    },
+    {
+      "text": "B. Jones. Data Dialogues: To Optimize or to Satisfce When Visualizing Data? https://www.tableau.com/about/blog/2016/1/ data-dialogues-optimize-or-satisfce-data-visualization-48685, 2016.",
+      "doi": ""
+    },
+    {
+      "text": "S. Kandel, A. Paepcke, J. M. Hellerstein, and J. Heer. Enterprise Data Analysis and Visualization: An Interview Study. IEEE Transactions on Visualization and Computer Graphics, 18(12):2917--2926, Dec. 2012.  ",
+      "doi": "10.1109/TVCG.2012.219"
+    },
+    {
+      "text": "H. Kennedy, R. L. Hill, W. Allen,, and A. Kirk. In Engaging with (big) data visualizations: Factors that afect engagement and resulting new defnitions of efectiveness, volume 21, USA, 2016. First Monday.",
+      "doi": ""
+    },
+    {
+      "text": "Y. Kim and J. Heer. Assessing Efects of Task and Data Distribution on the Efectiveness of Visual Encodings. Computer Graphics Forum (Proc. EuroVis), 2018.",
+      "doi": ""
+    },
+    {
+      "text": "C. N. Knafic. Is there a single right answer? http://www.storytellingwithdata.com/blog/2016/1/12/ is-there-a-single-right-answer, 2016.",
+      "doi": ""
+    },
+    {
+      "text": "R. Kosara. Understanding Pie Charts. https://eagereyes.org/techniques/ pie-charts, 2010.",
+      "doi": ""
+    },
+    {
+      "text": "Y. Liu and J. Heer. Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems, CHI '18, pages 598:1--598:12, New York, NY, USA, 2018. ACM.  ",
+      "doi": "10.1145/3173574.3174172"
+    },
+    {
+      "text": "G. Louppe, L. Wehenkel, A. Sutera, and P. Geurts. Understanding Variable Importances in Forests of Randomized Trees. In Proceedings of the 26th International Conference on Neural Information Processing Systems - Volume 1, NIPS'13, pages 431--439, USA, 2013. Curran Associates Inc. ",
+      "doi": "10.5555/2999611.2999660"
+    },
+    {
+      "text": "Y. Luo, X. Qin, N. Tang, and G. Li. DeepEye: Towards Automatic Data Visualization. The 34th IEEE International Conference on Data Engineering (ICDE), 2018.",
+      "doi": "10.1145/3183713.3193545"
+    },
+    {
+      "text": "J. Mackinlay, P. Hanrahan, and C. Stolte. Show Me: Automatic Presentation for Visual Analysis. IEEE Transactions on Visualization and Computer Graphics, 13(6):1137--1144, Nov. 2007.  ",
+      "doi": "10.1109/TVCG.2007.70594"
+    },
+    {
+      "text": "J. D. Mackinlay. Automating the Design of Graphical Presentations of Relational Information. ACM Trans. Graphics, 5(2):110--141, 1986.  ",
+      "doi": "10.1145/22949.22950"
+    },
+    {
+      "text": "P. Millais, S. L. Jones, and R. Kelly. Exploring Data in Virtual Reality: Comparisons with 2D Data Visualizations. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems, CHI EA '18, pages LBW007:1--LBW007:6, New York, NY, USA, 2018. ACM.  ",
+      "doi": "10.1145/3170427.3188537"
+    },
+    {
+      "text": "D. Moritz, C. Wang, G. L. Nelson, H. Lin, A. M. Smith, B. Howe, and J. Heer. Formalizing Visualization Design Knowledge as Constraints: Actionable and Extensible Models in Draco. IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis), 2018.",
+      "doi": ""
+    },
+    {
+      "text": "K. Morton, M. Balazinska, D. Grossman, R. Kosara, and J. Mackinlay. Public data and visualizations: How are many eyes and tableau public used for collaborative analytics? SIGMOD Record, 43(2):17--22, 6 2014.  ",
+      "doi": "10.1145/2694413.2694417"
+    },
+    {
+      "text": "N. Natarajan, I. S. Dhillon, P. Ravikumar, and A. Tewari. Learning with Noisy Labels. In Proceedings of the 26th International Conference on Neural Information Processing Systems - Volume 1, NIPS'13, pages 1196--1204, USA, 2013. Curran Associates Inc. ",
+      "doi": "10.5555/2999611.2999745"
+    },
+    {
+      "text": "K. Papineni, S. Roukos, T. Ward, and W.-J. Zhu. BLEU: A Method for Automatic Evaluation of Machine Translation. In Proceedings of the 40th Annual Meeting on Association for Computational Linguistics, ACL '02, pages 311--318, Stroudsburg, PA, USA, 2002. Association for Computational Linguistics.  ",
+      "doi": "10.3115/1073083.1073135"
+    },
+    {
+      "text": "A. Paszke, S. Gross, S. Chintala, G. Chanan, E. Yang, Z. DeVito, Z. Lin, A. Desmaison, L. Antiga, and A. Lerer. Automatic diferentiation in PyTorch. 2017.",
+      "doi": ""
+    },
+    {
+      "text": "F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay. Scikit-learn: Machine Learning in Python. J. Mach. Learn. Res., 12:2825--2830, Nov. 2011. ",
+      "doi": "10.5555/1953048.2078195"
+    },
+    {
+      "text": "D. B. Perry, B. Howe, A. M. Key, and C. Aragon. VizDeck: Streamlining exploratory visual analytics of scientifc data. In iConference, 2013.",
+      "doi": ""
+    },
+    {
+      "text": "Plotly. Plotly. https://plot.ly, 2018.",
+      "doi": ""
+    },
+    {
+      "text": "Plotly. Plot.ly Chart Studio. https://plot.ly/online-chart-maker/, 2018.",
+      "doi": ""
+    },
+    {
+      "text": "Plotly. Plotly Community Feed. https://plot.ly/feed, 2018.",
+      "doi": ""
+    },
+    {
+      "text": "Plotly. Plotly for Python. https://plot.ly/ d3-js-for-python-and-pandas-charts/, 2018.",
+      "doi": ""
+    },
+    {
+      "text": "Plotly. Plotly REST API. https://api.plot.ly/v2, 2018.",
+      "doi": ""
+    },
+    {
+      "text": "Plotly. Plotly.js Open-Source Announcement. https://plot.ly/javascript/ open-source-announcement, 2018.",
+      "doi": ""
+    },
+    {
+      "text": "E. Ramos and D. Donoho. ASA Data Exposition Dataset. http:// stat-computing.org/dataexpo/1983.html, 1983.",
+      "doi": ""
+    },
+    {
+      "text": "K. Reda, P. Nalawade, and K. Ansah-Koi. Graphical Perception of Continuous Quantitative Maps: The Efects of Spatial Frequency and Colormap Design. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems, CHI '18, pages 272:1--272:12, New York, NY, USA, 2018. ACM.  ",
+      "doi": "10.1145/3173574.3173846"
+    },
+    {
+      "text": "S. F. Roth, J. Kolojejchick, J. Mattis, and J. Goldstein. Interactive Graphic Design Using Automatic Presentation Knowledge. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, CHI '94, pages 112--117, New York, NY, USA, 1994. ACM.  ",
+      "doi": "10.1145/191666.191719"
+    },
+    {
+      "text": "B. Saket, A. Endert, and C. Demiralp. Task-Based Efectiveness of Basic Visualizations. IEEE Transactions on Visualization and Computer Graphics, 2018.",
+      "doi": ""
+    },
+    {
+      "text": "B. Santos. Evaluating visualization techniques and tools: What are the main issues. In The AVI Workshop on Beyond Time and Errors: Novel Evaluation Methods For information Visualization (BELIV '08), 2008.",
+      "doi": ""
+    },
+    {
+      "text": "A. Satyanarayan, D. Moritz, K. Wongsuphasawat, and J. Heer. VegaLite: A Grammar of Interactive Graphics. IEEE Transactions on Visualization and Computer Graphics, 23(1):341--350, Jan. 2017.  ",
+      "doi": "10.1109/TVCG.2016.2599030"
+    },
+    {
+      "text": "A. Satyanarayan, K. Wongsuphasawat, and J. Heer. Declarative Interaction Design for Data Visualization. In ACM User Interface Software & Technology (UIST), 2014.  ",
+      "doi": "10.1145/2642918.2647360"
+    },
+    {
+      "text": "M. M. Sebrechts, J. V. Cugini, S. J. Laskowski, J. Vasilakis, and M. S. Miller. Visualization of Search Results: A Comparative Evaluation of Text, 2D, and 3D Interfaces. In Proceedings of the 22Nd Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR '99, pages 3--10, New York, NY, USA, 1999. ACM.  ",
+      "doi": "10.1145/312624.312634"
+    },
+    {
+      "text": "E. Segel and J. Heer. Narrative Visualization: Telling Stories with Data. IEEE Transactions on Visualization and Computer Graphics, 16(6):1139-- 1148, Nov. 2010.  ",
+      "doi": "10.1109/TVCG.2010.179"
+    },
+    {
+      "text": "J. Seo and B. Shneiderman. A Rank-by-Feature Framework for Interactive Exploration of Multidimensional Data. 4:96--113, 2005.  ",
+      "doi": "10.1057/palgrave.ivs.9500091"
+    },
+    {
+      "text": "S. Silva, B. S. Santos, and J. Madeira. Using color in visualization: A survey. Computers & Graphics, 35(2):320 -- 333, 2011. Virtual Reality in Brazil Visual Computing in Biology and Medicine Semantic 3D media and content Cultural Heritage.  ",
+      "doi": "10.1016/j.cag.2010.11.015"
+    },
+    {
+      "text": "D. Skau. Best Practices: Maximum Elements For Diferent Visualization Types. https://visual.ly/blog/ maximum-elements-for-visualization-types/, 2012.",
+      "doi": ""
+    },
+    {
+      "text": "C. Stolte, D. Tang, and P. Hanrahan. Polaris: a system for query, analysis, and visualization of multidimensional databases. Commun. ACM, 51(11):75--84, 2008.  ",
+      "doi": "10.1145/1400214.1400234"
+    },
+    {
+      "text": "J. Tukey. Exploratory Data Analysis. Addison-Wesley series in behavioral science. Addison-Wesley Publishing Company, 1977.",
+      "doi": ""
+    },
+    {
+      "text": "M. Vartak, S. Huang, T. Siddiqui, S. Madden, and A. Parameswaran. Towards Visualization Recommendation Systems. SIGMOD Rec., 45(4):34-- 39, May 2017.  ",
+      "doi": "10.1145/3092931.3092937"
+    },
+    {
+      "text": "M. Vartak, S. Madden, A. Parameswaran, and N. Polyzotis. SeeDB: Automatically Generating Query Visualizations. Proceedings of the VLDB Endowment, 7(13):1581--1584, 2014.  ",
+      "doi": "10.14778/2733004.2733035"
+    },
+    {
+      "text": "F. Vi\u00e9gas, M. Wattenberg, D. Smilkov, J. Wexler, and D. Gundrum. Generating charts from data in a data table. US 20180088753 A1., 2018.",
+      "doi": ""
+    },
+    {
+      "text": "C. Ware. Information Visualization: Perception for Design. Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 2004. ",
+      "doi": "10.5555/983611"
+    },
+    {
+      "text": "H. Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer Publishing Company, Incorporated, 2nd edition, 2009. ",
+      "doi": "10.5555/1795559"
+    },
+    {
+      "text": "L. Wilkinson, A. Anand, and R. Grossman. Graph-Theoretic Scagnostics. In Proceedings of the Proceedings of the 2005 IEEE Symposium on Information Visualization, INFOVIS '05, Washington, DC, USA, 2005. IEEE Computer Society.  ",
+      "doi": "10.1109/INFOVIS.2005.14"
+    },
+    {
+      "text": "G. Wills and L. Wilkinson. AutoVis: Automatic Visualization. Information Visualization, 9:47--6927, 2010.  ",
+      "doi": "10.1057/ivs.2008.27"
+    },
+    {
+      "text": "K. Wongsuphasawat, D. Moritz, A. Anand, J. Mackinlay, B. Howe, and J. Heer. Towards A General-Purpose Query Language for Visualization Recommendation. In ACM SIGMOD Workshop on Human-in-the-Loop Data Analytics (HILDA), 2016.  ",
+      "doi": "10.1145/2939502.2939506"
+    },
+    {
+      "text": "K. Wongsuphasawat, D. Moritz, A. Anand, J. Mackinlay, B. Howe, and J. Heer. Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations. IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis), 2016.",
+      "doi": "10.1109/TVCG.2015.2467191"
+    },
+    {
+      "text": "K. Wongsuphasawat, Z. Qu, D. Moritz, R. Chang, F. Ouk, A. Anand, J. Mackinlay, B. Howe, and J. Heer. Voyager 2: Augmenting Visual Analysis with Partial View Specifcations. In ACM Human Factors in Computing Systems (CHI), 2017.  ",
+      "doi": "10.1145/3025453.3025768"
+    },
+    {
+      "text": "Y. Zhu. Measuring Efective Data Visualization. In G. Bebis, R. Boyle, B. Parvin, D. Koracin, N. Paragios, S.-M. Tanveer, T. Ju, Z. Liu, S. Coquillart, C. Cruz-Neira, T. M\u00fcller, and T. Malzbender, editors, Advances in Visual Computing, pages 652--661, Berlin, Heidelberg, 2007. Springer Berlin Heidelberg. ",
+      "doi": "10.5555/1779090.1779161"
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "doi": "10.1145/3411764.3445565",
+  "title": "LipType: A Silent Speech Recognizer Augmented with an Independent Repair Model",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-19",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Speech recognition is unreliable in noisy places, compromises privacy and security when around strangers, and inaccessible to people with speech disorders. Lip reading can mitigate many of these challenges but the existing silent speech recognizers for lip reading are error prone. Developing new recognizers and acquiring new datasets is impractical for many since it requires enormous amount of time, effort, and other resources. To address these, first, we develop LipType, an optimized version of LipNet for improved speed and accuracy. We then develop an independent repair model that processes video input for poor lighting conditions, when applicable, and corrects potential errors in output for increased accuracy. We then test this model with LipType and other speech and silent speech recognizers to demonstrate its effectiveness.",
+  "authors": [
+    {
+      "name": "Laxmi Pandey",
+      "institution": "Human Computer Interaction Group University of California, Merced, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659373659",
+      "orcid": "missing"
+    },
+    {
+      "name": "Ahmed Sabbir Arif",
+      "institution": "Human-Computer Interaction Group University of California, Merced, United States",
+      "img": "/do/10.1145/contrib-81460652875/rel-imgonly/1632569177136_sq_col_sm.jpg",
+      "acmid": "81460652875",
+      "orcid": "0000-0002-8384-4764"
+    }
+  ],
+  "references": [
+    {
+      "text": "Mart\u00edn Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg\u00a0S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Mane, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viegas, Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng. 2016. Tensorflow: Large-Scale Machine Learning on Heterogeneous Distributed Systems. (March 2016). http://arxiv.org/abs/1603.04467",
+      "doi": ""
+    },
+    {
+      "text": "Mahmoud Afifi, Konstantinos\u00a0G. Derpanis, Bj\u00f6rn Ommer, and Michael\u00a0S. Brown. 2020. Learning to Correct Overexposed and Underexposed Photos. (March 2020). http://arxiv.org/abs/2003.11596",
+      "doi": ""
+    },
+    {
+      "text": "Triantafyllos Afouras, Joon\u00a0Son Chung, and Andrew Zisserman. 2018. Deep Lip Reading: A Comparison of Models and an Online Application. (June 2018). http://arxiv.org/abs/1806.06053",
+      "doi": ""
+    },
+    {
+      "text": "Abien\u00a0Fred Agarap. 2019. Deep Learning using Rectified Linear Units (ReLU). (2019). http://arxiv.org/abs/1803.08375",
+      "doi": ""
+    },
+    {
+      "text": "Alexandre Allauzen. 2007. Error Detection in Confusion Network. In INTERSPEECH.",
+      "doi": ""
+    },
+    {
+      "text": "Ibrahim Almajai, Stephen Cox, Richard Harvey, and Yuxuan Lan. 2016. Improved Speaker Independent Lip Reading Using Speaker Adaptive Training and Deep Neural Networks. In 2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2722\u20132726. https://doi.org/10.1109/ICASSP.2016.7472172 ISSN: 2379-190X.",
+      "doi": ""
+    },
+    {
+      "text": "Tarik Arici, Salih Dikbas, and Yucel Altunbasak. 2009. A Histogram Modification Framework and Its Application for Image Contrast Enhancement. IEEE Transactions on Image Processing 18, 9 (Sept. 2009), 1921\u20131935. https://doi.org/10.1109/TIP.2009.2021548 Conference Name: IEEE Transactions on Image Processing.",
+      "doi": "10.1109/TIP.2009.2021548"
+    },
+    {
+      "text": "Ahmed\u00a0Sabbir Arif and Wolfgang Stuerzlinger. 2009. Analysis of Text Entry Performance Metrics. In 2009 IEEE Toronto International Conference Science and Technology for Humanity (TIC-STH). 100\u2013105. https://doi.org/10.1109/TIC-STH.2009.5444533",
+      "doi": ""
+    },
+    {
+      "text": "Yannis\u00a0M. Assael, Brendan Shillingford, Shimon Whiteson, and Nando de Freitas. 2016. Lipnet: End-to-End Sentence-Level Lipreading. (Dec. 2016). http://arxiv.org/abs/1611.01599",
+      "doi": ""
+    },
+    {
+      "text": "Jess Bartels, D. Andreasen, P. Ehirim, Hui Mao, and P. Kennedy. 2008. Neurotrophic Electrode: Method of Assembly and Implantation into Human Motor Speech Cortex. Journal of Neuroscience Methods(2008). https://doi.org/10.1016/j.jneumeth.2008.06.030",
+      "doi": ""
+    },
+    {
+      "text": "Youssef Bassil and Paul Semaan. 2012. Asr Context-Sensitive Error Correction Based on Microsoft N-Gram Dataset. (March 2012). http://arxiv.org/abs/1203.5262",
+      "doi": ""
+    },
+    {
+      "text": "Helen\u00a0L. Bear and Richard Harvey. 2019. Alternative Visual Units for an Optimized Phoneme-Based Lipreading System. 18 (2019), 3870. https://doi.org/10.3390/app9183870",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan\u00a0S. Brumberg, Alfonso Nieto-Castanon, Philip\u00a0R. Kennedy, and Frank\u00a0H. Guenther. 2010. Brain-Computer Interfaces for Speech Communication. Speech Communication 52, 4 (April 2010), 367\u2013379. https://doi.org/10.1016/j.specom.2010.01.001",
+      "doi": "10.1016/j.specom.2010.01.001"
+    },
+    {
+      "text": "Turgay Celik and Tardi Tjahjadi. 2011. Contextual and Variational Contrast Enhancement. IEEE Transactions on Image Processing 20, 12 (Dec. 2011), 3431\u20133441. https://doi.org/10.1109/TIP.2011.2157513 Conference Name: IEEE Transactions on Image Processing.",
+      "doi": "10.1109/TIP.2011.2157513"
+    },
+    {
+      "text": "Chen Chen, Qifeng Chen, Jia Xu, and Vladlen Koltun. 2018. Learning to See in the Dark. (May 2018). http://arxiv.org/abs/1805.01934",
+      "doi": ""
+    },
+    {
+      "text": "Stanley\u00a0F. Chen and Joshua Goodman. 1996. An Empirical Study of Smoothing Techniques for Language Modeling. In Proceedings of the 34th annual meeting on Association for Computational Linguistics(ACL \u201996). Association for Computational Linguistics, USA, 310\u2013318. https://doi.org/10.3115/981863.981904",
+      "doi": ""
+    },
+    {
+      "text": "Wei Chen, Sankaranarayanan Ananthakrishnan, Rohit Kumar, Rohit Prasad, and Prem Natarajan. 2013. Asr Error Detection in a Conversational Spoken Language Translation System. In 2013 IEEE International Conference on Acoustics, Speech and Signal Processing. 7418\u20137422. https://doi.org/10.1109/ICASSP.2013.6639104 ISSN: 2379-190X.",
+      "doi": ""
+    },
+    {
+      "text": "Junyoung Chung, Caglar Gulcehre, KyungHyun Cho, and Yoshua Bengio. 2014. Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling. (2014). http://arxiv.org/abs/1412.3555",
+      "doi": ""
+    },
+    {
+      "text": "Joon\u00a0Son Chung, Andrew Senior, Oriol Vinyals, and Andrew Zisserman. 2017. Lip reading sentences in the wild. In 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, 3444\u20133453.",
+      "doi": ""
+    },
+    {
+      "text": "Joon\u00a0Son Chung and Andrew Zisserman. 2016. Out of Time: Automated Lip Sync in the Wild. In ACCV Workshops. https://doi.org/10.1007/978-3-319-54427-4_19",
+      "doi": ""
+    },
+    {
+      "text": "Joon\u00a0Son Chung and Andrew Zisserman. 2017. Lip Reading in Profile. In BMVC. https://doi.org/10.5244/C.31.155",
+      "doi": ""
+    },
+    {
+      "text": "Joon\u00a0Son Chung and Andrew Zisserman. 2017. Lip Reading in the Wild. In Computer Vision \u2013 ACCV 2016(Lecture Notes in Computer Science), Shang-Hong Lai, Vincent Lepetit, Ko\u00a0Nishino, and Yoichi Sato(Eds.). Springer International Publishing, Cham, 87\u2013103. https://doi.org/10.1007/978-3-319-54184-6_6",
+      "doi": ""
+    },
+    {
+      "text": "Joon\u00a0Son Chung and Andrew Zisserman. 2018. Learning to Lip Read Words by Watching Videos. Computer Vision and Image Understanding 173 (Aug. 2018), 76\u201385. https://doi.org/10.1016/j.cviu.2018.02.001",
+      "doi": ""
+    },
+    {
+      "text": "C. Cieri, D. Miller, and K. Walker. 2004. The Fisher Corpus: A Resource for the Next Generations of Speech-to-Text. In LREC.",
+      "doi": ""
+    },
+    {
+      "text": "Ronan Collobert, Awni Hannun, and Gabriel Synnaeve. 2019. A Fully Differentiable Beam Search Decoder. (2019). http://arxiv.org/abs/1902.06022",
+      "doi": ""
+    },
+    {
+      "text": "Ronan Collobert, Christian Puhrsch, and Gabriel Synnaeve. 2016. Wav2letter: An End-to-End Convnet-Based Speech Recognition System. (Sept. 2016). http://arxiv.org/abs/1609.03193",
+      "doi": ""
+    },
+    {
+      "text": "Martin Cooke, Jon Barker, Stuart Cunningham, and Xu Shao. 2006. An Audio-Visual Corpus for Speech Perception and Automatic Speech Recognition. The Journal of the Acoustical Society of America 120, 5 (Oct. 2006), 2421\u20132424. https://doi.org/10.1121/1.2229005 Publisher: Acoustical Society of America.",
+      "doi": ""
+    },
+    {
+      "text": "Charles\u00a0S. DaSalla, Hiroyuki Kambara, Yasuharu Koike, and Makoto Sato. 2009. Spatial Filtering and Single-Trial Classification of Eeg During Vowel Speech Imagery. In Proceedings of the 3rd International Convention on Rehabilitation Engineering & Assistive Technology(i-CREATe \u201909). Association for Computing Machinery, New York, NY, USA, 1\u20134. https://doi.org/10.1145/1592700.1592731",
+      "doi": "10.1145/1592700.1592731"
+    },
+    {
+      "text": "B. Denby, Y. Oussar, G. Dreyfus, and M. Stone. 2006. Prospects for a Silent Speech Interface Using Ultrasound Imaging. In 2006 IEEE International Conference on Acoustics Speech and Signal Processing Proceedings, Vol.\u00a01. I\u2013I. https://doi.org/10.1109/ICASSP.2006.1660033 ISSN: 2379-190X.",
+      "doi": ""
+    },
+    {
+      "text": "B. Denby and M. Stone. 2004. Speech Synthesis from Real Time Ultrasound Images of the Tongue. In 2004 IEEE International Conference on Acoustics, Speech, and Signal Processing, Vol.\u00a01. I\u2013685. https://doi.org/10.1109/ICASSP.2004.1326078 ISSN: 1520-6149.",
+      "doi": ""
+    },
+    {
+      "text": "Ali Diba, Mohsen Fayyaz, Vivek Sharma, M.\u00a0Mahdi Arzani, Rahman Yousefzadeh, Juergen Gall, and Luc Van\u00a0Gool. 2019. Spatio-Temporal Channel Correlation Networks for Action Classification. (Feb. 2019). http://arxiv.org/abs/1806.07754",
+      "doi": ""
+    },
+    {
+      "text": "Xuan Dong, Guan Wang, Yi Pang, Weixin Li, Jiangtao Wen, Wei Meng, and Yao Lu. 2011. Fast Efficient Algorithm for Enhancement of Low Lighting Video. In 2011 IEEE International Conference on Multimedia and Expo. 1\u20136. https://doi.org/10.1109/ICME.2011.6012107 ISSN: 1945-788X.",
+      "doi": ""
+    },
+    {
+      "text": "M.\u00a0J. Fagan, S.\u00a0R. Ell, J.\u00a0M. Gilbert, E. Sarrazin, and P.\u00a0M. Chapman. 2008. Development of a (silent) Speech Recognition System for Patients Following Laryngectomy. Medical Engineering & Physics 30, 4 (May 2008), 419\u2013425. https://doi.org/10.1016/j.medengphy.2007.05.003",
+      "doi": ""
+    },
+    {
+      "text": "Xue Feng, Yaodong Zhang, and James Glass. 2014. Speech Feature Denoising and Dereverberation Via Deep Autoencoders for Noisy Reverberant Speech Recognition. In 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 1759\u20131763. https://doi.org/10.1109/ICASSP.2014.6853900 ISSN: 2379-190X.",
+      "doi": ""
+    },
+    {
+      "text": "Victoria\u00a0M. Florescu, L. Crevier-Buchman, B. Denby, T. Hueber, Antonia Colazo-Simon, Claire Pillot-Loiseau, P. Roussel-Ragot, C. Gendrot, and S. Quattrocchi. 2010. Silent Vs Vocalized Articulation for a Portable Ultrasound-Based Silent Speech Interface. In INTERSPEECH.",
+      "doi": ""
+    },
+    {
+      "text": "Xueyang Fu, Delu Zeng, Yue Huang, Xiao-Ping Zhang, and Xinghao Ding. 2016. A Weighted Variational Model for Simultaneous Reflectance and Illumination Estimation. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2782\u20132790. https://doi.org/10.1109/CVPR.2016.304 ISSN: 1063-6919.",
+      "doi": ""
+    },
+    {
+      "text": "Yohei Fusayasu, Katsuyuki Tanaka, Tetsuya Takiguchi, and Yasuo Ariki. 2015. Word-Error Correction of Continuous Speech Recognition Based on Normalized Relevance Distance. In Proceedings of the 24th International Conference on Artificial Intelligence(IJCAI\u201915). AAAI Press, Buenos Aires, Argentina, 1257\u20131262.",
+      "doi": "10.5555/2832415.2832424"
+    },
+    {
+      "text": "James\u00a0M. Gilbert, Sergey\u00a0I. Rybchenko, Robin Hofe, Stephen\u00a0R. Ell, Michael\u00a0J. Fagan, Roger\u00a0K. Moore, and Phil\u00a0D. Green. 2010. Isolated Word Recognition of Silent Speech Using Magnetic Implants and Sensors.Medical engineering & physics10 (2010), 1189\u20131197. https://doi.org/10.1016/j.medengphy.2010.08.011",
+      "doi": ""
+    },
+    {
+      "text": "J.J. Godfrey, E.C. Holliman, and J. McDaniel. 1992. Switchboard: Telephone Speech Corpus for Research and Development. In [Proceedings]ICASSP-92: 1992 IEEE International Conference on Acoustics, Speech, and Signal Processing, Vol.\u00a01. 517\u2013520 vol.1. https://doi.org/10.1109/ICASSP.1992.225858 ISSN: 1520-6149.",
+      "doi": ""
+    },
+    {
+      "text": "Alex Graves, Santiago Fern\u00e1ndez, Faustino Gomez, and J\u00fcrgen Schmidhuber. 2006. Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks. In Proceedings of the 23rd international conference on Machine learning (Pittsburgh, Pennsylvania, USA, 2006-06-25) (ICML \u201906). Association for Computing Machinery, 369\u2013376. https://doi.org/10.1145/1143844.1143891",
+      "doi": "10.1145/1143844.1143891"
+    },
+    {
+      "text": "Alex Graves and Navdeep Jaitly. 2014. Towards End-to-End Speech Recognition with Recurrent Neural Networks. In Proceedings of the 31st International Conference on International Conference on Machine Learning - Volume 32(ICML\u201914). JMLR.org, Beijing, China, II\u20131764\u2013II\u20131772.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaojie Guo, Yu Li, and Haibin Ling. 2017. Lime: Low-Light Image Enhancement Via Illumination Map Estimation. IEEE Transactions on Image Processing 26, 2 (Feb. 2017), 982\u2013993. https://doi.org/10.1109/TIP.2016.2639450 Conference Name: IEEE Transactions on Image Processing.",
+      "doi": "10.1109/TIP.2016.2639450"
+    },
+    {
+      "text": "Awni Hannun, Carl Case, Jared Casper, Bryan Catanzaro, Greg Diamos, Erich Elsen, Ryan Prenger, Sanjeev Satheesh, Shubho Sengupta, Adam Coates, and Andrew\u00a0Y. Ng. 2014. Deep Speech: Scaling up End-to-End Speech Recognition. (Dec. 2014). http://arxiv.org/abs/1412.5567",
+      "doi": ""
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016. Deep Residual Learning for Image Recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 770\u2013778. https://doi.org/10.1109/CVPR.2016.90 ISSN: 1063-6919.",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth Heafield, Ivan Pouzyrevsky, J. Clark, and Philipp Koehn. 2013. Scalable Modified Kneser-Ney Language Model Estimation. In ACL.",
+      "doi": ""
+    },
+    {
+      "text": "Panikos Heracleous and Norihiro Hagita. 2011. Automatic Recognition of Speech Without Any Audio Information. In 2011 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2392\u20132395. https://doi.org/10.1109/ICASSP.2011.5946965 ISSN: 2379-190X.",
+      "doi": ""
+    },
+    {
+      "text": "Panikos Heracleous, Tomomi Kaino, H. Saruwatari, and K. Shikano. 2007. Unvoiced Speech Recognition Using Tissue-Conductive Acoustic Sensor. EURASIP J. Adv. Signal Process.(2007). https://doi.org/10.1155/2007/94068",
+      "doi": ""
+    },
+    {
+      "text": "Tatsuya Hirahara, Makoto Otani, Shota Shimizu, Tomoki Toda, Keigo Nakamura, Yoshitaka Nakajima, and Kiyohiro Shikano. 2010. Silent-Speech Enhancement Using Body-Conducted Vocal-Tract Resonance Signals. Speech Communication 52, 4 (April 2010), 301\u2013313. https://doi.org/10.1016/j.specom.2009.12.001",
+      "doi": "10.1016/j.specom.2009.12.001"
+    },
+    {
+      "text": "Alain Hor\u00e9 and Djemel Ziou. 2010. Image Quality Metrics: Psnr Vs. Ssim. In 2010 20th International Conference on Pattern Recognition. 2366\u20132369. https://doi.org/10.1109/ICPR.2010.579 ISSN: 1051-4651.",
+      "doi": ""
+    },
+    {
+      "text": "Jie Hu, Li Shen, Samuel Albanie, Gang Sun, and Enhua Wu. 2019. Squeeze-and-Excitation Networks. (May 2019). http://arxiv.org/abs/1709.01507",
+      "doi": ""
+    },
+    {
+      "text": "T. Hueber, G. Aversano, G. Chollet, B. Denby, G. Dreyfus, Y. Oussar, P. Roussel, and M. Stone. 2007. Eigentongue Feature Extraction for an Ultrasound-Based Silent Speech Interface. In 2007 IEEE International Conference on Acoustics, Speech and Signal Processing - ICASSP \u201907, Vol.\u00a01. I\u20131245\u2013I\u20131248. https://doi.org/10.1109/ICASSP.2007.366140 ISSN: 2379-190X.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Hueber, Elie-Laurent Benaroya, G\u00e9rard Chollet, Bruce Denby, G\u00e9rard Dreyfus, and Maureen Stone. 2010. Development of a Silent Speech Interface Driven by Ultrasound and Optical Images of the Tongue and Lips. Speech Communication 52, 4 (April 2010), 288\u2013300. https://doi.org/10.1016/j.specom.2009.11.004",
+      "doi": "10.1016/j.specom.2009.11.004"
+    },
+    {
+      "text": "Thomas Hueber, Elie-Laurent Benaroya, G\u00e9rard Chollet, Bruce Denby, G\u00e9rard Dreyfus, and Maureen Stone. 2010. Development of a Silent Speech Interface Driven by Ultrasound and Optical Images of the Tongue and Lips. Speech Communication 52, 4 (April 2010), 288\u2013300. https://doi.org/10.1016/j.specom.2009.11.004",
+      "doi": "10.1016/j.specom.2009.11.004"
+    },
+    {
+      "text": "Sergey Ioffe and Christian Szegedy. 2015. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift. In Proceedings of the 32nd International Conference on International Conference on Machine Learning - Volume 37 (Lille, France, 2015-07-06) (ICML\u201915). JMLR.org, 448\u2013456.",
+      "doi": "10.5555/3045118.3045167"
+    },
+    {
+      "text": "Shuiwang Ji, Wei Xu, Ming Yang, and Kai Yu. [n.d.]. 3D Convolutional Neural Networks for Human Action Recognition. 35, 1([n.\u00a0d.]), 221\u2013231. https://doi.org/10.1109/TPAMI.2012.59 Conference Name: IEEE Transactions on Pattern Analysis and Machine Intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "D.J. Jobson, Z. Rahman, and G.A. Woodell. 1997. A Multiscale Retinex for Bridging the Gap Between Color Images and the Human Observation of Scenes. IEEE Transactions on Image Processing 6, 7 (July 1997), 965\u2013976. https://doi.org/10.1109/83.597272 Conference Name: IEEE Transactions on Image Processing.",
+      "doi": "10.1109/83.597272"
+    },
+    {
+      "text": "Charles Jorgensen and Sorin Dusan. 2010. Speech Interfaces Based Upon Surface Electromyography. Speech Communication 52, 4 (April 2010), 354\u2013366. https://doi.org/10.1016/j.specom.2009.11.003",
+      "doi": "10.1016/j.specom.2009.11.003"
+    },
+    {
+      "text": "C. Jorgensen, D.D. Lee, and S. Agabont. 2003. Sub Auditory Speech Recognition Based on Emg Signals. In Proceedings of the International Joint Conference on Neural Networks, 2003., Vol.\u00a04. 3128\u20133133 vol.4. https://doi.org/10.1109/IJCNN.2003.1224072 ISSN: 1098-7576.",
+      "doi": ""
+    },
+    {
+      "text": "S. Jou, Tanja Schultz, Matthias Walliczek, F. Kraft, and Alexander\u00a0H. Waibel. 2006. Towards Continuous Speech Recognition Using Surface Electromyography. In INTERSPEECH.",
+      "doi": ""
+    },
+    {
+      "text": "Arnav Kapur, Shreyas Kapur, and Pattie Maes. 2018. Alterego: A Personalized Wearable Silent Speech Interface. In 23rd International Conference on Intelligent User Interfaces(IUI \u201918). Association for Computing Machinery, New York, NY, USA, 43\u201353. https://doi.org/10.1145/3172944.3172977",
+      "doi": "10.1145/3172944.3172977"
+    },
+    {
+      "text": "Naoki Kimura, Michinari Kono, and Jun Rekimoto. 2019. SottoVoce: An Ultrasound Imaging-Based Silent Speech Interaction Using Deep Neural Networks. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3290605.3300376",
+      "doi": "10.1145/3290605.3300376"
+    },
+    {
+      "text": "Davis\u00a0E. King. 2009. Dlib-Ml: A Machine Learning Toolkit. The Journal of Machine Learning Research 10 (Dec. 2009), 1755\u20131758.",
+      "doi": ""
+    },
+    {
+      "text": "Diederik\u00a0P. Kingma and Jimmy Ba. 2017. Adam: A Method for Stochastic Optimization. (2017). http://arxiv.org/abs/1412.6980",
+      "doi": ""
+    },
+    {
+      "text": "Oscar Koller, Hermann Ney, and Richard Bowden. 2015. Deep Learning of Mouth Shapes for Sign Language. In 2015 IEEE International Conference on Computer Vision Workshop (ICCVW). 477\u2013483. https://doi.org/10.1109/ICCVW.2015.69",
+      "doi": ""
+    },
+    {
+      "text": "E.\u00a0H. Land and J. McCann. 1971. Lightness and Retinex Theory.Journal of the Optical Society of America(1971). https://doi.org/10.1364/JOSA.61.000001",
+      "doi": ""
+    },
+    {
+      "text": "Chulwoo Lee, Chul Lee, and Chang-Su Kim. 2013. Contrast Enhancement Based on Layered Difference Representation of 2d Histograms. IEEE Transactions on Image Processing 22, 12 (Dec. 2013), 5372\u20135384. https://doi.org/10.1109/TIP.2013.2284059 Conference Name: IEEE Transactions on Image Processing.",
+      "doi": "10.1109/TIP.2013.2284059"
+    },
+    {
+      "text": "Chongyi Li, J. Guo, F. Porikli, and Y. Pang. 2018. Lightennet: A Convolutional Neural Network for Weakly Illuminated Image Enhancement. Pattern Recognit. Lett.(2018). https://doi.org/10.1016/j.patrec.2018.01.010",
+      "doi": ""
+    },
+    {
+      "text": "Yuan Liang, Koji Iwano, and Koichi Shinoda. 2014. An Efficient Error Correction Interface for Speech Recognition on Mobile Touchscreen Devices. In 2014 IEEE Spoken Language Technology Workshop (SLT). 454\u2013459. https://doi.org/10.1109/SLT.2014.7078617",
+      "doi": ""
+    },
+    {
+      "text": "X. Lu, Y. Tsao, S. Matsuda, and C. Hori. 2013. Speech Enhancement Based on Deep Denoising Autoencoder. In INTERSPEECH.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0L. Maas, Ziang Xie, Dan Jurafsky, and A. Ng. 2015. Lexicon-Free Conversational Speech Recognition with Neural Networks. In HLT-NAACL. https://doi.org/10.3115/v1/N15-1038",
+      "doi": ""
+    },
+    {
+      "text": "I.\u00a0Scott MacKenzie and R.\u00a0William Soukoreff. 2003. Phrase Sets for Evaluating Text Entry Techniques. In CHI \u201903 Extended Abstracts on Human Factors in Computing Systems(CHI EA \u201903). Association for Computing Machinery, New York, NY, USA, 754\u2013755. https://doi.org/10.1145/765891.765971",
+      "doi": "10.1145/765891.765971"
+    },
+    {
+      "text": "L. Maier-Hein, F. Metze, T. Schultz, and A. Waibel. 2005. Session Independent Non-Audible Speech Recognition Using Surface Electromyography. In IEEE Workshop on Automatic Speech Recognition and Understanding, 2005.331\u2013336. https://doi.org/10.1109/ASRU.2005.1566521",
+      "doi": ""
+    },
+    {
+      "text": "Y. Nakajima, H. Kashioka, K. Shikano, and N. Campbell. 2003. Non-Audible Murmur Recognition Input Interface Using Stethoscopic Microphone Attached to the Skin. In 2003 IEEE International Conference on Acoustics, Speech, and Signal Processing, 2003. Proceedings. (ICASSP \u201903)., Vol.\u00a05. V\u2013708. https://doi.org/10.1109/ICASSP.2003.1200069 ISSN: 1520-6149.",
+      "doi": ""
+    },
+    {
+      "text": "L.C. Ng, G.C. Burnett, J.F. Holzrichter, and T.J. Gable. 2000. Denoising of Human Speech Using Combined Acoustic and Em Sensor Signal Processing. In 2000 IEEE International Conference on Acoustics, Speech, and Signal Processing. Proceedings (Cat. No.00CH37100), Vol.\u00a01. 229\u2013232 vol.1. https://doi.org/10.1109/ICASSP.2000.861925 ISSN: 1520-6149.",
+      "doi": ""
+    },
+    {
+      "text": "K. Noda, Y. Yamaguchi, K. Nakadai, H. Okuno, and Tetsuya Ogata. 2014. Lipreading Using Convolutional Neural Network. In INTERSPEECH.",
+      "doi": ""
+    },
+    {
+      "text": "Vassil Panayotov, Guoguo Chen, Daniel Povey, and Sanjeev Khudanpur. 2015. Librispeech: An Asr Corpus Based on Public Domain Audio Books. In 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 5206\u20135210. https://doi.org/10.1109/ICASSP.2015.7178964 ISSN: 2379-190X.",
+      "doi": ""
+    },
+    {
+      "text": "Sanjay\u00a0A. Patil and John H.\u00a0L. Hansen. 2010. The Physiological Microphone (pmic): A Competitive Alternative for Speaker Assessment in Stress Detection and Speaker Verification. Speech Communication 52, 4 (April 2010), 327\u2013340. https://doi.org/10.1016/j.specom.2009.11.006",
+      "doi": "10.1016/j.specom.2009.11.006"
+    },
+    {
+      "text": "Douglas\u00a0B. Paul and Janet\u00a0M. Baker. 1992. The Design for the Wall Street Journal-Based Csr Corpus. In Speech and Natural Language: Proceedings of a Workshop Held at Harriman, New York, February 23-26, 1992. https://www.aclweb.org/anthology/H92-1073",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Pellegrini and Isabel Trancoso. 2009. Error Detection in Broadcast News Asr Using Markov Chains. In Proceedings of the 4th conference on Human language technology: challenges for computer science and linguistics(LTC\u201909). Springer-Verlag, Berlin, Heidelberg, 59\u201369.",
+      "doi": "10.5555/1987717.1987724"
+    },
+    {
+      "text": "T. Pellegrini and I. Trancoso. 2010. Improving Asr Error Detection with Non-Decoder Based Features. In INTERSPEECH.",
+      "doi": ""
+    },
+    {
+      "text": "Stavros Petridis and Maja Pantic. 2016. Deep Complementary Bottleneck Features for Visual Speech Recognition. In 2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2304\u20132308. https://doi.org/10.1109/ICASSP.2016.7472088 ISSN: 2379-190X.",
+      "doi": ""
+    },
+    {
+      "text": "Stavros Petridis and Maja Pantic. 2016. Deep Complementary Bottleneck Features for Visual Speech Recognition. In 2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2304\u20132308. https://doi.org/10.1109/ICASSP.2016.7472088 ISSN: 2379-190X.",
+      "doi": ""
+    },
+    {
+      "text": "Anne Porbadnigk, Marek Wester, Jan Calliess, and Tanja Schultz. 2009. EEG-based Speech Recognition - Impact of Temporal Effects. In BIOSIGNALS. https://doi.org/10.5220/0001554303760381",
+      "doi": ""
+    },
+    {
+      "text": "Anne Porbadnigk, Marek Wester, Jan Calliess, and Tanja Schultz. 2009. EEG-Based Speech Recognition - Impact of Temporal Effects. In BIOSIGNALS. https://doi.org/10.5220/0001554303760381",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Povey, Arnab Ghoshal, Gilles Boulianne, Lukas Burget, Ondrej Glembek, Nagendra Goel, Mirko Hannemann, Petr Motlicek, Yanmin Qian, Petr Schwarz, Jan Silovsky, Georg Stemmer, and Karel Vesely. 2011. The Kaldi Speech Recognition Toolkit. https://infoscience.epfl.ch/record/192584 Conference Name: IEEE 2011 Workshop on Automatic Speech Recognition and Understanding Number: CONF Publisher: IEEE Signal Processing Society.",
+      "doi": ""
+    },
+    {
+      "text": "T.F. Quatieri, K. Brady, D. Messing, J.P. Campbell, W.M. Campbell, M.S. Brandstein, C.J. Weinstein, J.D. Tardelli, and P.D. Gatewood. 2006. Exploiting Nonacoustic Sensors for Speech Encoding. IEEE Transactions on Audio, Speech, and Language Processing 14, 2 (March 2006), 533\u2013544. https://doi.org/10.1109/TSA.2005.855838 Conference Name: IEEE Transactions on Audio, Speech, and Language Processing.",
+      "doi": "10.1109/TSA.2005.855838"
+    },
+    {
+      "text": "Michael Riley, Cyril Allauzen, and Martin Jansche. 2009. Openfst: An Open-Source, Weighted Finite-State Transducer Library and Its Applications to Speech and Language. In Proceedings of the North American Chapter of the Association for Computational Linguistics \u2013 Human Language Technologies (NAACL HLT) 2009 conference, Tutorials. http://aclweb.org/anthology/N09-4005",
+      "doi": ""
+    },
+    {
+      "text": "Christos Sagonas, Georgios Tzimiropoulos, Stefanos Zafeiriou, and Maja Pantic. 2013. 300 Faces in-the-Wild Challenge: The First Facial Landmark Localization Challenge. In 2013 IEEE International Conference on Computer Vision Workshops. 397\u2013403. https://doi.org/10.1109/ICCVW.2013.59",
+      "doi": "10.1109/ICCVW.2013.59"
+    },
+    {
+      "text": "Arup Sarma and David\u00a0D. Palmer. 2004. Context-Based Speech Recognition Error Detection and Correction. In Proceedings of HLT-NAACL 2004: Short Papers(HLT-NAACL-Short \u201904). Association for Computational Linguistics, USA, 85\u201388.",
+      "doi": "10.5555/1613984.1614006"
+    },
+    {
+      "text": "Tanja Schultz and Michael Wand. 2010. Modeling Coarticulation in Emg-Based Continuous Speech Recognition. Speech Communication 52, 4 (April 2010), 341\u2013353. https://doi.org/10.1016/j.specom.2009.12.002",
+      "doi": "10.1016/j.specom.2009.12.002"
+    },
+    {
+      "text": "A.R. Setlur, R.A. Sukkar, and J. Jacob. 1996. Correcting Recognition Errors Via Discriminative Utterance Verification. In Proceeding of Fourth International Conference on Spoken Language Processing. ICSLP \u201996, Vol.\u00a02. 602\u2013605 vol.2. https://doi.org/10.1109/ICSLP.1996.607433",
+      "doi": ""
+    },
+    {
+      "text": "Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. 2014. Dropout: A Simple Way to Prevent Neural Networks from Overfitting. 15, 1 (2014), 1929\u20131958.",
+      "doi": ""
+    },
+    {
+      "text": "Themos Stafylakis and Georgios Tzimiropoulos. 2017. Combining Residual Networks with Lstms for Lipreading. INTERSPEECH (2017). https://doi.org/10.21437/INTERSPEECH.2017-85",
+      "doi": ""
+    },
+    {
+      "text": "Ke Sun, Chun Yu, Weinan Shi, Lan Liu, and Yuanchun Shi. 2018. Lip-Interact: Improving Mobile Device Interaction with Silent Speech Commands. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology(UIST \u201918). Association for Computing Machinery, New York, NY, USA, 581\u2013593. https://doi.org/10.1145/3242587.3242599",
+      "doi": "10.1145/3242587.3242599"
+    },
+    {
+      "text": "P. Suppes, B. Han, and Z. Lu. 1998. Brain-Wave Recognition of Sentences.Proceedings of the National Academy of Sciences of the United States of America (1998). https://doi.org/10.1073/pnas.95.26.15861",
+      "doi": ""
+    },
+    {
+      "text": "P. Suppes, Z. Lu, and B. Han. 1997. Brain Wave Recognition of Words.Proceedings of the National Academy of Sciences of the United States of America (1997). https://doi.org/10.1073/pnas.94.26.14965",
+      "doi": ""
+    },
+    {
+      "text": "Satoshi Tamura, Hiroshi Ninomiya, Norihide Kitaoka, Shin Osuga, Yurie Iribe, Kazuya Takeda, and Satoru Hayamizu. 2015. Audio-Visual Speech Recognition Using Deep Bottleneck Features and High-Performance Lipreading. In 2015 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA). 575\u2013582. https://doi.org/10.1109/APSIPA.2015.7415335",
+      "doi": ""
+    },
+    {
+      "text": "Ingo\u00a0R. Titze, Brad\u00a0H. Story, Gregory\u00a0C. Burnett, John\u00a0F. Holzrichter, Lawrence\u00a0C. Ng, and Wayne\u00a0A. Lea. 1999. Comparison Between Electroglottography and Electromagnetic Glottography. The Journal of the Acoustical Society of America 107, 1 (Dec. 1999), 581\u2013588. https://doi.org/10.1121/1.428324 Publisher: Acoustical Society of America.",
+      "doi": ""
+    },
+    {
+      "text": "Naoya Ukai, Takumi Seko, Satoshi Tamura, and Satoru Hayamizu. 2012. Gif-Lr: GA-Based Informative Feature for Lipreading. In Proceedings of The 2012 Asia Pacific Signal and Information Processing Association Annual Summit and Conference. 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan\u00a0N. Gomez, Lukasz Kaiser, and Illia Polosukhin. 2017. Attention Is All You Need. (Dec. 2017). http://arxiv.org/abs/1706.03762",
+      "doi": ""
+    },
+    {
+      "text": "Pascal Vincent, Hugo Larochelle, Yoshua Bengio, and Pierre-Antoine Manzagol. 2008. Extracting and Composing Robust Features with Denoising Autoencoders. In Proceedings of the 25th international conference on Machine learning(ICML \u201908). Association for Computing Machinery, New York, NY, USA, 1096\u20131103. https://doi.org/10.1145/1390156.1390294",
+      "doi": "10.1145/1390156.1390294"
+    },
+    {
+      "text": "Michael Wand, Jan Koutn\u00edk, and J\u00fcrgen Schmidhuber. 2016. Lipreading with Long Short-Term Memory. In 2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 6115\u20136119. https://doi.org/10.1109/ICASSP.2016.7472852 ISSN: 2379-190X.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Wand and Tanja Schultz. 2011. Session-Independent Emg-Based Speech Recognition. In BIOSIGNALS. https://doi.org/10.5220/0003169702950300",
+      "doi": ""
+    },
+    {
+      "text": "Shuhang Wang, Jin Zheng, Hai-Miao Hu, and Bo Li. 2013. Naturalness Preserved Enhancement Algorithm for Non-Uniform Illumination Images. IEEE Transactions on Image Processing 22, 9 (Sept. 2013), 3538\u20133548. https://doi.org/10.1109/TIP.2013.2261309 Conference Name: IEEE Transactions on Image Processing.",
+      "doi": "10.1109/TIP.2013.2261309"
+    },
+    {
+      "text": "Wenjing Wang, Chen Wei, Wenhan Yang, and Jiaying Liu. 2018. Gladnet: Low-Light Enhancement Network with Global Awareness. In 2018 13th IEEE International Conference on Automatic Face Gesture Recognition (FG 2018). 751\u2013755. https://doi.org/10.1109/FG.2018.00118",
+      "doi": ""
+    },
+    {
+      "text": "Chen Wei, Wenjing Wang, Wenhan Yang, and Jiaying Liu. 2018. Deep Retinex Decomposition for Low-Light Enhancement. (Aug. 2018). http://arxiv.org/abs/1808.04560",
+      "doi": ""
+    },
+    {
+      "text": "Kai Xu, Dawei Li, Nick Cassimatis, and Xiaolong Wang. 2018. LCANet: End-to-end Lipreading with Cascaded Attention-CTC. In 2018 13th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2018). IEEE, 548\u2013555.",
+      "doi": ""
+    },
+    {
+      "text": "Zhilu Zhang and Mert\u00a0R. Sabuncu. 2018. Generalized Cross Entropy Loss for Training Deep Neural Networks with Noisy Labels. (Nov. 2018). http://arxiv.org/abs/1805.07836",
+      "doi": ""
+    },
+    {
+      "text": "Hang Zhao, Orazio Gallo, Iuri Frosio, and Jan Kautz. 2018. Loss Functions for Neural Networks for Image Processing. (April 2018). http://arxiv.org/abs/1511.08861",
+      "doi": ""
+    },
+    {
+      "text": "Lina Zhou, Yongmei Shi, Jinjuan Feng, and A. Sears. 2005. Data Mining for Detecting Errors in Dictation Speech Recognition. IEEE Transactions on Speech and Audio Processing 13, 5 (Sept. 2005), 681\u2013688. https://doi.org/10.1109/TSA.2005.851874 Conference Name: IEEE Transactions on Speech and Audio Processing.",
+      "doi": ""
+    },
+    {
+      "text": "Ziheng Zhou, Guoying Zhao, Xiaopeng Hong, and Matti Pietik\u00e4inen. 2014. A Review of Recent Advances in Visual Speech Decoding. Image and Vision Computing 32, 9 (Sept. 2014), 590\u2013605. https://doi.org/10.1016/j.imavis.2014.06.004",
+      "doi": ""
+    }
+  ]
+}

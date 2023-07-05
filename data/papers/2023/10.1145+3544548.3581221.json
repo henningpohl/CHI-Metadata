@@ -1,0 +1,795 @@
+{
+  "doi": "10.1145/3544548.3581221",
+  "title": "Characterizing the Technology Needs of Vulnerable Populations for Participation in Research and Design by Adopting Maslow\u2019s Hierarchy of Needs",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2023,
+  "badges": [],
+  "abstract": "While various frameworks and heuristics exist within the HCI community to guide research and design for vulnerable populations, most are centered on the researcher\u2019s involvement. In this work, we developed a conceptual framework for supporting the participation of vulnerable populations in the research and design of technologies. Building upon Maslow\u2019s hierarchy of needs, we synthesized 84 research articles that focus on vulnerable populations and technology to develop our framework. This framework conceptualizes both the barriers, such as lack of technology access and digital literacy, and assets, like social relationships, that impact effective participation in research and design. Using our framework can guide researchers in identifying and fulfilling the technology-related needs of vulnerable populations, leading to more empowering research participation for these groups. The framework\u2019s guiding questions offer researchers the opportunity to reflect on their approach prior to and during their collaboration with vulnerable populations in technology research and design.",
+  "authors": [
+    {
+      "name": "Oghenemaro Anuyah",
+      "institution": "Department of Computer Science and Engineering, University of Notre Dame, United States",
+      "img": "/do/10.1145/contrib-99659247062/rel-imgonly/en2_0110__1_.jpg",
+      "acmid": "99659247062",
+      "orcid": "0000-0002-5773-8239"
+    },
+    {
+      "name": "Karla Badillo-Urquiola",
+      "institution": "Department of Computer Science, University of Notre Dame, United States",
+      "img": "/do/10.1145/contrib-99659059922/rel-imgonly/99659059922.jpg",
+      "acmid": "99659059922",
+      "orcid": "0000-0002-1165-3619"
+    },
+    {
+      "name": "Ronald Metoyer",
+      "institution": "Department of Computer Science and Engineering, University of Notre Dame, United States",
+      "img": "/do/10.1145/contrib-81100388468/rel-imgonly/9.13.15ronaldmetoyer11560_medium.jpg",
+      "acmid": "81100388468",
+      "orcid": "0000-0003-2206-1720"
+    }
+  ],
+  "references": [
+    {
+      "text": "Michael\u00a0B Aguilera and Douglas\u00a0S Massey. 2003. Social capital and the wages of Mexican migrants: New hypotheses and tests. Social forces 82, 2 (2003), 671\u2013701.",
+      "doi": ""
+    },
+    {
+      "text": "Syed\u00a0Ishtiaque Ahmed, Md\u00a0Romael Haque, Jay Chen, and Nicola Dell. 2017. Digital privacy challenges with shared mobile phone use in Bangladesh. Proceedings of the ACM on Human-Computer Interaction 1, CSCW(2017), 1\u201320.",
+      "doi": "10.1145/3134652"
+    },
+    {
+      "text": "Veronica Ahumada-Newhart, J. Maya\u00a0Hernandez, and Karla Badillo-Urquiola. 2021. A Call for Action: Conceptualizing Assets-Based Inclusive Design as a Social Movement to Address Systemic Inequities: An Assets-Based Inclusive Design Framework. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI EA \u201921). Association for Computing Machinery, New York, NY, USA, Article 12, 4\u00a0pages. https://doi.org/10.1145/3411763.3450368",
+      "doi": "10.1145/3411763.3450368"
+    },
+    {
+      "text": "Asam Almohamed and Dhaval Vyas. 2019. Rebuilding Social Capital in Refugees and Asylum Seekers. ACM Trans. Comput.-Hum. Interact. 26, 6, Article 41 (nov 2019), 30\u00a0pages. https://doi.org/10.1145/3364996",
+      "doi": "10.1145/3364996"
+    },
+    {
+      "text": "Asam Hamed\u00a0Abbas Almohamed, Reem Talhouk, and Dhaval Vyas. 2022. Towards a conceptual framework for understanding the challenges in refugee re-settlement. Proceedings of the ACM on Human-Computer Interaction 6, GROUP(2022), 1\u201327.",
+      "doi": "10.1145/3492856"
+    },
+    {
+      "text": "Tawfiq Ammari, Momina Nofal, Mustafa Naseem, and Maryam Mustafa. 2022. Moderation as Empowerment: Creating and Managing Women-Only Digital Safe Spaces. Proceedings of the ACM on Human-Computer Interaction 6, CSCW2(2022), 1\u201336.",
+      "doi": "10.1145/3555204"
+    },
+    {
+      "text": "Nazanin Andalibi, Gabriela Marcu, Tim Moesgen, Rebecca Mullin, and Andrea Forte. 2018. Not Alone: Designing for Self-Disclosure and Social Support Exchange After Pregnancy Loss. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems(Montreal QC, Canada) (CHI EA \u201918). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3170427.3188473",
+      "doi": "10.1145/3170427.3188473"
+    },
+    {
+      "text": "Sonia\u00a0M. Arteaga, Mo Kudeki, Adrienne Woodworth, and Sri Kurniawan. 2010. Mobile System to Motivate Teenagers\u2019 Physical Activity. In Proceedings of the 9th International Conference on Interaction Design and Children (Barcelona, Spain) (IDC \u201910). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/1810543.1810545",
+      "doi": "10.1145/1810543.1810545"
+    },
+    {
+      "text": "Zahra Ashktorab and Jessica Vitak. 2016. Designing Cyberbullying Mitigation and Prevention Solutions through Participatory Design With Teenagers. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 3895\u20133905. https://doi.org/10.1145/2858036.2858548",
+      "doi": "10.1145/2858036.2858548"
+    },
+    {
+      "text": "Laima Augustaitis, Leland\u00a0A. Merrill, Kristi\u00a0E Gamarel, and Oliver\u00a0L. Haimson. 2021. Online Transgender Health Information Seeking: Facilitators, Barriers, and Future Directions. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 205, 14\u00a0pages. https://doi.org/10.1145/3411764.3445091",
+      "doi": "10.1145/3411764.3445091"
+    },
+    {
+      "text": "Karla Badillo-Urquiola, Scott Harpin, and Pamela Wisniewski. 2017. Abandoned but Not Forgotten: Providing Access While Protecting Foster Youth from Online Risks. In Proceedings of the 2017 Conference on Interaction Design and Children (Stanford, California, USA) (IDC \u201917). Association for Computing Machinery, New York, NY, USA, 17\u201326. https://doi.org/10.1145/3078072.3079724",
+      "doi": "10.1145/3078072.3079724"
+    },
+    {
+      "text": "Karla Badillo-Urquiola, Xinru Page, and Pamela\u00a0J. Wisniewski. 2019. Risk vs. Restriction: The Tension between Providing a Sense of Normalcy and Keeping Foster Teens Safe Online. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300497",
+      "doi": "10.1145/3290605.3300497"
+    },
+    {
+      "text": "Karla Badillo-Urquiola, Zachary Shea, Zainab Agha, Irina Lediaeva, and Pamela Wisniewski. 2021. Conducting risky research with teens: co-designing for the ethical treatment and protection of adolescents. Proceedings of the ACM on Human-Computer Interaction 4, CSCW3(2021), 1\u201346.",
+      "doi": "10.1145/3432930"
+    },
+    {
+      "text": "Ronald\u00a0M Baecker, Karyn Moffatt, and Michael Massimi. 2012. Technologies for aging gracefully. interactions 19, 3 (2012), 32\u201336.",
+      "doi": ""
+    },
+    {
+      "text": "Shaowen Bardzell. 2014. Utopias of Participation: Design, Criticality, and Emancipation. In Proceedings of the 13th Participatory Design Conference: Short Papers, Industry Cases, Workshop Descriptions, Doctoral Consortium Papers, and Keynote Abstracts - Volume 2(Windhoek, Namibia) (PDC \u201914). Association for Computing Machinery, New York, NY, USA, 189\u2013190. https://doi.org/10.1145/2662155.2662213",
+      "doi": "10.1145/2662155.2662213"
+    },
+    {
+      "text": "Andrew\u00a0A. Bayor, Margot Brereton, Laurianne Sitbon, Bernd Ploderer, Filip Bircanin, Benoit Favre, and Stewart Koplick. 2021. Toward a Competency-Based Approach to Co-Designing Technologies with People with Intellectual Disability. ACM Trans. Access. Comput. 14, 2, Article 6 (jul 2021), 33\u00a0pages. https://doi.org/10.1145/3450355",
+      "doi": "10.1145/3450355"
+    },
+    {
+      "text": "Jeanie Beh, Sonja Pedell, and Wendy Doube. 2015. Where is the \"I\" in IPad? The Role of Interest in Older Adults\u2019 Learning of Mobile Touch Screen Technologies. In Proceedings of the Annual Meeting of the Australian Special Interest Group for Computer Human Interaction (Parkville, VIC, Australia) (OzCHI \u201915). Association for Computing Machinery, New York, NY, USA, 437\u2013445. https://doi.org/10.1145/2838739.2838776",
+      "doi": "10.1145/2838739.2838776"
+    },
+    {
+      "text": "Victoria Bellotti, Alexander Ambard, Daniel Turner, Christina Gossmann, Kamila Demkova, and John\u00a0M. Carroll. 2015. A Muddle of Models of Motivation for Using Peer-to-Peer Economy Systems. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems(Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 1085\u20131094. https://doi.org/10.1145/2702123.2702272",
+      "doi": "10.1145/2702123.2702272"
+    },
+    {
+      "text": "Jacob\u00a0T. Biehl, Rosta Farzan, and Yingfan Zhou. 2022. Can Anybody Help Me?: Using Community Help Desk Call Records to Examine the Impact of Digital Divides During a Global Pandemic. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 314, 13\u00a0pages. https://doi.org/10.1145/3491102.3517693",
+      "doi": "10.1145/3491102.3517693"
+    },
+    {
+      "text": "Max Birk and Regan\u00a0L. Mandryk. 2013. Control Your Game-Self: Effects of Controller Type on Enjoyment, Motivation, and Personality in Game. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). Association for Computing Machinery, New York, NY, USA, 685\u2013694. https://doi.org/10.1145/2470654.2470752",
+      "doi": "10.1145/2470654.2470752"
+    },
+    {
+      "text": "Gregory\u00a0J. Boyle, Donald\u00a0H. Saklofske, and Gerald Matthews. 2015. Chapter 1 - Criteria for Selection and Evaluation of Scales and Measures. In Measures of Personality and Social Psychological Constructs, Gregory\u00a0J. Boyle, Donald\u00a0H. Saklofske, and Gerald Matthews (Eds.). Academic Press, San Diego, 3\u201315. https://doi.org/10.1016/B978-0-12-386915-9.00001-2",
+      "doi": ""
+    },
+    {
+      "text": "Stacy\u00a0M. Branham, Anja Thieme, Lisa\u00a0P. Nathan, Steve Harrison, Deborah Tatar, and Patrick Olivier. 2014. Co-Creating & Identity-Making in CSCW: Revisiting Ethics in Design Research. In Proceedings of the Companion Publication of the 17th ACM Conference on Computer Supported Cooperative Work & Social Computing (Baltimore, Maryland, USA) (CSCW Companion \u201914). Association for Computing Machinery, New York, NY, USA, 305\u2013308. https://doi.org/10.1145/2556420.2558859",
+      "doi": "10.1145/2556420.2558859"
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative research in psychology 3, 2 (2006), 77\u2013101.",
+      "doi": ""
+    },
+    {
+      "text": "Pam Briggs and Lisa Thomas. 2015. An inclusive, value sensitive design perspective on future identity technologies. ACM Transactions on Computer-Human Interaction (TOCHI) 22, 5(2015), 1\u201328.",
+      "doi": "10.1145/2778972"
+    },
+    {
+      "text": "Deana Brown and Rebecca\u00a0E. Grinter. 2016. Designing for Transient Use: A Human-in-the-Loop Translation Platform for Refugees. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 321\u2013330. https://doi.org/10.1145/2858036.2858230",
+      "doi": "10.1145/2858036.2858230"
+    },
+    {
+      "text": "Moira Burke, Robert Kraut, and Cameron Marlow. 2011. Social Capital on Facebook: Differentiating Uses and Users. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vancouver, BC, Canada) (CHI \u201911). Association for Computing Machinery, New York, NY, USA, 571\u2013580. https://doi.org/10.1145/1978942.1979023",
+      "doi": "10.1145/1978942.1979023"
+    },
+    {
+      "text": "Pew\u00a0Research Center. Published: April 21, 2021. Accessed: September 1, 2022. One-third of Asian Americans fear threats, physical attacks and most say violence against them is rising. https://www.pewresearch.org/fact-tank/2021/04/21/one-third-of-asian-americans-fear-threats-physical-attacks-and-most-say-violence-against-them-is-rising/",
+      "doi": ""
+    },
+    {
+      "text": "Pew\u00a0Research Center. Published: April 7, 2021. Accessed: March 15, 2022. Internet/Broadband Fact Sheet. https://www.pewresearch.org/internet/fact-sheet/internet-broadband/",
+      "doi": ""
+    },
+    {
+      "text": "Priyank Chandra. 2021. Piracy and the Impaired Cyborg: Assistive Technologies, Accessibility, and Access. Proceedings of the ACM on Human-Computer Interaction 4, CSCW3(2021), 1\u201321.",
+      "doi": "10.1145/3432941"
+    },
+    {
+      "text": "Nikos\u00a0LD Chatzisarantis and Martin\u00a0S Hagger. 2005. Effects of a brief intervention based on the theory of planned behavior on leisure-time physical activity participation. Journal of Sport and Exercise Psychology 27, 4 (2005), 470\u2013487.",
+      "doi": ""
+    },
+    {
+      "text": "Beenish\u00a0Moalla Chaudhry, Dipanwita Dasgupta, and Nitesh Chawla. 2022. Formative Evaluation of a Tablet Application to Support Goal-Oriented Care in Community-Dwelling Older Adults. Proc. ACM Hum.-Comput. Interact. 6, MHCI, Article 208 (sep 2022), 21\u00a0pages. https://doi.org/10.1145/3546743",
+      "doi": "10.1145/3546743"
+    },
+    {
+      "text": "Bagele Chilisa. 2019. Indigenous research methodologies. Sage publications, Thousand Oaks California.",
+      "doi": ""
+    },
+    {
+      "text": "Mohamed-Amine Choukou, Diana\u00a0C Sanchez-Ramirez, Margriet Pol, Mohy Uddin, Caroline Monnin, and Shabbir Syed-Abdul. 2022. COVID-19 infodemic and digital health literacy in vulnerable populations: A scoping review. Digital Health 8(2022), 20552076221076927.",
+      "doi": ""
+    },
+    {
+      "text": "Rachel Clarke, Peter Wright, Madeline Balaam, and John McCarthy. 2013. Digital Portraits: Photo-Sharing after Domestic Violence. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). Association for Computing Machinery, New York, NY, USA, 2517\u20132526. https://doi.org/10.1145/2470654.2481348",
+      "doi": "10.1145/2470654.2481348"
+    },
+    {
+      "text": "Raymundo Cornejo, Robin Brewer, Caroline Edasis, and Anne\u00a0Marie Piper. 2016. Vulnerability, Sharing, and Privacy: Analyzing Art Therapy for Older Adults with Dementia. In Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing (San Francisco, California, USA) (CSCW \u201916). Association for Computing Machinery, New York, NY, USA, 1572\u20131583. https://doi.org/10.1145/2818048.2819960",
+      "doi": "10.1145/2818048.2819960"
+    },
+    {
+      "text": "Sasha Costanza-Chock. 2020. Design justice: Community-led practices to build the worlds we need. The MIT Press, Cambridge Massachesetts, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Rowena Cullen. 2001. Addressing the digital divide. Online Information Review 25, 5 (2001), 311\u2013320. https://doi.org/10.1108/14684520110410517",
+      "doi": ""
+    },
+    {
+      "text": "Tom De\u00a0Leyn, Ralf De\u00a0Wolf, Mariek\u00a0Vanden Abeele, and Lieven De\u00a0Marez. 2019. Reframing Current Debates on Young People\u2019s Online Privacy by Taking into Account the Cultural Construction of Youth. In Proceedings of the 10th International Conference on Social Media and Society (Toronto, ON, Canada) (SMSociety \u201919). Association for Computing Machinery, New York, NY, USA, 174\u2013183. https://doi.org/10.1145/3328529.3328558",
+      "doi": "10.1145/3328529.3328558"
+    },
+    {
+      "text": "Tawanna\u00a0R. Dillahunt. 2014. Fostering Social Capital in Economically Distressed Communities. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 531\u2013540. https://doi.org/10.1145/2556288.2557123",
+      "doi": "10.1145/2556288.2557123"
+    },
+    {
+      "text": "Tawanna\u00a0R. Dillahunt, Nishan Bose, Suleman Diwan, and Asha Chen-Phang. 2016. Designing for Disadvantaged Job Seekers: Insights from Early Investigations. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems (Brisbane, QLD, Australia) (DIS \u201916). Association for Computing Machinery, New York, NY, USA, 905\u2013910. https://doi.org/10.1145/2901790.2901865",
+      "doi": "10.1145/2901790.2901865"
+    },
+    {
+      "text": "Tawanna\u00a0R. Dillahunt and Joey Chiao-Yin Hsiao. 2020. Positive Feedback and Self-Reflection: Features to Support Self-Efficacy among Underrepresented Job Seekers. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376717",
+      "doi": "10.1145/3313831.3376717"
+    },
+    {
+      "text": "Tawanna\u00a0R. Dillahunt, Vaishnav Kameswaran, Desiree McLain, Minnie Lester, Delores Orr, and Kentaro Toyama. 2018. Entrepreneurship and the Socio-Technical Chasm in a Lean Economy. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3173574.3173814",
+      "doi": "10.1145/3173574.3173814"
+    },
+    {
+      "text": "Tawanna\u00a0R. Dillahunt and Alex Lu. 2019. DreamGigs: Designing a Tool to Empower Low-Resource Job Seekers. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300808",
+      "doi": "10.1145/3290605.3300808"
+    },
+    {
+      "text": "Tawanna\u00a0R Dillahunt, Alex\u00a0Jiahong Lu, Aarti Israni, Ruchita Lodha, Savana Brewer, Tiera\u00a0S Robinson, Angela\u00a0Brown Wilson, and Earnest Wheeler. 2022. The Village: Infrastructuring Community-Based Mentoring to Support Adults Experiencing Poverty. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 574, 17\u00a0pages. https://doi.org/10.1145/3491102.3501949",
+      "doi": "10.1145/3491102.3501949"
+    },
+    {
+      "text": "Tawanna\u00a0R. Dillahunt and Amelia\u00a0R. Malone. 2015. The Promise of the Sharing Economy among Disadvantaged Communities. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 2285\u20132294. https://doi.org/10.1145/2702123.2702189",
+      "doi": "10.1145/2702123.2702189"
+    },
+    {
+      "text": "Emma Dixon and Amanda Lazar. 2020. Approach Matters: Linking Practitioner Approaches to Technology Design for People with Dementia. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3313831.3376432",
+      "doi": "10.1145/3313831.3376432"
+    },
+    {
+      "text": "Paul Dourish, Christopher Lawrence, Tuck\u00a0Wah Leong, and Greg Wadley. 2020. On Being Iterated: The Affective Demands of Design Participation. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3313831.3376545",
+      "doi": "10.1145/3313831.3376545"
+    },
+    {
+      "text": "Ana Maria\u00a0Bustamante Duarte, Nina Brendel, Auriol Degbelo, and Christian Kray. 2018. Participatory design and participatory research: An HCI case study with young forced migrants. ACM Transactions on Computer-Human Interaction (TOCHI) 25, 1(2018), 1\u201339.",
+      "doi": "10.1145/3145472"
+    },
+    {
+      "text": "Catherine D\u2019Ignazio. 2019. Four Tensions Between HCI Research, Social Justice Aspirations, and Grassroots Politics. In CSCW \u201819 Workshop on Design and the Politics of Collaboration. ACM New York, NY, USA, ustin, TX, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Carrie\u00a0Demmans Epp, Cosmin Munteanu, Benett Axtell, Keerthika Ravinthiran, Yomna Aly, and Elman Mansimov. 2017. Finger Tracking: Facilitating Non-Commercial Content Production for Mobile e-Reading Applications. In Proceedings of the 19th International Conference on Human-Computer Interaction with Mobile Devices and Services (Vienna, Austria) (MobileHCI \u201917). Association for Computing Machinery, New York, NY, USA, Article 34, 15\u00a0pages. https://doi.org/10.1145/3098279.3098556",
+      "doi": "10.1145/3098279.3098556"
+    },
+    {
+      "text": "Sheena Erete, Aarti Israni, and Tawanna Dillahunt. 2018. An intersectional approach to designing in the margins. Interactions 25, 3 (2018), 66\u201369.",
+      "doi": "10.1145/3194349"
+    },
+    {
+      "text": "Sheena Erete, Yolanda\u00a0A. Rankin, and Jakita\u00a0O. Thomas. 2021. I Can\u2019t Breathe: Reflections from Black Women in CSCW and HCI. Proc. ACM Hum.-Comput. Interact. 4, CSCW3, Article 234 (jan 2021), 23\u00a0pages. https://doi.org/10.1145/3432933",
+      "doi": "10.1145/3432933"
+    },
+    {
+      "text": "Bonnie\u00a0H Erickson. 1996. Culture, class, and connections. American journal of Sociology 102, 1 (1996), 217\u2013251.",
+      "doi": ""
+    },
+    {
+      "text": "Juan F.\u00a0Maestre, Tawanna Dillahunt, Alec Andrew\u00a0Theisz, Megan Furness, Vaishnav Kameswaran, Tiffany Veinot, and Patrick C.\u00a0Shih. 2021. Examining Mobility Among People Living with HIV in Rural Areas. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 201, 17\u00a0pages. https://doi.org/10.1145/3411764.3445086",
+      "doi": "10.1145/3411764.3445086"
+    },
+    {
+      "text": "Lisa Fitzpatrick. 2019. Underserved Populations Have Access To Technology- Why Is No One Investing in Them?https://www.forbes.com/sites/lisafitzpatrick/2019/11/01/underserved-populations-have-access-to-technologywhy-is-no-one-investing-in-them/?sh=4a2b593a37ea",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Ford, Peta Wyeth, and Daniel Johnson. 2012. Self-Determination Theory as Applied to the Design of a Software Learning System Using Whole-Body Controls. In Proceedings of the 24th Australian Computer-Human Interaction Conference (Melbourne, Australia) (OzCHI \u201912). Association for Computing Machinery, New York, NY, USA, 146\u2013149. https://doi.org/10.1145/2414536.2414562",
+      "doi": "10.1145/2414536.2414562"
+    },
+    {
+      "text": "Batya Friedman, Peter\u00a0H Kahn, Alan Borning, and Alina Huldtgren. 2013. Value sensitive design and information systems. In Early engagement and new technologies: Opening up the laboratory. Springer, Dordrecht, Netherlands, 55\u201395.",
+      "doi": ""
+    },
+    {
+      "text": "Alisa Frik, Juliann Kim, Joshua\u00a0Rafael Sanchez, and Joanne Ma. 2022. Users\u2019 Expectations About and Use of Smartphone Privacy and Security Settings. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 407, 24\u00a0pages. https://doi.org/10.1145/3491102.3517504",
+      "doi": "10.1145/3491102.3517504"
+    },
+    {
+      "text": "Hernan Galperin, Fran\u00e7ois Bar, and Hoan Nguyen. 2021. The power divide: mobile communication in Los Angeles\u2019 skid row. Mobile Media & Communication 9, 1 (2021), 30\u201350.",
+      "doi": ""
+    },
+    {
+      "text": "Ricardo Gomez, Ivette Bayo, Philip\u00a0J. Reed, Cong Wang, and Marisol Silva. 2013. Fearless Cards: Addressing Emotional Barriers to Computer Learning among Extremely Marginalized Populations. In CHI \u201913 Extended Abstracts on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 631\u2013636. https://doi.org/10.1145/2468356.2468468",
+      "doi": "10.1145/2468356.2468468"
+    },
+    {
+      "text": "Nancy\u00a0P Gordon and Mark\u00a0C Hornbrook. 2018. Older adults\u2019 readiness to engage with eHealth patient education and self-care resources: A cross-sectional survey. BMC health services research 18, 1 (2018), 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Liang Gou, Michelle\u00a0X. Zhou, and Huahai Yang. 2014. KnowMe and ShareMe: Understanding Automatically Discovered Personality Traits from Social Media and User Sharing Preferences. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 955\u2013964. https://doi.org/10.1145/2556288.2557398",
+      "doi": "10.1145/2556288.2557398"
+    },
+    {
+      "text": "World\u00a0Bank Group. Published: January 13, 2016.. Harnessing the Internet for Development. https://www.worldbank.org/en/topic/digitaldevelopment/brief/harnessing-the-internet-for-development",
+      "doi": ""
+    },
+    {
+      "text": "Nora Gustavsson and Ann MacEachron. 2015. Positive Youth Development and foster care youth: A digital perspective. Journal of Human Behavior in the Social Environment 25, 5(2015), 407\u2013415.",
+      "doi": ""
+    },
+    {
+      "text": "Oliver\u00a0L Haimson, Justin Buss, Zu Weinger, Denny\u00a0L Starks, Dykee Gorrell, and Briar\u00a0Sweetbriar Baron. 2020. Trans Time: Safety, Privacy, and Content Warnings on a Transgender-Specific Social Media Site. Proceedings of the ACM on Human-Computer Interaction 4, CSCW2(2020), 1\u201327.",
+      "doi": "10.1145/3415195"
+    },
+    {
+      "text": "David Halpern. 2005. Social capital. Polity, Wiley.",
+      "doi": ""
+    },
+    {
+      "text": "SM\u00a0Taiabul Haque, Pratyasha Saha, Muhammad\u00a0Sajidur Rahman, and Syed\u00a0Ishtiaque Ahmed. 2019. Of Ulti,\u2019hajano\u2019, and\"\" Matachetar otanetak datam\"\" Exploring Local Practices of Exchanging Confidential and Sensitive Information in Urban Bangladesh. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Christina Harrington and Tawanna\u00a0R Dillahunt. 2021. Eliciting Tech Futures Among Black Young Adults: A Case Study of Remote Speculative Co-Design. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 397, 15\u00a0pages. https://doi.org/10.1145/3411764.3445723",
+      "doi": "10.1145/3411764.3445723"
+    },
+    {
+      "text": "Christina Harrington, Sheena Erete, and Anne\u00a0Marie Piper. 2019. Deconstructing community-based collaborative design: Towards more equitable participatory design engagements. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201325.",
+      "doi": "10.1145/3359318"
+    },
+    {
+      "text": "Christina Harrington, Aqueasha Martin-Hammond, and Kirsten\u00a0E Bray. 2022. Examining Identity as a Variable of Health Technology Research for Older Adults: A Systematic Review. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 265, 24\u00a0pages. https://doi.org/10.1145/3491102.3517621",
+      "doi": "10.1145/3491102.3517621"
+    },
+    {
+      "text": "Christina\u00a0N Harrington. 2020. The forgotten margins: what is community-based participatory health design telling us?Interactions 27, 3 (2020), 24\u201329.",
+      "doi": "10.1145/3386381"
+    },
+    {
+      "text": "Christina\u00a0N. Harrington, Katya Borgos-Rodriguez, and Anne\u00a0Marie Piper. 2019. Engaging Low-Income African American Older Adults in Health Discussions through Community-Based Design Workshops. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3290605.3300823",
+      "doi": "10.1145/3290605.3300823"
+    },
+    {
+      "text": "Christina\u00a0N Harrington, Brittany Johnson, Denae Ford, and Angela\u00a0DR Smith. 2021. Designing for the black experience. Interactions 28, 5 (2021), 22\u201327.",
+      "doi": "10.1145/3477095"
+    },
+    {
+      "text": "Christina\u00a0N. Harrington, Shamika Klassen, and Yolanda\u00a0A. Rankin. 2022. \u201cAll That You Touch, You Change\u201d: Expanding the Canon of Speculative Design Towards Black Futuring. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 450, 10\u00a0pages. https://doi.org/10.1145/3491102.3502118",
+      "doi": "10.1145/3491102.3502118"
+    },
+    {
+      "text": "Christina\u00a0N. Harrington and Anne\u00a0Marie Piper. 2018. Informing Design through Sociocultural Values: Co-Creation with Low-Income African-American Older Adults. In Proceedings of the 12th EAI International Conference on Pervasive Computing Technologies for Healthcare (New York, NY, USA) (PervasiveHealth \u201918). Association for Computing Machinery, New York, NY, USA, 294\u2013298. https://doi.org/10.1145/3240925.3240966",
+      "doi": "10.1145/3240925.3240966"
+    },
+    {
+      "text": "Taylor Harris, Sonya Gabrielian, Brian Ilagan, Megan\u00a0K Olsen, and Michael\u00a0F Green. 2022. Acceptability of a mobile sensing application to characterize community integration among homeless-experienced veterans. Journal of Community Psychology 51, 1 (2022), 7\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Sharon Heung, Mahika Phutane, Shiri Azenkot, Megh Marathe, and Aditya Vashistha. 2022. Nothing Micro About It: Examining Ableist Microaggressions on Social Media. In Proceedings of the 24th International ACM SIGACCESS Conference on Computers and Accessibility (Athens, Greece) (ASSETS \u201922). Association for Computing Machinery, New York, NY, USA, Article 27, 14\u00a0pages. https://doi.org/10.1145/3517428.3544801",
+      "doi": "10.1145/3517428.3544801"
+    },
+    {
+      "text": "Tad Hirsch and Jeremy Liu. 2004. Speakeasy: Overcoming Barriers and Promoting Community Development in an Immigrant Neighborhood. In Proceedings of the 5th Conference on Designing Interactive Systems: Processes, Practices, Methods, and Techniques(Cambridge, MA, USA) (DIS \u201904). Association for Computing Machinery, New York, NY, USA, 345\u2013348. https://doi.org/10.1145/1013115.1013176",
+      "doi": "10.1145/1013115.1013176"
+    },
+    {
+      "text": "Noura Howell, Audrey Desjardins, and Sarah Fox. 2021. Cracks in the success narrative: Rethinking failure in design research through a retrospective trioethnography. ACM Transactions on Computer-Human Interaction (TOCHI) 28, 6(2021), 1\u201331.",
+      "doi": "10.1145/3462447"
+    },
+    {
+      "text": "Julie Hui, Nefer\u00a0Ra Barber, Wendy Casey, Suzanne Cleage, Danny\u00a0C. Dolley, Frances Worthy, Kentaro Toyama, and Tawanna\u00a0R. Dillahunt. 2020. Community Collectives: Low-Tech Social Support for Digitally-Engaged Entrepreneurship. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3313831.3376363",
+      "doi": "10.1145/3313831.3376363"
+    },
+    {
+      "text": "Julie Hui, Kentaro Toyama, Joyojeet Pal, and Tawanna Dillahunt. 2018. Making a Living My Way: Necessity-Driven Entrepreneurship in Resource-Constrained Communities. Proc. ACM Hum.-Comput. Interact. 2, CSCW, Article 71 (nov 2018), 24\u00a0pages. https://doi.org/10.1145/3274340",
+      "doi": "10.1145/3274340"
+    },
+    {
+      "text": "Ajzen Icek. 1985. From Intentions to Actions: A Theory of Planned Behavior. Springer Berlin Heidelberg, Berlin, Heidelberg, 11\u201339. https://doi.org/10.1007/978-3-642-69746-3_2",
+      "doi": ""
+    },
+    {
+      "text": "Farnaz Irannejad\u00a0Bisafar, Aditya Ponnada, Ameneh Shamekhi, and Andrea\u00a0G Parker. 2017. A sociotechnical study of a community-based rewards program: Insights on building social, financial and human capital. Proceedings of the ACM on Human-Computer Interaction 1, CSCW(2017), 1\u201321.",
+      "doi": "10.1145/3134690"
+    },
+    {
+      "text": "Azra Ismail and Neha Kumar. 2019. Empowerment on the Margins: The Online Experiences of Community Health Workers. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3290605.3300329",
+      "doi": "10.1145/3290605.3300329"
+    },
+    {
+      "text": "Arne Jansen, Maarten Van\u00a0Mechelen, and Karin Slegers. 2017. Personas and Behavioral Theories: A Case Study Using Self-Determination Theory to Construct Overweight Personas. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 2127\u20132136. https://doi.org/10.1145/3025453.3026003",
+      "doi": "10.1145/3025453.3026003"
+    },
+    {
+      "text": "Jasmine Jones and Joyojeet Pal. 2015. Counteracting Dampeners: Understanding Technology-Amplified Capabilities of People with Disabilities in Sierra Leone. In Proceedings of the Seventh International Conference on Information and Communication Technologies and Development(Singapore, Singapore) (ICTD \u201915). Association for Computing Machinery, New York, NY, USA, Article 6, 10\u00a0pages. https://doi.org/10.1145/2737856.2738025",
+      "doi": "10.1145/2737856.2738025"
+    },
+    {
+      "text": "Suhas\u00a0Govind Joshi and Tone Bratteteig. 2016. Designing for prolonged mastery. On involving old people in participatory design. Scandinavian Journal of Information Systems 28, 1 (2016), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Naveena Karusala, Isaac Holeman, and Richard Anderson. 2019. Engaging identity, assets, and constraints in designing for resilience. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201323.",
+      "doi": "10.1145/3359315"
+    },
+    {
+      "text": "Bart\u00a0P. Knijnenburg, Saadhika Sivakumar, and Daricia Wilkinson. 2016. Recommender Systems for Self-Actualization. In Proceedings of the 10th ACM Conference on Recommender Systems (Boston, Massachusetts, USA) (RecSys \u201916). Association for Computing Machinery, New York, NY, USA, 11\u201314. https://doi.org/10.1145/2959100.2959189",
+      "doi": "10.1145/2959100.2959189"
+    },
+    {
+      "text": "Yasmine Kotturi, Herman\u00a0T Johnson, Michael Skirpan, Sarah\u00a0E Fox, Jeffrey\u00a0P Bigham, and Amy Pavel. 2022. Tech Help Desk: Support for Local Entrepreneurs Addressing the Long Tail of Computing Challenges. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 15, 15\u00a0pages. https://doi.org/10.1145/3491102.3517708",
+      "doi": "10.1145/3491102.3517708"
+    },
+    {
+      "text": "Robin\u00a0M Kowalski and Cristin Fedina. 2011. Cyber bullying in ADHD and Asperger Syndrome populations. Research in Autism Spectrum Disorders 5, 3 (2011), 1201\u20131208.",
+      "doi": ""
+    },
+    {
+      "text": "Rodrigo Laiola Guimar\u00e3es, Andrea\u00a0Britto Mattos, and Carlos\u00a0Henrique Cardonha. 2016. Investigating Instructional Pacing Supports for Teaching Students with Intellectual Disability. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (San Jose, California, USA) (CHI EA \u201916). Association for Computing Machinery, New York, NY, USA, 2171\u20132177. https://doi.org/10.1145/2851581.2892342",
+      "doi": "10.1145/2851581.2892342"
+    },
+    {
+      "text": "Reeva Lederman, John Gleeson, Greg Wadley, Simon D\u2019alfonso, Simon Rice, Olga Santesteban-Echarri, and Mario Alvarez-Jimenez. 2019. Support for Carers of Young People with Mental Illness: Design and Trial of a Technology-Mediated Therapy. ACM Trans. Comput.-Hum. Interact. 26, 1, Article 4 (feb 2019), 33\u00a0pages. https://doi.org/10.1145/3301421",
+      "doi": "10.1145/3301421"
+    },
+    {
+      "text": "Kung\u00a0Jin Lee, Wendy Roldan, Tian\u00a0Qi Zhu, Harkiran Kaur\u00a0Saluja, Sungmin Na, Britnie Chin, Yilin Zeng, Jin\u00a0Ha Lee, and Jason Yip. 2021. The Show Must Go On: A Conceptual Model of Conducting Synchronous Participatory Design With Children Online. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 345, 16\u00a0pages. https://doi.org/10.1145/3411764.3445715",
+      "doi": "10.1145/3411764.3445715"
+    },
+    {
+      "text": "Azi Lev-On, Nili Steinfeld, Hama Abu-Kishk, and Sigal\u00a0Pearl Naim. 2020. The long-term effects of digital literacy programs for disadvantaged populations: analyzing participants\u2019 perceptions. Journal of Information, Communication and Ethics in Society 19, 1(2020), 146\u2013162.",
+      "doi": ""
+    },
+    {
+      "text": "Calvin\u00a0A Liang, Sean\u00a0A Munson, and Julie\u00a0A Kientz. 2021. Embracing four tensions in human-computer interaction research with marginalized people. ACM Transactions on Computer-Human Interaction (TOCHI) 28, 2(2021), 1\u201347.",
+      "doi": "10.1145/3443686"
+    },
+    {
+      "text": "Ji Liu. 2021. Bridging digital divide amidst educational change for socially inclusive learning during the COVID-19 pandemic. Sage Open 11, 4 (2021), 21582440211060810.",
+      "doi": ""
+    },
+    {
+      "text": "Sonia Livingstone. 2013. Online risk, harm and vulnerability: Reflections on the evidence base for child Internet safety policy. ZER: Journal of Communication Studies 18, 35 (2013), 13\u201328.",
+      "doi": ""
+    },
+    {
+      "text": "Lian Loke, Aaron Blishen, Carl Gray, and Naseem Ahmadpour. 2021. Safety, Connection and Reflection: Designing with Therapists for Children with Serious Emotional Behaviour Issues. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 162, 17\u00a0pages. https://doi.org/10.1145/3411764.3445178",
+      "doi": "10.1145/3411764.3445178"
+    },
+    {
+      "text": "Ines Lopez-Ercilla, Maria\u00a0Jose Espinosa-Romero, Francisco J\u00a0Fernandez Rivera-Melo, Stuart Fulton, Rebeca Fern\u00e1ndez, Jorge Torre, Araceli Acevedo-Rosas, Arturo\u00a0J Hern\u00e1ndez-Velasco, and Imelda Amador. 2021. The voice of Mexican small-scale fishers in times of COVID-19: Impacts, responses, and digital divide. Marine Policy 131(2021), 104606.",
+      "doi": ""
+    },
+    {
+      "text": "Kira Lussier. 2019. Of Maslow, motives, and managers: The hierarchy of needs in American business, 1960\u20131985. Journal of the History of the Behavioral Sciences 55, 4 (2019), 319\u2013341.",
+      "doi": ""
+    },
+    {
+      "text": "Kirsty Macmillan, Tessa Berg, Mike Just, and Mary Stewart. 2020. Are Autistic Children More Vulnerable Online? Relating Autism to Online Safety, Child Wellbeing and Parental Risk Management. In Proceedings of the 11th Nordic Conference on Human-Computer Interaction: Shaping Experiences, Shaping Society (Tallinn, Estonia) (NordiCHI \u201920). Association for Computing Machinery, New York, NY, USA, Article 14, 11\u00a0pages. https://doi.org/10.1145/3419249.3420160",
+      "doi": "10.1145/3419249.3420160"
+    },
+    {
+      "text": "Kevin Marshall, Anja Thieme, Jayne Wallace, John Vines, Gavin Wood, and Madeline Balaam. 2014. Making Wellbeing: A Process of User-Centered Design. In Proceedings of the 2014 Conference on Designing Interactive Systems (Vancouver, BC, Canada) (DIS \u201914). Association for Computing Machinery, New York, NY, USA, 755\u2013764. https://doi.org/10.1145/2598510.2600888",
+      "doi": "10.1145/2598510.2600888"
+    },
+    {
+      "text": "Abraham\u00a0Harold Maslow. 1943. A theory of human motivation.Psychological review 50, 4 (1943), 370.",
+      "doi": ""
+    },
+    {
+      "text": "Catriona Matheson, Lesley Bon, Louise Bowman, Adrienne Hannah, and Katy MacLeod. 2022. Vulnerability, risk and harm for people who use drugs and are engaged in transactional sex: learning for service delivery. International journal of environmental research and public health 19, 3(2022), 1840.",
+      "doi": ""
+    },
+    {
+      "text": "Akhila Mathur. 2013. Augmented Virtual Identities: Facilitating Rehabilitation and Societal Reconnect. In Proceedings of the 2013 Conference on Computer Supported Cooperative Work Companion (San Antonio, Texas, USA) (CSCW \u201913). Association for Computing Machinery, New York, NY, USA, 219\u2013224. https://doi.org/10.1145/2441955.2442009",
+      "doi": "10.1145/2441955.2442009"
+    },
+    {
+      "text": "Rachel\u00a0F McCloud, Cassandra\u00a0A Okechukwu, Glorian Sorensen, and K Viswanath. 2016. Beyond access: barriers to internet health information seeking among the urban poor. Journal of the American Medical Informatics Association 23, 6(2016), 1053\u20131059.",
+      "doi": ""
+    },
+    {
+      "text": "Nora McDonald, Karla Badillo-Urquiola, Morgan\u00a0G. Ames, Nicola Dell, Elizabeth Keneski, Manya Sleeper, and Pamela\u00a0J. Wisniewski. 2020. Privacy and Power: Acknowledging the Importance of Privacy Research and Design for Vulnerable Populations. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI EA \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3334480.3375174",
+      "doi": "10.1145/3334480.3375174"
+    },
+    {
+      "text": "Nora McDonald and Andrea Forte. 2022. Privacy and Vulnerable Populations. In Modern Socio-Technical Perspectives on Privacy. Springer, Cham, 337\u2013363.",
+      "doi": ""
+    },
+    {
+      "text": "Nora McDonald and Helena\u00a0M. Mentis. 2021. Building for \u2018We\u2019: Safety Settings for Couples with Memory Concerns. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 554, 11\u00a0pages. https://doi.org/10.1145/3411764.3445071",
+      "doi": "10.1145/3411764.3445071"
+    },
+    {
+      "text": "Nora Mcdonald and Helena\u00a0M Mentis. 2021. \u201cCitizens Too\u201d: Safety Setting Collaboration Among Older Adults with Memory Concerns. ACM Transactions on Computer-Human Interaction (TOCHI) 28, 5(2021), 1\u201332.",
+      "doi": "10.1145/3465217"
+    },
+    {
+      "text": "Saul McLeod. 2007. Maslow\u2019s hierarchy of needs. Simply psychology 1(2007), 1\u201318.",
+      "doi": ""
+    },
+    {
+      "text": "David Mechanic and Jennifer Tanner. 2007. Vulnerable people, groups, and populations: societal view. Health Affairs 26, 5 (2007), 1220\u20131230.",
+      "doi": ""
+    },
+    {
+      "text": "Tamir Mendel, Debin Gao, David Lo, and Eran Toch. 2021. An Exploratory Study of Social Support Systems to Help Older Adults in Managing Mobile Safety. In Proceedings of the 23rd International Conference on Mobile Human-Computer Interaction (Toulouse & Virtual, France) (MobileHCI \u201921). Association for Computing Machinery, New York, NY, USA, Article 30, 13\u00a0pages. https://doi.org/10.1145/3447526.3472047",
+      "doi": "10.1145/3447526.3472047"
+    },
+    {
+      "text": "Danae Metaxa-Kakavouli, Paige Maas, and Daniel\u00a0P Aldrich. 2018. How social ties influence hurricane evacuation behavior. Proceedings of the ACM on human-computer interaction 2, CSCW(2018), 1\u201316.",
+      "doi": "10.1145/3274391"
+    },
+    {
+      "text": "Karen\u00a0L Milheim. 2012. Towards a better experience: Examining student needs in the online classroom through Maslow\u2019s hierarchy of needs model. Journal of online learning and teaching 8, 2 (2012), 159.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0P Miller\u00a0Jr, Kathryn\u00a0E Weaver, L\u00a0Doug Case, Donald Babcock, Donna Lawler, Nancy Denizard-Thompson, Michael\u00a0P Pignone, and John\u00a0G Spangler. 2017. Usability of a novel mobile health iPad app by vulnerable populations. JMIR mHealth and uHealth 5, 4 (2017), e7268.",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0K Moule\u00a0Jr, David\u00a0C Pyrooz, and Scott\u00a0H Decker. 2013. From \u2018What the F#@% is a Facebook?\u2019 to \u2018Who Doesn\u2019t Use Facebook?\u2019: The role of criminal lifestyles in the adoption and use of the Internet. Social Science Research 42, 6 (2013), 1411\u20131421.",
+      "doi": ""
+    },
+    {
+      "text": "Lu\u00e3\u00a0Marcelo Muriana and Maria Cecilia\u00a0Calani Baranauskas. 2021. Technological Influence on Self-esteem: Towards a Research Agenda Through a Systematic Literature Review. In International Conference on Human-Computer Interaction. Springer, Cham, 451\u2013471.",
+      "doi": "10.1007/978-3-030-78462-1_35"
+    },
+    {
+      "text": "Tyler Musgrave, Alia Cummings, and Sarita Schoenebeck. 2022. Experiences of Harm, Healing, and Joy among Black Women and Femmes on Social Media. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 240, 17\u00a0pages. https://doi.org/10.1145/3491102.3517608",
+      "doi": "10.1145/3491102.3517608"
+    },
+    {
+      "text": "Moses Namara, Daricia Wilkinson, Byron\u00a0M. Lowens, Bart\u00a0P. Knijnenburg, Rita Orji, and Remy\u00a0L. Sekou. 2018. Cross-Cultural Perspectives on EHealth Privacy in Africa. In Proceedings of the Second African Conference for Human Computer Interaction: Thriving Communities (Windhoek, Namibia) (AfriCHI \u201918). Association for Computing Machinery, New York, NY, USA, Article 7, 11\u00a0pages. https://doi.org/10.1145/3283458.3283472",
+      "doi": "10.1145/3283458.3283472"
+    },
+    {
+      "text": "Sheza Naveed, Hamza Naveed, Mobin Javed, and Maryam Mustafa. 2022. \u201dAsk This from the Person Who Has Private Stuff\u201d: Privacy Perceptions, Behaviours and Beliefs Beyond W.E.I.R.D. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 105, 17\u00a0pages. https://doi.org/10.1145/3491102.3501883",
+      "doi": "10.1145/3491102.3501883"
+    },
+    {
+      "text": "Prema\u00a0P Nedungadi, Rajani Menon, Georg Gutjahr, Lynnea Erickson, and Raghu Raman. 2018. Towards an inclusive digital literacy framework for digital India. Education+ Training 60, 6 (2018), 516\u2013528.",
+      "doi": ""
+    },
+    {
+      "text": "David Nemer. 2018. Wired mobile phones: the case of community technology centers in favelas of Brazil. Information Technology for Development 24, 3 (2018), 461\u2013481.",
+      "doi": ""
+    },
+    {
+      "text": "Irene\u00a0YH Ng, Sun\u00a0Sun Lim, and Natalie Pang. 2022. Making universal digital access universal: lessons from COVID-19 in Singapore. Universal Access in the Information Society(2022), 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Wan Ng. 2012. Can we teach digital natives digital literacy?Computers & education 59, 3 (2012), 1065\u20131078.",
+      "doi": ""
+    },
+    {
+      "text": "James Nicholson, Lynne Coventry, and Pamela Briggs. 2019. \"If It\u2019s Important It Will Be A Headline\": Cybersecurity Information Seeking in Older Adults. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3290605.3300579",
+      "doi": "10.1145/3290605.3300579"
+    },
+    {
+      "text": "Amity Noltemeyer, Kevin Bush, Jon Patton, and Doris Bergen. 2012. The relationship among deficiency needs and growth needs: An empirical investigation of Maslow\u2019s theory. Children and Youth Services Review 34, 9 (2012), 1862\u20131867. https://doi.org/10.1016/j.childyouth.2012.05.021",
+      "doi": ""
+    },
+    {
+      "text": "Novia Nurain, Chia-Fang Chung, Clara Caldeira, and Kay Connelly. 2021. Hugging with a Shower Curtain: Older Adults\u2019 Social Support Realities During the COVID-19 Pandemic. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201331.",
+      "doi": "10.1145/3479607"
+    },
+    {
+      "text": "Ihudiya\u00a0Finda Ogbonnaya-Ogburu, Kentaro Toyama, and Tawanna Dillahunt. 2018. Returning Citizens\u2019 Job Search and Technology Use: Preliminary Findings. In Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing(Jersey City, NJ, USA) (CSCW \u201918). Association for Computing Machinery, New York, NY, USA, 365\u2013368. https://doi.org/10.1145/3272973.3274098",
+      "doi": "10.1145/3272973.3274098"
+    },
+    {
+      "text": "Ihudiya\u00a0Finda Ogbonnaya-Ogburu, Kentaro Toyama, and Tawanna\u00a0R. Dillahunt. 2019. Towards an Effective Digital Literacy Intervention to Assist Returning Citizens with Job Search. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300315",
+      "doi": "10.1145/3290605.3300315"
+    },
+    {
+      "text": "Teresa\u00a0K. O\u2019Leary, Dhaval Parmar, Stefan Olafsson, Michael Paasche-Orlow, Timothy Bickmore, and Andrea\u00a0G Parker. 2022. Community Dynamics in Technospiritual Interventions: Lessons Learned from a Church-Based MHealth Pilot. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 19, 23\u00a0pages. https://doi.org/10.1145/3491102.3517700",
+      "doi": "10.1145/3491102.3517700"
+    },
+    {
+      "text": "Teresa\u00a0K. O\u2019Leary, Elizabeth Stowell, Jessica\u00a0A. Hoffman, Michael Paasche-Orlow, Timothy Bickmore, and Andrea\u00a0G. Parker. 2021. Examining the Intersections of Race, Religion & Community Technologies: A Photovoice Study. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 698, 19\u00a0pages. https://doi.org/10.1145/3411764.3445418",
+      "doi": "10.1145/3411764.3445418"
+    },
+    {
+      "text": "Lisa Orii, Nami Ogawa, Yuji Hatada, and Takuji Narumi. 2022. Designing for Speech Practice Systems: How Do User-Controlled Voice Manipulation and Model Speakers Impact Self-Perceptions of Voice?. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 56, 14\u00a0pages. https://doi.org/10.1145/3491102.3502093",
+      "doi": "10.1145/3491102.3502093"
+    },
+    {
+      "text": "Sharon Oviatt. 2021. Technology as Infrastructure for Dehumanization: Three Hundred Million People with the Same Face. In Proceedings of the 2021 International Conference on Multimodal Interaction (Montr\u00e9al, QC, Canada) (ICMI \u201921). Association for Computing Machinery, New York, NY, USA, 278\u2013287. https://doi.org/10.1145/3462244.3482855",
+      "doi": "10.1145/3462244.3482855"
+    },
+    {
+      "text": "Jeni Paay, Heidi Nielsen, Helle Larsen, and Jesper Kjeldskov. 2018. Happy Bits: Interactive Technologies Helping Young Adults with Low Self-Esteem. In Proceedings of the 10th Nordic Conference on Human-Computer Interaction (Oslo, Norway) (NordiCHI \u201918). Association for Computing Machinery, New York, NY, USA, 584\u2013596. https://doi.org/10.1145/3240167.3240180",
+      "doi": "10.1145/3240167.3240180"
+    },
+    {
+      "text": "Hyanghee Park, Jodi Forlizzi, and Joonhwan Lee. 2022. Voices of Sexual Assault Survivors: Understanding Survivors\u2019 Experiences of Interactional Breakdowns and Design Ideas for Solutions. In Designing Interactive Systems Conference (Virtual Event, Australia) (DIS \u201922). Association for Computing Machinery, New York, NY, USA, 485\u2013503. https://doi.org/10.1145/3532106.3533509",
+      "doi": "10.1145/3532106.3533509"
+    },
+    {
+      "text": "Joon\u00a0Sung Park, Danielle Bragg, Ece Kamar, and Meredith\u00a0Ringel Morris. 2021. Designing an Online Infrastructure for Collecting AI Data From People With Disabilities. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (Virtual Event, Canada) (FAccT \u201921). Association for Computing Machinery, New York, NY, USA, 52\u201363. https://doi.org/10.1145/3442188.3445870",
+      "doi": "10.1145/3442188.3445870"
+    },
+    {
+      "text": "Lucy Pei and Roderic Crooks. 2020. Attenuated Access: Accounting for Startup, Maintenance, and Affective Costs in Resource-Constrained Communities. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3313831.3376587",
+      "doi": "10.1145/3313831.3376587"
+    },
+    {
+      "text": "Lucy Pei and Bonnie Nardi. 2019. We Did It Right, But It Was Still Wrong: Toward Assets-Based Design. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3290607.3310434",
+      "doi": "10.1145/3290607.3310434"
+    },
+    {
+      "text": "Marta Perez-Escolar and Fernando Canet. 2022. Research on vulnerable people and digital inclusion: toward a consolidated taxonomical framework. Universal Access in the Information Society(2022), 1\u201314. https://doi.org/10.1007/s10209-022-00867-x",
+      "doi": ""
+    },
+    {
+      "text": "Hawra Rabaan and Lynn Dombrowski. 2022. Breaking stereotypes: Islamic feminism and HCI. Interactions 29, 6 (2022), 6\u20137.",
+      "doi": "10.1145/3565256"
+    },
+    {
+      "text": "Robert Racadio, Emma\u00a0J. Rose, and Beth\u00a0E. Kolko. 2014. Research at the Margin: Participatory Design and Community Based Participatory Research. In Proceedings of the 13th Participatory Design Conference: Short Papers, Industry Cases, Workshop Descriptions, Doctoral Consortium Papers, and Keynote Abstracts - Volume 2 (Windhoek, Namibia) (PDC \u201914). Association for Computing Machinery, New York, NY, USA, 49\u201352. https://doi.org/10.1145/2662155.2662188",
+      "doi": "10.1145/2662155.2662188"
+    },
+    {
+      "text": "Yolanda\u00a0A Rankin and Jakita\u00a0O Thomas. 2019. Straighten up and fly right: Rethinking intersectionality in HCI research. Interactions 26, 6 (2019), 64\u201368.",
+      "doi": "10.1145/3363033"
+    },
+    {
+      "text": "Sarah Richard, Daria Plotkina, and H\u00e9l\u00e8ne Saurel. 2022. Exploration of ICT Appropriation by Disabled People and Its Effect on Self-Perceived Normalcy: Insights From France. International Journal of Technology and Human Interaction (IJTHI) 18, 1(2022), 1\u201318.",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0M Ryan and Edward\u00a0L Deci. 2000. Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.American psychologist 55, 1 (2000), 68.",
+      "doi": ""
+    },
+    {
+      "text": "Bushra Sabri, Jyoti Saha, Jennifer Lee, and Sarah Murray. 2022. Conducting Digital Intervention Research among Immigrant Survivors of Intimate Partner Violence: Methodological, Safety and Ethnical Considerations. Journal of Family Violence(2022), 1\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Ofir Sadka, Hadas Erel, Andrey Grishko, and Oren Zuckerman. 2018. Tangible Interaction in Parent-Child Collaboration: Encouraging Awareness and Reflection. In Proceedings of the 17th ACM Conference on Interaction Design and Children (Trondheim, Norway) (IDC \u201918). Association for Computing Machinery, New York, NY, USA, 157\u2013169. https://doi.org/10.1145/3202185.3202746",
+      "doi": "10.1145/3202185.3202746"
+    },
+    {
+      "text": "Herman Saksono, Carmen Castaneda-Sceppa, Jessica Hoffman, Magy Seif El-Nasr, Vivien Morris, and Andrea\u00a0G. Parker. 2019. Social Reflections on Fitness Tracking Data: A Study with Families in Low-SES Neighborhoods. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300543",
+      "doi": "10.1145/3290605.3300543"
+    },
+    {
+      "text": "Herman Saksono, Carmen Castaneda-Sceppa, Jessica\u00a0A. Hoffman, Magy Seif El-Nasr, and Andrea Parker. 2021. StoryMap: Using Social Modeling and Self-Modeling to Support Physical Activity Among Families of Low-SES Backgrounds. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 203, 14\u00a0pages. https://doi.org/10.1145/3411764.3445087",
+      "doi": "10.1145/3411764.3445087"
+    },
+    {
+      "text": "Zachary Schmitt and Svetlana Yarosh. 2018. Participatory design of technologies to support recovery from substance use disorders. Proceedings of the ACM on Human-Computer Interaction 2, CSCW(2018), 1\u201327.",
+      "doi": "10.1145/3274425"
+    },
+    {
+      "text": "Hanna Schneider, Malin Eiband, Daniel Ullrich, and Andreas Butz. 2018. Empowerment in HCI - A Survey and Framework. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3173574.3173818",
+      "doi": "10.1145/3173574.3173818"
+    },
+    {
+      "text": "Hanna Schneider, Kilian Moser, Andreas Butz, and Florian Alt. 2016. Understanding the Mechanics of Persuasive System Design: A Mixed-Method Theory-Driven Analysis of Freeletics. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 309\u2013320. https://doi.org/10.1145/2858036.2858290",
+      "doi": "10.1145/2858036.2858290"
+    },
+    {
+      "text": "Hyunjin Seo, Darcey Altschwager, Baek-young Choi, Sejun Song, Hannah Britton, Megha Ramaswamy, Bernard Schuster, Marilyn Ault, Kaushik Ayinala, Rafida Zaman, 2021. Informal technology education for women transitioning from incarceration. ACM Transactions on Computing Education (TOCE) 21, 2 (2021), 1\u201316.",
+      "doi": "10.1145/3425711"
+    },
+    {
+      "text": "Hyunjin Seo, Matthew Blomberg, Darcey Altschwager, and Hong\u00a0Tien Vu. 2021. Vulnerable populations and misinformation: A mixed-methods approach to underserved older adults\u2019 online information assessment. New Media & Society 23, 7 (2021), 2012\u20132033.",
+      "doi": ""
+    },
+    {
+      "text": "Hyunjin Seo, Joseph Erba, Darcey Altschwager, and Mugur Geana. 2019. Evidence-based digital literacy class for older, low-income African-American adults. Journal of Applied Communication Research 47, 2 (2019), 130\u2013152.",
+      "doi": ""
+    },
+    {
+      "text": "Sumita Sharma, Krishnaveni Achary, Marianne Kinnula, Netta Iivari, and Blessin Varkey. 2020. Gathering Garbage or Going Green? Shifting Social Perspectives to Empower Individuals with Special Needs. In Proceedings of the Interaction Design and Children Conference (London, United Kingdom) (IDC \u201920). Association for Computing Machinery, New York, NY, USA, 311\u2013322. https://doi.org/10.1145/3392063.3394394",
+      "doi": "10.1145/3392063.3394394"
+    },
+    {
+      "text": "KEIBA\u00a0L Shaw. 2015. Patient education, motivation, compliance, and adherence to physical activity, exercise, and rehabilitation. Pathology and intervention in musculoskeletal rehabilitation 3 (2015), 1\u201324.",
+      "doi": ""
+    },
+    {
+      "text": "Imani\u00a0N. Sherman, Jasmine\u00a0D. Bowers, Liz-Laure Laborde, Juan\u00a0E. Gilbert, Jaime Ruiz, and Patrick\u00a0G. Traynor. 2021. Truly Visual Caller ID? An Analysis of Anti- Robocall Applications and their Accessibility to Visually Impaired Users. In Proceedings of the 2020 IEEE International Symposium On Technology And Society (ISTAS)(IEEE International Symposium on Technology and Society). IEEE, New York, NY, USA, 266\u2013279. https://doi.org/10.1109/ISTAS50296.2020.9462185",
+      "doi": "10.1109/ISTAS50296.2020.9462185"
+    },
+    {
+      "text": "Preethi Shivayogi. 2013. Vulnerable population and methods for their safeguard. Perspectives in clinical research 4, 1 (2013), 53.",
+      "doi": ""
+    },
+    {
+      "text": "Jaisie Sin, Rachel L.\u00a0Franz, Cosmin Munteanu, and Barbara Barbosa\u00a0Neves. 2021. Digital Design Marginalization: New Perspectives on Designing Inclusive Interfaces. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 380, 11\u00a0pages. https://doi.org/10.1145/3411764.3445180",
+      "doi": "10.1145/3411764.3445180"
+    },
+    {
+      "text": "Ranjit Singh and Steven\u00a0J. Jackson. 2017. From Margins to Seams: Imbrication, Inclusion, and Torque in the Aadhaar Identification Project. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 4776\u20134824. https://doi.org/10.1145/3025453.3025910",
+      "doi": "10.1145/3025453.3025910"
+    },
+    {
+      "text": "Linda\u00a0Tuhiwai Smith. 2021. Decolonizing methodologies: Research and indigenous peoples (3 ed.). Zed Books, London, England.",
+      "doi": ""
+    },
+    {
+      "text": "Katta Spiel, Eva Hornecker, Rua\u00a0Mae Williams, and Judith Good. 2022. ADHD and Technology Research \u2013 Investigated by Neurodivergent Readers. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 547, 21\u00a0pages. https://doi.org/10.1145/3491102.3517592",
+      "doi": "10.1145/3491102.3517592"
+    },
+    {
+      "text": "Denny\u00a0L. Starks, Tawanna Dillahunt, and Oliver\u00a0L. Haimson. 2019. Designing Technology to Support Safety for Transgender Women & Non-Binary People of Color. In Companion Publication of the 2019 on Designing Interactive Systems Conference 2019 Companion (San Diego, CA, USA) (DIS \u201919 Companion). Association for Computing Machinery, New York, NY, USA, 289\u2013294. https://doi.org/10.1145/3301019.3323898",
+      "doi": "10.1145/3301019.3323898"
+    },
+    {
+      "text": "Elizabeth Stowell, Mercedes\u00a0C. Lyson, Herman Saksono, Rene\u00e9\u00a0C. Wurth, Holly Jimison, Misha Pavel, and Andrea\u00a0G. Parker. 2018. Designing and Evaluating MHealth Interventions for Vulnerable Populations: A Systematic Review. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201317. https://doi.org/10.1145/3173574.3173589",
+      "doi": "10.1145/3173574.3173589"
+    },
+    {
+      "text": "Nurul\u00a0M Suhaimi, Yixuan Zhang, Mary Joseph, Miso Kim, Andrea\u00a0G Parker, and Jacqueline Griffin. 2022. Investigating Older Adults\u2019 Attitudes towards Crisis Informatics Tools: Opportunities for Enhancing Community Resilience during Disasters. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 258, 16\u00a0pages. https://doi.org/10.1145/3491102.3517528",
+      "doi": "10.1145/3491102.3517528"
+    },
+    {
+      "text": "Sharifa Sultana, Ilan Mandel, Shaid Hasan, S.M.\u00a0Raihanul Alam, Khandaker\u00a0Reaz Mahmud, Zinnat Sultana, and Syed\u00a0Ishtiaque Ahmed. 2021. Opaque Obstacles: The Role of Stigma, Rumor, and Superstition in Limiting Women\u2019s Access to Computing in Rural Bangladesh. In ACM SIGCAS Conference on Computing and Sustainable Societies (Virtual Event, Australia) (COMPASS \u201921). Association for Computing Machinery, New York, NY, USA, 243\u2013260. https://doi.org/10.1145/3460112.3471960",
+      "doi": "10.1145/3460112.3471960"
+    },
+    {
+      "text": "Anja Thieme, Rob Comber, Julia Miebach, Jack Weeden, Nicole Kraemer, Shaun Lawson, and Patrick Olivier. 2012. \"We\u2019ve Bin Watching You\": Designing for Reflection and Social Persuasion to Promote Sustainable Lifestyles. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Austin, Texas, USA) (CHI \u201912). Association for Computing Machinery, New York, NY, USA, 2337\u20132346. https://doi.org/10.1145/2207676.2208394",
+      "doi": "10.1145/2207676.2208394"
+    },
+    {
+      "text": "Hannah Thinyane and Karthik\u00a0S. Bhat. 2019. Apprise: Supporting the Critical-Agency of Victims of Human Trafficking in Thailand. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300385",
+      "doi": "10.1145/3290605.3300385"
+    },
+    {
+      "text": "April Tyack and Elisa\u00a0D. Mekler. 2020. Self-Determination Theory in HCI Games Research: Current Uses and Open Questions. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201322. https://doi.org/10.1145/3313831.3376723",
+      "doi": "10.1145/3313831.3376723"
+    },
+    {
+      "text": "April Tyack and Peta Wyeth. 2017. Exploring Relatedness in Single-Player Video Game Play. In Proceedings of the 29th Australian Conference on Computer-Human Interaction (Brisbane, Queensland, Australia) (OZCHI \u201917). Association for Computing Machinery, New York, NY, USA, 422\u2013427. https://doi.org/10.1145/3152771.3156149",
+      "doi": "10.1145/3152771.3156149"
+    },
+    {
+      "text": "Aditya Vashistha and Richard Anderson. 2016. Technology Use and Non-Use by Low-Income Blind People in India. SIGACCESS Access. Comput. 0, 116 (dec 2016), 10\u201321. https://doi.org/10.1145/3023851.3023853",
+      "doi": "10.1145/3023851.3023853"
+    },
+    {
+      "text": "Lisa\u00a0M Vaughn and Farrah Jacquez. 2020. Participatory research methods\u2013Choice points in the research process. Journal of Participatory Research Methods 1, 1 (2020), 13244.",
+      "doi": ""
+    },
+    {
+      "text": "Jessica Vitak, Yuting Liao, Mega Subramaniam, and Priya Kumar. 2018. \u2019I Knew It Was Too Good to Be True\"\" The Challenges Economically Disadvantaged Internet Users Face in Assessing Trustworthiness, Avoiding Scams, and Developing Self-Efficacy Online. Proceedings of the ACM on human-computer interaction 2, CSCW(2018), 1\u201325.",
+      "doi": "10.1145/3274445"
+    },
+    {
+      "text": "Mahmoud\u00a0A Wahba and Lawrence\u00a0G Bridwell. 1976. Maslow reconsidered: A review of research on the need hierarchy theory. Organizational behavior and human performance 15, 2(1976), 212\u2013240.",
+      "doi": ""
+    },
+    {
+      "text": "Ashley\u00a0Marie Walker, Yaxing Yao, Christine Geeng, Roberto Hoyle, and Pamela Wisniewski. 2019. Moving beyond\u2019one size fits all\u2019 research considerations for working with vulnerable populations. Interactions 26, 6 (2019), 34\u201339.",
+      "doi": "10.1145/3358904"
+    },
+    {
+      "text": "Zhiyuan Wan, Lingfeng Bao, Debin Gao, Eran Toch, Xin Xia, Tamir Mendel, and David Lo. 2019. Appmod: Helping older adults manage mobile security with online social help. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 4 (2019), 1\u201322.",
+      "doi": "10.1145/3369819"
+    },
+    {
+      "text": "Yang Wang. 2017. The Third Wave? Inclusive Privacy and Security. In Proceedings of the 2017 New Security Paradigms Workshop (Santa Cruz, CA, USA) (NSPW 2017). Association for Computing Machinery, New York, NY, USA, 122\u2013130. https://doi.org/10.1145/3171533.3171538",
+      "doi": "10.1145/3171533.3171538"
+    },
+    {
+      "text": "Deborah\u00a0J Warr. 2006. Gender, class, and the art and craft of social capital. The Sociological Quarterly 47, 3 (2006), 497\u2013520.",
+      "doi": ""
+    },
+    {
+      "text": "Earnest Wheeler and Tawanna\u00a0R. Dillahunt. 2018. Navigating the Job Search as a Low-Resourced Job Seeker. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/3173574.3173622",
+      "doi": "10.1145/3173574.3173622"
+    },
+    {
+      "text": "Daricia Wilkinson and Bart Knijnenburg. 2022. Many Islands, Many Problems: An Empirical Examination of Online Safety Behaviors in the Caribbean. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI \u201922). Association for Computing Machinery, New York, NY, USA, Article 102, 25\u00a0pages. https://doi.org/10.1145/3491102.3517643",
+      "doi": "10.1145/3491102.3517643"
+    },
+    {
+      "text": "Marisol Wong-Villacres, Aakash Gautam, Wendy Roldan, Lucy Pei, Jessa Dickinson, Azra Ismail, Betsy DiSalvo, Neha Kumar, Tammy Clegg, Sheena Erete, Emily Roden, Nithya Sambasivan, and Jason Yip. 2020. From Needs to Strengths: Operationalizing an Assets-Based Design of Technology. In Conference Companion Publication of the 2020 on Computer Supported Cooperative Work and Social Computing (Virtual Event, USA) (CSCW \u201920 Companion). Association for Computing Machinery, New York, NY, USA, 527\u2013535. https://doi.org/10.1145/3406865.3418594",
+      "doi": "10.1145/3406865.3418594"
+    },
+    {
+      "text": "Susan Wyche, Tawanna\u00a0R. Dillahunt, Nightingale Simiyu, and Sharon Alaka. 2015. \"If God Gives Me the Chance i Will Design My Own Phone\": Exploring Mobile Phone Repair and Postcolonial Approaches to Design in Rural Kenya. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing(Osaka, Japan) (UbiComp \u201915). Association for Computing Machinery, New York, NY, USA, 463\u2013473. https://doi.org/10.1145/2750858.2804249",
+      "doi": "10.1145/2750858.2804249"
+    },
+    {
+      "text": "Eunjin Yang, Kyung\u00a0Hee Lee, 2022. The Moderating Effects of Disability on Mobile Internet Use Among Older Adults: Population-Based Cross-sectional Study. Journal of Medical Internet Research 24, 4 (2022), e37127.",
+      "doi": ""
+    },
+    {
+      "text": "William\u00a0X You, Carly\u00a0A Comins, Brooke\u00a0A Jarrett, Katherine Young, Vijayanand Guddera, Deliwe\u00a0R Phetlhu, Ntambue Mulumba, Mfezi Mcingana, Harry Hausler, Stefan Baral, 2020. Facilitators and barriers to incorporating digital technologies into HIV care among cisgender female sex workers living with HIV in South Africa. Mhealth 6(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Yixuan Zhang, Nurul Suhaimi, Rana Azghandi, Mary\u00a0Amulya Joseph, Miso Kim, Jacqueline Griffin, and Andrea\u00a0G. Parker. 2020. Understanding the Use of Crisis Informatics Technology among Older Adults. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376862",
+      "doi": "10.1145/3313831.3376862"
+    },
+    {
+      "text": "Gila\u00a0Cohen Zilka. 2017. Awareness of ICT capabilities, digital literacy, and use of reflective processes in children who received their first home computer. International Journal of Technology Enhanced Learning 9, 1 (2017), 80\u201398.",
+      "doi": "10.1504/IJTEL.2017.084074"
+    },
+    {
+      "text": "Gila\u00a0Cohen Zilka. 2019. The digital divide: implications for the eSafety of children and adolescents. International Journal of Technology Enhanced Learning 11, 1 (2019), 20\u201335.",
+      "doi": ""
+    },
+    {
+      "text": "Annuska Zolyomi and Jaime Snyder. 2021. Social-emotional-sensory design map for affective computing informed by neurodivergent experiences. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201337.",
+      "doi": "10.1145/3449151"
+    }
+  ]
+}

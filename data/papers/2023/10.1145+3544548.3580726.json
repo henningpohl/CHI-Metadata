@@ -1,0 +1,311 @@
+{
+  "doi": "10.1145/3544548.3580726",
+  "title": "multiverse: Multiplexing Alternative Data Analyses in R Notebooks",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2023,
+  "badges": [],
+  "abstract": "There are myriad ways to analyse a dataset. But which one to trust? In the face of such uncertainty, analysts may adopt multiverse analysis: running all reasonable analyses on the dataset. Yet this is cognitively and technically difficult with existing tools\u2014how does one specify and execute all combinations of reasonable analyses of a dataset?\u2014and often requires discarding existing workflows. We present multiverse, a tool for implementing multiverse analyses in R with expressive syntax supporting existing computational notebook workflows. multiverse supports building up a multiverse through local changes to a single analysis and optimises execution by pruning redundant computations. We evaluate how multiverse supports programming multiverse analyses using (a) principles of cognitive ergonomics to compare with two existing multiverse tools; and (b) case studies based on semi-structured interviews with researchers who have successfully implemented an end-to-end analysis using multiverse. We identify design tradeoffs (e.g. increased flexibility versus learnability), and suggest future directions for multiverse tool design.",
+  "authors": [
+    {
+      "name": "Abhraneel Sarma",
+      "institution": "Computer Science, Northwestern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659163410",
+      "orcid": "0000-0002-1408-4511"
+    },
+    {
+      "name": "Alex Kale",
+      "institution": "Computer Science, University of Chicago, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659367253",
+      "orcid": "0000-0001-7668-2800"
+    },
+    {
+      "name": "Michael Jongho Moon",
+      "institution": "Department of Statistical Sciences, University of Toronto, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782041",
+      "orcid": "0000-0001-9997-5817"
+    },
+    {
+      "name": "Nathan Taback",
+      "institution": "Department of Statistical Sciences and Computer Science, University of Toronto, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779131",
+      "orcid": "0000-0001-9497-3951"
+    },
+    {
+      "name": "Fanny Chevalier",
+      "institution": "Department of Computer Science and Statistical Sciences, University of Toronto, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81325488036",
+      "orcid": "0000-0002-5585-7971"
+    },
+    {
+      "name": "Jessica Hullman",
+      "institution": "Computer Science, Northwestern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81484657387",
+      "orcid": "0000-0001-6826-3550"
+    },
+    {
+      "name": "Matthew Kay",
+      "institution": "Computer Science and Communication, Northwestern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659510709",
+      "orcid": "0000-0001-9446-0419"
+    }
+  ],
+  "references": [
+    {
+      "text": "2020 (accessed September 15, 2020). Tidyverse. https://www.tidyverse.org/",
+      "doi": ""
+    },
+    {
+      "text": "Ruben\u00a0C Arslan, Katharina\u00a0M Schilling, Tanja\u00a0M Gerlach, and Lars Penke. 2018. Using 26,000 diary entries to show ovulatory changes in sexual desire and behavior.Journal of Personality and Social Psychology (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Laura\u00a0A Bakkensen and William Larson. 2014. Population matters when modeling hurricane fatalities. Proceedings of the National Academy of Sciences 111, 50(2014), E5331\u2013E5332.",
+      "doi": ""
+    },
+    {
+      "text": "Henrik Bengtsson. 2020. future: Unified Parallel and Distributed Processing in R for Everyone. https://CRAN.R-project.org/package=future R package version 1.18.0.",
+      "doi": ""
+    },
+    {
+      "text": "Donald Berry. 2012. Multiplicities in cancer research: ubiquitous and necessary evils. Journal of the National Cancer Institute 104, 15 (2012), 1125\u20131133.",
+      "doi": ""
+    },
+    {
+      "text": "Alan\u00a0F Blackwell, Carol Britton, A Cox, Thomas\u00a0RG Green, Corin Gurr, Gada Kadoda, MS Kutar, Martin Loomes, Chrystopher\u00a0L Nehaniv, Marian Petre, 2001. Cognitive dimensions of notations: Design tools for cognitive technology. In International Conference on Cognitive Technology. Springer, 325\u2013341.",
+      "doi": ""
+    },
+    {
+      "text": "Christopher\u00a0J Bryan, David\u00a0S Yeager, and Joseph\u00a0M O\u2019Brien. 2019. Replicator degrees of freedom allow publication of misleading failures to replicate. Proceedings of the National Academy of Sciences 116, 51(2019), 25535\u201325545.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Cesario, David\u00a0J Johnson, and William Terrill. 2019. Is there evidence of racial disparity in police use of deadly force? Analyses of officer-involved fatal shootings in 2015\u20132016. Social psychological and personality science 10, 5 (2019), 586\u2013595.",
+      "doi": ""
+    },
+    {
+      "text": "Bj\u00f6rn Christensen and S\u00f6ren Christensen. 2014. Are female hurricanes really deadlier than male hurricanes?Proceedings of the National Academy of Sciences 111, 34(2014), E3497\u2013E3498.",
+      "doi": ""
+    },
+    {
+      "text": "Pasquale Cirillo and Nassim\u00a0Nicholas Taleb. 2016. On the statistical properties and tail risk of violent conflicts. Physica A: Statistical Mechanics and its Applications 452 (2016), 29\u201345.",
+      "doi": ""
+    },
+    {
+      "text": "Andy Cockburn, Carl Gutwin, and Alan Dix. 2018. Hark no more: on the preregistration of chi experiments. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3173574.3173715"
+    },
+    {
+      "text": "J\u00a0Anthony Cookson. 2018. When saving is gambling. Journal of Financial Economics 129, 1 (2018), 24\u201345.",
+      "doi": ""
+    },
+    {
+      "text": "Marcus Cred\u00e9 and Leigh\u00a0A Phillips. 2017. Revisiting the power pose effect: How robust are the results reported by Carney, Cuddy, and Yap (2010) to data analytic decisions?Social Psychological and Personality Science 8, 5 (2017), 493\u2013499.",
+      "doi": ""
+    },
+    {
+      "text": "Egon Dejonckheere, Elise\u00a0K Kalokerinos, Brock Bastian, and Peter Kuppens. 2019. Poor emotion regulation ability mediates the link between depressive symptoms and affective bipolarity. Cognition and Emotion 33, 5 (2019), 1076\u20131083.",
+      "doi": ""
+    },
+    {
+      "text": "Egon Dejonckheere, Merijn Mestdagh, Marlies Houben, Yasemin Erbas, Madeline Pe, Peter Koval, Annette Brose, Brock Bastian, and Peter Kuppens. 2018. The bipolarity of affect and depressive symptoms.Journal of personality and social psychology 114, 2(2018), 323.",
+      "doi": ""
+    },
+    {
+      "text": "Marco Del\u00a0Giudice and Steven Gangestad. 2020. A Traveler\u2019s Guide to the Multiverse: Promises, Pitfalls, and a Framework for the Evaluation of Analytic Decisions. Advances in Methods and Practices in Psychological Science (07 2020).",
+      "doi": ""
+    },
+    {
+      "text": "Emilie Delaherche, Mohamed Chetouani, Ammar Mahdhaoui, Catherine Saint-Georges, Sylvie Viaux, and David Cohen. 2012. Interpersonal Synchrony: A Survey of Evaluation Methods across Disciplines. IEEE Transactions on Affective Computing 3, 3 (Jul 2012), 349\u2013365. https://doi.org/10.1109/T-AFFC.2012.12",
+      "doi": "10.1109/T-AFFC.2012.12"
+    },
+    {
+      "text": "Seamus Donnelly, Patricia\u00a0J Brooks, and Bruce\u00a0D Homer. 2019. Is there a bilingual advantage on interference-control tasks? A multiverse meta-analysis of global reaction time and interference cost. Psychonomic bulletin & review 26, 4 (2019), 1122\u20131147.",
+      "doi": ""
+    },
+    {
+      "text": "Pierre Dragicevic. 2016. Fair statistical communication in HCI. In Modern statistical methods for HCI. Springer, 291\u2013330.",
+      "doi": ""
+    },
+    {
+      "text": "Pierre Dragicevic, Yvonne Jansen, Abhraneel Sarma, Matthew Kay, and Fanny Chevalier. 2019. Increasing the transparency of research papers with explorable multiverse analyses. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3290605.3300295"
+    },
+    {
+      "text": "Jonah Gabry, Daniel Simpson, Aki Vehtari, Michael Betancourt, and Andrew Gelman. 2019. Visualization in Bayesian workflow. Journal of the Royal Statistical Society: Series A (Statistics in Society) 182, 2(2019), 389\u2013402. https://doi.org/10.1111/rssa.12378",
+      "doi": ""
+    },
+    {
+      "text": "Joachim Gassen. 2019. Researcher Degrees of Freedom Analysis (0.0.0.9). https://github.com/joachim-gassen/rdfanalysis",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Gelman and Eric Loken. 2013. The garden of forking paths: Why multiple comparisons can be a problem, even when there is no \u201cfishing expedition\u201d or \u201cp-hacking\u201d and the research hypothesis was posited ahead of time. Department of Statistics, Columbia University (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0RG Green. 1989. Cognitive dimensions of notations. People and computers V(1989), 443\u2013460.",
+      "doi": ""
+    },
+    {
+      "text": "Brian\u00a0D. Hall, Yang Liu, Yvonne Jansen, Pierre Dragicevic, Fanny Chevalier, and Matthew Kay. 2022. A Survey of Tasks and Visualizations in Multiverse Analysis Reports. Computer Graphics Forum 41, 1 (2022), 402\u2013426. https://doi.org/10.1111/cgf.14443",
+      "doi": ""
+    },
+    {
+      "text": "Bj\u00f6rn Hartmann, Loren Yu, Abel Allison, Yeonsoo Yang, and Scott\u00a0R Klemmer. 2008. Design as exploration: creating interface alternatives through parallel authoring and runtime tuning. In Proceedings of the 21st annual ACM symposium on User interface software and technology. 91\u2013100.",
+      "doi": "10.1145/1449715.1449732"
+    },
+    {
+      "text": "Andrew Head, Fred Hohman, Titus Barik, Steven\u00a0M Drucker, and Robert DeLine. 2019. Managing messes in computational notebooks. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300500"
+    },
+    {
+      "text": "E.\u00a0L. Hutchins, J.\u00a0D. Hollan, and D.\u00a0A. Norman. 1985. Direct manipulation interfaces. Human-computer interaction 1, 4 (1985), 311\u2013338. https://doi.org/10.1207/s15327051hci0104_2",
+      "doi": "10.1207/s15327051hci0104_2"
+    },
+    {
+      "text": "Kiju Jung, Sharon Shavitt, Madhu Viswanathan, and Joseph\u00a0M Hilbe. 2014. Female hurricanes are deadlier than male hurricanes. Proceedings of the National Academy of Sciences 111, 24(2014), 8782\u20138787.",
+      "doi": ""
+    },
+    {
+      "text": "Sean Kandel, Andreas Paepcke, Joseph\u00a0M Hellerstein, and Jeffrey Heer. 2012. Enterprise data analysis and visualization: An interview study. IEEE Transactions on Visualization and Computer Graphics 18, 12(2012), 2917\u20132926.",
+      "doi": "10.1109/TVCG.2012.219"
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Amber Horvath, and Brad\u00a0A Myers. 2017. Variolite: Supporting Exploratory Programming by Data Scientists.. In CHI, Vol.\u00a010. 3025453\u20133025626.",
+      "doi": "10.1145/3025453.3025626"
+    },
+    {
+      "text": "Mary\u00a0Beth Kery and Brad\u00a0A Myers. 2017. Exploring exploratory programming. In 2017 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, 25\u201329.",
+      "doi": ""
+    },
+    {
+      "text": "Mary\u00a0Beth Kery and Brad\u00a0A Myers. 2018. Interactions for untangling messy history in a computational notebook. In 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, 147\u2013155.",
+      "doi": ""
+    },
+    {
+      "text": "Mary\u00a0Beth Kery, Marissa Radensky, Mahima Arya, Bonnie\u00a0E John, and Brad\u00a0A Myers. 2018. The story in the notebook: Exploratory data science using a literate programming tool. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201311.",
+      "doi": "10.1145/3173574.3173748"
+    },
+    {
+      "text": "Donald\u00a0E. Knuth. 1984. Literate Programming. Comput. J. 27, 2 (May 1984), 97\u2013111. https://doi.org/10.1093/comjnl/27.2.97",
+      "doi": ""
+    },
+    {
+      "text": "Sean Kross and Philip\u00a0J Guo. 2019. Practitioners teaching data science in industry and academia: Expectations, workflows, and challenges. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3290605.3300493"
+    },
+    {
+      "text": "Yang Liu, Alex Kale, Tim Althoff, and Jeffrey Heer. 2020. Boba: Authoring and Visualizing Multiverse Analyses. arXiv preprint arXiv:2007.05551(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Steve Maley. 2014. Statistics show no evidence of gender bias in the public\u2019s hurricane preparedness. Proceedings of the National Academy of Sciences 111, 37(2014), E3834\u2013E3834.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Malter. 2014. Female hurricanes are not deadlier than male hurricanes. Proceedings of the National Academy of Sciences 111, 34(2014), E3496\u2013E3496.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0G March. 1991. Exploration and exploitation in organizational learning. Organization science 2, 1 (1991), 71\u201387.",
+      "doi": "10.5555/2842497.2842502"
+    },
+    {
+      "text": "Philipp\u00a0K. Masur and Michael Scharkow. 2019. specr: Statistical functions for conducting specification curve analyses (Version 0.2.1.9000). https://github.com/masurp/specr",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0Jongho Moon, Haoda Li, Mingwei Xu, Nathan Taback, Fanny Chevalier, and Alison Gibbs. 2022. mverse: Tidy Multiverse Analysis Made Simple. https://cran.r-project.org/web/packages/mverse/index.html R package version 0.1.0.",
+      "doi": ""
+    },
+    {
+      "text": "Deborah Nolan and Duncan Temple\u00a0Lang. 2007. Dynamic, interactive documents for teaching statistical practice. International Statistical Review 75, 3 (2007), 295\u2013321.",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0A. Norman. 2002. The Design of Everyday Things. Basic Books, Inc., USA.",
+      "doi": "10.5555/2187809"
+    },
+    {
+      "text": "Brian\u00a0A Nosek, Charles\u00a0R Ebersole, Alexander\u00a0C DeHaven, and David\u00a0T Mellor. 2018. The preregistration revolution. Proceedings of the National Academy of Sciences 115, 11(2018), 2600\u20132606.",
+      "doi": ""
+    },
+    {
+      "text": "Amy Orben and Andrew\u00a0K Przybylski. 2019. The association between adolescent well-being and digital technology use. Nature Human Behaviour 3, 2 (2019), 173\u2013182.",
+      "doi": ""
+    },
+    {
+      "text": "Chirag\u00a0J Patel, Belinda Burford, and John\u00a0PA Ioannidis. 2015. Assessment of vibration of effects due to model specification can demonstrate the instability of observational associations. Journal of clinical epidemiology 68, 9 (2015), 1046\u20131058.",
+      "doi": ""
+    },
+    {
+      "text": "Gregory\u00a0J Poarch, Jan Vanhove, and Raphael Berthele. 2019. The effect of bidialectalism on executive function. International Journal of Bilingualism 23, 2 (2019), 612\u2013628.",
+      "doi": ""
+    },
+    {
+      "text": "Adam Rule, Aur\u00e9lien Tabard, and James\u00a0D Hollan. 2018. Exploration and explanation in computational notebooks. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3173574.3173606"
+    },
+    {
+      "text": "Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer. 2016. Vega-lite: A grammar of interactive graphics. IEEE transactions on visualization and computer graphics 23, 1(2016), 341\u2013350.",
+      "doi": "10.1109/TVCG.2016.2599030"
+    },
+    {
+      "text": "Daniel\u00a0J. Schad, Michael Betancourt, and Shravan Vasishth. 2021. Toward a principled Bayesian workflow in cognitive science. Psychological Methods 26, 1 (2021), 103\u2013126. https://doi.org/10.1037/met0000275",
+      "doi": ""
+    },
+    {
+      "text": "Beau Sheil. 1986. Power tools for programmers. In Readings in artificial intelligence and software engineering. 573\u2013580.",
+      "doi": ""
+    },
+    {
+      "text": "Raphael Silberzahn, Eric\u00a0Luis Uhlmann, Daniel\u00a0P Martin, Pasquale Anselmi, Frederik Aust, Eli Awtrey, \u0160t\u011bp\u00e1n Bahn\u00edk, Feng Bai, Colin Bannard, Evelina Bonnier, 2018. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science 1, 3(2018), 337\u2013356.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph\u00a0P Simmons, Leif\u00a0D Nelson, and Uri Simonsohn. 2011. False-positive psychology: Undisclosed flexibility in data collection and analysis allows presenting anything as significant. Psychological science 22, 11 (2011), 1359\u20131366.",
+      "doi": ""
+    },
+    {
+      "text": "Uri Simonsohn, Joseph\u00a0P. Simmons, and Leif\u00a0D. Nelson. 2020. Specification curve analysis. Nature Human Behaviour 4, 11 (Nov 2020), 1208\u20131214. https://doi.org/10.1038/s41562-020-0912-z",
+      "doi": ""
+    },
+    {
+      "text": "Sara Steegen, Francis Tuerlinckx, Andrew Gelman, and Wolf Vanpaemel. 2016. Increasing transparency through a multiverse analysis. Perspectives on Psychological Science 11, 5 (2016), 702\u2013712.",
+      "doi": ""
+    },
+    {
+      "text": "Martin Voracek, Michael Kossmeier, and Ulrich\u00a0S Tran. 2019. Which Data to Meta-Analyze, and How?Zeitschrift f\u00fcr Psychologie(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Hadley Wickham. 2016. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org",
+      "doi": "10.5555/1795559"
+    },
+    {
+      "text": "Hadley. Wickham. 2019. Advanced R (2nd editioned.). CRC Press, Boca Raton, FL, Chapter\u00a07.",
+      "doi": ""
+    },
+    {
+      "text": "Hadley. Wickham. 2019. Advanced R (2nd editioned.). CRC Press, Boca Raton, FL, Chapter\u00a019.",
+      "doi": ""
+    },
+    {
+      "text": "Jo Wood, Alexander Kachkaev, and Jason Dykes. 2018. Design Exposition with Literate Visualization. IEEE Transactions on Visualization and Computer Graphics (2018), 759\u2013768.",
+      "doi": ""
+    },
+    {
+      "text": "Cristobal Young and Katherine Holsteen. 2017. Model uncertainty and robustness: A computational framework for multimodel analysis. Sociological Methods & Research 46, 1 (2017), 3\u201340.",
+      "doi": ""
+    }
+  ]
+}

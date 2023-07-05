@@ -1,0 +1,590 @@
+{
+  "doi": "10.1145/3544548.3581555",
+  "title": "Faulty or Ready? Handling Failures in Deep-Learning Computer Vision Models until Deployment: A Study of Practices, Challenges, and Needs",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Handling failures in computer vision systems that rely on deep learning models remains a challenge. While an increasing number of methods for bug identification and correction are proposed, little is known about how practitioners actually search for failures in these models. We perform an empirical study to understand the goals and needs of practitioners, the workflows and artifacts they use, and the challenges and limitations in their process. We interview 18 practitioners by probing them with a carefully crafted failure handling scenario. We observe that there is a great diversity of failure handling workflows in which cooperations are often necessary, that practitioners overlook certain types of failures and bugs, and that they generally do not rely on potentially relevant approaches and tools originally stemming from research. These insights allow to draw a list of research opportunities, such as creating a library of best practices and more representative formalisations of practitioners\u2019 goals, developing interfaces to exploit failure handling artifacts, as well as providing specialized training.",
+  "authors": [
+    {
+      "name": "Agathe Balayn",
+      "institution": "Software Technology, Delft University of Technology, Netherlands",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659730652",
+      "orcid": "0000-0003-2725-5305"
+    },
+    {
+      "name": "Natasa Rikalo",
+      "institution": "Sustainable Design Engineering, TU Delft, Netherlands",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660239516",
+      "orcid": "0000-0001-8261-4652"
+    },
+    {
+      "name": "Jie Yang",
+      "institution": "Delft University of Technology, Netherlands",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659594294",
+      "orcid": "0000-0002-0350-0313"
+    },
+    {
+      "name": "Alessandro Bozzon",
+      "institution": "Industrial Design Engineering, Delft University of Technology, Netherlands",
+      "img": "/do/10.1145/contrib-81314480825/rel-imgonly/me_medium.jpg",
+      "acmid": "81314480825",
+      "orcid": "0000-0002-3300-2913"
+    }
+  ],
+  "references": [
+    {
+      "text": "Mouna Afif, Riadh Ayachi, Yahia Said, and Mohamed Atri. 2020. Deep learning based application for indoor scene recognition. Neural Processing Letters 51, 3 (2020), 2827\u20132837.",
+      "doi": "10.1007/s11063-020-10231-w"
+    },
+    {
+      "text": "Ahmed Alqaraawi, Martin Schuessler, Philipp Wei\u00df, Enrico Costanza, and Nadia Berthouze. 2020. Evaluating saliency map explanations for convolutional neural networks: a user study. In Proceedings of the 25th International Conference on Intelligent User Interfaces. 275\u2013285.",
+      "doi": "10.1145/3377325.3377519"
+    },
+    {
+      "text": "Saleema Amershi, Andrew Begel, Christian Bird, Robert DeLine, Harald Gall, Ece Kamar, Nachiappan Nagappan, Besmira Nushi, and Thomas Zimmermann. 2019. Software engineering for machine learning: A case study. In 2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP). IEEE, 291\u2013300.",
+      "doi": "10.1109/ICSE-SEIP.2019.00042"
+    },
+    {
+      "text": "Saleema Amershi, Max Chickering, Steven\u00a0M Drucker, Bongshin Lee, Patrice Simard, and Jina Suh. 2015. Modeltracker: Redesigning performance analysis tools for machine learning. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 337\u2013346.",
+      "doi": "10.1145/2702123.2702509"
+    },
+    {
+      "text": "Paul Ammann and Jeff Offutt. 2016. Introduction to Software Testing(2nd ed.). Cambridge University Press, USA.",
+      "doi": "10.5555/3133461"
+    },
+    {
+      "text": "Ariful\u00a0Islam Anik and Andrea Bunt. 2021. Data-Centric Explanations: Explaining Training Data of Machine Learning Systems to Promote Transparency. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445736"
+    },
+    {
+      "text": "Keijiro Araki, Zengo Furukawa, and Jingde Cheng. 1991. A general framework for debugging. IEEE software 8, 3 (1991), 14\u201320.",
+      "doi": "10.1109/52.88939"
+    },
+    {
+      "text": "Vijay Arya, Rachel\u00a0KE Bellamy, Pin-Yu Chen, Amit Dhurandhar, Michael Hind, Samuel\u00a0C Hoffman, Stephanie Houde, Q\u00a0Vera Liao, Ronny Luss, Aleksandra Mojsilovi\u0107, 2019. One explanation does not fit all: A toolkit and taxonomy of ai explainability techniques. (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Joshua Attenberg, Panos Ipeirotis, and Foster Provost. 2015. Beat the machine: Challenging humans to find a predictive model\u2019s \u201cunknown unknowns\u201d. Journal of Data and Information Quality (JDIQ) 6, 1 (2015), 1\u201317.",
+      "doi": "10.1145/2700832"
+    },
+    {
+      "text": "Agathe Balayn, Christoph Lofi, and Geert-Jan Houben. 2021. Managing bias and unfairness in data for decision support: a survey of machine learning and data engineering approaches to identify and mitigate bias and unfairness within data management and analytics systems. The VLDB Journal (2021), 1\u201330.",
+      "doi": ""
+    },
+    {
+      "text": "Agathe Balayn, Natasa Rikalo, Christoph Lofi, Jie Yang, and Alessandro Bozzon. 2022. How can Explainability Methods be Used to Support Bug Identification in Computer Vision Models?. In CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3491102.3517474"
+    },
+    {
+      "text": "Agathe Balayn, Panagiotis Soilis, Christoph Lofi, Jie Yang, and Alessandro Bozzon. 2021. What do You Mean? Interpreting Image Classification with Crowdsourced Concept Extraction and Analysis. In Proceedings of the Web Conference 2021. 1937\u20131948.",
+      "doi": "10.1145/3442381.3450069"
+    },
+    {
+      "text": "Gagan Bansal, Besmira Nushi, Ece Kamar, Eric Horvitz, and Daniel\u00a0S Weld. 2021. Is the most accurate ai the best teammate? optimizing ai for teamwork. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a035. 11405\u201311414.",
+      "doi": ""
+    },
+    {
+      "text": "Solon Barocas, Anhong Guo, Ece Kamar, Jacquelyn Krones, Meredith\u00a0Ringel Morris, Jennifer\u00a0Wortman Vaughan, W\u00a0Duncan Wadsworth, and Hanna Wallach. 2021. Designing disaggregated evaluations of ai systems: Choices, considerations, and tradeoffs. In Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society. 368\u2013378.",
+      "doi": "10.1145/3461702.3462610"
+    },
+    {
+      "text": "Alex B\u00e4uerle, \u00c1ngel\u00a0Alexander Cabrera, Fred Hohman, Megan Maher, David Koski, Xavier Suau, Titus Barik, and Dominik Moritz. 2022. Symphony: Composing Interactive Interfaces for Machine Learning. In CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Umang Bhatt, Alice Xiang, Shubham Sharma, Adrian Weller, Ankur Taly, Yunhan Jia, Joydeep Ghosh, R Puri, J\u00a0MF Moura, and P Eckersley. 2020. Explainable machine learning in deployment. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. 648\u2013657.",
+      "doi": "10.1145/3351095.3375624"
+    },
+    {
+      "text": "Angie Boggust, Benjamin Hoover, Arvind Satyanarayan, and Hendrik Strobelt. 2022. Shared Interest: Measuring Human-AI Alignment to Identify Recurring Patterns in Model Behavior. In CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3491102.3501965"
+    },
+    {
+      "text": "Karen\u00a0L Boyd. 2021. Datasheets for Datasets help ML Engineers Notice and Understand Ethical Issues in Training Data. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201327.",
+      "doi": "10.1145/3479582"
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative research in psychology 3, 2 (2006), 77\u2013101.",
+      "doi": ""
+    },
+    {
+      "text": "\u00c1ngel\u00a0Alexander Cabrera, Abraham\u00a0J Druck, Jason\u00a0I Hong, and Adam Perer. 2021. Discovering and Validating AI Errors With Crowdsourced Failure Reports. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201322.",
+      "doi": "10.1145/3479569"
+    },
+    {
+      "text": "Carrie\u00a0J Cai, Samantha Winter, David Steiner, Lauren Wilcox, and Michael Terry. 2019. \" Hello AI\": uncovering the onboarding needs of medical practitioners for human-AI collaborative decision-making. Proceedings of the ACM on Human-computer Interaction 3, CSCW(2019), 1\u201324.",
+      "doi": "10.1145/3359206"
+    },
+    {
+      "text": "Shanqing Cai, Eric Breck, E Nielsen, M Salib, and D Sculley. 2016. Tensorflow debugger: Debugging dataflow graphs for machine learning. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Dilek Cetindamar, Kirsty Kitto, Mengjia Wu, Yi Zhang, Babak Abedin, and Simon Knight. 2022. Explicating AI Literacy of Employees at Digital Workplaces. IEEE Transactions on Engineering Management(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Hao-Fei Cheng, Ruotong Wang, Zheng Zhang, Fiona O\u2019Connell, T Gray, F\u00a0M Harper, and H Zhu. 2019. Explaining decision-making algorithms through UI: Strategies to help non-expert stakeholders. In Proceedings of the 2019 chi conference on human factors in computing systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300789"
+    },
+    {
+      "text": "Ruiqi Cheng, Kaiwei Wang, Jian Bai, and Zhijie Xu. 2020. Unifying visual localization and scene recognition for people with visual impairment. IEEE Access 8(2020), 64284\u201364296.",
+      "doi": ""
+    },
+    {
+      "text": "Ram Chillarese. 1999. Software Testing Best Practices, IBM Research. TR Patent RC21,457.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Chromik, Malin Eiband, Felicitas Buchner, Adrian Kr\u00fcger, and Andreas Butz. 2021. I Think I Get Your Point, AI! The Illusion of Explanatory Depth in Explainable AI. In 26th International Conference on Intelligent User Interfaces. 307\u2013317.",
+      "doi": "10.1145/3397481.3450644"
+    },
+    {
+      "text": "Brittany Davis, Maria Glenski, William Sealy, and Dustin Arendt. 2020. Measure utility, gain trust: practical advice for XAI researchers. In 2020 IEEE Workshop on TRust and EXpertise in Visual Analytics (TREX). IEEE, 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Terrance De\u00a0Vries, Ishan Misra, Changhan Wang, and Laurens Van\u00a0der Maaten. 2019. Does object recognition work for everyone?. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. 52\u201359.",
+      "doi": ""
+    },
+    {
+      "text": "Wesley\u00a0Hanwen Deng, Manish Nagireddy, Michelle Seng\u00a0Ah Lee, Jatinder Singh, Zhiwei\u00a0Steven Wu, Kenneth Holstein, and Haiyi Zhu. 2022. Exploring How Machine Learning Practitioners (Try To) Use Fairness Toolkits. arXiv preprint arXiv:2205.06922(2022).",
+      "doi": "10.1145/3531146.3533113"
+    },
+    {
+      "text": "Rebecca Fiebrink, Perry\u00a0R Cook, and Dan Trueman. 2011. Human model evaluation in interactive supervised learning. In Proceedings of the SIGCHI conference on human factors in computing systems. 147\u2013156.",
+      "doi": "10.1145/1978942.1978965"
+    },
+    {
+      "text": "Gordon Fraser and JM Rojas. 2019. Software Testing. Springer International Publishing, Cham, 123\u2013192. https://doi.org/10.1007/978-3-030-00262-6_4",
+      "doi": ""
+    },
+    {
+      "text": "Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer\u00a0Wortman Vaughan, Hanna Wallach, Hal\u00a0Daum\u00e9 Iii, and Kate Crawford. 2021. Datasheets for datasets. Commun. ACM 64, 12 (2021), 86\u201392.",
+      "doi": "10.1145/3458723"
+    },
+    {
+      "text": "A Ghorbani and al. 2019. Towards automatic concept-based explanations. In NeurIPS.",
+      "doi": ""
+    },
+    {
+      "text": "Yolanda Gil. 2016. Teaching big data analytics skills with intelligent workflow systems. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a030.",
+      "doi": ""
+    },
+    {
+      "text": "G\u00f6rkem Giray. 2021. A software engineering perspective on engineering machine learning systems: State of the art and challenges. Journal of Systems and Software 180 (2021), 111031.",
+      "doi": "10.1016/j.jss.2021.111031"
+    },
+    {
+      "text": "Yash Goyal, Ziyan Wu, Jan Ernst, Dhruv Batra, Devi Parikh, and Stefan Lee. 2019. Counterfactual visual explanations. In International Conference on Machine Learning. PMLR, 2376\u20132384.",
+      "doi": ""
+    },
+    {
+      "text": "Stefan Grafberger, Julia Stoyanovich, and Sebastian Schelter. 2021. Lightweight Inspection of Data Preprocessing in Native Machine Learning Pipelines.. In CIDR.",
+      "doi": ""
+    },
+    {
+      "text": "Danna Gurari, Qing Li, Abigale\u00a0J Stangl, Anhong Guo, Chi Lin, Kristen Grauman, Jiebo Luo, and Jeffrey\u00a0P Bigham. 2018. Vizwiz grand challenge: Answering visual questions from blind people. In Proceedings of the IEEE conference on computer vision and pattern recognition. 3608\u20133617.",
+      "doi": ""
+    },
+    {
+      "text": "Brent Hailpern and Padmanabhan Santhanam. 2002. Software debugging, testing, and verification. IBM Systems Journal 41, 1 (2002), 4\u201312.",
+      "doi": "10.1147/sj.411.0004"
+    },
+    {
+      "text": "Galen Harrison, Julia Hanson, Christine Jacinto, Julio Ramirez, and Blase Ur. 2020. An empirical study on the perceived fairness of realistic, imperfect machine learning models. In Proceedings of the 2020 conference on fairness, accountability, and transparency. 392\u2013402.",
+      "doi": "10.1145/3351095.3372831"
+    },
+    {
+      "text": "Tong He, Zhi Zhang, Hang Zhang, Zhongyue Zhang, Junyuan Xie, and Mu Li. 2019. Bag of tricks for image classification with convolutional neural networks. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 558\u2013567.",
+      "doi": ""
+    },
+    {
+      "text": "Amy Heger, Elizabeth\u00a0B Marquis, Mihaela Vorvoreanu, Hanna Wallach, and Jennifer\u00a0Wortman Vaughan. 2022. Understanding Machine Learning Practitioners\u2019 Data Documentation Perceptions, Needs, Challenges, and Desiderata. arXiv preprint arXiv:2206.02923(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Fred Hohman, Andrew Head, Rich Caruana, Robert DeLine, and Steven\u00a0M Drucker. 2019. Gamut: A design probe to understand how data scientists understand machine learning models. In Proceedings of the 2019 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300809"
+    },
+    {
+      "text": "Fred Hohman, Haekyu Park, Caleb Robinson, and Duen Horng\u00a0Polo Chau. 2019. Summit: Scaling deep learning interpretability by visualizing activation and attribution summarizations. IEEE transactions on visualization and computer graphics 26, 1(2019), 1096\u20131106.",
+      "doi": "10.1109/TVCG.2019.2934659"
+    },
+    {
+      "text": "Fred Hohman, Kanit Wongsuphasawat, Mary\u00a0Beth Kery, and Kayur Patel. 2020. Understanding and visualizing data iteration in machine learning. In Proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376177"
+    },
+    {
+      "text": "Sungsoo\u00a0Ray Hong, Jessica Hullman, and Enrico Bertini. 2020. Human factors in model interpretability: Industry practices, challenges, and needs. Proceedings of the ACM on Human-Computer Interaction 4, CSCW1(2020), 1\u201326.",
+      "doi": "10.1145/3392878"
+    },
+    {
+      "text": "Fuyuki Ishikawa and Nobukazu Yoshioka. 2019. How do engineers perceive difficulties in engineering of machine-learning systems?-questionnaire survey. In 2019 IEEE/ACM Joint 7th International Workshop on Conducting Empirical Studies in Industry (CESI) and 6th International Workshop on Software Engineering Research and Industrial Practice (SER&IP). IEEE, 2\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Md\u00a0Johirul Islam, Giang Nguyen, Rangeet Pan, and Hridesh Rajan. 2019. A comprehensive study on deep learning bug characteristics. In Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering. 510\u2013520.",
+      "doi": "10.1145/3338906.3338955"
+    },
+    {
+      "text": "Hanen Jabnoun, Faouzi Benzarti, and Hamid Amiri. 2017. Visual scene prediction for blind people based on object recognition. In 2017 14th International Conference on Computer Graphics, Imaging and Visualization. IEEE, 21\u201326.",
+      "doi": ""
+    },
+    {
+      "text": "S\u00e9rgio Jesus, Catarina Bel\u00e9m, Vladimir Balayan, Jo\u00e3o Bento, P Saleiro, P Bizarro, and J Gama. 2021. How can I choose an explainer? An Application-grounded Evaluation of Post-hoc Explanations. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency. 805\u2013815.",
+      "doi": "10.1145/3442188.3445941"
+    },
+    {
+      "text": "Daniel Kang, Deepti Raghavan, Peter Bailis, and Matei Zaharia. 2018. Model assertions for debugging machine learning. In NeurIPS MLSys Workshop.",
+      "doi": ""
+    },
+    {
+      "text": "Andrej Karpathy. 2019. A Recipe for Training Neural Networks. http://karpathy.github.io/2019/04/25/recipe/",
+      "doi": ""
+    },
+    {
+      "text": "Harmanpreet Kaur, Harsha Nori, Samuel Jenkins, Rich Caruana, Hanna Wallach, and Jennifer Wortman\u00a0Vaughan. 2020. Interpreting interpretability: understanding data scientists\u2019 use of interpretability tools for machine learning. In Proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376219"
+    },
+    {
+      "text": "Christopher\u00a0J Kelly, Alan Karthikesalingam, Mustafa Suleyman, Greg Corrado, and Dominic King. 2019. Key challenges for delivering clinical impact with artificial intelligence. BMC medicine 17, 1 (2019), 1\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Kerrigan, Jessica Hullman, and Enrico Bertini. 2021. A survey of domain knowledge elicitation in applied machine learning. Multimodal Technologies and Interaction 5, 12 (2021), 73.",
+      "doi": ""
+    },
+    {
+      "text": "Asifullah Khan, Anabia Sohail, Umme Zahoora, and Aqsa\u00a0Saeed Qureshi. 2020. A survey of the recent architectures of deep convolutional neural networks. Artificial intelligence review 53, 8 (2020), 5455\u20135516.",
+      "doi": ""
+    },
+    {
+      "text": "Roli Khanna, Jonathan Dodge, Andrew Anderson, Rupika Dikkala, Jed Irvine, Zeyad Shureih, Kin-ho Lam, Caleb\u00a0R Matthews, Zhengxian Lin, Minsuk Kahng, 2022. Finding AI\u2019s faults with AAR/AI: An empirical study. ACM Transactions on Interactive Intelligent Systems (TiiS) 12, 1(2022), 1\u201333.",
+      "doi": "10.1145/3487065"
+    },
+    {
+      "text": "Been Kim, Oluwasanmi Koyejo, Rajiv Khanna, 2016. Examples are not enough, learn to criticize! Criticism for Interpretability.. In NIPS. 2280\u20132288.",
+      "doi": ""
+    },
+    {
+      "text": "B Kim, M Wattenberg, and al. 2018. Interpretability beyond feature attribution: Quantitative testing with concept activation vectors. In ICML.",
+      "doi": ""
+    },
+    {
+      "text": "Pang\u00a0Wei Koh, Shiori Sagawa, Henrik Marklund, Sang\u00a0Michael Xie, Marvin Zhang, Akshay Balsubramani, Weihua Hu, Michihiro Yasunaga, Richard\u00a0Lanas Phillips, Irena Gao, 2021. Wilds: A benchmark of in-the-wild distribution shifts. In International Conference on Machine Learning. PMLR, 5637\u20135664.",
+      "doi": ""
+    },
+    {
+      "text": "Sean Kross and Philip Guo. 2021. Orienting, framing, bridging, magic, and counseling: How data scientists navigate the outer loop of client collaborations in industry and academia. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201328.",
+      "doi": "10.1145/3476052"
+    },
+    {
+      "text": "Todd Kulesza, Margaret Burnett, Weng-Keen Wong, and Simone Stumpf. 2015. Principles of explanatory debugging to personalize interactive machine learning. In Proceedings of the 20th international conference on intelligent user interfaces. 126\u2013137.",
+      "doi": "10.1145/2678025.2701399"
+    },
+    {
+      "text": "Niklas Lavesson. 2010. Learning machine learning: a case study. IEEE Transactions on Education 53, 4 (2010), 672\u2013676.",
+      "doi": "10.1109/TE.2009.2038992"
+    },
+    {
+      "text": "Lucas Layman, Madeline Diep, Meiyappan Nagappan, Janice Singer, Robert Deline, and Gina Venolia. 2013. Debugging revisited: Toward understanding the debugging needs of contemporary software developers. In 2013 ACM/IEEE international symposium on empirical software engineering and measurement. IEEE, 383\u2013392.",
+      "doi": ""
+    },
+    {
+      "text": "Jihyun Lee, Sungwon Kang, and Danhyung Lee. 2012. Survey on software testing practices. IET software 6, 3 (2012), 275\u2013282.",
+      "doi": ""
+    },
+    {
+      "text": "Maurizio Leotta, Dario Olianas, and Filippo Ricca. 2022. A large experimentation to analyze the effects of implementation bugs in machine learning algorithms. Future Generation Computer Systems 133 (2022), 184\u2013200.",
+      "doi": "10.1016/j.future.2022.03.004"
+    },
+    {
+      "text": "Q\u00a0Vera Liao, Daniel Gruen, and Sarah Miller. 2020. Questioning the AI: informing design practices for explainable AI user experiences. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3313831.3376590"
+    },
+    {
+      "text": "Q\u00a0Vera Liao, Milena Pribi\u0107, Jaesik Han, Sarah Miller, and Daby Sow. 2021. Question-Driven Design Process for Explainable AI User Experiences. arXiv preprint arXiv:2104.03483(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Brian\u00a0Y Lim, Qian Yang, Ashraf\u00a0M Abdul, and Danding Wang. 2019. Why these Explanations? Selecting Intelligibility Types for Explanation Goals.. In IUI Workshops.",
+      "doi": ""
+    },
+    {
+      "text": "Phoebe Lin and Jessica Van\u00a0Brummelen. 2021. Engaging Teachers to Co-Design Integrated AI Curriculum for K-12 Classrooms. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3411764.3445377"
+    },
+    {
+      "text": "Anthony Liu, Santiago Guerra, Isaac Fung, Gabriel Matute, Ece Kamar, and Walter Lasecki. 2020. Towards hybrid human-ai workflows for unknown unknown detection. In Proceedings of The Web Conference 2020. 2432\u20132442.",
+      "doi": "10.1145/3366423.3380306"
+    },
+    {
+      "text": "Duri Long and Brian Magerko. 2020. What is AI literacy? Competencies and design considerations. In Proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201316.",
+      "doi": "10.1145/3313831.3376727"
+    },
+    {
+      "text": "Raoni Louren\u00e7o, Juliana Freire, and Dennis Shasha. 2019. Debugging machine learning pipelines. In Proceedings of the 3rd International Workshop on Data Management for End-to-End Machine Learning. 1\u201310.",
+      "doi": "10.1145/3329486.3329489"
+    },
+    {
+      "text": "Henrietta Lyons, Eduardo Velloso, and Tim Miller. 2021. Conceptualising contestability: Perspectives on contesting algorithmic decisions. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201325.",
+      "doi": "10.1145/3449180"
+    },
+    {
+      "text": "Shiqing Ma, Yingqi Liu, Wen-Chuan Lee, Xiangyu Zhang, and Ananth Grama. 2018. MODE: automated neural network model debugging via state differential analysis and input selection. In Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering. 175\u2013186.",
+      "doi": "10.1145/3236024.3236082"
+    },
+    {
+      "text": "Michael Madaio, Lisa Egede, Hariharan Subramonyam, Jennifer Wortman\u00a0Vaughan, and Hanna Wallach. 2022. Assessing the Fairness of AI Systems: AI Practitioners\u2019 Processes, Challenges, and Needs for Support. Proceedings of the ACM on Human-Computer Interaction 6, CSCW1(2022), 1\u201326.",
+      "doi": "10.1145/3512899"
+    },
+    {
+      "text": "Renee McCauley, Sue Fitzgerald, Gary Lewandowski, Laurie Murphy, Beth Simon, Lynda Thomas, and Carol Zander. 2008. Debugging: a review of the literature from an educational perspective. Computer Science Education 18, 2 (2008), 67\u201392.",
+      "doi": ""
+    },
+    {
+      "text": "Tilman Michaeli and Ralf Romeike. 2019. Improving debugging skills in the classroom: The effects of teaching a systematic debugging process. In Proceedings of the 14th workshop in primary and secondary computing education. 1\u20137.",
+      "doi": "10.1145/3361721.3361724"
+    },
+    {
+      "text": "Swati Mishra and Jeffrey\u00a0M Rzeszotarski. 2021. Crowdsourcing and Evaluating Concept-driven Explanations of Machine Learning Models. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201326.",
+      "doi": "10.1145/3449213"
+    },
+    {
+      "text": "Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa\u00a0Deborah Raji, and Timnit Gebru. 2019. Model cards for model reporting. In Proceedings of the conference on fairness, accountability, and transparency. 220\u2013229.",
+      "doi": "10.1145/3287560.3287596"
+    },
+    {
+      "text": "Deirdre\u00a0K Mulligan, Joshua\u00a0A Kroll, Nitin Kohli, and Richmond\u00a0Y Wong. 2019. This thing called fairness: Disciplinary confusion realizing a value in technology. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201336.",
+      "doi": "10.1145/3359221"
+    },
+    {
+      "text": "Shweta Narkar, Yunfeng Zhang, Q\u00a0Vera Liao, Dakuo Wang, and Justin\u00a0D Weisz. 2021. Model LineUpper: Supporting Interactive Model Comparison at Multiple Levels for AutoML. In 26th International Conference on Intelligent User Interfaces. 170\u2013174.",
+      "doi": "10.1145/3397481.3450658"
+    },
+    {
+      "text": "Besmira Nushi, Ece Kamar, Eric Horvitz, and Donald Kossmann. 2017. On human intellect and machine failures: Troubleshooting integrative machine learning systems. In Thirty-First AAAI Conference on Artificial Intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "Chris Olah, Alexander Mordvintsev, and Ludwig Schubert. 2017. Feature visualization. Distill 2, 11 (2017), e7.",
+      "doi": ""
+    },
+    {
+      "text": "Gary\u00a0M Olson, Sylvia Sheppard, and Elliot Soloway. 1987. Empirical studies of programmers: second workshop. Vol.\u00a02. Intellect Books.",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Papenmeier, Dagmar Kern, Daniel Hienert, Yvonne Kammerer, and Christin Seifert. 2022. How Accurate Does It Feel?\u2013Human Perception of Different Types of Classification Mistakes. In CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3491102.3501915"
+    },
+    {
+      "text": "Samir Passi and Steven\u00a0J Jackson. 2018. Trust in data science: Collaboration, translation, and accountability in corporate data science projects. Proceedings of the ACM on Human-Computer Interaction 2, CSCW(2018), 1\u201328.",
+      "doi": "10.1145/3274405"
+    },
+    {
+      "text": "Kayur Patel, Naomi Bancroft, Steven\u00a0M Drucker, James Fogarty, Amy\u00a0J Ko, and James Landay. 2010. Gestalt: integrated support for implementation and analysis in machine learning. In Proceedings of the 23nd annual ACM symposium on User interface software and technology. 37\u201346.",
+      "doi": "10.1145/1866029.1866038"
+    },
+    {
+      "text": "Michael Perscheid, Benjamin Siegmund, Marcel Taeumel, and Robert Hirschfeld. 2017. Studying the advancement in debugging practice of professional software developers. Software Quality Journal 25, 1 (2017), 83\u2013110.",
+      "doi": "10.1007/s11219-015-9294-2"
+    },
+    {
+      "text": "David Piorkowski, Soya Park, April\u00a0Yi Wang, Dakuo Wang, Michael Muller, and Felix Portnoy. 2021. How ai developers overcome communication challenges in a multidisciplinary team: A case study. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201325.",
+      "doi": "10.1145/3449205"
+    },
+    {
+      "text": "Tawsifur Rahman, Amith Khandakar, Yazan Qiblawey, Anas Tahir, Serkan Kiranyaz, Saad Bin\u00a0Abul Kashem, Mohammad\u00a0Tariqul Islam, Somaya Al\u00a0Maadeed, Susu\u00a0M Zughaier, Muhammad\u00a0Salman Khan, 2021. Exploring the effect of image enhancement techniques on COVID-19 detection using chest X-ray images. Computers in biology and medicine 132 (2021), 104319.",
+      "doi": ""
+    },
+    {
+      "text": "Iyad Rahwan, Manuel Cebrian, Nick Obradovich, Josh Bongard, Jean-Fran\u00e7ois Bonnefon, Cynthia Breazeal, Jacob\u00a0W Crandall, Nicholas\u00a0A Christakis, Iain\u00a0D Couzin, Matthew\u00a0O Jackson, 2019. Machine behaviour. Nature 568, 7753 (2019), 477\u2013486.",
+      "doi": ""
+    },
+    {
+      "text": "Nathalie Rauschmayr, Vikas Kumar, Rahul Huilgol, Andrea Olgiati, Satadal Bhattacharjee, Nihal Harish, Vandana Kannan, Amol Lele, Anirudh Acharya, Jared Nielsen, 2021. Amazon SageMaker Debugger: A System for Real-Time Insights into Machine Learning Model Training. Proceedings of Machine Learning and Systems 3 (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Donghao Ren, Saleema Amershi, Bongshin Lee, Jina Suh, and Jason\u00a0D Williams. 2016. Squares: Supporting interactive performance analysis for multiclass classifiers. IEEE transactions on visualization and computer graphics 23, 1(2016), 61\u201370.",
+      "doi": "10.1109/TVCG.2016.2598828"
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2016. \" Why should i trust you?\" Explaining the predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. 1135\u20131144.",
+      "doi": "10.1145/2939672.2939778"
+    },
+    {
+      "text": "John Richards, David Piorkowski, Michael Hind, Stephanie Houde, and Aleksandra Mojsilovi\u0107. 2020. A methodology for creating AI FactSheets. arXiv preprint arXiv:2006.13796(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Nripsuta\u00a0Ani Saxena, Karen Huang, Evan DeFilippis, Goran Radanovic, David\u00a0C Parkes, and Yang Liu. 2019. How do fairness definitions fare? Examining public attitudes towards algorithmic definitions of fairness. In Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society. 99\u2013106.",
+      "doi": "10.1145/3306618.3314248"
+    },
+    {
+      "text": "Frank Schneider, Felix Dangel, and Philipp Hennig. 2021. Cockpit: A Practical Debugging Tool for Training Deep Neural Networks. (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Eldon Schoop, Forrest Huang, and Bj\u00f6rn Hartmann. 2021. UMLAUT: Debugging Deep Learning Programs using Program Structure and Model Behavior. (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Shreya Shankar, Yoni Halpern, Eric Breck, James Atwood, Jimbo Wilson, and D Sculley. 2017. No classification without representation: Assessing geodiversity issues in open data sets for the developing world. arXiv preprint arXiv:1711.08536(2017).",
+      "doi": ""
+    },
+    {
+      "text": "R\u00a0Benjamin Shapiro, Rebecca Fiebrink, and Peter Norvig. 2018. How machine learning impacts the undergraduate computing curriculum. Commun. ACM 61, 11 (2018), 27\u201329.",
+      "doi": "10.1145/3277567"
+    },
+    {
+      "text": "Shahin Sharifi\u00a0Noorian, Sihang Qiu, Ujwal Gadiraju, Jie Yang, and Alessandro Bozzon. 2022. What Should You Know? A Human-In-the-Loop Approach to Unknown Unknowns Characterization in Image Recognition. In Proceedings of the ACM Web Conference 2022. 882\u2013892.",
+      "doi": "10.1145/3485447.3512040"
+    },
+    {
+      "text": "Nischal Shrestha, Titus Barik, and Chris Parnin. 2021. Remote, but Connected: How# TidyTuesday Provides an Online Community of Practice for Data Scientists.Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201331.",
+      "doi": ""
+    },
+    {
+      "text": "K Simonyan, A Vedaldi, and A Zisserman. 2014. Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps. In ICLR.",
+      "doi": ""
+    },
+    {
+      "text": "Sahil Singla, Besmira Nushi, Shital Shah, Ece Kamar, and Eric Horvitz. 2020. Understanding Failures of Deep Networks via Robust Feature Extraction. (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Leon Sixt, Maximilian Granz, and Tim Landgraf. 2020. When Explanations Lie: Why Many Modified BP Attributions Fail. In International Conference on Machine Learning. PMLR, 9046\u20139057.",
+      "doi": ""
+    },
+    {
+      "text": "Kacper Sokol and Peter Flach. 2020. Explainability fact sheets: a framework for systematic assessment of explainable approaches. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. 56\u201367.",
+      "doi": "10.1145/3351095.3372870"
+    },
+    {
+      "text": "Megha Srivastava, Hoda Heidari, and Andreas Krause. 2019. Mathematical notions vs. human perception of fairness: A descriptive approach to fairness for machine learning. In Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining. 2459\u20132468.",
+      "doi": "10.1145/3292500.3330664"
+    },
+    {
+      "text": "Thilo Stadelmann, Julian Keuzenkamp, Helmut Grabner, and Christoph W\u00fcrsch. 2021. The AI-atlas: didactics for teaching AI and machine learning on-site, online, and hybrid. Education Sciences 11, 7 (2021), 318.",
+      "doi": ""
+    },
+    {
+      "text": "Elisabeth Sulmont, Elizabeth Patitsas, and Jeremy\u00a0R Cooperstock. 2019. What is hard about teaching machine learning to non-majors? Insights from classifying instructors\u2019 learning goals. ACM Transactions on Computing Education (TOCE) 19, 4 (2019), 1\u201316.",
+      "doi": "10.1145/3336124"
+    },
+    {
+      "text": "Xiaobing Sun, Tianchi Zhou, Gengjie Li, Jiajun Hu, Hui Yang, and Bin Li. 2017. An empirical study on real bugs for machine learning programs. In 2017 24th Asia-Pacific Software Engineering Conference (APSEC). IEEE, 348\u2013357.",
+      "doi": ""
+    },
+    {
+      "text": "Harini Suresh, Steven\u00a0R Gomez, Kevin\u00a0K Nam, and A Satyanarayan. 2021. Beyond Expertise and Roles: A Framework to Characterize the Stakeholders of Interpretable Machine Learning and their Needs. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3411764.3445088"
+    },
+    {
+      "text": "Ferdian Thung, Shaowei Wang, David Lo, and Lingxiao Jiang. 2012. An empirical study of bugs in machine learning systems. In 2012 IEEE 23rd International Symposium on Software Reliability Engineering. IEEE, 271\u2013280.",
+      "doi": "10.1109/ISSRE.2012.22"
+    },
+    {
+      "text": "Tatiana Tommasi, Novi Patricia, Barbara Caputo, and Tinne Tuytelaars. 2017. A deeper look at dataset bias. In Domain adaptation in computer vision applications. Springer, 37\u201355.",
+      "doi": ""
+    },
+    {
+      "text": "Antonio Torralba and Alexei\u00a0A Efros. 2011. Unbiased look at dataset bias. In CVPR 2011. IEEE, 1521\u20131528.",
+      "doi": "10.1109/CVPR.2011.5995347"
+    },
+    {
+      "text": "Mohammad\u00a0Moeen Valipoor and Ang\u00e9lica de Antonio. 2022. Recent trends in computer vision-driven scene understanding for VI/blind users: a systematic mapping. Universal Access in the Information Society(2022), 1\u201323.",
+      "doi": ""
+    },
+    {
+      "text": "Elmira van\u00a0den Broek, Anastasia Sergeeva, and Marleen Huysman. 2021. WHEN THE MACHINE MEETS THE EXPERT: AN ETHNOGRAPHY OF DEVELOPING AI FOR HIRING.MIS Quarterly 45, 3 (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Laurens Van\u00a0der Maaten and Geoffrey Hinton. 2008. Visualizing data using t-SNE.Journal of machine learning research 9, 11 (2008).",
+      "doi": ""
+    },
+    {
+      "text": "Sahil Verma and Julia Rubin. 2018. Fairness definitions explained. In 2018 ieee/acm international workshop on software fairness (fairware). IEEE, 1\u20137.",
+      "doi": "10.1145/3194770.3194776"
+    },
+    {
+      "text": "Anneliese von Mayrhauser and A\u00a0Marie Vans. 1997. Program understanding behavior during debugging of large scale software. In Papers presented at the seventh workshop on Empirical studies of programmers. 157\u2013179.",
+      "doi": ""
+    },
+    {
+      "text": "Zhiyuan Wan, Xin Xia, David Lo, and Gail\u00a0C Murphy. 2019. How does machine learning change software development practices?IEEE Transactions on Software Engineering 47, 9 (2019), 1857\u20131871.",
+      "doi": ""
+    },
+    {
+      "text": "Angelina Wang, Alexander Liu, Ryan Zhang, Anat Kleiman, Leslie Kim, Dora Zhao, Iroha Shirai, Arvind Narayanan, and Olga Russakovsky. 2022. REVISE: A tool for measuring and mitigating bias in visual datasets. International Journal of Computer Vision(2022), 1\u201321.",
+      "doi": ""
+    },
+    {
+      "text": "Dakuo Wang, Elizabeth Churchill, Pattie Maes, Xiangmin Fan, Ben Shneiderman, Yuanchun Shi, and Qianying Wang. 2020. From human-human collaboration to Human-AI collaboration: Designing AI systems that can work together with people. In Extended abstracts of the 2020 CHI conference on human factors in computing systems. 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Way, Mary-Angela Papalaskari, Lillian Cassel, Paula Matuszek, Carol Weiss, and Yamini\u00a0Praveena Tella. 2017. Machine learning modules for all disciplines. In Proceedings of the 2017 acm conference on innovation and technology in computer science education. 84\u201385.",
+      "doi": "10.1145/3059009.3072979"
+    },
+    {
+      "text": "James Wexler, Mahima Pushkarna, Tolga Bolukbasi, Martin Wattenberg, Fernanda Vi\u00e9gas, and Jimbo Wilson. 2019. The what-if tool: Interactive probing of machine learning models. IEEE transactions on visualization and computer graphics 26, 1(2019), 56\u201365.",
+      "doi": ""
+    },
+    {
+      "text": "Yao Xie, Melody Chen, David Kao, Ge Gao, and Xiang\u2019Anthony\u2019 Chen. 2020. CheXplain: Enabling Physicians to Explore and Understand Data-Driven, AI-Enabled Medical Imaging Analysis. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376807"
+    },
+    {
+      "text": "Qian Yang, Jina Suh, Nan-Chen Chen, and Gonzalo Ramos. 2018. Grounding interactive machine learning tool design in how non-experts actually build models. In Proceedings of the 2018 designing interactive systems conference. 573\u2013584.",
+      "doi": "10.1145/3196709.3196729"
+    },
+    {
+      "text": "Alexey Zagalsky, Dov Te\u2019eni, Inbal Yahav, David\u00a0G Schwartz, Gahl Silverman, Daniel Cohen, Yossi Mann, and Dafna Lewinsky. 2021. The design of reciprocal learning between human and artificial intelligence. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201336.",
+      "doi": "10.1145/3479587"
+    },
+    {
+      "text": "Amy\u00a0X Zhang, Michael Muller, and Dakuo Wang. 2020. How do data science workers collaborate? roles, workflows, and tools. Proceedings of the ACM on Human-Computer Interaction 4, CSCW1(2020), 1\u201323.",
+      "doi": "10.1145/3392826"
+    },
+    {
+      "text": "Jiawei Zhang, Yang Wang, Piero Molino, Lezhi Li, and David\u00a0S Ebert. 2018. Manifold: A model-agnostic framework for interpretation and diagnosis of machine learning models. IEEE transactions on visualization and computer graphics 25, 1(2018), 364\u2013373.",
+      "doi": ""
+    },
+    {
+      "text": "Jie\u00a0M Zhang, Mark Harman, Lei Ma, and Yang Liu. 2020. Machine learning testing: Survey, landscapes and horizons. IEEE Transactions on Software Engineering(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Qiaoning Zhang, Matthew\u00a0L Lee, and Scott Carter. 2022. You Complete Me: Human-AI Teams and Complementary Expertise. In CHI Conference on Human Factors in Computing Systems. 1\u201328.",
+      "doi": ""
+    },
+    {
+      "text": "Ru Zhang, Wencong Xiao, Hongyu Zhang, Yu Liu, Haoxiang Lin, and Mao Yang. 2020. An empirical study on program failures of deep learning jobs. In 2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE). IEEE, 1159\u20131170.",
+      "doi": "10.1145/3377811.3380362"
+    },
+    {
+      "text": "Wencan Zhang and Brian\u00a0Y Lim. 2022. Towards Relatable Explainable AI with the Perceptual Process. In CHI Conference on Human Factors in Computing Systems. 1\u201324.",
+      "doi": ""
+    },
+    {
+      "text": "Zijian Zhang, Jaspreet Singh, Ujwal Gadiraju, and Avishek Anand. 2019. Dissonance between human and machine understanding. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201323.",
+      "doi": "10.1145/3359158"
+    },
+    {
+      "text": "Peng Zhao, Yu-Jie Zhang, and Zhi-Hua Zhou. 2021. Exploratory machine learning with unknown unknowns. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol.\u00a035. 10999\u201311006.",
+      "doi": ""
+    }
+  ]
+}

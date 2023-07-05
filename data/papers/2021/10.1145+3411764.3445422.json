@@ -1,0 +1,147 @@
+{
+  "doi": "10.1145/3411764.3445422",
+  "title": "Coupling Simulation and Hardware for Interactive Circuit Debugging",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Simulation offers many advantages when designing analog circuits. Designers can explore alternatives quickly, without added cost or risk of hardware faults. However, it is challenging to use simulation as an aid during interactive debugging of physical circuits, due to difficulties in comparing simulated analyses with hardware measurements. Designers must continually configure simulations to match the state of the physical circuit (e.g. capturing sensor inputs), and must manually rework the hardware to replicate changes or analyses performed in simulation. We propose techniques leveraging instrumentation and programmable test hardware to create a tight coupling between a physical circuit and its simulated model. Bridging these representations helps designers to compare simulated and measured behaviors, and to quickly perform analytical techniques on hardware (e.g. parameter-response analysis) that are typically cumbersome outside of simulation. We implement these techniques in a prototype and show how it aids in efficiently debugging a variety of analog circuits.",
+  "authors": [
+    {
+      "name": "Evan Strasnick",
+      "institution": "Stanford University, United States",
+      "img": "/do/10.1145/contrib-99659080917/rel-imgonly/headshot.jpg",
+      "acmid": "99659080917",
+      "orcid": "missing"
+    },
+    {
+      "name": "Maneesh Agrawala",
+      "institution": "Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100346089",
+      "orcid": "missing"
+    },
+    {
+      "name": "Sean Follmer",
+      "institution": "Mechanical Engineering Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81377593653",
+      "orcid": "0000-0001-5592-5949"
+    }
+  ],
+  "references": [
+    {
+      "text": "[n.d.]. Ngspice \u2013 The open source spice circuit simulator. http://ngspice.sourceforge.net/",
+      "doi": ""
+    },
+    {
+      "text": "Analog Devices. 2015. TMP35/TMP36/TMP37. https://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Sameh Attia and Vaughn Betz. 2020. StateMover: Combining Simulation and Hardware Execution for Efficient FPGA Debugging. In The 2020 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays(FPGA \u201920). Association for Computing Machinery, New York, NY, USA, 175\u2013185. https://doi.org/10.1145/3373087.3375307",
+      "doi": "10.1145/3373087.3375307"
+    },
+    {
+      "text": "Autodesk. 2018. EAGLE PCB Design Software. https://www.autodesk.com/products/eagle/overview",
+      "doi": ""
+    },
+    {
+      "text": "M Bacic. 2005. On hardware-in-the-loop simulation. In Proceedings of the 44th IEEE Conference on Decision and Control. 3194\u20133198. https://doi.org/10.1109/CDC.2005.1582653",
+      "doi": ""
+    },
+    {
+      "text": "S Banerjee and T Gupta. 2012. Fast and scalable hybrid functional verification and debug with dynamically reconfigurable co-simulation. In 2012 IEEE/ACM International Conference on Computer-Aided Design (ICCAD). 115\u2013122.",
+      "doi": "10.1145/2429384.2429406"
+    },
+    {
+      "text": "P Caunegre and C Abraham. 1995. Achieving simulation-based test program verification and fault simulation capabilities for mixed-signal systems. In Proceedings the European Design and Test Conference. ED TC 1995. 469\u2013477. https://doi.org/10.1109/EDTC.1995.470318",
+      "doi": "10.5555/787258.787478"
+    },
+    {
+      "text": "Analog Devices. 2018. ADG732 Datasheet and Product Info. http://www.analog.com/en/products/adg732.html",
+      "doi": ""
+    },
+    {
+      "text": "Pragun Goyal, Harshit Agrawal, Joseph\u00a0A. Paradiso, and Pattie Maes. 2013. BoardLab. In Proceedings of the Adjunct Publication of the 26th Annual ACM Symposium on User Interface Software and Technology - UIST \u201913 Adjunct. ACM Press, New York, New York, USA, 19\u201320. https://doi.org/10.1145/2508468.2514936",
+      "doi": "10.1145/2508468.2514936"
+    },
+    {
+      "text": "Bj\u00f6rn Hartmann, Loren Yu, Abel Allison, Yeonsoo Yang, and Scott\u00a0R. Klemmer. 2008. Design as Exploration: Creating Interface Alternatives through Parallel Authoring and Runtime Tuning. In Proceedings of the 21st Annual ACM Symposium on User Interface Software and Technology (Monterey, CA, USA) (UIST \u201908). Association for Computing Machinery, New York, NY, USA, 91\u2013100. https://doi.org/10.1145/1449715.1449732",
+      "doi": "10.1145/1449715.1449732"
+    },
+    {
+      "text": "Lipeng Ji and Xiaohui Hu. 2018. Analog circuit soft-fault diagnosis based on sensitivity analysis with minimum fault number rule. Analog Integrated Circuits and Signal Processing 95, 1 (apr 2018), 163\u2013171. https://doi.org/10.1007/s10470-018-1111-y",
+      "doi": "10.1007/s10470-018-1111-y"
+    },
+    {
+      "text": "JTAG Technologies. 2018. Boundary Scan In-Circuit Programming. https://www.jtag.com/",
+      "doi": ""
+    },
+    {
+      "text": "Mitchell Karchemsky, J.D. Zamfirescu-Pereira, Kuan-Ju Wu, Fran\u00e7ois Guimbreti\u00e8re, and Bj\u00f6rn Hartmann. 2019. Heimdall: A Remotely Controlled Inspection Workbench For Debugging Microcontroller Projects. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300728",
+      "doi": "10.1145/3290605.3300728"
+    },
+    {
+      "text": "Yoonji Kim, Youngkyung Choi, Hyein Lee, Geehyuk Lee, and Andrea Bianchi. 2019. VirtualComponent: A Mixed-Reality Tool for Designing and Tuning Breadboarded Circuits. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3290605.3300407",
+      "doi": "10.1145/3290605.3300407"
+    },
+    {
+      "text": "J. Marks, B. Andalman, P.\u00a0A. Beardsley, W. Freeman, S. Gibson, J. Hodgins, T. Kang, B. Mirtich, H. Pfister, W. Ruml, K. Ryall, J. Seims, and S. Shieber. 1997. Design Galleries: A General Approach to Setting Parameters for Computer Graphics and Animation. In Proceedings of the 24th Annual Conference on Computer Graphics and Interactive Techniques(SIGGRAPH \u201997). ACM Press/Addison-Wesley Publishing Co., USA, 389\u2013400. https://doi.org/10.1145/258734.258887",
+      "doi": "10.1145/258734.258887"
+    },
+    {
+      "text": "Will McGrath, Daniel Drew, Jeremy Warner, Majeed Kazemitabaar, Mitchell Karchemsky, David Mellis, and Bj\u00f6rn Hartmann. 2017. Bifr\u00f6st: Visualizing and Checking Behavior of Embedded Systems Across Hardware and Software. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology - UIST \u201917. ACM Press, New York, NY, USA, 299\u2013310. https://doi.org/10.1145/3126594.3126658",
+      "doi": "10.1145/3126594.3126658"
+    },
+    {
+      "text": "Laurence\u00a0W. Nagel and D.O. Pederson. 1973. SPICE (Simulation Program with Integrated Circuit Emphasis). Technical Report UCB/ERL M382. EECS Department, University of California, Berkeley. http://www2.eecs.berkeley.edu/Pubs/TechRpts/1973/22871.html",
+      "doi": ""
+    },
+    {
+      "text": "Parallax Inc. 2020. Sound Impact Sensor | 29132. https://www.parallax.com/product/29132",
+      "doi": ""
+    },
+    {
+      "text": "PJRC. 2020. Teensy USB Development Board. https://www.pjrc.com/store/teensy36.html",
+      "doi": ""
+    },
+    {
+      "text": "Fabrice Salvaire. [n.d.]. PySpice: Simulate electronic circuit using Python and the Ngspice / Xyce simulators. https://github.com/FabriceSalvaire/PySpice",
+      "doi": ""
+    },
+    {
+      "text": "Mustapha Siamani and Bozena Kaminsi. 1992. Analog Circuit Fault Diagnosis Based on Sensitivity Computation and Functional Testing. IEEE Design and Test of Computers 9, 1 (1992), 30\u201339. https://doi.org/10.1109/54.124515",
+      "doi": "10.1109/54.124515"
+    },
+    {
+      "text": "STMicroelectronics. 2010. AN3222 Application Note. https://www.st.com/content/ccc/resource/technical/document/application_note/d5/2e/49/2b/29/73/4c/46/CD00274901.pdf/files/CD00274901.pdf/jcr:content/translations/en.CD00274901.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Evan Strasnick, Sean Follmer, and Maneesh Agrawala. 2019. Pinpoint: A PCB Debugging Pipeline Using Interruptible Routing and Instrumentation. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. New York, New York, USA, 1\u201311.",
+      "doi": "10.1145/3290605.3300278"
+    },
+    {
+      "text": "Coto Technology. 2020. CotoMOS\u00ae C226S/C326S. https://www.cotorelay.com/product/c226s_c326s_series_mosfetrelay/",
+      "doi": ""
+    },
+    {
+      "text": "Michael Terry, Elizabeth\u00a0D. Mynatt, Kumiyo Nakakoji, and Yasuhiro Yamamoto. 2004. Variation in Element and Action: Supporting Simultaneous Development of Alternative Solutions. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vienna, Austria) (CHI \u201904). Association for Computing Machinery, New York, NY, USA, 711\u2013718. https://doi.org/10.1145/985692.985782",
+      "doi": "10.1145/985692.985782"
+    },
+    {
+      "text": "K\u00a0A Tomko and A Tiwari. 2000. Hardware/software co-debugging for reconfigurable computing. In Proceedings IEEE International High-Level Design Validation and Test Workshop (Cat. No.PR00786). 59\u201363. https://doi.org/10.1109/HLDVT.2000.889560",
+      "doi": ""
+    },
+    {
+      "text": "Te-Yen Wu, Mike\u00a0Y. Chen, Bryan Wang, Jiun-Yu Lee, Hao-Ping Shen, Yu-Chian Wu, Yu-An Chen, Pin-Sung Ku, Ming-Wei Hsu, and Yu-Chih Lin. 2017. CircuitSense. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology - UIST \u201917. ACM Press, New York, New York, USA, 311\u2013319. https://doi.org/10.1145/3126594.3126634",
+      "doi": ""
+    },
+    {
+      "text": "Te-Yen Wu, Hao-Ping Shen, Yu-Chian Wu, Yu-An Chen, Pin-Sung Ku, Ming-Wei Hsu, Jun-You Liu, Yu-Chih Lin, and Mike\u00a0Y. Chen. 2017. CurrentViz. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology - UIST \u201917. ACM Press, New York, New York, USA, 343\u2013349. https://doi.org/10.1145/3126594.3126646",
+      "doi": ""
+    }
+  ]
+}

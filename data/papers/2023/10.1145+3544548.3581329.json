@@ -1,0 +1,696 @@
+{
+  "doi": "10.1145/3544548.3581329",
+  "title": "Challenges of Moderating Social Virtual Reality",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Recent years have seen a rise in social virtual reality (VR) platforms that allow people to interact in real-time through voice and gestures. The ephemeral nature of communication on these platforms can enable new forms of harmful behavior and new challenges for moderators. We performed virtual field research on three VR environments (AltspaceVR, Horizon Worlds, Rec Room). Based on observing 100 scheduled events, our analysis uncovered 13 distinct types of potentially harmful behaviors enabled by real-time voice, embodied interactions, and platform affordances. We witnessed potential harm at 45% of our observed events; only 24% of these incidents were addressed by moderators. To understand moderation practices, we conducted interviews with 11 moderators to investigate how they assess real-time interactions and how they operate within the current state of moderation tools. Our work sheds light on how moderation tools and practices must evolve to meet the new challenges of social VR.",
+  "authors": [
+    {
+      "name": "Nazanin Sabri",
+      "institution": "Department of Computer Science and Engineering, University of California, San Diego, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659864133",
+      "orcid": "0000-0002-0861-9444"
+    },
+    {
+      "name": "Bella Chen",
+      "institution": "University of California, San Diego, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779154",
+      "orcid": "0000-0002-4268-9817"
+    },
+    {
+      "name": "Annabelle Teoh",
+      "institution": "Design Lab UCSD, University of California, San Diego, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660778346",
+      "orcid": "0000-0002-1658-3146"
+    },
+    {
+      "name": "Steven P. Dow",
+      "institution": "Dept of Cognitive Science, University of California, San Diego, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81758794857",
+      "orcid": "0000-0002-1354-9866"
+    },
+    {
+      "name": "Kristen Vaccaro",
+      "institution": "Department of Computer Science and Engineering, University of California, San Diego, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99658699068",
+      "orcid": "0000-0002-9843-942X"
+    },
+    {
+      "name": "Mai Elsherief",
+      "institution": "Department of Computer Science and Engineering, University of California, San Diego, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "82259053057",
+      "orcid": "0000-0003-4718-5201"
+    }
+  ],
+  "references": [
+    {
+      "text": "Microsoft.(2023). AltspaceVR: Host tools overview. https://learn.microsoft.com/en-us/windows/mixed-reality/altspace-vr/getting-started/roles. Accessed: 2023-02-13.",
+      "doi": ""
+    },
+    {
+      "text": "Jacinda Santora.(2022). Clubhouse Statistics: Revenue, Users and More (2022). https://influencermarketinghub.com/clubhouse-stats/#toc-0. Accessed: 2022-08-16.",
+      "doi": ""
+    },
+    {
+      "text": "ThinkImpact.Clubhouse User Statistics. https://www.thinkimpact.com/clubhouse-statistics/. Accessed: 2022-08-16.",
+      "doi": ""
+    },
+    {
+      "text": "Fandom.Discord Wiki. https://discord.fandom.com/wiki/Discord. Accessed: 2022-09-02.",
+      "doi": ""
+    },
+    {
+      "text": "David Pierce.(2020). How Discord (somewhat accidentally) invented the future of the internet. https://www.protocol.com/discord. Accessed: 2022-09-02.",
+      "doi": ""
+    },
+    {
+      "text": "Kris Holt.(2022). Meta adds \u2018personal boundaries\u2019 to Horizon Worlds and Venues to fight harassment. https://techcrunch.com/2022/02/04/meta-adds-personal-boundaries-to-horizon-worlds-and-venues-to-fight-harassment/. Accessed: 2022-08-16.",
+      "doi": ""
+    },
+    {
+      "text": "Adi Robertson.(2022). Meta is adding a \u2018personal boundary\u2019 to VR avatars to stop harassment. https://www.theverge.com/2022/2/4/22917722/meta-horizon-worlds-venues-metaverse-harassment-groping-personal-boundary-feature. Accessed: 2022-08-16.",
+      "doi": ""
+    },
+    {
+      "text": "Alex Heath.(2022). Meta\u2019s social VR platform Horizon hits 300,000 users. https://www.theverge.com/2022/2/17/22939297/meta-social-vr-platform-horizon-300000-users. Accessed: 2022-08-16.",
+      "doi": ""
+    },
+    {
+      "text": "Rec Room.A Parent\u2019s Guide to Rec Room. https://recroom.com/parents-guide. Accessed: 2022-08-16.",
+      "doi": ""
+    },
+    {
+      "text": "Rec Room.REC ROOM: Appealing a Ban. https://rec.net/ban-appeal. Accessed: 2022-12-12.",
+      "doi": ""
+    },
+    {
+      "text": "Meta.(2022). Supplemental Horizon Worlds Terms of Service. https://www.meta.com/legal/quest/terms-of-service/. Accessed: 2022-08-16.",
+      "doi": ""
+    },
+    {
+      "text": "Meta Horizon.(2022). Tweet by Horizon Worlds\u2019 official Twitter account about the number of worlds. https://twitter.com/MetaHorizon/status/1494007916990373895. Accessed: 2022-08-16.",
+      "doi": ""
+    },
+    {
+      "text": "Mark Pappas and Julie Hurvitz Aliaga. (2021). Voice-Based Social Networks: Understanding and Leveraging the Clubhouse Trend. https://cmimediagroup.com/resources/voice-based-social-networks-understanding-and-leveraging-the-clubhouse-trend/. Accessed: 2022-09-02.",
+      "doi": ""
+    },
+    {
+      "text": "Rec Room.What is a Junior Account?https://recroom.zendesk.com/hc/en-us/articles/4426900227735-What-is-a-Junior-Account-. Accessed: 2022-08-16.",
+      "doi": ""
+    },
+    {
+      "text": "Ashwin Ram.(2021). Why audio-based social media is the future. https://www.zoho.com/social/journal/audio-based-socialmedia.html. Accessed: 2022-09-02.",
+      "doi": ""
+    },
+    {
+      "text": "Caty McCarthy.The \u201cspace bubble\u201d ensures you always have personal space in VR. https://killscreen.com/versions/users-can-no-longer-encroach-personal-space-thanks-altspaces-space-bubble/. Accessed: 2022-08-16.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0JC Adachi and Teena Willoughby. 2011. The effect of violent video games on aggression: Is it more than just the violence?Aggression and Violent behavior 16, 1 (2011), 55\u201362.",
+      "doi": ""
+    },
+    {
+      "text": "Haider\u00a0M al Khateeb and Gregory Epiphaniou. 2016. How technology can mitigate and counteract cyber-stalking and online grooming. Computer Fraud & Security 2016, 1 (2016), 14\u201318.",
+      "doi": ""
+    },
+    {
+      "text": "Marina Am\u00e2ncio. 2017. \u201cPut it in your Story\u201d: Digital Storytelling in Instagram and Snapchat Stories.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Aneke, Carmelo Ardito, and Giuseppe Desolda. 2021. Help the User Recognize a Phishing Scam: Design of Explanation Messages in Warning Interfaces for Phishing Attacks. In International Conference on Human-Computer Interaction. Springer, 403\u2013416.",
+      "doi": "10.1007/978-3-030-77392-2_26"
+    },
+    {
+      "text": "Florian Arendt. 2019. Suicide on Instagram\u2014Content analysis of a German suicide-related hashtag.Crisis: The Journal of Crisis Intervention and Suicide Prevention 40, 1(2019), 36.",
+      "doi": ""
+    },
+    {
+      "text": "Florian Arendt, Sebastian Scherr, and Daniel Romer. 2019. Effects of exposure to self-harm on social media: Evidence from a two-wave panel study among young adults. New Media & Society 21, 11-12 (2019), 2422\u20132442.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Arsht and Daniel Etcovitch. 2018. The human cost of online content moderation. Harvard Journal of Law and Technology(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Emmanuel\u00a0W Ayaburi and Daniel\u00a0N Treku. 2020. Effect of penitence on social media trust and privacy concerns: The case of Facebook. International Journal of Information Management 50 (2020), 171\u2013181.",
+      "doi": "10.1016/j.ijinfomgt.2019.05.014"
+    },
+    {
+      "text": "Jack Bandy. 2021. Problematic machine behavior: A systematic literature review of algorithm audits. Proceedings of the acm on human-computer interaction 5, CSCW1(2021), 1\u201334.",
+      "doi": "10.1145/3449148"
+    },
+    {
+      "text": "Shaowen Bardzell. 2010. Feminist HCI: taking stock and outlining an agenda for design. In Proceedings of the SIGCHI conference on human factors in computing systems. 1301\u20131310.",
+      "doi": "10.1145/1753326.1753521"
+    },
+    {
+      "text": "Joseph\u00a0B Bayer, Nicole\u00a0B Ellison, Sarita\u00a0Y Schoenebeck, and Emily\u00a0B Falk. 2016. Sharing the small moments: ephemeral social interaction on Snapchat. Information, Communication & Society 19, 7 (2016), 956\u2013977.",
+      "doi": ""
+    },
+    {
+      "text": "Nicole\u00a0A Beres, Julian Frommel, Elizabeth Reid, Regan\u00a0L Mandryk, and Madison Klarkowski. 2021. Don\u2019t you know that you\u2019re toxic: Normalization of toxicity in online gaming. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3411764.3445157"
+    },
+    {
+      "text": "Joanna Bergstr\u00f6m, Tor-Salve Dalsgaard, Jason Alexander, and Kasper Hornb\u00e6k. 2021. How to evaluate object selection and manipulation in VR? Guidelines from 20 years of studies. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201320.",
+      "doi": "10.1145/3411764.3445193"
+    },
+    {
+      "text": "Candice Biernesser, Craig\u00a0JR Sewall, David Brent, Todd Bear, Christina Mair, and Jeanette Trauth. 2020. Social media use and deliberate self-harm among youth: A systematized narrative review. Children and youth services review 116 (2020), 105054.",
+      "doi": ""
+    },
+    {
+      "text": "Lindsay Blackwell, Nicole Ellison, Natasha Elliott-Deflo, and Raz Schwartz. 2019. Harassment in social virtual reality: Challenges for platform governance. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201325.",
+      "doi": "10.1145/3359202"
+    },
+    {
+      "text": "Danielle Blunt, Ariel Wolf, Emily Coombes, and Shanelle Mullin. 2020. Posting into the void: Studying the impact of shadowbanning on sex workers and activists. Retrieved September 6(2020), 2021.",
+      "doi": ""
+    },
+    {
+      "text": "Tom Boellstorff, Bonnie Nardi, Celia Pearce, and Tina\u00a0L Taylor. 2012. Ethnography and virtual worlds. Princeton University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Rebecca\u00a0C Brown, Tin Fischer, David\u00a0A Goldwich, and Paul\u00a0L Plener. 2020. \u201cI just finally wanted to belong somewhere\u201d\u2014Qualitative Analysis of Experiences With Posting Pictures of Self-Injury on Instagram. Frontiers in psychiatry 11 (2020), 274.",
+      "doi": ""
+    },
+    {
+      "text": "Pete Burnap, Walter Colombo, and Jonathan Scourfield. 2015. Machine classification and analysis of suicide-related communication on twitter. In Proceedings of the 26th ACM conference on hypertext & social media. 75\u201384.",
+      "doi": "10.1145/2700171.2791023"
+    },
+    {
+      "text": "Jie Cai and Donghee\u00a0Yvette Wohn. 2021. After Violation But Before Sanction: Understanding Volunteer Moderators\u2019 Profiling Processes Toward Violators in Live Streaming Communities. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201325.",
+      "doi": ""
+    },
+    {
+      "text": "Jie Cai and Donghee\u00a0Yvette Wohn. 2022. Coordination and Collaboration: How do Volunteer Moderators Work as a Team in Live Streaming Communities?. In CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3491102.3517628"
+    },
+    {
+      "text": "Despoina Chatzakou, Nicolas Kourtellis, Jeremy Blackburn, Emiliano De\u00a0Cristofaro, Gianluca Stringhini, and Athena Vakali. 2017. Measuring# GamerGate: A tale of hate, sexism, and bullying. In Proceedings of the 26th international conference on world wide web companion. 1285\u20131290.",
+      "doi": "10.1145/3041021.3053890"
+    },
+    {
+      "text": "Mauro Coletto, Luca\u00a0Maria Aiello, Claudio Lucchese, and Fabrizio Silvestri. 2016. Pornography consumption in social media. arXiv preprint arXiv:1612.08157(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Elisabetta Costa. 2018. Affordances-in-practice: An ethnographic critique of social media logic and context collapse. New Media & Society 20, 10 (2018), 3641\u20133656.",
+      "doi": ""
+    },
+    {
+      "text": "Lorrie\u00a0Faith Cranor and Simson Garfinkel. 2005. Security and usability: designing secure systems that people can use. \" O\u2019Reilly Media, Inc.\".",
+      "doi": ""
+    },
+    {
+      "text": "Munmun De\u00a0Choudhury and Emre Kiciman. 2017. The language of social support in social media and its effect on suicidal ideation risk. In Eleventh International AAAI Conference on Web and Social Media.",
+      "doi": ""
+    },
+    {
+      "text": "Michele\u00a0P Dyson, Lisa Hartling, Jocelyn Shulhan, Annabritt Chisholm, Andrea Milne, Purnima Sundar, Shannon\u00a0D Scott, and Amanda\u00a0S Newton. 2016. A systematic review of social media use to discuss and view deliberate self-harm acts. PloS one 11, 5 (2016), e0155813.",
+      "doi": ""
+    },
+    {
+      "text": "Ullrich\u00a0KH Ecker, Stephan Lewandowsky, and David\u00a0TW Tang. 2010. Explicit warnings reduce but do not eliminate the continued influence of misinformation. Memory & cognition 38, 8 (2010), 1087\u20131100.",
+      "doi": ""
+    },
+    {
+      "text": "Mai ElSherief, Vivek Kulkarni, Dana Nguyen, William\u00a0Yang Wang, and Elizabeth Belding. 2018. Hate lingo: A target-based linguistic analysis of hate speech in social media. In Proceedings of the International AAAI Conference on Web and Social Media, Vol.\u00a012.",
+      "doi": ""
+    },
+    {
+      "text": "Mai ElSherief, Caleb Ziems, David Muchlinski, Vaishnavi Anupindi, Jordyn Seybolt, Munmun De\u00a0Choudhury, and Diyi Yang. 2021. Latent Hatred: A Benchmark for Understanding Implicit Hate Speech. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing. 345\u2013363.",
+      "doi": ""
+    },
+    {
+      "text": "Charlotte Emma\u00a0Hilton. 2017. Unveiling self-harm behaviour: what can social media site Twitter tell us about self-harm? A qualitative exploration. Journal of clinical nursing 26, 11-12 (2017), 1690\u20131704.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0A Epstein, Siyun Ji, Danny Beltran, Griffin D\u2019Haenens, Zhaomin Li, and Tan Zhou. 2020. Exploring design principles for sharing of personal informatics data on ephemeral social media. Proceedings of the ACM on Human-Computer Interaction 4, CSCW2(2020), 1\u201324.",
+      "doi": "10.1145/3415166"
+    },
+    {
+      "text": "Rubia Fatima, Affan Yasin, Lin Liu, and Jianmin Wang. 2019. How persuasive is a phishing email? A phishing game for phishing awareness. Journal of Computer Security 27, 6 (2019), 581\u2013612.",
+      "doi": "10.3233/JCS-181253"
+    },
+    {
+      "text": "Christopher\u00a0John Ferguson. 2007. The good, the bad and the ugly: A meta-analytic review of positive and negative effects of violent video games. Psychiatric quarterly 78, 4 (2007), 309\u2013316.",
+      "doi": ""
+    },
+    {
+      "text": "Emilio Ferrara, Stefano Cresci, and Luca Luceri. 2020. Misinformation, manipulation, and abuse on social media in the era of COVID-19. Journal of Computational Social Science 3, 2 (2020), 271\u2013277.",
+      "doi": ""
+    },
+    {
+      "text": "Jessica\u00a0L Feuston, Alex\u00a0S Taylor, and Anne\u00a0Marie Piper. 2020. Conformity of eating disorders through content moderation. Proceedings of the ACM on Human-Computer Interaction 4, CSCW1(2020), 1\u201328.",
+      "doi": "10.1145/3392845"
+    },
+    {
+      "text": "Casey Fiesler, Joshua McCann, Kyle Frye, Jed\u00a0R Brubaker, 2018. Reddit rules! characterizing an ecosystem of governance. In Twelfth International AAAI Conference on Web and Social Media.",
+      "doi": ""
+    },
+    {
+      "text": "Guo Freeman and Dane Acena. 2021. Hugging from A Distance: Building Interpersonal Relationships in Social Virtual Reality. In ACM International Conference on Interactive Media Experiences. 84\u201395.",
+      "doi": "10.1145/3452918.3458805"
+    },
+    {
+      "text": "Guo Freeman and Dane Acena. 2022. \" Acting Out\" Queer Identity: The Embodied Visibility in Social Virtual Reality. Proceedings of the ACM on Human-Computer Interaction 6, CSCW2(2022), 1\u201332.",
+      "doi": "10.1145/3555153"
+    },
+    {
+      "text": "Guo Freeman, Divine Maloney, Dane Acena, and Catherine Barwulor. 2022. (Re) discovering the Physical Body Online: Strategies and Challenges to Approach Non-Cisgender Identity in Social Virtual Reality. In CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3491102.3502082"
+    },
+    {
+      "text": "Guo Freeman, Samaneh Zamanifard, Divine Maloney, and Dane Acena. 2022. Disturbing the Peace: Experiencing and Mitigating Emerging Harassment in Social Virtual Reality. Proceedings of the ACM on Human-Computer Interaction 6, CSCW1(2022), 1\u201330.",
+      "doi": "10.1145/3512932"
+    },
+    {
+      "text": "Guo Freeman, Samaneh Zamanifard, Divine Maloney, and Alexandra Adkins. 2020. My body, my avatar: How people perceive their avatars in social virtual reality. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u20138.",
+      "doi": "10.1145/3334480.3382923"
+    },
+    {
+      "text": "Bharath Ganesh and Jonathan Bright. 2020. Countering extremists on social media: Challenges for strategic communication and content moderation., 6\u201319\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Tarleton Gillespie. 2018. Custodians of the Internet: Platforms, content moderation, and the hidden decisions that shape social media. Yale University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Tarleton Gillespie. 2020. Content moderation, AI, and the question of scale. Big Data & Society 7, 2 (2020), 2053951720943234.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Gorwa, Reuben Binns, and Christian Katzenbach. 2020. Algorithmic content moderation: Technical and political challenges in the automation of platform governance. Big Data & Society 7, 1 (2020), 2053951719897945.",
+      "doi": ""
+    },
+    {
+      "text": "James Grimmelmann. 2015. The virtues of moderation. Yale JL & Tech. 17(2015), 42.",
+      "doi": ""
+    },
+    {
+      "text": "Oliver\u00a0L Haimson, Daniel Delmonaco, Peipei Nie, and Andrea Wegner. 2021. Disproportionate removals and differing content moderation experiences for conservative, transgender, and black social media users: Marginalization and moderation gray areas. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201335.",
+      "doi": "10.1145/3479610"
+    },
+    {
+      "text": "Benjamin Hanckel, Son Vivienne, Paul Byron, Brady Robards, and Brendan Churchill. 2019. \u2018That\u2019s not necessarily for them\u2019: LGBTIQ+ young people, social media platform affordances and identity curation. Media, Culture & Society 41, 8 (2019), 1261\u20131278.",
+      "doi": ""
+    },
+    {
+      "text": "Jim Hollan and Scott Stornetta. 1992. Beyond being there. In Proceedings of the SIGCHI conference on Human factors in computing systems. 119\u2013125.",
+      "doi": "10.1145/142750.142769"
+    },
+    {
+      "text": "Qianjia Huang, Diana Inkpen, Jianhong Zhang, and David Van\u00a0Bruwaene. 2018. Cyberbullying Intervention Based on Convolutional Neural Networks. In Proceedings of the First Workshop on Trolling, Aggression and Cyberbullying (TRAC-2018). Association for Computational Linguistics, Santa Fe, New Mexico, USA, 42\u201351. https://aclanthology.org/W18-4405/",
+      "doi": ""
+    },
+    {
+      "text": "Wen-Chun Hung. 2022. Exploring the factors that influence users\u2019 intention to continue using audio-based social media: The Clubhouse case. (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Adrienne\u00a0Holz Ivory, James\u00a0D Ivory, Winston Wu, Anthony\u00a0M Limperos, Nathaniel Andrew, and Brandon\u00a0S Sesler. 2017. Harsh words and deeds: Systematic content analyses of offensive* user behavior in the virtual environments of online first-person shooter games. Journal For Virtual Worlds Research 10, 2 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Jialun\u00a0Aaron Jiang, Charles Kiene, Skyler Middler, Jed\u00a0R Brubaker, and Casey Fiesler. 2019. Moderation challenges in voice-based online communities on discord. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201323.",
+      "doi": "10.1145/3359157"
+    },
+    {
+      "text": "Crescent Jicol, Chun\u00a0Hin Wan, Benjamin Doling, Caitlin\u00a0H Illingworth, Jinha Yoon, Charlotte Headey, Christof Lutteroth, Michael\u00a0J Proulx, Karin Petrini, and Eamonn O\u2019Neill. 2021. Effects of emotion and agency on presence in virtual reality. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445588"
+    },
+    {
+      "text": "Kyuha Jung, Yoobin Park, Hanwool Kim, and Joonhwan Lee. 2022. Let\u2019s Talk@ Clubhouse: Exploring Voice-Centered Social Media Platform and its Opportunities, Challenges, and Design Guidelines. In CHI Conference on Human Factors in Computing Systems Extended Abstracts. 1\u20136.",
+      "doi": "10.1145/3491101.3519774"
+    },
+    {
+      "text": "Steven\u00a0J Kirsh. 2003. The effects of violent video games on adolescents: The overlooked influence of development. Aggression and violent behavior 8, 4 (2003), 377\u2013389.",
+      "doi": ""
+    },
+    {
+      "text": "Kate Klonick. 2017. The new governors: The people, rules, and processes governing online speech. Harv. L. Rev. 131(2017), 1598.",
+      "doi": ""
+    },
+    {
+      "text": "Yubo Kou and Xinning Gui. 2021. Flag and Flaggability in Automated Moderation: The Case of Reporting Toxic Behavior in an Online Game Community. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3411764.3445279"
+    },
+    {
+      "text": "Mrinal Kumar, Mark Dredze, Glen Coppersmith, and Munmun De\u00a0Choudhury. 2015. Detecting changes in suicide content manifested in social media following celebrity suicides. In Proceedings of the 26th ACM conference on Hypertext & Social Media. 85\u201394.",
+      "doi": "10.1145/2700171.2791026"
+    },
+    {
+      "text": "Ponnurangam Kumaraguru, Yong Rhee, Alessandro Acquisti, Lorrie\u00a0Faith Cranor, Jason Hong, and Elizabeth Nunge. 2007. Protecting people from phishing: the design and evaluation of an embedded training email system. In Proceedings of the SIGCHI conference on Human factors in computing systems. 905\u2013914.",
+      "doi": "10.1145/1240624.1240760"
+    },
+    {
+      "text": "Vivian Lai, Samuel Carton, Rajat Bhatnagar, Q\u00a0Vera Liao, Yunfeng Zhang, and Chenhao Tan. 2022. Human-AI Collaboration via Conditional Delegation: A Case Study of Content Moderation. In CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3491102.3501999"
+    },
+    {
+      "text": "Daniel\u00a0S Lane, Vishnupriya Das, and Dan Hiaeshutter-Rice. 2019. Civic laboratories: youth political expression in anonymous, ephemeral, geo-bounded social media. Information, Communication & Society 22, 14 (2019), 2171\u20132186.",
+      "doi": ""
+    },
+    {
+      "text": "Song\u00a0Mi Lee, Cliff Lampe, JJ Prescott, and Sarita Schoenebeck. 2022. Characteristics of People Who Engage in Online Harassing Behavior. In CHI Conference on Human Factors in Computing Systems Extended Abstracts. 1\u20137.",
+      "doi": ""
+    },
+    {
+      "text": "Keren Lehavot, Dror Ben-Zeev, and Robin\u00a0E Neville. 2012. Ethical considerations and social media: a case of suicidal postings on Facebook. Journal of Dual Diagnosis 8, 4 (2012), 341\u2013346.",
+      "doi": ""
+    },
+    {
+      "text": "Zachary Leibowitz. 2017. Terror on your timeline: Criminalizing terrorist incitement on social media through doctrinal shift. Fordham L. Rev. 86(2017), 795.",
+      "doi": ""
+    },
+    {
+      "text": "Lawrence Lessig. 2006. Code 2.0: Code and other laws of cyberspace.",
+      "doi": ""
+    },
+    {
+      "text": "Lingyuan Li, Guo Freeman, and Donghee\u00a0Yvette Wohn. 2020. Power in Skin: The Interplay of Self-Presentation, Tactical Play, and Spending in Fortnite. In Proceedings of the Annual Symposium on Computer-Human Interaction in Play. 71\u201380.",
+      "doi": "10.1145/3410404.3414262"
+    },
+    {
+      "text": "Lyrissa\u00a0Barnett Lidsky. 2011. Incendiary speech and social media. Tex. Tech L. Rev. 44(2011), 147.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Link, Bernd Hellingrath, and Jie Ling. 2016. A Human-is-the-Loop Approach for Semi-Automated Content Moderation.. In ISCRAM.",
+      "doi": ""
+    },
+    {
+      "text": "Andr\u00e9s Lucero. 2015. Using affinity diagrams to evaluate interactive prototypes. In IFIP conference on human-computer interaction. Springer, 231\u2013248.",
+      "doi": "10.1007/978-3-319-22668-2_19"
+    },
+    {
+      "text": "Cayley MacArthur, Arielle Grinberg, Daniel Harley, and Mark Hancock. 2021. You\u2019re making me sick: A systematic review of how virtual reality research considers gender & cybersickness. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3411764.3445701"
+    },
+    {
+      "text": "Sean MacAvaney, Hao-Ren Yao, Eugene Yang, Katina Russell, Nazli Goharian, and Ophir Frieder. 2019. Hate speech detection: Challenges and solutions. PloS one 14, 8 (2019), e0221152.",
+      "doi": ""
+    },
+    {
+      "text": "Divine Maloney and Guo Freeman. 2020. Falling asleep together: What makes activities in social virtual reality meaningful to users. In Proceedings of the Annual Symposium on Computer-Human Interaction in Play. 510\u2013521.",
+      "doi": "10.1145/3410404.3414266"
+    },
+    {
+      "text": "Divine Maloney, Guo Freeman, and Donghee\u00a0Yvette Wohn. 2020. \" Talking without a Voice\" Understanding Non-verbal Communication in Social Virtual Reality. Proceedings of the ACM on Human-Computer Interaction 4, CSCW2(2020), 1\u201325.",
+      "doi": "10.1145/3415246"
+    },
+    {
+      "text": "Carmia Margaret and David Alinurdin. 2021. A Christian Response to the Use of the Clubhouse Apps During the Covid-19 Era. Societas Dei 8, 2 (2021), 229\u2013245.",
+      "doi": ""
+    },
+    {
+      "text": "Adrienne Massanari. 2017. # Gamergate and The Fappening: How Reddit\u2019s algorithm, governance, and culture support toxic technocultures. New media & society 19, 3 (2017), 329\u2013346.",
+      "doi": ""
+    },
+    {
+      "text": "Ariadna Matamoros-Fern\u00e1ndez. 2017. Platformed racism: The mediation and circulation of an Australian race-based controversy on Twitter, Facebook and YouTube. Information, Communication & Society 20, 6 (2017), 930\u2013946.",
+      "doi": ""
+    },
+    {
+      "text": "Ariadna Matamoros-Fern\u00e1ndez and Johan Farkas. 2021. Racism, hate speech, and social media: A systematic review and critique. Television & New Media 22, 2 (2021), 205\u2013224.",
+      "doi": ""
+    },
+    {
+      "text": "J\u00a0Nathan Matias. 2019. The civic labor of volunteer moderators online. Social Media+ Society 5, 2 (2019), 2056305119836778.",
+      "doi": ""
+    },
+    {
+      "text": "Philipp Mayring 2004. Qualitative content analysis., 159\u2013176\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Sarah McRoberts, Haiwei Ma, Andrew Hall, and Svetlana Yarosh. 2017. Share first, save later: Performance of self through Snapchat stories. In Proceedings of the 2017 CHI conference on human factors in computing systems. 6902\u20136911.",
+      "doi": "10.1145/3025453.3025771"
+    },
+    {
+      "text": "Joshua McVeigh-Schultz, Anya Kolesnichenko, and Katherine Isbister. 2019. Shaping pro-social interaction in VR: an emerging design framework. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300794"
+    },
+    {
+      "text": "George\u00a0B Mo, John\u00a0J Dudley, and Per\u00a0Ola Kristensson. 2021. Gesture Knitter: A Hand Gesture Design Tool for Head-Mounted Mixed Reality Applications. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445766"
+    },
+    {
+      "text": "Megan\u00a0A Moreno, Adrienne Ton, Ellen Selkie, and Yolanda Evans. 2016. Secret society 123: Understanding the language of self-harm on Instagram. Journal of Adolescent Health 58, 1 (2016), 78\u201384.",
+      "doi": ""
+    },
+    {
+      "text": "Tyler Musgrave, Alia Cummings, and Sarita Schoenebeck. 2022. Experiences of Harm, Healing, and Joy among Black Women and Femmes on Social Media. In CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3491102.3517608"
+    },
+    {
+      "text": "Sarah Myers\u00a0West. 2018. Censored, suspended, shadowbanned: User interpretations of content moderation on social media platforms. New Media & Society 20, 11 (2018), 4366\u20134383.",
+      "doi": ""
+    },
+    {
+      "text": "Helen Nissenbaum. 2009. Privacy in context. In Privacy in Context. Stanford University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Jessica Outlaw and Beth Duckles. 2018. Virtual harassment: The social experience of 600+ regular virtual reality (VR) users. The Extended Mind Blog 4(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Irene\u00a0V Pasquetto, Briony Swire-Thompson, Michelle\u00a0A Amazeen, Fabr\u00edcio Benevenuto, Nadia\u00a0M Brashier, Robert\u00a0M Bond, Lia\u00a0C Bozarth, Ceren Budak, Ullrich\u00a0KH Ecker, Lisa\u00a0K Fazio, 2020. Tackling misinformation: What researchers could do with social media data. The Harvard Kennedy School Misinformation Review (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Jessica\u00a0A Pater, Moon\u00a0K Kim, Elizabeth\u00a0D Mynatt, and Casey Fiesler. 2016. Characterizations of online harassment: Comparing policies across social media platforms. In Proceedings of the 19th international conference on supporting group work. 369\u2013374.",
+      "doi": "10.1145/2957276.2957297"
+    },
+    {
+      "text": "Mar\u00eda\u00a0Antonia Paz, Julio Montero-D\u00edaz, and Alicia Moreno-Delgado. 2020. Hate speech: A systematized review. Sage Open 10, 4 (2020), 2158244020973022.",
+      "doi": ""
+    },
+    {
+      "text": "Gordon Pennycook, Ziv Epstein, Mohsen Mosleh, Antonio\u00a0A Arechar, Dean Eckles, and David\u00a0G Rand. 2021. Shifting attention to accuracy can reduce misinformation online. Nature 592, 7855 (2021), 590\u2013595.",
+      "doi": ""
+    },
+    {
+      "text": "Gustav\u00a0B\u00f8g Petersen, Aske Mottelson, and Guido Makransky. 2021. Pedagogical agents in educational vr: An in the wild study. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3411764.3445760"
+    },
+    {
+      "text": "Jacobo Picardo, Sarah\u00a0K McKenzie, Sunny Collings, and Gabrielle Jenkin. 2020. Suicide and self-harm content on Instagram: A systematic scoping review. PloS one 15, 9 (2020), e0238603.",
+      "doi": ""
+    },
+    {
+      "text": "Roosa Piitulainen, Perttu H\u00e4m\u00e4l\u00e4inen, and Elisa\u00a0D Mekler. 2022. Vibing Together: Dance Experiences in Social Virtual Reality. In CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0L Pittaro. 2007. Cyber stalking: An analysis of online harassment and intimidation. International journal of cyber criminology 1, 2 (2007), 180\u2013197.",
+      "doi": ""
+    },
+    {
+      "text": "Jing Qian, Mai ElSherief, Elizabeth Belding, and William\u00a0Yang Wang. 2018. Leveraging Intra-User and Inter-User Representation Learning for Automated Hate Speech Detection. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers). Association for Computational Linguistics, New Orleans, Louisiana, 118\u2013123. https://aclanthology.org/N18-2019/",
+      "doi": ""
+    },
+    {
+      "text": "Donna\u00a0J Reid and Fraser\u00a0JM Reid. 2007. Text or talk? Social anxiety, loneliness, and divergent preferences for cell phone use. CyberPsychology & Behavior 10, 3 (2007), 424\u2013435.",
+      "doi": ""
+    },
+    {
+      "text": "Sarah\u00a0T Roberts. 2014. Behind the screen: The hidden digital labor of commercial content moderation. University of Illinois at Urbana-Champaign.",
+      "doi": ""
+    },
+    {
+      "text": "Sarah\u00a0T Roberts. 2016. Commercial content moderation: Digital laborers\u2019 dirty work. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Sarah\u00a0T Roberts. 2017. Content moderation. University of California, Los Angeles.",
+      "doi": ""
+    },
+    {
+      "text": "Sarah\u00a0T Roberts. 2018. Digital detritus:\u2019Error\u2019and the logic of opacity in social media content moderation. First Monday (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Hugo Rosa, N\u00e1dia Pereira, Ricardo Ribeiro, Paula\u00a0Costa Ferreira, Joao\u00a0Paulo Carvalho, Sofia Oliveira, Lu\u00edsa Coheur, Paula Paulino, AM\u00a0Veiga Sim\u00e3o, and Isabel Trancoso. 2019. Automatic cyberbullying detection: A systematic review. Computers in Human Behavior 93 (2019), 333\u2013345.",
+      "doi": "10.1016/j.chb.2018.12.021"
+    },
+    {
+      "text": "Michelle Roter. 2016. With Great Power Comes Great Responsibility: Imposing a Duty to Take Down Terrorist Incitement on Social Media. Hofstra L. Rev. 45(2016), 1379.",
+      "doi": ""
+    },
+    {
+      "text": "Sebastian Scherr. 2022. Social media, self-harm, and suicide. Current opinion in psychology(2022), 101311.",
+      "doi": ""
+    },
+    {
+      "text": "Morgan\u00a0Klaus Scheuerman, Jialun\u00a0Aaron Jiang, Casey Fiesler, and Jed\u00a0R Brubaker. 2021. A framework of severity for harmful content online. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201333.",
+      "doi": "10.1145/3479512"
+    },
+    {
+      "text": "Morgan\u00a0Klaus Scheuerman, Stacy M. Branham, and Foad Hamidi. 2018. A framework of severity for harmful content online. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2018), 1\u201327.",
+      "doi": ""
+    },
+    {
+      "text": "Jonas Schjerlund, Kasper Hornb\u00e6k, and Joanna Bergstr\u00f6m. 2021. Ninja hands: Using many hands to improve target selection in vr. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445759"
+    },
+    {
+      "text": "Anna Schmidt and Michael Wiegand. 2017. A Survey on Hate Speech Detection using Natural Language Processing. In Proceedings of the Fifth International Workshop on Natural Language Processing for Social Media. Association for Computational Linguistics, Valencia, Spain, 1\u201310. https://aclanthology.org/W17-1101/",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Seering, Geoff Kaufman, and Stevie Chancellor. 2022. Metaphors in moderation. New Media & Society 24, 3 (2022), 621\u2013640.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Seering, Tony Wang, Jina Yoon, and Geoff Kaufman. 2019. Moderator engagement and community development in the age of algorithms. New Media & Society 21, 7 (2019), 1417\u20131443.",
+      "doi": ""
+    },
+    {
+      "text": "Jana Shakarian, Andrew\u00a0T Gunn, and Paulo Shakarian. 2016. Exploring malicious hacker forums. In Cyber deception. Springer, 259\u2013282.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0L Sherry. 2001. The effects of violent video games on aggression: A meta-analysis. Human communication research 27, 3 (2001), 409\u2013431.",
+      "doi": ""
+    },
+    {
+      "text": "William Shotts. 2017. The Linux command line. LinuxCommand. org.",
+      "doi": ""
+    },
+    {
+      "text": "Ellen Silver. 2018. Hard questions: who reviews objectionable content on Facebook\u2014and is the company doing enough to support them. Facebook Newsroom 26(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Olivia Solon. 2017. Underpaid and overburdened: the life of a Facebook moderator. The Guardian 25, 05 (2017), 2017.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0J Solove. 2008. Understanding privacy. (2008).",
+      "doi": ""
+    },
+    {
+      "text": "Francesca Stevens, Jason\u00a0RC Nurse, and Budi Arief. 2021. Cyber stalking, cyber harassment, and adult mental health: A systematic review. Cyberpsychology, Behavior, and Social Networking 24, 6(2021), 367\u2013376.",
+      "doi": ""
+    },
+    {
+      "text": "Jenna Strawhun, Natasha Adams, and Matthew\u00a0T Huss. 2013. The assessment of cyberstalking: An expanded examination including social networking, attachment, jealousy, and anger in relation to violence and abuse. Violence and victims 28, 4 (2013), 715\u2013730.",
+      "doi": ""
+    },
+    {
+      "text": "JoAnne Sweeny. 2019. Incitement in the Era of Trump and Charlottesville. Cap. UL Rev. 47(2019), 585.",
+      "doi": ""
+    },
+    {
+      "text": "Philipp Sykownik, Divine Maloney, Guo Freeman, and Maic Masuch. 2022. Something Personal from the Metaverse: Goals, Topics, and Contextual Factors of Self-Disclosure in Commercial Social VR. In CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3491102.3502008"
+    },
+    {
+      "text": "Sabine Trepte and Leonard Reinecke. 2011. Privacy online: Perspectives on privacy and self-disclosure in the social web. Springer.",
+      "doi": ""
+    },
+    {
+      "text": "Penny Trieu and Nancy\u00a0K Baym. 2020. Private responses for public sharing: understanding self-presentation and relational maintenance via stories in social media. In proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376549"
+    },
+    {
+      "text": "Hsin-Ruey Tsai, Yuan-Chia Chang, Tzu-Yun Wei, Chih-An Tsao, Xander Chin-yuan Koo, Hao-Chuan Wang, and Bing-Yu Chen. 2021. GuideBand: Intuitive 3D Multilevel Force Guidance on a Wristband in Virtual Reality. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445262"
+    },
+    {
+      "text": "Kristen Vaccaro, Christian Sandvig, and Karrie Karahalios. 2020. \" At the End of the Day Facebook Does What ItWants\" How Users Experience Contesting Algorithmic Content Moderation. Proceedings of the ACM on Human-Computer Interaction 4, CSCW2(2020), 1\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Kristen Vaccaro, Ziang Xiao, Kevin Hamilton, and Karrie Karahalios. 2021. Contestability For Content Moderation. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2(2021), 1\u201328.",
+      "doi": "10.1145/3476059"
+    },
+    {
+      "text": "Cynthia Van\u00a0Hee, Els Lefever, Ben Verhoeven, Julie Mennes, Bart Desmet, Guy De\u00a0Pauw, Walter Daelemans, and Veronique Hoste. 2015. Detection and Fine-Grained Classification of Cyberbullying Events. In Proceedings of the International Conference Recent Advances in Natural Language Processing. INCOMA Ltd. Shoumen, BULGARIA, Hissar, Bulgaria, 672\u2013680. https://aclanthology.org/R15-1086/",
+      "doi": ""
+    },
+    {
+      "text": "Jorge V\u00e1zquez-Herrero, Sabela Direito-Rebollal, and Xos\u00e9 L\u00f3pez-Garc\u00eda. 2019. Ephemeral journalism: News distribution through Instagram stories. Social media+ society 5, 4 (2019), 2056305119888657.",
+      "doi": ""
+    },
+    {
+      "text": "Elena Villaespesa and Sara Wowkowych. 2020. Ephemeral storytelling with social media: Snapchat and Instagram stories at the Brooklyn Museum. Social Media+ Society 6, 1 (2020), 2056305119898776.",
+      "doi": ""
+    },
+    {
+      "text": "Anna\u00a0JM Wagner. 2018. Do not click \u201clike\u201d when somebody has died: The role of norms for mourning practices in social media. Social Media+ Society 4, 1 (2018), 2056305117744392.",
+      "doi": ""
+    },
+    {
+      "text": "Endang Wahyuningsih and Baidi Baidi. 2021. Scrutinizing the potential use of Discord application as a digital platform amidst emergency remote learning. Journal of Educational Management and Instruction 1, 1(2021), 9\u201318.",
+      "doi": ""
+    },
+    {
+      "text": "Dennis Wang, Marawin Chheang, Siyun Ji, Ryan Mohta, and Daniel\u00a0A Epstein. 2022. SnapPI: Understanding Everyday Use of Personal Informatics Data Stickers on Ephemeral Social Media. Proceedings of the ACM on human-computer interaction 7 (2022).",
+      "doi": "10.1145/3555652"
+    },
+    {
+      "text": "Zeerak Waseem and Dirk Hovy. 2016. Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on Twitter. In Proceedings of the NAACL Student Research Workshop. Association for Computational Linguistics, San Diego, California, 88\u201393. https://aclanthology.org/N16-2013/",
+      "doi": ""
+    },
+    {
+      "text": "Julie Williamson, Jie Li, Vinoba Vinayagamoorthy, David\u00a0A Shamma, and Pablo Cesar. 2021. Proxemics and social interactions in an instrumented virtual reality workshop. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445729"
+    },
+    {
+      "text": "Julie\u00a0R Williamson, Joseph O\u2019Hagan, John\u00a0Alexis Guerra-Gomez, John\u00a0H Williamson, Pablo Cesar, and David\u00a0A Shamma. 2022. Digital Proxemics: Designing Social and Collaborative Interaction in Virtual Environments. In CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": ""
+    },
+    {
+      "text": "Janis Wolak, Kimberly\u00a0J Mitchell, and David Finkelhor. 2007. Does online harassment constitute bullying? An exploration of online harassment by known peers and online-only contacts. Journal of adolescent health 41, 6 (2007), S51\u2013S58.",
+      "doi": ""
+    },
+    {
+      "text": "Paulina Wu. 2015. Impossible to regulate: Social media, terrorists, and the role for the UN.. In Chi. J. Int\u2019l L., Vol.\u00a016. 281.",
+      "doi": ""
+    },
+    {
+      "text": "Arum\u00a0Nisma Wulanjani. 2018. Discord application: Turning a voice chat application for gamers into a virtual listening class. In English Language and Literature International Conference (ELLiC) Proceedings, Vol.\u00a02. 115\u2013119.",
+      "doi": ""
+    },
+    {
+      "text": "Jun-Ming Xu, Kwang-Sung Jun, Xiaojin Zhu, and Amy Bellmore. 2012. Learning from bullying traces in social media. In Proceedings of the 2012 conference of the North American chapter of the association for computational linguistics: Human language technologies. 656\u2013666.",
+      "doi": "10.5555/2382029.2382139"
+    },
+    {
+      "text": "Yukun Yang. 2019. When power goes wild online: How did a voluntary moderator\u2019s abuse of power affect an online community?Proceedings of the Association for Information Science and Technology 56, 1 (2019), 504\u2013508.",
+      "doi": ""
+    },
+    {
+      "text": "Dawei Yin, Zhenzhen Xue, Liangjie Hong, Brian\u00a0D Davison, April Kontostathis, and Lynne Edwards. 2009. Detection of harassment on web 2.0. Proceedings of the Content Analysis in the WEB 2 (2009), 1\u20137.",
+      "doi": ""
+    },
+    {
+      "text": "Difeng Yu, Xueshi Lu, Rongkai Shi, Hai-Ning Liang, Tilman Dingler, Eduardo Velloso, and Jorge Goncalves. 2021. Gaze-supported 3d object manipulation in virtual reality. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445343"
+    },
+    {
+      "text": "Binhe Zhu. 2021. Clubhouse: A popular audio social application. In 2021 International Conference on Public Relations and Social Sciences (ICPRSS 2021). Atlantis Press, 575\u2013579.",
+      "doi": ""
+    }
+  ]
+}

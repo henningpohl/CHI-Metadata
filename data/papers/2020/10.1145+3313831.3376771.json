@@ -1,0 +1,393 @@
+{
+  "doi": "10.1145/3313831.3376771",
+  "title": "Using Bayes' Theorem for Command Input: Principle, Models, and Applications",
+  "published": "2020-04-23",
+  "proctitle": "CHI '20: Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2020,
+  "badges": [],
+  "abstract": "Entering commands on touchscreens can be noisy, but existing interfaces commonly adopt deterministic principles for deciding targets and often result in errors. Building on prior research of using Bayes' theorem to handle uncertainty in input, this paper formalized Bayes' theorem as a generic guiding principle for deciding targets in command input (referred to as \"BayesianCommand\"), developed three models for estimating prior and likelihood probabilities, and carried out experiments to demonstrate the effectiveness of this formalization. More specifically, we applied BayesianCommand to improve the input accuracy of (1) point-and-click and (2) word-gesture command input. Our evaluation showed that applying BayesianCommand reduced errors compared to using deterministic principles (by over 26.9% for point-and-click and by 39.9% for word-gesture command input) or applying the principle partially (by over 28.0% and 24.5%).",
+  "authors": [
+    {
+      "name": "Suwen Zhu",
+      "institution": "Stony Brook University, Stony Brook, NY, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659260674",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yoonsang Kim",
+      "institution": "Stony Brook University, Stony Brook, NY, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528080",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jingjie Zheng",
+      "institution": "Google, Kitchener, ON, Canada",
+      "img": "/do/10.1145/contrib-99659019775/rel-imgonly/0.jpeg",
+      "acmid": "99659019775",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jennifer Yi Luo",
+      "institution": "Stony Brook University, Stony Brook, NY, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528584",
+      "orcid": "missing"
+    },
+    {
+      "name": "Ryan Qin",
+      "institution": "Stony Brook University, Stony Brook, NY, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659323473",
+      "orcid": "missing"
+    },
+    {
+      "name": "Liuping Wang",
+      "institution": "Institute of Software, Chinese Academy of Sciences, Beijing, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659260546",
+      "orcid": "missing"
+    },
+    {
+      "name": "Xiangmin Fan",
+      "institution": "Institute of Software, Chinese Academy of Sciences, Beijing, China",
+      "img": "/do/10.1145/contrib-99659261665/rel-imgonly/20191207163100.jpg",
+      "acmid": "99659261665",
+      "orcid": "missing"
+    },
+    {
+      "name": "Feng Tian",
+      "institution": "Institute of Software, Chinese Academy of Sciences, Beijing, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100106876",
+      "orcid": "0000-0002-6598-419X"
+    },
+    {
+      "name": "Xiaojun Bi",
+      "institution": "Stony Brook University, Stony Brook, NY, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81309485662",
+      "orcid": "0000-0002-9716-7709"
+    }
+  ],
+  "references": [
+    {
+      "text": "Jessalyn Alvina, Carla F. Griggio, Xiaojun Bi, and Wendy E. Mackay. 2017. CommandBoard: Creating a General-Purpose Command Gesture Input Space for Soft Keyboard. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology (UIST '17). ACM, NY, NY, USA, 17--28. DOI: http://dx.doi.org/10.1145/3126594.3126639",
+      "doi": ""
+    },
+    {
+      "text": "Georg Apitz, Fran\u00e7ois Guimbreti\u00e8re, and Shumin Zhai. 2008. Foundations for Designing and Evaluating User Interfaces Based on the Crossing Paradigm. ACM Trans. Comput.-Hum. Interact. 17, 2, Article 9 (May 2008), 42 pages. DOI: http://dx.doi.org/10.1145/1746259.1746263",
+      "doi": ""
+    },
+    {
+      "text": "Caroline Appert and Shumin Zhai. 2009. Using Strokes As Command Shortcuts: Cognitive Benefits and Toolkit Support. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '09). ACM, NY, NY, USA, 2289--2298. DOI: http://dx.doi.org/10.1145/1518701.1519052",
+      "doi": "10.1145/1518701.1519052"
+    },
+    {
+      "text": "Shiri Azenkot and Shumin Zhai. 2012. Touch Behavior with Different Postures on Soft Smartphone Keyboards. In Proceedings of the 14th International Conference on Human-computer Interaction with Mobile Devices and Services (MobileHCI '12). ACM, NY, NY, USA, 251--260. DOI: http://dx.doi.org/10.1145/2371574.2371612",
+      "doi": "10.1145/2371574.2371612"
+    },
+    {
+      "text": "Gilles Bailly, Eric Lecolinet, and Laurence Nigay. 2007. Wave Menus: Improving the Novice Mode of Hierarchical Marking Menus. In Proceedings of the 11th IFIP TC 13 International Conference on Human-computer Interaction (INTERACT'07). Springer-Verlag, Berlin, Heidelberg, 475--488. http://dl.acm.org/citation.cfm?id=1776994.1777053",
+      "doi": ""
+    },
+    {
+      "text": "Gilles Bailly, Eric Lecolinet, and Laurence Nigay. 2008. Flower Menus: A New Type of Marking Menu with Large Menu Breadth, Within Groups and Efficient Expert Mode Memorization. In Proceedings of the Working Conference on Advanced Visual Interfaces (AVI '08). ACM, NY, NY, USA, 15--22. DOI: http://dx.doi.org/10.1145/1385569.1385575",
+      "doi": "10.1145/1385569.1385575"
+    },
+    {
+      "text": "Olivier Bau and Wendy E. Mackay. 2008. OctoPocus: A Dynamic Guide for Learning Gesture-based Command Sets. In Proceedings of the 21st Annual ACM Symposium on User Interface Software and Technology (UIST '08). ACM, NY, NY, USA, 37--46. DOI: http://dx.doi.org/10.1145/1449715.1449724",
+      "doi": ""
+    },
+    {
+      "text": "Hrvoje Benko, Andrew D. Wilson, and Patrick Baudisch. 2006. Precise Selection Techniques for Multi-touch Screens. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '06). ACM, NY, NY, USA, 1263--1272. DOI: http://dx.doi.org/10.1145/1124772.1124963",
+      "doi": "10.1145/1124772.1124963"
+    },
+    {
+      "text": "Xiaojun Bi, Yang Li, and Shumin Zhai. 2013. FFitts Law: Modeling Finger Touch with Fitts' Law. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). ACM, NY, NY, USA, 1363--1372. DOI: http://dx.doi.org/10.1145/2470654.2466180",
+      "doi": "10.1145/2470654.2466180"
+    },
+    {
+      "text": "Xiaojun Bi and Shumin Zhai. 2013. Bayesian Touch: A Statistical Criterion of Target Selection with Finger Touch. In Proceedings of the 26th Annual ACM Symposium on User Interface Software and Technology (UIST '13). ACM, NY, NY, USA, 51--60. DOI: http://dx.doi.org/10.1145/2501988.2502058",
+      "doi": "10.1145/2501988.2502058"
+    },
+    {
+      "text": "Xiaojun Bi and Shumin Zhai. 2016. Predicting Finger-Touch Accuracy Based on the Dual Gaussian Distribution Model. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST '16). ACM, NY, NY, USA, 313--319. DOI: http://dx.doi.org/10.1145/2984511.2984546",
+      "doi": "10.1145/2984511.2984546"
+    },
+    {
+      "text": "Renaud Blanch, Yves Guiard, and Michel Beaudouin-Lafon. 2004. Semantic Pointing: Improving Target Acquisition with Control-display Ratio Adaptation. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '04). ACM, NY, NY, USA, 519--526. DOI: http://dx.doi.org/10.1145/985692.985758",
+      "doi": "10.1145/985692.985758"
+    },
+    {
+      "text": "Daniel Buschek and Florian Alt. 2015. TouchML: A Machine Learning Toolkit for Modelling Spatial Touch Targeting Behaviour. In Proceedings of the 20th International Conference on Intelligent User Interfaces (IUI '15). ACM, NY, NY, USA, 110--114. DOI: http://dx.doi.org/10.1145/2678025.2701381",
+      "doi": "10.1145/2678025.2701381"
+    },
+    {
+      "text": "Daniel Buschek and Florian Alt. 2017. ProbUI: Generalising Touch Target Representations to Enable Declarative Gesture Definition for Probabilistic GUIs. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, NY, NY, USA, 4640--4653. DOI: http://dx.doi.org/10.1145/3025453.3025502",
+      "doi": "10.1145/3025453.3025502"
+    },
+    {
+      "text": "Eun Kyoung Choe, Kristen Shinohara, Parmit K. Chilana, Morgan Dixon, and Jacob O. Wobbrock. 2009. Exploring the Design of Accessible Goal Crossing Desktop Widgets. In CHI '09 Extended Abstracts on Human Factors in Computing Systems (CHI EA '09). ACM, NY, NY, USA, 3733--3738. DOI: http://dx.doi.org/10.1145/1520340.1520563",
+      "doi": ""
+    },
+    {
+      "text": "Andy Cockburn, Carl Gutwin, and Saul Greenberg. 2007. A Predictive Model of Menu Performance. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '07). ACM, NY, NY, USA, 627--636. DOI: http://dx.doi.org/10.1145/1240624.1240723",
+      "doi": "10.1145/1240624.1240723"
+    },
+    {
+      "text": "Wenzhe Cui, Jingjie Zheng, Blaine Lewis, Daniel Vogel, and Xiaojun Bi. 2019. HotStrokes: Word-Gesture Shortcuts on a Trackpad. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI '19). ACM, NY, NY, USA, Article 165, 13 pages. DOI: http://dx.doi.org/10.1145/3290605.3300395",
+      "doi": "10.1145/3290605.3300395"
+    },
+    {
+      "text": "Dictionary.com. 2019. Thesaurus.com | Synonyms and Antonyms of Words. https://www.thesaurus.com/. (2019). https://www.thesaurus.com/ [Online; accessed 6-August-2019].",
+      "doi": ""
+    },
+    {
+      "text": "Stephen R. Ellis and Robert J. Hitchcock. 1986. The Emergence of Zipf's Law: Spontaneous Encoding Optimization by Users of a Command Language. IEEE Trans. Syst. Man Cybern. 16, 3 (May 1986), 423--427. DOI: http://dx.doi.org/10.1109/TSMC.1986.4308973",
+      "doi": "10.1109/TSMC.1986.4308973"
+    },
+    {
+      "text": "Leah Findlater and Krzysztof Z. Gajos. 2009. Design Space and Evaluation Challenges of Adaptive Graphical User Interfaces. AI Magazine 30, 4 (Sept. 2009), 68. DOI: http://dx.doi.org/10.1609/aimag.v30i4.2268",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Fitchett and Andy Cockburn. 2012. AccessRank: Predicting What Users Will Do Next. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). ACM, NY, NY, USA, 2239--2242. DOI: http://dx.doi.org/10.1145/2207676.2208380",
+      "doi": "10.1145/2207676.2208380"
+    },
+    {
+      "text": "J\u00e9r\u00e9mie Francone, Gilles Bailly, Eric Lecolinet, Nadine Mandran, and Laurence Nigay. 2010. Wavelet Menus on Handheld Devices: Stacking Metaphor for Novice Mode and Eyes-free Selection for Expert Mode. In Proceedings of the International Conference on Advanced Visual Interfaces (AVI '10). ACM, NY, NY, USA, 173--180. DOI: http://dx.doi.org/10.1145/1842993.1843025",
+      "doi": "10.1145/1842993.1843025"
+    },
+    {
+      "text": "Jeremie Francone, Gilles Bailly, Laurence Nigay, and Eric Lecolinet. 2009. Wavelet Menus: A Stacking Metaphor for Adapting Marking Menus to Mobile Devices. In Proceedings of the 11th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI '09). ACM, NY, NY, USA, Article 49, 4 pages. DOI: http://dx.doi.org/10.1145/1613858.1613919",
+      "doi": "10.1145/1613858.1613919"
+    },
+    {
+      "text": "Bruno Fruchard, Eric Lecolinet, and Olivier Chapuis. 2017. MarkPad: Augmenting Touchpads for Command Selection. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, NY, NY, USA, 5630--5642. DOI: http://dx.doi.org/10.1145/3025453.3025486",
+      "doi": "10.1145/3025453.3025486"
+    },
+    {
+      "text": "Mayank Goel, Leah Findlater, and Jacob Wobbrock. 2012a. WalkType: Using Accelerometer Data to Accomodate Situational Impairments in Mobile Touch Screen Text Entry. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). ACM, NY, NY, USA, 2687--2696. DOI: http://dx.doi.org/10.1145/2207676.2208662",
+      "doi": "10.1145/2207676.2208662"
+    },
+    {
+      "text": "Mayank Goel, Jacob Wobbrock, and Shwetak Patel. 2012b. GripSense: Using Built-in Sensors to Detect Hand Posture and Pressure on Commodity Mobile Phones. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology (UIST '12). ACM, NY, NY, USA, 545--554. DOI: http://dx.doi.org/10.1145/2380116.2380184",
+      "doi": "10.1145/2380116.2380184"
+    },
+    {
+      "text": "Joshua Goodman, Gina Venolia, Keith Steury, and Chauncey Parker. 2002. Language Modeling for Soft Keyboards. In Proceedings of the 7th International Conference on Intelligent User Interfaces (IUI '02). ACM, NY, NY, USA, 194--195. DOI: http://dx.doi.org/10.1145/502716.502753",
+      "doi": "10.1145/502716.502753"
+    },
+    {
+      "text": "Tovi Grossman, Pierre Dragicevic, and Ravin Balakrishnan. 2007. Strategies for Accelerating On-line Learning of Hotkeys. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '07). ACM, NY, NY, USA, 1591--1600. DOI: http://dx.doi.org/10.1145/1240624.1240865",
+      "doi": "10.1145/1240624.1240865"
+    },
+    {
+      "text": "Jensen Harris. 2006. No Distaste for Paste (Why the UI, Part 7). https://blogs.msdn.microsoft.com/jensenh/ 2006/04/07/no-distaste-for-paste-why-the-ui-part-7/. (2006). [Online; accessed 19-August-2019].",
+      "doi": ""
+    },
+    {
+      "text": "Sandra G Hart and Lowell E Staveland. 1988. Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research. In Human Mental Workload. Advances in psychology, Vol. 52. North-Holland, Oxford, England, 139--183.",
+      "doi": ""
+    },
+    {
+      "text": "Niels Henze, Enrico Rukzio, and Susanne Boll. 2011. 100,000,000 Taps: Analysis and Improvement of Touch Performance in the Large. In Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services (MobileHCI '11). ACM, NY, NY, USA, 133--142. DOI: http://dx.doi.org/10.1145/2037373.2037395",
+      "doi": "10.1145/2037373.2037395"
+    },
+    {
+      "text": "Christian Holz and Patrick Baudisch. 2010. The Generalized Perceived Input Point Model and How to Double Touch Accuracy by Extracting Fingerprints. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10). ACM, NY, NY, USA, 581--590. DOI: http://dx.doi.org/10.1145/1753326.1753413",
+      "doi": "10.1145/1753326.1753413"
+    },
+    {
+      "text": "Christian Holz and Patrick Baudisch. 2011. Understanding Touch. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '11). ACM, NY, NY, USA, 2501--2510. DOI: http://dx.doi.org/10.1145/1978942.1979308",
+      "doi": ""
+    },
+    {
+      "text": "Hyun Ka. 2013. Circling Interface: An Alternative Interaction Method for On-Screen Object Manipulation. Ph.D. Dissertation. University of Pittsburgh.",
+      "doi": ""
+    },
+    {
+      "text": "Kenrick Kin, Bj\u00f6rn Hartmann, Tony DeRose, and Maneesh Agrawala. 2012a. Proton++: A Customizable Declarative Multitouch Framework. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology (UIST '12). ACM, NY, NY, USA, 477--486. DOI: http://dx.doi.org/10.1145/2380116.2380176",
+      "doi": "10.1145/2380116.2380176"
+    },
+    {
+      "text": "Kenrick Kin, Bj\u00f6rn Hartmann, Tony DeRose, and Maneesh Agrawala. 2012b. Proton: Multitouch Gestures As Regular Expressions. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). ACM, NY, NY, USA, 2885--2894. DOI: http://dx.doi.org/10.1145/2207676.2208694",
+      "doi": "10.1145/2207676.2208694"
+    },
+    {
+      "text": "Per-Ola Kristensson and Shumin Zhai. 2004. SHARK2: A Large Vocabulary Shorthand Writing System for Pen-based Computers. In Proceedings of the 17th Annual ACM Symposium on User Interface Software and Technology (UIST '04). ACM, NY, NY, USA, 43--52. DOI: http://dx.doi.org/10.1145/1029632.1029640",
+      "doi": "10.1145/1029632.1029640"
+    },
+    {
+      "text": "Per Ola Kristensson and Shumin Zhai. 2007. Command Strokes with and Without Preview: Using Pen Gestures on Keyboard for Command Selection. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '07). ACM, NY, NY, USA, 1137--1146. DOI: http://dx.doi.org/10.1145/1240624.1240797",
+      "doi": "10.1145/1240624.1240797"
+    },
+    {
+      "text": "Gordon Kurtenbach and William Buxton. 1994. User Learning and Performance with Marking Menus. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '94). ACM, NY, NY, USA, 258--264. DOI: http://dx.doi.org/10.1145/191666.191759",
+      "doi": "10.1145/191666.191759"
+    },
+    {
+      "text": "Gordon Paul Kurtenbach. 1993. The Design and Evaluation of Marking Menus. Ph.D. Dissertation. University of Toronto, Toronto, Ont., Canada, Canada. UMI Order No. GAXNN-82896.",
+      "doi": ""
+    },
+    {
+      "text": "Gordon P. Kurtenbach, Abigail J. Sellen, and William A. S. Buxton. 1993. An Empirical Evaluation of Some Articulatory and Cognitive Aspects of Marking Menus. Hum.-Comput. Interact. 8, 1 (March 1993), 1--23. DOI: http://dx.doi.org/10.1207/s15327051hci0801_1",
+      "doi": "10.1207/s15327051hci0801_1"
+    },
+    {
+      "text": "Yang Li. 2010a. Gesture Search: A Tool for Fast Mobile Data Access. In Proceedings of the 23Nd Annual ACM Symposium on User Interface Software and Technology (UIST '10). ACM, NY, NY, USA, 87--96. DOI: http://dx.doi.org/10.1145/1866029.1866044",
+      "doi": "10.1145/1866029.1866044"
+    },
+    {
+      "text": "Yang Li. 2010b. Protractor: A Fast and Accurate Gesture Recognizer. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10). ACM, NY, NY, USA, 2169--2172. DOI: http://dx.doi.org/10.1145/1753326.1753654",
+      "doi": "10.1145/1753326.1753654"
+    },
+    {
+      "text": "Wanyu Liu, Gilles Bailly, and Andrew Howes. 2017a. Effects of Frequency Distribution on Linear Menu Performance. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, NY, NY, USA, 1307--1312. DOI: http://dx.doi.org/10.1145/3025453.3025707",
+      "doi": "10.1145/3025453.3025707"
+    },
+    {
+      "text": "Wanyu Liu, Rafael Lucas D'Oliveira, Michel Beaudouin-Lafon, and Olivier Rioul. 2017b. BIGnav: Bayesian Information Gain for Guiding Multiscale Navigation. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, NY, NY, USA, 5869--5880. DOI: http://dx.doi.org/10.1145/3025453.3025524",
+      "doi": "10.1145/3025453.3025524"
+    },
+    {
+      "text": "Wanyu Liu, Olivier Rioul, Joanna McGrenere, Wendy E. Mackay, and Michel Beaudouin-Lafon. 2018. BIGFile: Bayesian Information Gain for Fast File Retrieval. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). ACM, NY, NY, USA, Article 385, 13 pages. DOI: http://dx.doi.org/10.1145/3173574.3173959",
+      "doi": "10.1145/3173574.3173959"
+    },
+    {
+      "text": "Hao L\u00fc, James A. Fogarty, and Yang Li. 2014. Gesture Script: Recognizing Gestures and Their Structure Using Rendering Scripts and Interactively Trained Parts. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). ACM, NY, NY, USA, 1685--1694. DOI: http://dx.doi.org/10.1145/2556288.2557263",
+      "doi": "10.1145/2556288.2557263"
+    },
+    {
+      "text": "Hao L\u00fc and Yang Li. 2011. Gesture Avatar: A Technique for Operating Mobile User Interfaces Using Gestures. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '11). ACM, NY, NY, USA, 207--216. DOI: http://dx.doi.org/10.1145/1978942.1978972",
+      "doi": "10.1145/1978942.1978972"
+    },
+    {
+      "text": "Hao L\u00fc and Yang Li. 2013. Gesture Studio: Authoring Multi-touch Interactions Through Demonstration and Declaration. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). ACM, NY, NY, USA, 257--266. DOI: http://dx.doi.org/10.1145/2470654.2470690",
+      "doi": "10.1145/2470654.2470690"
+    },
+    {
+      "text": "Hao L\u00fc and Yang Li. 2015. Gesture On: Enabling Always-On Touch Gestures for Fast Mobile Access from the Device Standby Mode. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). ACM, NY, NY, USA, 3355--3364. DOI: http://dx.doi.org/10.1145/2702123.2702610",
+      "doi": "10.1145/2702123.2702610"
+    },
+    {
+      "text": "Yuexing Luo and Daniel Vogel. 2014. Crossing-based Selection with Direct Touch Input. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). ACM, NY, NY, USA, 2627--2636. DOI: http://dx.doi.org/10.1145/2556288.2557397",
+      "doi": "10.1145/2556288.2557397"
+    },
+    {
+      "text": "Yuexing Luo and Daniel Vogel. 2015. Pin-and-Cross: A Unimanual Multitouch Technique Combining Static Touches with Crossing Selection. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology (UIST '15). ACM, NY, NY, USA, 323--332. DOI: http://dx.doi.org/10.1145/2807442.2807444",
+      "doi": "10.1145/2807442.2807444"
+    },
+    {
+      "text": "Alistair Morrison, Xiaoyu Xiong, Matthew Higgs, Marek Bell, and Matthew Chalmers. 2018. A Large-Scale Study of iPhone App Launch Behaviour. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). ACM, NY, NY, USA, Article 344, 13 pages. DOI: http://dx.doi.org/10.1145/3173574.3173918",
+      "doi": "10.1145/3173574.3173918"
+    },
+    {
+      "text": "Tomer Moscovich. 2009. Contact Area Interaction with Sliding Widgets. In Proceedings of the 22Nd Annual ACM Symposium on User Interface Software and Technology (UIST '09). ACM, NY, NY, USA, 13--22. DOI: http://dx.doi.org/10.1145/1622176.1622181",
+      "doi": "10.1145/1622176.1622181"
+    },
+    {
+      "text": "Josip Musi\u00b4 c and Roderick Murray-Smith. 2016. Nomadic Input on Mobile Devices: The Influence of Touch Input Technique and Walking Speed on Performance and Offset Modeling. Human-Computer Interaction 31, 5 (Sept. 2016), 420--471. DOI: http://dx.doi.org/10.1080/07370024.2015.1071195",
+      "doi": ""
+    },
+    {
+      "text": "Douglas L Nelson, Valerie S Reed, and John R Walling. 1976. Pictorial superiority effect. Journal of Experimental Psychology: Human Learning and Memory 2, 5 (1976), 523.",
+      "doi": ""
+    },
+    {
+      "text": "Alex Olwal, Steven Feiner, and Susanna Heyman. 2008. Rubbing and Tapping for Precise and Rapid Selection on Touch-screen Displays. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '08). ACM, NY, NY, USA, 295--304. DOI: http://dx.doi.org/10.1145/1357054.1357105",
+      "doi": "10.1145/1357054.1357105"
+    },
+    {
+      "text": "Charles Perin, Pierre Dragicevic, and Jean-Daniel Fekete. 2015. Crossets: Manipulating Multiple Sliders by Crossing. In Proceedings of the 41st Graphics Interface Conference (GI '15). Canadian Information Processing Society, Toronto, Ont., Canada, Canada, 233--240. http://dl.acm.org/citation.cfm?id=2788890.2788931",
+      "doi": "10.5555/2788890.2788931"
+    },
+    {
+      "text": "Simon Rogers, John Williamson, Craig Stewart, and Roderick Murray-Smith. 2010. FingerCloud: Uncertainty and Autonomy Handover Incapacitive Sensing. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10). ACM, NY, NY, USA, 577--580. DOI: http://dx.doi.org/10.1145/1753326.1753412",
+      "doi": "10.1145/1753326.1753412"
+    },
+    {
+      "text": "Anne Roudaut, Eric Lecolinet, and Yves Guiard. 2009. MicroRolls: Expanding Touch-screen Input Vocabulary by Distinguishing Rolls vs. Slides of the Thumb. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '09). ACM, NY, NY, USA, 927--936. DOI: http://dx.doi.org/10.1145/1518701.1518843",
+      "doi": "10.1145/1518701.1518843"
+    },
+    {
+      "text": "Julia Schwarz, Scott Hudson, Jennifer Mankoff, and Andrew D. Wilson. 2010. A Framework for Robust and Flexible Handling of Inputs with Uncertainty. In Proceedings of the 23rd Annual ACM Symposium on User Interface Software and Technology (UIST '10). ACM, NY, NY, USA, 47--56. DOI: http://dx.doi.org/10.1145/1866029.1866039",
+      "doi": ""
+    },
+    {
+      "text": "Julia Schwarz, Jennifer Mankoff, and Scott Hudson. 2011. Monte Carlo Methods for Managing Interactive State, Action and Feedback Under Uncertainty. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology (UIST '11). ACM, NY, NY, USA, 235--244. DOI: http://dx.doi.org/10.1145/2047196.2047227",
+      "doi": "10.1145/2047196.2047227"
+    },
+    {
+      "text": "Daniel Vogel and Ravin Balakrishnan. 2010. Occlusion-aware Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10). ACM, NY, NY, USA, 263--272. DOI: http://dx.doi.org/10.1145/1753326.1753365",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Vogel and Patrick Baudisch. 2007. Shift: A Technique for Operating Pen-based Interfaces Using Touch. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '07). ACM, NY, NY, USA, 657--666. DOI: http://dx.doi.org/10.1145/1240624.1240727",
+      "doi": "10.1145/1240624.1240727"
+    },
+    {
+      "text": "Daniel Vogel and G\u00e9ry Casiez. 2012. Hand Occlusion on a Multi-touch Tabletop. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). ACM, NY, NY, USA, 2307--2316. DOI: http://dx.doi.org/10.1145/2207676.2208390",
+      "doi": "10.1145/2207676.2208390"
+    },
+    {
+      "text": "David J. Ward, Alan F. Blackwell, and David J. C. MacKay. 2000. Dasher-a Data Entry Interface Using Continuous Gestures and Language Models. In Proceedings of the 13th Annual ACM Symposium on User Interface Software and Technology (UIST '00). ACM, NY, NY, USA, 129--137. DOI: http://dx.doi.org/10.1145/354401.354427",
+      "doi": "10.1145/354401.354427"
+    },
+    {
+      "text": "Daryl Weir, Simon Rogers, Roderick Murray-Smith, and Markus L\u00f6chtefeld. 2012. A User-specific Machine Learning Approach for Improving Touch Accuracy on Mobile Devices. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology (UIST '12). ACM, NY, NY, USA, 465--476. DOI: http://dx.doi.org/10.1145/2380116.2380175",
+      "doi": "10.1145/2380116.2380175"
+    },
+    {
+      "text": "Daniel Wigdor, Clifton Forlines, Patrick Baudisch, John Barnwell, and Chia Shen. 2007. Lucid Touch: A See-through Mobile Device. In Proceedings of the 20th Annual ACM Symposium on User Interface Software and Technology (UIST '07). ACM, NY, NY, USA, 269--278. DOI: http://dx.doi.org/10.1145/1294211.1294259",
+      "doi": "10.1145/1294211.1294259"
+    },
+    {
+      "text": "Daniel Wigdor, Darren Leigh, Clifton Forlines, Samuel Shipman, John Barnwell, Ravin Balakrishnan, and Chia Shen. 2006. Under the Table Interaction. In Proceedings of the 19th Annual ACM Symposium on User Interface Software and Technology (UIST '06). ACM, NY, NY, USA, 259--268. DOI: http://dx.doi.org/10.1145/1166253.1166294",
+      "doi": "10.1145/1166253.1166294"
+    },
+    {
+      "text": "John Williamson. 2006. Continuous Uncertain Interaction. Ph.D. Dissertation. University of Glasgow.",
+      "doi": ""
+    },
+    {
+      "text": "Jacob O. Wobbrock, Andrew D. Wilson, and Yang Li. 2007. Gestures Without Libraries, Toolkits or Training: A $1 Recognizer for User Interface Prototypes. In Proceedings of the 20th Annual ACM Symposium on User Interface Software and Technology (UIST '07). ACM, NY, NY, USA, 159--168. DOI: http://dx.doi.org/10.1145/1294211.1294238",
+      "doi": "10.1145/1294211.1294238"
+    },
+    {
+      "text": "Wenchang Xu, Chun Yu, and Yuanchun Shi. 2011. RegionalSliding: Enhancing Target Selection on Touchscreen-based Mobile Devices. In CHI '11 Extended Abstracts on Human Factors in Computing Systems (CHI EA '11). ACM, NY, NY, USA, 1261--1266. DOI: http://dx.doi.org/10.1145/1979742.1979758",
+      "doi": "10.1145/1979742.1979758"
+    },
+    {
+      "text": "Koji Yatani, Kurt Partridge, Marshall Bern, and Mark W. Newman. 2008. Escape: A Target Selection Technique Using Visually-cued Gestures. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '08). ACM, NY, NY, USA, 285--294. DOI: http://dx.doi.org/10.1145/1357054.1357104",
+      "doi": ""
+    },
+    {
+      "text": "Shumin Zhai and Per Ola Kristensson. 2012. The Word-gesture Keyboard: Reimagining Keyboard Interaction. Commun. ACM 55, 9 (Sept. 2012), 91--101. DOI: http://dx.doi.org/10.1145/2330667.2330689",
+      "doi": "10.1145/2330667.2330689"
+    },
+    {
+      "text": "Shengdong Zhao and Ravin Balakrishnan. 2004. Simple vs. Compound Mark Hierarchical Marking Menus. In Proceedings of the 17th Annual ACM Symposium on User Interface Software and Technology (UIST '04). ACM, NY, NY, USA, 33--42. DOI: http://dx.doi.org/10.1145/1029632.1029639",
+      "doi": "10.1145/1029632.1029639"
+    },
+    {
+      "text": "Jingjie Zheng, Xiaojun Bi, Kun Li, Yang Li, and Shumin Zhai. 2018. M3 Gesture Menu: Design and Experimental Analyses of Marking Menus for Touchscreen Mobile Interaction. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). ACM, NY, NY, USA, Article 249, 14 pages. DOI: http://dx.doi.org/10.1145/3173574.3173823",
+      "doi": "10.1145/3173574.3173823"
+    },
+    {
+      "text": "Suwen Zhu, Tianyao Luo, Xiaojun Bi, and Shumin Zhai. 2018. Typing on an Invisible Keyboard. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). ACM, NY, NY, USA, Article 439, 13 pages. DOI: http://dx.doi.org/10.1145/3173574.3174013",
+      "doi": "10.1145/3173574.3174013"
+    },
+    {
+      "text": "Suwen Zhu, Jingjie Zheng, Shumin Zhai, and Xiaojun Bi. 2019. I'sFree: Eyes-Free Gesture Typing via a Touch-Enabled Remote Control. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI '19). ACM, NY, NY, USA, Article 448, 12 pages. DOI: http://dx.doi.org/10.1145/3290605.3300678",
+      "doi": "10.1145/3290605.3300678"
+    },
+    {
+      "text": "George Kingsley Zipf. 1949. Human behavior and the principle of least effort: an introduction to human ecology. Addison-Wesley Press.",
+      "doi": ""
+    }
+  ]
+}

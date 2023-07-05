@@ -1,0 +1,559 @@
+{
+  "doi": "10.1145/3544548.3581444",
+  "title": "UnMapped: Leveraging Experts\u2019 Situated Experiences to Ease Remote Guidance in Collaborative Mixed Reality",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Collaborative Mixed Reality (MR) systems that help extend expertise for physical tasks to remote environments often situate experts in an immersive view of the task environment to bring the collaboration closer to collocated settings. In this paper, we design UnMapped, an alternative interface for remote experts that combines a live 3D view of the active space within the novice\u2019s environment with a static 3D recreation of the expert\u2019s own workspace to leverage their existing spatial memories within it. We evaluate the impact of this approach on single and repeated use of collaborative MR systems for remote guidance through a comparative study. Our results indicate that despite having a limited understanding of the novice\u2019s environment, using an UnMapped interface increased performance and communication efficiency while reducing experts\u2019 task load. We also outline the various affordances of providing remote experts with a familiar and spatially-stable environment to assist novices.",
+  "authors": [
+    {
+      "name": "Janet G Johnson",
+      "institution": "Computer Science and Engineering, UC San Diego, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659305840",
+      "orcid": "0000-0002-0456-4028"
+    },
+    {
+      "name": "Tommy Sharkey",
+      "institution": "Computer Science and Engineering, UC San Diego, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659365473",
+      "orcid": "0000-0001-9705-6788"
+    },
+    {
+      "name": "Iramuali Cynthia Butarbutar",
+      "institution": "Computer Science and Engineering, UC San Diego, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782877",
+      "orcid": "0000-0002-8671-6063"
+    },
+    {
+      "name": "Danica Xiong",
+      "institution": "Computer Science and Engineering, UC San Diego, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783300",
+      "orcid": "0000-0001-8954-0529"
+    },
+    {
+      "name": "Ruijie Huang",
+      "institution": "Department of Psychology, UC San Diego, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660781871",
+      "orcid": "0000-0003-3292-6345"
+    },
+    {
+      "name": "Lauren Sy",
+      "institution": "Department of Cognitive Science, UC San Diego, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782554",
+      "orcid": "0000-0002-0742-9120"
+    },
+    {
+      "name": "Nadir Weibel",
+      "institution": "Computer Science and Engineering & Design Lab, UC San Diego, United States",
+      "img": "/do/10.1145/contrib-81100240198/rel-imgonly/nadirweibel_small.jpg",
+      "acmid": "81100240198",
+      "orcid": "0000-0002-3457-4227"
+    }
+  ],
+  "references": [
+    {
+      "text": "Matt Adcock, Stuart Anderson, and Bruce Thomas. 2013. RemoteFusion: Real Time Depth Camera Fusion for Remote Collaboration on Physical Tasks. In Proceedings of the 12th ACM SIGGRAPH International Conference on Virtual-Reality Continuum and Its Applications in Industry(Hong Kong, Hong Kong) (VRCAI \u201913). Association for Computing Machinery, New York, NY, USA, 235\u2013242. https://doi.org/10.1145/2534329.2534331",
+      "doi": "10.1145/2534329.2534331"
+    },
+    {
+      "text": "Daniel Andersen, Chengyuan Lin, Voicu Popescu, Edgar\u00a0Rojas Munoz, Maria Eugenia\u00a0Cabrera, Brian Mullis, Ben Zarzaur, Sherri Marley, and Juan Wachs. 2018. Augmented Visual Instruction for Surgical Practice and Training. In 2018 IEEE Workshop on Augmented and Virtual Realities for Good (VAR4Good). IEEE, Reutlingen, 1\u20135. https://doi.org/10.1109/VAR4GOOD.2018.8576884",
+      "doi": ""
+    },
+    {
+      "text": "Kittipat Apicharttrisorn, Xukan Ran, Jiasi Chen, Srikanth\u00a0V. Krishnamurthy, and Amit\u00a0K. Roy-Chowdhury. 2019. Frugal Following: Power Thrifty Object Detection and Tracking for Mobile Augmented Reality. In Proceedings of the 17th Conference on Embedded Networked Sensor Systems (New York, New York) (SenSys \u201919). Association for Computing Machinery, New York, NY, USA, 96\u2013109. https://doi.org/10.1145/3356250.3360044",
+      "doi": "10.1145/3356250.3360044"
+    },
+    {
+      "text": "Huidong Bai, Prasanth Sasikumar, Jing Yang, and Mark Billinghurst. 2020. A User Study on Mixed Reality Remote Collaboration with Eye Gaze and Hand Gesture Sharing. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376550",
+      "doi": "10.1145/3313831.3376550"
+    },
+    {
+      "text": "Tomasz Bednarz, Craig James, Con Caris, Kerstin Haustein, Matt Adcock, and Chris Gunn. 2011. Applications of Networked Virtual Reality for Tele-Operation and Tele-Assistance Systems in the Mining Industry. In Proceedings of the 10th International Conference on Virtual Reality Continuum and Its Applications in Industry (Hong Kong, China) (VRCAI \u201911). Association for Computing Machinery, New York, NY, USA, 459\u2013462. https://doi.org/10.1145/2087756.2087845",
+      "doi": "10.1145/2087756.2087845"
+    },
+    {
+      "text": "Andrew\u00a0A Bennett, Emily\u00a0D Campion, Kathleen\u00a0R Keeler, and Sheila\u00a0K Keener. 2021. Videoconference fatigue? Exploring changes in fatigue after videoconference meetings during COVID-19.Journal of Applied Psychology 106, 3 (2021), 330.",
+      "doi": ""
+    },
+    {
+      "text": "Mark Billinghurst and Hirokazu Kato. 2002. Collaborative augmented reality. Commun. ACM 45, 7 (2002), 64\u201370.",
+      "doi": "10.1145/514236.514265"
+    },
+    {
+      "text": "S\u00e9bastien Bottecchia, Jean-Marc Cieutat, and Jean-Pierre Jessel. 2010. T.A.C: Augmented Reality System for Collaborative Tele-Assistance in the Field of Maintenance through Internet. In Proceedings of the 1st Augmented Human International Conference (Meg\u00e8ve, France) (AH \u201910). Association for Computing Machinery, New York, NY, USA, Article 14, 7\u00a0pages. https://doi.org/10.1145/1785455.1785469",
+      "doi": "10.1145/1785455.1785469"
+    },
+    {
+      "text": "M. Boukhris, A. Paljic, and D. Lafon-Pham. 2017. 360\u00b0 versus 3D Environments in VR Headsets for an Exploration Task. In Proceedings of the 27th International Conference on Artificial Reality and Telexistence and 22nd Eurographics Symposium on Virtual Environments (Adelaide, Australia) (ICAT-EGVE \u201917). Eurographics Association, Goslar, DEU, 71\u201378.",
+      "doi": ""
+    },
+    {
+      "text": "Susan\u00a0E Brennan and Herbert\u00a0H Clark. 1996. Conceptual pacts and lexical choice in conversation.Journal of experimental psychology: Learning, memory, and cognition 22, 6(1996), 1482.",
+      "doi": ""
+    },
+    {
+      "text": "Svend Brinkmann and Lene Tanggaard. 2010. Toward an epistemology of the hand. Studies in philosophy and education 29, 3 (2010), 243\u2013257.",
+      "doi": ""
+    },
+    {
+      "text": "M\u00a0Ayodele Buraimoh, Jane\u00a0Z Liu, Stephen\u00a0B Sundberg, and Michael\u00a0P Mott. 2017. Eponymous instruments in orthopaedic surgery. The Iowa orthopaedic journal 37 (2017), 211.",
+      "doi": ""
+    },
+    {
+      "text": "Yuan-Chia Chang, Hao-Chuan Wang, Hung-kuo Chu, Shung-Ying Lin, and Shuo-Ping Wang. 2017. AlphaRead: Support Unambiguous Referencing in Remote Collaboration with Readable Object Annotation. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing (Portland, Oregon, USA) (CSCW \u201917). Association for Computing Machinery, New York, NY, USA, 2246\u20132259. https://doi.org/10.1145/2998181.2998258",
+      "doi": "10.1145/2998181.2998258"
+    },
+    {
+      "text": "Jeffrey\u00a0W Chastine, Ying Zhu, and Jon\u00a0A Preston. 2006. A framework for inter-referential awareness in collaborative environments. In 2006 International Conference on Collaborative Computing: Networking, Applications and Worksharing. IEEE, IEEE, 1\u20135.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaoli Chen and Timothy McNamara. 2011. Object-centered reference systems and human spatial memory. Psychonomic bulletin & review 18, 5 (2011), 985\u2013991.",
+      "doi": ""
+    },
+    {
+      "text": "Herbert\u00a0H Clark and Susan\u00a0E Brennan. 1991. Grounding in communication.(1991).",
+      "doi": ""
+    },
+    {
+      "text": "Herbert\u00a0H Clark and Edward\u00a0F Schaefer. 1989. Contributing to discourse. Cognitive science 13, 2 (1989), 259\u2013294.",
+      "doi": ""
+    },
+    {
+      "text": "Herbert\u00a0H Clark and Deanna Wilkes-Gibbs. 1986. Referring as a collaborative process. Cognition 22, 1 (1986), 1\u201339.",
+      "doi": ""
+    },
+    {
+      "text": "Andy Cockburn and Bruce McKenzie. 2004. Evaluating spatial memory in two and three dimensions. International Journal of Human-Computer Studies 61, 3 (2004), 359\u2013373.",
+      "doi": "10.1016/j.ijhcs.2004.01.005"
+    },
+    {
+      "text": "Nils Dahlb\u00e4ck, Arne J\u00f6nsson, and Lars Ahrenberg. 1993. Wizard of Oz studies: why and how. In Proceedings of the 1st international conference on Intelligent user interfaces. 193\u2013200.",
+      "doi": "10.1145/169891.169968"
+    },
+    {
+      "text": "Ryan Anthony\u00a0J de Belen, Huyen Nguyen, Daniel Filonik, Dennis Del\u00a0Favero, and Tomasz Bednarz. 2019. A systematic review of the current state of collaborative mixed reality technologies: 2013\u20132018. AIMS Electronics and Electrical Engineering 3, 2 (2019), 181\u2013223. https://doi.org/10.3934/ElectrEng.2019.2.181",
+      "doi": ""
+    },
+    {
+      "text": "Ersin Dincelli and Alper Yayla. 2022. Immersive virtual reality in the age of the Metaverse: A hybrid-narrative review based on the technology affordance perspective. The Journal of Strategic Information Systems 31, 2 (2022), 101717.",
+      "doi": "10.1016/j.jsis.2022.101717"
+    },
+    {
+      "text": "Gwyneth Doherty-Sneddon, Anne Anderson, Claire O\u2019malley, Steve Langton, Simon Garrod, and Vicki Bruce. 1997. Face-to-face and video-mediated communication: A comparison of dialogue structure and task performance.Journal of experimental psychology: applied 3, 2 (1997), 105.",
+      "doi": ""
+    },
+    {
+      "text": "Nicola D\u00f6ring, Katrien\u00a0De Moor, Markus Fiedler, Katrin Schoenenberg, and Alexander Raake. 2022. Videoconference fatigue: A conceptual analysis. International journal of environmental research and public health 19, 4(2022), 2061.",
+      "doi": ""
+    },
+    {
+      "text": "Mingsong Dou and Henry Fuchs. 2014. Temporally enhanced 3d capture of room-sized dynamic scenes with commodity depth cameras. In 2014 IEEE Virtual Reality (VR). IEEE, IEEE, 39\u201344.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Dourish and Victoria Bellotti. 1992. Awareness and Coordination in Shared Workspaces. In Proceedings of the 1992 ACM Conference on Computer-Supported Cooperative Work (Toronto, Ontario, Canada) (CSCW \u201992). Association for Computing Machinery, New York, NY, USA, 107\u2013114. https://doi.org/10.1145/143457.143468",
+      "doi": "10.1145/143457.143468"
+    },
+    {
+      "text": "Steven Dow, Jaemin Lee, Christopher Oezbek, Blair MacIntyre, Jay\u00a0David Bolter, and Maribeth Gandy. 2005. Wizard of Oz Interfaces for Mixed Reality Applications. In CHI \u201905 Extended Abstracts on Human Factors in Computing Systems (Portland, OR, USA) (CHI EA \u201905). Association for Computing Machinery, New York, NY, USA, 1339\u20131342. https://doi.org/10.1145/1056808.1056911",
+      "doi": "10.1145/1056808.1056911"
+    },
+    {
+      "text": "Miguel\u00a0P Eckstein. 2011. Visual search: A retrospective. Journal of vision 11, 5 (2011), 14\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Abraham El-Sedfy and Ronald\u00a0S Chamberlain. 2014. Surgeons and their tools: A history of surgical instruments and their innovators\u2014Part I: Place the scissors on the Mayo stand. The American Surgeon 80, 11 (2014), 1089\u20131092.",
+      "doi": ""
+    },
+    {
+      "text": "Barrett Ens, Joel Lanir, Anthony Tang, Scott Bateman, Gun Lee, Thammathip Piumsomboon, and Mark Billinghurst. 2019. Revisiting collaboration through mixed reality: The evolution of groupware. International Journal of Human-Computer Studies 131 (2019), 81\u201398.",
+      "doi": "10.1016/j.ijhcs.2019.05.011"
+    },
+    {
+      "text": "MR Ensley. 1995. Toward a theory of situation awareness in dynamic systems. Human factors 37(1995), 85\u2013104.",
+      "doi": ""
+    },
+    {
+      "text": "Russell\u00a0A Epstein, J\u00a0Stephen Higgins, Karen Jablonski, and Alana\u00a0M Feiler. 2007. Visual scene processing in familiar and unfamiliar environments. Journal of neurophysiology 97, 5 (2007), 3670\u20133683.",
+      "doi": ""
+    },
+    {
+      "text": "Anouschka Foltz, Judith Gaspers, Kristina Thiele, Prisca Stenneken, and Philipp Cimiano. 2015. Lexical alignment in triadic communication. Frontiers in psychology 6 (2015), 127.",
+      "doi": ""
+    },
+    {
+      "text": "Olivier Friard and Marco Gamba. 2016. BORIS: a free, versatile open-source event-logging software for video/audio coding and live observations. Methods in ecology and evolution 7, 11 (2016), 1325\u20131330.",
+      "doi": ""
+    },
+    {
+      "text": "Susan\u00a0R. Fussell, Robert\u00a0E. Kraut, and Jane Siegel. 2000. Coordination of Communication: Effects of Shared Visual Context on Collaborative Work. In Proceedings of the 2000 ACM Conference on Computer Supported Cooperative Work (Philadelphia, Pennsylvania, USA) (CSCW \u201900). Association for Computing Machinery, New York, NY, USA, 21\u201330. https://doi.org/10.1145/358916.358947",
+      "doi": "10.1145/358916.358947"
+    },
+    {
+      "text": "Susan\u00a0R. Fussell, Leslie\u00a0D. Setlock, and Robert\u00a0E. Kraut. 2003. Effects of Head-Mounted and Scene-Oriented Video Systems on Remote Collaboration on Physical Tasks. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Ft. Lauderdale, Florida, USA) (CHI \u201903). Association for Computing Machinery, New York, NY, USA, 513\u2013520. https://doi.org/10.1145/642611.642701",
+      "doi": "10.1145/642611.642701"
+    },
+    {
+      "text": "Susan\u00a0R Fussell, Leslie\u00a0D Setlock, Jie Yang, Jiazhi Ou, Elizabeth Mauer, and Adam\u00a0DI Kramer. 2004. Gestures over video streams to support remote collaboration on physical tasks. Human-Computer Interaction 19, 3 (2004), 273\u2013309.",
+      "doi": "10.1207/s15327051hci1903_3"
+    },
+    {
+      "text": "Lei Gao, Huidong Bai, Mark Billinghurst, and Robert\u00a0W. Lindeman. 2020. User Behaviour Analysis of Mixed Reality Remote Collaboration with a Hybrid View Interface. In 32nd Australian Conference on Human-Computer Interaction(OzCHI \u201920). Association for Computing Machinery, New York, NY, USA, 629\u2013638. https://doi.org/10.1145/3441000.3441038",
+      "doi": "10.1145/3441000.3441038"
+    },
+    {
+      "text": "Lei Gao, Huidong Bai, Weiping He, Mark Billinghurst, and Robert\u00a0W. Lindeman. 2018. Real-time visual representations for mobile mixed reality remote collaboration. In SIGGRAPH Asia 2018 Virtual & Augmented Reality(SA \u201918). Association for Computing Machinery, New York, NY, USA, 1\u20132. https://doi.org/10.1145/3275495.3275515",
+      "doi": "10.1145/3275495.3275515"
+    },
+    {
+      "text": "Lei Gao, Huidong Bai, Rob Lindeman, and Mark Billinghurst. 2017. Static local environment capturing and sharing for MR remote collaboration. In SIGGRAPH Asia 2017 Mobile Graphics & Interactive Applications. 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Danilo Gasques, Janet\u00a0G. Johnson, Tommy Sharkey, Yuanyuan Feng, Ru Wang, Zhuoqun\u00a0Robin Xu, Enrique Zavala, Yifei Zhang, Wanze Xie, Xinming Zhang, Konrad Davis, Michael Yip, and Nadir Weibel. 2021. ARTEMIS: A Collaborative Mixed-Reality System for Immersive Surgical Telementoring. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 662, 14\u00a0pages. https://doi.org/10.1145/3411764.3445576",
+      "doi": "10.1145/3411764.3445576"
+    },
+    {
+      "text": "Steffen Gauglitz, Benjamin Nuernberger, Matthew Turk, and Tobias H\u00f6llerer. 2014. In touch with the remote world: Remote collaboration with augmented reality drawings and virtual navigation. In Proceedings of the 20th ACM Symposium on Virtual Reality Software and Technology. 197\u2013205.",
+      "doi": "10.1145/2671015.2671016"
+    },
+    {
+      "text": "William\u00a0W Gaver, Abigail Sellen, Christian Heath, and Paul Luff. 1993. One is not enough: Multiple views in a media space. In Proceedings of the INTERACT\u201993 and CHI\u201993 conference on Human factors in computing systems. 335\u2013341.",
+      "doi": "10.1145/169059.169268"
+    },
+    {
+      "text": "Darren Gergle, Robert\u00a0E Kraut, and Susan\u00a0R Fussell. 2004. Action as language in a shared visual space. In Proceedings of the 2004 ACM conference on Computer supported cooperative work. 487\u2013496.",
+      "doi": "10.1145/1031607.1031687"
+    },
+    {
+      "text": "Eduardo\u00a0Luis Gomes, Mauro Fonseca, Andr\u00e9\u00a0Eugenio Lazzaretti, Anelise Munaretto, and Carlos Guerber. 2021. Clustering and Hierarchical Classification for High-Precision RFID Indoor Location Systems. IEEE Sensors Journal 22, 6 (2021), 5141\u20135149.",
+      "doi": ""
+    },
+    {
+      "text": "Chad Harms and Frank Biocca. 2004. Internal consistency and reliability of the networked minds measure of social presence. In Seventh annual international workshop: Presence, Vol.\u00a02004. Universidad Politecnica de Valencia Valencia, Spain.",
+      "doi": ""
+    },
+    {
+      "text": "Sandra\u00a0G Hart and Lowell\u00a0E Staveland. 1988. Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research. In Advances in psychology. Vol.\u00a052. Elsevier, 139\u2013183.",
+      "doi": ""
+    },
+    {
+      "text": "Adamantini Hatzipanayioti, Alexia Galati, Marianna Pagkratidou, and Marios\u00a0N Avraamides. 2021. Are Spatial Memories for Familiar Environments Orientation Dependent?Journal of Cognition 4, 1 (2021).",
+      "doi": ""
+    },
+    {
+      "text": "SJ Hayward, Kate van Lopik, Christopher Hinde, and AA West. 2022. A survey of indoor location technologies, techniques and applications in industry. Internet of Things (2022), 100608.",
+      "doi": ""
+    },
+    {
+      "text": "Jason Helbing, Dejan Draschkow, and Melissa L-H Vo. 2020. Semantic and syntactic anchor object information interact to make visual search in immersive scenes efficient. Journal of Vision 20, 11 (2020), 573\u2013573.",
+      "doi": ""
+    },
+    {
+      "text": "Jim Hollan and Scott Stornetta. 1992. Beyond being there. In Proceedings of the SIGCHI conference on Human factors in computing systems. 119\u2013125.",
+      "doi": "10.1145/142750.142769"
+    },
+    {
+      "text": "Weidong Huang and Leila Alem. 2011. Supporting hand gestures in mobile remote collaboration: a usability evaluation. In Proceedings of HCI 2011 The 25th BCS Conference on Human Computer Interaction 25. 211\u2013216.",
+      "doi": ""
+    },
+    {
+      "text": "Weidong Huang, Leila Alem, and Franco Tecchia. 2013. HandsIn3D: supporting remote guidance with immersive virtual environments. In IFIP Conference on Human-Computer Interaction. Springer, 70\u201377.",
+      "doi": ""
+    },
+    {
+      "text": "Weidong Huang, Leila Alem, Franco Tecchia, and Henry Been-Lirn Duh. 2018. Augmented 3D hands: a gesture-based mixed reality system for distributed collaboration. Journal on Multimodal User Interfaces 12, 2 (2018), 77\u201389.",
+      "doi": ""
+    },
+    {
+      "text": "Ellen\u00a0A Isaacs and Herbert\u00a0H Clark. 1987. References in conversation between experts and novices.Journal of experimental psychology: general 116, 1 (1987), 26.",
+      "doi": ""
+    },
+    {
+      "text": "Hiroshi Ishii, Minoru Kobayashi, and Kazuho Arita. 1994. Iterative design of seamless collaboration media. Commun. ACM 37, 8 (1994), 83\u201397.",
+      "doi": "10.1145/179606.179687"
+    },
+    {
+      "text": "Michal Joachimczak, Juan Liu, and Hiroshi Ando. 2017. Real-time mixed-reality telepresence via 3D reconstruction with HoloLens and commodity depth sensors. In Proceedings of the 19th ACM International Conference on Multimodal Interaction. ACM, 514\u2013515.",
+      "doi": "10.1145/3136755.3143031"
+    },
+    {
+      "text": "Janet\u00a0G Johnson, Danilo Gasques, Tommy Sharkey, Evan Schmitz, and Nadir Weibel. 2021. Do You Really Need to Know Where \u201cThat\u201d Is? Enhancing Support for Referencing in Collaborative Mixed Reality Environments. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 514, 14\u00a0pages. https://doi.org/10.1145/3411764.3445246",
+      "doi": "10.1145/3411764.3445246"
+    },
+    {
+      "text": "Janet\u00a0G. Johnson, Danilo\u00a0Gasques Rodrigues, Madhuri Gubbala, and Nadir Weibel. 2018. HoloCPR: Designing and Evaluating a Mixed Reality Interface for Time-Critical Emergencies. In Proceedings of the 12th EAI International Conference on Pervasive Computing Technologies for Healthcare (New York, NY, USA) (PervasiveHealth \u201918). Association for Computing Machinery, New York, NY, USA, 67\u201376. https://doi.org/10.1145/3240925.3240984",
+      "doi": "10.1145/3240925.3240984"
+    },
+    {
+      "text": "Steven Johnson, Madeleine Gibson, and Bilge Mutlu. 2015. Handheld or handsfree? Remote collaboration via lightweight head-mounted displays and handheld devices. In Proceedings of the 18th ACM conference on computer supported cooperative work & social computing. 1825\u20131836.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Kaplan. 1995. The restorative benefits of nature: Toward an integrative framework. Journal of environmental psychology 15, 3 (1995), 169\u2013182.",
+      "doi": ""
+    },
+    {
+      "text": "Kourosh Khoshelham and Sander\u00a0Oude Elberink. 2012. Accuracy and resolution of kinect depth data for indoor mapping applications. sensors 12, 2 (2012), 1437\u20131454.",
+      "doi": ""
+    },
+    {
+      "text": "David Kirsh. 1995. The intelligent use of space. Artificial intelligence 73, 1-2 (1995), 31\u201368.",
+      "doi": ""
+    },
+    {
+      "text": "David Kirsh. 2013. Embodied cognition and the magical future of interaction design. ACM Transactions on Computer-Human Interaction (TOCHI) 20, 1(2013), 1\u201330.",
+      "doi": "10.1145/2442106.2442109"
+    },
+    {
+      "text": "David Kirsh and Paul Maglio. 1994. On distinguishing epistemic from pragmatic action. Cognitive science 18, 4 (1994), 513\u2013549.",
+      "doi": ""
+    },
+    {
+      "text": "Petrus\u00a0EJ Kivi, Markku\u00a0J M\u00e4kitalo, Jakub \u017d\u00e1dn\u00edk, Julius Ikkala, Vinod Kumar\u00a0Malamal Vadakital, and Pekka\u00a0O J\u00e4\u00e4skel\u00e4inen. 2022. Real-Time Rendering of Point Clouds With Photorealistic Effects: A Survey. IEEE Access 10(2022), 13151\u201313173.",
+      "doi": ""
+    },
+    {
+      "text": "Jan Kolkmeier, Emiel Harmsen, Sander Giesselink, Dennis Reidsma, Mari\u00ebt Theune, and Dirk Heylen. 2018. With a little help from a holographic friend: the OpenIMPRESS mixed reality telepresence toolkit for remote collaboration systems. In Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology(VRST \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3281505.3281542",
+      "doi": "10.1145/3281505.3281542"
+    },
+    {
+      "text": "Robert\u00a0E Kraut, Susan\u00a0R Fussell, and Jane Siegel. 2003. Visual information as a conversational resource in collaborative physical tasks. Human\u2013computer interaction 18, 1-2 (2003), 13\u201349.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0E Kraut, Darren Gergle, and Susan\u00a0R Fussell. 2002. The use of visual information in shared visual spaces: Informing the development of virtual co-presence. In Proceedings of the 2002 ACM conference on Computer supported cooperative work. 31\u201340.",
+      "doi": "10.1145/587078.587084"
+    },
+    {
+      "text": "Robert\u00a0E Kraut, Mark\u00a0D Miller, and Jane Siegel. 1996. Collaboration in performance of physical tasks: Effects on outcomes and communication. In Proceedings of the 1996 ACM conference on Computer supported cooperative work. 57\u201366.",
+      "doi": "10.1145/240080.240190"
+    },
+    {
+      "text": "Gregorij Kurillo, Evan Hemingway, Mu-Lin Cheng, and Louis Cheng. 2022. Evaluating the accuracy of the Azure Kinect and Kinect V2. Sensors 22, 7 (2022), 2469.",
+      "doi": ""
+    },
+    {
+      "text": "Joel Lanir, Ran Stone, Benjamin Cohen, and Pavel Gurevich. 2013. Ownership and control of point of view in remote assistance. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2243\u20132252.",
+      "doi": "10.1145/2470654.2481309"
+    },
+    {
+      "text": "Morgan Le\u00a0Ch\u00e9n\u00e9chal, Thierry Duval, Val\u00e9rie Gouranton, J\u00e9r\u00f4me Royan, and Bruno Arnaldi. 2016. Vishnu: virtual immersive support for helping users an interaction paradigm for collaborative remote guiding in mixed reality. In 2016 IEEE Third VR International Workshop on Collaborative Virtual Environments (3DCVE). IEEE, 9\u201312.",
+      "doi": ""
+    },
+    {
+      "text": "Geonsun Lee, HyeongYeop Kang, JongMin Lee, and JungHyun Han. 2020. A user study on view-sharing techniques for one-to-many mixed reality collaborations. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, 343\u2013352.",
+      "doi": ""
+    },
+    {
+      "text": "Gun\u00a0A Lee, Theophilus Teo, Seungwon Kim, and Mark Billinghurst. 2018. A user study on mr remote collaboration using live 360 video. In 2018 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE, IEEE, 153\u2013164.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen\u00a0G Lee, Y-S Ma, Georg\u00a0L Thimm, and J Verstraeten. 2008. Product lifecycle management in aviation maintenance, repair and overhaul. Computers in industry 59, 2-3 (2008), 296\u2013303.",
+      "doi": ""
+    },
+    {
+      "text": "Yongjae Lee, Byounghyun Yoo, and Soo-Hong Lee. 2021. Sharing ambient objects using real-time point cloud streaming in web-based XR remote collaboration. In The 26th International Conference on 3D Web Technology. 1\u20139.",
+      "doi": "10.1145/3485444.3487642"
+    },
+    {
+      "text": "Chia-Ling Li, M\u00a0Pilar Aivar, Dmitry\u00a0M Kit, Matthew\u00a0H Tong, and Mary\u00a0M Hayhoe. 2016. Memory and visual search in naturalistic 2D and 3D environments. Journal of vision 16, 8 (2016), 9\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Luyang Liu, Hongyu Li, and Marco Gruteser. 2019. Edge assisted real-time object detection for mobile augmented reality. In The 25th annual international conference on mobile computing and networking. 1\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Ana Malta, Mateus Mendes, and Torres Farinha. 2021. Augmented reality maintenance assistant using yolov5. Applied Sciences 11, 11 (2021), 4758.",
+      "doi": ""
+    },
+    {
+      "text": "Trevor\u00a0HJ Marchand. 2010. Embodied cognition and communication: studies with British fine woodworkers. Journal of the Royal Anthropological Institute 16 (2010), S100\u2013S120.",
+      "doi": ""
+    },
+    {
+      "text": "Alejandro Martin-Gomez, Haowei Li, Tianyu Song, Sheng Yang, Guangzhi Wang, Hui Ding, Nassir Navab, Zhe Zhao, and Mehran Armand. 2022. STTAR: Surgical Tool Tracking using off-the-shelf Augmented Reality Head-Mounted Displays. arXiv preprint arXiv:2208.08880(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Charlotta Mellander and Richard Florida. 2021. The rise of skills: Human capital, the creative class, and regional development. Handbook of regional science(2021), 707\u2013719.",
+      "doi": ""
+    },
+    {
+      "text": "Helena\u00a0M Mentis, Yuanyuan Feng, Azin Semsar, and Todd\u00a0A Ponsky. 2020. Remotely Shaping the View in Surgical Telementoring. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376622"
+    },
+    {
+      "text": "Paul Milgram, Haruo Takemura, Akira Utsumi, and Fumio Kishino. 1995. Augmented reality: A class of displays on the reality-virtuality continuum. In Telemanipulator and telepresence technologies, Vol.\u00a02351. International Society for Optics and Photonics, 282\u2013292.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Mohr, Shohei Mori, Tobias Langlotz, Bruce\u00a0H. Thomas, Dieter Schmalstieg, and Denis Kalkofen. 2020. Mixed Reality Light Fields for Interactive Remote Assistance. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3313831.3376289",
+      "doi": "10.1145/3313831.3376289"
+    },
+    {
+      "text": "Jens M\u00fcller, Roman R\u00e4dle, and Harald Reiterer. 2017. Remote collaboration with mixed reality displays: How shared virtual landmarks facilitate spatial referencing. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 6481\u20136486.",
+      "doi": "10.1145/3025453.3025717"
+    },
+    {
+      "text": "Albert Newen, Shaun Gallagher, and Leon De\u00a0Bruin. 2018. 4E Cognition: Historical Roots, Key Concepts, and Central Issues. (09 2018), 3\u201316. https://doi.org/10.1093/oxfordhb/9780198735410.013.1 arXiv:https://academic.oup.com/book/0/chapter/212118698/chapter-ag-pdf/44595794/book_28083_section_212118698.ag.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Gary\u00a0M Olson and Judith\u00a0S Olson. 2000. Distance matters. Human\u2013computer interaction 15, 2-3 (2000), 139\u2013178.",
+      "doi": ""
+    },
+    {
+      "text": "Sergio Orts-Escolano, Christoph Rhemann, Sean Fanello, Wayne Chang, Adarsh Kowdle, Yury Degtyarev, David Kim, Philip\u00a0L Davidson, Sameh Khamis, Mingsong Dou, 2016. Holoportation: Virtual 3d teleportation in real-time. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology. ACM, 741\u2013754.",
+      "doi": "10.1145/2984511.2984517"
+    },
+    {
+      "text": "Olivier Pauly, Benoit Diotte, Pascal Fallavollita, Simon Weidert, Ekkehard Euler, and Nassir Navab. 2015. Machine learning-based augmented reality for improved surgical scene understanding. Computerized Medical Imaging and Graphics 41 (2015), 55\u201360.",
+      "doi": ""
+    },
+    {
+      "text": "Thammathip Piumsomboon, Arindam Dey, Barrett Ens, Gun Lee, and Mark Billinghurst. 2019. The effects of sharing awareness cues in collaborative mixed reality. Frontiers Robotics AI 6, FEB (2019), 1\u201318.",
+      "doi": ""
+    },
+    {
+      "text": "Thammathip Piumsomboon, Gun\u00a0A Lee, Jonathon\u00a0D Hart, Barrett Ens, Robert\u00a0W Lindeman, Bruce\u00a0H Thomas, and Mark Billinghurst. 2018. Mini-me: An adaptive avatar for mixed reality remote collaboration. In Proceedings of the 2018 CHI conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3173574.3173620"
+    },
+    {
+      "text": "Thammathip Piumsomboon, Gun\u00a0A. Lee, Andrew Irlitti, Barrett Ens, Bruce\u00a0H. Thomas, and Mark Billinghurst. 2019. On the Shoulder of the Giant: A Multi-Scale Mixed Reality Collaboration with 360 Video Sharing and Tangible Interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201317. https://doi.org/10.1145/3290605.3300458",
+      "doi": "10.1145/3290605.3300458"
+    },
+    {
+      "text": "Ronald Poelman, Oytun Akman, Stephan Lukosch, and Pieter Jonker. 2012. As If Being There: Mediated Reality for Crime Scene Investigation. In Proceedings of the ACM 2012 Conference on Computer Supported Cooperative Work (Seattle, Washington, USA) (CSCW \u201912). Association for Computing Machinery, New York, NY, USA, 1267\u20131276. https://doi.org/10.1145/2145204.2145394",
+      "doi": "10.1145/2145204.2145394"
+    },
+    {
+      "text": "Joseph Psotka. 1995. Immersive training systems: Virtual reality and education and training. Instructional science 23, 5 (1995), 405\u2013431.",
+      "doi": ""
+    },
+    {
+      "text": "Abhishek Ranjan, Jeremy\u00a0P Birnholtz, and Ravin Balakrishnan. 2006. An exploratory analysis of partner action and camera control in a video-mediated collaborative task. In Proceedings of the 2006 20th anniversary conference on Computer supported cooperative work. ACM, 403\u2013412.",
+      "doi": "10.1145/1180875.1180936"
+    },
+    {
+      "text": "Troels\u00a0Ammitsb\u00f8l Rasmussen and Kaj Gronbak. 2019. Tailorable Remote Assistance with RemoteAssistKit: A Study of and Design Response to Remote Assistance in the Manufacturing Industry. In International Conference on Collaboration and Technology. Springer, 80\u201395.",
+      "doi": "10.1007/978-3-030-28011-6_6"
+    },
+    {
+      "text": "Troels\u00a0Ammitsb\u00f8l Rasmussen and Weidong Huang. 2019. SceneCam: Improving Multi-camera Remote Collaboration using Augmented Reality. In 2019 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct). IEEE, 28\u201333.",
+      "doi": ""
+    },
+    {
+      "text": "J\u00a0David Richardson. 2011. General surgeon shortage in the United States: fact or fiction, causes and consequences. Social work in public health 26, 5 (2011), 513\u2013523.",
+      "doi": ""
+    },
+    {
+      "text": "Mauro\u00a0Del Rio, Vittorio Meloni, Francesca Frexia, Francesco Cabras, Roberto Tumbarello, Sabrina Montis, Andrea Marini, and Gianluigi Zanetti. 2018. Augmented Reality for Supporting Real Time Telementoring: an Exploratory Study Applied to Ultrasonography. In Proceedings of the 2nd International Conference on Medical and Health Informatics. 218\u2013222.",
+      "doi": "10.1145/3239438.3239444"
+    },
+    {
+      "text": "Jessica Robin and Morris Moscovitch. 2014. The effects of spatial contextual familiarity on remembered scenes, episodic memories, and imagined future events.Journal of Experimental Psychology: Learning, Memory, and Cognition 40, 2(2014), 459.",
+      "doi": ""
+    },
+    {
+      "text": "Somaiieh Rokhsaritalemi, Abolghasem Sadeghi-Niaraki, and Soo-Mi Choi. 2020. A Review on Mixed Reality: Current Trends, Challenges and Prospects. Applied Sciences 10, 2 (2020), 636.",
+      "doi": ""
+    },
+    {
+      "text": "Wolff-Michael Roth and Alfredo Jornet. 2013. Situated cognition. Wiley Interdisciplinary Reviews: Cognitive Science 4, 5 (2013), 463\u2013478.",
+      "doi": ""
+    },
+    {
+      "text": "Joey Scarr, Andy Cockburn, Carl Gutwin, 2013. Supporting and exploiting spatial memory in user interfaces. Foundations and Trends\u00ae in Human\u2013Computer Interaction 6, 1(2013), 1\u201384.",
+      "doi": ""
+    },
+    {
+      "text": "Mahesh\u00a0B Shenai, Marcus Dillavou, Corey Shum, Douglas Ross, Richard\u00a0S Tubbs, Alan Shih, and Barton\u00a0L Guthrie. 2011. Virtual interactive presence and augmented reality (VIPAR) for remote surgical assistance. Operative Neurosurgery 68, suppl_1 (2011), ons200\u2013ons207.",
+      "doi": ""
+    },
+    {
+      "text": "Richard Skarbez, Missie Smith, and Mary\u00a0C Whitton. 2021. Revisiting milgram and kishino\u2019s reality-virtuality continuum. Frontiers in Virtual Reality 2 (2021), 647997.",
+      "doi": ""
+    },
+    {
+      "text": "Mel Slater, Vasilis Linakis, Martin Usoh, and Rob Kooper. 1996. Immersion, Presence and Performance in Virtual Environments: An Experiment with Tri-Dimensional Chess. In Proceedings of the ACM Symposium on Virtual Reality Software and Technology (Hong Kong) (VRST \u201996). Association for Computing Machinery, New York, NY, USA, 163\u2013172. https://doi.org/10.1145/3304181.3304216",
+      "doi": "10.1145/3304181.3304216"
+    },
+    {
+      "text": "Mel Slater and Sylvia Wilbur. 1997. A framework for immersive virtual environments (FIVE): Speculations on the role of presence in virtual environments. Presence: Teleoperators & Virtual Environments 6, 6(1997), 603\u2013616.",
+      "doi": "10.1162/pres.1997.6.6.603"
+    },
+    {
+      "text": "Rajinder\u00a0S. Sodhi, Brett\u00a0R. Jones, David Forsyth, Brian\u00a0P. Bailey, and Giuliano Maciocci. 2013. BeThere: 3D mobile collaboration with spatial input. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201913). Association for Computing Machinery, New York, NY, USA, 179\u2013188. https://doi.org/10.1145/2470654.2470679",
+      "doi": "10.1145/2470654.2470679"
+    },
+    {
+      "text": "Zsolt Szalav\u00e1ri, Dieter Schmalstieg, Anton Fuhrmann, and Michael Gervautz. 1998. \u201cStudierstube\u201d: An environment for collaboration in augmented reality. Virtual Reality 3, 1 (1998), 37\u201348.",
+      "doi": "10.1007/BF01409796"
+    },
+    {
+      "text": "Matthew Tait and Mark Billinghurst. 2015. The Effect of View Independence in a Collaborative AR System. Comput Supported Coop Work 24, 6 (Dec. 2015), 563\u2013589. https://doi.org/10.1007/s10606-015-9231-8",
+      "doi": "10.1007/s10606-015-9231-8"
+    },
+    {
+      "text": "Franco Tecchia, Leila Alem, and Weidong Huang. 2012. 3D Helping Hands: A Gesture Based MR System for Remote Collaboration. In Proceedings of the 11th ACM SIGGRAPH International Conference on Virtual-Reality Continuum and Its Applications in Industry (Singapore, Singapore) (VRCAI \u201912). Association for Computing Machinery, New York, NY, USA, 323\u2013328. https://doi.org/10.1145/2407516.2407590",
+      "doi": "10.1145/2407516.2407590"
+    },
+    {
+      "text": "Theophilus Teo, Ashkan F.\u00a0Hayati, Gun A.\u00a0Lee, Mark Billinghurst, and Matt Adcock. 2019. A Technique for Mixed Reality Remote Collaboration Using 360 Panoramas in 3D Reconstructed Scenes. In Proceedings of the 25th ACM Symposium on Virtual Reality Software and Technology (Parramatta, NSW, Australia) (VRST \u201919). Association for Computing Machinery, New York, NY, USA, Article 23, 11\u00a0pages. https://doi.org/10.1145/3359996.3364238",
+      "doi": "10.1145/3359996.3364238"
+    },
+    {
+      "text": "Theophilus Teo, Louise Lawrence, Gun\u00a0A Lee, Mark Billinghurst, and Matt Adcock. 2019. Mixed Reality Remote Collaboration Combining 360 Video and 3D Reconstruction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, Association for Computing Machinery, 201.",
+      "doi": "10.1145/3290605.3300431"
+    },
+    {
+      "text": "Theophilus Teo, Gun\u00a0A Lee, Mark Billinghurst, and Matt Adcock. 2019. Supporting Visual Annotation Cues in a Live 360 Panorama-based Mixed Reality Remote Collaboration. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, IEEE, 1187\u20131188.",
+      "doi": ""
+    },
+    {
+      "text": "Barbara Tversky and Paul\u00a0U Lee. 1998. How space structures language. In Spatial cognition. Springer, Springer, 157\u2013175.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Vorderer, Werner Wirth, Feliz\u00a0Ribeiro Gouveia, Frank Biocca, Timo Saari, Lutz J\u00e4ncke, Saskia B\u00f6cking, Holger Schramm, Andre Gysbers, Tilo Hartmann, 2004. Mec spatial presence questionnaire. Retrieved Sept 18(2004), 2015.",
+      "doi": ""
+    },
+    {
+      "text": "Peng Wang, Xiaoliang Bai, Mark Billinghurst, Shusheng Zhang, Xiangyu Zhang, Shuxia Wang, Weiping He, Yuxiang Yan, and Hongyu Ji. 2021. AR/MR remote collaboration on physical tasks: A review. Robotics and Computer-Integrated Manufacturing 72 (2021), 102071.",
+      "doi": "10.1016/j.rcim.2020.102071"
+    },
+    {
+      "text": "Robert\u00a0B Welch, Theodore\u00a0T Blackmon, Andrew Liu, Barbara\u00a0A Mellers, and Lawrence\u00a0W Stark. 1996. The effects of pictorial realism, delay of visual feedback, and observer interactivity on the subjective sense of presence. Presence: Teleoperators & Virtual Environments 5, 3(1996), 263\u2013273.",
+      "doi": "10.1162/pres.1996.5.3.263"
+    },
+    {
+      "text": "Amanda Williams, Eric Kabisch, and Paul Dourish. 2005. From interaction to participation: Configuring space through embodied interaction. In International Conference on Ubiquitous Computing. Springer, Springer, 287\u2013304.",
+      "doi": "10.1007/11551201_17"
+    },
+    {
+      "text": "Margaret Wilson. 2002. Six views of embodied cognition. Psychonomic bulletin & review 9, 4 (2002), 625\u2013636.",
+      "doi": ""
+    },
+    {
+      "text": "Jacob\u00a0O. Wobbrock, Leah Findlater, Darren Gergle, and James\u00a0J. Higgins. 2011. The Aligned Rank Transform for Nonparametric Factorial Analyses Using Only Anova Procedures. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vancouver, BC, Canada) (CHI \u201911). Association for Computing Machinery, New York, NY, USA, 143\u2013146. https://doi.org/10.1145/1978942.1978963",
+      "doi": "10.1145/1978942.1978963"
+    },
+    {
+      "text": "Jing Yang, Prasanth Sasikumar, Huidong Bai, Amit Barde, G\u00e1bor S\u00f6r\u00f6s, and Mark Billinghurst. 2020. The effects of spatial auditory and visual cues on mixed reality remote collaboration. Journal on Multimodal User Interfaces 14, 4 (2020), 337\u2013352.",
+      "doi": ""
+    }
+  ]
+}

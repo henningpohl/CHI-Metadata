@@ -1,0 +1,354 @@
+{
+  "doi": "10.1145/3313831.3376610",
+  "title": "ORCSolver: An Efficient Solver for Adaptive GUI Layout with OR-Constraints",
+  "published": "2020-04-23",
+  "proctitle": "CHI '20: Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2020,
+  "badges": [],
+  "abstract": "OR-constrained (ORC) graphical user interface layouts unify conventional constraint-based layouts with flow layouts, which enables the definition of flexible layouts that adapt to screens with different sizes, orientations, or aspect ratios with only a single layout specification. Unfortunately, solving ORC layouts with current solvers is time-consuming and the needed time increases exponentially with the number of widgets and constraints. To address this challenge, we propose ORCSolver, a novel solving technique for adaptive ORC layouts, based on a branch-and-bound approach with heuristic preprocessing. We demonstrate that ORCSolver simplifies ORC specifications at runtime and our approach can solve ORC layout specifications efficiently at near-interactive rates.",
+  "authors": [
+    {
+      "name": "Yue Jiang",
+      "institution": "University of Maryland, College Park, MD, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659366216",
+      "orcid": "missing"
+    },
+    {
+      "name": "Wolfgang Stuerzlinger",
+      "institution": "Simon Fraser University, Vancouver, BC, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100214718",
+      "orcid": "0000-0002-7110-5024"
+    },
+    {
+      "name": "Matthias Zwicker",
+      "institution": "University of Maryland, College Park, MD, USA",
+      "img": "/do/10.1145/contrib-81100289561/rel-imgonly/zwicker.jpg",
+      "acmid": "81100289561",
+      "orcid": "missing"
+    },
+    {
+      "name": "Christof Lutteroth",
+      "institution": "University of Bath, Bath, United Kingdom",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100238140",
+      "orcid": "0000-0003-0634-7569"
+    }
+  ],
+  "references": [
+    {
+      "text": "MOSEK ApS. 2017. The MOSEK Optimization Toolbox for MATLAB Manual. MATLAB Version 8.0 (Revision 57).",
+      "doi": ""
+    },
+    {
+      "text": "Gideon Avrahami, Kenneth P Brooks, and Marc H Brown. 1989. A Two-View Approach to Constructing User Interfaces. ACM SIGGRAPH Computer Graphics 23, 3 (1989), 137--146. DOI: http://dx.doi.org/10.1007/354054742_40",
+      "doi": "10.1145/74334.74347"
+    },
+    {
+      "text": "Greg J. Badros, Alan Borning, and Peter J. Stuckey. 2001. The Cassowary Linear Arithmetic Constraint Solving Algorithm. ACM Trans. Comput.-Hum. Interact 8, 4 (2001), 267--306. DOI: http://dx.doi.org/10.1145/504704.504705",
+      "doi": "10.1145/504704.504705"
+    },
+    {
+      "text": "Paul Goulart Alberto Bemporad Bartolomeo Stellato, Goran Banjac and Stephen Boyd. 2018. OSQP: An Operator Splitting Solver for Quadratic Programs. In 2018 UKACC 12th International Conference on Control (CONTROL). 339--339. DOI: http://dx.doi.org/10.1109/CONTROL.2018.8516834",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Bill, Bertil Lundell, John Alan McDonald, and Michael Sannella. 1992. Bricklayer: Window Layout Using Linear Programming. Technical Report. University of Washington.",
+      "doi": ""
+    },
+    {
+      "text": "Alan Borning, Bjorn Freeman-Benson, and Molly Wilson. 1992. Constraint Hierarchies. LISP and Symbolic Computation 5, 3 (1992), 223--270. DOI: http://dx.doi.org/10.1007/978--3--642--85983-_4",
+      "doi": "10.1007/BF01807506"
+    },
+    {
+      "text": "Alan Borning, Kim Marriott, Peter Stuckey, and Yi Xiao. 1997. Solving Linear Arithmetic Constraints for User Interface Applications. In Proceedings of the 10th Annual ACM Symposium on User Interface Software and Technology. ACM, 87--96. DOI: http://dx.doi.org/10.1145/263407.263518",
+      "doi": "10.1145/263407.263518"
+    },
+    {
+      "text": "Bertrand Mercier Daniel Gabay. 1976. A Dual Algorithm for the Solution of Nonlinear Variational Problems via Finite Element Approximation. Computers & Mathematics with Applications (1976).",
+      "doi": ""
+    },
+    {
+      "text": "George B. Dantzig. 1957. Discrete-Variable Extremum Problems. Operations Research (1957).",
+      "doi": ""
+    },
+    {
+      "text": "Leonardo De Moura and Nikolaj Bj\u00f8rner. 2008. Z3: an Efficient SMT Solver. In Proceedings of the Theory and Practice of Software, 14th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS'08/ETAPS'08). Springer-Verlag, 337--340. DOI: http://dx.doi.org/10.1007/978--3--540--78800-_24",
+      "doi": "10.5555/1792734.1792766"
+    },
+    {
+      "text": "Brian DeRenzi, Krzysztof Gajos, Tapan Parikh, Neal Lesh, Marc Mitchell, and Gaetano Borriello. 2008. Opportunities for Intelligent Interfaces Aiding Healthcare in Low-Income Countries. (01 2008).",
+      "doi": ""
+    },
+    {
+      "text": "SMT-COMP Events. 2007. http://smtcomp.sourceforge.net/2007/participants.shtml. (2007).",
+      "doi": ""
+    },
+    {
+      "text": "Hans Joachim Ferreau, Christian Kirches, Andreas Potschka, Hans Georg Bock, and Moritz Diehl. 2014. qpOASES: a Parametric Active-Set Algorithm for Quadratic Programming. Mathematical Programming Computation 6, 4 (01 Dec 2014), 327--363. DOI: http://dx.doi.org/10.1007/s12532-014-0071--1",
+      "doi": ""
+    },
+    {
+      "text": "James Fogarty and Scott E. Hudson. 2003. GADGET: a Toolkit for Optimization-Based Approaches to Interface and Display Generation. In Proceedings of the 16th Annual ACM Symposium on User Interface Software and Technology (UIST '03). ACM, 125--134. DOI: http://dx.doi.org/10.1145/1186562.1015789",
+      "doi": ""
+    },
+    {
+      "text": "Marguerite Frank and Philip Wolfe. 1956. An algorithm for quadratic programming. Naval Research Logistics Quarterly 3, 1--2 (1956), 95--110. DOI: http://dx.doi.org/10.1002/nav.3800030109",
+      "doi": ""
+    },
+    {
+      "text": "Bjorn N. Freeman-Benson, John Maloney, and Alan Borning. 1990. An Incremental Constraint Solver. Commun. ACM 33, 1 (Jan. 1990), 54--63. DOI: http://dx.doi.org/10.1145/76372.77531",
+      "doi": "10.1145/76372.77531"
+    },
+    {
+      "text": "Krzysztof Gajos, David Christianson, Raphael Hoffmann, Tal Shaked, Kiera Henning, Jing Jing Long, and Daniel Weld. 2005. Fast and Robust Interface Generation for Ubiquitous Applications. 903--903. DOI: http://dx.doi.org/10.1007/11551201_3",
+      "doi": ""
+    },
+    {
+      "text": "Krzysztof Gajos, Jing Jing Long, and Daniel Weld. 2006. Automatically generating custom user interfaces for users with physical disabilities. Eighth International ACM SIGACCESS Conference on Computers and Accessibility, ASSETS 2006 2006 (01 2006), 243--244. DOI: http://dx.doi.org/10.1145/1168987.1169036",
+      "doi": "10.1145/1168987.1169036"
+    },
+    {
+      "text": "Krzysztof Gajos and Daniel Weld. 2005. Preference Elicitation for Interface Optimization. UIST: Proceedings of the Annual ACM Symposium on User Interface Softaware and Technology (01 2005), 173--182. DOI: http://dx.doi.org/10.1145/1095034.1095063",
+      "doi": ""
+    },
+    {
+      "text": "Krzysztof Gajos and Daniel S. Weld. 2004. Automatically Generating User Interfaces For Ubiquitous Applications. In Workshop on Ubiquitous Display Environments.",
+      "doi": ""
+    },
+    {
+      "text": "Krzysztof Gajos, Anthony Wu, and Daniel S Weld. 2005. Cross-device consistency in automatically generated user interfaces. In Proceedings of the 2nd Workshop on Multi-User and Ubiquitous User Interfaces. 7--8.",
+      "doi": ""
+    },
+    {
+      "text": "Krzysztof Z. Gajos, Daniel S. Weld, and Jacob O. Wobbrock. 2008. Decision-Theoretic User Interface Generation. In AAAI'08. AAAI Press, 1532--1536.",
+      "doi": ""
+    },
+    {
+      "text": "Krzysztof Z. Gajos, Daniel S. Weld, and Jacob O. Wobbrock. 2010. Automatically Generating Personalized User Interfaces With Supple, In Proceedings of the 9th International Conference on Intelligent User Interfaces. Artif. Intell 174, 12--13 (2010), 910--950. DOI: http://dx.doi.org/10.1016/j.artint.2010.05.005",
+      "doi": "10.1016/j.artint.2010.05.005"
+    },
+    {
+      "text": "Krzysztof Z. Gajos, Jacob O. Wobbrock, and Daniel S. Weld. 2007. Automatically Generating User Interfaces Adapted to Users' Motor and Vision Capabilities. In Proceedings of the 20th Annual ACM Symposium on User Interface Software and Technology (UIST '07). ACM, 231--240. DOI: http://dx.doi.org/10.1145/1294211.1294253",
+      "doi": ""
+    },
+    {
+      "text": "Krzysztof Z. Gajos, Jacob O. Wobbrock, and Daniel S. Weld. 2008. Improving the Performance of Motor-Impaired Users With Automatically-Generated, Ability-Based Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '08). ACM, 1257--1266. DOI: http://dx.doi.org/10.1145/1357054.1357250",
+      "doi": "10.1145/1357054.1357250"
+    },
+    {
+      "text": "Michael Gertz and Stephen Wright. 2001. Object-Oriented Software for Quadratic Programming. ACM Trans. Math. Software 29 (11 2001). DOI: http://dx.doi.org/10.1145/641876.641880",
+      "doi": ""
+    },
+    {
+      "text": "Michael Gleicher. 1993. A Graphics Toolkit Based on Differential Constraints. In Proceedings of the 6th Annual ACM Symposium on User Interface Software and Technology. ACM, 109--120. DOI: http://dx.doi.org/10.1145/168642.168653",
+      "doi": "10.1145/168642.168653"
+    },
+    {
+      "text": "Eva Harb, Paul Kapellari, Steven Luong, and Norbert Spot. 2011. Responsive Web Design.",
+      "doi": ""
+    },
+    {
+      "text": "Osamu Hashimoto and Brad A. Myers. 1992. Graphical Styles for Building Interfaces by Demonstration. In Proceedings of the 5th Annual ACM Symposium on User Interface Software and Technology (UIST '92). ACM, 117--124. DOI: http://dx.doi.org/10.1145/142621.142635",
+      "doi": ""
+    },
+    {
+      "text": "Hiroshi Hosobe. 2000. A Scalable Linear Constraint Solver for User Interface Construction. In Proceedings of the 6th International Conference on Principles and Practice of Constraint Programming (CP '02). Springer-Verlag, 218--232. DOI: http://dx.doi.org/10.1007/3--540--45349-_17",
+      "doi": "10.5555/647487.726646"
+    },
+    {
+      "text": "Hiroshi Hosobe. 2011. A Simplex-Based Scalable Linear Constraint Solver for User Interface Applications. In 2011 IEEE 23rd International Conference on Tools with Artificial Intelligence. 793--798. DOI: http://dx.doi.org/10.1109/ICTAI.2011.124",
+      "doi": "10.1109/ICTAI.2011.124"
+    },
+    {
+      "text": "Thibaud Hottelier and Ras Bodik. 2014. Synthesis of Layout Engines from Relational Constraints. Technical Report UCB/EECS-2014--181. EECS Department, University of California, Berkeley. http://www2.eecs. berkeley.edu/Pubs/TechRpts/2014/EECS-2014--181.html",
+      "doi": ""
+    },
+    {
+      "text": "Thibaud Hottelier, Ras Bodik, and Kimiko Ryokai. 2014. Programming by Manipulation for Layout. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (UIST '14). ACM, 231--241. DOI: http://dx.doi.org/10.1145/2642918.2647378",
+      "doi": "10.1145/2642918.2647378"
+    },
+    {
+      "text": "Scott E. Hudson and Shamim P. Mohamed. 1990. Interactive Specification of Flexible User Interface Displays. ACM Trans. Inf. Syst 8, 3 (1990), 269--288. DOI: http://dx.doi.org/10.1145/98188.98201",
+      "doi": "10.1145/98188.98201"
+    },
+    {
+      "text": "Gurobi Optimization Inc. 2016. Gurobi Optimizer Reference Manual.",
+      "doi": ""
+    },
+    {
+      "text": "Charles Jacobs, Wilmot Li, Evan Schrier, David Bargeron, and David Salesin. 2003. Adaptive Grid-Based Document Layout. In ACM SIGGRAPH 2003 Papers (SIGGRAPH '03). ACM, 838--847. DOI: http://dx.doi.org/10.1145/1201775.882353",
+      "doi": ""
+    },
+    {
+      "text": "Joxan Jaffar, Spiro Michaylov, Peter J. Stuckey, and Roland H.C. Yap. 1992. The CLP(R) Language and System. ACM Transactions on Programming Languages and Systems 14, 3 (5 1 1992), 339--395. DOI: http://dx.doi.org/10.1145/129393.129398",
+      "doi": "10.1145/129393.129398"
+    },
+    {
+      "text": "Yue Jiang, Ruofei Du, Christof Lutteroth, and Wolfgang Stuerzlinger. 2019. ORC Layout: Adaptive GUI Layout with OR-Constraints. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '19). ACM. DOI: http://dx.doi.org/10.1145/3290605.3300643",
+      "doi": "10.1145/3290605.3300643"
+    },
+    {
+      "text": "Solange Karsenty, James A. Landay, and Chris Weikart. 1993. Inferring Graphical Constraints With Rockit. In Proceedings of the Conference on People and Computers VII (HCI'92). Cambridge University Press, 137--153. DOI: http://dx.doi.org/10.1007/3--540--58601-_91",
+      "doi": "10.5555/164592.164615"
+    },
+    {
+      "text": "Christof Lutteroth, Robert Strandh, and Gerald Weber. 2008. Domain Specific High-Level Constraints for User Interface Layout. Constraints 13, 3 (2008), 307--342. DOI: http://dx.doi.org/10.1145/1496976.1496977",
+      "doi": "10.1007/s10601-008-9043-2"
+    },
+    {
+      "text": "Christof Lutteroth and Gerald Weber. 2006. User Interface Layout With Ordinal and Linear Constraints. In Proceedings of the 7th Australasian User Interface Conference - Volume 50 (AUIC '06). Australian Computer Society, Inc., 53--60. DOI: http://dx.doi.org/10.1007/978--1--4842--2662-_20",
+      "doi": "10.5555/1151758.1151764"
+    },
+    {
+      "text": "Christof Lutteroth and Gerald Weber. 2008. Modular Specification of GUI Layout Using Constraints. In 2008. ASWEC 2008. 19th Australian Conference on Software Engineering. IEEE, 300--309. DOI: http://dx.doi.org/10.1109/ASWEC.2008.4483218",
+      "doi": ""
+    },
+    {
+      "text": "Ethan Marcotte. 2017. Responsive Web Design. A Book Apart.",
+      "doi": ""
+    },
+    {
+      "text": "Harry M. Markowitz and Alan S. Manne. 1957. On the Solution of Discrete Programming Problems. Econometrica 25 (1957), 84--110. http://dx.doi.org/10.2307/1907744",
+      "doi": ""
+    },
+    {
+      "text": "Kim Marriott, Sitt Sen Chok, and Alan Finlay. 1998. A Tableau Based Constraint Solving Toolkit for Interactive Graphical Applications. In Principles and Practice of Constraint Programming - CP98, Michael Maher and Jean-Francois Puget (Eds.). Springer Berlin Heidelberg, 340--354.",
+      "doi": ""
+    },
+    {
+      "text": "Kim Marriott, Peter Moulder, Peter J. Stuckey, and Alan Borning. 2001. Solving Disjunctive Constraints for Interactive Graphical Applications. In Proceedings of the 7th International Conference on Principles and Practice of Constraint Programming (CP '01). Springer-Verlag, 361--376. http://dl.acm.org/citation.cfm?id=647488.726811",
+      "doi": "10.5555/647488.726811"
+    },
+    {
+      "text": "Kim Marriott and Sitt Sen Chok. 2002. QOCA: A Constraint Solving Toolkit for Interactive Graphical Applications. Constraints 7, 3 (01 Jul 2002), 229--254. DOI: http://dx.doi.org/10.1023/A:1020513316058",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Mattingley and Stephen Boyd. 2012. CVXGEN: a Code Generator for Embedded Convex Optimization. Optimization and Engineering 13, 1 (01 Mar 2012), 1--27. DOI: http://dx.doi.org/10.1007/s11081-011--9176--9",
+      "doi": ""
+    },
+    {
+      "text": "Brad Myers, Scott E. Hudson, Randy Pausch, and Randy Pausch. 2000. Past, Present, and Future of User Interface Software Tools. ACM Trans. Comput.-Hum. Interact 7, 1 (2000), 3--28. DOI: http://dx.doi.org/10.1177/154193120004400206",
+      "doi": "10.1145/344949.344959"
+    },
+    {
+      "text": "Brad A. Myers. 1995. User Interface Software Tools. ACM Transactions on Computer-Human Interaction (1995). DOI: http://dx.doi.org/10.1145/200968.200971",
+      "doi": ""
+    },
+    {
+      "text": "Brad A. Myers and William Buxton. 1986. Creating Highly-Interactive and Graphical User Interfaces by Demonstration. SIGGRAPH Comput. Graph 20, 4 (1986), 249--258. DOI: http://dx.doi.org/10.1145/15922.15914",
+      "doi": "10.1145/15886.15914"
+    },
+    {
+      "text": "Brad A Myers, Richard G McDaniel, Robert C Miller, Alan S Ferrency, Andrew Faulring, Bruce D Kyle, Andrew Mickish, Alex Klimovitski, and Patrick Doane. 1997. The Amulet Environment: New Models for Effective User Interface Software Development. IEEE Transactions on Software Engineering 23, 6 (1997), 347--365.",
+      "doi": "10.1109/32.601073"
+    },
+    {
+      "text": "Yurii Nesterov and Arkadii Nemirovskii. 1994. Interior-Point Polynomial Algorithms in Convex Programming. Society for Industrial and Applied Mathematics. DOI: http://dx.doi.org/10.1137/1.9781611970791",
+      "doi": ""
+    },
+    {
+      "text": "Arnold. Neumaier. 1991. Interval Methods for Systems of Equations. Cambridge University Press. DOI: http://dx.doi.org/10.1017/CBO9780511526473",
+      "doi": ""
+    },
+    {
+      "text": "Robert Nieuwenhuis and Albert Oliveras. 2006. On SAT Modulo Theories and Optimization Problems. In Theory and Applications of Satisfiability Testing - SAT 2006. Springer, 156--169. DOI: http://dx.doi.org/10.1007/1181494_18",
+      "doi": "10.1007/11814948_18"
+    },
+    {
+      "text": "Brendan O'Donoghue, Eric Chu, Neal Parikh, and Stephen Boyd. 2016. Conic Optimization via Operator Splitting and Homogeneous Self-Dual Embedding. Journal of Optimization Theory and Applications 169, 3 (01 Jun 2016), 1042--1068. DOI: http://dx.doi.org/10.1007/s10957-016-0892--3",
+      "doi": ""
+    },
+    {
+      "text": "Pavel Panchekha and Emina Torlak. 2016. Automated Reasoning for Web Page Layout. SIGPLAN Not 51, 10 (2016), 181--194. DOI: http://dx.doi.org/10.1145/2983990.2984010",
+      "doi": "10.1145/3022671.2984010"
+    },
+    {
+      "text": "Stefan Pisinger, David; R\u00f8pke. 2010. Large Neighborhood Search. Handbook of Metaheuristics (2010).",
+      "doi": ""
+    },
+    {
+      "text": "Erica Sadun. 2013. iOS Auto Layout Demystified. Addison-Wesley Professional.",
+      "doi": "10.5555/2601786"
+    },
+    {
+      "text": "Alireza Sahami Shirazi, Niels Henze, Albrecht Schmidt, Robin Goldberg, Benjamin Schmidt, and Hansj\u00f6rg Schmauder. 2013. Insights Into Layout Patterns of Mobile User Interfaces by an Automatic Analysis of Android Apps. In Proceedings of the 5th ACM SIGCHI Symposium on Engineering Interactive Computing Systems (EICS '13). ACM, 275--284. DOI: http://dx.doi.org/10.1145/3197231.3197249",
+      "doi": "10.1145/2494603.2480308"
+    },
+    {
+      "text": "Michael Sannella. 1994. Skyblue: A Multi-Way Local Propagation Constraint Solver for User Interface Construction. In Proceedings of the 7th Annual ACM Symposium on User Interface Software and Technology (UIST '94). ACM, 137--146. DOI: http://dx.doi.org/10.1145/192426.192485",
+      "doi": "10.1145/192426.192485"
+    },
+    {
+      "text": "Michael Sannella, John Maloney, Bjorn Freeman-Benson, and Alan Borning. 1993. Multi-way versus one-way constraints in user interfaces: Experience with the deltablue algorithm. Software: Practice and Experience 23, 5 (1993), 529--566.",
+      "doi": "10.1002/spe.4380230507"
+    },
+    {
+      "text": "Adriano Scoditti and Wolfgang Stuerzlinger. 2009. A New Layout Method for Graphical User Interfaces. In Science and Technology for Humanity (TIC-STH), 2009 IEEE Toronto International Conference. IEEE, 642--647. DOI: http://dx.doi.org/10.1016/j.infsof.2015.10.005",
+      "doi": ""
+    },
+    {
+      "text": "Gurminder Singh, Chun Hong Kok, and Teng Ye Ngan. 1990. Druid: a System for Demonstrational Rapid User Interface Development. In Proceedings of the 3rd Annual ACM SIGGRAPH Symposium on User Interface Software and Technology (UIST '90). ACM, 167--177. DOI: http://dx.doi.org/10.1145/97924.97943",
+      "doi": "10.1145/97924.97943"
+    },
+    {
+      "text": "Nishant Sinha and Rezwana Karim. 2015. Responsive Designs in a Snap. In Proceedings of the 2015 10th Joint Meeting on Foundations of Software Engineering. ACM, 544--554. DOI: http://dx.doi.org/10.1145/2786805.2786808",
+      "doi": "10.1145/2786805.2786808"
+    },
+    {
+      "text": "Wolfgang Stuerzlinger, Olivier Chapuis, Dusty Phillips, and Nicolas Roussel. 2006. User Interface Fa\u00e7ades: Towards Fully Adaptable User Interfaces. UIST '06: ACM Symposium on User Interface Software and Technology (10 2006). DOI: http://dx.doi.org/10.1145/1166253.1166301",
+      "doi": ""
+    },
+    {
+      "text": "John M Vlissides and Steven Tang. 1991. A Unidraw-Based User Interface Builder. In Proceedings of the 4th Annual ACM Symposium on User Interface Software and Technology. ACM, 201--210. DOI: http://dx.doi.org/10.1145/120782.120804",
+      "doi": "10.1145/120782.120804"
+    },
+    {
+      "text": "Gerald Weber. 2010. A Reduction of Grid-Bag Layout to Auckland Layout. In Proceedings of the 2010 21st Australian Software Engineering Conference (ASWEC '10). IEEE Computer Society, 67--74. DOI: http://dx.doi.org/10.1109/ASWEC.2010.38",
+      "doi": "10.1109/ASWEC.2010.38"
+    },
+    {
+      "text": "Daniel S. Weld, Corin Anderson, Pedro Domingos, Oren Etzioni, Krzysztof Gajos, Tessa Lau, and Steve Wolfman. 2003. Automatically Personalizing User Interfaces. In Proceedings of the 18th International Joint Conference on Artificial Intelligence (IJCAI'03). Morgan Kaufmann Publishers Inc., 1613--1619. http://dl.acm.org/citation.cfm?id=1630659.1630944",
+      "doi": "10.5555/1630659.1630944"
+    },
+    {
+      "text": "Philip Wolfe. 1960. The Simplex Method for Quadratic Programming. Econometrica 28, 1 (jan 1960), 170. DOI: http://dx.doi.org/10.2307/1905320",
+      "doi": ""
+    },
+    {
+      "text": "Brad Vander Zanden and Brad A. Myers. 1990. Automatic, Look-and-Feel Independent Dialog Creation for Graphical User Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '90). ACM, 27--34. DOI: http://dx.doi.org/10.1007/978--3--319--67744-_2",
+      "doi": ""
+    },
+    {
+      "text": "Brad Vander Zanden and Brad A Myers. 1991. The Lapidary Graphical Interface Design Tool. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 465--466. DOI: http://dx.doi.org/10.1145/108844.109005",
+      "doi": "10.1145/108844.109005"
+    },
+    {
+      "text": "Clemens Zeidler, Christof Lutteroth, Wolfgang Stuerzlinger, and Gerald Weber. 2013a. Evaluating Direct Manipulation Operations for Constraint-Based Layout. In IFIP Conference on Human-Computer Interaction (INTERACT). Springer, 513--529. DOI: http://dx.doi.org/10.1007/978--3--642--40480--1_35",
+      "doi": ""
+    },
+    {
+      "text": "Clemens Zeidler, Christof Lutteroth, Wolfgang Stuerzlinger, and Gerald Weber. 2013b. The Auckland Layout Editor: An Improved GUI Layout Specification Process. In Proceedings of the 26th Annual ACM Symposium on User Interface Software and Technology (UIST '13). ACM, 343--352. DOI: http://dx.doi.org/10.1145/2379256.2379287",
+      "doi": "10.1145/2501988.2502007"
+    },
+    {
+      "text": "Clemens Zeidler, Christof Lutteroth, and Gerald Weber. 2012. Constraint Solving for Beautiful User Interfaces: How Solving Strategies Support Layout Aesthetics. In Proceedings of the 13th International Conference of the NZ Chapter of the ACM's Special Interest Group on Human-Computer Interaction. ACM, 72--79. DOI: http://dx.doi.org/10.1145/2379256.2379268",
+      "doi": "10.1145/2379256.2379268"
+    },
+    {
+      "text": "Clemens Zeidler, Johannes M\u00fcller, Christof Lutteroth, and Gerald Weber. 2012. Comparing the Usability of Grid-Bag and Constraint-Based Layouts. In Proceedings of the 24th Australian Computer-Human Interaction Conference (OzCHI '12). ACM, 674--682. DOI: http://dx.doi.org/10.1145/2414536.2414638",
+      "doi": "10.1145/2414536.2414638"
+    },
+    {
+      "text": "Clemens Zeidler, Gerald Weber, Alex Gavryushkin, and Christof Lutteroth. 2017a. Tiling Algebra for Constraint-Based Layout Editing. Journal of Logical and Algebraic Methods in Programming 89 (2017), 67--94. DOI: http://dx.doi.org/10.1016/j.jlamp.2017.01.004",
+      "doi": ""
+    },
+    {
+      "text": "Clemens Zeidler, Gerald Weber, Wolfgang Stuerzlinger, and Christof Lutteroth. 2017b. Automatic Generation of User Interface Layouts for Alternative Screen Orientations. In Human-Computer Interaction INTERACT 2017, Regina Bernhaupt, Girish Dalvi, Anirudha Joshi, Devanuj K. Balkrishan, Jacki O'Neill, and Marco Winckler (Eds.). Springer International Publishing, 13--35.",
+      "doi": ""
+    }
+  ]
+}

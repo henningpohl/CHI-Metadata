@@ -1,0 +1,431 @@
+{
+  "doi": "10.1145/3491102.3502004",
+  "title": "Jury Learning: Integrating Dissenting Voices into Machine Learning Models",
+  "published": "2022-04-28",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-19",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Whose labels should a machine learning (ML) algorithm learn to emulate? For ML tasks ranging from online comment toxicity to misinformation detection to medical diagnosis, different groups in society may have irreconcilable disagreements about ground truth labels. Supervised ML today resolves these label disagreements implicitly using majority vote, which overrides minority groups\u2019 labels. We introduce jury learning, a supervised ML approach that resolves these disagreements explicitly through the metaphor of a jury: defining which people or groups, in what proportion, determine the classifier\u2019s prediction. For example, a jury learning model for online toxicity might centrally feature women and Black jurors, who are commonly targets of online harassment. To enable jury learning, we contribute a deep learning architecture that models every annotator in a dataset, samples from annotators\u2019 models to populate the jury, then runs inference to classify. Our architecture enables juries that dynamically adapt their composition, explore counterfactuals, and visualize dissent. A field evaluation finds that practitioners construct diverse juries that alter 14% of classification outcomes.",
+  "authors": [
+    {
+      "name": "Mitchell L. Gordon",
+      "institution": "Computer Science Department, Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "87959139657",
+      "orcid": "missing"
+    },
+    {
+      "name": "Michelle S. Lam",
+      "institution": "Stanford University, United States",
+      "img": "/do/10.1145/contrib-99659021161/rel-imgonly/lammichelle_square.jpg",
+      "acmid": "99659021161",
+      "orcid": "0000-0002-3448-5961"
+    },
+    {
+      "name": "Joon Sung Park",
+      "institution": "Computer Science Department, Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659680891",
+      "orcid": "missing"
+    },
+    {
+      "name": "Kayur Patel",
+      "institution": "Apple Inc, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81350576909",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jeff Hancock",
+      "institution": "Department of Communication, Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100212035",
+      "orcid": "missing"
+    },
+    {
+      "name": "Tatsunori Hashimoto",
+      "institution": "Computer Science Department, Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659324555",
+      "orcid": "missing"
+    },
+    {
+      "name": "Michael S. Bernstein",
+      "institution": "Computer Science, Stanford University, United States",
+      "img": "/do/10.1145/contrib-81405591691/rel-imgonly/msb-casbs-headshot-small.jpeg",
+      "acmid": "81405591691",
+      "orcid": "0000-0001-8020-9434"
+    }
+  ],
+  "references": [
+    {
+      "text": "Martin Abadi, Andy Chu, Ian Goodfellow, H.\u00a0Brendan McMahan, Ilya Mironov, Kunal Talwar, and Li Zhang. 2016. Deep Learning with Differential Privacy. Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security (Oct 2016). https://doi.org/10.1145/2976749.2978318",
+      "doi": "10.1145/2976749.2978318"
+    },
+    {
+      "text": "Rediet Abebe, Solon Barocas, Jon Kleinberg, Karen Levy, Manish Raghavan, and David\u00a0G Robinson. 2020. Roles for computing in social change. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. 252\u2013260.",
+      "doi": "10.1145/3351095.3372871"
+    },
+    {
+      "text": "Alekh Agarwal, Alina Beygelzimer, Miroslav Dud\u00edk, John Langford, and Hanna Wallach. 2018. A reductions approach to fair classification. In International Conference on Machine Learning. PMLR, 60\u201369.",
+      "doi": ""
+    },
+    {
+      "text": "Sohail Akhtar, Valerio Basile, and Viviana Patti. 2021. Whose Opinions Matter? Perspective-aware Models to Identify Opinions of Hate Speech Victims in Abusive Language Detection. arxiv:2106.15896\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer N\u00a0L Allen, Antonio\u00a0A Arechar, Gordon Pennycook, and David\u00a0G Rand. 2020. Scaling Up Fact-Checking Using the Wisdom of Crowds. https://doi.org/10.31234/osf.io/9qdza",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Andrew Begel, Christian Bird, Robert DeLine, Harald Gall, Ece Kamar, Nachiappan Nagappan, Besmira Nushi, and Thomas Zimmermann. 2019. Software engineering for machine learning: A case study. In 2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP). IEEE, 291\u2013300.",
+      "doi": "10.1109/ICSE-SEIP.2019.00042"
+    },
+    {
+      "text": "Saleema Amershi, Maya Cakmak, William\u00a0Bradley Knox, and Todd Kulesza. 2014. Power to the people: The role of humans in interactive machine learning. Ai Magazine 35, 4 (2014), 105\u2013120.",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul\u00a0N Bennett, Kori Inkpen, 2019. Guidelines for human-AI interaction. In Proceedings of the 2019 chi conference on human factors in computing systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Nat\u00e3\u00a0M Barbosa and Monchu Chen. 2019. Rehumanized crowdsourcing: a labeling framework addressing bias and ethics in machine learning. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300773"
+    },
+    {
+      "text": "Solon Barocas and Andrew\u00a0D Selbst. 2016. Big data\u2019s disparate impact. Calif. L. Rev. 104(2016), 671.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0M Barrett. 2020. Who Moderates the Social Media Giants?Center for Business (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0S Bernstein, Margaret Levi, David Magnus, Betsy Rajala, Debra Satz, and Charla Waeiss. 2021. ESR: Ethics and Society Review of Artificial Intelligence Research. arXiv preprint arXiv:2106.11521(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Bragg, Mausam, and Daniel\u00a0S. Weld. 2018. Sprout: Crowd-Powered Task Design for Crowdsourcing. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (Berlin, Germany) (UIST \u201918). Association for Computing Machinery, New York, NY, USA, 165\u2013176.",
+      "doi": "10.1145/3242587.3242598"
+    },
+    {
+      "text": "Robyn Caplan and Tarleton Gillespie. 2020. Tiered governance and demonetization: The shifting terms of labor and compensation in the platform economy. Social Media+ Society 6, 2 (2020), 2056305120936636.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph\u00a0Chee Chang, Saleema Amershi, and Ece Kamar. 2017. Revolt: Collaborative crowdsourcing for labeling machine learning datasets. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 2334\u20132346.",
+      "doi": "10.1145/3025453.3026044"
+    },
+    {
+      "text": "Kathy Charmaz. 2006. Constructing grounded theory: A practical guide through qualitative research.(2006).",
+      "doi": ""
+    },
+    {
+      "text": "John Joon\u00a0Young Chung, Jean\u00a0Y Song, Sindhu Kutty, Sungsoo Hong, Juho Kim, and Walter\u00a0S Lasecki. 2019. Efficient elicitation approaches to estimate collective crowd answers. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201325.",
+      "doi": ""
+    },
+    {
+      "text": "Sasha Costanza-Chock. 2020. Design justice: Community-led practices to build the worlds we need. The MIT Press.",
+      "doi": ""
+    },
+    {
+      "text": "Aida\u00a0Mostafazadeh Davani, Mark D\u00edaz, and Vinodkumar Prabhakaran. 2021. Dealing with Disagreements: Looking Beyond the Majority Vote in Subjective Annotations. arxiv:2110.05719\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Alexis De\u00a0Toqueville. 1835. Democracy in America. New York: A Mentor Book from New American Library (1835).",
+      "doi": ""
+    },
+    {
+      "text": "J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei. 2009. ImageNet: A Large-Scale Hierarchical Image Database. In CVPR09.",
+      "doi": ""
+    },
+    {
+      "text": "Dennis\u00a0J Devine, Laura\u00a0D Clayton, Benjamin\u00a0B Dunford, Rasmy Seying, and Jennifer Pryce. 2001. Jury decision making: 45 years of empirical research on deliberating groups.Psychology, public policy, and law 7, 3 (2001), 622.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0A DeVito, Jeremy Birnholtz, Jeffery\u00a0T Hancock, Megan French, and Sunny Liu. 2018. How people form folk theories of social media feeds and what it means for how we study self-presentation. In Proceedings of the 2018 CHI conference on human factors in computing systems. 1\u201312.",
+      "doi": "10.1145/3173574.3173694"
+    },
+    {
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Brian Dobreski. 2018. Toward a value-analytic approach to information standards. Proceedings of the Association for Information Science and Technology 55, 1 (2018), 114\u2013122.",
+      "doi": ""
+    },
+    {
+      "text": "Anca Dumitrache. 2015. Crowdsourcing disagreement for collecting semantic annotation. In European Semantic Web Conference. Springer, 701\u2013710.",
+      "doi": "10.1007/978-3-319-18818-8_43"
+    },
+    {
+      "text": "Anca Dumitrache, Lora Aroyo, and Chris Welty. 2017. Crowdsourcing ground truth for medical relation extraction. arXiv preprint arXiv:1701.02185(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Anca Dumitrache, Lora Aroyo, and Chris Welty. 2018. Capturing ambiguity in crowdsourcing frame disambiguation. arXiv preprint arXiv:1805.00270(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold, and Richard Zemel. 2012. Fairness through awareness. In Proceedings of the 3rd innovations in theoretical computer science conference. 214\u2013226.",
+      "doi": "10.1145/2090236.2090255"
+    },
+    {
+      "text": "Motahhare Eslami, Aimee Rickman, Kristen Vaccaro, Amirhossein Aleyasen, Andy Vuong, Karrie Karahalios, Kevin Hamilton, and Christian Sandvig. 2015. \u201cI always assumed that I wasn\u2019t really that close to [her]\u201d Reasoning about Invisible Algorithms in News Feeds. In Proceedings of the 33rd annual ACM conference on human factors in computing systems. 153\u2013162.",
+      "doi": "10.1145/2702123.2702556"
+    },
+    {
+      "text": "Jerry\u00a0Alan Fails and Dan\u00a0R Olsen\u00a0Jr. 2003. Interactive machine learning. In Proceedings of the 8th international conference on Intelligent user interfaces. 39\u201345.",
+      "doi": "10.1145/604045.604056"
+    },
+    {
+      "text": "Jenny Fan and Amy\u00a0X Zhang. 2020. Digital juries: A civics-oriented approach to platform governance. In Proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376293"
+    },
+    {
+      "text": "Timnit Gebru. 2020. Lessons from Archives: Strategies for Collecting Sociocultural Data in Machine Learning. In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (Virtual Event, CA, USA) (KDD \u201920). Association for Computing Machinery, New York, NY, USA, 3609.",
+      "doi": "10.1145/3394486.3409559"
+    },
+    {
+      "text": "Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer\u00a0Wortman Vaughan, Hanna Wallach, Hal Daum\u00e9\u00a0III, and Kate Crawford. 2018. Datasheets for datasets. arXiv preprint arXiv:1803.09010(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Spiros\u00a0V Georgakopoulos, Sotiris\u00a0K Tasoulis, Aristidis\u00a0G Vrahatis, and Vassilis\u00a0P Plagianakos. 2018. Convolutional neural networks for toxic comment classification. In Proceedings of the 10th Hellenic Conference on Artificial Intelligence. 1\u20136.",
+      "doi": "10.1145/3200947.3208069"
+    },
+    {
+      "text": "Tarleton Gillespie. 2018. Custodians of the Internet: Platforms, content moderation, and the hidden decisions that shape social media. Yale University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Mitchell\u00a0L Gordon, Kaitlyn Zhou, Kayur Patel, Tatsunori Hashimoto, and Michael\u00a0S Bernstein. 2021. The disagreement deconvolution: Bringing machine learning performance metrics in line with reality. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445423"
+    },
+    {
+      "text": "Mary\u00a0L Gray and Siddharth Suri. 2019. Ghost work: How to stop Silicon Valley from building a new global underclass. Eamon Dolan Books.",
+      "doi": ""
+    },
+    {
+      "text": "Moritz Hardt, Eric Price, and Nati Srebro. 2016. Equality of opportunity in supervised learning. Advances in neural information processing systems 29 (2016), 3315\u20133323.",
+      "doi": ""
+    },
+    {
+      "text": "Khalid Haruna, Maizatul Akmar\u00a0Ismail, Suhendroyono Suhendroyono, Damiasih Damiasih, Adi\u00a0Cilik Pierewan, Haruna Chiroma, and Tutut Herawan. 2017. Context-Aware Recommender System: A Review of Recent Developmental Process and Future Research Direction. Applied Sciences 7, 12 (2017). https://doi.org/10.3390/app7121211",
+      "doi": ""
+    },
+    {
+      "text": "Tatsunori Hashimoto, Megha Srivastava, Hongseok Namkoong, and Percy Liang. 2018. Fairness without demographics in repeated loss minimization. In International Conference on Machine Learning. PMLR, 1929\u20131938.",
+      "doi": ""
+    },
+    {
+      "text": "Reid Hastie, Steven\u00a0D Penrod, and Nancy Pennington. 2013. Inside the jury. Harvard University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Jialun\u00a0Aaron Jiang, Morgan\u00a0Klaus Scheuerman, Casey Fiesler, and Jed\u00a0R Brubaker. 2021. Understanding international perceptions of the severity of harmful content online. PloS one 16, 8 (2021), e0256762.",
+      "doi": ""
+    },
+    {
+      "text": "Jigsaw. 2019. Jigsaw Unintended Bias in Toxicity Classification. https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/overview",
+      "doi": ""
+    },
+    {
+      "text": "Jeremy Kahn. 2020. Can Facebook\u2019s new A.I. banish Pepe the Frog?https://fortune.com/2020/05/12/facebook-a-i-hate-speech-covid-19-misinformation/",
+      "doi": ""
+    },
+    {
+      "text": "Sanjay Kairam and Jeffrey Heer. 2016. Parting crowds: Characterizing divergent interpretations in crowdsourced annotation tasks. In Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing. 1637\u20131648.",
+      "doi": "10.1145/2818048.2820016"
+    },
+    {
+      "text": "Kate Klonick. 2019. The Facebook Oversight Board: Creating an independent institution to adjudicate online free expression. Yale LJ 129(2019), 2418.",
+      "doi": ""
+    },
+    {
+      "text": "Yubo Kou, Xinning Gui, Shaozeng Zhang, and Bonnie Nardi. 2017. Managing Disruptive Behavior through Non-Hierarchical Governance: Crowdsourcing in League of Legends and Weibo. Proc. ACM Hum.-Comput. Interact. 1, CSCW, Article 62 (Dec. 2017), 17\u00a0pages. https://doi.org/10.1145/3134697",
+      "doi": "10.1145/3134697"
+    },
+    {
+      "text": "Deepak Kumar, Patrick\u00a0Gage Kelley, Sunny Consolvo, Joshua Mason, Elie Bursztein, Zakir Durumeric, Kurt Thomas, and Michael Bailey. 2021. Designing Toxic Content Classification for a Diversity of Perspectives. arXiv preprint arXiv:2106.04511(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Lease. 2011. On quality control and machine learning in crowdsourcing. In Workshops at the Twenty-Fifth AAAI Conference on Artificial Intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "Guillaume Lecu\u00e9 and Matthieu Lerasle. 2020. Robust machine learning by median-of-means: theory and practice. The Annals of Statistics 48, 2 (2020), 906\u2013931.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0Timothy Lee, Ashish Goel, Tanja Aitamurto, and Helene Landemore. 2014. Crowdsourcing for participatory democracies: Efficient elicitation of social choice functions. In Second AAAI Conference on Human Computation and Crowdsourcing.",
+      "doi": ""
+    },
+    {
+      "text": "Min\u00a0Kyung Lee, Daniel Kusbit, Anson Kahng, Ji\u00a0Tae Kim, Xinran Yuan, Allissa Chan, Daniel See, Ritesh Noothigattu, Siheon Lee, Alexandros Psomas, 2019. WeBuildAI: Participatory framework for algorithmic governance. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201335.",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Lindsay Popowski, Tom Mitchell, and Brad\u00a0A Myers. 2021. Screen2Vec: Semantic Embedding of GUI Screens and GUI Components. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Arend Lijphart. 1999. Patterns of democracy. Yale university press.",
+      "doi": ""
+    },
+    {
+      "text": "Tong Liu, Akash Venkatachalam, Pratik Sanjay\u00a0Bongale, and Christopher Homan. 2019. Learning to predict population-level label distributions. In Companion Proceedings of The 2019 World Wide Web Conference. 1111\u20131120.",
+      "doi": "10.1145/3308560.3317082"
+    },
+    {
+      "text": "VK\u00a0Chaithanya Manam and Alexander\u00a0J Quinn. 2018. Wingit: Efficient refinement of unclear task instructions. In Sixth AAAI Conference on Human Computation and Crowdsourcing.",
+      "doi": ""
+    },
+    {
+      "text": "Brandeis Marshall. 2021. Algorithmic misogynoir in content moderation practice. Heinrich-B\u00f6ll-Stiftung(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Ninareh Mehrabi, Fred Morstatter, Nripsuta Saxena, Kristina Lerman, and Aram Galstyan. 2021. A survey on bias and fairness in machine learning. ACM Computing Surveys (CSUR) 54, 6 (2021), 1\u201335.",
+      "doi": "10.1145/3457607"
+    },
+    {
+      "text": "Erwan Moreau, Carl Vogel, and Marguerite Barry. 2019. A paradigm for democratizing artificial intelligence research. In Innovations in Big Data Mining and Embedded Knowledge. Springer, 137\u2013166.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Muller, Christine\u00a0T. Wolf, Josh Andres, Michael Desmond, Narendra\u00a0Nath Joshi, Zahra Ashktorab, Aabhas Sharma, Kristina Brimijoin, Qian Pan, Evelyn Duesterwald, and Casey Dugan. 2021. Designing Ground Truth and the Social Life of Labels. Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3411764.3445402",
+      "doi": "10.1145/3411764.3445402"
+    },
+    {
+      "text": "Dat\u00a0Quoc Nguyen, Thanh Vu, and Anh\u00a0Tuan Nguyen. 2020. BERTweet: A pre-trained language model for English Tweets. arxiv:2005.10200\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Kayur Patel, James Fogarty, James\u00a0A Landay, and Beverly\u00a0L Harrison. 2008. Examining Difficulties Software Developers Encounter in the Adoption of Statistical Machine Learning.. In AAAI. 1563\u20131566.",
+      "doi": ""
+    },
+    {
+      "text": "Ellie Pavlick and Tom Kwiatkowski. 2019. Inherent disagreements in human textual inferences. Transactions of the Association for Computational Linguistics 7 (2019), 677\u2013694.",
+      "doi": ""
+    },
+    {
+      "text": "Joshua\u00a0C Peterson, Ruairidh\u00a0M Battleday, Thomas\u00a0L Griffiths, and Olga Russakovsky. 2019. Human uncertainty makes classification more robust. In Proceedings of the IEEE International Conference on Computer Vision. 9617\u20139626.",
+      "doi": ""
+    },
+    {
+      "text": "Pew Research Center. 2021. The State of Online Harassment. Technical Report. Washington, D.C.https://www.pewresearch.org/internet/2021/01/13/the-state-of-online-harassment/",
+      "doi": ""
+    },
+    {
+      "text": "Vinodkumar Prabhakaran, Aida Mostafazadeh\u00a0Davani, and Mark Diaz. 2021. On Releasing Annotator-Level Labels and Information in Datasets. In Proceedings of The Joint 15th Linguistic Annotation Workshop (LAW) and 3rd Designing Meaning Representations (DMR) Workshop. Association for Computational Linguistics, Punta Cana, Dominican Republic, 133\u2013138. https://aclanthology.org/2021.law-1.14",
+      "doi": ""
+    },
+    {
+      "text": "Iyad Rahwan. 2018. Society-in-the-loop: programming the algorithmic social contract. Ethics and Information Technology 20, 1 (2018), 5\u201314.",
+      "doi": "10.1007/s10676-017-9430-8"
+    },
+    {
+      "text": "William\u00a0H Riker. 1992. The justification of bicameralism. International Political Science Review 13, 1 (1992), 101\u2013116.",
+      "doi": ""
+    },
+    {
+      "text": "Anna Rogers. 2021. Changing the World by Changing the Data. arxiv:2105.13947\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Christian Sandvig, Kevin Hamilton, Karrie Karahalios, and Cedric Langbort. 2014. Auditing algorithms: Research methods for detecting discrimination on internet platforms. Data and discrimination: converting critical concerns into productive inquiry 22(2014).",
+      "doi": ""
+    },
+    {
+      "text": "Mike Schaekermann, Graeme Beaton, Minahz Habib, Andrew Lim, Kate Larson, and Edith Law. 2019. Understanding expert disagreement in medical data analysis through structured adjudication. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201323.",
+      "doi": "10.1145/3359178"
+    },
+    {
+      "text": "Mike Schaekermann, Graeme Beaton, Elaheh Sanoubari, Andrew Lim, Kate Larson, and Edith Law. 2020. Ambiguity-aware ai assistants for medical data analysis. In Proceedings of the 2020 CHI conference on human factors in computing systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376506"
+    },
+    {
+      "text": "Mike Schaekermann, Joslin Goh, Kate Larson, and Edith Law. 2018. Resolvable vs. irresolvable disagreement: A study on worker deliberation in crowd work. Proceedings of the ACM on Human-Computer Interaction 2, CSCW(2018), 1\u201319.",
+      "doi": "10.1145/3274423"
+    },
+    {
+      "text": "Morgan\u00a0Klaus Scheuerman, Alex Hanna, and Emily Denton. 2021. Do Datasets Have Politics? Disciplinary Values in Computer Vision Dataset Development. Proc. ACM Hum.-Comput. Interact. 5, CSCW2, Article 317 (oct 2021), 37\u00a0pages. https://doi.org/10.1145/3476058",
+      "doi": "10.1145/3476058"
+    },
+    {
+      "text": "Morgan\u00a0Klaus Scheuerman, Aaron Jiang, Katta Spiel, and Jed\u00a0R Brubaker. 2021. Revisiting Gendered Web Forms: An Evaluation of Gender Inputs with (Non-) Binary People. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3411764.3445742"
+    },
+    {
+      "text": "Victor\u00a0S Sheng, Foster Provost, and Panagiotis\u00a0G Ipeirotis. 2008. Get another label? improving data quality and data mining using multiple, noisy labelers. In Proceedings of the 14th ACM SIGKDD international conference on Knowledge discovery and data mining. 614\u2013622.",
+      "doi": "10.1145/1401890.1401965"
+    },
+    {
+      "text": "C\u00a0Estelle Smith, Bowen Yu, Anjali Srivastava, Aaron Halfaker, Loren Terveen, and Haiyi Zhu. 2020. Keeping community in the loop: Understanding wikipedia stakeholder values for machine learning-based systems. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3313831.3376783"
+    },
+    {
+      "text": "Cass\u00a0R Sunstein. 1999. The law of group polarization. University of Chicago Law School, John M. Olin Law & Economics Working Paper91(1999).",
+      "doi": ""
+    },
+    {
+      "text": "Harini Suresh and John\u00a0V Guttag. 2019. A framework for understanding unintended consequences of machine learning. arXiv preprint arXiv:1901.10002(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke, and Alexander\u00a0A Alemi. 2017. Inception-v4, inception-resnet and the impact of residual connections on learning. In Thirty-first AAAI conference on artificial intelligence.",
+      "doi": "10.5555/3298023.3298188"
+    },
+    {
+      "text": "Joseph\u00a0D Tucker, Suzanne Day, Weiming Tang, and Barry Bayus. 2019. Crowdsourcing in medical research: concepts and applications. PeerJ 7(2019), e6762.",
+      "doi": ""
+    },
+    {
+      "text": "Betty van Aken, Julian Risch, Ralf Krestel, and Alexander L\u00f6ser. 2018. Challenges for toxic comment classification: An in-depth error analysis. arXiv preprint arXiv:1809.07572(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Alex\u00a0Hai Wang. 2010. Detecting spam bots in online social networking sites: a machine learning approach. In IFIP Annual Conference on Data and Applications Security and Privacy. Springer, 335\u2013342.",
+      "doi": ""
+    },
+    {
+      "text": "Jing Wang and Xin Geng. 2019. Classification with Label Distribution Learning. In Proceedings of the 28th International Joint Conference on Artificial Intelligence (Macao, China) (IJCAI\u201919). AAAI Press, 3712\u20133718.",
+      "doi": "10.5555/3367471.3367557"
+    },
+    {
+      "text": "Ruoxi Wang, Rakesh Shivanna, Derek Cheng, Sagar Jain, Dong Lin, Lichan Hong, and Ed Chi. 2021. DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems. In Proceedings of the Web Conference 2021. 1785\u20131797.",
+      "doi": "10.1145/3442381.3450078"
+    },
+    {
+      "text": "Tian Wang, Yuri\u00a0M Brovman, and Sriganesh Madhvanath. 2021. Personalized Embedding-based e-Commerce Recommendations at eBay. arXiv preprint arXiv:2102.06156(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Bowen Yu, Ye Yuan, Loren Terveen, Zhiwei\u00a0Steven Wu, Jodi Forlizzi, and Haiyi Zhu. 2020. Keeping designers in the loop: Communicating inherent algorithmic trade-offs across multiple objectives. In Proceedings of the 2020 ACM Designing Interactive Systems Conference. 1245\u20131257.",
+      "doi": "10.1145/3357236.3395528"
+    },
+    {
+      "text": "Amy\u00a0X Zhang, Grant Hugh, and Michael\u00a0S Bernstein. 2020. PolicyKit: Building Governance in Online Communities. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 365\u2013378.",
+      "doi": "10.1145/3379337.3415858"
+    },
+    {
+      "text": "Biqiao Zhang, Georg Essl, and Emily Mower\u00a0Provost. 2017. Predicting the distribution of emotion perception: capturing inter-rater variability. In Proceedings of the 19th ACM International Conference on Multimodal Interaction. 51\u201359.",
+      "doi": "10.1145/3136755.3136792"
+    },
+    {
+      "text": "Xinyi Zhou and Reza Zafarani. 2018. Fake news: A survey of research, detection methods, and opportunities. arXiv preprint arXiv:1812.00315(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Haiyi Zhu, Bowen Yu, Aaron Halfaker, and Loren Terveen. 2018. Value-sensitive algorithm design: Method, case study, and lessons. Proceedings of the ACM on Human-Computer Interaction 2, CSCW(2018), 1\u201323.",
+      "doi": "10.1145/3274463"
+    }
+  ]
+}

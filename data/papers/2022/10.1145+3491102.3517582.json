@@ -1,0 +1,319 @@
+{
+  "doi": "10.1145/3491102.3517582",
+  "title": "AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-22",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Although large language models (LLMs) have demonstrated impressive potential on simple tasks, their breadth of scope, lack of transparency, and insufficient controllability can make them less effective when assisting humans on more complex tasks. In response, we introduce the concept of Chaining LLM steps together, where the output of one step becomes the input for the next, thus aggregating the gains per step. We first define a set of LLM primitive operations useful for Chain construction, then present an interactive system where users can modify these Chains, along with their intermediate results, in a modular way. In a 20-person user study, we found that Chaining not only improved the quality of task outcomes, but also significantly enhanced system transparency, controllability, and sense of collaboration. Additionally, we saw that users developed new ways of interacting with LLMs through Chains: they leveraged sub-tasks to calibrate model expectations, compared and contrasted alternative strategies by observing parallel downstream effects, and debugged unexpected model outputs by \u201cunit-testing\u201d sub-components of a Chain. In two case studies, we further explore how LLM Chains may be used in future applications.",
+  "authors": [
+    {
+      "name": "Tongshuang Wu",
+      "institution": "Paul G. Allen School of Computer Science and Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659439447",
+      "orcid": "missing"
+    },
+    {
+      "name": "Michael Terry",
+      "institution": "Google Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100295906",
+      "orcid": "0000-0003-1941-939X"
+    },
+    {
+      "name": "Carrie Jun Cai",
+      "institution": "Google Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659349280",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "[n. d.]. GPT-3 is an idea machine. https://interconnected.org/home/2020/09/04/idea_machine. Accessed: 2021-08-23.",
+      "doi": ""
+    },
+    {
+      "text": "[n. d.]. Prompt design 101. https://beta.openai.com/docs/introduction/prompt-design-101. Accessed: 2021-08-07.",
+      "doi": ""
+    },
+    {
+      "text": "[n. d.]. A Recipe For Arbitrary Text Style Transfer With Large Language Models. https://www.gwern.net/GPT-3. Accessed: 2021-08-01.",
+      "doi": ""
+    },
+    {
+      "text": "Jiban Adhikary, Jamie Berger, and Keith Vertanen. 2021. Accelerating Text Communication via Abbreviated Sentence Input. In Proceedings of the Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conf erence on Natural Language Processing.",
+      "doi": ""
+    },
+    {
+      "text": "Saleema Amershi, Daniel\u00a0S. Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi\u00a0T. Iqbal, Paul\u00a0N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, and Eric Horvitz. 2019. Guidelines for Human-AI Interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, CHI 2019, Glasgow, Scotland, UK, May 04-09, 2019, Stephen\u00a0A. Brewster, Geraldine Fitzpatrick, Anna\u00a0L. Cox, and Vassilis Kostakos (Eds.). ACM, 3. https://doi.org/10.1145/3290605.3300233",
+      "doi": "10.1145/3290605.3300233"
+    },
+    {
+      "text": "Gagan Bansal, Tongshuang Wu, Joyce Zhou, Raymond Fok, Besmira Nushi, Ece Kamar, Marco\u00a0Tulio Ribeiro, and Daniel Weld. 2021. Does the whole exceed its parts? the effect of ai explanations on complementary team performance. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3411764.3445717"
+    },
+    {
+      "text": "Emily\u00a0M. Bender and Alexander Koller. 2020. Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Online, 5185\u20135198.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0S Bernstein, Greg Little, Robert\u00a0C Miller, Bj\u00f6rn Hartmann, Mark\u00a0S Ackerman, David\u00a0R Karger, David Crowell, and Katrina Panovich. 2010. Soylent: a word processor with a crowd inside. In Proceedings of the 23nd annual ACM symposium on User interface software and technology. 313\u2013322.",
+      "doi": "10.1145/1866029.1866078"
+    },
+    {
+      "text": "Gregor Betz, Kyle Richardson, and Christian Voigt. 2021. Thinking Aloud: Dynamic Context Generation Improves Zero-Shot Reasoning Performance of GPT-2. arXiv preprint arXiv:2103.13033(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Rishi Bommasani, Drew\u00a0A. Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney von Arx, Michael\u00a0S. Bernstein, Jeannette Bohg, Antoine Bosselut, Emma Brunskill, Erik Brynjolfsson, Shyamal Buch, Dallas Card, Rodrigo Castellon, Niladri Chatterji, Annie Chen, Kathleen Creel, Jared\u00a0Quincy Davis, Dora Demszky, Chris Donahue, Moussa Doumbouya, Esin Durmus, Stefano Ermon, John Etchemendy, Kawin Ethayarajh, Li Fei-Fei, Chelsea Finn, Trevor Gale, Lauren Gillespie, Karan Goel, Noah Goodman, Shelby Grossman, Neel Guha, Tatsunori Hashimoto, Peter Henderson, John Hewitt, Daniel\u00a0E. Ho, Jenny Hong, Kyle Hsu, Jing Huang, Thomas Icard, Saahil Jain, Dan Jurafsky, Pratyusha Kalluri, Siddharth Karamcheti, Geoff Keeling, Fereshte Khani, Omar Khattab, Pang\u00a0Wei Kohd, Mark Krass, Ranjay Krishna, Rohith Kuditipudi, Ananya Kumar, Faisal Ladhak, Mina Lee, Tony Lee, Jure Leskovec, Isabelle Levent, Xiang\u00a0Lisa Li, Xuechen Li, Tengyu Ma, Ali Malik, Christopher\u00a0D. Manning, Suvir Mirchandani, Eric Mitchell, Zanele Munyikwa, Suraj Nair, Avanika Narayan, Deepak Narayanan, Ben Newman, Allen Nie, Juan\u00a0Carlos Niebles, Hamed Nilforoshan, Julian Nyarko, Giray Ogut, Laurel Orr, Isabel Papadimitriou, Joon\u00a0Sung Park, Chris Piech, Eva Portelance, Christopher Potts, Aditi Raghunathan, Rob Reich, Hongyu Ren, Frieda Rong, Yusuf Roohani, Camilo Ruiz, Jack Ryan, Christopher R\u00e9, Dorsa Sadigh, Shiori Sagawa, Keshav Santhanam, Andy Shih, Krishnan Srinivasan, Alex Tamkin, Rohan Taori, Armin\u00a0W. Thomas, Florian Tram\u00e8r, Rose\u00a0E. Wang, William Wang, Bohan Wu, Jiajun Wu, Yuhuai Wu, Sang\u00a0Michael Xie, Michihiro Yasunaga, Jiaxuan You, Matei Zaharia, Michael Zhang, Tianyi Zhang, Xikun Zhang, Yuhui Zhang, Lucia Zheng, Kaitlyn Zhou, and Percy Liang. 2021. On the Opportunities and Risks of Foundation Models. arxiv:2108.07258\u00a0[cs.LG]",
+      "doi": ""
+    },
+    {
+      "text": "Gwern Branwen. 2020. GPT-3 creative fiction. (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Tom\u00a0B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel\u00a0M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language Models are Few-Shot Learners. In Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020, virtual, Hugo Larochelle, Marc\u2019Aurelio Ranzato, Raia Hadsell, Maria-Florina Balcan, and Hsuan-Tien Lin (Eds.). https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Buschek, Lukas Mecke, Florian Lehmann, and Hai Dang. 2021. Nine Potential Pitfalls when Designing Human-AI Co-Creative Systems. arXiv preprint arXiv:2104.00358(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Carrie\u00a0J Cai, Philip\u00a0J Guo, James Glass, and Robert\u00a0C Miller. 2014. Wait-learning: leveraging conversational dead time for second language education. In CHI\u201914 Extended Abstracts on Human Factors in Computing Systems. 2239\u20132244.",
+      "doi": ""
+    },
+    {
+      "text": "Carrie\u00a0J Cai, Shamsi\u00a0T Iqbal, and Jaime Teevan. 2016. Chain reactions: The impact of order on microtask chains. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 3143\u20133154.",
+      "doi": "10.1145/2858036.2858237"
+    },
+    {
+      "text": "Carrie\u00a0J Cai, Emily Reif, Narayan Hegde, Jason Hipp, Been Kim, Daniel Smilkov, Martin Wattenberg, Fernanda Viegas, Greg\u00a0S Corrado, Martin\u00a0C Stumpe, 2019. Human-centered tools for coping with imperfect algorithms during medical decision-making. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3290605.3300234"
+    },
+    {
+      "text": "Julia Cambre, Scott Klemmer, and Chinmay Kulkarni. 2018. Juxtapeer: Comparative peer review yields higher quality feedback and promotes deeper reflection. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3173574.3173868"
+    },
+    {
+      "text": "John\u00a0M Carroll and Judith\u00a0Reitman Olson. 1988. Mental models in human-computer interaction. Handbook of human-computer interaction(1988), 45\u201365.",
+      "doi": ""
+    },
+    {
+      "text": "Qing Chen, Fuling Sun, Xinyue Xu, Jiazhe Wang, and Nan Cao. 2021. VizLinter: A Linter and Fixer Framework for Data Visualization. IEEE transactions on visualization and computer graphics (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Justin Cheng, Jaime Teevan, Shamsi\u00a0T. Iqbal, and Michael\u00a0S. Bernstein. 2015. Break It Down: A Comparison of Macro- and Microtasks. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, CHI 2015, Seoul, Republic of Korea, April 18-23, 2015, Bo\u00a0Begole, Jinwoo Kim, Kori Inkpen, and Woontack Woo (Eds.). ACM, 4061\u20134064. https://doi.org/10.1145/2702123.2702146",
+      "doi": "10.1145/2702123.2702146"
+    },
+    {
+      "text": "Lydia\u00a0B Chilton, James\u00a0A Landay, and Daniel\u00a0S Weld. 2016. Humortools: A microtask workflow for writing news satire. El Paso, Texas: ACM (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Lydia\u00a0B. Chilton, Greg Little, Darren Edge, Daniel\u00a0S. Weld, and James\u00a0A. Landay. 2013. Cascade: crowdsourcing taxonomy creation. In 2013 ACM SIGCHI Conference on Human Factors in Computing Systems, CHI \u201913, Paris, France, April 27 - May 2, 2013, Wendy\u00a0E. Mackay, Stephen\u00a0A. Brewster, and Susanne B\u00f8dker (Eds.). ACM, 1999\u20132008. https://doi.org/10.1145/2470654.2466265",
+      "doi": "10.1145/2470654.2466265"
+    },
+    {
+      "text": "Elizabeth Clark, Anne\u00a0Spencer Ross, Chenhao Tan, Yangfeng Ji, and Noah\u00a0A Smith. 2018. Creative writing with a machine in the loop: Case studies on slogans and stories. In 23rd International Conference on Intelligent User Interfaces. 329\u2013340.",
+      "doi": "10.1145/3172944.3172983"
+    },
+    {
+      "text": "Nicholas Davis, Chih-PIn Hsiao, Kunwar Yashraj\u00a0Singh, Lisa Li, and Brian Magerko. 2016. Empirically studying participatory sense-making in abstract drawing with a co-creative cognitive agent. In Proceedings of the 21st International Conference on Intelligent User Interfaces. 196\u2013207.",
+      "doi": "10.1145/2856767.2856795"
+    },
+    {
+      "text": "Darren Edge, Elly Searle, Kevin Chiu, Jing Zhao, and James\u00a0A Landay. 2011. MicroMandarin: mobile language learning in context. In Proceedings of the SIGCHI conference on human factors in computing systems. 3169\u20133178.",
+      "doi": "10.1145/1978942.1979413"
+    },
+    {
+      "text": "Luciano Floridi and Massimo Chiriatti. 2020. GPT-3: Its nature, scope, limits, and consequences. Minds and Machines 30, 4 (2020), 681\u2013694.",
+      "doi": "10.1007/s11023-020-09548-1"
+    },
+    {
+      "text": "Katy\u00a0Ilonka Gero and Lydia\u00a0B. Chilton. 2019. Metaphoria: An Algorithmic Companion for Metaphor Creation. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, CHI 2019, Glasgow, Scotland, UK, May 04-09, 2019, Stephen\u00a0A. Brewster, Geraldine Fitzpatrick, Anna\u00a0L. Cox, and Vassilis Kostakos (Eds.). ACM, 296. https://doi.org/10.1145/3290605.3300526",
+      "doi": "10.1145/3290605.3300526"
+    },
+    {
+      "text": "Spence Green, Jason Chuang, Jeffrey Heer, and Christopher\u00a0D Manning. 2014. Predictive translation memory: A mixed-initiative system for human language translation. In Proceedings of the 27th annual ACM symposium on User interface software and technology. 177\u2013187.",
+      "doi": "10.1145/2642918.2647408"
+    },
+    {
+      "text": "Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. 2020. Measuring massive multitask language understanding. arXiv preprint arXiv:2009.03300(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, and Yejin Choi. 2020. The Curious Case of Neural Text Degeneration. In 8th International Conference on Learning Representations, ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020. OpenReview.net. https://openreview.net/forum?id=rygGQyrFvH",
+      "doi": ""
+    },
+    {
+      "text": "Cheng-Zhi\u00a0Anna Huang, Hendrik\u00a0Vincent Koops, Ed Newton-Rex, Monica Dinculescu, and Carrie\u00a0J Cai. 2020. AI song contest: Human-AI co-creation in songwriting. arXiv preprint arXiv:2010.05388(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Ellen Jiang, Edwin Toh, Alejandra Molina, Aaron Donsbach, Carrie\u00a0J Cai, and Michael Terry. 2021. Genline and genform: Two tools for interacting with generative language models in a code editor. In Adjunct Publication of the 34rd Annual ACM Symposium on User Interface Software and Technology.",
+      "doi": "10.1145/3474349.3480209"
+    },
+    {
+      "text": "Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. 2016. Exploring the limits of language modeling. arXiv preprint arXiv:1602.02410(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Joy Kim, Sarah Sterman, Allegra Argent\u00a0Beal Cohen, and Michael\u00a0S Bernstein. 2017. Mechanical novel: Crowdsourcing complex work through reflection and revision. In Proceedings of the 2017 acm conference on computer supported cooperative work and social computing. 233\u2013245.",
+      "doi": "10.1145/2998181.2998196"
+    },
+    {
+      "text": "Aniket Kittur, Boris Smus, Susheel Khamkar, and Robert\u00a0E Kraut. 2011. Crowdforge: Crowdsourcing complex work. In Proceedings of the 24th annual ACM symposium on User interface software and technology. 43\u201352.",
+      "doi": "10.1145/2047196.2047202"
+    },
+    {
+      "text": "Janin Koch, Andr\u00e9s Lucero, Lena Hegemann, and Antti Oulasvirta. 2019. May AI?: Design Ideation with Cooperative Contextual Bandits. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, CHI 2019, Glasgow, Scotland, UK, May 04-09, 2019, Stephen\u00a0A. Brewster, Geraldine Fitzpatrick, Anna\u00a0L. Cox, and Vassilis Kostakos (Eds.). ACM, 633. https://doi.org/10.1145/3290605.3300863",
+      "doi": "10.1145/3290605.3300863"
+    },
+    {
+      "text": "Anand\u00a0Pramod Kulkarni, Matthew Can, and Bjoern Hartmann. 2011. Turkomatic: automatic, recursive task and workflow design for mechanical turk. In Workshops at the Twenty-Fifth AAAI Conference on Artificial Intelligence.",
+      "doi": "10.1145/1979742.1979865"
+    },
+    {
+      "text": "Edith Law and Haoqi Zhang. 2011. Towards Large-Scale Collaborative Planning: Answering High-Level Search Queries Using Human Computation. In Proceedings of the Twenty-Fifth AAAI Conference on Artificial Intelligence, AAAI 2011, San Francisco, California, USA, August 7-11, 2011, Wolfram Burgardand Dan Roth (Eds.). AAAI Press. http://www.aaai.org/ocs/index.php/AAAI/AAAI11/paper/view/3675",
+      "doi": ""
+    },
+    {
+      "text": "Ariel Levy, Monica Agrawal, Arvind Satyanarayan, and David Sontag. 2021. Assessing the Impact of Automated Suggestions on Decision Making: Domain Experts Mediate Model Errors but Take Less Initiative. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3411764.3445522"
+    },
+    {
+      "text": "Opher Lieber, Or Sharir, Barak Lenz, and Yoav Shoham. 2021. Jurassic-1: Technical Details And Evaluation. Technical Report. AI21 Labs.",
+      "doi": ""
+    },
+    {
+      "text": "Rensis Likert. 1932. A technique for the measurement of attitudes.Archives of psychology(1932).",
+      "doi": ""
+    },
+    {
+      "text": "Greg Little, Lydia\u00a0B Chilton, Max Goldman, and Robert\u00a0C Miller. 2010. Turkit: human computation algorithms on mechanical turk. In Proceedings of the 23nd annual ACM symposium on User interface software and technology. 57\u201366.",
+      "doi": "10.1145/1866029.1866040"
+    },
+    {
+      "text": "Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, and Weizhu Chen. 2021. What Makes Good In-Context Examples for GPT-3?arXiv preprint arXiv:2101.06804(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Ryan Louie, Andy Coenen, Cheng\u00a0Zhi Huang, Michael Terry, and Carrie\u00a0J. Cai. 2020. Novice-AI Music Co-Creation via AI-Steering Tools for Deep Generative Models. In CHI \u201920: CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, April 25-30, 2020, Regina Bernhaupt, Florian\u00a0\u2019Floyd\u2019 Mueller, David Verweij, Josh Andres, Joanna McGrenere, Andy Cockburn, Ignacio Avellino, Alix Goguey, Pernille Bj\u00f8n, Shengdong Zhao, Briane\u00a0Paul Samson, and Rafal Kocielnik (Eds.). ACM, 1\u201313. https://doi.org/10.1145/3313831.3376739",
+      "doi": ""
+    },
+    {
+      "text": "Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, and Pontus Stenetorp. 2021. Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity. arXiv preprint arXiv:2104.08786(2021).",
+      "doi": ""
+    },
+    {
+      "text": "P\u00e4ivi Majaranta and Kari-Jouko R\u00e4ih\u00e4. 2007. Text entry by gaze: Utilizing eye-tracking. Text entry systems: Mobility, accessibility, universality (2007), 175\u2013187.",
+      "doi": ""
+    },
+    {
+      "text": "Swaroop Mishra, Daniel Khashabi, Chitta Baral, and Hannaneh Hajishirzi. 2021. Cross-Task Generalization via Natural Language Crowdsourcing Instructions. arXiv preprint arXiv:2104.08773(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Dominik Moritz, Chenglong Wang, Greg\u00a0L Nelson, Halden Lin, Adam\u00a0M Smith, Bill Howe, and Jeffrey Heer. 2018. Formalizing visualization design knowledge as constraints: Actionable and extensible models in draco. IEEE transactions on visualization and computer graphics 25, 1(2018), 438\u2013448.",
+      "doi": ""
+    },
+    {
+      "text": "Hegde Narayan, Jason\u00a0D Hipp, Yun Liu, Michael Emmert-Buck, Emily Reif, Daniel Smilkov, Michael Terry, Carrie\u00a0J Cai, Mahul\u00a0B Amin, Craig\u00a0H Mermel, 2019. Similar image search for histopathology: SMILY. NPJ Digital Medicine 2, 1 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Besmira Nushi, Ece Kamar, Eric Horvitz, and Donald Kossmann. 2017. On Human Intellect and Machine Failures: Troubleshooting Integrative Machine Learning Systems. In Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence, February 4-9, 2017, San Francisco, California, USA, Satinder\u00a0P. Singh and Shaul Markovitch (Eds.). AAAI Press, 1017\u20131025. http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/15032",
+      "doi": ""
+    },
+    {
+      "text": "Joe O\u2019Connor and Jacob Andreas. 2021. What Context Features Can Transformer Language Models Use?arXiv preprint arXiv:2106.08367(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Changhoon Oh, Jungwoo Song, Jinhan Choi, Seonghyeon Kim, Sungwoo Lee, and Bongwon Suh. 2018. I Lead, You Help but Only with Enough Details: Understanding User Experience of Co-Creation with Artificial Intelligence. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems, CHI 2018, Montreal, QC, Canada, April 21-26, 2018, Regan\u00a0L. Mandryk, Mark Hancock, Mark Perry, and Anna\u00a0L. Cox (Eds.). ACM, 649. https://doi.org/10.1145/3173574.3174223",
+      "doi": "10.1145/3173574.3174223"
+    },
+    {
+      "text": "Marc\u2019Aurelio Ranzato, Sumit Chopra, Michael Auli, and Wojciech Zaremba. 2016. Sequence Level Training with Recurrent Neural Networks. In 4th International Conference on Learning Representations, ICLR 2016, San Juan, Puerto Rico, May 2-4, 2016, Conference Track Proceedings, Yoshua Bengio and Yann LeCun (Eds.). http://arxiv.org/abs/1511.06732",
+      "doi": ""
+    },
+    {
+      "text": "Daniela Retelny, Michael\u00a0S Bernstein, and Melissa\u00a0A Valentine. 2017. No workflow can ever be enough: How crowdsourcing workflows constrain complex work. Proceedings of the ACM on Human-Computer Interaction 1, CSCW(2017), 1\u201323.",
+      "doi": "10.1145/3134724"
+    },
+    {
+      "text": "Laria Reynolds and Kyle McDonell. 2021. Prompt programming for large language models: Beyond the few-shot paradigm. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u20137.",
+      "doi": "10.1145/3411763.3451760"
+    },
+    {
+      "text": "Daniel Rough, Keith Vertanen, and Per\u00a0Ola Kristensson. 2014. An evaluation of Dasher with a high-performance language model as a gaze communication method. In Proceedings of the 2014 International Working Conference on Advanced Visual Interfaces. 169\u2013176.",
+      "doi": "10.1145/2598153.2598157"
+    },
+    {
+      "text": "Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer. 2016. Vega-lite: A grammar of interactive graphics. IEEE transactions on visualization and computer graphics 23, 1(2016), 341\u2013350.",
+      "doi": "10.1109/TVCG.2016.2599030"
+    },
+    {
+      "text": "Taylor Shin, Yasaman Razeghi, Robert\u00a0L. Logan\u00a0IV, Eric Wallace, and Sameer Singh. 2020. AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). Association for Computational Linguistics, Online, 4222\u20134235. https://doi.org/10.18653/v1/2020.emnlp-main.346",
+      "doi": ""
+    },
+    {
+      "text": "Alison Smith-Renner, Ron Fan, Melissa Birchfield, Tongshuang Wu, Jordan Boyd-Graber, Daniel\u00a0S. Weld, and Leah Findlater. 2020. No Explainability without Accountability: An Empirical Study of Explanations and Feedback in Interactive ML. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376624",
+      "doi": "10.1145/3313831.3376624"
+    },
+    {
+      "text": "Ben Swanson, Kory Mathewson, Ben Pietrzak, Sherol Chen, and Monica Dinalescu. 2021. Story Centaur: Large Language Model Few Shot Learning as a Creative Writing Tool. In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations. Association for Computational Linguistics, Online, 244\u2013256. https://www.aclweb.org/anthology/2021.eacl-demos.29",
+      "doi": ""
+    },
+    {
+      "text": "Bowen Tan, Zichao Yang, Maruan Al-Shedivat, Eric Xing, and Zhiting Hu. 2021. Progressive Generation of Long Text with Pretrained Language Models. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Association for Computational Linguistics, Online, 4313\u20134324. https://www.aclweb.org/anthology/2021.naacl-main.341",
+      "doi": ""
+    },
+    {
+      "text": "Jaime Teevan, Shamsi\u00a0T Iqbal, Carrie\u00a0J Cai, Jeffrey\u00a0P Bigham, Michael\u00a0S Bernstein, and Elizabeth\u00a0M Gerber. 2016. Productivity decomposed: Getting big things done with little microtasks. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems. 3500\u20133507.",
+      "doi": "10.1145/2851581.2856480"
+    },
+    {
+      "text": "Romal Thoppilan, Daniel De\u00a0Freitas, Jamie Hall, Noam Shazeer, Apoorv Kulshreshtha, Heng-Tze Cheng, Alicia Jin, Taylor Bos, Leslie Baker, Yu Du, 2022. LaMDA: Language Models for Dialog Applications. ArXiv preprint abs/2201.08239 (2022). https://arxiv.org/abs/2201.08239",
+      "doi": ""
+    },
+    {
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan\u00a0N. Gomez, Lukasz Kaiser, and Illia Polosukhin. 2017. Attention is All you Need. In Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2017, December 4-9, 2017, Long Beach, CA, USA, Isabelle Guyon, Ulrike von Luxburg, Samy Bengio, Hanna\u00a0M. Wallach, Rob Fergus, S.\u00a0V.\u00a0N. Vishwanathan, and Roman Garnett (Eds.). 5998\u20136008.",
+      "doi": "10.5555/3295222.3295349"
+    },
+    {
+      "text": "Vasilis Verroios and Michael\u00a0S Bernstein. 2014. Context trees: Crowdsourcing global understanding from local views. In Second AAAI Conference on Human Computation and Crowdsourcing.",
+      "doi": ""
+    },
+    {
+      "text": "Cunxiang Wang, Boyuan Zheng, Yuchen Niu, and Yue Zhang. 2021. Exploring Generalization Ability of Pretrained Language Models on Arithmetic and Logical Reasoning. arXiv preprint arXiv:2108.06743(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and Denny Zhou. 2022. Chain of Thought Prompting Elicits Reasoning in Large Language Models. arXiv preprint arXiv:2201.11903(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Sean Welleck, Ilia Kulikov, Jaedeok Kim, Richard\u00a0Yuanzhe Pang, and Kyunghyun Cho. 2020. Consistency of a Recurrent Language Model With Respect to Incomplete Decoding. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). Association for Computational Linguistics, Online, 5553\u20135568. https://doi.org/10.18653/v1/2020.emnlp-main.448",
+      "doi": ""
+    },
+    {
+      "text": "Tongshuang Wu, Ellen Jiang, Aaron Donsbach, Jeff Gray, Alejandra Molina, Michael Terry, and Carrie\u00a0J Cai. 2022. PromptChainer: Chaining Large Language Model Prompts through Visual Programming. Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3491101.3519729",
+      "doi": ""
+    },
+    {
+      "text": "Tongshuang Wu, Marco\u00a0Tulio Ribeiro, Jeffrey Heer, and Daniel Weld. 2021. Polyjuice: Generating Counterfactuals for Explaining, Evaluating, and Improving Models. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). Association for Computational Linguistics, Online, 6707\u20136723. https://doi.org/10.18653/v1/2021.acl-long.523",
+      "doi": ""
+    },
+    {
+      "text": "Bingjun Xie, Jia Zhou, and Huilin Wang. 2017. How influential are mental models on interaction performance? exploring the gap between users\u2019 and designers\u2019 mental models through a new quantitative method. Advances in Human-Computer Interaction 2017 (2017).",
+      "doi": ""
+    }
+  ]
+}

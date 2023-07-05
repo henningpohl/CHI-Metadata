@@ -1,0 +1,266 @@
+{
+  "doi": "10.1145/3491102.3501907",
+  "title": "A Model Predictive Control Approach for Reach Redirection in Virtual Reality",
+  "published": "2022-04-28",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Reach redirection is an illusion-based virtual reality (VR) interaction technique where a user\u2019s virtual hand is shifted during a reach in order to guide their real hand to a physical location. Prior works have not considered the underlying sensorimotor processes driving redirection. In this work, we propose adapting a sensorimotor model for goal-directed reach to obtain a model for visually-redirected reach, specifically by incorporating redirection as a sensory bias in the state estimate used by a minimum jerk motion controller. We validate and then leverage this model to develop a Model Predictive Control (MPC) approach for reach redirection, enabling the real-time generation of spatial warping according to desired optimization criteria (e.g., redirection goals) and constraints (e.g., sensory thresholds). We illustrate this approach with two example criteria \u2013 redirection to a desired point and redirection along a desired path \u2013 and compare our approach against existing techniques in a user evaluation.",
+  "authors": [
+    {
+      "name": "Eric J Gonzalez",
+      "institution": "Mechanical Engineering, Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659214489",
+      "orcid": "0000-0002-2846-7687"
+    },
+    {
+      "name": "Elyse D. Z. Chase",
+      "institution": "Mechanical Engineering, Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659523828",
+      "orcid": "missing"
+    },
+    {
+      "name": "Pramod Kotipalli",
+      "institution": "School of Computer Science, Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659310332",
+      "orcid": "missing"
+    },
+    {
+      "name": "Sean Follmer",
+      "institution": "Mechanical Engineering, Stanford University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81377593653",
+      "orcid": "0000-0001-5592-5949"
+    }
+  ],
+  "references": [
+    {
+      "text": "[n. d.]. ForcesPro. https://www.embotech.com/products/forcespro/overview/",
+      "doi": ""
+    },
+    {
+      "text": "Parastoo Abtahi and Sean Follmer. 2018. Visuo-Haptic Illusions for Improving the Perceived Performance of Shape Displays. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173724",
+      "doi": "10.1145/3173574.3173724"
+    },
+    {
+      "text": "Mahdi Azmandian, Mark Hancock, Hrvoje Benko, Eyal Ofek, and Andrew\u00a0D. Wilson. 2016. Haptic Retargeting: Dynamic Repurposing of Passive Haptics for Enhanced Virtual Reality Experiences. Association for Computing Machinery, New York, NY, USA, 1968\u20131979. https://doi.org/10.1145/2858036.2858226",
+      "doi": "10.1145/2858036.2858226"
+    },
+    {
+      "text": "Myroslav Bachynskyi and J\u00f6rg M\u00fcller. 2020. Dynamics of Aimed Mid-air Movements. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3313831.3376194"
+    },
+    {
+      "text": "Brett Benda, Shaghayegh Esmaeili, and Eric\u00a0D Ragan. 2020. Determining detection thresholds for fixed positional offsets for virtual hand remapping in virtual reality. In 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE, 269\u2013278.",
+      "doi": ""
+    },
+    {
+      "text": "Robin\u00a0T Bye and Peter\u00a0D Neilson. 2008. The BUMP model of response planning: Variable horizon predictive control accounts for the speed\u2013accuracy tradeoffs and velocity profiles of aimed movement. Human movement science 27, 5 (2008), 771\u2013798.",
+      "doi": ""
+    },
+    {
+      "text": "Lung-Pan Cheng, Eyal Ofek, Christian Holz, Hrvoje Benko, and Andrew\u00a0D. Wilson. 2017. Sparse Haptic Proxy: Touch Feedback in Virtual Environments Using a General Passive Prop. Association for Computing Machinery, New York, NY, USA, 3718\u20133728. https://doi.org/10.1145/3025453.3025753",
+      "doi": "10.1145/3025453.3025753"
+    },
+    {
+      "text": "Fr\u00e9d\u00e9ric Crevecoeur, Douglas\u00a0P Munoz, and Stephen\u00a0H Scott. 2016. Dynamic multisensory integration: somatosensory speed trumps visual accuracy during feedback control. Journal of Neuroscience 36, 33 (2016), 8598\u20138611.",
+      "doi": ""
+    },
+    {
+      "text": "Seungwon Do, Minsuk Chang, and Byungjoo Lee. 2021. A Simulation Model of Intermittently Controlled Point-and-Click Behaviour. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3411764.3445514"
+    },
+    {
+      "text": "Seungwon Do and Byungjoo Lee. 2020. Improving Reliability of Virtual Collision Responses: A Cue Integration Technique. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3313831.3376819"
+    },
+    {
+      "text": "David Eberly. 2020. Thin-Plate Splines. https://www.geometrictools.com/Documentation/ThinPlateSplines.pdf. Accessed: 2021-09-04.",
+      "doi": ""
+    },
+    {
+      "text": "Marc\u00a0O Ernst and Martin\u00a0S Banks. 2002. Humans integrate visual and haptic information in a statistically optimal fashion. Nature 415, 6870 (2002), 429\u2013433.",
+      "doi": ""
+    },
+    {
+      "text": "Shaghayegh Esmaeili, Brett Benda, and Eric\u00a0D Ragan. 2020. Detection of scaled hand interactions in virtual reality: The effects of motion direction and task complexity. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, 453\u2013462.",
+      "doi": ""
+    },
+    {
+      "text": "Tiare Feuchtner and J\u00f6rg M\u00fcller. 2018. Ownershift: Facilitating Overhead Interaction in Virtual Reality with an Ownership-Preserving Hand Space Shift. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (Berlin, Germany) (UIST \u201918). Association for Computing Machinery, New York, NY, USA, 31\u201343. https://doi.org/10.1145/3242587.3242594",
+      "doi": "10.1145/3242587.3242594"
+    },
+    {
+      "text": "Paul\u00a0M Fitts. 1954. The information capacity of the human motor system in controlling the amplitude of movement.Journal of experimental psychology 47, 6 (1954), 381.",
+      "doi": ""
+    },
+    {
+      "text": "Tamar Flash and Neville Hogan. 1985. The coordination of arm movements: an experimentally confirmed mathematical model. Journal of Neuroscience 5, 7 (1985), 1688\u20131703. https://doi.org/10.1523/JNEUROSCI.05-07-01688.1985 arXiv:https://www.jneurosci.org/content/5/7/1688.full.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Carlos\u00a0E Garcia, David\u00a0M Prett, and Manfred Morari. 1989. Model predictive control: Theory and practice\u2014A survey. Automatica 25, 3 (1989), 335\u2013348.",
+      "doi": "10.1016/0005-1098%2889%2990002-2"
+    },
+    {
+      "text": "James\u00a0J Gibson. 1933. Adaptation, after-effect and contrast in the perception of curved lines.Journal of experimental psychology 16, 1 (1933), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Eric\u00a0J Gonzalez, Parastoo Abtahi, and Sean Follmer. 2019. Evaluating the Minimum Jerk Motion Model for Redirected Reach in Virtual Reality. In The Adjunct Publication of the 32nd Annual ACM Symposium on User Interface Software and Technology. Association for Computing Machinery, New York, NY, USA, 4\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Eric\u00a0J Gonzalez, Parastoo Abtahi, and Sean Follmer. 2020. Reach+ extending the reachability of encountered-type haptics devices through dynamic redirection in vr. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 236\u2013248.",
+      "doi": "10.1145/3379337.3415870"
+    },
+    {
+      "text": "Eric\u00a0J Gonzalez and Sean Follmer. 2019. Investigating the detection of bimanual haptic retargeting in virtual reality. In 25th ACM Symposium on Virtual Reality Software and Technology. 1\u20135.",
+      "doi": "10.1145/3359996.3364248"
+    },
+    {
+      "text": "Dustin\u00a0T Han, Mohamed Suhail, and Eric\u00a0D Ragan. 2018. Evaluating remapped physical reach for hand interactions with passive haptics in virtual reality. IEEE transactions on visualization and computer graphics 24, 4(2018), 1467\u20131476.",
+      "doi": "10.1109/TVCG.2018.2794659"
+    },
+    {
+      "text": "Christopher\u00a0M Harris and Daniel\u00a0M Wolpert. 1998. Signal-dependent noise determines motor planning. Nature 394, 6695 (1998), 780\u2013784.",
+      "doi": ""
+    },
+    {
+      "text": "Bruce Hoff. 1994. A model of duration in normal and perturbed reaching movement. Biological Cybernetics 71, 6 (1994), 481\u2013488.",
+      "doi": "10.1007/BF00198466"
+    },
+    {
+      "text": "Bruce Hoff and Michael\u00a0A Arbib. 1993. Models of trajectory formation and temporal interaction of reach and grasp. Journal of motor behavior 25, 3 (1993), 175\u2013192.",
+      "doi": ""
+    },
+    {
+      "text": "Neville Hogan. 1984. An organizing principle for a class of voluntary movements. Journal of neuroscience 4, 11 (1984), 2745\u20132754.",
+      "doi": ""
+    },
+    {
+      "text": "Neville Hogan and Dagmar Sternad. 2009. Sensitivity of smoothness measures to movement duration, amplitude, and arrests. Journal of motor behavior 41, 6 (2009), 529\u2013534.",
+      "doi": ""
+    },
+    {
+      "text": "Mitsuo Kawato. 1996. Trajectory formation in arm movements: minimization principles and procedures. Advances in motor learning and control(1996), 225\u2013259.",
+      "doi": ""
+    },
+    {
+      "text": "Konstantina Kilteni, Raphaela Groten, and Mel Slater. 2012. The sense of embodiment in virtual reality. Presence: Teleoperators and Virtual Environments 21, 4(2012), 373\u2013387.",
+      "doi": "10.1162/PRES_a_00124"
+    },
+    {
+      "text": "Luv Kohli. 2010. Redirected touching: Warping space to remap passive haptics. In 2010 IEEE Symposium on 3D User Interfaces (3DUI). 129\u2013130. https://doi.org/10.1109/3DUI.2010.5444703",
+      "doi": ""
+    },
+    {
+      "text": "Luv Kohli. 2013. Redirected touching. Ph.\u00a0D. Dissertation. The University of North Carolina at Chapel Hill.",
+      "doi": ""
+    },
+    {
+      "text": "Luv Kohli, M. Whitton, and F. Brooks. 2012. Redirected touching: The effect of warping space on task performance. 2012 IEEE Symposium on 3D User Interfaces (3DUI) (2012), 105\u2013112.",
+      "doi": ""
+    },
+    {
+      "text": "Julian Kreimeier, Sebastian Hammer, Daniel Friedmann, Pascal Karg, Clemens B\u00fchner, Lukas Bankel, and Timo G\u00f6tzelmann. 2019. Evaluation of different types of haptic feedback influencing the task-based presence and performance in virtual reality. In Proceedings of the 12th ACM International Conference on PErvasive Technologies Related to Assistive Environments. 289\u2013298.",
+      "doi": "10.1145/3316782.3321536"
+    },
+    {
+      "text": "Thomas Langerak, Juan\u00a0Jos\u00e9 Z\u00e1rate, Velko Vechev, David Lindlbauer, Daniele Panozzo, and Otmar Hilliges. 2020. Optimal control for electromagnetic haptic guidance systems. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 951\u2013965.",
+      "doi": "10.1145/3379337.3415593"
+    },
+    {
+      "text": "Flavien Lebrun, Sinan Haliyo, and Gilles Bailly. 2021. A Trajectory Model for Desktop-Scale Hand Redirection in Virtual Reality. In IFIP Conference on Human-Computer Interaction. Springer, 105\u2013124.",
+      "doi": "10.1007/978-3-030-85607-6_8"
+    },
+    {
+      "text": "Mathew Monfort, Anqi Liu, and Brian Ziebart. 2015. Intent prediction and trajectory forecasting via predictive inverse linear-quadratic regulation. In Twenty-Ninth AAAI Conference on Artificial Intelligence.",
+      "doi": "10.5555/2888116.2888226"
+    },
+    {
+      "text": "Roberto\u00a0A Montano\u00a0Murillo, Sriram Subramanian, and Diego Martinez\u00a0Plasencia. 2017. Erg-O: Ergonomic optimization of immersive virtual environments. In Proceedings of the 30th annual ACM symposium on user interface software and technology. 759\u2013771.",
+      "doi": "10.1145/3126594.3126605"
+    },
+    {
+      "text": "J\u00f6rg M\u00fcller, Antti Oulasvirta, and Roderick Murray-Smith. 2017. Control theoretic models of pointing. ACM Transactions on Computer-Human Interaction (TOCHI) 24, 4(2017), 1\u201336.",
+      "doi": "10.1145/3121431"
+    },
+    {
+      "text": "Thomas Nescher, Ying-Yin Huang, and Andreas Kunz. 2014. Planning redirection techniques for optimal free walking experience using model predictive control. In 2014 IEEE Symposium on 3D User Interfaces (3DUI). IEEE, 111\u2013118.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Rietzler, Florian Geiselhart, Jan Gugenheimer, and Enrico Rukzio. 2018. Breaking the tracking: Enabling weight perception using perceivable tracking offsets. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3173574.3173702"
+    },
+    {
+      "text": "Ali Safavi and Mehrdad\u00a0H Zadeh. 2015. Model-based haptic guidance in surgical skill improvement. In 2015 IEEE International Conference on Systems, Man, and Cybernetics. IEEE, 1104\u20131109.",
+      "doi": "10.1109/SMC.2015.198"
+    },
+    {
+      "text": "Jeffrey\u00a0A Saunders and David\u00a0C Knill. 2003. Humans use continuous visual feedback from the hand to control fast reaching movements. Experimental brain research 152, 3 (2003), 341\u2013352.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0A Saunders and David\u00a0C Knill. 2004. Visual feedback control of hand movements. Journal of Neuroscience 24, 13 (2004), 3223\u20133234.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0A Saunders and David\u00a0C Knill. 2005. Humans use continuous visual feedback from the hand to control both the direction and distance of pointing movements. Experimental brain research 162, 4 (2005), 458\u2013473.",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0A Schmidt, Howard Zelaznik, Brian Hawkins, James\u00a0S Frank, and John\u00a0T Quinn\u00a0Jr. 1979. Motor-output variability: a theory for the accuracy of rapid motor acts.Psychological review 86, 5 (1979), 415.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel\u00a0J Sober and Philip\u00a0N Sabes. 2003. Multisensory integration during motor planning. Journal of Neuroscience 23, 18 (2003), 6982\u20136992.",
+      "doi": ""
+    },
+    {
+      "text": "Emanuel Todorov. 2005. Stochastic optimal control and estimation methods adapted to the noise characteristics of the sensorimotor system. Neural computation 17, 5 (2005), 1084\u20131108.",
+      "doi": ""
+    },
+    {
+      "text": "Yoji Uno, Mitsuo Kawato, and Rika Suzuki. 1989. Formation and control of optimal trajectory in human multijoint arm movement. Biological cybernetics 61, 2 (1989), 89\u2013101.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0M Wolpert and Zoubin Ghahramani. 2000. Computational principles of movement neuroscience. Nature neuroscience 3, 11 (2000), 1212\u20131217.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0M Wolpert, Zoubin Ghahramani, and J\u00a0Randall Flanagan. 2001. Perspectives and problems in motor learning. Trends in cognitive sciences 5, 11 (2001), 487\u2013494.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0Sessions Woodworth. 1899. Accuracy of voluntary movement.The Psychological Review: Monograph Supplements 3, 3(1899), i.",
+      "doi": ""
+    },
+    {
+      "text": "Andr\u00e9 Zenner and Antonio Kr\u00fcger. 2019. Estimating Detection Thresholds for Desktop-Scale Hand Redirection in Virtual Reality. In 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 47\u201355. https://doi.org/10.1109/VR.2019.8798143",
+      "doi": ""
+    },
+    {
+      "text": "Andr\u00e9 Zenner, Kora\u00a0Persephone Regitz, and Antonio Kr\u00fcger. 2021. Blink-Suppressed Hand Redirection. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR). 75\u201384. https://doi.org/10.1109/VR50410.2021.00028",
+      "doi": ""
+    },
+    {
+      "text": "Andr\u00e9 Zenner, Kristin Ullmann, and Antonio Kr\u00fcger. 2021. Combining Dynamic Passive Haptics and Haptic Retargeting for Enhanced Haptic Feedback in Virtual Reality. IEEE Transactions on Visualization and Computer Graphics 27, 5(2021), 2627\u20132637. https://doi.org/10.1109/TVCG.2021.3067777",
+      "doi": ""
+    },
+    {
+      "text": "Yiwei Zhao and Sean Follmer. 2018. A functional optimization based approach for continuous 3d retargeted touch of arbitrary, complex boundaries in haptic virtual reality. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3173574.3174118"
+    },
+    {
+      "text": "Brian Ziebart, Anind Dey, and J.\u00a0Andrew Bagnell. 2012. Probabilistic Pointing Target Prediction via Inverse Optimal Control. In Proceedings of the 2012 ACM International Conference on Intelligent User Interfaces (Lisbon, Portugal) (IUI \u201912). Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/2166966.2166968",
+      "doi": "10.1145/2166966.2166968"
+    }
+  ]
+}

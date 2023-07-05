@@ -1,0 +1,242 @@
+{
+  "doi": "10.1145/3544548.3581388",
+  "title": "Why Johnny Can\u2019t Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-21",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Pre-trained large language models (\u201cLLMs\u201d) like GPT-3 can engage in fluent, multi-turn instruction-taking out-of-the-box, making them attractive materials for designing natural language interactions. Using natural language to steer LLM outputs (\u201cprompting\u201d) has emerged as an important design technique potentially accessible to non-AI-experts. Crafting effective prompts can be challenging, however, and prompt-based interactions are brittle. Here, we explore whether non-AI-experts can successfully engage in \u201cend-user prompt engineering\u201d using a design probe\u2014a prototype LLM-based chatbot design tool supporting development and systematic evaluation of prompting strategies. Ultimately, our probe participants explored prompt designs opportunistically, not systematically, and struggled in ways echoing end-user programming systems and interactive machine learning systems. Expectations stemming from human-to-human instructional experiences, and a tendency to overgeneralize, were barriers to effective prompt design. These findings have implications for non-AI-expert-facing LLM-based tool design and for improving LLM-and-prompt literacy among programmers and the public, and present opportunities for further research.",
+  "authors": [
+    {
+      "name": "J.D. Zamfirescu-Pereira",
+      "institution": "EECS, UC Berkeley, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659366421",
+      "orcid": "0000-0002-5310-6728"
+    },
+    {
+      "name": "Richmond Y. Wong",
+      "institution": "Digital Media, Georgia Institute of Technology, United States",
+      "img": "/do/10.1145/contrib-99658688813/rel-imgonly/glasses_profile_pic_square.jpg",
+      "acmid": "99658688813",
+      "orcid": "0000-0001-8613-0380"
+    },
+    {
+      "name": "Bjoern Hartmann",
+      "institution": "EECS, UC Berkeley, United States",
+      "img": "/do/10.1145/contrib-81318498266/rel-imgonly/headshot2010_130.jpg",
+      "acmid": "81318498266",
+      "orcid": "0000-0002-0693-0829"
+    },
+    {
+      "name": "Qian Yang",
+      "institution": "Computing and Information Science, Cornell University, United States",
+      "img": "/do/10.1145/contrib-99659021698/rel-imgonly/qian.jpg",
+      "acmid": "99659021698",
+      "orcid": "0000-0002-3548-2535"
+    }
+  ],
+  "references": [
+    {
+      "text": "2022. CHATGPT: Optimizing language models for dialogue. https://openai.com/blog/chatgpt/",
+      "doi": ""
+    },
+    {
+      "text": "Bon App\u00e9tit. 2018. Elizabeth Olsen Tries to Keep Up with a Professional Chef | Back-to-Back Chef | Bon App\u00e9tit. Youtube. https://www.youtube.com/watch?v=Om2oM-TDErQ",
+      "doi": ""
+    },
+    {
+      "text": "Stephen\u00a0H. Bach, Victor Sanh, Zheng-Xin Yong, Albert Webson, Colin Raffel, Nihal\u00a0V. Nayak, Abheesht Sharma, Taewoon Kim, M\u00a0Saiful Bari, Thibault Fevry, Zaid Alyafeai, Manan Dey, Andrea Santilli, Zhiqing Sun, Srulik Ben-David, Canwen Xu, Gunjan Chhablani, Han Wang, Jason\u00a0Alan Fries, Maged\u00a0S. Al-shaibani, Shanya Sharma, Urmish Thakker, Khalid Almubarak, Xiangru Tang, Dragomir Radev, Mike Tian-Jian Jiang, and Alexander\u00a0M. Rush. 2022. PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts. https://doi.org/10.48550/ARXIV.2202.01279",
+      "doi": ""
+    },
+    {
+      "text": "MP Barnett and WM Ruhsam. 1968. A natural language programming system for text processing. IEEE transactions on engineering writing and speech 11, 2 (1968), 45\u201352.",
+      "doi": ""
+    },
+    {
+      "text": "Mary\u00a0Jo Bitner, Amy\u00a0L Ostrom, and Felicia\u00a0N Morgan. 2008. Service blueprinting: a practical technique for service innovation. California management review 50, 3 (2008), 66\u201394.",
+      "doi": ""
+    },
+    {
+      "text": "Kirsten Boehner, Janet Vertesi, Phoebe Sengers, and Paul Dourish. 2007. How HCI Interprets the Probes. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201907). Association for Computing Machinery, New York, NY, USA, 1077\u20131086. https://doi.org/10.1145/1240624.1240789",
+      "doi": "10.1145/1240624.1240789"
+    },
+    {
+      "text": "Rishi Bommasani, Drew\u00a0A. Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney von Arx, Michael\u00a0S. Bernstein, Jeannette Bohg, Antoine Bosselut, Emma Brunskill, Erik Brynjolfsson, Shyamal Buch, Dallas Card, Rodrigo Castellon, Niladri Chatterji, Annie Chen, Kathleen Creel, Jared\u00a0Quincy Davis, Dora Demszky, Chris Donahue, Moussa Doumbouya, Esin Durmus, Stefano Ermon, John Etchemendy, Kawin Ethayarajh, Li Fei-Fei, Chelsea Finn, Trevor Gale, Lauren Gillespie, Karan Goel, Noah Goodman, Shelby Grossman, Neel Guha, Tatsunori Hashimoto, Peter Henderson, John Hewitt, Daniel\u00a0E. Ho, Jenny Hong, Kyle Hsu, Jing Huang, Thomas Icard, Saahil Jain, Dan Jurafsky, Pratyusha Kalluri, Siddharth Karamcheti, Geoff Keeling, Fereshte Khani, Omar Khattab, Pang\u00a0Wei Koh, Mark Krass, Ranjay Krishna, Rohith Kuditipudi, Ananya Kumar, Faisal Ladhak, Mina Lee, Tony Lee, Jure Leskovec, Isabelle Levent, Xiang\u00a0Lisa Li, Xuechen Li, Tengyu Ma, Ali Malik, Christopher\u00a0D. Manning, Suvir Mirchandani, Eric Mitchell, Zanele Munyikwa, Suraj Nair, Avanika Narayan, Deepak Narayanan, Ben Newman, Allen Nie, Juan\u00a0Carlos Niebles, Hamed Nilforoshan, Julian Nyarko, Giray Ogut, Laurel Orr, Isabel Papadimitriou, Joon\u00a0Sung Park, Chris Piech, Eva Portelance, Christopher Potts, Aditi Raghunathan, Rob Reich, Hongyu Ren, Frieda Rong, Yusuf Roohani, Camilo Ruiz, Jack Ryan, Christopher R\u00e9, Dorsa Sadigh, Shiori Sagawa, Keshav Santhanam, Andy Shih, Krishnan Srinivasan, Alex Tamkin, Rohan Taori, Armin\u00a0W. Thomas, Florian Tram\u00e8r, Rose\u00a0E. Wang, William Wang, Bohan Wu, Jiajun Wu, Yuhuai Wu, Sang\u00a0Michael Xie, Michihiro Yasunaga, Jiaxuan You, Matei Zaharia, Michael Zhang, Tianyi Zhang, Xikun Zhang, Yuhui Zhang, Lucia Zheng, Kaitlyn Zhou, and Percy Liang. 2021. On the Opportunities and Risks of Foundation Models. arxiv:2108.07258\u00a0[cs.LG]",
+      "doi": ""
+    },
+    {
+      "text": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared\u00a0D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, 2020. Language models are few-shot learners. Advances in neural information processing systems 33 (2020), 1877\u20131901.",
+      "doi": ""
+    },
+    {
+      "text": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared\u00a0D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language Models are Few-Shot Learners. In Advances in Neural Information Processing Systems, H.\u00a0Larochelle, M.\u00a0Ranzato, R.\u00a0Hadsell, M.\u00a0F. Balcan, and H.\u00a0Lin (Eds.). Vol.\u00a033. Curran Associates, Inc., 1877\u20131901.",
+      "doi": ""
+    },
+    {
+      "text": "Shan Carter, Zan Armstrong, Ludwig Schubert, Ian Johnson, and Chris Olah. 2019. Activation Atlas. Distill (2019). https://doi.org/10.23915/distill.00015 https://distill.pub/2019/activation-atlas.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Chalmers, Ian MacColl, and Marek Bell. 2003. Seamful design: Showing the seams in wearable computing. In 2003 IEE Eurowearable. IET, 11\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Zhifa Chen, Yichen Lu, Mika\u00a0P. Nieminen, and Andr\u00e9s Lucero. 2020. Creating a Chatbot for and with Migrants: Chatbot Personality Drives Co-Design Activities. Association for Computing Machinery, New York, NY, USA, 219\u2013230. https://doi.org/10.1145/3357236.3395495",
+      "doi": "10.1145/3357236.3395495"
+    },
+    {
+      "text": "Justin Cranshaw, Emad Elwany, Todd Newman, Rafal Kocielnik, Bowen Yu, Sandeep Soni, Jaime Teevan, and Andr\u00e9s Monroy-Hern\u00e1ndez. 2017. Calendar. help: Designing a workflow-based scheduling agent with humans in the loop. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, 2382\u20132393.",
+      "doi": "10.1145/3025453.3025780"
+    },
+    {
+      "text": "Hai Dang, Lukas Mecke, Florian Lehmann, Sven Goller, and Daniel Buschek. 2022. How to Prompt? Opportunities and Challenges of Zero-and Few-Shot Learning for Human-AI Interaction in Creative Applications of Generative Models. arXiv preprint arXiv:2209.01390(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Ning Ding, Shengding Hu, Weilin Zhao, Yulin Chen, Zhiyuan Liu, Hai-Tao Zheng, and Maosong Sun. 2021. Openprompt: An open-source framework for prompt-learning. arXiv preprint arXiv:2111.01998(2021).",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0J Dudley and Per\u00a0Ola Kristensson. 2018. A review of user interface design for interactive machine learning. ACM Transactions on Interactive Intelligent Systems (TiiS) 8, 2(2018), 1\u201337.",
+      "doi": "10.1145/3185517"
+    },
+    {
+      "text": "Glen Dunlap, Rose Iovannone, Kelly\u00a0J Wilson, Donald\u00a0K Kincaid, and Phillip Strain. 2010. Prevent-teach-reinforce: A standardized model of school-based behavioral intervention. Journal of Positive Behavior Interventions 12, 1 (2010), 9\u201322.",
+      "doi": ""
+    },
+    {
+      "text": "Noyan Evirgen and Xiang\u2019Anthony\u2019 Chen. 2022. GANzilla: User-Driven Direction Discovery in Generative Adversarial Networks. In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology. 1\u201310.",
+      "doi": "10.1145/3526113.3545638"
+    },
+    {
+      "text": "Laura Faulkner. 2003. Beyond the five-user assumption: Benefits of increased sample sizes in usability testing. Behavior Research Methods, Instruments, & Computers 35 (2003), 379\u2013383.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel Gehman, Suchin Gururangan, Maarten Sap, Yejin Choi, and Noah\u00a0A. Smith. 2020. RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models. In Findings of the Association for Computational Linguistics: EMNLP 2020. Association for Computational Linguistics, Online, 3356\u20133369.",
+      "doi": ""
+    },
+    {
+      "text": "Marti\u00a0A Hearst and Jan\u00a0O Pedersen. 1996. Reexamining the cluster hypothesis: Scatter/gather on retrieval results. In Proceedings of the 19th annual international ACM SIGIR conference on Research and development in information retrieval. 76\u201384.",
+      "doi": "10.1145/243199.243216"
+    },
+    {
+      "text": "Sarah Inman and David Ribes. 2019. \"Beautiful Seams\": Strategic Revelations and Concealments. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300508",
+      "doi": "10.1145/3290605.3300508"
+    },
+    {
+      "text": "Ellen Jiang, Edwin Toh, Alejandra Molina, Aaron Donsbach, Carrie\u00a0J Cai, and Michael Terry. 2021. GenLine and GenForm: Two Tools for Interacting with Generative Language Models in a Code Editor. In The Adjunct Publication of the 34th Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201921). Association for Computing Machinery, New York, NY, USA, 145\u2013147. https://doi.org/10.1145/3474349.3480209",
+      "doi": "10.1145/3474349.3480209"
+    },
+    {
+      "text": "Bogyeong Kim, Jaehoon Pyun, and Woohun Lee. 2018. Enhancing Storytelling Experience with Story-Aware Interactive Puppet. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI EA \u201918). ACM, New York, NY, USA, Article LBW076, 6\u00a0pages. https://doi.org/10.1145/3170427.3188515",
+      "doi": "10.1145/3170427.3188515"
+    },
+    {
+      "text": "Scott\u00a0R. Klemmer, Anoop\u00a0K. Sinha, Jack Chen, James\u00a0A. Landay, Nadeem Aboobaker, and Annie Wang. 2000. Suede: A Wizard of Oz Prototyping Tool for Speech User Interfaces. In Proceedings of the 13th Annual ACM Symposium on User Interface Software and Technology (San Diego, California, USA) (UIST \u201900). ACM, New York, NY, USA, 1\u201310. https://doi.org/10.1145/354401.354406",
+      "doi": "10.1145/354401.354406"
+    },
+    {
+      "text": "Amy\u00a0J. Ko, Robin Abraham, Laura Beckwith, Alan Blackwell, Margaret Burnett, Martin Erwig, Chris Scaffidi, Joseph Lawrance, Henry Lieberman, Brad Myers, Mary\u00a0Beth Rosson, Gregg Rothermel, Mary Shaw, and Susan Wiedenbeck. 2011. The State of the Art in End-User Software Engineering. ACM Comput. Surv. 43, 3, Article 21 (apr 2011), 44\u00a0pages. https://doi.org/10.1145/1922649.1922658",
+      "doi": "10.1145/1922649.1922658"
+    },
+    {
+      "text": "Amy\u00a0J. Ko, Brad\u00a0A. Myers, and Htet\u00a0Htet Aung. 2004. Six Learning Barriers in End-User Programming Systems. In Proceedings of the 2004 IEEE Symposium on Visual Languages - Human Centric Computing(VLHCC \u201904). IEEE Computer Society, USA, 199\u2013206. https://doi.org/10.1109/VLHCC.2004.47",
+      "doi": "10.1109/VLHCC.2004.47"
+    },
+    {
+      "text": "Himabindu Lakkaraju, Dylan Slack, Yuxin Chen, Chenhao Tan, and Sameer Singh. 2022. Rethinking Explainability as a Dialogue: A Practitioner\u2019s Perspective. arXiv preprint arXiv:2202.01875(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Q\u00a0Vera Liao, Daniel Gruen, and Sarah Miller. 2020. Questioning the AI: informing design practices for explainable AI user experiences. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3313831.3376590"
+    },
+    {
+      "text": "Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and Graham Neubig. 2021. Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing. arxiv:2107.13586\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Vivian Liu and Lydia\u00a0B. Chilton. 2021. Design Guidelines for Prompt Engineering Text-to-Image Generative Models. https://doi.org/10.48550/ARXIV.2109.06977",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0L Logan\u00a0IV, Ivana Bala\u017eevi\u0107, Eric Wallace, Fabio Petroni, Sameer Singh, and Sebastian Riedel. 2021. Cutting down on prompts and parameters: Simple few-shot learning with language models. arXiv preprint arXiv:2106.13353(2021).",
+      "doi": ""
+    },
+    {
+      "text": "J. Marks, B. Andalman, P.\u00a0A. Beardsley, W. Freeman, S. Gibson, J. Hodgins, T. Kang, B. Mirtich, H. Pfister, W. Ruml, K. Ryall, J. Seims, and S. Shieber. 1997. Design Galleries: A General Approach to Setting Parameters for Computer Graphics and Animation. In Proceedings of the 24th Annual Conference on Computer Graphics and Interactive Techniques(SIGGRAPH \u201997). ACM Press/Addison-Wesley Publishing Co., USA, 389\u2013400. https://doi.org/10.1145/258734.258887",
+      "doi": "10.1145/258734.258887"
+    },
+    {
+      "text": "Bill Moggridge. 2006. Designing Interactions. The MIT Press.",
+      "doi": "10.5555/1196347"
+    },
+    {
+      "text": "Clifford Nass, Jonathan Steuer, and Ellen\u00a0R Tauber. 1994. Computers are social actors. In Proceedings of the SIGCHI conference on Human factors in computing systems. 72\u201378.",
+      "doi": "10.1145/191666.191703"
+    },
+    {
+      "text": "OpenAI. 2022. Examples - OpenAI API. https://beta.openai.com/examples",
+      "doi": ""
+    },
+    {
+      "text": "Guy Parsons. 2022. The DALL\u00b7E 2 Prompt Book. https://dallery.gallery/the-dalle-2-prompt-book/",
+      "doi": ""
+    },
+    {
+      "text": "Ben Pietrzak, Ben Swanson, Kory Mathewson, Monica Dinculescu, and Sherol Chen. 2021. Story Centaur: Large Language Model Few Shot Learning as a Creative Writing Tool.",
+      "doi": ""
+    },
+    {
+      "text": "Catherine Pricilla, Dessi\u00a0Puji Lestari, and Dody Dharma. 2018. Designing interaction for chatbot-based conversational commerce with user-centered design. In 2018 5th International Conference on Advanced Informatics: Concept Theory and Applications (ICAICTA). IEEE, 244\u2013249.",
+      "doi": ""
+    },
+    {
+      "text": "Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, and Ilya Sutskever. 2021. Zero-shot text-to-image generation. In International Conference on Machine Learning. PMLR, 8821\u20138831.",
+      "doi": ""
+    },
+    {
+      "text": "Kevin Roose. 2022. The Brilliance and Weirdness of ChatGPT. The New York Times (2022). https://www.nytimes.com/2022/12/05/technology/chatgpt-ai-twitter.html",
+      "doi": ""
+    },
+    {
+      "text": "Victor Sanh, Albert Webson, Colin Raffel, Stephen\u00a0H. Bach, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven\u00a0Le Scao, Arun Raja, Manan Dey, M\u00a0Saiful Bari, Canwen Xu, Urmish Thakker, Shanya\u00a0Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng\u00a0Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason\u00a0Alan Fries, Ryan Teehan, Tali Bers, Stella Biderman, Leo Gao, Thomas Wolf, and Alexander\u00a0M. Rush. 2021. Multitask Prompted Training Enables Zero-Shot Task Generalization. https://doi.org/10.48550/ARXIV.2110.08207",
+      "doi": ""
+    },
+    {
+      "text": "Jeff Sauro and James\u00a0R Lewis. 2016. Quantifying the user experience: Practical statistics for user research. Morgan Kaufmann.",
+      "doi": ""
+    },
+    {
+      "text": "Lisa Stifelman, Adam Elman, and Anne Sullivan. 2013. Designing Natural Speech Interactions for the Living Room. In CHI \u201913 Extended Abstracts on Human Factors in Computing Systems (Paris, France) (CHI EA \u201913). ACM, New York, NY, USA, 1215\u20131220. https://doi.org/10.1145/2468356.2468574",
+      "doi": "10.1145/2468356.2468574"
+    },
+    {
+      "text": "Hendrik Strobelt, Albert Webson, Victor Sanh, Benjamin Hoover, Johanna Beyer, Hanspeter Pfister, and Alexander\u00a0M Rush. 2022. Interactive and Visual Prompt Engineering for Ad-hoc Task Adaptation with Large Language Models. arXiv preprint arXiv:2208.07852(2022).",
+      "doi": ""
+    },
+    {
+      "text": "M. Swan. 1927. How You Can Write Plays: A Practical Guide-book. S. French. https://books.google.com/books?id=UyYrAAAAIAAJ",
+      "doi": ""
+    },
+    {
+      "text": "Mark Weiser. 1999. The Computer for the 21st Century. SIGMOBILE Mob. Comput. Commun. Rev. 3, 3 (jul 1999), 3\u201311. https://doi.org/10.1145/329124.329126",
+      "doi": "10.1145/329124.329126"
+    },
+    {
+      "text": "Tongshuang Wu, Ellen Jiang, Aaron Donsbach, Jeff Gray, Alejandra Molina, Michael Terry, and Carrie\u00a0J Cai. 2022. PromptChainer: Chaining Large Language Model Prompts through Visual Programming. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems.",
+      "doi": "10.1145/3491101.3519729"
+    },
+    {
+      "text": "Tongshuang Wu, Michael Terry, and Carrie\u00a0J Cai. 2022. AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts. In Proceedings of the 2022 CHI conference on human factors in computing systems.",
+      "doi": "10.1145/3491102.3517582"
+    },
+    {
+      "text": "Qian Yang, Jina Suh, Nan-Chen Chen, and Gonzalo Ramos. 2018. Grounding Interactive Machine Learning Tool Design in How Non-Experts Actually Build Models. In Proceedings of the 2018 Designing Interactive Systems Conference (Hong Kong, China) (DIS \u201918). Association for Computing Machinery, New York, NY, USA, 573\u2013584. https://doi.org/10.1145/3196709.3196729",
+      "doi": "10.1145/3196709.3196729"
+    }
+  ]
+}

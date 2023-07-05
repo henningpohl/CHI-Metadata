@@ -1,0 +1,589 @@
+{
+  "doi": "10.1145/3491102.3517470",
+  "title": "From Who You Know to What You Read: Augmenting Scientific Recommendations with Implicit Social Networks",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-23",
+  "year": 2022,
+  "badges": [],
+  "abstract": "The ever-increasing pace of scientific publication necessitates methods for quickly identifying relevant papers. While neural recommenders trained on user interests can help, they still result in long, monotonous lists of suggested papers. To improve the discovery experience we introduce multiple new methods for augmenting recommendations with textual relevance messages that highlight knowledge-graph connections between recommended papers and a user\u2019s publication and interaction history. We explore associations mediated by author entities and those using citations alone. In a large-scale, real-world study, we show how our approach significantly increases engagement\u2014and future engagement when mediated by authors\u2014without introducing bias towards highly-cited authors. To expand message coverage for users with less publication or interaction history, we develop a novel method that highlights connections with proxy authors of interest to users and evaluate it in a controlled lab study. Finally, we synthesize design implications for future graph-based messages.",
+  "authors": [
+    {
+      "name": "Hyeonsu B Kang",
+      "institution": "Human-Computer Interaction Institute, Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660239236",
+      "orcid": "0000-0002-1990-2050"
+    },
+    {
+      "name": "Rafal Kocielnik",
+      "institution": "Human Centered Design & Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81442614641",
+      "orcid": "missing"
+    },
+    {
+      "name": "Andrew Head",
+      "institution": "Semantic Scholar, Allen Institute for AI, United States",
+      "img": "/do/10.1145/contrib-99658703835/rel-imgonly/img_13703.jpg",
+      "acmid": "99658703835",
+      "orcid": "0000-0002-1523-3347"
+    },
+    {
+      "name": "Jiangjiang Yang",
+      "institution": "Semantic Scholar, Allen Institute of AI, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660235372",
+      "orcid": "missing"
+    },
+    {
+      "name": "Matt Latzke",
+      "institution": "Semantic Scholar, Allen Institute for AI, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659893734",
+      "orcid": "0000-0002-9984-1277"
+    },
+    {
+      "name": "Aniket Kittur",
+      "institution": "Human Computer Interaction Institute, Carnegie Mellon University, United States",
+      "img": "/do/10.1145/contrib-81350583094/rel-imgonly/kittur_photo.jpg",
+      "acmid": "81350583094",
+      "orcid": "missing"
+    },
+    {
+      "name": "Daniel S Weld",
+      "institution": "Semantic Scholar, Allen Institute for Artificial Intelligence, United States and Paul G. Allen School of Computer Science & Engineering, University of Washington, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659376950",
+      "orcid": "0000-0002-3255-0109"
+    },
+    {
+      "name": "Doug Downey",
+      "institution": "Allen Institute for Artificial Intelligence, United States and Computer Science, Northwestern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100228264",
+      "orcid": "0000-0002-4737-8444"
+    },
+    {
+      "name": "Jonathan Bragg",
+      "institution": "Allen Institute for Artificial Intelligence, United States",
+      "img": "/do/10.1145/contrib-81456631418/rel-imgonly/headshot.jpeg",
+      "acmid": "81456631418",
+      "orcid": "0000-0001-5460-9047"
+    }
+  ],
+  "references": [
+    {
+      "text": "Alison Abbott, David Cyranoski, Nicola Jones, Brendan Maher, Quirin Schiermeier, and Richard Van\u00a0Noorden. 2010. Metrics: Do metrics matter?Nature News 465, 7300 (2010), 860\u2013862.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0E Acuna, Stefano Allesina, and Konrad\u00a0P Kording. 2012. Predicting scientific success. Nature 489, 7415 (2012), 201\u2013202.",
+      "doi": ""
+    },
+    {
+      "text": "Chunrong Ai and Edward\u00a0C Norton. 2003. Interaction terms in logit and probit models. Economics letters 80, 1 (2003), 123\u2013129.",
+      "doi": ""
+    },
+    {
+      "text": "Icek Ajzen. 1991. The theory of planned behavior. Organizational behavior and human decision processes 50, 2 (1991), 179\u2013211.",
+      "doi": ""
+    },
+    {
+      "text": "Dag\u00a0W Aksnes and Arie Rip. 2009. Researchers\u2019 perceptions of citations. Research Policy 38, 6 (2009), 895\u2013905.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0David Allison. 1999. Multiple Regression: A Primer (Pine Forge Press Series in Research Methods and Statistics). Unspecified.",
+      "doi": ""
+    },
+    {
+      "text": "Reid Andersen, Christian Borgs, Jennifer Chayes, Uriel Feige, Abraham Flaxman, Adam Kalai, Vahab Mirrokni, and Moshe Tennenholtz. 2008. Trust-based recommendation systems: an axiomatic approach. In Proceedings of the 17th international conference on World Wide Web. 199\u2013208.",
+      "doi": "10.1145/1367497.1367525"
+    },
+    {
+      "text": "Ashton Anderson, Lucas Maystre, Ian Anderson, Rishabh Mehrotra, and Mounia Lalmas. 2020. Algorithmic effects on the diversity of consumption on spotify. In Proceedings of The Web Conference 2020. 2155\u20132165.",
+      "doi": "10.1145/3366423.3380281"
+    },
+    {
+      "text": "Andy Barrett. 2005. The information-seeking habits of graduate student researchers in the humanities. The Journal of Academic Librarianship 31, 4 (2005), 324\u2013331.",
+      "doi": ""
+    },
+    {
+      "text": "Douglas Bates, Martin M\u00e4chler, Ben Bolker, and Steve Walker. 2014. Fitting linear mixed-effects models using lme4. arXiv preprint arXiv:1406.5823(2014).",
+      "doi": ""
+    },
+    {
+      "text": "Marcia\u00a0J Bates. 2002. Speculations on browsing, directed searching, and linking in relation to the Bradford distribution. In Emerging frameworks and methods: Proceedings of the Fourth International Conference on Conceptions of Library and Information Science (CoLIS 4). Libraries Unlimited Greenwood Village, CO, 137\u2013150.",
+      "doi": ""
+    },
+    {
+      "text": "Charles Bazerman. 1985. Physicists reading physics: Schema-laden purposes and purpose-laden schema. Written communication 2, 1 (1985), 3\u201323.",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas\u00a0J Belkin and Alina Vickery. 1985. Interaction in information systems: A review of research from document retrieval to knowledge-based systems.Number 025.04 BEL. CIMMYT.",
+      "doi": ""
+    },
+    {
+      "text": "Adar Ben-Eliyahu, Debra Moore, Rena Dorph, and Christian\u00a0D Schunn. 2018. Investigating the multidimensionality of engagement: Affective, behavioral, and cognitive engagement across science activities and contexts. Contemporary Educational Psychology 53 (2018), 87\u2013105.",
+      "doi": ""
+    },
+    {
+      "text": "Steven Bethard and Dan Jurafsky. 2010. Who should I cite: learning literature search models from citation behavior. In Proceedings of the 19th ACM international conference on Information and knowledge management. 609\u2013618.",
+      "doi": "10.1145/1871437.1871517"
+    },
+    {
+      "text": "Mustafa Bilgic and Raymond\u00a0J Mooney. 2005. w. In Beyond personalization workshop, IUI, Vol.\u00a05. 153.",
+      "doi": ""
+    },
+    {
+      "text": "Thijs Bol, Mathijs de Vaan, and Arnout van\u00a0de Rijt. 2018. The Matthew effect in science funding. Proceedings of the National Academy of Sciences 115, 19(2018), 4887\u20134890.",
+      "doi": ""
+    },
+    {
+      "text": "Lutz Bornmann and R\u00fcdiger Mutz. 2015. Growth rates of modern science: A bibliometric analysis based on the number of publications and cited references. Journal of the Association for Information Science and Technology 66, 11(2015), 2215\u20132222.",
+      "doi": "10.1002/asi.23329"
+    },
+    {
+      "text": "Richard\u00a0E Boyatzis. 1998. Transforming qualitative information: Thematic analysis and code development. sage.",
+      "doi": ""
+    },
+    {
+      "text": "Corinna Breitinger, Patrick Wortner, Bela Gipp, and Harald Reiterer. 2019. \u2018Too Late to Collaborate\u2019: Challenges to the Discovery of in-Progress Research. In 2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL). IEEE, 134\u2013137.",
+      "doi": "10.1109/JCDL.2019.00028"
+    },
+    {
+      "text": "Donald\u00a0O Case and Lisa\u00a0M Given. 2016. Looking for information: A survey of research on information seeking, needs, and behavior. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Rose Catherine and William Cohen. 2016. Personalized recommendations using knowledge graphs: A probabilistic logic programming approach. In Proceedings of the 10th ACM conference on recommender systems. 325\u2013332.",
+      "doi": "10.1145/2959100.2959131"
+    },
+    {
+      "text": "Sneha Chaudhari, Amos Azaria, and Tom Mitchell. 2017. An entity graph based recommender system. AI Communications 30, 2 (2017), 141\u2013149.",
+      "doi": "10.3233/AIC-170728"
+    },
+    {
+      "text": "Jilin Chen, Rowan Nairn, Les Nelson, Michael Bernstein, and Ed Chi. 2010. Short and tweet: experiments on recommending content from information streams. In Proceedings of the SIGCHI conference on human factors in computing systems. 1185\u20131194.",
+      "doi": "10.1145/1753326.1753503"
+    },
+    {
+      "text": "Robert\u00a0B Cialdini. 1987. Influence. Vol.\u00a03. A. Michel Port Harcourt.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0B Cialdini and Noah\u00a0J Goldstein. 2004. Social influence: Compliance and conformity. Annu. Rev. Psychol. 55(2004), 591\u2013621.",
+      "doi": ""
+    },
+    {
+      "text": "Avital Cnaan, Nan\u00a0M Laird, and Peter Slasor. 1997. Using the general linear mixed model to analyse unbalanced repeated measures and longitudinal data. Statistics in medicine 16, 20 (1997), 2349\u20132380.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Cole and Jonathan\u00a0R Cole. 1968. Visibility and the structural bases of awareness of scientific research. American sociological review(1968), 397\u2013413.",
+      "doi": ""
+    },
+    {
+      "text": "Lucas Colusso, Ridley Jones, Sean\u00a0A Munson, and Gary Hsieh. 2019. A translational science model for HCI. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300231"
+    },
+    {
+      "text": "Lisa\u00a0M Covi. 1999. Material mastery: situating digital library use in university research practices. Information Processing & Management 35, 3 (1999), 293\u2013316.",
+      "doi": "10.1016/S0306-4573%2898%2900063-6"
+    },
+    {
+      "text": "Diana Crane. 1965. Scientists at major and minor universities: A study of productivity and recognition. American sociological review(1965), 699\u2013714.",
+      "doi": ""
+    },
+    {
+      "text": "Mihaly Csikszentmihalyi and Mihaly Csikzentmihaly. 1990. Flow: The psychology of optimal experience. Vol.\u00a01990. Harper & Row New York.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Cudeck. 1996. Mixed-effects models in the study of individual differences with repeated measures data. Multivariate behavioral research 31, 3 (1996), 371\u2013403.",
+      "doi": ""
+    },
+    {
+      "text": "Beant Dhillon, Peter Banach, Rafal Kocielnik, Jorge\u00a0Peregrin Emparanza, Ioannis Politis, A R\u0105czewska, and Panos Markopoulos. 2011. Visual fidelity of video prototypes and user feedback: a case study. In Proceedings of HCI 2011 The 25th BCS Conference on Human Computer Interaction 25. 139\u2013144.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0A DiPrete and Gregory\u00a0M Eirich. 2006. Cumulative advantage as a mechanism for inequality: A review of theoretical and empirical developments. Annu. Rev. Sociol. 32(2006), 271\u2013297.",
+      "doi": ""
+    },
+    {
+      "text": "Catherine\u00a0A Durham and Diego Andrade. 2005. Health vs. environmental motivation in organic preferences and purchases. Technical Report.",
+      "doi": ""
+    },
+    {
+      "text": "Zhichao Fang, Rodrigo Costas, Wencan Tian, Xianwen Wang, and Paul Wouters. 2021. How is science clicked on Twitter? Click metrics for Bitly short links to scientific publications. Journal of the Association for Information Science and Technology 72, 7(2021), 918\u2013932.",
+      "doi": "10.1002/asi.24458"
+    },
+    {
+      "text": "Michael Fernandes, Logan Walls, Sean Munson, Jessica Hullman, and Matthew Kay. 2018. Uncertainty displays using quantile dotplots or cdfs improve transit decision-making. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3173574.3173718"
+    },
+    {
+      "text": "Adam\u00a0M Grant and Barry Schwartz. 2011. Too much of a good thing: The challenge and opportunity of the inverted U. Perspectives on psychological science 6, 1 (2011), 61\u201376.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Grau, Babak Naderi, and Juho Kim. 2018. Personalized Motivation-supportive Messages for Increasing Participation in Crowd-civic Systems. Proceedings of the ACM on Human-Computer Interaction 2, CSCW(2018), 1\u201322.",
+      "doi": "10.1145/3274329"
+    },
+    {
+      "text": "Ido Guy, Michal Jacovi, Elad Shahar, Noga Meshulam, Vladimir Soroka, and Stephen Farrell. 2008. Harvesting with SONAR: the value of aggregating social network information. In Proceedings of the SIGCHI conference on human factors in computing systems. 1017\u20131026.",
+      "doi": "10.1145/1357054.1357212"
+    },
+    {
+      "text": "Ido Guy, Naama Zwerdling, David Carmel, Inbal Ronen, Erel Uziel, Sivan Yogev, and Shila Ofek-Koifman. 2009. Personalized recommendation of social software items based on social relations. In Proceedings of the third ACM conference on Recommender systems. 53\u201360.",
+      "doi": "10.1145/1639714.1639725"
+    },
+    {
+      "text": "Saeed-Ul Hassan, Anam Akram, and Peter Haddawy. 2017. Identifying important citations using contextual information from full text. In 2017 ACM/IEEE Joint Conference on Digital Libraries (JCDL). IEEE, 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Xiangnan He, Tao Chen, Min-Yen Kan, and Xiao Chen. 2015. Trirank: Review-aware explainable recommendation by modeling aspects. In Proceedings of the 24th ACM International on Conference on Information and Knowledge Management. 1661\u20131670.",
+      "doi": "10.1145/2806416.2806504"
+    },
+    {
+      "text": "Andrew Head, Kyle Lo, Dongyeop Kang, Raymond Fok, Sam Skjonsberg, Daniel\u00a0S Weld, and Marti\u00a0A Hearst. 2021. Augmenting scientific papers with just-in-time, position-sensitive definitions of terms and symbols. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201318.",
+      "doi": "10.1145/3411764.3445648"
+    },
+    {
+      "text": "Marti\u00a0A Hearst, Emily Pedersen, Lekha Patil, Elsie Lee, Paul Laskowski, and Steven Franconeri. 2019. An evaluation of semantically grouped word cloud designs. IEEE transactions on visualization and computer graphics 26, 9(2019), 2748\u20132761.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Hemp. 2009. Death by information overload.Harvard business review 87, 9 (2009), 82\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Monika Henzinger, Jacob Su\u00f1ol, and Ingmar Weber. 2010. The stability of the h-index. Scientometrics 84, 2 (2010), 465\u2013479.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan\u00a0L Herlocker, Joseph\u00a0A Konstan, and John Riedl. 2000. Explaining collaborative filtering recommendations. In Proceedings of the 2000 ACM conference on Computer supported cooperative work. 241\u2013250.",
+      "doi": "10.1145/358916.358995"
+    },
+    {
+      "text": "Diana Hicks, Paul Wouters, Ludo Waltman, Sarah De\u00a0Rijcke, and Ismael Rafols. 2015. Bibliometrics: the Leiden Manifesto for research metrics. Nature News 520, 7548 (2015), 429.",
+      "doi": ""
+    },
+    {
+      "text": "Terje Hillesund. 2010. Digital reading spaces: How expert readers handle books, the Web and electronic paper. (2010).",
+      "doi": ""
+    },
+    {
+      "text": "Jorge\u00a0E Hirsch. 2005. An index to quantify an individual\u2019s scientific research output. Proceedings of the National academy of Sciences 102, 46(2005), 16569\u201316572.",
+      "doi": ""
+    },
+    {
+      "text": "Jorge\u00a0E Hirsch. 2007. Does the h index have predictive power?Proceedings of the National Academy of Sciences 104, 49(2007), 19193\u201319198.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0D Hole. 2008. Email overload in academia. Rochester Institute of Technology.",
+      "doi": ""
+    },
+    {
+      "text": "Kim Holmberg and Mike Thelwall. 2014. Disciplinary differences in Twitter scholarly communication. Scientometrics 101, 2 (2014), 1027\u20131042.",
+      "doi": "10.1007/s11192-014-1229-3"
+    },
+    {
+      "text": "Gary Hsieh and Rafa\u0142 Kocielnik. 2016. You get who you pay for: The impact of incentives on participation bias. In Proceedings of the 19th ACM conference on computer-supported cooperative work & social computing. 823\u2013835.",
+      "doi": "10.1145/2818048.2819936"
+    },
+    {
+      "text": "Jinkyu Jang and Jinwoo Kim. 2020. Healthier life with digital companions: Effects of reflection-level and statement-type of messages on behavior change via a perceived companion. International Journal of Human\u2013Computer Interaction 36, 2(2020), 172\u2013189.",
+      "doi": ""
+    },
+    {
+      "text": "Haofeng Jia and Erik Saule. 2017. An analysis of citation recommender systems: Beyond the obvious. In Proceedings of the 2017 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining 2017. 216\u2013223.",
+      "doi": "10.1145/3110025.3110150"
+    },
+    {
+      "text": "Arif\u00a0E Jinha. 2010. Article 50 million: an estimate of the number of scholarly articles in existence. Learned Publishing 23, 3 (2010), 258\u2013263.",
+      "doi": ""
+    },
+    {
+      "text": "Clay\u00a0A Johnson. 2015. The information diet: A case for conscious comsumption. \u201d O\u2019Reilly Media, Inc.\u201d.",
+      "doi": ""
+    },
+    {
+      "text": "Ron Johnston, Kelvyn Jones, and David Manley. 2018. Confounding and collinearity in regression analysis: a cautionary tale and an alternative procedure, illustrated by studies of British voting behaviour. Quality & quantity 52, 4 (2018), 1957\u20131976.",
+      "doi": ""
+    },
+    {
+      "text": "Timothy\u00a0A Judge, Daniel\u00a0M Cable, Amy\u00a0E Colbert, and Sara\u00a0L Rynes. 2007. What causes a management article to be cited\u2014article, author, or journal?Academy of management journal 50, 3 (2007), 491\u2013506.",
+      "doi": ""
+    },
+    {
+      "text": "Samara Klar, Yanna Krupnikov, John\u00a0Barry Ryan, Kathleen Searles, and Yotam Shmargad. 2020. Using social media to promote academic research: Identifying the benefits of twitter for sharing academic work. PloS one 15, 4 (2020), e0229446.",
+      "doi": ""
+    },
+    {
+      "text": "Rafal Kocielnik and Gary Hsieh. 2017. Send me a different message: utilizing cognitive space to create engaging message triggers. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing. 2193\u20132207.",
+      "doi": "10.1145/2998181.2998324"
+    },
+    {
+      "text": "Esther Landhuis. 2016. Scientific literature: Information overload. Nature 535, 7612 (2016), 457\u2013458.",
+      "doi": ""
+    },
+    {
+      "text": "Vincent Larivi\u00e8re and Yves Gingras. 2010. The impact factor\u2019s Matthew Effect: A natural experiment in bibliometrics. Journal of the American Society for Information Science and Technology 61, 2 (2010), 424\u2013427.",
+      "doi": "10.5555/1711713.1711719"
+    },
+    {
+      "text": "Jure Leskovec, Ajit Singh, and Jon Kleinberg. 2006. Patterns of influence in a recommendation network. In Pacific-Asia Conference on Knowledge Discovery and Data Mining. Springer, 380\u2013389.",
+      "doi": "10.1007/11731139_44"
+    },
+    {
+      "text": "Mary\u00a0J Lindstrom and Douglas\u00a0M Bates. 1990. Nonlinear mixed effects models for repeated measures data. Biometrics (1990), 673\u2013687.",
+      "doi": ""
+    },
+    {
+      "text": "Bin Liu and Zheng Yuan. 2010. Incorporating social networks and user opinions for collaborative recommendation: local trust network based method. In Proceedings of the workshop on context-aware movie recommendation. 53\u201356.",
+      "doi": "10.1145/1869652.1869661"
+    },
+    {
+      "text": "Christopher Lueg. 1997. Social filtering and social reality. In Proceedings of the 5th DELOS Workshop on Filtering and Collaborative Filtering. ERCIM Press, 77\u201381.",
+      "doi": ""
+    },
+    {
+      "text": "Hao Ma, Irwin King, and Michael\u00a0R Lyu. 2009. Learning to recommend with social trust ensemble. In Proceedings of the 32nd international ACM SIGIR conference on Research and development in information retrieval. 203\u2013210.",
+      "doi": "10.1145/1571941.1571978"
+    },
+    {
+      "text": "Brian\u00a0James McInnis, Elizabeth\u00a0Lindley Murnane, Dmitry Epstein, Dan Cosley, and Gilly Leshed. 2016. One and Done: Factors affecting one-time contributors to ad-hoc online communities. In Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing. 609\u2013623.",
+      "doi": "10.1145/2818048.2820075"
+    },
+    {
+      "text": "Marcia McNutt. 2014. The measure of research merit.",
+      "doi": ""
+    },
+    {
+      "text": "Miller McPherson, Lynn Smith-Lovin, and James\u00a0M Cook. 2001. Birds of a feather: Homophily in social networks. Annual review of sociology 27, 1 (2001), 415\u2013444.",
+      "doi": ""
+    },
+    {
+      "text": "Edward\u00a0F McQuarrie, Jessica Miller, and Barbara\u00a0J Phillips. 2013. The megaphone effect: Taste and audience in fashion blogging. Journal of Consumer Research 40, 1 (2013), 136\u2013158.",
+      "doi": ""
+    },
+    {
+      "text": "Marshall\u00a0H Medoff. 2006. Evidence of a Harvard and Chicago Matthew effect. Journal of Economic Methodology 13, 4 (2006), 485\u2013506.",
+      "doi": ""
+    },
+    {
+      "text": "Anamika Megwalu. 2015. Academic social networking: a case study on users\u2019 information behavior. In Current Issues in Libraries, Information Science and Related Fields. Emerald Group Publishing Limited.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0K Merton. 1968. The Matthew effect in science: The reward and communication systems of science are considered. Science 159, 3810 (1968), 56\u201363.",
+      "doi": ""
+    },
+    {
+      "text": "Breed\u00a0D Meyer. 1995. Natural and quasi-experiments in economics. Journal of business & economic statistics 13, 2 (1995), 151\u2013161.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0G Miller. 1960. Information input overload and psychopathology. American journal of psychiatry 116, 8 (1960), 695\u2013704.",
+      "doi": ""
+    },
+    {
+      "text": "Ehsan Mohammadi, Mike Thelwall, Mary Kwasny, and Kristi\u00a0L Holmes. 2018. Academic information on Twitter: A user survey. PloS one 13, 5 (2018), e0197265.",
+      "doi": ""
+    },
+    {
+      "text": "Francesco Montani, Christian Vandenberghe, Anis Khedhaouria, and Fran\u00e7ois Courcy. 2020. Examining the inverted U-shaped relationship between workload and innovative work behavior: The role of work engagement and mindfulness. Human Relations 73, 1 (2020), 59\u201393.",
+      "doi": ""
+    },
+    {
+      "text": "Frederick Muench and Amit Baumel. 2017. More than a text message: dismantling digital triggers to curate behavior change in patient-centered health interventions. Journal of medical Internet research 19, 5 (2017), e147.",
+      "doi": ""
+    },
+    {
+      "text": "David Nicholas, Peter Williams, Ian Rowlands, and Hamid\u00a0R Jamali. 2010. Researchers\u2019e-journal use and information seeking behaviour. Journal of Information Science 36, 4 (2010), 494\u2013516.",
+      "doi": "10.1177/0165551510371883"
+    },
+    {
+      "text": "Richar\u00a0Van Noorden. 2014. Global scientific output doubles every nine years. http://blogs.nature.com/news/2014/05/global-scientific-output-doubles-every-nine-years.html",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0M O\u2019Brien. 2017. Dropping highly collinear variables from a model: why it typically is not a good idea. Social Science Quarterly 98, 1 (2017), 360\u2013375.",
+      "doi": ""
+    },
+    {
+      "text": "Vito\u00a0Claudio Ostuni, Tommaso Di\u00a0Noia, Eugenio Di\u00a0Sciascio, and Roberto Mirizzi. 2013. Top-n recommendations from implicit feedback leveraging linked open data. In Proceedings of the 7th ACM conference on Recommender systems. 85\u201392.",
+      "doi": "10.1145/2507157.2507172"
+    },
+    {
+      "text": "Elisabeth Pain. 2016. How to keep up with the scientific literature. Science Careers 30(2016).",
+      "doi": ""
+    },
+    {
+      "text": "Carole\u00a0L Palmer. 2005. Scholarly work and the shaping of digital access. Journal of the American Society for Information Science and Technology 56, 11 (2005), 1140\u20131153.",
+      "doi": "10.5555/1085002.1085006"
+    },
+    {
+      "text": "Carole\u00a0L Palmer, Lauren\u00a0C Teffeau, and Carrie\u00a0M Pirmann. 2009. Scholarly information practices in the online environment. Report commissioned by OCLC Research. Published online at: www. oclc. org/programs/publications/reports/2009-02.pdf (2009).",
+      "doi": ""
+    },
+    {
+      "text": "John Panaretos and Chrisovaladis Malesios. 2009. Assessing scientific research performance and impact with single indices. Scientometrics 81, 3 (2009), 635\u2013670.",
+      "doi": ""
+    },
+    {
+      "text": "Saverio Perugini, Marcos\u00a0Andr\u00e9 Gon\u00e7alves, and Edward\u00a0A Fox. 2004. Recommender systems research: A connection-centric survey. Journal of Intelligent Information Systems 23, 2 (2004), 107\u2013143.",
+      "doi": "10.1023/B%3AJIIS.0000039532.05533.99"
+    },
+    {
+      "text": "Peter Pirolli and Stuart Card. 1999. Information foraging.Psychological review 106, 4 (1999), 643.",
+      "doi": ""
+    },
+    {
+      "text": "Derek de\u00a0Solla Price. 1976. A general theory of bibliometric and other cumulative advantage processes. Journal of the American society for Information science 27, 5(1976), 292\u2013306.",
+      "doi": ""
+    },
+    {
+      "text": "Marie\u00a0L Radford, Vanessa Kitzie, Stephanie Mikitish, Diana Floegel, Gary\u00a0P Radford, and Lynn\u00a0Silipigni Connaway. 2020. \u201cPeople are reading your work,\u201d scholarly identity and social networking sites. Journal of Documentation(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Filippo Radicchi, Santo Fortunato, and Claudio Castellano. 2008. Universality of citation distributions: Toward an objective measure of scientific impact. Proceedings of the National Academy of Sciences 105, 45(2008), 17268\u201317272.",
+      "doi": ""
+    },
+    {
+      "text": "Brian\u00a0P Reschke, Pierre Azoulay, and Toby\u00a0E Stuart. 2018. Status spillovers: The effect of status-conferring prizes on the allocation of attention. Administrative Science Quarterly 63, 4 (2018), 819\u2013847.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Rowland. 2002. Overcoming fragmentation in professional life: The challenge for academic development. Higher education quarterly 56, 1 (2002), 52\u201364.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0M Russell, Mark\u00a0J Stefik, Peter Pirolli, and Stuart\u00a0K Card. 1993. The cost structure of sensemaking. In Proceedings of the INTERACT\u201993 and CHI\u201993 conference on Human factors in computing systems. ACM, 269\u2013276.",
+      "doi": "10.1145/169059.169209"
+    },
+    {
+      "text": "Masahiro Sato, Shin Kawai, and Hajime Nobuhara. 2019. Action-triggering recommenders: Uplift optimization and persuasive explanation. In 2019 International Conference on Data Mining Workshops (ICDMW). IEEE, 1060\u20131069.",
+      "doi": ""
+    },
+    {
+      "text": "Amit Sharma and Dan Cosley. 2011. Network-centric recommendation: Personalization with and in social networks. In 2011 IEEE Third International Conference on Privacy, Security, Risk and Trust and 2011 IEEE Third International Conference on Social Computing. IEEE, 282\u2013289.",
+      "doi": ""
+    },
+    {
+      "text": "Amit Sharma and Dan Cosley. 2013. Do social explanations work? Studying and modeling the effects of social explanations in recommender systems. In Proceedings of the 22nd international conference on World Wide Web. 1133\u20131144.",
+      "doi": "10.1145/2488388.2488487"
+    },
+    {
+      "text": "Herbert\u00a0A Simon. 1996. Designing organizations for an information-rich world. International Library of Critical Writings in Economics 70 (1996), 187\u2013202.",
+      "doi": ""
+    },
+    {
+      "text": "Roberta Sinatra, Dashun Wang, Pierre Deville, Chaoming Song, and Albert-L\u00e1szl\u00f3 Barab\u00e1si. 2016. Quantifying the evolution of individual scientific impact. Science 354, 6312 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Parag Singla and Matthew Richardson. 2008. Yes, there is a correlation: -from social networks to personal behavior on the web. In Proceedings of the 17th international conference on World Wide Web. 655\u2013664.",
+      "doi": "10.1145/1367497.1367586"
+    },
+    {
+      "text": "Alison Smith-Renner, Ron Fan, Melissa Birchfield, Tongshuang Wu, Jordan Boyd-Graber, Daniel\u00a0S Weld, and Leah Findlater. 2020. No explainability without accountability: An empirical study of explanations and feedback in interactive ml. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376624"
+    },
+    {
+      "text": "John Sweller. 2011. Cognitive load theory. In Psychology of learning and motivation. Vol.\u00a055. Elsevier, 37\u201376.",
+      "doi": ""
+    },
+    {
+      "text": "Panagiotis Symeonidis, Alexandros Nanopoulos, and Yannis Manolopoulos. 2008. Providing justifications in recommender systems. IEEE Transactions on Systems, Man, and Cybernetics-Part A: Systems and Humans 38, 6 (2008), 1262\u20131272.",
+      "doi": "10.1109/TSMCA.2008.2003969"
+    },
+    {
+      "text": "Carol Tenopir, Donald\u00a0W King, Sheri Edwards, and Lei Wu. 2009. Electronic journals and changes in scholarly article seeking and reading patterns. In Aslib proceedings. Emerald Group Publishing Limited.",
+      "doi": ""
+    },
+    {
+      "text": "Nava Tintarev and Judith Masthoff. 2007. A survey of explanations in recommender systems. In 2007 IEEE 23rd international conference on data engineering workshop. IEEE, 801\u2013810.",
+      "doi": "10.1109/ICDEW.2007.4401070"
+    },
+    {
+      "text": "Nava Tintarev and Judith Masthoff. 2008. The effectiveness of personalized movie explanations: An experiment using commercial meta-data. In International Conference on Adaptive Hypermedia and Adaptive Web-Based Systems. Springer, 204\u2013213.",
+      "doi": "10.1007/978-3-540-70987-9_23"
+    },
+    {
+      "text": "George Toderici, Hrishikesh Aradhye, Marius Pasca, Luciano Sbaiz, and Jay Yagnik. 2010. Finding meaning on youtube: Tag recommendation and category discovery. In 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. IEEE, 3447\u20133454.",
+      "doi": ""
+    },
+    {
+      "text": "Martin Traunmueller, Paul Marshall, and Licia Capra. 2015. Crowdsourcing safety perceptions of people: Opportunities and limitations. In International Conference on Social Informatics. Springer, 120\u2013135.",
+      "doi": ""
+    },
+    {
+      "text": "Julia Vainio and Kim Holmberg. 2017. Highly tweeted science articles: who tweets them? An analysis of Twitter user profile descriptions. Scientometrics 112, 1 (2017), 345\u2013366.",
+      "doi": "10.1007/s11192-017-2368-0"
+    },
+    {
+      "text": "Pertti Vakkari and Sanna Talja. 2006. Searching for Electronic Journal Articles to Support Academic Tasks. A Case Study of the Use of the Finnish National Electronic Library (FinELib).Information Research: An International Electronic Journal 12, 1(2006), n1.",
+      "doi": ""
+    },
+    {
+      "text": "Arnout Van\u00a0de Rijt, Soong\u00a0Moon Kang, Michael Restivo, and Akshay Patil. 2014. Field experiments of success-breeds-success dynamics. Proceedings of the National Academy of Sciences 111, 19(2014), 6934\u20136939.",
+      "doi": ""
+    },
+    {
+      "text": "Hongwei Wang, Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo. 2018. Ripplenet: Propagating user preferences on the knowledge graph for recommender systems. In Proceedings of the 27th ACM International Conference on Information and Knowledge Management. 417\u2013426.",
+      "doi": "10.1145/3269206.3271739"
+    },
+    {
+      "text": "Jian Wang. 2014. Unpacking the Matthew effect in citations. Journal of Informetrics 8, 2 (2014), 329\u2013339.",
+      "doi": ""
+    },
+    {
+      "text": "Nan Wang, Hongning Wang, Yiling Jia, and Yue Yin. 2018. Explainable recommendation via multi-task learning in opinionated text data. In The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval. 165\u2013174.",
+      "doi": "10.1145/3209978.3210010"
+    },
+    {
+      "text": "Lynn Westbrook. 2003. Information needs and experiences of scholars in women\u2019s studies: Problems and solutions. College & Research Libraries 64, 3 (2003), 192\u2013209.",
+      "doi": ""
+    },
+    {
+      "text": "Ryen\u00a0W White and Resa\u00a0A Roth. 2009. Exploratory search: Beyond the query-response paradigm. Synthesis lectures on information concepts, retrieval, and services 1, 1(2009), 1\u201398.",
+      "doi": ""
+    },
+    {
+      "text": "Steve Whittaker and Candace Sidner. 1996. Email overload: exploring personal information management of email. In Proceedings of the SIGCHI conference on Human factors in computing systems. 276\u2013283.",
+      "doi": "10.1145/238386.238530"
+    },
+    {
+      "text": "Simon Williams. 2019. Postgraduate Research Experience Survey. London: Advance HE (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Max\u00a0L Wilson 2008. Improving exploratory search interfaces: Adding value or information overload?(2008).",
+      "doi": ""
+    },
+    {
+      "text": "Chris Woolston. 2019. PhDs: the tortuous truth.",
+      "doi": ""
+    },
+    {
+      "text": "Yongfeng Zhang and Xu Chen. 2018. Explainable recommendation: A survey and new perspectives. arXiv preprint arXiv:1804.11192(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Guoshuai Zhao, Hao Fu, Ruihua Song, Tetsuya Sakai, Zhongxia Chen, Xing Xie, and Xueming Qian. 2019. Personalized reason generation for explainable song recommendation. ACM Transactions on Intelligent Systems and Technology (TIST) 10, 4(2019), 1\u201321.",
+      "doi": "10.1145/3345640"
+    },
+    {
+      "text": "Xin\u00a0Wayne Zhao, Yanwei Guo, Yulan He, Han Jiang, Yuexin Wu, and Xiaoming Li. 2014. We know what you want to buy: a demographic-based system for product recommendation on microblogs. In Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining. 1935\u20131944.",
+      "doi": "10.1145/2623330.2623351"
+    }
+  ]
+}

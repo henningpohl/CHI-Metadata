@@ -1,0 +1,472 @@
+{
+  "doi": "10.1145/3491102.3517618",
+  "title": "ComputableViz: Mathematical Operators as a Formalism for Visualisation Processing and Analysis",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Data visualizations are created and shared on the web at an unprecedented speed, raising new needs and questions for processing and analyzing visualizations after they have been generated and digitized. However, existing formalisms focus on operating on a single visualization instead of multiple visualizations, making it challenging to perform analysis tasks such as sorting and clustering visualizations. Through a systematic analysis of previous work, we abstract visualization-related tasks into mathematical operators such as union and propose a design space of visualization operations. We realize the design by developing ComputableViz, a library that supports operations on multiple visualization specifications. To demonstrate its usefulness and extensibility, we present multiple usage scenarios concerning processing and analyzing visualization, such as generating visualization embeddings and automatically making visualizations accessible. We conclude by discussing research opportunities and challenges for managing and exploiting the massive visualizations on the web.",
+  "authors": [
+    {
+      "name": "Aoyu Wu",
+      "institution": "Department of Computer Science and Engineering, Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659527249",
+      "orcid": "0000-0001-9187-9265"
+    },
+    {
+      "name": "Wai Tong",
+      "institution": "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659526847",
+      "orcid": "missing"
+    },
+    {
+      "name": "Haotian Li",
+      "institution": "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659510560",
+      "orcid": "0000-0001-9547-3449"
+    },
+    {
+      "name": "Dominik Moritz",
+      "institution": "Human-Computer Interaction Institute, Carnegie Mellon University, United States and Apple, United States",
+      "img": "/do/10.1145/contrib-89758751957/rel-imgonly/dominik_berlin.jpg",
+      "acmid": "89758751957",
+      "orcid": "0000-0002-3110-1053"
+    },
+    {
+      "name": "Yong Wang",
+      "institution": "School of Computing and Information Systems, Singapore Management University, Singapore",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702112",
+      "orcid": "0000-0002-0092-0793"
+    },
+    {
+      "name": "Huamin Qu",
+      "institution": "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100337801",
+      "orcid": "0000-0002-3344-9694"
+    }
+  ],
+  "references": [
+    {
+      "text": "Sriram\u00a0Karthik Badam and Niklas Elmqvist. 2014. Polychrome: A cross-device framework for collaborative web visualization. In Proc. of the ACM International Conference on Interactive Tabletops and Surfaces. ACM, NY, USA, 109\u2013118.",
+      "doi": "10.1145/2669485.2669518"
+    },
+    {
+      "text": "Leilani Battle, Peitong Duan, Zachery Miranda, Dana Mukusheva, Remco Chang, and Michael Stonebraker. 2018. Beagle: Automated extraction and interpretation of visualizations from the web. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u20138.",
+      "doi": "10.1145/3173574.3174168"
+    },
+    {
+      "text": "Ayan Biswas, Soumya Dutta, Han-Wei Shen, and Jonathan Woodring. 2013. An information-aware framework for exploring multivariate data sets. IEEE Transactions on Visualization and Computer Graphics 19, 12(2013), 2683\u20132692.",
+      "doi": "10.1109/TVCG.2013.133"
+    },
+    {
+      "text": "Michael Bostock, Vadim Ogievetsky, and Jeffrey Heer. 2011. D3 data-driven documents. IEEE Transactions on Visualization and Computer Graphics 17, 12(2011), 2301\u20132309.",
+      "doi": "10.1109/TVCG.2011.185"
+    },
+    {
+      "text": "John Brosz, Miguel\u00a0A Nacenta, Richard Pusch, Sheelagh Carpendale, and Christophe Hurter. 2013. Transmogrification: Causal manipulation of visualizations. In Proc. of the ACM Symposium on User Interface Software and Technology (UIST). ACM, NY, USA, 97\u2013106.",
+      "doi": "10.1145/2501988.2502046"
+    },
+    {
+      "text": "David Capel. 2004. Image mosaicing. In Image Mosaicing and super-resolution. Springer, London, UK, 47\u201379.",
+      "doi": ""
+    },
+    {
+      "text": "Min Chen, Georges Grinstein, Chris\u00a0R Johnson, Jessie Kennedy, and Melanie Tory. 2017. Pathways for theoretical advances in visualization. IEEE Computer Graphics and Applications 37, 4 (2017), 103\u2013112.",
+      "doi": "10.1109/MCG.2017.3271463"
+    },
+    {
+      "text": "Min Chen and Heike J\u00e4enicke. 2010. An information-theoretic framework for visualization. IEEE Transactions on Visualization and Computer Graphics 16, 6(2010), 1206\u20131215.",
+      "doi": "10.1109/TVCG.2010.132"
+    },
+    {
+      "text": "Qing Chen, Fuling Sun, Xinyue Xu, Zui Chen, Jiazhe Wang, and Nan Cao. 2021. VizLinter: A Linter and Fixer Framework for Data Visualization. IEEE Transactions on Visualization and Computer Graphics 28, 1(2021), 206\u2013216.",
+      "doi": "10.1109/TVCG.2021.3114804"
+    },
+    {
+      "text": "Ran Chen, Xinhuan Shu, Jiahui Chen, Di Weng, Junxiu Tang, Siwei Fu, and Yingcai Wu. 2021. Nebula: A Coordinating Grammar of Graphics. IEEE Transactions on Visualization and Computer Graphics 1, 1(2021), 1\u201312.",
+      "doi": ""
+    },
+    {
+      "text": "Xi Chen, Wei Zeng, Yanna Lin, Hayder\u00a0Mahdi Ai-Maneea, Jonathan Roberts, and Remco Chang. 2020. Composition and configuration patterns in multiple-view visualizations. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 1514\u20131524.",
+      "doi": ""
+    },
+    {
+      "text": "Zhutian Chen, Wai Tong, Qianwen Wang, Benjamin Bach, and Huamin Qu. 2020. Augmenting Static Visualizations with PapARVis Designer. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201312.",
+      "doi": "10.1145/3313831.3376436"
+    },
+    {
+      "text": "Zhutian Chen, Yun Wang, Qianwen Wang, Yong Wang, and Huamin Qu. 2019. Towards Automated Infographic Design: Deep Learning-based Auto-Extraction of Extensible Timeline. IEEE Transactions on Visualization and Computer Graphics 26, 1(2019), 917\u2013926.",
+      "doi": ""
+    },
+    {
+      "text": "Edgar\u00a0F Codd. 2002. A relational model of data for large shared data banks. In Software Pioneers. Springer, Berlin, Germany, 263\u2013294.",
+      "doi": ""
+    },
+    {
+      "text": "Joao\u00a0LD Comba. 2020. Data visualization for the understanding of COVID-19. Computing in Science & Engineering 22, 6 (2020), 81\u201386.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0AA Cox and Trevor\u00a0F Cox. 2008. Multidimensional scaling. In Handbook of Data Visualization. Springer, Berlin, Germany, 315\u2013347.",
+      "doi": ""
+    },
+    {
+      "text": "Zach Cutler, Kiran Gadhave, and Alexander Lex. 2020. Trrack: A Library for Provenance-Tracking in Web-Based Visualizations. In Proc. of the IEEE Visualization Conference (VIS). IEEE, NY, USA, 116\u2013120.",
+      "doi": ""
+    },
+    {
+      "text": "Kenny Davila, Srirangaraj Setlur, David Doermann, Urala\u00a0Kota Bhargava, and Venu Govindaraju. 2020. Chart mining: a survey of methods for automated chart analysis. IEEE Transactions on Pattern Analysis and Machine Intelligence 43, 11(2020), 3799\u20133819.",
+      "doi": ""
+    },
+    {
+      "text": "Evanthia Dimara and Charles Perin. 2019. What is interaction for data visualization?IEEE Transactions on Visualization and Computer Graphics 26, 1(2019), 119\u2013129.",
+      "doi": ""
+    },
+    {
+      "text": "Julia Ebling and Gerik Scheuermann. 2005. Clifford Fourier transform on vector fields. IEEE Transactions on Visualization and Computer Graphics 11, 4(2005), 469\u2013479.",
+      "doi": "10.1109/TVCG.2005.54"
+    },
+    {
+      "text": "Yu Feng, Ruben Martins, Jacob Van\u00a0Geffen, Isil Dillig, and Swarat Chaudhuri. 2017. Component-based synthesis of table consolidation and transformation tasks from examples. ACM SIGPLAN Notices 52, 6 (2017), 422\u2013436.",
+      "doi": "10.1145/3140587.3062351"
+    },
+    {
+      "text": "Jiayun Fu, Bin Zhu, Weiwei Cui, Song Ge, Yun Wang, Haidong Zhang, He Huang, Yuanyuan Tang, Dongmei Zhang, and Xiaojing Ma. 2020. Chartem: Reviving Chart Images with Data Embedding. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 337\u2013346.",
+      "doi": ""
+    },
+    {
+      "text": "Leon\u00a0A Gatys, Alexander\u00a0S Ecker, and Matthias Bethge. 2016. Image style transfer using convolutional neural networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2414\u20132423.",
+      "doi": ""
+    },
+    {
+      "text": "Tong Ge, Yue Zhao, Bongshin Lee, Donghao Ren, Baoquan Chen, and Yunhai Wang. 2020. Canis: A High-Level Language for Data-Driven Chart Animations. In Computer Graphics Forum, Vol.\u00a039. Wiley Online Library, NJ, USA, 607\u2013617.",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2021. Image Overview. Retrieved June 16, 2021 from https://developers.google.com/earth-engine/guides/image_overview",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0M Haralick, Stanley\u00a0R Sternberg, and Xinhua Zhuang. 1987. Image analysis using mathematical morphology. IEEE Transactions on Pattern Analysis and Machine Intelligence4 (1987), 532\u2013550.",
+      "doi": "10.1109/TPAMI.1987.4767941"
+    },
+    {
+      "text": "Jonathan Harper and Maneesh Agrawala. 2017. Converting basic D3 charts into reusable style templates. IEEE Transactions on Visualization and Computer Graphics 24, 3(2017), 1274\u20131286.",
+      "doi": ""
+    },
+    {
+      "text": "Lambertus Hesselink. 1988. Digital image processing in flow visualization. Annual Review of Fluid Mechanics 20, 1 (1988), 421\u2013486.",
+      "doi": ""
+    },
+    {
+      "text": "Enamul Hoque and Maneesh Agrawala. 2019. Searching the Visual Style and Structure of D3 Visualizations. IEEE Transactions on Visualization and Computer Graphics 26, 1(2019), 1236\u20131245.",
+      "doi": ""
+    },
+    {
+      "text": "Scikit image\u00a0development team. 2021. scikit-image: Image processing in Python \u2014 scikit-image. Retrieved June 16, 2021 from https://scikit-image.org/",
+      "doi": ""
+    },
+    {
+      "text": "Cheuk\u00a0Yiu Ip, Amitabh Varshney, and Joseph JaJa. 2012. Hierarchical exploration of volumes using multilevel segmentation of the intensity-gradient histograms. IEEE Transactions on Visualization and Computer Graphics 18, 12(2012), 2355\u20132363.",
+      "doi": "10.1109/TVCG.2012.231"
+    },
+    {
+      "text": "Waqas Javed and Niklas Elmqvist. 2012. Exploring the design space of composite visualization. In Proc. of the IEEE Pacific Visualization Symposium. IEEE, NY, USA, 1\u20138.",
+      "doi": "10.1109/PacificVis.2012.6183556"
+    },
+    {
+      "text": "Lan Jiang and Felix Naumann. 2020. Holistic primary key and foreign key detection. Journal of Intelligent Information Systems 54, 3 (2020), 439\u2013461.",
+      "doi": "10.1007/s10844-019-00562-z"
+    },
+    {
+      "text": "NW Kim, SC Joyner, A Riegelhuth, and Y Kim. 2021. Accessible Visualization: Design Space, Opportunities, and Challenges. In Computer Graphics Forum, Vol.\u00a040. Wiley Online Library, NJ, USA, 173\u2013188.",
+      "doi": ""
+    },
+    {
+      "text": "Younghoon Kim and Jeffrey Heer. 2020. Gemini: A grammar and recommender system for animated transitions in statistical graphics. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 485\u2013494.",
+      "doi": ""
+    },
+    {
+      "text": "Younghoon Kim, Kanit Wongsuphasawat, Jessica Hullman, and Jeffrey Heer. 2017. Graphscape: A model for automated reasoning about visualization similarity and sequencing. In Proc. of the ACM Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 2628\u20132638.",
+      "doi": "10.1145/3025453.3025866"
+    },
+    {
+      "text": "Gordon Kindlmann and Carlos Scheidegger. 2014. An algebraic process for visualization design. IEEE Transactions on Visualization and Computer Graphics 20, 12(2014), 2181\u20132190.",
+      "doi": ""
+    },
+    {
+      "text": "S\u00f8ren Knudsen. 2015. How Does Abundant Display Space Support Data Analysis?: Interaction Techniques for Information Visualizations on Large, High-Resolution Displays. Ph.D. Dissertation.",
+      "doi": ""
+    },
+    {
+      "text": "S\u00f8ren Knudsen and Sheelagh Carpendale. 2016. View relations: An exploratory study on between-view meta-visualizations. In Proc. of the 9th Nordic Conference on Human-Computer Interaction. ACM, NY, USA, 1\u201310.",
+      "doi": "10.1145/2971485.2971566"
+    },
+    {
+      "text": "Bongshin Lee, Kate Isaacs, Danielle\u00a0Albers Szafir, G\u00a0Elisabeta Marai, Cagatay Turkay, Melanie Tory, Sheelagh Carpendale, and Alex Endert. 2019. Broadening intellectual diversity in visualization research papers. IEEE Computer Graphics and Applications 39, 4 (2019), 78\u201385.",
+      "doi": ""
+    },
+    {
+      "text": "Crystal Lee, Tanya Yang, Gabrielle\u00a0D Inchoco, Graham\u00a0M Jones, and Arvind Satyanarayan. 2021. Viral Visualizations: How Coronavirus Skeptics Use Orthodox Data Practices to Promote Unorthodox Science Online. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201318.",
+      "doi": "10.1145/3411764.3445211"
+    },
+    {
+      "text": "Fritz Lekschas, Xinyi Zhou, Wei Chen, Nils Gehlenborg, Benjamin Bach, and Hanspeter Pfister. 2020. A generic framework and library for exploration of small multiples through interactive piling. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 358\u2013368.",
+      "doi": ""
+    },
+    {
+      "text": "Deqing Li, Honghui Mei, Yi Shen, Shuang Su, Wenli Zhang, Junting Wang, Ming Zu, and Wei Chen. 2018. ECharts: a declarative framework for rapid construction of web-based visualization. Visual Informatics 2, 2 (2018), 136\u2013146.",
+      "doi": ""
+    },
+    {
+      "text": "Guozheng Li, Min Tian, Qinmei Xu, Michael\u00a0J McGuffin, and Xiaoru Yuan. 2020. Gotree: A grammar of tree visualizations. In Proc. of the ACM Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201313.",
+      "doi": "10.1145/3313831.3376297"
+    },
+    {
+      "text": "Haotian Li, Yong Wang, Aoyu Wu, Huan Wei, and Huamin Qu. 2022. Structure-aware Visualization Retrieval. arXiv preprint arXiv:2202.05960(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Girija Limaye, Sunita Sarawagi, and Soumen Chakrabarti. 2010. Annotating and searching web tables using entities, types and relationships. Proc. of the VLDB Endowment 3, 1-2 (2010), 1338\u20131347.",
+      "doi": "10.14778/1920841.1921005"
+    },
+    {
+      "text": "Halden Lin, Dominik Moritz, and Jeffrey Heer. 2020. Dziban: Balancing Agency & Automation in Visualization Design via Anchored Recommendations. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201312.",
+      "doi": "10.1145/3313831.3376880"
+    },
+    {
+      "text": "Richen Liu, Min Gao, Shunlong Ye, and Jiang Zhang. 2021. IGScript: An Interaction Grammar for Scientific Data Presentation. In Proc. of the ACM Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201313.",
+      "doi": "10.1145/3411764.3445535"
+    },
+    {
+      "text": "Zhicheng Liu, John Thompson, Alan Wilson, Mira Dontcheva, James Delorey, Sam Grigg, Bernard Kerr, and John Stasko. 2018. Data Illustrator: Augmenting vector design tools with lazy data binding for expressive visualization authoring. In Proc. of the ACM Conference on Human Factors in Computing Systems (CHI). 1\u201313.",
+      "doi": "10.1145/3173574.3173697"
+    },
+    {
+      "text": "Zhen\u00a0Hua Liu, Beda Hammerschmidt, and Doug McMahon. 2014. JSON data management: supporting schema-less development in RDBMS. In Proc. of the ACM International Conference on Management of Data (SIGMOD). ACM, NY, USA, 1247\u20131258.",
+      "doi": "10.1145/2588555.2595628"
+    },
+    {
+      "text": "Yuyu Luo, Chengliang Chai, Xuedi Qin, Nan Tang, and Guoliang Li. 2020. Interactive cleaning for progressive visualization through composite questions. In Proc. of the IEEE International Conference on Data Engineering (ICDE). IEEE, NY, USA, 733\u2013744.",
+      "doi": ""
+    },
+    {
+      "text": "Sehi LYi, Jaemin Jo, and Jinwook Seo. 2020. Comparative Layouts Revisited: Design Space, Guidelines, and Future Directions. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 1525\u20131535.",
+      "doi": ""
+    },
+    {
+      "text": "Rischan Mafrur, Mohamed\u00a0A Sharaf, and Hina\u00a0A Khan. 2018. DiVE: diversifying view recommendation for visual data exploration. In Proc. of the ACM International Conference on Information and Knowledge Management (CIKM). ACM, NY, USA, 1123\u20131132.",
+      "doi": "10.1145/3269206.3271744"
+    },
+    {
+      "text": "Mathworks. 2021. Image Processing Toolbox \u2014 Functions. Retrieved June 16, 2021 from https://www.mathworks.com/help/images/referencelist.html?type=function",
+      "doi": ""
+    },
+    {
+      "text": "Andrew McNutt, Gordon Kindlmann, and Michael Correll. 2020. Surfacing visualization mirages. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201316.",
+      "doi": "10.1145/3313831.3376420"
+    },
+    {
+      "text": "Honghui Mei, Yuxin Ma, Yating Wei, and Wei Chen. 2018. The design space of construction tools for information visualization: A survey. Journal of Visual Languages & Computing 44 (2018), 120\u2013132.",
+      "doi": ""
+    },
+    {
+      "text": "Gonzalo\u00a0Gabriel M\u00e9ndez, Miguel\u00a0A Nacenta, and Sebastien Vandenheste. 2016. iVoLVER: Interactive visual language for visualization extraction and reconstruction. In Proc. of the ACM Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 4073\u20134085.",
+      "doi": "10.1145/2858036.2858435"
+    },
+    {
+      "text": "Dominik Moritz, Chenglong Wang, Greg\u00a0L Nelson, Halden Lin, Adam\u00a0M Smith, Bill Howe, and Jeffrey Heer. 2018. Formalizing visualization design knowledge as constraints: Actionable and extensible models in Draco. IEEE Transactions on Visualization and Computer Graphics 25, 1(2018), 438\u2013448.",
+      "doi": "10.1109/TVCG.2018.2865240"
+    },
+    {
+      "text": "Fatemeh Nargesian, Erkang Zhu, Ken\u00a0Q Pu, and Ren\u00e9e\u00a0J Miller. 2018. Table union search on open data. Proc. of the VLDB Endowment 11, 7 (2018), 813\u2013825.",
+      "doi": "10.14778/3192965.3192973"
+    },
+    {
+      "text": "Wayne Niblack. 1985. An introduction to digital image processing. Strandberg Publishing Company, Denmark.",
+      "doi": ""
+    },
+    {
+      "text": "Anshul\u00a0Vikram Pandey, Anjali Manivannan, Oded Nov, Margaret Satterthwaite, and Enrico Bertini. 2014. The persuasive power of data visualization. IEEE Transactions on Visualization and Computer Graphics 20, 12(2014), 2211\u20132220.",
+      "doi": ""
+    },
+    {
+      "text": "Jorge Poco and Jeffrey Heer. 2017. Reverse-Engineering Visualizations: Recovering Visual Encodings from Chart Images. In Computer Graphics Forum, Vol.\u00a036. The Eurographics Association & John Wiley & Sons, Ltd., NJ, USA, 353\u2013363.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaoying Pu and Matthew Kay. 2020. A probabilistic grammar of graphics. In Proc. of the ACM Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201313.",
+      "doi": "10.1145/3313831.3376466"
+    },
+    {
+      "text": "Xiaoying Pu, Matthew Kay, Steven\u00a0M Drucker, Jeffrey Heer, Dominik Moritz, and Arvind Satyanarayan. 2021. Special Interest Group on Visualization Grammars. In Extended Abstracts of the ACM Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u20133.",
+      "doi": ""
+    },
+    {
+      "text": "Chunyao Qian, Shizhao Sun, Weiwei Cui, Jian-Guang Lou, Haidong Zhang, and Dongmei Zhang. 2020. Retrieve-Then-Adapt: Example-based Automatic Generation for Proportion-related Infographics. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 443\u2013452.",
+      "doi": ""
+    },
+    {
+      "text": "Zening Qu and Jessica Hullman. 2017. Keeping multiple views consistent: Constraints, validations, and exceptions in visualization authoring. IEEE Transactions on Visualization and Computer Graphics 24, 1(2017), 468\u2013477.",
+      "doi": ""
+    },
+    {
+      "text": "Gerhard\u00a0X. Ritter, Joseph\u00a0N. Wilson, and Jennifer\u00a0L Davidson. 1990. Image algebra: An overview. Computer Vision, Graphics, and Image Processing 49, 3(1990), 297\u2013331.",
+      "doi": "10.1016/0734-189X%2890%2990106-6"
+    },
+    {
+      "text": "Puripant Ruchikachorn and Klaus Mueller. 2015. Learning visualizations by analogy: Promoting visual literacy through visualization morphing. IEEE Transactions on Visualization and Computer Graphics 21, 9(2015), 1028\u20131044.",
+      "doi": "10.1109/TVCG.2015.2413786"
+    },
+    {
+      "text": "Bahador Saket, Dominik Moritz, Halden Lin, Victor Dibia, Cagatay Demiralp, and Jeffrey Heer. 2018. Beyond heuristics: Learning visualization design. arXiv preprint arXiv:1807.06641(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Babak Saleh, Mira Dontcheva, Aaron Hertzmann, and Zhicheng Liu. 2015. Learning style similarity for searching infographics. In Proc. of the Graphics Interface Conference. ACM, NY, USA, 59\u201364.",
+      "doi": ""
+    },
+    {
+      "text": "Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer. 2016. Vega-lite: A grammar of interactive graphics. IEEE Transactions on Visualization and Computer Graphics 23, 1(2016), 341\u2013350.",
+      "doi": "10.1109/TVCG.2016.2599030"
+    },
+    {
+      "text": "Arvind Satyanarayan, Ryan Russell, Jane Hoffswell, and Jeffrey Heer. 2015. Reactive vega: A streaming dataflow architecture for declarative interactive visualization. IEEE Transactions on Visualization and Computer Graphics 22, 1(2015), 659\u2013668.",
+      "doi": "10.1109/TVCG.2015.2467091"
+    },
+    {
+      "text": "Hans-J\u00f6rg Schulz and Steffen Hadlak. 2015. Preset-based generation and exploration of visualization designs. Journal of Visual Languages & Computing 31 (2015), 9\u201329.",
+      "doi": "10.1016/j.jvlc.2015.09.004"
+    },
+    {
+      "text": "Michail Schwab, David Saffo, Yixuan Zhang, Shash Sinha, Cristina Nita-Rotaru, James Tompkin, Cody Dunne, and Michelle\u00a0A Borkin. 2020. VisConnect: Distributed Event Synchronization for Collaborative Visualization. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 347\u2013357.",
+      "doi": ""
+    },
+    {
+      "text": "Danqing Shi, Yang Shi, Xinyue Xu, Nan Chen, Siwei Fu, Hongjin Wu, and Nan Cao. 2019. Task-oriented optimal sequencing of visualization charts. In Proc. of IEEE Visualization in Data Science (VDS). IEEE, NY, USA, 58\u201366.",
+      "doi": ""
+    },
+    {
+      "text": "Danqing Shi, Xinyue Xu, Fuling Sun, Yang Shi, and Nan Cao. 2020. Calliope: Automatic visual data story generation from a spreadsheet. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 453\u2013463.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Smart, Keke Wu, and Danielle\u00a0Albers Szafir. 2020. Color Crafting: Automating the Construction of Designer Quality Color Ramps. IEEE Transactions on Visualization and Computer Graphics 26, 1(2020), 1215\u20131225.",
+      "doi": ""
+    },
+    {
+      "text": "Laurens Van\u00a0der Maaten and Geoffrey Hinton. 2008. Visualizing data using t-SNE.Journal of machine learning research 9, 11 (2008).",
+      "doi": ""
+    },
+    {
+      "text": "Stefan Van\u00a0der Walt, Johannes\u00a0L Sch\u00f6nberger, Juan Nunez-Iglesias, Fran\u00e7ois Boulogne, Joshua\u00a0D Warner, Neil Yager, Emmanuelle Gouillart, and Tony Yu. 2014. scikit-image: image processing in Python. PeerJ 2(2014), e453.",
+      "doi": ""
+    },
+    {
+      "text": "Manasi Vartak, Sajjadur Rahman, Samuel Madden, Aditya Parameswaran, and Neoklis Polyzotis. 2015. Seedb: Efficient data-driven visualization recommendations to support visual analytics. In Proc. of the VLDB Endowment International Conference on Very Large Data Bases, Vol.\u00a08. NIH Public Access, 2182.",
+      "doi": ""
+    },
+    {
+      "text": "Vega-Lite. 2020. Vega-lite-v4. Retrieved June 16, 2021 from https://github.com/vega/vega-lite-v4/tree/master/examples",
+      "doi": ""
+    },
+    {
+      "text": "Chenglong Wang, Yu Feng, Rastislav Bodik, Alvin Cheung, and Isil Dillig. 2019. Visualization by example. Proc. of the ACM on Programming Languages 4, 49 (2019), 1\u201328.",
+      "doi": ""
+    },
+    {
+      "text": "Chaoli Wang and Han-Wei Shen. 2011. Information theory in scientific visualization. Entropy 13, 1 (2011), 254\u2013273.",
+      "doi": ""
+    },
+    {
+      "text": "Qianwen Wang, Zhutian Chen, Yong Wang, and Huamin Qu. 2021. A Survey on ML4VIS: Applying MachineLearning Advances to Data Visualization. IEEE Transactions on Visualization and Computer Graphics (Early Access) (2021).",
+      "doi": "10.1109/TVCG.2021.3106142"
+    },
+    {
+      "text": "Chris Weaver. 2004. Building highly-coordinated visualizations in improvise. In IEEE Symposium on Information Visualization. IEEE, 159\u2013166.",
+      "doi": "10.5555/1038262.1038795"
+    },
+    {
+      "text": "Hadley Wickham. 2010. A layered grammar of graphics. Journal of Computational and Graphical Statistics 19, 1(2010), 3\u201328.",
+      "doi": ""
+    },
+    {
+      "text": "Leland Wilkinson. 2012. The grammar of graphics. In Handbook of computational statistics. Springer, 375\u2013414.",
+      "doi": ""
+    },
+    {
+      "text": "Kanit Wongsuphasawat, Dominik Moritz, Anushka Anand, Jock Mackinlay, Bill Howe, and Jeffrey Heer. 2016. Towards a general-purpose query language for visualization recommendation. In Proc. of the Workshop on Human-In-the-Loop Data Analytics. 1\u20136.",
+      "doi": "10.1145/2939502.2939506"
+    },
+    {
+      "text": "Aoyu Wu, Wai Tong, Tim Dwyer, Bongshin Lee, Petra Isenberg, and Huamin Qu. 2020. Mobilevisfixer: Tailoring web visualizations for mobile phones leveraging an explainable reinforcement learning framework. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 464\u2013474.",
+      "doi": ""
+    },
+    {
+      "text": "Aoyu Wu, Yun Wang, Xinhuan Shu, Dominik Moritz, Weiwei Cui, Haidong Zhang, Dongmei Zhang, and Huamin Qu. 2021. AI4VIS: Survey on Artificial Intelligence Approaches for Data Visualization. IEEE Transactions on Visualization and Computer Graphics (2021).",
+      "doi": "10.1109/TVCG.2021.3099002"
+    },
+    {
+      "text": "Aoyu Wu, Yun Wang, Mengyu Zhou, Xinyi He, Haidong Zhang, Huamin Qu, and Dongmei Zhang. 2021. MultiVision: Designing Analytical Dashboards with Deep Learning Based Recommendation. IEEE Transactions on Visualization and Computer Graphics 28, 1(2021), 162\u2013172.",
+      "doi": "10.1109/TVCG.2021.3114826"
+    },
+    {
+      "text": "Hongjin Wu, Danqing Shi, Nan Chen, Yang Shi, Zhuochen Jin, and Nan Cao. 2019. VisAct: a visualization design system based on semantic actions. Journal of Visualization(2019), 1\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Keke Wu, Emma Petersen, Tahmina Ahmad, David Burlinson, Shea Tanis, and Danielle\u00a0Albers Szafir. 2021. Understanding data accessibility for people with intellectual and developmental disabilities. In Proc. of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3411764.3445743"
+    },
+    {
+      "text": "Kai Xu, Alvitta Ottley, Conny Walchshofer, Marc Streit, Remco Chang, and John Wenskovitch. 2020. Survey on the analysis of user interactions and visualization provenance. In Computer Graphics Forum, Vol.\u00a039. Wiley Online Library, NJ, USA, 757\u2013783.",
+      "doi": ""
+    },
+    {
+      "text": "Shenyu Xu, Chris Bryan, Jianping\u00a0Kelvin Li, Jian Zhao, and Kwan-Liu Ma. 2018. Chart Constellations: Effective Chart Summarization for Collaborative and Multi-User Analyses. In Computer Graphics Forum, Vol.\u00a037. Wiley Online Library, 75\u201386.",
+      "doi": ""
+    },
+    {
+      "text": "Huahai Yang, Yunyao Li, and Michelle\u00a0X Zhou. 2014. Understand users\u2019 comprehension and preferences for composing information visualizations. ACM Transactions on Computer-Human Interaction (TOCHI) 21, 1(2014), 1\u201330.",
+      "doi": "10.1145/2541288"
+    },
+    {
+      "text": "Bowen Yu and Cl\u00e1udio\u00a0T Silva. 2019. FlowSense: A natural language interface for visual data exploration within a dataflow system. IEEE Transactions on Visualization and Computer Graphics 26, 1(2019), 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Lin-Ping Yuan, Wei Zeng, Siwei Fu, Zhiliang Zeng, Haotian Li, Chi-Wing Fu, and Huamin Qu. 2021. Deep Colormap Extraction from Visualizations.",
+      "doi": ""
+    },
+    {
+      "text": "Anthony Zappal\u00e1, Andrew Gee, and Michael Taylor. 1999. Document mosaicing. Image and Vision Computing 17, 8 (1999), 589\u2013595.",
+      "doi": ""
+    },
+    {
+      "text": "Juyong Zhang, Bailin Deng, Yang Hong, Yue Peng, Wenjie Qin, and Ligang Liu. 2018. Static/dynamic filtering for mesh geometry. IEEE Transactions on Visualization and Computer Graphics 25, 4(2018), 1774\u20131787.",
+      "doi": "10.1109/TVCG.2018.2816926"
+    },
+    {
+      "text": "Jiayi\u00a0Eris Zhang, Nicole Sultanum, Anastasia Bezerianos, and Fanny Chevalier. 2020. DataQuilt: Extracting Visual Elements from Images to Craft Pictorial Visualizations. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, 1\u201313.",
+      "doi": "10.1145/3313831.3376172"
+    },
+    {
+      "text": "Peiying Zhang, Chenhui Li, and Changbo Wang. 2020. Viscode: Embedding information in visualization images using encoder-decoder network. IEEE Transactions on Visualization and Computer Graphics 27, 2(2020), 326\u2013336.",
+      "doi": ""
+    },
+    {
+      "text": "Yixuan Zhang, Yifan Sun, Lace Padilla, Sumit Barua, Enrico Bertini, and Andrea\u00a0G Parker. 2021. Mapping the Landscape of COVID-19 Crisis Visualizations. In Proc. of the Conference on Human Factors in Computing Systems (CHI). ACM, NY, USA, 1\u201323.",
+      "doi": "10.1145/3411764.3445381"
+    },
+    {
+      "text": "Jian Zhao, Mingming Fan, and Mi Feng. 2020. ChartSeer: Interactive Steering Exploratory Visual Analysis with Machine Intelligence. IEEE Transactions on Visualization and Computer Graphics (Early Access) (2020).",
+      "doi": ""
+    }
+  ]
+}

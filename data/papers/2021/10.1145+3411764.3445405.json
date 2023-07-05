@@ -1,0 +1,745 @@
+{
+  "doi": "10.1145/3411764.3445405",
+  "title": "What Life Events are Disclosed on Social Media, How, When, and By Whom?",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-22",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Social media platforms continue to evolve as archival platforms, where important milestones in an individual\u2019s life are socially disclosed for support, solidarity, maintaining and gaining social capital, or to meet therapeutic needs. However, a limited understanding of how and what life events are disclosed (or not) prevents designing platforms to be sensitive to life events. We ask what life events individuals disclose on a 256 participants\u2019 year-long Facebook dataset of 14K posts against their self-reported life events. We contribute a codebook to identify life event disclosures and build regression models on factors explaining life events\u2019 disclosures. Positive and anticipated events are more likely, whereas significant, recent, and intimate events are less likely to be disclosed on social media. While all life events may not be disclosed, online disclosures can reflect complementary information to self-reports. Our work bears practical and platform design implications in providing support and sensitivity to life events.",
+  "authors": [
+    {
+      "name": "Koustuv Saha",
+      "institution": "School of Interactive Computing, Georgia Institute of Technology, United States",
+      "img": "/do/10.1145/contrib-99659200365/rel-imgonly/koustuv_square_ddub.jpg",
+      "acmid": "99659200365",
+      "orcid": "0000-0002-8872-2934"
+    },
+    {
+      "name": "Jordyn Seybolt",
+      "institution": "Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700889",
+      "orcid": "missing"
+    },
+    {
+      "name": "Stephen M Mattingly",
+      "institution": "University of Notre Dame, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659069720",
+      "orcid": "missing"
+    },
+    {
+      "name": "Talayeh Aledavood",
+      "institution": "Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702185",
+      "orcid": "missing"
+    },
+    {
+      "name": "Chaitanya Konjeti",
+      "institution": "Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700476",
+      "orcid": "missing"
+    },
+    {
+      "name": "Gonzalo J. Martinez",
+      "institution": "Computer Science and Engineering, University of Notre Dame, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659366185",
+      "orcid": "missing"
+    },
+    {
+      "name": "Ted Grover",
+      "institution": "Department of Informatics, University of California, Irvine, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659200297",
+      "orcid": "missing"
+    },
+    {
+      "name": "Gloria Mark",
+      "institution": "Department of Informatics, University of California, Irvine, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100279599",
+      "orcid": "missing"
+    },
+    {
+      "name": "Munmun De Choudhury",
+      "institution": "School of Interactive Computing, Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81343491309",
+      "orcid": "0000-0002-8939-264X"
+    }
+  ],
+  "references": [
+    {
+      "text": "Mark\u00a0S Ackerman. 2000. The intellectual challenge of CSCW: the gap between social requirements and technical feasibility. Human\u2013Computer Interaction 15, 2-3 (2000), 179\u2013203.",
+      "doi": "10.1207/S15327051HCI1523_5"
+    },
+    {
+      "text": "Daniel\u00a0E Adkins, Victor Wang, Matthew\u00a0E Dupre, Edwin\u00a0JCG Van\u00a0den Oord, and Glen\u00a0H Elder\u00a0Jr. 2009. Structure and stress: Trajectories of depressive symptoms across adolescence and young adulthood. Social forces 88, 1 (2009), 31\u201360.",
+      "doi": ""
+    },
+    {
+      "text": "Icek Ajzen. 1985. From intentions to actions: A theory of planned behavior. In Action control. Springer, 11\u201339.",
+      "doi": ""
+    },
+    {
+      "text": "Irwin Altman. 1975. The Environment and Social Behavior: Privacy, Personal Space, Territory, and Crowding.(1975).",
+      "doi": ""
+    },
+    {
+      "text": "Irwin Altman and Dalmas\u00a0A Taylor. 1973. Social penetration: The development of interpersonal relationships.Holt, Rinehart & Winston.",
+      "doi": ""
+    },
+    {
+      "text": "Nazanin Andalibi. 2020. Disclosure, Privacy, and Stigma on Social Media: Examining Non-Disclosure of Distressing Experiences. ACM Transactions on Computer-Human Interaction (TOCHI) 27, 3(2020), 1\u201343.",
+      "doi": "10.1145/3386600"
+    },
+    {
+      "text": "Nazanin Andalibi and Andrea Forte. 2018. Announcing pregnancy loss on Facebook: A decision-making framework for stigmatized disclosures on identified social network sites. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3173574.3173732"
+    },
+    {
+      "text": "Nazanin Andalibi, Oliver\u00a0L Haimson, Munmun De\u00a0Choudhury, and Andrea Forte. 2016. Understanding social media disclosures of sexual abuse through the lenses of support seeking and anonymity. In Proc. CHI.",
+      "doi": "10.1145/2858036.2858096"
+    },
+    {
+      "text": "Nazanin Andalibi, Pinar Ozturk, and Andrea Forte. 2017. Sensitive Self-disclosures, Responses, and Social Support on Instagram: the case of# depression. In Proceedings of the 2017 ACM conference on computer supported cooperative work and social computing. 1485\u20131500.",
+      "doi": "10.1145/2998181.2998243"
+    },
+    {
+      "text": "Alan\u00a0D Baddeley and Graham Hitch. 1993. The recency effect: Implicit learning with explicit retrieval?Memory & Cognition 21, 2 (1993), 146\u2013155.",
+      "doi": ""
+    },
+    {
+      "text": "Mitchell\u00a0K Bartholomew, Sarah\u00a0J Schoppe-Sullivan, Michael Glassman, Claire\u00a0M Kamp\u00a0Dush, and Jason\u00a0M Sullivan. 2012. New parents\u2019 Facebook use at the transition to parenthood. Family relations 61, 3 (2012), 455\u2013469.",
+      "doi": ""
+    },
+    {
+      "text": "Eric\u00a0PS Baumer, Phil Adams, Vera\u00a0D Khovanskaya, Tony\u00a0C Liao, Madeline\u00a0E Smith, Victoria Schwanda\u00a0Sosik, and Kaiton Williams. 2013. Limiting, leaving, and (re) lapsing: an exploration of facebook non-use practices and experiences. In Proceedings of the SIGCHI conference on human factors in computing systems.",
+      "doi": "10.1145/2470654.2466446"
+    },
+    {
+      "text": "Natalya\u00a0N Bazarova and Yoon\u00a0Hyung Choi. 2014. Self-disclosure in social media: Extending the functional approach to disclosure motivations and characteristics on social network sites. Journal of Communication 64, 4 (2014), 635\u2013657.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0S Bernstein, Eytan Bakshy, Moira Burke, and Brian Karrer. 2013. Quantifying the invisible audience in social networks. In Proceedings of the SIGCHI conference on human factors in computing systems. ACM, 21\u201330.",
+      "doi": "10.1145/2470654.2470658"
+    },
+    {
+      "text": "Jennifer\u00a0L Bevan, Ruth Gomez, and Lisa Sparks. 2014. Disclosures about important life events on Facebook: Relationships with stress and quality of life. Computers in Human Behavior 39 (2014), 246\u2013253.",
+      "doi": "10.1016/J.CHB.2014.07.021"
+    },
+    {
+      "text": "Jens Binder, Andrew Howes, and Alistair Sutcliffe. 2009. The problem of conflicting social spheres: effects of network structure on experienced tension in social network sites. In Proceedings of the SIGCHI conference on human factors in computing systems. 965\u2013974.",
+      "doi": "10.1145/1518701.1518849"
+    },
+    {
+      "text": "boyd, danah and Ellison, Nicole B. 2007. Social network sites: Definition, history, and scholarship. Journal of computer-mediated communication(2007).",
+      "doi": ""
+    },
+    {
+      "text": "Elleen Brown. 2018. Americans prefer sharing life\u2019s milestones with their social network than in person. https://www.zdnet.com/article/americans-prefer-sharing-lifes-milestones-with-their-social-network-than-in-person/. Accessed: 2020-09-15.",
+      "doi": ""
+    },
+    {
+      "text": "Jed\u00a0R Brubaker, Gillian\u00a0R Hayes, and Paul Dourish. 2013. Beyond the grave: Facebook as a site for the expansion of death and mourning. The Information Society 29, 3 (2013), 152\u2013163.",
+      "doi": "10.1080/01972243.2013.777300"
+    },
+    {
+      "text": "Jed\u00a0R Brubaker, Funda Kivran-Swaine, Lee Taber, and Gillian\u00a0R Hayes. 2012. Grief-Stricken in a Crowd: The Language of Bereavement and Distress in Social Media.. In ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Taina Bucher, Anne Helmond, 2017. The affordances of social media platforms. The SAGE handbook of social media(2017), 233\u2013253.",
+      "doi": ""
+    },
+    {
+      "text": "Moira Burke, Justin Cheng, and Bethany de Gant. 2020. Social Comparison and Facebook: Feedback, Positivity, and Opportunities for Comparison. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems.",
+      "doi": "10.1145/3313831.3376482"
+    },
+    {
+      "text": "Moira Burke and Robert Kraut. 2013. Using Facebook after losing a job: Differential benefits of strong and weak ties. In Proceedings of the 2013 conference on Computer supported cooperative work. 1419\u20131430.",
+      "doi": "10.1145/2441776.2441936"
+    },
+    {
+      "text": "Ralph Catalano. 1979. Health, behavior and the community: An ecological perspective. Pergamon Press New York.",
+      "doi": ""
+    },
+    {
+      "text": "Paulo\u00a0R Cavalin, Luis\u00a0G Moyano, and Pedro\u00a0P Miranda. 2015. A multiple classifier system for classifying life events on social media. In 2015 IEEE international conference on Data mining workshop (ICDMW). IEEE, 1332\u20131335.",
+      "doi": "10.1109/ICDMW.2015.182"
+    },
+    {
+      "text": "Justin Cheng, Moira Burke, and Elena\u00a0Goetz Davis. 2019. Understanding perceptions of problematic Facebook use: When people experience negative life impact and a lack of control. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300429"
+    },
+    {
+      "text": "Mina Choi and Catalina\u00a0L Toma. 2014. Social sharing through interpersonal media: Patterns and effects on emotional well-being. Computers in Human Behavior 36 (2014), 530\u2013541.",
+      "doi": "10.1016/j.chb.2014.04.026"
+    },
+    {
+      "text": "Smitashree Choudhury and Harith Alani. 2014. Personal life event detection from social media. (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Chia-Fang Chung, Elena Agapie, Jessica Schroeder, Sonali Mishra, James Fogarty, and Sean\u00a0A Munson. 2017. When personal tracking becomes social: Examining the use of Instagram for healthy eating. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems.",
+      "doi": "10.1145/3025453.3025747"
+    },
+    {
+      "text": "Jacob Cohen. 1992. Statistical power analysis. Curr. Dir. Psychol. Sci.(1992).",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0A Cohn, Matthias\u00a0R Mehl, and James\u00a0W Pennebaker. 2004. Linguistic markers of psychological change surrounding September 11, 2001. Psychological science 15, 10 (2004), 687\u2013693.",
+      "doi": ""
+    },
+    {
+      "text": "Bruce\u00a0E Compas, Glen\u00a0E Davis, and Carolyn\u00a0J Forsythe. 1985. Characteristics of life events during adolescence. American Journal of Community Psychology 13, 6 (1985), 677\u2013691.",
+      "doi": ""
+    },
+    {
+      "text": "Tony\u00a0J Cunningham, Charles\u00a0R Crowell, Sara\u00a0E Alger, Elizabeth\u00a0A Kensinger, Michael\u00a0A Villano, Stephen\u00a0M Mattingly, and Jessica\u00a0D Payne. 2014. Psychophysiological arousal at encoding leads to reduced reactivity but enhanced emotional memory following sleep. Neurobiology of Learning and Memory(2014).",
+      "doi": ""
+    },
+    {
+      "text": "Sauvik Das and Adam Kramer. 2013. Self-censorship on Facebook. In Proc. ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Munmun De\u00a0Choudhury, Scott Counts, and Eric Horvitz. 2013. Predicting postpartum changes in emotion and behavior via social media. In Proceedings of the SIGCHI conference on human factors in computing systems. 3267\u20133276.",
+      "doi": "10.1145/2470654.2466447"
+    },
+    {
+      "text": "Munmun De\u00a0Choudhury, Scott Counts, Eric Horvitz, and Aaron Hoff. 2014. Characterizing and Predicting Postpartum Depression from Facebook Data. In Proc. CSCW.",
+      "doi": "10.1145/2531602.2531675"
+    },
+    {
+      "text": "Munmun De\u00a0Choudhury and Sushovan De. 2014. Mental health discourse on reddit: Self-disclosure, social support, and anonymity. In Eighth international AAAI conference on weblogs and social media.",
+      "doi": ""
+    },
+    {
+      "text": "Munmun De\u00a0Choudhury and Michael Massimi. 2015. \u201d She said yes\u201d\u2013Liminality and Engagement Announcements on Twitter. iConference 2015 Proceedings(2015).",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0A DeVito, Jeremy Birnholtz, and Jeffery\u00a0T Hancock. 2017. Platforms, people, and perception: Using affordances to understand self-presentation on social media. In Proceedings of the 2017 ACM conference on computer supported cooperative work and social computing. 740\u2013754.",
+      "doi": "10.1145/2998181.2998192"
+    },
+    {
+      "text": "Thomas Dickinson, Miriam Fernandez, Lisa\u00a0A Thomas, Paul Mulholland, Pam Briggs, and Harith Alani. 2015. Identifying prominent life events on twitter. In Proceedings of the 8th International Conference on Knowledge Capture. 1\u20138.",
+      "doi": "10.1145/2815833.2815845"
+    },
+    {
+      "text": "Barbara\u00a0Snell Dohrenwend, Alexander\u00a0R Askenasy, Larry Krasnoff, and Bruce\u00a0P Dohrenwend. 1978. Exemplification of a method for scaling life events: The PERI Life Events Scale. Journal of health and social behavior(1978), 205\u2013229.",
+      "doi": ""
+    },
+    {
+      "text": "Barbara\u00a0S Dohrenwend and Bruce\u00a0P Dohrenwend. 1974. Stressful life events: Their nature and effects.John Wiley & Sons.",
+      "doi": ""
+    },
+    {
+      "text": "Yuriko Doi, Masumi Minowa, Makoto Uchiyama, Masako Okawa, Keiko Kim, Kayo Shibui, and Yuichi Kamei. 2000. Psychometric assessment of subjective sleep quality using the Japanese version of the Pittsburgh Sleep Quality Index (PSQI-J) in psychiatric disordered and control subjects. Psychiatry research 97, 2-3 (2000), 165\u2013172.",
+      "doi": ""
+    },
+    {
+      "text": "Judith\u00a0S Donath 1999. Identity and deception in the virtual community. Communities in cyberspace 1996 (1999), 29\u201359.",
+      "doi": ""
+    },
+    {
+      "text": "Robin\u00a0IM Dunbar, Anna Marriott, and Neil\u00a0DC Duncan. 1997. Human conversational behavior. Human nature 8, 3 (1997), 231\u2013246.",
+      "doi": ""
+    },
+    {
+      "text": "Nicole Ellison, Rebecca Heino, and Jennifer Gibbs. 2006. Managing impressions online: Self-presentation processes in the online dating environment. Journal of computer-mediated communication 11, 2 (2006), 415\u2013441.",
+      "doi": ""
+    },
+    {
+      "text": "Chris Elsden, Abigail\u00a0C Durrant, and David\u00a0S Kirk. 2016. It\u2019s Just My History Isn\u2019t It? Understanding smart journaling practices. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 2819\u20132831.",
+      "doi": "10.1145/2858036.2858103"
+    },
+    {
+      "text": "Sindhu\u00a0Kiranmai Ernala, Tristan Labetoulle, Fred Bane, Michael\u00a0L Birnbaum, Asra\u00a0F Rizvi, John\u00a0M Kane, and Munmun De\u00a0Choudhury. 2018. Characterizing audience engagement and assessing its impact on social media disclosures of mental illnesses. In ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Sindhu\u00a0Kiranmai Ernala, Asra\u00a0F Rizvi, Michael\u00a0L Birnbaum, John\u00a0M Kane, and Munmun De\u00a0Choudhury. 2017. Linguistic markers indicating therapeutic outcomes of social media disclosures of schizophrenia. Proceedings of the ACM on Human-Computer Interaction 1, CSCW(2017), 1\u201327.",
+      "doi": "10.1145/3134678"
+    },
+    {
+      "text": "Casey Fiesler and Nicholas Proferes. 2018. \u201cParticipant\u201d perceptions of Twitter research ethics. Social Media+ Society(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Saby Ghoshray. 2013. Employer surveillance versus employee privacy: The new reality of social media and workplace privacy. N. Ky. L. Rev. 40(2013), 593.",
+      "doi": ""
+    },
+    {
+      "text": "Kimberly Glasgow, Clayton Fink, and Jordan\u00a0L Boyd-Graber. 2014. \u201d Our Grief is Unspeakable\u201d: Automatically Measuring the Community Impact of a Tragedy.. In ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Arthur\u00a0M Glenberg, Margaret\u00a0M Bradley, Thomas\u00a0A Kraus, and Gary\u00a0J Renzaglia. 1983. Studies of the long-term recency effect: Support for a contextually guided retrieval hypothesis.Journal of Experimental Psychology: Learning, Memory, and Cognition 9, 2(1983), 231.",
+      "doi": ""
+    },
+    {
+      "text": "Erving Goffman. 1959. The presentation of self in everyday life. (1959).",
+      "doi": ""
+    },
+    {
+      "text": "Evelyn\u00a0L Goldberg and George\u00a0W Comstock. 1980. Epidemiology of life events: Frequency in general populations. American Journal of epidemiology(1980).",
+      "doi": ""
+    },
+    {
+      "text": "Matt\u00a0J Gray, Brett\u00a0T Litz, Julie\u00a0L Hsu, and Thomas\u00a0W Lombardo. 2004. Psychometric properties of the life events checklist. Assessment (2004).",
+      "doi": ""
+    },
+    {
+      "text": "Samuel Greengard. 2012. Digitally possessed. Commun. ACM (2012).",
+      "doi": ""
+    },
+    {
+      "text": "Shannon Greenwood, Andrew Perrin, and Maeve Duggan. 2016. Demographics of Social Media Users in 2016. pewinternet.org/2016/11/11/social-media-update-2016/. Accessed: 2017-02-12.",
+      "doi": ""
+    },
+    {
+      "text": "Shannon Greenwood, Andrew Perrin, and Maeve Duggan. 2016. Social media update 2016. Pew Research Center 11, 2 (2016), 1\u201318.",
+      "doi": ""
+    },
+    {
+      "text": "Pamela Grimm. 2010. Social desirability bias. Wiley international encyclopedia of marketing (2010).",
+      "doi": ""
+    },
+    {
+      "text": "Tamy Guberek, Allison McDonald, Sylvia Simioni, Abraham\u00a0H Mhaidli, Kentaro Toyama, and Florian Schaub. 2018. Keeping a low profile? Technology, risk and privacy among undocumented immigrants. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems.",
+      "doi": "10.1145/3173574.3173688"
+    },
+    {
+      "text": "Jamie Guillory and Jeffrey\u00a0T Hancock. 2012. The effect of Linkedin on deception in resumes. Cyberpsychology, Behavior, and Social Networking (2012).",
+      "doi": ""
+    },
+    {
+      "text": "Sharath\u00a0Chandra Guntuku, Anneke Buffone, Kokil Jaidka, Johannes\u00a0C Eichstaedt, and Lyle\u00a0H Ungar. 2019. Understanding and measuring psychological stress using social media. In Proc. ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Oliver\u00a0L Haimson, Nazanin Andalibi, Munmun De\u00a0Choudhury, and Gillian\u00a0R Hayes. 2018. Relationship breakup disclosures and media ideologies on Facebook. New Media & Society 20, 5 (2018), 1931\u20131952.",
+      "doi": ""
+    },
+    {
+      "text": "Oliver\u00a0L Haimson, Anne\u00a0E Bowser, Edward\u00a0F Melcer, and Elizabeth\u00a0F Churchill. 2015. Online inspiration and exploration for identity reinvention. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 3809\u20133818.",
+      "doi": "10.1145/2702123.2702270"
+    },
+    {
+      "text": "Oliver\u00a0L Haimson, Jed\u00a0R Brubaker, Lynn Dombrowski, and Gillian\u00a0R Hayes. 2015. Disclosure, stress, and support during gender transition on Facebook. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing. 1176\u20131190.",
+      "doi": "10.1145/2675133.2675152"
+    },
+    {
+      "text": "Oliver\u00a0L Haimson and Tiffany\u00a0C Veinot. 2020. Coming Out to Doctors, Coming Out to \u201cEveryone\u201d: Understanding the Average Sequence of Transgender Identity Disclosures Using Social Media Data. Transgender Health (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Kate\u00a0L Harkness and Scott\u00a0M Monroe. 2016. The assessment and measurement of adult life stress: Basic premises, operational principles, and design requirements.Journal of Abnormal Psychology 125, 5 (2016), 727.",
+      "doi": ""
+    },
+    {
+      "text": "M Harris. 2005. Is journaling empowering? Students\u2019 perceptions of their reflective writing experience. Health SA Gesondheid 10, 2 (2005), 47\u201360.",
+      "doi": ""
+    },
+    {
+      "text": "Kashmir Hill. 2012. How target figured out a teen girl was pregnant before her father did. Forbes, Inc (2012).",
+      "doi": ""
+    },
+    {
+      "text": "Bernie Hogan. 2010. The presentation of self in the age of social media: Distinguishing performances and exhibitions online. Bulletin of Science, Technology & Society 30, 6 (2010), 377\u2013386.",
+      "doi": ""
+    },
+    {
+      "text": "Erin\u00a0E Hollenbaugh and Amber\u00a0L Ferris. 2014. Facebook self-disclosure: Examining the role of traits, social cohesion, and motives. Computers in Human Behavior 30 (2014), 50\u201358.",
+      "doi": "10.1016/j.chb.2013.07.055"
+    },
+    {
+      "text": "Thomas\u00a0H Holmes and Richard\u00a0H Rahe. 1967. The social readjustment rating scale.Journal of psychosomatic research(1967).",
+      "doi": ""
+    },
+    {
+      "text": "Hsiu-Fang Hsieh and Sarah\u00a0E Shannon. 2005. Three approaches to qualitative content analysis. Qualitative health research 15, 9 (2005), 1277\u20131288.",
+      "doi": ""
+    },
+    {
+      "text": "CJ Hutto and E Gilbert. 2014. Vader: A parsimonious rule-based model for sentiment analysis of social media text. ICWSM proceedings.",
+      "doi": ""
+    },
+    {
+      "text": "Mark Irvine. 2018. Google Releases Life Events Targeting to Everyone!https://www.wordstream.com/blog/ws/2017/11/29/adwords-life-events-targeting. Accessed: 2020-09-08.",
+      "doi": ""
+    },
+    {
+      "text": "Adam\u00a0N Joinson. 2001. Self-disclosure in computer-mediated communication: The role of self-awareness and visual anonymity. European Journal of Social Psychology 31, 2 (2001), 177\u2013192.",
+      "doi": ""
+    },
+    {
+      "text": "Adam\u00a0N Joinson and Carina\u00a0B Paine. 2007. Self-disclosure, privacy and the Internet. The Oxford handbook of Internet psychology(2007), 2374252.",
+      "doi": ""
+    },
+    {
+      "text": "Sidney\u00a0M Jourard. 1971. Self-disclosure: An experimental analysis of the transparent self. NewYork, NY: Wiley-Interscience.",
+      "doi": ""
+    },
+    {
+      "text": "Sanjay\u00a0Ram Kairam, Dan\u00a0J Wang, and Jure Leskovec. 2012. The life and death of online groups: Predicting group growth and longevity. In Proceedings of the fifth ACM international conference on Web search and data mining. 673\u2013682.",
+      "doi": "10.1145/2124295.2124374"
+    },
+    {
+      "text": "Ruogu Kang, Stephanie Brown, and Sara Kiesler. 2013. Why do people seek anonymity on the internet? Informing policy and design. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2657\u20132666.",
+      "doi": "10.1145/2470654.2481368"
+    },
+    {
+      "text": "Dilara Kek\u00fcll\u00fcoglu, Walid Magdy, and Kami Vaniea. 2020. Analysing Privacy Leakage of Life Events on Twitter. In ACM Web Science.",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth\u00a0S Kendler, John\u00a0M Hettema, Frank Butera, Charles\u00a0O Gardner, and Carol\u00a0A Prescott. 2003. Life event dimensions of loss, humiliation, entrapment, and danger in the prediction of onsets of major depression and generalized anxiety. Archives of general psychiatry 60, 8 (2003), 789\u2013796.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0A Kensinger and Suzanne Corkin. 2004. Two routes to emotional memory: Distinct neural processes for valence and arousal. Proceedings of the National Academy of Sciences 101, 9 (2004), 3310\u20133315.",
+      "doi": ""
+    },
+    {
+      "text": "Maryam Khodabakhsh, Mohsen Kahani, Ebrahim Bagheri, and Zeinab Noorian. 2018. Detecting life events from twitter based on temporal semantic features. Knowledge-Based Systems 148 (2018), 1\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Emre K\u0131c\u0131man, Scott Counts, and Melissa Gasser. 2018. Using Longitudinal Social Media Analysis to Understand the Effects of Early College Alcohol Use.. In ICWSM. 171\u2013180.",
+      "doi": ""
+    },
+    {
+      "text": "Eunice Kim, Jung-Ah Lee, Yongjun Sung, and Sejung\u00a0Marina Choi. 2016. Predicting selfie-posting behavior on social networking sites: An extension of theory of planned behavior. Computers in Human Behavior 62 (2016), 116\u2013123.",
+      "doi": "10.1016/j.chb.2016.03.078"
+    },
+    {
+      "text": "Funda Kivran-Swaine, Sam Brody, Nicholas Diakopoulos, and Mor Naaman. 2012. Of joy and gender: emotional expression in online social networks. In Proceedings of the ACM 2012 conference on Computer Supported Cooperative Work Companion. 139\u2013142.",
+      "doi": "10.1145/2141512.2141562"
+    },
+    {
+      "text": "Ronald Kline. 2003. Resisting consumer technology in rural America: The telephone and electrification. How users matter: The co-construction of users and technology (2003), 51\u201366.",
+      "doi": ""
+    },
+    {
+      "text": "MH Landis and Harold\u00a0E Burtt. 1924. A Study of Conversations.Journal of Comparative Psychology 4, 1 (1924), 81.",
+      "doi": ""
+    },
+    {
+      "text": "Jiwei Li, Alan Ritter, Claire Cardie, and Eduard Hovy. 2014. Major life event extraction from twitter based on congratulations/condolences speech acts. In Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP). 1997\u20132007.",
+      "doi": ""
+    },
+    {
+      "text": "Zhou Li, Kehuan Zhang, Yinglian Xie, Fang Yu, and XiaoFeng Wang. 2012. Knowing your enemy: understanding and detecting malicious web advertising. In Proc. ACM conference on Computer and communications security.",
+      "doi": "10.1145/2382196.2382267"
+    },
+    {
+      "text": "Jason Liu, Elissa\u00a0R Weitzman, and Rumi Chunara. 2017. Assessing behavioral stages from social media data. In CSCW.",
+      "doi": ""
+    },
+    {
+      "text": "Xiao Ma, Jeff Hancock, and Mor Naaman. 2016. Anonymity, intimacy and self-disclosure in social media. In Proceedings of the 2016 CHI conference on human factors in computing systems. ACM, 3857\u20133869.",
+      "doi": "10.1145/2858036.2858414"
+    },
+    {
+      "text": "Gloria Mark, Mossaab Bagdouri, Leysia Palen, James Martin, Ban Al-Ani, and Kenneth Anderson. 2012. Blogs as a collective war diary. In CSCW. ACM, 37\u201346.",
+      "doi": ""
+    },
+    {
+      "text": "Alice\u00a0E Marwick and Danah Boyd. 2011. I tweet honestly, I tweet passionately: Twitter users, context collapse, and the imagined audience. New media & society 13, 1 (2011), 114\u2013133.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Massimi and Ronald\u00a0M Baecker. 2010. A death in the family: opportunities for designing technologies for the bereaved. In Proceedings of the SIGCHI conference on Human Factors in computing systems. 1821\u20131830.",
+      "doi": "10.1145/1753326.1753600"
+    },
+    {
+      "text": "Minoru Masuda and Thomas\u00a0H Holmes. 1978. Life events: Perceptions and frequencies. Psychosomatic medicine 40, 3 (1978), 236\u2013261.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen\u00a0M Mattingly, Julie\u00a0M Gregg, Pino Audia, Ayse\u00a0Elvan Bayraktaroglu, Andrew\u00a0T Campbell, Nitesh\u00a0V Chawla, Vedant\u00a0Das Swain, Munmun De\u00a0Choudhury, Sidney\u00a0K D\u1e3eello, Anind\u00a0K Dey, 2019. The Tesserae Project: Large-Scale, Longitudinal, In Situ, Multimodal Sensing of Information Workers. (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0L Mendelson and Zizi Papacharissi. 2010. Look at us: Collective narcissism in college student Facebook photo galleries. The networked self: Identity, community and culture on social network sites 1974(2010), 1\u201337.",
+      "doi": ""
+    },
+    {
+      "text": "Dar Meshi, Loreen Mamerow, Evgeniya Kirilina, Carmen Morawetz, Daniel\u00a0S Margulies, and Hauke\u00a0R Heekeren. 2016. Sharing self-related information is associated with intrinsic functional connectivity of cortical midline brain regions. Scientific Reports 6, 1 (2016), 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Eric Meyer. 2014. Inadvertent Algorithmic Cruelty. https://meyerweb.com/eric/thoughts/2014/12/24/inadvertent-algorithmic-cruelty/. Accessed: 2020-09-08.",
+      "doi": ""
+    },
+    {
+      "text": "Scott\u00a0M Monroe. 1982. Life events assessment: Current practices, emerging trends. Clinical Psychology Review 2, 4 (1982), 435\u2013453.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0M Morgan, Chareen Snelson, and Patt Elison-Bowers. 2010. Image and video disclosure of substance use on social media websites. Computers in Human Behavior 26, 6 (2010), 1405\u20131411.",
+      "doi": "10.1016/j.chb.2010.04.017"
+    },
+    {
+      "text": "Dhiraj Murthy. 2012. Towards a sociological understanding of social media: Theorizing Twitter. Sociology 46, 6 (2012), 1059\u20131073.",
+      "doi": ""
+    },
+    {
+      "text": "Mor Naaman, Jeffrey Boase, and Chih-Hui Lai. 2010. Is it really about me?: message content in social awareness streams. In Proc. CSCW. ACM.",
+      "doi": "10.1145/1718918.1718953"
+    },
+    {
+      "text": "James\u00a0S Nairne, Sarah\u00a0R Thompson, and Josefa\u00a0NS Pandeirada. 2007. Adaptive memory: Survival processing enhances retention.Journal of Experimental Psychology: Learning, Memory, and Cognition 33, 2(2007), 263.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0D Newcomb, George\u00a0J Huba, and Peter\u00a0M Bentler. 1981. A multidimensional assessment of stressful life events among adolescents: Derivation and correlates. Journal of health and social behavior(1981), 400\u2013415.",
+      "doi": ""
+    },
+    {
+      "text": "Mark\u00a0W Newman, Debra Lauterbach, Sean\u00a0A Munson, Paul Resnick, and Margaret\u00a0E Morris. 2011. It\u2019s not that i don\u2019t have problems, i\u2019m just not putting them on facebook: challenges and opportunities in using online social networks for health. In Proceedings of the ACM 2011 conference on Computer supported cooperative work. 341\u2013350.",
+      "doi": "10.1145/1958824.1958876"
+    },
+    {
+      "text": "Hyun\u00a0Jung Oh, Carolyn Lauckner, Jan Boehmer, Ryan Fewins-Bliss, and Kang Li. 2013. Facebooking for health: An examination into the solicitation and effects of health-related social support on social networking sites. Computers in Human Behavior 29, 5 (2013), 2072\u20132080.",
+      "doi": ""
+    },
+    {
+      "text": "Chester\u00a0L Olson. 1979. Practical considerations in choosing a MANOVA test statistic: A rejoinder to Stevens.(1979).",
+      "doi": ""
+    },
+    {
+      "text": "Julia Omarzu. 2000. A disclosure decision model: Determining how and when individuals will self-disclose. Personality and Social Psychology Review 4, 2 (2000).",
+      "doi": ""
+    },
+    {
+      "text": "Eileen\u00a0YL Ong, Rebecca\u00a0P Ang, Jim\u00a0CM Ho, Joylynn\u00a0CY Lim, Dion\u00a0H Goh, Chei\u00a0Sian Lee, and Alton\u00a0YK Chua. 2011. Narcissism, extraversion and adolescents\u2019 self-presentation on Facebook. Personality and individual differences 50, 2 (2011), 180\u2013185.",
+      "doi": ""
+    },
+    {
+      "text": "Tu\u011f\u00e7e Ozansoy\u00a0\u00c7ad\u0131rc\u0131 and Ay\u015feg\u00fcl Sa\u011fkaya\u00a0G\u00fcng\u00f6r. 2019. Love my selfie: selfies in managing impressions on social networks. Journal of Marketing Communications 25, 3 (2019), 268\u2013287.",
+      "doi": ""
+    },
+    {
+      "text": "Xinru Page, Pamela Wisniewski, Bart\u00a0P Knijnenburg, and Moses Namara. 2018. Social media\u2019s have-nots: an era of social disenfranchisement. Internet Research (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Harshvardhan\u00a0J Pandit and Dave Lewis. 2018. Ease and ethics of user profiling in black mirror. In Companion Proceedings of the The Web Conference 2018.",
+      "doi": "10.1145/3184558.3191614"
+    },
+    {
+      "text": "Galen Panger. 2014. Social comparison in social media: A look at Facebook and Twitter. In CHI\u201914 Extended Abstracts on Human Factors in Computing Systems. 2095\u20132100.",
+      "doi": ""
+    },
+    {
+      "text": "Trishna Patel, Chris\u00a0R Brewin, Jon Wheatley, Adrian Wells, Peter Fisher, and Samuel Myers. 2007. Intrusive images and memories in major depression. Behaviour research and therapy 45, 11 (2007), 2573\u20132580.",
+      "doi": ""
+    },
+    {
+      "text": "Jessica Payne, Alexis\u00a0M Chambers, and Elizabeth\u00a0A Kensinger. 2012. Sleep promotes lasting changes in selective memory for emotional scenes. Frontiers in integrative neuroscience 6 (2012), 108.",
+      "doi": ""
+    },
+    {
+      "text": "Sandra Petronio. 2002. Boundaries of privacy: Dialectics of disclosure. Suny Press.",
+      "doi": ""
+    },
+    {
+      "text": "Pew. 2019. pewresearch.org/fact-tank/2019/04/10/share-of-u-s-adults-using-social-media-including-facebook-is-mostly-unchanged-since-2018.",
+      "doi": ""
+    },
+    {
+      "text": "James Pierce. 2012. Undesigning technology: considering the negation of design by design. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 957\u2013966.",
+      "doi": "10.1145/2207676.2208540"
+    },
+    {
+      "text": "Teri Quatman and Connie Swanson. 2002. Academic self-disclosure in adolescence. Genetic, social, and general psychology monographs 128, 1(2002), 47\u201376.",
+      "doi": ""
+    },
+    {
+      "text": "Leonard Reinecke and Sabine Trepte. 2014. Authenticity and well-being on social network sites: A two-wave longitudinal study on the effects of online authenticity and the positivity bias in SNS communication. Computers in Human Behavior 30 (2014), 95\u2013102.",
+      "doi": "10.1016/j.chb.2013.07.030"
+    },
+    {
+      "text": "Michelle Richey, Aparna Gonibeed, and MN Ravishankar. 2018. The perils and promises of self-disclosure on social media. Information Systems Frontiers 20, 3 (2018), 425\u2013437.",
+      "doi": "10.1007/s10796-017-9806-7"
+    },
+    {
+      "text": "Heidi\u00a0R Riggio and Ronald\u00a0E Riggio. 2002. Emotional expressiveness, extraversion, and neuroticism: A meta-analysis. Journal of Nonverbal Behavior 26, 4 (2002), 195\u2013218.",
+      "doi": ""
+    },
+    {
+      "text": "William Roberts and Janet Strayer. 1996. Empathy, emotional expressiveness, and prosocial behavior. Child development 67, 2 (1996), 449\u2013470.",
+      "doi": ""
+    },
+    {
+      "text": "Laura Robinson. 2007. The cyberself: the self-ing project goes online, symbolic interaction in the digital age. New Media & Society(2007).",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha 2019. Social Media as a Passive Sensor in Longitudinal Studies of Human Behavior and Wellbeing. In CHI Ext. Abstracts. ACM.",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha and Munmun De\u00a0Choudhury. 2017. Modeling stress with social media around incidents of gun violence on college campuses. PACM Human-Computer InteractionCSCW (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha, Sang\u00a0Chan Kim, Manikanta\u00a0D Reddy, Albert\u00a0J Carter, Eva Sharma, Oliver\u00a0L Haimson, and Munmun De\u00a0Choudhury. 2019. The language of LGBTQ+ minority stress experiences on social media. PACM HCICSCW(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha, Manikanta\u00a0D Reddy, Stephen Mattingly, Edward Moskal, Anusha Sirigiri, and Munmun De\u00a0Choudhury. 2019. Libra: On linkedin based role ambiguity and its relationship with wellbeing and job performance. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201330.",
+      "doi": "10.1145/3359239"
+    },
+    {
+      "text": "Koustuv Saha, Benjamin Sugar, John Torous, Bruno Abrahao, Emre K\u0131c\u0131man, and Munmun De\u00a0Choudhury. 2019. A Social Media Study on the Effects of Psychiatric Medication Use. In ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha, Ingmar Weber, and Munmun De\u00a0Choudhury. 2018. A Social Media Based Examination of the Effects of Counseling Recommendations After Student Deaths on College Campuses. In ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Ed Sandvik, Ed Diener, and Larry Seidlitz. 2009. Subjective well-being: The convergence and stability of self-report and non-self-report measures. In Assessing well-being. Springer, 119\u2013138.",
+      "doi": ""
+    },
+    {
+      "text": "Dietram\u00a0A Scheufele and David Tewksbury. 2007. Framing, agenda setting, and priming: The evolution of three media effects models. Journal of communication 57, 1 (2007), 9\u201320.",
+      "doi": ""
+    },
+    {
+      "text": "Karen\u00a0B Schmaling and Thomas\u00a0L Patterson. 2019. The association of major life events with chronic fatigue. Journal of psychosomatic research(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Johann Schrammel, Christina K\u00f6ffel, and Manfred Tscheligi. 2009. Personality traits, usage patterns and information disclosure in online communities. People and Computers XXIII Celebrating People and Technology (2009), 169\u2013174.",
+      "doi": ""
+    },
+    {
+      "text": "Christie\u00a0Napa Scollon, Chu-Kim Prieto, and Ed Diener. 2009. Experience sampling: promises and pitfalls, strength and weaknesses. In Assessing well-being. Springer, 157\u2013180.",
+      "doi": ""
+    },
+    {
+      "text": "Judith\u00a0A Scully, Henry Tosi, and Kevin Banning. 2000. Life event checklists: Revisiting the social readjustment rating scale after 30 years. Educational and psychological measurement 60, 6 (2000), 864\u2013876.",
+      "doi": ""
+    },
+    {
+      "text": "Pavica Sheldon. 2013. Examining gender differences in self-disclosure on Facebook versus face-to-face. The Journal of Social Media in Society 2, 1 (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Walter\u00a0C Shipley. 2009. Shipley-2: manual. WPS.",
+      "doi": ""
+    },
+    {
+      "text": "Christopher\u00a0J Soto and Oliver\u00a0P John. 2017. The next Big Five Inventory (BFI-2): Developing and assessing a hierarchical model with 15 facets to enhance bandwidth, fidelity, and predictive power.Journal of Personality and Social Psychology 113, 1(2017), 117.",
+      "doi": ""
+    },
+    {
+      "text": "Charles\u00a0D Spielberger, Fernando Gonzalez-Reigosa, Angel Martinez-Urrutia, Luiz\u00a0FS Natalicio, and Diana\u00a0S Natalicio. 2017. The state-trait anxiety inventory. Revista Interamerican Journal of Psychology(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Arati Srinivasan, Hong Guo, and Sarv Devaraj. 2017. Who cares about your big day? Impact of life events on dynamics of social networks. Decision Sciences 48, 6 (2017), 1062\u20131097.",
+      "doi": ""
+    },
+    {
+      "text": "Anselm Strauss and Juliet Corbin. 1990. Open coding. Basics of qualitative research: Grounded theory procedures and techniques (1990).",
+      "doi": ""
+    },
+    {
+      "text": "Diana\u00a0I Tamir and Jason\u00a0P Mitchell. 2012. Disclosing information about the self is intrinsically rewarding. Proceedings of the National Academy of Sciences 109, 21(2012), 8038\u20138043.",
+      "doi": ""
+    },
+    {
+      "text": "Samuel\u00a0Hardman Taylor, Jevan\u00a0Alexander Hutson, and Tyler\u00a0Richard Alicea. 2017. Social consequences of Grindr use: Extending the Internet-enhanced self-disclosure hypothesis. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 6645\u20136657.",
+      "doi": "10.1145/3025453.3025775"
+    },
+    {
+      "text": "Christopher Tennant. 2002. Life events, stress and depression: a review of recent findings. Australian & New Zealand Journal of Psychiatry 36, 2(2002), 173\u2013182.",
+      "doi": ""
+    },
+    {
+      "text": "Winston Jin\u00a0Song Teo and Chei\u00a0Sian Lee. 2016. Sharing Brings Happiness?: Effects of Sharing in Social Media Among Adult Users. In International Conference on Asian Digital Libraries. Springer, 351\u2013365.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0P Tett, Douglas\u00a0N Jackson, and Mitchell Rothstein. 1991. Personality measures as predictors of job performance: A meta-analytic review. Personnel psychology 44, 4 (1991), 703\u2013742.",
+      "doi": ""
+    },
+    {
+      "text": "Peggy\u00a0A Thoits. 1983. Dimensions of life events that influence psychological distress: An evaluation and synthesis of the literature. In Psychosocial stress. Elsevier, 33\u2013103.",
+      "doi": ""
+    },
+    {
+      "text": "Edmund\u00a0R Thompson. 2007. Development and validation of an internationally reliable short-form of the positive and negative affect schedule (PANAS). Journal of cross-cultural psychology 38, 2 (2007), 227\u2013242.",
+      "doi": ""
+    },
+    {
+      "text": "Roger Tourangeau, Lance\u00a0J Rips, and Kenneth Rasinski. 2000. The psychology of survey response.",
+      "doi": ""
+    },
+    {
+      "text": "Zeynep Tufekci. 2008. Grooming, gossip, Facebook and MySpace: What can we learn about these sites from those who won\u2019t assimilate?Information, Communication & Society 11, 4 (2008), 544\u2013564.",
+      "doi": ""
+    },
+    {
+      "text": "Jean\u00a0M Twenge and Brian\u00a0H Spitzberg. 2020. Declines in non-digital social interaction among Americans, 2003\u20132017. Journal of Applied Social Psychology(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Philip\u00a0M Ullrich and Susan\u00a0K Lutgendorf. 2002. Journaling about stressful events: Effects of cognitive processing and emotional expression. Annals of Behavioral Medicine 24, 3 (2002), 244\u2013250.",
+      "doi": ""
+    },
+    {
+      "text": "Niels van Berkel, Jorge Goncalves, Lauri Lov\u00e9n, Denzil Ferreira, Simo Hosio, and Vassilis Kostakos. 2019. Effect of experience sampling schedules on response rate and recall accuracy of objective self-reports. International Journal of Human-Computer Studies 125 (2019), 118\u2013128.",
+      "doi": "10.1016/j.ijhcs.2018.12.002"
+    },
+    {
+      "text": "Jessica Vitak. 2012. The Impact of Context Collapse and Privacy on Social Network Site Disclosures. Journal of Broadcasting & Electronic Media 56 (2012).",
+      "doi": ""
+    },
+    {
+      "text": "Jessica Vitak and Jinyoung Kim. 2014. \u201cYou can\u2019t block people offline\u201d: examining how facebook\u2019s affordances shape the disclosure process. In Proceedings of the 17th ACM conference on Computer supported cooperative work & social computing.",
+      "doi": "10.1145/2531602.2531672"
+    },
+    {
+      "text": "Jessica Vitak, Cliff Lampe, Rebecca Gray, and Nicole\u00a0B Ellison. 2012. \u201d Why won\u2019t you be my Facebook friend?\u201d strategies for managing context collapse in the workplace. In Proceedings of the 2012 iConference. 555\u2013557.",
+      "doi": "10.1145/2132176.2132286"
+    },
+    {
+      "text": "Yiran Wang, Melissa Niiya, Gloria Mark, Stephanie\u00a0M Reich, and Mark Warschauer. 2015. Coming of Age (Digitally): An Ecological View of Social Media Use among College Students. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing.",
+      "doi": "10.1145/2675133.2675271"
+    },
+    {
+      "text": "George\u00a0J Warheit. 1979. Life events, coping, stress, and depressive symptomatology. American Journal of Psychiatry 136, 4B (1979), 502\u2013507.",
+      "doi": ""
+    },
+    {
+      "text": "David Watson and Lee\u00a0Anna Clark. 1999. The PANAS-X: Manual for the positive and negative affect schedule-expanded form. (1999).",
+      "doi": ""
+    },
+    {
+      "text": "Anita Whiting and David Williams. 2013. Why people use social media: a uses and gratifications approach. Qualitative Market Research: An International Journal (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Sally\u00a0ME Wyatt. 2003. Non-users also matter: The construction of users and non-users of the Internet. Now users matter: The co-construction of users and technology (2003), 67\u201379.",
+      "doi": ""
+    },
+    {
+      "text": "An-Zi Yen, Hen-Hsen Huang, and Hsin-Hsi Chen. 2018. Detecting personal life events from twitter by multi-task lstm. In Companion Proceedings of the The Web Conference 2018. 21\u201322.",
+      "doi": "10.1145/3184558.3186909"
+    }
+  ]
+}

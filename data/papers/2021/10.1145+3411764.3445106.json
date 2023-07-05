@@ -1,0 +1,355 @@
+{
+  "doi": "10.1145/3411764.3445106",
+  "title": "FingerText: Exploring and Optimizing Performance for Wearable, Mobile and One-Handed Typing",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-15",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Typing on wearables while situationally impaired, such as while walking, is challenging. However, while HCI research on wearable typing is diverse, existing work focuses on stationary scenarios and fine-grained input that will likely perform poorly when users are on-the-go. To address this issue we explore single-handed wearable typing using intra-hand touches between the thumb and fingers, a modality we argue will be robust to the physical disturbances inherent to input while mobile. We first examine the impact of walking on performance of these touches, noting no significant differences in accuracy or speed, then feed our study data into a multi-objective optimization process in order to design keyboard layouts (for both five and ten keys) capable of supporting rapid, accurate, comfortable, and unambiguous typing. A final study tests these layouts against QWERTY baselines and reports performance improvements of up to 10.45% WPM and 39.44% WER when users type while walking.",
+  "authors": [
+    {
+      "name": "DoYoung Lee",
+      "institution": "Human Factors Engineering UNIST, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "87959094857",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jiwan Kim",
+      "institution": "Human Factor Engineering UNIST, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701638",
+      "orcid": "missing"
+    },
+    {
+      "name": "Ian Oakley",
+      "institution": "UNIST, Korea, Republic of",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100367387",
+      "orcid": "0000-0001-5834-8577"
+    }
+  ],
+  "references": [
+    {
+      "text": "Sunggeun Ahn, Seongkook Heo, and Geehyuk Lee. 2017. Typing on a Smartwatch for Smart Glasses. In Proceedings of the 2017 ACM International Conference on Interactive Surfaces and Spaces (Brighton, United Kingdom) (ISS \u201917). Association for Computing Machinery, New York, NY, USA, 201\u2013209. https://doi.org/10.1145/3132272.3134136",
+      "doi": "10.1145/3132272.3134136"
+    },
+    {
+      "text": "Joanna Bergstrom-Lehtovirta, Antti Oulasvirta, and Stephen Brewster. 2011. The Effects of Walking Speed on Target Acquisition on a Touchscreen Interface. In Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services (Stockholm, Sweden) (MobileHCI \u201911). Association for Computing Machinery, New York, NY, USA, 143\u2013146. https://doi.org/10.1145/2037373.2037396",
+      "doi": "10.1145/2037373.2037396"
+    },
+    {
+      "text": "Xiaojun Bi, Ciprian Chelba, Tom Ouyang, Kurt Partridge, and Shumin Zhai. 2012. Bimanual Gesture Keyboard. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology (Cambridge, Massachusetts, USA) (UIST \u201912). Association for Computing Machinery, New York, NY, USA, 137\u2013146. https://doi.org/10.1145/2380116.2380136",
+      "doi": "10.1145/2380116.2380136"
+    },
+    {
+      "text": "Xiaojun Bi, Barton\u00a0A. Smith, and Shumin Zhai. 2010. Quasi-Qwerty Soft Keyboard Optimization. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201910). Association for Computing Machinery, New York, NY, USA, 283\u2013286. https://doi.org/10.1145/1753326.1753367",
+      "doi": "10.1145/1753326.1753367"
+    },
+    {
+      "text": "Xiaojun Bi and Shumin Zhai. 2016. IJQwerty: What Difference Does One Key Change Make? Gesture Typing Keyboard Optimization Bounded by One Key Position Change from Qwerty. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 49\u201358. https://doi.org/10.1145/2858036.2858421",
+      "doi": "10.1145/2858036.2858421"
+    },
+    {
+      "text": "J. Blank and K. Deb. 2020. Pymoo: Multi-Objective Optimization in Python. IEEE Access 8(2020), 89497\u201389509.",
+      "doi": ""
+    },
+    {
+      "text": "J. Blank and K. Deb. 2020. A Running Performance Metric and Termination Criterion for Evaluating Evolutionary Multi- and Many-objective Optimization Algorithms. In 2020 IEEE Congress on Evolutionary Computation (CEC). 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Roger Boldu, Alexandru Dancu, Denys\u00a0J.C. Matthies, Pablo\u00a0Gallego Casc\u00f3n, Shanaka Ransir, and Suranga Nanayakkara. 2018. Thumb-In-Motion: Evaluating Thumb-to-Ring Microgestures for Athletic Activity. In Proceedings of the Symposium on Spatial User Interaction (Berlin, Germany) (SUI \u201918). Association for Computing Machinery, New York, NY, USA, 150\u2013157. https://doi.org/10.1145/3267782.3267796",
+      "doi": "10.1145/3267782.3267796"
+    },
+    {
+      "text": "Thorsten Brants and Alex Franz. 2006. Web 1T 5-gram Version 1. http://www. ldc. upenn. edu/Catalog/CatalogEntry. jsp? catalogId= LDC2006T13(2006).",
+      "doi": ""
+    },
+    {
+      "text": "Brian\u00a0X Chen. 2019. Texting While Walking Is Dangerous. Here\u2019s How to Stop.The New York Times (Nov 2019). https://www.nytimes.com/2019/11/13/technology/personaltech/distracted-walking-twalking.html",
+      "doi": ""
+    },
+    {
+      "text": "James Clawson, Thad Starner, Daniel Kohlsdorf, David\u00a0P. Quigley, and Scott Gilliland. 2014. Texting While Walking: An Evaluation of Mini-Qwerty Text Input While on-the-Go. In Proceedings of the 16th International Conference on Human-Computer Interaction with Mobile Devices & Services (Toronto, ON, Canada) (MobileHCI \u201914). Association for Computing Machinery, New York, NY, USA, 339\u2013348. https://doi.org/10.1145/2628363.2628408",
+      "doi": "10.1145/2628363.2628408"
+    },
+    {
+      "text": "K. Deb, A. Pratap, S. Agarwal, and T. Meyarivan. 2002. A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE Transactions on Evolutionary Computation 6, 2(2002), 182\u2013197.",
+      "doi": "10.1109/4235.996017"
+    },
+    {
+      "text": "David Dobbelstein, Gabriel Haas, and Enrico Rukzio. 2017. The Effects of Mobility, Encumbrance, and (Non-)Dominant Hand on Interaction with Smartwatches. In Proceedings of the 2017 ACM International Symposium on Wearable Computers (Maui, Hawaii) (ISWC \u201917). Association for Computing Machinery, New York, NY, USA, 90\u201393. https://doi.org/10.1145/3123021.3123033",
+      "doi": "10.1145/3123021.3123033"
+    },
+    {
+      "text": "Mark Dunlop and Andrew Crossan. 2000. Predictive Text Entry Methods for Mobile Phones. Personal Technologies 4 (08 2000). https://doi.org/10.1007/BF01324120",
+      "doi": ""
+    },
+    {
+      "text": "Jacqui Fashimpaur, Kenrick Kin, and Matt Longest. 2020. PinchType: Text Entry for Virtual and Augmented Reality Using Comfortable Thumb to Fingertip Pinches. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI EA \u201920). Association for Computing Machinery, New York, NY, USA, 1\u20137. https://doi.org/10.1145/3334480.3382888",
+      "doi": "10.1145/3334480.3382888"
+    },
+    {
+      "text": "Anna\u00a0Maria Feit. 2018. Assignment Problems for Optimizing Text Input. Ph.D. Dissertation. Aalto University. http://urn.fi/URN:ISBN:978-952-60-8016-1",
+      "doi": ""
+    },
+    {
+      "text": "Leah Findlater and Jacob Wobbrock. 2012. Personalized Input: Improving Ten-Finger Touchscreen Typing through Automatic Adaptation. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Austin, Texas, USA) (CHI \u201912). Association for Computing Machinery, New York, NY, USA, 815\u2013824. https://doi.org/10.1145/2207676.2208520",
+      "doi": "10.1145/2207676.2208520"
+    },
+    {
+      "text": "Gene\u00a0V Glass, Percy\u00a0D. Peckham, and James\u00a0R. Sanders. 1972. Consequences of Failure to Meet Assumptions Underlying the Fixed Effects Analyses of Variance and Covariance. Review of Educational Research 42, 3 (1972), 237\u2013288. https://doi.org/10.3102/00346543042003237 arXiv:https://doi.org/10.3102/00346543042003237",
+      "doi": ""
+    },
+    {
+      "text": "Jun Gong, Zheer Xu, Qifan Guo, Teddy Seyed, Xiang\u00a0\u2019Anthony\u2019 Chen, Xiaojun Bi, and Xing-Dong Yang. 2018. WrisText: One-Handed Text Entry on Smartwatch Using Wrist Gestures. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3173574.3173755",
+      "doi": "10.1145/3173574.3173755"
+    },
+    {
+      "text": "Jun Gong, Xing-Dong Yang, and Pourang Irani. 2016. WristWhirl: One-Handed Continuous Smartwatch Input Using Wrist Gestures. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (Tokyo, Japan) (UIST \u201916). Association for Computing Machinery, New York, NY, USA, 861\u2013872. https://doi.org/10.1145/2984511.2984563",
+      "doi": "10.1145/2984511.2984563"
+    },
+    {
+      "text": "Tovi Grossman, Xiang\u00a0Anthony Chen, and George Fitzmaurice. 2015. Typing on Glasses: Adapting Text Entry to Smart Eyewear. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services(Copenhagen, Denmark) (MobileHCI \u201915). Association for Computing Machinery, New York, NY, USA, 144\u2013152. https://doi.org/10.1145/2785830.2785867",
+      "doi": "10.1145/2785830.2785867"
+    },
+    {
+      "text": "Aakar Gupta and Ravin Balakrishnan. 2016. DualKey: Miniature Screen Text Entry via Finger Identification. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 59\u201370. https://doi.org/10.1145/2858036.2858052",
+      "doi": "10.1145/2858036.2858052"
+    },
+    {
+      "text": "Aakar Gupta, Cheng Ji, Hui-Shyong Yeo, Aaron Quigley, and Daniel Vogel. 2019. RotoSwype: Word-Gesture Typing Using a Ring. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300244",
+      "doi": "10.1145/3290605.3300244"
+    },
+    {
+      "text": "Jibo He, Jason\u00a0S. McCarley, Kirsten Crager, Murtuza Jadliwala, Lesheng Hua, and Sheng Huang. 2018. Does wearable device bring distraction closer to drivers? Comparing smartphones and Google Glass. Applied Ergonomics 70(2018), 156 \u2013 166. https://doi.org/10.1016/j.apergo.2018.02.022",
+      "doi": ""
+    },
+    {
+      "text": "Eve Hoggan, Stephen\u00a0A. Brewster, and Jody Johnston. 2008. Investigating the Effectiveness of Tactile Feedback for Mobile Touchscreens. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Florence, Italy) (CHI \u201908). Association for Computing Machinery, New York, NY, USA, 1573\u20131582. https://doi.org/10.1145/1357054.1357300",
+      "doi": "10.1145/1357054.1357300"
+    },
+    {
+      "text": "Joggi Hong, Seongkook Heo, Poika Isokoski, and Geehyuk Lee. 2016. Comparison of Three QWERTY Keyboards for a Smartwatch. Interacting with Computers 28, 6 (10 2016), 811\u2013825. https://doi.org/10.1093/iwc/iww003 arXiv:https://academic.oup.com/iwc/article-pdf/28/6/811/7920055/iww003.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Da-Yuan Huang, Liwei Chan, Shuo Yang, Fan Wang, Rong-Hao Liang, De-Nian Yang, Yi-Ping Hung, and Bing-Yu Chen. 2016. DigitSpace: Designing Thumb-to-Fingers Touch Interfaces for One-Handed and Eyes-Free Interactions. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 1526\u20131537. https://doi.org/10.1145/2858036.2858483",
+      "doi": "10.1145/2858036.2858483"
+    },
+    {
+      "text": "Hayeon Jeong, Heepyung Kim, Rihun Kim, Uichin Lee, and Yong Jeong. 2017. Smartwatch Wearing Behavior Analysis: A Longitudinal Study. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 1, 3, Article 60 (Sept. 2017), 31\u00a0pages. https://doi.org/10.1145/3131892",
+      "doi": "10.1145/3131892"
+    },
+    {
+      "text": "Haiyan Jiang, Dongdong Weng, Zhenliang Zhang, and Feng Chen. 2019. Hifinger: One-handed text entry technique for virtual environments based on touches between fingers. Sensors 19, 14 (2019), 3063.",
+      "doi": ""
+    },
+    {
+      "text": "Shaun\u00a0K. Kane, Jacob\u00a0O. Wobbrock, and Ian\u00a0E. Smith. 2008. Getting off the Treadmill: Evaluating Walking User Interfaces for Mobile Devices in Public Spaces(MobileHCI \u201908). Association for Computing Machinery, New York, NY, USA, 109\u2013118. https://doi.org/10.1145/1409240.1409253",
+      "doi": ""
+    },
+    {
+      "text": "Hsin-Liu\u00a0(Cindy) Kao, Artem Dementyev, Joseph\u00a0A. Paradiso, and Chris Schmandt. 2015. NailO: Fingernails as an Input Surface. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 3015\u20133018. https://doi.org/10.1145/2702123.2702572",
+      "doi": "10.1145/2702123.2702572"
+    },
+    {
+      "text": "Andreas Karrenbauer and Antti Oulasvirta. 2014. Improvements to Keyboard Optimization with Integer Programming. In Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (Honolulu, Hawaii, USA) (UIST \u201914). Association for Computing Machinery, New York, NY, USA, 621\u2013626. https://doi.org/10.1145/2642918.2647382",
+      "doi": "10.1145/2642918.2647382"
+    },
+    {
+      "text": "Keiko Katsuragawa, Ju Wang, Ziyang Shan, Ningshan Ouyang, Omid Abari, and Daniel Vogel. 2019. Tip-Tap: Battery-Free Discrete 2D Fingertip Input. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 1045\u20131057. https://doi.org/10.1145/3332165.3347907",
+      "doi": "10.1145/3332165.3347907"
+    },
+    {
+      "text": "Junhyeok Kim, William Delamare, and Pourang Irani. 2018. ThumbText: Text Entry for Wearable Devices Using a Miniature Ring. In Proceedings of Graphics Interface 2018 (Toronto, Ontario) (GI 2018). Canadian Human-Computer Communications Society / Soci\u00e9t\u00e9 canadienne du dialogue humain-machine, 18 \u2013 25. https://doi.org/10.20380/GI2018.04",
+      "doi": ""
+    },
+    {
+      "text": "Andreas Komninos and Mark Dunlop. 2014. Using a smart-watch as a input device for text. IEEE Pervasive Computing 13 (01 2014).",
+      "doi": ""
+    },
+    {
+      "text": "DoYoung Lee, SooHwan Lee, and Ian Oakley. 2020. Nailz: Sensing Hand Input with Touch Sensitive Nails. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376778",
+      "doi": "10.1145/3313831.3376778"
+    },
+    {
+      "text": "DoYoung Lee, Youryang Lee, Yonghwan Shin, and Ian Oakley. 2018. Designing Socially Acceptable Hand-to-Face Input. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (Berlin, Germany) (UIST \u201918). Association for Computing Machinery, New York, NY, USA, 711\u2013723. https://doi.org/10.1145/3242587.3242642",
+      "doi": "10.1145/3242587.3242642"
+    },
+    {
+      "text": "Lik\u00a0Hang Lee, Kit\u00a0Yung Lam, Tong Li, Tristan Braud, Xiang Su, and Pan Hui. 2019. Quadmetric Optimized Thumb-to-Finger Interaction for Force Assisted One-Handed Text Entry on Mobile Headsets. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 3, 3, Article 94 (Sept. 2019), 27\u00a0pages. https://doi.org/10.1145/3351252",
+      "doi": "10.1145/3351252"
+    },
+    {
+      "text": "Luis\u00a0A. Leiva, Alireza Sahami, Alejandro Catala, Niels Henze, and Albrecht Schmidt. 2015. Text Entry on Tiny QWERTY Soft Keyboards. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 669\u2013678. https://doi.org/10.1145/2702123.2702388",
+      "doi": "10.1145/2702123.2702388"
+    },
+    {
+      "text": "Gregory Lesher, Bryan Moulton, and Jeffery Higginbotham. 1999. Optimal character arrangements for ambiguous keyboards. IEEE transactions on rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society 6 (01 1999), 415\u201323. https://doi.org/10.1109/86.736156",
+      "doi": ""
+    },
+    {
+      "text": "Haiko Luepsen. 2017. The aligned rank transform and discrete variables: A warning. Communications in Statistics - Simulation and Computation 46, 9(2017), 6923\u20136936. https://doi.org/10.1080/03610918.2016.1217014 arXiv:https://doi.org/10.1080/03610918.2016.1217014",
+      "doi": ""
+    },
+    {
+      "text": "I.\u00a0Scott MacKenzie. [n.d.]. 2016. A note on calculating text entry speed. (2016). https://www.yorku.ca/mack/RN-TextEntrySpeed.html",
+      "doi": ""
+    },
+    {
+      "text": "I.\u00a0Scott MacKenzie and Shawn\u00a0X. Zhang. 1999. The Design and Evaluation of a High-Performance Soft Keyboard. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Pittsburgh, Pennsylvania, USA) (CHI \u201999). Association for Computing Machinery, New York, NY, USA, 25\u201331. https://doi.org/10.1145/302979.302983",
+      "doi": "10.1145/302979.302983"
+    },
+    {
+      "text": "Donald McMillan, Barry Brown, Airi Lampinen, Moira McGregor, Eve Hoggan, and Stefania Pizza. 2017. Situating Wearables: Smartwatch Use in Context. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 3582\u20133594. https://doi.org/10.1145/3025453.3025993",
+      "doi": "10.1145/3025453.3025993"
+    },
+    {
+      "text": "Sachi Mizobuchi, Mark Chignell, and David Newton. 2005. Mobile Text Entry: Relationship between Walking Speed and Text Input Task Difficulty. In Proceedings of the 7th International Conference on Human Computer Interaction with Mobile Devices & Services (Salzburg, Austria) (MobileHCI \u201905). Association for Computing Machinery, New York, NY, USA, 122\u2013128. https://doi.org/10.1145/1085777.1085798",
+      "doi": "10.1145/1085777.1085798"
+    },
+    {
+      "text": "Aske Mottelson, Christoffer Larsen, Mikkel Lyderik, Paul Strohmeier, and Jarrod Knibbe. 2016. Invisiboard: Maximizing Display and Input Space with a Full Screen Text Entry Method for Smartwatches. In Proceedings of the 18th International Conference on Human-Computer Interaction with Mobile Devices and Services (Florence, Italy) (MobileHCI \u201916). Association for Computing Machinery, New York, NY, USA, 53\u201359. https://doi.org/10.1145/2935334.2935360",
+      "doi": "10.1145/2935334.2935360"
+    },
+    {
+      "text": "Josip Musi\u0107 and Roderick Murray-Smith. 2016. Nomadic Input on Mobile Devices: The Influence of Touch Input Technique and Walking Speed on Performance and Offset Modeling. Human\u2013Computer Interaction 31, 5 (2016), 420\u2013471. https://doi.org/10.1080/07370024.2015.1071195 arXiv:https://doi.org/10.1080/07370024.2015.1071195",
+      "doi": ""
+    },
+    {
+      "text": "Alexander Ng, John Williamson, and Stephen Brewster. 2015. The Effects of Encumbrance and Mobility on Touch-Based Gesture Interactions for Mobile Phones. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (Copenhagen, Denmark) (MobileHCI \u201915). Association for Computing Machinery, New York, NY, USA, 536\u2013546. https://doi.org/10.1145/2785830.2785853",
+      "doi": "10.1145/2785830.2785853"
+    },
+    {
+      "text": "Peter Norvig. 2009. Natural language corpus data. Beautiful data (2009), 219\u2013242.",
+      "doi": ""
+    },
+    {
+      "text": "D.\u00a0R. O\u2019Day and R.\u00a0A. Calix. 2013. Text message corpus: Applying natural language processing to mobile device forensics. In 2013 IEEE International Conference on Multimedia and Expo Workshops (ICMEW). 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Stephen Oney, Chris Harrison, Amy Ogan, and Jason Wiese. 2013. ZoomBoard: A Diminutive Qwerty Soft Keyboard Using Iterative Zooming for Ultra-Small Devices. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). Association for Computing Machinery, New York, NY, USA, 2799\u20132802. https://doi.org/10.1145/2470654.2481387",
+      "doi": "10.1145/2470654.2481387"
+    },
+    {
+      "text": "Antti Oulasvirta, Anna Reichel, Wenbin Li, Yan Zhang, Myroslav Bachynskyi, Keith Vertanen, and Per\u00a0Ola Kristensson. 2013. Improving Two-Thumb Text Entry on Touchscreen Devices. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI \u201913). Association for Computing Machinery, New York, NY, USA, 2765\u20132774. https://doi.org/10.1145/2470654.2481383",
+      "doi": "10.1145/2470654.2481383"
+    },
+    {
+      "text": "Roberto Refinetti. 1996. Demonstrating the Consequences of Violations of Assumptions in between-Subjects Analysis of Variance. Teaching of Psychology 23, 1 (1996), 51\u201354. https://doi.org/10.1207/s15328023top2301_14",
+      "doi": ""
+    },
+    {
+      "text": "Rufat Rzayev, Pawe\u0142\u00a0W. Woundefinedniak, Tilman Dingler, and Niels Henze. 2018. Reading on Smart Glasses: The Effect of Text Position, Presentation Type and Walking. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u20139. https://doi.org/10.1145/3173574.3173619",
+      "doi": "10.1145/3173574.3173619"
+    },
+    {
+      "text": "Tomoki Shibata, Daniel Afergan, Danielle Kong, Beste\u00a0F. Yuksel, I.\u00a0Scott MacKenzie, and Robert\u00a0J.K. Jacob. 2016. DriftBoard: A Panning-Based Text Entry Technique for Ultra-Small Touchscreens. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (Tokyo, Japan) (UIST \u201916). Association for Computing Machinery, New York, NY, USA, 575\u2013582. https://doi.org/10.1145/2984511.2984591",
+      "doi": "10.1145/2984511.2984591"
+    },
+    {
+      "text": "Miika Silfverberg, I.\u00a0Scott MacKenzie, and Panu Korhonen. 2000. Predicting Text Entry Speed on Mobile Phones. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (The Hague, The Netherlands) (CHI \u201900). Association for Computing Machinery, New York, NY, USA, 9\u201316. https://doi.org/10.1145/332040.332044",
+      "doi": "10.1145/332040.332044"
+    },
+    {
+      "text": "Gaganpreet Singh, William Delamare, and Pourang Irani. 2018. D-SWIME: A Design Space for Smartwatch Interaction Techniques Supporting Mobility and Encumbrance. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3174208",
+      "doi": "10.1145/3173574.3174208"
+    },
+    {
+      "text": "Brian\u00a0A. Smith, Xiaojun Bi, and Shumin Zhai. 2015. Optimizing Touchscreen Keyboards for Gesture Typing. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 3365\u20133374. https://doi.org/10.1145/2702123.2702357",
+      "doi": "10.1145/2702123.2702357"
+    },
+    {
+      "text": "Mohamed Soliman, Franziska Mueller, Lena Hegemann, Joan\u00a0Sol Roo, Christian Theobalt, and J\u00fcrgen Steimle. 2018. FingerInput: Capturing Expressive Single-Hand Thumb-to-Finger Microgestures. In Proceedings of the 2018 ACM International Conference on Interactive Surfaces and Spaces(Tokyo, Japan) (ISS \u201918). Association for Computing Machinery, New York, NY, USA, 177\u2013187. https://doi.org/10.1145/3279778.3279799",
+      "doi": "10.1145/3279778.3279799"
+    },
+    {
+      "text": "Despina Stavrinos, Katherine\u00a0W Byington, and David\u00a0C Schwebel. 2011. Distracted walking: cell phones increase injury risk for college pedestrians. Journal of safety research 42, 2 (2011), 101\u2013107.",
+      "doi": ""
+    },
+    {
+      "text": "Craig Stewart, Michael Rohs, Sven Kratz, and Georg Essl. 2010. Characteristics of Pressure-Based Input for Mobile Devices. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia, USA) (CHI \u201910). Association for Computing Machinery, New York, NY, USA, 801\u2013810. https://doi.org/10.1145/1753326.1753444",
+      "doi": "10.1145/1753326.1753444"
+    },
+    {
+      "text": "Colton Turner, Barbara Chaparro, and Jibo He. 2020. Typing on a Smartwatch While Mobile: A Comparison of Input Methods. Human Factors: The Journal of the Human Factors and Ergonomics Society (02 2020), 001872081989129. https://doi.org/10.1177/0018720819891291",
+      "doi": ""
+    },
+    {
+      "text": "Katia Vega and Hugo Fuks. 2014. Beauty Tech Nails: Interactive Technology at Your Fingertips. In Proceedings of the 8th International Conference on Tangible, Embedded and Embodied Interaction(Munich, Germany) (TEI \u201914). Association for Computing Machinery, New York, NY, USA, 61\u201364. https://doi.org/10.1145/2540930.2540961",
+      "doi": "10.1145/2540930.2540961"
+    },
+    {
+      "text": "Keith Vertanen and Per Kristensson. 2019. Mining, analyzing, and modeling text written on mobile devices. Natural Language Engineering (10 2019), 1\u201333. https://doi.org/10.1017/S1351324919000548",
+      "doi": ""
+    },
+    {
+      "text": "Keith Vertanen and Per\u00a0Ola Kristensson. 2011. A Versatile Dataset for Text Entry Evaluations Based on Genuine Mobile Emails. In Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services (Stockholm, Sweden) (MobileHCI \u201911). Association for Computing Machinery, New York, NY, USA, 295\u2013298. https://doi.org/10.1145/2037373.2037418",
+      "doi": "10.1145/2037373.2037418"
+    },
+    {
+      "text": "Cheng-Yao Wang, Wei-Chen Chu, Po-Tsung Chiu, Min-Chieh Hsiu, Yih-Harn Chiang, and Mike\u00a0Y. Chen. 2015. PalmType: Using Palms as Keyboards for Smart Glasses. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services(Copenhagen, Denmark) (MobileHCI \u201915). Association for Computing Machinery, New York, NY, USA, 153\u2013160. https://doi.org/10.1145/2785830.2785886",
+      "doi": "10.1145/2785830.2785886"
+    },
+    {
+      "text": "Dirk Wenig, Johannes Sch\u00f6ning, Alex Olwal, Mathias Oben, and Rainer Malaka. 2017. WatchThru: Expanding Smartwatch Displays with Mid-Air Visuals and Wrist-Worn Augmented Reality. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 716\u2013721. https://doi.org/10.1145/3025453.3025852",
+      "doi": "10.1145/3025453.3025852"
+    },
+    {
+      "text": "Eric Whitmire, Mohit Jain, Divye Jain, Greg Nelson, Ravi Karkar, Shwetak Patel, and Mayank Goel. 2017. DigiTouch: Reconfigurable Thumb-to-Finger Input and Text Entry on Head-Mounted Displays. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 1, 3, Article 113 (Sept. 2017), 21\u00a0pages. https://doi.org/10.1145/3130978",
+      "doi": "10.1145/3130978"
+    },
+    {
+      "text": "Jacob\u00a0O. Wobbrock. 2019. Situationally-Induced Impairments and Disabilities. Springer London, London, 59\u201392. https://doi.org/10.1007/978-1-4471-7440-0_5",
+      "doi": ""
+    },
+    {
+      "text": "Jacob\u00a0O. Wobbrock, Leah Findlater, Darren Gergle, and James\u00a0J. Higgins. 2011. The Aligned Rank Transform for Nonparametric Factorial Analyses Using Only Anova Procedures. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Vancouver, BC, Canada) (CHI \u201911). Association for Computing Machinery, New York, NY, USA, 143\u2013146. https://doi.org/10.1145/1978942.1978963",
+      "doi": "10.1145/1978942.1978963"
+    },
+    {
+      "text": "Pui\u00a0Chung Wong, Kening Zhu, and Hongbo Fu. 2018. FingerT9: Leveraging Thumb-to-Finger Interaction for Same-Side-Hand Text Entry on Smartwatches. Association for Computing Machinery, New York, NY, USA, 1\u201310. https://doi.org/10.1145/3173574.3173752",
+      "doi": "10.1145/3173574.3173752"
+    },
+    {
+      "text": "Robert Xiao, Julia Schwarz, and Chris Harrison. 2015. Estimating 3D Finger Angle on Commodity Touchscreens. In Proceedings of the 2015 International Conference on Interactive Tabletops & Surfaces (Madeira, Portugal) (ITS \u201915). Association for Computing Machinery, New York, NY, USA, 47\u201350. https://doi.org/10.1145/2817721.2817737",
+      "doi": "10.1145/2817721.2817737"
+    },
+    {
+      "text": "Zheer Xu, Weihao Chen, Dongyang Zhao, Jiehui Luo, Te-Yen Wu, Jun Gong, Sicheng Yin, Jialun Zhai, and Xing-Dong Yang. 2020. BiTipText: Bimanual Eyes-Free Text Entry on a Fingertip Keyboard. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376306",
+      "doi": "10.1145/3313831.3376306"
+    },
+    {
+      "text": "Zheer Xu, Pui\u00a0Chung Wong, Jun Gong, Te-Yen Wu, Aditya\u00a0Shekhar Nittala, Xiaojun Bi, J\u00fcrgen Steimle, Hongbo Fu, Kening Zhu, and Xing-Dong Yang. 2019. TipText: Eyes-Free Text Entry on a Fingertip Keyboard. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 883\u2013899. https://doi.org/10.1145/3332165.3347865",
+      "doi": "10.1145/3332165.3347865"
+    },
+    {
+      "text": "Xin Yi, Chun Yu, Weijie Xu, Xiaojun Bi, and Yuanchun Shi. 2017. COMPASS: Rotational Keyboard on Non-Touch Smartwatches. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 705\u2013715. https://doi.org/10.1145/3025453.3025454",
+      "doi": "10.1145/3025453.3025454"
+    },
+    {
+      "text": "Xin Yi, Chun Yu, Mingrui Zhang, Sida Gao, Ke Sun, and Yuanchun Shi. 2015. ATK: Enabling Ten-Finger Freehand Typing in Air Based on 3D Hand Tracking Data. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology(Charlotte, NC, USA) (UIST \u201915). Association for Computing Machinery, New York, NY, USA, 539\u2013548. https://doi.org/10.1145/2807442.2807504",
+      "doi": "10.1145/2807442.2807504"
+    },
+    {
+      "text": "Chun Yu, Ke Sun, Mingyuan Zhong, Xincheng Li, Peijun Zhao, and Yuanchun Shi. 2016. One-Dimensional Handwriting: Inputting Letters and Words on Smart Glasses. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 71\u201382. https://doi.org/10.1145/2858036.2858542",
+      "doi": "10.1145/2858036.2858542"
+    },
+    {
+      "text": "Shumin Zhai, Michael Hunter, and Barton\u00a0A. Smith. 2002. Performance Optimization of Virtual Keyboards. Human\u2013Computer Interaction 17, 2-3 (2002), 229\u2013269. https://doi.org/10.1080/07370024.2002.9667315 arXiv:https://www.tandfonline.com/doi/pdf/10.1080/07370024.2002.9667315",
+      "doi": ""
+    },
+    {
+      "text": "Shumin Zhai and Per\u00a0Ola Kristensson. 2008. Interlaced QWERTY: Accommodating Ease of Visual Search and Input Flexibility in Shape Writing. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Florence, Italy) (CHI \u201908). Association for Computing Machinery, New York, NY, USA, 593\u2013596. https://doi.org/10.1145/1357054.1357149",
+      "doi": "10.1145/1357054.1357149"
+    },
+    {
+      "text": "Shengdong Zhao, Pierre Dragicevic, Mark Chignell, Ravin Balakrishnan, and Patrick Baudisch. 2007. Earpod: Eyes-Free Menu Selection Using Touch Input and Reactive Audio Feedback. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201907). Association for Computing Machinery, New York, NY, USA, 1395\u20131404. https://doi.org/10.1145/1240624.1240836",
+      "doi": "10.1145/1240624.1240836"
+    }
+  ]
+}

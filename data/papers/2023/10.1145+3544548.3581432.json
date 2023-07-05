@@ -1,0 +1,460 @@
+{
+  "doi": "10.1145/3544548.3581432",
+  "title": "Understanding Dark Patterns in Home IoT Devices",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-27",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Internet-of-Things (IoT) devices are ubiquitous, but little attention has been paid to how they may incorporate dark patterns despite consumer protections and privacy concerns arising from their unique access to intimate spaces and always-on capabilities. This paper conducts a systematic investigation of dark patterns in 57 popular, diverse smart home devices. We update manual interaction and annotation methods for the IoT context, then analyze dark pattern frequency across device types, manufacturers, and interaction modalities. We find that dark patterns are pervasive in IoT experiences, but manifest in diverse ways across device traits. Speakers, doorbells, and camera devices contain the most dark patterns, with manufacturers of such devices (Amazon and Google) having the most dark patterns compared to other vendors. We investigate how this distribution impacts the potential for consumer exposure to dark patterns, discuss broader implications for key stakeholders like designers and regulators, and identify opportunities for future dark patterns study.",
+  "authors": [
+    {
+      "name": "Monica Kowalczyk",
+      "institution": "Northeastern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780445",
+      "orcid": "0000-0002-8293-9630"
+    },
+    {
+      "name": "Johanna T. Gunawan",
+      "institution": "Northeastern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659895116",
+      "orcid": "0000-0002-5813-9019"
+    },
+    {
+      "name": "David Choffnes",
+      "institution": "Northeastern University, United States",
+      "img": "/do/10.1145/contrib-81100100596/rel-imgonly/david-choffnes-index-image.jpg",
+      "acmid": "81100100596",
+      "orcid": "0000-0001-7825-7226"
+    },
+    {
+      "name": "Daniel J Dubois",
+      "institution": "Khoury College of Computer Sciences, Northeastern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659475235",
+      "orcid": "0000-0002-8115-898X"
+    },
+    {
+      "name": "Woodrow Hartzog",
+      "institution": "School of Law, Boston University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "84460581457",
+      "orcid": "0000-0003-2475-5072"
+    },
+    {
+      "name": "Christo Wilson",
+      "institution": "Khoury College of Computer Sciences, Northeastern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "83058691657",
+      "orcid": "0000-0002-5268-004X"
+    }
+  ],
+  "references": [
+    {
+      "text": "2021. Deliberation of the restricted committee No. SAN-2021-023 of 31 December 2021 concerning GOOGLE LLC and GOOGLE IRELAND LIMITED. https://www.cnil.fr/sites/default/files/atoms/files/deliberation_of_the_restricted_committee_no._san-2021-023_of_31_december_2021_concerning_google_llc_and_google_ireland_limited.pdf.",
+      "doi": ""
+    },
+    {
+      "text": "117th U.S.\u00a0Congress. 2022. H.R.8152 American Data Privacy and Protection Act. (July 2022). https://www.congress.gov/bill/117th-congress/house-bill/8152/text",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Aagaard, Miria Emma\u00a0Clausen Knudsen, Per B\u00e6kgaard, and Kevin Doherty. 2022. A Game of Dark Patterns: Designing Healthy, Highly-Engaging Mobile Games. In CHI Conference on Human Factors in Computing Systems Extended Abstracts(CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3491101.3519837",
+      "doi": "10.1145/3491101.3519837"
+    },
+    {
+      "text": "California Consumer\u00a0Privacy Act. 2020. California Consumer Privacy Act (Final Text of Proposed Regulations). https://www.oag.ca.gov/sites/all/files/agweb/pdfs/privacy/oal-sub-final-text-of-regs.pdf",
+      "doi": ""
+    },
+    {
+      "text": "California Consumer\u00a0Privacy Act. 2021. CCPA Opt-Out Icon. https://oag.ca.gov/privacy/ccpa/icons-download",
+      "doi": ""
+    },
+    {
+      "text": "California Privacy\u00a0Rights Act. 2020. California Privacy Rights Act. https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+      "doi": ""
+    },
+    {
+      "text": "Imtiaz Ahmad, Rosta Farzan, Apu Kapadia, and Adam\u00a0J. Lee. 2020. Tangible Privacy: Towards User-Centric Sensor Designs for Bystander Privacy. Proc. ACM Hum.-Comput. Interact. 4, CSCW2 (oct 2020). https://doi.org/10.1145/3415187",
+      "doi": "10.1145/3415187"
+    },
+    {
+      "text": "Haldun Akgolu. 2018. User\u2019s guide to correlation coefficients. Turkish Journal of Emergency Medicine(2018). https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6107969/",
+      "doi": ""
+    },
+    {
+      "text": "Noura Aleisa and Karen Renaud. 2017. Privacy of the Internet of Things. Proceedings of the 50th Hawaii International Conference on System Sciences (Jan 2017), 5947\u20135956. https://doi.org/10.24251/HICSS.2017.717",
+      "doi": ""
+    },
+    {
+      "text": "Omar Alrawi, Chaz Lever, Manos Antonakakis, and Fabian Monrose. 2019. SoK: Security Evaluation of Home-Based IoT Deployments. In 2019 IEEE Symposium on Security and Privacy (SP). 1362\u20131380. https://doi.org/10.1109/SP.2019.00013",
+      "doi": ""
+    },
+    {
+      "text": "Manos Antonakakis, Tim April, Michael Bailey, Matt Bernhard, Elie Bursztein, Jaime Cochran, Zakir Durumeric, J\u00a0Alex Halderman, Luca Invernizzi, Michalis Kallitsis, 2017. Understanding the Mirai Botnet. In Proc. of USENIX Security Symposium. 1093\u20131110.",
+      "doi": ""
+    },
+    {
+      "text": "Noah Apthorpe, Dillon Reisman, and Nick Feamster. 2016. A Smart Home is No Castle: Privacy Vulnerabilities of Encrypted IoT Traf\ufb01c. Data and Algorithmic Transparency Workshop(2016), 6.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Arp, Erwin Quiring, Christian Wressnegger, and Konrad Rieck. 2017. Privacy Threats through Ultrasonic Side Channels on Mobile Devices. In 2017 IEEE European Symposium on Security and Privacy (EuroS&P). 35\u201347.",
+      "doi": ""
+    },
+    {
+      "text": "Nat\u00e3\u00a0Miccael Barbosa, Joon\u00a0S Park, Yaxing Yao, and Yang Wang. 2019. \u201cWhat if?\u201d Predicting Individual Users\u2019 Smart Home Privacy Preferences and Their Changes. Proceedings on Privacy Enhancing Technologies 2019, 4(2019), 211\u2013231.",
+      "doi": ""
+    },
+    {
+      "text": "Rubem Barbosa-Hughes. 2020. Interaction Patterns using Machine Learning and Location Services in User Interfaces for the Consumer IoT. In Proceedings of the European Conference on Pattern Languages of Programs 2020(EuroPLoP \u201920). Association for Computing Machinery, 1\u20139. https://doi.org/10.1145/3424771.3424777",
+      "doi": "10.1145/3424771.3424777"
+    },
+    {
+      "text": "Luiz\u00a0Adolpho Baroni, Alisson\u00a0Andrey Puska, Luciana\u00a0Cardoso de Castro\u00a0Salgado, and Roberto Pereira. 2021. Dark Patterns: Towards a Socio-Technical Approach. Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3472301.3484336",
+      "doi": "10.1145/3472301.3484336"
+    },
+    {
+      "text": "Dieter Bohn. 2017. Google\u2019s Home Mini needed a software patch to stop some of them from recording everything. https://www.theverge.com/2017/10/10/16456050/google-home-mini-always-recording-bug",
+      "doi": ""
+    },
+    {
+      "text": "Kerstin Bongard-Blanchy, Ariana Rossi, Salvador Rivas, Sophie Doublet, Vincent Koening, and Gabriele Lenzini. 2021. \"I am Definitely Manipulated, Even When I am Aware of it. It\u2019s Ridiculous!\" - Dark Patterns from the End-User Perspective. In Designing Interactive Systems Conference 2021. http://doi.org/10.1145/3461778.3462086",
+      "doi": "10.1145/3461778.3462086"
+    },
+    {
+      "text": "Christoph B\u00f6sch, Benjamin Erb, Frank Kargl, Henning Kopp, and Stefan Pfattheicher. 2016. Tales from the Dark Side: Privacy Dark Strategies and Privacy Dark Patterns. Proc. of PETS 2016, 4 (2016), 237\u2013254. https://content.sciendo.com/view/journals/popets/2016/4/article-p237.xml",
+      "doi": ""
+    },
+    {
+      "text": "Harry Brignull. 2010. Types of Deceptive Design. https://www.deceptive.design/types.",
+      "doi": ""
+    },
+    {
+      "text": "[21] Bringing Dark Patterns to Light: An FTC Workshop 2021. https://www.ftc.gov/news-events/events-calendar/bringing-dark-patterns-light-ftc-workshop",
+      "doi": ""
+    },
+    {
+      "text": "Z\u00a0Berkay Celik, Leonardo Babun, Amit\u00a0Kumar Sikder, Hidayet Aksu, Gang Tan, Patrick McDaniel, and A\u00a0Selcuk Uluagac. 2018. Sensitive Information Tracking in Commodity IoT. In 27th USENIX Security Symposium (USENIX Security 18). 1687\u20131704.",
+      "doi": ""
+    },
+    {
+      "text": "Camille Cobb, Sruti Bhagavatula, Kalil\u00a0Anderson Garrett, Alison Hoffman, Varun Rao, and Lujo Bauer. 2021. \u201cI would have to evaluate their objections\u201d: Privacy tensions between smart home device owners and incidental users. Proceedings on Privacy Enhancing Technologies 2021, 4(2021), 54\u201375.",
+      "doi": ""
+    },
+    {
+      "text": "Competition and Markets Authority of the United Kingdom. 2022. Evidence Review of Online Choice Architecture and Consumer and Competition Harm. Technical Report 157. 261 pages. https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1069423/OCA_Evidence_Review_Paper_14.4.22.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Gregory Conti and Edward Sobiesk. 2010. Malicious Interface Design: Exploiting the User. In Proc. of WWW.",
+      "doi": "10.1145/1772690.1772719"
+    },
+    {
+      "text": "Linda Di\u00a0Geronimo, Larissa Braz, Enrico Fregnan, Fabio Palomba, and Alberto Bacchelli. 2020. UI Dark Patterns and Where to Find Them: A Study on Mobile Applications and User Perception. In Proc. of CHI.",
+      "doi": "10.1145/3313831.3376600"
+    },
+    {
+      "text": "Daniel\u00a0J. Dubois, Roman Kolcun, Anna\u00a0Maria Mandalari, Muhammad\u00a0Talha Paracha, David Choffnes, and Hamed Haddadi. 2020. When Speakers Are All Ears: Characterizing Misactivations of IoT Smart Speakers. In Proc. of the Privacy Enhancing Technologies Symposium (PETS).",
+      "doi": ""
+    },
+    {
+      "text": "A. Dutta, A. Gupta, and A. Zissermann. 2016. VGG Image Annotator (VIA). http://www.robots.ox.ac.uk/\u00a0vgg/software/via/.",
+      "doi": ""
+    },
+    {
+      "text": "Abhishek Dutta and Andrew Zisserman. 2019. The VIA Annotation Software for Images, Audio and Video. In Proceedings of the 27th ACM International Conference on Multimedia (Nice, France) (MM \u201919). ACM, New York, NY, USA, 4\u00a0pages. https://doi.org/10.1145/3343031.3350535",
+      "doi": "10.1145/3343031.3350535"
+    },
+    {
+      "text": "Pardis Emami-Naeini, Janarth Dheenadhayalan, Yuvraj Agarwal, and Lorrie\u00a0Faith Cranor. 2021. Which Privacy and Security Attributes Most Impact Consumers\u2019 Risk Perception and Willingness to Purchase IoT Devices?. In 2021 IEEE Symposium on Security and Privacy (SP). IEEE, 519\u2013536. https://doi.org/10.1109/SP40001.2021.00112",
+      "doi": ""
+    },
+    {
+      "text": "Pardis Emami-Naeini, Henry Dixon, Yuvraj Agarwal, and Lorrie\u00a0Faith Cranor. 2019. Exploring How Privacy and Security Factor into IoT Device Purchase Behavior. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 1\u201312. https://doi.org/10.1145/3290605.3300764",
+      "doi": "10.1145/3290605.3300764"
+    },
+    {
+      "text": "Earlence Fernandes, Jaeyeon Jung, and Atul Prakash. 2016. Security analysis of emerging smart home applications. In 2016 IEEE symposium on security and privacy (SP). IEEE, 636\u2013654.",
+      "doi": ""
+    },
+    {
+      "text": "Organization for Economic Co-operationand Development. 2022. Dark Commercial Patterns. https://www.oecd-ilibrary.org/docserver/44f5e846-en.pdf?expires=1670358058&id=id&accname=guest&checksum=C06C85A96CF608E11AD88986E583DF54",
+      "doi": ""
+    },
+    {
+      "text": "Directorate-General for Justice and Consumers (European\u00a0Commission), Francisco Lupi\u00e1\u00f1ez-Villanueva, Alba Boluda, Francesco Bogliacino, Giovanni Liva, Lucie Lechardoy, and Teresa Rodr\u00edguez de\u00a0las Heras\u00a0Ballell. 2022. Behavioural study on unfair commercial practices in the digital environment: dark patterns and manipulative personalisation : final report. Technical Report. Publications Office of the European Union, LU. https://data.europa.eu/doi/10.2838/859030",
+      "doi": ""
+    },
+    {
+      "text": "FTC. 2013. .com Disclosures. https://www.ftc.gov/sites/default/files/attachments/press-releases/ftc-staff-revises-online-advertising-disclosure-guidelines/130312dotcomdisclosures.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2022. Explore what you can do with Google Nest or Home devices. https://support.google.com/googlenest/answer/7130274",
+      "doi": ""
+    },
+    {
+      "text": "Colin\u00a0M. Gray. 2019. The dark side of UX Design. https://darkpatterns.uxp2.com/.",
+      "doi": ""
+    },
+    {
+      "text": "Colin\u00a0M. Gray, Jingle Chen, Shruthi\u00a0Sai Chivukula, and Liyang Qu. 2021. End User Accounts of Dark Patterns as Felt Manipulation. Proceedings of the ACM on Human-Computer Interaction 5, CSCW2 (Oct 2021), 372:1\u2013372:25. https://doi.org/10.1145/3479516",
+      "doi": "10.1145/3479516"
+    },
+    {
+      "text": "Colin\u00a0M. Gray, Yubo Kou, Bryan Battles, Joseph Hoggatt, and Austin\u00a0L. Toombs. 2018. The Dark (Patterns) Side of UX Design. In Proc. of CHI.",
+      "doi": "10.1145/3173574.3174108"
+    },
+    {
+      "text": "Colin\u00a0M. Gray, Cristiana Santos, Nataliia Bielova, Michael Toth, and Damian Clifford. 2021. Dark Patterns and the Legal Requirements of Consent Banners: An Interaction Criticism Perspective. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 172, 18\u00a0pages. https://doi.org/10.1145/3411764.3445779",
+      "doi": "10.1145/3411764.3445779"
+    },
+    {
+      "text": "Paul Gra\u00dfl, Hanna Schraffenberger, Frederik\u00a0Zuiderveen Borgesius, and Moniek Buijzen. 2021. Dark and Bright Patterns in Cookie Consent Requests. Journal of Digital Social Research 3, 1 (Feb. 2021), 1\u201338. https://doi.org/10.33621/jdsr.v3i1.54 Number: 1.",
+      "doi": ""
+    },
+    {
+      "text": "Johanna Gunawan, David Choffnes, Woodrow Hartzog, and Christo Wilson. 2021. A Comparative Study of Dark Patterns Across Mobile and Web Modalities. (Oct. 2021).",
+      "doi": ""
+    },
+    {
+      "text": "Johanna Gunawan, Cristiana Santos, and Irene Kamara. 2022. Redress for Dark Patterns Privacy Harms? A Case Study on Consent Interactions. In Proceedings of the 2022 Symposium on Computer Science and Law (CSLAW \u201922) (Washington, D.C., USA) (CSLAW \u201922). Association for Computing Machinery.",
+      "doi": "10.1145/3511265.3550448"
+    },
+    {
+      "text": "Frode Guribye, Oda\u00a0Elise Nordberg, Are Nyhammer, Marija Slavkovik, and Than\u00a0Htut Soe. 2021. Dark patterns in cookie consent notices: new definitions and mitigation strategies. Position Papers of CHI\u201922 \"What Can CHI Do About Dark Patterns?\" (2021). https://drive.google.com/file/d/1V-P98rH_wqlzLaqY1HZZPDGfdHcCKWBx/view",
+      "doi": ""
+    },
+    {
+      "text": "Hana Habib, Megan Li, Ellie Young, and Lorrie Cranor. 2022. \u201cOkay, whatever\u201d: An Evaluation of Cookie Consent Interfaces. In CHI Conference on Human Factors in Computing Systems. ACM, New Orleans LA USA, 1\u201327. https://doi.org/10.1145/3491102.3501985",
+      "doi": "10.1145/3491102.3501985"
+    },
+    {
+      "text": "Ayyoob Hamza, Dinesha Ranathunga, Hassan\u00a0Habibi Gharakheili, Theophilus\u00a0A. Benson, Matthew Roughan, and Vijay Sivaraman. 2022. Verifying and Monitoring IoTs Network Behavior Using MUD Profiles. IEEE Transactions on Dependable and Secure Computing 19, 1 (2022), 1\u201318.",
+      "doi": "10.1109/TDSC.2020.2997898"
+    },
+    {
+      "text": "Woodrow Hartzog. 2018. Privacy\u2019s Blueprint: The Battle to Control the Design of New Technologies. Harvard University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Woodrow Hartzog and Neil\u00a0M. Richards. 2022. Legislating Data Loyalty. Notre Dame Law Review Reflection 97 (June 2022). Issue 356. https://ssrn.com/abstract=4131523",
+      "doi": ""
+    },
+    {
+      "text": "Umar Iqbal, Pouneh\u00a0Nikkhah Bahrami, Rahmadi Trimananda, Hao Cui, Alexander Gamero-Garrido, Daniel Dubois, David Choffnes, Athina Markopoulou, Franziska Roesner, and Zubair Shafiq. 2022. Your Echos are Heard: Tracking, Profiling, and Ad Targeting in the Amazon Smart Speaker Ecosystem. https://arxiv.org/abs/2204.10920",
+      "doi": ""
+    },
+    {
+      "text": "Dave Johnson and William Antonelli. 2021. The most important Alexa voice commands you can use with your Amazon Echo. https://www.businessinsider.com/guides/tech/alexa-commands",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer King and Adriana Stephan. 2021. Regulating Privacy Dark Patterns in Practice - Drawing Inspiration from the California Privacy Rights Act. Georgetown Law Technology Review 5 (2021), 26\u00a0pages. Issue 250.",
+      "doi": ""
+    },
+    {
+      "text": "Chiara Krisam, Heike Dietmann, Melanie Volkamer, and Oksana Kulyk. 2021. Dark Patterns in the Wild: Review of Cookie Disclaimer Designs on Top 500 German Websites. In European Symposium on Usable Security 2021(Karlsruhe, Germany) (EuroUSEC \u201921). Association for Computing Machinery, New York, NY, USA, 1\u20138. https://doi.org/10.1145/3481357.3481516",
+      "doi": "10.1145/3481357.3481516"
+    },
+    {
+      "text": "Jacob\u00a0Leon Kr\u00f6ger, Leon Gellrich, Sebastian Pape, Saba\u00a0Rebecca Brause, and Stefan Ullrich. 2022. Personal information inference from voice recordings: User awareness and privacy concerns. Proceedings on Privacy Enhancing Technologies 2022, 1(2022), 6\u201327.",
+      "doi": ""
+    },
+    {
+      "text": "J.\u00a0Richard Landis and Gary\u00a0G. Koch. 1977. The Measurement of Observer Agreement for Categorical Data. Issue 1. https://doi.org/10.2307/2529310",
+      "doi": ""
+    },
+    {
+      "text": "Eliot Lear, Ralph Droms, and Dan Romascanu. 2019. Manufacturer Usage Description Specification. RFC 8520. https://www.rfc-editor.org/info/rfc8520",
+      "doi": ""
+    },
+    {
+      "text": "Neha Lingareddy, Brennan Schaffner, and Marshini Chetty. 2021. Can I Delete My Account? Dark Patterns in Account Deletion on Social Media. Position Papers of CHI\u201922 \"What Can CHI Do About Dark Patterns?\" (2021). https://www.google.com/url?q=https://drive.google.com/file/d/190uWk2bhJngE0J_K_kGt2v91z_f01Ocz/view?usp%3Dsharing&sa=D&source=editors&ust=1619579203736000&usg=AFQjCNHhFRvNyZ0NrYr7AVXUqAKvIKd-tQ",
+      "doi": ""
+    },
+    {
+      "text": "Haoyu Liu, Tom Spink, and Paul Patras. 2019. Uncovering security vulnerabilities in the Belkin WeMo home automation ecosystem. In 2019 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops). IEEE, 894\u2013899.",
+      "doi": ""
+    },
+    {
+      "text": "Natasha Lomas. 2022. Amazon agrees to drop Prime cancellation \u2018dark patterns\u2019 in Europe. https://techcrunch.com/2022/07/01/amazon-ends-prime-cancellation-dark-patterns-europe/",
+      "doi": ""
+    },
+    {
+      "text": "Kai Lukoff, Alexis Hiniker, Colin\u00a0M. Gray, Arunesh Mathur, and Shruthi\u00a0Sai Chivukula. 2021. What Can CHI Do About Dark Patterns?Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3411763.3441360",
+      "doi": "10.1145/3411763.3441360"
+    },
+    {
+      "text": "Aditi M.\u00a0Bhoot, Mayuri A.\u00a0Shinde, and Wricha P.\u00a0Mishra. 2020. Towards the Identification of Dark Patterns: An Analysis Based on End-User Reactions. In IndiaHCI \u201920: Proceedings of the 11th Indian Conference on Human-Computer Interaction (Online, India) (IndiaHCI 2020). Association for Computing Machinery, New York, NY, USA, 24\u201333. https://doi.org/10.1145/3429290.3429293",
+      "doi": "10.1145/3429290.3429293"
+    },
+    {
+      "text": "Eryn Ma and Eleanor Birrell. 2022. Prospective Consent: The Effect of Framing on Cookie Consent Decisions. In CHI Conference on Human Factors in Computing Systems Extended Abstracts(CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3491101.3519687",
+      "doi": "10.1145/3491101.3519687"
+    },
+    {
+      "text": "Nathan Malkin, Joe Deatrick, Allen Tong, Primal Wijesekera, Serge Egelman, and David Wagner. 2019. Privacy attitudes of smart speaker users. Proceedings on Privacy Enhancing Technologies 2019, 4(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Anna\u00a0Maria Mandalari, Daniel\u00a0J. Dubois, Roman Kolcun, Muhammad\u00a0Talha Paracha, Hamed Haddadi, and David Choffnes. 2021. Blocking without Breaking: Identification and Mitigation of Non-Essential IoT Traffic. In Proc. of the Privacy Enhancing Technologies Symposium (PETS).",
+      "doi": ""
+    },
+    {
+      "text": "Shrirang Mare, Franziska Roesner, and Tadayoshi Kohno. 2020. Smart Devices in Airbnbs: Considering Privacy and Security for both Guests and Hosts. Proceedings on Privacy Enhancing Technologies 2020, 2(2020), 436\u2013458.",
+      "doi": ""
+    },
+    {
+      "text": "Karola Marky, Nina Gerber, Michelle\u00a0Gabriela Pelzer, Mohamed Khamis, and Max M\u00fchlh\u00e4user. 2022. \u201cYou offer privacy like you offer tea\u201d: Investigating Mechanisms for Improving Guest Privacy in IoT-Equipped Households. Proceedings on Privacy Enhancing Technologies 1 (2022), 21.",
+      "doi": ""
+    },
+    {
+      "text": "Karola Marky, Verena Zimmermann, Alina St\u00f6ver, Philipp Hoffmann, Kai Kunze, and Max M\u00fchlh\u00e4user. 2020. All in One! User Perceptions on Centralized IoT Privacy Settings(CHI EA \u201920). Association for Computing Machinery, 1\u20138. https://doi.org/10.1145/3334480.3383016",
+      "doi": "10.1145/3334480.3383016"
+    },
+    {
+      "text": "Arunesh Mathur, Gunes Acar, Michael Friedman, Elena Lucherini, Jonathan Mayer, Marshini Chetty, and Arvind Narayanan. 2019. Dark Patterns at Scale: Findings from a Crawl of 11K Shopping Websites. Proc. ACM Hum.-Comput. Interact. 1, CSCW (2019).",
+      "doi": "10.1145/3359183"
+    },
+    {
+      "text": "Arunesh Mathur, Jonathan Mayer, and Kihir Kshirsagar. 2021. What Makes a Dark Pattern... Dark? Design Attributes, Normative Considerations, and Measurement Methods. https://arxiv.org/pdf/2101.04843.pdf",
+      "doi": ""
+    },
+    {
+      "text": "M.\u00a0Hammad Mazhar and Zubair Shafiq. 2020. Characterizing Smart Home IoT Traffic in the Wild. ACM/IEEE Conference on Internet of Things Design and Implementation (Mar 2020). http://arxiv.org/abs/2001.08288",
+      "doi": ""
+    },
+    {
+      "text": "Nora McDonald, Sarita Schoenebeck, and Andrea Forte. 2019. Reliability and Inter-Rater Reliability in Qualitative Research: Norms and Guidelines for CSCW and HCI Practice. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 72 (nov 2019), 23\u00a0pages. https://doi.org/10.1145/3359174",
+      "doi": "10.1145/3359174"
+    },
+    {
+      "text": "Thomas Mildner and Gian-Luca Savino. 2021. Ethical User Interfaces: Exploring the Effects of Dark Patterns on Facebook. Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3411763.3451659",
+      "doi": "10.1145/3411763.3451659"
+    },
+    {
+      "text": "Alberto Monge\u00a0Roffarello and Luigi De\u00a0Russis. 2022. Towards Understanding the Dark Patterns That Steal Our Attention. In CHI Conference on Human Factors in Computing Systems Extended Abstracts(CHI EA \u201922). Association for Computing Machinery, New York, NY, USA, 1\u20137. https://doi.org/10.1145/3491101.3519829",
+      "doi": "10.1145/3491101.3519829"
+    },
+    {
+      "text": "Sara Morrison. 2021. Dark patterns, the tricks websites use to make you say yes, explained. https://www.vox.com/recode/22351108/dark-patterns-ui-web-design-privacy",
+      "doi": ""
+    },
+    {
+      "text": "Pardis\u00a0Emami Naeini, Sruti Bhagavatula, Hana Habib, Martin Degeling, Lujo Bauer, Lorrie\u00a0Faith Cranor, and Norman Sadeh. 2017. Privacy Expectations and Preferences in an IoT World. In Proc. of USENIX Security Symposium. 399\u2013412. https://www.usenix.org/conference/soups2017/technical-sessions/presentation/naeini",
+      "doi": ""
+    },
+    {
+      "text": "Arvind Narayanan, Arunesh Mathur, Marshini Chetty, and Mihir Kshirsagar. 2020. Dark Patterns: Past, Present, and Future. ACM Queue 18, 2 (2020).",
+      "doi": "10.1145/3397884"
+    },
+    {
+      "text": "Commission nationale de l\u2019informatique et des\u00a0libert\u00e9s (CNIL). 2022. Cookies: the CNIL fines GOOGLE a total of 150 million euros and FACEBOOK 60 million euros for non-compliance with French legislation. (January 2022). https://www.cnil.fr/en/cookies-cnil-fines-google-total-150-million-euros-and-facebook-60-million-euros-non-compliance",
+      "doi": ""
+    },
+    {
+      "text": "Aileen Nielsen. 2022. Tech has an Attention Problem. Berkeley Center for Long-Term Cybersecurity Whitepapers (2022). https://cltc.berkeley.edu/wp-content/uploads/2021/09/CLTC_Techs_Attention_Problem.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Midas Nouwens, Ilaria Liccardi, Michael Veale, David Karger, and Lalana Kagal. 2020. Dark Patterns after the GDPR: Scraping Consent Pop-Ups and Demonstrating Their Influence. In Proc. of CHI.",
+      "doi": "10.1145/3313831.3376321"
+    },
+    {
+      "text": "SIG on\u00a0Governing\u00a0the Social\u00a0Media and Data Economy. 2022. Futureproof Methods for Measuring and Detecting Dark Patterns. https://www.uu.nl/en/events/future-proof-methods-for-measuring-and-detecting-dark-patterns",
+      "doi": ""
+    },
+    {
+      "text": "Kentrell Owens, Johanna Gunawan, David Choffnes, Pardis Emami-Naeini, Tadayoshi Kohno, and Franziska Roesner. 2022. Exploring Deceptive Design Patterns in Voice Interfaces. In 2022 European Symposium on Usable Security (Karlsruhe, Germany) (EuroUSEC 2022). Association for Computing Machinery, New York, NY, USA, 64\u201378. https://doi.org/10.1145/3549015.3554213",
+      "doi": "10.1145/3549015.3554213"
+    },
+    {
+      "text": "Muhammad\u00a0Talha Paracha, Daniel\u00a0J Dubois, Narseo Vallina-Rodriguez, and David Choffnes. 2021. IoTLS: Understanding TLS Usage in Consumer IoT Devices. In Proc. of the Internet Measurement Conference.",
+      "doi": "10.1145/3487552.3487830"
+    },
+    {
+      "text": "European Parliament and Council of European\u00a0Union. 2016. EU General Data Protection Regulation (GDPR). https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN.",
+      "doi": ""
+    },
+    {
+      "text": "David Priest, Tauren Dyson, and Taylor Martin. 2022. Every Alexa command you can give your speaker. https://www.cnet.com/how-to/every-alexa-command-you-can-give-your-amazon-echo-smart-speaker/",
+      "doi": ""
+    },
+    {
+      "text": "Eric Ravenscraft. 2020. How to Spot\u2014and Avoid\u2014Dark Patterns on the Web. https://www.wired.com/story/how-to-spot-avoid-dark-patterns/",
+      "doi": ""
+    },
+    {
+      "text": "Jingjing Ren, Daniel\u00a0J. Dubois, David Choffnes, Anna\u00a0Maria Mandalari, Roman Kolcun, and Hamed Haddadi. 2019. Information Exposure for Consumer IoT Devices: A Multidimensional, Network-Informed Measurement Approach. In Proc. of the Internet Measurement Conference (IMC).",
+      "doi": "10.1145/3355369.3355577"
+    },
+    {
+      "text": "Eyal Ronen and Adi Shamir. 2016. Extended functionality attacks on IoT devices: The case of smart lights. In 2016 IEEE European Symposium on Security and Privacy (EuroS&P). IEEE, 3\u201312.",
+      "doi": ""
+    },
+    {
+      "text": "Eyal Ronen, Adi Shamir, Achi-Or Weingarten, and Colin O\u2019Flynn. 2017. IoT goes nuclear: Creating a ZigBee chain reaction. In 2017 IEEE Symposium on Security and Privacy (SP). IEEE, 195\u2013212.",
+      "doi": ""
+    },
+    {
+      "text": "Said\u00a0Jawad Saidi, Anna\u00a0Maria Mandalari, Roman Kolcun, Hamed Haddadi, Daniel\u00a0J. Dubois, David Choffnes, Georgios Smaragdakis, and Anja Feldmann. 2020. A Haystack Full of Needles: Scalable Detection of IoT Devices in the Wild. In Proc. of the Internet Measurement Conference (IMC).",
+      "doi": "10.1145/3419394.3423650"
+    },
+    {
+      "text": "Brennan Schaffner, Neha\u00a0A. Lingareddy, and Marshini Chetty. 2022. Understanding Account Deletion and Relevant Dark Patterns on Social Media. Proc. ACM Hum.-Comput. Interact. 6, CSCW2, Article 417 (nov 2022), 43\u00a0pages. https://doi.org/10.1145/3555142",
+      "doi": "10.1145/3555142"
+    },
+    {
+      "text": "California Legislature (2021-2022\u00a0Regular Session). 2022. California Age-Appropriate Design Code Act. https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202120220AB2273",
+      "doi": ""
+    },
+    {
+      "text": "Stanford Digital\u00a0Civil Society. 2021. Dark Patterns Tip Line. https://darkpatternstipline.org",
+      "doi": ""
+    },
+    {
+      "text": "Than\u00a0Htut Soe, Oda\u00a0Elise Nordberg, Frode Guribye, and Marija Slavkovik. 2020. Circumvention by Design - Dark Patterns in Cookie Consent for Online News Outlets. Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3419249.3420132",
+      "doi": "10.1145/3419249.3420132"
+    },
+    {
+      "text": "Daniel Susser, Beate Roessler, and Helen Nissenbaum. 2019. Online Manipulation: Hidden Influences in a Digital World.",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0H. Thaler and Cass\u00a0R. Sunstein. 2008. Nudge: Improving Decisions About Health, Wealth, and Happiness. Yale University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Janus Varmarken, Hieu Le, Anastasia Shuba, Athina Markopoulou, and Zubair Shafiq. 2020. The TV is Smart and Full of Trackers: Measuring Smart TV Advertising and Tracking. Proceedings on Privacy Enhancing Technologies 2020, 2 (Apr 2020), 129\u2013154. https://doi.org/10.2478/popets-2020-0021",
+      "doi": ""
+    },
+    {
+      "text": "Megan Wollerton. 2020. Wink\u2019s subscription plan kicks off July 27. https://www.cnet.com/home/smart-home/winks-subscription-plan-kicks-off-july-27/",
+      "doi": ""
+    },
+    {
+      "text": "Yaxing Yao, Justin\u00a0Reed Basdeo, Oriana\u00a0Rosata Mcdonough, and Yang Wang. 2019. Privacy Perceptions and Designs of Bystanders in Smart Homes. Proc. ACM Hum.-Comput. Interact. 3, CSCW (nov 2019). https://doi.org/10.1145/3359161",
+      "doi": "10.1145/3359161"
+    },
+    {
+      "text": "Guoming Zhang, Chen Yan, Xiaoyu Ji, Tianchen Zhang, Taimin Zhang, and Wenyuan Xu. 2017. Dolphinattack: Inaudible voice commands. In Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security. 103\u2013117.",
+      "doi": "10.1145/3133956.3134052"
+    },
+    {
+      "text": "Serena Zheng, Noah Apthorpe, Marshini Chetty, and Nick Feamster. 2018. User Perceptions of Smart Home IoT Privacy. Proceedings of the ACM on Human-Computer Interaction 2, CSCW (Nov 2018), 200:1\u2013200:20. https://doi.org/10.1145/3274469",
+      "doi": "10.1145/3274469"
+    },
+    {
+      "text": "Wei Zhou, Yan Jia, Yao Yao, Lipeng Zhu, Le Guan, Yuhang Mao, Peng Liu, and Yuqing Zhang. 2019. Discovering and Understanding the Security Hazards in the Interactions between IoT Devices, Mobile Apps, and Clouds on Smart Home Platforms. In 28th USENIX Security Symposium (USENIX Security 19). 1133\u20131150.",
+      "doi": ""
+    },
+    {
+      "text": "Mohammed Zubair, Devrim Unal, Abdulla Al-Ali, and Abdullatif Shikfa. 2019. Exploiting Bluetooth Vulnerabilities in e-Health IoT Devices. In Proceedings of the 3rd International Conference on Future Networks and Distributed Systems(ICFNDS \u201919). Association for Computing Machinery, 1\u20137. https://doi.org/10.1145/3341325.3342000",
+      "doi": "10.1145/3341325.3342000"
+    }
+  ]
+}

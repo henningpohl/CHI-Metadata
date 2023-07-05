@@ -1,0 +1,537 @@
+{
+  "doi": "10.1145/3411764.3445557",
+  "title": "\u201cI Can\u2019t Reply with That\u201d: Characterizing Problematic Email Reply Suggestions",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2021,
+  "badges": [],
+  "abstract": "In email interfaces, providing users with reply suggestions may simplify or accelerate correspondence. While the \u201csuccess\u201d of such systems is typically quantified using the number of suggestions selected by users, this ignores the impact of social context, which can change how suggestions are perceived. To address this, we developed a mixed-methods framework involving qualitative interviews and crowdsourced experiments to characterize problematic email reply suggestions. Our interviews revealed issues with over-positive, dissonant, cultural, and gender-assuming replies, as well as contextual politeness. In our experiments, crowdworkers assessed email scenarios that we generated and systematically controlled, showing that contextual factors like social ties and the presence of salutations impacts users\u2019 perceptions of email correspondence. These assessments created a novel dataset of human-authored corrections for problematic email replies. Our study highlights the social complexity of providing suggestions for email correspondence, raising issues that may apply to all social messaging systems.",
+  "authors": [
+    {
+      "name": "Ronald E Robertson",
+      "institution": "Northeastern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659231244",
+      "orcid": "missing"
+    },
+    {
+      "name": "Alexandra Olteanu",
+      "institution": "Microsoft Research, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659587326",
+      "orcid": "missing"
+    },
+    {
+      "name": "Fernando Diaz",
+      "institution": "Microsoft Research, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100278520",
+      "orcid": "missing"
+    },
+    {
+      "name": "Milad Shokouhi",
+      "institution": "MSAI Microsoft, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81508689276",
+      "orcid": "missing"
+    },
+    {
+      "name": "Peter Bailey",
+      "institution": "Microsoft, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81405594971",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Herman Aguinis and Kyle\u00a0J Bradley. 2014. Best practice recommendations for designing and implementing experimental vignette methodology studies. Organizational Research Methods 17, 4 (2014), 351\u2013371.",
+      "doi": ""
+    },
+    {
+      "text": "Cheryl\u00a0S Alexander and Henry\u00a0Jay Becker. 1978. The use of vignettes in survey research. Public Opinion Quarterly 42, 1 (1978), 93\u2013104.",
+      "doi": ""
+    },
+    {
+      "text": "Sieun An, Li-Jun Ji, Michael Marks, and Zhiyong Zhang. 2017. Two sides of emotion: exploring positivity and negativity in six basic emotions across cultures. Frontiers in Psychology 8 (2017), 610.",
+      "doi": ""
+    },
+    {
+      "text": "Lynne\u00a0M. Andersson and Christine\u00a0M. Pearson. 1999. Tit for Tat? The Spiraling Effect of Incivility in the Workplace. Academy of Management Review 24, 3 (July 1999), 452\u2013471.",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth Arnold, Krysta Chauncey, and Krzysztof Gajos. 2018. Sentiment Bias in Predictive Text Recommendations Results in Biased Writing. Proceedings of Graphics Interface 2018 Toronto (2018), 8 pages, 730.87 KB.",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth\u00a0C Arnold, Krysta Chauncey, and Krzysztof\u00a0Z Gajos. 2020. Predictive text encourages predictable writing. In Proceedings of the 25th International Conference on Intelligent User Interfaces. 128\u2013138.",
+      "doi": "10.1145/3377325.3377523"
+    },
+    {
+      "text": "Kenneth\u00a0C. Arnold, Krzysztof\u00a0Z. Gajos, and Adam\u00a0T. Kalai. 2016. On Suggesting Phrases vs. Predicting Words for Mobile Text Composition. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology - UIST \u201916. ACM Press, Tokyo, Japan, 603\u2013608.",
+      "doi": "10.1145/2984511.2984584"
+    },
+    {
+      "text": "John\u00a0Langshaw Austin. 1962. How to Do Things with Words: The William James Lectures Delivered at Harvard University in 1955. Technical Report. Oxford University Press, Oxford.",
+      "doi": ""
+    },
+    {
+      "text": "Ricardo Baeza-Yates. 2018. Bias on the Web. Commun. ACM 61, 6 (2018), 54\u201361.",
+      "doi": "10.1145/3209581"
+    },
+    {
+      "text": "Naomi\u00a0S. Baron. 1998. Letters by Phone or Speech by Other Means: The Linguistics of Email. Language & Communication 18, 2 (April 1998), 133\u2013170.",
+      "doi": ""
+    },
+    {
+      "text": "Asaf Beasley and Winter Mason. 2015. Emotional States vs. Emotional Words in Social Media. In Proceedings of the ACM Web Science Conference. ACM, Oxford United Kingdom, 1\u201310.",
+      "doi": "10.1145/2786451.2786473"
+    },
+    {
+      "text": "Boomerang. 2020. Respondable: Write Better Email. https://www.boomeranggmail.com/respondable.",
+      "doi": ""
+    },
+    {
+      "text": "Pia Borlund and Peter Ingwersen. 1997. The Development of a Method for the Evaluation of Interactive Information Retrieval Systems. Journal of Documentation 53, 3 (Aug. 1997), 225\u2013250.",
+      "doi": ""
+    },
+    {
+      "text": "Jerry Boucher and Charles\u00a0E. Osgood. 1969. The Pollyanna Hypothesis. Journal of Verbal Learning and Verbal Behavior 8, 1 (Feb. 1969), 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Penelope Brown and Stephen\u00a0C. Levinson. 1987. Politeness: Some Universals in Language Usage. Number\u00a04 in Studies in Interactional Sociolinguistics. Cambridge University Press, Cambridge [Cambridgeshire] ; New York.",
+      "doi": ""
+    },
+    {
+      "text": "Ulla Bunz and Scott\u00a0W. Campbell. 2004. Politeness Accommodation in Electronic Mail. Communication Research Reports 21, 1 (Jan. 2004), 11\u201325.",
+      "doi": ""
+    },
+    {
+      "text": "Moira Burke, Justin Cheng, and Bethany de Gant. 2020. Social Comparison and Facebook: Feedback, Positivity, and Opportunities for Comparison. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM, Honolulu HI USA, 1\u201313.",
+      "doi": "10.1145/3313831.3376482"
+    },
+    {
+      "text": "Robin Campbell and Roger Wales. 1970. The Study of Language Acquisition. In New Horizons in Linguistics, J.\u00a0Lyons (Ed.). Penguin, Harmondsworth, 242\u2013260.",
+      "doi": ""
+    },
+    {
+      "text": "Christina Cauterucci. 2015. New Chrome App Helps Women Stop Saying \u201cJust\u201d and \u201cSorry\u201d in Emails. https://slate.com/human-interest/2015/12/new-chrome-app-helps-women-stop-saying-just-and-sorry-in-emails.html.",
+      "doi": ""
+    },
+    {
+      "text": "Praveen Chandar, Jean Garcia-Gathright, Christine Hosey, Brian St.\u00a0Thomas, and Jennifer Thom. 2019. Developing Evaluation Metrics for Instant Search Using Mixed Methods Methods. In Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval - SIGIR\u201919. ACM Press, Paris, France, 925\u2013928.",
+      "doi": "10.1145/3331184.3331293"
+    },
+    {
+      "text": "Mia\u00a0Xu Chen, Benjamin\u00a0N. Lee, Gagan Bansal, Yuan Cao, Shuyuan Zhang, Justin Lu, Jackie Tsay, Yinan Wang, Andrew\u00a0M. Dai, Zhifeng Chen, Timothy Sohn, and Yonghui Wu. 2019. Gmail Smart Compose: Real-Time Assisted Writing. arXiv:1906.00080 [cs] (May 2019). arxiv:1906.00080\u00a0[cs]",
+      "doi": ""
+    },
+    {
+      "text": "Innocent Chiluwa. 2010. Nigerian English in Informal Email Messages. English World-Wide 31, 1 (2010), 40\u201361.",
+      "doi": ""
+    },
+    {
+      "text": "Noam Chomsky. 1965. Aspects of the Theory of Syntax. Number\u00a011 in Massachusetts Institute of Technology (Cambridge, Mass.). Research Laboratory of Electronics. Special Technical Report. MIT Press, Cambridge, MA. OCLC: 245876504.",
+      "doi": ""
+    },
+    {
+      "text": "Domenic\u00a0V. Cicchetti, Donald Shoinralter, and Peter\u00a0J. Tyrer. 1985. The Effect of Number of Rating Scale Categories on Levels of Interrater Reliability : A Monte Carlo Investigation. Applied Psychological Measurement 9, 1 (March 1985), 31\u201336.",
+      "doi": ""
+    },
+    {
+      "text": "Lilia\u00a0M. Cortina, Vicki\u00a0J. Magley, Jill\u00a0Hunter Williams, and Regina\u00a0Day Langhout. 2001. Incivility in the Workplace: Incidence and Impact.Journal of Occupational Health Psychology 6, 1 (2001), 64\u201380.",
+      "doi": ""
+    },
+    {
+      "text": "David Crystal 2001. Language and the Internet. Cambridge University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathon\u00a0N Cummings, Brian Butler, and Robert Kraut. 2002. The quality of online social relationships. Commun. ACM 45, 7 (2002), 103\u2013108.",
+      "doi": "10.1145/514236.514242"
+    },
+    {
+      "text": "Laura\u00a0A. Dabbish and Robert\u00a0E. Kraut. 2006. Email Overload at Work: An Analysis of Factors Associated with Email Strain. In Proceedings of the 2006 20th Anniversary Conference on Computer Supported Cooperative Work - CSCW \u201906. ACM Press, Banff, Alberta, Canada, 431.",
+      "doi": ""
+    },
+    {
+      "text": "Laura\u00a0A. Dabbish, Robert\u00a0E. Kraut, Susan Fussell, and Sara Kiesler. 2005. Understanding Email Use: Predicting Action on a Message. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems - CHI \u201905. ACM Press, Portland, Oregon, USA, 691.",
+      "doi": "10.1145/1054972.1055068"
+    },
+    {
+      "text": "Cristian Danescu-Niculescu-Mizil, Moritz Sudhof, Dan Jurafsky, Jure Leskovec, and Christopher Potts. 2013. A Computational Approach to Politeness with Application to Social Factors. In Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics. 10.",
+      "doi": ""
+    },
+    {
+      "text": "Rita de C\u00e1ssia Veiga Marriott and Patricia Lupion\u00a0Torres. 2009. Politeness in Intercultural E-Mail Communication. In Handbook of Research on E-Learning Methodologies for Language Acquisition:. IGI Global.",
+      "doi": ""
+    },
+    {
+      "text": "Rachele De\u00a0Felice, Jeannique Darby, Anthony Fisher, and David Peplow. 2013. A Classification Scheme for Annotating Speech Acts in a Business Email Corpus. ICAME Journal 37(2013), 71\u2013105.",
+      "doi": ""
+    },
+    {
+      "text": "Rachele De\u00a0Felice and Gregory Garretson. 2018. Politeness at work in the Clinton email Corpus: A first look at the effects of status and gender. Corpus Pragmatics 2, 3 (2018), 221\u2013242.",
+      "doi": ""
+    },
+    {
+      "text": "Ferdinand de Saussure. 1959. Course in General Linguistics. Philosophical Library, New York.",
+      "doi": "10.5555/1594067"
+    },
+    {
+      "text": "Budhaditya Deb, Peter Bailey, and Milad Shokouhi. 2019. Diversifying Reply Suggestions Using a Matching-Conditional Variational Autoencoder. arXiv:1903.10630 [cs, stat] (March 2019). arxiv:1903.10630\u00a0[cs, stat]",
+      "doi": ""
+    },
+    {
+      "text": "Dotan Di\u00a0Castro, Zohar Karnin, Liane Lewin-Eytan, and Yoelle Maarek. 2016. You\u2019ve got mail, and here is what you could do with it!: Analyzing and predicting actions on email messages. In Proceedings of the Ninth ACM International Conference on Web Search and Data Mining. ACM, 307\u2013316.",
+      "doi": "10.1145/2835776.2835811"
+    },
+    {
+      "text": "Berkeley\u00a0J. Dietvorst, Joseph\u00a0P. Simmons, and Cade Massey. 2015. Algorithm Aversion: People Erroneously Avoid Algorithms after Seeing Them Err.Journal of Experimental Psychology: General 144, 1 (2015), 114\u2013126.",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0Sheridan Dodds, Eric\u00a0M. Clark, Suma Desu, Morgan\u00a0R. Frank, Andrew\u00a0J. Reagan, Jake\u00a0Ryland Williams, Lewis Mitchell, Kameron\u00a0Decker Harris, Isabel\u00a0M. Kloumann, James\u00a0P. Bagrow, Karine Megerdoomian, Matthew\u00a0T. McMahon, Brian\u00a0F. Tivnan, and Christopher\u00a0M. Danforth. 2015. Human Language Reveals a Universal Positivity Bias. Proceedings of the National Academy of Sciences 112, 8 (Feb. 2015), 2389\u20132394.",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0Sheridan Dodds and Christopher\u00a0M. Danforth. 2010. Measuring the Happiness of Large-Scale Written Expression: Songs, Blogs, and Presidents. Journal of Happiness Studies 11, 4 (Aug. 2010), 441\u2013456.",
+      "doi": ""
+    },
+    {
+      "text": "Peter\u00a0Sheridan Dodds, Kameron\u00a0Decker Harris, Isabel\u00a0M. Kloumann, Catherine\u00a0A. Bliss, and Christopher\u00a0M. Danforth. 2011. Temporal Patterns of Happiness and Information in a Global Social Network: Hedonometrics and Twitter. PLoS ONE 6, 12 (Dec. 2011), e26752.",
+      "doi": ""
+    },
+    {
+      "text": "Christa D\u00fcrscheid, Carmen Frehner, Susan\u00a0C Herring, Dieter Stein, and Tuija Virtanen. 2013. Email communication. Handbooks of Pragmatics [HOPS]9 (2013), 35\u201354.",
+      "doi": ""
+    },
+    {
+      "text": "William\u00a0H. Dutton, Bianca\u00a0Christin Reisdorf, Elizabeth Dubois, and Grant Blank. 2017. Search and Politics: The Uses and Impacts of Search in Britain, France, Germany, Italy, Poland, Spain, and the United States. SSRN Electronic Journal(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Anne Edstrom and Jennifer\u00a0D. Ewald. 2017. \u201dOut of the Office\u201d: Conveying Politeness through Auto-Reply Email Messages.Language@Internet 14, 4 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Anne Edstrom and Jennifer\u00a0D. Ewald. 2019. Characteristics of Effective Auto-Reply Emails: Politeness and Perceptions. Technology in Society (Jan. 2019), S0160791X1730218X.",
+      "doi": ""
+    },
+    {
+      "text": "Serge Egelman, Ed\u00a0H Chi, and Steven Dow. 2014. Crowdsourcing in hci research. In Ways of Knowing in HCI. Springer, 267\u2013289.",
+      "doi": ""
+    },
+    {
+      "text": "Motahhare Eslami, Aimee Rickman, Kristen Vaccaro, Amirhossein Aleyasen, Andy Vuong, Karrie Karahalios, Kevin Hamilton, and Christian Sandvig. 2015. \u201dI Always Assumed That I Wasn\u2019t Really That Close to [Her]\u201d: Reasoning about Invisible Algorithms in News Feeds. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems - CHI \u201915. ACM Press, Seoul, Republic of Korea, 153\u2013162.",
+      "doi": "10.1145/2702123.2702556"
+    },
+    {
+      "text": "Ethan Fast, Binbin Chen, and Michael\u00a0S. Bernstein. 2016. Empath: Understanding Topic Signals in Large-Scale Text. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems - CHI \u201916. ACM Press, Santa Clara, California, USA, 4647\u20134657.",
+      "doi": "10.1145/2858036.2858535"
+    },
+    {
+      "text": "Lori Francis, Camilla\u00a0M. Holmvall, and Laura\u00a0E. O\u2019Brien. 2015. The Influence of Workload and Civility of Treatment on the Perpetration of Email Incivility. Computers in Human Behavior 46 (May 2015), 191\u2013201.",
+      "doi": ""
+    },
+    {
+      "text": "Brenden Gallagher. 2018. Gmail\u2019s Smart Reply blurs the line between people and brands. https://www.dailydot.com/debug/thanks-for-letting-me-know/. [Online; accessed Sept-2019].",
+      "doi": ""
+    },
+    {
+      "text": "Ryan\u00a0J. Gallagher, Morgan\u00a0R. Frank, Lewis Mitchell, Aaron\u00a0J. Schwartz, Andrew\u00a0J. Reagan, Christopher\u00a0M. Danforth, and Peter\u00a0Sheridan Dodds. 2020. Generalized Word Shift Graphs: A Method for Visualizing and Explaining Pairwise Comparisons Between Texts. arXiv:2008.02250 [physics] (Aug. 2020). arxiv:2008.02250\u00a0[physics]",
+      "doi": ""
+    },
+    {
+      "text": "Dana Garbarski, Nora\u00a0Cate Schaeffer, and Jennifer Dykema. 2015. The Effects of Response Option Order and Question Order on Self-Rated Health. Quality of Life Research 24, 6 (June 2015), 1443\u20131453.",
+      "doi": ""
+    },
+    {
+      "text": "Gary\u00a0W. Giumetti, Andrea\u00a0L. Hatfield, Jenna\u00a0L. Scisco, Amber\u00a0N. Schroeder, Eric\u00a0R. Muth, and Robin\u00a0M. Kowalski. 2013. What a Rude E-Mail! Examining the Differential Effects of Incivility versus Support on Mood, Energy, Engagement, and Performance in an Online Context.Journal of Occupational Health Psychology 18, 3 (July 2013), 297\u2013309.",
+      "doi": ""
+    },
+    {
+      "text": "J. Goldstein and R.E. Sabin. 2006. Using Speech Acts to Categorize Email and Identify Email Genres. In Proceedings of the 39th Annual Hawaii International Conference on System Sciences (HICSS\u201906). IEEE, Kauia, HI, USA, 50b\u201350b.",
+      "doi": ""
+    },
+    {
+      "text": "Paul\u00a0H. Grice. 1975. Logic and Conversation. In Syntax and Semantics: Speech Acts, Peter Cole and J.\u00a0Morgan (Eds.). Vol.\u00a03. Academic Press, New York, 41\u201358.",
+      "doi": ""
+    },
+    {
+      "text": "Jacob Groshek and Chelsea Cutino. 2016. Meaner on Mobile: Incivility and Impoliteness in Communicating Contentious Politics on Sociotechnical Networks. Social Media + Society 2, 4 (Nov. 2016), 205630511667713.",
+      "doi": "10.1145/2930971.2930976"
+    },
+    {
+      "text": "Danielle\u00a0N. Gunraj, April\u00a0M. Drumm-Hewitt, Erica\u00a0M. Dashow, Sri Siddhi\u00a0N. Upadhyay, and Celia\u00a0M. Klin. 2016. Texting Insincerely: The Role of the Period in Text Messaging. Computers in Human Behavior 55 (Feb. 2016), 1067\u20131075.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey\u00a0T Hancock, Mor Naaman, and Karen Levy. 2020. AI-Mediated Communication: Definition, Research Agenda, and Ethical Considerations. Journal of Computer-Mediated Communication(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Michael Haugh. 2010. When Is an Email Really Offensive?: Argumentativity and Variability in Evaluations of Impoliteness. Journal of Politeness Research. Language, Behaviour, Culture 6, 1 (Jan. 2010).",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Henderson, Rami Al-Rfou, Brian Strope, Yun-hsuan Sung, Laszlo Lukacs, Ruiqi Guo, Sanjiv Kumar, Balint Miklos, and Ray Kurzweil. 2017. Efficient Natural Language Response Suggestion for Smart Reply. arXiv:1705.00652 [cs] (May 2017). arxiv:1705.00652\u00a0[cs]",
+      "doi": ""
+    },
+    {
+      "text": "Susan\u00a0C Herring. 1994. Politeness in computer culture: Why women thank and men flame. In Cultural Performances: Proceedings of the Third Berkeley Women and Language Conference. Berkeley Women and Language Group Berkeley, CA, 278\u2013294.",
+      "doi": ""
+    },
+    {
+      "text": "H.\u00a0W. Hildebrandt and R.\u00a0D. Snyder. 1981. The Pollyanna Hypothesis in Business Writing: Initial Results, Suggestions for Research. Journal of Business Communication 18, 1 (Jan. 1981), 5\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Erin\u00a0R. Hoffman, David\u00a0W. McDonald, and Mark Zachry. 2017. Evaluating a Computational Approach to Labeling Politeness: Challenges for the Application of Machine Classification to Social Computing Data. Proceedings of the ACM on Human-Computer Interaction 1, CSCW (Dec. 2017), 1\u201314.",
+      "doi": "10.1145/3134687"
+    },
+    {
+      "text": "Jess Hohenstein and Malte Jung. 2018. AI-Supported Messaging: An Investigation of Human-Human Text Conversation with AI Support. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems - CHI \u201918. ACM Press, Montreal QC, Canada, 1\u20136.",
+      "doi": "10.1145/3170427.3188487"
+    },
+    {
+      "text": "Jess Hohenstein and Malte Jung. 2020. AI as a Moral Crumple Zone: The Effects of AI-Mediated Communication on Attribution and Trust. Computers in Human Behavior 106 (May 2020), 106190.",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth Holstein, Jennifer Wortman\u00a0Vaughan, Hal Daum\u00e9, Miro Dudik, and Hanna Wallach. 2019. Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI \u201919. ACM Press, Glasgow, Scotland Uk, 1\u201316.",
+      "doi": "10.1145/3290605.3300830"
+    },
+    {
+      "text": "Dirk Holtbr\u00fcgge, Abigail Weldon, and Helen Rogers. 2013. Cultural Determinants of Email Communication Styles. International Journal of Cross Cultural Management 13, 1 (April 2013), 89\u2013110.",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth\u00a0J. Houghton, Sri Siddhi\u00a0N. Upadhyay, and Celia\u00a0M. Klin. 2018. Punctuation in Text Messages May Convey Abruptness. Period. Computers in Human Behavior 80 (March 2018), 112\u2013121.",
+      "doi": ""
+    },
+    {
+      "text": "C\u00a0J Hutto and Eric Gilbert. 2014. VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. In Proceedings of the Eighth International AAAI Conference on Weblogs and Social Media (ICWSM). 10.",
+      "doi": ""
+    },
+    {
+      "text": "Dell Hymes. 1972. On Communicative Competence. In Sociolinguistics: Selected Readings, J.B. Pride and J.\u00a0Holmes (Eds.). Penguin, Harmondsworth, 269\u2013293.",
+      "doi": ""
+    },
+    {
+      "text": "Rumen Iliev, Joe Hoover, Morteza Dehghani, and Robert Axelrod. 2016. Linguistic Positivity in Historical Texts Reflects Dynamic Environmental and Psychological Factors. Proceedings of the National Academy of Sciences 113, 49 (Dec. 2016), E7871\u2013E7879.",
+      "doi": ""
+    },
+    {
+      "text": "Maurice Jakesch, Megan French, Xiao Ma, Jeffrey\u00a0T. Hancock, and Mor Naaman. 2019. AI-Mediated Communication: How the Perception That Profile Text Was Written by AI Affects Trustworthiness. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI \u201919. ACM Press, Glasgow, Scotland Uk, 1\u201313.",
+      "doi": "10.1145/3290605.3300469"
+    },
+    {
+      "text": "Susan Jamieson. 2004. Likert Scales: How to (Ab)Use Them. Medical Education 38, 12 (Dec. 2004), 1217\u20131218.",
+      "doi": ""
+    },
+    {
+      "text": "Sherri\u00a0L. Jessmer and David Anderson. 2001. The Effect of Politeness and Grammar on User Perceptions of Electronic Mail.North American Journal of Psychology 3, 2 (2001), 331\u2013346.",
+      "doi": ""
+    },
+    {
+      "text": "Anjuli Kannan, Peter Young, Vivek Ramavajjala, Karol Kurach, Sujith Ravi, Tobias Kaufmann, Andrew Tomkins, Balint Miklos, Greg Corrado, Laszlo Lukacs, and Marina Ganea. 2016. Smart Reply: Automated Response Suggestion for Email. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining - KDD \u201916. ACM Press, San Francisco, California, USA, 955\u2013964.",
+      "doi": "10.1145/2939672.2939801"
+    },
+    {
+      "text": "Jonathon Keats. 2010. Virtual words: Language on the edge of science and technology. Oxford University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Cory Knobel and Geoffrey\u00a0C. Bowker. 2011. Values in Design. Commun. ACM 54, 7 (July 2011), 26.",
+      "doi": "10.1145/1965724.1965735"
+    },
+    {
+      "text": "Birgit Koopmann-Holm and Jeanne\u00a0L Tsai. 2014. Focusing on the negative: Cultural differences in expressions of sympathy.Journal of Personality and Social Psychology 107, 6(2014), 1092.",
+      "doi": ""
+    },
+    {
+      "text": "Farshad Kooti, Luca\u00a0Maria Aiello, Mihajlo Grbovic, Kristina Lerman, and Amin Mantrach. 2015. Evolution of Conversations in the Age of Email Overload. In Proceedings of the 24th International Conference on World Wide Web - WWW \u201915. ACM Press, Florence, Italy, 603\u2013613.",
+      "doi": "10.1145/2736277.2741130"
+    },
+    {
+      "text": "Jon\u00a0A. Krosnick and Duane\u00a0F. Alwin. 1987. An Evaluation of a Cognitive Theory of Response-Order Effects in Survey Measurement. Public Opinion Quarterly 51, 2 (1987), 201.",
+      "doi": ""
+    },
+    {
+      "text": "Jon\u00a0A. Krosnick and Matthew\u00a0K. Berent. 1993. Comparisons of Party Identification and Policy Preferences: The Impact of Survey Question Format. American Journal of Political Science 37, 3 (1993), 941\u2013964.",
+      "doi": ""
+    },
+    {
+      "text": "Jon\u00a0A. Krosnick, Allyson\u00a0L. Holbrook, Matthew\u00a0K. Berent, Richard\u00a0T. Carson, W.\u00a0Michael Hanemann, Raymond\u00a0J. Kopp, Robert\u00a0Cameron Mitchell, Stanley Presser, Paul\u00a0A. Ruud, V.\u00a0Kerry Smith, Wendy\u00a0R. Moody, Melanie\u00a0C. Green, and Michael Conaway. 2002. The Impact of \u201dNo Opinion\u201d Response Options on Data Quality: Non-Attitude Reduction or an Invitation to Satisfice?The Public Opinion Quarterly 66, 3 (2002), 371\u2013403.",
+      "doi": ""
+    },
+    {
+      "text": "Jon\u00a0A. Krosnick and Stanley Presser. 2010. Question and Questionnaire Design. In Handbook of Survey Research, Second Edition (2 edition ed.), Peter\u00a0V. Marsden and James\u00a0D. Wright (Eds.). Emerald Publishing, Bingley, UK.",
+      "doi": ""
+    },
+    {
+      "text": "B Levin. 1996. On the Holm, Simes, and Hochberg Multiple Test Procedures.American Journal of Public Health 86, 5 (May 1996), 628\u2013629.",
+      "doi": ""
+    },
+    {
+      "text": "Sandy Lim, Lilia\u00a0M. Cortina, and Vicki\u00a0J. Magley. 2008. Personal and Workgroup Incivility: Impact on Work and Health Outcomes.Journal of Applied Psychology 93, 1 (Jan. 2008), 95\u2013107.",
+      "doi": ""
+    },
+    {
+      "text": "Vivien\u00a0K.G. Lim and Thompson\u00a0S.H. Teo. 2009. Mind Your E-Manners: Impact of Cyber Incivility on Employees\u2019 Work Attitude and Behavior. Information & Management 46, 8 (2009), 419\u2013425.",
+      "doi": "10.1016/j.im.2009.06.006"
+    },
+    {
+      "text": "Xiao Ma, Jeffery\u00a0T. Hancock, Kenneth Lim\u00a0Mingjie, and Mor Naaman. 2017. Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing. ACM, Portland Oregon USA, 2397\u20132409.",
+      "doi": "10.1145/2998181.2998269"
+    },
+    {
+      "text": "Shannon\u00a0L. Marlow, Christina\u00a0N. Lacerenza, and Chelsea Iwig. 2018. The Influence of Textual Cues on First Impressions of an Email Sender. Business and Professional Communication Quarterly 81, 2 (June 2018), 149\u2013166.",
+      "doi": ""
+    },
+    {
+      "text": "Heather Newman and David Joyner. 2018. Sentiment Analysis of Student Evaluations of Teaching. In International Conference on Artificial Intelligence in Education, Carolyn Penstein\u00a0Ros\u00e9, Roberto Mart\u00ednez-Maldonado, H.\u00a0Ulrich Hoppe, Rose Luckin, Manolis Mavrikis, Kaska Porayska-Pomsta, Bruce McLaren, and Benedict du Boulay (Eds.), Vol.\u00a010948. Springer International Publishing, Cham, 246\u2013250.",
+      "doi": ""
+    },
+    {
+      "text": "Kazushi Nishimoto and Jianning Wei. 2015. G-IM: An Input Method of Chinese Characters for Character Amnesia Prevention. In ACHI 2015. 118\u2013124.",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra Olteanu, Carlos Castillo, Fernando Diaz, and Emre Kiciman. 2019. Social data: Biases, methodological pitfalls, and ethical boundaries. Frontiers in Big Data 2(2019), 13.",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra Olteanu, Fernando Diaz, and Gabriella Kazai. 2020. When Are Search Completion Suggestions Problematic?Proceedings of the ACM on Human-Computer Interaction 4, CSCW2 (Oct. 2020), 1\u201325.",
+      "doi": ""
+    },
+    {
+      "text": "S\u00e9amas O\u2019Reilly. 2019. How Smart Are Gmail\u2019s \u2018Smart Replies\u2019?The Observer (Feb. 2019).",
+      "doi": ""
+    },
+    {
+      "text": "Soya Park, Amy\u00a0X. Zhang, Luke\u00a0S. Murray, and David\u00a0R. Karger. 2019. Opportunities for Automating Email Processing: A Need-Finding Study. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI \u201919. ACM Press, Glasgow, Scotland Uk, 1\u201312.",
+      "doi": "10.1145/3290605.3300604"
+    },
+    {
+      "text": "Ellie Pavlick and Joel Tetreault. 2016. An Empirical Analysis of Formality in Online Communication. Transactions of the Association for Computational Linguistics 4 (Dec. 2016), 61\u201374.",
+      "doi": ""
+    },
+    {
+      "text": "Carolyn\u00a0C Preston and Andrew\u00a0M Colman. 2000. Optimal Number of Response Categories in Rating Scales: Reliability, Validity, Discriminating Power, and Respondent Preferences. Acta Psychologica 104, 1 (March 2000), 1\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Kristen Purcell. 2011. Search and Email Still Top the List of Most Popular Online Activities.",
+      "doi": ""
+    },
+    {
+      "text": "Philip Quinn and Shumin Zhai. 2016. A Cost-Benefit Study of Text Entry Suggestion Interaction. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems - CHI \u201916. ACM Press, Santa Clara, California, USA, 83\u201388.",
+      "doi": "10.1145/2858036.2858305"
+    },
+    {
+      "text": "Ronald\u00a0E. Robertson, Shan Jiang, David Lazer, and Christo Wilson. 2019. Auditing Autocomplete: Suggestion Networks and Recursive Algorithm Interrogation. In Proceedings of the 10th ACM Conference on Web Science - WebSci \u201919. ACM Press, Boston, Massachusetts, USA, 235\u2013244.",
+      "doi": "10.1145/3292522.3326047"
+    },
+    {
+      "text": "Bahareh Sarrafzadeh, Ahmed Hassan\u00a0Awadallah, Christopher\u00a0H. Lin, Chia-Jung Lee, Milad Shokouhi, and Susan\u00a0T. Dumais. 2019. Characterizing and Predicting Email Deferral Behavior. In Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining - WSDM \u201919. ACM Press, Melbourne VIC, Australia, 627\u2013635.",
+      "doi": "10.1145/3289600.3291028"
+    },
+    {
+      "text": "Gordon\u00a0B. Schmidt and William\u00a0M. Jettinghoff. 2016. Using Amazon Mechanical Turk and Other Compensated Crowdsourcing Sites. Business Horizons 59, 4 (July 2016), 391\u2013400.",
+      "doi": ""
+    },
+    {
+      "text": "Burkard Sievers and Rose\u00a0Redding Mersky. 2006. The Economy of Vengeance: Some Considerations on the Aetiology and Meaning of the Business of Revenge. Human Relations 59, 2 (Feb. 2006), 241\u2013259.",
+      "doi": ""
+    },
+    {
+      "text": "Erin\u00a0L. Spottswood and Jeffrey\u00a0T. Hancock. 2016. The Positivity Bias and Prosocial Deception on Facebook. Computers in Human Behavior 65 (Dec. 2016), 252\u2013259.",
+      "doi": ""
+    },
+    {
+      "text": "Keri\u00a0K. Stephens, Renee\u00a0L. Cowan, and Marian\u00a0L. Houser. 2011. Organizational Norm Congruency and Interpersonal Familiarity in E-Mail: Examining Messages From Two Different Status Perspectives. Journal of Computer-Mediated Communication 16, 2 (Jan. 2011), 228\u2013249.",
+      "doi": ""
+    },
+    {
+      "text": "Wenbin Tang, Honglei Zhuang, and Jie Tang. 2011. Learning to infer social ties in large networks. In Joint European Conference on Machine Learning and Knowledge Discovery in Databases. Springer, 381\u2013397.",
+      "doi": "10.1007/978-3-642-23808-6_25"
+    },
+    {
+      "text": "Yla\u00a0R. Tausczik and James\u00a0W. Pennebaker. 2010. The Psychological Meaning of Words: LIWC and Computerized Text Analysis Methods. Journal of Language and Social Psychology 29, 1 (March 2010), 24\u201354.",
+      "doi": ""
+    },
+    {
+      "text": "Benjamin Toff and Rasmus\u00a0Kleis Nielsen. 2018. \u201cI Just Google It\u201d: Folk Theories of Distributed Discovery. Journal of Communication 68, 3 (June 2018), 636\u2013657.",
+      "doi": ""
+    },
+    {
+      "text": "Anna\u00a0K. Turnage. 2007. Email Flaming Behaviors and Organizational Conflict. Journal of Computer-Mediated Communication 13, 1 (Oct. 2007), 43\u201359.",
+      "doi": "10.1111/j.1083-6101.2007.00385.x"
+    },
+    {
+      "text": "Connie\u00a0K. Varnhagen, G.\u00a0Peggy McFall, Nicole Pugh, Lisa Routledge, Heather Sumida-MacDonald, and Trudy\u00a0E. Kwong. 2010. Lol: New Language and Spelling in Instant Messaging. Reading and Writing 23, 6 (July 2010), 719\u2013733.",
+      "doi": ""
+    },
+    {
+      "text": "Jane\u00a0A. Vignovic and Lori\u00a0Foster Thompson. 2010. Computer-Mediated Cross-Cultural Collaboration: Attributing Communication Errors to the Person versus the Situation.Journal of Applied Psychology 95, 2 (2010), 265\u2013276.",
+      "doi": ""
+    },
+    {
+      "text": "Jocelyne Vincent. 2008. Netiquette Rules OK!...OK?: speculating on rhetorical cleansing and English linguistic and cultural imperialism through email netiquette style guides. In Threads in the complex fabric of language: linguistic and literary studies in honour of Lavinia Merlini Barbaresi, Lavinia Merlini\u00a0Barbaresi, Marcella Bertuccelli-Papi, Antonio Bertacca, and Silvia Bruti (Eds.). Felici, San Giuliano Terme (Pisa), 409\u2013443.",
+      "doi": ""
+    },
+    {
+      "text": "James Vincent. 2018. Google removes gendered pronouns from Gmail\u2019s Smart Compose feature. https://www.theverge.com/2018/11/27/18114127/google-gmail-smart-compose-ai-gender-bias-prounouns-removed. [Online; accessed Sept-2019].",
+      "doi": ""
+    },
+    {
+      "text": "Joan Waldvogel. 2007. Greetings and Closings in Workplace Email. Journal of Computer-Mediated Communication 12, 2 (Jan. 2007), 456\u2013477.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph\u00a0B Walther. 1995. Relational aspects of computer-mediated communication: Experimental observations over time. Organization Science 6, 2 (1995), 186\u2013203.",
+      "doi": "10.1287/orsc.6.2.186"
+    },
+    {
+      "text": "Dashun Wang, Zhen Wen, Hanghang Tong, Ching-Yung Lin, Chaoming Song, and Albert-L\u00e1szl\u00f3 Barab\u00e1si. 2011. Information spreading in context. In Proceedings of the 20th International Conference on World Wide Web. 735\u2013744.",
+      "doi": "10.1145/1963405.1963508"
+    },
+    {
+      "text": "Yi-Chia Wang, Alexandros Papangelis, Runze Wang, Zhaleh Feizollahi, Gokhan Tur, and Robert Kraut. 2020. Can You be More Social? Injecting Politeness and Positivity into Task-Oriented Conversational Agents. arxiv:2012.14653\u00a0[cs.CL]",
+      "doi": ""
+    },
+    {
+      "text": "Helen\u00a0J Watt. 2010. How does the use of modern communication technology influence language and literacy development? A review. Contemporary Issues in Communication Science and Disorders 37 (2010), 141.",
+      "doi": ""
+    },
+    {
+      "text": "Liu Yang, Susan\u00a0T. Dumais, Paul\u00a0N. Bennett, and Ahmed\u00a0Hassan Awadallah. 2017. Characterizing and Predicting Enterprise Email Reply Behavior. In Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval - SIGIR \u201917. ACM Press, Shinjuku, Tokyo, Japan, 235\u2013244.",
+      "doi": "10.1145/3077136.3080782"
+    },
+    {
+      "text": "Xiao Yang, Ahmed\u00a0Hassan Awadallah, Madian Khabsa, Wei Wang, and Miaosen Wang. 2018. Characterizing and Supporting Question Answering in Human-to-Human Communication. In The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval - SIGIR \u201918. ACM Press, Ann Arbor, MI, USA, 345\u2013354.",
+      "doi": ""
+    },
+    {
+      "text": "Ning Ye, Ariel Fuxman, Vivek Ramavajjala, Sergey Nazarov, J\u00a0Patrick McGregor, and Sujith Ravi. 2018. Photoreply: Automatically suggesting conversational responses to photos. In Proceedings of the 2018 World Wide Web Conference. International World Wide Web Conferences Steering Committee, 1893\u20131899.",
+      "doi": "10.1145/3178876.3186164"
+    },
+    {
+      "text": "Ming-chung Yu. 2005. Sociolinguistic competence in the complimenting act of native Chinese and American English speakers: A mirror of cultural value. Language and Speech 48, 1 (2005), 91\u2013119.",
+      "doi": ""
+    },
+    {
+      "text": "Elana Zeide. 2015. This App Wants to Tell Your Next Employer About Your Personality. But It\u2019s Probably Wrong.https://slate.com/technology/2015/05/crystal-app-algorithmic-fortunetelling-for-employers-and-potential-customers.html.",
+      "doi": ""
+    },
+    {
+      "text": "Justine Zhang, Jonathan Chang, Cristian Danescu-Niculescu-Mizil, Lucas Dixon, Nithum Thain, Yiqing Hua, and Dario Taraborelli. 2018. Conversations Gone Awry: Detecting Early Signs of Conversational Failure. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Melbourne, Australia, 1350\u20131361.",
+      "doi": ""
+    }
+  ]
+}

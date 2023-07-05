@@ -1,0 +1,326 @@
+{
+  "doi": "10.1145/3544548.3581468",
+  "title": "HOOV: Hand Out-Of-View Tracking for Proprioceptive Interaction using Inertial Sensing",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Current Virtual Reality systems are designed for interaction under visual control. Using built-in cameras, headsets track the user\u2019s hands or hand-held controllers while they are inside the field of view. Current systems thus ignore the user\u2019s interaction with off-screen content\u2014virtual objects that the user could quickly access through proprioception without requiring laborious head motions to bring them into focus. In this paper, we present HOOV, a wrist-worn sensing method that allows VR users to interact with objects outside their field of view. Based on the signals of a single wrist-worn inertial sensor, HOOV continuously estimates the user\u2019s hand position in 3-space to complement the headset\u2019s tracking as the hands leave the tracking range. Our novel data-driven method predicts hand positions and trajectories from just the continuous estimation of hand orientation, which by itself is stable based solely on inertial observations. Our inertial sensing simultaneously detects finger pinching to register off-screen selection events, confirms them using a haptic actuator inside our wrist device, and thus allows users to select, grab, and drop virtual content. We compared HOOV\u2019s performance with a camera-based optical motion capture system in two folds. In the first evaluation, participants interacted based on tracking information from the motion capture system to assess the accuracy of their proprioceptive input, whereas in the second, they interacted based on HOOV\u2019s real-time estimations. We found that HOOV\u2019s target-agnostic estimations had a mean tracking error of 7.7\u00a0cm, which allowed participants to reliably access virtual objects around their body without first bringing them into focus. We demonstrate several applications that leverage the larger input space HOOV opens up for quick proprioceptive interaction, and conclude by discussing the potential of our technique.",
+  "authors": [
+    {
+      "name": "Paul Streli",
+      "institution": "Department of Computer Science, ETH Z\u00fcrich, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701493",
+      "orcid": "0000-0002-3334-7727"
+    },
+    {
+      "name": "Rayan Armani",
+      "institution": "Department of Computer Science, ETH Z\u00fcrich, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660778324",
+      "orcid": "0000-0001-6965-4828"
+    },
+    {
+      "name": "Yi Fei Cheng",
+      "institution": "Department of Computer Science, ETH Z\u00fcrich, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660642166",
+      "orcid": "0000-0002-6027-4236"
+    },
+    {
+      "name": "Christian Holz",
+      "institution": "Department of Computer Science, ETH Z\u00fcrich, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81443597100",
+      "orcid": "0000-0001-9655-9519"
+    }
+  ],
+  "references": [
+    {
+      "text": "Karan Ahuja, Chris Harrison, Mayank Goel, and Robert Xiao. 2019. MeCap: Whole-Body Digitization for Low-Cost VR/AR Headsets. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (New Orleans, LA, USA) (UIST \u201919). Association for Computing Machinery, New York, NY, USA, 453\u2013462. https://doi.org/10.1145/3332165.3347889",
+      "doi": "10.1145/3332165.3347889"
+    },
+    {
+      "text": "Karan Ahuja, Eyal Ofek, Mar Gonzalez-Franco, Christian Holz, and Andrew\u00a0D Wilson. 2021. Coolmoves: User motion accentuation in virtual reality. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 5, 2 (2021), 1\u201323.",
+      "doi": "10.1145/3463499"
+    },
+    {
+      "text": "Karan Ahuja, Vivian Shen, Cathy\u00a0Mengying Fang, Nathan Riopelle, Andy Kong, and Chris Harrison. 2022. ControllerPose: Inside-Out Body Capture with VR Controller Cameras. In CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Jackie Andrade and Peter Meudell. 1993. Is spatial information encoded automatically in memory?The Quarterly Journal of Experimental Psychology 46, 2(1993), 365\u2013375.",
+      "doi": ""
+    },
+    {
+      "text": "Alan Baddeley. 1992. Working Memory. Science 255, 5044 (1992), 556\u2013559. http://www.jstor.org/stable/2876819",
+      "doi": ""
+    },
+    {
+      "text": "Sina Bahram, Arpan Chakraborty, and Robert St.\u00a0Amant. 2012. CAVIAR: A Vibrotactile Device for Accessible Reaching. In Proceedings of the 2012 ACM International Conference on Intelligent User Interfaces (Lisbon, Portugal) (IUI \u201912). Association for Computing Machinery, New York, NY, USA, 245\u2013248. https://doi.org/10.1145/2166966.2167009",
+      "doi": "10.1145/2166966.2167009"
+    },
+    {
+      "text": "Gilles Bailly, J\u00f6rg M\u00fcller, Michael Rohs, Daniel Wigdor, and Sven Kratz. 2012. Shoesense: a new perspective on gestural interaction and wearable applications. In Proceedings of the SIGCHI conference on human factors in computing systems. 1239\u20131248.",
+      "doi": "10.1145/2207676.2208576"
+    },
+    {
+      "text": "S\u00a0James Biggs and Mandayam\u00a0A Srinivasan. 2002. Haptic interfaces. Handbook of virtual environments(2002), 93\u2013116.",
+      "doi": ""
+    },
+    {
+      "text": "Aydar Bulatov, Yuri Kuratov, and Mikhail\u00a0S Burtsev. 2022. Recurrent Memory Transformer. arXiv preprint arXiv:2207.06881(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Zhe Cao, Tomas Simon, Shih-En Wei, and Yaser Sheikh. 2017. Realtime multi-person 2d pose estimation using part affinity fields. In Proceedings of the IEEE conference on computer vision and pattern recognition. 7291\u20137299.",
+      "doi": ""
+    },
+    {
+      "text": "Ke-Yu Chen, Shwetak\u00a0N Patel, and Sean Keller. 2016. Finexus: Tracking precise motions of multiple fingertips using magnetic sensing. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 1504\u20131514.",
+      "doi": "10.1145/2858036.2858125"
+    },
+    {
+      "text": "Andy Cockburn and Bruce McKenzie. 2002. Evaluating the Effectiveness of Spatial Memory in 2D and 3D Physical and Virtual Environments. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Minneapolis, Minnesota, USA) (CHI \u201902). Association for Computing Machinery, New York, NY, USA, 203\u2013210. https://doi.org/10.1145/503376.503413",
+      "doi": "10.1145/503376.503413"
+    },
+    {
+      "text": "A. Cockburn, P. Quinn, C. Gutwin, G. Ramos, and J. Looser. 2011. Air pointing: Design and evaluation of spatial target acquisition with and without visual feedback. International Journal of Human-Computer Studies 69, 6 (2011), 401\u2013414. https://doi.org/10.1016/j.ijhcs.2011.02.005",
+      "doi": "10.1016/j.ijhcs.2011.02.005"
+    },
+    {
+      "text": "David Dobbelstein, Philipp Hock, and Enrico Rukzio. 2015. Belt: An Unobtrusive Touch Input Device for Head-Worn Displays. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). Association for Computing Machinery, New York, NY, USA, 2135\u20132138. https://doi.org/10.1145/2702123.2702450",
+      "doi": "10.1145/2702123.2702450"
+    },
+    {
+      "text": "Jan Gugenheimer, David Dobbelstein, Christian Winkler, Gabriel Haas, and Enrico Rukzio. 2016. FaceTouch: Enabling Touch Interaction in Display Fixed UIs for Mobile Virtual Reality. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (Tokyo, Japan) (UIST \u201916). Association for Computing Machinery, New York, NY, USA, 49\u201360. https://doi.org/10.1145/2984511.2984576",
+      "doi": "10.1145/2984511.2984576"
+    },
+    {
+      "text": "R\u0131za\u00a0Alp G\u00fcler, Natalia Neverova, and Iasonas Kokkinos. 2018. Densepose: Dense human pose estimation in the wild. In Proceedings of the IEEE conference on computer vision and pattern recognition. 7297\u20137306.",
+      "doi": ""
+    },
+    {
+      "text": "Sean Gustafson, Daniel Bierwirth, and Patrick Baudisch. 2010. Imaginary Interfaces: Spatial Interaction with Empty Hands and without Visual Feedback. In Proceedings of the 23nd Annual ACM Symposium on User Interface Software and Technology (New York, New York, USA) (UIST \u201910). Association for Computing Machinery, New York, NY, USA, 3\u201312. https://doi.org/10.1145/1866029.1866033",
+      "doi": "10.1145/1866029.1866033"
+    },
+    {
+      "text": "Sean Gustafson, Christian Holz, and Patrick Baudisch. 2011. Imaginary Phone: Learning Imaginary Interfaces by Transferring Spatial Memory from a Familiar Device. In Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology (Santa Barbara, California, USA) (UIST \u201911). Association for Computing Machinery, New York, NY, USA, 283\u2013292. https://doi.org/10.1145/2047196.2047233",
+      "doi": "10.1145/2047196.2047233"
+    },
+    {
+      "text": "Carl Gutwin, Andy Cockburn, and Nickolas Gough. 2017. A Field Experiment of Spatially-Stable Overviews for Document Navigation. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). Association for Computing Machinery, New York, NY, USA, 5905\u20135916. https://doi.org/10.1145/3025453.3025905",
+      "doi": "10.1145/3025453.3025905"
+    },
+    {
+      "text": "Jouni Hartikainen, Arno Solin, and Simo S\u00e4rkk\u00e4. 2011. Optimal filtering with Kalman filters and smoothers. Department of biomedica engineering and computational sciences, Aalto University School of Science, 16th August(2011).",
+      "doi": ""
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2015. Delving deep into rectifiers: Surpassing human-level performance on imagenet classification. In Proceedings of the IEEE international conference on computer vision. 1026\u20131034.",
+      "doi": "10.1109/ICCV.2015.123"
+    },
+    {
+      "text": "Shraga Hocherman. 1993. Proprioceptive guidance and motor planning of reaching movements to unseen targets. Experimental brain research 95, 2 (1993), 349\u2013358.",
+      "doi": ""
+    },
+    {
+      "text": "Yinghao Huang, Manuel Kaufmann, Emre Aksan, Michael\u00a0J. Black, Otmar Hilliges, and Gerard Pons-Moll. 2018. Deep Inertial Poser Learning to Reconstruct Human Pose from SparseInertial Measurements in Real Time. ACM Transactions on Graphics, (Proc. SIGGRAPH Asia) 37, 6 (Nov. 2018), 185:1\u2013185:15.",
+      "doi": ""
+    },
+    {
+      "text": "Du\u00a0Q Huynh. 2009. Metrics for 3D rotations: Comparison and analysis. Journal of Mathematical Imaging and Vision 35 (2009), 155\u2013164.",
+      "doi": "10.1007/s10851-009-0161-2"
+    },
+    {
+      "text": "Dong-Hyun Hwang, Kohei Aso, Ye Yuan, Kris Kitani, and Hideki Koike. 2020. Monoeye: Multimodal human motion capture system using a single ultra-wide fisheye camera. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 98\u2013111.",
+      "doi": "10.1145/3379337.3415856"
+    },
+    {
+      "text": "Northern\u00a0Digital Inc. 2017. trakSTAR. https://www.ndigital.com/msci/products/drivebay-trakstar",
+      "doi": ""
+    },
+    {
+      "text": "Hao Jiang and Kristen Grauman. 2017. Seeing invisible poses: Estimating 3d body pose from egocentric video. In 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, 3501\u20133509.",
+      "doi": ""
+    },
+    {
+      "text": "Jiaxi Jiang, Paul Streli, Huajian Qiu, Andreas Fender, Larissa Laich, Patrick Snape, and Christian Holz. 2022. Avatarposer: Articulated full-body pose tracking from sparse motion sensing. In Computer Vision\u2013ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23\u201327, 2022, Proceedings, Part V. Springer, 443\u2013460.",
+      "doi": ""
+    },
+    {
+      "text": "Haojian Jin, Christian Holz, and Kasper Hornbaek. 2015. Tracko: Ad-Hoc Mobile 3D Tracking Using Bluetooth Low Energy and Inaudible Signals for Cross-Device Interaction. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology(UIST \u201915). ACM, New York, NY, USA, 147\u2013156. https://doi.org/10.1145/2807442.2807475",
+      "doi": "10.1145/2807442.2807475"
+    },
+    {
+      "text": "Rudolf\u00a0E. Kalman. 1960. A New Approach to Linear Filtering and Prediction Problems. Journal of Basic Engineering 82, 1 (03 1960), 35\u201345. https://doi.org/10.1115/1.3662552 arXiv:https://asmedigitalcollection.asme.org/fluidsengineering/article-pdf/82/1/35/5518977/35_1.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Kibum Kim, Xiangshi Ren, Seungmoon Choi, and Hong\u00a0Z. Tan. 2016. Assisting people with visual impairments in aiming at a target on a large wall-mounted display. International Journal of Human-Computer Studies 86 (2016), 109\u2013120. https://doi.org/10.1016/j.ijhcs.2015.10.002",
+      "doi": "10.1016/j.ijhcs.2015.10.002"
+    },
+    {
+      "text": "Diederik\u00a0P Kingma and Jimmy Ba. 2014. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980(2014).",
+      "doi": ""
+    },
+    {
+      "text": "Frank Chun\u00a0Yat Li, David Dearman, and Khai\u00a0N. Truong. 2009. Virtual Shelves: Interactions with Orientation Aware Devices. In Proceedings of the 22nd Annual ACM Symposium on User Interface Software and Technology (Victoria, BC, Canada) (UIST \u201909). Association for Computing Machinery, New York, NY, USA, 125\u2013128. https://doi.org/10.1145/1622176.1622200",
+      "doi": "10.1145/1622176.1622200"
+    },
+    {
+      "text": "Frank Chun\u00a0Yat Li, David Dearman, and Khai\u00a0N. Truong. 2010. Leveraging Proprioception to Make Mobile Phones More Accessible to Users with Visual Impairments. In Proceedings of the 12th International ACM SIGACCESS Conference on Computers and Accessibility (Orlando, Florida, USA) (ASSETS \u201910). Association for Computing Machinery, New York, NY, USA, 187\u2013194. https://doi.org/10.1145/1878803.1878837",
+      "doi": "10.1145/1878803.1878837"
+    },
+    {
+      "text": "Shuang Li, Jiaxi Jiang, Philipp Ruppel, Hongzhuo Liang, Xiaojian Ma, Norman Hendrich, Fuchun Sun, and Jianwei Zhang. 2020. A mobile robot hand-arm teleoperation system by vision and imu. In 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 10900\u201310906.",
+      "doi": "10.1109/IROS45743.2020.9340738"
+    },
+    {
+      "text": "Yang Liu, Chengdong Lin, Zhenjiang Li, Zhidan Liu, and Kaishun Wu. 2019. Poster: When Wearable Sensing Meets Arm Tracking. In 17th ACM International Conference on Mobile Systems, Applications, and Services, MobiSys 2019. ACM New York, 518\u2013519.",
+      "doi": ""
+    },
+    {
+      "text": "WP Medendorp, S Van\u00a0Asselt, and CCAM Gielen. 1999. Pointing to remembered visual targets after active one-step self-displacements within reaching space. Experimental Brain Research 125, 1 (1999), 50\u201360.",
+      "doi": ""
+    },
+    {
+      "text": "Manuel Meier, Paul Streli, Andreas Fender, and Christian Holz. 2021. TapID: Rapid touch interaction in virtual reality using wearable sensing. In 2021 IEEE Virtual Reality and 3D User Interfaces (VR). IEEE, 519\u2013528.",
+      "doi": ""
+    },
+    {
+      "text": "Damien Michel, Ammar Qammaz, and Antonis\u00a0A Argyros. 2017. Markerless 3d human pose estimation and tracking based on rgbd cameras: an experimental evaluation. In Proceedings of the 10th International Conference on PErvasive Technologies Related to Assistive Environments. 115\u2013122.",
+      "doi": "10.1145/3056540.3056543"
+    },
+    {
+      "text": "Mark\u00a0R. Mine, Frederick\u00a0P. Brooks, and Carlo\u00a0H. Sequin. 1997. Moving Objects in Space: Exploiting Proprioception in Virtual-Environment Interaction. In Proceedings of the 24th Annual Conference on Computer Graphics and Interactive Techniques(SIGGRAPH \u201997). ACM Press/Addison-Wesley Publishing Co., USA, 19\u201326. https://doi.org/10.1145/258734.258747",
+      "doi": "10.1145/258734.258747"
+    },
+    {
+      "text": "Meta Motion. 2018. Gypsy Motion Capture System. http://metamotion.com/gypsy/gypsy-motion-capture-system.htm",
+      "doi": ""
+    },
+    {
+      "text": "OptiTrack. 2022. Motion Capture Systems. http://optitrack.com/",
+      "doi": ""
+    },
+    {
+      "text": "Ken Pfeuffer, Benedikt Mayer, Diako Mardanbegi, and Hans Gellersen. 2017. Gaze + Pinch Interaction in Virtual Reality. In Proceedings of the 5th Symposium on Spatial User Interaction (Brighton, United Kingdom) (SUI \u201917). Association for Computing Machinery, New York, NY, USA, 99\u2013108. https://doi.org/10.1145/3131277.3132180",
+      "doi": "10.1145/3131277.3132180"
+    },
+    {
+      "text": "Albert Postma and Edward\u00a0HF De\u00a0Haan. 1996. What was where? Memory for object locations. The Quarterly Journal of Experimental Psychology Section A 49, 1(1996), 178\u2013199.",
+      "doi": ""
+    },
+    {
+      "text": "Ivan Poupyrev and Tadao Ichikawa. 1999. Manipulating Objects in Virtual Worlds: Categorization and Empirical Evaluation of Interaction Techniques. Journal of Visual Languages & Computing 10, 1 (1999), 19\u201335. https://doi.org/10.1006/jvlc.1998.0112",
+      "doi": "10.1006/jvlc.1998.0112"
+    },
+    {
+      "text": "Helge Rhodin, Christian Richardt, Dan Casas, Eldar Insafutdinov, Mohammad Shafiei, Hans-Peter Seidel, Bernt Schiele, and Christian Theobalt. 2016. EgoCap: Egocentric Marker-Less Motion Capture with Two Fisheye Cameras. ACM Trans. Graph. 35, 6, Article 162 (nov 2016), 11\u00a0pages. https://doi.org/10.1145/2980179.2980235",
+      "doi": "10.1145/2980179.2980235"
+    },
+    {
+      "text": "Angelo\u00a0Maria Sabatini. 2011. Kalman-filter-based orientation determination using inertial/magnetic sensors: Observability analysis and performance evaluation. Sensors 11, 10 (2011), 9182\u20139206.",
+      "doi": ""
+    },
+    {
+      "text": "Joey Scarr, Andy Cockburn, and Carl Gutwin. 2013. Supporting and Exploiting Spatial Memory in User Interfaces. Found. Trends Hum.-Comput. Interact. 6, 1 (dec 2013), 1\u201384. https://doi.org/10.1561/1100000046",
+      "doi": "10.1561/1100000046"
+    },
+    {
+      "text": "Sheng Shen, Mahanth Gowda, and Romit Roy\u00a0Choudhury. 2018. Closing the gaps in inertial motion tracking. In Proceedings of the 24th Annual International Conference on Mobile Computing and Networking. 429\u2013444.",
+      "doi": "10.1145/3241539.3241582"
+    },
+    {
+      "text": "Sheng Shen, He Wang, and Romit Roy\u00a0Choudhury. 2016. I am a smartwatch and i can track my user\u2019s arm. In Proceedings of the 14th annual international conference on Mobile systems, applications, and services. 85\u201396.",
+      "doi": "10.1145/2906388.2906407"
+    },
+    {
+      "text": "Charles\u00a0S Sherrington. 1907. On the proprio-ceptive system, especially in its reflex aspect. Brain 29, 4 (1907), 467\u2013482.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0F Soechting and Martha Flanders. 1989. Sensorimotor representations for pointing to targets in three-dimensional space. Journal of neurophysiology 62, 2 (1989), 582\u2013594.",
+      "doi": ""
+    },
+    {
+      "text": "Hans Strasburger. 2020. Seven Myths on Crowding and Peripheral Vision. i-Perception 11, 3 (2020). https://doi.org/10.1177/2041669520913052 PMID: 32489576.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Streli, Jiaxi Jiang, Andreas\u00a0Rene Fender, Manuel Meier, Hugo Romat, and Christian Holz. 2022. TapType: Ten-finger text entry on everyday surfaces via Bayesian inference. In CHI Conference on Human Factors in Computing Systems. 1\u201316.",
+      "doi": "10.1145/3491102.3501878"
+    },
+    {
+      "text": "Md.\u00a0Sami Uddin, Carl Gutwin, and Benjamin Lafreniere. 2016. HandMark Menus: Rapid Command Selection and Large Command Sets on Multi-Touch Displays. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 5836\u20135848. https://doi.org/10.1145/2858036.2858211",
+      "doi": "10.1145/2858036.2858211"
+    },
+    {
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan\u00a0N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. Advances in neural information processing systems 30 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Vlasic, Rolf Adelsberger, Giovanni Vannucci, John Barnwell, Markus Gross, Wojciech Matusik, and Jovan Popovi\u0107. 2007. Practical motion capture in everyday surroundings. ACM transactions on graphics (TOG) 26, 3 (2007), 35\u2013es.",
+      "doi": "10.1145/1276377.1276421"
+    },
+    {
+      "text": "Dong-Bach Vo and Stephen\u00a0A. Brewster. 2015. Touching the invisible: Localizing ultrasonic haptic cues. In 2015 IEEE World Haptics Conference (WHC). 368\u2013373. https://doi.org/10.1109/WHC.2015.7177740",
+      "doi": ""
+    },
+    {
+      "text": "Timo Von\u00a0Marcard, Bodo Rosenhahn, Michael\u00a0J Black, and Gerard Pons-Moll. 2017. Sparse inertial poser: Automatic 3d human pose estimation from sparse imus. In Computer Graphics Forum, Vol.\u00a036, No.\u00a02. Wiley Online Library, 349\u2013360.",
+      "doi": ""
+    },
+    {
+      "text": "Wenchuan Wei, Keiko Kurita, Jilong Kuang, and Alex Gao. 2021. Real-time 3D arm motion tracking using the 6-axis IMU sensor of a smartwatch. In 2021 IEEE 17th International Conference on Wearable and Implantable Body Sensor Networks (BSN). IEEE, 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "Alexander Winkler, Jungdam Won, and Yuting Ye. 2022. QuestSim: Human Motion Tracking from Sparse Sensors with Simulated Avatars. In SIGGRAPH Asia 2022 Conference Papers. 1\u20138.",
+      "doi": "10.1145/3550469.3555411"
+    },
+    {
+      "text": "Erwin Wu, Ye Yuan, Hui-Shyong Yeo, Aaron Quigley, Hideki Koike, and Kris\u00a0M. Kitani. 2020. Back-Hand-Pose: 3D Hand Pose Estimation for a Wrist-Worn Camera via Dorsum Deformation Network. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (Virtual Event, USA) (UIST \u201920). Association for Computing Machinery, New York, NY, USA, 1147\u20131160. https://doi.org/10.1145/3379337.3415897",
+      "doi": "10.1145/3379337.3415897"
+    },
+    {
+      "text": "Huiyue Wu, Yanyi Deng, Jiajun Pan, Tianxing Han, Yonglin Hu, Kaini Huang, and Xiaolong\u00a0Luke Zhang. 2021. User capabilities in eyes-free spatial target acquisition in immersive virtual reality environments. Applied Ergonomics 94(2021), 103400.",
+      "doi": ""
+    },
+    {
+      "text": "Yukang Yan, Chun Yu, Xiaojuan Ma, Shuai Huang, Hasan Iqbal, and Yuanchun Shi. 2018. Eyes-Free Target Acquisition in Interaction Space around the Body for Virtual Reality. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173616",
+      "doi": "10.1145/3173574.3173616"
+    },
+    {
+      "text": "Xinyu Yi, Yuxiao Zhou, Marc Habermann, Soshi Shimada, Vladislav Golyanik, Christian Theobalt, and Feng Xu. 2022. Physical Inertial Poser (PIP): Physics-aware Real-time Human Motion Tracking from Sparse Inertial Sensors. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 13167\u201313178.",
+      "doi": ""
+    },
+    {
+      "text": "Xinyu Yi, Yuxiao Zhou, and Feng Xu. 2021. TransPose: real-time 3D human translation and pose estimation with six inertial sensors. ACM Transactions on Graphics (TOG) 40, 4 (2021), 1\u201313.",
+      "doi": "10.1145/3450626.3459786"
+    },
+    {
+      "text": "Yang Zhang, Chouchang Yang, Scott\u00a0E Hudson, Chris Harrison, and Alanson Sample. 2018. Wall++ room-scale interactive and context-aware sensing. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3173574.3173847"
+    },
+    {
+      "text": "Mingmin Zhao, Tianhong Li, Mohammad Abu\u00a0Alsheikh, Yonglong Tian, Hang Zhao, Antonio Torralba, and Dina Katabi. 2018. Through-wall human pose estimation using radio signals. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 7356\u20137365.",
+      "doi": ""
+    },
+    {
+      "text": "Han Zhou, Yi Gao, Xinyi Song, Wenxin Liu, and Wei Dong. 2019. Limbmotion: Decimeter-level limb tracking for wearable-based human-computer interaction. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3, 4 (2019), 1\u201324.",
+      "doi": "10.1145/3369836"
+    },
+    {
+      "text": "Qiushi Zhou, Difeng Yu, Martin\u00a0N Reinoso, Joshua Newn, Jorge Goncalves, and Eduardo Velloso. 2020. Eyes-free target acquisition during walking in immersive mixed reality. IEEE Transactions on Visualization and Computer Graphics 26, 12(2020), 3423\u20133433.",
+      "doi": ""
+    },
+    {
+      "text": "Yi Zhou, Connelly Barnes, Jingwan Lu, Jimei Yang, and Hao Li. 2019. On the continuity of rotation representations in neural networks. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 5745\u20135753.",
+      "doi": ""
+    }
+  ]
+}

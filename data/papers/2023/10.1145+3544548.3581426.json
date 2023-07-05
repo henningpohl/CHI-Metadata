@@ -1,0 +1,562 @@
+{
+  "doi": "10.1145/3544548.3581426",
+  "title": "Memory Tracer & Memory Compass: Investigating Personal Location Histories as a Design Material for Everyday Reminiscence",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-19",
+  "year": 2023,
+  "badges": [],
+  "abstract": "With the massive adoption of smartphones, location trackers, and GPS-based applications, data is being generated that captures people's geographic locations in more precise detail than ever before. Personal location history archives offer a potentially valuable and overlooked resource for supporting reminiscence and recollection of the past. Yet, little design research has explored how location histories can be used as a material in designing such experiences. To investigate this space, we engaged in a practice-based design research process that resulted in two design artifacts. Memory Tracer is a tangible device that occasionally, yet perpetually surfaces locations from the past bound to today's date. Memory Compass is a smartwatch application that uses a \u2018casting\u2019 interaction enabling a user to retrieve and explore locations from their past, across space and time. We unpack and reflect on key decisions in our design process and conclude with opportunities for future HCI research and practice.",
+  "authors": [
+    {
+      "name": "Jordan White",
+      "institution": "School of Interactive Arts and Technology, Simon Fraser University, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659548034",
+      "orcid": "0000-0002-1490-1518"
+    },
+    {
+      "name": "William Odom",
+      "institution": "School of Interactive Arts and Technology, Simon Fraser University, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81350582655",
+      "orcid": "0000-0002-2824-9292"
+    },
+    {
+      "name": "Nico Brand",
+      "institution": "School of Interactive Arts and Technology, Simon Fraser University, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659547886",
+      "orcid": "0000-0003-3637-5480"
+    },
+    {
+      "name": "Ce Zhong",
+      "institution": "School of Interactive Arts and Technology, Simon Fraser University, Canada",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659367179",
+      "orcid": "0000-0003-0597-3541"
+    }
+  ],
+  "references": [
+    {
+      "text": "Archer, B. 1992. The nature of research in design and design education. The nature of research into design and technology education. (1992), 7\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Banks, R. 2012. A design perspective on three technology heirlooms. Human\u2013Computer Interaction. 27, 1\u20132 (2012), 63\u201391.",
+      "doi": ""
+    },
+    {
+      "text": "Bardzell, J. 2016. Documenting the Research Through Design Process. Proceedings of the 2016 ACM Conference on Designing Interactive Systems (New York, NY, USA, 2016), 96\u2013107.",
+      "doi": ""
+    },
+    {
+      "text": "Bauer, P.J. 2012. It's all about location, location, location: Children's memory for the \u201cwhere\u201d of personally experienced events. Journal of Experimental Child Psychology. 113, 4 (Dec. 2012), 510\u2013522. DOI:https://doi.org/10.1016/j.jecp.2012.06.007.",
+      "doi": ""
+    },
+    {
+      "text": "Belk, R.W. 1990. The role of possessions in constructing and maintaining a sense of past. ACR North American Advances. (1990).",
+      "doi": ""
+    },
+    {
+      "text": "Biggs, M.A.R. and B\u00fcchler, D. 2007. Rigor and Practice-based Research. Design Issues. 23, 3 (2007), 62\u201369.",
+      "doi": ""
+    },
+    {
+      "text": "Bilandzic, M. and Foth, M. 2012. A review of locative media, mobile and embodied spatial interaction. International Journal of Human-Computer Studies. 70, 1 (2012), 66\u201371.",
+      "doi": "10.1016/j.ijhcs.2011.08.004"
+    },
+    {
+      "text": "Bowen, S. and Petrelli, D. 2011. Remembering today tomorrow: Exploring the human-centred design of digital mementos. International Journal of Human-Computer Studies. 69, 5 (May 2011), 324\u2013337. DOI:https://doi.org/10.1016/j.ijhcs.2010.12.005.",
+      "doi": "10.1016/j.ijhcs.2010.12.005"
+    },
+    {
+      "text": "Bowler, R.D. 2022. Exploring Uncertainty in Digital Scheduling, and The Wider Implications of Unrepresented Temporalities in HCI. Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New York, NY, USA, Apr. 2022), 1\u201312.",
+      "doi": "10.1145/3491102.3502107"
+    },
+    {
+      "text": "Casey, E.S. 2009. Remembering: A phenomenological study. Indiana University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Chatting, D. 2017. Making Ritual Machines: The Mobile Phone as a Networked Material for Research Products. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery. 435\u2013447.",
+      "doi": "10.1145/3025453.3025630"
+    },
+    {
+      "text": "Chatting, D. 2017. Making Ritual Machines: The Mobile Phone as a Networked Material for Research Products. (May 2017), 435\u2013447.",
+      "doi": "10.1145/3025453.3025630"
+    },
+    {
+      "text": "Chatting, D. 2022. The Approximate Library.",
+      "doi": ""
+    },
+    {
+      "text": "Chaudhury, H. 1999. Self and Reminiscence of Place: A Conceptual Study. Journal of Aging and Identity. 4, 4 (Dec. 1999), 231\u2013253. DOI:https://doi.org/10.1023/A:1022835109862.",
+      "doi": ""
+    },
+    {
+      "text": "Chen, A.Y.S. 2019. Chronoscope: A Near-eye Tangible Device for Interacting with Photos In and Across Time. Companion Publication of the 2019 on Designing Interactive Systems Conference 2019 Companion (New York, NY, USA, 2019), 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "Chen, A.Y.S. 2019. Chronoscope: Designing Temporally Diverse Interactions with Personal Digital Photo Collections. Proceedings of the 2019 on Designing Interactive Systems Conference (2019), 799\u2013812.",
+      "doi": "10.1145/3322276.3322301"
+    },
+    {
+      "text": "Chen, A.Y.S. 2015. CrescendoMessage: Articulating Anticipation in Slow Messaging. National Taiwan University of Science and Technology.",
+      "doi": ""
+    },
+    {
+      "text": "Chen, A.Y.S. and Odom, W. 2021. Crafting temporality in design: Introducing a designer-researcher approach through the creation of Chronoscope. The Routledge International Handbook of Practice-Based Research. Routledge. 368\u2013380.",
+      "doi": ""
+    },
+    {
+      "text": "Clark, R.M. 2020. Geospatial Intelligence: Origins and Evolution. Georgetown University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Cosley, D. 2012. Experiences With Designing Tools for Everyday Reminiscing. Human\u2013Computer Interaction. 27, 1\u20132 (Apr. 2012), 175\u2013198. DOI:https://doi.org/10.1080/07370024.2012.656047.",
+      "doi": ""
+    },
+    {
+      "text": "Cosley, D. 2009. Using Technologies to Support Reminiscence. (Sep. 2009). DOI:https://doi.org/10.14236/ewic/HCI2009.60.",
+      "doi": ""
+    },
+    {
+      "text": "Cushing, A.L. 2013. \u201cIt's stuff that speaks to me\u201d: Exploring the characteristics of digital possessions. Journal of the American Society for Information Science and Technology. 64, 8 (2013), 1723\u20131734.",
+      "doi": ""
+    },
+    {
+      "text": "Desjardins, A. and Ball, A. 2018. Revealing Tensions in Autobiographical Design in HCI. Proceedings of the 2018 Designing Interactive Systems Conference (New York, NY, USA, 2018), 753\u2013764.",
+      "doi": "10.1145/3196709.3196781"
+    },
+    {
+      "text": "Desjardins, A. and Biggs, H.R. 2021. Data Epics: Embarking on Literary Journeys of Home Internet of Things Data. Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (New York, NY, USA, May 2021), 1\u201317.",
+      "doi": "10.1145/3411764.3445241"
+    },
+    {
+      "text": "Desjardins, A. and Key, C. 2020. Parallels, Tangents, and Loops: Reflections on the \u201cThrough\u201d Part of RtD. Proceedings of the 2020 ACM Designing Interactive Systems Conference. Association for Computing Machinery. 2133\u20132147.",
+      "doi": ""
+    },
+    {
+      "text": "Desjardins, A. and Tihanyi, T. 2019. ListeningCups: A Case of Data Tactility and Data Stories. Proceedings of the 2019 on Designing Interactive Systems Conference (New York, NY, USA, Jun. 2019), 147\u2013160.",
+      "doi": "10.1145/3322276.3323694"
+    },
+    {
+      "text": "van Dongen, P. 2019. Towards a Postphenomenological Approach to Wearable Technology through Design Journeys. (Sep. 2019).",
+      "doi": ""
+    },
+    {
+      "text": "Dove, G. 2017. UX Design Innovation: Challenges for Working with Machine Learning as a Design Material. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (2017), 278\u2013288.",
+      "doi": "10.1145/3025453.3025739"
+    },
+    {
+      "text": "Elsden, C. 2016. A Quantified Past: Toward Design for Remembering With Personal Informatics. Human\u2013Computer Interaction. 31, 6 (Nov. 2016), 518\u2013557. DOI:https://doi.org/10.1080/07370024.2015.1093422.",
+      "doi": "10.1080/07370024.2015.1093422"
+    },
+    {
+      "text": "Elsden, C. 2017. Designing Documentary Informatics. Proceedings of the 2017 Conference on Designing Interactive Systems (2017), 649\u2013661.",
+      "doi": "10.1145/3064663.3064714"
+    },
+    {
+      "text": "Elsden, C. 2016. Fitter, Happier, More Productive: What to Ask of a Data-driven Life. interactions. 23, 5 (Aug. 2016), 45\u201345. DOI:https://doi.org/10.1145/2975388.",
+      "doi": "10.1145/2975388"
+    },
+    {
+      "text": "Elsden, C. 2016. It's Just My History Isn't It?: Understanding Smart Journaling Practices. Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose California USA, May 2016), 2819\u20132831.",
+      "doi": "10.1145/2858036.2858103"
+    },
+    {
+      "text": "Fallman, D. 2003. Design-oriented human-computer interaction. Proceedings of the SIGCHI conference on Human factors in computing systems (2003), 225\u2013232.",
+      "doi": "10.1145/642611.642652"
+    },
+    {
+      "text": "Faste, H. 2017. Intuition in Design: Reflections on the Iterative Aesthetics of Form. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (New York, NY, USA, May 2017), 3403\u20133413.",
+      "doi": "10.1145/3025453.3025534"
+    },
+    {
+      "text": "Frayling, C. 1993. Research in art and design. Royal College of Art London.",
+      "doi": ""
+    },
+    {
+      "text": "Frens, J. 2018. Designing the IoT Sandbox. Proceedings of the 2018 Designing Interactive Systems Conference (New York, NY, USA, Jun. 2018), 341\u2013354.",
+      "doi": "10.1145/3196709.3196815"
+    },
+    {
+      "text": "Frohlich, D. and Murphy, R. 2000. The Memory Box. Personal Technologies. 4, 4 (Dec. 2000), 238\u2013240. DOI:https://doi.org/10.1007/BF02391566.",
+      "doi": ""
+    },
+    {
+      "text": "Gary Wolf: The quantified self | TED Talk: https://www.ted.com/talks/gary_wolf_the_quantified_self. Accessed: 2022-04-15.",
+      "doi": ""
+    },
+    {
+      "text": "Gaver, W. 2022. Emergence as a Feature of Practice-based Design Research. Designing Interactive Systems Conference (New York, NY, USA, Jun. 2022), 517\u2013526.",
+      "doi": "10.1145/3532106.3533524"
+    },
+    {
+      "text": "Gaver, W. 2012. What should we expect from research through design? Proceedings of the SIGCHI conference on human factors in computing systems (2012), 937\u2013946.",
+      "doi": "10.1145/2207676.2208538"
+    },
+    {
+      "text": "van Gennip, D. 2015. Things That Make Us Reminisce: Everyday Memory Cues As Opportunities for Interaction Design. Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (New York, NY, USA, 2015), 3443\u20133452.",
+      "doi": "10.1145/2702123.2702460"
+    },
+    {
+      "text": "Google Is Tracking You, but There Are Ways to Try to Stop It: https://www.cnet.com/tech/services-and-software/google-is-tracking-you-but-there-are-ways-try-to-stop-it/. Accessed: 2022-03-21.",
+      "doi": ""
+    },
+    {
+      "text": "Google Mapes Timeline: https://timeline.google.com/maps. Accessed: 2022-01-07.",
+      "doi": ""
+    },
+    {
+      "text": "GPX: the GPS Exchange Format: https://www.topografix.com/gpx.asp. Accessed: 2022-03-20.",
+      "doi": ""
+    },
+    {
+      "text": "Gulotta, R. 2015. Curatorial agents: How systems shape our understanding of personal and familial digital information. Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (2015), 3453\u20133462.",
+      "doi": "10.1145/2702123.2702297"
+    },
+    {
+      "text": "Halln\u00e4s, L. 2001. Expressions: towards a design practice of slow technology. Proceedings of the human\u2013computer interaction conference (Interact \u201801), Amsterdam, The Netherlands (2001), 447\u2013454.",
+      "doi": ""
+    },
+    {
+      "text": "Halln\u00e4s, L. and Redstr\u00f6m, J. 2001. Slow Technology \u2013 Designing for Reflection. Personal Ubiquitous Comput. 5, 3 (Jan. 2001), 201\u2013212. DOI:https://doi.org/10.1007/PL00000019.",
+      "doi": "10.1007/PL00000019"
+    },
+    {
+      "text": "Hidalgo, M.C. and Hern\u00e1ndez, B. 2001. Place Attachment: Conceptual and Empirical Questions. Journal of Environmental Psychology. 21, 3 (Sep. 2001), 273\u2013281. DOI:https://doi.org/10.1006/jevp.2001.0221.",
+      "doi": ""
+    },
+    {
+      "text": "van den Hoven, E. 2014. A future-proof past: Designing for remembering experiences. Memory Studies. 7, 3 (Jul. 2014), 370\u2013384. DOI:https://doi.org/10.1177/1750698014530625.",
+      "doi": ""
+    },
+    {
+      "text": "van den Hoven, E. 2021. Possessions and memories. Current Opinion in Psychology. 39, (Jun. 2021), 94\u201399. DOI:https://doi.org/10.1016/j.copsyc.2020.08.014.",
+      "doi": ""
+    },
+    {
+      "text": "Howell, N. 2019. Life-Affirming Biosensing in Public: Sounding Heartbeats on a Red Bench. Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (New York, NY, USA, May 2019), 1\u201316.",
+      "doi": "10.1145/3290605.3300910"
+    },
+    {
+      "text": "Hsieh, H.-F. and Wang, J.-J. 2003. Effect of reminiscence therapy on depression in older adults: a systematic review. International journal of nursing studies. 40, 4 (2003), 335\u2013345.",
+      "doi": ""
+    },
+    {
+      "text": "Huh, J. 2007. Beyond usability: taking social, situational, cultural, and other contextual factors into account. CHI\u201907 Extended Abstracts on Human Factors in Computing Systems (2007), 2113\u20132116.",
+      "doi": "10.1145/1240866.1240961"
+    },
+    {
+      "text": "Kalnikaite, V. 2010. Now let me see where i was: understanding how lifelogs mediate memory. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (New York, NY, USA, Apr. 2010), 2045\u20132054.",
+      "doi": "10.1145/1753326.1753638"
+    },
+    {
+      "text": "Khot, R.A. 2022. Designing for Microbreaks: Unpacking the Design Journey of Zenscape. Sixteenth International Conference on Tangible, Embedded, and Embodied Interaction. Association for Computing Machinery. 1\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Kim, H. and Chen, J.S. 2019. The Memorable Travel Experience and Its Reminiscence Functions. Journal of Travel Research. 58, 4 (Apr. 2019), 637\u2013649. DOI:https://doi.org/10.1177/0047287518772366.",
+      "doi": ""
+    },
+    {
+      "text": "Kim, J. 2020. SLOWPIXELS: Slow-design for reflective retrieval of personal photos. (Feb. 2020).",
+      "doi": ""
+    },
+    {
+      "text": "Kim, S. 2022. Slide2Remember: an Interactive Wall Frame Enriching Reminiscence Experiences by Providing Re-encounters of Taken Photos and Heard Music in a Similar Period. Designing Interactive Systems Conference (New York, NY, USA, Jun. 2022), 288\u2013300.",
+      "doi": "10.1145/3532106.3533456"
+    },
+    {
+      "text": "Kirk, D.S. 2010. Opening Up the Family Archive. Proceedings of the 2010 ACM Conference on Computer Supported Cooperative Work (New York, NY, USA, 2010), 261\u2013270.",
+      "doi": "10.1145/1718918.1718968"
+    },
+    {
+      "text": "Kirk, D.S. 2016. Ritual Machines I & II: Making Technology at Home. Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (2016), 2474\u20132486.",
+      "doi": "10.1145/2858036.2858424"
+    },
+    {
+      "text": "KML Documentation Introduction | Keyhole Markup Language: https://developers.google.com/kml/documentation. Accessed: 2022-03-21.",
+      "doi": ""
+    },
+    {
+      "text": "Lee, K.-R. 2020. DayClo: An Everyday Table Clock Providing Interaction with Personal Schedule Data for Self-reflection. Proceedings of the 2020 ACM Designing Interactive Systems Conference. Association for Computing Machinery. 1793\u20131806.",
+      "doi": "10.1145/3357236.3395439"
+    },
+    {
+      "text": "Lee-Smith, M. 2019. The Data Hungry Home. Proceedings of the Halfway to the Future Symposium 2019 (New York, NY, USA, Nov. 2019), 1\u201310.",
+      "doi": "10.1145/3363384.3363390"
+    },
+    {
+      "text": "Lehtiniemi, T. and Haapoja, J. 2020. Data agency at stake: MyData activism and alternative frames of equal participation. New Media & Society. 22, 1 (Jan. 2020), 87\u2013104. DOI:https://doi.org/10.1177/1461444819861955.",
+      "doi": ""
+    },
+    {
+      "text": "Leong, T.W. 2006. Randomness As a Resource for Design. Proceedings of the 6th Conference on Designing Interactive Systems (New York, NY, USA, 2006), 132\u2013139.",
+      "doi": "10.1145/1142405.1142428"
+    },
+    {
+      "text": "Lindley, S. 2013. Changing perspectives of time in HCI. CHI \u201913 Extended Abstracts on Human Factors in Computing Systems (Paris, France, Apr. 2013), 3211\u20133214.",
+      "doi": ""
+    },
+    {
+      "text": "Lindley, S.E. 2015. Making Time. Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (New York, NY, USA, 2015), 1442\u20131452.",
+      "doi": "10.1145/2675133.2675157"
+    },
+    {
+      "text": "Lupton, D. 2016. The Quantified Self. Polity.",
+      "doi": "10.5555/3052450"
+    },
+    {
+      "text": "Maz\u00e9, R. and Redstr\u00f6m, J. 2005. Form and the computational object. Digital Creativity. 16, 1 (Jan. 2005), 7\u201318. DOI:https://doi.org/10.1080/14626260500147736.",
+      "doi": ""
+    },
+    {
+      "text": "McCarthy, J. and Wright, P. 2004. Technology as experience. MIT Press.",
+      "doi": ""
+    },
+    {
+      "text": "McGookin, D. 2019. Reveal: Investigating Proactive Location-Based Reminiscing with Personal Digital Photo Repositories. Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery. 1\u201314.",
+      "doi": "10.1145/3290605.3300665"
+    },
+    {
+      "text": "Mendels, P. 2011. Freed: a system for creating multiple views of a digital collection during the design process. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (2011), 1481\u20131490.",
+      "doi": "10.1145/1978942.1979160"
+    },
+    {
+      "text": "Mols, I. 2020. Everyday Life Reflection: Exploring Media Interaction with Balance, Cogito & Dott. Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction (New York, NY, USA, Feb. 2020), 67\u201379.",
+      "doi": "10.1145/3374920.3374928"
+    },
+    {
+      "text": "Nelson, H.G. and Stolterman, E. 2003. The design way: Intentional change in an unpredictable world: Foundations and fundamentals of design competence. Educational Technology.",
+      "doi": ""
+    },
+    {
+      "text": "Neustaedter, C. and Sengers, P. 2012. Autobiographical design in HCI research: designing and learning through use-it-yourself. Proceedings of the Designing Interactive Systems Conference (New York, NY, USA, Jun. 2012), 514\u2013523.",
+      "doi": "10.1145/2317956.2318034"
+    },
+    {
+      "text": "Nike Run Club App: https://www.nike.com/nrc-app. Accessed: 2022-01-07.",
+      "doi": ""
+    },
+    {
+      "text": "Nunes, M. 2008. Sharing Digital Photographs in the Home Through Physical Mementos, Souvenirs, and Keepsakes. Proceedings of the 7th ACM Conference on Designing Interactive Systems (New York, NY, USA, 2008), 250\u2013260.",
+      "doi": "10.1145/1394445.1394472"
+    },
+    {
+      "text": "Obrenovi\u0107, \u017d. 2011. Design-based research: what we learn when we engage in design of interactive systems. Interactions. 18, 5 (Sep. 2011), 56\u201359. DOI:https://doi.org/10.1145/2008176.2008189.",
+      "doi": "10.1145/2008176.2008189"
+    },
+    {
+      "text": "Odom, W. 2018. Attending to Slowness and Temporality with Olly and Slow Game: A Design Inquiry Into Supporting Longer-Term Relations with Everyday Computational Objects. Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (New York, NY, USA, 2018), 77:1-77:13.",
+      "doi": "10.1145/3173574.3173651"
+    },
+    {
+      "text": "Odom, W. 2020. Exploring the Reflective Potentialities of Personal Data with Different Temporal Modalities: A Field Study of Olo Radio. Proceedings of the 2020 ACM Designing Interactive Systems Conference (New York, NY, USA, Jul. 2020), 283\u2013295.",
+      "doi": "10.1145/3357236.3395438"
+    },
+    {
+      "text": "Odom, W. 2022. Extending a Theory of Slow Technology for Design through Artifact Analysis. Human\u2013Computer Interaction. 37, 2 (2022), 150\u2013179. DOI:https://doi.org/10.1080/07370024.2021.1913416.",
+      "doi": ""
+    },
+    {
+      "text": "Odom, W. 2019. Investigating Slowness As a Frame to Design Longer-Term Experiences with Personal Data: A Field Study of Olly. Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (New York, NY, USA, 2019), 34:1-34:16.",
+      "doi": "10.1145/3290605.3300264"
+    },
+    {
+      "text": "Odom, W. 2012. Lost in Translation: Understanding the Possession of Digital Things in the Cloud. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (New York, NY, USA, 2012), 781\u2013790.",
+      "doi": "10.1145/2207676.2207789"
+    },
+    {
+      "text": "Odom, W. 2012. Photobox: On the Design of a Slow Technology. Proceedings of the Designing Interactive Systems Conference (New York, NY, USA, 2012), 665\u2013668.",
+      "doi": "10.1145/2317956.2318055"
+    },
+    {
+      "text": "Odom, W. 2014. Placelessness, Spacelessness, and Formlessness: Experiential Qualities of Virtual Possessions. Proceedings of the 2014 Conference on Designing Interactive Systems (New York, NY, USA, 2014), 985\u2013994.",
+      "doi": "10.1145/2598510.2598577"
+    },
+    {
+      "text": "Odom, W. 2012. Slow Technology: Critical Reflection and Future Directions. Proceedings of the Designing Interactive Systems Conference (New York, NY, USA, 2012), 816\u2013817.",
+      "doi": "10.1145/2317956.2318088"
+    },
+    {
+      "text": "Odom, W. 2018. Time, Temporality, and Slowness: Future Directions for Design Research. Proceedings of the 2018 ACM Conference Companion Publication on Designing Interactive Systems (New York, NY, USA, 2018), 383\u2013386.",
+      "doi": "10.1145/3197391.3197392"
+    },
+    {
+      "text": "Odom, W. and Duel, T. 2018. On the Design of OLO Radio: Investigating Metadata As a Design Material. Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (New York, NY, USA, 2018), 104:1-104:9.",
+      "doi": "10.1145/3173574.3173678"
+    },
+    {
+      "text": "Odom, W.T. 2014. Designing for Slowness, Anticipation and Re-visitation: A Long Term Field Study of the Photobox. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (New York, NY, USA, 2014), 1961\u20131970.",
+      "doi": "10.1145/2556288.2557178"
+    },
+    {
+      "text": "Ozenc, F.K. 2010. How to support designers in getting hold of the immaterial material of software. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. Association for Computing Machinery. 2513\u20132522.",
+      "doi": "10.1145/1753326.1753707"
+    },
+    {
+      "text": "Peesapati, S.T. 2010. Pensieve: Supporting Everyday Reminiscence. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (New York, NY, USA, 2010), 2027\u20132036.",
+      "doi": "10.1145/1753326.1753635"
+    },
+    {
+      "text": "Petrelli, D. 2008. AutoTopography: what can physical mementos tell us about digital memories? Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (2008), 53\u201362.",
+      "doi": "10.1145/1357054.1357065"
+    },
+    {
+      "text": "Petrelli, D. 2010. FM Radio: Family Interplay with Sonic Mementos. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (New York, NY, USA, 2010), 2371\u20132380.",
+      "doi": "10.1145/1753326.1753683"
+    },
+    {
+      "text": "Petrelli, D. 2009. Making history: intentional capture of future memories. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (New York, NY, USA, Apr. 2009), 1723\u20131732.",
+      "doi": "10.1145/1518701.1518966"
+    },
+    {
+      "text": "Petrelli, D. 2014. Photo Mementos: Designing Digital Media to Represent Ourselves at Home. Int. J. Hum.-Comput. Stud. 72, 3 (Mar. 2014), 320\u2013336. DOI:https://doi.org/10.1016/j.ijhcs.2013.09.009.",
+      "doi": "10.1016/j.ijhcs.2013.09.009"
+    },
+    {
+      "text": "Pierce, J. and Paulos, E. 2015. Making multiple uses of the obscura 1C digital camera: reflecting on the design, production, packaging and distribution of a counterfunctional device. Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (2015), 2103\u20132112.",
+      "doi": "10.1145/2702123.2702405"
+    },
+    {
+      "text": "Procyk, J. and Neustaedter, C. 2014. GEMS: The Design and Evaluation of a Location-based Storytelling Game. Proceedings of the 17th ACM Conference on Computer Supported Cooperative Work & Social Computing (New York, NY, USA, 2014), 1156\u20131166.",
+      "doi": ""
+    },
+    {
+      "text": "Pschetz, L. 2015. Isn't it time to change the way we think about time? interactions. 22, 5 (2015), 58\u201361.",
+      "doi": ""
+    },
+    {
+      "text": "Pschetz, L. and Bastian, M. 2018. Temporal Design: Rethinking time in design. Design Studies. 56, (May 2018), 169\u2013184. DOI:https://doi.org/10.1016/j.destud.2017.10.007.",
+      "doi": ""
+    },
+    {
+      "text": "Quantified Self: https://quantifiedself.com/. Accessed: 2022-04-21.",
+      "doi": ""
+    },
+    {
+      "text": "Rapp, A. 2022. Introduction to the special issue on time and HCI. Human\u2013Computer Interaction. 37, 1 (Jan. 2022), 1\u201314. DOI:https://doi.org/10.1080/07370024.2021.1955681.",
+      "doi": ""
+    },
+    {
+      "text": "Rooksby, J. 2014. Personal Tracking As Lived Informatics. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (New York, NY, USA, 2014), 1163\u20131172.",
+      "doi": "10.1145/2556288.2557039"
+    },
+    {
+      "text": "Sas, C. and Whittaker, S. 2013. Design for forgetting: disposing of digital possessions after a breakup. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (New York, NY, USA, Apr. 2013), 1823\u20131832.",
+      "doi": "10.1145/2470654.2466241"
+    },
+    {
+      "text": "Sch\u00f6n, D. and Bennett, J. 1996. Reflective conversation with materials. Bringing design to software (1996), 171\u2013189.",
+      "doi": ""
+    },
+    {
+      "text": "Selby, M. and Kirk, D. 2015. Experiential manufacturing: The earthquake shelf. RTD2015. Cambridge, UK. (2015), 25\u201327.",
+      "doi": ""
+    },
+    {
+      "text": "Slopes Ski & Snowboard - Track Your Winter Adventures: https://getslopes.com. Accessed: 2022-01-07.",
+      "doi": ""
+    },
+    {
+      "text": "Snooks, K. 2022. Beyond the body: Moving past the metricised bodily goal in self-tracking. DRS Biennial Conference Series. (Jun. 2022).",
+      "doi": ""
+    },
+    {
+      "text": "Stevens, M.M. 2003. Getting into the Living Memory Box: Family archives & holistic design. Personal and Ubiquitous Computing. 7, 3 (Jul. 2003), 210\u2013216. DOI:https://doi.org/10.1007/s00779-003-0220-4.",
+      "doi": "10.1007/s00779-003-0220-4"
+    },
+    {
+      "text": "Stolterman, E. and Pierce, J. 2012. Design tools in practice: studying the designer-tool relationship in interaction design. Proceedings of the Designing Interactive Systems Conference (New York, NY, USA, Jun. 2012), 25\u201328.",
+      "doi": "10.1145/2317956.2317961"
+    },
+    {
+      "text": "Stolterman, E. and Wiberg, M. 2010. Concept-driven interaction design research. Human\u2013Computer Interaction. 25, 2 (2010), 95\u2013118.",
+      "doi": ""
+    },
+    {
+      "text": "Strava | Run and Cycling Tracking on the Social Network for Athletes: https://www.strava.com/. Accessed: 2022-01-07.",
+      "doi": ""
+    },
+    {
+      "text": "Tan, N.-A.H. 2018. Rewind: Automatically Reconstructing Everyday Memories with First-Person Perspectives. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies. 2, 4 (Dec. 2018), 191:1-191:20. DOI:https://doi.org/10.1145/3287069.",
+      "doi": "10.1145/3287069"
+    },
+    {
+      "text": "Thomas, L. and Briggs, P. 2016. Reminiscence through the Lens of Social Media. Frontiers in Psychology. 7, (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Tsai, W.-C. 2014. The Reflexive Printer: Toward Making Sense of Perceived Drawbacks in Technology-mediated Reminiscence. Proceedings of the 2014 Conference on Designing Interactive Systems (New York, NY, USA, 2014), 995\u20131004.",
+      "doi": "10.1145/2598510.2598589"
+    },
+    {
+      "text": "Tsaknaki, V. 2020. Challenges and Opportunities for Designing with Biodata as Material. Proceedings of the 11th Nordic Conference on Human-Computer Interaction: Shaping Experiences, Shaping Society. Association for Computing Machinery. 1\u20133.",
+      "doi": "10.1145/3419249.3420063"
+    },
+    {
+      "text": "Uhde, A. and Hassenzahl, M. 2022. Time perspectives in technology-mediated reminiscing: effects of basic design decisions on subjective well-being. Human\u2013Computer Interaction. 37, 2 (Mar. 2022), 117\u2013149. DOI:https://doi.org/10.1080/07370024.2021.1913415.",
+      "doi": ""
+    },
+    {
+      "text": "Vallg\\a arda, A. 2014. Giving Form to Computational Things: Developing a Practice of Interaction Design. Personal Ubiquitous Comput. 18, 3 (Mar. 2014), 577\u2013592. DOI:https://doi.org/10.1007/s00779-013-0685-8.",
+      "doi": "10.1007/s00779-013-0685-8"
+    },
+    {
+      "text": "Vallgarda, A. 2015. Temporal form in interaction design. International Journal of Design. 9, 3 (2015).",
+      "doi": ""
+    },
+    {
+      "text": "Van House, N. and Churchill, E.F. 2008. Technologies of memory: Key issues and critical perspectives. Memory Studies. 1, 3 (Sep. 2008), 295\u2013310. DOI:https://doi.org/10.1177/1750698008093795.",
+      "doi": ""
+    },
+    {
+      "text": "Vescovi, M. 2014. My data store: toward user awareness and control on personal data. Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct Publication (Seattle Washington, Sep. 2014), 179\u2013182.",
+      "doi": "10.1145/2638728.2638745"
+    },
+    {
+      "text": "Wagenaar, W.A. and Fivush, R. eds. 1994. Is Memroy Self-serving? The Remembering Self: Construction and Accuracy in the Self-Narrative. Cambridge University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Wakkary, R. 2016. Productive Frictions: Moving from Digital to Material Prototyping and Low-Volume Production for Design Research. Proceedings of the 2016 ACM Conference on Designing Interactive Systems (2016), 1258\u20131269.",
+      "doi": "10.1145/2901790.2901880"
+    },
+    {
+      "text": "Wallace, J. 2020. ReFind: Design, Lived Experience and Ongoingness in Bereavement. Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery. 1\u201312.",
+      "doi": "10.1145/3313831.3376531"
+    },
+    {
+      "text": "Webster, J.D. 2010. Mapping the Future of Reminiscence: A Conceptual Guide for Research and Practice. Research on Aging. 32, 4 (Jul. 2010), 527\u2013564. DOI:https://doi.org/10.1177/0164027510364122.",
+      "doi": ""
+    },
+    {
+      "text": "Wiberg, M. and Stolterman, E. 2021. Time and Temporality in HCI Research. Interacting with Computers. 33, 3 (Sep. 2021), 250\u2013270. DOI:https://doi.org/10.1093/iwc/iwab025.",
+      "doi": ""
+    },
+    {
+      "text": "Wirfs-Brock, J. 2020. Giving Voice to Silent Data: Designing with Personal Music Listening History. Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery. 1\u201311.",
+      "doi": "10.1145/3313831.3376493"
+    },
+    {
+      "text": "Wirfs-Brock, J. 2019. Recipes for Breaking Data Free: Alternative Interactions for Experiencing Personal Data. Companion Publication of the 2019 on Designing Interactive Systems Conference 2019 Companion (New York, NY, USA, Jun. 2019), 325\u2013330.",
+      "doi": "10.1145/3301019.3323892"
+    },
+    {
+      "text": "Wolf, G. 2010. The Data-Driven Life. The New York Times.",
+      "doi": ""
+    },
+    {
+      "text": "Ye, Y. 2009. Mining Individual Life Pattern Based on Location History. 2009 Tenth International Conference on Mobile Data Management: Systems, Services and Middleware (May 2009), 1\u201310.",
+      "doi": ""
+    },
+    {
+      "text": "Zimmerman, J. and Forlizzi, J. 2008. The role of design artifacts in design theory construction. Artifact. 2, 1 (2008), 41\u201345.",
+      "doi": ""
+    }
+  ]
+}

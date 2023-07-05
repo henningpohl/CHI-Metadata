@@ -1,0 +1,318 @@
+{
+  "doi": "10.1145/3313831.3376447",
+  "title": "Silva: Interactively Assessing Machine Learning Fairness Using Causality",
+  "published": "2020-04-23",
+  "proctitle": "CHI '20: Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-13",
+  "year": 2020,
+  "badges": [],
+  "abstract": "Machine learning models risk encoding unfairness on the part of their developers or data sources. However, assessing fairness is challenging as analysts might misidentify sources of bias, fail to notice them, or misapply metrics. In this paper we introduce Silva, a system for exploring potential sources of unfairness in datasets or machine learning models interactively. Silva directs user attention to relationships between attributes through a global causal view, provides interactive recommendations, presents intermediate results, and visualizes metrics. We describe the implementation of Silva, identify salient design and technical challenges, and provide an evaluation of the tool in comparison to an existing fairness optimization tool.",
+  "authors": [
+    {
+      "name": "Jing Nathan Yan",
+      "institution": "Cornell University, Ithaca, NY, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528369",
+      "orcid": "missing"
+    },
+    {
+      "name": "Ziwei Gu",
+      "institution": "Cornell University, Ithaca, NY, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659527924",
+      "orcid": "missing"
+    },
+    {
+      "name": "Hubert Lin",
+      "institution": "Cornell University, Ithaca, NY, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528153",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jeffrey M. Rzeszotarski",
+      "institution": "Cornell University, Ithaca, NY, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659669442",
+      "orcid": "0000-0002-4317-9501"
+    }
+  ],
+  "references": [
+    {
+      "text": "Alekh Agarwal, Alina Beygelzimer, Miroslav Dud\u00edk, John Langford, and Hanna Wallach. 2018. A reductions approach to fair classification. arXiv preprint arXiv:1803.02453 (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Solon Barocas and Andrew D Selbst. 2016. Big data's disparate impact. Calif. L. Rev. 104 (2016), 671.",
+      "doi": ""
+    },
+    {
+      "text": "David Beer. 2009. Power through the algorithm? Participatory web cultures and the technological unconscious. New Media & Society 11, 6 (2009), 985--1002.",
+      "doi": ""
+    },
+    {
+      "text": "Rachel KE Bellamy, Kuntal Dey, Michael Hind, Samuel C Hoffman, Stephanie Houde, Kalapriya Kannan, Pranay Lohia, Jacquelyn Martino, Sameep Mehta, Aleksandra Mojsilovic, and others. 2018a. AI fairness 360: An extensible toolkit for detecting, understanding, and mitigating unwanted algorithmic bias. arXiv preprint arXiv:1810.01943 (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Rachel K. E. Bellamy, Kuntal Dey, Michael Hind, Samuel C. Hoffman, Stephanie Houde, Kalapriya Kannan, Pranay Lohia, Jacquelyn Martino, Sameep Mehta, Aleksandra Mojsilovic, Seema Nagar, Karthikeyan Natesan Ramamurthy, John Richards, Diptikalyan Saha, Prasanna Sattigeri, Moninder Singh, Kush R. Varshney, and Yunfeng Zhang. 2018b. AI Fairness 360: An Extensible Toolkit for Detecting, Understanding, and Mitigating Unwanted Algorithmic Bias. (Oct. 2018). https://arxiv.org/abs/1810.01943",
+      "doi": ""
+    },
+    {
+      "text": "Alex Beutel, Jilin Chen, Tulsee Doshi, Hai Qian, Allison Woodruff, Christine Luu, Pierre Kreitmann, Jonathan Bischof, and Ed H Chi. 2019. Putting fairness principles into practice: Challenges, metrics, and improvements. arXiv preprint arXiv:1901.04562 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Peter J Bickel, Eugene A Hammel, and J William O'Connell. 1975. Sex bias in graduate admissions: Data from Berkeley. Science 187, 4175 (1975), 398--404.",
+      "doi": ""
+    },
+    {
+      "text": "Reuben Binns, Max Van Kleek, Michael Veale, Ulrik Lyngs, Jun Zhao, and Nigel Shadbolt. 2018. 'It's Reducing a Human Being to a Percentage': Perceptions of Justice in Algorithmic Decisions. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, 377.",
+      "doi": "10.1145/3173574.3173951"
+    },
+    {
+      "text": "Bokeh Development Team. 2019. Bokeh: Python library for interactive visualization. https://bokeh.org/",
+      "doi": ""
+    },
+    {
+      "text": "Nigel Bosch, Sidney K D'Mello, Ryan S Baker, Jaclyn Ocumpaugh, Valerie Shute, Matthew Ventura, Lubin Wang, and Weinan Zhao. 2016. Detecting student emotions in computer-enabled classrooms.. In IJCAI. 4125--4129.",
+      "doi": ""
+    },
+    {
+      "text": "Taina Bucher. 2017. The algorithmic imaginary: exploring the ordinary affects of Facebook algorithms. Information, Communication & Society 20, 1 (2017), 30--44.",
+      "doi": ""
+    },
+    {
+      "text": "Jenna Burrell. 2016. How the machine \"thinks\": Understanding opacity in machine learning algorithms. Big Data & Society 3, 1 (2016), 2053951715622512.",
+      "doi": ""
+    },
+    {
+      "text": "Flavio Calmon, Dennis Wei, Bhanukiran Vinzamuri, Karthikeyan Natesan Ramamurthy, and Kush R Varshney. 2017. Optimized pre-processing for discrimination prevention. In Advances in Neural Information Processing Systems. 3992--4001.",
+      "doi": "10.5555/3294996.3295155"
+    },
+    {
+      "text": "L Elisa Celis, Lingxiao Huang, Vijay Keswani, and Nisheeth K Vishnoi. 2019. Classification with fairness constraints: A meta-algorithm with provable guarantees. In Proceedings of the Conference on Fairness, Accountability, and Transparency. ACM, 319--328.",
+      "doi": "10.1145/3287560.3287586"
+    },
+    {
+      "text": "Sam Corbett-Davies, Emma Pierson, Avi Feller, Sharad Goel, and Aziz Huq. 2017. Algorithmic decision making and the cost of fairness. In Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 797--806.",
+      "doi": "10.1145/3097983.3098095"
+    },
+    {
+      "text": "Kate Crawford. 2016. Artificial intelligence's white guy problem. The New York Times 25 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Dastin. 2018. Rpt-insight-amazon scraps secret AI recruiting tool that showed bias against women. Reuters, 2018. (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Thomas H Davenport and DJ Patil. 2012. Data scientist. Harvard business review 90, 5 (2012), 70--76.",
+      "doi": ""
+    },
+    {
+      "text": "Michael A DeVito, Jeremy Birnholtz, and Jeffery T Hancock. 2017. Platforms, people, and perception: Using affordances to understand self-presentation on social media. In Proceedings of the 2017 ACM conference on computer supported cooperative work and social computing. ACM, 740--754.",
+      "doi": "10.1145/2998181.2998192"
+    },
+    {
+      "text": "Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold, and Richard Zemel. 2012. Fairness through awareness. In Proceedings of the 3rd innovations in theoretical computer science conference. ACM, 214--226.",
+      "doi": "10.1145/2090236.2090255"
+    },
+    {
+      "text": "Benjamin G Edelman and Michael Luca. 2014. Digital discrimination: The case of Airbnb. com. Harvard Business School NOM Unit Working Paper 14-054 (2014).",
+      "doi": ""
+    },
+    {
+      "text": "Andre Esteva, Brett Kuprel, Roberto A Novoa, Justin Ko, Susan M Swetter, Helen M Blau, and Sebastian Thrun. 2017. Dermatologist-level classification of skin cancer with deep neural networks. Nature 542, 7639 (2017), 115.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Feldman, Sorelle A Friedler, John Moeller, Carlos Scheidegger, and Suresh Venkatasubramanian. 2015. Certifying and removing disparate impact. In Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 259--268.",
+      "doi": "10.1145/2783258.2783311"
+    },
+    {
+      "text": "Tarleton Gillespie, Pablo J Boczkowski, and Kirsten A Foot. 2014. Media technologies: Essays on communication, materiality, and society. MIT Press.",
+      "doi": "10.5555/2500954"
+    },
+    {
+      "text": "Bryce Goodman and Seth Flaxman. 2017. European Union regulations on algorithmic decision-making and \"right to explanation\". AI Magazine 38, 3 (2017), 50--57.",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2017. What-if Tool. (2017). https://pair-code.github.io/what-if-tool/",
+      "doi": ""
+    },
+    {
+      "text": "Bernard E Harcourt. 2008. Against prediction: Profiling, policing, and punishing in an actuarial age. University of Chicago Press.",
+      "doi": ""
+    },
+    {
+      "text": "Moritz Hardt, Eric Price, and Nati Srebro. 2016. Equality of opportunity in supervised learning. In Advances in neural information processing systems. 3315--3323.",
+      "doi": ""
+    },
+    {
+      "text": "Kenneth Holstein, Jennifer Wortman Vaughan, Hal Daum\u00e9 III, Miro Dudik, and Hanna Wallach. 2019. Improving fairness in machine learning systems: What do industry practitioners need?. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 600.",
+      "doi": "10.1145/3290605.3300830"
+    },
+    {
+      "text": "Tommi Jaakkola, David Sontag, Amir Globerson, and Marina Meila. 2010. Learning Bayesian network structure using LP relaxations. In Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics. 358--365.",
+      "doi": ""
+    },
+    {
+      "text": "Michael I Jordan. 2003. An introduction to probabilistic graphical models. (2003).",
+      "doi": ""
+    },
+    {
+      "text": "Faisal Kamiran and Toon Calders. 2012. Data preprocessing techniques for classification without discrimination. Knowledge and Information Systems 33, 1 (2012), 1--33.",
+      "doi": "10.1007/s10115-011-0463-8"
+    },
+    {
+      "text": "Faisal Kamiran, Asim Karim, and Xiangliang Zhang. 2012. Decision theory for discrimination-aware classification. In 2012 IEEE 12th International Conference on Data Mining. IEEE, 924--929.",
+      "doi": "10.1109/ICDM.2012.45"
+    },
+    {
+      "text": "Toshihiro Kamishima, Shotaro Akaho, Hideki Asoh, and Jun Sakuma. 2012. Fairness-aware classifier with prejudice remover regularizer. In Joint European Conference on Machine Learning and Knowledge Discovery in Databases. Springer, 35--50.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Kay, Cynthia Matuszek, and Sean A Munson. 2015. Unequal representation and gender stereotypes in image search results for occupations. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. ACM, 3819--3828.",
+      "doi": "10.1145/2702123.2702520"
+    },
+    {
+      "text": "Niki Kilbertus, Mateo Rojas Carulla, Giambattista Parascandolo, Moritz Hardt, Dominik Janzing, and Bernhard Sch\u00f6lkopf. 2017. Avoiding discrimination through causal reasoning. In Advances in Neural Information Processing Systems. 656--666.",
+      "doi": "10.5555/3294771.3294834"
+    },
+    {
+      "text": "Jon Kleinberg, Sendhil Mullainathan, and Manish Raghavan. 2016. Inherent trade-offs in the fair determination of risk scores. arXiv preprint arXiv:1609.05807 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Daphne Koller and Nir Friedman. 2009. Probabilistic graphical models: principles and techniques. MIT press.",
+      "doi": "10.5555/1795555"
+    },
+    {
+      "text": "Tim Kraska. 2018. Northstar: An interactive data science system. Proceedings of the VLDB Endowment 11, 12 (2018), 2150--2164.",
+      "doi": "10.14778/3229863.3240493"
+    },
+    {
+      "text": "Matt J Kusner, Joshua Loftus, Chris Russell, and Ricardo Silva. 2017. Counterfactual fairness. In Advances in Neural Information Processing Systems. 4066--4076.",
+      "doi": ""
+    },
+    {
+      "text": "Jeff Larson, Surya Mattu, Lauren Kirchner, and Julia Angwin. 2016. How we analyzed the COMPAS recidivism algorithm. ProPublica (5 2016) 9 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Min Kyung Lee. 2018. Understanding perception of algorithmic decisions: Fairness, trust, and emotion in response to algorithmic management. Big Data & Society 5, 1 (2018), 2053951718756684.",
+      "doi": ""
+    },
+    {
+      "text": "Joshua R Loftus, Chris Russell, Matt J Kusner, and Ricardo Silva. 2018. Causal reasoning for algorithmic fairness. arXiv preprint arXiv:1805.05859 (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Caitlin Lustig and Bonnie Nardi. 2015. Algorithmic authority: The case of Bitcoin. In 2015 48th Hawaii International Conference on System Sciences. IEEE, 743--752.",
+      "doi": "10.1109/HICSS.2015.95"
+    },
+    {
+      "text": "James Massey. 1990. Causality, feedback and directed information. In Proc. Int. Symp. Inf. Theory Applic.(ISITA-90). Citeseer, 303--305.",
+      "doi": ""
+    },
+    {
+      "text": "Razieh Nabi and Ilya Shpitser. 2018. Fair inference on outcomes. In Thirty-Second AAAI Conference on Artificial Intelligence.",
+      "doi": ""
+    },
+    {
+      "text": "Judea Pearl and others. 2009. Causal inference in statistics: An overview. Statistics surveys 3 (2009), 96--146.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Pirolli and Stuart Card. 2005. The sensemaking process and leverage points for analyst technology as identified through cognitive task analysis. In Proceedings of international conference on intelligence analysis, Vol. 5. McLean, VA, USA, 2--4.",
+      "doi": ""
+    },
+    {
+      "text": "Angelisa C Plane, Elissa M Redmiles, Michelle L Mazurek, and Michael Carl Tschantz. 2017. Exploring user perceptions of discrimination in online targeted advertising. In 26th USENIX Security Symposium (USENIX Security 17). 935--951.",
+      "doi": ""
+    },
+    {
+      "text": "Geoff Pleiss, Manish Raghavan, Felix Wu, Jon Kleinberg, and Kilian Q Weinberger. 2017. On fairness and calibration. In Advances in Neural Information Processing Systems. 5680--5689.",
+      "doi": ""
+    },
+    {
+      "text": "Babak Salimi, Corey Cole, Peter Li, Johannes Gehrke, and Dan Suciu. 2018a. HypDB: a demonstration of detecting, explaining and resolving bias in OLAP queries. Proceedings of the VLDB Endowment 11, 12 (2018), 2062--2065.",
+      "doi": "10.14778/3229863.3236260"
+    },
+    {
+      "text": "Babak Salimi, Johannes Gehrke, and Dan Suciu. 2018b. Bias in olap queries: Detection, explanation, and removal. In Proceedings of the 2018 International Conference on Management of Data. ACM, 1021--1035.",
+      "doi": "10.1145/3183713.3196914"
+    },
+    {
+      "text": "Babak Salimi, Luke Rodriguez, Bill Howe, and Dan Suciu. 2019. Interventional Fairness: Causal Database Repair for Algorithmic Fairness. In Proceedings of the 2019 International Conference on Management of Data. ACM, 793--810.",
+      "doi": "10.1145/3299869.3319901"
+    },
+    {
+      "text": "Nripsuta Ani Saxena, Karen Huang, Evan DeFilippis, Goran Radanovic, David C Parkes, and Yang Liu. 2019. How Do Fairness Definitions Fare?: Examining Public Attitudes Towards Algorithmic Definitions of Fairness. In Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society. ACM, 99--106.",
+      "doi": "10.1145/3306618.3314248"
+    },
+    {
+      "text": "Till Speicher, Hoda Heidari, Nina Grgic-Hlaca, Krishna P Gummadi, Adish Singla, Adrian Weller, and Muhammad Bilal Zafar. 2018. A Unified Approach to Quantifying Algorithmic Unfairness: Measuring Individual &Group Unfairness via Inequality Indices. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. ACM, 2239--2248.",
+      "doi": "10.1145/3219819.3220046"
+    },
+    {
+      "text": "Jina Suh, Soroush Ghorashi, Gonzalo Ramos, Nan-Chen Chen, Steven Drucker, Johan Verwey, and Patrice Simard. 2019. AnchorViz: Facilitating Semantic Data Exploration and Concept Discovery for Interactive Machine Learning. ACM Transactions on Interactive Intelligent Systems (TiiS) 10, 1 (2019), 7.",
+      "doi": ""
+    },
+    {
+      "text": "Astra Taylor and Jathan Sadowski. 2015. How companies turn your Facebook activity into a credit score. The Nation 27 (2015).",
+      "doi": ""
+    },
+    {
+      "text": "Ioannis Tsamardinos, Laura E Brown, and Constantin F Aliferis. 2006. The max-min hill-climbing Bayesian network structure learning algorithm. Machine learning 65, 1 (2006), 31--78.",
+      "doi": ""
+    },
+    {
+      "text": "Lisa Tweedie, Bob Spence, David Williams, and Ravinder Bhogal. 1994. The attribute explorer. In Conference companion on Human factors in computing systems. ACM, 435--436.",
+      "doi": "10.1145/259963.260433"
+    },
+    {
+      "text": "Michael Veale, Max Van Kleek, and Reuben Binns. 2018. Fairness and accountability design needs for algorithmic support in high-stakes public sector decision-making. In Proceedings of the 2018 chi conference on human factors in computing systems. ACM, 440.",
+      "doi": "10.1145/3173574.3174014"
+    },
+    {
+      "text": "Clifford H Wagner. 1982. Simpson's paradox in real life. The American Statistician 36, 1 (1982), 46--48.",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Warshaw, Nina Taft, and Allison Woodruff. 2016. Intuitions, Analytics, and Killing Ants: Inference Literacy of High School-educated Adults in the US. In Twelfth Symposium on Usable Privacy and Security (SOUPS). 271--285.",
+      "doi": ""
+    },
+    {
+      "text": "Allison Woodruff, Sarah E Fox, Steven Rousso-Schindler, and Jeffrey Warshaw. 2018. A qualitative exploration of perceptions of algorithmic fairness. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, 656.",
+      "doi": "10.1145/3173574.3174230"
+    },
+    {
+      "text": "Blake Woodworth, Suriya Gunasekar, Mesrob I Ohannessian, and Nathan Srebro. 2017. Learning non-discriminatory predictors. arXiv preprint arXiv:1702.06081 (2017).",
+      "doi": ""
+    },
+    {
+      "text": "Yongkai Wu, Lu Zhang, Xintao Wu, and Hanghang Tong. 2019. PC-Fairness: A Unified Framework for Measuring Causality-based Fairness. In Advances in Neural Information Processing Systems. 3399--3409.",
+      "doi": ""
+    },
+    {
+      "text": "Qian Yang, Alex Scuito, John Zimmerman, Jodi Forlizzi, and Aaron Steinfeld. 2018. Investigating how experienced UX designers effectively work with machine learning. In Proceedings of the 2018 Designing Interactive Systems (DIS) Conference. ACM, 585--596.",
+      "doi": "10.1145/3196709.3196730"
+    },
+    {
+      "text": "Rich Zemel, Yu Wu, Kevin Swersky, Toni Pitassi, and Cynthia Dwork. 2013. Learning fair representations. In International Conference on Machine Learning. 325--333.",
+      "doi": "10.5555/3042817.3042973"
+    },
+    {
+      "text": "Brian Hu Zhang, Blake Lemoine, and Margaret Mitchell. 2018. Mitigating unwanted biases with adversarial learning. In Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society. ACM, 335--340.",
+      "doi": "10.1145/3278721.3278779"
+    },
+    {
+      "text": "Junzhe Zhang and Elias Bareinboim. 2018. Fairness in decision-making the causal explanation formula. In Thirty-Second AAAI Conference on Artificial Intelligence.",
+      "doi": ""
+    }
+  ]
+}

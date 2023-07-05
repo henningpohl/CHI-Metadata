@@ -1,0 +1,402 @@
+{
+  "doi": "10.1145/3411764.3445409",
+  "title": "Firefox Voice: An Open and Extensible Voice Assistant Built Upon the Web",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Voice assistants are fundamentally changing the way we access information. However, voice assistants still leverage little about the web beyond simple search results. We introduce Firefox Voice, a novel voice assistant built on the open web ecosystem with an aim to expand access to information available via voice. Firefox Voice is a browser extension that enables users to use their voice to perform actions such as setting timers, navigating the web, and reading a webpage\u2019s content aloud. Through an iterative development process and use by over 12,000 active users, we find that users see voice as a way to accomplish certain browsing tasks efficiently, but struggle with discovering functionality and frequently discontinue use. We conclude by describing how Firefox Voice enables the development of novel, open web-powered voice-driven experiences.",
+  "authors": [
+    {
+      "name": "Julia Cambre",
+      "institution": "Human-Computer Interaction Institute Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "87259394857",
+      "orcid": "missing"
+    },
+    {
+      "name": "Alex C Williams",
+      "institution": "Department of Electrical Engineering and Computer Science University of Tennessee, Knoxville, United States",
+      "img": "/do/10.1145/contrib-99659130748/rel-imgonly/screen_shot_2022-03-21_at_5.16.58_pm.png",
+      "acmid": "99659130748",
+      "orcid": "missing"
+    },
+    {
+      "name": "Afsaneh Razi",
+      "institution": "Department of Computer Science University of Central Florida, United States",
+      "img": "/do/10.1145/contrib-99659221388/rel-imgonly/51421977_10161510351285512_710004745963569152_o__2_.jpg",
+      "acmid": "99659221388",
+      "orcid": "0000-0001-5829-8004"
+    },
+    {
+      "name": "Ian Bicking",
+      "institution": "Emerging Technologies Mozilla, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659552826",
+      "orcid": "missing"
+    },
+    {
+      "name": "Abraham Wallin",
+      "institution": "Mozilla, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659549546",
+      "orcid": "missing"
+    },
+    {
+      "name": "Janice Tsai",
+      "institution": "Mozilla, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659260901",
+      "orcid": "missing"
+    },
+    {
+      "name": "Chinmay Kulkarni",
+      "institution": "Human-Computer Interaction Institute Carnegie Mellon University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81556575456",
+      "orcid": "0000-0003-4922-6601"
+    },
+    {
+      "name": "Jofish Kaye",
+      "institution": "Mozilla, United States",
+      "img": "/do/10.1145/contrib-81100005698/rel-imgonly/jofish-kaye-1.jpg",
+      "acmid": "81100005698",
+      "orcid": "0000-0001-7440-3900"
+    }
+  ],
+  "references": [
+    {
+      "text": "Ali Abdolrahmani, Ravi Kuber, and Stacy\u00a0M. Branham. 2018. \u201cSiri Talks at You\u201d: An Empirical Investigation of Voice-Activated Personal Assistant (VAPA) Usage by Individuals Who Are Blind. In Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility(ASSETS \u201918). Association for Computing Machinery, New York, NY, USA, 249\u2013258. https://doi.org/10.1145/3234695.3236344",
+      "doi": "10.1145/3234695.3236344"
+    },
+    {
+      "text": "Ali Abdolrahmani, Kevin\u00a0M. Storer, Antony Rishin\u00a0Mukkath Roy, Ravi Kuber, and Stacy\u00a0M. Branham. 2020. Blind Leading the Sighted: Drawing Design Insights from Blind Users towards More Productivity-Oriented Voice Interfaces. ACM Trans. Access. Comput. 12, 4, Article 18 (Jan. 2020), 35\u00a0pages. https://doi.org/10.1145/3368426",
+      "doi": "10.1145/3368426"
+    },
+    {
+      "text": "Tawfiq Ammari, Jofish Kaye, Janice\u00a0Y. Tsai, and Frank Bentley. 2019. Music, Search, and IoT: How People (Really) Use Voice Assistants. ACM Trans. Comput.-Hum. Interact. 26, 3 (April 2019), 17:1\u201317:28. https://doi.org/10.1145/3311956",
+      "doi": "10.1145/3311956"
+    },
+    {
+      "text": "Matthew\u00a0P. Aylett, Benjamin\u00a0R. Cowan, and Leigh Clark. 2019. Siri, Echo and Performance: You Have to Suffer Darling. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems(CHI EA \u201919). ACM, New York, NY, USA, alt08:1\u2013alt08:10. https://doi.org/10.1145/3290607.3310422",
+      "doi": "10.1145/3290607.3310422"
+    },
+    {
+      "text": "Marcos Baez, Florian Daniel, and Fabio Casati. 2020. Conversational Web Interaction: Proposal of a Dialog-Based Natural Language Interaction Paradigm for the Web. In Chatbot Research and Design, Asbj\u00f8rn F\u00f8lstad, Theo Araujo, Symeon Papadopoulos, Effie Lai-Chong Law, Ole-Christoffer Granmo, Ewa Luger, and Petter\u00a0Bae Brandtzaeg (Eds.). Springer International Publishing, Cham, 94\u2013110.",
+      "doi": ""
+    },
+    {
+      "text": "Erin Beneteau, Ashley Boone, Yuxing Wu, Julie\u00a0A. Kientz, Jason Yip, and Alexis Hiniker. 2020. Parenting with Alexa: Exploring the Introduction of Smart Speakers on Family Dynamics. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems(CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376344",
+      "doi": "10.1145/3313831.3376344"
+    },
+    {
+      "text": "Frank Bentley, Chris Luvogt, Max Silverman, Rushani Wirasinghe, Brooke White, and Danielle Lottridge. 2018. Understanding the Long-Term Use of Smart Speaker Assistants. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 3, Article 91 (Sept. 2018), 24\u00a0pages. https://doi.org/10.1145/3264901",
+      "doi": "10.1145/3264901"
+    },
+    {
+      "text": "Yevgen Borodin, Jeffrey\u00a0P. Bigham, Glenn Dausch, and I.\u00a0V. Ramakrishnan. 2010. More than Meets the Eye: A Survey of Screen-Reader Browsing Strategies. In Proceedings of the 2010 International Cross Disciplinary Conference on Web Accessibility (W4A)(W4A \u201910). Association for Computing Machinery, New York, NY, USA, Article 13, 10\u00a0pages. https://doi.org/10.1145/1805986.1806005",
+      "doi": "10.1145/1805986.1806005"
+    },
+    {
+      "text": "Stacy\u00a0M. Branham and Antony\u00a0Rishin Mukkath\u00a0Roy. 2019. Reading Between the Guidelines: How Commercial Voice Assistant Guidelines Hinder Accessibility for Blind Users. In The 21st International ACM SIGACCESS Conference on Computers and Accessibility(ASSETS \u201919). Association for Computing Machinery, New York, NY, USA, 446\u2013458. https://doi.org/10.1145/3308561.3353797",
+      "doi": ""
+    },
+    {
+      "text": "Bret Kinsella. 2020. Jovo v3 Launches with Support for More Platforms, More Devices, and Custom App Experiences. https://voicebot.ai/2020/02/28/jovo-v3-launches-with-support-for-more-platforms-more-devices-and-custom-app-experiences/",
+      "doi": ""
+    },
+    {
+      "text": "Julia Cambre, Jessica Colnago, Jim Maddock, Janice Tsai, and Jofish Kaye. 2020. Choice of Voices: A Large-Scale Evaluation of Text-to-Speech Voice Quality for Long-Form Content. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems(CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376789",
+      "doi": "10.1145/3313831.3376789"
+    },
+    {
+      "text": "Julia Cambre and Chinmay Kulkarni. 2019. One Voice Fits All? Social Implications and Research Challenges of Designing Voices for Smart Devices. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 223 (Nov. 2019), 19\u00a0pages. https://doi.org/10.1145/3359325",
+      "doi": ""
+    },
+    {
+      "text": "Julia Cambre and Chinmay Kulkarni. 2020. Methods and Tools for Prototyping Voice Interfaces. In Proceedings of the 2nd Conference on Conversational User Interfaces(CUI \u201920). Association for Computing Machinery, New York, NY, USA, Article 43, 4\u00a0pages. https://doi.org/10.1145/3405755.3406148",
+      "doi": "10.1145/3405755.3406148"
+    },
+    {
+      "text": "Julia Cambre, Ying Liu, Rebecca\u00a0E. Taylor, and Chinmay Kulkarni. 2019. Vitro: Designing a Voice Assistant for the Scientific Lab Workplace. In Proceedings of the 2019 on Designing Interactive Systems Conference(DIS \u201919). ACM, New York, NY, USA, 1531\u20131542. https://doi.org/10.1145/3322276.3322298",
+      "doi": "10.1145/3322276.3322298"
+    },
+    {
+      "text": "Giovanni Campagna, Rakesh Ramesh, Silei Xu, Michael Fischer, and Monica\u00a0S. Lam. 2017. Almond: The Architecture of an Open, Crowdsourced, Privacy-Preserving, Programmable Virtual Assistant. In Proceedings of the 26th International Conference on World Wide Web(WWW \u201917). International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE, 341\u2013350. https://doi.org/10.1145/3038912.3052562",
+      "doi": "10.1145/3038912.3052562"
+    },
+    {
+      "text": "Giovanni Campagna, Silei Xu, Mehrad Moradshahi, Richard Socher, and Monica\u00a0S. Lam. 2019. Genie: A Generator of Natural Language Semantic Parsers for Virtual Assistant Commands. In Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation(PLDI 2019). Association for Computing Machinery, New York, NY, USA, 394\u2013410. https://doi.org/10.1145/3314221.3314594",
+      "doi": "10.1145/3314221.3314594"
+    },
+    {
+      "text": "Minsuk Chang, Anh Truong, Oliver Wang, Maneesh Agrawala, and Juho Kim. 2019. How to Design Voice Based Navigation for How-To Videos. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201311. https://doi.org/10.1145/3290605.3300931",
+      "doi": "10.1145/3290605.3300931"
+    },
+    {
+      "text": "Minji Cho, Sang-su Lee, and Kun-Pyo Lee. 2019. Once a Kind Friend Is Now a Thing: Understanding How Conversational Agents at Home Are Forgotten. In Proceedings of the 2019 on Designing Interactive Systems Conference(DIS \u201919). Association for Computing Machinery, New York, NY, USA, 1557\u20131569. https://doi.org/10.1145/3322276.3322332",
+      "doi": "10.1145/3322276.3322332"
+    },
+    {
+      "text": "Leigh Clark, Philip Doyle, Diego Garaialde, Emer Gilmartin, Stephan Schl\u00f6gl, Jens Edlund, Matthew Aylett, Jo\u00e3o Cabral, Cosmin Munteanu, Justin Edwards, and Benjamin R\u00a0Cowan. 2019. The State of Speech in HCI: Trends, Themes and Challenges. Interacting with Computers 31, 4 (Sept. 2019), 349\u2013371. https://doi.org/10.1093/iwc/iwz016 arXiv:https://academic.oup.com/iwc/article-pdf/31/4/349/33525046/iwz016.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Eric Corbett and Astrid Weber. 2016. What Can I Say?: Addressing User Experience Challenges of a Mobile Voice User Interface for Accessibility. In Proceedings of the 18th International Conference on Human-Computer Interaction with Mobile Devices and Services(MobileHCI \u201916). ACM, New York, NY, USA, 72\u201382. https://doi.org/10.1145/2935334.2935386",
+      "doi": "10.1145/2935334.2935386"
+    },
+    {
+      "text": "Benjamin\u00a0R Cowan, Nadia Pantidi, David Coyle, Kellie Morrissey, Peter Clarke, Sara Al-Shehri, David Earley, and Natasha Bandeira. 2017. \u201dWhat Can I Help You with?\u201d: Infrequent Users\u2019 Experiences of Intelligent Personal Assistants. In Proceedings of the 19th International Conference on Human-Computer Interaction with Mobile Devices and Services(MobileHCI \u201917). ACM, New York, NY, USA, 43:1\u201343:12. https://doi.org/10.1145/3098279.3098539",
+      "doi": "10.1145/3098279.3098539"
+    },
+    {
+      "text": "Justin Cranshaw, Emad Elwany, Todd Newman, Rafal Kocielnik, Bowen Yu, Sandeep Soni, Jaime Teevan, and Andr\u00e9s Monroy-Hern\u00e1ndez. 2017. Calendar.Help: Designing a Workflow-Based Scheduling Agent with Humans in the Loop. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(CHI \u201917). Association for Computing Machinery, New York, NY, USA, 2382\u20132393. https://doi.org/10.1145/3025453.3025780",
+      "doi": "10.1145/3025453.3025780"
+    },
+    {
+      "text": "Andreea Danielescu. 2020. Eschewing Gender Stereotypes in Voice Assistants to Promote Inclusion. In Proceedings of the 2nd Conference on Conversational User Interfaces(CUI \u201920). Association for Computing Machinery, New York, NY, USA, Article 46, 3\u00a0pages. https://doi.org/10.1145/3405755.3406151",
+      "doi": "10.1145/3405755.3406151"
+    },
+    {
+      "text": "Nicola Dell, Vidya Vaidyanathan, Indrani Medhi, Edward Cutrell, and William Thies. 2012. \u201dYours Is Better!\u201d: Participant Response Bias in HCI. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201912). Association for Computing Machinery, New York, NY, USA, 1321\u20131330. https://doi.org/10.1145/2207676.2208589",
+      "doi": "10.1145/2207676.2208589"
+    },
+    {
+      "text": "Philip\u00a0R. Doyle, Justin Edwards, Odile Dumbleton, Leigh Clark, and Benjamin\u00a0R. Cowan. 2019. Mapping Perceptions of Humanness in Intelligent Personal Assistant Interaction. In Proceedings of the 21st International Conference on Human-Computer Interaction with Mobile Devices and Services(MobileHCI \u201919). Association for Computing Machinery, New York, NY, USA, Article 5, 12\u00a0pages. https://doi.org/10.1145/3338286.3340116",
+      "doi": "10.1145/3338286.3340116"
+    },
+    {
+      "text": "Dustin Coates. 2020. 5 Voice Search Trends to Look out For.",
+      "doi": ""
+    },
+    {
+      "text": "C.\u00a0Ailie Fraser, Julia\u00a0M. Markel, N.\u00a0James Basa, Mira Dontcheva, and Scott Klemmer. 2019. ReMap: Multimodal Help-Seeking. In The Adjunct Publication of the 32nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201919). Association for Computing Machinery, New York, NY, USA, 96\u201398. https://doi.org/10.1145/3332167.3356884",
+      "doi": "10.1145/3332167.3356884"
+    },
+    {
+      "text": "Frank Gillett. 2020. Getting Consumers Beyond Simple Tasks On Smart Speakers Is Challenging. https://go.forrester.com/blogs/getting-consumers-beyond-simple-tasks-on-smart-speakers-is-challenging/",
+      "doi": ""
+    },
+    {
+      "text": "Global Web Index. 2018. Voice Search: A Deep-Dive into Consumer Uptake of the Voice Assistant Technology. Technical Report. GlobalWebIndex. https://www.globalwebindex.com/reports/voice-search-report",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2016. Google App Voice Search Insights. Technical Report. Google. https://www.thinkwithgoogle.com/consumer-insights/consumer-trends/google-app-voice-search/",
+      "doi": ""
+    },
+    {
+      "text": "Ido Guy. 2016. Searching by Talking: Analysis of Voice Queries on Mobile Web Search. In Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval(SIGIR \u201916). Association for Computing Machinery, New York, NY, USA, 35\u201344. https://doi.org/10.1145/2911451.2911525",
+      "doi": "10.1145/2911451.2911525"
+    },
+    {
+      "text": "Danula Hettiachchi, Zhanna Sarsenbayeva, Fraser Allison, Niels van Berkel, Tilman Dingler, Gabriele Marini, Vassilis Kostakos, and Jorge Goncalves. 2020. \u201dHi! I Am the Crowd Tasker\u201d Crowdsourcing through Digital Voice Assistants. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems(CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3313831.3376320",
+      "doi": "10.1145/3313831.3376320"
+    },
+    {
+      "text": "Danula Hettiachchi, Niels van Berkel, Tilman Dingler, Fraser Allison, Vassilis Kostakos, and Jorge Goncalves. 2019. Enabling Creative Crowd Work through Smart Speakers. In Workshop on Designing Crowd-Powered Creativity Support Systems. CHI \u201919 Workshop, 1\u20135. http://www.jorgegoncalves.com/docs/chiea19c.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Internet Live Stats. 2020. The Total Number of Websites. https://www.internetlivestats.com/total-number-of-websites/",
+      "doi": ""
+    },
+    {
+      "text": "Arnav Kapur, Shreyas Kapur, and Pattie Maes. 2018. AlterEgo: A Personalized Wearable Silent Speech Interface. In 23rd International Conference on Intelligent User Interfaces(IUI \u201918). Association for Computing Machinery, New York, NY, USA, 43\u201353. https://doi.org/10.1145/3172944.3172977",
+      "doi": "10.1145/3172944.3172977"
+    },
+    {
+      "text": "Yea-Seul Kim, Mira Dontcheva, Eytan Adar, and Jessica Hullman. 2019. Vocal Shortcuts for Creative Experts. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300562",
+      "doi": "10.1145/3290605.3300562"
+    },
+    {
+      "text": "Allison Koenecke, Andrew Nam, Emily Lake, Joe Nudell, Minnie Quartey, Zion Mengesha, Connor Toups, John\u00a0R. Rickford, Dan Jurafsky, and Sharad Goel. 2020. Racial Disparities in Automated Speech Recognition. Proceedings of the National Academy of Sciences 117, 14(2020), 7684\u20137689. https://doi.org/10.1073/pnas.1915768117",
+      "doi": ""
+    },
+    {
+      "text": "Gierad\u00a0P. Laput, Mira Dontcheva, Gregg Wilensky, Walter Chang, Aseem Agarwala, Jason Linder, and Eytan Adar. 2013. PixelTone: A Multimodal Interface for Image Editing. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201913). Association for Computing Machinery, New York, NY, USA, 2185\u20132194. https://doi.org/10.1145/2470654.2481301",
+      "doi": "10.1145/2470654.2481301"
+    },
+    {
+      "text": "Josephine Lau, Benjamin Zimmerman, and Florian Schaub. 2018. Alexa, Are You Listening?: Privacy Perceptions, Concerns and Privacy-Seeking Behaviors with Smart Speakers. Proc. ACM Hum.-Comput. Interact. 2, CSCW (Nov. 2018), 102:1\u2013102:31. https://doi.org/10.1145/3274371",
+      "doi": "10.1145/3274371"
+    },
+    {
+      "text": "Tessa Lau, Julian Cerruti, Guillermo Manzato, Mateo Bengualid, Jeffrey\u00a0P. Bigham, and Jeffrey Nichols. 2010. A Conversational Interface to Web Automation. In Proceedings of the 23nd Annual ACM Symposium on User Interface Software and Technology(UIST \u201910). Association for Computing Machinery, New York, NY, USA, 229\u2013238. https://doi.org/10.1145/1866029.1866067",
+      "doi": "10.1145/1866029.1866067"
+    },
+    {
+      "text": "Jaejun Lee, Raphael Tang, and Jimmy Lin. 2019. Universal Voice-Enabled User Interfaces Using JavaScript. In Proceedings of the 24th International Conference on Intelligent User Interfaces: Companion(IUI \u201919). Association for Computing Machinery, New York, NY, USA, 81\u201382. https://doi.org/10.1145/3308557.3308693",
+      "doi": "10.1145/3308557.3308693"
+    },
+    {
+      "text": "Gilly Leshed, Eben\u00a0M. Haber, Tara Matthews, and Tessa Lau. 2008. CoScripter: Automating & Sharing How-to Knowledge in the Enterprise. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201908). Association for Computing Machinery, New York, NY, USA, 1719\u20131728. https://doi.org/10.1145/1357054.1357323",
+      "doi": "10.1145/1357054.1357323"
+    },
+    {
+      "text": "Ewa Luger and Abigail Sellen. 2016. \u201dLike Having a Really Bad PA\u201d: The Gulf between User Expectation and Experience of Conversational Agents. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems(CHI \u201916). Association for Computing Machinery, New York, NY, USA, 5286\u20135297. https://doi.org/10.1145/2858036.2858288",
+      "doi": "10.1145/2858036.2858288"
+    },
+    {
+      "text": "Xiao Ma and Ariel Liu. 2020. Challenges in Supporting Exploratory Search through Voice Assistants. In Proceedings of the 2nd Conference on Conversational User Interfaces(CUI \u201920). Association for Computing Machinery, New York, NY, USA, Article 47, 3\u00a0pages. https://doi.org/10.1145/3405755.3406152",
+      "doi": "10.1145/3405755.3406152"
+    },
+    {
+      "text": "Rishabh Mehrotra, A\u00a0Hassan Awadallah, and Imed Zitouni. 2017. Hey Cortana! Exploring the Use Cases of a Desktop Based Digital Assistant. In SIGIR 1st International Workshop on Conversational Approaches to Information Retrieval (CAIR\u201917). SIGIR 1st International Workshop on Conversational Approaches to Information Retrieval (CAIR\u201917), 1\u20135. https://rishabhmehrotra.com/CAIR17-cortana.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Sarah Mennicken, Ruth Brillman, Jennifer Thom, and Henriette Cramer. 2018. Challenges and Methods in Design of Domain-Specific Voice Assistants. In 2018 AAAI Spring Symposium Series. 2018 AAAI Spring Symposium Series, 1\u20135. https://doi.org/10.21437/Interspeech.2017-1746",
+      "doi": ""
+    },
+    {
+      "text": "Roger\u00a0K. Moore. 2017. Is Spoken Language All-or-Nothing? Implications for Future Speech-Based Human-Machine Interaction. In Dialogues with Social Robots: Enablements, Analyses, and Evaluation, Kristiina Jokinen and Graham Wilcock (Eds.). Springer Singapore, Singapore, 281\u2013291. https://doi.org/10.1007/978-981-10-2585-3_22",
+      "doi": ""
+    },
+    {
+      "text": "C. Murad, C. Munteanu, B.\u00a0R. Cowan, and L. Clark. 2019. Revolution or Evolution? Speech Interaction and HCI Design Guidelines. IEEE Pervasive Computing 18, 2 (April 2019), 33\u201345. https://doi.org/10.1109/MPRV.2019.2906991",
+      "doi": "10.1109/MPRV.2019.2906991"
+    },
+    {
+      "text": "Chelsea Myers, Anushay Furqan, Jessica Nebolsky, Karina Caro, and Jichen Zhu. 2018. Patterns for How Users Overcome Obstacles in Voice User Interfaces. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems(CHI \u201918). ACM, New York, NY, USA, 6:1\u20136:7. https://doi.org/10.1145/3173574.3173580",
+      "doi": "10.1145/3173574.3173580"
+    },
+    {
+      "text": "Clifford Nass, Jonathan Steuer, and Ellen\u00a0R. Tauber. 1994. Computers Are Social Actors. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201994). ACM, New York, NY, USA, 72\u201378. https://doi.org/10.1145/191666.191703",
+      "doi": "10.1145/191666.191703"
+    },
+    {
+      "text": "Elnaz Nouri, Robert Sim, Adam Fourney, and Ryen\u00a0W. White. 2020. Proactive Suggestion Generation: Data and Methods for Stepwise Task Assistance. In Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval(SIGIR \u201920). Association for Computing Machinery, New York, NY, USA, 1585\u20131588. https://doi.org/10.1145/3397271.3401272",
+      "doi": "10.1145/3397271.3401272"
+    },
+    {
+      "text": "NPR and Edison Research. 2020. The Smart Audio Report (Winter 2019). Technical Report. NPR and Edison Research. https://www.nationalpublicmedia.com/insights/reports/smart-audio-report/",
+      "doi": ""
+    },
+    {
+      "text": "Emmi Parviainen and Marie Louise\u00a0Juul S\u00f8ndergaard. 2020. Experiential Qualities of Whispering with Voice Assistants. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems(CHI \u201920). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376187",
+      "doi": "10.1145/3313831.3376187"
+    },
+    {
+      "text": "Randy Pausch and James\u00a0H Leatherby. 1991. An Empirical Study: Adding Voice Input to a Graphical Editor. In Journal of the American Voice Input/Output Society. Citeseer.",
+      "doi": ""
+    },
+    {
+      "text": "Martin Porcheron, Joel\u00a0E. Fischer, Stuart Reeves, and Sarah Sharples. 2018. Voice Interfaces in Everyday Life. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems(CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3173574.3174214",
+      "doi": "10.1145/3173574.3174214"
+    },
+    {
+      "text": "Alisha Pradhan, Leah Findlater, and Amanda Lazar. 2019. \u201dPhantom Friend\u201d or \u201dJust a Box with Information\u201d: Personification and Ontological Categorization of Smart Speaker-Based Voice Assistants by Older Adults. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 214 (Nov. 2019), 21\u00a0pages. https://doi.org/10.1145/3359316",
+      "doi": "10.1145/3359316"
+    },
+    {
+      "text": "Alisha Pradhan, Amanda Lazar, and Leah Findlater. 2020. Use of Intelligent Voice Assistants by Older Adults with Low Technology Use. ACM Transactions on Computer-Human Interaction 27, 4, Article 31 (Sept. 2020), 27\u00a0pages. https://doi.org/10.1145/3373759",
+      "doi": "10.1145/3373759"
+    },
+    {
+      "text": "Alisha Pradhan, Kanika Mehta, and Leah Findlater. 2018. \u201dAccessibility Came by Accident\u201d: Use of Voice-Controlled Intelligent Personal Assistants by People with Disabilities. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems(CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3174033",
+      "doi": "10.1145/3173574.3174033"
+    },
+    {
+      "text": "A Purington, J\u00a0G Taft, S Sannon, N\u00a0N Bazarova, and S\u00a0H Taylor. 2017. \u201dAlexa Is My New BFF\u201d: Social Roles, User Satisfaction, and Personification of the Amazon Echo. Conference on Human Factors in Computing Systems - Proceedings Part F1276 (2017), 2853\u20132859. https://doi.org/10.1145/3027063.3053246",
+      "doi": ""
+    },
+    {
+      "text": "Sarah Perez. 2019. Google Assistant Actions up 2.5x in 2018 to Reach 4,253 in the US. https://techcrunch.com/2019/02/18/google-assistant-actions-up-2-5x-in-2018-to-reach-4253-in-the-u-s/",
+      "doi": ""
+    },
+    {
+      "text": "Ritam\u00a0Jyoti Sarmah, Yunpeng Ding, Di Wang, Cheuk Yin\u00a0Phipson Lee, Toby Jia-Jun Li, and Xiang\u00a0\u2019Anthony\u2019 Chen. 2020. Geno: A Developer Tool for Authoring Multimodal Interaction on Existing Web Applications. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology(UIST \u201920). Association for Computing Machinery, New York, NY, USA, 1169\u20131181. https://doi.org/10.1145/3379337.3415848",
+      "doi": "10.1145/3379337.3415848"
+    },
+    {
+      "text": "Johan Schalkwyk, Doug Beeferman, Fran\u00e7oise Beaufays, Bill Byrne, Ciprian Chelba, Mike Cohen, Maryam Kamvar, and Brian Strope. 2010. \u201cYour Word Is My Command\u201d: Google Search by Voice: A Case Study. In Advances in Speech Recognition. Springer, 61\u201390. https://link.springer.com/chapter/10.1007/978-1-4419-5951-5_4",
+      "doi": ""
+    },
+    {
+      "text": "S. Schl\u00f6gl, G. Chollet, M. Garschall, M. Tscheligi, and G. Legouverneur. 2013. Exploring Voice User Interfaces for Seniors. In Proceedings of the 6th International Conference on PErvasive Technologies Related to Assistive Environments(PETRA \u201913). Association for Computing Machinery, New York, NY, USA, Article 52, 2\u00a0pages. https://doi.org/10.1145/2504335.2504391",
+      "doi": "10.1145/2504335.2504391"
+    },
+    {
+      "text": "Alex Sciuto, Arnita Saini, Jodi Forlizzi, and Jason\u00a0I. Hong. 2018. \u201dHey Alexa, What\u2019s Up?\u201d: A Mixed-Methods Studies of In-Home Conversational Agent Usage. In Proceedings of the 2018 Designing Interactive Systems Conference(DIS \u201918). Association for Computing Machinery, New York, NY, USA, 857\u2013868. https://doi.org/10.1145/3196709.3196772",
+      "doi": "10.1145/3196709.3196772"
+    },
+    {
+      "text": "Rob Semmens, Nikolas Martelaro, Pushyami Kaveti, Simon Stent, and Wendy Ju. 2019. Is Now A Good Time? An Empirical Study of Vehicle-Driver Communication Timing. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300867",
+      "doi": "10.1145/3290605.3300867"
+    },
+    {
+      "text": "Ben Shneiderman. 2000. The Limits of Speech Recognition. Commun. ACM 43, 9 (Sept. 2000), 63\u201365. https://doi.org/10.1145/348941.348990",
+      "doi": "10.1145/348941.348990"
+    },
+    {
+      "text": "Marie Louise\u00a0Juul S\u00f8ndergaard and Lone\u00a0Koefoed Hansen. 2018. Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction. In Proceedings of the 2018 Designing Interactive Systems Conference(DIS \u201918). Association for Computing Machinery, New York, NY, USA, 869\u2013880. https://doi.org/10.1145/3196709.3196766",
+      "doi": "10.1145/3196709.3196766"
+    },
+    {
+      "text": "Aaron Springer and Henriette Cramer. 2018. \u201dPlay PRBLMS\u201d: Identifying and Correcting Less Accessible Content in Voice Interfaces. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems(CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173870",
+      "doi": "10.1145/3173574.3173870"
+    },
+    {
+      "text": "Selina\u00a0Jeanne Sutton, Paul Foulkes, David Kirk, and Shaun Lawson. 2019. Voice As a Design Material: Sociophonetic Inspired Design Strategies in Human-Computer Interaction. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems(CHI \u201919). ACM, New York, NY, USA, 603:1\u2013603:14. https://doi.org/10.1145/3290605.3300833",
+      "doi": "10.1145/3290605.3300833"
+    },
+    {
+      "text": "Raphael Tang, Jaejun Lee, Afsaneh Razi, Julia Cambre, Ian Bicking, Jofish Kaye, and Jimmy Lin. 2020. Howl: A Deployed, Open-Source Wake Word Detection System. In Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS). Association for Computational Linguistics, Online, 61\u201365. https://doi.org/10.18653/v1/2020.nlposs-1.9",
+      "doi": ""
+    },
+    {
+      "text": "Rachael Tatman and Conner Kasten. 2017. Effects of Talker Dialect, Gender & Race on Accuracy of Bing Speech and YouTube Automatic Captions. In Proc. Interspeech 2017. INTERSPEECH, 934\u2013938. https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1746.PDF",
+      "doi": ""
+    },
+    {
+      "text": "Janice\u00a0Y Tsai and Jofish Kaye. 2018. Hey Scout : Designing a Browser-Based Voice Assistant. (2018), 460\u2013462.",
+      "doi": ""
+    },
+    {
+      "text": "Voicebot.ai. 2019. Smart Speaker Consumer Adoption Report. Technical Report. Voicebot.ai. https://voicebot.ai/wp-content/uploads/2019/03/smart_speaker_consumer_adoption_report_2019.pdf",
+      "doi": ""
+    },
+    {
+      "text": "VoiceLabs. 2017. 2017 VoiceLabs Voice Report, Executive Summary. Technical Report. VoiceLabs. https://s3-us-west-1.amazonaws.com/voicelabs/report/vl-voice-report-exec-summary_final.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra Vtyurina. 2019. Towards Non-Visual Web Search. In Proceedings of the 2019 Conference on Human Information Interaction and Retrieval(CHIIR \u201919). Association for Computing Machinery, New York, NY, USA, 429\u2013432. https://doi.org/10.1145/3295750.3298976",
+      "doi": "10.1145/3295750.3298976"
+    },
+    {
+      "text": "Alexandra Vtyurina and Adam Fourney. 2018. Exploring the Role of Conversational Cues in Guided Task Support with Virtual Assistants. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems(CHI \u201918). Association for Computing Machinery, New York, NY, USA, 1\u20137. https://doi.org/10.1145/3173574.3173782",
+      "doi": "10.1145/3173574.3173782"
+    },
+    {
+      "text": "Alexandra Vtyurina, Adam Fourney, Meredith\u00a0Ringel Morris, Leah Findlater, and Ryen\u00a0W. White. 2019. Bridging Screen Readers and Voice Assistants for Enhanced Eyes-Free Web Search. In The World Wide Web Conference(WWW \u201919). Association for Computing Machinery, New York, NY, USA, 3590\u20133594. https://doi.org/10.1145/3308558.3314136",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra Vtyurina, Adam Fourney, Meredith\u00a0Ringel Morris, Leah Findlater, and Ryen\u00a0W. White. 2019. VERSE: Bridging Screen Readers and Voice Assistants for Enhanced Eyes-Free Web Search. In The 21st International ACM SIGACCESS Conference on Computers and Accessibility(ASSETS \u201919). Association for Computing Machinery, New York, NY, USA, 414\u2013426. https://doi.org/10.1145/3308561.3353773",
+      "doi": "10.1145/3308561.3353773"
+    },
+    {
+      "text": "Mark West, Rebecca Kraut, and Han Ei\u00a0Chew. 2019. I\u2019d Blush If I Could: Closing Gender Divides in Digital Skills through Education. Technical Report. UNESCO, EQUALS Skills Coalition. https://unesdoc.unesco.org/ark:/48223/pf0000367416.locale=en",
+      "doi": ""
+    },
+    {
+      "text": "Jordan Wirfs-Brock, Janice Tsai, Abraham Wallin, and Jofish Kaye. 2019. Listening: It\u2019s Not Just for Audio. https://blog.mozilla.org/ux/2019/12/listening-its-not-just-for-audio/",
+      "doi": ""
+    },
+    {
+      "text": "Jordan Wirfs-Brock, Janice Tsai, Abraham Wallin, and Jofish Kaye. 2019. People Who Listen to a Lot of Podcasts Really Are Different. https://blog.mozilla.org/ux/2019/12/people-who-listen-to-a-lot-of-podcasts-really-are-different/",
+      "doi": ""
+    },
+    {
+      "text": "Nicole Yankelovich, Gina-Anne Levow, and Matt Marx. 1995. Designing SpeechActs: Issues in Speech User Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201995). ACM Press/Addison-Wesley Publishing Co., USA, 369\u2013376. https://doi.org/10.1145/223904.223952",
+      "doi": "10.1145/223904.223952"
+    },
+    {
+      "text": "John Zimmerman. 2020. Case for a Voice-Internet: Voice Before Conversation. In Proceedings of the 2nd Conference on Conversational User Interfaces(CUI \u201920). Association for Computing Machinery, New York, NY, USA, Article 44, 3\u00a0pages. https://doi.org/10.1145/3405755.3406149",
+      "doi": "10.1145/3405755.3406149"
+    }
+  ]
+}

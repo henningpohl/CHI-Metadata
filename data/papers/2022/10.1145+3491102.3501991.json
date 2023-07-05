@@ -1,0 +1,766 @@
+{
+  "doi": "10.1145/3491102.3501991",
+  "title": "Reflection in Theory and Reflection in Practice: An Exploration of the Gaps in Reflection Support among Personal Informatics Apps",
+  "published": "2022-04-28",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-23",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Personal informatics (PI) systems have been developed to support reflection. While reflection is considered an indispensable activity in PI use, how and when reflection occurs is still under-studied. In this paper, we present an analysis of the interactive features of 123 commercial PI apps, revealing that reflective practices are unevenly supported. The lack of features that encourage user-driven reflection, scaffolding for setting goals and configuring data collection and presentation, and consideration of wider implications stand to limit meaning-making and frustrate nuanced insight generation based on lived experiences. Based on our findings, we discuss how reflection is currently misrepresented in personal informatics tools, identify and characterize the gaps between theoretical research on reflection and interface features in current apps, and offer suggestions about how reflection could be better supported.",
+  "authors": [
+    {
+      "name": "Janghee Cho",
+      "institution": "Department of Information Science, University of Colorado, Boulder, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700844",
+      "orcid": "missing"
+    },
+    {
+      "name": "Tian Xu",
+      "institution": "Department of Information Science, University of Colorado Boulder, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660240557",
+      "orcid": "0000-0003-1835-2760"
+    },
+    {
+      "name": "Abigail Zimmermann-Niefield",
+      "institution": "Department of Computer Science, University of Colorado Boulder, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659432395",
+      "orcid": "missing"
+    },
+    {
+      "name": "Stephen Voida",
+      "institution": "Department of Information Science, University of Colorado, United States",
+      "img": "/do/10.1145/contrib-81100147302/rel-imgonly/steve_-_interactions__cropped_close_.png",
+      "acmid": "81100147302",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Parastoo Abtahi, Victoria Ding, Anna\u00a0C. Yang, Tommy Bruzzese, Alyssa\u00a0B. Romanos, Elizabeth\u00a0L. Murnane, Sean Follmer, and James\u00a0A. Landay. 2020. Understanding Physical Practices and the Role of Technology in Manual Self-Tracking. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 4, 4, Article 115 (Dec. 2020), 24\u00a0pages. https://doi.org/10.1145/3432236",
+      "doi": "10.1145/3432236"
+    },
+    {
+      "text": "Amer Sports Digital Services Oy. 2021. Sports Tracker for All Sports. Apple App Store. https://apps.apple.com/us/app/sports-tracker-for-all-sports/id426684873",
+      "doi": ""
+    },
+    {
+      "text": "Apalon Apps. 2021. Productive - Habit Tracker. Apple App Store. https://apps.apple.com/us/app/productive-habit-tracker/id983826477",
+      "doi": ""
+    },
+    {
+      "text": "Appostafat GMBH. 2021. Fitonomy - Personal Trainer. Apple App Store. https://apps.apple.com/us/app/fitonomy-weight-loss-at-home/id1107242759",
+      "doi": ""
+    },
+    {
+      "text": "Amid Ayobi, Paul Marshall, and Anna\u00a0L. Cox. 2020. Trackly: A Customisable and Pictorial Self-Tracking App to Support Agency in Multiple Sclerosis Self-Care. Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3313831.3376809",
+      "doi": "10.1145/3313831.3376809"
+    },
+    {
+      "text": "Amid Ayobi, Tobias Sonne, Paul Marshall, and Anna\u00a0L Cox. 2018. Flexible and mindful self-tracking: design implications from paper bullet journals. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, New York, 1\u201314.",
+      "doi": "10.1145/3173574.3173602"
+    },
+    {
+      "text": "Azumio Inc.2021. Argus: Calorie Counter & Step. Apple App Store. https://apps.apple.com/us/app/argus-calorie-counter-step/id624329444",
+      "doi": ""
+    },
+    {
+      "text": "Azumio Inc.2021. Glucose Buddy Diabetes Tracker. Apple App Store. https://apps.apple.com/us/app/glucose-buddy-diabetes-tracker/id294754639",
+      "doi": ""
+    },
+    {
+      "text": "Jeffrey Bardzell and Shaowen Bardzell. 2013. What is \u201dCritical\u201d about Critical Design?Association for Computing Machinery, New York, NY, USA, 3297\u20133306. https://doi.org/10.1145/2470654.2466451",
+      "doi": "10.1145/2470654.2466451"
+    },
+    {
+      "text": "Basenji Apps. 2021. Breeze: mood tracker, diary. Apple App Store. https://apps.apple.com/us/app/breeze-mood-tracker-diary/id1450365119",
+      "doi": ""
+    },
+    {
+      "text": "Jared\u00a0S. Bauer, Sunny Consolvo, Benjamin Greenstein, Jonathan Schooler, Eric Wu, Nathaniel\u00a0F. Watson, and Julie Kientz. 2012. ShutEye: Encouraging Awareness of Healthy Sleep Recommendations with a Mobile, Peripheral Display. Association for Computing Machinery, New York, NY, USA, 1401\u20131410. https://doi.org/10.1145/2207676.2208600",
+      "doi": ""
+    },
+    {
+      "text": "Eric\u00a0PS Baumer. 2015. Reflective informatics: conceptual dimensions for designing technologies of reflection. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. ACM, New York, 585\u2013594.",
+      "doi": "10.1145/2702123.2702234"
+    },
+    {
+      "text": "Eric\u00a0P.S. Baumer, Sherri\u00a0Jean Katz, Jill\u00a0E. Freeman, Phil Adams, Amy\u00a0L. Gonzales, John Pollak, Daniela Retelny, Jeff Niederdeppe, Christine\u00a0M. Olson, and Geri\u00a0K. Gay. 2012. Prescriptive Persuasion and Open-Ended Social Awareness: Expanding the Design Space of Mobile Health. In Proceedings of the ACM 2012 Conference on Computer Supported Cooperative Work (Seattle, Washington, USA) (CSCW \u201912). Association for Computing Machinery, New York, NY, USA, 475\u2013484. https://doi.org/10.1145/2145204.2145279",
+      "doi": "10.1145/2145204.2145279"
+    },
+    {
+      "text": "Eric\u00a0PS Baumer, Vera Khovanskaya, Mark Matthews, Lindsay Reynolds, Victoria Schwanda\u00a0Sosik, and Geri Gay. 2014. Reviewing reflection: on the use of reflection in interactive system design. In Proceedings of the 2014 conference on Designing interactive systems. ACM, New York, 93\u2013102.",
+      "doi": "10.1145/2598510.2598598"
+    },
+    {
+      "text": "Victoria Bellotti and Keith Edwards. 2001. Intelligibility and accountability: human considerations in context-aware systems. Human\u2013Computer Interaction 16, 2-4 (2001), 193\u2013212.",
+      "doi": "10.1207/S15327051HCI16234_05"
+    },
+    {
+      "text": "Frank Bentley, Konrad Tollmar, Peter Stephenson, Laura Levy, Brian Jones, Scott Robertson, Ed Price, Richard Catrambone, and Jeff Wilson. 2013. Health Mashups: Presenting statistical patterns between wellbeing data and context in natural language to promote behavior change. ACM Transactions on Computer-Human Interaction (TOCHI) 20, 5(2013), 30.",
+      "doi": "10.1145/2503823"
+    },
+    {
+      "text": "Marit Bentvelzen, Jasmin Niess, Miko\u0142aj\u00a0P. Woundefinedniak, and Pawe\u0142\u00a0W. Woundefinedniak. 2021. The Development and Validation of the Technology-Supported Reflection Inventory. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, Article 366, 8\u00a0pages. https://doi.org/10.1145/3411764.3445673",
+      "doi": "10.1145/3411764.3445673"
+    },
+    {
+      "text": "David Boud, Rosemary Keogh, and David Walker. 2013. Reflection: Turning experience into learning. RoutledgeFalmer, London.",
+      "doi": ""
+    },
+    {
+      "text": "Dionne Bowie-DaBreo, Sandra\u00a0I S\u00fcnram-Lea, Corina Sas, and Heather Iles-Smith. 2020. Evaluation of treatment descriptions and alignment with clinical guidance of apps for depression on app stores: Systematic search and content analysis. JMIR Formative Resesearch 4, 11 (13 Nov 2020), e14988. https://doi.org/10.2196/14988",
+      "doi": ""
+    },
+    {
+      "text": "Hronn Brynjarsdottir, Maria H\u00e5kansson, James Pierce, Eric Baumer, Carl DiSalvo, and Phoebe Sengers. 2012. Sustainably unpersuaded: how persuasion narrows our vision of sustainability. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, 947\u2013956.",
+      "doi": "10.1145/2207676.2208539"
+    },
+    {
+      "text": "Charity Miles. 2021. Charity Miles. Apple App Store. https://apps.apple.com/us/app/charity-miles/id505253234",
+      "doi": ""
+    },
+    {
+      "text": "Bagele Chilisa. 2019. Indigenous research methodologies. SAGE Publications, Thousand Oaks, CA.",
+      "doi": ""
+    },
+    {
+      "text": "Janghee Cho, Laura Devendorf, and Stephen Voida. 2021. From The Art of Reflection to The Art of Noticing: A Shifting View of Self-Tracking Technologies\u2019 Role in Supporting Sustainable Food Practices. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, Article 298, 7\u00a0pages. https://doi.org/10.1145/3411763.3451838",
+      "doi": ""
+    },
+    {
+      "text": "Eun\u00a0Kyoung Choe. 2014. Designing self-monitoring technology to promote data capture and reflection. Ph.D. Dissertation. University of Washington, Seattle, WA, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Eun\u00a0Kyoung Choe, Saeed Abdullah, Mashfiqui Rabbi, Edison Thomaz, Daniel\u00a0A Epstein, Felicia Cordeiro, Matthew Kay, Gregory\u00a0D Abowd, Tanzeem Choudhury, James Fogarty, 2017. Semi-automated tracking: a balanced approach for self-monitoring applications. IEEE Pervasive Computing 16, 1 (2017), 74\u201384.",
+      "doi": "10.1109/mprv.2017.18"
+    },
+    {
+      "text": "Eun\u00a0Kyoung Choe, Bongshin Lee, and m.c. schraefel. 2015. Characterizing visualization insights from quantified selfers\u2019 personal data presentations. IEEE computer graphics and applications 35, 4 (2015), 28\u201337. https://doi.org/10.1109/MCG.2015.51",
+      "doi": ""
+    },
+    {
+      "text": "Eun\u00a0Kyoung Choe, Bongshin Lee, Haining Zhu, Nathalie\u00a0Henry Riche, and Dominikus Baur. 2017. Understanding self-reflection: how people reflect on personal data through visual data exploration. In Proceedings of the 11th EAI International Conference on Pervasive Computing Technologies for Healthcare. ACM, New York, 173\u2013182.",
+      "doi": "10.1145/3154862.3154881"
+    },
+    {
+      "text": "Eun\u00a0Kyoung Choe, Nicole\u00a0B Lee, Bongshin Lee, Wanda Pratt, and Julie\u00a0A Kientz. 2014. Understanding quantified-selfers\u2019 practices in collecting and exploring personal data. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, 1143\u20131152.",
+      "doi": "10.1145/2556288.2557372"
+    },
+    {
+      "text": "Chia-Fang Chung, Qiaosi Wang, Jessica Schroeder, Allison Cole, Jasmine Zia, James Fogarty, and Sean\u00a0A. Munson. 2019. Identifying and Planning for Individualized Change: Patient-Provider Collaboration Using Lightweight Food Diaries in Healthy Eating and Irritable Bowel Syndrome. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 3, 1, Article 7 (March 2019), 27\u00a0pages. https://doi.org/10.1145/3314394",
+      "doi": "10.1145/3314394"
+    },
+    {
+      "text": "Marc Clar\u00e0. 2015. What is reflection? Looking for clarity in an ambiguous notion. Journal of teacher education 66, 3 (2015), 261\u2013271.",
+      "doi": ""
+    },
+    {
+      "text": "Adrian\u00a0K. Clear, Kirstie O\u2019neill, Adrian Friday, and Mike Hazas. 2016. Bearing an Open \u201cPandora\u2019s Box\u201d: HCI for Reconciling Everyday Food and Sustainability. ACM Trans. Comput.-Hum. Interact. 23, 5, Article 28 (Oct. 2016), 25\u00a0pages. https://doi.org/10.1145/2970817",
+      "doi": "10.1145/2970817"
+    },
+    {
+      "text": "Rob Comber, Jettie Hoonhout, Aart van Halteren, Paula Moynihan, and Patrick Olivier. 2013. Food Practices as Situated Action: Exploring and Designing for Everyday Food Practices with Households. Association for Computing Machinery, New York, NY, USA, 2457\u20132466. https://doi.org/10.1145/2470654.2481340",
+      "doi": ""
+    },
+    {
+      "text": "Sunny Consolvo, Predrag Klasnja, David\u00a0W McDonald, and James\u00a0A Landay. 2009. Goal-setting considerations for persuasive technologies that encourage physical activity. In Proceedings of the 4th international Conference on Persuasive Technology. ACM, New York, 8.",
+      "doi": "10.1145/1541948.1541960"
+    },
+    {
+      "text": "Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James Fogarty. 2015. Rethinking the Mobile Food Journal: Exploring Opportunities for Lightweight Photo-Based Capture. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI \u201915). ACM, New York, 3207\u20133216. https://doi.org/10.1145/2702123.2702154",
+      "doi": "10.1145/2702123.2702154"
+    },
+    {
+      "text": "Dan Cosley, Elizabeth Churchill, Jodi Forlizzi, and Sean\u00a0A Munson. 2017. Introduction to this special issue on the lived experience of personal informatics. Human\u2013Computer Interaction 32, 5-6 (2017), 197\u2013207.",
+      "doi": ""
+    },
+    {
+      "text": "Mayara Costa\u00a0Figueiredo, Clara Caldeira, Tera\u00a0L. Reynolds, Sean Victory, Kai Zheng, and Yunan Chen. 2017. Self-Tracking for Fertility Care: Collaborative Support for a Highly Personalized Problem. Proc. ACM Hum.-Comput. Interact. 1, CSCW, Article 36 (Dec. 2017), 21\u00a0pages. https://doi.org/10.1145/3134671",
+      "doi": "10.1145/3134671"
+    },
+    {
+      "text": "Mayara Costa\u00a0Figueiredo, Thu Huynh, Anna Takei, Daniel\u00a0A Epstein, and Yunan Chen. 2021. Goals, life events, and transitions: examining fertility apps for holistic health tracking. JAMIA open 4, 1 (2021), ooab013.",
+      "doi": ""
+    },
+    {
+      "text": "Nediyana Daskalova, Eindra Kyi, Kevin Ouyang, Arthur Borem, Sally Chen, Sung\u00a0Hyun Park, Nicole Nugent, and Jeff Huang. 2021. Self-E: Smartphone-Supported Guidance for Customizable Self-Experimentation. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, Article 227, 13\u00a0pages. https://doi.org/10.1145/3411764.3445100",
+      "doi": "10.1145/3411764.3445100"
+    },
+    {
+      "text": "Nediyana Daskalova, Bongshin Lee, Jeff Huang, Chester Ni, and Jessica Lundin. 2018. Investigating the effectiveness of cohort-based sleep recommendations. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2, 3 (2018), 101.",
+      "doi": "10.1145/3264911"
+    },
+    {
+      "text": "Nediyana Daskalova, Jina Yoon, Yibing Wang, Cintia Araujo, Guillermo Beltran, Nicole Nugent, John McGeary, Joseph\u00a0Jay Williams, and Jeff Huang. 2020. SleepBandits: Guided Flexible Self-Experiments for Sleep. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3313831.3376584",
+      "doi": ""
+    },
+    {
+      "text": "Anjali Devakumar, Jay Modh, Bahador Saket, Eric P.\u00a0S. Baumer, and Munmun De\u00a0Choudhury. 2021. A Review on Strategies for Data Collection, Reflection, and Communication in Eating Disorder Apps. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, Article 547, 19\u00a0pages. https://doi.org/10.1145/3411764.3445670",
+      "doi": "10.1145/3411764.3445670"
+    },
+    {
+      "text": "John Dewey. 1910. How we think. D. C. Health, Boston, MA. https://doi.org/10.1037/10903-000",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0Victoria Eikey, Clara\u00a0Marques Caldeira, Mayara\u00a0Costa Figueiredo, Yunan Chen, Jessica\u00a0L Borelli, Melissa Mazmanian, and Kai Zheng. 2021. Beyond self-reflection: Introducing the concept of rumination in personal informatics. Personal and Ubiquitous Computing 25 (June 2021), 601\u2013616. https://doi.org/10.1007/s00779-021-01573-w",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0V Eikey and Madhu\u00a0C Reddy. 2017. \u201d It\u2019s Definitely Been a Journey\u201d A Qualitative Study on How Women with Eating Disorders Use Weight Loss Apps. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, New York, 642\u2013654.",
+      "doi": "10.1145/3025453.3025591"
+    },
+    {
+      "text": "Chris Elsden, Abigail\u00a0C Durrant, David Chatting, and David\u00a0S Kirk. 2017. Designing documentary informatics. In Proceedings of the 2017 Conference on Designing Interactive Systems. ACM, New York, 649\u2013661.",
+      "doi": "10.1145/3064663.3064714"
+    },
+    {
+      "text": "Chris Elsden, Abigail\u00a0C. Durrant, and David\u00a0S. Kirk. 2016. It\u2019s Just My History Isn\u2019t It? Understanding Smart Journaling Practices. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 2819\u20132831. https://doi.org/10.1145/2858036.2858103",
+      "doi": "10.1145/2858036.2858103"
+    },
+    {
+      "text": "Chris Elsden, David\u00a0S Kirk, and Abigail\u00a0C Durrant. 2016. A quantified past: Toward design for remembering with personal informatics. Human\u2013Computer Interaction 31, 6 (2016), 518\u2013557.",
+      "doi": ""
+    },
+    {
+      "text": "Chris Elsden, Mark Selby, Abigail Durrant, and David Kirk. 2016. Fitter, happier, more productive: what to ask of a data-driven life. interactions 23, 5 (2016), 45\u201345.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0A. Epstein, Clara Caldeira, Mayara\u00a0Costa Figueiredo, Xi Lu, Lucas\u00a0M. Silva, Lucretia Williams, Jong\u00a0Ho Lee, Qingyang Li, Simran Ahuja, Qiuer Chen, Payam Dowlatyari, Craig Hilby, Sazeda Sultana, Elizabeth\u00a0V. Eikey, and Yunan Chen. 2020. Mapping and Taking Stock of the Personal Informatics Literature. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 4, 4, Article 126 (Dec. 2020), 38\u00a0pages. https://doi.org/10.1145/3432231",
+      "doi": "10.1145/3432231"
+    },
+    {
+      "text": "Daniel\u00a0A Epstein, Monica Caraway, Chuck Johnston, An Ping, James Fogarty, and Sean\u00a0A Munson. 2016. Beyond abandonment to next steps: understanding and designing for life after personal informatics tool use. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, New York, 1109\u20131113.",
+      "doi": "10.1145/2858036.2858045"
+    },
+    {
+      "text": "Daniel\u00a0A. Epstein, Jennifer\u00a0H. Kang, Laura\u00a0R. Pina, James Fogarty, and Sean\u00a0A. Munson. 2016. Reconsidering the Device in the Drawer: Lapses as a Design Opportunity in Personal Informatics. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing (Heidelberg, Germany) (UbiComp \u201916). ACM, New York, 829\u2013840. https://doi.org/10.1145/2971648.2971656",
+      "doi": "10.1145/2971648.2971656"
+    },
+    {
+      "text": "Daniel\u00a0A. Epstein, Nicole\u00a0B. Lee, Jennifer\u00a0H. Kang, Elena Agapie, Jessica Schroeder, Laura\u00a0R. Pina, James Fogarty, Julie\u00a0A. Kientz, and Sean Munson. 2017. Examining Menstrual Tracking to Inform the Design of Personal Informatics Tools. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (Denver, Colorado, USA) (CHI \u201917). ACM, New York, 6876\u20136888. https://doi.org/10.1145/3025453.3025635",
+      "doi": "10.1145/3025453.3025635"
+    },
+    {
+      "text": "Daniel\u00a0A Epstein, An Ping, James Fogarty, and Sean\u00a0A Munson. 2015. A lived informatics model of personal informatics. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing. ACM, New York, 731\u2013742.",
+      "doi": "10.1145/2750858.2804250"
+    },
+    {
+      "text": "FatSecret. 2021. Calorie Counter by FatSecret. Apple App Store. https://apps.apple.com/us/app/calorie-counter-by-fatsecret/id347184248",
+      "doi": ""
+    },
+    {
+      "text": "Clayton Feustel, Shyamak Aggarwal, Bongshin Lee, and Lauren Wilcox. 2018. People Like Me: Designing for Reflection on Aggregate Cohort Data in Personal Informatics Systems. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2, 3 (2018), 107.",
+      "doi": "10.1145/3264917"
+    },
+    {
+      "text": "FITNESS22 LTD. 2021. Couch to 5K Runner. Apple App Store. https://apps.apple.com/gb/app/couch-to-5k-runner/id448357306",
+      "doi": ""
+    },
+    {
+      "text": "FitNow. 2021. Lose It! \u2013- Calorie Counter. Apple App Store. https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629",
+      "doi": ""
+    },
+    {
+      "text": "Mary FitzGerald. 1994. Theories of reflection for learning. In Reflective Practice in Nursing: The Growth of the Professional Practitioner, Anthony Palmer, Sarah Burns, and Chris Bulman (Eds.). Blackwell Scientific Publications, Oxford, 63\u201384.",
+      "doi": ""
+    },
+    {
+      "text": "Rowanne Fleck and Geraldine Fitzpatrick. 2010. Reflecting on reflection: framing a design landscape. In Proceedings of the 22nd Conference of the Computer-Human Interaction Special Interest Group of Australia on Computer-Human Interaction. ACM, New York, 216\u2013223.",
+      "doi": "10.1145/1952222.1952269"
+    },
+    {
+      "text": "FLO HEALTH, INC.2021. Flo Period & Ovulation Tracker. Apple App Store. https://apps.apple.com/us/app/flo-period-ovulation-tracker/id1038369065",
+      "doi": ""
+    },
+    {
+      "text": "Forward Human, Inc.2021. Jour: Daily Self-Care Journal. Apple App Store. https://apps.apple.com/us/app/jour-daily-self-care-journal/id1439590239",
+      "doi": ""
+    },
+    {
+      "text": "Elliot G.\u00a0Mitchell, Elizabeth M.\u00a0Heitkemper, Marissa Burgermaster, Matthew E.\u00a0Levine, Yishen Miao, Maria L.\u00a0Hwang, Pooja M.\u00a0Desai, Andrea Cassells, Jonathan N.\u00a0Tobin, Esteban G.\u00a0Tabak, David J.\u00a0Albers, Arlene M.\u00a0Smaldone, and Lena Mamykina. 2021. From Reflection to Action: Combining Machine Learning with Expert Knowledge for Nutrition Goal Recommendations. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, Article 206, 17\u00a0pages. https://doi.org/10.1145/3411764.3445555",
+      "doi": "10.1145/3411764.3445555"
+    },
+    {
+      "text": "Eva Ganglbauer, Geraldine Fitzpatrick, and Florian G\u00fcldenpfennig. 2015. Why and what did we throw out? Probing on reflection through the food waste diary. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. ACM, NEw York, 1105\u20131114.",
+      "doi": ""
+    },
+    {
+      "text": "Maliheh Ghajargar. 2018. Designing Tools for Reflection. Ph.D. Dissertation. Politecnico di Torino. https://doi.org/10.6092/polito/porto/2702550",
+      "doi": ""
+    },
+    {
+      "text": "Glow. 2021. Nurture: Pregnancy + Baby App. Apple App Store. https://apps.apple.com/us/app/nurture-pregnancy-baby-app/id882398397#?platform=iphone",
+      "doi": ""
+    },
+    {
+      "text": "Glow. 2021. Period Tracker - Eve. Apple App Store. https://apps.apple.com/us/app/period-tracker-eve/id1002275138#?platform=iphone",
+      "doi": ""
+    },
+    {
+      "text": "Mitchell Gordon, Tim Althoff, and Jure Leskovec. 2019. Goal-Setting And Achievement In Activity Tracking Apps: A Case Study Of MyFitnessPal. In The World Wide Web Conference (San Francisco, CA, USA) (WWW \u201919). Association for Computing Machinery, New York, NY, USA, 571\u2013582. https://doi.org/10.1145/3308558.3313432",
+      "doi": "10.1145/3308558.3313432"
+    },
+    {
+      "text": "R\u00faben Gouveia, Evangelos Karapanos, and Marc Hassenzahl. 2015. How do we engage with activity trackers? A longitudinal study of Habito. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing. ACM, New York, 1305\u20131316.",
+      "doi": "10.1145/2750858.2804290"
+    },
+    {
+      "text": "Lisa Graham, Anthony Tang, and Carman Neustaedter. 2016. Help Me Help You: Shared Reflection for Personal Data. In Proceedings of the 19th International Conference on Supporting Group Work (Sanibel Island, Florida, USA) (GROUP \u201916). Association for Computing Machinery, New York, NY, USA, 99\u2013109. https://doi.org/10.1145/2957276.2957293",
+      "doi": "10.1145/2957276.2957293"
+    },
+    {
+      "text": "Lars Grammel, Melanie Tory, and Margaret-Anne Storey. 2010. How information visualization novices construct visualizations. IEEE transactions on visualization and computer graphics 16, 6(2010), 943\u2013952.",
+      "doi": "10.1109/TVCG.2010.164"
+    },
+    {
+      "text": "Andrea Grimes and Richard Harper. 2008. Celebratory Technology: New Directions for Food Research in HCI. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Florence, Italy) (CHI \u201908). Association for Computing Machinery, New York, NY, USA, 467\u2013476. https://doi.org/10.1145/1357054.1357130",
+      "doi": "10.1145/1357054.1357130"
+    },
+    {
+      "text": "Shad Gross, Jeffrey Bardzell, Shaowen Bardzell, and Michael Stallings. 2017. Persuasive anxiety: designing and deploying material and formal explorations of personal tracking devices. Human\u2013Computer Interaction 32, 5-6 (2017), 297\u2013334.",
+      "doi": ""
+    },
+    {
+      "text": "Rebecca Gulotta, Jodi Forlizzi, Rayoung Yang, and Mark\u00a0Wah Newman. 2016. Fostering engagement with personal informatics systems. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems. ACM, New York, 286\u2013300.",
+      "doi": "10.1145/2901790.2901803"
+    },
+    {
+      "text": "J\u00fcrgen Habermas. 1987. Knowledge and human interests. Polity Press, Cambridge, UK.",
+      "doi": ""
+    },
+    {
+      "text": "Lars Halln\u00e4s and Johan Redstr\u00f6m. 2001. Slow technology\u2013designing for reflection. Personal and ubiquitous computing 5, 3 (2001), 201\u2013212.",
+      "doi": "10.1007/PL00000019"
+    },
+    {
+      "text": "Steve Harrison, Phoebe Sengers, and Deborah Tatar. 2011. Making epistemological trouble: Third-paradigm HCI as successor science. Interacting with Computers 23, 5 (2011), 385\u2013392.",
+      "doi": "10.1016/j.intcom.2011.03.005"
+    },
+    {
+      "text": "Giyoo Hatano and Kayoko Inagaki. 1984. Two courses of expertise. RESEARCH AND CLINICAL CENTER FOR CHILD DEVELOPMENT Annual Report 6 (1984), 27\u201336.",
+      "doi": ""
+    },
+    {
+      "text": "Neville Hatton and David Smith. 1995. Reflection in teacher education: Towards definition and implementation. Teaching and teacher education 11, 1 (1995), 33\u201349.",
+      "doi": ""
+    },
+    {
+      "text": "Dize Hilviu and Amon Rapp. 2015. Narrating the quantified self. In Adjunct Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2015 ACM International Symposium on Wearable Computers. ACM, New York, 1051\u20131056.",
+      "doi": "10.1145/2800835.2800959"
+    },
+    {
+      "text": "Huckleberry Labs Inc.2021. Huckleberry: Baby & Child. Apple App Store. https://apps.apple.com/us/app/huckleberry-baby-child/id1169136078",
+      "doi": ""
+    },
+    {
+      "text": "Ravi Karkar, Jessica Schroeder, Daniel\u00a0A. Epstein, Laura\u00a0R. Pina, Jeffrey Scofield, James Fogarty, Julie\u00a0A. Kientz, Sean\u00a0A. Munson, Roger Vilardaga, and Jasmine Zia. 2017. TummyTrials: A Feasibility Study of Using Self-Experimentation to Detect Individualized Food Triggers. Association for Computing Machinery, New York, NY, USA, 6850\u20136863. https://doi.org/10.1145/3025453.3025480",
+      "doi": "10.1145/3025453.3025480"
+    },
+    {
+      "text": "Maria Karyda, Elisa\u00a0D Mekler, and Andr\u00e9s Lucero. 2021. Data Agents: Promoting Reflection through Meaningful Representations of Personal Data in Everyday Life. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, Article 367, 11\u00a0pages. https://doi.org/10.1145/3411764.3445112",
+      "doi": "10.1145/3411764.3445112"
+    },
+    {
+      "text": "Stephen Kemmis. 1985. Action research and the politics of reflection. In Reflection: Turning experience into learning, David Boud, Rosemary Keogh, and David Walker (Eds.). RoutledgeFarmer, London, 139\u2013163.",
+      "doi": ""
+    },
+    {
+      "text": "Elisabeth\u00a0T Kersten-van Dijk, Joyce\u00a0HDM Westerink, Femke Beute, and Wijnand\u00a0A IJsselsteijn. 2017. Personal informatics, self-insight, and behavior change: A critical review of current literature. Human\u2013Computer Interaction 32, 5-6 (2017), 268\u2013296.",
+      "doi": "10.1080/07370024.2016.1276456"
+    },
+    {
+      "text": "Rohit\u00a0Ashok Khot, Larissa Hjorth, and Florian\u00a0\u2019Floyd\u2019 Mueller. 2014. Understanding Physical Activity through 3D Printed Material Artifacts. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 3835\u20133844. https://doi.org/10.1145/2556288.2557144",
+      "doi": "10.1145/2556288.2557144"
+    },
+    {
+      "text": "Vera Khovanskaya, Eric\u00a0PS Baumer, Dan Cosley, Stephen Voida, and Geri Gay. 2013. Everybody knows what you\u2019re doing: a critical design approach to personal informatics. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, 3403\u20133412.",
+      "doi": "10.1145/2470654.2466467"
+    },
+    {
+      "text": "Nam\u00a0Wook Kim, Hyejin Im, Nathalie Henry\u00a0Riche, Alicia Wang, Krzysztof Gajos, and Hanspeter Pfister. 2019. DataSelfie: Empowering People to Design Personalized Visuals to Represent Their Data. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, New York, 79.",
+      "doi": "10.1145/3290605.3300309"
+    },
+    {
+      "text": "Young-Ho Kim, Jae\u00a0Ho Jeon, Bongshin Lee, Eun\u00a0Kyoung Choe, and Jinwook Seo. 2017. OmniTrack: A Flexible Self-Tracking Approach Leveraging Semi-Automated Tracking. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 3 (2017), 67.",
+      "doi": "10.1145/3130930"
+    },
+    {
+      "text": "Kindara, Inc.2021. Kindara: Fertility Tracker. Apple App Store. https://apps.apple.com/us/app/kindara-fertility-tracker/id522674372#?platform=iphone",
+      "doi": ""
+    },
+    {
+      "text": "Rafal Kocielnik, Daniel Avrahami, Jennifer Marlow, Di Lu, and Gary Hsieh. 2018. Designing for workplace reflection: a chat and voice-based conversational agent. In Proceedings of the 2018 Conference on Designing Interactive Systems. ACM, New York, 881\u2013894.",
+      "doi": "10.1145/3196709.3196784"
+    },
+    {
+      "text": "Rafal Kocielnik, Gary Hsieh, and Daniel Avrahami. 2018. Helping Users Reflect on Their Own Health-Related Behaviors. In Studies in Conversational UX Design, Robert\u00a0J. Moore, Margaret\u00a0H. Szymanski, Raphael Arar, and Guang-Jie Ren (Eds.). Springer International, Cham, Switzerland, 85\u2013115.",
+      "doi": ""
+    },
+    {
+      "text": "Rafal Kocielnik, Lillian Xiao, Daniel Avrahami, and Gary Hsieh. 2018. Reflection Companion: A Conversational System for Engaging Users in Reflection on Physical Activity. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2, 2 (2018), 70.",
+      "doi": "10.1145/3214273"
+    },
+    {
+      "text": "Lenneke Kuijer and Elisa Giaccardi. 2018. Co-Performance: Conceptualizing the Role of Artificial Agency in the Design of Everyday Life. Association for Computing Machinery, New York, NY, USA, 1\u201313. https://doi.org/10.1145/3173574.3173699",
+      "doi": "10.1145/3173574.3173699"
+    },
+    {
+      "text": "Amanda Lazar, Christian Koehler, Joshua Tanenbaum, and David\u00a0H Nguyen. 2015. Why we use and abandon smart devices. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing. ACM, New York, 635\u2013646.",
+      "doi": "10.1145/2750858.2804288"
+    },
+    {
+      "text": "Min\u00a0Kyung Lee, Junsung Kim, Jodi Forlizzi, and Sara Kiesler. 2015. Personalization revisited: a reflective approach helps people better personalize health services and motivates them to increase physical activity. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing. ACM, New York, 743\u2013754.",
+      "doi": "10.1145/2750858.2807552"
+    },
+    {
+      "text": "Ian Li, Anind Dey, and Jodi Forlizzi. 2010. A stage-based model of personal informatics systems. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, 557\u2013566.",
+      "doi": "10.1145/1753326.1753409"
+    },
+    {
+      "text": "Ian Li, Anind\u00a0K Dey, and Jodi Forlizzi. 2012. Using context to reveal factors that affect physical activity. ACM Transactions on Computer-Human Interaction (TOCHI) 19, 1(2012), 7.",
+      "doi": "10.1145/2147783.2147790"
+    },
+    {
+      "text": "Zilu Liang, Bernd Ploderer, Wanyu Liu, Yukiko Nagata, James Bailey, Lars Kulik, and Yuxuan Li. 2016. SleepExplorer: a visualization tool to make sense of correlations between personal sleep data and contextual factors. Personal and Ubiquitous Computing 20, 6 (2016), 985\u20131000.",
+      "doi": "10.1007/s00779-016-0960-6"
+    },
+    {
+      "text": "Lifesum AB. 2021. Lifesum: Healthy Eating. Apple App Store. https://apps.apple.com/us/app/lifesum-diet-macro-tracker/id286906691",
+      "doi": ""
+    },
+    {
+      "text": "Catherine\u00a0Y Lim, Andrew\u00a0BL Berry, Andrea\u00a0L Hartzler, Tad Hirsch, David\u00a0S Carrell, Zo\u00eb\u00a0A Bermet, and James\u00a0D Ralston. 2019. Facilitating Self-reflection about Values and Self-care among Individuals with Chronic Conditions. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, New York, 655.",
+      "doi": "10.1145/3290605.3300885"
+    },
+    {
+      "text": "Xiaodong Lin, Cindy Hmelo, Charles\u00a0K Kinzer, and Teresa\u00a0J Secules. 1999. Designing technology to support reflection. Educational Technology Research and Development 47, 3(1999), 43\u201362.",
+      "doi": ""
+    },
+    {
+      "text": "Silvia Lindtner, Shaowen Bardzell, and Jeffrey Bardzell. 2018. Design and Intervention in the Age of No Alternative. Proceedings of the ACM on Human-Computer Interaction 2, CSCW(2018), 109.",
+      "doi": "10.1145/3274378"
+    },
+    {
+      "text": "Szu-Yu\u00a0Cyn Liu, Jen Liu, Kristin Dew, Patrycja Zdziarska, Maya Livio, and Shaowen Bardzell. 2019. Exploring Noticing as Method in Design Research. In Companion Publication of the 2019 on Designing Interactive Systems. ACM, New York, 377\u2013380.",
+      "doi": ""
+    },
+    {
+      "text": "Edwin\u00a0A Locke and Gary\u00a0P Latham. 2002. Building a practically useful theory of goal setting and task motivation: A 35-year odyssey.American psychologist 57, 9 (2002), 705.",
+      "doi": ""
+    },
+    {
+      "text": "Edwin\u00a0A Locke and Gary\u00a0P Latham. 2006. New directions in goal-setting theory. Current directions in psychological science 15, 5 (2006), 265\u2013268.",
+      "doi": ""
+    },
+    {
+      "text": "Yuhan Luo, Bongshin Lee, and Eun\u00a0Kyoung Choe. 2020. TandemTrack: Shaping Consistent Exercise Experience by Complementing a Mobile App with a Smart Speaker. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). ACM, New York, 1\u201313. https://doi.org/10.1145/3313831.3376616",
+      "doi": "10.1145/3313831.3376616"
+    },
+    {
+      "text": "Yuhan Luo, Peiyi Liu, and Eun\u00a0Kyoung Choe. 2019. Co-Designing Food Trackers with Dietitians: Identifying Design Opportunities for Food Tracker Customization. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM Press, New York, 592.",
+      "doi": "10.1145/3290605.3300822"
+    },
+    {
+      "text": "Deborah Lupton. 2014. Apps as artefacts: Towards a critical perspective on mobile health and medical apps. Societies 4, 4 (2014), 606\u2013622.",
+      "doi": ""
+    },
+    {
+      "text": "Deborah Lupton. 2014. Self-tracking modes: Reflexive self-monitoring and data practices. SSRN., 19\u00a0pages. https://doi.org/10.2139/ssrn.2483549",
+      "doi": ""
+    },
+    {
+      "text": "Deborah Lupton. 2019. The thing-power of the human-app health assemblage: thinking with vital materialism. Social Theory & Health 17, 2 (2019), 125\u2013139.",
+      "doi": ""
+    },
+    {
+      "text": "Gabriela Marcu, Anind\u00a0K. Dey, and Sara Kiesler. 2014. Designing for Collaborative Reflection. In Proceedings of the 8th International Conference on Pervasive Computing Technologies for Healthcare (Oldenburg, Germany) (PervasiveHealth \u201914). ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering), Brussels, BEL, 9\u201316. https://doi.org/10.4108/icst.pervasivehealth.2014.254987",
+      "doi": "10.4108/icst.pervasivehealth.2014.254987"
+    },
+    {
+      "text": "Nora McDonald, Sarita Schoenebeck, and Andrea Forte. 2019. Reliability and Inter-Rater Reliability in Qualitative Research: Norms and Guidelines for CSCW and HCI Practice. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 72 (nov 2019), 23\u00a0pages. https://doi.org/10.1145/3359174",
+      "doi": "10.1145/3359174"
+    },
+    {
+      "text": "Jack Mezirow. 1981. A critical theory of adult learning and education. Adult education 32, 1 (1981), 3\u201324.",
+      "doi": ""
+    },
+    {
+      "text": "Jack Mezirow. 1991. Transformative dimensions of adult learning. Jossey-Bass, San Francisco.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0B Miles, A\u00a0Michael Huberman, Michael\u00a0A Huberman, and Michael Huberman. 1994. Qualitative data analysis: An expanded sourcebook. SAGE Publications, Thousand Oaks, CA.",
+      "doi": ""
+    },
+    {
+      "text": "Mint.com. 2021. Mint: Budget & Expense Tracker. Apple App Store. https://apps.apple.com/us/app/mint-personal-finance-money/id300238550",
+      "doi": ""
+    },
+    {
+      "text": "Ine Mols, Elise van\u00a0den Hoven, and Berry Eggen. 2016. Informing Design for Reflection: An Overview of Current Everyday Practices. In Proceedings of the 9th Nordic Conference on Human-Computer Interaction (Gothenburg, Sweden) (NordiCHI \u201916). Association for Computing Machinery, New York, NY, USA, Article 21, 10\u00a0pages. https://doi.org/10.1145/2971485.2971494",
+      "doi": "10.1145/2971485.2971494"
+    },
+    {
+      "text": "Ine Mols, Elise Van Den\u00a0Hoven, and Berry Eggen. 2016. Technologies for everyday life reflection: Illustrating a design space. In Proceedings of the Tenth International Conference on Tangible, Embedded, and Embodied Interaction. ACM, New York, 53\u201361.",
+      "doi": "10.1145/2839462.2839466"
+    },
+    {
+      "text": "Sean\u00a0A Munson. 2018. Rethinking assumptions in the design of health and wellness tracking tools.interactions 25, 1 (2018), 62\u201365.",
+      "doi": ""
+    },
+    {
+      "text": "Sean\u00a0A Munson and Sunny Consolvo. 2012. Exploring goal-setting, rewards, self-monitoring, and sharing to motivate physical activity. In 2012 6th International Conference on Pervasive Computing Technologies for Healthcare (PervasiveHealth) and Workshops. ICST, Gent, Belgium, 25\u201332. https://doi.org/10.4108/icst.pervasivehealth.2012.248691",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0L. Murnane, Xin Jiang, Anna Kong, Michelle Park, Weili Shi, Connor Soohoo, Luke Vink, Iris Xia, Xin Yu, John Yang-Sammataro, Grace Young, Jenny Zhi, Paula Moya, and James\u00a0A. Landay. 2020. Designing Ambient Narrative-Based Interfaces to Reflect and Motivate Physical Activity. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI \u201920). ACM, New York, 1\u201314. https://doi.org/10.1145/3313831.3376478",
+      "doi": "10.1145/3313831.3376478"
+    },
+    {
+      "text": "Elizabeth\u00a0L Murnane, Tara\u00a0G Walker, Beck Tench, Stephen Voida, and Jaime Snyder. 2018. Personal informatics in interpersonal contexts: towards the design of technology that supports the social ecologies of long-term mental health management. Proceedings of the ACM on Human-Computer Interaction 2, CSCW(2018), 127.",
+      "doi": "10.1145/3274396"
+    },
+    {
+      "text": "MyFitnessPal, Inc.2021. MyFitnessPal. Apple App Store. https://apps.apple.com/us/app/myfitnesspal/id341232718",
+      "doi": ""
+    },
+    {
+      "text": "MyNetDiary, Inc.2021. Calorie Counter - MyNetDiary. Apple App Store. https://apps.apple.com/us/app/calorie-counter-mynetdiary/id287529757",
+      "doi": ""
+    },
+    {
+      "text": "Jasmin Niess and Pawe\u0142\u00a0W. Woundefinedniak. 2018. Supporting Meaningful Personal Fitness: The Tracker Goal Evolution Model. ACM, New York, 1\u201312. https://doi.org/10.1145/3173574.3173745",
+      "doi": ""
+    },
+    {
+      "text": "Nighp Software LLC. 2021. Baby Tracker - Newborn Log. Apple App Store. https://apps.apple.com/us/app/baby-tracker-newborn-log/id779656557#?platform=iphone",
+      "doi": ""
+    },
+    {
+      "text": "Helen Noble and Joanna Smith. 2015. Issues of validity and reliability in qualitative research. Evidence-based nursing 18, 2 (2015), 34\u201335.",
+      "doi": ""
+    },
+    {
+      "text": "Noom, Inc.2021. Noom. Apple App Store. https://apps.apple.com/us/app/noom/id634598719",
+      "doi": ""
+    },
+    {
+      "text": "Don Norman. 2014. Things that make us smart: Defending human attributes in the age of the machine. Diversion Books, New York.",
+      "doi": "10.5555/200550"
+    },
+    {
+      "text": "Dietmar Offenhuber. 2019. Data by proxy\u2014Material traces as autographic visualizations. IEEE transactions on visualization and computer graphics 26, 1(2019), 98\u2013108.",
+      "doi": ""
+    },
+    {
+      "text": "Ovulation Calculator Pty Ltd. 2017. Ovulation Calculator Fertile Tracker & Calendar OC. Apple App Store. https://apps.apple.com/us/app/ovulation-calculator-fertile-tracker-calendar-oc/id1010506484",
+      "doi": ""
+    },
+    {
+      "text": "Ovuline, Inc.2021. Ovia Fertility & Cycle Tracker. Apple App Store. https://apps.apple.com/us/app/ovia-fertility-cycle-tracker/id570244389",
+      "doi": ""
+    },
+    {
+      "text": "Ovuline, Inc.2021. Ovia Parenting & Baby Tracker. Apple App Store. https://apps.apple.com/us/app/ovia-parenting-baby-tracker/id1106614359",
+      "doi": ""
+    },
+    {
+      "text": "Pacer, Inc.2021. Pacer Pedometer & Step Tracker. Apple App Store. https://apps.apple.com/us/app/pacer-pedometer-step-tracker/id600446812",
+      "doi": ""
+    },
+    {
+      "text": "Andrea\u00a0Grimes Parker. 2014. Reflection-through-Performance: Personal Implications of Documenting Health Behaviors for the Collective. Personal Ubiquitous Comput. 18, 7 (Oct. 2014), 1737\u20131752. https://doi.org/10.1007/s00779-014-0780-5",
+      "doi": "10.1007/s00779-014-0780-5"
+    },
+    {
+      "text": "Phoenix Games LLP. 2018. Drink Water Reminder N Tracker. Apple App Store. https://apps.apple.com/us/app/drink-water-reminder-n-tracker/id870372885#?platform=iphone",
+      "doi": ""
+    },
+    {
+      "text": "Bernd Ploderer, Wolfgang Reitberger, Harri Oinas-Kukkonen, and Julia van Gemert-Pijnen. 2014. Social interaction and reflection for behaviour change.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Prilla, Martin Degeling, and Thomas Herrmann. 2012. Collaborative Reflection at Work: Supporting Informal Learning at a Healthcare Workplace. In Proceedings of the 17th ACM International Conference on Supporting Group Work (Sanibel Island, Florida, USA) (GROUP \u201912). Association for Computing Machinery, New York, NY, USA, 55\u201364. https://doi.org/10.1145/2389176.2389185",
+      "doi": "10.1145/2389176.2389185"
+    },
+    {
+      "text": "Nora Ptakauskaite, Anna\u00a0L. Cox, and Nadia Berthouze. 2018. Knowing What You\u2019re Doing or Knowing What to Do: How Stress Management Apps Support Reflection and Behaviour Change. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI EA \u201918). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3170427.3188648",
+      "doi": ""
+    },
+    {
+      "text": "Amon Rapp. 2018. Gamification for Self-Tracking: From World of Warcraft to the Design of Personal Informatics Systems. Association for Computing Machinery, New York, NY, USA, 1\u201315. https://doi.org/10.1145/3173574.3173654",
+      "doi": ""
+    },
+    {
+      "text": "Amon Rapp and Maurizio Tirassa. 2017. Know thyself: a theory of the self for personal informatics. Human\u2013Computer Interaction 32, 5-6 (2017), 335\u2013380.",
+      "doi": ""
+    },
+    {
+      "text": "Amon Rapp, Maurizio Tirassa, and Lia Tirabeni. 2019. Rethinking Technologies for Behavior Change: A View from the Inside of Human Change. ACM Transactions on Computer-Human Interaction (TOCHI) 26, 4(2019), 22.",
+      "doi": "10.1145/3318142"
+    },
+    {
+      "text": "Recovery Record. 2021. RR: Eating Disorder Management. Apple App Store. https://apps.apple.com/us/app/rr-eating-disorder-management/id457360959",
+      "doi": ""
+    },
+    {
+      "text": "Saeyoung Rho, Injung Lee, Hankyung Kim, Jonghyuk Jung, Hyungi Kim, Bong\u00a0Gwan Jun, and Youn-kyung Lim. 2017. FutureSelf: What Happens When We Forecast Self-Trackers? Future Health Statuses?. In Proceedings of the 2017 Conference on Designing Interactive Systems (Edinburgh, United Kingdom) (DIS \u201917). Association for Computing Machinery, New York, NY, USA, 637\u2013648. https://doi.org/10.1145/3064663.3064676",
+      "doi": "10.1145/3064663.3064676"
+    },
+    {
+      "text": "Ver\u00f3nica Rivera-Pelayo, Angela Fessl, Lars M\u00fcller, and Viktoria Pammer. 2017. Introducing Mood Self-Tracking at Work: Empirical Insights from Call Centers. ACM Trans. Comput.-Hum. Interact. 24, 1, Article 3 (Feb. 2017), 28\u00a0pages. https://doi.org/10.1145/3014058",
+      "doi": "10.1145/3014058"
+    },
+    {
+      "text": "John Rooksby, Mattias Rost, Alistair Morrison, and Matthew Chalmers. 2014. Personal tracking as lived informatics. In Proceedings of the SIGCHI conference on human factors in computing systems. ACM, New York, 1163\u20131172.",
+      "doi": "10.1145/2556288.2557039"
+    },
+    {
+      "text": "Maria Roussou, Sara Perry, Akrivi Katifori, Stavros Vassos, Angeliki Tzouganatou, and Sierra McKinney. 2019. Transformation through Provocation?. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). ACM, New York, 1\u201313. https://doi.org/10.1145/3290605.3300857",
+      "doi": "10.1145/3290605.3300857"
+    },
+    {
+      "text": "Herman Saksono, Carmen Castaneda-Sceppa, Jessica Hoffman, Magy Seif El-Nasr, Vivien Morris, and Andrea\u00a0G. Parker. 2018. Family Health Promotion in Low-SES Neighborhoods: A Two-Month Study of Wearable Activity Tracking. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI \u201918). ACM, New York, 1\u201313. https://doi.org/10.1145/3173574.3173883",
+      "doi": "10.1145/3173574.3173883"
+    },
+    {
+      "text": "Sanvello Health Inc.2021. Sanvello: Anxiety & Depression. Apple App Store. https://apps.apple.com/us/app/sanvello-anxiety-depression/id922968861#?platform=iphone",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0A Sch\u00f6n. 1987. Educating the reflective practitioner: Toward a new design for teaching and learning in the professions. 1987. Jossey Bass, San Francisco.",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0A Sch\u00f6n. 2017. The reflective practitioner: How professionals think in action. Routledge, New York.",
+      "doi": ""
+    },
+    {
+      "text": "Phoebe Sengers, Kirsten Boehner, Shay David, and Joseph\u00a0\u2019Jofish\u2019 Kaye. 2005. Reflective design. In Proceedings of the 4th Decennial Conference on Critical Computing. ACM, New York, 49\u201358.",
+      "doi": "10.1145/1094562.1094569"
+    },
+    {
+      "text": "Skimble. 2021. Workout Trainer: fitness coach. Apple App Store. https://apps.apple.com/us/app/workout-trainer-fitness-coach/id395686735",
+      "doi": ""
+    },
+    {
+      "text": "Sleep Cycle AB. 2021. Sleep Cycle - Sleep Tracker. Apple App Store. https://apps.apple.com/us/app/sleep-cycle-sleep-tracker/id320606217",
+      "doi": ""
+    },
+    {
+      "text": "Petr Slovak, Christopher Frauenberger, and Geraldine Fitzpatrick. 2017. Reflective practicum: A framework of sensitising concepts to design for transformative reflection. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, New York, 2696\u20132707.",
+      "doi": "10.1145/3025453.3025516"
+    },
+    {
+      "text": "SnoreLab Ltd. 2021. SnoreLab : Record Your Snoring. Apple App Store. https://apps.apple.com/us/app/snorelab-record-your-snoring/id529443604",
+      "doi": ""
+    },
+    {
+      "text": "Katta Spiel, Fares Kayali, Louise Horvath, Michael Penkler, Sabine Harrer, Miguel Sicart, and Jessica Hammer. 2018. Fitter, Happier, More Productive? The Normative Ontology of Fitness Trackers. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems(Montreal QC, Canada) (CHI EA \u201918). ACM, New York, 1\u201310. https://doi.org/10.1145/3170427.3188401",
+      "doi": "10.1145/3170427.3188401"
+    },
+    {
+      "text": "StepsApp GMBH. 2021. StepsApp Pedometer. Apple App Store. https://apps.apple.com/us/app/stepsapp-pedometer/id1037595083",
+      "doi": ""
+    },
+    {
+      "text": "Strava, Inc.2021. Strava: Run, Ride, Swim. Apple App Store. https://apps.apple.com/us/app/strava-run-ride-swim/id426826309",
+      "doi": ""
+    },
+    {
+      "text": "S\u00a0Shyam Sundar. 2008. Self as source: Agency and customization in interactive media. In Mediated Interpersonal Communication, Elly\u00a0A Konijn, Sonja Utz, Martin Tanis, and Susan\u00a0B Barnes (Eds.). Routledge, New York, 58\u201374. https://doi.org/10.4324/9780203926864",
+      "doi": ""
+    },
+    {
+      "text": "Melanie Swan. 2013. The quantified self: Fundamental disruption in big data science and biological discovery. Big data 1, 2 (2013), 85\u201399.",
+      "doi": ""
+    },
+    {
+      "text": "Tamtris Web Services Inc.2021. Fertility Friend FF App. Apple App Store. https://apps.apple.com/us/app/fertility-friend-ff-app/id443919067",
+      "doi": ""
+    },
+    {
+      "text": "Charlene Tan. 2020. Revisiting Donald Sch\u00f6n\u2019s notion of reflective practice: a Daoist interpretation. Reflective Practice 21, 5 (2020), 686\u2013698.",
+      "doi": ""
+    },
+    {
+      "text": "The Lampo Group Incorporated. 2021. EveryDollar: Budget Your Money. Apple App Store. https://apps.apple.com/us/app/everydollar-budget-your-money/id942571931#?platform=iphone",
+      "doi": ""
+    },
+    {
+      "text": "Jakob Tholander and Stina Nylander. 2015. Snot, Sweat, Pain, Mud, and Snow: Performance and Experience in the Use of Sports Watches. Association for Computing Machinery, New York, NY, USA, 2913\u20132922. https://doi.org/10.1145/2702123.2702482",
+      "doi": ""
+    },
+    {
+      "text": "Neil Thompson and Jan Pascal. 2012. Developing critically reflective practice. Reflective practice 13, 2 (2012), 311\u2013325.",
+      "doi": ""
+    },
+    {
+      "text": "Alice Thudt, Uta Hinrichs, Samuel Huron, and Sheelagh Carpendale. 2018. Self-reflection and personal physicalization construction. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM Press, New York, 154.",
+      "doi": "10.1145/3173574.3173728"
+    },
+    {
+      "text": "Martin Tisn\u00e9. 2019. Data isn\u2019t the new oil, it\u2019s the new CO2. https://luminategroup.com/posts/blog/data-isnt-the-new-oil-its-the-new-co2",
+      "doi": ""
+    },
+    {
+      "text": "Truebill, Inc.2021. Truebill Budget & Bill Tracker. Apple App Store. https://apps.apple.com/us/app/truebill-budget-bill-tracker/id1130616675",
+      "doi": ""
+    },
+    {
+      "text": "Anna\u00a0Lowenhaupt Tsing. 2015. The mushroom at the end of the world: On the possibility of life in capitalist ruins. Princeton University Press, Princeton, NJ.",
+      "doi": ""
+    },
+    {
+      "text": "Under Armour, Inc.2021. Map My Fitness by Under Armour. Apple App Store. https://apps.apple.com/us/app/map-my-fitness-by-under-armour/id298903147",
+      "doi": ""
+    },
+    {
+      "text": "Under Armour, Inc.2021. Map My Run by Under Armour. Apple App Store. https://apps.apple.com/us/app/map-my-run-by-under-armour/id291890420",
+      "doi": ""
+    },
+    {
+      "text": "Elisabeth\u00a0Kersten van Dijk, Wijnand IJsselsteijn, and Joyce Westerink. 2016. Deceptive Visualizations and User Bias: A Case for Personalization and Ambiguity in PI Visualizations. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct (Heidelberg, Germany) (UbiComp \u201916). Association for Computing Machinery, New York, NY, USA, 588\u2013593. https://doi.org/10.1145/2968219.2968326",
+      "doi": "10.1145/2968219.2968326"
+    },
+    {
+      "text": "Viktor Sharov. 2021. My Water: Daily Drink Tracker. Apple App Store. https://apps.apple.com/us/app/my-water-daily-drink-tracker/id964748094#?platform=iphone",
+      "doi": ""
+    },
+    {
+      "text": "Sue White, Jan Fook, and Fiona Gardner. 2006. Critical reflection in health and social care. Open University Press, Maidenhead, UK.",
+      "doi": ""
+    },
+    {
+      "text": "Winkpass Creations, Inc.2021. iPeriod Lite Period Tracker. Apple App Store. https://apps.apple.com/us/app/iperiod-lite-period-tracker/id340757216",
+      "doi": ""
+    },
+    {
+      "text": "Gary Wolf. 2009. Know Thyself: Tracking Every Facet of Life, from Sleep to Mood to Pain, 24/7/365. WIRED 17.07 (June 2009), 92\u201395. http://www.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself?currentPage=all",
+      "doi": ""
+    },
+    {
+      "text": "Wombat Apps LLC. 2021. Carb Manager\u2014Keto Diet Tracker. Apple App Store. https://apps.apple.com/us/app/carb-manager-keto-diet-app/id410089731#?platform=iphone",
+      "doi": ""
+    },
+    {
+      "text": "Pawe\u0142\u00a0W. Woundefinedniak, Przemys\u0142aw\u00a0Piotr Kucharski, Maartje\u00a0M.A. de Graaf, and Jasmin Niess. 2020. Exploring Understandable Algorithms to Suggest Fitness Tracker Goals That Foster Commitment. In Proceedings of the 11th Nordic Conference on Human-Computer Interaction: Shaping Experiences, Shaping Society (Tallinn, Estonia) (NordiCHI \u201920). Association for Computing Machinery, New York, NY, USA, Article 35, 12\u00a0pages. https://doi.org/10.1145/3419249.3420131",
+      "doi": ""
+    },
+    {
+      "text": "Pawe\u0142\u00a0W. Woundefinedniak, Przemys\u0142aw\u00a0Piotr Kucharski, Maartje\u00a0M.A. de Graaf, and Jasmin Niess. 2020. Exploring Understandable Algorithms to Suggest Fitness Tracker Goals That Foster Commitment. In Proceedings of the 11th Nordic Conference on Human-Computer Interaction: Shaping Experiences, Shaping Society (Tallinn, Estonia) (NordiCHI \u201920). ACM, New York, Article 35, 12\u00a0pages. https://doi.org/10.1145/3419249.3420131",
+      "doi": ""
+    },
+    {
+      "text": "Renwen Zhang, Kathryn E.\u00a0Ringland, Melina Paan, David C.\u00a0Mohr, and Madhu Reddy. 2021. Designing for Emotional Well-Being: Integrating Persuasion and Customization into Mental Health Technologies. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, Article 542, 13\u00a0pages. https://doi.org/10.1145/3411764.3445771",
+      "doi": "10.1145/3411764.3445771"
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "doi": "10.1145/3544548.3580689",
+  "title": "Are You Killing Time? Predicting Smartphone Users\u2019 Time-killing Moments via Fusion of Smartphone Sensor Data and Screenshots",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-19",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Time-killing on smartphones has become a pervasive activity, and could be opportune for delivering content to their users. This research is believed to be the first attempt at time-killing detection, which leverages the fusion of phone-sensor and screenshot data. We collected nearly one million user-annotated screenshots from 36 Android users. Using this dataset, we built a deep-learning fusion model, which achieved a precision of 0.83 and an AUROC of 0.72. We further employed a two-stage clustering approach to separate users into four groups according to the patterns of their phone-usage behaviors, and then built a fusion model for each group. The performance of the four models, though diverse, yielded better average precision of 0.87 and AUROC of 0.76, and was superior to that of the general/unified model shared among all users. We investigated and discussed the features of the four time-killing behavior clusters that explain why the models\u2019 performance differ.",
+  "authors": [
+    {
+      "name": "Yu-Chun Chen",
+      "institution": "National Yang Ming Chiao Tung University, Taiwan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659528264",
+      "orcid": "0000-0002-9484-986X"
+    },
+    {
+      "name": "Yu-Jen Lee",
+      "institution": "National Yang Ming Chiao Tung University, Taiwan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659886959",
+      "orcid": "0000-0003-1326-8914"
+    },
+    {
+      "name": "Kuei-Chun Kao",
+      "institution": "National Yang Ming Chiao Tung Univeristy, Taiwan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659886998",
+      "orcid": "0000-0001-7601-794X"
+    },
+    {
+      "name": "Jie Tsai",
+      "institution": "National Yang Ming Chiao Tung University, Taiwan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660631715",
+      "orcid": "0000-0002-0218-5876"
+    },
+    {
+      "name": "En-Chi Liang",
+      "institution": "National Yang Ming Chiao Tung University, Taiwan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780814",
+      "orcid": "0000-0002-4248-7828"
+    },
+    {
+      "name": "Wei-Chen Chiu",
+      "institution": "Department of Computer Science, National Yang Ming Chiao Tung University, Taiwan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659578412",
+      "orcid": "0000-0001-7715-8306"
+    },
+    {
+      "name": "Faye Shih",
+      "institution": "Bryn Mawr College, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659887065",
+      "orcid": "0000-0003-1058-9683"
+    },
+    {
+      "name": "Yung-Ju Chang",
+      "institution": "Department of Computer Science, National Yang Ming Chiao Tung University, Taiwan",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81548019794",
+      "orcid": "0000-0001-6956-3459"
+    }
+  ],
+  "references": [
+    {
+      "text": "Piotr\u00a0D. Adamczyk and Brian\u00a0P. Bailey. 2004. If Not Now, When? The Effects of Interruption at Different Moments within Task Execution. Association for Computing Machinery, New York, NY, USA, 271\u2013278. https://doi.org/10.1145/985692.985727",
+      "doi": "10.1145/985692.985727"
+    },
+    {
+      "text": "Piotr\u00a0D. Adamczyk, Shamsi\u00a0T. Iqbal, and Brian\u00a0P. Bailey. 2005. A method, system, and tools for intelligent interruption management. In Proceedings of the 4th international workshop on Task models and diagrams(TAMODIA \u201905). Association for Computing Machinery, New York, NY, USA, 123\u2013126. https://doi.org/10.1145/1122935.1122959",
+      "doi": "10.1145/1122935.1122959"
+    },
+    {
+      "text": "Elena Agapie, Jaime Teevan, and Andr\u00e9s Monroy-Hern\u00e1ndez. 2015. Crowdsourcing in the field: A case study using local crowds for event reporting. In Third AAAI Conference on Human Computation and Crowdsourcing(HCOMP \u201915).",
+      "doi": ""
+    },
+    {
+      "text": "Yeslam Al-Saggaf, Rachel MacCulloch, and Karl Wiener. 2019. Trait Boredom Is a Predictor of Phubbing Frequency. Journal of Technology in Behavioral Science 4 (09 2019). https://doi.org/10.1007/s41347-018-0080-4",
+      "doi": ""
+    },
+    {
+      "text": "Yeslam Al-Saggaf and Sarah\u00a0B O\u2019Donnell. 2019. Phubbing: Perceptions, reasons behind, predictors, and impacts. Human Behavior and Emerging Technologies 1, 2 (2019), 132\u2013140.",
+      "doi": ""
+    },
+    {
+      "text": "Amanda Baughan, Mingrui\u00a0Ray Zhang, Raveena Rao, Kai Lukoff, Anastasia Schaadhardt, Lisa\u00a0D Butler, and Alexis Hiniker. 2022. \u201cI Don\u2019t Even Remember What I Read\u201d: How Design Influences Dissociation on Social Media. In CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Tony Beltramelli. 2018. Pix2code: Generating Code from a Graphical User Interface Screenshot. In Proceedings of the ACM SIGCHI Symposium on Engineering Interactive Computing Systems (Paris, France) (EICS \u201918). Association for Computing Machinery, New York, NY, USA, Article 3, 6\u00a0pages. https://doi.org/10.1145/3220134.3220135",
+      "doi": "10.1145/3220134.3220135"
+    },
+    {
+      "text": "Matthias B\u00f6hmer, Brent Hecht, Johannes Sch\u00f6ning, Antonio Kr\u00fcger, and Gernot Bauer. 2011. Falling Asleep with Angry Birds, Facebook and Kindle: A Large Scale Study on Mobile Application Usage. In Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services (Stockholm, Sweden) (MobileHCI \u201911). Association for Computing Machinery, New York, NY, USA, 47\u201356. https://doi.org/10.1145/2037373.2037383",
+      "doi": "10.1145/2037373.2037383"
+    },
+    {
+      "text": "Miriam Brinberg, Nilam Ram, Xiao Yang, Mu-Jung Cho, S\u00a0Shyam Sundar, Thomas\u00a0N Robinson, and Byron Reeves. 2021. The idiosyncrasies of everyday digital lives: Using the Human Screenome Project to study user behavior on smartphones. Computers in Human Behavior 114 (2021), 106570.",
+      "doi": "10.1016/j.chb.2020.106570"
+    },
+    {
+      "text": "Barry Brown, Moira McGregor, and Eric Laurier. 2013. IPhone in Vivo: Video Analysis of Mobile Device Use. Association for Computing Machinery, New York, NY, USA, 1031\u20131040. https://doi.org/10.1145/2470654.2466132",
+      "doi": "10.1145/2470654.2466132"
+    },
+    {
+      "text": "Barry Brown, Moira McGregor, and Donald McMillan. 2014. 100 Days of IPhone Use: Understanding the Details of Mobile Device Use. In Proceedings of the 16th International Conference on Human-Computer Interaction with Mobile Devices & Services (Toronto, ON, Canada) (MobileHCI \u201914). Association for Computing Machinery, New York, NY, USA, 223\u2013232. https://doi.org/10.1145/2628363.2628377",
+      "doi": "10.1145/2628363.2628377"
+    },
+    {
+      "text": "Carrie\u00a0J. Cai, Anji Ren, and Robert\u00a0C. Miller. 2017. WaitSuite: Productive Use of Diverse Waiting Moments. ACM Trans. Comput.-Hum. Interact. 24, 1, Article 7 (March 2017), 41\u00a0pages. https://doi.org/10.1145/3044534",
+      "doi": "10.1145/3044534"
+    },
+    {
+      "text": "Yung-Ju Chang and John\u00a0C. Tang. 2015. Investigating Mobile Users\u2019 Ringer Mode Usage and Attentiveness and Responsiveness to Communication. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (Copenhagen, Denmark) (MobileHCI \u201915). Association for Computing Machinery, New York, NY, USA, 6\u201315. https://doi.org/10.1145/2785830.2785852",
+      "doi": "10.1145/2785830.2785852"
+    },
+    {
+      "text": "Chunyang Chen, Sidong Feng, Zhenchang Xing, Linda Liu, Shengdong Zhao, and Jinshui Wang. 2019. Gallery D.C.: Design Search and Knowledge Discovery through Auto-Created GUI Component Gallery. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 180 (Nov. 2019), 22\u00a0pages. https://doi.org/10.1145/3359282",
+      "doi": "10.1145/3359282"
+    },
+    {
+      "text": "Chunyang Chen, Ting Su, Guozhu Meng, Zhenchang Xing, and Yang Liu. 2018. From UI Design Image to GUI Skeleton: A Neural Machine Translator to Bootstrap Mobile GUI Implementation. In Proceedings of the 40th International Conference on Software Engineering (Gothenburg, Sweden) (ICSE \u201918). Association for Computing Machinery, New York, NY, USA, 665\u2013676. https://doi.org/10.1145/3180155.3180240",
+      "doi": "10.1145/3180155.3180240"
+    },
+    {
+      "text": "Yu-Chun Chen, Keui-Chun Kao, Yu-Jen Lee, Faye Shih, Wei-Chen Chiu, and Yung-Ju Chang. 2021. Killing-Time Detection from Smartphone Screenshots. In Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2021 ACM International Symposium on Wearable Computers(Virtual, USA) (UbiComp \u201921). Association for Computing Machinery, New York, NY, USA, 15\u201316. https://doi.org/10.1145/3460418.3479295",
+      "doi": "10.1145/3460418.3479295"
+    },
+    {
+      "text": "Pei-Yu\u00a0Peggy Chi, Matthew Long, Akshay Gaur, Abhimanyu Deora, Anurag Batra, and Daphne Luong. 2019. Crowdsourcing Images for Global Diversity. In Proceedings of the 21st International Conference on Human-Computer Interaction with Mobile Devices and Services (Taipei, Taiwan) (MobileHCI \u201919). Association for Computing Machinery, New York, NY, USA, Article 79, 10\u00a0pages. https://doi.org/10.1145/3338286.3347546",
+      "doi": "10.1145/3338286.3347546"
+    },
+    {
+      "text": "Chia-En Chiang, Yu-Chun Chen, Fang-Yu Lin, Felicia Feng, Hao-An Wu, Hao-Ping Lee, Chang-Hsuan Yang, and Yung-Ju Chang. 2021. \u201cI Got Some Free Time\u201d: Investigating Task-Execution and Task-Effort Metrics in Mobile Crowdsourcing Tasks. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, Article 648, 14\u00a0pages. https://doi.org/10.1145/3411764.3445477",
+      "doi": "10.1145/3411764.3445477"
+    },
+    {
+      "text": "Woohyeok Choi, Sangkeun Park, Duyeon Kim, Youn-kyung Lim, and Uichin Lee. 2019. Multi-Stage Receptivity Model for Mobile Just-In-Time Health Intervention. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 3, 2, Article 39 (June 2019), 26\u00a0pages. https://doi.org/10.1145/3328910",
+      "doi": "10.1145/3328910"
+    },
+    {
+      "text": "Mihaly Csikszentmihalyi. 2000. Beyond boredom and anxiety.Jossey-bass.",
+      "doi": ""
+    },
+    {
+      "text": "Tilman Dingler and Martin Pielot. 2015. I\u2019ll Be There for You: Quantifying Attentiveness towards Mobile Messaging. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (Copenhagen, Denmark) (MobileHCI \u201915). Association for Computing Machinery, New York, NY, USA, 1\u20135. https://doi.org/10.1145/2785830.2785840",
+      "doi": "10.1145/2785830.2785840"
+    },
+    {
+      "text": "Tilman Dingler, Benjamin Tag, Sabrina Lehrer, and Albrecht Schmidt. 2018. Reading Scheduler: Proactive Recommendations to Help Users Cope with Their Daily Reading Volume. In Proceedings of the 17th International Conference on Mobile and Ubiquitous Multimedia (Cairo, Egypt) (MUM 2018). Association for Computing Machinery, New York, NY, USA, 239\u2013244. https://doi.org/10.1145/3282894.3282917",
+      "doi": "10.1145/3282894.3282917"
+    },
+    {
+      "text": "Tilman Dingler, Dominik Weber, Martin Pielot, Jennifer Cooper, Chung-Cheng Chang, and Niels Henze. 2017. Language Learning On-the-Go: Opportune Moments and Design of Mobile Microlearning Sessions. In Proceedings of the 19th International Conference on Human-Computer Interaction with Mobile Devices and Services (Vienna, Austria) (MobileHCI \u201917). Association for Computing Machinery, New York, NY, USA, Article 28, 12\u00a0pages. https://doi.org/10.1145/3098279.3098565",
+      "doi": "10.1145/3098279.3098565"
+    },
+    {
+      "text": "Trinh Minh\u00a0Tri Do, Jan Blom, and Daniel Gatica-Perez. 2011. Smartphone Usage in the Wild: A Large-Scale Analysis of Applications and Context. In Proceedings of the 13th International Conference on Multimodal Interfaces (Alicante, Spain) (ICMI \u201911). Association for Computing Machinery, New York, NY, USA, 353\u2013360. https://doi.org/10.1145/2070481.2070550",
+      "doi": "10.1145/2070481.2070550"
+    },
+    {
+      "text": "John\u00a0D Eastwood, Alexandra Frischen, Mark\u00a0J Fenske, and Daniel Smilek. 2012. The unengaged mind: Defining boredom in terms of attention. Perspectives on Psychological Science 7, 5 (2012), 482\u2013495.",
+      "doi": ""
+    },
+    {
+      "text": "Andreas Elpidorou. 2018. The bored mind is a guiding mind: Toward a regulatory theory of boredom. Phenomenology and the Cognitive Sciences 17 (2018), 455\u2013484.",
+      "doi": ""
+    },
+    {
+      "text": "Hossein Falaki, Ratul Mahajan, Srikanth Kandula, Dimitrios Lymberopoulos, Ramesh Govindan, and Deborah Estrin. 2010. Diversity in Smartphone Usage. In Proceedings of the 8th International Conference on Mobile Systems, Applications, and Services (San Francisco, California, USA) (MobiSys \u201910). Association for Computing Machinery, New York, NY, USA, 179\u2013194. https://doi.org/10.1145/1814433.1814453",
+      "doi": "10.1145/1814433.1814453"
+    },
+    {
+      "text": "Robert Fisher and Reid Simmons. 2011. Smartphone Interruptibility Using Density-Weighted Uncertainty Sampling with Reinforcement Learning. In 2011 10th International Conference on Machine Learning and Applications and Workshops, Vol.\u00a01. 436\u2013441. https://doi.org/10.1109/ICMLA.2011.128",
+      "doi": "10.1109/ICMLA.2011.128"
+    },
+    {
+      "text": "Jon Froehlich, Mike\u00a0Y. Chen, Sunny Consolvo, Beverly Harrison, and James\u00a0A. Landay. 2007. MyExperience: A System for in Situ Tracing and Capturing of User Feedback on Mobile Phones. In Proceedings of the 5th International Conference on Mobile Systems, Applications and Services (San Juan, Puerto Rico) (MobiSys \u201907). Association for Computing Machinery, New York, NY, USA, 57\u201370. https://doi.org/10.1145/1247660.1247670",
+      "doi": "10.1145/1247660.1247670"
+    },
+    {
+      "text": "Ralph\u00a0R Greenson. 1953. On boredom. Journal of the American Psychoanalytic Association 1, 1(1953), 7\u201321.",
+      "doi": ""
+    },
+    {
+      "text": "Huifeng Guo, Ruiming Tang, Yunming Ye, Zhenguo Li, and Xiuqiang He. 2017. DeepFM: a factorization-machine based neural network for CTR prediction. In International Joint Conference on Artificial Intelligence (IJCAI).",
+      "doi": ""
+    },
+    {
+      "text": "Alexis Hiniker, Shwetak\u00a0N. Patel, Tadayoshi Kohno, and Julie\u00a0A. Kientz. 2016. Why Would You Do That? Predicting the Uses and Gratifications behind Smartphone-Usage Behaviors. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing (Heidelberg, Germany) (UbiComp \u201916). Association for Computing Machinery, New York, NY, USA, 634\u2013645. https://doi.org/10.1145/2971648.2971762",
+      "doi": "10.1145/2971648.2971762"
+    },
+    {
+      "text": "Bo-Jhang Ho, Bharathan Balaji, Mehmet Koseoglu, Sandeep Sandha, Siyou Pei, and Mani Srivastava. 2020. Quick Question: Interrupting Users for Microtasks with Reinforcement Learning. arXiv:2007.09515 [cs] (July 2020). http://arxiv.org/abs/2007.09515 arXiv:2007.09515.",
+      "doi": ""
+    },
+    {
+      "text": "Joyce Ho and Stephen\u00a0S. Intille. 2005. Using Context-Aware Computing to Reduce the Perceived Burden of Interruptions from Mobile Devices. Association for Computing Machinery, New York, NY, USA, 909\u2013918. https://doi.org/10.1145/1054972.1055100",
+      "doi": "10.1145/1054972.1055100"
+    },
+    {
+      "text": "Sepp Hochreiter and J\u00fcrgen Schmidhuber. 1997. Long short-term memory. Neural computation 9, 8 (1997), 1735\u20131780.",
+      "doi": "10.1162/neco.1997.9.8.1735"
+    },
+    {
+      "text": "Cynthia\u00a0A. Hoffner and Sangmi Lee. 2015. Mobile Phone Use, Emotion Regulation, and Well-Being. Cyberpsychology, Behavior, and Social Networking 18, 7(2015), 411\u2013416. https://doi.org/10.1089/cyber.2014.0487 arXiv:https://doi.org/10.1089/cyber.2014.0487PMID: 26167841.",
+      "doi": ""
+    },
+    {
+      "text": "Nanna Inie and Mircea\u00a0F Lungu. 2021. Aiki - Turning Online Procrastination into Microlearning. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI \u201921). Association for Computing Machinery, New York, NY, USA, Article 369, 13\u00a0pages. https://doi.org/10.1145/3411764.3445202",
+      "doi": "10.1145/3411764.3445202"
+    },
+    {
+      "text": "Shamsi\u00a0T. Iqbal and Brian\u00a0P. Bailey. 2007. Understanding and developing models for detecting and differentiating breakpoints during interactive tasks. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, 697\u2013706. https://doi.org/10.1145/1240624.1240732",
+      "doi": "10.1145/1240624.1240732"
+    },
+    {
+      "text": "Shamsi\u00a0T. Iqbal and Brian\u00a0P. Bailey. 2011. Oasis: A framework for linking notification delivery to the perceptual structure of goal-directed tasks. ACM Transactions on Computer-Human Interaction 17, 4 (Dec. 2011), 15:1\u201315:28. https://doi.org/10.1145/1879831.1879833",
+      "doi": "10.1145/1879831.1879833"
+    },
+    {
+      "text": "Ellen Isaacs, Alan Walendowski, Steve Whittaker, Diane\u00a0J. Schiano, and Candace Kamm. 2002. The Character, Functions, and Styles of Instant Messaging in the Workplace. In Proceedings of the 2002 ACM Conference on Computer Supported Cooperative Work (New Orleans, Louisiana, USA) (CSCW \u201902). Association for Computing Machinery, New York, NY, USA, 11\u201320. https://doi.org/10.1145/587078.587081",
+      "doi": "10.1145/587078.587081"
+    },
+    {
+      "text": "Ellen Isaacs, Nicholas Yee, Diane\u00a0J Schiano, Nathan Good, Nicolas Ducheneaut, and Victoria Bellotti. 2009. Mobile microwaiting moments: The role of context in receptivity to content while on the go. PARC white paper (2009) 10 (2009).",
+      "doi": ""
+    },
+    {
+      "text": "Chakajkla Jesdabodi and Walid Maalej. 2015. Understanding Usage States on Mobile Devices. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing (Osaka, Japan) (UbiComp \u201915). Association for Computing Machinery, New York, NY, USA, 1221\u20131225. https://doi.org/10.1145/2750858.2805837",
+      "doi": "10.1145/2750858.2805837"
+    },
+    {
+      "text": "Simon\u00a0L. Jones, Denzil Ferreira, Simo Hosio, Jorge Goncalves, and Vassilis Kostakos. 2015. Revisitation Analysis of Smartphone App Use. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing (Osaka, Japan) (UbiComp \u201915). Association for Computing Machinery, New York, NY, USA, 1197\u20131208. https://doi.org/10.1145/2750858.2807542",
+      "doi": "10.1145/2750858.2807542"
+    },
+    {
+      "text": "Kleomenis Katevas, Ioannis Arapakis, and Martin Pielot. 2018. Typical Phone Use Habits: Intense Use Does Not Predict Negative Well-Being. In Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services (Barcelona, Spain) (MobileHCI \u201918). Association for Computing Machinery, New York, NY, USA, Article 11, 13\u00a0pages. https://doi.org/10.1145/3229434.3229441",
+      "doi": "10.1145/3229434.3229441"
+    },
+    {
+      "text": "J\u00fcrgen Kawalek, Annegret Stark, and Marcel Riebeck. 2008. A New Approach to Analyze Human-Mobile Computer Interaction. J. Usability Studies 3, 2 (Feb. 2008), 90\u201398.",
+      "doi": "10.5555/2835562.2835566"
+    },
+    {
+      "text": "Ronald\u00a0C Kessler, Lenard Adler, Minnie Ames, Olga Demler, Steve Faraone, EVA Hiripi, Mary\u00a0J Howes, Robert Jin, Kristina Secnik, Thomas Spencer, 2005. The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychological medicine 35, 2 (2005), 245\u2013256.",
+      "doi": ""
+    },
+    {
+      "text": "Diederik\u00a0P. Kingma and Jimmy Ba. 2017. Adam: A Method for Stochastic Optimization. arxiv:1412.6980\u00a0[cs.LG]",
+      "doi": ""
+    },
+    {
+      "text": "Vassilis Kostakos, Denzil Ferreira, Jorge Goncalves, and Simo Hosio. 2016. Modelling Smartphone Usage: A Markov State Transition Model. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing(Heidelberg, Germany) (UbiComp \u201916). Association for Computing Machinery, New York, NY, USA, 486\u2013497. https://doi.org/10.1145/2971648.2971669",
+      "doi": "10.1145/2971648.2971669"
+    },
+    {
+      "text": "Philipp Krieter. 2019. Can I Record Your Screen? Mobile Screen Recordings as a Long-Term Data Source for User Studies. In Proceedings of the 18th International Conference on Mobile and Ubiquitous Multimedia (Pisa, Italy) (MUM \u201919). Association for Computing Machinery, New York, NY, USA, Article 23, 10\u00a0pages. https://doi.org/10.1145/3365610.3365618",
+      "doi": "10.1145/3365610.3365618"
+    },
+    {
+      "text": "Philipp Krieter and Andreas Breiter. 2018. Analyzing Mobile Application Usage: Generating Log Files from Mobile Screen Recordings. In Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services (Barcelona, Spain) (MobileHCI \u201918). Association for Computing Machinery, New York, NY, USA, Article 9, 10\u00a0pages. https://doi.org/10.1145/3229434.3229450",
+      "doi": "10.1145/3229434.3229450"
+    },
+    {
+      "text": "Nuning Kurniasih. 2017. Internet Addiction, Lifestyle or Mental Disorder? A Phenomenological Study on Social Media Addiction in Indonesia. KnE Social Sciences 2, 4 (Jun. 2017), 135\u2013144. https://doi.org/10.18502/kss.v2i4.879",
+      "doi": ""
+    },
+    {
+      "text": "Hao-Ping Lee, Kuan-Yin Chen, Chih-Heng Lin, Chia-Yu Chen, Yu-Lin Chung, Yung-Ju Chang, and Chien-Ru Sun. 2019. Does Who Matter? Studying the Impact of Relationship Characteristics on Receptivity to Mobile IM Messages. Association for Computing Machinery, New York, NY, USA, 1\u201312. https://doi.org/10.1145/3290605.3300756",
+      "doi": "10.1145/3290605.3300756"
+    },
+    {
+      "text": "Jian Li, Andrew Lepp, and Jacob\u00a0E. Barkley. 2015. Locus of control and cell phone use: Implications for sleep quality, academic performance, and subjective well-being. Computers in Human Behavior 52 (2015), 450\u2013457. https://doi.org/10.1016/j.chb.2015.06.021",
+      "doi": "10.1016/j.chb.2015.06.021"
+    },
+    {
+      "text": "Tong Li, Mingyang Zhang, Hancheng Cao, Yong Li, Sasu Tarkoma, and Pan Hui. 2020. \u201dWhat Apps Did You Use?\u201d: Understanding the Long-Term Evolution of Mobile App Usage. In Proceedings of The Web Conference 2020 (Taipei, Taiwan) (WWW \u201920). Association for Computing Machinery, New York, NY, USA, 66\u201376. https://doi.org/10.1145/3366423.3380095",
+      "doi": "10.1145/3366423.3380095"
+    },
+    {
+      "text": "Yu-Hsuan Lin, Li-Ren Chang, Yang-Han Lee, Hsien-Wei Tseng, Terry\u00a0BJ Kuo, and Sue-Huei Chen. 2014. Development and Validation of the Smartphone Addiction Inventory (SPAI).PloS one 9, 6 (2014), e98312.",
+      "doi": ""
+    },
+    {
+      "text": "Kai Lukoff, Cissy Yu, Julie Kientz, and Alexis Hiniker. 2018. What Makes Smartphone Use Meaningful or Meaningless?Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 1, Article 22 (March 2018), 26\u00a0pages. https://doi.org/10.1145/3191754",
+      "doi": "10.1145/3191754"
+    },
+    {
+      "text": "James MacQueen 1967. Some methods for classification and analysis of multivariate observations. In Proceedings of the fifth Berkeley symposium on mathematical statistics and probability, Vol.\u00a01. Oakland, CA, USA, 281\u2013297.",
+      "doi": ""
+    },
+    {
+      "text": "Donald McMillan, Moira McGregor, and Barry Brown. 2015. From in the Wild to in Vivo: Video Analysis of Mobile Device Use. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (Copenhagen, Denmark) (MobileHCI \u201915). Association for Computing Machinery, New York, NY, USA, 494\u2013503. https://doi.org/10.1145/2785830.2785883",
+      "doi": "10.1145/2785830.2785883"
+    },
+    {
+      "text": "Abhinav Mehrotra, Robert Hendley, and Mirco Musolesi. 2016. PrefMiner: Mining User\u2019s Preferences for Intelligent Mobile Notification Management. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing (Heidelberg, Germany) (UbiComp \u201916). Association for Computing Machinery, New York, NY, USA, 1223\u20131234. https://doi.org/10.1145/2971648.2971747",
+      "doi": "10.1145/2971648.2971747"
+    },
+    {
+      "text": "Varun Mishra, Florian K\u00fcnzler, Jan-Niklas Kramer, Elgar Fleisch, Tobias Kowatsch, and David Kotz. 2021. Detecting receptivity for mhealth interventions in the natural environment. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 5, 2 (2021), 1\u201324.",
+      "doi": "10.1145/3463492"
+    },
+    {
+      "text": "Aditi Misra, Aaron Gooze, Kari\u00a0E. Watkins, M. Asad, and Christopher A.\u00a0Le Dantec. 2014. Crowdsourcing and Its Application to Transportation Data Collection and Management. Transportation Research Record 2414 (2014), 1 \u2013 8.",
+      "doi": ""
+    },
+    {
+      "text": "Christopher Monk, Deborah Boehm-Davis, and J. Trafton. 2002. The Attentional Costs of Interrupting Task Performance at Various Stages. Proceedings of the Human Factors and Ergonomics Society Annual Meeting 46 (Sept. 2002). https://doi.org/10.1177/154193120204602210",
+      "doi": ""
+    },
+    {
+      "text": "Tadashi Okoshi, Julian Ramos, Hiroki Nozaki, Jin Nakazawa, Anind\u00a0K Dey, and Hideyuki Tokuda. 2015. Attelia: Reducing user\u2019s cognitive load due to interruptive notifications on smart phones. In 2015 IEEE International Conference on Pervasive Computing and Communications (PerCom). IEEE, 96\u2013104. https://doi.org/10.1109/PERCOM.2015.7146515",
+      "doi": ""
+    },
+    {
+      "text": "Tadashi Okoshi, Kota Tsubouchi, Masaya Taji, Takanori Ichikawa, and Hideyuki Tokuda. 2017. Attention and engagement-awareness in the wild: A large-scale study with adaptive notifications. 2017 IEEE International Conference on Pervasive Computing and Communications (PerCom) (2017), 100\u2013110.",
+      "doi": ""
+    },
+    {
+      "text": "Antti Oulasvirta, Tye Rattenbury, Lingyi Ma, and Eeva Raita. 2012. Habits Make Smartphone Use More Pervasive. Personal Ubiquitous Comput. 16, 1 (Jan. 2012), 105\u2013114. https://doi.org/10.1007/s00779-011-0412-2",
+      "doi": "10.1007/s00779-011-0412-2"
+    },
+    {
+      "text": "Leysia Palen and Marilyn Salzman. 2002. Voice-Mail Diary Studies for Naturalistic Data Capture under Mobile Conditions. In Proceedings of the 2002 ACM Conference on Computer Supported Cooperative Work (New Orleans, Louisiana, USA) (CSCW \u201902). Association for Computing Machinery, New York, NY, USA, 87\u201395. https://doi.org/10.1145/587078.587092",
+      "doi": "10.1145/587078.587092"
+    },
+    {
+      "text": "Chunjong Park, Junsung Lim, Juho Kim, Sung-Ju Lee, and Dongman Lee. 2017. Don\u2019t Bother Me. I\u2019m Socializing! A Breakpoint-Based Smartphone Notification System. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing (Portland, Oregon, USA) (CSCW \u201917). Association for Computing Machinery, New York, NY, USA, 541\u2013554. https://doi.org/10.1145/2998181.2998189",
+      "doi": "10.1145/2998181.2998189"
+    },
+    {
+      "text": "Veljko Pejovic and Mirco Musolesi. 2014. InterruptMe: Designing Intelligent Prompting Mechanisms for Pervasive Applications. In Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (Seattle, Washington) (UbiComp \u201914). Association for Computing Machinery, New York, NY, USA, 897\u2013908. https://doi.org/10.1145/2632048.2632062",
+      "doi": "10.1145/2632048.2632062"
+    },
+    {
+      "text": "Martin Pielot, Linas Baltrunas, and Nuria Oliver. 2015. Boredom-Triggered Proactive Recommendations. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services Adjunct(Copenhagen, Denmark) (MobileHCI \u201915). Association for Computing Machinery, New York, NY, USA, 1106\u20131110. https://doi.org/10.1145/2786567.2794340",
+      "doi": "10.1145/2786567.2794340"
+    },
+    {
+      "text": "Martin Pielot, Bruno Cardoso, Kleomenis Katevas, Joan Serr\u00e0, Aleksandar Matic, and Nuria Oliver. 2017. Beyond Interruptibility: Predicting Opportune Moments to Engage Mobile Phone Users. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 3 (Sept. 2017), 91:1\u201391:25. https://doi.org/10.1145/3130956",
+      "doi": "10.1145/3130956"
+    },
+    {
+      "text": "Martin Pielot, Rodrigo de Oliveira, Haewoon Kwak, and Nuria Oliver. 2014. Didn\u2019t You See My Message? Predicting Attentiveness to Mobile Instant Messages. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Toronto, Ontario, Canada) (CHI \u201914). Association for Computing Machinery, New York, NY, USA, 3319\u20133328. https://doi.org/10.1145/2556288.2556973",
+      "doi": "10.1145/2556288.2556973"
+    },
+    {
+      "text": "Martin Pielot, Tilman Dingler, Jose\u00a0San Pedro, and Nuria Oliver. 2015. When attention is not scarce - detecting boredom from mobile phone usage. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing(UbiComp \u201915). Association for Computing Machinery, New York, NY, USA, 825\u2013836. https://doi.org/10.1145/2750858.2804252",
+      "doi": "10.1145/2750858.2804252"
+    },
+    {
+      "text": "Benjamin Poppinga, Wilko Heuten, and Susanne Boll. 2014. Sensor-based identification of opportune moments for triggering notifications. IEEE Pervasive Computing 13, 1 (2014), 22\u201329.",
+      "doi": "10.1109/MPRV.2014.15"
+    },
+    {
+      "text": "Nilam Ram, Xiao Yang, Mu-Jung Cho, Miriam Brinberg, Fiona Muirhead, Byron Reeves, and Thomas\u00a0N Robinson. 2020. Screenomics: A new approach for observing and studying individuals\u2019 digital lives. Journal of adolescent research 35, 1 (2020), 16\u201350.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. 2016. You only look once: Unified, real-time object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition. 779\u2013788.",
+      "doi": ""
+    },
+    {
+      "text": "Byron Reeves, Nilam Ram, Thomas\u00a0N Robinson, James\u00a0J Cummings, C\u00a0Lee Giles, Jennifer Pan, Agnese Chiatti, Mj Cho, Katie Roehrick, Xiao Yang, 2021. Screenomics: A framework to capture and analyze personal life experiences and the ways that technology shapes them. Human\u2013Computer Interaction 36, 2 (2021), 150\u2013201.",
+      "doi": ""
+    },
+    {
+      "text": "Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. 2015. Faster r-cnn: Towards real-time object detection with region proposal networks. Advances in neural information processing systems 28 (2015), 91\u201399.",
+      "doi": ""
+    },
+    {
+      "text": "Hillol Sarker, Moushumi Sharmin, Amin\u00a0Ahsan Ali, Md.\u00a0Mahbubur Rahman, Rummana Bari, Syed\u00a0Monowar Hossain, and Santosh Kumar. 2014. Assessing the Availability of Users to Engage in Just-in-Time Intervention in the Natural Environment. In Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (Seattle, Washington) (UbiComp \u201914). Association for Computing Machinery, New York, NY, USA, 909\u2013920. https://doi.org/10.1145/2632048.2636082",
+      "doi": "10.1145/2632048.2636082"
+    },
+    {
+      "text": "Ramprasaath\u00a0R. Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, and Dhruv Batra. 2017. Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization. In IEEE International Conference on Computer Vision (ICCV).",
+      "doi": ""
+    },
+    {
+      "text": "Jeremiah Smith, Anna Lavygina, Jiefei Ma, Alessandra Russo, and Naranker Dulay. 2014. Learning to Recognise Disruptive Smartphone Notifications. In Proceedings of the 16th International Conference on Human-Computer Interaction with Mobile Devices and Services (Toronto, ON, Canada) (MobileHCI \u201914). Association for Computing Machinery, New York, NY, USA, 121\u2013124. https://doi.org/10.1145/2628363.2628404",
+      "doi": "10.1145/2628363.2628404"
+    },
+    {
+      "text": "Julian Steil, Philipp M\u00fcller, Yusuke Sugano, and Andreas Bulling. 2018. Forecasting user attention during everyday mobile interactions using device-integrated and wearable sensors. Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services (Sep 2018). https://doi.org/10.1145/3229434.3229439",
+      "doi": "10.1145/3229434.3229439"
+    },
+    {
+      "text": "Andriy\u00a0A Struk, Jonathan\u00a0SA Carriere, J\u00a0Allan Cheyne, and James Danckert. 2017. A short boredom proneness scale: Development and psychometric properties. Assessment 24, 3 (2017), 346\u2013359.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0C. Tang, Sophia\u00a0B. Liu, Michael Muller, James Lin, and Clemens Drews. 2006. Unobtrusive but Invasive: Using Screen Recording to Collect Field Data on Computer-Mediated Interaction. In Proceedings of the 2006 20th Anniversary Conference on Computer Supported Cooperative Work (Banff, Alberta, Canada) (CSCW \u201906). Association for Computing Machinery, New York, NY, USA, 479\u2013482. https://doi.org/10.1145/1180875.1180948",
+      "doi": "10.1145/1180875.1180948"
+    },
+    {
+      "text": "Na\u0111a Terzimehi\u0107, Luke Haliburton, Philipp Greiner, Albrecht Schmidt, Heinrich Hussmann, and Ville M\u00e4kel\u00e4. 2022. MindPhone: Mindful Reflection at Unlock Can Reduce Absentminded Smartphone Use. In Designing Interactive Systems Conference. 1818\u20131830.",
+      "doi": "10.1145/3532106.3533575"
+    },
+    {
+      "text": "Naundefineda Terzimehi\u0107, Luke Haliburton, Philipp Greiner, Albrecht Schmidt, Heinrich Hussmann, and Ville M\u00e4kel\u00e4. 2022. MindPhone: Mindful Reflection at Unlock Can Reduce Absentminded Smartphone Use. In Designing Interactive Systems Conference (Virtual Event, Australia) (DIS \u201922). Association for Computing Machinery, New York, NY, USA, 1818\u20131830. https://doi.org/10.1145/3532106.3533575",
+      "doi": "10.1145/3532106.3533575"
+    },
+    {
+      "text": "Robert\u00a0L Thorndike. 1953. Who belongs in the family. In Psychometrika. Citeseer.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan\u00a0A. Tran, Katie\u00a0S. Yang, Katie Davis, and Alexis Hiniker. 2019. Modeling the Engagement-Disengagement Cycle of Compulsive Phone Use. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI \u201919). Association for Computing Machinery, New York, NY, USA, 1\u201314. https://doi.org/10.1145/3290605.3300542",
+      "doi": "10.1145/3290605.3300542"
+    },
+    {
+      "text": "Liam\u00a0D. Turner, Stuart\u00a0M. Allen, and Roger\u00a0M. Whitaker. 2017. Reachable but not receptive: Enhancing smartphone interruptibility prediction by modelling the extent of user engagement with notifications. Pervasive and Mobile Computing 40 (2017), 480\u2013494. https://doi.org/10.1016/j.pmcj.2017.01.011",
+      "doi": "10.1016/j.pmcj.2017.01.011"
+    },
+    {
+      "text": "Niels van Berkel, Chu Luo, Theodoros Anagnostopoulos, Denzil Ferreira, Jorge Goncalves, Simo Hosio, and Vassilis Kostakos. 2016. A Systematic Assessment of Smartphone Usage Gaps. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (San Jose, California, USA) (CHI \u201916). Association for Computing Machinery, New York, NY, USA, 4711\u20134721. https://doi.org/10.1145/2858036.2858348",
+      "doi": "10.1145/2858036.2858348"
+    },
+    {
+      "text": "Steven Van\u00a0Canneyt, Marc Bron, Andy Haines, and Mounia Lalmas. 2017. Describing Patterns and Disruptions in Large Scale Mobile App Usage Data. In Proceedings of the 26th International Conference on World Wide Web Companion (Perth, Australia) (WWW \u201917 Companion). International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE, 1579\u20131584. https://doi.org/10.1145/3041021.3051113",
+      "doi": "10.1145/3041021.3051113"
+    },
+    {
+      "text": "Wijnand\u00a0AP Van\u00a0Tilburg and Eric\u00a0R Igou. 2012. On boredom: Lack of challenge and meaning as distinct boredom experiences. Motivation and Emotion 36 (2012), 181\u2013194.",
+      "doi": ""
+    },
+    {
+      "text": "Aku Visuri, Niels van Berkel, Chu Luo, Jorge Goncalves, Denzil Ferreira, and Vassilis Kostakos. 2017. Predicting Interruptibility for Manual Data Collection: A Cluster-Based User Model. In Proceedings of the 19th International Conference on Human-Computer Interaction with Mobile Devices and Services (Vienna, Austria) (MobileHCI \u201917). Association for Computing Machinery, New York, NY, USA, Article 12, 14\u00a0pages. https://doi.org/10.1145/3098279.3098532",
+      "doi": "10.1145/3098279.3098532"
+    },
+    {
+      "text": "Sara\u00a0Alida Volkmer and Eva Lermer. 2019. Unhappy and addicted to your phone? \u2013 Higher mobile phone use is associated with lower well-being. Computers in Human Behavior 93 (2019), 210\u2013218. https://doi.org/10.1016/j.chb.2018.12.015",
+      "doi": "10.1016/j.chb.2018.12.015"
+    },
+    {
+      "text": "Heli V\u00e4\u00e4t\u00e4j\u00e4 and Paul Egglestone. 2012. Briefing news reporting with mobile assignments: perceptions, needs and challenges. In Proceedings of the ACM 2012 conference on Computer Supported Cooperative Work(CSCW \u201912). Association for Computing Machinery, New York, NY, USA, 485\u2013494. https://doi.org/10.1145/2145204.2145280",
+      "doi": "10.1145/2145204.2145280"
+    },
+    {
+      "text": "Dominik Weber, Alexandra Voit, Gisela Kollotzek, and Niels Henze. 2019. Annotif: A System for Annotating Mobile Notifcations in User Studies. In Proceedings of the 18th International Conference on Mobile and Ubiquitous Multimedia(Pisa, Italy) (MUM \u201919). Association for Computing Machinery, New York, NY, USA, Article 24, 12\u00a0pages. https://doi.org/10.1145/3365610.3365611",
+      "doi": "10.1145/3365610.3365611"
+    },
+    {
+      "text": "Thomas\u00a0D. White, Gordon Fraser, and Guy\u00a0J. Brown. 2019. Improving Random GUI Testing with Image-Based Widget Detection. In Proceedings of the 28th ACM SIGSOFT International Symposium on Software Testing and Analysis (Beijing, China) (ISSTA 2019). Association for Computing Machinery, New York, NY, USA, 307\u2013317. https://doi.org/10.1145/3293882.3330551",
+      "doi": "10.1145/3293882.3330551"
+    },
+    {
+      "text": "Qiang Xu, Jeffrey Erman, Alexandre Gerber, Zhuoqing Mao, Jeffrey Pang, and Shobha Venkataraman. 2011. Identifying Diverse Usage Behaviors of Smartphone Apps. In Proceedings of the 2011 ACM SIGCOMM Conference on Internet Measurement Conference (Berlin, Germany) (IMC \u201911). Association for Computing Machinery, New York, NY, USA, 329\u2013344. https://doi.org/10.1145/2068816.2068847",
+      "doi": "10.1145/2068816.2068847"
+    },
+    {
+      "text": "Xiao Yang, Nilam Ram, Thomas Robinson, and Byron Reeves. 2019. Using Screenshots to Predict Task Switching on Smartphones. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) (CHI EA \u201919). Association for Computing Machinery, New York, NY, USA, 1\u20136. https://doi.org/10.1145/3290607.3313089",
+      "doi": "10.1145/3290607.3313089"
+    },
+    {
+      "text": "Nalingna Yuan, Heidi\u00a0M Weeks, Rosa Ball, Mark\u00a0W Newman, Yung-Ju Chang, and Jenny\u00a0S Radesky. 2019. How much do parents actually use their smartphones? Pilot study comparing self-report to passive sensing. Pediatric research 86, 4 (2019), 416\u2013418.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaoyi Zhang, Lilian de Greef, Amanda Swearngin, Samuel White, Kyle Murray, Lisa Yu, Qi Shan, Jeffrey Nichols, Jason Wu, Chris Fleizach, Aaron Everitt, and Jeffrey\u00a0P Bigham. 2021. Screen Recognition: Creating Accessibility Metadata for Mobile Applications from Pixels. Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3411764.3445186",
+      "doi": "10.1145/3411764.3445186"
+    },
+    {
+      "text": "Sha Zhao, Julian Ramos, Jianrong Tao, Ziwen Jiang, Shijian Li, Zhaohui Wu, Gang Pan, and Anind\u00a0K. Dey. 2016. Discovering Different Kinds of Smartphone Users through Their Application Usage Behaviors. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing (Heidelberg, Germany) (UbiComp \u201916). Association for Computing Machinery, New York, NY, USA, 498\u2013509. https://doi.org/10.1145/2971648.2971696",
+      "doi": "10.1145/2971648.2971696"
+    },
+    {
+      "text": "\u00c9ilish Duke and Christian Montag. 2017. Smartphone addiction, daily interruptions and self-reported productivity. Addictive Behaviors Reports 6 (2017), 90\u201395. https://doi.org/10.1016/j.abrep.2017.07.002",
+      "doi": ""
+    }
+  ]
+}

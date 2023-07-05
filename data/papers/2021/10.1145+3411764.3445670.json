@@ -1,0 +1,521 @@
+{
+  "doi": "10.1145/3411764.3445670",
+  "title": "A Review on Strategies for Data Collection, Reflection, and Communication in Eating Disorder Apps",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-19",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Eating disorders (EDs) constitute a mental illness with the highest mortality. Today, mobile health apps provide promising means to ED patients for managing their condition. Apps enable users to monitor their eating habits, thoughts, and feelings, and offer analytic insights for behavior change. However, not only have scholars critiqued the clinical validity of these apps, their underlying design principles are not well understood. Through a review of 34 ED apps, we uncovered 11 different data types ED apps collect, and 9 strategies they employ to support collection and reflection. Drawing upon personal health informatics and visualization frameworks, we found that most apps did not adhere to best practices on what and how data should be collected from and reflected to users, or how data-driven insights should be communicated. Our review offers suggestions for improving the design of ED apps such that they can be useful and meaningful in ED recovery.",
+  "authors": [
+    {
+      "name": "Anjali Devakumar",
+      "institution": "College of Computing Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659702582",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jay Modh",
+      "institution": "College of Computing Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701744",
+      "orcid": "missing"
+    },
+    {
+      "name": "Bahador Saket",
+      "institution": "Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81553824356",
+      "orcid": "missing"
+    },
+    {
+      "name": "Eric P. S. Baumer",
+      "institution": "Computer Science & Engineering Lehigh University, United States",
+      "img": "/do/10.1145/contrib-81311485671/rel-imgonly/dsc_3664-edit-square.png",
+      "acmid": "81311485671",
+      "orcid": "0000-0001-5338-4421"
+    },
+    {
+      "name": "Munmun De Choudhury",
+      "institution": "School of Interactive Computing Georgia Institute of Technology, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81343491309",
+      "orcid": "0000-0002-8939-264X"
+    }
+  ],
+  "references": [
+    {
+      "text": "[n.d.]. 12 Steps Overeaters Anonymous on the App\u00a0Store. https://apps.apple.com/us/app/12-steps-overeaters-anonymous/id708666976",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. 7 Cups: Anxiety & Stress Chat. https://apps.apple.com/us/app/7-cups-anxiety-stress-chat/id921814681",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. Anorexia Nervosa Abnormal Eating Disorder & Habits - Apps on Google Play. https://play.google.com/store/apps/details?id=com.OneLife2Care.AnorexiaNervosa&hl=en&gl=US",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. Anorexia Recovery Guide - Apps on Google Play. https://play.google.com/store/apps/details?id=com.andromo.dev565055.app784133&hl=en&gl=US",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. Blue Buddy on the App\u00a0Store. https://apps.apple.com/us/app/blue-buddy/id1221007158",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. BoosterBuddy on the App\u00a0Store. https://apps.apple.com/us/app/boosterbuddy/id906538988",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. CBT Diary - Apps on Google Play. https://play.google.com/store/apps/details?id=pl.com.continuum.cbtbasicemotionsdiary&hl=en_US&gl=US",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. deVicer: 90-Day Binge Eating Disorder Therapy - Apps on Google Play. https://play.google.com/store/apps/details?id=life.devicer.devicer&hl=en_US&gl=US",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. Eating Disorder Guide - Apps on Google Play. https://play.google.com/store/apps/details?id=com.andromo.dev663679.app739196&hl=en&gl=US",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. Eating Disorder Recovery app. https://apps.apple.com/gb/app/eating-disorder-recovery-app/id1477741610",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. GG Positive Body Image on the App\u00a0Store. https://apps.apple.com/us/app/gg-positive-body-image/id1240093612",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. Gratitude: Diary, Vision Board. https://apps.apple.com/us/app/gratitude-diary-vision-board/id1372575227",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. HOW TO STOP BINGE EATING EFFECTIVELY - Apps on Google Play. https://play.google.com/store/apps/details?id=how.to.stop.binge.eating.hl2&hl=en&gl=US",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. Jourvie. https://apps.apple.com/de/app/jourvie/id1076221598",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. MindShift CBT - Anxiety Relief. https://apps.apple.com/us/app/mindshift-cbt-anxiety-relief/id634684825",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. RealifeChange on the App\u00a0Store. https://apps.apple.com/us/app/realifechange/id962955498",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. Rise Up + Recover: An Eating Disorder Monitoring and Management Tool for Anorexia, Bulimia, Binge Eating, and EDNOS on the App\u00a0Store. https://apps.apple.com/us/app/rise-up-recover-eating-disorder-monitoring-management/id509287014",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. RR: Eating Disorder Management on the App\u00a0Store. https://apps.apple.com/us/app/rr-eating-disorder-management/id457360959",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. What\u2019s Up? - A Mental Health App. https://apps.apple.com/us/app/whats-up-a-mental-health-app/id968251160",
+      "doi": ""
+    },
+    {
+      "text": "[n.d.]. Woebot - Your Self-Care Expert. https://apps.apple.com/us/app/woebot-your-self-care-expert/id1305375832",
+      "doi": ""
+    },
+    {
+      "text": "2017. What are Eating Disorders?https://www.nationaleatingdisorders.org/what-are-eating-disorders",
+      "doi": ""
+    },
+    {
+      "text": "Jiska\u00a0J. Aardoom, Alexandra\u00a0E. Dingemans, and Eric\u00a0F. Van\u00a0Furth. 2016. E-Health Interventions for Eating Disorders: Emerging Findings, Issues, and Opportunities. Current Psychiatry Reports 18, 4 (March 2016), 42. https://doi.org/10.1007/s11920-016-0673-6",
+      "doi": ""
+    },
+    {
+      "text": "Urs-Vito Albrecht. 2013. Transparency of health-apps for trust and decision making. Journal of medical Internet research 15, 12 (2013), e277.",
+      "doi": ""
+    },
+    {
+      "text": "Kathina Ali, Louise Farrer, Daniel\u00a0B Fassnacht, Amelia Gulliver, Stephanie Bauer, and Kathleen\u00a0M Griffiths. 2017. Perceived barriers and facilitators towards help-seeking for eating disorders: A systematic review. International Journal of Eating Disorders 50, 1 (2017), 9\u201321.",
+      "doi": ""
+    },
+    {
+      "text": "Madeline Altabe and J\u00a0Kevin Thompson. 1996. Body image: A cognitive self-schema construct?Cognitive Therapy and Research 20, 2 (1996), 171\u2013193.",
+      "doi": ""
+    },
+    {
+      "text": "Robert Amar, James Eagan, and John Stasko. [n.d.]. Low-Level Components of Analytic Activity in Information Visualization. ([n.\u00a0d.]), 7.",
+      "doi": ""
+    },
+    {
+      "text": "Emily Anthes. 2016. Pocket psychiatry: mobile mental-health apps have exploded onto the market, but few have been thoroughly tested. Nature 532, 7597 (2016), 20\u201324.",
+      "doi": ""
+    },
+    {
+      "text": "Rheanna\u00a0N. Ata, Alison\u00a0Bryant Ludden, and Megan\u00a0M. Lally. 2007. The Effects of Gender and Family, Friend, and Media Influences on Eating Behaviors and Body Image During Adolescence. Journal of Youth and Adolescence 36, 8 (Nov. 2007), 1024\u20131037. https://doi.org/10.1007/s10964-006-9159-x",
+      "doi": ""
+    },
+    {
+      "text": "David Bakker, Nikolaos Kazantzis, Debra Rickwood, and Nikki Rickard. 2016. Mental health smartphone apps: review and evidence-based recommendations for future developments. JMIR mental health 3, 1 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Stephanie Bauer and Markus Moessner. 2013. Harnessing the power of technology for the treatment and prevention of eating disorders. The International Journal of Eating Disorders 46, 5 (July 2013), 508\u2013515. https://doi.org/10.1002/eat.22109",
+      "doi": ""
+    },
+    {
+      "text": "Eric P.\u00a0S. Baumer. 2015. Reflective Informatics: Conceptual Dimensions for Designing Technologies of Reflection. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems(CHI \u201915). Association for Computing Machinery, New York, NY, USA, 585\u2013594. https://doi.org/10.1145/2702123.2702234",
+      "doi": "10.1145/2702123.2702234"
+    },
+    {
+      "text": "Eric P.\u00a0S. Baumer. 2015. Usees. In Proc CHI. ACM Press, 3295\u20133298. https://doi.org/10.1145/2702123.2702147",
+      "doi": ""
+    },
+    {
+      "text": "Eric P.\u00a0S. Baumer, Vera Khovanskaya, Mark Matthews, Lindsay Reynolds, Victoria Schwanda\u00a0Sosik, and Geri Gay. 2014. Reviewing Reflection: On the Use of Reflection in Interactive System Design. In Proceedings of the ACM Conference on Designing Interactive Systems (DIS). ACM Press, Vancouver, BC, 93\u2013102. https://doi.org/10.1145/2598510.2598598",
+      "doi": "10.1145/2598510.2598598"
+    },
+    {
+      "text": "Dror Ben-Zeev, Rachel\u00a0M Brian, Kelly\u00a0A Aschbrenner, Geneva Jonathan, and Sandra Steingard. 2018. Video-based mobile health interventions for people with schizophrenia: Bringing the \u201cpocket therapist\u201d to life.Psychiatric rehabilitation journal 41, 1 (2018), 39.",
+      "doi": ""
+    },
+    {
+      "text": "Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. Qualitative research in psychology 3, 2 (2006), 77\u2013101.",
+      "doi": ""
+    },
+    {
+      "text": "Eleanor\u00a0R Burgess, Alice\u00a0Renwen Zhang, Jessica\u00a0L Feuston, Madhu\u00a0C Reddy, Sindhu\u00a0Kiranmai Ernala, Munmun De\u00a0Choudhury, Stephen Schueller, Adrian Aguilera, and Mary Czerwinski. 2020. Technology Ecosystems: Rethinking Resources for Mental Health. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Jane\u00a0M Burns, Lauren\u00a0A Durkin, and Jonathan Nicholas. 2009. Mental health of young people in the United States: what role can the internet play in reducing stigma and promoting help seeking?Journal of Adolescent Health 45, 1 (2009), 95\u201397.",
+      "doi": ""
+    },
+    {
+      "text": "Patricia\u00a0A Cavazos-Rehg, Melissa\u00a0J Krauss, Shaina\u00a0J Costello, Nina Kaiser, Elizabeth\u00a0S Cahn, Ellen\u00a0E Fitzsimmons-Craft, and Denise\u00a0E Wilfley. 2019. \u201cI just want to be skinny.\u201d: A content analysis of tweets expressing eating disorder symptoms. PloS one 14, 1 (2019), e0207506.",
+      "doi": ""
+    },
+    {
+      "text": "Steven Chan, John Torous, Ladson Hinton, and Peter Yellowlees. 2015. Towards a Framework for Evaluating Mobile Mental Health Apps. Telemedicine Journal and E-Health: The Official Journal of the American Telemedicine Association 21, 12 (Dec. 2015), 1038\u20131041. https://doi.org/10.1089/tmj.2015.0002",
+      "doi": ""
+    },
+    {
+      "text": "Steven\u00a0Richard Chan, John Torous, Ladson Hinton, and Peter Yellowlees. 2014. Mobile tele-mental health: increasing applications and a move to hybrid models of care. In Healthcare, Vol.\u00a02. Multidisciplinary Digital Publishing Institute, 220\u2013233.",
+      "doi": ""
+    },
+    {
+      "text": "Stevie Chancellor, Andrea Hu, and Munmun De\u00a0Choudhury. 2018. Norms matter: Contrasting social support around behavior change in online weight loss communities. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3173574.3174240"
+    },
+    {
+      "text": "Stevie Chancellor, Tanushree Mitra, and Munmun De\u00a0Choudhury. 2016. Recovery amid pro-anorexia: Analysis of recovery in social media. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, 2111\u20132123.",
+      "doi": "10.1145/2858036.2858246"
+    },
+    {
+      "text": "Eun\u00a0Kyoung Choe and Saeed Abdullah. 2017. A Balanced Approach for Self-Monitoring Applications. (2017), 11.",
+      "doi": ""
+    },
+    {
+      "text": "Eun\u00a0Kyoung Choe, Nicole\u00a0B. Lee, Bongshin Lee, Wanda Pratt, and Julie\u00a0A. Kientz. 2014. Understanding quantified-selfers\u2019 practices in collecting and exploring personal data. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201914). Association for Computing Machinery, New York, NY, USA, 1143\u20131152. https://doi.org/10.1145/2556288.2557372",
+      "doi": "10.1145/2556288.2557372"
+    },
+    {
+      "text": "James Clawson, Jessica\u00a0A Pater, Andrew\u00a0D Miller, Elizabeth\u00a0D Mynatt, and Lena Mamykina. 2015. No longer wearing: investigating the abandonment of personal health-tracking technologies on craigslist. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing. 647\u2013658.",
+      "doi": "10.1145/2750858.2807554"
+    },
+    {
+      "text": "Felicia Cordeiro, Daniel\u00a0A. Epstein, Edison Thomaz, Elizabeth Bales, Arvind\u00a0K. Jagannathan, Gregory\u00a0D. Abowd, and James Fogarty. 2015. Barriers and Negative Nudges: Exploring Challenges in Food Journaling. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems(CHI \u201915). Association for Computing Machinery, New York, NY, USA, 1159\u20131162. https://doi.org/10.1145/2702123.2702155",
+      "doi": "10.1145/2702123.2702155"
+    },
+    {
+      "text": "David Coyle and Gavin Doherty. 2009. Clinical evaluations and collaborative design: developing new technologies for mental healthcare interventions. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2051\u20132060.",
+      "doi": "10.1145/1518701.1519013"
+    },
+    {
+      "text": "Andrea Cuttone, Michael\u00a0Kai Petersen, and Jakob\u00a0Eg Larsen. 2014. Four Data Visualization Heuristics to Facilitate Reflection in Personal Informatics. In Universal Access in Human-Computer Interaction. Design for All and Accessibility Practice(Lecture Notes in Computer Science), Constantine Stephanidis and Margherita Antona (Eds.). Springer International Publishing, Cham, 541\u2013552. https://doi.org/10.1007/978-3-319-07509-9_51",
+      "doi": ""
+    },
+    {
+      "text": "Larry Davidson and John\u00a0S Strauss. 1992. Sense of self in recovery from severe mental illness. Psychology and Psychotherapy: Theory, Research and Practice 65, 2(1992), 131\u2013145.",
+      "doi": ""
+    },
+    {
+      "text": "Madlen Davies. 2015. From healthy to tube fed in just five months: Teenager develops anorexia after becoming obsessed with calorie counting app. In Daily mail.",
+      "doi": ""
+    },
+    {
+      "text": "Munmun De\u00a0Choudhury. 2015. Anorexia on Tumblr: A Characterization Study. In Proceedings of the 5th International Conference on Digital Health 2015. ACM, 43\u201350.",
+      "doi": "10.1145/2750511.2750515"
+    },
+    {
+      "text": "Gavin Doherty, David Coyle, and Mark Matthews. 2010. Design and evaluation guidelines for mental health technologies. Interacting with computers 22, 4 (2010), 243\u2013252.",
+      "doi": ""
+    },
+    {
+      "text": "Tara Donker, Katherine Petrie, Judy Proudfoot, Janine Clarke, Mary-Rose Birch, and Helen Christensen. 2013. Smartphones for smarter delivery of mental health programs: a systematic review. Journal of medical Internet research 15, 11 (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0V Eikey. 2016. Privacy and weight loss apps: a first look at how women with eating disorders use social features. In Proceedings of the 19th International Conference on Supporting Group Work. 413\u2013415.",
+      "doi": "10.1145/2957276.2996282"
+    },
+    {
+      "text": "Elizabeth\u00a0V Eikey. 2016. Providers\u2019 Perceptions of the Impact of Weight Loss Apps on Users with Eating Disorders. In Proceedings of the 2016 ACM SIGMIS Conference on Computers and People Research. 19\u201320.",
+      "doi": "10.1145/2890602.2906194"
+    },
+    {
+      "text": "Elizabeth\u00a0V Eikey, Yunan Chen, and Kai Zheng. 2019. Do Recovery Apps Even Exist?: Why College Women with Eating Disorders Use (But Not Recommend) Diet and Fitness Apps Over Recovery Apps. In International Conference on Information. Springer, 727\u2013740.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0V Eikey and Madhu\u00a0C Reddy. 2017. \u201d It\u2019s Definitely Been a Journey\u201d A Qualitative Study on How Women with Eating Disorders Use Weight Loss Apps. In Proceedings of the 2017 CHI conference on human factors in computing systems. 642\u2013654.",
+      "doi": "10.1145/3025453.3025591"
+    },
+    {
+      "text": "Elizabeth\u00a0Victoria Eikey, Madhu\u00a0C Reddy, Kayla\u00a0M Booth, Lynette Kvasny, Johnna\u00a0L Blair, Victor Li, and Erika\u00a0S Poole. 2017. Desire to be underweight: Exploratory study on a weight loss app community and user perceptions of the impact on disordered eating behaviors. JMIR mHealth and uHealth 5, 10 (2017), e150.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Epstein, Felicia Cordeiro, Elizabeth Bales, James Fogarty, and Sean Munson. 2014. Taming Data Complexity in Lifelogs: Exploring Visual Cuts of Personal Informatics Data. In Proceedings of the ACM Conference on Designing Interactive Systems (DIS). ACM, Vancouver, BC, 667\u2013676. https://doi.org/10.1145/2598510.2598558",
+      "doi": "10.1145/2598510.2598558"
+    },
+    {
+      "text": "Daniel\u00a0A. Epstein, An Ping, James Fogarty, and Sean\u00a0A. Munson. 2015. A lived informatics model of personal informatics. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing - UbiComp \u201915. ACM Press, Osaka, Japan, 731\u2013742.",
+      "doi": "10.1145/2750858.2804250"
+    },
+    {
+      "text": "Christopher\u00a0G Fairburn, Phillipa\u00a0J Hay, and Sarah\u00a0L Welch. 1993. Binge eating and bulimia nervosa: Distribution and determinants.(1993).",
+      "doi": ""
+    },
+    {
+      "text": "Christopher\u00a0G Fairburn and Emily\u00a0R Rothwell. 2015. Apps and eating disorders: A systematic clinical appraisal. International Journal of Eating Disorders 48, 7 (2015), 1038\u20131046.",
+      "doi": ""
+    },
+    {
+      "text": "Jessica\u00a0L Feuston and Anne\u00a0Marie Piper. 2019. Everyday experiences: small stories and mental illness on Instagram. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3290605.3300495"
+    },
+    {
+      "text": "Rowanne Fleck and Geraldine Fitzpatrick. 2010. Reflecting on reflection: framing a design landscape. In Proceedings of the 22nd Conference of the Computer-Human Interaction Special Interest Group of Australia on Computer-Human Interaction(OZCHI \u201910). Association for Computing Machinery, New York, NY, USA, 216\u2013223. https://doi.org/10.1145/1952222.1952269",
+      "doi": "10.1145/1952222.1952269"
+    },
+    {
+      "text": "BJ Fogg. 1998. Persuasive computers: perspectives and research directions. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems(CHI \u201998). ACM Press/Addison-Wesley Publishing Co., USA, 225\u2013232. https://doi.org/10.1145/274644.274677",
+      "doi": "10.1145/274644.274677"
+    },
+    {
+      "text": "Andrea\u00a0K Graham, Jennifer\u00a0E Wildes, Madhu Reddy, Sean\u00a0A Munson, C Barr\u00a0Taylor, and David\u00a0C Mohr. 2019. User-centered design for technology-enabled services for eating disorders. International Journal of Eating Disorders 52, 10 (2019), 1095\u20131107.",
+      "doi": ""
+    },
+    {
+      "text": "Scott Griffiths, Susan\u00a0L Rossell, Deborah Mitchison, Stuart\u00a0B Murray, and Jonathan\u00a0M Mond. 2018. Pathways into treatment for eating disorders: A quantitative examination of treatment barriers and treatment attitudes. Eating disorders 26, 6 (2018), 556\u2013574.",
+      "doi": ""
+    },
+    {
+      "text": "Laura\u00a0M Hart, M\u00a0Teresa Granillo, Anthony\u00a0F Jorm, and Susan\u00a0J Paxton. 2011. Unmet need for treatment in the eating disorders: a systematic review of eating disorder specific treatment seeking among community cases. Clinical psychology review 31, 5 (2011), 727\u2013735.",
+      "doi": ""
+    },
+    {
+      "text": "Sander Hermsen, Jonas Moons, Peter Kerkhof, Carina Wiekens, and Martijn De\u00a0Groot. 2017. Determinants for sustained use of an activity tracker: observational study. JMIR mHealth and uHealth 5, 10 (2017), e164.",
+      "doi": ""
+    },
+    {
+      "text": "Anja Hilbert, Hans\u00a0W Hoek, and Ricarda Schmidt. 2017. Evidence-based clinical guidelines for eating disorders: international comparison. Current opinion in psychiatry 30, 6 (2017), 423.",
+      "doi": ""
+    },
+    {
+      "text": "Mahsa Honary, Beth Bell, Sarah Clinch, Sarah Wild, and Roisin McNaney. 2019. Understanding the Role of Healthy Eating and Fitness Mobile Apps in the Formation of Maladaptive Eating and Exercise Behaviors in Young People. JMIR mHealth and uHealth 7 (June 2019), e14239.",
+      "doi": ""
+    },
+    {
+      "text": "LK Hsu, Arthur\u00a0H Crisp, and John\u00a0S Callender. 1992. Recovery in anorexia nervosa\u2014the patient\u2019s perspective. International Journal of Eating Disorders 11, 4 (1992), 341\u2013350.",
+      "doi": ""
+    },
+    {
+      "text": "Corinna Jacobi, Chris Hayward, Martina de Zwaan, Helena\u00a0C Kraemer, and W\u00a0Stewart Agras. 2004. Coming to terms with risk factors for eating disorders: application of risk terminology and suggestions for a general taxonomy.Psychological bulletin 130, 1 (2004), 19.",
+      "doi": ""
+    },
+    {
+      "text": "Adrienne\u00a0S Juarascio, Stephanie\u00a0M Manasse, Stephanie\u00a0P Goldstein, Evan\u00a0M Forman, and Meghan\u00a0L Butryn. 2015. Review of smartphone applications for the treatment of eating disorders. European Eating Disorders Review 23, 1 (2015), 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew Kay, Dan Morris, mc schraefel, and Julie\u00a0A. Kientz. 2013. There\u2019s no such thing as gaining a pound: reconsidering the bathroom scale user interface. In Proceedings of the 2013 ACM international joint conference on Pervasive and ubiquitous computing(UbiComp \u201913). Association for Computing Machinery, New York, NY, USA, 401\u2013410. https://doi.org/10.1145/2493432.2493456",
+      "doi": "10.1145/2493432.2493456"
+    },
+    {
+      "text": "Alan\u00a0E Kazdin, Ellen\u00a0E Fitzsimmons-Craft, and Denise\u00a0E Wilfley. 2017. Addressing critical gaps in the treatment of eating disorders. International Journal of Eating Disorders 50, 3 (2017), 170\u2013189.",
+      "doi": ""
+    },
+    {
+      "text": "Christina Kelley, Bongshin Lee, and Lauren Wilcox. 2017. Self-tracking for mental wellness: understanding expert perspectives and student experiences. In Proceedings of the 2017 CHI conference on human factors in computing systems. 629\u2013641.",
+      "doi": "10.1145/3025453.3025750"
+    },
+    {
+      "text": "Anna Keski-Rahkonen and Federica Tozzi. 2005. The process of recovery in eating disorder sufferers\u2019 own words: An Internet-based study. International Journal of Eating Disorders 37, S1 (2005).",
+      "doi": ""
+    },
+    {
+      "text": "Vera Khovanskaya, Eric\u00a0PS Baumer, Dan Cosley, Stephen Voida, and Geri Gay. 2013. \u201d Everybody knows what you\u2019re doing\u201d a critical design approach to personal informatics. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 3403\u20133412.",
+      "doi": "10.1145/2470654.2466467"
+    },
+    {
+      "text": "Younghoon Kim and Jeffrey Heer. 2018. Assessing Effects of Task and Data Distribution on the Effectiveness of Visual Encodings. Computer Graphics Forum 37, 3 (June 2018), 157\u2013167. https://doi.org/10.1111/cgf.13409",
+      "doi": ""
+    },
+    {
+      "text": "Kiron Koshy, Christopher Limb, Buket Gundogan, Katharine Whitehurst, and Daniyal\u00a0J Jafree. 2017. Reflective practice in health care and how to reflect effectively. International journal of surgery. Oncology 2, 6 (2017), e20.",
+      "doi": ""
+    },
+    {
+      "text": "Ian Li, Anind Dey, and Jodi Forlizzi. 2010. A Stage-Based Model of Personal Informatics Systems. In Proc CHI. Atlanta, GA, 557\u2013566.",
+      "doi": "10.1145/1753326.1753409"
+    },
+    {
+      "text": "Jock Mackinlay. 1986. Automating the design of graphical presentations of relational information. ACM Transactions on Graphics 5, 2 (April 1986), 110\u2013141. https://doi.org/10.1145/22949.22950",
+      "doi": "10.1145/22949.22950"
+    },
+    {
+      "text": "Arwa Mahdawi. 2014. The unhealthy side of wearable fitness devices. The Guardian 3(2014).",
+      "doi": ""
+    },
+    {
+      "text": "Karen Mann, Jill Gordon, and Anna MacLeod. 2009. Reflection and reflective practice in health professions education: a systematic review. Advances in health sciences education 14, 4 (2009), 595\u2013621.",
+      "doi": ""
+    },
+    {
+      "text": "Rose McMaster, Barbara Beale, Sharon Hillege, and Sue Nagy. 2004. The Parent Experience of Eating Disorders: Interactions with Health Professionals. International Journal of Mental Health Nursing 13, 1 (March 2004), 67\u201373. https://doi.org/10.1111/j.1447-0349.2004.00310.x",
+      "doi": ""
+    },
+    {
+      "text": "Andrea Mercurio and Brandi Rima. 2011. Watching My Weight: Self-Weighing, Body Surveillance, and Body Dissatisfaction. Sex Roles 65, 1-2 (July 2011), 47\u201355. https://doi.org/10.1007/s11199-011-9980-x",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0C Mohr, Michelle\u00a0Nicole Burns, Stephen\u00a0M Schueller, Gregory Clarke, and Michael Klinkman. 2013. Behavioral intervention technologies: evidence review and recommendations for future research in mental health. General hospital psychiatry 35, 4 (2013), 332\u2013338.",
+      "doi": ""
+    },
+    {
+      "text": "David\u00a0C Mohr, Ken\u00a0R Weingardt, Madhu Reddy, and Stephen\u00a0M Schueller. 2017. Three problems with current digital mental health research... and three things we can do about them. Psychiatric services 68, 5 (2017), 427\u2013429.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0L Murnane, David Huffaker, and Gueorgi Kossinets. 2015. Mobile health apps: adoption, adherence, and abandonment. In Adjunct Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2015 ACM International Symposium on Wearable Computers. 261\u2013264.",
+      "doi": "10.1145/2800835.2800943"
+    },
+    {
+      "text": "Rebecca Murphy, Suzanne Straebler, Zafra Cooper, and Christopher\u00a0G. Fairburn. 2010. Cognitive Behavioral Therapy for Eating Disorders. The Psychiatric Clinics of North America 33, 3 (Sept. 2010), 611\u2013627. https://doi.org/10.1016/j.psc.2010.04.004",
+      "doi": ""
+    },
+    {
+      "text": "Martha Neary and Stephen\u00a0M Schueller. 2018. State of the field of mental health apps. Cognitive and Behavioral Practice 25, 4 (2018), 531\u2013537.",
+      "doi": ""
+    },
+    {
+      "text": "Jessica\u00a0A Pater, Oliver\u00a0L Haimson, Nazanin Andalibi, and Elizabeth\u00a0D Mynatt. 2016. \u201cHunger Hurts but Starving Works\u201d Characterizing the Presentation of Eating Disorders Online. In Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing. 1185\u20131200.",
+      "doi": "10.1145/2818048.2820030"
+    },
+    {
+      "text": "Zachary Pousman, John Stasko, and Michael Mateas. 2007. Casual Information Visualization: Depictions of Data in Everyday Life. IEEE Transactions on Visualization and Computer Graphics 13, 6 (Nov. 2007), 1145\u20131152. https://doi.org/10.1109/TVCG.2007.70541",
+      "doi": "10.1109/TVCG.2007.70541"
+    },
+    {
+      "text": "Adam\u00a0C Powell, Adam\u00a0B Landman, and David\u00a0W Bates. 2014. In search of a few good apps. Jama 311, 18 (2014), 1851\u20131852.",
+      "doi": ""
+    },
+    {
+      "text": "Adam\u00a0C Powell, John Torous, Steven Chan, Geoffrey\u00a0Stephen Raynor, Erik Shwarts, Meghan Shanahan, and Adam\u00a0B Landman. 2016. Interrater Reliability of mHealth App Rating Measures: Analysis of Top Depression and Smoking Cessation Apps. JMIR mHealth and uHealth 4, 1 (Feb. 2016). https://doi.org/10.2196/mhealth.5176",
+      "doi": ""
+    },
+    {
+      "text": "Amy\u00a0Leigh Rathbone, Laura Clarry, and Julie Prescott. 2017. Assessing the efficacy of mobile health apps using the basic principles of cognitive behavioral therapy: systematic review. Journal of medical Internet research 19, 11 (2017), e399.",
+      "doi": ""
+    },
+    {
+      "text": "Bahador Saket, Alex Endert, and Cagatay Demiralp. 2019. Task-Based Effectiveness of Basic Visualizations. IEEE Transactions on Visualization and Computer Graphics 25, 7 (July 2019), 2505\u20132512. https://ieeexplore.ieee.org/document/8354901/",
+      "doi": ""
+    },
+    {
+      "text": "Purvi Saraiya, Chris North, and Karen Duca. 2005. An insight-based methodology for evaluating bioinformatics visualizations. IEEE transactions on visualization and computer graphics 11, 4(2005), 443\u2013456.",
+      "doi": "10.1109/TVCG.2005.53"
+    },
+    {
+      "text": "Alper Sarikaya and Michael Gleicher. 2018. Scatterplots: Tasks, Data, and Designs. IEEE Transactions on Visualization and Computer Graphics 24, 1 (Jan. 2018), 402\u2013412. https://doi.org/10.1109/TVCG.2017.2744184",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0A. Sch\u00f6n. 1983. The Reflective Practitioner. Basic Books, New York.",
+      "doi": ""
+    },
+    {
+      "text": "Roz Shafran, Christopher\u00a0G. Fairburn, Paul Robinson, and Bryan Lask. 2004. Body Checking and Its Avoidance in Eating Disorders. International Journal of Eating Disorders 35, 1 (Jan. 2004), 93\u2013101. https://doi.org/10.1002/eat.10228",
+      "doi": ""
+    },
+    {
+      "text": "Nelson Shen, Michael-Jane Levitan, Andrew Johnson, Jacqueline\u00a0Lorene Bender, Michelle Hamilton-Page, Alejandro Alex\u00a0R. Jadad, and David Wiljer. 2015. Finding a depression app: a review and content analysis of the depression app marketplace. JMIR mHealth and uHealth 3, 1 (Feb. 2015), e16. https://doi.org/10.2196/mhealth.3713",
+      "doi": ""
+    },
+    {
+      "text": "Rebecca\u00a0M. Shingleton, Lauren\u00a0K. Richards, and Heather Thompson-Brenner. 2013. Using Technology Within the Treatment of Eating Disorders: A Clinical Practice Review. Psychotherapy (Chicago, Ill.) 50, 4 (Dec. 2013). https://doi.org/10.1037/a0031815",
+      "doi": ""
+    },
+    {
+      "text": "Petr Slov\u00e1k, Christopher Frauenberger, and Geraldine Fitzpatrick. 2017. Reflective Practicum: A Framework of Sensitising Concepts to Design for Transformative Reflection. In Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI). ACM, Denver, CO, 2696\u20132707. https://doi.org/10.1145/3025453.3025516",
+      "doi": "10.1145/3025453.3025516"
+    },
+    {
+      "text": "Jaime Snyder, Elizabeth Murnane, Caitie Lustig, and Stephen Voida. 2019. Visually Encoding the Lived Experience of Bipolar Disorder. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, Glasgow Scotland Uk, 1\u201314. https://doi.org/10.1145/3290605.3300363",
+      "doi": "10.1145/3290605.3300363"
+    },
+    {
+      "text": "Ian Spence and Stephan Lewandowsky. 1991. Displaying proportions and percentages. Applied Cognitive Psychology 5, 1 (1991), 61\u201377. https://doi.org/10.1002/acp.2350050106",
+      "doi": ""
+    },
+    {
+      "text": "Donna Spruijt-Metz, Eric Hekler, Niilo Saranummi, Stephen Intille, Ilkka Korhonen, Wendy Nilsen, Daniel\u00a0E Rivera, Bonnie Spring, Susan Michie, David\u00a0A Asch, 2015. Building new computational models to support health behavior change and maintenance: new opportunities in behavioral research. Translational behavioral medicine 5, 3 (2015), 335\u2013346.",
+      "doi": ""
+    },
+    {
+      "text": "Eric Stice. 2002. Risk and maintenance factors for eating pathology: a meta-analytic review.Psychological bulletin 128, 5 (2002), 825.",
+      "doi": ""
+    },
+    {
+      "text": "Eric Stice, C.\u00a0Nathan Marti, and Paul Rohde. 2013. Prevalence, Incidence, Impairment, and Course of the Proposed DSM-5 Eating Disorder Diagnoses in an 8-Year Prospective Community Study of Young Women. Journal of abnormal psychology 122, 2 (May 2013), 445\u2013457. https://doi.org/10.1037/a0030679",
+      "doi": ""
+    },
+    {
+      "text": "Jane\u00a0M. Tiller, Gaynor Sloane, Ulrike Schmidt, Nicholas Troop, Michael Power, and Janet\u00a0L. Treasure. 1997. Social Support in Patients with Anorexia Nervosa and Bulimia Nervosa. International Journal of Eating Disorders 21, 1 (Jan. 1997), 31\u201338. https://doi.org/10.1002/(SICI)1098-108X(199701)21:1<31::AID-EAT4>3.0.CO;2-4",
+      "doi": ""
+    },
+    {
+      "text": "John Torous, Gerhard Andersson, Andrew Bertagnoli, Helen Christensen, Pim Cuijpers, Joseph Firth, Adam Haim, Honor Hsin, Chris Hollis, Sh\u00f4n Lewis, 2019. Towards a consensus around standards for smartphone apps and digital mental health. World Psychiatry 18, 1 (2019), 97.",
+      "doi": ""
+    },
+    {
+      "text": "John Torous and Joseph Firth. 2016. The digital placebo effect: mobile mental health meets clinical psychiatry. The Lancet Psychiatry 3, 2 (2016), 100\u2013102.",
+      "doi": ""
+    },
+    {
+      "text": "John Torous, Jennifer Nicholas, Mark\u00a0E Larsen, Joseph Firth, and Helen Christensen. 2018. Clinical review of user engagement with mental health smartphone apps: evidence, theory and improvements. Evidence-based mental health 21, 3 (2018), 116\u2013119.",
+      "doi": ""
+    },
+    {
+      "text": "Jenna\u00a0P. Tregarthen, James Lock, and Alison\u00a0M. Darcy. 2015. Development of a smartphone application for eating disorder self-monitoring. The International Journal of Eating Disorders 48, 7 (Nov. 2015), 972\u2013982. https://doi.org/10.1002/eat.22386",
+      "doi": ""
+    },
+    {
+      "text": "A. Valle. 2005. The Persuasive Mirror : computerized persuasion for healthy living.",
+      "doi": ""
+    },
+    {
+      "text": "Walter Vandereycken. 2006. Denial of Illness in Anorexia Nervosa\u2014a Conceptual Review: Part 1 Diagnostic Significance and Assessment. European Eating Disorders Review 14, 5 (Sept. 2006), 341\u2013351. https://doi.org/10.1002/erv.721",
+      "doi": ""
+    },
+    {
+      "text": "Morgan Walker, Laura Thornton, Munmun De\u00a0Choudhury, Jaime Teevan, Cynthia\u00a0M Bulik, Cheri\u00a0A Levinson, and Stephanie Zerwas. 2015. Facebook use and disordered eating in college-aged women. Journal of Adolescent Health 57, 2 (2015), 157\u2013163.",
+      "doi": ""
+    }
+  ]
+}

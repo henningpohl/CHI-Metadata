@@ -1,0 +1,475 @@
+{
+  "doi": "10.1145/3313831.3376485",
+  "title": "Debugging Database Queries: A Survey of Tools, Techniques, and Users",
+  "published": "2020-04-23",
+  "proctitle": "CHI '20: Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2020,
+  "badges": [],
+  "abstract": "Database management systems (or DBMSs) have been around for decades, and yet are still difficult to use, particularly when trying to identify and fix errors in user programs (or queries). We seek to understand what methods have been proposed to help people debug database queries, and whether these techniques have ultimately been adopted by DBMSs (and users). We conducted an interdisciplinary review of 112 papers and tools from the database, visualisation and HCI communities. To better understand whether academic and industry approaches are meeting the needs of users, we interviewed 20 database users (and some designers), and found surprising results. In particular, there seems to be a wide gulf between users' debugging strategies and the functionality implemented in existing DBMSs, as well as proposed in the literature. In response, we propose new design guidelines to help system designers to build features that more closely match users debugging strategies.",
+  "authors": [
+    {
+      "name": "Sneha Gathani",
+      "institution": "University of Maryland, College Park, College Park, MD, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659526665",
+      "orcid": "missing"
+    },
+    {
+      "name": "Peter Lim",
+      "institution": "University of Maryland, College Park, College Park, MD, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659526555",
+      "orcid": "missing"
+    },
+    {
+      "name": "Leilani Battle",
+      "institution": "University of Maryland, College Park, College Park, MD, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81435594270",
+      "orcid": "0000-0003-3870-636X"
+    }
+  ],
+  "references": [
+    {
+      "text": "2018. VISSOFT 2018. (2018). http://vissoft18.etsii.urjc.es/",
+      "doi": ""
+    },
+    {
+      "text": "Ziawasch Abedjan, Lukasz Golab, and Felix Naumann. 2015. Profiling Relational Data: A Survey. The VLDB Journal 24, 4 (Aug. 2015), 557--581. DOI: http://dx.doi.org/10.1007/s00778-015-0389-y",
+      "doi": "10.1007/s00778-015-0389-y"
+    },
+    {
+      "text": "Azza Abouzied, Joseph Hellerstein, and Avi Silberschatz. 2012. DataPlay: Interactive Tweaking and Example-driven Correction of Graphical Database Queries. In Proceedings of the 25th Annual ACM Symposium on User Interface Software and Technology (UIST '12). ACM, NY, NY, USA, 207--218. DOI: http://dx.doi.org/10.1145/2380116.2380144 event-place: Cambridge, Massachusetts, USA.",
+      "doi": "10.1145/2380116.2380144"
+    },
+    {
+      "text": "Christopher Ahlberg. 1996. Spotfire: An Information Exploration Environment. SIGMOD Rec. 25, 4 (Dec. 1996), 25--29. DOI: http://dx.doi.org/10.1145/245882.245893",
+      "doi": "10.1145/245882.245893"
+    },
+    {
+      "text": "A. Aiken, J. Chen, M. Stonebraker, and A. Woodruff. 1996. Tioga-2: a direct manipulation database visualization environment. In Proceedings of the Twelfth International Conference on Data Engineering. 208--217. DOI: http://dx.doi.org/10.1109/ICDE.1996.492109",
+      "doi": ""
+    },
+    {
+      "text": "S. Alspaugh, N. Zokaei, A. Liu, C. Jin, and M. A. Hearst. 2019. Futzing and Moseying: Interviews with Professional Data Analysts on Exploration Practices. IEEE Transactions on Visualization and Computer Graphics 25, 1 (Jan. 2019), 22--31. DOI: http://dx.doi.org/10.1109/TVCG.2018.2865040",
+      "doi": "10.1109/TVCG.2018.2865040"
+    },
+    {
+      "text": "I. Bacher, B. M. Namee, and J. D. Kelleher. 2016. On Using Tree Visualisation Techniques to Support Source Code Comprehension. In 2016 IEEE Working Conference on Software Visualization (VISSOFT). 91--95. DOI: http://dx.doi.org/10.1109/VISSOFT.2016.8",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Ball and Sriram K. Rajamani. 2002. The SLAM Project: Debugging System Software via Static Analysis. In Proceedings of the 29th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL '02). ACM, NY, NY, USA, 1--3. DOI: http://dx.doi.org/10.1145/503272.503274 event-place: Portland, Oregon.",
+      "doi": ""
+    },
+    {
+      "text": "Leilani Battle, Danyel Fisher, Robert DeLine, Mike Barnett, Badrish Chandramouli, and Jonathan Goldstein. 2016. Making Sense of Temporal Queries with Interactive Visualization. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). ACM, NY, NY, USA, 5433--5443. DOI: http://dx.doi.org/10.1145/2858036.2858408 event-place: San Jose, California, USA.",
+      "doi": "10.1145/2858036.2858408"
+    },
+    {
+      "text": "Leilani Battle and Jeffrey Heer. 2019. Characterizing Exploratory Visual Analysis: A Literature Review and Evaluation of Analytic Provenance in Tableau. Computer Graphics Forum 38, 3 (2019), 145--159. DOI: http://dx.doi.org/10.1111/cgf.13678",
+      "doi": ""
+    },
+    {
+      "text": "L. Bavoil, S. P. Callahan, P. J. Crossno, J. Freire, C. E. Scheidegger, C. T. Silva, and H. T. Vo. 2005. VisTrails: enabling interactive multiple-view visualizations. In VIS 05. IEEE Visualization, 2005. 135--142. DOI: http://dx.doi.org/10.1109/VISUAL.2005.1532788",
+      "doi": ""
+    },
+    {
+      "text": "F. Beck, H. A. Siddiqui, A. Bergel, and D. Weiskopf. 2017. Method Execution Reports: Generating Text and Visualization to Describe Program Behavior. In 2017 IEEE Working Conference on Software Visualization (VISSOFT). 1--10. DOI: http://dx.doi.org/10.1109/VISSOFT.2017.11",
+      "doi": ""
+    },
+    {
+      "text": "Omar Benjelloun, Anish Das Sarma, Alon Halevy, and Jennifer Widom. 2006. ULDBs: Databases with Uncertainty and Lineage. In Proceedings of the 32Nd International Conference on Very Large Data Bases (VLDB '06). VLDB Endowment, 953--964. http://dl.acm.org/citation.cfm?id=1182635.1164209 event-place: Seoul, Korea.",
+      "doi": ""
+    },
+    {
+      "text": "Nicole Bidoit, Melanie Herschel, and Katerina Tzompanaki. 2014. Query-Based Why-Not Provenance with NedExplain. In in \"EDBT - 17th International Conference on Extending Database Technology.",
+      "doi": ""
+    },
+    {
+      "text": "Peter Buneman, Sanjeev Khanna, and Tan Wang-Chiew. 2001. Why and Where: A Characterization of Data Provenance. In Database Theory - ICDT 2001 (Lecture Notes in Computer Science), Jan Van den Bussche and Victor Vianu (Eds.). Springer Berlin Heidelberg, 316--330.",
+      "doi": ""
+    },
+    {
+      "text": "Rafael Caballero, Yolanda Garcia-Ruiz, and Fernando Saenz-Parez. 2012a. Algorithmic Debugging of SQL Views. In Perspectives of Systems Informatics (Lecture Notes in Computer Science), Edmund Clarke, Irina Virbitskaite, and Andrei Voronkov (Eds.). Springer Berlin Heidelberg, 77--85.",
+      "doi": ""
+    },
+    {
+      "text": "Rafael Caballero, Yolanda Garcia-Ruiz, and Fernando Saenz-Parez. 2012b. Declarative Debugging of Wrong and Missing Answers for SQL Views. In Functional and Logic Programming (Lecture Notes in Computer Science), Tom Schrijvers and Peter Thiemann (Eds.). Springer Berlin Heidelberg, 73--87.",
+      "doi": ""
+    },
+    {
+      "text": "Steven P. Callahan, Juliana Freire, Emanuele Santos, Carlos E. Scheidegger, Claudio T. Silva, and Huy T. Vo. 2006. VisTrails: Visualization Meets Data Management. In Proceedings of the 2006 ACM SIGMOD International Conference on Management of Data (SIGMOD '06). ACM, NY, NY, USA, 745--747. DOI: http://dx.doi.org/10.1145/1142473.1142574 event-place: Chicago, IL, USA.",
+      "doi": ""
+    },
+    {
+      "text": "TIZIANA Catarci, MARIA F. Costabile, STEFANO Levialdi, and CARLO Batini. 1997. Visual Query Systems for Databases: A Survey. Journal of Visual Languages & Computing 8, 2 (April 1997), 215--260. DOI: http://dx.doi.org/10.1006/jvlc.1997.0037",
+      "doi": "10.1006/jvlc.1997.0037"
+    },
+    {
+      "text": "Ugur Cetintemel, Mitch Cherniack, Justin DeBrabant, Yanlei Diao, Kyriaki Dimitriadou, Alex Kalinin, Olga Papaemmanouil, and Stan Zdonik. 2013. Query Steering for Interactive Data Exploration (CIDR '13).",
+      "doi": ""
+    },
+    {
+      "text": "Hans Chalupsky and Thomas A. Russ. 2002. WhyNot: Debugging Failed Queries in Large Knowledge Bases. In Proceedings of the 14th Conference on Innovative Applications of Artificial Intelligence - Volume 1 (IAAI'02). AAAI Press, 870--877. http://dl.acm.org/citation.cfm?id=1650083.1650093 event-place: Edmonton, Alberta, Canada.",
+      "doi": ""
+    },
+    {
+      "text": "Adriane Chapman and H. V. Jagadish. 2009. Why Not?. In Proceedings of the 2009 ACM SIGMOD International Conference on Management of Data (SIGMOD '09). ACM, NY, NY, USA, 523--534. DOI: http://dx.doi.org/10.1145/1559845.1559901 event-place: Providence, Rhode Island, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Kathy Charmaz and Linda Liska Belgrave. 2015. Grounded Theory. In The Blackwell Encyclopedia of Sociology. American Cancer Society. DOI: http://dx.doi.org/10.1002/9781405165518.wbeosg070.pub2",
+      "doi": ""
+    },
+    {
+      "text": "Peter Pin-Shan Chen. 1976. The Entity-relationship Modela Toward a Unified View of Data. ACM Trans. Database Syst. 1, 1 (March 1976), 9--36. DOI: http://dx.doi.org/10.1145/320434.320440",
+      "doi": ""
+    },
+    {
+      "text": "Luca Chittaro and Carlo Combi. 2003. Visualizing queries on databases of temporal histories: new metaphors and their evaluation. Data & Knowledge Engineering 44, 2 (Feb. 2003), 239--264. DOI: http://dx.doi.org/10.1016/S0169-023X(02)00137--4",
+      "doi": "10.1016/S0169-023X%2802%2900137-4"
+    },
+    {
+      "text": "Shumo Chu, Chenglong Wang, Konstantin Weitz, and Alvin Cheung. 2017. Cosette: An Automated Prover for SQL.",
+      "doi": ""
+    },
+    {
+      "text": "Xu Chu, Ihab F. Ilyas, Sanjay Krishnan, and Jiannan Wang. 2016. Data Cleaning: Overview and Emerging Challenges. In Proceedings of the 2016 International Conference on Management of Data (SIGMOD '16). ACM, NY, NY, USA, 2201--2206. DOI: http://dx.doi.org/10.1145/2882903.2912574 event-place: San Francisco, California, USA.",
+      "doi": "10.1145/2882903.2912574"
+    },
+    {
+      "text": "Microsoft Corporation. 2017a. Get started with U-SQL language in Azure Data Lake Analytics. (June 2017). https://docs.microsoft.com/en-us/azure/data-lake-analytics/data-lake-analytics-u-sql-get-started",
+      "doi": ""
+    },
+    {
+      "text": "Microsoft Corporation. 2017b. Transact-SQL Debugger SQL Server. (March 2017). https://docs.microsoft.com/en-us/sql/ssms/scripting/transact-sql-debugger",
+      "doi": ""
+    },
+    {
+      "text": "Isabel F. Cruz. 1992. DOODLE: A Visual Language for Object-oriented Databases. In Proceedings of the 1992 ACM SIGMOD International Conference on Management of Data (SIGMOD '92). ACM, NY, NY, USA, 71--80. DOI: http://dx.doi.org/10.1145/130283.130299 event-place: San Diego, California, USA.",
+      "doi": "10.1145/130283.130299"
+    },
+    {
+      "text": "Y. Cui and J. Widom. 2000. Practical lineage tracing in data warehouses. In Proceedings of 16th International Conference on Data Engineering (Cat. No.00CB37073). 367--378. DOI: http://dx.doi.org/10.1109/ICDE.2000.839437",
+      "doi": ""
+    },
+    {
+      "text": "Y. Cui and J. Widom. 2003. Lineage Tracing for General Data Warehouse Transformations. The VLDB Journal 12, 1 (May 2003), 41--58. DOI: http://dx.doi.org/10.1007/s00778-002-0083--8",
+      "doi": "10.1007/s00778-002-0083-8"
+    },
+    {
+      "text": "Jonathan Danaparamita and Wolfgang Gatterbauer. 2011. QueryViz: Helping Users Understand SQL Queries and Their Patterns. In Proceedings of the 14th International Conference on Extending Database Technology (EDBT/ICDT '11). ACM, NY, NY, USA, 558--561. DOI: http://dx.doi.org/10.1145/1951365.1951440 event-place: Uppsala, Sweden.",
+      "doi": "10.1145/1951365.1951440"
+    },
+    {
+      "text": "Wim De Pauw, Mihai Letia, Bugra Gedik, Henrique Andrade, Andy Frenkiel, Michael Pfeifer, and Daby Sow. 2010. Visual Debugging for Stream Processing Applications. In Runtime Verification (Lecture Notes in Computer Science), Howard Barringer, Ylies Falcone, Bernd Finkbeiner, Klaus Havelund, Insup Lee, Gordon Pace, Grigore Rosu, Oleg Sokolsky, and Nikolai Tillmann (Eds.). Springer Berlin Heidelberg, 18--35.",
+      "doi": ""
+    },
+    {
+      "text": "Walter Didimo, Francesco Giacche, and Fabrizio Montecchiani. 2015. Kojaph: Visual Definition and Exploration of Patterns in Graph Databases. In Graph Drawing and Network Visualization (Lecture Notes in Computer Science), Emilio Di Giacomo and Anna Lubiw (Eds.). Springer International Publishing, 272--278.",
+      "doi": ""
+    },
+    {
+      "text": "Kyriaki Dimitriadou, Olga Papaemmanouil, and Yanlei Diao. 2014. Explore-by-example: An Automatic Query Steering Framework for Interactive Data Exploration. In Proceedings of the 2014 ACM SIGMOD International Conference on Management of Data (SIGMOD '14). ACM, NY, NY, USA, 517--528. DOI: http://dx.doi.org/10.1145/2588555.2610523 event-place: Snowbird, Utah, USA.",
+      "doi": "10.1145/2588555.2610523"
+    },
+    {
+      "text": "K. Venkatesh Emani, Tejas Deshpande, Karthik Ramachandra, and S. Sudarshan. 2017. DBridge: Translating Imperative Code to SQL. In Proceedings of the 2017 ACM International Conference on Management of Data (SIGMOD '17). ACM, NY, NY, USA, 1663--1666. DOI: http://dx.doi.org/10.1145/3035918.3058747 event-place: Chicago, Illinois, USA.",
+      "doi": ""
+    },
+    {
+      "text": "K. Venkatesh Emani, Karthik Ramachandra, Subhro Bhattacharya, and S. Sudarshan. 2016. Extracting Equivalent SQL from Imperative Code in Database Applications. In Proceedings of the 2016 International Conference on Management of Data (SIGMOD '16). ACM, NY, NY, USA, 1781--1796. DOI: http://dx.doi.org/10.1145/2882903.2882926 event-place: San Francisco, California, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Facebook. 2015. GraphQL. (2015). http://facebook.github.io/graphql/",
+      "doi": ""
+    },
+    {
+      "text": "F. Fittkau, J. Waller, C. Wulf, and W. Hasselbring. 2013. Live trace visualization for comprehending large software landscapes: The ExplorViz approach. In 2013 First IEEE Working Conference on Software Visualization (VISSOFT). 1--4. DOI: http://dx.doi.org/10.1109/VISSOFT.2013.6650536",
+      "doi": ""
+    },
+    {
+      "text": "J. Freire, D. Koop, E. Santos, and C. T. Silva. 2008. Provenance for Computational Tasks: A Survey. Computing in Science Engineering 10, 3 (May 2008), 11--21. DOI: http://dx.doi.org/10.1109/MCSE.2008.79",
+      "doi": "10.1109/MCSE.2008.79"
+    },
+    {
+      "text": "Boris Glavic. 2010. Perm: efficient provenance support for relational databases. Ph.D. Dissertation. University of Zurich.",
+      "doi": ""
+    },
+    {
+      "text": "KeepTool GmbH. 2019. PL/SQL Debugger. (2019). https://keeptool.com/pl-sql-debugger.html",
+      "doi": ""
+    },
+    {
+      "text": "David Gotz and Michelle X. Zhou. 2009. Characterizing Users' Visual Analytic Activity for Insight Provenance. Information Visualization 8, 1 (Jan. 2009), 42--55. DOI: http://dx.doi.org/10.1057/ivs.2008.31",
+      "doi": "10.1057/ivs.2008.31"
+    },
+    {
+      "text": "Torsten Grust, Fabian Kliebhan, Jan Rittinger, and Tom Schreiber. 2011. True Language-level SQL Debugging. In Proceedings of the 14th International Conference on Extending Database Technology (EDBT/ICDT '11). ACM, NY, NY, USA, 562--565. DOI: http://dx.doi.org/10.1145/1951365.1951441 event-place: Uppsala, Sweden.",
+      "doi": "10.1145/1951365.1951441"
+    },
+    {
+      "text": "Torsten Grust, Jan Rittinger, and Jens Teubner. 2007. Data-intensive XQuery Debugging with Instant Replay. In Proceedings of the 4th International Workshop on XQuery Implementation, Experience and Perspectives (XIME-P '07). ACM, NY, NY, USA, 4:1--4:6. DOI: http://dx.doi.org/10.1145/1328158.1328162 event-place: Beijing, China.",
+      "doi": "10.1145/1328158.1328162"
+    },
+    {
+      "text": "H. Guo, S. R. Gomez, C. Ziemkiewicz, and D. H. Laidlaw. 2016. A Case Study Using Visualization Interaction Logs and Insight Metrics to Understand How Analysts Arrive at Insights. IEEE Transactions on Visualization and Computer Graphics 22, 1 (Jan. 2016), 51--60. DOI: http://dx.doi.org/10.1109/TVCG.2015.2467613",
+      "doi": "10.1109/TVCG.2015.2467613"
+    },
+    {
+      "text": "N. Hawes, S. Marshall, and C. Anslow. 2015. CodeSurveyor: Mapping large-scale software to aid in code comprehension. In 2015 IEEE 3rd Working Conference on Software Visualization (VISSOFT). 96--105. DOI: http://dx.doi.org/10.1109/VISSOFT.2015.7332419",
+      "doi": ""
+    },
+    {
+      "text": "J. Heer, J. Mackinlay, C. Stolte, and M. Agrawala. 2008. Graphical Histories for Visualization: Supporting Analysis, Communication, and Evaluation. IEEE Transactions on Visualization and Computer Graphics 14, 6 (Nov. 2008), 1189--1196. DOI: http://dx.doi.org/10.1109/TVCG.2008.137",
+      "doi": "10.1109/TVCG.2008.137"
+    },
+    {
+      "text": "Jeffrey Heer and Ben Shneiderman. 2012. Interactive Dynamics for Visual Analysis. Queue 10, 2 (Feb. 2012), 30:30--30:55. DOI: http://dx.doi.org/10.1145/2133416.2146416",
+      "doi": "10.1145/2133416.2146416"
+    },
+    {
+      "text": "Melanie Herschel, Ralf Diestelkamper, and Houssem Ben Lahmar. 2017. A Survey on Provenance: What for? What Form? What from? The VLDB Journal 26, 6 (Dec. 2017), 881--906. DOI: http://dx.doi.org/10.1007/s00778-017-0486--1",
+      "doi": "10.1007/s00778-017-0486-1"
+    },
+    {
+      "text": "Stacie Hibino and Elke A. Rundensteiner. 1997. User Interface Evaluation of a Direct Manipulation Temporal Visual Query Language. In Proceedings of the Fifth ACM International Conference on Multimedia (MULTIMEDIA '97). ACM, NY, NY, USA, 99--107. DOI: http://dx.doi.org/10.1145/266180.266342 event-place: Seattle, Washington, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Harry Hochheiser and Ben Shneiderman. 2004. Dynamic Query Tools for Time Series Data Sets: Timebox Widgets for Interactive Exploration. Information Visualization 3, 1 (March 2004), 1--18. DOI: http://dx.doi.org/10.1057/palgrave.ivs.9500061",
+      "doi": "10.1145/993176.993177"
+    },
+    {
+      "text": "Jane Hoffswell, Arvind Satyanarayan, and Jeffrey Heer. 2016. Visual Debugging Techniques for Reactive Data Visualization. Computer Graphics Forum 35, 3 (2016), 271--280. DOI: http://dx.doi.org/10.1111/cgf.12903",
+      "doi": "10.5555/3071534.3071564"
+    },
+    {
+      "text": "Jane Hoffswell, Arvind Satyanarayan, and Jeffrey Heer. 2018. Augmenting Code with In Situ Visualizations to Aid Program Understanding. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). ACM, NY, NY, USA, 532:1--532:12. DOI: http://dx.doi.org/10.1145/3173574.3174106 event-place: Montreal QC, Canada.",
+      "doi": "10.1145/3173574.3174106"
+    },
+    {
+      "text": "Jiansheng Huang, Ting Chen, AnHai Doan, and Jeffrey F. Naughton. 2008. On the Provenance of Non-answers to Queries over Extracted Data. Proc. VLDB Endow. 1, 1 (Aug. 2008), 736--747. DOI: http://dx.doi.org/10.14778/1453856.1453936",
+      "doi": "10.14778/1453856.1453936"
+    },
+    {
+      "text": "Kai Huang, Huey Eng Chua, Sourav S. Bhowmick, Byron Choi, and Shuigeng Zhou. 2019. CATAPULT: Data-driven Selection of Canned Patterns for Efficient Visual Graph Query Formulation. In Proceedings of the 2019 International Conference on Management of Data (SIGMOD '19). ACM, NY, NY, USA, 900--917. DOI: http://dx.doi.org/10.1145/3299869.3300072 event-place: Amsterdam, Netherlands.",
+      "doi": "10.1145/3299869.3300072"
+    },
+    {
+      "text": "Inc. Idera. 2019. Rapid SQL | SQL IDE. (2019). https://www.idera.com/rapid-sql-ide",
+      "doi": ""
+    },
+    {
+      "text": "R. Ikeda, J. Cho, C. Fang, S. Salihoglu, S. Torikai, and J. Widom. 2012. Provenance-Based Debugging and Drill-Down in Data-Oriented Workflows. In 2012 IEEE 28th International Conference on Data Engineering. 1249--1252. DOI: http://dx.doi.org/10.1109/ICDE.2012.118",
+      "doi": ""
+    },
+    {
+      "text": "Shrainik Jain, Dominik Moritz, Daniel Halperin, Bill Howe, and Ed Lazowska. 2016. SQLShare: Results from a Multi-Year SQL-as-a-Service Experiment. In Proceedings of the 2016 International Conference on Management of Data (SIGMOD '16). ACM, NY, NY, USA, 281--293. DOI: http://dx.doi.org/10.1145/2882903.2882957 event-place: San Francisco, California, USA.",
+      "doi": "10.1145/2882903.2882957"
+    },
+    {
+      "text": "Sean Kandel, Andreas Paepcke, Joseph Hellerstein, and Jeffrey Heer. 2011. Wrangler: Interactive Visual Specification of Data Transformation Scripts. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '11). ACM, NY, NY, USA, 3363--3372. DOI: http://dx.doi.org/10.1145/1978942.1979444 event-place: Vancouver, BC, Canada.",
+      "doi": "10.1145/1978942.1979444"
+    },
+    {
+      "text": "S. Kandel, A. Paepcke, J. M. Hellerstein, and J. Heer. 2012. Enterprise Data Analysis and Visualization: An Interview Study. IEEE Transactions on Visualization and Computer Graphics 18, 12 (Dec. 2012), 2917--2926. DOI: http://dx.doi.org/10.1109/TVCG.2012.219",
+      "doi": "10.1109/TVCG.2012.219"
+    },
+    {
+      "text": "Y. Kang and J. Stasko. 2012. Examining the Use of a Visual Analytics System for Sensemaking Tasks: Case Studies with Domain Experts. IEEE Transactions on Visualization and Computer Graphics 18, 12 (Dec. 2012), 2869--2878. DOI: http://dx.doi.org/10.1109/TVCG.2012.224",
+      "doi": "10.1109/TVCG.2012.224"
+    },
+    {
+      "text": "Grigoris Karvounarakis, Zachary G. Ives, and Val Tannen. 2010. Querying Data Provenance. In Proceedings of the 2010 ACM SIGMOD International Conference on Management of Data (SIGMOD '10). ACM, NY, NY, USA, 951--962. DOI: http://dx.doi.org/10.1145/1807167.1807269 event-place: Indianapolis, Indiana, USA.",
+      "doi": "10.1145/1807167.1807269"
+    },
+    {
+      "text": "Miryung Kim, Thomas Zimmermann, Robert DeLine, and Andrew Begel. 2016. The Emerging Role of Data Scientists on Software Development Teams. In Proceedings of the 38th International Conference on Software Engineering (ICSE '16). ACM, NY, NY, USA, 96--107. DOI: http://dx.doi.org/10.1145/2884781.2884783 event-place: Austin, Texas.",
+      "doi": "10.1145/2884781.2884783"
+    },
+    {
+      "text": "A. Ko and B. Myers. 2008. Debugging reinvented. In 2008 ACM/IEEE 30th International Conference on Software Engineering. 301--310. DOI: http://dx.doi.org/10.1145/1368088.1368130",
+      "doi": ""
+    },
+    {
+      "text": "Andrew J. Ko and Brad A. Myers. 2004. Designing the Whyline: A Debugging Interface for Asking Questions About Program Behavior. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '04). ACM, NY, NY, USA, 151--158. DOI: http://dx.doi.org/10.1145/985692.985712 event-place: Vienna, Austria.",
+      "doi": ""
+    },
+    {
+      "text": "S. Lee, S. Kohler, B. Ludascher, and B. Glavic. 2017. A SQL-Middleware Unifying Why and Why-Not Provenance for First-Order Queries. In 2017 IEEE 33rd International Conference on Data Engineering (ICDE). 485--496. DOI: http://dx.doi.org/10.1109/ICDE.2017.105",
+      "doi": ""
+    },
+    {
+      "text": "Fei Li and H. V. Jagadish. 2014. Constructing an Interactive Natural Language Interface for Relational Databases. Proc. VLDB Endow. 8, 1 (Sept. 2014), 73--84. DOI: http://dx.doi.org/10.14778/2735461.2735468",
+      "doi": "10.14778/2735461.2735468"
+    },
+    {
+      "text": "Fei Li, Tianyin Pan, and Hosagrahar V. Jagadish. 2014. Schema-free SQL. In Proceedings of the 2014 ACM SIGMOD International Conference on Management of Data (SIGMOD '14). ACM, NY, NY, USA, 1051--1062. DOI: http://dx.doi.org/10.1145/2588555.2588571 event-place: Snowbird, Utah, USA.",
+      "doi": ""
+    },
+    {
+      "text": "Tom Lieber, Joel R. Brandt, and Rob C. Miller. 2014. Addressing Misconceptions About Code with Always-on Programming Visualizations. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). ACM, NY, NY, USA, 2481--2490. DOI: http://dx.doi.org/10.1145/2556288.2557409 event-place: Toronto, Ontario, Canada.",
+      "doi": ""
+    },
+    {
+      "text": "Hongjun Lu, Hock Chuan Chan, and Kwok Kee Wei. 1993. A Survey on Usage of SQL. SIGMOD Rec. 22, 4 (Dec. 1993), 60--65. DOI: http://dx.doi.org/10.1145/166635.166656",
+      "doi": "10.1145/166635.166656"
+    },
+    {
+      "text": "W. S. Luk and Steve Kloster. 1986. ELFS: English Language from SQL. ACM Trans. Database Syst. 11, 4 (Dec. 1986), 447--472. DOI: http://dx.doi.org/10.1145/7239.384276",
+      "doi": "10.1145/7239.384276"
+    },
+    {
+      "text": "Miro Mannino and Azza Abouzied. 2018. Qetch: Time Series Querying with Expressive Sketches. In Proceedings of the 2018 International Conference on Management of Data (SIGMOD '18). ACM, NY, NY, USA, 1741--1744. DOI: http://dx.doi.org/10.1145/3183713.3193547 event-place: Houston, TX, USA.",
+      "doi": "10.1145/3183713.3193547"
+    },
+    {
+      "text": "Zhengjie Miao, Sudeepa Roy, and Jun Yang. 2019. RATest: Explaining Wrong Relational Queries Using Small Examples. In Proceedings of the 2019 International Conference on Management of Data (SIGMOD '19). ACM, NY, NY, USA, 1961--1964. DOI: http://dx.doi.org/10.1145/3299869.3320236 event-place: Amsterdam, Netherlands.",
+      "doi": "10.1145/3299869.3319866"
+    },
+    {
+      "text": "Dominik Moritz, Daniel Halperin, Bill Howe, and Jeffrey Heer. 2015. Perfopticon: Visual Query Analysis for Distributed Databases. Computer Graphics Forum 34, 3 (2015), 71--80. DOI: http://dx.doi.org/10.1111/cgf.12619",
+      "doi": "10.5555/2858877.2858886"
+    },
+    {
+      "text": "Davide Mottin, Alice Marascu, Senjuti Basu Roy, Gautam Das, Themis Palpanas, and Yannis Velegrakis. 2014. IQR: An Interactive Query Relaxation System for the Empty-answer Problem. In Proceedings of the 2014 ACM SIGMOD International Conference on Management of Data (SIGMOD '14). ACM, NY, NY, USA, 1095--1098. DOI: http://dx.doi.org/10.1145/2588555.2594512 event-place: Snowbird, Utah, USA.",
+      "doi": "10.1145/2588555.2594512"
+    },
+    {
+      "text": "Davide Mottin, Alice Marascu, Senjuti Basu Roy, Gautam Das, Themis Palpanas, and Yannis Velegrakis. 2013. A Probabilistic Optimization Framework for the Empty-answer Problem. Proc. VLDB Endow. 6, 14 (Sept. 2013), 1762--1773. DOI: http://dx.doi.org/10.14778/2556549.2556560",
+      "doi": "10.14778/2556549.2556560"
+    },
+    {
+      "text": "X. Mou, H. M. Jamil, and X. Ma. 2017. VisFlow: A Visual Database Integration and Workflow Querying System. In 2017 IEEE 33rd International Conference on Data Engineering (ICDE). 1421--1422. DOI: http://dx.doi.org/10.1109/ICDE.2017.204",
+      "doi": ""
+    },
+    {
+      "text": "Brad A. Myers, David A. Weitzman, Andrew J. Ko, and Duen H. Chau. 2006. Answering Why and Why Not Questions in User Interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '06). ACM, NY, NY, USA, 397--406. DOI: http://dx.doi.org/10.1145/1124772.1124832 event-place: Montreal, Qubec, Canada.",
+      "doi": ""
+    },
+    {
+      "text": "Lee Naish. 1997. A Declarative Debugging Scheme. Journal of Functional and Logic Programming (1997).",
+      "doi": ""
+    },
+    {
+      "text": "N. Noughi and A. Cleve. 2015. Conceptual interpretation of SQL execution traces for program comprehension. In 2015 IEEE 6th International Workshop on Program Comprehension through Dynamic Analysis (PCODA). 19--24. DOI: http://dx.doi.org/10.1109/PCODA.2015.7067179",
+      "doi": ""
+    },
+    {
+      "text": "Vicky Papavasileiou, Ken Yocum, and Alin Deutsch. 2019. Ariadne: Online Provenance for Big Graph Analytics. In Proceedings of the 2019 International Conference on Management of Data (SIGMOD '19). ACM, NY, NY, USA, 521--536. DOI: http://dx.doi.org/10.1145/3299869.3300091 event-place: Amsterdam, Netherlands.",
+      "doi": "10.1145/3299869.3300091"
+    },
+    {
+      "text": "F. Petrillo, G. Lacerda, M. Pimenta, and C. Freitas. 2015. Visualizing interactive and shared debugging sessions. In 2015 IEEE 3rd Working Conference on Software Visualization (VISSOFT). 140--144. DOI: http://dx.doi.org/10.1109/VISSOFT.2015.7332425",
+      "doi": ""
+    },
+    {
+      "text": "R. Pienta, F. Hohman, A. Endert, A. Tamersoy, K. Roundy, C. Gates, S. Navathe, and D. H. Chau. 2018. VIGOR: Interactive Visual Exploration of Graph Query Results. IEEE Transactions on Visualization and Computer Graphics 24, 1 (Jan. 2018), 215--225. DOI: http://dx.doi.org/10.1109/TVCG.2017.2744898",
+      "doi": ""
+    },
+    {
+      "text": "S. Podila and Y. Zhu. 2016. A Visualization Tool for 3D Graphics Program Comprehension and Debugging. In 2016 IEEE Working Conference on Software Visualization (VISSOFT). 111--115. DOI: http://dx.doi.org/10.1109/VISSOFT.2016.23",
+      "doi": ""
+    },
+    {
+      "text": "Eric Prud'hommeaux and Andy Seaborne. 2008. SPARQL Query Language for RDF. W3C Recommendation. (15 January 2008). http://www.w3.org/TR/rdf-sparql-query/ http://www.w3.org/TR/rdf-sparql-query/.",
+      "doi": ""
+    },
+    {
+      "text": "E. D. Ragan, A. Endert, J. Sanyal, and J. Chen. 2016. Characterizing Provenance in Visualization and Data Analysis: An Organizational Framework of Provenance Types and Purposes. IEEE Transactions on Visualization and Computer Graphics 22, 1 (Jan. 2016), 31--40. DOI: http://dx.doi.org/10.1109/TVCG.2015.2467551",
+      "doi": "10.1109/TVCG.2015.2467551"
+    },
+    {
+      "text": "S. P. Reiss. 2014. The Challenge of Helping the Programmer during Debugging. In 2014 Second IEEE Working Conference on Software Visualization. 112--116. DOI: http://dx.doi.org/10.1109/VISSOFT.2014.27",
+      "doi": "10.1109/VISSOFT.2014.27"
+    },
+    {
+      "text": "Theodoros Rekatsinas, Xu Chu, Ihab F. Ilyas, and Christopher Re. 2017. HoloClean: Holistic Data Repairs with Probabilistic Inference. Proc. VLDB Endow. 10, 11 (Aug. 2017), 1190--1201. DOI: http://dx.doi.org/10.14778/3137628.3137631",
+      "doi": "10.14778/3137628.3137631"
+    },
+    {
+      "text": "Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer. 2016. Vega-lite: A grammar of interactive graphics. IEEE transactions on visualization and computer graphics 23, 1 (2016), 341--350.",
+      "doi": "10.1109/TVCG.2016.2599030"
+    },
+    {
+      "text": "B. Shneiderman. 1994. Dynamic queries for visual information seeking. IEEE Software 11, 6 (Nov. 1994), 70--77. DOI: http://dx.doi.org/10.1109/52.329404",
+      "doi": "10.1109/52.329404"
+    },
+    {
+      "text": "Ben Shneiderman. 1996. The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations. In Proceedings of the 1996 IEEE Symposium on Visual Languages (VL '96). IEEE Computer Society, Washington, DC, USA, 336--. http://dl.acm.org/citation.cfm?id=832277.834354",
+      "doi": "10.5555/832277.834354"
+    },
+    {
+      "text": "Josep Silva. 2011. A survey on algorithmic debugging strategies. Advances in Engineering Software 42, 11 (Nov. 2011), 976--991. DOI: http://dx.doi.org/10.1016/j.advengsoft.2011.05.024",
+      "doi": "10.1016/j.advengsoft.2011.05.024"
+    },
+    {
+      "text": "C. Stolte, D. Tang, and P. Hanrahan. 2002. Polaris: a system for query, analysis, and visualization of multidimensional relational databases. IEEE Transactions on Visualization and Computer Graphics 8, 1 (Jan. 2002), 52--65. DOI: http://dx.doi.org/10.1109/2945.981851",
+      "doi": "10.1109/2945.981851"
+    },
+    {
+      "text": "Michael Stonebraker, Daniel Bruckner, Ihab F. Ilyas, Geoorge Beskales, Mitch Cherniack, Stanley Zdonik, Alexander Pagan, and Shan Xu. 2013. Data Curation at Scale: The Data Tamer System.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Stonebraker, Jolly Chen, Nobuko Nathan, Caroline Paxson, Alan Su, and Jiang Wu. 1993. Tioga: A Database-oriented Visualization Tool. In Proceedings of the 4th Conference on Visualization '93 (VIS '93). IEEE Computer Society, Washington, DC, USA, 86--93. http://dl.acm.org/citation.cfm?id=949845.949866 event-place: San Jose, California.",
+      "doi": ""
+    },
+    {
+      "text": "Wang Chiew Tan. 2007. Provenance in databases: past, current, and future. IEEE Data Eng. Bull. 30, 4 (2007), 3--12.",
+      "doi": ""
+    },
+    {
+      "text": "Pawel Terlecki, Fei Xu, Marianne Shaw, Valeri Kim, and Richard Wesley. 2015. On Improving User Response Times in Tableau. In Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data (SIGMOD '15). ACM, NY, NY, USA, 1695--1706. DOI: http://dx.doi.org/10.1145/2723372.2742799 event-place: Melbourne, Victoria, Australia.",
+      "doi": "10.1145/2723372.2742799"
+    },
+    {
+      "text": "E. Vasilyeva, T. Heinze, M. Thiele, and W. Lehner. 2016. DebEAQ - debugging empty-answer queries on large data graphs. In 2016 IEEE 32nd International Conference on Data Engineering (ICDE). 1402--1405. DOI: http://dx.doi.org/10.1109/ICDE.2016.7498355",
+      "doi": ""
+    },
+    {
+      "text": "Margus Veanes, Nikolai Tillmann, and Jonathan de Halleux. 2010. Qex: Symbolic SQL Query Explorer. In Logic for Programming, Artificial Intelligence, and Reasoning (Lecture Notes in Computer Science), Edmund M. Clarke and Andrei Voronkov (Eds.). Springer Berlin Heidelberg, 425--446.",
+      "doi": ""
+    },
+    {
+      "text": "Jingjing Wang, Tobin Baker, Magdalena Balazinska, Daniel Halperin, Brandon Haynes, Bill Howe, Dylan Hutchison, Shrainik Jain, Ryan Maas, Parmita Mehta, and others. 2017. The Myria Big Data Management and Analytics System and Cloud Services.. In CIDR.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaolan Wang, Alexandra Meliou, and Eugene Wu. 2016. QFix: Demonstrating Error Diagnosis in Query Histories. In Proceedings of the 2016 International Conference on Management of Data (SIGMOD '16). ACM, NY, NY, USA, 2177--2180. DOI: http://dx.doi.org/10.1145/2882903.2899388 event-place: San Francisco, California, USA.",
+      "doi": "10.1145/2882903.2899388"
+    },
+    {
+      "text": "Martin Wattenberg. 2001. Sketching a Graph to Query a Time-series Database. In CHI '01 Extended Abstracts on Human Factors in Computing Systems (CHI EA '01). ACM, NY, NY, USA, 381--382. DOI: http://dx.doi.org/10.1145/634067.634292 event-place: Seattle, Washington.",
+      "doi": "10.1145/634067.634292"
+    },
+    {
+      "text": "Wen-Syan Li, K. S. Candan, K. Hirata, and Y. Hara. 1997. IFQ: a visual query interface and query generator for object-based media retrieval. In Proceedings of IEEE International Conference on Multimedia Computing and Systems. 353--361. DOI: http://dx.doi.org/10.1109/MMCS.1997.609635",
+      "doi": ""
+    },
+    {
+      "text": "Hadley Wickham. 2014. Tidy Data. Journal of Statistical Software 59, 10 (2014), 1--23.",
+      "doi": ""
+    },
+    {
+      "text": "Krist Wongsuphasawat, John Alexis Guerra Gomez, Catherine Plaisant, Taowei David Wang, Meirav Taieb-Maimon, and Ben Shneiderman. 2011. LifeFlow: Visualizing an Overview of Event Sequences. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '11). ACM, NY, NY, USA, 1747--1756. DOI: http://dx.doi.org/10.1145/1978942.1979196 event-place: Vancouver, BC, Canada.",
+      "doi": "10.1145/1978942.1979196"
+    },
+    {
+      "text": "Eugene Wu and Samuel Madden. 2013. Scorpion: Explaining Away Outliers in Aggregate Queries. Proc. VLDB Endow. 6, 8 (June 2013), 553--564. DOI: http://dx.doi.org/10.14778/2536354.2536356",
+      "doi": "10.14778/2536354.2536356"
+    },
+    {
+      "text": "Baowen Xu, Ju Qian, Xiaofang Zhang, Zhongqiang Wu, and Lin Chen. 2005. A Brief Survey of Program Slicing. SIGSOFT Softw. Eng. Notes 30, 2 (March 2005), 1--36. DOI: http://dx.doi.org/10.1145/1050849.1050865",
+      "doi": "10.1145/1050849.1050865"
+    },
+    {
+      "text": "Qianrui Zhang, Haoci Zhang, Thibault Sellam, and Eugene Wu. 2019. Mining Precision Interfaces From Query Logs. In Proceedings of the 2019 International Conference on Management of Data (SIGMOD '19). ACM, NY, NY, USA, 988--1005. DOI: http://dx.doi.org/10.1145/3299869.3319872 event-place: Amsterdam, Netherlands.",
+      "doi": "10.1145/3299869.3319872"
+    }
+  ]
+}

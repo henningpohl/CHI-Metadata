@@ -1,0 +1,615 @@
+{
+  "doi": "10.1145/3544548.3581197",
+  "title": "Measuring and Understanding Trust Calibrations for Automated Systems: A Survey of the State-Of-The-Art and Future Directions",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-16",
+  "year": 2023,
+  "badges": [],
+  "abstract": "Trust has been recognized as a central variable to explain the resistance to using automated systems (under-trust) and the overreliance on automated systems (over-trust). To achieve appropriate reliance, users\u2019 trust should be calibrated to reflect a system\u2019s capabilities. Studies from various disciplines have examined different interventions to attain such trust calibration. Based on a literature body of 1000+ papers, we identified 96 relevant publications which aimed to calibrate users\u2019 trust in automated systems. To provide an in-depth overview of the state-of-the-art, we reviewed and summarized measurements of the trust calibration, interventions, and results of these efforts. For the numerous promising calibration interventions, we extract common design choices and structure these into four dimensions of trust calibration interventions to guide future studies. Our findings indicate that the measurement of the trust calibration often limits the interpretation of the effects of different interventions. We suggest future directions for this problem.",
+  "authors": [
+    {
+      "name": "Magdalena Wischnewski",
+      "institution": "Research Center for Trustworthy Data Science and Security, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659545575",
+      "orcid": "0000-0001-6377-0940"
+    },
+    {
+      "name": "Nicole Kr\u00e4mer",
+      "institution": "Social Psychology - Media and Communication, University of Duisburg-Essen, Germany and Research Center for Trustworthy Data Science and Security, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81332510009",
+      "orcid": "0000-0001-7535-870X"
+    },
+    {
+      "name": "Emmanuel M\u00fcller",
+      "institution": "Data Science and Data Engineering, Technical University Dortmund, Germany and Research Center for Trustworthy Data Science and Security, Germany",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660778541",
+      "orcid": "0000-0002-5409-6875"
+    }
+  ],
+  "references": [
+    {
+      "text": "Shreya Agrawal and Pooja Jain. 2017. An improved approach for movie recommendation system. In 2017 International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud)(I-SMAC). IEEE, 336\u2013342.",
+      "doi": ""
+    },
+    {
+      "text": "Kumar Akash, Neera Jain, and Teruhisa Misu. 2020. Toward adaptive trust calibration for level 2 driving automation. In Proceedings of the 2020 international conference on multimodal interaction. 538\u2013547.",
+      "doi": "10.1145/3382507.3418885"
+    },
+    {
+      "text": "Gene\u00a0M Alarcon, Anthony\u00a0M Gibson, and Sarah\u00a0A Jessup. 2020. Trust repair in performance, process, and purpose factors of human-robot ttust. In 2020 IEEE International Conference on Human-Machine Systems (ICHMS). IEEE, 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Yusuf Albayram, Theodore Jensen, Mohammad Maifi\u00a0Hasan Khan, Md\u00a0Abdullah\u00a0Al Fahim, Ross Buck, and Emil Coman. 2020. Investigating the effects of (empty) promises on human-automation interaction and trust repair. In Proceedings of the 8th International Conference on Human-Agent Interaction. 6\u201314.",
+      "doi": "10.1145/3406499.3415064"
+    },
+    {
+      "text": "Basel Alhaji, Michael Prilla, and Andreas Rausch. 2021. Trust Dynamics and Verbal Assurances in Human Robot Physical Collaboration. Frontiers in Artificial Intelligence(2021), 103.",
+      "doi": ""
+    },
+    {
+      "text": "Kamilla\u00a0Egedal Andersen, Simon K\u00f6slich, Bjarke Kristian Maigaard\u00a0Kj\u00e6r Pedersen, Bente\u00a0Charlotte Weigelin, and Lars\u00a0Christian Jensen. 2017. Do we blindly trust self-driving cars. In Proceedings of the Companion of the 2017 ACM/IEEE International Conference on Human-robot Interaction. 67\u201368.",
+      "doi": "10.1145/3029798.3038428"
+    },
+    {
+      "text": "Jackie Ayoub, Lilit Avetisyan, Mustapha Makki, and Feng Zhou. 2021. An Investigation of Drivers\u2019 Dynamic Situational Trust in Conditionally Automated Driving. IEEE Transactions on Human-Machine Systems 52, 3 (2021), 501\u2013511.",
+      "doi": ""
+    },
+    {
+      "text": "Hebert Azevedo-Sa, Huajing Zhao, Connor Esterwood, X\u00a0Jessie Yang, Dawn\u00a0M Tilbury, and Lionel\u00a0P Robert\u00a0Jr. 2021. How internal and external risks affect the relationships between trust and driver behavior in automated driving systems. Transportation research part C: emerging technologies 123 (2021), 102973.",
+      "doi": ""
+    },
+    {
+      "text": "Annette Baier. 1986. Trust and antitrust. ethics 96, 2 (1986), 231\u2013260.",
+      "doi": ""
+    },
+    {
+      "text": "Philip Bobko, Leanne Hirshfield, Lucca Eloy, Cara Spencer, Emily Doherty, Jack Driscoll, and Hannah Obolsky. 2022. Human-agent teaming and trust calibration: a theoretical framework, configurable testbed, empirical illustration, and implications for the development of adaptive systems. Theoretical Issues in Ergonomics Science(2022), 1\u201325.",
+      "doi": ""
+    },
+    {
+      "text": "Michelle Brachman, Zahra Ashktorab, Michael Desmond, Evelyn Duesterwald, Casey Dugan, Narendra\u00a0Nath Joshi, Qian Pan, and Aabhas Sharma. 2022. Reliance and Automation for Human-AI Collaborative Data Labeling Conflict Resolution. Proceedings of the ACM on Human-Computer Interaction 6, CSCW2(2022), 1\u201327.",
+      "doi": "10.1145/3555212"
+    },
+    {
+      "text": "Zana Bu\u00e7inca, Maja\u00a0Barbara Malaya, and Krzysztof\u00a0Z Gajos. 2021. To trust or to think: cognitive forcing functions can reduce overreliance on AI in AI-assisted decision-making. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1(2021), 1\u201321.",
+      "doi": "10.1145/3449287"
+    },
+    {
+      "text": "George Charalambous, Sarah Fletcher, and Philip Webb. 2016. The development of a scale to evaluate trust in industrial human-robot collaboration. International Journal of Social Robotics 8, 2 (2016), 193\u2013209.",
+      "doi": ""
+    },
+    {
+      "text": "Jing Chen, Scott Mishler, and Bin Hu. 2021. Automation error type and methods of communicating automation reliability affect trust and performance: An empirical study in the cyber domain. IEEE Transactions on Human-Machine Systems 51, 5 (2021), 463\u2013473.",
+      "doi": ""
+    },
+    {
+      "text": "Jing Chen, Scott Mishler, Bin Hu, Ninghui Li, and Robert\u00a0W Proctor. 2018. The description-experience gap in the effect of warning reliability on user trust and performance in a phishing-detection context. International Journal of Human-Computer Studies 119 (2018), 35\u201347.",
+      "doi": "10.1016/j.ijhcs.2018.05.010"
+    },
+    {
+      "text": "Jessie\u00a0YC Chen. 2009. Concurrent performance of military tasks and robotics tasks: Effects of automation unreliability and individual differences. In Proceedings of the 4th ACM/IEEE international conference on Human robot interaction. 181\u2013188.",
+      "doi": "10.1145/1514095.1514128"
+    },
+    {
+      "text": "Jessie\u00a0YC Chen, Michael\u00a0J Barnes, and Caitlin Kenny. 2011. Effects of unreliable automation and individual differences on supervisory control of multiple ground robots. In 2011 6th ACM/IEEE International Conference on Human-Robot Interaction (HRI). IEEE, 371\u2013378.",
+      "doi": "10.1145/1957656.1957793"
+    },
+    {
+      "text": "Min Chen, Stefanos Nikolaidis, Harold Soh, David Hsu, and Siddhartha Srinivasa. 2018. Planning with trust for human-robot collaboration. In Proceedings of the 2018 ACM/IEEE international conference on human-robot interaction. 307\u2013315.",
+      "doi": "10.1145/3171221.3171264"
+    },
+    {
+      "text": "Yan Chen, Fatemeh\u00a0Mariam Zahedi, Ahmed Abbasi, and David Dobolyi. 2021. Trust calibration of automated security IT artifacts: A multi-domain study of phishing-website detection tools. Information & Management 58, 1 (2021), 103394.",
+      "doi": ""
+    },
+    {
+      "text": "Sanghyun Choo and Chang\u00a0S Nam. 2022. Detecting Human Trust Calibration in Automation: A Convolutional Neural Network Approach. IEEE Transactions on Human-Machine Systems(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra Chouldechova. 2017. Fair prediction with disparate impact: A study of bias in recidivism prediction instruments. Big data 5, 2 (2017), 153\u2013163.",
+      "doi": ""
+    },
+    {
+      "text": "Lara Christoforakos, Alessio Gallucci, Tinatini Surmava-Gro\u00dfe, Daniel Ullrich, and Sarah Diefenbach. 2021. Can robots earn our trust the same way humans do? A systematic exploration of competence, warmth, and anthropomorphism as determinants of trust development in HRI. Frontiers in Robotics and AI 8 (2021), 640444.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0G Collins and Ion Juvina. 2021. Trust Miscalibration Is Sometimes Necessary: An Empirical Study and a Computational Model. Frontiers in Psychology 12 (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Sylvain Daronnat, Leif Azzopardi, Martin Halvey, and Mateusz Dubiel. 2021. Inferring Trust From Users\u2019 Behaviours; Agents\u2019 Predictability Positively Affects Trust, Task Performance and Cognitive Load in Human-Agent Real-Time Collaboration. Frontiers in Robotics and AI 8 (2021), 194.",
+      "doi": ""
+    },
+    {
+      "text": "Ewart\u00a0J De\u00a0Visser, Paul\u00a0J Beatty, Justin\u00a0R Estepp, Spencer Kohn, Abdulaziz Abubshait, John\u00a0R Fedota, and Craig\u00a0G McDonald. 2018. Learning from the slips of others: Neural correlates of trust in automated agents. Frontiers in human neuroscience 12 (2018), 309.",
+      "doi": ""
+    },
+    {
+      "text": "Ewart\u00a0J de Visser, Frank Krueger, Patrick McKnight, Steven Scheid, Melissa Smith, Stephanie Chalk, and Raja Parasuraman. 2012. The world is not enough: Trust in cognitive agents. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting, Vol.\u00a056. Sage Publications Sage CA: Los Angeles, CA, 263\u2013267.",
+      "doi": ""
+    },
+    {
+      "text": "Ewart\u00a0J De\u00a0Visser, Samuel\u00a0S Monfort, Ryan McKendrick, Melissa\u00a0AB Smith, Patrick\u00a0E McKnight, Frank Krueger, and Raja Parasuraman. 2016. Almost human: Anthropomorphism increases trust resilience in cognitive agents.Journal of Experimental Psychology: Applied 22, 3 (2016), 331.",
+      "doi": ""
+    },
+    {
+      "text": "Ewart\u00a0J De\u00a0Visser, Marieke\u00a0MM Peeters, Malte\u00a0F Jung, Spencer Kohn, Tyler\u00a0H Shaw, Richard Pak, and Mark\u00a0A Neerincx. 2020. Towards a theory of longitudinal trust calibration in human\u2013robot teams. International journal of social robotics 12, 2 (2020), 459\u2013478.",
+      "doi": ""
+    },
+    {
+      "text": "Peter De\u00a0Vries, Cees Midden, and Don Bouwhuis. 2003. The effects of errors on system trust, self-confidence, and the allocation of control in route planning. International Journal of Human-Computer Studies 58, 6 (2003), 719\u2013735.",
+      "doi": "10.1016/S1071-5819%2803%2900039-9"
+    },
+    {
+      "text": "Berkeley\u00a0J Dietvorst, Joseph\u00a0P Simmons, and Cade Massey. 2015. Algorithm aversion: people erroneously avoid algorithms after seeing them err.Journal of Experimental Psychology: General 144, 1 (2015), 114.",
+      "doi": ""
+    },
+    {
+      "text": "Michael\u00a0C Dorneich, Rachel Dudley, Emmanuel Letsu-Dake, William Rogers, Stephen\u00a0D Whitlow, Michael\u00a0C Dillard, and Erik Nelson. 2017. Interaction of automation visibility and information quality in flight deck information automation. IEEE Transactions on Human-Machine Systems 47, 6 (2017), 915\u2013926.",
+      "doi": ""
+    },
+    {
+      "text": "Finale Doshi-Velez and Been Kim. 2017. Towards a rigorous science of interpretable machine learning.",
+      "doi": ""
+    },
+    {
+      "text": "Na Du, Kevin\u00a0Y Huang, and X\u00a0Jessie Yang. 2020. Not all information is equal: effects of disclosing different types of likelihood information on trust, compliance and reliance, and task performance in human-automation teaming. Human factors 62, 6 (2020), 987\u20131001.",
+      "doi": ""
+    },
+    {
+      "text": "Connor Esterwood, Lionel Robert, 2022. Having The Right Attitude: How Attitude Impacts Trust Repair in Human-Robot Interaction. (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Connor Esterwood and Lionel\u00a0P Robert. 2021. Do you still trust me? human-robot trust repair strategies. In 2021 30th IEEE International Conference on Robot & Human Interactive Communication (RO-MAN). IEEE, 183\u2013188.",
+      "doi": "10.1109/RO-MAN50785.2021.9515365"
+    },
+    {
+      "text": "Md\u00a0Abdullah\u00a0Al Fahim, Mohammad Maifi\u00a0Hasan Khan, Theodore Jensen, Yusuf Albayram, and Emil Coman. 2021. Do integral emotions affect trust? The mediating effect of emotions on trust in the context of human-agent interaction. In Designing Interactive Systems Conference 2021. 1492\u20131503.",
+      "doi": ""
+    },
+    {
+      "text": "Chong Feng, Muzammil Khan, Arif\u00a0Ur Rahman, and Arshad Ahmad. 2020. News recommendation systems-accomplishments, challenges & future directions. IEEE Access 8(2020), 16702\u201316725.",
+      "doi": ""
+    },
+    {
+      "text": "Hiroshi Fujita. 2020. AI-based computer-aided diagnosis (AI-CAD): the latest review to read first. Radiological physics and technology 13, 1 (2020), 6\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "Ji Gao and John\u00a0D Lee. 2006. Effect of shared information on trust and reliance in a demand forecasting task. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting, Vol.\u00a050. SAGE Publications Sage CA: Los Angeles, CA, 215\u2013219.",
+      "doi": ""
+    },
+    {
+      "text": "Bhavya Ghai, Q\u00a0Vera Liao, Yunfeng Zhang, Rachel Bellamy, and Klaus Mueller. 2021. Explainable active learning (xal) toward ai explanations as interfaces for machine teachers. Proceedings of the ACM on Human-Computer Interaction 4, CSCW3(2021), 1\u201328.",
+      "doi": "10.1145/3432934"
+    },
+    {
+      "text": "Harjinder Gill, Kathleen Boies, Joan\u00a0E Finegan, and Jeffrey McNally. 2005. Antecedents of trust: Establishing a boundary condition for the relation between propensity to trust and intention to trust. Journal of business and psychology 19, 3 (2005), 287\u2013302.",
+      "doi": ""
+    },
+    {
+      "text": "Rui\u00a0Ying Goh and Lai\u00a0Soon Lee. 2019. Credit scoring: a review on support vector machines and metaheuristic approaches. Advances in Operations Research 2019 (2019).",
+      "doi": ""
+    },
+    {
+      "text": "Akshit Gupta, Debadeep Basu, Ramya Ghantasala, Sihang Qiu, and Ujwal Gadiraju. 2022. To Trust or Not To Trust: How a Conversational Interface Affects Trust in a Decision Support System. In Proceedings of the ACM Web Conference 2022. 3531\u20133540.",
+      "doi": "10.1145/3485447.3512248"
+    },
+    {
+      "text": "Svyatoslav Guznov, Alexander Nelson, Joseph Lyons, and David Dycus. 2015. The effects of automation reliability and multi-tasking on trust and reliance in a simulated unmanned system control task. In International Conference on Human-Computer Interaction. Springer, 616\u2013621.",
+      "doi": ""
+    },
+    {
+      "text": "Kasper Hald, Matthias Rehm, and Thomas\u00a0B Moeslund. 2021. Human-Robot Trust Assessment Using Top-Down Visual Tracking After Robot Task Execution Mistakes. In 2021 30th IEEE International Conference on Robot & Human Interactive Communication (RO-MAN). IEEE, 892\u2013898.",
+      "doi": ""
+    },
+    {
+      "text": "Yugo Hayashi and Kosuke Wakabayashi. 2017. Can AI become reliable source to support human decision making in a court scene?. In Companion of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing. 195\u2013198.",
+      "doi": "10.1145/3022198.3026338"
+    },
+    {
+      "text": "Tove Helldin, G\u00f6ran Falkman, Maria Riveiro, and Staffan Davidsson. 2013. Presenting system uncertainty in automotive UIs for supporting trust calibration in autonomous driving. In Proceedings of the 5th international conference on automotive user interfaces and interactive vehicular applications. 210\u2013217.",
+      "doi": "10.1145/2516540.2516554"
+    },
+    {
+      "text": "Kai Holl\u00e4nder, Philipp Wintersberger, and Andreas Butz. 2019. Overtrust in external cues of automated vehicles: an experimental investigation. In Proceedings of the 11th international conference on automotive user interfaces and interactive vehicular applications. 211\u2013221.",
+      "doi": "10.1145/3342197.3344528"
+    },
+    {
+      "text": "Brittany\u00a0E Holthausen, Philipp Wintersberger, Bruce\u00a0N Walker, and Andreas Riener. 2020. Situational trust scale for automated driving (STS-AD): Development and initial validation. In 12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications. 40\u201347.",
+      "doi": "10.1145/3409120.3410637"
+    },
+    {
+      "text": "Sandy\u00a0H Huang, Kush Bhatia, Pieter Abbeel, and Anca\u00a0D Dragan. 2018. Establishing appropriate trust via critical states. In 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 3929\u20133936.",
+      "doi": "10.1109/IROS.2018.8593649"
+    },
+    {
+      "text": "Aya Hussein, Sondoss Elsawah, and Hussein\u00a0A Abbass. 2020. Trust mediating reliability\u2013reliance relationship in supervisory control of human\u2013swarm interactions. Human Factors 62, 8 (2020), 1237\u20131248.",
+      "doi": ""
+    },
+    {
+      "text": "Lakshmi\u00a0Shankar Iyer. 2021. AI enabled applications towards intelligent transportation. Transportation Engineering 5 (2021), 100083.",
+      "doi": ""
+    },
+    {
+      "text": "Alon Jacovi, Ana Marasovi\u0107, Tim Miller, and Yoav Goldberg. 2021. Formalizing trust in artificial intelligence: Prerequisites, causes and goals of human trust in ai., 624\u2013635\u00a0pages.",
+      "doi": ""
+    },
+    {
+      "text": "Theodore Jensen, Yusuf Albayram, Mohammad Maifi\u00a0Hasan Khan, Md\u00a0Abdullah\u00a0Al Fahim, Ross Buck, and Emil Coman. 2019. The apple does fall far from the tree: user separation of a system from its developers in human-automation trust repair. In Proceedings of the 2019 on Designing Interactive Systems Conference. 1071\u20131082.",
+      "doi": "10.1145/3322276.3322349"
+    },
+    {
+      "text": "Theodore Jensen, Mohammad Maifi\u00a0Hasan Khan, and Yusuf Albayram. 2020. The role of behavioral anthropomorphism in human-automation trust calibration. In International Conference on Human-Computer Interaction. Springer, 33\u201353.",
+      "doi": "10.1007/978-3-030-50334-5_3"
+    },
+    {
+      "text": "Theodore Jensen, Mohammad Maifi\u00a0Hasan Khan, Md\u00a0Abdullah\u00a0Al Fahim, and Yusuf Albayram. 2021. Trust and Anthropomorphism in Tandem: The Interrelated Nature of Automated Agent Appearance and Reliability in Trustworthiness Perceptions. In Designing Interactive Systems Conference 2021. 1470\u20131480.",
+      "doi": ""
+    },
+    {
+      "text": "Jiun-Yin Jian, Ann\u00a0M Bisantz, and Colin\u00a0G Drury. 2000. Foundations for an empirically determined scale of trust in automated systems. International journal of cognitive ergonomics 4, 1 (2000), 53\u201371.",
+      "doi": ""
+    },
+    {
+      "text": "Craig\u00a0J Johnson, Mustafa Demir, Nathan\u00a0J McNeese, Jamie\u00a0C Gorman, Alexandra\u00a0T Wolff, and Nancy\u00a0J Cooke. 2021. The Impact of Training on Human\u2013Autonomy Team Communications and Trust Calibration. Human factors (2021), 00187208211047323.",
+      "doi": ""
+    },
+    {
+      "text": "Stefanie\u00a0Maria Jungmann, Timo Klan, Sebastian Kuhn, and Florian Jungmann. 2019. Accuracy of a Chatbot (ADA) in the diagnosis of mental disorders: comparative case study with lay and expert users. JMIR formative research 3, 4 (2019), e13863.",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra\u00a0D Kaplan, Theresa\u00a0T Kessler, J\u00a0Christopher Brill, and PA Hancock. 2021. Trust in artificial intelligence: Meta-analytic findings. Human Factors (2021), 00187208211013988.",
+      "doi": ""
+    },
+    {
+      "text": "Siddartha Khastgir, Stewart Birrell, Gunwant Dhadyalla, and Paul Jennings. 2018. Calibrating trust through knowledge: Introducing the concept of informed safety for automation in vehicles. Transportation research part C: emerging technologies 96 (2018), 290\u2013303.",
+      "doi": ""
+    },
+    {
+      "text": "Taenyun Kim and Hayeon Song. 2021. How should intelligent agents apologize to restore trust? Interaction effects between anthropomorphism and apology attribution on trust repair. Telematics and Informatics 61 (2021), 101595.",
+      "doi": ""
+    },
+    {
+      "text": "Molly Kluck, Spencer\u00a0C Kohn, James\u00a0C Walliser, Ewart\u00a0J de Visser, and Tyler\u00a0H Shaw. 2018. Stereotypical of Us to Stereotype Them: The Effect of System-Wide Trust on Heterogeneous Populations of Unmanned Autonomous Vehicles. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting, Vol.\u00a062. SAGE Publications Sage CA: Los Angeles, CA, 1103\u20131107.",
+      "doi": ""
+    },
+    {
+      "text": "Spencer\u00a0C Kohn, Daniel Quinn, Richard Pak, Ewart\u00a0J De\u00a0Visser, and Tyler\u00a0H Shaw. 2018. Trust repair strategies with self-driving vehicles: An exploratory study. In Proceedings of the human factors and ergonomics society annual meeting, Vol.\u00a062. Sage Publications Sage CA: Los Angeles, CA, 1108\u20131112.",
+      "doi": ""
+    },
+    {
+      "text": "Moritz K\u00f6rber. 2018. Theoretical considerations and development of a questionnaire to measure trust in automation. In Congress of the International Ergonomics Association. Springer, 13\u201330.",
+      "doi": ""
+    },
+    {
+      "text": "ES Kox, LB Siegling, and JH Kerstholt. 2022. Trust Development in Military and Civilian Human\u2013Agent Teams: The Effect of Social-Cognitive Recovery Strategies. International Journal of Social Robotics(2022), 1\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Esther\u00a0S Kox, Jos\u00e9\u00a0H Kerstholt, Tom\u00a0F Hueting, and Peter\u00a0W de Vries. 2021. Trust repair in human-agent teams: the effectiveness of explanations and expressing regret. Autonomous agents and multi-agent systems 35, 2 (2021), 1\u201320.",
+      "doi": ""
+    },
+    {
+      "text": "Johannes Kraus, David Scholz, Dina Stiegemeier, and Martin Baumann. 2020. The more you know: trust dynamics and calibration in highly automated driving and the effects of take-overs, system malfunction, and system transparency. Human factors 62, 5 (2020), 718\u2013736.",
+      "doi": ""
+    },
+    {
+      "text": "Johannes\u00a0Maria Kraus, Yannick Forster, Sebastian Hergeth, and Martin Baumann. 2019. Two routes to trust calibration: effects of reliability and brand information on trust in automation. International Journal of Mobile Human Computer Interaction (IJMHCI) 11, 3(2019), 1\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "Alexander Kunze, Stephen\u00a0J Summerskill, Russell Marshall, and Ashleigh\u00a0J Filtness. 2019. Automation transparency: implications of uncertainty communication for human-automation interaction and interfaces. Ergonomics 62, 3 (2019), 345\u2013360.",
+      "doi": ""
+    },
+    {
+      "text": "Vivian Lai and Chenhao Tan. 2019. On human predictions with explanations and predictions of machine learning models: A case study on deception detection. In Proceedings of the conference on fairness, accountability, and transparency. 29\u201338.",
+      "doi": "10.1145/3287560.3287590"
+    },
+    {
+      "text": "Markus Langer, Tim Hunsicker, Tina Feldkamp, Cornelius\u00a0J K\u00f6nig, and Nina Grgi\u0107-Hla\u010da. 2022. \u201cLook! It\u2019sa Computer Program! It\u2019s an Algorithm! It\u2019s AI!\u201d: Does Terminology Affect Human Perceptions and Evaluations of Algorithmic Decision-Making Systems?. In CHI Conference on Human Factors in Computing Systems. 1\u201328.",
+      "doi": "10.1145/3491102.3517527"
+    },
+    {
+      "text": "John Lee and Neville Moray. 1992. Trust, control strategies and allocation of function in human-machine systems. Ergonomics 35, 10 (1992), 1243\u20131270.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0D Lee and Katrina\u00a0A See. 2004. Trust in automation: Designing for appropriate reliance. Human factors 46, 1 (2004), 50\u201380.",
+      "doi": ""
+    },
+    {
+      "text": "Benedikt Leichtmann, Christina Humer, Andreas Hinterreiter, Marc Streit, and Martina Mara. 2023. Effects of Explainable Artificial Intelligence on trust and human behavior in a high-risk decision task. Computers in Human Behavior 139 (2023), 107539.",
+      "doi": "10.1016/j.chb.2022.107539"
+    },
+    {
+      "text": "Stephan Lewandowsky, Michael Mundy, and Gerard Tan. 2000. The dynamics of trust: comparing humans to automation.Journal of Experimental Psychology: Applied 6, 2 (2000), 104.",
+      "doi": ""
+    },
+    {
+      "text": "Mengyao Li, Brittany\u00a0E Holthausen, Rachel\u00a0E Stuck, and Bruce\u00a0N Walker. 2019. No risk no trust: Investigating perceived risk in highly automated driving. In Proceedings of the 11th International Conference on Automotive User Interfaces and Interactive Vehicular Applications. 177\u2013185.",
+      "doi": "10.1145/3342197.3344525"
+    },
+    {
+      "text": "Cynthia Liem, Markus Langer, Andrew Demetriou, Annemarie\u00a0MF Hiemstra, Achmadnoer Sukma\u00a0Wicaksana, Marise\u00a0Ph Born, and Cornelius\u00a0J K\u00f6nig. 2018. Psychology meets machine learning: Interdisciplinary perspectives on algorithmic job candidate screening. In Explainable and interpretable models in computer vision and machine learning. Springer, 197\u2013253.",
+      "doi": ""
+    },
+    {
+      "text": "James Llinas, Ann Bisantz, Colin Drury, Younho Seong, and Jiun-Yin Jian. 1998. Studies and analyses of aided adversarial decision making. phase 2: Research on human trust in automation. Technical Report. STATE UNIV OF NEW YORK AT BUFFALO CENTER OF MULTISOURCE INFORMATION FUSION.",
+      "doi": ""
+    },
+    {
+      "text": "Jennifer\u00a0M Logg, Julia\u00a0A Minson, and Don\u00a0A Moore. 2019. Algorithm appreciation: People prefer algorithmic to human judgment. Organizational Behavior and Human Decision Processes 151 (2019), 90\u2013103.",
+      "doi": ""
+    },
+    {
+      "text": "Yidu Lu and Nadine Sarter. 2019. Eye tracking: a process-oriented method for inferring trust in automation as a function of priming and system reliability. IEEE Transactions on Human-Machine Systems 49, 6 (2019), 560\u2013568.",
+      "doi": ""
+    },
+    {
+      "text": "Yidu Lu and Nadine Sarter. 2019. Feedback on system or operator performance: Which is more useful for the timely detection of changes in reliability, trust calibration and appropriate automation usage?. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting, Vol.\u00a063. SAGE Publications Sage CA: Los Angeles, CA, 312\u2013316.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph\u00a0B Lyons, Izz aldin Hamdan, and Thy\u00a0Q Vo. 2023. Explanations and trust: What happens to trust when a robot partner does something unexpected?Computers in Human Behavior 138 (2023), 107473.",
+      "doi": ""
+    },
+    {
+      "text": "Stefanie M.\u00a0Faas, Johannes Kraus, Alexander Schoenhals, and Martin Baumann. 2021. Calibrating Pedestrians\u2019 Trust in Automated Vehicles: Does an Intent Display in an External HMI Support Trust Calibration and Safe Crossing Behavior?. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": "10.1145/3411764.3445738"
+    },
+    {
+      "text": "Poornima Madhavan and Douglas\u00a0A Wiegmann. 2007. Similarities and differences between human\u2013human and human\u2013automation trust: an integrative review. Theoretical Issues in Ergonomics Science 8, 4 (2007), 277\u2013301.",
+      "doi": ""
+    },
+    {
+      "text": "M. Madsen and S. Gregor. 2000. Measuring Human-Computer Trust. In Proceedings of 11th Australasian Conference on Information Systems. 6e8.",
+      "doi": ""
+    },
+    {
+      "text": "JB Manchon, Romane Beaufort, Mercedes Bueno, and Jordan Navarro. 2022. Why Does the Automation Say One Thing but Does Something Else? Effect of the Feedback Consistency and the Timing of Error on Trust in Automated Driving. Information 13, 10 (2022), 480.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel\u00a0J McAllister. 1995. Affect-and cognition-based trust as foundations for interpersonal cooperation in organizations. Academy of management journal 38, 1 (1995), 24\u201359.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0M McGuirl and Nadine\u00a0B Sarter. 2003. How are we doing?: Presenting System Confidence Information to Support Trust Calibration and Adaptive Function Allocation. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting, Vol.\u00a047. SAGE Publications Sage CA: Los Angeles, CA, 538\u2013542.",
+      "doi": ""
+    },
+    {
+      "text": "John\u00a0M McGuirl and Nadine\u00a0B Sarter. 2006. Supporting trust calibration and the effective use of decision aids by presenting dynamic system confidence information. Human factors 48, 4 (2006), 656\u2013665.",
+      "doi": ""
+    },
+    {
+      "text": "D\u00a0Harrison McKnight, Vivek Choudhury, and Charles Kacmar. 2002. Developing and validating trust measures for e-commerce: An integrative typology. Information systems research 13, 3 (2002), 334\u2013359.",
+      "doi": ""
+    },
+    {
+      "text": "Joseph\u00a0E Mercado, Michael\u00a0A Rupp, Jessie\u00a0YC Chen, Michael\u00a0J Barnes, Daniel Barber, and Katelyn Procci. 2016. Intelligent agent transparency in human\u2013agent teaming for Multi-UxV management. Human factors 58, 3 (2016), 401\u2013415.",
+      "doi": ""
+    },
+    {
+      "text": "Stephanie\u00a0M Merritt. 2011. Affective processes in human\u2013automation interactions. Human Factors 53, 4 (2011), 356\u2013370.",
+      "doi": ""
+    },
+    {
+      "text": "Stephanie\u00a0M Merritt, Deborah Lee, Jennifer\u00a0L Unnerstall, and Kelli Huber. 2015. Are well-calibrated users effective users? Associations between calibration of trust and performance on an automation-aided task. Human Factors 57, 1 (2015), 34\u201347.",
+      "doi": ""
+    },
+    {
+      "text": "RC Meyer, JH Davis, and F\u00a0David Schoorman. 1995. An integrative model of organizational trust. Academy of management review 20, 3 (1995), 709\u2013734.",
+      "doi": ""
+    },
+    {
+      "text": "David Miller, Mishel Johns, Brian Mok, Nikhil Gowda, David Sirkin, Key Lee, and Wendy Ju. 2016. Behavioral measurement of trust in automation: the trust fall. In Proceedings of the human factors and ergonomics society annual meeting, Vol.\u00a060. SAGE Publications Sage CA: Los Angeles, CA, 1849\u20131853.",
+      "doi": ""
+    },
+    {
+      "text": "Tim Miller. 2019. Explanation in artificial intelligence: Insights from the social sciences. Artificial intelligence 267 (2019), 1\u201338.",
+      "doi": ""
+    },
+    {
+      "text": "Scott Mishler and Jing Chen. 2023. Effect of automation failure type on trust development in driving automation systems. Applied Ergonomics 106(2023), 103913.",
+      "doi": ""
+    },
+    {
+      "text": "Bonnie\u00a0Marlene Muir. 2002. Operators\u2019 trust in and use of automatic controllers in a supervisory process control task.(2002).",
+      "doi": ""
+    },
+    {
+      "text": "Mohammad Naiseh, Dena Al-Thani, Nan Jiang, and Raian Ali. 2023. How the different explanation classes impact trust calibration: The case of clinical decision support systems. International Journal of Human-Computer Studies 169 (2023), 102941.",
+      "doi": "10.1016/j.ijhcs.2022.102941"
+    },
+    {
+      "text": "Mollik Nayyar and Alan\u00a0R Wagner. 2018. When should a robot apologize? understanding how timing affects human-robot trust repair. In International conference on social robotics. Springer, 265\u2013274.",
+      "doi": ""
+    },
+    {
+      "text": "Birthe Nesset, David\u00a0A Robb, Jos\u00e9 Lopes, and Helen Hastie. 2021. Transparency in hri: Trust and decision making in the face of robot errors. In Companion of the 2021 ACM/IEEE International Conference on Human-Robot Interaction. 313\u2013317.",
+      "doi": "10.1145/3434074.3447183"
+    },
+    {
+      "text": "Mahsan Nourani, Joanie King, and Eric Ragan. 2020. The role of domain expertise in user trust and the impact of first impressions with intelligent systems. In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing, Vol.\u00a08. 112\u2013121.",
+      "doi": ""
+    },
+    {
+      "text": "Kazuo Okamura and Seiji Yamada. 2020. Adaptive trust calibration for human-AI collaboration. Plos one 15, 2 (2020), e0229132.",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0J Page, Joanne\u00a0E McKenzie, Patrick\u00a0M Bossuyt, Isabelle Boutron, Tammy\u00a0C Hoffmann, Cynthia\u00a0D Mulrow, Larissa Shamseer, Jennifer\u00a0M Tetzlaff, Elie\u00a0A Akl, Sue\u00a0E Brennan, 2021. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. Systematic reviews 10, 1 (2021), 1\u201311.",
+      "doi": ""
+    },
+    {
+      "text": "Raja Parasuraman and Victor Riley. 1997. Humans and automation: Use, misuse, disuse, abuse. Human factors 39, 2 (1997), 230\u2013253.",
+      "doi": ""
+    },
+    {
+      "text": "Vlad\u00a0L Pop, Alex Shrewsbury, and Francis\u00a0T Durso. 2015. Individual differences in the calibration of trust in automation. Human factors 57, 4 (2015), 545\u2013556.",
+      "doi": ""
+    },
+    {
+      "text": "Forough Poursabzi-Sangdeh, Daniel\u00a0G Goldstein, Jake\u00a0M Hofman, Jennifer\u00a0Wortman Wortman\u00a0Vaughan, and Hanna Wallach. 2021. Manipulating and measuring model interpretability. In Proceedings of the 2021 CHI conference on human factors in computing systems. 1\u201352.",
+      "doi": "10.1145/3411764.3445315"
+    },
+    {
+      "text": "Amy Rechkemmer and Ming Yin. 2022. When Confidence Meets Accuracy: Exploring the Effects of Multiple Performance Indicators on Trust in Machine Learning Models. In CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Dalai Dos\u00a0Santos Ribeiro, Gabriel Diniz\u00a0Junqueira Barbosa, Marisa Do\u00a0Carmo Silva, H\u00e9lio Lopes, and Simone Diniz\u00a0Junqueira Barbosa. 2021. Exploring the impact of classification probabilities on users\u2019 trust in ambiguous instances. In 2021 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, 1\u20139.",
+      "doi": ""
+    },
+    {
+      "text": "Jorge Ribeiro, Rui Lima, Tiago Eckhardt, and Sara Paiva. 2021. Robotic process automation and artificial intelligence in industry 4.0\u2013a literature review. Procedia Computer Science 181 (2021), 51\u201358.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Robinette, Ayanna\u00a0M Howard, and Alan\u00a0R Wagner. 2015. Timing is key for robot trust repair. In International conference on social robotics. Springer, 574\u2013583.",
+      "doi": ""
+    },
+    {
+      "text": "Julian Sanchez, Arthur\u00a0D Fisk, and Wendy\u00a0A Rogers. 2006. What determines appropriate trust of and reliance on an automated collaborative system? Effects of error type and domain knowledge. In 2006 9th International Conference on Control, Automation, Robotics and Vision. IEEE, 1\u20136.",
+      "doi": ""
+    },
+    {
+      "text": "Kristin Schaefer. 2013. The perception and measurement of human-robot trust. (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Markus Schedl. 2019. Deep learning in music recommendation systems. Frontiers in Applied Mathematics and Statistics (2019), 44.",
+      "doi": ""
+    },
+    {
+      "text": "Beau\u00a0G Schelble, Jeremy Lopez, Claire Textor, Rui Zhang, Nathan\u00a0J McNeese, Richard Pak, and Guo Freeman. 2022. Towards Ethical AI: Empirically Investigating Dimensions of AI Ethics, Trust Repair, and Performance in Human-AI Teaming. Human Factors (2022), 00187208221116952.",
+      "doi": ""
+    },
+    {
+      "text": "Younho Seong, Ann\u00a0M Bisantz, and Ann\u00a0M Bisantz. 2002. Judgment and trust in conjunction with automated decision aids: A theoretical model and empirical investigation. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting, Vol.\u00a046. SAGE Publications Sage CA: Los Angeles, CA, 423\u2013427.",
+      "doi": ""
+    },
+    {
+      "text": "Mona SharifHeravi, John\u00a0R Taylor, Christopher\u00a0J Stanton, Sandra Lambeth, and Christopher Shanahan. 2020. It\u2019sa Disaster! Factors Affecting Trust Development and Repair Following Agent Task Failure. In Proceedings of the 2020 Australasian Conference on Robotics and Automation (ACRA 2020), 8-10 December 2020, Brisbane, Queensland.",
+      "doi": ""
+    },
+    {
+      "text": "Harold Soh, Pan Shu, Min Chen, and David Hsu. 2018. The Transfer of Human Trust in Robot Capabilities across Tasks.. In Robotics: Science and Systems.",
+      "doi": ""
+    },
+    {
+      "text": "S\u00a0Shyam Sundar. 2020. Rise of machine agency: A framework for studying the psychology of human\u2013AI interaction (HAII). Journal of Computer-Mediated Communication 25, 1 (2020), 74\u201388.",
+      "doi": ""
+    },
+    {
+      "text": "Jonathan Tallant and Donatella Donati. 2020. Trust: from the Philosophical to the Commercial. Philosophy of Management 19, 1 (2020), 3\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "Claire Textor, Rui Zhang, Jeremy Lopez, Beau\u00a0G Schelble, Nathan\u00a0J McNeese, Guo Freeman, Richard Pak, Chad Tossell, and Ewart\u00a0J de Visser. 2022. Exploring the Relationship Between Ethics and Trust in Human\u2013Artificial Intelligence Teaming: A Mixed Methods Approach. Journal of Cognitive Engineering and Decision Making 16, 4 (2022), 252\u2013281.",
+      "doi": ""
+    },
+    {
+      "text": "Suzanne Tolmeijer, Markus Christen, Serhiy Kandul, Markus Kneer, and Abraham Bernstein. 2022. Capable but Amoral? Comparing AI and Human Expert Collaboration in Ethical Decision Making. In CHI Conference on Human Factors in Computing Systems. 1\u201317.",
+      "doi": ""
+    },
+    {
+      "text": "Suzanne Tolmeijer, Ujwal Gadiraju, Ramya Ghantasala, Akshit Gupta, and Abraham Bernstein. 2021. Second chance for a first impression? Trust development in intelligent system interaction. In Proceedings of the 29th ACM Conference on user modeling, adaptation and personalization. 77\u201387.",
+      "doi": "10.1145/3450613.3456817"
+    },
+    {
+      "text": "Qingqing Tu and Le Dong. 2010. An intelligent personalized fashion recommendation system. In 2010 International Conference on Communications, Circuits and Systems (ICCCAS). IEEE, 479\u2013485.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Ullrich, Andreas Butz, and Sarah Diefenbach. 2021. The development of overtrust: An empirical simulation and psychological analysis in the context of human\u2013robot interaction. Frontiers in Robotics and AI 8 (2021), 554578.",
+      "doi": ""
+    },
+    {
+      "text": "James\u00a0C Walliser, Ewart\u00a0J de Visser, and Tyler\u00a0H Shaw. 2016. Application of a system-wide trust strategy when supervising multiple autonomous agents. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting, Vol.\u00a060. SAGE Publications Sage CA: Los Angeles, CA, 133\u2013137.",
+      "doi": ""
+    },
+    {
+      "text": "Fei-Yue Wang. 2008. Toward a revolution in transportation operations: AI for complex systems. IEEE Intelligent Systems 23, 6 (2008), 8\u201313.",
+      "doi": "10.1109/MIS.2008.112"
+    },
+    {
+      "text": "Lu Wang, Greg\u00a0A Jamieson, and Justin\u00a0G Hollands. 2008. Improving reliability awareness to support appropriate trust and reliance on individual combat identification systems. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting, Vol.\u00a052. SAGE Publications Sage CA: Los Angeles, CA, 292\u2013296.",
+      "doi": ""
+    },
+    {
+      "text": "Ning Wang, David\u00a0V Pynadath, and Susan\u00a0G Hill. 2016. Trust calibration within a human-robot team: Comparing automatically generated explanations. In 2016 11th ACM/IEEE International Conference on Human-Robot Interaction (HRI). IEEE, 109\u2013116.",
+      "doi": ""
+    },
+    {
+      "text": "Pei Wang. 2019. On defining artificial intelligence. Journal of Artificial General Intelligence 10, 2 (2019), 1\u201337.",
+      "doi": ""
+    },
+    {
+      "text": "Xinru Wang and Ming Yin. 2022. Effects of Explanations in AI-Assisted Decision Making: Principles and Comparisons. ACM Transactions on Interactive Intelligent Systems (TiiS) (2022).",
+      "doi": ""
+    },
+    {
+      "text": "Douglas\u00a0A Wiegmann, Aaron Rich, and Hui Zhang. 2001. Automated diagnostic aids: The effects of aid reliability on users\u2019 trust and reliance. Theoretical Issues in Ergonomics Science 2, 4 (2001), 352\u2013367.",
+      "doi": ""
+    },
+    {
+      "text": "Yihan Wu and Ryan\u00a0M Kelly. 2020. Online Dating Meets Artificial Intelligence: How the Perception of Algorithmically Generated Profile Text Impacts Attractiveness and Trust. In 32nd Australian Conference on Human-Computer Interaction. 444\u2013453.",
+      "doi": ""
+    },
+    {
+      "text": "Yaqi Xie, Indu\u00a0P Bodala, Desmond\u00a0C Ong, David Hsu, and Harold Soh. 2019. Robot capability and intention in trust-based decisions across tasks. In 2019 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI). IEEE, 39\u201347.",
+      "doi": ""
+    },
+    {
+      "text": "Jin Xu and Ayanna Howard. 2022. Evaluating the Impact of Emotional Apology on Human-Robot Trust. In 2022 31st IEEE International Conference on Robot and Human Interactive Communication (RO-MAN). IEEE, 1655\u20131661.",
+      "doi": ""
+    },
+    {
+      "text": "Fumeng Yang, Zhuanyi Huang, Jean Scholtz, and Dustin\u00a0L Arendt. 2020. How do visual explanations foster end users\u2019 appropriate trust in machine learning?. In Proceedings of the 25th International Conference on Intelligent User Interfaces. 189\u2013201.",
+      "doi": "10.1145/3377325.3377480"
+    },
+    {
+      "text": "X\u00a0Jessie Yang, Christopher Schemanske, and Christine Searle. 2021. Toward quantifying trust dynamics: How people adjust their trust after moment-to-moment interaction with automation. arXiv preprint arXiv:2107.07374(2021).",
+      "doi": ""
+    },
+    {
+      "text": "X\u00a0Jessie Yang, Vaibhav\u00a0V Unhelkar, Kevin Li, and Julie\u00a0A Shah. 2017. Evaluating effects of user experience and system transparency on trust in automation. In 2017 12th ACM/IEEE International Conference on Human-Robot Interaction (HRI. IEEE, 408\u2013416.",
+      "doi": "10.1145/2909824.3020230"
+    },
+    {
+      "text": "Michelle Yeh and Christopher\u00a0D Wickens. 2001. Display signaling in augmented reality: Effects of cue reliability and image realism on attention allocation and trust calibration. Human Factors 43, 3 (2001), 355\u2013365.",
+      "doi": ""
+    },
+    {
+      "text": "Ming Yin, Jennifer Wortman\u00a0Vaughan, and Hanna Wallach. 2019. Understanding the effect of accuracy on trust in machine learning models. In Proceedings of the 2019 chi conference on human factors in computing systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300509"
+    },
+    {
+      "text": "Kun Yu, Shlomo Berkovsky, Ronnie Taib, Dan Conway, Jianlong Zhou, and Fang Chen. 2017. User trust dynamics: An investigation driven by differences in system performance. In Proceedings of the 22nd international conference on intelligent user interfaces. 307\u2013317.",
+      "doi": "10.1145/3025171.3025219"
+    },
+    {
+      "text": "Kun Yu, Shlomo Berkovsky, Ronnie Taib, Jianlong Zhou, and Fang Chen. 2019. Do i trust my machine teammate? an investigation from perception to decision. In Proceedings of the 24th International Conference on Intelligent User Interfaces. 460\u2013468.",
+      "doi": "10.1145/3301275.3302277"
+    },
+    {
+      "text": "Qiaoning Zhang, Matthew\u00a0L Lee, and Scott Carter. 2022. You Complete Me: Human-AI Teams and Complementary Expertise. In CHI Conference on Human Factors in Computing Systems. 1\u201328.",
+      "doi": ""
+    },
+    {
+      "text": "Yunfeng Zhang, Q\u00a0Vera Liao, and Rachel\u00a0KE Bellamy. 2020. Effect of confidence and explanation on accuracy and trust calibration in AI-assisted decision making. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. 295\u2013305.",
+      "doi": "10.1145/3351095.3372852"
+    }
+  ]
+}

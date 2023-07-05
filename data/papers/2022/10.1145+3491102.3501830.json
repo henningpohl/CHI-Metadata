@@ -1,0 +1,601 @@
+{
+  "doi": "10.1145/3491102.3501830",
+  "title": "Understanding and Modeling Viewers\u2019 First Impressions with Images in Online Medical Crowdfunding Campaigns",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-20",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Online medical crowdfunding campaigns (OMCCs) help patients seek financial support. First impressions (FIs) of an OMCC, including perceived empathy, credibility, justice, impact, and attractiveness, could affect viewers\u2019 donation decisions. Images play a crucial role in manifesting FIs, and it is beneficial for fundraisers to understand how viewers may judge their selected images for OMCCs beforehand. This work proposes a data-driven approach to assessing whether an OMCC image conveys appropriate FIs. We first crowdsource viewers\u2019 perception of OMCC images. Statistical analysis confirms that agreement on all five dimensions of FIs exists, and these FIs positively correlate with donation intention. We compute image content, color, texture, and composition features, then analyze the correlation between these visual features and FIs. We further predict FIs based on these features, and the best model achieves an overall F1-score of 0.727. Finally, we discuss how our insights could benefit fundraisers and possible ethical concerns.",
+  "authors": [
+    {
+      "name": "Qingyu Guo",
+      "institution": "Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659527752",
+      "orcid": "0000-0002-8509-3933"
+    },
+    {
+      "name": "Siyuan Zhou",
+      "institution": "Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660233698",
+      "orcid": "missing"
+    },
+    {
+      "name": "Yifeng Wu",
+      "institution": "The Hong Kong University of Science and Technology, China",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660238638",
+      "orcid": "missing"
+    },
+    {
+      "name": "Zhenhui Peng",
+      "institution": "School of Artificial Intelligence, Sun Yat-Sen University, China and Aalto University, Finland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659275091",
+      "orcid": "0000-0002-5700-3136"
+    },
+    {
+      "name": "Xiaojuan Ma",
+      "institution": "Hong Kong University of Science and Technology, Hong Kong",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81484654594",
+      "orcid": "0000-0002-9847-7784"
+    }
+  ],
+  "references": [
+    {
+      "text": "Farida\u00a0B Ahmad and Robert\u00a0N Anderson. 2021. The leading causes of death in the US for 2020. JAMA 325, 18 (2021), 1829\u20131830.",
+      "doi": ""
+    },
+    {
+      "text": "Jehad Ali, Rehanullah Khan, Nasir Ahmad, and Imran Maqsood. 2012. Random forests and decision trees. International Journal of Computer Science Issues (IJCSI) 9, 5(2012), 272.",
+      "doi": ""
+    },
+    {
+      "text": "Manuel Alonso Dos\u00a0Santos, Camila Lobos, Nathalie Mu\u00f1oz, D\u00e1maris Romero, and Ricardo Sanhueza. 2017. The influence of image valence on the attention paid to charity advertising. Journal of Nonprofit & Public Sector Marketing 29, 3 (2017), 346\u2013363.",
+      "doi": ""
+    },
+    {
+      "text": "Terry Anderson. 2008. The theory and practice of online learning. Athabasca University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Howard Barich and Philip Kotler. 1991. A framework for marketing image management. MIT Sloan Management Review 32, 2 (1991), 94.",
+      "doi": ""
+    },
+    {
+      "text": "C\u00a0Daniel Batson. 1987. Prosocial motivation: Is it ever truly altruistic?Advances in experimental social psychology 20 (1987), 65\u2013122.",
+      "doi": ""
+    },
+    {
+      "text": "C\u00a0Daniel Batson, Tricia\u00a0R Klein, Lori Highberger, and Laura\u00a0L Shaw. 1995. Immorality from empathy-induced altruism: When compassion and justice conflict.Journal of personality and social psychology 68, 6(1995), 1042.",
+      "doi": ""
+    },
+    {
+      "text": "Ren\u00e9 Bekkers and Pamala Wiepking. 2011. Who gives? A literature review of predictors of charitable giving part one: Religion, education, age and socialisation. Voluntary Sector Review 2, 3 (2011), 337\u2013365.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Belleflamme, Thomas Lambert, and Armin Schwienbacher. 2014. Crowdfunding: Tapping the right crowd. Journal of business venturing 29, 5 (2014), 585\u2013609.",
+      "doi": ""
+    },
+    {
+      "text": "Cynthia\u00a0L Bennett, Cole Gleason, Morgan\u00a0Klaus Scheuerman, Jeffrey\u00a0P Bigham, Anhong Guo, and Alexandra To. 2021. \u201cIt\u2019s Complicated\u201d: Negotiating Accessibility and (Mis) Representation in Image Descriptions of Race, Gender, and Disability. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201319.",
+      "doi": "10.1145/3411764.3445498"
+    },
+    {
+      "text": "William\u00a0D Berry, Stanley Feldman, and Dr Stanley\u00a0Feldman. 1985. Multiple regression in practice. Number\u00a050. Sage.",
+      "doi": ""
+    },
+    {
+      "text": "Douglas\u00a0G Bonett and Thomas\u00a0A Wright. 2000. Sample size requirements for estimating Pearson, Kendall and Spearman correlations. Psychometrika 65, 1 (2000), 23\u201328.",
+      "doi": ""
+    },
+    {
+      "text": "Douglas\u00a0G Bonett and Thomas\u00a0A Wright. 2015. Cronbach\u2019s alpha reliability: Interval estimation, hypothesis testing, and sample size planning. Journal of organizational behavior 36, 1 (2015), 3\u201315.",
+      "doi": ""
+    },
+    {
+      "text": "Leo Breiman, Jerome\u00a0H Friedman, Richard\u00a0A Olshen, and Charles\u00a0J Stone. 2017. Classification and regression trees. Routledge.",
+      "doi": ""
+    },
+    {
+      "text": "Sabrina Brugel, Marie Postma-Nilsenov\u00e1, and Kiek Tates. 2015. The link between perception of clinical empathy and nonverbal behavior: The effect of a doctor\u2019s gaze and body orientation. Patient education and counseling 98, 10 (2015), 1260\u20131265.",
+      "doi": ""
+    },
+    {
+      "text": "Gordon Burtch and Jason Chan. 2018. Investigating the relationship between medical crowdfunding and personal bankruptcy in the United States: Evidence of a digital divide. MIS Quarterly (Forthcoming)(2018).",
+      "doi": ""
+    },
+    {
+      "text": "C\u00a0Daryl Cameron and B\u00a0Keith Payne. 2011. Escaping affect: how motivated emotion regulation creates insensitivity to mass suffering.Journal of personality and social psychology 100, 1(2011), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Rich Caruana, Steve Lawrence, and Lee Giles. 2001. Overfitting in neural nets: Backpropagation, conjugate gradient, and early stopping. Advances in neural information processing systems (2001), 402\u2013408.",
+      "doi": ""
+    },
+    {
+      "text": "CDC. 2021. Main Types of Stroke. https://www.cdc.gov/stroke/types_of_stroke.htm.",
+      "doi": ""
+    },
+    {
+      "text": "En-Chi Chang and Ya-Fen Tseng. 2013. Research note: E-store image, perceived value and perceived risk. Journal of business research 66, 7 (2013), 864\u2013870.",
+      "doi": ""
+    },
+    {
+      "text": "Jungsil Choi, Yexin\u00a0Jessica Li, Priyamvadha Rangan, Bingqing Yin, and Surendra\u00a0N Singh. 2020. Opposites attract: Impact of background color on effectiveness of emotional charity appeals. International Journal of Research in Marketing 37, 3 (2020), 644\u2013660.",
+      "doi": ""
+    },
+    {
+      "text": "Domenic\u00a0V Cicchetti. 1994. Guidelines, criteria, and rules of thumb for evaluating normed and standardized assessment instruments in psychology.Psychological assessment 6, 4 (1994), 284.",
+      "doi": ""
+    },
+    {
+      "text": "Jay\u00a0S Coke, C\u00a0Daniel Batson, and Katherine McDavis. 1978. Empathic mediation of helping: a two-stage model.Journal of personality and social psychology 36, 7(1978), 752.",
+      "doi": ""
+    },
+    {
+      "text": "Joe Cox, Thang Nguyen, Andy Thorpe, Alessio Ishizaka, Salem Chakhar, and Liz Meech. 2018. Being seen to care: The relationship between self-presentation and contributions to online pro-social crowdfunding campaigns. Computers in Human Behavior 83 (2018), 45\u201355.",
+      "doi": "10.1016/j.chb.2018.01.014"
+    },
+    {
+      "text": "Ritendra Datta, Dhiraj Joshi, Jia Li, and James\u00a0Z Wang. 2006. Studying aesthetics in photographic images using a computational approach. In European conference on computer vision. Springer, 288\u2013301.",
+      "doi": "10.1007/11744078_23"
+    },
+    {
+      "text": "Frans\u00a0BM De\u00a0Waal. 2008. Putting the altruism back into altruism: the evolution of empathy. Annu. Rev. Psychol. 59(2008), 279\u2013300.",
+      "doi": ""
+    },
+    {
+      "text": "Jean Decety and Philip\u00a0L Jackson. 2004. The functional architecture of human empathy. Behavioral and cognitive neuroscience reviews 3, 2 (2004), 71\u2013100.",
+      "doi": ""
+    },
+    {
+      "text": "Kim Demandt. 2019. Why do people donate to online health crowdfunding?B.S. thesis. University of Twente.",
+      "doi": ""
+    },
+    {
+      "text": "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. 2009. Imagenet: A large-scale hierarchical image database. In 2009 IEEE conference on computer vision and pattern recognition. Ieee, 248\u2013255.",
+      "doi": ""
+    },
+    {
+      "text": "Sanorita Dey, Brittany Duff, Karrie Karahalios, and Wai-Tat Fu. 2017. The art and science of persuasion: not all crowdfunding campaign videos are the same. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing. 755\u2013769.",
+      "doi": "10.1145/2998181.2998229"
+    },
+    {
+      "text": "Stephan Dickert, Janet Kleber, Daniel V\u00e4stfj\u00e4ll, and Paul Slovic. 2016. Mental imagery, impact, and affect: A mediation model for charitable giving. PloS one 11, 2 (2016), e0148274.",
+      "doi": ""
+    },
+    {
+      "text": "Stephan Dickert, Namika Sagara, and Paul Slovic. 2011. Affective motivations to help others: A two-stage model of donation decisions. Journal of Behavioral Decision Making 24, 4 (2011), 361\u2013376.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Doncaster. 2014. The UX Five-Second Rules: Guidelines for User Experience Design\u2019s Simplest Testing Technique. Morgan Kaufmann.",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0Wayne Dosselmann and Xue\u00a0Dong Yang. 2011. No-reference image quality assessment using level-of-detail. Citeseer.",
+      "doi": ""
+    },
+    {
+      "text": "Nancy Eisenberg and Paul\u00a0A Miller. 1987. The relation of empathy to prosocial and related behaviors.Psychological bulletin 101, 1 (1987), 91.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0J Elliot and Markus\u00a0A Maier. 2014. Color psychology: Effects of perceiving color on psychological functioning in humans. Annual review of psychology 65 (2014), 95\u2013120.",
+      "doi": ""
+    },
+    {
+      "text": "Arvid Erlandsson, Fredrik Bj\u00f6rklund, and Martin B\u00e4ckstr\u00f6m. 2015. Emotional reactions, perceived impact and perceived responsibility mediate the identifiable victim effect, proportion dominance effect and in-group effect respectively. Organizational Behavior and Human Decision Processes 127 (2015), 1\u201314.",
+      "doi": ""
+    },
+    {
+      "text": "Chris\u00a0D Frith and Uta Frith. 2006. The neural basis of mentalizing. Neuron 50, 4 (2006), 531\u2013534.",
+      "doi": ""
+    },
+    {
+      "text": "Yujia Gao, Jinu Jang, and Diyi Yang. 2021. Understanding the Usage of Online Media for Parenting from Infancy to Preschool At Scale. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3411764.3445203"
+    },
+    {
+      "text": "Enrique Garcia-Ceja, Michael Riegler, Tine Nordgreen, Petter Jakobsen, Ketil\u00a0J Oedegaard, and Jim T\u00f8rresen. 2018. Mental health monitoring with multimodal sensing and machine learning: A survey. Pervasive and Mobile Computing 51 (2018), 1\u201326.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Gelman. 2008. Scaling regression inputs by dividing by two standard deviations. Statistics in medicine 27, 15 (2008), 2865\u20132873.",
+      "doi": ""
+    },
+    {
+      "text": "GoFundMe. 2010. GoFundMe: No.1 Fundraising Platform for Crowdfunding. https://www.gofundme.com/.",
+      "doi": ""
+    },
+    {
+      "text": "GoFundMe. 2021. These Valuable Facebook Fundraising Tips Can Boost Donations. https://www.gofundme.com/c/blog/facebook-fundraising.",
+      "doi": ""
+    },
+    {
+      "text": "Ian Goodfellow, Yoshua Bengio, and Aaron Courville. 2016. Deep learning. MIT press.",
+      "doi": "10.5555/3086952"
+    },
+    {
+      "text": "Samuel Goree, Bardia Doosti, David Crandall, and Norman\u00a0Makoto Su. 2021. Investigating the Homogenization of Web Design: A Mixed-Methods Approach. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3411764.3445156"
+    },
+    {
+      "text": "David Hankerson, Andrea\u00a0R Marshall, Jennifer Booker, Houda El\u00a0Mimouni, Imani Walker, and Jennifer\u00a0A Rode. 2016. Does technology have race?. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems. 473\u2013486.",
+      "doi": "10.1145/2851581.2892578"
+    },
+    {
+      "text": "Robert\u00a0M Haralock and Linda\u00a0G Shapiro. 1991. Computer and robot vision. Addison-Wesley Longman Publishing Co., Inc.",
+      "doi": ""
+    },
+    {
+      "text": "Lane Harrison, Katharina Reinecke, and Remco Chang. 2015. Infographic aesthetics: Designing for the first impression. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 1187\u20131190.",
+      "doi": "10.1145/2702123.2702545"
+    },
+    {
+      "text": "Andrew\u00a0F Hayes. 2009. Beyond Baron and Kenny: Statistical mediation analysis in the new millennium. Communication monographs 76, 4 (2009), 408\u2013420.",
+      "doi": ""
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition. 770\u2013778.",
+      "doi": "10.1109/CVPR.2016.90"
+    },
+    {
+      "text": "United Healthcare. 2021. Critical illness insurance. https://www.uhc.com/dental-vision-supplemental-plans/critical-illness-insurance.",
+      "doi": ""
+    },
+    {
+      "text": "Martin\u00a0L Hoffman. 1990. Empathy and justice motivation. Motivation and emotion 14, 2 (1990), 151\u2013172.",
+      "doi": ""
+    },
+    {
+      "text": "Martin\u00a0L Hoffman. 2001. Empathy and moral development: Implications for caring and justice. Cambridge University Press.",
+      "doi": ""
+    },
+    {
+      "text": "Niek Hoogervorst, Judith Metz, Lonneke Roza, and Eva van Baren. 2016. How perceptions of altruism and sincerity affect client trust in volunteers versus paid workers. Nonprofit and Voluntary Sector Quarterly 45, 3 (2016), 593\u2013611.",
+      "doi": ""
+    },
+    {
+      "text": "Jian-Ren Hou, J. Zhang, and Kunpeng Zhang. 2019. Can Title Images Predict the Emotions and the Performance of Crowdfunding Projects?. In HICSS.",
+      "doi": ""
+    },
+    {
+      "text": "Jian-Ren Hou, Jie\u00a0Jennifer Zhang, and Kunpeng Zhang. 2020. Pictures that are Worth a Thousand Donations: How Emotions in Project Images Drive the Success of Crowdfunding Campaigns? An Image Design Perspective. An Image Design Perspective (October 20, 2020) (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Yiqing Hua, Mor Naaman, and Thomas Ristenpart. 2020. Characterizing twitter users who engage in adversarial interactions against political candidates. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376548"
+    },
+    {
+      "text": "Nurulhuda Ibrahim, Kok\u00a0Wai Wong, and Mohd\u00a0Fairuz Shiratuddin. 2015. Persuasive impact of online media: investigating the influence of visual persuasion. In 2015 Asia Pacific Conference on Multimedia and Broadcasting. IEEE, 1\u20137.",
+      "doi": ""
+    },
+    {
+      "text": "National\u00a0Cancer Institute. 2020. Cancer Statistics for 2020. https://www.cancer.gov/about-cancer/understanding/statistics.",
+      "doi": ""
+    },
+    {
+      "text": "Jungseock Joo, Weixin Li, Francis\u00a0F Steen, and Song-Chun Zhu. 2014. Visual persuasion: Inferring communicative intents of images. In Proceedings of the IEEE conference on computer vision and pattern recognition. 216\u2013223.",
+      "doi": "10.1109/CVPR.2014.35"
+    },
+    {
+      "text": "Jennifer\u00a0G Kim, Hwajung Hong, and Karrie Karahalios. 2018. Understanding identity presentation in medical crowdfunding. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3173574.3173708"
+    },
+    {
+      "text": "Jennifer\u00a0G Kim, Ha\u00a0Kyung Kong, Karrie Karahalios, Wai-Tat Fu, and Hwajung Hong. 2016. The power of collective endorsements: credibility factors in medical crowdfunding campaigns. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 4538\u20134549.",
+      "doi": "10.1145/2858036.2858289"
+    },
+    {
+      "text": "Jennifer\u00a0G Kim, Kristen Vaccaro, Karrie Karahalios, and Hwajung Hong. 2017. \u201d Not by Money Alone\u201d Social Support Opportunities in Medical Crowdfunding Campaigns. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing. 1997\u20132009.",
+      "doi": ""
+    },
+    {
+      "text": "Taewook Kim, Jung\u00a0Soo Lee, Zhenhui Peng, and Xiaojuan Ma. 2019. Love in Lyrics: An Exploration of Supporting Textual Manifestation of Affection in Social Messaging. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201327.",
+      "doi": "10.1145/3359181"
+    },
+    {
+      "text": "Young-Hee Kim and Tae-Soon Koh. 2014. Relationships among Hope, Empathy and Happiness of Middle School Student. The Journal of the Korea Contents Association 14, 10(2014), 330\u2013338.",
+      "doi": ""
+    },
+    {
+      "text": "Nicholas\u00a0J Klein, Minh Tran, Sarah Riley, 2020. Desperately need a car\u201d: Analyzing crowdfunding campaigns for car purchases and repairs on Gofundme. com. Travel Behaviour and Society 21 (2020), 247\u2013256.",
+      "doi": ""
+    },
+    {
+      "text": "Terry\u00a0K Koo and Mae\u00a0Y Li. 2016. A guideline of selecting and reporting intraclass correlation coefficients for reliability research. Journal of chiropractic medicine 15, 2 (2016), 155\u2013163.",
+      "doi": ""
+    },
+    {
+      "text": "DongIl Lee and JaeHong Park. 2018. How Content Features of Charity Crowdfunding Projects Attract Potential Donors?. In Workshop on E-Business. Springer, 124\u2013131.",
+      "doi": ""
+    },
+    {
+      "text": "Saerom Lee, Karen\u00a0Page Winterich, and William\u00a0T Ross\u00a0Jr. 2014. I\u2019m moral, but I won\u2019t help you: The distinct roles of empathy and justice in donations. Journal of Consumer Research 41, 3 (2014), 678\u2013696.",
+      "doi": ""
+    },
+    {
+      "text": "Stefan Liebig, Peter Valet, and J\u00fcrgen Schupp. 2010. Perceived income justice depends on the economy. Weekly Report 6, 24 (2010), 187\u2013192.",
+      "doi": ""
+    },
+    {
+      "text": "Gitte Lindgaard, Justyna Litwinska, and Cathy Dudek. 2008. Judging web page visual appeal: Do east and west really differ. Proc. IADIS 8(2008), 157\u2013164.",
+      "doi": ""
+    },
+    {
+      "text": "Jianli Liu, Edwin Lughofer, and Xianyi Zeng. 2015. Aesthetic perception of visual textures: a holistic exploration using texture analysis, psychological experiment, and perception modeling. Frontiers in computational neuroscience 9 (2015), 134.",
+      "doi": ""
+    },
+    {
+      "text": "Lili Liu, Ayoung Suh, and Christian Wagner. 2017. Donation behavior in online micro charities: An investigation of charitable crowdfunding projects. In Proceedings of the 50th Hawaii International Conference on system sciences.",
+      "doi": ""
+    },
+    {
+      "text": "Lili Liu, Ayoung Suh, and Christian Wagner. 2018. Empathy or perceived credibility? An empirical study on individual donation behavior in charitable crowdfunding. Internet Research (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Shaopeng Liu, Guohui Tian, and Yuan Xu. 2019. A novel scene classification model combining ResNet based transfer learning and data augmentation with a filter. Neurocomputing 338(2019), 191\u2013206.",
+      "doi": "10.1016/j.neucom.2019.01.090"
+    },
+    {
+      "text": "Marsha\u00a0D Loda, Karin Teichmann, and Andreas\u00a0H Zins. 2009. Destination websites\u2019 persuasiveness. International journal of culture, tourism and hospitality research (2009).",
+      "doi": ""
+    },
+    {
+      "text": "Jana Machajdik and Allan Hanbury. 2010. Affective image classification using features inspired by psychology and art theory. In Proceedings of the 18th ACM international conference on Multimedia. 83\u201392.",
+      "doi": "10.1145/1873951.1873965"
+    },
+    {
+      "text": "Rojas\u00a0Q Mario, David Masip, and Jordi Vitri\u00e0. 2011. Predicting dominance judgements automatically: a machine learning approach. In 2011 IEEE International Conference on Automatic Face & Gesture Recognition (FG). IEEE, 939\u2013944.",
+      "doi": ""
+    },
+    {
+      "text": "Carolyn McClanahan. 2018. People Are Raising 650 Million On GoFundMe Each Year To Attack Rising Healthcare Costs. https://www.forbes.com/sites/carolynmcclanahan/2018/08/13/using-gofundme-to-attack-health-care-costs/",
+      "doi": ""
+    },
+    {
+      "text": "Mary\u00a0L McHugh. 2012. Interrater reliability: the kappa statistic. Biochemia medica 22, 3 (2012), 276\u2013282.",
+      "doi": ""
+    },
+    {
+      "text": "Barbara McLellan and Stuart\u00a0J McKelvie. 1993. Effects of age and gender on perceived facial attractiveness.Canadian Journal of Behavioural Science/Revue canadienne des sciences du comportement 25, 1 (1993), 135.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Messaris. 1997. Visual persuasion: The role of images in advertising. Sage.",
+      "doi": ""
+    },
+    {
+      "text": "Todd\u00a0A Mooradian, Mark Davis, and Kurt Matzler. 2011. Dispositional empathy and the hierarchical structure of personality. The American journal of psychology 124, 1 (2011), 99\u2013109.",
+      "doi": ""
+    },
+    {
+      "text": "Pere Obrador, Ludwig Schmidt-Hackenberg, and Nuria Oliver. 2010. The role of image composition in image aesthetics. In 2010 IEEE International Conference on Image Processing. IEEE, 3185\u20133188.",
+      "doi": ""
+    },
+    {
+      "text": "Garrett\u00a0J O\u2019Keefe, Kathaleen Nash, and Jenny Liu. 1981. The perceived utility of advertising. Journalism Quarterly 58, 4 (1981), 535\u2013542.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Ortony, Gerald\u00a0L Clore, and Allan Collins. 1990. The cognitive structure of emotions. Cambridge university press.",
+      "doi": ""
+    },
+    {
+      "text": "Charles\u00a0Egerton Osgood, George\u00a0J Suci, and Percy\u00a0H Tannenbaum. 1957. The measurement of meaning. Number\u00a047. University of Illinois press.",
+      "doi": ""
+    },
+    {
+      "text": "Paula Otero. 2015. Crowdfunding. A new option for funding health projects. Arch Argent Pediatr 113, 2 (2015), 154\u2013157.",
+      "doi": ""
+    },
+    {
+      "text": "Antti Oulasvirta, Samuli De\u00a0Pascale, Janin Koch, Thomas Langerak, Jussi Jokinen, Kashyap Todi, Markku Laine, Manoj Kristhombuge, Yuxi Zhu, Aliaksei Miniukovich, 2018. Aalto Interface Metrics (AIM) A Service and Codebase for Computational GUI Evaluation. In The 31st Annual ACM Symposium on User Interface Software and Technology Adjunct Proceedings. 16\u201319.",
+      "doi": ""
+    },
+    {
+      "text": "Varsha Palad and Jeremy Snyder. 2019. \u201cWe don\u2019t want him worrying about how he will pay to save his life\u201d: Using medical crowdfunding to explore lived experiences with addiction services in Canada. International Journal of Drug Policy 65 (2019), 73\u201377.",
+      "doi": ""
+    },
+    {
+      "text": "Lee-Yun Pan and Jyh-Shen Chiou. 2011. How much can you trust online information? Cues for perceived trustworthiness of consumer-generated online information. Journal of interactive marketing 25, 2 (2011), 67\u201374.",
+      "doi": ""
+    },
+    {
+      "text": "Annaleena Parhankangas and Maija Renko. 2017. Linguistic style and crowdfunding success among social and commercial entrepreneurs. Journal of business venturing 32, 2 (2017), 215\u2013236.",
+      "doi": ""
+    },
+    {
+      "text": "Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, 2019. Pytorch: An imperative style, high-performance deep learning library. Advances in neural information processing systems 32 (2019), 8026\u20138037.",
+      "doi": ""
+    },
+    {
+      "text": "Fabian Pedregosa, Ga\u00ebl Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron Weiss, Vincent Dubourg, 2011. Scikit-learn: Machine learning in Python. the Journal of machine Learning research 12 (2011), 2825\u20132830.",
+      "doi": ""
+    },
+    {
+      "text": "QingSongChou. 2014. qschou. https://qschou.com/.",
+      "doi": ""
+    },
+    {
+      "text": "A\u00a0Sai\u00a0Bharadwaj Reddy and D\u00a0Sujitha Juliet. 2019. Transfer learning with ResNet-50 for malaria cell-image classification. In 2019 International Conference on Communication and Signal Processing (ICCSP). IEEE, 0945\u20130949.",
+      "doi": ""
+    },
+    {
+      "text": "Katharina Reinecke, Tom Yeh, Luke Miratrix, Rahmatri Mardiko, Yuechen Zhao, Jenny Liu, and Krzysztof\u00a0Z Gajos. 2013. Predicting users\u2019 first impressions of website aesthetics with a quantification of perceived visual complexity and colorfulness. In Proceedings of the SIGCHI conference on human factors in computing systems. 2049\u20132058.",
+      "doi": "10.1145/2470654.2481281"
+    },
+    {
+      "text": "Jie Ren, Viju Raghupathi, and Wullianallur Raghupathi. 2020. Understanding the dimensions of medical crowdfunding: A visual analytics approach. Journal of Medical Internet Research 22, 7 (2020), e18813.",
+      "doi": ""
+    },
+    {
+      "text": "Lauren Rhue and Lionel\u00a0P Robert. 2018. Emotional delivery in pro-social crowdfunding success. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u20136.",
+      "doi": "10.1145/3170427.3188534"
+    },
+    {
+      "text": "David Robins and Jason Holmes. 2008. Aesthetics and credibility in web site design. Information Processing & Management 44, 1 (2008), 386\u2013399.",
+      "doi": "10.1016/j.ipm.2007.02.003"
+    },
+    {
+      "text": "Mario Rojas\u00a0Q, David Masip, Alexander Todorov, and Jordi Vitria. 2011. Automatic prediction of facial trait judgments: Appearance vs. structural models. PloS one 6, 8 (2011), e23323.",
+      "doi": ""
+    },
+    {
+      "text": "Richard Russell, Pawan Sinha, Irving Biederman, and Marissa Nederhouser. 2006. Is pigmentation important for face recognition? Evidence from contrast negation. Perception 35, 6 (2006), 749\u2013759.",
+      "doi": ""
+    },
+    {
+      "text": "Johannes S\u00e4nger, Norman H\u00e4nsch, Brian Glass, Zinaida Benenson, Robert Landwirth, and M\u00a0Angela Sasse. 2016. Look before you leap: improving the users\u2019 ability to detect fraud in electronic marketplaces. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 3870\u20133882.",
+      "doi": "10.1145/2858036.2858555"
+    },
+    {
+      "text": "Sharath Sasidharan. 2010. The impact of color and product congruency on user trust in B2C E-Commerce. ABD Journal 2(2010), 1\u201316.",
+      "doi": ""
+    },
+    {
+      "text": "Etienne Schraven, Elco van Burg, Marco van Gelderen, and Enno Masurel. 2020. Predictions of Crowdfunding Campaign Success: The Influence of First Impressions on Accuracy and Positivity. Journal of Risk and Financial Management 13, 12 (2020), 331.",
+      "doi": ""
+    },
+    {
+      "text": "Amazon\u00a0Web Services. 2016. Machine Learning Image and Video Analysis - Amazon Rekognition - Amazon Web Services. https://aws.amazon.com/rekognition/.",
+      "doi": ""
+    },
+    {
+      "text": "Rotem Shneor and Ziaul\u00a0Haque Munim. 2019. Reward crowdfunding contribution as planned behaviour: An extended framework. Journal of Business Research 103 (2019), 56\u201370.",
+      "doi": ""
+    },
+    {
+      "text": "ShuiDiChou. 2017. shuidichou. https://www.shuidichou.com/.",
+      "doi": ""
+    },
+    {
+      "text": "Michael Siering, Jascha-Alexander Koch, and Amit\u00a0V Deokar. 2016. Detecting fraudulent behavior on crowdfunding platforms: The role of linguistic and content-based cues in static and dynamic contexts. Journal of Management Information Systems 33, 2 (2016), 421\u2013455.",
+      "doi": ""
+    },
+    {
+      "text": "Jeremy Snyder. 2016. Crowdfunding for medical care: ethical issues in an emerging health care funding practice. Hastings Center Report 46, 6 (2016), 36\u201342.",
+      "doi": ""
+    },
+    {
+      "text": "Jeremy Snyder and Valorie\u00a0A Crooks. 2021. Is there room for privacy in medical crowdfunding?Journal of Medical Ethics 47, 12 (2021), e49\u2013e49.",
+      "doi": ""
+    },
+    {
+      "text": "Fitzgerald Steele\u00a0Jr, David Evans, and Rachel Green. 2009. Is your profile picture worth 1000 words? Photo characteristics associated with personality impression agreement. In Proceedings of the International AAAI Conference on Web and Social Media, Vol.\u00a03.",
+      "doi": ""
+    },
+    {
+      "text": "Kok\u00a0Wei Tan, Bernard Tiddeman, and Ian\u00a0D Stephen. 2018. Skin texture and colour predict perceived health in Asian faces. Evolution and Human Behavior 39, 3 (2018), 320\u2013335.",
+      "doi": ""
+    },
+    {
+      "text": "Anita Tusche, Anne B\u00f6ckler, Philipp Kanske, Fynn-Mathis Trautwein, and Tania Singer. 2016. Decoding the charitable brain: empathy, perspective taking, and attention shifts differentially predict altruistic giving. Journal of Neuroscience 36, 17 (2016), 4719\u20134732.",
+      "doi": ""
+    },
+    {
+      "text": "Saif Ullah and Yulin Zhou. 2020. Gender, anonymity and team: What determines crowdfunding success on Kickstarter. Journal of Risk and Financial Management 13, 4 (2020), 80.",
+      "doi": ""
+    },
+    {
+      "text": "Joost Van De\u00a0Weijer, Cordelia Schmid, and Jakob Verbeek. 2007. Learning color names from real-world images. In 2007 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 1\u20138.",
+      "doi": ""
+    },
+    {
+      "text": "Greet Van\u00a0Hoye and Alan\u00a0M Saks. 2011. The instrumental-symbolic framework: Organisational image and attractiveness of potential applicants and their companions at a job fair. Applied Psychology 60, 2 (2011), 311\u2013335.",
+      "doi": ""
+    },
+    {
+      "text": "Kristina\u00a0P Vatcheva, MinJae Lee, Joseph\u00a0B McCormick, and Mohammad\u00a0H Rahbar. 2016. Multicollinearity in regression analyses conducted in epidemiologic studies. Epidemiology (Sunnyvale, Calif.) 6, 2 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Richard\u00a0JW Vernon, Clare\u00a0AM Sutherland, Andrew\u00a0W Young, and Tom Hartley. 2014. Modeling first impressions from highly variable facial images. Proceedings of the National Academy of Sciences 111, 32(2014), E3353\u2013E3361.",
+      "doi": ""
+    },
+    {
+      "text": "Salim\u00a0S Virani, Alvaro Alonso, Hugo\u00a0J Aparicio, Emelia\u00a0J Benjamin, Marcio\u00a0S Bittencourt, Clifton\u00a0W Callaway, April\u00a0P Carson, Alanna\u00a0M Chamberlain, Susan Cheng, Francesca\u00a0N Delling, 2021. Heart disease and stroke statistics\u20142021 update: a report from the American Heart Association. Circulation 143, 8 (2021), e254\u2013e743.",
+      "doi": ""
+    },
+    {
+      "text": "Luis Von\u00a0Ahn, Benjamin Maurer, Colin McMillen, David Abraham, and Manuel Blum. 2008. recaptcha: Human-based character recognition via web security measures. Science 321, 5895 (2008), 1465\u20131468.",
+      "doi": ""
+    },
+    {
+      "text": "Junda Wang, Xupin Zhang, and Jiebo Luo. 2021. How COVID-19 Have Changed Crowdfunding: Evidence From GoFundMe. ArXiv abs/2106.09981(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Xiaopan Wang, Yi Wu, Junpeng Guo, and Lusi Yang. 2020. Says what in your photos? The impacts of photographic narratives on medical crowdfunding performance.. In PACIS. 231.",
+      "doi": ""
+    },
+    {
+      "text": "Xingjie Wei and David Stillwell. 2017. How smart does your profile image look? Estimating intelligence from social network profile images. In Proceedings of the tenth ACM international conference on web search and data mining. 33\u201340.",
+      "doi": "10.1145/3018661.3018663"
+    },
+    {
+      "text": "Wang Wei-Ning, Yu Ying-Lin, and Jiang Sheng-Ming. 2006. Image retrieval by emotional semantics: A study of emotional space and feature extraction. In 2006 IEEE International Conference on Systems, Man and Cybernetics, Vol.\u00a04. IEEE, 3534\u20133539.",
+      "doi": ""
+    },
+    {
+      "text": "Ziming Wu, Yulun Jiang, Yiding Liu, and Xiaojuan Ma. 2020. Predicting and diagnosing user engagement with mobile ui animation via a data-driven approach. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376324"
+    },
+    {
+      "text": "Ziming Wu, Taewook Kim, Quan Li, and Xiaojuan Ma. 2019. Understanding and modeling user-perceived brand personality from mobile application uis. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300443"
+    },
+    {
+      "text": "Ziming Wu, Zhida Sun, Taewook Kim, Manuele Reani, Caroline Jay, and Xiaojuan Ma. 2018. Mediating color filter exploration with color theme semantics derived from social curation data. Proceedings of the ACM on Human-Computer Interaction 2, CSCW(2018), 1\u201324.",
+      "doi": "10.1145/3274456"
+    },
+    {
+      "text": "Yuan Xuan, Yang Chen, Huiying Li, Pan Hui, and Lei Shi. 2016. Lbsnshield: Malicious account detection in location-based social networks. In Proceedings of the 19th ACM Conference on Computer Supported Cooperative Work and Social Computing Companion. 437\u2013440.",
+      "doi": "10.1145/2818052.2869094"
+    },
+    {
+      "text": "Kangning Yang, Chaofan Wang, Zhanna Sarsenbayeva, Benjamin Tag, Tilman Dingler, Greg Wadley, and Jorge Goncalves. 2020. Benchmarking commercial emotion detection systems using realistic distortions of facial image datasets. The Visual Computer (2020), 1\u201320.",
+      "doi": "10.1007/s00371-020-01881-x"
+    },
+    {
+      "text": "Elham Yazdani, Anindita Chakravarty, and Jeffrey Inman. 2021. Identifying Emotions in Images and Their Effects on Donation Behavior in Online Crowdsourcing Platforms. Available at SSRN 3778357(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Chung-En Yu, Selina\u00a0Yuqing Xie, and Jun Wen. 2020. Coloring the destination: The role of color psychology on Instagram. Tourism Management 80(2020), 104110.",
+      "doi": ""
+    },
+    {
+      "text": "Marco Zenone and Jeremy Snyder. 2019. Fraud in medical crowdfunding: A typology of publicized cases and policy recommendations. Policy & Internet 11, 2 (2019), 215\u2013234.",
+      "doi": ""
+    },
+    {
+      "text": "Fuguo Zhang, Bingyu Xue, Yiran Li, Hui Li, Qihua Liu, 2021. Effect of Textual Features on the Success of Medical Crowdfunding: Model Development and Econometric Analysis from the Tencent Charity Platform. Journal of Medical Internet Research 23, 6 (2021), e22395.",
+      "doi": ""
+    },
+    {
+      "text": "Haisu Zhang and Weizhi Chen. 2019. Crowdfunding technological innovations: Interaction between consumer benefits and rewards. Technovation 84(2019), 11\u201320.",
+      "doi": ""
+    },
+    {
+      "text": "Quanshi Zhang, Yu Yang, Haotian Ma, and Ying\u00a0Nian Wu. 2019. Interpreting cnns via decision trees. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 6261\u20136270.",
+      "doi": ""
+    },
+    {
+      "text": "Xing Zhang, Wenli Hu, Quan Xiao, 2021. Influences of Medical Crowdfunding Website Design Features on Trust and Intention to Donate: Controlled Laboratory Experiment. Journal of medical Internet research 23, 5 (2021), e25554.",
+      "doi": ""
+    },
+    {
+      "text": "Xupin Zhang, Hanjia Lyu, and Jiebo Luo. 2021. What Contributes to a Crowdfunding Campaign\u2019s Success? Evidence and Analyses from GoFundMe Data. Journal of Social Computing 2, 2 (2021), 183\u2013192. https://doi.org/10.23919/JSC.2021.0010",
+      "doi": ""
+    }
+  ]
+}

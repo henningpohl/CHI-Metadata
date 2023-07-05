@@ -1,0 +1,288 @@
+{
+  "doi": "10.1145/3411764.3445621",
+  "title": "CapContact: Super-resolution Contact Areas from Capacitive Touchscreens",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Touch input is dominantly detected using mutual-capacitance sensing, which measures the proximity of close-by objects that change the electric field between the sensor lines. The exponential drop-off in intensities with growing distance enables software to detect touch events, but does not reveal true contact areas. In this paper, we introduce CapContact, a novel method to precisely infer the contact area between the user\u2019s finger and the surface from a single capacitive image. At 8 \u00d7 super-resolution, our convolutional neural network generates refined touch masks from 16-bit capacitive images as input, which can even discriminate adjacent touches that are not distinguishable with existing methods. We trained and evaluated our method using supervised learning on data from 10 participants who performed touch gestures. Our capture apparatus integrates optical touch sensing to obtain ground-truth contact through high-resolution frustrated total internal reflection. We compare our method with a baseline using bicubic upsampling as well as the ground truth from FTIR images. We separately evaluate our method\u2019s performance in discriminating adjacent touches. CapContact successfully separated closely adjacent touch contacts in 494 of 570 cases (87%) compared to the baseline\u2019s 43 of 570 cases (8%). Importantly, we demonstrate that our method accurately performs even at half of the sensing resolution at twice the grid-line pitch across the same surface area, challenging the current industry-wide standard of a \u223c 4\u00a0mm sensing pitch. We conclude this paper with implications for capacitive touch sensing in general and for touch-input accuracy in particular.",
+  "authors": [
+    {
+      "name": "Paul Streli",
+      "institution": "Department of Computer Science ETH Z\u00fcrich, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659701493",
+      "orcid": "0000-0002-3334-7727"
+    },
+    {
+      "name": "Christian Holz",
+      "institution": "Department of Computer Science ETH Z\u00fcrich, Switzerland",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81443597100",
+      "orcid": "0000-0001-9655-9519"
+    }
+  ],
+  "references": [
+    {
+      "text": "Saeed Anwar, Salman Khan, and Nick Barnes. 2019. A deep journey into super-resolution: A survey. arXiv preprint arXiv:1904.07523(2019).",
+      "doi": ""
+    },
+    {
+      "text": "Hrvoje Benko and Andrew Wilson. 2015. Resolving merged touch contacts. US Patent 9,122,341.",
+      "doi": ""
+    },
+    {
+      "text": "Hrvoje Benko, Andrew\u00a0D Wilson, and Patrick Baudisch. 2006. Precise selection techniques for multi-touch screens. In Proceedings of the SIGCHI conference on Human Factors in computing systems. 1263\u20131272.",
+      "doi": "10.1145/1124772.1124963"
+    },
+    {
+      "text": "Sebastian Boring, David Ledo, Xiang\u2019Anthony\u2019 Chen, Nicolai Marquardt, Anthony Tang, and Saul Greenberg. 2012. The fat thumb: using the thumb\u2019s contact size for single-handed mobile interaction. In Proceedings of the 14th international conference on Human-computer interaction with mobile devices and services. 39\u201348.",
+      "doi": "10.1145/2371574.2371582"
+    },
+    {
+      "text": "Alan Br\u00e4nzel, Christian Holz, Daniel Hoffmann, Dominik Schmidt, Marius Knaust, Patrick L\u00fchne, Ren\u00e9 Meusel, Stephan Richter, and Patrick Baudisch. 2013. GravitySpace: tracking users and their poses in a smart room using a pressure-sensing floor. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 725\u2013734.",
+      "doi": "10.1145/2470654.2470757"
+    },
+    {
+      "text": "Xiang Cao, Andrew\u00a0D Wilson, Ravin Balakrishnan, Ken Hinckley, and Scott\u00a0E Hudson. 2008. ShapeTouch: Leveraging contact shape on interactive surfaces. In 2008 3rd IEEE International Workshop on Horizontal Interactive Human Computer Systems. IEEE, 129\u2013136.",
+      "doi": ""
+    },
+    {
+      "text": "Arunesh Chandra, Pankaj Chandna, and Surinder Deswal. 2011. Analysis of hand anthropometric dimensions of male industrial workers of Haryana state. International Journal of Engineering (IJE) 5, 3 (2011), 242\u2013256.",
+      "doi": ""
+    },
+    {
+      "text": "Yuhua Chen, Feng Shi, Anthony\u00a0G Christodoulou, Yibin Xie, Zhengwei Zhou, and Debiao Li. 2018. Efficient and accurate MRI super-resolution using a generative adversarial network and 3D multi-level densely connected network. In International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer, 91\u201399.",
+      "doi": "10.1007/978-3-030-00928-1_11"
+    },
+    {
+      "text": "Philip\u00a0L Davidson and Jefferson\u00a0Y Han. 2006. Synthesis and control on large scale multi-touch sensing displays. In Proceedings of the 2006 conference on New interfaces for musical expression. 216\u2013219.",
+      "doi": "10.5555/1142215.1142269"
+    },
+    {
+      "text": "Sangeeta Dey and AK Kapoor. 2015. Hand length and hand breadth: a study of correlation statistics among human population. Int J Sci Res 4, 4 (2015), 148\u2013150.",
+      "doi": ""
+    },
+    {
+      "text": "Paul Dietz and Darren Leigh. 2001. DiamondTouch: a multi-user touch technology. In Proceedings of the 14th annual ACM symposium on User interface software and technology. 219\u2013226.",
+      "doi": "10.1145/502348.502389"
+    },
+    {
+      "text": "Chao Dong, Chen\u00a0Change Loy, Kaiming He, and Xiaoou Tang. 2014. Learning a deep convolutional network for image super-resolution. In European conference on computer vision. Springer, 184\u2013199.",
+      "doi": ""
+    },
+    {
+      "text": "Chao Dong, Chen\u00a0Change Loy, Kaiming He, and Xiaoou Tang. 2015. Image super-resolution using deep convolutional networks. IEEE transactions on pattern analysis and machine intelligence 38, 2(2015), 295\u2013307.",
+      "doi": ""
+    },
+    {
+      "text": "John Elias and Wayne Westerman. 1998. FingerWorks. https://en.wikipedia.org/wiki/FingerWorks [Online; accessed 16-September-2020].",
+      "doi": ""
+    },
+    {
+      "text": "Georgios\u00a0D Evangelidis and Emmanouil\u00a0Z Psarakis. 2008. Parametric image alignment using enhanced correlation coefficient maximization. IEEE Transactions on Pattern Analysis and Machine Intelligence 30, 10(2008), 1858\u20131865.",
+      "doi": "10.1109/TPAMI.2008.113"
+    },
+    {
+      "text": "Sina Farsiu, M\u00a0Dirk Robinson, Michael Elad, and Peyman Milanfar. 2004. Fast and robust multiframe super resolution. IEEE transactions on image processing 13, 10 (2004), 1327\u20131344.",
+      "doi": "10.1109/TIP.2004.834669"
+    },
+    {
+      "text": "Clifton Forlines, Daniel Wigdor, Chia Shen, and Ravin Balakrishnan. 2007. Direct-touch vs. mouse input for tabletop displays. In Proceedings of the SIGCHI conference on Human factors in computing systems. 647\u2013656.",
+      "doi": "10.1145/1240624.1240726"
+    },
+    {
+      "text": "Kentaro Fukuchi and Jun Rekimoto. 2002. Interaction techniques for smartskin. In Proceedings of UIST, Vol.\u00a02.",
+      "doi": ""
+    },
+    {
+      "text": "G. Gilboa, N. Sochen, and Y.\u00a0Y. Zeevi. 2002. Forward-and-backward diffusion processes for adaptive image enhancement and denoising. IEEE Transactions on Image Processing 11, 7 (2002), 689\u2013703.",
+      "doi": "10.1109/TIP.2002.800883"
+    },
+    {
+      "text": "Sam Gross and Michael Wilber. 2016. Training and investigating Residual Nets. (Feb 2016). http://torch.ch/blog/2016/02/04/resnets.html",
+      "doi": ""
+    },
+    {
+      "text": "Tobias Grosse-Puppendahl, Christian Holz, Gabe Cohn, Raphael Wimmer, Oskar Bechtold, Steve Hodges, Matthew\u00a0S Reynolds, and Joshua\u00a0R Smith. 2017. Finding common ground: A survey of capacitive sensing in human-computer interaction. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. 3293\u20133315.",
+      "doi": "10.1145/3025453.3025808"
+    },
+    {
+      "text": "I Guarneri, Alessandro Capra, Giovanni\u00a0Maria Farinella, F Cristaldi, and Sebastiano Battiato. 2014. Multi Touch Shape Recognition for Projected Capacitive Touch Screen.. In VISAPP (3). 111\u2013117.",
+      "doi": ""
+    },
+    {
+      "text": "Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, and Aaron\u00a0C Courville. 2017. Improved training of wasserstein gans. In Advances in neural information processing systems. 5767\u20135777.",
+      "doi": ""
+    },
+    {
+      "text": "Anhong Guo, Robert Xiao, and Chris Harrison. 2015. Capauth: Identifying and differentiating user handprints on commodity capacitive touchscreens. In Proceedings of the 2015 International Conference on Interactive Tabletops & Surfaces. 59\u201362.",
+      "doi": "10.1145/2817721.2817722"
+    },
+    {
+      "text": "Jefferson\u00a0Y Han. 2005. Low-cost multi-touch sensing through frustrated total internal reflection. In Proceedings of the 18th annual ACM symposium on User interface software and technology. 115\u2013118.",
+      "doi": "10.1145/1095034.1095054"
+    },
+    {
+      "text": "Niels Henze, Enrico Rukzio, and Susanne Boll. 2011. 100,000,000 taps: analysis and improvement of touch performance in the large. In Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services. 133\u2013142.",
+      "doi": "10.1145/2037373.2037395"
+    },
+    {
+      "text": "Ken Hinckley, Seongkook Heo, Michel Pahud, Christian Holz, Hrvoje Benko, Abigail Sellen, Richard Banks, Kenton O\u2019Hara, Gavin Smyth, and William Buxton. 2016. Pre-touch sensing for mobile interaction. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 2869\u20132881.",
+      "doi": "10.1145/2858036.2858095"
+    },
+    {
+      "text": "Ken Hinckley and Mike Sinclair. 1999. Touch-sensing input devices. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems. 223\u2013230.",
+      "doi": "10.1145/302979.303045"
+    },
+    {
+      "text": "Christian Holz and Patrick Baudisch. 2010. The generalized perceived input point model and how to double touch accuracy by extracting fingerprints. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 581\u2013590.",
+      "doi": "10.1145/1753326.1753413"
+    },
+    {
+      "text": "Christian Holz and Patrick Baudisch. 2011. Understanding touch. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2501\u20132510.",
+      "doi": "10.1145/1978942.1979308"
+    },
+    {
+      "text": "Christian Holz, Senaka Buthpitiya, and Marius Knaust. 2015. Bodyprint: Biometric user identification on mobile devices using the capacitive touchscreen to scan body parts. In Proceedings of the 33rd annual ACM conference on human factors in computing systems. 3011\u20133014.",
+      "doi": "10.1145/2702123.2702518"
+    },
+    {
+      "text": "Christian Holz and Marius Knaust. 2015. Biometric touch sensing: Seamlessly augmenting each touch with continuous authentication. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. 303\u2013312.",
+      "doi": "10.1145/2807442.2807458"
+    },
+    {
+      "text": "Shruti Jadon. 2020. A survey of loss functions for semantic segmentation. In 2020 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB). IEEE, 1\u20137.",
+      "doi": "10.1109/CIBCB48159.2020.9277638"
+    },
+    {
+      "text": "Jiwon Kim, Jung Kwon\u00a0Lee, and Kyoung Mu\u00a0Lee. 2016. Accurate image super-resolution using very deep convolutional networks. In Proceedings of the IEEE conference on computer vision and pattern recognition. 1646\u20131654.",
+      "doi": ""
+    },
+    {
+      "text": "Jiwon Kim, Jung Kwon\u00a0Lee, and Kyoung Mu\u00a0Lee. 2016. Deeply-recursive convolutional network for image super-resolution. In Proceedings of the IEEE conference on computer vision and pattern recognition. 1637\u20131645.",
+      "doi": ""
+    },
+    {
+      "text": "Diederik\u00a0P Kingma and Jimmy Ba. 2014. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980(2014).",
+      "doi": ""
+    },
+    {
+      "text": "Huy\u00a0Viet Le, Thomas Kosch, Patrick Bader, Sven Mayer, and Niels Henze. 2018. mayer2017estimating. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": ""
+    },
+    {
+      "text": "Huy\u00a0Viet Le, Sven Mayer, and Niels Henze. 2018. InfiniTouch: Finger-Aware Interaction on Fully Touch Sensitive Smartphones. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology. 779\u2013792.",
+      "doi": "10.1145/3242587.3242605"
+    },
+    {
+      "text": "Christian Ledig, Lucas Theis, Ferenc Husz\u00e1r, Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew Aitken, Alykhan Tejani, Johannes Totz, Zehan Wang, 2017. Photo-realistic single image super-resolution using a generative adversarial network. In Proceedings of the IEEE conference on computer vision and pattern recognition. 4681\u20134690.",
+      "doi": ""
+    },
+    {
+      "text": "Seonkyoo Lee. 1984. A fast multiple-touch-sensitive input device. A Thesis Submitted in Conformity with the Requirements for the Degree of Master of Applied Science in the Department of Electrical Engineering, University of Toronto (1984).",
+      "doi": ""
+    },
+    {
+      "text": "Na Liu and Ruifeng Yu. 2018. Investigation of force, contact area and dwell time in finger-tapping tasks on membrane touch interface. Ergonomics 61, 11 (2018), 1519\u20131529.",
+      "doi": ""
+    },
+    {
+      "text": "Sven Mayer, Huy\u00a0Viet Le, and Niels Henze. 2017. Estimating the finger orientation on capacitive touchscreens using convolutional neural networks. In Proceedings of the 2017 ACM International Conference on Interactive Surfaces and Spaces. 220\u2013229.",
+      "doi": "10.1145/3132272.3134130"
+    },
+    {
+      "text": "Kamal Nasrollahi and Thomas\u00a0B Moeslund. 2014. Super-resolution: a comprehensive survey. Machine vision and applications 25, 6 (2014), 1423\u20131468.",
+      "doi": "10.1007/s00138-014-0623-4"
+    },
+    {
+      "text": "Nobuyuki Otsu. 1979. A threshold selection method from gray-level histograms. IEEE transactions on systems, man, and cybernetics 9, 1(1979), 62\u201366.",
+      "doi": ""
+    },
+    {
+      "text": "Pei-Luen\u00a0Patrick Rau, Yubo Zhang, Louis Biaggi, Roberto\u00a0A Engels, Long Qian, and Henrik Ribjerg. 2015. How Large is Your Phone? A Cross-cultural Study of Smartphone Comfort Perception and Preference between Germans and Chinese. Procedia Manufacturing 3(2015), 2149\u20132154.",
+      "doi": ""
+    },
+    {
+      "text": "Jason\u00a0L Reisman, Philip\u00a0L Davidson, and Jefferson\u00a0Y Han. 2009. A screen-space formulation for 2D and 3D direct manipulation. In Proceedings of the 22nd annual ACM symposium on User interface software and technology. 69\u201378.",
+      "doi": "10.1145/1622176.1622190"
+    },
+    {
+      "text": "Jun Rekimoto. 2002. SmartSkin: an infrastructure for freehand manipulation on interactive surfaces. In Proceedings of the SIGCHI conference on Human factors in computing systems. 113\u2013120.",
+      "doi": "10.1145/503376.503397"
+    },
+    {
+      "text": "Jun Rekimoto, Takaaki Ishizawa, Carsten Schwesig, and Haruo Oba. 2003. PreSense: interaction techniques for finger sensing input devices. In Proceedings of the 16th annual ACM symposium on User interface software and technology. 203\u2013212.",
+      "doi": "10.1145/964696.964719"
+    },
+    {
+      "text": "Hamid Rezatofighi, Nathan Tsoi, JunYoung Gwak, Amir Sadeghian, Ian Reid, and Silvio Savarese. 2019. Generalized intersection over union: A metric and a loss for bounding box regression. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 658\u2013666.",
+      "doi": ""
+    },
+    {
+      "text": "Simon Rogers, John Williamson, Craig Stewart, and Roderick Murray-Smith. 2011. AnglePose: robust, precise capacitive touch tracking via 3d orientation estimation. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2575\u20132584.",
+      "doi": "10.1145/1978942.1979318"
+    },
+    {
+      "text": "Adam Schwartz. 2014. Capacitive Sensing: Looking under the hood. Synaptics Incorporated. http://www.krishnamoorthy.com/comsoc/docs/20140312-Synaptics-Schwartz.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Wenzhe Shi, Jose Caballero, Ferenc Husz\u00e1r, Johannes Totz, Andrew\u00a0P Aitken, Rob Bishop, Daniel Rueckert, and Zehan Wang. 2016. Real-time single image and video super-resolution using an efficient sub-pixel convolutional neural network. In Proceedings of the IEEE conference on computer vision and pattern recognition. 1874\u20131883.",
+      "doi": ""
+    },
+    {
+      "text": "Nicolas Villar, Daniel Cletheroe, Greg Saul, Christian Holz, Tim Regan, Oscar Salandin, Misha Sra, Hui-Shyong Yeo, William Field, and Haiyan Zhang. 2018. Project zanzibar: A portable and flexible tangible interaction platform. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3173574.3174089"
+    },
+    {
+      "text": "Geoff Walker. 2014. Fundamentals of Projected-Capacitive Touch Technology. Talk at SID Display Week. http://www.walkermobile.com/SID_2014_Short_Course_S1.pdf",
+      "doi": ""
+    },
+    {
+      "text": "Feng Wang, Xiang Cao, Xiangshi Ren, and Pourang Irani. 2009. Detecting and leveraging finger orientation for interaction with direct-touch surfaces. In Proceedings of the 22nd annual ACM symposium on User interface software and technology. 23\u201332.",
+      "doi": "10.1145/1622176.1622182"
+    },
+    {
+      "text": "Feng Wang and Xiangshi Ren. 2009. Empirical evaluation for finger input properties in multi-touch interaction. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 1063\u20131072.",
+      "doi": "10.1145/1518701.1518864"
+    },
+    {
+      "text": "Xintao Wang, Ke Yu, Chao Dong, and Chen\u00a0Change Loy. 2018. Recovering Realistic Texture in Image Super-resolution by Deep Spatial Feature Transform. CoRR abs/1804.02815(2018). http://arxiv.org/abs/1804.02815",
+      "doi": ""
+    },
+    {
+      "text": "Xintao Wang, Ke Yu, Shixiang Wu, Jinjin Gu, Yihao Liu, Chao Dong, Yu Qiao, and Chen Change\u00a0Loy. 2018. Esrgan: Enhanced super-resolution generative adversarial networks. In Proceedings of the European Conference on Computer Vision (ECCV). 0\u20130.",
+      "doi": ""
+    },
+    {
+      "text": "Martin Weigel, Tong Lu, Gilles Bailly, Antti Oulasvirta, Carmel Majidi, and J\u00fcrgen Steimle. 2015. Iskin: flexible, stretchable and visually customizable on-body touch sensors for mobile computing. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 2991\u20133000.",
+      "doi": "10.1145/2702123.2702391"
+    },
+    {
+      "text": "Wayne\u00a0Carl Westerman and John\u00a0G Elias. 2010. Capacitive sensing arrangement. US Patent 7,764,274.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0D Wilson, Shahram Izadi, Otmar Hilliges, Armando Garcia-Mendoza, and David Kirk. 2008. Bringing physics to the surface. In Proceedings of the 21st annual ACM symposium on User interface software and technology. 67\u201376.",
+      "doi": "10.1145/1449715.1449728"
+    },
+    {
+      "text": "Chih-Yuan Yang, Chao Ma, and Ming-Hsuan Yang. 2014. Single-Image Super-Resolution: A Benchmark. In Computer Vision \u2013 ECCV 2014, David Fleet, Tomas Pajdla, Bernt Schiele, and Tinne Tuytelaars (Eds.). Springer International Publishing, Cham, 372\u2013386.",
+      "doi": ""
+    },
+    {
+      "text": "Shuqun Zhang. 2006. Application of Super-Resolution Image Reconstruction to Digital Holography. EURASIP Journal on Applied Signal Processing 2006 (01 2006), 238\u2013238. https://doi.org/10.1155/ASP/2006/90358",
+      "doi": ""
+    },
+    {
+      "text": "Yang Zhang, Michel Pahud, Christian Holz, Haijun Xia, Gierad Laput, Michael McGuffin, Xiao Tu, Andrew Mittereder, Fei Su, William Buxton, 2019. Sensing posture-aware pen+ touch interaction on tablets. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201314.",
+      "doi": "10.1145/3290605.3300285"
+    },
+    {
+      "text": "Yuxin Zhang, Zuquan Zheng, and Roland Hu. 2020. Super Resolution Using Segmentation-Prior Self-Attention Generative Adversarial Network. arXiv preprint arXiv:2003.03489(2020).",
+      "doi": ""
+    }
+  ]
+}

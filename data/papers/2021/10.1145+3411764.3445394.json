@@ -1,0 +1,519 @@
+{
+  "doi": "10.1145/3411764.3445394",
+  "title": "AdverTiming Matters: Examining User Ad Consumption for Effective Ad Allocations on Social Media",
+  "published": "2021-05-07",
+  "proctitle": "CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-18",
+  "year": 2021,
+  "badges": [],
+  "abstract": "Showing ads delivers revenue for online content distributors, but ad exposure can compromise user experience and cause user fatigue and frustration. Correctly balancing ads with other content is imperative. Currently, ad allocation relies primarily on demographics and inferred user interests, which are treated as static features and can be privacy-intrusive. This paper uses person-centric and momentary context features to understand optimal ad-timing. In a quasi-experimental study on a three-month longitudinal dataset of 100K Snapchat users, we find ad timing influences ad effectiveness. We draw insights on the relationship between ad effectiveness and momentary behaviors such as duration, interactivity, and interaction diversity. We simulate ad reallocation, finding that our study-driven insights lead to greater value for the platform. This work advances our understanding of ad consumption and bears implications for designing responsible ad allocation systems, improving both user and platform outcomes. We discuss privacy-preserving components and ethical implications of our work.",
+  "authors": [
+    {
+      "name": "Koustuv Saha",
+      "institution": "School of Interactive Computing, Georgia Institute of Technology, United States",
+      "img": "/do/10.1145/contrib-99659200365/rel-imgonly/koustuv_square_ddub.jpg",
+      "acmid": "99659200365",
+      "orcid": "0000-0002-8872-2934"
+    },
+    {
+      "name": "Yozen Liu",
+      "institution": "Snap Inc., United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659575245",
+      "orcid": "0000-0002-2107-504X"
+    },
+    {
+      "name": "Nicholas Vincent",
+      "institution": "People, Space, and Algorithms Research Group, Northwestern University, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659261135",
+      "orcid": "missing"
+    },
+    {
+      "name": "Farhan Asif Chowdhury",
+      "institution": "Computer Science, The University of New Mexico, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659453091",
+      "orcid": "missing"
+    },
+    {
+      "name": "Leonardo Neves",
+      "institution": "Snap Inc., United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659536823",
+      "orcid": "missing"
+    },
+    {
+      "name": "Neil Shah",
+      "institution": "Snap Inc., United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659365166",
+      "orcid": "missing"
+    },
+    {
+      "name": "Maarten W. Bos",
+      "institution": "Snap Inc., United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659366383",
+      "orcid": "0000-0001-5020-4990"
+    }
+  ],
+  "references": [
+    {
+      "text": "2014. Systematic review of the Hawthorne effect: new concepts are needed to study research participation effects. Journal of clinical epidemiology 67, 3 (2014), 267\u2013277.",
+      "doi": ""
+    },
+    {
+      "text": "Paige Alfonzo. 2019. Mastering mobile through Social Media: Creating engaging content on Instagram and Snapchat. ALA TechSource.",
+      "doi": ""
+    },
+    {
+      "text": "Muhammad Ali, Piotr Sapiezynski, Miranda Bogen, Aleksandra Korolova, Alan Mislove, and Aaron Rieke. 2019. Discrimination through Optimization: How Facebook\u2019s Ad Delivery Can Lead to Biased Outcomes. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201330.",
+      "doi": ""
+    },
+    {
+      "text": "Maximilian Altmeyer, Kathrin Dernbecher, Vladislav Hnatovskiy, Marc Schubhan, Pascal Lessel, and Antonio Kr\u00fcger. 2019. Gamified Ads: Bridging the Gap Between User Enjoyment and the Effectiveness of Online Ads. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201312.",
+      "doi": "10.1145/3290605.3300412"
+    },
+    {
+      "text": "Aris Anagnostopoulos, Ravi Kumar, and Mohammad Mahdian. 2008. Influence and correlation in social networks. In Proceedings of the 14th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 7\u201315.",
+      "doi": "10.1145/1401890.1401897"
+    },
+    {
+      "text": "Nikola Banovic, Tofi Buzali, Fanny Chevalier, Jennifer Mankoff, and Anind\u00a0K Dey. 2016. Modeling and understanding human routine behavior. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 248\u2013260.",
+      "doi": "10.1145/2858036.2858557"
+    },
+    {
+      "text": "Rajeev Batra and Douglas\u00a0M Stayman. 1990. The role of mood in advertising effectiveness. Journal of Consumer research 17, 2 (1990), 203\u2013214.",
+      "doi": ""
+    },
+    {
+      "text": "Russell\u00a0W Belk. 1974. An exploratory assessment of situational effects in buyer behavior. Journal of marketing research 11, 2 (1974), 156\u2013163.",
+      "doi": ""
+    },
+    {
+      "text": "Danah Boyd and Kate Crawford. 2012. Critical questions for big data: Provocations for a cultural, technological, and scholarly phenomenon. Information, communication & society 15, 5 (2012), 662\u2013679.",
+      "doi": ""
+    },
+    {
+      "text": "Giorgio Brajnik and Silvia Gabrielli. 2010. A review of online advertising effects on the user experience. International Journal of Human-Computer Interaction 26, 10(2010), 971\u2013997.",
+      "doi": ""
+    },
+    {
+      "text": "Jack\u00a0W Brehm. 1966. A theory of psychological reactance.(1966).",
+      "doi": ""
+    },
+    {
+      "text": "Laura\u00a0Frances Bright and Kelty Logan. 2018. Is my fear of missing out (FOMO) causing fatigue? Advertising, social media fatigue, and the implications for consumers and brands. Internet Research (2018).",
+      "doi": ""
+    },
+    {
+      "text": "Fred\u00a0E Bronner, Jasper\u00a0R Bronner, and John Faasse. 2007. In the mood for advertising. International Journal of Advertising 26, 3 (2007), 333\u2013355.",
+      "doi": ""
+    },
+    {
+      "text": "Bobby\u00a0J Calder, Edward\u00a0C Malthouse, and Ute Schaedel. 2009. An experimental study of the relationship between online engagement and advertising effectiveness. Journal of interactive marketing 23, 4 (2009), 321\u2013331.",
+      "doi": ""
+    },
+    {
+      "text": "Jean-Louis Chandon, Mohamed\u00a0Saber Chtourou, and David\u00a0R Fortin. 2003. Effects of configuration and exposure levels in responses to web advertisements. Journal of Advertising Research 43, 2 (2003), 217\u2013229.",
+      "doi": ""
+    },
+    {
+      "text": "Jean-Charles Chebat, Francois Limoges, and Claire Gelinas-Chebat. 1997. Effects of circadian orientation, time of day, and arousal on consumers\u2019 depth of information processing of advertising. Perceptual and motor skills(1997).",
+      "doi": ""
+    },
+    {
+      "text": "Henriette Cramer. 2015. Effects of ad quality & content-relevance on perceived content quality. In proceedings of the 33rd annual ACM conference on human factors in computing systems. 2231\u20132234.",
+      "doi": "10.1145/2702123.2702360"
+    },
+    {
+      "text": "Aron Culotta. 2014. Estimating county health statistics with Twitter. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 1335\u20131344.",
+      "doi": "10.1145/2556288.2557139"
+    },
+    {
+      "text": "Vedant Das\u00a0Swain 2019. A Multisensor Person-Centered Approach to Understand the Role of Daily Activities in Job Performance with Organizational Personas. Proc. ACM IMWUT 3, 4, Article 130 (2019), 27\u00a0pages. https://doi.org/10.1145/3369828",
+      "doi": "10.1145/3369828"
+    },
+    {
+      "text": "Munmun De\u00a0Choudhury, Emre Kiciman, Mark Dredze, Glen Coppersmith, and Mrinal Kumar. 2016. Discovering shifts to suicidal ideation from mental health content in social media. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. ACM, 2098\u20132110.",
+      "doi": "10.1145/2858036.2858207"
+    },
+    {
+      "text": "Marco de Sa, Vidhya Navalpakkam, and Elizabeth\u00a0F Churchill. 2013. Mobile advertising: evaluating the effects of animation, user and content relevance. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2487\u20132496.",
+      "doi": "10.1145/2470654.2481344"
+    },
+    {
+      "text": "Peter Doyle and John Saunders. 1990. Multiproduct advertising budgeting. Marketing Science 9, 2 (1990), 97\u2013113.",
+      "doi": "10.1287/mksc.9.2.97"
+    },
+    {
+      "text": "Robert\u00a0H Ducoffe. 1995. How consumers assess the value of advertising. Journal of Current Issues & Research in Advertising 17, 1(1995), 1\u201318.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0H Ducoffe. 1996. Advertising value and advertising on the web-Blog@ management. Journal of advertising research 36, 5 (1996), 21\u201332.",
+      "doi": ""
+    },
+    {
+      "text": "Robert\u00a0H Ducoffe and Eleonora Curlo. 2000. Advertising value and advertising processing. Journal of Marketing Communications(2000).",
+      "doi": ""
+    },
+    {
+      "text": "Julie\u00a0A Edell and Marian\u00a0C Burke. 1984. The moderating effect of attitude toward an ad on ad effectiveness under different processing conditions. ACR North American Advances(1984).",
+      "doi": ""
+    },
+    {
+      "text": "Steven\u00a0M Edwards, Hairong Li, and Joo-Hyun Lee. 2002. Forced exposure and psychological reactance: Antecedents and consequences of the perceived intrusiveness of pop-up ads. Journal of advertising 31, 3 (2002), 83\u201395.",
+      "doi": ""
+    },
+    {
+      "text": "Casey Fiesler, Cliff Lampe, and Amy\u00a0S Bruckman. 2016. Reality and perception of copyright terms of service for online content creation. In Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing. 1450\u20131461.",
+      "doi": "10.1145/2818048.2819931"
+    },
+    {
+      "text": "Meryl\u00a0Paula Gardner. 1985. Mood states and consumer behavior: A critical review. Journal of Consumer research 12, 3 (1985), 281\u2013300.",
+      "doi": ""
+    },
+    {
+      "text": "Kiran Garimella, Orestis Kostakis, and Michael Mathioudakis. 2017. Ad-blocking: A study on performance, privacy and counter-measures. In Proceedings of the 2017 ACM on Web Science Conference. 259\u2013262.",
+      "doi": "10.1145/3091478.3091514"
+    },
+    {
+      "text": "Bob Gilbreath. 2017. Rise of Subscriptions and the Fall of Advertising: https://medium.com/the-graph/rise-of-subscriptions-and-the-fall-of-advertising-d5e4d8800a49.",
+      "doi": ""
+    },
+    {
+      "text": "Scott\u00a0A Golder and Michael\u00a0W Macy. 2011. Diurnal and seasonal mood vary with work, sleep, and daylength across diverse cultures. Science 333, 6051 (2011), 1878\u20131881.",
+      "doi": ""
+    },
+    {
+      "text": "Kendall Goodrich. 2013. Effects of age and time of day on Internet advertising outcomes. Journal of Marketing Communications(2013).",
+      "doi": ""
+    },
+    {
+      "text": "Samuel\u00a0D Gosling, Adam\u00a0A Augustine, Simine Vazire, Nicholas Holtzman, and Sam Gaddis. 2011. Manifestations of personality in online social networks: Self-reported Facebook-related behaviors and observable profile information. Cyberpsychology, Behavior, and Social Networking 14, 9(2011), 483\u2013488.",
+      "doi": ""
+    },
+    {
+      "text": "Kelley Gullo, Jonah Berger, Jordan Etkin, and Bryan Bollinger. 2019. Does time of day affect variety-seeking?Journal of Consumer Research 46, 1 (2019), 20\u201335.",
+      "doi": ""
+    },
+    {
+      "text": "Qi Guo, Eugene Agichtein, Charles\u00a0LA Clarke, and Azin Ashkan. 2009. In the mood to click? Towards inferring receptiveness to search advertising. In 2009 IEEE/WIC/ACM International Joint Conference on Web Intelligence and Intelligent Agent Technology, Vol.\u00a01. IEEE, 319\u2013324.",
+      "doi": "10.1109/WI-IAT.2009.368"
+    },
+    {
+      "text": "Hana Habib, Neil Shah, and Rajan Vaish. 2019. Impact of Contextual Factors on Snapchat Public Sharing. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3290605.3300256"
+    },
+    {
+      "text": "Edward\u00a0L Hannan. 2008. Randomized clinical trials and observational studies: guidelines for assessing respective strengths and limitations. JACC (2008).",
+      "doi": ""
+    },
+    {
+      "text": "Curt Haugtvedt, Richard\u00a0E Petty, John\u00a0T Cacioppo, and Theresa Steidley. 1988. Personality and ad effectiveness: Exploring the utility of need for cognition. ACR North American Advances(1988).",
+      "doi": ""
+    },
+    {
+      "text": "Miguel\u00a0A Hernan and James\u00a0M Robins. 2010. Causal inference.",
+      "doi": ""
+    },
+    {
+      "text": "Ben Hutchinson and Margaret Mitchell. 2019. 50 years of test (un) fairness: Lessons for machine learning. In Proceedings of the Conference on Fairness, Accountability, and Transparency. 49\u201358.",
+      "doi": "10.1145/3287560.3287600"
+    },
+    {
+      "text": "Guido\u00a0W Imbens and Donald\u00a0B Rubin. 2015. Causal inference in statistics, social, and biomedical sciences. Cambridge.",
+      "doi": "10.5555/2764565"
+    },
+    {
+      "text": "Garrett\u00a0A Johnson, Randall\u00a0A Lewis, and Elmar\u00a0I Nubbemeyer. 2017. Ghost ads: Improving the economics of measuring online ad effectiveness. Journal of Marketing Research 54, 6 (2017), 867\u2013884.",
+      "doi": ""
+    },
+    {
+      "text": "Jukka Jouhki, Epp Lauk, Maija Penttinen, Niina Sormanen, and Turo Uskali. 2016. Facebook\u2019s emotional contagion experiment as a challenge to research ethics. Media and Communication 4 (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Parisa Kaghazgaran, Maarten Bos, Leonardo Neves, and Neil Shah. 2020. Social Factors in Closed-Network Content Consumption. CIKM (2020).",
+      "doi": ""
+    },
+    {
+      "text": "Komal Kapoor, Vikas Kumar, Loren Terveen, Joseph\u00a0A Konstan, and Paul Schrater. 2015. \u201cI like to explore sometimes\u201d Adapting to Dynamic User Novelty Preferences. In Proceedings of the 9th ACM Conference on Recommender Systems. 19\u201326.",
+      "doi": "10.1145/2792838.2800172"
+    },
+    {
+      "text": "Komal Kapoor, Karthik Subbian, Jaideep Srivastava, and Paul Schrater. 2015. Just in time recommendations: Modeling the dynamics of boredom in activity streams. In Proceedings of the Eighth ACM International Conference on Web Search and Data Mining. 233\u2013242.",
+      "doi": "10.1145/2684822.2685306"
+    },
+    {
+      "text": "Emre K\u0131c\u0131man, Scott Counts, and Melissa Gasser. 2018. Using Longitudinal Social Media Analysis to Understand the Effects of Early College Alcohol Use.. In ICWSM. 171\u2013180.",
+      "doi": ""
+    },
+    {
+      "text": "Tami Kim, Kate Barasz, and Leslie\u00a0K John. 2019. Why am I seeing this ad? The effect of ad transparency on ad effectiveness. Journal of Consumer Research 45, 5 (2019), 906\u2013932.",
+      "doi": ""
+    },
+    {
+      "text": "Yoojung Kim, Mihyun Kang, Sejung\u00a0Marina Choi, and Yongjun Sung. 2016. To click or not to click? Investigating antecedents of advertisement clicking on Facebook. Social Behavior and Personality: an international journal 44, 4(2016), 657\u2013667.",
+      "doi": ""
+    },
+    {
+      "text": "Gary King, Richard Nielsen, 2016. Why propensity scores should not be used for matching. (2016).",
+      "doi": ""
+    },
+    {
+      "text": "Farshad Kooti, Karthik Subbian, Winter Mason, Lada Adamic, and Kristina Lerman. 2017. Understanding short-term changes in online activity sessions. In Proceedings of the 26th International Conference on World Wide Web Companion.",
+      "doi": "10.1145/3041021.3054203"
+    },
+    {
+      "text": "Michal Kosinski, David Stillwell, and Thore Graepel. 2013. Private traits and attributes are predictable from digital records of human behavior. (2013).",
+      "doi": ""
+    },
+    {
+      "text": "Adam\u00a0DI Kramer, Jamie\u00a0E Guillory, and Jeffrey\u00a0T Hancock. 2014. Experimental evidence of massive-scale emotional contagion through social networks. Proceedings of the National Academy of Sciences 111, 24(2014), 8788\u20138790.",
+      "doi": ""
+    },
+    {
+      "text": "Hemank Lamba and Neil Shah. 2019. Modeling dwell time engagement on visual multimedia. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. 1104\u20131113.",
+      "doi": "10.1145/3292500.3330973"
+    },
+    {
+      "text": "Zhou Li, Kehuan Zhang, Yinglian Xie, Fang Yu, and XiaoFeng Wang. 2012. Knowing your enemy: understanding and detecting malicious web advertising. In Proceedings of the 2012 ACM conference on Computer and communications security. 674\u2013686.",
+      "doi": "10.1145/2382196.2382267"
+    },
+    {
+      "text": "Q\u00a0Vera Liao, Wai-Tat Fu, and Sri\u00a0Shilpa Mamidi. 2015. It is all about perspective: An exploration of mitigating selective exposure with aspect indicators. In Proceedings of the 33rd annual ACM conference on Human factors in computing systems. 1439\u20131448.",
+      "doi": "10.1145/2702123.2702570"
+    },
+    {
+      "text": "Brian\u00a0Y Lim, Anind\u00a0K Dey, and Daniel Avrahami. 2009. Why and why not explanations improve the intelligibility of context-aware intelligent systems. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 2119\u20132128.",
+      "doi": "10.1145/1518701.1519023"
+    },
+    {
+      "text": "Jason Liu, Elissa\u00a0R Weitzman, and Rumi Chunara. 2017. Assessing behavioral stages from social media data. In CSCW.",
+      "doi": ""
+    },
+    {
+      "text": "Xun Lu and Halbert White. 2014. Robustness checks and robustness tests in applied economics. Journal of econometrics 178 (2014), 194\u2013206.",
+      "doi": ""
+    },
+    {
+      "text": "Miguel Malheiros, Charlene Jennett, Snehalee Patel, Sacha Brostoff, and Martina\u00a0Angela Sasse. 2012. Too close for comfort: A study of the effectiveness and acceptability of rich-media personalized advertising. In Proceedings of the SIGCHI conference on human factors in computing systems. 579\u2013588.",
+      "doi": "10.1145/2207676.2207758"
+    },
+    {
+      "text": "En Mao and Jing Zhang. 2015. What drives consumers to click on social media ads? The roles of content, media, and individual factors. In 2015 48th Hawaii International Conference on System Sciences. IEEE, 3405\u20133413.",
+      "doi": "10.1109/HICSS.2015.410"
+    },
+    {
+      "text": "En Mao and Jing Zhang. 2017. What affects users to click on display ads on social media? The roles of message values, involvement, and security. Journal of Information Privacy and Security 13, 2 (2017), 84\u201396.",
+      "doi": ""
+    },
+    {
+      "text": "Gloria Mark, Shamsi\u00a0T Iqbal, Mary Czerwinski, and Paul Johns. 2014. Bored mondays and focused afternoons: The rhythm of attention and online activity in the workplace. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 3025\u20133034.",
+      "doi": "10.1145/2556288.2557204"
+    },
+    {
+      "text": "Jack Marshall. 2016. How to Persuade Consumers to Disable Ad Blockers: https://www.wsj.com/articles/how-to-persuade-consumers-to-disable-ad-blockers-1469541611.",
+      "doi": ""
+    },
+    {
+      "text": "Akhil Mathur, Nicholas\u00a0D Lane, and Fahim Kawsar. 2016. Engagement-aware computing: Modelling user engagement from mobile contexts. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing. 622\u2013633.",
+      "doi": "10.1145/2971648.2971760"
+    },
+    {
+      "text": "Daniel McDuff, Rana El\u00a0Kaliouby, Jeffrey\u00a0F Cohn, and Rosalind\u00a0W Picard. 2014. Predicting ad liking and purchase intent: Large-scale analysis of facial responses to ads. IEEE Transactions on Affective Computing 6, 3 (2014), 223\u2013235.",
+      "doi": "10.1109/TAFFC.2014.2384198"
+    },
+    {
+      "text": "Abhinav Mehrotra, Fani Tsapeli, Robert Hendley, and Mirco Musolesi. 2017. MyTraces: Investigating correlation and causation between users\u2019 emotional states and mobile phone interaction. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (2017).",
+      "doi": "10.1145/3130948"
+    },
+    {
+      "text": "Jacob Metcalf and Kate Crawford. 2016. Where are human subjects in big data research? The emerging ethics divide. Big Data & Society 3, 1 (2016), 2053951716650211.",
+      "doi": ""
+    },
+    {
+      "text": "Jeremy Miles. 2014. Tolerance and variance inflation factor. Wiley StatsRef: Statistics Reference Online(2014).",
+      "doi": ""
+    },
+    {
+      "text": "Ben Miroglio, David Zeber, Jofish Kaye, and Rebecca Weiss. 2018. The effect of ad blocking on user engagement with the web. In Proceedings of the 2018 World Wide Web Conference. 813\u2013821.",
+      "doi": "10.1145/3178876.3186162"
+    },
+    {
+      "text": "Bruce\u00a0John Morrison and Marvin\u00a0J Dainoff. 1972. Advertisement complexity and looking time. Journal of marketing research 9, 4 (1972), 396\u2013400.",
+      "doi": ""
+    },
+    {
+      "text": "Ngoc\u00a0Thi Nguyen, Agustin Zuniga, Hyowon Lee, Pan Hui, Huber Flores, and Petteri Nurmi. 2020. (M) ad to See Me? Intelligent Advertisement Placement: Balancing User Annoyance and Advertising Effectiveness. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (2020).",
+      "doi": "10.1145/3397324"
+    },
+    {
+      "text": "Katie O\u2019Donnell and Henriette Cramer. 2015. People\u2019s perceptions of personalized ads. In Proceedings of the 24th International Conference on World Wide Web. 1293\u20131298.",
+      "doi": "10.1145/2740908.2742003"
+    },
+    {
+      "text": "Alexandra Olteanu, Carlos Castillo, Fernando Diaz, and Emre Kiciman. 2019. Social data: Biases, methodological pitfalls, and ethical boundaries. Frontiers in Big Data 2(2019), 13.",
+      "doi": ""
+    },
+    {
+      "text": "Alexandra Olteanu, Onur Varol, and Emre Kiciman. 2017. Distilling the outcomes of personal experiences: A propensity-scored analysis of social media. In Proc. CSCW.",
+      "doi": "10.1145/2998181.2998353"
+    },
+    {
+      "text": "Harshvardhan\u00a0J Pandit and Dave Lewis. 2018. Ease and ethics of user profiling in black mirror. In Companion Proceedings of the The Web Conference 2018.",
+      "doi": "10.1145/3184558.3191614"
+    },
+    {
+      "text": "Pew. 2019. pewinternet.org/fact-sheet/social-media.",
+      "doi": ""
+    },
+    {
+      "text": "Martin Pielot, Bruno Cardoso, Kleomenis Katevas, Joan Serr\u00e0, Aleksandar Matic, and Nuria Oliver. 2017. Beyond interruptibility: Predicting opportune moments to engage mobile phone users. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (2017).",
+      "doi": "10.1145/3130956"
+    },
+    {
+      "text": "Lin Qiu, Han Lin, Jonathan Ramsay, and Fang Yang. 2012. You are what you tweet: Personality expression and perception on Twitter. Journal of research in personality 46, 6 (2012), 710\u2013718.",
+      "doi": ""
+    },
+    {
+      "text": "Daniele Quercia, Michal Kosinski, David Stillwell, and Jon Crowcroft. [n.d.]. Our twitter profiles, our selves: Predicting personality with twitter.",
+      "doi": ""
+    },
+    {
+      "text": "Manish Raghavan, Solon Barocas, Jon Kleinberg, and Karen Levy. 2020. Mitigating bias in algorithmic hiring: Evaluating claims and practices. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. 469\u2013481.",
+      "doi": "10.1145/3351095.3372828"
+    },
+    {
+      "text": "Vennila Ramalingam, B Palaniappan, N Panchanatham, and S Palanivel. 2006. Measuring advertisement effectiveness\u2014a neural network approach. Expert systems with applications 31, 1 (2006), 159\u2013163.",
+      "doi": ""
+    },
+    {
+      "text": "Pei-Luen\u00a0Patrick Rau, Qingzi Liao, and Cuiling Chen. 2013. Factors influencing mobile advertising avoidance. International Journal of Mobile Communications 11, 2(2013), 123\u2013139.",
+      "doi": "10.1504/IJMC.2013.052637"
+    },
+    {
+      "text": "Filipe\u00a0N Ribeiro, Koustuv Saha, Mahmoudreza Babaei, Lucas Henrique, Johnnatan Messias, Fabricio Benevenuto, Oana Goga, Krishna\u00a0P Gummadi, and Elissa\u00a0M Redmiles. 2019. On microtargeting socially divisive ads: A case study of russia-linked ad campaigns on facebook. In Proceedings of the Conference on Fairness, Accountability, and Transparency. 140\u2013149.",
+      "doi": "10.1145/3287560.3287580"
+    },
+    {
+      "text": "Steven Richmond. 2018. How Snapchat makes money. Investopedia. El\u00e9r\u00e9s(2018).",
+      "doi": ""
+    },
+    {
+      "text": "Helen Robinson, Anna Wysocka, and Chris Hand. 2007. Internet advertising effectiveness: the effect of design on click-through rates for banner ads. International Journal of Advertising 26, 4 (2007), 527\u2013541.",
+      "doi": ""
+    },
+    {
+      "text": "Christian Rohrer and John Boyd. 2004. The rise of intrusive online advertising and the response of user experience research at Yahoo!. In CHI\u201904 Extended Abstracts on Human Factors in Computing Systems. 1085\u20131086.",
+      "doi": ""
+    },
+    {
+      "text": "Donald\u00a0B Rubin. 2005. Causal inference using potential outcomes: Design, modeling, decisions. J. Amer. Statist. Assoc. 100, 469 (2005), 322\u2013331.",
+      "doi": ""
+    },
+    {
+      "text": "Adam Sadilek, Henry\u00a0A Kautz, and Vincent Silenzio. 2012. Modeling Spread of Disease from Social Interactions.. In International Conference on Weblogs and Social Media (ICWSM).",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha 2019. Imputing Missing Social Media Data Stream in Multisensor Studies of Human Behavior. In Proceedings of International Conference on Affective Computing and Intelligent Interaction (ACII 2019).",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha, Larry Chan, Kaya De\u00a0Barbaro, Gregory\u00a0D Abowd, and Munmun De\u00a0Choudhury. 2017. Inferring mood instability on social media by leveraging ecological momentary assessments. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 3 (2017), 95.",
+      "doi": "10.1145/3130960"
+    },
+    {
+      "text": "Koustuv Saha, Ted Grover, Stephen Mattingly, Vedant Das\u00a0Swain, Pranshu Gupta, Gonzalo\u00a0J Martinez, Pablo Robles-Granda, Gloria Mark, Aaron Striegel, and Munmun De\u00a0Choudhury. 2021. Person-Centered Predictions of Psychological Constructs with Social Media Contextualized by Multimodal Sensing. PACM IMWUT (2021).",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha and Amit Sharma. 2020. Causal Factors of Effective Psychosocial Outcomes in Online Mental Health Communities. In ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha, Benjamin Sugar, John Torous, Bruno Abrahao, Emre K\u0131c\u0131man, and Munmun De\u00a0Choudhury. 2019. A Social Media Study on the Effects of Psychiatric Medication Use. In ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Koustuv Saha, Ingmar Weber, and Munmun De\u00a0Choudhury. 2018. A Social Media Based Examination of the Effects of Counseling Recommendations After Student Deaths on College Campuses. In ICWSM.",
+      "doi": ""
+    },
+    {
+      "text": "Ville Satopaa, Jeannie Albrecht, David Irwin, and Barath Raghavan. 2011. Finding a\u201d kneedle\u201d in a haystack: Detecting knee points in system behavior. In ICDCS.",
+      "doi": ""
+    },
+    {
+      "text": "Ann\u00a0E Schlosser, Sharon Shavitt, and Alaina Kanfer. 1999. Survey of Internet users\u2019 attitudes toward Internet advertising. Journal of interactive marketing 13, 3 (1999), 34\u201354.",
+      "doi": ""
+    },
+    {
+      "text": "H\u00a0Andrew Schwartz, Johannes\u00a0C Eichstaedt, Margaret\u00a0L Kern, 2013. Personality, gender, and age in the language of social media: The open-vocabulary approach. PloS one 8, 9 (2013), e73791.",
+      "doi": ""
+    },
+    {
+      "text": "Yi Shen, Heshan Sun, Cheng\u00a0Suang Heng, and Hock\u00a0Chuan Chan. 2020. Facilitating Complex Product Choices on E-commerce Sites: An Unconscious Thought and Circadian Preference Perspective. Decision Support Systems(2020), 113365.",
+      "doi": ""
+    },
+    {
+      "text": "Elizabeth\u00a0A Stuart. 2010. Matching methods for causal inference: A review and a look forward. Statistical science: a review journal of the Institute of Mathematical Statistics 25, 1 (2010), 1.",
+      "doi": ""
+    },
+    {
+      "text": "Gerard\u00a0J Tellis, Rajesh\u00a0K Chandy, Deborah MacInnis, and Pattana Thaivanich. 2005. Modeling the microeffects of television advertising: Which ad works, when, where, for how long, and why?Marketing Science (2005), 359\u2013366.",
+      "doi": ""
+    },
+    {
+      "text": "Catherine\u00a0E Tucker. 2014. Social networks, personalized advertising, and privacy controls. Journal of marketing research 51, 5 (2014), 546\u2013562.",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Tunkelang. 2018. Are Ads Really That Bad?: https://medium.com/@dtunkelang/are-ads-really-that-bad-1c3d315f6689.",
+      "doi": ""
+    },
+    {
+      "text": "Richard Vaughn. 1980. How advertising works: A planning model.Journal of advertising research(1980).",
+      "doi": ""
+    },
+    {
+      "text": "Aku Visuri, Simo Hosio, and Denzil Ferreira. 2017. Exploring mobile ad formats to increase brand recollection and enhance user experience. In Proceedings of the 16th International Conference on Mobile and Ubiquitous Multimedia. 311\u2013319.",
+      "doi": "10.1145/3152832.3152834"
+    },
+    {
+      "text": "Zack Whittaker. 2020. Apple\u2019s iOS 14 will give users the option to decline app ad tracking: https://techcrunch.com/2020/06/22/apple-ios-14-ad-tracking.",
+      "doi": ""
+    },
+    {
+      "text": "Max Willer. 2018. New Data on Why People Hate Ads: Too Many, Too Intrusive, Too Creepy: https://www.vieodesign.com/blog/new-data-why-people-hate-ads.",
+      "doi": ""
+    },
+    {
+      "text": "Max Willer. 2019. The Advertising Industry Has a Problem: People Hate Ads: https://www.nytimes.com/2019/10/28/business/media/advertising-industry-research.html.",
+      "doi": ""
+    },
+    {
+      "text": "Stephan Winter, Ewa\u00a0H Maslowska, and Anne\u00a0L Vos. 2020. The effects of trait-based personalization in social media advertising. Computers in Human Behavior(2020), 106525.",
+      "doi": ""
+    },
+    {
+      "text": "Lori\u00a0D Wolin, Pradeep Korgaonkar, and Daulatram Lund. 2002. Beliefs, attitudes and behaviour towards Web advertising. International Journal of Advertising 21, 1 (2002), 87\u2013113.",
+      "doi": ""
+    },
+    {
+      "text": "Seounmi Youn and Seunghyun Kim. 2019. Understanding ad avoidance on Facebook: Antecedents and outcomes of psychological reactance. Computers in Human Behavior 98 (2019), 232\u2013244.",
+      "doi": "10.1016/j.chb.2019.04.025"
+    },
+    {
+      "text": "Zephoria. 2019. https://zephoria.com/top-10-valuable-snapchat-statistics/.",
+      "doi": ""
+    },
+    {
+      "text": "Justine Zhang, Sendhil Mullainathan, and Cristian Danescu-Niculescu-Mizil. 2020. Quantifying the Causal Effects of Conversational Tendencies. PACM HCI (CSCW) (2020).",
+      "doi": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "doi": "10.1145/3491102.3502073",
+  "title": "Towards Complete Icon Labeling in Mobile Applications",
+  "published": "2022-04-29",
+  "proctitle": "CHI '22: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-14",
+  "year": 2022,
+  "badges": [],
+  "abstract": "Accurately recognizing icon types in mobile applications is integral to many tasks, including accessibility improvement, UI design search, and conversational agents. Existing research focuses on recognizing the most frequent icon types, but these technologies fail when encountering an unrecognized low-frequency icon. In this paper, we work towards complete coverage of icons in the wild. After annotating a large-scale icon dataset (327,879 icons) from iPhone apps, we found a highly uneven distribution: 98 common icon types covered 92.8% of icons, while 7.2% of icons were covered by more than 331 long-tail icon types. In order to label icons with widely varying occurrences in apps, our system uses an image classification model to recognize common icon types with an average of 3,000 examples each (96.3% accuracy) and applies a few-shot learning model to classify long-tail icon types with an average of 67 examples each (78.6% accuracy). Our system also detects contextual information that helps characterize icon semantics, including nearby text (95.3% accuracy) and modifier symbols added to the icon (87.4% accuracy). In a validation study with workers (n = 23), we verified the usefulness of our generated icon labels. The icon types supported by our work cover 99.5% of collected icons, improving on the previously highest 78% coverage in icon classification work.",
+  "authors": [
+    {
+      "name": "Jieshan Chen",
+      "institution": "Australian National University, Australia",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659541894",
+      "orcid": "missing"
+    },
+    {
+      "name": "Amanda Swearngin",
+      "institution": "Apple, United States",
+      "img": "/do/10.1145/contrib-81488669260/rel-imgonly/avatar.jpg",
+      "acmid": "81488669260",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jason Wu",
+      "institution": "Apple, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660239387",
+      "orcid": "missing"
+    },
+    {
+      "name": "Titus Barik",
+      "institution": "Apple, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81100279029",
+      "orcid": "missing"
+    },
+    {
+      "name": "Jeffrey Nichols",
+      "institution": "Apple, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659700706",
+      "orcid": "missing"
+    },
+    {
+      "name": "Xiaoyi Zhang",
+      "institution": "Apple, United States",
+      "img": "/do/10.1145/contrib-99658762821/rel-imgonly/img_8197.jpg",
+      "acmid": "99658762821",
+      "orcid": "missing"
+    }
+  ],
+  "references": [
+    {
+      "text": "Rakesh Agrawal, Ramakrishnan Srikant, 1994. Fast Algorithms for Mining Association Rules. In Proc. 20th int. conf. very large data bases, VLDB, Vol.\u00a01215. Citeseer, 487\u2013499.",
+      "doi": ""
+    },
+    {
+      "text": "Abdulaziz Alshayban, Iftekhar Ahmed, and Sam Malek. 2020. Accessibility Issues in Android Apps: State of Affairs, Sentiments, and Ways Forward. In 2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE). IEEE, 1323\u20131334.",
+      "doi": "10.1145/3377811.3380392"
+    },
+    {
+      "text": "Apple. 2021. Glyphs - Human Interface Guidelines. https://developer.apple.com/design/human-interface-guidelines/glyphs/overview. Accessed: 24/08/2021.",
+      "doi": ""
+    },
+    {
+      "text": "Apple. 2021. Recognizing Text in Images. https://developer.apple.com/documentation/vision/recognizing_text_in_images. Accessed: 31/08/2021.",
+      "doi": ""
+    },
+    {
+      "text": "Chunyang Chen, Sidong Feng, Zhenchang Xing, Linda Liu, Shengdong Zhao, and Jinshui Wang. 2019. Gallery D.C.: Design Search and Knowledge Discovery through Auto-created GUI Component Gallery. Proceedings of the ACM on Human-Computer Interaction 3, CSCW(2019), 1\u201322.",
+      "doi": "10.1145/3359282"
+    },
+    {
+      "text": "Chunyang Chen, Ting Su, Guozhu Meng, Zhenchang Xing, and Yang Liu. 2018. From UI Design Image to GUI Skeleton: A Neural Machine Translator to Bootstrap Mobile GUI Implementation. In Proceedings of the 40th International Conference on Software Engineering. 665\u2013676.",
+      "doi": "10.1145/3180155.3180240"
+    },
+    {
+      "text": "Jieshan Chen, Chunyang Chen, Zhenchang Xing, Xin Xia, Liming Zhu, John Grundy, and Jinshui Wang. 2020. Wireframe-Based UI Design Search through Image Autoencoder. ACM Transactions on Software Engineering and Methodology (TOSEM) 29, 3(2020), 1\u201331.",
+      "doi": "10.1145/3394112"
+    },
+    {
+      "text": "Jieshan Chen, Chunyang Chen, Zhenchang Xing, Xiwei Xu, Liming Zhut, Guoqiang Li, and Jinshui Wang. 2020. Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning. In 2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE). IEEE, 322\u2013334.",
+      "doi": "10.1145/3377811.3380327"
+    },
+    {
+      "text": "Biplab Deka, Zifeng Huang, Chad Franzen, Joshua Hibschman, Daniel Afergan, Yang Li, Jeffrey Nichols, and Ranjitha Kumar. 2017. Rico: A Mobile App Dataset for Building Data-Driven Design Applications. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology. 845\u2013854.",
+      "doi": "10.1145/3126594.3126651"
+    },
+    {
+      "text": "Sidong Feng, Suyu Ma, Jinzhong Yu, Chunyang Chen, TingTing Zhou, and Yankun Zhen. 2021. Auto-icon: An Automated Code Generation Tool for Icon Designs Assisting in UI Development. In 26th International Conference on Intelligent User Interfaces. 59\u201369.",
+      "doi": ""
+    },
+    {
+      "text": "Cyril Goutte, Peter Toft, Egill Rostrup, Finn\u00a0\u00c5 Nielsen, and Lars\u00a0Kai Hansen. 1999. On Clustering fMRI Time Series. NeuroImage 9, 3 (1999), 298\u2013310.",
+      "doi": ""
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016. Deep Residual Learning for Image Recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition. 770\u2013778.",
+      "doi": ""
+    },
+    {
+      "text": "Dominik Henrich. 1994. Space-Efficient Region Filling in Raster Graphics. The Visual Computer 10, 4 (1994), 205\u2013215.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, 2019. Searching for Mobilenetv3. In Proceedings of the IEEE/CVF International Conference on Computer Vision. 1314\u20131324.",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0G Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, and Hartwig Adam. 2017. Mobilenets: Efficient Convolutional Neural Networks for Mobile Vision Applications. arXiv preprint arXiv:1704.04861(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Shachar Kaufman, Saharon Rosset, Claudia Perlich, and Ori Stitelman. 2012. Leakage in Data Mining: Formulation, Detection, and Avoidance. ACM Transactions on Knowledge Discovery from Data (TKDD) 6, 4(2012), 1\u201321.",
+      "doi": ""
+    },
+    {
+      "text": "Diederik\u00a0P Kingma and Jimmy Ba. 2014. Adam: A Method for Stochastic Optimization. arXiv preprint arXiv:1412.6980(2014).",
+      "doi": ""
+    },
+    {
+      "text": "Chunggi Lee, Sanghoon Kim, Dongyun Han, Hongjun Yang, Young-Woo Park, Bum\u00a0Chul Kwon, and Sungahn Ko. 2020. GUIComp: A GUI Design Assistant with Real-Time, Multi-Faceted Feedback. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376327"
+    },
+    {
+      "text": "Luis\u00a0A Leiva, Asutosh Hota, and Antti Oulasvirta. 2020. Enrico: A Dataset for Topic Modeling of Mobile UI Designs. In 22nd International Conference on Human-Computer Interaction with Mobile Devices and Services. 1\u20134.",
+      "doi": ""
+    },
+    {
+      "text": "Toby Jia-Jun Li, Igor Labutov, Xiaohan\u00a0Nancy Li, Xiaoyi Zhang, Wenze Shi, Wanling Ding, Tom\u00a0M Mitchell, and Brad\u00a0A Myers. 2018. APPINITE: A Multi-Modal Interface for Specifying Data Descriptions in Programming by Demonstration Using Natural Language Instructions. In 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC). IEEE, 105\u2013114.",
+      "doi": ""
+    },
+    {
+      "text": "Yang Li, Jiacong He, Xin Zhou, Yuan Zhang, and Jason Baldridge. 2020. Mapping Natural Language Instructions to Mobile UI Action Sequences. arXiv preprint arXiv:2005.03776(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Yang Li, Gang Li, Luheng He, Jingjie Zheng, Hong Li, and Zhiwei Guan. 2020. Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements. arXiv preprint arXiv:2010.04295(2020).",
+      "doi": ""
+    },
+    {
+      "text": "Tsung-Yi Lin, Piotr Doll\u00e1r, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie. 2017. Feature Pyramid Networks for Object Detection. In Proceedings of the IEEE conference on computer vision and pattern recognition. 2117\u20132125.",
+      "doi": ""
+    },
+    {
+      "text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Doll\u00e1r. 2017. Focal Loss for Dense Object Detection. In Proceedings of the IEEE international conference on computer vision. 2980\u20132988.",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0F Liu, Mark Craft, Jason Situ, Ersin Yumer, Radomir Mech, and Ranjitha Kumar. 2018. Learning Design Semantics for Mobile Apps. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology. 569\u2013579.",
+      "doi": "10.1145/3242587.3242650"
+    },
+    {
+      "text": "Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander\u00a0C Berg. 2016. SSD: Single Shot Multibox Detector. In European conference on computer vision. Springer, 21\u201337.",
+      "doi": ""
+    },
+    {
+      "text": "Forough Mehralian, Navid Salehnamadi, and Sam Malek. 2021. Data-Driven Accessibility Repair Revisited: On the Effectiveness of Generating Labels for Icons in Android Apps. In Proceedings of the 29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering. 107\u2013118.",
+      "doi": "10.1145/3468264.3468604"
+    },
+    {
+      "text": "Anne\u00a0Spencer Ross, Xiaoyi Zhang, James Fogarty, and Jacob\u00a0O Wobbrock. 2018. Examining Image-Based Button Labeling for Accessibility in Android Apps through Large-Scale Analysis. In Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility. 119\u2013130.",
+      "doi": "10.1145/3234695.3236364"
+    },
+    {
+      "text": "Jake Snell, Kevin Swersky, and Richard\u00a0S Zemel. 2017. Prototypical Networks for Few-Shot Learning. arXiv preprint arXiv:1703.05175(2017).",
+      "doi": ""
+    },
+    {
+      "text": "Thomas\u00a0D White, Gordon Fraser, and Guy\u00a0J Brown. 2019. Improving Random GUI Testing with Image-Based Widget Detection. In Proceedings of the 28th ACM SIGSOFT International Symposium on Software Testing and Analysis. 307\u2013317.",
+      "doi": "10.1145/3293882.3330551"
+    },
+    {
+      "text": "Shengqu Xi, Shao Yang, Xusheng Xiao, Yuan Yao, Yayuan Xiong, Fengyuan Xu, Haoyu Wang, Peng Gao, Zhuotao Liu, Feng Xu, 2019. DeepIntent: Deep Icon-behavior Learning for Detecting Intention-behavior Discrepancy in Mobile Apps. In Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security. 2421\u20132436.",
+      "doi": "10.1145/3319535.3363193"
+    },
+    {
+      "text": "Xusheng Xiao, Xiaoyin Wang, Zhihao Cao, Hanlin Wang, and Peng Gao. 2019. IconIntent: Automatic Identification of Sensitive UI Widgets Based on Icon Classification for Android Apps. In 2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE). IEEE, 257\u2013268.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaoxue Zang, Ying Xu, and Jindong Chen. 2021. Multimodal Icon Annotation for Mobile Applications. arXiv preprint arXiv:2107.04452(2021).",
+      "doi": ""
+    },
+    {
+      "text": "Matthew\u00a0D Zeiler and Rob Fergus. 2014. Visualizing and Understanding Convolutional Networks. In European conference on computer vision. Springer, 818\u2013833.",
+      "doi": ""
+    },
+    {
+      "text": "Xiaoyi Zhang, Lilian de Greef, Amanda Swearngin, Samuel White, Kyle Murray, Lisa Yu, Qi Shan, Jeffrey Nichols, Jason Wu, Chris Fleizach, 2021. Screen Recognition: Creating Accessibility Metadata for Mobile Applications from Pixels. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201315.",
+      "doi": "10.1145/3411764.3445186"
+    },
+    {
+      "text": "Xiaoyi Zhang, Anne\u00a0Spencer Ross, Anat Caspi, James Fogarty, and Jacob\u00a0O Wobbrock. 2017. Interaction Proxies for Runtime Repair and Enhancement of Mobile Application Accessibility. In Proceedings of the 2017 CHI conference on human factors in computing systems. 6024\u20136037.",
+      "doi": "10.1145/3025453.3025846"
+    },
+    {
+      "text": "Nanxuan Zhao, Nam\u00a0Wook Kim, Laura\u00a0Mariah Herman, Hanspeter Pfister, Rynson\u00a0WH Lau, Jose Echevarria, and Zoya Bylinskii. 2020. Iconate: Automatic Compound Icon Generation and Ideation. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 1\u201313.",
+      "doi": "10.1145/3313831.3376618"
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "doi": "10.1145/3544548.3581338",
+  "title": "Rapsai: Accelerating Machine Learning Prototyping of Multimedia Applications through Visual Programming",
+  "published": "2023-04-19",
+  "proctitle": "CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "pages": "1-23",
+  "year": 2023,
+  "badges": [],
+  "abstract": "In recent years, there has been a proliferation of multimedia applications that leverage machine learning (ML) for interactive experiences. Prototyping ML-based applications is, however, still challenging, given complex workflows that are not ideal for design and experimentation. To better understand these challenges, we conducted a formative study with seven ML practitioners to gather insights about common ML evaluation workflows.  The study helped us derive six design goals, which informed Rapsai1, a visual programming platform for rapid and iterative development of end-to-end ML-based multimedia applications. Rapsai features a node-graph editor to facilitate interactive characterization and visualization of ML model performance. Rapsai streamlines end-to-end prototyping with interactive data augmentation and model comparison capabilities in its no-coding environment. Our evaluation of Rapsai in four real-world case studies (N=15) suggests that practitioners can accelerate their workflow, make more informed decisions, analyze strengths and weaknesses, and holistically evaluate model behavior with real-world input.",
+  "authors": [
+    {
+      "name": "Ruofei Du",
+      "institution": "Google, United States",
+      "img": "/do/10.1145/contrib-99658704468/rel-imgonly/rf.jpeg",
+      "acmid": "99658704468",
+      "orcid": "0000-0003-2471-9776"
+    },
+    {
+      "name": "Na Li",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780456",
+      "orcid": "0000-0002-9370-1353"
+    },
+    {
+      "name": "Jing Jin",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783278",
+      "orcid": "0000-0002-4734-7058"
+    },
+    {
+      "name": "Michelle Carney",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659254027",
+      "orcid": "0000-0002-9194-7384"
+    },
+    {
+      "name": "Scott Miles",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780249",
+      "orcid": "0000-0002-5365-1013"
+    },
+    {
+      "name": "Maria Kleiner",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660778199",
+      "orcid": "0000-0002-4491-7959"
+    },
+    {
+      "name": "Xiuxiu Yuan",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660783281",
+      "orcid": "0000-0002-9341-993X"
+    },
+    {
+      "name": "Yinda Zhang",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99659828206",
+      "orcid": "0000-0001-5386-8872"
+    },
+    {
+      "name": "Anuva Kulkarni",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660780804",
+      "orcid": "0000-0001-8896-7504"
+    },
+    {
+      "name": "Xingyu Liu",
+      "institution": "Google, United States and UCLA, USA",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660778917",
+      "orcid": "0000-0002-6988-5471"
+    },
+    {
+      "name": "Ahmed Sabie",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660782645",
+      "orcid": "0000-0002-0976-9487"
+    },
+    {
+      "name": "Sergio Orts-Escolano",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81502802232",
+      "orcid": "0000-0001-6817-6326"
+    },
+    {
+      "name": "Abhishek Kar",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660633045",
+      "orcid": "0000-0003-4724-6545"
+    },
+    {
+      "name": "Ping Yu",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660779893",
+      "orcid": "0000-0001-5881-0629"
+    },
+    {
+      "name": "Ram Iyengar",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "99660778628",
+      "orcid": "0000-0002-6596-8907"
+    },
+    {
+      "name": "Adarsh Kowdle",
+      "institution": "Google, United States",
+      "img": "/pb-assets/icons/DOs/default-profile-1543932446943.svg",
+      "acmid": "81464675559",
+      "orcid": "0000-0002-4428-889X"
+    },
+    {
+      "name": "Alex Olwal",
+      "institution": "Google, United States",
+      "img": "/do/10.1145/contrib-81309497296/rel-imgonly/alex.png",
+      "acmid": "81309497296",
+      "orcid": "0000-0001-7772-0530"
+    }
+  ],
+  "references": [
+    {
+      "text": "Tyler Akidau, Robert Bradshaw, Craig Chambers, Slava Chernyak, Rafael\u00a0J Fern\u00e1ndez-Moctezuma, Reuven Lax, Sam McVeety, Daniel Mills, Frances Perry, Eric Schmidt, 2015. The Dataflow Model: a Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing. (2015). https://doi.org/10.14778/2824032.2824076",
+      "doi": "10.14778/2824032.2824076"
+    },
+    {
+      "text": "Saeed Anwar, Muhammad Tahir, Chongyi Li, Ajmal Mian, Fahad\u00a0Shahbaz Khan, and Abdul\u00a0Wahab Muzaffar. 2020. Image Colorization: a Survey and Dataset. ArXiv Preprint ArXiv:2008.10774(2020). https://arxiv.org/pdf/2008.10774",
+      "doi": ""
+    },
+    {
+      "text": "Autodesk. 2022. 3DS Max. https://www.autodesk.com/products/3ds-max",
+      "doi": ""
+    },
+    {
+      "text": "Autodesk. 2022. Maya. https://www.autodesk.com/products/maya/overview",
+      "doi": ""
+    },
+    {
+      "text": "Valentin Bazarevsky, Ivan Grishchenko, Karthik Raveendran, Tyler Zhu, Fan Zhang, and Matthias Grundmann. 2020. Blazepose: On-Device Real-Time Body Pose Tracking. ArXiv Preprint ArXiv:2006.10204(2020). https://arxiv.org/pdf/2006.10204",
+      "doi": ""
+    },
+    {
+      "text": "Blender. 2022. Blender. https://www.blender.org/",
+      "doi": ""
+    },
+    {
+      "text": "Ali Borji. 2021. Pros and Cons of GAN Evaluation Measures: New Developments. https://doi.org/10.48550/arXiv.2103.09396",
+      "doi": ""
+    },
+    {
+      "text": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared\u00a0D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, 2020. Language Models are Few-shot Learners. Advances in Neural Information Processing Systems 33 (2020), 1877\u20131901. https://doi.org/10.48550/arXiv.2005.14165",
+      "doi": ""
+    },
+    {
+      "text": "Michelle Carney, Barron Webster, Irene Alvarado, Kyle Phillips, Noura Howell, Jordan Griffith, Jonas Jongejan, Amit Pitaru, and Alexander Chen. 2020. Teachable Machine: Approachable Web-Based Tool for Exploring Machine Learning Classification. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems. ACM. https://doi.org/10.1145/3334480.3382839",
+      "doi": "10.1145/3334480.3382839"
+    },
+    {
+      "text": "Angelos Chatzimparmpas, Rafael\u00a0Messias Martins, Ilir Jusufi, Kostiantyn Kucher, Fabrice Rossi, and Andreas Kerren. 2020. The State of the Art in Enhancing Trust in Machine Learning Models With the Use of Visualizations. In Computer Graphics Forum, Vol.\u00a039. Wiley Online Library, Wiley Online Library, 713\u2013756. https://doi.org/10.1111/cgf.14034",
+      "doi": ""
+    },
+    {
+      "text": "John Joon\u00a0Young Chung, Wooseok Kim, Kang\u00a0Min Yoo, Hwaran Lee, Eytan Adar, and Minsuk Chang. 2022. TaleBrush: Sketching Stories With Generative Pretrained Language Models. In CHI Conference on Human Factors in Computing Systems. 1\u201319. https://doi.org/10.1145/3491102.3501819",
+      "doi": "10.1145/3491102.3501819"
+    },
+    {
+      "text": "Runmin Cong, Jianjun Lei, Huazhu Fu, Ming-Ming Cheng, Weisi Lin, and Qingming Huang. 2018. Review of Visual Saliency Detection With Comprehensive Information. IEEE Transactions on Circuits and Systems for Video Technology 29, 10(2018), 2941\u20132959. https://doi.org/10.1109/TCSVT.2018.2870832",
+      "doi": ""
+    },
+    {
+      "text": "Alexandre Defossez, Gabriel Synnaeve, and Yossi Adi. 2020. Real Time Speech Enhancement in the Waveform Domain. ArXiv Preprint ArXiv:2006.12847(2020). https://doi.org/10.48550/arXiv.2006.12847",
+      "doi": ""
+    },
+    {
+      "text": "Carlos\u00a0Gonzalez Diaz, Phoenix Perry, and Rebecca Fiebrink. 2019. Interactive Machine Learning for More Expressive Game Interactions. In 2019 IEEE Conference on Games (CoG). IEEE, IEEE, 1\u20132. https://doi.org/10.1109/CIG.2019.8848007",
+      "doi": "10.1109/CIG.2019.8848007"
+    },
+    {
+      "text": "Ruofei Du, Eric Turner, Maksym Dzitsiuk, Luca Prasso, Ivo Duarte, Jason Dourgarian, Joao Afonso, Jose Pascoal, Josh Gladstone, Nuno Cruces, Shahram Izadi, Adarsh Kowdle, Konstantine Tsotsos, and David Kim. 2020. DepthLab: Real-Time 3D Interaction With Depth Maps for Mobile Augmented Reality. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology(UIST). ACM, 829\u2013843. https://doi.org/10.1145/3379337.3415881",
+      "doi": "10.1145/3379337.3415881"
+    },
+    {
+      "text": "Ruofei Du, Yinda Zhang, Ahmed Sabie, and Jason Mayes. 2022. Portrait Depth API: Turning a Single Image into a 3D Photo with TensorFlow.js. https://blog.tensorflow.org/2022/05/portrait-depth-api-turning-single-image.html",
+      "doi": ""
+    },
+    {
+      "text": "Rebecca Fiebrink, Perry\u00a0R Cook, and Dan Trueman. 2011. Human Model Evaluation in Interactive Supervised Learning. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 147\u2013156. https://doi.org/10.1145/1978942.1978965",
+      "doi": "10.1145/1978942.1978965"
+    },
+    {
+      "text": "Ruth Fong, Mandela Patrick, and Andrea Vedaldi. 2019. Understanding Deep Networks Via Extremal Perturbations and Smooth Masks. In Proceedings of the IEEE/CVF International Conference on Computer Vision. 2950\u20132958. https://doi.org/10.1109/ICCV.2019.00304",
+      "doi": ""
+    },
+    {
+      "text": "Krishna Gade, Sahin\u00a0Cem Geyik, Krishnaram Kenthapadi, Varun Mithal, and Ankur Taly. 2019. Explainable AI in Industry. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (Anchorage, AK, USA) (KDD \u201919). Association for Computing Machinery, New York, NY, USA, 3203\u20133204. https://doi.org/10.1145/3292500.3332281",
+      "doi": "10.1145/3292500.3332281"
+    },
+    {
+      "text": "Leo Gao, John Schulman, and Jacob Hilton. 2022. Scaling Laws for Reward Model Overoptimization. arXiv preprint arXiv:2210.10760(2022).",
+      "doi": ""
+    },
+    {
+      "text": "Michael Gleicher, Aditya Barve, Xinyi Yu, and Florian Heimerl. 2020. Boxer: Interactive Comparison of Classifier Results. Computer Graphics Forum (Jun. 2020). https://doi.org/10.1111/cgf.13972",
+      "doi": ""
+    },
+    {
+      "text": "Cl\u00e9ment Godard, Oisin Mac\u00a0Aodha, Michael Firman, and Gabriel\u00a0J Brostow. 2019. Digging Into Self-Supervised Monocular Depth Estimation. In Proceedings of the IEEE/CVF International Conference on Computer Vision. 3828\u20133838. https://doi.org/10.1109/ICCV.2019.00393",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2022. Colab. https://colab.sandbox.google.com/",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2022. Firebase. https://firebase.google.com",
+      "doi": ""
+    },
+    {
+      "text": "Google. 2022. TensorBoard. https://www.tensorflow.org/tensorboard",
+      "doi": ""
+    },
+    {
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016. Deep Residual Learning for Image Recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 770\u2013778. https://doi.org/10.1109/CVPR.2016.90",
+      "doi": ""
+    },
+    {
+      "text": "Wenbin He, Lincan Zou, Arvind\u00a0Kumar Shekar, Liang Gou, and Liu Ren. 2021. Where Can We Help? A Visual Analytics Approach to Diagnosing and Improving Semantic Segmentation of Movable Objects. IEEE Transactions on Visualization and Computer Graphics 28, 1(2021), 1040\u20131050. https://doi.org/10.1109/TVCG.2021.3114855",
+      "doi": "10.1109/TVCG.2021.3114855"
+    },
+    {
+      "text": "Fred Hohman, Minsuk Kahng, Robert Pienta, and Duen\u00a0Horng Chau. 2018. Visual Analytics in Deep Learning: an Interrogative Survey for the Next Frontiers. IEEE Transactions on Visualization and Computer Graphics 25, 8(2018), 2674\u20132693. https://doi.org/10.1109/TVCG.2018.2843369",
+      "doi": "10.1109/TVCG.2018.2843369"
+    },
+    {
+      "text": "Andrew Howard and Suyog Gupta. 2020. Background Features in Google Meet, Powered by Web ML. https://ai.googleblog.com/2019/11/introducing-next-generation-on-device.html",
+      "doi": ""
+    },
+    {
+      "text": "Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, 2019. Searching for MobileNetV3. In Proceedings of the IEEE/CVF International Conference on Computer Vision. 1314\u20131324. https://doi.org/10.1007/978-1-4842-6168-_11",
+      "doi": ""
+    },
+    {
+      "text": "Andrew\u00a0G Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, and Hartwig Adam. 2017. MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications. ArXiv Preprint ArXiv:1704.04861(2017). https://arxiv.org/pdf/1704.04861.",
+      "doi": ""
+    },
+    {
+      "text": "Gao Huang, Zhuang Liu, Laurens Van Der\u00a0Maaten, and Kilian\u00a0Q Weinberger. 2017. Densely Connected Convolutional Networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 4700\u20134708. https://doi.org/10.1109/CVPR.2017.243",
+      "doi": ""
+    },
+    {
+      "text": "Varun Jampani, Huiwen Chang, Kyle Sargent, Abhishek Kar, Richard Tucker, Michael Krainin, Dominik Kaeser, William\u00a0T Freeman, David Salesin, Brian Curless, 2021. SLIDE: Single Image 3D Photography With Soft Layering and Depth-Aware Inpainting. In Proceedings of the IEEE/CVF International Conference on Computer Vision. 12518\u201312527. https://doi.org/10.1109/ICCV48922.2021.01229",
+      "doi": ""
+    },
+    {
+      "text": "Katarzyna Janocha and Wojciech\u00a0Marian Czarnecki. 2017. On Loss Functions for Deep Neural Networks in Classification. https://doi.org/10.48550/ARXIV.1702.05659",
+      "doi": ""
+    },
+    {
+      "text": "Ellen Jiang, Kristen Olson, Edwin Toh, Alejandra Molina, Aaron Donsbach, Michael Terry, and Carrie Cai. 2022. PromptMaker: Prompt-Based Prototyping With Large\u00a0Language\u00a0Models. In CHI Conference on Human Factors in Computing Systems Extended Abstracts. ACM. https://doi.org/10.1145/3491101.3503564",
+      "doi": "10.1145/3491101.3503564"
+    },
+    {
+      "text": "David Johnson, Giuseppe Carenini, and Gabriel Murray. 2020. NJM-Vis: Interpreting Neural Joint Models in NLP. In Proceedings of the 25th International Conference on Intelligent User Interfaces (Cagliari, Italy) (IUI \u201920). Association for Computing Machinery, New York, NY, USA, 286\u2013296. https://doi.org/10.1145/3377325.3377513",
+      "doi": "10.1145/3377325.3377513"
+    },
+    {
+      "text": "G\u00e1bor Karsai. 1995. A Configurable Visual Programming Environment: a Tool for Domain-Specific Programming. Computer 28, 3 (1995), 36\u201344. https://doi.org/10.1109/2.366147",
+      "doi": "10.1109/2.366147"
+    },
+    {
+      "text": "Yury Kartynnik, Artsiom Ablavatski, Ivan Grishchenko, and Matthias Grundmann. 2019. Real-Time Facial Surface Geometry From Monocular Video on Mobile GPUs. ArXiv Preprint ArXiv:1907.06724(2019). https://arxiv.org/pdf/1907.06724",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Kluyver, Benjamin Ragan-Kelley, Fernando P\u00e9rez, Brian Granger, Matthias Bussonnier, Jonathan Frederic, Kyle Kelley, Jessica Hamrick, Jason Grout, Sylvain Corlay, Paul Ivanov, Dami\u00e1n Avila, Safia Abdalla, and Carol Willing. 6. Jupyter Notebooks - a Publishing Format for Reproducible Computational Workflows.",
+      "doi": ""
+    },
+    {
+      "text": "Yann LeCun, Yoshua Bengio, and Geoffrey Hinton. 2015. Deep Learning. Nature 521, 7553 (2015), 436\u2013444. https://doi.org/10.1109/ACCESS.2019.2912200",
+      "doi": ""
+    },
+    {
+      "text": "Na Li, Jason Mayes, and Ping Yu. 2021. ML Tools for the Web: a Way for Rapid Prototyping and HCI Research. 315\u2013343. https://doi.org/10.1007/978-3-030-82681-_10",
+      "doi": ""
+    },
+    {
+      "text": "Rensis Likert. 1932. A Technique for the Measurement of Attitudes. Archives of Psychology(1932).",
+      "doi": ""
+    },
+    {
+      "text": "Shanchuan Lin, Andrey Ryabtsev, Soumyadip Sengupta, Brian\u00a0L Curless, Steven\u00a0M Seitz, and Ira Kemelmacher-Shlizerman. 2021. Real-Time High-Resolution Background Matting. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 8762\u20138771. https://doi.org/10.1109/CVPR46437.2021.00865",
+      "doi": ""
+    },
+    {
+      "text": "Camillo Lugaresi, Jiuqiang Tang, Hadon Nash, Chris McClanahan, Esha Uboweja, Michael Hays, Fan Zhang, Chuo-Ling Chang, Ming\u00a0Guang Yong, Juhyun Lee, Wan-Teh Chang, Wei Hua, Manfred Georg, and Matthias Grundmann. 2019. MediaPipe: a Framework for Building Perception Pipelines. https://doi.org/10.48550/arXiv.1906.08172",
+      "doi": ""
+    },
+    {
+      "text": "MediaPipe. 2022. MediaPipe Selfie Segmentation. https://tfhub.dev/mediapipe/tfjs-model/selfie_segmentation/general/1",
+      "doi": ""
+    },
+    {
+      "text": "Ben Mildenhall, Pratul\u00a0P Srinivasan, Matthew Tancik, Jonathan\u00a0T Barron, Ravi Ramamoorthi, and Ren Ng. 2021. Nerf: Representing scenes as neural radiance fields for view synthesis. Commun. ACM 65, 1 (2021), 99\u2013106.",
+      "doi": "10.1145/3503250"
+    },
+    {
+      "text": "Sugeerth Murugesan, Sana Malik, Fan Du, Eunyee Koh, and Tuan\u00a0Manh Lai. 2019. DeepCompare: Visual and Interactive Comparison of Deep Learning Model Performance. (Sep. 2019). https://doi.org/10.1109/MCG.2019.2919033",
+      "doi": "10.1109/MCG.2019.2919033"
+    },
+    {
+      "text": "Ahmed Omran, Neil Zeghidour, Zal\u00e1n Borsos, F\u00e9lix de\u00a0Chaumont Quitry, Malcolm Slaney, and Marco Tagliasacchi. 2022. Disentangling Speech From Surroundings in a Neural Audio Codec. ArXiv Preprint ArXiv:2203.15578(2022). https://doi.org/10.48550/arXiv.2203.15578",
+      "doi": ""
+    },
+    {
+      "text": "Rohit Pandey, Sergio Escolano, Chloe Legendre, Christian H\u00c3\u00a4ne, Sofien Bouaziz, Christoph Rhemann, Paul Debevec, and Sean Fanello. 2021. Total Relighting. ACM Transactions on Graphics (Aug. 2021). https://doi.org/10.1145/3450626.3459872",
+      "doi": "10.1145/3450626.3459872"
+    },
+    {
+      "text": "Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Lukasz Kaiser, Noam Shazeer, Alexander Ku, and Dustin Tran. 2018. Image Transformer. In Proceedings of the 35th International Conference on Machine Learning(Proceedings of Machine Learning Research, Vol.\u00a080), Jennifer Dy and Andreas Krause (Eds.). PMLR, 4055\u20134064. https://doi.org/10.1109/CVPR46437.2021.01212",
+      "doi": ""
+    },
+    {
+      "text": "Donghao Ren, Bongshin Lee, and Tobias H\u00f6llerer. 2017. Stardust: Accessible and Transparent GPU Support for Information Visualization Rendering. Computer Graphics Forum (June 2017), 61\u201370. https://doi.org/10.1111/cgf.13178",
+      "doi": "10.1111/cgf.13178"
+    },
+    {
+      "text": "Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. 2015. Faster R-CNN: Towards Real-Time Object Detection With Region Proposal Networks. In Advances in Neural Information Processing Systems, C.\u00a0Cortes, N.\u00a0Lawrence, D.\u00a0Lee, M.\u00a0Sugiyama, and R.\u00a0Garnett (Eds.). Vol.\u00a028. Curran Associates, Inc.https://doi.org/10.5555/2969239.2969250",
+      "doi": "10.5555/2969239.2969250"
+    },
+    {
+      "text": "Alex Repenning. 1993. Agentsheets: A Tool for Building Domain-Oriented Visual Programming Environments. In Proceedings of the INTERACT \u201993 and CHI \u201993 Conference on Human Factors in Computing Systems (Amsterdam, The Netherlands) (CHI \u201993). Association for Computing Machinery, New York, NY, USA, 142\u2013143. https://doi.org/10.1145/169059.169119",
+      "doi": "10.1145/169059.169119"
+    },
+    {
+      "text": "Marco\u00a0Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2016. \"Why Should I Trust You?\": Explaining the Predictions of Any Classifier. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (San Francisco, California, USA) (KDD \u201916). Association for Computing Machinery, New York, NY, USA, 1135\u20131144. https://doi.org/10.1145/2939672.2939778",
+      "doi": "10.1145/2939672.2939778"
+    },
+    {
+      "text": "Lars Ruthotto and Eldad Haber. [n.d.]. An Introduction to Deep Generative Modeling. GAMM-Mitteilungen 44, 2 ([n. d.]), e202100008. https://doi.org/10.1002/gamm.202100008",
+      "doi": ""
+    },
+    {
+      "text": "Eldon Schoop, Forrest Huang, and Bjoern Hartmann. 2021. Umlaut: Debugging Deep Learning Programs Using Program Structure and Model Behavior. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1\u201316. https://doi.org/10.1145/3411764.3445538",
+      "doi": "10.1145/3411764.3445538"
+    },
+    {
+      "text": "Scratch. 2022. Scratch. https://scratch.mit.edu/",
+      "doi": ""
+    },
+    {
+      "text": "Hoo-Chang Shin, Holger\u00a0R. Roth, Mingchen Gao, Le Lu, Ziyue Xu, Isabella Nogues, Jianhua Yao, Daniel Mollura, and Ronald\u00a0M. Summers. 2016. Deep Convolutional Neural Networks for Computer-Aided Detection: CNN Architectures, Dataset Characteristics and Transfer Learning. IEEE Transactions on Medical Imaging 35, 5 (2016), 1285\u20131298. https://doi.org/10.1109/TMI.2016.2528162",
+      "doi": ""
+    },
+    {
+      "text": "Daniel Smilkov, Nikhil Thorat, Yannick Assogba, Ann Yuan, Nick Kreeger, Ping Yu, Kangyi Zhang, Shanqing Cai, Eric Nielsen, David Soergel, Stan Bileschi, Michael Terry, Charles Nicholson, Sandeep\u00a0N. Gupta, Sarah Sirajuddin, D. Sculley, Rajat Monga, Greg Corrado, Fernanda\u00a0B. Vi\u00e9gas, and Martin Wattenberg. 2019. TensorFlow.js: Machine Learning for the Web and Beyond. https://doi.org/10.48550/arXiv.1901.05350",
+      "doi": ""
+    },
+    {
+      "text": "Snap. 2022. Lens Studio. https://ar.snap.com/en-US/lens-studio",
+      "doi": ""
+    },
+    {
+      "text": "Samuel Sonning, Christian Sch\u00fcldt, Hakan Erdogan, and Scott Wisdom. 2020. Performance Study of a Convolutional Time-Domain Audio Separation Network for Real-Time Speech Denoising. In ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 831\u2013835. https://doi.org/10.1109/ICASSP40776.2020.9053846",
+      "doi": ""
+    },
+    {
+      "text": "Thilo Spinner, Udo Schlegel, Hanna Schafer, and Mennatallah El-Assady. 2019. ExplAIner: a Visual Analytics Framework for Interactive and Explainable Machine Learning. IEEE Transactions on Visualization and Computer Graphics (2019). https://doi.org/10.1109/TVCG.2019.2934629",
+      "doi": ""
+    },
+    {
+      "text": "Nisan Stiennon, Long Ouyang, Jeffrey Wu, Daniel Ziegler, Ryan Lowe, Chelsea Voss, Alec Radford, Dario Amodei, and Paul\u00a0F Christiano. 2020. Learning to Summarize with Human Feedback. Advances in Neural Information Processing Systems 33 (2020), 3008\u20133021.",
+      "doi": ""
+    },
+    {
+      "text": "WR Sutherland. 1966. On-Line Graphical Specification of Procedures. SJCC, Boston, Mass (1966).",
+      "doi": ""
+    },
+    {
+      "text": "Justin Talbot, Bongshin Lee, Ashish Kapoor, and Desney\u00a0S. Tan. 2009. EnsembleMatrix: Interactive Visualization to Support Machine Learning With Multiple Classifiers. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (Boston, MA, USA) (CHI \u201909). Association for Computing Machinery, New York, NY, USA, 1283\u20131292. https://doi.org/10.1145/1518701.1518895",
+      "doi": "10.1145/1518701.1518895"
+    },
+    {
+      "text": "Feitong Tan, Sean Fanello, Abhimitra Meka, Sergio Orts-Escolano, Danhang Tang, Rohit Pandey, Jonathan Taylor, Ping Tan, and Yinda Zhang. 2022. VoLux-GAN: a Generative Model for 3D Face Synthesis With HDRI Relighting. In Special Interest Group on Computer Graphics and Interactive Techniques Conference Proceedings. ACM. https://doi.org/10.1145/3528233.3530751",
+      "doi": "10.1145/3528233.3530751"
+    },
+    {
+      "text": "Ian Tenney, James Wexler, Jasmijn Bastings, Tolga Bolukbasi, Andy Coenen, Sebastian Gehrmann, Ellen Jiang, Mahima Pushkarna, Carey Radebaugh, Emily Reif, and Ann Yuan. 2020. The Language Interpretability Tool: Extensible, Interactive Visualizations and Analysis for NLP Models. https://doi.org/10.48550/ARXIV.2008.05122",
+      "doi": ""
+    },
+    {
+      "text": "TensorFlow. 2022. AR Portrait Depth API. https://tfhub.dev/tensorflow/tfjs-model/ar_portrait_depth",
+      "doi": ""
+    },
+    {
+      "text": "three.js authors. 2022. Three.js. https://threejs.org",
+      "doi": ""
+    },
+    {
+      "text": "TikTok. 2022. Effect House. https://effecthouse.tiktok.com/",
+      "doi": ""
+    },
+    {
+      "text": "Unity. 2022. Shade Graph. https://unity.com/features/shader-graph",
+      "doi": ""
+    },
+    {
+      "text": "Unity. 2022. Unity. https://unity.com/products/unity-platform",
+      "doi": ""
+    },
+    {
+      "text": "Unity. 2022. XNode. https://assetstore.unity.com/packages/tools/visual-scripting/xnode-104276",
+      "doi": ""
+    },
+    {
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan\u00a0N Gomez, Lukasz Kaiser, and Illia Polosukhin. 2017. Attention Is All You Need. Advances in Neural Information Processing Systems 30 (2017). https://doi.org/10.5555/3295222.3295349",
+      "doi": "10.5555/3295222.3295349"
+    },
+    {
+      "text": "Xintao Wang, Yu Li, Honglun Zhang, and Ying Shan. 2021. Towards Real-World Blind Face Restoration With Generative Facial Prior. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 9168\u20139178. https://doi.org/10.1109/CVPR46437.2021.00905",
+      "doi": ""
+    },
+    {
+      "text": "Zhihao Wang, Jian Chen, and Steven\u00a0CH Hoi. 2020. Deep Learning for Image Super-Resolution: A Survey. IEEE Transactions on Pattern Analysis and Machine Intelligence 43, 10(2020), 3365\u20133387. https://doi.org/10.1145/3485132",
+      "doi": "10.1145/3485132"
+    },
+    {
+      "text": "James Wexler, Mahima Pushkarna, Tolga Bolukbasi, Martin Wattenberg, Fernanda Vi\u00e9gas, and Jimbo Wilson. 2019. The What-If Tool: Interactive Probing of Machine Learning Models. IEEE Transactions on Visualization and Computer Graphics 26, 1(2019), 56\u201365. https://doi.org/10.1109/TVCG.2019.2934619",
+      "doi": ""
+    },
+    {
+      "text": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, R\u00e9mi Louf, Morgan Funtowicz, 2019. Huggingface\u2019s Transformers: State-of-the-Art Natural Language Processing. ArXiv Preprint ArXiv:1910.03771(2019). https://arxiv.org/pdf/1910.03771",
+      "doi": ""
+    },
+    {
+      "text": "Tongshuang Wu, Ellen Jiang, Aaron Donsbach, Jeff Gray, Alejandra Molina, Michael Terry, and Carrie Cai. 2022. PromptChainer: Chaining Large Language Model Prompts Through Visual Programming. In CHI Conference on Human Factors in Computing Systems Extended Abstracts. ACM. https://doi.org/10.1145/3491101.3519729",
+      "doi": "10.1145/3491101.3519729"
+    },
+    {
+      "text": "Tongshuang Wu, Michael Terry, and Carrie Cai. 2022. AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts. In CHI Conference on Human Factors in Computing Systems. ACM. https://doi.org/10.1145/3491102.3517582",
+      "doi": "10.1145/3491102.3517582"
+    },
+    {
+      "text": "Ning Xu, Brian Price, Scott Cohen, and Thomas Huang. 2017. Deep Image Matting. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2970\u20132979. https://doi.org/10.1109/CVPR.2017.41",
+      "doi": ""
+    },
+    {
+      "text": "Xiwei Xuan, Xiaoyu Zhang, Oh-Hyun Kwon, and Kwan-Liu Ma. 2022. VAC-CNN: a Visual Analytics System for Comparative Studies of Deep Convolutional Neural Networks. IEEE Transactions on Visualization and Computer Graphics 28, 6 (jun 2022), 2326\u20132337. https://doi.org/10.1109/TVCG.2022.3165347",
+      "doi": "10.1109/TVCG.2022.3165347"
+    },
+    {
+      "text": "Jun Yuan, Changjian Chen, Weikai Yang, Mengchen Liu, Jiazhi Xia, and Shixia Liu. 2021. A Survey of Visual Analytics Techniques for Machine Learning. Computational Visual Media 7, 1 (2021), 3\u201336. https://doi.org/10.1109/ACCESS.2019.2958551",
+      "doi": ""
+    },
+    {
+      "text": "Fan Zhang, Valentin Bazarevsky, Andrey Vakunov, Andrei Tkachenka, George Sung, Chuo-Ling Chang, and Matthias Grundmann. 2020. Mediapipe Hands: On-Device Real-Time Hand Tracking. ArXiv Preprint ArXiv:2006.10214(2020). https://arxiv.org/pdf/2006.10214",
+      "doi": ""
+    },
+    {
+      "text": "Yinda Zhang, Neal Wadhwa, Sergio Orts-Escolano, Christian H\u00e4ne, Sean Fanello, and Rahul Garg. 2020. Du2Net: Learning Depth Estimation From Dual-Cameras and Dual-Pixels. In European Conference on Computer Vision. Springer, Springer, 582\u2013598. https://doi.org/10.1007/978-3-030-58452-8_34",
+      "doi": "10.1007/978-3-030-58452-8_34"
+    }
+  ]
+}
