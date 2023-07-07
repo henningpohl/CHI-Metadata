@@ -1,4 +1,4 @@
-from augment import augment_paper_author
+from augment import augment_paper_author, remove_paper_author
 
 
 # Only partial name on paper and wrong acmid
@@ -10,6 +10,9 @@ augment_paper_author(
     dict(name='Vinayak -'),
     dict(acmid='99659451839', name='Vinayak Krishnamurthy'))
 
-
+remove_paper_author(
+    1992,
+    '10.1145/142750.142832',
+    dict(acmid='81332505988'))
 
 

@@ -73,6 +73,26 @@ def augment_paper_author(year, doi, author, fields):
         
     if changes > 0:
         __save(fn, data)
+
+def remove_paper_author(year, doi, author):
+    doi = doi.replace('/', '+')
+    fn = os.path.join('..', 'data', 'papers', str(year), f'{doi}.json')
+    data = __load(fn)
+
+    remove = -1
+    for i, adata in enumerate(data['authors']):
+        if 'name' in author and author['name'] == adata['name']:
+            pass
+        elif 'acmid' in author and author['acmid'] == adata['acmid']:
+            pass
+        elif 'orcid' in author and author['orcid'] == adata['orcid']:
+            pass
+        else:
+            continue
+        remove = i
+    if remove != -1:
+        data['authors'].pop(remove)
+        __save(fn, data)
   
 if __name__ == '__main__':
     #augment_conference('CHI', 2023, dict(test='test'))
