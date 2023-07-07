@@ -74,6 +74,32 @@ def augment_paper_author(year, doi, author, fields):
     if changes > 0:
         __save(fn, data)
 
+def add_paper_author(year, doi, author):
+    if 'name' not in author:
+        return
+    
+    doi = doi.replace('/', '+')
+    fn = os.path.join('..', 'data', 'papers', str(year), f'{doi}.json')
+    data = __load(fn)
+
+    for i, adata in enumerate(data['authors']):
+        if 'name' in author and author['name'] == adata['name']:
+            return
+        elif 'acmid' in author and author['acmid'] == adata['acmid']:
+            return
+        elif 'orcid' in author and author['orcid'] == adata['orcid']:
+            return
+
+    if 'acmid' not in author:
+        author['acmid'] = 'missing'
+    if 'orcid' not in author:
+        author['orcid'] = 'missing'
+    if 'img' not in author:
+        author['img'] = '/pb-assets/icons/DOs/default-profile-1543932446943.svg'
+
+    data['authors'].append(author)
+    __save(fn, data)
+
 def remove_paper_author(year, doi, author):
     doi = doi.replace('/', '+')
     fn = os.path.join('..', 'data', 'papers', str(year), f'{doi}.json')
