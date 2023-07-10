@@ -13,9 +13,9 @@ for folder in os.listdir(basedir):
             print('deleting', fn)
             os.remove(os.path.join(folder, fn))
 
-chipapers = pd.read_csv(os.path.join('..', 'data', 'chipapers.csv'))
+chipapers = set(pd.read_csv(os.path.join('..', 'data', 'chipapers.csv'))['doi'])
 for doi in excluded:
-    if doi in chipapers['doi']:
+    if doi in chipapers:
         print(doi, 'should not be in chipapers.csv')
 
 print('done')
