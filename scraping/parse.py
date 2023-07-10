@@ -194,13 +194,12 @@ def process_series(content):
     results = []
     for conf in soup.select('ul.conference__proceedings__container li.conference__proceedings div.conference__title'):
         links = conf.select('a')
-        if len(links) > 0:
-            links = [l for l in links if 'proceedings' in l.text.lower()]
+        link = [l for l in links if 'proceedings' in l.text.lower()][0] # goes wrong for 1981, but we remove that one anyway
         results.append({
-            'name': links[0].text,
-            'year': parse_year(links[0].text),
-            'url': 'https://dl.acm.org' + links[0]['href'],
-            'doi': links[0]['href'].removeprefix('/doi/proceedings/')
+            'name': link.text,
+            'year': parse_year(link.text),
+            'url': 'https://dl.acm.org' + link['href'],
+            'doi': link['href'].removeprefix('/doi/proceedings/')
         })        
     return results
 
@@ -208,9 +207,9 @@ def process_series(content):
 if __name__ == '__main__':
     #with open('../cache/conferences/CHI2005.html', 'r', encoding='utf8') as f:
     #    process_conference(f.read())
-    #with open('../cache/series/CHI.html', 'r', encoding='utf8') as f:
-    #     process_series(f.read())
+    with open('../cache/series/CHI.html', 'r', encoding='utf8') as f:
+         process_series(f.read())
     #with open('../cache/papers/10.1145+3544548.3581258.html', 'r', encoding='utf8') as f:
     #    print(process_paper(f.read())['authors'])
-    with open('../cache/papers/10.1145+3025453.3026015.html', 'r', encoding='utf8') as f:
-        print(process_paper(f.read())['authors'])
+    #with open('../cache/papers/10.1145+3025453.3026015.html', 'r', encoding='utf8') as f:
+    #    print(process_paper(f.read())['authors'])
