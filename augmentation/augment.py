@@ -62,6 +62,14 @@ def augment_paper_award(year, doi, awards):
     if changes > 0:
         __save(fn, data)
 
+def augment_paper_pages(year, doi, pages):
+    doi = doi.replace('/', '+')
+    fn = os.path.join('..', 'data', 'papers', str(year), f'{doi}.json')
+    data = __load(fn)
+    if data['pages'] != pages:
+        data['pages'] = pages
+        __save(fn, data)
+
 def augment_paper_author(year, doi, author, fields):
     doi = doi.replace('/', '+')
     fn = os.path.join('..', 'data', 'papers', str(year), f'{doi}.json')
