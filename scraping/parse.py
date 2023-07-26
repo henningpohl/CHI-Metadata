@@ -49,11 +49,11 @@ def process_paper(content):
         pages = pages.text.removeprefix('Pages ').strip()
     pages = pages.replace('\u2013', '-') # en dash to hyphen
 
-    badges = soup.select_one('h3 div.badges')
+    badges = soup.select_one('span.badges')
     if badges == None:
         badges = []
     else:
-        badges = [x.text for x in badges.select('span.info--text')]    
+        badges = [x.text for x in badges.select('a div')]    
 
     authors = []
     for author in soup.select('.loa > .loa__item'):
@@ -207,9 +207,11 @@ def process_series(content):
 if __name__ == '__main__':
     #with open('../cache/conferences/CHI2005.html', 'r', encoding='utf8') as f:
     #    process_conference(f.read())
-    with open('../cache/series/CHI.html', 'r', encoding='utf8') as f:
-         process_series(f.read())
+    #with open('../cache/series/CHI.html', 'r', encoding='utf8') as f:
+    #     process_series(f.read())
     #with open('../cache/papers/10.1145+3544548.3581258.html', 'r', encoding='utf8') as f:
     #    print(process_paper(f.read())['authors'])
     #with open('../cache/papers/10.1145+3025453.3026015.html', 'r', encoding='utf8') as f:
     #    print(process_paper(f.read())['authors'])
+    with open('../cache/papers/10.1145+3544548.3581196.html', 'r', encoding='utf8') as f:
+        print(process_paper(f.read())['badges'])
