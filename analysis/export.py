@@ -14,9 +14,31 @@ def paper_iter():
         with open(paper, 'r', encoding='utf-8') as f:
             yield json.load(f)
 
+def to_page_count(page_range):
+    if len(page_range) == 0:
+        return -1
+    if '-' not in page_range:
+        return 1
+
+    try:
+        a, b = page_range.split('-')
+        return int(b) - int(a) + 1
+    except:
+        return -1
+
 awards = []
 authors = []
+info = []
+
 for paper in paper_iter():
+    info.append({
+        'year': paper['year'],
+        'doi': paper['doi'],
+        'published': paper['published'],
+        'page_range': paper['pages'],
+        'page_count': to_page_count(paper['pages'])
+    })
+   
     for badge in paper['badges']:
         awards.append({
             'year': paper['year'],
@@ -32,6 +54,12 @@ for paper in paper_iter():
             'name': author['name'],
             'institution': author['institution']
         })
+
+info = pd.DataFrame(info)
+info.to_csv('paperinfos.csv', index=False)
+print(len(info), 'paper infos collected')
+
+        
 awards = pd.DataFrame(awards)
 awards.to_csv('awards.csv', index=False)
 print(len(awards), 'awards collected')
