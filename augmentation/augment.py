@@ -44,6 +44,24 @@ def augment_conference(name, year, fields):
     if changes > 0:
         __save(fn, data)
 
+def augment_paper_award(year, doi, awards):
+    doi = doi.replace('/', '+')
+    fn = os.path.join('..', 'data', 'papers', str(year), f'{doi}.json')
+    data = __load(fn)
+
+    changes = 0
+    missing = set(awards) - set(data['badges'])
+    toremove = set(data['badges']) - set(awards)
+    if len(missing) > 0:
+        changes = changes + 1
+        data['badges'].extend(missing)
+    if len(toremove) > 0:
+        changes = changes + 1
+        data['badges'] = [x for x in data['badges'] if x not in toremove]
+
+    if changes > 0:
+        __save(fn, data)
+
 def augment_paper_author(year, doi, author, fields):
     doi = doi.replace('/', '+')
     fn = os.path.join('..', 'data', 'papers', str(year), f'{doi}.json')
