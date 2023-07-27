@@ -13,3 +13,4 @@
     3) `/augmentation/orcid_backfill.py` finds orcid ids from the full set of papers and adds them to earlier papers of the authors. Some manual overrides are defined in the script as well.
     4) `/augmentation/other_fixes.py` are some random corrections that did not fit in elsewhere, such as removing wrong authors.
 	5) `/augmentation/add_awards.py` fills in award information for CHI 2010-2015, where this information is not listed on the paper pages.
+	6) `/augmentation/affiliation_fixes.py` applies a bunch of manual correction to author affiliations where this was missing from the paper pages.
