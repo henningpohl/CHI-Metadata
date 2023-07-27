@@ -1,21 +1,8 @@
-import os
-import json
 import pandas as pd
-
-def file_iter(basedir):
-    for year in os.listdir(basedir):
-        folder = os.path.join(basedir, year)
-        for fn in os.listdir(folder):
-            if fn.endswith('.json'):
-                yield os.path.join(folder, fn)
-
-def paper_iter():
-    for paper in file_iter(os.path.join('..', 'data', 'papers')):
-        with open(paper, 'r', encoding='utf-8') as f:
-            yield json.load(f)
+from data import paper_iter
 
 missing = []
-for paper in paper_iter():
+for year, doi, paper in paper_iter():
     for author in paper['authors']:
         if author['institution'] == 'missing':
             missing.append({
