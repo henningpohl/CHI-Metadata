@@ -5,11 +5,11 @@ def apply_fixes():
     data = pd.read_csv('author_id_fixes.csv')
     for row in data.itertuples():
         augment_paper_author(
-            fix.year,
-            fix.doi,
-            dict(name=fix.name),
-            dict(acmid=fix.acmid, orcid=fix.orcid))
-        print(f'Updated info for {fix.name}')
+            row.year,
+            row.doi,
+            dict(name=row.name),
+            dict(acmid=row.acmid, orcid=row.orcid))
+        print(f'Updated info for {row.name}')
 
 # Hacky fixes for acmids that were remapped later on
 def recode_acmids():
