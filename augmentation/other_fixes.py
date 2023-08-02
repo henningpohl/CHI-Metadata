@@ -15,6 +15,12 @@ remove_paper_author(
     '10.1145/142750.142832',
     dict(acmid='81332505988'))
 
+augment_paper_author(
+    2014,
+    '10.1145/2556288.2556957',
+    dict(name='Soroush Vosoughi'),
+    dict(acmid='99660786853', img='/pb-assets/icons/DOs/default-profile-1543932446943.svg'))
+
 # not actually a paper so removed now
 #add_paper_author(
 #    1992,
