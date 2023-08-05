@@ -23,7 +23,8 @@ for year, doi, paper in paper_iter():
         'doi': paper['doi'],
         'published': paper['published'],
         'page_range': paper['pages'],
-        'page_count': to_page_count(paper['pages'])
+        'page_count': to_page_count(paper['pages']),
+        'reference_count': len(paper['references'])
     })
    
     for badge in paper['badges']:
@@ -41,6 +42,7 @@ for year, doi, paper in paper_iter():
             'name': author['name'],
             'institution': author['institution']
         })
+
 
 info = pd.DataFrame(info)
 info.to_csv('paperinfos.csv', index=False)
