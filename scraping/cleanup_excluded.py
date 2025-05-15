@@ -1,7 +1,14 @@
 import os
 import pandas as pd
 
-excluded = set(pd.read_csv('exclude_list.csv')['doi'])
+data = pd.read_csv('exclude_list.csv')
+duplicates = data.groupby('doi').size()
+if len(duplicates[duplicates > 1]) > 0:
+    print('duplicated exclusions:')
+    print(duplicates[duplicates > 1])
+    print()
+excluded = set(data['doi'])
+print(len(excluded), 'papers excluded')
 
 basedir = os.path.join('..', 'data', 'papers')
 for folder in os.listdir(basedir):
