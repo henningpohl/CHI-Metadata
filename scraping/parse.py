@@ -173,9 +173,6 @@ def process_conference(content):
                 continue
 
             title = paper.select_one('div.issue-item__content h5.issue-item__title').text
-            if (conf['year'] == 1985) and ('panel session' in title):
-                continue
-            
             conf['papers'].append({
                 'doi': paper.select_one('div.issue-item__content h5.issue-item__title a')['href'].removeprefix('/doi/'),
                 'title': title,
