@@ -50,9 +50,8 @@ def get_mapping():
         data.to_csv('acmid_to_orcid_map.csv', index=False)
 
     return pd.Series(data['orcid'].values, index=data['acmid']).to_dict()
-            
 
-if __name__ == '__main__':
+def backfill_orcid():
     idmap = get_mapping()
 
     def update_paper(data):       
@@ -69,3 +68,6 @@ if __name__ == '__main__':
         return changes, data
         
     augment_papers_with(update_paper)
+    
+if __name__ == '__main__':
+    backfill_orcid()

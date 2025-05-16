@@ -50,7 +50,7 @@ def get_acceptance_rates():
     data.to_csv('acceptance_rates.csv', index=False)
     return data
 
-if __name__ == '__main__':
+def augment_acceptance_rates():
     data = get_acceptance_rates()
     
     for row in data.itertuples():
@@ -63,3 +63,5 @@ if __name__ == '__main__':
         print('Added acceptance rate data for CHI %d' % row.Year)      
 
     
+if __name__ == '__main__':
+    augment_acceptance_rates()

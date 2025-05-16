@@ -1,7 +1,7 @@
 import pandas as pd
 from augment import augment_paper_author, augment_papers_with
 
-def apply_fixes():
+def apply_author_fixes():
     data = pd.read_csv('author_id_fixes.csv')
     for row in data.itertuples():
         augment_paper_author(
@@ -25,9 +25,9 @@ def recode_acmids():
                 print('changed', data['doi'])
         return (changes, data)
     augment_papers_with(recode_ids)
-        
+
 if __name__ == '__main__':
-    apply_fixes()
+    apply_author_fixes()
     recode_acmids()
 
 

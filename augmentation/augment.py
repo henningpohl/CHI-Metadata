@@ -26,6 +26,9 @@ def augment_papers_with(fun):
 
 def augment_conference(name, year, fields):
     fn = os.path.join('..', 'data', 'conferences', f'{name}-{year}.json')
+    if not os.path.exists(fn):
+        print(year, 'conference not found, skipping...')
+        return
 
     data = __load(fn)
     changes = 0
@@ -47,6 +50,9 @@ def augment_conference(name, year, fields):
 def augment_paper_award(year, doi, awards):
     doi = doi.replace('/', '+')
     fn = os.path.join('..', 'data', 'papers', str(year), f'{doi}.json')
+    if not os.path.exists(fn):
+        print(doi, 'not found, skipping...')
+        return
     data = __load(fn)
 
     changes = 0
@@ -65,6 +71,9 @@ def augment_paper_award(year, doi, awards):
 def augment_paper(year, doi, fields):
     doi = doi.replace('/', '+')
     fn = os.path.join('..', 'data', 'papers', str(year), f'{doi}.json')
+    if not os.path.exists(fn):
+        print(doi, 'not found, skipping...')
+        return
     data = __load(fn)
 
     changes = 0
@@ -86,6 +95,9 @@ def augment_paper(year, doi, fields):
 def augment_paper_author(year, doi, author, fields):
     doi = doi.replace('/', '+')
     fn = os.path.join('..', 'data', 'papers', str(year), f'{doi}.json')
+    if not os.path.exists(fn):
+        print(doi, 'not found, skipping...')
+        return
     data = __load(fn)
 
     changes = 0
@@ -119,6 +131,9 @@ def add_paper_author(year, doi, author):
     
     doi = doi.replace('/', '+')
     fn = os.path.join('..', 'data', 'papers', str(year), f'{doi}.json')
+    if not os.path.exists(fn):
+        print(doi, 'not found, skipping...')
+        return
     data = __load(fn)
 
     for i, adata in enumerate(data['authors']):

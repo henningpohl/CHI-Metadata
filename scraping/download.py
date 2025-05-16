@@ -1,6 +1,5 @@
 import os
 import time
-import cfscrape
 import requests
 from datetime import date, datetime
 from fake_useragent import UserAgent
@@ -46,9 +45,8 @@ def grab_page_selenium(url):
 def grab_page(url):
     session = requests.session()
     session.headers = {'User-Agent': UserAgent().random}
-    scraper = cfscrape.create_scraper(sess=session)
     
-    data = scraper.get(url).text
+    data = session.get(url).text
     return data
 
 def grab_paper(url):
@@ -139,4 +137,5 @@ def grab_conference(url):
 if __name__ == '__main__':
     #grab_paper('https://dl.acm.org/doi/10.1145/67449.67479')
     #grab_page_selenium('https://dl.acm.org/doi/10.1145/67449.67479')
-    grab_conference('https://dl.acm.org/doi/proceedings/10.1145/3173574')
+    #grab_conference('https://dl.acm.org/doi/proceedings/10.1145/3173574')
+    print(grab_page('https://en.wikipedia.org/wiki/Conference_on_Human_Factors_in_Computing_Systems'))        

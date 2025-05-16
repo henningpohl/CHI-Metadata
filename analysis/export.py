@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from data import paper_iter
 
@@ -45,14 +46,14 @@ for year, doi, paper in paper_iter():
 
 
 info = pd.DataFrame(info)
-info.to_csv('paperinfos.csv', index=False)
+info.to_csv(os.path.join('..', 'data', 'paperinfos.csv'), index=False)
 print(len(info), 'paper infos collected')
 
         
 awards = pd.DataFrame(awards)
-awards.to_csv('awards.csv', index=False)
+awards.to_csv(os.path.join('..', 'data', 'awards.csv'), index=False)
 print(len(awards), 'awards collected')
 
 authors = pd.DataFrame(authors)
-authors.to_csv('paperauthors.csv', index=False)
+authors.to_csv(os.path.join('..', 'data', 'paperauthors.csv'), index=False)
 print(len(authors), 'author items collected')
