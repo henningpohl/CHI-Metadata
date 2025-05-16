@@ -37,12 +37,14 @@ def get_mapping():
                 print(author['orcid'])
 
         # manual handling of a few cases with
-        # conflicting/wrong orcids in the dataset
+        # missing/conflicting/wrong orcids in the dataset
+        data['81100168814'] = '0000-0002-4827-0240'
         data['81328490974'] = '0000-0003-3873-6366'
         data['99659261679'] = '0000-0001-9382-6466'
         data['99658640651'] = '0000-0002-9425-0881'
         data['99659162915'] = 'missing'
         data['81551198756'] = 'missing'
+        
         #data[''] = ''
 
         data = pd.DataFrame.from_dict(data, orient='index').reset_index()

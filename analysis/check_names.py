@@ -6,7 +6,9 @@ for year, doi, paper in paper_iter():
     for author in paper['authors']:
         parts = author['name'].split(' ')
         # just initials first name
-        if len(parts) == 2 and len(parts[0]) == 2 and '.' in parts[0]:
+        initials_only = len([p for p in parts if '.' in p])
+        
+        if len(parts) - initials_only < 2:
             initials_cases.append({
                 'year': paper['year'],
                 'doi': paper['doi'],
