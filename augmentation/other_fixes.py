@@ -26,7 +26,7 @@ def apply_other_fixes():
         1988,
         '10.1145/57167.57192',
         dict(name='R. Guidon', acmid='81332502415'),
-        dict(acmid='81329489045', name=''))
+        dict(acmid='81329489045', name='Raymonde Guindon'))
 
     # Some missing authors
     add_paper_author(
