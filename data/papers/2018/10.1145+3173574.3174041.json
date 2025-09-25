@@ -7,6 +7,14 @@
   "year": 2018,
   "badges": [],
   "abstract": "Real-time crowdsourcing has made it possible to solve problems that are beyond the scope of artificial intelligence (AI) within a matter of seconds, rather than hours or days with traditional crowdsourcing techniques. While this has led to an increase in the potential application domains of crowdsourcing and human computation, problems that require machine-level speeds---on the order of milliseconds, not seconds---have remained out of reach because of the fundamental bounds of human perception and response time. In this paper, we demonstrate that it is possible to exceed these bounds by combining human and machine intelligence. We introduce the look-ahead approach, a hybrid intelligence workflow that enables instantaneous crowdsourcing systems (i.e., those that can return crowd responses within mere milliseconds). The look-ahead approach works by exploring possible future states that may be encountered within a short time horizon (e.g., a few seconds into the future) and prefetching crowd worker responses to these states. We validate the efficacy and explore the limitations of our approach on the Bolt system, which consists of an arcade-style game (Lightning Dodger) that we formally model as a Markov Decision Process (MDP). When the MDP reward function is unspecified---as in many real-world tasks---the look-ahead approach enables just-in-time (JIT) training of the agent's policy function. Through a series of crowd worker experiments, we demonstrate that the look-ahead approach can outperform the fastest individual worker by approximately two orders of magnitude. Our work opens new avenues for hybrid intelligence systems that are as smart as people, but also far faster than humanly possible.",
+  "tags": [
+    "human computation",
+    "continuous crowdsourcing",
+    "instantaneous crowdsourcing",
+    "real-time systems",
+    "interactive crowdsourcing",
+    "real-time crowdsourcing"
+  ],
   "authors": [
     {
       "name": "Alan Lundgard",

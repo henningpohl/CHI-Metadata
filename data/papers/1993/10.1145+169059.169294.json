@@ -7,6 +7,14 @@
   "year": 1993,
   "badges": [],
   "abstract": "The development of user interfaces for large applications is subject to a series of well-known problems including cost, maintainability, and sensitivity to changes in the operating environment. The Chiron user interface development system has been built to address these software engineering concerns. Chiron introduces a series of layers that insulate components of an application from other components that may experience change. To separate application code from user interface code, user interface agents called artists are attached to application abstract data types. Operations on abstract data types within the application implicitly trigger user interface activities. Chiron also provides insulation between the user interface layer and the underlying system; artist   code is written in terms of abstract depiction libraries that insulate the code from the specifics of particular windowing systems and toolkits. Concurrency is pervasive in the Chiron architecture. Inside an application there can be multiple execution threads; there is no requirement for a user interface listening/dispatching routine to have exclusive control. Multiple artists can be attached to a single application abstract data type, providing alternative forms of access by a single user or coordinated access and manipulation by multiple users.",
+  "tags": [
+    "event-based integration",
+    "concurrency",
+    "user interface management systems (UIMS)",
+    "artists",
+    "modularization of UIMS",
+    "GUI construction"
+  ],
   "authors": [
     {
       "name": "Richard N. Taylor",

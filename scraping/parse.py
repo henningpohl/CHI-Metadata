@@ -101,7 +101,12 @@ def process_paper(content):
                 'text': content,
                 'doi': try_get_doi(reference)
             })
-        
+
+    tags = []
+    tag_sec = soup.select_one('div.tags-widget__content')
+    if tag_sec != None:
+        for tag in tag_sec.select('ul > li > a'):
+            tags.append(tag.text.strip())       
 
     return {
         'doi': doi,
@@ -112,6 +117,7 @@ def process_paper(content):
         'year': published.year,
         'badges': badges,
         'abstract': abstract,
+        'tags': tags,
         'authors': authors,
         'references': references
     }
