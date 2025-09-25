@@ -147,10 +147,14 @@ def parse_chairs(block):
 def process_conference(content):
     soup = BeautifulSoup(content, 'html.parser')
 
+    doi_link = soup.select_one('div.overlay-cover-wrapper a')
+    if not doi_link:
+        doi_link = soup.select('a.article__tocHeading')[-1]
+
     conf = {
         'title': soup.select_one('div.left-bordered-title').text.strip(),
         'year': int(soup.select_one('div.coverDate').text),
-        'doi': soup.select_one('div.overlay-cover-wrapper a')['href'].removeprefix('/doi/proceedings/'),
+        'doi': doi_link['href'].removeprefix('/doi/proceedings/'),
         'chairs': []
     }
 
@@ -178,14 +182,24 @@ def process_conference(content):
                 skipped.add(papertype)
                 continue
 
-            title = paper.select_one('div.issue-item__content h5.issue-item__title').text
+            title = paper.select_one('div.issue-item__content h5.issue-item__title')
+            if not title:
+                title = paper.select_one('div.issue-item__content h3.issue-item__title')
+
+            badges = paper.select_one('div.badges')
+            if badges:
+                badges = badges.text
+            else:
+                badges = ''
+    
             conf['papers'].append({
-                'doi': paper.select_one('div.issue-item__content h5.issue-item__title a')['href'].removeprefix('/doi/'),
-                'title': title,
+                'doi': title.select_one('a')['href'].removeprefix('/doi/'),
+                'title': title.text,
                 'session': heading,
                 'papertype': papertype,
-                'badges': paper.select_one('div.badges').text
+                'badges': badges
             })
+                
     if len(skipped) > 1:
         print('Skipped', ', '.join(skipped))
 
@@ -216,5 +230,6 @@ if __name__ == '__main__':
     #    print(process_paper(f.read())['authors'])
     #with open('../cache/papers/10.1145+3025453.3026015.html', 'r', encoding='utf8') as f:
     #    print(process_paper(f.read())['authors'])
-    with open('../cache/papers/10.1145+3544548.3581196.html', 'r', encoding='utf8') as f:
-        print(process_paper(f.read())['badges'])
+    #with open('../cache/papers/10.1145+3544548.3581196.html', 'r', encoding='utf8') as f:
+    #    print(process_paper(f.read())['badges'])
+    pass

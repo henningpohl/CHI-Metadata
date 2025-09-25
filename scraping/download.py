@@ -81,7 +81,7 @@ def grab_paper_with_retries(url, sleeptime=30):
             time.sleep(60 * 5)
 
 def grab_series(url):
-    return grab_paper(url)
+    return grab_page_selenium(url)
 
 def grab_series_with_retries(url, sleeptime=30):
     return grab_paper_with_retries(url, sleeptime)
@@ -95,12 +95,25 @@ def grab_conference(url):
     driver = webdriver.Chrome(options=chromeOptions)
     driver.get(url)
     WebDriverWait(driver, timeout=600).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'footer.footer')))
+    print('initial load completed')
+
+    # dismiss cookie banner if necessary
+    elements = driver.find_elements(By.CSS_SELECTOR, 'button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll')
+    for e in elements:
+        e.click()
+        time.sleep(1)    
 
     wait = WebDriverWait(driver, timeout=20, poll_frequency=0.5)
     elements = driver.find_elements(By.CSS_SELECTOR, "div.item-meta a.removed-items-count")
     for e in elements:
         driver.execute_script("arguments[0].dispatchEvent(new MouseEvent('mousedown', {bubbles:true}));", e)
         time.sleep(1)
+    elements = driver.find_elements(By.CSS_SELECTOR, "button.item-meta a.removed-items-count")
+    for e in elements:
+        e.click()
+        time.sleep(1)
+
+    time.sleep(10)
 
     collapsed = driver.find_elements(By.CSS_SELECTOR, "div.toc__section > a[aria-expanded='false']")
     if len(collapsed) > 0:
@@ -108,7 +121,7 @@ def grab_conference(url):
         for link in collapsed:
             driver.execute_script("arguments[0].scrollIntoView(true);", link)
             driver.execute_script("arguments[0].click();", link)
-            time.sleep(5)
+            time.sleep(10)
         print('Waiting for all sections to load...')
         WebDriverWait(driver, timeout=600, poll_frequency=1).until(EC.none_of(EC.presence_of_element_located((By.CSS_SELECTOR, 'div.lazy-loaded'))))
         print('Done loading sections')
@@ -138,4 +151,4 @@ if __name__ == '__main__':
     #grab_paper('https://dl.acm.org/doi/10.1145/67449.67479')
     #grab_page_selenium('https://dl.acm.org/doi/10.1145/67449.67479')
     #grab_conference('https://dl.acm.org/doi/proceedings/10.1145/3173574')
-    print(grab_page('https://en.wikipedia.org/wiki/Conference_on_Human_Factors_in_Computing_Systems'))        
+    print(grab_page('https://en.wikipedia.org/wiki/Conference_on_Human_Factors_in_Computing_Systems'))

@@ -23,7 +23,11 @@ def get_conference_data(year, doi, exclude=[]):
     fn = os.path.join('..', 'data', 'conferences', f'CHI-{year}.json')
     if os.path.exists(fn):
         with open(fn, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            data = json.load(f)
+            dois = set([p['doi'] for p in data['papers']])
+            if len(dois.intersection(set(exclude))) > 0:
+                print(f'Rerun CHI {year} to remove exluded papers')
+            return data
 
     conf_data = cache.get_conference(year, doi)
     data = parse.process_conference(conf_data)
@@ -36,7 +40,7 @@ def get_conference_data(year, doi, exclude=[]):
 if __name__ == '__main__':
     import pandas as pd
     exclude = set(pd.read_csv('exclude_list.csv')['doi'])
-    
+   
     series = get_chi_list()   
     papers = []
     for conference in series:

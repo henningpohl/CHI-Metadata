@@ -21,6 +21,11 @@ def get_resource(cachetype, cacheid):
     else:
         return None
 
+def invalidate_resource(cachetype, cacheid):
+    fn = __get_fn(cachetype, cacheid)
+    if os.path.exists(fn):
+        os.remove(fn)
+
 def write_resource(cachetype, cacheid, data):
     fn = __get_fn(cachetype, cacheid)
     with open(fn, 'w', encoding='utf8') as f:
